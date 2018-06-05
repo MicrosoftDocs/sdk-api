@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dwmapi.DwmGetUnmetTabRequirements
+title: DwmGetUnmetTabRequirements function
+author: windows-sdk-content
+description: Note  This function is publically available, but nonfunctional, for Windows 10, version 1803.Checks the requirements needed to get tabs in the application title bar for the specified window.
+old-location: dwm\dwmgetunmettabrequirements.htm
+old-project: dwm
+ms.assetid: 8E67E1BE-D6FC-4A8A-8E71-45B6F337E3BD
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: DwmGetUnmetTabRequirements, DwmGetUnmetTabRequirements function [Desktop Window Manager], dwm.dwmgetunmettabrequirements, dwmapi/DwmGetUnmetTabRequirements
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dwmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	dwmapi.dll
+api_name:
+-	DwmGetUnmetTabRequirements
+product: Windows
+targetos: Windows
+req.lib: Dwmapi.lib
+req.dll: Dwmapi.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DwmGetUnmetTabRequirements function

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:msi.MsiGetComponentPathExW
+title: MsiGetComponentPathExW function
+author: windows-sdk-content
+description: Returns the full path to an installed component.
+old-location: setup\msigetcomponentpathex.htm
+old-project: Msi
+ms.assetid: 7501df09-170d-4f23-9404-d86e861ac7da
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiGetComponentPathEx, MsiGetComponentPathEx function [Setup API], MsiGetComponentPathExA, MsiGetComponentPathExW, NULL, User SID, msi/MsiGetComponentPathEx, msi/MsiGetComponentPathExA, msi/MsiGetComponentPathExW, s-1-1-0, setup.msigetcomponentpathex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: MsiGetComponentPathExW (Unicode) and MsiGetComponentPathExA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRM_LICENSE_ACQ_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msi.dll
+api_name:
+-	MsiGetComponentPathEx
+-	MsiGetComponentPathExA
+-	MsiGetComponentPathExW
+product: Windows
+targetos: Windows
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # MsiGetComponentPathExW function

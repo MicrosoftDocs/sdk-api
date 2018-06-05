@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wmsdkidl.WMT_NET_PROTOCOL
+title: WMT_NET_PROTOCOL
+author: windows-sdk-content
+description: The WMT_STREAM_SELECTION enumeration type defines the types of protocols that the network sink supports.
+old-location: wmformat\wmt_net_protocol.htm
+old-project: wmformat
+ms.assetid: dc8b67a9-33fe-408b-b0b5-62a2b219b6b5
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WMT_NET_PROTOCOL, WMT_NET_PROTOCOL enumeration [windows Media Format], WMT_PROTOCOL_HTTP, wmformat.wmt_net_protocol, wmsdkidl/WMT_NET_PROTOCOL, wmsdkidl/WMT_PROTOCOL_HTTP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMT_NET_PROTOCOL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wmsdkidl.h
+api_name:
+-	WMT_NET_PROTOCOL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WMT_NET_PROTOCOL enumeration

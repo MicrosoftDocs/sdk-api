@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:usp10.tag_SCRIPT_CONTROL
+title: tag_SCRIPT_CONTROL
+author: windows-sdk-content
+description: Contains script control flags for several Uniscribe functions, for example, ScriptItemize.
+old-location: intl\script_control.htm
+old-project: Intl
+ms.assetid: 4623f606-f67e-48ad-8c1d-d27da5ba556c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: FALSE, SCRIPT_CONTROL, SCRIPT_CONTROL structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_CONTROL_str, intl.script_control, tag_SCRIPT_CONTROL, usp10/SCRIPT_CONTROL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: usp10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCRIPT_CONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Usp10.h
+api_name:
+-	SCRIPT_CONTROL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # tag_SCRIPT_CONTROL structure

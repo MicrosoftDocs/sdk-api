@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:fwpmtypes.FWPM_CLASSIFY_OPTIONS0_
+title: FWPM_CLASSIFY_OPTIONS0_
+author: windows-sdk-content
+description: The FWPM_CLASSIFY_OPTIONS0 structure is used to store FWPM_CLASSIFY_OPTION0 structures.
+old-location: fwp\fwpm_classify_options0.htm
+old-project: FWP
+ms.assetid: 5d1f7807-4188-4a57-83fc-99683254e3a5
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: FWPM_CLASSIFY_OPTIONS0, FWPM_CLASSIFY_OPTIONS0 structure [Filtering], FWPM_CLASSIFY_OPTIONS0_, fwp.fwpm_classify_options0, fwpmtypes/FWPM_CLASSIFY_OPTIONS0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: fwpmtypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fwpmtypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWPM_CLASSIFY_OPTIONS0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Fwpmtypes.h
+api_name:
+-	FWPM_CLASSIFY_OPTIONS0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FWPM_CLASSIFY_OPTIONS0_ structure

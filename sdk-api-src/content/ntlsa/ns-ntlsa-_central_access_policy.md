@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ntlsa._CENTRAL_ACCESS_POLICY
+title: "_CENTRAL_ACCESS_POLICY"
+author: windows-sdk-content
+description: Represents a central access policy that contains a set of central access policy entries.
+old-location: security\central_access_policy.htm
+old-project: SecAuthN
+ms.assetid: C1C2E8AE-0B7F-4620-9C27-31DAF683E342
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PCENTRAL_ACCESS_POLICY, CENTRAL_ACCESS_POLICY, CENTRAL_ACCESS_POLICY structure [Security], PCENTRAL_ACCESS_POLICY, PCENTRAL_ACCESS_POLICY structure pointer [Security], _CENTRAL_ACCESS_POLICY, ntlsa/CENTRAL_ACCESS_POLICY, ntlsa/PCENTRAL_ACCESS_POLICY, security.central_access_policy"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntlsa.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CENTRAL_ACCESS_POLICY, *PCENTRAL_ACCESS_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntlsa.h
+api_name:
+-	CENTRAL_ACCESS_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _CENTRAL_ACCESS_POLICY structure

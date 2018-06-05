@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmreports.IFsrmReport.put_Description
+title: IFsrmReport::put_Description
+author: windows-sdk-content
+description: Retrieves or sets the description of the report.
+old-location: fsrm\ifsrmreport_description.htm
+old-project: Fsrm
+ms.assetid: b91a770d-8118-4a7e-adb5-36f6d59ea484
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],Description property, IFsrmReport.Description, IFsrmReport.put_Description, IFsrmReport::Description, IFsrmReport::get_Description, IFsrmReport::put_Description, fs.ifsrmreport_description, fsrm.ifsrmreport_description, fsrmreports/IFsrmReport::Description, fsrmreports/IFsrmReport::get_Description, fsrmreports/IFsrmReport::put_Description, put_Description
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmreports.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmReport.Description
+-	IFsrmReport.get_Description
+-	IFsrmReport.put_Description
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmReport::put_Description

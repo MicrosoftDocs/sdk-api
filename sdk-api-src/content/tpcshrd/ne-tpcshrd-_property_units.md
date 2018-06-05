@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tpcshrd._PROPERTY_UNITS
+title: "_PROPERTY_UNITS"
+author: windows-sdk-content
+description: Defines constant values for the unit of measurement of a property.
+old-location: tablet\property_units.htm
+old-project: tablet
+ms.assetid: bf207b4a-5ce2-4d2d-98ed-8020d559dca7
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PPROPERTY_UNITS, PPROPERTY_UNITS, PPROPERTY_UNITS enumeration pointer [Tablet PC], PROPERTY_UNITS, PROPERTY_UNITS enumeration [Tablet PC], PROPERTY_UNITS_CENTIMETERS, PROPERTY_UNITS_DEFAULT, PROPERTY_UNITS_DEGREES, PROPERTY_UNITS_GRAMS, PROPERTY_UNITS_INCHES, PROPERTY_UNITS_POUNDS, PROPERTY_UNITS_RADIANS, PROPERTY_UNITS_SECONDS, _PROPERTY_UNITS, bf207b4a-5ce2-4d2d-98ed-8020d559dca7, tablet.property_units, tpcshrd/PPROPERTY_UNITS, tpcshrd/PROPERTY_UNITS, tpcshrd/PROPERTY_UNITS_CENTIMETERS, tpcshrd/PROPERTY_UNITS_DEFAULT, tpcshrd/PROPERTY_UNITS_DEGREES, tpcshrd/PROPERTY_UNITS_GRAMS, tpcshrd/PROPERTY_UNITS_INCHES, tpcshrd/PROPERTY_UNITS_POUNDS, tpcshrd/PROPERTY_UNITS_RADIANS, tpcshrd/PROPERTY_UNITS_SECONDS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tpcshrd.h
+req.include-header: Rectypes.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPERTY_UNITS, *PPROPERTY_UNITS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tpcshrd.h
+api_name:
+-	PROPERTY_UNITS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _PROPERTY_UNITS enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwrite.DWRITE_SCRIPT_SHAPES
+title: DWRITE_SCRIPT_SHAPES
+author: windows-sdk-content
+description: Indicates additional shaping requirements for text.
+old-location: directwrite\dwrite_script_shapes.htm
+old-project: DirectWrite
+ms.assetid: 81ec0f3a-4dab-4497-893f-d791d9d9be6a
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_SCRIPT_SHAPES, DWRITE_SCRIPT_SHAPES enumeration [Direct Write], DWRITE_SCRIPT_SHAPES_DEFAULT, DWRITE_SCRIPT_SHAPES_NO_VISUAL, directwrite.dwrite_script_shapes, dwrite/DWRITE_SCRIPT_SHAPES, dwrite/DWRITE_SCRIPT_SHAPES_DEFAULT, dwrite/DWRITE_SCRIPT_SHAPES_NO_VISUAL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite.h
+api_name:
+-	DWRITE_SCRIPT_SHAPES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_SCRIPT_SHAPES enumeration

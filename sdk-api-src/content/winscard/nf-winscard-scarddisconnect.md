@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winscard.SCardDisconnect
+title: SCardDisconnect function
+author: windows-sdk-content
+description: Terminates a connection previously opened between the calling application and a smart card in the target reader.
+old-location: security\scarddisconnect.htm
+old-project: SecAuthN
+ms.assetid: d087a006-bd2d-4ad7-965b-36ea8d712ec8
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardDisconnect, SCardDisconnect function [Security], _smart_scarddisconnect, security.scarddisconnect, winscard/SCardDisconnect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winscard.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINSAT_BITMAP_SIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winscard.dll
+-	Ext-MS-Win-wlan-scard-l1-1-0.dll
+-	Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+api_name:
+-	SCardDisconnect
+product: Windows
+targetos: Windows
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # SCardDisconnect function

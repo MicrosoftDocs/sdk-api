@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:mobsync.ISyncMgrRegister
+title: ISyncMgrRegister
+author: windows-sdk-content
+description: Exposes methods so that an application can register with the synchronization manager. This can be achieved either through the ISyncMgrRegister interface or by registering directly in the registry.
+old-location: shell\syncmgr_isyncmgrregister.htm
+old-project: shell
+ms.assetid: 1feed230-5a50-4ff5-a8a9-e0ce15ba8f1c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ISyncMgrRegister, ISyncMgrRegister interface [Windows Shell], ISyncMgrRegister interface [Windows Shell],described, mobsync/ISyncMgrRegister, shell.syncmgr_isyncmgrregister, syncmgr.isyncmgrregister
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mobsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGRSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mobsync.dll
+api_name:
+-	ISyncMgrRegister
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ISyncMgrRegister interface

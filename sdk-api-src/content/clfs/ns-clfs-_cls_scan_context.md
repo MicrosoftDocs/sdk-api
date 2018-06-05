@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clfs._CLS_SCAN_CONTEXT
+title: "_CLS_SCAN_CONTEXT"
+author: windows-sdk-content
+description: Contains information about the containers that are being scanned by ScanLogContainers, the kind of scan that is being performed, and a cursor to track which containers have been scanned.
+old-location: fs\clfs_scan_context.htm
+old-project: Clfs
+ms.assetid: 716fa005-c801-4a5d-99f1-0babe64dc4a8
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PCLFS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, CLFS_SCAN_BACKWARD, CLFS_SCAN_CLOSE, CLFS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT structure [Files], CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, CLS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT structure pointer [Files], PPCLS_SCAN_CONTEXT, _CLS_SCAN_CONTEXT, clfs/PCLFS_SCAN_CONTEXT, clfs/_CLFS_SCAN_CONTEXT, fs.clfs_scan_context"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clfs.h
+req.include-header: Clfsw32.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Clfs.h
+api_name:
+-	CLFS_SCAN_CONTEXT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CLS_SCAN_CONTEXT structure

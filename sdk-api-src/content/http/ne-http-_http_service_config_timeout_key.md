@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:http._HTTP_SERVICE_CONFIG_TIMEOUT_KEY
+title: "_HTTP_SERVICE_CONFIG_TIMEOUT_KEY"
+author: windows-sdk-content
+description: The HTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration defines the type of timer that is queried or configured through the HTTP_SERVICE_CONFIG_TIMEOUT_SET structure.
+old-location: http\http_service_config_timeout_key.htm
+old-project: Http
+ms.assetid: e591a6b8-e63f-40c3-bd48-e14cb9f89453
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_SERVICE_CONFIG_TIMEOUT_KEY, *PHTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration [HTTP], HTTP_SERVICE_CONFIG_TIMEOUT_KEY, HTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration [HTTP], HeaderWaitTimeout, IdleConnectionTimeout, _HTTP_SERVICE_CONFIG_TIMEOUT_KEY, http.http_service_config_timeout_key, http/*PHTTP_SERVICE_CONFIG_TIMEOUT_KEY, http/HTTP_SERVICE_CONFIG_TIMEOUT_KEY, http/HeaderWaitTimeout, http/IdleConnectionTimeout"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_SERVICE_CONFIG_TIMEOUT_KEY, *PHTTP_SERVICE_CONFIG_TIMEOUT_KEY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_SERVICE_CONFIG_TIMEOUT_KEY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration

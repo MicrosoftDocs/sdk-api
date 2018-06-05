@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:authif.PRADIUS_EXTENSION_INIT
+title: PRADIUS_EXTENSION_INIT
+author: windows-sdk-content
+description: The RadiusExtensionInit function is an application-defined function and is called by NPS while the service is starting up. Use RadiusExtensionInit to perform any initialization operations for the Extension DLL.
+old-location: nps\IAS_radiusextensioninit.htm
+old-project: Nps
+ms.assetid: a463927f-550d-4078-8c0f-35c8742d887a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PRADIUS_EXTENSION_INIT, PRADIUS_EXTENSION_INIT callback, PRADIUS_EXTENSION_INIT callback function [Network Policy Server], RadiusExtensionInit, _ias_radiusextensioninit, authif/PRADIUS_EXTENSION_INIT, ias.radiusextensioninit, nps.IAS_radiusextensioninit
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: authif.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUDIO_STREAM_CATEGORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	AuthIf.h
+api_name:
+-	PRADIUS_EXTENSION_INIT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PRADIUS_EXTENSION_INIT callback function

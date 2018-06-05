@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:interactioncontext.MANIPULATION_VELOCITY
+title: MANIPULATION_VELOCITY
+author: windows-sdk-content
+description: Defines the velocity data of a manipulation.
+old-location: input_intcontext\manipulation_velocity.htm
+old-project: Input_IntContext
+ms.assetid: fe7ef0b7-52f6-4171-8ecf-7bc8db7c7a48
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: MANIPULATION_VELOCITY, MANIPULATION_VELOCITY structure, input_intcontext.manipulation_velocity, interactioncontext.manipulation_velocity, interactioncontext/MANIPULATION_VELOCITY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: interactioncontext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANIPULATION_VELOCITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	interactioncontext.h
+api_name:
+-	MANIPULATION_VELOCITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MANIPULATION_VELOCITY structure

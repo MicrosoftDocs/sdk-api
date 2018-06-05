@@ -1,31 +1,55 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winreg.RegDeleteKeyValueW
+title: RegDeleteKeyValueW function
+author: windows-sdk-content
+description: Removes the specified value from the specified registry key and subkey.
+old-location: base\regdeletekeyvalue.htm
+old-project: SysInfo
+ms.assetid: a4a082c2-8cf3-41eb-87c0-a6c453821f8b
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: RegDeleteKeyValue, RegDeleteKeyValue function, RegDeleteKeyValueA, RegDeleteKeyValueW, base.regdeletekeyvalue, winreg/RegDeleteKeyValue, winreg/RegDeleteKeyValueA, winreg/RegDeleteKeyValueW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winreg.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RegDeleteKeyValueW (Unicode) and RegDeleteKeyValueA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-Core-Registry-l2-1-0.dll
+-	advapi32legacy.dll
+-	API-MS-Win-Core-Registry-l1-1-1.dll
+-	KernelBase.dll
+-	MinKernelBase.dll
+api_name:
+-	RegDeleteKeyValue
+-	RegDeleteKeyValueA
+-	RegDeleteKeyValueW
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # RegDeleteKeyValueW function

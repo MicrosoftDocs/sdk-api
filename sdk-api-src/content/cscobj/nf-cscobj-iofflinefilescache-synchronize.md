@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cscobj.IOfflineFilesCache.Synchronize
+title: IOfflineFilesCache::Synchronize
+author: windows-sdk-content
+description: Synchronizes files and directories in the Offline Files cache with their corresponding copies in the applicable network shared folders.
+old-location: of\iofflinefilescache_synchronize.htm
+old-project: OfflineFiles
+ms.assetid: 4a9dd105-ea68-40ce-b1cb-6126ca932095
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: IOfflineFilesCache interface [Offline Files],Synchronize method, IOfflineFilesCache.Synchronize, IOfflineFilesCache::Synchronize, OFFLINEFILES_SYNC_CONTROL_CR_KEEPLATEST, OFFLINEFILES_SYNC_CONTROL_CR_KEEPLOCAL, OFFLINEFILES_SYNC_CONTROL_CR_KEEPREMOTE, OFFLINEFILES_SYNC_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_SYNC_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_SYNC_CONTROL_FLAG_CONSOLE, OFFLINEFILES_SYNC_CONTROL_FLAG_FILLSPARSE, OFFLINEFILES_SYNC_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_SYNC_CONTROL_FLAG_LOWPRIORITY, OFFLINEFILES_SYNC_CONTROL_FLAG_NONEWFILESOUT, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORALL, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORREDIR, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORUSER, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORUSER_POLICY, OFFLINEFILES_SYNC_CONTROL_FLAG_PINNEWFILES, OFFLINEFILES_SYNC_CONTROL_FLAG_SKIPSUSPENDEDDIRS, OFFLINEFILES_SYNC_CONTROL_FLAG_SYNCIN, OFFLINEFILES_SYNC_CONTROL_FLAG_SYNCOUT, OFFLINEFILES_SYNC_CONTROL_PINLINKTARGETS, Synchronize, Synchronize method [Offline Files], Synchronize method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::Synchronize, of.iofflinefilescache_synchronize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFFLINEFILES_SYNC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CscSvc.dll
+-	CscObj.dll
+api_name:
+-	IOfflineFilesCache.Synchronize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 ---
 
 # IOfflineFilesCache::Synchronize

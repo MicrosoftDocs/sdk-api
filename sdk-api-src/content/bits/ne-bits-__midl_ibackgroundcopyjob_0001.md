@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:bits.__MIDL_IBackgroundCopyJob_0001
+title: "__MIDL_IBackgroundCopyJob_0001"
+author: windows-sdk-content
+description: The BG_JOB_PRIORITY enumeration defines the constant values that specify the priority level of a job.
+old-location: bits\bg_job_priority.htm
+old-project: Bits
+ms.assetid: bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BG_JOB_PRIORITY, BG_JOB_PRIORITY enumeration [BITS], BG_JOB_PRIORITY_FOREGROUND, BG_JOB_PRIORITY_HIGH, BG_JOB_PRIORITY_LOW, BG_JOB_PRIORITY_NORMAL, __MIDL_IBackgroundCopyJob_0001, _drz_bg_job_priority, bits.bg_job_priority, bits/BG_JOB_PRIORITY, bits/BG_JOB_PRIORITY_FOREGROUND, bits/BG_JOB_PRIORITY_HIGH, bits/BG_JOB_PRIORITY_LOW, bits/BG_JOB_PRIORITY_NORMAL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_PRIORITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bits.h
+api_name:
+-	BG_JOB_PRIORITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # __MIDL_IBackgroundCopyJob_0001 enumeration

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CertGetNameStringA
+title: CertGetNameStringA function
+author: windows-sdk-content
+description: Obtains the subject or issuer name from a certificate CERT_CONTEXT structure and converts it to a null-terminated character string.
+old-location: security\certgetnamestring.htm
+old-project: SecCrypto
+ms.assetid: 300e6345-0be0-48c7-a3a3-174879cf0bbb
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CERT_NAME_ATTR_TYPE, CERT_NAME_DISABLE_IE4_UTF8_FLAG, CERT_NAME_DNS_TYPE, CERT_NAME_EMAIL_TYPE, CERT_NAME_FRIENDLY_DISPLAY_TYPE, CERT_NAME_ISSUER_FLAG, CERT_NAME_RDN_TYPE, CERT_NAME_SEARCH_ALL_NAMES_FLAG, CERT_NAME_SIMPLE_DISPLAY_TYPE, CERT_NAME_STR_ENABLE_PUNYCODE_FLAG, CERT_NAME_UPN_TYPE, CERT_NAME_URL_TYPE, CertGetNameString, CertGetNameString function [Security], CertGetNameStringA, CertGetNameStringW, _crypto2_certgetnamestring, security.certgetnamestring, wincrypt/CertGetNameString, wincrypt/CertGetNameStringA, wincrypt/CertGetNameStringW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CertGetNameStringW (Unicode) and CertGetNameStringA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CertGetNameString
+-	CertGetNameStringA
+-	CertGetNameStringW
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CertGetNameStringA function

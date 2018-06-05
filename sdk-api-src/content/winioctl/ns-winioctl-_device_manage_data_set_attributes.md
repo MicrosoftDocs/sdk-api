@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._DEVICE_MANAGE_DATA_SET_ATTRIBUTES
+title: "_DEVICE_MANAGE_DATA_SET_ATTRIBUTES"
+author: windows-sdk-content
+description: Input structure for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
+old-location: base\device_manage_data_set_attributes.htm
+old-project: DevIO
+ms.assetid: 328902b7-97e3-40dc-9771-f5e64ccf3364
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*PDEVICE_DSM_INPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_FLAG_RESILIENCY_START_LOAD_BALANCING, DEVICE_DSM_FLAG_RESILIENCY_START_RESYNC, DEVICE_DSM_FLAG_TRIM_NOT_FS_ALLOCATED, DEVICE_DSM_INPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure, DeviceDsmAction_Allocation, DeviceDsmAction_Notification, DeviceDsmAction_OffloadRead, DeviceDsmAction_OffloadWrite, DeviceDsmAction_Repair, DeviceDsmAction_Resiliency, DeviceDsmAction_Scrub, DeviceDsmAction_Trim, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer, _DEVICE_MANAGE_DATA_SET_ATTRIBUTES, base.device_manage_data_set_attributes, winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_INPUT, *PDEVICE_DSM_INPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	DEVICE_MANAGE_DATA_SET_ATTRIBUTES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure

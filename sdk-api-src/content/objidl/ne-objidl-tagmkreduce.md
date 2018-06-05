@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:objidl.tagMKREDUCE
+title: tagMKREDUCE
+author: windows-sdk-content
+description: Specifies how far a moniker should be reduced.
+old-location: com\mkrreduce.htm
+old-project: com
+ms.assetid: ab918d0f-18f2-4ab0-805f-aa228c0d6a82
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: MKRREDUCE, MKRREDUCE enumeration [COM], MKRREDUCE_ALL, MKRREDUCE_ONE, MKRREDUCE_THROUGHUSER, MKRREDUCE_TOUSER, _com_MKRREDUCE, com.mkrreduce, objidl/MKRREDUCE, objidl/MKRREDUCE_ALL, objidl/MKRREDUCE_ONE, objidl/MKRREDUCE_THROUGHUSER, objidl/MKRREDUCE_TOUSER, tagMKREDUCE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Objidlbase.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MKRREDUCE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Objidl.h
+api_name:
+-	MKRREDUCE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagMKREDUCE enumeration

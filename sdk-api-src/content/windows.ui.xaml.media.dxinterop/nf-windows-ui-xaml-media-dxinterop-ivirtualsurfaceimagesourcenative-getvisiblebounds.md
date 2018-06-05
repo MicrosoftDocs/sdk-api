@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.GetVisibleBounds
+title: IVirtualSurfaceImageSourceNative::xaml
+author: windows-sdk-content
+description: Gets the boundaries of the visible region of the shared surface.
+old-location: winrt\ivirtualsurfaceimagesourcenative_getvisiblebounds.htm
+old-project: WinRT
+ms.assetid: C296DD29-97C8-4C4E-A424-33DDC37538A9
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: GetVisibleBounds, GetVisibleBounds method [Windows Runtime], GetVisibleBounds method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, IVirtualSurfaceImageSourceNative interface [Windows Runtime],GetVisibleBounds method, IVirtualSurfaceImageSourceNative.GetVisibleBounds, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::GetVisibleBounds, IVirtualSurfaceImageSourceNative::xaml, windows/IVirtualSurfaceImageSourceNative::GetVisibleBounds, winrt.ivirtualsurfaceimagesourcenative_getvisiblebounds
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: windows.ui.xaml.media.dxinterop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [UWP apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [UWP apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Windows.ui.xaml.media.dxinterop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDF_RENDER_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windows.UI.Xaml.dll
+api_name:
+-	IVirtualSurfaceImageSourceNative.GetVisibleBounds
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IVirtualSurfaceImageSourceNative::xaml

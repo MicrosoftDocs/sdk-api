@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.tagDVD_DISC_SIDE
+title: tagDVD_DISC_SIDE
+author: windows-sdk-content
+description: Indicates the sides of a DVD disc.
+old-location: dshow\dvd_disc_side.htm
+old-project: DirectShow
+ms.assetid: 50ea509c-15fc-4066-ad86-04e5e87fdfa6
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DVD_DISC_SIDE, DVD_DISC_SIDE , DVD_DISC_SIDE enumeration [DirectShow], DVD_DISC_SIDEEnumeration, DVD_SIDE_A, DVD_SIDE_B, dshow.dvd_disc_side, strmif/DVD_DISC_SIDE, strmif/DVD_SIDE_A, strmif/DVD_SIDE_B, tagDVD_DISC_SIDE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_DISC_SIDE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	DVD_DISC_SIDE
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # tagDVD_DISC_SIDE enumeration

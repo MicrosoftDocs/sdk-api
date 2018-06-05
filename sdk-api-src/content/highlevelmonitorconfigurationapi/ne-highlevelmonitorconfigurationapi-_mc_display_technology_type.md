@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:highlevelmonitorconfigurationapi._MC_DISPLAY_TECHNOLOGY_TYPE
+title: "_MC_DISPLAY_TECHNOLOGY_TYPE"
+author: windows-sdk-content
+description: Identifies monitor display technologies.
+old-location: monitor\mc_display_technology_type.htm
+old-project: Monitor
+ms.assetid: 22cb7b73-931c-4cab-a359-f957ec457148
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPMC_DISPLAY_TECHNOLOGY_TYPE, LPMC_DISPLAY_TECHNOLOGY_TYPE, LPMC_DISPLAY_TECHNOLOGY_TYPE enumeration pointer [Monitor Configuration], MC_APERTURE_GRILL_CATHODE_RAY_TUBE, MC_DISPLAY_TECHNOLOGY_TYPE, MC_DISPLAY_TECHNOLOGY_TYPE , MC_DISPLAY_TECHNOLOGY_TYPE enumeration [Monitor Configuration], MC_ELECTROLUMINESCENT, MC_FIELD_EMISSION_DEVICE, MC_LIQUID_CRYSTAL_ON_SILICON, MC_MICROELECTROMECHANICAL, MC_ORGANIC_LIGHT_EMITTING_DIODE, MC_PLASMA, MC_SHADOW_MASK_CATHODE_RAY_TUBE, MC_THIN_FILM_TRANSISTOR, _MC_DISPLAY_TECHNOLOGY_TYPE, highlevelmonitorconfigurationapi/LPMC_DISPLAY_TECHNOLOGY_TYPE, highlevelmonitorconfigurationapi/MC_APERTURE_GRILL_CATHODE_RAY_TUBE, highlevelmonitorconfigurationapi/MC_DISPLAY_TECHNOLOGY_TYPE, highlevelmonitorconfigurationapi/MC_ELECTROLUMINESCENT, highlevelmonitorconfigurationapi/MC_FIELD_EMISSION_DEVICE, highlevelmonitorconfigurationapi/MC_LIQUID_CRYSTAL_ON_SILICON, highlevelmonitorconfigurationapi/MC_MICROELECTROMECHANICAL, highlevelmonitorconfigurationapi/MC_ORGANIC_LIGHT_EMITTING_DIODE, highlevelmonitorconfigurationapi/MC_PLASMA, highlevelmonitorconfigurationapi/MC_SHADOW_MASK_CATHODE_RAY_TUBE, highlevelmonitorconfigurationapi/MC_THIN_FILM_TRANSISTOR, monitor.mc_display_technology_type"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: highlevelmonitorconfigurationapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MC_DISPLAY_TECHNOLOGY_TYPE, *LPMC_DISPLAY_TECHNOLOGY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	HighLevelMonitorConfigurationAPI.h
+api_name:
+-	MC_DISPLAY_TECHNOLOGY_TYPE
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MC_DISPLAY_TECHNOLOGY_TYPE enumeration

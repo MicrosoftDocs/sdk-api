@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dbt._DEV_BROADCAST_HDR
+title: "_DEV_BROADCAST_HDR"
+author: windows-sdk-content
+description: Serves as a standard header for information related to a device event reported through the WM_DEVICECHANGE message.
+old-location: base\dev_broadcast_hdr_str.htm
+old-project: DevIO
+ms.assetid: 4fc81fcb-b9fe-4016-b639-a43845af2c5f
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: DBT_DEVTYP_DEVICEINTERFACE, DBT_DEVTYP_HANDLE, DBT_DEVTYP_OEM, DBT_DEVTYP_PORT, DBT_DEVTYP_VOLUME, DEV_BROADCAST_HDR, DEV_BROADCAST_HDR structure, PDEV_BROADCAST_HDR, PDEV_BROADCAST_HDR structure pointer, _DEV_BROADCAST_HDR, _win32_dev_broadcast_hdr_str, base.dev_broadcast_hdr_str, dbt/DEV_BROADCAST_HDR, dbt/PDEV_BROADCAST_HDR
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dbt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEV_BROADCAST_HDR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dbt.h
+api_name:
+-	DEV_BROADCAST_HDR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DEV_BROADCAST_HDR structure

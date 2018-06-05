@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mmdeviceapi.__MIDL___MIDL_itf_mmdeviceapi_0000_0000_0002
+title: "__MIDL___MIDL_itf_mmdeviceapi_0000_0000_0002"
+author: windows-sdk-content
+description: The ERole enumeration defines constants that indicate the role that the system has assigned to an audio endpoint device.
+old-location: coreaudio\erole.htm
+old-project: CoreAudio
+ms.assetid: 0d0d3174-8489-4951-858c-024d58477ae0
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ERole, ERole enumeration [Core Audio], ERole_enum_count, __MIDL___MIDL_itf_mmdeviceapi_0000_0000_0002, coreaudio.erole, eCommunications, eConsole, eMultimedia, mmdeviceapi/ERole, mmdeviceapi/ERole_enum_count, mmdeviceapi/eCommunications, mmdeviceapi/eConsole, mmdeviceapi/eMultimedia
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mmdeviceapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ERole
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mmdeviceapi.h
+api_name:
+-	ERole
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_mmdeviceapi_0000_0000_0002 enumeration

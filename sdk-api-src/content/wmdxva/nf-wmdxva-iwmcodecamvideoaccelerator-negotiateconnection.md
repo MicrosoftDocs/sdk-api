@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmdxva.IWMCodecAMVideoAccelerator.NegotiateConnection
+title: IWMCodecAMVideoAccelerator::NegotiateConnection
+author: windows-sdk-content
+description: The NegotiateConnection method is called by the output pin on the player's source filter during the connection process when it has been given a DirectX VA media type.
+old-location: wmformat\iwmcodecamvideoaccelerator_negotiateconnection.htm
+old-project: wmformat
+ms.assetid: 547c43ed-7e04-4323-9e10-019ecfdbb641
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWMCodecAMVideoAccelerator interface [windows Media Format],NegotiateConnection method, IWMCodecAMVideoAccelerator.NegotiateConnection, IWMCodecAMVideoAccelerator::NegotiateConnection, IWMCodecAMVideoAcceleratorNegotiateConnection, NegotiateConnection, NegotiateConnection method [windows Media Format], NegotiateConnection method [windows Media Format],IWMCodecAMVideoAccelerator interface, wmdxva/IWMCodecAMVideoAccelerator::NegotiateConnection, wmformat.iwmcodecamvideoaccelerator_negotiateconnection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmdxva.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ASF_INDEX_IDENTIFIER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMCodecAMVideoAccelerator.NegotiateConnection
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMCodecAMVideoAccelerator::NegotiateConnection

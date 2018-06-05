@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:rend.RND_ADVERTISING_SCOPE
+title: RND_ADVERTISING_SCOPE
+author: windows-sdk-content
+description: Members of the RND_ADVERTISING_SCOPE enumeration specify how widely a conference announcement is distributed. Values correspond to the advertising scope property on the ITDirectoryObjectConference interface.
+old-location: tapi3\rnd_advertising_scope.htm
+old-project: Tapi
+ms.assetid: e08e7b8a-e27b-48a8-ab2d-d4ce5fed912a
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: RAS_LOCAL, RAS_REGION, RAS_SITE, RAS_WORLD, RND_ADVERTISING_SCOPE, RND_ADVERTISING_SCOPE enumeration [TAPI 2.2], _tapi3_rnd_advertising_scope, rend/RAS_LOCAL, rend/RAS_REGION, rend/RAS_SITE, rend/RAS_WORLD, rend/RND_ADVERTISING_SCOPE, tapi3.rnd_advertising_scope
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: rend.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RND_ADVERTISING_SCOPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rend.h
+api_name:
+-	RND_ADVERTISING_SCOPE
+product: Windows
+targetos: Windows
+req.lib: RuntimeObject.lib
+req.dll: ComBase.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RND_ADVERTISING_SCOPE enumeration

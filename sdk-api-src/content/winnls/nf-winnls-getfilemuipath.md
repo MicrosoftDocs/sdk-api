@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winnls.GetFileMUIPath
+title: GetFileMUIPath function
+author: windows-sdk-content
+description: Retrieves the path to all language-specific resource files associated with the supplied LN file. The application must call this function repeatedly to get the path for each resource file.
+old-location: intl\getfilemuipath.htm
+old-project: Intl
+ms.assetid: a95ef85a-4a3a-49c6-b700-03763950c64f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetFileMUIPath, GetFileMUIPath function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_LANG_NEUTRAL_PE_FILE, MUI_NON_LANG_NEUTRAL_FILE, MUI_USER_PREFERRED_UI_LANGUAGES, MUI_USE_INSTALLED_LANGUAGES, MUI_USE_SEARCH_ALL_LANGUAGES, _win32_GetFileMUIPath, intl.getfilemuipath, winnls/GetFileMUIPath
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winnls.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,30 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NORM_FORM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Localization-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-Localization-l1-2-0.dll
+-	API-MS-Win-Core-Localization-l1-2-1.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+-	API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+-	GetFileMUIPath
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # GetFileMUIPath function

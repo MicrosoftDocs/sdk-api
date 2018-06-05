@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:upnp.IUPnPDescriptionDocument.DeviceByUDN
+title: IUPnPDescriptionDocument::DeviceByUDN
+author: windows-sdk-content
+description: The DeviceByUDN method returns the device with the specified unique device name (UDN) contained within the loaded description document.
+old-location: upnp\iupnpdescriptiondocument_devicebyudn.htm
+old-project: UPnP
+ms.assetid: 0f8ae379-3ec6-4fe2-ae7b-fe3750a5d4c3
+ms.author: windowssdkdev
+ms.date: 04/25/2018
+ms.keywords: DeviceByUDN, DeviceByUDN method [UPnP APIs], DeviceByUDN method [UPnP APIs],IUPnPDescriptionDocument interface, IUPnPDescriptionDocument interface [UPnP APIs],DeviceByUDN method, IUPnPDescriptionDocument.DeviceByUDN, IUPnPDescriptionDocument::DeviceByUDN, _upnp_iupnpdescriptiondocument_devicebyudn, upnp.iupnpdescriptiondocument_devicebyudn, upnp/IUPnPDescriptionDocument::DeviceByUDN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: upnp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Upnp.dll
+api_name:
+-	IUPnPDescriptionDocument.DeviceByUDN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUPnPDescriptionDocument::DeviceByUDN

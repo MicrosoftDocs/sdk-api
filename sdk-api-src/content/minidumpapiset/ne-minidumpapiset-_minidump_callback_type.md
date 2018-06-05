@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:minidumpapiset._MINIDUMP_CALLBACK_TYPE
+title: "_MINIDUMP_CALLBACK_TYPE"
+author: windows-sdk-content
+description: Identifies the type of information returned by the MiniDumpCallback function.
+old-location: base\minidump_callback_type.htm
+old-project: Debug
+ms.assetid: c970564d-e1f0-4317-bf66-752b98767451
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: CancelCallback, IncludeModuleCallback, IncludeThreadCallback, IncludeVmRegionCallback, IoFinishCallback, IoStartCallback, IoWriteAllCallback, IsProcessSnapshotCallback, KernelMinidumpStatusCallback, MINIDUMP_CALLBACK_TYPE, MINIDUMP_CALLBACK_TYPE enumeration, MemoryCallback, ModuleCallback, ReadMemoryFailureCallback, RemoveMemoryCallback, SecondaryFlagsCallback, ThreadCallback, ThreadExCallback, VmPostReadCallback, VmPreReadCallback, VmQueryCallback, VmStartCallback, WriteKernelMinidumpCallback, _MINIDUMP_CALLBACK_TYPE, _win32_minidump_callback_type, base.minidump_callback_type, minidumpapiset/CancelCallback, minidumpapiset/IncludeModuleCallback, minidumpapiset/IncludeThreadCallback, minidumpapiset/IncludeVmRegionCallback, minidumpapiset/IoFinishCallback, minidumpapiset/IoStartCallback, minidumpapiset/IoWriteAllCallback, minidumpapiset/IsProcessSnapshotCallback, minidumpapiset/KernelMinidumpStatusCallback, minidumpapiset/MINIDUMP_CALLBACK_TYPE, minidumpapiset/MemoryCallback, minidumpapiset/ModuleCallback, minidumpapiset/ReadMemoryFailureCallback, minidumpapiset/RemoveMemoryCallback, minidumpapiset/SecondaryFlagsCallback, minidumpapiset/ThreadCallback, minidumpapiset/ThreadExCallback, minidumpapiset/VmPostReadCallback, minidumpapiset/VmPreReadCallback, minidumpapiset/VmQueryCallback, minidumpapiset/VmStartCallback, minidumpapiset/WriteKernelMinidumpCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: minidumpapiset.h
+req.include-header: DbgHelp.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MINIDUMP_CALLBACK_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	minidumpapiset.h
+api_name:
+-	MINIDUMP_CALLBACK_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MINIDUMP_CALLBACK_TYPE enumeration

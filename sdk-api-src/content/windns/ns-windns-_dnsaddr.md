@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:windns._DnsAddr
+title: "_DnsAddr"
+author: windows-sdk-content
+description: A DNS_ADDR structure stores an IPv4 or IPv6 address.
+old-location: dns\dns_addr.htm
+old-project: DNS
+ms.assetid: c14e6fc0-34b3-40e8-b9b8-61e4aea01677
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: "*PDNS_ADDR, DNS_ADDR, DNS_ADDR structure [DNS], PDNS_ADDR, PDNS_ADDR structure pointer [DNS], _DnsAddr, dns.dns_addr, windns/DNS_ADDR, windns/PDNS_ADDR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: windns.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DNS_ADDR, *PDNS_ADDR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Windns.h
+api_name:
+-	DNS_ADDR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _DnsAddr structure

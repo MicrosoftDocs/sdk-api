@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:effects.IWMPEffects.GetTitle
+title: IWMPEffects::GetTitle
+author: windows-sdk-content
+description: The GetTitle method gets the display title of the visualization.
+old-location: wmp\iwmpeffects_gettitle.htm
+old-project: WMP
+ms.assetid: 051a0d25-0773-4b9d-879e-5cc60633e406
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: EffectsGetTitle, GetTitle, GetTitle method [Windows Media Player], GetTitle method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetTitle method, IWMPEffects.GetTitle, IWMPEffects::GetTitle, effects/IWMPEffects::GetTitle, wmp.iwmpeffects_gettitle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: effects.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player version 7.0 or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	effects.h
+api_name:
+-	IWMPEffects.GetTitle
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IWMPEffects::GetTitle

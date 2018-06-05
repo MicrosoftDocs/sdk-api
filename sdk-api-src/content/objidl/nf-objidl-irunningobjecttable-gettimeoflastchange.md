@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objidl.IRunningObjectTable.GetTimeOfLastChange
+title: IRunningObjectTable::GetTimeOfLastChange
+author: windows-sdk-content
+description: Retrieves the time that an object was last modified.
+old-location: com\irunningobjecttable_gettimeoflastchange.htm
+old-project: com
+ms.assetid: fef6f7e5-7d91-4737-98a4-c9779c6c2be5
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetTimeOfLastChange, GetTimeOfLastChange method [COM], GetTimeOfLastChange method [COM],IRunningObjectTable interface, IRunningObjectTable interface [COM],GetTimeOfLastChange method, IRunningObjectTable.GetTimeOfLastChange, IRunningObjectTable::GetTimeOfLastChange, _com_irunningobjecttable_gettimeoflastchange, com.irunningobjecttable_gettimeoflastchange, objidl/IRunningObjectTable::GetTimeOfLastChange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IRunningObjectTable.GetTimeOfLastChange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRunningObjectTable::GetTimeOfLastChange

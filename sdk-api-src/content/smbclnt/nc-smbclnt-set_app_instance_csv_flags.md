@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:smbclnt.SET_APP_INSTANCE_CSV_FLAGS
+title: SET_APP_INSTANCE_CSV_FLAGS
+author: windows-sdk-content
+description: Sets the flags that affect connections from the application instance.
+old-location: mscs\setappinstancecsvflags.htm
+old-project: MsCS
+ms.assetid: 37FDAB0A-1593-47D6-B4CE-A667EBA01680
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: SET_APP_INSTANCE_CSV_FLAGS, SET_APP_INSTANCE_CSV_FLAGS callback, SET_APP_INSTANCE_CSV_FLAGS callback function [Failover Cluster], mscs.setappinstancecsvflags, smbclnt/SET_APP_INSTANCE_CSV_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: smbclnt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SL_NONGENUINE_UI_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	SmbClnt.h
+api_name:
+-	SET_APP_INSTANCE_CSV_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SET_APP_INSTANCE_CSV_FLAGS callback function

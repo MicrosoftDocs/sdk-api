@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iscsidsc.RemovePersistentIScsiDeviceW
+title: RemovePersistentIScsiDeviceW function
+author: windows-sdk-content
+description: RemovePersistentIscsiDevice function removes a device or volume from the list of persistently bound iSCSI volumes.
+old-location: iscsidisc\removepersistentiscsidevice.htm
+old-project: iSCSIDisc
+ms.assetid: 4016d8e4-de67-4c49-b54f-31c1b7bd64a8
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: RemovePersistentIScsiDeviceW, RemovePersistentIscsiDevice, RemovePersistentIscsiDevice function [iSCSI Discovery Library API], RemovePersistentIscsiDeviceA, RemovePersistentIscsiDeviceW, iscsidisc.removepersistentiscsidevice, iscsidsc/RemovePersistentIscsiDevice, iscsidsc/RemovePersistentIscsiDeviceA, iscsidsc/RemovePersistentIscsiDeviceW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RemovePersistentIscsiDeviceW (Unicode) and RemovePersistentIscsiDeviceA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Iscsidsc.dll
+api_name:
+-	RemovePersistentIscsiDevice
+-	RemovePersistentIscsiDeviceA
+-	RemovePersistentIscsiDeviceW
+product: Windows
+targetos: Windows
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # RemovePersistentIScsiDeviceW function

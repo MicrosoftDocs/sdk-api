@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:authif._RADIUS_DATA_TYPE
+title: "_RADIUS_DATA_TYPE"
+author: windows-sdk-content
+description: The RADIUS_DATA_TYPE type enumerates the possible data type for a RADIUS attribute or extended attribute.
+old-location: nps\IAS_radius_data_type.htm
+old-project: Nps
+ms.assetid: 620d5c1f-61dc-48af-a1b2-4eaa81e358a7
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: RADIUS_DATA_TYPE, RADIUS_DATA_TYPE enumeration [Network Policy Server], _RADIUS_DATA_TYPE, _ias_radius_data_type, authif/RADIUS_DATA_TYPE, authif/rdtAddress, authif/rdtInteger, authif/rdtIpv6Address, authif/rdtString, authif/rdtTime, authif/rdtUnknown, ias.radius_data_type, nps.IAS_radius_data_type, rdtAddress, rdtInteger, rdtIpv6Address, rdtString, rdtTime, rdtUnknown
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: authif.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RADIUS_DATA_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AuthIf.h
+api_name:
+-	RADIUS_DATA_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _RADIUS_DATA_TYPE enumeration

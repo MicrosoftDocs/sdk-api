@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:baseaudioprocessingobject.AERT_Free
+title: AERT_Free function
+author: windows-sdk-content
+description: The AERT_Free utility function releases (frees) memory that was locked by the AERT_Allocate function, for use by audio processing objects to process audio data.
+old-location: audio\aert_free.htm
+old-project: audio
+ms.assetid: 9a7506fa-a52d-42f5-9144-751de19123d5
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: AERT_Free, AERT_Free function [Audio Devices], audio.aert_free, audio_syseffects_r_d23cc22f-79bc-4772-90bb-edb1c3afa9a7.xml, baseaudioprocessingobject/AERT_Free
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: baseaudioprocessingobject.h
+req.include-header: 
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating system,
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Audioeng.dll
+api_name:
+-	AERT_Free
+product: Windows
+targetos: Windows
+req.lib: Audioeng.lib
+req.dll: Audioeng.dll
+req.irql: All levels
 ---
 
 # AERT_Free function

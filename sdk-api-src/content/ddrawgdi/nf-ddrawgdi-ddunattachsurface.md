@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ddrawgdi.DdUnattachSurface
+title: DdUnattachSurface function
+author: windows-sdk-content
+description: The DdUnattachSurface function removes an attachment, created with DdAttachSurface, between two kernel-mode surface objects.
+old-location: winprog\_dxgkernel_ddunattachsurface.htm
+old-project: DevNotes
+ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddunattachsurface.htm
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: DdUnattachSurface, DdUnattachSurface function [Windows API], GdiEntry12, _dxgkernel_ddunattachsurface, ddrawgdi/DdUnattachSurface, ddrawgdi/GdiEntry12, winprog._dxgkernel_ddunattachsurface, winui._dxgkernel_ddunattachsurface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ddrawgdi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDSURFACEDESC2, DDSURFACEDESC2"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ddrawgdi.h
+-	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+-	GDI32.dll
+-	GDI32Full.dll
+api_name:
+-	DdUnattachSurface
+-	GdiEntry12
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DdUnattachSurface function

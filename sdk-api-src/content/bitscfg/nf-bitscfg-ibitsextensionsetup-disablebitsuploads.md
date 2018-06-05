@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bitscfg.IBITSExtensionSetup.DisableBITSUploads
+title: IBITSExtensionSetup::DisableBITSUploads
+author: windows-sdk-content
+description: Use the DisableBITSUploads method to disable BITS upload on the virtual directory to which the ADSI object points. This method sets the BITSUploadEnabled IIS extension property.
+old-location: bits\ibitsextensionsetup_disablebitsuploads.htm
+old-project: Bits
+ms.assetid: 3d439054-a751-4f63-9e82-223d1ce9c551
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DisableBITSUploads, DisableBITSUploads method [BITS], DisableBITSUploads method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],DisableBITSUploads method, IBITSExtensionSetup.DisableBITSUploads, IBITSExtensionSetup::DisableBITSUploads, _drz_ibitsextensionsetup_disablebitsuploads, bits.ibitsextensionsetup_disablebitsuploads, bitscfg/IBITSExtensionSetup::DisableBITSUploads
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bitscfg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bitscfg.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITS_FILE_PROPERTY_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	BitsMgr.dll
+api_name:
+-	IBITSExtensionSetup.DisableBITSUploads
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: BitsMgr.dll
+req.irql: 
 ---
 
 # IBITSExtensionSetup::DisableBITSUploads

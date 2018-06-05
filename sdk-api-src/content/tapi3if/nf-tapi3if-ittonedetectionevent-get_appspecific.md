@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITToneDetectionEvent.get_AppSpecific
+title: ITToneDetectionEvent::get_AppSpecific
+author: windows-sdk-content
+description: The get_AppSpecific method gets the application-defined tag that identifies the tone associated with the tone detection event.
+old-location: tapi3\ittonedetectionevent_get_appspecific.htm
+old-project: Tapi
+ms.assetid: 5c6c4890-7e65-4b4a-bc2f-ea3c11e5e85a
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITToneDetectionEvent interface [TAPI 2.2],get_AppSpecific method, ITToneDetectionEvent.get_AppSpecific, ITToneDetectionEvent::get_AppSpecific, _tapi3_ittonedetectionevent_get_appspecific, get_AppSpecific, get_AppSpecific method [TAPI 2.2], get_AppSpecific method [TAPI 2.2],ITToneDetectionEvent interface, tapi3.ittonedetectionevent_get_appspecific, tapi3if/ITToneDetectionEvent::get_AppSpecific
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITToneDetectionEvent.get_AppSpecific
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITToneDetectionEvent::get_AppSpecific

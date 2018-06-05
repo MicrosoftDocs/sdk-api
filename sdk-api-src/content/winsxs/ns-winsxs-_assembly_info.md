@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsxs._ASSEMBLY_INFO
+title: "_ASSEMBLY_INFO"
+author: windows-sdk-content
+description: The ASSEMBLY_INFO structure contains information about an assembly in the side-by-side assembly store. The information is used by the QueryAssemblyInfo method.
+old-location: setup\assembly_info_.htm
+old-project: SbsCs
+ms.assetid: 4281b375-0edd-453b-9505-e7dc5bd586fc
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: ASSEMBLYINFO_FLAG_INSTALLED, ASSEMBLY_INFO, ASSEMBLY_INFO structure [Side-by-side Assemblies], _ASSEMBLY_INFO, setup.assembly_info_, winsxs/ASSEMBLY_INFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsxs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ASSEMBLY_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsxs.h
+api_name:
+-	ASSEMBLY_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _ASSEMBLY_INFO structure

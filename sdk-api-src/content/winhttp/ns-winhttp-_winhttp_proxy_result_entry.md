@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winhttp._WINHTTP_PROXY_RESULT_ENTRY
+title: "_WINHTTP_PROXY_RESULT_ENTRY"
+author: windows-sdk-content
+description: The WINHTTP_PROXY_RESULT_ENTRY structure contains a result entry from a call to WinHttpGetProxyResult.
+old-location: http\winhttp_proxy_result_entry.htm
+old-project: WinHttp
+ms.assetid: d1652b34-67a9-40ad-a495-836147e5cc88
+ms.author: windowssdkdev
+ms.date: 03/08/2018
+ms.keywords: WINHTTP_PROXY_RESULT_ENTRY, WINHTTP_PROXY_RESULT_ENTRY structure [HTTP], _WINHTTP_PROXY_RESULT_ENTRY, http.winhttp_proxy_result_entry, winhttp/WINHTTP_PROXY_RESULT_ENTRY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winhttp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINHTTP_PROXY_RESULT_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winhttp.h
+api_name:
+-	WINHTTP_PROXY_RESULT_ENTRY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WINHTTP_PROXY_RESULT_ENTRY structure

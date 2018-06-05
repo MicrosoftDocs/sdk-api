@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:printmanagerinterop.IPrintManagerInterop.GetForWindow
+title: IPrintManagerInterop::GetForWindow
+author: windows-sdk-content
+description: Gets the PrintManager instance for the specified window.
+old-location: winrt\iprintmanagerinterop_getforwindow.htm
+old-project: WinRT
+ms.assetid: 8cbf37b6-6756-4399-aa6b-01eb63c8c6db
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: GetForWindow, GetForWindow method [Windows Runtime], GetForWindow method [Windows Runtime],IPrintManagerInterop interface, IPrintManagerInterop interface [Windows Runtime],GetForWindow method, IPrintManagerInterop.GetForWindow, IPrintManagerInterop::GetForWindow, printmanagerinterop/IPrintManagerInterop::GetForWindow, winrt.iprintmanagerinterop_getforwindow
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: printmanagerinterop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Printmanagerinterop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_POWER_POLICY, *PUSER_POWER_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	printmanagerinterop.h
+api_name:
+-	IPrintManagerInterop.GetForWindow
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPrintManagerInterop::GetForWindow

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rtscom.IDynamicRenderer.Draw
+title: IDynamicRenderer::Draw
+author: windows-sdk-content
+description: Draws the cached data to the specified device context.
+old-location: tablet\idynamicrenderer_draw.htm
+old-project: tablet
+ms.assetid: d0f05fc7-2b54-40fc-823a-dad0a86174d6
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: Draw, Draw method [Tablet PC], Draw method [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],Draw method, IDynamicRenderer.Draw, IDynamicRenderer::Draw, d0f05fc7-2b54-40fc-823a-dad0a86174d6, rtscom/IDynamicRenderer::Draw, tablet.idynamicrenderer_draw
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rtscom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: StylusQueue
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RTSCom.dll
+api_name:
+-	IDynamicRenderer.Draw
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDynamicRenderer::Draw

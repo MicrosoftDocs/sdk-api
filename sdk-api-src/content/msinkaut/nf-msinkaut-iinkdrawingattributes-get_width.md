@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkDrawingAttributes.get_Width
+title: IInkDrawingAttributes::get_Width
+author: windows-sdk-content
+description: Gets or sets the y-axis dimension, or width, of the pen tip when drawing ink.
+old-location: tablet\inkdrawingattributes_width.htm
+old-project: tablet
+ms.assetid: 6069f9d3-061a-48ba-8161-86d6152d68f0
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 6069f9d3-061a-48ba-8161-86d6152d68f0, IInkDrawingAttributes interface [Tablet PC],Width property, IInkDrawingAttributes.Width, IInkDrawingAttributes.get_Width, IInkDrawingAttributes::Width, IInkDrawingAttributes::get_Width, IInkDrawingAttributes::put_Width, InkDrawingAttributes.get_Width, InkDrawingAttributes.put_Width, Width property [Tablet PC], Width property [Tablet PC],IInkDrawingAttributes interface, get_Width, msinkaut/IInkDrawingAttributes::Width, msinkaut/IInkDrawingAttributes::get_Width, msinkaut/IInkDrawingAttributes::put_Width, put_Width, tablet.inkdrawingattributes_width
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkDrawingAttributes.Width
+-	IInkDrawingAttributes.get_Width
+-	IInkDrawingAttributes.put_Width
+-	InkDrawingAttributes.get_Width
+-	InkDrawingAttributes.put_Width
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkDrawingAttributes::get_Width

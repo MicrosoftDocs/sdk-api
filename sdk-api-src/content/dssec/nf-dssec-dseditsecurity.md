@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dssec.DSEditSecurity
+title: DSEditSecurity function
+author: windows-sdk-content
+description: Displays a modal dialog box for editing security on a Directory Services (DS) object.
+old-location: security\dseditsecurity.htm
+old-project: SecAuthZ
+ms.assetid: e440e696-37a5-4853-b205-a4701b2c9beb
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DSEditSecurity, DSEditSecurity function [Security], dssec/DSEditSecurity, security.dseditsecurity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dssec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	DSSec.dll
+api_name:
+-	DSEditSecurity
+product: Windows
+targetos: Windows
+req.lib: DSSec.lib
+req.dll: DSSec.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DSEditSecurity function

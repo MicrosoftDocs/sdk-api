@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cryptxml.CryptXmlGetStatus
+title: CryptXmlGetStatus function
+author: windows-sdk-content
+description: Returns a CRYPT_XML_STATUS structure that contains status information about the object specified by the supplied handle.
+old-location: security\cryptxmlgetstatus.htm
+old-project: SecCrypto
+ms.assetid: 685a87dc-36e9-464a-988e-de907d2dae41
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CryptXmlGetStatus, CryptXmlGetStatus function [Security], cryptxml/CryptXmlGetStatus, security.cryptxmlgetstatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cryptxml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_XML_PROPERTY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cryptxml.dll
+api_name:
+-	CryptXmlGetStatus
+product: Windows
+targetos: Windows
+req.lib: Cryptxml.lib
+req.dll: Cryptxml.dll
+req.irql: 
 ---
 
 # CryptXmlGetStatus function

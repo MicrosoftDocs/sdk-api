@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:batclass.BATTERY_MINIPORT_INFO_V1_1
+title: BATTERY_MINIPORT_INFO_V1_1
+author: windows-sdk-content
+description: Battery miniclass drivers fill in the BATTERY_MINIPORT_INFO_V1_1 structure before calling the battery class driver's BatteryClassInitializeDevice routine. BATTERY_MINIPORT_INFO_V1_1 is an updated version of the previous structure BATTERY_MINIPORT_INFO.
+old-location: battery\battery_miniport_info_v1_1.htm
+old-project: battery
+ms.assetid: 3266126A-AEFC-445C-89D3-736545101522
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PBATTERY_MINIPORT_INFO_V1_1, BATTERY_MINIPORT_INFO_V1_1, BATTERY_MINIPORT_INFO_V1_1 structure [Battery Devices], PBATTERY_MINIPORT_INFO_V1_1, PBATTERY_MINIPORT_INFO_V1_1 structure pointer [Battery Devices], batclass/BATTERY_MINIPORT_INFO_V1_1, batclass/PBATTERY_MINIPORT_INFO_V1_1, battery.battery_miniport_info_v1_1"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: batclass.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BATTERY_MINIPORT_INFO_V1_1, *PBATTERY_MINIPORT_INFO_V1_1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Batclass.h
+api_name:
+-	BATTERY_MINIPORT_INFO_V1_1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # BATTERY_MINIPORT_INFO_V1_1 structure

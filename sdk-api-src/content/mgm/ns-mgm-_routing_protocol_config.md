@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mgm._ROUTING_PROTOCOL_CONFIG
+title: "_ROUTING_PROTOCOL_CONFIG"
+author: windows-sdk-content
+description: The ROUTING_PROTOCOL_CONFIG structure describes the routing protocol configuration information that is passed to the multicast group manager when a protocol registers with the multicast group manager.
+old-location: rras\routing_protocol_config_str.htm
+old-project: RRAS
+ms.assetid: acbf0519-a0c8-4b96-9722-9eeccee026d7
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PROUTING_PROTOCOL_CONFIG, PROUTING_PROTOCOL_CONFIG, PROUTING_PROTOCOL_CONFIG structure pointer [RAS], ROUTING_PROTOCOL_CONFIG, ROUTING_PROTOCOL_CONFIG structure [RAS], _ROUTING_PROTOCOL_CONFIG, _mpr_routing_protocol_config_str, mgm/PROUTING_PROTOCOL_CONFIG, mgm/ROUTING_PROTOCOL_CONFIG, rras.routing_protocol_config_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mgm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ROUTING_PROTOCOL_CONFIG, *PROUTING_PROTOCOL_CONFIG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mgm.h
+api_name:
+-	ROUTING_PROTOCOL_CONFIG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _ROUTING_PROTOCOL_CONFIG structure

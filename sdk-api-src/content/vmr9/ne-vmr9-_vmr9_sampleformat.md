@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:vmr9._VMR9_SampleFormat
+title: "_VMR9_SampleFormat"
+author: windows-sdk-content
+description: The VMR9_SampleFormat enumeration type describes the interlacing of a video stream.
+old-location: dshow\vmr9_sampleformat.htm
+old-project: DirectShow
+ms.assetid: 0e501c05-91ac-4594-bdfe-e8b4bfeb5bcb
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: VMR9_SampleFieldInterleavedEvenFirst, VMR9_SampleFieldInterleavedOddFirst, VMR9_SampleFieldSingleEven, VMR9_SampleFieldSingleOdd, VMR9_SampleFormat, VMR9_SampleFormat , VMR9_SampleFormat enumeration [DirectShow], VMR9_SampleProgressiveFrame, VMR9_SampleReserved, _VMR9_SampleFormat, dshow.vmr9_sampleformat, vmr9/VMR9_SampleFieldInterleavedEvenFirst, vmr9/VMR9_SampleFieldInterleavedOddFirst, vmr9/VMR9_SampleFieldSingleEven, vmr9/VMR9_SampleFieldSingleOdd, vmr9/VMR9_SampleFormat, vmr9/VMR9_SampleProgressiveFrame, vmr9/VMR9_SampleReserved
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vmr9.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VMR9_SampleFormat
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vmr9.h
+api_name:
+-	VMR9_SampleFormat
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VMR9_SampleFormat enumeration

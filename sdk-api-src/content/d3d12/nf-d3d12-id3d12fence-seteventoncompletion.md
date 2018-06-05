@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d12.ID3D12Fence.SetEventOnCompletion
+title: ID3D12Fence::SetEventOnCompletion
+author: windows-sdk-content
+description: Specifies an event that should be fired when the fence reaches a certain value.
+old-location: direct3d12\id3d12fence_seteventoncompletion.htm
+old-project: direct3d12
+ms.assetid: DBC5A1FD-F3D0-4C9B-965B-1967151093F7
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: ID3D12Fence interface,SetEventOnCompletion method, ID3D12Fence.SetEventOnCompletion, ID3D12Fence::SetEventOnCompletion, SetEventOnCompletion, SetEventOnCompletion method, SetEventOnCompletion method,ID3D12Fence interface, d3d12/ID3D12Fence::SetEventOnCompletion, direct3d12.id3d12fence_seteventoncompletion
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_SHADER_MODEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D12.dll
+api_name:
+-	ID3D12Fence.SetEventOnCompletion
+product: Windows
+targetos: Windows
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 ---
 
 # ID3D12Fence::SetEventOnCompletion

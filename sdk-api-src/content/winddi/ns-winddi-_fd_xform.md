@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi._FD_XFORM
+title: "_FD_XFORM"
+author: windows-sdk-content
+description: The FD_XFORM structure describes an arbitrary two-dimensional font transform.
+old-location: display\fd_xform.htm
+old-project: display
+ms.assetid: 4d15a771-fbf2-46ed-9698-faa3840f5f76
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PFD_XFORM, FD_XFORM, FD_XFORM structure [Display Devices], PFD_XFORM, PFD_XFORM structure pointer [Display Devices], _FD_XFORM, display.fd_xform, grstrcts_c68b9048-8da3-4c5d-b977-6bd50cbd6703.xml, winddi/FD_XFORM, winddi/PFD_XFORM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FD_XFORM, *PFD_XFORM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	FD_XFORM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FD_XFORM structure

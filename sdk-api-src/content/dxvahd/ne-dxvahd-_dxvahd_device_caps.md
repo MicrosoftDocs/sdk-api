@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dxvahd._DXVAHD_DEVICE_CAPS
+title: "_DXVAHD_DEVICE_CAPS"
+author: windows-sdk-content
+description: Defines video processing capabilities for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
+old-location: mf\dxvahd_device_caps.htm
+old-project: medfound
+ms.assetid: 1f3dde4c-cd9d-4361-b2b2-db3c9d2ea146
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DXVAHD_DEVICE_CAPS, DXVAHD_DEVICE_CAPS enumeration [Media Foundation], DXVAHD_DEVICE_CAPS_LINEAR_SPACE, DXVAHD_DEVICE_CAPS_RGB_RANGE_CONVERSION, DXVAHD_DEVICE_CAPS_YCbCr_MATRIX_CONVERSION, DXVAHD_DEVICE_CAPS_xvYCC, _DXVAHD_DEVICE_CAPS, dxvahd/DXVAHD_DEVICE_CAPS, dxvahd/DXVAHD_DEVICE_CAPS_LINEAR_SPACE, dxvahd/DXVAHD_DEVICE_CAPS_RGB_RANGE_CONVERSION, dxvahd/DXVAHD_DEVICE_CAPS_YCbCr_MATRIX_CONVERSION, dxvahd/DXVAHD_DEVICE_CAPS_xvYCC, mf.dxvahd_device_caps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxvahd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVAHD_DEVICE_CAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxvahd.h
+api_name:
+-	DXVAHD_DEVICE_CAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVAHD_DEVICE_CAPS enumeration

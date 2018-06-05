@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shdeprecated.IBrowserService3._PositionViewWindow
+title: IBrowserService3::_PositionViewWindow
+author: windows-sdk-content
+description: Deprecated. Used in view size negotiations. This method is called by _UpdateViewRectSize after determining the available dimensions.
+old-location: shell\IBrowserService3__PositionViewWindow.htm
+old-project: shell
+ms.assetid: 310885e5-b08d-4699-9dee-244efa49dfd1
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBrowserService3 interface [Windows Shell],_PositionViewWindow method, IBrowserService3._PositionViewWindow, IBrowserService3::_PositionViewWindow, _PositionViewWindow, _PositionViewWindow method [Windows Shell], _PositionViewWindow method [Windows Shell],IBrowserService3 interface, shdeprecated/IBrowserService3::_PositionViewWindow, shell.IBrowserService3__PositionViewWindow, zone_IBrowserService3__PositionViewWindow
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shdeprecated.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shdeprecated.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BNSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shdeprecated.h
+api_name:
+-	IBrowserService3._PositionViewWindow
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.0
 ---
 
 # IBrowserService3::_PositionViewWindow

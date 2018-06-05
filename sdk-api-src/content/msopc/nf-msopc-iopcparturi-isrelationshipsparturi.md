@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msopc.IOpcPartUri.IsRelationshipsPartUri
+title: IOpcPartUri::IsRelationshipsPartUri
+author: windows-sdk-content
+description: Returns a value that indicates whether the current part URI object represents the part name of a Relationships part.
+old-location: opc\iopcparturi_isrelationshipsparturi.htm
+old-project: OPC
+ms.assetid: 11d271ab-247c-4060-b769-45e462b66255
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: IOpcPartUri interface [Open Packaging Conventions],IsRelationshipsPartUri method, IOpcPartUri.IsRelationshipsPartUri, IOpcPartUri::IsRelationshipsPartUri, IsRelationshipsPartUri, IsRelationshipsPartUri method [Open Packaging Conventions], IsRelationshipsPartUri method [Open Packaging Conventions],IOpcPartUri interface, msopc/IOpcPartUri::IsRelationshipsPartUri, opc.iopcparturi_isrelationshipsparturi
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Opcparturi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPC_SIGNATURE_TIME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msopc.h
+api_name:
+-	IOpcPartUri.IsRelationshipsPartUri
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOpcPartUri::IsRelationshipsPartUri

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_SIGN_MESSAGE_PARA
+title: "_CRYPT_SIGN_MESSAGE_PARA"
+author: windows-sdk-content
+description: The CRYPT_SIGN_MESSAGE_PARA structure contains information for signing messages using a specified signing certificate context.
+old-location: security\crypt_sign_message_para.htm
+old-project: SecCrypto
+ms.assetid: 1601d860-6054-4650-a033-ea088655b7e4
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_SIGN_MESSAGE_PARA, CRYPT_SIGN_MESSAGE_PARA, CRYPT_SIGN_MESSAGE_PARA structure [Security], PCRYPT_SIGN_MESSAGE_PARA, PCRYPT_SIGN_MESSAGE_PARA structure pointer [Security], _CRYPT_SIGN_MESSAGE_PARA, _crypto2_crypt_sign_message_para, security.crypt_sign_message_para, wincrypt/CRYPT_SIGN_MESSAGE_PARA, wincrypt/PCRYPT_SIGN_MESSAGE_PARA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_SIGN_MESSAGE_PARA, *PCRYPT_SIGN_MESSAGE_PARA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRYPT_SIGN_MESSAGE_PARA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_SIGN_MESSAGE_PARA structure

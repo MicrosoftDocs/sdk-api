@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbio.WinBioAsyncEnumBiometricUnits
+title: WinBioAsyncEnumBiometricUnits function
+author: windows-sdk-content
+description: Asynchronously enumerates all attached biometric units that match the input factor type.
+old-location: secbiomet\winbioasyncenumbiometricunits.htm
+old-project: SecBioMet
+ms.assetid: 3A7CEC71-7352-43B7-83D3-447D487C4703
+ms.author: windowssdkdev
+ms.date: 04/24/2018
+ms.keywords: WinBioAsyncEnumBiometricUnits, WinBioAsyncEnumBiometricUnits function [Windows Biometric Framework API], secbiomet.winbioasyncenumbiometricunits, winbio/WinBioAsyncEnumBiometricUnits
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbio.h
+req.include-header: Winbio.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winbio.dll
+-	Ext-MS-Win-BioMetrics-WinBio-Core-l1-1-0.dll
+-	Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+-	WinBioAsyncEnumBiometricUnits
+product: Windows
+targetos: Windows
+req.lib: Winbio.lib
+req.dll: Winbio.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WinBioAsyncEnumBiometricUnits function

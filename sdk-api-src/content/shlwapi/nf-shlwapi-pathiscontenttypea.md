@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlwapi.PathIsContentTypeA
+title: PathIsContentTypeA function
+author: windows-sdk-content
+description: Determines if a file's registered content type matches the specified content type. This function obtains the content type for the specified file type and compares that string with the pszContentType. The comparison is not case-sensitive.
+old-location: shell\PathIsContentType.htm
+old-project: shell
+ms.assetid: 53eac496-9666-41fc-8682-f7b6583a62fe
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: PathIsContentType, PathIsContentType function [Windows Shell], PathIsContentTypeA, PathIsContentTypeW, _win32_PathIsContentType, shell.PathIsContentType, shlwapi/PathIsContentType, shlwapi/PathIsContentTypeA, shlwapi/PathIsContentTypeW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PathIsContentTypeW (Unicode) and PathIsContentTypeA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+api_name:
+-	PathIsContentType
+-	PathIsContentTypeA
+-	PathIsContentTypeW
+product: Windows
+targetos: Windows
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # PathIsContentTypeA function

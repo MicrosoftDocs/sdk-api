@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winddi.DrvDeriveSurface
+title: DrvDeriveSurface function
+author: windows-sdk-content
+description: The DrvDeriveSurface function derives a GDI surface from the specified DirectDraw surface.
+old-location: display\drvderivesurface.htm
+old-project: display
+ms.assetid: 7cd0acf8-34ef-425b-9967-43008d77b900
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DrvDeriveSurface, DrvDeriveSurface function [Display Devices], ddifncs_b38de767-eeaf-4120-8711-6f3319a53058.xml, display.drvderivesurface, winddi/DrvDeriveSurface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	DrvDeriveSurface
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DrvDeriveSurface function

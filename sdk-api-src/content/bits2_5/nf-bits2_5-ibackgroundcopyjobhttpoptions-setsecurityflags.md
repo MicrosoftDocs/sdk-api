@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.SetSecurityFlags
+title: IBackgroundCopyJobHttpOptions::SetSecurityFlags
+author: windows-sdk-content
+description: Sets flags for HTTP that determine whether the certificate revocation list is checked and certain certificate errors are ignored, and the policy to use when a server redirects the HTTP request.
+old-location: bits\ibackgroundcopyjobhttpoptions_setsecurityflags.htm
+old-project: Bits
+ms.assetid: afac84cb-28ab-4c80-ab39-eefe450ae3e5
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BG_HTTP_REDIRECT_POLICY_ALLOW_HTTPS_TO_HTTP, BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT, BG_HTTP_REDIRECT_POLICY_ALLOW_SILENT, BG_HTTP_REDIRECT_POLICY_DISALLOW, BG_HTTP_REDIRECT_POLICY_MASK, BG_SSL_ENABLE_CRL_CHECK, BG_SSL_IGNORE_CERT_CN_INVALID, BG_SSL_IGNORE_CERT_DATE_INVALID, BG_SSL_IGNORE_CERT_WRONG_USAGE, BG_SSL_IGNORE_UNKNOWN_CA, IBackgroundCopyJobHttpOptions interface [BITS],SetSecurityFlags method, IBackgroundCopyJobHttpOptions.SetSecurityFlags, IBackgroundCopyJobHttpOptions::SetSecurityFlags, SetSecurityFlags, SetSecurityFlags method [BITS], SetSecurityFlags method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setsecurityflags, bits2_5/IBackgroundCopyJobHttpOptions::SetSecurityFlags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bits2_5.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits2_5.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_CERT_STORE_LOCATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Bits.lib
+-	Bits.dll
+api_name:
+-	IBackgroundCopyJobHttpOptions.SetSecurityFlags
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 ---
 
 # IBackgroundCopyJobHttpOptions::SetSecurityFlags

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rpcasync.RpcGetAuthorizationContextForClient
+title: RpcGetAuthorizationContextForClient function
+author: windows-sdk-content
+description: The RpcGetAuthorizationContextForClient function returns the Authz context for an RPC client that can be used with Authz functions for high-performance authentication. Supported for ncalrpc and ncacn_* protocol sequences only.
+old-location: rpc\rpcgetauthorizationcontextforclient.htm
+old-project: Rpc
+ms.assetid: 993dfa23-4303-4601-b05d-70158e5e87ed
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: RpcGetAuthorizationContextForClient, RpcGetAuthorizationContextForClient function [RPC], _rpc_rpcgetauthorizationcontextforclient, rpc.rpcgetauthorizationcontextforclient, rpcasync/RpcGetAuthorizationContextForClient
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rpcasync.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_NOTIFICATION_TYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rpcrt4.dll
+api_name:
+-	RpcGetAuthorizationContextForClient
+product: Windows
+targetos: Windows
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RpcGetAuthorizationContextForClient function

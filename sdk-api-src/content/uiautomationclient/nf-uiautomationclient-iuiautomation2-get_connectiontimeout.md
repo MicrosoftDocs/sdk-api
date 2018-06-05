@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomation2.get_ConnectionTimeout
+title: IUIAutomation2::get_ConnectionTimeout
+author: windows-sdk-content
+description: Specifies the length of time that UI Automation will wait for a provider to respond to a client request for an automation element.
+old-location: winauto\uiauto_iuiautomation2_connectiontimeout.htm
+old-project: WinAuto
+ms.assetid: 636838C8-A5F6-4757-923D-2C69282B04EF
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: ConnectionTimeout property [Windows Accessibility], ConnectionTimeout property [Windows Accessibility],IUIAutomation2 interface, IUIAutomation2 interface [Windows Accessibility],ConnectionTimeout property, IUIAutomation2.ConnectionTimeout, IUIAutomation2.get_ConnectionTimeout, IUIAutomation2::ConnectionTimeout, IUIAutomation2::get_ConnectionTimeout, IUIAutomation2::put_ConnectionTimeout, get_ConnectionTimeout, uiautomationclient/IUIAutomation2::ConnectionTimeout, uiautomationclient/IUIAutomation2::get_ConnectionTimeout, uiautomationclient/IUIAutomation2::put_ConnectionTimeout, winauto.uiauto_iuiautomation2_connectiontimeout
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.dll
+api_name:
+-	IUIAutomation2.ConnectionTimeout
+-	IUIAutomation2.get_ConnectionTimeout
+-	IUIAutomation2.put_ConnectionTimeout
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomation2::get_ConnectionTimeout

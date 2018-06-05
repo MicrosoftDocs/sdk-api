@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._DEVICE_POWER_DESCRIPTOR
+title: "_DEVICE_POWER_DESCRIPTOR"
+author: windows-sdk-content
+description: The DEVICE_POWER_DESCRIPTOR structure describes the power capabilities of a storage device.
+old-location: fs\device_power_descriptor.htm
+old-project: FileIO
+ms.assetid: 63e51485-db3f-45ed-925e-0abf105c8aef
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PDEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR structure [Storage Devices], PDEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_POWER_DESCRIPTOR, fs.device_power_descriptor, fs.device_zero_power_odd_descriptor, winioctl/DEVICE_POWER_DESCRIPTOR, winioctl/PDEVICE_POWER_DESCRIPTOR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	DEVICE_POWER_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _DEVICE_POWER_DESCRIPTOR structure

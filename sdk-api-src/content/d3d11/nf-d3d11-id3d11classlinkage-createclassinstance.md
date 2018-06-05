@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11.ID3D11ClassLinkage.CreateClassInstance
+title: ID3D11ClassLinkage::CreateClassInstance
+author: windows-sdk-content
+description: Initializes a class-instance object that represents an HLSL class instance.
+old-location: direct3d11\id3d11classlinkage_createclassinstance.htm
+old-project: direct3d11
+ms.assetid: 26e5b1c7-d7b7-413b-a072-33f8f5dd5d3f
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 9738cc0b-0925-52a9-bcc7-e3e76bec3278, CreateClassInstance, CreateClassInstance method [Direct3D 11], CreateClassInstance method [Direct3D 11],ID3D11ClassLinkage interface, ID3D11ClassLinkage interface [Direct3D 11],CreateClassInstance method, ID3D11ClassLinkage.CreateClassInstance, ID3D11ClassLinkage::CreateClassInstance, d3d11/ID3D11ClassLinkage::CreateClassInstance, direct3d11.id3d11classlinkage_createclassinstance
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11ClassLinkage.CreateClassInstance
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11ClassLinkage::CreateClassInstance

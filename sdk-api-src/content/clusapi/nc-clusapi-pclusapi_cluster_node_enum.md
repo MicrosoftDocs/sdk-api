@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:clusapi.PCLUSAPI_CLUSTER_NODE_ENUM
+title: PCLUSAPI_CLUSTER_NODE_ENUM
+author: windows-sdk-content
+description: Enumerates the network interfaces or groups installed on a node, returning the name of each with each call.
+old-location: mscs\clusternodeenum.htm
+old-project: MsCS
+ms.assetid: e184ef8e-9ec6-4d84-a3d0-850298262b81
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_NODE_ENUM_GROUPS, CLUSTER_NODE_ENUM_NETINTERFACES, PCLUSAPI_CLUSTER_NODE_ENUM, PCLUSAPI_CLUSTER_NODE_ENUM callback, PCLUSAPI_CLUSTER_NODE_ENUM callback function [Failover Cluster], _wolf_clusternodeenum, clusapi/PCLUSAPI_CLUSTER_NODE_ENUM, mscs.clusternodeenum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: Sources
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ClusAPI.h
+api_name:
+-	PCLUSAPI_CLUSTER_NODE_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PCLUSAPI_CLUSTER_NODE_ENUM callback function

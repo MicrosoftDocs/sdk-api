@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj_core._browseinfoA
+title: "_browseinfoA"
+author: windows-sdk-content
+description: Contains parameters for the SHBrowseForFolder function and receives information about the folder selected by the user.
+old-location: shell\BROWSEINFO.htm
+old-project: shell
+ms.assetid: 7c8df03a-93bb-42b2-b4a0-9c2ae917c0d1
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPBROWSEINFOA, *PBROWSEINFOA, BIF_BROWSEFILEJUNCTIONS, BIF_BROWSEFORCOMPUTER, BIF_BROWSEFORPRINTER, BIF_BROWSEINCLUDEFILES, BIF_BROWSEINCLUDEURLS, BIF_DONTGOBELOWDOMAIN, BIF_EDITBOX, BIF_NEWDIALOGSTYLE, BIF_NONEWFOLDERBUTTON, BIF_NOTRANSLATETARGETS, BIF_RETURNFSANCESTORS, BIF_RETURNONLYFSDIRS, BIF_SHAREABLE, BIF_STATUSTEXT, BIF_UAHINT, BIF_USENEWUI, BIF_VALIDATE, BROWSEINFO, BROWSEINFO structure [Windows Shell], BROWSEINFOA, BROWSEINFOW, LPBROWSEINFO, LPBROWSEINFO structure pointer [Windows Shell], PBROWSEINFO, PBROWSEINFO structure pointer [Windows Shell], _browseinfoA, _win32_BROWSEINFO, shell.BROWSEINFO, shlobj_core/BROWSEINFO, shlobj_core/BROWSEINFOA, shlobj_core/BROWSEINFOW, shlobj_core/LPBROWSEINFO, shlobj_core/PBROWSEINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj_core.h
+req.include-header: Shlobj.h, Shlobj_core.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: BROWSEINFOW (Unicode) and BROWSEINFOA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BROWSEINFOA, *PBROWSEINFOA, *LPBROWSEINFOA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	BROWSEINFO
+-	BROWSEINFOA
+-	BROWSEINFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # _browseinfoA structure

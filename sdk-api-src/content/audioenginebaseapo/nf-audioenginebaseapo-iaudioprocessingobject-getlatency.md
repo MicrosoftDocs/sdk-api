@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:audioenginebaseapo.IAudioProcessingObject.GetLatency
+title: IAudioProcessingObject::GetLatency
+author: windows-sdk-content
+description: The GetLatency method returns the latency for this APO. Latency is the amount of time it takes a frame to traverse the processing pass of an APO.
+old-location: audio\iaudioprocessingobject_getlatency.htm
+old-project: audio
+ms.assetid: 7ac982cd-7fb7-4427-ac17-508bcc72391d
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetLatency, GetLatency method [Audio Devices], GetLatency method [Audio Devices],IAudioProcessingObject interface, IAudioProcessingObject interface [Audio Devices],GetLatency method, IAudioProcessingObject.GetLatency, IAudioProcessingObject::GetLatency, audio.iaudioprocessingobject_getlatency, audio_syseffects_r_51c02d16-7f19-43e9-8656-411abb78ee56.xml, audioenginebaseapo/IAudioProcessingObject::GetLatency
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioenginebaseapo.h
+req.include-header: 
+req.target-type: Universal
+req.target-min-winverclnt: Available with Windows Vista and later Windows operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APO_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioenginebaseapo.idl
+-	Audioenginebaseapo.idl.dll
+api_name:
+-	IAudioProcessingObject.GetLatency
+product: Windows
+targetos: Windows
+req.lib: Audioenginebaseapo.idl
+req.dll: 
+req.irql: Any level
 ---
 
 # IAudioProcessingObject::GetLatency

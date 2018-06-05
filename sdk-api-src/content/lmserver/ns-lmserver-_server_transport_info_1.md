@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmserver._SERVER_TRANSPORT_INFO_1
+title: "_SERVER_TRANSPORT_INFO_1"
+author: windows-sdk-content
+description: The SERVER_TRANSPORT_INFO_1 structure contains information about the specified transport protocol, including name and address. This information level is valid only for the NetServerTransportAddEx function.
+old-location: netmgmt\server_transport_info_1_str.htm
+old-project: NetMgmt
+ms.assetid: f21fed49-207a-4f64-becd-3d3c1e995eb0
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPSERVER_TRANSPORT_INFO_1, *PSERVER_TRANSPORT_INFO_1, LPSERVER_TRANSPORT_INFO_1, LPSERVER_TRANSPORT_INFO_1 structure pointer [Network Management], PSERVER_TRANSPORT_INFO_1, PSERVER_TRANSPORT_INFO_1 structure pointer [Network Management], SERVER_TRANSPORT_INFO_1, SERVER_TRANSPORT_INFO_1 structure [Network Management], _SERVER_TRANSPORT_INFO_1, _win32_server_transport_info_1_str, lmserver/LPSERVER_TRANSPORT_INFO_1, lmserver/PSERVER_TRANSPORT_INFO_1, lmserver/SERVER_TRANSPORT_INFO_1, netmgmt.server_transport_info_1_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmserver.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SERVER_TRANSPORT_INFO_1, *PSERVER_TRANSPORT_INFO_1, *LPSERVER_TRANSPORT_INFO_1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmserver.h
+api_name:
+-	SERVER_TRANSPORT_INFO_1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _SERVER_TRANSPORT_INFO_1 structure

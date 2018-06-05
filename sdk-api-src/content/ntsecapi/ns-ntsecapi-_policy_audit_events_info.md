@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._POLICY_AUDIT_EVENTS_INFO
+title: "_POLICY_AUDIT_EVENTS_INFO"
+author: windows-sdk-content
+description: The POLICY_AUDIT_EVENTS_INFO structure is used to set and query the system's auditing rules.
+old-location: security\policy_audit_events_info.htm
+old-project: SecMgmt
+ms.assetid: 3442e5e5-78cf-4bda-ba11-0f51ee40df16
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PPOLICY_AUDIT_EVENTS_INFO, POLICY_AUDIT_EVENTS_INFO, POLICY_AUDIT_EVENTS_INFO structure [Security], POLICY_AUDIT_EVENT_FAILURE, POLICY_AUDIT_EVENT_NONE, POLICY_AUDIT_EVENT_SUCCESS, POLICY_AUDIT_EVENT_UNCHANGED, PPOLICY_AUDIT_EVENTS_INFO, PPOLICY_AUDIT_EVENTS_INFO structure pointer [Security], _POLICY_AUDIT_EVENTS_INFO, _lsa_policy_audit_events_info, ntsecapi/POLICY_AUDIT_EVENTS_INFO, ntsecapi/PPOLICY_AUDIT_EVENTS_INFO, security.policy_audit_events_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: POLICY_AUDIT_EVENTS_INFO, *PPOLICY_AUDIT_EVENTS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	POLICY_AUDIT_EVENTS_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _POLICY_AUDIT_EVENTS_INFO structure

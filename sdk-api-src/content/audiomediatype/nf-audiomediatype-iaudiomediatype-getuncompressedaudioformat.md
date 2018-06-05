@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:audiomediatype.IAudioMediaType.GetUncompressedAudioFormat
+title: IAudioMediaType::GetUncompressedAudioFormat
+author: windows-sdk-content
+description: The IAudioMediaType::GetUncompressedAudioFormat returns information about the audio data format.
+old-location: audio\iaudiomediatype_getuncompressedaudioformat.htm
+old-project: audio
+ms.assetid: 9b4661cc-77b3-439b-bf28-5f9738dca6e1
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetUncompressedAudioFormat, GetUncompressedAudioFormat method [Audio Devices], GetUncompressedAudioFormat method [Audio Devices],IAudioMediaType interface, IAudioMediaType interface [Audio Devices],GetUncompressedAudioFormat method, IAudioMediaType.GetUncompressedAudioFormat, IAudioMediaType::GetUncompressedAudioFormat, audio.iaudiomediatype_getuncompressedaudioformat, audio_syseffects_r_2e6e3723-2bc2-4e75-b64d-9b577d7916d6.xml, audiomediatype/IAudioMediaType::GetUncompressedAudioFormat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audiomediatype.h
+req.include-header: Audiomediatype.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	audiomediatype.h
+api_name:
+-	IAudioMediaType.GetUncompressedAudioFormat
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: All levels.
 ---
 
 # IAudioMediaType::GetUncompressedAudioFormat

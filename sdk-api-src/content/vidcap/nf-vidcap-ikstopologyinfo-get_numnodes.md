@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vidcap.IKsTopologyInfo.get_NumNodes
+title: IKsTopologyInfo::get_NumNodes
+author: windows-sdk-content
+description: The get_NumNodes method returns the number of nodes in the filter.
+old-location: dshow\ikstopologyinfo_get_numnodes.htm
+old-project: DirectShow
+ms.assetid: fdba99d5-fd44-4d4f-8575-867d98bf3339
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IKsTopologyInfo interface [DirectShow],get_NumNodes method, IKsTopologyInfo.get_NumNodes, IKsTopologyInfo::get_NumNodes, IKsTopologyInfoget_NumNodes, dshow.ikstopologyinfo_get_numnodes, get_NumNodes, get_NumNodes method [DirectShow], get_NumNodes method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NumNodes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vidcap.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Vidcap.h
+api_name:
+-	IKsTopologyInfo.get_NumNodes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IKsTopologyInfo::get_NumNodes

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sensevts.ISensLogon.Logoff
+title: ISensLogon::Logoff
+author: windows-sdk-content
+description: The Logoff method notifies an application that a user is logged off.
+old-location: sens\isenslogon_logoff.htm
+old-project: Sens
+ms.assetid: b45658a1-d427-42b2-912c-5e5c36dab280
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ISensLogon interface [SENS],Logoff method, ISensLogon.Logoff, ISensLogon::Logoff, Logoff, Logoff method [SENS], Logoff method [SENS],ISensLogon interface, _zaw_isenslogon_logoff, sens.isenslogon_logoff, sensevts/ISensLogon::Logoff, syncmgr.isenslogon_logoff
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sensevts.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Sensevts.tlb
+tech.root: 
+req.typenames: QOCINFO, *LPQOCINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Sens.dll
+api_name:
+-	ISensLogon.Logoff
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISensLogon::Logoff

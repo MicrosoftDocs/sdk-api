@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxgi1_6.DXGIDeclareAdapterRemovalSupport
+title: DXGIDeclareAdapterRemovalSupport function
+author: windows-sdk-content
+description: Allows a process to indicate that it's resilient to any of its graphics devices being removed.
+old-location: direct3ddxgi\dxgideclareadapterremovalsupport.htm
+old-project: direct3ddxgi
+ms.assetid: 602EA66C-6D3D-4604-822C-DBD66EB70C3C
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGIDeclareAdapterRemovalSupport, DXGIDeclareAdapterRemovalSupport function [DXGI], direct3ddxgi.dxgideclareadapterremovalsupport, dxgi1_6/DXGIDeclareAdapterRemovalSupport
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dxgi1_6.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	dxgi.dll
+api_name:
+-	DXGIDeclareAdapterRemovalSupport
+product: Windows
+targetos: Windows
+req.lib: Dxgi.lib
+req.dll: Dxgi.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DXGIDeclareAdapterRemovalSupport function

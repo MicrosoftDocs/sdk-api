@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:wlanapi.WFD_OPEN_SESSION_COMPLETE_CALLBACK
+title: WFD_OPEN_SESSION_COMPLETE_CALLBACK
+author: windows-sdk-content
+description: Defines the callback function that is called by the WFDStartOpenSession function when the WFDStartOpenSession operation completes.
+old-location: nwifi\wfd_open_session_complete_callback.htm
+old-project: NativeWiFi
+ms.assetid: 2CB91D70-920A-4D97-B96D-B264F59150AC
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: ERROR_INVALID_PARAMETER, ERROR_INVALID_STATE, ERROR_SERVICE_NOT_ACTIVE, RPC_STATUS, WFD_OPEN_SESSION_COMPLETE_CALLBACK, WFD_OPEN_SESSION_COMPLETE_CALLBACK callback, WFD_OPEN_SESSION_COMPLETE_CALLBACK callback function [NativeWIFI], nwifi.wfd_open_session_complete_callback, wlanapi/WFD_OPEN_SESSION_COMPLETE_CALLBACK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLX_TERMINAL_SERVICES_DATA, *PWLX_TERMINAL_SERVICES_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	wlanapi.h
+api_name:
+-	WFD_OPEN_SESSION_COMPLETE_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WFD_OPEN_SESSION_COMPLETE_CALLBACK callback function

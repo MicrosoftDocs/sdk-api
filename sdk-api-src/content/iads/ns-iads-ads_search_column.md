@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iads.ads_search_column
+title: ads_search_column
+author: windows-sdk-content
+description: The ADS_SEARCH_COLUMN structure specifies the contents of a search column in the query returned from the directory service database.
+old-location: adsi\ads_search_column.htm
+old-project: ADSI
+ms.assetid: 9fdb370d-9409-4717-ae10-bb3b5b8a0e02
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PADS_SEARCH_COLUMN, ADS_SEARCH_COLUMN, ADS_SEARCH_COLUMN structure [ADSI], PADS_SEARCH_COLUMN, PADS_SEARCH_COLUMN structure pointer [ADSI], _ds_ads_search_column, ads_search_column, adsi.ads__search__column, adsi.ads_search_column, iads/ADS_SEARCH_COLUMN, iads/PADS_SEARCH_COLUMN"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SEARCH_COLUMN, *PADS_SEARCH_COLUMN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_SEARCH_COLUMN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ads_search_column structure

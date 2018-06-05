@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dinputd.IDirectInputJoyConfig8.SetCooperativeLevel
+title: IDirectInputJoyConfig8::SetCooperativeLevel
+author: windows-sdk-content
+description: The IDirectInputJoyConfig8::SetCooperativeLevel method establishes the cooperation level for the instance of the device. The only cooperative levels supported for the IDirectInputJoyConfig8 interface are DISCL_EXCLUSIVE and DISCL_BACKGROUND.
+old-location: hid\idirectinputjoyconfig8_setcooperativelevel.htm
+old-project: hid
+ms.assetid: 0132194a-ee7b-4aa2-af79-f92071072429
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetCooperativeLevel method, IDirectInputJoyConfig8.SetCooperativeLevel, IDirectInputJoyConfig8::SetCooperativeLevel, SetCooperativeLevel, SetCooperativeLevel method [Human Input Devices], SetCooperativeLevel method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_3730e9ce-af55-43a3-866f-ecb288958005.xml, dinputd/IDirectInputJoyConfig8::SetCooperativeLevel, hid.idirectinputjoyconfig8_setcooperativelevel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dinputd.h
+api_name:
+-	IDirectInputJoyConfig8.SetCooperativeLevel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputJoyConfig8::SetCooperativeLevel

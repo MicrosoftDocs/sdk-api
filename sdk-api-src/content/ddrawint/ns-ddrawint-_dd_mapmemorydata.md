@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_MAPMEMORYDATA
+title: "_DD_MAPMEMORYDATA"
+author: windows-sdk-content
+description: The DD_MAPMEMORYDATA structure contains the information necessary to map or unmap a frame buffer into user-mode memory.
+old-location: display\dd_mapmemorydata.htm
+old-project: display
+ms.assetid: 51d8b35f-883c-4e47-a0e6-af6c8ade8e54
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_MAPMEMORYDATA, DD_MAPMEMORYDATA, DD_MAPMEMORYDATA structure [Display Devices], _DD_MAPMEMORYDATA, ddrawint/DD_MAPMEMORYDATA, ddstrcts_8ed973e1-2324-4dba-bcff-78442d5f33ee.xml, display.dd_mapmemorydata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_MAPMEMORYDATA, DD_MAPMEMORYDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_MAPMEMORYDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_MAPMEMORYDATA structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:ntsecpkg.LSA_GET_AUTH_DATA_FOR_USER
+title: LSA_GET_AUTH_DATA_FOR_USER
+author: windows-sdk-content
+description: The GetAuthDataForUser function retrieves authentication information for a user from the Security Accounts Manager (SAM) database and puts it into a format suitable for the ConvertAuthDataToToken function.
+old-location: security\getauthdataforuser.htm
+old-project: SecAuthN
+ms.assetid: 1cc02c6b-2628-441d-97ae-ed83a4f6bfd0
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: GetAuthDataForUser, GetAuthDataForUser function [Security], LSA_GET_AUTH_DATA_FOR_USER, SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, _ssp_getauthdataforuser, ntsecpkg/GetAuthDataForUser, security.getauthdataforuser
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ntsecpkg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTED_POSIX_OFFSET_INFO, *PTRUSTED_POSIX_OFFSET_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Ntsecpkg.h
+api_name:
+-	GetAuthDataForUser
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LSA_GET_AUTH_DATA_FOR_USER callback function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.IEventTrigger.put_Delay
+title: IEventTrigger::put_Delay
+author: windows-sdk-content
+description: Gets or sets a value that indicates the amount of time between when the event occurs and when the task is started.
+old-location: taskschd\ieventtrigger_delay.htm
+old-project: TaskSchd
+ms.assetid: 2731ad62-6384-4c66-b66f-b159a5b15cb1
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],IEventTrigger interface, IEventTrigger interface [Task Scheduler],Delay property, IEventTrigger.Delay, IEventTrigger.put_Delay, IEventTrigger::Delay, IEventTrigger::get_Delay, IEventTrigger::put_Delay, put_Delay, taskschd.ieventtrigger_delay, taskschd/IEventTrigger::Delay, taskschd/IEventTrigger::get_Delay, taskschd/IEventTrigger::put_Delay
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	IEventTrigger.Delay
+-	IEventTrigger.get_Delay
+-	IEventTrigger.put_Delay
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IEventTrigger::put_Delay

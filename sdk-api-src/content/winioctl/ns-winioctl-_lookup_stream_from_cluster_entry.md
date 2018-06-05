@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._LOOKUP_STREAM_FROM_CLUSTER_ENTRY
+title: "_LOOKUP_STREAM_FROM_CLUSTER_ENTRY"
+author: windows-sdk-content
+description: Returned from the FSCTL_LOOKUP_STREAM_FROM_CLUSTER control code.
+old-location: fs\lookup_stream_from_cluster_entry.htm
+old-project: FileIO
+ms.assetid: 2f4de631-8bb4-4b2a-a750-43f06554b22f
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PLOOKUP_STREAM_FROM_CLUSTER_ENTRY, LOOKUP_STREAM_FROM_CLUSTER_ENTRY, LOOKUP_STREAM_FROM_CLUSTER_ENTRY structure [Files], LOOKUP_STREAM_FROM_CLUSTER_ENTRY_ATTRIBUTE_DATA, LOOKUP_STREAM_FROM_CLUSTER_ENTRY_ATTRIBUTE_INDEX, LOOKUP_STREAM_FROM_CLUSTER_ENTRY_ATTRIBUTE_MASK, LOOKUP_STREAM_FROM_CLUSTER_ENTRY_ATTRIBUTE_SYSTEM, LOOKUP_STREAM_FROM_CLUSTER_ENTRY_FLAG_DENY_DEFRAG_SET, LOOKUP_STREAM_FROM_CLUSTER_ENTRY_FLAG_FS_SYSTEM_FILE, LOOKUP_STREAM_FROM_CLUSTER_ENTRY_FLAG_PAGE_FILE, LOOKUP_STREAM_FROM_CLUSTER_ENTRY_FLAG_TXF_SYSTEM_FILE, PLOOKUP_STREAM_FROM_CLUSTER_ENTRY, PLOOKUP_STREAM_FROM_CLUSTER_ENTRY structure pointer [Files], _LOOKUP_STREAM_FROM_CLUSTER_ENTRY, fs.lookup_stream_from_cluster_entry, winioctl/LOOKUP_STREAM_FROM_CLUSTER_ENTRY, winioctl/PLOOKUP_STREAM_FROM_CLUSTER_ENTRY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOOKUP_STREAM_FROM_CLUSTER_ENTRY, *PLOOKUP_STREAM_FROM_CLUSTER_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	LOOKUP_STREAM_FROM_CLUSTER_ENTRY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _LOOKUP_STREAM_FROM_CLUSTER_ENTRY structure

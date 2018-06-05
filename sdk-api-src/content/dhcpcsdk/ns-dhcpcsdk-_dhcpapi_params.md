@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpcsdk._DHCPAPI_PARAMS
+title: "_DHCPAPI_PARAMS"
+author: windows-sdk-content
+description: The DHCPAPI_PARAMS structure is used to request DHCP parameters.
+old-location: dhcp\dhcpapi_params.htm
+old-project: DHCP
+ms.assetid: be8329a3-c3ad-4f5b-92ae-cf18fa847d53
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCPAPI_PARAMS, *LPDHCPAPI_PARAMS structure [DHCP], *LPDHCPCAPI_PARAMS, *LPDHCPCAPI_PARAMS structure [DHCP], *PDHCPAPI_PARAMS, *PDHCPAPI_PARAMS structure [DHCP], *PDHCPCAPI_PARAMS, *PDHCPCAPI_PARAMS structure [DHCP], DHCPAPI_PARAMS, DHCPAPI_PARAMS structure [DHCP], DHCPCAPI_PARAMS, DHCPCAPI_PARAMS structure [DHCP], _DHCPAPI_PARAMS, dhcp.dhcpapi_params, dhcpcsdk/*LPDHCPAPI_PARAMS, dhcpcsdk/*LPDHCPCAPI_PARAMS, dhcpcsdk/*PDHCPAPI_PARAMS, dhcpcsdk/*PDHCPCAPI_PARAMS, dhcpcsdk/DHCPAPI_PARAMS, dhcpcsdk/DHCPCAPI_PARAMS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpcsdk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCPAPI_PARAMS, *PDHCPAPI_PARAMS, *LPDHCPAPI_PARAMS, DHCPCAPI_PARAMS, *PDHCPCAPI_PARAMS, *LPDHCPCAPI_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpcsdk.h
+api_name:
+-	DHCPAPI_PARAMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCPAPI_PARAMS structure

@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:adhoc.IDot11AdHocNetwork.GetContextGuid
+title: IDot11AdHocNetwork::GetContextGuid
+author: windows-sdk-content
+description: Gets the context identifier associated with the network.
+old-location: nwifi\idot11adhocnetwork_getcontextguid.htm
+old-project: NativeWiFi
+ms.assetid: 6a7e7a75-b070-4d57-ae88-6bfc3568c3c9
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: GetContextGuid, GetContextGuid method [NativeWIFI], GetContextGuid method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetContextGuid method, IDot11AdHocNetwork.GetContextGuid, IDot11AdHocNetwork::GetContextGuid, adhoc/IDot11AdHocNetwork::GetContextGuid, nwifi.idot11adhocnetwork_getcontextguid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: adhoc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Adhoc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	adhoc.h
+api_name:
+-	IDot11AdHocNetwork.GetContextGuid
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDot11AdHocNetwork::GetContextGuid

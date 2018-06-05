@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xenroll.IEnroll.put_WriteCertToCSP
+title: IEnroll::put_WriteCertToCSP
+author: windows-sdk-content
+description: Sets or retrieves a Boolean value that determines whether a certificate should be written to the cryptographic service provider (CSP).
+old-location: security\ienroll4_writecerttocsp.htm
+old-project: SecCrypto
+ms.assetid: 07463f0d-f46c-4bc3-8170-0a480b826049
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IEnroll interface [Security],WriteCertToCSP property, IEnroll.WriteCertToCSP, IEnroll.put_WriteCertToCSP, IEnroll::WriteCertToCSP, IEnroll::get_WriteCertToCSP, IEnroll::put_WriteCertToCSP, WriteCertToCSP property [Security], WriteCertToCSP property [Security],IEnroll interface, put_WriteCertToCSP, security.ienroll4_writecerttocsp, xenroll/IEnroll::WriteCertToCSP, xenroll/IEnroll::get_WriteCertToCSP, xenroll/IEnroll::put_WriteCertToCSP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	IEnroll.WriteCertToCSP
+-	IEnroll.get_WriteCertToCSP
+-	IEnroll.put_WriteCertToCSP
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IEnroll::put_WriteCertToCSP

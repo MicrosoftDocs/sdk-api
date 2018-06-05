@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:webservices.WS_DECODER_DECODE_CALLBACK
+title: WS_DECODER_DECODE_CALLBACK
+author: windows-sdk-content
+description: Decodes a message.
+old-location: wsw\ws_decoder_decode_callback.htm
+old-project: wsw
+ms.assetid: 04ba9b13-8145-4956-85b2-2330c792665a
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_DECODER_DECODE_CALLBACK, WS_DECODER_DECODE_CALLBACK callback, WS_DECODER_DECODE_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_DECODE_CALLBACK, wsw.ws_decoder_decode_callback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	WebServices.h
+api_name:
+-	WS_DECODER_DECODE_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_DECODER_DECODE_CALLBACK callback function

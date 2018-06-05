@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmsdkidl.IWMDRMMessageParser.ParseLicenseRequestMsg
+title: IWMDRMMessageParser::ParseLicenseRequestMsg
+author: windows-sdk-content
+description: The ParseLicenseRequestMsg method extracts the device identification and requested action from a policy request message.
+old-location: wmformat\iwmdrmmessageparser_parselicenserequestmsg.htm
+old-project: wmformat
+ms.assetid: 0d51b7f7-5cc2-4dbd-8a61-2901c01734bb
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWMDRMMessageParser interface [windows Media Format],ParseLicenseRequestMsg method, IWMDRMMessageParser.ParseLicenseRequestMsg, IWMDRMMessageParser::ParseLicenseRequestMsg, IWMDRMMessageParserParseLicenseRequestMsg, ParseLicenseRequestMsg, ParseLicenseRequestMsg method [windows Media Format], ParseLicenseRequestMsg method [windows Media Format],IWMDRMMessageParser interface, wmformat.iwmdrmmessageparser_parselicenserequestmsg, wmsdkidl/IWMDRMMessageParser::ParseLicenseRequestMsg
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMDRMMessageParser.ParseLicenseRequestMsg
+product: Windows
+targetos: Windows
+req.lib: WMStubDRM.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMDRMMessageParser::ParseLicenseRequestMsg

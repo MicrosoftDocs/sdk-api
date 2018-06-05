@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmquota.IFsrmQuotaTemplateImported.get_OverwriteOnCommit
+title: IFsrmQuotaTemplateImported::get_OverwriteOnCommit
+author: windows-sdk-content
+description: Retrieves or sets a value that determines whether a quota template is overwritten if it exists when the template is imported.
+old-location: fsrm\ifsrmquotatemplateimported_overwriteoncommit.htm
+old-project: Fsrm
+ms.assetid: fbfa55b5-b179-4ede-b39d-a04c1e6d8c83
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmQuotaTemplateImported interface [File Server Resource Manager],OverwriteOnCommit property, IFsrmQuotaTemplateImported.OverwriteOnCommit, IFsrmQuotaTemplateImported.get_OverwriteOnCommit, IFsrmQuotaTemplateImported::OverwriteOnCommit, IFsrmQuotaTemplateImported::get_OverwriteOnCommit, IFsrmQuotaTemplateImported::put_OverwriteOnCommit, OverwriteOnCommit property [File Server Resource Manager], OverwriteOnCommit property [File Server Resource Manager],IFsrmQuotaTemplateImported interface, fs.ifsrmquotatemplateimported_overwriteoncommit, fsrm.ifsrmquotatemplateimported_overwriteoncommit, fsrmquota/IFsrmQuotaTemplateImported::OverwriteOnCommit, fsrmquota/IFsrmQuotaTemplateImported::get_OverwriteOnCommit, fsrmquota/IFsrmQuotaTemplateImported::put_OverwriteOnCommit, get_OverwriteOnCommit
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmquota.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmQuotaTemplateImported.OverwriteOnCommit
+-	IFsrmQuotaTemplateImported.get_OverwriteOnCommit
+-	IFsrmQuotaTemplateImported.put_OverwriteOnCommit
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmQuotaTemplateImported::get_OverwriteOnCommit

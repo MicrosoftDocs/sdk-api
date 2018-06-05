@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:minidumpapiset._MINIDUMP_DIRECTORY
+title: "_MINIDUMP_DIRECTORY"
+author: windows-sdk-content
+description: Contains the information needed to access a specific data stream in a minidump file.
+old-location: base\minidump_directory_str.htm
+old-project: Debug
+ms.assetid: 1262c218-5351-4fea-9d35-4654da7c5e44
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PMINIDUMP_DIRECTORY, MINIDUMP_DIRECTORY, MINIDUMP_DIRECTORY structure, PMINIDUMP_DIRECTORY, PMINIDUMP_DIRECTORY structure pointer, _MINIDUMP_DIRECTORY, _win32_minidump_directory_str, base.minidump_directory_str, minidumpapiset/MINIDUMP_DIRECTORY, minidumpapiset/PMINIDUMP_DIRECTORY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: minidumpapiset.h
+req.include-header: DbgHelp.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MINIDUMP_DIRECTORY, *PMINIDUMP_DIRECTORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	minidumpapiset.h
+api_name:
+-	MINIDUMP_DIRECTORY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MINIDUMP_DIRECTORY structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ws2ipdef._SOCKADDR_INET
+title: "_SOCKADDR_INET"
+author: windows-sdk-content
+description: Contains an IPv4, an IPv6 address, or an address family.
+old-location: iphlp\sockaddr_inet.htm
+old-project: IpHlp
+ms.assetid: 7278dcb4-65c6-4aea-a474-cb7fae4d7672
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PSOCKADDR_INET, AF_INET, AF_INET6, AF_UNSPEC, PSOCKADDR_INET, PSOCKADDR_INET union pointer [IP Helper], SOCKADDR_INET, SOCKADDR_INET union [IP Helper], _SOCKADDR_INET, iphlp.sockaddr_inet, ws2ipdef/PSOCKADDR_INET, ws2ipdef/SOCKADDR_INET"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ws2ipdef.h
+req.include-header: Ws2tcpip.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wrdsgraphicschannels.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOCKADDR_INET, *PSOCKADDR_INET
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ws2ipdef.h
+api_name:
+-	SOCKADDR_INET
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SOCKADDR_INET structure

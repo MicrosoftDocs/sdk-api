@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0078_0001
+title: "__MIDL___MIDL_itf_ads_0001_0078_0001"
+author: windows-sdk-content
+description: The ADS_SETTYPE_ENUM enumeration specifies the available pathname format used by the IADsPathname::Set method.
+old-location: adsi\ads_settype_enum.htm
+old-project: ADSI
+ms.assetid: fbf7de54-3ea7-4d66-ad56-21cae1e28c07
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ADS_SETTYPE_DN, ADS_SETTYPE_ENUM, ADS_SETTYPE_ENUM enumeration [ADSI], ADS_SETTYPE_FULL, ADS_SETTYPE_PROVIDER, ADS_SETTYPE_SERVER, __MIDL___MIDL_itf_ads_0001_0078_0001, _ds_ads_settype_enum, adsi.ads__settype__enum, adsi.ads_settype_enum, iads/ADS_SETTYPE_DN, iads/ADS_SETTYPE_ENUM, iads/ADS_SETTYPE_FULL, iads/ADS_SETTYPE_PROVIDER, iads/ADS_SETTYPE_SERVER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: IAccess.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SETTYPE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_SETTYPE_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_ads_0001_0078_0001 enumeration

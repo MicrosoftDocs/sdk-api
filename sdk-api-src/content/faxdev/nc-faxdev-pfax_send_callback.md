@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:faxdev.PFAX_SEND_CALLBACK
+title: PFAX_SEND_CALLBACK
+author: windows-sdk-content
+description: The FaxSendCallback function is an application-defined or library-defined callback function that a fax service provider (FSP) calls to notify the fax service that an outgoing fax call is in progress.
+old-location: fax\_mfax_faxsendcallback.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxfspapiref_8xt7.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: FaxSendCallback, FaxSendCallback callback function [Fax Service], PFAX_SEND_CALLBACK, PFAX_SEND_CALLBACK callback, _mfax_faxsendcallback, fax._mfax_faxsendcallback, faxdev/FaxSendCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: faxdev.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	FaxDev.h
+api_name:
+-	FaxSendCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # PFAX_SEND_CALLBACK callback function

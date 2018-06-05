@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:cmnquery.LPCQPAGEPROC
+title: LPCQPAGEPROC
+author: windows-sdk-content
+description: Called by the query dialog box to notify the query form extension of events that occur in a query page.
+old-location: ad\cqpageproc.htm
+old-project: AD
+ms.assetid: 11d40439-0877-4870-80f8-88026c448a32
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: CQPageProc, CQPageProc callback, CQPageProc callback function [Active Directory], LPCQPAGEPROC, LPCQPAGEPROC callback function pointer [Active Directory], ad.cqpageproc, cmnquery/CQPageProc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: cmnquery.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Cmnquery.h
+api_name:
+-	LPCQPAGEPROC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # LPCQPAGEPROC callback function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ksopmapi._OPM_GET_INFO_PARAMETERS
+title: "_OPM_GET_INFO_PARAMETERS"
+author: windows-sdk-content
+description: Contains parameters for the IOPMVideoOutput::GetInformation method.
+old-location: mf\opm_get_info_parameters.htm
+old-project: medfound
+ms.assetid: 8959c7d1-9a78-497f-8841-d3e61e9db6a3
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: OPM_GET_INFO_PARAMETERS, OPM_GET_INFO_PARAMETERS structure [Media Foundation], _OPM_GET_INFO_PARAMETERS, ksopmapi/OPM_GET_INFO_PARAMETERS, mf.opm_get_info_parameters
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ksopmapi.h
+req.include-header: Opmapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPM_GET_INFO_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ksopmapi.h
+api_name:
+-	OPM_GET_INFO_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _OPM_GET_INFO_PARAMETERS structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objectarray.IObjectCollection.AddObject
+title: IObjectCollection::AddObject
+author: windows-sdk-content
+description: Adds a single object to the collection.
+old-location: shell\IObjectCollection_AddObject.htm
+old-project: shell
+ms.assetid: 0898160d-46e5-4b38-9fc9-f74bd6a0385b
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: AddObject, AddObject method [Windows Shell], AddObject method [Windows Shell],IObjectCollection interface, IObjectCollection interface [Windows Shell],AddObject method, IObjectCollection.AddObject, IObjectCollection::AddObject, _shell_IObjectCollection_AddObject, objectarray/IObjectCollection::AddObject, shell.IObjectCollection_AddObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: objectarray.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMSD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objectarray.h
+api_name:
+-	IObjectCollection.AddObject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IObjectCollection::AddObject

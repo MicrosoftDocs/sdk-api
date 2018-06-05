@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:dxmini.PDX_GETTRANSFERSTATUS
+title: PDX_GETTRANSFERSTATUS
+author: windows-sdk-content
+description: The DxGetTransferStatus callback function is used by DirectDraw to determine which hardware bus master has completed.
+old-location: display\dxgettransferstatus.htm
+old-project: display
+ms.assetid: e33ec8f0-2d1c-42cf-8b82-8f316f52e2a8
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DxGetTransferStatus, DxGetTransferStatus callback function [Display Devices], PDX_GETTRANSFERSTATUS, PDX_GETTRANSFERSTATUS callback, VideoMiniPort_DxApiFunctions_f0260ee6-8e6c-4ab0-bad3-8d5c2ce42488.xml, display.dxgettransferstatus, dxmini/DxGetTransferStatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	dxmini.h
+api_name:
+-	DxGetTransferStatus
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # PDX_GETTRANSFERSTATUS callback function

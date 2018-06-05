@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzAuthorizationStore.get_Description
+title: IAzAuthorizationStore::get_Description
+author: windows-sdk-content
+description: Sets or retrieves a comment that describes the operation.
+old-location: security\azauthorizationstore_description.htm
+old-project: SecAuthZ
+ms.assetid: 79ef0e2f-3178-4310-832c-b0eea06cf1b0
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AzAuthorizationStore object [Security],Description property, Description property [Security], Description property [Security],AzAuthorizationStore object, Description property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],Description property, IAzAuthorizationStore.Description, IAzAuthorizationStore.get_Description, IAzAuthorizationStore::Description, IAzAuthorizationStore::get_Description, IAzAuthorizationStore::put_Description, azroles/IAzAuthorizationStore::Description, azroles/IAzAuthorizationStore::get_Description, azroles/IAzAuthorizationStore::put_Description, get_Description, security.azauthorizationstore_description
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzAuthorizationStore.Description
+-	IAzAuthorizationStore.get_Description
+-	IAzAuthorizationStore.put_Description
+-	AzAuthorizationStore.Description
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzAuthorizationStore::get_Description

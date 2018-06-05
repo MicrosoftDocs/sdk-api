@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.ICommDlgBrowser2.Notify
+title: ICommDlgBrowser2::Notify
+author: windows-sdk-content
+description: Called by a Shell view to notify the common dialog box hosting it that an event has occurred.
+old-location: shell\ICommDlgBrowser2_Notify.htm
+old-project: shell
+ms.assetid: 486c306d-90ea-4ea4-afe1-2c3f5015ccf7
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CDB2N_CONTEXTMENU_DONE, CDB2N_CONTEXTMENU_START, ICommDlgBrowser2 interface [Windows Shell],Notify method, ICommDlgBrowser2.Notify, ICommDlgBrowser2::Notify, Notify, Notify method [Windows Shell], Notify method [Windows Shell],ICommDlgBrowser2 interface, _win32_ICommDlgBrowser2_Notify, shell.ICommDlgBrowser2_Notify, shobjidl_core/ICommDlgBrowser2::Notify
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	ICommDlgBrowser2.Notify
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ICommDlgBrowser2::Notify

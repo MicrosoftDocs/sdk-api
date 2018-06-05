@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:netlistmgr.INetworkCostManagerEvents
+title: INetworkCostManagerEvents
+author: windows-sdk-content
+description: This interface to notify an application of machine-wide cost and data plan related events.
+old-location: nla\inetworkcostmanagerevents.htm
+old-project: NLA
+ms.assetid: A8F4194E-6E9A-4173-8F88-FC2923B11CF0
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: INetworkCostManagerEvents, INetworkCostManagerEvents interface [Network Awareness], INetworkCostManagerEvents interface [Network Awareness],described, netlistmgr/INetworkCostManagerEvents, nla.inetworkcostmanagerevents
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: netlistmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Netlistmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Netlistmgr.h
+api_name:
+-	INetworkCostManagerEvents
+-	INetworkCostManagerEvents.CostChanged
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetworkCostManagerEvents interface

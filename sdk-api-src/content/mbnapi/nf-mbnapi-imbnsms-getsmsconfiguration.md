@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mbnapi.IMbnSms.GetSmsConfiguration
+title: IMbnSms::GetSmsConfiguration
+author: windows-sdk-content
+description: Gets the SMS configuration of a device.
+old-location: mbn\imbnsms_getsmsconfiguration.htm
+old-project: mbn
+ms.assetid: b868bb6f-3ac0-4d77-82dd-b9bc94882a8b
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: GetSmsConfiguration, GetSmsConfiguration method [Microsoft Broadband Networks], GetSmsConfiguration method [Microsoft Broadband Networks],IMbnSms interface, IMbnSms interface [Microsoft Broadband Networks],GetSmsConfiguration method, IMbnSms.GetSmsConfiguration, IMbnSms::GetSmsConfiguration, mbn.imbnsms_getsmsconfiguration, mbnapi/IMbnSms::GetSmsConfiguration
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnSms.GetSmsConfiguration
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMbnSms::GetSmsConfiguration

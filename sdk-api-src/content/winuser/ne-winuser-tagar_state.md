@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:winuser.tagAR_STATE
+title: tagAR_STATE
+author: windows-sdk-content
+description: Indicates the state of screen auto-rotation for the system. For example, whether auto-rotation is supported, and whether it is enabled by the user.
+old-location: base\ar_state.htm
+old-project: ProcThread
+ms.assetid: 55BCB2EB-524D-478A-8DCE-53E59DD0822D
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PAR_STATE, AR_DISABLED, AR_DOCKED, AR_ENABLED, AR_LAPTOP, AR_MULTIMON, AR_NOSENSOR, AR_NOT_SUPPORTED, AR_REMOTESESSION, AR_STATE, AR_STATE enumeration, AR_SUPPRESSED, PAR_STATE, PAR_STATE enumeration pointer, base.ar_state, tagAR_STATE, winuser/AR_DISABLED, winuser/AR_DOCKED, winuser/AR_ENABLED, winuser/AR_LAPTOP, winuser/AR_MULTIMON, winuser/AR_NOSENSOR, winuser/AR_NOT_SUPPORTED, winuser/AR_REMOTESESSION, winuser/AR_STATE, winuser/AR_SUPPRESSED, winuser/PAR_STATE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winuser.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinUser.h
+api_name:
+-	AR_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagAR_STATE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uxtheme._BP_BUFFERFORMAT
+title: "_BP_BUFFERFORMAT"
+author: windows-sdk-content
+description: Specifies the format of the buffer. Used by BeginBufferedAnimation and BeginBufferedPaint.
+old-location: controls\BP_BUFFERFORMAT.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\userex\enums\bp_bufferformat.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: BPBF_COMPATIBLEBITMAP, BPBF_DIB, BPBF_TOPDOWNDIB, BPBF_TOPDOWNMONODIB, BP_BUFFERFORMAT, BP_BUFFERFORMAT enumeration [Windows Controls], _BP_BUFFERFORMAT, _shell_BP_BUFFERFORMAT, _shell_BP_BUFFERFORMAT_cpp, controls.BP_BUFFERFORMAT, controls._shell_BP_BUFFERFORMAT, uxtheme/BPBF_COMPATIBLEBITMAP, uxtheme/BPBF_DIB, uxtheme/BPBF_TOPDOWNDIB, uxtheme/BPBF_TOPDOWNMONODIB, uxtheme/BP_BUFFERFORMAT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uxtheme.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BP_BUFFERFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Uxtheme.h
+api_name:
+-	BP_BUFFERFORMAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _BP_BUFFERFORMAT enumeration

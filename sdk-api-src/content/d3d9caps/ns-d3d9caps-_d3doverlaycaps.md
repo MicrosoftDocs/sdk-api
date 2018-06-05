@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:d3d9caps._D3DOVERLAYCAPS
+title: "_D3DOVERLAYCAPS"
+author: windows-sdk-content
+description: Specifies hardware overlay capabilities for a Direct3D device.
+old-location: mf\d3doverlaycaps.htm
+old-project: medfound
+ms.assetid: 4d9e031d-af01-4b8a-b90c-9d83b09c24da
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3DOVERLAYCAPS, D3DOVERLAYCAPS structure [Media Foundation], D3DOVERLAYCAPS_FULLRANGERGB, D3DOVERLAYCAPS_LIMITEDRANGERGB, D3DOVERLAYCAPS_STRETCHX, D3DOVERLAYCAPS_STRETCHY, D3DOVERLAYCAPS_YCbCr_BT601, D3DOVERLAYCAPS_YCbCr_BT601_xvYCC, D3DOVERLAYCAPS_YCbCr_BT709, D3DOVERLAYCAPS_YCbCr_BT709_xvYCC, _D3DOVERLAYCAPS, d3d9caps/D3DOVERLAYCAPS, mf.d3doverlaycaps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d9caps.h
+req.include-header: D3d9.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DOVERLAYCAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d9caps.h
+api_name:
+-	D3DOVERLAYCAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _D3DOVERLAYCAPS structure

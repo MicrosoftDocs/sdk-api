@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certpol.ICertPolicy2.GetManageModule
+title: ICertPolicy2::GetManageModule
+author: windows-sdk-content
+description: Retrieves the ICertManageModule interface associated with the ICertPolicy2 interface by calling GetManageModule and passing in the address of a pointer to an ICertManageModule.
+old-location: security\icertpolicy2_getmanagemodule.htm
+old-project: SecCrypto
+ms.assetid: a8d45938-1b89-4576-8705-7a174323e072
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertPolicy object [Security],GetManageModule method, GetManageModule, GetManageModule method [Security], GetManageModule method [Security],CCertPolicy object, GetManageModule method [Security],ICertPolicy2 interface, ICertPolicy2 interface [Security],GetManageModule method, ICertPolicy2.GetManageModule, ICertPolicy2::GetManageModule, _certsrv_icertpolicy2_getmanagemodule, certpol/ICertPolicy2::GetManageModule, security.icertpolicy2_getmanagemodule
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certpol.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509SCEPFailInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certidl.lib
+-	Certidl.dll
+api_name:
+-	ICertPolicy2.GetManageModule
+-	CCertPolicy.GetManageModule
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: 
+req.irql: 
 ---
 
 # ICertPolicy2::GetManageModule

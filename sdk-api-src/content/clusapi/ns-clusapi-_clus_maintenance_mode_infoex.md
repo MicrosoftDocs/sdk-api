@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clusapi._CLUS_MAINTENANCE_MODE_INFOEX
+title: "_CLUS_MAINTENANCE_MODE_INFOEX"
+author: windows-sdk-content
+description: Represents the extended maintenance mode settings for a storage class resource.
+old-location: mscs\clus_maintenance_mode_infoex.htm
+old-project: MsCS
+ms.assetid: d68b187d-39c5-42d3-b268-d5061da257c4
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCLUS_MAINTENANCE_MODE_INFOEX, CLUS_MAINTENANCE_MODE_INFOEX, CLUS_MAINTENANCE_MODE_INFOEX structure [Failover Cluster], ClusterResourceFailed, ClusterResourceInitializing, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, ClusterResourceStateUnknown, MaintenanceModeTypeDisableIsAliveCheck, MaintenanceModeTypeOfflineResource, MaintenanceModeTypeUnclusterResource, PCLUS_MAINTENANCE_MODE_INFOEX, PCLUS_MAINTENANCE_MODE_INFOEX structure pointer [Failover Cluster], _CLUS_MAINTENANCE_MODE_INFOEX, clusapi/CLUS_MAINTENANCE_MODE_INFOEX, clusapi/PCLUS_MAINTENANCE_MODE_INFOEX, mscs.clus_maintenance_mode_infoex"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUS_MAINTENANCE_MODE_INFOEX, *PCLUS_MAINTENANCE_MODE_INFOEX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+api_name:
+-	CLUS_MAINTENANCE_MODE_INFOEX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CLUS_MAINTENANCE_MODE_INFOEX structure

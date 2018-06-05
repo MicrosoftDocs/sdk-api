@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.tagDVD_AUDIO_LANG_EXT
+title: tagDVD_AUDIO_LANG_EXT
+author: windows-sdk-content
+description: Defines flags that indicate whether an audio stream contains audio language extensions.
+old-location: dshow\dvd_audio_lang_ext.htm
+old-project: DirectShow
+ms.assetid: 01d82199-18e1-4d84-add1-f4f6790155c8
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DVD_AUDIO_LANG_EXT, DVD_AUDIO_LANG_EXT , DVD_AUDIO_LANG_EXT enumeration [DirectShow], DVD_AUDIO_LANG_EXTEnumeration, DVD_AUD_EXT_Captions, DVD_AUD_EXT_DirectorComments1, DVD_AUD_EXT_DirectorComments2, DVD_AUD_EXT_NotSpecified, DVD_AUD_EXT_VisuallyImpaired, dshow.dvd_audio_lang_ext, strmif/DVD_AUDIO_LANG_EXT, strmif/DVD_AUD_EXT_Captions, strmif/DVD_AUD_EXT_DirectorComments1, strmif/DVD_AUD_EXT_DirectorComments2, strmif/DVD_AUD_EXT_NotSpecified, strmif/DVD_AUD_EXT_VisuallyImpaired, tagDVD_AUDIO_LANG_EXT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_AUDIO_LANG_EXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	DVD_AUDIO_LANG_EXT
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # tagDVD_AUDIO_LANG_EXT enumeration

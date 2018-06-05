@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vsmgmt._VSS_DIFF_VOLUME_PROP
+title: "_VSS_DIFF_VOLUME_PROP"
+author: windows-sdk-content
+description: Describes a shadow copy storage area volume.
+old-location: base\vss_diff_volume_prop.htm
+old-project: VSS
+ms.assetid: c4a20583-7fee-4ae1-97ed-d80b2a7539e3
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PVSS_DIFF_VOLUME_PROP, PVSS_DIFF_VOLUME_PROP, PVSS_DIFF_VOLUME_PROP structure pointer [VSS], VSS_DIFF_VOLUME_PROP, VSS_DIFF_VOLUME_PROP structure [VSS], _VSS_DIFF_VOLUME_PROP, base.vss_diff_volume_prop, vsmgmt/PVSS_DIFF_VOLUME_PROP, vsmgmt/VSS_DIFF_VOLUME_PROP"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vsmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_DIFF_VOLUME_PROP, *PVSS_DIFF_VOLUME_PROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VsMgmt.h
+api_name:
+-	VSS_DIFF_VOLUME_PROP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VSS_DIFF_VOLUME_PROP structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddkmapi._DDOPENVPCAPTUREDEVICEIN
+title: "_DDOPENVPCAPTUREDEVICEIN"
+author: windows-sdk-content
+description: The DDOPENVPCAPTUREDEVICEIN structure contains the video port extensions (VPE) capture information.
+old-location: display\ddopenvpcapturedevicein.htm
+old-project: display
+ms.assetid: 75a2eaf7-a40f-4554-8dcf-f786d5771d43
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDOPENVPCAPTUREDEVICEIN, DDOPENVPCAPTUREDEVICEIN, DDOPENVPCAPTUREDEVICEIN structure [Display Devices], LPDDOPENVPCAPTUREDEVICEIN, LPDDOPENVPCAPTUREDEVICEIN structure pointer [Display Devices], _DDOPENVPCAPTUREDEVICEIN, ddkmapi/DDOPENVPCAPTUREDEVICEIN, ddkmapi/LPDDOPENVPCAPTUREDEVICEIN, ddstrcts_51a84e0d-3e5a-4ccc-93f1-bf3edfb29760.xml, display.ddopenvpcapturedevicein"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddkmapi.h
+req.include-header: Ddkmapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDOPENVPCAPTUREDEVICEIN, *LPDDOPENVPCAPTUREDEVICEIN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddkmapi.h
+api_name:
+-	DDOPENVPCAPTUREDEVICEIN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDOPENVPCAPTUREDEVICEIN structure

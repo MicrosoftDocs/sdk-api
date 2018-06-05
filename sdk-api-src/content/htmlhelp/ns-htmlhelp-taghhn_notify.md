@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:htmlhelp.tagHHN_NOTIFY
+title: tagHHN_NOTIFY
+author: windows-sdk-content
+description: Use this structure to return the file name of the topic that has been navigated to, or to return the window type name of the help window that has been created.
+old-location: htmlhelp\hhn_notify_structure.htm
+old-project: htmlhelp
+ms.assetid: VS|htmlhelp|~\html\vsconstrhhnnotify.htm
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: HHN_NOTIFY, HHN_NOTIFY structure [HTML Help Workshop], htmlhelp.hhn_notify_structure, htmlhelp/HHN_NOTIFY, tagHHN_NOTIFY, vsconStrhhnnotify
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: htmlhelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HHN_NOTIFY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	HtmlHelp.h
+api_name:
+-	HHN_NOTIFY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tagHHN_NOTIFY structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_VPORTCB_CREATEVIDEOPORT
+title: PDD_VPORTCB_CREATEVIDEOPORT
+author: windows-sdk-content
+description: The DdVideoPortCreate callback function notifies the driver that DirectDraw has created a VPE object.
+old-location: display\ddvideoportcreate.htm
+old-project: display
+ms.assetid: eeaf3cda-6220-4e8e-8f9e-9f52d1b05ab7
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DdVideoPortCreate, DdVideoPortCreate callback function [Display Devices], PDD_VPORTCB_CREATEVIDEOPORT, PDD_VPORTCB_CREATEVIDEOPORT callback, ddfncs_abbd3ac5-70a9-40ff-a22d-42c49eda1c96.xml, ddrawint/DdVideoPortCreate, display.ddvideoportcreate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdVideoPortCreate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_VPORTCB_CREATEVIDEOPORT callback function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wiavideo.IWiaVideo.put_ImagesDirectory
+title: IWiaVideo::put_ImagesDirectory
+author: windows-sdk-content
+description: The IWiaVideo::ImagesDirectory property specifies the full path and directory where images are stored when calling the IWiaVideo::TakePicture method.
+old-location: wia\_wia_IWiaVideo_ImagesDirectory.htm
+old-project: wia
+ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\imagesdirectory.htm
+ms.author: windowssdkdev
+ms.date: 05/03/2018
+ms.keywords: IWiaVideo interface [WIA],ImagesDirectory property, IWiaVideo.ImagesDirectory, IWiaVideo.put_ImagesDirectory, IWiaVideo::ImagesDirectory, IWiaVideo::get_ImagesDirectory, IWiaVideo::put_ImagesDirectory, ImagesDirectory property [WIA], ImagesDirectory property [WIA],IWiaVideo interface, _wia_IWiaVideo_ImagesDirectory, put_ImagesDirectory, wia._wia_IWiaVideo_ImagesDirectory, wiavideo/IWiaVideo::ImagesDirectory, wiavideo/IWiaVideo::get_ImagesDirectory, wiavideo/IWiaVideo::put_ImagesDirectory
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wiavideo.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIAVIDEO_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wiavideo.dll
+api_name:
+-	IWiaVideo.ImagesDirectory
+-	IWiaVideo.get_ImagesDirectory
+-	IWiaVideo.put_ImagesDirectory
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wiavideo.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWiaVideo::put_ImagesDirectory

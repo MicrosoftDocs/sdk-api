@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:nspapi._SERVICE_INFOW
+title: "_SERVICE_INFOW"
+author: windows-sdk-content
+description: Contains information about a network service or a network service type.
+old-location: winsock\service_info_2.htm
+old-project: WinSock
+ms.assetid: e76e0c1b-8cbf-45ad-a685-fb672801c24d
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPSERVICE_INFOW, *PSERVICE_INFOW, RESOURCEDISPLAYTYPE_DOMAIN, RESOURCEDISPLAYTYPE_FILE, RESOURCEDISPLAYTYPE_GENERIC, RESOURCEDISPLAYTYPE_GROUP, RESOURCEDISPLAYTYPE_SERVER, RESOURCEDISPLAYTYPE_SHARE, RESOURCEDISPLAYTYPE_TREE, SERVICE_INFO, SERVICE_INFO structure [Winsock], SERVICE_INFOA, SERVICE_INFOW, _SERVICE_INFOW, _win32_service_info_2, nspapi/SERVICE_INFO, nspapi/SERVICE_INFOA, nspapi/SERVICE_INFOW, winsock.service_info_2"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: nspapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SERVICE_INFOW (Unicode) and SERVICE_INFOA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SERVICE_INFOW, *PSERVICE_INFOW, *LPSERVICE_INFOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Nspapi.h
+api_name:
+-	SERVICE_INFO
+-	SERVICE_INFOA
+-	SERVICE_INFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SERVICE_INFOW structure

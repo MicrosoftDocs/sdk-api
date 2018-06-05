@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzClientContext.GetProperty
+title: IAzClientContext::GetProperty
+author: windows-sdk-content
+description: Returns the IAzClientContext object property with the specified property ID.
+old-location: security\iazclientcontext_getproperty.htm
+old-project: SecAuthZ
+ms.assetid: 4be02b6d-5eeb-46e6-9339-3edd904f3606
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AZ_PROP_CHILD_CREATE, AZ_PROP_CLIENT_CONTEXT_ROLE_FOR_ACCESS_CHECK, AZ_PROP_CLIENT_CONTEXT_USER_CANONICAL, AZ_PROP_CLIENT_CONTEXT_USER_DISPLAY, AZ_PROP_CLIENT_CONTEXT_USER_DN, AZ_PROP_CLIENT_CONTEXT_USER_DNS_SAM_COMPAT, AZ_PROP_CLIENT_CONTEXT_USER_GUID, AZ_PROP_CLIENT_CONTEXT_USER_SAM_COMPAT, AZ_PROP_CLIENT_CONTEXT_USER_UPN, AzClientContext object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzClientContext object, GetProperty method [Security],IAzClientContext interface, IAzClientContext interface [Security],GetProperty method, IAzClientContext.GetProperty, IAzClientContext::GetProperty, azroles/IAzClientContext::GetProperty, security.iazclientcontext_getproperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzClientContext.GetProperty
+-	AzClientContext.GetProperty
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzClientContext::GetProperty

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
+title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
+author: windows-sdk-content
+description: Retrieves an object.
+old-location: security\pfn_crypt_object_locator_provider_get.htm
+old-project: SecCrypto
+ms.assetid: 2073915D-F23B-41BD-8376-4493FE9D62C6
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CRYPT_OBJECT_LOCATOR_FIRST_RESERVED_USER_NAME_TYPE, CRYPT_OBJECT_LOCATOR_LAST_RESERVED_NAME_TYPE, CRYPT_OBJECT_LOCATOR_LAST_RESERVED_USER_NAME_TYPE, CRYPT_OBJECT_LOCATOR_SPN_NAME_TYPE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET function, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET function pointer [Security], security.pfn_crypt_object_locator_provider_get, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Wincrypt.h
+api_name:
+-	PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET callback function

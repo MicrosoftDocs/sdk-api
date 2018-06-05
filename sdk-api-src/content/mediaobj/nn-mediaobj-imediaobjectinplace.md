@@ -1,20 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:mediaobj.IMediaObjectInPlace
+title: IMediaObjectInPlace
+author: windows-sdk-content
+description: The IMediaObjectInPlace interface provides methods for processing data in place. A Microsoft DirectX Media Object (DMO) can expose this interface if it meets the following conditions:\_
+The IMediaObjectInPlace interface provides methods for processing data in place. A Microsoft DirectX Media Object (DMO) can expose this interface if it meets the following conditions:This interface provides an optimized way to process data. The application calls a single IMediaObjectInPlace::Process method instead of the IMediaObject::ProcessInput and IMediaObject::ProcessOutput methods. However, any DMO that implements this interface must also implement the IMediaObject interface. Therefore, an application is never obligated to use this interface, and a DMO is never guaranteed to implement it.
+old-location: dshow\imediaobjectinplace.htm
+old-project: DirectShow
+ms.assetid: c2105141-6c5e-4edb-aa3b-3227ca223329
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IMediaObjectInPlace, IMediaObjectInPlace interface [DirectShow], IMediaObjectInPlace interface [DirectShow],described, IMediaObjectInPlaceInterface, dshow.imediaobjectinplace, mediaobj/IMediaObjectInPlace
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mediaobj.h
+req.include-header: Dmo.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +27,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dmoguids.lib
+-	Dmoguids.dll
+api_name:
+-	IMediaObjectInPlace
+product: Windows
+targetos: Windows
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMediaObjectInPlace interface

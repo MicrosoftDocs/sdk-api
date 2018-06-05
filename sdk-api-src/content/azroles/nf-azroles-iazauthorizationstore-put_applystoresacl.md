@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzAuthorizationStore.put_ApplyStoreSacl
+title: IAzAuthorizationStore::put_ApplyStoreSacl
+author: windows-sdk-content
+description: Sets or retrieves a value that indicates whether policy audits should be generated when the authorization store is modified.
+old-location: security\azauthorizationstore_applystoresacl.htm
+old-project: SecAuthZ
+ms.assetid: fdace7a9-4b6b-4698-812d-c53fc3b8f0d8
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ApplyStoreSacl property [Security], ApplyStoreSacl property [Security],AzAuthorizationStore object, ApplyStoreSacl property [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],ApplyStoreSacl property, IAzAuthorizationStore interface [Security],ApplyStoreSacl property, IAzAuthorizationStore.ApplyStoreSacl, IAzAuthorizationStore.put_ApplyStoreSacl, IAzAuthorizationStore::ApplyStoreSacl, IAzAuthorizationStore::get_ApplyStoreSacl, IAzAuthorizationStore::put_ApplyStoreSacl, azroles/IAzAuthorizationStore::ApplyStoreSacl, azroles/IAzAuthorizationStore::get_ApplyStoreSacl, azroles/IAzAuthorizationStore::put_ApplyStoreSacl, put_ApplyStoreSacl, security.azauthorizationstore_applystoresacl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzAuthorizationStore.ApplyStoreSacl
+-	IAzAuthorizationStore.get_ApplyStoreSacl
+-	IAzAuthorizationStore.put_ApplyStoreSacl
+-	AzAuthorizationStore.ApplyStoreSacl
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzAuthorizationStore::put_ApplyStoreSacl

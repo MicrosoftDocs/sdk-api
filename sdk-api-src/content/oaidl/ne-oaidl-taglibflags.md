@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:oaidl.tagLIBFLAGS
+title: tagLIBFLAGS
+author: windows-sdk-content
+description: Defines flags that apply to type libraries.
+old-location: automat\libflags.htm
+old-project: automat
+ms.assetid: 2c5ecbaf-ce6c-4be1-a3fa-1066dd6e716d
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: LIBFLAGS, LIBFLAGS enumeration [Automation], LIBFLAG_FCONTROL, LIBFLAG_FHASDISKIMAGE, LIBFLAG_FHIDDEN, LIBFLAG_FRESTRICTED, _oa96_LIBFLAGS, automat.libflags, oaidl/LIBFLAGS, oaidl/LIBFLAG_FCONTROL, oaidl/LIBFLAG_FHASDISKIMAGE, oaidl/LIBFLAG_FHIDDEN, oaidl/LIBFLAG_FRESTRICTED, tagLIBFLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OAIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LIBFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	OaIdl.h
+api_name:
+-	LIBFLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagLIBFLAGS enumeration

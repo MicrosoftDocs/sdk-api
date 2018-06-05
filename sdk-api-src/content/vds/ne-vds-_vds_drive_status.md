@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_DRIVE_STATUS
+title: "_VDS_DRIVE_STATUS"
+author: windows-sdk-content
+description: Defines the set of object status values for a drive.
+old-location: base\vds_drive_status.htm
+old-project: VDS
+ms.assetid: fff84c91-d207-44fc-bcd6-03e34eaed9e3
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PVDS_DRIVE_STATUS, VDS_DRIVE_STATUS, VDS_DRIVE_STATUS enumeration [VDS], VDS_DRS_FAILED, VDS_DRS_NOT_READY, VDS_DRS_OFFLINE, VDS_DRS_ONLINE, VDS_DRS_REMOVED, VDS_DRS_UNKNOWN, _VDS_DRIVE_STATUS, base.vds_drive_status, vds/VDS_DRIVE_STATUS, vds/VDS_DRS_FAILED, vds/VDS_DRS_NOT_READY, vds/VDS_DRS_OFFLINE, vds/VDS_DRS_ONLINE, vds/VDS_DRS_REMOVED, vds/VDS_DRS_UNKNOWN, vdshwprv/VDS_DRIVE_STATUS, vdshwprv/VDS_DRS_FAILED, vdshwprv/VDS_DRS_NOT_READY, vdshwprv/VDS_DRS_OFFLINE, vdshwprv/VDS_DRS_ONLINE, vdshwprv/VDS_DRS_REMOVED, vdshwprv/VDS_DRS_UNKNOWN"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_DRIVE_STATUS, *PVDS_DRIVE_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_DRIVE_STATUS
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_DRIVE_STATUS enumeration

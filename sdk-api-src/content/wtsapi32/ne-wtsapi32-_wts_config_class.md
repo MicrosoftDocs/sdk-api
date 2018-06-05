@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wtsapi32._WTS_CONFIG_CLASS
+title: "_WTS_CONFIG_CLASS"
+author: windows-sdk-content
+description: Contains values that indicate the type of user configuration information to set or retrieve in a call to the WTSQueryUserConfig and WTSSetUserConfig functions.
+old-location: termserv\wts_config_class_str.htm
+old-project: TermServ
+ms.assetid: 623b8a86-aa0d-497c-a2e6-5526f9b13d98
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: WTSUserConfigBrokenTimeoutSettings, WTSUserConfigInitialProgram, WTSUserConfigModemCallbackPhoneNumber, WTSUserConfigModemCallbackSettings, WTSUserConfigReconnectSettings, WTSUserConfigShadowingSettings, WTSUserConfigTerminalServerHomeDir, WTSUserConfigTerminalServerHomeDirDrive, WTSUserConfigTerminalServerProfilePath, WTSUserConfigTimeoutSettingsConnections, WTSUserConfigTimeoutSettingsDisconnections, WTSUserConfigTimeoutSettingsIdle, WTSUserConfigUser, WTSUserConfigWorkingDirectory, WTSUserConfigfAllowLogonTerminalServer, WTSUserConfigfDeviceClientDefaultPrinter, WTSUserConfigfDeviceClientDrives, WTSUserConfigfDeviceClientPrinters, WTSUserConfigfInheritInitialProgram, WTSUserConfigfTerminalServerRemoteHomeDir, WTS_CONFIG_CLASS, WTS_CONFIG_CLASS enumeration [Remote Desktop Services], _WTS_CONFIG_CLASS, _win32_wts_config_class_str, termserv.wts_config_class_str, wtsapi32/WTSUserConfigBrokenTimeoutSettings, wtsapi32/WTSUserConfigInitialProgram, wtsapi32/WTSUserConfigModemCallbackPhoneNumber, wtsapi32/WTSUserConfigModemCallbackSettings, wtsapi32/WTSUserConfigReconnectSettings, wtsapi32/WTSUserConfigShadowingSettings, wtsapi32/WTSUserConfigTerminalServerHomeDir, wtsapi32/WTSUserConfigTerminalServerHomeDirDrive, wtsapi32/WTSUserConfigTerminalServerProfilePath, wtsapi32/WTSUserConfigTimeoutSettingsConnections, wtsapi32/WTSUserConfigTimeoutSettingsDisconnections, wtsapi32/WTSUserConfigTimeoutSettingsIdle, wtsapi32/WTSUserConfigUser, wtsapi32/WTSUserConfigWorkingDirectory, wtsapi32/WTSUserConfigfAllowLogonTerminalServer, wtsapi32/WTSUserConfigfDeviceClientDefaultPrinter, wtsapi32/WTSUserConfigfDeviceClientDrives, wtsapi32/WTSUserConfigfDeviceClientPrinters, wtsapi32/WTSUserConfigfInheritInitialProgram, wtsapi32/WTSUserConfigfTerminalServerRemoteHomeDir, wtsapi32/WTS_CONFIG_CLASS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WSManDisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_CONFIG_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsapi32.h
+api_name:
+-	WTS_CONFIG_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTS_CONFIG_CLASS enumeration

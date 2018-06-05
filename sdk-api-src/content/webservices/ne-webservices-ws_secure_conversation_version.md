@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_SECURE_CONVERSATION_VERSION
+title: WS_SECURE_CONVERSATION_VERSION
+author: windows-sdk-content
+description: Defines the WS-SecureConversation specification version to be used with message security and mixed-mode security.
+old-location: wsw\ws_secure_conversation_version.htm
+old-project: wsw
+ms.assetid: 17c21a3a-1cb5-4174-8300-a5c3d87e3e0f
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_SECURE_CONVERSATION_VERSION, WS_SECURE_CONVERSATION_VERSION enumeration [Web Services for Windows], WS_SECURE_CONVERSATION_VERSION_1_3, WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005, webservices/WS_SECURE_CONVERSATION_VERSION, webservices/WS_SECURE_CONVERSATION_VERSION_1_3, webservices/WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005, wsw.ws_secure_conversation_version
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_SECURE_CONVERSATION_VERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_SECURE_CONVERSATION_VERSION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_SECURE_CONVERSATION_VERSION enumeration

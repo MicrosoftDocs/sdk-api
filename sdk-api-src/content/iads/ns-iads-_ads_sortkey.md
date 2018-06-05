@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iads._ads_sortkey
+title: "_ads_sortkey"
+author: windows-sdk-content
+description: The ADS_SORTKEY structure specifies how to sort a query.
+old-location: adsi\ads_sortkey.htm
+old-project: ADSI
+ms.assetid: e4fe499a-4f81-4b92-bf50-b4124ae6e4a3
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PADS_SORTKEY, ADS_SORTKEY, ADS_SORTKEY structure [ADSI], PADS_SORTKEY, PADS_SORTKEY structure pointer [ADSI], _ads_sortkey, _ds_ads_sortkey, adsi.ads__sortkey, adsi.ads_sortkey, iads/ADS_SORTKEY, iads/PADS_SORTKEY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SORTKEY, *PADS_SORTKEY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_SORTKEY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _ads_sortkey structure

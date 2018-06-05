@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iscsidsc.RefreshIScsiSendTargetPortalA
+title: RefreshIScsiSendTargetPortalA function
+author: windows-sdk-content
+description: RefreshIscsiSendTargetPortal function instructs the iSCSI initiator service to establish a discovery session with the indicated target portal and transmit a SendTargets request to refresh the list of discovered targets for the iSCSI initiator service.
+old-location: iscsidisc\refreshiscsisendtargetportal.htm
+old-project: iSCSIDisc
+ms.assetid: 0e7d4e37-5d6e-4471-9cda-b9690fddf767
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: RefreshIScsiSendTargetPortalA, RefreshIscsiSendTargetPortal, RefreshIscsiSendTargetPortal function [iSCSI Discovery Library API], RefreshIscsiSendTargetPortalA, RefreshIscsiSendTargetPortalW, iscsidisc.refreshiscsisendtargetportal, iscsidsc/RefreshIscsiSendTargetPortal, iscsidsc/RefreshIscsiSendTargetPortalA, iscsidsc/RefreshIscsiSendTargetPortalW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RefreshIscsiSendTargetPortalW (Unicode) and RefreshIscsiSendTargetPortalA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Iscsidsc.dll
+api_name:
+-	RefreshIscsiSendTargetPortal
+-	RefreshIscsiSendTargetPortalA
+-	RefreshIscsiSendTargetPortalW
+product: Windows
+targetos: Windows
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # RefreshIScsiSendTargetPortalA function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._SECURITY_QUALITY_OF_SERVICE
+title: "_SECURITY_QUALITY_OF_SERVICE"
+author: windows-sdk-content
+description: Contains information used to support client impersonation.
+old-location: security\security_quality_of_service.htm
+old-project: SecAuthZ
+ms.assetid: 21f99d04-b21b-442c-9034-35f9f7bbee53
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PSECURITY_QUALITY_OF_SERVICE, PSECURITY_QUALITY_OF_SERVICE, PSECURITY_QUALITY_OF_SERVICE structure pointer [Security], SECURITY_QUALITY_OF_SERVICE, SECURITY_QUALITY_OF_SERVICE structure [Security], _SECURITY_QUALITY_OF_SERVICE, _win32_security_quality_of_service_str, security.security_quality_of_service, winnt/PSECURITY_QUALITY_OF_SERVICE, winnt/SECURITY_QUALITY_OF_SERVICE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SECURITY_QUALITY_OF_SERVICE, *PSECURITY_QUALITY_OF_SERVICE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	SECURITY_QUALITY_OF_SERVICE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SECURITY_QUALITY_OF_SERVICE structure

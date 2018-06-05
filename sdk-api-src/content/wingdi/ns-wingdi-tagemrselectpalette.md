@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagEMRSELECTPALETTE
+title: tagEMRSELECTPALETTE
+author: windows-sdk-content
+description: The EMRSELECTPALETTE structure contains members for the SelectPalette enhanced metafile record. Note that the bForceBackground parameter in SelectPalette is always recorded as TRUE, which causes the palette to be realized as a background palette.
+old-location: gdi\emrselectpalette.htm
+old-project: gdi
+ms.assetid: f83367c0-406a-4a5f-961f-8e5afe6707fd
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PEMRSELECTPALETTE, EMRSELECTPALETTE, EMRSELECTPALETTE structure [Windows GDI], PEMRSELECTPALETTE, PEMRSELECTPALETTE structure pointer [Windows GDI], _win32_EMRSELECTPALETTE_str, gdi.emrselectpalette, tagEMRSELECTPALETTE, wingdi/EMRSELECTPALETTE, wingdi/PEMRSELECTPALETTE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMRSELECTPALETTE, *PEMRSELECTPALETTE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	EMRSELECTPALETTE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagEMRSELECTPALETTE structure

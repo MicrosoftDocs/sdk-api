@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iptypes._IP_PER_ADAPTER_INFO_W2KSP1
+title: "_IP_PER_ADAPTER_INFO_W2KSP1"
+author: windows-sdk-content
+description: The IP_PER_ADAPTER_INFO structure contains information specific to a particular adapter.
+old-location: iphlp\ip_per_adapter_info.htm
+old-project: IpHlp
+ms.assetid: 10cfdded-4184-4d34-9ccd-85446c13d497
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PIP_PER_ADAPTER_INFO, *PIP_PER_ADAPTER_INFO_W2KSP1, IP_PER_ADAPTER_INFO, IP_PER_ADAPTER_INFO structure [IP Helper], IP_PER_ADAPTER_INFO_W2KSP1, PIP_PER_ADAPTER_INFO, PIP_PER_ADAPTER_INFO structure pointer [IP Helper], _IP_PER_ADAPTER_INFO_W2KSP1, _iphlp_ip_per_adapter_info, iphlp.ip_per_adapter_info, iptypes/IP_PER_ADAPTER_INFO, iptypes/PIP_PER_ADAPTER_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iptypes.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IP_PER_ADAPTER_INFO_W2KSP1, *PIP_PER_ADAPTER_INFO_W2KSP1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iptypes.h
+api_name:
+-	IP_PER_ADAPTER_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _IP_PER_ADAPTER_INFO_W2KSP1 structure

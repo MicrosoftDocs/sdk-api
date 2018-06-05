@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:wdstptmgmt.IWdsTransportNamespaceScheduledCastAutoStart
+title: IWdsTransportNamespaceScheduledCastAutoStart
+author: windows-sdk-content
+description: An administrator can specify criteria that starts transmission on an object of an IWdsTransportNamespaceScheduledCastAutoStart interface automatically. Applications can continue to join sessions of the namespace object until these criteria are reached.
+old-location: wds\iwdstransportnamespacescheduledcastautostart.htm
+old-project: Wds
+ms.assetid: f11122a2-6ea9-4a73-ac93-0af7961f52b6
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart, IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services], IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services],described, wds.iwdstransportnamespacescheduledcastautostart, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wdstptmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Wdstptmgmt.tlb
+tech.root: 
+req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wdstptmgmt.dll
+api_name:
+-	IWdsTransportNamespaceScheduledCastAutoStart
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWdsTransportNamespaceScheduledCastAutoStart interface

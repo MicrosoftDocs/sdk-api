@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0005
+title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0005"
+author: windows-sdk-content
+description: Defines values for the type of access granted to the attendee for the channel.
+old-location: rdp\channel_access_enum.htm
+old-project: Rdp
+ms.assetid: 7d07954f-6514-4512-a934-6140de826ece
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: CHANNEL_ACCESS_ENUM, CHANNEL_ACCESS_ENUM enumeration [RDP], CHANNEL_ACCESS_ENUM_NONE, CHANNEL_ACCESS_ENUM_SENDRECEIVE, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0005, rdp.channel_access_enum, rdpencomapi/CHANNEL_ACCESS_ENUM, rdpencomapi/CHANNEL_ACCESS_ENUM_NONE, rdpencomapi/CHANNEL_ACCESS_ENUM_SENDRECEIVE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rdpencomapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: MsTscAx.dll
+tech.root: 
+req.typenames: CHANNEL_ACCESS_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rdpencomapi.h
+api_name:
+-	CHANNEL_ACCESS_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsTscAx.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_rdpencomapi_0000_0000_0005 enumeration

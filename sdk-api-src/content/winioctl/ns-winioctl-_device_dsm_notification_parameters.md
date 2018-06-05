@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._DEVICE_DSM_NOTIFICATION_PARAMETERS
+title: "_DEVICE_DSM_NOTIFICATION_PARAMETERS"
+author: windows-sdk-content
+description: Contains parameters for the DeviceDsmAction_Notification action for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
+old-location: base\device_dsm_notification_parameters.htm
+old-project: DevIO
+ms.assetid: 42f76bab-0260-4b43-a8cf-02faedb7e672
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*PDEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS structure, DEVICE_DSM_NOTIFY_FLAG_BEGIN, DEVICE_DSM_NOTIFY_FLAG_END, FILE_TYPE_NOTIFICATION_GUID_CRASHDUMP_FILE, FILE_TYPE_NOTIFICATION_GUID_HIBERNATION_FILE, FILE_TYPE_NOTIFICATION_GUID_PAGE_FILE, PDEVICE_DSM_NOTIFICATION_PARAMETERS, PDEVICE_DSM_NOTIFICATION_PARAMETERS structure pointer, _DEVICE_DSM_NOTIFICATION_PARAMETERS, base.device_dsm_notification_parameters, winioctl/DEVICE_DSM_NOTIFICATION_PARAMETERS, winioctl/PDEVICE_DSM_NOTIFICATION_PARAMETERS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEVICE_DSM_NOTIFICATION_PARAMETERS, *PDEVICE_DSM_NOTIFICATION_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	DEVICE_DSM_NOTIFICATION_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _DEVICE_DSM_NOTIFICATION_PARAMETERS structure

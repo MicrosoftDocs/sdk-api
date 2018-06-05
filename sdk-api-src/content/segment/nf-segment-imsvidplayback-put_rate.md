@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:segment.IMSVidPlayback.put_Rate
+title: IMSVidPlayback::put_Rate
+author: windows-sdk-content
+description: The put_Rate method sets the playback rate.
+old-location: mstv\imsvidplayback_put_rate.htm
+old-project: mstv
+ms.assetid: a3542d7c-6333-4832-a24a-0b778ea83a4c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_Rate method, IMSVidPlayback.put_Rate, IMSVidPlayback::put_Rate, IMSVidPlaybackput_Rate, mstv.imsvidplayback_put_rate, put_Rate, put_Rate method [Microsoft TV Technologies], put_Rate method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_Rate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidPlayback.put_Rate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidPlayback::put_Rate

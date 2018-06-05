@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mediaobj.IMediaObject.GetInputStreamInfo
+title: IMediaObject::GetInputStreamInfo
+author: windows-sdk-content
+description: The GetInputStreamInfo method retrieves information about an input stream, such as any restrictions on the number of samples per buffer, and whether the stream performs lookahead on the input data. This information never changes.
+old-location: dshow\imediaobject_getinputstreaminfo.htm
+old-project: DirectShow
+ms.assetid: 9e18bf5e-cf29-4446-a1ba-422b41e02edc
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetInputStreamInfo, GetInputStreamInfo method [DirectShow], GetInputStreamInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputStreamInfo method, IMediaObject.GetInputStreamInfo, IMediaObject::GetInputStreamInfo, IMediaObjectGetInputStreamInfo, dshow.imediaobject_getinputstreaminfo, mediaobj/IMediaObject::GetInputStreamInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mediaobj.h
+req.include-header: Dmo.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dmoguids.lib
+-	Dmoguids.dll
+api_name:
+-	IMediaObject.GetInputStreamInfo
+product: Windows
+targetos: Windows
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMediaObject::GetInputStreamInfo

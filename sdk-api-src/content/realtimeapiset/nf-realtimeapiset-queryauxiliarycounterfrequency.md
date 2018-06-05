@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:realtimeapiset.QueryAuxiliaryCounterFrequency
+title: QueryAuxiliaryCounterFrequency function
+author: windows-sdk-content
+description: Queries the auxiliary counter frequency.
+old-location: base\queryauxiliarycounterfrequency.htm
+old-project: SysInfo
+ms.assetid: 71E00DF2-7F67-43D2-9D6D-BFE9FEA4B30A
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: QueryAuxiliaryCounterFrequency, QueryAuxiliaryCounterFrequency function, base.queryauxiliarycounterfrequency, realtimeapiset/QueryAuxiliaryCounterFrequency
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: realtimeapiset.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+api_name:
+-	QueryAuxiliaryCounterFrequency
+product: Windows
+targetos: Windows
+req.lib: Mincore.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # QueryAuxiliaryCounterFrequency function

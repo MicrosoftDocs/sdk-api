@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:lpmapi.PALLOCMEM
+title: PALLOCMEM
+author: windows-sdk-content
+description: The PALLOCMEM function is a memory allocation function provided by the PCM, used for allocating memory when returning policy information to the PCM.
+old-location: qos\pallocmem.htm
+old-project: QOS
+ms.assetid: e7b38820-4a7e-4f17-a67d-b94caa9037f5
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: PALLOCMEM, PALLOCMEM callback, PALLOCMEM callback function [QOS], _gqos_pallocmem, lpmapi/PALLOCMEM, qos.pallocmem
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: lpmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Lpmapi.h
+api_name:
+-	PALLOCMEM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # PALLOCMEM callback function

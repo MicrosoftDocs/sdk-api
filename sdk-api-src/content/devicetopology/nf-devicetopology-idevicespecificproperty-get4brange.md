@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:devicetopology.IDeviceSpecificProperty.Get4BRange
+title: IDeviceSpecificProperty::Get4BRange
+author: windows-sdk-content
+description: The Get4BRange method gets the 4-byte range of the device-specific property value.
+old-location: coreaudio\idevicespecificproperty_get4brange.htm
+old-project: CoreAudio
+ms.assetid: 16ca72b5-2de2-4644-9c64-cdc69a9b2c51
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: Get4BRange, Get4BRange method [Core Audio], Get4BRange method [Core Audio],IDeviceSpecificProperty interface, IDeviceSpecificProperty interface [Core Audio],Get4BRange method, IDeviceSpecificProperty.Get4BRange, IDeviceSpecificProperty::Get4BRange, IDeviceSpecificPropertyGet4BRange, coreaudio.idevicespecificproperty_get4brange, devicetopology/IDeviceSpecificProperty::Get4BRange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IDeviceSpecificProperty.Get4BRange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDeviceSpecificProperty::Get4BRange

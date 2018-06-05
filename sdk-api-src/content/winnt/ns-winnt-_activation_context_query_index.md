@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._ACTIVATION_CONTEXT_QUERY_INDEX
+title: "_ACTIVATION_CONTEXT_QUERY_INDEX"
+author: windows-sdk-content
+description: The ACTIVATION_CONTEXT_QUERY_INDEX structure is used by QueryActCtxW function.
+old-location: setup\activation_context_query_index.htm
+old-project: SbsCs
+ms.assetid: eb15895c-07c9-4b68-83ef-2f2b8e3b271c
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PACTIVATION_CONTEXT_QUERY_INDEX, ACTIVATION_CONTEXT_QUERY_INDEX, ACTIVATION_CONTEXT_QUERY_INDEX structure [Side-by-side Assemblies], PACTIVATION_CONTEXT_QUERY_INDEX, PACTIVATION_CONTEXT_QUERY_INDEX structure pointer [Side-by-side Assemblies], _ACTIVATION_CONTEXT_QUERY_INDEX, _win32_activation_context_query_index, setup.activation_context_query_index, winnt/ACTIVATION_CONTEXT_QUERY_INDEX, winnt/PACTIVATION_CONTEXT_QUERY_INDEX"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACTIVATION_CONTEXT_QUERY_INDEX, *PACTIVATION_CONTEXT_QUERY_INDEX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	ACTIVATION_CONTEXT_QUERY_INDEX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _ACTIVATION_CONTEXT_QUERY_INDEX structure

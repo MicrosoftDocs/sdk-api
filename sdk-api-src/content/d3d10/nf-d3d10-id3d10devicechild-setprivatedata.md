@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d10.ID3D10DeviceChild.SetPrivateData
+title: ID3D10DeviceChild::SetPrivateData
+author: windows-sdk-content
+description: Set application-defined data to a device child and associate that data with an application-defined guid.
+old-location: direct3d10\id3d10devicechild_setprivatedata.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10devicechild_setprivatedata.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: ID3D10DeviceChild interface [Direct3D 10],SetPrivateData method, ID3D10DeviceChild.SetPrivateData, ID3D10DeviceChild::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 10], SetPrivateData method [Direct3D 10],ID3D10DeviceChild interface, b8fdde8d-dc47-4ec2-997e-b42841dc5441, d3d10/ID3D10DeviceChild::SetPrivateData, direct3d10.id3d10devicechild_setprivatedata
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10.lib
+-	D3D10.dll
+api_name:
+-	ID3D10DeviceChild.SetPrivateData
+product: Windows
+targetos: Windows
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D10DeviceChild::SetPrivateData

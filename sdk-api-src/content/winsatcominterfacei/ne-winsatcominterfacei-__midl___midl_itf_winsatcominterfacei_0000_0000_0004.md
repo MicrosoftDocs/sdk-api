@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winsatcominterfacei.__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0004
+title: "__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0004"
+author: windows-sdk-content
+description: Defines the size of the bitmap to use to represent the WinSAT score.
+old-location: winsat\winsat_bitmap_size.htm
+old-project: WinSAT
+ms.assetid: 5cc91824-f3d4-4c33-85df-b98c8d6ac0a1
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WINSAT_BITMAP_SIZE, WINSAT_BITMAP_SIZE enumeration [WinSAT], WINSAT_BITMAP_SIZE_NORMAL, WINSAT_BITMAP_SIZE_SMALL, __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0004, winsat.winsat_bitmap_size, winsatcominterfacei/WINSAT_BITMAP_SIZE, winsatcominterfacei/WINSAT_BITMAP_SIZE_NORMAL, winsatcominterfacei/WINSAT_BITMAP_SIZE_SMALL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winsatcominterfacei.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINSAT_BITMAP_SIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsatcominterfacei.h
+api_name:
+-	WINSAT_BITMAP_SIZE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0004 enumeration

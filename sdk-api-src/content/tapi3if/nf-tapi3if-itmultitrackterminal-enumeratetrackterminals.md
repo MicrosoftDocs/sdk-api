@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITMultiTrackTerminal.EnumerateTrackTerminals
+title: ITMultiTrackTerminal::EnumerateTrackTerminals
+author: windows-sdk-content
+description: The EnumerateTrackTerminals method creates and returns an enumeration containing the terminals contained by the multitrack terminal on which this method was called.
+old-location: tapi3\itmultitrackterminal_enumeratetrackterminals.htm
+old-project: Tapi
+ms.assetid: 90ef12f5-1a94-49ca-85c3-092306503827
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: EnumerateTrackTerminals, EnumerateTrackTerminals method [TAPI 2.2], EnumerateTrackTerminals method [TAPI 2.2],ITMultiTrackTerminal interface, ITMultiTrackTerminal interface [TAPI 2.2],EnumerateTrackTerminals method, ITMultiTrackTerminal.EnumerateTrackTerminals, ITMultiTrackTerminal::EnumerateTrackTerminals, _tapi3_itmultitrackterminal_enumeratetrackterminals, tapi3.itmultitrackterminal_enumeratetrackterminals, tapi3if/ITMultiTrackTerminal::EnumerateTrackTerminals
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITMultiTrackTerminal.EnumerateTrackTerminals
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITMultiTrackTerminal::EnumerateTrackTerminals

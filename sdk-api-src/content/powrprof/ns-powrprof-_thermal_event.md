@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:powrprof._THERMAL_EVENT
+title: "_THERMAL_EVENT"
+author: windows-sdk-content
+description: Contains a thermal event.
+old-location: base\thermal_event.htm
+old-project: Power
+ms.assetid: 80B6A494-AED6-4EF0-8B69-4AA5DA6BCBB3
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PTHERMAL_EVENT, PTHERMAL_EVENT, PTHERMAL_EVENT structure pointer, THERMAL_EVENT, THERMAL_EVENT structure, _THERMAL_EVENT, base.thermal_event, powrprof/PTHERMAL_EVENT, powrprof/THERMAL_EVENT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: powrprof.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THERMAL_EVENT, *PTHERMAL_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	PowrProf.h
+api_name:
+-	THERMAL_EVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _THERMAL_EVENT structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rpcdce._RPC_SECURITY_QOS_V3_A
+title: "_RPC_SECURITY_QOS_V3_A"
+author: windows-sdk-content
+description: The RPC_SECURITY_QOS_V3 structure defines version 3 security quality-of-service settings on a binding handle. See Remarks for version availability on Windows editions.
+old-location: rpc\rpc_security_qos_v3.htm
+old-project: Rpc
+ms.assetid: 56366edf-55af-4827-8986-7b5f8b1c878b
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PRPC_SECURITY_QOS_V3_A, 0, PRPC_SECURITY_QOS_V3, PRPC_SECURITY_QOS_V3 structure pointer [RPC], RPC_C_AUTHN_INFO_TYPE_HTTP, RPC_C_IMP_LEVEL_ANONYMOUS, RPC_C_IMP_LEVEL_DEFAULT, RPC_C_IMP_LEVEL_DELEGATE, RPC_C_IMP_LEVEL_IDENTIFY, RPC_C_IMP_LEVEL_IMPERSONATE, RPC_C_QOS_CAPABILITIES_ANY_AUTHORITY, RPC_C_QOS_CAPABILITIES_DEFAULT, RPC_C_QOS_CAPABILITIES_IGNORE_DELEGATE_FAILURE, RPC_C_QOS_CAPABILITIES_LOCAL_MA_HINT, RPC_C_QOS_CAPABILITIES_MAKE_FULLSIC, RPC_C_QOS_CAPABILITIES_MUTUAL_AUTH, RPC_C_QOS_IDENTITY_DYNAMIC, RPC_C_QOS_IDENTITY_STATIC, RPC_SECURITY_QOS_V3, RPC_SECURITY_QOS_V3 structure [RPC], RPC_SECURITY_QOS_V3_A, _RPC_SECURITY_QOS_V3_A, _RPC_SECURITY_QOS_V3_W, rpc.rpc_security_qos_v3, rpcdce/PRPC_SECURITY_QOS_V3, rpcdce/RPC_SECURITY_QOS_V3"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rpcdce.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_SECURITY_QOS_V3_A, *PRPC_SECURITY_QOS_V3_A
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rpcdce.h
+api_name:
+-	RPC_SECURITY_QOS_V3
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RPC_SECURITY_QOS_V3_A structure

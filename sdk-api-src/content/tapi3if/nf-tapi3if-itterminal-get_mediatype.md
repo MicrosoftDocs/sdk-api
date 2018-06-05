@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITTerminal.get_MediaType
+title: ITTerminal::get_MediaType
+author: windows-sdk-content
+description: The get_MediaType method determines the media that this terminal supports.
+old-location: tapi3\itterminal_get_mediatype.htm
+old-project: Tapi
+ms.assetid: 8c2006ad-d2f9-4e21-b0ae-583ec3ff82f4
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITTerminal interface [TAPI 2.2],get_MediaType method, ITTerminal.get_MediaType, ITTerminal::get_MediaType, _tapi3_itterminal_get_mediatype, get_MediaType, get_MediaType method [TAPI 2.2], get_MediaType method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_mediatype, tapi3if/ITTerminal::get_MediaType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tapi3if.h
+api_name:
+-	ITTerminal.get_MediaType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITTerminal::get_MediaType

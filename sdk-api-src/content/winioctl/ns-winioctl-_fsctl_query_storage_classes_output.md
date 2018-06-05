@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+title: "_FSCTL_QUERY_STORAGE_CLASSES_OUTPUT"
+author: windows-sdk-content
+description: Contains information for all tiers of a specific volume.
+old-location: fs\fsctl_query_storage_classes_output.htm
+old-project: FileIO
+ms.assetid: 376B457C-2D54-47D0-A80A-16A03DA6A2EA
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: FILE_STORAGE_TIER_FLAG_NO_SEEK_PENALTY, FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, FSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure [Files], PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT, PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure pointer [Files], _FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, fs.fsctl_query_storage_classes_output, winioctl/FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, winioctl/PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoctl.h
+api_name:
+-	FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure

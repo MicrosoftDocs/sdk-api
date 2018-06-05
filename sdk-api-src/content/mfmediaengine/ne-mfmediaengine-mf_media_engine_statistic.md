@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfmediaengine.MF_MEDIA_ENGINE_STATISTIC
+title: MF_MEDIA_ENGINE_STATISTIC
+author: windows-sdk-content
+description: Identifies statistics that the Media Engine tracks during playback.
+old-location: mf\mf_media_engine_statistic.htm
+old-project: medfound
+ms.assetid: EB431C2F-69A3-4376-BEC7-A5AE0329AD15
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_MEDIA_ENGINE_STATISTIC, MF_MEDIA_ENGINE_STATISTIC enumeration [Media Foundation], MF_MEDIA_ENGINE_STATISTIC_BUFFER_PROGRESS, MF_MEDIA_ENGINE_STATISTIC_BYTES_DOWNLOADED, MF_MEDIA_ENGINE_STATISTIC_FRAMES_CORRUPTED, MF_MEDIA_ENGINE_STATISTIC_FRAMES_DROPPED, MF_MEDIA_ENGINE_STATISTIC_FRAMES_PER_SECOND, MF_MEDIA_ENGINE_STATISTIC_FRAMES_RENDERED, MF_MEDIA_ENGINE_STATISTIC_PLAYBACK_JITTER, MF_MEDIA_ENGINE_STATISTIC_TOTAL_FRAME_DELAY, mf.mf_media_engine_statistic, mfmediaengine/ MF_MEDIA_ENGINE_STATISTIC_FRAMES_CORRUPTED, mfmediaengine/ MF_MEDIA_ENGINE_STATISTIC_PLAYBACK_JITTER, mfmediaengine/ MF_MEDIA_ENGINE_STATISTIC_TOTAL_FRAME_DELAY, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_BUFFER_PROGRESS, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_BYTES_DOWNLOADED, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_FRAMES_DROPPED, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_FRAMES_PER_SECOND, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_FRAMES_RENDERED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_MEDIA_ENGINE_STATISTIC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfmediaengine.h
+api_name:
+-	MF_MEDIA_ENGINE_STATISTIC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MF_MEDIA_ENGINE_STATISTIC enumeration

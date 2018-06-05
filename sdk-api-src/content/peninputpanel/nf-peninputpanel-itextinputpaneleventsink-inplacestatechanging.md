@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceStateChanging
+title: ITextInputPanelEventSink::InPlaceStateChanging
+author: windows-sdk-content
+description: Occurs when the In-Place state is about to change.
+old-location: tablet\itextinputpaneleventsink_inplacestatechanging.htm
+old-project: tablet
+ms.assetid: 866fcd8d-775c-4dc0-824f-6817767247d9
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 866fcd8d-775c-4dc0-824f-6817767247d9, ITextInputPanelEventSink interface [Tablet PC],InPlaceStateChanging method, ITextInputPanelEventSink.InPlaceStateChanging, ITextInputPanelEventSink::InPlaceStateChanging, InPlaceStateChanging, InPlaceStateChanging method [Tablet PC], InPlaceStateChanging method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::InPlaceStateChanging, tablet.itextinputpaneleventsink_inplacestatechanging
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: peninputpanel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EventMask
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tiptsf.dll
+api_name:
+-	ITextInputPanelEventSink.InPlaceStateChanging
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITextInputPanelEventSink::InPlaceStateChanging

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemtime.WBEMTime.GetBSTR
+title: WBEMTime::GetBSTR
+author: windows-sdk-content
+description: Gets the time as a BSTR value in CIM Date and Time Format.
+old-location: wmi\wbemtime_getbstr.htm
+old-project: WmiSdk
+ms.assetid: f1fe92cc-1d51-4bd7-950b-84c76b001163
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "?GetBSTR@WBEMTime@@QBEPAGXZ, ?GetBSTR@WBEMTime@@QEBAPEAGXZ, GetBSTR, GetBSTR method [Windows Management Instrumentation], GetBSTR method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetBSTR method, WBEMTime.GetBSTR, WBEMTime::GetBSTR, _hmm_wbemtime_getbstr, wbemtime/WBEMTime::GetBSTR, wmi.wbemtime_getbstr"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemtime.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	WBEMTime.GetBSTR
+-	?GetBSTR@WBEMTime@@QBEPAGXZ
+-	?GetBSTR@WBEMTime@@QEBAPEAGXZ
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WBEMTime::GetBSTR

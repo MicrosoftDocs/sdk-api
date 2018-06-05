@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:propsys.IInitializeWithFile
+title: IInitializeWithFile
+author: windows-sdk-content
+description: Exposes a method to initialize a handler, such as a property handler, thumbnail handler, or preview handler, with a file path.
+old-location: shell\IInitializeWithFile.htm
+old-project: shell
+ms.assetid: 323181ab-1dc2-4b2a-a91f-3eccd7968bcd
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IInitializeWithFile, IInitializeWithFile interface [Windows Shell], IInitializeWithFile interface [Windows Shell],described, propsys/IInitializeWithFile, shell.IInitializeWithFile, shell_IInitializeWithFile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Propsys.h
+api_name:
+-	IInitializeWithFile
+product: Windows
+targetos: Windows
+req.lib: Propsys.lib
+req.dll: Propsys.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInitializeWithFile interface

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wdsclientapi.WdsCliInitializeLog
+title: WdsCliInitializeLog function
+author: windows-sdk-content
+description: Initializes logging for the WDS client.
+old-location: wds\wdscliinitializelog.htm
+old-project: Wds
+ms.assetid: 9d5ad574-a2b6-49cc-8783-4947c3d81d25
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, WdsCliInitializeLog, WdsCliInitializeLog function [Windows Deployment Services], wds.wdscliinitializelog, wdsclientapi/WdsCliInitializeLog
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wdsclientapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WdsClientAPI.dll
+api_name:
+-	WdsCliInitializeLog
+product: Windows
+targetos: Windows
+req.lib: WdsClientAPI.lib
+req.dll: WdsClientAPI.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WdsCliInitializeLog function

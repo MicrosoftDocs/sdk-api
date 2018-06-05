@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagEMREXCLUDECLIPRECT
+title: tagEMREXCLUDECLIPRECT
+author: windows-sdk-content
+description: The EMREXCLUDECLIPRECT and EMRINTERSECTCLIPRECT structures contain members for the ExcludeClipRect and IntersectClipRect enhanced metafile records.
+old-location: gdi\emrexcludecliprect__emrintersectcliprect.htm
+old-project: gdi
+ms.assetid: a8969bfd-cd60-485f-bbcc-4bf015526d56
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PEMREXCLUDECLIPRECT, *PEMRINTERSECTCLIPRECT, EMREXCLUDECLIPRECT, EMREXCLUDECLIPRECT structure [Windows GDI], EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT, EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT structure [Windows GDI], EMRINTERSECTCLIPRECT, EMRINTERSECTCLIPRECT structure [Windows GDI], PEMREXCLUDECLIPRECT, PEMREXCLUDECLIPRECT structure pointer [Windows GDI], PEMRINTERSECTCLIPRECT, PEMRINTERSECTCLIPRECT structure pointer [Windows GDI], _win32_EMREXCLUDECLIPRECT_str, gdi.emrexcludecliprect__emrintersectcliprect, tagEMREXCLUDECLIPRECT, wingdi/EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT, wingdi/EMRINTERSECTCLIPRECT, wingdi/PEMREXCLUDECLIPRECT, wingdi/PEMRINTERSECTCLIPRECT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMREXCLUDECLIPRECT, *PEMREXCLUDECLIPRECT, EMRINTERSECTCLIPRECT, *PEMRINTERSECTCLIPRECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	EMREXCLUDECLIPRECT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagEMREXCLUDECLIPRECT structure

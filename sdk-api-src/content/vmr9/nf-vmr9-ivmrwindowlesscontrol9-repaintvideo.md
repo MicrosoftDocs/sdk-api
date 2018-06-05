@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vmr9.IVMRWindowlessControl9.RepaintVideo
+title: IVMRWindowlessControl9::RepaintVideo
+author: windows-sdk-content
+description: The RepaintVideo method repaints the current video frame.
+old-location: dshow\ivmrwindowlesscontrol9_repaintvideo.htm
+old-project: DirectShow
+ms.assetid: 7a25301c-00e4-4f54-a34d-416a52daeaa7
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IVMRWindowlessControl9 interface [DirectShow],RepaintVideo method, IVMRWindowlessControl9.RepaintVideo, IVMRWindowlessControl9::RepaintVideo, IVMRWindowlessControl9RepaintVideo, RepaintVideo, RepaintVideo method [DirectShow], RepaintVideo method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_repaintvideo, vmr9/IVMRWindowlessControl9::RepaintVideo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vmr9.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VMR9DeinterlaceTech
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IVMRWindowlessControl9.RepaintVideo
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVMRWindowlessControl9::RepaintVideo

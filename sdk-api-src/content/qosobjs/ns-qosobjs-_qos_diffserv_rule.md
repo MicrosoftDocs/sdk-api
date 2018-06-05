@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:qosobjs._QOS_DIFFSERV_RULE
+title: "_QOS_DIFFSERV_RULE"
+author: windows-sdk-content
+description: The QOS_DIFFSERV_RULE structure is used in conjunction with the traffic control object QOS_DIFFSERV to provide Diffserv rules for a given flow.
+old-location: qos\qos_diffserv_rule.htm
+old-project: QOS
+ms.assetid: 732cfbec-4175-4397-854f-0d2a930e11bc
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPQOS_DIFFSERV_RULE, LPQOS_DIFFSERV_RULE, LPQOS_DIFFSERV_RULE structure pointer [QOS], QOS_DIFFSERV_RULE, QOS_DIFFSERV_RULE structure [QOS], _QOS_DIFFSERV_RULE, _gqos_qos_diffserv_rule, qos.qos_diffserv_rule, qosobjs/LPQOS_DIFFSERV_RULE, qosobjs/QOS_DIFFSERV_RULE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: qosobjs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QOS_DIFFSERV_RULE, *LPQOS_DIFFSERV_RULE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	QosObjs.h
+api_name:
+-	QOS_DIFFSERV_RULE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _QOS_DIFFSERV_RULE structure

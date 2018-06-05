@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.ICspInformations.get__NewEnum
+title: ICspInformations::get__NewEnum
+author: windows-sdk-content
+description: Retrieves the enumerator for the collection.
+old-location: security\icspinformations__newenum_property.htm
+old-project: SecCertEnroll
+ms.assetid: ea2bb37a-952c-4772-b44d-52429b5d0a86
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ICspInformations interface [Security],_NewEnum property, ICspInformations._NewEnum, ICspInformations.get__NewEnum, ICspInformations::_NewEnum, ICspInformations::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICspInformations interface, certenroll/ICspInformations::_NewEnum, certenroll/ICspInformations::get__NewEnum, get__NewEnum, security.icspinformations__newenum_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	ICspInformations._NewEnum
+-	ICspInformations.get__NewEnum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # ICspInformations::get__NewEnum

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmaccess._NET_VALIDATE_PASSWORD_HASH
+title: "_NET_VALIDATE_PASSWORD_HASH"
+author: windows-sdk-content
+description: The NET_VALIDATE_PASSWORD_HASH structure contains a password hash.
+old-location: netmgmt\net_validate_password_hash.htm
+old-project: NetMgmt
+ms.assetid: 884e5b8c-1288-454e-862d-323d79123356
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PNET_VALIDATE_PASSWORD_HASH, NET_VALIDATE_PASSWORD_HASH, NET_VALIDATE_PASSWORD_HASH structure [Network Management], PNET_VALIDATE_PASSWORD_HASH, PNET_VALIDATE_PASSWORD_HASH structure pointer [Network Management], _NET_VALIDATE_PASSWORD_HASH, lmaccess/NET_VALIDATE_PASSWORD_HASH, lmaccess/PNET_VALIDATE_PASSWORD_HASH, netmgmt.net_validate_password_hash"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmaccess.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_VALIDATE_PASSWORD_HASH, *PNET_VALIDATE_PASSWORD_HASH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmaccess.h
+api_name:
+-	NET_VALIDATE_PASSWORD_HASH
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _NET_VALIDATE_PASSWORD_HASH structure

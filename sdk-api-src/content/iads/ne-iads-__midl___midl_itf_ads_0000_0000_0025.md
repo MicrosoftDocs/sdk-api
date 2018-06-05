@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0025
+title: "__MIDL___MIDL_itf_ads_0000_0000_0025"
+author: windows-sdk-content
+description: Specifies preferences for an IDirectorySearch object.
+old-location: adsi\ads_searchpref_enum.htm
+old-project: ADSI
+ms.assetid: f3ab3d53-e53c-459e-929f-f2a3fc95c3ff
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ADS_SEARCHPREF, ADS_SEARCHPREF_ASYNCHRONOUS, ADS_SEARCHPREF_ATTRIBTYPES_ONLY, ADS_SEARCHPREF_ATTRIBUTE_QUERY, ADS_SEARCHPREF_CACHE_RESULTS, ADS_SEARCHPREF_CHASE_REFERRALS, ADS_SEARCHPREF_DEREF_ALIASES, ADS_SEARCHPREF_DIRSYNC, ADS_SEARCHPREF_DIRSYNC_FLAG, ADS_SEARCHPREF_ENUM, ADS_SEARCHPREF_ENUM enumeration [ADSI], ADS_SEARCHPREF_EXTENDED_DN, ADS_SEARCHPREF_PAGED_TIME_LIMIT, ADS_SEARCHPREF_PAGESIZE, ADS_SEARCHPREF_SEARCH_SCOPE, ADS_SEARCHPREF_SECURITY_MASK, ADS_SEARCHPREF_SIZE_LIMIT, ADS_SEARCHPREF_SORT_ON, ADS_SEARCHPREF_TIMEOUT, ADS_SEARCHPREF_TIME_LIMIT, ADS_SEARCHPREF_TOMBSTONE, ADS_SEARCHPREF_VLV, __MIDL___MIDL_itf_ads_0000_0000_0025, _ds_ads_searchpref_enum, adsi.ads__searchpref__enum, adsi.ads_searchpref_enum, iads/ADS_SEARCHPREF_ASYNCHRONOUS, iads/ADS_SEARCHPREF_ATTRIBTYPES_ONLY, iads/ADS_SEARCHPREF_ATTRIBUTE_QUERY, iads/ADS_SEARCHPREF_CACHE_RESULTS, iads/ADS_SEARCHPREF_CHASE_REFERRALS, iads/ADS_SEARCHPREF_DEREF_ALIASES, iads/ADS_SEARCHPREF_DIRSYNC, iads/ADS_SEARCHPREF_DIRSYNC_FLAG, iads/ADS_SEARCHPREF_ENUM, iads/ADS_SEARCHPREF_EXTENDED_DN, iads/ADS_SEARCHPREF_PAGED_TIME_LIMIT, iads/ADS_SEARCHPREF_PAGESIZE, iads/ADS_SEARCHPREF_SEARCH_SCOPE, iads/ADS_SEARCHPREF_SECURITY_MASK, iads/ADS_SEARCHPREF_SIZE_LIMIT, iads/ADS_SEARCHPREF_SORT_ON, iads/ADS_SEARCHPREF_TIMEOUT, iads/ADS_SEARCHPREF_TIME_LIMIT, iads/ADS_SEARCHPREF_TOMBSTONE, iads/ADS_SEARCHPREF_VLV
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: IAccess.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SEARCHPREF_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_SEARCHPREF_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_ads_0000_0000_0025 enumeration

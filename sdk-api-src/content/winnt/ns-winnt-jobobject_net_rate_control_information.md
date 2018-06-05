@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt.JOBOBJECT_NET_RATE_CONTROL_INFORMATION
+title: JOBOBJECT_NET_RATE_CONTROL_INFORMATION
+author: windows-sdk-content
+description: Contains information used to control the network traffic for a job. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectNetRateControlInformation information class.
+old-location: base\jobobject_net_rate_control_information.htm
+old-project: ProcThread
+ms.assetid: CE55BC2A-B27C-490A-9D5A-C18FEC09638C
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: JOBOBJECT_NET_RATE_CONTROL_INFORMATION, JOBOBJECT_NET_RATE_CONTROL_INFORMATION structure, base.jobobject_net_rate_control_information, winnt/JOBOBJECT_NET_RATE_CONTROL_INFORMATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: JOBOBJECT_NET_RATE_CONTROL_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	JOBOBJECT_NET_RATE_CONTROL_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # JOBOBJECT_NET_RATE_CONTROL_INFORMATION structure

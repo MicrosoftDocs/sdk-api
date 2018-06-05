@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NI:winioctl.IOCTL_STORAGE_FIRMWARE_ACTIVATE
+title: IOCTL_STORAGE_FIRMWARE_ACTIVATE
+author: windows-sdk-content
+description: Windows applications can use this control code to activate a firmware image on a specified device.
+old-location: fs\ioctl_storage_firmware_activate.htm
+old-project: FileIO
+ms.assetid: 000BEB58-D91E-4859-AC31-A4C72B84A982
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IOCTL_STORAGE_FIRMWARE_ACTIVATE, IOCTL_STORAGE_FIRMWARE_ACTIVATE control, IOCTL_STORAGE_FIRMWARE_ACTIVATE control code [Files], fs.ioctl_storage_firmware_activate, winioctl/IOCTL_STORAGE_FIRMWARE_ACTIVATE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: ioctl
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoctl.h
+api_name:
+-	IOCTL_STORAGE_FIRMWARE_ACTIVATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IOCTL_STORAGE_FIRMWARE_ACTIVATE IOCTL

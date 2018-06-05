@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xpsprint.StartXpsPrintJob
+title: StartXpsPrintJob function
+author: windows-sdk-content
+description: Starts printing an XPS document stream to a printer.
+old-location: gdi\startxpsprintjob.htm
+old-project: printdocs
+ms.assetid: d982ae2e-c68f-4197-b419-22a63e61db8a
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: StartXpsPrintJob, StartXpsPrintJob function [Windows GDI], gdi.startxpsprintjob, xpsprint/StartXpsPrintJob
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: xpsprint.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XPS_JOB_COMPLETION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	XpsPrint.dll
+api_name:
+-	StartXpsPrintJob
+product: Windows
+targetos: Windows
+req.lib: XpsPrint.lib
+req.dll: XpsPrint.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # StartXpsPrintJob function

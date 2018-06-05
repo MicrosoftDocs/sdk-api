@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rend.ITDirectoryObjectUser.get_IPPhonePrimary
+title: ITDirectoryObjectUser::get_IPPhonePrimary
+author: windows-sdk-content
+description: The get_IPPhonePrimary method gets the name of a computer that is the primary IP phone for the user.
+old-location: tapi3\itdirectoryobjectuser_get_ipphoneprimary.htm
+old-project: Tapi
+ms.assetid: 43bb9ce5-28ff-4a6f-a55c-a84633e22dfe
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITDirectoryObjectUser interface [TAPI 2.2],get_IPPhonePrimary method, ITDirectoryObjectUser.get_IPPhonePrimary, ITDirectoryObjectUser::get_IPPhonePrimary, _tapi3_itdirectoryobjectuser_get_ipphoneprimary, get_IPPhonePrimary, get_IPPhonePrimary method [TAPI 2.2], get_IPPhonePrimary method [TAPI 2.2],ITDirectoryObjectUser interface, rend/ITDirectoryObjectUser::get_IPPhonePrimary, tapi3.itdirectoryobjectuser_get_ipphoneprimary
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rend.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rend.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RND_ADVERTISING_SCOPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Rend.dll
+api_name:
+-	ITDirectoryObjectUser.get_IPPhonePrimary
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITDirectoryObjectUser::get_IPPhonePrimary

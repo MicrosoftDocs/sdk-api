@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlwapi.IStream_Reset
+title: IStream_Reset function
+author: windows-sdk-content
+description: Moves the seek position in a specified stream to the beginning of the stream.
+old-location: shell\IStream_Reset.htm
+old-project: shell
+ms.assetid: 1e7a881d-decb-4018-b2e8-e0cba454236d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IStream_Reset, IStream_Reset function [Windows Shell], _win32_IStream_Reset, shell.IStream_Reset, shlwapi/IStream_Reset
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server, Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+-	API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+-	ShCore.dll
+-	API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+-	API-MS-Win-ShCore-stream-l1-1-0.dll
+api_name:
+-	IStream_Reset
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # IStream_Reset function

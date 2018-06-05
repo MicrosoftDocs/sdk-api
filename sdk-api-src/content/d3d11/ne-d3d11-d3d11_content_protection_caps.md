@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d3d11.D3D11_CONTENT_PROTECTION_CAPS
+title: D3D11_CONTENT_PROTECTION_CAPS
+author: windows-sdk-content
+description: Contains flags that describe content-protection capabilities.
+old-location: mf\d3d11_content_protection_caps.htm
+old-project: medfound
+ms.assetid: 19697660-DDB8-4A4C-888F-018BC5CCFC94
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3D11_CONTENT_PROTECTION_CAPS, D3D11_CONTENT_PROTECTION_CAPS enumeration [Media Foundation], D3D11_CONTENT_PROTECTION_CAPS_CONTENT_KEY, D3D11_CONTENT_PROTECTION_CAPS_DECRYPTION_BLT, D3D11_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK, D3D11_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK_KEY, D3D11_CONTENT_PROTECTION_CAPS_ENCRYPT_SLICEDATA_ONLY, D3D11_CONTENT_PROTECTION_CAPS_FRESHEN_SESSION_KEY, D3D11_CONTENT_PROTECTION_CAPS_HARDWARE, D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_DRM_COMMUNICATION, D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_PAGEABLE, D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECT_UNCOMPRESSED, D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_TEARDOWN, D3D11_CONTENT_PROTECTION_CAPS_PARTIAL_DECRYPTION, D3D11_CONTENT_PROTECTION_CAPS_PROTECTION_ALWAYS_ON, D3D11_CONTENT_PROTECTION_CAPS_SEQUENTIAL_CTR_IV, D3D11_CONTENT_PROTECTION_CAPS_SOFTWARE, d3d11/ D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECT_UNCOMPRESSED, d3d11/D3D11_CONTENT_PROTECTION_CAPS, d3d11/D3D11_CONTENT_PROTECTION_CAPS_CONTENT_KEY, d3d11/D3D11_CONTENT_PROTECTION_CAPS_DECRYPTION_BLT, d3d11/D3D11_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK, d3d11/D3D11_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK_KEY, d3d11/D3D11_CONTENT_PROTECTION_CAPS_ENCRYPT_SLICEDATA_ONLY, d3d11/D3D11_CONTENT_PROTECTION_CAPS_FRESHEN_SESSION_KEY, d3d11/D3D11_CONTENT_PROTECTION_CAPS_HARDWARE, d3d11/D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_DRM_COMMUNICATION, d3d11/D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_PAGEABLE, d3d11/D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_TEARDOWN, d3d11/D3D11_CONTENT_PROTECTION_CAPS_PARTIAL_DECRYPTION, d3d11/D3D11_CONTENT_PROTECTION_CAPS_PROTECTION_ALWAYS_ON, d3d11/D3D11_CONTENT_PROTECTION_CAPS_SEQUENTIAL_CTR_IV, d3d11/D3D11_CONTENT_PROTECTION_CAPS_SOFTWARE, mf.d3d11_content_protection_caps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_CONTENT_PROTECTION_CAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11.h
+api_name:
+-	D3D11_CONTENT_PROTECTION_CAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_CONTENT_PROTECTION_CAPS enumeration

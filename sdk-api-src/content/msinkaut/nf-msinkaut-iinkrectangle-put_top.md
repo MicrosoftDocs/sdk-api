@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkRectangle.put_Top
+title: IInkRectangle::put_Top
+author: windows-sdk-content
+description: Gets or sets the top position of the InkRectangle object.
+old-location: tablet\inkrectangle_top.htm
+old-project: tablet
+ms.assetid: f97145cf-9de9-427a-9701-36c6f4286910
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IInkRectangle interface [Tablet PC],Top property, IInkRectangle.Top, IInkRectangle.put_Top, IInkRectangle::Top, IInkRectangle::get_Top, IInkRectangle::put_Top, InkRectangle.get_Top, InkRectangle.put_Top, Top property [Tablet PC], Top property [Tablet PC],IInkRectangle interface, f97145cf-9de9-427a-9701-36c6f4286910, get_Top, msinkaut/IInkRectangle::Top, msinkaut/IInkRectangle::get_Top, msinkaut/IInkRectangle::put_Top, put_Top, tablet.inkrectangle_top
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkRectangle.Top
+-	IInkRectangle.get_Top
+-	IInkRectangle.put_Top
+-	InkRectangle.get_Top
+-	InkRectangle.put_Top
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRectangle::put_Top

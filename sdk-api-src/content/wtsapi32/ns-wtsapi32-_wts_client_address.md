@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wtsapi32._WTS_CLIENT_ADDRESS
+title: "_WTS_CLIENT_ADDRESS"
+author: windows-sdk-content
+description: Contains the client network address of a Remote Desktop Services session.
+old-location: termserv\wts_client_address_str.htm
+old-project: TermServ
+ms.assetid: 29034986-f8d1-4cf0-9f53-e4b195d450a6
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PWTS_CLIENT_ADDRESS, PWTS_CLIENT_ADDRESS, PWTS_CLIENT_ADDRESS structure pointer [Remote Desktop Services], WTS_CLIENT_ADDRESS, WTS_CLIENT_ADDRESS structure [Remote Desktop Services], _WTS_CLIENT_ADDRESS, _win32_wts_client_address_str, termserv.wts_client_address_str, wtsapi32/PWTS_CLIENT_ADDRESS, wtsapi32/WTS_CLIENT_ADDRESS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_CLIENT_ADDRESS, *PWTS_CLIENT_ADDRESS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsapi32.h
+api_name:
+-	WTS_CLIENT_ADDRESS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTS_CLIENT_ADDRESS structure

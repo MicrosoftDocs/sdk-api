@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ras.RasGetEntryDialParamsA
+title: RasGetEntryDialParamsA function
+author: windows-sdk-content
+description: The RasGetEntryDialParams function retrieves the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry.
+old-location: rras\rasgetentrydialparams.htm
+old-project: RRAS
+ms.assetid: c6752f95-c7e8-44d9-9dbd-9f03cc4778fa
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RasGetEntryDialParams, RasGetEntryDialParams function [RAS], RasGetEntryDialParamsA, RasGetEntryDialParamsW, _ras_rasgetentrydialparams, ras/RasGetEntryDialParams, ras/RasGetEntryDialParamsA, ras/RasGetEntryDialParamsW, rras.rasgetentrydialparams
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ras.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RasGetEntryDialParamsW (Unicode) and RasGetEntryDialParamsA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RASPROJECTION_INFO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rasapi32.dll
+-	Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+-	Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+api_name:
+-	RasGetEntryDialParams
+-	RasGetEntryDialParamsA
+-	RasGetEntryDialParamsW
+product: Windows
+targetos: Windows
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RasGetEntryDialParamsA function

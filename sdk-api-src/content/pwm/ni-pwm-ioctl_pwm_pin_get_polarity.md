@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NI:pwm.IOCTL_PWM_PIN_GET_POLARITY
+title: IOCTL_PWM_PIN_GET_POLARITY
+author: windows-sdk-content
+description: Retrieves the current signal polarity of the pin or channel. The control code gets the signal polarity as a PWM_PIN_GET_POLARITY_OUTPUT structure. The signal polarity is either Active High or Active Low, as defined in the PWM_POLARITY enumeration.
+old-location: base\ioctl_pwm_pin_get_polarity.htm
+old-project: DevIO
+ms.assetid: 834C7CBA-179E-4C1E-9664-A70EB38D74BE
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: IOCTL_PWM_PIN_GET_POLARITY, IOCTL_PWM_PIN_GET_POLARITY control, IOCTL_PWM_PIN_GET_POLARITY control code, base.ioctl_pwm_pin_get_polarity, pwm/IOCTL_PWM_PIN_GET_POLARITY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: ioctl
+req.header: pwm.h
+req.include-header: Pwm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PWM_POLARITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pwm.h
+api_name:
+-	IOCTL_PWM_PIN_GET_POLARITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOCTL_PWM_PIN_GET_POLARITY IOCTL

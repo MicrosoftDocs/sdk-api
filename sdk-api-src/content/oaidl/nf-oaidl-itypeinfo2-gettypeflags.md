@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oaidl.ITypeInfo2.GetTypeFlags
+title: ITypeInfo2::GetTypeFlags
+author: windows-sdk-content
+description: Returns the type flags without any allocations. This returns a flag that expands the type flags without growing the TYPEATTR (type attribute).
+old-location: automat\itypeinfo2_gettypeflags.htm
+old-project: automat
+ms.assetid: a240caf6-f7a2-41c4-9950-f0d2df1f3e2d
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: GetTypeFlags, GetTypeFlags method [Automation], GetTypeFlags method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetTypeFlags method, ITypeInfo2.GetTypeFlags, ITypeInfo2::GetTypeFlags, _oa96_ITypeInfo2_GetTypeFlags, automat.itypeinfo2_gettypeflags, oaidl/ITypeInfo2::GetTypeFlags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OaIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ITypeInfo2.GetTypeFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITypeInfo2::GetTypeFlags

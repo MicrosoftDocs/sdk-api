@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:credentialprovider.ICredentialProviderCredentialEvents.OnCreatingWindow
+title: ICredentialProviderCredentialEvents::OnCreatingWindow
+author: windows-sdk-content
+description: Called when the window is created. Enables credentials to retrieve the HWND of the parent window after Advise is called.
+old-location: shell\ICredentialProviderCredentialEvents_OnCreatingWindow.htm
+old-project: shell
+ms.assetid: ae3cf911-991d-4363-985a-746846e3c08a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],OnCreatingWindow method, ICredentialProviderCredentialEvents.OnCreatingWindow, ICredentialProviderCredentialEvents::OnCreatingWindow, OnCreatingWindow, OnCreatingWindow method [Windows Shell], OnCreatingWindow method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_OnCreatingWindow, credentialprovider/ICredentialProviderCredentialEvents::OnCreatingWindow, shell.ICredentialProviderCredentialEvents_OnCreatingWindow
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: credentialprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Credentialprovider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Credentialprovider.h
+api_name:
+-	ICredentialProviderCredentialEvents.OnCreatingWindow
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICredentialProviderCredentialEvents::OnCreatingWindow

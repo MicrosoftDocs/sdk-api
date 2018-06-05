@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.GetTapeParameters
+title: GetTapeParameters function
+author: windows-sdk-content
+description: Retrieves information that describes the tape or the tape drive.
+old-location: backup\gettapeparameters.htm
+old-project: Backup
+ms.assetid: 87e59e29-e174-4462-b692-512c3380eb4d
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: GET_TAPE_DRIVE_INFORMATION, GET_TAPE_MEDIA_INFORMATION, GetTapeParameters, GetTapeParameters function [Backup], _win32_gettapeparameters, backup.gettapeparameters, base.gettapeparameters, winbase/GetTapeParameters
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,31 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+-	kernel32legacy.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+-	API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+-	GetTapeParameters
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # GetTapeParameters function

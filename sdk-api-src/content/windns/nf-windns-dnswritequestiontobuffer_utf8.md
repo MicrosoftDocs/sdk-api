@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:windns.DnsWriteQuestionToBuffer_UTF8
+title: DnsWriteQuestionToBuffer_UTF8 function
+author: windows-sdk-content
+description: The DnsWriteQuestionToBuffer function type creates a DNS query message and stores it in a DNS_MESSAGE_BUFFER structure.
+old-location: dns\dnswritequestiontobuffer.htm
+old-project: DNS
+ms.assetid: 9aa853aa-d9b5-41e3-a82a-c25de199924d
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: DnsWriteQuestionToBuffer, DnsWriteQuestionToBuffer_UTF8, DnsWriteQuestionToBuffer_W, DnsWriteQuestionToBuffer_W function [DNS], _dns_dnswritequestiontobuffer, dns.dnswritequestiontobuffer, windns/DnsWriteQuestionToBuffer_UTF8, windns/DnsWriteQuestionToBuffer_W
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: windns.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DNS_FREE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dnsapi.dll
+api_name:
+-	DnsWriteQuestionToBuffer_W
+-	DnsWriteQuestionToBuffer_UTF8
+product: Windows
+targetos: Windows
+req.lib: Dnsapi.lib
+req.dll: Dnsapi.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DnsWriteQuestionToBuffer_UTF8 function

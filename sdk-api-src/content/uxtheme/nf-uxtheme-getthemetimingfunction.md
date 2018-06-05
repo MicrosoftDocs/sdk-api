@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uxtheme.GetThemeTimingFunction
+title: GetThemeTimingFunction function
+author: windows-sdk-content
+description: Gets a predefined timing function based on a timing function identifier.
+old-location: controls\getthemetimingfunction.htm
+old-project: Controls
+ms.assetid: 640E1933-E23D-4852-95A2-4FD630162D2C
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetThemeTimingFunction, GetThemeTimingFunction function [Windows Controls], controls.getthemetimingfunction, uxtheme/GetThemeTimingFunction
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: uxtheme.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BP_BUFFERFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	UxTheme.dll
+-	Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+-	xamlpalwp.dll
+-	ext-ms-win-uxtheme-themes-l1-1-1.dll
+api_name:
+-	GetThemeTimingFunction
+product: Windows
+targetos: Windows
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # GetThemeTimingFunction function

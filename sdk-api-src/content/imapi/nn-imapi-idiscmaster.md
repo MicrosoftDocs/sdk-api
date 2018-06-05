@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:imapi.IDiscMaster
+title: IDiscMaster
+author: windows-sdk-content
+description: The IDiscMaster interface allows an application to reserve an image mastering API, enumerate disc mastering formats and disc recorders supported by an image mastering object, and start a simulated or actual burn of a disc.
+old-location: imapi\idiscmaster.htm
+old-project: imapi
+ms.assetid: 1473e79e-a13a-4bc5-b80d-d8921fdc9952
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IDiscMaster, IDiscMaster interface [IMAPI], IDiscMaster interface [IMAPI],described, _win32_idiscmaster, base.idiscmaster, imapi.idiscmaster, imapi/IDiscMaster
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: imapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Actxprxy.dll
+api_name:
+-	IDiscMaster
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IDiscMaster interface

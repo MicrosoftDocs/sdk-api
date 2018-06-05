@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dxvahd._DXVAHD_COLOR
+title: "_DXVAHD_COLOR"
+author: windows-sdk-content
+description: Defines a color value for Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+old-location: mf\dxvahd_color.htm
+old-project: medfound
+ms.assetid: 833bb91b-d891-4c3f-be20-367b0a23e97e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DXVAHD_COLOR, DXVAHD_COLOR union [Media Foundation], _DXVAHD_COLOR, dxvahd/DXVAHD_COLOR, mf.dxvahd_color
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxvahd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVAHD_COLOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxvahd.h
+api_name:
+-	DXVAHD_COLOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVAHD_COLOR structure

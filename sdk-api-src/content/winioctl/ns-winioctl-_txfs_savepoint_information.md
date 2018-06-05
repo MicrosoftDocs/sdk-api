@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._TXFS_SAVEPOINT_INFORMATION
+title: "_TXFS_SAVEPOINT_INFORMATION"
+author: windows-sdk-content
+description: The FSCTL_TXFS_SAVEPOINT_INFORMATION structure specifies the action to perform, and on which transaction.
+old-location: fs\txfs_savepoint_information.htm
+old-project: FileIO
+ms.assetid: 4ea6d069-832a-4771-8cc0-fd75e82c94b5
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PTXFS_SAVEPOINT_INFORMATION, PTXFS_SAVEPOINT_INFORMATION, PTXFS_SAVEPOINT_INFORMATION structure pointer [Files], TXFS_SAVEPOINT_CLEAR, TXFS_SAVEPOINT_CLEAR_ALL, TXFS_SAVEPOINT_INFORMATION, TXFS_SAVEPOINT_INFORMATION structure [Files], TXFS_SAVEPOINT_ROLLBACK, TXFS_SAVEPOINT_SET, _TXFS_SAVEPOINT_INFORMATION, fs.txfs_savepoint_information, winioctl/PTXFS_SAVEPOINT_INFORMATION, winioctl/TXFS_SAVEPOINT_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TXFS_SAVEPOINT_INFORMATION, *PTXFS_SAVEPOINT_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	TXFS_SAVEPOINT_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _TXFS_SAVEPOINT_INFORMATION structure

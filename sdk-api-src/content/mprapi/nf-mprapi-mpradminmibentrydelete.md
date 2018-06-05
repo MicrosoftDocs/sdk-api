@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mprapi.MprAdminMIBEntryDelete
+title: MprAdminMIBEntryDelete function
+author: windows-sdk-content
+description: The MprAdminMIBEntryDelete function deletes an entry for one of the variables exported by a routing protocol or router manager.
+old-location: rras\mpradminmibentrydelete.htm
+old-project: RRAS
+ms.assetid: 5a9a1d79-a313-49bc-a678-ba26ccda8e65
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: MprAdminMIBEntryDelete, MprAdminMIBEntryDelete function [RAS], _mpr_mpradminmibentrydelete, mprapi/MprAdminMIBEntryDelete, rras.mpradminmibentrydelete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ROUTER_INTERFACE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Mprapi.dll
+api_name:
+-	MprAdminMIBEntryDelete
+product: Windows
+targetos: Windows
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MprAdminMIBEntryDelete function

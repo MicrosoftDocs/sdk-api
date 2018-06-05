@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenc.ICertEncodeBitString.Encode
+title: ICertEncodeBitString::Encode
+author: windows-sdk-content
+description: Performs Abstract Syntax Notation One (ASN.1) encoding on a given bit string.
+old-location: security\icertencodebitstring_encode.htm
+old-project: SecCrypto
+ms.assetid: 2dc74ab4-8f40-4e0d-a18e-ba9c99d5bf94
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertEncodeBitString object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeBitString object, Encode method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],Encode method, ICertEncodeBitString.Encode, ICertEncodeBitString::Encode, _certsrv_icertencodebitstring_encode, certenc/ICertEncodeBitString::Encode, security.icertencodebitstring_encode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenc.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509EnrollmentAuthFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenc.dll
+api_name:
+-	ICertEncodeBitString.Encode
+-	CCertEncodeBitString.Encode
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 ---
 
 # ICertEncodeBitString::Encode

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dhcpsapi.DhcpSetFilterV4
+title: DhcpSetFilterV4 function
+author: windows-sdk-content
+description: Enables or disables the allow and deny lists on a DHCP server.
+old-location: dhcp\dhcpsetfilterv4.htm
+old-project: DHCP
+ms.assetid: 4a67ad11-1f24-4ab6-b5f7-e51c97562037
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DhcpSetFilterV4, DhcpSetFilterV4 function [DHCP], dhcp.dhcpsetfilterv4, dhcpsapi/DhcpSetFilterV4
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QuarantineStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dhcpsapi.dll
+api_name:
+-	DhcpSetFilterV4
+product: Windows
+targetos: Windows
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 ---
 
 # DhcpSetFilterV4 function

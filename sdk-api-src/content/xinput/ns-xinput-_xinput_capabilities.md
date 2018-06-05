@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:xinput._XINPUT_CAPABILITIES
+title: "_XINPUT_CAPABILITIES"
+author: windows-sdk-content
+description: Describes the capabilities of a connected controller. The XInputGetCapabilities function returns XINPUT_CAPABILITIES.
+old-location: xinput\xinput_capabilities.htm
+old-project: xinput
+ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_CAPABILITIES
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PXINPUT_CAPABILITIES, PXINPUT_CAPABILITIES, PXINPUT_CAPABILITIES structure pointer [XInput Game Controller APIs], XINPUT_CAPABILITIES, XINPUT_CAPABILITIES structure [XInput Game Controller APIs], _XINPUT_CAPABILITIES, xinput.xinput_capabilities, xinput/PXINPUT_CAPABILITIES, xinput/XINPUT_CAPABILITIES"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: xinput.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XINPUT_CAPABILITIES, *PXINPUT_CAPABILITIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	XInput.h
+api_name:
+-	XINPUT_CAPABILITIES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # _XINPUT_CAPABILITIES structure

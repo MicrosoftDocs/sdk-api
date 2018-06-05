@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:spatialaudioclient.IAudioFormatEnumerator.GetCount
+title: IAudioFormatEnumerator::GetCount
+author: windows-sdk-content
+description: Gets the number of supported audio formats in the list.
+old-location: coreaudio\iaudioformatenumerator_getcount.htm
+old-project: CoreAudio
+ms.assetid: A2523D52-6641-4876-A263-E0D02A815522
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IAudioFormatEnumerator interface, IAudioFormatEnumerator interface [Core Audio],GetCount method, IAudioFormatEnumerator.GetCount, IAudioFormatEnumerator::GetCount, coreaudio.iaudioformatenumerator_getcount, spatialaudioclient/IAudioFormatEnumerator::GetCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spatialaudioclient.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AudioObjectType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	spatialaudioclient.h
+api_name:
+-	IAudioFormatEnumerator.GetCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IAudioFormatEnumerator::GetCount

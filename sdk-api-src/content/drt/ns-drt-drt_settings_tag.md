@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:drt.drt_settings_tag
+title: drt_settings_tag
+author: windows-sdk-content
+description: DRT_SETTINGS structure contains the settings utilized by the local Distributed Routing Table.
+old-location: p2p\drt_settings.htm
+old-project: P2PSdk
+ms.assetid: 22408b8e-b114-43cd-8f84-3eaf8508f441
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PDRT_SETTINGS, DRT_SETTINGS, DRT_SETTINGS structure [Peer Networking], PDRT_SETTINGS, PDRT_SETTINGS structure pointer [Peer Networking], drt/DRT_SETTINGS, drt/PDRT_SETTINGS, drt_settings_tag, p2p.drt_settings"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: drt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRT_SETTINGS, *PDRT_SETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	drt.h
+api_name:
+-	DRT_SETTINGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # drt_settings_tag structure

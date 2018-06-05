@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:schannel._SecPkgContext_SessionInfo
+title: "_SecPkgContext_SessionInfo"
+author: windows-sdk-content
+description: Specifies whether the session is a reconnection and retrieves a value that identifies the session.
+old-location: security\secpkgcontext_sessioninfo.htm
+old-project: SecAuthN
+ms.assetid: d7725803-1f4c-4d5d-8c53-81ec24d5a9d8
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSecPkgContext_SessionInfo, PSecPkgContext_SessionInfo, PSecPkgContext_SessionInfo structure pointer [Security], SSL_SESSION_RECONNECT, SecPkgContext_SessionInfo, SecPkgContext_SessionInfo structure [Security], _SecPkgContext_SessionInfo, schannel/PSecPkgContext_SessionInfo, schannel/SecPkgContext_SessionInfo, security.secpkgcontext_sessioninfo"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: schannel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SecPkgContext_SessionInfo, *PSecPkgContext_SessionInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Schannel.h
+api_name:
+-	SecPkgContext_SessionInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SecPkgContext_SessionInfo structure

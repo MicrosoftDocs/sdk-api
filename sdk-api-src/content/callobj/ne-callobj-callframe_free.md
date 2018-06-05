@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:callobj.CALLFRAME_FREE
+title: CALLFRAME_FREE
+author: windows-sdk-content
+description: Determines the parameter type to be freed.
+old-location: com\callframe_free.htm
+old-project: com
+ms.assetid: 6a048133-7a89-4b55-afd3-5eb722d41914
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: CALLFRAME_FREE, CALLFRAME_FREE enumeration [COM], CALLFRAME_FREE_ALL, CALLFRAME_FREE_IN, CALLFRAME_FREE_INOUT, CALLFRAME_FREE_NONE, CALLFRAME_FREE_OUT, CALLFRAME_FREE_TOP_INOUT, CALLFRAME_FREE_TOP_OUT, _com_CALLFRAME_FREE, callobj/CALLFRAME_FREE, callobj/CALLFRAME_FREE_ALL, callobj/CALLFRAME_FREE_IN, callobj/CALLFRAME_FREE_INOUT, callobj/CALLFRAME_FREE_NONE, callobj/CALLFRAME_FREE_OUT, callobj/CALLFRAME_FREE_TOP_INOUT, callobj/CALLFRAME_FREE_TOP_OUT, com.callframe_free
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: callobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CallObj.h
+api_name:
+-	CALLFRAME_FREE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CALLFRAME_FREE enumeration

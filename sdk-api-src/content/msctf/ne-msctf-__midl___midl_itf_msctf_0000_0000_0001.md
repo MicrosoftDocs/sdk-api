@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msctf.__MIDL___MIDL_itf_msctf_0000_0000_0001
+title: "__MIDL___MIDL_itf_msctf_0000_0000_0001"
+author: windows-sdk-content
+description: Elements of the TfAnchor enumeration specify the start anchor or end anchor of an ITfRange object.
+old-location: tsf\tfanchor.htm
+old-project: TSF
+ms.assetid: d670666f-2915-4a23-b825-b534a015e37f
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: TF_ANCHOR_END, TF_ANCHOR_START, TfAnchor, TfAnchor enumeration [Text Services Framework], __MIDL___MIDL_itf_msctf_0000_0000_0001, _tsf_tfanchor_ref, msctf/TF_ANCHOR_END, msctf/TF_ANCHOR_START, msctf/TfAnchor, tsf.tfanchor
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: MsClus.tlb
+tech.root: 
+req.typenames: TfAnchor
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msctf.h
+api_name:
+-	TfAnchor
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_msctf_0000_0000_0001 enumeration

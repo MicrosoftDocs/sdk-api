@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:sspi._SecPkgContext_KeyInfoW
+title: "_SecPkgContext_KeyInfoW"
+author: windows-sdk-content
+description: The SecPkgContext_KeyInfo structure contains information about the session keys used in a security context.
+old-location: security\secpkgcontext_keyinfo.htm
+old-project: SecAuthN
+ms.assetid: ec146329-6789-460c-ae62-629a1765a4c1
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSecPkgContext_KeyInfoW, PSecPkgContext_KeyInfo, PSecPkgContext_KeyInfo structure pointer [Security], SecPkgContext_KeyInfo, SecPkgContext_KeyInfo structure [Security], SecPkgContext_KeyInfoA, SecPkgContext_KeyInfoW, _SecPkgContext_KeyInfoW, _ssp_secpkgcontext_keyinfo, security.secpkgcontext_keyinfo, sspi/PSecPkgContext_KeyInfo, sspi/SecPkgContext_KeyInfo, sspi/SecPkgContext_KeyInfoA, sspi/SecPkgContext_KeyInfoW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: sspi.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SecPkgContext_KeyInfoW (Unicode) and SecPkgContext_KeyInfoA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SecPkgContext_KeyInfoW, *PSecPkgContext_KeyInfoW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Sspi.h
+api_name:
+-	SecPkgContext_KeyInfo
+-	SecPkgContext_KeyInfoA
+-	SecPkgContext_KeyInfoW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_KeyInfoW structure

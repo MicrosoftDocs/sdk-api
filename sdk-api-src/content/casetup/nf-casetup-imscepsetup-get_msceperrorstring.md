@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:casetup.IMSCEPSetup.get_MSCEPErrorString
+title: IMSCEPSetup::get_MSCEPErrorString
+author: windows-sdk-content
+description: Contains the string data for additional error information related to a failed Network Device Enrollment Service (NDES) specification. Any method call on the parent object resets this property.
+old-location: security\imscepsetup_msceperrorstring.htm
+old-project: SecCrypto
+ms.assetid: 5da4d9ac-ba59-499e-a062-381349b411a8
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IMSCEPSetup interface [Security],MSCEPErrorString property, IMSCEPSetup.MSCEPErrorString, IMSCEPSetup.get_MSCEPErrorString, IMSCEPSetup::MSCEPErrorString, IMSCEPSetup::get_MSCEPErrorString, MSCEPErrorString property [Security], MSCEPErrorString property [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::MSCEPErrorString, casetup/IMSCEPSetup::get_MSCEPErrorString, get_MSCEPErrorString, security.imscepsetup_msceperrorstring
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: casetup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Casetup.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CEPSetupProperty
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certocm.dll
+api_name:
+-	IMSCEPSetup.MSCEPErrorString
+-	IMSCEPSetup.get_MSCEPErrorString
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 ---
 
 # IMSCEPSetup::get_MSCEPErrorString

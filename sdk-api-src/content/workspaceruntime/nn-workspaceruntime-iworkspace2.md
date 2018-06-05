@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:workspaceruntime.IWorkspace2
+title: IWorkspace2
+author: windows-sdk-content
+description: Exposes additional methods that provide information about a connection in RemoteApp and Desktop Connection.
+old-location: termserv\iworkspace2.htm
+old-project: TermServ
+ms.assetid: 8155cd78-4c6b-47a9-a2c7-f9fffc95f700
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IWorkspace2, IWorkspace2 interface [Remote Desktop Services], IWorkspace2 interface [Remote Desktop Services],described, termserv.iworkspace2, workspaceruntime/IWorkspace2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: workspaceruntime.h
+req.include-header: Workspaceruntime.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WorkspaceRuntime.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: WkspRt.exe
+tech.root: 
+req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WkspRt.exe
+api_name:
+-	IWorkspace2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWorkspace2 interface

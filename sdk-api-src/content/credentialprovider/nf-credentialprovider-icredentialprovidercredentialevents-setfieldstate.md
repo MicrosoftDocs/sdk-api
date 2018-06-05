@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldState
+title: ICredentialProviderCredentialEvents::SetFieldState
+author: windows-sdk-content
+description: Communicates to the Logon UI or Credential UI that a field state has changed and that the UI should be updated.
+old-location: shell\ICredentialProviderCredentialEvents_SetFieldState.htm
+old-project: shell
+ms.assetid: d3498bca-cc31-4a80-9f31-e1e6d020d777
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldState method, ICredentialProviderCredentialEvents.SetFieldState, ICredentialProviderCredentialEvents::SetFieldState, SetFieldState, SetFieldState method [Windows Shell], SetFieldState method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldState, credentialprovider/ICredentialProviderCredentialEvents::SetFieldState, shell.ICredentialProviderCredentialEvents_SetFieldState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: credentialprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Credentialprovider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Credentialprovider.h
+api_name:
+-	ICredentialProviderCredentialEvents.SetFieldState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICredentialProviderCredentialEvents::SetFieldState

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imapi2fs.DFileSystemImageImportEvents.UpdateImport
+title: DFileSystemImageImportEvents::UpdateImport
+author: windows-sdk-content
+description: Receives import notification for every file and directory item imported from an optical medium.
+old-location: imapi\dfilesystemimageimportevents_updateimport.htm
+old-project: imapi
+ms.assetid: 83617039-686d-4c03-9f43-02ecde2ca53e
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: DFileSystemImageImportEvents interface [IMAPI],UpdateImport method, DFileSystemImageImportEvents.UpdateImport, DFileSystemImageImportEvents::UpdateImport, UpdateImport, UpdateImport method [IMAPI], UpdateImport method [IMAPI],DFileSystemImageImportEvents interface, imapi.dfilesystemimageimportevents_updateimport, imapi2fs/DFileSystemImageImportEvents::UpdateImport
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imapi2fs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2fs.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PlatformId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2fs.h
+api_name:
+-	DFileSystemImageImportEvents.UpdateImport
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # DFileSystemImageImportEvents::UpdateImport

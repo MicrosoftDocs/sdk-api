@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:segment.IMSVidVideoRenderer.get_AvailableSourceRect
+title: IMSVidVideoRenderer::get_AvailableSourceRect
+author: windows-sdk-content
+description: The get_AvailableSourceRect method retrieves the size of the native video.
+old-location: mstv\imsvidvideorenderer_get_availablesourcerect.htm
+old-project: mstv
+ms.assetid: 33747e97-3e1c-4220-89c9-cc8310b77c4e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_AvailableSourceRect method, IMSVidVideoRenderer.get_AvailableSourceRect, IMSVidVideoRenderer::get_AvailableSourceRect, IMSVidVideoRendererget_AvailableSourceRect, get_AvailableSourceRect, get_AvailableSourceRect method [Microsoft TV Technologies], get_AvailableSourceRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_availablesourcerect, segment/IMSVidVideoRenderer::get_AvailableSourceRect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidVideoRenderer.get_AvailableSourceRect
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidVideoRenderer::get_AvailableSourceRect

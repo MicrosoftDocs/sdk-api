@@ -1,31 +1,56 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlobj_core.SHGetFolderPathW
+title: SHGetFolderPathW function
+author: windows-sdk-content
+description: Deprecated.
+old-location: shell\SHGetFolderPath.htm
+old-project: shell
+ms.assetid: a240abc0-e0a6-4f95-8e74-7dc410970212
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPath, SHGetFolderPath function [Windows Shell], SHGetFolderPathA, SHGetFolderPathW, _win32_SHGetFolderPath, _win32_SHGetFolderPath_cpp, shell.SHGetFolderPath, shlobj_core/SHGetFolderPath, shlobj_core/SHGetFolderPathA, shlobj_core/SHGetFolderPathW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlobj_core.h
+req.include-header: Shlobj.h, Shlobj_core.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SHGetFolderPathW (Unicode) and SHGetFolderPathA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETELISTOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+-	API-MS-Win-shell-shellfolders-l1-1-0.dll
+-	KernelBase.dll
+-	Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+-	Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+-	Windows.Storage.dll
+-	bcrypt.dll
+api_name:
+-	SHGetFolderPath
+-	SHGetFolderPathA
+-	SHGetFolderPathW
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SHGetFolderPathW function

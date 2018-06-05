@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:d2d1helper.operator
+title: operator* function
+author: windows-sdk-content
+description: Multiplies two matrices and returns the result.
+old-location: direct2d\operator__const__amp_d2d1_matrix_3x2_f_const__amp_d2d1_matrix_3x2_f_.htm
+old-project: Direct2D
+ms.assetid: ba810ab8-53fe-4c7d-8e47-043ae57e4323
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: direct2d.operator__const__amp_d2d1_matrix_3x2_f_const__amp_d2d1_matrix_3x2_f_, operator*, operator* function [Direct2D], operator*(const D2D1_MATRIX_3X2_F&,const D2D1_MATRIX_3X2_F&), windowsnumerics/operator*
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d2d1helper.h
+req.include-header: D2d1helper.h, D3dvec.inl
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_VIGNETTE_PROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D2d1.dll
+api_name:
+-	operator*
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # operator* function

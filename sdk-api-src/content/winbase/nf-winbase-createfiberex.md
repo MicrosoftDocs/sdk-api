@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.CreateFiberEx
+title: CreateFiberEx function
+author: windows-sdk-content
+description: Allocates a fiber object, assigns it a stack, and sets up execution to begin at the specified start address, typically the fiber function. This function does not schedule the fiber.
+old-location: base\createfiberex.htm
+old-project: ProcThread
+ms.assetid: eb27cfcf-6086-47df-a5b4-93c51a5e1577
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: CreateFiberEx, CreateFiberEx function, _win32_createfiberex, base.createfiberex, winbase/CreateFiberEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-fibers-l2-1-1.dll
+-	kernel32legacy.dll
+-	KernelBase.dll
+api_name:
+-	CreateFiberEx
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CreateFiberEx function

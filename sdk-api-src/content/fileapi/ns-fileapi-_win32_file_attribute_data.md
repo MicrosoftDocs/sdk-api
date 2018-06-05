@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:fileapi._WIN32_FILE_ATTRIBUTE_DATA
+title: "_WIN32_FILE_ATTRIBUTE_DATA"
+author: windows-sdk-content
+description: Contains attribute information for a file or directory.
+old-location: fs\win32_file_attribute_data_str.htm
+old-project: FileIO
+ms.assetid: e1a7fb5c-2d69-40e3-b9d8-b583a03d828a
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*LPWIN32_FILE_ATTRIBUTE_DATA, LPWIN32_FILE_ATTRIBUTE_DATA, LPWIN32_FILE_ATTRIBUTE_DATA structure pointer [Files], WIN32_FILE_ATTRIBUTE_DATA, WIN32_FILE_ATTRIBUTE_DATA structure [Files], _WIN32_FILE_ATTRIBUTE_DATA, _win32_win32_file_attribute_data_str, base.win32_file_attribute_data_str, fileapi/LPWIN32_FILE_ATTRIBUTE_DATA, fileapi/WIN32_FILE_ATTRIBUTE_DATA, fs.win32_file_attribute_data_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: fileapi.h
+req.include-header: Windows.h, WinBase.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIN32_FILE_ATTRIBUTE_DATA, *LPWIN32_FILE_ATTRIBUTE_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	fileapi.h
+api_name:
+-	WIN32_FILE_ATTRIBUTE_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _WIN32_FILE_ATTRIBUTE_DATA structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wmiutils.tag_WBEM_PATH_STATUS_FLAG
+title: tag_WBEM_PATH_STATUS_FLAG
+author: windows-sdk-content
+description: Contains flags used to describe a path.
+old-location: wmi\tag_wbem_path_status_flag.htm
+old-project: WmiSdk
+ms.assetid: 5dcc4432-e441-4e5a-b3f6-d90762b0d8f5
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: WBEMPATH_INFO_ANON_LOCAL_MACHINE, WBEMPATH_INFO_CIM_COMPLIANT, WBEMPATH_INFO_CONTAINS_SINGLETON, WBEMPATH_INFO_HAS_IMPLIED_KEY, WBEMPATH_INFO_HAS_MACHINE_NAME, WBEMPATH_INFO_HAS_SUBSCOPES, WBEMPATH_INFO_HAS_V2_REF_PATHS, WBEMPATH_INFO_IS_CLASS_REF, WBEMPATH_INFO_IS_COMPOUND, WBEMPATH_INFO_IS_INST_REF, WBEMPATH_INFO_IS_PARENT, WBEMPATH_INFO_IS_SINGLETON, WBEMPATH_INFO_NATIVE_PATH, WBEMPATH_INFO_PATH_HAD_SERVER, WBEMPATH_INFO_SERVER_NAMESPACE_ONLY, WBEMPATH_INFO_V1_COMPLIANT, WBEMPATH_INFO_V2_COMPLIANT, WBEMPATH_INFO_WMI_PATH, tag_WBEM_PATH_STATUS_FLAG, tag_WBEM_PATH_STATUS_FLAG enumeration [Windows Management Instrumentation], wmi.tag_wbem_path_status_flag, wmiutils/WBEMPATH_INFO_ANON_LOCAL_MACHINE, wmiutils/WBEMPATH_INFO_CIM_COMPLIANT, wmiutils/WBEMPATH_INFO_CONTAINS_SINGLETON, wmiutils/WBEMPATH_INFO_HAS_IMPLIED_KEY, wmiutils/WBEMPATH_INFO_HAS_MACHINE_NAME, wmiutils/WBEMPATH_INFO_HAS_SUBSCOPES, wmiutils/WBEMPATH_INFO_HAS_V2_REF_PATHS, wmiutils/WBEMPATH_INFO_IS_CLASS_REF, wmiutils/WBEMPATH_INFO_IS_COMPOUND, wmiutils/WBEMPATH_INFO_IS_INST_REF, wmiutils/WBEMPATH_INFO_IS_PARENT, wmiutils/WBEMPATH_INFO_IS_SINGLETON, wmiutils/WBEMPATH_INFO_NATIVE_PATH, wmiutils/WBEMPATH_INFO_PATH_HAD_SERVER, wmiutils/WBEMPATH_INFO_SERVER_NAMESPACE_ONLY, wmiutils/WBEMPATH_INFO_V1_COMPLIANT, wmiutils/WBEMPATH_INFO_V2_COMPLIANT, wmiutils/WBEMPATH_INFO_WMI_PATH, wmiutils/tag_WBEM_PATH_STATUS_FLAG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wmiutils.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: tag_WBEM_PATH_STATUS_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WMIUtils.h
+api_name:
+-	tag_WBEM_PATH_STATUS_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tag_WBEM_PATH_STATUS_FLAG enumeration

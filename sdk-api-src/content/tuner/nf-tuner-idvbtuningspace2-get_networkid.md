@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tuner.IDVBTuningSpace2.get_NetworkID
+title: IDVBTuningSpace2::get_NetworkID
+author: windows-sdk-content
+description: The get_NetworkID method retrieves the Network ID of the DVB system.
+old-location: mstv\idvbtuningspace2_get_networkid.htm
+old-project: mstv
+ms.assetid: 743977d3-151d-4d04-8d2d-7018d5613cc1
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IDVBTuningSpace2 interface [Microsoft TV Technologies],get_NetworkID method, IDVBTuningSpace2.get_NetworkID, IDVBTuningSpace2::get_NetworkID, IDVBTuningSpace2get_NetworkID, get_NetworkID, get_NetworkID method [Microsoft TV Technologies], get_NetworkID method [Microsoft TV Technologies],IDVBTuningSpace2 interface, mstv.idvbtuningspace2_get_networkid, tuner/IDVBTuningSpace2::get_NetworkID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tuner.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IDVBTuningSpace2.get_NetworkID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IDVBTuningSpace2::get_NetworkID

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcore.IRawElementProviderAdviseEvents.AdviseEventRemoved
+title: IRawElementProviderAdviseEvents::AdviseEventRemoved
+author: windows-sdk-content
+description: Notifies the Microsoft UI Automation provider when a UI Automation client stops listening for a specific event, including a property-changed event.
+old-location: winauto\uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved.htm
+old-project: WinAuto
+ms.assetid: 42c9aeeb-dc08-4c13-ae86-2c0fb93e5c17
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: AdviseEventRemoved, AdviseEventRemoved method [Windows Accessibility], AdviseEventRemoved method [Windows Accessibility],IRawElementProviderAdviseEvents interface, IRawElementProviderAdviseEvents interface [Windows Accessibility],AdviseEventRemoved method, IRawElementProviderAdviseEvents.AdviseEventRemoved, IRawElementProviderAdviseEvents::AdviseEventRemoved, uiauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved, uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved, uiautomationcore/IRawElementProviderAdviseEvents::AdviseEventRemoved, winauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventRemoved
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationCore.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	IRawElementProviderAdviseEvents.AdviseEventRemoved
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IRawElementProviderAdviseEvents::AdviseEventRemoved

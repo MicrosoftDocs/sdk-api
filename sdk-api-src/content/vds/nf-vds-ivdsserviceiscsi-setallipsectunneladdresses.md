@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vds.IVdsServiceIscsi.SetAllIpsecTunnelAddresses
+title: IVdsServiceIscsi::SetAllIpsecTunnelAddresses
+author: windows-sdk-content
+description: Not supported.This method is reserved for future use.
+old-location: base\ivdsserviceiscsi_setallipsectunneladdresses.htm
+old-project: VDS
+ms.assetid: 05cf0347-a9f2-4f6f-b646-d7f71a6a6e70
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IVdsServiceIscsi interface [VDS],SetAllIpsecTunnelAddresses method, IVdsServiceIscsi.SetAllIpsecTunnelAddresses, IVdsServiceIscsi::SetAllIpsecTunnelAddresses, SetAllIpsecTunnelAddresses, SetAllIpsecTunnelAddresses method [VDS], SetAllIpsecTunnelAddresses method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setallipsectunneladdresses, vds/IVdsServiceIscsi::SetAllIpsecTunnelAddresses
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VOLUME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsServiceIscsi.SetAllIpsecTunnelAddresses
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsServiceIscsi::SetAllIpsecTunnelAddresses

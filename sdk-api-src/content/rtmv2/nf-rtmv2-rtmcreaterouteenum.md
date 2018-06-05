@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rtmv2.RtmCreateRouteEnum
+title: RtmCreateRouteEnum function
+author: windows-sdk-content
+description: The RtmCreateRouteEnum function creates an enumeration of the routes for a particular destination or range of destinations in the routing table. A client can enumerate routes for one or more views, or for all views.
+old-location: rras\rtmcreaterouteenum.htm
+old-project: RRAS
+ms.assetid: 9d9c35e8-a9d4-4b30-a92c-f3188e11e317
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RTM_ENUM_ALL_ROUTES, RTM_ENUM_NEXT, RTM_ENUM_OWN_ROUTES, RTM_ENUM_RANGE, RTM_ENUM_START, RTM_MATCH_FULL, RTM_MATCH_INTERFACE, RTM_MATCH_NEIGHBOUR, RTM_MATCH_NEXTHOP, RTM_MATCH_NONE, RTM_MATCH_OWNER, RTM_MATCH_PREF, RTM_VIEW_MASK_ANY, RTM_VIEW_MASK_MCAST, RTM_VIEW_MASK_UCAST, RtmCreateRouteEnum, RtmCreateRouteEnum function [RAS], _rtmv2ref_rtmcreaterouteenum, rras.rtmcreaterouteenum, rtmv2/RtmCreateRouteEnum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rtmv2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rtm.dll
+api_name:
+-	RtmCreateRouteEnum
+product: Windows
+targetos: Windows
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtmCreateRouteEnum function

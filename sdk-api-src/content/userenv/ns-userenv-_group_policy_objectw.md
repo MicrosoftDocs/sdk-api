@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:userenv._GROUP_POLICY_OBJECTW
+title: "_GROUP_POLICY_OBJECTW"
+author: windows-sdk-content
+description: The GROUP_POLICY_OBJECT structure provides information about a GPO in a GPO list.
+old-location: policy\group_policy_object_str.htm
+old-project: Policy
+ms.assetid: 7275a3cd-6b19-4eb9-9481-b73bd5af5753
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PGROUP_POLICY_OBJECTW, GPLinkDomain, GPLinkMachine, GPLinkOrganizationalUnit, GPLinkSite, GPLinkUnknown, GPO_FLAG_DISABLE, GPO_FLAG_FORCE, GROUP_POLICY_OBJECT, GROUP_POLICY_OBJECT structure [Group Policy], GROUP_POLICY_OBJECTA, GROUP_POLICY_OBJECTW, PGROUP_POLICY_OBJECT, PGROUP_POLICY_OBJECT structure pointer [Group Policy], _GROUP_POLICY_OBJECTW, _win32_group_policy_object_str, policy.group_policy_object_str, userenv/GROUP_POLICY_OBJECT, userenv/GROUP_POLICY_OBJECTA, userenv/GROUP_POLICY_OBJECTW, userenv/PGROUP_POLICY_OBJECT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: userenv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GROUP_POLICY_OBJECTW (Unicode) and GROUP_POLICY_OBJECTA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GROUP_POLICY_OBJECTW, *PGROUP_POLICY_OBJECTW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Userenv.h
+api_name:
+-	GROUP_POLICY_OBJECT
+-	GROUP_POLICY_OBJECTA
+-	GROUP_POLICY_OBJECTW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _GROUP_POLICY_OBJECTW structure

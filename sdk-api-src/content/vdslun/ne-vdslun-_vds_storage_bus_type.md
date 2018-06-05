@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vdslun._VDS_STORAGE_BUS_TYPE
+title: "_VDS_STORAGE_BUS_TYPE"
+author: windows-sdk-content
+description: Defines the set of valid bus types of a storage device.
+old-location: base\vds_storage_bus_type.htm
+old-project: VDS
+ms.assetid: 4fa1bd7a-c675-4588-8753-2614be444c9c
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDSBusType1394, VDSBusTypeAta, VDSBusTypeAtapi, VDSBusTypeFibre, VDSBusTypeFileBackedVirtual, VDSBusTypeMax, VDSBusTypeMaxReserved, VDSBusTypeMmc, VDSBusTypeRAID, VDSBusTypeSas, VDSBusTypeSata, VDSBusTypeScsi, VDSBusTypeSd, VDSBusTypeSsa, VDSBusTypeUnknown, VDSBusTypeUsb, VDSBusTypeiScsi, VDS_STORAGE_BUS_TYPE, VDS_STORAGE_BUS_TYPE enumeration [VDS], _VDS_STORAGE_BUS_TYPE, base.vds_storage_bus_type, vdslun/VDSBusType1394, vdslun/VDSBusTypeAta, vdslun/VDSBusTypeAtapi, vdslun/VDSBusTypeFibre, vdslun/VDSBusTypeFileBackedVirtual, vdslun/VDSBusTypeMax, vdslun/VDSBusTypeMaxReserved, vdslun/VDSBusTypeMmc, vdslun/VDSBusTypeRAID, vdslun/VDSBusTypeSas, vdslun/VDSBusTypeSata, vdslun/VDSBusTypeScsi, vdslun/VDSBusTypeSd, vdslun/VDSBusTypeSsa, vdslun/VDSBusTypeUnknown, vdslun/VDSBusTypeUsb, vdslun/VDSBusTypeiScsi, vdslun/VDS_STORAGE_BUS_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vdslun.h
+req.include-header: Vds.h, VdsHwPrv.h for hardware providers
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_STORAGE_BUS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VdsLun.h
+api_name:
+-	VDS_STORAGE_BUS_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_STORAGE_BUS_TYPE enumeration

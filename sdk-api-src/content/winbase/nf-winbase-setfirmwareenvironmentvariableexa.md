@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.SetFirmwareEnvironmentVariableExA
+title: SetFirmwareEnvironmentVariableExA function
+author: windows-sdk-content
+description: Sets the value of the specified firmware environment variable as the attributes that indicate how this variable is stored and maintained.
+old-location: base\setfirmwareenvironmentvariableex.htm
+old-project: SysInfo
+ms.assetid: D3C2F03F-66F6-40A4-830E-058BBA925ACD
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: SetFirmwareEnvironmentVariableEx, SetFirmwareEnvironmentVariableEx function, SetFirmwareEnvironmentVariableExA, SetFirmwareEnvironmentVariableExW, VARIABLE_ATTRIBUTE_APPEND_WRITE, VARIABLE_ATTRIBUTE_AUTHENTICATED_WRITE_ACCESS, VARIABLE_ATTRIBUTE_BOOTSERVICE_ACCESS, VARIABLE_ATTRIBUTE_HARDWARE_ERROR_RECORD, VARIABLE_ATTRIBUTE_NON_VOLATILE, VARIABLE_ATTRIBUTE_RUNTIME_ACCESS, VARIABLE_ATTRIBUTE_TIME_BASED_AUTHENTICATED_WRITE_ACCESS, base.setfirmwareenvironmentvariableex, winbase/SetFirmwareEnvironmentVariableEx, winbase/SetFirmwareEnvironmentVariableExA, winbase/SetFirmwareEnvironmentVariableExW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SetFirmwareEnvironmentVariableExW (Unicode) and SetFirmwareEnvironmentVariableExA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-firmware-l1-1-0.dll
+-	kernel32legacy.dll
+api_name:
+-	SetFirmwareEnvironmentVariableEx
+-	SetFirmwareEnvironmentVariableExA
+-	SetFirmwareEnvironmentVariableExW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # SetFirmwareEnvironmentVariableExA function

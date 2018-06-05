@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:mfobjects.IMFPluginControl2
+title: IMFPluginControl2
+author: windows-sdk-content
+description: Controls how media sources and transforms are enumerated in Microsoft Media Foundation.
+old-location: mf\imfplugincontrol2.htm
+old-project: medfound
+ms.assetid: 15BD57FC-7CEF-45DC-AF94-3E54A3A9477A
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFPluginControl2, IMFPluginControl2 interface [Media Foundation], IMFPluginControl2 interface [Media Foundation],described, mf.imfplugincontrol2, mfobjects/IMFPluginControl2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfobjects.h
+api_name:
+-	IMFPluginControl2
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: Mfplat.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFPluginControl2 interface

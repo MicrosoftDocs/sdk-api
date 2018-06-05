@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfplay.MFP_GET_MEDIAITEM_SET_EVENT
+title: MFP_GET_MEDIAITEM_SET_EVENT macro
+author: windows-sdk-content
+description: Casts an MFP_EVENT_HEADER pointer to an MFP_MEDIAITEM_SET_EVENT pointer.
+old-location: mf\mfp_get_mediaitem_set_event.htm
+old-project: medfound
+ms.assetid: 3a03a657-0c93-496c-b3dc-6afeef7ee03f
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFP_GET_MEDIAITEM_SET_EVENT, MFP_GET_MEDIAITEM_SET_EVENT macro [Media Foundation], mf.mfp_get_mediaitem_set_event, mfplay/MFP_GET_MEDIAITEM_SET_EVENT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: mfplay.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfplay.h
+api_name:
+-	MFP_GET_MEDIAITEM_SET_EVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MFP_GET_MEDIAITEM_SET_EVENT macro

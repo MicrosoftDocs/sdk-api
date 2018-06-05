@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:imepad.tagIMECOMPOSITIONSTRINGINFO
+title: tagIMECOMPOSITIONSTRINGINFO
+author: windows-sdk-content
+description: Contains information of IME's composition string in an app.
+old-location: intl\imecompositionstringinfo.htm
+old-project: Intl
+ms.assetid: 27124683-C4F9-4FF9-9004-9FF5B2B8B421
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPIMECOMPOSITIONSTRINGINFO, IMECOMPOSITIONSTRINGINFO, IMECOMPOSITIONSTRINGINFO structure [Internationalization for Windows Applications], PIMECOMPOSITIONSTRINGINFO, PIMECOMPOSITIONSTRINGINFO structure pointer [Internationalization for Windows Applications], imepad/IMECOMPOSITIONSTRINGINFO, imepad/PIMECOMPOSITIONSTRINGINFO, intl.imecompositionstringinfo, tagIMECOMPOSITIONSTRINGINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: imepad.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Imepad.h
+api_name:
+-	IMECOMPOSITIONSTRINGINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tagIMECOMPOSITIONSTRINGINFO structure

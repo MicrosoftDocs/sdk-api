@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:inked.IInkEdit.get_SelInks
+title: IInkEdit::get_SelInks
+author: windows-sdk-content
+description: Gets or sets the array of embedded InkDisp objects (if displayed as ink) in the current selection.
+old-location: tablet\inkedit_selinks.htm
+old-project: tablet
+ms.assetid: dbdd590d-a8d8-44e9-aecc-fbbe0d24ea20
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IInkEdit interface [Tablet PC],SelInks property, IInkEdit.SelInks, IInkEdit.get_SelInks, IInkEdit::SelInks, IInkEdit::get_SelInks, IInkEdit::put_SelInks, InkEdit.get_SelInks, InkEdit.put_SelInks, SelInks property [Tablet PC], SelInks property [Tablet PC],IInkEdit interface, dbdd590d-a8d8-44e9-aecc-fbbe0d24ea20, get_SelInks, inked/IInkEdit::SelInks, inked/IInkEdit::get_SelInks, inked/IInkEdit::put_SelInks, put_SelInks, tablet.inkedit_selinks
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: inked.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SelAlignmentConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkEd.dll
+-	InkEd.dll.dll
+api_name:
+-	IInkEdit.SelInks
+-	IInkEdit.get_SelInks
+-	IInkEdit.put_SelInks
+-	InkEdit.get_SelInks
+-	InkEdit.put_SelInks
+product: Windows
+targetos: Windows
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IInkEdit::get_SelInks

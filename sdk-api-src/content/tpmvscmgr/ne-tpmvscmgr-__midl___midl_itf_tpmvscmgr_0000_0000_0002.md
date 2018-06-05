@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tpmvscmgr.__MIDL___MIDL_itf_tpmvscmgr_0000_0000_0002
+title: "__MIDL___MIDL_itf_tpmvscmgr_0000_0000_0002"
+author: windows-sdk-content
+description: Provides predefined error codes to represent the contexts of errors from the TPM virtual smart card manager.
+old-location: security\tpmvscmgr_error.htm
+old-project: SecAuthN
+ms.assetid: 0B8A5703-DA7C-4FD6-A39E-BA2CE172ADF9
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: TPMVSCMGR_ERROR, TPMVSCMGR_ERROR enumeration [Security], TPMVSCMGR_ERROR_CARD_CREATE, TPMVSCMGR_ERROR_CARD_DESTROY, TPMVSCMGR_ERROR_GENERATE_FILESYSTEM, TPMVSCMGR_ERROR_GENERATE_LOCATE_READER, TPMVSCMGR_ERROR_IMPERSONATION, TPMVSCMGR_ERROR_PIN_COMPLEXITY, TPMVSCMGR_ERROR_READER_COUNT_LIMIT, TPMVSCMGR_ERROR_TERMINAL_SERVICES_SESSION, TPMVSCMGR_ERROR_VGIDSSIMULATOR_CREATE, TPMVSCMGR_ERROR_VGIDSSIMULATOR_DESTROY, TPMVSCMGR_ERROR_VGIDSSIMULATOR_INITIALIZE, TPMVSCMGR_ERROR_VGIDSSIMULATOR_READ_PROPERTY, TPMVSCMGR_ERROR_VGIDSSIMULATOR_WRITE_PROPERTY, TPMVSCMGR_ERROR_VREADER_CREATE, TPMVSCMGR_ERROR_VREADER_DESTROY, TPMVSCMGR_ERROR_VREADER_INITIALIZE, TPMVSCMGR_ERROR_VTPMSMARTCARD_CREATE, TPMVSCMGR_ERROR_VTPMSMARTCARD_DESTROY, TPMVSCMGR_ERROR_VTPMSMARTCARD_INITIALIZE, __MIDL___MIDL_itf_tpmvscmgr_0000_0000_0002, security.tpmvscmgr_error, tpmvscmgr/TPMVSCMGR_ERROR, tpmvscmgr/TPMVSCMGR_ERROR_CARD_CREATE, tpmvscmgr/TPMVSCMGR_ERROR_CARD_DESTROY, tpmvscmgr/TPMVSCMGR_ERROR_GENERATE_FILESYSTEM, tpmvscmgr/TPMVSCMGR_ERROR_GENERATE_LOCATE_READER, tpmvscmgr/TPMVSCMGR_ERROR_IMPERSONATION, tpmvscmgr/TPMVSCMGR_ERROR_PIN_COMPLEXITY, tpmvscmgr/TPMVSCMGR_ERROR_READER_COUNT_LIMIT, tpmvscmgr/TPMVSCMGR_ERROR_TERMINAL_SERVICES_SESSION, tpmvscmgr/TPMVSCMGR_ERROR_VGIDSSIMULATOR_CREATE, tpmvscmgr/TPMVSCMGR_ERROR_VGIDSSIMULATOR_DESTROY, tpmvscmgr/TPMVSCMGR_ERROR_VGIDSSIMULATOR_INITIALIZE, tpmvscmgr/TPMVSCMGR_ERROR_VGIDSSIMULATOR_READ_PROPERTY, tpmvscmgr/TPMVSCMGR_ERROR_VGIDSSIMULATOR_WRITE_PROPERTY, tpmvscmgr/TPMVSCMGR_ERROR_VREADER_CREATE, tpmvscmgr/TPMVSCMGR_ERROR_VREADER_DESTROY, tpmvscmgr/TPMVSCMGR_ERROR_VREADER_INITIALIZE, tpmvscmgr/TPMVSCMGR_ERROR_VTPMSMARTCARD_CREATE, tpmvscmgr/TPMVSCMGR_ERROR_VTPMSMARTCARD_DESTROY, tpmvscmgr/TPMVSCMGR_ERROR_VTPMSMARTCARD_INITIALIZE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tpmvscmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tpmvscmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Vscmgr.lib
+tech.root: 
+req.typenames: TPMVSCMGR_ERROR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Vscmgr.lib
+api_name:
+-	TPMVSCMGR_ERROR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # __MIDL___MIDL_itf_tpmvscmgr_0000_0000_0002 enumeration

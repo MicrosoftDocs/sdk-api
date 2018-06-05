@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._TRUSTED_DOMAIN_FULL_INFORMATION
+title: "_TRUSTED_DOMAIN_FULL_INFORMATION"
+author: windows-sdk-content
+description: Used to retrieve complete information about a trusted domain.
+old-location: security\trusted_domain_full_information.htm
+old-project: SecMgmt
+ms.assetid: b7abfe1e-d9e6-4583-a738-c16190ffd44d
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PTRUSTED_DOMAIN_FULL_INFORMATION, PTRUSTED_DOMAIN_FULL_INFORMATION, PTRUSTED_DOMAIN_FULL_INFORMATION structure pointer [Security], TRUSTED_DOMAIN_FULL_INFORMATION, TRUSTED_DOMAIN_FULL_INFORMATION structure [Security], _TRUSTED_DOMAIN_FULL_INFORMATION, _lsa_trusted_domain_full_information, ntsecapi/PTRUSTED_DOMAIN_FULL_INFORMATION, ntsecapi/TRUSTED_DOMAIN_FULL_INFORMATION, security.trusted_domain_full_information"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTED_DOMAIN_FULL_INFORMATION, *PTRUSTED_DOMAIN_FULL_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	TRUSTED_DOMAIN_FULL_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _TRUSTED_DOMAIN_FULL_INFORMATION structure

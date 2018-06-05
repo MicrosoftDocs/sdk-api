@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oleacc.IAccessible.put_accName
+title: IAccessible::put_accName
+author: windows-sdk-content
+description: The IAccessible::put_accName method is no longer supported. Client applications should use a control-specific workaround, such as the SetWindowText function. Servers should return E_NOTIMPL.
+old-location: winauto\iaccessible_put_accname.htm
+old-project: WinAuto
+ms.assetid: 562df006-cbde-407b-b539-f86cb3403a97
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: IAccessible interface [Windows Accessibility],put_accName method, IAccessible.put_accName, IAccessible::put_accName, oleacc/IAccessible::put_accName, put_accName, put_accName method [Windows Accessibility], put_accName method [Windows Accessibility],IAccessible interface, winauto.iaccessible_put_accname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oleacc.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Oleacc.dll
+-	srchctls.dll
+api_name:
+-	IAccessible.put_accName
+product: Windows
+targetos: Windows
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAccessible::put_accName

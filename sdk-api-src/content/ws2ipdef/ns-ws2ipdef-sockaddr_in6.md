@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:ws2ipdef.sockaddr_in6
+title: sockaddr_in6
+author: windows-sdk-content
+description: The SOCKADDR_IN6 structure specifies a transport address and port for the AF_INET6 address family.
+old-location: netvista\sockaddr_in6.htm
+old-project: netvista
+ms.assetid: ef2955d2-5dc1-420b-a9e0-32a584059d5a
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*LPSOCKADDR_IN6, *LPSOCKADDR_IN6_LH, *PSOCKADDR_IN6, *PSOCKADDR_IN6_LH, PSOCKADDR_IN6, PSOCKADDR_IN6 structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_IN6, SOCKADDR_IN6 structure [Network Drivers Starting with Windows Vista], SOCKADDR_IN6_LH, netvista.sockaddr_in6, sockaddr_in6, ws2ipdef/PSOCKADDR_IN6, ws2ipdef/SOCKADDR_IN6, wskref_7e70684f-ef0d-45c5-8075-3e9b6fa87337.xml"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ws2ipdef.h
+req.include-header: Ws2ipdef.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wrdsgraphicschannels.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOCKADDR_IN6_LH, *PSOCKADDR_IN6_LH, *LPSOCKADDR_IN6_LH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ws2ipdef.h
+api_name:
+-	SOCKADDR_IN6
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # sockaddr_in6 structure

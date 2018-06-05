@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dcommon.D2D_POINT_2U
+title: D2D_POINT_2U
+author: windows-sdk-content
+description: Represents an x-coordinate and y-coordinate pair, expressed as an unsigned 32-bit integer value, in two-dimensional space.
+old-location: direct2d\D2D_POINT_2U.htm
+old-project: Direct2D
+ms.assetid: 154e3f7b-7e3e-40e5-a1e1-762ec8950426
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_POINT_2U, D2D_POINT_2U, D2D_POINT_2U structure [Direct2D], dcommon/D2D_POINT_2U, direct2d.D2D_POINT_2U
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dcommon.h
+req.include-header: D2d1.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D_POINT_2U
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dcommon.h
+api_name:
+-	D2D_POINT_2U
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D2D_POINT_2U structure

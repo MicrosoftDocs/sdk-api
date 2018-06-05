@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcore.ITableItemProvider.GetColumnHeaderItems
+title: ITableItemProvider::GetColumnHeaderItems
+author: windows-sdk-content
+description: Retrieves a collection of Microsoft UI Automation provider representing all the column headers associated with a table item or cell.
+old-location: winauto\uiauto_ITableItemProvider_GetColumnHeaderItems.htm
+old-project: WinAuto
+ms.assetid: b08e20e8-142c-4f83-8422-c0e6ae2b7ebf
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: GetColumnHeaderItems, GetColumnHeaderItems method [Windows Accessibility], GetColumnHeaderItems method [Windows Accessibility],ITableItemProvider interface, ITableItemProvider interface [Windows Accessibility],GetColumnHeaderItems method, ITableItemProvider.GetColumnHeaderItems, ITableItemProvider::GetColumnHeaderItems, uiauto.uiauto_ITableItemProvider_GetColumnHeaderItems, uiauto_ITableItemProvider_GetColumnHeaderItems, uiautomationcore/ITableItemProvider::GetColumnHeaderItems, winauto.uiauto_ITableItemProvider_GetColumnHeaderItems
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationCore.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	ITableItemProvider.GetColumnHeaderItems
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITableItemProvider::GetColumnHeaderItems

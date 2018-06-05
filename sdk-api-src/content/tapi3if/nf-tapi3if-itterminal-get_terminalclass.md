@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITTerminal.get_TerminalClass
+title: ITTerminal::get_TerminalClass
+author: windows-sdk-content
+description: The get_TerminalClass method gets the Terminal Class of the terminal.
+old-location: tapi3\itterminal_get_terminalclass.htm
+old-project: Tapi
+ms.assetid: a31543da-4cb8-4719-8e33-fcb4d9d630b1
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITTerminal interface [TAPI 2.2],get_TerminalClass method, ITTerminal.get_TerminalClass, ITTerminal::get_TerminalClass, _tapi3_itterminal_get_terminalclass, get_TerminalClass, get_TerminalClass method [TAPI 2.2], get_TerminalClass method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_terminalclass, tapi3if/ITTerminal::get_TerminalClass
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tapi3if.h
+api_name:
+-	ITTerminal.get_TerminalClass
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITTerminal::get_TerminalClass

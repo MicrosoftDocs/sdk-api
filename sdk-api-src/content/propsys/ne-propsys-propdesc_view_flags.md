@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:propsys.PROPDESC_VIEW_FLAGS
+title: PROPDESC_VIEW_FLAGS
+author: windows-sdk-content
+description: These flags describe properties in property description list strings.
+old-location: properties\PROPDESC_VIEW_FLAGS.htm
+old-project: properties
+ms.assetid: 8b38d085-180b-47c1-b703-8c4feaaa9ccb
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PDVF_BEGINNEWGROUP, PDVF_CANWRAP, PDVF_CENTERALIGN, PDVF_DEFAULT, PDVF_FILLAREA, PDVF_HIDDEN, PDVF_HIDELABEL, PDVF_MASK_ALL, PDVF_RIGHTALIGN, PDVF_SHOWBYDEFAULT, PDVF_SHOWINPRIMARYLIST, PDVF_SHOWINSECONDARYLIST, PDVF_SHOWONLYIFPRESENT, PDVF_SORTDESCENDING, PROPDESC_VIEW_FLAGS, PROPDESC_VIEW_FLAGS enumeration [Windows Properties], properties.PROPDESC_VIEW_FLAGS, propsys/PDVF_BEGINNEWGROUP, propsys/PDVF_CANWRAP, propsys/PDVF_CENTERALIGN, propsys/PDVF_DEFAULT, propsys/PDVF_FILLAREA, propsys/PDVF_HIDDEN, propsys/PDVF_HIDELABEL, propsys/PDVF_MASK_ALL, propsys/PDVF_RIGHTALIGN, propsys/PDVF_SHOWBYDEFAULT, propsys/PDVF_SHOWINPRIMARYLIST, propsys/PDVF_SHOWINSECONDARYLIST, propsys/PDVF_SHOWONLYIFPRESENT, propsys/PDVF_SORTDESCENDING, propsys/PROPDESC_VIEW_FLAGS, shell.PROPDESC_VIEW_FLAGS, shell_PROPDESC_VIEW_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPDESC_VIEW_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Propsys.h
+api_name:
+-	PROPDESC_VIEW_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PROPDESC_VIEW_FLAGS enumeration

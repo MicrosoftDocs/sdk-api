@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:spellcheckprovider.ISpellCheckProvider.get_Id
+title: ISpellCheckProvider::get_Id
+author: windows-sdk-content
+description: Gets the identifier for this spell checker engine.
+old-location: intl\ispellcheckprovider_id.htm
+old-project: Intl
+ms.assetid: 4FB41CF0-1F08-42F8-86A7-F38FE740F436
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],Id property, ISpellCheckProvider.Id, ISpellCheckProvider.get_Id, ISpellCheckProvider::Id, ISpellCheckProvider::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_Id, intl.ispellcheckprovider_id, spellcheckprovider/ISpellCheckProvider::Id, spellcheckprovider/ISpellCheckProvider::get_Id
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spellcheckprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Spellcheckprovider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WORDLIST_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Spellcheckprovider.h
+api_name:
+-	ISpellCheckProvider.Id
+-	ISpellCheckProvider.get_Id
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpellCheckProvider::get_Id

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:perflib._STRING_COUNTER_HEADER
+title: "_STRING_COUNTER_HEADER"
+author: windows-sdk-content
+description: Indicates where in the PERF_STRING_BUFFER_HEADER block that the string that contains the name or help string for the indicated performance counter starts.
+old-location: perf\perf_string_counter_header.htm
+old-project: PerfCtrs
+ms.assetid: 73DFA1C0-B0E8-4788-8CBA-1CFA7580F633
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PPERF_STRING_COUNTER_HEADER, PERF_STRING_COUNTER_HEADER, PERF_STRING_COUNTER_HEADER structure [Perf], PPERF_STRING_COUNTER_HEADER, PPERF_STRING_COUNTER_HEADER structure pointer [Perf], _STRING_COUNTER_HEADER, perf.perf_string_counter_header, perflib/PERF_STRING_COUNTER_HEADER, perflib/PPERF_STRING_COUNTER_HEADER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: perflib.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PERF_STRING_COUNTER_HEADER, *PPERF_STRING_COUNTER_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Perflib.h
+api_name:
+-	PERF_STRING_COUNTER_HEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _STRING_COUNTER_HEADER structure

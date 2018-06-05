@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:instance.CInstance.SetNull
+title: CInstance::SetNull
+author: windows-sdk-content
+description: The SetNull method sets a property to NULL.
+old-location: wmi\cinstance_setnull.htm
+old-project: WmiSdk
+ms.assetid: 4157275a-cf71-4aca-ae86-0ae0b0e7fda7
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "?SetNull@CInstance@@QAE_NPBG@Z, CInstance interface [Windows Management Instrumentation],SetNull method, CInstance.SetNull, CInstance::SetNull, SetNull, SetNull method [Windows Management Instrumentation], SetNull method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setnull, instance/CInstance::SetNull, wmi.cinstance_setnull"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: instance.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TrustLevel
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CInstance.SetNull
+-	?SetNull@CInstance@@QAE_NPBG@Z
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CInstance::SetNull

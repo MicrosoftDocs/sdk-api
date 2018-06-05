@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d11.D3D11_BLEND
+title: D3D11_BLEND
+author: windows-sdk-content
+description: Blend factors, which modulate values for the pixel shader and render target.
+old-location: direct3d11\d3d11_blend.htm
+old-project: direct3d11
+ms.assetid: 5fee5cfc-519e-41d9-93d4-f4f28e1826b8
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 0861be4c-0489-4fcd-3850-ea56ac9584c3, D3D11_BLEND, D3D11_BLEND enumeration [Direct3D 11], D3D11_BLEND_BLEND_FACTOR, D3D11_BLEND_DEST_ALPHA, D3D11_BLEND_DEST_COLOR, D3D11_BLEND_INV_BLEND_FACTOR, D3D11_BLEND_INV_DEST_ALPHA, D3D11_BLEND_INV_DEST_COLOR, D3D11_BLEND_INV_SRC1_ALPHA, D3D11_BLEND_INV_SRC1_COLOR, D3D11_BLEND_INV_SRC_ALPHA, D3D11_BLEND_INV_SRC_COLOR, D3D11_BLEND_ONE, D3D11_BLEND_SRC1_ALPHA, D3D11_BLEND_SRC1_COLOR, D3D11_BLEND_SRC_ALPHA, D3D11_BLEND_SRC_ALPHA_SAT, D3D11_BLEND_SRC_COLOR, D3D11_BLEND_ZERO, d3d11/D3D11_BLEND, d3d11/D3D11_BLEND_BLEND_FACTOR, d3d11/D3D11_BLEND_DEST_ALPHA, d3d11/D3D11_BLEND_DEST_COLOR, d3d11/D3D11_BLEND_INV_BLEND_FACTOR, d3d11/D3D11_BLEND_INV_DEST_ALPHA, d3d11/D3D11_BLEND_INV_DEST_COLOR, d3d11/D3D11_BLEND_INV_SRC1_ALPHA, d3d11/D3D11_BLEND_INV_SRC1_COLOR, d3d11/D3D11_BLEND_INV_SRC_ALPHA, d3d11/D3D11_BLEND_INV_SRC_COLOR, d3d11/D3D11_BLEND_ONE, d3d11/D3D11_BLEND_SRC1_ALPHA, d3d11/D3D11_BLEND_SRC1_COLOR, d3d11/D3D11_BLEND_SRC_ALPHA, d3d11/D3D11_BLEND_SRC_ALPHA_SAT, d3d11/D3D11_BLEND_SRC_COLOR, d3d11/D3D11_BLEND_ZERO, direct3d11.d3d11_blend
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_BLEND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	D3D11_BLEND
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_BLEND enumeration

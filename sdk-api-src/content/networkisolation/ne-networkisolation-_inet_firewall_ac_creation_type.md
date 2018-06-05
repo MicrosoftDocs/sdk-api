@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:networkisolation._INET_FIREWALL_AC_CREATION_TYPE
+title: "_INET_FIREWALL_AC_CREATION_TYPE"
+author: windows-sdk-content
+description: Specifies the type of app container creation events for which notifications will be delivered.
+old-location: ics\inet_firewall_ac_creation_type.htm
+old-project: ICS
+ms.assetid: 01a1f735-889e-424e-860e-ca86f0abd126
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: INET_FIREWALL_AC_BINARY, INET_FIREWALL_AC_CREATION_TYPE, INET_FIREWALL_AC_CREATION_TYPE enumeration [ICS/ICF], INET_FIREWALL_AC_MAX, INET_FIREWALL_AC_NONE, INET_FIREWALL_AC_PACKAGE_ID_ONLY, _INET_FIREWALL_AC_CREATION_TYPE, ics.inet_firewall_ac_creation_type, networkisolation/INET_FIREWALL_AC_BINARY, networkisolation/INET_FIREWALL_AC_CREATION_TYPE, networkisolation/INET_FIREWALL_AC_MAX, networkisolation/INET_FIREWALL_AC_NONE, networkisolation/INET_FIREWALL_AC_PACKAGE_ID_ONLY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: networkisolation.h
+req.include-header: Netfw.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INET_FIREWALL_AC_CREATION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	networkisolation.h
+api_name:
+-	INET_FIREWALL_AC_CREATION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _INET_FIREWALL_AC_CREATION_TYPE enumeration

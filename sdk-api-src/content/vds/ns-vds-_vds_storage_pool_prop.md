@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vds._VDS_STORAGE_POOL_PROP
+title: "_VDS_STORAGE_POOL_PROP"
+author: windows-sdk-content
+description: Defines the properties of a storage pool object.
+old-location: base\vds_storage_pool_prop.htm
+old-project: VDS
+ms.assetid: 2a82e872-2005-4b05-b67a-161b16c4f3aa
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PVDS_STORAGE_POOL_PROP, PVDS_STORAGE_POOL_PROP, PVDS_STORAGE_POOL_PROP structure pointer, VDS_H_DEGRADED, VDS_H_HEALTHY, VDS_H_UNKNOWN, VDS_STORAGE_POOL_PROP, VDS_STORAGE_POOL_PROP structure, _VDS_STORAGE_POOL_PROP, base.vds_storage_pool_prop, vds/PVDS_STORAGE_POOL_PROP, vds/VDS_STORAGE_POOL_PROP, vdshwprv/PVDS_STORAGE_POOL_PROP, vdshwprv/VDS_STORAGE_POOL_PROP"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_STORAGE_POOL_PROP, *PVDS_STORAGE_POOL_PROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_STORAGE_POOL_PROP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_STORAGE_POOL_PROP structure

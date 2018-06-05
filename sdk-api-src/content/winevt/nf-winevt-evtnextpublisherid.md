@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winevt.EvtNextPublisherId
+title: EvtNextPublisherId function
+author: windows-sdk-content
+description: Gets the identifier of a provider from the enumerator.
+old-location: wes\evtnextpublisherid.htm
+old-project: WES
+ms.assetid: e6cea6de-79f3-416b-9501-8d86f2579aa8
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: EvtNextPublisherId, EvtNextPublisherId function [EventLog], wes.evtnextpublisherid, winevt/EvtNextPublisherId
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winevt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVT_VARIANT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wevtapi.dll
+api_name:
+-	EvtNextPublisherId
+product: Windows
+targetos: Windows
+req.lib: Wevtapi.lib
+req.dll: Wevtapi.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # EvtNextPublisherId function

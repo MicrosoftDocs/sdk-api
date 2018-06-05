@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:directmanipulation.DIRECTMANIPULATION_INPUT_MODE
+title: DIRECTMANIPULATION_INPUT_MODE
+author: windows-sdk-content
+description: Defines the threading behavior for SetInputMode or SetUpdateMode. The exact meaning of each constant depends on the method called.
+old-location: directmanipulation\directmanipulation_input_mode.htm
+old-project: directmanipulation
+ms.assetid: 92839109-91d5-45fc-85d0-dc5a14e4ebf0
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: DIRECTMANIPULATION_INPUT_MODE, DIRECTMANIPULATION_INPUT_MODE enumeration [Direct Manipulation], DIRECTMANIPULATION_INPUT_MODE_AUTOMATIC, DIRECTMANIPULATION_INPUT_MODE_MANUAL, directmanipulation.directmanipulation_input_mode, directmanipulation/DIRECTMANIPULATION_INPUT_MODE, directmanipulation/DIRECTMANIPULATION_INPUT_MODE_AUTOMATIC, directmanipulation/DIRECTMANIPULATION_INPUT_MODE_MANUAL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DirectManipulation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIRECTMANIPULATION_INPUT_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	directmanipulation.h
+api_name:
+-	DIRECTMANIPULATION_INPUT_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DIRECTMANIPULATION_INPUT_MODE enumeration

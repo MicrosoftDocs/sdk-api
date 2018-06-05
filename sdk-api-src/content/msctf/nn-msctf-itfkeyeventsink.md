@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:msctf.ITfKeyEventSink
+title: ITfKeyEventSink
+author: windows-sdk-content
+description: The ITfKeyEventSink interface is implemented by a text service to receive keyboard and focus event notifications. To install this event sink, call ITfKeystrokeMgr::AdviseKeyEventSink.
+old-location: tsf\itfkeyeventsink.htm
+old-project: TSF
+ms.assetid: 5fa1344f-d8c4-40d1-99df-3c493673ad87
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITfKeyEventSink, ITfKeyEventSink interface [Text Services Framework], ITfKeyEventSink interface [Text Services Framework],described, _tsf_itfkeyeventsink_ref, msctf/ITfKeyEventSink, tsf.itfkeyeventsink
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITfKeyEventSink
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfKeyEventSink interface

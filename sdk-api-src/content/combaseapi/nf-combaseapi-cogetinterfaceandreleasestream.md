@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:combaseapi.CoGetInterfaceAndReleaseStream
+title: CoGetInterfaceAndReleaseStream function
+author: windows-sdk-content
+description: Unmarshals a buffer containing an interface pointer and releases the stream when an interface pointer has been marshaled from another thread to the calling thread.
+old-location: com\cogetinterfaceandreleasestream.htm
+old-project: com
+ms.assetid: b529f65f-3208-4594-a772-d1cad3727dc1
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: CoGetInterfaceAndReleaseStream, CoGetInterfaceAndReleaseStream function [COM], _com_CoGetInterfaceAndReleaseStream, com.cogetinterfaceandreleasestream, combaseapi/CoGetInterfaceAndReleaseStream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: combaseapi.h
+req.include-header: Objbase.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REGCLS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ole32.dll
+-	API-MS-Win-Core-Com-l1-1-0.dll
+-	ComBase.dll
+-	API-MS-Win-Core-Com-l1-1-1.dll
+-	API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+-	API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+-	CoGetInterfaceAndReleaseStream
+product: Windows
+targetos: Windows
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 ---
 
 # CoGetInterfaceAndReleaseStream function

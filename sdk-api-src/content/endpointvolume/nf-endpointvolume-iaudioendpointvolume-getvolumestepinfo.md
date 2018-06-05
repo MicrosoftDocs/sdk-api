@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:endpointvolume.IAudioEndpointVolume.GetVolumeStepInfo
+title: IAudioEndpointVolume::GetVolumeStepInfo
+author: windows-sdk-content
+description: The GetVolumeStepInfo method gets information about the current step in the volume range.
+old-location: coreaudio\iaudioendpointvolume_getvolumestepinfo.htm
+old-project: CoreAudio
+ms.assetid: 895f5dd1-73f5-464e-9498-b3832edf4dc7
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetVolumeStepInfo, GetVolumeStepInfo method [Core Audio], GetVolumeStepInfo method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetVolumeStepInfo method, IAudioEndpointVolume.GetVolumeStepInfo, IAudioEndpointVolume::GetVolumeStepInfo, IAudioEndpointVolumeGetVolumeStepInfo, coreaudio.iaudioendpointvolume_getvolumestepinfo, endpointvolume/IAudioEndpointVolume::GetVolumeStepInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: endpointvolume.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ProtType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Endpointvolume.h
+api_name:
+-	IAudioEndpointVolume.GetVolumeStepInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IAudioEndpointVolume::GetVolumeStepInfo

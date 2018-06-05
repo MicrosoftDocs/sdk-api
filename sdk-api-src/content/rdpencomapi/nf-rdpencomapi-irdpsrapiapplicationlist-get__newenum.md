@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rdpencomapi.IRDPSRAPIApplicationList.get__NewEnum
+title: IRDPSRAPIApplicationList::get__NewEnum
+author: windows-sdk-content
+description: An enumerator interface for the application collection.
+old-location: rdp\irdpsrapiapplicationlist__newenum.htm
+old-project: Rdp
+ms.assetid: 946cba06-9cc1-4a44-aeed-0b636d737edd
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: IRDPSRAPIApplicationList interface [RDP],_NewEnum property, IRDPSRAPIApplicationList._NewEnum, IRDPSRAPIApplicationList.get__NewEnum, IRDPSRAPIApplicationList::_NewEnum, IRDPSRAPIApplicationList::get__NewEnum, RDPSRAPIApplicationList object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIApplicationList interface, _NewEnum property [RDP],RDPSRAPIApplicationList object, get__NewEnum, rdp.irdpsrapiapplicationlist__newenum, rdpencomapi/IRDPSRAPIApplicationList::_NewEnum, rdpencomapi/IRDPSRAPIApplicationList::get__NewEnum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RdpEncomAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: RdpEncomAPI.tlb
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RdpEncom.dll
+api_name:
+-	IRDPSRAPIApplicationList._NewEnum
+-	IRDPSRAPIApplicationList.get__NewEnum
+-	RDPSRAPIApplicationList._NewEnum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRDPSRAPIApplicationList::get__NewEnum

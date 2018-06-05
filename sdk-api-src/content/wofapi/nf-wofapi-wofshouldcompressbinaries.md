@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:wofapi.WofShouldCompressBinaries
+title: WofShouldCompressBinaries function
+author: windows-sdk-content
+description: Indicates whether compression should be used on a particular volume, and if so, which compression algorithm should be used.
+old-location: fs\wofshouldcompressbinaries.htm
+old-project: FileIO
+ms.assetid: C7A1D76A-2535-46BB-A55B-D1E15A079FF4
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: WofShouldCompressBinaries, WofShouldCompressBinaries function [Files], fs.wofshouldcompressbinaries, wofapi/WofShouldCompressBinaries
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wofapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	wofutil.dll
+api_name:
+-	WofShouldCompressBinaries
+product: Windows
+targetos: Windows
+req.lib: Wofutil.lib
+req.dll: Wofutil.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WofShouldCompressBinaries function

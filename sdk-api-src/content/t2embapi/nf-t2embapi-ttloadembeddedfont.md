@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:t2embapi.TTLoadEmbeddedFont
+title: TTLoadEmbeddedFont function
+author: windows-sdk-content
+description: Reads an embedded font from the document stream and installs it. Also allows a client to further restrict embedding privileges of the font.
+old-location: gdi\ttloadembeddedfont.htm
+old-project: gdi
+ms.assetid: 85181d86-bc18-4948-bc7d-65c2d71efefb
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, LICENSE_DEFAULT, LICENSE_EDITABLE, LICENSE_INSTALLABLE, LICENSE_NOEMBEDDING, LICENSE_PREVIEWPRINT, TTLOAD_FONT_IN_SYSSTARTUP, TTLOAD_FONT_SUBSETTED, TTLOAD_PRIVATE, TTLoadEmbeddedFont, TTLoadEmbeddedFont function [Windows GDI], _win32_TTLoadEmbeddedFont, gdi.ttloadembeddedfont, t2embapi/TTLoadEmbeddedFont
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: t2embapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SyncProviderConfiguration
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	T2embed.dll
+api_name:
+-	TTLoadEmbeddedFont
+product: Windows
+targetos: Windows
+req.lib: T2embed.lib
+req.dll: T2embed.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TTLoadEmbeddedFont function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzApplication.InitializeClientContextFromToken
+title: IAzApplication::InitializeClientContextFromToken
+author: windows-sdk-content
+description: Gets an IAzClientContext object pointer from the specified client token.
+old-location: security\iazapplication_initializeclientcontextfromtoken.htm
+old-project: SecAuthZ
+ms.assetid: 0002804d-0e97-4648-8aa1-14eba09a90fa
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AzApplication object [Security],InitializeClientContextFromToken method, IAzApplication interface [Security],InitializeClientContextFromToken method, IAzApplication.InitializeClientContextFromToken, IAzApplication::InitializeClientContextFromToken, InitializeClientContextFromToken, InitializeClientContextFromToken method [Security], InitializeClientContextFromToken method [Security],AzApplication object, InitializeClientContextFromToken method [Security],IAzApplication interface, azroles/IAzApplication::InitializeClientContextFromToken, security.iazapplication_initializeclientcontextfromtoken
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzApplication.InitializeClientContextFromToken
+-	AzApplication.InitializeClientContextFromToken
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzApplication::InitializeClientContextFromToken

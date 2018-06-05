@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:udpmib._MIB_UDPTABLE_OWNER_PID
+title: "_MIB_UDPTABLE_OWNER_PID"
+author: windows-sdk-content
+description: Contains the User Datagram Protocol (UDP) listener table for IPv4 on the local computer. The table also includes the process ID (PID) that issued the call to the bind function for each UDP endpoint.
+old-location: mib\mib_udptable_owner_pid.htm
+old-project: MIB
+ms.assetid: 7c51a1e4-1e07-4fb1-8db3-e48229f12aca
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIB_UDPTABLE_OWNER_PID, MIB_UDPTABLE_OWNER_PID, MIB_UDPTABLE_OWNER_PID structure [MIB], PMIB_UDPTABLE_OWNER_PID, PMIB_UDPTABLE_OWNER_PID structure pointer [MIB], _MIB_UDPTABLE_OWNER_PID, iprtrmib/MIB_UDPTABLE_OWNER_PID, iprtrmib/PMIB_UDPTABLE_OWNER_PID, mib.mib_udptable_owner_pid, udpmib/MIB_UDPTABLE_OWNER_PID, udpmib/PMIB_UDPTABLE_OWNER_PID"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: udpmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_UDPTABLE_OWNER_PID, *PMIB_UDPTABLE_OWNER_PID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Udpmib.h
+-	Iprtrmib.h
+api_name:
+-	MIB_UDPTABLE_OWNER_PID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _MIB_UDPTABLE_OWNER_PID structure

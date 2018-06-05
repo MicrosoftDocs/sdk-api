@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:shobjidl_core.ITaskbarList
+title: ITaskbarList
+author: windows-sdk-content
+description: Exposes methods that control the taskbar. It allows you to dynamically add, remove, and activate items on the taskbar.
+old-location: shell\ITaskbarList.htm
+old-project: shell
+ms.assetid: c63f5fe8-4a8f-4ca8-bd6a-7733110bbb38
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ITaskbarList, ITaskbarList interface [Windows Shell], ITaskbarList interface [Windows Shell],described, _win32_ITaskbarList, shell.ITaskbarList, shobjidl_core/ITaskbarList
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	ITaskbarList
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ITaskbarList interface

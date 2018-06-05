@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:segment.IMSVidStreamBufferSource2.get_CCCounter
+title: IMSVidStreamBufferSource2::get_CCCounter
+author: windows-sdk-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+old-location: mstv\imsvidstreambuffersource2_get_cccounter.htm
+old-project: mstv
+ms.assetid: 58aa567a-6ef3-4e8b-9155-f262ac1a7557
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],get_CCCounter method, IMSVidStreamBufferSource2.get_CCCounter, IMSVidStreamBufferSource2::get_CCCounter, IMSVidStreamBufferSource2get_CCCounter, get_CCCounter, get_CCCounter method [Microsoft TV Technologies], get_CCCounter method [Microsoft TV Technologies],IMSVidStreamBufferSource2 interface, mstv.imsvidstreambuffersource2_get_cccounter, segment/IMSVidStreamBufferSource2::get_CCCounter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidStreamBufferSource2.get_CCCounter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidStreamBufferSource2::get_CCCounter

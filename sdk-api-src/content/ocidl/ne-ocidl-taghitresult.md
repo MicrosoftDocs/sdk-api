@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ocidl.tagHITRESULT
+title: tagHITRESULT
+author: windows-sdk-content
+description: Indicates whether a location is within the image of an object.
+old-location: com\hitresult.htm
+old-project: com
+ms.assetid: 44b070e4-5453-446c-a871-d977a8df8140
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: HITRESULT, HITRESULT enumeration [COM], HITRESULT_CLOSE, HITRESULT_HIT, HITRESULT_OUTSIDE, HITRESULT_TRANSPARENT, _ole_HITRESULT, com.hitresult, ocidl/HITRESULT, ocidl/HITRESULT_CLOSE, ocidl/HITRESULT_HIT, ocidl/HITRESULT_OUTSIDE, ocidl/HITRESULT_TRANSPARENT, tagHITRESULT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ocidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HITRESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	OCIdl.h
+api_name:
+-	HITRESULT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagHITRESULT enumeration

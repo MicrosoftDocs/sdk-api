@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dxvahd._DXVAHD_FEATURE_CAPS
+title: "_DXVAHD_FEATURE_CAPS"
+author: windows-sdk-content
+description: Defines features that a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device can support.
+old-location: mf\dxvahd_feature_caps.htm
+old-project: medfound
+ms.assetid: 6014780b-3b8a-48d6-ae30-b48127a2c274
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DXVAHD_FEATURE_CAPS, DXVAHD_FEATURE_CAPS enumeration [Media Foundation], DXVAHD_FEATURE_CAPS_ALPHA_FILL, DXVAHD_FEATURE_CAPS_ALPHA_PALETTE, DXVAHD_FEATURE_CAPS_CONSTRICTION, DXVAHD_FEATURE_CAPS_LUMA_KEY, _DXVAHD_FEATURE_CAPS, dxvahd/DXVAHD_FEATURE_CAPS, dxvahd/DXVAHD_FEATURE_CAPS_ALPHA_FILL, dxvahd/DXVAHD_FEATURE_CAPS_ALPHA_PALETTE, dxvahd/DXVAHD_FEATURE_CAPS_CONSTRICTION, dxvahd/DXVAHD_FEATURE_CAPS_LUMA_KEY, mf.dxvahd_feature_caps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxvahd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVAHD_FEATURE_CAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxvahd.h
+api_name:
+-	DXVAHD_FEATURE_CAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVAHD_FEATURE_CAPS enumeration

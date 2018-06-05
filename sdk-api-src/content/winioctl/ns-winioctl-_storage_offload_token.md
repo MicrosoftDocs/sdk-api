@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._STORAGE_OFFLOAD_TOKEN
+title: "_STORAGE_OFFLOAD_TOKEN"
+author: windows-sdk-content
+description: The token used to represent a portion of a file used in by offload read and write operations.
+old-location: base\storage_offload_token.htm
+old-project: DevIO
+ms.assetid: e33550d6-8d98-4fbb-8e61-d309f0e8e867
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN structure pointer, STORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN structure, STORAGE_OFFLOAD_TOKEN_TYPE_WELL_KNOWN, _STORAGE_OFFLOAD_TOKEN, base.storage_offload_token, winioctl/PSTORAGE_OFFLOAD_TOKEN, winioctl/STORAGE_OFFLOAD_TOKEN"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STORAGE_OFFLOAD_TOKEN, *PSTORAGE_OFFLOAD_TOKEN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	STORAGE_OFFLOAD_TOKEN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _STORAGE_OFFLOAD_TOKEN structure

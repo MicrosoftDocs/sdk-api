@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vfw.EditStreamSetInfoA
+title: EditStreamSetInfoA function
+author: windows-sdk-content
+description: The EditStreamSetInfo function changes characteristics of an editable stream.
+old-location: multimedia\editstreamsetinfo.htm
+old-project: Multimedia
+ms.assetid: c9b33a91-b7b1-4b66-86ba-d1ea774c8743
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: EditStreamSetInfo, EditStreamSetInfo function [Windows Multimedia], EditStreamSetInfoA, EditStreamSetInfoW, _win32_EditStreamSetInfo, multimedia.editstreamsetinfo, vfw/EditStreamSetInfo, vfw/EditStreamSetInfoA, vfw/EditStreamSetInfoW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: EditStreamSetInfoW (Unicode) and EditStreamSetInfoA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Avifil32.dll
+api_name:
+-	EditStreamSetInfo
+-	EditStreamSetInfoA
+-	EditStreamSetInfoW
+product: Windows
+targetos: Windows
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # EditStreamSetInfoA function

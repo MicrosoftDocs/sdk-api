@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iptypes._IP_ADAPTER_DNS_SERVER_ADDRESS_XP
+title: "_IP_ADAPTER_DNS_SERVER_ADDRESS_XP"
+author: windows-sdk-content
+description: The IP_ADAPTER_DNS_SERVER_ADDRESS structure stores a single DNS server address in a linked list of DNS server addresses for a particular adapter.
+old-location: iphlp\ip_adapter_dns_server_address.htm
+old-project: IpHlp
+ms.assetid: 96855386-9010-40df-8260-16b43ad6646f
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PIP_ADAPTER_DNS_SERVER_ADDRESS, *PIP_ADAPTER_DNS_SERVER_ADDRESS_XP, IP_ADAPTER_DNS_SERVER_ADDRESS, IP_ADAPTER_DNS_SERVER_ADDRESS structure [IP Helper], IP_ADAPTER_DNS_SERVER_ADDRESS_XP, PIP_ADAPTER_DNS_SERVER_ADDRESS, PIP_ADAPTER_DNS_SERVER_ADDRESS structure pointer [IP Helper], _IP_ADAPTER_DNS_SERVER_ADDRESS_XP, _iphlp_ip_adapter_dns_server_address, iphlp.ip_adapter_dns_server_address, iptypes/IP_ADAPTER_DNS_SERVER_ADDRESS, iptypes/PIP_ADAPTER_DNS_SERVER_ADDRESS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iptypes.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IP_ADAPTER_DNS_SERVER_ADDRESS_XP, *PIP_ADAPTER_DNS_SERVER_ADDRESS_XP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iptypes.h
+api_name:
+-	IP_ADAPTER_DNS_SERVER_ADDRESS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _IP_ADAPTER_DNS_SERVER_ADDRESS_XP structure

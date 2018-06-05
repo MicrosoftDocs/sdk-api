@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ksopmapi._OPM_STANDARD_INFORMATION
+title: "_OPM_STANDARD_INFORMATION"
+author: windows-sdk-content
+description: Contains the result from an Output Protection Manager (OPM) status request.
+old-location: mf\opm_standard_information.htm
+old-project: medfound
+ms.assetid: 4c1b6803-0015-4def-acb0-295193ba0e17
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: OPM_STANDARD_INFORMATION, OPM_STANDARD_INFORMATION structure [Media Foundation], _OPM_STANDARD_INFORMATION, ksopmapi/OPM_STANDARD_INFORMATION, mf.opm_standard_information
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ksopmapi.h
+req.include-header: Opmapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPM_STANDARD_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ksopmapi.h
+api_name:
+-	OPM_STANDARD_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _OPM_STANDARD_INFORMATION structure

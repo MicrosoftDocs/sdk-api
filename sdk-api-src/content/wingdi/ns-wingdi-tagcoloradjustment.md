@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagCOLORADJUSTMENT
+title: tagCOLORADJUSTMENT
+author: windows-sdk-content
+description: The COLORADJUSTMENT structure defines the color adjustment values used by the StretchBlt and StretchDIBits functions when the stretch mode is HALFTONE. You can set the color adjustment values by calling the SetColorAdjustment function.
+old-location: gdi\coloradjustment.htm
+old-project: gdi
+ms.assetid: 9a080f60-0bce-46b6-b8a8-f534ff83a0a8
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPCOLORADJUSTMENT, *PCOLORADJUSTMENT, COLORADJUSTMENT, COLORADJUSTMENT structure [Windows GDI], PCOLORADJUSTMENT, PCOLORADJUSTMENT structure pointer [Windows GDI], _win32_COLORADJUSTMENT_str, gdi.coloradjustment, tagCOLORADJUSTMENT, wingdi/COLORADJUSTMENT, wingdi/PCOLORADJUSTMENT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COLORADJUSTMENT, *PCOLORADJUSTMENT, *LPCOLORADJUSTMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	COLORADJUSTMENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagCOLORADJUSTMENT structure

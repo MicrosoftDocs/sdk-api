@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:lowlevelmonitorconfigurationapi.GetCapabilitiesStringLength
+title: GetCapabilitiesStringLength function
+author: windows-sdk-content
+description: Retrieves the length of a monitor's capabilities string.
+old-location: monitor\getcapabilitiesstringlength.htm
+old-project: Monitor
+ms.assetid: fe38e63d-b5b8-4b64-b7cb-9ff1c20a2e4a
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetCapabilitiesStringLength, GetCapabilitiesStringLength function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetCapabilitiesStringLength, monitor.getcapabilitiesstringlength
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: lowlevelmonitorconfigurationapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MC_VCP_CODE_TYPE, *LPMC_VCP_CODE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	dxva2.dll
+api_name:
+-	GetCapabilitiesStringLength
+product: Windows
+targetos: Windows
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # GetCapabilitiesStringLength function

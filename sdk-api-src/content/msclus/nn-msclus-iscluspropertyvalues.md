@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:msclus.ISClusPropertyValues
+title: ISClusPropertyValues
+author: windows-sdk-content
+description: Contains all of the property values associated with a multi-value property, with each value represented by a ClusPropertyValue object.
+old-location: mscs\cluspropertyvalues_collection.htm
+old-project: MsCS
+ms.assetid: 18ae71ee-5582-4ac9-bb0f-f1c077c0352a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ClusPropertyValues, ClusPropertyValues collection [Failover Cluster], ClusPropertyValues collection [Failover Cluster],described, ISClusPropertyValues, _wolf_cluspropertyvalues_collection, msclus/ClusPropertyValues, mscs.cluspropertyvalues_collection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: MsClus.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: MsClus.tlb
+tech.root: 
+req.typenames: CLUS_GROUP_START_SETTING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsClus.dll
+api_name:
+-	ClusPropertyValues
+-	ISClusPropertyValues
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsClus.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ISClusPropertyValues interface

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:sdoias._POLICYPROPERTIES
+title: "_POLICYPROPERTIES"
+author: windows-sdk-content
+description: The values of the POLICYPROPERTIES enumeration type enumerate properties of a Network Access Policy (NAP).
+old-location: nps\SDO_policyproperties.htm
+old-project: Nps
+ms.assetid: 1e12baf8-e1f4-4b46-ba08-58adf4f3012e
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: POLICYPROPERTIES, POLICYPROPERTIES enumeration [Network Policy Server], PROPERTY_POLICY_ACTION, PROPERTY_POLICY_CONDITIONS_COLLECTION, PROPERTY_POLICY_CONSTRAINT, PROPERTY_POLICY_ENABLED, PROPERTY_POLICY_MERIT, PROPERTY_POLICY_PROFILE_NAME, PROPERTY_POLICY_SOURCETAG, PROPERTY_POLICY_UNUSED0, PROPERTY_POLICY_UNUSED1, _POLICYPROPERTIES, _sdo_policyproperties, nps.SDO_policyproperties, sdo.policyproperties, sdoias/POLICYPROPERTIES, sdoias/PROPERTY_POLICY_ACTION, sdoias/PROPERTY_POLICY_CONDITIONS_COLLECTION, sdoias/PROPERTY_POLICY_CONSTRAINT, sdoias/PROPERTY_POLICY_ENABLED, sdoias/PROPERTY_POLICY_MERIT, sdoias/PROPERTY_POLICY_PROFILE_NAME, sdoias/PROPERTY_POLICY_SOURCETAG, sdoias/PROPERTY_POLICY_UNUSED0, sdoias/PROPERTY_POLICY_UNUSED1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: sdoias.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: POLICYPROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	SdoIas.h
+api_name:
+-	POLICYPROPERTIES
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _POLICYPROPERTIES enumeration

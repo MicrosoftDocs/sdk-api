@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wdspxe.tagPXE_PROVIDER
+title: tagPXE_PROVIDER
+author: windows-sdk-content
+description: Describes a provider.
+old-location: wds\pxe_provider.htm
+old-project: Wds
+ms.assetid: a07afefd-7a97-42bb-8d70-2bc7c51ddef3
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*PPXE_PROVIDER, PPXE_PROVIDER, PPXE_PROVIDER structure pointer [Windows Deployment Services], PXE_PROVIDER, PXE_PROVIDER structure [Windows Deployment Services], tagPXE_PROVIDER, wds.pxe_provider, wdspxe/PPXE_PROVIDER, wdspxe/PXE_PROVIDER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wdspxe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PXE_PROVIDER, *PPXE_PROVIDER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WdsPxe.h
+api_name:
+-	PXE_PROVIDER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagPXE_PROVIDER structure

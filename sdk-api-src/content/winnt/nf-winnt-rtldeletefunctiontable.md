@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winnt.RtlDeleteFunctionTable
+title: RtlDeleteFunctionTable function
+author: windows-sdk-content
+description: Removes a dynamic function table from the dynamic function table list.
+old-location: base\rtldeletefunctiontable.htm
+old-project: Debug
+ms.assetid: 42bc3d83-8053-40e9-b153-f68733d0cb2b
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: RtlDeleteFunctionTable, RtlDeleteFunctionTable function, base.rtldeletefunctiontable, winnt/RtlDeleteFunctionTable
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRANSACTION_OUTCOME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-rtlsupport-l1-1-0.dll
+-	ntdll.dll
+-	API-MS-Win-Core-rtlsupport-l1-2-0.dll
+api_name:
+-	RtlDeleteFunctionTable
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # RtlDeleteFunctionTable function

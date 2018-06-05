@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dsparse.DsIsMangledDnW
+title: DsIsMangledDnW function
+author: windows-sdk-content
+description: The DsIsMangledDn function determines if the first relative distinguished name (RDN) in a distinguished name (DN) is a mangled name of a given type.
+old-location: ad\dsismangleddn.htm
+old-project: AD
+ms.assetid: e4aaa83c-3bd6-48db-9d34-367b76ba629c
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DsIsMangledDn, DsIsMangledDn function [Active Directory], DsIsMangledDnA, DsIsMangledDnW, _glines_dsismangleddn, ad.dsismangleddn, dsparse/DsIsMangledDn, dsparse/DsIsMangledDnA, dsparse/DsIsMangledDnW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dsparse.h
+req.include-header: Ntdsapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DsIsMangledDnW (Unicode) and DsIsMangledDnA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_MANGLE_FOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdsapi.dll
+api_name:
+-	DsIsMangledDn
+-	DsIsMangledDnA
+-	DsIsMangledDnW
+product: Windows
+targetos: Windows
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DsIsMangledDnW function

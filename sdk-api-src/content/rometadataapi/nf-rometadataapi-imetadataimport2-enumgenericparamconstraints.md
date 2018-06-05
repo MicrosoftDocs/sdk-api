@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rometadataapi.IMetaDataImport2.EnumGenericParamConstraints
+title: IMetaDataImport2::EnumGenericParamConstraints
+author: windows-sdk-content
+description: Gets an enumerator for an array of generic parameter constraints associated with the generic parameter represented by the specified token.
+old-location: winrt\imetadataimport2_enumgenericparamconstraints.htm
+old-project: WinRT
+ms.assetid: 5e8ba48d-7c94-4fc6-8def-db296065fdce
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: EnumGenericParamConstraints, EnumGenericParamConstraints method [Windows Runtime], EnumGenericParamConstraints method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],EnumGenericParamConstraints method, IMetaDataImport2.EnumGenericParamConstraints, IMetaDataImport2::EnumGenericParamConstraints, rometadataapi/IMetaDataImport2::EnumGenericParamConstraints, winrt.imetadataimport2_enumgenericparamconstraints
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rometadataapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rometadataapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	rometadataapi.h
+api_name:
+-	IMetaDataImport2.EnumGenericParamConstraints
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMetaDataImport2::EnumGenericParamConstraints

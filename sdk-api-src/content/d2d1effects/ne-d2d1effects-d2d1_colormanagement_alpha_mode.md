@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d2d1effects.D2D1_COLORMANAGEMENT_ALPHA_MODE
+title: D2D1_COLORMANAGEMENT_ALPHA_MODE
+author: windows-sdk-content
+description: Indicates how the Color management effect should interpret alpha data that is contained in the input image.
+old-location: direct2d\d2d1_colormanagement_alpha_mode.htm
+old-project: Direct2D
+ms.assetid: CEC066A7-085E-4657-B9CF-9F8B8E8F4FFE
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_COLORMANAGEMENT_ALPHA_MODE, D2D1_COLORMANAGEMENT_ALPHA_MODE enumeration [Direct2D], D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED, D2D1_COLORMANAGEMENT_ALPHA_MODE_STRAIGHT, d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE, d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED, d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE_STRAIGHT, direct2d.d2d1_colormanagement_alpha_mode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1effects.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_COLORMANAGEMENT_ALPHA_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1effects.h
+api_name:
+-	D2D1_COLORMANAGEMENT_ALPHA_MODE
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D2D1_COLORMANAGEMENT_ALPHA_MODE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkExtendedProperties.Clear
+title: IInkExtendedProperties::Clear
+author: windows-sdk-content
+description: Clears all of the IInkExtendedProperty objects from the IInkExtendedProperties collection.
+old-location: tablet\iinkextendedproperties_clear.htm
+old-project: tablet
+ms.assetid: b5270e5c-51fa-4d1f-b4e0-9129c61bac88
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: Clear, Clear method [Tablet PC], Clear method [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],Clear method, IInkExtendedProperties.Clear, IInkExtendedProperties::Clear, b5270e5c-51fa-4d1f-b4e0-9129c61bac88, msinkaut/IInkExtendedProperties::Clear, tablet.iinkextendedproperties_clear
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkExtendedProperties.Clear
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkExtendedProperties::Clear

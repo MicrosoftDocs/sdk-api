@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bluetoothapis._BLUETOOTH_AUTHENTICATE_RESPONSE
+title: "_BLUETOOTH_AUTHENTICATE_RESPONSE"
+author: windows-sdk-content
+description: BLUETOOTH_AUTHENTICATE_RESPONSE structure contains information passed in response to a BTH_REMOTE_AUTHENTICATE_REQUEST event.
+old-location: bluetooth\bluetooth_authenticate_response.htm
+old-project: Bluetooth
+ms.assetid: fc7eda84-3e7b-49e9-a1a6-e1759c894e1a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PBLUETOOTH_AUTHENTICATE_RESPONSE, BLUETOOTH_AUTHENTICATE_RESPONSE, BLUETOOTH_AUTHENTICATE_RESPONSE structure [Bluetooth], PBLUETOOTH_AUTHENTICATE_RESPONSE, PBLUETOOTH_AUTHENTICATE_RESPONSE structure pointer [Bluetooth], _BLUETOOTH_AUTHENTICATE_RESPONSE, bluetooth.bluetooth_authenticate_response, bluetoothapis/BLUETOOTH_AUTHENTICATE_RESPONSE, bluetoothapis/PBLUETOOTH_AUTHENTICATE_RESPONSE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bluetoothapis.h
+req.include-header: Bthsdpdef.h, BluetoothAPIs.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BLUETOOTH_AUTHENTICATE_RESPONSE, *PBLUETOOTH_AUTHENTICATE_RESPONSE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	BluetoothAPIs.h
+api_name:
+-	BLUETOOTH_AUTHENTICATE_RESPONSE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BLUETOOTH_AUTHENTICATE_RESPONSE structure

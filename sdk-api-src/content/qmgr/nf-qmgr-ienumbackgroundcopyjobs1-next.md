@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:qmgr.IEnumBackgroundCopyJobs1.Next
+title: IEnumBackgroundCopyJobs1::Next
+author: windows-sdk-content
+description: Use the Next method to retrieve the specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
+old-location: bits\ienumbackgroundcopyjobs1_next.htm
+old-project: Bits
+ms.assetid: 15dcc2e1-7fdf-4c4a-a24b-2cad49bda7fc
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IEnumBackgroundCopyJobs1 interface [BITS],Next method, IEnumBackgroundCopyJobs1.Next, IEnumBackgroundCopyJobs1::Next, Next, Next method [BITS], Next method [BITS],IEnumBackgroundCopyJobs1 interface, bits.ienumbackgroundcopyjobs1_next, qmgr/IEnumBackgroundCopyJobs1::Next
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: qmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Qmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GROUPPROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	QmgrPrxy.dll
+api_name:
+-	IEnumBackgroundCopyJobs1.Next
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumBackgroundCopyJobs1::Next

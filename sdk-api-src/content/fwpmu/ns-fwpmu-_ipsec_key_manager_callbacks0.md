@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:fwpmu._IPSEC_KEY_MANAGER_CALLBACKS0
+title: "_IPSEC_KEY_MANAGER_CALLBACKS0"
+author: windows-sdk-content
+description: Specifies the set of callbacks which should be invoked by IPsec at various stages of SA negotiation.
+old-location: fwp\ipsec_key_manager_callbacks0.htm
+old-project: FWP
+ms.assetid: 736ea54d-ca17-4cb5-bcb2-95b4377f321c
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IPSEC_KEY_MANAGER_CALLBACKS0, IPSEC_KEY_MANAGER_CALLBACKS0 structure [Filtering], _IPSEC_KEY_MANAGER_CALLBACKS0, fwp.ipsec_key_manager_callbacks0, fwpmu/IPSEC_KEY_MANAGER_CALLBACKS0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: fwpmu.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPSEC_KEY_MANAGER_CALLBACKS0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	fwpmu.h
+api_name:
+-	IPSEC_KEY_MANAGER_CALLBACKS0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _IPSEC_KEY_MANAGER_CALLBACKS0 structure

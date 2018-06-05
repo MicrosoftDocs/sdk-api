@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:directxpackedvector.XMBYTEN2
+title: XMBYTEN2
+author: windows-sdk-content
+description: A 2D vector for storing signed, normalized values as signed 8-bits (1 byte) integers.
+old-location: dxmath\xmbyten2.htm
+old-project: dxmath
+ms.assetid: T:Microsoft.directx_sdk.reference.XMBYTEN2
+ms.author: windowssdkdev
+ms.date: 04/23/2018
+ms.keywords: XMBYTEN2, XMBYTEN2 structure [DirectX Math Support APIs], directxpackedvector/XMBYTEN2, dxmath.xmbyten2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: directxpackedvector.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -23,9 +23,25 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: 
+req.namespace: DirectX::PackedVector
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DirectXPackedVector.h
+api_name:
+-	XMBYTEN2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # XMBYTEN2 structure

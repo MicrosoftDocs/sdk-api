@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:qos2._QOS_QUERY_FLOW
+title: "_QOS_QUERY_FLOW"
+author: windows-sdk-content
+description: The QOS_QUERY_FLOW enumeration indicates the type of information a QOSQueryFlow function will request.
+old-location: qos\qos_query_flow.htm
+old-project: QOS
+ms.assetid: cae09751-0ac8-4fa1-9fdb-d2df3f01e504
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*PQOS_QUERY_FLOW, QOSQueryFlowFundamentals, QOSQueryOutgoingRate, QOSQueryPacketPriority, QOS_QUERY_FLOW, QOS_QUERY_FLOW enumeration [QOS], _QOS_QUERY_FLOW, qos.qos_query_flow, qos2/QOSQueryFlowFundamentals, qos2/QOSQueryOutgoingRate, qos2/QOSQueryPacketPriority, qos2/QOS_QUERY_FLOW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: qos2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QOS_QUERY_FLOW, *PQOS_QUERY_FLOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Qos2.h
+api_name:
+-	QOS_QUERY_FLOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _QOS_QUERY_FLOW enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winevt._EVT_VARIANT
+title: "_EVT_VARIANT"
+author: windows-sdk-content
+description: Contains event data or property values.
+old-location: wes\evt_variant.htm
+old-project: WES
+ms.assetid: 4b0f338b-0b66-4ba5-9e29-b15afe15a2d3
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PEVT_VARIANT, EVT_VARIANT, EVT_VARIANT structure [EventLog], PEVT_VARIANT, PEVT_VARIANT structure pointer [EventLog], _EVT_VARIANT, wes.evt_variant, winevt/PEVT_VARIANT, winevt/_EVT_VARIANT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winevt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVT_VARIANT, *PEVT_VARIANT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinEvt.h
+api_name:
+-	EVT_VARIANT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _EVT_VARIANT structure

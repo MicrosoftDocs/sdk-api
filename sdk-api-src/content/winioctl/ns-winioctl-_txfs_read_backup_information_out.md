@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._TXFS_READ_BACKUP_INFORMATION_OUT
+title: "_TXFS_READ_BACKUP_INFORMATION_OUT"
+author: windows-sdk-content
+description: Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling TXFS_WRITE_BACKUP_INFORMATION.
+old-location: fs\txfs_read_backup_information_out.htm
+old-project: FileIO
+ms.assetid: c2b9ce2f-9f08-4706-9565-423ab0dc493f
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PTXFS_READ_BACKUP_INFORMATION_OUT, PTXFS_READ_BACKUP_INFORMATION_OUT, PTXFS_READ_BACKUP_INFORMATION_OUT structure pointer [Files], TXFS_READ_BACKUP_INFORMATION_OUT, TXFS_READ_BACKUP_INFORMATION_OUT structure [Files], _TXFS_READ_BACKUP_INFORMATION_OUT, fs.txfs_read_backup_information_out, winioctl/PTXFS_READ_BACKUP_INFORMATION_OUT, winioctl/TXFS_READ_BACKUP_INFORMATION_OUT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TXFS_READ_BACKUP_INFORMATION_OUT, *PTXFS_READ_BACKUP_INFORMATION_OUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	TXFS_READ_BACKUP_INFORMATION_OUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _TXFS_READ_BACKUP_INFORMATION_OUT structure

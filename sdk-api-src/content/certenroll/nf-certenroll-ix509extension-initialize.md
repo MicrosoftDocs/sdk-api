@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509Extension.Initialize
+title: IX509Extension::Initialize
+author: windows-sdk-content
+description: Initializes an IX509Extension object by using an object identifier (OID) and a byte array that contains the Distinguished Encoding Rules (DER) encoded extension.
+old-location: security\ix509extension_initialize_method.htm
+old-project: SecCertEnroll
+ms.assetid: a01a371b-7dc2-4204-8029-269ac4a9c0d5
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IX509Extension interface [Security],Initialize method, IX509Extension.Initialize, IX509Extension::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509Extension interface, certenroll/IX509Extension::Initialize, security.ix509extension_initialize_method
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509Extension.Initialize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IX509Extension::Initialize

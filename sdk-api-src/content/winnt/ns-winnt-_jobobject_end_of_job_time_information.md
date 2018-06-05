@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._JOBOBJECT_END_OF_JOB_TIME_INFORMATION
+title: "_JOBOBJECT_END_OF_JOB_TIME_INFORMATION"
+author: windows-sdk-content
+description: Specifies the action the system will perform when an end-of-job time limit is exceeded.
+old-location: base\jobobject_end_of_job_time_information_str.htm
+old-project: ProcThread
+ms.assetid: 0054d018-c358-4cb0-a4db-fc6464b4b08c
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PJOBOBJECT_END_OF_JOB_TIME_INFORMATION, JOBOBJECT_END_OF_JOB_TIME_INFORMATION, JOBOBJECT_END_OF_JOB_TIME_INFORMATION structure, JOB_OBJECT_POST_AT_END_OF_JOB, JOB_OBJECT_TERMINATE_AT_END_OF_JOB, PJOBOBJECT_END_OF_JOB_TIME_INFORMATION, PJOBOBJECT_END_OF_JOB_TIME_INFORMATION structure, _JOBOBJECT_END_OF_JOB_TIME_INFORMATION, _win32_jobobject_end_of_job_time_information_str, base.jobobject_end_of_job_time_information_str, winnt/JOBOBJECT_END_OF_JOB_TIME_INFORMATION, winnt/PJOBOBJECT_END_OF_JOB_TIME_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: JOBOBJECT_END_OF_JOB_TIME_INFORMATION, *PJOBOBJECT_END_OF_JOB_TIME_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	JOBOBJECT_END_OF_JOB_TIME_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _JOBOBJECT_END_OF_JOB_TIME_INFORMATION structure

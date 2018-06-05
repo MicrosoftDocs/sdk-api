@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:iphlpapi.GetUniDirectionalAdapterInfo
+title: GetUniDirectionalAdapterInfo function
+author: windows-sdk-content
+description: The GetUniDirectionalAdapterInfo function retrieves information about the unidirectional adapters installed on the local computer. A unidirectional adapter is an adapter that can receive datagrams, but not transmit them.
+old-location: iphlp\getunidirectionaladapterinfo.htm
+old-project: IpHlp
+ms.assetid: 32aa3a8e-ae74-4da9-bc8d-b28e270d9702
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: GetUniDirectionalAdapterInfo, GetUniDirectionalAdapterInfo function [IP Helper], _iphlp_getunidirectionaladapterinfo, iphlp.getunidirectionaladapterinfo, iphlpapi/GetUniDirectionalAdapterInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: iphlpapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_ADDRESS_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Iphlpapi.dll
+api_name:
+-	GetUniDirectionalAdapterInfo
+product: Windows
+targetos: Windows
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # GetUniDirectionalAdapterInfo function

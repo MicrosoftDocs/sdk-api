@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:aclui._SI_PAGE_TYPE
+title: "_SI_PAGE_TYPE"
+author: windows-sdk-content
+description: Contains values that indicate the types of property pages in an access control editor property sheet.
+old-location: security\si_page_type.htm
+old-project: SecAuthZ
+ms.assetid: 122b2dcb-5557-4692-a0d6-4a0accf71740
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: SI_PAGE_ADVPERM, SI_PAGE_AUDIT, SI_PAGE_EFFECTIVE, SI_PAGE_OWNER, SI_PAGE_PERM, SI_PAGE_TAKEOWNERSHIP, SI_PAGE_TYPE, SI_PAGE_TYPE enumeration [Security], _SI_PAGE_TYPE, _win32_si_page_type_str, aclui/SI_PAGE_ADVPERM, aclui/SI_PAGE_AUDIT, aclui/SI_PAGE_EFFECTIVE, aclui/SI_PAGE_OWNER, aclui/SI_PAGE_PERM, aclui/SI_PAGE_TAKEOWNERSHIP, aclui/SI_PAGE_TYPE, security.si_page_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: aclui.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: TreeSetNamedSecurityInfoW (Unicode) and TreeSetNamedSecurityInfoA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SI_PAGE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Aclui.h
+api_name:
+-	SI_PAGE_TYPE
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 ---
 
 # _SI_PAGE_TYPE enumeration

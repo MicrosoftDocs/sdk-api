@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0007
+title: "__MIDL___MIDL_itf_pla_0001_0043_0007"
+author: windows-sdk-content
+description: Defines the action to take when committing changes to the data collector set.
+old-location: pla\commitmode.htm
+old-project: PLA
+ms.assetid: 3c485b4d-ba0b-456a-b942-27829371d7fb
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: CommitMode, CommitMode enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0007, base.commitmode, pla.commitmode, pla/CommitMode, pla/plaCreateNew, pla/plaCreateOrModify, pla/plaFlushTrace, pla/plaModify, pla/plaUpdateRunningInstance, pla/plaValidateOnly, plaCreateNew, plaCreateOrModify, plaFlushTrace, plaModify, plaUpdateRunningInstance, plaValidateOnly
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CommitMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pla.h
+api_name:
+-	CommitMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_pla_0001_0043_0007 enumeration

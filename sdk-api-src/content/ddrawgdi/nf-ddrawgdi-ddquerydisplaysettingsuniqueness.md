@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ddrawgdi.DdQueryDisplaySettingsUniqueness
+title: DdQueryDisplaySettingsUniqueness function
+author: windows-sdk-content
+description: Returns the current value of an integer that is incremented whenever a mode switch occurs, such as when there is a desktop switch, a Fast User Switch, or a full-screen Microsoft MS-DOS box.
+old-location: winprog\_dxgkernel_ddquerydisplaysettingsuniqueness.htm
+old-project: DevNotes
+ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddquerydisplaysettingsuniqueness.htm
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: DdQueryDisplaySettingsUniqueness, DdQueryDisplaySettingsUniqueness function [Windows API], GdiEntry13, _dxgkernel_ddquerydisplaysettingsuniqueness, ddrawgdi/DdQueryDisplaySettingsUniqueness, ddrawgdi/GdiEntry13, winprog._dxgkernel_ddquerydisplaysettingsuniqueness, winui._dxgkernel_ddquerydisplaysettingsuniqueness
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ddrawgdi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDSURFACEDESC2, DDSURFACEDESC2"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	GDI32.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-0.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+-	DdQueryDisplaySettingsUniqueness
+-	GdiEntry13
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: GDI32.dll
+req.irql: 
 ---
 
 # DdQueryDisplaySettingsUniqueness function

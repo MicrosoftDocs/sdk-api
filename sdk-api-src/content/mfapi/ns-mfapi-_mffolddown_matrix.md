@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mfapi._MFFOLDDOWN_MATRIX
+title: "_MFFOLDDOWN_MATRIX"
+author: windows-sdk-content
+description: Contains coefficients used to transform multichannel audio into a smaller number of audio channels. This process is called fold-down.
+old-location: mf\mffolddown_matrix.htm
+old-project: medfound
+ms.assetid: 59bf275d-583e-47aa-96ff-ce032c618081
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 59bf275d-583e-47aa-96ff-ce032c618081, MFFOLDDOWN_MATRIX, MFFOLDDOWN_MATRIX structure [Media Foundation], _MFFOLDDOWN_MATRIX, mf.mffolddown_matrix, mfapi/MFFOLDDOWN_MATRIX
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFFOLDDOWN_MATRIX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfapi.h
+api_name:
+-	MFFOLDDOWN_MATRIX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFFOLDDOWN_MATRIX structure

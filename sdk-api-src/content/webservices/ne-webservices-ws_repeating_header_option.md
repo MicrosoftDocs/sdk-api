@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_REPEATING_HEADER_OPTION
+title: WS_REPEATING_HEADER_OPTION
+author: windows-sdk-content
+description: This enum is used to specify whether a header is expected to appear more than once in a message.
+old-location: wsw\ws_repeating_header_option.htm
+old-project: wsw
+ms.assetid: 7bbe5aba-e7b6-483d-8782-714a38ef4a99
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_REPEATING_HEADER, WS_REPEATING_HEADER_OPTION, WS_REPEATING_HEADER_OPTION enumeration [Web Services for Windows], WS_SINGLETON_HEADER, webservices/WS_REPEATING_HEADER, webservices/WS_REPEATING_HEADER_OPTION, webservices/WS_SINGLETON_HEADER, wsw.ws_repeating_header_option
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_REPEATING_HEADER_OPTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_REPEATING_HEADER_OPTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_REPEATING_HEADER_OPTION enumeration

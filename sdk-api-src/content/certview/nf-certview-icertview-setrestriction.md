@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certview.ICertView.SetRestriction
+title: ICertView::SetRestriction
+author: windows-sdk-content
+description: Sets the sorting and qualifying restrictions on a column.
+old-location: security\icertview2_setrestriction.htm
+old-project: SecCrypto
+ms.assetid: a2dc8675-1d75-4c15-a9f7-971274ab044c
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertView object [Security],SetRestriction method, CVR_SEEK_EQ, CVR_SEEK_GE, CVR_SEEK_GT, CVR_SEEK_LE, CVR_SEEK_LT, CVR_SORT_ASCEND, CVR_SORT_DESCEND, CVR_SORT_NONE, CV_COLUMN_LOG_DEFAULT, CV_COLUMN_LOG_FAILED_DEFAULT, CV_COLUMN_QUEUE_DEFAULT, ICertView interface [Security],SetRestriction method, ICertView.SetRestriction, ICertView2 interface [Security],SetRestriction method, ICertView2::SetRestriction, ICertView::SetRestriction, SetRestriction, SetRestriction method [Security], SetRestriction method [Security],CCertView object, SetRestriction method [Security],ICertView interface, SetRestriction method [Security],ICertView2 interface, certview/ICertView2::SetRestriction, certview/ICertView::SetRestriction, security.icertview2_setrestriction
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certview.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENUM_CATYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certadm.dll
+api_name:
+-	ICertView2.SetRestriction
+-	ICertView.SetRestriction
+-	CCertView.SetRestriction
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # ICertView::SetRestriction

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netfw.INetFwOpenPort.put_Enabled
+title: INetFwOpenPort::put_Enabled
+author: windows-sdk-content
+description: Indicates whether the settings for this port are currently enabled.
+old-location: ics\inetfwopenport_enabled.htm
+old-project: ICS
+ms.assetid: f4fc7a4f-abc5-486a-89c8-dfea17770f3c
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwOpenPort interface, INetFwOpenPort interface [ICS/ICF],Enabled property, INetFwOpenPort.Enabled, INetFwOpenPort.put_Enabled, INetFwOpenPort::Enabled, INetFwOpenPort::get_Enabled, INetFwOpenPort::put_Enabled, ics.inetfwopenport_enabled, netfw/INetFwOpenPort::Enabled, netfw/INetFwOpenPort::get_Enabled, netfw/INetFwOpenPort::put_Enabled, put_Enabled
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETISO_ERROR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FirewallAPI.dll
+-	Hnetcfg.dll
+api_name:
+-	INetFwOpenPort.Enabled
+-	INetFwOpenPort.get_Enabled
+-	INetFwOpenPort.put_Enabled
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetFwOpenPort::put_Enabled

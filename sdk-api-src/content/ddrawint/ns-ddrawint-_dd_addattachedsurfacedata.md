@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_ADDATTACHEDSURFACEDATA
+title: "_DD_ADDATTACHEDSURFACEDATA"
+author: windows-sdk-content
+description: The DD_ADDATTACHEDSURFACEDATA structure contains information necessary to attach a surface to another surface.
+old-location: display\dd_addattachedsurfacedata.htm
+old-project: display
+ms.assetid: d00120d9-5825-4998-a1ef-ccc5654b91b9
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_ADDATTACHEDSURFACEDATA, DD_ADDATTACHEDSURFACEDATA, DD_ADDATTACHEDSURFACEDATA structure [Display Devices], _DD_ADDATTACHEDSURFACEDATA, ddrawint/DD_ADDATTACHEDSURFACEDATA, ddstrcts_2697c197-c588-4f30-8f96-db7d835f3929.xml, display.dd_addattachedsurfacedata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_ADDATTACHEDSURFACEDATA, DD_ADDATTACHEDSURFACEDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_ADDATTACHEDSURFACEDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_ADDATTACHEDSURFACEDATA structure

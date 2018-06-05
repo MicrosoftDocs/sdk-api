@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wiavideo.__MIDL___MIDL_itf_wiavideo_xp_0000_0000_0001
+title: "__MIDL___MIDL_itf_wiavideo_xp_0000_0000_0001"
+author: windows-sdk-content
+description: The WIAVIDEO_STATE enumeration is used to specify the current state of a video stream.
+old-location: wia\_wia_WIAVIDEO_STATE.htm
+old-project: wia
+ms.assetid: VS|wia|~\wia\refwia\enums\wiavideo_state.htm
+ms.author: windowssdkdev
+ms.date: 05/03/2018
+ms.keywords: WIAVIDEO_CREATING_VIDEO, WIAVIDEO_DESTROYING_VIDEO, WIAVIDEO_NO_VIDEO, WIAVIDEO_STATE, WIAVIDEO_STATE enumeration [WIA], WIAVIDEO_VIDEO_CREATED, WIAVIDEO_VIDEO_PAUSED, WIAVIDEO_VIDEO_PLAYING, __MIDL___MIDL_itf_wiavideo_xp_0000_0000_0001, _wia_WIAVIDEO_STATE, wia._wia_WIAVIDEO_STATE, wiavideo/WIAVIDEO_CREATING_VIDEO, wiavideo/WIAVIDEO_DESTROYING_VIDEO, wiavideo/WIAVIDEO_NO_VIDEO, wiavideo/WIAVIDEO_STATE, wiavideo/WIAVIDEO_VIDEO_CREATED, wiavideo/WIAVIDEO_VIDEO_PAUSED, wiavideo/WIAVIDEO_VIDEO_PLAYING
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wiavideo.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIAVIDEO_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wiavideo.h
+api_name:
+-	WIAVIDEO_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # __MIDL___MIDL_itf_wiavideo_xp_0000_0000_0001 enumeration

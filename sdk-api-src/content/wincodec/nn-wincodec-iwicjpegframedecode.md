@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:wincodec.IWICJpegFrameDecode
+title: IWICJpegFrameDecode
+author: windows-sdk-content
+description: Exposes methods for decoding JPEG images. Provides access to the Start Of Frame (SOF) header, Start of Scan (SOS) header, the Huffman and Quantization tables, and the compressed JPEG JPEG data. Also enables indexing for efficient random access.
+old-location: wic\iwicjpegframedecode.htm
+old-project: wic
+ms.assetid: E6310320-53A8-40F1-8964-D21D8054E1B8
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging Component], IWICJpegFrameDecode interface [Windows Imaging Component],described, wic.iwicjpegframedecode, wincodec/IWICJpegFrameDecode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodec.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.dll
+api_name:
+-	IWICJpegFrameDecode
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWICJpegFrameDecode interface

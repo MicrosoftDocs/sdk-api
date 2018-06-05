@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dhcpsapi.DhcpEnumClassesV6
+title: DhcpEnumClassesV6 function
+author: windows-sdk-content
+description: Enumerates the user or vendor classes configured for the DHCPv6 server.
+old-location: dhcp\dhcpenumclassesv6.htm
+old-project: DHCP
+ms.assetid: 3b916df3-ae17-4e7d-9cbc-d70763a8b856
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DhcpEnumClassesV6, DhcpEnumClassesV6 function [DHCP], dhcp.dhcpenumclassesv6, dhcpsapi/DhcpEnumClassesV6
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QuarantineStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dhcpsapi.dll
+api_name:
+-	DhcpEnumClassesV6
+product: Windows
+targetos: Windows
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 ---
 
 # DhcpEnumClassesV6 function

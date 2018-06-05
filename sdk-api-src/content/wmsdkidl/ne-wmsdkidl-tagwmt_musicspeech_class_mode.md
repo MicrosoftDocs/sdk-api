@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wmsdkidl.tagWMT_MUSICSPEECH_CLASS_MODE
+title: tagWMT_MUSICSPEECH_CLASS_MODE
+author: windows-sdk-content
+description: The WMT_MUSICSPEECH_CLASS_MODE enumeration type defines the types of compression supported by the Windows Media Audio 9 Voice codec.
+old-location: wmformat\wmt_musicspeech_class_mode.htm
+old-project: wmformat
+ms.assetid: 9ca744a1-1d85-4609-8f5f-d074e46cef45
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WMT_MS_CLASS_MIXED, WMT_MS_CLASS_MUSIC, WMT_MS_CLASS_SPEECH, WMT_MUSICSPEECH_CLASS_MODE, WMT_MUSICSPEECH_CLASS_MODE enumeration [windows Media Format], tagWMT_MUSICSPEECH_CLASS_MODE, wmformat.wmt_musicspeech_class_mode, wmsdkidl/WMT_MS_CLASS_MIXED, wmsdkidl/WMT_MS_CLASS_MUSIC, wmsdkidl/WMT_MS_CLASS_SPEECH, wmsdkidl/WMT_MUSICSPEECH_CLASS_MODE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMT_MUSICSPEECH_CLASS_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wmsdkidl.h
+api_name:
+-	WMT_MUSICSPEECH_CLASS_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagWMT_MUSICSPEECH_CLASS_MODE enumeration

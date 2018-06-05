@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winusb.WinUsb_Initialize
+title: WinUsb_Initialize function
+author: windows-sdk-content
+description: The WinUsb_Initialize function creates a WinUSB handle for the device specified by a file handle.
+old-location: buses\winusb_initialize.htm
+old-project: usbref
+ms.assetid: 258cf508-036a-4ade-95b2-4b36d1149ffd
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: WinUsb_Initialize, WinUsb_Initialize function [Buses], buses.winusb_initialize, winusb/WinUsb_Initialize, winusbfunc_f0a58fec-c4eb-49b7-81d0-89c891e10731.xml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winusb.h
+req.include-header: Winusb.h
+req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winusb.dll
+api_name:
+-	WinUsb_Initialize
+product: Windows
+targetos: Windows
+req.lib: Winusb.lib
+req.dll: Winusb.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WinUsb_Initialize function

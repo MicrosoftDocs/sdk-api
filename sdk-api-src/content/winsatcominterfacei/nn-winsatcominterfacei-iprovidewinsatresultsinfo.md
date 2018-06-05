@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:winsatcominterfacei.IProvideWinSATResultsInfo
+title: IProvideWinSATResultsInfo
+author: windows-sdk-content
+description: Gets information about the results of an assessment, for example, the base score and the date that the assessment was run.
+old-location: winsat\iprovidewinsatresultsinfo.htm
+old-project: WinSAT
+ms.assetid: bd15bc63-a918-43a7-9864-4206a0b6af84
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IProvideWinSATResultsInfo, IProvideWinSATResultsInfo interface [WinSAT], IProvideWinSATResultsInfo interface [WinSAT],described, winsat.iprovidewinsatresultsinfo, winsatcominterfacei/IProvideWinSATResultsInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: winsatcominterfacei.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINSAT_BITMAP_SIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Winsatapi.dll
+api_name:
+-	IProvideWinSATResultsInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IProvideWinSATResultsInfo interface

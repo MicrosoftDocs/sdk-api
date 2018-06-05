@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.tagDRAGLISTINFO
+title: tagDRAGLISTINFO
+author: windows-sdk-content
+description: Contains information about a drag event. The pointer to DRAGLISTINFO is passed as the lParam parameter of the drag list message.
+old-location: controls\DRAGLISTINFO.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\draglb\structures\draglistinfo.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPDRAGLISTINFO, DL_BEGINDRAG, DL_CANCELDRAG, DL_DRAGGING, DL_DROPPED, DRAGLISTINFO, DRAGLISTINFO structure [Windows Controls], LPDRAGLISTINFO, LPDRAGLISTINFO structure pointer [Windows Controls], _win32_DRAGLISTINFO, _win32_DRAGLISTINFO_cpp, commctrl/DRAGLISTINFO, commctrl/LPDRAGLISTINFO, controls.DRAGLISTINFO, controls._win32_DRAGLISTINFO, tagDRAGLISTINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRAGLISTINFO, *LPDRAGLISTINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	DRAGLISTINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagDRAGLISTINFO structure

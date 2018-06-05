@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmserver._SERVER_TRANSPORT_INFO_2
+title: "_SERVER_TRANSPORT_INFO_2"
+author: windows-sdk-content
+description: The SERVER_TRANSPORT_INFO_2 structure contains information about the specified transport protocol, including the transport name and address. This information level is valid only for the NetServerTransportAddEx function.
+old-location: netmgmt\server_transport_info_2_str.htm
+old-project: NetMgmt
+ms.assetid: b422eb71-1f93-432d-8283-81432edfe568
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPSERVER_TRANSPORT_INFO_2, *PSERVER_TRANSPORT_INFO_2, LPSERVER_TRANSPORT_INFO_2, LPSERVER_TRANSPORT_INFO_2 structure pointer [Network Management], PSERVER_TRANSPORT_INFO_2, PSERVER_TRANSPORT_INFO_2 structure pointer [Network Management], SERVER_TRANSPORT_INFO_2, SERVER_TRANSPORT_INFO_2 structure [Network Management], SVTI2_REMAP_PIPE_NAMES, SVTI2_SCOPED_NAME, _SERVER_TRANSPORT_INFO_2, _win32_server_transport_info_2_str, lmserver/LPSERVER_TRANSPORT_INFO_2, lmserver/PSERVER_TRANSPORT_INFO_2, lmserver/SERVER_TRANSPORT_INFO_2, netmgmt.server_transport_info_2_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmserver.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SERVER_TRANSPORT_INFO_2, *PSERVER_TRANSPORT_INFO_2, *LPSERVER_TRANSPORT_INFO_2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmserver.h
+api_name:
+-	SERVER_TRANSPORT_INFO_2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _SERVER_TRANSPORT_INFO_2 structure

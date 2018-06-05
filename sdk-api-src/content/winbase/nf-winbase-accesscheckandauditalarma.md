@@ -1,31 +1,57 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.AccessCheckAndAuditAlarmA
+title: AccessCheckAndAuditAlarmA function
+author: windows-sdk-content
+description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread.
+old-location: security\accesscheckandauditalarm.htm
+old-project: SecAuthZ
+ms.assetid: c2d144f4-9eeb-4723-9d28-97cfd1a07274
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AccessCheckAndAuditAlarm, AccessCheckAndAuditAlarm function [Security], AccessCheckAndAuditAlarmA, AccessCheckAndAuditAlarmW, _win32_accesscheckandauditalarm, security.accesscheckandauditalarm, winbase/AccessCheckAndAuditAlarm, winbase/AccessCheckAndAuditAlarmA, winbase/AccessCheckAndAuditAlarmW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: AccessCheckAndAuditAlarmW (Unicode) and AccessCheckAndAuditAlarmA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+-	API-MS-Win-Security-base-l1-1-0.dll
+-	API-MS-Win-Security-base-l1-2-0.dll
+-	MinKernelBase.dll
+-	API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+-	AccessCheckAndAuditAlarm
+-	AccessCheckAndAuditAlarmA
+-	AccessCheckAndAuditAlarmW
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # AccessCheckAndAuditAlarmA function

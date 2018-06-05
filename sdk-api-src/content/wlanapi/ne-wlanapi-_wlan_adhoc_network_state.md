@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wlanapi._WLAN_ADHOC_NETWORK_STATE
+title: "_WLAN_ADHOC_NETWORK_STATE"
+author: windows-sdk-content
+description: Specifies the connection state of an ad hoc network.
+old-location: nwifi\wlan_adhoc_network_state.htm
+old-project: NativeWiFi
+ms.assetid: 9f233e3b-6905-4b6b-84b4-202076d224f5
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_ADHOC_NETWORK_STATE, WLAN_ADHOC_NETWORK_STATE, WLAN_ADHOC_NETWORK_STATE enumeration [NativeWIFI], _WLAN_ADHOC_NETWORK_STATE, nwifi.wlan_adhoc_network_state, wlan_adhoc_network_state_connected, wlan_adhoc_network_state_formed, wlanapi/WLAN_ADHOC_NETWORK_STATE, wlanapi/wlan_adhoc_network_state_connected, wlanapi/wlan_adhoc_network_state_formed"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_ADHOC_NETWORK_STATE, *PWLAN_ADHOC_NETWORK_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wlanapi.h
+api_name:
+-	WLAN_ADHOC_NETWORK_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_ADHOC_NETWORK_STATE enumeration

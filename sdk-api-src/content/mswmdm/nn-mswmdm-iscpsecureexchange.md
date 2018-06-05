@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:mswmdm.ISCPSecureExchange
+title: ISCPSecureExchange
+author: windows-sdk-content
+description: The ISCPSecureExchange interface is used to exchange secured content and rights associated with content. The secure content provider implements this interface and secure Windows Media Device Manager implementations call its methods.
+old-location: wmdm\iscpsecureexchange.htm
+old-project: WMDM
+ms.assetid: 8c61e1a0-18fc-4ae9-881a-0362166012d9
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ISCPSecureExchange, ISCPSecureExchange interface [windows Media Device Manager], ISCPSecureExchange interface [windows Media Device Manager],described, ISCPSecureExchangeInterface, mswmdm/ISCPSecureExchange, wmdm.iscpsecureexchange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mswmdm.h
+api_name:
+-	ISCPSecureExchange
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISCPSecureExchange interface

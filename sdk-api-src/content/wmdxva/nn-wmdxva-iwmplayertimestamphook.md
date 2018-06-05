@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:wmdxva.IWMPlayerTimestampHook
+title: IWMPlayerTimestampHook
+author: windows-sdk-content
+description: The IWMPlayerTimestampHook interface is implemented on a player's source filter.
+old-location: wmformat\iwmplayertimestamphook.htm
+old-project: wmformat
+ms.assetid: 8a1b3b1f-1c9c-429f-958e-757b383c7e2a
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWMPlayerTimestampHook, IWMPlayerTimestampHook interface [windows Media Format], IWMPlayerTimestampHook interface [windows Media Format],described, IWMPlayerTimestampHookInterface, wmdxva/IWMPlayerTimestampHook, wmformat.iwmplayertimestamphook
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wmdxva.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ASF_INDEX_IDENTIFIER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmdxva.h
+api_name:
+-	IWMPlayerTimestampHook
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPlayerTimestampHook interface

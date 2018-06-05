@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wtsapi32._WTS_PROCESS_INFO_EXW
+title: "_WTS_PROCESS_INFO_EXW"
+author: windows-sdk-content
+description: Contains extended information about a process running on a Remote Desktop Session Host (RD Session Host) server.
+old-location: termserv\wts_process_info_ex.htm
+old-project: TermServ
+ms.assetid: a678d249-4943-4d2b-9cea-87ce20177c75
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PWTS_PROCESS_INFO_EXW, PWTS_PROCESS_INFO_EX, PWTS_PROCESS_INFO_EX structure pointer [Remote Desktop Services], WTS_PROCESS_INFO_EX, WTS_PROCESS_INFO_EX structure [Remote Desktop Services], WTS_PROCESS_INFO_EXA, WTS_PROCESS_INFO_EXW, _WTS_PROCESS_INFO_EXW, termserv.wts_process_info_ex, wtsapi32/PWTS_PROCESS_INFO_EX, wtsapi32/WTS_PROCESS_INFO_EX, wtsapi32/WTS_PROCESS_INFO_EXA, wtsapi32/WTS_PROCESS_INFO_EXW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WTS_PROCESS_INFO_EXW (Unicode) and WTS_PROCESS_INFO_EXA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_PROCESS_INFO_EXW, *PWTS_PROCESS_INFO_EXW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsapi32.h
+api_name:
+-	WTS_PROCESS_INFO_EX
+-	WTS_PROCESS_INFO_EXA
+-	WTS_PROCESS_INFO_EXW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTS_PROCESS_INFO_EXW structure

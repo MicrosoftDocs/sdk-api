@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winddi.DrvCopyBits
+title: DrvCopyBits function
+author: windows-sdk-content
+description: The DrvCopyBits function translates between device-managed raster surfaces and GDI standard-format bitmaps.
+old-location: display\drvcopybits.htm
+old-project: display
+ms.assetid: c2d42c7a-3d6e-416c-a194-2228cc1b0fd9
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DrvCopyBits, DrvCopyBits function [Display Devices], ddifncs_95bc17c2-b4ae-4883-8866-cd9dded1f30d.xml, display.drvcopybits, winddi/DrvCopyBits
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	DrvCopyBits
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DrvCopyBits function

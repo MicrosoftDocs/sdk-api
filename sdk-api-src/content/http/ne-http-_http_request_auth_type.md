@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:http._HTTP_REQUEST_AUTH_TYPE
+title: "_HTTP_REQUEST_AUTH_TYPE"
+author: windows-sdk-content
+description: The HTTP_REQUEST_AUTH_TYPE enumeration defines the authentication types supported by the HTTP Server API.This enumeration is used in the HTTP_REQUEST_AUTH_INFO structure.
+old-location: http\http_request_auth_type.htm
+old-project: Http
+ms.assetid: e0147da5-7de2-4ea8-abc5-61c814ee7c55
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_REQUEST_AUTH_TYPE, *PHTTP_REQUEST_AUTH_TYPE enumeration [HTTP], HTTP_REQUEST_AUTH_TYPE, HTTP_REQUEST_AUTH_TYPE enumeration [HTTP], HttpRequestAuthTypeBasic, HttpRequestAuthTypeDigest, HttpRequestAuthTypeKerberos, HttpRequestAuthTypeNTLM, HttpRequestAuthTypeNegotiate, HttpRequestAuthTypeNone, _HTTP_REQUEST_AUTH_TYPE, http.http_request_auth_type, http/*PHTTP_REQUEST_AUTH_TYPE, http/HTTP_REQUEST_AUTH_TYPE, http/HttpRequestAuthTypeBasic, http/HttpRequestAuthTypeDigest, http/HttpRequestAuthTypeKerberos, http/HttpRequestAuthTypeNTLM, http/HttpRequestAuthTypeNegotiate, http/HttpRequestAuthTypeNone"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_REQUEST_AUTH_TYPE, *PHTTP_REQUEST_AUTH_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_REQUEST_AUTH_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_REQUEST_AUTH_TYPE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.IAMPushSource.SetPushSourceFlags
+title: IAMPushSource::SetPushSourceFlags
+author: windows-sdk-content
+description: The SetPushSourceFlags method sets flags that specify the behavior of the filter. Currently, applications should not call this method, because request flags are not supported and an application should not override the flags set by the filter.
+old-location: dshow\iampushsource_setpushsourceflags.htm
+old-project: DirectShow
+ms.assetid: c07bbf7e-8d81-4eba-a5a1-fde02e8e8c35
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IAMPushSource interface [DirectShow],SetPushSourceFlags method, IAMPushSource.SetPushSourceFlags, IAMPushSource::SetPushSourceFlags, IAMPushSourceSetPushSourceFlags, SetPushSourceFlags, SetPushSourceFlags method [DirectShow], SetPushSourceFlags method [DirectShow],IAMPushSource interface, dshow.iampushsource_setpushsourceflags, strmif/IAMPushSource::SetPushSourceFlags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IAMPushSource.SetPushSourceFlags
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IAMPushSource::SetPushSourceFlags

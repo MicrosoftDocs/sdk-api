@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITForwardInformation.get_ForwardTypeCaller
+title: ITForwardInformation::get_ForwardTypeCaller
+author: windows-sdk-content
+description: The get_ForwardTypeCaller method gets the type of caller for a given forwarding mode.
+old-location: tapi3\itforwardinformation_get_forwardtypecaller.htm
+old-project: Tapi
+ms.assetid: 3fca5b5c-dd1e-4c8d-878a-99a7e3ec45f9
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITForwardInformation interface [TAPI 2.2],get_ForwardTypeCaller method, ITForwardInformation.get_ForwardTypeCaller, ITForwardInformation::get_ForwardTypeCaller, _tapi3_itforwardinformation_get_forwardtypecaller, get_ForwardTypeCaller, get_ForwardTypeCaller method [TAPI 2.2], get_ForwardTypeCaller method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_get_forwardtypecaller, tapi3if/ITForwardInformation::get_ForwardTypeCaller
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITForwardInformation.get_ForwardTypeCaller
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITForwardInformation::get_ForwardTypeCaller

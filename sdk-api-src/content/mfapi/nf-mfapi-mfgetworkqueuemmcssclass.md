@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfapi.MFGetWorkQueueMMCSSClass
+title: MFGetWorkQueueMMCSSClass function
+author: windows-sdk-content
+description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associated with this work queue.
+old-location: mf\mfgetworkqueuemmcssclass.htm
+old-project: medfound
+ms.assetid: 97b48d18-3844-4b97-9bab-c5fc38eb927e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 97b48d18-3844-4b97-9bab-c5fc38eb927e, MFGetWorkQueueMMCSSClass, MFGetWorkQueueMMCSSClass function [Media Foundation], mf.mfgetworkqueuemmcssclass, mfapi/MFGetWorkQueueMMCSSClass
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	mfplat.dll
+api_name:
+-	MFGetWorkQueueMMCSSClass
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MFGetWorkQueueMMCSSClass function

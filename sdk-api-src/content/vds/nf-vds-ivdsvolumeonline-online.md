@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vds.IVdsVolumeOnline.Online
+title: IVdsVolumeOnline::Online
+author: windows-sdk-content
+description: Returns a volume to the healthy state, if possible. This method is supported only for dynamic disks.
+old-location: base\ivdsvolumeonline_online.htm
+old-project: VDS
+ms.assetid: 8a207e61-5a13-41ad-bad9-11ddf2844a9b
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IVdsVolumeOnline interface,Online method, IVdsVolumeOnline.Online, IVdsVolumeOnline::Online, Online, Online method, Online method,IVdsVolumeOnline interface, base.ivdsvolumeonline_online, vds/IVdsVolumeOnline::Online
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VOLUME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsVolumeOnline.Online
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsVolumeOnline::Online

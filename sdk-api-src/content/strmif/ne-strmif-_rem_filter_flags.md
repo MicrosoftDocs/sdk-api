@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif._REM_FILTER_FLAGS
+title: "_REM_FILTER_FLAGS"
+author: windows-sdk-content
+description: Specifies how to remove a filter from the filter graph.
+old-location: dshow\rem_filter_flags.htm
+old-project: DirectShow
+ms.assetid: 0bc91914-fa43-4ab7-a85e-30590a717c47
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: REMFILTERF_LEAVECONNECTED, REM_FILTER_FLAGS , REM_FILTER_FLAGSEnumeration, _REM_FILTER_FLAGS, _REM_FILTER_FLAGS enumeration [DirectShow], dshow.rem_filter_flags, strmif/REMFILTERF_LEAVECONNECTED, strmif/_REM_FILTER_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	_REM_FILTER_FLAGS
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # _REM_FILTER_FLAGS enumeration

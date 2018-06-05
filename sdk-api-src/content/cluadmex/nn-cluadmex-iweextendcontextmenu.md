@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:cluadmex.IWEExtendContextMenu
+title: IWEExtendContextMenu
+author: windows-sdk-content
+description: Implement the IWEExtendContextMenu interface to extend a Failover Cluster Administrator context menu for a cluster object.
+old-location: mscs\iweextendcontextmenu.htm
+old-project: MsCS
+ms.assetid: a41adde0-fc4f-4997-bb56-5fa43ba62fdb
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IWEExtendContextMenu, IWEExtendContextMenu interface [Failover Cluster], IWEExtendContextMenu interface [Failover Cluster],described, _wolf_iweextendcontextmenu, cluadmex/IWEExtendContextMenu, mscs.iweextendcontextmenu
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: cluadmex.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CluAdmEx.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: Sources
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	cluadmex.h
+api_name:
+-	IWEExtendContextMenu
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IWEExtendContextMenu interface

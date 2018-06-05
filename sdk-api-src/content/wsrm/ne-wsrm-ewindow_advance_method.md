@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wsrm.eWINDOW_ADVANCE_METHOD
+title: eWINDOW_ADVANCE_METHOD
+author: windows-sdk-content
+description: The eWINDOW_ADVANCE_METHOD enumeration specifies the window advance mode used for Reliable Multicast.
+old-location: winsock\ewindow_advance_method.htm
+old-project: WinSock
+ms.assetid: cd6f0809-ca6b-4a83-ae21-aea1cb4a101a
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: E_WINDOW_ADVANCE_BY_TIME, E_WINDOW_USE_AS_DATA_CACHE, eWINDOW_ADVANCE_METHOD, eWINDOW_ADVANCE_METHOD enumeration [Winsock], winsock.ewindow_advance_method, wsrm/E_WINDOW_ADVANCE_BY_TIME, wsrm/E_WINDOW_USE_AS_DATA_CACHE, wsrm/eWINDOW_ADVANCE_METHOD
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wsrm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WSManDisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wsrm.h
+api_name:
+-	eWINDOW_ADVANCE_METHOD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # eWINDOW_ADVANCE_METHOD enumeration

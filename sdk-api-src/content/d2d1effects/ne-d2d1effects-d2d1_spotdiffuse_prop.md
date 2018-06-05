@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d2d1effects.D2D1_SPOTDIFFUSE_PROP
+title: D2D1_SPOTDIFFUSE_PROP
+author: windows-sdk-content
+description: Identifiers for properties of the Spot-diffuse lighting effect.
+old-location: direct2d\d2d1_spotdiffuse_prop.htm
+old-project: Direct2D
+ms.assetid: 64F7B03C-DD29-4B23-9C8B-2D0390AD61B0
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_SPOTDIFFUSE_PROP, D2D1_SPOTDIFFUSE_PROP enumeration [Direct2D], D2D1_SPOTDIFFUSE_PROP_COLOR, D2D1_SPOTDIFFUSE_PROP_DIFFUSE_CONSTANT, D2D1_SPOTDIFFUSE_PROP_FOCUS, D2D1_SPOTDIFFUSE_PROP_KERNEL_UNIT_LENGTH, D2D1_SPOTDIFFUSE_PROP_LIGHT_POSITION, D2D1_SPOTDIFFUSE_PROP_LIMITING_CONE_ANGLE, D2D1_SPOTDIFFUSE_PROP_POINTS_AT, D2D1_SPOTDIFFUSE_PROP_SCALE_MODE, D2D1_SPOTDIFFUSE_PROP_SURFACE_SCALE, d2d1effects/D2D1_SPOTDIFFUSE_PROP, d2d1effects/D2D1_SPOTDIFFUSE_PROP_COLOR, d2d1effects/D2D1_SPOTDIFFUSE_PROP_DIFFUSE_CONSTANT, d2d1effects/D2D1_SPOTDIFFUSE_PROP_FOCUS, d2d1effects/D2D1_SPOTDIFFUSE_PROP_KERNEL_UNIT_LENGTH, d2d1effects/D2D1_SPOTDIFFUSE_PROP_LIGHT_POSITION, d2d1effects/D2D1_SPOTDIFFUSE_PROP_LIMITING_CONE_ANGLE, d2d1effects/D2D1_SPOTDIFFUSE_PROP_POINTS_AT, d2d1effects/D2D1_SPOTDIFFUSE_PROP_SCALE_MODE, d2d1effects/D2D1_SPOTDIFFUSE_PROP_SURFACE_SCALE, direct2d.d2d1_spotdiffuse_prop
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1effects.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_SPOTDIFFUSE_PROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1effects.h
+api_name:
+-	D2D1_SPOTDIFFUSE_PROP
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D2D1_SPOTDIFFUSE_PROP enumeration

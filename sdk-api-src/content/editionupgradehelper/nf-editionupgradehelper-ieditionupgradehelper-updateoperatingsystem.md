@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:editionupgradehelper.IEditionUpgradeHelper.UpdateOperatingSystem
+title: IEditionUpgradeHelper::UpdateOperatingSystem
+author: windows-sdk-content
+description: Upgrades the installed edition of the operating system to the edition that the user purchased in the Windows Store, or gets a genuine copy of the operating system.
+old-location: winprog\ieditionupgradehelper_updateoperatingsystem.htm
+old-project: DevNotes
+ms.assetid: C7A97C7E-654D-4717-975F-41B05F3BE901
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IEditionUpgradeHelper interface [Windows API],UpdateOperatingSystem method, IEditionUpgradeHelper.UpdateOperatingSystem, IEditionUpgradeHelper::UpdateOperatingSystem, UpdateOperatingSystem, UpdateOperatingSystem method [Windows API], UpdateOperatingSystem method [Windows API],IEditionUpgradeHelper interface, editionupgradehelper/IEditionUpgradeHelper::UpdateOperatingSystem, winprog.ieditionupgradehelper_updateoperatingsystem
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: editionupgradehelper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Editionupgradehelper.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EAP_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	editionupgradehelper.h
+api_name:
+-	IEditionUpgradeHelper.UpdateOperatingSystem
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IEditionUpgradeHelper::UpdateOperatingSystem

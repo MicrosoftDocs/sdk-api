@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._MSV1_0_SUPPLEMENTAL_CREDENTIAL
+title: "_MSV1_0_SUPPLEMENTAL_CREDENTIAL"
+author: windows-sdk-content
+description: The MSV1_0_SUPPLEMENTAL_CREDENTIAL structure is used to pass credentials into MSV1_0 from Kerberos or custom authentication package.
+old-location: security\msv1_0_supplemental_credential.htm
+old-project: SecAuthN
+ms.assetid: 63848b26-b611-4ae6-8bc3-fc124a825d3d
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PMSV1_0_SUPPLEMENTAL_CREDENTIAL, MSV1_0_CRED_LM_PRESENT, MSV1_0_CRED_NT_PRESENT, MSV1_0_CRED_VERSION, MSV1_0_SUPPLEMENTAL_CREDENTIAL, MSV1_0_SUPPLEMENTAL_CREDENTIAL structure [Security], PMSV1_0_SUPPLEMENTAL_CREDENTIAL, PMSV1_0_SUPPLEMENTAL_CREDENTIAL structure pointer [Security], _MSV1_0_SUPPLEMENTAL_CREDENTIAL, _lsa_msv1_0_supplemental_credential, ntsecapi/MSV1_0_SUPPLEMENTAL_CREDENTIAL, ntsecapi/PMSV1_0_SUPPLEMENTAL_CREDENTIAL, security.msv1_0_supplemental_credential"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSV1_0_SUPPLEMENTAL_CREDENTIAL, *PMSV1_0_SUPPLEMENTAL_CREDENTIAL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	MSV1_0_SUPPLEMENTAL_CREDENTIAL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _MSV1_0_SUPPLEMENTAL_CREDENTIAL structure

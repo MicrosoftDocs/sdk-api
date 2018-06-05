@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:shdeprecated.ITravelEntry.Invoke
+title: ITravelEntry::Invoke
+author: windows-sdk-content
+description: Deprecated. Invokes the travel entry, navigating to that page.
+old-location: shell\ITravelEntry_Invoke.htm
+old-project: shell
+ms.assetid: 21af8d98-f7b6-4204-b855-a4789492a882
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ITravelEntry interface [Windows Shell],Invoke method, ITravelEntry.Invoke, ITravelEntry::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],ITravelEntry interface, shdeprecated/ITravelEntry::Invoke, shell.ITravelEntry_Invoke, zone_ITravelEntry_Invoke
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shdeprecated.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shdeprecated.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BNSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shdeprecated.h
+api_name:
+-	ITravelEntry.Invoke
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 4.0
 ---
 
 # ITravelEntry::Invoke

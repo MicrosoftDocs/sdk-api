@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:slpublic._SL_GENUINE_STATE
+title: "_SL_GENUINE_STATE"
+author: windows-sdk-content
+description: Specifies the state of an application installation.
+old-location: security\sl_genuine_state.htm
+old-project: SecSLApi
+ms.assetid: 3be69be1-289c-466a-9271-5309fd1319fe
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: SL_GENUINE_STATE, SL_GENUINE_STATE enumeration [Security], SL_GEN_STATE_INVALID_LICENSE, SL_GEN_STATE_IS_GENUINE, SL_GEN_STATE_LAST, SL_GEN_STATE_OFFLINE, SL_GEN_STATE_TAMPERED, _SL_GENUINE_STATE, security.sl_genuine_state, slpublic/SL_GENUINE_STATE, slpublic/SL_GEN_STATE_INVALID_LICENSE, slpublic/SL_GEN_STATE_IS_GENUINE, slpublic/SL_GEN_STATE_LAST, slpublic/SL_GEN_STATE_OFFLINE, slpublic/SL_GEN_STATE_TAMPERED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: slpublic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shtypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SL_GENUINE_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Slpublic.h
+api_name:
+-	SL_GENUINE_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SL_GENUINE_STATE enumeration

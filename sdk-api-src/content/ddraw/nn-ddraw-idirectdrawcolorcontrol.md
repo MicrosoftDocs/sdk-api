@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:ddraw.IDirectDrawColorControl
+title: IDirectDrawColorControl
+author: windows-sdk-content
+description: Applications use the methods of the IDirectDrawColorControl interface to get and set color controls.
+old-location: directdraw\idirectdrawcolorcontrol.htm
+old-project: directdraw
+ms.assetid: e9bd0dc6-2d8a-452b-894d-72a3d7a20100
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: IDirectDrawColorControl, IDirectDrawColorControl interface [DirectDraw], IDirectDrawColorControl interface [DirectDraw],described, ddraw/IDirectDrawColorControl, directdraw.idirectdrawcolorcontrol
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ddraw.dll
+api_name:
+-	IDirectDrawColorControl
+product: Windows
+targetos: Windows
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 ---
 
 # IDirectDrawColorControl interface

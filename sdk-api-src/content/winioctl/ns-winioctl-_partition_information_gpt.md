@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._PARTITION_INFORMATION_GPT
+title: "_PARTITION_INFORMATION_GPT"
+author: windows-sdk-content
+description: Contains GUID partition table (GPT) partition information.
+old-location: fs\partition_information_gpt_str.htm
+old-project: FileIO
+ms.assetid: 373b4eb3-af6d-4112-9787-f14c19972189
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PPARTITION_INFORMATION_GPT, GPT_ATTRIBUTE_PLATFORM_REQUIRED, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, PARTITION_BASIC_DATA_GUID, PARTITION_ENTRY_UNUSED_GUID, PARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT structure [Files], PARTITION_LDM_DATA_GUID, PARTITION_LDM_METADATA_GUID, PARTITION_MSFT_RECOVERY_GUID, PARTITION_MSFT_RESERVED_GUID, PARTITION_SYSTEM_GUID, PPARTITION_INFORMATION_GPT, PPARTITION_INFORMATION_GPT structure pointer [Files], SET_PARTITION_INFORMATION_GPT, _PARTITION_INFORMATION_GPT, _win32_partition_information_gpt_str, base.partition_information_gpt_str, fs.partition_information_gpt_str, winioctl/PARTITION_INFORMATION_GPT, winioctl/PPARTITION_INFORMATION_GPT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PARTITION_INFORMATION_GPT, *PPARTITION_INFORMATION_GPT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	PARTITION_INFORMATION_GPT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _PARTITION_INFORMATION_GPT structure

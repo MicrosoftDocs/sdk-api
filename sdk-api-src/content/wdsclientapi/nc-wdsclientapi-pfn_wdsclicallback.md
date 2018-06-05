@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:wdsclientapi.PFN_WdsCliCallback
+title: PFN_WdsCliCallback
+author: windows-sdk-content
+description: Defines a callback function that WDS can call for progress notification and error messages during a file or image transfer.
+old-location: wds\pfn_wdsclicallback.htm
+old-project: Wds
+ms.assetid: b071ba1c-5860-4492-ad86-71eaeeb74df4
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: PFN_WdsCliCallback, PFN_WdsCliCallback callback, PFN_WdsCliCallback callback function [Windows Deployment Services], WDS_CLI_MSG_COMPLETE, WDS_CLI_MSG_PROGRESS, WDS_CLI_MSG_START, WDS_CLI_MSG_TEXT, wds.pfn_wdsclicallback, wdsclientapi/PFN_WdsCliCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: wdsclientapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	WdsClientAPI.h
+api_name:
+-	PFN_WdsCliCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PFN_WdsCliCallback callback function

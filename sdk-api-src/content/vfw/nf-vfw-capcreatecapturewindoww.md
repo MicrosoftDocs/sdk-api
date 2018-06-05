@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vfw.capCreateCaptureWindowW
+title: capCreateCaptureWindowW function
+author: windows-sdk-content
+description: The capCreateCaptureWindow function creates a capture window.
+old-location: multimedia\capcreatecapturewindow.htm
+old-project: Multimedia
+ms.assetid: b08785f8-9850-4d3b-acbf-b065f45910e1
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "_win32_capCreateCaptureWindow, capCreateCaptureWindow, capCreateCaptureWindow function [Windows Multimedia], capCreateCaptureWindowA, capCreateCaptureWindowW, multimedia.capcreatecapturewindow, vfw/capCreateCaptureWindow, vfw/capCreateCaptureWindowA, vfw/capCreateCaptureWindowW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: capCreateCaptureWindowW (Unicode) and capCreateCaptureWindowA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Avicap32.dll
+api_name:
+-	capCreateCaptureWindow
+-	capCreateCaptureWindowA
+-	capCreateCaptureWindowW
+product: Windows
+targetos: Windows
+req.lib: Vfw32.lib
+req.dll: Avicap32.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # capCreateCaptureWindowW function

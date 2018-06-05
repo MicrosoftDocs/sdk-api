@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509EnrollmentStatus.get_Display
+title: IX509EnrollmentStatus::get_Display
+author: windows-sdk-content
+description: Specifies or retrieves a value that indicates whether to display the status information in a user interface.
+old-location: security\ix509enrollmentstatus_display_property.htm
+old-project: SecCertEnroll
+ms.assetid: 91ac74af-8e59-42fc-bca8-d7ef96a1fed0
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: Display property [Security], Display property [Security],IX509EnrollmentStatus interface, IX509EnrollmentStatus interface [Security],Display property, IX509EnrollmentStatus.Display, IX509EnrollmentStatus.get_Display, IX509EnrollmentStatus::Display, IX509EnrollmentStatus::get_Display, IX509EnrollmentStatus::put_Display, certenroll/IX509EnrollmentStatus::Display, certenroll/IX509EnrollmentStatus::get_Display, certenroll/IX509EnrollmentStatus::put_Display, get_Display, security.ix509enrollmentstatus_display_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509EnrollmentStatus.Display
+-	IX509EnrollmentStatus.get_Display
+-	IX509EnrollmentStatus.put_Display
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IX509EnrollmentStatus::get_Display

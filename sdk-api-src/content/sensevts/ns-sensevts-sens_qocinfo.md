@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:sensevts.SENS_QOCINFO
+title: SENS_QOCINFO
+author: windows-sdk-content
+description: The SENS_QOCINFO structure is used by the ISensNetwork::ConnectionMade method. This structure contains Quality of Connection information to the sink object in an application that subscribes to SENS.
+old-location: sens\sens_qocinfo.htm
+old-project: Sens
+ms.assetid: 33f5e790-1100-46a9-a90c-3fc51379c175
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPSENS_QOCINFO, SENS_QOCINFO, SENS_QOCINFO structure [SENS], _zaw_sens_qocinfo, sens.sens_qocinfo, sensevts/SENS_QOCINFO, syncmgr.sens_qocinfo"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: sensevts.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Sensevts.tlb
+tech.root: 
+req.typenames: SENS_QOCINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Sensevts.h
+api_name:
+-	SENS_QOCINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SENS_QOCINFO structure

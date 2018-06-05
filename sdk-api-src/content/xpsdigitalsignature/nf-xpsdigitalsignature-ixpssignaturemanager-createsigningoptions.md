@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xpsdigitalsignature.IXpsSignatureManager.CreateSigningOptions
+title: IXpsSignatureManager::CreateSigningOptions
+author: windows-sdk-content
+description: Creates a new IXpsSigningOptions interface.
+old-location: xps\ixpssignaturemanager_createsigningoptions.htm
+old-project: printdocs
+ms.assetid: 0f64f46a-905a-48cf-9e7a-f6cc1b2d6450
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: CreateSigningOptions, CreateSigningOptions method [XPS Documents and Packaging], CreateSigningOptions method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],CreateSigningOptions method, IXpsSignatureManager.CreateSigningOptions, IXpsSignatureManager::CreateSigningOptions, xps.ixpssignaturemanager_createsigningoptions, xpsdigitalsignature/IXpsSignatureManager::CreateSigningOptions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xpsdigitalsignature.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XpsDigitalSignature.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XPS_SIGN_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xpsdigitalsignature.h
+api_name:
+-	IXpsSignatureManager.CreateSigningOptions
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IXpsSignatureManager::CreateSigningOptions

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msopc.IOpcSignatureCustomObjectEnumerator.MovePrevious
+title: IOpcSignatureCustomObjectEnumerator::MovePrevious
+author: windows-sdk-content
+description: Moves the current position of the enumerator to the previous IOpcSignatureCustomObject interface pointer.
+old-location: opc\iopcsignaturecustomobjectenumerator_moveprevious.htm
+old-project: OPC
+ms.assetid: 1143280b-4c92-44cf-8e2d-acd26527f264
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignatureCustomObjectEnumerator.MovePrevious, IOpcSignatureCustomObjectEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, msopc/IOpcSignatureCustomObjectEnumerator::MovePrevious, opc.iopcsignaturecustomobjectenumerator_moveprevious
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OpcDigitalSignature.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPC_SIGNATURE_TIME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msopc.h
+api_name:
+-	IOpcSignatureCustomObjectEnumerator.MovePrevious
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOpcSignatureCustomObjectEnumerator::MovePrevious

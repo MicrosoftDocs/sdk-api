@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_BEGINMOCOMPFRAMEDATA
+title: "_DD_BEGINMOCOMPFRAMEDATA"
+author: windows-sdk-content
+description: The DDHAL_BEGINMOCOMPFRAMEDATA structure contains the frame information required to start decoding.
+old-location: display\dd_beginmocompframedata.htm
+old-project: display
+ms.assetid: 4a75642d-87e3-4c95-be67-2d494bf6122e
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_BEGINMOCOMPFRAMEDATA, DD_BEGINMOCOMPFRAMEDATA, DD_BEGINMOCOMPFRAMEDATA structure [Display Devices], _DD_BEGINMOCOMPFRAMEDATA, ddrawint/DD_BEGINMOCOMPFRAMEDATA, ddstrcts_6e61d707-7245-4d0d-aaa5-f63bb610d2e5.xml, display.dd_beginmocompframedata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_BEGINMOCOMPFRAMEDATA, DD_BEGINMOCOMPFRAMEDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_BEGINMOCOMPFRAMEDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_BEGINMOCOMPFRAMEDATA structure

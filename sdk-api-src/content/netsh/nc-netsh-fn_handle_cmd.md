@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:netsh.FN_HANDLE_CMD
+title: FN_HANDLE_CMD
+author: windows-sdk-content
+description: Is the command function for helpers.
+old-location: netshell\fn_handle_cmd.htm
+old-project: NetShell
+ms.assetid: 5058e202-9ad4-4789-97db-3c13b4a1c337
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: FN_HANDLE_CMD, FN_HANDLE_CMD callback, FN_HANDLE_CMD callback function [NetShell], SampleCommand, _netsh_fn_handle_cmd, netsh/FN_HANDLE_CMD, netshell.fn_handle_cmd
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: netsh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NLM_USAGE_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Netsh.h
+api_name:
+-	FN_HANDLE_CMD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # FN_HANDLE_CMD callback function

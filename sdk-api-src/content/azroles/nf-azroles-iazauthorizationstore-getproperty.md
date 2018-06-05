@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzAuthorizationStore.GetProperty
+title: IAzAuthorizationStore::GetProperty
+author: windows-sdk-content
+description: Returns the AzAuthorizationStore object property with the specified property ID.
+old-location: security\azauthorizationstore_getproperty.htm
+old-project: SecAuthZ
+ms.assetid: 93bd6813-cc46-4f48-b39b-1e67cda562ff
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_APPLY_STORE_SACL, AZ_PROP_AZSTORE_DOMAIN_TIMEOUT, AZ_PROP_AZSTORE_MAX_SCRIPT_ENGINES, AZ_PROP_AZSTORE_SCRIPT_ENGINE_TIMEOUT, AZ_PROP_AZSTORE_TARGET_MACHINE, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_GENERATE_AUDITS, AZ_PROP_WRITABLE, AzAuthorizationStore object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzAuthorizationStore object, GetProperty method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],GetProperty method, IAzAuthorizationStore.GetProperty, IAzAuthorizationStore::GetProperty, azroles/IAzAuthorizationStore::GetProperty, security.azauthorizationstore_getproperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	AzAuthorizationStore.GetProperty
+-	IAzAuthorizationStore.GetProperty
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzAuthorizationStore::GetProperty

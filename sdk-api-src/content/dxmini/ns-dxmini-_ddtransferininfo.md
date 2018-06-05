@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dxmini._DDTRANSFERININFO
+title: "_DDTRANSFERININFO"
+author: windows-sdk-content
+description: The DDTRANSFERININFO structure contains the transfer information for the surface
+old-location: display\ddtransferininfo.htm
+old-project: display
+ms.assetid: 9e5f938d-0db6-4df6-a9c2-49840fef8c03
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDDTRANSFERININFO, DDTRANSFERININFO, DDTRANSFERININFO structure [Display Devices], PDDTRANSFERININFO, PDDTRANSFERININFO structure pointer [Display Devices], Video_Structs_2585fa9a-a3ea-4bc0-a5b8-1911262203ba.xml, _DDTRANSFERININFO, display.ddtransferininfo, dxmini/DDTRANSFERININFO, dxmini/PDDTRANSFERININFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDTRANSFERININFO, *PDDTRANSFERININFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxmini.h
+api_name:
+-	DDTRANSFERININFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DDTRANSFERININFO structure

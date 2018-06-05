@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dxgi.DXGI_SWAP_EFFECT
+title: DXGI_SWAP_EFFECT
+author: windows-sdk-content
+description: Options for handling pixels in a display surface after calling IDXGISwapChain1::Present1.
+old-location: direct3ddxgi\DXGI_SWAP_EFFECT.htm
+old-project: direct3ddxgi
+ms.assetid: VS|directx_sdk|~\dxgi_swap_effect.htm
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGI_SWAP_EFFECT, DXGI_SWAP_EFFECT enumeration [DXGI], DXGI_SWAP_EFFECT_DISCARD, DXGI_SWAP_EFFECT_FLIP_DISCARD, DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL, DXGI_SWAP_EFFECT_SEQUENTIAL, c9248b7c-731f-95e1-6c64-22fdef69d697, direct3ddxgi.DXGI_SWAP_EFFECT, dxgi/DXGI_SWAP_EFFECT, dxgi/DXGI_SWAP_EFFECT_DISCARD, dxgi/DXGI_SWAP_EFFECT_FLIP_DISCARD, dxgi/DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL, dxgi/DXGI_SWAP_EFFECT_SEQUENTIAL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxgi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_SWAP_EFFECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DXGI.h
+api_name:
+-	DXGI_SWAP_EFFECT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DXGI_SWAP_EFFECT enumeration

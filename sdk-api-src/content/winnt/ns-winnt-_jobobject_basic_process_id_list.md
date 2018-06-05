@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._JOBOBJECT_BASIC_PROCESS_ID_LIST
+title: "_JOBOBJECT_BASIC_PROCESS_ID_LIST"
+author: windows-sdk-content
+description: Contains the process identifier list for a job object.
+old-location: base\jobobject_basic_process_id_list_str.htm
+old-project: ProcThread
+ms.assetid: fae42f3b-d4bd-4126-aa19-47f046ced09f
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PJOBOBJECT_BASIC_PROCESS_ID_LIST, JOBOBJECT_BASIC_PROCESS_ID_LIST, JOBOBJECT_BASIC_PROCESS_ID_LIST structure, PJOBOBJECT_BASIC_PROCESS_ID_LIST, PJOBOBJECT_BASIC_PROCESS_ID_LIST structure pointer, _JOBOBJECT_BASIC_PROCESS_ID_LIST, _win32_jobobject_basic_process_id_list_str, base.jobobject_basic_process_id_list_str, winnt/JOBOBJECT_BASIC_PROCESS_ID_LIST, winnt/PJOBOBJECT_BASIC_PROCESS_ID_LIST"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: JOBOBJECT_BASIC_PROCESS_ID_LIST, *PJOBOBJECT_BASIC_PROCESS_ID_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	JOBOBJECT_BASIC_PROCESS_ID_LIST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _JOBOBJECT_BASIC_PROCESS_ID_LIST structure

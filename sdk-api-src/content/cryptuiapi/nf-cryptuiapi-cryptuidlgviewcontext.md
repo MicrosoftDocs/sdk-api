@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cryptuiapi.CryptUIDlgViewContext
+title: CryptUIDlgViewContext function
+author: windows-sdk-content
+description: Displays a certificate, CTL, or CRL context.
+old-location: security\cryptuidlgviewcontext.htm
+old-project: SecCrypto
+ms.assetid: d4b8f01b-7c3e-4286-bc37-d5ec4a1e1c2f
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CRL_CONTEXT, CERT_STORE_CTL_CONTEXT, CryptUIDlgViewContext, CryptUIDlgViewContext function [Security], _crypto2_cryptuidlgviewcontext, cryptuiapi/CryptUIDlgViewContext, security.cryptuidlgviewcontext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cryptuiapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cryptui.dll
+api_name:
+-	CryptUIDlgViewContext
+product: Windows
+targetos: Windows
+req.lib: Cryptui.lib
+req.dll: Cryptui.dll
+req.irql: 
 ---
 
 # CryptUIDlgViewContext function

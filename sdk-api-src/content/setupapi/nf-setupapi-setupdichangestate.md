@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:setupapi.SetupDiChangeState
+title: SetupDiChangeState function
+author: windows-sdk-content
+description: The SetupDiChangeState function is the default handler for the DIF_PROPERTYCHANGE installation request.
+old-location: devinst\setupdichangestate.htm
+old-project: devinst
+ms.assetid: 204c1366-1817-4cd1-a1fd-a4ad3e79b7cc
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: SetupDiChangeState, SetupDiChangeState function [Device and Driver Installation], devinst.setupdichangestate, di-rtns_0749286d-9e78-4e2a-8bbf-483d698753ba.xml, setupapi/SetupDiChangeState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Setupapi.dll
+-	Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+api_name:
+-	SetupDiChangeState
+product: Windows
+targetos: Windows
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetupDiChangeState function

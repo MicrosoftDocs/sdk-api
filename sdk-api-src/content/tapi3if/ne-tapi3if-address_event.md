@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.ADDRESS_EVENT
+title: ADDRESS_EVENT
+author: windows-sdk-content
+description: The ADDRESS_EVENT enum describes address events. The ITAddressEvent::get_Event method returns a member of this enum to indicate the type of address event that occurred.
+old-location: tapi3\address_event.htm
+old-project: Tapi
+ms.assetid: 7fb4acab-d60a-4848-a426-5e2960efefc1
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ADDRESS_EVENT, ADDRESS_EVENT enumeration [TAPI 2.2], AE_CAPSCHANGE, AE_CONFIGCHANGE, AE_FORWARD, AE_LASTITEM, AE_MSGWAITOFF, AE_MSGWAITON, AE_NEWTERMINAL, AE_REMOVETERMINAL, AE_RINGING, AE_STATE, _tapi3_address_event, tapi3.address_event, tapi3if/ADDRESS_EVENT, tapi3if/AE_CAPSCHANGE, tapi3if/AE_CONFIGCHANGE, tapi3if/AE_FORWARD, tapi3if/AE_LASTITEM, tapi3if/AE_MSGWAITOFF, tapi3if/AE_MSGWAITON, tapi3if/AE_NEWTERMINAL, tapi3if/AE_REMOVETERMINAL, tapi3if/AE_RINGING, tapi3if/AE_STATE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADDRESS_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	ADDRESS_EVENT
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ADDRESS_EVENT enumeration

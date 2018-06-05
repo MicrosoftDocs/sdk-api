@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NL:textserv.ITextHost2
+title: ITextHost2
+author: windows-sdk-content
+description: The ITextHost2 interface extends the ITextHost interface.
+old-location: controls\itexthost2.htm
+old-project: Controls
+ms.assetid: A715E70C-E8BB-4796-BDA6-90B745EC7761
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], ITextHost2 interface [Windows Controls],described, controls.itexthost2, textserv/ITextHost2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: class
+req.header: textserv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextHost2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextHost2 class

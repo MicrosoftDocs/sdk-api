@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:appmodel.FormatApplicationUserModelId
+title: FormatApplicationUserModelId function
+author: windows-sdk-content
+description: Constructs an application user model ID from the package family name and the package relative application ID (PRAID).
+old-location: appxpkg\formatapplicationusermodelid.htm
+old-project: appxpkg
+ms.assetid: F48D19C2-6373-41FC-A99D-E3CCB68D6C6C
+ms.author: windowssdkdev
+ms.date: 04/26/2018
+ms.keywords: FormatApplicationUserModelId, FormatApplicationUserModelId function [App packaging and management], appmodel/FormatApplicationUserModelId, appxpkg.formatapplicationusermodelid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: appmodel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PackageOrigin
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-AppModel-RunTime-l1-1-1.dll
+-	Kernel.AppCore.dll
+-	Ext-MS-Win-Kernel32-package-l1-1-2.dll
+-	ext-ms-win-kernel32-package-l1-1-1.dll
+-	API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+-	FormatApplicationUserModelId
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 ---
 
 # FormatApplicationUserModelId function

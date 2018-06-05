@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tuner.IDigitalCableTuneRequest.put_MajorChannel
+title: IDigitalCableTuneRequest::put_MajorChannel
+author: windows-sdk-content
+description: The put_MajorChannel method sets the major channel number.
+old-location: mstv\idigitalcabletunerequest_put_majorchannel.htm
+old-project: mstv
+ms.assetid: 1d3bc106-0ce0-4184-89fe-ebc30e95124e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],put_MajorChannel method, IDigitalCableTuneRequest.put_MajorChannel, IDigitalCableTuneRequest::put_MajorChannel, IDigitalCableTuneRequestput_MajorChannel, mstv.idigitalcabletunerequest_put_majorchannel, put_MajorChannel, put_MajorChannel method [Microsoft TV Technologies], put_MajorChannel method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, tuner/IDigitalCableTuneRequest::put_MajorChannel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tuner.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IDigitalCableTuneRequest.put_MajorChannel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IDigitalCableTuneRequest::put_MajorChannel

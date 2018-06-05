@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmquota.IFsrmQuota.get_QuotaPeakUsage
+title: IFsrmQuota::get_QuotaPeakUsage
+author: windows-sdk-content
+description: Retrieves the highest amount of disk space usage charged to this quota.
+old-location: fsrm\ifsrmquota_quotapeakusage.htm
+old-project: Fsrm
+ms.assetid: 86e2f8a1-766e-494d-9b99-c55e51d8509c
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmQuota interface [File Server Resource Manager],QuotaPeakUsage property, IFsrmQuota.QuotaPeakUsage, IFsrmQuota.get_QuotaPeakUsage, IFsrmQuota::QuotaPeakUsage, IFsrmQuota::get_QuotaPeakUsage, QuotaPeakUsage property [File Server Resource Manager], QuotaPeakUsage property [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_quotapeakusage, fsrm.ifsrmquota_quotapeakusage, fsrmquota/IFsrmQuota::QuotaPeakUsage, fsrmquota/IFsrmQuota::get_QuotaPeakUsage, get_QuotaPeakUsage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmquota.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmQuota.QuotaPeakUsage
+-	IFsrmQuota.get_QuotaPeakUsage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmQuota::get_QuotaPeakUsage

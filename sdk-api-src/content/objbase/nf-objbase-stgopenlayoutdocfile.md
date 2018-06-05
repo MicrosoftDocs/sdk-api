@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:objbase.StgOpenLayoutDocfile
+title: StgOpenLayoutDocfile function
+author: windows-sdk-content
+description: Opens a compound file on an ILockBytes implementation that is capable of monitoring sector data.
+old-location: stg\stgopenlayoutdocfile.htm
+old-project: Stg
+ms.assetid: 6ecfb6bd-e623-42b6-9b95-f0563921ac15
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: StgOpenLayoutDocfile, StgOpenLayoutDocfile function [Structured Storage], _stg_stgopenlayoutdocfile, objbase/StgOpenLayoutDocfile, stg.stgopenlayoutdocfile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: objbase.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMSD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	DfLayout.dll
+api_name:
+-	StgOpenLayoutDocfile
+product: Windows
+targetos: Windows
+req.lib: DfLayout.lib
+req.dll: DfLayout.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # StgOpenLayoutDocfile function

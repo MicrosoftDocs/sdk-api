@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NI:ntddmou.IOCTL_MOUSE_QUERY_ATTRIBUTES
+title: IOCTL_MOUSE_QUERY_ATTRIBUTES
+author: windows-sdk-content
+description: The IOCTL_MOUSE_QUERY_ATTRIBUTES request returns information about the mouse attributes.
+old-location: hid\ioctl_mouse_query_attributes.htm
+old-project: hid
+ms.assetid: f5b82702-610a-41d3-96c9-2c4eae2244e3
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: IOCTL_MOUSE_QUERY_ATTRIBUTES, IOCTL_MOUSE_QUERY_ATTRIBUTES control, IOCTL_MOUSE_QUERY_ATTRIBUTES control code [Human Input Devices], hid.ioctl_mouse_query_attributes, mref_078cb198-31ca-4b11-bc5b-33553bcb71a0.xml, ntddmou/IOCTL_MOUSE_QUERY_ATTRIBUTES
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: ioctl
+req.header: ntddmou.h
+req.include-header: Ntddmou.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KEYBOARD_UNIT_ID_PARAMETER, *PKEYBOARD_UNIT_ID_PARAMETER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ntddmou.h
+api_name:
+-	IOCTL_MOUSE_QUERY_ATTRIBUTES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOCTL_MOUSE_QUERY_ATTRIBUTES IOCTL

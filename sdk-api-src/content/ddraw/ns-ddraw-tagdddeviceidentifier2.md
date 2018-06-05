@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddraw.tagDDDEVICEIDENTIFIER2
+title: tagDDDEVICEIDENTIFIER2
+author: windows-sdk-content
+description: The DDDEVICEIDENTIFIER2 structure is passed to the IDirectDraw7::GetDeviceIdentifier method to obtain information about a device.
+old-location: directdraw\dddeviceidentifier2.htm
+old-project: directdraw
+ms.assetid: 3fdec953-72d4-48f8-b540-e2e6ca770b3c
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPDDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2 structure [DirectDraw], LPDDDEVICEIDENTIFIER2, LPDDDEVICEIDENTIFIER2 structure pointer [DirectDraw], ddraw/DDDEVICEIDENTIFIER2, ddraw/LPDDDEVICEIDENTIFIER2, directdraw.dddeviceidentifier2, tagDDDEVICEIDENTIFIER2"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDDEVICEIDENTIFIER2, *LPDDDEVICEIDENTIFIER2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ddraw.h
+api_name:
+-	DDDEVICEIDENTIFIER2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagDDDEVICEIDENTIFIER2 structure

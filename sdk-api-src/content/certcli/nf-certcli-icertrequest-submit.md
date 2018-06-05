@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certcli.ICertRequest.Submit
+title: ICertRequest::Submit
+author: windows-sdk-content
+description: Submits a request to the Certificate Services server.
+old-location: security\icertrequest2_submit.htm
+old-project: SecCrypto
+ms.assetid: 22ae8d39-3f16-4f7d-94a0-aa68b03aaa0b
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertRequest object [Security],Submit method, CR_IN_BASE64, CR_IN_BASE64HEADER, CR_IN_BINARY, CR_IN_CHALLENGERESPONSE, CR_IN_CLIENTIDNONE, CR_IN_CMC, CR_IN_CONNECTONLY, CR_IN_CRLS, CR_IN_ENCODEANY, CR_IN_FORMATANY, CR_IN_FULLRESPONSE, CR_IN_KEYGEN, CR_IN_MACHINE, CR_IN_PKCS10, CR_IN_PKCS7, CR_IN_RETURNCHALLENGE, CR_IN_ROBO, CR_IN_RPC, ICertRequest interface [Security],Submit method, ICertRequest.Submit, ICertRequest2 interface [Security],Submit method, ICertRequest2::Submit, ICertRequest3 interface [Security],Submit method, ICertRequest3::Submit, ICertRequest::Submit, Submit, Submit method [Security], Submit method [Security],CCertRequest object, Submit method [Security],ICertRequest interface, Submit method [Security],ICertRequest2 interface, Submit method [Security],ICertRequest3 interface, certcli/ICertRequest2::Submit, certcli/ICertRequest3::Submit, certcli/ICertRequest::Submit, security.icertrequest2_submit
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certcli.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509EnrollmentAuthFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certcli.dll
+api_name:
+-	ICertRequest3.Submit
+-	ICertRequest2.Submit
+-	ICertRequest.Submit
+-	CCertRequest.Submit
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 ---
 
 # ICertRequest::Submit

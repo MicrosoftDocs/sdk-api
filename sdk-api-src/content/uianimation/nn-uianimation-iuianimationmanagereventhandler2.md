@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:uianimation.IUIAnimationManagerEventHandler2
+title: IUIAnimationManagerEventHandler2
+author: windows-sdk-content
+description: Defines a method for handling updates to an animation manager.
+old-location: uianimation\iuianimationmanagereventhandler2.htm
+old-project: UIAnimation
+ms.assetid: 3D3DAC6C-6904-4962-BB17-18FA97678834
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IUIAnimationManagerEventHandler2, IUIAnimationManagerEventHandler2 interface [Windows Animation], IUIAnimationManagerEventHandler2 interface [Windows Animation],described, uianimation.iuianimationmanagereventhandler2, uianimation/IUIAnimationManagerEventHandler2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: uianimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAnimation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAnimation.dll
+api_name:
+-	IUIAnimationManagerEventHandler2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAnimationManagerEventHandler2 interface

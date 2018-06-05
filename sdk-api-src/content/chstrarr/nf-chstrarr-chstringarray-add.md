@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:chstrarr.CHStringArray.Add
+title: CHStringArray::Add
+author: windows-sdk-content
+description: The Add method adds a new element to the end of an array, increasing the array by one.
+old-location: wmi\chstringarray_add.htm
+old-project: WmiSdk
+ms.assetid: f5a0b8e6-b40a-4dc7-bf36-ec629e2899db
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "?Add@CHStringArray@@QAEHPBG@Z, ?Add@CHStringArray@@QEAAHPEBG@Z, Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],CHStringArray interface, CHStringArray interface [Windows Management Instrumentation],Add method, CHStringArray.Add, CHStringArray::Add, _hmm_chstringarray_add, chstrarr/CHStringArray::Add, wmi.chstringarray_add"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: chstrarr.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CHStringArray.Add
+-	?Add@CHStringArray@@QAEHPBG@Z
+-	?Add@CHStringArray@@QEAAHPEBG@Z
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 ---
 
 # CHStringArray::Add

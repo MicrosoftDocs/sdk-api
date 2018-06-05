@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12sdklayers.D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
+title: D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
+author: windows-sdk-content
+description: Specifies the type of shader patching used by GPU-Based Validation at either the device or command list level.
+old-location: direct3d12\d3d12_gpu_based_validation_shader_patch_mode.htm
+old-project: direct3d12
+ms.assetid: A7E7D1E5-8547-4898-B139-EF909D8B5630
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE enumeration, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_GUARDED_VALIDATION, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_NONE, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_STATE_TRACKING_ONLY, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_UNGUARDED_VALIDATION, NUM_D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODES, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_GUARDED_VALIDATION, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_NONE, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_STATE_TRACKING_ONLY, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_UNGUARDED_VALIDATION, d3d12sdklayers/NUM_D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODES, direct3d12.d3d12_gpu_based_validation_shader_patch_mode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d12sdklayers.h
+api_name:
+-	D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE enumeration

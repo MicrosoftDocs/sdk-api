@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:textserv.ITextServices2.TxGetNaturalSize2
+title: ITextServices2::TxGetNaturalSize2
+author: windows-sdk-content
+description: Resizes a control so it fits its content appropriately. This method is similar to TxGetNaturalSize, but also retrieves the ascent of the top line of text.
+old-location: controls\itextservices2_txgetnaturalsize2.htm
+old-project: Controls
+ms.assetid: 9D9A3D06-5C1F-4D50-B7B7-E6CA2BFDB89C
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: ITextServices2 interface [Windows Controls],TxGetNaturalSize2 method, ITextServices2.TxGetNaturalSize2, ITextServices2::TxGetNaturalSize2, TXTNS_EMU, TXTNS_FITTOCONTENT, TXTNS_FITTOCONTENT2, TXTNS_FITTOCONTENT3, TXTNS_FITTOCONTENTWSP, TXTNS_INCLUDELASTLINE, TXTNS_ROUNDTOLINE, TxGetNaturalSize2, TxGetNaturalSize2 method [Windows Controls], TxGetNaturalSize2 method [Windows Controls],ITextServices2 interface, controls.itextservices2_txgetnaturalsize2, textserv/ITextServices2::TxGetNaturalSize2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: textserv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextServices2.TxGetNaturalSize2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextServices2::TxGetNaturalSize2

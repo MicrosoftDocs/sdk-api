@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vfw.ICDecompress
+title: ICDecompress function
+author: windows-sdk-content
+description: The ICDecompress function decompresses a single video frame.
+old-location: multimedia\icdecompress.htm
+old-project: Multimedia
+ms.assetid: 779b63db-6b1d-4eb5-9df5-bb847b35863d
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ICDecompress, ICDecompress function [Windows Multimedia], _win32_ICDecompress, multimedia.icdecompress, vfw/ICDecompress
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msvfw32.dll
+api_name:
+-	ICDecompress
+product: Windows
+targetos: Windows
+req.lib: Vfw32.lib
+req.dll: Msvfw32.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # ICDecompress function

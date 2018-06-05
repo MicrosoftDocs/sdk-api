@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:audioclient.IAudioClient
+title: IAudioClient
+author: windows-sdk-content
+description: The IAudioClient interface enables a client to create and initialize an audio stream between an audio application and the audio engine (for a shared-mode stream) or the hardware buffer of an audio endpoint device (for an exclusive-mode stream).
+old-location: coreaudio\iaudioclient.htm
+old-project: CoreAudio
+ms.assetid: 5088a3f1-5001-4ed9-a495-9e91df613ab0
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IAudioClient, IAudioClient interface [Core Audio], IAudioClient interface [Core Audio],described, audioclient/IAudioClient, coreaudio.iaudioclient
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: audioclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioclient.h
+api_name:
+-	IAudioClient
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioClient interface

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d12sdklayers.ID3D12InfoQueue.PopRetrievalFilter
+title: ID3D12InfoQueue::PopRetrievalFilter
+author: windows-sdk-content
+description: Pop a retrieval filter from the top of the retrieval-filter stack.
+old-location: direct3d12\id3d12infoqueue_popretrievalfilter.htm
+old-project: direct3d12
+ms.assetid: 06C23F24-0FD0-4B48-8F21-1E68420B7E65
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: ID3D12InfoQueue interface,PopRetrievalFilter method, ID3D12InfoQueue.PopRetrievalFilter, ID3D12InfoQueue::PopRetrievalFilter, PopRetrievalFilter, PopRetrievalFilter method, PopRetrievalFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PopRetrievalFilter, direct3d12.id3d12infoqueue_popretrievalfilter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d12sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_RLDO_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12sdklayers.h
+api_name:
+-	ID3D12InfoQueue.PopRetrievalFilter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D12InfoQueue::PopRetrievalFilter

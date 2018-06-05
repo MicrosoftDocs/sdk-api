@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi._WNDOBJ
+title: "_WNDOBJ"
+author: windows-sdk-content
+description: The WNDOBJ structure allows the driver to keep track of the position, size, and visible client region changes of a window.
+old-location: display\wndobj.htm
+old-project: display
+ms.assetid: 69c47add-82a7-48fd-ae91-7756a6a8d15b
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PWNDOBJ, PWNDOBJ, PWNDOBJ structure pointer [Display Devices], WNDOBJ, WNDOBJ structure [Display Devices], _WNDOBJ, display.wndobj, grstrcts_78a58771-627a-419e-b6f0-00411e32a22a.xml, winddi/PWNDOBJ, winddi/WNDOBJ"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WNDOBJ, *PWNDOBJ
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	WNDOBJ
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WNDOBJ structure

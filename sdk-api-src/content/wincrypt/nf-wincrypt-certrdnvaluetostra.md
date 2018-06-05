@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CertRDNValueToStrA
+title: CertRDNValueToStrA function
+author: windows-sdk-content
+description: The CertRDNValueToStr function converts a name in a CERT_RDN_VALUE_BLOB to a null-terminated character string.
+old-location: security\certrdnvaluetostr.htm
+old-project: SecCrypto
+ms.assetid: c1e0af19-320e-411e-85bf-c7f01befcac4
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CertRDNValueToStr, CertRDNValueToStr function [Security], CertRDNValueToStrA, CertRDNValueToStrW, _crypto2_certrdnvaluetostr, security.certrdnvaluetostr, wincrypt/CertRDNValueToStr, wincrypt/CertRDNValueToStrA, wincrypt/CertRDNValueToStrW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CertRDNValueToStrW (Unicode) and CertRDNValueToStrA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CertRDNValueToStr
+-	CertRDNValueToStrA
+-	CertRDNValueToStrW
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CertRDNValueToStrA function

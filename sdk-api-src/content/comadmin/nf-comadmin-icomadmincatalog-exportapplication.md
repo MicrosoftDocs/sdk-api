@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comadmin.ICOMAdminCatalog.ExportApplication
+title: ICOMAdminCatalog::ExportApplication
+author: windows-sdk-content
+description: Exports a COM+ application or application proxy to a file, ready for installation on different computers.
+old-location: cos\icomadmincatalog_exportapplication.htm
+old-project: cossdk
+ms.assetid: 431c0299-56c2-4ec3-8ecc-ee1cbec3eff6
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: COMAdminExportApplicationProxy, COMAdminExportForceOverwriteOfFile, COMAdminExportIn10Format, COMAdminExportNoUsers, COMAdminExportUsers, ExportApplication, ExportApplication method [COM+], ExportApplication method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],ExportApplication method, ICOMAdminCatalog.ExportApplication, ICOMAdminCatalog::ExportApplication, _cos_ICOMAdminCatalog_ExportApplication, comadmin/ICOMAdminCatalog::ExportApplication, cos.icomadmincatalog_exportapplication
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ComAdmin.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMAdminTxIsolationLevelOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComAdmin.h
+api_name:
+-	ICOMAdminCatalog.ExportApplication
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICOMAdminCatalog::ExportApplication

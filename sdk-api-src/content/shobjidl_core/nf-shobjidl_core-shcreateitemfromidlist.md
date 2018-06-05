@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.SHCreateItemFromIDList
+title: SHCreateItemFromIDList function
+author: windows-sdk-content
+description: Creates and initializes a Shell item object from a pointer to an item identifier list (PIDL). The resulting shell item object supports the IShellItem interface.
+old-location: shell\SHCreateItemFromIDList.htm
+old-project: shell
+ms.assetid: a6dcddd9-cdbc-4cf9-97e3-d1b562283344
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHCreateItemFromIDList, SHCreateItemFromIDList function [Windows Shell], _shell_SHCreateItemFromIDList, shell.SHCreateItemFromIDList, shobjidl_core/SHCreateItemFromIDList
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+-	ext-ms-win-shell-shell32-l1-2-1.dll
+-	Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+-	windows.storage.dll
+-	API-MS-Win-Shell-Namespace-L1-1-0.dll
+api_name:
+-	SHCreateItemFromIDList
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SHCreateItemFromIDList function

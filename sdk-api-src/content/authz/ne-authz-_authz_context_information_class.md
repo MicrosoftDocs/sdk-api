@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:authz._AUTHZ_CONTEXT_INFORMATION_CLASS
+title: "_AUTHZ_CONTEXT_INFORMATION_CLASS"
+author: windows-sdk-content
+description: Specifies the type of information to be retrieved from an existing AuthzClientContext. This enumeration is used by the AuthzGetInformationFromContext function.
+old-location: security\authz_context_information_class.htm
+old-project: SecAuthZ
+ms.assetid: 5eb752dc-17f7-4510-8aef-d18280322e76
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AUTHZ_CONTEXT_INFORMATION_CLASS, AUTHZ_CONTEXT_INFORMATION_CLASS enumeration [Security], AuthzContextInfoAll, AuthzContextInfoAppContainerSid, AuthzContextInfoAuthenticationId, AuthzContextInfoCapabilitySids, AuthzContextInfoDeviceClaims, AuthzContextInfoDeviceSids, AuthzContextInfoExpirationTime, AuthzContextInfoGroupsSids, AuthzContextInfoIdentifier, AuthzContextInfoPrivileges, AuthzContextInfoRestrictedSids, AuthzContextInfoSecurityAttributes, AuthzContextInfoServerContext, AuthzContextInfoSource, AuthzContextInfoUserClaims, AuthzContextInfoUserSid, _AUTHZ_CONTEXT_INFORMATION_CLASS, _win32_authz_context_information_class_str, authz/AUTHZ_CONTEXT_INFORMATION_CLASS, authz/AuthzContextInfoAll, authz/AuthzContextInfoAppContainerSid, authz/AuthzContextInfoAuthenticationId, authz/AuthzContextInfoCapabilitySids, authz/AuthzContextInfoDeviceClaims, authz/AuthzContextInfoDeviceSids, authz/AuthzContextInfoExpirationTime, authz/AuthzContextInfoGroupsSids, authz/AuthzContextInfoIdentifier, authz/AuthzContextInfoPrivileges, authz/AuthzContextInfoRestrictedSids, authz/AuthzContextInfoSecurityAttributes, authz/AuthzContextInfoServerContext, authz/AuthzContextInfoSource, authz/AuthzContextInfoUserClaims, authz/AuthzContextInfoUserSid, security.authz_context_information_class
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: authz.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTHZ_CONTEXT_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Authz.h
+api_name:
+-	AUTHZ_CONTEXT_INFORMATION_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _AUTHZ_CONTEXT_INFORMATION_CLASS enumeration

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiribbon.IUIImage.GetBitmap
+title: IUIImage::GetBitmap
+author: windows-sdk-content
+description: Retrieves a bitmap to display as an icon in the ribbon and context popup UI of the Windows Ribbon framework.
+old-location: windowsribbon\windowsribbon_iuiimage_getbitmap.htm
+old-project: windowsribbon
+ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimage\getbitmap.htm
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: GetBitmap, GetBitmap method [Windows Ribbon], GetBitmap method [Windows Ribbon],IUIImage interface, IUIImage interface [Windows Ribbon],GetBitmap method, IUIImage.GetBitmap, IUIImage::GetBitmap, scenicintent_IUIImage_GetBitmap, uiribbon/IUIImage::GetBitmap, windowsribbon.windowsribbon_iuiimage_getbitmap
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiribbon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Uiribbon.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_VIEWVERB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mshtml.dll
+api_name:
+-	IUIImage.GetBitmap
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mshtml.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUIImage::GetBitmap

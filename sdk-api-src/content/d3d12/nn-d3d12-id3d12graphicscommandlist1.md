@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:d3d12.ID3D12GraphicsCommandList1
+title: ID3D12GraphicsCommandList1
+author: windows-sdk-content
+description: Encapsulates a list of graphics commands for rendering, extending the inteface to support programmable sample positions, atomic copies for implementing late-latch techniques, and optional depth-bounds testing.
+old-location: direct3d12\id3d12graphicscommandlist1.htm
+old-project: direct3d12
+ms.assetid: E156C26B-0E51-4F43-9AB2-373E4C67A496
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: ID3D12GraphicsCommandList1, ID3D12GraphicsCommandList1 interface, ID3D12GraphicsCommandList1 interface,described, d3d12/ID3D12GraphicsCommandList1, direct3d12.id3d12graphicscommandlist1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_SHADER_MODEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D12.dll
+api_name:
+-	ID3D12GraphicsCommandList1
+product: Windows
+targetos: Windows
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 ---
 
 # ID3D12GraphicsCommandList1 interface

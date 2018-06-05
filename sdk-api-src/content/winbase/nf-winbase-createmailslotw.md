@@ -1,31 +1,58 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.CreateMailslotW
+title: CreateMailslotW function
+author: windows-sdk-content
+description: Creates a mailslot with the specified name and returns a handle that a mailslot server can use to perform operations on the mailslot.
+old-location: base\createmailslot.htm
+old-project: ipc
+ms.assetid: a2e8199f-4d00-4315-9562-ff30f4fafcb7
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: CreateMailslot, CreateMailslot function, CreateMailslotA, CreateMailslotW, MAILSLOT_WAIT_FOREVER, _win32_createmailslot, base.createmailslot, winbase/CreateMailslot, winbase/CreateMailslotA, winbase/CreateMailslotW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CreateMailslotW (Unicode) and CreateMailslotA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+-	kernel32legacy.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+-	API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+-	CreateMailslot
+-	CreateMailslotA
+-	CreateMailslotW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CreateMailslotW function

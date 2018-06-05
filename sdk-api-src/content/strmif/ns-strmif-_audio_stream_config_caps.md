@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:strmif._AUDIO_STREAM_CONFIG_CAPS
+title: "_AUDIO_STREAM_CONFIG_CAPS"
+author: windows-sdk-content
+description: The AUDIO_STREAM_CONFIG_CAPS structure describes a range of audio formats. Audio compression and capture filters use this structure to describe the formats they can produce.
+old-location: dshow\audio_stream_config_caps.htm
+old-project: DirectShow
+ms.assetid: 8a923e8e-173e-4258-ba81-7d398bd9c5fe
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AUDIO_STREAM_CONFIG_CAPS, AUDIO_STREAM_CONFIG_CAPS structure [DirectShow], AUDIO_STREAM_CONFIG_CAPSStructure, _AUDIO_STREAM_CONFIG_CAPS, dshow.audio_stream_config_caps, strmif/AUDIO_STREAM_CONFIG_CAPS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUDIO_STREAM_CONFIG_CAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	AUDIO_STREAM_CONFIG_CAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP
 ---
 
 # _AUDIO_STREAM_CONFIG_CAPS structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uiautomationcore.DockPosition
+title: DockPosition
+author: windows-sdk-content
+description: Contains values that specify the location of a docking window represented by the Dock&#32;control pattern.
+old-location: winauto\uiauto_dock_pos_enum.htm
+old-project: WinAuto
+ms.assetid: 36ed98c2-f111-4192-8ce2-b8dd7da47de5
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: DockPosition, DockPosition enumeration [Windows Accessibility], DockPosition_Bottom, DockPosition_Fill, DockPosition_Left, DockPosition_None, DockPosition_Right, DockPosition_Top, uiauto.uiauto_dock_pos_enum, uiauto_dock_pos_enum, uiautomationcore/DockPosition, uiautomationcore/DockPosition_Bottom, uiautomationcore/DockPosition_Fill, uiautomationcore/DockPosition_Left, uiautomationcore/DockPosition_None, uiautomationcore/DockPosition_Right, uiautomationcore/DockPosition_Top, winauto.uiauto_dock_pos_enum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	DockPosition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # DockPosition enumeration

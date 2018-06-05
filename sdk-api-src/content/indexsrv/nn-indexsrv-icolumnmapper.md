@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:indexsrv.IColumnMapper
+title: IColumnMapper
+author: windows-sdk-content
+description: Retrieves property information for file based queries.
+old-location: search\icolumnmapper.htm
+old-project: search
+ms.assetid: CBC7EE6C-299D-4B9D-839A-0A2755CA8112
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IColumnMapper, IColumnMapper interface [search], IColumnMapper interface [search],described, indexsrv/IColumnMapper, search.icolumnmapper
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: indexsrv.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WORDREP_BREAK_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	indexsrv.h
+api_name:
+-	IColumnMapper
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IColumnMapper interface

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ifdef._NET_LUID_LH
+title: "_NET_LUID_LH"
+author: windows-sdk-content
+description: The locally unique identifier (LUID) for a network interface.
+old-location: iphlp\net_luid.htm
+old-project: IpHlp
+ms.assetid: c4956c5a-3c6c-4f1c-b9d7-2e377b66f197
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PIF_LUID, *PNET_LUID, *PNET_LUID_LH, IF_LUID, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, NET_LUID, NET_LUID union [IP Helper], NET_LUID_LH, PNET_LUID, PNET_LUID union pointer [IP Helper], _NET_LUID_LH, ifdef/NET_LUID, ifdef/PNET_LUID, iphlp.net_luid"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ifdef.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_LUID_LH, *PNET_LUID_LH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ifdef.h
+api_name:
+-	NET_LUID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _NET_LUID_LH structure

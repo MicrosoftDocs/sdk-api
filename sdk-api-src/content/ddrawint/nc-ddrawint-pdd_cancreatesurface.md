@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_CANCREATESURFACE
+title: PDD_CANCREATESURFACE
+author: windows-sdk-content
+description: The CanCreateD3DBuffer callback function determines whether the driver can create a driver-level command or vertex buffer of the specified description.
+old-location: display\cancreated3dbuffer.htm
+old-project: display
+ms.assetid: 94aace9f-0927-4b33-a9ea-79c27d5edea9
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CanCreateD3DBuffer, CanCreateD3DBuffer callback function [Display Devices], PDD_CANCREATESURFACE, PDD_CANCREATESURFACE callback, d3dfncs_c13b55de-ef44-4535-959c-dd61bfc3df10.xml, ddrawint/CanCreateD3DBuffer, display.cancreated3dbuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	CanCreateD3DBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_CANCREATESURFACE callback function

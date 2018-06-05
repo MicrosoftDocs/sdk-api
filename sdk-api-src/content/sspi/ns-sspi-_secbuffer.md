@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:sspi._SecBuffer
+title: "_SecBuffer"
+author: windows-sdk-content
+description: Describes a buffer allocated by a transport application to pass to a security package.
+old-location: security\secbuffer.htm
+old-project: SecAuthN
+ms.assetid: 75f49d9c-7d3c-4f45-a94e-44cd05773a07
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSecBuffer, PSecBuffer, PSecBuffer structure pointer [Security], SECBUFFER_ALERT, SECBUFFER_APPLICATION_PROTOCOLS, SECBUFFER_ATTRMASK, SECBUFFER_CHANGE_PASS_RESPONSE, SECBUFFER_CHANNEL_BINDINGS, SECBUFFER_DATA, SECBUFFER_DTLS_MTU, SECBUFFER_EMPTY, SECBUFFER_EXTRA, SECBUFFER_MECHLIST, SECBUFFER_MECHLIST_SIGNATURE, SECBUFFER_MISSING, SECBUFFER_PKG_PARAMS, SECBUFFER_PRESHARED_KEY, SECBUFFER_PRESHARED_KEY_IDENTITY, SECBUFFER_READONLY, SECBUFFER_READONLY_WITH_CHECKSUM, SECBUFFER_SRTP_MASTER_KEY_IDENTIFIER, SECBUFFER_SRTP_PROTECTION_PROFILES, SECBUFFER_STREAM_HEADER, SECBUFFER_STREAM_TRAILER, SECBUFFER_TARGET, SECBUFFER_TARGET_HOST, SECBUFFER_TOKEN, SECBUFFER_TOKEN_BINDING, SecBuffer, SecBuffer structure [Security], _SecBuffer, _ssp_secbuffer, security.secbuffer, sspi/PSecBuffer, sspi/SecBuffer"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: sspi.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SecBuffer, *PSecBuffer
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Sspi.h
+api_name:
+-	SecBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SecBuffer structure

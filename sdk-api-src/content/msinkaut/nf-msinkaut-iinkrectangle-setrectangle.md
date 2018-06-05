@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkRectangle.SetRectangle
+title: IInkRectangle::SetRectangle
+author: windows-sdk-content
+description: Sets the elements of the InkRectangle object in a single call.
+old-location: tablet\inkrectangle_setrectangle.htm
+old-project: tablet
+ms.assetid: 689ef8ea-3fa6-4fea-a4d8-2c59d23db9cf
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 689ef8ea-3fa6-4fea-a4d8-2c59d23db9cf, IInkRectangle interface [Tablet PC],SetRectangle method, IInkRectangle.SetRectangle, IInkRectangle::SetRectangle, SetRectangle, SetRectangle method [Tablet PC], SetRectangle method [Tablet PC],IInkRectangle interface, msinkaut/IInkRectangle::SetRectangle, tablet.inkrectangle_setrectangle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkRectangle.SetRectangle
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRectangle::SetRectangle

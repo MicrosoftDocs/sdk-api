@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:manipulations.IInertiaProcessor.put_InitialExpansionVelocity
+title: IInertiaProcessor::put_InitialExpansionVelocity
+author: windows-sdk-content
+description: The InitialExpansionVelocity property specifies the rate of radius expansion for a target when the target was affected by inertia.
+old-location: wintouch\iinertiaprocessor_initialexpansionvelocity.htm
+old-project: wintouch
+ms.assetid: c0e60b1c-98d0-4b50-ba5d-deda44debf56
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: IInertiaProcessor interface [Windows Touch],InitialExpansionVelocity property, IInertiaProcessor.InitialExpansionVelocity, IInertiaProcessor.put_InitialExpansionVelocity, IInertiaProcessor::InitialExpansionVelocity, IInertiaProcessor::get_InitialExpansionVelocity, IInertiaProcessor::put_InitialExpansionVelocity, InitialExpansionVelocity property [Windows Touch], InitialExpansionVelocity property [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialExpansionVelocity, manipulations/IInertiaProcessor::get_InitialExpansionVelocity, manipulations/IInertiaProcessor::put_InitialExpansionVelocity, put_InitialExpansionVelocity, wintouch.iinertiaprocessor_initialexpansionvelocity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: manipulations.h
+req.include-header: Manipulations.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	manipulations.h
+api_name:
+-	IInertiaProcessor.InitialExpansionVelocity
+-	IInertiaProcessor.get_InitialExpansionVelocity
+-	IInertiaProcessor.put_InitialExpansionVelocity
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IInertiaProcessor::put_InitialExpansionVelocity

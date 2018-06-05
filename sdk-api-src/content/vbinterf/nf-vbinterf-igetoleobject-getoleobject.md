@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:vbinterf.IGetOleObject.GetOleObject
+title: IGetOleObject::GetOleObject
+author: windows-sdk-content
+description: Gets a pointer to an OLE control on a Visual Basic container.
+old-location: com\igetoleobject_getoleobject.htm
+old-project: com
+ms.assetid: eafb9dbc-ab46-4b83-8be9-6c8cd1de8ab3
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetOleObject, GetOleObject method [COM], GetOleObject method [COM],IGetOleObject interface, IGetOleObject interface [COM],GetOleObject method, IGetOleObject.GetOleObject, IGetOleObject::GetOleObject, _com_IGetOleObject_GetOleObject, com.igetoleobject_getoleobject, vbinterf/IGetOleObject::GetOleObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vbinterf.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VbInterf.h
+api_name:
+-	IGetOleObject.GetOleObject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IGetOleObject::GetOleObject

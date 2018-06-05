@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:p2p.PeerIdentityGetFriendlyName
+title: PeerIdentityGetFriendlyName function
+author: windows-sdk-content
+description: The PeerIdentityGetFriendlyName function returns the friendly name of the peer identity.
+old-location: p2p\peeridentitygetfriendlyname.htm
+old-project: P2PSdk
+ms.assetid: c0d823db-9c2c-46c1-99b8-87fe7fdc9343
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PeerIdentityGetFriendlyName, PeerIdentityGetFriendlyName function [Peer Networking], p2p.peeridentitygetfriendlyname, p2p/PeerIdentityGetFriendlyName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack for Windows XP
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEER_WATCH_PERMISSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	P2P.dll
+api_name:
+-	PeerIdentityGetFriendlyName
+product: Windows
+targetos: Windows
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PeerIdentityGetFriendlyName function

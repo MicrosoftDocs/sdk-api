@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:x3daudio.X3DAudioCalculate
+title: X3DAudioCalculate function
+author: windows-sdk-content
+description: Calculates DSP settings with respect to 3D parameters.
+old-location: xaudio2\x3daudiocalculate.htm
+old-project: xaudio2
+ms.assetid: M:Microsoft.directx_sdk.x3daudio.X3DAudioCalculate(const X3DAUDIO_HANDLE,const X3DAUDIO_LISTENER,const X3DAUDIO_EMITTER,UINT32,X3DAUDIO_DSP_SETTINGS@)
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: X3DAudioCalculate, X3DAudioCalculate function [XAudio2 Audio Mixing APIs], x3daudio/X3DAudioCalculate, xaudio2.x3daudiocalculate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: x3daudio.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ServerSelection
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	xaudio2.lib
+-	xaudio2.dll
+api_name:
+-	X3DAudioCalculate
+product: Windows
+targetos: Windows
+req.lib: Xaudio2.lib
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # X3DAudioCalculate function

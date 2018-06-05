@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleacc.IAccPropServer.GetPropValue
+title: IAccPropServer::GetPropValue
+author: windows-sdk-content
+description: Retrieves a property value for an accessible element.
+old-location: winauto\iaccpropserver_iaccpropserver__getpropvalue.htm
+old-project: WinAuto
+ms.assetid: 35cb2935-c41b-4588-9199-23789af23b72
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: GetPropValue, GetPropValue method [Windows Accessibility], GetPropValue method [Windows Accessibility],IAccPropServer interface, IAccPropServer interface [Windows Accessibility],GetPropValue method, IAccPropServer.GetPropValue, IAccPropServer::GetPropValue, _msaa_IAccPropServer_GetPropValue, msaa.iaccpropserver_iaccpropserver__getpropvalue, oleacc/IAccPropServer::GetPropValue, winauto.iaccpropserver_iaccpropserver__getpropvalue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oleacc.h
+req.include-header: OleAcc.h Include Initguid.h first.
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista or Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Oleacc.dll
+api_name:
+-	IAccPropServer.GetPropValue
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Oleacc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAccPropServer::GetPropValue

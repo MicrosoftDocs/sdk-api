@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ehstorapi.IEnhancedStorageSiloAction.GetName
+title: IEnhancedStorageSiloAction::GetName
+author: windows-sdk-content
+description: Returns a string for the name of the action specified by the IEnhancedStorageSiloAction object.
+old-location: enstor\ienhancedstoragesiloaction_getname.htm
+old-project: enstor
+ms.assetid: 3690d395-c83e-4253-adc2-d30a96a5ce47
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetName, GetName method [Enhanced Storage], GetName method [Enhanced Storage],IEnhancedStorageSiloAction interface, IEnhancedStorageSiloAction interface [Enhanced Storage],GetName method, IEnhancedStorageSiloAction.GetName, IEnhancedStorageSiloAction::GetName, ehstorapi/IEnhancedStorageSiloAction::GetName, enstor.ienhancedstoragesiloaction_getname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ehstorapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: EhStorAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TimedLevel
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EhStorAPI.h
+api_name:
+-	IEnhancedStorageSiloAction.GetName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IEnhancedStorageSiloAction::GetName

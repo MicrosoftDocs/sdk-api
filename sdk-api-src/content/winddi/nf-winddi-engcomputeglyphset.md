@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:winddi.EngComputeGlyphSet
+title: EngComputeGlyphSet function
+author: windows-sdk-content
+description: The EngComputeGlyphSet function computes the glyph set supported on a device.
+old-location: display\engcomputeglyphset.htm
+old-project: display
+ms.assetid: 74722493-04cf-4401-a6d6-7afe8d4881d9
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: EngComputeGlyphSet, EngComputeGlyphSet function [Display Devices], display.engcomputeglyphset, gdifncs_ba8356d5-4114-436c-9268-774b8e0918df.xml, winddi/EngComputeGlyphSet
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Win32k.sys
+-	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+-	GDI32.dll
+-	GDI32Full.dll
+api_name:
+-	EngComputeGlyphSet
+product: Windows
+targetos: Windows
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # EngComputeGlyphSet function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tcpestats._TCP_BOOLEAN_OPTIONAL
+title: "_TCP_BOOLEAN_OPTIONAL"
+author: windows-sdk-content
+description: Defines the states that a caller can specify when updating a member in the read/write information for a TCP connection.
+old-location: iphlp\tcp_boolean_optional.htm
+old-project: IpHlp
+ms.assetid: 68f8f797-06fb-4286-88bc-220c54977575
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PTCP_BOOLEAN_OPTIONAL, TCP_BOOLEAN_OPTIONAL, TCP_BOOLEAN_OPTIONAL enumeration [IP Helper], TcpBoolOptDisabled, TcpBoolOptEnabled, TcpBoolOptUnchanged, _TCP_BOOLEAN_OPTIONAL, iphlp.tcp_boolean_optional, tcpestats/TCP_BOOLEAN_OPTIONAL, tcpestats/TcpBoolOptDisabled, tcpestats/TcpBoolOptEnabled, tcpestats/TcpBoolOptUnchanged"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tcpestats.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TCP_BOOLEAN_OPTIONAL, *PTCP_BOOLEAN_OPTIONAL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tcpestats.h
+api_name:
+-	TCP_BOOLEAN_OPTIONAL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TCP_BOOLEAN_OPTIONAL enumeration

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wsdbase.__MIDL___MIDL_itf_wsdbase_0000_0000_0001
+title: "__MIDL___MIDL_itf_wsdbase_0000_0000_0001"
+author: windows-sdk-content
+description: Specifies the kind of data stored in a WSD_CONFIG_PARAM structure.
+old-location: ncd\wsd_config_param_type.htm
+old-project: WsdApi
+ms.assetid: 46189d61-79d0-4ec9-82eb-ac1331201490
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: WSD_CONFIG_DEVICE_ADDRESSES, WSD_CONFIG_HOSTING_ADDRESSES, WSD_CONFIG_MAX_INBOUND_MESSAGE_SIZE, WSD_CONFIG_MAX_OUTBOUND_MESSAGE_SIZE, WSD_CONFIG_PARAM_TYPE, WSD_CONFIG_PARAM_TYPE enumeration, WSD_SECURITY_COMPACTSIG_SIGNING_CERT, WSD_SECURITY_COMPACTSIG_VALIDATION, WSD_SECURITY_REQUIRE_CLIENT_CERT_OR_HTTP_CLIENT_AUTH, WSD_SECURITY_REQUIRE_HTTP_CLIENT_AUTH, WSD_SECURITY_SSL_CERT_FOR_CLIENT_AUTH, WSD_SECURITY_SSL_CLIENT_CERT_VALIDATION, WSD_SECURITY_SSL_NEGOTIATE_CLIENT_CERT, WSD_SECURITY_SSL_SERVER_CERT_VALIDATION, WSD_SECURITY_USE_HTTP_CLIENT_AUTH, __MIDL___MIDL_itf_wsdbase_0000_0000_0001, ncd.wsd_config_param_type, wsdbase/WSD_CONFIG_DEVICE_ADDRESSES, wsdbase/WSD_CONFIG_HOSTING_ADDRESSES, wsdbase/WSD_CONFIG_MAX_INBOUND_MESSAGE_SIZE, wsdbase/WSD_CONFIG_MAX_OUTBOUND_MESSAGE_SIZE, wsdbase/WSD_CONFIG_PARAM_TYPE, wsdbase/WSD_SECURITY_COMPACTSIG_SIGNING_CERT, wsdbase/WSD_SECURITY_COMPACTSIG_VALIDATION, wsdbase/WSD_SECURITY_REQUIRE_CLIENT_CERT_OR_HTTP_CLIENT_AUTH, wsdbase/WSD_SECURITY_REQUIRE_HTTP_CLIENT_AUTH, wsdbase/WSD_SECURITY_SSL_CERT_FOR_CLIENT_AUTH, wsdbase/WSD_SECURITY_SSL_CLIENT_CERT_VALIDATION, wsdbase/WSD_SECURITY_SSL_NEGOTIATE_CLIENT_CERT, wsdbase/WSD_SECURITY_SSL_SERVER_CERT_VALIDATION, wsdbase/WSD_SECURITY_USE_HTTP_CLIENT_AUTH
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wsdbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wsdbase.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSD_CONFIG_PARAM_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wsdbase.h
+api_name:
+-	WSD_CONFIG_PARAM_TYPE
+product: Windows
+targetos: Windows
+req.lib: Wsdapi.lib
+req.dll: Wsdapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # __MIDL___MIDL_itf_wsdbase_0000_0000_0001 enumeration

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwmapi.DWM_SOURCE_FRAME_SAMPLING
+title: DWM_SOURCE_FRAME_SAMPLING
+author: windows-sdk-content
+description: Flags used by the DwmSetPresentParameters function to specify the frame sampling type.
+old-location: dwm\dwm_source_frame_sampling.htm
+old-project: dwm
+ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\enums\dwm_source_frame_sampling.htm
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: DWM_SOURCE_FRAME_SAMPLING, DWM_SOURCE_FRAME_SAMPLING enumeration [Desktop Window Manager], DWM_SOURCE_FRAME_SAMPLING_COVERAGE, DWM_SOURCE_FRAME_SAMPLING_LAST, DWM_SOURCE_FRAME_SAMPLING_POINT, _udwm_dwm_source_frame_sampling, _udwm_dwm_source_frame_sampling_cpp, dwm.dwm_source_frame_sampling, dwmapi/DWM_SOURCE_FRAME_SAMPLING, dwmapi/DWM_SOURCE_FRAME_SAMPLING_COVERAGE, dwmapi/DWM_SOURCE_FRAME_SAMPLING_LAST, dwmapi/DWM_SOURCE_FRAME_SAMPLING_POINT, winui._udwm_dwm_source_frame_sampling
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DWM_SOURCE_FRAME_SAMPLING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dwmapi.h
+api_name:
+-	DWM_SOURCE_FRAME_SAMPLING
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWM_SOURCE_FRAME_SAMPLING enumeration

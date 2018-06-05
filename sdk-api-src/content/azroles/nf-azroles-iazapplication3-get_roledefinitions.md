@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzApplication3.get_RoleDefinitions
+title: IAzApplication3::get_RoleDefinitions
+author: windows-sdk-content
+description: Gets an IAzRoleDefinitions object that represents the collection of IAzRoleDefinition objects associated with the current IAzApplication3 object.
+old-location: security\iazapplication3_roledefinitions.htm
+old-project: SecAuthZ
+ms.assetid: 9b17c315-4a46-4a74-983f-b07593ff0517
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IAzApplication3 interface [Security],RoleDefinitions property, IAzApplication3.RoleDefinitions, IAzApplication3.get_RoleDefinitions, IAzApplication3::RoleDefinitions, IAzApplication3::get_RoleDefinitions, RoleDefinitions property [Security], RoleDefinitions property [Security],IAzApplication3 interface, azroles/IAzApplication3::RoleDefinitions, azroles/IAzApplication3::get_RoleDefinitions, get_RoleDefinitions, security.iazapplication3_roledefinitions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzApplication3.RoleDefinitions
+-	IAzApplication3.get_RoleDefinitions
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzApplication3::get_RoleDefinitions

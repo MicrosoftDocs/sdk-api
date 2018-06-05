@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wingdi.SetMapMode
+title: SetMapMode function
+author: windows-sdk-content
+description: The SetMapMode function sets the mapping mode of the specified device context. The mapping mode defines the unit of measure used to transform page-space units into device-space units, and also defines the orientation of the device's x and y axes.
+old-location: gdi\setmapmode.htm
+old-project: gdi
+ms.assetid: a4d6a63a-6d2d-4bd9-9e71-4cd1b5f145a4
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: MM_ANISOTROPIC, MM_HIENGLISH, MM_HIMETRIC, MM_ISOTROPIC, MM_LOENGLISH, MM_LOMETRIC, MM_TEXT, MM_TWIPS, SetMapMode, SetMapMode function [Windows GDI], _win32_SetMapMode, gdi.setmapmode, wingdi/SetMapMode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	gdi32.dll
+-	Ext-MS-Win-GDI-Draw-l1-1-1.dll
+-	ext-ms-win-gdi-draw-l1-1-2.dll
+-	Ext-MS-Win-GDI-Draw-L1-1-3.dll
+-	GDI32Full.dll
+api_name:
+-	SetMapMode
+product: Windows
+targetos: Windows
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # SetMapMode function

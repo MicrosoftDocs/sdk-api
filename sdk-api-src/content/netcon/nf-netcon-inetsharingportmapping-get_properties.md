@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netcon.INetSharingPortMapping.get_Properties
+title: INetSharingPortMapping::get_Properties
+author: windows-sdk-content
+description: The get_Properties method retrieves the properties for a port mapping.
+old-location: ics\inetsharingportmapping_get_properties.htm
+old-project: ICS
+ms.assetid: 3cfc27a4-fe43-4e47-b857-7c80e8ee0dd5
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: INetSharingPortMapping interface [ICS/ICF],get_Properties method, INetSharingPortMapping.get_Properties, INetSharingPortMapping::get_Properties, _ics_inetsharingportmapping_get_properties, get_Properties, get_Properties method [ICS/ICF], get_Properties method [ICS/ICF],INetSharingPortMapping interface, ics.inetsharingportmapping_get_properties, netcon/INetSharingPortMapping::get_Properties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netcon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Hnetcfg.dll
+api_name:
+-	INetSharingPortMapping.get_Properties
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetSharingPortMapping::get_Properties

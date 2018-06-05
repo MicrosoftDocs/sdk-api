@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wsbonline._WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
+title: "_WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR"
+author: windows-sdk-content
+description: Contains the value and value type for a parameter used to expand the value resource string.
+old-location: wsb\wsb_ob_status_entry_value_type_pair.htm
+old-project: wsb
+ms.assetid: FA92796E-7C26-4FD0-8AC2-F84F8F5E5A6C
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR, WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR structure [Windows Server Backup], _WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR, wsb.wsb_ob_status_entry_value_type_pair, wsbonline/WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wsbonline.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WsbOnline.h
+api_name:
+-	WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR structure

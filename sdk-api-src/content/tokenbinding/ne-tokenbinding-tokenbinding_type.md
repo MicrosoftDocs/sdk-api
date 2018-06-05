@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tokenbinding.TOKENBINDING_TYPE
+title: TOKENBINDING_TYPE
+author: windows-sdk-content
+description: Specifies the possible types for a token binding.
+old-location: security\tokenbinding_type.htm
+old-project: SecCNG
+ms.assetid: 7F126B3E-1033-4C0A-AD5F-0FAD951C85C6
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: TOKENBINDING_TYPE, TOKENBINDING_TYPE enumeration [Security], TOKENBINDING_TYPE_PROVIDED, TOKENBINDING_TYPE_REFERRED, security.tokenbinding_type, tokenbinding/TOKENBINDING_TYPE, tokenbinding/TOKENBINDING_TYPE_PROVIDED, tokenbinding/TOKENBINDING_TYPE_REFERRED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tokenbinding.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tlogstg.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TOKENBINDING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tokenbinding.h
+api_name:
+-	TOKENBINDING_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TOKENBINDING_TYPE enumeration

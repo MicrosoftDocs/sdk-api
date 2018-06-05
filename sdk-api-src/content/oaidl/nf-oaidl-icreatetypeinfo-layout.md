@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oaidl.ICreateTypeInfo.LayOut
+title: ICreateTypeInfo::LayOut
+author: windows-sdk-content
+description: Assigns VTBL offsets for virtual functions and instance offsets for per-instance data members, and creates the two type descriptions for dual interfaces.
+old-location: automat\icreatetypeinfo_layout.htm
+old-project: automat
+ms.assetid: 3880aad3-8a6f-43e6-8420-25c4d1b9a71a
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: ICreateTypeInfo interface [Automation],LayOut method, ICreateTypeInfo.LayOut, ICreateTypeInfo::LayOut, LayOut, LayOut method [Automation], LayOut method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_LayOut, automat.icreatetypeinfo_layout, oaidl/ICreateTypeInfo::LayOut
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OaIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ICreateTypeInfo.LayOut
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ICreateTypeInfo::LayOut

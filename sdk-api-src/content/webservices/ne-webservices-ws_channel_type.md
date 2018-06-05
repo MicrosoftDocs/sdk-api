@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_CHANNEL_TYPE
+title: WS_CHANNEL_TYPE
+author: windows-sdk-content
+description: Indicates the basic characteristics of the channel, such as whether it is sessionful, and what directions of communication are supported.
+old-location: wsw\ws_channel_type.htm
+old-project: wsw
+ms.assetid: 7e1092f9-10e8-485c-a286-770e1c74d8ca
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_CHANNEL_TYPE, WS_CHANNEL_TYPE enumeration [Web Services for Windows], WS_CHANNEL_TYPE_DUPLEX, WS_CHANNEL_TYPE_DUPLEX_SESSION, WS_CHANNEL_TYPE_INPUT, WS_CHANNEL_TYPE_INPUT_SESSION, WS_CHANNEL_TYPE_OUTPUT, WS_CHANNEL_TYPE_OUTPUT_SESSION, WS_CHANNEL_TYPE_REPLY, WS_CHANNEL_TYPE_REQUEST, WS_CHANNEL_TYPE_SESSION, webservices/WS_CHANNEL_TYPE, webservices/WS_CHANNEL_TYPE_DUPLEX, webservices/WS_CHANNEL_TYPE_DUPLEX_SESSION, webservices/WS_CHANNEL_TYPE_INPUT, webservices/WS_CHANNEL_TYPE_INPUT_SESSION, webservices/WS_CHANNEL_TYPE_OUTPUT, webservices/WS_CHANNEL_TYPE_OUTPUT_SESSION, webservices/WS_CHANNEL_TYPE_REPLY, webservices/WS_CHANNEL_TYPE_REQUEST, webservices/WS_CHANNEL_TYPE_SESSION, wsw.ws_channel_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_CHANNEL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_CHANNEL_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_CHANNEL_TYPE enumeration

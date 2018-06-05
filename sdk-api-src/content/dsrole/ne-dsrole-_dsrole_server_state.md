@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dsrole._DSROLE_SERVER_STATE
+title: "_DSROLE_SERVER_STATE"
+author: windows-sdk-content
+description: Used with the DSROLE_UPGRADE_STATUS_INFO structure to indicate the role of a server.
+old-location: ad\dsrole_server_state.htm
+old-project: AD
+ms.assetid: cd15aa25-7a73-475f-b163-30e5dc1f52bd
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PDSROLE_SERVER_STATE, DSROLE_SERVER_STATE, DSROLE_SERVER_STATE enumeration [Active Directory], DsRoleServerBackup, DsRoleServerPrimary, DsRoleServerUnknown, _DSROLE_SERVER_STATE, ad.dsrole_server_state, dsrole/DSROLE_SERVER_STATE, dsrole/DsRoleServerBackup, dsrole/DsRoleServerPrimary, dsrole/DsRoleServerUnknown"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dsrole.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSROLE_SERVER_STATE, *PDSROLE_SERVER_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dsrole.h
+api_name:
+-	DSROLE_SERVER_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DSROLE_SERVER_STATE enumeration

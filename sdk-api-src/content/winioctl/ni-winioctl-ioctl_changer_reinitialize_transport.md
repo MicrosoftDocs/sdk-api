@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NI:winioctl.IOCTL_CHANGER_REINITIALIZE_TRANSPORT
+title: IOCTL_CHANGER_REINITIALIZE_TRANSPORT
+author: windows-sdk-content
+description: Physically recalibrates a transport element. Recalibration may involve returning the transport to its home position.
+old-location: base\ioctl_changer_reinitialize_transport.htm
+old-project: DevIO
+ms.assetid: 0745ee19-34f3-44c8-a52d-fb47448f0084
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: IOCTL_CHANGER_REINITIALIZE_TRANSPORT, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control code, _win32_ioctl_changer_reinitialize_transport, base.ioctl_changer_reinitialize_transport, winioctl/IOCTL_CHANGER_REINITIALIZE_TRANSPORT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: ioctl
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	IOCTL_CHANGER_REINITIALIZE_TRANSPORT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IOCTL_CHANGER_REINITIALIZE_TRANSPORT IOCTL

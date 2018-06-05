@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:bluetoothleapis.BluetoothGATTBeginReliableWrite
+title: BluetoothGATTBeginReliableWrite function
+author: windows-sdk-content
+description: The BluetoothGATTBeginReliableWrite function specifies that reliable writes are about to begin.
+old-location: bltooth\bluetoothgattbeginreliablewrite.htm
+old-project: bltooth
+ms.assetid: D053FD0C-3088-4C56-A4EA-F41079FAAF20
+ms.author: windowssdkdev
+ms.date: 04/27/2018
+ms.keywords: BluetoothGATTBeginReliableWrite, BluetoothGATTBeginReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattbeginreliablewrite, bluetoothleapis/BluetoothGATTBeginReliableWrite
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: bluetoothleapis.h
+req.include-header: 
+req.target-type: Universal
+req.target-min-winverclnt: Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	BluetoothAPIs.dll
+-	Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+api_name:
+-	BluetoothGATTBeginReliableWrite
+product: Windows
+targetos: Windows
+req.lib: BluetoothAPIs.lib
+req.dll: BluetoothAPIs.dll
+req.irql: 
 ---
 
 # BluetoothGATTBeginReliableWrite function

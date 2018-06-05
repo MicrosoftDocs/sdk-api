@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:spellcheck.ISpellChecker.get_LocalizedName
+title: ISpellChecker::get_LocalizedName
+author: windows-sdk-content
+description: Gets text, suitable to display to the user, that describes this spell checker.
+old-location: intl\ispellchecker_localizedname.htm
+old-project: Intl
+ms.assetid: 93bd9224-11fc-42cd-8b2a-93eec972a943
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],LocalizedName property, ISpellChecker.LocalizedName, ISpellChecker.get_LocalizedName, ISpellChecker::LocalizedName, ISpellChecker::get_LocalizedName, LocalizedName property [Internationalization for Windows Applications], LocalizedName property [Internationalization for Windows Applications],ISpellChecker interface, get_LocalizedName, intl.ispellchecker_localizedname, spellcheck/ISpellChecker::LocalizedName, spellcheck/ISpellChecker::get_LocalizedName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spellcheck.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Spellcheck.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WORDLIST_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Spellcheck.h
+api_name:
+-	ISpellChecker.LocalizedName
+-	ISpellChecker.get_LocalizedName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpellChecker::get_LocalizedName

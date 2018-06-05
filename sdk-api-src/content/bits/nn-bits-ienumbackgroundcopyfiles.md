@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:bits.IEnumBackgroundCopyFiles
+title: IEnumBackgroundCopyFiles
+author: windows-sdk-content
+description: Use the IEnumBackgroundCopyFiles interface to enumerate the files that a job contains. To get an IEnumBackgroundCopyFiles interface pointer, call the IBackgroundCopyJob::EnumFiles method.
+old-location: bits\ienumbackgroundcopyfiles.htm
+old-project: Bits
+ms.assetid: 831998ba-601c-43c4-ba27-faff741f8eb4
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IEnumBackgroundCopyFiles, IEnumBackgroundCopyFiles interface [BITS], IEnumBackgroundCopyFiles interface [BITS],described, _drz_ienumbackgroundcopyfiles, bits.ienumbackgroundcopyfiles, bits/IEnumBackgroundCopyFiles
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_PROXY_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	QmgrPrxy.dll
+api_name:
+-	IEnumBackgroundCopyFiles
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 ---
 
 # IEnumBackgroundCopyFiles interface

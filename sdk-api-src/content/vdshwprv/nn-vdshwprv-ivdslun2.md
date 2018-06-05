@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:vdshwprv.IVdsLun2
+title: IVdsLun2
+author: windows-sdk-content
+description: Provides methods for applying and querying logical unit number (LUN) hints.
+old-location: base\ivdslun2.htm
+old-project: VDS
+ms.assetid: 1cc26b91-d77b-4f8d-8c01-40b58cb03038
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IVdsLun2, IVdsLun2 interface, IVdsLun2 interface,described, base.ivdslun2, vds/IVdsLun2, vdshwprv/IVdsLun2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: vdshwprv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VERSION_SUPPORT_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsLun2
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsLun2 interface

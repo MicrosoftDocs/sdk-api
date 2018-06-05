@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:fsrmpipeline.IFsrmClassifierModuleDefinition
+title: IFsrmClassifierModuleDefinition
+author: windows-sdk-content
+description: Defines a classifier module.
+old-location: fsrm\ifsrmclassifiermoduledefinition.htm
+old-project: Fsrm
+ms.assetid: 6e691670-d7d7-48cb-8a81-ee8828b39b30
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmClassifierModuleDefinition, IFsrmClassifierModuleDefinition interface [File Server Resource Manager], IFsrmClassifierModuleDefinition interface [File Server Resource Manager],described, fs.ifsrmclassifiermoduledefinition, fsrm.ifsrmclassifiermoduledefinition, fsrm/IFsrmClassifierModuleDefinition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: fsrmpipeline.h
+req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmClassifierModuleDefinition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmClassifierModuleDefinition interface

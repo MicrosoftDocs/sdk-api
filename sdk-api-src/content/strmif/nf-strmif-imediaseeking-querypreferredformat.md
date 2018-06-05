@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.IMediaSeeking.QueryPreferredFormat
+title: IMediaSeeking::QueryPreferredFormat
+author: windows-sdk-content
+description: The QueryPreferredFormat method retrieves the preferred time format for seeking.
+old-location: dshow\imediaseeking_querypreferredformat.htm
+old-project: DirectShow
+ms.assetid: 16fd71d6-c162-493c-9bca-479d59da5031
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IMediaSeeking interface [DirectShow],QueryPreferredFormat method, IMediaSeeking.QueryPreferredFormat, IMediaSeeking::QueryPreferredFormat, IMediaSeekingQueryPreferredFormat, QueryPreferredFormat, QueryPreferredFormat method [DirectShow], QueryPreferredFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_querypreferredformat, strmif/IMediaSeeking::QueryPreferredFormat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IMediaSeeking.QueryPreferredFormat
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IMediaSeeking::QueryPreferredFormat

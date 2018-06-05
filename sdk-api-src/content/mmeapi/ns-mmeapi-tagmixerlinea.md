@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mmeapi.tagMIXERLINEA
+title: tagMIXERLINEA
+author: windows-sdk-content
+description: The MIXERLINE structure describes the state and metrics of an audio line.
+old-location: multimedia\mixerline.htm
+old-project: Multimedia
+ms.assetid: a314cdcd-dd52-49f1-92b4-c8e3775dcbe2
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*LPMIXERLINEA, *PMIXERLINEA, MIXERLINE, MIXERLINE structure [Windows Multimedia], MIXERLINEA, MIXERLINE_COMPONENTTYPE_DST_DIGITAL, MIXERLINE_COMPONENTTYPE_DST_HEADPHONES, MIXERLINE_COMPONENTTYPE_DST_LINE, MIXERLINE_COMPONENTTYPE_DST_MONITOR, MIXERLINE_COMPONENTTYPE_DST_SPEAKERS, MIXERLINE_COMPONENTTYPE_DST_TELEPHONE, MIXERLINE_COMPONENTTYPE_DST_UNDEFINED, MIXERLINE_COMPONENTTYPE_DST_VOICEIN, MIXERLINE_COMPONENTTYPE_DST_WAVEIN, MIXERLINE_COMPONENTTYPE_SRC_ANALOG, MIXERLINE_COMPONENTTYPE_SRC_AUXILIARY, MIXERLINE_COMPONENTTYPE_SRC_COMPACTDISC, MIXERLINE_COMPONENTTYPE_SRC_DIGITAL, MIXERLINE_COMPONENTTYPE_SRC_LINE, MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE, MIXERLINE_COMPONENTTYPE_SRC_PCSPEAKER, MIXERLINE_COMPONENTTYPE_SRC_SYNTHESIZER, MIXERLINE_COMPONENTTYPE_SRC_TELEPHONE, MIXERLINE_COMPONENTTYPE_SRC_UNDEFINED, MIXERLINE_COMPONENTTYPE_SRC_WAVEOUT, MIXERLINE_LINEF_ACTIVE, MIXERLINE_LINEF_DISCONNECTED, MIXERLINE_LINEF_SOURCE, MIXERLINE_TARGETTYPE_AUX, MIXERLINE_TARGETTYPE_MIDIIN, MIXERLINE_TARGETTYPE_MIDIOUT, MIXERLINE_TARGETTYPE_UNDEFINED, MIXERLINE_TARGETTYPE_WAVEIN, MIXERLINE_TARGETTYPE_WAVEOUT, _win32_MIXERLINE_str, mmeapi/MIXERLINE, multimedia.mixerline, tagMIXERLINE, tagMIXERLINEA, tagMIXERLINEW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mmeapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIXERLINEA, *PMIXERLINEA, *LPMIXERLINEA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mmeapi.h
+api_name:
+-	MIXERLINE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tagMIXERLINEA structure

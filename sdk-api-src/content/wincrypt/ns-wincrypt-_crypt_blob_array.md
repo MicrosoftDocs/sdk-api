@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_BLOB_ARRAY
+title: "_CRYPT_BLOB_ARRAY"
+author: windows-sdk-content
+description: Contains an array of CRYPT_DATA_BLOB structures.
+old-location: security\crypt_blob_array.htm
+old-project: SecCrypto
+ms.assetid: c4429a0c-6e79-4f02-acac-42b5280aa3b1
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_BLOB_ARRAY, CRYPT_BLOB_ARRAY, CRYPT_BLOB_ARRAY structure [Security], PCRYPT_BLOB_ARRAY, PCRYPT_BLOB_ARRAY structure pointer [Security], _CRYPT_BLOB_ARRAY, security.crypt_blob_array, wincrypt/CRYPT_BLOB_ARRAY, wincrypt/PCRYPT_BLOB_ARRAY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_BLOB_ARRAY, *PCRYPT_BLOB_ARRAY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRYPT_BLOB_ARRAY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_BLOB_ARRAY structure

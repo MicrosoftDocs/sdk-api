@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mfplay.MFP_POSITION_SET_EVENT
+title: MFP_POSITION_SET_EVENT
+author: windows-sdk-content
+description: Event structure for the MFP_EVENT_TYPE_POSITION_SET event.
+old-location: mf\mfp_position_set_event.htm
+old-project: medfound
+ms.assetid: 5a40f12b-c463-4c07-b062-411c0701254f
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFP_POSITION_SET_EVENT, MFP_POSITION_SET_EVENT structure [Media Foundation], mf.mfp_position_set_event, mfplay/MFP_POSITION_SET_EVENT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mfplay.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFP_POSITION_SET_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfplay.h
+api_name:
+-	MFP_POSITION_SET_EVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MFP_POSITION_SET_EVENT structure

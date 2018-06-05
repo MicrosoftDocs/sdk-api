@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mmdeviceapi.__MIDL___MIDL_itf_mmdeviceapi_0000_0000_0003
+title: "__MIDL___MIDL_itf_mmdeviceapi_0000_0000_0003"
+author: windows-sdk-content
+description: The EndpointFormFactor enumeration defines constants that indicate the general physical attributes of an audio endpoint device.
+old-location: coreaudio\endpointformfactor.htm
+old-project: CoreAudio
+ms.assetid: 3fd3782b-c0fc-4d75-8627-d898e7fae436
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: DigitalAudioDisplayDevice, EndpointFormFactor, EndpointFormFactor , EndpointFormFactor enumeration [Core Audio], EndpointFormFactor_enum_count, Handset, Headphones, Headset, LineLevel, Microphone, RemoteNetworkDevice, SPDIF, Speakers, UnknownDigitalPassthrough, UnknownFormFactor, __MIDL___MIDL_itf_mmdeviceapi_0000_0000_0003, coreaudio.endpointformfactor, mmdeviceapi/DigitalAudioDisplayDevice, mmdeviceapi/EndpointFormFactor, mmdeviceapi/EndpointFormFactor_enum_count, mmdeviceapi/Handset, mmdeviceapi/Headphones, mmdeviceapi/Headset, mmdeviceapi/LineLevel, mmdeviceapi/Microphone, mmdeviceapi/RemoteNetworkDevice, mmdeviceapi/SPDIF, mmdeviceapi/Speakers, mmdeviceapi/UnknownDigitalPassthrough, mmdeviceapi/UnknownFormFactor
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mmdeviceapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EndpointFormFactor
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mmdeviceapi.h
+api_name:
+-	EndpointFormFactor
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_mmdeviceapi_0000_0000_0003 enumeration

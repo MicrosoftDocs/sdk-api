@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CERT_X942_DH_VALIDATION_PARAMS
+title: "_CERT_X942_DH_VALIDATION_PARAMS"
+author: windows-sdk-content
+description: Optionally pointed to by a member of the CERT_X942_DH_PARAMETERS structure and contains additional seed information.
+old-location: security\cert_x942_dh_validation_params.htm
+old-project: SecCrypto
+ms.assetid: 26c367d5-c338-4db3-9973-ce21dcddf7ca
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_X942_DH_VALIDATION_PARAMS, CERT_942_DH_VALIDATION_PARAMS, CERT_942_DH_VALIDATION_PARAMS structure [Security], CERT_X942_DH_VALIDATION_PARAMS, CERT_X942_DH_VALIDATION_PARAMS structure [Security], PCERT942_DH_VALIDATION_PARAMS, PCERT942_DH_VALIDATION_PARAMS structure pointer [Security], _CERT_X942_DH_VALIDATION_PARAMS, _crypto2_cert_x942_dh_validation_params, security.cert_x942_dh_validation_params, wincrypt/CERT_X942_DH_VALIDATION_PARAMS, wincrypt/PCERT942_DH_VALIDATION_PARAMS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_X942_DH_VALIDATION_PARAMS, *PCERT_X942_DH_VALIDATION_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_942_DH_VALIDATION_PARAMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERT_X942_DH_VALIDATION_PARAMS structure

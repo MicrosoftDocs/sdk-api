@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bits10_1.IBackgroundCopyFile6.GetFilledFileRanges
+title: IBackgroundCopyFile6::GetFilledFileRanges
+author: windows-sdk-content
+description: Returns the set of file ranges that have been downloaded.
+old-location: bits\ibackgroundcopyfile6_getfilledfileranges.htm
+old-project: Bits
+ms.assetid: D3549C42-6642-4C3C-9D97-6F2F9732C48E
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetFilledFileRanges, GetFilledFileRanges method [BITS], GetFilledFileRanges method [BITS],IBackgroundCopyFile6 interface, IBackgroundCopyFile6 interface [BITS],GetFilledFileRanges method, IBackgroundCopyFile6.GetFilledFileRanges, IBackgroundCopyFile6::GetFilledFileRanges, bits.ibackgroundcopyfile6_getfilledfileranges, bits10_1/IBackgroundCopyFile6::GetFilledFileRanges
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bits10_1.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits10_1.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_TIMES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Bits.lib
+-	Bits.dll
+api_name:
+-	IBackgroundCopyFile6.GetFilledFileRanges
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 ---
 
 # IBackgroundCopyFile6::GetFilledFileRanges

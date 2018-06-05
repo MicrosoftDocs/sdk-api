@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataCollectorSet.put_Description
+title: IDataCollectorSet::put_Description
+author: windows-sdk-content
+description: Retrieves or sets the description of the data collector set. The description will be added to all output files as metadata and inserted into Performance Data Helper logs as a comment.
+old-location: pla\idatacollectorset_get_description.htm
+old-project: PLA
+ms.assetid: d36deb28-09fa-4efd-bfe8-055757f4273a
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: Description property [PLA], Description property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Description property, IDataCollectorSet.Description, IDataCollectorSet.put_Description, IDataCollectorSet::Description, IDataCollectorSet::get_Description, IDataCollectorSet::put_Description, base.idatacollectorset_get_description, pla.idatacollectorset_get_description, pla/IDataCollectorSet::Description, pla/IDataCollectorSet::get_Description, pla/IDataCollectorSet::put_Description, put_Description
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataCollectorSet.Description
+-	IDataCollectorSet.get_Description
+-	IDataCollectorSet.put_Description
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataCollectorSet::put_Description

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsvc._SERVICE_PREFERRED_NODE_INFO
+title: "_SERVICE_PREFERRED_NODE_INFO"
+author: windows-sdk-content
+description: Represents the preferred node on which to run a service.
+old-location: base\service_preferred_node_info.htm
+old-project: Services
+ms.assetid: aa16cc56-0a95-47e0-9390-c219b83aeeb4
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*LPSERVICE_PREFERRED_NODE_INFO, LPSERVICE_PREFERRED_NODE_INFO, LPSERVICE_PREFERRED_NODE_INFO structure pointer, SERVICE_PREFERRED_NODE_INFO, SERVICE_PREFERRED_NODE_INFO structure, _SERVICE_PREFERRED_NODE_INFO, base.service_preferred_node_info, winsvc/LPSERVICE_PREFERRED_NODE_INFO, winsvc/SERVICE_PREFERRED_NODE_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsvc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SERVICE_PREFERRED_NODE_INFO, *LPSERVICE_PREFERRED_NODE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winsvc.h
+api_name:
+-	SERVICE_PREFERRED_NODE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SERVICE_PREFERRED_NODE_INFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntsecapi.LsaOpenTrustedDomainByName
+title: LsaOpenTrustedDomainByName function
+author: windows-sdk-content
+description: The LsaOpenTrustedDomainByName function opens the LSA policy handle of a remote trusted domain. You can pass this handle into LSA function calls in order to set or query the LSA policy of the remote machine.
+old-location: security\lsaopentrusteddomainbyname.htm
+old-project: SecMgmt
+ms.assetid: 6c55f8b4-d8a2-48e3-8074-b3ca22ce487a
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: LsaOpenTrustedDomainByName, LsaOpenTrustedDomainByName function [Security], _lsa_lsaopentrusteddomainbyname, ntsecapi/LsaOpenTrustedDomainByName, security.lsaopentrusteddomainbyname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+api_name:
+-	LsaOpenTrustedDomainByName
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LsaOpenTrustedDomainByName function

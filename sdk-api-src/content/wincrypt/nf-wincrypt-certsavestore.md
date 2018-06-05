@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CertSaveStore
+title: CertSaveStore function
+author: windows-sdk-content
+description: Saves the certificate store to a file or to a memory BLOB.
+old-location: security\certsavestore.htm
+old-project: SecCrypto
+ms.assetid: 5cc818d7-b079-4962-aabc-fc512d4e92ac
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CERT_STORE_SAVE_AS_PKCS7, CERT_STORE_SAVE_AS_STORE, CERT_STORE_SAVE_TO_FILE, CERT_STORE_SAVE_TO_FILENAME, CERT_STORE_SAVE_TO_FILENAME_A, CERT_STORE_SAVE_TO_FILENAME_W, CERT_STORE_SAVE_TO_MEMORY, CertSaveStore, CertSaveStore function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_certsavestore, security.certsavestore, wincrypt/CertSaveStore
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CertSaveStore
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CertSaveStore function

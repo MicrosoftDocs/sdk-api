@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iscsidsc.SetIScsiGroupPresharedKey
+title: SetIScsiGroupPresharedKey function
+author: windows-sdk-content
+description: SetIscsiGroupPresharedKey function establishes the default group preshared key for all initiators on the computer.
+old-location: iscsidisc\setiscsigrouppresharedkey.htm
+old-project: iSCSIDisc
+ms.assetid: 344d0a88-64e9-45a3-a789-6733b85e9c2d
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: SetIScsiGroupPresharedKey, SetIscsiGroupPresharedKey, SetIscsiGroupPresharedKey function [iSCSI Discovery Library API], iscsidisc.setiscsigrouppresharedkey, iscsidsc/SetIscsiGroupPresharedKey
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Iscsidsc.dll
+api_name:
+-	SetIscsiGroupPresharedKey
+product: Windows
+targetos: Windows
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # SetIScsiGroupPresharedKey function

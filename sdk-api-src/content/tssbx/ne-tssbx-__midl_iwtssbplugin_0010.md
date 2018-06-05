@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tssbx.__MIDL_IWTSSBPlugin_0010
+title: "__MIDL_IWTSSBPlugin_0010"
+author: windows-sdk-content
+description: Contains values that indicate the type of status change that occurred on a Remote Desktop Session Host (RD Session Host) server or a user session.
+old-location: termserv\wtssbx_notification_type.htm
+old-project: TermServ
+ms.assetid: 06da6e20-a4de-4e2d-8f42-6d99b738226c
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: WTSSBX_NOTIFICATION_ADDED, WTSSBX_NOTIFICATION_CHANGED, WTSSBX_NOTIFICATION_REMOVED, WTSSBX_NOTIFICATION_RESYNC, WTSSBX_NOTIFICATION_TYPE, WTSSBX_NOTIFICATION_TYPE enumeration [Remote Desktop Services], __MIDL_IWTSSBPlugin_0010, termserv.wtssbx_notification_type, tssbx/WTSSBX_NOTIFICATION_ADDED, tssbx/WTSSBX_NOTIFICATION_CHANGED, tssbx/WTSSBX_NOTIFICATION_REMOVED, tssbx/WTSSBX_NOTIFICATION_RESYNC, tssbx/WTSSBX_NOTIFICATION_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tssbx.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tssbx.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTSSBX_NOTIFICATION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tssbx.h
+api_name:
+-	WTSSBX_NOTIFICATION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # __MIDL_IWTSSBPlugin_0010 enumeration

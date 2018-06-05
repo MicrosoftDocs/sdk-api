@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winnls.GetNumberFormatEx
+title: GetNumberFormatEx function
+author: windows-sdk-content
+description: Formats a number string as a number string customized for a locale specified by name.Note  The application should call this function in preference to GetNumberFormat if designed to run only on Windows Vista and later. Note  This function can format data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
+old-location: intl\getnumberformatex.htm
+old-project: Intl
+ms.assetid: 7874bc6e-1db2-44be-aa7a-7c716d23f7a4
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetNumberFormatEx, GetNumberFormatEx function [Internationalization for Windows Applications], _win32_GetNumberFormatEx, intl.getnumberformatex, winnls/GetNumberFormatEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winnls.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NORM_FORM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Localization-l2-1-0.dll
+-	KernelBase.dll
+api_name:
+-	GetNumberFormatEx
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # GetNumberFormatEx function

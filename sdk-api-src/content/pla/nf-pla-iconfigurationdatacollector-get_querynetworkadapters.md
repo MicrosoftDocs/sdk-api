@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IConfigurationDataCollector.get_QueryNetworkAdapters
+title: IConfigurationDataCollector::get_QueryNetworkAdapters
+author: windows-sdk-content
+description: Retrieves or sets a value that indicates whether the installed network adapters are queried for their offloading capabilities and other configuration information.
+old-location: pla\iconfigurationdatacollector_querynetworkadapters.htm
+old-project: PLA
+ms.assetid: 42ec786f-abfc-4331-9e75-ce894a2a5110
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IConfigurationDataCollector interface [PLA],QueryNetworkAdapters property, IConfigurationDataCollector.QueryNetworkAdapters, IConfigurationDataCollector.get_QueryNetworkAdapters, IConfigurationDataCollector::QueryNetworkAdapters, IConfigurationDataCollector::get_QueryNetworkAdapters, IConfigurationDataCollector::put_QueryNetworkAdapters, QueryNetworkAdapters property [PLA], QueryNetworkAdapters property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_querynetworkadapters, get_QueryNetworkAdapters, pla.iconfigurationdatacollector_querynetworkadapters, pla/IConfigurationDataCollector::QueryNetworkAdapters, pla/IConfigurationDataCollector::get_QueryNetworkAdapters, pla/IConfigurationDataCollector::put_QueryNetworkAdapters
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IConfigurationDataCollector.QueryNetworkAdapters
+-	IConfigurationDataCollector.get_QueryNetworkAdapters
+-	IConfigurationDataCollector.put_QueryNetworkAdapters
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IConfigurationDataCollector::get_QueryNetworkAdapters

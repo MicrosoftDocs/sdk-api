@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11_3.ID3D11DeviceContext4.Wait
+title: ID3D11DeviceContext4::Wait
+author: windows-sdk-content
+description: Waits until the specified fence reaches or exceeds the specified value before future work can begin.
+old-location: direct3d11\id3d11devicecontext4_wait.htm
+old-project: direct3d11
+ms.assetid: 91576E2D-A28F-43A8-B9FE-5888779877F9
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: ID3D11DeviceContext4 interface [Direct3D 11],Wait method, ID3D11DeviceContext4.Wait, ID3D11DeviceContext4::Wait, Wait, Wait method [Direct3D 11], Wait method [Direct3D 11],ID3D11DeviceContext4 interface, d3d11_3/ID3D11DeviceContext4::Wait, direct3d11.id3d11devicecontext4_wait
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11_3.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_TEXTURE_LAYOUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11DeviceContext4.Wait
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11DeviceContext4::Wait

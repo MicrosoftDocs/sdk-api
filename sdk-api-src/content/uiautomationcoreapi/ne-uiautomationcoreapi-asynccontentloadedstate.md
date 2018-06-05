@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uiautomationcoreapi.AsyncContentLoadedState
+title: AsyncContentLoadedState
+author: windows-sdk-content
+description: Contains values that describe the progress of asynchronous loading of content.
+old-location: winauto\uiauto_AsyncContentLoadedStateEnum.htm
+old-project: WinAuto
+ms.assetid: 7c562d3a-10cc-4d9e-aaad-6729574fcb96
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: AsyncContentLoadedState, AsyncContentLoadedState enumeration [Windows Accessibility], AsyncContentLoadedState_Beginning, AsyncContentLoadedState_Completed, AsyncContentLoadedState_Progress, uiauto.uiauto_AsyncContentLoadedStateEnum, uiauto_AsyncContentLoadedStateEnum, uiautomationcoreapi/AsyncContentLoadedState, uiautomationcoreapi/AsyncContentLoadedState_Beginning, uiautomationcoreapi/AsyncContentLoadedState_Completed, uiautomationcoreapi/AsyncContentLoadedState_Progress, winauto.uiauto_AsyncContentLoadedStateEnum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uiautomationcoreapi.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UIAutomationCoreApi.h
+api_name:
+-	AsyncContentLoadedState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # AsyncContentLoadedState enumeration

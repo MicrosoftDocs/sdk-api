@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITAddress2.GetPhoneFromTerminal
+title: ITAddress2::GetPhoneFromTerminal
+author: windows-sdk-content
+description: The GetPhoneFromTerminal method returns the phone object associated with the terminal. Only one phone can be associated with a terminal.
+old-location: tapi3\itaddress2_getphonefromterminal.htm
+old-project: Tapi
+ms.assetid: 0d3873ad-ce3d-4b4c-907f-9c0dbf0ef206
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: GetPhoneFromTerminal, GetPhoneFromTerminal method [TAPI 2.2], GetPhoneFromTerminal method [TAPI 2.2],ITAddress2 interface, ITAddress2 interface [TAPI 2.2],GetPhoneFromTerminal method, ITAddress2.GetPhoneFromTerminal, ITAddress2::GetPhoneFromTerminal, _tapi3_itaddress2_getphonefromterminal, tapi3.itaddress2_getphonefromterminal, tapi3if/ITAddress2::GetPhoneFromTerminal
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAddress2.GetPhoneFromTerminal
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAddress2::GetPhoneFromTerminal

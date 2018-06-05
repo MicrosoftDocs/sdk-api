@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:icwcfg.SetShellNext
+title: SetShellNext function
+author: windows-sdk-content
+description: Sets the ShellNext registry key with the specified value.
+old-location: winprog\setshellnext.htm
+old-project: DevNotes
+ms.assetid: f08753b2-9666-498d-aee4-8eb2c7f0d95b
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: SetShellNext, SetShellNext function [Windows API], icwcfg/SetShellNext, winprog.setshellnext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: icwcfg.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_FW_SERVICE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Inetcfg.dll
+api_name:
+-	SetShellNext
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Inetcfg.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # SetShellNext function

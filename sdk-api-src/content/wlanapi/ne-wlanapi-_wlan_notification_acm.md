@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wlanapi._WLAN_NOTIFICATION_ACM
+title: "_WLAN_NOTIFICATION_ACM"
+author: windows-sdk-content
+description: Specifies the possible values of the NotificationCode member of the WLAN_NOTIFICATION_DATA structure for Auto Configuration Module (ACM) notifications.
+old-location: nwifi\wlan_notification_acm.htm
+old-project: NativeWiFi
+ms.assetid: b0814b2a-ccdc-4bf1-b11e-25f2cf6ba9bd
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_NOTIFICATION_ACM, PWLAN_NOTIFICATION_ACM, PWLAN_NOTIFICATION_ACM enumeration pointer [NativeWIFI], WLAN_NOTIFICATION_ACM, WLAN_NOTIFICATION_ACM enumeration [NativeWIFI], _WLAN_NOTIFICATION_ACM, nwifi.wlan_notification_acm, wlan_notification_acm_adhoc_network_state_change, wlan_notification_acm_autoconf_disabled, wlan_notification_acm_autoconf_enabled, wlan_notification_acm_background_scan_disabled, wlan_notification_acm_background_scan_enabled, wlan_notification_acm_bss_type_change, wlan_notification_acm_connection_attempt_fail, wlan_notification_acm_connection_complete, wlan_notification_acm_connection_start, wlan_notification_acm_disconnected, wlan_notification_acm_disconnecting, wlan_notification_acm_end, wlan_notification_acm_filter_list_change, wlan_notification_acm_interface_arrival, wlan_notification_acm_interface_removal, wlan_notification_acm_network_available, wlan_notification_acm_network_not_available, wlan_notification_acm_power_setting_change, wlan_notification_acm_profile_blocked, wlan_notification_acm_profile_change, wlan_notification_acm_profile_name_change, wlan_notification_acm_profile_unblocked, wlan_notification_acm_profiles_exhausted, wlan_notification_acm_scan_complete, wlan_notification_acm_scan_fail, wlan_notification_acm_scan_list_refresh, wlan_notification_acm_screen_power_change, wlan_notification_acm_start, wlanapi/PWLAN_NOTIFICATION_ACM, wlanapi/WLAN_NOTIFICATION_ACM, wlanapi/wlan_notification_acm_adhoc_network_state_change, wlanapi/wlan_notification_acm_autoconf_disabled, wlanapi/wlan_notification_acm_autoconf_enabled, wlanapi/wlan_notification_acm_background_scan_disabled, wlanapi/wlan_notification_acm_background_scan_enabled, wlanapi/wlan_notification_acm_bss_type_change, wlanapi/wlan_notification_acm_connection_attempt_fail, wlanapi/wlan_notification_acm_connection_complete, wlanapi/wlan_notification_acm_connection_start, wlanapi/wlan_notification_acm_disconnected, wlanapi/wlan_notification_acm_disconnecting, wlanapi/wlan_notification_acm_end, wlanapi/wlan_notification_acm_filter_list_change, wlanapi/wlan_notification_acm_interface_arrival, wlanapi/wlan_notification_acm_interface_removal, wlanapi/wlan_notification_acm_network_available, wlanapi/wlan_notification_acm_network_not_available, wlanapi/wlan_notification_acm_power_setting_change, wlanapi/wlan_notification_acm_profile_blocked, wlanapi/wlan_notification_acm_profile_change, wlanapi/wlan_notification_acm_profile_name_change, wlanapi/wlan_notification_acm_profile_unblocked, wlanapi/wlan_notification_acm_profiles_exhausted, wlanapi/wlan_notification_acm_scan_complete, wlanapi/wlan_notification_acm_scan_fail, wlanapi/wlan_notification_acm_scan_list_refresh, wlanapi/wlan_notification_acm_screen_power_change, wlanapi/wlan_notification_acm_start"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_NOTIFICATION_ACM, *PWLAN_NOTIFICATION_ACM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wlanapi.h
+api_name:
+-	WLAN_NOTIFICATION_ACM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_NOTIFICATION_ACM enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0005_0001
+title: "__MIDL___MIDL_itf_vmr9_0000_0005_0001"
+author: windows-sdk-content
+description: The VMR9MixerPrefs enumeration type contains flags that specify how the Video Mixing Render 9 filter (VMR-9) mixes the video streams. Settings include decimation, filtering, and render target preferences.
+old-location: dshow\vmr9mixerprefs.htm
+old-project: DirectShow
+ms.assetid: 59d3af89-248e-43cd-b6dc-e6c0a4d5f5fb
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: MixerPref9_ARAdjustXorY, MixerPref9_AnisotropicFiltering, MixerPref9_BiLinearFiltering, MixerPref9_DecimateMask, MixerPref9_DecimateOutput, MixerPref9_DynamicDecimateBy2, MixerPref9_DynamicMask, MixerPref9_DynamicReserved, MixerPref9_DynamicSwitchToBOB, MixerPref9_FilteringMask, MixerPref9_FilteringReserved, MixerPref9_GaussianQuadFiltering, MixerPref9_NoDecimation, MixerPref9_NonSquareMixing, MixerPref9_PointFiltering, MixerPref9_PyramidalQuadFiltering, MixerPref9_RenderTargetMask, MixerPref9_RenderTargetRGB, MixerPref9_RenderTargetReserved, MixerPref9_RenderTargetYUV, VMR9MixerPrefs, VMR9MixerPrefs , VMR9MixerPrefs enumeration [DirectShow], VMR9MixerPrefsEnumeration, __MIDL___MIDL_itf_vmr9_0000_0005_0001, dshow.vmr9mixerprefs, vmr9/MixerPref9_ARAdjustXorY, vmr9/MixerPref9_AnisotropicFiltering, vmr9/MixerPref9_BiLinearFiltering, vmr9/MixerPref9_DecimateMask, vmr9/MixerPref9_DecimateOutput, vmr9/MixerPref9_DynamicDecimateBy2, vmr9/MixerPref9_DynamicMask, vmr9/MixerPref9_DynamicReserved, vmr9/MixerPref9_DynamicSwitchToBOB, vmr9/MixerPref9_FilteringMask, vmr9/MixerPref9_FilteringReserved, vmr9/MixerPref9_GaussianQuadFiltering, vmr9/MixerPref9_NoDecimation, vmr9/MixerPref9_NonSquareMixing, vmr9/MixerPref9_PointFiltering, vmr9/MixerPref9_PyramidalQuadFiltering, vmr9/MixerPref9_RenderTargetMask, vmr9/MixerPref9_RenderTargetRGB, vmr9/MixerPref9_RenderTargetReserved, vmr9/MixerPref9_RenderTargetYUV, vmr9/VMR9MixerPrefs
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vmr9.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VMR9MixerPrefs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vmr9.h
+api_name:
+-	VMR9MixerPrefs
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # __MIDL___MIDL_itf_vmr9_0000_0005_0001 enumeration

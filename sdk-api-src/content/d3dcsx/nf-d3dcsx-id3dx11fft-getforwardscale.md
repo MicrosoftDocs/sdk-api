@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3dcsx.ID3DX11FFT.GetForwardScale
+title: ID3DX11FFT::GetForwardScale
+author: windows-sdk-content
+description: Gets the scale for forward transforms.
+old-location: direct3d11\id3dx11fft_getforwardscale.htm
+old-project: direct3d11
+ms.assetid: d66cef71-df1e-40fa-80ba-9e0813608ee2
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: GetForwardScale, GetForwardScale method [Direct3D 11], GetForwardScale method [Direct3D 11],ID3DX11FFT interface, ID3DX11FFT interface [Direct3D 11],GetForwardScale method, ID3DX11FFT.GetForwardScale, ID3DX11FFT::GetForwardScale, d15a8e9c-685b-8592-6a11-8c6add9d890d, d3dcsx/ID3DX11FFT::GetForwardScale, direct3d11.id3dx11fft_getforwardscale
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3dcsx.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DX11_SCAN_OPCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3dcsx.lib
+-	d3dcsx.dll
+api_name:
+-	ID3DX11FFT.GetForwardScale
+product: Windows
+targetos: Windows
+req.lib: D3dcsx.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3DX11FFT::GetForwardScale

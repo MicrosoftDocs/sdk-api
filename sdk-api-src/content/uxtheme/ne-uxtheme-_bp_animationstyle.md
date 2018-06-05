@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uxtheme._BP_ANIMATIONSTYLE
+title: "_BP_ANIMATIONSTYLE"
+author: windows-sdk-content
+description: Used in the BP_ANIMATIONPARAMS structure to declare animation options.
+old-location: controls\BP_ANIMATIONSTYLE.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\userex\enums\bp_animationstyle.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: BPAS_CUBIC, BPAS_LINEAR, BPAS_NONE, BPAS_SINE, BP_ANIMATIONSTYLE, BP_ANIMATIONSTYLE enumeration [Windows Controls], _BP_ANIMATIONSTYLE, _shell_BP_ANIMATIONSTYLE, _shell_BP_ANIMATIONSTYLE_cpp, controls.BP_ANIMATIONSTYLE, controls._shell_BP_ANIMATIONSTYLE, uxtheme/BPAS_CUBIC, uxtheme/BPAS_LINEAR, uxtheme/BPAS_NONE, uxtheme/BPAS_SINE, uxtheme/BP_ANIMATIONSTYLE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uxtheme.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BP_ANIMATIONSTYLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Uxtheme.h
+api_name:
+-	BP_ANIMATIONSTYLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _BP_ANIMATIONSTYLE enumeration

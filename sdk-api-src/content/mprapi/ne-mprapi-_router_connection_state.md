@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mprapi._ROUTER_CONNECTION_STATE
+title: "_ROUTER_CONNECTION_STATE"
+author: windows-sdk-content
+description: Enumerates the possible states of an interface on a router.
+old-location: rras\router_connection_state.htm
+old-project: RRAS
+ms.assetid: e98f9843-c5a2-4714-8e22-58f24256d08f
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: ROUTER_CONNECTION_STATE, ROUTER_CONNECTION_STATE enumeration [RAS], ROUTER_IF_STATE_CONNECTED, ROUTER_IF_STATE_CONNECTING, ROUTER_IF_STATE_DISCONNECTED, ROUTER_IF_STATE_UNREACHABLE, _ROUTER_CONNECTION_STATE, _mpr_router_connection_state, mprapi/ROUTER_CONNECTION_STATE, mprapi/ROUTER_IF_STATE_CONNECTED, mprapi/ROUTER_IF_STATE_CONNECTING, mprapi/ROUTER_IF_STATE_DISCONNECTED, mprapi/ROUTER_IF_STATE_UNREACHABLE, rras.router_connection_state
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ROUTER_CONNECTION_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mprapi.h
+api_name:
+-	ROUTER_CONNECTION_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _ROUTER_CONNECTION_STATE enumeration

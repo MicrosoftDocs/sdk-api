@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iwscapi.WSC_SECURITY_PRODUCT_STATE
+title: WSC_SECURITY_PRODUCT_STATE
+author: windows-sdk-content
+description: Defines the current state of the security product that is made available to Windows Security Center.
+old-location: winprog\wsc_security_product_state.htm
+old-project: DevNotes
+ms.assetid: 2783795B-4A7A-4033-A9EE-9B4CEF2E61B9
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: WSC_SECURITY_PRODUCT_STATE, WSC_SECURITY_PRODUCT_STATE enumeration [Windows API], WSC_SECURITY_PRODUCT_STATE_EXPIRED, WSC_SECURITY_PRODUCT_STATE_OFF, WSC_SECURITY_PRODUCT_STATE_ON, WSC_SECURITY_PRODUCT_STATE_SNOOZED, iwscapi/WSC_SECURITY_PRODUCT_STATE, iwscapi/WSC_SECURITY_PRODUCT_STATE_EXPIRED, iwscapi/WSC_SECURITY_PRODUCT_STATE_OFF, iwscapi/WSC_SECURITY_PRODUCT_STATE_ON, iwscapi/WSC_SECURITY_PRODUCT_STATE_SNOOZED, winprog.wsc_security_product_state
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iwscapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Wscapi.lib
+tech.root: 
+req.typenames: WSC_SECURITY_PRODUCT_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Wscapi.lib
+api_name:
+-	WSC_SECURITY_PRODUCT_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # WSC_SECURITY_PRODUCT_STATE enumeration

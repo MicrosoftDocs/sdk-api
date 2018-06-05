@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFSourceResolver.BeginCreateObjectFromByteStream
+title: IMFSourceResolver::BeginCreateObjectFromByteStream
+author: windows-sdk-content
+description: Begins an asynchronous request to create a media source from a byte stream.
+old-location: mf\imfsourceresolver_begincreateobjectfrombytestream.htm
+old-project: medfound
+ms.assetid: 6e218b93-4855-40dd-96cc-c4ee02792c14
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 6e218b93-4855-40dd-96cc-c4ee02792c14, BeginCreateObjectFromByteStream, BeginCreateObjectFromByteStream method [Media Foundation], BeginCreateObjectFromByteStream method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],BeginCreateObjectFromByteStream method, IMFSourceResolver.BeginCreateObjectFromByteStream, IMFSourceResolver::BeginCreateObjectFromByteStream, mf.imfsourceresolver_begincreateobjectfrombytestream, mfidl/IMFSourceResolver::BeginCreateObjectFromByteStream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFSourceResolver.BeginCreateObjectFromByteStream
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSourceResolver::BeginCreateObjectFromByteStream

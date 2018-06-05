@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:faxcom.IFaxStatus.get_CurrentPage
+title: IFaxStatus::get_CurrentPage
+author: windows-sdk-content
+description: Retrieves the CurrentPage property for the FaxStatus object of a parent FaxPort object. The CurrentPage property is a number that identifies the current page of an active outbound fax job on a specific port.
+old-location: fax\_mfax_ifaxstatus_get_currentpage_vb.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxlegacy_3kx1.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CurrentPage property [Fax Service], CurrentPage property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],CurrentPage property, FaxStatus.CurrentPage, IFaxStatus.get_CurrentPage, IFaxStatus::get_CurrentPage, _mfax_ifaxstatus_get_currentpage, fax._mfax_ifaxstatus_get_currentpage, fax._mfax_ifaxstatus_get_currentpage_vb, get_CurrentPage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: faxcom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ShellWindowTypeConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Faxcom.dll
+api_name:
+-	FaxStatus.CurrentPage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFaxStatus::get_CurrentPage

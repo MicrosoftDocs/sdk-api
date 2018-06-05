@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.get_ModuleClsid
+title: IFsrmPipelineModuleDefinition::get_ModuleClsid
+author: windows-sdk-content
+description: A string representation specifying the COM class identifier for the class that implements the module defined by this module definition.
+old-location: fsrm\ifsrmpipelinemoduledefinition_moduleclsid.htm
+old-project: Fsrm
+ms.assetid: a90c8836-cd7f-46d8-814c-6f798c930b4d
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],ModuleClsid property, IFsrmPipelineModuleDefinition.ModuleClsid, IFsrmPipelineModuleDefinition.get_ModuleClsid, IFsrmPipelineModuleDefinition::ModuleClsid, IFsrmPipelineModuleDefinition::get_ModuleClsid, IFsrmPipelineModuleDefinition::put_ModuleClsid, ModuleClsid property [File Server Resource Manager], ModuleClsid property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_moduleclsid, fsrm.ifsrmpipelinemoduledefinition_moduleclsid, fsrmpipeline/IFsrmPipelineModuleDefinition::ModuleClsid, fsrmpipeline/IFsrmPipelineModuleDefinition::get_ModuleClsid, fsrmpipeline/IFsrmPipelineModuleDefinition::put_ModuleClsid, get_ModuleClsid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmPipelineModuleDefinition.ModuleClsid
+-	IFsrmPipelineModuleDefinition.get_ModuleClsid
+-	IFsrmPipelineModuleDefinition.put_ModuleClsid
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmPipelineModuleDefinition::get_ModuleClsid

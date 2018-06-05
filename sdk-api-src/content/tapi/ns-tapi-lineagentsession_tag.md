@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:tapi.lineagentsession_tag
+title: lineagentsession_tag
+author: windows-sdk-content
+description: The LINEAGENTSESSIONENTRY structure describes an ACD agent session. The LINEAGENTSESSIONLIST structure can contain an array of LINEAGENTSESSIONENTRY structures.
+old-location: tapi2\lineagentsessionentry_str.htm
+old-project: Tapi
+ms.assetid: 406b003a-11a2-445d-a466-a8549e201199
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*LPLINEAGENTSESSIONENTRY, LINEAGENTSESSIONENTRY, LINEAGENTSESSIONENTRY structure [TAPI 2.2], LPLINEAGENTSESSIONENTRY, LPLINEAGENTSESSIONENTRY structure pointer [TAPI 2.2], _tapi2_lineagentsessionentry_str, lineagentsession_tag, tapi/LINEAGENTSESSIONENTRY, tapi/LPLINEAGENTSESSIONENTRY, tapi2.lineagentsessionentry_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LINEAGENTSESSIONENTRY, *LPLINEAGENTSESSIONENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi.h
+api_name:
+-	LINEAGENTSESSIONENTRY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # lineagentsession_tag structure

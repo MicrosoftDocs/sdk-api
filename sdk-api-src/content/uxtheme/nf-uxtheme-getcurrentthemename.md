@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uxtheme.GetCurrentThemeName
+title: GetCurrentThemeName function
+author: windows-sdk-content
+description: Retrieves the name of the current visual style, and optionally retrieves the color scheme name and size name.
+old-location: controls\GetCurrentThemeName.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\userex\functions\getcurrentthemename.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetCurrentThemeName, GetCurrentThemeName function [Windows Controls], controls.GetCurrentThemeName, controls.inet_GetCurrentThemeName, inet_GetCurrentThemeName, inet_GetCurrentThemeName_cpp, uxtheme/GetCurrentThemeName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: uxtheme.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BP_BUFFERFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	UxTheme.dll
+api_name:
+-	GetCurrentThemeName
+product: Windows
+targetos: Windows
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll (version 1.0 or later)
+req.irql: 
+req.product: Windows UI
 ---
 
 # GetCurrentThemeName function

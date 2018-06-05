@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xenroll.ICEnroll3.put_ReuseHardwareKeyIfUnableToGenNew
+title: ICEnroll3::put_ReuseHardwareKeyIfUnableToGenNew
+author: windows-sdk-content
+description: Sets or retrieves a Boolean value that determines the action taken by the certificate enrollment control object if an error is encountered when generating a new key.
+old-location: security\icenroll4_reusehardwarekeyifunabletogennew.htm
+old-project: SecCrypto
+ms.assetid: 5a9d5f78-bf88-4e24-9685-7c504f9f2e38
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CEnroll object [Security],ReuseHardwareKeyIfUnableToGenNew property, ICEnroll3 interface [Security],ReuseHardwareKeyIfUnableToGenNew property, ICEnroll3.ReuseHardwareKeyIfUnableToGenNew, ICEnroll3.put_ReuseHardwareKeyIfUnableToGenNew, ICEnroll3::get_ReuseHardwareKeyIfUnableToGenNew, ICEnroll3::put_ReuseHardwareKeyIfUnableToGenNew, ICEnroll4 interface [Security],ReuseHardwareKeyIfUnableToGenNew property, ICEnroll4.ReuseHardwareKeyIfUnableToGenNew, ICEnroll4::ReuseHardwareKeyIfUnableToGenNew, ICEnroll4::get_ReuseHardwareKeyIfUnableToGenNew, ICEnroll4::put_ReuseHardwareKeyIfUnableToGenNew, ReuseHardwareKeyIfUnableToGenNew property [Security], ReuseHardwareKeyIfUnableToGenNew property [Security],CEnroll object, ReuseHardwareKeyIfUnableToGenNew property [Security],ICEnroll3 interface, ReuseHardwareKeyIfUnableToGenNew property [Security],ICEnroll4 interface, put_ReuseHardwareKeyIfUnableToGenNew, security.icenroll4_reusehardwarekeyifunabletogennew, xenroll/ICEnroll3::ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll3::get_ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll3::put_ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll4::ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll4::get_ReuseHardwareKeyIfUnableToGenNew, xenroll/ICEnroll4::put_ReuseHardwareKeyIfUnableToGenNew
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,29 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	ICEnroll4.ReuseHardwareKeyIfUnableToGenNew
+-	ICEnroll4.get_ReuseHardwareKeyIfUnableToGenNew
+-	ICEnroll4.put_ReuseHardwareKeyIfUnableToGenNew
+-	ICEnroll3.ReuseHardwareKeyIfUnableToGenNew
+-	ICEnroll3.get_ReuseHardwareKeyIfUnableToGenNew
+-	ICEnroll3.put_ReuseHardwareKeyIfUnableToGenNew
+-	CEnroll.ReuseHardwareKeyIfUnableToGenNew
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # ICEnroll3::put_ReuseHardwareKeyIfUnableToGenNew

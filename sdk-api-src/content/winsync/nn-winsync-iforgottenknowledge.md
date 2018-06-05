@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:winsync.IForgottenKnowledge
+title: IForgottenKnowledge
+author: windows-sdk-content
+description: Represents knowledge that has been forgotten because of tombstone cleanup.
+old-location: winsync\iforgottenknowledge.htm
+old-project: winsync
+ms.assetid: 93185921-8f41-4222-86d8-602d197c4b33
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IForgottenKnowledge, IForgottenKnowledge interface [Windows Sync], IForgottenKnowledge interface [Windows Sync],described, winsync.iforgottenknowledge, winsync/IForgottenKnowledge
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	IForgottenKnowledge
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IForgottenKnowledge interface

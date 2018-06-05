@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:bits.__MIDL_IBackgroundCopyJob_0004
+title: "__MIDL_IBackgroundCopyJob_0004"
+author: windows-sdk-content
+description: The BG_JOB_PROXY_USAGE enumeration defines constant values that specify which proxy to use for file transfers. You can define different proxy settings for each job.
+old-location: bits\bg_job_proxy_usage.htm
+old-project: Bits
+ms.assetid: e066b6c8-905f-4e18-9be7-aa3c134f9e13
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BG_JOB_PROXY_USAGE, BG_JOB_PROXY_USAGE enumeration [BITS], BG_JOB_PROXY_USAGE_AUTODETECT, BG_JOB_PROXY_USAGE_NO_PROXY, BG_JOB_PROXY_USAGE_OVERRIDE, BG_JOB_PROXY_USAGE_PRECONFIG, __MIDL_IBackgroundCopyJob_0004, _drz_bg_job_proxy_usage, bits.bg_job_proxy_usage, bits/BG_JOB_PROXY_USAGE, bits/BG_JOB_PROXY_USAGE_AUTODETECT, bits/BG_JOB_PROXY_USAGE_NO_PROXY, bits/BG_JOB_PROXY_USAGE_OVERRIDE, bits/BG_JOB_PROXY_USAGE_PRECONFIG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_PROXY_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bits.h
+api_name:
+-	BG_JOB_PROXY_USAGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # __MIDL_IBackgroundCopyJob_0004 enumeration

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsvc._QUERY_SERVICE_LOCK_STATUSA
+title: "_QUERY_SERVICE_LOCK_STATUSA"
+author: windows-sdk-content
+description: Contains information about the lock status of a service control manager database. It is used by the QueryServiceLockStatus function.
+old-location: base\query_service_lock_status_str.htm
+old-project: Services
+ms.assetid: de9797b7-02b0-43cb-bed3-50b7e8676f36
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*LPQUERY_SERVICE_LOCK_STATUSA, LPQUERY_SERVICE_LOCK_STATUS, LPQUERY_SERVICE_LOCK_STATUS structure pointer, QUERY_SERVICE_LOCK_STATUS, QUERY_SERVICE_LOCK_STATUS structure, QUERY_SERVICE_LOCK_STATUSA, QUERY_SERVICE_LOCK_STATUSW, _QUERY_SERVICE_LOCK_STATUSA, _win32_query_service_lock_status_str, base.query_service_lock_status_str, winsvc/LPQUERY_SERVICE_LOCK_STATUS, winsvc/QUERY_SERVICE_LOCK_STATUS, winsvc/QUERY_SERVICE_LOCK_STATUSA, winsvc/QUERY_SERVICE_LOCK_STATUSW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsvc.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: QUERY_SERVICE_LOCK_STATUSW (Unicode) and QUERY_SERVICE_LOCK_STATUSA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QUERY_SERVICE_LOCK_STATUSA, *LPQUERY_SERVICE_LOCK_STATUSA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsvc.h
+api_name:
+-	QUERY_SERVICE_LOCK_STATUS
+-	QUERY_SERVICE_LOCK_STATUSA
+-	QUERY_SERVICE_LOCK_STATUSW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _QUERY_SERVICE_LOCK_STATUSA structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wlanapi._WLAN_CONNECTION_MODE
+title: "_WLAN_CONNECTION_MODE"
+author: windows-sdk-content
+description: Defines the mode of connection.
+old-location: nwifi\wlan_connection_mode.htm
+old-project: NativeWiFi
+ms.assetid: d62e863f-2aa8-49b1-9e27-8d9d053026f0
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_CONNECTION_MODE, PWLAN_CONNECTION_MODE, PWLAN_CONNECTION_MODE enumeration pointer [NativeWIFI], WLAN_CONNECTION_MODE, WLAN_CONNECTION_MODE enumeration [NativeWIFI], _WLAN_CONNECTION_MODE, nwifi.wlan_connection_mode, wlan_connection_mode_auto, wlan_connection_mode_discovery_secure, wlan_connection_mode_discovery_unsecure, wlan_connection_mode_invalid, wlan_connection_mode_profile, wlan_connection_mode_temporary_profile, wlanapi/PWLAN_CONNECTION_MODE, wlanapi/WLAN_CONNECTION_MODE, wlanapi/wlan_connection_mode_auto, wlanapi/wlan_connection_mode_discovery_secure, wlanapi/wlan_connection_mode_discovery_unsecure, wlanapi/wlan_connection_mode_invalid, wlanapi/wlan_connection_mode_profile, wlanapi/wlan_connection_mode_temporary_profile"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_CONNECTION_MODE, *PWLAN_CONNECTION_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wlanapi.h
+api_name:
+-	WLAN_CONNECTION_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_CONNECTION_MODE enumeration

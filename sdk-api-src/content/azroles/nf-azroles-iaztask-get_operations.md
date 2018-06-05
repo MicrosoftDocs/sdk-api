@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzTask.get_Operations
+title: IAzTask::get_Operations
+author: windows-sdk-content
+description: Retrieves the operations associated with the task.
+old-location: security\iaztask_operations.htm
+old-project: SecAuthZ
+ms.assetid: b05fd157-6526-49d6-9bb1-fcf8c59cc74e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AzTask object [Security],Operations property, IAzTask interface [Security],Operations property, IAzTask.Operations, IAzTask.get_Operations, IAzTask::Operations, IAzTask::get_Operations, Operations property [Security], Operations property [Security],AzTask object, Operations property [Security],IAzTask interface, azroles/IAzTask::Operations, azroles/IAzTask::get_Operations, get_Operations, security.iaztask_operations
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzTask.Operations
+-	IAzTask.get_Operations
+-	AzTask.Operations
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzTask::get_Operations

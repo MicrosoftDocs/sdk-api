@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:usbuser._USB_USER_ERROR_CODE
+title: "_USB_USER_ERROR_CODE"
+author: windows-sdk-content
+description: The USB_USER_ERROR_CODE enumeration lists the error codes that a USB user-mode request reports when it fails.
+old-location: buses\usb_user_error_code.htm
+old-project: usbref
+ms.assetid: 25dab683-70bd-4d3e-8295-d4a670c5b2ed
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: USB_USER_ERROR_CODE, USB_USER_ERROR_CODE enumeration [Buses], UsbUserBufferTooSmall, UsbUserDeviceNotStarted, UsbUserErrorNotMapped, UsbUserFeatureDisabled, UsbUserInvalidHeaderParameter, UsbUserInvalidParameter, UsbUserInvalidRequestCode, UsbUserMiniportError, UsbUserNoDeviceConnected, UsbUserNotSupported, UsbUserSuccess, _USB_USER_ERROR_CODE, buses.usb_user_error_code, usbstrct_c6461beb-3943-46d0-a426-c01cb52b4986.xml, usbuser/USB_USER_ERROR_CODE, usbuser/UsbUserBufferTooSmall, usbuser/UsbUserDeviceNotStarted, usbuser/UsbUserErrorNotMapped, usbuser/UsbUserFeatureDisabled, usbuser/UsbUserInvalidHeaderParameter, usbuser/UsbUserInvalidParameter, usbuser/UsbUserInvalidRequestCode, usbuser/UsbUserMiniportError, usbuser/UsbUserNoDeviceConnected, usbuser/UsbUserNotSupported, usbuser/UsbUserSuccess
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: usbuser.h
+req.include-header: Usbuser.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USB_USER_ERROR_CODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	usbuser.h
+api_name:
+-	USB_USER_ERROR_CODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _USB_USER_ERROR_CODE enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_PALETTE_GLOBAL
+title: "_DD_PALETTE_GLOBAL"
+author: windows-sdk-content
+description: The DD_PALETTE_GLOBAL structure contains the global DirectDrawPalette data that can be shared between object instances.
+old-location: display\dd_palette_global.htm
+old-project: display
+ms.assetid: 3ec5b950-c0b4-4a50-bdac-fb53c757f1f1
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_PALETTE_GLOBAL, DD_PALETTE_GLOBAL, DD_PALETTE_GLOBAL structure [Display Devices], _DD_PALETTE_GLOBAL, ddrawint/DD_PALETTE_GLOBAL, ddstrcts_26530035-45cd-43d3-84ee-b8b171c7c2de.xml, display.dd_palette_global"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_PALETTE_GLOBAL, DD_PALETTE_GLOBAL"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_PALETTE_GLOBAL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_PALETTE_GLOBAL structure

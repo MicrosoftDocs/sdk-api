@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_UPDATEVPORTDATA
+title: "_DD_UPDATEVPORTDATA"
+author: windows-sdk-content
+description: The DD_UPDATEVPORTDATA structure contains the information required to start, stop, and change the video port extensions (VPE) object.
+old-location: display\dd_updatevportdata.htm
+old-project: display
+ms.assetid: e1ba7851-570e-4ddc-8981-766294011409
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA structure [Display Devices], _DD_UPDATEVPORTDATA, ddrawint/DD_UPDATEVPORTDATA, ddstrcts_a266490e-9cac-45ca-9129-63f3dcef6a6f.xml, display.dd_updatevportdata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_UPDATEVPORTDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_UPDATEVPORTDATA structure

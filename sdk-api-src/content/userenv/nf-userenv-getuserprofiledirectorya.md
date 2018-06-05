@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:userenv.GetUserProfileDirectoryA
+title: GetUserProfileDirectoryA function
+author: windows-sdk-content
+description: Retrieves the path to the root directory of the specified user's profile.
+old-location: shell\GetUserProfileDirectory.htm
+old-project: shell
+ms.assetid: b5de762d-c9ee-42b0-bce0-e74bcc9c78f0
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetUserProfileDirectory, GetUserProfileDirectory function [Windows Shell], GetUserProfileDirectoryA, GetUserProfileDirectoryW, _shell_GetUserProfileDirectory, shell.GetUserProfileDirectory, userenv/GetUserProfileDirectory, userenv/GetUserProfileDirectoryA, userenv/GetUserProfileDirectoryW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: userenv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetUserProfileDirectoryW (Unicode) and GetUserProfileDirectoryA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Userenv.dll
+api_name:
+-	GetUserProfileDirectory
+-	GetUserProfileDirectoryA
+-	GetUserProfileDirectoryW
+product: Windows
+targetos: Windows
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # GetUserProfileDirectoryA function

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imm.ImmConfigureIMEA
+title: ImmConfigureIMEA function
+author: windows-sdk-content
+description: Displays the configuration dialog box for the IME of the specified input locale identifier.
+old-location: intl\immconfigureime.htm
+old-project: Intl
+ms.assetid: acefb3a0-82c7-4af6-8ef0-aba561f570c1
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IME_CONFIG_GENERAL, IME_CONFIG_REGISTERWORD, IME_CONFIG_SELECTDICTIONARY, ImmConfigureIME, ImmConfigureIME function [Internationalization for Windows Applications], ImmConfigureIMEA, ImmConfigureIMEW, _win32_ImmConfigureIME, imm/ImmConfigureIME, imm/ImmConfigureIMEA, imm/ImmConfigureIMEW, intl.immconfigureime
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: imm.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ImmConfigureIMEW (Unicode) and ImmConfigureIMEA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	imm32.dll
+api_name:
+-	ImmConfigureIME
+-	ImmConfigureIMEA
+-	ImmConfigureIMEW
+product: Windows
+targetos: Windows
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ImmConfigureIMEA function

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.TAPIOBJECT_EVENT
+title: TAPIOBJECT_EVENT
+author: windows-sdk-content
+description: The TAPIOBJECT_EVENT enum describes TAPI object events. The ITTAPIObjectEvent::get_Event method returns a member of this enum to indicate the type of TAPI object event that occurred.
+old-location: tapi3\tapiobject_event.htm
+old-project: Tapi
+ms.assetid: 606e9f99-d90c-4d4a-8dd5-2734c9bd2e7e
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: TAPIOBJECT_EVENT, TAPIOBJECT_EVENT enumeration [TAPI 2.2], TE_ADDRESSCLOSE, TE_ADDRESSCREATE, TE_ADDRESSREMOVE, TE_REINIT, TE_TRANSLATECHANGE, _tapi3_tapiobject_event, tapi3.tapiobject_event, tapi3if/TAPIOBJECT_EVENT, tapi3if/TE_ADDRESSCLOSE, tapi3if/TE_ADDRESSCREATE, tapi3if/TE_ADDRESSREMOVE, tapi3if/TE_REINIT, tapi3if/TE_TRANSLATECHANGE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TAPIOBJECT_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	TAPIOBJECT_EVENT
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TAPIOBJECT_EVENT enumeration

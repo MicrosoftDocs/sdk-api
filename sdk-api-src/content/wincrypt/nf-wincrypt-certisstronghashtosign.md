@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CertIsStrongHashToSign
+title: CertIsStrongHashToSign function
+author: windows-sdk-content
+description: Determines whether the specified hash algorithm and the public key in the signing certificate can be used to perform strong signing.
+old-location: security\certisstronghashtosign.htm
+old-project: SecCrypto
+ms.assetid: B498C1F0-1EFF-49AF-9CD4-A447F79256F1
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CertIsStrongHashToSign, CertIsStrongHashToSign function [Security], security.certisstronghashtosign, wincrypt/CertIsStrongHashToSign
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CertIsStrongHashToSign
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CertIsStrongHashToSign function

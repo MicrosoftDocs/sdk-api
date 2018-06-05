@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:certsrv.ENUM_CATYPES
+title: ENUM_CATYPES
+author: windows-sdk-content
+description: Specifies a certification authority (CA) type.
+old-location: security\enum_catypes.htm
+old-project: SecCrypto
+ms.assetid: 32b20317-c0ef-4896-a8c6-309e34f87c30
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: ENUM_CATYPES, ENUM_CATYPES enumeration [Security], ENUM_ENTERPRISE_ROOTCA, ENUM_ENTERPRISE_SUBCA, ENUM_STANDALONE_ROOTCA, ENUM_STANDALONE_SUBCA, ENUM_UNKNOWN_CA, certsrv/ENUM_CATYPES, certsrv/ENUM_ENTERPRISE_ROOTCA, certsrv/ENUM_ENTERPRISE_SUBCA, certsrv/ENUM_STANDALONE_ROOTCA, certsrv/ENUM_STANDALONE_SUBCA, certsrv/ENUM_UNKNOWN_CA, security.enum_catypes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: certsrv.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENUM_CATYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Certsrv.h
+api_name:
+-	ENUM_CATYPES
+product: Windows
+targetos: Windows
+req.lib: Certpoleng.lib
+req.dll: Certpoleng.dll
+req.irql: 
 ---
 
 # ENUM_CATYPES enumeration

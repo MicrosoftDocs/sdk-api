@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ndattrib.tagREPAIR_SCOPE
+title: tagREPAIR_SCOPE
+author: windows-sdk-content
+description: The REPAIR_SCOPE enumeration describes the scope of modification for a given repair.
+old-location: ndf\repair_scope.htm
+old-project: NDF
+ms.assetid: f9be87ae-82a1-4613-abeb-15ccba1bf360
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PREPAIR_SCOPE, REPAIR_SCOPE, REPAIR_SCOPE enumeration [NDF], RS_APPLICATION, RS_PROCESS, RS_SYSTEM, RS_USER, ndattrib/REPAIR_SCOPE, ndattrib/RS_APPLICATION, ndattrib/RS_PROCESS, ndattrib/RS_SYSTEM, ndattrib/RS_USER, ndf.repair_scope, tagREPAIR_SCOPE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ndattrib.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REPAIR_SCOPE, *PREPAIR_SCOPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ndattrib.h
+api_name:
+-	REPAIR_SCOPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagREPAIR_SCOPE enumeration

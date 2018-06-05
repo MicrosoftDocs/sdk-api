@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:setupapi.SetupInstallFromInfSectionA
+title: SetupInstallFromInfSectionA function
+author: windows-sdk-content
+description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section.
+old-location: setup\setupinstallfrominfsection.htm
+old-project: SetupApi
+ms.assetid: bd1ee91a-b58b-4f08-9181-42fbe9d763f9
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: SetupInstallFromInfSection, SetupInstallFromInfSection function [Setup API], SetupInstallFromInfSectionA, SetupInstallFromInfSectionW, _setupapi_setupinstallfrominfsection, setup.setupinstallfrominfsection, setupapi/SetupInstallFromInfSection, setupapi/SetupInstallFromInfSectionA, setupapi/SetupInstallFromInfSectionW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: setupapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SetupInstallFromInfSectionW (Unicode) and SetupInstallFromInfSectionA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Setupapi.dll
+-	Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+-	Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+api_name:
+-	SetupInstallFromInfSection
+-	SetupInstallFromInfSectionA
+-	SetupInstallFromInfSectionW
+product: Windows
+targetos: Windows
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetupInstallFromInfSectionA function

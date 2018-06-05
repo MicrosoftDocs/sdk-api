@@ -1,31 +1,53 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincred.CredUIPromptForCredentialsW
+title: CredUIPromptForCredentialsW function
+author: windows-sdk-content
+description: Creates and displays a configurable dialog box that accepts credentials information from a user.
+old-location: security\creduipromptforcredentials.htm
+old-project: SecAuthN
+ms.assetid: 97a8e750-3e63-4e6f-a875-1e5c49c30dd4
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CREDUI_FLAGS_ALWAYS_SHOW_UI, CREDUI_FLAGS_COMPLETE_USERNAME, CREDUI_FLAGS_DO_NOT_PERSIST, CREDUI_FLAGS_EXCLUDE_CERTIFICATES, CREDUI_FLAGS_EXPECT_CONFIRMATION, CREDUI_FLAGS_GENERIC_CREDENTIALS, CREDUI_FLAGS_INCORRECT_PASSWORD, CREDUI_FLAGS_KEEP_USERNAME, CREDUI_FLAGS_PASSWORD_ONLY_OK, CREDUI_FLAGS_PERSIST, CREDUI_FLAGS_REQUEST_ADMINISTRATOR, CREDUI_FLAGS_REQUIRE_CERTIFICATE, CREDUI_FLAGS_REQUIRE_SMARTCARD, CREDUI_FLAGS_SERVER_CREDENTIAL, CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX, CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS, CREDUI_FLAGS_VALIDATE_USERNAME, CredUIPromptForCredentials, CredUIPromptForCredentials function [Security], CredUIPromptForCredentialsA, CredUIPromptForCredentialsW, _cred_creduipromptforcredentials, security.creduipromptforcredentials, wincred/CredUIPromptForCredentials, wincred/CredUIPromptForCredentialsA, wincred/CredUIPromptForCredentialsW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincred.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CredUIPromptForCredentialsW (Unicode) and CredUIPromptForCredentialsA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Credui.dll
+-	Ext-MS-Win-security-credui-l1-1-0.dll
+-	Ext-MS-Win-security-credui-l1-1-1.dll
+-	AnalogCredUI.dll
+api_name:
+-	CredUIPromptForCredentials
+-	CredUIPromptForCredentialsA
+-	CredUIPromptForCredentialsW
+product: Windows
+targetos: Windows
+req.lib: Credui.lib
+req.dll: Credui.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CredUIPromptForCredentialsW function

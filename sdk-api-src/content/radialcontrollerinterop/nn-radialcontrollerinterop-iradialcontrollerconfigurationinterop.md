@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:radialcontrollerinterop.IRadialControllerConfigurationInterop
+title: IRadialControllerConfigurationInterop
+author: windows-sdk-content
+description: Enables interoperability with a Universal Windows Platform (UWP)&#160;RadialControllerConfiguration object and provides access to RadialControllerConfiguration members for customizing a RadialController menu.
+old-location: input_radial\iradialcontrollerconfigurationinterop.htm
+old-project: Input_Radial
+ms.assetid: eb8672c1-a7e6-45f5-a61f-3bee67f5ff5e
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IRadialControllerConfigurationInterop, IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface,described, Input_Radial.iradialcontrollerconfigurationinterop, radialcontrollerinterop/IRadialControllerConfigurationInterop
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: radialcontrollerinterop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RadialControllerInterop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RadialControllerInterop.h
+api_name:
+-	IRadialControllerConfigurationInterop
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRadialControllerConfigurationInterop interface

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dinputd.IDirectInputEffectDriver.StartEffect
+title: IDirectInputEffectDriver::StartEffect
+author: windows-sdk-content
+description: The IDirectInputEffectDriver::StartEffect method begins the playback of an effect. If the effect is already playing, it is restarted from the beginning.
+old-location: hid\idirectinputeffectdriver_starteffect.htm
+old-project: hid
+ms.assetid: 2c1865c2-ded4-47ce-a743-8ac48986dc5f
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],StartEffect method, IDirectInputEffectDriver.StartEffect, IDirectInputEffectDriver::StartEffect, StartEffect, StartEffect method [Human Input Devices], StartEffect method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_f30aed74-b4e3-41da-b5c7-f153d6f30b40.xml, dinputd/IDirectInputEffectDriver::StartEffect, hid.idirectinputeffectdriver_starteffect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dinputd.h
+api_name:
+-	IDirectInputEffectDriver.StartEffect
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputEffectDriver::StartEffect

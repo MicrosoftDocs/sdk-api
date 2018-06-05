@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:compressapi.CreateCompressor
+title: CreateCompressor function
+author: windows-sdk-content
+description: Generates a new COMPRESSOR_HANDLE.
+old-location: cmpapi\createcompressor.htm
+old-project: cmpapi
+ms.assetid: 782b3c08-158a-4bbd-89a5-c20666cbfb94
+ms.author: windowssdkdev
+ms.date: 04/10/2018
+ms.keywords: COMPRESS_ALGORITHM_LZMS, COMPRESS_ALGORITHM_MSZIP, COMPRESS_ALGORITHM_XPRESS, COMPRESS_ALGORITHM_XPRESS_HUFF, CreateCompressor, CreateCompressor function [Compression API], cmpapi.createcompressor, compressapi/CreateCompressor
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: compressapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMPRESS_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	cabinet.dll
+api_name:
+-	CreateCompressor
+product: Windows
+targetos: Windows
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
 ---
 
 # CreateCompressor function

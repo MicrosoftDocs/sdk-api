@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfContextOwnerCompositionServices.TerminateComposition
+title: ITfContextOwnerCompositionServices::TerminateComposition
+author: windows-sdk-content
+description: ITfContextOwnerCompositionServices::TerminateComposition method
+old-location: tsf\itfcontextownercompositionservices_terminatecomposition.htm
+old-project: TSF
+ms.assetid: 950ba2b3-cb12-4697-a4b2-1c87373b9a23
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITfContextOwnerCompositionServices interface [Text Services Framework],TerminateComposition method, ITfContextOwnerCompositionServices.TerminateComposition, ITfContextOwnerCompositionServices::TerminateComposition, TerminateComposition, TerminateComposition method [Text Services Framework], TerminateComposition method [Text Services Framework],ITfContextOwnerCompositionServices interface, _tsf_itfcontextownercompositionservices_terminatecomposition_ref, msctf/ITfContextOwnerCompositionServices::TerminateComposition, tsf.itfcontextownercompositionservices_terminatecomposition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITfContextOwnerCompositionServices.TerminateComposition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfContextOwnerCompositionServices::TerminateComposition

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagICEXYZTRIPLE
+title: tagICEXYZTRIPLE
+author: windows-sdk-content
+description: The CIEXYZTRIPLE structure contains the x,y, and z coordinates of the three colors that correspond to the red, green, and blue endpoints for a specified logical color space.
+old-location: wcs\ciexyztriple.htm
+old-project: WCS
+ms.assetid: cf4473b0-7e54-42d1-a013-2442a540daee
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPCIEXYZTRIPLE, CIEXYZTRIPLE, CIEXYZTRIPLE structure [Windows Color System], CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE, CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE structure [Windows Color System], _color_CIEXYZTRIPLE_str, tagICEXYZTRIPLE, wcs.ciexyztriple, wingdi/CIEXYZTRIPLE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CIEXYZTRIPLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagICEXYZTRIPLE structure

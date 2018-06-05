@@ -1,31 +1,54 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winnls.EnumTimeFormatsA
+title: EnumTimeFormatsA function
+author: windows-sdk-content
+description: Enumerates the time formats that are available for a locale specified by identifier.Note  For interoperability reasons, the application should prefer the EnumTimeFormatsEx function to EnumTimeFormats because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use EnumTimeFormatsEx.
+old-location: intl\enumtimeformats.htm
+old-project: Intl
+ms.assetid: ad0fe26f-b915-4903-9335-4b268a889c80
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: 0, EnumTimeFormats, EnumTimeFormats function [Internationalization for Windows Applications], EnumTimeFormatsA, EnumTimeFormatsW, LOCAL_USE_CP_ACP, TIME_NOSECONDS, _win32_EnumTimeFormats, intl.enumtimeformats, winnls/EnumTimeFormats, winnls/EnumTimeFormatsA, winnls/EnumTimeFormatsW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winnls.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: EnumTimeFormatsW (Unicode) and EnumTimeFormatsA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NORM_FORM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Localization-l2-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+-	Kernel32Legacy.dll
+api_name:
+-	EnumTimeFormats
+-	EnumTimeFormatsA
+-	EnumTimeFormatsW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # EnumTimeFormatsA function

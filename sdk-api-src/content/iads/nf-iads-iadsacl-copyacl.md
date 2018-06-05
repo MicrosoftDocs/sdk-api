@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iads.IADsAcl.CopyAcl
+title: IADsAcl::CopyAcl
+author: windows-sdk-content
+description: The IADsAcl::CopyAcl method makes a copy of the existing ACL.
+old-location: adsi\iadsacl_copyacl.htm
+old-project: ADSI
+ms.assetid: 9ed78d7d-3448-4a49-920f-97221584541c
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: CopyAcl, CopyAcl method [ADSI], CopyAcl method [ADSI],IADsAcl interface, IADsAcl interface [ADSI],CopyAcl method, IADsAcl.CopyAcl, IADsAcl::CopyAcl, _ds_iadsacl_copyacl, adsi.iadsacl__copyacl, adsi.iadsacl_copyacl, iads/IADsAcl::CopyAcl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SD_FORMAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Activeds.dll
+api_name:
+-	IADsAcl.CopyAcl
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IADsAcl::CopyAcl

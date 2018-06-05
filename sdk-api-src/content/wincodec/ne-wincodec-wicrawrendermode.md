@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wincodec.WICRawRenderMode
+title: WICRawRenderMode
+author: windows-sdk-content
+description: Specifies the render intent of the next CopyPixels call.
+old-location: wic\_wic_codec_wicrawrendermode.htm
+old-project: wic
+ms.assetid: dc020c78-a018-42ee-a500-65a743b96107
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WICRawRenderMode, WICRawRenderMode enumeration [Windows Imaging Component], WICRawRenderModeBestQuality, WICRawRenderModeDraft, WICRawRenderModeNormal, _wic_codec_wicrawrendermode, wic._wic_codec_wicrawrendermode, wincodec/WICRawRenderMode, wincodec/WICRawRenderModeBestQuality, wincodec/WICRawRenderModeDraft, wincodec/WICRawRenderModeNormal
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodec.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICRawRenderMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincodec.h
+api_name:
+-	WICRawRenderMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WICRawRenderMode enumeration

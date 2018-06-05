@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:d3d11.ID3D11VideoDecoder
+title: ID3D11VideoDecoder
+author: windows-sdk-content
+description: Represents a hardware-accelerated video decoder for Microsoft Direct3D 11.
+old-location: mf\id3d11videodecoder.htm
+old-project: medfound
+ms.assetid: F25AFA0B-7413-40F0-AFF8-C9B4549305D2
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ID3D11VideoDecoder, ID3D11VideoDecoder interface [Media Foundation], ID3D11VideoDecoder interface [Media Foundation],described, d3d11/ID3D11VideoDecoder, mf.id3d11videodecoder
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d11.h
+api_name:
+-	ID3D11VideoDecoder
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11VideoDecoder interface

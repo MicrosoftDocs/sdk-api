@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dxgi1_5._DXGI_RECLAIM_RESOURCE_RESULTS
+title: "_DXGI_RECLAIM_RESOURCE_RESULTS"
+author: windows-sdk-content
+description: Specifies result flags for the ReclaimResources1 method.
+old-location: direct3ddxgi\dxgi_reclaim_resource_results.htm
+old-project: direct3ddxgi
+ms.assetid: AF7082A5-6280-4602-9944-EC2DFF91BBB9
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGI_RECLAIM_RESOURCE_RESULTS, DXGI_RECLAIM_RESOURCE_RESULTS enumeration [DXGI], DXGI_RECLAIM_RESOURCE_RESULT_DISCARDED, DXGI_RECLAIM_RESOURCE_RESULT_NOT_COMMITTED, DXGI_RECLAIM_RESOURCE_RESULT_OK, _DXGI_RECLAIM_RESOURCE_RESULTS, direct3ddxgi.dxgi_reclaim_resource_results, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULTS, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULT_DISCARDED, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULT_NOT_COMMITTED, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULT_OK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxgi1_5.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_RECLAIM_RESOURCE_RESULTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxgi1_5.h
+api_name:
+-	DXGI_RECLAIM_RESOURCE_RESULTS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXGI_RECLAIM_RESOURCE_RESULTS enumeration

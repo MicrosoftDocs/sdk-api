@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:clusapi.PCLUSAPI_CLUSTER_OPEN_ENUM
+title: PCLUSAPI_CLUSTER_OPEN_ENUM
+author: windows-sdk-content
+description: Opens an enumerator for iterating through cluster objects in a cluster.
+old-location: mscs\clusteropenenum.htm
+old-project: MsCS
+ms.assetid: b6eb5c03-dd6e-42ef-a020-cf0d61143040
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_ENUM_ALL, CLUSTER_ENUM_GROUP, CLUSTER_ENUM_INTERNAL_NETWORK, CLUSTER_ENUM_NETINTERFACE, CLUSTER_ENUM_NETWORK, CLUSTER_ENUM_NODE, CLUSTER_ENUM_RESOURCE, CLUSTER_ENUM_RESTYPE, CLUSTER_ENUM_SHARED_VOLUME_RESOURCE, PCLUSAPI_CLUSTER_OPEN_ENUM, PCLUSAPI_CLUSTER_OPEN_ENUM callback, PCLUSAPI_CLUSTER_OPEN_ENUM callback function [Failover Cluster], _wolf_clusteropenenum, clusapi/PCLUSAPI_CLUSTER_OPEN_ENUM, mscs.clusteropenenum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: Sources
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ClusAPI.h
+api_name:
+-	PCLUSAPI_CLUSTER_OPEN_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PCLUSAPI_CLUSTER_OPEN_ENUM callback function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsock2._AFPROTOCOLS
+title: "_AFPROTOCOLS"
+author: windows-sdk-content
+description: The AFPROTOCOLS structure supplies a list of protocols to which application programmers can constrain queries. The AFPROTOCOLS structure is used for query purposes only.
+old-location: winsock\afprotocols_2.htm
+old-project: WinSock
+ms.assetid: ffd43aa1-bbc4-46f1-ad77-26c48f9ac0b7
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPAFPROTOCOLS, *PAFPROTOCOLS, AFPROTOCOLS, AFPROTOCOLS structure [Winsock], LPAFPROTOCOLS, LPAFPROTOCOLS structure pointer [Winsock], PAFPROTOCOLS, PAFPROTOCOLS structure pointer [Winsock], _AFPROTOCOLS, _win32_afprotocols_2, winsock.afprotocols_2, winsock2/AFPROTOCOLS, winsock2/LPAFPROTOCOLS, winsock2/PAFPROTOCOLS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsock2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AFPROTOCOLS, *PAFPROTOCOLS, *LPAFPROTOCOLS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsock2.h
+api_name:
+-	AFPROTOCOLS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _AFPROTOCOLS structure

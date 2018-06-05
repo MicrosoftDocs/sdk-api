@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iwscapi._WSC_SECURITY_SIGNATURE_STATUS
+title: "_WSC_SECURITY_SIGNATURE_STATUS"
+author: windows-sdk-content
+description: Reports the current version status of the security product to Windows Security Center.
+old-location: winprog\wsc_security_signature_status.htm
+old-project: DevNotes
+ms.assetid: 1D09F5C6-F5A4-40A5-836B-25709E3017B9
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: WSC_SECURITY_PRODUCT_OUT_OF_DATE, WSC_SECURITY_PRODUCT_UP_TO_DATE, WSC_SECURITY_SIGNATURE_STATUS, WSC_SECURITY_SIGNATURE_STATUS enumeration [Windows API], _WSC_SECURITY_SIGNATURE_STATUS, iwscapi/WSC_SECURITY_PRODUCT_OUT_OF_DATE, iwscapi/WSC_SECURITY_PRODUCT_UP_TO_DATE, iwscapi/WSC_SECURITY_SIGNATURE_STATUS, winprog.wsc_security_signature_status
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iwscapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Wscapi.lib
+tech.root: 
+req.typenames: WSC_SECURITY_SIGNATURE_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Wscapi.lib
+api_name:
+-	WSC_SECURITY_SIGNATURE_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _WSC_SECURITY_SIGNATURE_STATUS enumeration

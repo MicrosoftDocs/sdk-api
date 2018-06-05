@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bits1_5.__MIDL_IBackgroundCopyJob2_0004
+title: "__MIDL_IBackgroundCopyJob2_0004"
+author: windows-sdk-content
+description: The BG_AUTH_CREDENTIALS_UNION union identifies the credentials to use for the authentication scheme specified in the BG_AUTH_CREDENTIALS structure.
+old-location: bits\bg_auth_credentials_union.htm
+old-project: Bits
+ms.assetid: c16c616c-f4cb-483d-8a15-6ff9d45762ae
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BG_AUTH_CREDENTIALS_UNION, BG_AUTH_CREDENTIALS_UNION union [BITS], __MIDL_IBackgroundCopyJob2_0004, _drz_bg_auth_credentials_union, bits.bg_auth_credentials_union, bits1_5/BG_AUTH_CREDENTIALS_UNION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bits1_5.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits1_5.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_AUTH_CREDENTIALS_UNION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bits1_5.h
+api_name:
+-	BG_AUTH_CREDENTIALS_UNION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # __MIDL_IBackgroundCopyJob2_0004 structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:gpedit.IGroupPolicyObject.GetDSPath
+title: IGroupPolicyObject::GetDSPath
+author: windows-sdk-content
+description: The GetDSPath method retrieves the Active Directory path to the root of the specified GPO section.
+old-location: policy\igrouppolicyobject_getdspath.htm
+old-project: Policy
+ms.assetid: 0d6d0b3d-5ad4-4363-a123-f074193b75e2
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetDSPath, GetDSPath method [Group Policy], GetDSPath method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetDSPath method, IGroupPolicyObject.GetDSPath, IGroupPolicyObject::GetDSPath, _win32_igrouppolicyobject_getdspath, gpedit/IGroupPolicyObject::GetDSPath, policy.igrouppolicyobject_getdspath
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: gpedit.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gpedit.dll
+api_name:
+-	IGroupPolicyObject.GetDSPath
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IGroupPolicyObject::GetDSPath

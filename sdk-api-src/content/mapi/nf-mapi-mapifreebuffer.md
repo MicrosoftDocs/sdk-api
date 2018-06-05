@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mapi.MAPIFreeBuffer
+title: MAPIFreeBuffer function
+author: windows-sdk-content
+description: The MAPIFreeBuffer function frees memory allocated by the messaging system.
+old-location: mapi\mapifreebuffer.htm
+old-project: WindowsMAPI
+ms.assetid: b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: MAPIFreeBuffer, MAPIFreeBuffer function, mapi.mapifreebuffer, wabmem/MAPIFreeBuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mapi.h
+req.include-header: Mapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Mapi32.dll
+api_name:
+-	MAPIFreeBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MAPIFreeBuffer function

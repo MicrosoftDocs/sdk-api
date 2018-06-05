@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vdshwprv._VDS_POOL_ATTRIBUTES
+title: "_VDS_POOL_ATTRIBUTES"
+author: windows-sdk-content
+description: Defines the attributes of a storage pool.
+old-location: base\vds_pool_attributes.htm
+old-project: VDS
+ms.assetid: 3dfbd3d9-ec2e-44ac-9d0f-7aa6c530db18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PVDS_POOL_ATTRIBUTES, PVDS_POOL_ATTRIBUTES, PVDS_POOL_ATTRIBUTES structure pointer, VDS_POOL_ATTRIBUTES, VDS_POOL_ATTRIBUTES structure, VDS_POOL_ATTRIB_ACCS_BDW_WT_HINT, VDS_POOL_ATTRIB_ACCS_DIR_HINT, VDS_POOL_ATTRIB_ACCS_LTNCY_HINT, VDS_POOL_ATTRIB_ACCS_RNDM_HINT, VDS_POOL_ATTRIB_ACCS_SIZE_HINT, VDS_POOL_ATTRIB_ALLOW_SPINDOWN, VDS_POOL_ATTRIB_BUSTYPE, VDS_POOL_ATTRIB_CUSTOM_ATTRIB, VDS_POOL_ATTRIB_DATA_AVL_HINT, VDS_POOL_ATTRIB_DATA_RDNCY_DEF, VDS_POOL_ATTRIB_DATA_RDNCY_MAX, VDS_POOL_ATTRIB_DATA_RDNCY_MIN, VDS_POOL_ATTRIB_NO_SINGLE_POF, VDS_POOL_ATTRIB_NUM_CLMNS, VDS_POOL_ATTRIB_NUM_CLMNS_DEF, VDS_POOL_ATTRIB_NUM_CLMNS_MAX, VDS_POOL_ATTRIB_NUM_CLMNS_MIN, VDS_POOL_ATTRIB_PKG_RDNCY_DEF, VDS_POOL_ATTRIB_PKG_RDNCY_MAX, VDS_POOL_ATTRIB_PKG_RDNCY_MIN, VDS_POOL_ATTRIB_RAIDTYPE, VDS_POOL_ATTRIB_STOR_COST_HINT, VDS_POOL_ATTRIB_STOR_EFFCY_HINT, VDS_POOL_ATTRIB_STRIPE_SIZE, VDS_POOL_ATTRIB_STRIPE_SIZE_DEF, VDS_POOL_ATTRIB_STRIPE_SIZE_MAX, VDS_POOL_ATTRIB_STRIPE_SIZE_MIN, VDS_POOL_ATTRIB_THIN_PROVISION, _VDS_POOL_ATTRIBUTES, base.vds_pool_attributes, vds/PVDS_POOL_ATTRIBUTES, vds/VDS_POOL_ATTRIBUTES, vdshwprv/PVDS_POOL_ATTRIBUTES, vdshwprv/VDS_POOL_ATTRIBUTES"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vdshwprv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_POOL_ATTRIBUTES, *PVDS_POOL_ATTRIBUTES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_POOL_ATTRIBUTES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_POOL_ATTRIBUTES structure

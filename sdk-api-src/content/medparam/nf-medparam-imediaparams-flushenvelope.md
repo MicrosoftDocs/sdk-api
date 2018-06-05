@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:medparam.IMediaParams.FlushEnvelope
+title: IMediaParams::FlushEnvelope
+author: windows-sdk-content
+description: The FlushEnvelope method flushes envelope data for a specified parameter over the specified time range.
+old-location: dshow\imediaparams_flushenvelope.htm
+old-project: DirectShow
+ms.assetid: 574d6573-ea5d-4419-ad65-f5f7d711e720
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: FlushEnvelope, FlushEnvelope method [DirectShow], FlushEnvelope method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],FlushEnvelope method, IMediaParams.FlushEnvelope, IMediaParams::FlushEnvelope, IMediaParamsFlushEnvelope, dshow.imediaparams_flushenvelope, medparam/IMediaParams::FlushEnvelope
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: medparam.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MP_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dmoguids.lib
+-	Dmoguids.dll
+api_name:
+-	IMediaParams.FlushEnvelope
+product: Windows
+targetos: Windows
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMediaParams::FlushEnvelope

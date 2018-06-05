@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fwptypes.FWP_NE_FAMILY_
+title: FWP_NE_FAMILY_
+author: windows-sdk-content
+description: The FWP_AF enumerated type.
+old-location: fwp\fwp_af.htm
+old-project: FWP
+ms.assetid: 358305a6-e0a6-4d01-92be-fd88b3bd32a0
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: FWP_AF, FWP_AF enumeration [Filtering], FWP_AF_ETHER, FWP_AF_INET, FWP_AF_INET6, FWP_AF_NONE, FWP_NE_FAMILY_, fwp.fwp_af, fwptypes/FWP_AF, fwptypes/FWP_AF_ETHER, fwptypes/FWP_AF_INET, fwptypes/FWP_AF_INET6, fwptypes/FWP_AF_NONE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fwptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fwptypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWP_AF
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Fwptypes.h
+api_name:
+-	FWP_AF
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FWP_NE_FAMILY_ enumeration

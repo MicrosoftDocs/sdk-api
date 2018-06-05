@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mbnapi.MBN_CTRL_CAPS
+title: MBN_CTRL_CAPS
+author: windows-sdk-content
+description: The MBN_CTRL_CAPS enumerated type represents all of the Mobile Broadband device control capabilities as bit fields.
+old-location: mbn\mbn_ctrl_caps.htm
+old-project: mbn
+ms.assetid: c4c4bb3b-76ce-4872-8ea1-d2839cbc9b1b
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: MBN_CTRL_CAPS, MBN_CTRL_CAPS enumeration [Microsoft Broadband Networks], MBN_CTRL_CAPS_CDMA_MOBILE_IP, MBN_CTRL_CAPS_CDMA_SIMPLE_IP, MBN_CTRL_CAPS_HW_RADIO_SWITCH, MBN_CTRL_CAPS_MODEL_MULTI_CARRIER, MBN_CTRL_CAPS_MULTI_MODE, MBN_CTRL_CAPS_NONE, MBN_CTRL_CAPS_PROTECT_UNIQUEID, MBN_CTRL_CAPS_REG_MANUAL, MBN_CTRL_CAPS_USSD, mbn.mbn_ctrl_caps, mbnapi/MBN_CTRL_CAPS, mbnapi/MBN_CTRL_CAPS_CDMA_MOBILE_IP, mbnapi/MBN_CTRL_CAPS_CDMA_SIMPLE_IP, mbnapi/MBN_CTRL_CAPS_HW_RADIO_SWITCH, mbnapi/MBN_CTRL_CAPS_MODEL_MULTI_CARRIER, mbnapi/MBN_CTRL_CAPS_MULTI_MODE, mbnapi/MBN_CTRL_CAPS_NONE, mbnapi/MBN_CTRL_CAPS_PROTECT_UNIQUEID, mbnapi/MBN_CTRL_CAPS_REG_MANUAL, mbnapi/MBN_CTRL_CAPS_USSD
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_CTRL_CAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mbnapi.h
+api_name:
+-	MBN_CTRL_CAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MBN_CTRL_CAPS enumeration

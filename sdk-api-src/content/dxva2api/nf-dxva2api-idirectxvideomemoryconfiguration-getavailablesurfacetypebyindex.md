@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxva2api.IDirectXVideoMemoryConfiguration.GetAvailableSurfaceTypeByIndex
+title: IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex
+author: windows-sdk-content
+description: Retrieves a supported video surface type.
+old-location: mf\idirectxvideomemoryconfiguration_getavailablesurfacetypebyindex.htm
+old-project: medfound
+ms.assetid: 63311052-f01b-4d77-afac-1cc89166f754
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 63311052-f01b-4d77-afac-1cc89166f754, GetAvailableSurfaceTypeByIndex, GetAvailableSurfaceTypeByIndex method [Media Foundation], GetAvailableSurfaceTypeByIndex method [Media Foundation],IDirectXVideoMemoryConfiguration interface, IDirectXVideoMemoryConfiguration interface [Media Foundation],GetAvailableSurfaceTypeByIndex method, IDirectXVideoMemoryConfiguration.GetAvailableSurfaceTypeByIndex, IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex, dxva2api/IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex, mf.idirectxvideomemoryconfiguration_getavailablesurfacetypebyindex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxva2api.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA2_SurfaceType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxva2api.h
+api_name:
+-	IDirectXVideoMemoryConfiguration.GetAvailableSurfaceTypeByIndex
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex

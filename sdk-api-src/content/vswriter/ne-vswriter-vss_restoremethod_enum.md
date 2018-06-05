@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vswriter.VSS_RESTOREMETHOD_ENUM
+title: VSS_RESTOREMETHOD_ENUM
+author: windows-sdk-content
+description: Used by a writer at backup time to specify through its Writer Metadata Document the default file restore method.
+old-location: base\vss_restoremethod_enum.htm
+old-project: VSS
+ms.assetid: 4c6be981-4271-4040-8f6e-725616355062
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: VSS_RESTOREMETHOD_ENUM, VSS_RESTOREMETHOD_ENUM enumeration [VSS], VSS_RME_CUSTOM, VSS_RME_RESTORE_AT_REBOOT, VSS_RME_RESTORE_AT_REBOOT_IF_CANNOT_REPLACE, VSS_RME_RESTORE_IF_CAN_REPLACE, VSS_RME_RESTORE_IF_NOT_THERE, VSS_RME_RESTORE_STOP_START, VSS_RME_RESTORE_TO_ALTERNATE_LOCATION, VSS_RME_STOP_RESTORE_START, VSS_RME_UNDEFINED, _win32_vss_restoremethod_enum, base.vss_restoremethod_enum, enumeration [VSS], vswriter/VSS_RESTOREMETHOD_ENUM, vswriter/VSS_RME_CUSTOM, vswriter/VSS_RME_RESTORE_AT_REBOOT, vswriter/VSS_RME_RESTORE_AT_REBOOT_IF_CANNOT_REPLACE, vswriter/VSS_RME_RESTORE_IF_CAN_REPLACE, vswriter/VSS_RME_RESTORE_IF_NOT_THERE, vswriter/VSS_RME_RESTORE_STOP_START, vswriter/VSS_RME_RESTORE_TO_ALTERNATE_LOCATION, vswriter/VSS_RME_STOP_RESTORE_START, vswriter/VSS_RME_UNDEFINED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vswriter.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_RESTOREMETHOD_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VsWriter.h
+api_name:
+-	VSS_RESTOREMETHOD_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # VSS_RESTOREMETHOD_ENUM enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmdfs._DFS_SUPPORTED_NAMESPACE_VERSION_INFO
+title: "_DFS_SUPPORTED_NAMESPACE_VERSION_INFO"
+author: windows-sdk-content
+description: Contains version information for a DFS namespace.
+old-location: dfs\dfs_supported_namespace_version_info.htm
+old-project: Dfs
+ms.assetid: ee75c500-70c6-4dce-9d38-36cacd695746
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PDFS_SUPPORTED_NAMESPACE_VERSION_INFO, DFS_NAMESPACE_CAPABILITY_ABDE, DFS_SUPPORTED_NAMESPACE_VERSION_INFO, DFS_SUPPORTED_NAMESPACE_VERSION_INFO structure [Distributed File System], PDFS_SUPPORTED_NAMESPACE_VERSION_INFO, PDFS_SUPPORTED_NAMESPACE_VERSION_INFO structure pointer [Distributed File System], _DFS_SUPPORTED_NAMESPACE_VERSION_INFO, dfs.dfs_supported_namespace_version_info, fs.dfs_supported_namespace_version_info, lmdfs/DFS_SUPPORTED_NAMESPACE_VERSION_INFO, lmdfs/PDFS_SUPPORTED_NAMESPACE_VERSION_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmdfs.h
+req.include-header: LmDfs.h, Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DFS_SUPPORTED_NAMESPACE_VERSION_INFO, *PDFS_SUPPORTED_NAMESPACE_VERSION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	LmDfs.h
+api_name:
+-	DFS_SUPPORTED_NAMESPACE_VERSION_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _DFS_SUPPORTED_NAMESPACE_VERSION_INFO structure

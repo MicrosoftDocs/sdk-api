@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dcompanimation.IDCompositionAnimation.SetAbsoluteBeginTime
+title: IDCompositionAnimation::SetAbsoluteBeginTime
+author: windows-sdk-content
+description: Sets the absolute time at which the animation function starts.
+old-location: directcomp\idcompositionanimation_setabsolutebegintime.htm
+old-project: directcomp
+ms.assetid: 661049EC-DAA2-46A5-B600-C3F0EF8B3EDF
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IDCompositionAnimation interface [DirectComposition],SetAbsoluteBeginTime method, IDCompositionAnimation.SetAbsoluteBeginTime, IDCompositionAnimation::SetAbsoluteBeginTime, SetAbsoluteBeginTime, SetAbsoluteBeginTime method [DirectComposition], SetAbsoluteBeginTime method [DirectComposition],IDCompositionAnimation interface, dcompanimation/IDCompositionAnimation::SetAbsoluteBeginTime, directcomp.idcompositionanimation_setabsolutebegintime
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dcompanimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DcompAnimation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D_VECTOR_4F
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dcomp.dll
+api_name:
+-	IDCompositionAnimation.SetAbsoluteBeginTime
+product: Windows
+targetos: Windows
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 ---
 
 # IDCompositionAnimation::SetAbsoluteBeginTime

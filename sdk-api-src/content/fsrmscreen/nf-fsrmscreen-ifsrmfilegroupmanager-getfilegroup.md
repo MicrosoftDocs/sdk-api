@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmscreen.IFsrmFileGroupManager.GetFileGroup
+title: IFsrmFileGroupManager::GetFileGroup
+author: windows-sdk-content
+description: Retrieves the specified file group from FSRM.
+old-location: fsrm\ifsrmfilegroupmanager_getfilegroup.htm
+old-project: Fsrm
+ms.assetid: 14b61b2b-a20e-4895-bfbe-40e9dfe0c496
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmFileGroupManager class [File Server Resource Manager],GetFileGroup method, GetFileGroup, GetFileGroup method [File Server Resource Manager], GetFileGroup method [File Server Resource Manager],FsrmFileGroupManager class, GetFileGroup method [File Server Resource Manager],IFsrmFileGroupManager interface, IFsrmFileGroupManager interface [File Server Resource Manager],GetFileGroup method, IFsrmFileGroupManager.GetFileGroup, IFsrmFileGroupManager::GetFileGroup, fs.ifsrmfilegroupmanager_getfilegroup, fsrm.ifsrmfilegroupmanager_getfilegroup, fsrmscreen/IFsrmFileGroupManager::GetFileGroup
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmscreen.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileGroupManager.GetFileGroup
+-	FsrmFileGroupManager.GetFileGroup
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileGroupManager::GetFileGroup

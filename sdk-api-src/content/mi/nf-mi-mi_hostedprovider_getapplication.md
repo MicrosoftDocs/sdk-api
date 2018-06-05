@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mi.MI_HostedProvider_GetApplication
+title: MI_HostedProvider_GetApplication function
+author: windows-sdk-content
+description: Gets the top-level application handle from which the hosted provider handle was created.
+old-location: wmi_v2\mi_hostedprovider_getapplication.htm
+old-project: wmi_v2
+ms.assetid: 26afde05-6ef6-4044-b8a1-fad2a3bb4385
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: MI_HostedProvider_GetApplication, MI_HostedProvider_GetApplication function [Windows Management Infrastructure (MI)], mi/MI_HostedProvider_GetApplication, wmi_v2.mi_hostedprovider_getapplication
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MI_Type
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_HostedProvider_GetApplication
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MI_HostedProvider_GetApplication function

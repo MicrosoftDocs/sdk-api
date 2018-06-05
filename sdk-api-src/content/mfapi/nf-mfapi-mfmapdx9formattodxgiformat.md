@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfapi.MFMapDX9FormatToDXGIFormat
+title: MFMapDX9FormatToDXGIFormat function
+author: windows-sdk-content
+description: Converts a Microsoft Direct3D 9 format identifier to a Microsoft DirectX Graphics Infrastructure (DXGI) format identifier.
+old-location: mf\mfmapdx9formattodxgiformat.htm
+old-project: medfound
+ms.assetid: 66B6A512-0371-4984-88B3-CB37BE52AEC5
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFMapDX9FormatToDXGIFormat, MFMapDX9FormatToDXGIFormat function [Media Foundation], mf.mfmapdx9formattodxgiformat, mfapi/MFMapDX9FormatToDXGIFormat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	mfplat.dll
+api_name:
+-	MFMapDX9FormatToDXGIFormat
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MFMapDX9FormatToDXGIFormat function

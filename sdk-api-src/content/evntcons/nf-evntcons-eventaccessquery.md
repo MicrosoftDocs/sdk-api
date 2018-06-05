@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:evntcons.EventAccessQuery
+title: EventAccessQuery function
+author: windows-sdk-content
+description: Retrieves the permissions for the specified controller or provider.
+old-location: etw\eventaccessquery_func.htm
+old-project: ETW
+ms.assetid: 21c87137-0e8f-43d1-9dad-9f2b4fc591a3
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: EventAccessQuery, EventAccessQuery function [ETW], base.eventaccessquery_func, etw.eventaccessquery_func, evntcons/EventAccessQuery
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: evntcons.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVENTSECURITYOPERATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+-	sechost.dll
+-	API-MS-Win-eventing-controller-l1-1-0.dll
+-	kernelbase.dll
+api_name:
+-	EventAccessQuery
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # EventAccessQuery function

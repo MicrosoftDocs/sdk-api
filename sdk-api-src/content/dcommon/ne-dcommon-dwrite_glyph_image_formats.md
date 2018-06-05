@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dcommon.DWRITE_GLYPH_IMAGE_FORMATS
+title: DWRITE_GLYPH_IMAGE_FORMATS
+author: windows-sdk-content
+description: Specifies which formats are supported in the font, either at a font-wide level or per glyph.
+old-location: directwrite\dwrite_glyph_image_formats.htm
+old-project: DirectWrite
+ms.assetid: ECC868B5-3D17-4D55-8E00-AB446C1C22FE
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_GLYPH_IMAGE_FORMATS, DWRITE_GLYPH_IMAGE_FORMATS enumeration [Direct Write], DWRITE_GLYPH_IMAGE_FORMATS_CFF, DWRITE_GLYPH_IMAGE_FORMATS_COLR, DWRITE_GLYPH_IMAGE_FORMATS_JPEG, DWRITE_GLYPH_IMAGE_FORMATS_NONE, DWRITE_GLYPH_IMAGE_FORMATS_PNG, DWRITE_GLYPH_IMAGE_FORMATS_PREMULTIPLIED_B8G8R8A8, DWRITE_GLYPH_IMAGE_FORMATS_SVG, DWRITE_GLYPH_IMAGE_FORMATS_TIFF, DWRITE_GLYPH_IMAGE_FORMATS_TRUETYPE, dcommon/DWRITE_GLYPH_IMAGE_FORMATS, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_CFF, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_COLR, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_JPEG, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_NONE, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_PNG, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_PREMULTIPLIED_B8G8R8A8, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_SVG, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_TIFF, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_TRUETYPE, directwrite.dwrite_glyph_image_formats
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dcommon.h
+req.include-header: Dwrite_3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dcommon.h
+api_name:
+-	DWRITE_GLYPH_IMAGE_FORMATS
+product: Windows
+targetos: Windows
+req.lib: Dciman32.lib
+req.dll: Dciman32.dll
+req.irql: 
 ---
 
 # DWRITE_GLYPH_IMAGE_FORMATS enumeration

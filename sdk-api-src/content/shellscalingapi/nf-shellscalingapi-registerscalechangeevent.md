@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shellscalingapi.RegisterScaleChangeEvent
+title: RegisterScaleChangeEvent function
+author: windows-sdk-content
+description: Registers for an event that is triggered when the scale has possibly changed. This function replaces RegisterScaleChangeNotifications.
+old-location: shell\RegisterScaleChangeEvent.htm
+old-project: shell
+ms.assetid: 05FAFC9B-DCB7-464A-9933-7166C7E53D40
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: RegisterScaleChangeEvent, RegisterScaleChangeEvent function [Windows Shell], shell.RegisterScaleChangeEvent, shellscalingapi/RegisterScaleChangeEvent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shellscalingapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHELL_UI_COMPONENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	shcore.dll
+-	API-MS-Win-shcore-scaling-l1-1-1.dll
+-	API-MS-Win-ShCore-Scaling-l1-1-2.dll
+-	api-ms-win-shcore-scaling-l1.dll
+api_name:
+-	RegisterScaleChangeEvent
+product: Windows
+targetos: Windows
+req.lib: Shcore.lib
+req.dll: Shcore.dll
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # RegisterScaleChangeEvent function

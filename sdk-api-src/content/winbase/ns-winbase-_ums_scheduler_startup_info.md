@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbase._UMS_SCHEDULER_STARTUP_INFO
+title: "_UMS_SCHEDULER_STARTUP_INFO"
+author: windows-sdk-content
+description: Specifies attributes for a user-mode scheduling (UMS) scheduler thread.
+old-location: base\ums_scheduler_startup_info.htm
+old-project: ProcThread
+ms.assetid: e3f7b1b7-d2b8-432d-bce7-3633292e855b
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PUMS_SCHEDULER_STARTUP_INFO, PUMS_SCHEDULER_STARTUP_INFO, PUMS_SCHEDULER_STARTUP_INFO structure pointer, UMS_SCHEDULER_STARTUP_INFO, UMS_SCHEDULER_STARTUP_INFO structure, _UMS_SCHEDULER_STARTUP_INFO, base.ums_scheduler_startup_info, winbase/PUMS_SCHEDULER_STARTUP_INFO, winbase/UMS_SCHEDULER_STARTUP_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UMS_SCHEDULER_STARTUP_INFO, *PUMS_SCHEDULER_STARTUP_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinBase.h
+api_name:
+-	UMS_SCHEDULER_STARTUP_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _UMS_SCHEDULER_STARTUP_INFO structure

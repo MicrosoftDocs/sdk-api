@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:documenttarget.IPrintDocumentPackageTarget.GetPackageTargetTypes
+title: IPrintDocumentPackageTarget::GetPackageTargetTypes
+author: windows-sdk-content
+description: Enumerates the supported target types.
+old-location: xps\iprintdocumentpackagetarget_getpackagetargettypes.htm
+old-project: printdocs
+ms.assetid: 2875B751-0D49-4CFC-AF96-7009400E5D6E
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: GetPackageTargetTypes, GetPackageTargetTypes method [XPS Documents and Packaging], GetPackageTargetTypes method [XPS Documents and Packaging],IPrintDocumentPackageTarget interface, IPrintDocumentPackageTarget interface [XPS Documents and Packaging],GetPackageTargetTypes method, IPrintDocumentPackageTarget.GetPackageTargetTypes, IPrintDocumentPackageTarget::GetPackageTargetTypes, documenttarget/IPrintDocumentPackageTarget::GetPackageTargetTypes, xps.iprintdocumentpackagetarget_getpackagetargettypes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: documenttarget.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PrintDocumentPackageCompletion
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Documenttarget.h
+api_name:
+-	IPrintDocumentPackageTarget.GetPackageTargetTypes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IPrintDocumentPackageTarget::GetPackageTargetTypes

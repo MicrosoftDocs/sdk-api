@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:fdi.FDINOTIFICATION
+title: FDINOTIFICATION
+author: windows-sdk-content
+description: The FDINOTIFICATION structure to provide information to FNFDINOTIFY.
+old-location: winprog\fdinotification.htm
+old-project: DevNotes
+ms.assetid: 8b92226e-b19a-4624-925e-4a98d037637d
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*PFDINOTIFICATION, FDIERROR_ALLOC_FAIL, FDIERROR_BAD_COMPR_TYPE, FDIERROR_CABINET_NOT_FOUND, FDIERROR_CORRUPT_CABINET, FDIERROR_MDI_FAIL, FDIERROR_NONE, FDIERROR_NOT_A_CABINET, FDIERROR_RESERVE_MISMATCH, FDIERROR_TARGET_FILE, FDIERROR_UNKNOWN_CABINET_VERSION, FDIERROR_USER_ABORT, FDIERROR_WRONG_CABINET, FDINOTIFICATION, FDINOTIFICATION structure [Windows API], PFDINOTIFICATION, PFDINOTIFICATION structure pointer [Windows API], fdi/FDINOTIFICATION, fdi/PFDINOTIFICATION, winprog.fdinotification"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: fdi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FDINOTIFICATION, *PFDINOTIFICATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Fdi.h
+api_name:
+-	FDINOTIFICATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FDINOTIFICATION structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:p2p.peer_presence_info_tag
+title: peer_presence_info_tag
+author: windows-sdk-content
+description: The PEER_PRESENCE_INFO structure contains specific peer presence information.
+old-location: p2p\peer_presence_info.htm
+old-project: P2PSdk
+ms.assetid: e8f83ba8-81a3-4083-bc15-e00b2bec1cd4
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PPEER_PRESENCE_INFO, PCPEER_PRESENCE_INFO, PCPEER_PRESENCE_INFO structure pointer [Peer Networking], PEER_PRESENCE_INFO, PEER_PRESENCE_INFO structure [Peer Networking], PPEER_PRESENCE_INFO, PPEER_PRESENCE_INFO structure pointer [Peer Networking], p2p.peer_presence_info, p2p/PCPEER_PRESENCE_INFO, p2p/PEER_PRESENCE_INFO, p2p/PPEER_PRESENCE_INFO, peer_presence_info_tag"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEER_PRESENCE_INFO, *PPEER_PRESENCE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	P2P.h
+api_name:
+-	PEER_PRESENCE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # peer_presence_info_tag structure

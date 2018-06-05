@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wtsdefs._WTS_POLICY_DATA
+title: "_WTS_POLICY_DATA"
+author: windows-sdk-content
+description: Contains policy information that is passed by the Remote Desktop Services service to the protocol.
+old-location: termserv\wts_policy_data.htm
+old-project: TermServ
+ms.assetid: 407de671-f6e3-407e-9c97-11ea9ac8bdde
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PWTS_POLICY_DATA, 1, 2, 3, 4, 5, PWTS_POLICY_DATA, PWTS_POLICY_DATA structure pointer [Remote Desktop Services], WTS_POLICY_DATA, WTS_POLICY_DATA structure [Remote Desktop Services], _WTS_POLICY_DATA, termserv.wts_policy_data, wtsdefs/PWTS_POLICY_DATA, wtsdefs/WTS_POLICY_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wtsdefs.h
+req.include-header: Wtsprotocol.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_POLICY_DATA, *PWTS_POLICY_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsdefs.h
+api_name:
+-	WTS_POLICY_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTS_POLICY_DATA structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dhcpsapi._DHCP_SUBNET_ELEMENT_TYPE_V5
+title: "_DHCP_SUBNET_ELEMENT_TYPE_V5"
+author: windows-sdk-content
+description: The DHCP_SUBNET_ELEMENT_TYPE enumeration defines the set of possible subnet element types.
+old-location: dhcp\dhcp_subnet_element_type.htm
+old-project: DHCP
+ms.assetid: 291be329-0588-4b67-835f-4f2b2369772a
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_SUBNET_ELEMENT_TYPE, DHCP_SUBNET_ELEMENT_TYPE, DHCP_SUBNET_ELEMENT_TYPE enumeration [DHCP], DhcpExcludedIpRanges, DhcpIpRanges, DhcpIpRangesBootpOnly, DhcpIpRangesDhcpBootp, DhcpIpRangesDhcpOnly, DhcpReservedIps, DhcpSecondaryHosts, LPDHCP_SUBNET_ELEMENT_TYPE, LPDHCP_SUBNET_ELEMENT_TYPE enumeration pointer [DHCP], _DHCP_SUBNET_ELEMENT_TYPE_V5, dhcp.dhcp_subnet_element_type, dhcpsapi/DHCP_SUBNET_ELEMENT_TYPE, dhcpsapi/DhcpExcludedIpRanges, dhcpsapi/DhcpIpRanges, dhcpsapi/DhcpIpRangesBootpOnly, dhcpsapi/DhcpIpRangesDhcpBootp, dhcpsapi/DhcpIpRangesDhcpOnly, dhcpsapi/DhcpReservedIps, dhcpsapi/DhcpSecondaryHosts, dhcpsapi/LPDHCP_SUBNET_ELEMENT_TYPE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_SUBNET_ELEMENT_TYPE, *LPDHCP_SUBNET_ELEMENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCP_SUBNET_ELEMENT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_SUBNET_ELEMENT_TYPE_V5 enumeration

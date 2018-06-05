@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbio_adapter._WINBIO_ADAPTER_INTERFACE_VERSION
+title: "_WINBIO_ADAPTER_INTERFACE_VERSION"
+author: windows-sdk-content
+description: Contains a major and minor version number used in the engine, sensor, and storage adapter interface tables.
+old-location: secbiomet\winbio_adapter_interface_version.htm
+old-project: SecBioMet
+ms.assetid: e9dd91ea-cca3-49f3-89dc-f8f2c0594bd2
+ms.author: windowssdkdev
+ms.date: 04/24/2018
+ms.keywords: "*PWINBIO_ADAPTER_INTERFACE_VERSION, PWINBIO_ADAPTER_INTERFACE_VERSION, PWINBIO_ADAPTER_INTERFACE_VERSION structure pointer [Windows Biometric Framework API], WINBIO_ADAPTER_INTERFACE_VERSION, WINBIO_ADAPTER_INTERFACE_VERSION structure [Windows Biometric Framework API], _WINBIO_ADAPTER_INTERFACE_VERSION, secbiomet.winbio_adapter_interface_version, winbio_adapter/PWINBIO_ADAPTER_INTERFACE_VERSION, winbio_adapter/WINBIO_ADAPTER_INTERFACE_VERSION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbio_adapter.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINBIO_ADAPTER_INTERFACE_VERSION, *PWINBIO_ADAPTER_INTERFACE_VERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winbio_adapter.h
+api_name:
+-	WINBIO_ADAPTER_INTERFACE_VERSION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WINBIO_ADAPTER_INTERFACE_VERSION structure

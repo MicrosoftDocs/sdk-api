@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddkmapi._DDLOCKOUT
+title: "_DDLOCKOUT"
+author: windows-sdk-content
+description: The DDLOCKOUT structure contains a description of the surface.
+old-location: display\ddlockout.htm
+old-project: display
+ms.assetid: b6046c49-828d-4b92-aab7-e872e1905929
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDLOCKOUT, DDLOCKOUT, DDLOCKOUT structure [Display Devices], LPDDLOCKOUT, LPDDLOCKOUT structure pointer [Display Devices], _DDLOCKOUT, ddkmapi/DDLOCKOUT, ddkmapi/LPDDLOCKOUT, ddstrcts_7125d1f6-8fc5-460b-bc11-089053f77b83.xml, display.ddlockout"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddkmapi.h
+req.include-header: Ddkmapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDLOCKOUT, *LPDDLOCKOUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddkmapi.h
+api_name:
+-	DDLOCKOUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDLOCKOUT structure

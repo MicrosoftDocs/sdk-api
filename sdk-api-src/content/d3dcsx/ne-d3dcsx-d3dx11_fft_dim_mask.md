@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3dcsx.D3DX11_FFT_DIM_MASK
+title: D3DX11_FFT_DIM_MASK
+author: windows-sdk-content
+description: Number of dimensions for FFT data.
+old-location: direct3d11\d3dx11_fft_dim_mask.htm
+old-project: direct3d11
+ms.assetid: 5623b0e6-73f0-4d89-bf3e-a116409b369e
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3DX11_FFT_DIM_MASK, D3DX11_FFT_DIM_MASK enumeration [Direct3D 11], D3DX11_FFT_DIM_MASK_1D, D3DX11_FFT_DIM_MASK_2D, D3DX11_FFT_DIM_MASK_3D, a5485d2c-5c50-03ed-1572-51ff17e92a30, d3dcsx/D3DX11_FFT_DIM_MASK, d3dcsx/D3DX11_FFT_DIM_MASK_1D, d3dcsx/D3DX11_FFT_DIM_MASK_2D, d3dcsx/D3DX11_FFT_DIM_MASK_3D, direct3d11.d3dx11_fft_dim_mask
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3dcsx.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DX11_FFT_DIM_MASK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3dcsx.h
+api_name:
+-	D3DX11_FFT_DIM_MASK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3DX11_FFT_DIM_MASK enumeration

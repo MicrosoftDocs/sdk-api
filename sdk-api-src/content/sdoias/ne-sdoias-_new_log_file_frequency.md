@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:sdoias._NEW_LOG_FILE_FREQUENCY
+title: "_NEW_LOG_FILE_FREQUENCY"
+author: windows-sdk-content
+description: The values of the NEW_LOG_FILE_FREQUENCY enumeration type specify how frequently new log files are created.
+old-location: nps\SDO_new_log_file_frequency.htm
+old-project: Nps
+ms.assetid: d051ff06-f425-49e5-ac29-6d7873174eb7
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IAS_LOGGING_DAILY, IAS_LOGGING_MONTHLY, IAS_LOGGING_UNLIMITED_SIZE, IAS_LOGGING_WEEKLY, IAS_LOGGING_WHEN_FILE_SIZE_REACHES, NEW_LOG_FILE_FREQUENCY, NEW_LOG_FILE_FREQUENCY enumeration [Network Policy Server], _NEW_LOG_FILE_FREQUENCY, _sdo_new_log_file_frequency, nps.SDO_new_log_file_frequency, sdo.new_log_file_frequency, sdoias/IAS_LOGGING_DAILY, sdoias/IAS_LOGGING_MONTHLY, sdoias/IAS_LOGGING_UNLIMITED_SIZE, sdoias/IAS_LOGGING_WEEKLY, sdoias/IAS_LOGGING_WHEN_FILE_SIZE_REACHES, sdoias/NEW_LOG_FILE_FREQUENCY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: sdoias.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NEW_LOG_FILE_FREQUENCY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	SdoIas.h
+api_name:
+-	NEW_LOG_FILE_FREQUENCY
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NEW_LOG_FILE_FREQUENCY enumeration

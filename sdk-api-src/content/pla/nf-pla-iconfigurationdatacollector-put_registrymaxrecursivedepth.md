@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IConfigurationDataCollector.put_RegistryMaxRecursiveDepth
+title: IConfigurationDataCollector::put_RegistryMaxRecursiveDepth
+author: windows-sdk-content
+description: Retrieves or sets the maximum number of subkeys from which to recursively collect registry values.
+old-location: pla\iconfigurationdatacollector_registrymaxrecursivedepth.htm
+old-project: PLA
+ms.assetid: f291a404-a952-42cd-a538-c7d326aa29d8
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IConfigurationDataCollector interface [PLA],RegistryMaxRecursiveDepth property, IConfigurationDataCollector.RegistryMaxRecursiveDepth, IConfigurationDataCollector.put_RegistryMaxRecursiveDepth, IConfigurationDataCollector::RegistryMaxRecursiveDepth, IConfigurationDataCollector::get_RegistryMaxRecursiveDepth, IConfigurationDataCollector::put_RegistryMaxRecursiveDepth, RegistryMaxRecursiveDepth property [PLA], RegistryMaxRecursiveDepth property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_registrymaxrecursivedepth, pla.iconfigurationdatacollector_registrymaxrecursivedepth, pla/IConfigurationDataCollector::RegistryMaxRecursiveDepth, pla/IConfigurationDataCollector::get_RegistryMaxRecursiveDepth, pla/IConfigurationDataCollector::put_RegistryMaxRecursiveDepth, put_RegistryMaxRecursiveDepth
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IConfigurationDataCollector.RegistryMaxRecursiveDepth
+-	IConfigurationDataCollector.get_RegistryMaxRecursiveDepth
+-	IConfigurationDataCollector.put_RegistryMaxRecursiveDepth
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IConfigurationDataCollector::put_RegistryMaxRecursiveDepth

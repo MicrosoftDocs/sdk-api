@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:segment.DVDMenuIDConstants
+title: DVDMenuIDConstants
+author: windows-sdk-content
+description: The DVDMenuID constants define menu type ID numbers used to display specific menus.
+old-location: mstv\dvdmenuid_constants.htm
+old-project: mstv
+ms.assetid: f58ce7b6-6fc4-4766-bf8a-180a5568d27c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: DVDMenuID Constants, DVDMenuIDConstants, DVDMenuIDConstants enumeration [Microsoft TV Technologies], DVDMenuIDConstantsEnumeration, dvdMenu_Angle, dvdMenu_Audio, dvdMenu_Chapter, dvdMenu_Root, dvdMenu_Subpicture, dvdMenu_Title, enumeration [Microsoft TV Technologies], mstv.dvdmenuid_constants, segment/, segment/dvdMenu_Angle, segment/dvdMenu_Audio, segment/dvdMenu_Chapter, segment/dvdMenu_Root, segment/dvdMenu_Subpicture, segment/dvdMenu_Title
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVDMenuIDConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Segment.h
+api_name:
+-	DVDMenuIDConstants
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DVDMenuIDConstants enumeration

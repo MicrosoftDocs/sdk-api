@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:schannel._SCHANNEL_CERT_HASH
+title: "_SCHANNEL_CERT_HASH"
+author: windows-sdk-content
+description: Contains the hash store data for the certificate that Schannel uses.
+old-location: security\schannel_cert_hash.htm
+old-project: SecAuthN
+ms.assetid: BC068062-6644-4296-990F-7C533DC80C02
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSCHANNEL_CERT_HASH, PSCHANNEL_CERT_HASH, PSCHANNEL_CERT_HASH structure pointer [Security], SCHANNEL_CERT_HASH, SCHANNEL_CERT_HASH structure [Security], SCH_MACHINE_CERT_HASH, _SCHANNEL_CERT_HASH, schannel/PSCHANNEL_CERT_HASH, schannel/SCHANNEL_CERT_HASH, security.schannel_cert_hash"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: schannel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCHANNEL_CERT_HASH, *PSCHANNEL_CERT_HASH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Schannel.h
+api_name:
+-	SCHANNEL_CERT_HASH
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SCHANNEL_CERT_HASH structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wlanapi._WLAN_SECURABLE_OBJECT
+title: "_WLAN_SECURABLE_OBJECT"
+author: windows-sdk-content
+description: Defines the securable objects used by Native Wifi Functions.
+old-location: nwifi\wlan_securable_object.htm
+old-project: NativeWiFi
+ms.assetid: 1f6e1460-d27f-4800-8a32-6f9f509753cf
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_SECURABLE_OBJECT, PWLAN_SECURABLE_OBJECT, PWLAN_SECURABLE_OBJECT enumeration pointer [NativeWIFI], WLAN_SECURABLE_OBJECT, WLAN_SECURABLE_OBJECT enumeration [NativeWIFI], _WLAN_SECURABLE_OBJECT, nwifi.wlan_securable_object, wlan_secure_ac_enabled, wlan_secure_add_new_all_user_profiles, wlan_secure_add_new_per_user_profiles, wlan_secure_all_user_profiles_order, wlan_secure_bc_scan_enabled, wlan_secure_bss_type, wlan_secure_current_operation_mode, wlan_secure_deny_list, wlan_secure_get_plaintext_key, wlan_secure_hosted_network_elevated_access, wlan_secure_ihv_control, wlan_secure_interface_properties, wlan_secure_media_streaming_mode_enabled, wlan_secure_permit_list, wlan_secure_show_denied, wlan_secure_virtual_station_extensibility, wlan_secure_wfd_elevated_access, wlanapi/PWLAN_SECURABLE_OBJECT, wlanapi/WLAN_SECURABLE_OBJECT, wlanapi/wlan_secure_ac_enabled, wlanapi/wlan_secure_add_new_all_user_profiles, wlanapi/wlan_secure_add_new_per_user_profiles, wlanapi/wlan_secure_all_user_profiles_order, wlanapi/wlan_secure_bc_scan_enabled, wlanapi/wlan_secure_bss_type, wlanapi/wlan_secure_current_operation_mode, wlanapi/wlan_secure_deny_list, wlanapi/wlan_secure_get_plaintext_key, wlanapi/wlan_secure_hosted_network_elevated_access, wlanapi/wlan_secure_ihv_control, wlanapi/wlan_secure_interface_properties, wlanapi/wlan_secure_media_streaming_mode_enabled, wlanapi/wlan_secure_permit_list, wlanapi/wlan_secure_show_denied, wlanapi/wlan_secure_virtual_station_extensibility, wlanapi/wlan_secure_wfd_elevated_access"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_SECURABLE_OBJECT, *PWLAN_SECURABLE_OBJECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wlanapi.h
+api_name:
+-	WLAN_SECURABLE_OBJECT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_SECURABLE_OBJECT enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3.__MIDL___MIDL_itf_tapi3_0000_0018_0001
+title: "__MIDL___MIDL_itf_tapi3_0000_0018_0001"
+author: windows-sdk-content
+description: The MSP_ADDRESS_EVENT constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_ADDRESS_EVENT.
+old-location: tapi3\msp_address_event.htm
+old-project: Tapi
+ms.assetid: 35aecd05-badd-4509-92e5-1936ca075c37
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ADDRESS_TERMINAL_AVAILABLE, ADDRESS_TERMINAL_UNAVAILABLE, MSP_ADDRESS_EVENT, MSP_ADDRESS_EVENT enumeration [TAPI 2.2], __MIDL___MIDL_itf_tapi3_0000_0018_0001, _tapi3_msp_address_event, msp/ADDRESS_TERMINAL_AVAILABLE, msp/ADDRESS_TERMINAL_UNAVAILABLE, msp/MSP_ADDRESS_EVENT, tapi3.msp_address_event
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSP_ADDRESS_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msp.h
+api_name:
+-	MSP_ADDRESS_EVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # __MIDL___MIDL_itf_tapi3_0000_0018_0001 enumeration

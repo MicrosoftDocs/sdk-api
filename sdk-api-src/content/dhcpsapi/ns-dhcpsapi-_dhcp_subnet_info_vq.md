@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi._DHCP_SUBNET_INFO_VQ
+title: "_DHCP_SUBNET_INFO_VQ"
+author: windows-sdk-content
+description: Defines information that describes a subnet.
+old-location: dhcp\dhcp_subnet_info_vq.htm
+old-project: DHCP
+ms.assetid: 8440378e-c1dc-4e22-8c56-2cf4412c2483
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_SUBNET_INFO_VQ, DHCP_SUBNET_INFO_VQ, DHCP_SUBNET_INFO_VQ structure [DHCP], LPDHCP_SUBNET_INFO_VQ, LPDHCP_SUBNET_INFO_VQ structure pointer [DHCP], _DHCP_SUBNET_INFO_VQ, dhcp.dhcp_subnet_info_vq, dhcpsapi/DHCP_SUBNET_INFO_VQ, dhcpsapi/LPDHCP_SUBNET_INFO_VQ"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_SUBNET_INFO_VQ, *LPDHCP_SUBNET_INFO_VQ
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCP_SUBNET_INFO_VQ
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_SUBNET_INFO_VQ structure

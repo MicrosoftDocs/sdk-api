@@ -1,31 +1,53 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sddl.ConvertSecurityDescriptorToStringSecurityDescriptorA
+title: ConvertSecurityDescriptorToStringSecurityDescriptorA function
+author: windows-sdk-content
+description: Converts a security descriptor to a string format. You can use the string format to store or transmit the security descriptor.
+old-location: security\convertsecuritydescriptortostringsecuritydescriptor.htm
+old-project: SecAuthZ
+ms.assetid: 36140833-8e30-4c32-a88a-c10751b6c223
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ConvertSecurityDescriptorToStringSecurityDescriptor, ConvertSecurityDescriptorToStringSecurityDescriptor function [Security], ConvertSecurityDescriptorToStringSecurityDescriptorA, ConvertSecurityDescriptorToStringSecurityDescriptorW, _win32_convertsecuritydescriptortostringsecuritydescriptor, sddl/ConvertSecurityDescriptorToStringSecurityDescriptor, sddl/ConvertSecurityDescriptorToStringSecurityDescriptorA, sddl/ConvertSecurityDescriptorToStringSecurityDescriptorW, security.convertsecuritydescriptortostringsecuritydescriptor
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: sddl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ConvertSecurityDescriptorToStringSecurityDescriptorW (Unicode) and ConvertSecurityDescriptorToStringSecurityDescriptorA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+-	sechost.dll
+-	API-MS-Win-Security-sddl-l1-1-0.dll
+api_name:
+-	ConvertSecurityDescriptorToStringSecurityDescriptor
+-	ConvertSecurityDescriptorToStringSecurityDescriptorA
+-	ConvertSecurityDescriptorToStringSecurityDescriptorW
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ConvertSecurityDescriptorToStringSecurityDescriptorA function

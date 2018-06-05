@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsxs._FUSION_INSTALL_REFERENCE_
+title: "_FUSION_INSTALL_REFERENCE_"
+author: windows-sdk-content
+description: The FUSION_INSTALL_REFERENCE structure contains information about the application which references the side-by-side assembly.
+old-location: setup\fusion_install_reference_.htm
+old-project: SbsCs
+ms.assetid: daa2b625-1522-4239-9c62-65f09b50f74c
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*LPFUSION_INSTALL_REFERENCE, FUSION_INSTALL_REFERENCE, FUSION_INSTALL_REFERENCE , FUSION_INSTALL_REFERENCE structure [Side-by-side Assemblies], FUSION_REFCOUNT_FILEPATH_GUID, FUSION_REFCOUNT_MSI_GUID, FUSION_REFCOUNT_OPAQUE_STRING_GUID, FUSION_REFCOUNT_OSINSTALL_GUID, FUSION_REFCOUNT_UNINSTALL_SUBKEY_GUID, LPFUSION_INSTALL_REFERENCE, LPFUSION_INSTALL_REFERENCE structure pointer [Side-by-side Assemblies], _FUSION_INSTALL_REFERENCE_, setup.fusion_install_reference_, winsxs/FUSION_INSTALL_REFERENCE, winsxs/LPFUSION_INSTALL_REFERENCE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsxs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FUSION_INSTALL_REFERENCE, *LPFUSION_INSTALL_REFERENCE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsxs.h
+api_name:
+-	FUSION_INSTALL_REFERENCE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _FUSION_INSTALL_REFERENCE_ structure

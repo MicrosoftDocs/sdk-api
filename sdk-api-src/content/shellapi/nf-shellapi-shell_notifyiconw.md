@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shellapi.Shell_NotifyIconW
+title: Shell_NotifyIconW function
+author: windows-sdk-content
+description: Sends a message to the taskbar's status area.
+old-location: shell\Shell_NotifyIcon.htm
+old-project: shell
+ms.assetid: a316bc29-5f19-4a04-a32b-f4caeea0c029
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: NIM_ADD, NIM_DELETE, NIM_MODIFY, NIM_SETFOCUS, NIM_SETVERSION, Shell_NotifyIcon, Shell_NotifyIcon function [Windows Shell], Shell_NotifyIconA, Shell_NotifyIconW, _win32_Shell_NotifyIcon, shell.Shell_NotifyIcon, shellapi/Shell_NotifyIcon, shellapi/Shell_NotifyIconA, shellapi/Shell_NotifyIconW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shellapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: Shell_NotifyIconW (Unicode) and Shell_NotifyIconA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHSTOCKICONID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+-	ext-ms-win-shell-shell32-l1-2-1.dll
+-	Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+api_name:
+-	Shell_NotifyIcon
+-	Shell_NotifyIconA
+-	Shell_NotifyIconW
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # Shell_NotifyIconW function

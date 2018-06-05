@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:faxcom.IFaxDoc.get_SenderOffice
+title: IFaxDoc::get_SenderOffice
+author: windows-sdk-content
+description: Sets or retrieves the SenderOffice property of a FaxDoc object. The SenderOffice property is a null-terminated string that contains the office of the sender of the fax transmission.
+old-location: fax\_mfax_ifaxdoc_get_senderoffice_vb.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxlegacy_7gv9.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: FaxDoc object [Fax Service],SenderOffice property, FaxDoc.SenderOffice, IFaxDoc.get_SenderOffice, IFaxDoc::get_SenderOffice, SenderOffice property [Fax Service], SenderOffice property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_get_senderoffice_vb, get_SenderOffice
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: faxcom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ShellWindowTypeConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Faxcom.dll
+api_name:
+-	FaxDoc.SenderOffice
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFaxDoc::get_SenderOffice

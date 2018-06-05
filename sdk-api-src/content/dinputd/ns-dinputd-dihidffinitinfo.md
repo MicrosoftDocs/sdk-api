@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dinputd.DIHIDFFINITINFO
+title: DIHIDFFINITINFO
+author: windows-sdk-content
+description: The DIHIDFFINITINFO structure is used by DirectInput to provide information to a HID force-feedback driver about the device it is being asked to control.
+old-location: hid\dihidffinitinfo.htm
+old-project: hid
+ms.assetid: 7eaf2d1e-f216-4678-9c8f-e6c38f6e4e66
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPDIHIDFFINITINFO, DIHIDFFINITINFO, DIHIDFFINITINFO structure [Human Input Devices], di_ref_2ed2499d-7d1f-4247-be74-ea356144df44.xml, dinputd/DIHIDFFINITINFO, hid.dihidffinitinfo"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dinputd.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIHIDFFINITINFO, *LPDIHIDFFINITINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dinputd.h
+api_name:
+-	DIHIDFFINITINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DIHIDFFINITINFO structure

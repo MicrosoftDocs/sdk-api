@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:clusapi.CLUSCTL_USER_CODE
+title: CLUSCTL_USER_CODE macro
+author: windows-sdk-content
+description: Generates a correctly formatted user-defined control code. For more information on the bit layout of control codes, see Control Code Architecture.
+old-location: mscs\clusctl_user_code.htm
+old-project: MsCS
+ms.assetid: b21a565a-df43-486c-a474-2dc6d2f45197
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: 0, 1, 2, CLUSCTL_USER_CODE, CLUSCTL_USER_CODE macro [Failover Cluster], _wolf_clusctl_user_code, clusapi/CLUSCTL_USER_CODE, mscs.clusctl_user_code
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+api_name:
+-	CLUSCTL_USER_CODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSCTL_USER_CODE macro

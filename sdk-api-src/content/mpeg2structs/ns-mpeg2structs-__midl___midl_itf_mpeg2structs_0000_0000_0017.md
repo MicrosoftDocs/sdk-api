@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0017
+title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0017"
+author: windows-sdk-content
+description: The ATSC_FILTER_OPTIONS structure specifies additional criteria for matching ATSC section headers.
+old-location: mstv\atsc_filter_options.htm
+old-project: mstv
+ms.assetid: 16e33f92-9e25-4a03-a21f-0ea5a99470ee
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ATSC_FILTER_OPTIONS, ATSC_FILTER_OPTIONS structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0017, mpeg2structs/ATSC_FILTER_OPTIONS, mstv.atsc_filter_options
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mpeg2structs.h
+req.include-header: Mpeg2data.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ATSC_FILTER_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mpeg2structs.h
+api_name:
+-	ATSC_FILTER_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_mpeg2structs_0000_0000_0017 structure

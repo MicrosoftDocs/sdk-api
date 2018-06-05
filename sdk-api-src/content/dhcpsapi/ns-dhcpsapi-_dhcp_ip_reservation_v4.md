@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi._DHCP_IP_RESERVATION_V4
+title: "_DHCP_IP_RESERVATION_V4"
+author: windows-sdk-content
+description: The DHCP_IP_RESERVATION_V4 structure defines a client IP reservation. This structure extends an IP reservation by including the type of client (DHCP or BOOTP) holding the reservation.
+old-location: dhcp\dhcp_ip_reservation_v4.htm
+old-project: DHCP
+ms.assetid: 01951b18-fc54-4a34-9ccd-fd98f4e7864f
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_IP_RESERVATION_V4, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIENT_TYPE_DHCP, DHCP_IP_RESERVATION_V4, DHCP_IP_RESERVATION_V4 structure [DHCP], LPDHCP_IP_RESERVATION_V4, LPDHCP_IP_RESERVATION_V4 structure pointer [DHCP], _DHCP_IP_RESERVATION_V4, dhcp.dhcp_ip_reservation_v4, dhcpsapi/LPDHCP_IP_RESERVATION_V4, dhcpsapi/_DHCP_IP_RESERVATION_V4"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_IP_RESERVATION_V4, *LPDHCP_IP_RESERVATION_V4
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCP_IP_RESERVATION_V4
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_IP_RESERVATION_V4 structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._DISK_INT13_INFO
+title: "_DISK_INT13_INFO"
+author: windows-sdk-content
+description: Contains standard Int13 drive geometry parameters.
+old-location: fs\disk_int13_info_str.htm
+old-project: FileIO
+ms.assetid: a6991ad1-da8a-4df6-a055-ead3c30938df
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PDISK_INT13_INFO, DISK_INT13_INFO, DISK_INT13_INFO structure [Files], PDISK_INT13_INFO, PDISK_INT13_INFO structure pointer [Files], _DISK_INT13_INFO, _win32_disk_int13_info_str, base.disk_int13_info_str, fs.disk_int13_info_str, winioctl/DISK_INT13_INFO, winioctl/PDISK_INT13_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISK_INT13_INFO, *PDISK_INT13_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	DISK_INT13_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _DISK_INT13_INFO structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oaidl.IDispatch.GetIDsOfNames
+title: IDispatch::GetIDsOfNames
+author: windows-sdk-content
+description: Maps a single member and an optional set of argument names to a corresponding set of integer DISPIDs, which can be used on subsequent calls to Invoke.
+old-location: automat\idispatch_getidsofnames.htm
+old-project: automat
+ms.assetid: 6f6cf233-3481-436e-8d6a-51f93bf91619
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames method [Automation],IDispatch interface, IDispatch interface [Automation],GetIDsOfNames method, IDispatch.GetIDsOfNames, IDispatch::GetIDsOfNames, _oa96_IDispatch::GetIDsOfNames, automat.idispatch_getidsofnames, oaidl/IDispatch::GetIDsOfNames
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OaIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	IDispatch.GetIDsOfNames
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDispatch::GetIDsOfNames

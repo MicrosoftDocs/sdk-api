@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:dxgi1_4.IDXGIFactory4
+title: IDXGIFactory4
+author: windows-sdk-content
+description: Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
+old-location: direct3ddxgi\idxgifactory4.htm
+old-project: direct3ddxgi
+ms.assetid: 248CF7CF-BC7D-430F-9EA1-638A42AAC021
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IDXGIFactory4, IDXGIFactory4 interface [DXGI], IDXGIFactory4 interface [DXGI],described, direct3ddxgi.idxgifactory4, dxgi1_4/IDXGIFactory4
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: dxgi1_4.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dxgi.lib
+-	Dxgi.dll
+api_name:
+-	IDXGIFactory4
+product: Windows
+targetos: Windows
+req.lib: Dxgi.lib
+req.dll: Dxgi.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIFactory4 interface

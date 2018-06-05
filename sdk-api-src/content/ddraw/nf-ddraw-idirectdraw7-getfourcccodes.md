@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:ddraw.IDirectDraw7.GetFourCCCodes
+title: IDirectDraw7::GetFourCCCodes
+author: windows-sdk-content
+description: Retrieves the four-character codes (FOURCC) that are supported by the DirectDraw object. This method can also retrieve the number of codes that are supported.
+old-location: directdraw\idirectdraw7_getfourcccodes.htm
+old-project: directdraw
+ms.assetid: 980b1cfe-d466-42f4-865f-6ddc7a41ea94
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: GetFourCCCodes, GetFourCCCodes method [DirectDraw], GetFourCCCodes method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetFourCCCodes method, IDirectDraw7.GetFourCCCodes, IDirectDraw7::GetFourCCCodes, ddraw/IDirectDraw7::GetFourCCCodes, directdraw.idirectdraw7_getfourcccodes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ddraw.dll
+api_name:
+-	IDirectDraw7.GetFourCCCodes
+product: Windows
+targetos: Windows
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 ---
 
 # IDirectDraw7::GetFourCCCodes

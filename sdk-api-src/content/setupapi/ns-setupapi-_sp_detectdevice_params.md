@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:setupapi._SP_DETECTDEVICE_PARAMS
+title: "_SP_DETECTDEVICE_PARAMS"
+author: windows-sdk-content
+description: An SP_DETECTDEVICE_PARAMS structure corresponds to a DIF_DETECT installation request.
+old-location: devinst\sp_detectdevice_params.htm
+old-project: devinst
+ms.assetid: 77682651-217f-4e3a-9d0e-0a93d315de53
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PSP_DETECTDEVICE_PARAMS, PSP_DETECTDEVICE_PARAMS, PSP_DETECTDEVICE_PARAMS structure pointer [Device and Driver Installation], SP_DETECTDEVICE_PARAMS, SP_DETECTDEVICE_PARAMS structure [Device and Driver Installation], _SP_DETECTDEVICE_PARAMS, devinst.sp_detectdevice_params, di-struct_6de1fd38-be9a-42e6-ae10-5825aef12880.xml, setupapi/PSP_DETECTDEVICE_PARAMS, setupapi/SP_DETECTDEVICE_PARAMS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SP_DETECTDEVICE_PARAMS, *PSP_DETECTDEVICE_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	setupapi.h
+api_name:
+-	SP_DETECTDEVICE_PARAMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SP_DETECTDEVICE_PARAMS structure

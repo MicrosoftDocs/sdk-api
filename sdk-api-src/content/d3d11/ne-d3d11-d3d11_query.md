@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d11.D3D11_QUERY
+title: D3D11_QUERY
+author: windows-sdk-content
+description: Query types.
+old-location: direct3d11\d3d11_query.htm
+old-project: direct3d11
+ms.assetid: 4161fbeb-7f58-422c-a195-ea10f737fd0c
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 846a075c-6f8e-9009-e75c-0c3b32d97453, D3D11_QUERY, D3D11_QUERY enumeration [Direct3D 11], D3D11_QUERY_EVENT, D3D11_QUERY_OCCLUSION, D3D11_QUERY_OCCLUSION_PREDICATE, D3D11_QUERY_PIPELINE_STATISTICS, D3D11_QUERY_SO_OVERFLOW_PREDICATE, D3D11_QUERY_SO_OVERFLOW_PREDICATE_STREAM0, D3D11_QUERY_SO_OVERFLOW_PREDICATE_STREAM1, D3D11_QUERY_SO_OVERFLOW_PREDICATE_STREAM2, D3D11_QUERY_SO_OVERFLOW_PREDICATE_STREAM3, D3D11_QUERY_SO_STATISTICS, D3D11_QUERY_SO_STATISTICS_STREAM0, D3D11_QUERY_SO_STATISTICS_STREAM1, D3D11_QUERY_SO_STATISTICS_STREAM2, D3D11_QUERY_SO_STATISTICS_STREAM3, D3D11_QUERY_TIMESTAMP, D3D11_QUERY_TIMESTAMP_DISJOINT, d3d11/D3D11_QUERY, d3d11/D3D11_QUERY_EVENT, d3d11/D3D11_QUERY_OCCLUSION, d3d11/D3D11_QUERY_OCCLUSION_PREDICATE, d3d11/D3D11_QUERY_PIPELINE_STATISTICS, d3d11/D3D11_QUERY_SO_OVERFLOW_PREDICATE, d3d11/D3D11_QUERY_SO_OVERFLOW_PREDICATE_STREAM0, d3d11/D3D11_QUERY_SO_OVERFLOW_PREDICATE_STREAM1, d3d11/D3D11_QUERY_SO_OVERFLOW_PREDICATE_STREAM2, d3d11/D3D11_QUERY_SO_OVERFLOW_PREDICATE_STREAM3, d3d11/D3D11_QUERY_SO_STATISTICS, d3d11/D3D11_QUERY_SO_STATISTICS_STREAM0, d3d11/D3D11_QUERY_SO_STATISTICS_STREAM1, d3d11/D3D11_QUERY_SO_STATISTICS_STREAM2, d3d11/D3D11_QUERY_SO_STATISTICS_STREAM3, d3d11/D3D11_QUERY_TIMESTAMP, d3d11/D3D11_QUERY_TIMESTAMP_DISJOINT, direct3d11.d3d11_query
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_QUERY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	D3D11_QUERY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_QUERY enumeration

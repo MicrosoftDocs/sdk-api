@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oaidl.ICreateTypeLib.SetVersion
+title: ICreateTypeLib::SetVersion
+author: windows-sdk-content
+description: Sets the major and minor version numbers of the type library.
+old-location: automat\icreatetypelib_setversion.htm
+old-project: automat
+ms.assetid: 1c71bf8f-998a-4a9a-a4a8-981f51334cbe
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: ICreateTypeLib interface [Automation],SetVersion method, ICreateTypeLib.SetVersion, ICreateTypeLib::SetVersion, SetVersion, SetVersion method [Automation], SetVersion method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetVersion, automat.icreatetypelib_setversion, oaidl/ICreateTypeLib::SetVersion
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OaIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ICreateTypeLib.SetVersion
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ICreateTypeLib::SetVersion

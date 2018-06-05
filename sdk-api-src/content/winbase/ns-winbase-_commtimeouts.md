@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbase._COMMTIMEOUTS
+title: "_COMMTIMEOUTS"
+author: windows-sdk-content
+description: Contains the time-out parameters for a communications device.
+old-location: base\commtimeouts_str.htm
+old-project: DevIO
+ms.assetid: 259aa110-b2c3-4583-a3f9-805a42025a81
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*LPCOMMTIMEOUTS, COMMTIMEOUTS, COMMTIMEOUTS structure, LPCOMMTIMEOUTS, LPCOMMTIMEOUTS structure pointer, _COMMTIMEOUTS, _win32_commtimeouts_str, base.commtimeouts_str, winbase/COMMTIMEOUTS, winbase/LPCOMMTIMEOUTS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMMTIMEOUTS, *LPCOMMTIMEOUTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winbase.h
+api_name:
+-	COMMTIMEOUTS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _COMMTIMEOUTS structure

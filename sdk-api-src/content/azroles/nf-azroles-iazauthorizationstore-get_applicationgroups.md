@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzAuthorizationStore.get_ApplicationGroups
+title: IAzAuthorizationStore::get_ApplicationGroups
+author: windows-sdk-content
+description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data.
+old-location: security\azauthorizationstore_applicationgroups.htm
+old-project: SecAuthZ
+ms.assetid: 02bab92b-b234-4755-a4d3-f787fe46252d
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ApplicationGroups property [Security], ApplicationGroups property [Security],AzAuthorizationStore object, ApplicationGroups property [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],ApplicationGroups property, IAzAuthorizationStore interface [Security],ApplicationGroups property, IAzAuthorizationStore.ApplicationGroups, IAzAuthorizationStore.get_ApplicationGroups, IAzAuthorizationStore::ApplicationGroups, IAzAuthorizationStore::get_ApplicationGroups, azroles/IAzAuthorizationStore::ApplicationGroups, azroles/IAzAuthorizationStore::get_ApplicationGroups, get_ApplicationGroups, security.azauthorizationstore_applicationgroups
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzAuthorizationStore.ApplicationGroups
+-	IAzAuthorizationStore.get_ApplicationGroups
+-	AzAuthorizationStore.ApplicationGroups
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzAuthorizationStore::get_ApplicationGroups

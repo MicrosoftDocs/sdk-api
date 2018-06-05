@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0011
+title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0011"
+author: windows-sdk-content
+description: Defines values for the type of keys that control the state of a keyboard, such as the Caps Lock key.
+old-location: rdp\rdpsrapi_kbd_sync_flag.htm
+old-project: Rdp
+ms.assetid: 0E16C482-E7D7-4477-B5B2-830D8CD9012A
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: RDPSRAPI_KBD_SYNC_FLAG, RDPSRAPI_KBD_SYNC_FLAG enumeration [RDP], RDPSRAPI_KBD_SYNC_FLAG_CAPS_LOCK, RDPSRAPI_KBD_SYNC_FLAG_KANA_LOCK, RDPSRAPI_KBD_SYNC_FLAG_NUM_LOCK, RDPSRAPI_KBD_SYNC_FLAG_SCROLL_LOCK, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0011, rdp.rdpsrapi_kbd_sync_flag, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_CAPS_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_KANA_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_NUM_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_SCROLL_LOCK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RdpEncomAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: RdpEncomAPI.tlb
+tech.root: 
+req.typenames: RDPSRAPI_KBD_SYNC_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	RdpEncomAPI.tlb
+api_name:
+-	RDPSRAPI_KBD_SYNC_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsTscAx.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_rdpencomapi_0000_0000_0011 enumeration

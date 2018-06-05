@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comadmin.ICOMAdminCatalog2.CreateServiceForApplication
+title: ICOMAdminCatalog2::CreateServiceForApplication
+author: windows-sdk-content
+description: Configures a COM+ application to run as a Windows service.
+old-location: cos\icomadmincatalog2_createserviceforapplication.htm
+old-project: cossdk
+ms.assetid: 9ffc7366-c47a-487e-b40c-bdcea5dbf052
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: CreateServiceForApplication, CreateServiceForApplication method [COM+], CreateServiceForApplication method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CreateServiceForApplication method, ICOMAdminCatalog2.CreateServiceForApplication, ICOMAdminCatalog2::CreateServiceForApplication, _cos_icomadmincatalog2_CreateServiceForApplication, comadmin/ICOMAdminCatalog2::CreateServiceForApplication, cos.icomadmincatalog2_createserviceforapplication
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ComAdmin.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMAdminTxIsolationLevelOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComAdmin.h
+api_name:
+-	ICOMAdminCatalog2.CreateServiceForApplication
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICOMAdminCatalog2::CreateServiceForApplication

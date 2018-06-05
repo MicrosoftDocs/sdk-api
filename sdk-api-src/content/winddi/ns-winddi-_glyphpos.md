@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi._GLYPHPOS
+title: "_GLYPHPOS"
+author: windows-sdk-content
+description: The GLYPHPOS structure is used by GDI to provide a graphics driver with a glyph's description and position.
+old-location: display\glyphpos.htm
+old-project: display
+ms.assetid: 1eb80e7a-93f5-474c-bed9-5b19f6657788
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PGLYPHPOS, GLYPHPOS, GLYPHPOS structure [Display Devices], PGLYPHPOS, PGLYPHPOS structure pointer [Display Devices], _GLYPHPOS, display.glyphpos, grstrcts_52c5687f-a40b-43c6-8513-accd4c72def5.xml, winddi/GLYPHPOS, winddi/PGLYPHPOS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GLYPHPOS, *PGLYPHPOS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	GLYPHPOS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _GLYPHPOS structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:d3dcommon.ID3DInclude
+title: ID3DInclude
+author: windows-sdk-content
+description: ID3DInclude is an include interface that the user implements to allow an application to call user-overridable methods for opening and closing shader #include files.
+old-location: direct3d11\id3dinclude.htm
+old-project: direct3d11
+ms.assetid: 2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: ID3DInclude, ID3DInclude interface [Direct3D 11], ID3DInclude interface [Direct3D 11],described, d3dcommon/ID3DInclude, direct3d11.id3dinclude
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: d3dcommon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_SHADER_VARIABLE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3DCompiler_47.dll
+api_name:
+-	ID3DInclude
+product: Windows
+targetos: Windows
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 ---
 
 # ID3DInclude interface

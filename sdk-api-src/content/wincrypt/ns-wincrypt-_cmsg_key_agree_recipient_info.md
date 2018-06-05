@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CMSG_KEY_AGREE_RECIPIENT_INFO
+title: "_CMSG_KEY_AGREE_RECIPIENT_INFO"
+author: windows-sdk-content
+description: Contains information used for key agreement algorithms.
+old-location: security\cmsg_key_agree_recipient_info.htm
+old-project: SecCrypto
+ms.assetid: d29d04d6-065e-4bb7-843b-f563643eeb4c
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCMSG_KEY_AGREE_RECIPIENT_INFO, CMSG_KEY_AGREE_ORIGINATOR_CERT, CMSG_KEY_AGREE_ORIGINATOR_PUBLIC_KEY, CMSG_KEY_AGREE_RECIPIENT_INFO, CMSG_KEY_AGREE_RECIPIENT_INFO structure [Security], PCMSG_KEY_AGREE_RECIPIENT_INFO, PCMSG_KEY_AGREE_RECIPIENT_INFO structure pointer [Security], _CMSG_KEY_AGREE_RECIPIENT_INFO, _crypto2_cmsg_key_agree_recipient_info, security.cmsg_key_agree_recipient_info, wincrypt/CMSG_KEY_AGREE_RECIPIENT_INFO, wincrypt/PCMSG_KEY_AGREE_RECIPIENT_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CMSG_KEY_AGREE_RECIPIENT_INFO, *PCMSG_KEY_AGREE_RECIPIENT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CMSG_KEY_AGREE_RECIPIENT_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CMSG_KEY_AGREE_RECIPIENT_INFO structure

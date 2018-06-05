@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3cc.IEnumAgentHandler.Skip
+title: IEnumAgentHandler::Skip
+author: windows-sdk-content
+description: The Skip method skips over the next specified number of elements in the enumeration sequence.
+old-location: tapi3\ienumagenthandler_skip.htm
+old-project: Tapi
+ms.assetid: cf6b7003-13f1-4203-b341-2c9796cffdd2
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IEnumAgentHandler interface [TAPI 2.2],Skip method, IEnumAgentHandler.Skip, IEnumAgentHandler::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumAgentHandler interface, _tapi3_ienumagenthandler_skip, tapi3.ienumagenthandler_skip, tapi3cc/IEnumAgentHandler::Skip
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3cc.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AGENT_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	IEnumAgentHandler.Skip
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IEnumAgentHandler::Skip

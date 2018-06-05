@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITDetectTone.put_Frequency
+title: ITDetectTone::put_Frequency
+author: windows-sdk-content
+description: The put_Frequency method sets the frequency of the tone for which the TAPI Server should generate a tone event.
+old-location: tapi3\itdetecttone_put_frequency.htm
+old-project: Tapi
+ms.assetid: 83895e55-61ab-464b-bb85-e81d15dd96e1
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITDetectTone interface [TAPI 2.2],put_Frequency method, ITDetectTone.put_Frequency, ITDetectTone::put_Frequency, _tapi3_itdetecttone_put_frequency, put_Frequency, put_Frequency method [TAPI 2.2], put_Frequency method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_put_frequency, tapi3if/ITDetectTone::put_Frequency
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITDetectTone.put_Frequency
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITDetectTone::put_Frequency

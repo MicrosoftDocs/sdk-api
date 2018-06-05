@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfapi.MFInitMediaTypeFromVideoInfoHeader2
+title: MFInitMediaTypeFromVideoInfoHeader2 function
+author: windows-sdk-content
+description: Initializes a media type from a DirectShow VIDEOINFOHEADER2 structure.
+old-location: mf\mfinitmediatypefromvideoinfoheader2.htm
+old-project: medfound
+ms.assetid: 4077ae40-75b2-4c45-b62e-740e216ebf89
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 4077ae40-75b2-4c45-b62e-740e216ebf89, MFInitMediaTypeFromVideoInfoHeader2, MFInitMediaTypeFromVideoInfoHeader2 function [Media Foundation], mf.mfinitmediatypefromvideoinfoheader2, mfapi/MFInitMediaTypeFromVideoInfoHeader2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	mfplat.dll
+api_name:
+-	MFInitMediaTypeFromVideoInfoHeader2
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MFInitMediaTypeFromVideoInfoHeader2 function

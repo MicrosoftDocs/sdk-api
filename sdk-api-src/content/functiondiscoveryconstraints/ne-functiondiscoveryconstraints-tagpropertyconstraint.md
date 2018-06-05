@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:functiondiscoveryconstraints.tagPropertyConstraint
+title: tagPropertyConstraint
+author: windows-sdk-content
+description: Qualifies the filter conditions used for searching for function instances.
+old-location: ncd\propertyconstraint.htm
+old-project: FunDisc
+ms.assetid: 59a3d957-0720-4bd9-b240-512b9cca3c90
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: PropertyConstraint, PropertyConstraint enumeration, QC_CONTAINS, QC_DOESNOTEXIST, QC_EQUALS, QC_EXISTS, QC_GREATERTHAN, QC_GREATERTHANOREQUAL, QC_LESSTHAN, QC_LESSTHANOREQUAL, QC_NOTEQUAL, QC_STARTSWITH, functiondiscoveryconstraints/PropertyConstraint, functiondiscoveryconstraints/QC_CONTAINS, functiondiscoveryconstraints/QC_DOESNOTEXIST, functiondiscoveryconstraints/QC_EQUALS, functiondiscoveryconstraints/QC_EXISTS, functiondiscoveryconstraints/QC_GREATERTHAN, functiondiscoveryconstraints/QC_GREATERTHANOREQUAL, functiondiscoveryconstraints/QC_LESSTHAN, functiondiscoveryconstraints/QC_LESSTHANOREQUAL, functiondiscoveryconstraints/QC_NOTEQUAL, functiondiscoveryconstraints/QC_STARTSWITH, ncd.propertyconstraint, tagPropertyConstraint
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: functiondiscoveryconstraints.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FunctionDiscoveryAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PropertyConstraint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	FunctionDiscoveryConstraints.h
+api_name:
+-	PropertyConstraint
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # tagPropertyConstraint enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wtsapi32._WTS_SESSION_ADDRESS
+title: "_WTS_SESSION_ADDRESS"
+author: windows-sdk-content
+description: Contains the virtual IP address assigned to a session.
+old-location: termserv\wts_session_address.htm
+old-project: TermServ
+ms.assetid: 4a8846a3-2bad-4ea1-b614-aca18484ea86
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PWTS_SESSION_ADDRESS, PWTS_SESSION_ADDRESS, PWTS_SESSION_ADDRESS structure pointer [Remote Desktop Services], WTS_SESSION_ADDRESS, WTS_SESSION_ADDRESS structure [Remote Desktop Services], _WTS_SESSION_ADDRESS, termserv.wts_session_address, wtsapi32/PWTS_SESSION_ADDRESS, wtsapi32/WTS_SESSION_ADDRESS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_SESSION_ADDRESS, *PWTS_SESSION_ADDRESS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsapi32.h
+api_name:
+-	WTS_SESSION_ADDRESS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTS_SESSION_ADDRESS structure

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:winddi.WNDOBJ_vSetConsumer
+title: WNDOBJ_vSetConsumer function
+author: windows-sdk-content
+description: The WNDOBJ_vSetConsumer function sets a driver-defined value in the pvConsumer field of the specified WNDOBJ structure.
+old-location: display\wndobj_vsetconsumer.htm
+old-project: display
+ms.assetid: c7b550b8-1a3f-4d69-93d1-241044cb4bbd
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: WNDOBJ_vSetConsumer, WNDOBJ_vSetConsumer function [Display Devices], display.wndobj_vsetconsumer, gdifncs_759188da-41cc-45c8-845f-80d23e60e88b.xml, winddi/WNDOBJ_vSetConsumer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Win32k.sys
+api_name:
+-	WNDOBJ_vSetConsumer
+product: Windows
+targetos: Windows
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WNDOBJ_vSetConsumer function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmreports.IFsrmFileManagementJobManager.GetFileManagementJob
+title: IFsrmFileManagementJobManager::GetFileManagementJob
+author: windows-sdk-content
+description: Gets the specified file management job.
+old-location: fsrm\ifsrmfilemanagementjobmanager_getfilemanagementjob.htm
+old-project: Fsrm
+ms.assetid: 106c5237-94bc-4556-aa65-247697133810
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmFileManagementJobManager class [File Server Resource Manager],GetFileManagementJob method, GetFileManagementJob, GetFileManagementJob method [File Server Resource Manager], GetFileManagementJob method [File Server Resource Manager],FsrmFileManagementJobManager class, GetFileManagementJob method [File Server Resource Manager],IFsrmFileManagementJobManager interface, IFsrmFileManagementJobManager interface [File Server Resource Manager],GetFileManagementJob method, IFsrmFileManagementJobManager.GetFileManagementJob, IFsrmFileManagementJobManager::GetFileManagementJob, fs.ifsrmfilemanagementjobmanager_getfilemanagementjob, fsrm.ifsrmfilemanagementjobmanager_getfilemanagementjob, fsrmreports/IFsrmFileManagementJobManager::GetFileManagementJob
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmreports.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileManagementJobManager.GetFileManagementJob
+-	FsrmFileManagementJobManager.GetFileManagementJob
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileManagementJobManager::GetFileManagementJob

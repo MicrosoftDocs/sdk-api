@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:audioenginebaseapo.APOInitSystemEffects2
+title: APOInitSystemEffects2
+author: windows-sdk-content
+description: The APOInitSystemEffects2 structure was introduced with Windows 8.1, to make it possible to provide additional initialization context to the audio processing object (APO) for initialization.
+old-location: audio\apoinitsystemeffects2.htm
+old-project: audio
+ms.assetid: 87E59FCE-1965-4B23-B1F5-F54FEDD5A83E
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: APOInitSystemEffects2, APOInitSystemEffects2 structure [Audio Devices], PAPOInitSystemEffects2, PAPOInitSystemEffects2 structure pointer [Audio Devices], audio.apoinitsystemeffects2, audioenginebaseapo/APOInitSystemEffects2, audioenginebaseapo/PAPOInitSystemEffects2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: audioenginebaseapo.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APOInitSystemEffects2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Audioenginebaseapo.h
+api_name:
+-	APOInitSystemEffects2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: All levels.
 ---
 
 # APOInitSystemEffects2 structure

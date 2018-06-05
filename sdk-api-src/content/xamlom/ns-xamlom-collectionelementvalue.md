@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:xamlom.CollectionElementValue
+title: CollectionElementValue
+author: windows-sdk-content
+description: Represents an element in a collection.
+old-location: xaml_diagnostics\collectionelementvalue.htm
+old-project: xaml_diagnostics
+ms.assetid: 0FE09913-7EAF-4335-AF41-F83FEBCAF12E
+ms.author: windowssdkdev
+ms.date: 03/19/2018
+ms.keywords: CollectionElementValue, CollectionElementValue structure, PCollectionElementValue, PCollectionElementValue structure pointer, xaml_diagnostics.collectionelementvalue, xamlom/CollectionElementValue, xamlom/PCollectionElementValue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: xamlom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XamlOM.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CollectionElementValue
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	xamlom.h
+api_name:
+-	CollectionElementValue
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # CollectionElementValue structure

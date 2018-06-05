@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wbemcli.tag_WBEM_STATUS_TYPE
+title: tag_WBEM_STATUS_TYPE
+author: windows-sdk-content
+description: Describes the status of an asynchronous operation.
+old-location: wmi\wbem_status_type.htm
+old-project: WmiSdk
+ms.assetid: 3AD9FAB6-57A3-4BD8-8E13-6BEF0868681A
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: WBEM_STATUS_COMPLETE, WBEM_STATUS_LOGGING_INFORMATION, WBEM_STATUS_LOGGING_INFORMATION_ESS, WBEM_STATUS_LOGGING_INFORMATION_HOST, WBEM_STATUS_LOGGING_INFORMATION_PROVIDER, WBEM_STATUS_LOGGING_INFORMATION_REPOSITORY, WBEM_STATUS_PROGRESS, WBEM_STATUS_REQUIREMENTS, WBEM_STATUS_TYPE, WBEM_STATUS_TYPE enumeration [Windows Management Instrumentation], tag_WBEM_STATUS_TYPE, wbemcli/WBEM_STATUS_COMPLETE, wbemcli/WBEM_STATUS_LOGGING_INFORMATION, wbemcli/WBEM_STATUS_LOGGING_INFORMATION_ESS, wbemcli/WBEM_STATUS_LOGGING_INFORMATION_HOST, wbemcli/WBEM_STATUS_LOGGING_INFORMATION_PROVIDER, wbemcli/WBEM_STATUS_LOGGING_INFORMATION_REPOSITORY, wbemcli/WBEM_STATUS_PROGRESS, wbemcli/WBEM_STATUS_REQUIREMENTS, wbemcli/WBEM_STATUS_TYPE, wmi.wbem_status_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wbemcli.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WBEM_STATUS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wbemcli.h
+api_name:
+-	WBEM_STATUS_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tag_WBEM_STATUS_TYPE enumeration

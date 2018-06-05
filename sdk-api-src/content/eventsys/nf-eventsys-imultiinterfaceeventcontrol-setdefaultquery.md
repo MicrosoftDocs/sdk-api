@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:eventsys.IMultiInterfaceEventControl.SetDefaultQuery
+title: IMultiInterfaceEventControl::SetDefaultQuery
+author: windows-sdk-content
+description: Establishes a default query to be used when a publisher filter is not associated with an event method.
+old-location: cos\imultiinterfaceeventcontrol_setdefaultquery.htm
+old-project: cossdk
+ms.assetid: 31d544d4-8cac-46ae-9db7-c5b366ac6b2f
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IMultiInterfaceEventControl interface [COM+],SetDefaultQuery method, IMultiInterfaceEventControl.SetDefaultQuery, IMultiInterfaceEventControl::SetDefaultQuery, SetDefaultQuery, SetDefaultQuery method [COM+], SetDefaultQuery method [COM+],IMultiInterfaceEventControl interface, _cos_IMultiInterfaceEventControl_SetDefaultQuery, cos.imultiinterfaceeventcontrol_setdefaultquery, eventsys/IMultiInterfaceEventControl::SetDefaultQuery
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: eventsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: EventSys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EOC_ChangeType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EventSys.h
+api_name:
+-	IMultiInterfaceEventControl.SetDefaultQuery
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IMultiInterfaceEventControl::SetDefaultQuery

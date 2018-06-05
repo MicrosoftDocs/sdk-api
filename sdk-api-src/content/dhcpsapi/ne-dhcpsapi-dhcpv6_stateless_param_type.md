@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dhcpsapi.DHCPV6_STATELESS_PARAM_TYPE
+title: DHCPV6_STATELESS_PARAM_TYPE
+author: windows-sdk-content
+description: The DHCPV6_STATELESS_PARAM_TYPE enumeration defines a DHCPv6 stateless client inventory configuration parameter type.
+old-location: dhcp\dhcpv6_stateless_param_type.htm
+old-project: DHCP
+ms.assetid: 8670c69b-1fc0-4b60-b5cc-a616d56c9319
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DHCPV6_STATELESS_PARAM_TYPE, DHCPV6_STATELESS_PARAM_TYPE enumeration [DHCP], DhcpStatelessPurgeInterval, DhcpStatelessStatus, dhcp.dhcpv6_stateless_param_type, dhcpsapi/DHCPV6_STATELESS_PARAM_TYPE, dhcpsapi/DhcpStatelessPurgeInterval, dhcpsapi/DhcpStatelessStatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCPV6_STATELESS_PARAM_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dhcpsapi.h
+api_name:
+-	DHCPV6_STATELESS_PARAM_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DHCPV6_STATELESS_PARAM_TYPE enumeration

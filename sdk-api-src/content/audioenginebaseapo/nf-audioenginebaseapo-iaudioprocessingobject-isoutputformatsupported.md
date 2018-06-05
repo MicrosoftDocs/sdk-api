@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:audioenginebaseapo.IAudioProcessingObject.IsOutputFormatSupported
+title: IAudioProcessingObject::IsOutputFormatSupported
+author: windows-sdk-content
+description: The IsOutputFormatSupported method is used to verify that a specific output format is supported.
+old-location: audio\iaudioprocessingobject_isoutputformatsupported.htm
+old-project: audio
+ms.assetid: 19609332-9fc2-4a21-b947-f103a1cf2675
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IAudioProcessingObject interface [Audio Devices],IsOutputFormatSupported method, IAudioProcessingObject.IsOutputFormatSupported, IAudioProcessingObject::IsOutputFormatSupported, IsOutputFormatSupported, IsOutputFormatSupported method [Audio Devices], IsOutputFormatSupported method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_isoutputformatsupported, audio_syseffects_r_542151d0-145f-4504-a282-e6473f1ae3c7.xml, audioenginebaseapo/IAudioProcessingObject::IsOutputFormatSupported
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioenginebaseapo.h
+req.include-header: 
+req.target-type: Universal
+req.target-min-winverclnt: Available with Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APO_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioenginebaseapo.idl
+-	Audioenginebaseapo.idl.dll
+api_name:
+-	IAudioProcessingObject.IsOutputFormatSupported
+product: Windows
+targetos: Windows
+req.lib: Audioenginebaseapo.idl
+req.dll: 
+req.irql: All Levels
 ---
 
 # IAudioProcessingObject::IsOutputFormatSupported

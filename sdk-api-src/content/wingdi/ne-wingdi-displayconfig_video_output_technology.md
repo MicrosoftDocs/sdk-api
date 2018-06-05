@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:wingdi.DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+title: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+author: windows-sdk-content
+description: The DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY enumeration specifies the target's connector type.
+old-location: display\displayconfig_video_output_technology.htm
+old-project: display
+ms.assetid: f8c2095a-d67e-42ed-b615-b5e0e0e0d507
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CCD_Enumerations_311f4c31-4f6c-42d2-945f-5d9983488a4e.xml, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_COMPONENT_VIDEO, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_COMPOSITE_VIDEO, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_DISPLAYPORT_EMBEDDED, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_DISPLAYPORT_EXTERNAL, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_DVI, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_D_JPN, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_FORCE_UINT32, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_HD15, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_HDMI, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_INTERNAL, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_LVDS, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_MIRACAST, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_OTHER, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_SDI, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_SDTVDONGLE, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_SVIDEO, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_UDI_EMBEDDED, DISPLAYCONFIG_OUTPUT_TECHNOLOGY_UDI_EXTERNAL, DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY, DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY enumeration [Display Devices], display.displayconfig_video_output_technology, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_COMPONENT_VIDEO, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_COMPOSITE_VIDEO, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_DISPLAYPORT_EMBEDDED, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_DISPLAYPORT_EXTERNAL, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_DVI, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_D_JPN, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_FORCE_UINT32, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_HD15, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_HDMI, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_INTERNAL, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_LVDS, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_MIRACAST, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_OTHER, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_SDI, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_SDTVDONGLE, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_SVIDEO, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_UDI_EMBEDDED, wingdi/DISPLAYCONFIG_OUTPUT_TECHNOLOGY_UDI_EXTERNAL, wingdi/DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wingdi.h
+api_name:
+-	DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY enumeration

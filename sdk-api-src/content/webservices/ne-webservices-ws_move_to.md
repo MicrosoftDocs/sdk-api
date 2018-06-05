@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_MOVE_TO
+title: WS_MOVE_TO
+author: windows-sdk-content
+description: This enumeration identifies the various ways to move about an xml document.
+old-location: wsw\ws_move_to.htm
+old-project: wsw
+ms.assetid: 9d1623cc-7a88-4a84-ba75-decc4de9fe00
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_MOVE_TO, WS_MOVE_TO enumeration [Web Services for Windows], WS_MOVE_TO_BOF, WS_MOVE_TO_CHILD_ELEMENT, WS_MOVE_TO_CHILD_NODE, WS_MOVE_TO_END_ELEMENT, WS_MOVE_TO_EOF, WS_MOVE_TO_FIRST_NODE, WS_MOVE_TO_NEXT_ELEMENT, WS_MOVE_TO_NEXT_NODE, WS_MOVE_TO_PARENT_ELEMENT, WS_MOVE_TO_PREVIOUS_ELEMENT, WS_MOVE_TO_PREVIOUS_NODE, WS_MOVE_TO_ROOT_ELEMENT, webservices/WS_MOVE_TO, webservices/WS_MOVE_TO_BOF, webservices/WS_MOVE_TO_CHILD_ELEMENT, webservices/WS_MOVE_TO_CHILD_NODE, webservices/WS_MOVE_TO_END_ELEMENT, webservices/WS_MOVE_TO_EOF, webservices/WS_MOVE_TO_FIRST_NODE, webservices/WS_MOVE_TO_NEXT_ELEMENT, webservices/WS_MOVE_TO_NEXT_NODE, webservices/WS_MOVE_TO_PARENT_ELEMENT, webservices/WS_MOVE_TO_PREVIOUS_ELEMENT, webservices/WS_MOVE_TO_PREVIOUS_NODE, webservices/WS_MOVE_TO_ROOT_ELEMENT, wsw.ws_move_to
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_MOVE_TO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_MOVE_TO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_MOVE_TO enumeration

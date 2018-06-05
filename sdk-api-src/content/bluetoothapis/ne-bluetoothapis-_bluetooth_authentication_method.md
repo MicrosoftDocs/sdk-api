@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:bluetoothapis._BLUETOOTH_AUTHENTICATION_METHOD
+title: "_BLUETOOTH_AUTHENTICATION_METHOD"
+author: windows-sdk-content
+description: BLUETOOTH_AUTHENTICATION_METHOD enumeration defines the supported authentication types during device pairing.
+old-location: bluetooth\bluetooth_authentication_method.htm
+old-project: Bluetooth
+ms.assetid: 2374df2c-2f50-4a06-aaad-384d81b067c5
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PBLUETOOTH_AUTHENTICATION_METHOD, BLUETOOTH_AUTHENTICATION_METHOD, BLUETOOTH_AUTHENTICATION_METHOD enumeration [Bluetooth], BLUETOOTH_AUTHENTICATION_METHOD_LEGACY, BLUETOOTH_AUTHENTICATION_METHOD_NUMERIC_COMPARISON, BLUETOOTH_AUTHENTICATION_METHOD_OOB, BLUETOOTH_AUTHENTICATION_METHOD_PASSKEY, BLUETOOTH_AUTHENTICATION_METHOD_PASSKEY_NOTIFICATION, _BLUETOOTH_AUTHENTICATION_METHOD, bluetooth.bluetooth_authentication_method, bluetoothapis/BLUETOOTH_AUTHENTICATION_METHOD, bluetoothapis/BLUETOOTH_AUTHENTICATION_METHOD_LEGACY, bluetoothapis/BLUETOOTH_AUTHENTICATION_METHOD_NUMERIC_COMPARISON, bluetoothapis/BLUETOOTH_AUTHENTICATION_METHOD_OOB, bluetoothapis/BLUETOOTH_AUTHENTICATION_METHOD_PASSKEY, bluetoothapis/BLUETOOTH_AUTHENTICATION_METHOD_PASSKEY_NOTIFICATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: bluetoothapis.h
+req.include-header: Bthsdpdef.h, BluetoothAPIs.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BLUETOOTH_AUTHENTICATION_METHOD, *PBLUETOOTH_AUTHENTICATION_METHOD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	BluetoothAPIs.h
+api_name:
+-	BLUETOOTH_AUTHENTICATION_METHOD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BLUETOOTH_AUTHENTICATION_METHOD enumeration

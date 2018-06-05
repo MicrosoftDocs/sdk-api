@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi._COLORINFO
+title: "_COLORINFO"
+author: windows-sdk-content
+description: The COLORINFO structure defines a device's colors in CIE coordinate space.
+old-location: display\colorinfo.htm
+old-project: display
+ms.assetid: bbada28c-d855-4197-acf8-2a070423ddfe
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCOLORINFO, COLORINFO, COLORINFO structure [Display Devices], PCOLORINFO, PCOLORINFO structure pointer [Display Devices], _COLORINFO, display.colorinfo, grstrcts_1e247041-c753-4925-a86c-fbd246410a72.xml, winddi/COLORINFO, winddi/PCOLORINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COLORINFO, *PCOLORINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	COLORINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _COLORINFO structure

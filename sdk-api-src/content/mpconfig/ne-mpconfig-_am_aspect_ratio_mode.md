@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:mpconfig._AM_ASPECT_RATIO_MODE
+title: "_AM_ASPECT_RATIO_MODE"
+author: windows-sdk-content
+description: Specifies the aspect ratio of a video image in a display window.
+old-location: dshow\am_aspect_ratio_mode.htm
+old-project: DirectShow
+ms.assetid: 4f7c6220-6231-4bb1-aea6-7f1581b04d3a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AM_ARMODE_CROP, AM_ARMODE_LETTER_BOX, AM_ARMODE_STRETCHED, AM_ARMODE_STRETCHED_AS_PRIMARY, AM_ASPECT_RATIO_MODE, AM_ASPECT_RATIO_MODE , AM_ASPECT_RATIO_MODE enumeration [DirectShow], AM_ASPECT_RATIO_MODEEnumeration, _AM_ASPECT_RATIO_MODE, dshow.am_aspect_ratio_mode, mpconfig/AM_ARMODE_CROP, mpconfig/AM_ARMODE_LETTER_BOX, mpconfig/AM_ARMODE_STRETCHED, mpconfig/AM_ARMODE_STRETCHED_AS_PRIMARY, mpconfig/AM_ASPECT_RATIO_MODE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mpconfig.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_ASPECT_RATIO_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mpconfig.h
+api_name:
+-	AM_ASPECT_RATIO_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _AM_ASPECT_RATIO_MODE enumeration

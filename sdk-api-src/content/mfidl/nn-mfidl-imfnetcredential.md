@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:mfidl.IMFNetCredential
+title: IMFNetCredential
+author: windows-sdk-content
+description: Sets and retrieves user-name and password information for authentication purposes.
+old-location: mf\imfnetcredential.htm
+old-project: medfound
+ms.assetid: d202e7bc-9ce0-4861-8552-5a4d599b1661
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFNetCredential, IMFNetCredential interface [Media Foundation], IMFNetCredential interface [Media Foundation],described, d202e7bc-9ce0-4861-8552-5a4d599b1661, mf.imfnetcredential, mfidl/IMFNetCredential
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFNetCredential
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: Mfplat.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFNetCredential interface

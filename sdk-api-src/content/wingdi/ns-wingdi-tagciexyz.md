@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagCIEXYZ
+title: tagCIEXYZ
+author: windows-sdk-content
+description: The CIEXYZ structure contains the x,y, and z coordinates of a specific color in a specified color space.
+old-location: wcs\ciexyz.htm
+old-project: WCS
+ms.assetid: 3735c143-8eb3-4b91-a81e-5bc6bda1dfaa
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPCIEXYZ, CIEXYZ, CIEXYZ FAR* LPCIEXYZ, CIEXYZ FAR* LPCIEXYZ structure [Windows Color System], CIEXYZ structure [Windows Color System], _color_CIEXYZ_str, tagCIEXYZ, wcs.ciexyz, wingdi/CIEXYZ, wingdi/CIEXYZ FAR* LPCIEXYZ"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CIEXYZ
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	CIEXYZ
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagCIEXYZ structure

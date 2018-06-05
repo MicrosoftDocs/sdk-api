@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:sspi._SecPkgContext_NativeNamesA
+title: "_SecPkgContext_NativeNamesA"
+author: windows-sdk-content
+description: The SecPkgContext_NativeNames structure returns the client and server principal names from the outbound ticket. This structure is valid only for client outbound tickets. This structure is returned by QueryContextAttributes (General).
+old-location: security\secpkgcontext_nativenames.htm
+old-project: SecAuthN
+ms.assetid: f935093f-5661-4ced-94f1-c4b21c3b9f69
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSecPkgContext_NativeNamesA, PSecPkgContext_NativeNames, PSecPkgContext_NativeNames structure pointer [Security], SecPkgContext_NativeNames, SecPkgContext_NativeNames structure [Security], SecPkgContext_NativeNamesA, _SecPkgContext_NativeNamesA, _SecPkgContext_NativeNamesW, security.secpkgcontext_nativenames, sspi/PSecPkgContext_NativeNames, sspi/SecPkgContext_NativeNames"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: sspi.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SecPkgContext_NativeNamesA, *PSecPkgContext_NativeNamesA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Sspi.h
+api_name:
+-	SecPkgContext_NativeNames
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_NativeNamesA structure

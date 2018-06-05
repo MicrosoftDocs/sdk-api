@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif._AM_DVD_GRAPH_FLAGS
+title: "_AM_DVD_GRAPH_FLAGS"
+author: windows-sdk-content
+description: The AM_DVD_GRAPH_FLAGS enumeration specifies how the DVD Navigator builds a DVD playback graph. These flags are used with the IDvdGraphBuilder::RenderDvdVideoVolume method.
+old-location: dshow\am_dvd_graph_flags.htm
+old-project: DirectShow
+ms.assetid: 2a0ec036-d34c-407e-9b6d-c3bd3881a0af
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AM_DVD_DO_NOT_CLEAR, AM_DVD_EVR_ONLY, AM_DVD_GRAPH_FLAGS, AM_DVD_GRAPH_FLAGS , AM_DVD_GRAPH_FLAGS enumeration [DirectShow], AM_DVD_GRAPH_FLAGSEnumeration, AM_DVD_HWDEC_ONLY, AM_DVD_HWDEC_PREFER, AM_DVD_NOVPE, AM_DVD_SWDEC_ONLY, AM_DVD_SWDEC_PREFER, AM_DVD_VMR9_ONLY, _AM_DVD_GRAPH_FLAGS, dshow.am_dvd_graph_flags, strmif/AM_DVD_DO_NOT_CLEAR, strmif/AM_DVD_EVR_ONLY, strmif/AM_DVD_GRAPH_FLAGS, strmif/AM_DVD_HWDEC_ONLY, strmif/AM_DVD_HWDEC_PREFER, strmif/AM_DVD_NOVPE, strmif/AM_DVD_SWDEC_ONLY, strmif/AM_DVD_SWDEC_PREFER, strmif/AM_DVD_VMR9_ONLY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_DVD_GRAPH_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	AM_DVD_GRAPH_FLAGS
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # _AM_DVD_GRAPH_FLAGS enumeration

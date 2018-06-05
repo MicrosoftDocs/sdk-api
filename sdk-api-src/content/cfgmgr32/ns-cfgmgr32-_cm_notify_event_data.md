@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:cfgmgr32._CM_NOTIFY_EVENT_DATA
+title: "_CM_NOTIFY_EVENT_DATA"
+author: windows-sdk-content
+description: This is a device notification event data structure.
+old-location: devinst\cm_notify_event_data.htm
+old-project: devinst
+ms.assetid: 61bd4ea3-9910-4feb-a330-3e0bcdac1ce2
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PCM_NOTIFY_EVENT_DATA, CM_NOTIFY_EVENT_DATA, CM_NOTIFY_EVENT_DATA structure [Device and Driver Installation], PCM_NOTIFY_EVENT_DATA, PCM_NOTIFY_EVENT_DATA structure pointer [Device and Driver Installation], _CM_NOTIFY_EVENT_DATA, cfgmgr32/CM_NOTIFY_EVENT_DATA, cfgmgr32/PCM_NOTIFY_EVENT_DATA, devinst.cm_notify_event_data"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cfgmgr32.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_EVENT_DATA, *PCM_NOTIFY_EVENT_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Cfgmgr32.h
+api_name:
+-	CM_NOTIFY_EVENT_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CM_NOTIFY_EVENT_DATA structure

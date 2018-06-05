@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:callobj.ICallFrameEvents.OnCall
+title: ICallFrameEvents::OnCall
+author: windows-sdk-content
+description: Informs the event sink if it receives a method call on the interceptor. The sink is provided with an ICallFrame instance which is bound to the intercepted incoming method invocation. Through that sink the call frame can be manipulated in various ways.
+old-location: com\icallframeevents_oncall.htm
+old-project: com
+ms.assetid: bdccc4a7-e408-4186-8cc0-b14feacfbf04
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: ICallFrameEvents interface [COM],OnCall method, ICallFrameEvents.OnCall, ICallFrameEvents::OnCall, OnCall, OnCall method [COM], OnCall method [COM],ICallFrameEvents interface, _com_icallframeevents_oncall, callobj/ICallFrameEvents::OnCall, com.icallframeevents_oncall
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: callobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Callobj.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CALLFRAME_COPY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Callobj.h
+api_name:
+-	ICallFrameEvents.OnCall
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICallFrameEvents::OnCall

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rpcdce.RpcCancelThread
+title: RpcCancelThread function
+author: windows-sdk-content
+description: The RpcCancelThread function cancels a thread. The RpcCancelThread function should not be used to cancel asynchronous RPC calls; instead, use the RpcAsyncCancelCall function to cancel an asynchronous RPC call.
+old-location: rpc\rpccancelthread.htm
+old-project: Rpc
+ms.assetid: 4315562e-674b-40a4-a2d9-133e6ab27c25
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: RpcCancelThread, RpcCancelThread function [RPC], _rpc_rpccancelthread, rpc.rpccancelthread, rpcdce/RpcCancelThread
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rpcdce.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rpcrt4.dll
+api_name:
+-	RpcCancelThread
+product: Windows
+targetos: Windows
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RpcCancelThread function

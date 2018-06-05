@@ -1,22 +1,27 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:upnp.IUPnPDeviceFinderAddCallbackWithInterface
+title: IUPnPDeviceFinderAddCallbackWithInterface
+author: windows-sdk-content
+description: The IUPnPDeviceFinderAddCallbackWithInterface interface allows the UPnP framework to communicate to an application:\_
+
+The devices found during an asynchronous search.
+The network interface through which the device advertisement came.
+
+The IUPnPDeviceFinderAddCallbackWithInterface interface allows the UPnP framework to communicate to an application:
+old-location: upnp\iupnpdevicefinderaddcallbackwithinterface.htm
+old-project: UPnP
+ms.assetid: b0d78121-35d0-4f33-b1e9-19e0b2c5b78f
+ms.author: windowssdkdev
+ms.date: 04/25/2018
+ms.keywords: IUPnPDeviceFinderAddCallbackWithInterface, IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs], IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs],described, upnp.iupnpdevicefinderaddcallbackwithinterface, upnp/IUPnPDeviceFinderAddCallbackWithInterface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: upnp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +31,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Upnp.dll
+api_name:
+-	IUPnPDeviceFinderAddCallbackWithInterface
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUPnPDeviceFinderAddCallbackWithInterface interface

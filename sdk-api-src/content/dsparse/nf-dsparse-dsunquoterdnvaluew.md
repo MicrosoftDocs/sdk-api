@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dsparse.DsUnquoteRdnValueW
+title: DsUnquoteRdnValueW function
+author: windows-sdk-content
+description: The DsUnquoteRdnValue function is a client call that converts a quoted RDN value back to an unquoted RDN value.
+old-location: ad\dsunquoterdnvalue.htm
+old-project: AD
+ms.assetid: 6e3dd220-ba98-46b5-8522-93cbe2029aa4
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DsUnquoteRdnValue, DsUnquoteRdnValue function [Active Directory], DsUnquoteRdnValueA, DsUnquoteRdnValueW, ERROR_BUFFER_OVERFLOW, ERROR_SUCCESS, _glines_dsunquoterdnvalue, ad.dsunquoterdnvalue, dsparse/DsUnquoteRdnValue, dsparse/DsUnquoteRdnValueA, dsparse/DsUnquoteRdnValueW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dsparse.h
+req.include-header: Ntdsapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DsUnquoteRdnValueW (Unicode) and DsUnquoteRdnValueA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_MANGLE_FOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdsapi.dll
+api_name:
+-	DsUnquoteRdnValue
+-	DsUnquoteRdnValueA
+-	DsUnquoteRdnValueW
+product: Windows
+targetos: Windows
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DsUnquoteRdnValueW function

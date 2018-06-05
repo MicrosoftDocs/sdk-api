@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:restartmanager.RmEndSession
+title: RmEndSession function
+author: windows-sdk-content
+description: Ends the Restart Manager session.
+old-location: rstmgr\rmendsession.htm
+old-project: RstMgr
+ms.assetid: 2681cb69-a66f-4aec-a164-98d2d28f9908
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: RmEndSession, RmEndSession function [Restart Mgr], restartmanager/RmEndSession, rstmgr.rmendsession
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: restartmanager.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RM_SHUTDOWN_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rstrtmgr.dll
+api_name:
+-	RmEndSession
+product: Windows
+targetos: Windows
+req.lib: Rstrtmgr.lib
+req.dll: Rstrtmgr.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RmEndSession function

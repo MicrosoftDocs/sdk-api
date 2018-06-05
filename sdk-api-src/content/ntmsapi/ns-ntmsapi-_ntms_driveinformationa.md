@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntmsapi._NTMS_DRIVEINFORMATIONA
+title: "_NTMS_DRIVEINFORMATIONA"
+author: windows-sdk-content
+description: The NTMS_DRIVEINFORMATION structure defines properties specific to a drive object.
+old-location: fs\ntms_driveinformation.htm
+old-project: Rsm
+ms.assetid: a095a8f1-a059-4aed-88da-a139286993b5
+ms.author: windowssdkdev
+ms.date: 04/05/2018
+ms.keywords: NTMS_DRIVEINFORMATION, NTMS_DRIVEINFORMATION structure [Files], NTMS_DRIVEINFORMATIONA, NTMS_DRIVESTATE_BEING_CLEANED, NTMS_DRIVESTATE_DISMOUNTABLE, NTMS_DRIVESTATE_DISMOUNTED, NTMS_DRIVESTATE_LOADED, NTMS_DRIVESTATE_MOUNTED, NTMS_DRIVESTATE_UNLOADED, _NTMS_DRIVEINFORMATIONA, _NTMS_DRIVEINFORMATIONW, _zaw_ntms_driveinformation, base.ntms_driveinformation, fs.ntms_driveinformation, ntmsapi/NTMS_DRIVEINFORMATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntmsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NTMS_DRIVEINFORMATIONA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntmsapi.h
+api_name:
+-	NTMS_DRIVEINFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NTMS_DRIVEINFORMATIONA structure

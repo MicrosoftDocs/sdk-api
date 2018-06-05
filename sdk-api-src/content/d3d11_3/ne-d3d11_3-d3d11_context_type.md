@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d11_3.D3D11_CONTEXT_TYPE
+title: D3D11_CONTEXT_TYPE
+author: windows-sdk-content
+description: Specifies the context in which a query occurs.
+old-location: direct3d11\d3d11_context_type.htm
+old-project: direct3d11
+ms.assetid: 5467F07C-E429-4324-B52E-FDC25B4DB9FE
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D11_CONTEXT_TYPE, D3D11_CONTEXT_TYPE enumeration [Direct3D 11], D3D11_CONTEXT_TYPE_3D, D3D11_CONTEXT_TYPE_ALL, D3D11_CONTEXT_TYPE_COMPUTE, D3D11_CONTEXT_TYPE_COPY, D3D11_CONTEXT_TYPE_VIDEO, d3d11_3/D3D11_CONTEXT_TYPE, d3d11_3/D3D11_CONTEXT_TYPE_3D, d3d11_3/D3D11_CONTEXT_TYPE_ALL, d3d11_3/D3D11_CONTEXT_TYPE_COMPUTE, d3d11_3/D3D11_CONTEXT_TYPE_COPY, d3d11_3/D3D11_CONTEXT_TYPE_VIDEO, direct3d11.d3d11_context_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11_3.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_CONTEXT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11_3.h
+api_name:
+-	D3D11_CONTEXT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_CONTEXT_TYPE enumeration

@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:setupapi.SetupDiGetClassDevsW
+title: SetupDiGetClassDevsW function
+author: windows-sdk-content
+description: The SetupDiGetClassDevs function returns a handle to a device information set that contains requested device information elements for a local computer.
+old-location: devinst\setupdigetclassdevs.htm
+old-project: devinst
+ms.assetid: 31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: SetupDiGetClassDevs, SetupDiGetClassDevs function [Device and Driver Installation], SetupDiGetClassDevsW, devinst.setupdigetclassdevs, di-rtns_8f48a4a7-e4b9-4843-aacc-88f678b4145c.xml, setupapi/SetupDiGetClassDevs, setupapi/SetupDiGetClassDevsW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: setupapi.h
+req.include-header: SetupAPI.h
+req.target-type: DesktopFor universal, call CM_Get_Device_ID_ListFor universal, call CM_Get_Device_Interface_List
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SetupDiGetClassDevsW (Unicode)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	SetupAPI.dll
+-	ext-ms-win-setupapi-classinstallers-l1-1-0.dll
+-	Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
+-	Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+api_name:
+-	SetupDiGetClassDevs
+-	SetupDiGetClassDevsW
+product: Windows
+targetos: Windows
+req.lib: SetupAPI.lib
+req.dll: SetupAPI.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetupDiGetClassDevsW function

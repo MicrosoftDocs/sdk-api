@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddkmapi._DDREGISTERCALLBACK
+title: "_DDREGISTERCALLBACK"
+author: windows-sdk-content
+description: The DDREGISTERCALLBACK structure contains the register callback information. This structure is used by both the DD_DXAPI_REGISTER_CALLBACK and DD_DXAPI_UNREGISTER_CALLBACK function identifiers of the DxApi function.
+old-location: display\ddregistercallback.htm
+old-project: display
+ms.assetid: 35b82122-0cff-4a19-9723-28ce38896f2a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDREGISTERCALLBACK, DDREGISTERCALLBACK, DDREGISTERCALLBACK structure [Display Devices], LPDDREGISTERCALLBACK, LPDDREGISTERCALLBACK structure pointer [Display Devices], _DDREGISTERCALLBACK, ddkmapi/DDREGISTERCALLBACK, ddkmapi/LPDDREGISTERCALLBACK, ddstrcts_bf4e1fea-7c5d-4ae9-96bf-39a78d184aa5.xml, display.ddregistercallback"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddkmapi.h
+req.include-header: Ddkmapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDREGISTERCALLBACK, *LPDDREGISTERCALLBACK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddkmapi.h
+api_name:
+-	DDREGISTERCALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDREGISTERCALLBACK structure

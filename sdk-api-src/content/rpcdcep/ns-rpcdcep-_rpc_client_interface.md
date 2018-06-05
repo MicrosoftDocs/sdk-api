@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rpcdcep._RPC_CLIENT_INTERFACE
+title: "_RPC_CLIENT_INTERFACE"
+author: windows-sdk-content
+description: The RPC_CLIENT_INTERFACE structure is part of the private interface between the run-time libraries and the stubs. Most distributed applications that use Microsoft RPC do not need this structure.
+old-location: rpc\rpc_client_interface.htm
+old-project: Rpc
+ms.assetid: be995f3b-1d4f-4622-9a00-ddaaeab3788d
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PRPC_CLIENT_INTERFACE, RPC_CLIENT_INTERFACE, RPC_CLIENT_INTERFACE structure [RPC], _RPC_CLIENT_INTERFACE, _rpc_rpc_client_interface, rpc.rpc_client_interface, rpcdcep/RPC_CLIENT_INTERFACE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rpcdcep.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_CLIENT_INTERFACE, *PRPC_CLIENT_INTERFACE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	RpcdceP.h
+api_name:
+-	RPC_CLIENT_INTERFACE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RPC_CLIENT_INTERFACE structure

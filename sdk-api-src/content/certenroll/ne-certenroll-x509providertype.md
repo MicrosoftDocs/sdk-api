@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:certenroll.X509ProviderType
+title: X509ProviderType
+author: windows-sdk-content
+description: Specifies the type of cryptographic provider.
+old-location: security\x509providertype_enum.htm
+old-project: SecCertEnroll
+ms.assetid: 636ccb3a-ea66-4993-ac62-29409ce63eba
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: X509ProviderType, X509ProviderType enumeration [Security], XCN_PROV_DH_SCHANNEL, XCN_PROV_DSS, XCN_PROV_DSS_DH, XCN_PROV_EC_ECDSA_FULL, XCN_PROV_EC_ECDSA_SIG, XCN_PROV_EC_ECNRA_FULL, XCN_PROV_EC_ECNRA_SIG, XCN_PROV_FORTEZZA, XCN_PROV_INTEL_SEC, XCN_PROV_MS_EXCHANGE, XCN_PROV_NONE, XCN_PROV_REPLACE_OWF, XCN_PROV_RNG, XCN_PROV_RSA_AES, XCN_PROV_RSA_FULL, XCN_PROV_RSA_SCHANNEL, XCN_PROV_RSA_SIG, XCN_PROV_SPYRUS_LYNKS, XCN_PROV_SSL, certenroll/X509ProviderType, certenroll/XCN_PROV_DH_SCHANNEL, certenroll/XCN_PROV_DSS, certenroll/XCN_PROV_DSS_DH, certenroll/XCN_PROV_EC_ECDSA_FULL, certenroll/XCN_PROV_EC_ECDSA_SIG, certenroll/XCN_PROV_EC_ECNRA_FULL, certenroll/XCN_PROV_EC_ECNRA_SIG, certenroll/XCN_PROV_FORTEZZA, certenroll/XCN_PROV_INTEL_SEC, certenroll/XCN_PROV_MS_EXCHANGE, certenroll/XCN_PROV_NONE, certenroll/XCN_PROV_REPLACE_OWF, certenroll/XCN_PROV_RNG, certenroll/XCN_PROV_RSA_AES, certenroll/XCN_PROV_RSA_FULL, certenroll/XCN_PROV_RSA_SCHANNEL, certenroll/XCN_PROV_RSA_SIG, certenroll/XCN_PROV_SPYRUS_LYNKS, certenroll/XCN_PROV_SSL, security.x509providertype_enum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509ProviderType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CertEnroll.h
+api_name:
+-	X509ProviderType
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 ---
 
 # X509ProviderType enumeration

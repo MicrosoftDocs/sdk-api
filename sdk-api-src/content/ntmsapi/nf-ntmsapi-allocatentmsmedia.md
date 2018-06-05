@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntmsapi.AllocateNtmsMedia
+title: AllocateNtmsMedia function
+author: windows-sdk-content
+description: The AllocateNtmsMedia function allocates a piece of available media.
+old-location: fs\allocatentmsmedia.htm
+old-project: Rsm
+ms.assetid: a0afe0ca-61ad-4ac8-8e3e-4a7e9ddd6600
+ms.author: windowssdkdev
+ms.date: 04/05/2018
+ms.keywords: AllocateNtmsMedia, AllocateNtmsMedia function [Files], NTMS_ALLOCATE_ERROR_IF_UNAVAILABLE, NTMS_ALLOCATE_NEW, NTMS_ALLOCATE_NEXT, _zaw_allocatentmsmedia, base.allocatentmsmedia, fs.allocatentmsmedia, ntmsapi/AllocateNtmsMedia
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntmsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntmsapi.dll
+api_name:
+-	AllocateNtmsMedia
+product: Windows
+targetos: Windows
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # AllocateNtmsMedia function

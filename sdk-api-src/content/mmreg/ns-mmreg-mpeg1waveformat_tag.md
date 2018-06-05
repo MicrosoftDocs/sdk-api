@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:mmreg.mpeg1waveformat_tag
+title: mpeg1waveformat_tag
+author: windows-sdk-content
+description: The MPEG1WAVEFORMAT structure describes the format of MPEG-1 audio data.
+old-location: dshow\mpeg1waveformat.htm
+old-project: DirectShow
+ms.assetid: c9357f72-f101-434a-b7ae-183e78239e9c
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPMPEG1WAVEFORMAT, *NPMPEG1WAVEFORMAT, *PMPEG1WAVEFORMAT, ACM_MPEG_COPYRIGHT, ACM_MPEG_DUALCHANNEL, ACM_MPEG_ID_MPEG1, ACM_MPEG_JOINTSTEREO, ACM_MPEG_LAYER1, ACM_MPEG_LAYER2, ACM_MPEG_LAYER3, ACM_MPEG_ORIGINALHOME, ACM_MPEG_PRIVATEBIT, ACM_MPEG_PROTECTIONBIT, ACM_MPEG_SINGLECHANNEL, ACM_MPEG_STEREO, MPEG1WAVEFORMAT, MPEG1WAVEFORMAT structure [DirectShow], dshow.mpeg1waveformat, mmreg/MPEG1WAVEFORMAT, mpeg1waveformat_tag"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mmreg.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPEG1WAVEFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mmreg.h
+api_name:
+-	MPEG1WAVEFORMAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # mpeg1waveformat_tag structure

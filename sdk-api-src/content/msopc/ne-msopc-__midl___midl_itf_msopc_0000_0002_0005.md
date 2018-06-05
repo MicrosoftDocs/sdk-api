@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0005
+title: "__MIDL___MIDL_itf_msopc_0000_0002_0005"
+author: windows-sdk-content
+description: Describes the encoding method that is used by the serialization object to produce the package.
+old-location: opc\opc_write_flags.htm
+old-project: OPC
+ms.assetid: 12006b4a-98e1-4761-bce3-32b83b54a2cb
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: OPC_WRITE_DEFAULT, OPC_WRITE_FLAGS, OPC_WRITE_FLAGS enumeration [Open Packaging Conventions], OPC_WRITE_FORCE_ZIP32, __MIDL___MIDL_itf_msopc_0000_0002_0005, msopc/OPC_WRITE_DEFAULT, msopc/OPC_WRITE_FLAGS, msopc/OPC_WRITE_FORCE_ZIP32, opc.opc_write_flags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Opcobjectmodel.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPC_WRITE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msopc.h
+api_name:
+-	OPC_WRITE_FLAGS
+product: Windows
+targetos: Windows
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_msopc_0000_0002_0005 enumeration

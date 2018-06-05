@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:gdiplustypes.Point.Point(IN const Point &)
+title: Point::Point(IN const Point &)
+author: windows-sdk-content
+description: Creates a Point object and initializes the X and Y data members to zero. This is the default constructor.
+old-location: gdiplus\_gdiplus_CLASS_Point_Point_.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointconstructors\point_14.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: Point, Point class [GDI+],Point constructor, Point constructor [GDI+], Point constructor [GDI+],Point class, Point.Point, Point.Point(), Point.Point(IN const Point &), Point::Point, Point::Point(IN const Point &), _gdiplus_CLASS_Point_Point_, gdiplus._gdiplus_CLASS_Point_Point_
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: gdiplustypes.h
+req.include-header: Gdiplus.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gdiplus.dll
+api_name:
+-	Point.Point
+product: Windows
+targetos: Windows
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
+req.product: GDI+ 1.0
 ---
 
 # Point::Point(IN const Point &)

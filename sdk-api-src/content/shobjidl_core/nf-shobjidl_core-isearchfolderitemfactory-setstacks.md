@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.ISearchFolderItemFactory.SetStacks
+title: ISearchFolderItemFactory::SetStacks
+author: windows-sdk-content
+description: Creates a list of stack keys, as specified. If this method is not called, by default the folder will not be stacked.
+old-location: shell\ISearchFolderItemFactory_SetStacks.htm
+old-project: shell
+ms.assetid: d2f3d975-b968-4491-868f-90eccb40e8e4
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetStacks method, ISearchFolderItemFactory.SetStacks, ISearchFolderItemFactory::SetStacks, SetStacks, SetStacks method [Windows Shell], SetStacks method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetStacks, shell.ISearchFolderItemFactory_SetStacks, shobjidl_core/ISearchFolderItemFactory::SetStacks
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	ISearchFolderItemFactory.SetStacks
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISearchFolderItemFactory::SetStacks

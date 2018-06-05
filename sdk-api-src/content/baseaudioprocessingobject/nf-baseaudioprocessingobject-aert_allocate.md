@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:baseaudioprocessingobject.AERT_Allocate
+title: AERT_Allocate function
+author: windows-sdk-content
+description: The AERT_Allocate utility function allocates and locks a segment of memory for use by audio processing objects.
+old-location: audio\aert_allocate.htm
+old-project: audio
+ms.assetid: b992842d-0612-464c-9b82-b75137fa49eb
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: AERT_Allocate, AERT_Allocate function [Audio Devices], audio.aert_allocate, audio_syseffects_r_db01d2ca-9a2d-4054-b066-773f2cb54276.xml, baseaudioprocessingobject/AERT_Allocate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: baseaudioprocessingobject.h
+req.include-header: 
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Audioeng.dll
+api_name:
+-	AERT_Allocate
+product: Windows
+targetos: Windows
+req.lib: Audioeng.lib
+req.dll: Audioeng.dll
+req.irql: All levels
 ---
 
 # AERT_Allocate function

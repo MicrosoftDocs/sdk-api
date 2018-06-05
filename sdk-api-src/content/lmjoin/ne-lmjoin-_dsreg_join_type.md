@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:lmjoin._DSREG_JOIN_TYPE
+title: "_DSREG_JOIN_TYPE"
+author: windows-sdk-content
+description: Specifies the possible ways that a device can be joined to Microsoft Azure Active Directory.
+old-location: netmgmt\dsreg_join_type.htm
+old-project: NetMgmt
+ms.assetid: E29BCBE0-222F-4CA8-97BC-6FE1B6F97A67
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PDSREG_JOIN_TYPE, DSREG_DEVICE_JOIN, DSREG_JOIN_TYPE, DSREG_JOIN_TYPE enumeration [Network Management], DSREG_UNKNOWN_JOIN, DSREG_WORKPLACE_JOIN, PDSREG_JOIN_TYPE, PDSREG_JOIN_TYPE enumeration pointer [Network Management], _DSREG_JOIN_TYPE, lmjoin/DSREG_DEVICE_JOIN, lmjoin/DSREG_JOIN_TYPE, lmjoin/DSREG_UNKNOWN_JOIN, lmjoin/DSREG_WORKPLACE_JOIN, lmjoin/PDSREG_JOIN_TYPE, netmgmt.dsreg_join_type"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: lmjoin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	lmjoin.h
+api_name:
+-	DSREG_JOIN_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _DSREG_JOIN_TYPE enumeration

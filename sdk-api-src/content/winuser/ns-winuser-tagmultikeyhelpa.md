@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winuser.tagMULTIKEYHELPA
+title: tagMULTIKEYHELPA
+author: windows-sdk-content
+description: Specifies a keyword to search for and the keyword table to be searched by Windows Help.
+old-location: shell\MULTIKEYHELP_str.htm
+old-project: shell
+ms.assetid: 5fe0cd44-196c-4d9a-b9f8-2a97a92f2545
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPMULTIKEYHELPA, *PMULTIKEYHELPA, MULTIKEYHELP, MULTIKEYHELP structure [Windows Shell], MULTIKEYHELPA, _win32_MULTIKEYHELP_str, shell.MULTIKEYHELP_str, tagMULTIKEYHELPA, tagMULTIKEYHELPW, winuser/MULTIKEYHELP"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winuser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MULTIKEYHELPA, *PMULTIKEYHELPA, *LPMULTIKEYHELPA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winuser.h
+api_name:
+-	MULTIKEYHELP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagMULTIKEYHELPA structure

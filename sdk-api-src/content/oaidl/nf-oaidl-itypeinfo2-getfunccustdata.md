@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oaidl.ITypeInfo2.GetFuncCustData
+title: ITypeInfo2::GetFuncCustData
+author: windows-sdk-content
+description: Gets the custom data from the specified function.
+old-location: automat\itypeinfo2_getfunccustdata.htm
+old-project: automat
+ms.assetid: d3a7b13f-6296-45ee-9697-4d52b5965c4b
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: GetFuncCustData, GetFuncCustData method [Automation], GetFuncCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetFuncCustData method, ITypeInfo2.GetFuncCustData, ITypeInfo2::GetFuncCustData, _oa96_ITypeInfo2_GetFuncCustData, automat.itypeinfo2_getfunccustdata, oaidl/ITypeInfo2::GetFuncCustData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OaIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ITypeInfo2.GetFuncCustData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITypeInfo2::GetFuncCustData

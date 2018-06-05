@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl.IShellRunDll.Run
+title: IShellRunDll::Run
+author: windows-sdk-content
+description: Not supported.
+old-location: shell\IShellRunDll_Run.htm
+old-project: shell
+ms.assetid: 3506a086-2dda-4455-b03c-f3c85e4ac283
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IShellRunDll interface [Windows Shell],Run method, IShellRunDll.Run, IShellRunDll::Run, Run, Run method [Windows Shell], Run method [Windows Shell],IShellRunDll interface, _shell_IShellRunDll_Run, shell.IShellRunDll_Run, shobjidl/IShellRunDll::Run
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl.h
+api_name:
+-	IShellRunDll.Run
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # IShellRunDll::Run

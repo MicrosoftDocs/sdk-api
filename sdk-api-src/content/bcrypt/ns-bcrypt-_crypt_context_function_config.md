@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bcrypt._CRYPT_CONTEXT_FUNCTION_CONFIG
+title: "_CRYPT_CONTEXT_FUNCTION_CONFIG"
+author: windows-sdk-content
+description: Contains configuration information for a cryptographic function of a CNG context.
+old-location: security\crypt_context_function_config.htm
+old-project: SecCNG
+ms.assetid: 53026095-c871-4027-ac7d-428f1cb4aafe
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: "*PCRYPT_CONTEXT_FUNCTION_CONFIG, CRYPT_CONTEXT_FUNCTION_CONFIG, CRYPT_CONTEXT_FUNCTION_CONFIG structure [Security], CRYPT_EXCLUSIVE, PCRYPT_CONTEXT_FUNCTION_CONFIG, PCRYPT_CONTEXT_FUNCTION_CONFIG structure pointer [Security], _CRYPT_CONTEXT_FUNCTION_CONFIG, bcrypt/CRYPT_CONTEXT_FUNCTION_CONFIG, bcrypt/PCRYPT_CONTEXT_FUNCTION_CONFIG, security.crypt_context_function_config"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bcrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_CONTEXT_FUNCTION_CONFIG, *PCRYPT_CONTEXT_FUNCTION_CONFIG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bcrypt.h
+api_name:
+-	CRYPT_CONTEXT_FUNCTION_CONFIG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CRYPT_CONTEXT_FUNCTION_CONFIG structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:syncmgr.SYNCMGR_RESOLUTION_ABILITIES
+title: SYNCMGR_RESOLUTION_ABILITIES
+author: windows-sdk-content
+description: Indicates abilities and the conflict resolution activity to follow. Used with ISyncMgrResolutionHandler::QueryAbilities.
+old-location: shell\SYNCMGR_RESOLUTION_ABILITIES.htm
+old-project: shell
+ms.assetid: 5a7ff366-e155-43c0-aafe-f61ad0caf550
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SYNCMGR_RA_KEEPOTHER, SYNCMGR_RA_KEEPRECENT, SYNCMGR_RA_KEEP_MULTIPLE, SYNCMGR_RA_KEEP_SINGLE, SYNCMGR_RA_REMOVEFROMSYNCSET, SYNCMGR_RA_VALID, SYNCMGR_RESOLUTION_ABILITIES, SYNCMGR_RESOLUTION_ABILITIES enumeration [Windows Shell], _shell_SYNCMGR_RESOLUTION_ABILITIES, shell.SYNCMGR_RESOLUTION_ABILITIES, syncmgr/SYNCMGR_RA_KEEPOTHER, syncmgr/SYNCMGR_RA_KEEPRECENT, syncmgr/SYNCMGR_RA_KEEP_MULTIPLE, syncmgr/SYNCMGR_RA_KEEP_SINGLE, syncmgr/SYNCMGR_RA_REMOVEFROMSYNCSET, syncmgr/SYNCMGR_RA_VALID, syncmgr/SYNCMGR_RESOLUTION_ABILITIES
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: syncmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Syncmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGR_RESOLUTION_ABILITIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Syncmgr.h
+api_name:
+-	SYNCMGR_RESOLUTION_ABILITIES
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # SYNCMGR_RESOLUTION_ABILITIES enumeration

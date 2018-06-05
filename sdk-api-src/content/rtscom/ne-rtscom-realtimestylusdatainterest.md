@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:rtscom.RealTimeStylusDataInterest
+title: RealTimeStylusDataInterest
+author: windows-sdk-content
+description: Defines the values used by plug-ins to specify which event notifications the plug-ins receive.
+old-location: tablet\realtimestylusdatainterest.htm
+old-project: tablet
+ms.assetid: f50cfafb-e709-4819-9e1a-679fbb54c7e0
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: RTSDI_AllData, RTSDI_CustomStylusDataAdded, RTSDI_DefaultEvents, RTSDI_Error, RTSDI_InAirPackets, RTSDI_None, RTSDI_Packets, RTSDI_RealTimeStylusDisabled, RTSDI_RealTimeStylusEnabled, RTSDI_StylusButtonDown, RTSDI_StylusButtonUp, RTSDI_StylusDown, RTSDI_StylusInRange, RTSDI_StylusNew, RTSDI_StylusOutOfRange, RTSDI_StylusUp, RTSDI_SystemEvents, RTSDI_TabletAdded, RTSDI_TabletRemoved, RTSDI_UpdateMapping, RealTimeStylusDataInterest, RealTimeStylusDataInterest enumeration [Tablet PC], f50cfafb-e709-4819-9e1a-679fbb54c7e0, rtscom/RTSDI_AllData, rtscom/RTSDI_CustomStylusDataAdded, rtscom/RTSDI_DefaultEvents, rtscom/RTSDI_Error, rtscom/RTSDI_InAirPackets, rtscom/RTSDI_None, rtscom/RTSDI_Packets, rtscom/RTSDI_RealTimeStylusDisabled, rtscom/RTSDI_RealTimeStylusEnabled, rtscom/RTSDI_StylusButtonDown, rtscom/RTSDI_StylusButtonUp, rtscom/RTSDI_StylusDown, rtscom/RTSDI_StylusInRange, rtscom/RTSDI_StylusNew, rtscom/RTSDI_StylusOutOfRange, rtscom/RTSDI_StylusUp, rtscom/RTSDI_SystemEvents, rtscom/RTSDI_TabletAdded, rtscom/RTSDI_TabletRemoved, rtscom/RTSDI_UpdateMapping, rtscom/RealTimeStylusDataInterest, tablet.realtimestylusdatainterest
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: rtscom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RealTimeStylusDataInterest
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	RTSCom.h
+api_name:
+-	RealTimeStylusDataInterest
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RealTimeStylusDataInterest enumeration

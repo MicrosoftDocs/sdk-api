@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ras.RasEnumDevicesW
+title: RasEnumDevicesW function
+author: windows-sdk-content
+description: The RasEnumDevices function returns the name and type of all available RAS-capable devices.
+old-location: rras\rasenumdevices.htm
+old-project: RRAS
+ms.assetid: 819f069f-15e7-41b6-9153-4d602be4245d
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RasEnumDevices, RasEnumDevices function [RAS], RasEnumDevicesA, RasEnumDevicesW, _ras_rasenumdevices, ras/RasEnumDevices, ras/RasEnumDevicesA, ras/RasEnumDevicesW, rras.rasenumdevices
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ras.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RasEnumDevicesW (Unicode) and RasEnumDevicesA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RASPROJECTION_INFO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rasapi32.dll
+api_name:
+-	RasEnumDevices
+-	RasEnumDevicesA
+-	RasEnumDevicesW
+product: Windows
+targetos: Windows
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RasEnumDevicesW function

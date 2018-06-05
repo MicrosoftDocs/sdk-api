@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:setupapi._SP_REMOVEDEVICE_PARAMS
+title: "_SP_REMOVEDEVICE_PARAMS"
+author: windows-sdk-content
+description: An SP_REMOVEDEVICE_PARAMS structure corresponds to the DIF_REMOVE installation request.
+old-location: devinst\sp_removedevice_params.htm
+old-project: devinst
+ms.assetid: 08d3a5c7-9350-4fb3-8476-fb22e34d7054
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PSP_REMOVEDEVICE_PARAMS, PSP_REMOVEDEVICE_PARAMS, PSP_REMOVEDEVICE_PARAMS structure pointer [Device and Driver Installation], SP_REMOVEDEVICE_PARAMS, SP_REMOVEDEVICE_PARAMS structure [Device and Driver Installation], _SP_REMOVEDEVICE_PARAMS, devinst.sp_removedevice_params, di-struct_a1c87aad-2f81-4545-a088-1dadc98372d7.xml, setupapi/PSP_REMOVEDEVICE_PARAMS, setupapi/SP_REMOVEDEVICE_PARAMS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SP_REMOVEDEVICE_PARAMS, *PSP_REMOVEDEVICE_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	setupapi.h
+api_name:
+-	SP_REMOVEDEVICE_PARAMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SP_REMOVEDEVICE_PARAMS structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mfmediaengine.IMFTimedText.GetTracks
+title: IMFTimedText::GetTracks
+author: windows-sdk-content
+description: Retrieves a list of all timed-text tracks registered with the IMFTimedText.
+old-location: mf\imftimedtext_gettracks.htm
+old-project: medfound
+ms.assetid: 4ECBC4CD-12A0-493A-A301-1E392F6EC280
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetTracks, GetTracks method [Media Foundation], GetTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetTracks method, IMFTimedText.GetTracks, IMFTimedText::GetTracks, mf.imftimedtext_gettracks, mfmediaengine/IMFTimedText::GetTracks
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.dll
+api_name:
+-	IMFTimedText.GetTracks
+product: Windows
+targetos: Windows
+req.lib: Mfmediaengine.lib
+req.dll: Mfmediaengine.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFTimedText::GetTracks

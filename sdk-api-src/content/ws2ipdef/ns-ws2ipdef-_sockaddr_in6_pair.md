@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ws2ipdef._sockaddr_in6_pair
+title: "_sockaddr_in6_pair"
+author: windows-sdk-content
+description: Contains pointers to a pair of IP addresses that represent a source and destination address pair.
+old-location: iphlp\sockaddr_in6_pair.htm
+old-project: IpHlp
+ms.assetid: 0265f8e0-8b35-4d9d-bf22-e98e9ff36a17
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PSOCKADDR_IN6_PAIR, PSOCKADDR_IN6_PAIR, PSOCKADDR_IN6_PAIR structure pointer [IP Helper], SOCKADDR_IN6_PAIR, SOCKADDR_IN6_PAIR structure [IP Helper], _sockaddr_in6_pair, iphlp.sockaddr_in6_pair, ws2ipdef/PSOCKADDR_IN6_PAIR, ws2ipdef/SOCKADDR_IN6_PAIR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ws2ipdef.h
+req.include-header: Ws2tcpip.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wrdsgraphicschannels.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOCKADDR_IN6_PAIR, *PSOCKADDR_IN6_PAIR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ws2ipdef.h
+api_name:
+-	SOCKADDR_IN6_PAIR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _sockaddr_in6_pair structure

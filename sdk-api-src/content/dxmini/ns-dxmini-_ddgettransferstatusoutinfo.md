@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dxmini._DDGETTRANSFERSTATUSOUTINFO
+title: "_DDGETTRANSFERSTATUSOUTINFO"
+author: windows-sdk-content
+description: The DDGETTRANSFERSTATUSOUTINFO structure contains the transfer status information.
+old-location: display\ddgettransferstatusoutinfo.htm
+old-project: display
+ms.assetid: 593a42be-e1e9-41e5-a006-1513c5aa5226
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDDGETTRANSFEROUTINFO, DDGETTRANSFERSTATUSOUTINFO, DDGETTRANSFERSTATUSOUTINFO structure [Display Devices], PDDGETTRANSFEROUTINFO, PDDGETTRANSFEROUTINFO structure pointer [Display Devices], Video_Structs_6471d175-cf52-4da4-b0c8-a4d7b96a0bea.xml, _DDGETTRANSFERSTATUSOUTINFO, display.ddgettransferstatusoutinfo, dxmini/DDGETTRANSFERSTATUSOUTINFO, dxmini/PDDGETTRANSFEROUTINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDGETTRANSFERSTATUSOUTINFO, *PDDGETTRANSFEROUTINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxmini.h
+api_name:
+-	DDGETTRANSFERSTATUSOUTINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DDGETTRANSFERSTATUSOUTINFO structure

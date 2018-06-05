@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sensevts.ISensLogon.Logon
+title: ISensLogon::Logon
+author: windows-sdk-content
+description: The Logon method notifies an application that a user is logged on.
+old-location: sens\isenslogon_logon.htm
+old-project: Sens
+ms.assetid: 76a811a2-70c4-4dda-99c0-1578e9402a3b
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ISensLogon interface [SENS],Logon method, ISensLogon.Logon, ISensLogon::Logon, Logon, Logon method [SENS], Logon method [SENS],ISensLogon interface, _zaw_isenslogon_logon, sens.isenslogon_logon, sensevts/ISensLogon::Logon, syncmgr.isenslogon_logon
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sensevts.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Sensevts.tlb
+tech.root: 
+req.typenames: QOCINFO, *LPQOCINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Sens.dll
+api_name:
+-	ISensLogon.Logon
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISensLogon::Logon

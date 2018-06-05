@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwmapi.DWMNCRENDERINGPOLICY
+title: DWMNCRENDERINGPOLICY
+author: windows-sdk-content
+description: Flags used by the DwmSetWindowAttribute function to specify the non-client area rendering policy.
+old-location: dwm\dwmncrenderingpolicy.htm
+old-project: dwm
+ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\enums\dwmncrenderingpolicy.htm
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: DWMNCRENDERINGPOLICY, DWMNCRENDERINGPOLICY enumeration [Desktop Window Manager], DWMNCRP_DISABLED, DWMNCRP_ENABLED, DWMNCRP_LAST, DWMNCRP_USEWINDOWSTYLE, _udwm_dwmncrenderingpolicy, _udwm_dwmncrenderingpolicy_cpp, dwm.dwmncrenderingpolicy, dwmapi/DWMNCRENDERINGPOLICY, dwmapi/DWMNCRP_DISABLED, dwmapi/DWMNCRP_ENABLED, dwmapi/DWMNCRP_LAST, dwmapi/DWMNCRP_USEWINDOWSTYLE, winui._udwm_dwmncrenderingpolicy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dwmapi.h
+api_name:
+-	DWMNCRENDERINGPOLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWMNCRENDERINGPOLICY enumeration

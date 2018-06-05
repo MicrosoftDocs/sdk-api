@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IValueMap.put_ValueMapType
+title: IValueMap::put_ValueMapType
+author: windows-sdk-content
+description: Retrieves or sets the type of items in the collection.
+old-location: pla\ivaluemap_valuemaptype.htm
+old-project: PLA
+ms.assetid: 42cea1e6-c945-4bae-ac65-a052b4069e5f
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IValueMap interface [PLA],ValueMapType property, IValueMap.ValueMapType, IValueMap.put_ValueMapType, IValueMap::ValueMapType, IValueMap::get_ValueMapType, IValueMap::put_ValueMapType, ValueMapType property [PLA], ValueMapType property [PLA],IValueMap interface, base.ivaluemap_valuemaptype, pla.ivaluemap_valuemaptype, pla/IValueMap::ValueMapType, pla/IValueMap::get_ValueMapType, pla/IValueMap::put_ValueMapType, put_ValueMapType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IValueMap.ValueMapType
+-	IValueMap.get_ValueMapType
+-	IValueMap.put_ValueMapType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IValueMap::put_ValueMapType

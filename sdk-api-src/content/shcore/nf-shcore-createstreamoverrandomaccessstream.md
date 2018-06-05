@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shcore.CreateStreamOverRandomAccessStream
+title: CreateStreamOverRandomAccessStream function
+author: windows-sdk-content
+description: Creates an IStream around a Windows Runtime IRandomAccessStream object.
+old-location: winrt\createstreamoverrandomaccessstream.htm
+old-project: WinRT
+ms.assetid: F9AB8A34-8AB1-4EF1-8659-DAD5713A89BF
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: CreateStreamOverRandomAccessStream, CreateStreamOverRandomAccessStream function [Windows Runtime], shcore/CreateStreamOverRandomAccessStream, winrt.createstreamoverrandomaccessstream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shcore.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BSOS_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ShCore.dll
+-	API-MS-Win-ShCore-stream-WinRT-l1-1-0.dll
+api_name:
+-	CreateStreamOverRandomAccessStream
+product: Windows
+targetos: Windows
+req.lib: ShCore.lib
+req.dll: ShCore.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CreateStreamOverRandomAccessStream function

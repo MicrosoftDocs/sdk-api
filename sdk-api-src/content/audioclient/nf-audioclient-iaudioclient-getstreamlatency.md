@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:audioclient.IAudioClient.GetStreamLatency
+title: IAudioClient::GetStreamLatency
+author: windows-sdk-content
+description: The GetStreamLatency method retrieves the maximum latency for the current stream and can be called any time after the stream has been initialized.
+old-location: coreaudio\iaudioclient_getstreamlatency.htm
+old-project: CoreAudio
+ms.assetid: ccc06e31-e56f-4910-882a-40b1ce0b43aa
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetStreamLatency, GetStreamLatency method [Core Audio], GetStreamLatency method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetStreamLatency method, IAudioClient.GetStreamLatency, IAudioClient::GetStreamLatency, IAudioClientGetStreamLatency, audioclient/IAudioClient::GetStreamLatency, coreaudio.iaudioclient_getstreamlatency
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioclient.h
+api_name:
+-	IAudioClient.GetStreamLatency
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioClient::GetStreamLatency

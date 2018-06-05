@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddraw._DDSURFACEDESC2
+title: "_DDSURFACEDESC2"
+author: windows-sdk-content
+description: The DDSURFACEDESC2 structure contains a description of a surface.
+old-location: directdraw\ddsurfacedesc2.htm
+old-project: directdraw
+ms.assetid: 507c557f-eb3a-429c-a738-8d715e5d71d3
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPDDSURFACEDESC2, DDSD_ALL, DDSD_ALPHABITDEPTH, DDSD_BACKBUFFERCOUNT, DDSD_CAPS, DDSD_CKDESTBLT, DDSD_CKDESTOVERLAY, DDSD_CKSRCBLT, DDSD_CKSRCOVERLAY, DDSD_HEIGHT, DDSD_LINEARSIZE, DDSD_LPSURFACE, DDSD_MIPMAPCOUNT, DDSD_PITCH, DDSD_PIXELFORMAT, DDSD_REFRESHRATE, DDSD_TEXTURESTAGE, DDSD_WIDTH, DDSD_ZBUFFERBITDEPTH, DDSURFACEDESC2, DDSURFACEDESC2 structure [DirectDraw], LPDDSURFACEDESC2, LPDDSURFACEDESC2 structure pointer [DirectDraw], _DDSURFACEDESC2, ddraw/DDSURFACEDESC2, ddraw/LPDDSURFACEDESC2, directdraw.ddsurfacedesc2"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDSURFACEDESC2, DDSURFACEDESC2"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ddraw.h
+api_name:
+-	DDSURFACEDESC2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDSURFACEDESC2 structure

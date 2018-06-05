@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:prnasnot.IPrintAsyncNotifyCallback.OnEventNotify
+title: IPrintAsyncNotifyCallback::OnEventNotify
+author: windows-sdk-content
+description: Alerts a listener that a notification is available on a specified channel. This method is called by the print system.
+old-location: gdi\iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify.htm
+old-project: printdocs
+ms.assetid: 2f398173-3cd6-46da-931d-057d1dccbe9b
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: IPrintAsyncNotifyCallback interface [Windows GDI],OnEventNotify method, IPrintAsyncNotifyCallback.OnEventNotify, IPrintAsyncNotifyCallback::OnEventNotify, OnEventNotify, OnEventNotify method [Windows GDI], OnEventNotify method [Windows GDI],IPrintAsyncNotifyCallback interface, _win32_IPrintAsyncNotifyCallback_OnEventNotify, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify, prnasnot/IPrintAsyncNotifyCallback::OnEventNotify
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: prnasnot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PrintAsyncNotifyUserFilter
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	prnasnot.dll
+api_name:
+-	IPrintAsyncNotifyCallback.OnEventNotify
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Prnasnot.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPrintAsyncNotifyCallback::OnEventNotify

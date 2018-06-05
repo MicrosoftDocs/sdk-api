@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:eaptypes._EAP_METHOD_PROPERTY_VALUE_TYPE
+title: "_EAP_METHOD_PROPERTY_VALUE_TYPE"
+author: windows-sdk-content
+description: Defines the set of possible data types for an EAP method property value.
+old-location: eaphost\eap_method_property_value_type.htm
+old-project: EAPHost
+ms.assetid: 17ef654a-d4a0-45ba-a49d-45add8e78b28
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: EAP_METHOD_PROPERTY_VALUE_TYPE, EAP_METHOD_PROPERTY_VALUE_TYPE enumeration [EAPHost], _EAP_METHOD_PROPERTY_VALUE_TYPE, eaphost.eap_method_property_value_type, eaptypes/EAP_METHOD_PROPERTY_VALUE_TYPE, eaptypes/empvtBool, eaptypes/empvtDword, eaptypes/empvtString, empvtBool, empvtDword, empvtString
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: eaptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EAP_METHOD_PROPERTY_VALUE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	EapTypes.h
+api_name:
+-	EAP_METHOD_PROPERTY_VALUE_TYPE
+product: Windows
+targetos: Windows
+req.lib: Eappprxy.lib
+req.dll: Eappprxy.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _EAP_METHOD_PROPERTY_VALUE_TYPE enumeration

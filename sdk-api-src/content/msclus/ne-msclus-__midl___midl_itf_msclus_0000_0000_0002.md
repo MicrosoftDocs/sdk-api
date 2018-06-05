@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msclus.__MIDL___MIDL_itf_msclus_0000_0000_0002
+title: "__MIDL___MIDL_itf_msclus_0000_0000_0002"
+author: windows-sdk-content
+description: Specifies the type of the management point for the cluster.
+old-location: mscs\cluster_mgmt_point_type.htm
+old-project: MsCS
+ms.assetid: 9A849D8E-EC04-470B-A72A-022213CDF92E
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_MGMT_POINT_TYPE, CLUSTER_MGMT_POINT_TYPE enumeration [Failover Cluster], CLUSTER_MGMT_POINT_TYPE_CNO, CLUSTER_MGMT_POINT_TYPE_CNO_ONLY, CLUSTER_MGMT_POINT_TYPE_DNS_ONLY, CLUSTER_MGMT_POINT_TYPE_NONE, __MIDL___MIDL_itf_msclus_0000_0000_0002, clusapi/CLUSTER_MGMT_POINT_TYPE, clusapi/CLUSTER_MGMT_POINT_TYPE_CNO, clusapi/CLUSTER_MGMT_POINT_TYPE_CNO_ONLY, clusapi/CLUSTER_MGMT_POINT_TYPE_DNS_ONLY, clusapi/CLUSTER_MGMT_POINT_TYPE_NONE, msclus/CLUSTER_MGMT_POINT_TYPE, msclus/CLUSTER_MGMT_POINT_TYPE_CNO, msclus/CLUSTER_MGMT_POINT_TYPE_CNO_ONLY, msclus/CLUSTER_MGMT_POINT_TYPE_DNS_ONLY, msclus/CLUSTER_MGMT_POINT_TYPE_NONE, mscs.cluster_mgmt_point_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_MGMT_POINT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSTER_MGMT_POINT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_msclus_0000_0000_0002 enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:psapi._PSAPI_WORKING_SET_EX_BLOCK
+title: "_PSAPI_WORKING_SET_EX_BLOCK"
+author: windows-sdk-content
+description: Contains extended working set information for a page.
+old-location: psapi\psapi_working_set_ex_block.htm
+old-project: psapi
+ms.assetid: 4ba17fa0-2aed-4099-9380-fc13f1b826ca
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PPSAPI_WORKING_SET_EX_BLOCK, PPSAPI_WORKING_SET_EX_BLOCK, PPSAPI_WORKING_SET_EX_BLOCK union pointer [PSAPI], PSAPI_WORKING_SET_EX_BLOCK, PSAPI_WORKING_SET_EX_BLOCK union [PSAPI], _PSAPI_WORKING_SET_EX_BLOCK, base.psapi_working_set_ex_block, psapi.psapi_working_set_ex_block, psapi/PPSAPI_WORKING_SET_EX_BLOCK, psapi/PSAPI_WORKING_SET_EX_BLOCK"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: psapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSAPI_WORKING_SET_EX_BLOCK, *PPSAPI_WORKING_SET_EX_BLOCK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Psapi.h
+api_name:
+-	PSAPI_WORKING_SET_EX_BLOCK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PSAPI_WORKING_SET_EX_BLOCK structure

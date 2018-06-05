@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mdhcp.IMcastAddressAllocation.CreateLeaseInfo
+title: IMcastAddressAllocation::CreateLeaseInfo
+author: windows-sdk-content
+description: The CreateLeaseInfo method creates a lease information object for a subsequent call to RenewAddress or ReleaseAddress.
+old-location: tapi3\imcastaddressallocation_createleaseinfo.htm
+old-project: Tapi
+ms.assetid: b7a65998-3329-4117-be91-10e2dd7047d5
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CreateLeaseInfo, CreateLeaseInfo method [TAPI 2.2], CreateLeaseInfo method [TAPI 2.2],IMcastAddressAllocation interface, IMcastAddressAllocation interface [TAPI 2.2],CreateLeaseInfo method, IMcastAddressAllocation.CreateLeaseInfo, IMcastAddressAllocation::CreateLeaseInfo, _tapi3_imcastaddressallocation_createleaseinfo, mdhcp/IMcastAddressAllocation::CreateLeaseInfo, tapi3.imcastaddressallocation_createleaseinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mdhcp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mdhcp.dll
+api_name:
+-	IMcastAddressAllocation.CreateLeaseInfo
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMcastAddressAllocation::CreateLeaseInfo

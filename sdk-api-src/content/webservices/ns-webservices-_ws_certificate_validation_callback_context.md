@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:webservices._WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT
+title: "_WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT"
+author: windows-sdk-content
+description: The WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT structure contains the callback function and state for validating the certificate for an HTTP connection.
+old-location: wsw\ws_certificate_validation_callback_context.htm
+old-project: wsw
+ms.assetid: 1D33A816-2580-4295-994D-6C6DFFBA7A0B
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: PWS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT, PWS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT structure pointer [Web Services for Windows], WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT, WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT structure [Web Services for Windows], _WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT, webservices/PWS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT, webservices/WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT, wsw.ws_certificate_validation_callback_context
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT structure

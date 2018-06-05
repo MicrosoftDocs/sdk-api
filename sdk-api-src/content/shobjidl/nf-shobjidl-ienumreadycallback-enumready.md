@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl.IEnumReadyCallback.EnumReady
+title: IEnumReadyCallback::EnumReady
+author: windows-sdk-content
+description: Notifies the implementer that the view's item enumeration has completed.
+old-location: shell\IEnumReadyCallback_EnumReady.htm
+old-project: shell
+ms.assetid: 4bb0772a-a863-49eb-a262-755d0ea3ea86
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EnumReady, EnumReady method [Windows Shell], EnumReady method [Windows Shell],IEnumReadyCallback interface, IEnumReadyCallback interface [Windows Shell],EnumReady method, IEnumReadyCallback.EnumReady, IEnumReadyCallback::EnumReady, _shell_IEnumReadyCallback_EnumReady, shell.IEnumReadyCallback_EnumReady, shobjidl/IEnumReadyCallback::EnumReady
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shobjidl.h
+api_name:
+-	IEnumReadyCallback.EnumReady
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # IEnumReadyCallback::EnumReady

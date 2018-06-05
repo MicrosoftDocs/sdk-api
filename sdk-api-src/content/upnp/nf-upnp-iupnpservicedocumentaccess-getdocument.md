@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:upnp.IUPnPServiceDocumentAccess.GetDocument
+title: IUPnPServiceDocumentAccess::GetDocument
+author: windows-sdk-content
+description: GetDocument method retrieves the Service Control Protocol Description (SCPD) document for a service object.
+old-location: upnp\iupnpservicedocumentaccess_getdocument.htm
+old-project: UPnP
+ms.assetid: B0C197A0-4987-43BD-A48D-BF2E6150A85F
+ms.author: windowssdkdev
+ms.date: 04/25/2018
+ms.keywords: GetDocument, GetDocument method [UPnP APIs], GetDocument method [UPnP APIs],IUPnPServiceDocumentAccess interface, IUPnPServiceDocumentAccess interface [UPnP APIs],GetDocument method, IUPnPServiceDocumentAccess.GetDocument, IUPnPServiceDocumentAccess::GetDocument, upnp.iupnpservicedocumentaccess_getdocument, upnp/IUPnPServiceDocumentAccess::GetDocument
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: upnp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Upnp.dll
+api_name:
+-	IUPnPServiceDocumentAccess.GetDocument
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUPnPServiceDocumentAccess::GetDocument

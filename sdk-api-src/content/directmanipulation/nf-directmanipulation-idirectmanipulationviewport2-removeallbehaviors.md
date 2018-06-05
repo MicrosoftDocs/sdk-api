@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:directmanipulation.IDirectManipulationViewport2.RemoveAllBehaviors
+title: IDirectManipulationViewport2::RemoveAllBehaviors
+author: windows-sdk-content
+description: Removes all behaviors added to the viewport.
+old-location: directmanipulation\idirectmanipulationviewport2_removeallbehaviors.htm
+old-project: directmanipulation
+ms.assetid: 94CCF2F4-F6E7-4446-8F6A-3E058B98A328
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IDirectManipulationViewport2 interface [Direct Manipulation],RemoveAllBehaviors method, IDirectManipulationViewport2.RemoveAllBehaviors, IDirectManipulationViewport2::RemoveAllBehaviors, RemoveAllBehaviors, RemoveAllBehaviors method [Direct Manipulation], RemoveAllBehaviors method [Direct Manipulation],IDirectManipulationViewport2 interface, directmanipulation.idirectmanipulationviewport2_removeallbehaviors, directmanipulation/IDirectManipulationViewport2::RemoveAllBehaviors
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DirectManipulation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DirectManipulation.h
+api_name:
+-	IDirectManipulationViewport2.RemoveAllBehaviors
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectManipulationViewport2::RemoveAllBehaviors

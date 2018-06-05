@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vfw.ICLocate
+title: ICLocate function
+author: windows-sdk-content
+description: The ICLocate function finds a compressor or decompressor that can handle images with the specified formats, or finds a driver that can decompress an image with a specified format directly to hardware.
+old-location: multimedia\iclocate.htm
+old-project: Multimedia
+ms.assetid: df7b14fe-9a6a-41d3-ba61-46b2e1df0b00
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ICLocate, ICLocate function [Windows Multimedia], ICMODE_COMPRESS, ICMODE_DECOMPRESS, ICMODE_DRAW, ICMODE_FASTCOMPRESS, ICMODE_FASTDECOMPRESS, _win32_ICLocate, multimedia.iclocate, vfw/ICLocate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msvfw32.dll
+api_name:
+-	ICLocate
+product: Windows
+targetos: Windows
+req.lib: Vfw32.lib
+req.dll: Msvfw32.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # ICLocate function

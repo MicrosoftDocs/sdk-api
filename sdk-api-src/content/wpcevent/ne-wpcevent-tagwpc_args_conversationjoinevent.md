@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wpcevent.tagWPC_ARGS_CONVERSATIONJOINEVENT
+title: tagWPC_ARGS_CONVERSATIONJOINEVENT
+author: windows-sdk-content
+description: Indicates information about joining an existing conversation.
+old-location: parcon\wpc_args_conversationjoinevent.htm
+old-project: parcon
+ms.assetid: 842be210-a302-4d4a-9573-5da9fc79101e
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WPC_ARGS_CONVERSATIONJOINEVENT, WPC_ARGS_CONVERSATIONJOINEVENT enumeration, WPC_ARGS_CONVERSATIONJOINEVENT_ACCOUNTNAME, WPC_ARGS_CONVERSATIONJOINEVENT_APPNAME, WPC_ARGS_CONVERSATIONJOINEVENT_APPVERSION, WPC_ARGS_CONVERSATIONJOINEVENT_CARGS, WPC_ARGS_CONVERSATIONJOINEVENT_CONVID, WPC_ARGS_CONVERSATIONJOINEVENT_JOININGIP, WPC_ARGS_CONVERSATIONJOINEVENT_JOININGUSER, WPC_ARGS_CONVERSATIONJOINEVENT_MEMBER, WPC_ARGS_CONVERSATIONJOINEVENT_MEMBERCOUNT, WPC_ARGS_CONVERSATIONJOINEVENT_REASON, WPC_ARGS_CONVERSATIONJOINEVENT_SENDER, parcon.wpc_args_conversationjoinevent, tagWPC_ARGS_CONVERSATIONJOINEVENT, wpcevent/WPC_ARGS_CONVERSATIONJOINEVENT, wpcevent/WPC_ARGS_CONVERSATIONJOINEVENT_ACCOUNTNAME, wpcevent/WPC_ARGS_CONVERSATIONJOINEVENT_APPNAME, wpcevent/WPC_ARGS_CONVERSATIONJOINEVENT_APPVERSION, wpcevent/WPC_ARGS_CONVERSATIONJOINEVENT_CARGS, wpcevent/WPC_ARGS_CONVERSATIONJOINEVENT_CONVID, wpcevent/WPC_ARGS_CONVERSATIONJOINEVENT_JOININGIP, wpcevent/WPC_ARGS_CONVERSATIONJOINEVENT_JOININGUSER, wpcevent/WPC_ARGS_CONVERSATIONJOINEVENT_MEMBER, wpcevent/WPC_ARGS_CONVERSATIONJOINEVENT_MEMBERCOUNT, wpcevent/WPC_ARGS_CONVERSATIONJOINEVENT_REASON, wpcevent/WPC_ARGS_CONVERSATIONJOINEVENT_SENDER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wpcevent.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WPC_ARGS_CONVERSATIONJOINEVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wpcevent.h
+api_name:
+-	WPC_ARGS_CONVERSATIONJOINEVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagWPC_ARGS_CONVERSATIONJOINEVENT enumeration

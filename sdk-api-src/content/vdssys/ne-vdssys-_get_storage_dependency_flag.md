@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vdssys._GET_STORAGE_DEPENDENCY_FLAG
+title: "_GET_STORAGE_DEPENDENCY_FLAG"
+author: windows-sdk-content
+description: Contains virtual hard disk (VHD) storage dependency request flags.
+old-location: vhd\get_storage_dependency_flag.htm
+old-project: VStor
+ms.assetid: 6a438edf-698b-4b2d-8864-c97fbf9eaa9f
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GET_STORAGE_DEPENDENCY_FLAG, GET_STORAGE_DEPENDENCY_FLAG enumeration [VHD], GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE, GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES, GET_STORAGE_DEPENDENCY_FLAG_NONE, _GET_STORAGE_DEPENDENCY_FLAG, vdssys/GET_STORAGE_DEPENDENCY_FLAG, vdssys/GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE, vdssys/GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES, vdssys/GET_STORAGE_DEPENDENCY_FLAG_NONE, vhd.get_storage_dependency_flag, virtdisk/GET_STORAGE_DEPENDENCY_FLAG, virtdisk/GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE, virtdisk/GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES, virtdisk/GET_STORAGE_DEPENDENCY_FLAG_NONE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vdssys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GET_STORAGE_DEPENDENCY_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VirtDisk.h
+-	vdssys.h
+api_name:
+-	GET_STORAGE_DEPENDENCY_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _GET_STORAGE_DEPENDENCY_FLAG enumeration

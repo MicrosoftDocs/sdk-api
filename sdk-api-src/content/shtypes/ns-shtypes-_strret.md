@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shtypes._STRRET
+title: "_STRRET"
+author: windows-sdk-content
+description: Contains strings returned from the IShellFolder interface methods.
+old-location: shell\STRRET.htm
+old-project: shell
+ms.assetid: 7868ef9b-07db-455b-b0be-ef0db7891447
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPSTRRET, LPSTRRET, LPSTRRET structure pointer [Windows Shell], STRRET, STRRET structure [Windows Shell], STRRET_CSTR, STRRET_OFFSET, STRRET_WSTR, _STRRET, _win32_STRRET, shell.STRRET, shtypes/LPSTRRET, shtypes/STRRET"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shtypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shtypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STRRET
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shtypes.h
+api_name:
+-	STRRET
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _STRRET structure

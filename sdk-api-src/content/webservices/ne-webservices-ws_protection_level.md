@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_PROTECTION_LEVEL
+title: WS_PROTECTION_LEVEL
+author: windows-sdk-content
+description: Defines the required integrity and confidentiality levels for sent and received messages.
+old-location: wsw\ws_protection_level.htm
+old-project: wsw
+ms.assetid: 2b673728-1050-4005-bbb6-64b81ec19174
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_PROTECTION_LEVEL, WS_PROTECTION_LEVEL enumeration [Web Services for Windows], WS_PROTECTION_LEVEL_NONE, WS_PROTECTION_LEVEL_SIGN, WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT, webservices/WS_PROTECTION_LEVEL, webservices/WS_PROTECTION_LEVEL_NONE, webservices/WS_PROTECTION_LEVEL_SIGN, webservices/WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT, wsw.ws_protection_level
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_PROTECTION_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_PROTECTION_LEVEL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_PROTECTION_LEVEL enumeration

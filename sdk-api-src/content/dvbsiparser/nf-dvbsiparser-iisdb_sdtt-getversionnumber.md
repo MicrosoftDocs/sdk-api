@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dvbsiparser.IISDB_SDTT.GetVersionNumber
+title: IISDB_SDTT::GetVersionNumber
+author: windows-sdk-content
+description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
+old-location: mstv\iisdb_sdtt_getversionnumber.htm
+old-project: mstv
+ms.assetid: 19b2234b-6836-42b7-9e64-a8212946c77b
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_SDTT.GetVersionNumber, IISDB_SDTT::GetVersionNumber, dvbsiparser/IISDB_SDTT::GetVersionNumber, mstv.iisdb_sdtt_getversionnumber
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: Dvbsiparser.idl
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IISDB_SDTT.GetVersionNumber
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IISDB_SDTT::GetVersionNumber

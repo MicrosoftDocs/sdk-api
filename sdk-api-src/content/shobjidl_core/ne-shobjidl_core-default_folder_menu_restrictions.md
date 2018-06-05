@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core.DEFAULT_FOLDER_MENU_RESTRICTIONS
+title: DEFAULT_FOLDER_MENU_RESTRICTIONS
+author: windows-sdk-content
+description: "."
+old-location: shell\DEFAULT_FOLDER_MENU_RESTRICTIONS.htm
+old-project: shell
+ms.assetid: E33EB02B-11FC-4c1f-AF38-0E5382CC8B5F
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: DEFAULT_FOLDER_MENU_RESTRICTIONS, DEFAULT_FOLDER_MENU_RESTRICTIONS enumeration [Windows Shell], DFMR_DEFAULT, DFMR_NO_ASYNC_VERBS, DFMR_NO_RESOURCE_VERBS, DFMR_NO_STATIC_VERBS, DFMR_OPTIN_HANDLERS_ONLY, DFMR_RESOURCE_AND_FOLDER_VERBS_ONLY, DFMR_STATIC_VERBS_ONLY, DFMR_USE_SPECIFIED_HANDLERS, DFMR_USE_SPECIFIED_VERBS, shell.DEFAULT_FOLDER_MENU_RESTRICTIONS, shobjidl_core/DEFAULT_FOLDER_MENU_RESTRICTIONS, shobjidl_core/DFMR_DEFAULT, shobjidl_core/DFMR_NO_ASYNC_VERBS, shobjidl_core/DFMR_NO_RESOURCE_VERBS, shobjidl_core/DFMR_NO_STATIC_VERBS, shobjidl_core/DFMR_OPTIN_HANDLERS_ONLY, shobjidl_core/DFMR_RESOURCE_AND_FOLDER_VERBS_ONLY, shobjidl_core/DFMR_STATIC_VERBS_ONLY, shobjidl_core/DFMR_USE_SPECIFIED_HANDLERS, shobjidl_core/DFMR_USE_SPECIFIED_VERBS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEFAULT_FOLDER_MENU_RESTRICTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	DEFAULT_FOLDER_MENU_RESTRICTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # DEFAULT_FOLDER_MENU_RESTRICTIONS enumeration

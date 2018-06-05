@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:amstream.IAMMultiMediaStream.OpenFile
+title: IAMMultiMediaStream::OpenFile
+author: windows-sdk-content
+description: Note  This interface is deprecated. New applications should not use it. The OpenFile method opens and automatically creates a filter graph for the specified media file. If DirectShow doesn't support the file format, this method does nothing.
+old-location: dshow\iammultimediastream_openfile.htm
+old-project: DirectShow
+ms.assetid: 0b3f7401-9afe-41e5-827f-e4e8d60b7480
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IAMMultiMediaStream interface [DirectShow],OpenFile method, IAMMultiMediaStream.OpenFile, IAMMultiMediaStream::OpenFile, IAMMultiMediaStreamOpenFile, OpenFile, OpenFile method [DirectShow], OpenFile method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::OpenFile, dshow.iammultimediastream_openfile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: amstream.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMSI_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	amstream.h
+api_name:
+-	IAMMultiMediaStream.OpenFile
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAMMultiMediaStream::OpenFile

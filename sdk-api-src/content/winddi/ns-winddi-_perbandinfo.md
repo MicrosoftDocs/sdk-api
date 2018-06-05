@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi._PERBANDINFO
+title: "_PERBANDINFO"
+author: windows-sdk-content
+description: The PERBANDINFO structure is used as input to a printer graphics DLL's DrvQueryPerBandInfo function.
+old-location: display\perbandinfo.htm
+old-project: display
+ms.assetid: ec02542f-68d1-4d05-a4d1-e475725997ad
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PPERBANDINFO, PERBANDINFO, PERBANDINFO structure [Display Devices], PPERBANDINFO, PPERBANDINFO structure pointer [Display Devices], _PERBANDINFO, display.perbandinfo, grstrcts_130088d9-975d-4b22-be85-90e129c64455.xml, winddi/PERBANDINFO, winddi/PPERBANDINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PERBANDINFO, *PPERBANDINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	PERBANDINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _PERBANDINFO structure

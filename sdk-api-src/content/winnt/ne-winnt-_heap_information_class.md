@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winnt._HEAP_INFORMATION_CLASS
+title: "_HEAP_INFORMATION_CLASS"
+author: windows-sdk-content
+description: Specifies the class of heap information to be set or retrieved.
+old-location: base\heap_information_class.htm
+old-project: Memory
+ms.assetid: 4D1B21D2-1F0E-4DC8-A583-220E9891DBBF
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: HEAP_INFORMATION_CLASS, HEAP_INFORMATION_CLASS enumeration, HeapCompatibilityInformation, HeapEnableTerminationOnCorruption, _HEAP_INFORMATION_CLASS, base.heap_information_class, winnt/HEAP_INFORMATION_CLASS, winnt/HeapCompatibilityInformation, winnt/HeapEnableTerminationOnCorruption
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HEAP_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	HEAP_INFORMATION_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _HEAP_INFORMATION_CLASS enumeration

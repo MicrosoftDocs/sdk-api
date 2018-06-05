@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi._DRIVEROBJ
+title: "_DRIVEROBJ"
+author: windows-sdk-content
+description: The DRIVEROBJ structure is used to track a resource, allocated by a driver, that requires use GDI services.
+old-location: display\driverobj.htm
+old-project: display
+ms.assetid: 313ee1bf-ee0c-4283-b5e1-5bbabb944a4a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DRIVEROBJ, DRIVEROBJ structure [Display Devices], _DRIVEROBJ, display.driverobj, grstrcts_8b5c3216-cbe0-4ddf-97b3-c54b39f996cb.xml, winddi/DRIVEROBJ
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRIVEROBJ
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	DRIVEROBJ
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _DRIVEROBJ structure

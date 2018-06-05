@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netfw.INetFwPolicy2.put_UnicastResponsesToMulticastBroadcastDisabled
+title: INetFwPolicy2::put_UnicastResponsesToMulticastBroadcastDisabled
+author: windows-sdk-content
+description: Indicates whether the firewall should not allow unicast responses to multicast and broadcast traffic.
+old-location: ics\inetfwpolicy2_unicastresponsestomulticastbroadcastdisabled.htm
+old-project: ICS
+ms.assetid: 4ab9cadf-7ecb-4b3d-a166-b491d89101d7
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: INetFwPolicy2 interface [ICS/ICF],UnicastResponsesToMulticastBroadcastDisabled property, INetFwPolicy2.UnicastResponsesToMulticastBroadcastDisabled, INetFwPolicy2.put_UnicastResponsesToMulticastBroadcastDisabled, INetFwPolicy2::UnicastResponsesToMulticastBroadcastDisabled, INetFwPolicy2::get_UnicastResponsesToMulticastBroadcastDisabled, INetFwPolicy2::put_UnicastResponsesToMulticastBroadcastDisabled, UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF], UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_unicastresponsestomulticastbroadcastdisabled, netfw/INetFwPolicy2::UnicastResponsesToMulticastBroadcastDisabled, netfw/INetFwPolicy2::get_UnicastResponsesToMulticastBroadcastDisabled, netfw/INetFwPolicy2::put_UnicastResponsesToMulticastBroadcastDisabled, put_UnicastResponsesToMulticastBroadcastDisabled
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netfw.h
+req.include-header: FirewallAPI.h, Netfw.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETISO_ERROR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wfapi.dll
+api_name:
+-	INetFwPolicy2.UnicastResponsesToMulticastBroadcastDisabled
+-	INetFwPolicy2.get_UnicastResponsesToMulticastBroadcastDisabled
+-	INetFwPolicy2.put_UnicastResponsesToMulticastBroadcastDisabled
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wfapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetFwPolicy2::put_UnicastResponsesToMulticastBroadcastDisabled

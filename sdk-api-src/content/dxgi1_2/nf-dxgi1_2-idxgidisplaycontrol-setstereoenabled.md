@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxgi1_2.IDXGIDisplayControl.SetStereoEnabled
+title: IDXGIDisplayControl::SetStereoEnabled
+author: windows-sdk-content
+description: Set a Boolean value to either enable or disable the operating system's stereoscopic 3D display behavior.
+old-location: direct3ddxgi\idxgidisplaycontrol_SetStereoEnabled.htm
+old-project: direct3ddxgi
+ms.assetid: 4A449444-287D-4F1D-9A86-F6165C38048F
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IDXGIDisplayControl interface [DXGI],SetStereoEnabled method, IDXGIDisplayControl.SetStereoEnabled, IDXGIDisplayControl::SetStereoEnabled, SetStereoEnabled, SetStereoEnabled method [DXGI], SetStereoEnabled method [DXGI],IDXGIDisplayControl interface, direct3ddxgi.idxgidisplaycontrol_SetStereoEnabled, dxgi1_2/IDXGIDisplayControl::SetStereoEnabled
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi1_2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dxgi.lib
+-	Dxgi.dll
+api_name:
+-	IDXGIDisplayControl.SetStereoEnabled
+product: Windows
+targetos: Windows
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIDisplayControl::SetStereoEnabled

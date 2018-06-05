@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:uxtheme._INTLIST
+title: "_INTLIST"
+author: windows-sdk-content
+description: Contains an array or list of int data items from a visual style.
+old-location: controls\INTLIST.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\userex\structures\intlist.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PINTLIST, INTLIST, INTLIST structure [Windows Controls], PINTLIST, PINTLIST structure pointer [Windows Controls], _INTLIST, controls.INTLIST, controls.inet_INTLIST, inet_INTLIST, inet_INTLIST_cpp, uxtheme/INTLIST, uxtheme/PINTLIST"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: uxtheme.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INTLIST, *PINTLIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UxTheme.h
+api_name:
+-	INTLIST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _INTLIST structure

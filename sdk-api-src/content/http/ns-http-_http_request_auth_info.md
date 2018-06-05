@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:http._HTTP_REQUEST_AUTH_INFO
+title: "_HTTP_REQUEST_AUTH_INFO"
+author: windows-sdk-content
+description: Contains the authentication status of the request with a handle to the client token that the receiving process can use to impersonate the authenticated client.
+old-location: http\http_request_auth_info.htm
+old-project: Http
+ms.assetid: 07008290-5277-4ef4-ae55-d335fdb2ba90
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_REQUEST_AUTH_INFO, *PHTTP_REQUEST_AUTH_INFO structure [HTTP], HTTP_REQUEST_AUTH_FLAG_TOKEN_FOR_CACHED_CRED, HTTP_REQUEST_AUTH_INFO, HTTP_REQUEST_AUTH_INFO structure [HTTP], _HTTP_REQUEST_AUTH_INFO, http.http_request_auth_info, http/*PHTTP_REQUEST_AUTH_INFO, http/HTTP_REQUEST_AUTH_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_REQUEST_AUTH_INFO, *PHTTP_REQUEST_AUTH_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_REQUEST_AUTH_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_REQUEST_AUTH_INFO structure

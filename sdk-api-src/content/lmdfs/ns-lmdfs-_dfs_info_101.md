@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmdfs._DFS_INFO_101
+title: "_DFS_INFO_101"
+author: windows-sdk-content
+description: Describes the state of storage on a DFS root, link, root target, or link target.
+old-location: dfs\dfs_info_101_str.htm
+old-project: Dfs
+ms.assetid: 506aaf68-2f23-4dd2-b43c-aeb86334a3d8
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDFS_INFO_101, *PDFS_INFO_101, DFS_INFO_101, DFS_INFO_101 structure [Distributed File System], DFS_STORAGE_STATE_ACTIVE, DFS_STORAGE_STATE_OFFLINE, DFS_STORAGE_STATE_ONLINE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, DFS_VOLUME_STATE_RESYNCHRONIZE, DFS_VOLUME_STATE_STANDBY, LPDFS_INFO_101, LPDFS_INFO_101 structure pointer [Distributed File System], PDFS_INFO_101, PDFS_INFO_101 structure pointer [Distributed File System], _DFS_INFO_101, _win32_dfs_info_101_str, dfs.dfs_info_101_str, fs.dfs_info_101_str, lmdfs/DFS_INFO_101, lmdfs/LPDFS_INFO_101, lmdfs/PDFS_INFO_101, netmgmt.dfs_info_101_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmdfs.h
+req.include-header: LmDfs.h, Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DFS_INFO_101, *PDFS_INFO_101, *LPDFS_INFO_101
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	LmDfs.h
+api_name:
+-	DFS_INFO_101
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _DFS_INFO_101 structure

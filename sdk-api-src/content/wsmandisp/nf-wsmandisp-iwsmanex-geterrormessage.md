@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wsmandisp.IWSManEx.GetErrorMessage
+title: IWSManEx::GetErrorMessage
+author: windows-sdk-content
+description: Returns a formatted string containing the text of an error number.
+old-location: winrm\iwsmanex_geterrormessage.htm
+old-project: WinRM
+ms.assetid: af5ae515-458a-4d7f-80f8-0fd51f97e7f1
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: GetErrorMessage, GetErrorMessage method [Windows Remote Management], GetErrorMessage method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],GetErrorMessage method, IWSManEx.GetErrorMessage, IWSManEx::GetErrorMessage, winrm.iwsmanex_geterrormessage, wsmandisp/IWSManEx::GetErrorMessage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wsmandisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WSManDisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSManProxyAuthenticationFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WSMAuto.dll
+api_name:
+-	IWSManEx.GetErrorMessage
+product: Windows
+targetos: Windows
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWSManEx::GetErrorMessage

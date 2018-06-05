@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN
+title: IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN
+author: windows-sdk-content
+description: This I/O control code (IOCTL) is sent by a user mode service or application to request a zero-length control status handshake on endpoint 0 in the IN direction.
+old-location: buses\ioctl_genericusbfn_control_status_handshake_in.htm
+old-project: usbref
+ms.assetid: A01233F3-3C5F-4184-9AAA-7391BFD2EB02
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN control, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN control code [Buses], buses.ioctl_genericusbfn_control_status_handshake_in, genericusbfnioctl/IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: ioctl
+req.header: genericusbfnioctl.h
+req.include-header: GenericUsbFnIoctl.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	GenericUsbFnIoctl.h
+api_name:
+-	IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN IOCTL

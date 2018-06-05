@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:raseapif._PPP_EAP_OUTPUT
+title: "_PPP_EAP_OUTPUT"
+author: windows-sdk-content
+description: The authentication protocol uses the PPP_EAP_OUTPUT structure to communicate requests and status information to the Connection Manager on return from calls to RasEapMakeMessage.
+old-location: eap\ppp_eap_output.htm
+old-project: EAP
+ms.assetid: d1634973-f6af-4be3-914a-513098c5fccf
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PPPP_EAP_OUTPUT, PPPP_EAP_OUTPUT, PPPP_EAP_OUTPUT structure pointer [EAP], PPP_EAP_OUTPUT, PPP_EAP_OUTPUT structure [EAP], _PPP_EAP_OUTPUT, _eap_ppp_eap_output, eap.ppp_eap_output, raseapif/PPPP_EAP_OUTPUT, raseapif/PPP_EAP_OUTPUT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: raseapif.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PPP_EAP_OUTPUT, *PPPP_EAP_OUTPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Raseapif.h
+api_name:
+-	PPP_EAP_OUTPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PPP_EAP_OUTPUT structure

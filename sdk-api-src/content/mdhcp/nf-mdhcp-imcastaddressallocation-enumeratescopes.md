@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mdhcp.IMcastAddressAllocation.EnumerateScopes
+title: IMcastAddressAllocation::EnumerateScopes
+author: windows-sdk-content
+description: The EnumerateScopes method creates an enumeration of multicast scopes available. This method is primarily for C++ programmers. Visual Basic and other scripting languages use get_Scopes instead.
+old-location: tapi3\imcastaddressallocation_enumeratescopes.htm
+old-project: Tapi
+ms.assetid: 1845f5f9-be0e-4609-89d8-1a0ed194dd68
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: EnumerateScopes, EnumerateScopes method [TAPI 2.2], EnumerateScopes method [TAPI 2.2],IMcastAddressAllocation interface, IMcastAddressAllocation interface [TAPI 2.2],EnumerateScopes method, IMcastAddressAllocation.EnumerateScopes, IMcastAddressAllocation::EnumerateScopes, _tapi3_imcastaddressallocation_enumeratescopes, mdhcp/IMcastAddressAllocation::EnumerateScopes, tapi3.imcastaddressallocation_enumeratescopes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mdhcp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mdhcp.dll
+api_name:
+-	IMcastAddressAllocation.EnumerateScopes
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMcastAddressAllocation::EnumerateScopes

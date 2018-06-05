@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CertNameToStrW
+title: CertNameToStrW function
+author: windows-sdk-content
+description: Converts an encoded name in a CERT_NAME_BLOB structure to a null-terminated character string.
+old-location: security\certnametostr.htm
+old-project: SecCrypto
+ms.assetid: b3d96de8-5cbc-4ccb-b759-6757520bbda3
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CERT_NAME_STR_CRLF_FLAG, CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG, CERT_NAME_STR_ENABLE_PUNYCODE_FLAG, CERT_NAME_STR_NO_PLUS_FLAG, CERT_NAME_STR_NO_QUOTING_FLAG, CERT_NAME_STR_REVERSE_FLAG, CERT_NAME_STR_SEMICOLON_FLAG, CERT_OID_NAME_STR, CERT_SIMPLE_NAME_STR, CERT_X500_NAME_STR, CertNameToStr, CertNameToStr function [Security], CertNameToStrA, CertNameToStrW, X509_ASN_ENCODING, _crypto2_certnametostr, security.certnametostr, wincrypt/CertNameToStr, wincrypt/CertNameToStrA, wincrypt/CertNameToStrW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CertNameToStrW (Unicode) and CertNameToStrA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CertNameToStr
+-	CertNameToStrA
+-	CertNameToStrW
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CertNameToStrW function

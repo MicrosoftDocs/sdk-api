@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkTablets.get_DefaultTablet
+title: IInkTablets::get_DefaultTablet
+author: windows-sdk-content
+description: Gets the default tablet within the set of available tablets.
+old-location: tablet\inktablets_defaulttablet.htm
+old-project: tablet
+ms.assetid: 4a9713c6-91a0-4632-9c8d-58d5e1b98478
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 4a9713c6-91a0-4632-9c8d-58d5e1b98478, DefaultTablet property [Tablet PC], DefaultTablet property [Tablet PC],IInkTablets interface, IInkTablets interface [Tablet PC],DefaultTablet property, IInkTablets.DefaultTablet, IInkTablets.get_DefaultTablet, IInkTablets::DefaultTablet, IInkTablets::get_DefaultTablet, InkTablets.get_DefaultTablet, get_DefaultTablet, msinkaut/IInkTablets::DefaultTablet, msinkaut/IInkTablets::get_DefaultTablet, tablet.inktablets_defaulttablet
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkTablets.DefaultTablet
+-	IInkTablets.get_DefaultTablet
+-	InkTablets.get_DefaultTablet
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkTablets::get_DefaultTablet

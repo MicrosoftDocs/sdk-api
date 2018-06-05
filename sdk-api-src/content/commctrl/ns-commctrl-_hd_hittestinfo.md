@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl._HD_HITTESTINFO
+title: "_HD_HITTESTINFO"
+author: windows-sdk-content
+description: Contains information about a hit test. This structure is used with the HDM_HITTEST message and it supersedes the HD_HITTESTINFO structure.
+old-location: controls\HDHITTESTINFO.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\header\structures\hdhittestinfo.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPHDHITTESTINFO, HDHITTESTINFO, HDHITTESTINFO structure [Windows Controls], HHT_ABOVE, HHT_BELOW, HHT_NOWHERE, HHT_ONDIVIDER, HHT_ONDIVOPEN, HHT_ONDROPDOWN, HHT_ONFILTER, HHT_ONFILTERBUTTON, HHT_ONHEADER, HHT_ONITEMSTATEICON, HHT_ONOVERFLOW, HHT_TOLEFT, HHT_TORIGHT, LPHDHITTESTINFO, LPHDHITTESTINFO structure pointer [Windows Controls], _HD_HITTESTINFO, _win32_HDHITTESTINFO, _win32_HDHITTESTINFO_cpp, commctrl/HDHITTESTINFO, commctrl/LPHDHITTESTINFO, controls.HDHITTESTINFO, controls._win32_HDHITTESTINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HDHITTESTINFO, *LPHDHITTESTINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	HDHITTESTINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _HD_HITTESTINFO structure

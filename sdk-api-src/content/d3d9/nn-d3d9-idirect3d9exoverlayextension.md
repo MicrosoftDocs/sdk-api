@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:d3d9.IDirect3D9ExOverlayExtension
+title: IDirect3D9ExOverlayExtension
+author: windows-sdk-content
+description: Queries the overlay hardware capabilities of a Direct3D device.
+old-location: mf\idirect3d9exoverlayextension.htm
+old-project: medfound
+ms.assetid: 57591794-96d3-40e6-a4fb-3bb195fd1396
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IDirect3D9ExOverlayExtension, IDirect3D9ExOverlayExtension interface [Media Foundation], IDirect3D9ExOverlayExtension interface [Media Foundation],described, d3d9/IDirect3D9ExOverlayExtension, mf.idirect3d9exoverlayextension
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: d3d9.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d9.h
+api_name:
+-	IDirect3D9ExOverlayExtension
+product: Windows
+targetos: Windows
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 ---
 
 # IDirect3D9ExOverlayExtension interface

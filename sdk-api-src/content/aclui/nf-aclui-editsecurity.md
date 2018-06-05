@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:aclui.EditSecurity
+title: EditSecurity function
+author: windows-sdk-content
+description: Displays a property sheet that contains a basic security property page. This property page enables the user to view and edit the access rights allowed or denied by the ACEs in an object's DACL.
+old-location: security\editsecurity.htm
+old-project: SecAuthZ
+ms.assetid: 756c94b0-946f-47eb-b4b4-db3e6e89fe46
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: EditSecurity, EditSecurity function [Security], _win32_editsecurity, aclui/EditSecurity, security.editsecurity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: aclui.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SI_PAGE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Aclui.dll
+api_name:
+-	EditSecurity
+product: Windows
+targetos: Windows
+req.lib: Aclui.lib
+req.dll: Aclui.dll
+req.irql: 
 ---
 
 # EditSecurity function

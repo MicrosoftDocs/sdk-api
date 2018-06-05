@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:oaidl.tagFUNCFLAGS
+title: tagFUNCFLAGS
+author: windows-sdk-content
+description: Specifies function flags.
+old-location: automat\funcflags.htm
+old-project: automat
+ms.assetid: 290f8769-dde4-47b9-b3bb-680efc95f532
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: FUNCFLAGS, FUNCFLAGS enumeration [Automation], FUNCFLAG_FBINDABLE, FUNCFLAG_FDEFAULTBIND, FUNCFLAG_FDEFAULTCOLLELEM, FUNCFLAG_FDISPLAYBIND, FUNCFLAG_FHIDDEN, FUNCFLAG_FIMMEDIATEBIND, FUNCFLAG_FNONBROWSABLE, FUNCFLAG_FREPLACEABLE, FUNCFLAG_FREQUESTEDIT, FUNCFLAG_FRESTRICTED, FUNCFLAG_FSOURCE, FUNCFLAG_FUIDEFAULT, FUNCFLAG_FUSESGETLASTERROR, _oa96_FUNCFLAGS, automat.funcflags, oaidl/FUNCFLAGS, oaidl/FUNCFLAG_FBINDABLE, oaidl/FUNCFLAG_FDEFAULTBIND, oaidl/FUNCFLAG_FDEFAULTCOLLELEM, oaidl/FUNCFLAG_FDISPLAYBIND, oaidl/FUNCFLAG_FHIDDEN, oaidl/FUNCFLAG_FIMMEDIATEBIND, oaidl/FUNCFLAG_FNONBROWSABLE, oaidl/FUNCFLAG_FREPLACEABLE, oaidl/FUNCFLAG_FREQUESTEDIT, oaidl/FUNCFLAG_FRESTRICTED, oaidl/FUNCFLAG_FSOURCE, oaidl/FUNCFLAG_FUIDEFAULT, oaidl/FUNCFLAG_FUSESGETLASTERROR, tagFUNCFLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FUNCFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	OaIdl.h
+api_name:
+-	FUNCFLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagFUNCFLAGS enumeration

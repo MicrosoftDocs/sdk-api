@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dbghelp.StackWalkEx
+title: StackWalkEx function
+author: windows-sdk-content
+description: Obtains a stack trace.
+old-location: base\stackwalkex.htm
+old-project: Debug
+ms.assetid: 87765e30-b444-4f68-b11f-1be73e0775fc
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, SYM_STKWALK_DEFAULT, SYM_STKWALK_FORCE_FRAMEPTR, StackWalkEx, StackWalkEx function, base.stackwalkex, dbghelp/StackWalkEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	DbgHelp.dll
+api_name:
+-	StackWalkEx
+product: Windows
+targetos: Windows
+req.lib: DbgHelp.lib
+req.dll: DbgHelp.dll
+req.irql: 
 ---
 
 # StackWalkEx function

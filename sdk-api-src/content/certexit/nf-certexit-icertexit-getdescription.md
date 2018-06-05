@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certexit.ICertExit.GetDescription
+title: ICertExit::GetDescription
+author: windows-sdk-content
+description: Returns a human-readable description of the exit module and its function.
+old-location: security\icertexit2_getdescription.htm
+old-project: SecCrypto
+ms.assetid: 362d67c7-54ab-482e-9b2b-05ba1b6e2a70
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertExit object [Security],GetDescription method, GetDescription, GetDescription method [Security], GetDescription method [Security],CCertExit object, GetDescription method [Security],ICertExit interface, GetDescription method [Security],ICertExit2 interface, ICertExit interface [Security],GetDescription method, ICertExit.GetDescription, ICertExit2 interface [Security],GetDescription method, ICertExit2::GetDescription, ICertExit::GetDescription, _certsrv_icertexit_getdescription, certexit/ICertExit2::GetDescription, certexit/ICertExit::GetDescription, security.icertexit2_getdescription
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certexit.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certexit.h
+api_name:
+-	ICertExit2.GetDescription
+-	ICertExit.GetDescription
+-	CCertExit.GetDescription
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICertExit::GetDescription

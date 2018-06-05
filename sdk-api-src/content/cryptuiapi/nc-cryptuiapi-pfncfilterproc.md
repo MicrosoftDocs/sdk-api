@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:cryptuiapi.PFNCFILTERPROC
+title: PFNCFILTERPROC
+author: windows-sdk-content
+description: An application-defined callback function that filters the certificates that appear in the digital signature wizard that are displayed by the CryptUIWizDigitalSign function.
+old-location: security\pfncfilterproc.htm
+old-project: SecCrypto
+ms.assetid: ced0f35c-7e22-4d19-8352-0bfa37ff1a4b
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: PFNCFILTERPROC, PFNCFILTERPROC callback, PFNCFILTERPROC callback function [Security], cryptuiapi/PFNCFILTERPROC, security.pfncfilterproc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: cryptuiapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Cryptuiapi.h
+api_name:
+-	PFNCFILTERPROC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PFNCFILTERPROC callback function

@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mbnapi.IMbnSmsConfiguration.get_CdmaShortMsgSize
+title: IMbnSmsConfiguration::get_CdmaShortMsgSize
+author: windows-sdk-content
+description: Maximum CDMA short message character length.
+old-location: mbn\imbnsmsconfiguration_cdmashortmsgsize.htm
+old-project: mbn
+ms.assetid: 2aac8cad-565e-45e4-a7a4-88ebfab420ea
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: CdmaShortMsgSize property [Microsoft Broadband Networks], CdmaShortMsgSize property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, IMbnSmsConfiguration interface [Microsoft Broadband Networks],CdmaShortMsgSize property, IMbnSmsConfiguration.CdmaShortMsgSize, IMbnSmsConfiguration.get_CdmaShortMsgSize, IMbnSmsConfiguration::CdmaShortMsgSize, IMbnSmsConfiguration::get_CdmaShortMsgSize, get_CdmaShortMsgSize, mbn.imbnsmsconfiguration_cdmashortmsgsize, mbnapi/IMbnSmsConfiguration::CdmaShortMsgSize, mbnapi/IMbnSmsConfiguration::get_CdmaShortMsgSize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnSmsConfiguration.CdmaShortMsgSize
+-	IMbnSmsConfiguration.get_CdmaShortMsgSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMbnSmsConfiguration::get_CdmaShortMsgSize

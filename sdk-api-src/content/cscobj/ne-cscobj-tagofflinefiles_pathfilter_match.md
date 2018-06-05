@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:cscobj.tagOFFLINEFILES_PATHFILTER_MATCH
+title: tagOFFLINEFILES_PATHFILTER_MATCH
+author: windows-sdk-content
+description: Specifies how closely an event must match a filter.
+old-location: of\offlinefiles_pathfilter_match.htm
+old-project: OfflineFiles
+ms.assetid: fae3d36d-b5f3-45ae-97f2-41fd6045d976
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: OFFLINEFILES_PATHFILTER_CHILD, OFFLINEFILES_PATHFILTER_DESCENDENT, OFFLINEFILES_PATHFILTER_MATCH, OFFLINEFILES_PATHFILTER_MATCH enumeration [Offline Files], OFFLINEFILES_PATHFILTER_SELF, OFFLINEFILES_PATHFILTER_SELFORCHILD, OFFLINEFILES_PATHFILTER_SELFORDESCENDENT, cscobj/OFFLINEFILES_PATHFILTER_CHILD, cscobj/OFFLINEFILES_PATHFILTER_DESCENDENT, cscobj/OFFLINEFILES_PATHFILTER_MATCH, cscobj/OFFLINEFILES_PATHFILTER_SELF, cscobj/OFFLINEFILES_PATHFILTER_SELFORCHILD, cscobj/OFFLINEFILES_PATHFILTER_SELFORDESCENDENT, of.offlinefiles_pathfilter_match, tagOFFLINEFILES_PATHFILTER_MATCH
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFFLINEFILES_PATHFILTER_MATCH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CscObj.h
+api_name:
+-	OFFLINEFILES_PATHFILTER_MATCH
+product: Windows
+targetos: Windows
+req.lib: CscApi.lib
+req.dll: CscApi.dll
+req.irql: 
 ---
 
 # tagOFFLINEFILES_PATHFILTER_MATCH enumeration

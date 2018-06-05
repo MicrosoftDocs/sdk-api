@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:wsmandisp.IWSManConnectionOptionsEx
+title: IWSManConnectionOptionsEx
+author: windows-sdk-content
+description: The IWSManConnectionOptionsEx object is passed to the IWSMan::CreateSession method to provide the thumbprint of the client certificate used for authentication.
+old-location: winrm\iwsmanconnectionoptionsex.htm
+old-project: WinRM
+ms.assetid: aa47c9bf-6c7d-41c2-a29b-929600ee371a
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IWSManConnectionOptionsEx, IWSManConnectionOptionsEx interface [Windows Remote Management], IWSManConnectionOptionsEx interface [Windows Remote Management],described, winrm.iwsmanconnectionoptionsex, wsmandisp/IWSManConnectionOptionsEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wsmandisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WSManDisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSManProxyAuthenticationFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WSMAuto.dll
+api_name:
+-	IWSManConnectionOptionsEx
+product: Windows
+targetos: Windows
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWSManConnectionOptionsEx interface

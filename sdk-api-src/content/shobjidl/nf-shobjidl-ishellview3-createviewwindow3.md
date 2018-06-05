@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl.IShellView3.CreateViewWindow3
+title: IShellView3::CreateViewWindow3
+author: windows-sdk-content
+description: Requests the creation of a new Shell view window. The view can be either the right pane of Windows Explorer or the client window of a folder window. This method replaces CreateViewWindow2.
+old-location: shell\IShellView3_CreateViewWindow3.htm
+old-project: shell
+ms.assetid: d5790f31-922d-41cc-b9a7-0b809615ef1f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CreateViewWindow3, CreateViewWindow3 method [Windows Shell], CreateViewWindow3 method [Windows Shell],IShellView3 interface, IShellView3 interface [Windows Shell],CreateViewWindow3 method, IShellView3.CreateViewWindow3, IShellView3::CreateViewWindow3, SV3CVW3_DEFAULT, SV3CVW3_FORCEFOLDERFLAGS, SV3CVW3_FORCEVIEWMODE, SV3CVW3_NONINTERACTIVE, _shell_IShellView3_CreateViewWindow3, shell.IShellView3_CreateViewWindow3, shobjidl/IShellView3::CreateViewWindow3
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shobjidl.h
+api_name:
+-	IShellView3.CreateViewWindow3
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # IShellView3::CreateViewWindow3

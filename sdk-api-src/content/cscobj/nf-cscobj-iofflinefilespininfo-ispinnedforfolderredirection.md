@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cscobj.IOfflineFilesPinInfo.IsPinnedForFolderRedirection
+title: IOfflineFilesPinInfo::IsPinnedForFolderRedirection
+author: windows-sdk-content
+description: Determines whether the item was pinned by Folder Redirection.
+old-location: of\iofflinefilespininfo_ispinnedforfolderredirection.htm
+old-project: OfflineFiles
+ms.assetid: b832f75a-3cd4-4421-a0a5-22c5682cb4c3
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinnedForFolderRedirection method, IOfflineFilesPinInfo.IsPinnedForFolderRedirection, IOfflineFilesPinInfo::IsPinnedForFolderRedirection, IsPinnedForFolderRedirection, IsPinnedForFolderRedirection method [Offline Files], IsPinnedForFolderRedirection method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinnedForFolderRedirection, of.iofflinefilespininfo_ispinnedforfolderredirection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFFLINEFILES_SYNC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CscSvc.dll
+-	CscObj.dll
+api_name:
+-	IOfflineFilesPinInfo.IsPinnedForFolderRedirection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 ---
 
 # IOfflineFilesPinInfo::IsPinnedForFolderRedirection

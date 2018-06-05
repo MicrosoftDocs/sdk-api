@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msclus.__MIDL___MIDL_itf_msclus_0000_0000_0001
+title: "__MIDL___MIDL_itf_msclus_0000_0000_0001"
+author: windows-sdk-content
+description: Specifies the type of cluster group to create.
+old-location: mscs\clusgroup_type.htm
+old-project: MsCS
+ms.assetid: E3937C18-A0B6-44ED-AA75-69940ACCBFAA
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCLUSGROUP_TYPE, CLUSGROUP_TYPE, CLUSGROUP_TYPE enumeration [Failover Cluster], ClusGroupTypeAvailableStorage, ClusGroupTypeClusterUpdateAgent, ClusGroupTypeCoreCluster, ClusGroupTypeCrossClusterOrchestrator, ClusGroupTypeDhcpServer, ClusGroupTypeDtc, ClusGroupTypeFileServer, ClusGroupTypeGenericApplication, ClusGroupTypeGenericScript, ClusGroupTypeGenericService, ClusGroupTypeIScsiNameService, ClusGroupTypeIScsiTarget, ClusGroupTypeMsmq, ClusGroupTypePrintServer, ClusGroupTypeScaleoutCluster, ClusGroupTypeScaleoutFileServer, ClusGroupTypeSharedVolume, ClusGroupTypeStandAloneDfs, ClusGroupTypeStoragePool, ClusGroupTypeStorageReplica, ClusGroupTypeTaskScheduler, ClusGroupTypeTemporary, ClusGroupTypeTsSessionBroker, ClusGroupTypeUnknown, ClusGroupTypeVMReplicaBroker, ClusGroupTypeVMReplicaCoordinator, ClusGroupTypeVirtualMachine, ClusGroupTypeWins, PCLUSGROUP_TYPE, PCLUSGROUP_TYPE enumeration pointer [Failover Cluster], __MIDL___MIDL_itf_msclus_0000_0000_0001, clusapi/CLUSGROUP_TYPE, clusapi/ClusGroupTypeAvailableStorage, clusapi/ClusGroupTypeClusterUpdateAgent, clusapi/ClusGroupTypeCoreCluster, clusapi/ClusGroupTypeCrossClusterOrchestrator, clusapi/ClusGroupTypeDhcpServer, clusapi/ClusGroupTypeDtc, clusapi/ClusGroupTypeFileServer, clusapi/ClusGroupTypeGenericApplication, clusapi/ClusGroupTypeGenericScript, clusapi/ClusGroupTypeGenericService, clusapi/ClusGroupTypeIScsiNameService, clusapi/ClusGroupTypeIScsiTarget, clusapi/ClusGroupTypeMsmq, clusapi/ClusGroupTypePrintServer, clusapi/ClusGroupTypeScaleoutCluster, clusapi/ClusGroupTypeScaleoutFileServer, clusapi/ClusGroupTypeSharedVolume, clusapi/ClusGroupTypeStandAloneDfs, clusapi/ClusGroupTypeStoragePool, clusapi/ClusGroupTypeStorageReplica, clusapi/ClusGroupTypeTaskScheduler, clusapi/ClusGroupTypeTemporary, clusapi/ClusGroupTypeTsSessionBroker, clusapi/ClusGroupTypeUnknown, clusapi/ClusGroupTypeVMReplicaBroker, clusapi/ClusGroupTypeVMReplicaCoordinator, clusapi/ClusGroupTypeVirtualMachine, clusapi/ClusGroupTypeWins, clusapi/PCLUSGROUP_TYPE, msclus/CLUSGROUP_TYPE, msclus/ClusGroupTypeAvailableStorage, msclus/ClusGroupTypeClusterUpdateAgent, msclus/ClusGroupTypeCoreCluster, msclus/ClusGroupTypeCrossClusterOrchestrator, msclus/ClusGroupTypeDhcpServer, msclus/ClusGroupTypeDtc, msclus/ClusGroupTypeFileServer, msclus/ClusGroupTypeGenericApplication, msclus/ClusGroupTypeGenericScript, msclus/ClusGroupTypeGenericService, msclus/ClusGroupTypeIScsiNameService, msclus/ClusGroupTypeIScsiTarget, msclus/ClusGroupTypeMsmq, msclus/ClusGroupTypePrintServer, msclus/ClusGroupTypeScaleoutCluster, msclus/ClusGroupTypeScaleoutFileServer, msclus/ClusGroupTypeSharedVolume, msclus/ClusGroupTypeStandAloneDfs, msclus/ClusGroupTypeStoragePool, msclus/ClusGroupTypeStorageReplica, msclus/ClusGroupTypeTaskScheduler, msclus/ClusGroupTypeTemporary, msclus/ClusGroupTypeTsSessionBroker, msclus/ClusGroupTypeUnknown, msclus/ClusGroupTypeVMReplicaBroker, msclus/ClusGroupTypeVMReplicaCoordinator, msclus/ClusGroupTypeVirtualMachine, msclus/ClusGroupTypeWins, msclus/PCLUSGROUP_TYPE, mscs.clusgroup_type"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSGROUP_TYPE, *PCLUSGROUP_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusApi.h
+-	MsClus.h
+api_name:
+-	CLUSGROUP_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_msclus_0000_0000_0001 enumeration

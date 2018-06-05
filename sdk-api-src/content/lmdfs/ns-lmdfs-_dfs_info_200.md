@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmdfs._DFS_INFO_200
+title: "_DFS_INFO_200"
+author: windows-sdk-content
+description: Contains the name of a domain-based Distributed File System (DFS) namespace.
+old-location: dfs\dfs_info_200_str.htm
+old-project: Dfs
+ms.assetid: a37a97b2-f2f2-45fc-9466-da75e273b075
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDFS_INFO_200, *PDFS_INFO_200, DFS_INFO_200, DFS_INFO_200 structure [Distributed File System], LPDFS_INFO_200, LPDFS_INFO_200 structure pointer [Distributed File System], PDFS_INFO_200, PDFS_INFO_200 structure pointer [Distributed File System], _DFS_INFO_200, _win32_dfs_info_200_str, dfs.dfs_info_200_str, fs.dfs_info_200_str, lmdfs/DFS_INFO_200, lmdfs/LPDFS_INFO_200, lmdfs/PDFS_INFO_200, netmgmt.dfs_info_200_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmdfs.h
+req.include-header: LmDfs.h, Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DFS_INFO_200, *PDFS_INFO_200, *LPDFS_INFO_200
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	LmDfs.h
+api_name:
+-	DFS_INFO_200
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _DFS_INFO_200 structure

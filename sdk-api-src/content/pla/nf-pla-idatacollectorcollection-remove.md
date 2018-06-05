@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataCollectorCollection.Remove
+title: IDataCollectorCollection::Remove
+author: windows-sdk-content
+description: Removes a data collector from the collection.
+old-location: pla\idatacollectorcollection_remove.htm
+old-project: PLA
+ms.assetid: 7f5a6d20-d65a-477b-8886-8536315bc36e
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IDataCollectorCollection interface [PLA],Remove method, IDataCollectorCollection.Remove, IDataCollectorCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IDataCollectorCollection interface, base.idatacollectorcollection_remove, pla.idatacollectorcollection_remove, pla/IDataCollectorCollection::Remove
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataCollectorCollection.Remove
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataCollectorCollection::Remove

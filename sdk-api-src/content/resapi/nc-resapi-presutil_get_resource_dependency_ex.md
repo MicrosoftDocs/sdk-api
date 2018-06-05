@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:resapi.PRESUTIL_GET_RESOURCE_DEPENDENCY_EX
+title: PRESUTIL_GET_RESOURCE_DEPENDENCY_EX
+author: windows-sdk-content
+description: Enumerates the dependencies of a specified resource and returns a handle to a dependency of a specified type. The PRESUTIL_GET_RESOURCE_DEPENDENCY_EX type defines a pointer to this function.
+old-location: mscs\resutilgetresourcedependencyex.htm
+old-project: MsCS
+ms.assetid: 8F5BB021-83FB-44CD-94B4-33FC8E398C5B
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_EX, PRESUTIL_GET_RESOURCE_DEPENDENCY_EX callback, PRESUTIL_GET_RESOURCE_DEPENDENCY_EX callback function [Failover Cluster], mscs.resutilgetresourcedependencyex, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_EX
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: resapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RENDEZVOUS_SESSION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ResApi.h
+api_name:
+-	PRESUTIL_GET_RESOURCE_DEPENDENCY_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PRESUTIL_GET_RESOURCE_DEPENDENCY_EX callback function

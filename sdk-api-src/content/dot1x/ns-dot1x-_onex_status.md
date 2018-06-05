@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dot1x._ONEX_STATUS
+title: "_ONEX_STATUS"
+author: windows-sdk-content
+description: Contains the current 802.1X authentication status.
+old-location: nwifi\onex_status.htm
+old-project: NativeWiFi
+ms.assetid: 2c19c65b-0943-4561-a28f-0104e1cbd229
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PONEX_STATUS, ONEX_STATUS, ONEX_STATUS structure [NativeWIFI], PONEX_STATUS, PONEX_STATUS structure pointer [NativeWIFI], _ONEX_STATUS, dot1x/ONEX_STATUS, dot1x/PONEX_STATUS, nwifi.onex_status"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dot1x.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ONEX_STATUS, *PONEX_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dot1x.h
+api_name:
+-	ONEX_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _ONEX_STATUS structure

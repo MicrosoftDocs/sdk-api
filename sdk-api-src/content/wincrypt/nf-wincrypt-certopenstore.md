@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CertOpenStore
+title: CertOpenStore function
+author: windows-sdk-content
+description: Opens a certificate store by using a specified store provider type.
+old-location: security\certopenstore.htm
+old-project: SecCrypto
+ms.assetid: 4edccbfe-c0a8-442b-b6b7-51ef598e7c90
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CERT_FILE_STORE_COMMIT_ENABLE, CERT_LDAP_STORE_AREC_EXCLUSIVE_FLAG, CERT_LDAP_STORE_OPENED_FLAG, CERT_LDAP_STORE_SIGN_FLAG, CERT_LDAP_STORE_UNBIND_FLAG, CERT_REGISTRY_STORE_REMOTE_FLAG, CERT_REGISTRY_STORE_SERIALIZED_FLAG, CERT_STORE_BACKUP_RESTORE_FLAG, CERT_STORE_CREATE_NEW_FLAG, CERT_STORE_DEFER_CLOSE_UNTIL_LAST_FREE_FLAG, CERT_STORE_DELETE_FLAG, CERT_STORE_ENUM_ARCHIVED_FLAG, CERT_STORE_MAXIMUM_ALLOWED_FLAG, CERT_STORE_NO_CRYPT_RELEASE_FLAG, CERT_STORE_OPEN_EXISTING_FLAG, CERT_STORE_PROV_COLLECTION, CERT_STORE_PROV_FILE, CERT_STORE_PROV_FILENAME(_W), CERT_STORE_PROV_FILENAME_A, CERT_STORE_PROV_LDAP(_W), CERT_STORE_PROV_MEMORY, CERT_STORE_PROV_MSG, CERT_STORE_PROV_PHYSICAL(_W), CERT_STORE_PROV_PKCS12, CERT_STORE_PROV_PKCS7, CERT_STORE_PROV_REG, CERT_STORE_PROV_SERIALIZED, CERT_STORE_PROV_SMART_CARD(_W), CERT_STORE_PROV_SYSTEM(_W), CERT_STORE_PROV_SYSTEM_A, CERT_STORE_PROV_SYSTEM_REGISTRY(_W), CERT_STORE_PROV_SYSTEM_REGISTRY_A, CERT_STORE_READONLY_FLAG, CERT_STORE_SET_LOCALIZED_NAME_FLAG, CERT_STORE_SHARE_CONTEXT_FLAG, CERT_STORE_UPDATE_KEYID_FLAG, CERT_SYSTEM_STORE_CURRENT_SERVICE, CERT_SYSTEM_STORE_CURRENT_USER, CERT_SYSTEM_STORE_CURRENT_USER_GROUP_POLICY, CERT_SYSTEM_STORE_LOCAL_MACHINE, CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY, CERT_SYSTEM_STORE_RELOCATE_FLAG, CERT_SYSTEM_STORE_SERVICES, CERT_SYSTEM_STORE_UNPROTECTED_FLAG, CERT_SYSTEM_STORE_USERS, CertOpenStore, CertOpenStore function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_certopenstore, security.certopenstore, wincrypt/CertOpenStore
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CertOpenStore
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CertOpenStore function

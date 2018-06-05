@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:upnp.IUPnPServiceAsync.CancelAsyncOperation
+title: IUPnPServiceAsync::CancelAsyncOperation
+author: windows-sdk-content
+description: CancelAsyncOperation method cancels a pending asynchronous operation initiated by the BeginInvokeAction, BeginQueryStateVariable, BeginSubscribeToEvents, or BeginSCPDDownload methods.
+old-location: upnp\iupnpserviceasync_cancelasyncoperation.htm
+old-project: UPnP
+ms.assetid: FBEC2DF3-6D45-49F2-AAA8-6DED697BC5A6
+ms.author: windowssdkdev
+ms.date: 04/25/2018
+ms.keywords: CancelAsyncOperation, CancelAsyncOperation method [UPnP APIs], CancelAsyncOperation method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],CancelAsyncOperation method, IUPnPServiceAsync.CancelAsyncOperation, IUPnPServiceAsync::CancelAsyncOperation, upnp.iupnpserviceasync_cancelasyncoperation, upnp/IUPnPServiceAsync::CancelAsyncOperation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: upnp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Upnp.dll
+api_name:
+-	IUPnPServiceAsync.CancelAsyncOperation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUPnPServiceAsync::CancelAsyncOperation

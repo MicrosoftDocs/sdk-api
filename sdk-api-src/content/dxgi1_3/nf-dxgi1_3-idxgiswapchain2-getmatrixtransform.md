@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxgi1_3.IDXGISwapChain2.GetMatrixTransform
+title: IDXGISwapChain2::GetMatrixTransform
+author: windows-sdk-content
+description: Gets the transform matrix that will be applied to a composition swap chain upon the next present.
+old-location: direct3ddxgi\idxgiswapchain2_getmatrixtransform.htm
+old-project: direct3ddxgi
+ms.assetid: 90302283-BB0A-44A9-8CD2-591571EF74ED
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: GetMatrixTransform, GetMatrixTransform method [DXGI], GetMatrixTransform method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetMatrixTransform method, IDXGISwapChain2.GetMatrixTransform, IDXGISwapChain2::GetMatrixTransform, direct3ddxgi.idxgiswapchain2_getmatrixtransform, dxgi1_3/IDXGISwapChain2::GetMatrixTransform
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi1_3.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxgi.lib
+-	dxgi.dll
+api_name:
+-	IDXGISwapChain2.GetMatrixTransform
+product: Windows
+targetos: Windows
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGISwapChain2::GetMatrixTransform

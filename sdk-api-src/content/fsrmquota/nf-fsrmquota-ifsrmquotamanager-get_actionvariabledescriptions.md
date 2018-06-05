@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmquota.IFsrmQuotaManager.get_ActionVariableDescriptions
+title: IFsrmQuotaManager::get_ActionVariableDescriptions
+author: windows-sdk-content
+description: Retrieves the descriptions for the macros contained in the IFsrmQuotaManager::ActionVariables property.
+old-location: fsrm\ifsrmquotamanager_actionvariabledescriptions.htm
+old-project: Fsrm
+ms.assetid: 39e2efcb-fbed-48aa-a1ea-481df6fe2ea6
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: ActionVariableDescriptions property [File Server Resource Manager], ActionVariableDescriptions property [File Server Resource Manager],FsrmQuotaManager class, ActionVariableDescriptions property [File Server Resource Manager],IFsrmQuotaManager interface, ActionVariableDescriptions property [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],ActionVariableDescriptions property, IFsrmQuotaManager interface [File Server Resource Manager],ActionVariableDescriptions property, IFsrmQuotaManager.ActionVariableDescriptions, IFsrmQuotaManager.get_ActionVariableDescriptions, IFsrmQuotaManager::ActionVariableDescriptions, IFsrmQuotaManager::get_ActionVariableDescriptions, IFsrmQuotaManagerEx interface [File Server Resource Manager],ActionVariableDescriptions property, IFsrmQuotaManagerEx.ActionVariableDescriptions, IFsrmQuotaManagerEx::get_ActionVariableDescriptions, fs.ifsrmquotamanager_actionvariabledescriptions, fsrm.ifsrmquotamanager_actionvariabledescriptions, fsrmquota/IFsrmQuotaManager::ActionVariableDescriptions, fsrmquota/IFsrmQuotaManager::get_ActionVariableDescriptions, fsrmquota/IFsrmQuotaManagerEx::ActionVariableDescriptions, fsrmquota/IFsrmQuotaManagerEx::get_ActionVariableDescriptions, get_ActionVariableDescriptions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmquota.h
+req.include-header: FsrmQuota.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmQuotaManager.ActionVariableDescriptions
+-	IFsrmQuotaManager.get_ActionVariableDescriptions
+-	IFsrmQuotaManagerEx.ActionVariableDescriptions
+-	IFsrmQuotaManagerEx.get_ActionVariableDescriptions
+-	FsrmQuotaManager.ActionVariableDescriptions
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmQuotaManager::get_ActionVariableDescriptions

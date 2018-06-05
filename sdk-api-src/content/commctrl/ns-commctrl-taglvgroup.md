@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.tagLVGROUP
+title: tagLVGROUP
+author: windows-sdk-content
+description: Used to set and retrieve groups.
+old-location: controls\LVGROUP.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\listview\structures\lv_group.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PLVGROUP, LVGF_FOOTER, LVGF_HEADER, LVGF_NONE, LVGF_STATE, LVGROUP, LVGROUP structure [Windows Controls], PLVGROUP, PLVGROUP structure pointer [Windows Controls], commctrl/LVGROUP, commctrl/PLVGROUP, controls.LVGROUP, controls.inet_LVGROUP, inet_LVGROUP, inet_LVGROUP_cpp, tagLVGROUP"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LVGROUP, *PLVGROUP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	LVGROUP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagLVGROUP structure

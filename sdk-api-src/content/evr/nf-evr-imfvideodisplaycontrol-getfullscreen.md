@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:evr.IMFVideoDisplayControl.GetFullscreen
+title: IMFVideoDisplayControl::GetFullscreen
+author: windows-sdk-content
+description: Queries whether the enhanced video renderer (EVR) is currently in full-screen mode.
+old-location: mf\imfvideodisplaycontrol_getfullscreen.htm
+old-project: medfound
+ms.assetid: ee564655-be8a-46f7-9682-acf3b38d056a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetFullscreen, GetFullscreen method [Media Foundation], GetFullscreen method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetFullscreen method, IMFVideoDisplayControl.GetFullscreen, IMFVideoDisplayControl::GetFullscreen, ee564655-be8a-46f7-9682-acf3b38d056a, evr/IMFVideoDisplayControl::GetFullscreen, mf.imfvideodisplaycontrol_getfullscreen
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: evr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoMixPrefs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	strmiids.lib
+-	strmiids.dll
+api_name:
+-	IMFVideoDisplayControl.GetFullscreen
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IMFVideoDisplayControl::GetFullscreen

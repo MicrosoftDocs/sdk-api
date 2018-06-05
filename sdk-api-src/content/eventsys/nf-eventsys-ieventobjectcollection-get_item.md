@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:eventsys.IEventObjectCollection.get_Item
+title: IEventObjectCollection::get_Item
+author: windows-sdk-content
+description: An item in the collection.
+old-location: cos\ieventobjectcollection_item.htm
+old-project: cossdk
+ms.assetid: 6d037759-3b13-4f4d-b27d-a3a20be0f0aa
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IEventObjectCollection interface [COM+],Item property, IEventObjectCollection.Item, IEventObjectCollection.get_Item, IEventObjectCollection::Item, IEventObjectCollection::get_Item, Item property [COM+], Item property [COM+],IEventObjectCollection interface, cos.ieventobjectcollection_item, eventsys/IEventObjectCollection::Item, eventsys/IEventObjectCollection::get_Item, get_Item
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: eventsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Eventsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EOC_ChangeType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Eventsys.h
+api_name:
+-	IEventObjectCollection.Item
+-	IEventObjectCollection.get_Item
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IEventObjectCollection::get_Item

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dcomp.SetBlackPointX
+title: SetBlackPointX function
+author: windows-sdk-content
+description: Sets the x value of the black point.
+old-location: directcomp\idcompositionbrightnesseffect_setblackpointx_overloaded.htm
+old-project: directcomp
+ms.assetid: 05fc473f-4dc6-b64d-830e-4153b1e0e392
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: SetBlackPointX, SetBlackPointX methods [DirectComposition], dcomp/SetBlackPointX, directcomp.idcompositionbrightnesseffect_setblackpointx_overloaded, idcompositionbrightnesseffect::SetBlackPointX
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dcomp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D_VECTOR_4F
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dcomp.h
+api_name:
+-	idcompositionbrightnesseffect::SetBlackPointX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # SetBlackPointX function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:strmif._VMRALPHABITMAP
+title: "_VMRALPHABITMAP"
+author: windows-sdk-content
+description: The VMRALPHABITMAP structure is used in the VMR-7 filter's IVMRMixerBitmap methods when the application is providing a static alpha-blended bitmap to be displayed on the composited video frame.
+old-location: dshow\vmralphabitmap.htm
+old-project: DirectShow
+ms.assetid: 03b3e619-4804-42de-88d5-5422089e875a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PVMRALPHABITMAP, PVMRALPHABITMAP, PVMRALPHABITMAP structure pointer [DirectShow], VMRALPHABITMAP, VMRALPHABITMAP structure [DirectShow], VMRALPHABITMAPStructure, VMRBITMAP_DISABLE, VMRBITMAP_ENTIREDDS, VMRBITMAP_HDC, VMRBITMAP_SRCCOLORKEY, VMRBITMAP_SRCRECT, _VMRALPHABITMAP, dshow.vmralphabitmap, strmif/PVMRALPHABITMAP, strmif/VMRALPHABITMAP"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VMRALPHABITMAP, *PVMRALPHABITMAP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	VMRALPHABITMAP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP
 ---
 
 # _VMRALPHABITMAP structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_OUTPUTVAR
+title: "_D3D10_SHADER_DEBUG_OUTPUTVAR"
+author: windows-sdk-content
+description: Describes a shader output variable.
+old-location: direct3d10\d3d10_shader_debug_outputvar.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_outputvar.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: D3D10_SHADER_DEBUG_OUTPUTVAR, D3D10_SHADER_DEBUG_OUTPUTVAR structure [Direct3D 10], _D3D10_SHADER_DEBUG_OUTPUTVAR, a188f87a-61c2-dda1-1e50-d2cbcbeb680f, d3d10_1shader/D3D10_SHADER_DEBUG_OUTPUTVAR, direct3d10.d3d10_shader_debug_outputvar
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d10_1shader.h
+req.include-header: D3D10Shader.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_SHADER_DEBUG_OUTPUTVAR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d10_1shader.h
+api_name:
+-	D3D10_SHADER_DEBUG_OUTPUTVAR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _D3D10_SHADER_DEBUG_OUTPUTVAR structure

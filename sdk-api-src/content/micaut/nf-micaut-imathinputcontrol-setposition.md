@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:micaut.IMathInputControl.SetPosition
+title: IMathInputControl::SetPosition
+author: windows-sdk-content
+description: Modifies the location and size of the control.
+old-location: tablet\imathinputcontrol_setposition.htm
+old-project: tablet
+ms.assetid: 9b5fc988-7c93-47d4-8661-4cef56cab0d0
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IMathInputControl interface [Tablet PC],SetPosition method, IMathInputControl.SetPosition, IMathInputControl::SetPosition, SetPosition, SetPosition method [Tablet PC], SetPosition method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetPosition, tablet.imathinputcontrol_setposition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: micaut.h
+req.include-header: Micaut.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Micaut.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MICUIELEMENTSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	micaut.h
+api_name:
+-	IMathInputControl.SetPosition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMathInputControl::SetPosition

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmreports.IFsrmFileManagementJob.put_Enabled
+title: IFsrmFileManagementJob::put_Enabled
+author: windows-sdk-content
+description: Indicates whether the job enabled (can run).
+old-location: fsrm\ifsrmfilemanagementjob_enabled.htm
+old-project: Fsrm
+ms.assetid: c52dab05-34fb-4d9d-ac12-cbcee7e1fb9b
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: Enabled property [File Server Resource Manager], Enabled property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],Enabled property, IFsrmFileManagementJob.Enabled, IFsrmFileManagementJob.put_Enabled, IFsrmFileManagementJob::Enabled, IFsrmFileManagementJob::get_Enabled, IFsrmFileManagementJob::put_Enabled, fs.ifsrmfilemanagementjob_enabled, fsrm.ifsrmfilemanagementjob_enabled, fsrmreports/IFsrmFileManagementJob::Enabled, fsrmreports/IFsrmFileManagementJob::get_Enabled, fsrmreports/IFsrmFileManagementJob::put_Enabled, put_Enabled
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmreports.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileManagementJob.Enabled
+-	IFsrmFileManagementJob.get_Enabled
+-	IFsrmFileManagementJob.put_Enabled
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileManagementJob::put_Enabled

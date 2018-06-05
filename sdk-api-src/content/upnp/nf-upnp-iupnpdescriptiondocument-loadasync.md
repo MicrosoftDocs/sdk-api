@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:upnp.IUPnPDescriptionDocument.LoadAsync
+title: IUPnPDescriptionDocument::LoadAsync
+author: windows-sdk-content
+description: The LoadAsync method loads a document asynchronously. This method returns control to the caller immediately, and uses the specified callback to notify the caller when the operation is complete.
+old-location: upnp\iupnpdescriptiondocument_loadasync.htm
+old-project: UPnP
+ms.assetid: bfb1d833-13e8-4ffe-832d-f6640a42055a
+ms.author: windowssdkdev
+ms.date: 04/25/2018
+ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],LoadAsync method, IUPnPDescriptionDocument.LoadAsync, IUPnPDescriptionDocument::LoadAsync, LoadAsync, LoadAsync method [UPnP APIs], LoadAsync method [UPnP APIs],IUPnPDescriptionDocument interface, _upnp_iupnpdescriptiondocument_loadasync, upnp.iupnpdescriptiondocument_loadasync, upnp/IUPnPDescriptionDocument::LoadAsync
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: upnp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Upnp.dll
+api_name:
+-	IUPnPDescriptionDocument.LoadAsync
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUPnPDescriptionDocument::LoadAsync

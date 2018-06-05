@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iads._ads_class_def
+title: "_ads_class_def"
+author: windows-sdk-content
+description: The ADS_CLASS_DEF structure is used only as a part of IDirectorySchemaMgmt, which is an obsolete interface. The information that follows is provided for legacy purposes only. The ADS_CLASS_DEF structure holds the definitions of an object class.
+old-location: adsi\ads_class_def.htm
+old-project: ADSI
+ms.assetid: 8151977a-bd98-439f-91ae-6052970ea47c
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PADS_CLASS_DEF, ADS_CLASS_DEF, ADS_CLASS_DEF structure [ADSI], PADS_CLASS_DEF, PADS_CLASS_DEF structure pointer [ADSI], _ads_class_def, _ds_ads_class_def, adsi.ads__class__def, adsi.ads_class_def, iads/ADS_CLASS_DEF, iads/PADS_CLASS_DEF"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_CLASS_DEF, *PADS_CLASS_DEF
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_CLASS_DEF
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _ads_class_def structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d3d11sdklayers.D3D11_SHADER_TRACKING_OPTION
+title: D3D11_SHADER_TRACKING_OPTION
+author: windows-sdk-content
+description: Options that specify how to perform shader debug tracking.
+old-location: direct3d11\d3d11_shader_tracking_options.htm
+old-project: direct3d11
+ms.assetid: 20C152CD-B155-4B46-8F41-EDDEC60494DF
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D11_SHADER_TRACKING_OPTION, D3D11_SHADER_TRACKING_OPTIONS, D3D11_SHADER_TRACKING_OPTIONS enumeration [Direct3D 11], D3D11_SHADER_TRACKING_OPTION_ALLOW_SAME, D3D11_SHADER_TRACKING_OPTION_ALL_HAZARDS, D3D11_SHADER_TRACKING_OPTION_ALL_HAZARDS_ALLOWING_SAME, D3D11_SHADER_TRACKING_OPTION_ALL_OPTIONS, D3D11_SHADER_TRACKING_OPTION_IGNORE, D3D11_SHADER_TRACKING_OPTION_TRACK_ATOMIC_CONSISTENCY, D3D11_SHADER_TRACKING_OPTION_TRACK_ATOMIC_CONSISTENCY_ACROSS_THREADGROUPS, D3D11_SHADER_TRACKING_OPTION_TRACK_RAW, D3D11_SHADER_TRACKING_OPTION_TRACK_RAW_ACROSS_THREADGROUPS, D3D11_SHADER_TRACKING_OPTION_TRACK_UNINITIALIZED, D3D11_SHADER_TRACKING_OPTION_TRACK_WAR, D3D11_SHADER_TRACKING_OPTION_TRACK_WAR_ACROSS_THREADGROUPS, D3D11_SHADER_TRACKING_OPTION_TRACK_WAW, D3D11_SHADER_TRACKING_OPTION_TRACK_WAW_ACROSS_THREADGROUPS, D3D11_SHADER_TRACKING_OPTION_UAV_SPECIFIC_FLAGS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTIONS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_ALLOW_SAME, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_ALL_HAZARDS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_ALL_HAZARDS_ALLOWING_SAME, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_ALL_OPTIONS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_IGNORE, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_ATOMIC_CONSISTENCY, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_ATOMIC_CONSISTENCY_ACROSS_THREADGROUPS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_RAW, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_RAW_ACROSS_THREADGROUPS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_UNINITIALIZED, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_WAR, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_WAR_ACROSS_THREADGROUPS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_WAW, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_TRACK_WAW_ACROSS_THREADGROUPS, d3d11sdklayers/D3D11_SHADER_TRACKING_OPTION_UAV_SPECIFIC_FLAGS, direct3d11.d3d11_shader_tracking_options
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11sdklayers.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_SHADER_TRACKING_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11SDKLayers.h
+api_name:
+-	D3D11_SHADER_TRACKING_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_SHADER_TRACKING_OPTION enumeration

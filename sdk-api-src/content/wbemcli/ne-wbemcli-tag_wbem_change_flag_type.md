@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wbemcli.tag_WBEM_CHANGE_FLAG_TYPE
+title: tag_WBEM_CHANGE_FLAG_TYPE
+author: windows-sdk-content
+description: Contains method parameter flags.
+old-location: wmi\wbem_change_flag_type.htm
+old-project: WmiSdk
+ms.assetid: B36B7D62-13C9-401F-A6C0-7C498A139AEC
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: WBEM_CHANGE_FLAG_TYPE, WBEM_CHANGE_FLAG_TYPE enumeration [Windows Management Instrumentation], WBEM_FLAG_ADVISORY, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_UPDATE_COMPATIBLE, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, WBEM_MASK_UPDATE_MODE, tag_WBEM_CHANGE_FLAG_TYPE, wbemcli/WBEM_CHANGE_FLAG_TYPE, wbemcli/WBEM_FLAG_ADVISORY, wbemcli/WBEM_FLAG_CREATE_ONLY, wbemcli/WBEM_FLAG_CREATE_OR_UPDATE, wbemcli/WBEM_FLAG_UPDATE_COMPATIBLE, wbemcli/WBEM_FLAG_UPDATE_FORCE_MODE, wbemcli/WBEM_FLAG_UPDATE_ONLY, wbemcli/WBEM_FLAG_UPDATE_SAFE_MODE, wbemcli/WBEM_MASK_UPDATE_MODE, wmi.wbem_change_flag_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wbemcli.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WBEM_CHANGE_FLAG_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wbemcli.h
+api_name:
+-	WBEM_CHANGE_FLAG_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tag_WBEM_CHANGE_FLAG_TYPE enumeration

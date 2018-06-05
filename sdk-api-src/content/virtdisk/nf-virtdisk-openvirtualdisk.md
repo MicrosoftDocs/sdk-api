@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:virtdisk.OpenVirtualDisk
+title: OpenVirtualDisk function
+author: windows-sdk-content
+description: Opens a virtual hard disk (VHD) or CD or DVD image file (ISO) for use.
+old-location: vhd\openvirtualdisk.htm
+old-project: VStor
+ms.assetid: 08e2a82d-9110-42b1-be09-dc5150da42f6
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: OpenVirtualDisk, OpenVirtualDisk function [VHD], vdssys/OpenVirtualDisk, vhd.openvirtualdisk, virtdisk/OpenVirtualDisk
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: virtdisk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIRTUAL_DISK_ACCESS_MASK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	VirtDisk.dll
+api_name:
+-	OpenVirtualDisk
+product: Windows
+targetos: Windows
+req.lib: VirtDisk.lib
+req.dll: VirtDisk.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # OpenVirtualDisk function

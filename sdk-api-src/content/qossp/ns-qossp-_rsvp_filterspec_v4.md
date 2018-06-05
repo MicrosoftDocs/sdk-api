@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:qossp._RSVP_FILTERSPEC_V4
+title: "_RSVP_FILTERSPEC_V4"
+author: windows-sdk-content
+description: The RSVP_FILTERSPEC_V4 structure stores information for a FILTERSPEC on an IPv4 address.
+old-location: qos\rsvp_filterspec_v4.htm
+old-project: QOS
+ms.assetid: 038edc41-7324-4c5a-8172-c958cee05d5e
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPRSVP_FILTERSPEC_V4, *LPRSVP_FILTERSPEC_V4 structure [QOS], RSVP_FILTERSPEC_V4, RSVP_FILTERSPEC_V4 structure [QOS], _RSVP_FILTERSPEC_V4, qos.rsvp_filterspec_v4, qossp/*LPRSVP_FILTERSPEC_V4, qossp/RSVP_FILTERSPEC_V4"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: qossp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RSVP_FILTERSPEC_V4, *LPRSVP_FILTERSPEC_V4
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Qossp.h
+api_name:
+-	RSVP_FILTERSPEC_V4
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RSVP_FILTERSPEC_V4 structure

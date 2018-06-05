@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wingdi.SetMetaRgn
+title: SetMetaRgn function
+author: windows-sdk-content
+description: The SetMetaRgn function intersects the current clipping region for the specified device context with the current metaregion and saves the combined region as the new metaregion for the specified device context.
+old-location: gdi\setmetargn.htm
+old-project: gdi
+ms.assetid: 79f5dc01-bdec-4844-be94-1f9cf5bfd712
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SetMetaRgn, SetMetaRgn function [Windows GDI], _win32_SetMetaRgn, gdi.setmetargn, wingdi/SetMetaRgn
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,29 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	gdi32.dll
+-	Ext-MS-Win-GDI-rgn-l1-1-0.dll
+-	Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+-	ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+-	API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
+-	GDI32Full.dll
+-	GDI32Min.dll
+api_name:
+-	SetMetaRgn
+product: Windows
+targetos: Windows
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # SetMetaRgn function

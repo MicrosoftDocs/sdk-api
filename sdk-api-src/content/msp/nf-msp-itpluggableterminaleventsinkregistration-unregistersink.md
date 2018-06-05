@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:msp.ITPluggableTerminalEventSinkRegistration.UnregisterSink
+title: ITPluggableTerminalEventSinkRegistration::UnregisterSink
+author: windows-sdk-content
+description: The UnregisterSink method clears event registration for pluggable terminal events.
+old-location: tapi3\itpluggableterminaleventsinkregistration_unregistersink.htm
+old-project: Tapi
+ms.assetid: 261ea39e-485f-4039-94b0-cd92f614c0a9
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2],UnregisterSink method, ITPluggableTerminalEventSinkRegistration.UnregisterSink, ITPluggableTerminalEventSinkRegistration::UnregisterSink, UnregisterSink, UnregisterSink method [TAPI 2.2], UnregisterSink method [TAPI 2.2],ITPluggableTerminalEventSinkRegistration interface, _tapi3_itpluggableterminaleventsinkregistration_unregistersink, msp/ITPluggableTerminalEventSinkRegistration::UnregisterSink, tapi3.itpluggableterminaleventsinkregistration_unregistersink
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msp.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSP_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITPluggableTerminalEventSinkRegistration.UnregisterSink
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITPluggableTerminalEventSinkRegistration::UnregisterSink

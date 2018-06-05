@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMFAttributes.GetUnknown
+title: IMFAttributes::GetUnknown
+author: windows-sdk-content
+description: Retrieves an interface pointer associated with a key.
+old-location: mf\imfattributes_getunknown.htm
+old-project: medfound
+ms.assetid: a5f645a1-b7d2-47d3-b77e-ad94815b1c25
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetUnknown, GetUnknown method [Media Foundation], GetUnknown method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetUnknown method, IMFAttributes.GetUnknown, IMFAttributes::GetUnknown, a5f645a1-b7d2-47d3-b77e-ad94815b1c25, mf.imfattributes_getunknown, mfobjects/IMFAttributes::GetUnknown
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFAttributes.GetUnknown
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFAttributes::GetUnknown

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmaccess._USER_MODALS_INFO_1007
+title: "_USER_MODALS_INFO_1007"
+author: windows-sdk-content
+description: The USER_MODALS_INFO_1007 structure contains domain controller information.
+old-location: netmgmt\user_modals_info_1007_str.htm
+old-project: NetMgmt
+ms.assetid: aa6425eb-576c-4f6f-b9c9-96d9535bc7d6
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPUSER_MODALS_INFO_1007, *PUSER_MODALS_INFO_1007, LPUSER_MODALS_INFO_1007, LPUSER_MODALS_INFO_1007 structure pointer [Network Management], PUSER_MODALS_INFO_1007, PUSER_MODALS_INFO_1007 structure pointer [Network Management], USER_MODALS_INFO_1007, USER_MODALS_INFO_1007 structure [Network Management], _USER_MODALS_INFO_1007, _win32_user_modals_info_1007_str, lmaccess/LPUSER_MODALS_INFO_1007, lmaccess/PUSER_MODALS_INFO_1007, lmaccess/USER_MODALS_INFO_1007, netmgmt.user_modals_info_1007_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmaccess.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_MODALS_INFO_1007, *PUSER_MODALS_INFO_1007, *LPUSER_MODALS_INFO_1007
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmaccess.h
+api_name:
+-	USER_MODALS_INFO_1007
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _USER_MODALS_INFO_1007 structure

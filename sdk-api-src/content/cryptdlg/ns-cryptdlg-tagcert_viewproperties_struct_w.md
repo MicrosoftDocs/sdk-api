@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:cryptdlg.tagCERT_VIEWPROPERTIES_STRUCT_W
+title: tagCERT_VIEWPROPERTIES_STRUCT_W
+author: windows-sdk-content
+description: The CERT_VIEWPROPERTIES_STRUCT structure defines information used when the CertViewProperties function is called to display a certificate's properties.
+old-location: security\cert_viewproperties_struct.htm
+old-project: SecCrypto
+ms.assetid: 3d18526b-1052-4f0c-999b-881a74a94549
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_VIEWPROPERTIES_STRUCT_W, CERT_VIEWPROPERTIES_STRUCT, CERT_VIEWPROPERTIES_STRUCT structure [Security], CERT_VIEWPROPERTIES_STRUCT_W, CM_ADD_CERT_STORES, CM_ENABLEHOOK, CM_ENABLETEMPLATE, CM_HIDE_ADVANCEPAGE, CM_HIDE_DETAILPAGE, CM_HIDE_TRUSTPAGE, CM_NO_EDITTRUST, CM_NO_NAMECHANGE, CM_SHOW_HELP, CM_SHOW_HELPICON, PCERT_VIEWPROPERTIES_STRUCT, PCERT_VIEWPROPERTIES_STRUCT structure pointer [Security], cryptdlg/CERT_VIEWPROPERTIES_STRUCT, cryptdlg/PCERT_VIEWPROPERTIES_STRUCT, security.cert_viewproperties_struct, tagCERT_VIEWPROPERTIES_STRUCT_W"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cryptdlg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_VIEWPROPERTIES_STRUCT_W, *PCERT_VIEWPROPERTIES_STRUCT_W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CryptDlg.h
+api_name:
+-	CERT_VIEWPROPERTIES_STRUCT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagCERT_VIEWPROPERTIES_STRUCT_W structure

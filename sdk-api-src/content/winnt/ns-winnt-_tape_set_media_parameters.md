@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._TAPE_SET_MEDIA_PARAMETERS
+title: "_TAPE_SET_MEDIA_PARAMETERS"
+author: windows-sdk-content
+description: Describes the tape in the tape drive. It is used by the SetTapeParameters function.
+old-location: backup\tape_set_media_parameters_str.htm
+old-project: Backup
+ms.assetid: 20243a64-2644-4519-b746-ba33f0893e49
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PTAPE_SET_MEDIA_PARAMETERS, PTAPE_SET_MEDIA_PARAMETERS, PTAPE_SET_MEDIA_PARAMETERS structure pointer [Backup], TAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS structure [Backup], _TAPE_SET_MEDIA_PARAMETERS, _win32_tape_set_media_parameters_str, backup.tape_set_media_parameters_str, base.tape_set_media_parameters_str, winnt/PTAPE_SET_MEDIA_PARAMETERS, winnt/TAPE_SET_MEDIA_PARAMETERS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TAPE_SET_MEDIA_PARAMETERS, *PTAPE_SET_MEDIA_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	TAPE_SET_MEDIA_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _TAPE_SET_MEDIA_PARAMETERS structure

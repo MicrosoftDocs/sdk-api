@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mobsync.ISyncMgrSynchronize.Initialize
+title: ISyncMgrSynchronize::Initialize
+author: windows-sdk-content
+description: Called by the synchronization manager in a registered application handler to determine whether the handler processes the synchronization event.
+old-location: shell\syncmgr_isyncmgrsynchronize_initialize.htm
+old-project: shell
+ms.assetid: 4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ISyncMgrSynchronize interface [Windows Shell],Initialize method, ISyncMgrSynchronize.Initialize, ISyncMgrSynchronize::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::Initialize, shell.syncmgr_isyncmgrsynchronize_initialize, syncmgr.isyncmgrsynchronize_initialize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mobsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGRSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mobsync.dll
+api_name:
+-	ISyncMgrSynchronize.Initialize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ISyncMgrSynchronize::Initialize

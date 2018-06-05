@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:nb30._FIND_NAME_BUFFER
+title: "_FIND_NAME_BUFFER"
+author: windows-sdk-content
+description: The FIND_NAME_BUFFER structure contains information about a local network session.
+old-location: netbios\find_name_buffer.htm
+old-project: NetBIOS
+ms.assetid: d35cd375-6207-4019-bd3e-20dc302e9c45
+ms.author: windowssdkdev
+ms.date: 05/02/2018
+ms.keywords: "*PFIND_NAME_BUFFER, FIND_NAME_BUFFER, FIND_NAME_BUFFER structure [NetBIOS], PFIND_NAME_BUFFER, PFIND_NAME_BUFFER structure pointer [NetBIOS], _FIND_NAME_BUFFER, nb30/FIND_NAME_BUFFER, nb30/PFIND_NAME_BUFFER, netbios.find_name_buffer"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: nb30.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FIND_NAME_BUFFER, *PFIND_NAME_BUFFER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Nb30.h
+api_name:
+-	FIND_NAME_BUFFER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _FIND_NAME_BUFFER structure

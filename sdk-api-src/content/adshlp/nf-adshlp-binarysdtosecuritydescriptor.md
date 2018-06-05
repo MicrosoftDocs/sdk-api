@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:adshlp.BinarySDToSecurityDescriptor
+title: BinarySDToSecurityDescriptor function
+author: windows-sdk-content
+description: Converts a binary security descriptor to an IADsSecurityDescriptor object.
+old-location: adsi\binarysdtosecuritydescriptor.htm
+old-project: ADSI
+ms.assetid: c93d00d2-7155-4bf4-8a65-2412022a2fba
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: BinarySDToSecurityDescriptor, BinarySDToSecurityDescriptor function [ADSI], adshlp/BinarySDToSecurityDescriptor, adsi.binarysdtosecuritydescriptor
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: adshlp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Activeds.dll
+api_name:
+-	BinarySDToSecurityDescriptor
+product: Windows
+targetos: Windows
+req.lib: Activeds.lib
+req.dll: Activeds.dll
+req.irql: 
 ---
 
 # BinarySDToSecurityDescriptor function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:peninputpanel.ITextInputPanelEventSink.InputAreaChanged
+title: ITextInputPanelEventSink::InputAreaChanged
+author: windows-sdk-content
+description: Occurs when the input area has changed on the Tablet PC Input Panel.
+old-location: tablet\itextinputpaneleventsink_inputareachanged.htm
+old-project: tablet
+ms.assetid: b30eaa39-a1f7-4c50-992f-11030bb175f9
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InputAreaChanged method, ITextInputPanelEventSink.InputAreaChanged, ITextInputPanelEventSink::InputAreaChanged, InputAreaChanged, InputAreaChanged method [Tablet PC], InputAreaChanged method [Tablet PC],ITextInputPanelEventSink interface, b30eaa39-a1f7-4c50-992f-11030bb175f9, peninputpanel/ITextInputPanelEventSink::InputAreaChanged, tablet.itextinputpaneleventsink_inputareachanged
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: peninputpanel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EventMask
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tiptsf.dll
+api_name:
+-	ITextInputPanelEventSink.InputAreaChanged
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITextInputPanelEventSink::InputAreaChanged

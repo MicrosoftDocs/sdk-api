@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:fci.FNFCIWRITE
+title: FNFCIWRITE macro
+author: windows-sdk-content
+description: The FNFCIWRITE macro provides the declaration for the application-defined callback function to write data to a file in an FCI context.
+old-location: winprog\fnfciwrite.htm
+old-project: DevNotes
+ms.assetid: ca4c3b5b-1ed5-4f12-8317-c1e1dac5f816
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: FNFCIWRITE, FNFCIWRITE macro [Windows API], fci/FNFCIWRITE, winprog.fnfciwrite
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: fci.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	fci.h
+api_name:
+-	FNFCIWRITE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FNFCIWRITE macro

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iads.IDirectoryObject.CreateDSObject
+title: IDirectoryObject::CreateDSObject
+author: windows-sdk-content
+description: Creates a child of the current directory service object.
+old-location: adsi\idirectoryobject_createdsobject.htm
+old-project: ADSI
+ms.assetid: 77648d1c-b05b-4c36-a2e3-25bb5713d615
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: CreateDSObject, CreateDSObject method [ADSI], CreateDSObject method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],CreateDSObject method, IDirectoryObject.CreateDSObject, IDirectoryObject::CreateDSObject, _ds_idirectoryobject_createdsobject, adsi.idirectoryobject__createdsobject, adsi.idirectoryobject_createdsobject, iads/IDirectoryObject::CreateDSObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SD_FORMAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Activeds.dll
+api_name:
+-	IDirectoryObject.CreateDSObject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IDirectoryObject::CreateDSObject

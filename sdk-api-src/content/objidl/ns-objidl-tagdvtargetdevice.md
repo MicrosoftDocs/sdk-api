@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:objidl.tagDVTARGETDEVICE
+title: tagDVTARGETDEVICE
+author: windows-sdk-content
+description: Specifies information about the target device for which data is being composed. DVTARGETDEVICE contains enough information about a Windows target device so a handle to a device context (HDC) can be created using the CreateDC function.
+old-location: com\dvtargetdevice.htm
+old-project: com
+ms.assetid: 724ff714-c170-4d06-92cb-e042e41c0af2
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DVTARGETDEVICE, DVTARGETDEVICE structure [COM], _ole_DVTARGETDEVICE, com.dvtargetdevice, objidl/DVTARGETDEVICE, tagDVTARGETDEVICE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVTARGETDEVICE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ObjIdl.h
+api_name:
+-	DVTARGETDEVICE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagDVTARGETDEVICE structure

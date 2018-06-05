@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oleauto.VarI8FromI1
+title: VarI8FromI1 function
+author: windows-sdk-content
+description: Converts a char value to an 8-byte integer value.
+old-location: automat\vari8fromi1.htm
+old-project: automat
+ms.assetid: 3b2fa5e7-60d2-451c-9cbb-2510ee74f88c
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: VarI8FromI1, VarI8FromI1 function [Automation], _oa96_VarI8FromI1, automat.vari8fromi1, oleauto/VarI8FromI1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: oleauto.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REGKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	OleAut32.dll
+api_name:
+-	VarI8FromI1
+product: Windows
+targetos: Windows
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VarI8FromI1 function

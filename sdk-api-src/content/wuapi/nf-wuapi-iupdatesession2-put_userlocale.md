@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wuapi.IUpdateSession2.put_UserLocale
+title: IUpdateSession2::put_UserLocale
+author: windows-sdk-content
+description: Gets and sets the preferred locale for which update information is retrieved..
+old-location: wua\iupdatesession2_userlocale.htm
+old-project: Wua_Sdk
+ms.assetid: 30ee1836-ea70-4dd1-b531-a7ca32ca940d
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IUpdateSession2 interface [Windows Update Agent],UserLocale property, IUpdateSession2.UserLocale, IUpdateSession2.put_UserLocale, IUpdateSession2::UserLocale, IUpdateSession2::get_UserLocale, IUpdateSession2::put_UserLocale, UserLocale property [Windows Update Agent], UserLocale property [Windows Update Agent],IUpdateSession2 interface, put_UserLocale, wua.iupdatesession2_userlocale, wuapi/IUpdateSession2::UserLocale, wuapi/IUpdateSession2::get_UserLocale, wuapi/IUpdateSession2::put_UserLocale
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wuapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IUpdateSession2.UserLocale
+-	IUpdateSession2.get_UserLocale
+-	IUpdateSession2.put_UserLocale
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IUpdateSession2::put_UserLocale

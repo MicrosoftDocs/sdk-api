@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagLOGFONTW
+title: tagLOGFONTW
+author: windows-sdk-content
+description: The LOGFONT structure defines the attributes of a font.
+old-location: gdi\logfont.htm
+old-project: gdi
+ms.assetid: 57658a03-0a6d-4a28-a7c1-c65ec145beb4
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPLOGFONTW, *NPLOGFONTW, *PLOGFONTW, LOGFONT, LOGFONT structure [Windows GDI], LOGFONTA, LOGFONTW, PLOGFONT, PLOGFONT structure pointer [Windows GDI], _win32_LOGFONT_str, gdi.logfont, tagLOGFONTW, wingdi/LOGFONT, wingdi/LOGFONTA, wingdi/LOGFONTW, wingdi/PLOGFONT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: LOGFONTW (Unicode) and LOGFONTA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOGFONTW, *PLOGFONTW, *NPLOGFONTW, *LPLOGFONTW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	LOGFONT
+-	LOGFONTA
+-	LOGFONTW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagLOGFONTW structure

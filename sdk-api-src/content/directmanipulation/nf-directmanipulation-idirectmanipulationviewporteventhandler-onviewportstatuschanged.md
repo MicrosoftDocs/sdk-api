@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:directmanipulation.IDirectManipulationViewportEventHandler.OnViewportStatusChanged
+title: IDirectManipulationViewportEventHandler::OnViewportStatusChanged
+author: windows-sdk-content
+description: Called when the status of a viewport changes.
+old-location: directmanipulation\idirectmanipulationviewporteventhandler_onviewportstatuschanged.htm
+old-project: directmanipulation
+ms.assetid: 7fe7106d-1b13-4a3e-8841-550e0ef55f95
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IDirectManipulationViewportEventHandler interface [Direct Manipulation],OnViewportStatusChanged method, IDirectManipulationViewportEventHandler.OnViewportStatusChanged, IDirectManipulationViewportEventHandler::OnViewportStatusChanged, OnViewportStatusChanged, OnViewportStatusChanged method [Direct Manipulation], OnViewportStatusChanged method [Direct Manipulation],IDirectManipulationViewportEventHandler interface, directmanipulation.idirectmanipulationviewporteventhandler_onviewportstatuschanged, directmanipulation/IDirectManipulationViewportEventHandler::OnViewportStatusChanged
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DirectManipulation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	directmanipulation.h
+api_name:
+-	IDirectManipulationViewportEventHandler.OnViewportStatusChanged
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectManipulationViewportEventHandler::OnViewportStatusChanged

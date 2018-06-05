@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NI:winioctl.IOCTL_VOLUME_IS_CLUSTERED
+title: IOCTL_VOLUME_IS_CLUSTERED
+author: windows-sdk-content
+description: Determines whether the specified volume is clustered.
+old-location: fs\ioctl_volume_is_clustered.htm
+old-project: FileIO
+ms.assetid: 3722b08c-237d-4551-b75e-1d28fe8e94c3
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IOCTL_VOLUME_IS_CLUSTERED, IOCTL_VOLUME_IS_CLUSTERED control, IOCTL_VOLUME_IS_CLUSTERED control code [Files], _win32_ioctl_volume_is_clustered, base.ioctl_volume_is_clustered, fs.ioctl_volume_is_clustered, winioctl/IOCTL_VOLUME_IS_CLUSTERED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: ioctl
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	IOCTL_VOLUME_IS_CLUSTERED
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IOCTL_VOLUME_IS_CLUSTERED IOCTL

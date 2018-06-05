@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mswmdm.ISCPSecureQuery3.GetRightsOnClearChannel
+title: ISCPSecureQuery3::GetRightsOnClearChannel
+author: windows-sdk-content
+description: The GetRightsOnClearChannel method retrieves rights information for the current piece of content on a clear channel.
+old-location: wmdm\iscpsecurequery3_getrightsonclearchannel.htm
+old-project: WMDM
+ms.assetid: ab64b790-848a-4c7f-9bf9-4a9b40bcc9cb
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetRightsOnClearChannel, GetRightsOnClearChannel method [windows Media Device Manager], GetRightsOnClearChannel method [windows Media Device Manager],ISCPSecureQuery3 interface, ISCPSecureQuery3 interface [windows Media Device Manager],GetRightsOnClearChannel method, ISCPSecureQuery3.GetRightsOnClearChannel, ISCPSecureQuery3::GetRightsOnClearChannel, ISCPSecureQuery3GetRightsOnClearChannel, mswmdm/ISCPSecureQuery3::GetRightsOnClearChannel, wmdm.iscpsecurequery3_getrightsonclearchannel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	ISCPSecureQuery3.GetRightsOnClearChannel
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISCPSecureQuery3::GetRightsOnClearChannel

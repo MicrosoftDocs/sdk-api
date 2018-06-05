@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.ITransactionProxy.GetIsolationLevel
+title: ITransactionProxy::GetIsolationLevel
+author: windows-sdk-content
+description: Retrieves the isolation level of the non-DTC transaction.
+old-location: cos\itransactionproxy_getisolationlevel.htm
+old-project: cossdk
+ms.assetid: a2b0e99a-0d35-4103-b7a0-407d09a2746e
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: GetIsolationLevel, GetIsolationLevel method [COM+], GetIsolationLevel method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],GetIsolationLevel method, ITransactionProxy.GetIsolationLevel, ITransactionProxy::GetIsolationLevel, comsvcs/ITransactionProxy::GetIsolationLevel, cos.itransactionproxy_getisolationlevel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	ITransactionProxy.GetIsolationLevel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ITransactionProxy::GetIsolationLevel

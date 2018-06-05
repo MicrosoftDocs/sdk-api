@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dsgetdc._DOMAIN_CONTROLLER_INFOW
+title: "_DOMAIN_CONTROLLER_INFOW"
+author: windows-sdk-content
+description: Used with the DsGetDcName function to receive data about a domain controller.
+old-location: ad\domain_controller_info.htm
+old-project: AD
+ms.assetid: 0c09fe26-ef53-48b1-8ac2-70ccb8f3e3e2
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PDOMAIN_CONTROLLER_INFOW, DOMAIN_CONTROLLER_INFO, DOMAIN_CONTROLLER_INFO structure [Active Directory], DOMAIN_CONTROLLER_INFOA, DOMAIN_CONTROLLER_INFOW, DS_CLOSEST_FLAG, DS_DNS_CONTROLLER_FLAG, DS_DNS_DOMAIN_FLAG, DS_DNS_FOREST_FLAG, DS_DS_FLAG, DS_FULL_SECRET_DOMAIN_6_FLAG, DS_GC_FLAG, DS_GOOD_TIMESERV_FLAG, DS_INET_ADDRESS, DS_KDC_FLAG, DS_LDAP_FLAG, DS_NDNC_FLAG, DS_NETBIOS_ADDRESS, DS_PDC_FLAG, DS_SELECT_SECRET_DOMAIN_6_FLAG, DS_TIMESERV_FLAG, DS_WRITABLE_FLAG, PDOMAIN_CONTROLLER_INFO, PDOMAIN_CONTROLLER_INFO structure pointer [Active Directory], _DOMAIN_CONTROLLER_INFOW, _glines_domain_controller_info, ad.domain__controller__info, ad.domain_controller_info, dsgetdc/DOMAIN_CONTROLLER_INFO, dsgetdc/DOMAIN_CONTROLLER_INFOA, dsgetdc/DOMAIN_CONTROLLER_INFOW, dsgetdc/PDOMAIN_CONTROLLER_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dsgetdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DOMAIN_CONTROLLER_INFOW (Unicode) and DOMAIN_CONTROLLER_INFOA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOMAIN_CONTROLLER_INFOW, *PDOMAIN_CONTROLLER_INFOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dsgetdc.h
+api_name:
+-	DOMAIN_CONTROLLER_INFO
+-	DOMAIN_CONTROLLER_INFOA
+-	DOMAIN_CONTROLLER_INFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DOMAIN_CONTROLLER_INFOW structure

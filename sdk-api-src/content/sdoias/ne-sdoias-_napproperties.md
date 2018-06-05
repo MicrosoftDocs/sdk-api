@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:sdoias._NAPPROPERTIES
+title: "_NAPPROPERTIES"
+author: windows-sdk-content
+description: The values of the NAPPROPERTIES enumeration type specify properties for Network Access Policies (NAP).
+old-location: nps\SDO_napproperties.htm
+old-project: Nps
+ms.assetid: 1e43524c-1c6a-49fc-a962-e804e98454c5
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: NAPPROPERTIES, NAPPROPERTIES enumeration [Network Policy Server], PROPERTY_NAP_POLICIES_COLLECTION, PROPERTY_SHV_TEMPLATES_COLLECTION, _NAPPROPERTIES, _sdo_napproperties, nps.SDO_napproperties, sdo.napproperties, sdoias/NAPPROPERTIES, sdoias/PROPERTY_NAP_POLICIES_COLLECTION, sdoias/PROPERTY_SHV_TEMPLATES_COLLECTION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: sdoias.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NAPPROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	SdoIas.h
+api_name:
+-	NAPPROPERTIES
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NAPPROPERTIES enumeration

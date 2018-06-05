@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:setupapi._SP_ALTPLATFORM_INFO_V1
+title: "_SP_ALTPLATFORM_INFO_V1"
+author: windows-sdk-content
+description: This structure is used to pass information for an alternate platform to SetupQueryInfOriginalFileInformation.
+old-location: setup\sp_altplatform_info_v1.htm
+old-project: SetupApi
+ms.assetid: 33872a84-8f7f-4508-a326-2d95ac0fcfd7
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*PSP_ALTPLATFORM_INFO_V1, PSP_ALTPLATFORM_INFO_V1, PSP_ALTPLATFORM_INFO_V1 structure pointer [Setup API], SP_ALTPLATFORM_INFO, SP_ALTPLATFORM_INFO_V1, SP_ALTPLATFORM_INFO_V1 structure [Setup API], VER_PLATFORM_WIN32_NT, VER_PLATFORM_WIN32_WINDOWS, _SP_ALTPLATFORM_INFO_V1, _setupapi_sp_altplatform_info, setup.sp_altplatform_info_v1, setupapi/PSP_ALTPLATFORM_INFO_V1, setupapi/SP_ALTPLATFORM_INFO_V1"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: setupapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SP_ALTPLATFORM_INFO_V1, *PSP_ALTPLATFORM_INFO_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Setupapi.h
+api_name:
+-	SP_ALTPLATFORM_INFO_V1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SP_ALTPLATFORM_INFO_V1 structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:ntsecpkg.LSA_AP_LOGON_USER
+title: LSA_AP_LOGON_USER
+author: windows-sdk-content
+description: Authenticates a user's logon credentials.
+old-location: security\lsaaplogonuser.htm
+old-project: SecAuthN
+ms.assetid: 4c8def77-d536-486e-a830-9df3848fbccb
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: LSA_AP_LOGON_USER, LsaApLogonUser, LsaApLogonUser function [Security], STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsaaplogonuser, ntsecpkg/LsaApLogonUser, security.lsaaplogonuser
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ntsecpkg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTED_POSIX_OFFSET_INFO, *PTRUSTED_POSIX_OFFSET_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Ntsecpkg.h
+api_name:
+-	LsaApLogonUser
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LSA_AP_LOGON_USER callback function

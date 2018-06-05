@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mstask._TASK_TRIGGER
+title: "_TASK_TRIGGER"
+author: windows-sdk-content
+description: Defines the times to run a scheduled work item.
+old-location: taskschd\task_trigger.htm
+old-project: TaskSchd
+ms.assetid: b4716e32-7c7a-40ab-baa1-4c7ebafc3d71
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*PTASK_TRIGGER, PTASK_TRIGGER, PTASK_TRIGGER structure pointer [Task Scheduler], TASK_TRIGGER, TASK_TRIGGER structure [Task Scheduler], _TASK_TRIGGER, _msb_task_trigger, mstask/PTASK_TRIGGER, mstask/TASK_TRIGGER, taskschd.task_trigger, triggers [Task Scheduler],structures,TASK_TRIGGER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mstask.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER, *PTASK_TRIGGER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mstask.h
+api_name:
+-	TASK_TRIGGER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _TASK_TRIGGER structure

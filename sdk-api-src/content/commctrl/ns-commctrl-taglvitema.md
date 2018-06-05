@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.tagLVITEMA
+title: tagLVITEMA
+author: windows-sdk-content
+description: Specifies or receives the attributes of a list-view item. This structure has been updated to support a new mask value (LVIF_INDENT) that enables item indenting. This structure supersedes the LV_ITEM structure.
+old-location: controls\LVITEM.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\listview\structures\lvitem.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPLVITEMA, I_GROUPIDCALLBACK, I_GROUPIDNONE, LPLVITEM, LPLVITEM structure pointer [Windows Controls], LVCFMT_FILL, LVCFMT_LINE_BREAK, LVCFMT_NO_TITLE, LVCFMT_TILE_PLACEMENTMASK, LVCFMT_WRAP, LVIF_COLFMT, LVIF_COLUMNS, LVIF_DI_SETITEM, LVIF_GROUPID, LVIF_IMAGE, LVIF_INDENT, LVIF_NORECOMPUTE, LVIF_PARAM, LVIF_STATE, LVIF_TEXT, LVITEM, LVITEM structure [Windows Controls], LVITEMA, LVITEMW, _win32_LVITEM, _win32_LVITEM_cpp, commctrl/LPLVITEM, commctrl/LVITEM, commctrl/LVITEMA, commctrl/LVITEMW, controls.LVITEM, controls._win32_LVITEM, tagLVITEMA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: LVITEMW (Unicode) and LVITEMA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LVITEMA, *LPLVITEMA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	LVITEM
+-	LVITEMA
+-	LVITEMW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagLVITEMA structure

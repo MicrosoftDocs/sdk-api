@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:webservices.WsReadQualifiedName
+title: WsReadQualifiedName function
+author: windows-sdk-content
+description: Reads a qualified name and separates it into its prefix, localName and namespace based on the current namespace scope of the XML_READER.
+old-location: wsw\wsreadqualifiedname.htm
+old-project: wsw
+ms.assetid: bc49fb89-72ba-435a-ac50-303f16d36da2
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WsReadQualifiedName, WsReadQualifiedName function [Web Services for Windows], webservices/WsReadQualifiedName, wsw.wsreadqualifiedname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WebServices.dll
+api_name:
+-	WsReadQualifiedName
+product: Windows
+targetos: Windows
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WsReadQualifiedName function

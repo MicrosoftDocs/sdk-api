@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddkmapi._DDSETFIELDNUM
+title: "_DDSETFIELDNUM"
+author: windows-sdk-content
+description: The DDSETFIELDNUM structure contains the handles and the field number.
+old-location: display\ddsetfieldnum.htm
+old-project: display
+ms.assetid: 442a4bbf-e3d9-4b06-99c4-1ffcf708a15c
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDSETFIELDNUM, DDSETFIELDNUM, DDSETFIELDNUM structure [Display Devices], LPDDSETFIELDNUM, LPDDSETFIELDNUM structure pointer [Display Devices], _DDSETFIELDNUM, ddkmapi/DDSETFIELDNUM, ddkmapi/LPDDSETFIELDNUM, ddstrcts_d8753497-b27b-4bd5-adcd-5b76e2169535.xml, display.ddsetfieldnum"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddkmapi.h
+req.include-header: Ddkmapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDSETFIELDNUM, *LPDDSETFIELDNUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddkmapi.h
+api_name:
+-	DDSETFIELDNUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDSETFIELDNUM structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:infotech.IITResultSet.Add(LPVOID)
+title: IITResultSet::Add(LPVOID)
+author: windows-sdk-content
+description: Adds columns to result set, given a header containing pairs of property ID followed by property type.
+old-location: htmlhelp\iitresultset_add1.htm
+old-project: htmlhelp
+ms.assetid: VS|htmlhelp|~\html\refiitresultsetadd.htm
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: Add, Add method [HTML Help Workshop], Add method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Add method, IITResultSet.Add, IITResultSet.Add(LPVOID), IITResultSet::Add, IITResultSet::Add(LPVOID), htmlhelp.iitresultset_add1, infotech/IITResultSet::Add, refIITResultSetAdd
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: infotech.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Infotech.h
+api_name:
+-	IITResultSet.Add
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IITResultSet::Add(LPVOID)

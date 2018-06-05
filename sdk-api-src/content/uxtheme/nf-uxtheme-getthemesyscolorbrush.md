@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uxtheme.GetThemeSysColorBrush
+title: GetThemeSysColorBrush function
+author: windows-sdk-content
+description: Retrieves a system color brush.
+old-location: controls\GetThemeSysColorBrush.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\userex\functions\getthemesyscolorbrush.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetThemeSysColorBrush, GetThemeSysColorBrush function [Windows Controls], TMT_ACTIVEBORDER, TMT_ACTIVECAPTION, TMT_APPWORKSPACE, TMT_BACKGROUND, TMT_BTNFACE, TMT_BTNHIGHLIGHT, TMT_BTNSHADOW, TMT_BTNTEXT, TMT_BUTTONALTERNATEFACE, TMT_CAPTIONTEXT, TMT_DKSHADOW3D, TMT_GRADIENTACTIVECAPTION, TMT_GRADIENTINACTIVECAPTION, TMT_GRAYTEXT, TMT_HIGHLIGHT, TMT_HIGHLIGHTTEXT, TMT_HOTTRACKING, TMT_INACTIVEBORDER, TMT_INACTIVECAPTION, TMT_INACTIVECAPTIONTEXT, TMT_INFOBK, TMT_INFOTEXT, TMT_LIGHT3D, TMT_MENUBAR, TMT_MENUHILIGHT, TMT_MENUTEXT, TMT_SCROLLBAR, TMT_WINDOW, TMT_WINDOWFRAME, TMT_WINDOWTEXT, controls.GetThemeSysColorBrush, controls.inet_GetThemeSysColorBrush, inet_GetThemeSysColorBrush, inet_GetThemeSysColorBrush_cpp, uxtheme/GetThemeSysColorBrush
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: uxtheme.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BP_BUFFERFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	UxTheme.dll
+api_name:
+-	GetThemeSysColorBrush
+product: Windows
+targetos: Windows
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # GetThemeSysColorBrush function

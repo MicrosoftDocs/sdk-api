@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rtmv2.RtmGetEntityMethods
+title: RtmGetEntityMethods function
+author: windows-sdk-content
+description: The RtmGetEntityMethods function queries the specified client to determine which methods are available for another client to invoke.
+old-location: rras\rtmgetentitymethods.htm
+old-project: RRAS
+ms.assetid: 186f4a55-d46b-42ab-b092-dc036b011594
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RtmGetEntityMethods, RtmGetEntityMethods function [RAS], _rtmv2ref_rtmgetentitymethods, rras.rtmgetentitymethods, rtmv2/RtmGetEntityMethods
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rtmv2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rtm.dll
+api_name:
+-	RtmGetEntityMethods
+product: Windows
+targetos: Windows
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtmGetEntityMethods function

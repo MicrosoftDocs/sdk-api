@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d2d1_1.D2D1ConvertColorSpace
+title: D2D1ConvertColorSpace function
+author: windows-sdk-content
+description: Converts the given color from one colorspace to another.
+old-location: direct2d\d2d1convertcolorspace.htm
+old-project: Direct2D
+ms.assetid: ECFE9F50-290D-4E6C-90AB-A46B9E413A48
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1ConvertColorSpace, D2D1ConvertColorSpace function [Direct2D], d2d1_1/D2D1ConvertColorSpace, direct2d.d2d1convertcolorspace
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d2d1_1.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_UNIT_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D2D1.dll
+api_name:
+-	D2D1ConvertColorSpace
+product: Windows
+targetos: Windows
+req.lib: D2D1.lib
+req.dll: D2D1.dll
+req.irql: 
 ---
 
 # D2D1ConvertColorSpace function

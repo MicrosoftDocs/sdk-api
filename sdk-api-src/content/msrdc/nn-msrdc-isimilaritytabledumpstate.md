@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:msrdc.ISimilarityTableDumpState
+title: ISimilarityTableDumpState
+author: windows-sdk-content
+description: Provides a method for retrieving information from the similarity traits list that was returned by the ISimilarityTraitsTable::BeginDump method.
+old-location: rdc\isimilaritytabledumpstate.htm
+old-project: Rdc
+ms.assetid: a56433b5-191f-49fe-83fb-7057e4c30bbd
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ISimilarityTableDumpState, ISimilarityTableDumpState interface [Remote Differential Compression], ISimilarityTableDumpState interface [Remote Differential Compression],described, fs.isimilaritytabledumpstate, msrdc/ISimilarityTableDumpState, rdc.isimilaritytabledumpstate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: msrdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: MsRdc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RdcMappingAccessMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsRdc.dll
+api_name:
+-	ISimilarityTableDumpState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISimilarityTableDumpState interface

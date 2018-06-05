@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:snmp.SnmpExtensionTrap
+title: SnmpExtensionTrap function
+author: windows-sdk-content
+description: The Microsoft SNMP service calls the SnmpExtensionTrap function to retrieve information the service needs to generate traps for the SNMP extension agent.
+old-location: snmp\snmpextensiontrap.htm
+old-project: SNMP
+ms.assetid: 5c768bf5-aa25-4ead-8ee9-fc1f30de4354
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: SNMP_GENERICTRAP_AUTHFAILURE, SNMP_GENERICTRAP_COLDSTART, SNMP_GENERICTRAP_EGPNEIGHLOSS, SNMP_GENERICTRAP_ENTERSPECIFIC, SNMP_GENERICTRAP_LINKDOWN, SNMP_GENERICTRAP_LINKUP, SNMP_GENERICTRAP_WARMSTART, SnmpExtensionTrap, SnmpExtensionTrap callback, SnmpExtensionTrap callback function [SNMP], _snmp_snmpextensiontrap, snmp.snmpextensiontrap, snmp/SnmpExtensionTrap
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: snmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SL_NONGENUINE_UI_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Snmp.h
+api_name:
+-	SnmpExtensionTrap
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SnmpExtensionTrap function

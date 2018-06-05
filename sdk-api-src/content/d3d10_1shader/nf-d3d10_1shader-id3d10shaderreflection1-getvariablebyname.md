@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d10_1shader.ID3D10ShaderReflection1.GetVariableByName
+title: ID3D10ShaderReflection1::GetVariableByName
+author: windows-sdk-content
+description: Gets a variable by name.
+old-location: direct3d10\id3d10shaderreflection1_getvariablebyname.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10shaderreflection1_getvariablebyname.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 949e282a-c8c8-2ae4-0a72-0b158bbcc614, GetVariableByName, GetVariableByName method [Direct3D 10], GetVariableByName method [Direct3D 10],ID3D10ShaderReflection1 interface, ID3D10ShaderReflection1 interface [Direct3D 10],GetVariableByName method, ID3D10ShaderReflection1.GetVariableByName, ID3D10ShaderReflection1::GetVariableByName, d3d10_1shader/ID3D10ShaderReflection1::GetVariableByName, direct3d10.id3d10shaderreflection1_getvariablebyname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d10_1shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_SHADER_DEBUG_VARTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10_1Shader.h
+api_name:
+-	ID3D10ShaderReflection1.GetVariableByName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D10ShaderReflection1::GetVariableByName

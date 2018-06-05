@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:shobjidl.ISearchBoxInfo
+title: ISearchBoxInfo
+author: windows-sdk-content
+description: Exposes methods that allow the caller to retrieve information entered into a search box.
+old-location: shell\ISearchBoxInfo.htm
+old-project: shell
+ms.assetid: 7b2082e9-b075-488a-a6c1-f9dc99409474
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ISearchBoxInfo, ISearchBoxInfo interface [Windows Shell], ISearchBoxInfo interface [Windows Shell],described, _shell_ISearchBoxInfo, shell.ISearchBoxInfo, shobjidl/ISearchBoxInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Explorerframe.dll
+api_name:
+-	ISearchBoxInfo
+product: Windows
+targetos: Windows
+req.lib: Comdlg32.lib
+req.dll: Explorerframe.dll
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # ISearchBoxInfo interface

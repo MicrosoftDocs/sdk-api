@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wcmapi._WCM_USAGE_DATA
+title: "_WCM_USAGE_DATA"
+author: windows-sdk-content
+description: Contains information related to connection usage.
+old-location: wcm\wcm_usage_data.htm
+old-project: wcm
+ms.assetid: c6a483cf-d392-495f-854d-ccc782b30aa5
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PWCM_USAGE_DATA, PWCM_USAGE_DATA, PWCM_USAGE_DATA structure pointer [Windows Connection Manager], WCM_USAGE_DATA, WCM_USAGE_DATA structure [Windows Connection Manager], _WCM_USAGE_DATA, wcm.wcm_usage_data, wcmapi/PWCM_USAGE_DATA, wcmapi/WCM_USAGE_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wcmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WCM_USAGE_DATA, *PWCM_USAGE_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wcmapi.h
+api_name:
+-	WCM_USAGE_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WCM_USAGE_DATA structure

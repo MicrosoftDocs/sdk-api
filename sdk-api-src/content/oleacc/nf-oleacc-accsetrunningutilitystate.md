@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleacc.AccSetRunningUtilityState
+title: AccSetRunningUtilityState function
+author: windows-sdk-content
+description: Sets system values that indicate whether an assistive technology (AT) application's current state affects functionality that is typically provided by the system.
+old-location: winauto\accsetrunningutilitystate.htm
+old-project: WinAuto
+ms.assetid: 0AEDDE0D-D8E2-4C9E-AB2B-2FF0ACC3695D
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: ANRUS_ON_SCREEN_KEYBOARD_ACTIVE, ANRUS_PRIORITY_AUDIO_ACTIVE, ANRUS_PRIORITY_AUDIO_ACTIVE_NODUCK, ANRUS_TOUCH_MODIFICATION_ACTIVE, AccSetRunningUtilityState, AccSetRunningUtilityState function [Windows Accessibility], oleacc/AccSetRunningUtilityState, winauto.accsetrunningutilitystate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: oleacc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Oleacc.dll
+api_name:
+-	AccSetRunningUtilityState
+product: Windows
+targetos: Windows
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # AccSetRunningUtilityState function

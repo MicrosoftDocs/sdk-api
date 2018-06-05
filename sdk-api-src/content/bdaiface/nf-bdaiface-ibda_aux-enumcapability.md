@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_AUX.EnumCapability
+title: IBDA_AUX::EnumCapability
+author: windows-sdk-content
+description: Gets the capabilities of an auxiliary connector, specified by index.
+old-location: mstv\ibda_aux_enumcapability.htm
+old-project: mstv
+ms.assetid: 5f04c080-81c9-4aa9-ba54-5e16a538f10a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EnumCapability, EnumCapability method [Microsoft TV Technologies], EnumCapability method [Microsoft TV Technologies],IBDA_AUX interface, IBDA_AUX interface [Microsoft TV Technologies],EnumCapability method, IBDA_AUX.EnumCapability, IBDA_AUX::EnumCapability, PBDA_AUX_CONNECTOR_TYPE_Composite, PBDA_AUX_CONNECTOR_TYPE_SVideo, bdaiface/IBDA_AUX::EnumCapability, mstv.ibda_aux_enumcapability
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bdaiface.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_AUX.EnumCapability
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_AUX::EnumCapability

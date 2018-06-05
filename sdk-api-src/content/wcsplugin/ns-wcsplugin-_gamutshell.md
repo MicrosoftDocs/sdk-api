@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wcsplugin._GamutShell
+title: "_GamutShell"
+author: windows-sdk-content
+description: Contains information that defines a gamut shell, which is represented by a list of indexed triangles. The vertex buffer contains the vertices data.
+old-location: wcs\gamutshell.htm
+old-project: WCS
+ms.assetid: 1cec9fa3-4395-4047-a866-47c3bae9d875
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: GamutShell, GamutShell structure [Windows Color System], _GamutShell, _color_GamutShell_str, wcs.gamutshell, wcsplugin/GamutShell
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wcsplugin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GamutShell
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WcsPlugIn.h
+api_name:
+-	GamutShell
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _GamutShell structure

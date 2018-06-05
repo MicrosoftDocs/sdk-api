@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dpa_dsa.DPA_Sort
+title: DPA_Sort function
+author: windows-sdk-content
+description: Sorts the items in a Dynamic Pointer Array (DPA).
+old-location: controls\DPA_Sort.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\common\functions\dpa_sort.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: DPA_Sort, DPA_Sort function [Windows Controls], _win32_DPA_Sort, _win32_DPA_Sort_cpp, controls.DPA_Sort, controls._win32_DPA_Sort, dpa_dsa/DPA_Sort
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dpa_dsa.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ComCtl32.dll
+api_name:
+-	DPA_Sort
+product: Windows
+targetos: Windows
+req.lib: Comctl32.lib
+req.dll: ComCtl32.dll
+req.irql: 
 ---
 
 # DPA_Sort function

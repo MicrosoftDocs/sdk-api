@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mi._MI_Sint64AField
+title: "_MI_Sint64AField"
+author: windows-sdk-content
+description: Represents a property inside an MI_Instance structure.
+old-location: wmi_v2\mi_sint64afield.htm
+old-project: wmi_v2
+ms.assetid: 5004d3e3-43bf-4a83-b2db-f916e8fed816
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Sint64AField, MI_Sint64AField structure [Windows Management Infrastructure (MI)], _MI_Sint64AField, mi/MI_Sint64AField, wmi._mi_sint64afield, wmi_v2.mi_sint64afield
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MI_Sint64AField
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_Sint64AField
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MI_Sint64AField structure

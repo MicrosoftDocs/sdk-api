@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:intsafe.ULongPtrToLong
+title: ULongPtrToLong function
+author: windows-sdk-content
+description: Converts a value of type ULONG_PTR to a value of type LONG.
+old-location: shell\ULongPtrToLong.htm
+old-project: shell
+ms.assetid: 8f3f7cac-7dd4-4fe2-9415-082a24f14ba3
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: DWordPtrToLong, SIZETToLong, ULongPtrToLong, ULongPtrToLong function [Windows Shell], _shell_ULongPtrToLong, intsafe/ULongPtrToLong, shell.ULongPtrToLong
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: intsafe.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANIPULATION_VELOCITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Intsafe.h
+api_name:
+-	ULongPtrToLong
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ULongPtrToLong function

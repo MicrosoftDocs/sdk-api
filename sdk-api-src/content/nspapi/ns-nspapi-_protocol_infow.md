@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:nspapi._PROTOCOL_INFOW
+title: "_PROTOCOL_INFOW"
+author: windows-sdk-content
+description: Contains information about a protocol.
+old-location: winsock\protocol_info_2.htm
+old-project: WinSock
+ms.assetid: 0cbddf17-41a8-4e61-b3b0-080ef50dc5de
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPPROTOCOL_INFOW, *PPROTOCOL_INFOW, 0, 0xFFFFFFFF, PROTOCOL_INFO, PROTOCOL_INFO structure [Winsock], PROTOCOL_INFOA, PROTOCOL_INFOW, XP_BANDWIDTH_ALLOCATION, XP_CONNECTIONLESS, XP_CONNECT_DATA, XP_DISCONNECT_DATA, XP_ENCRYPTS, XP_EXPEDITED_DATA, XP_FRAGMENTATION, XP_GRACEFUL_CLOSE, XP_GUARANTEED_DELIVERY, XP_GUARANTEED_ORDER, XP_MESSAGE_ORIENTED, XP_PSEUDO_STREAM, XP_SUPPORTS_BROADCAST, XP_SUPPORTS_MULTICAST, _PROTOCOL_INFOW, _win32_protocol_info_2, nspapi/PROTOCOL_INFO, nspapi/PROTOCOL_INFOA, nspapi/PROTOCOL_INFOW, winsock.protocol_info_2"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: nspapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PROTOCOL_INFOW (Unicode) and PROTOCOL_INFOA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROTOCOL_INFOW, *PPROTOCOL_INFOW, *LPPROTOCOL_INFOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Nspapi.h
+api_name:
+-	PROTOCOL_INFO
+-	PROTOCOL_INFOA
+-	PROTOCOL_INFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PROTOCOL_INFOW structure

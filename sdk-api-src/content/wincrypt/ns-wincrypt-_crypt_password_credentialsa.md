@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_PASSWORD_CREDENTIALSA
+title: "_CRYPT_PASSWORD_CREDENTIALSA"
+author: windows-sdk-content
+description: Contains the user name and password credentials to be used in the CRYPT_CREDENTIALS structure as optional input to a remote object retrieval function such as CryptRetrieveObjectByUrl or CryptGetTimeValidObject.
+old-location: security\crypt_password_credentials.htm
+old-project: SecCrypto
+ms.assetid: 21461344-1080-4603-bda1-a92dfda68c15
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_PASSWORD_CREDENTIALSA, CRYPT_PASSWORD_CREDENTIALS, CRYPT_PASSWORD_CREDENTIALS structure [Security], CRYPT_PASSWORD_CREDENTIALSA, CRYPT_PASSWORD_CREDENTIALSW, PCRYPT_PASSWORD_CREDENTIALS, PCRYPT_PASSWORD_CREDENTIALS structure pointer [Security], _CRYPT_PASSWORD_CREDENTIALSA, security.crypt_password_credentials, wincrypt/CRYPT_PASSWORD_CREDENTIALS, wincrypt/CRYPT_PASSWORD_CREDENTIALSA, wincrypt/CRYPT_PASSWORD_CREDENTIALSW, wincrypt/PCRYPT_PASSWORD_CREDENTIALS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CRYPT_PASSWORD_CREDENTIALSW (Unicode) and CRYPT_PASSWORD_CREDENTIALSA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_PASSWORD_CREDENTIALSA, *PCRYPT_PASSWORD_CREDENTIALSA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinCrypt.h
+api_name:
+-	CRYPT_PASSWORD_CREDENTIALS
+-	CRYPT_PASSWORD_CREDENTIALSA
+-	CRYPT_PASSWORD_CREDENTIALSW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_PASSWORD_CREDENTIALSA structure

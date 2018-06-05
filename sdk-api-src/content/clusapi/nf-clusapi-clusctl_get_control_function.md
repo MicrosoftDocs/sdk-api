@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:clusapi.CLUSCTL_GET_CONTROL_FUNCTION
+title: CLUSCTL_GET_CONTROL_FUNCTION macro
+author: windows-sdk-content
+description: Extracts the operation code from a control code. For more information on the various codes that comprise a control code, see Control Code Architecture.
+old-location: mscs\clusctl_get_control_function.htm
+old-project: MsCS
+ms.assetid: 0f1abfdd-e6b2-42a8-8c77-54590e3b3a89
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSCTL_GET_CONTROL_FUNCTION, CLUSCTL_GET_CONTROL_FUNCTION macro [Failover Cluster], _wolf_clusctl_get_control_function, clusapi/CLUSCTL_GET_CONTROL_FUNCTION, mscs.clusctl_get_control_function
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+api_name:
+-	CLUSCTL_GET_CONTROL_FUNCTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSCTL_GET_CONTROL_FUNCTION macro

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataManager.put_MaxFolderCount
+title: IDataManager::put_MaxFolderCount
+author: windows-sdk-content
+description: Retrieves or sets the maximum number of folders to be used by all data collectors in the set.
+old-location: pla\idatamanager_maxfoldercount.htm
+old-project: PLA
+ms.assetid: 71368635-e8c3-44fd-9d8a-f225b10225ba
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IDataManager interface [PLA],MaxFolderCount property, IDataManager.MaxFolderCount, IDataManager.put_MaxFolderCount, IDataManager::MaxFolderCount, IDataManager::get_MaxFolderCount, IDataManager::put_MaxFolderCount, MaxFolderCount property [PLA], MaxFolderCount property [PLA],IDataManager interface, base.idatamanager_maxfoldercount, pla.idatamanager_maxfoldercount, pla/IDataManager::MaxFolderCount, pla/IDataManager::get_MaxFolderCount, pla/IDataManager::put_MaxFolderCount, put_MaxFolderCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataManager.MaxFolderCount
+-	IDataManager.get_MaxFolderCount
+-	IDataManager.put_MaxFolderCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataManager::put_MaxFolderCount

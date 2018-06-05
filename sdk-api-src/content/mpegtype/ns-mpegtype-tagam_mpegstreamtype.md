@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:mpegtype.tagAM_MPEGSTREAMTYPE
+title: tagAM_MPEGSTREAMTYPE
+author: windows-sdk-content
+description: The AM_MPEGSTREAMTYPE structure defines the media type for an MPEG-1 program stream.
+old-location: dshow\am_mpegstreamtype.htm
+old-project: DirectShow
+ms.assetid: 8622ffcb-be64-4a8f-8bc7-834b559b0f95
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AM_MPEGSTREAMTYPE, AM_MPEGSTREAMTYPE structure [DirectShow], dshow.am_mpegstreamtype, mpegtype/AM_MPEGSTREAMTYPE, tagAM_MPEGSTREAMTYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mpegtype.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_MPEGSTREAMTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mpegtype.h
+api_name:
+-	AM_MPEGSTREAMTYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tagAM_MPEGSTREAMTYPE structure

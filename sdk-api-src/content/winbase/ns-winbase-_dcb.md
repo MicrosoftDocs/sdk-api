@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbase._DCB
+title: "_DCB"
+author: windows-sdk-content
+description: Defines the control setting for a serial communications device.
+old-location: base\dcb_str.htm
+old-project: DevIO
+ms.assetid: 9dccd2c6-44b7-4609-a2b9-9815430bf3c7
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*LPDCB, CBR_110, CBR_115200, CBR_1200, CBR_128000, CBR_14400, CBR_19200, CBR_2400, CBR_256000, CBR_300, CBR_38400, CBR_4800, CBR_57600, CBR_600, CBR_9600, DCB, DCB structure, DTR_CONTROL_DISABLE, DTR_CONTROL_ENABLE, DTR_CONTROL_HANDSHAKE, EVENPARITY, LPDCB, LPDCB structure pointer, MARKPARITY, NOPARITY, ODDPARITY, ONE5STOPBITS, ONESTOPBIT, RTS_CONTROL_DISABLE, RTS_CONTROL_ENABLE, RTS_CONTROL_HANDSHAKE, RTS_CONTROL_TOGGLE, SPACEPARITY, TWOSTOPBITS, _DCB, _win32_dcb_str, base.dcb_str, winbase/DCB, winbase/LPDCB"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DCB, *LPDCB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winbase.h
+api_name:
+-	DCB
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _DCB structure

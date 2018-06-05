@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi.lineCreateAgentSessionA
+title: lineCreateAgentSessionA function
+author: windows-sdk-content
+description: The lineCreateAgentSession function creates a new AgentSession object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENTSESSION.
+old-location: tapi2\linecreateagentsession.htm
+old-project: Tapi
+ms.assetid: 38b080d9-365f-49b6-a125-625602971bb8
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "_tapi2_linecreateagentsession, lineCreateAgentSession, lineCreateAgentSession function [TAPI 2.2], lineCreateAgentSessionA, lineCreateAgentSessionW, tapi/lineCreateAgentSession, tapi/lineCreateAgentSessionA, tapi/lineCreateAgentSessionW, tapi2.linecreateagentsession"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: lineCreateAgentSessionW (Unicode) and lineCreateAgentSessionA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FLICK_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tapi32.dll
+api_name:
+-	lineCreateAgentSession
+-	lineCreateAgentSessionA
+-	lineCreateAgentSessionW
+product: Windows
+targetos: Windows
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # lineCreateAgentSessionA function

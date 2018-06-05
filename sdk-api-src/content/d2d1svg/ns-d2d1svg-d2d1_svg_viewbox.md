@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d2d1svg.D2D1_SVG_VIEWBOX
+title: D2D1_SVG_VIEWBOX
+author: windows-sdk-content
+description: Represents an SVG viewBox.
+old-location: direct2d\d2d1_svg_viewbox.htm
+old-project: Direct2D
+ms.assetid: 35D576E1-18E1-4A3B-A1E9-7A6A55AA2872
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_SVG_VIEWBOX, D2D1_SVG_VIEWBOX structure [Direct2D], d2d1svg/D2D1_SVG_VIEWBOX, direct2d.d2d1_svg_viewbox
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d2d1svg.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_SVG_VIEWBOX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1svg.h
+api_name:
+-	D2D1_SVG_VIEWBOX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D2D1_SVG_VIEWBOX structure

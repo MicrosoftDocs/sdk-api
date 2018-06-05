@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:raseapif._RAS_AUTH_ATTRIBUTE_TYPE_
+title: "_RAS_AUTH_ATTRIBUTE_TYPE_"
+author: windows-sdk-content
+description: The RAS_AUTH_ATTRIBUTE_TYPE enumerated type specifies attribute values used for session authentication.
+old-location: eap\ras_auth_attribute_type.htm
+old-project: EAP
+ms.assetid: 0cb99318-2874-4945-ae32-cb5d90be9dee
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: RAS_AUTH_ATTRIBUTE_TYPE, RAS_AUTH_ATTRIBUTE_TYPE enumeration [EAP], _RAS_AUTH_ATTRIBUTE_TYPE_, _eap_ras_auth_attribute_type, eap.ras_auth_attribute_type, raatARAPChallengeResponse, raatARAPFeatures, raatARAPGuestLogon, raatARAPPassword, raatARAPSecurity, raatARAPSecurityData, raatARAPZoneAccess, raatAcctAuthentic, raatAcctDelayTime, raatAcctEventTimeStamp, raatAcctInputOctets, raatAcctInputPackets, raatAcctInterimInterval, raatAcctLinkCount, raatAcctMultiSessionId, raatAcctOutputOctets, raatAcctOutputPackets, raatAcctSessionId, raatAcctSessionTime, raatAcctStatusType, raatAcctTerminateCause, raatCallbackId, raatCallbackNumber, raatCalledStationId, raatCallingStationId, raatCertificateOID, raatClass, raatConfigurationToken, raatConnectInfo, raatEAPConfiguration, raatEAPMessage, raatEAPTLV, raatFilterId, raatFramedAppleTalkLink, raatFramedAppleTalkNetwork, raatFramedAppleTalkZone, raatFramedCompression, raatFramedIPAddress, raatFramedIPNetmask, raatFramedIPXNetwork, raatFramedMTU, raatFramedProtocol, raatFramedRoute, raatFramedRouting, raatIdleTimeout, raatLoginIPHost, raatLoginLATGroup, raatLoginLATNode, raatLoginLATPort, raatLoginLATService, raatLoginService, raatLoginTCPPort, raatMD5CHAPChallenge, raatMD5CHAPPassword, raatMinimum, raatNASIPAddress, raatNASIdentifier, raatNASPort, raatNASPortType, raatPEAPEmbeddedEAPTypeId, raatPEAPFastRoamedSession, raatPasswordRetry, raatPortLimit, raatPrompt, raatProxyState, raatReplyMessage, raatReserved, raatServiceType, raatSessionTimeout, raatSignature, raatState, raatTerminationAction, raatTunnelClientEndpoint, raatTunnelMediumType, raatTunnelServerEndpoint, raatTunnelType, raatUnassigned17, raatUnassigned21, raatUserName, raatUserPassword, raatVendorSpecific, raseapif/RAS_AUTH_ATTRIBUTE_TYPE, raseapif/raatARAPChallengeResponse, raseapif/raatARAPFeatures, raseapif/raatARAPGuestLogon, raseapif/raatARAPPassword, raseapif/raatARAPSecurity, raseapif/raatARAPSecurityData, raseapif/raatARAPZoneAccess, raseapif/raatAcctAuthentic, raseapif/raatAcctDelayTime, raseapif/raatAcctEventTimeStamp, raseapif/raatAcctInputOctets, raseapif/raatAcctInputPackets, raseapif/raatAcctInterimInterval, raseapif/raatAcctLinkCount, raseapif/raatAcctMultiSessionId, raseapif/raatAcctOutputOctets, raseapif/raatAcctOutputPackets, raseapif/raatAcctSessionId, raseapif/raatAcctSessionTime, raseapif/raatAcctStatusType, raseapif/raatAcctTerminateCause, raseapif/raatCallbackId, raseapif/raatCallbackNumber, raseapif/raatCalledStationId, raseapif/raatCallingStationId, raseapif/raatCertificateOID, raseapif/raatClass, raseapif/raatConfigurationToken, raseapif/raatConnectInfo, raseapif/raatEAPConfiguration, raseapif/raatEAPMessage, raseapif/raatEAPTLV, raseapif/raatFilterId, raseapif/raatFramedAppleTalkLink, raseapif/raatFramedAppleTalkNetwork, raseapif/raatFramedAppleTalkZone, raseapif/raatFramedCompression, raseapif/raatFramedIPAddress, raseapif/raatFramedIPNetmask, raseapif/raatFramedIPXNetwork, raseapif/raatFramedMTU, raseapif/raatFramedProtocol, raseapif/raatFramedRoute, raseapif/raatFramedRouting, raseapif/raatIdleTimeout, raseapif/raatLoginIPHost, raseapif/raatLoginLATGroup, raseapif/raatLoginLATNode, raseapif/raatLoginLATPort, raseapif/raatLoginLATService, raseapif/raatLoginService, raseapif/raatLoginTCPPort, raseapif/raatMD5CHAPChallenge, raseapif/raatMD5CHAPPassword, raseapif/raatMinimum, raseapif/raatNASIPAddress, raseapif/raatNASIdentifier, raseapif/raatNASPort, raseapif/raatNASPortType, raseapif/raatPEAPEmbeddedEAPTypeId, raseapif/raatPEAPFastRoamedSession, raseapif/raatPasswordRetry, raseapif/raatPortLimit, raseapif/raatPrompt, raseapif/raatProxyState, raseapif/raatReplyMessage, raseapif/raatReserved, raseapif/raatServiceType, raseapif/raatSessionTimeout, raseapif/raatSignature, raseapif/raatState, raseapif/raatTerminationAction, raseapif/raatTunnelClientEndpoint, raseapif/raatTunnelMediumType, raseapif/raatTunnelServerEndpoint, raseapif/raatTunnelType, raseapif/raatUnassigned17, raseapif/raatUnassigned21, raseapif/raatUserName, raseapif/raatUserPassword, raseapif/raatVendorSpecific
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: raseapif.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RasPhonebookDlgW (Unicode) and RasPhonebookDlgA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RAS_AUTH_ATTRIBUTE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Raseapif.h
+api_name:
+-	RAS_AUTH_ATTRIBUTE_TYPE
+product: Windows
+targetos: Windows
+req.lib: Rasdlg.lib
+req.dll: Rasdlg.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RAS_AUTH_ATTRIBUTE_TYPE_ enumeration

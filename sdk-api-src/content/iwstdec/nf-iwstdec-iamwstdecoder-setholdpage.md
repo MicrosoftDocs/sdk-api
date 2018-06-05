@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iwstdec.IAMWstDecoder.SetHoldPage
+title: IAMWstDecoder::SetHoldPage
+author: windows-sdk-content
+description: Downstream filters use the SetHoldPage method to tell the WST decoder to hold the current WST page. When the WST decoder holds a page, any updates from the TV stream are turned off. It is as though the page was paused in real time.
+old-location: dshow\iamwstdecoder_setholdpage.htm
+old-project: DirectShow
+ms.assetid: 2fea6f52-bae3-4679-a89b-fe85f1232d34
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IAMWstDecoder interface [DirectShow],SetHoldPage method, IAMWstDecoder.SetHoldPage, IAMWstDecoder::SetHoldPage, IAMWstDecoderSetHoldPage, SetHoldPage, SetHoldPage method [DirectShow], SetHoldPage method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setholdpage, iwstdec/IAMWstDecoder::SetHoldPage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: iwstdec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_WST_STYLE, *PAM_WST_STYLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IAMWstDecoder.SetHoldPage
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IAMWstDecoder::SetHoldPage

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzApplication.get_PolicyAdministrators
+title: IAzApplication::get_PolicyAdministrators
+author: windows-sdk-content
+description: Retrieves the security identifiers (SIDs), in text form, of principals that act as policy administrators.
+old-location: security\iazapplication_policyadministrators.htm
+old-project: SecAuthZ
+ms.assetid: a0b66213-3dc7-4886-9c93-0d27d43a7d92
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AzApplication object [Security],PolicyAdministrators property, IAzApplication interface [Security],PolicyAdministrators property, IAzApplication.PolicyAdministrators, IAzApplication.get_PolicyAdministrators, IAzApplication::PolicyAdministrators, IAzApplication::get_PolicyAdministrators, PolicyAdministrators property [Security], PolicyAdministrators property [Security],AzApplication object, PolicyAdministrators property [Security],IAzApplication interface, azroles/IAzApplication::PolicyAdministrators, azroles/IAzApplication::get_PolicyAdministrators, get_PolicyAdministrators, security.iazapplication_policyadministrators
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzApplication.PolicyAdministrators
+-	IAzApplication.get_PolicyAdministrators
+-	AzApplication.PolicyAdministrators
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzApplication::get_PolicyAdministrators

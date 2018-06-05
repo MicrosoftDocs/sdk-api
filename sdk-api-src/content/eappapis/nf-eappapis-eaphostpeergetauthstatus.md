@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:eappapis.EapHostPeerGetAuthStatus
+title: EapHostPeerGetAuthStatus function
+author: windows-sdk-content
+description: Obtains the supplicant's current EAP authentication status from EAPHost.
+old-location: eaphost\eaphostpeergetauthstatus.htm
+old-project: EAPHost
+ms.assetid: cb5ceffb-941f-48ad-9271-111f41adc65b
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: EapHostNapInfo, EapHostPeerAuthStatus, EapHostPeerGetAuthStatus, EapHostPeerGetAuthStatus function [EAPHost], EapHostPeerIdentity, EapHostPeerIdentityExtendedInfo, eaphost.eaphostpeergetauthstatus, eappapis/EapHostPeerGetAuthStatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: eappapis.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EapPacket
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	eappprxy.dll
+api_name:
+-	EapHostPeerGetAuthStatus
+product: Windows
+targetos: Windows
+req.lib: Eappprxy.lib
+req.dll: Eappprxy.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # EapHostPeerGetAuthStatus function

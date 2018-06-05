@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataCollector.get_LogCircular
+title: IDataCollector::get_LogCircular
+author: windows-sdk-content
+description: Retrieves or sets a value that indicates if PLA should create a circular file.
+old-location: pla\idatacollector_logcircular.htm
+old-project: PLA
+ms.assetid: d1b35b02-cfda-42a4-bd1d-d837a91861d6
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IDataCollector interface [PLA],LogCircular property, IDataCollector.LogCircular, IDataCollector.get_LogCircular, IDataCollector::LogCircular, IDataCollector::get_LogCircular, IDataCollector::put_LogCircular, LogCircular property [PLA], LogCircular property [PLA],IDataCollector interface, base.idatacollector_logcircular, get_LogCircular, pla.idatacollector_logcircular, pla/IDataCollector::LogCircular, pla/IDataCollector::get_LogCircular, pla/IDataCollector::put_LogCircular
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataCollector.LogCircular
+-	IDataCollector.get_LogCircular
+-	IDataCollector.put_LogCircular
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataCollector::get_LogCircular

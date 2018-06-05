@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dcomptypes.DCOMPOSITION_FRAME_STATISTICS
+title: DCOMPOSITION_FRAME_STATISTICS
+author: windows-sdk-content
+description: Describes timing and composition statistics for a frame.
+old-location: directcomp\dcomposition_frame_statistics.htm
+old-project: directcomp
+ms.assetid: 431D8399-9BCC-4B3A-89F4-E698446EF764
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: DCOMPOSITION_FRAME_STATISTICS, DCOMPOSITION_FRAME_STATISTICS structure [DirectComposition], PDCOMPOSITION_FRAME_STATISTICS, PDCOMPOSITION_FRAME_STATISTICS structure pointer [DirectComposition], dcomptypes/DCOMPOSITION_FRAME_STATISTICS, dcomptypes/PDCOMPOSITION_FRAME_STATISTICS, directcomp.dcomposition_frame_statistics
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dcomptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DcompAnimation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DCOMPOSITION_FRAME_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DcompTypes.h
+api_name:
+-	DCOMPOSITION_FRAME_STATISTICS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DCOMPOSITION_FRAME_STATISTICS structure

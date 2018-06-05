@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certadm.IOCSPCAConfigurationCollection.get_Count
+title: IOCSPCAConfigurationCollection::get_Count
+author: windows-sdk-content
+description: Gets the number of certification authority (CA) configurations in the configuration set.
+old-location: security\iocspcaconfigurationcollection_count_method.htm
+old-project: SecCrypto
+ms.assetid: 85e340f3-d625-49ea-93d8-28a44ca05ec8
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: Count property [Security], Count property [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],Count property, IOCSPCAConfigurationCollection.Count, IOCSPCAConfigurationCollection.get_Count, IOCSPCAConfigurationCollection::Count, IOCSPCAConfigurationCollection::get_Count, certadm/IOCSPCAConfigurationCollection::Count, certadm/IOCSPCAConfigurationCollection::get_Count, get_Count, security.iocspcaconfigurationcollection_count_method
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certadm.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certadm.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certadm.dll
+api_name:
+-	IOCSPCAConfigurationCollection.Count
+-	IOCSPCAConfigurationCollection.get_Count
+product: Windows
+targetos: Windows
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # IOCSPCAConfigurationCollection::get_Count

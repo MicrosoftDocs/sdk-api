@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi.CLUSTER_PROPERTY_FORMAT
+title: CLUSTER_PROPERTY_FORMAT
+author: windows-sdk-content
+description: Specifies the data type of a property value in a property list.
+old-location: mscs\cluster_property_format.htm
+old-project: MsCS
+ms.assetid: a5e06aaf-96ef-41e9-ab73-c0edc8f34d12
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSPROP_FORMAT_BINARY, CLUSPROP_FORMAT_DWORD, CLUSPROP_FORMAT_EXPANDED_SZ, CLUSPROP_FORMAT_EXPAND_SZ, CLUSPROP_FORMAT_FILETIME, CLUSPROP_FORMAT_LARGE_INTEGER, CLUSPROP_FORMAT_LONG, CLUSPROP_FORMAT_MULTI_SZ, CLUSPROP_FORMAT_SECURITY_DESCRIPTOR, CLUSPROP_FORMAT_SZ, CLUSPROP_FORMAT_ULARGE_INTEGER, CLUSPROP_FORMAT_UNKNOWN, CLUSPROP_FORMAT_USER, CLUSPROP_FORMAT_WORD, CLUSTER_PROPERTY_FORMAT, CLUSTER_PROPERTY_FORMAT enumeration [Failover Cluster], _CLUSTER_PROPERTY_FORMAT, _CLUSTER_PROPERTY_FORMAT enumeration [Failover Cluster], clusapi/CLUSPROP_FORMAT_BINARY, clusapi/CLUSPROP_FORMAT_DWORD, clusapi/CLUSPROP_FORMAT_EXPANDED_SZ, clusapi/CLUSPROP_FORMAT_EXPAND_SZ, clusapi/CLUSPROP_FORMAT_FILETIME, clusapi/CLUSPROP_FORMAT_LARGE_INTEGER, clusapi/CLUSPROP_FORMAT_LONG, clusapi/CLUSPROP_FORMAT_MULTI_SZ, clusapi/CLUSPROP_FORMAT_SECURITY_DESCRIPTOR, clusapi/CLUSPROP_FORMAT_SZ, clusapi/CLUSPROP_FORMAT_ULARGE_INTEGER, clusapi/CLUSPROP_FORMAT_UNKNOWN, clusapi/CLUSPROP_FORMAT_USER, clusapi/CLUSPROP_FORMAT_WORD, clusapi/CLUSTER_PROPERTY_FORMAT, clusapi/_CLUSTER_PROPERTY_FORMAT, msclus/CLUSPROP_FORMAT_BINARY, msclus/CLUSPROP_FORMAT_DWORD, msclus/CLUSPROP_FORMAT_EXPANDED_SZ, msclus/CLUSPROP_FORMAT_EXPAND_SZ, msclus/CLUSPROP_FORMAT_FILETIME, msclus/CLUSPROP_FORMAT_LARGE_INTEGER, msclus/CLUSPROP_FORMAT_LONG, msclus/CLUSPROP_FORMAT_MULTI_SZ, msclus/CLUSPROP_FORMAT_SECURITY_DESCRIPTOR, msclus/CLUSPROP_FORMAT_SZ, msclus/CLUSPROP_FORMAT_ULARGE_INTEGER, msclus/CLUSPROP_FORMAT_UNKNOWN, msclus/CLUSPROP_FORMAT_USER, msclus/CLUSPROP_FORMAT_WORD, msclus/CLUSTER_PROPERTY_FORMAT, msclus/_CLUSTER_PROPERTY_FORMAT, mscs.cluster_property_format
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_PROPERTY_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSTER_PROPERTY_FORMAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSTER_PROPERTY_FORMAT enumeration

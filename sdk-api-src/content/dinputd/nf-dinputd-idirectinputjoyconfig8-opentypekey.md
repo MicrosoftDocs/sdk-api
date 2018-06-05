@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dinputd.IDirectInputJoyConfig8.OpenTypeKey
+title: IDirectInputJoyConfig8::OpenTypeKey
+author: windows-sdk-content
+description: The IDirectInputJoyConfig8::OpenTypeKey method opens the registry key associated with a joystick type.
+old-location: hid\idirectinputjoyconfig8_opentypekey.htm
+old-project: hid
+ms.assetid: d747625b-a9e3-41cb-894a-1f62599c62a9
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],OpenTypeKey method, IDirectInputJoyConfig8.OpenTypeKey, IDirectInputJoyConfig8::OpenTypeKey, OpenTypeKey, OpenTypeKey method [Human Input Devices], OpenTypeKey method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_073c7914-daaf-4db5-95bc-2fd2aef897b5.xml, dinputd/IDirectInputJoyConfig8::OpenTypeKey, hid.idirectinputjoyconfig8_opentypekey
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dinputd.h
+api_name:
+-	IDirectInputJoyConfig8.OpenTypeKey
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputJoyConfig8::OpenTypeKey

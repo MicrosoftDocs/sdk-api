@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:segment.IMSVidStreamBufferSinkEvent2.EncryptionOn
+title: IMSVidStreamBufferSinkEvent2::EncryptionOn
+author: windows-sdk-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+old-location: mstv\imsvidstreambuffersinkevent2_encryptionon.htm
+old-project: mstv
+ms.assetid: 753f33bc-2430-4c76-bf9b-ccd5aeaf6676
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EncryptionOn, EncryptionOn method [Microsoft TV Technologies], EncryptionOn method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent2 interface, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies],EncryptionOn method, IMSVidStreamBufferSinkEvent2.EncryptionOn, IMSVidStreamBufferSinkEvent2::EncryptionOn, IMSVidStreamBufferSinkEvent2EncryptionOn, mstv.imsvidstreambuffersinkevent2_encryptionon, segment/IMSVidStreamBufferSinkEvent2::EncryptionOn
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidStreamBufferSinkEvent2.EncryptionOn
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidStreamBufferSinkEvent2::EncryptionOn

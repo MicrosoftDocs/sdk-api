@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:objectarray.IObjectCollection
+title: IObjectCollection
+author: windows-sdk-content
+description: Extends the IObjectArray interface by providing methods that enable clients to add and remove objects that support IUnknown in a collection.
+old-location: shell\IObjectCollection.htm
+old-project: shell
+ms.assetid: d7665b26-5839-4b08-a099-ef25a68c65db
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IObjectCollection, IObjectCollection interface [Windows Shell], IObjectCollection interface [Windows Shell],described, _shell_IObjectCollection, objectarray/IObjectCollection, shell.IObjectCollection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: objectarray.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMSD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objectarray.h
+api_name:
+-	IObjectCollection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IObjectCollection interface

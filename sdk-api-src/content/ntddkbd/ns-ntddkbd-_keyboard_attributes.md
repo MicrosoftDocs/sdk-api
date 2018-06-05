@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ntddkbd._KEYBOARD_ATTRIBUTES
+title: "_KEYBOARD_ATTRIBUTES"
+author: windows-sdk-content
+description: KEYBOARD_ATTRIBUTES specifies the attributes of a keyboard.
+old-location: hid\keyboard_attributes.htm
+old-project: hid
+ms.assetid: 060e93de-b84e-4755-a5f8-cbc52d900310
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PKEYBOARD_ATTRIBUTES, KEYBOARD_ATTRIBUTES, KEYBOARD_ATTRIBUTES structure [Human Input Devices], PKEYBOARD_ATTRIBUTES, PKEYBOARD_ATTRIBUTES structure pointer [Human Input Devices], _KEYBOARD_ATTRIBUTES, hid.keyboard_attributes, kref_430bedf0-40bc-4d93-b382-3fe4c69fcbb5.xml, ntddkbd/KEYBOARD_ATTRIBUTES, ntddkbd/PKEYBOARD_ATTRIBUTES"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntddkbd.h
+req.include-header: Ntddkbd.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KEYBOARD_ATTRIBUTES, *PKEYBOARD_ATTRIBUTES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ntddkbd.h
+api_name:
+-	KEYBOARD_ATTRIBUTES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _KEYBOARD_ATTRIBUTES structure

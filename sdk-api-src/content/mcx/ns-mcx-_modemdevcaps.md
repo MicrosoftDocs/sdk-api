@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mcx._MODEMDEVCAPS
+title: "_MODEMDEVCAPS"
+author: windows-sdk-content
+description: Contains information about the capabilities of a modem.
+old-location: base\modemdevcaps_str.htm
+old-project: DevIO
+ms.assetid: 7e9e37c7-416d-4550-87e3-7412cff9a49e
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*LPMODEMDEVCAPS, *PMODEMDEVCAPS, DIALOPTION_BILLING, DIALOPTION_DIALTONE, DIALOPTION_QUIET, LPMODEMDEVCAPS, LPMODEMDEVCAPS structure pointer, MDMSPKRFLAG_CALLSETUP, MDMSPKRFLAG_DIAL, MDMSPKRFLAG_OFF, MDMSPKRFLAG_ON, MDMVOLFLAG_HIGH, MDMVOLFLAG_LOW, MDMVOLFLAG_MEDIUM, MDM_BLIND_DIAL, MDM_CCITT_OVERRIDE, MDM_CELLULAR, MDM_COMPRESSION, MDM_DIAGNOSTICS, MDM_ERROR_CONTROL, MDM_FLOWCONTROL_HARD, MDM_FLOWCONTROL_SOFT, MDM_FORCED_EC, MDM_SPEED_ADJUST, MDM_TONE_DIAL, MDM_V23_OVERRIDE, MODEMDEVCAPS, MODEMDEVCAPS structure, PMODEMDEVCAPS, PMODEMDEVCAPS structure pointer, _MODEMDEVCAPS, _win32_modemdevcaps_str, base.modemdevcaps_str, mcx/LPMODEMDEVCAPS, mcx/MODEMDEVCAPS, mcx/PMODEMDEVCAPS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mcx.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MODEMDEVCAPS, *PMODEMDEVCAPS, *LPMODEMDEVCAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mcx.h
+api_name:
+-	MODEMDEVCAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MODEMDEVCAPS structure

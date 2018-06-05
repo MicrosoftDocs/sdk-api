@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dcomp.SetTopRightRadiusY
+title: SetTopRightRadiusY function
+author: windows-sdk-content
+description: Changes or animates the value of the TopRightRadiusY property of this clip. The TopRightRadiusY property specifies the y radius of the ellipse that rounds the top-right corner of the clip.
+old-location: directcomp\idcompositionrectangleclip_settoprightradiusy.htm
+old-project: directcomp
+ms.assetid: CB0C1B66-F1AB-4440-8898-77107C1A2C42
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IDCompositionRectangleClip::SetTopRightRadiusY, SetTopRightRadiusY, SetTopRightRadiusY methods [DirectComposition], dcomp/SetTopRightRadiusY, directcomp.idcompositionrectangleclip_settoprightradiusy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dcomp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D_VECTOR_4F
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dcomp.dll
+api_name:
+-	IDCompositionRectangleClip::SetTopRightRadiusY
+product: Windows
+targetos: Windows
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 ---
 
 # SetTopRightRadiusY function

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_Topology.SetMediaType
+title: IBDA_Topology::SetMediaType
+author: windows-sdk-content
+description: The SetMediaType method sets the media type for a pin on a BDA device filter.
+old-location: mstv\ibda_topology_setmediatype.htm
+old-project: mstv
+ms.assetid: 69cedd00-3a32-4fb9-91af-2980c314324f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBDA_Topology interface [Microsoft TV Technologies],SetMediaType method, IBDA_Topology.SetMediaType, IBDA_Topology::SetMediaType, IBDA_TopologySetMediaType, SetMediaType, SetMediaType method [Microsoft TV Technologies], SetMediaType method [Microsoft TV Technologies],IBDA_Topology interface, bdaiface/IBDA_Topology::SetMediaType, mstv.ibda_topology_setmediatype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_Topology.SetMediaType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_Topology::SetMediaType

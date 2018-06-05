@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wuapi.tagInstallationImpact
+title: tagInstallationImpact
+author: windows-sdk-content
+description: Defines the possible levels of impact that can be caused by installing or uninstalling an update.
+old-location: wua\installationimpact.htm
+old-project: Wua_Sdk
+ms.assetid: 156c5aa2-125f-4ffd-b3eb-4dfed280255b
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: InstallationImpact, InstallationImpact enumeration [Windows Update Agent], iiMinor, iiNormal, iiRequiresExclusiveHandling, tagInstallationImpact, wua.installationimpact, wuapi/InstallationImpact, wuapi/iiMinor, wuapi/iiNormal, wuapi/iiRequiresExclusiveHandling
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wuapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InstallationImpact
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wuapi.h
+api_name:
+-	InstallationImpact
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagInstallationImpact enumeration

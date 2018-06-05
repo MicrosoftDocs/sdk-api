@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dsgetdc.DsValidateSubnetNameA
+title: DsValidateSubnetNameA function
+author: windows-sdk-content
+description: The DsValidateSubnetName function validates a subnet name in the form xxx.xxx.xxx.xxx/YY.
+old-location: ad\dsvalidatesubnetname.htm
+old-project: AD
+ms.assetid: bed49e08-4cb7-439c-bfb7-815263ec7568
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DsValidateSubnetName, DsValidateSubnetName function [Active Directory], DsValidateSubnetNameA, DsValidateSubnetNameW, _glines_dsvalidatesubnetname, ad.dsvalidatesubnetname, dsgetdc/DsValidateSubnetName, dsgetdc/DsValidateSubnetNameA, dsgetdc/DsValidateSubnetNameW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dsgetdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DsValidateSubnetNameW (Unicode) and DsValidateSubnetNameA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netapi32.dll
+api_name:
+-	DsValidateSubnetName
+-	DsValidateSubnetNameA
+-	DsValidateSubnetNameW
+product: Windows
+targetos: Windows
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 ---
 
 # DsValidateSubnetNameA function

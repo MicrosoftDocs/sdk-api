@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:inputscope.ITfInputScope2.EnumWordList
+title: ITfInputScope2::EnumWordList
+author: windows-sdk-content
+description: ITfInputScope2::EnumWordList method
+old-location: tsf\itfinputscope2_enumwordlist.htm
+old-project: TSF
+ms.assetid: 89379dab-6f96-4a86-8433-b6b0a8e45516
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: EnumWordList, EnumWordList method [Text Services Framework], EnumWordList method [Text Services Framework],ITfInputScope2 interface, ITfInputScope2 interface [Text Services Framework],EnumWordList method, ITfInputScope2.EnumWordList, ITfInputScope2::EnumWordList, _tsf_itfinputscope2_enumwordlist_ref, inputscope/ITfInputScope2::EnumWordList, tsf.itfinputscope2_enumwordlist
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: inputscope.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: InputScope.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InputScope
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfInputScope2.EnumWordList
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfInputScope2::EnumWordList

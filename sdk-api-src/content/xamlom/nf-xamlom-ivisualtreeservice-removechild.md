@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xamlom.IVisualTreeService.RemoveChild
+title: IVisualTreeService::RemoveChild
+author: windows-sdk-content
+description: Removes the child element from the specified index.
+old-location: xaml_diagnostics\ivisualtreeservice_removechild.htm
+old-project: xaml_diagnostics
+ms.assetid: 6D53C961-7E85-4275-8D65-454684606290
+ms.author: windowssdkdev
+ms.date: 03/19/2018
+ms.keywords: IVisualTreeService interface,RemoveChild method, IVisualTreeService.RemoveChild, IVisualTreeService::RemoveChild, RemoveChild, RemoveChild method, RemoveChild method,IVisualTreeService interface, xaml_diagnostics.ivisualtreeservice_removechild, xamlom/IVisualTreeService::RemoveChild
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xamlom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XamlOM.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VisualMutationType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xamlom.h
+api_name:
+-	IVisualTreeService.RemoveChild
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IVisualTreeService::RemoveChild

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mi._MI_Result
+title: "_MI_Result"
+author: windows-sdk-content
+description: Defines function return codes.
+old-location: wmi_v2\mi_result.htm
+old-project: wmi_v2
+ms.assetid: 9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: MI_RESULT_ACCESS_DENIED, MI_RESULT_ALREADY_EXISTS, MI_RESULT_CLASS_HAS_CHILDREN, MI_RESULT_CLASS_HAS_INSTANCES, MI_RESULT_CONTINUATION_ON_ERROR_NOT_SUPPORTED, MI_RESULT_FAILED, MI_RESULT_FILTERED_ENUMERATION_NOT_SUPPORTED, MI_RESULT_INVALID_CLASS, MI_RESULT_INVALID_ENUMERATION_CONTEXT, MI_RESULT_INVALID_NAMESPACE, MI_RESULT_INVALID_OPERATION_TIMEOUT, MI_RESULT_INVALID_PARAMETER, MI_RESULT_INVALID_QUERY, MI_RESULT_INVALID_SUPERCLASS, MI_RESULT_METHOD_NOT_AVAILABLE, MI_RESULT_METHOD_NOT_FOUND, MI_RESULT_NAMESPACE_NOT_EMPTY, MI_RESULT_NOT_FOUND, MI_RESULT_NOT_SUPPORTED, MI_RESULT_NO_SUCH_PROPERTY, MI_RESULT_OK, MI_RESULT_PULL_CANNOT_BE_ABANDONED, MI_RESULT_PULL_HAS_BEEN_ABANDONED, MI_RESULT_QUERY_LANGUAGE_NOT_SUPPORTED, MI_RESULT_SERVER_IS_SHUTTING_DOWN, MI_RESULT_SERVER_LIMITS_EXCEEDED, MI_RESULT_TYPE_MISMATCH, MI_Result, MI_Result enumeration [Windows Management Infrastructure (MI)], _MI_Result, _MI_Result enumeration [Windows Management Infrastructure (MI)], mi/MI_RESULT_ACCESS_DENIED, mi/MI_RESULT_ALREADY_EXISTS, mi/MI_RESULT_CLASS_HAS_CHILDREN, mi/MI_RESULT_CLASS_HAS_INSTANCES, mi/MI_RESULT_CONTINUATION_ON_ERROR_NOT_SUPPORTED, mi/MI_RESULT_FAILED, mi/MI_RESULT_FILTERED_ENUMERATION_NOT_SUPPORTED, mi/MI_RESULT_INVALID_CLASS, mi/MI_RESULT_INVALID_ENUMERATION_CONTEXT, mi/MI_RESULT_INVALID_NAMESPACE, mi/MI_RESULT_INVALID_OPERATION_TIMEOUT, mi/MI_RESULT_INVALID_PARAMETER, mi/MI_RESULT_INVALID_QUERY, mi/MI_RESULT_INVALID_SUPERCLASS, mi/MI_RESULT_METHOD_NOT_AVAILABLE, mi/MI_RESULT_METHOD_NOT_FOUND, mi/MI_RESULT_NAMESPACE_NOT_EMPTY, mi/MI_RESULT_NOT_FOUND, mi/MI_RESULT_NOT_SUPPORTED, mi/MI_RESULT_NO_SUCH_PROPERTY, mi/MI_RESULT_OK, mi/MI_RESULT_PULL_CANNOT_BE_ABANDONED, mi/MI_RESULT_PULL_HAS_BEEN_ABANDONED, mi/MI_RESULT_QUERY_LANGUAGE_NOT_SUPPORTED, mi/MI_RESULT_SERVER_IS_SHUTTING_DOWN, mi/MI_RESULT_SERVER_LIMITS_EXCEEDED, mi/MI_RESULT_TYPE_MISMATCH, mi/MI_Result, wmi._mi_result, wmi_v2.mi_result
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MI_Result
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	_MI_Result
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MI_Result enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wdsclientapi.WdsCliRegisterTrace
+title: WdsCliRegisterTrace function
+author: windows-sdk-content
+description: Registers a callback function that will receive debugging messages.
+old-location: wds\wdscliregistertrace.htm
+old-project: Wds
+ms.assetid: 1bdb1e47-fbbb-4952-9339-accdfe40bd18
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WdsCliRegisterTrace, WdsCliRegisterTrace function [Windows Deployment Services], wds.wdscliregistertrace, wdsclientapi/WdsCliRegisterTrace
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wdsclientapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WdsClientAPI.dll
+api_name:
+-	WdsCliRegisterTrace
+product: Windows
+targetos: Windows
+req.lib: WdsClientAPI.lib
+req.dll: WdsClientAPI.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WdsCliRegisterTrace function

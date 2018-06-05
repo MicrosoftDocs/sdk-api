@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.CALLHUB_EVENT
+title: CALLHUB_EVENT
+author: windows-sdk-content
+description: The CALLHUB_EVENT enum describes CallHub events. The ITCallHubEvent::get_Event method returns a member of this enum to indicate the type of CallHub event that occurred.
+old-location: tapi3\callhub_event.htm
+old-project: Tapi
+ms.assetid: 199e6c8b-805c-40c6-80d0-2e5803ec85a1
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CALLHUB_EVENT, CALLHUB_EVENT enumeration [TAPI 2.2], CHE_CALLHUBIDLE, CHE_CALLHUBNEW, CHE_CALLJOIN, CHE_CALLLEAVE, _tapi3_callhub_event, tapi3.callhub_event, tapi3if/CALLHUB_EVENT, tapi3if/CHE_CALLHUBIDLE, tapi3if/CHE_CALLHUBNEW, tapi3if/CHE_CALLJOIN, tapi3if/CHE_CALLLEAVE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CALLHUB_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	CALLHUB_EVENT
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # CALLHUB_EVENT enumeration

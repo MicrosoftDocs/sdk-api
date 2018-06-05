@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dxva2api._DXVA2_VideoPrimaries
+title: "_DXVA2_VideoPrimaries"
+author: windows-sdk-content
+description: Specifies the color primaries of a video source.
+old-location: mf\dxva2_videoprimaries.htm
+old-project: medfound
+ms.assetid: 4534a198-cf6c-4689-9fe4-0e5cdc7ce26a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 4534a198-cf6c-4689-9fe4-0e5cdc7ce26a, DXVA2_VideoPrimaries, DXVA2_VideoPrimaries enumeration [Media Foundation], DXVA2_VideoPrimariesMask, DXVA2_VideoPrimaries_BT470_2_SysBG, DXVA2_VideoPrimaries_BT470_2_SysM, DXVA2_VideoPrimaries_BT709, DXVA2_VideoPrimaries_EBU3213, DXVA2_VideoPrimaries_SMPTE170M, DXVA2_VideoPrimaries_SMPTE240M, DXVA2_VideoPrimaries_SMPTE_C, DXVA2_VideoPrimaries_Unknown, DXVA2_VideoPrimaries_reserved, _DXVA2_VideoPrimaries, dxva2api/DXVA2_VideoPrimaries, dxva2api/DXVA2_VideoPrimariesMask, dxva2api/DXVA2_VideoPrimaries_BT470_2_SysBG, dxva2api/DXVA2_VideoPrimaries_BT470_2_SysM, dxva2api/DXVA2_VideoPrimaries_BT709, dxva2api/DXVA2_VideoPrimaries_EBU3213, dxva2api/DXVA2_VideoPrimaries_SMPTE170M, dxva2api/DXVA2_VideoPrimaries_SMPTE240M, dxva2api/DXVA2_VideoPrimaries_SMPTE_C, dxva2api/DXVA2_VideoPrimaries_Unknown, dxva2api/DXVA2_VideoPrimaries_reserved, mf.dxva2_videoprimaries
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxva2api.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA2_VideoPrimaries
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxva2api.h
+api_name:
+-	DXVA2_VideoPrimaries
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVA2_VideoPrimaries enumeration

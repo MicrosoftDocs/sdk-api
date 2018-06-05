@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:syncmgr.SYNCMGR_CANCEL_REQUEST
+title: SYNCMGR_CANCEL_REQUEST
+author: windows-sdk-content
+description: Describes a request by the user to cancel a synchronization.
+old-location: shell\SYNCMGR_CANCEL_REQUEST.htm
+old-project: shell
+ms.assetid: 81cf8dcc-c847-41e0-82e2-b5f547fc03cf
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SYNCMGR_CANCEL_REQUEST, SYNCMGR_CANCEL_REQUEST enumeration [Windows Shell], SYNCMGR_CR_CANCEL_ALL, SYNCMGR_CR_CANCEL_ITEM, SYNCMGR_CR_MAX, SYNCMGR_CR_NONE, shell.SYNCMGR_CANCEL_REQUEST, shell_SYNCMGR_CANCEL_REQUEST, syncmgr/SYNCMGR_CANCEL_REQUEST, syncmgr/SYNCMGR_CR_CANCEL_ALL, syncmgr/SYNCMGR_CR_CANCEL_ITEM, syncmgr/SYNCMGR_CR_MAX, syncmgr/SYNCMGR_CR_NONE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: syncmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Syncmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGR_CANCEL_REQUEST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Syncmgr.h
+api_name:
+-	SYNCMGR_CANCEL_REQUEST
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # SYNCMGR_CANCEL_REQUEST enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certview.IEnumCERTVIEWCOLUMN.Next
+title: IEnumCERTVIEWCOLUMN::Next
+author: windows-sdk-content
+description: Moves to the next column in the column-enumeration sequence.
+old-location: security\ienumcertviewcolumn_next.htm
+old-project: SecCrypto
+ms.assetid: 4c77d1c7-af3a-4a7d-bf42-69be887c881e
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],Next method, IEnumCERTVIEWCOLUMN.Next, IEnumCERTVIEWCOLUMN::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWCOLUMN interface, _certsrv_ienumcertviewcolumn_next, certview/IEnumCERTVIEWCOLUMN::Next, security.ienumcertviewcolumn_next
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certview.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENUM_CATYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certadm.dll
+api_name:
+-	IEnumCERTVIEWCOLUMN.Next
+-	IEnumCERTVIEWCOLUMN.Next
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # IEnumCERTVIEWCOLUMN::Next

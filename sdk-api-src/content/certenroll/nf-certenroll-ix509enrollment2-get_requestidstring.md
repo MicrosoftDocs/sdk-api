@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509Enrollment2.get_RequestIdString
+title: IX509Enrollment2::get_RequestIdString
+author: windows-sdk-content
+description: Retrieves a string that contains a unique identifier for the certificate request sent to the certification enrollment server (CES).
+old-location: security\ix509enrollment2_requestidstring.htm
+old-project: SecCertEnroll
+ms.assetid: a1269b0d-6b55-47ba-bca8-610c1032ecc4
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IX509Enrollment2 interface [Security],RequestIdString property, IX509Enrollment2.RequestIdString, IX509Enrollment2.get_RequestIdString, IX509Enrollment2::RequestIdString, IX509Enrollment2::get_RequestIdString, RequestIdString property [Security], RequestIdString property [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::RequestIdString, certenroll/IX509Enrollment2::get_RequestIdString, get_RequestIdString, security.ix509enrollment2_requestidstring
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certenroll.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.h
+api_name:
+-	IX509Enrollment2.RequestIdString
+-	IX509Enrollment2.get_RequestIdString
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IX509Enrollment2::get_RequestIdString

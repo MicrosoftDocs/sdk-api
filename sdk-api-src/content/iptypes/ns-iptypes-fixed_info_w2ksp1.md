@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iptypes.FIXED_INFO_W2KSP1
+title: FIXED_INFO_W2KSP1
+author: windows-sdk-content
+description: The FIXED_INFO structure contains information that is the same across all the interfaces on a computer.
+old-location: iphlp\fixed_info.htm
+old-project: IpHlp
+ms.assetid: 6dcf33c6-33dc-4583-9b04-5231948d3d9a
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PFIXED_INFO, *PFIXED_INFO_W2KSP1, BROADCAST_NODETYPE, FIXED_INFO, FIXED_INFO structure [IP Helper], FIXED_INFO_W2KSP1, HYBRID_NODETYPE, MIXED_NODETYPE, PEER_TO_PEER_NODETYPE, PFIXED_INFO, PFIXED_INFO structure pointer [IP Helper], _iphlp_fixed_info, iphlp.fixed_info, iptypes/FIXED_INFO, iptypes/PFIXED_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iptypes.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FIXED_INFO_W2KSP1, *PFIXED_INFO_W2KSP1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iptypes.h
+api_name:
+-	FIXED_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # FIXED_INFO_W2KSP1 structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationTextPattern2.GetCaretRange
+title: IUIAutomationTextPattern2::GetCaretRange
+author: windows-sdk-content
+description: Retrieves a zero-length text range at the location of the caret that belongs to the text-based control.
+old-location: winauto\uiauto_IUIAutomationTextPattern2_GetCaretRange.htm
+old-project: WinAuto
+ms.assetid: EDB53C04-142E-4DCC-8DD7-F7DD4BC6A67F
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: GetCaretRange, GetCaretRange method [Windows Accessibility], GetCaretRange method [Windows Accessibility],IUIAutomationTextPattern2 interface, IUIAutomationTextPattern2 interface [Windows Accessibility],GetCaretRange method, IUIAutomationTextPattern2.GetCaretRange, IUIAutomationTextPattern2::GetCaretRange, uiautomationclient/IUIAutomationTextPattern2::GetCaretRange, winauto.uiauto_IUIAutomationTextPattern2_GetCaretRange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationTextPattern2.GetCaretRange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationTextPattern2::GetCaretRange

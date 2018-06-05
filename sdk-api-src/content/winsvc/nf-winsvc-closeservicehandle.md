@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsvc.CloseServiceHandle
+title: CloseServiceHandle function
+author: windows-sdk-content
+description: Closes a handle to a service control manager or service object.
+old-location: base\closeservicehandle.htm
+old-project: Services
+ms.assetid: 6cf25994-4939-4aff-af38-5ffc8fc606ae
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: CloseServiceHandle, CloseServiceHandle function, _win32_closeservicehandle, base.closeservicehandle, winsvc/CloseServiceHandle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winsvc.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+-	sechost.dll
+-	API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+-	API-MS-Win-Service-management-l1-1-0.dll
+api_name:
+-	CloseServiceHandle
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # CloseServiceHandle function

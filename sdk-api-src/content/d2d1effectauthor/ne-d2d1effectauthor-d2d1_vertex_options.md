@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d2d1effectauthor.D2D1_VERTEX_OPTIONS
+title: D2D1_VERTEX_OPTIONS
+author: windows-sdk-content
+description: Describes flags that influence how the renderer interacts with a custom vertex shader.
+old-location: direct2d\d2d1_vertex_options.htm
+old-project: Direct2D
+ms.assetid: b308aaf4-edf0-49a8-8fbf-04bb38c00605
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_VERTEX_OPTIONS, D2D1_VERTEX_OPTIONS enumeration [Direct2D], D2D1_VERTEX_OPTIONS_ASSUME_NO_OVERLAP, D2D1_VERTEX_OPTIONS_DO_NOT_CLEAR, D2D1_VERTEX_OPTIONS_NONE, D2D1_VERTEX_OPTIONS_USE_DEPTH_BUFFER, d2d1effectauthor/D2D1_VERTEX_OPTIONS, d2d1effectauthor/D2D1_VERTEX_OPTIONS_ASSUME_NO_OVERLAP, d2d1effectauthor/D2D1_VERTEX_OPTIONS_DO_NOT_CLEAR, d2d1effectauthor/D2D1_VERTEX_OPTIONS_NONE, d2d1effectauthor/D2D1_VERTEX_OPTIONS_USE_DEPTH_BUFFER, direct2d.d2d1_vertex_options
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1effectauthor.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: D2d1.lib; D2d1.dll
+tech.root: 
+req.typenames: D2D1_VERTEX_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	D2d1.lib
+-	D2d1.dll
+api_name:
+-	D2D1_VERTEX_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D2D1_VERTEX_OPTIONS enumeration

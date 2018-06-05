@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:http._HTTP_SERVICE_CONFIG_TIMEOUT_SET
+title: "_HTTP_SERVICE_CONFIG_TIMEOUT_SET"
+author: windows-sdk-content
+description: Used to set the HTTP Server API wide timeout value.
+old-location: http\http_service_config_timeout_set.htm
+old-project: Http
+ms.assetid: 928cb09d-9f63-4334-b034-ee27e950ce0a
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_SERVICE_CONFIG_TIMEOUT_SET, *PHTTP_SERVICE_CONFIG_TIMEOUT_SET structure [HTTP], HTTP_SERVICE_CONFIG_TIMEOUT_SET, HTTP_SERVICE_CONFIG_TIMEOUT_SET structure [HTTP], _HTTP_SERVICE_CONFIG_TIMEOUT_SET, http.http_service_config_timeout_set, http/*PHTTP_SERVICE_CONFIG_TIMEOUT_SET, http/HTTP_SERVICE_CONFIG_TIMEOUT_SET"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_SERVICE_CONFIG_TIMEOUT_SET, *PHTTP_SERVICE_CONFIG_TIMEOUT_SET
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_SERVICE_CONFIG_TIMEOUT_SET
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_SERVICE_CONFIG_TIMEOUT_SET structure

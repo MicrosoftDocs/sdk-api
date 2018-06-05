@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:propvarutil.VariantToUInt16WithDefault
+title: VariantToUInt16WithDefault function
+author: windows-sdk-content
+description: Extracts an unsigned Int16 property value of a variant structure. If no value exists, then the specified default value is returned.
+old-location: properties\VariantToUInt16WithDefault.htm
+old-project: properties
+ms.assetid: 937d64c3-f5af-4230-b811-6d5883ecaf86
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: VariantToUInt16WithDefault, VariantToUInt16WithDefault function [Windows Properties], _shell_VariantToUInt16WithDefault, properties.VariantToUInt16WithDefault, propvarutil/VariantToUInt16WithDefault, shell.VariantToUInt16WithDefault
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: propvarutil.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPVAR_COMPARE_UNIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Propsys.dll
+api_name:
+-	VariantToUInt16WithDefault
+product: Windows
+targetos: Windows
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantToUInt16WithDefault function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi.CLUSTER_CHANGE_CLUSTER_V2
+title: CLUSTER_CHANGE_CLUSTER_V2
+author: windows-sdk-content
+description: Defines the list of notifications that are generated for a cluster.
+old-location: mscs\cluster_change_cluster_v2.htm
+old-project: MsCS
+ms.assetid: EF414341-1EA4-4E69-AEA6-1CA3EAEAEDA5
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_CHANGE_CLUSTER_ALL_V2, CLUSTER_CHANGE_CLUSTER_COMMON_PROPERTY_V2, CLUSTER_CHANGE_CLUSTER_GROUP_ADDED_V2, CLUSTER_CHANGE_CLUSTER_HANDLE_CLOSE_V2, CLUSTER_CHANGE_CLUSTER_LOST_NOTIFICATIONS_V2, CLUSTER_CHANGE_CLUSTER_MEMBERSHIP_V2, CLUSTER_CHANGE_CLUSTER_NETWORK_ADDED_V2, CLUSTER_CHANGE_CLUSTER_NODE_ADDED_V2, CLUSTER_CHANGE_CLUSTER_PRIVATE_PROPERTY_V2, CLUSTER_CHANGE_CLUSTER_RECONNECT_V2, CLUSTER_CHANGE_CLUSTER_RENAME_V2, CLUSTER_CHANGE_CLUSTER_RESOURCE_TYPE_ADDED_V2, CLUSTER_CHANGE_CLUSTER_STATE_V2, CLUSTER_CHANGE_CLUSTER_UPGRADED_V2, CLUSTER_CHANGE_CLUSTER_V2, CLUSTER_CHANGE_CLUSTER_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_CLUSTER_ALL_V2, clusapi/CLUSTER_CHANGE_CLUSTER_COMMON_PROPERTY_V2, clusapi/CLUSTER_CHANGE_CLUSTER_GROUP_ADDED_V2, clusapi/CLUSTER_CHANGE_CLUSTER_HANDLE_CLOSE_V2, clusapi/CLUSTER_CHANGE_CLUSTER_LOST_NOTIFICATIONS_V2, clusapi/CLUSTER_CHANGE_CLUSTER_MEMBERSHIP_V2, clusapi/CLUSTER_CHANGE_CLUSTER_NETWORK_ADDED_V2, clusapi/CLUSTER_CHANGE_CLUSTER_NODE_ADDED_V2, clusapi/CLUSTER_CHANGE_CLUSTER_PRIVATE_PROPERTY_V2, clusapi/CLUSTER_CHANGE_CLUSTER_RECONNECT_V2, clusapi/CLUSTER_CHANGE_CLUSTER_RENAME_V2, clusapi/CLUSTER_CHANGE_CLUSTER_RESOURCE_TYPE_ADDED_V2, clusapi/CLUSTER_CHANGE_CLUSTER_STATE_V2, clusapi/CLUSTER_CHANGE_CLUSTER_UPGRADED_V2, clusapi/CLUSTER_CHANGE_CLUSTER_V2, msclus/CLUSTER_CHANGE_CLUSTER_ALL_V2, msclus/CLUSTER_CHANGE_CLUSTER_COMMON_PROPERTY_V2, msclus/CLUSTER_CHANGE_CLUSTER_GROUP_ADDED_V2, msclus/CLUSTER_CHANGE_CLUSTER_HANDLE_CLOSE_V2, msclus/CLUSTER_CHANGE_CLUSTER_LOST_NOTIFICATIONS_V2, msclus/CLUSTER_CHANGE_CLUSTER_MEMBERSHIP_V2, msclus/CLUSTER_CHANGE_CLUSTER_NETWORK_ADDED_V2, msclus/CLUSTER_CHANGE_CLUSTER_NODE_ADDED_V2, msclus/CLUSTER_CHANGE_CLUSTER_PRIVATE_PROPERTY_V2, msclus/CLUSTER_CHANGE_CLUSTER_RECONNECT_V2, msclus/CLUSTER_CHANGE_CLUSTER_RENAME_V2, msclus/CLUSTER_CHANGE_CLUSTER_RESOURCE_TYPE_ADDED_V2, msclus/CLUSTER_CHANGE_CLUSTER_STATE_V2, msclus/CLUSTER_CHANGE_CLUSTER_UPGRADED_V2, msclus/CLUSTER_CHANGE_CLUSTER_V2, mscs.cluster_change_cluster_v2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_CHANGE_CLUSTER_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSTER_CHANGE_CLUSTER_V2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSTER_CHANGE_CLUSTER_V2 enumeration

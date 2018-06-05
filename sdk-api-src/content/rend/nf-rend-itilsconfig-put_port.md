@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rend.ITILSConfig.put_Port
+title: ITILSConfig::put_Port
+author: windows-sdk-content
+description: The put_Port method sets the port number used to connect to the server of a specified ILS directory.
+old-location: tapi3\itilsconfig_put_port.htm
+old-project: Tapi
+ms.assetid: 9d911a9c-6538-4919-9110-0425c53f91c4
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITILSConfig interface [TAPI 2.2],put_Port method, ITILSConfig.put_Port, ITILSConfig::put_Port, _tapi3_itilsconfig_put_port, put_Port, put_Port method [TAPI 2.2], put_Port method [TAPI 2.2],ITILSConfig interface, rend/ITILSConfig::put_Port, tapi3.itilsconfig_put_port
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rend.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rend.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RND_ADVERTISING_SCOPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Rend.dll
+api_name:
+-	ITILSConfig.put_Port
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITILSConfig::put_Port

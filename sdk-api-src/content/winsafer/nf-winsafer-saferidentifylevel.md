@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsafer.SaferIdentifyLevel
+title: SaferIdentifyLevel function
+author: windows-sdk-content
+description: Retrieves information about a level.
+old-location: security\saferidentifylevel.htm
+old-project: SecMgmt
+ms.assetid: f82c4f40-5c37-4f97-95a2-4b2cc26bf41e
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: SaferIdentifyLevel, SaferIdentifyLevel function [Security], _mnp_saferidentifylevel, security.saferidentifylevel, winsafer/SaferIdentifyLevel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winsafer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SAFER_POLICY_INFO_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
+api_name:
+-	SaferIdentifyLevel
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # SaferIdentifyLevel function

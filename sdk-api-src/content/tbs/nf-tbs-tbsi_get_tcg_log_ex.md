@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tbs.Tbsi_Get_TCG_Log_Ex
+title: Tbsi_Get_TCG_Log_Ex function
+author: windows-sdk-content
+description: Gets the Windows Boot Configuration Log (WBCL), also referred to as the TCG log, of the specified type.
+old-location: tbs\tbsi_get_tcg_log_ex.htm
+old-project: TBS
+ms.assetid: 7895D501-97A7-4813-B997-B7D8C6F7C0C6
+ms.author: windowssdkdev
+ms.date: 03/01/2018
+ms.keywords: TBS_TCGLOG_DRTM_CURRENT, TBS_TCGLOG_SRTM_BOOT, TBS_TCGLOG_SRTM_CURRENT, TBS_TCGLOG_SRTM_RESUME, Tbsi_Get_TCG_Log_Ex, Tbsi_Get_TCG_Log_Ex function [TBS], tbs.tbsi_get_tcg_log_ex, tbs/Tbsi_Get_TCG_Log_Ex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tbs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tbs.dll
+api_name:
+-	Tbsi_Get_TCG_Log_Ex
+product: Windows
+targetos: Windows
+req.lib: Tbs.lib
+req.dll: Tbs.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # Tbsi_Get_TCG_Log_Ex function

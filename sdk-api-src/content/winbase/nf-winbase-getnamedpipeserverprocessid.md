@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.GetNamedPipeServerProcessId
+title: GetNamedPipeServerProcessId function
+author: windows-sdk-content
+description: Retrieves the server process identifier for the specified named pipe.
+old-location: base\getnamedpipeserverprocessid.htm
+old-project: ipc
+ms.assetid: 1ee33a66-a71c-4c34-b907-aab7860294c4
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetNamedPipeServerProcessId, GetNamedPipeServerProcessId function, base.getnamedpipeserverprocessid, winbase/GetNamedPipeServerProcessId
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,31 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+-	kernel32legacy.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+-	API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+-	GetNamedPipeServerProcessId
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # GetNamedPipeServerProcessId function

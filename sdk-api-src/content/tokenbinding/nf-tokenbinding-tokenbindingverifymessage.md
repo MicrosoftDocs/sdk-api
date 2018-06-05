@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tokenbinding.TokenBindingVerifyMessage
+title: TokenBindingVerifyMessage function
+author: windows-sdk-content
+description: Validates the token binding message and verifies the token bindings that the message contains.
+old-location: security\tokenbindingverifymessage.htm
+old-project: SecCNG
+ms.assetid: D6827DA3-75DC-4F31-B57A-4ED5B5F03112
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: TokenBindingVerifyMessage, TokenBindingVerifyMessage function [Security], security.tokenbindingverifymessage, tokenbinding/TokenBindingVerifyMessage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tokenbinding.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TOKENBINDING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	tokenbinding.dll
+-	Ksecdd.sys
+api_name:
+-	TokenBindingVerifyMessage
+product: Windows
+targetos: Windows
+req.lib: Tokenbinding.lib
+req.dll: Tokenbinding.dll (user mode); Ksecdd.sys (kernel mode)
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TokenBindingVerifyMessage function

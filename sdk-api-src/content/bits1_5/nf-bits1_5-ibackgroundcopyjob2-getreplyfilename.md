@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bits1_5.IBackgroundCopyJob2.GetReplyFileName
+title: IBackgroundCopyJob2::GetReplyFileName
+author: windows-sdk-content
+description: Retrieves the name of the file that contains the reply data from the server application. Call this method only if the job type is BG_JOB_TYPE_UPLOAD_REPLY.
+old-location: bits\ibackgroundcopyjob2_getreplyfilename.htm
+old-project: Bits
+ms.assetid: 57f9245c-c1ae-4027-8e84-4926fa4861c3
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetReplyFileName, GetReplyFileName method [BITS], GetReplyFileName method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyFileName method, IBackgroundCopyJob2.GetReplyFileName, IBackgroundCopyJob2::GetReplyFileName, _drz_ibackgroundcopyjob2_getreplyfilename, bits.ibackgroundcopyjob2_getreplyfilename, bits1_5/IBackgroundCopyJob2::GetReplyFileName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bits1_5.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits1_5.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_AUTH_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	BitsPrx2.dll
+api_name:
+-	IBackgroundCopyJob2.GetReplyFileName
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: BitsPrx2.dll
+req.irql: 
 ---
 
 # IBackgroundCopyJob2::GetReplyFileName

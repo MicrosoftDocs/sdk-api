@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:propidl.tagSERIALIZEDPROPERTYVALUE
+title: tagSERIALIZEDPROPERTYVALUE
+author: windows-sdk-content
+description: A range of memory of arbitrary type that represents a serialized PROPVARIANT structure.
+old-location: shell\SERIALIZEDPROPERTYVALUE.htm
+old-project: shell
+ms.assetid: ab64a16e-624d-427a-8f9c-5c8c4a9df625
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SERIALIZEDPROPERTYVALUE, SERIALIZEDPROPERTYVALUE structure [Windows Shell], _shell_SERIALIZEDPROPERTYVALUE, propidl/SERIALIZEDPROPERTYVALUE, shell.SERIALIZEDPROPERTYVALUE, tagSERIALIZEDPROPERTYVALUE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: propidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SERIALIZEDPROPERTYVALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Propidl.h
+api_name:
+-	SERIALIZEDPROPERTYVALUE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagSERIALIZEDPROPERTYVALUE structure

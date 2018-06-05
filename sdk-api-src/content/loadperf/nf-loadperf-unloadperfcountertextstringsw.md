@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:loadperf.UnloadPerfCounterTextStringsW
+title: UnloadPerfCounterTextStringsW function
+author: windows-sdk-content
+description: Unloads performance objects and counters from the computer for the specified application.
+old-location: perf\unloadperfcountertextstrings.htm
+old-project: PerfCtrs
+ms.assetid: f78858ca-d8d0-4178-9f9a-731b89cf5a61
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: UnloadPerfCounterTextStrings, UnloadPerfCounterTextStrings function [Perf], UnloadPerfCounterTextStringsA, UnloadPerfCounterTextStringsW, _win32_unloadperfcountertextstrings, base.unloadperfcountertextstrings, loadperf/UnloadPerfCounterTextStrings, loadperf/UnloadPerfCounterTextStringsA, loadperf/UnloadPerfCounterTextStringsW, perf.unloadperfcountertextstrings
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: loadperf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: UnloadPerfCounterTextStringsW (Unicode) and UnloadPerfCounterTextStringsA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, *LPWKSTA_USER_INFO_1101
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Loadperf.dll
+api_name:
+-	UnloadPerfCounterTextStrings
+-	UnloadPerfCounterTextStringsA
+-	UnloadPerfCounterTextStringsW
+product: Windows
+targetos: Windows
+req.lib: Loadperf.lib
+req.dll: Loadperf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # UnloadPerfCounterTextStringsW function

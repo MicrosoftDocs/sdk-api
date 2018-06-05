@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12shader.D3D12_SHADER_VERSION_TYPE
+title: D3D12_SHADER_VERSION_TYPE
+author: windows-sdk-content
+description: Enumerates the types of shaders that Direct3D recognizes. Used to encode the Version member of the D3D12_SHADER_DESC structure.
+old-location: direct3d12\d3d12_shader_version_type.htm
+old-project: direct3d12
+ms.assetid: 4691452D-3A7B-4890-AE41-B6AF5C541A3B
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_SHADER_VERSION_TYPE, D3D12_SHADER_VERSION_TYPE enumeration, D3D12_SHVER_COMPUTE_SHADER, D3D12_SHVER_DOMAIN_SHADER, D3D12_SHVER_GEOMETRY_SHADER, D3D12_SHVER_HULL_SHADER, D3D12_SHVER_PIXEL_SHADER, D3D12_SHVER_RESERVED0, D3D12_SHVER_VERTEX_SHADER, d3d12shader/D3D12_SHADER_VERSION_TYPE, d3d12shader/D3D12_SHVER_COMPUTE_SHADER, d3d12shader/D3D12_SHVER_DOMAIN_SHADER, d3d12shader/D3D12_SHVER_GEOMETRY_SHADER, d3d12shader/D3D12_SHVER_HULL_SHADER, d3d12shader/D3D12_SHVER_PIXEL_SHADER, d3d12shader/D3D12_SHVER_RESERVED0, d3d12shader/D3D12_SHVER_VERTEX_SHADER, direct3d12.d3d12_shader_version_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SHADER_VERSION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d12shader.h
+api_name:
+-	D3D12_SHADER_VERSION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_SHADER_VERSION_TYPE enumeration

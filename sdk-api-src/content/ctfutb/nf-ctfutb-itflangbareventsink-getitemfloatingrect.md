@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ctfutb.ITfLangBarEventSink.GetItemFloatingRect
+title: ITfLangBarEventSink::GetItemFloatingRect
+author: windows-sdk-content
+description: ITfLangBarEventSink::GetItemFloatingRect method
+old-location: tsf\itflangbareventsink_getitemfloatingrect.htm
+old-project: TSF
+ms.assetid: 05747d41-1342-4189-b654-ceb8fadcadd5
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetItemFloatingRect, GetItemFloatingRect method [Text Services Framework], GetItemFloatingRect method [Text Services Framework],ITfLangBarEventSink interface, ITfLangBarEventSink interface [Text Services Framework],GetItemFloatingRect method, ITfLangBarEventSink.GetItemFloatingRect, ITfLangBarEventSink::GetItemFloatingRect, _tsf_itflangbareventsink_getitemfloatingrect_ref, ctfutb/ITfLangBarEventSink::GetItemFloatingRect, tsf.itflangbareventsink_getitemfloatingrect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ctfutb.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ctfutb.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TfLBIClick
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msutb.dll
+api_name:
+-	ITfLangBarEventSink.GetItemFloatingRect
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msutb.dll
+req.irql: 
 ---
 
 # ITfLangBarEventSink::GetItemFloatingRect

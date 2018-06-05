@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mbnapi.MBN_SMS_CONSTANTS
+title: MBN_SMS_CONSTANTS
+author: windows-sdk-content
+description: The MBN_SMS_CONSTANTS enumerated type contains SMS constant values.
+old-location: mbn\mbn_sms_constants.htm
+old-project: mbn
+ms.assetid: 2d81e9f7-5e1d-4291-84ad-56578d2f4ae4
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: MBN_CDMA_SHORT_MSG_SIZE_MAX, MBN_CDMA_SHORT_MSG_SIZE_UNKNOWN, MBN_MESSAGE_INDEX_NONE, MBN_SMS_CONSTANTS, MBN_SMS_CONSTANTS enumeration [Microsoft Broadband Networks], WWAEXT_SMS_CONSTANTS, mbn.mbn_sms_constants, mbnapi/MBN_CDMA_SHORT_MSG_SIZE_MAX, mbnapi/MBN_CDMA_SHORT_MSG_SIZE_UNKNOWN, mbnapi/MBN_MESSAGE_INDEX_NONE, mbnapi/MBN_SMS_CONSTANTS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WWAEXT_SMS_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mbnapi.h
+api_name:
+-	MBN_SMS_CONSTANTS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MBN_SMS_CONSTANTS enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wlanapi._WLAN_NOTIFICATION_MSM
+title: "_WLAN_NOTIFICATION_MSM"
+author: windows-sdk-content
+description: Specifies the possible values of the NotificationCode member of the WLAN_NOTIFICATION_DATA structure for Media Specific Module (MSM) notifications.
+old-location: nwifi\wlan_notification_msm.htm
+old-project: NativeWiFi
+ms.assetid: 7847658a-6789-43ad-95ad-b520333863e6
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_NOTIFICATION_MSM, PWLAN_NOTIFICATION_MSM, PWLAN_NOTIFICATION_MSM enumeration pointer [NativeWIFI], WLAN_NOTIFICATION_MSM, WLAN_NOTIFICATION_MSM enumeration [NativeWIFI], _WLAN_NOTIFICATION_MSM, nwifi.wlan_notification_msm, wlan_notification_msm_adapter_operation_mode_change, wlan_notification_msm_adapter_removal, wlan_notification_msm_associated, wlan_notification_msm_associating, wlan_notification_msm_authenticating, wlan_notification_msm_connected, wlan_notification_msm_disassociating, wlan_notification_msm_disconnected, wlan_notification_msm_end, wlan_notification_msm_peer_join, wlan_notification_msm_peer_leave, wlan_notification_msm_radio_state_change, wlan_notification_msm_roaming_end, wlan_notification_msm_roaming_start, wlan_notification_msm_signal_quality_change, wlan_notification_msm_start, wlanapi/PWLAN_NOTIFICATION_MSM, wlanapi/WLAN_NOTIFICATION_MSM, wlanapi/wlan_notification_msm_adapter_operation_mode_change, wlanapi/wlan_notification_msm_adapter_removal, wlanapi/wlan_notification_msm_associated, wlanapi/wlan_notification_msm_associating, wlanapi/wlan_notification_msm_authenticating, wlanapi/wlan_notification_msm_connected, wlanapi/wlan_notification_msm_disassociating, wlanapi/wlan_notification_msm_disconnected, wlanapi/wlan_notification_msm_end, wlanapi/wlan_notification_msm_peer_join, wlanapi/wlan_notification_msm_peer_leave, wlanapi/wlan_notification_msm_radio_state_change, wlanapi/wlan_notification_msm_roaming_end, wlanapi/wlan_notification_msm_roaming_start, wlanapi/wlan_notification_msm_signal_quality_change, wlanapi/wlan_notification_msm_start"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_NOTIFICATION_MSM, *PWLAN_NOTIFICATION_MSM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wlanapi.h
+api_name:
+-	WLAN_NOTIFICATION_MSM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_NOTIFICATION_MSM enumeration

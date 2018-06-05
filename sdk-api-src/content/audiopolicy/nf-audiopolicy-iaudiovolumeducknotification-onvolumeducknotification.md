@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:audiopolicy.IAudioVolumeDuckNotification.OnVolumeDuckNotification
+title: IAudioVolumeDuckNotification::OnVolumeDuckNotification
+author: windows-sdk-content
+description: The OnVolumeDuckNotification method sends a notification about a pending system ducking event.
+old-location: coreaudio\iaudiovolumeducknotification_onvolumeducknotification.htm
+old-project: CoreAudio
+ms.assetid: 1bc28f44-1595-4d45-872f-2473bffd33aa
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IAudioVolumeDuckNotification interface [Core Audio],OnVolumeDuckNotification method, IAudioVolumeDuckNotification.OnVolumeDuckNotification, IAudioVolumeDuckNotification::OnVolumeDuckNotification, OnVolumeDuckNotification, OnVolumeDuckNotification method [Core Audio], OnVolumeDuckNotification method [Core Audio],IAudioVolumeDuckNotification interface, audiopolicy/IAudioVolumeDuckNotification::OnVolumeDuckNotification, coreaudio.iaudiovolumeducknotification_onvolumeducknotification
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audiopolicy.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	AudioPolicy.h
+api_name:
+-	IAudioVolumeDuckNotification.OnVolumeDuckNotification
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioVolumeDuckNotification::OnVolumeDuckNotification

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vdssys._VIRTUAL_STORAGE_TYPE
+title: "_VIRTUAL_STORAGE_TYPE"
+author: windows-sdk-content
+description: Contains the type and provider (vendor) of the virtual storage device.
+old-location: vhd\virtual_storage_type.htm
+old-project: VStor
+ms.assetid: 9f0c1848-fa8e-4747-a3b1-71a274695280
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PVIRTUAL_STORAGE_TYPE, PVIRTUAL_STORAGE_TYPE, PVIRTUAL_STORAGE_TYPE structure pointer [VHD], VIRTUAL_STORAGE_TYPE, VIRTUAL_STORAGE_TYPE structure [VHD], VIRTUAL_STORAGE_TYPE_DEVICE_ISO, VIRTUAL_STORAGE_TYPE_DEVICE_UNKNOWN, VIRTUAL_STORAGE_TYPE_DEVICE_VHD, VIRTUAL_STORAGE_TYPE_DEVICE_VHDX, VIRTUAL_STORAGE_TYPE_VENDOR_MICROSOFT, VIRTUAL_STORAGE_TYPE_VENDOR_UNKNOWN, _VIRTUAL_STORAGE_TYPE, vdssys/PVIRTUAL_STORAGE_TYPE, vdssys/VIRTUAL_STORAGE_TYPE, vhd.virtual_storage_type, virtdisk/PVIRTUAL_STORAGE_TYPE, virtdisk/VIRTUAL_STORAGE_TYPE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vdssys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIRTUAL_STORAGE_TYPE, *PVIRTUAL_STORAGE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VirtDisk.h
+-	vdssys.h
+api_name:
+-	VIRTUAL_STORAGE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VIRTUAL_STORAGE_TYPE structure

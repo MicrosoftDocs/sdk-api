@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:cryptxml._CRYPT_XML_KEY_INFO
+title: "_CRYPT_XML_KEY_INFO"
+author: windows-sdk-content
+description: Encapsulates key information data.
+old-location: security\crypt_xml_key_info.htm
+old-project: SecCrypto
+ms.assetid: 0fd4a80f-52c1-4ff8-9e49-87ddc1f2521d
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO structure [Security], _CRYPT_XML_KEY_INFO, cryptxml/CRYPT_XML_KEY_INFO, security.crypt_xml_key_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cryptxml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_XML_KEY_INFO, *PCRYPT_XML_KEY_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Cryptxml.h
+api_name:
+-	CRYPT_XML_KEY_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CRYPT_XML_KEY_INFO structure

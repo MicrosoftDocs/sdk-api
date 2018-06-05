@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:sensorsapi.MagnetometerAccuracy
+title: MagnetometerAccuracy
+author: windows-sdk-content
+description: Specifies the accuracy of the magnetometer.
+old-location: winsensors\magnetometeraccuracy.htm
+old-project: SensorsAPI
+ms.assetid: DBD06A2E-35AB-4692-8475-98B803C2202B
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: Approximate, High, MagnetometerAccuracy, MagnetometerAccuracy enumeration [WinSensors], Unknown, Unreliable, sensorsapi/Approximate, sensorsapi/High, sensorsapi/MagnetometerAccuracy, sensorsapi/Unknown, sensorsapi/Unreliable, winsensors.magnetometeraccuracy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: sensorsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Sensevts.tlb
+tech.root: 
+req.typenames: MagnetometerAccuracy
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	sensorsapi.h
+api_name:
+-	MagnetometerAccuracy
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # MagnetometerAccuracy enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:audioengineendpoint.IHardwareAudioEngineBase.GetEngineFormat
+title: IHardwareAudioEngineBase::GetEngineFormat
+author: windows-sdk-content
+description: The GetEngineFormat method retrieves the current data format of the offloaded audio stream.
+old-location: coreaudio\ihardwareaudioenginebase_getengineformat.htm
+old-project: CoreAudio
+ms.assetid: 150F8E7C-35A0-42DA-8E3D-69835153382F
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetEngineFormat, GetEngineFormat method [Core Audio], GetEngineFormat method [Core Audio],IHardwareAudioEngineBase interface, IHardwareAudioEngineBase interface [Core Audio],GetEngineFormat method, IHardwareAudioEngineBase.GetEngineFormat, IHardwareAudioEngineBase::GetEngineFormat, audioengineendpoint/IHardwareAudioEngineBase::GetEngineFormat, coreaudio.ihardwareaudioenginebase_getengineformat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioengineendpoint.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AE_POSITION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	audioengineendpoint.h
+api_name:
+-	IHardwareAudioEngineBase.GetEngineFormat
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IHardwareAudioEngineBase::GetEngineFormat

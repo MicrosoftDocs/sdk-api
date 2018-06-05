@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dinputd.IDirectInputJoyConfig8.GetTypeInfo
+title: IDirectInputJoyConfig8::GetTypeInfo
+author: windows-sdk-content
+description: The IDirectInputJoyConfig8::GetTypeInfo method obtains information about a joystick type.
+old-location: hid\idirectinputjoyconfig8_gettypeinfo.htm
+old-project: hid
+ms.assetid: e850c3a4-b2dd-4de5-82e3-5bbd90a7ba15
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: GetTypeInfo, GetTypeInfo method [Human Input Devices], GetTypeInfo method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],GetTypeInfo method, IDirectInputJoyConfig8.GetTypeInfo, IDirectInputJoyConfig8::GetTypeInfo, di_ref_9e378bd2-ae1a-4a66-b934-d9d5ad46cf5d.xml, dinputd/IDirectInputJoyConfig8::GetTypeInfo, hid.idirectinputjoyconfig8_gettypeinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dinputd.h
+api_name:
+-	IDirectInputJoyConfig8.GetTypeInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputJoyConfig8::GetTypeInfo

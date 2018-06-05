@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IEnumWbemClassObject.Skip
+title: IEnumWbemClassObject::Skip
+author: windows-sdk-content
+description: You can use the IEnumWbemClassObject::Skip method to move the current position in an enumeration ahead by a specified number of objects. Also, this affects subsequent calls to NextAsync, but it does not affect pending deliveries begun with NextAsync.
+old-location: wmi\ienumwbemclassobject_skip.htm
+old-project: WmiSdk
+ms.assetid: 9579086c-cd45-4b3c-bd43-de0b89745b02
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Skip method, IEnumWbemClassObject.Skip, IEnumWbemClassObject::Skip, Skip, Skip method [Windows Management Instrumentation], Skip method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_skip, wbemcli/IEnumWbemClassObject::Skip, wmi.ienumwbemclassobject_skip
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fastprox.dll
+api_name:
+-	IEnumWbemClassObject.Skip
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IEnumWbemClassObject::Skip

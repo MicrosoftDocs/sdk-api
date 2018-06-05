@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:opmapi._OPM_GET_CODEC_INFO_INFORMATION
+title: "_OPM_GET_CODEC_INFO_INFORMATION"
+author: windows-sdk-content
+description: Contains the result from an OPM_GET_CODEC_INFO query.
+old-location: mf\opm_get_codec_info_information.htm
+old-project: medfound
+ms.assetid: 20865210-7f0f-4310-879e-9d1fe97f5df2
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: OPM_GET_CODEC_INFO_INFORMATION, OPM_GET_CODEC_INFO_INFORMATION structure [Media Foundation], _OPM_GET_CODEC_INFO_INFORMATION, ksopmapi/OPM_GET_CODEC_INFO_INFORMATION, mf.opm_get_codec_info_information
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: opmapi.h
+req.include-header: Opmapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPM_GET_CODEC_INFO_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ksopmapi.h
+api_name:
+-	OPM_GET_CODEC_INFO_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _OPM_GET_CODEC_INFO_INFORMATION structure

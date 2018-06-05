@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bits3_0.IEnumBitsPeers.Reset
+title: IEnumBitsPeers::Reset
+author: windows-sdk-content
+description: Resets the enumeration sequence to the beginning.
+old-location: bits\ienumbitspeers_reset.htm
+old-project: Bits
+ms.assetid: 87eb8e34-046e-46a5-9d9b-efeb6fa03485
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IEnumBitsPeers interface [BITS],Reset method, IEnumBitsPeers.Reset, IEnumBitsPeers::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_reset, bits3_0/IEnumBitsPeers::Reset
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bits3_0.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits3_0.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_CERT_STORE_LOCATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Bits.lib
+-	Bits.dll
+api_name:
+-	IEnumBitsPeers.Reset
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 ---
 
 # IEnumBitsPeers::Reset

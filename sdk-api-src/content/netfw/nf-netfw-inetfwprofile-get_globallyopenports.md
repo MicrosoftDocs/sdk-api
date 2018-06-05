@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netfw.INetFwProfile.get_GloballyOpenPorts
+title: INetFwProfile::get_GloballyOpenPorts
+author: windows-sdk-content
+description: Retrieves the collection of globally open ports of the profile.
+old-location: ics\inetfwprofile_globallyopenports.htm
+old-project: ICS
+ms.assetid: 9bb27bb1-7185-4b9a-a529-383e052e5016
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: GloballyOpenPorts property [ICS/ICF], GloballyOpenPorts property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],GloballyOpenPorts property, INetFwProfile.GloballyOpenPorts, INetFwProfile.get_GloballyOpenPorts, INetFwProfile::GloballyOpenPorts, INetFwProfile::get_GloballyOpenPorts, get_GloballyOpenPorts, ics.inetfwprofile_globallyopenports, netfw/INetFwProfile::GloballyOpenPorts, netfw/INetFwProfile::get_GloballyOpenPorts
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETISO_ERROR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FirewallAPI.dll
+-	Hnetcfg.dll
+api_name:
+-	INetFwProfile.GloballyOpenPorts
+-	INetFwProfile.get_GloballyOpenPorts
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetFwProfile::get_GloballyOpenPorts

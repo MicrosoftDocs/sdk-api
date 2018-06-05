@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mbnapi.IMbnSmsConfiguration.get_MaxMessageIndex
+title: IMbnSmsConfiguration::get_MaxMessageIndex
+author: windows-sdk-content
+description: SMS message memory capacity.
+old-location: mbn\imbnsmsconfiguration_maxmessageindex.htm
+old-project: mbn
+ms.assetid: c7dee4b7-4a34-4d08-aae3-7455531a9556
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: IMbnSmsConfiguration interface [Microsoft Broadband Networks],MaxMessageIndex property, IMbnSmsConfiguration.MaxMessageIndex, IMbnSmsConfiguration.get_MaxMessageIndex, IMbnSmsConfiguration::MaxMessageIndex, IMbnSmsConfiguration::get_MaxMessageIndex, MaxMessageIndex property [Microsoft Broadband Networks], MaxMessageIndex property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, get_MaxMessageIndex, mbn.imbnsmsconfiguration_maxmessageindex, mbnapi/IMbnSmsConfiguration::MaxMessageIndex, mbnapi/IMbnSmsConfiguration::get_MaxMessageIndex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnSmsConfiguration.MaxMessageIndex
+-	IMbnSmsConfiguration.get_MaxMessageIndex
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMbnSmsConfiguration::get_MaxMessageIndex

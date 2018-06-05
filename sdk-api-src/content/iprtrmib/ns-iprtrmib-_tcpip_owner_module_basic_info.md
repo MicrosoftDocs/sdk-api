@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iprtrmib._TCPIP_OWNER_MODULE_BASIC_INFO
+title: "_TCPIP_OWNER_MODULE_BASIC_INFO"
+author: windows-sdk-content
+description: Contains pointers to the module name and module path values associated with a TCP connection. The TCPIP_OWNER_MODULE_BASIC_INFO structure is returned by the GetOwnerModuleFromTcpEntry and GetOwnerModuleFromTcp6Entry functions.
+old-location: iphlp\tcpip_owner_module_basic_info.htm
+old-project: IpHlp
+ms.assetid: cce3e0ff-31f2-454b-8aae-3b35f72f47ed
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PTCPIP_OWNER_MODULE_BASIC_INFO, PTCPIP_OWNER_MODULE_BASIC_INFO, PTCPIP_OWNER_MODULE_BASIC_INFO structure pointer [IP Helper], TCPIP_OWNER_MODULE_BASIC_INFO, TCPIP_OWNER_MODULE_BASIC_INFO structure [IP Helper], _TCPIP_OWNER_MODULE_BASIC_INFO, iphlp.tcpip_owner_module_basic_info, iphlpapi/PTCPIP_OWNER_MODULE_BASIC_INFO, iphlpapi/TCPIP_OWNER_MODULE_BASIC_INFO, iprtrmib/PTCPIP_OWNER_MODULE_BASIC_INFO, iprtrmib/TCPIP_OWNER_MODULE_BASIC_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iprtrmib.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TCPIP_OWNER_MODULE_BASIC_INFO, *PTCPIP_OWNER_MODULE_BASIC_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iprtrmib.h
+-	Iphlpapi.h
+api_name:
+-	TCPIP_OWNER_MODULE_BASIC_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _TCPIP_OWNER_MODULE_BASIC_INFO structure

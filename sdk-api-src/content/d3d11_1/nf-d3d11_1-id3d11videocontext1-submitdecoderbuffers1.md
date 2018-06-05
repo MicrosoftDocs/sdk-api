@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:d3d11_1.ID3D11VideoContext1.SubmitDecoderBuffers1
+title: ID3D11VideoContext1::SubmitDecoderBuffers1
+author: windows-sdk-content
+description: Submits one or more buffers for decoding.
+old-location: mf\id3d11videocontext1_submitdecoderbuffers1.htm
+old-project: medfound
+ms.assetid: 9E5FC926-71D7-4102-8952-EC0585B4A4FC
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ID3D11VideoContext1 interface [Media Foundation],SubmitDecoderBuffers1 method, ID3D11VideoContext1.SubmitDecoderBuffers1, ID3D11VideoContext1::SubmitDecoderBuffers1, SubmitDecoderBuffers1, SubmitDecoderBuffers1 method [Media Foundation], SubmitDecoderBuffers1 method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::SubmitDecoderBuffers1, mf.id3d11videocontext1_submitdecoderbuffers1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d11_1.h
+api_name:
+-	ID3D11VideoContext1.SubmitDecoderBuffers1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11VideoContext1::SubmitDecoderBuffers1

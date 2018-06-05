@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ntdsapi.DS_NAME_FORMAT
+title: DS_NAME_FORMAT
+author: windows-sdk-content
+description: The DS_NAME_FORMAT enumeration provides formats to use for input and output names for the DsCrackNames function.
+old-location: ad\ds_name_format.htm
+old-project: AD
+ms.assetid: 7a99e531-5a38-4352-8921-7b5a765ffd03
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_CANONICAL_NAME, DS_CANONICAL_NAME_EX, DS_DISPLAY_NAME, DS_DNS_DOMAIN_NAME, DS_FQDN_1779_NAME, DS_NAME_FORMAT, DS_NAME_FORMAT enumeration [Active Directory], DS_NT4_ACCOUNT_NAME, DS_SERVICE_PRINCIPAL_NAME, DS_SID_OR_SID_HISTORY_NAME, DS_UNIQUE_ID_NAME, DS_UNKNOWN_NAME, DS_USER_PRINCIPAL_NAME, _glines_ds_name_format, ad.ds__name__format, ad.ds_name_format, ntdsapi/DS_CANONICAL_NAME, ntdsapi/DS_CANONICAL_NAME_EX, ntdsapi/DS_DISPLAY_NAME, ntdsapi/DS_DNS_DOMAIN_NAME, ntdsapi/DS_FQDN_1779_NAME, ntdsapi/DS_NAME_FORMAT, ntdsapi/DS_NT4_ACCOUNT_NAME, ntdsapi/DS_SERVICE_PRINCIPAL_NAME, ntdsapi/DS_SID_OR_SID_HISTORY_NAME, ntdsapi/DS_UNIQUE_ID_NAME, ntdsapi/DS_UNKNOWN_NAME, ntdsapi/DS_USER_PRINCIPAL_NAME
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_NAME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntdsapi.h
+api_name:
+-	DS_NAME_FORMAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: Any level
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DS_NAME_FORMAT enumeration

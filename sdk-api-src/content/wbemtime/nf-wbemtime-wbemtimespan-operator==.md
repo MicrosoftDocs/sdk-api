@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemtime.WBEMTimeSpan.operator==
+title: WBEMTimeSpan::operator==
+author: windows-sdk-content
+description: Compares two WBEMTimeSpan objects using an equal comparison operator.
+old-location: wmi\wbemtimespan_comparison_operators_equal.htm
+old-project: WmiSdk
+ms.assetid: 5bb59bb2-fe3a-448d-9ace-f2d082787bbc
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator== method, WBEMTimeSpan.operator==, WBEMTimeSpan::operator==, _hmm_wbemtimespan_comparison_operators, operator==, operator== method [Windows Management Instrumentation], operator== method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator==, wmi.wbemtimespan_comparison_operators, wmi.wbemtimespan_comparison_operators_equal
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemtime.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	WBEMTimeSpan.operator==
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WBEMTimeSpan::operator==

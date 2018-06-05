@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:wingdi.DISPLAYCONFIG_MODE_INFO_TYPE
+title: DISPLAYCONFIG_MODE_INFO_TYPE
+author: windows-sdk-content
+description: The DISPLAYCONFIG_MODE_INFO_TYPE enumeration specifies that the information that is contained within the DISPLAYCONFIG_MODE_INFO structure is either source or target mode.
+old-location: display\displayconfig_mode_info_type.htm
+old-project: display
+ms.assetid: d5ddb1d5-6b74-471f-86f0-fee72f30b648
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CCD_Enumerations_e8e863ac-c37b-4818-a968-e2658c3103e1.xml, DISPLAYCONFIG_MODE_INFO_TYPE, DISPLAYCONFIG_MODE_INFO_TYPE enumeration [Display Devices], DISPLAYCONFIG_MODE_INFO_TYPE_DESKTOP_IMAGE, DISPLAYCONFIG_MODE_INFO_TYPE_FORCE_UINT32, DISPLAYCONFIG_MODE_INFO_TYPE_SOURCE, DISPLAYCONFIG_MODE_INFO_TYPE_TARGET, display.displayconfig_mode_info_type, wingdi/DISPLAYCONFIG_MODE_INFO_TYPE, wingdi/DISPLAYCONFIG_MODE_INFO_TYPE_DESKTOP_IMAGE, wingdi/DISPLAYCONFIG_MODE_INFO_TYPE_FORCE_UINT32, wingdi/DISPLAYCONFIG_MODE_INFO_TYPE_SOURCE, wingdi/DISPLAYCONFIG_MODE_INFO_TYPE_TARGET
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows 7 Windows Client.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_MODE_INFO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wingdi.h
+api_name:
+-	DISPLAYCONFIG_MODE_INFO_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DISPLAYCONFIG_MODE_INFO_TYPE enumeration

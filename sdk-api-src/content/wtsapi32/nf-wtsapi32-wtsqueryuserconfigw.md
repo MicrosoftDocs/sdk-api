@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wtsapi32.WTSQueryUserConfigW
+title: WTSQueryUserConfigW function
+author: windows-sdk-content
+description: Retrieves configuration information for the specified user on the specified domain controller or Remote Desktop Session Host (RD Session Host) server.
+old-location: termserv\wtsqueryuserconfig.htm
+old-project: TermServ
+ms.assetid: aabbcc03-3241-49ab-ab11-ccd3e6893e78
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: WTSQueryUserConfig, WTSQueryUserConfig function [Remote Desktop Services], WTSQueryUserConfigA, WTSQueryUserConfigW, _win32_wtsqueryuserconfig, termserv.wtsqueryuserconfig, wtsapi32/WTSQueryUserConfig, wtsapi32/WTSQueryUserConfigA, wtsapi32/WTSQueryUserConfigW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WTSQueryUserConfigW (Unicode) and WTSQueryUserConfigA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_VIRTUAL_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wtsapi32.dll
+api_name:
+-	WTSQueryUserConfig
+-	WTSQueryUserConfigA
+-	WTSQueryUserConfigW
+product: Windows
+targetos: Windows
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WTSQueryUserConfigW function

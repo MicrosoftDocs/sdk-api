@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:d3d11sdklayers.ID3D11RefDefaultTrackingOptions.SetTrackingOptions
+title: ID3D11RefDefaultTrackingOptions::SetTrackingOptions
+author: windows-sdk-content
+description: Sets graphics processing unit (GPU) debug reference default tracking options for specific resource types.
+old-location: direct3d11\id3d11refdefaulttrackingoptions_settrackingoptions.htm
+old-project: direct3d11
+ms.assetid: A54AAC4C-CD38-4326-AF99-9FB74CC0A1A0
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: ID3D11RefDefaultTrackingOptions interface [Direct3D 11],SetTrackingOptions method, ID3D11RefDefaultTrackingOptions.SetTrackingOptions, ID3D11RefDefaultTrackingOptions::SetTrackingOptions, SetTrackingOptions, SetTrackingOptions method [Direct3D 11], SetTrackingOptions method [Direct3D 11],ID3D11RefDefaultTrackingOptions interface, d3d11sdklayers/ID3D11RefDefaultTrackingOptions::SetTrackingOptions, direct3d11.id3d11refdefaulttrackingoptions_settrackingoptions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11sdklayers.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3DCompiler.lib
+-	D3DCompiler.dll
+api_name:
+-	ID3D11RefDefaultTrackingOptions.SetTrackingOptions
+product: Windows
+targetos: Windows
+req.lib: D3DCompiler.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11RefDefaultTrackingOptions::SetTrackingOptions

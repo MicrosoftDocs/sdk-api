@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_LOCKDATA
+title: "_DD_LOCKDATA"
+author: windows-sdk-content
+description: The DD_LOCKDATA structure contains information necessary to do a lock as defined by the Microsoft DirectDraw parameter structures.
+old-location: display\dd_lockdata.htm
+old-project: display
+ms.assetid: 46de3dbb-abdf-4518-b62d-891efa5a949b
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_LOCKDATA, DD_LOCKDATA, DD_LOCKDATA structure [Display Devices], _DD_LOCKDATA, ddrawint/DD_LOCKDATA, ddstrcts_8de05e54-e1e1-4773-982d-e48f7e051f7e.xml, display.dd_lockdata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_LOCKDATA, DD_LOCKDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_LOCKDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_LOCKDATA structure

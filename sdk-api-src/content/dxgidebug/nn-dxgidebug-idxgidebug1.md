@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:dxgidebug.IDXGIDebug1
+title: IDXGIDebug1
+author: windows-sdk-content
+description: Controls debug settings for Microsoft DirectX Graphics Infrastructure (DXGI). You can use the IDXGIDebug1 interface in Windows Store apps.
+old-location: direct3ddxgi\idxgidebug1.htm
+old-project: direct3ddxgi
+ms.assetid: 16D52CA2-1495-407C-9B88-CF4D4C90BAFA
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IDXGIDebug1, IDXGIDebug1 interface [DXGI], IDXGIDebug1 interface [DXGI],described, direct3ddxgi.idxgidebug1, dxgidebug/IDXGIDebug1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: dxgidebug.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DXGIDebug.dll
+api_name:
+-	IDXGIDebug1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: DXGIDebug.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIDebug1 interface

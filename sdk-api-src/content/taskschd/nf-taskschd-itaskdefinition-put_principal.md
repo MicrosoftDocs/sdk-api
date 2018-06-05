@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.ITaskDefinition.put_Principal
+title: ITaskDefinition::put_Principal
+author: windows-sdk-content
+description: Gets or sets the principal for the task that provides the security credentials for the task.
+old-location: taskschd\itaskdefinition_principal.htm
+old-project: TaskSchd
+ms.assetid: d1c8389b-149c-4fcb-972a-b25fa0d8d763
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ITaskDefinition interface [Task Scheduler],Principal property, ITaskDefinition.Principal, ITaskDefinition.put_Principal, ITaskDefinition::Principal, ITaskDefinition::get_Principal, ITaskDefinition::put_Principal, Principal property [Task Scheduler], Principal property [Task Scheduler],ITaskDefinition interface, put_Principal, taskschd.itaskdefinition_principal, taskschd/ITaskDefinition::Principal, taskschd/ITaskDefinition::get_Principal, taskschd/ITaskDefinition::put_Principal
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	ITaskDefinition.Principal
+-	ITaskDefinition.get_Principal
+-	ITaskDefinition.put_Principal
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITaskDefinition::put_Principal

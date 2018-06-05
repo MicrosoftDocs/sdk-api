@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:isysmon.eDisplayTypeConstant
+title: eDisplayTypeConstant
+author: windows-sdk-content
+description: Determines how the performance counter data is graphed, for example, as a line graph or a histogram.
+old-location: sysmon\displaytypeconstants.htm
+old-project: SysMon
+ms.assetid: c0f991cc-c547-4d4c-ae8f-9f672e11f010
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: DisplayTypeConstants, DisplayTypeConstants enumeration [SysMon], base.displaytypeconstants, eDisplayTypeConstant, isysmon/DisplayTypeConstants, isysmon/sysmonChartArea, isysmon/sysmonChartStackedArea, isysmon/sysmonHistogram, isysmon/sysmonLineGraph, isysmon/sysmonReport, sysmon.displaytypeconstants, sysmonChartArea, sysmonChartStackedArea, sysmonHistogram, sysmonLineGraph, sysmonReport
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: isysmon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DisplayTypeConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ISysmon.h
+api_name:
+-	DisplayTypeConstants
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # eDisplayTypeConstant enumeration

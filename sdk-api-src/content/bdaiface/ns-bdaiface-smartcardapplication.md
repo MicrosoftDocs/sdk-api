@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:bdaiface.SmartCardApplication
+title: SmartCardApplication
+author: windows-sdk-content
+description: The SmartCardApplication structure identifies a smart card application.
+old-location: mstv\smartcardapplication.htm
+old-project: mstv
+ms.assetid: 14d9cfbd-46c4-4be2-8631-f0916820c129
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SmartCardApplication, SmartCardApplication structure [Microsoft TV Technologies], SmartCardApplicationStructure, bdaiface_enums/SmartCardApplication, mstv.smartcardapplication
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bdaiface.h
+req.include-header: Bdaiface.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SmartCardApplication
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	bdaiface_enums.h
+api_name:
+-	SmartCardApplication
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # SmartCardApplication structure

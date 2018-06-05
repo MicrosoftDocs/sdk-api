@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:evntcons._EVENT_RECORD
+title: "_EVENT_RECORD"
+author: windows-sdk-content
+description: Defines the layout of an event that ETW delivers.
+old-location: etw\event_record.htm
+old-project: ETW
+ms.assetid: e352c1a7-39a2-43e3-a723-5fc6a3921ee8
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PEVENT_RECORD, EVENT_RECORD, EVENT_RECORD structure [ETW], PCEVENT_RECORD, PEVENT_RECORD, PEVENT_RECORD structure pointer [ETW], _EVENT_RECORD, base.event_record, etw.event_record, relogger/EVENT_RECORD, relogger/PEVENT_RECORD"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: evntcons.h
+req.include-header: Evntcons.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVENT_RECORD, *PEVENT_RECORD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	relogger.h
+api_name:
+-	EVENT_RECORD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _EVENT_RECORD structure

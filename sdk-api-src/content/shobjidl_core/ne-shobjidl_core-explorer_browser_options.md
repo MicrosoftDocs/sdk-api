@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core.EXPLORER_BROWSER_OPTIONS
+title: EXPLORER_BROWSER_OPTIONS
+author: windows-sdk-content
+description: These flags are used with IExplorerBrowser::GetOptions and IExplorerBrowser::SetOptions.
+old-location: shell\EXPLORER_BROWSER_OPTIONS.htm
+old-project: shell
+ms.assetid: 4e2983bc-cad2-4bcc-8169-57b5274b2142
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EBO_ALWAYSNAVIGATE, EBO_HTMLSHAREPOINTVIEW, EBO_NAVIGATEONCE, EBO_NOBORDER, EBO_NONE, EBO_NOPERSISTVIEWSTATE, EBO_NOTRAVELLOG, EBO_NOWRAPPERWINDOW, EBO_SHOWFRAMES, EXPLORER_BROWSER_OPTIONS, EXPLORER_BROWSER_OPTIONS enumeration [Windows Shell], _shell_EXPLORER_BROWSER_OPTIONS, shell.EXPLORER_BROWSER_OPTIONS, shobjidl_core/EBO_ALWAYSNAVIGATE, shobjidl_core/EBO_HTMLSHAREPOINTVIEW, shobjidl_core/EBO_NAVIGATEONCE, shobjidl_core/EBO_NOBORDER, shobjidl_core/EBO_NONE, shobjidl_core/EBO_NOPERSISTVIEWSTATE, shobjidl_core/EBO_NOTRAVELLOG, shobjidl_core/EBO_NOWRAPPERWINDOW, shobjidl_core/EBO_SHOWFRAMES, shobjidl_core/EXPLORER_BROWSER_OPTIONS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EXPLORER_BROWSER_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	EXPLORER_BROWSER_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # EXPLORER_BROWSER_OPTIONS enumeration

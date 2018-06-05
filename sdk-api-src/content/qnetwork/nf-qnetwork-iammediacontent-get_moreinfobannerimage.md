@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:qnetwork.IAMMediaContent.get_MoreInfoBannerImage
+title: IAMMediaContent::get_MoreInfoBannerImage
+author: windows-sdk-content
+description: The get_MoreInfoBannerImage method retrieves an image for a related-information banner.
+old-location: dshow\iammediacontent_get_moreinfobannerimage.htm
+old-project: DirectShow
+ms.assetid: ae456ce2-4df8-4a36-88f5-526acb722bda
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoBannerImage method, IAMMediaContent.get_MoreInfoBannerImage, IAMMediaContent::get_MoreInfoBannerImage, IAMMediaContentget_MoreInfoBannerImage, dshow.iammediacontent_get_moreinfobannerimage, get_MoreInfoBannerImage, get_MoreInfoBannerImage method [DirectShow], get_MoreInfoBannerImage method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoBannerImage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: qnetwork.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMExtendedSeekingCapabilities
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Qnetwork.h
+api_name:
+-	IAMMediaContent.get_MoreInfoBannerImage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAMMediaContent::get_MoreInfoBannerImage

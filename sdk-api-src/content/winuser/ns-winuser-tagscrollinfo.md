@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winuser.tagSCROLLINFO
+title: tagSCROLLINFO
+author: windows-sdk-content
+description: The SCROLLINFO structure contains scroll bar parameters to be set by the SetScrollInfo function (or SBM_SETSCROLLINFO message), or retrieved by the GetScrollInfo function (or SBM_GETSCROLLINFO message).
+old-location: controls\SCROLLINFO.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarstructures\scrollinfo.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPSCROLLINFO, LPCSCROLLINFO, LPCSCROLLINFO structure pointer [Windows Controls], SCROLLINFO, SCROLLINFO structure [Windows Controls], SIF_ALL, SIF_DISABLENOSCROLL, SIF_PAGE, SIF_POS, SIF_RANGE, SIF_TRACKPOS, _win32_SCROLLINFO_str, _win32_SCROLLINFO_str_cpp, controls.SCROLLINFO, controls._win32_SCROLLINFO_str, tagSCROLLINFO, winuser/LPCSCROLLINFO, winuser/SCROLLINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCROLLINFO, *LPSCROLLINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winuser.h
+api_name:
+-	SCROLLINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagSCROLLINFO structure

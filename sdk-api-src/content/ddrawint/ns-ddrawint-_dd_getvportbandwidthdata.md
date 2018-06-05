@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_GETVPORTBANDWIDTHDATA
+title: "_DD_GETVPORTBANDWIDTHDATA"
+author: windows-sdk-content
+description: The DD_GETVPORTBANDWIDTHDATA structure contains the bandwidth information for any specified format.
+old-location: display\dd_getvportbandwidthdata.htm
+old-project: display
+ms.assetid: 5a24d819-1498-448a-9360-c14d382059cb
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA structure [Display Devices], _DD_GETVPORTBANDWIDTHDATA, ddrawint/DD_GETVPORTBANDWIDTHDATA, ddstrcts_3f17b83b-7530-4d17-b6c8-435d9ee45848.xml, display.dd_getvportbandwidthdata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_GETVPORTBANDWIDTHDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_GETVPORTBANDWIDTHDATA structure

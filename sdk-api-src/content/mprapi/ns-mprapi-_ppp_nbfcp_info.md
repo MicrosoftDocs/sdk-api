@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mprapi._PPP_NBFCP_INFO
+title: "_PPP_NBFCP_INFO"
+author: windows-sdk-content
+description: The PPP_NBFCP_INFO structure contains the result of a PPP NetBEUI Framer (NBF) projection operation.
+old-location: rras\ppp_nbfcp_info.htm
+old-project: RRAS
+ms.assetid: 376c662d-c0e1-4136-937c-47a4681c14ec
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: PPP_NBFCP_INFO, PPP_NBFCP_INFO structure [RAS], _PPP_NBFCP_INFO, _mpr_ppp_nbfcp_info, mprapi/PPP_NBFCP_INFO, rras.ppp_nbfcp_info
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PPP_NBFCP_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mprapi.h
+api_name:
+-	PPP_NBFCP_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _PPP_NBFCP_INFO structure

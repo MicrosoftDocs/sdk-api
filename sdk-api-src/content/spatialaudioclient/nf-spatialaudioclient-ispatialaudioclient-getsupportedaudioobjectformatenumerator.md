@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:spatialaudioclient.ISpatialAudioClient.GetSupportedAudioObjectFormatEnumerator
+title: ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator
+author: windows-sdk-content
+description: Gets an IAudioFormatEnumerator that contains all supported audio formats for spatial audio objects, the first item in the list represents the most preferable format.
+old-location: coreaudio\ispatialaudioclient_getsupportedaudioobjectformatenumerator.htm
+old-project: CoreAudio
+ms.assetid: CB152D8C-DE3A-4224-A6CC-DF1BFF1A3ABA
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetSupportedAudioObjectFormatEnumerator, GetSupportedAudioObjectFormatEnumerator method [Core Audio], GetSupportedAudioObjectFormatEnumerator method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetSupportedAudioObjectFormatEnumerator method, ISpatialAudioClient.GetSupportedAudioObjectFormatEnumerator, ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator, coreaudio.ispatialaudioclient_getsupportedaudioobjectformatenumerator, spatialaudioclient/ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spatialaudioclient.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AudioObjectType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	spatialaudioclient.h
+api_name:
+-	ISpatialAudioClient.GetSupportedAudioObjectFormatEnumerator
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator

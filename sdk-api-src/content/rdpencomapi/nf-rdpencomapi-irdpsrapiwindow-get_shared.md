@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Shared
+title: IRDPSRAPIWindow::get_Shared
+author: windows-sdk-content
+description: Gets or sets the sharing property for a window.
+old-location: rdp\irdpsrapiwindow_shared.htm
+old-project: Rdp
+ms.assetid: e07ebdbc-79ce-4a85-9960-197c4c7ca445
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: IRDPSRAPIWindow interface [RDP],Shared property, IRDPSRAPIWindow.Shared, IRDPSRAPIWindow.get_Shared, IRDPSRAPIWindow::Shared, IRDPSRAPIWindow::get_Shared, IRDPSRAPIWindow::put_Shared, RDPSRAPIWindow object [RDP],Shared property, Shared property [RDP], Shared property [RDP],IRDPSRAPIWindow interface, Shared property [RDP],RDPSRAPIWindow object, get_Shared, rdp.irdpsrapiwindow_shared, rdpencomapi/IRDPSRAPIWindow::Shared, rdpencomapi/IRDPSRAPIWindow::get_Shared, rdpencomapi/IRDPSRAPIWindow::put_Shared
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RdpEncomAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: RdpEncomAPI.tlb
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RdpEncom.dll
+api_name:
+-	IRDPSRAPIWindow.Shared
+-	IRDPSRAPIWindow.get_Shared
+-	IRDPSRAPIWindow.put_Shared
+-	RDPSRAPIWindow.Shared
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRDPSRAPIWindow::get_Shared

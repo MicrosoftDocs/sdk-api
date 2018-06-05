@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d10.D3D10_COMPARISON_FUNC
+title: D3D10_COMPARISON_FUNC
+author: windows-sdk-content
+description: Comparison options.
+old-location: direct3d10\d3d10_comparison_func.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_comparison_func.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 5efee8e5-417a-75e5-2f53-291d2450fa5f, D3D10_COMPARISON_ALWAYS, D3D10_COMPARISON_EQUAL, D3D10_COMPARISON_FUNC, D3D10_COMPARISON_FUNC enumeration [Direct3D 10], D3D10_COMPARISON_GREATER, D3D10_COMPARISON_GREATER_EQUAL, D3D10_COMPARISON_LESS, D3D10_COMPARISON_LESS_EQUAL, D3D10_COMPARISON_NEVER, D3D10_COMPARISON_NOT_EQUAL, d3d10/D3D10_COMPARISON_ALWAYS, d3d10/D3D10_COMPARISON_EQUAL, d3d10/D3D10_COMPARISON_FUNC, d3d10/D3D10_COMPARISON_GREATER, d3d10/D3D10_COMPARISON_GREATER_EQUAL, d3d10/D3D10_COMPARISON_LESS, d3d10/D3D10_COMPARISON_LESS_EQUAL, d3d10/D3D10_COMPARISON_NEVER, d3d10/D3D10_COMPARISON_NOT_EQUAL, direct3d10.d3d10_comparison_func
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_COMPARISON_FUNC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D10.h
+api_name:
+-	D3D10_COMPARISON_FUNC
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D3D10_COMPARISON_FUNC enumeration

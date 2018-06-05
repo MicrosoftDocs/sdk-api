@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.tagNMTTDISPINFOA
+title: tagNMTTDISPINFOA
+author: windows-sdk-content
+description: Contains information used in handling the TTN_GETDISPINFO notification code. This structure supersedes the TOOLTIPTEXT structure.
+old-location: controls\NMTTDISPINFO.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\tooltip\structures\tooltiptext.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPNMTTDISPINFOA, LPNMTTDISPINFO, LPNMTTDISPINFO structure pointer [Windows Controls], NMTTDISPINFO, NMTTDISPINFO structure [Windows Controls], NMTTDISPINFOA, NMTTDISPINFOW, TTF_DI_SETITEM, TTF_IDISHWND, TTF_RTLREADING, _win32_NMTTDISPINFO, _win32_NMTTDISPINFO_cpp, commctrl/LPNMTTDISPINFO, commctrl/NMTTDISPINFO, commctrl/NMTTDISPINFOA, commctrl/NMTTDISPINFOW, controls.NMTTDISPINFO, controls._win32_NMTTDISPINFO, tagNMTTDISPINFOA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: NMTTDISPINFOW (Unicode) and NMTTDISPINFOA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NMTTDISPINFOA, *LPNMTTDISPINFOA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	NMTTDISPINFO
+-	NMTTDISPINFOA
+-	NMTTDISPINFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagNMTTDISPINFOA structure

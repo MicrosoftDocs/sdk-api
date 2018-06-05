@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:usp10.tag_SCRIPT_DIGITSUBSTITUTE
+title: tag_SCRIPT_DIGITSUBSTITUTE
+author: windows-sdk-content
+description: Contains native digit and digit substitution settings.
+old-location: intl\script_digitsubstitute.htm
+old-project: Intl
+ms.assetid: e96bf8b4-7456-4e16-a623-48320104dd66
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SCRIPT_DIGITSUBSTITUTE, SCRIPT_DIGITSUBSTITUTE structure [Internationalization for Windows Applications], SCRIPT_DIGITSUBSTITUTE_CONTEXT, SCRIPT_DIGITSUBSTITUTE_NATIONAL, SCRIPT_DIGITSUBSTITUTE_NONE, SCRIPT_DIGITSUBSTITUTE_TRADITIONAL, _win32_SCRIPT_DIGITSUBSTITUTE_str, intl.script_digitsubstitute, tag_SCRIPT_DIGITSUBSTITUTE, usp10/SCRIPT_DIGITSUBSTITUTE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: usp10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCRIPT_DIGITSUBSTITUTE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Usp10.h
+api_name:
+-	SCRIPT_DIGITSUBSTITUTE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # tag_SCRIPT_DIGITSUBSTITUTE structure

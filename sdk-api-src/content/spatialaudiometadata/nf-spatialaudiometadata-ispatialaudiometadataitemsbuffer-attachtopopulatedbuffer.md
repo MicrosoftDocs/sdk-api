@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:spatialaudiometadata.ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer
+title: ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer
+author: windows-sdk-content
+description: Attaches a previously populated buffer for storage of ISpatialAudioMetadataItems objects. The metadata items already in the buffer are retained.
+old-location: coreaudio\ispatialaudiometadataitemsbuffer_attachtopopulatedbuffer.htm
+old-project: CoreAudio
+ms.assetid: 7C17F504-6EB7-4A8D-B3E1-203D5D9B7E3C
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: AttachToPopulatedBuffer, AttachToPopulatedBuffer method [Core Audio], AttachToPopulatedBuffer method [Core Audio],ISpatialAudioMetadataItemsBuffer interface, ISpatialAudioMetadataItemsBuffer interface [Core Audio],AttachToPopulatedBuffer method, ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer, ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer, coreaudio.ispatialaudiometadataitemsbuffer_attachtopopulatedbuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spatialaudiometadata.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SpatialAudioMetadataWriterOverflowMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SpatialAudioMetadata.h
+api_name:
+-	ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:comsvcs.tagCSC_SynchronizationConfig
+title: tagCSC_SynchronizationConfig
+author: windows-sdk-content
+description: Indicates how synchronization is configured for CServiceConfig.
+old-location: cos\csc_synchronizationconfig.htm
+old-project: cossdk
+ms.assetid: dc0c4310-e2d8-462c-af55-f1513934b8ef
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: CSC_IfContainerIsSynchronized, CSC_NewSynchronization, CSC_NewSynchronizationIfNecessary, CSC_NoSynchronization, CSC_SynchronizationConfig, CSC_SynchronizationConfig enumeration [COM+], _cos_CSC_SynchronizationConfig, comsvcs/CSC_IfContainerIsSynchronized, comsvcs/CSC_NewSynchronization, comsvcs/CSC_NewSynchronizationIfNecessary, comsvcs/CSC_NoSynchronization, comsvcs/CSC_SynchronizationConfig, cos.csc_synchronizationconfig, tagCSC_SynchronizationConfig
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CSC_SynchronizationConfig
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ComSvcs.h
+api_name:
+-	CSC_SynchronizationConfig
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagCSC_SynchronizationConfig enumeration

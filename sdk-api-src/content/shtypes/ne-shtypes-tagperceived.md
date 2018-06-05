@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shtypes.tagPERCEIVED
+title: tagPERCEIVED
+author: windows-sdk-content
+description: Specifies a file's perceived type. This set of constants is used in the AssocGetPerceivedType function.
+old-location: shell\PERCEIVED.htm
+old-project: shell
+ms.assetid: dbaf5894-1ed6-446f-ac15-12ba4c7326e7
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: PERCEIVED, PERCEIVED enumeration [Windows Shell], PERCEIVED_TYPE_APPLICATION, PERCEIVED_TYPE_AUDIO, PERCEIVED_TYPE_COMPRESSED, PERCEIVED_TYPE_CONTACTS, PERCEIVED_TYPE_CUSTOM, PERCEIVED_TYPE_DOCUMENT, PERCEIVED_TYPE_FOLDER, PERCEIVED_TYPE_GAMEMEDIA, PERCEIVED_TYPE_IMAGE, PERCEIVED_TYPE_SYSTEM, PERCEIVED_TYPE_TEXT, PERCEIVED_TYPE_UNKNOWN, PERCEIVED_TYPE_UNSPECIFIED, PERCEIVED_TYPE_VIDEO, _shell_PERCEIVED, shell.PERCEIVED, shtypes/PERCEIVED, shtypes/PERCEIVED_TYPE_APPLICATION, shtypes/PERCEIVED_TYPE_AUDIO, shtypes/PERCEIVED_TYPE_COMPRESSED, shtypes/PERCEIVED_TYPE_CONTACTS, shtypes/PERCEIVED_TYPE_CUSTOM, shtypes/PERCEIVED_TYPE_DOCUMENT, shtypes/PERCEIVED_TYPE_FOLDER, shtypes/PERCEIVED_TYPE_GAMEMEDIA, shtypes/PERCEIVED_TYPE_IMAGE, shtypes/PERCEIVED_TYPE_SYSTEM, shtypes/PERCEIVED_TYPE_TEXT, shtypes/PERCEIVED_TYPE_UNKNOWN, shtypes/PERCEIVED_TYPE_UNSPECIFIED, shtypes/PERCEIVED_TYPE_VIDEO, tagPERCEIVED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shtypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shtypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PERCEIVED
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shtypes.h
+api_name:
+-	PERCEIVED
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # tagPERCEIVED enumeration

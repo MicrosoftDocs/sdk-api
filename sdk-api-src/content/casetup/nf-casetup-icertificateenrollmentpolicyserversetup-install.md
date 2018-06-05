@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.Install
+title: ICertificateEnrollmentPolicyServerSetup::Install
+author: windows-sdk-content
+description: Installs the Certificate Enrollment Policy (CEP) Web Service configured by the ICertificateEnrollmentPolicyServerSetup object.
+old-location: security\icertificateenrollmentpolicyserversetup_install.htm
+old-project: SecCrypto
+ms.assetid: 66572F97-CE34-4C6B-9083-269A1AE2876D
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],Install method, ICertificateEnrollmentPolicyServerSetup.Install, ICertificateEnrollmentPolicyServerSetup::Install, Install, Install method [Security], Install method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::Install, security.icertificateenrollmentpolicyserversetup_install
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: casetup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Casetup.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CEPSetupProperty
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certocm.dll
+api_name:
+-	ICertificateEnrollmentPolicyServerSetup.Install
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 ---
 
 # ICertificateEnrollmentPolicyServerSetup::Install

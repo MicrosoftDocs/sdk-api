@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:wingdi.DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
+title: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
+author: windows-sdk-content
+description: The DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure contains information on the state of virtual resolution support for the monitor.
+old-location: display\displayconfig_support_virtual_resolution.htm
+old-project: display
+ms.assetid: D9208D00-F437-4B2E-8C39-044F75088659
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION, DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure [Display Devices], display.displayconfig_support_virtual_resolution, wingdi/DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows 10 Client.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wingdi.h
+api_name:
+-	DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure

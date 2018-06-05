@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ntsecpkg._SECPKG_NAME_TYPE
+title: "_SECPKG_NAME_TYPE"
+author: windows-sdk-content
+description: The SECPKG_NAME_TYPE enumeration is used to describe the type of name specified for an account.The SECPKG_NAME_TYPE enumeration is used by the GetAuthDataForUser and OpenSamUser functions.
+old-location: security\secpkg_name_type.htm
+old-project: SecAuthN
+ms.assetid: 6a534bfa-83ec-408d-ad21-e230a7adc61e
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: SECPKG_NAME_TYPE, SECPKG_NAME_TYPE enumeration [Security], SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, _SECPKG_NAME_TYPE, _ssp_secpkg_name_type, ntsecpkg/SECPKG_NAME_TYPE, ntsecpkg/SecNameAlternateId, ntsecpkg/SecNameDN, ntsecpkg/SecNameFlat, ntsecpkg/SecNameSamCompatible, security.secpkg_name_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ntsecpkg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SECPKG_NAME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecpkg.h
+api_name:
+-	SECPKG_NAME_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SECPKG_NAME_TYPE enumeration

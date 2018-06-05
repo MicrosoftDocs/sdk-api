@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mbnapi.IMbnDeviceService.QueryCommand
+title: IMbnDeviceService::QueryCommand
+author: windows-sdk-content
+description: Sends a QUERY control command to the device service of a Mobile Broadband device.
+old-location: mbn\imbndeviceservice_querycommand.htm
+old-project: mbn
+ms.assetid: EA68206E-5656-4C83-AFB0-26E7F3692DE2
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],QueryCommand method, IMbnDeviceService.QueryCommand, IMbnDeviceService::QueryCommand, QueryCommand, QueryCommand method [Microsoft Broadband Networks], QueryCommand method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_querycommand, mbnapi/IMbnDeviceService::QueryCommand
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnDeviceService.QueryCommand
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMbnDeviceService::QueryCommand

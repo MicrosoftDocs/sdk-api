@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml
+title: IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml
+author: windows-sdk-content
+description: Gets service information from an XML tune request.
+old-location: mstv\ibda_guidedatadeliveryservice_getserviceinfofromtunexml.htm
+old-project: mstv
+ms.assetid: 8084e4dd-a5d5-48a0-a052-24310a79df78
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetServiceInfoFromTuneXml, GetServiceInfoFromTuneXml method [Microsoft TV Technologies], GetServiceInfoFromTuneXml method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetServiceInfoFromTuneXml method, IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml, IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml, bdaiface/IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml, mstv.ibda_guidedatadeliveryservice_getserviceinfofromtunexml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bdaiface.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:mswmdm.IWMDMProgress
+title: IWMDMProgress
+author: windows-sdk-content
+description: The optional, application-implemented IWMDMProgress allows an application to track the progress of operations, such as formatting media or file transfers.
+old-location: wmdm\iwmdmprogress.htm
+old-project: WMDM
+ms.assetid: 9af022a6-19b4-41b7-b951-0acad6aab4a2
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IWMDMProgress, IWMDMProgress interface [windows Media Device Manager], IWMDMProgress interface [windows Media Device Manager],described, IWMDMProgressInterface, mswmdm/IWMDMProgress, wmdm.iwmdmprogress
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mswmdm.h
+api_name:
+-	IWMDMProgress
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMProgress interface

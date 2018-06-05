@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiribbon.IUIEventingManager.SetEventLogger
+title: IUIEventingManager::SetEventLogger
+author: windows-sdk-content
+description: Sets the event logger for ribbon events.
+old-location: windowsribbon\iuieventingmanager_seteventlogger.htm
+old-project: windowsribbon
+ms.assetid: C0228AB3-790A-469E-B185-06A26D02A96F
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IUIEventingManager interface [Windows Ribbon],SetEventLogger method, IUIEventingManager.SetEventLogger, IUIEventingManager::SetEventLogger, SetEventLogger, SetEventLogger method [Windows Ribbon], SetEventLogger method [Windows Ribbon],IUIEventingManager interface, uiribbon/IUIEventingManager::SetEventLogger, windowsribbon.iuieventingmanager_seteventlogger
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiribbon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Uiribbon.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_VIEWVERB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uiribbon.dll
+api_name:
+-	IUIEventingManager.SetEventLogger
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Uiribbon.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUIEventingManager::SetEventLogger

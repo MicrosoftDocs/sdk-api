@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winhttp.WinHttpCloseHandle
+title: WinHttpCloseHandle function
+author: windows-sdk-content
+description: The WinHttpCloseHandle function closes a single HINTERNET handle.
+old-location: http\winhttpclosehandle.htm
+old-project: WinHttp
+ms.assetid: 78215141-dfe8-4f0a-ba1a-a63fa257db6f
+ms.author: windowssdkdev
+ms.date: 03/08/2018
+ms.keywords: WinHttpCloseHandle, WinHttpCloseHandle function [WinHTTP], http.winhttpclosehandle, winhttp.winhttpclosehandle, winhttp/WinHttpCloseHandle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winhttp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winhttp.dll
+api_name:
+-	WinHttpCloseHandle
+product: Windows
+targetos: Windows
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WinHttpCloseHandle function

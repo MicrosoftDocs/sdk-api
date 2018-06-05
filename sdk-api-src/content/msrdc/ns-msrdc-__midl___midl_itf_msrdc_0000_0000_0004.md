@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0004
+title: "__MIDL___MIDL_itf_msrdc_0000_0000_0004"
+author: windows-sdk-content
+description: Contains information about a chunk that is required to synchronize two sets of data.
+old-location: rdc\rdcneed.htm
+old-project: Rdc
+ms.assetid: 086e82f1-b033-48e2-b648-895c04751cc9
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: RdcNeed, RdcNeed structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0004, fs.rdcneed, msrdc/RdcNeed, rdc.rdcneed
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: msrdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: MsRdc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RdcNeed
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	MsRdc.h
+api_name:
+-	RdcNeed
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_msrdc_0000_0000_0004 structure

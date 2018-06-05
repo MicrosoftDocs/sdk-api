@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dmusics.IDirectMusicSynthSink.SetMasterClock
+title: IDirectMusicSynthSink::SetMasterClock
+author: windows-sdk-content
+description: The SetMasterClock method provides the synth sink with a master time source, which is required for synchronization with the rest of DirectMusic.
+old-location: audio\idirectmusicsynthsink_setmasterclock.htm
+old-project: audio
+ms.assetid: 91c996cc-04e1-47fb-a82d-1cb17fe191e2
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IDirectMusicSynthSink interface [Audio Devices],SetMasterClock method, IDirectMusicSynthSink.SetMasterClock, IDirectMusicSynthSink::SetMasterClock, SetMasterClock, SetMasterClock method [Audio Devices], SetMasterClock method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_setmasterclock, audmp-routines_45d219a0-1877-4a19-961f-6f3666bc9a1a.xml, dmusics/IDirectMusicSynthSink::SetMasterClock
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dmusics.h
+req.include-header: Dmusics.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dmusics.h
+api_name:
+-	IDirectMusicSynthSink.SetMasterClock
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectMusicSynthSink::SetMasterClock

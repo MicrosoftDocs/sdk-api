@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj.BANDINFOSFB
+title: BANDINFOSFB
+author: windows-sdk-content
+description: Contains information about a folder band. This structure is used with the IShellFolderBand::GetBandInfoSFB and IShellFolderBand::SetBandInfoSFB methods.
+old-location: shell\BANDINFOSFB.htm
+old-project: shell
+ms.assetid: 7067f563-383d-469f-abcf-3e1ea28dc956
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PBANDINFOSFB, BANDINFOSFB, BANDINFOSFB structure [Windows Shell], ISFBVIEWMODE_LARGEICONS, ISFBVIEWMODE_LOGOS, ISFBVIEWMODE_SMALLICONS, ISFB_MASK_BKCOLOR, ISFB_MASK_COLORS, ISFB_MASK_IDLIST, ISFB_MASK_SHELLFOLDER, ISFB_MASK_STATE, ISFB_MASK_VIEWMODE, ISFB_STATE_ALLOWRENAME, ISFB_STATE_BTNMINSIZE, ISFB_STATE_CHANNELBAR, ISFB_STATE_DEBOSSED, ISFB_STATE_DEFAULT, ISFB_STATE_FULLOPEN, ISFB_STATE_NONAMESORT, ISFB_STATE_NOSHOWTEXT, ISFB_STATE_QLINKSMODE, PBANDINFOSFB, PBANDINFOSFB structure pointer [Windows Shell], _win32_BANDINFOSFB, shell.BANDINFOSFB, shlobj/BANDINFOSFB, shlobj/PBANDINFOSFB"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BANDINFOSFB, *PBANDINFOSFB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shlobj.h
+api_name:
+-	BANDINFOSFB
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # BANDINFOSFB structure

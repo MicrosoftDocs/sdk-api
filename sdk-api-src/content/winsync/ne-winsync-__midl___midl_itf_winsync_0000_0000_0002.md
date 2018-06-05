@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0002
+title: "__MIDL___MIDL_itf_winsync_0000_0000_0002"
+author: windows-sdk-content
+description: Represents the options for the concurrency conflict resolution policy to use for the synchronization session.
+old-location: winsync\conflict_resolution_policy.htm
+old-project: winsync
+ms.assetid: 4c2f7237-32ac-4f2d-bf6a-7959bc5d40d4
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: CONFLICT_RESOLUTION_POLICY, CONFLICT_RESOLUTION_POLICY enumeration [Windows Sync], CRP_DESTINATION_PROVIDER_WINS, CRP_LAST, CRP_NONE, CRP_SOURCE_PROVIDER_WINS, __MIDL___MIDL_itf_winsync_0000_0000_0002, winsync.conflict_resolution_policy, winsync/CONFLICT_RESOLUTION_POLICY, winsync/CRP_DESTINATION_PROVIDER_WINS, winsync/CRP_LAST, winsync/CRP_NONE, winsync/CRP_SOURCE_PROVIDER_WINS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONFLICT_RESOLUTION_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winsync.h
+api_name:
+-	CONFLICT_RESOLUTION_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # __MIDL___MIDL_itf_winsync_0000_0000_0002 enumeration

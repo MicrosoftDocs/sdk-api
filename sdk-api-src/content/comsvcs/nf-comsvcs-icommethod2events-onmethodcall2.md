@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IComMethod2Events.OnMethodCall2
+title: IComMethod2Events::OnMethodCall2
+author: windows-sdk-content
+description: Generated when an object's method is called.
+old-location: cos\icommethod2events_onmethodcall2.htm
+old-project: cossdk
+ms.assetid: 2a209526-f548-404b-9d82-f52cfe89a4f8
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IComMethod2Events interface [COM+],OnMethodCall2 method, IComMethod2Events.OnMethodCall2, IComMethod2Events::OnMethodCall2, OnMethodCall2, OnMethodCall2 method [COM+], OnMethodCall2 method [COM+],IComMethod2Events interface, _dtc_IComMethod2Events_OnMethodCall2, comsvcs/IComMethod2Events::OnMethodCall2, cos.icommethod2events_onmethodcall2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IComMethod2Events.OnMethodCall2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IComMethod2Events::OnMethodCall2

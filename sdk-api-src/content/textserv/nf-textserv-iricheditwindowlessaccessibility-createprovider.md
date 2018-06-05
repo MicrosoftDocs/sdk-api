@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:textserv.IRicheditWindowlessAccessibility.CreateProvider
+title: IRicheditWindowlessAccessibility::CreateProvider
+author: windows-sdk-content
+description: Obtains a Microsoft UI Automation provider object for the parent of a windowless rich edit control.
+old-location: controls\iricheditwindowlessaccessibility_createprovider.htm
+old-project: Controls
+ms.assetid: 660E8B3E-1372-458D-A6E0-B88B1E5A01B5
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CreateProvider, CreateProvider method [Windows Controls], CreateProvider method [Windows Controls],IRicheditWindowlessAccessibility interface, IRicheditWindowlessAccessibility interface [Windows Controls],CreateProvider method, IRicheditWindowlessAccessibility.CreateProvider, IRicheditWindowlessAccessibility::CreateProvider, controls.iricheditwindowlessaccessibility_createprovider, textserv/IRicheditWindowlessAccessibility::CreateProvider
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: textserv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	IRicheditWindowlessAccessibility.CreateProvider
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IRicheditWindowlessAccessibility::CreateProvider

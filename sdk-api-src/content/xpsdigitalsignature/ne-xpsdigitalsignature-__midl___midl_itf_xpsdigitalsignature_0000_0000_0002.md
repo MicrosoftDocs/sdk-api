@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:xpsdigitalsignature.__MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0002
+title: "__MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0002"
+author: windows-sdk-content
+description: A bitwise enumerator that indicates which, if any, optional parts of an XPS document are signed.
+old-location: xps\xps_sign_policy.htm
+old-project: printdocs
+ms.assetid: 88191931-4d6f-4ef3-ba75-227f6d2c2b10
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: XPS_SIGN_POLICY, XPS_SIGN_POLICY enumeration [XPS Documents and Packaging], XPS_SIGN_POLICY_ALL, XPS_SIGN_POLICY_CORE_PROPERTIES, XPS_SIGN_POLICY_DISCARD_CONTROL, XPS_SIGN_POLICY_NONE, XPS_SIGN_POLICY_PRINT_TICKET, XPS_SIGN_POLICY_SIGNATURE_RELATIONSHIPS, __MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0002, xps.xps_sign_policy, xpsdigitalsignature/XPS_SIGN_POLICY, xpsdigitalsignature/XPS_SIGN_POLICY_ALL, xpsdigitalsignature/XPS_SIGN_POLICY_CORE_PROPERTIES, xpsdigitalsignature/XPS_SIGN_POLICY_DISCARD_CONTROL, xpsdigitalsignature/XPS_SIGN_POLICY_NONE, xpsdigitalsignature/XPS_SIGN_POLICY_PRINT_TICKET, xpsdigitalsignature/XPS_SIGN_POLICY_SIGNATURE_RELATIONSHIPS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: xpsdigitalsignature.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XpsDigitalSignature.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XPS_SIGN_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	xpsdigitalsignature.h
+api_name:
+-	XPS_SIGN_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # __MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0002 enumeration

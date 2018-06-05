@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmalert._USER_OTHER_INFO
+title: "_USER_OTHER_INFO"
+author: windows-sdk-content
+description: The USER_OTHER_INFO structure contains user error code information. The NetAlertRaise and NetAlertRaiseEx functions use the USER_OTHER_INFO structure to specify information about an event or condition of interest to a user.
+old-location: netmgmt\user_other_info_str.htm
+old-project: NetMgmt
+ms.assetid: 2f6bd906-fdab-410a-8856-4482e047371f
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPUSER_OTHER_INFO, *PUSER_OTHER_INFO, LPUSER_OTHER_INFO, LPUSER_OTHER_INFO structure pointer [Network Management], PUSER_OTHER_INFO, PUSER_OTHER_INFO structure pointer [Network Management], USER_OTHER_INFO, USER_OTHER_INFO structure [Network Management], _USER_OTHER_INFO, _win32_user_other_info_str, lmalert/LPUSER_OTHER_INFO, lmalert/PUSER_OTHER_INFO, lmalert/USER_OTHER_INFO, netmgmt.user_other_info_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmalert.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_OTHER_INFO, *PUSER_OTHER_INFO, *LPUSER_OTHER_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmalert.h
+api_name:
+-	USER_OTHER_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _USER_OTHER_INFO structure

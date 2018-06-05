@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt.SYSTEM_POWER_CAPABILITIES
+title: SYSTEM_POWER_CAPABILITIES
+author: windows-sdk-content
+description: Contains information about the power capabilities of the system.
+old-location: base\system_power_capabilities_str.htm
+old-project: Power
+ms.assetid: aa0af56e-59b3-4d0d-b356-a4046d8754ef
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PSYSTEM_POWER_CAPABILITIES, PSYSTEM_POWER_CAPABILITIES, PSYSTEM_POWER_CAPABILITIES structure pointer, SYSTEM_POWER_CAPABILITIES, SYSTEM_POWER_CAPABILITIES structure, _win32_system_power_capabilities_str, base.system_power_capabilities_str, winnt/PSYSTEM_POWER_CAPABILITIES, winnt/SYSTEM_POWER_CAPABILITIES"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYSTEM_POWER_CAPABILITIES, *PSYSTEM_POWER_CAPABILITIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	SYSTEM_POWER_CAPABILITIES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # SYSTEM_POWER_CAPABILITIES structure

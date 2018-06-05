@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mbnapi.IMbnRegistration.GetAvailableDataClasses
+title: IMbnRegistration::GetAvailableDataClasses
+author: windows-sdk-content
+description: Gets the available data classes in the current network.
+old-location: mbn\imbnregistration_getavailabledataclasses.htm
+old-project: mbn
+ms.assetid: fb799232-0ef5-4fbd-9b7f-a106ef440a68
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: GetAvailableDataClasses, GetAvailableDataClasses method [Microsoft Broadband Networks], GetAvailableDataClasses method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetAvailableDataClasses method, IMbnRegistration.GetAvailableDataClasses, IMbnRegistration::GetAvailableDataClasses, mbn.imbnregistration_getavailabledataclasses, mbnapi/IMbnRegistration::GetAvailableDataClasses
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnRegistration.GetAvailableDataClasses
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMbnRegistration::GetAvailableDataClasses

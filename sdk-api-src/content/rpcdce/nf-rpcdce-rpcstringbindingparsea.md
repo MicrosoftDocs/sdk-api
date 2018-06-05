@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rpcdce.RpcStringBindingParseA
+title: RpcStringBindingParseA function
+author: windows-sdk-content
+description: The RpcStringBindingParse function returns the object UUID part and the address parts of a string binding as separate strings.
+old-location: rpc\rpcstringbindingparse.htm
+old-project: Rpc
+ms.assetid: c55d0259-e251-42d0-8565-ce71ab3bb59c
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: RpcStringBindingParse, RpcStringBindingParse function [RPC], RpcStringBindingParseA, RpcStringBindingParseW, _rpc_rpcstringbindingparse, rpc.rpcstringbindingparse, rpcdce/RpcStringBindingParse, rpcdce/RpcStringBindingParseA, rpcdce/RpcStringBindingParseW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rpcdce.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RpcStringBindingParseW (Unicode) and RpcStringBindingParseA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rpcrt4.dll
+api_name:
+-	RpcStringBindingParse
+-	RpcStringBindingParseA
+-	RpcStringBindingParseW
+product: Windows
+targetos: Windows
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RpcStringBindingParseA function

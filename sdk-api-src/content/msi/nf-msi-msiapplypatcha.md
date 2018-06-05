@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:msi.MsiApplyPatchA
+title: MsiApplyPatchA function
+author: windows-sdk-content
+description: For each product listed by the patch package as eligible to receive the patch, the MsiApplyPatch function invokes an installation and sets the PATCH property to the path of the patch package.
+old-location: setup\msiapplypatch.htm
+old-project: Msi
+ms.assetid: c78006ad-7355-49b6-8e79-a98dcdb0e54f
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: INSTALLTYPE_DEFAULT, INSTALLTYPE_NETWORK_IMAGE, INSTALLTYPE_SINGLE_INSTANCE, MsiApplyPatch, MsiApplyPatch function, MsiApplyPatchA, MsiApplyPatchW, _msi_msiapplypatch, msi/MsiApplyPatch, msi/MsiApplyPatchA, msi/MsiApplyPatchW, setup.msiapplypatch
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: MsiApplyPatchW (Unicode) and MsiApplyPatchA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRM_LICENSE_ACQ_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msi.dll
+api_name:
+-	MsiApplyPatch
+-	MsiApplyPatchA
+-	MsiApplyPatchW
+product: Windows
+targetos: Windows
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # MsiApplyPatchA function

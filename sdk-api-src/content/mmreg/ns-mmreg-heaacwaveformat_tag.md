@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mmreg.heaacwaveformat_tag
+title: heaacwaveformat_tag
+author: windows-sdk-content
+description: Contains format data for an AAC or HE-AAC stream that includes AudioSpecificConfig() data.
+old-location: dshow\heaacwaveformat.htm
+old-project: DirectShow
+ms.assetid: 0809eaa7-3c4c-467d-afa0-d9555ab6d71f
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPHEAACWAVEFORMAT, *NPHEAACWAVEFORMAT, *PHEAACWAVEFORMAT, HEAACWAVEFORMAT, HEAACWAVEFORMAT structure [DirectShow], PHEAACWAVEFORMAT, PHEAACWAVEFORMAT structure pointer [DirectShow], dshow.heaacwaveformat, heaacwaveformat_tag, mmreg/HEAACWAVEFORMAT, mmreg/PHEAACWAVEFORMAT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mmreg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HEAACWAVEFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mmreg.h
+api_name:
+-	HEAACWAVEFORMAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # heaacwaveformat_tag structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:d2d1_1.D2D1_PRINT_CONTROL_PROPERTIES
+title: D2D1_PRINT_CONTROL_PROPERTIES
+author: windows-sdk-content
+description: The creation properties for a ID2D1PrintControl object.
+old-location: direct2d\d2d1_print_control_properties.htm
+old-project: Direct2D
+ms.assetid: 5A4D4DDC-4161-44A2-9EB6-E4C14696B810
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_PRINT_CONTROL_PROPERTIES, D2D1_PRINT_CONTROL_PROPERTIES structure [Direct2D], d2d1_1/D2D1_PRINT_CONTROL_PROPERTIES, direct2d.d2d1_print_control_properties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d2d1_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,23 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: D2D1.lib
+tech.root: 
+req.typenames: D2D1_PRINT_CONTROL_PROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	D2D1.lib
+api_name:
+-	D2D1_PRINT_CONTROL_PROPERTIES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D2D1_PRINT_CONTROL_PROPERTIES structure

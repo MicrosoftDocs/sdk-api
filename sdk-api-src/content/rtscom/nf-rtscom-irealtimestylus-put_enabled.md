@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rtscom.IRealTimeStylus.put_Enabled
+title: IRealTimeStylus::put_Enabled
+author: windows-sdk-content
+description: Gets or sets a value that specifies whether the RealTimeStylus object collects tablet pen data.
+old-location: tablet\irealtimestylus_enabled.htm
+old-project: tablet
+ms.assetid: e96e27d7-b453-49a7-b684-b3dd5f94c378
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],Enabled property, IRealTimeStylus.Enabled, IRealTimeStylus.get_Enabled, IRealTimeStylus.put_Enabled, IRealTimeStylus::Enabled, IRealTimeStylus::get_Enabled, IRealTimeStylus::put_Enabled, e96e27d7-b453-49a7-b684-b3dd5f94c378, put_Enabled, rtscom/IRealTimeStylus::Enabled, rtscom/IRealTimeStylus::get_Enabled, rtscom/IRealTimeStylus::put_Enabled, tablet.irealtimestylus_enabled
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rtscom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: StylusQueue
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RTSCom.dll
+api_name:
+-	IRealTimeStylus.Enabled
+-	IRealTimeStylus.get_Enabled
+-	IRealTimeStylus.put_Enabled
+-	IRealTimeStylus.get_Enabled
+-	IRealTimeStylus.put_Enabled
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRealTimeStylus::put_Enabled

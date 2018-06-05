@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dwrite_2.DWRITE_OPTICAL_ALIGNMENT
+title: DWRITE_OPTICAL_ALIGNMENT
+author: windows-sdk-content
+description: The optical margin alignment mode.
+old-location: directwrite\dwrite_optical_alignment.htm
+old-project: DirectWrite
+ms.assetid: 2EB04686-970A-4D79-BFF7-9AE8396A07BB
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_OPTICAL_ALIGNMENT, DWRITE_OPTICAL_ALIGNMENT enumeration [Direct Write], DWRITE_OPTICAL_ALIGNMENT_NONE, DWRITE_OPTICAL_ALIGNMENT_NO_SIDE_BEARINGS, directwrite.dwrite_optical_alignment, dwrite_2/DWRITE_OPTICAL_ALIGNMENT, dwrite_2/DWRITE_OPTICAL_ALIGNMENT_NONE, dwrite_2/DWRITE_OPTICAL_ALIGNMENT_NO_SIDE_BEARINGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite_2.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite_2.h
+api_name:
+-	DWRITE_OPTICAL_ALIGNMENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_OPTICAL_ALIGNMENT enumeration

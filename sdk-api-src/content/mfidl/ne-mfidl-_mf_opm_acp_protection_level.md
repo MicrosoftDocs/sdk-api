@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl._MF_OPM_ACP_PROTECTION_LEVEL
+title: "_MF_OPM_ACP_PROTECTION_LEVEL"
+author: windows-sdk-content
+description: Defines protection levels for MFPROTECTION_ACP.
+old-location: mf\mf_opm_acp_protection_level.htm
+old-project: medfound
+ms.assetid: 82D289EE-7A81-4FBB-A259-6CF0CBD0D76A
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_OPM_ACP_FORCE_ULONG, MF_OPM_ACP_LEVEL_ONE, MF_OPM_ACP_LEVEL_THREE, MF_OPM_ACP_LEVEL_TWO, MF_OPM_ACP_OFF, MF_OPM_ACP_PROTECTION_LEVEL, MF_OPM_ACP_PROTECTION_LEVEL enumeration [Media Foundation], _MF_OPM_ACP_PROTECTION_LEVEL, mf.mf_opm_acp_protection_level, mfidl/MF_OPM_ACP_FORCE_ULONG, mfidl/MF_OPM_ACP_LEVEL_ONE, mfidl/MF_OPM_ACP_LEVEL_THREE, mfidl/MF_OPM_ACP_LEVEL_TWO, mfidl/MF_OPM_ACP_OFF, mfidl/MF_OPM_ACP_PROTECTION_LEVEL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_OPM_ACP_PROTECTION_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MF_OPM_ACP_PROTECTION_LEVEL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MF_OPM_ACP_PROTECTION_LEVEL enumeration

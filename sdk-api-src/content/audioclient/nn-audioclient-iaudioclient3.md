@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:audioclient.IAudioClient3
+title: IAudioClient3
+author: windows-sdk-content
+description: The IAudioClient3 interface is derived from the IAudioClient2 interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to query for the audio engine's supported periodicities and current periodicity as well as request initialization a shared audio stream with a specified periodicity.
+old-location: coreaudio\iaudioclient3.htm
+old-project: CoreAudio
+ms.assetid: E8EFE682-E1BC-4D0D-A60E-DD257D6E5894
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IAudioClient3, IAudioClient3 interface [Core Audio], IAudioClient3 interface [Core Audio],described, audioclient/IAudioClient3, coreaudio.iaudioclient3
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: audioclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	audioclient.h
+api_name:
+-	IAudioClient3
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioClient3 interface

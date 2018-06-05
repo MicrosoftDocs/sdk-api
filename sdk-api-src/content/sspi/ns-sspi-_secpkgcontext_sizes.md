@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:sspi._SecPkgContext_Sizes
+title: "_SecPkgContext_Sizes"
+author: windows-sdk-content
+description: The SecPkgContext_Sizes structure indicates the sizes of important structures used in the message support functions. The QueryContextAttributes (General) function uses this structure.
+old-location: security\secpkgcontext_sizes.htm
+old-project: SecAuthN
+ms.assetid: 46b6a155-8855-4aa0-a513-aa5b3760fcd4
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSecPkgContext_Sizes, PSecPkgContext_Sizes, PSecPkgContext_Sizes structure pointer [Security], SecPkgContext_Sizes, SecPkgContext_Sizes structure [Security], _SecPkgContext_Sizes, _ssp_secpkgcontext_sizes, security.secpkgcontext_sizes, sspi/PSecPkgContext_Sizes, sspi/SecPkgContext_Sizes"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: sspi.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SecPkgContext_Sizes, *PSecPkgContext_Sizes
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Sspi.h
+api_name:
+-	SecPkgContext_Sizes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_Sizes structure

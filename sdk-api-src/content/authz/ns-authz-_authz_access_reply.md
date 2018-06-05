@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:authz._AUTHZ_ACCESS_REPLY
+title: "_AUTHZ_ACCESS_REPLY"
+author: windows-sdk-content
+description: Defines an access check reply.
+old-location: security\authz_access_reply.htm
+old-project: SecAuthZ
+ms.assetid: 7162bf80-3730-46d7-a603-2a55b969c9ba
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PAUTHZ_ACCESS_REPLY, AUTHZ_ACCESS_REPLY, AUTHZ_ACCESS_REPLY structure [Security], AUTHZ_GENERATE_FAILURE_AUDIT, AUTHZ_GENERATE_SUCCESS_AUDIT, ERROR_ACCESS_DENIED, ERROR_PRIVILEGE_NOT_HELD, ERROR_SUCCESS, PAUTHZ_ACCESS_REPLY, PAUTHZ_ACCESS_REPLY structure pointer [Security], _AUTHZ_ACCESS_REPLY, _win32_authz_access_reply, authz/AUTHZ_ACCESS_REPLY, authz/PAUTHZ_ACCESS_REPLY, security.authz_access_reply"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: authz.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTHZ_ACCESS_REPLY, *PAUTHZ_ACCESS_REPLY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Authz.h
+api_name:
+-	AUTHZ_ACCESS_REPLY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _AUTHZ_ACCESS_REPLY structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dxgi.IDXGIKeyedMutex.ReleaseSync
+title: IDXGIKeyedMutex::ReleaseSync
+author: windows-sdk-content
+description: Using a key, releases exclusive rendering access to a shared resource.
+old-location: direct3ddxgi\idxgikeyedmutex_releasesync.htm
+old-project: direct3ddxgi
+ms.assetid: 324741c9-33f2-4420-8c3f-4984e2ca0962
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: 33872a53-bb15-32f2-c1f4-cfc8bdbac157, IDXGIKeyedMutex interface [DXGI],ReleaseSync method, IDXGIKeyedMutex.ReleaseSync, IDXGIKeyedMutex::ReleaseSync, ReleaseSync, ReleaseSync method [DXGI], ReleaseSync method [DXGI],IDXGIKeyedMutex interface, direct3ddxgi.idxgikeyedmutex_releasesync, dxgi/IDXGIKeyedMutex::ReleaseSync
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_SWAP_EFFECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DXGI.lib
+-	DXGI.dll
+api_name:
+-	IDXGIKeyedMutex.ReleaseSync
+product: Windows
+targetos: Windows
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIKeyedMutex::ReleaseSync

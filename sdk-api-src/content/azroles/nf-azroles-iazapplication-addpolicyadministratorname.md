@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzApplication.AddPolicyAdministratorName
+title: IAzApplication::AddPolicyAdministratorName
+author: windows-sdk-content
+description: Adds the specified account name to the list of principals that act as policy administrators.
+old-location: security\iazapplication_addpolicyadministratorname.htm
+old-project: SecAuthZ
+ms.assetid: cc5f74c6-e1b6-4924-b5c1-2d3600ce37ef
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AddPolicyAdministratorName, AddPolicyAdministratorName method [Security], AddPolicyAdministratorName method [Security],AzApplication object, AddPolicyAdministratorName method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyAdministratorName method, IAzApplication interface [Security],AddPolicyAdministratorName method, IAzApplication.AddPolicyAdministratorName, IAzApplication::AddPolicyAdministratorName, azroles/IAzApplication::AddPolicyAdministratorName, security.iazapplication_addpolicyadministratorname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzApplication.AddPolicyAdministratorName
+-	AzApplication.AddPolicyAdministratorName
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzApplication::AddPolicyAdministratorName

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:instance.CInstance.SetCHString
+title: CInstance::SetCHString
+author: windows-sdk-content
+description: The CInstance::SetCHString method sets a string property.
+old-location: wmi\cinstance_setchstring.htm
+old-project: WmiSdk
+ms.assetid: a75b574d-9ee7-4930-a003-5d71c5f1d687
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CInstance.SetCHString, CInstance::SetCHString, CInstance::SetCHString methods [Windows Management Instrumentation], SetCHString, instance/CInstance::SetCHString, wmi.cinstance_setchstring
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: instance.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TrustLevel
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CInstance::SetCHString
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CInstance::SetCHString

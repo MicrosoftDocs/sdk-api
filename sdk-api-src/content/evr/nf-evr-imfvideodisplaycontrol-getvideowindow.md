@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:evr.IMFVideoDisplayControl.GetVideoWindow
+title: IMFVideoDisplayControl::GetVideoWindow
+author: windows-sdk-content
+description: Gets the clipping window for the video.
+old-location: mf\imfvideodisplaycontrol_getvideowindow.htm
+old-project: medfound
+ms.assetid: 0b2b6b61-a2c5-4efd-ac40-962b0c2ae9c5
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 0b2b6b61-a2c5-4efd-ac40-962b0c2ae9c5, GetVideoWindow, GetVideoWindow method [Media Foundation], GetVideoWindow method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetVideoWindow method, IMFVideoDisplayControl.GetVideoWindow, IMFVideoDisplayControl::GetVideoWindow, evr/IMFVideoDisplayControl::GetVideoWindow, mf.imfvideodisplaycontrol_getvideowindow
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: evr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoMixPrefs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	strmiids.lib
+-	strmiids.dll
+api_name:
+-	IMFVideoDisplayControl.GetVideoWindow
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IMFVideoDisplayControl::GetVideoWindow

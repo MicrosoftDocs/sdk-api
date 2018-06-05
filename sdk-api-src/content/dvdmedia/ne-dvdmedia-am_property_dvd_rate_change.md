@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dvdmedia.AM_PROPERTY_DVD_RATE_CHANGE
+title: AM_PROPERTY_DVD_RATE_CHANGE
+author: windows-sdk-content
+description: The AM_PROPERTY_DVD_RATE_CHANGE enumeration is not used.
+old-location: dshow\am_property_dvd_rate_change.htm
+old-project: DirectShow
+ms.assetid: 1a8e1a93-893f-4aaa-bbcc-f660b064e8a9
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AM_PROPERTY_DVD_RATE_CHANGE, AM_PROPERTY_DVD_RATE_CHANGE enumeration [DirectShow], AM_RATE_ChangeRate, AM_RATE_DecoderPosition, AM_RATE_DecoderVersion, AM_RATE_FullDataRateMax, AM_RATE_ReverseDecode, dshow.am_property_dvd_rate_change, dvdmedia/AM_PROPERTY_DVD_RATE_CHANGE, dvdmedia/AM_RATE_ChangeRate, dvdmedia/AM_RATE_DecoderPosition, dvdmedia/AM_RATE_DecoderVersion, dvdmedia/AM_RATE_FullDataRateMax, dvdmedia/AM_RATE_ReverseDecode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dvdmedia.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_PROPERTY_DVD_RATE_CHANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dvdmedia.h
+api_name:
+-	AM_PROPERTY_DVD_RATE_CHANGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # AM_PROPERTY_DVD_RATE_CHANGE enumeration

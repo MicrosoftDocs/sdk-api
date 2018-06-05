@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:credentialprovider._CREDENTIAL_PROVIDER_USAGE_SCENARIO
+title: "_CREDENTIAL_PROVIDER_USAGE_SCENARIO"
+author: windows-sdk-content
+description: Declares the scenarios in which a credential provider is supported. A credential provider usage scenario (CPUS) enables the credential provider to provide distinct enumeration behavior and UI field setup across scenarios.
+old-location: shell\CREDENTIAL_PROVIDER_USAGE_SCENARIO.htm
+old-project: shell
+ms.assetid: 86025d1d-b13d-4f61-824a-fd471e449567
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CPUS_CHANGE_PASSWORD, CPUS_CREDUI, CPUS_INVALID, CPUS_LOGON, CPUS_PLAP, CPUS_UNLOCK_WORKSTATION, CREDENTIAL_PROVIDER_USAGE_SCENARIO, CREDENTIAL_PROVIDER_USAGE_SCENARIO enumeration [Windows Shell], _CREDENTIAL_PROVIDER_USAGE_SCENARIO, credentialprovider/CPUS_CHANGE_PASSWORD, credentialprovider/CPUS_CREDUI, credentialprovider/CPUS_INVALID, credentialprovider/CPUS_LOGON, credentialprovider/CPUS_PLAP, credentialprovider/CPUS_UNLOCK_WORKSTATION, credentialprovider/CREDENTIAL_PROVIDER_USAGE_SCENARIO, shell.CREDENTIAL_PROVIDER_USAGE_SCENARIO, shell_CREDENTIAL_PROVIDER_USAGE_SCENARIO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: credentialprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Credentialprovider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Credentialprovider.h
+api_name:
+-	CREDENTIAL_PROVIDER_USAGE_SCENARIO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CREDENTIAL_PROVIDER_USAGE_SCENARIO enumeration

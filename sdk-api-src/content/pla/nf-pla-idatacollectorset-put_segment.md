@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataCollectorSet.put_Segment
+title: IDataCollectorSet::put_Segment
+author: windows-sdk-content
+description: Retrieves or sets a value that indicates whether PLA creates new logs if the maximum size or segment duration is reached before the data collector set is stopped.
+old-location: pla\idatacollectorset_get_segment.htm
+old-project: PLA
+ms.assetid: 5ecac3dd-0cd1-4563-a6b3-1b98e29fe769
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IDataCollectorSet interface [PLA],Segment property, IDataCollectorSet.Segment, IDataCollectorSet.put_Segment, IDataCollectorSet::Segment, IDataCollectorSet::get_Segment, IDataCollectorSet::put_Segment, Segment property [PLA], Segment property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_segment, pla.idatacollectorset_get_segment, pla/IDataCollectorSet::Segment, pla/IDataCollectorSet::get_Segment, pla/IDataCollectorSet::put_Segment, put_Segment
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataCollectorSet.Segment
+-	IDataCollectorSet.get_Segment
+-	IDataCollectorSet.put_Segment
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataCollectorSet::put_Segment

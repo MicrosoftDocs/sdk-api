@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._LSA_FOREST_TRUST_COLLISION_RECORD
+title: "_LSA_FOREST_TRUST_COLLISION_RECORD"
+author: windows-sdk-content
+description: Contains information about a Local Security Authority forest trust collision.
+old-location: security\lsa_forest_trust_collision_record.htm
+old-project: SecAuthN
+ms.assetid: 9f9d2f57-0e7f-4222-be35-e3f026b60e93
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PLSA_FOREST_TRUST_COLLISION_RECORD, CollisionOther, CollisionTdo, CollisionXref, LSA_FOREST_TRUST_COLLISION_RECORD, LSA_FOREST_TRUST_COLLISION_RECORD structure [Security], LSA_NB_DISABLED_ADMIN, LSA_NB_DISABLED_CONFLICT, LSA_SID_DISABLED_ADMIN, LSA_SID_DISABLED_CONFLICT, LSA_TLN_DISABLED_ADMIN, LSA_TLN_DISABLED_CONFLICT, LSA_TLN_DISABLED_NEW, PLSA_FOREST_TRUST_COLLISION_RECORD, PLSA_FOREST_TRUST_COLLISION_RECORD structure pointer [Security], _LSA_FOREST_TRUST_COLLISION_RECORD, ntsecapi/LSA_FOREST_TRUST_COLLISION_RECORD, ntsecapi/PLSA_FOREST_TRUST_COLLISION_RECORD, security.lsa_forest_trust_collision_record"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LSA_FOREST_TRUST_COLLISION_RECORD, *PLSA_FOREST_TRUST_COLLISION_RECORD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	LSA_FOREST_TRUST_COLLISION_RECORD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _LSA_FOREST_TRUST_COLLISION_RECORD structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:interactioncontext.CROSS_SLIDE_FLAGS
+title: CROSS_SLIDE_FLAGS
+author: windows-sdk-content
+description: Specifies the state of the cross-slide interaction.
+old-location: input_intcontext\cross_slide_flags.htm
+old-project: Input_IntContext
+ms.assetid: 3be72ad1-87da-4c08-84fd-a84d4c03d33b
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: CROSS_SLIDE_FLAGS, CROSS_SLIDE_FLAGS enumeration, CROSS_SLIDE_FLAGS_MAX, CROSS_SLIDE_FLAGS_NONE, CROSS_SLIDE_FLAGS_REARRANGE, CROSS_SLIDE_FLAGS_SELECT, CROSS_SLIDE_FLAGS_SPEED_BUMP, input_intcontext.cross_slide_flags, interactioncontext.cross_slide_flags, interactioncontext/CROSS_SLIDE_FLAGS, interactioncontext/CROSS_SLIDE_FLAGS_MAX, interactioncontext/CROSS_SLIDE_FLAGS_NONE, interactioncontext/CROSS_SLIDE_FLAGS_REARRANGE, interactioncontext/CROSS_SLIDE_FLAGS_SELECT, interactioncontext/CROSS_SLIDE_FLAGS_SPEED_BUMP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: interactioncontext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CROSS_SLIDE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	interactioncontext.h
+api_name:
+-	CROSS_SLIDE_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CROSS_SLIDE_FLAGS enumeration

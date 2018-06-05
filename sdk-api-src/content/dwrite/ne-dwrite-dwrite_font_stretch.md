@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwrite.DWRITE_FONT_STRETCH
+title: DWRITE_FONT_STRETCH
+author: windows-sdk-content
+description: Represents the degree to which a font has been stretched compared to a font's normal aspect ratio.
+old-location: directwrite\dwrite_font_stretch.htm
+old-project: DirectWrite
+ms.assetid: 10b3a703-239b-4fb1-9a20-e466b123b060
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_FONT_STRETCH, DWRITE_FONT_STRETCH enumeration [Direct Write], DWRITE_FONT_STRETCH_CONDENSED, DWRITE_FONT_STRETCH_EXPANDED, DWRITE_FONT_STRETCH_EXTRA_CONDENSED, DWRITE_FONT_STRETCH_EXTRA_EXPANDED, DWRITE_FONT_STRETCH_MEDIUM, DWRITE_FONT_STRETCH_NORMAL, DWRITE_FONT_STRETCH_SEMI_CONDENSED, DWRITE_FONT_STRETCH_SEMI_EXPANDED, DWRITE_FONT_STRETCH_ULTRA_CONDENSED, DWRITE_FONT_STRETCH_ULTRA_EXPANDED, DWRITE_FONT_STRETCH_UNDEFINED, directwrite.dwrite_font_stretch, dwrite/DWRITE_FONT_STRETCH, dwrite/DWRITE_FONT_STRETCH_CONDENSED, dwrite/DWRITE_FONT_STRETCH_EXPANDED, dwrite/DWRITE_FONT_STRETCH_EXTRA_CONDENSED, dwrite/DWRITE_FONT_STRETCH_EXTRA_EXPANDED, dwrite/DWRITE_FONT_STRETCH_MEDIUM, dwrite/DWRITE_FONT_STRETCH_NORMAL, dwrite/DWRITE_FONT_STRETCH_SEMI_CONDENSED, dwrite/DWRITE_FONT_STRETCH_SEMI_EXPANDED, dwrite/DWRITE_FONT_STRETCH_ULTRA_CONDENSED, dwrite/DWRITE_FONT_STRETCH_ULTRA_EXPANDED, dwrite/DWRITE_FONT_STRETCH_UNDEFINED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite.h
+api_name:
+-	DWRITE_FONT_STRETCH
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_FONT_STRETCH enumeration

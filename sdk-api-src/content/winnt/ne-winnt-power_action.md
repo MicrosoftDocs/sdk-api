@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winnt.POWER_ACTION
+title: POWER_ACTION
+author: windows-sdk-content
+description: Defines values that are used to specify system power action types.
+old-location: base\power_action.htm
+old-project: Power
+ms.assetid: 815e1f2d-0fc9-446c-ae83-5d5cfea57ab7
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PPOWER_ACTION, POWER_ACTION, POWER_ACTION enumeration, PPOWER_ACTION, PPOWER_ACTION enumeration pointer, PowerActionHibernate, PowerActionNone, PowerActionReserved, PowerActionShutdown, PowerActionShutdownOff, PowerActionShutdownReset, PowerActionSleep, PowerActionWarmEject, _win32_power_action, base.power_action, winnt/POWER_ACTION, winnt/PPOWER_ACTION, winnt/PowerActionHibernate, winnt/PowerActionNone, winnt/PowerActionReserved, winnt/PowerActionShutdown, winnt/PowerActionShutdownOff, winnt/PowerActionShutdownReset, winnt/PowerActionSleep, winnt/PowerActionWarmEject"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: POWER_ACTION, *PPOWER_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	POWER_ACTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # POWER_ACTION enumeration

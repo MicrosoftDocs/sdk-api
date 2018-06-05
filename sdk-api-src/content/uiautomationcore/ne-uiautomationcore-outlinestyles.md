@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uiautomationcore.OutlineStyles
+title: OutlineStyles
+author: windows-sdk-content
+description: Contains values for the OutlineStyle text attribute.
+old-location: winauto\uiauto_OutlineStylesEnum.htm
+old-project: WinAuto
+ms.assetid: a3728607-f536-4c2c-afb2-0c040d776df5
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: OutlineStyles, OutlineStyles enumeration [Windows Accessibility], OutlineStyles_Embossed, OutlineStyles_Engraved, OutlineStyles_None, OutlineStyles_Outline, OutlineStyles_Shadow, uiauto.uiauto_OutlineStylesEnum, uiauto_OutlineStylesEnum, uiautomationcore/OutlineStyles, uiautomationcore/OutlineStyles_Embossed, uiautomationcore/OutlineStyles_Engraved, uiautomationcore/OutlineStyles_None, uiautomationcore/OutlineStyles_Outline, uiautomationcore/OutlineStyles_Shadow, winauto.uiauto_OutlineStylesEnum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	OutlineStyles
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # OutlineStyles enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d9.IDirect3DSurface9.GetContainer
+title: IDirect3DSurface9::GetContainer
+author: windows-sdk-content
+description: Provides access to the parent cube texture or texture (mipmap) object, if this surface is a child level of a cube texture or a mipmap. This method can also provide access to the parent swap chain if the surface is a back-buffer child.
+old-location: direct3d9\idirect3dsurface9__getcontainer.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\idirect3dsurface9__getcontainer.htm
+ms.author: windowssdkdev
+ms.date: 04/10/2018
+ms.keywords: GetContainer, GetContainer method [Direct3D 9], GetContainer method [Direct3D 9],IDirect3DSurface9 interface, IDirect3DSurface9 interface [Direct3D 9],GetContainer method, IDirect3DSurface9.GetContainer, IDirect3DSurface9::GetContainer, b487bd6c-1138-b391-b264-d95eb2cadb18, d3d9helper/IDirect3DSurface9::GetContainer, direct3d9.idirect3dsurface9__getcontainer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d9.h
+req.include-header: D3D9.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D9.lib
+-	D3D9.dll
+api_name:
+-	IDirect3DSurface9.GetContainer
+product: Windows
+targetos: Windows
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 ---
 
 # IDirect3DSurface9::GetContainer

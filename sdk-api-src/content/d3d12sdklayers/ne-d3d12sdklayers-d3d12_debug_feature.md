@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12sdklayers.D3D12_DEBUG_FEATURE
+title: D3D12_DEBUG_FEATURE
+author: windows-sdk-content
+description: Flags for optional D3D12 Debug Layer features.
+old-location: direct3d12\d3d12_debug_feature.htm
+old-project: direct3d12
+ms.assetid: 36E0A5DC-8313-4D9D-988C-21E6FFCC8730
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_DEBUG_FEATURE, D3D12_DEBUG_FEATURE enumeration, D3D12_DEBUG_FEATURE_ALLOW_BEHAVIOR_CHANGING_DEBUG_AIDS, D3D12_DEBUG_FEATURE_CONSERVATIVE_RESOURCE_STATE_TRACKING, D3D12_DEBUG_FEATURE_DISABLE_VIRTUALIZED_BUNDLES_VALIDATION, D3D12_DEBUG_FEATURE_NONE, D3D12_DEBUG_FEATURE_VALID_MASK, d3d12sdklayers/D3D12_DEBUG_FEATURE, d3d12sdklayers/D3D12_DEBUG_FEATURE_ALLOW_BEHAVIOR_CHANGING_DEBUG_AIDS, d3d12sdklayers/D3D12_DEBUG_FEATURE_CONSERVATIVE_RESOURCE_STATE_TRACKING, d3d12sdklayers/D3D12_DEBUG_FEATURE_DISABLE_VIRTUALIZED_BUNDLES_VALIDATION, d3d12sdklayers/D3D12_DEBUG_FEATURE_NONE, d3d12sdklayers/D3D12_DEBUG_FEATURE_VALID_MASK, direct3d12.d3d12_debug_feature
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_DEBUG_FEATURE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d12sdklayers.h
+api_name:
+-	D3D12_DEBUG_FEATURE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_DEBUG_FEATURE enumeration

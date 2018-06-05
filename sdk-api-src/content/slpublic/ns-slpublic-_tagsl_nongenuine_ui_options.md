@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:slpublic._tagSL_NONGENUINE_UI_OPTIONS
+title: "_tagSL_NONGENUINE_UI_OPTIONS"
+author: windows-sdk-content
+description: Specifies an application that displays a dialog box when the SLIsGenuineLocal function indicates that an installation is not genuine.
+old-location: security\sl_nongenuine_ui_options.htm
+old-project: SecSLApi
+ms.assetid: 5e793f09-1d12-4b69-8ba6-6c45421df533
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: SL_NONGENUINE_UI_OPTIONS, SL_NONGENUINE_UI_OPTIONS structure [Security], _tagSL_NONGENUINE_UI_OPTIONS, security.sl_nongenuine_ui_options, slpublic/SL_NONGENUINE_UI_OPTIONS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: slpublic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SL_NONGENUINE_UI_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Slpublic.h
+api_name:
+-	SL_NONGENUINE_UI_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _tagSL_NONGENUINE_UI_OPTIONS structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmPipelineModuleConnector.get_ModuleImplementation
+title: IFsrmPipelineModuleConnector::get_ModuleImplementation
+author: windows-sdk-content
+description: The interface that implements the pipeline module.
+old-location: fsrm\ifsrmpipelinemoduleconnector_moduleimplementation.htm
+old-project: Fsrm
+ms.assetid: 0399ffd6-39c1-40fe-8cfa-c627bbd59680
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],ModuleImplementation property, IFsrmPipelineModuleConnector interface [File Server Resource Manager],ModuleImplementation property, IFsrmPipelineModuleConnector.ModuleImplementation, IFsrmPipelineModuleConnector.get_ModuleImplementation, IFsrmPipelineModuleConnector::ModuleImplementation, IFsrmPipelineModuleConnector::get_ModuleImplementation, ModuleImplementation property [File Server Resource Manager], ModuleImplementation property [File Server Resource Manager],FsrmPipelineModuleConnector class, ModuleImplementation property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, fs.ifsrmpipelinemoduleconnector_moduleimplementation, fsrm.ifsrmpipelinemoduleconnector_moduleimplementation, fsrmpipeline/IFsrmPipelineModuleConnector::ModuleImplementation, fsrmpipeline/IFsrmPipelineModuleConnector::get_ModuleImplementation, get_ModuleImplementation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: FsrmPipeline.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmPipelineModuleConnector.ModuleImplementation
+-	IFsrmPipelineModuleConnector.get_ModuleImplementation
+-	FsrmPipelineModuleConnector.ModuleImplementation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmPipelineModuleConnector::get_ModuleImplementation

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice
+title: ISurfaceImageSourceManagerNative::xaml
+author: windows-sdk-content
+description: Flushes all current GPU work for all SurfaceImageSource or VirtualSurfaceImageSource objects associated with the given device.
+old-location: winrt\isurfaceimagesourcemanagernative_flushallsurfaceswithdevice.htm
+old-project: WinRT
+ms.assetid: 2921FF9E-25C5-4DF6-B23F-7B60F0577983
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: FlushAllSurfacesWithDevice, FlushAllSurfacesWithDevice method [Windows Runtime], FlushAllSurfacesWithDevice method [Windows Runtime],ISurfaceImageSourceManagerNative interface, ISurfaceImageSourceManagerNative interface [Windows Runtime],FlushAllSurfacesWithDevice method, ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice, ISurfaceImageSourceManagerNative.xaml, ISurfaceImageSourceManagerNative::FlushAllSurfacesWithDevice, ISurfaceImageSourceManagerNative::xaml, windows/ISurfaceImageSourceManagerNative::FlushAllSurfacesWithDevice, winrt.isurfaceimagesourcemanagernative_flushallsurfaceswithdevice
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: windows.ui.xaml.media.dxinterop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Windows.ui.xaml.media.dxinterop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDF_RENDER_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windows.UI.Xaml.dll
+api_name:
+-	ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ISurfaceImageSourceManagerNative::xaml

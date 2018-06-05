@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iscsidsc.ISCSI_TARGET_PORTAL_INFO_EXA
+title: ISCSI_TARGET_PORTAL_INFO_EXA
+author: windows-sdk-content
+description: The ISCSI_TARGET_PORTAL_INFO_EX structure contains information about login credentials to a target portal.
+old-location: iscsidisc\iscsi_target_portal_info_ex.htm
+old-project: iSCSIDisc
+ms.assetid: 1c7035db-a71d-43b5-8595-82097ae5433d
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: "*PISCSI_TARGET_PORTAL_INFO_EXA, ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, ISCSI_TARGET_PORTAL_INFO_EX, ISCSI_TARGET_PORTAL_INFO_EX structure [iSCSI Discovery Library API], ISCSI_TARGET_PORTAL_INFO_EXA, ISCSI_TARGET_PORTAL_INFO_EXW, PISCSI_TARGET_PORTAL_INFO_EX, PISCSI_TARGET_PORTAL_INFO_EX structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_portal_info_ex, iscsidsc/ISCSI_TARGET_PORTAL_INFO_EX, iscsidsc/ISCSI_TARGET_PORTAL_INFO_EXA, iscsidsc/ISCSI_TARGET_PORTAL_INFO_EXW, iscsidsc/PISCSI_TARGET_PORTAL_INFO_EX"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ISCSI_TARGET_PORTAL_INFO_EXW (Unicode) and ISCSI_TARGET_PORTAL_INFO_EXA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ISCSI_TARGET_PORTAL_INFO_EXA, *PISCSI_TARGET_PORTAL_INFO_EXA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iscsidsc.h
+api_name:
+-	ISCSI_TARGET_PORTAL_INFO_EX
+-	ISCSI_TARGET_PORTAL_INFO_EXA
+-	ISCSI_TARGET_PORTAL_INFO_EXW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ISCSI_TARGET_PORTAL_INFO_EXA structure

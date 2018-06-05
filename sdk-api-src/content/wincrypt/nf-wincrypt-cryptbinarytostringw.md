@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CryptBinaryToStringW
+title: CryptBinaryToStringW function
+author: windows-sdk-content
+description: Converts an array of bytes into a formatted string.
+old-location: security\cryptbinarytostring.htm
+old-project: SecCrypto
+ms.assetid: e6bdf931-fba3-4a33-b22e-5f818f565842
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CRYPT_STRING_BASE64, CRYPT_STRING_BASE64HEADER, CRYPT_STRING_BASE64REQUESTHEADER, CRYPT_STRING_BASE64X509CRLHEADER, CRYPT_STRING_BINARY, CRYPT_STRING_HEX, CRYPT_STRING_HEXADDR, CRYPT_STRING_HEXASCII, CRYPT_STRING_HEXASCIIADDR, CRYPT_STRING_HEXRAW, CRYPT_STRING_NOCR, CRYPT_STRING_NOCRLF, CRYPT_STRING_STRICT, CryptBinaryToString, CryptBinaryToString function [Security], CryptBinaryToStringA, CryptBinaryToStringW, _crypto2_cryptbinarytostring, security.cryptbinarytostring, wincrypt/CryptBinaryToString, wincrypt/CryptBinaryToStringA, wincrypt/CryptBinaryToStringW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CryptBinaryToStringW (Unicode) and CryptBinaryToStringA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CryptBinaryToString
+-	CryptBinaryToStringA
+-	CryptBinaryToStringW
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CryptBinaryToStringW function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:powrprof.PowerDeleteScheme
+title: PowerDeleteScheme function
+author: windows-sdk-content
+description: Deletes the specified power scheme from the database.
+old-location: base\powerdeletescheme.htm
+old-project: Power
+ms.assetid: 5f9969a1-e598-4ca8-a5b8-f8bb3410223d
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: PowerDeleteScheme, PowerDeleteScheme function, base.powerdeletescheme, powrprof/PowerDeleteScheme
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: powrprof.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	PowrProf.dll
+api_name:
+-	PowerDeleteScheme
+product: Windows
+targetos: Windows
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PowerDeleteScheme function

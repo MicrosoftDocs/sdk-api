@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:shobjidl.ICDBurn
+title: ICDBurn
+author: windows-sdk-content
+description: Exposes methods that determine whether a system has hardware for writing to CD, the drive letter of a CD writer device, and programmatically initiate a CD writing session.
+old-location: shell\ICDBurn.htm
+old-project: shell
+ms.assetid: 8867ae52-2109-4967-b9b9-a4fe89cf4622
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ICDBurn, ICDBurn interface [Windows Shell], ICDBurn interface [Windows Shell],described, _shell_ICDBurn, shell.ICDBurn, shobjidl/ICDBurn
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	ICDBurn
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # ICDBurn interface

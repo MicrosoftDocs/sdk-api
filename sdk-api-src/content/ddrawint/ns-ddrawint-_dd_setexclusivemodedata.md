@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_SETEXCLUSIVEMODEDATA
+title: "_DD_SETEXCLUSIVEMODEDATA"
+author: windows-sdk-content
+description: The DD_SETEXCLUSIVEMODEDATA structure contains the exclusive mode notification information.
+old-location: display\dd_setexclusivemodedata.htm
+old-project: display
+ms.assetid: b2f5af15-c773-4741-a8dc-71d2b89776a7
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA structure [Display Devices], _DD_SETEXCLUSIVEMODEDATA, ddrawint/DD_SETEXCLUSIVEMODEDATA, ddstrcts_c6ba3e13-afcd-4e8a-994b-d3c006d2c952.xml, display.dd_setexclusivemodedata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_SETEXCLUSIVEMODEDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_SETEXCLUSIVEMODEDATA structure

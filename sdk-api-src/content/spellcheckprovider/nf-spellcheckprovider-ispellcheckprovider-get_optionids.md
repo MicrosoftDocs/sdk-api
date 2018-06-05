@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:spellcheckprovider.ISpellCheckProvider.get_OptionIds
+title: ISpellCheckProvider::get_OptionIds
+author: windows-sdk-content
+description: Gets all of the declared option identifiers recognized by the spell checker.
+old-location: intl\ispellcheckprovider_optionids.htm
+old-project: Intl
+ms.assetid: E776D178-D5F0-4761-8A0C-7108C36AE3B1
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],OptionIds property, ISpellCheckProvider.OptionIds, ISpellCheckProvider.get_OptionIds, ISpellCheckProvider::OptionIds, ISpellCheckProvider::get_OptionIds, OptionIds property [Internationalization for Windows Applications], OptionIds property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_OptionIds, intl.ispellcheckprovider_optionids, spellcheckprovider/ISpellCheckProvider::OptionIds, spellcheckprovider/ISpellCheckProvider::get_OptionIds
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spellcheckprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Spellcheckprovider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WORDLIST_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Spellcheckprovider.h
+api_name:
+-	ISpellCheckProvider.OptionIds
+-	ISpellCheckProvider.get_OptionIds
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpellCheckProvider::get_OptionIds

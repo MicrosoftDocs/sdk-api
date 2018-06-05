@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:remotesystemadditionalinfo.HSTRING_UserMarshal
+title: HSTRING_UserMarshal function
+author: windows-sdk-content
+description: Marshals an HSTRING object into the RPC buffer.
+old-location: winrt\hstring_usermarshal.htm
+old-project: WinRT
+ms.assetid: 986942D6-A1CD-4BED-9AD3-82FB4892E28E
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: HSTRING_UserMarshal, HSTRING_UserMarshal function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserMarshal, winrt.hstring_usermarshal
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: remotesystemadditionalinfo.h
+req.include-header: Winstring.h, Inspectable.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVENT_RECORD, *PEVENT_RECORD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ComBase.dll
+-	API-MS-Win-Core-WinRT-String-l1-1-0.dll
+-	API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+-	HSTRING_UserMarshal
+product: Windows
+targetos: Windows
+req.lib: RuntimeObject.lib
+req.dll: ComBase.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # HSTRING_UserMarshal function

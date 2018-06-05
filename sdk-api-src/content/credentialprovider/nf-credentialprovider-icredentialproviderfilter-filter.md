@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:credentialprovider.ICredentialProviderFilter.Filter
+title: ICredentialProviderFilter::Filter
+author: windows-sdk-content
+description: Evaluates whether a list of credential providers should be allowed to provide credential tiles.
+old-location: shell\ICredentialProviderFilter_Filter.htm
+old-project: shell
+ms.assetid: 3ba60965-6f18-427f-851d-b92c71eb03d2
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CREDUIWIN_AUTHPACKAGE_ONLY, CREDUIWIN_CHECKBOX, CREDUIWIN_ENUMERATE_ADMINS, CREDUIWIN_ENUMERATE_CURRENT_USER, CREDUIWIN_GENERIC, CREDUIWIN_IN_CRED_ONLY, CREDUIWIN_PACK_32_WOW, Filter, Filter method [Windows Shell], Filter method [Windows Shell],ICredentialProviderFilter interface, ICredentialProviderFilter interface [Windows Shell],Filter method, ICredentialProviderFilter.Filter, ICredentialProviderFilter::Filter, _shell_ICredentialProviderFilter_Filter, credentialprovider/ICredentialProviderFilter::Filter, shell.ICredentialProviderFilter_Filter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: credentialprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Credentialprovider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Credentialprovider.h
+api_name:
+-	ICredentialProviderFilter.Filter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICredentialProviderFilter::Filter

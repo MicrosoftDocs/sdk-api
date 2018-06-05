@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:gdiplusimaging.ImageFlags
+title: ImageFlags
+author: windows-sdk-content
+description: The ImageFlags enumeration specifies the attributes of the pixel data contained in an Image object. The Image::GetFlags method returns an element of this enumeration.
+old-location: gdiplus\_gdiplus_ENUM_ImageFlags.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\imageflags.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ImageFlags, ImageFlags enumeration [GDI+], ImageFlagsCaching, ImageFlagsColorSpaceCMYK, ImageFlagsColorSpaceGRAY, ImageFlagsColorSpaceRGB, ImageFlagsColorSpaceYCBCR, ImageFlagsColorSpaceYCCK, ImageFlagsHasAlpha, ImageFlagsHasRealDPI, ImageFlagsHasRealPixelSize, ImageFlagsHasTranslucent, ImageFlagsNone, ImageFlagsPartiallyScalable, ImageFlagsReadOnly, ImageFlagsScalable, _gdiplus_ENUM_ImageFlags, gdiplus._gdiplus_ENUM_ImageFlags, gdiplusimaging/ImageFlags, gdiplusimaging/ImageFlagsCaching, gdiplusimaging/ImageFlagsColorSpaceCMYK, gdiplusimaging/ImageFlagsColorSpaceGRAY, gdiplusimaging/ImageFlagsColorSpaceRGB, gdiplusimaging/ImageFlagsColorSpaceYCBCR, gdiplusimaging/ImageFlagsColorSpaceYCCK, gdiplusimaging/ImageFlagsHasAlpha, gdiplusimaging/ImageFlagsHasRealDPI, gdiplusimaging/ImageFlagsHasRealPixelSize, gdiplusimaging/ImageFlagsHasTranslucent, gdiplusimaging/ImageFlagsNone, gdiplusimaging/ImageFlagsPartiallyScalable, gdiplusimaging/ImageFlagsReadOnly, gdiplusimaging/ImageFlagsScalable
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: gdiplusimaging.h
+req.include-header: Gdiplus.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Gdiplusimaging.h
+api_name:
+-	ImageFlags
+product: Windows
+targetos: Windows
+req.lib: Gdiplus.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.0
 ---
 
 # ImageFlags enumeration

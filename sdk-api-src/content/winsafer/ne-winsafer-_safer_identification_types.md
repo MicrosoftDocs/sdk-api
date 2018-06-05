@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winsafer._SAFER_IDENTIFICATION_TYPES
+title: "_SAFER_IDENTIFICATION_TYPES"
+author: windows-sdk-content
+description: Defines the possible types of identification rule structures that can be identified by the SAFER_IDENTIFICATION_HEADER structure.
+old-location: security\safer_identification_types.htm
+old-project: SecMgmt
+ms.assetid: ced40d58-e9f1-47cc-9e05-fdaa253bb16b
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: SAFER_IDENTIFICATION_TYPES, SAFER_IDENTIFICATION_TYPES enumeration [Security], SaferIdentityDefault, SaferIdentityTypeCertificate, SaferIdentityTypeImageHash, SaferIdentityTypeImageName, SaferIdentityTypeUrlZone, _SAFER_IDENTIFICATION_TYPES, security.safer_identification_types, winsafer/SAFER_IDENTIFICATION_TYPES, winsafer/SaferIdentityDefault, winsafer/SaferIdentityTypeCertificate, winsafer/SaferIdentityTypeImageHash, winsafer/SaferIdentityTypeImageName, winsafer/SaferIdentityTypeUrlZone
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winsafer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: VALENTW (Unicode) and VALENTA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SAFER_IDENTIFICATION_TYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinSafer.h
+api_name:
+-	SAFER_IDENTIFICATION_TYPES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SAFER_IDENTIFICATION_TYPES enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wtsdefs._WRDS_CONNECTION_SETTINGS
+title: "_WRDS_CONNECTION_SETTINGS"
+author: windows-sdk-content
+description: Contains connection setting information for a remote session.
+old-location: termserv\wrds_connection_settings.htm
+old-project: TermServ
+ms.assetid: 9219AE45-5F11-484E-BD78-F8E1AB41D648
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PWRDS_CONNECTION_SETTINGS, PWRDS_CONNECTION_SETTINGS, PWRDS_CONNECTION_SETTINGS structure pointer [Remote Desktop Services], WRDS_CONNECTION_SETTINGS, WRDS_CONNECTION_SETTINGS structure [Remote Desktop Services], WRDS_CONNECTION_SETTING_LEVEL_1, _WRDS_CONNECTION_SETTINGS, termserv.wrds_connection_settings, wtsdefs/PWRDS_CONNECTION_SETTINGS, wtsdefs/WRDS_CONNECTION_SETTINGS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wtsdefs.h
+req.include-header: Wtsprotocol.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WRDS_CONNECTION_SETTINGS, *PWRDS_CONNECTION_SETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsdefs.h
+api_name:
+-	WRDS_CONNECTION_SETTINGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WRDS_CONNECTION_SETTINGS structure

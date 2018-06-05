@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rpcproxy.CStdAsyncStubBuffer_Invoke
+title: CStdAsyncStubBuffer_Invoke function
+author: windows-sdk-content
+description: Implements the IRpcStubBuffer::Invoke method.
+old-location: rpc\cstdasyncstubbuffer_invoke.htm
+old-project: Rpc
+ms.assetid: 069A6E16-D96F-4E74-B511-77B6496FE966
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CStdAsyncStubBuffer_Invoke, CStdAsyncStubBuffer_Invoke function [RPC], rpc.cstdasyncstubbuffer_invoke, rpcproxy/CStdAsyncStubBuffer_Invoke
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rpcproxy.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ole32.dll
+-	API-MS-Win-Core-Com-MidlProxyStub-L1-1-0.dll
+-	COMBase.dll
+api_name:
+-	CStdAsyncStubBuffer_Invoke
+product: Windows
+targetos: Windows
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CStdAsyncStubBuffer_Invoke function

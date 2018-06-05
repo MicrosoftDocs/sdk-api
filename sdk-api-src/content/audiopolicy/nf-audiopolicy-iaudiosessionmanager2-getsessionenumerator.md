@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:audiopolicy.IAudioSessionManager2.GetSessionEnumerator
+title: IAudioSessionManager2::GetSessionEnumerator
+author: windows-sdk-content
+description: The GetSessionEnumerator method gets a pointer to the audio session enumerator object.
+old-location: coreaudio\iaudiosessionmanager2_getsessionenumerator.htm
+old-project: CoreAudio
+ms.assetid: 68166fc1-af27-4251-8e18-be23d205b567
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetSessionEnumerator, GetSessionEnumerator method [Core Audio], GetSessionEnumerator method [Core Audio],IAudioSessionManager2 interface, IAudioSessionManager2 interface [Core Audio],GetSessionEnumerator method, IAudioSessionManager2.GetSessionEnumerator, IAudioSessionManager2::GetSessionEnumerator, audiopolicy/IAudioSessionManager2::GetSessionEnumerator, coreaudio.iaudiosessionmanager2_getsessionenumerator
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audiopolicy.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	audiopolicy.h
+api_name:
+-	IAudioSessionManager2.GetSessionEnumerator
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioSessionManager2::GetSessionEnumerator

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:bdatif.IMPEG2_TIF_CONTROL
+title: IMPEG2_TIF_CONTROL
+author: windows-sdk-content
+description: IMPEG2_TIF_CONTROL is no longer available for use.
+old-location: mstv\impeg2_tif_control.htm
+old-project: mstv
+ms.assetid: 9583365d-b318-49e2-a32f-f6cc9d3f289d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMPEG2_TIF_CONTROL, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies], IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],described, IMPEG2_TIF_CONTROLInterface, bdatif/IMPEG2_TIF_CONTROL, mstv.impeg2_tif_control
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: bdatif.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SmartCardApplication
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Bdatif.h
+api_name:
+-	IMPEG2_TIF_CONTROL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IMPEG2_TIF_CONTROL interface

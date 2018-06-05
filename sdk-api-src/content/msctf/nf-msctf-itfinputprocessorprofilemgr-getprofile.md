@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfInputProcessorProfileMgr.GetProfile
+title: ITfInputProcessorProfileMgr::GetProfile
+author: windows-sdk-content
+description: The ITfInputProcessorProfileMgr::GetProfile method returns the information of the specified text service's profile or keyboard layout in TF_INPUTPROCESSORPROFILE structure.
+old-location: tsf\itfinputprocessorprofilemgr_getprofile.htm
+old-project: TSF
+ms.assetid: 581bddf5-3def-48c6-a092-4f751142cc1b
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetProfile, GetProfile method [Text Services Framework], GetProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],GetProfile method, ITfInputProcessorProfileMgr.GetProfile, ITfInputProcessorProfileMgr::GetProfile, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileMgr::GetProfile, tsf.itfinputprocessorprofilemgr_getprofile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfInputProcessorProfileMgr.GetProfile
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfInputProcessorProfileMgr::GetProfile

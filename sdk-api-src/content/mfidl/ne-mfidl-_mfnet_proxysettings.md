@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl._MFNET_PROXYSETTINGS
+title: "_MFNET_PROXYSETTINGS"
+author: windows-sdk-content
+description: Specifies how the default proxy locator will specify the connection settings to a proxy server.
+old-location: mf\mfnet_proxysettings.htm
+old-project: medfound
+ms.assetid: b9ec76bc-d8d1-4ba1-b6c4-02bcac9b53a0
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFNET_PROXYSETTINGS, MFNET_PROXYSETTINGS enumeration [Media Foundation], MFNET_PROXYSETTING_AUTO, MFNET_PROXYSETTING_BROWSER, MFNET_PROXYSETTING_MANUAL, MFNET_PROXYSETTING_NONE, _MFNET_PROXYSETTINGS, b9ec76bc-d8d1-4ba1-b6c4-02bcac9b53a0, mf.mfnet_proxysettings, mfidl/MFNET_PROXYSETTINGS, mfidl/MFNET_PROXYSETTING_AUTO, mfidl/MFNET_PROXYSETTING_BROWSER, mfidl/MFNET_PROXYSETTING_MANUAL, mfidl/MFNET_PROXYSETTING_NONE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFNET_PROXYSETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFNET_PROXYSETTINGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFNET_PROXYSETTINGS enumeration

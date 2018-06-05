@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj_core.CABINETSTATE
+title: CABINETSTATE
+author: windows-sdk-content
+description: CABINETSTATE may be altered or unavailable.
+old-location: shell\CABINETSTATE.htm
+old-project: shell
+ms.assetid: 4b82b6a8-c4c0-4af2-9612-0551376c1c62
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPCABINETSTATE, CABINETSTATE, CABINETSTATE structure [Windows Shell], FALSE, SHCONTF_FOLDERS, SHCONTF_NONFOLDERS, TRUE, _win32_CABINETSTATE, shell.CABINETSTATE, shlobj_core/CABINETSTATE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CABINETSTATE, *LPCABINETSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	CABINETSTATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # CABINETSTATE structure

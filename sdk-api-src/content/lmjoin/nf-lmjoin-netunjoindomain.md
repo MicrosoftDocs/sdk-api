@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:lmjoin.NetUnjoinDomain
+title: NetUnjoinDomain function
+author: windows-sdk-content
+description: The NetUnjoinDomain function unjoins a computer from a workgroup or a domain.
+old-location: netmgmt\netunjoindomain.htm
+old-project: NetMgmt
+ms.assetid: cc755c22-1fd6-4787-999e-a43258287a05
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: NetUnjoinDomain, NetUnjoinDomain function [Network Management], _win32_netunjoindomain, lmjoin/NetUnjoinDomain, netmgmt.netunjoindomain
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: lmjoin.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netapi32.dll
+api_name:
+-	NetUnjoinDomain
+product: Windows
+targetos: Windows
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # NetUnjoinDomain function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:syncregistration.ISyncProviderConfigUI
+title: ISyncProviderConfigUI
+author: windows-sdk-content
+description: Represents configuration UI information used to build and register a synchronization provider.
+old-location: winsync\isyncproviderconfigui.htm
+old-project: winsync
+ms.assetid: 27757aa1-a42d-4f66-99a8-bf66385fbec1
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ISyncProviderConfigUI, ISyncProviderConfigUI interface [Windows Sync], ISyncProviderConfigUI interface [Windows Sync],described, syncregistration/ISyncProviderConfigUI, winsync.isyncproviderconfigui
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: syncregistration.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNC_REGISTRATION_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Syncregistration.h
+api_name:
+-	ISyncProviderConfigUI
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ISyncProviderConfigUI interface

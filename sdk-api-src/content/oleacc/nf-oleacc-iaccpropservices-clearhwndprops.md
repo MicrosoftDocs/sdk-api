@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleacc.IAccPropServices.ClearHwndProps
+title: IAccPropServices::ClearHwndProps
+author: windows-sdk-content
+description: This method wraps SetPropValue, SetPropServer, and ClearProps, and provides a convenient entry point for callers who are annotating HWND-based accessible elements.
+old-location: winauto\iaccpropservices_iaccpropservices__clearhwndprops.htm
+old-project: WinAuto
+ms.assetid: 7fd3f595-4897-481f-972e-04cf1a4c6046
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: ClearHwndProps, ClearHwndProps method [Windows Accessibility], ClearHwndProps method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ClearHwndProps method, IAccPropServices.ClearHwndProps, IAccPropServices::ClearHwndProps, _msaa_IAccPropServices_ClearHwndProps, msaa.iaccpropservices_iaccpropservices__clearhwndprops, oleacc/IAccPropServices::ClearHwndProps, winauto.iaccpropservices_iaccpropservices__clearhwndprops
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oleacc.h
+req.include-header: OleAcc.h Include Initguid.h first.
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Oleacc.dll
+api_name:
+-	IAccPropServices.ClearHwndProps
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Oleacc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAccPropServices::ClearHwndProps

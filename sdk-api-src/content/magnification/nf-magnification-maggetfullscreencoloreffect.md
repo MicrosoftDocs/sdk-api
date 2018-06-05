@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:magnification.MagGetFullscreenColorEffect
+title: MagGetFullscreenColorEffect function
+author: windows-sdk-content
+description: Retrieves the color transformation matrix associated with the full-screen magnifier.
+old-location: magapi\magapi_maggetfullscreencoloreffect.htm
+old-project: magapi
+ms.assetid: 1C37DB20-1267-447B-A34F-E3EC83F51907
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: MagGetFullscreenColorEffect, MagGetFullscreenColorEffect function [Magnification API], magapi.magapi_maggetfullscreencoloreffect, magnification/MagGetFullscreenColorEffect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: magnification.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MCAST_SCOPE_ENTRY, *PMCAST_SCOPE_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Magnification.dll
+api_name:
+-	MagGetFullscreenColorEffect
+product: Windows
+targetos: Windows
+req.lib: Magnification.lib
+req.dll: Magnification.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MagGetFullscreenColorEffect function

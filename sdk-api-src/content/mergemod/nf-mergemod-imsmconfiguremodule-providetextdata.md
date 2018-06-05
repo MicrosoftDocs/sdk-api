@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:mergemod.IMsmConfigureModule.ProvideTextData
+title: IMsmConfigureModule::ProvideTextData
+author: windows-sdk-content
+description: The ProvideTextData method retrieves text data from the client tool. For more information, see the ProvideTextData method of the ConfigureModule object.
+old-location: setup\imsmconfiguremodule_providetextdata.htm
+old-project: Msi
+ms.assetid: 81803b47-e1b1-45b7-b59d-aac555b189f7
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IMsmConfigureModule interface,ProvideTextData method, IMsmConfigureModule.ProvideTextData, IMsmConfigureModule::ProvideTextData, ProvideTextData, ProvideTextData method, ProvideTextData method,IMsmConfigureModule interface, _msi_providetextdata_function, mergemod/IMsmConfigureModule::ProvideTextData, setup.imsmconfiguremodule_providetextdata
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mergemod.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Mergemod.dll 2.0 or later
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIN32_MEMORY_REGION_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mergemod.dll
+api_name:
+-	IMsmConfigureModule.ProvideTextData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMsmConfigureModule::ProvideTextData

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CERT_PAIR
+title: "_CERT_PAIR"
+author: windows-sdk-content
+description: The CERT_PAIR structure contains a certificate and its pair cross certificate.
+old-location: security\cert_pair.htm
+old-project: SecCrypto
+ms.assetid: b5929430-1b12-4ebf-a5ef-3669bba63f8c
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_PAIR, CERT_PAIR, CERT_PAIR structure [Security], PCERT_PAIR, PCERT_PAIR structure pointer [Security], _CERT_PAIR, _crypto2_cert_pair, security.cert_pair, wincrypt/CERT_PAIR, wincrypt/PCERT_PAIR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_PAIR, *PCERT_PAIR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_PAIR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERT_PAIR structure

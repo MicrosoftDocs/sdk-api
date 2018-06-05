@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFVideoProcessorControl.SetRotation
+title: IMFVideoProcessorControl::SetRotation
+author: windows-sdk-content
+description: Specifies whether to rotate the video to the correct orientation.
+old-location: mf\imfvideoprocessorcontrol_setrotation.htm
+old-project: medfound
+ms.assetid: 452FE057-EC1A-430E-A5C8-C9B84A4B1B17
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetRotation method, IMFVideoProcessorControl.SetRotation, IMFVideoProcessorControl::SetRotation, SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setrotation, mfidl/IMFVideoProcessorControl::SetRotation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfidl.h
+api_name:
+-	IMFVideoProcessorControl.SetRotation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFVideoProcessorControl::SetRotation

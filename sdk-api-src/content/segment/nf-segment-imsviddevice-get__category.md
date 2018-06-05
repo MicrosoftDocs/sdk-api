@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:segment.IMSVidDevice.get__Category
+title: IMSVidDevice::get__Category
+author: windows-sdk-content
+description: The get__Category method retrieves the category of the device as a GUID.
+old-location: mstv\imsviddevice_get__category.htm
+old-project: mstv
+ms.assetid: 2c5023ee-f38b-48c7-907d-363ca70bf94f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get__Category method, IMSVidDevice.get__Category, IMSVidDevice::get__Category, IMSVidDeviceget__Category, get__Category, get__Category method [Microsoft TV Technologies], get__Category method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get__category, segment/IMSVidDevice::get__Category
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidDevice.get__Category
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidDevice::get__Category

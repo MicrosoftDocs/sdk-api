@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:adhoc.IDot11AdHocNetwork.GetSignalQuality
+title: IDot11AdHocNetwork::GetSignalQuality
+author: windows-sdk-content
+description: Gets the signal quality values associated with the network's radio.
+old-location: nwifi\idot11adhocnetwork_getsignalquality.htm
+old-project: NativeWiFi
+ms.assetid: be31a2ed-c9ba-4894-a295-a88e01639891
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: GetSignalQuality, GetSignalQuality method [NativeWIFI], GetSignalQuality method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSignalQuality method, IDot11AdHocNetwork.GetSignalQuality, IDot11AdHocNetwork::GetSignalQuality, adhoc/IDot11AdHocNetwork::GetSignalQuality, nwifi.idot11adhocnetwork_getsignalquality
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: adhoc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Adhoc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	adhoc.h
+api_name:
+-	IDot11AdHocNetwork.GetSignalQuality
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDot11AdHocNetwork::GetSignalQuality

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagEMRSELECTCLIPPATH
+title: tagEMRSELECTCLIPPATH
+author: windows-sdk-content
+description: Contains parameters for the SelectClipPath, SetBkMode, SetMapMode, SetPolyFillMode, SetROP2, SetStretchBltMode, SetTextAlign, SetICMMode , and SetLayout enhanced metafile records.
+old-location: gdi\enhanced_metafile_records_with_one_parameter.htm
+old-project: gdi
+ms.assetid: cae5eb68-169e-4439-9141-af93c8ff5ec6
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "#if(WINVER >= 0x0500) EMRSETLAYOUT, #if(WINVER >= 0x0500) EMRSETLAYOUT structure [Windows GDI], *PEMRSELECTCLIPPATH, *PEMRSETBKMODE, *PEMRSETICMMODE, *PEMRSETLAYOUT, *PEMRSETMAPMODE, *PEMRSETPOLYFILLMODE, *PEMRSETROP2, *PEMRSETSTRETCHBLTMODE, *PEMRSETTEXTALIGN, EMRSELECTCLIPPATH, EMRSELECTCLIPPATH structure [Windows GDI], EMRSETBKMODE, EMRSETBKMODE structure [Windows GDI], EMRSETICMMODE, EMRSETICMMODE structure [Windows GDI], EMRSETLAYOUT, EMRSETMAPMODE, EMRSETMAPMODE structure [Windows GDI], EMRSETPOLYFILLMODE, EMRSETPOLYFILLMODE structure [Windows GDI], EMRSETROP2, EMRSETROP2 structure [Windows GDI], EMRSETSTRETCHBLTMODE, EMRSETSTRETCHBLTMODE structure [Windows GDI], EMRSETTEXTALIGN, EMRSETTEXTALIGN structure [Windows GDI], Enhanced Metafile Records with One Parameter, Enhanced Metafile Records with One Parameter structure [Windows GDI], PEMRSELECTCLIPPATH, PEMRSELECTCLIPPATH structure pointer [Windows GDI], PEMRSETBKMODE, PEMRSETBKMODE structure pointer [Windows GDI], PEMRSETICMMODE, PEMRSETICMMODE structure pointer [Windows GDI], PEMRSETLAYOUT #endif / WINVER >= 0x0500 /, PEMRSETLAYOUT #endif / WINVER >= 0x0500 / structure pointer [Windows GDI], PEMRSETMAPMODE, PEMRSETMAPMODE structure pointer [Windows GDI], PEMRSETPOLYFILLMODE, PEMRSETPOLYFILLMODE structure pointer [Windows GDI], PEMRSETROP2, PEMRSETROP2 structure pointer [Windows GDI], PEMRSETSTRETCHBLTMODE, PEMRSETSTRETCHBLTMODE structure pointer [Windows GDI], PEMRSETTEXTALIGN, PEMRSETTEXTALIGN structure pointer [Windows GDI], _win32_Enhanced_Metafile_Records_with_One_Parameter_str, gdi.enhanced_metafile_records_with_one_parameter, tagEMRSELECTCLIPPATH, wingdi/#if(WINVER >= 0x0500) EMRSETLAYOUT, wingdi/EMRSETBKMODE, wingdi/EMRSETICMMODE, wingdi/EMRSETMAPMODE, wingdi/EMRSETPOLYFILLMODE, wingdi/EMRSETROP2, wingdi/EMRSETSTRETCHBLTMODE, wingdi/EMRSETTEXTALIGN, wingdi/Enhanced Metafile Records with One Parameter, wingdi/PEMRSELECTCLIPPATH, wingdi/PEMRSETBKMODE, wingdi/PEMRSETICMMODE, wingdi/PEMRSETLAYOUT #endif / WINVER >= 0x0500 /, wingdi/PEMRSETMAPMODE, wingdi/PEMRSETPOLYFILLMODE, wingdi/PEMRSETROP2, wingdi/PEMRSETSTRETCHBLTMODE, wingdi/PEMRSETTEXTALIGN"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMRSELECTCLIPPATH, *PEMRSELECTCLIPPATH, EMRSETBKMODE, *PEMRSETBKMODE, EMRSETMAPMODE, *PEMRSETMAPMODE, EMRSETLAYOUT, *PEMRSETLAYOUT, EMRSETPOLYFILLMODE, *PEMRSETPOLYFILLMODE, EMRSETROP2, *PEMRSETROP2, EMRSETSTRETCHBLTMODE, *PEMRSETSTRETCHBLTMODE, EMRSETICMMODE, *PEMRSETICMMODE, EMRSETTEXTALIGN, *PEMRSETTEXTALIGN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	EMRSELECTCLIPPATH
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagEMRSELECTCLIPPATH structure

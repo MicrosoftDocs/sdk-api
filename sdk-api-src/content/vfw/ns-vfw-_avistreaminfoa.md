@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vfw._AVISTREAMINFOA
+title: "_AVISTREAMINFOA"
+author: windows-sdk-content
+description: The AVISTREAMINFO structure contains information for a single stream.
+old-location: multimedia\avistreaminfo_struct.htm
+old-project: Multimedia
+ms.assetid: dca6d9ca-a825-4bd0-a19d-0655d775fdfb
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*LPAVISTREAMINFOA, AVISTREAMINFO, AVISTREAMINFO structure [Windows Multimedia], AVISTREAMINFOA, AVISTREAMINFOW, AVISTREAMINFO_DISABLED, AVISTREAMINFO_FORMATCHANGES, _AVISTREAMINFOA, multimedia.avistreaminfo_COLLISION869, multimedia.avistreaminfo_struct, streamtypeAUDIO, streamtypeMIDI, streamtypeTEXT, streamtypeVIDEO, vfw/AVISTREAMINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AVISTREAMINFOA, *LPAVISTREAMINFOA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vfw.h
+api_name:
+-	AVISTREAMINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _AVISTREAMINFOA structure

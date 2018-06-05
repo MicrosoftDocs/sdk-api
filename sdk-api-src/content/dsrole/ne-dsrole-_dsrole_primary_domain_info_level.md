@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dsrole._DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
+title: "_DSROLE_PRIMARY_DOMAIN_INFO_LEVEL"
+author: windows-sdk-content
+description: Used with the DsRoleGetPrimaryDomainInformation function to specify the type of data to retrieve.
+old-location: ad\dsrole_primary_domain_info_level.htm
+old-project: AD
+ms.assetid: c8b141b1-d5fa-4ec9-8899-a1b0f6a4ce1d
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DSROLE_PRIMARY_DOMAIN_INFO_LEVEL, DSROLE_PRIMARY_DOMAIN_INFO_LEVEL enumeration [Active Directory], DsRoleOperationState, DsRolePrimaryDomainInfoBasic, DsRoleUpgradeStatus, _DSROLE_PRIMARY_DOMAIN_INFO_LEVEL, ad.dsrole_primary_domain_info_level, dsrole/DSROLE_PRIMARY_DOMAIN_INFO_LEVEL, dsrole/DsRoleOperationState, dsrole/DsRolePrimaryDomainInfoBasic, dsrole/DsRoleUpgradeStatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dsrole.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dsrole.h
+api_name:
+-	DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DSROLE_PRIMARY_DOMAIN_INFO_LEVEL enumeration

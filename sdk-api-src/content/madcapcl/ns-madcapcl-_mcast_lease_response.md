@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:madcapcl._MCAST_LEASE_RESPONSE
+title: "_MCAST_LEASE_RESPONSE"
+author: windows-sdk-content
+description: The MCAST_LEASE_RESPONSE structure is used to respond to multicast lease requests.
+old-location: madcap\mcast_lease_response.htm
+old-project: Madcap
+ms.assetid: 1993e3bc-b6bd-4e13-aa71-7e33bf7ef540
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PMCAST_LEASE_RESPONSE, MCAST_LEASE_RESPONSE, MCAST_LEASE_RESPONSE structure [MADCAP], PMCAST_LEASE_RESPONSE, PMCAST_LEASE_RESPONSE structure pointer [MADCAP], _MCAST_LEASE_RESPONSE, _mdhcp_mcast_lease_response, madcap.mcast_lease_response, madcapcl/MCAST_LEASE_RESPONSE, madcapcl/PMCAST_LEASE_RESPONSE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: madcapcl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MCAST_LEASE_RESPONSE, *PMCAST_LEASE_RESPONSE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Madcapcl.h
+api_name:
+-	MCAST_LEASE_RESPONSE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MCAST_LEASE_RESPONSE structure

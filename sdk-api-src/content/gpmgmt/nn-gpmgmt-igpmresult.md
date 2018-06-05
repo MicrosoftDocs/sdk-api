@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:gpmgmt.IGPMResult
+title: IGPMResult
+author: windows-sdk-content
+description: The IGPMResult interface contains methods to retrieve status message information while performing various types of GPO processing operations such as restore, import, copy and backup.
+old-location: gpmc\igpmresult.htm
+old-project: GPMC
+ms.assetid: 0228ed1a-3a8f-486a-9dd8-806ca35c649e
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: GPMResult, IGPMResult, IGPMResult interface [GPMC], IGPMResult interface [GPMC],described, _win32_igpmresult, gpmc.igpmresult, gpmgmt/IGPMResult
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: gpmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Gpmgmt.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GPMStarterGPOType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gpmgmt.dll
+api_name:
+-	IGPMResult
+-	GPMResult
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IGPMResult interface

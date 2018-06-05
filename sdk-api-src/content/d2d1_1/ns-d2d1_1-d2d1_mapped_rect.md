@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:d2d1_1.D2D1_MAPPED_RECT
+title: D2D1_MAPPED_RECT
+author: windows-sdk-content
+description: Describes mapped memory from the ID2D1Bitmap1::Map API.
+old-location: direct2d\d2d1_mapped_rect.htm
+old-project: Direct2D
+ms.assetid: 1cd81f1a-c39b-4975-a801-aa9444dde172
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_MAPPED_RECT, D2D1_MAPPED_RECT structure [Direct2D], PD2D1_MAPPED_RECT, PD2D1_MAPPED_RECT structure pointer [Direct2D], d2d1_1/D2D1_MAPPED_RECT, d2d1_1/PD2D1_MAPPED_RECT, direct2d.d2d1_mapped_rect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d2d1_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,23 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: D2D1.lib
+tech.root: 
+req.typenames: D2D1_MAPPED_RECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	D2D1.lib
+api_name:
+-	D2D1_MAPPED_RECT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D2D1_MAPPED_RECT structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:eaphostpeertypes._EAPHOST_AUTH_INFO
+title: "_EAPHOST_AUTH_INFO"
+author: windows-sdk-content
+description: Describes current authentication information throughout different stages of the EAP authentication process.
+old-location: eaphost\eaphost_auth_info.htm
+old-project: EAPHost
+ms.assetid: b05a1862-9709-4459-a445-5ea4e00cab88
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: EAPHOST_AUTH_INFO, EAPHOST_AUTH_INFO structure [EAPHost], _EAPHOST_AUTH_INFO, eaphost.eaphost_auth_info, eaphostpeertypes/EAPHOST_AUTH_INFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: eaphostpeertypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EAPHOST_AUTH_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	eaphostpeertypes.h
+api_name:
+-	EAPHOST_AUTH_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _EAPHOST_AUTH_INFO structure

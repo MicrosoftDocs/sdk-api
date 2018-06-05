@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winternl.NtQueryMultipleValueKey
+title: NtQueryMultipleValueKey function
+author: windows-sdk-content
+description: Retrieves values for the specified multiple-value key.
+old-location: winprog\ntquerymultiplevaluekey.htm
+old-project: DevNotes
+ms.assetid: fe78446c-b936-4ded-846a-f3ca26eff06e
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: NtQueryMultipleValueKey, NtQueryMultipleValueKey function [Windows API], base.ntquerymultiplevaluekey, winprog.ntquerymultiplevaluekey, winternl/NtQueryMultipleValueKey
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winternl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNC_VERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ntdll.dll
+api_name:
+-	NtQueryMultipleValueKey
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # NtQueryMultipleValueKey function

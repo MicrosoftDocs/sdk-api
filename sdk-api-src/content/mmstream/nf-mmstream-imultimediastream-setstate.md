@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mmstream.IMultiMediaStream.SetState
+title: IMultiMediaStream::SetState
+author: windows-sdk-content
+description: Note  This interface is deprecated. New applications should not use it. The SetState method runs or stops the multimedia stream object.
+old-location: dshow\imultimediastream_setstate.htm
+old-project: DirectShow
+ms.assetid: 69c3612f-e91a-4ab3-8f6d-2966e64a9220
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IMultiMediaStream interface [DirectShow],SetState method, IMultiMediaStream.SetState, IMultiMediaStream::SetState, IMultiMediaStreamSetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IMultiMediaStream interface, dshow.imultimediastream_setstate, mmstream/IMultiMediaStream::SetState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mmstream.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAM_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mmstream.h
+api_name:
+-	IMultiMediaStream.SetState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMultiMediaStream::SetState

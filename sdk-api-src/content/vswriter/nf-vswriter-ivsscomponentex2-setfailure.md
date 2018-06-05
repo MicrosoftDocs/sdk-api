@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vswriter.IVssComponentEx2.SetFailure
+title: IVssComponentEx2::SetFailure
+author: windows-sdk-content
+description: VSS writers call this method to report errors at the component level.
+old-location: base\ivsscomponentex2_setfailure.htm
+old-project: VSS
+ms.assetid: f9fd728a-b205-4cfa-8e9e-e0a0d385f5a1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IVssComponentEx2 interface,SetFailure method, IVssComponentEx2.SetFailure, IVssComponentEx2::SetFailure, S_OK, SetFailure, SetFailure method, SetFailure method,IVssComponentEx2 interface, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, base.ivsscomponentex2_setfailure, vswriter/IVssComponentEx2::SetFailure
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vswriter.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	vswriter.h
+api_name:
+-	IVssComponentEx2.SetFailure
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssComponentEx2::SetFailure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11.ID3D11DepthStencilView.GetDesc
+title: ID3D11DepthStencilView::GetDesc
+author: windows-sdk-content
+description: Get the depth-stencil view.
+old-location: direct3d11\id3d11depthstencilview_getdesc.htm
+old-project: direct3d11
+ms.assetid: 00fd30de-ceae-4bcb-8602-36d43edd17b1
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11DepthStencilView interface, ID3D11DepthStencilView interface [Direct3D 11],GetDesc method, ID3D11DepthStencilView.GetDesc, ID3D11DepthStencilView::GetDesc, a6b6e6e5-533d-8ea1-7645-eae1b36b5a5a, d3d11/ID3D11DepthStencilView::GetDesc, direct3d11.id3d11depthstencilview_getdesc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11DepthStencilView.GetDesc
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11DepthStencilView::GetDesc

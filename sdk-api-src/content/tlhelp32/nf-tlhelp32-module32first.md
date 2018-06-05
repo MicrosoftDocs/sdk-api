@@ -1,31 +1,57 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tlhelp32.Module32First
+title: Module32First function
+author: windows-sdk-content
+description: Retrieves information about the first module associated with a process.
+old-location: toolhelp\module32first.htm
+old-project: ToolHelp
+ms.assetid: bb41cab9-13a1-469d-bf76-68c172e982f6
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: Module32First, Module32First function [ToolHelp], Module32FirstW, _win32_module32first, base.module32first, tlhelp32/Module32First, tlhelp32/Module32FirstW, toolhelp.module32first
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tlhelp32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: Module32FirstW (Unicode) and Module32First (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TpcGetSamplesArgs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+-	kernel32legacy.dll
+-	API-MS-Win-Core-toolhelp-l1-1-0.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+-	API-MS-Win-Core-ToolHelp-L1-1-1.dll
+api_name:
+-	Module32First
+-	Module32First
+-	Module32FirstW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # Module32First function

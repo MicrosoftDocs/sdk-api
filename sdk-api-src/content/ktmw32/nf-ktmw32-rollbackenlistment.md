@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ktmw32.RollbackEnlistment
+title: RollbackEnlistment function
+author: windows-sdk-content
+description: Rolls back the specified transaction that is associated with an enlistment. This function cannot be called for read-only enlistments.
+old-location: fs\rollbackenlistment.htm
+old-project: Ktm
+ms.assetid: e62c0c81-6802-4a76-94bb-617933490e83
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: RollbackEnlistment, RollbackEnlistment function [Files], fs.rollbackenlistment, ktmw32/RollbackEnlistment
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ktmw32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ktmw32.dll
+api_name:
+-	RollbackEnlistment
+product: Windows
+targetos: Windows
+req.lib: Ktmw32.lib
+req.dll: Ktmw32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # RollbackEnlistment function

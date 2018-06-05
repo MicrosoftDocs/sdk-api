@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mspaddr.CMSPAddress.IsValidSetOfMediaTypes
+title: CMSPAddress::IsValidSetOfMediaTypes
+author: windows-sdk-content
+description: The IsValidSetOfMediaTypes method checks to see if the specified media type is nonzero and is in the specified mask.
+old-location: tapi3\cmspaddress_isvalidsetofmediatypes.htm
+old-project: Tapi
+ms.assetid: 4dc47d60-184d-4601-8c58-08ae8b747223
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CMSPAddress interface [TAPI 2.2],IsValidSetOfMediaTypes method, CMSPAddress.IsValidSetOfMediaTypes, CMSPAddress::IsValidSetOfMediaTypes, IsValidSetOfMediaTypes, IsValidSetOfMediaTypes method [TAPI 2.2], IsValidSetOfMediaTypes method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_isvalidsetofmediatypes, mspaddr/CMSPAddress::IsValidSetOfMediaTypes, tapi3.cmspaddress_isvalidsetofmediatypes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mspaddr.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSP_EVENT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mspaddr.h
+api_name:
+-	CMSPAddress.IsValidSetOfMediaTypes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CMSPAddress::IsValidSetOfMediaTypes

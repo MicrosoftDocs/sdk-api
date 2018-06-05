@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:mapi.MAPIDETAILS
+title: MAPIDETAILS
+author: windows-sdk-content
+description: The MAPIDetails function displays a dialog box containing the details of a selected address list entry.
+old-location: mapi\mapidetails.htm
+old-project: WindowsMAPI
+ms.assetid: 28fbafff-8f34-4db8-bcb5-98f61883bea0
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: MAPIDetails, MAPIDetails callback, MAPIDetails callback function, MAPI_AB_NOMODIFY, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapidetails, mapi/MAPIDetails
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: mapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Mapi.h
+api_name:
+-	MAPIDetails
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MAPIDETAILS callback function

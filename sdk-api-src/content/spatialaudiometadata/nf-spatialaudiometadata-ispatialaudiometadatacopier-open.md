@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.Open
+title: ISpatialAudioMetadataCopier::Open
+author: windows-sdk-content
+description: Opens an ISpatialAudioMetadataItems object for copying.
+old-location: coreaudio\ispatialaudiometadatacopier_open.htm
+old-project: CoreAudio
+ms.assetid: F2D077EF-89B0-4BD6-85FB-F0AF63F1986D
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ISpatialAudioMetadataCopier interface [Core Audio],Open method, ISpatialAudioMetadataCopier.Open, ISpatialAudioMetadataCopier::Open, Open, Open method [Core Audio], Open method [Core Audio],ISpatialAudioMetadataCopier interface, coreaudio.ispatialaudiometadatacopier_open, spatialaudiometadata/ISpatialAudioMetadataCopier::Open
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spatialaudiometadata.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SpatialAudioMetadataWriterOverflowMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SpatialAudioMetadata.h
+api_name:
+-	ISpatialAudioMetadataCopier.Open
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioMetadataCopier::Open

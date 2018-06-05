@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ndhelper.tagPROBLEM_TYPE
+title: tagPROBLEM_TYPE
+author: windows-sdk-content
+description: The PROBLEM_TYPE enumeration describes the type of problem a helper class indicates is present.
+old-location: ndf\problem_type.htm
+old-project: NDF
+ms.assetid: cf5a4205-b79f-4de6-b153-0955c6ff4e11
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: PROBLEM_TYPE, PROBLEM_TYPE enumeration [NDF], PT_DOWN_STREAM_HEALTH, PT_HIGHER_UTILIZATION, PT_HIGH_UTILIZATION, PT_LOWER_HEALTH, PT_LOW_HEALTH, PT_UP_STREAM_UTILIZATION, ndf.problem_type, ndhelper/PROBLEM_TYPE, ndhelper/PT_DOWN_STREAM_HEALTH, ndhelper/PT_HIGHER_UTILIZATION, ndhelper/PT_HIGH_UTILIZATION, ndhelper/PT_LOWER_HEALTH, ndhelper/PT_LOW_HEALTH, ndhelper/PT_UP_STREAM_UTILIZATION, tagPROBLEM_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ndhelper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROBLEM_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ndhelper.h
+api_name:
+-	PROBLEM_TYPE
+product: Windows
+targetos: Windows
+req.lib: Ndfapi.lib
+req.dll: Ndfapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagPROBLEM_TYPE enumeration

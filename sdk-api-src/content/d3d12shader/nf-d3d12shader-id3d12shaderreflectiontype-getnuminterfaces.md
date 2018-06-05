@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetNumInterfaces
+title: ID3D12ShaderReflectionType::GetNumInterfaces
+author: windows-sdk-content
+description: Gets the number of interfaces.
+old-location: direct3d12\id3d12shaderreflectiontype_getnuminterfaces.htm
+old-project: direct3d12
+ms.assetid: 6BE5DACB-EDAB-4A95-A071-F36046858FFE
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: GetNumInterfaces, GetNumInterfaces method, GetNumInterfaces method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetNumInterfaces method, ID3D12ShaderReflectionType.GetNumInterfaces, ID3D12ShaderReflectionType::GetNumInterfaces, d3d12shader/ID3D12ShaderReflectionType::GetNumInterfaces, direct3d12.id3d12shaderreflectiontype_getnuminterfaces
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d12shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SHADER_VERSION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12shader.h
+api_name:
+-	ID3D12ShaderReflectionType.GetNumInterfaces
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D12ShaderReflectionType::GetNumInterfaces

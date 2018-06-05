@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mbnapi.MBN_REGISTRATION_CONSTANTS
+title: MBN_REGISTRATION_CONSTANTS
+author: windows-sdk-content
+description: The MBN_REGISTRATION_CONSTANTS enumerated type contains specific values used by IMbnRegistration interface operations.
+old-location: mbn\mbn_registration_constants.htm
+old-project: mbn
+ms.assetid: d4b0aa6b-899c-493c-9822-92c2710006e4
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: MBN_CDMA_DEFAULT_PROVIDER_ID, MBN_REGISTRATION_CONSTANTS, MBN_REGISTRATION_CONSTANTS enumeration [Microsoft Broadband Networks], MBN_ROAMTEXT_LEN, mbn.mbn_registration_constants, mbnapi/MBN_CDMA_DEFAULT_PROVIDER_ID, mbnapi/MBN_REGISTRATION_CONSTANTS, mbnapi/MBN_ROAMTEXT_LEN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_REGISTRATION_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mbnapi.h
+api_name:
+-	MBN_REGISTRATION_CONSTANTS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MBN_REGISTRATION_CONSTANTS enumeration

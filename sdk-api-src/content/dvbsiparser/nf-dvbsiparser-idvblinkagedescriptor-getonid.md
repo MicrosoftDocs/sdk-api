@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetONId
+title: IDvbLinkageDescriptor::GetONId
+author: windows-sdk-content
+description: Gets the network identifier of the broadcast system that originated an information service from a Digital Video Broadcast (DVB) linkage descriptor.
+old-location: mstv\idvblinkagedescriptor_getonid.htm
+old-project: mstv
+ms.assetid: e7c27f45-032a-46d5-b5ae-8a4ef2ee2ebc
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetONId, GetONId method [Microsoft TV Technologies], GetONId method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetONId method, IDvbLinkageDescriptor.GetONId, IDvbLinkageDescriptor::GetONId, dvbsiparser/IDvbLinkageDescriptor::GetONId, mstv.idvblinkagedescriptor_getonid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IDvbLinkageDescriptor.GetONId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDvbLinkageDescriptor::GetONId

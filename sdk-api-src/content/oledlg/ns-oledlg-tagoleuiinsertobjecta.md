@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:oledlg.tagOLEUIINSERTOBJECTA
+title: tagOLEUIINSERTOBJECTA
+author: windows-sdk-content
+description: Contains information that the OLE User Interface Library uses to initialize the Insert Object dialog box, and space for the library to return information when the dialog box is dismissed.
+old-location: com\oleuiinsertobject_struct.htm
+old-project: com
+ms.assetid: b14df159-ed62-4745-8cac-c31364d0de7b
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPOLEUIINSERTOBJECTA, *POLEUIINSERTOBJECTA, IOF_CHECKDISPLAYASICON, IOF_CHECKLINK, IOF_CREATEFILEOBJECT, IOF_CREATELINKOBJECT, IOF_CREATENEWOBJECT, IOF_DISABLEDISPLAYASICON, IOF_DISABLELINK, IOF_HIDECHANGEICON, IOF_SELECTCREATECONTROL, IOF_SELECTCREATEFROMFILE, IOF_SELECTCREATENEW, IOF_SHOWHELP, IOF_SHOWINSERTCONTROL, IOF_VERIFYSERVERSEXIST, LPOLEUIINSERTOBJECT, LPOLEUIINSERTOBJECT structure pointer [COM], OLEUIINSERTOBJECT, OLEUIINSERTOBJECT structure [COM], OLEUIINSERTOBJECTA, OLEUIINSERTOBJECTW, POLEUIINSERTOBJECT, POLEUIINSERTOBJECT structure pointer [COM], _ole_OLEUIINSERTOBJECT_str, com.oleuiinsertobject_struct, oledlg/LPOLEUIINSERTOBJECT, oledlg/OLEUIINSERTOBJECT, oledlg/OLEUIINSERTOBJECTA, oledlg/OLEUIINSERTOBJECTW, oledlg/POLEUIINSERTOBJECT, tagOLEUIINSERTOBJECTA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: oledlg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: OLEUIINSERTOBJECTW (Unicode) and OLEUIINSERTOBJECTA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OLEUIINSERTOBJECTA, *POLEUIINSERTOBJECTA, *LPOLEUIINSERTOBJECTA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	OleDlg.h
+api_name:
+-	OLEUIINSERTOBJECT
+-	OLEUIINSERTOBJECTA
+-	OLEUIINSERTOBJECTW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagOLEUIINSERTOBJECTA structure

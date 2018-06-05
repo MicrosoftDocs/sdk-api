@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:highlevelmonitorconfigurationapi.RestoreMonitorFactoryDefaults
+title: RestoreMonitorFactoryDefaults function
+author: windows-sdk-content
+description: Restores a monitor's settings to their factory defaults.
+old-location: monitor\restoremonitorfactorydefaults.htm
+old-project: Monitor
+ms.assetid: e7ce81c6-28a5-4371-8fc6-d13de33c2e80
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: RestoreMonitorFactoryDefaults, RestoreMonitorFactoryDefaults function [Monitor Configuration], highlevelmonitorconfigurationapi/RestoreMonitorFactoryDefaults, monitor.restoremonitorfactorydefaults
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: highlevelmonitorconfigurationapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MC_SIZE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	dxva2.dll
+api_name:
+-	RestoreMonitorFactoryDefaults
+product: Windows
+targetos: Windows
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # RestoreMonitorFactoryDefaults function

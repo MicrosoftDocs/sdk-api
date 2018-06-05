@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:webservices._WS_XML_DICTIONARY
+title: "_WS_XML_DICTIONARY"
+author: windows-sdk-content
+description: Represents a set of unique strings. This information is used by the binary encoding to write a more compact xml document.
+old-location: wsw\ws_xml_dictionary.htm
+old-project: wsw
+ms.assetid: 2cba47fd-a049-4e50-99dd-20ccf91c9e0f
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_XML_DICTIONARY, WS_XML_DICTIONARY structure [Web Services for Windows], _WS_XML_DICTIONARY, webservices/WS_XML_DICTIONARY, wsw.ws_xml_dictionary
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_XML_DICTIONARY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_XML_DICTIONARY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WS_XML_DICTIONARY structure

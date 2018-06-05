@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:propidl.IPropertySetStorage.Open
+title: IPropertySetStorage::Open
+author: windows-sdk-content
+description: Opens a property set contained in the property set storage object.
+old-location: stg\ipropertysetstorage_open.htm
+old-project: Stg
+ms.assetid: a0e2239f-b908-460a-98e8-c805c1d84def
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IPropertySetStorage interface [Structured Storage],Open method, IPropertySetStorage.Open, IPropertySetStorage::Open, Open, Open method [Structured Storage], Open method [Structured Storage],IPropertySetStorage interface, _stg_ipropertysetstorage_open, propidl/IPropertySetStorage::Open, stg.ipropertysetstorage_open
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: propidl.h
+req.include-header: Objbase.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROFILEINFOW, *LPPROFILEINFOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ole32.dll
+api_name:
+-	IPropertySetStorage.Open
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertySetStorage::Open

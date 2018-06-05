@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:shldisp.IWebWizardHost
+title: IWebWizardHost
+author: windows-sdk-content
+description: Exposes methods that enable HTML pages which are hosted in a wizard extension to communicate with the wizard.
+old-location: shell\WebWizardHost.htm
+old-project: shell
+ms.assetid: 7b3690dc-2007-43a0-80a3-4a68e3c8464d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IWebWizardHost, WebWizardHost, WebWizardHost object [Windows Shell], WebWizardHost object [Windows Shell],described, _shell_WebWizardHost, shell.WebWizardHost, shldisp/WebWizardHost
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: shldisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shldisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETEOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shldisp.h
+api_name:
+-	WebWizardHost
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # IWebWizardHost interface

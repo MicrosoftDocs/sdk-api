@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iphlpapi.SetIpStatistics
+title: SetIpStatistics function
+author: windows-sdk-content
+description: The SetIpStatistics function toggles IP forwarding on or off and sets the default time-to-live (TTL) value for the local computer.
+old-location: iphlp\setipstatistics.htm
+old-project: IpHlp
+ms.assetid: d857ee04-38b8-4d98-a3e7-6ca8657ac9ed
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: SetIpStatistics, SetIpStatistics function [IP Helper], _iphlp_setipstatistics, iphlp.setipstatistics, iphlpapi/SetIpStatistics
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: iphlpapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_ADDRESS_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Iphlpapi.dll
+api_name:
+-	SetIpStatistics
+product: Windows
+targetos: Windows
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # SetIpStatistics function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:inked.IInkEdit.get_Recognizer
+title: IInkEdit::get_Recognizer
+author: windows-sdk-content
+description: Gets or sets the IInkRecognizer object to use for recognition.
+old-location: tablet\inkedit_recognizer.htm
+old-project: tablet
+ms.assetid: 531bc7f0-1a62-40c2-81f9-ceafe9388a0e
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 531bc7f0-1a62-40c2-81f9-ceafe9388a0e, IInkEdit interface [Tablet PC],Recognizer property, IInkEdit.Recognizer, IInkEdit.get_Recognizer, IInkEdit::Recognizer, IInkEdit::get_Recognizer, IInkEdit::put_Recognizer, InkEdit.get_Recognizer, InkEdit.putref_Recognizer, Recognizer property [Tablet PC], Recognizer property [Tablet PC],IInkEdit interface, get_Recognizer, inked/IInkEdit::Recognizer, inked/IInkEdit::get_Recognizer, inked/IInkEdit::put_Recognizer, putref_Recognizer, tablet.inkedit_recognizer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: inked.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SelAlignmentConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkEd.dll
+-	InkEd.dll.dll
+api_name:
+-	IInkEdit.Recognizer
+-	IInkEdit.get_Recognizer
+-	IInkEdit.put_Recognizer
+-	InkEdit.get_Recognizer
+-	InkEdit.putref_Recognizer
+product: Windows
+targetos: Windows
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IInkEdit::get_Recognizer

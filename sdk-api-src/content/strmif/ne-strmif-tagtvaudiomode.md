@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.tagTVAudioMode
+title: tagTVAudioMode
+author: windows-sdk-content
+description: Specifies the mode of a TV audio control.
+old-location: dshow\tvaudiomode.htm
+old-project: DirectShow
+ms.assetid: 70e26550-0a8f-484e-b919-cfefdcf95f6b
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AMTVAUDIO_MODE_LANG_A, AMTVAUDIO_MODE_LANG_B, AMTVAUDIO_MODE_LANG_C, AMTVAUDIO_MODE_MONO, AMTVAUDIO_MODE_STEREO, AMTVAUDIO_PRESET_LANG_A, AMTVAUDIO_PRESET_LANG_B, AMTVAUDIO_PRESET_LANG_C, AMTVAUDIO_PRESET_STEREO, TVAudioMode, TVAudioMode enumeration [DirectShow], TVAudioModeEnumeration, dshow.tvaudiomode, strmif/AMTVAUDIO_MODE_LANG_A, strmif/AMTVAUDIO_MODE_LANG_B, strmif/AMTVAUDIO_MODE_LANG_C, strmif/AMTVAUDIO_MODE_MONO, strmif/AMTVAUDIO_MODE_STEREO, strmif/AMTVAUDIO_PRESET_LANG_A, strmif/AMTVAUDIO_PRESET_LANG_B, strmif/AMTVAUDIO_PRESET_LANG_C, strmif/AMTVAUDIO_PRESET_STEREO, strmif/TVAudioMode, tagTVAudioMode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TVAudioMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Strmif.h
+api_name:
+-	TVAudioMode
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # tagTVAudioMode enumeration

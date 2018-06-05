@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winenclaveapi.EnclaveGetAttestationReport
+title: EnclaveGetAttestationReport function
+author: windows-sdk-content
+description: Gets an enclave attestation report that describes the current enclave and is signed by the authority that is responsible for the type of the enclave.
+old-location: base\enclavegetattestationreport.htm
+old-project: Memory
+ms.assetid: FEE8F05B-540F-4C10-A90C-55607A4E9293
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: EnclaveGetAttestationReport, EnclaveGetAttestationReport function, base.enclavegetattestationreport, winenclaveapi/EnclaveGetAttestationReport
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winenclaveapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENCRYPTION_CERTIFICATE_LIST, *PENCRYPTION_CERTIFICATE_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	vertdll.dll
+api_name:
+-	EnclaveGetAttestationReport
+product: Windows
+targetos: Windows
+req.lib: Vertdll.lib
+req.dll: Vertdll.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # EnclaveGetAttestationReport function

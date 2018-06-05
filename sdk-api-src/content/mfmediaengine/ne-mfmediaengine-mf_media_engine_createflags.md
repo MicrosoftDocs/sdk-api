@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfmediaengine.MF_MEDIA_ENGINE_CREATEFLAGS
+title: MF_MEDIA_ENGINE_CREATEFLAGS
+author: windows-sdk-content
+description: Contains flags for the IMFMediaEngineClassFactory::CreateInstance method.
+old-location: mf\mf_media_engine_createflags.htm
+old-project: medfound
+ms.assetid: 1709B08C-D4DC-4A33-9B92-1C4961208684
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_MEDIA_ENGINE_AUDIOONLY, MF_MEDIA_ENGINE_CREATEFLAGS, MF_MEDIA_ENGINE_CREATEFLAGS enumeration [Media Foundation], MF_MEDIA_ENGINE_CREATEFLAGS_MASK, MF_MEDIA_ENGINE_DISABLE_LOCAL_PLUGINS, MF_MEDIA_ENGINE_FORCEMUTE, MF_MEDIA_ENGINE_REAL_TIME_MODE, MF_MEDIA_ENGINE_WAITFORSTABLE_STATE, mf.mf_media_engine_createflags, mfmediaengine/MF_MEDIA_ENGINE_AUDIOONLY, mfmediaengine/MF_MEDIA_ENGINE_CREATEFLAGS, mfmediaengine/MF_MEDIA_ENGINE_CREATEFLAGS_MASK, mfmediaengine/MF_MEDIA_ENGINE_DISABLE_LOCAL_PLUGINS, mfmediaengine/MF_MEDIA_ENGINE_FORCEMUTE, mfmediaengine/MF_MEDIA_ENGINE_REAL_TIME_MODE, mfmediaengine/MF_MEDIA_ENGINE_WAITFORSTABLE_STATE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_MEDIA_ENGINE_CREATEFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfmediaengine.h
+api_name:
+-	MF_MEDIA_ENGINE_CREATEFLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MF_MEDIA_ENGINE_CREATEFLAGS enumeration

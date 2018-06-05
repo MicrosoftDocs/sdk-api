@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:ntdef.COMPARTMENT_ID
+title: COMPARTMENT_ID
+author: windows-sdk-content
+description: The COMPARTMENT_ID enumeration indicates the network routing compartment identifier.
+old-location: kernel\compartment_id.htm
+old-project: kernel
+ms.assetid: 751abf09-1e65-49df-b439-5a2c48fc7a2e
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PCOMPARTMENT_ID, COMPARTMENT_ID, COMPARTMENT_ID enumeration [Kernel-Mode Driver Architecture], DEFAULT_COMPARTMENT_ID, PCOMPARTMENT_ID, PCOMPARTMENT_ID enumeration pointer [Kernel-Mode Driver Architecture], UNSPECIFIED_COMPARTMENT_ID, kernel.compartment_id, ntdef/COMPARTMENT_ID, ntdef/DEFAULT_COMPARTMENT_ID, ntdef/PCOMPARTMENT_ID, ntdef/UNSPECIFIED_COMPARTMENT_ID, sysenum_7c4df3d5-f14a-4650-be6d-82b8bcc421ee.xml"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ntdef.h
+req.include-header: Ntdef.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMPARTMENT_ID, *PCOMPARTMENT_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ntdef.h
+api_name:
+-	COMPARTMENT_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # COMPARTMENT_ID enumeration

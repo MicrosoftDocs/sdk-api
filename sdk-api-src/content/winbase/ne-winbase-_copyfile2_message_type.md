@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winbase._COPYFILE2_MESSAGE_TYPE
+title: "_COPYFILE2_MESSAGE_TYPE"
+author: windows-sdk-content
+description: Indicates the type of message passed in the COPYFILE2_MESSAGE structure to the CopyFile2ProgressRoutine callback function.
+old-location: fs\copyfile2_message_type.htm
+old-project: FileIO
+ms.assetid: 3a16ca3b-79af-4064-82d5-c073d2aa531c
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: COPYFILE2_CALLBACK_CHUNK_FINISHED, COPYFILE2_CALLBACK_CHUNK_STARTED, COPYFILE2_CALLBACK_ERROR, COPYFILE2_CALLBACK_MAX, COPYFILE2_CALLBACK_NONE, COPYFILE2_CALLBACK_POLL_CONTINUE, COPYFILE2_CALLBACK_STREAM_FINISHED, COPYFILE2_CALLBACK_STREAM_STARTED, COPYFILE2_MESSAGE_TYPE, COPYFILE2_MESSAGE_TYPE enumeration [Files], _COPYFILE2_MESSAGE_TYPE, fs.copyfile2_message_type, winbase/COPYFILE2_CALLBACK_CHUNK_FINISHED, winbase/COPYFILE2_CALLBACK_CHUNK_STARTED, winbase/COPYFILE2_CALLBACK_ERROR, winbase/COPYFILE2_CALLBACK_MAX, winbase/COPYFILE2_CALLBACK_NONE, winbase/COPYFILE2_CALLBACK_POLL_CONTINUE, winbase/COPYFILE2_CALLBACK_STREAM_FINISHED, winbase/COPYFILE2_CALLBACK_STREAM_STARTED, winbase/COPYFILE2_MESSAGE_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COPYFILE2_MESSAGE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinBase.h
+api_name:
+-	COPYFILE2_MESSAGE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _COPYFILE2_MESSAGE_TYPE enumeration

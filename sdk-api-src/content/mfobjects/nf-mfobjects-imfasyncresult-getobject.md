@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMFAsyncResult.GetObject
+title: IMFAsyncResult::GetObject
+author: windows-sdk-content
+description: Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called.
+old-location: mf\imfasyncresult_getobject.htm
+old-project: medfound
+ms.assetid: b4b871ff-370d-4a37-9fe4-91d1805890eb
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetObject, GetObject method [Media Foundation], GetObject method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetObject method, IMFAsyncResult.GetObject, IMFAsyncResult::GetObject, b4b871ff-370d-4a37-9fe4-91d1805890eb, mf.imfasyncresult_getobject, mfobjects/IMFAsyncResult::GetObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFAsyncResult.GetObject
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFAsyncResult::GetObject

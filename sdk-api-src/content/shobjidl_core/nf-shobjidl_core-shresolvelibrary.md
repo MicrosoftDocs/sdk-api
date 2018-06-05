@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.SHResolveLibrary
+title: SHResolveLibrary function
+author: windows-sdk-content
+description: Resolves all locations in a library, even those locations that have been moved or renamed.
+old-location: shell\SHResolveLibrary.htm
+old-project: shell
+ms.assetid: a8730c09-f872-4bf8-9482-9dd5af31b509
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHResolveLibrary, SHResolveLibrary function [Windows Shell], _shell_SHResolveLibrary, shell.SHResolveLibrary, shobjidl_core/SHResolveLibrary
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+-	API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
+-	Windows.Storage.dll
+api_name:
+-	SHResolveLibrary
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SHResolveLibrary function

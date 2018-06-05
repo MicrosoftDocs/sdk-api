@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rtscom.IStrokeBuilder.BeginStroke
+title: IStrokeBuilder::BeginStroke
+author: windows-sdk-content
+description: Begins a stroke on an ink object by using packet data from a RealTimeStylus Class object.
+old-location: tablet\istrokebuilder_beginstroke.htm
+old-project: tablet
+ms.assetid: 40b8ce05-0272-4505-8361-13bb6ca701ea
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 40b8ce05-0272-4505-8361-13bb6ca701ea, BeginStroke, BeginStroke method [Tablet PC], BeginStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],BeginStroke method, IStrokeBuilder.BeginStroke, IStrokeBuilder::BeginStroke, rtscom/IStrokeBuilder::BeginStroke, tablet.istrokebuilder_beginstroke
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rtscom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: StylusQueue
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RTSCom.dll
+api_name:
+-	IStrokeBuilder.BeginStroke
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IStrokeBuilder::BeginStroke

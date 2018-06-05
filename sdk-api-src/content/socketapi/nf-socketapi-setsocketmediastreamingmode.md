@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:socketapi.SetSocketMediaStreamingMode
+title: SetSocketMediaStreamingMode function
+author: windows-sdk-content
+description: Indicates whether the network is to be used for transferring streaming media that requires quality of service.
+old-location: winsock\setsocketmediastreamingmode.htm
+old-project: WinSock
+ms.assetid: 5D1C18FC-2F25-44C0-AD3C-F1E7744C4963
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: SetSocketMediaStreamingMode, SetSocketMediaStreamingMode function [Winsock], socketapi/SetSocketMediaStreamingMode, winsock.setsocketmediastreamingmode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: socketapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SnmpVarBindList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Windows.Networking.dll
+api_name:
+-	SetSocketMediaStreamingMode
+product: Windows
+targetos: Windows
+req.lib: Windows.Networking.lib
+req.dll: Windows.Networking.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SetSocketMediaStreamingMode function

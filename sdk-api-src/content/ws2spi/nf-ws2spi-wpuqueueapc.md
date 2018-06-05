@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ws2spi.WPUQueueApc
+title: WPUQueueApc function
+author: windows-sdk-content
+description: The WPUQueueApc function queues a user mode&#8211;asynchronous procedure call (APC) to the specified thread in order to facilitate invocation of overlapped I/O completion routines.
+old-location: winsock\wpuqueueapc_2.htm
+old-project: WinSock
+ms.assetid: 4326547e-85e2-409c-9f36-aa013853dfd9
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: WPUQueueApc, WPUQueueApc function [Winsock], _win32_wpuqueueapc_2, winsock.wpuqueueapc_2, ws2spi/WPUQueueApc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ws2spi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSC_PROVIDER_INFO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Ws2spi.h
+api_name:
+-	WPUQueueApc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WPUQueueApc function

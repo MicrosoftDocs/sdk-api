@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:avrt.AvSetMmThreadPriority
+title: AvSetMmThreadPriority function
+author: windows-sdk-content
+description: Adjusts the thread priority of the calling thread relative to other threads performing the same task.
+old-location: base\avsetmmthreadpriority.htm
+old-project: ProcThread
+ms.assetid: 74259dbc-a9e9-409e-96e6-66a9dc590099
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: AVRT_PRIORITY_CRITICAL, AVRT_PRIORITY_HIGH, AVRT_PRIORITY_LOW, AVRT_PRIORITY_NORMAL, AvSetMmThreadPriority, AvSetMmThreadPriority function, avrt/AvSetMmThreadPriority, base.avsetmmthreadpriority
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: avrt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AVRF_HEAP_ALLOCATION, *PAVRF_HEAP_ALLOCATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Avrt.dll
+api_name:
+-	AvSetMmThreadPriority
+product: Windows
+targetos: Windows
+req.lib: Avrt.lib
+req.dll: Avrt.dll
+req.irql: 
 ---
 
 # AvSetMmThreadPriority function

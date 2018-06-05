@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:lmjoin.NetCreateProvisioningPackage
+title: NetCreateProvisioningPackage function
+author: windows-sdk-content
+description: Creates a provisioning package that provisions a computer account for later use in an offline domain join operation. The package may also contain information about certificates and policies to add to the machine during provisioning.
+old-location: netmgmt\netcreateprovisioningpackage.htm
+old-project: NetMgmt
+ms.assetid: 6E2A5578-8308-41E2-B5E9-5E34E9E76C0B
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: NetCreateProvisioningPackage, NetCreateProvisioningPackage function [Network Management], aCertTemplateNames, aMachinePolicyNames, aMachinePolicyPaths, cCertTemplateNames, cMachinePolicyNames, cMachinePolicyPaths, dwProvisionOptions, dwVersion, lmjoin/NetCreateProvisioningPackage, lpDcName, lpDomain, lpMachineAccountOU, lpMachineName, netmgmt.netcreateprovisioningpackage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: lmjoin.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netapi32.dll
+api_name:
+-	NetCreateProvisioningPackage
+product: Windows
+targetos: Windows
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # NetCreateProvisioningPackage function

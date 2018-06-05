@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:schedule._SCHEDULE
+title: "_SCHEDULE"
+author: windows-sdk-content
+description: Used with the DsReplicaAdd and DsReplicaModify functions to contain replication schedule data for a replication source.
+old-location: ad\schedule.htm
+old-project: AD
+ms.assetid: d86890db-b34a-415a-820a-6d4790914218
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PSCHEDULE, PSCHEDULE, PSCHEDULE structure pointer [Active Directory], SCHEDULE, SCHEDULE structure [Active Directory], _SCHEDULE, ad.schedule, schedule/PSCHEDULE, schedule/SCHEDULE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: schedule.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCHEDULE, *PSCHEDULE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Schedule.h
+api_name:
+-	SCHEDULE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SCHEDULE structure

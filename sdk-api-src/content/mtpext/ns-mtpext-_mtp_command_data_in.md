@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:mtpext._MTP_COMMAND_DATA_IN
+title: "_MTP_COMMAND_DATA_IN"
+author: windows-sdk-content
+description: The MTP_COMMAND_DATA_IN structure contains Media Transport Protocol (MTP) custom commands that are sent to the device by using the IWMDMDevice3::DeviceIoControl method.
+old-location: wmdm\mtp_command_data_in.htm
+old-project: WMDM
+ms.assetid: a7a6871b-3d53-4134-9877-398c532b489f
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PMTP_COMMAND_DATA_IN, MTP_COMMAND_DATA_IN, MTP_COMMAND_DATA_IN structure [windows Media Device Manager], PMTP_COMMAND_DATA_IN, PMTP_COMMAND_DATA_IN structure pointer [windows Media Device Manager], _MTP_COMMAND_DATA_IN, mtpext/MTP_COMMAND_DATA_IN, mtpext/PMTP_COMMAND_DATA_IN, wmdm.mtp_command_data_in"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mtpext.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msxml6.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MTP_COMMAND_DATA_IN, *PMTP_COMMAND_DATA_IN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	MtpExt.h
+api_name:
+-	MTP_COMMAND_DATA_IN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _MTP_COMMAND_DATA_IN structure

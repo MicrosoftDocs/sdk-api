@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:setupapi._SP_CLASSIMAGELIST_DATA
+title: "_SP_CLASSIMAGELIST_DATA"
+author: windows-sdk-content
+description: An SP_CLASSIMAGELIST_DATA structure describes a class image list.
+old-location: devinst\sp_classimagelist_data.htm
+old-project: devinst
+ms.assetid: 89ed9dbd-3c5e-43ff-bbd0-fd6cc8c6e6ab
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PSP_CLASSIMAGELIST_DATA, PSP_CLASSIMAGELIST_DATA, PSP_CLASSIMAGELIST_DATA structure pointer [Device and Driver Installation], SP_CLASSIMAGELIST_DATA, SP_CLASSIMAGELIST_DATA structure [Device and Driver Installation], _SP_CLASSIMAGELIST_DATA, devinst.sp_classimagelist_data, di-struct_2d2e73bd-5f18-49d1-96ad-639bc0ad658e.xml, setupapi/PSP_CLASSIMAGELIST_DATA, setupapi/SP_CLASSIMAGELIST_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SP_CLASSIMAGELIST_DATA, *PSP_CLASSIMAGELIST_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	setupapi.h
+api_name:
+-	SP_CLASSIMAGELIST_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SP_CLASSIMAGELIST_DATA structure

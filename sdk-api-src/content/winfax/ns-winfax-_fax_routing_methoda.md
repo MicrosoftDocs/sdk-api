@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winfax._FAX_ROUTING_METHODA
+title: "_FAX_ROUTING_METHODA"
+author: windows-sdk-content
+description: The FAX_ROUTING_METHOD structure contains information about one fax routing method, as it pertains to one fax device.
+old-location: fax\_mfax_fax_routing_method_str.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxlegacy_7w1e.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PFAX_ROUTING_METHODA, FAX_ROUTING_METHOD, FAX_ROUTING_METHOD structure [Fax Service], FAX_ROUTING_METHODA, FAX_ROUTING_METHODW, PFAX_ROUTING_METHOD, PFAX_ROUTING_METHOD structure pointer [Fax Service], _FAX_ROUTING_METHODA, _mfax_fax_routing_method_str, fax._mfax_fax_routing_method_str, winfax/FAX_ROUTING_METHOD, winfax/FAX_ROUTING_METHODA, winfax/FAX_ROUTING_METHODW, winfax/PFAX_ROUTING_METHOD"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winfax.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: FAX_ROUTING_METHODW (Unicode) and FAX_ROUTING_METHODA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_ROUTING_METHODA, *PFAX_ROUTING_METHODA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winfax.h
+api_name:
+-	FAX_ROUTING_METHOD
+-	FAX_ROUTING_METHODA
+-	FAX_ROUTING_METHODW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FAX_ROUTING_METHODA structure

@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmreports.IFsrmReportScheduler.ModifyScheduleTask
+title: IFsrmReportScheduler::ModifyScheduleTask
+author: windows-sdk-content
+description: Modifies a task that is used to trigger a report job.
+old-location: fsrm\ifsrmreportscheduler_modifyscheduletask.htm
+old-project: Fsrm
+ms.assetid: ca950e00-d391-4a03-8ff9-2ddef3a17038
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmReportScheduler class [File Server Resource Manager],ModifyScheduleTask method, IFsrmReportScheduler interface [File Server Resource Manager],ModifyScheduleTask method, IFsrmReportScheduler.ModifyScheduleTask, IFsrmReportScheduler::ModifyScheduleTask, ModifyScheduleTask, ModifyScheduleTask method [File Server Resource Manager], ModifyScheduleTask method [File Server Resource Manager],FsrmReportScheduler class, ModifyScheduleTask method [File Server Resource Manager],IFsrmReportScheduler interface, fs.ifsrmreportscheduler_modifyscheduletask, fsrm.ifsrmreportscheduler_modifyscheduletask, fsrmreports/IFsrmReportScheduler::ModifyScheduleTask
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmreports.h
+req.include-header: FsrmReports.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FsrmReports.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmReportScheduler.ModifyScheduleTask
+-	FsrmReportScheduler.ModifyScheduleTask
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmReportScheduler::ModifyScheduleTask

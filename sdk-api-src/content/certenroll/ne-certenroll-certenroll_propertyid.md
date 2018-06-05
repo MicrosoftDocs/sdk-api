@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:certenroll.CERTENROLL_PROPERTYID
+title: CERTENROLL_PROPERTYID
+author: windows-sdk-content
+description: Contains predefined object identifiers for external properties that can be associated with a certificate in the certificate store.
+old-location: security\certenroll_propertyid_enum.htm
+old-project: SecCertEnroll
+ms.assetid: e7ad0ec5-a568-4506-ba54-908e00083c2b
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CERTENROLL_PROPERTYID, CERTENROLL_PROPERTYID enumeration [Security], XCN_CERT_ACCESS_STATE_PROP_ID, XCN_CERT_AIA_URL_RETRIEVED_PROP_ID, XCN_CERT_ARCHIVED_KEY_HASH_PROP_ID, XCN_CERT_ARCHIVED_PROP_ID, XCN_CERT_AUTHORITY_INFO_ACCESS_PROP_ID, XCN_CERT_AUTO_ENROLL_PROP_ID, XCN_CERT_AUTO_ENROLL_RETRY_PROP_ID, XCN_CERT_BACKED_UP_PROP_ID, XCN_CERT_CEP_PROP_ID, XCN_CERT_CROSS_CERT_DIST_POINTS_PROP_ID, XCN_CERT_CTL_USAGE_PROP_ID, XCN_CERT_DATE_STAMP_PROP_ID, XCN_CERT_DESCRIPTION_PROP_ID, XCN_CERT_EFS_PROP_ID, XCN_CERT_ENHKEY_USAGE_PROP_ID, XCN_CERT_ENROLLMENT_PROP_ID, XCN_CERT_EXTENDED_ERROR_INFO_PROP_ID, XCN_CERT_FIRST_RESERVED_PROP_ID, XCN_CERT_FIRST_USER_PROP_ID, XCN_CERT_FORTEZZA_DATA_PROP_ID, XCN_CERT_FRIENDLY_NAME_PROP_ID, XCN_CERT_HASH_PROP_ID, XCN_CERT_IE30_RESERVED_PROP_ID, XCN_CERT_ISSUER_PUBLIC_KEY_MD5_HASH_PROP_ID, XCN_CERT_ISSUER_SERIAL_NUMBER_MD5_HASH_PROP_ID, XCN_CERT_KEY_CONTEXT_PROP_ID, XCN_CERT_KEY_IDENTIFIER_PROP_ID, XCN_CERT_KEY_PROV_HANDLE_PROP_ID, XCN_CERT_KEY_PROV_INFO_PROP_ID, XCN_CERT_KEY_SPEC_PROP_ID, XCN_CERT_LAST_RESERVED_PROP_ID, XCN_CERT_LAST_USER_PROP_ID, XCN_CERT_MD5_HASH_PROP_ID, XCN_CERT_NEW_KEY_PROP_ID, XCN_CERT_NEXT_UPDATE_LOCATION_PROP_ID, XCN_CERT_OCSP_RESPONSE_PROP_ID, XCN_CERT_PUBKEY_ALG_PARA_PROP_ID, XCN_CERT_PUBKEY_HASH_RESERVED_PROP_ID, XCN_CERT_PVK_FILE_PROP_ID, XCN_CERT_RENEWAL_PROP_ID, XCN_CERT_REQUEST_ORIGINATOR_PROP_ID, XCN_CERT_SHA1_HASH_PROP_ID, XCN_CERT_SIGNATURE_HASH_PROP_ID, XCN_CERT_SMART_CARD_DATA_PROP_ID, XCN_CERT_SOURCE_LOCATION_PROP_ID, XCN_CERT_SOURCE_URL_PROP_ID, XCN_CERT_STORE_LOCALIZED_NAME_PROP_ID, XCN_CERT_SUBJECT_NAME_MD5_HASH_PROP_ID, XCN_CERT_SUBJECT_PUBLIC_KEY_MD5_HASH_PROP_ID, XCN_PROPERTYID_NONE, certenroll/CERTENROLL_PROPERTYID, certenroll/XCN_CERT_ACCESS_STATE_PROP_ID, certenroll/XCN_CERT_AIA_URL_RETRIEVED_PROP_ID, certenroll/XCN_CERT_ARCHIVED_KEY_HASH_PROP_ID, certenroll/XCN_CERT_ARCHIVED_PROP_ID, certenroll/XCN_CERT_AUTHORITY_INFO_ACCESS_PROP_ID, certenroll/XCN_CERT_AUTO_ENROLL_PROP_ID, certenroll/XCN_CERT_AUTO_ENROLL_RETRY_PROP_ID, certenroll/XCN_CERT_BACKED_UP_PROP_ID, certenroll/XCN_CERT_CEP_PROP_ID, certenroll/XCN_CERT_CROSS_CERT_DIST_POINTS_PROP_ID, certenroll/XCN_CERT_CTL_USAGE_PROP_ID, certenroll/XCN_CERT_DATE_STAMP_PROP_ID, certenroll/XCN_CERT_DESCRIPTION_PROP_ID, certenroll/XCN_CERT_EFS_PROP_ID, certenroll/XCN_CERT_ENHKEY_USAGE_PROP_ID, certenroll/XCN_CERT_ENROLLMENT_PROP_ID, certenroll/XCN_CERT_EXTENDED_ERROR_INFO_PROP_ID, certenroll/XCN_CERT_FIRST_RESERVED_PROP_ID, certenroll/XCN_CERT_FIRST_USER_PROP_ID, certenroll/XCN_CERT_FORTEZZA_DATA_PROP_ID, certenroll/XCN_CERT_FRIENDLY_NAME_PROP_ID, certenroll/XCN_CERT_HASH_PROP_ID, certenroll/XCN_CERT_IE30_RESERVED_PROP_ID, certenroll/XCN_CERT_ISSUER_PUBLIC_KEY_MD5_HASH_PROP_ID, certenroll/XCN_CERT_ISSUER_SERIAL_NUMBER_MD5_HASH_PROP_ID, certenroll/XCN_CERT_KEY_CONTEXT_PROP_ID, certenroll/XCN_CERT_KEY_IDENTIFIER_PROP_ID, certenroll/XCN_CERT_KEY_PROV_HANDLE_PROP_ID, certenroll/XCN_CERT_KEY_PROV_INFO_PROP_ID, certenroll/XCN_CERT_KEY_SPEC_PROP_ID, certenroll/XCN_CERT_LAST_RESERVED_PROP_ID, certenroll/XCN_CERT_LAST_USER_PROP_ID, certenroll/XCN_CERT_MD5_HASH_PROP_ID, certenroll/XCN_CERT_NEW_KEY_PROP_ID, certenroll/XCN_CERT_NEXT_UPDATE_LOCATION_PROP_ID, certenroll/XCN_CERT_OCSP_RESPONSE_PROP_ID, certenroll/XCN_CERT_PUBKEY_ALG_PARA_PROP_ID, certenroll/XCN_CERT_PUBKEY_HASH_RESERVED_PROP_ID, certenroll/XCN_CERT_PVK_FILE_PROP_ID, certenroll/XCN_CERT_RENEWAL_PROP_ID, certenroll/XCN_CERT_REQUEST_ORIGINATOR_PROP_ID, certenroll/XCN_CERT_SHA1_HASH_PROP_ID, certenroll/XCN_CERT_SIGNATURE_HASH_PROP_ID, certenroll/XCN_CERT_SMART_CARD_DATA_PROP_ID, certenroll/XCN_CERT_SOURCE_LOCATION_PROP_ID, certenroll/XCN_CERT_SOURCE_URL_PROP_ID, certenroll/XCN_CERT_STORE_LOCALIZED_NAME_PROP_ID, certenroll/XCN_CERT_SUBJECT_NAME_MD5_HASH_PROP_ID, certenroll/XCN_CERT_SUBJECT_PUBLIC_KEY_MD5_HASH_PROP_ID, certenroll/XCN_PROPERTYID_NONE, security.certenroll_propertyid_enum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERTENROLL_PROPERTYID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CertEnroll.h
+api_name:
+-	CERTENROLL_PROPERTYID
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 ---
 
 # CERTENROLL_PROPERTYID enumeration

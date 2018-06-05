@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tcpestats.TCP_SOFT_ERROR
+title: TCP_SOFT_ERROR
+author: windows-sdk-content
+description: Defines the reason for non-fatal or soft errors recorded on a TCP connection.
+old-location: iphlp\tcp_soft_error.htm
+old-project: IpHlp
+ms.assetid: dd179e9b-86e6-48e8-bb4b-05d69b9794b2
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PTCP_SOFT_ERROR, TCP_SOFT_ERROR, TCP_SOFT_ERROR enumeration [IP Helper], TcpErrorAboveAckWindow, TcpErrorAboveDataWindow, TcpErrorAboveTsWindow, TcpErrorBelowAckWindow, TcpErrorBelowDataWindow, TcpErrorBelowTsWindow, TcpErrorDataChecksumError, TcpErrorDataLengthError, TcpErrorMaxSoftError, TcpErrorNone, iphlp.tcp_soft_error, tcpestats/TCP_SOFT_ERROR, tcpestats/TcpErrorAboveAckWindow, tcpestats/TcpErrorAboveDataWindow, tcpestats/TcpErrorAboveTsWindow, tcpestats/TcpErrorBelowAckWindow, tcpestats/TcpErrorBelowDataWindow, tcpestats/TcpErrorBelowTsWindow, tcpestats/TcpErrorDataChecksumError, tcpestats/TcpErrorDataLengthError, tcpestats/TcpErrorMaxSoftError, tcpestats/TcpErrorNone"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tcpestats.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TCP_SOFT_ERROR, *PTCP_SOFT_ERROR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tcpestats.h
+api_name:
+-	TCP_SOFT_ERROR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TCP_SOFT_ERROR enumeration

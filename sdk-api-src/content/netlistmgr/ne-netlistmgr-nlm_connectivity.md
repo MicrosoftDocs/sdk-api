@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:netlistmgr.NLM_CONNECTIVITY
+title: NLM_CONNECTIVITY
+author: windows-sdk-content
+description: The NLM_Connectivity enumeration is a set of flags that provide notification whenever connectivity related parameters have changed.
+old-location: nla\nlm_connectivity.htm
+old-project: NLA
+ms.assetid: 72d1f049-3c8d-4332-9bf1-9f49b47cd315
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: NLM_CONNECTIVITY, NLM_CONNECTIVITY enumeration [Network Awareness], NLM_CONNECTIVITY_DISCONNECTED, NLM_CONNECTIVITY_IPV4_INTERNET, NLM_CONNECTIVITY_IPV4_LOCALNETWORK, NLM_CONNECTIVITY_IPV4_NOTRAFFIC, NLM_CONNECTIVITY_IPV4_SUBNET, NLM_CONNECTIVITY_IPV6_INTERNET, NLM_CONNECTIVITY_IPV6_LOCALNETWORK, NLM_CONNECTIVITY_IPV6_NOTRAFFIC, NLM_CONNECTIVITY_IPV6_SUBNET, netlistmgr/NLM_CONNECTIVITY, netlistmgr/NLM_CONNECTIVITY_DISCONNECTED, netlistmgr/NLM_CONNECTIVITY_IPV4_INTERNET, netlistmgr/NLM_CONNECTIVITY_IPV4_LOCALNETWORK, netlistmgr/NLM_CONNECTIVITY_IPV4_NOTRAFFIC, netlistmgr/NLM_CONNECTIVITY_IPV4_SUBNET, netlistmgr/NLM_CONNECTIVITY_IPV6_INTERNET, netlistmgr/NLM_CONNECTIVITY_IPV6_LOCALNETWORK, netlistmgr/NLM_CONNECTIVITY_IPV6_NOTRAFFIC, netlistmgr/NLM_CONNECTIVITY_IPV6_SUBNET, nla.nlm_connectivity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: netlistmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Netlistmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NLM_CONNECTIVITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Netlistmgr.h
+api_name:
+-	NLM_CONNECTIVITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # NLM_CONNECTIVITY enumeration

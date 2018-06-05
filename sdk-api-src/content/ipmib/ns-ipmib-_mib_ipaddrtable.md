@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipmib._MIB_IPADDRTABLE
+title: "_MIB_IPADDRTABLE"
+author: windows-sdk-content
+description: Contains a table of IPv4 address entries.
+old-location: mib\mib_ipaddrtable.htm
+old-project: MIB
+ms.assetid: 12a929e5-813d-4dae-9ea0-5a3c0a88cf05
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIB_IPADDRTABLE, MIB_IPADDRTABLE, MIB_IPADDRTABLE structure [MIB], PMIB_IPADDRTABLE, PMIB_IPADDRTABLE structure pointer [MIB], _MIB_IPADDRTABLE, _mpr_mib_ipaddrtable, ipmib/MIB_IPADDRTABLE, ipmib/PMIB_IPADDRTABLE, iprtrmib/MIB_IPADDRTABLE, iprtrmib/PMIB_IPADDRTABLE, mib.mib_ipaddrtable, rras.mib_ipaddrtable"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_IPADDRTABLE, *PMIB_IPADDRTABLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipmib.h
+-	Iprtrmib.h
+api_name:
+-	MIB_IPADDRTABLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MIB_IPADDRTABLE structure

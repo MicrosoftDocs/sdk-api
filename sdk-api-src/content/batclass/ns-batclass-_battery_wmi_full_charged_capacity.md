@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:batclass._BATTERY_WMI_FULL_CHARGED_CAPACITY
+title: "_BATTERY_WMI_FULL_CHARGED_CAPACITY"
+author: windows-sdk-content
+description: Defines information about the capacity of a battery for use with the BatteryClassQueryWmiDataBlock).
+old-location: battery\battery_wmi_full_charged_capacity.htm
+old-project: battery
+ms.assetid: BE01DF36-71A8-464A-977B-499325DDB37E
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PBATTERY_WMI_FULL_CHARGED_CAPACITY, BATTERY_WMI_FULL_CHARGED_CAPACITY, BATTERY_WMI_FULL_CHARGED_CAPACITY structure [Battery Devices], PBATTERY_WMI_FULL_CHARGED_CAPACITY, PBATTERY_WMI_FULL_CHARGED_CAPACITY structure pointer [Battery Devices], _BATTERY_WMI_FULL_CHARGED_CAPACITY, batclass/BATTERY_WMI_FULL_CHARGED_CAPACITY, batclass/PBATTERY_WMI_FULL_CHARGED_CAPACITY, battery.battery_wmi_full_charged_capacity"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: batclass.h
+req.include-header: Batclass.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BATTERY_WMI_FULL_CHARGED_CAPACITY, *PBATTERY_WMI_FULL_CHARGED_CAPACITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Batclass.h
+api_name:
+-	BATTERY_WMI_FULL_CHARGED_CAPACITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BATTERY_WMI_FULL_CHARGED_CAPACITY structure

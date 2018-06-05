@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IHolder.Close
+title: IHolder::Close
+author: windows-sdk-content
+description: Closes the Holder.
+old-location: cos\iholder_close.htm
+old-project: cossdk
+ms.assetid: c8aac9b4-04d7-46a7-9b77-5f7d9d6a2ac3
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: Close, Close method [COM+], Close method [COM+],IHolder interface, IHolder interface [COM+],Close method, IHolder.Close, IHolder::Close, _dtc_IHolder_Close, comsvcs/IHolder::Close, cos.iholder_close
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IHolder.Close
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IHolder::Close

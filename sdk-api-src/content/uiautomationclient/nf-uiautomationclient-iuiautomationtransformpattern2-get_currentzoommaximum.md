@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CurrentZoomMaximum
+title: IUIAutomationTransformPattern2::get_CurrentZoomMaximum
+author: windows-sdk-content
+description: Retrieves the maximum zoom level of the control's viewport.
+old-location: winauto\uiauto_iuiautomationtransformpattern2_currentzoommaximum.htm
+old-project: WinAuto
+ms.assetid: 600A6FCC-7B67-435A-B162-BC0EC8D609B0
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CurrentZoomMaximum property [Windows Accessibility], CurrentZoomMaximum property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CurrentZoomMaximum property, IUIAutomationTransformPattern2.CurrentZoomMaximum, IUIAutomationTransformPattern2.get_CurrentZoomMaximum, IUIAutomationTransformPattern2::CurrentZoomMaximum, IUIAutomationTransformPattern2::get_CurrentZoomMaximum, get_CurrentZoomMaximum, uiautomationclient/IUIAutomationTransformPattern2::CurrentZoomMaximum, uiautomationclient/IUIAutomationTransformPattern2::get_CurrentZoomMaximum, winauto.uiauto_iuiautomationtransformpattern2_currentzoommaximum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationTransformPattern2.CurrentZoomMaximum
+-	IUIAutomationTransformPattern2.get_CurrentZoomMaximum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationTransformPattern2::get_CurrentZoomMaximum

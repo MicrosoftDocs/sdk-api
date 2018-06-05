@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPSyncServices.get_deviceCount
+title: IWMPSyncServices::get_deviceCount
+author: windows-sdk-content
+description: The get_deviceCount method retrieves the number of available devices.
+old-location: wmp\iwmpsyncservices_get_devicecount.htm
+old-project: WMP
+ms.assetid: dde5b3c8-ea22-403c-ae69-05dc7f2efdda
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPSyncServices interface [Windows Media Player],get_deviceCount method, IWMPSyncServices.get_deviceCount, IWMPSyncServices::get_deviceCount, IWMPSyncServicesget_deviceCount, get_deviceCount, get_deviceCount method [Windows Media Player], get_deviceCount method [Windows Media Player],IWMPSyncServices interface, wmp.iwmpsyncservices_get_devicecount, wmp/IWMPSyncServices::get_deviceCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 10 or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPSyncServices.get_deviceCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPSyncServices::get_deviceCount

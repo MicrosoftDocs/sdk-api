@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:directmanipulation.DIRECTMANIPULATION_INTERACTION_TYPE
+title: DIRECTMANIPULATION_INTERACTION_TYPE
+author: windows-sdk-content
+description: Defines gestures recognized by Direct Manipulation.
+old-location: directmanipulation\directmanipulation_interaction_type.htm
+old-project: directmanipulation
+ms.assetid: 5C1C79C2-3407-4FF3-986F-D9BF51983A46
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: DIRECTMANIPULATION_INTERACTION_BEGIN, DIRECTMANIPULATION_INTERACTION_END, DIRECTMANIPULATION_INTERACTION_TYPE, DIRECTMANIPULATION_INTERACTION_TYPE enumeration [Direct Manipulation], DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_CROSS_SLIDE, DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_HOLD, DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_PINCH_ZOOM, DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_TAP, DIRECTMANIPULATION_INTERACTION_TYPE_MANIPULATION, directmanipulation.directmanipulation_interaction_type, directmanipulation/DIRECTMANIPULATION_INTERACTION_BEGIN, directmanipulation/DIRECTMANIPULATION_INTERACTION_END, directmanipulation/DIRECTMANIPULATION_INTERACTION_TYPE, directmanipulation/DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_CROSS_SLIDE, directmanipulation/DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_HOLD, directmanipulation/DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_PINCH_ZOOM, directmanipulation/DIRECTMANIPULATION_INTERACTION_TYPE_GESTURE_TAP, directmanipulation/DIRECTMANIPULATION_INTERACTION_TYPE_MANIPULATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DirectManipulation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIRECTMANIPULATION_INTERACTION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	directmanipulation.h
+api_name:
+-	DIRECTMANIPULATION_INTERACTION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DIRECTMANIPULATION_INTERACTION_TYPE enumeration

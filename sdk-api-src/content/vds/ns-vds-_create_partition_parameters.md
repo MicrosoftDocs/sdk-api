@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vds._CREATE_PARTITION_PARAMETERS
+title: "_CREATE_PARTITION_PARAMETERS"
+author: windows-sdk-content
+description: Defines the partition parameters of a partition style.
+old-location: base\create_partition_parameters.htm
+old-project: VDS
+ms.assetid: 7c0311df-0995-4100-babb-481fa3f7dd71
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CREATE_PARTITION_PARAMETERS, CREATE_PARTITION_PARAMETERS structure [VDS], GPT_ATTRIBUTE_PLATFORM_REQUIRED, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, PARTITION_BASIC_DATA_GUID, PARTITION_ENTRY_UNUSED, PARTITION_ENTRY_UNUSED_GUID, PARTITION_EXTENDED, PARTITION_FAT32, PARTITION_FAT32_XINT13, PARTITION_FAT_12, PARTITION_FAT_16, PARTITION_HUGE, PARTITION_IFS, PARTITION_LDM, PARTITION_LDM_DATA_GUID, PARTITION_LDM_METADATA_GUID, PARTITION_MSFT_RECOVERY_GUID, PARTITION_MSFT_RESERVED_GUID, PARTITION_NTFT, PARTITION_OS2BOOTMGR, PARTITION_PREP, PARTITION_SYSTEM_GUID, PARTITION_UNIX, PARTITION_XENIX_1, PARTITION_XENIX_2, PARTITION_XINT13, PARTITION_XINT13_EXTENDED, _CREATE_PARTITION_PARAMETERS, base.create_partition_parameters, vds/CREATE_PARTITION_PARAMETERS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CREATE_PARTITION_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	CREATE_PARTITION_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _CREATE_PARTITION_PARAMETERS structure

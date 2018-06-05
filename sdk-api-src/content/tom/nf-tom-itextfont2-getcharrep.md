@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tom.ITextFont2.GetCharRep
+title: ITextFont2::GetCharRep
+author: windows-sdk-content
+description: Gets the character repertoire (writing system).
+old-location: controls\itextfont2_getcharrep.htm
+old-project: Controls
+ms.assetid: 250b9fe9-8f63-4f6f-9b14-d6fdac3580b0
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetCharRep, GetCharRep method [Windows Controls], GetCharRep method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetCharRep method, ITextFont2.GetCharRep, ITextFont2::GetCharRep, controls.itextfont2_getcharrep, tom/ITextFont2::GetCharRep, tomAboriginal, tomAnsi, tomArabic, tomArmenian, tomBIG5, tomBaltic, tomBengali, tomBraille, tomCherokee, tomCyrillic, tomDefaultCharRep, tomDevanagari, tomEastEurope, tomEmoji, tomEthiopic, tomGB2312, tomGeorgian, tomGreek, tomGujarati, tomGurmukhi, tomHangul, tomHebrew, tomJamo, tomKannada, tomKayahli, tomKharoshthi, tomKhmer, tomLao, tomLimbu, tomMac, tomMalayalam, tomMongolian, tomMyanmar, tomNewTaiLu, tomOEM, tomOgham, tomOriya, tomPC437, tomRunic, tomShiftJIS, tomSinhala, tomSylotinagr, tomSymbol, tomSyriac, tomTaiLe, tomTamil, tomTelugu, tomThaana, tomThai, tomTibetan, tomTurkish, tomUsymbol, tomVietnamese, tomYi
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextFont2.GetCharRep
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextFont2::GetCharRep

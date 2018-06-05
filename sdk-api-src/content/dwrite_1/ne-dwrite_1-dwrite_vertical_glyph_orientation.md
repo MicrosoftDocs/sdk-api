@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwrite_1.DWRITE_VERTICAL_GLYPH_ORIENTATION
+title: DWRITE_VERTICAL_GLYPH_ORIENTATION
+author: windows-sdk-content
+description: The DWRITE_VERTICAL_GLYPH_ORIENTATION enumeration contains values that specify the desired kind of glyph orientation for the text.
+old-location: directwrite\dwrite_vertical_glyph_orientation.htm
+old-project: DirectWrite
+ms.assetid: F13CD254-0D6A-4549-A2C2-3D3126E7B2EB
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_VERTICAL_GLYPH_ORIENTATION, DWRITE_VERTICAL_GLYPH_ORIENTATION enumeration [Direct Write], DWRITE_VERTICAL_GLYPH_ORIENTATION_DEFAULT, DWRITE_VERTICAL_GLYPH_ORIENTATION_STACKED, directwrite.dwrite_vertical_glyph_orientation, dwrite_1/DWRITE_VERTICAL_GLYPH_ORIENTATION, dwrite_1/DWRITE_VERTICAL_GLYPH_ORIENTATION_DEFAULT, dwrite_1/DWRITE_VERTICAL_GLYPH_ORIENTATION_STACKED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dwrite_1.h
+api_name:
+-	DWRITE_VERTICAL_GLYPH_ORIENTATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_VERTICAL_GLYPH_ORIENTATION enumeration

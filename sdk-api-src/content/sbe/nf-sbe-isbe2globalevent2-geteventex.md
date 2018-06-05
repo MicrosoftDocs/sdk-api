@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbe.ISBE2GlobalEvent2.GetEventEx
+title: ISBE2GlobalEvent2::GetEventEx
+author: windows-sdk-content
+description: Gets a global spanning event and its data from a Stream Buffer Source filter.
+old-location: mstv\isbe2globalevent2_geteventex.htm
+old-project: mstv
+ms.assetid: 44c30d8a-d62b-4e0f-8ff9-a4159df6d724
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetEventEx, GetEventEx method [Microsoft TV Technologies], GetEventEx method [Microsoft TV Technologies],ISBE2GlobalEvent2 interface, ISBE2GlobalEvent2 interface [Microsoft TV Technologies],GetEventEx method, ISBE2GlobalEvent2.GetEventEx, ISBE2GlobalEvent2::GetEventEx, mstv.isbe2globalevent2_geteventex, sbe/ISBE2GlobalEvent2::GetEventEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Sbe.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAMBUFFER_ATTR_DATATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbe.h
+api_name:
+-	ISBE2GlobalEvent2.GetEventEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISBE2GlobalEvent2::GetEventEx

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mscat.CryptCATPutCatAttrInfo
+title: CryptCATPutCatAttrInfo function
+author: windows-sdk-content
+description: Allocates memory for a catalog file attribute and adds it to the catalog.
+old-location: security\cryptcatputcatattrinfo.htm
+old-project: SecCrypto
+ms.assetid: 16bb8560-d4fc-4c81-8eed-21a2da7f396d
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CRYPTCAT_ATTR_AUTHENTICATED, CRYPTCAT_ATTR_DATAASCII, CRYPTCAT_ATTR_DATABASE64, CRYPTCAT_ATTR_DATAREPLACE, CRYPTCAT_ATTR_NAMEASCII, CRYPTCAT_ATTR_NAMEOBJID, CRYPTCAT_ATTR_UNAUTHENTICATED, CryptCATPutCatAttrInfo, CryptCATPutCatAttrInfo function [Security], mscat/CryptCATPutCatAttrInfo, security.cryptcatputcatattrinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mscat.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KSP_PINMODE, *PKSP_PINMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wintrust.dll
+api_name:
+-	CryptCATPutCatAttrInfo
+product: Windows
+targetos: Windows
+req.lib: Wintrust.lib
+req.dll: Wintrust.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CryptCATPutCatAttrInfo function

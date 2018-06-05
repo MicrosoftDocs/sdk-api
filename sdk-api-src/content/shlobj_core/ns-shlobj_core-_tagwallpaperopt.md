@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj_core._tagWALLPAPEROPT
+title: "_tagWALLPAPEROPT"
+author: windows-sdk-content
+description: Contains the wallpaper display options. Used with members of the IActiveDesktop interface.
+old-location: shell\WALLPAPEROPT.htm
+old-project: shell
+ms.assetid: 5fafbc3a-606c-4175-ac3a-132a1bfded07
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPWALLPAPEROPT, WALLPAPEROPT, WALLPAPEROPT structure [Windows Shell], WPSTYLE_CENTER, WPSTYLE_CROPTOFIT, WPSTYLE_KEEPASPECT, WPSTYLE_MAX, WPSTYLE_SPAN, WPSTYLE_STRETCH, WPSTYLE_TILE, _tagWALLPAPEROPT, _win32_WALLPAPEROPT, shell.WALLPAPEROPT, shlobj_core/WALLPAPEROPT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP, Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WALLPAPEROPT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	WALLPAPEROPT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # _tagWALLPAPEROPT structure

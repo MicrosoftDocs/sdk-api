@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winwlx._WLX_CLIENT_CREDENTIALS_INFO
+title: "_WLX_CLIENT_CREDENTIALS_INFO"
+author: windows-sdk-content
+description: Contains the client credentials returned by a call to WlxQueryClientCredentials or WlxQueryInetConnectorCredentials.
+old-location: security\wlx_client_credentials_info_v1_0.htm
+old-project: SecAuthN
+ms.assetid: 25fdc00d-e484-415f-8f1b-1f8ed911f9ef
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PWLX_CLIENT_CREDENTIALS_INFO_V1_0, PWLX_CLIENT_CREDENTIALS_INFO_V1_0, PWLX_CLIENT_CREDENTIALS_INFO_V1_0 structure pointer [Security], WLX_CLIENT_CREDENTIALS_INFO_V1_0, WLX_CLIENT_CREDENTIALS_INFO_V1_0 structure [Security], _WLX_CLIENT_CREDENTIALS_INFO, _gina_wlx_client_credentials_info_v1_0, security.wlx_client_credentials_info_v1_0, winwlx/PWLX_CLIENT_CREDENTIALS_INFO_V1_0, winwlx/WLX_CLIENT_CREDENTIALS_INFO_V1_0"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winwlx.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLX_CLIENT_CREDENTIALS_INFO_V1_0, *PWLX_CLIENT_CREDENTIALS_INFO_V1_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winwlx.h
+api_name:
+-	WLX_CLIENT_CREDENTIALS_INFO_V1_0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLX_CLIENT_CREDENTIALS_INFO structure

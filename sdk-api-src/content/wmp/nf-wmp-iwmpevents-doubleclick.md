@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPEvents.DoubleClick
+title: IWMPEvents::DoubleClick
+author: windows-sdk-content
+description: The DoubleClick event occurs when the user double-clicks a mouse button.
+old-location: wmp\iwmpevents_iwmpevents__doubleclick.htm
+old-project: WMP
+ms.assetid: 76b1eebb-45d9-40fc-a845-24a7dac8c96c
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: DoubleClick, DoubleClick method [Windows Media Player], DoubleClick method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],DoubleClick method, IWMPEvents.DoubleClick, IWMPEvents::DoubleClick, IWMPEventsDoubleClick, wmp.iwmpevents_iwmpevents__doubleclick, wmp/IWMPEvents::DoubleClick
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPEvents.DoubleClick
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPEvents::DoubleClick

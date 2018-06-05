@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objidlbase.IMalloc.DidAlloc
+title: IMalloc::DidAlloc
+author: windows-sdk-content
+description: Determines whether this allocator was used to allocate the specified block of memory.
+old-location: com\imalloc_didalloc.htm
+old-project: com
+ms.assetid: 085dd7cd-c360-48fa-8713-64dd9057e20d
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DidAlloc, DidAlloc method [COM], DidAlloc method [COM],IMalloc interface, IMalloc interface [COM],DidAlloc method, IMalloc.DidAlloc, IMalloc::DidAlloc, _com_imalloc_didalloc, com.imalloc_didalloc, objidlbase/IMalloc::DidAlloc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: objidlbase.h
+req.include-header: ObjIdl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidlbase.h
+api_name:
+-	IMalloc.DidAlloc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMalloc::DidAlloc

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wmsdkidl.tagWMT_OFFSET_FORMAT
+title: tagWMT_OFFSET_FORMAT
+author: windows-sdk-content
+description: The WMT_OFFSET_FORMAT enumeration type defines the types of offsets used in this SDK.
+old-location: wmformat\wmt_offset_format.htm
+old-project: wmformat
+ms.assetid: b4119098-0407-462b-8550-46f8c1312fe0
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WMT_OFFSET_FORMAT, WMT_OFFSET_FORMAT enumeration [windows Media Format], WMT_OFFSET_FORMAT_100NS, WMT_OFFSET_FORMAT_100NS_APPROXIMATE, WMT_OFFSET_FORMAT_FRAME_NUMBERS, WMT_OFFSET_FORMAT_PLAYLIST_OFFSET, WMT_OFFSET_FORMAT_TIMECODE, tagWMT_OFFSET_FORMAT, wmformat.wmt_offset_format, wmsdkidl/WMT_OFFSET_FORMAT, wmsdkidl/WMT_OFFSET_FORMAT_100NS, wmsdkidl/WMT_OFFSET_FORMAT_100NS_APPROXIMATE, wmsdkidl/WMT_OFFSET_FORMAT_FRAME_NUMBERS, wmsdkidl/WMT_OFFSET_FORMAT_PLAYLIST_OFFSET, wmsdkidl/WMT_OFFSET_FORMAT_TIMECODE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMT_OFFSET_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wmsdkidl.h
+api_name:
+-	WMT_OFFSET_FORMAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagWMT_OFFSET_FORMAT enumeration

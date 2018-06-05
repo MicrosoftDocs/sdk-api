@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPSyncDevice2.setItemInfo
+title: IWMPSyncDevice2::setItemInfo
+author: windows-sdk-content
+description: The setItemInfo method specifies an attribute value for a device.
+old-location: wmp\iwmpsyncdevice2_setiteminfo.htm
+old-project: WMP
+ms.assetid: 664e3e12-125b-4e11-bab5-44f51650983e
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPSyncDevice2 interface [Windows Media Player],setItemInfo method, IWMPSyncDevice2.setItemInfo, IWMPSyncDevice2::setItemInfo, IWMPSyncDevice2setItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPSyncDevice2 interface, wmp.iwmpsyncdevice2_setiteminfo, wmp/IWMPSyncDevice2::setItemInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11 or later
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPSyncDevice2.setItemInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPSyncDevice2::setItemInfo

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:cscobj.tagOFFLINEFILES_SYNC_CONFLICT_RESOLVE
+title: tagOFFLINEFILES_SYNC_CONFLICT_RESOLVE
+author: windows-sdk-content
+description: Identifies the conflict resolution code returned by the IOfflineFilesSyncConflictHandler::ResolveConflict method.
+old-location: of\offlinefiles_sync_conflict_resolve.htm
+old-project: OfflineFiles
+ms.assetid: 2082b476-cb98-4845-885a-56731f8a4762
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: OFFLINEFILES_SYNC_CONFLICT_ABORT, OFFLINEFILES_SYNC_CONFLICT_RESOLVE, OFFLINEFILES_SYNC_CONFLICT_RESOLVE enumeration [Offline Files], OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPALLCHANGES, OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPLATEST, OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPLOCAL, OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPREMOTE, OFFLINEFILES_SYNC_CONFLICT_RESOLVE_LOG, OFFLINEFILES_SYNC_CONFLICT_RESOLVE_NONE, OFFLINEFILES_SYNC_CONFLICT_RESOLVE_SKIP, cscobj/OFFLINEFILES_SYNC_CONFLICT_ABORT, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPALLCHANGES, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPLATEST, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPLOCAL, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPREMOTE, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE_LOG, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE_NONE, cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE_SKIP, of.offlinefiles_sync_conflict_resolve, tagOFFLINEFILES_SYNC_CONFLICT_RESOLVE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFFLINEFILES_SYNC_CONFLICT_RESOLVE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CscObj.h
+api_name:
+-	OFFLINEFILES_SYNC_CONFLICT_RESOLVE
+product: Windows
+targetos: Windows
+req.lib: CscApi.lib
+req.dll: CscApi.dll
+req.irql: 
 ---
 
 # tagOFFLINEFILES_SYNC_CONFLICT_RESOLVE enumeration

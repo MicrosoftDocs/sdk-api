@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:cfgmgr32.CM_Enumerate_EnumeratorsW
+title: CM_Enumerate_EnumeratorsW function
+author: windows-sdk-content
+description: The CM_Enumerate_Enumerators function enumerates the local machine's device enumerators by supplying each enumerator's name.
+old-location: devinst\cm_enumerate_enumerators.htm
+old-project: devinst
+ms.assetid: 85fbca44-bd3b-4654-bba2-099135c42d23
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: CM_Enumerate_Enumerators, CM_Enumerate_Enumerators function [Device and Driver Installation], CM_Enumerate_EnumeratorsW, cfgmgr32/CM_Enumerate_Enumerators, cfgmgr32/CM_Enumerate_EnumeratorsW, cfgmgrfn_16448772-e0d6-4182-9cfd-52bc354ce487.xml, devinst.cm_enumerate_enumerators
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CM_Enumerate_EnumeratorsW (Unicode)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Cfgmgr32.lib
+-	Cfgmgr32.dll
+api_name:
+-	CM_Enumerate_Enumerators
+-	CM_Enumerate_EnumeratorsW
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 ---
 
 # CM_Enumerate_EnumeratorsW function

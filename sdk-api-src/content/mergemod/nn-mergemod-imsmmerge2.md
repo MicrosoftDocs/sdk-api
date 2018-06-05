@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NN:mergemod.IMsmMerge2
+title: IMsmMerge2
+author: windows-sdk-content
+description: The IMsmMerge interface and the IMsmMerge2 interface provide interfaces to the Merge object.The IMsmMerge2 interface provides a way for the client merge tool to utilize the new configurable-module functionality.
+old-location: setup\imsmmerge2_interface.htm
+old-project: Msi
+ms.assetid: cda5698d-4aee-4771-9989-628162b433ef
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IMsmMerge2, IMsmMerge2 interface, IMsmMerge2 interface,described, _msi_imsmmerge2_interface, mergemod/IMsmMerge2, setup.imsmmerge2_interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mergemod.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Mergemod.dll 2.0 or later
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIN32_MEMORY_REGION_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mergemod.dll
+api_name:
+-	IMsmMerge2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMsmMerge2 interface

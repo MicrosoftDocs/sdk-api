@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi._PSFEATURE_CUSTPAPER
+title: "_PSFEATURE_CUSTPAPER"
+author: windows-sdk-content
+description: The PSFEATURE_CUSTPAPER structure contains information about a custom paper size for a PostScript driver. This structure is used with the GET_PS_FEATURESETTING printer escape function.
+old-location: gdi\psfeature_custpaper.htm
+old-project: printdocs
+ms.assetid: 3858154c-425f-4333-a637-6d977caf7290
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PPSFEATURE_CUSTPAPER, PPSFEATURE_CUSTPAPER, PPSFEATURE_CUSTPAPER structure pointer [Windows GDI], PSFEATURE_CUSTPAPER, PSFEATURE_CUSTPAPER structure [Windows GDI], _PSFEATURE_CUSTPAPER, _win32_PSFEATURE_CUSTPAPER_str, gdi.psfeature_custpaper, wingdi/PPSFEATURE_CUSTPAPER, wingdi/PSFEATURE_CUSTPAPER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSFEATURE_CUSTPAPER, *PPSFEATURE_CUSTPAPER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	PSFEATURE_CUSTPAPER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _PSFEATURE_CUSTPAPER structure

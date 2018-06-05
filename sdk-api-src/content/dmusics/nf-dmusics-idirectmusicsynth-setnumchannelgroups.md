@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dmusics.IDirectMusicSynth.SetNumChannelGroups
+title: IDirectMusicSynth::SetNumChannelGroups
+author: windows-sdk-content
+description: The SetNumChannelGroups method instructs the synthesizer to set its number of channel groups to a new value.
+old-location: audio\idirectmusicsynth_setnumchannelgroups.htm
+old-project: audio
+ms.assetid: b7a26fc6-11a9-4bb6-944f-dfbc772b4383
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IDirectMusicSynth interface [Audio Devices],SetNumChannelGroups method, IDirectMusicSynth.SetNumChannelGroups, IDirectMusicSynth::SetNumChannelGroups, SetNumChannelGroups, SetNumChannelGroups method [Audio Devices], SetNumChannelGroups method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_setnumchannelgroups, audmp-routines_7a3156c4-8bab-4ad5-aca6-369f322e6cb7.xml, dmusics/IDirectMusicSynth::SetNumChannelGroups
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dmusics.h
+req.include-header: Dmusics.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dmusics.h
+api_name:
+-	IDirectMusicSynth.SetNumChannelGroups
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectMusicSynth::SetNumChannelGroups

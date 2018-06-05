@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:mfidl.IMFSourceResolver
+title: IMFSourceResolver
+author: windows-sdk-content
+description: Creates a media source from a URL or a byte stream.
+old-location: mf\imfsourceresolver.htm
+old-project: medfound
+ms.assetid: 079c61c5-7a29-4411-840e-9349190726ac
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 079c61c5-7a29-4411-840e-9349190726ac, IMFSourceResolver, IMFSourceResolver interface [Media Foundation], IMFSourceResolver interface [Media Foundation],described, mf.imfsourceresolver, mfidl/IMFSourceResolver
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFSourceResolver
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: Mfsensorgroup.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSourceResolver interface

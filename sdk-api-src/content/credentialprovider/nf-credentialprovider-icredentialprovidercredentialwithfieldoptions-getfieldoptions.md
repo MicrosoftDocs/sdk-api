@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:credentialprovider.ICredentialProviderCredentialWithFieldOptions.GetFieldOptions
+title: ICredentialProviderCredentialWithFieldOptions::GetFieldOptions
+author: windows-sdk-content
+description: Retrieves the current option set for a specified field in a logon or credential UI. Called by the credential provider framework.
+old-location: shell\ICredentialProviderCredentialWithFieldOptions_GetFieldOptions.htm
+old-project: shell
+ms.assetid: DE5E6F0E-F4FD-43ce-A1EB-F45C04C85239
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetFieldOptions, GetFieldOptions method [Windows Shell], GetFieldOptions method [Windows Shell],ICredentialProviderCredentialWithFieldOptions interface, ICredentialProviderCredentialWithFieldOptions interface [Windows Shell],GetFieldOptions method, ICredentialProviderCredentialWithFieldOptions.GetFieldOptions, ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, credentialprovider/ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, shell.ICredentialProviderCredentialWithFieldOptions_GetFieldOptions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: credentialprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CredentialProvider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CredentialProvider.h
+api_name:
+-	ICredentialProviderCredentialWithFieldOptions.GetFieldOptions
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICredentialProviderCredentialWithFieldOptions::GetFieldOptions

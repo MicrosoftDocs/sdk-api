@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wininet.__unnamed_struct_2
+title: InternetCookieHistory
+author: windows-sdk-content
+description: The InternetCookieHistory structure contains the cookie history.
+old-location: wininet\internetcookiehistory.htm
+old-project: WinInet
+ms.assetid: c3aba5be-da66-4471-98e7-95fa5bd88c99
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: InternetCookieHistory, InternetCookieHistory structure [WinINet], wininet.internetcookiehistory, wininet/InternetCookieHistory
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wininet.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InternetCookieHistory
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wininet.h
+api_name:
+-	InternetCookieHistory
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # InternetCookieHistory structure

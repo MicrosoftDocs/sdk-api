@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._JOBOBJECT_EXTENDED_LIMIT_INFORMATION
+title: "_JOBOBJECT_EXTENDED_LIMIT_INFORMATION"
+author: windows-sdk-content
+description: Contains basic and extended limit information for a job object.
+old-location: base\jobobject_extended_limit_information_str.htm
+old-project: ProcThread
+ms.assetid: 5712fd27-6489-4fdc-b69b-4fb6a7c52c02
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PJOBOBJECT_EXTENDED_LIMIT_INFORMATION, JOBOBJECT_EXTENDED_LIMIT_INFORMATION, JOBOBJECT_EXTENDED_LIMIT_INFORMATION structure, PJOBOBJECT_EXTENDED_LIMIT_INFORMATION, PJOBOBJECT_EXTENDED_LIMIT_INFORMATION structure pointer, _JOBOBJECT_EXTENDED_LIMIT_INFORMATION, _win32_jobobject_extended_limit_information_str, base.jobobject_extended_limit_information_str, winnt/JOBOBJECT_EXTENDED_LIMIT_INFORMATION, winnt/PJOBOBJECT_EXTENDED_LIMIT_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: JOBOBJECT_EXTENDED_LIMIT_INFORMATION, *PJOBOBJECT_EXTENDED_LIMIT_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	JOBOBJECT_EXTENDED_LIMIT_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _JOBOBJECT_EXTENDED_LIMIT_INFORMATION structure

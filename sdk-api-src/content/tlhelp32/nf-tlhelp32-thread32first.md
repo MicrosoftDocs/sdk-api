@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tlhelp32.Thread32First
+title: Thread32First function
+author: windows-sdk-content
+description: Retrieves information about the first thread of any process encountered in a system snapshot.
+old-location: toolhelp\thread32first.htm
+old-project: ToolHelp
+ms.assetid: d4cb7a19-850e-43b5-bda5-91be48382d2a
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: Thread32First, Thread32First function [ToolHelp], _win32_thread32first, base.thread32first, tlhelp32/Thread32First, toolhelp.thread32first
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tlhelp32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TpcGetSamplesArgs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-toolhelp-l1-1-0.dll
+-	kernel32legacy.dll
+-	API-MS-Win-Core-ToolHelp-L1-1-1.dll
+api_name:
+-	Thread32First
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # Thread32First function

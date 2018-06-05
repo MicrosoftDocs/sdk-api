@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:fltuser.FilterGetInformation
+title: FilterGetInformation function
+author: windows-sdk-content
+description: The FilterGetInformation function returns various kinds of information about a minifilter.
+old-location: ifsk\filtergetinformation.htm
+old-project: ifsk
+ms.assetid: d5124ac2-dd1e-46b2-b25c-e965768eaf9e
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: FilterGetInformation, FilterGetInformation function [Installable File System Drivers], FltWin32ApiRef_244d89a8-3a31-44bd-bc08-b3ea8bb4dbba.xml, fltuser/FilterGetInformation, ifsk.filtergetinformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fltuser.h
+req.include-header: FltUser.h
+req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	FltLib.dll
+api_name:
+-	FilterGetInformation
+product: Windows
+targetos: Windows
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FilterGetInformation function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl.READ_USN_JOURNAL_DATA_V1
+title: READ_USN_JOURNAL_DATA_V1
+author: windows-sdk-content
+description: Contains information defining a set of update sequence number (USN) change journal records to return to the calling process.
+old-location: fs\read_usn_journal_data_str.htm
+old-project: FileIO
+ms.assetid: f88e71ba-6099-4928-9d71-732a4ca809bc
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PREAD_USN_JOURNAL_DATA, *PREAD_USN_JOURNAL_DATA_V1, PREAD_USN_JOURNAL_DATA, PREAD_USN_JOURNAL_DATA structure pointer [Files], PREAD_USN_JOURNAL_DATA_V0, PREAD_USN_JOURNAL_DATA_V0 structure pointer [Files], READ_USN_JOURNAL_DATA, READ_USN_JOURNAL_DATA structure [Files], READ_USN_JOURNAL_DATA_V0, READ_USN_JOURNAL_DATA_V0 structure [Files], READ_USN_JOURNAL_DATA_V1, USN_REASON_BASIC_INFO_CHANGE, USN_REASON_CLOSE, USN_REASON_COMPRESSION_CHANGE, USN_REASON_DATA_EXTEND, USN_REASON_DATA_OVERWRITE, USN_REASON_DATA_TRUNCATION, USN_REASON_EA_CHANGE, USN_REASON_ENCRYPTION_CHANGE, USN_REASON_FILE_CREATE, USN_REASON_FILE_DELETE, USN_REASON_HARD_LINK_CHANGE, USN_REASON_INDEXABLE_CHANGE, USN_REASON_NAMED_DATA_EXTEND, USN_REASON_NAMED_DATA_OVERWRITE, USN_REASON_NAMED_DATA_TRUNCATION, USN_REASON_OBJECT_ID_CHANGE, USN_REASON_RENAME_NEW_NAME, USN_REASON_RENAME_OLD_NAME, USN_REASON_REPARSE_POINT_CHANGE, USN_REASON_SECURITY_CHANGE, USN_REASON_STREAM_CHANGE, _win32_read_usn_journal_data_str, base.read_usn_journal_data_str, fs.read_usn_journal_data_str, winioctl/PREAD_USN_JOURNAL_DATA, winioctl/PREAD_USN_JOURNAL_DATA_V0, winioctl/READ_USN_JOURNAL_DATA, winioctl/READ_USN_JOURNAL_DATA_v0"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: READ_USN_JOURNAL_DATA_V1, *PREAD_USN_JOURNAL_DATA_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	READ_USN_JOURNAL_DATA_V0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # READ_USN_JOURNAL_DATA_V1 structure

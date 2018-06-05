@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:cscobj.tagOFFLINEFILES_OFFLINE_REASON
+title: tagOFFLINEFILES_OFFLINE_REASON
+author: windows-sdk-content
+description: Indicates the reason why an item is offline.
+old-location: of\offlinefiles_offline_reason.htm
+old-project: OfflineFiles
+ms.assetid: 0c55b7c6-f39d-4e04-bf16-a102c4b7d4fa
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: OFFLINEFILES_OFFLINE_REASON, OFFLINEFILES_OFFLINE_REASON enumeration [Offline Files], OFFLINEFILES_OFFLINE_REASON_CONNECTION_ERROR, OFFLINEFILES_OFFLINE_REASON_CONNECTION_FORCED, OFFLINEFILES_OFFLINE_REASON_CONNECTION_SLOW, OFFLINEFILES_OFFLINE_REASON_ITEM_SUSPENDED, OFFLINEFILES_OFFLINE_REASON_ITEM_VERSION_CONFLICT, OFFLINEFILES_OFFLINE_REASON_NOT_APPLICABLE, OFFLINEFILES_OFFLINE_REASON_UNKNOWN, cscobj/OFFLINEFILES_OFFLINE_REASON, cscobj/OFFLINEFILES_OFFLINE_REASON_CONNECTION_ERROR, cscobj/OFFLINEFILES_OFFLINE_REASON_CONNECTION_FORCED, cscobj/OFFLINEFILES_OFFLINE_REASON_CONNECTION_SLOW, cscobj/OFFLINEFILES_OFFLINE_REASON_ITEM_SUSPENDED, cscobj/OFFLINEFILES_OFFLINE_REASON_ITEM_VERSION_CONFLICT, cscobj/OFFLINEFILES_OFFLINE_REASON_NOT_APPLICABLE, cscobj/OFFLINEFILES_OFFLINE_REASON_UNKNOWN, of.offlinefiles_offline_reason, tagOFFLINEFILES_OFFLINE_REASON
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFFLINEFILES_OFFLINE_REASON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CscObj.h
+api_name:
+-	OFFLINEFILES_OFFLINE_REASON
+product: Windows
+targetos: Windows
+req.lib: CscApi.lib
+req.dll: CscApi.dll
+req.irql: 
 ---
 
 # tagOFFLINEFILES_OFFLINE_REASON enumeration

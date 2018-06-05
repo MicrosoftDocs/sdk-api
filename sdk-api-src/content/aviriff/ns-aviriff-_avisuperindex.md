@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:aviriff._avisuperindex
+title: "_avisuperindex"
+author: windows-sdk-content
+description: Contains an AVI 2.0 super index (index of indexes).
+old-location: dshow\avisuperindex.htm
+old-project: DirectShow
+ms.assetid: 57c855ef-d4ea-4e11-a37b-941335ccf657
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AVISUPERINDEX, AVISUPERINDEX structure [DirectShow], _avisuperindex, aviriff/AVISUPERINDEX, dshow.avisuperindex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: aviriff.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AVISUPERINDEX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	aviriff.h
+api_name:
+-	AVISUPERINDEX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _avisuperindex structure

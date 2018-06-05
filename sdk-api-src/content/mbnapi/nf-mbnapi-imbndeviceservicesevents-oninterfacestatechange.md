@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mbnapi.IMbnDeviceServicesEvents.OnInterfaceStateChange
+title: IMbnDeviceServicesEvents::OnInterfaceStateChange
+author: windows-sdk-content
+description: Notification method that signals a change in the state of device services on the system.
+old-location: mbn\imbndeviceservicesevents_oninterfacestatechange.htm
+old-project: mbn
+ms.assetid: 6677E80E-A9D1-45B5-AE3F-71EE22A7CCB6
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnInterfaceStateChange method, IMbnDeviceServicesEvents.OnInterfaceStateChange, IMbnDeviceServicesEvents::OnInterfaceStateChange, OnInterfaceStateChange, OnInterfaceStateChange method [Microsoft Broadband Networks], OnInterfaceStateChange method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_oninterfacestatechange, mbnapi/IMbnDeviceServicesEvents::OnInterfaceStateChange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnDeviceServicesEvents.OnInterfaceStateChange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMbnDeviceServicesEvents::OnInterfaceStateChange

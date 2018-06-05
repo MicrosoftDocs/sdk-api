@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:wininet.INTERNET_STATUS_CALLBACK
+title: INTERNET_STATUS_CALLBACK
+author: windows-sdk-content
+description: Defines a pointer to this callback function.
+old-location: wininet\internetstatuscallback.htm
+old-project: WinInet
+ms.assetid: a054fb71-66ab-46fd-be19-2237f05662bc
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: INTERNET_STATE_BUSY, INTERNET_STATE_CONNECTED, INTERNET_STATE_DISCONNECTED, INTERNET_STATE_DISCONNECTED_BY_USER, INTERNET_STATE_IDLE, INTERNET_STATUS_CALLBACK, INTERNET_STATUS_CALLBACK callback function [WinINet], INTERNET_STATUS_CLOSING_CONNECTION, INTERNET_STATUS_CONNECTED_TO_SERVER, INTERNET_STATUS_CONNECTING_TO_SERVER, INTERNET_STATUS_CONNECTION_CLOSED, INTERNET_STATUS_COOKIE_HISTORY, INTERNET_STATUS_COOKIE_RECEIVED, INTERNET_STATUS_COOKIE_SENT, INTERNET_STATUS_CTL_RESPONSE_RECEIVED, INTERNET_STATUS_DETECTING_PROXY, INTERNET_STATUS_HANDLE_CLOSING, INTERNET_STATUS_HANDLE_CREATED, INTERNET_STATUS_INTERMEDIATE_RESPONSE, INTERNET_STATUS_NAME_RESOLVED, INTERNET_STATUS_P3P_HEADER, INTERNET_STATUS_P3P_POLICYREF, INTERNET_STATUS_PREFETCH, INTERNET_STATUS_PRIVACY_IMPACTED, INTERNET_STATUS_RECEIVING_RESPONSE, INTERNET_STATUS_REDIRECT, INTERNET_STATUS_REQUEST_COMPLETE, INTERNET_STATUS_REQUEST_SENT, INTERNET_STATUS_RESOLVING_NAME, INTERNET_STATUS_RESPONSE_RECEIVED, INTERNET_STATUS_SENDING_REQUEST, INTERNET_STATUS_STATE_CHANGE, INTERNET_STATUS_USER_INPUT_REQUIRED, InternetStatusCallback, InternetStatusCallback callback, InternetStatusCallback callback function [WinINet], _inet_internet_status_callback_prototype, wininet.internetstatuscallback, wininet/InternetStatusCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: wininet.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINHTTP_CERTIFICATE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Wininet.h
+api_name:
+-	INTERNET_STATUS_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # INTERNET_STATUS_CALLBACK callback function

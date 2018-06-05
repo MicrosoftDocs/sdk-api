@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:mfidl.IMFSensorActivitiesReport
+title: IMFSensorActivitiesReport
+author: windows-sdk-content
+description: Provides access to IMFSensorActivityReport objects that describe the current activity of a sensor.
+old-location: mf\imfsensoractivitiesreport.htm
+old-project: medfound
+ms.assetid: CECDE9D5-B5D4-4DF3-80A8-F4B0B37CC5C3
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFSensorActivitiesReport, IMFSensorActivitiesReport interface [Media Foundation], IMFSensorActivitiesReport interface [Media Foundation],described, mf.imfsensoractivitiesreport, mfidl/IMFSensorActivitiesReport
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfplat.lib
+-	mfplat.dll
+-	mfplat.dll
+-	mfplat.dll.dll
+api_name:
+-	IMFSensorActivitiesReport
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: Mfplat.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSensorActivitiesReport interface

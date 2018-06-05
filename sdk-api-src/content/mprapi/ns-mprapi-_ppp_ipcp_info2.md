@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mprapi._PPP_IPCP_INFO2
+title: "_PPP_IPCP_INFO2"
+author: windows-sdk-content
+description: The PPP_IPCP_INFO2 structure contains the result of a PPP Internet Protocol (IP) negotiation.
+old-location: rras\ppp_ipcp_info2.htm
+old-project: RRAS
+ms.assetid: e12cde70-51af-484b-a700-f3976a3abc4a
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: PPP_IPCP_INFO2, PPP_IPCP_INFO2 structure [RAS], _PPP_IPCP_INFO2, _mpr_ppp_ipcp_info2, mprapi/PPP_IPCP_INFO2, rras.ppp_ipcp_info2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PPP_IPCP_INFO2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mprapi.h
+api_name:
+-	PPP_IPCP_INFO2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _PPP_IPCP_INFO2 structure

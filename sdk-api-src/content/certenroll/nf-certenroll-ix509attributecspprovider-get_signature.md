@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509AttributeCspProvider.get_Signature
+title: IX509AttributeCspProvider::get_Signature
+author: windows-sdk-content
+description: Retrieves the digital signature on the provider.
+old-location: security\ix509attributecspprovider_signature_property.htm
+old-project: SecCertEnroll
+ms.assetid: 06245293-b331-4963-a0cf-b7c604580908
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IX509AttributeCspProvider interface [Security],Signature property, IX509AttributeCspProvider.Signature, IX509AttributeCspProvider.get_Signature, IX509AttributeCspProvider::Signature, IX509AttributeCspProvider::get_Signature, Signature property [Security], Signature property [Security],IX509AttributeCspProvider interface, certenroll/IX509AttributeCspProvider::Signature, certenroll/IX509AttributeCspProvider::get_Signature, get_Signature, security.ix509attributecspprovider_signature_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509AttributeCspProvider.Signature
+-	IX509AttributeCspProvider.get_Signature
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IX509AttributeCspProvider::get_Signature

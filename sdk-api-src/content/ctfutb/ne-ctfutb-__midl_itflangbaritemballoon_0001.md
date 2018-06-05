@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ctfutb.__MIDL_ITfLangBarItemBalloon_0001
+title: "__MIDL_ITfLangBarItemBalloon_0001"
+author: windows-sdk-content
+description: Elements of the TfLBBalloonStyle enumeration are used to specify a language bar balloon style.
+old-location: tsf\tflbballoonstyle.htm
+old-project: TSF
+ms.assetid: c79eb490-b950-4d49-bdf9-821f3706446d
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: TF_LB_BALLOON_MISS, TF_LB_BALLOON_RECO, TF_LB_BALLOON_SHOW, TfLBBalloonStyle, TfLBBalloonStyle enumeration [Text Services Framework], __MIDL_ITfLangBarItemBalloon_0001, _tsf_tflbballoonstyle_ref, ctfutb/TF_LB_BALLOON_MISS, ctfutb/TF_LB_BALLOON_RECO, ctfutb/TF_LB_BALLOON_SHOW, ctfutb/TfLBBalloonStyle, tsf.tflbballoonstyle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ctfutb.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ctfutb.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TfLBBalloonStyle
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ctfutb.h
+api_name:
+-	TfLBBalloonStyle
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Sptip.dll
+req.irql: 
 ---
 
 # __MIDL_ITfLangBarItemBalloon_0001 enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tabflicks.FLICKDIRECTION
+title: FLICKDIRECTION
+author: windows-sdk-content
+description: Defines the directions in which a pen flick has occurred.
+old-location: tablet\flickdirection.htm
+old-project: tablet
+ms.assetid: 49b282cb-45e6-4f80-9948-fd736c091e70
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 49b282cb-45e6-4f80-9948-fd736c091e70, FLICKDIRECTION, FLICKDIRECTION enumeration [Tablet PC], FLICKDIRECTION_DOWN, FLICKDIRECTION_DOWNLEFT, FLICKDIRECTION_DOWNRIGHT, FLICKDIRECTION_INVALID, FLICKDIRECTION_LEFT, FLICKDIRECTION_RIGHT, FLICKDIRECTION_UP, FLICKDIRECTION_UPLEFT, FLICKDIRECTION_UPRIGHT, tabflicks/FLICKDIRECTION, tabflicks/FLICKDIRECTION_DOWN, tabflicks/FLICKDIRECTION_DOWNLEFT, tabflicks/FLICKDIRECTION_DOWNRIGHT, tabflicks/FLICKDIRECTION_INVALID, tabflicks/FLICKDIRECTION_LEFT, tabflicks/FLICKDIRECTION_RIGHT, tabflicks/FLICKDIRECTION_UP, tabflicks/FLICKDIRECTION_UPLEFT, tabflicks/FLICKDIRECTION_UPRIGHT, tablet.flickdirection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tabflicks.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FLICKDIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tabflicks.h
+api_name:
+-	FLICKDIRECTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # FLICKDIRECTION enumeration

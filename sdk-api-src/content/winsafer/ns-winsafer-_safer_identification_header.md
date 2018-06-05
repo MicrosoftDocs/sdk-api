@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsafer._SAFER_IDENTIFICATION_HEADER
+title: "_SAFER_IDENTIFICATION_HEADER"
+author: windows-sdk-content
+description: SAFER_IDENTIFICATION_HEADER structure is used as the header for the SAFER_PATHNAME_IDENTIFICATION, SAFER_HASH_IDENTIFICATION, and SAFER_URLZONE_IDENTIFICATION structures.
+old-location: security\safer_identification_header.htm
+old-project: SecMgmt
+ms.assetid: 9bcb7d22-2360-4146-9972-118ba8822aa7
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSAFER_IDENTIFICATION_HEADER, PSAFER_IDENTIFICATION_HEADER, PSAFER_IDENTIFICATION_HEADER structure pointer [Security], SAFER_IDENTIFICATION_HEADER, SAFER_IDENTIFICATION_HEADER structure [Security], SaferIdentityDefault, SaferIdentityTypeCertificate, SaferIdentityTypeImageHash, SaferIdentityTypeImageName, SaferIdentityTypeUrlZone, _SAFER_IDENTIFICATION_HEADER, _mnp_safer_identification_header, security.safer_identification_header, winsafer/PSAFER_IDENTIFICATION_HEADER, winsafer/SAFER_IDENTIFICATION_HEADER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsafer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SAFER_IDENTIFICATION_HEADER, *PSAFER_IDENTIFICATION_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinSafer.h
+api_name:
+-	SAFER_IDENTIFICATION_HEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SAFER_IDENTIFICATION_HEADER structure

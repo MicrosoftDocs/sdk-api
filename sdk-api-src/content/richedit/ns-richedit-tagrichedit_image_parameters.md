@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:richedit.tagRICHEDIT_IMAGE_PARAMETERS
+title: tagRICHEDIT_IMAGE_PARAMETERS
+author: windows-sdk-content
+description: Defines the attributes of an image to be inserted by the EM_INSERTIMAGE message.
+old-location: controls\richedit_image_parameters.htm
+old-project: Controls
+ms.assetid: 9FBEB9BE-B27E-4AC6-AB39-1DBCF74AED8B
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: RICHEDIT_IMAGE_PARAMETERS, RICHEDIT_IMAGE_PARAMETERS structure [Windows Controls], TA_BASELINE, TA_BOTTOM, TA_TOP, controls.richedit_image_parameters, richedit/RICHEDIT_IMAGE_PARAMETERS, tagRICHEDIT_IMAGE_PARAMETERS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: richedit.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RICHEDIT_IMAGE_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Richedit.h
+api_name:
+-	RICHEDIT_IMAGE_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagRICHEDIT_IMAGE_PARAMETERS structure

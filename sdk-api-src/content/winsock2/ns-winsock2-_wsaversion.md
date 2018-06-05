@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsock2._WSAVersion
+title: "_WSAVersion"
+author: windows-sdk-content
+description: The WSAVERSION structure provides version comparison in Windows Sockets.
+old-location: winsock\wsaversion_2.htm
+old-project: WinSock
+ms.assetid: 27af3b20-9460-466d-bc58-5e31e08bb6c8
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPWSAVERSION, *PWSAVERSION, LPWSAVERSION, LPWSAVERSION structure pointer [Winsock], PWSAVERSION, PWSAVERSION structure pointer [Winsock], WSAVERSION, WSAVERSION structure [Winsock], _WSAVersion, _win32_wsaversion_2, winsock.wsaversion_2, winsock2/LPWSAVERSION, winsock2/PWSAVERSION, winsock2/WSAVERSION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsock2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsock2.h
+api_name:
+-	WSAVERSION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WSAVersion structure

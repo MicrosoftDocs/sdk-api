@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:d3d11.CD3D11_BLEND_DESC
+title: CD3D11_BLEND_DESC
+author: windows-sdk-content
+description: Represents a blend-state structure and provides convenience methods for creating blend-state structures.
+old-location: direct3d11\cd3d11_blend_desc.htm
+old-project: direct3d11
+ms.assetid: EC45CD9E-FD2E-4D1D-9D35-1CD7C5B8085D
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: CD3D11_BLEND_DESC, CD3D11_BLEND_DESC structure [Direct3D 11], d3d11/CD3D11_BLEND_DESC, direct3d11.cd3d11_blend_desc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	CD3D11_BLEND_DESC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CD3D11_BLEND_DESC structure

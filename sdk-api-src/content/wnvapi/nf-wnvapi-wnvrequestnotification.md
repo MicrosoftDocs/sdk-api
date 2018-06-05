@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wnvapi.WnvRequestNotification
+title: WnvRequestNotification function
+author: windows-sdk-content
+description: Requests notification from the Windows Network Virtualization (WNV) driver whenever a certain type of event occurs.
+old-location: wnv\wnvrequestnotification.htm
+old-project: wnv
+ms.assetid: CA0F9AAE-95E5-4A62-8A26-11F933B2D09E
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WnvRequestNotification, WnvRequestNotification function [Windows Network Virtualization], wnv.wnvrequestnotification, wnvapi/WnvRequestNotification
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wnvapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WNV_OBJECT_TYPE, *PWNV_OBJECT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	wnvapi.dll
+api_name:
+-	WnvRequestNotification
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wnvapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WnvRequestNotification function

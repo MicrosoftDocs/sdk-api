@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:propsys.IPropertyStore
+title: IPropertyStore
+author: windows-sdk-content
+description: This interface exposes methods used to enumerate and manipulate property values.
+old-location: audio\ipropertystore.htm
+old-project: audio
+ms.assetid: 63afd5b1-87cc-4e0a-8964-2138c5fbff46
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IPropertyStore, IPropertyStore interface [Audio Devices], IPropertyStore interface [Audio Devices],described, audio.ipropertystore, audio_syseffects_r_1efc1bca-70e7-4db2-aea3-4c1d4aa1a39a.xml, propsys/IPropertyStore
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Propsys.h
+api_name:
+-	IPropertyStore
+product: Windows
+targetos: Windows
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0.6001 or later)
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyStore interface

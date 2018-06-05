@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d2d1effects.D2D1_COLORMANAGEMENT_RENDERING_INTENT
+title: D2D1_COLORMANAGEMENT_RENDERING_INTENT
+author: windows-sdk-content
+description: Specifies which ICC rendering intent the Color management effect should use.
+old-location: direct2d\d2d1_colormanagement_rendering_intent.htm
+old-project: Direct2D
+ms.assetid: 64161335-7974-4B8D-9385-045A94625FE1
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_COLORMANAGEMENT_RENDERING_INTENT, D2D1_COLORMANAGEMENT_RENDERING_INTENT enumeration [Direct2D], D2D1_COLORMANAGEMENT_RENDERING_INTENT_ABSOLUTE_COLORIMETRIC, D2D1_COLORMANAGEMENT_RENDERING_INTENT_PERCEPTUAL, D2D1_COLORMANAGEMENT_RENDERING_INTENT_RELATIVE_COLORIMETRIC, D2D1_COLORMANAGEMENT_RENDERING_INTENT_SATURATION, d2d1effects/D2D1_COLORMANAGEMENT_RENDERING_INTENT, d2d1effects/D2D1_COLORMANAGEMENT_RENDERING_INTENT_ABSOLUTE_COLORIMETRIC, d2d1effects/D2D1_COLORMANAGEMENT_RENDERING_INTENT_PERCEPTUAL, d2d1effects/D2D1_COLORMANAGEMENT_RENDERING_INTENT_RELATIVE_COLORIMETRIC, d2d1effects/D2D1_COLORMANAGEMENT_RENDERING_INTENT_SATURATION, direct2d.d2d1_colormanagement_rendering_intent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1effects.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_COLORMANAGEMENT_RENDERING_INTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1effects.h
+api_name:
+-	D2D1_COLORMANAGEMENT_RENDERING_INTENT
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D2D1_COLORMANAGEMENT_RENDERING_INTENT enumeration

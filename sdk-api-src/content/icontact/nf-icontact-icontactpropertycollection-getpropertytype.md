@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:icontact.IContactPropertyCollection.GetPropertyType
+title: IContactPropertyCollection::GetPropertyType
+author: windows-sdk-content
+description: Retrieves the type for the current property in the enumeration.
+old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyType.htm
+old-project: wincontacts
+ms.assetid: 11977b0c-332a-415a-986f-7fb08246413f
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: CGD_ARRAY_NODE, CGD_BINARY_PROPERTY, CGD_DATE_PROPERTY, CGD_STRING_PROPERTY, CGD_UNKNOWN_PROPERTY, GetPropertyType, GetPropertyType method [Windows Contacts], GetPropertyType method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyType method, IContactPropertyCollection.GetPropertyType, IContactPropertyCollection::GetPropertyType, _wincontacts_IContactPropertyCollection_GetPropertyType, icontact/IContactPropertyCollection::GetPropertyType, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: icontact.h
+req.include-header: Contact.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Icontact.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_FW_SERVICE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wab32.dll
+api_name:
+-	IContactPropertyCollection.GetPropertyType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IContactPropertyCollection::GetPropertyType

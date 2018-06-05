@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:wdstptmgmt.IWdsTransportClient
+title: IWdsTransportClient
+author: windows-sdk-content
+description: Represents a WDS client that is joined to a transport session on a WDS transport server.
+old-location: wds\iwdstransportclient.htm
+old-project: Wds
+ms.assetid: 39534411-3d69-408d-b495-10851fe40bdf
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWdsTransportClient, IWdsTransportClient interface [Windows Deployment Services], IWdsTransportClient interface [Windows Deployment Services],described, wds.iwdstransportclient, wdstptmgmt/IWdsTransportClient
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wdstptmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Wdstptmgmt.tlb
+tech.root: 
+req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wdstptmgmt.dll
+api_name:
+-	IWdsTransportClient
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWdsTransportClient interface

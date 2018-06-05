@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkTablet.get_MaximumInputRectangle
+title: IInkTablet::get_MaximumInputRectangle
+author: windows-sdk-content
+description: Gets the maximum input rectangle, in tablet device coordinates that the IInkTablet object supports.
+old-location: tablet\iinktablet_maximuminputrectangle.htm
+old-project: tablet
+ms.assetid: 84d8518b-6cd7-4da9-9ce3-1ce6fe6eeb43
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 84d8518b-6cd7-4da9-9ce3-1ce6fe6eeb43, IInkTablet interface [Tablet PC],MaximumInputRectangle property, IInkTablet.MaximumInputRectangle, IInkTablet.get_MaximumInputRectangle, IInkTablet::MaximumInputRectangle, IInkTablet::get_MaximumInputRectangle, MaximumInputRectangle property [Tablet PC], MaximumInputRectangle property [Tablet PC],IInkTablet interface, get_MaximumInputRectangle, msinkaut/IInkTablet::MaximumInputRectangle, msinkaut/IInkTablet::get_MaximumInputRectangle, tablet.iinktablet_maximuminputrectangle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkTablet.MaximumInputRectangle
+-	IInkTablet.get_MaximumInputRectangle
+-	IInkTablet.get_MaximumInputRectangle
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkTablet::get_MaximumInputRectangle

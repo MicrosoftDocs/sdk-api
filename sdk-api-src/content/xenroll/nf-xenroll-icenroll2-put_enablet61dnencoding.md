@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xenroll.ICEnroll2.put_EnableT61DNEncoding
+title: ICEnroll2::put_EnableT61DNEncoding
+author: windows-sdk-content
+description: The EnableT61DNEncoding property of ICEnroll4 sets or retrieves a Boolean value that determines whether the distinguished name in the request is encoded as a T61 string instead of as a Unicode string.
+old-location: security\icenroll4_enablet61dnencoding.htm
+old-project: SecCrypto
+ms.assetid: ff8fe103-0303-4f40-af25-efa50155c36f
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CEnroll object [Security],EnableT61DNEncoding property, EnableT61DNEncoding property [Security], EnableT61DNEncoding property [Security],CEnroll object, EnableT61DNEncoding property [Security],ICEnroll2 interface, EnableT61DNEncoding property [Security],ICEnroll3 interface, EnableT61DNEncoding property [Security],ICEnroll4 interface, ICEnroll2 interface [Security],EnableT61DNEncoding property, ICEnroll2.EnableT61DNEncoding, ICEnroll2.put_EnableT61DNEncoding, ICEnroll2::get_EnableT61DNEncoding, ICEnroll2::put_EnableT61DNEncoding, ICEnroll3 interface [Security],EnableT61DNEncoding property, ICEnroll3.EnableT61DNEncoding, ICEnroll3::get_EnableT61DNEncoding, ICEnroll3::put_EnableT61DNEncoding, ICEnroll4 interface [Security],EnableT61DNEncoding property, ICEnroll4.EnableT61DNEncoding, ICEnroll4::EnableT61DNEncoding, ICEnroll4::get_EnableT61DNEncoding, ICEnroll4::put_EnableT61DNEncoding, put_EnableT61DNEncoding, security.icenroll4_enablet61dnencoding, xenroll/ICEnroll2::EnableT61DNEncoding, xenroll/ICEnroll2::get_EnableT61DNEncoding, xenroll/ICEnroll2::put_EnableT61DNEncoding, xenroll/ICEnroll3::EnableT61DNEncoding, xenroll/ICEnroll3::get_EnableT61DNEncoding, xenroll/ICEnroll3::put_EnableT61DNEncoding, xenroll/ICEnroll4::EnableT61DNEncoding, xenroll/ICEnroll4::get_EnableT61DNEncoding, xenroll/ICEnroll4::put_EnableT61DNEncoding
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,32 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	ICEnroll4.EnableT61DNEncoding
+-	ICEnroll4.get_EnableT61DNEncoding
+-	ICEnroll4.put_EnableT61DNEncoding
+-	ICEnroll3.EnableT61DNEncoding
+-	ICEnroll3.get_EnableT61DNEncoding
+-	ICEnroll3.put_EnableT61DNEncoding
+-	ICEnroll2.EnableT61DNEncoding
+-	ICEnroll2.get_EnableT61DNEncoding
+-	ICEnroll2.put_EnableT61DNEncoding
+-	CEnroll.EnableT61DNEncoding
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # ICEnroll2::put_EnableT61DNEncoding

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mstcpip._SOCKET_USAGE_TYPE
+title: "_SOCKET_USAGE_TYPE"
+author: windows-sdk-content
+description: Used to specified the usage type for the socket.
+old-location: winsock\socket_usage_type.htm
+old-project: WinSock
+ms.assetid: 27142160-7381-47d0-8664-4064be801a06
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: SOCKET_USAGE_TYPE, SOCKET_USAGE_TYPE enumeration [Winsock], SYSTEM_CRITICAL_SOCKET, _SOCKET_USAGE_TYPE, mstcpip/SOCKET_USAGE_TYPE, mstcpip/SYSTEM_CRITICAL_SOCKET, winsock.socket_usage_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mstcpip.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOCKET_USAGE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mstcpip.h
+api_name:
+-	SOCKET_USAGE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SOCKET_USAGE_TYPE enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mswmdm.IWMDMOperation.BeginRead
+title: IWMDMOperation::BeginRead
+author: windows-sdk-content
+description: The BeginRead method indicates that a &#0034;read from device&#0034; action is beginning. Windows Media Device Manager only calls this method if the application calls IWMDMStorageControl::Read and passes in this IWMDMOperation interface.
+old-location: wmdm\iwmdmoperation_beginread.htm
+old-project: WMDM
+ms.assetid: e72caaac-8992-4f11-8020-0455b3d730ad
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: BeginRead, BeginRead method [windows Media Device Manager], BeginRead method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],BeginRead method, IWMDMOperation.BeginRead, IWMDMOperation::BeginRead, IWMDMOperationBeginRead, mswmdm/IWMDMOperation::BeginRead, wmdm.iwmdmoperation_beginread
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IWMDMOperation.BeginRead
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMOperation::BeginRead

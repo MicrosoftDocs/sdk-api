@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:gpmgmt.IGPMCSECollection.get_Count
+title: IGPMCSECollection::get_Count
+author: windows-sdk-content
+description: Returns the number of client side extensions (CSEs) in the collection.
+old-location: gpmc\igpmcsecollection_get_count.htm
+old-project: GPMC
+ms.assetid: de930618-f740-40d1-847d-b290c8ecc6d2
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: Count property [GPMC], Count property [GPMC],GPMCSECollection object, Count property [GPMC],IGPMCSECollection interface, GPMCSECollection object [GPMC],Count property, IGPMCSECollection interface [GPMC],Count property, IGPMCSECollection.Count, IGPMCSECollection.get_Count, IGPMCSECollection::Count, IGPMCSECollection::get_Count, _win32_igpmcsecollection_get_count, get_Count, gpmc.igpmcsecollection_get_count, gpmgmt/IGPMCSECollection::Count, gpmgmt/IGPMCSECollection::get_Count
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: gpmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Gpmgmt.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GPMStarterGPOType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gpmgmt.dll
+api_name:
+-	IGPMCSECollection.Count
+-	IGPMCSECollection.get_Count
+-	GPMCSECollection.Count
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IGPMCSECollection::get_Count

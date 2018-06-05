@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vds._VDS_DISK_FREE_EXTENT
+title: "_VDS_DISK_FREE_EXTENT"
+author: windows-sdk-content
+description: Describes a free extent on a disk.
+old-location: base\vds_disk_free_extent.htm
+old-project: VDS
+ms.assetid: 94beebd5-bfd6-410f-94b9-51c8e3609bf6
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PVDS_DISK_FREE_EXTENT, PVDS_DISK_FREE_EXTENT, PVDS_DISK_FREE_EXTENT structure pointer, VDS_DISK_FREE_EXTENT, VDS_DISK_FREE_EXTENT structure, _VDS_DISK_FREE_EXTENT, base.vds_disk_free_extent, vds/PVDS_DISK_FREE_EXTENT, vds/VDS_DISK_FREE_EXTENT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_DISK_FREE_EXTENT, *PVDS_DISK_FREE_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	VDS_DISK_FREE_EXTENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_DISK_FREE_EXTENT structure

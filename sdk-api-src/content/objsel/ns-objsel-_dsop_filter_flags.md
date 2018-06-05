@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:objsel._DSOP_FILTER_FLAGS
+title: "_DSOP_FILTER_FLAGS"
+author: windows-sdk-content
+description: Contains flags that indicate the types of objects presented to the user for a specified scope or scopes.
+old-location: ad\dsop_filter_flags.htm
+old-project: AD
+ms.assetid: 039b2bd8-027e-4b7c-b06b-1ff172c45d52
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DSOP_DOWNLEVEL_FILTER_ALL_WELLKNOWN_SIDS, DSOP_DOWNLEVEL_FILTER_ANONYMOUS, DSOP_DOWNLEVEL_FILTER_AUTHENTICATED_USER, DSOP_DOWNLEVEL_FILTER_BATCH, DSOP_DOWNLEVEL_FILTER_COMPUTERS, DSOP_DOWNLEVEL_FILTER_CREATOR_GROUP, DSOP_DOWNLEVEL_FILTER_CREATOR_OWNER, DSOP_DOWNLEVEL_FILTER_DIALUP, DSOP_DOWNLEVEL_FILTER_EXCLUDE_BUILTIN_GROUPS, DSOP_DOWNLEVEL_FILTER_GLOBAL_GROUPS, DSOP_DOWNLEVEL_FILTER_INTERACTIVE, DSOP_DOWNLEVEL_FILTER_INTERNET_USER, DSOP_DOWNLEVEL_FILTER_LOCAL_GROUPS, DSOP_DOWNLEVEL_FILTER_LOCAL_SERVICE, DSOP_DOWNLEVEL_FILTER_NETWORK, DSOP_DOWNLEVEL_FILTER_NETWORK_SERVICE, DSOP_DOWNLEVEL_FILTER_OWNER_RIGHTS, DSOP_DOWNLEVEL_FILTER_REMOTE_LOGON, DSOP_DOWNLEVEL_FILTER_SERVICE, DSOP_DOWNLEVEL_FILTER_SERVICES, DSOP_DOWNLEVEL_FILTER_SYSTEM, DSOP_DOWNLEVEL_FILTER_TERMINAL_SERVER, DSOP_DOWNLEVEL_FILTER_USERS, DSOP_DOWNLEVEL_FILTER_WORLD, DSOP_FILTER_FLAGS, DSOP_FILTER_FLAGS structure [Active Directory], _DSOP_FILTER_FLAGS, _glines_dsop_filter_flags, ad.dsop__filter__flags, ad.dsop_filter_flags, objsel/DSOP_FILTER_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: objsel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSOP_FILTER_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Objsel.h
+api_name:
+-	DSOP_FILTER_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _DSOP_FILTER_FLAGS structure

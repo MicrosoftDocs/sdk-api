@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:wincrypt.PFN_CERT_ENUM_SYSTEM_STORE
+title: PFN_CERT_ENUM_SYSTEM_STORE
+author: windows-sdk-content
+description: The CertEnumSystemStoreCallback callback function formats and presents information on each system store found by a call to CertEnumSystemStore.
+old-location: security\certenumsystemstorecallback.htm
+old-project: SecCrypto
+ms.assetid: f070a9bd-be0b-49d0-9cab-a5d6f05d4e22
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CERT_SYSTEM_STORE_LOCATION_MASK, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertEnumSystemStoreCallback, CertEnumSystemStoreCallback callback, CertEnumSystemStoreCallback callback function [Security], PFN_CERT_ENUM_SYSTEM_STORE, PFN_CERT_ENUM_SYSTEM_STORE callback function [Security], security.certenumsystemstorecallback, wincrypt/CertEnumSystemStoreCallback, wincrypt/PFN_CERT_ENUM_SYSTEM_STORE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Wincrypt.h
+api_name:
+-	CertEnumSystemStoreCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PFN_CERT_ENUM_SYSTEM_STORE callback function

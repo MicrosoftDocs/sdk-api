@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winuser.tagSOUNDSENTRYA
+title: tagSOUNDSENTRYA
+author: windows-sdk-content
+description: Contains information about the SoundSentry accessibility feature. When the SoundSentry feature is on, the computer displays a visual indication only when a sound is generated.
+old-location: winauto\soundsentry.htm
+old-project: WinAuto
+ms.assetid: a6000966-886b-4b9e-8df2-fee79d494f2e
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: "*LPSOUNDSENTRYA, LPSOUNDSENTRY, LPSOUNDSENTRY structure pointer [Windows Accessibility], SOUNDSENTRY, SOUNDSENTRY structure [Windows Accessibility], SOUNDSENTRYA, SSF_AVAILABLE, SSF_INDICATOR, SSF_SOUNDSENTRYON, SSGF_DISPLAY, SSGF_NONE, SSTF_BORDER, SSTF_CHARS, SSTF_DISPLAY, SSTF_NONE, SSWF_CUSTOM, SSWF_DISPLAY, SSWF_NONE, SSWF_TITLE, SSWF_WINDOW, _win32_SOUNDSENTRY_str, msaa.soundsentry, tagSOUNDSENTRYA, tagSOUNDSENTRYW, winauto.soundsentry, winuser/LPSOUNDSENTRY, winuser/SOUNDSENTRY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOUNDSENTRYA, *LPSOUNDSENTRYA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winuser.h
+api_name:
+-	SOUNDSENTRY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagSOUNDSENTRYA structure

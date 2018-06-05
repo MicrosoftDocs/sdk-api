@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:p2p.peer_invitation_response_type_tag
+title: peer_invitation_response_type_tag
+author: windows-sdk-content
+description: Defines the type of response received to an invitation to start a Peer Collaboration activity.
+old-location: p2p\peer_invitation_response_type.htm
+old-project: P2PSdk
+ms.assetid: ad456eb5-a28c-4826-976f-e38e2f269ff0
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PEER_INVITATION_RESPONSE_ACCEPTED, PEER_INVITATION_RESPONSE_DECLINED, PEER_INVITATION_RESPONSE_ERROR, PEER_INVITATION_RESPONSE_EXPIRED, PEER_INVITATION_RESPONSE_TYPE, PEER_INVITATION_RESPONSE_TYPE enumeration [Peer Networking], p2p.peer_invitation_response_type, p2p/PEER_INVITATION_RESPONSE_ACCEPTED, p2p/PEER_INVITATION_RESPONSE_DECLINED, p2p/PEER_INVITATION_RESPONSE_ERROR, p2p/PEER_INVITATION_RESPONSE_EXPIRED, p2p/PEER_INVITATION_RESPONSE_TYPE, peer_invitation_response_type_tag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEER_INVITATION_RESPONSE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	P2P.h
+api_name:
+-	PEER_INVITATION_RESPONSE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # peer_invitation_response_type_tag enumeration

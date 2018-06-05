@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winwlx.WlxLoggedOutSAS
+title: WlxLoggedOutSAS function
+author: windows-sdk-content
+description: Winlogon calls this function when it receives a secure attention sequence (SAS) event while no user is logged on.
+old-location: security\wlxloggedoutsas.htm
+old-project: SecAuthN
+ms.assetid: 7f3996b6-7c99-42c5-a39f-8c67ff19a580
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: WLX_LOGON_OPT_NO_PROFILE, WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxLoggedOutSAS, WlxLoggedOutSAS function [Security], _gina_wlxloggedoutsas, security.wlxloggedoutsas, winwlx/WlxLoggedOutSAS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winwlx.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ICONINFOEXW, *PICONINFOEXW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Winwlx.h
+api_name:
+-	WlxLoggedOutSAS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WlxLoggedOutSAS function

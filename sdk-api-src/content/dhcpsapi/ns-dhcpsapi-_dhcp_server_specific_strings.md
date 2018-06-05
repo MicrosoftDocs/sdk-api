@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi._DHCP_SERVER_SPECIFIC_STRINGS
+title: "_DHCP_SERVER_SPECIFIC_STRINGS"
+author: windows-sdk-content
+description: Contains the default string values for user and vendor class names.
+old-location: dhcp\dhcp_server_specific_strings.htm
+old-project: DHCP
+ms.assetid: 5fc52d5c-22b0-454b-bc07-8f9c4ca163e3
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_SERVER_SPECIFIC_STRINGS, DHCP_SERVER_SPECIFIC_STRINGS, DHCP_SERVER_SPECIFIC_STRINGS structure [DHCP], PDHCP_SERVER_SPECIFIC_STRINGS, PDHCP_SERVER_SPECIFIC_STRINGS structure pointer [DHCP], _DHCP_SERVER_SPECIFIC_STRINGS, dhcp.dhcp_server_specific_strings, dhcpsapi/DHCP_SERVER_SPECIFIC_STRINGS, dhcpsapi/PDHCP_SERVER_SPECIFIC_STRINGS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_SERVER_SPECIFIC_STRINGS, *LPDHCP_SERVER_SPECIFIC_STRINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCP_SERVER_SPECIFIC_STRINGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_SERVER_SPECIFIC_STRINGS structure

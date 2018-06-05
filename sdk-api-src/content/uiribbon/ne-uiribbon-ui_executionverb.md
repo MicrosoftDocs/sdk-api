@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uiribbon.UI_EXECUTIONVERB
+title: UI_EXECUTIONVERB
+author: windows-sdk-content
+description: Specifies values that identify the execution IDs that map to actions a user can initiate on a Command.
+old-location: windowsribbon\windowsribbon_ui_executionverb.htm
+old-project: windowsribbon
+ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_executionverb.htm
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: UI_EXECUTIONVERB, UI_EXECUTIONVERB enumeration [Windows Ribbon], UI_EXECUTIONVERB_CANCELPREVIEW, UI_EXECUTIONVERB_EXECUTE, UI_EXECUTIONVERB_PREVIEW, scenicintent_UI_EXECUTIONVERB, uiribbon/UI_EXECUTIONVERB, uiribbon/UI_EXECUTIONVERB_CANCELPREVIEW, uiribbon/UI_EXECUTIONVERB_EXECUTE, uiribbon/UI_EXECUTIONVERB_PREVIEW, windowsribbon.windowsribbon_ui_executionverb
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uiribbon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Uiribbon.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_EXECUTIONVERB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Uiribbon.h
+api_name:
+-	UI_EXECUTIONVERB
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # UI_EXECUTIONVERB enumeration

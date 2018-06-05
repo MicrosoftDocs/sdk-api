@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:schannel._SCHANNEL_CRED
+title: "_SCHANNEL_CRED"
+author: windows-sdk-content
+description: Contains the data for an Schannel credential.
+old-location: security\schannel_cred.htm
+old-project: SecAuthN
+ms.assetid: 8398e029-473e-488f-a861-c7ceae07e678
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSCHANNEL_CRED, PSCHANNEL_CRED, PSCHANNEL_CRED structure pointer [Security], SCHANNEL_CRED, SCHANNEL_CRED structure [Security], SCH_CRED_AUTO_CRED_VALIDATION, SCH_CRED_CACHE_ONLY_URL_RETRIEVAL_ON_CREATE, SCH_CRED_FORMAT_CERT_HASH, SCH_CRED_FORMAT_CERT_HASH_STORE, SCH_CRED_IGNORE_NO_REVOCATION_CHECK, SCH_CRED_IGNORE_REVOCATION_OFFLINE, SCH_CRED_MANUAL_CRED_VALIDATION, SCH_CRED_NO_DEFAULT_CREDS, SCH_CRED_NO_SERVERNAME_CHECK, SCH_CRED_NO_SYSTEM_MAPPER, SCH_CRED_REVOCATION_CHECK_CHAIN, SCH_CRED_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, SCH_CRED_REVOCATION_CHECK_END_CERT, SCH_CRED_USE_DEFAULT_CREDS, SCH_DISABLE_RECONNECTS, SCH_SEND_AUX_RECORD, SCH_SEND_ROOT_CERT, SCH_USE_PRESHAREDKEY_ONLY, SCH_USE_STRONG_CRYPTO, SP_PROT_DTLS1_0_CLIENT, SP_PROT_DTLS1_0_SERVER, SP_PROT_DTLS1_2_CLIENT, SP_PROT_DTLS1_2_SERVER, SP_PROT_DTLS1_X_CLIENT, SP_PROT_DTLS1_X_SERVER, SP_PROT_DTLS_CLIENT, SP_PROT_DTLS_SERVER, SP_PROT_PCT1_CLIENT, SP_PROT_PCT1_SERVER, SP_PROT_SSL2_CLIENT, SP_PROT_SSL2_SERVER, SP_PROT_SSL3_CLIENT, SP_PROT_SSL3_SERVER, SP_PROT_TLS1_0_CLIENT, SP_PROT_TLS1_0_SERVER, SP_PROT_TLS1_1_CLIENT, SP_PROT_TLS1_1_SERVER, SP_PROT_TLS1_2_CLIENT, SP_PROT_TLS1_2_SERVER, SP_PROT_TLS1_CLIENT, SP_PROT_TLS1_SERVER, _SCHANNEL_CRED, _ssp_schannel_cred, schannel/PSCHANNEL_CRED, schannel/SCHANNEL_CRED, security.schannel_cred"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: schannel.h
+req.include-header: Schnlsp.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCHANNEL_CRED, *PSCHANNEL_CRED
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Schannel.h
+api_name:
+-	SCHANNEL_CRED
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SCHANNEL_CRED structure

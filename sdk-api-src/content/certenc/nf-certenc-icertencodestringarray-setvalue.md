@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenc.ICertEncodeStringArray.SetValue
+title: ICertEncodeStringArray::SetValue
+author: windows-sdk-content
+description: Sets a string value at the specified index of the string array.
+old-location: security\icertencodestringarray_setvalue.htm
+old-project: SecCrypto
+ms.assetid: 41e5c2b8-a0da-426a-b411-0bdc3fd7ecfe
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertEncodeStringArray object [Security],SetValue method, ICertEncodeStringArray interface [Security],SetValue method, ICertEncodeStringArray.SetValue, ICertEncodeStringArray::SetValue, SetValue, SetValue method [Security], SetValue method [Security],CCertEncodeStringArray object, SetValue method [Security],ICertEncodeStringArray interface, _certsrv_icertencodestringarray_setvalue, certenc/ICertEncodeStringArray::SetValue, security.icertencodestringarray_setvalue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenc.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509EnrollmentAuthFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenc.dll
+api_name:
+-	ICertEncodeStringArray.SetValue
+-	CCertEncodeStringArray.SetValue
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 ---
 
 # ICertEncodeStringArray::SetValue

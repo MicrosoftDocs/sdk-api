@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:webservices._WS_HOST_NAMES
+title: "_WS_HOST_NAMES"
+author: windows-sdk-content
+description: A structure containing a list of host names.
+old-location: wsw\ws_host_names.htm
+old-project: wsw
+ms.assetid: 9815eb1e-0ce6-4b56-9f9a-e3938d502b72
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_HOST_NAMES, WS_HOST_NAMES structure [Web Services for Windows], _WS_HOST_NAMES, webservices/WS_HOST_NAMES, wsw.ws_host_names
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_HOST_NAMES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_HOST_NAMES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WS_HOST_NAMES structure

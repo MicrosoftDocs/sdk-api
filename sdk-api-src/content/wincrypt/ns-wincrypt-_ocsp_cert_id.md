@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._OCSP_CERT_ID
+title: "_OCSP_CERT_ID"
+author: windows-sdk-content
+description: Contains information to identify a certificate in an online certificate status protocol (OCSP) request or response.
+old-location: security\ocsp_cert_id.htm
+old-project: SecCrypto
+ms.assetid: 58717990-a7f7-4b41-aceb-cbce55411396
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*POCSP_CERT_ID, OCSP_CERT_ID, OCSP_CERT_ID structure [Security], POCSP_CERT_ID, POCSP_CERT_ID structure pointer [Security], _OCSP_CERT_ID, security.ocsp_cert_id, wincrypt/OCSP_CERT_ID, wincrypt/POCSP_CERT_ID"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OCSP_CERT_ID, *POCSP_CERT_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	OCSP_CERT_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _OCSP_CERT_ID structure

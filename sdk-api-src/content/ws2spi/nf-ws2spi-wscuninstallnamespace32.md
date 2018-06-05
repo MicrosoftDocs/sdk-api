@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ws2spi.WSCUnInstallNameSpace32
+title: WSCUnInstallNameSpace32 function
+author: windows-sdk-content
+description: Uninstalls a specific 32-bit namespace provider.
+old-location: winsock\wscuninstallnamespace32.htm
+old-project: WinSock
+ms.assetid: a2a08159-6ac0-493d-8f9f-d19aa199a65f
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: WSCUnInstallNameSpace32, WSCUninstallNamespace32, WSCUninstallNamespace32 function [Winsock], winsock.wscuninstallnamespace32, ws2spi/WSCUninstallNamespace32
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ws2spi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 x64 Edition [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSC_PROVIDER_INFO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ws2_32.dll
+api_name:
+-	WSCUninstallNamespace32
+product: Windows
+targetos: Windows
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WSCUnInstallNameSpace32 function

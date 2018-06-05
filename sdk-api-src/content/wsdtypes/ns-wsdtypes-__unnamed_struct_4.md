@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wsdtypes.__unnamed_struct_4
+title: RESPONSEBODY_Renew
+author: windows-sdk-content
+description: Represents a WS-Eventing Renew response message.
+old-location: ncd\responsebody_renew_struct.htm
+old-project: WsdApi
+ms.assetid: 3fe288b6-bb84-4b8f-b973-b2309c60c28e
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: RESPONSEBODY_Renew, RESPONSEBODY_Renew structure, ncd.responsebody_renew_struct, wsdtypes/RESPONSEBODY_Renew
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wsdtypes.h
+req.include-header: Wsdapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wsdhost.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RESPONSEBODY_Renew
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WsdTypes.h
+api_name:
+-	RESPONSEBODY_Renew
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # RESPONSEBODY_Renew structure

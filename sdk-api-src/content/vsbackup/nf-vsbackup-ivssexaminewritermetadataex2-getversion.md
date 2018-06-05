@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsbackup.IVssExamineWriterMetadataEx2.GetVersion
+title: IVssExamineWriterMetadataEx2::GetVersion
+author: windows-sdk-content
+description: Obtains the version information for a writer application.
+old-location: base\ivssexaminewritermetadataex2_getversion.htm
+old-project: VSS
+ms.assetid: d702263e-0ea5-428c-bbd6-1ab8a7334a92
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetVersion, GetVersion method, GetVersion method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetVersion method, IVssExamineWriterMetadataEx2.GetVersion, IVssExamineWriterMetadataEx2::GetVersion, base.ivssexaminewritermetadataex2_getversion, vsbackup/IVssExamineWriterMetadataEx2::GetVersion
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsbackup.h
+req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssExamineWriterMetadataEx2.GetVersion
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssExamineWriterMetadataEx2::GetVersion

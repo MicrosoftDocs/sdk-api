@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:msclus.ISClusResTypePossibleOwnerNodes
+title: ISClusResTypePossibleOwnerNodes
+author: windows-sdk-content
+description: Provides access to the possible owner nodes of a resource type.
+old-location: mscs\clusrestypepossibleownernodes_collection.htm
+old-project: MsCS
+ms.assetid: be22d5b1-8c61-40a5-883c-f49651ba623d
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ClusResTypePossibleOwnerNodes, ClusResTypePossibleOwnerNodes collection [Failover Cluster], ClusResTypePossibleOwnerNodes collection [Failover Cluster],described, ISClusResTypePossibleOwnerNodes, _wolf_clusrestypepossibleownernodes_collection, msclus/ClusResTypePossibleOwnerNodes, mscs.clusrestypepossibleownernodes_collection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: MsClus.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: MsClus.tlb
+tech.root: 
+req.typenames: CLUS_GROUP_START_SETTING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsClus.dll
+api_name:
+-	ClusResTypePossibleOwnerNodes
+-	ISClusResTypePossibleOwnerNodes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsClus.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ISClusResTypePossibleOwnerNodes interface

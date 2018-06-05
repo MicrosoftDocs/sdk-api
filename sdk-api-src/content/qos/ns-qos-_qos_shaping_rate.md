@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:qos._QOS_SHAPING_RATE
+title: "_QOS_SHAPING_RATE"
+author: windows-sdk-content
+description: The QOS object QOS_SHAPING_RATE specifies the uniform traffic shaping rate be applied to a given flow.
+old-location: qos\qos_shaping_rate.htm
+old-project: QOS
+ms.assetid: 2be833dc-d9e1-495d-831e-09c900c8adb2
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPQOS_SHAPING_RATE, LPQOS_SHAPING_RATE, LPQOS_SHAPING_RATE structure pointer [QOS], QOS_SHAPING_RATE, QOS_SHAPING_RATE structure [QOS], _QOS_SHAPING_RATE, _gqos_qos_shaping_rate, qos.qos_shaping_rate, qos/LPQOS_SHAPING_RATE, qos/QOS_SHAPING_RATE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: qos.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QOS_SHAPING_RATE, *LPQOS_SHAPING_RATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Qos.h
+api_name:
+-	QOS_SHAPING_RATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _QOS_SHAPING_RATE structure

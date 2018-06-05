@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:amva._tag_AMVAEndFrameInfo
+title: "_tag_AMVAEndFrameInfo"
+author: windows-sdk-content
+description: The AMVAEndFrameInfo structure contains information for the IAMVideoAccelerator::EndFrame method.
+old-location: dshow\amvaendframeinfo.htm
+old-project: DirectShow
+ms.assetid: 7f9308c1-0426-4c0f-97aa-4d946ac2403a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPAMVAEndFrameInfo, AMVAEndFrameInfo, AMVAEndFrameInfo structure [DirectShow], AMVAEndFrameInfoStructure, LPAMVAEndFrameInfo, LPAMVAEndFrameInfo structure pointer [DirectShow], _tag_AMVAEndFrameInfo, amva/AMVAEndFrameInfo, amva/LPAMVAEndFrameInfo, dshow.amvaendframeinfo"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: amva.h
+req.include-header: Videoacc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVAEndFrameInfo, *LPAMVAEndFrameInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	amva.h
+api_name:
+-	AMVAEndFrameInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _tag_AMVAEndFrameInfo structure

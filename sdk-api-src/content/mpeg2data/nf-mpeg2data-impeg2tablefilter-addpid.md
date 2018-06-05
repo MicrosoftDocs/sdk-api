@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mpeg2data.IMpeg2TableFilter.AddPID
+title: IMpeg2TableFilter::AddPID
+author: windows-sdk-content
+description: The AddPID method adds a packet identifier (PID) to the list of PIDs that the filter sends.
+old-location: mstv\impeg2tablefilter_addpid.htm
+old-project: mstv
+ms.assetid: 7a811d1f-cb1b-4f45-8dee-ba83efd20709
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: AddPID, AddPID method [Microsoft TV Technologies], AddPID method [Microsoft TV Technologies],IMpeg2TableFilter interface, IMpeg2TableFilter interface [Microsoft TV Technologies],AddPID method, IMpeg2TableFilter.AddPID, IMpeg2TableFilter::AddPID, IMpeg2TableFilterAddPID, mpeg2data/IMpeg2TableFilter::AddPID, mstv.impeg2tablefilter_addpid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mpeg2data.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mpeg2data.h
+api_name:
+-	IMpeg2TableFilter.AddPID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMpeg2TableFilter::AddPID

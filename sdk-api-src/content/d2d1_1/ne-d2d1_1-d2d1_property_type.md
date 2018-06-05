@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d2d1_1.D2D1_PROPERTY_TYPE
+title: D2D1_PROPERTY_TYPE
+author: windows-sdk-content
+description: Specifies the types of properties supported by the Direct2D property interface.
+old-location: direct2d\__d2d1_property_type.htm
+old-project: Direct2D
+ms.assetid: 6535d71a-c76c-462c-9972-4db7e4ef383d
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_PROPERTY_TYPE, D2D1_PROPERTY_TYPE enumeration [Direct2D], D2D1_PROPERTY_TYPE_ARRAY, D2D1_PROPERTY_TYPE_BLOB, D2D1_PROPERTY_TYPE_BOOL, D2D1_PROPERTY_TYPE_CLSID, D2D1_PROPERTY_TYPE_COLOR_CONTEXT, D2D1_PROPERTY_TYPE_ENUM, D2D1_PROPERTY_TYPE_FLOAT, D2D1_PROPERTY_TYPE_INT32, D2D1_PROPERTY_TYPE_IUNKNOWN, D2D1_PROPERTY_TYPE_MATRIX_3X2, D2D1_PROPERTY_TYPE_MATRIX_4X3, D2D1_PROPERTY_TYPE_MATRIX_4X4, D2D1_PROPERTY_TYPE_MATRIX_5X4, D2D1_PROPERTY_TYPE_STRING, D2D1_PROPERTY_TYPE_UINT32, D2D1_PROPERTY_TYPE_UNKNOWN, D2D1_PROPERTY_TYPE_VECTOR2, D2D1_PROPERTY_TYPE_VECTOR3, D2D1_PROPERTY_TYPE_VECTOR4, d2d1_1/D2D1_PROPERTY_TYPE, d2d1_1/D2D1_PROPERTY_TYPE_ARRAY, d2d1_1/D2D1_PROPERTY_TYPE_BLOB, d2d1_1/D2D1_PROPERTY_TYPE_BOOL, d2d1_1/D2D1_PROPERTY_TYPE_CLSID, d2d1_1/D2D1_PROPERTY_TYPE_COLOR_CONTEXT, d2d1_1/D2D1_PROPERTY_TYPE_ENUM, d2d1_1/D2D1_PROPERTY_TYPE_FLOAT, d2d1_1/D2D1_PROPERTY_TYPE_INT32, d2d1_1/D2D1_PROPERTY_TYPE_IUNKNOWN, d2d1_1/D2D1_PROPERTY_TYPE_MATRIX_3X2, d2d1_1/D2D1_PROPERTY_TYPE_MATRIX_4X3, d2d1_1/D2D1_PROPERTY_TYPE_MATRIX_4X4, d2d1_1/D2D1_PROPERTY_TYPE_MATRIX_5X4, d2d1_1/D2D1_PROPERTY_TYPE_STRING, d2d1_1/D2D1_PROPERTY_TYPE_UINT32, d2d1_1/D2D1_PROPERTY_TYPE_UNKNOWN, d2d1_1/D2D1_PROPERTY_TYPE_VECTOR2, d2d1_1/D2D1_PROPERTY_TYPE_VECTOR3, d2d1_1/D2D1_PROPERTY_TYPE_VECTOR4, direct2d.__d2d1_property_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_PROPERTY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D2d1_1.h
+api_name:
+-	D2D1_PROPERTY_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D2D1_PROPERTY_TYPE enumeration

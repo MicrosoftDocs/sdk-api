@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vmr9.IVMRImagePresenterConfig9.SetRenderingPrefs
+title: IVMRImagePresenterConfig9::SetRenderingPrefs
+author: windows-sdk-content
+description: The SetRenderingPrefs method sets the rendering preferences on the VMR-9 filter's allocator-presenter.
+old-location: dshow\ivmrimagepresenterconfig9_setrenderingprefs.htm
+old-project: DirectShow
+ms.assetid: 53ca84c5-6f6e-403f-baff-6b2ce66c2ce9
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IVMRImagePresenterConfig9 interface [DirectShow],SetRenderingPrefs method, IVMRImagePresenterConfig9.SetRenderingPrefs, IVMRImagePresenterConfig9::SetRenderingPrefs, IVMRImagePresenterConfig9SetRenderingPrefs, SetRenderingPrefs, SetRenderingPrefs method [DirectShow], SetRenderingPrefs method [DirectShow],IVMRImagePresenterConfig9 interface, dshow.ivmrimagepresenterconfig9_setrenderingprefs, vmr9/IVMRImagePresenterConfig9::SetRenderingPrefs
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vmr9.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VMR9DeinterlaceTech
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IVMRImagePresenterConfig9.SetRenderingPrefs
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVMRImagePresenterConfig9::SetRenderingPrefs

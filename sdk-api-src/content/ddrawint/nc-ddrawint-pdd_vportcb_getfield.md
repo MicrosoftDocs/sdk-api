@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_VPORTCB_GETFIELD
+title: PDD_VPORTCB_GETFIELD
+author: windows-sdk-content
+description: The DdVideoPortGetField callback function determines whether the current field of an interlaced signal is even or odd.
+old-location: display\ddvideoportgetfield.htm
+old-project: display
+ms.assetid: e8c99103-31cd-4468-8b6b-1e56b31e10da
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DdVideoPortGetField, DdVideoPortGetField callback function [Display Devices], PDD_VPORTCB_GETFIELD, PDD_VPORTCB_GETFIELD callback, ddfncs_85abec9a-0917-4bde-88c7-9d94ead1745c.xml, ddrawint/DdVideoPortGetField, display.ddvideoportgetfield
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdVideoPortGetField
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_VPORTCB_GETFIELD callback function

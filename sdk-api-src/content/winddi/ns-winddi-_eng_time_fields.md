@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi._ENG_TIME_FIELDS
+title: "_ENG_TIME_FIELDS"
+author: windows-sdk-content
+description: The ENG_TIME_FIELDS structure is used by the EngQueryLocalTime function to return the local time.
+old-location: display\eng_time_fields.htm
+old-project: display
+ms.assetid: 482e1d15-d499-4ed2-87e7-760f03a454b5
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PENG_TIME_FIELDS, ENG_TIME_FIELDS, ENG_TIME_FIELDS structure [Display Devices], PENG_TIME_FIELDS, PENG_TIME_FIELDS structure pointer [Display Devices], _ENG_TIME_FIELDS, display.eng_time_fields, grstrcts_3611274f-4217-48c5-af9d-9470df8a39e8.xml, winddi/ENG_TIME_FIELDS, winddi/PENG_TIME_FIELDS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENG_TIME_FIELDS, *PENG_TIME_FIELDS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	ENG_TIME_FIELDS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _ENG_TIME_FIELDS structure

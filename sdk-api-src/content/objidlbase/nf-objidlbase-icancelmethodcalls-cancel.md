@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objidlbase.ICancelMethodCalls.Cancel
+title: ICancelMethodCalls::Cancel
+author: windows-sdk-content
+description: Requests that a method call be canceled.
+old-location: com\icancelmethodcalls_cancel.htm
+old-project: com
+ms.assetid: 3c3fdcec-10f1-4fbf-af93-582e7390decf
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: Cancel, Cancel method [COM], Cancel method [COM],ICancelMethodCalls interface, ICancelMethodCalls interface [COM],Cancel method, ICancelMethodCalls.Cancel, ICancelMethodCalls::Cancel, _com_icancelmethodcalls_cancel, com.icancelmethodcalls_cancel, objidlbase/ICancelMethodCalls::Cancel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: objidlbase.h
+req.include-header: ObjIdl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidlbase.h
+api_name:
+-	ICancelMethodCalls.Cancel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ICancelMethodCalls::Cancel

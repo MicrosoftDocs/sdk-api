@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:raseapif._PPP_EAP_PACKET
+title: "_PPP_EAP_PACKET"
+author: windows-sdk-content
+description: The PPP_EAP_PACKET structure specifies information about a packet being processed by the authentication protocol.
+old-location: eap\ppp_eap_packet.htm
+old-project: EAP
+ms.assetid: a1ca16d1-bf91-4986-a4f8-6e6ad382730f
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PPPP_EAP_PACKET, EAPCODE_Failure, EAPCODE_Request, EAPCODE_Response, EAPCODE_Success, PPPP_EAP_PACKET, PPPP_EAP_PACKET structure pointer [EAP], PPP_EAP_PACKET, PPP_EAP_PACKET structure [EAP], _PPP_EAP_PACKET, _eap_ppp_eap_packet, eap.ppp_eap_packet, raseapif/PPPP_EAP_PACKET, raseapif/PPP_EAP_PACKET"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: raseapif.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PPP_EAP_PACKET, *PPPP_EAP_PACKET
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Raseapif.h
+api_name:
+-	PPP_EAP_PACKET
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PPP_EAP_PACKET structure

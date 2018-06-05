@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:http._HTTP_UNKNOWN_HEADER
+title: "_HTTP_UNKNOWN_HEADER"
+author: windows-sdk-content
+description: Contains the name and value for a header in an HTTP request or response whose name does not appear in the enumeration.
+old-location: http\http_unknown_header.htm
+old-project: Http
+ms.assetid: 158f2979-58d3-4120-a74a-311b6fc53136
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_UNKNOWN_HEADER, HTTP_UNKNOWN_HEADER, HTTP_UNKNOWN_HEADER structure [HTTP], PHTTP_UNKNOWN_HEADER, PHTTP_UNKNOWN_HEADER structure pointer [HTTP], _HTTP_UNKNOWN_HEADER, _http_http_unknown_header, http.http_unknown_header, http/HTTP_UNKNOWN_HEADER, http/PHTTP_UNKNOWN_HEADER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_UNKNOWN_HEADER, *PHTTP_UNKNOWN_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_UNKNOWN_HEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_UNKNOWN_HEADER structure

@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl._HD_ITEMA
+title: "_HD_ITEMA"
+author: windows-sdk-content
+description: Contains information about an item in a header control. This structure supersedes the HD_ITEM structure.
+old-location: controls\HDITEM.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\header\structures\hditem.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPHDITEMA, Combining Flags:, Display:, HDFT_HASNOVALUE, HDFT_ISDATE, HDFT_ISNUMBER, HDFT_ISSTRING, HDF_BITMAP, HDF_BITMAP_ON_RIGHT, HDF_CENTER, HDF_CHECKBOX, HDF_CHECKED, HDF_FIXEDWIDTH, HDF_IMAGE, HDF_JUSTIFYMASK, HDF_LEFT, HDF_OWNERDRAW, HDF_RIGHT, HDF_RTLREADING, HDF_SORTDOWN, HDF_SORTUP, HDF_SPLITBUTTON, HDF_STRING, HDITEM, HDITEM structure [Windows Controls], HDITEMA, HDITEMW, HDI_BITMAP, HDI_DI_SETITEM, HDI_FILTER, HDI_FORMAT, HDI_HEIGHT, HDI_IMAGE, HDI_LPARAM, HDI_ORDER, HDI_STATE, HDI_TEXT, HDI_WIDTH, LPHDITEM, LPHDITEM structure pointer [Windows Controls], Text Justification:, _HD_ITEMA, _win32_HDITEM, _win32_HDITEM_cpp, commctrl/HDITEM, commctrl/HDITEMA, commctrl/HDITEMW, commctrl/LPHDITEM, controls.HDITEM, controls._win32_HDITEM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: HDITEMW (Unicode) and HDITEMA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HDITEMA, *LPHDITEMA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	HDITEM
+-	HDITEMA
+-	HDITEMW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _HD_ITEMA structure

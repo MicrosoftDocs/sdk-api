@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:encdec.IETFilter.SetRecordingOn
+title: IETFilter::SetRecordingOn
+author: windows-sdk-content
+description: The SetRecordingOn method signals to the Encrypter/Tagger filter that the Video Control is about to start or stop recording.
+old-location: mstv\ietfilter_setrecordingon.htm
+old-project: mstv
+ms.assetid: 4579b897-8b68-4b95-8dd4-e5fd94195742
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IETFilter interface [Microsoft TV Technologies],SetRecordingOn method, IETFilter.SetRecordingOn, IETFilter::SetRecordingOn, IETFilterSetRecordingOn, SetRecordingOn, SetRecordingOn method [Microsoft TV Technologies], SetRecordingOn method [Microsoft TV Technologies],IETFilter interface, encdec/IETFilter::SetRecordingOn, mstv.ietfilter_setrecordingon
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: encdec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ProtType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EncDec.h
+api_name:
+-	IETFilter.SetRecordingOn
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IETFilter::SetRecordingOn

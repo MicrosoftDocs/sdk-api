@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wow64apiset.GetSystemWow64Directory2A
+title: GetSystemWow64Directory2A function
+author: windows-sdk-content
+description: Retrieves the path of the system directory used by WOW64, using the specified image file machine type.
+old-location: base\getsystemwow64directory2.htm
+old-project: SysInfo
+ms.assetid: 938370BE-6EAB-4198-9AF3-ED8889E1E41F
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetSystemWow64Directory2, GetSystemWow64Directory2 function, GetSystemWow64Directory2A, GetSystemWow64Directory2W, base.getsystemwow64directory2, wow64apiset/GetSystemWow64Directory2, wow64apiset/GetSystemWow64Directory2A, wow64apiset/GetSystemWow64Directory2W
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wow64apiset.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1511 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetSystemWow64Directory2W (Unicode) and GetSystemWow64Directory2A (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	kernel32.lib
+-	API-MS-Win-Core-Wow64-L1-1-1.dll
+-	KernelBase.dll
+api_name:
+-	GetSystemWow64Directory2
+-	GetSystemWow64Directory2A
+-	GetSystemWow64Directory2W
+product: Windows
+targetos: Windows
+req.lib: Kernel32.dll
+req.dll: Kernel32.lib
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # GetSystemWow64Directory2A function

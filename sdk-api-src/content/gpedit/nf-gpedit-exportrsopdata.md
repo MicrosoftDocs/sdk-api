@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:gpedit.ExportRSoPData
+title: ExportRSoPData function
+author: windows-sdk-content
+description: The ExportRSoPData function exports a WMI namespace that contains RSoP information to a data file. The function writes the information to a data file that can be imported to a WMI namespace with a call to the ImportRSoPData function.
+old-location: policy\exportrsopdata.htm
+old-project: Policy
+ms.assetid: a3f20a35-8d9c-403b-ba76-24c8b3640c6d
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: ExportRSoPData, ExportRSoPData function [Group Policy], _win32_exportrsopdata, gpedit/ExportRSoPData, policy.exportrsopdata
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: gpedit.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Gpedit.dll
+api_name:
+-	ExportRSoPData
+product: Windows
+targetos: Windows
+req.lib: Gpedit.lib
+req.dll: Gpedit.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ExportRSoPData function

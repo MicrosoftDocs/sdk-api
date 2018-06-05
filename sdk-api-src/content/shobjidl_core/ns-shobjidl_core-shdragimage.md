@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shobjidl_core.SHDRAGIMAGE
+title: SHDRAGIMAGE
+author: windows-sdk-content
+description: Contains the information needed to create a drag image.
+old-location: shell\SHDRAGIMAGE_str.htm
+old-project: shell
+ms.assetid: e0dd76b2-fd5c-41e8-b540-db90a2f0dcec
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPSHDRAGIMAGE, LPSHDRAGIMAGE, LPSHDRAGIMAGE structure pointer [Windows Shell], SHDRAGIMAGE, SHDRAGIMAGE structure [Windows Shell], _win32_SHDRAGIMAGE_str, shell.SHDRAGIMAGE_str, shobjidl_core/LPSHDRAGIMAGE, shobjidl_core/SHDRAGIMAGE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional with SP3, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHDRAGIMAGE, *LPSHDRAGIMAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shobjidl_core.h
+api_name:
+-	SHDRAGIMAGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SHDRAGIMAGE structure

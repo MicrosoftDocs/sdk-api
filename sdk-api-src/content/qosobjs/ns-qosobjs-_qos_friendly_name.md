@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:qosobjs._QOS_FRIENDLY_NAME
+title: "_QOS_FRIENDLY_NAME"
+author: windows-sdk-content
+description: The QOS_FRIENDLY_NAME traffic control object associates a friendly name with flow.
+old-location: qos\qos_friendly_name.htm
+old-project: QOS
+ms.assetid: 9681fc36-0a31-4b2a-9719-085506126877
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPQOS_FRIENDLY_NAME, LPQOS_FRIENDLY_NAME, LPQOS_FRIENDLY_NAME structure pointer [QOS], QOS_FRIENDLY_NAME, QOS_FRIENDLY_NAME structure [QOS], _QOS_FRIENDLY_NAME, _gqos_qos_friendly_name, qos.qos_friendly_name, qosobjs/LPQOS_FRIENDLY_NAME, qosobjs/QOS_FRIENDLY_NAME"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: qosobjs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QOS_FRIENDLY_NAME, *LPQOS_FRIENDLY_NAME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	QosObjs.h
+api_name:
+-	QOS_FRIENDLY_NAME
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _QOS_FRIENDLY_NAME structure

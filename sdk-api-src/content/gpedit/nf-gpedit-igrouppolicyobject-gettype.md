@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:gpedit.IGroupPolicyObject.GetType
+title: IGroupPolicyObject::GetType
+author: windows-sdk-content
+description: The GetType method retrieves type information for the GPO being edited.
+old-location: policy\igrouppolicyobject_gettype.htm
+old-project: Policy
+ms.assetid: e64314aa-340f-496c-aa6b-4744573565f6
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GPOTypeDS, GPOTypeLocal, GPOTypeRemote, GetType, GetType method [Group Policy], GetType method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetType method, IGroupPolicyObject.GetType, IGroupPolicyObject::GetType, _win32_igrouppolicyobject_gettype, gpedit/IGroupPolicyObject::GetType, policy.igrouppolicyobject_gettype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: gpedit.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gpedit.dll
+api_name:
+-	IGroupPolicyObject.GetType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IGroupPolicyObject::GetType

@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:directmanipulation.IDirectManipulationUpdateHandler.Update
+title: IDirectManipulationUpdateHandler::Update
+author: windows-sdk-content
+description: Notifies the compositor when to update inertia animation.
+old-location: directmanipulation\idirectmanipulationupdatehandler_update.htm
+old-project: directmanipulation
+ms.assetid: 542eb9b6-aafa-4952-853e-4a73ed322ca3
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IDirectManipulationUpdateHandler interface [Direct Manipulation],Update method, IDirectManipulationUpdateHandler.Update, IDirectManipulationUpdateHandler::Update, Update, Update method [Direct Manipulation], Update method [Direct Manipulation],IDirectManipulationUpdateHandler interface, directmanipulation.idirectmanipulationupdatehandler_update, directmanipulation/IDirectManipulationUpdateHandler::Update
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DirectManipulation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DirectManipulation.h
+api_name:
+-	IDirectManipulationUpdateHandler.Update
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectManipulationUpdateHandler::Update

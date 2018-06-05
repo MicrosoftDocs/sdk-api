@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:psapi.PENUM_PAGE_FILE_CALLBACKA
+title: PENUM_PAGE_FILE_CALLBACKA
+author: windows-sdk-content
+description: An application-defined callback function used with the EnumPageFiles function.
+old-location: psapi\enumpagefilesproc.htm
+old-project: psapi
+ms.assetid: eb3610fb-2c95-4f7b-973d-8dc41d2829f1
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: EnumPageFilesProc, EnumPageFilesProc callback, EnumPageFilesProc callback function [PSAPI], PENUM_PAGE_FILE_CALLBACKA, PENUM_PAGE_FILE_CALLBACKW, _win32_enumpagefilesproc, base.enumpagefilesproc, psapi.enumpagefilesproc, psapi/EnumPageFilesProc, psapi/PENUM_PAGE_FILE_CALLBACKA, psapi/PENUM_PAGE_FILE_CALLBACKW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: psapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PENUM_PAGE_FILE_CALLBACKW (Unicode) and PENUM_PAGE_FILE_CALLBACKA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSHNOTIFY, *LPPSHNOTIFY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Psapi.h
+api_name:
+-	EnumPageFilesProc
+-	PENUM_PAGE_FILE_CALLBACKA
+-	PENUM_PAGE_FILE_CALLBACKW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PENUM_PAGE_FILE_CALLBACKA callback function

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdatif.IMPEG2_TIF_CONTROL.GetPIDs
+title: IMPEG2_TIF_CONTROL::GetPIDs
+author: windows-sdk-content
+description: The GetPIDs method retrieves the list of MPEG-2 Packet IDs being filtered into the TIF's input data.
+old-location: mstv\impeg2_tif_control_getpids.htm
+old-project: mstv
+ms.assetid: c7ca141b-e471-47ce-96b5-b2c0cad89daf
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetPIDs, GetPIDs method [Microsoft TV Technologies], GetPIDs method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],GetPIDs method, IMPEG2_TIF_CONTROL.GetPIDs, IMPEG2_TIF_CONTROL::GetPIDs, IMPEG2_TIF_CONTROLGetPIDs, bdatif/IMPEG2_TIF_CONTROL::GetPIDs, mstv.impeg2_tif_control_getpids
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdatif.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SmartCardApplication
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdatif.h
+api_name:
+-	IMPEG2_TIF_CONTROL.GetPIDs
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IMPEG2_TIF_CONTROL::GetPIDs

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:accctrl._TRUSTEE_FORM
+title: "_TRUSTEE_FORM"
+author: windows-sdk-content
+description: Values that indicate the type of data pointed to by the ptstrName member of the TRUSTEE structure.
+old-location: security\trustee_form.htm
+old-project: SecAuthZ
+ms.assetid: 991ac6cb-3fc9-4915-b5c9-ae73efb25d68
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: TRUSTEE_BAD_FORM, TRUSTEE_FORM, TRUSTEE_FORM enumeration [Security], TRUSTEE_IS_NAME, TRUSTEE_IS_OBJECTS_AND_NAME, TRUSTEE_IS_OBJECTS_AND_SID, TRUSTEE_IS_SID, _TRUSTEE_FORM, _win32_trustee_form_str, accctrl/TRUSTEE_BAD_FORM, accctrl/TRUSTEE_FORM, accctrl/TRUSTEE_IS_NAME, accctrl/TRUSTEE_IS_OBJECTS_AND_NAME, accctrl/TRUSTEE_IS_OBJECTS_AND_SID, accctrl/TRUSTEE_IS_SID, security.trustee_form
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: accctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,19 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTEE_FORM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AccCtrl.h
+api_name:
+-	TRUSTEE_FORM
+product: Windows
+targetos: Windows
 ---
 
 # _TRUSTEE_FORM enumeration

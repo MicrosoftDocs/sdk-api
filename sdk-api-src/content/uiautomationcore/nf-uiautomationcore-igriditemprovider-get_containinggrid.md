@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcore.IGridItemProvider.get_ContainingGrid
+title: IGridItemProvider::get_ContainingGrid
+author: windows-sdk-content
+description: Specifies the UI Automation provider that implements IGridProvider and represents the container of this cell or item.
+old-location: winauto\uiauto_IGridItemProvider_ContainingGrid.htm
+old-project: WinAuto
+ms.assetid: 760abeea-e432-49e3-a2df-0f6f30b029f0
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: ContainingGrid property [Windows Accessibility], ContainingGrid property [Windows Accessibility],IGridItemProvider interface, IGridItemProvider interface [Windows Accessibility],ContainingGrid property, IGridItemProvider.ContainingGrid, IGridItemProvider.get_ContainingGrid, IGridItemProvider::ContainingGrid, IGridItemProvider::get_ContainingGrid, get_ContainingGrid, uiauto.uiauto_IGridItemProvider_ContainingGrid, uiauto_IGridItemProvider_ContainingGrid, uiautomationcore/IGridItemProvider::ContainingGrid, uiautomationcore/IGridItemProvider::get_ContainingGrid, winauto.uiauto_IGridItemProvider_ContainingGrid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationCore.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uiautomationcore.dll
+api_name:
+-	IGridItemProvider.ContainingGrid
+-	IGridItemProvider.get_ContainingGrid
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IGridItemProvider::get_ContainingGrid

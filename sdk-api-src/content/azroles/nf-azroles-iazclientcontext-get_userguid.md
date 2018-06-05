@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzClientContext.get_UserGuid
+title: IAzClientContext::get_UserGuid
+author: windows-sdk-content
+description: Retrieves the name of the current client in GUID format.
+old-location: security\iazclientcontext_userguid.htm
+old-project: SecAuthZ
+ms.assetid: fd60d1d0-67b9-457f-a01e-6ea470d9db6a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AzClientContext object [Security],UserGuid property, IAzClientContext interface [Security],UserGuid property, IAzClientContext.UserGuid, IAzClientContext.get_UserGuid, IAzClientContext::UserGuid, IAzClientContext::get_UserGuid, UserGuid property [Security], UserGuid property [Security],AzClientContext object, UserGuid property [Security],IAzClientContext interface, azroles/IAzClientContext::UserGuid, azroles/IAzClientContext::get_UserGuid, get_UserGuid, security.iazclientcontext_userguid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzClientContext.UserGuid
+-	IAzClientContext.get_UserGuid
+-	AzClientContext.UserGuid
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzClientContext::get_UserGuid

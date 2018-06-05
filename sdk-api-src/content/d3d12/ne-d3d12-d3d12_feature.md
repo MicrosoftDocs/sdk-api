@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12.D3D12_FEATURE
+title: D3D12_FEATURE
+author: windows-sdk-content
+description: Direct3D 12 feature options that are supported by the current graphics driver.
+old-location: direct3d12\d3d12_feature.htm
+old-project: direct3d12
+ms.assetid: 165ECFE0-1B18-4A26-8B9C-3CE53776A349
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_FEATURE, D3D12_FEATURE enumeration, D3D12_FEATURE_ARCHITECTURE, D3D12_FEATURE_ARCHITECTURE1, D3D12_FEATURE_COMMAND_QUEUE_PRIORITY, D3D12_FEATURE_D3D12_OPTIONS, D3D12_FEATURE_D3D12_OPTIONS1, D3D12_FEATURE_D3D12_OPTIONS2, D3D12_FEATURE_D3D12_OPTIONS3, D3D12_FEATURE_EXISTING_HEAPS, D3D12_FEATURE_FEATURE_LEVELS, D3D12_FEATURE_FORMAT_INFO, D3D12_FEATURE_FORMAT_SUPPORT, D3D12_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT, D3D12_FEATURE_MULTISAMPLE_QUALITY_LEVELS, D3D12_FEATURE_ROOT_SIGNATURE, D3D12_FEATURE_SHADER_CACHE, D3D12_FEATURE_SHADER_MODEL, d3d12/D3D12_FEATURE, d3d12/D3D12_FEATURE_ARCHITECTURE, d3d12/D3D12_FEATURE_ARCHITECTURE1, d3d12/D3D12_FEATURE_COMMAND_QUEUE_PRIORITY, d3d12/D3D12_FEATURE_D3D12_OPTIONS, d3d12/D3D12_FEATURE_D3D12_OPTIONS1, d3d12/D3D12_FEATURE_D3D12_OPTIONS2, d3d12/D3D12_FEATURE_D3D12_OPTIONS3, d3d12/D3D12_FEATURE_EXISTING_HEAPS, d3d12/D3D12_FEATURE_FEATURE_LEVELS, d3d12/D3D12_FEATURE_FORMAT_INFO, d3d12/D3D12_FEATURE_FORMAT_SUPPORT, d3d12/D3D12_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT, d3d12/D3D12_FEATURE_MULTISAMPLE_QUALITY_LEVELS, d3d12/D3D12_FEATURE_ROOT_SIGNATURE, d3d12/D3D12_FEATURE_SHADER_CACHE, d3d12/D3D12_FEATURE_SHADER_MODEL, direct3d12.d3d12_feature
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_FEATURE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D12.h
+api_name:
+-	D3D12_FEATURE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_FEATURE enumeration

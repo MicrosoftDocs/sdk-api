@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmPipelineModuleConnector.get_HostingProcessPid
+title: IFsrmPipelineModuleConnector::get_HostingProcessPid
+author: windows-sdk-content
+description: The process identifier of the module.
+old-location: fsrm\ifsrmpipelinemoduleconnector_hostingprocesspid.htm
+old-project: Fsrm
+ms.assetid: bd9259de-35e4-46e9-9994-388c3ac77172
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],HostingProcessPid property, HostingProcessPid property [File Server Resource Manager], HostingProcessPid property [File Server Resource Manager],FsrmPipelineModuleConnector class, HostingProcessPid property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, IFsrmPipelineModuleConnector interface [File Server Resource Manager],HostingProcessPid property, IFsrmPipelineModuleConnector.HostingProcessPid, IFsrmPipelineModuleConnector.get_HostingProcessPid, IFsrmPipelineModuleConnector::HostingProcessPid, IFsrmPipelineModuleConnector::get_HostingProcessPid, fs.ifsrmpipelinemoduleconnector_hostingprocesspid, fsrm.ifsrmpipelinemoduleconnector_hostingprocesspid, fsrmpipeline/IFsrmPipelineModuleConnector::HostingProcessPid, fsrmpipeline/IFsrmPipelineModuleConnector::get_HostingProcessPid, get_HostingProcessPid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: FsrmPipeline.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmPipelineModuleConnector.HostingProcessPid
+-	IFsrmPipelineModuleConnector.get_HostingProcessPid
+-	FsrmPipelineModuleConnector.HostingProcessPid
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmPipelineModuleConnector::get_HostingProcessPid

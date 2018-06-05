@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d12shader.ID3D12ShaderReflection.GetRequiresFlags
+title: ID3D12ShaderReflection::GetRequiresFlags
+author: windows-sdk-content
+description: Gets a group of flags that indicates the requirements of a shader.
+old-location: direct3d12\id3d12shaderreflection_getrequiresflags.htm
+old-project: direct3d12
+ms.assetid: ABA7BB9E-AB1D-407A-BB16-97EE74318C1A
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: GetRequiresFlags, GetRequiresFlags method, GetRequiresFlags method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetRequiresFlags method, ID3D12ShaderReflection.GetRequiresFlags, ID3D12ShaderReflection::GetRequiresFlags, d3d12shader/ID3D12ShaderReflection::GetRequiresFlags, direct3d12.id3d12shaderreflection_getrequiresflags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d12shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SHADER_VERSION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12shader.h
+api_name:
+-	ID3D12ShaderReflection.GetRequiresFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D12ShaderReflection::GetRequiresFlags

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3.AGENTHANDLER_EVENT
+title: AGENTHANDLER_EVENT
+author: windows-sdk-content
+description: The AGENTHANDLER_EVENT enum describes agent handler events. The ITAgentHandlerEvent::get_Event method returns a member of this enum to indicate the type of agent handler event that occurred.
+old-location: tapi3\agenthandler_event.htm
+old-project: Tapi
+ms.assetid: 6d8340a9-dfe5-43bc-a223-d534f5b90cba
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: AGENTHANDLER_EVENT, AGENTHANDLER_EVENT enumeration [TAPI 2.2], AHE_AGENTHANDLER_REMOVED, AHE_NEW_AGENTHANDLER, _tapi3_agenthandler_event, tapi3.agenthandler_event, tapi3cc/AGENTHANDLER_EVENT, tapi3cc/AHE_AGENTHANDLER_REMOVED, tapi3cc/AHE_NEW_AGENTHANDLER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AGENTHANDLER_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tapi3cc.h
+api_name:
+-	AGENTHANDLER_EVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # AGENTHANDLER_EVENT enumeration

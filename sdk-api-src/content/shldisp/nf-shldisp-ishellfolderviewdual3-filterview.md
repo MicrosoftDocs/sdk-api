@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shldisp.IShellFolderViewDual3.FilterView
+title: IShellFolderViewDual3::FilterView
+author: windows-sdk-content
+description: Sets the filter on the contents of the current view.
+old-location: shell\IShellFolderViewDual3_FilterView.htm
+old-project: shell
+ms.assetid: 60808015-317e-469f-aa28-a2c2bfdb16a8
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: FilterView, FilterView method [Windows Shell], FilterView method [Windows Shell],IShellFolderViewDual3 interface, IShellFolderViewDual3 interface [Windows Shell],FilterView method, IShellFolderViewDual3.FilterView, IShellFolderViewDual3::FilterView, _shell_IShellFolderViewDual3_FilterView, shell.IShellFolderViewDual3_FilterView, shldisp/IShellFolderViewDual3::FilterView
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shldisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shldisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETEOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shldisp.h
+api_name:
+-	IShellFolderViewDual3.FilterView
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # IShellFolderViewDual3::FilterView

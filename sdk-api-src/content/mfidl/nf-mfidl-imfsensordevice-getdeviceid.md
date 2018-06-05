@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFSensorDevice.GetDeviceId
+title: IMFSensorDevice::GetDeviceId
+author: windows-sdk-content
+description: Gets the unique identifier for the device. This value is currently unused.
+old-location: mf\imfsensordevice_getdeviceid.htm
+old-project: medfound
+ms.assetid: 90598DC7-A4FB-4C3F-A671-1549703AC9DB
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetDeviceId, GetDeviceId method [Media Foundation], GetDeviceId method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceId method, IMFSensorDevice.GetDeviceId, IMFSensorDevice::GetDeviceId, mf.imfsensordevice_getdeviceid, mfidl/IMFSensorDevice::GetDeviceId
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfplat.lib
+-	mfplat.dll
+-	mfplat.dll
+-	mfplat.dll.dll
+api_name:
+-	IMFSensorDevice.GetDeviceId
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSensorDevice::GetDeviceId

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfContextOwner.GetAttribute
+title: ITfContextOwner::GetAttribute
+author: windows-sdk-content
+description: The ITfContextOwner::GetAttribute method returns the value of a supported attribute. If the attribute is unsupported, the pvarValue parameter is set to VT_EMPTY.
+old-location: tsf\itfcontextowner_getattribute.htm
+old-project: TSF
+ms.assetid: a249d529-fdb1-4f5f-84ae-f26dae917609
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetAttribute, GetAttribute method [Text Services Framework], GetAttribute method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetAttribute method, ITfContextOwner.GetAttribute, ITfContextOwner::GetAttribute, _tsf_itfcontextowner_getattribute_ref, msctf/ITfContextOwner::GetAttribute, tsf.itfcontextowner_getattribute
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msimtf.dll
+api_name:
+-	ITfContextOwner.GetAttribute
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msimtf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfContextOwner::GetAttribute

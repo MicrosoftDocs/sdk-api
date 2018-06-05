@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dot1x._ONEX_AUTH_RESTART_REASON
+title: "_ONEX_AUTH_RESTART_REASON"
+author: windows-sdk-content
+description: Specifies the possible reasons that 802.1X authentication was restarted.
+old-location: nwifi\onex_auth_restart_reason.htm
+old-project: NativeWiFi
+ms.assetid: 794231da-ef4e-4419-9ff8-9b23483853d1
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: ONEX_AUTH_RESTART_REASON, ONEX_AUTH_RESTART_REASON enumeration [NativeWIFI], OneXRestartReasonAltCredsTrial, OneXRestartReasonInvalid, OneXRestartReasonMsmInitiated, OneXRestartReasonOneXAuthTimeout, OneXRestartReasonOneXConfigurationChanged, OneXRestartReasonOneXHeldStateTimeout, OneXRestartReasonOneXUserChanged, OneXRestartReasonPeerInitiated, OneXRestartReasonQuarantineStateChanged, PONEX_AUTH_RESTART_REASON, PONEX_AUTH_RESTART_REASON enumeration pointer [NativeWIFI], _ONEX_AUTH_RESTART_REASON, dot1x/ONEX_AUTH_RESTART_REASON, dot1x/OneXRestartReasonAltCredsTrial, dot1x/OneXRestartReasonInvalid, dot1x/OneXRestartReasonMsmInitiated, dot1x/OneXRestartReasonOneXAuthTimeout, dot1x/OneXRestartReasonOneXConfigurationChanged, dot1x/OneXRestartReasonOneXHeldStateTimeout, dot1x/OneXRestartReasonOneXUserChanged, dot1x/OneXRestartReasonPeerInitiated, dot1x/OneXRestartReasonQuarantineStateChanged, dot1x/PONEX_AUTH_RESTART_REASON, nwifi.onex_auth_restart_reason
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dot1x.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ONEX_AUTH_RESTART_REASON, PONEX_AUTH_RESTART_REASON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dot1x.h
+api_name:
+-	ONEX_AUTH_RESTART_REASON
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _ONEX_AUTH_RESTART_REASON enumeration

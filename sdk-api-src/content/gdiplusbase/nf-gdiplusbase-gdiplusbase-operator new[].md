@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:gdiplusbase.GdiplusBase.operator new[]
+title: GdiplusBase::operator new[]
+author: windows-sdk-content
+description: The GdiplusBase::operator new[] method allocates memory for an array of Windows GDI+ objects.
+old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_operator_new_bracket_in_size_.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbaseclass\gdiplusbasemethods\operatornew[].htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GdiplusBase class [GDI+],operator new[] method, GdiplusBase.operator new[], GdiplusBase::operator new[], _gdiplus_CLASS_GdiplusBase_operator_new_bracket_in_size_, gdiplus._gdiplus_CLASS_GdiplusBase_operator_new_bracket_in_size_, operator new[], operator new[] method [GDI+], operator new[] method [GDI+],GdiplusBase class
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: gdiplusbase.h
+req.include-header: Gdiplus.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KnownGamingPrivileges
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gdiplus.lib
+-	Gdiplus.dll
+api_name:
+-	GdiplusBase.operator new[]
+product: Windows
+targetos: Windows
+req.lib: Gdiplus.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.0
 ---
 
 # GdiplusBase::operator new[]

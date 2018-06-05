@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clfs._CLS_IO_STATISTICS_HEADER
+title: "_CLS_IO_STATISTICS_HEADER"
+author: windows-sdk-content
+description: Header for information retrieved by the GetLogIoStatistics function, which defines the I/O performance counters of a log.
+old-location: fs\clfs_io_statistics_header.htm
+old-project: Clfs
+ms.assetid: ebf3f962-5c15-4caf-910a-13bf02137046
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PCLFS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER, CLFS_IO_STATISTICS_HEADER, CLFS_IO_STATISTICS_HEADER structure [Files], CLS_IO_STATISTICS_HEADER, PCLFS_IO_STATISTICS_HEADER, PCLFS_IO_STATISTICS_HEADER structure pointer [Files], PPCLFS_IO_STATISTICS_HEADER, PPCLFS_IO_STATISTICS_HEADER structure pointer [Files], PPCLS_IO_STATISTICS_HEADER, _CLS_IO_STATISTICS_HEADER, clfs/PCLFS_IO_STATISTICS_HEADER, clfs/PPCLFS_IO_STATISTICS_HEADER, clfs/_CLFS_IO_STATISTICS_HEADER, fs.clfs_io_statistics_header"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clfs.h
+req.include-header: Clfsw32.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER, PPCLS_IO_STATISTICS_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Clfs.h
+api_name:
+-	CLFS_IO_STATISTICS_HEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CLS_IO_STATISTICS_HEADER structure

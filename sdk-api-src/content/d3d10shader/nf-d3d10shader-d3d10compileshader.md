@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d10shader.D3D10CompileShader
+title: D3D10CompileShader function
+author: windows-sdk-content
+description: Compile an HLSL shader.
+old-location: direct3d10\d3d10compileshader.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10compileshader.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 8461622f-7f35-e519-3be6-83d985b2cece, D3D10CompileShader, D3D10CompileShader function [Direct3D 10], d3d10shader/D3D10CompileShader, direct3d10.d3d10compileshader
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d3d10shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_MESSAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D3D10.dll
+api_name:
+-	D3D10CompileShader
+product: Windows
+targetos: Windows
+req.lib: D3D10.lib
+req.dll: D3D10.dll
+req.irql: 
 ---
 
 # D3D10CompileShader function

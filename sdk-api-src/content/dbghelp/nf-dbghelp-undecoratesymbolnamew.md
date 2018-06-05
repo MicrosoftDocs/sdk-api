@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dbghelp.UnDecorateSymbolNameW
+title: UnDecorateSymbolNameW function
+author: windows-sdk-content
+description: Undecorates the specified decorated C++ symbol name.
+old-location: base\undecoratesymbolname.htm
+old-project: Debug
+ms.assetid: f52e8e3b-3113-4d8c-b44a-846c574cfbd8
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: UNDNAME_32_BIT_DECODE, UNDNAME_COMPLETE, UNDNAME_NAME_ONLY, UNDNAME_NO_ACCESS_SPECIFIERS, UNDNAME_NO_ALLOCATION_LANGUAGE, UNDNAME_NO_ALLOCATION_MODEL, UNDNAME_NO_ARGUMENTS, UNDNAME_NO_CV_THISTYPE, UNDNAME_NO_FUNCTION_RETURNS, UNDNAME_NO_LEADING_UNDERSCORES, UNDNAME_NO_MEMBER_TYPE, UNDNAME_NO_MS_KEYWORDS, UNDNAME_NO_MS_THISTYPE, UNDNAME_NO_RETURN_UDT_MODEL, UNDNAME_NO_SPECIAL_SYMS, UNDNAME_NO_THISTYPE, UNDNAME_NO_THROW_SIGNATURES, UnDecorateSymbolName, UnDecorateSymbolName function, UnDecorateSymbolNameW, _win32_undecoratesymbolname, base.undecoratesymbolname, dbghelp/UnDecorateSymbolName, dbghelp/UnDecorateSymbolNameW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: UnDecorateSymbolNameW (Unicode) and UnDecorateSymbolName (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dbghelp.dll
+api_name:
+-	UnDecorateSymbolName
+-	UnDecorateSymbolName
+-	UnDecorateSymbolNameW
+product: Windows
+targetos: Windows
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 ---
 
 # UnDecorateSymbolNameW function

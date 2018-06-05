@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:msctf.ITfUIElementMgr
+title: ITfUIElementMgr
+author: windows-sdk-content
+description: The ITfUIElementMgr interface is implemented by TSF manager and used by an application or a text service. An application and a text service can obtain this interface by ITfThreadMgr::QueryInterface with IID_ITfUIElementMgr.
+old-location: tsf\itfuielementmgr.htm
+old-project: TSF
+ms.assetid: 7b4d3f4e-bf30-45c6-8709-88b71b25d333
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITfUIElementMgr, ITfUIElementMgr interface [Text Services Framework], ITfUIElementMgr interface [Text Services Framework],described, _tsf_itfuielementmgr_ref, msctf/ITfUIElementMgr, tsf.itfuielementmgr
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.h
+api_name:
+-	ITfUIElementMgr
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfUIElementMgr interface

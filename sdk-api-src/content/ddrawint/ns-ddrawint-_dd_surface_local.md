@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_SURFACE_LOCAL
+title: "_DD_SURFACE_LOCAL"
+author: windows-sdk-content
+description: The DD_SURFACE_LOCAL structure contains surface-related data that is unique to an individual surface object.
+old-location: display\dd_surface_local.htm
+old-project: display
+ms.assetid: 45a41cec-0257-4e26-809d-c2fc4c247328
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_SURFACE_LOCAL, DD_SURFACE_LOCAL, DD_SURFACE_LOCAL structure [Display Devices], _DD_SURFACE_LOCAL, ddrawint/DD_SURFACE_LOCAL, ddstrcts_07a504fc-c8bb-4b48-b825-4da3012e4f95.xml, display.dd_surface_local"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_SURFACE_LOCAL, DD_SURFACE_LOCAL"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_SURFACE_LOCAL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_SURFACE_LOCAL structure

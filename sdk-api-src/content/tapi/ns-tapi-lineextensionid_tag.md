@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:tapi.lineextensionid_tag
+title: lineextensionid_tag
+author: windows-sdk-content
+description: The LINEEXTENSIONID structure describes an extension identifier.
+old-location: tapi2\lineextensionid_str.htm
+old-project: Tapi
+ms.assetid: bf7d9ccc-3f80-4e54-bcc2-cc2fef1d24af
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*LPLINEEXTENSIONID, LINEEXTENSIONID, LINEEXTENSIONID structure [TAPI 2.2], LPLINEEXTENSIONID, LPLINEEXTENSIONID structure pointer [TAPI 2.2], _tapi2_lineextensionid_str, lineextensionid_tag, tapi/LINEEXTENSIONID, tapi/LPLINEEXTENSIONID, tapi2.lineextensionid_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LINEEXTENSIONID, *LPLINEEXTENSIONID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi.h
+api_name:
+-	LINEEXTENSIONID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # lineextensionid_tag structure

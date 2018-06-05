@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkDisp.HitTestCircle
+title: IInkDisp::HitTestCircle
+author: windows-sdk-content
+description: Retrieves the InkStrokes collection that are either completely inside or intersected by a known circle.
+old-location: tablet\inkdisp_hittest_point__single.htm
+old-project: tablet
+ms.assetid: 2025f728-cb08-4285-8584-c9ad537e58f2
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 2025f728-cb08-4285-8584-c9ad537e58f2, HitTestCircle, HitTestCircle method [Tablet PC], HitTestCircle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],HitTestCircle method, IInkDisp.HitTestCircle, IInkDisp::HitTestCircle, msinkaut/IInkDisp::HitTestCircle, tablet.inkdisp_hittest_point__single
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkDisp.HitTestCircle
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkDisp::HitTestCircle

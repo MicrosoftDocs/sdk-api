@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemQualifierSet.Delete
+title: IWbemQualifierSet::Delete
+author: windows-sdk-content
+description: The IWbemQualifierSet::Delete method deletes the specified qualifier by name.
+old-location: wmi\iwbemqualifierset_delete.htm
+old-project: WmiSdk
+ms.assetid: 77e61fd1-a835-4ed7-8880-9eab65611ebc
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: Delete, Delete method [Windows Management Instrumentation], Delete method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],Delete method, IWbemQualifierSet.Delete, IWbemQualifierSet::Delete, _hmm_iwbemqualifierset_delete, wbemcli/IWbemQualifierSet::Delete, wmi.iwbemqualifierset_delete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fastprox.dll
+-	Krnlprov.dll
+-	Ncprov.dll
+-	Wbemcore.dll
+api_name:
+-	IWbemQualifierSet.Delete
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemQualifierSet::Delete

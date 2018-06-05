@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_LNBInfo.put_HighLowSwitchFrequency
+title: IBDA_LNBInfo::put_HighLowSwitchFrequency
+author: windows-sdk-content
+description: The put_HighLowSwitchFrequency method specifies the frequency of the high-low switch.
+old-location: mstv\ibda_lnbinfo_put_highlowswitchfrequency.htm
+old-project: mstv
+ms.assetid: 3edde05f-1cdb-4648-a34b-ba95e4fcff12
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBDA_LNBInfo interface [Microsoft TV Technologies],put_HighLowSwitchFrequency method, IBDA_LNBInfo.put_HighLowSwitchFrequency, IBDA_LNBInfo::put_HighLowSwitchFrequency, IBDA_LNBInfoput_HighLowSwitchFrequency, bdaiface/IBDA_LNBInfo::put_HighLowSwitchFrequency, mstv.ibda_lnbinfo_put_highlowswitchfrequency, put_HighLowSwitchFrequency, put_HighLowSwitchFrequency method [Microsoft TV Technologies], put_HighLowSwitchFrequency method [Microsoft TV Technologies],IBDA_LNBInfo interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_LNBInfo.put_HighLowSwitchFrequency
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_LNBInfo::put_HighLowSwitchFrequency

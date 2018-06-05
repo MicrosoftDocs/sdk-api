@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:identityprovider.IAssociatedIdentityProvider.ChangeCredential
+title: IAssociatedIdentityProvider::ChangeCredential
+author: windows-sdk-content
+description: Changes the credentials associated with the specified identity.
+old-location: security\iassociatedidentityprovider_changecredential.htm
+old-project: SecAuthN
+ms.assetid: 6a4361a8-8054-434e-9852-fcc20b1086cd
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ChangeCredential, ChangeCredential method [Security], ChangeCredential method [Security],IAssociatedIdentityProvider interface, IAssociatedIdentityProvider interface [Security],ChangeCredential method, IAssociatedIdentityProvider.ChangeCredential, IAssociatedIdentityProvider::ChangeCredential, identityprovider/IAssociatedIdentityProvider::ChangeCredential, identitystore/IAssociatedIdentityProvider::ChangeCredential, security.iassociatedidentityprovider_changecredential
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: identityprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Identitystore.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IDENTITY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	IdentityProvider.h
+-	Identitystore.h
+api_name:
+-	IAssociatedIdentityProvider.ChangeCredential
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IAssociatedIdentityProvider::ChangeCredential

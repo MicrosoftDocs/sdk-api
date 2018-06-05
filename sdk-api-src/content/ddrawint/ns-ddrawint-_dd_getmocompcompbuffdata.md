@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_GETMOCOMPCOMPBUFFDATA
+title: "_DD_GETMOCOMPCOMPBUFFDATA"
+author: windows-sdk-content
+description: The DD_GETMOCOMPCOMPBUFFDATA structure contains the compressed buffer information.
+old-location: display\dd_getmocompcompbuffdata.htm
+old-project: display
+ms.assetid: 5510d430-834c-42ea-a113-c17b1b87ea52
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA structure [Display Devices], _DD_GETMOCOMPCOMPBUFFDATA, ddrawint/DD_GETMOCOMPCOMPBUFFDATA, ddstrcts_20d1802e-7979-4336-b730-a161f771c24a.xml, display.dd_getmocompcompbuffdata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_GETMOCOMPCOMPBUFFDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_GETMOCOMPCOMPBUFFDATA structure

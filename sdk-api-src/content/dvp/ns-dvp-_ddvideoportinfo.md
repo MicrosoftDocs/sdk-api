@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dvp._DDVIDEOPORTINFO
+title: "_DDVIDEOPORTINFO"
+author: windows-sdk-content
+description: The DDVIDEOPORTINFO structure describes how the driver should transfer video data to a surface (or to surfaces); DDVIDEOPORTINFO is a member of the DD_VIDEOPORT_LOCAL structure.
+old-location: display\ddvideoportinfo.htm
+old-project: display
+ms.assetid: 65423d9e-d3b8-4545-8afe-09b3375dbac2
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDVIDEOPORTINFO, DDVIDEOPORTINFO, DDVIDEOPORTINFO structure [Display Devices], _DDVIDEOPORTINFO, ddstrcts_7190df68-6789-4dd1-8cbf-697a863435c5.xml, display.ddvideoportinfo, dvp/DDVIDEOPORTINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dvp.h
+req.include-header: Dvp.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDVIDEOPORTINFO, DDVIDEOPORTINFO"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dvp.h
+api_name:
+-	DDVIDEOPORTINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DDVIDEOPORTINFO structure

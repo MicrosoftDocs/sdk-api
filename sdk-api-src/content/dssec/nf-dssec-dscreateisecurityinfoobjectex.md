@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dssec.DSCreateISecurityInfoObjectEx
+title: DSCreateISecurityInfoObjectEx function
+author: windows-sdk-content
+description: Creates an instance of the ISecurityInformation interface associated with the specified directory service (DS) object on the specified server.
+old-location: security\dscreateisecurityinfoobjectex.htm
+old-project: SecAuthZ
+ms.assetid: b0622c7b-49f2-4879-a0dc-9267851fe03d
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DSCreateISecurityInfoObjectEx, DSCreateISecurityInfoObjectEx function [Security], DSSI_IS_ROOT, DSSI_NO_ACCESS_CHECK, DSSI_NO_EDIT_OWNER, DSSI_NO_EDIT_SACL, DSSI_NO_FILTER, DSSI_NO_READONLY_MESSAGE, DSSI_READ_ONLY, dssec/DSCreateISecurityInfoObjectEx, security.dscreateisecurityinfoobjectex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dssec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	DSSec.dll
+api_name:
+-	DSCreateISecurityInfoObjectEx
+product: Windows
+targetos: Windows
+req.lib: DSSec.lib
+req.dll: DSSec.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DSCreateISecurityInfoObjectEx function

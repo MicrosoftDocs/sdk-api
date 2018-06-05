@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:eaptypes._EapUsernamePasswordCredential
+title: "_EapUsernamePasswordCredential"
+author: windows-sdk-content
+description: Contains the username and password that is used by the EAP method for authenticating the user.
+old-location: eaphost\eapusernamepasswordcredential.htm
+old-project: EAPHost
+ms.assetid: 61484095-4354-4103-9E21-683002750B26
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: EapUsernamePasswordCredential, EapUsernamePasswordCredential structure [EAPHost], _EapUsernamePasswordCredential, eaphost.eapusernamepasswordcredential, eaptypes/EapUsernamePasswordCredential
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: eaptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EapUsernamePasswordCredential
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	eaptypes.h
+api_name:
+-	EapUsernamePasswordCredential
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _EapUsernamePasswordCredential structure

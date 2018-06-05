@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netcon.IEnumNetSharingPrivateConnection.Next
+title: IEnumNetSharingPrivateConnection::Next
+author: windows-sdk-content
+description: The Next method retrieves the specified number of privately-shared connections that start from the current enumeration position.
+old-location: ics\ienumnetsharingprivateconnection_next.htm
+old-project: ICS
+ms.assetid: 3f9cc481-8967-4b1e-95b2-c6ddec20a1ea
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: IEnumNetSharingPrivateConnection interface [ICS/ICF],Next method, IEnumNetSharingPrivateConnection.Next, IEnumNetSharingPrivateConnection::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingPrivateConnection interface, _ics_ienumnetsharingprivateconnection_next, ics.ienumnetsharingprivateconnection_next, netcon/IEnumNetSharingPrivateConnection::Next
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netcon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Hnetcfg.dll
+api_name:
+-	IEnumNetSharingPrivateConnection.Next
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumNetSharingPrivateConnection::Next

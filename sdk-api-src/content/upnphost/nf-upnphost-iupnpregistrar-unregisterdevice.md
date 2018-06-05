@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:upnphost.IUPnPRegistrar.UnregisterDevice
+title: IUPnPRegistrar::UnregisterDevice
+author: windows-sdk-content
+description: The UnregisterDevice method unregisters the device from the device host. A device is either temporarily or permanently unregistered.
+old-location: upnp\iupnpregistrar_unregisterdevice.htm
+old-project: UPnP
+ms.assetid: 76fca00c-8638-4e2f-8dd1-20b24cde0108
+ms.author: windowssdkdev
+ms.date: 04/25/2018
+ms.keywords: IUPnPRegistrar interface [UPnP APIs],UnregisterDevice method, IUPnPRegistrar.UnregisterDevice, IUPnPRegistrar::UnregisterDevice, UnregisterDevice, UnregisterDevice method [UPnP APIs], UnregisterDevice method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_unregisterdevice, upnp.iupnpregistrar_unregisterdevice, upnphost/IUPnPRegistrar::UnregisterDevice
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: upnphost.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Upnphost.dll
+api_name:
+-	IUPnPRegistrar.UnregisterDevice
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUPnPRegistrar::UnregisterDevice

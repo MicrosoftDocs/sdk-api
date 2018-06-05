@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxgidebug.IDXGIInfoQueue.GetMessage
+title: IDXGIInfoQueue::GetMessage
+author: windows-sdk-content
+description: Gets a message from the message queue.
+old-location: direct3ddxgi\idxgiinfoqueue_getmessage.htm
+old-project: direct3ddxgi
+ms.assetid: 208C3253-09AE-4379-808D-BA0BECC59BF8
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: GetMessage, GetMessage method [DXGI], GetMessage method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMessage method, IDXGIInfoQueue.GetMessage, IDXGIInfoQueue::GetMessage, direct3ddxgi.idxgiinfoqueue_getmessage, dxgidebug/IDXGIInfoQueue::GetMessage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgidebug.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DXGIDebug.dll
+api_name:
+-	IDXGIInfoQueue.GetMessage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: DXGIDebug.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIInfoQueue::GetMessage

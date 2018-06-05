@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dbghelp.SymGetScopeW
+title: SymGetScopeW function
+author: windows-sdk-content
+description: Retrieves the scope for the specified index.
+old-location: base\symgetscope.htm
+old-project: Debug
+ms.assetid: 048a4d07-bf87-4dbc-9169-d8782040b205
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: SymGetScope, SymGetScope function, SymGetScopeW, base.symgetscope, dbghelp/SymGetScope, dbghelp/SymGetScopeW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SymGetScopeW (Unicode) and SymGetScope (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dbghelp.dll
+api_name:
+-	SymGetScope
+-	SymGetScope
+-	SymGetScopeW
+product: Windows
+targetos: Windows
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 ---
 
 # SymGetScopeW function

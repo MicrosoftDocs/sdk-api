@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:batclass.BatteryClassQueryWmiDataBlock
+title: BatteryClassQueryWmiDataBlock function
+author: windows-sdk-content
+description: The BatteryClassQueryWmiDataBlock routine is used by battery miniclass drivers inside their DpWmiQueryDataBlock routines to allow the battery class driver to process the WMI data block query requests it handles on behalf of the driver.
+old-location: battery\batteryclassquerywmidatablock.htm
+old-project: battery
+ms.assetid: 2a5c4c14-fc80-4a0a-b447-6fe33ff1d42f
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: BatteryClassQueryWmiDataBlock, BatteryClassQueryWmiDataBlock routine [Battery Devices], bat-rtn_da940bf9-529c-4fd7-a02f-b1d9ee8ea28f.xml, batclass/BatteryClassQueryWmiDataBlock, battery.batteryclassquerywmidatablock
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: batclass.h
+req.include-header: Batclass.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Battc.lib
+-	Battc.dll
+api_name:
+-	BatteryClassQueryWmiDataBlock
+product: Windows
+targetos: Windows
+req.lib: Battc.lib
+req.dll: 
+req.irql: 
 ---
 
 # BatteryClassQueryWmiDataBlock function

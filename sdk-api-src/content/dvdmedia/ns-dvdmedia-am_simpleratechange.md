@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dvdmedia.AM_SimpleRateChange
+title: AM_SimpleRateChange
+author: windows-sdk-content
+description: The AM_SimpleRateChange structure is used to change the playback rate for an MPEG-2 stream.
+old-location: dshow\am_simpleratechange.htm
+old-project: DirectShow
+ms.assetid: 18b33455-b499-4aa9-9fec-41ec2c03a638
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AM_SimpleRateChange, AM_SimpleRateChange structure [DirectShow], dshow.am_simpleratechange, dvdmedia/AM_SimpleRateChange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dvdmedia.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_SimpleRateChange
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dvdmedia.h
+api_name:
+-	AM_SimpleRateChange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # AM_SimpleRateChange structure

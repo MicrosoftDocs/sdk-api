@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_LUN_PLEX_TYPE
+title: "_VDS_LUN_PLEX_TYPE"
+author: windows-sdk-content
+description: Defines the set of valid types for a LUN plex.
+old-location: base\vds_lun_plex_type.htm
+old-project: VDS
+ms.assetid: 06aefde9-429b-4a58-923e-c3db6028eeb5
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_LPT_PARITY, VDS_LPT_RAID03, VDS_LPT_RAID05, VDS_LPT_RAID10, VDS_LPT_RAID15, VDS_LPT_RAID2, VDS_LPT_RAID3, VDS_LPT_RAID30, VDS_LPT_RAID4, VDS_LPT_RAID5, VDS_LPT_RAID50, VDS_LPT_RAID53, VDS_LPT_RAID6, VDS_LPT_RAID60, VDS_LPT_SIMPLE, VDS_LPT_SPAN, VDS_LPT_STRIPE, VDS_LPT_UNKNOWN, VDS_LUN_PLEX_TYPE, VDS_LUN_PLEX_TYPE enumeration [VDS], _VDS_LUN_PLEX_TYPE, base.vds_lun_plex_type, vds/VDS_LPT_PARITY, vds/VDS_LPT_RAID03, vds/VDS_LPT_RAID05, vds/VDS_LPT_RAID10, vds/VDS_LPT_RAID15, vds/VDS_LPT_RAID2, vds/VDS_LPT_RAID3, vds/VDS_LPT_RAID30, vds/VDS_LPT_RAID4, vds/VDS_LPT_RAID5, vds/VDS_LPT_RAID50, vds/VDS_LPT_RAID53, vds/VDS_LPT_RAID6, vds/VDS_LPT_RAID60, vds/VDS_LPT_SIMPLE, vds/VDS_LPT_SPAN, vds/VDS_LPT_STRIPE, vds/VDS_LPT_UNKNOWN, vds/VDS_LUN_PLEX_TYPE, vdshwprv/VDS_LPT_PARITY, vdshwprv/VDS_LPT_RAID03, vdshwprv/VDS_LPT_RAID05, vdshwprv/VDS_LPT_RAID10, vdshwprv/VDS_LPT_RAID15, vdshwprv/VDS_LPT_RAID2, vdshwprv/VDS_LPT_RAID3, vdshwprv/VDS_LPT_RAID30, vdshwprv/VDS_LPT_RAID4, vdshwprv/VDS_LPT_RAID5, vdshwprv/VDS_LPT_RAID50, vdshwprv/VDS_LPT_RAID53, vdshwprv/VDS_LPT_RAID6, vdshwprv/VDS_LPT_RAID60, vdshwprv/VDS_LPT_SIMPLE, vdshwprv/VDS_LPT_SPAN, vdshwprv/VDS_LPT_STRIPE, vdshwprv/VDS_LPT_UNKNOWN, vdshwprv/VDS_LUN_PLEX_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_LUN_PLEX_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_LUN_PLEX_TYPE
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_LUN_PLEX_TYPE enumeration

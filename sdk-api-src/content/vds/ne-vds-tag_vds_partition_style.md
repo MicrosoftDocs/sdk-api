@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds.tag_VDS_PARTITION_STYLE
+title: tag_VDS_PARTITION_STYLE
+author: windows-sdk-content
+description: This enumeration is not for explicit use.
+old-location: base\tag_vds_partition_style.htm
+old-project: VDS
+ms.assetid: d994715e-1735-4841-98be-5f22de0670f0
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_PARTITION_STYLE_GPT, VDS_PARTITION_STYLE_MBR, VDS_PARTITION_STYLE_RAW, __VDS_PARTITION_STYLE, __VDS_PARTITION_STYLE enumeration [VDS], base.tag_vds_partition_style, tag_VDS_PARTITION_STYLE, tag_VDS_PARTITION_STYLE enumeration [VDS], vds/VDS_PARTITION_STYLE_GPT, vds/VDS_PARTITION_STYLE_MBR, vds/VDS_PARTITION_STYLE_RAW, vds/tag_VDS_PARTITION_STYLE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "__VDS_PARTITION_STYLE"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	__VDS_PARTITION_STYLE
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # tag_VDS_PARTITION_STYLE enumeration

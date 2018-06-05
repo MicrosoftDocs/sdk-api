@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d10.D3D10_COUNTER
+title: D3D10_COUNTER
+author: windows-sdk-content
+description: Performance counter types.
+old-location: direct3d10\d3d10_counter.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_counter.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 2adb613c-1c3a-59ec-1bc9-5a9d3d5c9a28, D3D10_COUNTER, D3D10_COUNTER enumeration [Direct3D 10], D3D10_COUNTER_DEVICE_DEPENDENT_0, D3D10_COUNTER_FILLRATE_THROUGHPUT_UTILIZATION, D3D10_COUNTER_GEOMETRY_PROCESSING, D3D10_COUNTER_GPU_IDLE, D3D10_COUNTER_GS_COMPUTATION_LIMITED, D3D10_COUNTER_GS_MEMORY_LIMITED, D3D10_COUNTER_HOST_ADAPTER_BANDWIDTH_UTILIZATION, D3D10_COUNTER_LOCAL_VIDMEM_BANDWIDTH_UTILIZATION, D3D10_COUNTER_OTHER_GPU_PROCESSING, D3D10_COUNTER_PIXEL_PROCESSING, D3D10_COUNTER_POST_TRANSFORM_CACHE_HIT_RATE, D3D10_COUNTER_PS_COMPUTATION_LIMITED, D3D10_COUNTER_PS_MEMORY_LIMITED, D3D10_COUNTER_TEXTURE_CACHE_HIT_RATE, D3D10_COUNTER_TRIANGLE_SETUP_THROUGHPUT_UTILIZATION, D3D10_COUNTER_VERTEX_PROCESSING, D3D10_COUNTER_VERTEX_THROUGHPUT_UTILIZATION, D3D10_COUNTER_VS_COMPUTATION_LIMITED, D3D10_COUNTER_VS_MEMORY_LIMITED, d3d10/D3D10_COUNTER, d3d10/D3D10_COUNTER_DEVICE_DEPENDENT_0, d3d10/D3D10_COUNTER_FILLRATE_THROUGHPUT_UTILIZATION, d3d10/D3D10_COUNTER_GEOMETRY_PROCESSING, d3d10/D3D10_COUNTER_GPU_IDLE, d3d10/D3D10_COUNTER_GS_COMPUTATION_LIMITED, d3d10/D3D10_COUNTER_GS_MEMORY_LIMITED, d3d10/D3D10_COUNTER_HOST_ADAPTER_BANDWIDTH_UTILIZATION, d3d10/D3D10_COUNTER_LOCAL_VIDMEM_BANDWIDTH_UTILIZATION, d3d10/D3D10_COUNTER_OTHER_GPU_PROCESSING, d3d10/D3D10_COUNTER_PIXEL_PROCESSING, d3d10/D3D10_COUNTER_POST_TRANSFORM_CACHE_HIT_RATE, d3d10/D3D10_COUNTER_PS_COMPUTATION_LIMITED, d3d10/D3D10_COUNTER_PS_MEMORY_LIMITED, d3d10/D3D10_COUNTER_TEXTURE_CACHE_HIT_RATE, d3d10/D3D10_COUNTER_TRIANGLE_SETUP_THROUGHPUT_UTILIZATION, d3d10/D3D10_COUNTER_VERTEX_PROCESSING, d3d10/D3D10_COUNTER_VERTEX_THROUGHPUT_UTILIZATION, d3d10/D3D10_COUNTER_VS_COMPUTATION_LIMITED, d3d10/D3D10_COUNTER_VS_MEMORY_LIMITED, direct3d10.d3d10_counter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_COUNTER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D10.h
+api_name:
+-	D3D10_COUNTER
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D3D10_COUNTER enumeration

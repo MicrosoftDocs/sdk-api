@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMFSample.GetBufferByIndex
+title: IMFSample::GetBufferByIndex
+author: windows-sdk-content
+description: Gets a buffer from the sample, by index.
+old-location: mf\imfsample_getbufferbyindex.htm
+old-project: medfound
+ms.assetid: 48d3b861-96e8-4767-a8b1-65614fd48254
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 48d3b861-96e8-4767-a8b1-65614fd48254, GetBufferByIndex, GetBufferByIndex method [Media Foundation], GetBufferByIndex method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetBufferByIndex method, IMFSample.GetBufferByIndex, IMFSample::GetBufferByIndex, mf.imfsample_getbufferbyindex, mfobjects/IMFSample::GetBufferByIndex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFSample.GetBufferByIndex
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSample::GetBufferByIndex

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.CALL_MEDIA_EVENT_CAUSE
+title: CALL_MEDIA_EVENT_CAUSE
+author: windows-sdk-content
+description: The CALL_MEDIA_EVENT_CAUSE enum is used by ITCallMediaEvent::get_Cause method to return a description of what caused a media event, such as a device timeout.
+old-location: tapi3\call_media_event_cause.htm
+old-project: Tapi
+ms.assetid: c43e0a72-decc-47e3-bd5e-d94a95a2e404
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CALL_MEDIA_EVENT_CAUSE, CALL_MEDIA_EVENT_CAUSE enumeration [TAPI 2.2], CMC_BAD_DEVICE, CMC_CONNECT_FAIL, CMC_LOCAL_REQUEST, CMC_MEDIA_RECOVERED, CMC_MEDIA_TIMEOUT, CMC_REMOTE_REQUEST, CMC_UNKNOWN, _tapi3_call_media_event_cause, tapi3.call_media_event_cause, tapi3if/CALL_MEDIA_EVENT_CAUSE, tapi3if/CMC_BAD_DEVICE, tapi3if/CMC_CONNECT_FAIL, tapi3if/CMC_LOCAL_REQUEST, tapi3if/CMC_MEDIA_RECOVERED, tapi3if/CMC_MEDIA_TIMEOUT, tapi3if/CMC_REMOTE_REQUEST, tapi3if/CMC_UNKNOWN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CALL_MEDIA_EVENT_CAUSE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	CALL_MEDIA_EVENT_CAUSE
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # CALL_MEDIA_EVENT_CAUSE enumeration

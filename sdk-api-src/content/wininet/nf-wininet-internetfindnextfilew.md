@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wininet.InternetFindNextFileW
+title: InternetFindNextFileW function
+author: windows-sdk-content
+description: Continues a file search started as a result of a previous call to FtpFindFirstFile.Windows XP and Windows Server 2003 R2 and earlier:  Or continues a file search as a result of a previous call to GopherFindFirstFile.
+old-location: wininet\internetfindnextfile.htm
+old-project: WinInet
+ms.assetid: 7c53e399-b8a5-4cc0-9ef6-88d9a525d87f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: InternetFindNextFile, InternetFindNextFile function [WinINet], InternetFindNextFileA, InternetFindNextFileW, _inet_internetfindnextfile_function, wininet.internetfindnextfile, wininet/InternetFindNextFile, wininet/InternetFindNextFileA, wininet/InternetFindNextFileW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wininet.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: InternetFindNextFileW (Unicode) and InternetFindNextFileA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InternetCookieState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wininet.dll
+api_name:
+-	InternetFindNextFile
+-	InternetFindNextFileA
+-	InternetFindNextFileW
+product: Windows
+targetos: Windows
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # InternetFindNextFileW function

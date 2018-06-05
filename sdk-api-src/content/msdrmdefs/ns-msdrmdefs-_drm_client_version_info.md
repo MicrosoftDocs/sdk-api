@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:msdrmdefs._DRM_CLIENT_VERSION_INFO
+title: "_DRM_CLIENT_VERSION_INFO"
+author: windows-sdk-content
+description: Receives information about the version of the Active Directory Rights Management Services (AD RMS) client and the hierarchy, such as Production or Pre-production.
+old-location: rm\drm_client_version_info.htm
+old-project: AdRms_Sdk
+ms.assetid: 5f1fdd8a-dbe1-4b07-888b-b5af0f593fd3
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DRM_CLIENT_VERSION_INFO, DRM_CLIENT_VERSION_INFO structure [Active Directory Rights Management Services SDK 1.0], _DRM_CLIENT_VERSION_INFO, dwVersion, msdrmdefs/DRM_CLIENT_VERSION_INFO, rm.drm_client_version_info
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: msdrmdefs.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRM_CLIENT_VERSION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msdrmdefs.h
+api_name:
+-	DRM_CLIENT_VERSION_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _DRM_CLIENT_VERSION_INFO structure

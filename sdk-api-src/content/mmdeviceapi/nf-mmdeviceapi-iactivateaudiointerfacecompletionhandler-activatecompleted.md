@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mmdeviceapi.IActivateAudioInterfaceCompletionHandler.ActivateCompleted
+title: IActivateAudioInterfaceCompletionHandler::ActivateCompleted
+author: windows-sdk-content
+description: Indicates that activation of a WASAPI interface is complete and results are available.
+old-location: coreaudio\iactivateaudiointerfacecompletionhandler_activatecompleted.htm
+old-project: CoreAudio
+ms.assetid: f434db12-ab8e-40ca-8a55-b02f28ea5575
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ActivateCompleted, ActivateCompleted method [Core Audio], ActivateCompleted method [Core Audio],IActivateAudioInterfaceCompletionHandler interface, IActivateAudioInterfaceCompletionHandler interface [Core Audio],ActivateCompleted method, IActivateAudioInterfaceCompletionHandler.ActivateCompleted, IActivateAudioInterfaceCompletionHandler::ActivateCompleted, coreaudio.iactivateaudiointerfacecompletionhandler_activatecompleted, mmdeviceapi/IActivateAudioInterfaceCompletionHandler::ActivateCompleted
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mmdeviceapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mmdeviceapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EndpointFormFactor
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mmdeviceapi.h
+api_name:
+-	IActivateAudioInterfaceCompletionHandler.ActivateCompleted
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IActivateAudioInterfaceCompletionHandler::ActivateCompleted

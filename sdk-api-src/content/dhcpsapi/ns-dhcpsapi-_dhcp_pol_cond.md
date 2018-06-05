@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi._DHCP_POL_COND
+title: "_DHCP_POL_COND"
+author: windows-sdk-content
+description: The DHCP_POL_COND structure defines the DHCP server policy condition.
+old-location: dhcp\dhcp_pol_cond.htm
+old-project: DHCP
+ms.assetid: 99A36029-1CBD-4A93-B25A-A0239D1C08D7
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_POL_COND, *PDHCP_POL_COND, DHCP_POL_COND, DHCP_POL_COND structure [DHCP], LPDHCP_POL_COND, LPDHCP_POL_COND structure pointer [DHCP], PDHCP_POL_COND, PDHCP_POL_COND structure pointer [DHCP], _DHCP_POL_COND, dhcp.dhcp_pol_cond, dhcpsapi/DHCP_POL_COND, dhcpsapi/LPDHCP_POL_COND, dhcpsapi/PDHCP_POL_COND"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_POL_COND, *PDHCP_POL_COND, *LPDHCP_POL_COND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dhcpsapi.h
+api_name:
+-	DHCP_POL_COND
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_POL_COND structure

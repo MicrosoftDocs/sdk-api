@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:srrestoreptapi.SRSetRestorePointW
+title: SRSetRestorePointW function
+author: windows-sdk-content
+description: Specifies the beginning and the ending of a set of changes so that System Restore can create a restore point.
+old-location: sr\srsetrestorepoint.htm
+old-project: sr
+ms.assetid: 46f0094d-9079-41b5-9efc-ef07082653d3
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: SRSetRestorePoint, SRSetRestorePoint function [System Restore], SRSetRestorePointA, SRSetRestorePointW, _sr_srsetrestorepoint, sr.srsetrestorepoint, srrestoreptapi/SRSetRestorePoint, srrestoreptapi/SRSetRestorePointA, srrestoreptapi/SRSetRestorePointW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: srrestoreptapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SRSetRestorePointW (Unicode) and SRSetRestorePointA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENTERPRISE_DATA_POLICIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	SrClient.dll
+-	sfc.dll
+api_name:
+-	SRSetRestorePoint
+-	SRSetRestorePointA
+-	SRSetRestorePointW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrClient.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SRSetRestorePointW function

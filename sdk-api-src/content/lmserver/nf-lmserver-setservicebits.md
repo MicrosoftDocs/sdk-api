@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:lmserver.SetServiceBits
+title: SetServiceBits function
+author: windows-sdk-content
+description: Registers a service type with the service control manager and the Server service.
+old-location: base\setservicebits.htm
+old-project: Services
+ms.assetid: 91a985d4-d1af-4161-ae67-a8a9d6740838
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: SV_TYPE_AFP, SV_TYPE_BACKUP_BROWSER, SV_TYPE_DIALIN_SERVER, SV_TYPE_DOMAIN_BAKCTRL, SV_TYPE_DOMAIN_CTRL, SV_TYPE_DOMAIN_ENUM, SV_TYPE_DOMAIN_MASTER, SV_TYPE_DOMAIN_MEMBER, SV_TYPE_LOCAL_LIST_ONLY, SV_TYPE_MASTER_BROWSER, SV_TYPE_NOVELL, SV_TYPE_NT, SV_TYPE_POTENTIAL_BROWSER, SV_TYPE_PRINTQ_SERVER, SV_TYPE_SERVER, SV_TYPE_SERVER_UNIX, SV_TYPE_SV_TYPE_SQLSERVER, SV_TYPE_TIME_SOURCE, SV_TYPE_WFW, SV_TYPE_WORKSTATION, SV_TYPE_XENIX_SERVER, SetServiceBits, SetServiceBits function, _win32_setservicebits, base.setservicebits, lmserver/SetServiceBits
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: lmserver.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TIME_OF_DAY_INFO, *PTIME_OF_DAY_INFO, *LPTIME_OF_DAY_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+api_name:
+-	SetServiceBits
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # SetServiceBits function

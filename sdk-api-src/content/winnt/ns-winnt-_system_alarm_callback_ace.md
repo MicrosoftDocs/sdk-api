@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winnt._SYSTEM_ALARM_CALLBACK_ACE
+title: "_SYSTEM_ALARM_CALLBACK_ACE"
+author: windows-sdk-content
+description: The SYSTEM_ALARM_CALLBACK_ACE structure is reserved for future use.
+old-location: security\system_alarm_callback_ace.htm
+old-project: SecAuthZ
+ms.assetid: 8bfb579f-4bee-454e-827b-63a800bccf85
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PSYSTEM_ALARM_CALLBACK_ACE, SYSTEM_ALARM_CALLBACK_ACE, SYSTEM_ALARM_CALLBACK_ACE structure [Security], _SYSTEM_ALARM_CALLBACK_ACE, security.system_alarm_callback_ace, winnt/SYSTEM_ALARM_CALLBACK_ACE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYSTEM_ALARM_CALLBACK_ACE, *PSYSTEM_ALARM_CALLBACK_ACE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	SYSTEM_ALARM_CALLBACK_ACE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SYSTEM_ALARM_CALLBACK_ACE structure

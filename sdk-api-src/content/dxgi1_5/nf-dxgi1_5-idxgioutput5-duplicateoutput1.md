@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dxgi1_5.IDXGIOutput5.DuplicateOutput1
+title: IDXGIOutput5::DuplicateOutput1
+author: windows-sdk-content
+description: Allows specifying a list of supported formats for fullscreen surfaces that can be returned by the IDXGIOutputDuplication object.
+old-location: direct3ddxgi\idxgioutput5_duplicateoutput1.htm
+old-project: direct3ddxgi
+ms.assetid: B6723F05-E0D9-4814-8AB8-796ECF9C5C0C
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DuplicateOutput1, DuplicateOutput1 method [DXGI], DuplicateOutput1 method [DXGI],IDXGIOutput5 interface, IDXGIOutput5 interface [DXGI],DuplicateOutput1 method, IDXGIOutput5.DuplicateOutput1, IDXGIOutput5::DuplicateOutput1, direct3ddxgi.idxgioutput5_duplicateoutput1, dxgi1_5/IDXGIOutput5::DuplicateOutput1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi1_5.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_RECLAIM_RESOURCE_RESULTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxgi.dll
+api_name:
+-	IDXGIOutput5.DuplicateOutput1
+product: Windows
+targetos: Windows
+req.lib: Dxgi.lib
+req.dll: Dxgi.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIOutput5::DuplicateOutput1

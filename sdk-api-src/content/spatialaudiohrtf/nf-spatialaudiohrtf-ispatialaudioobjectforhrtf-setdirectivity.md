@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetDirectivity
+title: ISpatialAudioObjectForHrtf::SetDirectivity
+author: windows-sdk-content
+description: Sets the spatial audio directivity model for the ISpatialAudioObjectForHrtf.
+old-location: coreaudio\ispatialaudioobjectforhrtf_setdirectivity.htm
+old-project: CoreAudio
+ms.assetid: 20934FA5-2B4E-4FC4-B5B5-AFC4024ED2F8
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetDirectivity method, ISpatialAudioObjectForHrtf.SetDirectivity, ISpatialAudioObjectForHrtf::SetDirectivity, SetDirectivity, SetDirectivity method [Core Audio], SetDirectivity method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setdirectivity, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetDirectivity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spatialaudiohrtf.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SpatialAudioHrtfEnvironmentType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	spatialaudiohrtf.h
+api_name:
+-	ISpatialAudioObjectForHrtf.SetDirectivity
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioObjectForHrtf::SetDirectivity

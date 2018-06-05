@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msopc.IOpcSignatureReferenceSet.Create
+title: IOpcSignatureReferenceSet::Create
+author: windows-sdk-content
+description: Creates an IOpcSignatureReference interface pointer that represents a reference to an XML element to be signed.
+old-location: opc\iopcsignaturereferenceset_create.htm
+old-project: OPC
+ms.assetid: 5e943769-a043-4354-80e7-d471a1dbde7a
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureReferenceSet interface, IOpcSignatureReferenceSet interface [Open Packaging Conventions],Create method, IOpcSignatureReferenceSet.Create, IOpcSignatureReferenceSet::Create, msopc/IOpcSignatureReferenceSet::Create, opc.iopcsignaturereferenceset_create
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OpcDigitalSignature.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPC_SIGNATURE_TIME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msopc.h
+api_name:
+-	IOpcSignatureReferenceSet.Create
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOpcSignatureReferenceSet::Create

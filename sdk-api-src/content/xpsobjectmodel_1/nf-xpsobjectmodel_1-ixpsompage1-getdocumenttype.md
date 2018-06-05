@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xpsobjectmodel_1.IXpsOMPage1.GetDocumentType
+title: IXpsOMPage1::GetDocumentType
+author: windows-sdk-content
+description: Gets the type of FixedPage markup that was used to initialize this page. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see XPS Documents.
+old-location: xps\ixpsompage1_getdocumenttype.htm
+old-project: printdocs
+ms.assetid: b2456ffc-7a9d-41c2-b693-eb71909ccf3d
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging],IXpsOMPage1 interface, IXpsOMPage1 interface [XPS Documents and Packaging],GetDocumentType method, IXpsOMPage1.GetDocumentType, IXpsOMPage1::GetDocumentType, xps.ixpsompage1_getdocumenttype, xpsobjectmodel_1/IXpsOMPage1::GetDocumentType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xpsobjectmodel_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XpsObjectModel.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XPS_DOCUMENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	none
+-	none.dll
+api_name:
+-	IXpsOMPage1.GetDocumentType
+product: Windows
+targetos: Windows
+req.lib: None
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IXpsOMPage1::GetDocumentType

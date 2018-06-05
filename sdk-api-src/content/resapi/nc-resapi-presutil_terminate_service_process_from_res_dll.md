@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:resapi.PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL
+title: PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL
+author: windows-sdk-content
+description: Attempts to terminate the process of a service being managed as a cluster resource by a resource DLL. The PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL type defines a pointer to this function.
+old-location: mscs\resutilterminateserviceprocessfromresdll.htm
+old-project: MsCS
+ms.assetid: 8ac3bd90-a717-479c-b976-9ef536853ffe
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL, PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL callback, PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL callback function [Failover Cluster], _wolf_resutilterminateserviceprocessfromresdll, mscs.resutilterminateserviceprocessfromresdll, resapi/PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: resapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RENDEZVOUS_SESSION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ResApi.h
+api_name:
+-	PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL callback function

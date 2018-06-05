@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:rpcasync._RPC_NOTIFICATIONS
+title: "_RPC_NOTIFICATIONS"
+author: windows-sdk-content
+description: The RPC_NOTIFICATIONS enumeration specifies the notifications a server can receive from RPC.
+old-location: rpc\rpc_notifications.htm
+old-project: Rpc
+ms.assetid: d5074917-837c-4f3c-a582-97f488ed4919
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: RPC_NOTIFICATIONS, RPC_NOTIFICATIONS enumeration [RPC], RpcNotificationCallCancel, RpcNotificationCallNone, RpcNotificationClientDisconnect, _RPC_NOTIFICATIONS, rpc.rpc_notifications, rpcasync/RPC_NOTIFICATIONS, rpcasync/RpcNotificationCallCancel, rpcasync/RpcNotificationCallNone, rpcasync/RpcNotificationClientDisconnect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: rpcasync.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_NOTIFICATIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rpcasync.h
+api_name:
+-	RPC_NOTIFICATIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RPC_NOTIFICATIONS enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mobsync._tagSYNCMGRITEM
+title: "_tagSYNCMGRITEM"
+author: windows-sdk-content
+description: Provides information about items being enumerated by the ISyncMgrEnumItems interface.
+old-location: shell\syncmgr_syncmgritem.htm
+old-project: shell
+ms.assetid: 84fa1d81-d1b9-44d7-be97-14511ef95528
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPSYNCMGRITEM, LPSYNCMGRITEM, LPSYNCMGRITEM structure pointer [Windows Shell], SYNCMGRITEM, SYNCMGRITEM structure [Windows Shell], SYNCMGRITEMSTATE_CHECKED, SYNCMGRITEMSTATE_UNCHECKED, _tagSYNCMGRITEM, mobsync/LPSYNCMGRITEM, mobsync/SYNCMGRITEM, shell.syncmgr_syncmgritem, syncmgr.syncmgritem"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mobsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGRITEM, *LPSYNCMGRITEM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mobsync.h
+api_name:
+-	SYNCMGRITEM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _tagSYNCMGRITEM structure

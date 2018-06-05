@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfTextInputProcessor.Deactivate
+title: ITfTextInputProcessor::Deactivate
+author: windows-sdk-content
+description: ITfTextInputProcessor::Deactivate method
+old-location: tsf\itftextinputprocessor_deactivate.htm
+old-project: TSF
+ms.assetid: 427190fc-f246-47c6-84e0-a28808a86b6b
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: Deactivate, Deactivate method [Text Services Framework], Deactivate method [Text Services Framework],ITfTextInputProcessor interface, ITfTextInputProcessor interface [Text Services Framework],Deactivate method, ITfTextInputProcessor.Deactivate, ITfTextInputProcessor::Deactivate, _tsf_itftextinputprocessor_deactivate_ref, msctf/ITfTextInputProcessor::Deactivate, tsf.itftextinputprocessor_deactivate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tiptsf.dll
+api_name:
+-	ITfTextInputProcessor.Deactivate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfTextInputProcessor::Deactivate

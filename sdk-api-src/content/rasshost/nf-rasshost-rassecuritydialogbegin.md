@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rasshost.RasSecurityDialogBegin
+title: RasSecurityDialogBegin function
+author: windows-sdk-content
+description: The RasSecurityDialogBegin function is a third-party RAS security DLL entry point that the RAS server calls when a remote user tries to connect. This enables the security DLL to begin its authentication of the remote user.
+old-location: rras\rassecuritydialogbegin.htm
+old-project: RRAS
+ms.assetid: 19f4591b-ecae-478b-b110-c0d88c72f7eb
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RasSecurityDialogBegin, RasSecurityDialogBegin callback, RasSecurityDialogBegin callback function [RAS], _ras_rassecuritydialogbegin, rasshost/RasSecurityDialogBegin, rras.rassecuritydialogbegin
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rasshost.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RAS_AUTH_ATTRIBUTE, *PRAS_AUTH_ATTRIBUTE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Rasshost.h
+api_name:
+-	RasSecurityDialogBegin
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RasSecurityDialogBegin function

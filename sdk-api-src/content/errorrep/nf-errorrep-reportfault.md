@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:errorrep.ReportFault
+title: ReportFault function
+author: windows-sdk-content
+description: Enables an application that performs its own exception handling to report faults to Microsoft.
+old-location: wer\reportfault.htm
+old-project: wer
+ms.assetid: 9f7c2abc-4d9a-4f3b-a540-e4546ed709de
+ms.author: windowssdkdev
+ms.date: 03/22/2018
+ms.keywords: ReportFault, ReportFault function [Windows Error Reporting], _win32_reportfault, base.reportfault, errorrep/ReportFault, wer.reportfault
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: errorrep.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Faultrep.dll
+api_name:
+-	ReportFault
+product: Windows
+targetos: Windows
+req.lib: Faultrep.lib
+req.dll: Faultrep.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # ReportFault function

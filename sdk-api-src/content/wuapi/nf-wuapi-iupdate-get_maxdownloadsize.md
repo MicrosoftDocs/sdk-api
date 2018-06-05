@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wuapi.IUpdate.get_MaxDownloadSize
+title: IUpdate::get_MaxDownloadSize
+author: windows-sdk-content
+description: Gets the maximum download size of the update.
+old-location: wua\iupdate_maxdownloadsize.htm
+old-project: Wua_Sdk
+ms.assetid: 22f19d4f-e144-4b06-a428-d2133198288a
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IUpdate interface [Windows Update Agent],MaxDownloadSize property, IUpdate.MaxDownloadSize, IUpdate.get_MaxDownloadSize, IUpdate::MaxDownloadSize, IUpdate::get_MaxDownloadSize, MaxDownloadSize property [Windows Update Agent], MaxDownloadSize property [Windows Update Agent],IUpdate interface, get_MaxDownloadSize, wua.iupdate_maxdownloadsize, wuapi/IUpdate::MaxDownloadSize, wuapi/IUpdate::get_MaxDownloadSize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wuapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IUpdate.MaxDownloadSize
+-	IUpdate.get_MaxDownloadSize
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IUpdate::get_MaxDownloadSize

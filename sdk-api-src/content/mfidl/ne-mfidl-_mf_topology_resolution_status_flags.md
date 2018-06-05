@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl._MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS
+title: "_MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS"
+author: windows-sdk-content
+description: Defines status flags for the MF_TOPOLOGY_RESOLUTION_STATUS attribute.
+old-location: mf\mf_topology_resolution_status_flags.htm
+old-project: medfound
+ms.assetid: e2746378-cf01-4a41-af02-9c3089671120
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_OPTIONAL_NODE_REJECTED_MEDIA_TYPE, MF_OPTIONAL_NODE_REJECTED_PROTECTED_PROCESS, MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS, MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS enumeration [Media Foundation], MF_TOPOLOGY_RESOLUTION_SUCCEEDED, _MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS, e2746378-cf01-4a41-af02-9c3089671120, mf.mf_topology_resolution_status_flags, mfidl/MF_OPTIONAL_NODE_REJECTED_MEDIA_TYPE, mfidl/MF_OPTIONAL_NODE_REJECTED_PROTECTED_PROCESS, mfidl/MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS, mfidl/MF_TOPOLOGY_RESOLUTION_SUCCEEDED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS enumeration

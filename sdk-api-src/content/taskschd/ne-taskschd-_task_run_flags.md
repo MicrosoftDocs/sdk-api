@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:taskschd._TASK_RUN_FLAGS
+title: "_TASK_RUN_FLAGS"
+author: windows-sdk-content
+description: Defines how a task is run.
+old-location: taskschd\task_run_flags.htm
+old-project: TaskSchd
+ms.assetid: 6c5a4ab6-b3ca-4d60-918d-82797782d66a
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: TASK_RUN_AS_SELF, TASK_RUN_FLAGS, TASK_RUN_FLAGS enumeration [Task Scheduler], TASK_RUN_IGNORE_CONSTRAINTS, TASK_RUN_NO_FLAGS, TASK_RUN_USER_SID, TASK_RUN_USE_SESSION_ID, _TASK_RUN_FLAGS, taskschd.task_run_flags, taskschd/TASK_RUN_AS_SELF, taskschd/TASK_RUN_FLAGS, taskschd/TASK_RUN_IGNORE_CONSTRAINTS, taskschd/TASK_RUN_NO_FLAGS, taskschd/TASK_RUN_USER_SID, taskschd/TASK_RUN_USE_SESSION_ID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_RUN_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	taskschd.h
+api_name:
+-	TASK_RUN_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TASK_RUN_FLAGS enumeration

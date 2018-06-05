@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:audiopolicy.IAudioSessionControl
+title: IAudioSessionControl
+author: windows-sdk-content
+description: The IAudioSessionControl interface enables a client to configure the control parameters for an audio session and to monitor events in the session.
+old-location: coreaudio\iaudiosessioncontrol.htm
+old-project: CoreAudio
+ms.assetid: 4446140e-2e61-40ed-b0f9-4c1b90e7c2de
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IAudioSessionControl, IAudioSessionControl interface [Core Audio], IAudioSessionControl interface [Core Audio],described, audiopolicy/IAudioSessionControl, coreaudio.iaudiosessioncontrol
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: audiopolicy.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audiopolicy.h
+api_name:
+-	IAudioSessionControl
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioSessionControl interface

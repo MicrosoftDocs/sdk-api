@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:rectypes.enumLINE_METRICS
+title: enumLINE_METRICS
+author: windows-sdk-content
+description: Represents the lines found in a recognition segment.
+old-location: tablet\line_metrics.htm
+old-project: tablet
+ms.assetid: 1317badb-38e1-41fe-9918-c28da88aa511
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 1317badb-38e1-41fe-9918-c28da88aa511, LINE_METRICS, LINE_METRICS enumeration [Tablet PC], LM_ASCENDER, LM_BASELINE, LM_DESCENDER, LM_MIDLINE, enumLINE_METRICS, rectypes/LINE_METRICS, rectypes/LM_ASCENDER, rectypes/LM_BASELINE, rectypes/LM_DESCENDER, rectypes/LM_MIDLINE, tablet.line_metrics
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: rectypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LINE_METRICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	rectypes.h
+api_name:
+-	LINE_METRICS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # enumLINE_METRICS enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rdpappcontainerclient.IRemoteDesktopClient.Disconnect
+title: IRemoteDesktopClient::Disconnect
+author: windows-sdk-content
+description: Disconnects the active connection.
+old-location: termserv\iremotedesktopclient_disconnect.htm
+old-project: TermServ
+ms.assetid: 134e72ad-93dd-4f53-b26c-09654f309658
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: Disconnect, Disconnect method [Remote Desktop Services], Disconnect method [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],Disconnect method, IRemoteDesktopClient.Disconnect, IRemoteDesktopClient::Disconnect, rdpappcontainerclient/IRemoteDesktopClient::Disconnect, termserv.iremotedesktopclient_disconnect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rdpappcontainerclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: MsTscAx.dll
+tech.root: 
+req.typenames: SnapshotFormatType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsTscAx.dll
+api_name:
+-	IRemoteDesktopClient.Disconnect
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsTscAx.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRemoteDesktopClient::Disconnect

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cscobj.IOfflineFilesEvents.ItemNotAvailableOffline
+title: IOfflineFilesEvents::ItemNotAvailableOffline
+author: windows-sdk-content
+description: Reports that an item in the Offline Files cache is no longer available for offline use should the remote copy become unavailable.
+old-location: of\iofflinefilesevents_itemnotavailableoffline.htm
+old-project: OfflineFiles
+ms.assetid: 868938fd-9da2-45fd-a00e-5dda85b4fd61
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemNotAvailableOffline method, IOfflineFilesEvents.ItemNotAvailableOffline, IOfflineFilesEvents::ItemNotAvailableOffline, ItemNotAvailableOffline, ItemNotAvailableOffline method [Offline Files], ItemNotAvailableOffline method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemNotAvailableOffline, of.iofflinefilesevents_itemnotavailableoffline
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFFLINEFILES_SYNC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CscSvc.dll
+-	CscObj.dll
+api_name:
+-	IOfflineFilesEvents.ItemNotAvailableOffline
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 ---
 
 # IOfflineFilesEvents::ItemNotAvailableOffline

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rometadataapi.IMetaDataDispenserEx.SetOption
+title: IMetaDataDispenserEx::SetOption
+author: windows-sdk-content
+description: Sets the specified option to a given value for the current metadata scope. The option controls how calls to the current metadata scope are handled.
+old-location: winrt\imetadatadispenserex_setoption.htm
+old-project: WinRT
+ms.assetid: bb84abf1-0bba-4f9d-98fb-3ed67819a9dc
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: IMetaDataDispenserEx interface [Windows Runtime],SetOption method, IMetaDataDispenserEx.SetOption, IMetaDataDispenserEx::SetOption, SetOption, SetOption method [Windows Runtime], SetOption method [Windows Runtime],IMetaDataDispenserEx interface, rometadataapi/IMetaDataDispenserEx::SetOption, winrt.imetadatadispenserex_setoption
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rometadataapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rometadataapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	rometadataapi.h
+api_name:
+-	IMetaDataDispenserEx.SetOption
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMetaDataDispenserEx::SetOption

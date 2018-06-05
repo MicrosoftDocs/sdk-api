@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dhcpsapi._FSM_STATE
+title: "_FSM_STATE"
+author: windows-sdk-content
+description: The FSM_STATE enumeration defines the set of possible failover relationship states on a DHCPv4 server.
+old-location: dhcp\fsm_state.htm
+old-project: DHCP
+ms.assetid: a8d0a455-77b3-494c-886e-90136569aada
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: COMMUNICATION_INT, CONFLICT_DONE, FSM_STATE, FSM_STATE enumeration [DHCP], INIT, NORMAL, NO_STATE, PARTNER_DOWN, PAUSED, POTENTIAL_CONFLICT, RECOVER, RECOVER_DONE, RECOVER_WAIT, RESOLUTION_INT, SHUTDOWN, STARTUP, _FSM_STATE, dhcp.fsm_state, dhcpsapi/COMMUNICATION_INT, dhcpsapi/CONFLICT_DONE, dhcpsapi/FSM_STATE, dhcpsapi/INIT, dhcpsapi/NORMAL, dhcpsapi/NO_STATE, dhcpsapi/PARTNER_DOWN, dhcpsapi/PAUSED, dhcpsapi/POTENTIAL_CONFLICT, dhcpsapi/RECOVER, dhcpsapi/RECOVER_DONE, dhcpsapi/RECOVER_WAIT, dhcpsapi/RESOLUTION_INT, dhcpsapi/SHUTDOWN, dhcpsapi/STARTUP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FSM_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dhcpsapi.h
+api_name:
+-	FSM_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _FSM_STATE enumeration

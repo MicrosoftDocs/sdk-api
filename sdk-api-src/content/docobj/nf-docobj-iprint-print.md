@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:docobj.IPrint.Print
+title: IPrint::Print
+author: windows-sdk-content
+description: Prints an object on the specified printer, using the specified job requirements.
+old-location: com\iprint_print.htm
+old-project: com
+ms.assetid: 30554d89-ad80-4d73-b44a-97ae5079feb8
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IPrint interface [COM],Print method, IPrint.Print, IPrint::Print, PRINTFLAG_DONTACTUALLYPRINT, PRINTFLAG_FORCEPROPERTIES, PRINTFLAG_MAYBOTHERUSER, PRINTFLAG_PRINTTOFILE, PRINTFLAG_PROMPTUSER, PRINTFLAG_RECOMPOSETODEVICE, PRINTFLAG_USERMAYCHANGEPRINTER, Print, Print method [COM], Print method [COM],IPrint interface, _ctrl_iprint_print, com.iprint_print, docobj/IPrint::Print
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: docobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DocObj.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOCMISC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DocObj.h
+api_name:
+-	IPrint.Print
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IPrint::Print

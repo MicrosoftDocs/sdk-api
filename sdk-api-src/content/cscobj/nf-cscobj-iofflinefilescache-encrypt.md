@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cscobj.IOfflineFilesCache.Encrypt
+title: IOfflineFilesCache::Encrypt
+author: windows-sdk-content
+description: Encrypts or unencrypts the contents of the Offline Files cache cached for the calling user.
+old-location: of\iofflinefilescache_encrypt.htm
+old-project: OfflineFiles
+ms.assetid: b7531018-4837-4fde-8947-0f099f6de9e5
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: Encrypt, Encrypt method [Offline Files], Encrypt method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],Encrypt method, IOfflineFilesCache.Encrypt, IOfflineFilesCache::Encrypt, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_CONSOLE, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_LOWPRIORITY, cscobj/IOfflineFilesCache::Encrypt, of.iofflinefilescache_encrypt
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFFLINEFILES_SYNC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CscSvc.dll
+-	CscObj.dll
+api_name:
+-	IOfflineFilesCache.Encrypt
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 ---
 
 # IOfflineFilesCache::Encrypt

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uiautomationcore.SayAsInterpretAs
+title: SayAsInterpretAs
+author: windows-sdk-content
+description: Defines the values that indicate how a text-to-speech engine should interpret specific data.
+old-location: winauto\uiauto_SayAsInterpretAs.htm
+old-project: WinAuto
+ms.assetid: 70F6AA0E-52CB-49D4-BBAF-2B6367D5E44D
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: SayAsInterpretAs, SayAsInterpretAs enumeration [Windows Accessibility], SayAsInterpretAs_Address, SayAsInterpretAs_Alphanumeric, SayAsInterpretAs_Cardinal, SayAsInterpretAs_Currency, SayAsInterpretAs_Date, SayAsInterpretAs_Date_DayMonth, SayAsInterpretAs_Date_DayMonthYear, SayAsInterpretAs_Date_MonthDay, SayAsInterpretAs_Date_MonthDayYear, SayAsInterpretAs_Date_MonthYear, SayAsInterpretAs_Date_Year, SayAsInterpretAs_Date_YearMonth, SayAsInterpretAs_Date_YearMonthDay, SayAsInterpretAs_Media, SayAsInterpretAs_Name, SayAsInterpretAs_Net, SayAsInterpretAs_None, SayAsInterpretAs_Number, SayAsInterpretAs_Ordinal, SayAsInterpretAs_Spell, SayAsInterpretAs_Telephone, SayAsInterpretAs_Time, SayAsInterpretAs_Time_HoursMinutes12, SayAsInterpretAs_Time_HoursMinutes24, SayAsInterpretAs_Time_HoursMinutesSeconds12, SayAsInterpretAs_Time_HoursMinutesSeconds24, SayAsInterpretAs_Url, uiautomationcore/ SayAsInterpretAs_Address, uiautomationcore/ SayAsInterpretAs_Date_DayMonth, uiautomationcore/ SayAsInterpretAs_Net, uiautomationcore/ SayAsInterpretAs_Url, uiautomationcore/SayAsInterpretAs, uiautomationcore/SayAsInterpretAs_Alphanumeric, uiautomationcore/SayAsInterpretAs_Cardinal, uiautomationcore/SayAsInterpretAs_Currency, uiautomationcore/SayAsInterpretAs_Date, uiautomationcore/SayAsInterpretAs_Date_DayMonthYear, uiautomationcore/SayAsInterpretAs_Date_MonthDay, uiautomationcore/SayAsInterpretAs_Date_MonthDayYear, uiautomationcore/SayAsInterpretAs_Date_MonthYear, uiautomationcore/SayAsInterpretAs_Date_Year, uiautomationcore/SayAsInterpretAs_Date_YearMonth, uiautomationcore/SayAsInterpretAs_Date_YearMonthDay, uiautomationcore/SayAsInterpretAs_Media, uiautomationcore/SayAsInterpretAs_Name, uiautomationcore/SayAsInterpretAs_None, uiautomationcore/SayAsInterpretAs_Number, uiautomationcore/SayAsInterpretAs_Ordinal, uiautomationcore/SayAsInterpretAs_Spell, uiautomationcore/SayAsInterpretAs_Telephone, uiautomationcore/SayAsInterpretAs_Time, uiautomationcore/SayAsInterpretAs_Time_HoursMinutes12, uiautomationcore/SayAsInterpretAs_Time_HoursMinutes24, uiautomationcore/SayAsInterpretAs_Time_HoursMinutesSeconds12, uiautomationcore/SayAsInterpretAs_Time_HoursMinutesSeconds24, winauto.uiauto_SayAsInterpretAs
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	SayAsInterpretAs
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # SayAsInterpretAs enumeration

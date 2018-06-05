@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winfax._FAX_DEVICE_STATUSA
+title: "_FAX_DEVICE_STATUSA"
+author: windows-sdk-content
+description: The FAX_DEVICE_STATUS structure contains information about the current status of a fax device.
+old-location: fax\_mfax_fax_device_status_str.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxlegacy_6vle.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PFAX_DEVICE_STATUSA, FAX_DEVICE_STATUS, FAX_DEVICE_STATUS structure [Fax Service], FAX_DEVICE_STATUSA, FAX_DEVICE_STATUSW, FPS_ABORTING, FPS_ANSWERED, FPS_AVAILABLE, FPS_BAD_ADDRESS, FPS_BUSY, FPS_CALL_BLACKLISTED, FPS_CALL_DELAYED, FPS_COMPLETED, FPS_DIALING, FPS_DISCONNECTED, FPS_FATAL_ERROR, FPS_HANDLED, FPS_INITIALIZING, FPS_NOT_FAX_CALL, FPS_NO_ANSWER, FPS_NO_DIAL_TONE, FPS_OFFLINE, FPS_RECEIVING, FPS_RINGING, FPS_ROUTING, FPS_SENDING, FPS_UNAVAILABLE, JT_RECEIVE, JT_SEND, JT_UNKNOWN, PFAX_DEVICE_STATUS, PFAX_DEVICE_STATUS structure pointer [Fax Service], _FAX_DEVICE_STATUSA, _mfax_fax_device_status_str, fax._mfax_fax_device_status_str, winfax/FAX_DEVICE_STATUS, winfax/FAX_DEVICE_STATUSA, winfax/FAX_DEVICE_STATUSW, winfax/PFAX_DEVICE_STATUS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winfax.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: FAX_DEVICE_STATUSW (Unicode) and FAX_DEVICE_STATUSA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_DEVICE_STATUSA, *PFAX_DEVICE_STATUSA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winfax.h
+api_name:
+-	FAX_DEVICE_STATUS
+-	FAX_DEVICE_STATUSA
+-	FAX_DEVICE_STATUSW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FAX_DEVICE_STATUSA structure

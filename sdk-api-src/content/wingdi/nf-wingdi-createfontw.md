@@ -1,31 +1,54 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wingdi.CreateFontW
+title: CreateFontW function
+author: windows-sdk-content
+description: The CreateFont function creates a logical font with the specified characteristics. The logical font can subsequently be selected as the font for any device.
+old-location: gdi\createfont.htm
+old-project: gdi
+ms.assetid: 373bac6e-5d4d-4909-8096-2f0e909d2f1d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ANTIALIASED_QUALITY, CLEARTYPE_QUALITY, CLIP_CHARACTER_PRECIS, CLIP_DEFAULT_PRECIS, CLIP_DFA_DISABLE, CLIP_DFA_OVERRIDE, CLIP_EMBEDDED, CLIP_LH_ANGLES, CLIP_MASK, CLIP_STROKE_PRECIS, CLIP_TT_ALWAYS, CreateFont, CreateFont function [Windows GDI], CreateFontA, CreateFontW, DEFAULT_QUALITY, DRAFT_QUALITY, FF_DECORATIVE, FF_DONTCARE, FF_MODERN, FF_ROMAN, FF_SCRIPT, FF_SWISS, FW_BLACK, FW_BOLD, FW_DEMIBOLD, FW_DONTCARE, FW_EXTRABOLD, FW_EXTRALIGHT, FW_HEAVY, FW_LIGHT, FW_MEDIUM, FW_NORMAL, FW_REGULAR, FW_SEMIBOLD, FW_THIN, FW_ULTRABOLD, FW_ULTRALIGHT, NONANTIALIASED_QUALITY, OUT_CHARACTER_PRECIS, OUT_DEFAULT_PRECIS, OUT_DEVICE_PRECIS, OUT_OUTLINE_PRECIS, OUT_PS_ONLY_PRECIS, OUT_RASTER_PRECIS, OUT_STRING_PRECIS, OUT_STROKE_PRECIS, OUT_TT_ONLY_PRECIS, OUT_TT_PRECIS, PROOF_QUALITY, _win32_CreateFont, gdi.createfont, wingdi/CreateFont, wingdi/CreateFontA, wingdi/CreateFontW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CreateFontW (Unicode) and CreateFontA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	gdi32.dll
+-	ext-ms-win-gdi-font-l1-1-2.dll
+-	Ext-MS-Win-GDI-Font-L1-1-3.dll
+-	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+-	GDI32Full.dll
+api_name:
+-	CreateFont
+-	CreateFontA
+-	CreateFontW
+product: Windows
+targetos: Windows
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CreateFontW function

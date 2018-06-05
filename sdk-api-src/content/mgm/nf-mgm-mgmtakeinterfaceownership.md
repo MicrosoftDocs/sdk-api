@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mgm.MgmTakeInterfaceOwnership
+title: MgmTakeInterfaceOwnership function
+author: windows-sdk-content
+description: The MgmTakeInterfaceOwnership function is called by a client (such as a routing protocol) when it is enabled on an interface.
+old-location: rras\mgmtakeinterfaceownership.htm
+old-project: RRAS
+ms.assetid: b072c884-0b84-4dd9-a14c-185f5d327017
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: MgmTakeInterfaceOwnership, MgmTakeInterfaceOwnership function [RAS], _mpr_mgmtakeinterfaceownership, mgm/MgmTakeInterfaceOwnership, rras.mgmtakeinterfaceownership
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mgm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MGM_ENUM_TYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rtm.dll
+api_name:
+-	MgmTakeInterfaceOwnership
+product: Windows
+targetos: Windows
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MgmTakeInterfaceOwnership function

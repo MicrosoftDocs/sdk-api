@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetSupportedFormats
+title: IPortableDeviceCapabilities::GetSupportedFormats
+author: windows-sdk-content
+description: The GetSupportedFormats method retrieves the supported formats for a specified object type on the device. For example, specifying audio objects might return WPD_OBJECT_FORMAT_WMA, WPD_OBJECT_FORMAT_WAV, and WPD_OBJECT_FORMAT_MP3.
+old-location: wpdsdk\iportabledevicecapabilities_getsupportedformats.htm
+old-project: wpd_sdk
+ms.assetid: 7568f5cf-2f9e-459c-ae08-d23b9e37ce4e
+ms.author: windowssdkdev
+ms.date: 04/11/2018
+ms.keywords: GetSupportedFormats, GetSupportedFormats method [Windows Portable Devices SDK], GetSupportedFormats method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedFormats method, IPortableDeviceCapabilities.GetSupportedFormats, IPortableDeviceCapabilities::GetSupportedFormats, IPortableDeviceCapabilitiesGetSupportedFormats, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedFormats, wpdsdk.iportabledevicecapabilities_getsupportedformats
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: portabledeviceapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceGUIDs.lib
+-	PortableDeviceGUIDs.dll
+api_name:
+-	IPortableDeviceCapabilities.GetSupportedFormats
+product: Windows
+targetos: Windows
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPortableDeviceCapabilities::GetSupportedFormats

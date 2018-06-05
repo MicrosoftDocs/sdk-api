@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winnt._ACL_INFORMATION_CLASS
+title: "_ACL_INFORMATION_CLASS"
+author: windows-sdk-content
+description: Contains values that specify the type of information being assigned to or retrieved from an access control list (ACL).
+old-location: security\acl_information_class.htm
+old-project: SecAuthZ
+ms.assetid: e1abf877-9757-4ee4-b7da-f3e7eb53bddd
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ACL_INFORMATION_CLASS, ACL_INFORMATION_CLASS enumeration [Security], AclRevisionInformation, AclSizeInformation, _ACL_INFORMATION_CLASS, _win32_acl_information_class_str, security.acl_information_class, winnt/ACL_INFORMATION_CLASS, winnt/AclRevisionInformation, winnt/AclSizeInformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACL_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	ACL_INFORMATION_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _ACL_INFORMATION_CLASS enumeration

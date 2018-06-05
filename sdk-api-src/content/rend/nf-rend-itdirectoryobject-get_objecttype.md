@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rend.ITDirectoryObject.get_ObjectType
+title: ITDirectoryObject::get_ObjectType
+author: windows-sdk-content
+description: The get_ObjectType method gets a DIRECTORY_OBJECT_TYPE descriptor of the object.
+old-location: tapi3\itdirectoryobject_get_objecttype.htm
+old-project: Tapi
+ms.assetid: b71f5286-d97d-4129-942b-fa4d4ef0943e
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_ObjectType method, ITDirectoryObject.get_ObjectType, ITDirectoryObject::get_ObjectType, _tapi3_itdirectoryobject_get_objecttype, get_ObjectType, get_ObjectType method [TAPI 2.2], get_ObjectType method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_ObjectType, tapi3.itdirectoryobject_get_objecttype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rend.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rend.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RND_ADVERTISING_SCOPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Rend.dll
+api_name:
+-	ITDirectoryObject.get_ObjectType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITDirectoryObject::get_ObjectType

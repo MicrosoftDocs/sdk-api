@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._STORAGE_HOTPLUG_INFO
+title: "_STORAGE_HOTPLUG_INFO"
+author: windows-sdk-content
+description: Provides information about the hotplug information of a device.
+old-location: base\storage_hotplug_info_str.htm
+old-project: DevIO
+ms.assetid: 861e6067-9f37-427a-8d3b-8cb9d0f95c40
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO structure pointer, STORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO structure, _STORAGE_HOTPLUG_INFO, _win32_storage_hotplug_info_str, base.storage_hotplug_info_str, winioctl/PSTORAGE_HOTPLUG_INFO, winioctl/STORAGE_HOTPLUG_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STORAGE_HOTPLUG_INFO, *PSTORAGE_HOTPLUG_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	STORAGE_HOTPLUG_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _STORAGE_HOTPLUG_INFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:cryptxml.PFN_CRYPT_XML_WRITE_CALLBACK
+title: PFN_CRYPT_XML_WRITE_CALLBACK
+author: windows-sdk-content
+description: Writes XML data.
+old-location: security\pfn_crypt_xml_write_callback.htm
+old-project: SecCrypto
+ms.assetid: 722f6ab4-ca6f-460d-9282-e4b7ca484077
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: PFN_CRYPT_XML_WRITE_CALLBACK, PFN_CRYPT_XML_WRITE_CALLBACK callback, PFN_CRYPT_XML_WRITE_CALLBACK callback function [Security], cryptxml/PFN_CRYPT_XML_WRITE_CALLBACK, security.pfn_crypt_xml_write_callback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: cryptxml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPTUI_WIZ_IMPORT_SRC_INFO, *PCRYPTUI_WIZ_IMPORT_SRC_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Cryptxml.h
+api_name:
+-	PFN_CRYPT_XML_WRITE_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PFN_CRYPT_XML_WRITE_CALLBACK callback function

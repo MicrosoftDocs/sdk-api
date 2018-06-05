@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mswmdm.IMDSPObjectInfo.GetPlayOffset
+title: IMDSPObjectInfo::GetPlayOffset
+author: windows-sdk-content
+description: The GetPlayOffset method retrieves the play offset of the object, in units pertinent to the object. This is the starting point for the next invocation of IMDSPDeviceControl::Play.
+old-location: wmdm\imdspobjectinfo_getplayoffset.htm
+old-project: WMDM
+ms.assetid: 3e801b95-aa44-4275-8a21-f68fbf6240f1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetPlayOffset, GetPlayOffset method [windows Media Device Manager], GetPlayOffset method [windows Media Device Manager],IMDSPObjectInfo interface, IMDSPObjectInfo interface [windows Media Device Manager],GetPlayOffset method, IMDSPObjectInfo.GetPlayOffset, IMDSPObjectInfo::GetPlayOffset, IMDSPObjectInfoGetPlayOffset, mswmdm/IMDSPObjectInfo::GetPlayOffset, wmdm.imdspobjectinfo_getplayoffset
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IMDSPObjectInfo.GetPlayOffset
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPObjectInfo::GetPlayOffset

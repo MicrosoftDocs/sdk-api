@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commdlg.tagCHOOSECOLORW
+title: tagCHOOSECOLORW
+author: windows-sdk-content
+description: Contains information the ChooseColor function uses to initialize the Color dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
+old-location: dlgbox\choosecolor_str.htm
+old-project: dlgbox
+ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\choosecolor.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*LPCHOOSECOLORW, CC_ANYCOLOR, CC_ENABLEHOOK, CC_ENABLETEMPLATE, CC_ENABLETEMPLATEHANDLE, CC_FULLOPEN, CC_PREVENTFULLOPEN, CC_RGBINIT, CC_SHOWHELP, CC_SOLIDCOLOR, CHOOSECOLOR, CHOOSECOLOR structure [Dialog Boxes], CHOOSECOLORA, CHOOSECOLORW, LPCHOOSECOLOR, LPCHOOSECOLOR structure pointer [Dialog Boxes], _win32_CHOOSECOLOR_str, _win32_choosecolor_str_cpp, commdlg/CHOOSECOLOR, commdlg/CHOOSECOLORA, commdlg/CHOOSECOLORW, commdlg/LPCHOOSECOLOR, dlgbox.choosecolor_str, tagCHOOSECOLORA, tagCHOOSECOLORW, winui._win32_choosecolor_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commdlg.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CHOOSECOLORW (Unicode) and CHOOSECOLORA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CHOOSECOLORW, *LPCHOOSECOLORW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commdlg.h
+api_name:
+-	CHOOSECOLOR
+-	CHOOSECOLORA
+-	CHOOSECOLORW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagCHOOSECOLORW structure

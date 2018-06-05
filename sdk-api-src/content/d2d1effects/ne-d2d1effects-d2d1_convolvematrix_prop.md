@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d2d1effects.D2D1_CONVOLVEMATRIX_PROP
+title: D2D1_CONVOLVEMATRIX_PROP
+author: windows-sdk-content
+description: Identifiers for properties of the Convolve matrix effect.
+old-location: direct2d\d2d1_convolvematrix_prop.htm
+old-project: Direct2D
+ms.assetid: B6ACCA00-8127-4F4B-BF3B-9789943C0BB1
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_CONVOLVEMATRIX_PROP, D2D1_CONVOLVEMATRIX_PROP enumeration [Direct2D], D2D1_CONVOLVEMATRIX_PROP_BIAS, D2D1_CONVOLVEMATRIX_PROP_BORDER_MODE, D2D1_CONVOLVEMATRIX_PROP_CLAMP_OUTPUT, D2D1_CONVOLVEMATRIX_PROP_DIVISOR, D2D1_CONVOLVEMATRIX_PROP_KERNEL_MATRIX, D2D1_CONVOLVEMATRIX_PROP_KERNEL_OFFSET, D2D1_CONVOLVEMATRIX_PROP_KERNEL_SIZE_X, D2D1_CONVOLVEMATRIX_PROP_KERNEL_SIZE_Y, D2D1_CONVOLVEMATRIX_PROP_KERNEL_UNIT_LENGTH, D2D1_CONVOLVEMATRIX_PROP_PRESERVE_ALPHA, D2D1_CONVOLVEMATRIX_PROP_SCALE_MODE, d2d1effects/D2D1_CONVOLVEMATRIX_PROP, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_BIAS, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_BORDER_MODE, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_CLAMP_OUTPUT, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_DIVISOR, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_MATRIX, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_OFFSET, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_SIZE_X, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_SIZE_Y, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_KERNEL_UNIT_LENGTH, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_PRESERVE_ALPHA, d2d1effects/D2D1_CONVOLVEMATRIX_PROP_SCALE_MODE, direct2d.d2d1_convolvematrix_prop
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1effects.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_CONVOLVEMATRIX_PROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1effects.h
+api_name:
+-	D2D1_CONVOLVEMATRIX_PROP
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D2D1_CONVOLVEMATRIX_PROP enumeration

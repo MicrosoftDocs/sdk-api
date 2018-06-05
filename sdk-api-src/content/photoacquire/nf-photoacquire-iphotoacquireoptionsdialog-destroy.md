@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:photoacquire.IPhotoAcquireOptionsDialog.Destroy
+title: IPhotoAcquireOptionsDialog::Destroy
+author: windows-sdk-content
+description: The Destroy method closes and destroys the modeless dialog box created with the Create method.
+old-location: picacq\iphotoacquireoptionsdialog_destroy.htm
+old-project: acquisition
+ms.assetid: 787e12e9-b134-416a-9191-5a2cc6a922fd
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: Destroy, Destroy method [Picture Acquisition], Destroy method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, IPhotoAcquireOptionsDialog interface [Picture Acquisition],Destroy method, IPhotoAcquireOptionsDialog.Destroy, IPhotoAcquireOptionsDialog::Destroy, IPhotoAcquireOptionsDialogDestroy, photoacquire/IPhotoAcquireOptionsDialog::Destroy, picacq.iphotoacquireoptionsdialog_destroy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: photoacquire.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_INPUT_STRING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PhotoAcquireUID.lib
+-	PhotoAcquireUID.dll
+api_name:
+-	IPhotoAcquireOptionsDialog.Destroy
+product: Windows
+targetos: Windows
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPhotoAcquireOptionsDialog::Destroy

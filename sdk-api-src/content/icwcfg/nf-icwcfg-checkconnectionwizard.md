@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:icwcfg.CheckConnectionWizard
+title: CheckConnectionWizard function
+author: windows-sdk-content
+description: The CheckConnectionWizard function checks that the Internet Connection Wizard (ICW) is installed and that it has not been run before.
+old-location: winprog\checkconnectionwizard.htm
+old-project: DevNotes
+ms.assetid: 81960d59-3de3-4d86-948e-939c59073bb1
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: CheckConnectionWizard, CheckConnectionWizard function [Windows API], ICW_ALREADYRUN, ICW_CHECKSTATUS, ICW_FULLPRESENT, ICW_FULL_SMARTSTART, ICW_LAUNCHEDFULL, ICW_LAUNCHEDMANUAL, ICW_LAUNCHFULL, ICW_LAUNCHMANUAL, ICW_MANUALPRESENT, ICW_USE_SHELLNEXT, icwcfg/CheckConnectionWizard, winprog.checkconnectionwizard
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: icwcfg.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_FW_SERVICE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Inetcfg.dll
+api_name:
+-	CheckConnectionWizard
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Inetcfg.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CheckConnectionWizard function

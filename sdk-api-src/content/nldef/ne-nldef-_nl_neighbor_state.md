@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:nldef._NL_NEIGHBOR_STATE
+title: "_NL_NEIGHBOR_STATE"
+author: windows-sdk-content
+description: The NL_NEIGHBOR_STATE enumeration type defines the state of a network layer neighbor IP address, as described in RFC 2461, section 7.3.2.
+old-location: netvista\nl_neighbor_state.htm
+old-project: netvista
+ms.assetid: 7751011b-c473-4697-b311-62e3a6d9b1ae
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PNL_NEIGHBOR_STATE, NL_NEIGHBOR_STATE, NL_NEIGHBOR_STATE enumeration [Network Drivers Starting with Windows Vista], NlnsDelay, NlnsIncomplete, NlnsMaximum, NlnsPermanent, NlnsProbe, NlnsReachable, NlnsStale, NlnsUnreachable, PNL_NEIGHBOR_STATE, PNL_NEIGHBOR_STATE enumeration pointer [Network Drivers Starting with Windows Vista], _NL_NEIGHBOR_STATE, iphelper_dfada3d6-bdd8-4ce0-a7db-25882d0dac4a.xml, netvista.nl_neighbor_state, nldef/NL_NEIGHBOR_STATE, nldef/NlnsDelay, nldef/NlnsIncomplete, nldef/NlnsMaximum, nldef/NlnsPermanent, nldef/NlnsProbe, nldef/NlnsReachable, nldef/NlnsStale, nldef/NlnsUnreachable, nldef/PNL_NEIGHBOR_STATE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: nldef.h
+req.include-header: Netioapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NL_NEIGHBOR_STATE, *PNL_NEIGHBOR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	nldef.h
+api_name:
+-	NL_NEIGHBOR_STATE
+product: Windows
+targetos: Windows
+req.lib: Newdev.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NL_NEIGHBOR_STATE enumeration

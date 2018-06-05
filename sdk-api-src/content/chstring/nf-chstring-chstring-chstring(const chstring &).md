@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:chstring.CHString.CHString(const CHString &)
+title: CHString::CHString(const CHString &)
+author: windows-sdk-content
+description: Each of the following constructors initializes a new CHString object with the specified data.
+old-location: wmi\chstring_chstring.htm
+old-project: WmiSdk
+ms.assetid: d49e1600-d5d4-4c44-81c5-1b8c53b768de
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CHString, CHString.CHString, CHString.CHString(const CHString &), CHString::CHString, CHString::CHString constructors [Windows Management Instrumentation], CHString::CHString(const CHString &), chstring/CHString::CHString, wmi.chstring_chstring
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: chstring.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CHString::CHString
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 ---
 
 # CHString::CHString(const CHString &)

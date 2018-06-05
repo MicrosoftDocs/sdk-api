@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:traffic.TCI_DEL_FLOW_COMPLETE_HANDLER
+title: TCI_DEL_FLOW_COMPLETE_HANDLER
+author: windows-sdk-content
+description: The ClDeleteFlowComplete function is used by traffic control to notify the client of the completion of its previous call to the TcDeleteFlow function.
+old-location: qos\cldeleteflowcomplete.htm
+old-project: QOS
+ms.assetid: b31bd6e5-2b72-407d-a77e-ff9cee8de238
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: ClDeleteFlowComplete, ClDeleteFlowComplete callback, ClDeleteFlowComplete callback function [QOS], TCI_DEL_FLOW_COMPLETE_HANDLER, TCI_DEL_FLOW_COMPLETE_HANDLER callback function [QOS], _gqos_cldeleteflowcomplete, qos.cldeleteflowcomplete, traffic/ClDeleteFlowComplete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: traffic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TPMVSCMGR_ERROR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Traffic.h
+api_name:
+-	TCI_DEL_FLOW_COMPLETE_HANDLER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TCI_DEL_FLOW_COMPLETE_HANDLER callback function

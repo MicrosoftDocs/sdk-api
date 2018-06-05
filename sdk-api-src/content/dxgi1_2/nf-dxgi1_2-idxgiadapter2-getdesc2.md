@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxgi1_2.IDXGIAdapter2.GetDesc2
+title: IDXGIAdapter2::GetDesc2
+author: windows-sdk-content
+description: Gets a Microsoft DirectX Graphics Infrastructure (DXGI) 1.2 description of an adapter or video card.
+old-location: direct3ddxgi\idxgiadapter2_getdesc2.htm
+old-project: direct3ddxgi
+ms.assetid: DC1A054D-4092-4865-A6EF-B936891AA470
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: GetDesc2, GetDesc2 method [DXGI], GetDesc2 method [DXGI],IDXGIAdapter2 interface, IDXGIAdapter2 interface [DXGI],GetDesc2 method, IDXGIAdapter2.GetDesc2, IDXGIAdapter2::GetDesc2, direct3ddxgi.idxgiadapter2_getdesc2, dxgi1_2/IDXGIAdapter2::GetDesc2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi1_2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dxgi.lib
+-	Dxgi.dll
+api_name:
+-	IDXGIAdapter2.GetDesc2
+product: Windows
+targetos: Windows
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIAdapter2::GetDesc2

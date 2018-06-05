@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:tcpioctl.IPSNMPInfo
+title: IPSNMPInfo
+author: windows-sdk-content
+description: Implements part of the Management Information Base (MIB-II) information group for the Internet Protocol (IP) as specified in the Internet Engineering Task Force (IETF) Request for Comments (RFC) 2011.
+old-location: winprog\ipsnmpinfo.htm
+old-project: DevNotes
+ms.assetid: eb25fae9-1a89-4474-bcb6-28c09bc3e0c9
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IPSNMPInfo, IPSNMPInfo structure [Windows API], tcpioctl/IPSNMPInfo, winprog.ipsnmpinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tcpioctl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPSNMPInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tcpioctl.h
+api_name:
+-	IPSNMPInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IPSNMPInfo structure

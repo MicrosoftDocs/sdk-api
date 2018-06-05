@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:eventsys.IEventClass.get_CustomConfigCLSID
+title: IEventClass::get_CustomConfigCLSID
+author: windows-sdk-content
+description: The CLSID of a component that can assist in adding properties into the property bag of a subscription object. This property is supported only for backward compatibility.
+old-location: cos\ieventclass_customconfigclsid.htm
+old-project: cossdk
+ms.assetid: 54452bfb-063d-4f0e-a63d-a54de97106e7
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: CustomConfigCLSID property [COM+], CustomConfigCLSID property [COM+],IEventClass interface, IEventClass interface [COM+],CustomConfigCLSID property, IEventClass.CustomConfigCLSID, IEventClass.get_CustomConfigCLSID, IEventClass::CustomConfigCLSID, IEventClass::get_CustomConfigCLSID, IEventClass::put_CustomConfigCLSID, cos.ieventclass_customconfigclsid, eventsys/IEventClass::CustomConfigCLSID, eventsys/IEventClass::get_CustomConfigCLSID, eventsys/IEventClass::put_CustomConfigCLSID, get_CustomConfigCLSID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: eventsys.h
+req.include-header: Eventsys.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Eventsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EOC_ChangeType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	eventsys.h
+api_name:
+-	IEventClass.CustomConfigCLSID
+-	IEventClass.get_CustomConfigCLSID
+-	IEventClass.put_CustomConfigCLSID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IEventClass::get_CustomConfigCLSID

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dbghelp._IMAGEHLP_DEFERRED_SYMBOL_LOAD
+title: "_IMAGEHLP_DEFERRED_SYMBOL_LOAD"
+author: windows-sdk-content
+description: Contains information about a deferred symbol load.
+old-location: base\imagehlp_deferred_symbol_load64_str.htm
+old-project: Debug
+ms.assetid: 151c47dd-df4a-44c9-ad9f-1ffc80dd81e9
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PIMAGEHLP_DEFERRED_SYMBOL_LOAD, DSLFLAG_MISMATCHED_DBG, DSLFLAG_MISMATCHED_PDB, IMAGEHLP_DEFERRED_SYMBOL_LOAD, IMAGEHLP_DEFERRED_SYMBOL_LOAD structure, IMAGEHLP_DEFERRED_SYMBOL_LOAD64, IMAGEHLP_DEFERRED_SYMBOL_LOAD64 structure, IMAGEHLP_DEFERRED_SYMBOL_LOADW64, PIMAGEHLP_DEFERRED_SYMBOL_LOAD64, PIMAGEHLP_DEFERRED_SYMBOL_LOAD64 structure pointer, _IMAGEHLP_DEFERRED_SYMBOL_LOAD, _IMAGEHLP_DEFERRED_SYMBOL_LOAD64, _win32_imagehlp_deferred_symbol_load64_str, base.imagehlp_deferred_symbol_load64_str, dbghelp/IMAGEHLP_DEFERRED_SYMBOL_LOAD64, dbghelp/IMAGEHLP_DEFERRED_SYMBOL_LOADW64, dbghelp/PIMAGEHLP_DEFERRED_SYMBOL_LOAD64"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: IMAGEHLP_DEFERRED_SYMBOL_LOADW64 (Unicode) and IMAGEHLP_DEFERRED_SYMBOL_LOAD64 (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_DEFERRED_SYMBOL_LOAD, *PIMAGEHLP_DEFERRED_SYMBOL_LOAD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DbgHelp.h
+api_name:
+-	IMAGEHLP_DEFERRED_SYMBOL_LOAD64
+-	IMAGEHLP_DEFERRED_SYMBOL_LOAD64
+-	IMAGEHLP_DEFERRED_SYMBOL_LOADW64
+-	IMAGEHLP_DEFERRED_SYMBOL_LOAD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _IMAGEHLP_DEFERRED_SYMBOL_LOAD structure

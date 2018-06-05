@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._DISK_CACHE_INFORMATION
+title: "_DISK_CACHE_INFORMATION"
+author: windows-sdk-content
+description: Provides information about the disk cache.
+old-location: fs\disk_cache_information_str.htm
+old-project: FileIO
+ms.assetid: ea175bea-5f2b-4f3e-9fe0-239b1d2e3d96
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PDISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Files], EqualPriority, KeepPrefetchedData, KeepReadData, PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Files], _DISK_CACHE_INFORMATION, base.disk_cache_information_str, fs.disk_cache_information_str, winioctl/DISK_CACHE_INFORMATION, winioctl/PDISK_CACHE_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	DISK_CACHE_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _DISK_CACHE_INFORMATION structure

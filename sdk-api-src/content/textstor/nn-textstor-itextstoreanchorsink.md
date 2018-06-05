@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:textstor.ITextStoreAnchorSink
+title: ITextStoreAnchorSink
+author: windows-sdk-content
+description: The ITextStoreAnchorSink interface is implemented by the TSF manager and is used by an anchor-based application to notify the manager when certain events occur. The manager installs this advise sink by calling ITextStoreAnchor::AdviseSink.
+old-location: tsf\itextstoreanchorsink.htm
+old-project: TSF
+ms.assetid: fb96b4fb-864f-4f32-bf7c-cf7f199e552a
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITextStoreAnchorSink, ITextStoreAnchorSink interface [Text Services Framework], ITextStoreAnchorSink interface [Text Services Framework],described, _tsf_itextstoreanchorsink_ref, textstor/ITextStoreAnchorSink, tsf.itextstoreanchorsink
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: textstor.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Textstor.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TsRunType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITextStoreAnchorSink
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextStoreAnchorSink interface

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:ifdef._NET_IF_DIRECTION_TYPE
+title: "_NET_IF_DIRECTION_TYPE"
+author: windows-sdk-content
+description: The NET_IF_ACCESS_TYPE enumeration type specifies the NDIS network interface direction type.
+old-location: netvista\net_if_direction_type.htm
+old-project: netvista
+ms.assetid: e9f80162-5a1c-44c8-af31-a0c0f986edc2
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PNET_IF_DIRECTION_TYPE, NET_IF_DIRECTION_MAXIMUM, NET_IF_DIRECTION_RECEIVEONLY, NET_IF_DIRECTION_SENDONLY, NET_IF_DIRECTION_SENDRECEIVE, NET_IF_DIRECTION_TYPE, NET_IF_DIRECTION_TYPE enumeration [Network Drivers Starting with Windows Vista], PNET_IF_DIRECTION_TYPE, PNET_IF_DIRECTION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NET_IF_DIRECTION_TYPE, ifdef/NET_IF_DIRECTION_MAXIMUM, ifdef/NET_IF_DIRECTION_RECEIVEONLY, ifdef/NET_IF_DIRECTION_SENDONLY, ifdef/NET_IF_DIRECTION_SENDRECEIVE, ifdef/NET_IF_DIRECTION_TYPE, ifdef/PNET_IF_DIRECTION_TYPE, net_if_enums_ref_a000a0bc-2ed9-4d45-af32-4cfb71731367.xml, netvista.net_if_direction_type"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ifdef.h
+req.include-header: Netioapi.h, Ntddndis.h
+req.target-type: Windows
+req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_IF_DIRECTION_TYPE, *PNET_IF_DIRECTION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ifdef.h
+api_name:
+-	NET_IF_DIRECTION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _NET_IF_DIRECTION_TYPE enumeration

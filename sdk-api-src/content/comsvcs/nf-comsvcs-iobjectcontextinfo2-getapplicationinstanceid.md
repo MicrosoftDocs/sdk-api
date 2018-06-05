@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IObjectContextInfo2.GetApplicationInstanceId
+title: IObjectContextInfo2::GetApplicationInstanceId
+author: windows-sdk-content
+description: Retrieves the identifier of the application instance of the current object context.
+old-location: cos\iobjectcontextinfo2_getapplicationinstanceid.htm
+old-project: cossdk
+ms.assetid: e20e02c8-23ad-4234-9f20-4e8cae2e9279
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: GetApplicationInstanceId, GetApplicationInstanceId method [COM+], GetApplicationInstanceId method [COM+],IObjectContextInfo2 interface, IObjectContextInfo2 interface [COM+],GetApplicationInstanceId method, IObjectContextInfo2.GetApplicationInstanceId, IObjectContextInfo2::GetApplicationInstanceId, _cos_IObjectContextInfo2_GetApplicationInstanceId, comsvcs/IObjectContextInfo2::GetApplicationInstanceId, cos.iobjectcontextinfo2_getapplicationinstanceid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IObjectContextInfo2.GetApplicationInstanceId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IObjectContextInfo2::GetApplicationInstanceId

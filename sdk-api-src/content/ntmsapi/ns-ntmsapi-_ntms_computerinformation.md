@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntmsapi._NTMS_COMPUTERINFORMATION
+title: "_NTMS_COMPUTERINFORMATION"
+author: windows-sdk-content
+description: The NTMS_COMPUTERINFORMATION structure defines the properties specific to the RSM server.
+old-location: fs\ntms_computerinformation.htm
+old-project: Rsm
+ms.assetid: 11dd71eb-7193-40d5-b193-4d529eec3ca7
+ms.author: windowssdkdev
+ms.date: 04/05/2018
+ms.keywords: NTMS_COMPUTERINFO, NTMS_COMPUTERINFO structure [Files], NTMS_COMPUTERINFORMATION, NTMS_COMPUTERINFORMATION structure [Files], NTMS_LIBREQFLAGS_NOAUTOPURGE, NTMS_LIBREQFLAGS_NOFAILEDPURGE, NTMS_OPREQFLAGS_NOALERTS, NTMS_OPREQFLAGS_NOAUTOPURGE, NTMS_OPREQFLAGS_NOFAILEDPURGE, NTMS_OPREQFLAGS_NOTRAYICON, NTMS_POOLPOLICY_KEEPOFFLINEIMPORT, NTMS_POOLPOLICY_PURGEOFFLINESCRATCH, _NTMS_COMPUTERINFORMATION, _zaw_ntms_computerinformation, base.ntms_computerinformation, fs.ntms_computerinformation, ntmsapi/NTMS_COMPUTERINFORMATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntmsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NTMS_COMPUTERINFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntmsapi.h
+api_name:
+-	NTMS_COMPUTERINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NTMS_COMPUTERINFORMATION structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xenroll.ICEnroll3.put_LimitExchangeKeyToEncipherment
+title: ICEnroll3::put_LimitExchangeKeyToEncipherment
+author: windows-sdk-content
+description: Sets or retrieves a Boolean value that determines whether an AT_KEYEXCHANGE request contains digital signature and nonrepudiation key usages.
+old-location: security\icenroll4_limitexchangekeytoencipherment.htm
+old-project: SecCrypto
+ms.assetid: d8ed3663-bbda-4052-9c72-b00543ca73ab
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CEnroll object [Security],LimitExchangeKeyToEncipherment property, ICEnroll3 interface [Security],LimitExchangeKeyToEncipherment property, ICEnroll3.LimitExchangeKeyToEncipherment, ICEnroll3.put_LimitExchangeKeyToEncipherment, ICEnroll3::get_LimitExchangeKeyToEncipherment, ICEnroll3::put_LimitExchangeKeyToEncipherment, ICEnroll4 interface [Security],LimitExchangeKeyToEncipherment property, ICEnroll4.LimitExchangeKeyToEncipherment, ICEnroll4::LimitExchangeKeyToEncipherment, ICEnroll4::get_LimitExchangeKeyToEncipherment, ICEnroll4::put_LimitExchangeKeyToEncipherment, LimitExchangeKeyToEncipherment property [Security], LimitExchangeKeyToEncipherment property [Security],CEnroll object, LimitExchangeKeyToEncipherment property [Security],ICEnroll3 interface, LimitExchangeKeyToEncipherment property [Security],ICEnroll4 interface, put_LimitExchangeKeyToEncipherment, security.icenroll4_limitexchangekeytoencipherment, xenroll/ICEnroll3::LimitExchangeKeyToEncipherment, xenroll/ICEnroll3::get_LimitExchangeKeyToEncipherment, xenroll/ICEnroll3::put_LimitExchangeKeyToEncipherment, xenroll/ICEnroll4::LimitExchangeKeyToEncipherment, xenroll/ICEnroll4::get_LimitExchangeKeyToEncipherment, xenroll/ICEnroll4::put_LimitExchangeKeyToEncipherment
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,29 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	ICEnroll4.LimitExchangeKeyToEncipherment
+-	ICEnroll4.get_LimitExchangeKeyToEncipherment
+-	ICEnroll4.put_LimitExchangeKeyToEncipherment
+-	ICEnroll3.LimitExchangeKeyToEncipherment
+-	ICEnroll3.get_LimitExchangeKeyToEncipherment
+-	ICEnroll3.put_LimitExchangeKeyToEncipherment
+-	CEnroll.LimitExchangeKeyToEncipherment
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # ICEnroll3::put_LimitExchangeKeyToEncipherment

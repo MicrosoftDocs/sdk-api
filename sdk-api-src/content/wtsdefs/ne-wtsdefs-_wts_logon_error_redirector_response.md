@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wtsdefs._WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
+title: "_WTS_LOGON_ERROR_REDIRECTOR_RESPONSE"
+author: windows-sdk-content
+description: Contains values that specify the preferred response of the protocol to a logon error.
+old-location: termserv\wts_logon_error_redirector_response.htm
+old-project: TermServ
+ms.assetid: 67ed8d6f-641c-4739-911c-e61379e14048
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: WRDS_LOGON_ERROR_REDIRECTOR_RESPONSE, WRDS_LOGON_ERROR_REDIRECTOR_RESPONSE enumeration [Remote Desktop Services], WTS_LOGON_ERROR_REDIRECTOR_RESPONSE, WTS_LOGON_ERROR_REDIRECTOR_RESPONSE enumeration [Remote Desktop Services], WTS_LOGON_ERR_HANDLED_DONT_SHOW, WTS_LOGON_ERR_HANDLED_DONT_SHOW_START_OVER, WTS_LOGON_ERR_HANDLED_SHOW, WTS_LOGON_ERR_INVALID, WTS_LOGON_ERR_NOT_HANDLED, _WTS_LOGON_ERROR_REDIRECTOR_RESPONSE, termserv.wts_logon_error_redirector_response, wtsdefs/WRDS_LOGON_ERROR_REDIRECTOR_RESPONSE, wtsdefs/WTS_LOGON_ERROR_REDIRECTOR_RESPONSE, wtsdefs/WTS_LOGON_ERR_HANDLED_DONT_SHOW, wtsdefs/WTS_LOGON_ERR_HANDLED_DONT_SHOW_START_OVER, wtsdefs/WTS_LOGON_ERR_HANDLED_SHOW, wtsdefs/WTS_LOGON_ERR_INVALID, wtsdefs/WTS_LOGON_ERR_NOT_HANDLED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wtsdefs.h
+req.include-header: Wtsprotocol.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WTS_SESSION_INFO_1W (Unicode) and WTS_SESSION_INFO_1A (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsdefs.h
+api_name:
+-	WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTS_LOGON_ERROR_REDIRECTOR_RESPONSE enumeration

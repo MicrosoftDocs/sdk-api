@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:traceloggingactivity.TraceLoggingActivity.SetRelatedActivity
+title: TraceLoggingActivity::SetRelatedActivity
+author: windows-sdk-content
+description: Sets the related activity for this TraceLoggingActivity object.
+old-location: tracelogging\traceloggingactivity_setrelatedactivity.htm
+old-project: tracelogging
+ms.assetid: 3A756D11-2595-451B-9BE6-BBE950252D3F
+ms.author: windowssdkdev
+ms.date: 04/26/2018
+ms.keywords: SetRelatedActivity, SetRelatedActivity method, SetRelatedActivity method,TraceLoggingActivity interface, TraceLoggingActivity interface,SetRelatedActivity method, TraceLoggingActivity.SetRelatedActivity, TraceLoggingActivity::SetRelatedActivity, tracelogging.traceloggingactivity_setrelatedactivity, traceloggingactivity/TraceLoggingActivity::SetRelatedActivity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: traceloggingactivity.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TPMVSCMGR_ERROR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	traceloggingactivity.h
+api_name:
+-	TraceLoggingActivity.SetRelatedActivity
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TraceLoggingActivity::SetRelatedActivity

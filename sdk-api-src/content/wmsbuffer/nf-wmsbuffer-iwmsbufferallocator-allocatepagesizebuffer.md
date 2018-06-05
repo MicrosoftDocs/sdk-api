@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmsbuffer.IWMSBufferAllocator.AllocatePageSizeBuffer
+title: IWMSBufferAllocator::AllocatePageSizeBuffer
+author: windows-sdk-content
+description: The AllocatePageSizeBuffer method initializes a buffer that can be used to perform page-aligned reads.
+old-location: wmformat\iwmsbufferallocator_allocatepagesizebuffer.htm
+old-project: wmformat
+ms.assetid: 5d2340dd-8f91-4cce-840a-256c04329513
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: AllocatePageSizeBuffer, AllocatePageSizeBuffer method [windows Media Format], AllocatePageSizeBuffer method [windows Media Format],IWMSBufferAllocator interface, IWMSBufferAllocator interface [windows Media Format],AllocatePageSizeBuffer method, IWMSBufferAllocator.AllocatePageSizeBuffer, IWMSBufferAllocator::AllocatePageSizeBuffer, IWMSBufferAllocatorAllocatePageSizeBuffer, wmformat.iwmsbufferallocator_allocatepagesizebuffer, wmsbuffer/IWMSBufferAllocator::AllocatePageSizeBuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmsbuffer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPServices_StreamState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmsbuffer.h
+api_name:
+-	IWMSBufferAllocator.AllocatePageSizeBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMSBufferAllocator::AllocatePageSizeBuffer

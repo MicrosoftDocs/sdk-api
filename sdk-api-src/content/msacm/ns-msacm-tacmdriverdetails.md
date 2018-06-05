@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:msacm.tACMDRIVERDETAILS
+title: tACMDRIVERDETAILS
+author: windows-sdk-content
+description: The ACMDRIVERDETAILS structure describes the features of an ACM driver.
+old-location: multimedia\acmdriverdetails_struct.htm
+old-project: Multimedia
+ms.assetid: b45b26e2-a9c0-4d01-9989-a071d9c73993
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*LPACMDRIVERDETAILS, *PACMDRIVERDETAILS, ACMDRIVERDETAILS, ACMDRIVERDETAILS structure [Windows Multimedia], ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_DISABLED, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMDRIVERDETAILS_SUPPORTF_LOCAL, msacm/ACMDRIVERDETAILS, multimedia.acmdriverdetails_COLLISION566, multimedia.acmdriverdetails_struct, tACMDRIVERDETAILS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: msacm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACMDRIVERDETAILS, *PACMDRIVERDETAILS, *LPACMDRIVERDETAILS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msacm.h
+api_name:
+-	ACMDRIVERDETAILS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tACMDRIVERDETAILS structure

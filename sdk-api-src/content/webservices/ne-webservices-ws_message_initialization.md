@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_MESSAGE_INITIALIZATION
+title: WS_MESSAGE_INITIALIZATION
+author: windows-sdk-content
+description: Specifies what headers the WsInitializeMessage should add to the message.
+old-location: wsw\ws_message_initialization.htm
+old-project: wsw
+ms.assetid: f4a674c1-4017-49c8-aa9a-68f1d2b84378
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_BLANK_MESSAGE, WS_DUPLICATE_MESSAGE, WS_FAULT_MESSAGE, WS_MESSAGE_INITIALIZATION, WS_MESSAGE_INITIALIZATION enumeration [Web Services for Windows], WS_REPLY_MESSAGE, WS_REQUEST_MESSAGE, webservices/WS_BLANK_MESSAGE, webservices/WS_DUPLICATE_MESSAGE, webservices/WS_FAULT_MESSAGE, webservices/WS_MESSAGE_INITIALIZATION, webservices/WS_REPLY_MESSAGE, webservices/WS_REQUEST_MESSAGE, wsw.ws_message_initialization
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_MESSAGE_INITIALIZATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_MESSAGE_INITIALIZATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_MESSAGE_INITIALIZATION enumeration

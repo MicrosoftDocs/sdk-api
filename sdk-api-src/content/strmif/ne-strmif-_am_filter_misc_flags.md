@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif._AM_FILTER_MISC_FLAGS
+title: "_AM_FILTER_MISC_FLAGS"
+author: windows-sdk-content
+description: The _AM_FILTER_MISC_FLAGS enumeration contains flags that indicate whether a filter is a source filter or a renderer filter.
+old-location: dshow\_am_filter_misc_flags.htm
+old-project: DirectShow
+ms.assetid: 7acc160c-0da8-4b85-b88c-82b59ec38106
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AM_FILTER_MISC_FLAGSEnumeration, AM_FILTER_MISC_FLAGS_IS_RENDERER, AM_FILTER_MISC_FLAGS_IS_SOURCE, _AM_FILTER_MISC_FLAGS, _AM_FILTER_MISC_FLAGS enumeration [DirectShow], dshow._am_filter_misc_flags, strmif/AM_FILTER_MISC_FLAGS_IS_RENDERER, strmif/AM_FILTER_MISC_FLAGS_IS_SOURCE, strmif/_AM_FILTER_MISC_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Strmif.h
+api_name:
+-	_AM_FILTER_MISC_FLAGS
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # _AM_FILTER_MISC_FLAGS enumeration

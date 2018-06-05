@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dmusics.IDirectMusicSynthSink.SetDirectSound
+title: IDirectMusicSynthSink::SetDirectSound
+author: windows-sdk-content
+description: The SetDirectSound method connects the synthesizer sink with an existing DirectSound object and a DirectSound buffer.
+old-location: audio\idirectmusicsynthsink_setdirectsound.htm
+old-project: audio
+ms.assetid: 879292e1-b8e9-4f11-bb3d-f92c18e915e2
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IDirectMusicSynthSink interface [Audio Devices],SetDirectSound method, IDirectMusicSynthSink.SetDirectSound, IDirectMusicSynthSink::SetDirectSound, SetDirectSound, SetDirectSound method [Audio Devices], SetDirectSound method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_setdirectsound, audmp-routines_6c018b77-9478-4754-b40e-428ba758f7dc.xml, dmusics/IDirectMusicSynthSink::SetDirectSound
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dmusics.h
+req.include-header: Dmusics.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dmusics.h
+api_name:
+-	IDirectMusicSynthSink.SetDirectSound
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectMusicSynthSink::SetDirectSound

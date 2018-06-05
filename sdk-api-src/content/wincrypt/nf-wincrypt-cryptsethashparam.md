@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CryptSetHashParam
+title: CryptSetHashParam function
+author: windows-sdk-content
+description: Customizes the operations of a hash object, including setting up initial hash contents and selecting a specific hashing algorithm.
+old-location: security\cryptsethashparam.htm
+old-project: SecCrypto
+ms.assetid: 0c8d3ef9-e7b5-4e49-a2f8-9c85b16549da
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CryptSetHashParam, CryptSetHashParam function [Security], HP_HASHVAL., HP_HMAC_INFO., _crypto2_cryptsethashparam, security.cryptsethashparam, wincrypt/CryptSetHashParam
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-Security-cryptoapi-l1-1-0.dll
+-	cryptsp.dll
+api_name:
+-	CryptSetHashParam
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CryptSetHashParam function

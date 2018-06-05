@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.CALL_PRIVILEGE
+title: CALL_PRIVILEGE
+author: windows-sdk-content
+description: A CALL_PRIVILEGE member is returned by the ITCallInfo::get_Privilege method, and indicates when the current application owns or is monitoring the current call.
+old-location: tapi3\call_privilege.htm
+old-project: Tapi
+ms.assetid: 8d2ab3d2-9531-40fc-910d-2bd81a075cc3
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CALL_PRIVILEGE, CALL_PRIVILEGE enumeration [TAPI 2.2], CP_MONITOR, CP_OWNER, _tapi3_call_privilege, tapi3.call_privilege, tapi3if/CALL_PRIVILEGE, tapi3if/CP_MONITOR, tapi3if/CP_OWNER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CALL_PRIVILEGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	CALL_PRIVILEGE
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # CALL_PRIVILEGE enumeration

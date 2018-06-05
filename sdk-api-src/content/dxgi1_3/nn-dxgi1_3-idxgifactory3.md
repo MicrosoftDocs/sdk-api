@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:dxgi1_3.IDXGIFactory3
+title: IDXGIFactory3
+author: windows-sdk-content
+description: Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
+old-location: direct3ddxgi\idxgifactory3.htm
+old-project: direct3ddxgi
+ms.assetid: 63B7A8E3-9A8F-409F-84DA-E9303C52A146
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IDXGIFactory3, IDXGIFactory3 interface [DXGI], IDXGIFactory3 interface [DXGI],described, direct3ddxgi.idxgifactory3, dxgi1_3/IDXGIFactory3
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: dxgi1_3.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dxgi.lib
+-	Dxgi.dll
+api_name:
+-	IDXGIFactory3
+product: Windows
+targetos: Windows
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIFactory3 interface

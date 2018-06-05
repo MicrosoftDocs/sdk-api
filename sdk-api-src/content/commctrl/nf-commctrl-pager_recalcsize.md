@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:commctrl.Pager_RecalcSize
+title: Pager_RecalcSize macro
+author: windows-sdk-content
+description: Forces the pager control to recalculate the size of the contained window. Using this macro will result in a PGN_CALCSIZE notification being sent. You can use this macro or send the PGM_RECALCSIZE message explicitly.
+old-location: controls\Pager_RecalcSize.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\pager\macros\pager_recalcsize.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: Pager_RecalcSize, Pager_RecalcSize macro [Windows Controls], _win32_Pager_RecalcSize, _win32_Pager_RecalcSize_cpp, commctrl/Pager_RecalcSize, controls.Pager_RecalcSize, controls._win32_Pager_RecalcSize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STGOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	Pager_RecalcSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # Pager_RecalcSize macro

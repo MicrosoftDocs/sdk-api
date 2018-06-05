@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:windns._IP4_ARRAY
+title: "_IP4_ARRAY"
+author: windows-sdk-content
+description: The IP4_ARRAY structure stores an array of IPv4 addresses.
+old-location: dns\ip4_array.htm
+old-project: DNS
+ms.assetid: 4273a739-129c-4951-b6df-aef4332ce0cb
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: "*PIP4_ARRAY, *PIP4_ARRAY structure [DNS], IP4_ARRAY, IP4_ARRAY structure [DNS], _IP4_ARRAY, dns.ip4_array, windns/*PIP4_ARRAY, windns/IP4_ARRAY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: windns.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IP4_ARRAY, *PIP4_ARRAY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Windns.h
+api_name:
+-	IP4_ARRAY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _IP4_ARRAY structure

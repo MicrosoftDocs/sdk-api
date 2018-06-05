@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:activationregistration.InstancingType
+title: InstancingType
+author: windows-sdk-content
+description: Represents the kind of instancing behavior for the out-of-process server.
+old-location: winrt\instancingtype.htm
+old-project: WinRT
+ms.assetid: 42E6A5EE-06B0-4F38-92D0-729922AD9FFF
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: InstancingType, InstancingType enumeration [Windows Runtime], MultipleInstances, SingleInstance, activationregistration/InstancingType, activationregistration/MultipleInstances, activationregistration/SingleInstance, winrt.instancingtype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: activationregistration.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Activation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InstancingType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	activationregistration.h
+api_name:
+-	InstancingType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # InstancingType enumeration

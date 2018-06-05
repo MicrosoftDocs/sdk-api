@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wcntypes.tagWCN_VALUE_TYPE_DEVICE_PASSWORD_ID
+title: tagWCN_VALUE_TYPE_DEVICE_PASSWORD_ID
+author: windows-sdk-content
+description: WCN_VALUE_TYPE_DEVICE_PASSWORD_ID enumeration defines values that specify the origin or 'type' of a password.
+old-location: wcn\wcn_value_type_device_password_id.htm
+old-project: wcn
+ms.assetid: 3642bb5d-ef19-4ff3-a8bc-b0f01ad197ce
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WCN_VALUE_DP_DEFAULT, WCN_VALUE_DP_MACHINE_SPECIFIED, WCN_VALUE_DP_PUSHBUTTON, WCN_VALUE_DP_REGISTRAR_SPECIFIED, WCN_VALUE_DP_REKEY, WCN_VALUE_DP_USER_SPECIFIED, WCN_VALUE_TYPE_DEVICE_PASSWORD_ID, WCN_VALUE_TYPE_DEVICE_PASSWORD_ID enumeration [Windows Connect Now], tagWCN_VALUE_TYPE_DEVICE_PASSWORD_ID, wcn.wcn_value_type_device_password_id, wcntypes/WCN_VALUE_DP_DEFAULT, wcntypes/WCN_VALUE_DP_MACHINE_SPECIFIED, wcntypes/WCN_VALUE_DP_PUSHBUTTON, wcntypes/WCN_VALUE_DP_REGISTRAR_SPECIFIED, wcntypes/WCN_VALUE_DP_REKEY, wcntypes/WCN_VALUE_DP_USER_SPECIFIED, wcntypes/WCN_VALUE_TYPE_DEVICE_PASSWORD_ID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wcntypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wcndevice.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WCN_VALUE_TYPE_DEVICE_PASSWORD_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wcntypes.h
+api_name:
+-	WCN_VALUE_TYPE_DEVICE_PASSWORD_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagWCN_VALUE_TYPE_DEVICE_PASSWORD_ID enumeration

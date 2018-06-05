@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dxgi1_6.IDXGIFactory6.EnumAdapterByGpuPreference
+title: IDXGIFactory6::EnumAdapterByGpuPreference
+author: windows-sdk-content
+description: Enumerates graphics adapters based on a given GPU preference.
+old-location: direct3ddxgi\idxgifactory6_enumadapterbygpupreference.htm
+old-project: direct3ddxgi
+ms.assetid: E5F835FB-3699-4E27-B990-4C1CF6E6DD48
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: EnumAdapterByGpuPreference, EnumAdapterByGpuPreference method [DXGI], EnumAdapterByGpuPreference method [DXGI],IDXGIFactory6 interface, IDXGIFactory6 interface [DXGI],EnumAdapterByGpuPreference method, IDXGIFactory6.EnumAdapterByGpuPreference, IDXGIFactory6::EnumAdapterByGpuPreference, direct3ddxgi.idxgifactory6_enumadapterbygpupreference, dxgi1_6/IDXGIFactory6::EnumAdapterByGpuPreference
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi1_6.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxgi.lib
+-	dxgi.dll
+api_name:
+-	IDXGIFactory6.EnumAdapterByGpuPreference
+product: Windows
+targetos: Windows
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIFactory6::EnumAdapterByGpuPreference

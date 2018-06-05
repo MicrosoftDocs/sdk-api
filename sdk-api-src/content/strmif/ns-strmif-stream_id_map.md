@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:strmif.STREAM_ID_MAP
+title: STREAM_ID_MAP
+author: windows-sdk-content
+description: The STREAM_ID_MAP structure describes an elementary stream within an MPEG-2 program stream. Used with the IEnumStreamIdMap interface methods.
+old-location: dshow\stream_id_map.htm
+old-project: DirectShow
+ms.assetid: 75f41d9f-00a1-47e1-8b42-64de1e6abbdb
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: MPEG2_PROGRAM_DIRECTORY_PES_PACKET, MPEG2_PROGRAM_ELEMENTARY_STREAM, MPEG2_PROGRAM_PACK_HEADER, MPEG2_PROGRAM_PES_STREAM, MPEG2_PROGRAM_STREAM_MAP, MPEG2_PROGRAM_SYSTEM_HEADER, STREAM_ID_MAP, STREAM_ID_MAP structure [DirectShow], STREAM_ID_MAPStructure, dshow.stream_id_map, strmif/STREAM_ID_MAP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAM_ID_MAP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	STREAM_ID_MAP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # STREAM_ID_MAP structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:eapmethodpeerapis.EapPeerGetResponsePacket
+title: EapPeerGetResponsePacket function
+author: windows-sdk-content
+description: Obtains a response packet from the EAP method.
+old-location: eaphost\eappeergetresponsepacket.htm
+old-project: EAPHost
+ms.assetid: 4e1deaab-53fe-4c8f-9018-d7b148131231
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: EapPeerGetResponsePacket, EapPeerGetResponsePacket function [EAPHost], eaphost.eappeergetresponsepacket, eapmethodpeerapis/EapPeerGetResponsePacket
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: eapmethodpeerapis.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	eapmethodpeerapis.h
+api_name:
+-	EapPeerGetResponsePacket
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # EapPeerGetResponsePacket function

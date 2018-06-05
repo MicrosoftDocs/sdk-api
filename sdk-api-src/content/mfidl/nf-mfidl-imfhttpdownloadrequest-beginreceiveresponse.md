@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFHttpDownloadRequest.BeginReceiveResponse
+title: IMFHttpDownloadRequest::BeginReceiveResponse
+author: windows-sdk-content
+description: Invoked by Microsoft Media Foundation to receive the response, provided by the server, in response to a previously sent HTTP or HTTPS request. Media Foundation invokes this method only after having successfully invoked the EndSendRequest method.
+old-location: mf\imfhttpdownloadrequest_beginreceiveresponse.htm
+old-project: medfound
+ms.assetid: 6D5DB091-426B-4E89-8657-0BDC6427B23A
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: BeginReceiveResponse, BeginReceiveResponse method [Media Foundation], BeginReceiveResponse method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginReceiveResponse method, IMFHttpDownloadRequest.BeginReceiveResponse, IMFHttpDownloadRequest::BeginReceiveResponse, mf.imfhttpdownloadrequest_beginreceiveresponse, mfidl/IMFHttpDownloadRequest::BeginReceiveResponse
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfplat.lib
+-	mfplat.dll
+-	mfplat.dll
+-	mfplat.dll.dll
+api_name:
+-	IMFHttpDownloadRequest.BeginReceiveResponse
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFHttpDownloadRequest::BeginReceiveResponse

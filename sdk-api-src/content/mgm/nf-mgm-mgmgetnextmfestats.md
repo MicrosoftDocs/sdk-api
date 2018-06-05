@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mgm.MgmGetNextMfeStats
+title: MgmGetNextMfeStats function
+author: windows-sdk-content
+description: The MgmGetNextMfeStats function retrieves one or more sets of MFE statistics.
+old-location: rras\mgmgetnextmfestats.htm
+old-project: RRAS
+ms.assetid: af8dd38e-e66f-459a-a07c-c298154901f6
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: MGM_MFE_STATS_0, MGM_MFE_STATS_1, MgmGetNextMfeStats, MgmGetNextMfeStats function [RAS], _mpr_mgmgetnextmfestats, mgm/MgmGetNextMfeStats, rras.mgmgetnextmfestats
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mgm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MGM_ENUM_TYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rtm.dll
+api_name:
+-	MgmGetNextMfeStats
+product: Windows
+targetos: Windows
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MgmGetNextMfeStats function

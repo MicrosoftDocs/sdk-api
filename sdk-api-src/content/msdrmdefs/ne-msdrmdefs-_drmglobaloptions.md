@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:msdrmdefs._DRMGLOBALOPTIONS
+title: "_DRMGLOBALOPTIONS"
+author: windows-sdk-content
+description: Defines values for specifying which protocol is used for the transport protocol and whether the server lockbox is used. This enumeration is used by the DRMSetGlobalOptions function.
+old-location: rm\drmglobaloptions.htm
+old-project: AdRms_Sdk
+ms.assetid: 57debd49-ec1e-432d-baac-2f828aeb4412
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DRMGLOBALOPTIONS, DRMGLOBALOPTIONS enumeration [Active Directory Rights Management Services SDK 1.0], DRMGLOBALOPTIONS_USE_SERVERSECURITYPROCESSOR, DRMGLOBALOPTIONS_USE_WINHTTP, _DRMGLOBALOPTIONS, msdrmdefs/DRMGLOBALOPTIONS, msdrmdefs/DRMGLOBALOPTIONS_USE_SERVERSECURITYPROCESSOR, msdrmdefs/DRMGLOBALOPTIONS_USE_WINHTTP, rm.drmglobaloptions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msdrmdefs.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRMGLOBALOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msdrmdefs.h
+api_name:
+-	DRMGLOBALOPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _DRMGLOBALOPTIONS enumeration

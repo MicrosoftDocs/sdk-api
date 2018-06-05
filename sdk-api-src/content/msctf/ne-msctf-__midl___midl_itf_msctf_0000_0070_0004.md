@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msctf.__MIDL___MIDL_itf_msctf_0000_0070_0004
+title: "__MIDL___MIDL_itf_msctf_0000_0070_0004"
+author: windows-sdk-content
+description: Elements of the TF_DA_ATTR_INFO enumeration are used to specify text conversion data in the TF_DISPLAYATTRIBUTE structure.
+old-location: tsf\tf_da_attr_info.htm
+old-project: TSF
+ms.assetid: 894e6c15-d911-4e0c-96b1-db6ec8e43eba
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: TF_ATTR_CONVERTED, TF_ATTR_FIXEDCONVERTED, TF_ATTR_INPUT, TF_ATTR_INPUT_ERROR, TF_ATTR_OTHER, TF_ATTR_TARGET_CONVERTED, TF_ATTR_TARGET_NOTCONVERTED, TF_DA_ATTR_INFO, TF_DA_ATTR_INFO enumeration [Text Services Framework], __MIDL___MIDL_itf_msctf_0000_0070_0004, _tsf_tf_da_attr_info_ref, msctf/TF_ATTR_CONVERTED, msctf/TF_ATTR_FIXEDCONVERTED, msctf/TF_ATTR_INPUT, msctf/TF_ATTR_INPUT_ERROR, msctf/TF_ATTR_OTHER, msctf/TF_ATTR_TARGET_CONVERTED, msctf/TF_ATTR_TARGET_NOTCONVERTED, msctf/TF_DA_ATTR_INFO, tsf.tf_da_attr_info
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: MsClus.tlb
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msctf.h
+api_name:
+-	TF_DA_ATTR_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_msctf_0000_0070_0004 enumeration

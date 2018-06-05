@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ntsecpkg._SECPKG_EXTENDED_INFORMATION_CLASS
+title: "_SECPKG_EXTENDED_INFORMATION_CLASS"
+author: windows-sdk-content
+description: The SECPKG_EXTENDED_INFORMATION_CLASS enumeration describes the type of information to set or get for a security package.This enumeration is used by the SpGetExtendedInformation and SpSetExtendedInformation functions.
+old-location: security\secpkg_extended_information_class.htm
+old-project: SecAuthN
+ms.assetid: 52c24886-ae81-4ac8-97d5-d638016e82bf
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: SECPKG_EXTENDED_INFORMATION_CLASS, SECPKG_EXTENDED_INFORMATION_CLASS enumeration [Security], SecpkgContextThunks, SecpkgExtraOids, SecpkgGssInfo, SecpkgMaxInfo, SecpkgMutualAuthLevel, SecpkgNego2Info, SecpkgWowClientDll, _SECPKG_EXTENDED_INFORMATION_CLASS, _ssp_secpkg_extended_information_class, ntsecpkg/SECPKG_EXTENDED_INFORMATION_CLASS, ntsecpkg/SecpkgContextThunks, ntsecpkg/SecpkgExtraOids, ntsecpkg/SecpkgGssInfo, ntsecpkg/SecpkgMaxInfo, ntsecpkg/SecpkgMutualAuthLevel, ntsecpkg/SecpkgNego2Info, ntsecpkg/SecpkgWowClientDll, security.secpkg_extended_information_class
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ntsecpkg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SECPKG_EXTENDED_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecpkg.h
+api_name:
+-	SECPKG_EXTENDED_INFORMATION_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SECPKG_EXTENDED_INFORMATION_CLASS enumeration

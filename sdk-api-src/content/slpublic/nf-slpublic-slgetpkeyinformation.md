@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:slpublic.SLGetPKeyInformation
+title: SLGetPKeyInformation function
+author: windows-sdk-content
+description: Gets the information of the specified product key.
+old-location: security\slgetpkeyinformation.htm
+old-project: SecSLApi
+ms.assetid: b7728d20-da39-4443-aaca-a6461880bb53
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: SLGetPKeyInformation, SLGetPKeyInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_CHANNEL, SL_INFO_KEY_DIGITAL_PID, SL_INFO_KEY_DIGITAL_PID2, SL_INFO_KEY_PARTIAL_PRODUCT_KEY, SL_INFO_KEY_PRODUCT_SKU_ID, security.slgetpkeyinformation, slpublic/SLGetPKeyInformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: slpublic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SL_ACTIVATION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Slc.dll
+api_name:
+-	SLGetPKeyInformation
+product: Windows
+targetos: Windows
+req.lib: Slc.lib
+req.dll: Slc.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLGetPKeyInformation function

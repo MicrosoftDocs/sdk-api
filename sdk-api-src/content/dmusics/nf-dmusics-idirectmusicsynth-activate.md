@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dmusics.IDirectMusicSynth.Activate
+title: IDirectMusicSynth::Activate
+author: windows-sdk-content
+description: The Activate method enables or disables the audio device under program control.
+old-location: audio\idirectmusicsynth_activate.htm
+old-project: audio
+ms.assetid: 9efdb079-ed24-43b4-844b-344571399de7
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: Activate, Activate method [Audio Devices], Activate method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Activate method, IDirectMusicSynth.Activate, IDirectMusicSynth::Activate, audio.idirectmusicsynth_activate, audmp-routines_56894d17-83db-4b4f-8e26-58103856a97e.xml, dmusics/IDirectMusicSynth::Activate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dmusics.h
+req.include-header: Dmusics.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dmusics.h
+api_name:
+-	IDirectMusicSynth.Activate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectMusicSynth::Activate

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:minidumpapiset._MINIDUMP_MISC_INFO_2
+title: "_MINIDUMP_MISC_INFO_2"
+author: windows-sdk-content
+description: Represents information in the miscellaneous information stream.
+old-location: base\minidump_misc_info_2.htm
+old-project: Debug
+ms.assetid: 34f46a51-9e41-4550-a080-1c7c7a603b54
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PMINIDUMP_MISC_INFO_2, MINIDUMP_MISC1_PROCESSOR_POWER_INFO, MINIDUMP_MISC1_PROCESS_ID, MINIDUMP_MISC1_PROCESS_TIMES, MINIDUMP_MISC_INFO_2, MINIDUMP_MISC_INFO_2 structure, PMINIDUMP_MISC_INFO_2, PMINIDUMP_MISC_INFO_2 structure pointer, _MINIDUMP_MISC_INFO_2, base.minidump_misc_info_2, minidumpapiset/MINIDUMP_MISC_INFO_2, minidumpapiset/PMINIDUMP_MISC_INFO_2"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: minidumpapiset.h
+req.include-header: Dbghelp.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MINIDUMP_MISC_INFO_2, *PMINIDUMP_MISC_INFO_2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	minidumpapiset.h
+api_name:
+-	MINIDUMP_MISC_INFO_2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MINIDUMP_MISC_INFO_2 structure

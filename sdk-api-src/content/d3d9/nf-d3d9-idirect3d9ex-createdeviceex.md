@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d9.IDirect3D9Ex.CreateDeviceEx
+title: IDirect3D9Ex::CreateDeviceEx
+author: windows-sdk-content
+description: Creates a device to represent the display adapter.
+old-location: direct3d9\idirect3d9ex_createdeviceex.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\idirect3d9ex_createdeviceex.htm
+ms.author: windowssdkdev
+ms.date: 04/10/2018
+ms.keywords: CreateDeviceEx, CreateDeviceEx method [Direct3D 9], CreateDeviceEx method [Direct3D 9],IDirect3D9Ex interface, IDirect3D9Ex interface [Direct3D 9],CreateDeviceEx method, IDirect3D9Ex.CreateDeviceEx, IDirect3D9Ex::CreateDeviceEx, bf3a239e-48e9-f485-78d3-f075bed4ac3a, d3d9/IDirect3D9Ex::CreateDeviceEx, direct3d9.idirect3d9ex_createdeviceex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d9.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D9.lib
+-	D3D9.dll
+api_name:
+-	IDirect3D9Ex.CreateDeviceEx
+product: Windows
+targetos: Windows
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 ---
 
 # IDirect3D9Ex::CreateDeviceEx

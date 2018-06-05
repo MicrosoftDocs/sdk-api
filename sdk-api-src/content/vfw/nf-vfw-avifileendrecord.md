@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vfw.AVIFileEndRecord
+title: AVIFileEndRecord function
+author: windows-sdk-content
+description: The AVIFileEndRecord function marks the end of a record when writing an interleaved file that uses a 1:1 interleave factor of video to audio data. (Each frame of video is interspersed with an equivalent amount of audio data.).
+old-location: multimedia\avifileendrecord.htm
+old-project: Multimedia
+ms.assetid: 0f04c384-7702-43d4-9c7e-e9e74d6f2796
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: AVIFileEndRecord, AVIFileEndRecord function [Windows Multimedia], _win32_AVIFileEndRecord, multimedia.avifileendrecord, vfw/AVIFileEndRecord
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Avifil32.dll
+api_name:
+-	AVIFileEndRecord
+product: Windows
+targetos: Windows
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # AVIFileEndRecord function

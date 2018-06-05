@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_IPV4Filter.GetMulticastListSize
+title: IBDA_IPV4Filter::GetMulticastListSize
+author: windows-sdk-content
+description: The GetMulticastListSize method retrieves the number of addresses in the list.
+old-location: mstv\ibda_ipv4filter_getmulticastlistsize.htm
+old-project: mstv
+ms.assetid: 7d31e34f-1997-40fe-9b32-a193d3017798
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetMulticastListSize, GetMulticastListSize method [Microsoft TV Technologies], GetMulticastListSize method [Microsoft TV Technologies],IBDA_IPV4Filter interface, IBDA_IPV4Filter interface [Microsoft TV Technologies],GetMulticastListSize method, IBDA_IPV4Filter.GetMulticastListSize, IBDA_IPV4Filter::GetMulticastListSize, IBDA_IPV4FilterGetMulticastListSize, bdaiface/IBDA_IPV4Filter::GetMulticastListSize, mstv.ibda_ipv4filter_getmulticastlistsize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_IPV4Filter.GetMulticastListSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_IPV4Filter::GetMulticastListSize

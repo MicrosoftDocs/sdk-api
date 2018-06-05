@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bluetoothapis._BLUETOOTH_COD_PAIRS
+title: "_BLUETOOTH_COD_PAIRS"
+author: windows-sdk-content
+description: The BLUETOOTH_COD_PAIRS structure provides for specification and retrieval of Bluetooth Class Of Device (COD) information.
+old-location: bluetooth\bluetooth_cod_pairs.htm
+old-project: Bluetooth
+ms.assetid: e80ab664-77eb-4352-ac35-64325238d4ac
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BLUETOOTH_COD_PAIRS, BLUETOOTH_COD_PAIRS structure [Bluetooth], _BLUETOOTH_COD_PAIRS, _bth_bluetooth_cod_pairs, bluetooth.bluetooth_cod_pairs, bluetoothapis/BLUETOOTH_COD_PAIRS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bluetoothapis.h
+req.include-header: Bthsdpdef.h, BluetoothAPIs.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BLUETOOTH_COD_PAIRS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	BluetoothAPIs.h
+api_name:
+-	BLUETOOTH_COD_PAIRS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BLUETOOTH_COD_PAIRS structure

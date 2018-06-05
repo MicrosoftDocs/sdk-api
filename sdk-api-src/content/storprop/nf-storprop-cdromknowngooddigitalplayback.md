@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:storprop.CdromKnownGoodDigitalPlayback
+title: CdromKnownGoodDigitalPlayback function
+author: windows-sdk-content
+description: Determines whether the specified CD-ROM or DVD drive has digital playback that is known to be good.
+old-location: base\cdromknowngooddigitalplayback.htm
+old-project: DevIO
+ms.assetid: df242729-2082-4608-bd73-4c8d215a09ea
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: CdromKnownGoodDigitalPlayback, CdromKnownGoodDigitalPlayback function, base.cdromknowngooddigitalplayback, storprop/CdromKnownGoodDigitalPlayback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: storprop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPR50_SERVICE_CHARACTERISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Storprop.dll
+api_name:
+-	CdromKnownGoodDigitalPlayback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Storprop.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # CdromKnownGoodDigitalPlayback function

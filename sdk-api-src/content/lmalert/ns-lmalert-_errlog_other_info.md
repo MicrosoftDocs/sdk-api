@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmalert._ERRLOG_OTHER_INFO
+title: "_ERRLOG_OTHER_INFO"
+author: windows-sdk-content
+description: The ERRLOG_OTHER_INFO structure contains error log information. The NetAlertRaise and NetAlertRaiseEx functions use the ERRLOG_OTHER_INFO structure to specify information when adding a new entry to the error log.
+old-location: netmgmt\errlog_other_info_str.htm
+old-project: NetMgmt
+ms.assetid: 832ebe88-e1c4-4ce3-8057-922419b577f7
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPERRLOG_OTHER_INFO, *PERRLOG_OTHER_INFO, ERRLOG_OTHER_INFO, ERRLOG_OTHER_INFO structure [Network Management], LPERRLOG_OTHER_INFO, LPERRLOG_OTHER_INFO structure pointer [Network Management], PERRLOG_OTHER_INFO, PERRLOG_OTHER_INFO structure pointer [Network Management], _ERRLOG_OTHER_INFO, _win32_errlog_other_info_str, lmalert/ERRLOG_OTHER_INFO, lmalert/LPERRLOG_OTHER_INFO, lmalert/PERRLOG_OTHER_INFO, netmgmt.errlog_other_info_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmalert.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ERRLOG_OTHER_INFO, *PERRLOG_OTHER_INFO, *LPERRLOG_OTHER_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmalert.h
+api_name:
+-	ERRLOG_OTHER_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _ERRLOG_OTHER_INFO structure

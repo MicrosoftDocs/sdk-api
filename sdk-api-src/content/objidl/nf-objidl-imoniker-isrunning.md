@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objidl.IMoniker.IsRunning
+title: IMoniker::IsRunning
+author: windows-sdk-content
+description: Determines whether the object identified by this moniker is currently loaded and running.
+old-location: com\imoniker_isrunning.htm
+old-project: com
+ms.assetid: 081b394c-1fe8-4519-999e-b3985a77bd9c
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IMoniker interface [COM],IsRunning method, IMoniker.IsRunning, IMoniker::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IMoniker interface, _com_imoniker_isrunning, com.imoniker_isrunning, objidl/IMoniker::IsRunning
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IMoniker.IsRunning
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMoniker::IsRunning

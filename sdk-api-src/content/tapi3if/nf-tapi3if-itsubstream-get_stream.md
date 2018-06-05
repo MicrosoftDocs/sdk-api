@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITSubStream.get_Stream
+title: ITSubStream::get_Stream
+author: windows-sdk-content
+description: The get_Stream method retrieves the pointer to the ITStream interface for the current substream.
+old-location: tapi3\itsubstream_get_stream.htm
+old-project: Tapi
+ms.assetid: ec97e621-3789-46a4-b6b6-96639c5e7d4f
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITSubStream interface [TAPI 2.2],get_Stream method, ITSubStream.get_Stream, ITSubStream::get_Stream, _tapi3_itsubstream_get_stream, get_Stream, get_Stream method [TAPI 2.2], get_Stream method [TAPI 2.2],ITSubStream interface, tapi3.itsubstream_get_stream, tapi3if/ITSubStream::get_Stream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tapi3if.h
+api_name:
+-	ITSubStream.get_Stream
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITSubStream::get_Stream

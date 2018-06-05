@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:http.HttpRemoveUrlFromUrlGroup
+title: HttpRemoveUrlFromUrlGroup function
+author: windows-sdk-content
+description: Removes the specified URL from the group identified by the URL Group ID.
+old-location: http\httpremoveurlfromurlgroup.htm
+old-project: Http
+ms.assetid: 9c5c1fec-f3b4-414f-a841-e360f5f4e4db
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: HTTP_URL_FLAG_REMOVE_ALL, HttpRemoveUrlFromUrlGroup, HttpRemoveUrlFromUrlGroup function [HTTP], http.httpremoveurlfromurlgroup, http/HttpRemoveUrlFromUrlGroup
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_VERB, *PHTTP_VERB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Httpapi.dll
+api_name:
+-	HttpRemoveUrlFromUrlGroup
+product: Windows
+targetos: Windows
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # HttpRemoveUrlFromUrlGroup function

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:xpsobjectmodel_1.__MIDL___MIDL_itf_xpsobjectmodel_1_0000_0000_0001
+title: "__MIDL___MIDL_itf_xpsobjectmodel_1_0000_0000_0001"
+author: windows-sdk-content
+description: Indicates the format into which the document was serialized.
+old-location: xps\xps_document_type.htm
+old-project: printdocs
+ms.assetid: C34629CB-7F8C-4126-BBE3-BF506D7586E9
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: XPS_DOCUMENT_TYPE, XPS_DOCUMENT_TYPE enumeration [XPS Documents and Packaging], XPS_DOCUMENT_TYPE_OPENXPS, XPS_DOCUMENT_TYPE_UNSPECIFIED, XPS_DOCUMENT_TYPE_XPS, __MIDL___MIDL_itf_xpsobjectmodel_1_0000_0000_0001, xps.xps_document_type, xpsobjectmodel_1/XPS_DOCUMENT_TYPE, xpsobjectmodel_1/XPS_DOCUMENT_TYPE_OPENXPS, xpsobjectmodel_1/XPS_DOCUMENT_TYPE_UNSPECIFIED, xpsobjectmodel_1/XPS_DOCUMENT_TYPE_XPS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: xpsobjectmodel_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Xpsobjectmodel_1.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XPS_DOCUMENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	xpsobjectmodel_1.h
+api_name:
+-	XPS_DOCUMENT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # __MIDL___MIDL_itf_xpsobjectmodel_1_0000_0000_0001 enumeration

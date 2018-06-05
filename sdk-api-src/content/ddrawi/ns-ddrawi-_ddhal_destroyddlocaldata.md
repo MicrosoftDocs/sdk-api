@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawi._DDHAL_DESTROYDDLOCALDATA
+title: "_DDHAL_DESTROYDDLOCALDATA"
+author: windows-sdk-content
+description: DDHAL_DESTROYDDLOCALDATA contains the information required for the driver to destroy a set of surfaces associated to a given local DirectDraw object.
+old-location: display\ddhal_destroyddlocaldata.htm
+old-project: display
+ms.assetid: 9d1d14b8-ceaf-4845-a388-a084aa0472a7
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA structure [Display Devices], _DDHAL_DESTROYDDLOCALDATA, d3dstrct_1c587282-0c7f-4a8a-90ce-199cca0e86b9.xml, ddrawi/DDHAL_DESTROYDDLOCALDATA, display.ddhal_destroyddlocaldata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawi.h
+req.include-header: D3dhal.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawi.h
+api_name:
+-	DDHAL_DESTROYDDLOCALDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDHAL_DESTROYDDLOCALDATA structure

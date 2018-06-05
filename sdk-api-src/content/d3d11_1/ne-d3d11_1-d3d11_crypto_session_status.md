@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d11_1.D3D11_CRYPTO_SESSION_STATUS
+title: D3D11_CRYPTO_SESSION_STATUS
+author: windows-sdk-content
+description: Represents the status of an ID3D11CryptoSession interface.
+old-location: mf\d3d11_crypto_session_status.htm
+old-project: medfound
+ms.assetid: C98DEC40-21D0-483A-A982-E6E19BBDE241
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3D11_CRYPTO_SESSION_STATUS, D3D11_CRYPTO_SESSION_STATUS enumeration [Media Foundation], D3D11_CRYPTO_SESSION_STATUS_KEY_AND_CONTENT_LOST, D3D11_CRYPTO_SESSION_STATUS_KEY_LOST, D3D11_CRYPTO_SESSION_STATUS_OK, d3d11_1/D3D11_CRYPTO_SESSION_STATUS, d3d11_1/D3D11_CRYPTO_SESSION_STATUS_KEY_AND_CONTENT_LOST, d3d11_1/D3D11_CRYPTO_SESSION_STATUS_KEY_LOST, d3d11_1/D3D11_CRYPTO_SESSION_STATUS_OK, mf.d3d11_crypto_session_status
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11_1.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_CRYPTO_SESSION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11_1.h
+api_name:
+-	D3D11_CRYPTO_SESSION_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_CRYPTO_SESSION_STATUS enumeration

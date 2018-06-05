@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:gpmgmt.IGPMClientSideExtension
+title: IGPMClientSideExtension
+author: windows-sdk-content
+description: The IGPMClientSideExtension interface supports methods that allow you to query client-side extension properties when you use the Group Policy Management Console (GPMC) interfaces.
+old-location: gpmc\igpmclientsideextension.htm
+old-project: GPMC
+ms.assetid: b29f4d09-60c0-4c67-b295-05c7d9a05397
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: GPMClientSideExtension, IGPMClientSideExtension, IGPMClientSideExtension interface [GPMC], IGPMClientSideExtension interface [GPMC],described, _win32_igpmclientsideextension, gpmc.igpmclientsideextension, gpmgmt/IGPMClientSideExtension
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: gpmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Gpmgmt.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GPMStarterGPOType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gpmgmt.dll
+api_name:
+-	IGPMClientSideExtension
+-	GPMClientSideExtension
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IGPMClientSideExtension interface

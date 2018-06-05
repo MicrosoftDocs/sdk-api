@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:audioenginebaseapo.IAudioSystemEffects2.GetEffectsList
+title: IAudioSystemEffects2::GetEffectsList
+author: windows-sdk-content
+description: The GetEffectsList method is used for retrieving the list of audio processing effects that are currently active, and stores an event to be signaled if the list changes.
+old-location: audio\iaudiosystemeffects2_geteffectslist.htm
+old-project: audio
+ms.assetid: FC337D99-E992-43DB-9565-3B46827A7960
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetEffectsList, GetEffectsList method [Audio Devices], GetEffectsList method [Audio Devices],IAudioSystemEffects2 interface, IAudioSystemEffects2 interface [Audio Devices],GetEffectsList method, IAudioSystemEffects2.GetEffectsList, IAudioSystemEffects2::GetEffectsList, audio.iaudiosystemeffects2_geteffectslist, audioenginebaseapo/IAudioSystemEffects2::GetEffectsList
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioenginebaseapo.h
+req.include-header: 
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APO_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	audioenginebaseapo.h
+api_name:
+-	IAudioSystemEffects2.GetEffectsList
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioSystemEffects2::GetEffectsList

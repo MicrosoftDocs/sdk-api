@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmClassificationManager.get_ClassificationLastReportPathWithoutExtension
+title: IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtension
+author: windows-sdk-content
+description: The local directory path where the reports were stored the last time that classification ran.
+old-location: fsrm\ifsrmclassificationmanager_classificationlastreportpathwithoutextension.htm
+old-project: Fsrm
+ms.assetid: bdc32bbc-e8e5-48ed-97a1-0b42db3c3676
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: ClassificationLastReportPathWithoutExtension property [File Server Resource Manager], ClassificationLastReportPathWithoutExtension property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationLastReportPathWithoutExtension property [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationLastReportPathWithoutExtension property, IFsrmClassificationManager.ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager.get_ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationLastReportPathWithoutExtension property, IFsrmClassificationManager2.ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager2::get_ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager::ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtension, fs.ifsrmclassificationmanager_classificationlastreportpathwithoutextension, fsrm.ifsrmclassificationmanager_classificationlastreportpathwithoutextension, fsrmpipeline/IFsrmClassificationManager2::ClassificationLastReportPathWithoutExtension, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationLastReportPathWithoutExtension, fsrmpipeline/IFsrmClassificationManager::ClassificationLastReportPathWithoutExtension, fsrmpipeline/IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtension, get_ClassificationLastReportPathWithoutExtension
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: FsrmPipeline.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmClassificationManager.ClassificationLastReportPathWithoutExtension
+-	IFsrmClassificationManager.get_ClassificationLastReportPathWithoutExtension
+-	IFsrmClassificationManager2.ClassificationLastReportPathWithoutExtension
+-	IFsrmClassificationManager2.get_ClassificationLastReportPathWithoutExtension
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtension

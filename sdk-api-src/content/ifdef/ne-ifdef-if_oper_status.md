@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ifdef.IF_OPER_STATUS
+title: IF_OPER_STATUS
+author: windows-sdk-content
+description: The IF_OPER_STATUS enumeration specifies the operational status of an interface.
+old-location: iphlp\if_oper_status.htm
+old-project: IpHlp
+ms.assetid: 829df6fc-d5db-4efe-9c67-d0c5543dacb4
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IF_OPER_STATUS, IF_OPER_STATUS enumeration [IP Helper], IfOperStatusDormant, IfOperStatusDown, IfOperStatusLowerLayerDown, IfOperStatusNotPresent, IfOperStatusTesting, IfOperStatusUnknown, IfOperStatusUp, ifdef/IF_OPER_STATUS, ifdef/IfOperStatusDormant, ifdef/IfOperStatusDown, ifdef/IfOperStatusLowerLayerDown, ifdef/IfOperStatusNotPresent, ifdef/IfOperStatusTesting, ifdef/IfOperStatusUnknown, ifdef/IfOperStatusUp, iphlp.if_oper_status
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ifdef.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IF_OPER_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ifdef.h
+api_name:
+-	IF_OPER_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IF_OPER_STATUS enumeration

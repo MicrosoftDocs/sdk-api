@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:docobj.OLECMDEXECOPT
+title: OLECMDEXECOPT
+author: windows-sdk-content
+description: Specifies command execution options.
+old-location: com\olecmdexecopt.htm
+old-project: com
+ms.assetid: 6245725e-51d4-40e1-8cf1-a65657e790ef
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: OLECMDEXECOPT, OLECMDEXECOPT enumeration [COM], OLECMDEXECOPT_DODEFAULT, OLECMDEXECOPT_DONTPROMPTUSER, OLECMDEXECOPT_PROMPTUSER, OLECMDEXECOPT_SHOWHELP, _ole_OLECMDEXECOPT, com.olecmdexecopt, docobj/OLECMDEXECOPT, docobj/OLECMDEXECOPT_DODEFAULT, docobj/OLECMDEXECOPT_DONTPROMPTUSER, docobj/OLECMDEXECOPT_PROMPTUSER, docobj/OLECMDEXECOPT_SHOWHELP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: docobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OLECMDEXECOPT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DocObj.h
+api_name:
+-	OLECMDEXECOPT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # OLECMDEXECOPT enumeration

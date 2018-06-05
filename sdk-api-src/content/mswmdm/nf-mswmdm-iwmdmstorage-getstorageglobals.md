@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mswmdm.IWMDMStorage.GetStorageGlobals
+title: IWMDMStorage::GetStorageGlobals
+author: windows-sdk-content
+description: The GetStorageGlobals method retrieves the IWMDMStorageGlobals interface of the root storage of this storage.
+old-location: wmdm\iwmdmstorage_getstorageglobals.htm
+old-project: WMDM
+ms.assetid: 0203f881-f838-412b-a796-42f946513c65
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetStorageGlobals, GetStorageGlobals method [windows Media Device Manager], GetStorageGlobals method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetStorageGlobals method, IWMDMStorage.GetStorageGlobals, IWMDMStorage::GetStorageGlobals, IWMDMStorageGetStorageGlobals, mswmdm/IWMDMStorage::GetStorageGlobals, wmdm.iwmdmstorage_getstorageglobals
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IWMDMStorage.GetStorageGlobals
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMStorage::GetStorageGlobals

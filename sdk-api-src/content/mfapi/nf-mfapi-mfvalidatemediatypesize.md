@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfapi.MFValidateMediaTypeSize
+title: MFValidateMediaTypeSize function
+author: windows-sdk-content
+description: Validates the size of a buffer for a video format block.
+old-location: mf\mfvalidatemediatypesize.htm
+old-project: medfound
+ms.assetid: 782b59ca-bfa8-4217-9b72-50a78937775a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 782b59ca-bfa8-4217-9b72-50a78937775a, FORMAT_DvInfo, FORMAT_MFVideoFormat, FORMAT_MPEG2Video, FORMAT_MPEGStreams, FORMAT_MPEGVideo, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, MFValidateMediaTypeSize, MFValidateMediaTypeSize function [Media Foundation], mf.mfvalidatemediatypesize, mfapi/MFValidateMediaTypeSize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	mfplat.dll
+api_name:
+-	MFValidateMediaTypeSize
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MFValidateMediaTypeSize function

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetLastChildElementBuildCache
+title: IUIAutomationTreeWalker::GetLastChildElementBuildCache
+author: windows-sdk-content
+description: Retrieves the last child element of the specified UI Automation element, and caches properties and control patterns.
+old-location: winauto\uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache.htm
+old-project: WinAuto
+ms.assetid: 7a52172c-76d9-4ab7-98db-c880b2d11f68
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: GetLastChildElementBuildCache, GetLastChildElementBuildCache method [Windows Accessibility], GetLastChildElementBuildCache method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetLastChildElementBuildCache method, IUIAutomationTreeWalker.GetLastChildElementBuildCache, IUIAutomationTreeWalker::GetLastChildElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache, uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetLastChildElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationTreeWalker.GetLastChildElementBuildCache
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationTreeWalker::GetLastChildElementBuildCache

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._LSA_AUTH_INFORMATION
+title: "_LSA_AUTH_INFORMATION"
+author: windows-sdk-content
+description: The LSA_AUTH_INFORMATION structure contains authentication information for a trusted domain.
+old-location: security\lsa_auth_information.htm
+old-project: SecMgmt
+ms.assetid: 61c17831-4a82-4766-b5af-e97a6d467462
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PLSA_AUTH_INFORMATION, LSA_AUTH_INFORMATION, LSA_AUTH_INFORMATION structure [Security], PLSA_AUTH_INFORMATION, PLSA_AUTH_INFORMATION structure pointer [Security], TRUST_AUTH_TYPE_CLEAR, TRUST_AUTH_TYPE_NONE, TRUST_AUTH_TYPE_NT4OWF, TRUST_AUTH_TYPE_VERSION, _LSA_AUTH_INFORMATION, _lsa_lsa_auth_information, ntsecapi/LSA_AUTH_INFORMATION, ntsecapi/PLSA_AUTH_INFORMATION, security.lsa_auth_information"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LSA_AUTH_INFORMATION, *PLSA_AUTH_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	LSA_AUTH_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _LSA_AUTH_INFORMATION structure

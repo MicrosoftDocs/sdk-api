@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetAuthentication
+title: ICertPropertyEnrollmentPolicyServer::GetAuthentication
+author: windows-sdk-content
+description: The GetAuthentication method retrieves a value that specifies the type of authentication used by the certificate enrollment policy (CEP) server to authenticate a client. This value is set by the Initialize method.
+old-location: security\icertpropertyenrollmentpolicyserver_getauthentication.htm
+old-project: SecCertEnroll
+ms.assetid: 56f6e7b8-4ed2-47fe-bc57-e238668c5264
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetAuthentication, GetAuthentication method [Security], GetAuthentication method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetAuthentication method, ICertPropertyEnrollmentPolicyServer.GetAuthentication, ICertPropertyEnrollmentPolicyServer::GetAuthentication, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/ICertPropertyEnrollmentPolicyServer::GetAuthentication, security.icertpropertyenrollmentpolicyserver_getauthentication
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certenroll.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.h
+api_name:
+-	ICertPropertyEnrollmentPolicyServer.GetAuthentication
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICertPropertyEnrollmentPolicyServer::GetAuthentication

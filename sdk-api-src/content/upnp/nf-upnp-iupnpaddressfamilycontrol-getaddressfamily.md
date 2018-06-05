@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:upnp.IUPnPAddressFamilyControl.GetAddressFamily
+title: IUPnPAddressFamilyControl::GetAddressFamily
+author: windows-sdk-content
+description: The GetAddressFamily method retrieves the current value of the address family flag of the Device Finder object.
+old-location: upnp\iupnpaddressfamilycontrol_getaddressfamily.htm
+old-project: UPnP
+ms.assetid: 3ad0897e-e128-4b49-92c1-eaf2ac516c3b
+ms.author: windowssdkdev
+ms.date: 04/25/2018
+ms.keywords: GetAddressFamily, GetAddressFamily method [UPnP APIs], GetAddressFamily method [UPnP APIs],IUPnPAddressFamilyControl interface, IUPnPAddressFamilyControl interface [UPnP APIs],GetAddressFamily method, IUPnPAddressFamilyControl.GetAddressFamily, IUPnPAddressFamilyControl::GetAddressFamily, UPNP_ADDRESSFAMILY_BOTH, UPNP_ADDRESSFAMILY_IPv4, UPNP_ADDRESSFAMILY_IPv6, upnp.iupnpaddressfamilycontrol_getaddressfamily, upnp/IUPnPAddressFamilyControl::GetAddressFamily
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: upnp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Upnp.dll
+api_name:
+-	IUPnPAddressFamilyControl.GetAddressFamily
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUPnPAddressFamilyControl::GetAddressFamily

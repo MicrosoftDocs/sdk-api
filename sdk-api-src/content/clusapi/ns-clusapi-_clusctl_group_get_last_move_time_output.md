@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clusapi._CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
+title: "_CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT"
+author: windows-sdk-content
+description: Specifies information about the last time a group was moved to another node.
+old-location: mscs\clusctl_group_get_last_move_time_output.htm
+old-project: MsCS
+ms.assetid: C8292546-4220-4A5D-91C6-03687DD06A9B
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT structure [Failover Cluster], PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT structure pointer [Failover Cluster], _CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, clusapi/CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, clusapi/PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, mscs.clusctl_group_get_last_move_time_output"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, *PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+api_name:
+-	CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT structure

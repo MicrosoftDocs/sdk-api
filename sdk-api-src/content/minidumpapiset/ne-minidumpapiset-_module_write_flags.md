@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:minidumpapiset._MODULE_WRITE_FLAGS
+title: "_MODULE_WRITE_FLAGS"
+author: windows-sdk-content
+description: Identifies the type of module information that will be written to the minidump file by the MiniDumpWriteDump function.
+old-location: base\module_write_flags.htm
+old-project: Debug
+ms.assetid: f074edb2-2cd7-44f6-994b-c649201c1e9d
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: MODULE_WRITE_FLAGS, MODULE_WRITE_FLAGS enumeration, ModuleReferencedByMemory, ModuleWriteCodeSegs, ModuleWriteCvRecord, ModuleWriteDataSeg, ModuleWriteMiscRecord, ModuleWriteModule, ModuleWriteTlsData, _MODULE_WRITE_FLAGS, _win32_module_write_flags, base.module_write_flags, minidumpapiset/MODULE_WRITE_FLAGS, minidumpapiset/ModuleReferencedByMemory, minidumpapiset/ModuleWriteCodeSegs, minidumpapiset/ModuleWriteCvRecord, minidumpapiset/ModuleWriteDataSeg, minidumpapiset/ModuleWriteMiscRecord, minidumpapiset/ModuleWriteModule, minidumpapiset/ModuleWriteTlsData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: minidumpapiset.h
+req.include-header: DbgHelp.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MODULE_WRITE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	minidumpapiset.h
+api_name:
+-	MODULE_WRITE_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MODULE_WRITE_FLAGS enumeration

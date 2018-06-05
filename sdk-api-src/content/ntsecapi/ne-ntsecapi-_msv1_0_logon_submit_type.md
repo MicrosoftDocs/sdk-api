@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ntsecapi._MSV1_0_LOGON_SUBMIT_TYPE
+title: "_MSV1_0_LOGON_SUBMIT_TYPE"
+author: windows-sdk-content
+description: Indicates the kind of logon being requested.
+old-location: security\msv1_0_logon_submit_type.htm
+old-project: SecAuthN
+ms.assetid: 03bf43f0-44f4-40c6-8d5d-381f36ebdd0e
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PMSV1_0_LOGON_SUBMIT_TYPE, MSV1_0_LOGON_SUBMIT_TYPE, MSV1_0_LOGON_SUBMIT_TYPE enumeration [Security], MsV1_0InteractiveLogon, MsV1_0Lm20Logon, MsV1_0NetworkLogon, MsV1_0NoElevationLogon, MsV1_0S4ULogon, MsV1_0SubAuthLogon, MsV1_0VirtualLogon, MsV1_0WorkstationUnlockLogon, PMSV1_0_LOGON_SUBMIT_TYPE, PMSV1_0_LOGON_SUBMIT_TYPE enumeration pointer [Security], _MSV1_0_LOGON_SUBMIT_TYPE, _lsa_msv1_0_logon_submit_type, ntsecapi/MSV1_0_LOGON_SUBMIT_TYPE, ntsecapi/MsV1_0InteractiveLogon, ntsecapi/MsV1_0Lm20Logon, ntsecapi/MsV1_0NetworkLogon, ntsecapi/MsV1_0NoElevationLogon, ntsecapi/MsV1_0S4ULogon, ntsecapi/MsV1_0SubAuthLogon, ntsecapi/MsV1_0VirtualLogon, ntsecapi/MsV1_0WorkstationUnlockLogon, ntsecapi/PMSV1_0_LOGON_SUBMIT_TYPE, security.msv1_0_logon_submit_type"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSV1_0_LOGON_SUBMIT_TYPE, *PMSV1_0_LOGON_SUBMIT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	MSV1_0_LOGON_SUBMIT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _MSV1_0_LOGON_SUBMIT_TYPE enumeration

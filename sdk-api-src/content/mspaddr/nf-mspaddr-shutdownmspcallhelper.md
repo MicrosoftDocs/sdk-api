@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mspaddr.ShutdownMSPCallHelper
+title: ShutdownMSPCallHelper function
+author: windows-sdk-content
+description: The ShutdownMSPCallHelper helper template function is called in the derived class' implementation of ShutdownMSPCall.
+old-location: tapi3\cmspaddress_shutdownmspcallhelper.htm
+old-project: Tapi
+ms.assetid: 66f7b743-6100-45b9-98b0-3bacfcffed15
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CMSPAddress [TAPI 2.2],ShutdownMSPCallHelper method, CMSPAddress,ShutdownMSPCallHelper, CMSPAddress::ShutdownMSPCallHelper, ShutdownMSPCallHelper, ShutdownMSPCallHelper method [TAPI 2.2], ShutdownMSPCallHelper method [TAPI 2.2],CMSPAddress, ShutdownMSPCallHelper,CMSPAddress, _tapi3_cmspaddress_shutdownmspcallhelper, mspaddr/CMSPAddress::ShutdownMSPCallHelper, tapi3.cmspaddress_shutdownmspcallhelper
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mspaddr.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSP_EVENT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mspaddr.h
+api_name:
+-	CMSPAddress.ShutdownMSPCallHelper
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ShutdownMSPCallHelper function

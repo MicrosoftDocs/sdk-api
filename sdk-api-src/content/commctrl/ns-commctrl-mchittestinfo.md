@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.MCHITTESTINFO
+title: MCHITTESTINFO
+author: windows-sdk-content
+description: Carries information specific to hit-testing points for a month calendar control. This structure is used with the MCM_HITTEST message and the corresponding MonthCal_HitTest macro.
+old-location: controls\MCHITTESTINFO.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\monthcal\structures\mchittestinfo.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PMCHITTESTINFO, MCHITTESTINFO, MCHITTESTINFO structure [Windows Controls], MCHT_CALENDARBK, MCHT_CALENDARCONTROL, MCHT_CALENDARDATE, MCHT_CALENDARDATEMAX, MCHT_CALENDARDATEMIN, MCHT_CALENDARDATENEXT, MCHT_CALENDARDATEPREV, MCHT_CALENDARDAY, MCHT_CALENDARWEEKNUM, MCHT_NOWHERE, MCHT_TITLEBK, MCHT_TITLEBTNNEXT, MCHT_TITLEBTNPREV, MCHT_TITLEMONTH, MCHT_TITLEYEAR, PMCHITTESTINFO, PMCHITTESTINFO structure pointer [Windows Controls], _win32_MCHITTESTINFO, _win32_MCHITTESTINFO_cpp, commctrl/MCHITTESTINFO, commctrl/PMCHITTESTINFO, controls.MCHITTESTINFO, controls._win32_MCHITTESTINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MCHITTESTINFO, *PMCHITTESTINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	MCHITTESTINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # MCHITTESTINFO structure

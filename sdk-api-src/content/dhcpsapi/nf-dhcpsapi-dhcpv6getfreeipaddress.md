@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dhcpsapi.DhcpV6GetFreeIPAddress
+title: DhcpV6GetFreeIPAddress function
+author: windows-sdk-content
+description: Retrieves the list of available IPv6 addresses that can be leased to clients.
+old-location: dhcp\dhcpv6getfreeipaddress.htm
+old-project: DHCP
+ms.assetid: 4448bbfb-5942-42f9-8daf-3bf86e124052
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DhcpV6GetFreeIPAddress, DhcpV6GetFreeIPAddress function [DHCP], dhcp.dhcpv6getfreeipaddress, dhcpsapi/DhcpV6GetFreeIPAddress
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QuarantineStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dhcpsapi.dll
+api_name:
+-	DhcpV6GetFreeIPAddress
+product: Windows
+targetos: Windows
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 ---
 
 # DhcpV6GetFreeIPAddress function

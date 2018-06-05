@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi.CLUSTER_NODE_ENUM
+title: CLUSTER_NODE_ENUM
+author: windows-sdk-content
+description: Describes the types of cluster objects that are enumerated by the ClusterNodeEnum and ClusterNodeOpenEnum functions.
+old-location: mscs\cluster_node_enum.htm
+old-project: MsCS
+ms.assetid: e8660f86-f4e5-4aa3-851a-94f0a230e12d
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_NODE_ENUM, CLUSTER_NODE_ENUM enumeration [Failover Cluster], CLUSTER_NODE_ENUM_ALL, CLUSTER_NODE_ENUM_GROUPS, CLUSTER_NODE_ENUM_NETINTERFACES, CLUSTER_NODE_ENUM_PREFERRED_GROUPS, _CLUSTER_NODE_ENUM, _CLUSTER_NODE_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_NODE_ENUM, clusapi/CLUSTER_NODE_ENUM_ALL, clusapi/CLUSTER_NODE_ENUM_GROUPS, clusapi/CLUSTER_NODE_ENUM_NETINTERFACES, clusapi/CLUSTER_NODE_ENUM_PREFERRED_GROUPS, clusapi/_CLUSTER_NODE_ENUM, msclus/CLUSTER_NODE_ENUM, msclus/CLUSTER_NODE_ENUM_ALL, msclus/CLUSTER_NODE_ENUM_GROUPS, msclus/CLUSTER_NODE_ENUM_NETINTERFACES, msclus/CLUSTER_NODE_ENUM_PREFERRED_GROUPS, msclus/_CLUSTER_NODE_ENUM, mscs.cluster_node_enum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_NODE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSTER_NODE_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSTER_NODE_ENUM enumeration

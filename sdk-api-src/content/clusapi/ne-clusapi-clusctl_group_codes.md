@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi.CLUSCTL_GROUP_CODES
+title: CLUSCTL_GROUP_CODES
+author: windows-sdk-content
+description: Enumerates groupcontrol codes.
+old-location: mscs\clusctl_group_codes.htm
+old-project: MsCS
+ms.assetid: 558e5257-c2d0-4528-bfe6-bd12124342b9
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSCTL_GROUP_CODES, CLUSCTL_GROUP_CODES enumeration [Failover Cluster], CLUSCTL_GROUP_ENUM_COMMON_PROPERTIES, CLUSCTL_GROUP_ENUM_PRIVATE_PROPERTIES, CLUSCTL_GROUP_GET_CHARACTERISTICS, CLUSCTL_GROUP_GET_COMMON_PROPERTIES, CLUSCTL_GROUP_GET_COMMON_PROPERTY_FMTS, CLUSCTL_GROUP_GET_FAILURE_INFO, CLUSCTL_GROUP_GET_FLAGS, CLUSCTL_GROUP_GET_ID, CLUSCTL_GROUP_GET_LAST_MOVE_TIME, CLUSCTL_GROUP_GET_NAME, CLUSCTL_GROUP_GET_PRIVATE_PROPERTIES, CLUSCTL_GROUP_GET_PRIVATE_PROPERTY_FMTS, CLUSCTL_GROUP_GET_RO_COMMON_PROPERTIES, CLUSCTL_GROUP_GET_RO_PRIVATE_PROPERTIES, CLUSCTL_GROUP_QUERY_DELETE, CLUSCTL_GROUP_SET_COMMON_PROPERTIES, CLUSCTL_GROUP_SET_PRIVATE_PROPERTIES, CLUSCTL_GROUP_UNKNOWN, CLUSCTL_GROUP_VALIDATE_COMMON_PROPERTIES, CLUSCTL_GROUP_VALIDATE_PRIVATE_PROPERTIES, _CLUSCTL_GROUP_CODES, _CLUSCTL_GROUP_CODES enumeration [Failover Cluster], clusapi/CLUSCTL_GROUP_CODES, clusapi/CLUSCTL_GROUP_ENUM_COMMON_PROPERTIES, clusapi/CLUSCTL_GROUP_ENUM_PRIVATE_PROPERTIES, clusapi/CLUSCTL_GROUP_GET_CHARACTERISTICS, clusapi/CLUSCTL_GROUP_GET_COMMON_PROPERTIES, clusapi/CLUSCTL_GROUP_GET_COMMON_PROPERTY_FMTS, clusapi/CLUSCTL_GROUP_GET_FAILURE_INFO, clusapi/CLUSCTL_GROUP_GET_FLAGS, clusapi/CLUSCTL_GROUP_GET_ID, clusapi/CLUSCTL_GROUP_GET_LAST_MOVE_TIME, clusapi/CLUSCTL_GROUP_GET_NAME, clusapi/CLUSCTL_GROUP_GET_PRIVATE_PROPERTIES, clusapi/CLUSCTL_GROUP_GET_PRIVATE_PROPERTY_FMTS, clusapi/CLUSCTL_GROUP_GET_RO_COMMON_PROPERTIES, clusapi/CLUSCTL_GROUP_GET_RO_PRIVATE_PROPERTIES, clusapi/CLUSCTL_GROUP_QUERY_DELETE, clusapi/CLUSCTL_GROUP_SET_COMMON_PROPERTIES, clusapi/CLUSCTL_GROUP_SET_PRIVATE_PROPERTIES, clusapi/CLUSCTL_GROUP_UNKNOWN, clusapi/CLUSCTL_GROUP_VALIDATE_COMMON_PROPERTIES, clusapi/CLUSCTL_GROUP_VALIDATE_PRIVATE_PROPERTIES, clusapi/_CLUSCTL_GROUP_CODES, msclus/CLUSCTL_GROUP_CODES, msclus/CLUSCTL_GROUP_ENUM_COMMON_PROPERTIES, msclus/CLUSCTL_GROUP_ENUM_PRIVATE_PROPERTIES, msclus/CLUSCTL_GROUP_GET_CHARACTERISTICS, msclus/CLUSCTL_GROUP_GET_COMMON_PROPERTIES, msclus/CLUSCTL_GROUP_GET_COMMON_PROPERTY_FMTS, msclus/CLUSCTL_GROUP_GET_FAILURE_INFO, msclus/CLUSCTL_GROUP_GET_FLAGS, msclus/CLUSCTL_GROUP_GET_ID, msclus/CLUSCTL_GROUP_GET_LAST_MOVE_TIME, msclus/CLUSCTL_GROUP_GET_NAME, msclus/CLUSCTL_GROUP_GET_PRIVATE_PROPERTIES, msclus/CLUSCTL_GROUP_GET_PRIVATE_PROPERTY_FMTS, msclus/CLUSCTL_GROUP_GET_RO_COMMON_PROPERTIES, msclus/CLUSCTL_GROUP_GET_RO_PRIVATE_PROPERTIES, msclus/CLUSCTL_GROUP_QUERY_DELETE, msclus/CLUSCTL_GROUP_SET_COMMON_PROPERTIES, msclus/CLUSCTL_GROUP_SET_PRIVATE_PROPERTIES, msclus/CLUSCTL_GROUP_UNKNOWN, msclus/CLUSCTL_GROUP_VALIDATE_COMMON_PROPERTIES, msclus/CLUSCTL_GROUP_VALIDATE_PRIVATE_PROPERTIES, msclus/_CLUSCTL_GROUP_CODES, mscs.clusctl_group_codes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSCTL_GROUP_CODES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSCTL_GROUP_CODES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSCTL_GROUP_CODES enumeration

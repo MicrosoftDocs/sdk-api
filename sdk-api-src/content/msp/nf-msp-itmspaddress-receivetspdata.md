@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:msp.ITMSPAddress.ReceiveTSPData
+title: ITMSPAddress::ReceiveTSPData
+author: windows-sdk-content
+description: The ReceiveTSPData method is called by TAPI 3 when the TSP sends asynchronous data to the MSP.
+old-location: tapi3\itmspaddress_receivetspdata.htm
+old-project: Tapi
+ms.assetid: 80b8e0aa-3361-4593-bec0-cbe9186c6c41
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITMSPAddress interface [TAPI 2.2],ReceiveTSPData method, ITMSPAddress.ReceiveTSPData, ITMSPAddress::ReceiveTSPData, ReceiveTSPData, ReceiveTSPData method [TAPI 2.2], ReceiveTSPData method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_receivetspdata, msp/ITMSPAddress::ReceiveTSPData, tapi3.itmspaddress_receivetspdata
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msp.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSP_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msp.h
+api_name:
+-	ITMSPAddress.ReceiveTSPData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITMSPAddress::ReceiveTSPData

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:comadmin.COMAdminTxIsolationLevelOptions
+title: COMAdminTxIsolationLevelOptions
+author: windows-sdk-content
+description: Indicates the isolation level that is to be used for transactions.
+old-location: cos\comadmintxisolationleveloptions.htm
+old-project: cossdk
+ms.assetid: 5e407423-b116-48c5-a99c-2551eca379b3
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: COMAdminTxIsolationLevelAny, COMAdminTxIsolationLevelOptions, COMAdminTxIsolationLevelOptions enumeration [COM+], COMAdminTxIsolationLevelReadCommitted, COMAdminTxIsolationLevelReadUnCommitted, COMAdminTxIsolationLevelRepeatableRead, COMAdminTxIsolationLevelSerializable, _cos_COMAdminTxIsolationLevelOption, comadmin/COMAdminTxIsolationLevelAny, comadmin/COMAdminTxIsolationLevelOptions, comadmin/COMAdminTxIsolationLevelReadCommitted, comadmin/COMAdminTxIsolationLevelReadUnCommitted, comadmin/COMAdminTxIsolationLevelRepeatableRead, comadmin/COMAdminTxIsolationLevelSerializable, cos.comadmintxisolationleveloptions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: comadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMAdminTxIsolationLevelOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ComAdmin.h
+api_name:
+-	COMAdminTxIsolationLevelOptions
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # COMAdminTxIsolationLevelOptions enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d2d1.Resize
+title: Resize function
+author: windows-sdk-content
+description: Changes the size of the render target to the specified pixel size.
+old-location: direct2d\id2d1hwndrendertarget_resize.htm
+old-project: Direct2D
+ms.assetid: b8ea2e96-c69b-4018-9572-c9099bf6202d
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: ID2D1HwndRenderTarget::Resize, Resize, Resize methods [Direct2D], d2d1/Resize, direct2d.id2d1hwndrendertarget_resize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d2d1.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_WINDOW_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D2d1.dll
+api_name:
+-	ID2D1HwndRenderTarget::Resize
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # Resize function

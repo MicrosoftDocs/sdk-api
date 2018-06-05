@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:msports.ComDBReleasePort
+title: ComDBReleasePort function
+author: windows-sdk-content
+description: ComDBReleasePort releases a COM port number in the COM port database.
+old-location: serports\comdbreleaseport.htm
+old-project: serports
+ms.assetid: bece99c5-75de-4ab4-be26-14dc8cc1819c
+ms.author: windowssdkdev
+ms.date: 04/23/2018
+ms.keywords: ComDBReleasePort, ComDBReleasePort function [Serial Ports], comdb_dd9f4f27-aea1-4bd8-aa59-ca5aaa05e210.xml, msports/ComDBReleasePort, serports.comdbreleaseport
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msports.h
+req.include-header: Msports.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msports.dll
+api_name:
+-	ComDBReleasePort
+product: Windows
+targetos: Windows
+req.lib: Msports.lib
+req.dll: Msports.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ComDBReleasePort function

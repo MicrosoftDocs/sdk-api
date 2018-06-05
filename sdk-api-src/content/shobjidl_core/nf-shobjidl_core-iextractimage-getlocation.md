@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IExtractImage.GetLocation
+title: IExtractImage::GetLocation
+author: windows-sdk-content
+description: Gets a path to the image that is to be extracted.
+old-location: shell\IExtractImage_GetLocation.htm
+old-project: shell
+ms.assetid: f1113429-ea89-4650-b345-db9e275232e6
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetLocation, GetLocation method [Windows Shell], GetLocation method [Windows Shell],IExtractImage interface, IEIFLAG_ASPECT, IEIFLAG_ASYNC, IEIFLAG_CACHE, IEIFLAG_GLEAM, IEIFLAG_NOBORDER, IEIFLAG_NOSTAMP, IEIFLAG_OFFLINE, IEIFLAG_ORIGSIZE, IEIFLAG_QUALITY, IEIFLAG_REFRESH, IEIFLAG_SCREEN, IEIT_PRIORITY_NORMAL, IEI_PRIORITY_MAX, IEI_PRIORITY_MIN, IExtractImage interface [Windows Shell],GetLocation method, IExtractImage.GetLocation, IExtractImage::GetLocation, _win32_IExtractImage_GetLocation, shell.IExtractImage_GetLocation, shobjidl_core/IExtractImage::GetLocation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IExtractImage.GetLocation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 4.70 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IExtractImage::GetLocation

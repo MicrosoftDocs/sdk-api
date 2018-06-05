@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fsrmenums._FsrmEventType
+title: "_FsrmEventType"
+author: windows-sdk-content
+description: Defines the event types that an event logging action (see FsrmActionType) can log.
+old-location: fsrm\fsrmeventtype.htm
+old-project: Fsrm
+ms.assetid: 517992e2-ecbe-40bf-b93c-81f509f26162
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmEventType, FsrmEventType enumeration [File Server Resource Manager], FsrmEventType_Error, FsrmEventType_Information, FsrmEventType_Unknown, FsrmEventType_Warning, _FsrmEventType, fs.fsrmeventtype, fsrm.fsrmeventtype, fsrmenums/FsrmEventType, fsrmenums/FsrmEventType_Error, fsrmenums/FsrmEventType_Information, fsrmenums/FsrmEventType_Unknown, fsrmenums/FsrmEventType_Warning
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fsrmenums.h
+req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FsrmEnums.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmEventType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	FsrmEnums.h
+api_name:
+-	FsrmEventType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _FsrmEventType enumeration

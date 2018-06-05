@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetSupportedFormatProperties
+title: IPortableDeviceCapabilities::GetSupportedFormatProperties
+author: windows-sdk-content
+description: The GetSupportedFormatProperties method retrieves the properties supported by objects of a specified format on the device.
+old-location: wpdsdk\iportabledevicecapabilities_getsupportedformatproperties.htm
+old-project: wpd_sdk
+ms.assetid: 34ea5f04-9cb8-49a2-8d49-14688383c4a6
+ms.author: windowssdkdev
+ms.date: 04/11/2018
+ms.keywords: GetSupportedFormatProperties, GetSupportedFormatProperties method [Windows Portable Devices SDK], GetSupportedFormatProperties method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedFormatProperties method, IPortableDeviceCapabilities.GetSupportedFormatProperties, IPortableDeviceCapabilities::GetSupportedFormatProperties, IPortableDeviceCapabilitiesGetSupportedFormatProperties, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedFormatProperties, wpdsdk.iportabledevicecapabilities_getsupportedformatproperties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: portabledeviceapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceGUIDs.lib
+-	PortableDeviceGUIDs.dll
+api_name:
+-	IPortableDeviceCapabilities.GetSupportedFormatProperties
+product: Windows
+targetos: Windows
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPortableDeviceCapabilities::GetSupportedFormatProperties

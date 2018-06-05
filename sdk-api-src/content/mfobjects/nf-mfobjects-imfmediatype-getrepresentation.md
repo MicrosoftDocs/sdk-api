@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMFMediaType.GetRepresentation
+title: IMFMediaType::GetRepresentation
+author: windows-sdk-content
+description: Retrieves an alternative representation of the media type. Currently only the DirectShow AM_MEDIA_TYPE structure is supported.
+old-location: mf\imfmediatype_getrepresentation.htm
+old-project: medfound
+ms.assetid: 2135ff86-a3b6-4e1c-a9de-867f4828f008
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 2135ff86-a3b6-4e1c-a9de-867f4828f008, AM_MEDIA_TYPE_REPRESENTATION, FORMAT_MFVideoFormat, FORMAT_VideoInfo, FORMAT_VideoInfo2, GetRepresentation, GetRepresentation method [Media Foundation], GetRepresentation method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],GetRepresentation method, IMFMediaType.GetRepresentation, IMFMediaType::GetRepresentation, mf.imfmediatype_getrepresentation, mfobjects/IMFMediaType::GetRepresentation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFMediaType.GetRepresentation
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFMediaType::GetRepresentation

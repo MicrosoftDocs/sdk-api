@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:txlogpub.ILog.SetAccessPolicyHint
+title: ILog::SetAccessPolicyHint
+author: windows-sdk-content
+description: Provides a hint to the implementation about the pattern in which records will be read.
+old-location: com\ilog_setaccesspolicyhint.htm
+old-project: com
+ms.assetid: a0a34300-e5de-4e47-9c61-389272283b61
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: ILog interface [COM],SetAccessPolicyHint method, ILog.SetAccessPolicyHint, ILog::SetAccessPolicyHint, SetAccessPolicyHint, SetAccessPolicyHint method [COM], SetAccessPolicyHint method [COM],ILog interface, _com_ilog_setaccesspolicyhint, com.ilog_setaccesspolicyhint, txlogpub/ILog::SetAccessPolicyHint
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: txlogpub.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Txlogpub.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RECORD_READING_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Txlogpub.h
+api_name:
+-	ILog.SetAccessPolicyHint
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ILog::SetAccessPolicyHint

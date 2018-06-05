@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wtsdefs._WTS_CLIENT_DATA
+title: "_WTS_CLIENT_DATA"
+author: windows-sdk-content
+description: Contains information about the client connection.
+old-location: termserv\wts_client_data.htm
+old-project: TermServ
+ms.assetid: a8e0fcbd-4f5c-4692-9bb0-aaa00465acf0
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PWTS_CLIENT_DATA, PWRDS_CLIENT_DATA, PWRDS_CLIENT_DATA structure pointer [Remote Desktop Services], PWTS_CLIENT_DATA, PWTS_CLIENT_DATA structure pointer [Remote Desktop Services], WRDS_CLIENT_DATA, WRDS_CLIENT_DATA structure [Remote Desktop Services], WTS_CLIENT_DATA, WTS_CLIENT_DATA structure [Remote Desktop Services], _WTS_CLIENT_DATA, termserv.wts_client_data, wtsdefs/PWRDS_CLIENT_DATA, wtsdefs/PWTS_CLIENT_DATA, wtsdefs/WRDS_CLIENT_DATA, wtsdefs/WTS_CLIENT_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wtsdefs.h
+req.include-header: Wtsprotocol.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_CLIENT_DATA, *PWTS_CLIENT_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsdefs.h
+api_name:
+-	WTS_CLIENT_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTS_CLIENT_DATA structure

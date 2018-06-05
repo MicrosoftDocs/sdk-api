@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzTask.SetProperty
+title: IAzTask::SetProperty
+author: windows-sdk-content
+description: Sets the specified value to the IAzTask object property with the specified property ID.
+old-location: security\iaztask_setproperty.htm
+old-project: SecAuthZ
+ms.assetid: 515d23f6-fcd9-4838-8910-2675211dfc48
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_IS_ROLE_DEFINITION, AZ_PROP_NAME, AZ_PROP_TASK_BIZRULE, AZ_PROP_TASK_BIZRULE_LANGUAGE, AZ_PROP_TASK_IS_ROLE_DEFINITION, AzTask object [Security],SetProperty method, IAzTask interface [Security],SetProperty method, IAzTask.SetProperty, IAzTask::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzTask object, SetProperty method [Security],IAzTask interface, azroles/IAzTask::SetProperty, security.iaztask_setproperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzTask.SetProperty
+-	AzTask.SetProperty
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzTask::SetProperty

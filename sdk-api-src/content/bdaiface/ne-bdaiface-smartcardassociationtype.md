@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:bdaiface.SmartCardAssociationType
+title: SmartCardAssociationType
+author: windows-sdk-content
+description: The SmartCardAssociationType enumeration type specifies a smart card association.
+old-location: mstv\smartcardassociationtype.htm
+old-project: mstv
+ms.assetid: 42fe27ed-d461-43bf-87c5-bd0704339ec7
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: Associated, AssociationUnknown, NotAssociated, SmartCardAssociationType, SmartCardAssociationType enumeration [Microsoft TV Technologies], bdaiface/Associated, bdaiface/AssociationUnknown, bdaiface/NotAssociated, bdaiface/SmartCardAssociationType, mstv.smartcardassociationtype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SmartCardAssociationType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bdaiface.h
+api_name:
+-	SmartCardAssociationType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # SmartCardAssociationType enumeration

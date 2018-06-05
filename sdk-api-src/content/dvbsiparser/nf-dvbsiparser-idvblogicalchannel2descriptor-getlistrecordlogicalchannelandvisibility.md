@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelAndVisibility
+title: IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelAndVisibility
+author: windows-sdk-content
+description: Gets the visible_service_flag and logical_channel_number fields from a Digital Video Broadcast (DVB) logical channel descriptor.
+old-location: mstv\idvblogicalchannel2descriptor_getlistrecordlogicalchannelandvisibility.htm
+old-project: mstv
+ms.assetid: 1e9d5d7f-4816-4eb8-894a-85dd7977c62e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetListRecordLogicalChannelAndVisibility, GetListRecordLogicalChannelAndVisibility method [Microsoft TV Technologies], GetListRecordLogicalChannelAndVisibility method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListRecordLogicalChannelAndVisibility method, IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelAndVisibility, IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelAndVisibility, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelAndVisibility, mstv.idvblogicalchannel2descriptor_getlistrecordlogicalchannelandvisibility, mstv.idvblogicalchanneldescriptor2_getlistrecordlogicalchannelandvisibility
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelAndVisibility
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelAndVisibility

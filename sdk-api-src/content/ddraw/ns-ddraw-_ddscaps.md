@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddraw._DDSCAPS
+title: "_DDSCAPS"
+author: windows-sdk-content
+description: The DDSCAPS structure defines the capabilities of a DirectDrawSurface object. This structure is part of the DDCAPS and DDSURFACEDESC structures.
+old-location: directdraw\ddscaps.htm
+old-project: directdraw
+ms.assetid: d7c4025c-dbb6-4182-b730-c69abd97f2bb
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPDDSCAPS, DDSCAPS, DDSCAPS structure [DirectDraw], DDSCAPS_3D, DDSCAPS_3DDEVICE, DDSCAPS_ALLOCONLOAD, DDSCAPS_ALPHA, DDSCAPS_BACKBUFFER, DDSCAPS_COMPLEX, DDSCAPS_FLIP, DDSCAPS_FRONTBUFFER, DDSCAPS_HWCODEC, DDSCAPS_LIVEVIDEO, DDSCAPS_LOCALVIDMEM, DDSCAPS_MIPMAP, DDSCAPS_MODEX, DDSCAPS_NONLOCALVIDMEM, DDSCAPS_OFFSCREENPLAIN, DDSCAPS_OPTIMIZED, DDSCAPS_OVERLAY, DDSCAPS_OWNDC, DDSCAPS_PALETTE, DDSCAPS_PRIMARYSURFACE, DDSCAPS_STANDARDVGAMODE, DDSCAPS_SYSTEMMEMORY, DDSCAPS_TEXTURE, DDSCAPS_VIDEOMEMORY, DDSCAPS_VIDEOPORT, DDSCAPS_VISIBLE, DDSCAPS_WRITEONLY, DDSCAPS_ZBUFFER, LPDDSCAPS, LPDDSCAPS structure pointer [DirectDraw], _DDSCAPS, ddraw/DDSCAPS, ddraw/LPDDSCAPS, directdraw.ddscaps"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDSCAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ddraw.h
+api_name:
+-	DDSCAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDSCAPS structure

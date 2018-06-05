@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d3d11.D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
+title: D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
+author: windows-sdk-content
+description: Specifies the type of process that is identified in the D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT structure.
+old-location: mf\d3d11_authenticated_process_identifier_type.htm
+old-project: medfound
+ms.assetid: A8FFBBF1-7893-4D42-A8FB-1B7E56834603
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE enumeration [Media Foundation], D3D11_PROCESSIDTYPE_DWM, D3D11_PROCESSIDTYPE_HANDLE, D3D11_PROCESSIDTYPE_UNKNOWN, d3d11/D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, d3d11/D3D11_PROCESSIDTYPE_DWM, d3d11/D3D11_PROCESSIDTYPE_HANDLE, d3d11/D3D11_PROCESSIDTYPE_UNKNOWN, mf.d3d11_authenticated_process_identifier_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11.h
+api_name:
+-	D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE enumeration

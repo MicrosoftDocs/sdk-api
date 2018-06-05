@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:winsync.ISyncSessionExtendedErrorInfo
+title: ISyncSessionExtendedErrorInfo
+author: windows-sdk-content
+description: Represents information about which provider caused synchronization to fail.
+old-location: winsync\isyncsessionextendederrorinfo.htm
+old-project: winsync
+ms.assetid: 0c6f90af-f4ca-4fa9-8050-acc61b4ee8d2
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ISyncSessionExtendedErrorInfo, ISyncSessionExtendedErrorInfo interface [Windows Sync], ISyncSessionExtendedErrorInfo interface [Windows Sync],described, winsync.isyncsessionextendederrorinfo, winsync/ISyncSessionExtendedErrorInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	ISyncSessionExtendedErrorInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # ISyncSessionExtendedErrorInfo interface

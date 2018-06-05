@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shldisp._tagAUTOCOMPLETEOPTIONS
+title: "_tagAUTOCOMPLETEOPTIONS"
+author: windows-sdk-content
+description: Specifies values used by IAutoComplete2::GetOptions and IAutoComplete2::SetOptions for options surrounding autocomplete.
+old-location: shell\AUTOCOMPLETEOPTIONS.htm
+old-project: shell
+ms.assetid: e0a583da-c2bd-4757-868d-a63e697142e2
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ACO_AUTOAPPEND, ACO_AUTOSUGGEST, ACO_FILTERPREFIXES, ACO_NONE, ACO_NOPREFIXFILTERING, ACO_RTLREADING, ACO_SEARCH, ACO_UPDOWNKEYDROPSLIST, ACO_USETAB, ACO_WORD_FILTER, AUTOCOMPLETEOPTIONS, AUTOCOMPLETEOPTIONS enumeration [Windows Shell], _shell_AUTOCOMPLETEOPTIONS, _tagAUTOCOMPLETEOPTIONS, shell.AUTOCOMPLETEOPTIONS, shldisp/ACO_AUTOAPPEND, shldisp/ACO_AUTOSUGGEST, shldisp/ACO_FILTERPREFIXES, shldisp/ACO_NONE, shldisp/ACO_NOPREFIXFILTERING, shldisp/ACO_RTLREADING, shldisp/ACO_SEARCH, shldisp/ACO_UPDOWNKEYDROPSLIST, shldisp/ACO_USETAB, shldisp/ACO_WORD_FILTER, shldisp/AUTOCOMPLETEOPTIONS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shldisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shldisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETEOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shldisp.h
+api_name:
+-	AUTOCOMPLETEOPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # _tagAUTOCOMPLETEOPTIONS enumeration

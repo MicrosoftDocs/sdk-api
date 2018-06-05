@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shlobj_core.SHELL_LINK_DATA_FLAGS
+title: SHELL_LINK_DATA_FLAGS
+author: windows-sdk-content
+description: Specifies option settings. Used with IShellLinkDataList::GetFlags and IShellLinkDataList::SetFlags.
+old-location: shell\SHELL_LINK_DATA_FLAGS.htm
+old-project: shell
+ms.assetid: 3b810223-b2d9-40ca-92bd-4d9f31981355
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHELL_LINK_DATA_FLAGS, SHELL_LINK_DATA_FLAGS enumeration [Windows Shell], SLDF_ALLOW_LINK_TO_LINK, SLDF_DEFAULT, SLDF_DISABLE_KNOWNFOLDER_RELATIVE_TRACKING, SLDF_DISABLE_LINK_PATH_TRACKING, SLDF_ENABLE_TARGET_METADATA, SLDF_FORCE_NO_LINKINFO, SLDF_FORCE_NO_LINKTRACK, SLDF_FORCE_UNCNAME, SLDF_HAS_ARGS, SLDF_HAS_DARWINID, SLDF_HAS_EXP_ICON_SZ, SLDF_HAS_EXP_SZ, SLDF_HAS_ICONLOCATION, SLDF_HAS_ID_LIST, SLDF_HAS_LINK_INFO, SLDF_HAS_LOGO3ID, SLDF_HAS_NAME, SLDF_HAS_RELPATH, SLDF_HAS_WORKINGDIR, SLDF_KEEP_LOCAL_IDLIST_FOR_UNC_TARGET, SLDF_NO_KF_ALIAS, SLDF_NO_PIDL_ALIAS, SLDF_PERSIST_VOLUME_ID_RELATIVE, SLDF_PREFER_ENVIRONMENT_PATH, SLDF_RESERVED, SLDF_RUNAS_USER, SLDF_RUN_IN_SEPARATE, SLDF_RUN_WITH_SHIMLAYER, SLDF_UNALIAS_ON_SAVE, SLDF_UNICODE, SLDF_VALID, _shell_SHELL_LINK_DATA_FLAGS, shell.SHELL_LINK_DATA_FLAGS, shlobj_core/SHELL_LINK_DATA_FLAGS, shlobj_core/SLDF_ALLOW_LINK_TO_LINK, shlobj_core/SLDF_DEFAULT, shlobj_core/SLDF_DISABLE_KNOWNFOLDER_RELATIVE_TRACKING, shlobj_core/SLDF_DISABLE_LINK_PATH_TRACKING, shlobj_core/SLDF_ENABLE_TARGET_METADATA, shlobj_core/SLDF_FORCE_NO_LINKINFO, shlobj_core/SLDF_FORCE_NO_LINKTRACK, shlobj_core/SLDF_FORCE_UNCNAME, shlobj_core/SLDF_HAS_ARGS, shlobj_core/SLDF_HAS_DARWINID, shlobj_core/SLDF_HAS_EXP_ICON_SZ, shlobj_core/SLDF_HAS_EXP_SZ, shlobj_core/SLDF_HAS_ICONLOCATION, shlobj_core/SLDF_HAS_ID_LIST, shlobj_core/SLDF_HAS_LINK_INFO, shlobj_core/SLDF_HAS_LOGO3ID, shlobj_core/SLDF_HAS_NAME, shlobj_core/SLDF_HAS_RELPATH, shlobj_core/SLDF_HAS_WORKINGDIR, shlobj_core/SLDF_KEEP_LOCAL_IDLIST_FOR_UNC_TARGET, shlobj_core/SLDF_NO_KF_ALIAS, shlobj_core/SLDF_NO_PIDL_ALIAS, shlobj_core/SLDF_PERSIST_VOLUME_ID_RELATIVE, shlobj_core/SLDF_PREFER_ENVIRONMENT_PATH, shlobj_core/SLDF_RESERVED, shlobj_core/SLDF_RUNAS_USER, shlobj_core/SLDF_RUN_IN_SEPARATE, shlobj_core/SLDF_RUN_WITH_SHIMLAYER, shlobj_core/SLDF_UNALIAS_ON_SAVE, shlobj_core/SLDF_UNICODE, shlobj_core/SLDF_VALID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional, Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHELL_LINK_DATA_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	SHELL_LINK_DATA_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SHELL_LINK_DATA_FLAGS enumeration

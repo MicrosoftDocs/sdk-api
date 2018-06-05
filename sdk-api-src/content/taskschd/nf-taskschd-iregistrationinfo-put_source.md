@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.IRegistrationInfo.put_Source
+title: IRegistrationInfo::put_Source
+author: windows-sdk-content
+description: Gets or sets where the task originated from. For example, a task may originate from a component, service, application, or user.
+old-location: taskschd\iregistrationinfo_source.htm
+old-project: TaskSchd
+ms.assetid: 538d48f9-671d-452b-8e78-86954342a28f
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IRegistrationInfo interface [Task Scheduler],Source property, IRegistrationInfo.Source, IRegistrationInfo.put_Source, IRegistrationInfo::Source, IRegistrationInfo::get_Source, IRegistrationInfo::put_Source, Source property [Task Scheduler], Source property [Task Scheduler],IRegistrationInfo interface, put_Source, taskschd.iregistrationinfo_source, taskschd/IRegistrationInfo::Source, taskschd/IRegistrationInfo::get_Source, taskschd/IRegistrationInfo::put_Source
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	IRegistrationInfo.Source
+-	IRegistrationInfo.get_Source
+-	IRegistrationInfo.put_Source
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IRegistrationInfo::put_Source

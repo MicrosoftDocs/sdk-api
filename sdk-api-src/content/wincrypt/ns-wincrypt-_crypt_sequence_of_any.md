@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_SEQUENCE_OF_ANY
+title: "_CRYPT_SEQUENCE_OF_ANY"
+author: windows-sdk-content
+description: Contains an arbitrary list of encoded BLOBs.
+old-location: security\crypt_sequence_of_any.htm
+old-project: SecCrypto
+ms.assetid: 9500fa37-742b-4d37-8f45-0fb3c4cdda8d
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_SEQUENCE_OF_ANY, CRYPT_SEQUENCE_OF_ANY, CRYPT_SEQUENCE_OF_ANY structure [Security], PCRYPT_SEQUENCE_OF_ANY, PCRYPT_SEQUENCE_OF_ANY structure pointer [Security], _CRYPT_SEQUENCE_OF_ANY, _crypto2_crypt_sequence_of_any, security.crypt_sequence_of_any, wincrypt/CRYPT_SEQUENCE_OF_ANY, wincrypt/PCRYPT_SEQUENCE_OF_ANY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_SEQUENCE_OF_ANY, *PCRYPT_SEQUENCE_OF_ANY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRYPT_SEQUENCE_OF_ANY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_SEQUENCE_OF_ANY structure

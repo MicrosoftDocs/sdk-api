@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:imepad.tagAPPLETCFG
+title: tagAPPLETCFG
+author: windows-sdk-content
+description: Used to specify and set applet configuration in IImePad.
+old-location: intl\imeappletcfg.htm
+old-project: Intl
+ms.assetid: 2680231A-0A9C-4723-8E7D-73184C209050
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPIMEAPPLETCFG, IMEAPPLETCFG, IMEAPPLETCFG structure [Internationalization for Windows Applications], IPACFG_CATEGORY, IPACFG_HELP, IPACFG_LANG, IPACFG_NONE, IPACFG_PROPERTY, IPACFG_TITLE, IPACFG_TITLEFONTFACE, PIMEAPPLETCFG, PIMEAPPLETCFG structure pointer [Internationalization for Windows Applications], imepad/IMEAPPLETCFG, imepad/PIMEAPPLETCFG, intl.imeappletcfg, tagAPPLETCFG"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: imepad.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMEAPPLETCFG, *LPIMEAPPLETCFG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Imepad.h
+api_name:
+-	IMEAPPLETCFG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tagAPPLETCFG structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wscapi.WscGetSecurityProviderHealth
+title: WscGetSecurityProviderHealth function
+author: windows-sdk-content
+description: Gets the aggregate health state of the security provider categories represented by the specified WSC_SECURITY_PROVIDER enumeration values.
+old-location: winprog\wscgetsecurityproviderhealth.htm
+old-project: DevNotes
+ms.assetid: 1193eba3-a01b-4ee3-a83d-25dcdbc15de0
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: WscGetSecurityProviderHealth, WscGetSecurityProviderHealth function [Windows API], winprog.wscgetsecurityproviderhealth, wscapi/WscGetSecurityProviderHealth
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wscapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wscapi.dll
+api_name:
+-	WscGetSecurityProviderHealth
+product: Windows
+targetos: Windows
+req.lib: Wscapi.lib
+req.dll: Wscapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WscGetSecurityProviderHealth function

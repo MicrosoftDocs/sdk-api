@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bits10_1.IBackgroundCopyFile6.UpdateDownloadPosition
+title: IBackgroundCopyFile6::UpdateDownloadPosition
+author: windows-sdk-content
+description: Specifies a position to prioritize downloading missing data from.
+old-location: bits\ibackgroundcopyfile6_updatedownloadposition.htm
+old-project: Bits
+ms.assetid: 243F9D5A-32D8-4D39-A9B2-E452CF745844
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IBackgroundCopyFile6 interface [BITS],UpdateDownloadPosition method, IBackgroundCopyFile6.UpdateDownloadPosition, IBackgroundCopyFile6::UpdateDownloadPosition, UpdateDownloadPosition, UpdateDownloadPosition method [BITS], UpdateDownloadPosition method [BITS],IBackgroundCopyFile6 interface, bits.ibackgroundcopyfile6_updatedownloadposition, bits10_1/IBackgroundCopyFile6::UpdateDownloadPosition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bits10_1.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits10_1.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_TIMES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Bits.lib
+-	Bits.dll
+api_name:
+-	IBackgroundCopyFile6.UpdateDownloadPosition
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 ---
 
 # IBackgroundCopyFile6::UpdateDownloadPosition

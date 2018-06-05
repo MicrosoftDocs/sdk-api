@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mobsync.ISyncMgrSynchronizeCallback.EstablishConnection
+title: ISyncMgrSynchronizeCallback::EstablishConnection
+author: windows-sdk-content
+description: Called by the registered application's handler when a network connection is required.
+old-location: shell\syncmgr_isyncmgrsynchronizecallback_establishconnection.htm
+old-project: shell
+ms.assetid: f7d1aff8-a77e-4067-9fc9-4adc69bfc0d1
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EstablishConnection, EstablishConnection method [Windows Shell], EstablishConnection method [Windows Shell],ISyncMgrSynchronizeCallback interface, ISyncMgrSynchronizeCallback interface [Windows Shell],EstablishConnection method, ISyncMgrSynchronizeCallback.EstablishConnection, ISyncMgrSynchronizeCallback::EstablishConnection, mobsync/ISyncMgrSynchronizeCallback::EstablishConnection, shell.syncmgr_isyncmgrsynchronizecallback_establishconnection, syncmgr.isyncmgrsynchronizecallback_establishconnection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mobsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGRSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mobsync.dll
+api_name:
+-	ISyncMgrSynchronizeCallback.EstablishConnection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ISyncMgrSynchronizeCallback::EstablishConnection

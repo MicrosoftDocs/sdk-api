@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._REPAIR_COPIES_INPUT
+title: "_REPAIR_COPIES_INPUT"
+author: windows-sdk-content
+description: Input structure for the FSCTL_REPAIR_COPIES control code.
+old-location: fs\repair_copies_input.htm
+old-project: FileIO
+ms.assetid: c3cefb13-4825-4482-a87c-4ba482d3820b
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PREPAIR_COPIES_INPUT, PREPAIR_COPIES_INPUT, PREPAIR_COPIES_INPUT structure pointer [Files], REPAIR_COPIES_INPUT, REPAIR_COPIES_INPUT structure [Files], _REPAIR_COPIES_INPUT, fs.repair_copies_input, winioctl/PREPAIR_COPIES_INPUT, winioctl/REPAIR_COPIES_INPUT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REPAIR_COPIES_INPUT, *PREPAIR_COPIES_INPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	REPAIR_COPIES_INPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _REPAIR_COPIES_INPUT structure

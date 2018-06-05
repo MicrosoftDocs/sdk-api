@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:mswmdm.IWMDMObjectInfo
+title: IWMDMObjectInfo
+author: windows-sdk-content
+description: The IWMDMObjectInfo interface gets and sets information that controls how playable files on device are handled by the IWMDMDeviceControl interface.This interface is not intended for non-playable files.
+old-location: wmdm\iwmdmobjectinfo.htm
+old-project: WMDM
+ms.assetid: ebc6ad10-02c1-4cc9-8a09-d1fe7aef146a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IWMDMObjectInfo, IWMDMObjectInfo interface [windows Media Device Manager], IWMDMObjectInfo interface [windows Media Device Manager],described, IWMDMObjectInfoInterface, mswmdm/IWMDMObjectInfo, wmdm.iwmdmobjectinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mswmdm.h
+api_name:
+-	IWMDMObjectInfo
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMObjectInfo interface

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dhcpv6csdk.__unnamed_enum_0
+title: StatusCode
+author: windows-sdk-content
+description: The StatusCode enum contains status codes for IPv6 operations.
+old-location: dhcp\statuscode.htm
+old-project: DHCP
+ms.assetid: c3d1df82-9f36-4d58-88f0-8a16011f3132
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: STATUS_NOPREFIX_AVAIL, STATUS_NO_BINDING, STATUS_NO_ERROR, STATUS_UNSPECIFIED_FAILURE, StatusCode, StatusCode enumeration [DHCP], dhcp.statuscode, dhcpv6csdk/STATUS_NOPREFIX_AVAIL, dhcpv6csdk/STATUS_NO_BINDING, dhcpv6csdk/STATUS_NO_ERROR, dhcpv6csdk/STATUS_UNSPECIFIED_FAILURE, dhcpv6csdk/StatusCode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dhcpv6csdk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: StatusCode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpv6csdk.h
+api_name:
+-	StatusCode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # StatusCode enumeration

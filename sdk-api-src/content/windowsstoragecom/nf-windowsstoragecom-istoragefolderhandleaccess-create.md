@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:windowsstoragecom.IStorageFolderHandleAccess.Create
+title: IStorageFolderHandleAccess::Create
+author: windows-sdk-content
+description: Creates a handle to a file that is in a storage folder.
+old-location: winrt\istoragefolderhandleaccess_create.htm
+old-project: WinRT
+ms.assetid: CAA79CEC-FB04-48F0-BCF8-19613FA6D108
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: Create, Create method [Windows Runtime], Create method [Windows Runtime],IStorageFolderHandleAccess interface, IStorageFolderHandleAccess interface [Windows Runtime],Create method, IStorageFolderHandleAccess.Create, IStorageFolderHandleAccess::Create, windowsstoragecom/IStorageFolderHandleAccess::Create, winrt.istoragefolderhandleaccess_create
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: windowsstoragecom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WindowsStorageCOM.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HANDLE_SHARING_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	windows.storage.dll
+api_name:
+-	IStorageFolderHandleAccess.Create
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Windows.storage.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IStorageFolderHandleAccess::Create

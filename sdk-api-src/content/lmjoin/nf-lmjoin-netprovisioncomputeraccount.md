@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:lmjoin.NetProvisionComputerAccount
+title: NetProvisionComputerAccount function
+author: windows-sdk-content
+description: Provisions a computer account for later use in an offline domain join operation.
+old-location: netmgmt\netprovisioncomputeraccount.htm
+old-project: NetMgmt
+ms.assetid: 4c854258-b84d-4ef3-a6da-ce0a9540ffd5
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: NETSETUP_PROVISION_DOWNLEVEL_PRIV_SUPPORT, NETSETUP_PROVISION_REUSE_ACCOUNT, NETSETUP_PROVISION_ROOT_CA_CERTS, NETSETUP_PROVISION_SKIP_ACCOUNT_SEARCH, NETSETUP_PROVISION_USE_DEFAULT_PASSWORD, NetProvisionComputerAccount, NetProvisionComputerAccount function [Network Management], Offline Domain Join, lmjoin/NetProvisionComputerAccount, netmgmt.netprovisioncomputeraccount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: lmjoin.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netapi32.dll
+api_name:
+-	NetProvisionComputerAccount
+product: Windows
+targetos: Windows
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # NetProvisionComputerAccount function

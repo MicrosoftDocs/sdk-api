@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uianimation.IUIAnimationVariable2.GetFinalIntegerVectorValue
+title: IUIAnimationVariable2::GetFinalIntegerVectorValue
+author: windows-sdk-content
+description: Gets the final integer value of the animation variable for the specified dimension. This is the value after all currently scheduled animations have completed.
+old-location: uianimation\iuianimationvariable2_getfinalintegervectorvalue.htm
+old-project: UIAnimation
+ms.assetid: 191DA982-E3F1-4E37-A4D8-7813201E6B6B
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetFinalIntegerVectorValue, GetFinalIntegerVectorValue method [Windows Animation], GetFinalIntegerVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetFinalIntegerVectorValue method, IUIAnimationVariable2.GetFinalIntegerVectorValue, IUIAnimationVariable2::GetFinalIntegerVectorValue, uianimation.iuianimationvariable2_getfinalintegervectorvalue, uianimation/IUIAnimationVariable2::GetFinalIntegerVectorValue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uianimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAnimation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAnimation.dll
+api_name:
+-	IUIAnimationVariable2.GetFinalIntegerVectorValue
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAnimationVariable2::GetFinalIntegerVectorValue

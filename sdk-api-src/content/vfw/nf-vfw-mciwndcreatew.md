@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vfw.MCIWndCreateW
+title: MCIWndCreateW function
+author: windows-sdk-content
+description: The MCIWndCreate function registers the MCIWnd window class and creates an MCIWnd window for using MCI services. MCIWndCreate can also open an MCI device or file (such as an AVI file) and associate it with the MCIWnd window.
+old-location: multimedia\mciwndcreate.htm
+old-project: Multimedia
+ms.assetid: 7a4a22e1-6b04-4d46-8427-738181769f5b
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: MCIWndCreate, MCIWndCreate function [Windows Multimedia], MCIWndCreateA, MCIWndCreateW, _win32_MCIWndCreate, multimedia.mciwndcreate, vfw/MCIWndCreate, vfw/MCIWndCreateA, vfw/MCIWndCreateW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: MCIWndCreateW (Unicode) and MCIWndCreateA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msvfw32.dll
+api_name:
+-	MCIWndCreate
+-	MCIWndCreateA
+-	MCIWndCreateW
+product: Windows
+targetos: Windows
+req.lib: Vfw32.lib
+req.dll: Msvfw32.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # MCIWndCreateW function

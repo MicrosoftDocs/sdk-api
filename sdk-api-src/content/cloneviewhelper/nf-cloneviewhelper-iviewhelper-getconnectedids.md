@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:cloneviewhelper.IViewHelper.GetConnectedIDs
+title: IViewHelper::GetConnectedIDs
+author: windows-sdk-content
+description: The GetConnectedIDs method retrieves, for a given adapter, an array of identifiers for either targets or sources.
+old-location: display\iviewhelper_getconnectedids.htm
+old-project: display
+ms.assetid: ca3dfc5b-0851-4a09-8b5c-25b8c300c2bb
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetConnectedIDs, GetConnectedIDs method [Display Devices], GetConnectedIDs method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],GetConnectedIDs method, IViewHelper.GetConnectedIDs, IViewHelper::GetConnectedIDs, TMM_Ref_0c676d81-3866-4c7e-91e9-cd986374fa00.xml, cloneviewhelper/IViewHelper::GetConnectedIDs, display.iviewhelper_getconnectedids
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: cloneviewhelper.h
+req.include-header: Cloneviewhelper.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -22,10 +22,26 @@ req.umdf-ver:
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
-req.max-support: 
+req.max-support: Windows 7
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	cloneviewhelper.h
+api_name:
+-	IViewHelper.GetConnectedIDs
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IViewHelper::GetConnectedIDs

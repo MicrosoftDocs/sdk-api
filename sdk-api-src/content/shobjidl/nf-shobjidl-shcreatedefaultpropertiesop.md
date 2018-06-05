@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl.SHCreateDefaultPropertiesOp
+title: SHCreateDefaultPropertiesOp function
+author: windows-sdk-content
+description: Creates a file operation that sets the default properties on the Shell item that have not already been set.
+old-location: shell\SHCreateDefaultPropertiesOp.htm
+old-project: shell
+ms.assetid: 5202ac48-16e7-4d64-8a69-2493036e1e11
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHCreateDefaultPropertiesOp, SHCreateDefaultPropertiesOp function [Windows Shell], _shell_SHCreateDefaultPropertiesOp, shell.SHCreateDefaultPropertiesOp, shobjidl/SHCreateDefaultPropertiesOp
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+api_name:
+-	SHCreateDefaultPropertiesOp
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # SHCreateDefaultPropertiesOp function

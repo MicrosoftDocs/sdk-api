@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj_core._tagCOMPSTATEINFO
+title: "_tagCOMPSTATEINFO"
+author: windows-sdk-content
+description: Used by Windows 2000 to hold information about a component's state.
+old-location: shell\COMPSTATEINFO.htm
+old-project: shell
+ms.assetid: 0087e868-0bdd-4ad2-a93f-84ff55b2cb06
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPCOMPSTATEINFO, COMPSTATEINFO, COMPSTATEINFO structure [Windows Shell], IS_FULLSCREEN, IS_NORMAL, IS_SPLIT, LPCOMPSTATEINFO, LPCOMPSTATEINFO structure pointer [Windows Shell], _tagCOMPSTATEINFO, _win32_COMPSTATEINFO, shell.COMPSTATEINFO, shlobj_core/COMPSTATEINFO, shlobj_core/LPCOMPSTATEINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMPSTATEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	COMPSTATEINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # _tagCOMPSTATEINFO structure

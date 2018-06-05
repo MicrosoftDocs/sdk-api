@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wsman.WSManProxyAccessType
+title: WSManProxyAccessType
+author: windows-sdk-content
+description: Defines the proxy access type.
+old-location: winrm\wsmanproxyaccesstype.htm
+old-project: WinRM
+ms.assetid: 0c7d13dc-42e0-4c91-bcdf-c198b557206b
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: WSMAN_OPTION_PROXY_AUTO_DETECT, WSMAN_OPTION_PROXY_IE_PROXY_CONFIG, WSMAN_OPTION_PROXY_NO_PROXY_SERVER, WSMAN_OPTION_PROXY_WINHTTP_PROXY_CONFIG, WSManProxyAccessType, WSManProxyAccessType enumeration [Windows Remote Management], winrm.wsmanproxyaccesstype, wsman/WSMAN_OPTION_PROXY_AUTO_DETECT, wsman/WSMAN_OPTION_PROXY_IE_PROXY_CONFIG, wsman/WSMAN_OPTION_PROXY_NO_PROXY_SERVER, wsman/WSMAN_OPTION_PROXY_WINHTTP_PROXY_CONFIG, wsman/WSManProxyAccessType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wsman.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wsman.h
+api_name:
+-	WSManProxyAccessType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WSManProxyAccessType enumeration

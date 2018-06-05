@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mdhcp.IMcastScope.get_ServerID
+title: IMcastScope::get_ServerID
+author: windows-sdk-content
+description: The get_ServerID method obtains the server ID associated with this scope.
+old-location: tapi3\imcastscope_get_serverid.htm
+old-project: Tapi
+ms.assetid: 80c0ecca-647f-4e5e-92d6-fc95368715ad
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IMcastScope interface [TAPI 2.2],get_ServerID method, IMcastScope.get_ServerID, IMcastScope::get_ServerID, _tapi3_imcastscope_get_serverid, get_ServerID, get_ServerID method [TAPI 2.2], get_ServerID method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_ServerID, tapi3.imcastscope_get_serverid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mdhcp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mdhcp.dll
+api_name:
+-	IMcastScope.get_ServerID
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMcastScope::get_ServerID

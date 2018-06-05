@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:msdrmdefs._DRM_USAGEPOLICY_TYPE
+title: "_DRM_USAGEPOLICY_TYPE"
+author: windows-sdk-content
+description: Used with the DRMGetUsagePolicy and DRMSetUsagePolicy functions to specify a type of usage policy.
+old-location: rm\drm_usagepolicy_type.htm
+old-project: AdRms_Sdk
+ms.assetid: b7486f70-36da-4868-9b50-caa37f7a7539
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DRM_USAGEPOLICY_TYPE, DRM_USAGEPOLICY_TYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRM_USAGEPOLICY_TYPE_BYDIGEST, DRM_USAGEPOLICY_TYPE_BYNAME, DRM_USAGEPOLICY_TYPE_BYPUBLICKEY, DRM_USAGEPOLICY_TYPE_OSEXCLUSION, _DRM_USAGEPOLICY_TYPE, msdrmdefs/DRM_USAGEPOLICY_TYPE, msdrmdefs/DRM_USAGEPOLICY_TYPE_BYDIGEST, msdrmdefs/DRM_USAGEPOLICY_TYPE_BYNAME, msdrmdefs/DRM_USAGEPOLICY_TYPE_BYPUBLICKEY, msdrmdefs/DRM_USAGEPOLICY_TYPE_OSEXCLUSION, rm.drm_usagepolicy_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msdrmdefs.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRM_USAGEPOLICY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msdrmdefs.h
+api_name:
+-	DRM_USAGEPOLICY_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _DRM_USAGEPOLICY_TYPE enumeration

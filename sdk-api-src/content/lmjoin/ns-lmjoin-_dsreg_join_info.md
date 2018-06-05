@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmjoin._DSREG_JOIN_INFO
+title: "_DSREG_JOIN_INFO"
+author: windows-sdk-content
+description: Contains information about how a device is joined to Microsoft Azure Active Directory.
+old-location: netmgmt\dsreg_join_info.htm
+old-project: NetMgmt
+ms.assetid: 9B0F7BE3-BDCD-437E-9157-9A646A2A20E2
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PDSREG_JOIN_INFO, DSREG_JOIN_INFO, DSREG_JOIN_INFO structure [Network Management], PDSREG_JOIN_INFO, PDSREG_JOIN_INFO structure pointer [Network Management], _DSREG_JOIN_INFO, lmjoin/DSREG_JOIN_INFO, lmjoin/PDSREG_JOIN_INFO, netmgmt.dsreg_join_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmjoin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSREG_JOIN_INFO, *PDSREG_JOIN_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	lmjoin.h
+api_name:
+-	DSREG_JOIN_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _DSREG_JOIN_INFO structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:exdisp.IShellWindows
+title: IShellWindows
+author: windows-sdk-content
+description: Provides access to the collection of open Shell windows.
+old-location: shell\IShellWindows.htm
+old-project: shell
+ms.assetid: e609c8b6-2b2e-4188-894c-5c85960206ea
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], IShellWindows interface [Windows Shell],described, _win32_IShellWindows, exdisp/IShellWindows, shell.IShellWindows
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: exdisp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Exdisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ShellWindowTypeConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shdocvw.dll
+api_name:
+-	IShellWindows
+product: Windows
+targetos: Windows
+req.lib: Shdocvw.dll
+req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IShellWindows interface

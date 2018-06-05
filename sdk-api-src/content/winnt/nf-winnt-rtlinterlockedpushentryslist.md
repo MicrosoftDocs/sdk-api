@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winnt.RtlInterlockedPushEntrySList
+title: RtlInterlockedPushEntrySList function
+author: windows-sdk-content
+description: Inserts an item at the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.
+old-location: base\rtlinterlockedpushentryslist.htm
+old-project: Sync
+ms.assetid: 0d52bc3a-9f43-4bc2-99c2-1a0efa7b29cd
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: RtlInterlockedPushEntrySList, RtlInterlockedPushEntrySList function, base.rtlinterlockedpushentryslist, winnt/RtlInterlockedPushEntrySList
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRANSACTION_OUTCOME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdll.dll
+api_name:
+-	RtlInterlockedPushEntrySList
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # RtlInterlockedPushEntrySList function

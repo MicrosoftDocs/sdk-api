@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmaccess._MSA_INFO_0
+title: "_MSA_INFO_0"
+author: windows-sdk-content
+description: Specifies information about a managed service account.
+old-location: security\msa_info_0.htm
+old-project: SecMgmt
+ms.assetid: 21e04ee8-98c9-4c78-9564-e07f5edaf847
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*LPMSA_INFO_0, *PMSA_INFO_0, MSA_INFO_0, MSA_INFO_0 structure [Security], PMSA_INFO_0, PMSA_INFO_0 structure pointer [Security], _MSA_INFO_0, lmaccess/MSA_INFO_0, lmaccess/PMSA_INFO_0, security.msa_info_0"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmaccess.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSA_INFO_0, *PMSA_INFO_0, *LPMSA_INFO_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmaccess.h
+api_name:
+-	MSA_INFO_0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MSA_INFO_0 structure

@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbtsv.ITsSbClientConnection.get_ConnectionError
+title: ITsSbClientConnection::get_ConnectionError
+author: windows-sdk-content
+description: Retrieves a value that indicates the error that occurred while a client connection was being processed.
+old-location: termserv\itssbclientconnection_connectionerror.htm
+old-project: TermServ
+ms.assetid: 0aa813c1-1ab5-4020-8180-c04d293efd25
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ConnectionError property [Remote Desktop Services], ConnectionError property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],ConnectionError property, ITsSbClientConnection.ConnectionError, ITsSbClientConnection.get_ConnectionError, ITsSbClientConnection::ConnectionError, ITsSbClientConnection::get_ConnectionError, get_ConnectionError, sbtsv/ITsSbClientConnection::ConnectionError, sbtsv/ITsSbClientConnection::get_ConnectionError, termserv.itssbclientconnection_connectionerror
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbtsv.h
+req.include-header: Dbnetlib.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Sbtsv.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TS_SB_SORT_BY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbtsv.h
+api_name:
+-	ITsSbClientConnection.ConnectionError
+-	ITsSbClientConnection.get_ConnectionError
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbClientConnection::get_ConnectionError

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_FEATURE_CAPS
+title: D3D11_VIDEO_PROCESSOR_FEATURE_CAPS
+author: windows-sdk-content
+description: Defines features that a Microsoft Direct3D 11 video processor can support.
+old-location: mf\d3d11_video_processor_feature_caps.htm
+old-project: medfound
+ms.assetid: A40E33D4-E8F3-4348-9135-DD56BABBFA85
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3D11_VIDEO_PROCESSOR_FEATURE_CAPS, D3D11_VIDEO_PROCESSOR_FEATURE_CAPS enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_FILL, D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_PALETTE, D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_STREAM, D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION, D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_LEGACY, D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_LUMA_KEY, D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_ASPECT_RATIO, D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ROTATION, D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO, d3d11/D3D11_VIDEO_PROCESSOR_FEATURE_CAPS, d3d11/D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_FILL, d3d11/D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_PALETTE, d3d11/D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_STREAM, d3d11/D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION, d3d11/D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_LEGACY, d3d11/D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_LUMA_KEY, d3d11/D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_ASPECT_RATIO, d3d11/D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ROTATION, d3d11/D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO, mf.d3d11_video_processor_feature_caps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VIDEO_PROCESSOR_FEATURE_CAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11.h
+api_name:
+-	D3D11_VIDEO_PROCESSOR_FEATURE_CAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_VIDEO_PROCESSOR_FEATURE_CAPS enumeration

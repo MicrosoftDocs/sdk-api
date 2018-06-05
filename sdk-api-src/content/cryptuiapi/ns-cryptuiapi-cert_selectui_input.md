@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:cryptuiapi.CERT_SELECTUI_INPUT
+title: CERT_SELECTUI_INPUT
+author: windows-sdk-content
+description: Used by the CertSelectionGetSerializedBlob function to serialize the certificates contained in a store or an array of certificate chains. The returned serialized BLOB can be passed to the CredUIPromptForWindowsCredentials function.
+old-location: security\cert_selectui_input.htm
+old-project: SecCrypto
+ms.assetid: 8953cddd-86b6-4781-8dca-b5fd3d298bc8
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_SELECTUI_INPUT, CERT_SELECTUI_INPUT, CERT_SELECTUI_INPUT structure [Security], PCERT_SELECTUI_INPUT, PCERT_SELECTUI_INPUT structure pointer [Security], cryptuiapi/CERT_SELECTUI_INPUT, cryptuiapi/PCERT_SELECTUI_INPUT, security.cert_selectui_input"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cryptuiapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_SELECTUI_INPUT, *PCERT_SELECTUI_INPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Cryptuiapi.h
+api_name:
+-	CERT_SELECTUI_INPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CERT_SELECTUI_INPUT structure

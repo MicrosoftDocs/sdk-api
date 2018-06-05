@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorEndSession
+title: EapMethodAuthenticatorEndSession function
+author: windows-sdk-content
+description: Closes an EAP authentication session on the server EAPHost.
+old-location: eaphost\eapmethodauthenticatorendsession.htm
+old-project: EAPHost
+ms.assetid: 6295277d-3ad8-4c37-a6bf-8f72e8a9b404
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: EapMethodAuthenticatorEndSession, EapMethodAuthenticatorEndSession function [EAPHost], eaphost.eapmethodauthenticatorendsession, eapmethodauthenticatorapis/EapMethodAuthenticatorEndSession
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: eapmethodauthenticatorapis.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EAPHOST_AUTH_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	eapmethodauthenticatorapis.h
+api_name:
+-	EapMethodAuthenticatorEndSession
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # EapMethodAuthenticatorEndSession function

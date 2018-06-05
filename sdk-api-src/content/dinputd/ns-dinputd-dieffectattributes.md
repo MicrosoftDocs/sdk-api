@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dinputd.DIEFFECTATTRIBUTES
+title: DIEFFECTATTRIBUTES
+author: windows-sdk-content
+description: The DIEFFECTATTRIBUTES structure describes the information contained in the &#0034;Attributes&#0034; value of the registry key for each effect that is supported by a force-feedback device.
+old-location: hid\dieffectattributes.htm
+old-project: hid
+ms.assetid: accec45c-de3c-43db-adc9-f878c40c47b0
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPDIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES structure [Human Input Devices], di_ref_49296796-41c7-4b8f-8bc5-59bdeb4df29e.xml, dinputd/DIEFFECTATTRIBUTES, hid.dieffectattributes"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dinputd.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFECTATTRIBUTES, *LPDIEFFECTATTRIBUTES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dinputd.h
+api_name:
+-	DIEFFECTATTRIBUTES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DIEFFECTATTRIBUTES structure

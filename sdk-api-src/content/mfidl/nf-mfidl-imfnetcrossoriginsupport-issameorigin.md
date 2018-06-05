@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFNetCrossOriginSupport.IsSameOrigin
+title: IMFNetCrossOriginSupport::IsSameOrigin
+author: windows-sdk-content
+description: Returns true when the specified URL has the same origin as the HTML5 media element.
+old-location: mf\imfnetcrossoriginsupport_issameorigin.htm
+old-project: medfound
+ms.assetid: E19294E1-92F5-4387-8C9E-FC0F9F9E46E3
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFNetCrossOriginSupport interface [Media Foundation],IsSameOrigin method, IMFNetCrossOriginSupport.IsSameOrigin, IMFNetCrossOriginSupport::IsSameOrigin, IsSameOrigin, IsSameOrigin method [Media Foundation], IsSameOrigin method [Media Foundation],IMFNetCrossOriginSupport interface, mf.imfnetcrossoriginsupport_issameorigin, mfidl/IMFNetCrossOriginSupport::IsSameOrigin
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	kbSyntax
+api_type:
+-	<TBD>
+api_location:
+-
+api_name:
+-	IMFNetCrossOriginSupport::IsSameOrigin
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFNetCrossOriginSupport::IsSameOrigin

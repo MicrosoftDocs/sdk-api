@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:realtimeapiset.QueryUnbiasedInterruptTimePrecise
+title: QueryUnbiasedInterruptTimePrecise function
+author: windows-sdk-content
+description: Gets the current unbiased interrupt-time count, in a more precise form than QueryUnbiasedInterruptTime does. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.
+old-location: base\queryunbiasedinterrupttimeprecise.htm
+old-project: SysInfo
+ms.assetid: FADFC168-A3CF-4676-9B6E-7A4028049423
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: QueryUnbiasedInterruptTimePrecise, QueryUnbiasedInterruptTimePrecise function, base.queryunbiasedinterrupttimeprecise, realtimeapiset/QueryUnbiasedInterruptTimePrecise
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: realtimeapiset.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	kernel32.dll
+-	API-MS-Win-Core-realtime-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+-	API-MS-Win-Core-RealTime-l1-1-1.dll
+api_name:
+-	QueryUnbiasedInterruptTimePrecise
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # QueryUnbiasedInterruptTimePrecise function

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0004
+title: "__MIDL___MIDL_itf_ads_0001_0048_0004"
+author: windows-sdk-content
+description: The ADS_FLAGTYPE_ENUM enumeration specifies values that can be used to indicate the presence of the ObjectType or InheritedObjectType fields in the access-control entry (ACE).
+old-location: adsi\ads_flagtype_enum.htm
+old-project: ADSI
+ms.assetid: 6c3354d8-8df7-476d-af21-63725e5ed778
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ADS_FLAGTYPE_ENUM, ADS_FLAGTYPE_ENUM enumeration [ADSI], ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT, ADS_FLAG_OBJECT_TYPE_PRESENT, __MIDL___MIDL_itf_ads_0001_0048_0004, _ds_ads_flagtype_enum, adsi.ads__flagtype__enum, adsi.ads_flagtype_enum, iads/ADS_FLAGTYPE_ENUM, iads/ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT, iads/ADS_FLAG_OBJECT_TYPE_PRESENT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: IAccess.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_FLAGTYPE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_FLAGTYPE_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_ads_0001_0048_0004 enumeration

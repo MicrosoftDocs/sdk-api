@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:setupapi.SetupDiGetClassPropertyKeys
+title: SetupDiGetClassPropertyKeys function
+author: windows-sdk-content
+description: The SetupDiGetClassPropertyKeys function retrieves an array of the device property keys that represent the device properties that are set for a device setup class or a device interface class.
+old-location: devinst\setupdigetclasspropertykeys.htm
+old-project: devinst
+ms.assetid: 9b595fc5-f517-41f9-b7a8-a7811f658d57
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: SetupDiGetClassPropertyKeys, SetupDiGetClassPropertyKeys function [Device and Driver Installation], devinst.setupdigetclasspropertykeys, di-rtns_7f87ef8b-8752-4cd4-9aca-811a83c99ccf.xml, setupapi/SetupDiGetClassPropertyKeys
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: DesktopFor universal, call CM_Get_Class_Property_Keys
+req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Setupapi.dll
+api_name:
+-	SetupDiGetClassPropertyKeys
+product: Windows
+targetos: Windows
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetupDiGetClassPropertyKeys function

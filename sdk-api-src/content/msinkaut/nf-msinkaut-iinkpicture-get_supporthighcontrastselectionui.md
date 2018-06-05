@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkPicture.get_SupportHighContrastSelectionUI
+title: IInkPicture::get_SupportHighContrastSelectionUI
+author: windows-sdk-content
+description: Gets or sets a value that specifies whether all selection user interface (selection bounding box and selection handles) are drawn in high contrast when the system is in High Contrast mode.
+old-location: tablet\inkpicture_supporthighcontrastselectionui.htm
+old-project: tablet
+ms.assetid: f522a998-89f0-4d8d-bb19-949d62f5a786
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IInkPicture interface [Tablet PC],SupportHighContrastSelectionUI property, IInkPicture.SupportHighContrastSelectionUI, IInkPicture.get_SupportHighContrastSelectionUI, IInkPicture::SupportHighContrastSelectionUI, IInkPicture::get_SupportHighContrastSelectionUI, IInkPicture::put_SupportHighContrastSelectionUI, InkPicture.get_SupportHighContrastSelectionUI, InkPicture.put_SupportHighContrastSelectionUI, SupportHighContrastSelectionUI property [Tablet PC], SupportHighContrastSelectionUI property [Tablet PC],IInkPicture interface, f522a998-89f0-4d8d-bb19-949d62f5a786, get_SupportHighContrastSelectionUI, msinkaut/IInkPicture::SupportHighContrastSelectionUI, msinkaut/IInkPicture::get_SupportHighContrastSelectionUI, msinkaut/IInkPicture::put_SupportHighContrastSelectionUI, put_SupportHighContrastSelectionUI, tablet.inkpicture_supporthighcontrastselectionui
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkPicture.SupportHighContrastSelectionUI
+-	IInkPicture.get_SupportHighContrastSelectionUI
+-	IInkPicture.put_SupportHighContrastSelectionUI
+-	InkPicture.get_SupportHighContrastSelectionUI
+-	InkPicture.put_SupportHighContrastSelectionUI
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkPicture::get_SupportHighContrastSelectionUI

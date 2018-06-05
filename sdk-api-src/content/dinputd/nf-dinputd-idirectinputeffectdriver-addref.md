@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dinputd.IDirectInputEffectDriver.AddRef
+title: IDirectInputEffectDriver::AddRef
+author: windows-sdk-content
+description: The IDirectInputEffectDriver::AddRef method increases the reference count of the DirectInputEffectDriver object by 1. This method is part of the IUnknown interface inherited by DirectInputEffectDriver.
+old-location: hid\idirectinputeffectdriver_addref.htm
+old-project: hid
+ms.assetid: 6bdeb92c-09de-4d26-b2ed-9bacb7233886
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: AddRef, AddRef method [Human Input Devices], AddRef method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],AddRef method, IDirectInputEffectDriver.AddRef, IDirectInputEffectDriver::AddRef, di_ref_9a9eb400-fa33-4643-b060-b047bd6e5818.xml, dinputd/IDirectInputEffectDriver::AddRef, hid.idirectinputeffectdriver_addref
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dinputd.h
+api_name:
+-	IDirectInputEffectDriver.AddRef
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputEffectDriver::AddRef

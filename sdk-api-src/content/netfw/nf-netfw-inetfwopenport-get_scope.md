@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netfw.INetFwOpenPort.get_Scope
+title: INetFwOpenPort::get_Scope
+author: windows-sdk-content
+description: Controls the network scope from which the port can listen.
+old-location: ics\inetfwopenport_scope.htm
+old-project: ICS
+ms.assetid: a5bd787f-e00c-4a57-adc7-a9618809198a
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: INetFwOpenPort interface [ICS/ICF],Scope property, INetFwOpenPort.Scope, INetFwOpenPort.get_Scope, INetFwOpenPort::Scope, INetFwOpenPort::get_Scope, INetFwOpenPort::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF],INetFwOpenPort interface, get_Scope, ics.inetfwopenport_scope, netfw/INetFwOpenPort::Scope, netfw/INetFwOpenPort::get_Scope, netfw/INetFwOpenPort::put_Scope
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETISO_ERROR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FirewallAPI.dll
+-	Hnetcfg.dll
+api_name:
+-	INetFwOpenPort.Scope
+-	INetFwOpenPort.get_Scope
+-	INetFwOpenPort.put_Scope
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetFwOpenPort::get_Scope

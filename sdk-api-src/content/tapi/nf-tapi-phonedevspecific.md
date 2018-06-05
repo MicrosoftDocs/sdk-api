@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi.phoneDevSpecific
+title: phoneDevSpecific function
+author: windows-sdk-content
+description: The phoneDevSpecific function is used as a general extension mechanism to enable a Telephony API implementation to provide features not described in the other TAPI functions. The meanings of these extensions are device specific.
+old-location: tapi2\phonedevspecific.htm
+old-project: Tapi
+ms.assetid: 7199b489-bf66-4380-8d1c-73de5aeb7489
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "_tapi2_phonedevspecific, phoneDevSpecific, phoneDevSpecific function [TAPI 2.2], tapi/phoneDevSpecific, tapi2.phonedevspecific"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FLICK_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tapi32.dll
+api_name:
+-	phoneDevSpecific
+product: Windows
+targetos: Windows
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # phoneDevSpecific function

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3.ITAgentSession.get_AverageTalkTime
+title: ITAgentSession::get_AverageTalkTime
+author: windows-sdk-content
+description: The get_AverageTalkTime method gets the average time (in seconds) spent talking per ACD call, during this agent session (by this agent).
+old-location: tapi3\itagentsession_get_averagetalktime.htm
+old-project: Tapi
+ms.assetid: b6025053-b21f-478e-86d7-a8572ed2b205
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageTalkTime method, ITAgentSession.get_AverageTalkTime, ITAgentSession::get_AverageTalkTime, _tapi3_itagentsession_get_averagetalktime, get_AverageTalkTime, get_AverageTalkTime method [TAPI 2.2], get_AverageTalkTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_averagetalktime, tapi3cc/ITAgentSession::get_AverageTalkTime
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSP_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAgentSession.get_AverageTalkTime
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAgentSession::get_AverageTalkTime

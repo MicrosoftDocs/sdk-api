@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mbnapi.IMbnConnectionEvents.OnConnectComplete
+title: IMbnConnectionEvents::OnConnectComplete
+author: windows-sdk-content
+description: Notification method that signals the completion of a connection operation.
+old-location: mbn\imbnconnectionevents_onconnectcomplete.htm
+old-project: mbn
+ms.assetid: d770eda5-43f4-44d3-a870-fc54f9374610
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: E_MBN_ACTIVE_CONNECTION, E_MBN_INVALID_ACCESS_STRING, E_MBN_MAX_ACTIVATED_CONTEXTS, E_MBN_PACKET_SVC_DETACHED, E_MBN_PIN_REQUIRED, E_MBN_PROVIDER_NOT_VISIBLE, E_MBN_RADIO_POWER_OFF, E_MBN_SERVICE_NOT_ACTIVATED, E_MBN_SIM_NOT_INSERTED, E_MBN_VOICE_CALL_IN_PROGRESS, HRESULT_FROM_WIN32(ERROR_INVALID_PASSWORD), IMbnConnectionEvents interface [Microsoft Broadband Networks],OnConnectComplete method, IMbnConnectionEvents.OnConnectComplete, IMbnConnectionEvents::OnConnectComplete, OnConnectComplete, OnConnectComplete method [Microsoft Broadband Networks], OnConnectComplete method [Microsoft Broadband Networks],IMbnConnectionEvents interface, S_OK, mbn.imbnconnectionevents_onconnectcomplete, mbnapi/IMbnConnectionEvents::OnConnectComplete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnConnectionEvents.OnConnectComplete
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMbnConnectionEvents::OnConnectComplete

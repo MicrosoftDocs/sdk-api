@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:qosobjs._QOS_DS_CLASS
+title: "_QOS_DS_CLASS"
+author: windows-sdk-content
+description: The traffic control object QOS_DS_CLASS enables application developers to override the default Diffserv code point (DSCP) value for the IP packets associated with a given flow. By default, the DSCP value is derived from the flow's ServiceType.
+old-location: qos\qos_ds_class.htm
+old-project: QOS
+ms.assetid: 56eca8ef-2b6e-4380-869c-bf1a4c8fdb1f
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPQOS_DS_CLASS, LPQOS_DS_CLASS, LPQOS_DS_CLASS structure pointer [QOS], QOS_DS_CLASS, QOS_DS_CLASS structure [QOS], _QOS_DS_CLASS, _gqos_qos_ds_class, qos.qos_ds_class, qosobjs/LPQOS_DS_CLASS, qosobjs/QOS_DS_CLASS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: qosobjs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QOS_DS_CLASS, *LPQOS_DS_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	QosObjs.h
+api_name:
+-	QOS_DS_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _QOS_DS_CLASS structure

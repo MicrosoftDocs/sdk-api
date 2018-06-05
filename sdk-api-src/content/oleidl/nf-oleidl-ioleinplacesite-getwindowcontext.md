@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleidl.IOleInPlaceSite.GetWindowContext
+title: IOleInPlaceSite::GetWindowContext
+author: windows-sdk-content
+description: Enables an in-place object to retrieve the window interfaces that form the window object hierarchy, and the position in the parent window where the object's in-place activation window should be located.
+old-location: com\ioleinplacesite_getwindowcontext.htm
+old-project: com
+ms.assetid: f6cf62b3-5a64-49aa-b0bd-56744ecee313
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetWindowContext, GetWindowContext method [COM], GetWindowContext method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],GetWindowContext method, IOleInPlaceSite.GetWindowContext, IOleInPlaceSite::GetWindowContext, _ole_ioleinplacesite_getwindowcontext, com.ioleinplacesite_getwindowcontext, oleidl/IOleInPlaceSite::GetWindowContext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oleidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OleIdl.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERCLASSTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OleIdl.h
+api_name:
+-	IOleInPlaceSite.GetWindowContext
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleInPlaceSite::GetWindowContext

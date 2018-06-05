@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:minidumpapiset._MINIDUMP_MODULE_CALLBACK
+title: "_MINIDUMP_MODULE_CALLBACK"
+author: windows-sdk-content
+description: Contains module information for the MiniDumpCallback function when the callback type is ModuleCallback.
+old-location: base\minidump_module_callback_str.htm
+old-project: Debug
+ms.assetid: 8ca48df0-ed0e-4ee3-a20a-d89057be37f3
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PMINIDUMP_MODULE_CALLBACK, MINIDUMP_MODULE_CALLBACK, MINIDUMP_MODULE_CALLBACK structure, PMINIDUMP_MODULE_CALLBACK, PMINIDUMP_MODULE_CALLBACK structure pointer, _MINIDUMP_MODULE_CALLBACK, _win32_minidump_module_callback_str, base.minidump_module_callback_str, minidumpapiset/MINIDUMP_MODULE_CALLBACK, minidumpapiset/PMINIDUMP_MODULE_CALLBACK"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: minidumpapiset.h
+req.include-header: DbgHelp.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MINIDUMP_MODULE_CALLBACK, *PMINIDUMP_MODULE_CALLBACK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	minidumpapiset.h
+api_name:
+-	MINIDUMP_MODULE_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MINIDUMP_MODULE_CALLBACK structure

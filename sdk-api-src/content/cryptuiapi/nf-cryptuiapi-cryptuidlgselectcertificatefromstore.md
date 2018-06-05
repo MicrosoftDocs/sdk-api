@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cryptuiapi.CryptUIDlgSelectCertificateFromStore
+title: CryptUIDlgSelectCertificateFromStore function
+author: windows-sdk-content
+description: Displays a dialog box that allows the selection of a certificate from a specified store.
+old-location: security\cryptuidlgselectcertificatefromstore.htm
+old-project: SecCrypto
+ms.assetid: 5774af1c-f2d4-4b1e-a20b-dfb57bf9aa37
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CRYPTUI_SELECT_EXPIRATION_COLUMN, CRYPTUI_SELECT_FRIENDLYNAME_COLUMN, CRYPTUI_SELECT_INTENDEDUSE_COLUMN, CRYPTUI_SELECT_ISSUEDBY_COLUMN, CRYPTUI_SELECT_ISSUEDTO_COLUMN, CRYPTUI_SELECT_LOCATION_COLUMN, CryptUIDlgSelectCertificateFromStore, CryptUIDlgSelectCertificateFromStore function [Security], _crypto2_cryptuidlgselectcertificatefromstore, cryptuiapi/CryptUIDlgSelectCertificateFromStore, security.cryptuidlgselectcertificatefromstore
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cryptuiapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cryptui.dll
+-	Ext-MS-Win-security-cryptui-l1-1-0.dll
+-	ext-ms-win-security-cryptui-l1-1-1.dll
+-	CertCredProviderOneCore.dll
+api_name:
+-	CryptUIDlgSelectCertificateFromStore
+product: Windows
+targetos: Windows
+req.lib: Cryptui.lib
+req.dll: Cryptui.dll
+req.irql: 
 ---
 
 # CryptUIDlgSelectCertificateFromStore function

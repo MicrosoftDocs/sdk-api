@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IExplorerPaneVisibility.GetPaneState
+title: IExplorerPaneVisibility::GetPaneState
+author: windows-sdk-content
+description: Gets the visibility state of the given Windows Explorer pane.
+old-location: shell\IExplorerPaneVisibility_GetPaneState.htm
+old-project: shell
+ms.assetid: 6c051cdc-b7f9-48dc-ba32-38f0f1ee5fda
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EP_AdvQueryPane, EP_Commands, EP_Commands_Organize, EP_Commands_View, EP_DetailsPane, EP_NavPane, EP_PreviewPane, EP_QueryPane, EP_Ribbon, EP_StatusBar, GetPaneState, GetPaneState method [Windows Shell], GetPaneState method [Windows Shell],IExplorerPaneVisibility interface, IExplorerPaneVisibility interface [Windows Shell],GetPaneState method, IExplorerPaneVisibility.GetPaneState, IExplorerPaneVisibility::GetPaneState, _shell_IExplorerPaneVisibility_GetPaneState, shell.IExplorerPaneVisibility_GetPaneState, shobjidl_core/IExplorerPaneVisibility::GetPaneState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	IExplorerPaneVisibility.GetPaneState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IExplorerPaneVisibility::GetPaneState

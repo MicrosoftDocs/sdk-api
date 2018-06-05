@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:schannel.SslCrackCertificate
+title: SslCrackCertificate function
+author: windows-sdk-content
+description: Returns an X509Certificate structure with the information contained in the specified certificate BLOB.
+old-location: security\sslcrackcertificate.htm
+old-project: SecAuthN
+ms.assetid: e5ffeebb-0b09-4f0a-b2dc-75fb2a3af7ed
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: SslCrackCertificate, SslCrackCertificate function [Security], schannel/SslCrackCertificate, security.sslcrackcertificate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: schannel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCESVC_CONFIGURATION_LINE, *PSCESVC_CONFIGURATION_LINE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Schannel.dll
+api_name:
+-	SslCrackCertificate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Schannel.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SslCrackCertificate function

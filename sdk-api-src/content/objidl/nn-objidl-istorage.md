@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:objidl.IStorage
+title: IStorage
+author: windows-sdk-content
+description: The IStorage interface supports the creation and management of structured storage objects.
+old-location: stg\istorage.htm
+old-project: Stg
+ms.assetid: 2f454538-0f40-4811-b908-cd317ef79487
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IStorage, IStorage interface [Structured Storage], IStorage interface [Structured Storage],described, _stg_istorage, objidl/IStorage, stg.istorage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Objidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ole32.dll
+api_name:
+-	IStorage
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IStorage interface

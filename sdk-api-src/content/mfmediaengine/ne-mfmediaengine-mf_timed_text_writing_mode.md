@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfmediaengine.MF_TIMED_TEXT_WRITING_MODE
+title: MF_TIMED_TEXT_WRITING_MODE
+author: windows-sdk-content
+description: Specifies the sequence in which text is written on its parent element.
+old-location: mf\mf_timed_text_writing_mode.htm
+old-project: medfound
+ms.assetid: AE77AC07-EA27-4341-97E4-7D0995AF18E8
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_TIMED_TEXT_WRITING_MODE, MF_TIMED_TEXT_WRITING_MODE enumeration [Media Foundation], MF_TIMED_TEXT_WRITING_MODE_LR, MF_TIMED_TEXT_WRITING_MODE_LRTB, MF_TIMED_TEXT_WRITING_MODE_RL, MF_TIMED_TEXT_WRITING_MODE_RLTB, MF_TIMED_TEXT_WRITING_MODE_TB, MF_TIMED_TEXT_WRITING_MODE_TBLR, MF_TIMED_TEXT_WRITING_MODE_TBRL, mf.mf_timed_text_writing_mode, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_LR, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_LRTB, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_RL, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_RLTB, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_TB, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_TBLR, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_TBRL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfmediaengine.h
+api_name:
+-	MF_TIMED_TEXT_WRITING_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MF_TIMED_TEXT_WRITING_MODE enumeration

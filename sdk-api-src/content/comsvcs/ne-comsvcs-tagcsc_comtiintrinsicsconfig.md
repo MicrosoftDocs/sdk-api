@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:comsvcs.tagCSC_COMTIIntrinsicsConfig
+title: tagCSC_COMTIIntrinsicsConfig
+author: windows-sdk-content
+description: Indicates whether the current COM Transaction Integrator (COMTI) intrinsics are propagated into the new context.
+old-location: cos\csc_comtiintrinsicsconfig.htm
+old-project: cossdk
+ms.assetid: 0d700648-b5fe-46f6-9d27-e2601fe88d71
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: CSC_COMTIIntrinsicsConfig, CSC_COMTIIntrinsicsConfig enumeration [COM+], CSC_InheritCOMTIIntrinsics, CSC_NoCOMTIIntrinsics, _cos_CSC_COMTIIntrinsicsConfig, comsvcs/CSC_COMTIIntrinsicsConfig, comsvcs/CSC_InheritCOMTIIntrinsics, comsvcs/CSC_NoCOMTIIntrinsics, cos.csc_comtiintrinsicsconfig, tagCSC_COMTIIntrinsicsConfig
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CSC_COMTIIntrinsicsConfig
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ComSvcs.h
+api_name:
+-	CSC_COMTIIntrinsicsConfig
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagCSC_COMTIIntrinsicsConfig enumeration

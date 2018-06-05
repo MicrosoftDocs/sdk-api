@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rtmv2._RTM_NEXTHOP_INFO
+title: "_RTM_NEXTHOP_INFO"
+author: windows-sdk-content
+description: The RTM_NEXTHOP_INFO structure is used to exchange next-hop information with the routing table manager.
+old-location: rras\rtm_nexthop_info.htm
+old-project: RRAS
+ms.assetid: 17705e5b-0905-45a5-b76e-e381e863a1ea
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PRTM_NEXTHOP_INFO, PRTM_NEXTHOP_INFO, PRTM_NEXTHOP_INFO structure pointer [RAS], RTM_NEXTHOP_FLAGS_DOWN, RTM_NEXTHOP_FLAGS_REMOTE, RTM_NEXTHOP_INFO, RTM_NEXTHOP_INFO structure [RAS], RTM_NEXTHOP_STATE_CREATED, RTM_NEXTHOP_STATE_DELETED, _RTM_NEXTHOP_INFO, _rtmv2ref_rtm_nexthop_info, rras.rtm_nexthop_info, rtmv2/PRTM_NEXTHOP_INFO, rtmv2/RTM_NEXTHOP_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rtmv2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RTM_NEXTHOP_INFO, *PRTM_NEXTHOP_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rtmv2.h
+api_name:
+-	RTM_NEXTHOP_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RTM_NEXTHOP_INFO structure

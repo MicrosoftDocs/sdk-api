@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dxva2api._DXVA2_SampleFormat
+title: "_DXVA2_SampleFormat"
+author: windows-sdk-content
+description: Describes the content of a video sample. These flags are used in the DXVA2_ExtendedFormat structure.
+old-location: mf\dxva2_sampleformat.htm
+old-project: medfound
+ms.assetid: 7d2d38c0-249d-47c3-acda-ba1bec721a5c
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 7d2d38c0-249d-47c3-acda-ba1bec721a5c, DXVA2_SampleFieldInterleavedEvenFirst, DXVA2_SampleFieldInterleavedOddFirst, DXVA2_SampleFieldSingleEven, DXVA2_SampleFieldSingleOdd, DXVA2_SampleFormat, DXVA2_SampleFormat enumeration [Media Foundation], DXVA2_SampleFormatMask, DXVA2_SampleProgressiveFrame, DXVA2_SampleSubStream, DXVA2_SampleUnknown, _DXVA2_SampleFormat, dxva2api/DXVA2_SampleFieldInterleavedEvenFirst, dxva2api/DXVA2_SampleFieldInterleavedOddFirst, dxva2api/DXVA2_SampleFieldSingleEven, dxva2api/DXVA2_SampleFieldSingleOdd, dxva2api/DXVA2_SampleFormat, dxva2api/DXVA2_SampleFormatMask, dxva2api/DXVA2_SampleProgressiveFrame, dxva2api/DXVA2_SampleSubStream, dxva2api/DXVA2_SampleUnknown, mf.dxva2_sampleformat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxva2api.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA2_SampleFormat
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxva2api.h
+api_name:
+-	DXVA2_SampleFormat
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVA2_SampleFormat enumeration

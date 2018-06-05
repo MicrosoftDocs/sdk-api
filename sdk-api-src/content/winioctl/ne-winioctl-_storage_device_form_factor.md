@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winioctl._STORAGE_DEVICE_FORM_FACTOR
+title: "_STORAGE_DEVICE_FORM_FACTOR"
+author: windows-sdk-content
+description: Specifies the form factor of a device.
+old-location: fs\storage_device_form_factor.htm
+old-project: FileIO
+ms.assetid: B8FCDC58-D599-4EEE-8096-818345FCD75F
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PSTORAGE_DEVICE_FORM_FACTOR, FormFactor1_8, FormFactor1_8Less, FormFactor2_5, FormFactor3_5, FormFactorDimm, FormFactorEmbedded, FormFactorM_2, FormFactorMemoryCard, FormFactorPCIeBoard, FormFactorUnknown, FormFactormSata, PSTORAGE_DEVICE_FORM_FACTOR, PSTORAGE_DEVICE_FORM_FACTOR enumeration pointer [Files], STORAGE_DEVICE_FORM_FACTOR, _STORAGE_DEVICE_FORM_FACTOR, _STORAGE_DEVICE_FORM_FACTOR enumeration [Files], fs.storage_device_form_factor, winioctl/FormFactor1_8, winioctl/FormFactor1_8Less, winioctl/FormFactor2_5, winioctl/FormFactor3_5, winioctl/FormFactorDimm, winioctl/FormFactorEmbedded, winioctl/FormFactorM_2, winioctl/FormFactorMemoryCard, winioctl/FormFactorPCIeBoard, winioctl/FormFactorUnknown, winioctl/FormFactormSata, winioctl/PSTORAGE_DEVICE_FORM_FACTOR, winioctl/_STORAGE_DEVICE_FORM_FACTOR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STORAGE_DEVICE_FORM_FACTOR, *PSTORAGE_DEVICE_FORM_FACTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	STORAGE_DEVICE_FORM_FACTOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _STORAGE_DEVICE_FORM_FACTOR enumeration

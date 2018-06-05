@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:corewindow.ICoreInputInterop.SetInputSource
+title: ICoreInputInterop::SetInputSource
+author: windows-sdk-content
+description: Sets the input source for an app's CoreIndependentInputSource or CoreComponentInputSource.
+old-location: winrt\icoreinputinterop_setinputsource.htm
+old-project: WinRT
+ms.assetid: 693180F5-2C19-47CD-9514-F0CEA1849A4A
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: ICoreInputInterop interface [Windows Runtime],SetInputSource method, ICoreInputInterop.SetInputSource, ICoreInputInterop::SetInputSource, SetInputSource, SetInputSource method [Windows Runtime], SetInputSource method [Windows Runtime],ICoreInputInterop interface, corewindow/ICoreInputInterop::SetInputSource, winrt.icoreinputinterop_setinputsource
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: corewindow.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPContextMenuInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	corewindow.h
+api_name:
+-	ICoreInputInterop.SetInputSource
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICoreInputInterop::SetInputSource

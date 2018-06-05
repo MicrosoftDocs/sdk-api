@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_IPV4Filter.GetMulticastList
+title: IBDA_IPV4Filter::GetMulticastList
+author: windows-sdk-content
+description: The GetMulticastList method retrieves the list of multicast addresses on the Network Provider.
+old-location: mstv\ibda_ipv4filter_getmulticastlist.htm
+old-project: mstv
+ms.assetid: 020a4053-76ba-4e67-afa8-27abcf70c456
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetMulticastList, GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies],IBDA_IPV4Filter interface, IBDA_IPV4Filter interface [Microsoft TV Technologies],GetMulticastList method, IBDA_IPV4Filter.GetMulticastList, IBDA_IPV4Filter::GetMulticastList, IBDA_IPV4FilterGetMulticastList, bdaiface/IBDA_IPV4Filter::GetMulticastList, mstv.ibda_ipv4filter_getmulticastlist
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_IPV4Filter.GetMulticastList
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_IPV4Filter::GetMulticastList

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tabflicks.FLICKACTION_COMMANDCODE
+title: FLICKACTION_COMMANDCODE
+author: windows-sdk-content
+description: Defines the possible flick actions that can be assigned to a pen flick.
+old-location: tablet\flickaction_commandmode.htm
+old-project: tablet
+ms.assetid: cb923201-5205-494e-bb67-5a908cb570e5
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: FLICKACTION_COMMANDCODE, FLICKACTION_COMMANDCODE enumeration [Tablet PC], FLICKACTION_COMMANDCODE_APPCOMMAND, FLICKACTION_COMMANDCODE_CUSTOMKEY, FLICKACTION_COMMANDCODE_KEYMODIFIER, FLICKACTION_COMMANDCODE_NULL, FLICKACTION_COMMANDCODE_SCROLL, cb923201-5205-494e-bb67-5a908cb570e5, tabflicks/FLICKACTION_COMMANDCODE, tabflicks/FLICKACTION_COMMANDCODE_APPCOMMAND, tabflicks/FLICKACTION_COMMANDCODE_CUSTOMKEY, tabflicks/FLICKACTION_COMMANDCODE_KEYMODIFIER, tabflicks/FLICKACTION_COMMANDCODE_NULL, tabflicks/FLICKACTION_COMMANDCODE_SCROLL, tablet.flickaction_commandmode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tabflicks.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FLICKACTION_COMMANDCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tabflicks.h
+api_name:
+-	FLICKACTION_COMMANDCODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # FLICKACTION_COMMANDCODE enumeration

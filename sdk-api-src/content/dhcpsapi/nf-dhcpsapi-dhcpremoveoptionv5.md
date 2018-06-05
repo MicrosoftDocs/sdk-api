@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dhcpsapi.DhcpRemoveOptionV5
+title: DhcpRemoveOptionV5 function
+author: windows-sdk-content
+description: Removes the definition of a specific option for a specific user class and vendor class at the default option level on the DHCP server. This extends the functionality in DhcpRemoveOption with support for specific class and vendor names.
+old-location: dhcp\dhcpremoveoptionv5.htm
+old-project: DHCP
+ms.assetid: 53b57879-7533-4e92-a179-d6786052ad46
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpRemoveOptionV5, DhcpRemoveOptionV5 function [DHCP], dhcp.dhcpremoveoptionv5, dhcpsapi/DhcpRemoveOptionV5
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QuarantineStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dhcpsapi.dll
+api_name:
+-	DhcpRemoveOptionV5
+product: Windows
+targetos: Windows
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 ---
 
 # DhcpRemoveOptionV5 function

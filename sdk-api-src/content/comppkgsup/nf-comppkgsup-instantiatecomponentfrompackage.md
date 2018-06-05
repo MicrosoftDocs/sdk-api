@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comppkgsup.InstantiateComponentFromPackage
+title: InstantiateComponentFromPackage function
+author: windows-sdk-content
+description: Creates an instance of a class in an application package.
+old-location: winprog\instantiatecomponentfrompackage.htm
+old-project: DevNotes
+ms.assetid: 831324BC-854B-4070-9DAE-55E68304D608
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: InstantiateComponentFromPackage, InstantiateComponentFromPackage function [Windows API], comppkgsup/InstantiateComponentFromPackage, winprog.instantiatecomponentfrompackage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: comppkgsup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGELISTDRAWPARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	CompPkgSup.dll
+api_name:
+-	InstantiateComponentFromPackage
+product: Windows
+targetos: Windows
+req.lib: Comppkgsup.lib
+req.dll: CompPkgSup.dll
+req.irql: 
 ---
 
 # InstantiateComponentFromPackage function

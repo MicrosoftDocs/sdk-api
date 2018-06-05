@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:oaidl.tagTYPEFLAGS
+title: tagTYPEFLAGS
+author: windows-sdk-content
+description: The type flags.
+old-location: automat\typeflags.htm
+old-project: automat
+ms.assetid: bf34cc90-f772-4562-9d18-7cf35aeed41e
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: TYPEFLAGS, TYPEFLAGS enumeration [Automation], TYPEFLAG_FAGGREGATABLE, TYPEFLAG_FAPPOBJECT, TYPEFLAG_FCANCREATE, TYPEFLAG_FCONTROL, TYPEFLAG_FDISPATCHABLE, TYPEFLAG_FDUAL, TYPEFLAG_FHIDDEN, TYPEFLAG_FLICENSED, TYPEFLAG_FNONEXTENSIBLE, TYPEFLAG_FOLEAUTOMATION, TYPEFLAG_FPREDECLID, TYPEFLAG_FPROXY, TYPEFLAG_FREPLACEABLE, TYPEFLAG_FRESTRICTED, TYPEFLAG_FREVERSEBIND, _oa96_TYPEFLAGS, automat.typeflags, oaidl/TYPEFLAGS, oaidl/TYPEFLAG_FAGGREGATABLE, oaidl/TYPEFLAG_FAPPOBJECT, oaidl/TYPEFLAG_FCANCREATE, oaidl/TYPEFLAG_FCONTROL, oaidl/TYPEFLAG_FDISPATCHABLE, oaidl/TYPEFLAG_FDUAL, oaidl/TYPEFLAG_FHIDDEN, oaidl/TYPEFLAG_FLICENSED, oaidl/TYPEFLAG_FNONEXTENSIBLE, oaidl/TYPEFLAG_FOLEAUTOMATION, oaidl/TYPEFLAG_FPREDECLID, oaidl/TYPEFLAG_FPROXY, oaidl/TYPEFLAG_FREPLACEABLE, oaidl/TYPEFLAG_FRESTRICTED, oaidl/TYPEFLAG_FREVERSEBIND, tagTYPEFLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OAIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TYPEFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	OaIdl.h
+api_name:
+-	TYPEFLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagTYPEFLAGS enumeration

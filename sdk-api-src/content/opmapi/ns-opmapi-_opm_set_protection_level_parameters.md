@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:opmapi._OPM_SET_PROTECTION_LEVEL_PARAMETERS
+title: "_OPM_SET_PROTECTION_LEVEL_PARAMETERS"
+author: windows-sdk-content
+description: Contains data for the OPM_SET_PROTECTION_LEVEL command in Output Protection Manager (OPM).
+old-location: mf\opm_set_protection_level_parameters.htm
+old-project: medfound
+ms.assetid: 074c30b2-ad79-4ace-89fb-859fac016ebf
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: OPM_SET_PROTECTION_LEVEL_PARAMETERS, OPM_SET_PROTECTION_LEVEL_PARAMETERS structure [Media Foundation], _OPM_SET_PROTECTION_LEVEL_PARAMETERS, mf.opm_set_protection_level_parameters, opmapi/OPM_SET_PROTECTION_LEVEL_PARAMETERS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: opmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPM_SET_PROTECTION_LEVEL_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	opmapi.h
+api_name:
+-	OPM_SET_PROTECTION_LEVEL_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _OPM_SET_PROTECTION_LEVEL_PARAMETERS structure

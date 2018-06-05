@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:instance.CInstance.Setbool
+title: CInstance::Setbool
+author: windows-sdk-content
+description: The Setbool method sets a Boolean property.
+old-location: wmi\cinstance_setbool.htm
+old-project: WmiSdk
+ms.assetid: d4ca045d-a018-48a0-a4ea-94d0c8f094a6
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "?Setbool@CInstance@@QAE_NPBG_N@Z, ?Setbool@CInstance@@QEAA_NPEBG_N@Z, CInstance interface [Windows Management Instrumentation],Setbool method, CInstance.Setbool, CInstance::Setbool, Setbool, Setbool method [Windows Management Instrumentation], Setbool method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setbool, instance/CInstance::Setbool, wmi.cinstance_setbool"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: instance.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TrustLevel
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CInstance.Setbool
+-	?Setbool@CInstance@@QAE_NPBG_N@Z
+-	?Setbool@CInstance@@QEAA_NPEBG_N@Z
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CInstance::Setbool

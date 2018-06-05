@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:processsnapshot.PSS_THREAD_FLAGS
+title: PSS_THREAD_FLAGS
+author: windows-sdk-content
+description: Flags that describe a thread.
+old-location: proc_snap\pss_thread_flags.htm
+old-project: proc_snap
+ms.assetid: 8E90F0EA-D50A-431D-9507-B882EB673629
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: PSS_THREAD_FLAGS, PSS_THREAD_FLAGS enumeration, PSS_THREAD_FLAGS_NONE, PSS_THREAD_FLAGS_TERMINATED, proc_snap.pss_thread_flags, processsnapshot/PSS_THREAD_FLAGS, processsnapshot/PSS_THREAD_FLAGS_NONE, processsnapshot/PSS_THREAD_FLAGS_TERMINATED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: processsnapshot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSS_THREAD_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	processsnapshot.h
+api_name:
+-	PSS_THREAD_FLAGS
+product: Windows
+targetos: Windows
+req.lib: Prntvpt.lib
+req.dll: Prntvpt.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSS_THREAD_FLAGS enumeration

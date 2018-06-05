@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wtsdefs._WRDS_CONNECTION_SETTING_LEVEL
+title: "_WRDS_CONNECTION_SETTING_LEVEL"
+author: windows-sdk-content
+description: Specifies the type of structure contained in the WRdsConnectionSetting member of the WRDS_CONNECTION_SETTINGS structure.
+old-location: termserv\wrds_connection_setting_level.htm
+old-project: TermServ
+ms.assetid: 0D82D26F-1EA6-45A5-90DF-80BE144DC3BF
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PWRDS_CONNECTION_SETTING_LEVEL, PWRDS_CONNECTION_SETTING_LEVEL, PWRDS_CONNECTION_SETTING_LEVEL enumeration pointer [Remote Desktop Services], WRDS_CONNECTION_SETTING_LEVEL, WRDS_CONNECTION_SETTING_LEVEL enumeration [Remote Desktop Services], WRDS_CONNECTION_SETTING_LEVEL_1, WRDS_CONNECTION_SETTING_LEVEL_INVALID, _WRDS_CONNECTION_SETTING_LEVEL, termserv.wrds_connection_setting_level, wtsdefs/PWRDS_CONNECTION_SETTING_LEVEL, wtsdefs/WRDS_CONNECTION_SETTING_LEVEL, wtsdefs/WRDS_CONNECTION_SETTING_LEVEL_1, wtsdefs/WRDS_CONNECTION_SETTING_LEVEL_INVALID"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wtsdefs.h
+req.include-header: Wtsprotocol.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WTS_SESSION_INFO_1W (Unicode) and WTS_SESSION_INFO_1A (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WRDS_CONNECTION_SETTING_LEVEL, *PWRDS_CONNECTION_SETTING_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsdefs.h
+api_name:
+-	WRDS_CONNECTION_SETTING_LEVEL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WRDS_CONNECTION_SETTING_LEVEL enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fwpmu.FwpmProviderContextAdd2
+title: FwpmProviderContextAdd2 function
+author: windows-sdk-content
+description: Adds a new provider context to the system.
+old-location: fwp\fwpmprovidercontextadd2.htm
+old-project: FWP
+ms.assetid: 07c6b1fc-55bb-4526-a24b-0e22f147e5cc
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: FwpmProviderContextAdd2, FwpmProviderContextAdd2 function [Filtering], fwp.fwpmprovidercontextadd2, fwpmu/FwpmProviderContextAdd2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fwpmu.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	fwpuclnt.dll
+api_name:
+-	FwpmProviderContextAdd2
+product: Windows
+targetos: Windows
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FwpmProviderContextAdd2 function

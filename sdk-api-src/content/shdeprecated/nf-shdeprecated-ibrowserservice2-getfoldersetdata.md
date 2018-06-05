@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shdeprecated.IBrowserService2.GetFolderSetData
+title: IBrowserService2::GetFolderSetData
+author: windows-sdk-content
+description: Deprecated. Gets a structure containing folder information.
+old-location: shell\IBrowserService2_GetFolderSetData.htm
+old-project: shell
+ms.assetid: fac9323b-bf32-45d0-95c4-798a1aab4d02
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetFolderSetData, GetFolderSetData method [Windows Shell], GetFolderSetData method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],GetFolderSetData method, IBrowserService2.GetFolderSetData, IBrowserService2::GetFolderSetData, shdeprecated/IBrowserService2::GetFolderSetData, shell.IBrowserService2_GetFolderSetData, zone_IBrowserService2_GetFolderSetData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shdeprecated.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shdeprecated.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BNSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shdeprecated.h
+api_name:
+-	IBrowserService2.GetFolderSetData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # IBrowserService2::GetFolderSetData

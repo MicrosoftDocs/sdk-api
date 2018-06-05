@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iprtrmib._UDP_TABLE_CLASS
+title: "_UDP_TABLE_CLASS"
+author: windows-sdk-content
+description: Defines the set of values used to indicate the type of table returned by calls to GetExtendedUdpTable.
+old-location: iphlp\udp_table_class.htm
+old-project: IpHlp
+ms.assetid: 2e7304d1-b89c-46d4-9121-936a1c38cc51
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PUDP_TABLE_CLASS, PUDP_TABLE_CLASS, PUDP_TABLE_CLASS enumeration pointer [IP Helper], UDP_TABLE_BASIC, UDP_TABLE_CLASS, UDP_TABLE_CLASS enumeration [IP Helper], UDP_TABLE_OWNER_MODULE, UDP_TABLE_OWNER_PID, _UDP_TABLE_CLASS, iphlp.udp_table_class, iphlpapi/PUDP_TABLE_CLASS, iphlpapi/UDP_TABLE_BASIC, iphlpapi/UDP_TABLE_CLASS, iphlpapi/UDP_TABLE_OWNER_MODULE, iphlpapi/UDP_TABLE_OWNER_PID, iprtrmib/PUDP_TABLE_CLASS, iprtrmib/UDP_TABLE_BASIC, iprtrmib/UDP_TABLE_CLASS, iprtrmib/UDP_TABLE_OWNER_MODULE, iprtrmib/UDP_TABLE_OWNER_PID"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iprtrmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UDP_TABLE_CLASS, *PUDP_TABLE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iprtrmib.h
+-	Iphlpapi.h
+api_name:
+-	UDP_TABLE_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _UDP_TABLE_CLASS enumeration

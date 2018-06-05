@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:storprop.CdromDisableDigitalPlayback
+title: CdromDisableDigitalPlayback function
+author: windows-sdk-content
+description: Disables digital playback for the specified CD-ROM or DVD drive.
+old-location: base\cdromdisabledigitalplayback.htm
+old-project: DevIO
+ms.assetid: 289812ac-cec1-4ccc-b4ef-146b19a26ebd
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: CdromDisableDigitalPlayback, CdromDisableDigitalPlayback function, base.cdromdisabledigitalplayback, storprop/CdromDisableDigitalPlayback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: storprop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPR50_SERVICE_CHARACTERISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	StorProp.dll
+api_name:
+-	CdromDisableDigitalPlayback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: StorProp.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # CdromDisableDigitalPlayback function

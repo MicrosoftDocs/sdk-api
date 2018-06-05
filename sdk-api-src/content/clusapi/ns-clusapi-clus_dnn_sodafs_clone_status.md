@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clusapi.CLUS_DNN_SODAFS_CLONE_STATUS
+title: CLUS_DNN_SODAFS_CLONE_STATUS
+author: windows-sdk-content
+description: Represents the status of a Scale-Out File Server clone.
+old-location: mscs\clus_dnn_sodafs_clone_status.htm
+old-project: MsCS
+ms.assetid: 3FD9AC64-3A7D-44C8-8066-AC1E7FB415DB
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCLUS_DNN_SODAFS_CLONE_STATUS, CLUS_DNN_SODAFS_CLONE_STATUS, CLUS_DNN_SODAFS_CLONE_STATUS structure [Failover Cluster], PCLUS_DNN_SODAFS_CLONE_STATUS, PCLUS_DNN_SODAFS_CLONE_STATUS structure pointer [Failover Cluster], clusapi/CLUS_DNN_SODAFS_CLONE_STATUS, clusapi/PCLUS_DNN_SODAFS_CLONE_STATUS, mscs.clus_dnn_sodafs_clone_status"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUS_DNN_SODAFS_CLONE_STATUS, *PCLUS_DNN_SODAFS_CLONE_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+api_name:
+-	CLUS_DNN_SODAFS_CLONE_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUS_DNN_SODAFS_CLONE_STATUS structure

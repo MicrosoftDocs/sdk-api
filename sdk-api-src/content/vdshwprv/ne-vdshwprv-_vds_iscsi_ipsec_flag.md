@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vdshwprv._VDS_ISCSI_IPSEC_FLAG
+title: "_VDS_ISCSI_IPSEC_FLAG"
+author: windows-sdk-content
+description: Not supported.This enumeration is reserved for future use.
+old-location: base\vds_iscsi_ipsec_flag.htm
+old-project: VDS
+ms.assetid: e40789b4-ed34-4acc-8f69-5c3a93e44f82
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_IIF_AGGRESSIVE_MODE, VDS_IIF_IKE, VDS_IIF_MAIN_MODE, VDS_IIF_PFS_ENABLE, VDS_IIF_TRANSPORT_MODE_PREFERRED, VDS_IIF_TUNNEL_MODE_PREFERRED, VDS_IIF_VALID, VDS_ISCSI_IPSEC_FLAG, VDS_ISCSI_IPSEC_FLAG enumeration [VDS], _VDS_ISCSI_IPSEC_FLAG, base.vds_iscsi_ipsec_flag, vds/VDS_IIF_AGGRESSIVE_MODE, vds/VDS_IIF_IKE, vds/VDS_IIF_MAIN_MODE, vds/VDS_IIF_PFS_ENABLE, vds/VDS_IIF_TRANSPORT_MODE_PREFERRED, vds/VDS_IIF_TUNNEL_MODE_PREFERRED, vds/VDS_IIF_VALID, vds/VDS_ISCSI_IPSEC_FLAG, vdshwprv/VDS_IIF_AGGRESSIVE_MODE, vdshwprv/VDS_IIF_IKE, vdshwprv/VDS_IIF_MAIN_MODE, vdshwprv/VDS_IIF_PFS_ENABLE, vdshwprv/VDS_IIF_TRANSPORT_MODE_PREFERRED, vdshwprv/VDS_IIF_TUNNEL_MODE_PREFERRED, vdshwprv/VDS_IIF_VALID, vdshwprv/VDS_ISCSI_IPSEC_FLAG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vdshwprv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_ISCSI_IPSEC_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_ISCSI_IPSEC_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_ISCSI_IPSEC_FLAG enumeration

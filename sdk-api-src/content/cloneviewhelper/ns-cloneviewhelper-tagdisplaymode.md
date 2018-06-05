@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:cloneviewhelper.tagDisplayMode
+title: tagDisplayMode
+author: windows-sdk-content
+description: The DisplayMode structure describes a display device.
+old-location: display\displaymode.htm
+old-project: display
+ms.assetid: dc189bb6-e2c4-422c-8350-4c1632439478
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DisplayMode, DisplayMode structure [Display Devices], TMM_Ref_37fe6fb5-e095-4bc7-8d92-a4d305bbadcb.xml, cloneviewhelper/DisplayMode, display.displaymode, tagDisplayMode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cloneviewhelper.h
+req.include-header: Cloneviewhelper.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DisplayMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	cloneviewhelper.h
+api_name:
+-	DisplayMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagDisplayMode structure

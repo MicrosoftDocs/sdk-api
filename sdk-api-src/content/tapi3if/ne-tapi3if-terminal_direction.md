@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.TERMINAL_DIRECTION
+title: TERMINAL_DIRECTION
+author: windows-sdk-content
+description: The TERMINAL_DIRECTION enumeration is used to describe the direction of the media stream with respect to the local computer or the directional capabilities of a terminal.
+old-location: tapi3\terminal_direction.htm
+old-project: Tapi
+ms.assetid: 55ef9df3-1b85-439b-8ecb-28e5069390b9
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: TD_BIDIRECTIONAL, TD_CAPTURE, TD_MULTITRACK_MIXED, TD_NONE, TD_RENDER, TERMINAL_DIRECTION, TERMINAL_DIRECTION enumeration [TAPI 2.2], _tapi3_terminal_direction, tapi3.terminal_direction, tapi3if/TD_BIDIRECTIONAL, tapi3if/TD_CAPTURE, tapi3if/TD_MULTITRACK_MIXED, tapi3if/TD_NONE, tapi3if/TD_RENDER, tapi3if/TERMINAL_DIRECTION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	TERMINAL_DIRECTION
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TERMINAL_DIRECTION enumeration

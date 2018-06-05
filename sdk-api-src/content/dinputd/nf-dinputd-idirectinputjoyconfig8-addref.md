@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dinputd.IDirectInputJoyConfig8.AddRef
+title: IDirectInputJoyConfig8::AddRef
+author: windows-sdk-content
+description: The IDirectInputJoyConfig8::AddRef method increases the reference count of the DirectInputJoyConfig object by 1. This method is part of the IUnknown interface inherited by DirectInputJoyConfig.
+old-location: hid\idirectinputjoyconfig8_addref.htm
+old-project: hid
+ms.assetid: 04e10558-367e-495c-aa1a-43344f803c8a
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: AddRef, AddRef method [Human Input Devices], AddRef method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],AddRef method, IDirectInputJoyConfig8.AddRef, IDirectInputJoyConfig8::AddRef, di_ref_5b8306ac-22f0-48f9-af91-a83d6bd8b936.xml, dinputd/IDirectInputJoyConfig8::AddRef, hid.idirectinputjoyconfig8_addref
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dinputd.h
+api_name:
+-	IDirectInputJoyConfig8.AddRef
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputJoyConfig8::AddRef

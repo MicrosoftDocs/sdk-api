@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:usp10.tag_SCRIPT_TABDEF
+title: tag_SCRIPT_TABDEF
+author: windows-sdk-content
+description: Contains definitions of the tab positions for ScriptStringAnalyse.
+old-location: intl\script_tabdef.htm
+old-project: Intl
+ms.assetid: 023ec258-b3f9-4ea2-8c9d-838df1442068
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SCRIPT_TABDEF, SCRIPT_TABDEF structure [Internationalization for Windows Applications], _win32_SCRIPT_TABDEF_str, intl.script_tabdef, tag_SCRIPT_TABDEF, usp10/SCRIPT_TABDEF
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: usp10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCRIPT_TABDEF
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Usp10.h
+api_name:
+-	SCRIPT_TABDEF
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # tag_SCRIPT_TABDEF structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mpconfig.IMixerPinConfig2.GetOverlaySurfaceColorControls
+title: IMixerPinConfig2::GetOverlaySurfaceColorControls
+author: windows-sdk-content
+description: The GetOverlaySurfaceColorControls method retrieves the color control settings associated with the specified overlay surface.
+old-location: dshow\imixerpinconfig2_getoverlaysurfacecolorcontrols.htm
+old-project: DirectShow
+ms.assetid: c6b47e4d-5bf2-4d76-a1e2-88a3342d75a6
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetOverlaySurfaceColorControls, GetOverlaySurfaceColorControls method [DirectShow], GetOverlaySurfaceColorControls method [DirectShow],IMixerPinConfig2 interface, IMixerPinConfig2 interface [DirectShow],GetOverlaySurfaceColorControls method, IMixerPinConfig2.GetOverlaySurfaceColorControls, IMixerPinConfig2::GetOverlaySurfaceColorControls, IMixerPinConfig2GetOverlaySurfaceColorControls, dshow.imixerpinconfig2_getoverlaysurfacecolorcontrols, mpconfig/IMixerPinConfig2::GetOverlaySurfaceColorControls
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mpconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_ASPECT_RATIO_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IMixerPinConfig2.GetOverlaySurfaceColorControls
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMixerPinConfig2::GetOverlaySurfaceColorControls

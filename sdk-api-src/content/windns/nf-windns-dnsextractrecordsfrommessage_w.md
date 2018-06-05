@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:windns.DnsExtractRecordsFromMessage_W
+title: DnsExtractRecordsFromMessage_W function
+author: windows-sdk-content
+description: The DnsExtractRecordsFromMessage function type extracts resource records (RR) from a DNS message, and stores those records in a DNS_RECORD structure.
+old-location: dns\dnsextractrecordsfrommessage.htm
+old-project: DNS
+ms.assetid: 0179bf3e-9243-4dd7-a2ab-e2f6f4bf4b82
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: DnsExtractRecordsFromMessage, DnsExtractRecordsFromMessage_UTF8, DnsExtractRecordsFromMessage_W, DnsExtractRecordsFromMessage_W function [DNS], _dns_dnsextractrecordsfrommessage, dns.dnsextractrecordsfrommessage, windns/DnsExtractRecordsFromMessage_UTF8, windns/DnsExtractRecordsFromMessage_W
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: windns.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DNS_FREE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dnsapi.dll
+api_name:
+-	DnsExtractRecordsFromMessage_W
+-	DnsExtractRecordsFromMessage_UTF8
+product: Windows
+targetos: Windows
+req.lib: Dnsapi.lib
+req.dll: Dnsapi.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DnsExtractRecordsFromMessage_W function

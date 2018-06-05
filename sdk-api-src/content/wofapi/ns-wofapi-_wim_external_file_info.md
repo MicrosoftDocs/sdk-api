@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wofapi._WIM_EXTERNAL_FILE_INFO
+title: "_WIM_EXTERNAL_FILE_INFO"
+author: windows-sdk-content
+description: Defines metadata specific to files provided by WOF_PROVIDER_WIM.
+old-location: fs\wim_external_file_info.htm
+old-project: FileIO
+ms.assetid: BB40922B-C9D3-451C-B2D1-1740105C4BAB
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PWIM_EXTERNAL_FILE_INFO, PWIM_EXTERNAL_FILE_INFO, PWIM_EXTERNAL_FILE_INFO structure pointer [Files], WIM_EXTERNAL_FILE_INFO, WIM_EXTERNAL_FILE_INFO structure [Files], _WIM_EXTERNAL_FILE_INFO, fs.wim_external_file_info, wofapi/PWIM_EXTERNAL_FILE_INFO, wofapi/WIM_EXTERNAL_FILE_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wofapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIM_EXTERNAL_FILE_INFO, *PWIM_EXTERNAL_FILE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wofapi.h
+api_name:
+-	WIM_EXTERNAL_FILE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WIM_EXTERNAL_FILE_INFO structure

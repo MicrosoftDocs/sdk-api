@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._ACCESS_ALLOWED_ACE
+title: "_ACCESS_ALLOWED_ACE"
+author: windows-sdk-content
+description: Defines an access control entry (ACE) for the discretionary access control list (DACL) that controls access to an object. An access-allowed ACE allows access to an object for a specific trustee identified by a security identifier (SID).
+old-location: security\access_allowed_ace.htm
+old-project: SecAuthZ
+ms.assetid: 002a3fa7-02a3-4832-948e-b048f5f5818f
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PACCESS_ALLOWED_ACE, ACCESS_ALLOWED_ACE, ACCESS_ALLOWED_ACE structure [Security], PACCESS_ALLOWED_ACE, PACCESS_ALLOWED_ACE structure pointer [Security], _ACCESS_ALLOWED_ACE, _win32_access_allowed_ace_str, security.access_allowed_ace, winnt/ACCESS_ALLOWED_ACE, winnt/PACCESS_ALLOWED_ACE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACCESS_ALLOWED_ACE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	ACCESS_ALLOWED_ACE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _ACCESS_ALLOWED_ACE structure

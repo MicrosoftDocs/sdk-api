@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uiautomationcoreapi.NormalizeState
+title: NormalizeState
+author: windows-sdk-content
+description: Contains values that specify the behavior of UiaGetUpdatedCache.
+old-location: winauto\uiauto_NormalizeStateEnum.htm
+old-project: WinAuto
+ms.assetid: 242b3770-1082-4df9-b21b-cc78e587a2b5
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: NormalizeState, NormalizeState enumeration [Windows Accessibility], NormalizeState_Custom, NormalizeState_None, NormalizeState_View, uiauto.uiauto_NormalizeStateEnum, uiauto_NormalizeStateEnum, uiautomationcoreapi/NormalizeState, uiautomationcoreapi/NormalizeState_Custom, uiautomationcoreapi/NormalizeState_None, uiautomationcoreapi/NormalizeState_View, winauto.uiauto_NormalizeStateEnum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uiautomationcoreapi.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UIAutomationCoreApi.h
+api_name:
+-	NormalizeState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # NormalizeState enumeration

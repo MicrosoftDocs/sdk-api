@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wmiutils.__MIDL___MIDL_itf_wmiutils_0000_0001_0002
+title: "__MIDL___MIDL_itf_wmiutils_0000_0001_0002"
+author: windows-sdk-content
+description: Contains flags that describe query tokens used in the GetAnalysis method.
+old-location: wmi\wmiq_rpn_token_flags.htm
+old-project: WmiSdk
+ms.assetid: fe6d6931-73b2-43d0-a703-a1a58770f4a0
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: WMIQ_RPN_CONST, WMIQ_RPN_CONST2, WMIQ_RPN_FROM_CLASS_LIST, WMIQ_RPN_FROM_MULTIPLE, WMIQ_RPN_FROM_PATH, WMIQ_RPN_FROM_UNARY, WMIQ_RPN_GET_EXPR_SHAPE, WMIQ_RPN_GET_LEFT_FUNCTION, WMIQ_RPN_GET_RELOP, WMIQ_RPN_GET_RIGHT_FUNCTION, WMIQ_RPN_GET_TOKEN_TYPE, WMIQ_RPN_LEFT_FUNCTION, WMIQ_RPN_LEFT_PROPERTY_NAME, WMIQ_RPN_NEXT_TOKEN, WMIQ_RPN_OP_EQ, WMIQ_RPN_OP_GE, WMIQ_RPN_OP_GT, WMIQ_RPN_OP_ISA, WMIQ_RPN_OP_ISNOTA, WMIQ_RPN_OP_ISNOTNULL, WMIQ_RPN_OP_ISNULL, WMIQ_RPN_OP_LE, WMIQ_RPN_OP_LIKE, WMIQ_RPN_OP_LT, WMIQ_RPN_OP_NE, WMIQ_RPN_OP_UNDEFINED, WMIQ_RPN_RELOP, WMIQ_RPN_RIGHT_FUNCTION, WMIQ_RPN_RIGHT_PROPERTY_NAME, WMIQ_RPN_TOKEN_AND, WMIQ_RPN_TOKEN_EXPRESSION, WMIQ_RPN_TOKEN_FLAGS, WMIQ_RPN_TOKEN_FLAGS enumeration [Windows Management Instrumentation], WMIQ_RPN_TOKEN_NOT, WMIQ_RPN_TOKEN_OR, __MIDL___MIDL_itf_wmiutils_0000_0001_0002, wmi.wmiq_rpn_token_flags, wmiutils/WMIQ_RPN_CONST, wmiutils/WMIQ_RPN_CONST2, wmiutils/WMIQ_RPN_FROM_CLASS_LIST, wmiutils/WMIQ_RPN_FROM_MULTIPLE, wmiutils/WMIQ_RPN_FROM_PATH, wmiutils/WMIQ_RPN_FROM_UNARY, wmiutils/WMIQ_RPN_GET_EXPR_SHAPE, wmiutils/WMIQ_RPN_GET_LEFT_FUNCTION, wmiutils/WMIQ_RPN_GET_RELOP, wmiutils/WMIQ_RPN_GET_RIGHT_FUNCTION, wmiutils/WMIQ_RPN_GET_TOKEN_TYPE, wmiutils/WMIQ_RPN_LEFT_FUNCTION, wmiutils/WMIQ_RPN_LEFT_PROPERTY_NAME, wmiutils/WMIQ_RPN_NEXT_TOKEN, wmiutils/WMIQ_RPN_OP_EQ, wmiutils/WMIQ_RPN_OP_GE, wmiutils/WMIQ_RPN_OP_GT, wmiutils/WMIQ_RPN_OP_ISA, wmiutils/WMIQ_RPN_OP_ISNOTA, wmiutils/WMIQ_RPN_OP_ISNOTNULL, wmiutils/WMIQ_RPN_OP_ISNULL, wmiutils/WMIQ_RPN_OP_LE, wmiutils/WMIQ_RPN_OP_LIKE, wmiutils/WMIQ_RPN_OP_LT, wmiutils/WMIQ_RPN_OP_NE, wmiutils/WMIQ_RPN_OP_UNDEFINED, wmiutils/WMIQ_RPN_RELOP, wmiutils/WMIQ_RPN_RIGHT_FUNCTION, wmiutils/WMIQ_RPN_RIGHT_PROPERTY_NAME, wmiutils/WMIQ_RPN_TOKEN_AND, wmiutils/WMIQ_RPN_TOKEN_EXPRESSION, wmiutils/WMIQ_RPN_TOKEN_FLAGS, wmiutils/WMIQ_RPN_TOKEN_NOT, wmiutils/WMIQ_RPN_TOKEN_OR
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wmiutils.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMIQ_RPN_TOKEN_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WMIUtils.h
+api_name:
+-	WMIQ_RPN_TOKEN_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # __MIDL___MIDL_itf_wmiutils_0000_0001_0002 enumeration

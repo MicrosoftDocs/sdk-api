@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uianimation.IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged
+title: IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged
+author: windows-sdk-content
+description: Handles events that occur when the value of an animation variable changes.
+old-location: uianimation\iuianimationvariableintegerchangehandler_onintegervaluechanged.htm
+old-project: UIAnimation
+ms.assetid: e12224a2-c8f3-45eb-a254-d624de16e12d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IUIAnimationVariableIntegerChangeHandler interface [Windows Animation],OnIntegerValueChanged method, IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged, IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged, OnIntegerValueChanged, OnIntegerValueChanged method [Windows Animation], OnIntegerValueChanged method [Windows Animation],IUIAnimationVariableIntegerChangeHandler interface, uianimation.iuianimationvariableintegerchangehandler_onintegervaluechanged, uianimation/IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uianimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAnimation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAnimation.dll
+api_name:
+-	IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged

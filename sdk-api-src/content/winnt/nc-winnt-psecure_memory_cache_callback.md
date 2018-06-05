@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:winnt.PSECURE_MEMORY_CACHE_CALLBACK
+title: PSECURE_MEMORY_CACHE_CALLBACK
+author: windows-sdk-content
+description: An application-defined function previously registered with the AddSecureMemoryCacheCallback function that is called when a secured memory range is freed or its protections are changed.
+old-location: base\securememorycachecallback.htm
+old-project: Memory
+ms.assetid: abde4b6f-7cd8-4a4b-9b00-f035b2c29054
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: PSECURE_MEMORY_CACHE_CALLBACK, PSECURE_MEMORY_CACHE_CALLBACK callback function, SecureMemoryCacheCallback, SecureMemoryCacheCallback callback, SecureMemoryCacheCallback callback function, base.securememorycachecallback, winnt/PSECURE_MEMORY_CACHE_CALLBACK, winnt/SecureMemoryCacheCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NUMBERFMTW, *LPNUMBERFMTW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	WinNT.h
+api_name:
+-	SecureMemoryCacheCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PSECURE_MEMORY_CACHE_CALLBACK callback function

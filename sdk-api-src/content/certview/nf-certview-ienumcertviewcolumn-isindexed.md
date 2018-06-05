@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certview.IEnumCERTVIEWCOLUMN.IsIndexed
+title: IEnumCERTVIEWCOLUMN::IsIndexed
+author: windows-sdk-content
+description: Reports whether the data in the column is indexed.
+old-location: security\ienumcertviewcolumn_isindexed.htm
+old-project: SecCrypto
+ms.assetid: 7373c0c3-3a1d-4a32-90e6-0f0575a0b61b
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],IsIndexed method, IEnumCERTVIEWCOLUMN.IsIndexed, IEnumCERTVIEWCOLUMN::IsIndexed, IsIndexed, IsIndexed method [Security], IsIndexed method [Security],IEnumCERTVIEWCOLUMN interface, _certsrv_ienumcertviewcolumn_isindexed, certview/IEnumCERTVIEWCOLUMN::IsIndexed, security.ienumcertviewcolumn_isindexed
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certview.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENUM_CATYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certadm.dll
+api_name:
+-	IEnumCERTVIEWCOLUMN.IsIndexed
+-	IEnumCERTVIEWCOLUMN.IsIndexed
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # IEnumCERTVIEWCOLUMN::IsIndexed

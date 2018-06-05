@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IShellLibrary.ResolveFolder
+title: IShellLibrary::ResolveFolder
+author: windows-sdk-content
+description: Resolves the target location of a library folder, even if the folder has been moved or renamed.
+old-location: shell\IShellLibrary_ResolveFolder.htm
+old-project: shell
+ms.assetid: f3d867a1-7396-4fba-87ea-45b02f86d681
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IShellLibrary interface [Windows Shell],ResolveFolder method, IShellLibrary.ResolveFolder, IShellLibrary::ResolveFolder, ResolveFolder, ResolveFolder method [Windows Shell], ResolveFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_ResolveFolder, shell.IShellLibrary_ResolveFolder, shobjidl_core/IShellLibrary::ResolveFolder
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	IShellLibrary.ResolveFolder
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IShellLibrary::ResolveFolder

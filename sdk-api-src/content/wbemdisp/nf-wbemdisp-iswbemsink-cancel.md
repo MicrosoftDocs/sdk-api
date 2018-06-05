@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemdisp.ISWbemSink.Cancel
+title: ISWbemSink::Cancel
+author: windows-sdk-content
+description: The Cancel method of the SWbemSink object cancels all outstanding asynchronous operations that are associated with this object sink.
+old-location: wmi\swbemsink_cancel.htm
+old-project: WmiSdk
+ms.assetid: dbe1eb24-5d9d-407a-b7c6-c58ec6891d7a
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: Cancel, Cancel method [Windows Management Instrumentation], Cancel method [Windows Management Instrumentation],ISWbemSink interface, Cancel method [Windows Management Instrumentation],SWbemSink object, ISWbemSink interface [Windows Management Instrumentation],Cancel method, ISWbemSink.Cancel, ISWbemSink::Cancel, SWbemSink object [Windows Management Instrumentation],Cancel method, _hmm_swbemsink.cancel, wmi.swbemsink_cancel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemdisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wbemdisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wbemdisp.dll
+api_name:
+-	SWbemSink.Cancel
+-	ISWbemSink.Cancel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wbemdisp.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ISWbemSink::Cancel

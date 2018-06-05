@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:gpedit.IRSOPInformation
+title: IRSOPInformation
+author: windows-sdk-content
+description: The IRSOPInformation interface provides methods for Microsoft Management Console (MMC) extension snap-ins to communicate with the main Resultant Set of Policy (RSoP) snap-in. For more information about MMC, see the Microsoft Management Console.
+old-location: policy\irsopinformation.htm
+old-project: Policy
+ms.assetid: e3662977-d7a7-47bc-989b-a820d4c05382
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IRSOPInformation, IRSOPInformation interface [Group Policy], IRSOPInformation interface [Group Policy],described, _win32_irsopinformation, gpedit/IRSOPInformation, policy.irsopinformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: gpedit.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gpedit.dll
+api_name:
+-	IRSOPInformation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IRSOPInformation interface

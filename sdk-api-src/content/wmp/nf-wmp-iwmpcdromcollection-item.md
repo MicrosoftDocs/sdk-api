@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPCdromCollection.item
+title: IWMPCdromCollection::item
+author: windows-sdk-content
+description: The item method retrieves a pointer to an IWMPCdrom interface at the given index.
+old-location: wmp\iwmpcdromcollection_item.htm
+old-project: WMP
+ms.assetid: 4604e53d-914f-4888-99c7-64d0683ac2e0
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPCdromCollection interface [Windows Media Player],item method, IWMPCdromCollection.item, IWMPCdromCollection::item, IWMPCdromCollectionitem, item, item method [Windows Media Player], item method [Windows Media Player],IWMPCdromCollection interface, wmp.iwmpcdromcollection_item, wmp/IWMPCdromCollection::item
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPCdromCollection.item
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPCdromCollection::item

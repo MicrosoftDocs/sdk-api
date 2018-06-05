@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wdstptmgmt.IWdsTransportDiagnosticsPolicy.put_Components
+title: IWdsTransportDiagnosticsPolicy::put_Components
+author: windows-sdk-content
+description: Enables a WDS client to configure which WDS transport components have event logging.
+old-location: wds\iwdstransportdiagnosticspolicy_components.htm
+old-project: Wds
+ms.assetid: da05fd59-641c-4d9b-ad87-d65e682c400e
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: Components property [Windows Deployment Services], Components property [Windows Deployment Services],IWdsTransportDiagnosticsPolicy interface, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],Components property, IWdsTransportDiagnosticsPolicy.Components, IWdsTransportDiagnosticsPolicy.put_Components, IWdsTransportDiagnosticsPolicy::Components, IWdsTransportDiagnosticsPolicy::get_Components, IWdsTransportDiagnosticsPolicy::put_Components, put_Components, wds.iwdstransportdiagnosticspolicy_components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::Components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Components
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wdstptmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,26 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Wdstptmgmt.tlb
+tech.root: 
+req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wdstptmgmt.dll
+api_name:
+-	IWdsTransportDiagnosticsPolicy.Components
+-	IWdsTransportDiagnosticsPolicy.get_Components
+-	IWdsTransportDiagnosticsPolicy.put_Components
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWdsTransportDiagnosticsPolicy::put_Components

@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:casetup.ICertSrvSetupKeyInformation.get_Length
+title: ICertSrvSetupKeyInformation::get_Length
+author: windows-sdk-content
+description: Gets or sets the strength of the key to one of the values supported by the cryptographic service provider (CSP).
+old-location: security\icertsrvsetupkeyinformation_length.htm
+old-project: SecCrypto
+ms.assetid: 4d641bc4-7b27-48b0-bff1-bb49359ec5f1
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: ICertSrvSetupKeyInformation interface [Security],Length property, ICertSrvSetupKeyInformation.Length, ICertSrvSetupKeyInformation.get_Length, ICertSrvSetupKeyInformation::Length, ICertSrvSetupKeyInformation::get_Length, ICertSrvSetupKeyInformation::put_Length, Length property [Security], Length property [Security],ICertSrvSetupKeyInformation interface, casetup/ICertSrvSetupKeyInformation::Length, casetup/ICertSrvSetupKeyInformation::get_Length, casetup/ICertSrvSetupKeyInformation::put_Length, get_Length, security.icertsrvsetupkeyinformation_length
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: casetup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Casetup.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CEPSetupProperty
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certocm.dll
+api_name:
+-	ICertSrvSetupKeyInformation.Length
+-	ICertSrvSetupKeyInformation.get_Length
+-	ICertSrvSetupKeyInformation.put_Length
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 ---
 
 # ICertSrvSetupKeyInformation::get_Length

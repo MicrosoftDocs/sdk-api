@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsvc._SERVICE_NOTIFY_2A
+title: "_SERVICE_NOTIFY_2A"
+author: windows-sdk-content
+description: Represents service status notification information.
+old-location: base\service_notify.htm
+old-project: Services
+ms.assetid: 52ede72e-eb50-48e2-b5c1-125816f6fe57
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*PSERVICE_NOTIFYA, *PSERVICE_NOTIFY_2A, PFN_SC_NOTIFY_CALLBACK, PSERVICE_NOTIFY, PSERVICE_NOTIFY structure pointer, SERVICE_NOTIFY, SERVICE_NOTIFY structure, SERVICE_NOTIFYA, SERVICE_NOTIFYW, SERVICE_NOTIFY_2, SERVICE_NOTIFY_2A, _SERVICE_NOTIFY_2A, base.service_notify, winsvc/PSERVICE_NOTIFY, winsvc/SERVICE_NOTIFY, winsvc/SERVICE_NOTIFYA, winsvc/SERVICE_NOTIFYW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsvc.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SERVICE_NOTIFYW (Unicode) and SERVICE_NOTIFYA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SERVICE_NOTIFY_2A, *PSERVICE_NOTIFY_2A
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsvc.h
+api_name:
+-	SERVICE_NOTIFY
+-	SERVICE_NOTIFYA
+-	SERVICE_NOTIFYW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SERVICE_NOTIFY_2A structure

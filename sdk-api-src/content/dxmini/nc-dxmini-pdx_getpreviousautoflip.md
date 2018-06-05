@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:dxmini.PDX_GETPREVIOUSAUTOFLIP
+title: PDX_GETPREVIOUSAUTOFLIP
+author: windows-sdk-content
+description: The DxGetPreviousAutoflip callback function is called when the device is hardware autoflipping and a client of the video miniport driver wants to know which surface received the previous field of video data for capture purposes.
+old-location: display\dxgetpreviousautoflip.htm
+old-project: display
+ms.assetid: 3b19e4be-413c-4014-b414-cb2ba3e14b14
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DxGetPreviousAutoflip, DxGetPreviousAutoflip callback function [Display Devices], PDX_GETPREVIOUSAUTOFLIP, PDX_GETPREVIOUSAUTOFLIP callback, VideoMiniPort_DxApiFunctions_07351af6-3fdc-4a60-852f-23ea28bc6e2b.xml, display.dxgetpreviousautoflip, dxmini/DxGetPreviousAutoflip
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	dxmini.h
+api_name:
+-	DxGetPreviousAutoflip
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # PDX_GETPREVIOUSAUTOFLIP callback function

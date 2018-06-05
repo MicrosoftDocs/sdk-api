@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:msxml6.tagXHR_CERT
+title: tagXHR_CERT
+author: windows-sdk-content
+description: Defines a buffer that points to an encoded certificate.
+old-location: ixhr2\xhr_cert.htm
+old-project: ixhr2
+ms.assetid: 0BBA4BDA-9A63-44A6-9B90-33B3EAE253C1
+ms.author: windowssdkdev
+ms.date: 04/02/2018
+ms.keywords: PXHR_CERT, PXHR_CERT structure pointer [XMLHttpRequest2], XHR_CERT, XHR_CERT structure [XMLHttpRequest2], ixhr2.xhr_cert, msxml6/PXHR_CERT, msxml6/XHR_CERT, tagXHR_CERT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: msxml6.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msxml6.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XHR_CERT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msxml6.h
+api_name:
+-	XHR_CERT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagXHR_CERT structure

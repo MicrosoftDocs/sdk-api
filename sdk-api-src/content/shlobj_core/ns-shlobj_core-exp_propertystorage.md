@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj_core.EXP_PROPERTYSTORAGE
+title: EXP_PROPERTYSTORAGE
+author: windows-sdk-content
+description: Stores information about the Shell link state. This structure is used for extra data sections that are tagged with EXP_PROPERTYSTORAGE_SIG.
+old-location: shell\EXP_PROPERTYSTORAGE.htm
+old-project: shell
+ms.assetid: b7228610-c28a-4e19-80c9-30997a360b9c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EXP_PROPERTYSTORAGE, EXP_PROPERTYSTORAGE structure [Windows Shell], _shell_EXP_PROPERTYSTORAGE, shell.EXP_PROPERTYSTORAGE, shlobj_core/EXP_PROPERTYSTORAGE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EXP_PROPERTYSTORAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	EXP_PROPERTYSTORAGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # EXP_PROPERTYSTORAGE structure

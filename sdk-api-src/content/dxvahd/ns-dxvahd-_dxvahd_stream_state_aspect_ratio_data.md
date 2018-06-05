@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dxvahd._DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA
+title: "_DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA"
+author: windows-sdk-content
+description: Specifies the pixel aspect ratio (PAR) for the source and destination rectangles.
+old-location: mf\dxvahd_stream_state_aspect_ratio_data.htm
+old-project: medfound
+ms.assetid: dd7ab16e-2dc6-462e-b55d-b93a14c362cf
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA structure [Media Foundation], PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA structure pointer [Media Foundation], _DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, dxvahd/DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, dxvahd/PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, mf.dxvahd_stream_state_aspect_ratio_data
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxvahd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxvahd.h
+api_name:
+-	DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA structure

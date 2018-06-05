@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0003
+title: "__MIDL___MIDL_itf_msopc_0001_0076_0003"
+author: windows-sdk-content
+description: Describes whether a reference represented by the IOpcSignatureRelationshipReference interface refers to all or a subset of relationships represented as relationship objects in a relationship set object.
+old-location: opc\opc_relationships_signing_option.htm
+old-project: OPC
+ms.assetid: b6a83730-459a-4119-a013-7d670e659c32
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: OPC_RELATIONSHIPS_SIGNING_OPTION, OPC_RELATIONSHIPS_SIGNING_OPTION enumeration [Open Packaging Conventions], OPC_RELATIONSHIP_SIGN_PART, OPC_RELATIONSHIP_SIGN_USING_SELECTORS, __MIDL___MIDL_itf_msopc_0001_0076_0003, msopc/OPC_RELATIONSHIPS_SIGNING_OPTION, msopc/OPC_RELATIONSHIP_SIGN_PART, msopc/OPC_RELATIONSHIP_SIGN_USING_SELECTORS, opc.opc_relationships_signing_option
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OpcDigitalSignature.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPC_RELATIONSHIPS_SIGNING_OPTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msopc.h
+api_name:
+-	OPC_RELATIONSHIPS_SIGNING_OPTION
+product: Windows
+targetos: Windows
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_msopc_0001_0076_0003 enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:codecapi.eAVEncInputVideoSystem
+title: eAVEncInputVideoSystem
+author: windows-sdk-content
+description: Specifies the nominal range for a video source. This enumeration is used with the AVEncInputVideoSystem property.
+old-location: dshow\eavencinputvideosystem.htm
+old-project: DirectShow
+ms.assetid: f72be523-917a-439f-adc5-d7550e8d6cf9
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: codecapi/eAVEncInputVideoSystem, codecapi/eAVEncInputVideoSystem_Component, codecapi/eAVEncInputVideoSystem_HDV, codecapi/eAVEncInputVideoSystem_MAC, codecapi/eAVEncInputVideoSystem_NTSC, codecapi/eAVEncInputVideoSystem_PAL, codecapi/eAVEncInputVideoSystem_SECAM, codecapi/eAVEncInputVideoSystem_Unspecified, dshow.eavencinputvideosystem, eAVEncInputVideoSystem, eAVEncInputVideoSystem enumeration [DirectShow], eAVEncInputVideoSystemEnumeration, eAVEncInputVideoSystem_Component, eAVEncInputVideoSystem_HDV, eAVEncInputVideoSystem_MAC, eAVEncInputVideoSystem_NTSC, eAVEncInputVideoSystem_PAL, eAVEncInputVideoSystem_SECAM, eAVEncInputVideoSystem_Unspecified
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: codecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	codecapi.h
+api_name:
+-	eAVEncInputVideoSystem
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # eAVEncInputVideoSystem enumeration

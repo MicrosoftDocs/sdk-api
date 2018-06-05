@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:filtereg.ILoadFilter.LoadIFilter
+title: ILoadFilter::LoadIFilter
+author: windows-sdk-content
+description: Retrieves and loads the most appropriate filter that is mapped to a Shell data source.
+old-location: search\iloadfilter_loadifilter.htm
+old-project: search
+ms.assetid: 920c976e-4dde-4e53-85b7-7547291736a0
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: ILoadFilter interface [search],LoadIFilter method, ILoadFilter.LoadIFilter, ILoadFilter::LoadIFilter, LoadIFilter, LoadIFilter method [search], LoadIFilter method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilter, search.iloadfilter_loadifilter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: filtereg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Filtereg.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STAT_CHUNK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	filtereg.h
+api_name:
+-	ILoadFilter.LoadIFilter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # ILoadFilter::LoadIFilter

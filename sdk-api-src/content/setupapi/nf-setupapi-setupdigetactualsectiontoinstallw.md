@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:setupapi.SetupDiGetActualSectionToInstallW
+title: SetupDiGetActualSectionToInstallW function
+author: windows-sdk-content
+description: The SetupDiGetActualSectionToInstall function retrieves the appropriate INF DDInstall section to use when installing a device from a device INF file on a local computer.
+old-location: devinst\setupdigetactualsectiontoinstall.htm
+old-project: devinst
+ms.assetid: ccb5e1a4-e6c3-48e5-ac25-b9b5504a03d7
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: SetupDiGetActualSectionToInstall, SetupDiGetActualSectionToInstall function [Device and Driver Installation], SetupDiGetActualSectionToInstallA, SetupDiGetActualSectionToInstallW, devinst.setupdigetactualsectiontoinstall, di-rtns_fce32f02-ef7f-4a51-a559-5f0da3738906.xml, setupapi/SetupDiGetActualSectionToInstall
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Setupapi.lib
+-	Setupapi.dll
+api_name:
+-	SetupDiGetActualSectionToInstall
+product: Windows
+targetos: Windows
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetupDiGetActualSectionToInstallW function

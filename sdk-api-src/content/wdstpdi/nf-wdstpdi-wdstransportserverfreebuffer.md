@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wdstpdi.WdsTransportServerFreeBuffer
+title: WdsTransportServerFreeBuffer function
+author: windows-sdk-content
+description: Releases memory used by a buffer.
+old-location: wds\wdstransportserverfreebuffer.htm
+old-project: Wds
+ms.assetid: c6123cec-fed3-4745-9d82-e501e972d54f
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WdsTransportServerFreeBuffer, WdsTransportServerFreeBuffer function [Windows Deployment Services], wds.wdstransportserverfreebuffer, wdstpdi/WdsTransportServerFreeBuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wdstpdi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRANSPORTPROVIDER_CALLBACK_ID, *PTRANSPORTPROVIDER_CALLBACK_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wdsmc.dll
+api_name:
+-	WdsTransportServerFreeBuffer
+product: Windows
+targetos: Windows
+req.lib: Wdsmc.lib
+req.dll: Wdsmc.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WdsTransportServerFreeBuffer function

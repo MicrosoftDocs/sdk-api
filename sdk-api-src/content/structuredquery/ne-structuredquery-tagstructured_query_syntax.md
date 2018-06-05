@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:structuredquery.tagSTRUCTURED_QUERY_SYNTAX
+title: tagSTRUCTURED_QUERY_SYNTAX
+author: windows-sdk-content
+description: Specifies the type of query syntax.
+old-location: search\_search_STRUCTURED_QUERY_SYNTAX.htm
+old-project: search
+ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\structured_query_syntax.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: SQS_ADVANCED_QUERY_SYNTAX, SQS_NATURAL_QUERY_SYNTAX, SQS_NO_SYNTAX, STRUCTURED_QUERY_SYNTAX, STRUCTURED_QUERY_SYNTAX enumeration [search], _search_STRUCTURED_QUERY_SYNTAX, search._search_STRUCTURED_QUERY_SYNTAX, structuredquery/SQS_ADVANCED_QUERY_SYNTAX, structuredquery/SQS_NATURAL_QUERY_SYNTAX, structuredquery/SQS_NO_SYNTAX, structuredquery/STRUCTURED_QUERY_SYNTAX, tagSTRUCTURED_QUERY_SYNTAX
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: structuredquery.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: StringCchVPrintf_lW (Unicode) and StringCchVPrintf_lA (ANSI)
+req.idl: Structuredquery.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STRUCTURED_QUERY_SYNTAX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Structuredquery.h
+api_name:
+-	STRUCTURED_QUERY_SYNTAX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # tagSTRUCTURED_QUERY_SYNTAX enumeration

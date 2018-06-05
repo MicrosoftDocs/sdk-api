@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0002
+title: "__MIDL___MIDL_itf_bits5_0_0000_0000_0002"
+author: windows-sdk-content
+description: Specifies the ID of the property for the BITS job.
+old-location: bits\bits_job_property_id.htm
+old-project: Bits
+ms.assetid: 4ED7419E-3435-4F12-B293-1FDC24F40D63
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BITS_JOB_PROPERTY_DYNAMIC_CONTENT, BITS_JOB_PROPERTY_HIGH_PERFORMANCE, BITS_JOB_PROPERTY_ID, BITS_JOB_PROPERTY_ID enumeration [BITS], BITS_JOB_PROPERTY_ID_COST_FLAGS, BITS_JOB_PROPERTY_MAX_DOWNLOAD_SIZE, BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS, BITS_JOB_PROPERTY_NOTIFICATION_CLSID, BITS_JOB_PROPERTY_ON_DEMAND_MODE, BITS_JOB_PROPERTY_USE_STORED_CREDENTIALS, __MIDL___MIDL_itf_bits5_0_0000_0000_0002, bits.bits_job_property_id, bits5_0/BITS_JOB_PROPERTY_DYNAMIC_CONTENT, bits5_0/BITS_JOB_PROPERTY_HIGH_PERFORMANCE, bits5_0/BITS_JOB_PROPERTY_ID, bits5_0/BITS_JOB_PROPERTY_ID_COST_FLAGS, bits5_0/BITS_JOB_PROPERTY_MAX_DOWNLOAD_SIZE, bits5_0/BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS, bits5_0/BITS_JOB_PROPERTY_NOTIFICATION_CLSID, bits5_0/BITS_JOB_PROPERTY_ON_DEMAND_MODE, bits5_0/BITS_JOB_PROPERTY_USE_STORED_CREDENTIALS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: bits5_0.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits5_0.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITS_JOB_PROPERTY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bits5_0.h
+api_name:
+-	BITS_JOB_PROPERTY_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # __MIDL___MIDL_itf_bits5_0_0000_0000_0002 enumeration

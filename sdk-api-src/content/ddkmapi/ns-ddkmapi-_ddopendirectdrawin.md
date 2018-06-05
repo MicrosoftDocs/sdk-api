@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddkmapi._DDOPENDIRECTDRAWIN
+title: "_DDOPENDIRECTDRAWIN"
+author: windows-sdk-content
+description: The DDOPENDIRECTDRAWIN structure contains the Microsoft DirectDraw object information.
+old-location: display\ddopendirectdrawin.htm
+old-project: display
+ms.assetid: 62a15685-5420-46cf-ae50-14bb8d97a3ce
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDOPENDIRECTDRAWIN, DDOPENDIRECTDRAWIN, DDOPENDIRECTDRAWIN structure [Display Devices], LPDDOPENDIRECTDRAWIN, LPDDOPENDIRECTDRAWIN structure pointer [Display Devices], _DDOPENDIRECTDRAWIN, ddkmapi/DDOPENDIRECTDRAWIN, ddkmapi/LPDDOPENDIRECTDRAWIN, ddstrcts_bd64cbc2-e2e3-4929-b127-9151f8b45819.xml, display.ddopendirectdrawin"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddkmapi.h
+req.include-header: Ddkmapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDOPENDIRECTDRAWIN, *LPDDOPENDIRECTDRAWIN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddkmapi.h
+api_name:
+-	DDOPENDIRECTDRAWIN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDOPENDIRECTDRAWIN structure

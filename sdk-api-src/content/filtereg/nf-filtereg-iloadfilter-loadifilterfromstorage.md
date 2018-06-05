@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:filtereg.ILoadFilter.LoadIFilterFromStorage
+title: ILoadFilter::LoadIFilterFromStorage
+author: windows-sdk-content
+description: Do not use:\_this method is not implemented.
+old-location: search\iloadfilter_loadifilterfromstorage.htm
+old-project: search
+ms.assetid: b4eff132-9022-4091-a2a3-1d8e11a35b39
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: ILoadFilter interface [search],LoadIFilterFromStorage method, ILoadFilter.LoadIFilterFromStorage, ILoadFilter::LoadIFilterFromStorage, LoadIFilterFromStorage, LoadIFilterFromStorage method [search], LoadIFilterFromStorage method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilterFromStorage, search.iloadfilter_loadifilterfromstorage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: filtereg.h
+req.include-header: Filtereg.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STAT_CHUNK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	filtereg.h
+api_name:
+-	ILoadFilter.LoadIFilterFromStorage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # ILoadFilter::LoadIFilterFromStorage

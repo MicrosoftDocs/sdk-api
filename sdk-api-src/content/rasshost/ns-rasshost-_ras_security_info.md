@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rasshost._RAS_SECURITY_INFO
+title: "_RAS_SECURITY_INFO"
+author: windows-sdk-content
+description: The RAS_SECURITY_INFO structure is used with the RasSecurityDialogGetInfo function to return information about the RAS port associated with a RAS security DLL authentication transaction.
+old-location: rras\ras_security_info_str.htm
+old-project: RRAS
+ms.assetid: 4bf5e0b8-087c-483b-a472-eab36840f554
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PRAS_SECURITY_INFO, PENDING, PRAS_SECURITY_INFO, PRAS_SECURITY_INFO structure pointer [RAS], RAS_SECURITY_INFO, RAS_SECURITY_INFO structure [RAS], SUCCESS, _RAS_SECURITY_INFO, _ras_ras_security_info_str, rasshost/PRAS_SECURITY_INFO, rasshost/RAS_SECURITY_INFO, rras.ras_security_info_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rasshost.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RAS_SECURITY_INFO, *PRAS_SECURITY_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rasshost.h
+api_name:
+-	RAS_SECURITY_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RAS_SECURITY_INFO structure

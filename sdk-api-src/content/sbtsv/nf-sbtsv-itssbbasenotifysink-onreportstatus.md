@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbtsv.ITsSbBaseNotifySink.OnReportStatus
+title: ITsSbBaseNotifySink::OnReportStatus
+author: windows-sdk-content
+description: Sends status messages to the Remote Desktop Connection (RDC) client regarding the processing of a client connection.
+old-location: termserv\itssbbasenotifysink_onreportstatus.htm
+old-project: TermServ
+ms.assetid: 4bde8375-b03a-44b8-9ba5-bc15277f3a4a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: CLIENT_MESSAGE_CONNECTION_ERROR, CLIENT_MESSAGE_CONNECTION_STATUS, ITsSbBaseNotifySink interface [Remote Desktop Services],OnReportStatus method, ITsSbBaseNotifySink.OnReportStatus, ITsSbBaseNotifySink::OnReportStatus, OnReportStatus, OnReportStatus method [Remote Desktop Services], OnReportStatus method [Remote Desktop Services],ITsSbBaseNotifySink interface, TS_STATUS_VM_BOOTING, TS_STATUS_VM_LOADING, TS_STATUS_VM_WAKING, sbtsv/ITsSbBaseNotifySink::OnReportStatus, termserv.itssbbasenotifysink_onreportstatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbtsv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Sbtsv.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TS_SB_SORT_BY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbtsv.h
+api_name:
+-	ITsSbBaseNotifySink.OnReportStatus
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbBaseNotifySink::OnReportStatus

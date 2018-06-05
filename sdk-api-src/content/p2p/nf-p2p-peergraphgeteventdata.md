@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:p2p.PeerGraphGetEventData
+title: PeerGraphGetEventData function
+author: windows-sdk-content
+description: The PeerGraphGetEventData function retrieves peer events. An application calls this function until the return value PEER_S_NO_EVENT_DATA is returned, which indicates that a call is successful, but that there are no more peer events to retrieve.
+old-location: p2p\peergraphgeteventdata.htm
+old-project: P2PSdk
+ms.assetid: b64bb920-3fbc-4927-a1b1-39c99850bdd5
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PeerGraphGetEventData, PeerGraphGetEventData function [Peer Networking], p2p.peergraphgeteventdata, p2p/PeerGraphGetEventData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEER_WATCH_PERMISSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	P2PGraph.dll
+api_name:
+-	PeerGraphGetEventData
+product: Windows
+targetos: Windows
+req.lib: P2PGraph.lib
+req.dll: P2PGraph.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PeerGraphGetEventData function

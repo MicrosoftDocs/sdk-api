@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_WAITFORVPORTSYNCDATA
+title: "_DD_WAITFORVPORTSYNCDATA"
+author: windows-sdk-content
+description: The DD_WAITFORVPORTSYNCDATA structure contains the information required for the driver to synchronize the video port extensions (VPE) object.
+old-location: display\dd_waitforvportsyncdata.htm
+old-project: display
+ms.assetid: 903c697e-4fa5-472e-ab5b-7864a326f323
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_WAITFORVPORTSYNCDATA, DD_WAITFORVPORTSYNCDATA, DD_WAITFORVPORTSYNCDATA structure [Display Devices], _DD_WAITFORVPORTSYNCDATA, ddrawint/DD_WAITFORVPORTSYNCDATA, ddstrcts_2a571554-4047-4ffd-88d0-cdea5bfeff63.xml, display.dd_waitforvportsyncdata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_WAITFORVPORTSYNCDATA, DD_WAITFORVPORTSYNCDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_WAITFORVPORTSYNCDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_WAITFORVPORTSYNCDATA structure

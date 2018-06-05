@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mstcpip._SOCKET_PEER_TARGET_NAME
+title: "_SOCKET_PEER_TARGET_NAME"
+author: windows-sdk-content
+description: Contains the IP address and name for a peer target and the type of security protocol to be used on a socket.
+old-location: winsock\socket_peer_target_name.htm
+old-project: WinSock
+ms.assetid: 6e807cc3-f9de-4d15-b337-4a6b4be910c2
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: SOCKET_PEER_TARGET_NAME, SOCKET_PEER_TARGET_NAME structure [Winsock], _SOCKET_PEER_TARGET_NAME, mstcpip/SOCKET_PEER_TARGET_NAME, winsock.socket_peer_target_name
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mstcpip.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOCKET_PEER_TARGET_NAME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mstcpip.h
+api_name:
+-	SOCKET_PEER_TARGET_NAME
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SOCKET_PEER_TARGET_NAME structure

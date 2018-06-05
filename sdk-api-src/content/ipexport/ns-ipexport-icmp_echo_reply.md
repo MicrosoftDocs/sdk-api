@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipexport.icmp_echo_reply
+title: icmp_echo_reply
+author: windows-sdk-content
+description: Describes the data returned in response to an IPv4 echo request.
+old-location: iphlp\icmp_echo_reply.htm
+old-project: IpHlp
+ms.assetid: e6d43c35-1009-4df1-bc39-aec97178cae6
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PICMP_ECHO_REPLY, ICMP_ECHO_REPLY, ICMP_ECHO_REPLY structure [IP Helper], IP_BAD_DESTINATION, IP_BAD_OPTION, IP_BAD_REQ, IP_BAD_ROUTE, IP_BUF_TOO_SMALL, IP_DEST_HOST_UNREACHABLE, IP_DEST_NET_UNREACHABLE, IP_DEST_PORT_UNREACHABLE, IP_DEST_PROT_UNREACHABLE, IP_GENERAL_FAILURE, IP_HW_ERROR, IP_NO_RESOURCES, IP_OPTION_TOO_BIG, IP_PACKET_TOO_BIG, IP_PARAM_PROBLEM, IP_REQ_TIMED_OUT, IP_SOURCE_QUENCH, IP_SUCCESS, IP_TTL_EXPIRED_REASSEM, IP_TTL_EXPIRED_TRANSIT, PICMP_ECHO_REPLY, PICMP_ECHO_REPLY structure pointer [IP Helper], _iphlp_icmp_echo_reply, icmp_echo_reply, ipexport/ICMP_ECHO_REPLY, ipexport/PICMP_ECHO_REPLY, iphlp.icmp_echo_reply"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipexport.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ICMP_ECHO_REPLY, *PICMP_ECHO_REPLY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipexport.h
+api_name:
+-	ICMP_ECHO_REPLY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # icmp_echo_reply structure

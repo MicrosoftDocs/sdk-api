@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.tagBUTTON_SPLITINFO
+title: tagBUTTON_SPLITINFO
+author: windows-sdk-content
+description: Contains information that defines a split button (BS_SPLITBUTTON and BS_DEFSPLITBUTTON styles). Used with the BCM_GETSPLITINFO and BCM_SETSPLITINFO messages.
+old-location: controls\BUTTON_SPLITINFO.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\button_splitinfo.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PBUTTON_SPLITINFO, BCSIF_GLYPH, BCSIF_IMAGE, BCSIF_SIZE, BCSIF_STYLE, BCSS_ALIGNLEFT, BCSS_IMAGE, BCSS_NOSPLIT, BCSS_STRETCH, BUTTON_SPLITINFO, BUTTON_SPLITINFO structure [Windows Controls], PBUTTON_SPLITINFO, PBUTTON_SPLITINFO structure pointer [Windows Controls], _shell_BUTTON_SPLITINFO_str, _shell_BUTTON_SPLITINFO_str_cpp, commctrl/BUTTON_SPLITINFO, commctrl/PBUTTON_SPLITINFO, controls.BUTTON_SPLITINFO, controls._shell_BUTTON_SPLITINFO_str, tagBUTTON_SPLITINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BUTTON_SPLITINFO, *PBUTTON_SPLITINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	BUTTON_SPLITINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagBUTTON_SPLITINFO structure

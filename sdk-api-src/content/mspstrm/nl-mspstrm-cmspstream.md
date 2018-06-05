@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NL:mspstrm.CMSPStream
+title: CMSPStream
+author: windows-sdk-content
+description: The CMSPStream class exposes methods that allow an application to start, pause, or stop a substream, and to select or unselect terminals. Defined in MSPstrm.h.
+old-location: tapi3\cmspstream.htm
+old-project: Tapi
+ms.assetid: 776ca663-faa2-4534-8873-4e20ed79530c
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CMSPStream, CMSPStream object [TAPI 2.2], CMSPStream object [TAPI 2.2],described, _tapi3_cmspstream, mspstrm/CMSPStream, tapi3.cmspstream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: class
+req.header: mspstrm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mspstrm.h
+api_name:
+-	CMSPStream
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CMSPStream class

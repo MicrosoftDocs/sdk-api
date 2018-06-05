@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmserver._SERVER_INFO_1518
+title: "_SERVER_INFO_1518"
+author: windows-sdk-content
+description: The SERVER_INFO_1518 structure specifies whether the server is visible to LAN Manager 2.x clients.
+old-location: netmgmt\server_info_1518_str.htm
+old-project: NetMgmt
+ms.assetid: d8516ab1-5e1b-42b8-96c4-79ea58d8857e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPSERVER_INFO_1518, *PSERVER_INFO_1518, LPSERVER_INFO_1518, LPSERVER_INFO_1518 structure pointer [Network Management], PSERVER_INFO_1518, PSERVER_INFO_1518 structure pointer [Network Management], SERVER_INFO_1518, SERVER_INFO_1518 structure [Network Management], _SERVER_INFO_1518, _win32_server_info_1518_str, lmserver/LPSERVER_INFO_1518, lmserver/PSERVER_INFO_1518, lmserver/SERVER_INFO_1518, netmgmt.server_info_1518_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmserver.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SERVER_INFO_1518, *PSERVER_INFO_1518, *LPSERVER_INFO_1518
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmserver.h
+api_name:
+-	SERVER_INFO_1518
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _SERVER_INFO_1518 structure

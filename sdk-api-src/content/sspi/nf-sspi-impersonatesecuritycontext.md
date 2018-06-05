@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sspi.ImpersonateSecurityContext
+title: ImpersonateSecurityContext function
+author: windows-sdk-content
+description: Allows a server to impersonate a client by using a token previously obtained by a call to AcceptSecurityContext (General) or QuerySecurityContextToken.
+old-location: security\impersonatesecuritycontext.htm
+old-project: SecAuthN
+ms.assetid: 167eaf3b-b794-4587-946d-fa596f1f9411
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ImpersonateSecurityContext, ImpersonateSecurityContext function [Security], _ssp_impersonatesecuritycontext, security.impersonatesecuritycontext, sspi/ImpersonateSecurityContext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: sspi.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Secur32.dll
+api_name:
+-	ImpersonateSecurityContext
+product: Windows
+targetos: Windows
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ImpersonateSecurityContext function

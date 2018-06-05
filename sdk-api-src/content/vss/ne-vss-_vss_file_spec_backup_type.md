@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vss._VSS_FILE_SPEC_BACKUP_TYPE
+title: "_VSS_FILE_SPEC_BACKUP_TYPE"
+author: windows-sdk-content
+description: Used by writers to indicate their support of certain backup operations.
+old-location: base\vss_file_spec_backup_type.htm
+old-project: VSS
+ms.assetid: 41ba60f7-d621-478a-a24a-202d326ebf2c
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PVSS_FILE_SPEC_BACKUP_TYPE, PVSS_FILE_SPEC_BACKUP_TYPE, PVSS_FILE_SPEC_BACKUP_TYPE enumeration pointer [VSS], VSS_FILE_SPEC_BACKUP_TYPE, VSS_FILE_SPEC_BACKUP_TYPE enumeration [VSS], VSS_FSBT_ALL_BACKUP_REQUIRED, VSS_FSBT_ALL_SNAPSHOT_REQUIRED, VSS_FSBT_CREATED_DURING_BACKUP, VSS_FSBT_DIFFERENTIAL_BACKUP_REQUIRED, VSS_FSBT_DIFFERENTIAL_SNAPSHOT_REQUIRED, VSS_FSBT_FULL_BACKUP_REQUIRED, VSS_FSBT_FULL_SNAPSHOT_REQUIRED, VSS_FSBT_INCREMENTAL_BACKUP_REQUIRED, VSS_FSBT_INCREMENTAL_SNAPSHOT_REQUIRED, VSS_FSBT_LOG_BACKUP_REQUIRED, VSS_FSBT_LOG_SNAPSHOT_REQUIRED, _VSS_FILE_SPEC_BACKUP_TYPE, _win32_vss_file_spec_backup_type, base.vss_file_spec_backup_type, vss/PVSS_FILE_SPEC_BACKUP_TYPE, vss/VSS_FILE_SPEC_BACKUP_TYPE, vss/VSS_FSBT_ALL_BACKUP_REQUIRED, vss/VSS_FSBT_ALL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_CREATED_DURING_BACKUP, vss/VSS_FSBT_DIFFERENTIAL_BACKUP_REQUIRED, vss/VSS_FSBT_DIFFERENTIAL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_FULL_BACKUP_REQUIRED, vss/VSS_FSBT_FULL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_INCREMENTAL_BACKUP_REQUIRED, vss/VSS_FSBT_INCREMENTAL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_LOG_BACKUP_REQUIRED, vss/VSS_FSBT_LOG_SNAPSHOT_REQUIRED"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vss.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_FILE_SPEC_BACKUP_TYPE, *PVSS_FILE_SPEC_BACKUP_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vss.h
+api_name:
+-	VSS_FILE_SPEC_BACKUP_TYPE
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VSS_FILE_SPEC_BACKUP_TYPE enumeration

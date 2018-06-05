@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._ADMINISTRATOR_POWER_POLICY
+title: "_ADMINISTRATOR_POWER_POLICY"
+author: windows-sdk-content
+description: Represents the administrator override power policy settings.
+old-location: base\administrator_power_policy_str.htm
+old-project: Power
+ms.assetid: abd2e2c5-1056-4985-ae07-a40d53bb17b1
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PADMINISTRATOR_POWER_POLICY, ADMINISTRATOR_POWER_POLICY, ADMINISTRATOR_POWER_POLICY structure, PADMINISTRATOR_POWER_POLICY, PADMINISTRATOR_POWER_POLICY structure pointer, _ADMINISTRATOR_POWER_POLICY, _win32_administrator_power_policy_str, base.administrator_power_policy_str, winnt/ADMINISTRATOR_POWER_POLICY, winnt/PADMINISTRATOR_POWER_POLICY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADMINISTRATOR_POWER_POLICY, *PADMINISTRATOR_POWER_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	ADMINISTRATOR_POWER_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _ADMINISTRATOR_POWER_POLICY structure

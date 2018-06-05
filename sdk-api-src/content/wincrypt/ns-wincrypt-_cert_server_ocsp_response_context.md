@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CERT_SERVER_OCSP_RESPONSE_CONTEXT
+title: "_CERT_SERVER_OCSP_RESPONSE_CONTEXT"
+author: windows-sdk-content
+description: Contains an encoded OCSP response.
+old-location: security\cert_server_ocsp_response_context.htm
+old-project: SecCrypto
+ms.assetid: 732e91a3-dcd2-491a-ba4f-e22b75b5a71e
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_SERVER_OCSP_RESPONSE_CONTEXT, CERT_SERVER_OCSP_RESPONSE_CONTEXT, CERT_SERVER_OCSP_RESPONSE_CONTEXT structure [Security], PCCERT_SERVER_OCSP_RESPONSE_CONTEXT, PCCERT_SERVER_OCSP_RESPONSE_CONTEXT structure pointer [Security], PCERT_SERVER_OCSP_RESPONSE_CONTEXT, PCERT_SERVER_OCSP_RESPONSE_CONTEXT structure pointer [Security], _CERT_SERVER_OCSP_RESPONSE_CONTEXT, security.cert_server_ocsp_response_context, wincrypt/CERT_SERVER_OCSP_RESPONSE_CONTEXT, wincrypt/PCCERT_SERVER_OCSP_RESPONSE_CONTEXT, wincrypt/PCERT_SERVER_OCSP_RESPONSE_CONTEXT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_SERVER_OCSP_RESPONSE_CONTEXT, *PCERT_SERVER_OCSP_RESPONSE_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_SERVER_OCSP_RESPONSE_CONTEXT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERT_SERVER_OCSP_RESPONSE_CONTEXT structure

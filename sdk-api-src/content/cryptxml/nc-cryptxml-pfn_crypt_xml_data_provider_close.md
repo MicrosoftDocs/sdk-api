@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:cryptxml.PFN_CRYPT_XML_DATA_PROVIDER_CLOSE
+title: PFN_CRYPT_XML_DATA_PROVIDER_CLOSE
+author: windows-sdk-content
+description: Releases the data provider.
+old-location: security\pfn_crypt_xml_data_provider_close.htm
+old-project: SecCrypto
+ms.assetid: 886fbe92-f9ab-49d4-968a-afeadbf2f030
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: PFN_CRYPT_XML_DATA_PROVIDER_CLOSE, PFN_CRYPT_XML_DATA_PROVIDER_CLOSE callback, PFN_CRYPT_XML_DATA_PROVIDER_CLOSE callback function [Security], cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_CLOSE, security.pfn_crypt_xml_data_provider_close
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: cryptxml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPTUI_WIZ_IMPORT_SRC_INFO, *PCRYPTUI_WIZ_IMPORT_SRC_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Cryptxml.h
+api_name:
+-	PFN_CRYPT_XML_DATA_PROVIDER_CLOSE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PFN_CRYPT_XML_DATA_PROVIDER_CLOSE callback function

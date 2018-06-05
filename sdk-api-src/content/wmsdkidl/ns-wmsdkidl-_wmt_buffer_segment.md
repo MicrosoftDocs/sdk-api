@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wmsdkidl._WMT_BUFFER_SEGMENT
+title: "_WMT_BUFFER_SEGMENT"
+author: windows-sdk-content
+description: The WMT_BUFFER_SEGMENT structure contains the information needed to specify a segment in a buffer. It is used as a member of the WMT_FILESINK_DATA_UNIT and WMT_PAYLOAD_FRAGMENT structures to specify segments of a packet.
+old-location: wmformat\wmt_buffer_segment.htm
+old-project: wmformat
+ms.assetid: 047e19da-c819-46e5-8a1c-09bc93a05259
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WMT_BUFFER_SEGMENT, WMT_BUFFER_SEGMENT structure [windows Media Format], _WMT_BUFFER_SEGMENT, wmformat.wmt_buffer_segment, wmsdkidl/WMT_BUFFER_SEGMENT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMT_BUFFER_SEGMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wmsdkidl.h
+api_name:
+-	WMT_BUFFER_SEGMENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WMT_BUFFER_SEGMENT structure

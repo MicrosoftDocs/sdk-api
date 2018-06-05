@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:wingdi.DISPLAYCONFIG_SOURCE_DEVICE_NAME
+title: DISPLAYCONFIG_SOURCE_DEVICE_NAME
+author: windows-sdk-content
+description: The DISPLAYCONFIG_SOURCE_DEVICE_NAME structure contains the GDI device name for the source or view.
+old-location: display\displayconfig_source_device_name.htm
+old-project: display
+ms.assetid: 92813ffc-1915-4f26-afb1-936bf76f7844
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CCD_Structures_0a443841-294d-4b14-8f95-7825de89b8ac.xml, DISPLAYCONFIG_SOURCE_DEVICE_NAME, DISPLAYCONFIG_SOURCE_DEVICE_NAME structure [Display Devices], display.displayconfig_source_device_name, wingdi/DISPLAYCONFIG_SOURCE_DEVICE_NAME
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_SOURCE_DEVICE_NAME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wingdi.h
+api_name:
+-	DISPLAYCONFIG_SOURCE_DEVICE_NAME
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DISPLAYCONFIG_SOURCE_DEVICE_NAME structure

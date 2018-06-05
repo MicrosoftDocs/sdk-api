@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:qmgr.IBackgroundCopyGroup.get_Size
+title: IBackgroundCopyGroup::get_Size
+author: windows-sdk-content
+description: Use the get_Size method to retrieve the size of all files in the group to download.
+old-location: bits\ibackgroundcopygroup_get_size.htm
+old-project: Bits
+ms.assetid: 69190b6a-6920-4f84-9109-12079f00a6ae
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IBackgroundCopyGroup interface [BITS],get_Size method, IBackgroundCopyGroup.get_Size, IBackgroundCopyGroup::get_Size, bits.ibackgroundcopygroup_get_size, get_Size, get_Size method [BITS], get_Size method [BITS],IBackgroundCopyGroup interface, qmgr/IBackgroundCopyGroup::get_Size
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: qmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Qmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GROUPPROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	QmgrPrxy.dll
+api_name:
+-	IBackgroundCopyGroup.get_Size
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IBackgroundCopyGroup::get_Size

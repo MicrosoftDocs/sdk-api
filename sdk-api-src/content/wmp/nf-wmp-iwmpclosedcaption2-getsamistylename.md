@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPClosedCaption2.getSAMIStyleName
+title: IWMPClosedCaption2::getSAMIStyleName
+author: windows-sdk-content
+description: The getSAMIStyleName method retrieves the name of a style supported by the current SAMI file.
+old-location: wmp\iwmpclosedcaption2_getsamistylename.htm
+old-project: WMP
+ms.assetid: 0dfdbe70-2aa8-4cae-8886-6b770707652e
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],getSAMIStyleName method, IWMPClosedCaption2.getSAMIStyleName, IWMPClosedCaption2::getSAMIStyleName, IWMPClosedCaption2getSAMIStyleName, getSAMIStyleName, getSAMIStyleName method [Windows Media Player], getSAMIStyleName method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_getsamistylename, wmp/IWMPClosedCaption2::getSAMIStyleName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPClosedCaption2.getSAMIStyleName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPClosedCaption2::getSAMIStyleName

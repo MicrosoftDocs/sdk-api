@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITPhone.get_PhoneCapsLong
+title: ITPhone::get_PhoneCapsLong
+author: windows-sdk-content
+description: The get_PhoneCapsLong method gets a DWORD capability of the phone, based on the PHONECAPS_LONG enum passed in. The application does not have to call ITPhone::Open before executing this method.
+old-location: tapi3\itphone_get_phonecapslong.htm
+old-project: Tapi
+ms.assetid: 9d7804a7-616b-4efc-9f3b-6d7b1fda1bf6
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITPhone interface [TAPI 2.2],get_PhoneCapsLong method, ITPhone.get_PhoneCapsLong, ITPhone::get_PhoneCapsLong, _tapi3_itphone_get_phonecapslong, get_PhoneCapsLong, get_PhoneCapsLong method [TAPI 2.2], get_PhoneCapsLong method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_phonecapslong, tapi3if/ITPhone::get_PhoneCapsLong
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITPhone.get_PhoneCapsLong
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITPhone::get_PhoneCapsLong

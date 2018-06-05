@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d2d1_1.CreatePrintControl
+title: CreatePrintControl function
+author: windows-sdk-content
+description: Creates an ID2D1PrintControl object that converts Direct2D primitives stored in ID2D1CommandList into a fixed page representation. The print sub-system then consumes the primitives.
+old-location: direct2d\id2d1device_createprintcontrol.htm
+old-project: Direct2D
+ms.assetid: C8860AEE-807A-435E-9F44-B50545320EDA
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: CreatePrintControl, CreatePrintControl methods [Direct2D], ID2D1Device::CreatePrintControl, d2d1_1/CreatePrintControl, direct2d.id2d1device_createprintcontrol
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d2d1_1.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_UNIT_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1_1.h
+api_name:
+-	ID2D1Device::CreatePrintControl
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CreatePrintControl function

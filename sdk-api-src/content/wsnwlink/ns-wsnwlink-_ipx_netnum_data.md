@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wsnwlink._IPX_NETNUM_DATA
+title: "_IPX_NETNUM_DATA"
+author: windows-sdk-content
+description: The IPX_NETNUM_DATA structure provides information about a specified IPX network number. Used in conjunction with getsockopt function calls that specify IPX_GETNETINFO in the optname parameter.
+old-location: winsock\ipx_netnum_data_2.htm
+old-project: WinSock
+ms.assetid: 9ac7f6ea-5ed3-45f9-8422-62fef1681cdc
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PIPX_NETNUM_DATA, IPX_NETNUM_DATA, IPX_NETNUM_DATA structure [Winsock], PIPX_NETNUM_DATA, PIPX_NETNUM_DATA structure pointer [Winsock], _IPX_NETNUM_DATA, _win32_ipx_netnum_data_2, winsock.ipx_netnum_data_2, wsnwlink/IPX_NETNUM_DATA, wsnwlink/PIPX_NETNUM_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wsnwlink.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WSManDisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPX_NETNUM_DATA, *PIPX_NETNUM_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wsnwlink.h
+api_name:
+-	IPX_NETNUM_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _IPX_NETNUM_DATA structure

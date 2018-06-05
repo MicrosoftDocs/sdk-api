@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wsman._WSMAN_DATA_BINARY
+title: "_WSMAN_DATA_BINARY"
+author: windows-sdk-content
+description: Holds binary data for use with various Windows Remote Management functions.
+old-location: winrm\wsman_data_binary.htm
+old-project: WinRM
+ms.assetid: 35beedc3-30c6-4e04-bc27-bb9eb21256fe
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: WSMAN_DATA_BINARY, WSMAN_DATA_BINARY structure [Windows Remote Management], _WSMAN_DATA_BINARY, winrm.wsman_data_binary, wsman/WSMAN_DATA_BINARY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wsman.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSMAN_DATA_BINARY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wsman.h
+api_name:
+-	WSMAN_DATA_BINARY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WSMAN_DATA_BINARY structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oaidl.ITypeLib.ReleaseTLibAttr
+title: ITypeLib::ReleaseTLibAttr
+author: windows-sdk-content
+description: Releases the TLIBATTR originally obtained from GetLibAttr.
+old-location: automat\itypelib_releasetlibattr.htm
+old-project: automat
+ms.assetid: a5b9ee66-ab66-4ad9-a6bf-93bd98e3905c
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: ITypeLib interface [Automation],ReleaseTLibAttr method, ITypeLib.ReleaseTLibAttr, ITypeLib::ReleaseTLibAttr, ReleaseTLibAttr, ReleaseTLibAttr method [Automation], ReleaseTLibAttr method [Automation],ITypeLib interface, _oa96_ITypeLib_ReleaseTLibAttr, automat.itypelib_releasetlibattr, oaidl/ITypeLib::ReleaseTLibAttr
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OaIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ITypeLib.ReleaseTLibAttr
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITypeLib::ReleaseTLibAttr

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._ACL_REVISION_INFORMATION
+title: "_ACL_REVISION_INFORMATION"
+author: windows-sdk-content
+description: Contains revision information about an ACL structure.
+old-location: security\acl_revision_information.htm
+old-project: SecAuthZ
+ms.assetid: cdc7f6b1-aaa1-4893-a192-5a42233b3ec1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PACL_REVISION_INFORMATION, ACL_REVISION_INFORMATION, ACL_REVISION_INFORMATION structure [Security], PACL_REVISION_INFORMATION, PACL_REVISION_INFORMATION structure pointer [Security], _ACL_REVISION_INFORMATION, _win32_acl_revision_information_str, security.acl_revision_information, winnt/ACL_REVISION_INFORMATION, winnt/PACL_REVISION_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACL_REVISION_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	ACL_REVISION_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _ACL_REVISION_INFORMATION structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:msacm.tACMSTREAMHEADER
+title: tACMSTREAMHEADER
+author: windows-sdk-content
+description: The ACMSTREAMHEADER structure defines the header used to identify an ACM conversion source and destination buffer pair for a conversion stream.
+old-location: multimedia\acmstreamheader.htm
+old-project: Multimedia
+ms.assetid: 723e96d8-f098-4e08-862a-a9fea8d2fbe3
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*LPACMSTREAMHEADER, *PACMSTREAMHEADER, ACMSTREAMHEADER, ACMSTREAMHEADER structure [Windows Multimedia], ACMSTREAMHEADER_STATUSF_DONE, ACMSTREAMHEADER_STATUSF_INQUEUE, ACMSTREAMHEADER_STATUSF_PREPARED, _win32_ACMSTREAMHEADER_str, msacm/ACMSTREAMHEADER, multimedia.acmstreamheader, tACMSTREAMHEADER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: msacm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACMSTREAMHEADER, *PACMSTREAMHEADER, *LPACMSTREAMHEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msacm.h
+api_name:
+-	ACMSTREAMHEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tACMSTREAMHEADER structure

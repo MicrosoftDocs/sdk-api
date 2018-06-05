@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:infotech.IITPropList.Set(PROPID,LPCWSTR,DWORD)
+title: IITPropList::Set(PROPID,LPCWSTR,DWORD)
+author: windows-sdk-content
+description: Sets a property to a given value or deletes a property from the list.
+old-location: htmlhelp\iitproplist_set3.htm
+old-project: htmlhelp
+ms.assetid: VS|htmlhelp|~\html\refiitproplistsetunicodestring.htm
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IITPropList interface [HTML Help Workshop],Set method, IITPropList.Set, IITPropList.Set(PROPID,LPCWSTR,DWORD), IITPropList::Set, IITPropList::Set(PROPID,LPCWSTR,DWORD), PROP_ADD, PROP_DELETE, PROP_UPDATE, Set, Set method [HTML Help Workshop], Set method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_set3, infotech/IITPropList::Set, refIITPropListSetUnicodeString
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: infotech.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Infotech.h
+api_name:
+-	IITPropList.Set
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IITPropList::Set(PROPID,LPCWSTR,DWORD)

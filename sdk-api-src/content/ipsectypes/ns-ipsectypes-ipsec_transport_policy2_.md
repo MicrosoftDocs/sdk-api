@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipsectypes.IPSEC_TRANSPORT_POLICY2_
+title: IPSEC_TRANSPORT_POLICY2_
+author: windows-sdk-content
+description: Stores the quick mode negotiation policy for transport mode IPsec.
+old-location: fwp\ipsec_transport_policy2.htm
+old-project: FWP
+ms.assetid: fce0ce7e-770c-4cc6-94ea-21af0464f740
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME, IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_DICTATE_KEY, IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_NOTIFY_KEY, IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_GENERAL_NAT_TRAVERSAL, IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_PEER_BEHIND_NAT, IPSEC_POLICY_FLAG_ND_BOUNDARY, IPSEC_POLICY_FLAG_ND_SECURE, IPSEC_TRANSPORT_POLICY2, IPSEC_TRANSPORT_POLICY2 structure [Filtering], IPSEC_TRANSPORT_POLICY2_, fwp.ipsec_transport_policy2, ipsectypes/IPSEC_TRANSPORT_POLICY2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipsectypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPSEC_TRANSPORT_POLICY2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ipsectypes.h
+api_name:
+-	IPSEC_TRANSPORT_POLICY2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IPSEC_TRANSPORT_POLICY2_ structure

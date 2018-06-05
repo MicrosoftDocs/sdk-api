@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imm.ImmGetVirtualKey
+title: ImmGetVirtualKey function
+author: windows-sdk-content
+description: Retrieves the original virtual key value associated with a key input message that the IME has already processed.
+old-location: intl\immgetvirtualkey.htm
+old-project: Intl
+ms.assetid: 56c40e55-19e3-4c06-bac7-c4d0098e932a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ImmGetVirtualKey, ImmGetVirtualKey function [Internationalization for Windows Applications], _win32_ImmGetVirtualKey, imm/ImmGetVirtualKey, intl.immgetvirtualkey
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: imm.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Imm32.dll
+-	Ext-MS-Win-imm-l1-1-0.dll
+-	ext-ms-win-imm-l1-1-1.dll
+api_name:
+-	ImmGetVirtualKey
+product: Windows
+targetos: Windows
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ImmGetVirtualKey function

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3dcommon.D3D_FEATURE_LEVEL
+title: D3D_FEATURE_LEVEL
+author: windows-sdk-content
+description: Describes the set of features targeted by a Direct3D device.
+old-location: direct3d11\d3d_feature_level.htm
+old-project: direct3d11
+ms.assetid: afbc1a02-1730-4502-af15-b668412d664c
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 8da2f171-7790-4f89-b422-ce3f6be0762e, D3D_FEATURE_LEVEL, D3D_FEATURE_LEVEL enumeration [Direct3D 11], D3D_FEATURE_LEVEL_10_0, D3D_FEATURE_LEVEL_10_1, D3D_FEATURE_LEVEL_11_0, D3D_FEATURE_LEVEL_11_1, D3D_FEATURE_LEVEL_12_0, D3D_FEATURE_LEVEL_12_1, D3D_FEATURE_LEVEL_9_1, D3D_FEATURE_LEVEL_9_2, D3D_FEATURE_LEVEL_9_3, d3dcommon/D3D_FEATURE_LEVEL, d3dcommon/D3D_FEATURE_LEVEL_10_0, d3dcommon/D3D_FEATURE_LEVEL_10_1, d3dcommon/D3D_FEATURE_LEVEL_11_0, d3dcommon/D3D_FEATURE_LEVEL_11_1, d3dcommon/D3D_FEATURE_LEVEL_12_0, d3dcommon/D3D_FEATURE_LEVEL_12_1, d3dcommon/D3D_FEATURE_LEVEL_9_1, d3dcommon/D3D_FEATURE_LEVEL_9_2, d3dcommon/D3D_FEATURE_LEVEL_9_3, direct3d11.d3d_feature_level
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3dcommon.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_FEATURE_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3DCommon.h
+api_name:
+-	D3D_FEATURE_LEVEL
+product: Windows
+targetos: Windows
+req.lib: D3d9.lib
+req.dll: 
+req.irql: 
 ---
 
 # D3D_FEATURE_LEVEL enumeration

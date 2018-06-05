@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vdssys._VIRTUAL_DISK_PROGRESS
+title: "_VIRTUAL_DISK_PROGRESS"
+author: windows-sdk-content
+description: Contains the progress and result data for the current virtual hard disk (VHD) operation, used by the GetVirtualDiskOperationProgress function.
+old-location: vhd\virtual_disk_progress.htm
+old-project: VStor
+ms.assetid: 834d7384-09fe-493e-8402-135c453a1ecf
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PVIRTUAL_DISK_PROGRESS, PVIRTUAL_DISK_PROGRESS, PVIRTUAL_DISK_PROGRESS structure pointer [VHD], VIRTUAL_DISK_PROGRESS, VIRTUAL_DISK_PROGRESS structure [VHD], _VIRTUAL_DISK_PROGRESS, vdssys/PVIRTUAL_DISK_PROGRESS, vdssys/VIRTUAL_DISK_PROGRESS, vhd.virtual_disk_progress, virtdisk/PVIRTUAL_DISK_PROGRESS, virtdisk/VIRTUAL_DISK_PROGRESS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vdssys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIRTUAL_DISK_PROGRESS, *PVIRTUAL_DISK_PROGRESS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VirtDisk.h
+-	vdssys.h
+api_name:
+-	VIRTUAL_DISK_PROGRESS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VIRTUAL_DISK_PROGRESS structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:inked.IEC_STROKEINFO
+title: IEC_STROKEINFO
+author: windows-sdk-content
+description: Contains information about a Stroke event.
+old-location: tablet\iec_strokeinfo__win32_only_.htm
+old-project: tablet
+ms.assetid: 12486d28-eba2-4ef6-802e-be7155de6edd
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 12486d28-eba2-4ef6-802e-be7155de6edd, IEC_STROKEINFO, IEC_STROKEINFO (Win32 Only), IEC_STROKEINFO (Win32 Only) structure [Tablet PC], inked/IEC_STROKEINFO, structure [Tablet PC], tablet.iec_strokeinfo__win32_only_
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: inked.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	inked.h
+api_name:
+-	IEC_STROKEINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IEC_STROKEINFO structure

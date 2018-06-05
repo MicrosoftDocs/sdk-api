@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:winbio_adapter.PIBIO_STORAGE_PIPELINE_INIT_FN
+title: PIBIO_STORAGE_PIPELINE_INIT_FN
+author: windows-sdk-content
+description: Gives the Storage Adapter the chance to perform any initialization that remains incomplete.
+old-location: secbiomet\storageadapterpipelineinit.htm
+old-project: SecBioMet
+ms.assetid: F969AC5A-6760-4904-A04E-F2FEF4290F7A
+ms.author: windowssdkdev
+ms.date: 04/24/2018
+ms.keywords: PIBIO_STORAGE_PIPELINE_INIT_FN, PIBIO_STORAGE_PIPELINE_INIT_FN callback, StorageAdapterPipelineInit, StorageAdapterPipelineInit callback function [Windows Biometric Framework API], secbiomet.storageadapterpipelineinit, winbio_adapter/StorageAdapterPipelineInit
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: winbio_adapter.h
+req.include-header: Winbio_adapter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Winbio_adapter.h
+api_name:
+-	StorageAdapterPipelineInit
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PIBIO_STORAGE_PIPELINE_INIT_FN callback function

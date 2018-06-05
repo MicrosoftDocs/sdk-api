@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winnls.EnumDateFormatsExEx
+title: EnumDateFormatsExEx function
+author: windows-sdk-content
+description: Enumerates the long date, short date, or year/month formats that are available for a locale specified by name.Note  The application should call this function in preference to EnumDateFormats or EnumDateFormatsEx if designed to run only on Windows Vista and later. Note  This function can enumerate data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
+old-location: intl\enumdateformatsexex.htm
+old-project: Intl
+ms.assetid: 52bfec03-4cb3-4418-b467-f75d2900ba40
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: DATE_LONGDATE, DATE_MONTHDAY, DATE_SHORTDATE, DATE_YEARMONTH, EnumDateFormatsExEx, EnumDateFormatsExEx function [Internationalization for Windows Applications], _win32_EnumDateFormatsExEx, intl.enumdateformatsexex, winnls/EnumDateFormatsExEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winnls.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NORM_FORM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Localization-l2-1-0.dll
+-	KernelBase.dll
+api_name:
+-	EnumDateFormatsExEx
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # EnumDateFormatsExEx function

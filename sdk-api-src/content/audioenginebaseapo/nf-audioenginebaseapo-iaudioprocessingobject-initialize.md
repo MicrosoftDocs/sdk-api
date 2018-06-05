@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:audioenginebaseapo.IAudioProcessingObject.Initialize
+title: IAudioProcessingObject::Initialize
+author: windows-sdk-content
+description: The Initialize method initializes the APO and supports data of variable length.
+old-location: audio\iaudioprocessingobject_initialize.htm
+old-project: audio
+ms.assetid: b73c2e18-ab7b-4e34-9440-f38891f99bf7
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IAudioProcessingObject interface [Audio Devices],Initialize method, IAudioProcessingObject.Initialize, IAudioProcessingObject::Initialize, Initialize, Initialize method [Audio Devices], Initialize method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_initialize, audio_syseffects_r_00c2b464-0c56-4357-ab5f-fdcdfb6a2414.xml, audioenginebaseapo/IAudioProcessingObject::Initialize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioenginebaseapo.h
+req.include-header: 
+req.target-type: Universal
+req.target-min-winverclnt: Available with Windows Vista and later Windows operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APO_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioenginebaseapo.idl
+-	Audioenginebaseapo.idl.dll
+api_name:
+-	IAudioProcessingObject.Initialize
+product: Windows
+targetos: Windows
+req.lib: Audioenginebaseapo.idl
+req.dll: 
+req.irql: Any level
 ---
 
 # IAudioProcessingObject::Initialize

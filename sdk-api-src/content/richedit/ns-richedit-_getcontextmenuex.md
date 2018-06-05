@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:richedit._getcontextmenuex
+title: "_getcontextmenuex"
+author: windows-sdk-content
+description: Contains context menu information that is passed to the IRichEditOleCallback::GetContextMenu method.
+old-location: controls\getcontextmenuex.htm
+old-project: Controls
+ms.assetid: 6354921F-3C9F-4CBD-AC48-1EB67D1FDEB7
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GCMF_GRIPPER, GCMF_MOUSEMENU, GCMF_SPELLING, GCMF_TOUCHMENU, GETCONTEXTMENUEX, GETCONTEXTMENUEX structure [Windows Controls], _getcontextmenuex, controls.getcontextmenuex, richedit/GETCONTEXTMENUEX
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: richedit.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GETCONTEXTMENUEX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Richedit.h
+api_name:
+-	GETCONTEXTMENUEX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _getcontextmenuex structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mbnapi.MBN_SMS_CDMA_ENCODING
+title: MBN_SMS_CDMA_ENCODING
+author: windows-sdk-content
+description: The MBN_SMS_CDMA_ENCODING enumerated type specifies character encoding types for CDMA.
+old-location: mbn\mbn_sms_cdma_encoding.htm
+old-project: mbn
+ms.assetid: c556d615-de98-4d05-86e4-88df84e98258
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: MBN_SMS_CDMA_ENCODING, MBN_SMS_CDMA_ENCODING enumeration [Microsoft Broadband Networks], MBN_SMS_CDMA_ENCODING_7BIT_ASCII, MBN_SMS_CDMA_ENCODING_EPM, MBN_SMS_CDMA_ENCODING_GSM_7BIT, MBN_SMS_CDMA_ENCODING_IA5, MBN_SMS_CDMA_ENCODING_KOREAN, MBN_SMS_CDMA_ENCODING_LATIN, MBN_SMS_CDMA_ENCODING_LATIN_HEBREW, MBN_SMS_CDMA_ENCODING_OCTET, MBN_SMS_CDMA_ENCODING_SHIFT_JIS, MBN_SMS_CDMA_ENCODING_UNICODE, mbn.mbn_sms_cdma_encoding, mbnapi/MBN_SMS_CDMA_ENCODING, mbnapi/MBN_SMS_CDMA_ENCODING_7BIT_ASCII, mbnapi/MBN_SMS_CDMA_ENCODING_EPM, mbnapi/MBN_SMS_CDMA_ENCODING_GSM_7BIT, mbnapi/MBN_SMS_CDMA_ENCODING_IA5, mbnapi/MBN_SMS_CDMA_ENCODING_KOREAN, mbnapi/MBN_SMS_CDMA_ENCODING_LATIN, mbnapi/MBN_SMS_CDMA_ENCODING_LATIN_HEBREW, mbnapi/MBN_SMS_CDMA_ENCODING_OCTET, mbnapi/MBN_SMS_CDMA_ENCODING_SHIFT_JIS, mbnapi/MBN_SMS_CDMA_ENCODING_UNICODE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_SMS_CDMA_ENCODING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mbnapi.h
+api_name:
+-	MBN_SMS_CDMA_ENCODING
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MBN_SMS_CDMA_ENCODING enumeration

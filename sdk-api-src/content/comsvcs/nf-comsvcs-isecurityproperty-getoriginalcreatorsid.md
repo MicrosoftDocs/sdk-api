@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.ISecurityProperty.GetOriginalCreatorSID
+title: ISecurityProperty::GetOriginalCreatorSID
+author: windows-sdk-content
+description: In MTS 2.0, this method retrieves the security identifier of the base process that initiated the activity in which the current object is executing. Do not use this method in COM+.
+old-location: cos\isecurityproperty_getoriginalcreatorsid.htm
+old-project: cossdk
+ms.assetid: 599b0773-feee-4e3d-a23b-cc2c294f49f9
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: GetOriginalCreatorSID, GetOriginalCreatorSID method [COM+], GetOriginalCreatorSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetOriginalCreatorSID method, ISecurityProperty.GetOriginalCreatorSID, ISecurityProperty::GetOriginalCreatorSID, _cos_ISecurityProperty_GetOriginalCreatorSID, comsvcs/ISecurityProperty::GetOriginalCreatorSID, cos.isecurityproperty_getoriginalcreatorsid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	ISecurityProperty.GetOriginalCreatorSID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ISecurityProperty::GetOriginalCreatorSID

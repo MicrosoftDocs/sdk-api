@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3dcsx.D3DX11_FFT_CREATE_FLAG
+title: D3DX11_FFT_CREATE_FLAG
+author: windows-sdk-content
+description: FFT creation flags.
+old-location: direct3d11\d3dx11_fft_create_flag.htm
+old-project: direct3d11
+ms.assetid: 0e7eab8d-bbc5-4704-aa92-35de4a1eda28
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3DX11_FFT_CREATE_FLAG, D3DX11_FFT_CREATE_FLAG enumeration [Direct3D 11], D3DX11_FFT_CREATE_FLAG_NO_PRECOMPUTE_BUFFERS, ce09326a-8047-adf4-4d4a-86bfd0c74400, d3dcsx/D3DX11_FFT_CREATE_FLAG, d3dcsx/D3DX11_FFT_CREATE_FLAG_NO_PRECOMPUTE_BUFFERS, direct3d11.d3dx11_fft_create_flag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3dcsx.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DX11_FFT_CREATE_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3dcsx.h
+api_name:
+-	D3DX11_FFT_CREATE_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3DX11_FFT_CREATE_FLAG enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:ras.PFNRASFREEBUFFER
+title: PFNRASFREEBUFFER
+author: windows-sdk-content
+description: The custom-scripting DLL calls RasFreeBuffer to release a memory buffer that was allocated by a previous call to RasGetBuffer.
+old-location: rras\rasfreebuffer.htm
+old-project: RRAS
+ms.assetid: aba43ef9-7f62-48ab-a790-c8592a57f2c2
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: PFNRASFREEBUFFER, PFNRASFREEBUFFER callback, RasFreeBuffer, RasFreeBuffer callback function [RAS], _ras_rasfreebuffer, ras/RasFreeBuffer, rras.rasfreebuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ras.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Ras.h
+api_name:
+-	RasFreeBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PFNRASFREEBUFFER callback function

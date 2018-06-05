@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msxml6._XHR_PROPERTY
+title: "_XHR_PROPERTY"
+author: windows-sdk-content
+description: Defines properties that you can assign to an outgoing HTTP request by calling the SetProperty method.
+old-location: ixhr2\xhr_property.htm
+old-project: ixhr2
+ms.assetid: FE317413-F1A2-4FD7-9DB1-67410C912AF2
+ms.author: windowssdkdev
+ms.date: 04/02/2018
+ms.keywords: XHR_PROPERTY, XHR_PROPERTY enumeration [XMLHttpRequest2], XHR_PROP_EXTENDED_ERROR, XHR_PROP_IGNORE_CERT_ERRORS, XHR_PROP_NO_AUTH, XHR_PROP_NO_CACHE, XHR_PROP_NO_CRED_PROMPT, XHR_PROP_NO_DEFAULT_HEADERS, XHR_PROP_QUERY_STRING_UTF8, XHR_PROP_REPORT_REDIRECT_STATUS, XHR_PROP_TIMEOUT, _XHR_PROPERTY, ixhr2.xhr_property, msxml6/XHR_PROPERTY, msxml6/XHR_PROP_EXTENDED_ERROR, msxml6/XHR_PROP_IGNORE_CERT_ERRORS, msxml6/XHR_PROP_NO_AUTH, msxml6/XHR_PROP_NO_CACHE, msxml6/XHR_PROP_NO_CRED_PROMPT, msxml6/XHR_PROP_NO_DEFAULT_HEADERS, msxml6/XHR_PROP_QUERY_STRING_UTF8, msxml6/XHR_PROP_REPORT_REDIRECT_STATUS, msxml6/XHR_PROP_TIMEOUT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msxml6.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps],MSXML 6.0 and later
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msxml6.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Msxml.tlb
+tech.root: 
+req.typenames: XHR_PROPERTY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msxml6.h
+api_name:
+-	XHR_PROPERTY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msxml.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _XHR_PROPERTY enumeration

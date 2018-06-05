@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:encdec.IXDSCodec.put_CCSubstreamService
+title: IXDSCodec::put_CCSubstreamService
+author: windows-sdk-content
+description: The put_CCSubstreamService method specifies which line 21 data channels the XDS Codec filter sends to the XDSToRat object. By default, only the Extended Data Services (XDS) channel is supported.
+old-location: mstv\ixdscodec_put_ccsubstreamservice.htm
+old-project: mstv
+ms.assetid: e8e4a43a-3e9f-468a-8df3-7ff05d23b20b
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IXDSCodec interface [Microsoft TV Technologies],put_CCSubstreamService method, IXDSCodec.put_CCSubstreamService, IXDSCodec::put_CCSubstreamService, IXDSCodecput_CCSubstreamService, encdec/IXDSCodec::put_CCSubstreamService, mstv.ixdscodec_put_ccsubstreamservice, put_CCSubstreamService, put_CCSubstreamService method [Microsoft TV Technologies], put_CCSubstreamService method [Microsoft TV Technologies],IXDSCodec interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: encdec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ProtType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EncDec.h
+api_name:
+-	IXDSCodec.put_CCSubstreamService
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IXDSCodec::put_CCSubstreamService

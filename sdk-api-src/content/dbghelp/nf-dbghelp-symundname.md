@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dbghelp.SymUnDName
+title: SymUnDName function
+author: windows-sdk-content
+description: Undecorates a decorated C++ symbol name.
+old-location: base\symundname64.htm
+old-project: Debug
+ms.assetid: f7bea3a4-5e17-4743-894f-8eb8f9992cac
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: SymUnDName, SymUnDName function, SymUnDName64, SymUnDName64 function, base.symundname64, dbghelp/SymUnDName, dbghelp/SymUnDName64
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dbghelp.dll
+api_name:
+-	SymUnDName64
+-	SymUnDName
+product: Windows
+targetos: Windows
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 ---
 
 # SymUnDName function

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0002
+title: "__MIDL___MIDL_itf_msopc_0001_0076_0002"
+author: windows-sdk-content
+description: Describes how to interpret the selectionCriterion parameter of the IOpcRelationshipSelector::GetSelectionCriterion method.
+old-location: opc\opc_relationship_selector.htm
+old-project: OPC
+ms.assetid: 5532aab1-850e-4de8-a470-c55fb4c2f8c4
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: OPC_RELATIONSHIP_SELECTOR, OPC_RELATIONSHIP_SELECTOR enumeration [Open Packaging Conventions], OPC_RELATIONSHIP_SELECT_BY_ID, OPC_RELATIONSHIP_SELECT_BY_TYPE, __MIDL___MIDL_itf_msopc_0001_0076_0002, msopc/OPC_RELATIONSHIP_SELECTOR, msopc/OPC_RELATIONSHIP_SELECT_BY_ID, msopc/OPC_RELATIONSHIP_SELECT_BY_TYPE, opc.opc_relationship_selector
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OpcDigitalSignature.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPC_RELATIONSHIP_SELECTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msopc.h
+api_name:
+-	OPC_RELATIONSHIP_SELECTOR
+product: Windows
+targetos: Windows
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_msopc_0001_0076_0002 enumeration

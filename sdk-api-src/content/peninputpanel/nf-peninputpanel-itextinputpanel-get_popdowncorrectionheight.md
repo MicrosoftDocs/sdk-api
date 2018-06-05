@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:peninputpanel.ITextInputPanel.get_PopDownCorrectionHeight
+title: ITextInputPanel::get_PopDownCorrectionHeight
+author: windows-sdk-content
+description: Gets the height of the Post-Insertion correction comb when it is positioned below Input Panel.
+old-location: tablet\itextinputpanel_popdowncorrectionheight.htm
+old-project: tablet
+ms.assetid: 525e5406-75ff-4f3c-a3f2-a542e04ca203
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 525e5406-75ff-4f3c-a3f2-a542e04ca203, ITextInputPanel interface [Tablet PC],PopDownCorrectionHeight property, ITextInputPanel.PopDownCorrectionHeight, ITextInputPanel.get_PopDownCorrectionHeight, ITextInputPanel::PopDownCorrectionHeight, ITextInputPanel::get_PopDownCorrectionHeight, PopDownCorrectionHeight property [Tablet PC], PopDownCorrectionHeight property [Tablet PC],ITextInputPanel interface, get_PopDownCorrectionHeight, peninputpanel/ITextInputPanel::PopDownCorrectionHeight, peninputpanel/ITextInputPanel::get_PopDownCorrectionHeight, tablet.itextinputpanel_popdowncorrectionheight
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: peninputpanel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EventMask
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tiptsf.dll
+api_name:
+-	ITextInputPanel.PopDownCorrectionHeight
+-	ITextInputPanel.get_PopDownCorrectionHeight
+-	ITextInputPanel.get_PopDownCorrectionHeight
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITextInputPanel::get_PopDownCorrectionHeight

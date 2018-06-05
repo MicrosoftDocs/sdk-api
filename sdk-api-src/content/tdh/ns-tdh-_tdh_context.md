@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:tdh._TDH_CONTEXT
+title: "_TDH_CONTEXT"
+author: windows-sdk-content
+description: Defines the additional information required to parse an event.
+old-location: etw\tdh_context_struct.htm
+old-project: ETW
+ms.assetid: 184df0af-3ac5-406f-a298-4f23826ad85e
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PTDH_CONTEXT, TDH_CONTEXT, TDH_CONTEXT structure [ETW], _TDH_CONTEXT, etw.tdh_context_struct, tdh.tdh_context_struct, tdh/TDH_CONTEXT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TDH_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tdh.h
+api_name:
+-	TDH_CONTEXT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TDH_CONTEXT structure

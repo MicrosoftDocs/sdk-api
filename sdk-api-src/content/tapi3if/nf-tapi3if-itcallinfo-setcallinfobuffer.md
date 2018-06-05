@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITCallInfo.SetCallInfoBuffer
+title: ITCallInfo::SetCallInfoBuffer
+author: windows-sdk-content
+description: The SetCallInfoBuffer method sets call information items that require a buffer, such as user-user information. Automation client applications, such as those written in Visual Basic, must use the ITCallInfo::put_CallInfoBuffer method.
+old-location: tapi3\itcallinfo_setcallinfobuffer.htm
+old-project: Tapi
+ms.assetid: fafe3c99-4584-43eb-b446-a9f2b9308097
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITCallInfo interface [TAPI 2.2],SetCallInfoBuffer method, ITCallInfo.SetCallInfoBuffer, ITCallInfo::SetCallInfoBuffer, SetCallInfoBuffer, SetCallInfoBuffer method [TAPI 2.2], SetCallInfoBuffer method [TAPI 2.2],ITCallInfo interface, _tapi3_itcallinfo_setcallinfobuffer, tapi3.itcallinfo_setcallinfobuffer, tapi3if/ITCallInfo::SetCallInfoBuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITCallInfo.SetCallInfoBuffer
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITCallInfo::SetCallInfoBuffer

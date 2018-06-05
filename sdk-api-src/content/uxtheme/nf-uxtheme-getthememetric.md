@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uxtheme.GetThemeMetric
+title: GetThemeMetric function
+author: windows-sdk-content
+description: Retrieves the value of a metric property.
+old-location: controls\GetThemeMetric.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\userex\functions\getthememetric.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetThemeMetric, GetThemeMetric function [Windows Controls], TMT_ALPHALEVEL, TMT_ALPHATHRESHOLD, TMT_BORDERSIZE, TMT_GLYPHINDEX, TMT_GRADIENTRATIO1, TMT_GRADIENTRATIO2, TMT_GRADIENTRATIO3, TMT_GRADIENTRATIO4, TMT_GRADIENTRATIO5, TMT_HEIGHT, TMT_IMAGECOUNT, TMT_MINDPI1, TMT_MINDPI2, TMT_MINDPI3, TMT_MINDPI4, TMT_MINDPI5, TMT_PROGRESSCHUNKSIZE, TMT_PROGRESSSPACESIZE, TMT_ROUNDCORNERHEIGHT, TMT_ROUNDCORNERWIDTH, TMT_SATURATION, TMT_TEXTBORDERSIZE, TMT_TRUESIZESTRETCHMARK, TMT_WIDTH, controls.GetThemeMetric, controls.inet_GetThemeMetric, inet_GetThemeMetric, inet_GetThemeMetric_cpp, uxtheme/GetThemeMetric
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: uxtheme.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BP_BUFFERFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	UxTheme.dll
+-	ext-ms-win-uxtheme-themes-l1-1-1.dll
+-	xamlpalwp.dll
+api_name:
+-	GetThemeMetric
+product: Windows
+targetos: Windows
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # GetThemeMetric function

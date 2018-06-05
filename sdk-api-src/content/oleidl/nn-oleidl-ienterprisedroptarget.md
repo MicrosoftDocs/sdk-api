@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:oleidl.IEnterpriseDropTarget
+title: IEnterpriseDropTarget
+author: windows-sdk-content
+description: When implemented by the drop target application, this interface gives the OLE drag and drop engine the ability to determine whether the drop target application intends to evaluate enterprise protection policy and gives the OLE drag and drop engine a way to provide the enterprise ID of the drop source application to the drop target application.
+old-location: com\ienterprisedroptarget.htm
+old-project: com
+ms.assetid: 9ACFE824-5F0D-42CC-8E2F-DF2658AC9908
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IEnterpriseDropTarget, IEnterpriseDropTarget interface [COM], IEnterpriseDropTarget interface [COM],described, com.ienterprisedroptarget, oleidl/IEnterpriseDropTarget
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: oleidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OleIdl.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERCLASSTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OleIdl.h
+api_name:
+-	IEnterpriseDropTarget
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Adhocreportingexcelclient.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnterpriseDropTarget interface

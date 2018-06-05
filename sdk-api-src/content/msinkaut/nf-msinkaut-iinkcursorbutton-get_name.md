@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkCursorButton.get_Name
+title: IInkCursorButton::get_Name
+author: windows-sdk-content
+description: Gets the name of the object.
+old-location: tablet\iinkcursorbutton_name.htm
+old-project: tablet
+ms.assetid: a431a359-12ea-4ac2-a966-6ad45a63e646
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IInkCursorButton interface [Tablet PC],Name property, IInkCursorButton.Name, IInkCursorButton.get_Name, IInkCursorButton::Name, IInkCursorButton::get_Name, Name property [Tablet PC], Name property [Tablet PC],IInkCursorButton interface, get_Name, msinkaut/IInkCursorButton::Name, msinkaut/IInkCursorButton::get_Name, tablet.iinkcursorbutton_name
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkCursorButton.Name
+-	IInkCursorButton.get_Name
+-	IInkCursorButton.get_Name
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkCursorButton::get_Name

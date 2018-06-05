@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wininet.INTERNET_SCHEME
+title: INTERNET_SCHEME
+author: windows-sdk-content
+description: Defines the flags used with the nScheme member of the URL_COMPONENTS structure.
+old-location: wininet\internet_scheme_enumerated_type.htm
+old-project: WinInet
+ms.assetid: 640d0b62-a44f-4115-be27-9976da4bc73a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPINTERNET_SCHEME, INTERNET_SCHEME, INTERNET_SCHEME enumeration [WinINet], INTERNET_SCHEME_DEFAULT, INTERNET_SCHEME_FILE, INTERNET_SCHEME_FIRST, INTERNET_SCHEME_FTP, INTERNET_SCHEME_GOPHER, INTERNET_SCHEME_HTTP, INTERNET_SCHEME_HTTPS, INTERNET_SCHEME_JAVASCRIPT, INTERNET_SCHEME_LAST, INTERNET_SCHEME_MAILTO, INTERNET_SCHEME_NEWS, INTERNET_SCHEME_PARTIAL, INTERNET_SCHEME_RES, INTERNET_SCHEME_SOCKS, INTERNET_SCHEME_UNKNOWN, INTERNET_SCHEME_VBSCRIPT, LPINTERNET_SCHEME, LPINTERNET_SCHEME enumeration pointer [WinINet], _inet_internet_scheme_enumerated_type, wininet.internet_scheme_enumerated_type, wininet/ LPINTERNET_SCHEME, wininet/INTERNET_SCHEME, wininet/INTERNET_SCHEME_DEFAULT, wininet/INTERNET_SCHEME_FILE, wininet/INTERNET_SCHEME_FIRST, wininet/INTERNET_SCHEME_FTP, wininet/INTERNET_SCHEME_GOPHER, wininet/INTERNET_SCHEME_HTTP, wininet/INTERNET_SCHEME_HTTPS, wininet/INTERNET_SCHEME_JAVASCRIPT, wininet/INTERNET_SCHEME_LAST, wininet/INTERNET_SCHEME_MAILTO, wininet/INTERNET_SCHEME_NEWS, wininet/INTERNET_SCHEME_PARTIAL, wininet/INTERNET_SCHEME_RES, wininet/INTERNET_SCHEME_SOCKS, wininet/INTERNET_SCHEME_UNKNOWN, wininet/INTERNET_SCHEME_VBSCRIPT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wininet.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INTERNET_SCHEME, *LPINTERNET_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wininet.h
+api_name:
+-	INTERNET_SCHEME
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # INTERNET_SCHEME enumeration

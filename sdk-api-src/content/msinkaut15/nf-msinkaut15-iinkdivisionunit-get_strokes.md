@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut15.IInkDivisionUnit.get_Strokes
+title: IInkDivisionUnit::get_Strokes
+author: windows-sdk-content
+description: Gets the collection of strokes that are contained in an object or used to create an object.
+old-location: tablet\iinkdivisionunit_strokes.htm
+old-project: tablet
+ms.assetid: 505df3d7-740e-46fc-a942-2820b3428564
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IInkDivisionUnit interface [Tablet PC],Strokes property, IInkDivisionUnit.Strokes, IInkDivisionUnit.get_Strokes, IInkDivisionUnit::Strokes, IInkDivisionUnit::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkDivisionUnit interface, get_Strokes, msinkaut15/IInkDivisionUnit::Strokes, msinkaut15/IInkDivisionUnit::get_Strokes, tablet.iinkdivisionunit_strokes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut15.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InkRecoGuide
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Inkdiv.dll
+-	Inkdiv.dll.dll
+api_name:
+-	IInkDivisionUnit.Strokes
+-	IInkDivisionUnit.get_Strokes
+-	IInkDivisionUnit.get_Strokes
+product: Windows
+targetos: Windows
+req.lib: Inkdiv.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkDivisionUnit::get_Strokes

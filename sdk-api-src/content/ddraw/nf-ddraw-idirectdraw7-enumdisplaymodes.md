@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:ddraw.IDirectDraw7.EnumDisplayModes
+title: IDirectDraw7::EnumDisplayModes
+author: windows-sdk-content
+description: Enumerates all the display modes that the hardware exposes through the DirectDraw object and that are compatible with a provided surface description.
+old-location: directdraw\idirectdraw7_enumdisplaymodes.htm
+old-project: directdraw
+ms.assetid: 04ed2545-c611-435d-95ef-a0d854380a69
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DDEDM_REFRESHRATES, DDEDM_STANDARDVGAMODES, EnumDisplayModes, EnumDisplayModes method [DirectDraw], EnumDisplayModes method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EnumDisplayModes method, IDirectDraw7.EnumDisplayModes, IDirectDraw7::EnumDisplayModes, ddraw/IDirectDraw7::EnumDisplayModes, directdraw.idirectdraw7_enumdisplaymodes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ddraw.dll
+api_name:
+-	IDirectDraw7.EnumDisplayModes
+product: Windows
+targetos: Windows
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 ---
 
 # IDirectDraw7::EnumDisplayModes

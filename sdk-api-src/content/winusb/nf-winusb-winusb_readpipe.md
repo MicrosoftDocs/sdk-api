@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winusb.WinUsb_ReadPipe
+title: WinUsb_ReadPipe function
+author: windows-sdk-content
+description: The WinUsb_ReadPipe function reads data from the specified pipe.
+old-location: buses\winusb_readpipe.htm
+old-project: usbref
+ms.assetid: 936e535b-9084-4e3d-908e-0e965f658827
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: WinUsb_ReadPipe, WinUsb_ReadPipe function [Buses], buses.winusb_readpipe, winusb/WinUsb_ReadPipe, winusbfunc_a18a80b3-9f2b-45a5-bd34-dac4bddb1053.xml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winusb.h
+req.include-header: Winusb.h
+req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winusb.dll
+api_name:
+-	WinUsb_ReadPipe
+product: Windows
+targetos: Windows
+req.lib: Winusb.lib
+req.dll: Winusb.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WinUsb_ReadPipe function

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tssbx.IWTSSBPlugin.WTSSBX_GetUserExternalSession
+title: IWTSSBPlugin::WTSSBX_GetUserExternalSession
+author: windows-sdk-content
+description: Redirects an incoming connection to a computing resource, such as a virtual machine, a blade server, or even the user's own corporate desktop by providing a WTSSBX_MACHINE_CONNECT_INFO structure that contains information about the resource.
+old-location: termserv\iwtssbplugin_wtssbx_getuserexternalsession.htm
+old-project: TermServ
+ms.assetid: 989cd7bc-932f-4a33-91c8-e66fac7195ad
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_GetUserExternalSession method, IWTSSBPlugin.WTSSBX_GetUserExternalSession, IWTSSBPlugin::WTSSBX_GetUserExternalSession, WTSSBX_GetUserExternalSession, WTSSBX_GetUserExternalSession method [Remote Desktop Services], WTSSBX_GetUserExternalSession method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_getuserexternalsession, tssbx/IWTSSBPlugin::WTSSBX_GetUserExternalSession
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tssbx.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tssbx.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTSSBX_NOTIFICATION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tssbx.h
+api_name:
+-	IWTSSBPlugin.WTSSBX_GetUserExternalSession
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IWTSSBPlugin::WTSSBX_GetUserExternalSession

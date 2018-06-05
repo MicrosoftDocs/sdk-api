@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:appmodel.FindPackagesByPackageFamily
+title: FindPackagesByPackageFamily function
+author: windows-sdk-content
+description: Finds the packages with the specified family name for the current user.
+old-location: appxpkg\findpackagesbypackagefamily.htm
+old-project: appxpkg
+ms.assetid: D52E98BD-726F-4AC0-A034-02896B1D1687
+ms.author: windowssdkdev
+ms.date: 04/26/2018
+ms.keywords: FindPackagesByPackageFamily, FindPackagesByPackageFamily function [App packaging and management], appmodel/FindPackagesByPackageFamily, appxpkg.findpackagesbypackagefamily
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: appmodel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PackageOrigin
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-AppModel-RunTime-l1-1-1.dll
+-	Kernel.AppCore.dll
+-	API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+-	FindPackagesByPackageFamily
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 ---
 
 # FindPackagesByPackageFamily function

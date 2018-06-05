@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:activationregistration.ThreadingType
+title: ThreadingType
+author: windows-sdk-content
+description: Represents the apartment threading model to use for activating an in-process server.
+old-location: winrt\threadingtype.htm
+old-project: WinRT
+ms.assetid: D7D3A6D3-52DF-4634-A6FC-F5081E2E13B0
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: BOTH, MTA, STA, ThreadingType, ThreadingType enumeration [Windows Runtime], activationregistration/BOTH, activationregistration/MTA, activationregistration/STA, activationregistration/ThreadingType, winrt.threadingtype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: activationregistration.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Activation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ThreadingType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	activationregistration.h
+api_name:
+-	ThreadingType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ThreadingType enumeration

@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.tagLVDISPINFOW
+title: tagLVDISPINFOW
+author: windows-sdk-content
+description: Contains information about an LVN_GETDISPINFO or LVN_SETDISPINFO notification code. This structure is the same as the LV_DISPINFO structure, but has been renamed to fit standard naming conventions.
+old-location: controls\NMLVDISPINFO.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\listview\structures\nmlvdispinfo.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPNMLVDISPINFOW, NMLVDISPINFO, NMLVDISPINFO structure [Windows Controls], NMLVDISPINFOA, NMLVDISPINFOW, _win32_NMLVDISPINFO, _win32_NMLVDISPINFO_cpp, commctrl/NMLVDISPINFO, commctrl/NMLVDISPINFOA, commctrl/NMLVDISPINFOW, controls.NMLVDISPINFO, controls._win32_NMLVDISPINFO, tagLVDISPINFOW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: NMLVDISPINFOW (Unicode) and NMLVDISPINFOA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NMLVDISPINFOW, *LPNMLVDISPINFOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	NMLVDISPINFO
+-	NMLVDISPINFOA
+-	NMLVDISPINFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagLVDISPINFOW structure

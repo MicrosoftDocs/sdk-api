@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:websocket.WebSocketSend
+title: WebSocketSend function
+author: windows-sdk-content
+description: Adds a send operation to the protocol component operation queue.
+old-location: websock\websocketsend.htm
+old-project: WebSock
+ms.assetid: 289f3880-22ed-44f8-8a69-1c983153ea72
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WebSocketSend, WebSocketSend function [Websocket Protocol Component API], websock.websocketsend, websocket/WebSocketSend
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: websocket.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WEB_SOCKET_PROPERTY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	websocket.dll
+api_name:
+-	WebSocketSend
+product: Windows
+targetos: Windows
+req.lib: Websocket.lib
+req.dll: Websocket.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WebSocketSend function

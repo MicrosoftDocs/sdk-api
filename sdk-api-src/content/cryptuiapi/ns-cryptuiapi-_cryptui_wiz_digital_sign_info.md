@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:cryptuiapi._CRYPTUI_WIZ_DIGITAL_SIGN_INFO
+title: "_CRYPTUI_WIZ_DIGITAL_SIGN_INFO"
+author: windows-sdk-content
+description: Contains information about digital signing.
+old-location: security\cryptui_wiz_digital_sign_info.htm
+old-project: SecCrypto
+ms.assetid: 22d0bc45-0f66-4f5f-87d3-0849c4327eed
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, 0, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN_NO_ROOT, CRYPTUI_WIZ_DIGITAL_SIGN_CERT, CRYPTUI_WIZ_DIGITAL_SIGN_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure [Security], CRYPTUI_WIZ_DIGITAL_SIGN_PVK, CRYPTUI_WIZ_DIGITAL_SIGN_STORE, CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB, CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_FILE, PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_INFO structure pointer [Security], _CRYPTUI_WIZ_DIGITAL_SIGN_INFO, cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, security.cryptui_wiz_digital_sign_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cryptuiapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Cryptuiapi.h
+api_name:
+-	CRYPTUI_WIZ_DIGITAL_SIGN_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure

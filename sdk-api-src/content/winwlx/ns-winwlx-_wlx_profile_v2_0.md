@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winwlx._WLX_PROFILE_V2_0
+title: "_WLX_PROFILE_V2_0"
+author: windows-sdk-content
+description: Contains profile information in addition to the information provided by WLX_PROFILE_V1_0.
+old-location: security\wlx_profile_v2_0.htm
+old-project: SecAuthN
+ms.assetid: 6ecec95f-e663-4fb3-b2d4-82984f31cb62
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PWLX_PROFILE_V2_0, PWLX_PROFILE_V2_0, PWLX_PROFILE_V2_0 structure pointer [Security], WLX_PROFILE_V2_0, WLX_PROFILE_V2_0 structure [Security], _WLX_PROFILE_V2_0, _gina_wlx_profile_v2_0, security.wlx_profile_v2_0, winwlx/PWLX_PROFILE_V2_0, winwlx/WLX_PROFILE_V2_0"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winwlx.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLX_PROFILE_V2_0, *PWLX_PROFILE_V2_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winwlx.h
+api_name:
+-	WLX_PROFILE_V2_0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLX_PROFILE_V2_0 structure

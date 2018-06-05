@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwrite_1.DWRITE_PANOSE_TOOL_KIND
+title: DWRITE_PANOSE_TOOL_KIND
+author: windows-sdk-content
+description: The DWRITE_PANOSE_TOOL_KIND enumeration contains values that specify the kind of tool that is used to create character forms.
+old-location: directwrite\dwrite_panose_tool_kind.htm
+old-project: DirectWrite
+ms.assetid: 06426D8B-BBAA-4FF3-B5CB-09B72A95414A
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_PANOSE_TOOL_KIND, DWRITE_PANOSE_TOOL_KIND enumeration [Direct Write], DWRITE_PANOSE_TOOL_KIND_ANY, DWRITE_PANOSE_TOOL_KIND_BALL, DWRITE_PANOSE_TOOL_KIND_BRUSH, DWRITE_PANOSE_TOOL_KIND_ENGRAVED, DWRITE_PANOSE_TOOL_KIND_FELT_PEN_BRUSH_TIP, DWRITE_PANOSE_TOOL_KIND_FLAT_NIB, DWRITE_PANOSE_TOOL_KIND_NO_FIT, DWRITE_PANOSE_TOOL_KIND_PRESSURE_POINT, DWRITE_PANOSE_TOOL_KIND_ROUGH, DWRITE_PANOSE_TOOL_KIND_WILD_BRUSH, directwrite.dwrite_panose_tool_kind, dwrite_1/DWRITE_PANOSE_TOOL_KIND, dwrite_1/DWRITE_PANOSE_TOOL_KIND_ANY, dwrite_1/DWRITE_PANOSE_TOOL_KIND_BALL, dwrite_1/DWRITE_PANOSE_TOOL_KIND_BRUSH, dwrite_1/DWRITE_PANOSE_TOOL_KIND_ENGRAVED, dwrite_1/DWRITE_PANOSE_TOOL_KIND_FELT_PEN_BRUSH_TIP, dwrite_1/DWRITE_PANOSE_TOOL_KIND_FLAT_NIB, dwrite_1/DWRITE_PANOSE_TOOL_KIND_NO_FIT, dwrite_1/DWRITE_PANOSE_TOOL_KIND_PRESSURE_POINT, dwrite_1/DWRITE_PANOSE_TOOL_KIND_ROUGH, dwrite_1/DWRITE_PANOSE_TOOL_KIND_WILD_BRUSH
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dwrite_1.h
+api_name:
+-	DWRITE_PANOSE_TOOL_KIND
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_PANOSE_TOOL_KIND enumeration

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ws2def.addrinfoex3
+title: addrinfoex3
+author: windows-sdk-content
+description: Used by the GetAddrInfoEx function to hold host address information when a specific network interface has been requested.
+old-location: winsock\addrinfoex3.htm
+old-project: WinSock
+ms.assetid: E7722B36-0284-4800-8F73-D4C13B29F9CE
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPADDRINFOEX3, *PADDRINFOEX3, ADDRINFOEX3, AF_BTH, AF_INET, AF_INET6, AF_IRDA, AF_NETBIOS, AF_UNSPEC, AI_ADDRCONFIG, AI_ALL, AI_CANONNAME, AI_DISABLE_IDN_ENCODING, AI_EXTENDED, AI_FILESERVER, AI_FQDN, AI_NON_AUTHORITATIVE, AI_NUMERICHOST, AI_PASSIVE, AI_RETURN_PREFERRED_NAMES, AI_SECURE, AI_V4MAPPED, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, LPaddrinfoex3, LPaddrinfoex3 structure pointer [Winsock], Paddrinfoex3, Paddrinfoex3 structure pointer [Winsock], SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, addrinfoex3, addrinfoex3 structure [Winsock], addrinfoex3A, addrinfoex3W, winsock.addrinfoex3, ws2def/LPaddrinfoex3, ws2def/Paddrinfoex3, ws2def/addrinfoex3, ws2def/addrinfoex3A, ws2def/addrinfoex3W"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ws2def.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: addrinfoex3W (Unicode) and addrinfoex3A (ANSI)
+req.idl: Wrdsgraphicschannels.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADDRINFOEX3, *PADDRINFOEX3, *LPADDRINFOEX3
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ws2def.h
+api_name:
+-	addrinfoex3
+-	addrinfoex3A
+-	addrinfoex3W
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # addrinfoex3 structure

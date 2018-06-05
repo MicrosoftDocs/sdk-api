@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:iwstdec._AM_WST_SERVICE
+title: "_AM_WST_SERVICE"
+author: windows-sdk-content
+description: The AM_WST_SERVICE enumeration is not supported.
+old-location: dshow\am_wst_service.htm
+old-project: DirectShow
+ms.assetid: 63c20aff-eb30-44fd-bc8d-e155d7014f73
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PAM_WST_SERVICE, AM_WST_SERVICE, AM_WST_SERVICE , AM_WST_SERVICE enumeration [DirectShow], AM_WST_SERVICEEnumeration, AM_WST_SERVICE_IDS, AM_WST_SERVICE_Invalid, AM_WST_SERVICE_None, AM_WST_SERVICE_Text, PAM_WST_SERVICE, PAM_WST_SERVICE enumeration pointer [DirectShow], _AM_WST_SERVICE, dshow.am_wst_service, iwstdec/AM_WST_SERVICE, iwstdec/AM_WST_SERVICE_IDS, iwstdec/AM_WST_SERVICE_Invalid, iwstdec/AM_WST_SERVICE_None, iwstdec/AM_WST_SERVICE_Text, iwstdec/PAM_WST_SERVICE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iwstdec.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_WST_SERVICE, *PAM_WST_SERVICE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	iwstdec.h
+api_name:
+-	AM_WST_SERVICE
+product: Windows
+targetos: Windows
+req.lib: Wscapi.lib
+req.dll: Wscapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _AM_WST_SERVICE enumeration

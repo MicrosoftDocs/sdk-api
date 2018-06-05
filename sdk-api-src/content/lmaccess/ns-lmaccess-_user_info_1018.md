@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmaccess._USER_INFO_1018
+title: "_USER_INFO_1018"
+author: windows-sdk-content
+description: The USER_INFO_1018 structure contains the maximum amount of disk space available to a network user account. This information level is valid only when you call the NetUserSetInfo function.
+old-location: netmgmt\user_info_1018_str.htm
+old-project: NetMgmt
+ms.assetid: 15bdff5c-a360-4519-8e0b-c73ddd01298c
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPUSER_INFO_1018, *PUSER_INFO_1018, LPUSER_INFO_1018, LPUSER_INFO_1018 structure pointer [Network Management], PUSER_INFO_1018, PUSER_INFO_1018 structure pointer [Network Management], USER_INFO_1018, USER_INFO_1018 structure [Network Management], _USER_INFO_1018, _win32_user_info_1018_str, lmaccess/LPUSER_INFO_1018, lmaccess/PUSER_INFO_1018, lmaccess/USER_INFO_1018, netmgmt.user_info_1018_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmaccess.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_INFO_1018, *PUSER_INFO_1018, *LPUSER_INFO_1018
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmaccess.h
+api_name:
+-	USER_INFO_1018
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _USER_INFO_1018 structure

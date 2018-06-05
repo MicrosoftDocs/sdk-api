@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:dbghelp.PSYMBOLSERVERCALLBACKPROC
+title: PSYMBOLSERVERCALLBACKPROC
+author: windows-sdk-content
+description: An entry point to the symbol server DLL.
+old-location: winprog\symbolservercallback.htm
+old-project: DevNotes
+ms.assetid: 11c833ee-a9f3-4d08-a6cd-0da62844c589
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: PSYMBOLSERVERCALLBACKPROC, SSRVACTION_EVENT, SSRVACTION_QUERYCANCEL, SSRVACTION_SIZE, SSRVACTION_TRACE, SymbolServerCallback, SymbolServerCallback callback, SymbolServerCallback callback function [Windows API], _win32_symbolservercallback, base.symbolservercallback, dbghelp/SymbolServerCallback, winprog.symbolservercallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	DbgHelp.h
+api_name:
+-	SymbolServerCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PSYMBOLSERVERCALLBACKPROC callback function

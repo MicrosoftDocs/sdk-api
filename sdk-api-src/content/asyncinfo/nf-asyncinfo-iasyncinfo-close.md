@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:asyncinfo.IAsyncInfo.Close
+title: IAsyncInfo::Close
+author: windows-sdk-content
+description: Closes the asynchronous work object.
+old-location: winrt\iasyncinfo_close.htm
+old-project: WinRT
+ms.assetid: 1c357343-79cf-4808-8e41-f898dfdb99f6
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: Close, Close method [Windows Runtime], Close method [Windows Runtime],IAsyncInfo interface, IAsyncInfo interface [Windows Runtime],Close method, IAsyncInfo.Close, IAsyncInfo::Close, asyncinfo/IAsyncInfo::Close, winrt.iasyncinfo_close
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: asyncinfo.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: AsyncInfo.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AsyncStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	AsyncInfo.h
+api_name:
+-	IAsyncInfo.Close
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAsyncInfo::Close

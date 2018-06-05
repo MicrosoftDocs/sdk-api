@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rpcdce.RpcServerUseProtseqExA
+title: RpcServerUseProtseqExA function
+author: windows-sdk-content
+description: The RpcServerUseProtseqEx function tells the RPC run-time library to use the specified protocol sequence for receiving remote procedure calls.
+old-location: rpc\rpcserveruseprotseqex.htm
+old-project: Rpc
+ms.assetid: a8cedfe9-9c16-4c35-9cc4-5ccaa9e130a8
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: RpcServerUseProtseqEx, RpcServerUseProtseqEx function [RPC], RpcServerUseProtseqExA, RpcServerUseProtseqExW, _rpc_rpcserveruseprotseqex, rpc.rpcserveruseprotseqex, rpcdce/RpcServerUseProtseqEx, rpcdce/RpcServerUseProtseqExA, rpcdce/RpcServerUseProtseqExW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rpcdce.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RpcServerUseProtseqExW (Unicode) and RpcServerUseProtseqExA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rpcrt4.dll
+api_name:
+-	RpcServerUseProtseqEx
+-	RpcServerUseProtseqExA
+-	RpcServerUseProtseqExW
+product: Windows
+targetos: Windows
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RpcServerUseProtseqExA function

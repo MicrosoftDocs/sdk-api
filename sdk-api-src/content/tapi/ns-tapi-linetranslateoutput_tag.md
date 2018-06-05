@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:tapi.linetranslateoutput_tag
+title: linetranslateoutput_tag
+author: windows-sdk-content
+description: The LINETRANSLATEOUTPUT structure describes the result of an address translation. The lineTranslateAddress function uses this structure.
+old-location: tapi2\linetranslateoutput_str.htm
+old-project: Tapi
+ms.assetid: bcf094ad-8098-4e45-9131-25dbdb7e4093
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*LPLINETRANSLATEOUTPUT, LINETRANSLATEOUTPUT, LINETRANSLATEOUTPUT structure [TAPI 2.2], LPLINETRANSLATEOUTPUT, LPLINETRANSLATEOUTPUT structure pointer [TAPI 2.2], _tapi2_linetranslateoutput_str, linetranslateoutput_tag, tapi/LINETRANSLATEOUTPUT, tapi/LPLINETRANSLATEOUTPUT, tapi2.linetranslateoutput_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LINETRANSLATEOUTPUT, *LPLINETRANSLATEOUTPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi.h
+api_name:
+-	LINETRANSLATEOUTPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # linetranslateoutput_tag structure

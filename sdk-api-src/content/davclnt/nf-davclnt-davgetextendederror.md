@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:davclnt.DavGetExtendedError
+title: DavGetExtendedError function
+author: windows-sdk-content
+description: Retrieves the extended error code information that the WebDAV server returned for the previous failed I/O operation.
+old-location: webdav\davgetextendederror.htm
+old-project: WebDAV
+ms.assetid: 939b6163-b7ae-4ab7-9bcc-a02cbf34ca63
+ms.author: windowssdkdev
+ms.date: 03/22/2018
+ms.keywords: DavGetExtendedError, DavGetExtendedError function [WebDAV], davclnt/DavGetExtendedError, webdav.davgetextendederror
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: davclnt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTHNEXTSTEP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	netapi32.dll
+-	DavHlpr.dll
+-	Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
+api_name:
+-	DavGetExtendedError
+product: Windows
+targetos: Windows
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 ---
 
 # DavGetExtendedError function

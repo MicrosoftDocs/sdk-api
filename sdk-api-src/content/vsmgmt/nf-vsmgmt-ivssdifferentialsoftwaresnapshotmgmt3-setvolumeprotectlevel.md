@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3.SetVolumeProtectLevel
+title: IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel
+author: windows-sdk-content
+description: Sets the shadow copy protection level for an original volume or a shadow copy storage area volume.
+old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_setvolumeprotectlevel.htm
+old-project: VSS
+ms.assetid: 3f8f3a0c-5076-4ce3-aa8b-5c66ac5fa47a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IVssDifferentialSoftwareSnapshotMgmt3 interface,SetVolumeProtectLevel method, IVssDifferentialSoftwareSnapshotMgmt3.SetVolumeProtectLevel, IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel, SetVolumeProtectLevel, SetVolumeProtectLevel method, SetVolumeProtectLevel method,IVssDifferentialSoftwareSnapshotMgmt3 interface, base.ivssdifferentialsoftwaresnapshotmgmt3_setvolumeprotectlevel, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VsMgmt.h
+api_name:
+-	IVssDifferentialSoftwareSnapshotMgmt3.SetVolumeProtectLevel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:propsys.PKA_FLAGS
+title: PKA_FLAGS
+author: windows-sdk-content
+description: Describes property change array behavior.
+old-location: properties\PKA_FLAGS.htm
+old-project: properties
+ms.assetid: 57cc5966-7983-4ecd-abee-36e5cc5401b6
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PKA_APPEND, PKA_DELETE, PKA_FLAGS, PKA_FLAGS enumeration [Windows Properties], PKA_SET, _shell_PKA_FLAGS, properties.PKA_FLAGS, propsys/PKA_APPEND, propsys/PKA_DELETE, propsys/PKA_FLAGS, propsys/PKA_SET, shell.PKA_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PKA_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Propsys.h
+api_name:
+-	PKA_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PKA_FLAGS enumeration

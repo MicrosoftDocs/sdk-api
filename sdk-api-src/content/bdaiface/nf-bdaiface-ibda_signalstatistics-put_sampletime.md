@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_SignalStatistics.put_SampleTime
+title: IBDA_SignalStatistics::put_SampleTime
+author: windows-sdk-content
+description: The put_SampleTime method specifies the sample time of the signal.
+old-location: mstv\ibda_signalstatistics_put_sampletime.htm
+old-project: mstv
+ms.assetid: 086fd3ad-26d7-4b5b-b73a-a7d4db44d2c2
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],put_SampleTime method, IBDA_SignalStatistics.put_SampleTime, IBDA_SignalStatistics::put_SampleTime, IBDA_SignalStatisticsput_SampleTime, bdaiface/IBDA_SignalStatistics::put_SampleTime, mstv.ibda_signalstatistics_put_sampletime, put_SampleTime, put_SampleTime method [Microsoft TV Technologies], put_SampleTime method [Microsoft TV Technologies],IBDA_SignalStatistics interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_SignalStatistics.put_SampleTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_SignalStatistics::put_SampleTime

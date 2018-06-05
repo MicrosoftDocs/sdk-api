@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:mgm.PMGM_JOIN_ALERT_CALLBACK
+title: PMGM_JOIN_ALERT_CALLBACK
+author: windows-sdk-content
+description: The PMGM_JOIN_ALERT_CALLBACK callback is a call into a routing protocol to notify the protocol that new receivers are present for one or more groups on interfaces that are owned by other routing protocols.
+old-location: rras\pmgm_join_alert_callback.htm
+old-project: RRAS
+ms.assetid: 6274f04c-78aa-4bce-b57d-625b0f4f6e5f
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: PMGM_JOIN_ALERT_CALLBACK, PMGM_JOIN_ALERT_CALLBACK callback, PMGM_JOIN_ALERT_CALLBACK callback function [RAS], _mpr_pmgm_join_alert_callback, mgm/PMGM_JOIN_ALERT_CALLBACK, rras.pmgm_join_alert_callback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: mgm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAM_MEDIUM, *PSTREAM_MEDIUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Mgm.h
+api_name:
+-	PMGM_JOIN_ALERT_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # PMGM_JOIN_ALERT_CALLBACK callback function

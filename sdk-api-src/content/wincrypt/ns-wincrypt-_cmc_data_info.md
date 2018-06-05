@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CMC_DATA_INFO
+title: "_CMC_DATA_INFO"
+author: windows-sdk-content
+description: Provides a means of communicating different pieces of tagged information.
+old-location: security\cmc_data_info.htm
+old-project: SecCrypto
+ms.assetid: 6245af5a-7a19-4665-bf6c-ad803998d840
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCMC_DATA_INFO, CMC_DATA_INFO, CMC_DATA_INFO structure [Security], PCMC_DATA_INFO, PCMC_DATA_INFO structure pointer [Security], _CMC_DATA_INFO, _crypto2_cmc_data_info, security.cmc_data_info, wincrypt/CMC_DATA_INFO, wincrypt/PCMC_DATA_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CMC_DATA_INFO, *PCMC_DATA_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CMC_DATA_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CMC_DATA_INFO structure

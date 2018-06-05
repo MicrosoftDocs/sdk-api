@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:sspi._SecPkgContext_AccessToken
+title: "_SecPkgContext_AccessToken"
+author: windows-sdk-content
+description: Returns a handle to the access token for the current security context.
+old-location: security\secpkgcontext_accesstoken.htm
+old-project: SecAuthN
+ms.assetid: 4dc11cbd-7f28-4cb9-aaea-6e5a89ac91f0
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSecPkgContext_AccessToken, PSecPkgContext_AccessToken, PSecPkgContext_AccessToken structure pointer [Security], SecPkgContext_AccessToken, SecPkgContext_AccessToken structure [Security], _SecPkgContext_AccessToken, security.secpkgcontext_accesstoken, sspi/PSecPkgContext_AccessToken, sspi/SecPkgContext_AccessToken"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: sspi.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SecPkgContext_AccessToken, *PSecPkgContext_AccessToken
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Sspi.h
+api_name:
+-	SecPkgContext_AccessToken
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_AccessToken structure

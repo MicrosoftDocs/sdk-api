@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkRecognizerGuide.put_Rows
+title: IInkRecognizerGuide::put_Rows
+author: windows-sdk-content
+description: Gets or sets the number of rows in the recognition guide.
+old-location: tablet\inkrecognizerguide_rows.htm
+old-project: tablet
+ms.assetid: 5b1204ca-40b0-4752-8294-6f94412e8e7c
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 5b1204ca-40b0-4752-8294-6f94412e8e7c, IInkRecognizerGuide interface [Tablet PC],Rows property, IInkRecognizerGuide.Rows, IInkRecognizerGuide.put_Rows, IInkRecognizerGuide::Rows, IInkRecognizerGuide::get_Rows, IInkRecognizerGuide::put_Rows, InkRecognizerGuide.get_Rows, InkRecognizerGuide.put_Rows, Rows property [Tablet PC], Rows property [Tablet PC],IInkRecognizerGuide interface, get_Rows, msinkaut/IInkRecognizerGuide::Rows, msinkaut/IInkRecognizerGuide::get_Rows, msinkaut/IInkRecognizerGuide::put_Rows, put_Rows, tablet.inkrecognizerguide_rows
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkRecognizerGuide.Rows
+-	IInkRecognizerGuide.get_Rows
+-	IInkRecognizerGuide.put_Rows
+-	InkRecognizerGuide.get_Rows
+-	InkRecognizerGuide.put_Rows
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognizerGuide::put_Rows

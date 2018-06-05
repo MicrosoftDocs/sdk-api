@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsock2.getprotobyname
+title: getprotobyname function
+author: windows-sdk-content
+description: The getprotobyname function retrieves the protocol information corresponding to a protocol name.
+old-location: winsock\getprotobyname_2.htm
+old-project: WinSock
+ms.assetid: 00669525-d477-4607-beaa-61ef5a8dbd4f
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "_win32_getprotobyname_2, getprotobyname, getprotobyname function [Winsock], winsock.getprotobyname_2, winsock/getprotobyname"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winsock2.h
+req.include-header: Winsock2.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ws2_32.dll
+api_name:
+-	getprotobyname
+product: Windows
+targetos: Windows
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # getprotobyname function

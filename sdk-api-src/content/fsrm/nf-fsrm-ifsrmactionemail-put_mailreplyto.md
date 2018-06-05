@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrm.IFsrmActionEmail.put_MailReplyTo
+title: IFsrmActionEmail::put_MailReplyTo
+author: windows-sdk-content
+description: Retrieves or sets the email address to use as the reply-to address when the recipient of the email message replies.
+old-location: fsrm\ifsrmactionemail_mailreplyto.htm
+old-project: Fsrm
+ms.assetid: 54d1b801-1df5-4712-9b2e-6a993a62b48a
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailReplyTo property, IFsrmActionEmail.MailReplyTo, IFsrmActionEmail.put_MailReplyTo, IFsrmActionEmail2 interface [File Server Resource Manager],MailReplyTo property, IFsrmActionEmail2.MailReplyTo, IFsrmActionEmail2::MailReplyTo, IFsrmActionEmail2::get_MailReplyTo, IFsrmActionEmail2::put_MailReplyTo, IFsrmActionEmail::get_MailReplyTo, IFsrmActionEmail::put_MailReplyTo, MailReplyTo property [File Server Resource Manager], MailReplyTo property [File Server Resource Manager],IFsrmActionEmail interface, MailReplyTo property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailreplyto, fsrm.ifsrmactionemail_mailreplyto, fsrm/IFsrmActionEmail2::MailReplyTo, fsrm/IFsrmActionEmail2::get_MailReplyTo, fsrm/IFsrmActionEmail2::put_MailReplyTo, fsrm/IFsrmActionEmail::MailReplyTo, fsrm/IFsrmActionEmail::get_MailReplyTo, fsrm/IFsrmActionEmail::put_MailReplyTo, put_MailReplyTo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrm.h
+req.include-header: FsrmQuota.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmActionEmail2.MailReplyTo
+-	IFsrmActionEmail2.get_MailReplyTo
+-	IFsrmActionEmail2.put_MailReplyTo
+-	IFsrmActionEmail.MailReplyTo
+-	IFsrmActionEmail.get_MailReplyTo
+-	IFsrmActionEmail.put_MailReplyTo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmActionEmail::put_MailReplyTo

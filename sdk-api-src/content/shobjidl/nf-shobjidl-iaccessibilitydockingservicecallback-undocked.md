@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:shobjidl.IAccessibilityDockingServiceCallback.Undocked
+title: IAccessibilityDockingServiceCallback::Undocked
+author: windows-sdk-content
+description: Undocks the accessibility window so that it will not be automatically moved to its previous location.
+old-location: com\iaccessibilitydockingservicecallback_undocked.htm
+old-project: com
+ms.assetid: 1D704794-C729-49B9-8F72-6D77D0860B03
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IAccessibilityDockingServiceCallback interface [COM],Undocked method, IAccessibilityDockingServiceCallback.Undocked, IAccessibilityDockingServiceCallback::Undocked, Undocked, Undocked method [COM], Undocked method [COM],IAccessibilityDockingServiceCallback interface, com.iaccessibilitydockingservicecallback_undocked, shobjidl/IAccessibilityDockingServiceCallback::Undocked
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl.h
+api_name:
+-	IAccessibilityDockingServiceCallback.Undocked
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # IAccessibilityDockingServiceCallback::Undocked

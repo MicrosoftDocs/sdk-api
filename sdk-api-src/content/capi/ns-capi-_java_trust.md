@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:capi._JAVA_TRUST
+title: "_JAVA_TRUST"
+author: windows-sdk-content
+description: Contains trust information.
+old-location: winprog\java_trust.htm
+old-project: DevNotes
+ms.assetid: ceb8cfc4-3b29-47d1-a651-d3cee898c1eb
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*PJAVA_TRUST, JAVA_TRUST, JAVA_TRUST structure [Windows API], PJAVA_TRUST, PJAVA_TRUST structure pointer [Windows API], _JAVA_TRUST, capi/JAVA_TRUST, capi/PJAVA_TRUST, winprog.java_trust"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: capi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CameraUIControl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: JAVA_TRUST, *PJAVA_TRUST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Capi.h
+api_name:
+-	JAVA_TRUST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _JAVA_TRUST structure

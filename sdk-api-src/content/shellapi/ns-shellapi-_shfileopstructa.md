@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shellapi._SHFILEOPSTRUCTA
+title: "_SHFILEOPSTRUCTA"
+author: windows-sdk-content
+description: Contains information that the SHFileOperation function uses to perform file operations.
+old-location: shell\SHFILEOPSTRUCT.htm
+old-project: shell
+ms.assetid: 590d87c2-0c75-44b9-a9b5-f7c37728512b
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPSHFILEOPSTRUCTA, FOF_ALLOWUNDO, FOF_CONFIRMMOUSE, FOF_FILESONLY, FOF_MULTIDESTFILES, FOF_NOCONFIRMATION, FOF_NOCONFIRMMKDIR, FOF_NOCOPYSECURITYATTRIBS, FOF_NOERRORUI, FOF_NORECURSEREPARSE, FOF_NORECURSION, FOF_NO_CONNECTED_ELEMENTS, FOF_NO_UI, FOF_RENAMEONCOLLISION, FOF_SILENT, FOF_SIMPLEPROGRESS, FOF_WANTMAPPINGHANDLE, FOF_WANTNUKEWARNING, FO_COPY, FO_DELETE, FO_MOVE, FO_RENAME, LPSHFILEOPSTRUCT, LPSHFILEOPSTRUCT structure pointer [Windows Shell], SHFILEOPSTRUCT, SHFILEOPSTRUCT structure [Windows Shell], SHFILEOPSTRUCTA, _SHFILEOPSTRUCTA, _win32_SHFILEOPSTRUCT, shell.SHFILEOPSTRUCT, shellapi/LPSHFILEOPSTRUCT, shellapi/SHFILEOPSTRUCT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shellapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHFILEOPSTRUCTA, *LPSHFILEOPSTRUCTA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shellapi.h
+api_name:
+-	SHFILEOPSTRUCT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # _SHFILEOPSTRUCTA structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:propvarutil.PropVariantToUInt64WithDefault
+title: PropVariantToUInt64WithDefault function
+author: windows-sdk-content
+description: Extracts ULONGLONG value from a PROPVARIANT structure. If no value exists, then the specified default value is returned.
+old-location: properties\PropVariantToUInt64WithDefault.htm
+old-project: properties
+ms.assetid: 8ca0e25e-6a3f-41ff-9a4a-7cca9a02d07c
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PropVariantToUInt64WithDefault, PropVariantToUInt64WithDefault function [Windows Properties], properties.PropVariantToUInt64WithDefault, propvarutil/PropVariantToUInt64WithDefault, shell.PropVariantToUInt64WithDefault, shell_PropVariantToUInt64WithDefault
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: propvarutil.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPVAR_COMPARE_UNIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Propsys.dll
+api_name:
+-	PropVariantToUInt64WithDefault
+product: Windows
+targetos: Windows
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PropVariantToUInt64WithDefault function

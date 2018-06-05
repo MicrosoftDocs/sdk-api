@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wlanapi.WlanHostedNetworkForceStart
+title: WlanHostedNetworkForceStart function
+author: windows-sdk-content
+description: Transitions the wireless Hosted Network to the wlan_hosted_network_active state without associating the request with the application's calling handle.
+old-location: nwifi\wlanhostednetworkforcestart.htm
+old-project: NativeWiFi
+ms.assetid: d3e3b44f-ff52-4062-b54d-a0e3f2cf7785
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: WlanHostedNetworkForceStart, WlanHostedNetworkForceStart function [NativeWIFI], nwifi.wlanhostednetworkforcestart, wlanapi/WlanHostedNetworkForceStart
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wlanapi.h
+req.include-header: Wlanapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wlanapi.dll
+api_name:
+-	WlanHostedNetworkForceStart
+product: Windows
+targetos: Windows
+req.lib: Wlanapi.lib
+req.dll: Wlanapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WlanHostedNetworkForceStart function

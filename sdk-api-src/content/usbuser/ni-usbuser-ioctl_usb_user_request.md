@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NI:usbuser.IOCTL_USB_USER_REQUEST
+title: IOCTL_USB_USER_REQUEST
+author: windows-sdk-content
+description: The IOCTL_USB_USER_REQUEST I/O control request is available to both user-mode applications and kernel-mode drivers.
+old-location: buses\ioctl_usb_user_request.htm
+old-project: usbref
+ms.assetid: 6aba5cf4-a9fa-4d10-a212-acc79e00fa9b
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: IOCTL_USB_USER_REQUEST, IOCTL_USB_USER_REQUEST control, IOCTL_USB_USER_REQUEST control code [Buses], buses.ioctl_usb_user_request, usbirp_7409a5c0-756e-45ea-b2f5-0b73d91c9225.xml, usbuser/IOCTL_USB_USER_REQUEST
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: ioctl
+req.header: usbuser.h
+req.include-header: Usbuser.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WDMUSB_POWER_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Usbuser.h
+api_name:
+-	IOCTL_USB_USER_REQUEST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IOCTL_USB_USER_REQUEST IOCTL

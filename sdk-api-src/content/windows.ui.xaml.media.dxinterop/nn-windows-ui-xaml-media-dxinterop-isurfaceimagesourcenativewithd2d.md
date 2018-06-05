@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNativeWithD2D
+title: ISurfaceImageSourceNativeWithD2D
+author: windows-sdk-content
+description: Provides the implementation of a shared Microsoft DirectX surface which is displayed in a SurfaceImageSource or VirtualSurfaceImageSource.
+old-location: winrt\isurfaceimagesourcenativewithd2d.htm
+old-project: WinRT
+ms.assetid: 5C004E4F-12C6-4C2E-AE9A-D841411FF689
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: ISurfaceImageSourceNativeWithD2D, ISurfaceImageSourceNativeWithD2D interface [Windows Runtime], ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],described, windows/ISurfaceImageSourceNativeWithD2D, winrt.isurfaceimagesourcenativewithd2d
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: windows.ui.xaml.media.dxinterop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Windows.ui.xaml.media.dxinterop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDF_RENDER_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windows.UI.Xaml.dll
+api_name:
+-	ISurfaceImageSourceNativeWithD2D
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ISurfaceImageSourceNativeWithD2D interface

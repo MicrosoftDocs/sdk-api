@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tom.ITextSelection.HomeKey
+title: ITextSelection::HomeKey
+author: windows-sdk-content
+description: Generalizes the functionality of the Home key.
+old-location: controls\ITextSelection_HomeKey.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\homekey.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: HomeKey, HomeKey method [Windows Controls], HomeKey method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],HomeKey method, ITextSelection.HomeKey, ITextSelection::HomeKey, _win32_ITextSelection_HomeKey, _win32_ITextSelection_HomeKey_cpp, controls.ITextSelection_HomeKey, controls._win32_ITextSelection_HomeKey, tom/ITextSelection::HomeKey, tomColumn, tomLine, tomRow, tomStory
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextSelection.HomeKey
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextSelection::HomeKey

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dispatcherqueue.CreateDispatcherQueueController
+title: CreateDispatcherQueueController function
+author: windows-sdk-content
+description: Creates a DispatcherQueueController on the caller's thread. Use the created DispatcherQueueController to create and manage the lifetime of a DispatcherQueue to run queued tasks in priority order on the Dispatcher queue's thread.
+old-location: base\createdispatcherqueuecontroller.htm
+old-project: ProcThread
+ms.assetid: 750097BB-C4D1-4579-9353-582124D5CE3B
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: CreateDispatcherQueueController, CreateDispatcherQueueController function, base.createdispatcherqueuecontroller, dispatcherqueue/CreateDispatcherQueueController
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dispatcherqueue.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	CoreMessaging.dll
+api_name:
+-	CreateDispatcherQueueController
+product: Windows
+targetos: Windows
+req.lib: CoreMessaging.lib
+req.dll: CoreMessaging.dll
+req.irql: 
 ---
 
 # CreateDispatcherQueueController function

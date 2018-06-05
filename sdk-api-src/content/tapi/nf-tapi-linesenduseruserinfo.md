@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi.lineSendUserUserInfo
+title: lineSendUserUserInfo function
+author: windows-sdk-content
+description: The lineSendUserUserInfo function sends user-user information to the remote party on the specified call.
+old-location: tapi2\linesenduseruserinfo.htm
+old-project: Tapi
+ms.assetid: 833827a0-bbb2-4df9-87a0-3b2eb1904611
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "_tapi2_linesenduseruserinfo, lineSendUserUserInfo, lineSendUserUserInfo function [TAPI 2.2], tapi/lineSendUserUserInfo, tapi2.linesenduseruserinfo"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FLICK_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tapi32.dll
+api_name:
+-	lineSendUserUserInfo
+product: Windows
+targetos: Windows
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # lineSendUserUserInfo function

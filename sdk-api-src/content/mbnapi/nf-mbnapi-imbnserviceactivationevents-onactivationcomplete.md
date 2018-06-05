@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mbnapi.IMbnServiceActivationEvents.OnActivationComplete
+title: IMbnServiceActivationEvents::OnActivationComplete
+author: windows-sdk-content
+description: Notification method called by the Mobile Broadband service to indicate that a service activation request ahs completed.
+old-location: mbn\imbnserviceactivationevents_onactivationcomplete.htm
+old-project: mbn
+ms.assetid: bc1c85b3-1b7b-4439-9358-801da8f4c79b
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: E_INVALIDARG, E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_PROVIDER_NOT_VISIBLE, E_MBN_RADIO_POWER_OFF, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnServiceActivationEvents interface [Microsoft Broadband Networks],OnActivationComplete method, IMbnServiceActivationEvents.OnActivationComplete, IMbnServiceActivationEvents::OnActivationComplete, OnActivationComplete, OnActivationComplete method [Microsoft Broadband Networks], OnActivationComplete method [Microsoft Broadband Networks],IMbnServiceActivationEvents interface, S_OK, mbn.imbnserviceactivationevents_onactivationcomplete, mbnapi/IMbnServiceActivationEvents::OnActivationComplete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnServiceActivationEvents.OnActivationComplete
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMbnServiceActivationEvents::OnActivationComplete

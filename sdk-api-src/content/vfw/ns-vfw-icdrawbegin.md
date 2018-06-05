@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vfw.ICDRAWBEGIN
+title: ICDRAWBEGIN
+author: windows-sdk-content
+description: The ICDRAWBEGIN structure contains decompression parameters used with the ICM_DRAW_BEGIN message.
+old-location: multimedia\icdrawbegin_struct.htm
+old-project: Multimedia
+ms.assetid: 1ec2309c-7ea8-423e-aee3-5e0c650f0b3d
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ICDRAWBEGIN, ICDRAWBEGIN structure [Windows Multimedia], ICDRAW_ANIMATE, ICDRAW_BUFFER, ICDRAW_CONTINUE, ICDRAW_FULLSCREEN, ICDRAW_HDC, ICDRAW_MEMORYDC, ICDRAW_QUERY, ICDRAW_RENDER, ICDRAW_UPDATING, multimedia.icdrawbegin_COLLISION9, multimedia.icdrawbegin_struct, vfw/ICDRAWBEGIN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ICDRAWBEGIN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vfw.h
+api_name:
+-	ICDRAWBEGIN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # ICDRAWBEGIN structure

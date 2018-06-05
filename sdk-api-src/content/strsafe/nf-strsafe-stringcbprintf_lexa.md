@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strsafe.StringCbPrintf_lExA
+title: StringCbPrintf_lExA function
+author: windows-sdk-content
+description: Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
+old-location: menurc\stringcbprintf_lex.htm
+old-project: menurc
+ms.assetid: 64992b8f-4f85-47fc-bb14-37fdf0847eac
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbPrintf_lEx, StringCbPrintf_lEx function [Menus and Other Resources], StringCbPrintf_lExA, StringCbPrintf_lExW, menurc.stringcbprintf_lex, strsafe/StringCbPrintf_lEx, strsafe/StringCbPrintf_lExA, strsafe/StringCbPrintf_lExW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: strsafe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: StringCbPrintf_lExW (Unicode) and StringCbPrintf_lExA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_DVD_RENDERSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	StrSafe.h
+api_name:
+-	StringCbPrintf_lEx
+-	StringCbPrintf_lExA
+-	StringCbPrintf_lExW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # StringCbPrintf_lExA function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsbackup.IVssExamineWriterMetadata.GetBackupSchema
+title: IVssExamineWriterMetadata::GetBackupSchema
+author: windows-sdk-content
+description: The GetBackupSchema method is used by a requester to determine from the Writer Metadata Document the types of backup operations that a given writer can participate in.
+old-location: base\ivssexaminewritermetadata_getbackupschema.htm
+old-project: VSS
+ms.assetid: d7099d6e-b8dd-44a5-af68-f3347c5d251b
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetBackupSchema, GetBackupSchema method [VSS], GetBackupSchema method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetBackupSchema method, IVssExamineWriterMetadata.GetBackupSchema, IVssExamineWriterMetadata::GetBackupSchema, _win32_ivssexaminewritermetadata_getbackupschema, base.ivssexaminewritermetadata_getbackupschema, vsbackup/IVssExamineWriterMetadata::GetBackupSchema
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsbackup.h
+req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssExamineWriterMetadata.GetBackupSchema
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssExamineWriterMetadata::GetBackupSchema

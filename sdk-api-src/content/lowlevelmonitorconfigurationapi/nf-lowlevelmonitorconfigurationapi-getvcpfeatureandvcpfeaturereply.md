@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:lowlevelmonitorconfigurationapi.GetVCPFeatureAndVCPFeatureReply
+title: GetVCPFeatureAndVCPFeatureReply function
+author: windows-sdk-content
+description: Retrieves the current value, maximum value, and code type of a Virtual Control Panel (VCP) code for a monitor.
+old-location: monitor\getvcpfeatureandvcpfeaturereply.htm
+old-project: Monitor
+ms.assetid: b0b06137-8f67-46fc-ba6b-3022f3331fa5
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetVCPFeatureAndVCPFeatureReply, GetVCPFeatureAndVCPFeatureReply function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetVCPFeatureAndVCPFeatureReply, monitor.getvcpfeatureandvcpfeaturereply
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: lowlevelmonitorconfigurationapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MC_VCP_CODE_TYPE, *LPMC_VCP_CODE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	dxva2.dll
+api_name:
+-	GetVCPFeatureAndVCPFeatureReply
+product: Windows
+targetos: Windows
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # GetVCPFeatureAndVCPFeatureReply function

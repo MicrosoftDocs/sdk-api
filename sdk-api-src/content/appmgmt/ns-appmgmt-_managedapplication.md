@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:appmgmt._MANAGEDAPPLICATION
+title: "_MANAGEDAPPLICATION"
+author: windows-sdk-content
+description: The MANAGEDAPPLICATION structure contains information about an application. The function GetManagedApplications returns an array of MANAGEDAPPLICATION structures.
+old-location: policy\managedapplication_str.htm
+old-project: Policy
+ms.assetid: 8ac78f92-e665-4dd0-b226-6bf41dcd050a
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PMANAGEDAPPLICATION, MANAGEDAPPLICATION, MANAGEDAPPLICATION structure [Group Policy], MANAGED_APPTYPE_SETUPEXE, MANAGED_APPTYPE_UNSUPPORTED, MANAGED_APPTYPE_WINDOWSINSTALLER, PMANAGEDAPPLICATION, PMANAGEDAPPLICATION structure pointer [Group Policy], _MANAGEDAPPLICATION, appmgmt/MANAGEDAPPLICATION, appmgmt/PMANAGEDAPPLICATION, policy.managedapplication_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: appmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANAGEDAPPLICATION, *PMANAGEDAPPLICATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Appmgmt.h
+api_name:
+-	MANAGEDAPPLICATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _MANAGEDAPPLICATION structure

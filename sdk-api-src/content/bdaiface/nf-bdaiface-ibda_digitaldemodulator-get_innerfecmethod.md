@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_DigitalDemodulator.get_InnerFECMethod
+title: IBDA_DigitalDemodulator::get_InnerFECMethod
+author: windows-sdk-content
+description: The get_InnerFECMethod method retrieves the inner forward error correction method.
+old-location: mstv\ibda_digitaldemodulator_get_innerfecmethod.htm
+old-project: mstv
+ms.assetid: a245c9fa-6f1e-4aa6-a5bf-b9707244a9e2
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_InnerFECMethod method, IBDA_DigitalDemodulator.get_InnerFECMethod, IBDA_DigitalDemodulator::get_InnerFECMethod, IBDA_DigitalDemodulatorget_InnerFECMethod, bdaiface/IBDA_DigitalDemodulator::get_InnerFECMethod, get_InnerFECMethod, get_InnerFECMethod method [Microsoft TV Technologies], get_InnerFECMethod method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_innerfecmethod
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_DigitalDemodulator.get_InnerFECMethod
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_DigitalDemodulator::get_InnerFECMethod

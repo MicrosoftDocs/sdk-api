@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vds.IVdsDiskPartitionMF2.FormatPartitionEx2
+title: IVdsDiskPartitionMF2::FormatPartitionEx2
+author: windows-sdk-content
+description: Formats an existing OEM, ESP, or unknown partition. This method is identical to the IVdsDiskPartitionMF::FormatPartition method, except that formatting options are specified by using the Options parameter.
+old-location: base\ivdsdiskpartitionmf2_formatpartitionex2.htm
+old-project: VDS
+ms.assetid: 2a37d3c7-5c03-4b19-9d82-c3b16bf980e1
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: FormatPartitionEx2, FormatPartitionEx2 method, FormatPartitionEx2 method,IVdsDiskPartitionMF2 interface, IVdsDiskPartitionMF2 interface,FormatPartitionEx2 method, IVdsDiskPartitionMF2.FormatPartitionEx2, IVdsDiskPartitionMF2::FormatPartitionEx2, base.ivdsdiskpartitionmf2_formatpartitionex2, vds/IVdsDiskPartitionMF2::FormatPartitionEx2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VOLUME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Vds.h
+api_name:
+-	IVdsDiskPartitionMF2.FormatPartitionEx2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsDiskPartitionMF2::FormatPartitionEx2

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:tlhelp32.tagMODULEENTRY32
+title: tagMODULEENTRY32
+author: windows-sdk-content
+description: Describes an entry from a list of the modules belonging to the specified process.
+old-location: toolhelp\moduleentry32_str.htm
+old-project: ToolHelp
+ms.assetid: 305fab35-625c-42e3-a434-e2513e4c8870
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPMODULEENTRY32, *PMODULEENTRY32, MODULEENTRY32, MODULEENTRY32 structure [ToolHelp], MODULEENTRY32W, PMODULEENTRY32, PMODULEENTRY32 structure pointer [ToolHelp], _win32_moduleentry32_str, base.moduleentry32_str, tagMODULEENTRY32, tlhelp32/MODULEENTRY32, tlhelp32/MODULEENTRY32W, tlhelp32/PMODULEENTRY32, toolhelp.moduleentry32_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tlhelp32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: MODULEENTRY32W (Unicode) and MODULEENTRY32 (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MODULEENTRY32
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	TlHelp32.h
+api_name:
+-	MODULEENTRY32
+-	MODULEENTRY32
+-	MODULEENTRY32W
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # tagMODULEENTRY32 structure

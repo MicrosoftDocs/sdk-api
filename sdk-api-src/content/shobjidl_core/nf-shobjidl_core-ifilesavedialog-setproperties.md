@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IFileSaveDialog.SetProperties
+title: IFileSaveDialog::SetProperties
+author: windows-sdk-content
+description: Provides a property store that defines the default values to be used for the item being saved.
+old-location: shell\IFileSaveDialog_SetProperties.htm
+old-project: shell
+ms.assetid: 418f2524-5e6d-4e79-894b-b5f706171836
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IFileSaveDialog interface [Windows Shell],SetProperties method, IFileSaveDialog.SetProperties, IFileSaveDialog::SetProperties, SetProperties, SetProperties method [Windows Shell], SetProperties method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetProperties, shell_IFileSaveDialog_SetProperties, shobjidl_core/IFileSaveDialog::SetProperties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shobjidl_core.h
+api_name:
+-	IFileSaveDialog.SetProperties
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IFileSaveDialog::SetProperties

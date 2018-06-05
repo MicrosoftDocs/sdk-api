@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfapi.MFWrapMediaType
+title: MFWrapMediaType function
+author: windows-sdk-content
+description: Creates a media type that wraps another media type.
+old-location: mf\mfwrapmediatype.htm
+old-project: medfound
+ms.assetid: a3dd74bc-1f1c-40b9-a43e-d45ff621248f
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFWrapMediaType, MFWrapMediaType function [Media Foundation], a3dd74bc-1f1c-40b9-a43e-d45ff621248f, mf.mfwrapmediatype, mfapi/MFWrapMediaType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	mfplat.dll
+api_name:
+-	MFWrapMediaType
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MFWrapMediaType function

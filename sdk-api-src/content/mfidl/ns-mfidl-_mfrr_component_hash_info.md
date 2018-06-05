@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mfidl._MFRR_COMPONENT_HASH_INFO
+title: "_MFRR_COMPONENT_HASH_INFO"
+author: windows-sdk-content
+description: Contains information about a revoked component.
+old-location: mf\mfrr_component_hash_info.htm
+old-project: medfound
+ms.assetid: e23bc68c-b62e-4483-b2a7-a7de7376697f
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PMFRR_COMPONENT_HASH_INFO, MFRR_COMPONENT_HASH_INFO, MFRR_COMPONENT_HASH_INFO structure [Media Foundation], MF_BOOT_DRIVER_VERIFICATION_FAILED, MF_COMPONENT_CERT_REVOKED, MF_COMPONENT_HS_CERT_REVOKED, MF_COMPONENT_INVALID_EKU, MF_COMPONENT_INVALID_ROOT, MF_COMPONENT_LS_CERT_REVOKED, MF_COMPONENT_REVOKED, MF_GRL_ABSENT, MF_GRL_LOAD_FAILED, MF_INVALID_GRL_SIGNATURE, MF_KERNEL_MODE_COMPONENT_LOAD, MF_MINCRYPT_FAILURE, MF_TEST_SIGNED_COMPONENT_LOADING, MF_USER_MODE_COMPONENT_LOAD, PMFRR_COMPONENT_HASH_INFO, PMFRR_COMPONENT_HASH_INFO structure pointer [Media Foundation], _MFRR_COMPONENT_HASH_INFO, e23bc68c-b62e-4483-b2a7-a7de7376697f, mf.mfrr_component_hash_info, mfidl/MFRR_COMPONENT_HASH_INFO, mfidl/PMFRR_COMPONENT_HASH_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFRR_COMPONENT_HASH_INFO, *PMFRR_COMPONENT_HASH_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFRR_COMPONENT_HASH_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFRR_COMPONENT_HASH_INFO structure

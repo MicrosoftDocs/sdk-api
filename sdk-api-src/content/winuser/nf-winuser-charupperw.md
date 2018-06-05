@@ -1,31 +1,57 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winuser.CharUpperW
+title: CharUpperW function
+author: windows-sdk-content
+description: Converts a character string or a single character to uppercase. If the operand is a character string, the function converts the characters in place.
+old-location: menurc\charupper.htm
+old-project: menurc
+ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupper.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CharUpper, CharUpper function [Menus and Other Resources], CharUpperA, CharUpperW, _win32_CharUpper, _win32_charupper_cpp, menurc.charupper, winui._win32_charupper, winuser/CharUpper, winuser/CharUpperA, winuser/CharUpperW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CharUpperW (Unicode) and CharUpperA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+-	API-MS-Win-Core-String-l2-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-String-l2-1-1.dll
+-	API-MS-Win-Core-Stringansi-l1-1-0.dll
+-	API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
+-	API-MS-Win-DownLevel-user32-l1-1-0.dll
+-	API-MS-Win-DownLevel-user32-l1-1-1.dll
+api_name:
+-	CharUpper
+-	CharUpperA
+-	CharUpperW
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # CharUpperW function

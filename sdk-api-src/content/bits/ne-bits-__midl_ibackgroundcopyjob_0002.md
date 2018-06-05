@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:bits.__MIDL_IBackgroundCopyJob_0002
+title: "__MIDL_IBackgroundCopyJob_0002"
+author: windows-sdk-content
+description: The BG_JOB_STATE enumeration defines constant values for the different states of a job.
+old-location: bits\bg_job_state.htm
+old-project: Bits
+ms.assetid: a7857cf1-05b7-42df-b79e-50a2f6a406dc
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BG_JOB_STATE, BG_JOB_STATE enumeration [BITS], BG_JOB_STATE_ACKNOWLEDGED, BG_JOB_STATE_CANCELLED, BG_JOB_STATE_CONNECTING, BG_JOB_STATE_ERROR, BG_JOB_STATE_QUEUED, BG_JOB_STATE_SUSPENDED, BG_JOB_STATE_TRANSFERRED, BG_JOB_STATE_TRANSFERRING, BG_JOB_STATE_TRANSIENT_ERROR, __MIDL_IBackgroundCopyJob_0002, _drz_bg_job_state, bits.bg_job_state, bits/BG_JOB_STATE, bits/BG_JOB_STATE_ACKNOWLEDGED, bits/BG_JOB_STATE_CANCELLED, bits/BG_JOB_STATE_CONNECTING, bits/BG_JOB_STATE_ERROR, bits/BG_JOB_STATE_QUEUED, bits/BG_JOB_STATE_SUSPENDED, bits/BG_JOB_STATE_TRANSFERRED, bits/BG_JOB_STATE_TRANSFERRING, bits/BG_JOB_STATE_TRANSIENT_ERROR
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bits.h
+api_name:
+-	BG_JOB_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # __MIDL_IBackgroundCopyJob_0002 enumeration

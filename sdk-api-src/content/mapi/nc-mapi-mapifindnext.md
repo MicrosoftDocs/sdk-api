@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:mapi.MAPIFINDNEXT
+title: MAPIFINDNEXT
+author: windows-sdk-content
+description: The MAPIFindNext function retrieves the next (or first) message identifier of a specified type of incoming message.
+old-location: mapi\mapifindnext.htm
+old-project: WindowsMAPI
+ms.assetid: 6c11e88c-2883-4486-9679-2bdf0b30b8b0
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: MAPIFindNext, MAPIFindNext callback, MAPIFindNext callback function, MAPI_GUARANTEE_FIFO, MAPI_LONG_MSGID, MAPI_UNREAD_ONLY, mapi.mapifindnext, mapi/MAPIFindNext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: mapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Mapi.h
+api_name:
+-	MAPIFindNext
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MAPIFINDNEXT callback function

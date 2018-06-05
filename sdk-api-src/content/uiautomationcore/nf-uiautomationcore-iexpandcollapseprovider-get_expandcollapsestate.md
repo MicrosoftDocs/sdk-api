@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcore.IExpandCollapseProvider.get_ExpandCollapseState
+title: IExpandCollapseProvider::get_ExpandCollapseState
+author: windows-sdk-content
+description: Indicates the state, expanded or collapsed, of the control.
+old-location: winauto\uiauto_IExpandCollapseProvider_ExpandCollapseState.htm
+old-project: WinAuto
+ms.assetid: 0f0cdf30-97e5-45df-88a5-039e15e26420
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: ExpandCollapseState property [Windows Accessibility], ExpandCollapseState property [Windows Accessibility],IExpandCollapseProvider interface, IExpandCollapseProvider interface [Windows Accessibility],ExpandCollapseState property, IExpandCollapseProvider.ExpandCollapseState, IExpandCollapseProvider.get_ExpandCollapseState, IExpandCollapseProvider::ExpandCollapseState, IExpandCollapseProvider::get_ExpandCollapseState, get_ExpandCollapseState, uiauto.uiauto_IExpandCollapseProvider_ExpandCollapseState, uiauto_IExpandCollapseProvider_ExpandCollapseState, uiautomationcore/IExpandCollapseProvider::ExpandCollapseState, uiautomationcore/IExpandCollapseProvider::get_ExpandCollapseState, winauto.uiauto_IExpandCollapseProvider_ExpandCollapseState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationCore.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uiautomationcore.dll
+api_name:
+-	IExpandCollapseProvider.ExpandCollapseState
+-	IExpandCollapseProvider.get_ExpandCollapseState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IExpandCollapseProvider::get_ExpandCollapseState

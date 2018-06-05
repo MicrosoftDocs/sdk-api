@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsock.shutdown
+title: shutdown function
+author: windows-sdk-content
+description: The shutdown function disables sends or receives on a socket.
+old-location: winsock\shutdown_2.htm
+old-project: WinSock
+ms.assetid: 6998f0c6-adc9-481f-b9fb-75f9c9f5caaf
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: SD_BOTH, SD_RECEIVE, SD_SEND, _win32_shutdown_2, shutdown, shutdown function [Winsock], winsock.shutdown_2, winsock/shutdown
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winsock.h
+req.include-header: Winsock2.h, Webhost.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: smiVENDORINFO, *smiLPVENDORINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ws2_32.dll
+-	wsock32.dll
+api_name:
+-	shutdown
+product: Windows
+targetos: Windows
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # shutdown function

@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wuapi.IInstallationProgress.get_CurrentUpdatePercentComplete
+title: IInstallationProgress::get_CurrentUpdatePercentComplete
+author: windows-sdk-content
+description: Gets how far the installation or uninstallation process for the current update has progressed, as a percentage.
+old-location: wua\iinstallationprogress_currentupdatepercentcomplete.htm
+old-project: Wua_Sdk
+ms.assetid: 2034cd9f-d666-43ff-b7d1-719b42a60cd5
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: CurrentUpdatePercentComplete property [Windows Update Agent], CurrentUpdatePercentComplete property [Windows Update Agent],IInstallationProgress interface, IInstallationProgress interface [Windows Update Agent],CurrentUpdatePercentComplete property, IInstallationProgress.CurrentUpdatePercentComplete, IInstallationProgress.get_CurrentUpdatePercentComplete, IInstallationProgress::CurrentUpdatePercentComplete, IInstallationProgress::get_CurrentUpdatePercentComplete, get_CurrentUpdatePercentComplete, wua.iinstallationprogress_currentupdatepercentcomplete, wuapi/IInstallationProgress::CurrentUpdatePercentComplete, wuapi/IInstallationProgress::get_CurrentUpdatePercentComplete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wuapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IInstallationProgress.CurrentUpdatePercentComplete
+-	IInstallationProgress.get_CurrentUpdatePercentComplete
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IInstallationProgress::get_CurrentUpdatePercentComplete

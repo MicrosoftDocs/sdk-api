@@ -1,31 +1,53 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbtsv.ITsSbTarget.put_TargetNetbios
+title: ITsSbTarget::put_TargetNetbios
+author: windows-sdk-content
+description: Retrieves or specifies the NetBIOS name of the target.
+old-location: termserv\itssbtarget_targetnetbios.htm
+old-project: TermServ
+ms.assetid: c1c91d9c-10ae-4fe3-8742-c0fbe68b7020
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetNetbios property, ITsSbTarget.TargetNetbios, ITsSbTarget.put_TargetNetbios, ITsSbTarget::TargetNetbios, ITsSbTarget::get_TargetNetbios, ITsSbTarget::put_TargetNetbios, ITsSbTargetEx interface [Remote Desktop Services],TargetNetbios property, ITsSbTargetEx.TargetNetbios, ITsSbTargetEx::get_TargetNetbios, ITsSbTargetEx::put_TargetNetbios, TargetNetbios property [Remote Desktop Services], TargetNetbios property [Remote Desktop Services],ITsSbTarget interface, TargetNetbios property [Remote Desktop Services],ITsSbTargetEx interface, put_TargetNetbios, sbtsv/ITsSbTarget::TargetNetbios, sbtsv/ITsSbTarget::get_TargetNetbios, sbtsv/ITsSbTarget::put_TargetNetbios, sbtsv/ITsSbTargetEx::TargetNetbios, sbtsv/ITsSbTargetEx::get_TargetNetbios, sbtsv/ITsSbTargetEx::put_TargetNetbios, termserv.itssbtarget_targetnetbios
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbtsv.h
+req.include-header: Sbtsv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Sbtsv.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TS_SB_SORT_BY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbtsv.h
+api_name:
+-	ITsSbTarget.TargetNetbios
+-	ITsSbTarget.get_TargetNetbios
+-	ITsSbTarget.put_TargetNetbios
+-	ITsSbTargetEx.TargetNetbios
+-	ITsSbTargetEx.get_TargetNetbios
+-	ITsSbTargetEx.put_TargetNetbios
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbTarget::put_TargetNetbios

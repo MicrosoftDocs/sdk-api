@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmdfs._DFS_INFO_104
+title: "_DFS_INFO_104"
+author: windows-sdk-content
+description: Contains the priority of a DFS root target or link target.
+old-location: dfs\dfs_info_104.htm
+old-project: Dfs
+ms.assetid: 95b2cd36-4933-440d-889d-ebf36d7b9cc7
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDFS_INFO_104, *PDFS_INFO_104, DFS_INFO_104, DFS_INFO_104 structure [Distributed File System], LPDFS_INFO_104, LPDFS_INFO_104 structure pointer [Distributed File System], PDFS_INFO_104, PDFS_INFO_104 structure pointer [Distributed File System], _DFS_INFO_104, dfs.dfs_info_104, fs.dfs_info_104, lmdfs/DFS_INFO_104, lmdfs/LPDFS_INFO_104, lmdfs/PDFS_INFO_104, netmgmt.dfs_info_104"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmdfs.h
+req.include-header: LmDfs.h, Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008, Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DFS_INFO_104, *PDFS_INFO_104, *LPDFS_INFO_104
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	LmDfs.h
+api_name:
+-	DFS_INFO_104
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _DFS_INFO_104 structure

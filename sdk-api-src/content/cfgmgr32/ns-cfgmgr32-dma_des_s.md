@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:cfgmgr32.DMA_Des_s
+title: DMA_Des_s
+author: windows-sdk-content
+description: The DMA_DES structure is used for specifying either a resource list or a resource requirements list that describes direct memory access (DMA) channel usage for a device instance.
+old-location: devinst\dma_des.htm
+old-project: devinst
+ms.assetid: e357132d-ba40-4c14-813c-505aadc94a26
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PDMA_DES, DMA_DES, DMA_DES structure [Device and Driver Installation], DMA_Des_s, PDMA_DES, PDMA_DES structure pointer [Device and Driver Installation], cfgmgr32/DMA_DES, cfgmgr32/PDMA_DES, cfgmgrst_342a3feb-d7c8-46bb-8672-009f024374d7.xml, devinst.dma_des"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMA_DES, *PDMA_DES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	cfgmgr32.h
+api_name:
+-	DMA_DES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DMA_Des_s structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11.D3D11CreateDevice
+title: D3D11CreateDevice function
+author: windows-sdk-content
+description: Creates a device that represents the display adapter.
+old-location: direct3d11\d3d11createdevice.htm
+old-project: direct3d11
+ms.assetid: d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 763ee631-eef7-d99f-1d0d-58e3651843f9, D3D11CreateDevice, D3D11CreateDevice function [Direct3D 11], d3d11/D3D11CreateDevice, direct3d11.d3d11createdevice
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D3D11.dll
+api_name:
+-	D3D11CreateDevice
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: D3D11.dll
+req.irql: 
 ---
 
 # D3D11CreateDevice function

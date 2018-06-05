@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipsectypes.IPSEC_TUNNEL_POLICY0_
+title: IPSEC_TUNNEL_POLICY0_
+author: windows-sdk-content
+description: Stores the quick mode negotiation policy for tunnel mode IPsec.
+old-location: fwp\ipsec_tunnel_policy0_struct.htm
+old-project: FWP
+ms.assetid: 092b108c-47e1-4b2f-b7ed-184cf8abb392
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IPSEC_POLICY_FLAG_CLEAR_DF_ON_TUNNEL, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME, IPSEC_POLICY_FLAG_ND_BOUNDARY, IPSEC_POLICY_FLAG_ND_SECURE, IPSEC_TUNNEL_POLICY0, IPSEC_TUNNEL_POLICY0 structure [Filtering], IPSEC_TUNNEL_POLICY0_, fwp.ipsec_tunnel_policy0_struct, ipsectypes/IPSEC_TUNNEL_POLICY0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipsectypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPSEC_TUNNEL_POLICY0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipsectypes.h
+api_name:
+-	IPSEC_TUNNEL_POLICY0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IPSEC_TUNNEL_POLICY0_ structure

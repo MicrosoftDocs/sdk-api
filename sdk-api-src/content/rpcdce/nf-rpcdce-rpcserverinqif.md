@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rpcdce.RpcServerInqIf
+title: RpcServerInqIf function
+author: windows-sdk-content
+description: The RpcServerInqIf function returns the manager entry-point vector (EPV) registered for an interface.
+old-location: rpc\rpcserverinqif.htm
+old-project: Rpc
+ms.assetid: 4c5f86a5-7867-4d5a-a255-5c0c57c7fe0a
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: RpcServerInqIf, RpcServerInqIf function [RPC], _rpc_rpcserverinqif, rpc.rpcserverinqif, rpcdce/RpcServerInqIf
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rpcdce.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rpcrt4.dll
+api_name:
+-	RpcServerInqIf
+product: Windows
+targetos: Windows
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RpcServerInqIf function

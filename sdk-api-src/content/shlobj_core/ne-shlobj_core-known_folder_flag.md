@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shlobj_core.KNOWN_FOLDER_FLAG
+title: KNOWN_FOLDER_FLAG
+author: windows-sdk-content
+description: Specify special retrieval options for known folders. These values supersede CSIDL values, which have parallel meanings.
+old-location: shell\KNOWN_FOLDER_FLAG.htm
+old-project: shell
+ms.assetid: 7f99fb6c-32f2-4fd8-ad11-3ad84d17c5c1
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: KF_FLAG_ALIAS_ONLY, KF_FLAG_CREATE, KF_FLAG_DEFAULT, KF_FLAG_DEFAULT_PATH, KF_FLAG_DONT_UNEXPAND, KF_FLAG_DONT_VERIFY, KF_FLAG_FORCE_APPCONTAINER_REDIRECTION, KF_FLAG_FORCE_APP_DATA_REDIRECTION, KF_FLAG_FORCE_PACKAGE_REDIRECTION, KF_FLAG_INIT, KF_FLAG_NOT_PARENT_RELATIVE, KF_FLAG_NO_ALIAS, KF_FLAG_NO_APPCONTAINER_REDIRECTION, KF_FLAG_NO_PACKAGE_REDIRECTION, KF_FLAG_RETURN_FILTER_REDIRECTION_TARGET, KF_FLAG_SIMPLE_IDLIST, KNOWN_FOLDER_FLAG, KNOWN_FOLDER_FLAG enumeration [Windows Shell], _shell_KNOWN_FOLDER_FLAG, shell.KNOWN_FOLDER_FLAG, shlobj_core/KF_FLAG_ALIAS_ONLY, shlobj_core/KF_FLAG_CREATE, shlobj_core/KF_FLAG_DEFAULT, shlobj_core/KF_FLAG_DEFAULT_PATH, shlobj_core/KF_FLAG_DONT_UNEXPAND, shlobj_core/KF_FLAG_DONT_VERIFY, shlobj_core/KF_FLAG_FORCE_APPCONTAINER_REDIRECTION, shlobj_core/KF_FLAG_FORCE_APP_DATA_REDIRECTION, shlobj_core/KF_FLAG_FORCE_PACKAGE_REDIRECTION, shlobj_core/KF_FLAG_INIT, shlobj_core/KF_FLAG_NOT_PARENT_RELATIVE, shlobj_core/KF_FLAG_NO_ALIAS, shlobj_core/KF_FLAG_NO_APPCONTAINER_REDIRECTION, shlobj_core/KF_FLAG_NO_PACKAGE_REDIRECTION, shlobj_core/KF_FLAG_RETURN_FILTER_REDIRECTION_TARGET, shlobj_core/KF_FLAG_SIMPLE_IDLIST, shlobj_core/KNOWN_FOLDER_FLAG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KNOWN_FOLDER_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	KNOWN_FOLDER_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # KNOWN_FOLDER_FLAG enumeration

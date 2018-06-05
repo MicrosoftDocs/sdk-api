@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11.ID3D11Device.CreateDepthStencilState
+title: ID3D11Device::CreateDepthStencilState
+author: windows-sdk-content
+description: Create a depth-stencil state object that encapsulates depth-stencil test information for the output-merger stage.
+old-location: direct3d11\id3d11device_createdepthstencilstate.htm
+old-project: direct3d11
+ms.assetid: 7577604c-922c-408c-8eab-2361ebda17df
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: CreateDepthStencilState, CreateDepthStencilState method [Direct3D 11], CreateDepthStencilState method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateDepthStencilState method, ID3D11Device.CreateDepthStencilState, ID3D11Device::CreateDepthStencilState, d3d11/ID3D11Device::CreateDepthStencilState, direct3d11.id3d11device_createdepthstencilstate, f09f7b38-23ad-f7a3-93dd-8500c90dc09c
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11Device.CreateDepthStencilState
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11Device::CreateDepthStencilState

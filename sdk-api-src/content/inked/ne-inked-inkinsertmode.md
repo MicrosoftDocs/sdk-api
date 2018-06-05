@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:inked.InkInsertMode
+title: InkInsertMode
+author: windows-sdk-content
+description: Specifies how ink is inserted onto the InkEdit control.
+old-location: tablet\inkinsertmode.htm
+old-project: tablet
+ms.assetid: ab15cf9f-c3c8-4cdb-9350-ffa734e4da35
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IEM_InsertAsInk, IEM_InsertAsText, InkInsertMode, InkInsertMode enumeration [Tablet PC], ab15cf9f-c3c8-4cdb-9350-ffa734e4da35, inked/IEM_InsertAsInk, inked/IEM_InsertAsText, inked/InkInsertMode, tablet.inkinsertmode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: inked.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InkInsertMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	inked.h
+api_name:
+-	InkInsertMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # InkInsertMode enumeration

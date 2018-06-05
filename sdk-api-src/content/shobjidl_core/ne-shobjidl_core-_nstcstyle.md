@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core._NSTCSTYLE
+title: "_NSTCSTYLE"
+author: windows-sdk-content
+description: Describes the characteristics of a given namespace tree control.
+old-location: shell\NSTCSTYLE.htm
+old-project: shell
+ms.assetid: 879af1be-2eea-4ebd-b9ea-64b1db40682d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: NSTCSTYLE, NSTCSTYLE enumeration [Windows Shell], NSTCS_ALLOWJUNCTIONS, NSTCS_AUTOHSCROLL, NSTCS_BORDER, NSTCS_CHECKBOXES, NSTCS_DIMMEDCHECKBOXES, NSTCS_DISABLEDRAGDROP, NSTCS_EMPTYTEXT, NSTCS_EVENHEIGHT, NSTCS_EXCLUSIONCHECKBOXES, NSTCS_FADEINOUTEXPANDOS, NSTCS_FAVORITESMODE, NSTCS_FULLROWSELECT, NSTCS_HASEXPANDOS, NSTCS_HASLINES, NSTCS_HORIZONTALSCROLL, NSTCS_NOEDITLABELS, NSTCS_NOINDENTCHECKS, NSTCS_NOINFOTIP, NSTCS_NOORDERSTREAM, NSTCS_NOREPLACEOPEN, NSTCS_PARTIALCHECKBOXES, NSTCS_RICHTOOLTIP, NSTCS_ROOTHASEXPANDO, NSTCS_SHOWDELETEBUTTON, NSTCS_SHOWREFRESHBUTTON, NSTCS_SHOWSELECTIONALWAYS, NSTCS_SHOWTABSBUTTON, NSTCS_SINGLECLICKEXPAND, NSTCS_SPRINGEXPAND, NSTCS_TABSTOP, _NSTCSTYLE, _shell_NSTCSTYLE, shell.NSTCSTYLE, shobjidl_core/NSTCSTYLE, shobjidl_core/NSTCS_ALLOWJUNCTIONS, shobjidl_core/NSTCS_AUTOHSCROLL, shobjidl_core/NSTCS_BORDER, shobjidl_core/NSTCS_CHECKBOXES, shobjidl_core/NSTCS_DIMMEDCHECKBOXES, shobjidl_core/NSTCS_DISABLEDRAGDROP, shobjidl_core/NSTCS_EMPTYTEXT, shobjidl_core/NSTCS_EVENHEIGHT, shobjidl_core/NSTCS_EXCLUSIONCHECKBOXES, shobjidl_core/NSTCS_FADEINOUTEXPANDOS, shobjidl_core/NSTCS_FAVORITESMODE, shobjidl_core/NSTCS_FULLROWSELECT, shobjidl_core/NSTCS_HASEXPANDOS, shobjidl_core/NSTCS_HASLINES, shobjidl_core/NSTCS_HORIZONTALSCROLL, shobjidl_core/NSTCS_NOEDITLABELS, shobjidl_core/NSTCS_NOINDENTCHECKS, shobjidl_core/NSTCS_NOINFOTIP, shobjidl_core/NSTCS_NOORDERSTREAM, shobjidl_core/NSTCS_NOREPLACEOPEN, shobjidl_core/NSTCS_PARTIALCHECKBOXES, shobjidl_core/NSTCS_RICHTOOLTIP, shobjidl_core/NSTCS_ROOTHASEXPANDO, shobjidl_core/NSTCS_SHOWDELETEBUTTON, shobjidl_core/NSTCS_SHOWREFRESHBUTTON, shobjidl_core/NSTCS_SHOWSELECTIONALWAYS, shobjidl_core/NSTCS_SHOWTABSBUTTON, shobjidl_core/NSTCS_SINGLECLICKEXPAND, shobjidl_core/NSTCS_SPRINGEXPAND, shobjidl_core/NSTCS_TABSTOP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	NSTCSTYLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # _NSTCSTYLE enumeration

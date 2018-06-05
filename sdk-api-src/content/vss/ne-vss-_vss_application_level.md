@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vss._VSS_APPLICATION_LEVEL
+title: "_VSS_APPLICATION_LEVEL"
+author: windows-sdk-content
+description: Indicates the application level, the point in the course of the creation of a shadow copy that a writer is notified of a freeze.
+old-location: base\vss_application_level.htm
+old-project: VSS
+ms.assetid: fc7fbaee-d223-4557-987d-2c09f3877ec2
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PVSS_APPLICATION_LEVEL, PVSS_APPLICATION_LEVEL, PVSS_APPLICATION_LEVEL enumeration pointer [VSS], VSS_APPLICATION_LEVEL, VSS_APPLICATION_LEVEL enumeration [VSS], VSS_APP_AUTO, VSS_APP_BACK_END, VSS_APP_FRONT_END, VSS_APP_SYSTEM, VSS_APP_UNKNOWN, _VSS_APPLICATION_LEVEL, _win32_vss_application_level, base.vss_application_level, vss/PVSS_APPLICATION_LEVEL, vss/VSS_APPLICATION_LEVEL, vss/VSS_APP_AUTO, vss/VSS_APP_BACK_END, vss/VSS_APP_FRONT_END, vss/VSS_APP_SYSTEM, vss/VSS_APP_UNKNOWN"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vss.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_APPLICATION_LEVEL, *PVSS_APPLICATION_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vss.h
+api_name:
+-	VSS_APPLICATION_LEVEL
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VSS_APPLICATION_LEVEL enumeration

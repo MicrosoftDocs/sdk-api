@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ws2ipdef.ipv6_mreq
+title: ipv6_mreq
+author: windows-sdk-content
+description: The ipv6_mreq structure provides multicast group information for IPv6 addresses.
+old-location: winsock\ipv6_mreq.htm
+old-project: WinSock
+ms.assetid: 672ce465-357c-450c-83a2-3cbdb28e018c
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PIPV6_MREQ, IP6_MREQ [Winsock], IPV6_MREQ, IPV6_MREQ structure [Winsock], PIPV6_MREQ, PIPV6_MREQ structure pointer [Winsock], ipv6_mreq, ipv6_mreq structure [Winsock], winsock.ipv6_mreq, ws2ipdef/PIPV6_MREQ, ws2ipdef/ipv6_mreq, ws2tcpip/PIPV6_MREQ, ws2tcpip/ipv6_mreq"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ws2ipdef.h
+req.include-header: Ws2tcpip.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wrdsgraphicschannels.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPV6_MREQ, *PIPV6_MREQ
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ws2ipdef.h
+-	Ws2tcpip.h
+api_name:
+-	IPV6_MREQ
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # ipv6_mreq structure

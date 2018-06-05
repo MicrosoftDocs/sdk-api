@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:nb30._FIND_NAME_HEADER
+title: "_FIND_NAME_HEADER"
+author: windows-sdk-content
+description: The FIND_NAME_HEADER structure contains information about a network name. This structure is followed by as many FIND_NAME_BUFFER structures as are required to describe the name.
+old-location: netbios\find_name_header.htm
+old-project: NetBIOS
+ms.assetid: 66b0cf77-3c25-4b00-9e9b-abc0442e3831
+ms.author: windowssdkdev
+ms.date: 05/02/2018
+ms.keywords: "*PFIND_NAME_HEADER, FIND_NAME_HEADER, FIND_NAME_HEADER structure [NetBIOS], PFIND_NAME_HEADER, PFIND_NAME_HEADER structure pointer [NetBIOS], _FIND_NAME_HEADER, nb30/FIND_NAME_HEADER, nb30/PFIND_NAME_HEADER, netbios.find_name_header"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: nb30.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FIND_NAME_HEADER, *PFIND_NAME_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Nb30.h
+api_name:
+-	FIND_NAME_HEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _FIND_NAME_HEADER structure

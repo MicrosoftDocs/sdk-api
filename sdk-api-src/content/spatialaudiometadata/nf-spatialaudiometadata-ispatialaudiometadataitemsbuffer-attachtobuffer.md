@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:spatialaudiometadata.ISpatialAudioMetadataItemsBuffer.AttachToBuffer
+title: ISpatialAudioMetadataItemsBuffer::AttachToBuffer
+author: windows-sdk-content
+description: Attaches caller-provided memory for storage of ISpatialAudioMetadataItems objects.
+old-location: coreaudio\ispatialaudiometadataitemsbuffer_attachtobuffer.htm
+old-project: CoreAudio
+ms.assetid: CAB1E4C6-5572-47D0-B96F-0479773B8106
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: AttachToBuffer, AttachToBuffer method [Core Audio], AttachToBuffer method [Core Audio],ISpatialAudioMetadataItemsBuffer interface, ISpatialAudioMetadataItemsBuffer interface [Core Audio],AttachToBuffer method, ISpatialAudioMetadataItemsBuffer.AttachToBuffer, ISpatialAudioMetadataItemsBuffer::AttachToBuffer, coreaudio.ispatialaudiometadataitemsbuffer_attachtobuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToBuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spatialaudiometadata.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SpatialAudioMetadataWriterOverflowMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SpatialAudioMetadata.h
+api_name:
+-	ISpatialAudioMetadataItemsBuffer.AttachToBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioMetadataItemsBuffer::AttachToBuffer

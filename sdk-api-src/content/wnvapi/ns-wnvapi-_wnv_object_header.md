@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wnvapi._WNV_OBJECT_HEADER
+title: "_WNV_OBJECT_HEADER"
+author: windows-sdk-content
+description: Specifies the major version, minor version, and buffer size of the WNV_NOTIFICATION_PARAM structure that is passed to the WnvRequestNotification function.
+old-location: wnv\wnv_object_header.htm
+old-project: wnv
+ms.assetid: 3D139C56-0224-4120-B308-A33F257DD9DC
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PWNV_OBJECT_HEADER, PWNV_OBJECT_HEADER, PWNV_OBJECT_HEADER structure pointer [Windows Network Virtualization], WNV_OBJECT_HEADER, WNV_OBJECT_HEADER structure [Windows Network Virtualization], _WNV_OBJECT_HEADER, wnv.wnv_object_header, wnvapi/PWNV_OBJECT_HEADER, wnvapi/WNV_OBJECT_HEADER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wnvapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WNV_OBJECT_HEADER, *PWNV_OBJECT_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wnvapi.h
+api_name:
+-	WNV_OBJECT_HEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WNV_OBJECT_HEADER structure

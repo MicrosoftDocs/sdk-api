@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3dcsx.D3DX11_SCAN_DATA_TYPE
+title: D3DX11_SCAN_DATA_TYPE
+author: windows-sdk-content
+description: Type for scan data.
+old-location: direct3d11\d3dx11_scan_data_type.htm
+old-project: direct3d11
+ms.assetid: 28bef01c-2d04-48f8-994b-86194f530610
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3DX11_SCAN_DATA_TYPE, D3DX11_SCAN_DATA_TYPE enumeration [Direct3D 11], D3DX11_SCAN_DATA_TYPE_FLOAT, D3DX11_SCAN_DATA_TYPE_INT, D3DX11_SCAN_DATA_TYPE_UINT, d3dcsx/D3DX11_SCAN_DATA_TYPE, d3dcsx/D3DX11_SCAN_DATA_TYPE_FLOAT, d3dcsx/D3DX11_SCAN_DATA_TYPE_INT, d3dcsx/D3DX11_SCAN_DATA_TYPE_UINT, d5f42071-16a0-03ca-bdea-302fc9f575bf, direct3d11.d3dx11_scan_data_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3dcsx.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DX11_SCAN_DATA_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3dcsx.h
+api_name:
+-	D3DX11_SCAN_DATA_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3DX11_SCAN_DATA_TYPE enumeration

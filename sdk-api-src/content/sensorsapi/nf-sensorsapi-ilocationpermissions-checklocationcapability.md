@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:sensorsapi.ILocationPermissions.CheckLocationCapability
+title: ILocationPermissions::CheckLocationCapability
+author: windows-sdk-content
+description: Gets the location capability of the Windows Store app of the given thread.
+old-location: winsensors\ilocationpermissions_checklocationcapability.htm
+old-project: SensorsAPI
+ms.assetid: B7D6268C-4A0D-490F-B1E7-573159EF7CFF
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: CheckLocationCapability, CheckLocationCapability method, CheckLocationCapability method,ILocationPermissions interface, ILocationPermissions interface,CheckLocationCapability method, ILocationPermissions.CheckLocationCapability, ILocationPermissions::CheckLocationCapability, sensorsapi/ILocationPermissions::CheckLocationCapability, winsensors.ilocationpermissions_checklocationcapability
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sensorsapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MagnetometerAccuracy
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sensorsapi.h
+api_name:
+-	ILocationPermissions.CheckLocationCapability
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ILocationPermissions::CheckLocationCapability

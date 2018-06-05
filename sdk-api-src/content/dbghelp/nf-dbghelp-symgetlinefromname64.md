@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dbghelp.SymGetLineFromName64
+title: SymGetLineFromName64 function
+author: windows-sdk-content
+description: Locates a source line for the specified module, file name, and line number.
+old-location: base\symgetlinefromname64.htm
+old-project: Debug
+ms.assetid: cb8870f6-1bae-40df-842e-ec3ca0167691
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: SymGetLineFromName, SymGetLineFromName function, SymGetLineFromName64, SymGetLineFromName64 function, SymGetLineFromNameW64, _win32_symgetlinefromname64, base.symgetlinefromname64, dbghelp/SymGetLineFromName, dbghelp/SymGetLineFromName64, dbghelp/SymGetLineFromNameW64
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SymGetLineFromNameW64 (Unicode) and SymGetLineFromName64 (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dbghelp.dll
+api_name:
+-	SymGetLineFromName64
+-	SymGetLineFromName64
+-	SymGetLineFromNameW64
+-	SymGetLineFromName
+product: Windows
+targetos: Windows
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 ---
 
 # SymGetLineFromName64 function

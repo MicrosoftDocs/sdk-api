@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.ISessionStateChangeTrigger.get_Delay
+title: ISessionStateChangeTrigger::get_Delay
+author: windows-sdk-content
+description: Gets or sets a value that indicates how long of a delay takes place before a task is started after a Terminal Server session state change is detected.
+old-location: taskschd\isessionstatechangetrigger_delay.htm
+old-project: TaskSchd
+ms.assetid: 0382b3e7-018d-43e3-893e-b754fe38ed3d
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],ISessionStateChangeTrigger interface, ISessionStateChangeTrigger interface [Task Scheduler],Delay property, ISessionStateChangeTrigger.Delay, ISessionStateChangeTrigger.get_Delay, ISessionStateChangeTrigger::Delay, ISessionStateChangeTrigger::get_Delay, ISessionStateChangeTrigger::put_Delay, get_Delay, taskschd.isessionstatechangetrigger_delay, taskschd/ISessionStateChangeTrigger::Delay, taskschd/ISessionStateChangeTrigger::get_Delay, taskschd/ISessionStateChangeTrigger::put_Delay
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	ISessionStateChangeTrigger.Delay
+-	ISessionStateChangeTrigger.get_Delay
+-	ISessionStateChangeTrigger.put_Delay
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ISessionStateChangeTrigger::get_Delay

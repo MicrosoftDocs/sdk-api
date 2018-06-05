@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:comppkgsup.RequireNetworkDuringMediaTaskCompletion
+title: RequireNetworkDuringMediaTaskCompletion function
+author: windows-sdk-content
+description: Increments or decrements the count of network connections required for media task completion.
+old-location: winprog\requirenetworkduringmediataskcompletion.htm
+old-project: DevNotes
+ms.assetid: D3A1E926-CC9C-4E5E-B588-A45B2FEE9FAF
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: RequireNetworkDuringMediaTaskCompletion, RequireNetworkDuringMediaTaskCompletion function [Windows API], comppkgsup/RequireNetworkDuringMediaTaskCompletion, winprog.requirenetworkduringmediataskcompletion
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: comppkgsup.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGELISTDRAWPARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	CompPkgSup.dll
+api_name:
+-	RequireNetworkDuringMediaTaskCompletion
+product: Windows
+targetos: Windows
+req.lib: Comppkgsup.lib
+req.dll: CompPkgSup.dll
+req.irql: 
 ---
 
 # RequireNetworkDuringMediaTaskCompletion function

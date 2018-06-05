@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:raseapif.RasEapGetIdentity
+title: RasEapGetIdentity function
+author: windows-sdk-content
+description: The RAS connection manager calls the RasEapGetIdentity function to obtain identity information for the user requesting authentication.
+old-location: eap\raseapgetidentity.htm
+old-project: EAP
+ms.assetid: 66bc34d2-54b9-46eb-b952-6ad66868c8ce
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_FIRST_LINK, RAS_EAP_FLAG_LOGON, RAS_EAP_FLAG_MACHINE_AUTH, RAS_EAP_FLAG_NON_INTERACTIVE, RAS_EAP_FLAG_PREVIEW, RAS_EAP_FLAG_ROUTER, RasEapGetIdentity, RasEapGetIdentity callback, RasEapGetIdentity callback function [EAP], _eap_raseapgetidentity, eap.raseapgetidentity, raseapif/RasEapGetIdentity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: raseapif.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RAS_AUTH_ATTRIBUTE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Raseapif.h
+api_name:
+-	RasEapGetIdentity
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RasEapGetIdentity function

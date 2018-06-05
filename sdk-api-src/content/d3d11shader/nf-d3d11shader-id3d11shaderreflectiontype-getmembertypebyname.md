@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11shader.ID3D11ShaderReflectionType.GetMemberTypeByName
+title: ID3D11ShaderReflectionType::GetMemberTypeByName
+author: windows-sdk-content
+description: Get a shader-reflection-variable type by name.
+old-location: direct3d11\id3d11shaderreflectiontype_getmembertypebyname.htm
+old-project: direct3d11
+ms.assetid: bee5a833-7399-4c1d-8bad-4e9279dc36cc
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 4c4b8d42-c920-9eea-2d7b-128e1fe98533, GetMemberTypeByName, GetMemberTypeByName method [Direct3D 11], GetMemberTypeByName method [Direct3D 11],ID3D11ShaderReflectionType interface, ID3D11ShaderReflectionType interface [Direct3D 11],GetMemberTypeByName method, ID3D11ShaderReflectionType.GetMemberTypeByName, ID3D11ShaderReflectionType::GetMemberTypeByName, d3d11shader/ID3D11ShaderReflectionType::GetMemberTypeByName, direct3d11.id3d11shaderreflectiontype_getmembertypebyname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_SHADER_VERSION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3DCompiler_47.dll
+api_name:
+-	ID3D11ShaderReflectionType.GetMemberTypeByName
+product: Windows
+targetos: Windows
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 ---
 
 # ID3D11ShaderReflectionType::GetMemberTypeByName

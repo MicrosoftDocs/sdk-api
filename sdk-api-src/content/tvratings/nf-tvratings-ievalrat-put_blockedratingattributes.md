@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tvratings.IEvalRat.put_BlockedRatingAttributes
+title: IEvalRat::put_BlockedRatingAttributes
+author: windows-sdk-content
+description: The put_BlockedRatingAttributes method specifies whether to block content that has a specified rating.
+old-location: mstv\ievalrat_put_blockedratingattributes.htm
+old-project: mstv
+ms.assetid: 7c6919f0-1270-4dcd-8180-a9af4763c580
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IEvalRat interface [Microsoft TV Technologies],put_BlockedRatingAttributes method, IEvalRat.put_BlockedRatingAttributes, IEvalRat::put_BlockedRatingAttributes, IEvalRatput_BlockedRatingAttributes, mstv.ievalrat_put_blockedratingattributes, put_BlockedRatingAttributes, put_BlockedRatingAttributes method [Microsoft TV Technologies], put_BlockedRatingAttributes method [Microsoft TV Technologies],IEvalRat interface, tvratings/IEvalRat::put_BlockedRatingAttributes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tvratings.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EnTvRat_US_TV
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tvratings.h
+api_name:
+-	IEvalRat.put_BlockedRatingAttributes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IEvalRat::put_BlockedRatingAttributes

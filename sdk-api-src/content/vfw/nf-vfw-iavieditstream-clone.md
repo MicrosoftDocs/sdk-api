@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vfw.IAVIEditStream.Clone
+title: IAVIEditStream::Clone
+author: windows-sdk-content
+description: The Clone method duplicates a stream. Called when an application uses the EditStreamClone function.
+old-location: multimedia\iavieditstream_clone.htm
+old-project: Multimedia
+ms.assetid: 7112056e-5e25-4262-abe3-5cbb0675a475
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: Clone, Clone method [Windows Multimedia], Clone method [Windows Multimedia],IAVIEditStream interface, IAVIEditStream interface [Windows Multimedia],Clone method, IAVIEditStream.Clone, IAVIEditStream::Clone, _win32_IAVIEditStream_Clone, multimedia.iavieditstream_clone, vfw/IAVIEditStream::Clone
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Vfw32.lib
+-	Vfw32.dll
+api_name:
+-	IAVIEditStream.Clone
+product: Windows
+targetos: Windows
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IAVIEditStream::Clone

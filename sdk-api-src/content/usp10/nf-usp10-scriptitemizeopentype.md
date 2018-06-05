@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:usp10.ScriptItemizeOpenType
+title: ScriptItemizeOpenType function
+author: windows-sdk-content
+description: Breaks a Unicode string into individually shapeable items and provides an array of feature tags for each shapeable item for OpenType processing.
+old-location: intl\scriptitemizeopentype.htm
+old-project: Intl
+ms.assetid: da15d6b3-6725-43b8-9a2c-c19269a79d1e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ScriptItemizeOpenType, ScriptItemizeOpenType function [Internationalization for Windows Applications], _win32_ScriptItemizeOpenType, intl.scriptitemizeopentype, usp10/ScriptItemizeOpenType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: usp10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCRIPT_JUSTIFY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	usp10.dll
+-	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+-	GDI32.dll
+-	GDI32Full.dll
+api_name:
+-	ScriptItemizeOpenType
+product: Windows
+targetos: Windows
+req.lib: Usp10.lib
+req.dll: Usp10.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # ScriptItemizeOpenType function

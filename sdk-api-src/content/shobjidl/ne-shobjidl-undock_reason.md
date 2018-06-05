@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl.UNDOCK_REASON
+title: UNDOCK_REASON
+author: windows-sdk-content
+description: Values that indicate the reason that a docked accessibility app window has been undocked. Used by IAccessibilityDockingServiceCallback::Undocked.
+old-location: shell\UNDOCK_REASON.htm
+old-project: shell
+ms.assetid: C900E0DA-C6C6-41cd-8333-38BE4D451A66
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: UNDOCK_REASON, UNDOCK_REASON enumeration [Windows Shell], UR_MONITOR_DISCONNECT, UR_RESOLUTION_CHANGE, shell.UNDOCK_REASON, shobjidl/UNDOCK_REASON, shobjidl/UR_MONITOR_DISCONNECT, shobjidl/UR_RESOLUTION_CHANGE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UNDOCK_REASON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shobjidl.h
+api_name:
+-	UNDOCK_REASON
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # UNDOCK_REASON enumeration

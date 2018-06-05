@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fhsvcctl.FhServiceClosePipe
+title: FhServiceClosePipe function
+author: windows-sdk-content
+description: Closes a communication channel to the File History Service opened with FhServiceOpenPipe.
+old-location: winprog\fhserviceclosepipe.htm
+old-project: DevNotes
+ms.assetid: 20C46E2A-E79F-47B9-9D7A-74CD3AF03EF7
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: FhServiceClosePipe, FhServiceClosePipe function [Windows API], fhsvcctl/FhServiceClosePipe, winprog.fhserviceclosepipe
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fhsvcctl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	FhSvcCtl.lib
+-	FhSvcCtl.dll
+api_name:
+-	FhServiceClosePipe
+product: Windows
+targetos: Windows
+req.lib: FhSvcCtl.lib
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FhServiceClosePipe function

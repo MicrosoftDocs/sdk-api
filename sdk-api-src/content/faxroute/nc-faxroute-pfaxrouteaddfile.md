@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:faxroute.PFAXROUTEADDFILE
+title: PFAXROUTEADDFILE
+author: windows-sdk-content
+description: A fax routing method calls the FaxRouteAddFile callback function to add a file to the fax file list associated with a received fax document.
+old-location: fax\_mfax_faxrouteaddfile.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxrouteextapiref_5k6d.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: FaxRouteAddFile, FaxRouteAddFile callback function [Fax Service], PFAXROUTEADDFILE, PFAXROUTEADDFILE callback, _mfax_faxrouteaddfile, fax._mfax_faxrouteaddfile, faxroute/FaxRouteAddFile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: faxroute.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_SEND, *PFAX_SEND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	FaxRoute.h
+api_name:
+-	FaxRouteAddFile
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # PFAXROUTEADDFILE callback function

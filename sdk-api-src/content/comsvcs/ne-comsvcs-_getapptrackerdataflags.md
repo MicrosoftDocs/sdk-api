@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:comsvcs._GetAppTrackerDataFlags
+title: "_GetAppTrackerDataFlags"
+author: windows-sdk-content
+description: Controls what data is returned from calls to the IGetAppTrackerData interface.
+old-location: cos\getapptrackerdataflags.htm
+old-project: cossdk
+ms.assetid: 7af61221-e876-4b1c-b416-a92817ad7025
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: GATD_INCLUDE_APPLICATION_NAME, GATD_INCLUDE_CLASS_NAME, GATD_INCLUDE_LIBRARY_APPS, GATD_INCLUDE_PROCESS_EXE_NAME, GATD_INCLUDE_SWC, GetAppTrackerDataFlags, GetAppTrackerDataFlags enumeration [COM+], _GetAppTrackerDataFlags, comsvcs/GATD_INCLUDE_APPLICATION_NAME, comsvcs/GATD_INCLUDE_CLASS_NAME, comsvcs/GATD_INCLUDE_LIBRARY_APPS, comsvcs/GATD_INCLUDE_PROCESS_EXE_NAME, comsvcs/GATD_INCLUDE_SWC, comsvcs/GetAppTrackerDataFlags, cos.getapptrackerdataflags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GetAppTrackerDataFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ComSvcs.h
+api_name:
+-	GetAppTrackerDataFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _GetAppTrackerDataFlags enumeration

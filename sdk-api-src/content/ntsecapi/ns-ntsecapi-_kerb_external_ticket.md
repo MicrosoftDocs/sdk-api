@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._KERB_EXTERNAL_TICKET
+title: "_KERB_EXTERNAL_TICKET"
+author: windows-sdk-content
+description: Contains information about an external ticket.
+old-location: security\kerb_external_ticket.htm
+old-project: SecAuthN
+ms.assetid: 742e2795-ec74-4856-a680-7a1c233a2934
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PKERB_EXTERNAL_TICKET, KERB_EXTERNAL_TICKET, KERB_EXTERNAL_TICKET structure [Security], KERB_TICKET_FLAGS_forwardable (0x40000000), KERB_TICKET_FLAGS_forwarded (0x20000000), KERB_TICKET_FLAGS_hw_authent (0x00100000), KERB_TICKET_FLAGS_initial (0x00400000), KERB_TICKET_FLAGS_invalid (0x01000000), KERB_TICKET_FLAGS_may_postdate (0x04000000), KERB_TICKET_FLAGS_ok_as_delegate (0x00040000), KERB_TICKET_FLAGS_postdated (0x02000000), KERB_TICKET_FLAGS_pre_authent (0x00200000), KERB_TICKET_FLAGS_proxiable (0x10000000), KERB_TICKET_FLAGS_proxy (0x08000000), KERB_TICKET_FLAGS_renewable (0x00800000), KERB_TICKET_FLAGS_reserved (0x80000000), KERB_TICKET_FLAGS_reserved1 (0x00000001), PKERB_EXTERNAL_TICKET, PKERB_EXTERNAL_TICKET structure pointer [Security], _KERB_EXTERNAL_TICKET, _lsa_kerb_external_ticket, ntsecapi/KERB_EXTERNAL_TICKET, ntsecapi/PKERB_EXTERNAL_TICKET, security.kerb_external_ticket"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KERB_EXTERNAL_TICKET, *PKERB_EXTERNAL_TICKET
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	KERB_EXTERNAL_TICKET
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _KERB_EXTERNAL_TICKET structure

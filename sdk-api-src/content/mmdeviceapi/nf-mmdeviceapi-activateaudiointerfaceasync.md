@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mmdeviceapi.ActivateAudioInterfaceAsync
+title: ActivateAudioInterfaceAsync function
+author: windows-sdk-content
+description: Enables Windows Store apps to access preexisting Component Object Model (COM) interfaces in the WASAPI family.
+old-location: coreaudio\activateaudiointerfaceasync.htm
+old-project: CoreAudio
+ms.assetid: 7BAFD9DB-DCD7-4093-A24B-9A8556C6C45B
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ActivateAudioInterfaceAsync, ActivateAudioInterfaceAsync function [Core Audio], coreaudio.activateaudiointerfaceasync, mmdeviceapi/ActivateAudioInterfaceAsync
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mmdeviceapi.h
+req.include-header: Mmdevapi.idl
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EndpointFormFactor
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Mmdevapi.dll
+api_name:
+-	ActivateAudioInterfaceAsync
+product: Windows
+targetos: Windows
+req.lib: Mmdevapi.lib
+req.dll: Mmdevapi.dll
+req.irql: No
+req.product: GDI+ 1.1
 ---
 
 # ActivateAudioInterfaceAsync function

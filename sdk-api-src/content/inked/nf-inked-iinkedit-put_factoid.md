@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:inked.IInkEdit.put_Factoid
+title: IInkEdit::put_Factoid
+author: windows-sdk-content
+description: Gets or sets the Factoid constant that a IInkRecognizer object uses to constrain its search for the recognition result.
+old-location: tablet\inkedit_factoid.htm
+old-project: tablet
+ms.assetid: 150325e4-dd8b-4abf-baa6-f0fda05d2fd9
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 150325e4-dd8b-4abf-baa6-f0fda05d2fd9, Factoid property [Tablet PC], Factoid property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Factoid property, IInkEdit.Factoid, IInkEdit.put_Factoid, IInkEdit::Factoid, IInkEdit::get_Factoid, IInkEdit::put_Factoid, InkEdit.get_Factoid, InkEdit.put_Factoid, get_Factoid, inked/IInkEdit::Factoid, inked/IInkEdit::get_Factoid, inked/IInkEdit::put_Factoid, put_Factoid, tablet.inkedit_factoid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: inked.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SelAlignmentConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkEd.dll
+-	InkEd.dll.dll
+api_name:
+-	IInkEdit.Factoid
+-	IInkEdit.get_Factoid
+-	IInkEdit.put_Factoid
+-	InkEdit.get_Factoid
+-	InkEdit.put_Factoid
+product: Windows
+targetos: Windows
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IInkEdit::put_Factoid

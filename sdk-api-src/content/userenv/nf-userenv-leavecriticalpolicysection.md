@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:userenv.LeaveCriticalPolicySection
+title: LeaveCriticalPolicySection function
+author: windows-sdk-content
+description: The LeaveCriticalPolicySection function resumes the background application of policy. This function closes the handle to the policy section.
+old-location: policy\leavecriticalpolicysection.htm
+old-project: Policy
+ms.assetid: 9e6a938f-c9cb-4baf-b7d0-4316e45f874c
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: LeaveCriticalPolicySection, LeaveCriticalPolicySection function [Group Policy], _win32_leavecriticalpolicysection, policy.leavecriticalpolicysection, userenv/LeaveCriticalPolicySection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: userenv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Userenv.dll
+api_name:
+-	LeaveCriticalPolicySection
+product: Windows
+targetos: Windows
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # LeaveCriticalPolicySection function

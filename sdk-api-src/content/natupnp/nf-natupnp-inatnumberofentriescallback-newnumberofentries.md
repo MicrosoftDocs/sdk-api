@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:natupnp.INATNumberOfEntriesCallback.NewNumberOfEntries
+title: INATNumberOfEntriesCallback::NewNumberOfEntries
+author: windows-sdk-content
+description: The system calls the NewNumberOfEntries method if the total number of NAT port mappings changes.
+old-location: ics\inatnumberofentriescallback_newnumberofentries.htm
+old-project: ICS
+ms.assetid: 55998538-ddce-4a83-8d21-387f3c1f3b6a
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: INATNumberOfEntriesCallback interface [ICS/ICF],NewNumberOfEntries method, INATNumberOfEntriesCallback.NewNumberOfEntries, INATNumberOfEntriesCallback::NewNumberOfEntries, NewNumberOfEntries, NewNumberOfEntries method [ICS/ICF], NewNumberOfEntries method [ICS/ICF],INATNumberOfEntriesCallback interface, _ics_inatnumberofentriescallback_newnumberofentries, ics.inatnumberofentriescallback_newnumberofentries, natupnp/INATNumberOfEntriesCallback::NewNumberOfEntries
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: natupnp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SystemHealthAgentState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Hnetcfg.dll
+api_name:
+-	INATNumberOfEntriesCallback.NewNumberOfEntries
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INATNumberOfEntriesCallback::NewNumberOfEntries

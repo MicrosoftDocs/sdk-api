@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._SYSTEM_CPU_SET_INFORMATION
+title: "_SYSTEM_CPU_SET_INFORMATION"
+author: windows-sdk-content
+description: This structure is returned by GetSystemCpuSetInformation. It is used to enumerate the CPU Sets on the system and determine their current state.
+old-location: base\system_cpu_set_information.htm
+old-project: ProcThread
+ms.assetid: 48C38098-C42E-46D0-B938-CBD0BA7F8586
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION structure pointer, SYSTEM_CPU_SET_INFORMATION, SYSTEM_CPU_SET_INFORMATION structure, _SYSTEM_CPU_SET_INFORMATION, base.system_cpu_set_information, winnt/PSYSTEM_CPU_SET_INFORMATION, winnt/SYSTEM_CPU_SET_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYSTEM_CPU_SET_INFORMATION, *PSYSTEM_CPU_SET_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winnt.h
+api_name:
+-	SYSTEM_CPU_SET_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SYSTEM_CPU_SET_INFORMATION structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwrite.DWRITE_INFORMATIONAL_STRING_ID
+title: DWRITE_INFORMATIONAL_STRING_ID
+author: windows-sdk-content
+description: The informational string enumeration which identifies a string embedded in a font file.
+old-location: directwrite\dwrite_informational_string_id.htm
+old-project: DirectWrite
+ms.assetid: bbd5ea62-0837-49e4-a1e8-1d55d5d39ee3
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_INFORMATIONAL_STRING_COPYRIGHT_NOTICE, DWRITE_INFORMATIONAL_STRING_DESCRIPTION, DWRITE_INFORMATIONAL_STRING_DESIGNER, DWRITE_INFORMATIONAL_STRING_DESIGNER_URL, DWRITE_INFORMATIONAL_STRING_FONT_VENDOR_URL, DWRITE_INFORMATIONAL_STRING_FULL_NAME, DWRITE_INFORMATIONAL_STRING_ID, DWRITE_INFORMATIONAL_STRING_ID enumeration [Direct Write], DWRITE_INFORMATIONAL_STRING_LICENSE_DESCRIPTION, DWRITE_INFORMATIONAL_STRING_LICENSE_INFO_URL, DWRITE_INFORMATIONAL_STRING_MANUFACTURER, DWRITE_INFORMATIONAL_STRING_NONE, DWRITE_INFORMATIONAL_STRING_POSTSCRIPT_CID_NAME, DWRITE_INFORMATIONAL_STRING_POSTSCRIPT_NAME, DWRITE_INFORMATIONAL_STRING_PREFERRED_FAMILY_NAMES, DWRITE_INFORMATIONAL_STRING_PREFERRED_SUBFAMILY_NAMES, DWRITE_INFORMATIONAL_STRING_SAMPLE_TEXT, DWRITE_INFORMATIONAL_STRING_TRADEMARK, DWRITE_INFORMATIONAL_STRING_VERSION_STRINGS, DWRITE_INFORMATIONAL_STRING_WIN32_FAMILY_NAMES, DWRITE_INFORMATIONAL_STRING_WIN32_SUBFAMILY_NAMES, directwrite.dwrite_informational_string_id, dwrite/DWRITE_INFORMATIONAL_STRING_COPYRIGHT_NOTICE, dwrite/DWRITE_INFORMATIONAL_STRING_DESCRIPTION, dwrite/DWRITE_INFORMATIONAL_STRING_DESIGNER, dwrite/DWRITE_INFORMATIONAL_STRING_DESIGNER_URL, dwrite/DWRITE_INFORMATIONAL_STRING_FONT_VENDOR_URL, dwrite/DWRITE_INFORMATIONAL_STRING_FULL_NAME, dwrite/DWRITE_INFORMATIONAL_STRING_ID, dwrite/DWRITE_INFORMATIONAL_STRING_LICENSE_DESCRIPTION, dwrite/DWRITE_INFORMATIONAL_STRING_LICENSE_INFO_URL, dwrite/DWRITE_INFORMATIONAL_STRING_MANUFACTURER, dwrite/DWRITE_INFORMATIONAL_STRING_NONE, dwrite/DWRITE_INFORMATIONAL_STRING_POSTSCRIPT_CID_NAME, dwrite/DWRITE_INFORMATIONAL_STRING_POSTSCRIPT_NAME, dwrite/DWRITE_INFORMATIONAL_STRING_PREFERRED_FAMILY_NAMES, dwrite/DWRITE_INFORMATIONAL_STRING_PREFERRED_SUBFAMILY_NAMES, dwrite/DWRITE_INFORMATIONAL_STRING_SAMPLE_TEXT, dwrite/DWRITE_INFORMATIONAL_STRING_TRADEMARK, dwrite/DWRITE_INFORMATIONAL_STRING_VERSION_STRINGS, dwrite/DWRITE_INFORMATIONAL_STRING_WIN32_FAMILY_NAMES, dwrite/DWRITE_INFORMATIONAL_STRING_WIN32_SUBFAMILY_NAMES
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite.h
+api_name:
+-	DWRITE_INFORMATIONAL_STRING_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_INFORMATIONAL_STRING_ID enumeration

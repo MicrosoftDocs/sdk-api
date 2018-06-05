@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wsman._WSMAN_SHELL_STARTUP_INFO_V11
+title: "_WSMAN_SHELL_STARTUP_INFO_V11"
+author: windows-sdk-content
+description: Defines the shell startup parameters to be used with the WSManCreateShell function. The structure must be allocated by the client and passed to the WSManCreateShell function.
+old-location: winrm\wsman_shell_startup_info.htm
+old-project: WinRM
+ms.assetid: a9e004de-b157-4ad3-a463-a42ccb56f1ba
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: WSMAN_SHELL_STARTUP_INFO, WSMAN_SHELL_STARTUP_INFO structure [Windows Remote Management], WSMAN_SHELL_STARTUP_INFO_V11, _WSMAN_SHELL_STARTUP_INFO_V11, winrm.wsman_shell_startup_info, wsman/WSMAN_SHELL_STARTUP_INFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wsman.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSMAN_SHELL_STARTUP_INFO_V11
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wsman.h
+api_name:
+-	WSMAN_SHELL_STARTUP_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WSMAN_SHELL_STARTUP_INFO_V11 structure

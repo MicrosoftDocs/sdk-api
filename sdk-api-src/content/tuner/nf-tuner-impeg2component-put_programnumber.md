@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tuner.IMPEG2Component.put_ProgramNumber
+title: IMPEG2Component::put_ProgramNumber
+author: windows-sdk-content
+description: The put_ProgramNumber method sets the program number for this substream.
+old-location: mstv\impeg2component_put_programnumber.htm
+old-project: mstv
+ms.assetid: f8bc605f-6e3f-427c-a91e-2d4cbb59b65e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],put_ProgramNumber method, IMPEG2Component.put_ProgramNumber, IMPEG2Component::put_ProgramNumber, IMPEG2Componentput_ProgramNumber, mstv.impeg2component_put_programnumber, put_ProgramNumber, put_ProgramNumber method [Microsoft TV Technologies], put_ProgramNumber method [Microsoft TV Technologies],IMPEG2Component interface, tuner/IMPEG2Component::put_ProgramNumber
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tuner.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IMPEG2Component.put_ProgramNumber
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IMPEG2Component::put_ProgramNumber

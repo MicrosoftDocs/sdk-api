@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITAddressDeviceSpecificEvent.get_Address
+title: ITAddressDeviceSpecificEvent::get_Address
+author: windows-sdk-content
+description: The get_Address method gets a pointer to the ITAddress interface of the Address object involved in the event.
+old-location: tapi3\itaddressdevicespecificevent_get_address.htm
+old-project: Tapi
+ms.assetid: 95b745c9-c18a-47c9-8ceb-b2c225ebbf73
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITAddressDeviceSpecificEvent interface [TAPI 2.2],get_Address method, ITAddressDeviceSpecificEvent.get_Address, ITAddressDeviceSpecificEvent::get_Address, _tapi3_itaddressdevicespecificevent_get_address, get_Address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2],ITAddressDeviceSpecificEvent interface, tapi3.itaddressdevicespecificevent_get_address, tapi3if/ITAddressDeviceSpecificEvent::get_Address
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAddressDeviceSpecificEvent.get_Address
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAddressDeviceSpecificEvent::get_Address

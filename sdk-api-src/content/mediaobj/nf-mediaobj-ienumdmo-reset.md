@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mediaobj.IEnumDMO.Reset
+title: IEnumDMO::Reset
+author: windows-sdk-content
+description: The Reset method resets the enumeration sequence to the beginning.
+old-location: dshow\ienumdmo_reset.htm
+old-project: DirectShow
+ms.assetid: 1a910c70-7f41-43d5-a677-c299b5181638
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IEnumDMO interface [DirectShow],Reset method, IEnumDMO.Reset, IEnumDMO::Reset, IEnumDMOReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumDMO interface, dshow.ienumdmo_reset, mediaobj/IEnumDMO::Reset
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mediaobj.h
+req.include-header: Dmo.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dmoguids.lib
+-	Dmoguids.dll
+api_name:
+-	IEnumDMO.Reset
+product: Windows
+targetos: Windows
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IEnumDMO::Reset

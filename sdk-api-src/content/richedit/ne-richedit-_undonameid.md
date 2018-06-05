@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:richedit._undonameid
+title: "_undonameid"
+author: windows-sdk-content
+description: Contains values that indicate types of rich edit control actions that can be undone or redone. The EM_GETREDONAME and EM_GETUNDONAME messages use this enumeration type to return a value.
+old-location: controls\UNDONAMEID.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditenumerationtypes\undonameid.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: UID_AUTOTABLE, UID_CUT, UID_DELETE, UID_DRAGDROP, UID_PASTE, UID_TYPING, UID_UNKNOWN, UNDONAMEID, UNDONAMEID enumeration [Windows Controls], _undonameid, _win32_UNDONAMEID_str, _win32_UNDONAMEID_str_cpp, controls.UNDONAMEID, controls._win32_UNDONAMEID_str, richedit/UID_AUTOTABLE, richedit/UID_CUT, richedit/UID_DELETE, richedit/UID_DRAGDROP, richedit/UID_PASTE, richedit/UID_TYPING, richedit/UID_UNKNOWN, richedit/UNDONAMEID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: richedit.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UNDONAMEID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Richedit.h
+api_name:
+-	UNDONAMEID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _undonameid enumeration

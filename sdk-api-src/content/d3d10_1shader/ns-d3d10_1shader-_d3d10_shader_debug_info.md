@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_INFO
+title: "_D3D10_SHADER_DEBUG_INFO"
+author: windows-sdk-content
+description: Describes the format of the ID3D10Blob Interface returned by D3D10GetShaderDebugInfo.
+old-location: direct3d10\d3d10_shader_debug_info.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_info.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 18092958-2031-f4f8-2da4-c36244bd2989, D3D10_SHADER_DEBUG_INFO, D3D10_SHADER_DEBUG_INFO structure [Direct3D 10], _D3D10_SHADER_DEBUG_INFO, d3d10_1shader/D3D10_SHADER_DEBUG_INFO, direct3d10.d3d10_shader_debug_info
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d10_1shader.h
+req.include-header: D3D10Shader.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_SHADER_DEBUG_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d10_1shader.h
+api_name:
+-	D3D10_SHADER_DEBUG_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _D3D10_SHADER_DEBUG_INFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.ITaskDefinition.get_Actions
+title: ITaskDefinition::get_Actions
+author: windows-sdk-content
+description: Gets or sets a collection of actions performed by the task.
+old-location: taskschd\itaskdefinition_actions.htm
+old-project: TaskSchd
+ms.assetid: 24c00a2a-9b1e-4ef2-a28d-9faf39d53a06
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: Actions property [Task Scheduler], Actions property [Task Scheduler],ITaskDefinition interface, ITaskDefinition interface [Task Scheduler],Actions property, ITaskDefinition.Actions, ITaskDefinition.get_Actions, ITaskDefinition::Actions, ITaskDefinition::get_Actions, ITaskDefinition::put_Actions, get_Actions, taskschd.itaskdefinition_actions, taskschd/ITaskDefinition::Actions, taskschd/ITaskDefinition::get_Actions, taskschd/ITaskDefinition::put_Actions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	ITaskDefinition.Actions
+-	ITaskDefinition.get_Actions
+-	ITaskDefinition.put_Actions
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITaskDefinition::get_Actions

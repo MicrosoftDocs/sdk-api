@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.GetNumaAvailableMemoryNode
+title: GetNumaAvailableMemoryNode function
+author: windows-sdk-content
+description: Retrieves the amount of memory available in the specified node.
+old-location: base\getnumaavailablememorynode.htm
+old-project: ProcThread
+ms.assetid: 8db45ec1-fa3c-4395-8986-817e8b137a8a
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: GetNumaAvailableMemoryNode, GetNumaAvailableMemoryNode function, _win32_getnumaavailablememorynode, base.getnumaavailablememorynode, winbase/GetNumaAvailableMemoryNode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+api_name:
+-	GetNumaAvailableMemoryNode
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # GetNumaAvailableMemoryNode function

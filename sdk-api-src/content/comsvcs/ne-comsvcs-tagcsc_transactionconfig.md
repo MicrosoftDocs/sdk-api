@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:comsvcs.tagCSC_TransactionConfig
+title: tagCSC_TransactionConfig
+author: windows-sdk-content
+description: Indicates how transactions are configured for CServiceConfig.
+old-location: cos\csc_transactionconfig.htm
+old-project: cossdk
+ms.assetid: 3524d7b3-4bcd-4e92-afc2-ddac98a23b7c
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: CSC_CreateTransactionIfNecessary, CSC_IfContainerIsTransactional, CSC_NewTransaction, CSC_NoTransaction, CSC_TransactionConfig, CSC_TransactionConfig enumeration [COM+], _cos_CSC_TransactionConfig, comsvcs/CSC_CreateTransactionIfNecessary, comsvcs/CSC_IfContainerIsTransactional, comsvcs/CSC_NewTransaction, comsvcs/CSC_NoTransaction, comsvcs/CSC_TransactionConfig, cos.csc_transactionconfig, tagCSC_TransactionConfig
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CSC_TransactionConfig
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ComSvcs.h
+api_name:
+-	CSC_TransactionConfig
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagCSC_TransactionConfig enumeration

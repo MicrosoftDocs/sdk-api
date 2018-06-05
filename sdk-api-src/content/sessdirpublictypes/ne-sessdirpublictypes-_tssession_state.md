@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:sessdirpublictypes._TSSESSION_STATE
+title: "_TSSESSION_STATE"
+author: windows-sdk-content
+description: Indicates the state of a session.
+old-location: termserv\tssession_state.htm
+old-project: TermServ
+ms.assetid: 2780e704-72f1-44a9-ad54-ab3d2b19befe
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: STATE_ACTIVE, STATE_CONNECTED, STATE_CONNECTQUERY, STATE_DISCONNECTED, STATE_DOWN, STATE_IDLE, STATE_INIT, STATE_INVALID, STATE_LISTEN, STATE_RESET, STATE_SHADOW, TSSESSION_STATE, TSSESSION_STATE enumeration [Remote Desktop Services], _TSSESSION_STATE, sessdirpublictypes/STATE_ACTIVE, sessdirpublictypes/STATE_CONNECTED, sessdirpublictypes/STATE_CONNECTQUERY, sessdirpublictypes/STATE_DISCONNECTED, sessdirpublictypes/STATE_DOWN, sessdirpublictypes/STATE_IDLE, sessdirpublictypes/STATE_INIT, sessdirpublictypes/STATE_INVALID, sessdirpublictypes/STATE_LISTEN, sessdirpublictypes/STATE_RESET, sessdirpublictypes/STATE_SHADOW, sessdirpublictypes/TSSESSION_STATE, termserv.tssession_state
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: sessdirpublictypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: SessDirPublicTypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSSESSION_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	SessDirPublicTypes.h
+api_name:
+-	TSSESSION_STATE
+product: Windows
+targetos: Windows
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _TSSESSION_STATE enumeration

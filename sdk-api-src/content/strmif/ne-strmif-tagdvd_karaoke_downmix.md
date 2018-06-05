@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.tagDVD_KARAOKE_DOWNMIX
+title: tagDVD_KARAOKE_DOWNMIX
+author: windows-sdk-content
+description: Defines flags used by the IDvdControl2::SelectKaraokeAudioPresentationMode method to control which speakers, if any, each auxiliary channel is downmixed to.
+old-location: dshow\dvd_karaoke_downmix.htm
+old-project: DirectShow
+ms.assetid: 7f0132ae-6a46-4b81-9c5b-a0399a429b1a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DVD_KARAOKE_DOWNMIX, DVD_KARAOKE_DOWNMIX , DVD_KARAOKE_DOWNMIX enumeration [DirectShow], DVD_KARAOKE_DOWNMIXEnumeration, DVD_Mix_0to0, DVD_Mix_0to1, DVD_Mix_1to0, DVD_Mix_1to1, DVD_Mix_2to0, DVD_Mix_2to1, DVD_Mix_3to0, DVD_Mix_3to1, DVD_Mix_4to0, DVD_Mix_4to1, DVD_Mix_Lto0, DVD_Mix_Lto1, DVD_Mix_Rto0, DVD_Mix_Rto1, dshow.dvd_karaoke_downmix, strmif/DVD_KARAOKE_DOWNMIX, strmif/DVD_Mix_0to0, strmif/DVD_Mix_0to1, strmif/DVD_Mix_1to0, strmif/DVD_Mix_1to1, strmif/DVD_Mix_2to0, strmif/DVD_Mix_2to1, strmif/DVD_Mix_3to0, strmif/DVD_Mix_3to1, strmif/DVD_Mix_4to0, strmif/DVD_Mix_4to1, strmif/DVD_Mix_Lto0, strmif/DVD_Mix_Lto1, strmif/DVD_Mix_Rto0, strmif/DVD_Mix_Rto1, tagDVD_KARAOKE_DOWNMIX
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_KARAOKE_DOWNMIX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	DVD_KARAOKE_DOWNMIX
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # tagDVD_KARAOKE_DOWNMIX enumeration

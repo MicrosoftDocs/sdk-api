@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:shdeprecated.IBrowserService.SetFlags
+title: IBrowserService::SetFlags
+author: windows-sdk-content
+description: Deprecated. Sets flags that indicate browser status.
+old-location: shell\IBrowserService_SetFlags.htm
+old-project: shell
+ms.assetid: 696d4350-95f9-4d69-bb4b-92f4c26b3f65
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: BSF_CANMAXIMIZE, BSF_DELEGATEDNAVIGATION, BSF_DONTSHOWNAVCANCELPAGE, BSF_FEEDNAVIGATION, BSF_FEEDSUBSCRIBED, BSF_HTMLNAVCANCELED, BSF_MERGEDMENUS, BSF_NAVNOHISTORY, BSF_NOLOCALFILEWARNING, BSF_REGISTERASDROPTARGET, BSF_RESIZABLE, BSF_SETNAVIGATABLECODEPAGE, BSF_THEATERMODE, BSF_TOPBROWSER, BSF_TRUSTEDFORACTIVEX, BSF_UISETBYAUTOMATION, IBrowserService interface [Windows Shell],SetFlags method, IBrowserService.SetFlags, IBrowserService::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetFlags, shell.IBrowserService_SetFlags, zone_IBrowserService_SetFlags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shdeprecated.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shdeprecated.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BNSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shdeprecated.h
+api_name:
+-	IBrowserService.SetFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 4.0
 ---
 
 # IBrowserService::SetFlags

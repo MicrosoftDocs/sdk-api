@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:portabledeviceapi.IPortableDeviceResources.GetStream
+title: IPortableDeviceResources::GetStream
+author: windows-sdk-content
+description: The GetStream method gets an IStream interface with which to read or write the content data in an object on a device. The retrieved interface enables you to read from or write to the object data.
+old-location: wpdsdk\iportabledeviceresources_getstream.htm
+old-project: wpd_sdk
+ms.assetid: d5c9a85a-59fa-4b7b-acc7-d450ecd10593
+ms.author: windowssdkdev
+ms.date: 04/11/2018
+ms.keywords: GetStream, GetStream method [Windows Portable Devices SDK], GetStream method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],GetStream method, IPortableDeviceResources.GetStream, IPortableDeviceResources::GetStream, IPortableDeviceResourcesGetStream, portabledeviceapi/IPortableDeviceResources::GetStream, wpdsdk.iportabledeviceresources_getstream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: portabledeviceapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceGUIDs.lib
+-	PortableDeviceGUIDs.dll
+api_name:
+-	IPortableDeviceResources.GetStream
+product: Windows
+targetos: Windows
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPortableDeviceResources::GetStream

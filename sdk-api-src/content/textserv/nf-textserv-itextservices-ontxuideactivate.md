@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:textserv.ITextServices.OnTxUIDeactivate
+title: ITextServices::OnTxUIDeactivate
+author: windows-sdk-content
+description: Informs the text services object that the control is no longer UI active.
+old-location: controls\ITextServices_OnTxUIDeactivate.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxuideactivate.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: ITextServices interface [Windows Controls],OnTxUIDeactivate method, ITextServices.OnTxUIDeactivate, ITextServices::OnTxUIDeactivate, OnTxUIDeactivate, OnTxUIDeactivate method [Windows Controls], OnTxUIDeactivate method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxUIDeactivate, _win32_ITextServices_OnTxUIDeactivate_cpp, controls.ITextServices_OnTxUIDeactivate, controls._win32_ITextServices_OnTxUIDeactivate, textserv/ITextServices::OnTxUIDeactivate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: textserv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextServices.OnTxUIDeactivate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextServices::OnTxUIDeactivate

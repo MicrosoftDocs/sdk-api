@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:cpl.tagNEWCPLINFOW
+title: tagNEWCPLINFOW
+author: windows-sdk-content
+description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.
+old-location: shell\NEWCPLINFO.htm
+old-project: shell
+ms.assetid: a68cd816-6b2c-4cff-9288-9c3758e3fdae
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPNEWCPLINFOW, LPNEWCPLINFO, LPNEWCPLINFO structure pointer [Windows Shell], NEWCPLINFO, NEWCPLINFO structure [Windows Shell], NEWCPLINFOW, _win32_NEWCPLINFO, cpl/LPNEWCPLINFO, cpl/NEWCPLINFO, shell.NEWCPLINFO, tagNEWCPLINFOW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cpl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NEWCPLINFOW, *LPNEWCPLINFOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Cpl.h
+api_name:
+-	NEWCPLINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagNEWCPLINFOW structure

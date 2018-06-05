@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:batclass.BCLASS_SET_INFORMATION_CALLBACK
+title: BCLASS_SET_INFORMATION_CALLBACK
+author: windows-sdk-content
+description: BatteryMiniSetInformation requests that a battery enter the charging or discharging state, or sets a critical bias value for the battery.
+old-location: battery\batteryminisetinformation.htm
+old-project: battery
+ms.assetid: ebfcabb7-7447-486d-b980-7cb5456332f4
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: BCLASS_SET_INFORMATION_CALLBACK, BCLASS_SET_INFORMATION_CALLBACK callback, BatteryMiniSetInformation, BatteryMiniSetInformation callback function [Battery Devices], bat-mini_abc151e1-9d35-4b39-b1e8-576503335d3b.xml, batclass/BatteryMiniSetInformation, battery.batteryminisetinformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: batclass.h
+req.include-header: Batclass.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Batclass.h
+api_name:
+-	BatteryMiniSetInformation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: PASSIVE_LEVEL
 ---
 
 # BCLASS_SET_INFORMATION_CALLBACK callback function

@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:docobj.IOleDocument.CreateView
+title: IOleDocument::CreateView
+author: windows-sdk-content
+description: Creates a document view object in the caller's process and obtains a pointer to that object's IOleDocumentView interface.
+old-location: com\ioledocument_createview.htm
+old-project: com
+ms.assetid: 709d7ff4-d32d-405f-8839-b05df49ef751
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: CreateView, CreateView method [COM], CreateView method [COM],IOleDocument interface, IOleDocument interface [COM],CreateView method, IOleDocument.CreateView, IOleDocument::CreateView, _ole_ioledocument_createview, com.ioledocument_createview, docobj/IOleDocument::CreateView
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: docobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DocObj.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOCMISC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DocObj.h
+api_name:
+-	IOleDocument.CreateView
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IOleDocument::CreateView

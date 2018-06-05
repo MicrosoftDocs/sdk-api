@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msrdc.IRdcLibrary.CreateComparator
+title: IRdcLibrary::CreateComparator
+author: windows-sdk-content
+description: Creates a signature comparator.
+old-location: rdc\irdclibrary_createcomparator.htm
+old-project: Rdc
+ms.assetid: 21e83ed0-974a-470f-8a7f-1776f1575100
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: CreateComparator, CreateComparator method [Remote Differential Compression], CreateComparator method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateComparator method, IRdcLibrary.CreateComparator, IRdcLibrary::CreateComparator, MSRDC_DEFAULT_COMPAREBUFFER, MSRDC_MAXIMUM_COMPAREBUFFER, MSRDC_MINIMUM_COMPAREBUFFER, fs.irdclibrary_createcomparator, msrdc/IRdcLibrary::CreateComparator, rdc.irdclibrary_createcomparator
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msrdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: MsRdc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: MsRdc.dll
+tech.root: 
+req.typenames: RdcMappingAccessMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsRdc.dll
+api_name:
+-	IRdcLibrary.CreateComparator
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRdcLibrary::CreateComparator

@@ -1,31 +1,55 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:objidlbase.IObjContext
+title: IObjContext
+author: windows-sdk-content
+description: Performs various operations on contexts.
+old-location: com\iobjcontext.htm
+old-project: com
+ms.assetid: 983615a1-cfa2-4137-8c7e-42e2ef6923a8
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IObjContext, IObjContext interface [COM], IObjContext interface [COM],described, _com_iobjcontext, com.iobjcontext, objidlbase/IObjContext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: objidlbase.h
+req.include-header: ObjIdl.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidlbase.h
+api_name:
+-	IObjContext
+-	IObjContext.Reserved1
+-	IObjContext.Reserved2
+-	IObjContext.Reserved3
+-	IObjContext.Reserved4
+-	IObjContext.Reserved5
+-	IObjContext.Reserved6
+-	IObjContext.Reserved7
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IObjContext interface

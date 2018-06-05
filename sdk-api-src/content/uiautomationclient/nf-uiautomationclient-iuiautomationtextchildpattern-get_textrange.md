@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationTextChildPattern.get_TextRange
+title: IUIAutomationTextChildPattern::get_TextRange
+author: windows-sdk-content
+description: Retrieves a text range that encloses this child element.
+old-location: winauto\uiauto_IUIAutomationTextChildPattern_TextRange.htm
+old-project: WinAuto
+ms.assetid: D7F5BB02-9932-447D-A6C9-35B17B4FCD83
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: IUIAutomationTextChildPattern interface [Windows Accessibility],TextRange property, IUIAutomationTextChildPattern.TextRange, IUIAutomationTextChildPattern.get_TextRange, IUIAutomationTextChildPattern::TextRange, IUIAutomationTextChildPattern::get_TextRange, TextRange property [Windows Accessibility], TextRange property [Windows Accessibility],IUIAutomationTextChildPattern interface, get_TextRange, uiautomationclient/IUIAutomationTextChildPattern::TextRange, uiautomationclient/IUIAutomationTextChildPattern::get_TextRange, winauto.uiauto_IUIAutomationTextChildPattern_TextRange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationTextChildPattern.TextRange
+-	IUIAutomationTextChildPattern.get_TextRange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationTextChildPattern::get_TextRange

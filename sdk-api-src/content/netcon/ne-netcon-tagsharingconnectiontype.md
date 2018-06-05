@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:netcon.tagSHARINGCONNECTIONTYPE
+title: tagSHARINGCONNECTIONTYPE
+author: windows-sdk-content
+description: The values of the SHARINGCONNECTIONTYPE type enumerate the possible types of shared connections.
+old-location: ics\sharingconnectiontype.htm
+old-project: ICS
+ms.assetid: 97409190-55b3-412f-b654-e5b27928a4c3
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: "*LPSHARINGCONNECTIONTYPE, ICSSHARINGTYPE_PRIVATE, ICSSHARINGTYPE_PUBLIC, LPSHARINGCONNECTIONTYPE, LPSHARINGCONNECTIONTYPE enumeration pointer [ICS/ICF], SHARINGCONNECTIONTYPE, SHARINGCONNECTIONTYPE enumeration [ICS/ICF], _ics_sharingconnectiontype, ics.sharingconnectiontype, netcon/ICSSHARINGTYPE_PRIVATE, netcon/ICSSHARINGTYPE_PUBLIC, netcon/LPSHARINGCONNECTIONTYPE, netcon/SHARINGCONNECTIONTYPE, tagSHARINGCONNECTIONTYPE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: netcon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ndhelper.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	NetCon.h
+api_name:
+-	SHARINGCONNECTIONTYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagSHARINGCONNECTIONTYPE enumeration

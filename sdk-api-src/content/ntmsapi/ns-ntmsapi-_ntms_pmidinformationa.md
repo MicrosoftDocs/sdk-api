@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntmsapi._NTMS_PMIDINFORMATIONA
+title: "_NTMS_PMIDINFORMATIONA"
+author: windows-sdk-content
+description: The NTMS_PMIDINFORMATION structure defines the properties specific to a physical media object.
+old-location: fs\ntms_pmidinformation.htm
+old-project: Rsm
+ms.assetid: 9ed46cc9-0b93-44ef-9c33-1e1baadb225f
+ms.author: windowssdkdev
+ms.date: 04/05/2018
+ms.keywords: NTMS_BARCODESTATE_OK, NTMS_BARCODESTATE_UNREADABLE, NTMS_MEDIASTATE_IDLE, NTMS_MEDIASTATE_INUSE, NTMS_MEDIASTATE_LOADED, NTMS_MEDIASTATE_MOUNTED, NTMS_MEDIASTATE_OPREQ, NTMS_MEDIASTATE_OP_ERROR, NTMS_MEDIASTATE_UNLOADED, NTMS_PMIDINFORMATION, NTMS_PMIDINFORMATION structure [Files], NTMS_PMIDINFORMATIONA, _NTMS_PMIDINFORMATIONA, _NTMS_PMIDINFORMATIONW, _zaw_ntms_pmidinformation, base.ntms_pmidinformation, fs.ntms_pmidinformation, ntmsapi/NTMS_PMIDINFORMATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntmsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NTMS_PMIDINFORMATIONA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntmsapi.h
+api_name:
+-	NTMS_PMIDINFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NTMS_PMIDINFORMATIONA structure

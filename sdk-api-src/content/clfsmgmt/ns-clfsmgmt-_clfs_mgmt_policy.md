@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clfsmgmt._CLFS_MGMT_POLICY
+title: "_CLFS_MGMT_POLICY"
+author: windows-sdk-content
+description: The CLFS_MGMT_POLICY structure specifies a Common Log File System (CLFS) management policy. The PolicyType member specifies the members used for a policy.
+old-location: fs\clfs_mgmt_policy.htm
+old-project: Clfs
+ms.assetid: 3f5d9c38-b299-4102-9786-115ece5b0928
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PCLFS_MGMT_POLICY, CLFS_MGMT_POLICY, CLFS_MGMT_POLICY structure [Files], PCLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Files], _CLFS_MGMT_POLICY, clfsmgmt/CLFS_MGMT_POLICY, clfsmgmt/PCLFS_MGMT_POLICY, fs.clfs_mgmt_policy"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clfsmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Clfsmgmt.h
+api_name:
+-	CLFS_MGMT_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CLFS_MGMT_POLICY structure

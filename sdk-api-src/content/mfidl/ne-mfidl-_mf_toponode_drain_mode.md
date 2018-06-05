@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl._MF_TOPONODE_DRAIN_MODE
+title: "_MF_TOPONODE_DRAIN_MODE"
+author: windows-sdk-content
+description: Defines at what times a transform in a topology is drained.
+old-location: mf\mf_toponode_drain_mode.htm
+old-project: medfound
+ms.assetid: 7f84fd12-40c3-4201-8986-a2883ba2f53d
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 7f84fd12-40c3-4201-8986-a2883ba2f53d, MF_TOPONODE_DRAIN_ALWAYS, MF_TOPONODE_DRAIN_DEFAULT, MF_TOPONODE_DRAIN_MODE, MF_TOPONODE_DRAIN_MODE enumeration [Media Foundation], MF_TOPONODE_DRAIN_NEVER, _MF_TOPONODE_DRAIN_MODE, mf.mf_toponode_drain_mode, mfidl/MF_TOPONODE_DRAIN_ALWAYS, mfidl/MF_TOPONODE_DRAIN_DEFAULT, mfidl/MF_TOPONODE_DRAIN_MODE, mfidl/MF_TOPONODE_DRAIN_NEVER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_TOPONODE_DRAIN_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MF_TOPONODE_DRAIN_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MF_TOPONODE_DRAIN_MODE enumeration

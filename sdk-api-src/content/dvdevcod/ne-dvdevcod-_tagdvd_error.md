@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dvdevcod._tagDVD_ERROR
+title: "_tagDVD_ERROR"
+author: windows-sdk-content
+description: The DVD_ERROR enumeration value defines DVD error conditions.
+old-location: dshow\dvd_error.htm
+old-project: DirectShow
+ms.assetid: 7059c77f-2b64-40bb-8962-d9bd90da5e90
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DVD_ERROR, DVD_ERROR , DVD_ERROR enumeration [DirectShow], DVD_ERROREnumeration, DVD_ERROR_CopyProtectFail, DVD_ERROR_CopyProtectOutputFail, DVD_ERROR_CopyProtectOutputNotSupported, DVD_ERROR_IncompatibleDiscAndDecoderRegions, DVD_ERROR_IncompatibleSystemAndDecoderRegions, DVD_ERROR_InvalidDVD1_0Disc, DVD_ERROR_InvalidDiscRegion, DVD_ERROR_LowParentalLevel, DVD_ERROR_MacrovisionFail, DVD_ERROR_Unexpected, _tagDVD_ERROR, dshow.dvd_error, dvdevcod/DVD_ERROR, dvdevcod/DVD_ERROR_CopyProtectFail, dvdevcod/DVD_ERROR_CopyProtectOutputFail, dvdevcod/DVD_ERROR_CopyProtectOutputNotSupported, dvdevcod/DVD_ERROR_IncompatibleDiscAndDecoderRegions, dvdevcod/DVD_ERROR_IncompatibleSystemAndDecoderRegions, dvdevcod/DVD_ERROR_InvalidDVD1_0Disc, dvdevcod/DVD_ERROR_InvalidDiscRegion, dvdevcod/DVD_ERROR_LowParentalLevel, dvdevcod/DVD_ERROR_MacrovisionFail, dvdevcod/DVD_ERROR_Unexpected
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dvdevcod.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_ERROR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dvdevcod.h
+api_name:
+-	DVD_ERROR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _tagDVD_ERROR enumeration

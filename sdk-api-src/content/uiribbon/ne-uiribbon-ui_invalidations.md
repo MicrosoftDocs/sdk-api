@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uiribbon.UI_INVALIDATIONS
+title: UI_INVALIDATIONS
+author: windows-sdk-content
+description: Specifies values that identify the aspect of a Command to invalidate.
+old-location: windowsribbon\windowsribbon_ui_invalidations.htm
+old-project: windowsribbon
+ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_invalidations.htm
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: UI_INVALIDATIONS, UI_INVALIDATIONS enumeration [Windows Ribbon], UI_INVALIDATIONS_ALLPROPERTIES, UI_INVALIDATIONS_PROPERTY, UI_INVALIDATIONS_STATE, UI_INVALIDATIONS_VALUE, scenicintent_UI_INVALIDATIONS, uiribbon/UI_INVALIDATIONS, uiribbon/UI_INVALIDATIONS_ALLPROPERTIES, uiribbon/UI_INVALIDATIONS_PROPERTY, uiribbon/UI_INVALIDATIONS_STATE, uiribbon/UI_INVALIDATIONS_VALUE, windowsribbon.windowsribbon_ui_invalidations
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uiribbon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Uiribbon.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_INVALIDATIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Uiribbon.h
+api_name:
+-	UI_INVALIDATIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # UI_INVALIDATIONS enumeration

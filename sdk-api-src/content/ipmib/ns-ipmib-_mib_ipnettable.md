@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipmib._MIB_IPNETTABLE
+title: "_MIB_IPNETTABLE"
+author: windows-sdk-content
+description: Contains a table of Address Resolution Protocol (ARP) entries for IPv4 addresses.
+old-location: mib\mib_ipnettable.htm
+old-project: MIB
+ms.assetid: 1cac1c19-bc42-4aee-b9d0-d007b8798eeb
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIB_IPNETTABLE, MIB_IPNETTABLE, MIB_IPNETTABLE structure [MIB], PMIB_IPNETTABLE, PMIB_IPNETTABLE structure pointer [MIB], _MIB_IPNETTABLE, _mpr_mib_ipnettable, ipmib/MIB_IPNETTABLE, ipmib/PMIB_IPNETTABLE, iprtrmib/MIB_IPNETTABLE, iprtrmib/PMIB_IPNETTABLE, mib.mib_ipnettable, rras.mib_ipnettable"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_IPNETTABLE, *PMIB_IPNETTABLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipmib.h
+-	Iprtrmib.h
+api_name:
+-	MIB_IPNETTABLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MIB_IPNETTABLE structure

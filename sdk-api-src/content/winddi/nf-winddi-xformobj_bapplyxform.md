@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:winddi.XFORMOBJ_bApplyXform
+title: XFORMOBJ_bApplyXform function
+author: windows-sdk-content
+description: The XFORMOBJ_bApplyXform function applies the given transform or its inverse to the given array of points.
+old-location: display\xformobj_bapplyxform.htm
+old-project: display
+ms.assetid: a9267d2a-96ab-4518-8045-428ab74bd599
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: XFORMOBJ_bApplyXform, XFORMOBJ_bApplyXform function [Display Devices], display.xformobj_bapplyxform, gdifncs_d95d97d6-6fd2-4deb-b7f9-627eef20fece.xml, winddi/XFORMOBJ_bApplyXform
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Win32k.sys
+api_name:
+-	XFORMOBJ_bApplyXform
+product: Windows
+targetos: Windows
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # XFORMOBJ_bApplyXform function

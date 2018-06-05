@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winusb._WINUSB_SETUP_PACKET
+title: "_WINUSB_SETUP_PACKET"
+author: windows-sdk-content
+description: The WINUSB_SETUP_PACKET structure describes a USB setup packet.
+old-location: buses\winusb_setup_packet.htm
+old-project: usbref
+ms.assetid: b2e6bebc-81c1-4f52-870d-43c72740f8e2
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: "*PWINUSB_SETUP_PACKET, PWINUSB_SETUP_PACKET, PWINUSB_SETUP_PACKET structure pointer [Buses], WINUSB_SETUP_PACKET, WINUSB_SETUP_PACKET structure [Buses], _WINUSB_SETUP_PACKET, buses.winusb_setup_packet, usbstrct_8a7725be-7ee3-4715-8498-3168b011c2dd.xml, winusb/PWINUSB_SETUP_PACKET, winusb/WINUSB_SETUP_PACKET"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winusb.h
+req.include-header: Winusbio.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINUSB_SETUP_PACKET, *PWINUSB_SETUP_PACKET
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winusb.h
+api_name:
+-	WINUSB_SETUP_PACKET
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WINUSB_SETUP_PACKET structure

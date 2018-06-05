@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:perflib.PerfEnumerateCounterSet
+title: PerfEnumerateCounterSet function
+author: windows-sdk-content
+description: Gets the counter set identifiers of the counter sets that are registered on the specified system. Counter set identifiers are globally unique identifiers (GUIDs).
+old-location: perf\perfenumeratecounterset.htm
+old-project: PerfCtrs
+ms.assetid: 6C487D11-2DC0-475C-AA0F-4060641C6500
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PerfEnumerateCounterSet, PerfEnumerateCounterSet function [Perf], perf.perfenumeratecounterset, perflib/PerfEnumerateCounterSet
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: perflib.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PerfRegInfoType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	AdvAPI32.dll
+api_name:
+-	PerfEnumerateCounterSet
+product: Windows
+targetos: Windows
+req.lib: AdvAPI32.lib
+req.dll: AdvAPI32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PerfEnumerateCounterSet function

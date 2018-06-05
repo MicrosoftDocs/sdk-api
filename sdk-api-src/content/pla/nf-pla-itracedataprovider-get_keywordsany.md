@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.ITraceDataProvider.get_KeywordsAny
+title: ITraceDataProvider::get_KeywordsAny
+author: windows-sdk-content
+description: Retrieves the list of keywords that determine the category of events that you want the provider to write.
+old-location: pla\itracedataprovider_keywordsany.htm
+old-project: PLA
+ms.assetid: 10159c09-609a-4263-a515-241ab942c3e8
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ITraceDataProvider interface [PLA],KeywordsAny property, ITraceDataProvider.KeywordsAny, ITraceDataProvider.get_KeywordsAny, ITraceDataProvider::KeywordsAny, ITraceDataProvider::get_KeywordsAny, KeywordsAny property [PLA], KeywordsAny property [PLA],ITraceDataProvider interface, get_KeywordsAny, pla.itracedataprovider_keywordsany, pla/ITraceDataProvider::KeywordsAny, pla/ITraceDataProvider::get_KeywordsAny
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	ITraceDataProvider.KeywordsAny
+-	ITraceDataProvider.get_KeywordsAny
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITraceDataProvider::get_KeywordsAny

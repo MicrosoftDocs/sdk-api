@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi._DHCP_SERVER_CONFIG_INFO_VQ
+title: "_DHCP_SERVER_CONFIG_INFO_VQ"
+author: windows-sdk-content
+description: Defines settings for the DHCP server.
+old-location: dhcp\dhcp_server_config_info_vq.htm
+old-project: DHCP
+ms.assetid: 54b5898f-8e9d-42be-b68e-32884d3dbe08
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_SERVER_CONFIG_INFO_VQ, DEBUG_ADDRESS, DEBUG_ALLOC, DEBUG_APIS, DEBUG_API_VERBOSE, DEBUG_AUDITLOG, DEBUG_CLIENT, DEBUG_DNS, DEBUG_ERRORS, DEBUG_INIT, DEBUG_JET, DEBUG_LOG_IN_FILE, DEBUG_MESSAGE, DEBUG_MISC, DEBUG_MSTOC, DEBUG_OPTIONS, DEBUG_PARAMETERS, DEBUG_PERF, DEBUG_PING, DEBUG_PNP, DEBUG_QUARANTINE, DEBUG_REGISTRY, DEBUG_ROGUE, DEBUG_SCAVENGER, DEBUG_STARTUP_BRK, DEBUG_STOC, DEBUG_THREAD, DEBUG_THREADPOOL, DEBUG_TIMESTAMP, DEBUG_TRACE, DEBUG_TRACE_CALLS, DEBUG_TRACK, DHCP_SERVER_CONFIG_INFO_VQ, DHCP_SERVER_CONFIG_INFO_VQ structure [DHCP], DHCP_SERVER_USE_RPC_OVER_ALL, DHCP_SERVER_USE_RPC_OVER_LPC, DHCP_SERVER_USE_RPC_OVER_NP, DHCP_SERVER_USE_RPC_OVER_TCPIP, PDHCP_SERVER_CONFIG_INFO_VQ, PDHCP_SERVER_CONFIG_INFO_VQ structure pointer [DHCP], _DHCP_SERVER_CONFIG_INFO_VQ, dhcp.dhcp_server_config_info_vq, dhcpsapi/DHCP_SERVER_CONFIG_INFO_VQ, dhcpsapi/PDHCP_SERVER_CONFIG_INFO_VQ"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_SERVER_CONFIG_INFO_VQ, *LPDHCP_SERVER_CONFIG_INFO_VQ
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCP_SERVER_CONFIG_INFO_VQ
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_SERVER_CONFIG_INFO_VQ structure

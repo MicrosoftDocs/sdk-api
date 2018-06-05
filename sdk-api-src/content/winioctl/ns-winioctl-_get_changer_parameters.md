@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._GET_CHANGER_PARAMETERS
+title: "_GET_CHANGER_PARAMETERS"
+author: windows-sdk-content
+description: Represents the parameters of a changer.
+old-location: base\get_changer_parameters_str.htm
+old-project: DevIO
+ms.assetid: ad5b6cc3-19f1-4196-9f03-791f342d0cf9
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*PGET_CHANGER_PARAMETERS, CHANGER_BAR_CODE_SCANNER_INSTALLED, CHANGER_CARTRIDGE_MAGAZINE, CHANGER_CLEANER_ACCESS_NOT_VALID, CHANGER_CLEANER_AUTODISMOUNT, CHANGER_CLEANER_OPS_NOT_SUPPORTED, CHANGER_CLEANER_SLOT, CHANGER_CLOSE_IEPORT, CHANGER_DEVICE_REINITIALIZE_CAPABLE, CHANGER_DRIVE_CLEANING_REQUIRED, CHANGER_DRIVE_EMPTY_ON_DOOR_ACCESS, CHANGER_EXCHANGE_MEDIA, CHANGER_IEPORT_USER_CONTROL_CLOSE, CHANGER_IEPORT_USER_CONTROL_OPEN, CHANGER_INIT_ELEM_STAT_WITH_RANGE, CHANGER_KEYPAD_ENABLE_DISABLE, CHANGER_LOCK_UNLOCK, CHANGER_MEDIUM_FLIP, CHANGER_MOVE_EXTENDS_IEPORT, CHANGER_MOVE_RETRACTS_IEPORT, CHANGER_OPEN_IEPORT, CHANGER_POSITION_TO_ELEMENT, CHANGER_PREDISMOUNT_ALIGN_TO_DRIVE, CHANGER_PREDISMOUNT_ALIGN_TO_SLOT, CHANGER_PREDISMOUNT_EJECT_REQUIRED, CHANGER_PREMOUNT_EJECT_REQUIRED, CHANGER_REPORT_IEPORT_STATE, CHANGER_RTN_MEDIA_TO_ORIGINAL_ADDR, CHANGER_SERIAL_NUMBER_VALID, CHANGER_SLOTS_USE_TRAYS, CHANGER_STATUS_NON_VOLATILE, CHANGER_STORAGE_DRIVE, CHANGER_STORAGE_IEPORT, CHANGER_STORAGE_SLOT, CHANGER_STORAGE_TRANSPORT, CHANGER_TO_DRIVE, CHANGER_TO_IEPORT, CHANGER_TO_SLOT, CHANGER_TO_TRANSPORT, CHANGER_TRUE_EXCHANGE_CAPABLE, CHANGER_VOLUME_ASSERT, CHANGER_VOLUME_IDENTIFICATION, CHANGER_VOLUME_REPLACE, CHANGER_VOLUME_SEARCH, CHANGER_VOLUME_UNDEFINE, GET_CHANGER_PARAMETERS, GET_CHANGER_PARAMETERS structure, LOCK_UNLOCK_DOOR, LOCK_UNLOCK_IEPORT, LOCK_UNLOCK_KEYPAD, PGET_CHANGER_PARAMETERS, PGET_CHANGER_PARAMETERS structure pointer, _GET_CHANGER_PARAMETERS, _win32_get_changer_parameters_str, base.get_changer_parameters_str, winioctl/GET_CHANGER_PARAMETERS, winioctl/PGET_CHANGER_PARAMETERS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	GET_CHANGER_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _GET_CHANGER_PARAMETERS structure

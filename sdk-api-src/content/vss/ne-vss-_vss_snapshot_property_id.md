@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vss._VSS_SNAPSHOT_PROPERTY_ID
+title: "_VSS_SNAPSHOT_PROPERTY_ID"
+author: windows-sdk-content
+description: Specifies the property to be set for a shadow copy.
+old-location: base\vss_snapshot_property_id.htm
+old-project: VSS
+ms.assetid: 6d741293-7efc-4044-b69d-390138c1be4f
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PVSS_SNAPSHOT_PROPERTY_ID, PVSS_SNAPSHOT_PROPERTY_ID, PVSS_SNAPSHOT_PROPERTY_ID enumeration pointer, VSS_SNAPSHOT_PROPERTY_ID, VSS_SNAPSHOT_PROPERTY_ID enumeration, VSS_SPROPID_CREATION_TIMESTAMP, VSS_SPROPID_EXPOSED_NAME, VSS_SPROPID_EXPOSED_PATH, VSS_SPROPID_ORIGINAL_VOLUME, VSS_SPROPID_ORIGINATING_MACHINE, VSS_SPROPID_PROVIDER_ID, VSS_SPROPID_SERVICE_MACHINE, VSS_SPROPID_SNAPSHOTS_COUNT, VSS_SPROPID_SNAPSHOT_ATTRIBUTES, VSS_SPROPID_SNAPSHOT_DEVICE, VSS_SPROPID_SNAPSHOT_ID, VSS_SPROPID_SNAPSHOT_SET_ID, VSS_SPROPID_STATUS, VSS_SPROPID_UNKNOWN, _VSS_SNAPSHOT_PROPERTY_ID, base.vss_snapshot_property_id, vss/PVSS_SNAPSHOT_PROPERTY_ID, vss/VSS_SNAPSHOT_PROPERTY_ID, vss/VSS_SPROPID_CREATION_TIMESTAMP, vss/VSS_SPROPID_EXPOSED_NAME, vss/VSS_SPROPID_EXPOSED_PATH, vss/VSS_SPROPID_ORIGINAL_VOLUME, vss/VSS_SPROPID_ORIGINATING_MACHINE, vss/VSS_SPROPID_PROVIDER_ID, vss/VSS_SPROPID_SERVICE_MACHINE, vss/VSS_SPROPID_SNAPSHOTS_COUNT, vss/VSS_SPROPID_SNAPSHOT_ATTRIBUTES, vss/VSS_SPROPID_SNAPSHOT_DEVICE, vss/VSS_SPROPID_SNAPSHOT_ID, vss/VSS_SPROPID_SNAPSHOT_SET_ID, vss/VSS_SPROPID_STATUS, vss/VSS_SPROPID_UNKNOWN"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vss.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_SNAPSHOT_PROPERTY_ID, *PVSS_SNAPSHOT_PROPERTY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vss.h
+api_name:
+-	VSS_SNAPSHOT_PROPERTY_ID
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VSS_SNAPSHOT_PROPERTY_ID enumeration

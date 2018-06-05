@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winsatcominterfacei.__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0003
+title: "__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0003"
+author: windows-sdk-content
+description: Defines the possible subcomponents of an assessment.
+old-location: winsat\winsat_assessment_type.htm
+old-project: WinSAT
+ms.assetid: 7e54df13-4415-42b8-b140-e35ea440ef68
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WINSAT_ASSESSMENT_CPU, WINSAT_ASSESSMENT_D3D, WINSAT_ASSESSMENT_DISK, WINSAT_ASSESSMENT_GRAPHICS, WINSAT_ASSESSMENT_MEMORY, WINSAT_ASSESSMENT_TYPE, WINSAT_ASSESSMENT_TYPE enumeration [WinSAT], __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0003, winsat.winsat_assessment_type, winsatcominterfacei/WINSAT_ASSESSMENT_CPU, winsatcominterfacei/WINSAT_ASSESSMENT_D3D, winsatcominterfacei/WINSAT_ASSESSMENT_DISK, winsatcominterfacei/WINSAT_ASSESSMENT_GRAPHICS, winsatcominterfacei/WINSAT_ASSESSMENT_MEMORY, winsatcominterfacei/WINSAT_ASSESSMENT_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winsatcominterfacei.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINSAT_ASSESSMENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsatcominterfacei.h
+api_name:
+-	WINSAT_ASSESSMENT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0003 enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:olectl.tagFONTDESC
+title: tagFONTDESC
+author: windows-sdk-content
+description: Contains parameters used to create a font object through the OleCreateFontIndirect function.
+old-location: com\fontdesc.htm
+old-project: com
+ms.assetid: c677b0ba-fd52-40e8-b7c3-b80a01c9fb26
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPFONTDESC, FONTDESC, FONTDESC structure [COM], LPFONTDESC, LPFONTDESC structure pointer [COM], _ctrl_FONTDESC, com.fontdesc, olectl/FONTDESC, olectl/LPFONTDESC, tagFONTDESC"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: olectl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FONTDESC, *LPFONTDESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Olectl.h
+api_name:
+-	FONTDESC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagFONTDESC structure

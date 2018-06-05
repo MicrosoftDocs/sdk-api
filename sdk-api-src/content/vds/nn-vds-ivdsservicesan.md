@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:vds.IVdsServiceSAN
+title: IVdsServiceSAN
+author: windows-sdk-content
+description: Provides methods for managing disk online and offline SAN policy for the operating system.
+old-location: base\ivdsservicesan.htm
+old-project: VDS
+ms.assetid: 675e9ea8-06b6-4832-9311-17361e4781d4
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IVdsServiceSAN, IVdsServiceSAN interface, IVdsServiceSAN interface,described, base.ivdsservicesan, vds/IVdsServiceSAN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VOLUME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsServiceSAN
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsServiceSAN interface

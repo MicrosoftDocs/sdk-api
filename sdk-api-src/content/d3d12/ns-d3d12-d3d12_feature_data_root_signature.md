@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d12.D3D12_FEATURE_DATA_ROOT_SIGNATURE
+title: D3D12_FEATURE_DATA_ROOT_SIGNATURE
+author: windows-sdk-content
+description: Pass this structure to CheckFeatureSupport to check for root signature version support.
+old-location: direct3d12\d3d12_feature_data_root_signature.htm
+old-project: direct3d12
+ms.assetid: 3CC49B10-18B9-4A10-9013-D8F265FD1A28
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_FEATURE_DATA_ROOT_SIGNATURE, D3D12_FEATURE_DATA_ROOT_SIGNATURE structure, d3d12/D3D12_FEATURE_DATA_ROOT_SIGNATURE, direct3d12.d3d12_feature_data_root_signature
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_FEATURE_DATA_ROOT_SIGNATURE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d12.h
+api_name:
+-	D3D12_FEATURE_DATA_ROOT_SIGNATURE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_FEATURE_DATA_ROOT_SIGNATURE structure

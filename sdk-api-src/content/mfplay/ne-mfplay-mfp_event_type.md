@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfplay.MFP_EVENT_TYPE
+title: MFP_EVENT_TYPE
+author: windows-sdk-content
+description: Defines event types for the IMFPMediaPlayerCallback interface.
+old-location: mf\mfp_event_type.htm
+old-project: medfound
+ms.assetid: 95beb13d-db84-4713-9c27-27b37eac7f2f
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFP_EVENT_TYPE, MFP_EVENT_TYPE enumeration [Media Foundation], MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL, MFP_EVENT_TYPE_ERROR, MFP_EVENT_TYPE_FRAME_STEP, MFP_EVENT_TYPE_MEDIAITEM_CLEARED, MFP_EVENT_TYPE_MEDIAITEM_CREATED, MFP_EVENT_TYPE_MEDIAITEM_SET, MFP_EVENT_TYPE_MF, MFP_EVENT_TYPE_PAUSE, MFP_EVENT_TYPE_PLAY, MFP_EVENT_TYPE_PLAYBACK_ENDED, MFP_EVENT_TYPE_POSITION_SET, MFP_EVENT_TYPE_RATE_SET, MFP_EVENT_TYPE_STOP, mf.mfp_event_type, mfplay/MFP_EVENT_TYPE, mfplay/MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL, mfplay/MFP_EVENT_TYPE_ERROR, mfplay/MFP_EVENT_TYPE_FRAME_STEP, mfplay/MFP_EVENT_TYPE_MEDIAITEM_CLEARED, mfplay/MFP_EVENT_TYPE_MEDIAITEM_CREATED, mfplay/MFP_EVENT_TYPE_MEDIAITEM_SET, mfplay/MFP_EVENT_TYPE_MF, mfplay/MFP_EVENT_TYPE_PAUSE, mfplay/MFP_EVENT_TYPE_PLAY, mfplay/MFP_EVENT_TYPE_PLAYBACK_ENDED, mfplay/MFP_EVENT_TYPE_POSITION_SET, mfplay/MFP_EVENT_TYPE_RATE_SET, mfplay/MFP_EVENT_TYPE_STOP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfplay.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFP_EVENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfplay.h
+api_name:
+-	MFP_EVENT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MFP_EVENT_TYPE enumeration

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dbghelp.SymEnumerateModules64
+title: SymEnumerateModules64 function
+author: windows-sdk-content
+description: Enumerates all modules that have been loaded for the process by the SymLoadModule64 or SymLoadModuleEx function.
+old-location: base\symenumeratemodules64.htm
+old-project: Debug
+ms.assetid: d2372521-eff7-4ac4-a0f3-1267ef50db6e
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: SymEnumerateModules, SymEnumerateModules function, SymEnumerateModules64, SymEnumerateModules64 function, SymEnumerateModulesW64, _win32_symenumeratemodules64, base.symenumeratemodules64, dbghelp/SymEnumerateModules, dbghelp/SymEnumerateModules64, dbghelp/SymEnumerateModulesW64
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SymEnumerateModulesW64 (Unicode) and SymEnumerateModules64 (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dbghelp.dll
+api_name:
+-	SymEnumerateModules64
+-	SymEnumerateModules64
+-	SymEnumerateModulesW64
+-	SymEnumerateModules
+product: Windows
+targetos: Windows
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 ---
 
 # SymEnumerateModules64 function

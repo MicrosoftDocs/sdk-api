@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:werapi._WER_REPORT_INFORMATION
+title: "_WER_REPORT_INFORMATION"
+author: windows-sdk-content
+description: Contains information used by the WerReportCreate function.
+old-location: wer\wer_report_information.htm
+old-project: wer
+ms.assetid: 3efe2b43-53ac-48e3-bc39-4a9fe6041fca
+ms.author: windowssdkdev
+ms.date: 03/22/2018
+ms.keywords: "*PWER_REPORT_INFORMATION, PWER_REPORT_INFORMATION, PWER_REPORT_INFORMATION structure pointer [Windows Error Reporting], WER_REPORT_INFORMATION, WER_REPORT_INFORMATION structure [Windows Error Reporting], _WER_REPORT_INFORMATION, base.wer_report_information, wer.wer_report_information, werapi/PWER_REPORT_INFORMATION, werapi/WER_REPORT_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: werapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WER_REPORT_INFORMATION, *PWER_REPORT_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Werapi.h
+api_name:
+-	WER_REPORT_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WER_REPORT_INFORMATION structure

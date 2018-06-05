@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi._DHCP_POLICY
+title: "_DHCP_POLICY"
+author: windows-sdk-content
+description: The DHCP_POLICY structure defines a DHCP server policy.
+old-location: dhcp\dhcp_policy.htm
+old-project: DHCP
+ms.assetid: 7e62d2f3-275a-45ab-baab-648fe135d0fc
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_POLICY, *PDHCP_POLICY, DHCP_POLICY, DHCP_POLICY structure [DHCP], LPDHCP_POLICY, LPDHCP_POLICY structure pointer [DHCP], PDHCP_POLICY, PDHCP_POLICY structure pointer [DHCP], _DHCP_POLICY, dhcp.dhcp_policy, dhcpsapi/DHCP_POLICY, dhcpsapi/LPDHCP_POLICY, dhcpsapi/PDHCP_POLICY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_POLICY, *PDHCP_POLICY, *LPDHCP_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dhcpsapi.h
+api_name:
+-	DHCP_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_POLICY structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wintrust._CRYPT_PROVUI_FUNCS
+title: "_CRYPT_PROVUI_FUNCS"
+author: windows-sdk-content
+description: Provides information about the user interface (UI) functions of a provider. This structure is used by the CRYPT_PROVIDER_FUNCTIONS structure.
+old-location: security\crypt_provui_funcs.htm
+old-project: SecCrypto
+ms.assetid: 7cdc32ea-b28a-400f-ad8a-984f86bb95fd
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_PROVUI_FUNCS, CRYPT_PROVUI_FUNCS, CRYPT_PROVUI_FUNCS structure [Security], PCRYPT_PROVUI_FUNCS, PCRYPT_PROVUI_FUNCS structure pointer [Security], _CRYPT_PROVUI_FUNCS, security.crypt_provui_funcs, wintrust/CRYPT_PROVUI_FUNCS, wintrust/PCRYPT_PROVUI_FUNCS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wintrust.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_PROVUI_FUNCS, *PCRYPT_PROVUI_FUNCS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wintrust.h
+api_name:
+-	CRYPT_PROVUI_FUNCS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _CRYPT_PROVUI_FUNCS structure

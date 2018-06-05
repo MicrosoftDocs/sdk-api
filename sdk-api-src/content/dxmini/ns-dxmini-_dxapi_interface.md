@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dxmini._DXAPI_INTERFACE
+title: "_DXAPI_INTERFACE"
+author: windows-sdk-content
+description: The DXAPI_INTERFACE structure contains the interface callback functions that a video miniport driver implements to support Kernel-Mode Video Transport.
+old-location: display\dxapi_interface.htm
+old-project: display
+ms.assetid: 137473ea-4785-4118-86af-a859f69f425f
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDXAPI_INTERFACE, DXAPI_INTERFACE, DXAPI_INTERFACE structure [Display Devices], PDXAPI_INTERFACE, PDXAPI_INTERFACE structure pointer [Display Devices], _DXAPI_INTERFACE, ddstrcts_99854747-7e4c-4a5a-9252-13f56abdffbc.xml, display.dxapi_interface, dxmini/DXAPI_INTERFACE, dxmini/PDXAPI_INTERFACE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXAPI_INTERFACE, *PDXAPI_INTERFACE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxmini.h
+api_name:
+-	DXAPI_INTERFACE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXAPI_INTERFACE structure

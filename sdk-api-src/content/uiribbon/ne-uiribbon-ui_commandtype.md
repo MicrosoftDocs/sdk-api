@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uiribbon.UI_COMMANDTYPE
+title: UI_COMMANDTYPE
+author: windows-sdk-content
+description: Specifies values that identify the type of Command associated with a Ribbon control.
+old-location: windowsribbon\windowsribbon_ui_commandtype.htm
+old-project: windowsribbon
+ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_commandtype.htm
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: UI_COMMANDTYPE, UI_COMMANDTYPE enumeration [Windows Ribbon], UI_COMMANDTYPE_ACTION, UI_COMMANDTYPE_ANCHOR, UI_COMMANDTYPE_BOOLEAN, UI_COMMANDTYPE_COLLECTION, UI_COMMANDTYPE_COLORANCHOR, UI_COMMANDTYPE_COLORCOLLECTION, UI_COMMANDTYPE_COMMANDCOLLECTION, UI_COMMANDTYPE_CONTEXT, UI_COMMANDTYPE_DECIMAL, UI_COMMANDTYPE_FONT, UI_COMMANDTYPE_GROUP, UI_COMMANDTYPE_RECENTITEMS, UI_COMMANDTYPE_UNKNOWN, scenicintent_UI_COMMANDTYPE, uiribbon/UI_COMMANDTYPE, uiribbon/UI_COMMANDTYPE_ACTION, uiribbon/UI_COMMANDTYPE_ANCHOR, uiribbon/UI_COMMANDTYPE_BOOLEAN, uiribbon/UI_COMMANDTYPE_COLLECTION, uiribbon/UI_COMMANDTYPE_COLORANCHOR, uiribbon/UI_COMMANDTYPE_COLORCOLLECTION, uiribbon/UI_COMMANDTYPE_COMMANDCOLLECTION, uiribbon/UI_COMMANDTYPE_CONTEXT, uiribbon/UI_COMMANDTYPE_DECIMAL, uiribbon/UI_COMMANDTYPE_FONT, uiribbon/UI_COMMANDTYPE_GROUP, uiribbon/UI_COMMANDTYPE_RECENTITEMS, uiribbon/UI_COMMANDTYPE_UNKNOWN, windowsribbon.windowsribbon_ui_commandtype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uiribbon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Uiribbon.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_COMMANDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Uiribbon.h
+api_name:
+-	UI_COMMANDTYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # UI_COMMANDTYPE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_XML_TEXT_TYPE
+title: WS_XML_TEXT_TYPE
+author: windows-sdk-content
+description: The type of WS_XML_TEXT structure.
+old-location: wsw\ws_xml_text_type.htm
+old-project: wsw
+ms.assetid: 8c7695b9-7593-4d00-85d1-fbb7778d959a
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_XML_TEXT_TYPE, WS_XML_TEXT_TYPE enumeration [Web Services for Windows], WS_XML_TEXT_TYPE_BASE64, WS_XML_TEXT_TYPE_BOOL, WS_XML_TEXT_TYPE_DATETIME, WS_XML_TEXT_TYPE_DECIMAL, WS_XML_TEXT_TYPE_DOUBLE, WS_XML_TEXT_TYPE_FLOAT, WS_XML_TEXT_TYPE_GUID, WS_XML_TEXT_TYPE_INT32, WS_XML_TEXT_TYPE_INT64, WS_XML_TEXT_TYPE_LIST, WS_XML_TEXT_TYPE_QNAME, WS_XML_TEXT_TYPE_TIMESPAN, WS_XML_TEXT_TYPE_UINT64, WS_XML_TEXT_TYPE_UNIQUE_ID, WS_XML_TEXT_TYPE_UTF16, WS_XML_TEXT_TYPE_UTF8, webservices/WS_XML_TEXT_TYPE, webservices/WS_XML_TEXT_TYPE_BASE64, webservices/WS_XML_TEXT_TYPE_BOOL, webservices/WS_XML_TEXT_TYPE_DATETIME, webservices/WS_XML_TEXT_TYPE_DECIMAL, webservices/WS_XML_TEXT_TYPE_DOUBLE, webservices/WS_XML_TEXT_TYPE_FLOAT, webservices/WS_XML_TEXT_TYPE_GUID, webservices/WS_XML_TEXT_TYPE_INT32, webservices/WS_XML_TEXT_TYPE_INT64, webservices/WS_XML_TEXT_TYPE_LIST, webservices/WS_XML_TEXT_TYPE_QNAME, webservices/WS_XML_TEXT_TYPE_TIMESPAN, webservices/WS_XML_TEXT_TYPE_UINT64, webservices/WS_XML_TEXT_TYPE_UNIQUE_ID, webservices/WS_XML_TEXT_TYPE_UTF16, webservices/WS_XML_TEXT_TYPE_UTF8, wsw.ws_xml_text_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_XML_TEXT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_XML_TEXT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_XML_TEXT_TYPE enumeration

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:setupapi.SetupWriteTextLogInfLine
+title: SetupWriteTextLogInfLine function
+author: windows-sdk-content
+description: The SetupWriteTextLogInfLine function writes a log entry in a SetupAPI text log that contains the text of a specified INF file line.
+old-location: devinst\setupwritetextloginfline.htm
+old-project: devinst
+ms.assetid: 79386854-8b6b-4836-b8f3-d70657f6162c
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: SetupWriteTextLogInfLine, SetupWriteTextLogInfLine function [Device and Driver Installation], devinst.setupwritetextloginfline, setupapi/SetupWriteTextLogInfLine, setupapilog-ref_f6f9d000-dcfd-4dda-8a2c-bac81274a836.xml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Setupapi.dll
+api_name:
+-	SetupWriteTextLogInfLine
+product: Windows
+targetos: Windows
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetupWriteTextLogInfLine function

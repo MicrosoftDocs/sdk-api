@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:structuredquery.tagSTRUCTURED_QUERY_SINGLE_OPTION
+title: tagSTRUCTURED_QUERY_SINGLE_OPTION
+author: windows-sdk-content
+description: A set of flags to be used with IQueryParser::SetOption and IQueryParser::GetOption to indicate individual options.
+old-location: search\_search_STRUCTURED_QUERY_SINGLE_OPTION.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\enums\structured_query_single_option.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: SQSO_AUTOMATIC_WILDCARD, SQSO_CONNECTOR_CASE, SQSO_IMPLICIT_CONNECTOR, SQSO_LANGUAGE_KEYWORDS, SQSO_LOCALE_WORD_BREAKING, SQSO_NATURAL_SYNTAX, SQSO_SCHEMA, SQSO_SYNTAX, SQSO_TIME_ZONE, SQSO_TRACE_LEVEL, SQSO_WORD_BREAKER, STRUCTURED_QUERY_SINGLE_OPTION, STRUCTURED_QUERY_SINGLE_OPTION enumeration [search], _search_STRUCTURED_QUERY_SINGLE_OPTION, search._search_STRUCTURED_QUERY_SINGLE_OPTION, structuredquery/SQSO_AUTOMATIC_WILDCARD, structuredquery/SQSO_CONNECTOR_CASE, structuredquery/SQSO_IMPLICIT_CONNECTOR, structuredquery/SQSO_LANGUAGE_KEYWORDS, structuredquery/SQSO_LOCALE_WORD_BREAKING, structuredquery/SQSO_NATURAL_SYNTAX, structuredquery/SQSO_SCHEMA, structuredquery/SQSO_SYNTAX, structuredquery/SQSO_TIME_ZONE, structuredquery/SQSO_TRACE_LEVEL, structuredquery/SQSO_WORD_BREAKER, structuredquery/STRUCTURED_QUERY_SINGLE_OPTION, tagSTRUCTURED_QUERY_SINGLE_OPTION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: structuredquery.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: StringCchVPrintf_lW (Unicode) and StringCchVPrintf_lA (ANSI)
+req.idl: Structuredquery.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STRUCTURED_QUERY_SINGLE_OPTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Structuredquery.h
+api_name:
+-	STRUCTURED_QUERY_SINGLE_OPTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # tagSTRUCTURED_QUERY_SINGLE_OPTION enumeration

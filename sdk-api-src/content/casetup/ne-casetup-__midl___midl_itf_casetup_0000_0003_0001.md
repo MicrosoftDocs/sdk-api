@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:casetup.__MIDL___MIDL_itf_casetup_0000_0003_0001
+title: "__MIDL___MIDL_itf_casetup_0000_0003_0001"
+author: windows-sdk-content
+description: Specifies a property type for setup and configuration of a Microsoft Simple Certificate Enrollment Protocol (SCEP) role using IMSCEPSetup.
+old-location: security\mscepsetupproperty.htm
+old-project: SecCrypto
+ms.assetid: c3740afc-842e-427f-87bf-022f5544d0d4
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: ENUM_CEPSETUPPROP_CAINFORMATION, ENUM_CEPSETUPPROP_CHALLENGEURL, ENUM_CEPSETUPPROP_EXCHANGEKEYINFORMATION, ENUM_CEPSETUPPROP_MSCEPURL, ENUM_CEPSETUPPROP_RANAME_CITY, ENUM_CEPSETUPPROP_RANAME_CN, ENUM_CEPSETUPPROP_RANAME_COMPANY, ENUM_CEPSETUPPROP_RANAME_COUNTRY, ENUM_CEPSETUPPROP_RANAME_DEPT, ENUM_CEPSETUPPROP_RANAME_EMAIL, ENUM_CEPSETUPPROP_RANAME_STATE, ENUM_CEPSETUPPROP_SIGNINGKEYINFORMATION, ENUM_CEPSETUPPROP_USECHALLENGE, ENUM_CEPSETUPPROP_USELOCALSYSTEM, MSCEPSetupProperty, MSCEPSetupProperty enumeration [Security], __MIDL___MIDL_itf_casetup_0000_0003_0001, casetup/ENUM_CEPSETUPPROP_CAINFORMATION, casetup/ENUM_CEPSETUPPROP_CHALLENGEURL, casetup/ENUM_CEPSETUPPROP_EXCHANGEKEYINFORMATION, casetup/ENUM_CEPSETUPPROP_MSCEPURL, casetup/ENUM_CEPSETUPPROP_RANAME_CITY, casetup/ENUM_CEPSETUPPROP_RANAME_CN, casetup/ENUM_CEPSETUPPROP_RANAME_COMPANY, casetup/ENUM_CEPSETUPPROP_RANAME_COUNTRY, casetup/ENUM_CEPSETUPPROP_RANAME_DEPT, casetup/ENUM_CEPSETUPPROP_RANAME_EMAIL, casetup/ENUM_CEPSETUPPROP_RANAME_STATE, casetup/ENUM_CEPSETUPPROP_SIGNINGKEYINFORMATION, casetup/ENUM_CEPSETUPPROP_USECHALLENGE, casetup/ENUM_CEPSETUPPROP_USELOCALSYSTEM, casetup/MSCEPSetupProperty, security.mscepsetupproperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: casetup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CameraUIControl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSCEPSetupProperty
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Casetup.h
+api_name:
+-	MSCEPSetupProperty
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # __MIDL___MIDL_itf_casetup_0000_0003_0001 enumeration

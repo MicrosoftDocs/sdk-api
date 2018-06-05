@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:timeprov.TpcGetSamplesArgs
+title: TpcGetSamplesArgs
+author: windows-sdk-content
+description: A structure that is used by the TimeProvCommand function.
+old-location: base\tpcgetsamplesargs_str.htm
+old-project: SysInfo
+ms.assetid: 7e92a7c1-6927-4d53-8252-6bdd424d6e0c
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: TpcGetSamplesArgs, TpcGetSamplesArgs structure, _win32_tpcgetsamplesargs_str, base.tpcgetsamplesargs_str, timeprov/TpcGetSamplesArgs
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: timeprov.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TpcGetSamplesArgs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Timeprov.h
+api_name:
+-	TpcGetSamplesArgs
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TpcGetSamplesArgs structure

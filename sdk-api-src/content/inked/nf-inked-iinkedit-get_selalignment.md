@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:inked.IInkEdit.get_SelAlignment
+title: IInkEdit::get_SelAlignment
+author: windows-sdk-content
+description: Gets or sets a value that controls the alignment of the paragraphs in an InkEdit control.
+old-location: tablet\inkedit_selalignment.htm
+old-project: tablet
+ms.assetid: 62755220-b8e4-4f26-b5f4-8a1b4b7adc01
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 0, 1, 2, IInkEdit interface [Tablet PC],SelAlignment property, IInkEdit.SelAlignment, IInkEdit.get_SelAlignment, IInkEdit::SelAlignment, IInkEdit::get_SelAlignment, IInkEdit::put_SelAlignment, InkEdit.get_SelAlignment, InkEdit.put_SelAlignment, NULL, SelAlignment property [Tablet PC], SelAlignment property [Tablet PC],IInkEdit interface, get_SelAlignment, inked/IInkEdit::SelAlignment, inked/IInkEdit::get_SelAlignment, inked/IInkEdit::put_SelAlignment, put_SelAlignment, tablet.inkedit_selalignment
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: inked.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SelAlignmentConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkEd.dll
+-	InkEd.dll.dll
+api_name:
+-	IInkEdit.SelAlignment
+-	IInkEdit.get_SelAlignment
+-	IInkEdit.put_SelAlignment
+-	InkEdit.get_SelAlignment
+-	InkEdit.put_SelAlignment
+product: Windows
+targetos: Windows
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IInkEdit::get_SelAlignment

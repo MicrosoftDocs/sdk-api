@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dxgi1_3.DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+title: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+author: windows-sdk-content
+description: Options for swap-chain color space.
+old-location: direct3ddxgi\dxgi_multiplane_overlay_ycbcr_flags.htm
+old-project: direct3ddxgi
+ms.assetid: 8BD502DC-39C1-472E-AC29-14A1F7EDB37E
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration [DXGI], DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, direct3ddxgi.dxgi_multiplane_overlay_ycbcr_flags, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxgi1_3.h
+req.include-header: DXGIPartner.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxgi1_3.h
+api_name:
+-	DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration

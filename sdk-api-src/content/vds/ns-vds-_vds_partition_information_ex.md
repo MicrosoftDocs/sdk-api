@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:vds._VDS_PARTITION_INFORMATION_EX
+title: "_VDS_PARTITION_INFORMATION_EX"
+author: windows-sdk-content
+description: This structure is reserved for system use.
+old-location: base\vds_partition_information_ex.htm
+old-project: VDS
+ms.assetid: 99ded61d-fcbc-4e1c-8b3a-69c14d4c20bb
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: PVDS_PARTITION_INFORMATION_EX, PVDS_PARTITION_INFORMATION_EX structure pointer, VDS_PARTITION_INFORMATION_EX, VDS_PARTITION_INFORMATION_EX structure, _VDS_PARTITION_INFORMATION_EX, base.vds_partition_information_ex, vds/PVDS_PARTITION_INFORMATION_EX, vds/VDS_PARTITION_INFORMATION_EX
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_PARTITION_INFORMATION_EX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	vds.h
+api_name:
+-	VDS_PARTITION_INFORMATION_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_PARTITION_INFORMATION_EX structure

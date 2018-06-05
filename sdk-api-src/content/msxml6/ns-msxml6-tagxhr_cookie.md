@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:msxml6.tagXHR_COOKIE
+title: tagXHR_COOKIE
+author: windows-sdk-content
+description: Defines a cookie that you can add to the HTTP cookie jar by calling the SetCookie method or retrieve from the HTTP cookie jar by calling the GetCookie method.
+old-location: ixhr2\xhr_cookie.htm
+old-project: ixhr2
+ms.assetid: 208829B0-DBCC-4C22-910D-D6826283F8A0
+ms.author: windowssdkdev
+ms.date: 04/02/2018
+ms.keywords: PXHR_COOKIE, PXHR_COOKIE structure pointer [XMLHttpRequest2], XHR_COOKIE, XHR_COOKIE structure [XMLHttpRequest2], XHR_COOKIE_APPLY_P3P, XHR_COOKIE_EVALUATE_P3P, XHR_COOKIE_HTTPONLY, XHR_COOKIE_IE6, XHR_COOKIE_IS_LEGACY, XHR_COOKIE_IS_RESTRICTED, XHR_COOKIE_IS_SECURE, XHR_COOKIE_IS_SESSION, XHR_COOKIE_NON_SCRIPT, XHR_COOKIE_PROMPT_REQUIRED, XHR_COOKIE_THIRD_PARTY, ixhr2.xhr_cookie, msxml6/PXHR_COOKIE, msxml6/XHR_COOKIE, tagXHR_COOKIE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: msxml6.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps],MSXML 6.0 and later
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msxml6.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XHR_COOKIE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msxml6.h
+api_name:
+-	XHR_COOKIE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagXHR_COOKIE structure

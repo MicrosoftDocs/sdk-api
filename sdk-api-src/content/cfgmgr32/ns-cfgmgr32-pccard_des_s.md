@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:cfgmgr32.PcCard_Des_s
+title: PcCard_Des_s
+author: windows-sdk-content
+description: The PCCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
+old-location: devinst\pccard_des.htm
+old-project: devinst
+ms.assetid: d1bf4d50-70e1-4eff-8973-0b83a31f55fc
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PPCCARD_DES, PCCARD_DES, PCCARD_DES structure [Device and Driver Installation], PPCCARD_DES, PPCCARD_DES structure pointer [Device and Driver Installation], PcCard_Des_s, cfgmgr32/PCCARD_DES, cfgmgr32/PPCCARD_DES, cfgmgrst_c82ff49b-4ae5-478d-a981-26d75408b157.xml, devinst.pccard_des"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PCCARD_DES, *PPCCARD_DES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	cfgmgr32.h
+api_name:
+-	PCCARD_DES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PcCard_Des_s structure

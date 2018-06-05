@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:aclapi.GetEffectiveRightsFromAclW
+title: GetEffectiveRightsFromAclW function
+author: windows-sdk-content
+description: Retrieves the effective access rights that an ACL structure grants to a specified trustee. The trustee's effective access rights are the access rights that the ACL grants to the trustee or to any groups of which the trustee is a member.
+old-location: security\geteffectiverightsfromacl.htm
+old-project: SecAuthZ
+ms.assetid: c40973e8-72a9-43a2-9873-ea5c666a094c
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetEffectiveRightsFromAcl, GetEffectiveRightsFromAcl function [Security], GetEffectiveRightsFromAclA, GetEffectiveRightsFromAclW, _win32_geteffectiverightsfromacl, aclapi/GetEffectiveRightsFromAcl, aclapi/GetEffectiveRightsFromAclA, aclapi/GetEffectiveRightsFromAclW, security.geteffectiverightsfromacl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: aclapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetEffectiveRightsFromAclW (Unicode) and GetEffectiveRightsFromAclA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-security-trustee-l1-1-1.dll
+-	advapi32legacy.dll
+api_name:
+-	GetEffectiveRightsFromAcl
+-	GetEffectiveRightsFromAclA
+-	GetEffectiveRightsFromAclW
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 ---
 
 # GetEffectiveRightsFromAclW function

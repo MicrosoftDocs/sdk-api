@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dvdmedia.tagVIDEOINFOHEADER2
+title: tagVIDEOINFOHEADER2
+author: windows-sdk-content
+description: The VIDEOINFOHEADER2 structure describes the bitmap and color information for a video image, including interlace, copy protection, and pixel aspect ratio information.
+old-location: dshow\videoinfoheader2.htm
+old-project: DirectShow
+ms.assetid: 5e3d5bf0-435f-45da-8409-a1463b56a7ae
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AMCONTROL_COLORINFO_PRESENT, AMCONTROL_PAD_TO_16x9, AMCONTROL_PAD_TO_4x3, AMCONTROL_USED, AMINTERLACE_1FieldPerSample, AMINTERLACE_DisplayModeBobOnly, AMINTERLACE_DisplayModeBobOrWeave, AMINTERLACE_DisplayModeWeaveOnly, AMINTERLACE_Field1First, AMINTERLACE_FieldPatBothIrregular, AMINTERLACE_FieldPatBothRegular, AMINTERLACE_FieldPatField1Only, AMINTERLACE_FieldPatField2Only, AMINTERLACE_IsInterlaced, VIDEOINFOHEADER2, VIDEOINFOHEADER2 structure [DirectShow], VIDEOINFOHEADER2Structure, dshow.videoinfoheader2, dvdmedia/VIDEOINFOHEADER2, tagVIDEOINFOHEADER2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dvdmedia.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIDEOINFOHEADER2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dvdmedia.h
+api_name:
+-	VIDEOINFOHEADER2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # tagVIDEOINFOHEADER2 structure

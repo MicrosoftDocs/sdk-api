@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincodecsdk.WICSerializeMetadataContent
+title: WICSerializeMetadataContent function
+author: windows-sdk-content
+description: Writes metadata into a given stream.
+old-location: wic\_wic_codec_wicserializemetadatacontent.htm
+old-project: wic
+ms.assetid: 726b5e83-d5ab-4053-8f4c-34826fc0db55
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WICSerializeMetadataContent, WICSerializeMetadataContent function [Windows Imaging Component], _wic_codec_wicserializemetadatacontent, wic._wic_codec_wicserializemetadatacontent, wincodecsdk/WICSerializeMetadataContent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincodecsdk.h
+req.include-header: Wincodec.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICPersistOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Windowscodecs.dll
+-	Wincodec.lib
+api_name:
+-	WICSerializeMetadataContent
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Windowscodecs.dll; Wincodec.lib
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WICSerializeMetadataContent function

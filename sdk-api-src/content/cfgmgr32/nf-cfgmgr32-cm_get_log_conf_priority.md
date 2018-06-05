@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:cfgmgr32.CM_Get_Log_Conf_Priority
+title: CM_Get_Log_Conf_Priority function
+author: windows-sdk-content
+description: The CM_Get_Log_Conf_Priority function obtains the configuration priority of a specified logical configuration on the local machine.
+old-location: devinst\cm_get_log_conf_priority.htm
+old-project: devinst
+ms.assetid: 0db6c2f4-2d44-49ad-a1cc-f29a5088c74c
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: CM_Get_Log_Conf_Priority, CM_Get_Log_Conf_Priority function [Device and Driver Installation], cfgmgr32/CM_Get_Log_Conf_Priority, cfgmgrfn_23c7a94b-fd43-493e-ae6b-56ce7c69278b.xml, devinst.cm_get_log_conf_priority
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cfgmgr32.dll
+api_name:
+-	CM_Get_Log_Conf_Priority
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 ---
 
 # CM_Get_Log_Conf_Priority function

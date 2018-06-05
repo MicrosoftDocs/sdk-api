@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iads.IADsContainer.get__NewEnum
+title: IADsContainer::get__NewEnum
+author: windows-sdk-content
+description: Retrieves an enumerator object for the container.
+old-location: adsi\iadscontainer_get__newenum.htm
+old-project: ADSI
+ms.assetid: b268efb8-59cd-41ef-b96c-583ae476432e
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IADsContainer interface [ADSI],get__NewEnum method, IADsContainer.get__NewEnum, IADsContainer::get__NewEnum, _ds_iadscontainer_get__newenum, adsi.iadscontainer__get____newenum, adsi.iadscontainer_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsContainer interface, iads/IADsContainer::get__NewEnum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SD_FORMAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Activeds.dll
+api_name:
+-	IADsContainer.get__NewEnum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IADsContainer::get__NewEnum

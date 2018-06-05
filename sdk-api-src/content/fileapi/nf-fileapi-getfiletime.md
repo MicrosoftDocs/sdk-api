@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fileapi.GetFileTime
+title: GetFileTime function
+author: windows-sdk-content
+description: Retrieves the date and time that a file or directory was created, last accessed, and last modified.
+old-location: base\getfiletime.htm
+old-project: SysInfo
+ms.assetid: 7f88e1c8-4328-40c2-857d-745e4a1d350d
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetFileTime, GetFileTime function, _win32_getfiletime, base.getfiletime, fileapi/GetFileTime, winbase/GetFileTime
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fileapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,30 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAM_INFO_LEVELS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-File-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-File-l1-2-0.dll
+-	API-MS-Win-Core-File-l1-2-1.dll
+-	API-MS-Win-Core-File-l1-2-2.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+api_name:
+-	GetFileTime
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # GetFileTime function

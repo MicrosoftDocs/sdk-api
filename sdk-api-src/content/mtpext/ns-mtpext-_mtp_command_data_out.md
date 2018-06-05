@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:mtpext._MTP_COMMAND_DATA_OUT
+title: "_MTP_COMMAND_DATA_OUT"
+author: windows-sdk-content
+description: The MTP_COMMAND_DATA_OUT structure contains Media Transport Protocol (MTP) responses that are filled by the device driver on exiting a call to IWMDMDevice3::DeviceIoControl.
+old-location: wmdm\mtp_command_data_out.htm
+old-project: WMDM
+ms.assetid: ddaf49c8-99df-4e21-a633-82e08691f088
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PMTP_COMMAND_DATA_OUT, MTP_COMMAND_DATA_OUT, MTP_COMMAND_DATA_OUT structure [windows Media Device Manager], PMTP_COMMAND_DATA_OUT, PMTP_COMMAND_DATA_OUT structure pointer [windows Media Device Manager], _MTP_COMMAND_DATA_OUT, mtpext/MTP_COMMAND_DATA_OUT, mtpext/PMTP_COMMAND_DATA_OUT, wmdm.mtp_command_data_out"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mtpext.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msxml6.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MTP_COMMAND_DATA_OUT, *PMTP_COMMAND_DATA_OUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	MtpExt.h
+api_name:
+-	MTP_COMMAND_DATA_OUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _MTP_COMMAND_DATA_OUT structure

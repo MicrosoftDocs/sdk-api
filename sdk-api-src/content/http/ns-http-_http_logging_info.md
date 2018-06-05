@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:http._HTTP_LOGGING_INFO
+title: "_HTTP_LOGGING_INFO"
+author: windows-sdk-content
+description: Used to enable server side logging on a URL Group or on a server session.
+old-location: http\http_logging_info.htm
+old-project: Http
+ms.assetid: 12e12f83-c36a-4b4e-8890-50566cf00c2b
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_LOGGING_INFO, *PHTTP_LOGGING_INFO structure [HTTP], HTTP_LOGGING_FLAG_LOCAL_TIME_ROLLOVER, HTTP_LOGGING_FLAG_LOG_ERRORS_ONLY, HTTP_LOGGING_FLAG_LOG_SUCCESS_ONLY, HTTP_LOGGING_FLAG_USE_UTF8_CONVERSION, HTTP_LOGGING_INFO, HTTP_LOGGING_INFO structure [HTTP], HttpLoggingRolloverDaily, HttpLoggingRolloverHourly, HttpLoggingRolloverMonthly, HttpLoggingRolloverSize, HttpLoggingRolloverWeekly, HttpLoggingTypeIIS, HttpLoggingTypeNCSA, HttpLoggingTypeRaw, HttpLoggingTypeW3C, _HTTP_LOGGING_INFO, http.http_logging_info, http/*PHTTP_LOGGING_INFO, http/HTTP_LOGGING_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_LOGGING_INFO, *PHTTP_LOGGING_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_LOGGING_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_LOGGING_INFO structure

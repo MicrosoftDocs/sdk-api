@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:aclapi.BuildTrusteeWithObjectsAndSidA
+title: BuildTrusteeWithObjectsAndSidA function
+author: windows-sdk-content
+description: Initializes a TRUSTEE structure with the object-specific access control entry (ACE) information and initializes the remaining members of the structure to default values.
+old-location: security\buildtrusteewithobjectsandsid.htm
+old-project: SecAuthZ
+ms.assetid: e940a87f-013e-458c-bdc1-9e81c7d905e0
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: BuildTrusteeWithObjectsAndSid, BuildTrusteeWithObjectsAndSid function [Security], BuildTrusteeWithObjectsAndSidA, BuildTrusteeWithObjectsAndSidW, _win32_buildtrusteewithobjectsandsid, aclapi/BuildTrusteeWithObjectsAndSid, aclapi/BuildTrusteeWithObjectsAndSidA, aclapi/BuildTrusteeWithObjectsAndSidW, security.buildtrusteewithobjectsandsid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: aclapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: BuildTrusteeWithObjectsAndSidW (Unicode) and BuildTrusteeWithObjectsAndSidA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-security-trustee-l1-1-0.dll
+-	advapi32legacy.dll
+-	API-MS-Win-security-trustee-l1-1-1.dll
+api_name:
+-	BuildTrusteeWithObjectsAndSid
+-	BuildTrusteeWithObjectsAndSidA
+-	BuildTrusteeWithObjectsAndSidW
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 ---
 
 # BuildTrusteeWithObjectsAndSidA function

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:batclass.BATTERY_NOTIFY
+title: BATTERY_NOTIFY
+author: windows-sdk-content
+description: A battery miniclass driver receives a BATTERY_NOTIFY structure when its BatteryMiniSetStatusNotify routine is called.
+old-location: battery\battery_notify.htm
+old-project: battery
+ms.assetid: 5bf89418-1d18-460b-b1d1-db6fbb390bc8
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PBATTERY_NOTIFY, BATTERY_NOTIFY, BATTERY_NOTIFY structure [Battery Devices], PBATTERY_NOTIFY, PBATTERY_NOTIFY structure pointer [Battery Devices], bat-struct_cd1e6dc5-678c-4529-b852-2832ce2e791b.xml, batclass/BATTERY_NOTIFY, batclass/PBATTERY_NOTIFY, battery.battery_notify"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: batclass.h
+req.include-header: Batclass.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BATTERY_NOTIFY, *PBATTERY_NOTIFY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	batclass.h
+api_name:
+-	BATTERY_NOTIFY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # BATTERY_NOTIFY structure

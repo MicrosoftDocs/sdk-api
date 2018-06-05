@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:aviriff._avistdindex
+title: "_avistdindex"
+author: windows-sdk-content
+description: Contains an AVI 2.0 standard index.
+old-location: dshow\avistdindex.htm
+old-project: DirectShow
+ms.assetid: b437b333-84a3-44d3-a4cc-0d07a331b010
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AVISTDINDEX, AVISTDINDEX structure [DirectShow], PAVISTDINDEX, PAVISTDINDEX structure pointer [DirectShow], _avistdindex, aviriff/AVISTDINDEX, aviriff/PAVISTDINDEX, dshow.avistdindex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: aviriff.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AVISTDINDEX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	aviriff.h
+api_name:
+-	AVISTDINDEX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _avistdindex structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dhcpsapi._DHCPV6_IP_ARRAY
+title: "_DHCPV6_IP_ARRAY"
+author: windows-sdk-content
+description: The DHCPV6_IP_ARRAY structure contains an array of DHCP IPv6 address structures.
+old-location: dhcp\dhcpv6_ip_array.htm
+old-project: DHCP
+ms.assetid: B87CF991-FFC8-4CB4-8EE9-66716EC9B58D
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY structure [DHCP], PDHCPV6_IP_ARRAY, PDHCPV6_IP_ARRAY structure pointer [DHCP], _DHCPV6_IP_ARRAY, dhcp.dhcpv6_ip_array, dhcpsapi/DHCPV6_IP_ARRAY, dhcpsapi/PDHCPV6_IP_ARRAY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCPV6_IP_ARRAY, *LPDHCPV6_IP_ARRAY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCPV6_IP_ARRAY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCPV6_IP_ARRAY structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfplay.IMFPMediaItem.GetMetadata
+title: IMFPMediaItem::GetMetadata
+author: windows-sdk-content
+description: Gets a property store that contains metadata for the source, such as author or title.
+old-location: mf\imfpmediaitem_getmetadata.htm
+old-project: medfound
+ms.assetid: 212d468f-de5e-4a55-aaa4-ed487bbf6a00
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetMetadata, GetMetadata method [Media Foundation], GetMetadata method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetMetadata method, IMFPMediaItem.GetMetadata, IMFPMediaItem::GetMetadata, mf.imfpmediaitem_getmetadata, mfplay/IMFPMediaItem::GetMetadata
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfplay.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfplay.h
+api_name:
+-	IMFPMediaItem.GetMetadata
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFPMediaItem::GetMetadata

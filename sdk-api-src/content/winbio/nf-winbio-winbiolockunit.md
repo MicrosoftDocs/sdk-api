@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbio.WinBioLockUnit
+title: WinBioLockUnit function
+author: windows-sdk-content
+description: Locks a biometric unit for exclusive use by a single session. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
+old-location: secbiomet\winbiolockunit.htm
+old-project: SecBioMet
+ms.assetid: 421520eb-ae67-4ead-8202-ffa468a20bdd
+ms.author: windowssdkdev
+ms.date: 04/24/2018
+ms.keywords: WinBioLockUnit, WinBioLockUnit function [Windows Biometric Framework API], secbiomet.winbiolockunit, winbio/WinBioLockUnit
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbio.h
+req.include-header: Winbio.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winbio.dll
+-	Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+-	winbioext.dll
+-	Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-0.dll
+-	Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+-	WinBioLockUnit
+product: Windows
+targetos: Windows
+req.lib: Winbio.lib
+req.dll: Winbio.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WinBioLockUnit function

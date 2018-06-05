@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:cfgmgr32.CM_Get_Class_Property_Keys_Ex
+title: CM_Get_Class_Property_Keys_Ex function
+author: windows-sdk-content
+description: The CM_Get_Class_Property_Keys_Ex function retrieves an array of the device property keys that represent the device properties that are set for a device interface class or device setup class.
+old-location: devinst\cm_get_class_property_keys_ex.htm
+old-project: devinst
+ms.assetid: 78F3E4EE-BF06-464B-A570-021F9545D9AB
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: CM_Get_Class_Property_Keys_Ex, CM_Get_Class_Property_Keys_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Class_Property_Keys_Ex, devinst.cm_get_class_property_keys_ex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Microsoft Windows 10 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	CfgMgr32.dll
+-	API-MS-Win-devices-config-l1-1-0.dll
+-	API-MS-Win-devices-config-l1-1-1.dll
+api_name:
+-	CM_Get_Class_Property_Keys_Ex
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
+req.dll: CfgMgr32.dll
+req.irql: 
 ---
 
 # CM_Get_Class_Property_Keys_Ex function

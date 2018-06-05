@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imm.ImmGetDescriptionA
+title: ImmGetDescriptionA function
+author: windows-sdk-content
+description: Copies the description of the IME to the specified buffer.
+old-location: intl\immgetdescription.htm
+old-project: Intl
+ms.assetid: 62f4efc8-7b46-4d8e-a6a2-2f346efe8ba6
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ImmGetDescription, ImmGetDescription function [Internationalization for Windows Applications], ImmGetDescriptionA, ImmGetDescriptionW, _win32_ImmGetDescription, imm/ImmGetDescription, imm/ImmGetDescriptionA, imm/ImmGetDescriptionW, intl.immgetdescription
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: imm.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed., East Asian language support installed.
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ImmGetDescriptionW (Unicode) and ImmGetDescriptionA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Imm32.dll
+api_name:
+-	ImmGetDescription
+-	ImmGetDescriptionA
+-	ImmGetDescriptionW
+product: Windows
+targetos: Windows
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ImmGetDescriptionA function

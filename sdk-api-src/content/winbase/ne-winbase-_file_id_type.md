@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winbase._FILE_ID_TYPE
+title: "_FILE_ID_TYPE"
+author: windows-sdk-content
+description: Discriminator for the union in the FILE_ID_DESCRIPTOR structure.
+old-location: fs\file_id_type.htm
+old-project: FileIO
+ms.assetid: 7e46ba94-e3cd-4d6c-962f-5d5bd55d45a1
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PFILE_ID_TYPE, ExtendedFileIdType, FILE_ID_TYPE, FILE_ID_TYPE enumeration [Files], FileIdType, MaximumFileIdType, ObjectIdType, PFILE_ID_TYPE, PFILE_ID_TYPE enumeration pointer [Files], _FILE_ID_TYPE, fileextd/ExtendedFileIdType, fileextd/FILE_ID_TYPE, fileextd/FileIdType, fileextd/MaximumFileIdType, fileextd/ObjectIdType, fileextd/PFILE_ID_TYPE, fs.file_id_type, winbase/ExtendedFileIdType, winbase/FILE_ID_TYPE, winbase/FileIdType, winbase/MaximumFileIdType, winbase/ObjectIdType, winbase/PFILE_ID_TYPE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILE_ID_TYPE, *PFILE_ID_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinBase.h
+-	FileExtd.h
+api_name:
+-	FILE_ID_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FILE_ID_TYPE enumeration

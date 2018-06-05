@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi.lineGetLineDevStatusA
+title: lineGetLineDevStatusA function
+author: windows-sdk-content
+description: The lineGetLineDevStatus function enables an application to query the specified open line device for its current status.
+old-location: tapi2\linegetlinedevstatus.htm
+old-project: Tapi
+ms.assetid: 9c0fa2ba-1157-43d2-af56-aa4e0c28bd05
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "_tapi2_linegetlinedevstatus, lineGetLineDevStatus, lineGetLineDevStatus function [TAPI 2.2], lineGetLineDevStatusA, lineGetLineDevStatusW, tapi/lineGetLineDevStatus, tapi/lineGetLineDevStatusA, tapi/lineGetLineDevStatusW, tapi2.linegetlinedevstatus"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: lineGetLineDevStatusW (Unicode) and lineGetLineDevStatusA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FLICK_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tapi32.dll
+api_name:
+-	lineGetLineDevStatus
+-	lineGetLineDevStatusA
+-	lineGetLineDevStatusW
+product: Windows
+targetos: Windows
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # lineGetLineDevStatusA function

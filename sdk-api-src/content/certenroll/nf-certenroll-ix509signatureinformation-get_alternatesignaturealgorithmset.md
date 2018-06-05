@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509SignatureInformation.get_AlternateSignatureAlgorithmSet
+title: IX509SignatureInformation::get_AlternateSignatureAlgorithmSet
+author: windows-sdk-content
+description: Retrieves a Boolean value that specifies whether the AlternateSignatureAlgorithm property has been explicitly set by a caller.
+old-location: security\ix509signatureinformation_alternatesignaturealgorithmset_property.htm
+old-project: SecCertEnroll
+ms.assetid: fd28072f-9b79-4068-b4dd-61a6a4f8beda
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: AlternateSignatureAlgorithmSet property [Security], AlternateSignatureAlgorithmSet property [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],AlternateSignatureAlgorithmSet property, IX509SignatureInformation.AlternateSignatureAlgorithmSet, IX509SignatureInformation.get_AlternateSignatureAlgorithmSet, IX509SignatureInformation::AlternateSignatureAlgorithmSet, IX509SignatureInformation::get_AlternateSignatureAlgorithmSet, certenroll/IX509SignatureInformation::AlternateSignatureAlgorithmSet, certenroll/IX509SignatureInformation::get_AlternateSignatureAlgorithmSet, get_AlternateSignatureAlgorithmSet, security.ix509signatureinformation_alternatesignaturealgorithmset_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509SignatureInformation.AlternateSignatureAlgorithmSet
+-	IX509SignatureInformation.get_AlternateSignatureAlgorithmSet
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IX509SignatureInformation::get_AlternateSignatureAlgorithmSet

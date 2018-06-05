@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:endpointvolume.AUDIO_VOLUME_NOTIFICATION_DATA
+title: AUDIO_VOLUME_NOTIFICATION_DATA
+author: windows-sdk-content
+description: The AUDIO_VOLUME_NOTIFICATION_DATA structure describes a change in the volume level or muting state of an audio endpoint device.
+old-location: coreaudio\audio_volume_notification_data.htm
+old-project: CoreAudio
+ms.assetid: 8778eb32-bc37-4d21-a096-f932db3d7b3f
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*PAUDIO_VOLUME_NOTIFICATION_DATA, AUDIO_VOLUME_NOTIFICATION_DATA, AUDIO_VOLUME_NOTIFICATION_DATA structure [Core Audio], AUDIO_VOLUME_NOTIFICATION_DATAStructure, PAUDIO_VOLUME_NOTIFICATION_DATA, PAUDIO_VOLUME_NOTIFICATION_DATA structure pointer [Core Audio], coreaudio.audio_volume_notification_data, endpointvolume/AUDIO_VOLUME_NOTIFICATION_DATA, endpointvolume/PAUDIO_VOLUME_NOTIFICATION_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: endpointvolume.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Endpointvolume.h
+api_name:
+-	AUDIO_VOLUME_NOTIFICATION_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # AUDIO_VOLUME_NOTIFICATION_DATA structure

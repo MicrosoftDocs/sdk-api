@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11sdklayers.ID3D11Debug.SetSwapChain
+title: ID3D11Debug::SetSwapChain
+author: windows-sdk-content
+description: Sets a swap chain that the runtime will use for automatically calling IDXGISwapChain::Present.
+old-location: direct3d11\id3d11debug_setswapchain.htm
+old-project: direct3d11
+ms.assetid: 554d56e7-8901-4b39-bc1e-6db6496263c8
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 93f55103-9ea2-645a-a17a-4dc52160d41b, ID3D11Debug interface [Direct3D 11],SetSwapChain method, ID3D11Debug.SetSwapChain, ID3D11Debug::SetSwapChain, SetSwapChain, SetSwapChain method [Direct3D 11], SetSwapChain method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::SetSwapChain, direct3d11.id3d11debug_setswapchain
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11Debug.SetSwapChain
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11Debug::SetSwapChain

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vswriter.CVssWriter.GetBackupType
+title: CVssWriter::GetBackupType
+author: windows-sdk-content
+description: The GetBackupType method indicates the type of backup to be performed.
+old-location: base\cvsswriter_getbackuptype.htm
+old-project: VSS
+ms.assetid: b8f78552-27b5-4d64-9d35-baf1c636b526
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: CVssWriter interface [VSS],GetBackupType method, CVssWriter.GetBackupType, CVssWriter::GetBackupType, GetBackupType, GetBackupType method [VSS], GetBackupType method [VSS],CVssWriter interface, _win32_cvsswriter_getbackuptype, base.cvsswriter_getbackuptype, vswriter/CVssWriter::GetBackupType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vswriter.h
+req.include-header: Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	CVssWriter.GetBackupType
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # CVssWriter::GetBackupType

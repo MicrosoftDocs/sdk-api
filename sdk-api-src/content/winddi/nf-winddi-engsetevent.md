@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:winddi.EngSetEvent
+title: EngSetEvent function
+author: windows-sdk-content
+description: The EngSetEvent function sets the specified event object to the signaled state, and returns the event object's previous state.
+old-location: display\engsetevent.htm
+old-project: display
+ms.assetid: 04e5d5e0-02b1-4335-9830-ecf04fdc0db1
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: EngSetEvent, EngSetEvent function [Display Devices], display.engsetevent, gdifncs_1f6bd838-607b-47fa-bb1e-e21d92e65d39.xml, winddi/EngSetEvent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Universal
+req.target-min-winverclnt: This function is available in Windows XP and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Win32k.sys
+api_name:
+-	EngSetEvent
+product: Windows
+targetos: Windows
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # EngSetEvent function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:peerdist._PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
+title: "_PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS"
+author: windows-sdk-content
+description: The PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration defines the possible client information values.
+old-location: p2p\peerdist_client_info_by_handle_class.htm
+old-project: P2PSdk
+ms.assetid: 28391dc5-ec89-44d9-acac-b7ff3868e542
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, MaximumPeerDistClientInfoByHandlesClass, PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration [Peer Networking], PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration pointer [Peer Networking], PeerDistClientBasicInfo, _PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, p2p.peerdist_client_info_by_handle_class, peerdist/MaximumPeerDistClientInfoByHandlesClass, peerdist/PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, peerdist/PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, peerdist/PeerDistClientBasicInfo"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: peerdist.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, *PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	peerdist.h
+api_name:
+-	PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration

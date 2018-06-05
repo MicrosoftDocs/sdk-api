@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winnt._TOKEN_TYPE
+title: "_TOKEN_TYPE"
+author: windows-sdk-content
+description: Contains values that differentiate between a primary token and an impersonation token.
+old-location: security\token_type.htm
+old-project: SecAuthZ
+ms.assetid: 51b6717e-3fda-4af4-8995-4ac571eae2fd
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PTOKEN_TYPE, PTOKEN_TYPE, PTOKEN_TYPE enumeration pointer [Security], TOKEN_TYPE, TOKEN_TYPE enumeration [Security], TokenImpersonation, TokenPrimary, _TOKEN_TYPE, _win32_token_type_str, security.token_type, winnt/PTOKEN_TYPE, winnt/TOKEN_TYPE, winnt/TokenImpersonation, winnt/TokenPrimary"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TOKEN_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	TOKEN_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _TOKEN_TYPE enumeration

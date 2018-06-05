@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFSampleGrabberSinkCallback2.OnProcessSampleEx
+title: IMFSampleGrabberSinkCallback2::OnProcessSampleEx
+author: windows-sdk-content
+description: Called when the sample-grabber sink receives a new media sample.
+old-location: mf\imfsamplegrabbersinkcallback2_onprocesssampleex.htm
+old-project: medfound
+ms.assetid: dc880967-ac97-4835-bbc9-1bd664e42739
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFSampleGrabberSinkCallback2 interface [Media Foundation],OnProcessSampleEx method, IMFSampleGrabberSinkCallback2.OnProcessSampleEx, IMFSampleGrabberSinkCallback2::OnProcessSampleEx, OnProcessSampleEx, OnProcessSampleEx method [Media Foundation], OnProcessSampleEx method [Media Foundation],IMFSampleGrabberSinkCallback2 interface, mf.imfsamplegrabbersinkcallback2_onprocesssampleex, mfidl/IMFSampleGrabberSinkCallback2::OnProcessSampleEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfidl.h
+api_name:
+-	IMFSampleGrabberSinkCallback2.OnProcessSampleEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSampleGrabberSinkCallback2::OnProcessSampleEx

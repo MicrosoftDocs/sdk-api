@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.IAMVideoCompression.put_Quality
+title: IAMVideoCompression::put_Quality
+author: windows-sdk-content
+description: The put_Quality method sets the compression quality.
+old-location: dshow\iamvideocompression_put_quality.htm
+old-project: DirectShow
+ms.assetid: 7ecc00f9-73d4-4d26-b7b0-1b6419027d69
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IAMVideoCompression interface [DirectShow],put_Quality method, IAMVideoCompression.put_Quality, IAMVideoCompression::put_Quality, IAMVideoCompressionput_Quality, dshow.iamvideocompression_put_quality, put_Quality, put_Quality method [DirectShow], put_Quality method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::put_Quality
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IAMVideoCompression.put_Quality
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IAMVideoCompression::put_Quality

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.ITaskbarList3.SetThumbnailTooltip
+title: ITaskbarList3::SetThumbnailTooltip
+author: windows-sdk-content
+description: Specifies or updates the text of the tooltip that is displayed when the mouse pointer rests on an individual preview thumbnail in a taskbar button flyout.
+old-location: shell\ITaskbarList3_SetThumbnailTooltip.htm
+old-project: shell
+ms.assetid: 73b5b9de-4876-4cac-9e58-d2e7559724f7
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ITaskbarList3 interface [Windows Shell],SetThumbnailTooltip method, ITaskbarList3.SetThumbnailTooltip, ITaskbarList3::SetThumbnailTooltip, SetThumbnailTooltip, SetThumbnailTooltip method [Windows Shell], SetThumbnailTooltip method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetThumbnailTooltip, shell.ITaskbarList3_SetThumbnailTooltip, shobjidl_core/ITaskbarList3::SetThumbnailTooltip
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Explorerframe.dll
+api_name:
+-	ITaskbarList3.SetThumbnailTooltip
+product: Windows
+targetos: Windows
+req.lib: Explorerframe.lib
+req.dll: Explorerframe.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ITaskbarList3::SetThumbnailTooltip

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITBasicCallControl.Conference
+title: ITBasicCallControl::Conference
+author: windows-sdk-content
+description: The Conference method adds a consultation call to the conference in which the current call is a participant. If an associated ITCallHub object does not exist, it is created.
+old-location: tapi3\itbasiccallcontrol_conference.htm
+old-project: Tapi
+ms.assetid: 73721921-c943-4adc-a2b1-e8c19ec809ac
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: Conference, Conference method [TAPI 2.2], Conference method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Conference method, ITBasicCallControl.Conference, ITBasicCallControl::Conference, _tapi3_itbasiccallcontrol_conference, tapi3.itbasiccallcontrol_conference, tapi3if/ITBasicCallControl::Conference
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITBasicCallControl.Conference
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITBasicCallControl::Conference

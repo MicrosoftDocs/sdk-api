@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:frquery.CFrameworkQuery.GetRequiredProperties
+title: CFrameworkQuery::GetRequiredProperties
+author: windows-sdk-content
+description: The GetRequiredProperties method returns a list of all of the properties specified in the SELECT statement of a query. It returns the properties from both the SELECT and WHERE clauses.
+old-location: wmi\cframeworkquery_getrequiredproperties.htm
+old-project: WmiSdk
+ms.assetid: cf02aa01-6d56-4fd7-b8f2-67b0c855e807
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetRequiredProperties method, CFrameworkQuery.GetRequiredProperties, CFrameworkQuery::GetRequiredProperties, GetRequiredProperties, GetRequiredProperties method [Windows Management Instrumentation], GetRequiredProperties method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getrequiredproperties, frquery/CFrameworkQuery::GetRequiredProperties, wmi.cframeworkquery_getrequiredproperties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: frquery.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CFrameworkQuery.GetRequiredProperties
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # CFrameworkQuery::GetRequiredProperties

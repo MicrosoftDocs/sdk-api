@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi._DHCP_CLASS_INFO_ARRAY_V6
+title: "_DHCP_CLASS_INFO_ARRAY_V6"
+author: windows-sdk-content
+description: The DHCP_CLASS_INFO_ARRAY_V6 structure contains a list of information regarding a user class or a vendor class.
+old-location: dhcp\dhcp_class_info_array_v6.htm
+old-project: DHCP
+ms.assetid: b724ae08-4e18-4cad-9376-174acbd5b4f7
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_CLASS_INFO_ARRAY_V6, DHCP_CLASS_INFO_ARRAY_V6, DHCP_CLASS_INFO_ARRAY_V6 structure [DHCP], PDHCP_CLASS_INFO_ARRAY_V6, PDHCP_CLASS_INFO_ARRAY_V6 structure pointer [DHCP], _DHCP_CLASS_INFO_ARRAY_V6, dhcp.dhcp_class_info_array_v6, dhcpsapi/DHCP_CLASS_INFO_ARRAY_V6, dhcpsapi/PDHCP_CLASS_INFO_ARRAY_V6"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_CLASS_INFO_ARRAY_V6, *LPDHCP_CLASS_INFO_ARRAY_V6
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCP_CLASS_INFO_ARRAY_V6
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_CLASS_INFO_ARRAY_V6 structure

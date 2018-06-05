@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
+title: "_FILE_QUERY_ON_DISK_VOL_INFO_BUFFER"
+author: windows-sdk-content
+description: Receives the volume information from a call to FSCTL_QUERY_ON_DISK_VOLUME_INFO.
+old-location: fs\file_query_on_disk_vol_info_buffer.htm
+old-project: FileIO
+ms.assetid: 812c8840-5e69-4a85-ad93-3be5bf09b917
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER, FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, FILE_QUERY_ON_DISK_VOL_INFO_BUFFER structure [Files], PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER, PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER structure pointer [Files], _FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, fs.file_query_on_disk_vol_info_buffer, winioctl/FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, winioctl/PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, *PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FILE_QUERY_ON_DISK_VOL_INFO_BUFFER structure

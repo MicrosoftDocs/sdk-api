@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:certenroll.ICertificateAttestationChallenge.get_RequestID
+title: ICertificateAttestationChallenge::get_RequestID
+author: windows-sdk-content
+description: Gets the request ID from the Certificate Management over CMS (CMC) response.
+old-location: security\icertificateattestationchallenge_requestid.htm
+old-project: SecCertEnroll
+ms.assetid: c3ca69cf-12e0-4341-b3a6-f668155ea3ff
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ICertificateAttestationChallenge interface [Security],RequestID property, ICertificateAttestationChallenge.RequestID, ICertificateAttestationChallenge.get_RequestID, ICertificateAttestationChallenge::RequestID, ICertificateAttestationChallenge::get_RequestID, RequestID property [Security], RequestID property [Security],ICertificateAttestationChallenge interface, certenroll/ICertificateAttestationChallenge::RequestID, certenroll/ICertificateAttestationChallenge::get_RequestID, get_RequestID, security.icertificateattestationchallenge_requestid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certenroll.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.dll
+api_name:
+-	ICertificateAttestationChallenge.RequestID
+-	ICertificateAttestationChallenge.get_RequestID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 ---
 
 # ICertificateAttestationChallenge::get_RequestID

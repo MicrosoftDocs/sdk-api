@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d12shader.ID3D12ShaderReflectionConstantBuffer.GetVariableByIndex
+title: ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex
+author: windows-sdk-content
+description: Gets a shader-reflection variable by index.
+old-location: direct3d12\id3d12shaderreflectionconstantbuffer_getvariablebyindex.htm
+old-project: direct3d12
+ms.assetid: F7083A4D-ADD4-4C6F-A031-ABF16A3C351C
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: GetVariableByIndex, GetVariableByIndex method, GetVariableByIndex method,ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,GetVariableByIndex method, ID3D12ShaderReflectionConstantBuffer.GetVariableByIndex, ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex, d3d12shader/ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex, direct3d12.id3d12shaderreflectionconstantbuffer_getvariablebyindex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d12shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SHADER_VERSION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12shader.h
+api_name:
+-	ID3D12ShaderReflectionConstantBuffer.GetVariableByIndex
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex

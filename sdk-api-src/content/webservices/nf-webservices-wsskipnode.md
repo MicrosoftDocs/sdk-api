@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:webservices.WsSkipNode
+title: WsSkipNode function
+author: windows-sdk-content
+description: Advances the reader in the input stream.
+old-location: wsw\wsskipnode.htm
+old-project: wsw
+ms.assetid: 90eda6f1-dda2-4595-90f5-029768278f5b
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WsSkipNode, WsSkipNode function [Web Services for Windows], webservices/WsSkipNode, wsw.wsskipnode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WebServices.dll
+api_name:
+-	WsSkipNode
+product: Windows
+targetos: Windows
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WsSkipNode function

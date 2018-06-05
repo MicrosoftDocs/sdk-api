@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rdpencomapi.IRDPSRAPIAttendeeManager.get_Item
+title: IRDPSRAPIAttendeeManager::get_Item
+author: windows-sdk-content
+description: An item in the attendee collection.
+old-location: rdp\irdpsrapiattendeemanager_item.htm
+old-project: Rdp
+ms.assetid: 963f795a-3da4-45d0-b609-8fcc2d6e5700
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: IRDPSRAPIAttendeeManager interface [RDP],Item property, IRDPSRAPIAttendeeManager.Item, IRDPSRAPIAttendeeManager.get_Item, IRDPSRAPIAttendeeManager::Item, IRDPSRAPIAttendeeManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIAttendeeManager interface, Item property [RDP],RDPSRAPIAttendeeManager object, RDPSRAPIAttendeeManager object [RDP],Item property, get_Item, rdp.irdpsrapiattendeemanager_item, rdpencomapi/IRDPSRAPIAttendeeManager::Item, rdpencomapi/IRDPSRAPIAttendeeManager::get_Item
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RdpEncomAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: RdpEncomAPI.tlb
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RdpEncom.dll
+api_name:
+-	IRDPSRAPIAttendeeManager.Item
+-	IRDPSRAPIAttendeeManager.get_Item
+-	RDPSRAPIAttendeeManager.Item
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRDPSRAPIAttendeeManager::get_Item

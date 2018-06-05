@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CERT_CREATE_CONTEXT_PARA
+title: "_CERT_CREATE_CONTEXT_PARA"
+author: windows-sdk-content
+description: Defines additional values that can be used when calling the CertCreateContext function.
+old-location: security\cert_create_context_para.htm
+old-project: SecCrypto
+ms.assetid: 1486cb60-56f0-4ce4-b283-6f92dcbbea26
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_CREATE_CONTEXT_PARA, CERT_CREATE_CONTEXT_PARA, CERT_CREATE_CONTEXT_PARA structure [Security], _CERT_CREATE_CONTEXT_PARA, security.cert_create_context_para, wincrypt/CERT_CREATE_CONTEXT_PARA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_CREATE_CONTEXT_PARA, *PCERT_CREATE_CONTEXT_PARA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_CREATE_CONTEXT_PARA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERT_CREATE_CONTEXT_PARA structure

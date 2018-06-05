@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:sdoias._CONDITIONPROPERTIES
+title: "_CONDITIONPROPERTIES"
+author: windows-sdk-content
+description: The values of the CONDITIONPROPERTIES enumeration type specify the properties of a Network Access Policy (NAP) condition.
+old-location: nps\SDO_conditionproperties.htm
+old-project: Nps
+ms.assetid: 09cb8457-9baf-4139-ba80-6eb608db6a65
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CONDITIONPROPERTIES, CONDITIONPROPERTIES enumeration [Network Policy Server], PROPERTY_CONDITION_TEXT, _CONDITIONPROPERTIES, _sdo_conditionproperties, nps.SDO_conditionproperties, sdo.conditionproperties, sdoias/CONDITIONPROPERTIES, sdoias/PROPERTY_CONDITION_TEXT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: sdoias.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONDITIONPROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	SdoIas.h
+api_name:
+-	CONDITIONPROPERTIES
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _CONDITIONPROPERTIES enumeration

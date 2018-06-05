@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wsbapp.IWsbApplicationAsync.QueryStatus
+title: IWsbApplicationAsync::QueryStatus
+author: windows-sdk-content
+description: Queries the status of an asynchronous operation.
+old-location: wsb\iwsbapplicationasync_querystatus.htm
+old-project: wsb
+ms.assetid: 0705e4a8-b65e-4740-b073-7fb24e5d02ef
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IWsbApplicationAsync interface [Windows Server Backup],QueryStatus method, IWsbApplicationAsync.QueryStatus, IWsbApplicationAsync::QueryStatus, QueryStatus, QueryStatus method [Windows Server Backup], QueryStatus method [Windows Server Backup],IWsbApplicationAsync interface, S_OK, WSBAPP_ASYNC_IN_PROGRESS, wsb.iwsbapplicationasync_querystatus, wsbapp/IWsbApplicationAsync::QueryStatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wsbapp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WsbApp.h
+api_name:
+-	IWsbApplicationAsync.QueryStatus
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWsbApplicationAsync::QueryStatus

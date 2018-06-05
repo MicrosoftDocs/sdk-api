@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:windowsstoragecom.IRandomAccessStreamFileAccessMode
+title: IRandomAccessStreamFileAccessMode
+author: windows-sdk-content
+description: Provides access to the file access mode that was used when the StorageFile.OpenAsync method was called to open the random-access byte stream.
+old-location: winrt\irandomaccessstreamfileaccessmode.htm
+old-project: WinRT
+ms.assetid: 20A538B5-ACD6-4BD9-9CDC-3F2CCDCAF251
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: IRandomAccessStreamFileAccessMode, IRandomAccessStreamFileAccessMode interface [Windows Runtime], IRandomAccessStreamFileAccessMode interface [Windows Runtime],described, windowsstoragecom/IRandomAccessStreamFileAccessMode, winrt.irandomaccessstreamfileaccessmode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: windowsstoragecom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HANDLE_SHARING_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	windows.storage.dll
+api_name:
+-	IRandomAccessStreamFileAccessMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Windows.storage.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IRandomAccessStreamFileAccessMode interface

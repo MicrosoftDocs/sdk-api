@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:spatialaudioclient.AudioObjectType
+title: AudioObjectType
+author: windows-sdk-content
+description: Specifies the type of an ISpatialAudioObject.
+old-location: coreaudio\audioobjecttype.htm
+old-project: CoreAudio
+ms.assetid: DFFE770F-41C0-4048-A38F-FB96353E9216
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: AudioObjectType, AudioObjectType enumeration [Core Audio], AudioObjectType_BackCenter, AudioObjectType_BackLeft, AudioObjectType_BackRight, AudioObjectType_BottomBackLeft, AudioObjectType_BottomBackRight, AudioObjectType_BottomFrontLeft, AudioObjectType_BottomFrontRight, AudioObjectType_Dynamic, AudioObjectType_FrontCenter, AudioObjectType_FrontLeft, AudioObjectType_FrontRight, AudioObjectType_LowFrequency, AudioObjectType_None, AudioObjectType_SideLeft, AudioObjectType_SideRight, AudioObjectType_TopBackLeft, AudioObjectType_TopBackRight, AudioObjectType_TopFrontLeft, AudioObjectType_TopFrontRight, coreaudio.audioobjecttype, spatialaudioclient/AudioObjectType, spatialaudioclient/AudioObjectType_BackCenter, spatialaudioclient/AudioObjectType_BackLeft, spatialaudioclient/AudioObjectType_BackRight, spatialaudioclient/AudioObjectType_BottomBackLeft, spatialaudioclient/AudioObjectType_BottomBackRight, spatialaudioclient/AudioObjectType_BottomFrontLeft, spatialaudioclient/AudioObjectType_BottomFrontRight, spatialaudioclient/AudioObjectType_Dynamic, spatialaudioclient/AudioObjectType_FrontCenter, spatialaudioclient/AudioObjectType_FrontLeft, spatialaudioclient/AudioObjectType_FrontRight, spatialaudioclient/AudioObjectType_LowFrequency, spatialaudioclient/AudioObjectType_None, spatialaudioclient/AudioObjectType_SideLeft, spatialaudioclient/AudioObjectType_SideRight, spatialaudioclient/AudioObjectType_TopBackLeft, spatialaudioclient/AudioObjectType_TopBackRight, spatialaudioclient/AudioObjectType_TopFrontLeft, spatialaudioclient/AudioObjectType_TopFrontRight
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: spatialaudioclient.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AudioObjectType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	spatialaudioclient.h
+api_name:
+-	AudioObjectType
+product: Windows
+targetos: Windows
+req.lib: Windows.Networking.lib
+req.dll: Windows.Networking.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # AudioObjectType enumeration

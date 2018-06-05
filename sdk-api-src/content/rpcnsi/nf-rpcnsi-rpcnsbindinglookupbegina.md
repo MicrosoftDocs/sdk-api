@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rpcnsi.RpcNsBindingLookupBeginA
+title: RpcNsBindingLookupBeginA function
+author: windows-sdk-content
+description: The RpcNsBindingLookupBegin function creates a lookup context for an interface and an object.
+old-location: rpc\rpcnsbindinglookupbegin.htm
+old-project: Rpc
+ms.assetid: 75b7e901-706a-4e3d-b958-d04a0709b993
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: RpcNsBindingLookupBegin, RpcNsBindingLookupBegin function [RPC], RpcNsBindingLookupBeginA, RpcNsBindingLookupBeginW, _rpc_rpcnsbindinglookupbegin, rpc.rpcnsbindinglookupbegin, rpcnsi/RpcNsBindingLookupBegin, rpcnsi/RpcNsBindingLookupBeginA, rpcnsi/RpcNsBindingLookupBeginW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rpcnsi.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RpcNsBindingLookupBeginW (Unicode) and RpcNsBindingLookupBeginA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rpcns4.dll
+api_name:
+-	RpcNsBindingLookupBegin
+-	RpcNsBindingLookupBeginA
+-	RpcNsBindingLookupBeginW
+product: Windows
+targetos: Windows
+req.lib: Rpcns4.lib
+req.dll: Rpcns4.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RpcNsBindingLookupBeginA function

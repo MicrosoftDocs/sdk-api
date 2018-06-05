@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winevt._EVT_EVENT_PROPERTY_ID
+title: "_EVT_EVENT_PROPERTY_ID"
+author: windows-sdk-content
+description: Defines the values that determine the query information to retrieve.
+old-location: wes\evt_subscription_event_property_id.htm
+old-project: WES
+ms.assetid: 19e20da3-5b6b-4f56-b30b-0408695f2267
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: EVT_EVENT_PROPERTY_ID, EVT_EVENT_PROPERTY_ID enumeration [EventLog], EvtEventPath, EvtEventPropertyIdEND, EvtEventQueryIDs, _EVT_EVENT_PROPERTY_ID, wes.evt_subscription_event_property_id, winevt/EVT_EVENT_PROPERTY_ID, winevt/EvtEventPath, winevt/EvtEventPropertyIdEND, winevt/EvtEventQueryIDs
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winevt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVT_EVENT_PROPERTY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinEvt.h
+api_name:
+-	EVT_EVENT_PROPERTY_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _EVT_EVENT_PROPERTY_ID enumeration

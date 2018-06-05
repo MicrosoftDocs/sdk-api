@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tspubplugin2com._TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
+title: "_TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE"
+author: windows-sdk-content
+description: Specifies the type of assignment for a personal desktop resolution.
+old-location: termserv\tspub_plugin_pd_assignment_type.htm
+old-project: TermServ
+ms.assetid: 8a55d72c-215e-4f72-90dd-0f68c107a635
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: TSPUB_PLUGIN_PD_ASSIGNMENT_EXISTING, TSPUB_PLUGIN_PD_ASSIGNMENT_NEW, TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE, TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE enumeration [Remote Desktop Services], _TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE, termserv.tspub_plugin_pd_assignment_type, tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_EXISTING, tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_NEW, tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tspubplugin2com.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tspubplugin2com.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tspubplugin2com.h
+api_name:
+-	TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE enumeration

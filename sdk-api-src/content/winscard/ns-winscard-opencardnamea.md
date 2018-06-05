@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winscard.OPENCARDNAMEA
+title: OPENCARDNAMEA
+author: windows-sdk-content
+description: Contains the information that the GetOpenCardName function uses to initialize a smart card Select Card dialog box.
+old-location: security\opencardname.htm
+old-project: SecAuthN
+ms.assetid: b409a6fc-2cfd-491e-8f4c-f8567df7b08f
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*LPOPENCARDNAMEA, *POPENCARDNAMEA, LPOPENCARDNAME, LPOPENCARDNAME structure pointer [Security], OPENCARDNAME, OPENCARDNAME structure [Security], OPENCARDNAMEA, OPENCARDNAMEW, SC_DLG_FORCE_UI, SC_DLG_MINIMAL_UI, SC_DLG_NO_UI, _smart_opencardname, security.opencardname, winscard/LPOPENCARDNAME, winscard/OPENCARDNAME, winscard/OPENCARDNAMEA, winscard/OPENCARDNAMEW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winscard.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: OPENCARDNAMEW (Unicode) and OPENCARDNAMEA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPENCARDNAMEA, *POPENCARDNAMEA, *LPOPENCARDNAMEA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winscard.h
+api_name:
+-	OPENCARDNAME
+-	OPENCARDNAMEA
+-	OPENCARDNAMEW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # OPENCARDNAMEA structure

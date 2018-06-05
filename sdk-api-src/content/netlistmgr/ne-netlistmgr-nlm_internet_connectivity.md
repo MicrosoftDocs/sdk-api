@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:netlistmgr.NLM_INTERNET_CONNECTIVITY
+title: NLM_INTERNET_CONNECTIVITY
+author: windows-sdk-content
+description: The NLM_INTERNET_CONNECTIVITY enumeration defines a set of flags that provide additional data for IPv4 or IPv6 network connectivity.
+old-location: nla\nlm_internet_connectivity.htm
+old-project: NLA
+ms.assetid: 5B1DB4D5-6F69-4628-AEAF-E280E9B4E71C
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: NLM_INTERNET_CONNECTIVITY, NLM_INTERNET_CONNECTIVITY enumeration [Network Awareness], NLM_INTERNET_CONNECTIVITY_CORPORATE, NLM_INTERNET_CONNECTIVITY_PROXIED, NLM_INTERNET_CONNECTIVITY_WEBHIJACK, netlistmgr/NLM_INTERNET_CONNECTIVITY, netlistmgr/NLM_INTERNET_CONNECTIVITY_CORPORATE, netlistmgr/NLM_INTERNET_CONNECTIVITY_PROXIED, netlistmgr/NLM_INTERNET_CONNECTIVITY_WEBHIJACK, nla.nlm_internet_connectivity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: netlistmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Netlistmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NLM_INTERNET_CONNECTIVITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Netlistmgr.h
+api_name:
+-	NLM_INTERNET_CONNECTIVITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # NLM_INTERNET_CONNECTIVITY enumeration

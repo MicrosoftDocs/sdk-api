@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcore.IRawElementProviderFragmentRoot.GetFocus
+title: IRawElementProviderFragmentRoot::GetFocus
+author: windows-sdk-content
+description: Retrieves the element in this fragment that has the input focus.
+old-location: winauto\uiauto_IRawElementProviderFragmentRoot_GetFocus.htm
+old-project: WinAuto
+ms.assetid: 73b5ffc8-1a24-4fa5-8bc4-ae09656a80df
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: GetFocus, GetFocus method [Windows Accessibility], GetFocus method [Windows Accessibility],IRawElementProviderFragmentRoot interface, IRawElementProviderFragmentRoot interface [Windows Accessibility],GetFocus method, IRawElementProviderFragmentRoot.GetFocus, IRawElementProviderFragmentRoot::GetFocus, uiauto.uiauto_IRawElementProviderFragmentRoot_GetFocus, uiauto_IRawElementProviderFragmentRoot_GetFocus, uiautomationcore/IRawElementProviderFragmentRoot::GetFocus, winauto.uiauto_IRawElementProviderFragmentRoot_GetFocus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationCore.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	IRawElementProviderFragmentRoot.GetFocus
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IRawElementProviderFragmentRoot::GetFocus

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msinkaut.InkRecognitionStatus
+title: InkRecognitionStatus
+author: windows-sdk-content
+description: Specifies whether an error occurred during recognition and, if so, which error occurred.
+old-location: tablet\inkrecognitionstatus.htm
+old-project: tablet
+ms.assetid: d6ff29a8-d100-4bfe-848b-941367d8b2dd
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IRS_InkAddedFailed, IRS_Interrupted, IRS_NoError, IRS_ProcessFailed, IRS_SetAutoCompletionModeFailed, IRS_SetFactoidFailed, IRS_SetFlagsFailed, IRS_SetGuideFailed, IRS_SetPrefixSuffixFailed, IRS_SetStrokesFailed, IRS_SetWordListFailed, InkRecognitionStatus, InkRecognitionStatus enumeration [Tablet PC], d6ff29a8-d100-4bfe-848b-941367d8b2dd, msinkaut/IRS_InkAddedFailed, msinkaut/IRS_Interrupted, msinkaut/IRS_NoError, msinkaut/IRS_ProcessFailed, msinkaut/IRS_SetAutoCompletionModeFailed, msinkaut/IRS_SetFactoidFailed, msinkaut/IRS_SetFlagsFailed, msinkaut/IRS_SetGuideFailed, msinkaut/IRS_SetPrefixSuffixFailed, msinkaut/IRS_SetStrokesFailed, msinkaut/IRS_SetWordListFailed, msinkaut/InkRecognitionStatus, tablet.inkrecognitionstatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InkRecognitionStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msinkaut.h
+api_name:
+-	InkRecognitionStatus
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkRecognitionStatus enumeration

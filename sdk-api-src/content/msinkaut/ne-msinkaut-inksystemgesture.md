@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msinkaut.InkSystemGesture
+title: InkSystemGesture
+author: windows-sdk-content
+description: Specifies the interest in a set of operating system-specific gestures.
+old-location: tablet\inksystemgesture.htm
+old-project: tablet
+ms.assetid: 213c8a44-1313-47cf-8703-3e9ed5e36d33
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 213c8a44-1313-47cf-8703-3e9ed5e36d33, ISG_DoubleTap, ISG_Drag, ISG_Flick, ISG_HoldEnter, ISG_HoldLeave, ISG_HoverEnter, ISG_HoverLeave, ISG_RightDrag, ISG_RightTap, ISG_Tap, InkSystemGesture, InkSystemGesture enumeration [Tablet PC], msinkaut/ISG_DoubleTap, msinkaut/ISG_Drag, msinkaut/ISG_Flick, msinkaut/ISG_HoldEnter, msinkaut/ISG_HoldLeave, msinkaut/ISG_HoverEnter, msinkaut/ISG_HoverLeave, msinkaut/ISG_RightDrag, msinkaut/ISG_RightTap, msinkaut/ISG_Tap, msinkaut/InkSystemGesture, tablet.inksystemgesture
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InkSystemGesture
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msinkaut.h
+api_name:
+-	InkSystemGesture
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkSystemGesture enumeration

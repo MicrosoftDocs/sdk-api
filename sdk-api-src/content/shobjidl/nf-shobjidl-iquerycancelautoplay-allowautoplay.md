@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl.IQueryCancelAutoPlay.AllowAutoPlay
+title: IQueryCancelAutoPlay::AllowAutoPlay
+author: windows-sdk-content
+description: Determines whether to play media inserted by a user and if so using what restrictions.
+old-location: shell\IQueryCancelAutoPlay_AllowAutoPlay.htm
+old-project: shell
+ms.assetid: ebc826a2-d7ea-413a-836b-c7e51f13692a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ARCONTENT_AUDIOCD, ARCONTENT_AUTOPLAYMUSIC, ARCONTENT_AUTOPLAYPIX, ARCONTENT_AUTOPLAYVIDEO, ARCONTENT_AUTORUNINF, ARCONTENT_BLANKBD, ARCONTENT_BLANKCD, ARCONTENT_BLANKDVD, ARCONTENT_BLURAY, ARCONTENT_CAMERASTORAGE, ARCONTENT_CUSTOMEVENT, ARCONTENT_DVDAUDIO, ARCONTENT_DVDMOVIE, ARCONTENT_MASK, ARCONTENT_NONE, ARCONTENT_PHASE_FINAL, ARCONTENT_PHASE_MASK, ARCONTENT_PHASE_PRESNIFF, ARCONTENT_PHASE_SNIFFING, ARCONTENT_PHASE_UNKNOWN, ARCONTENT_SVCD, ARCONTENT_UNKNOWNCONTENT, ARCONTENT_VCD, AllowAutoPlay, AllowAutoPlay method [Windows Shell], AllowAutoPlay method [Windows Shell],IQueryCancelAutoPlay interface, IQueryCancelAutoPlay interface [Windows Shell],AllowAutoPlay method, IQueryCancelAutoPlay.AllowAutoPlay, IQueryCancelAutoPlay::AllowAutoPlay, _shell_IQueryCancelAutoPlay_AllowAutoPlay, shell.IQueryCancelAutoPlay_AllowAutoPlay, shobjidl/IQueryCancelAutoPlay::AllowAutoPlay
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IQueryCancelAutoPlay.AllowAutoPlay
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # IQueryCancelAutoPlay::AllowAutoPlay

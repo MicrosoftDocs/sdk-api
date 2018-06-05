@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:wmp.WMPBurnFormat
+title: WMPBurnFormat
+author: windows-sdk-content
+description: The WMPBurnFormat enumeration type defines the possible types of CDs for burning.
+old-location: wmp\wmpburnformat.htm
+old-project: WMP
+ms.assetid: 5761dbfb-4e7d-4063-bde7-2aa9d7869d7c
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: WMPBurnFormat, WMPBurnFormat enumeration [Windows Media Player], wmp.wmpburnformat, wmp/WMPBurnFormat, wmp/wmpbfAudioCD, wmp/wmpbfDataCD, wmpbfAudioCD, wmpbfDataCD
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPBurnFormat
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wmp.h
+api_name:
+-	WMPBurnFormat
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WMPBurnFormat enumeration

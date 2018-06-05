@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certcli.ICertRequest2.GetCAPropertyFlags
+title: ICertRequest2::GetCAPropertyFlags
+author: windows-sdk-content
+description: Retrieves the property flags for a certification authority (CA) property.
+old-location: security\icertrequest2_getcapropertyflags.htm
+old-project: SecCrypto
+ms.assetid: bdc6ab73-a0b4-44cd-9e46-c453dcb45a41
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertRequest object [Security],GetCAPropertyFlags method, GetCAPropertyFlags, GetCAPropertyFlags method [Security], GetCAPropertyFlags method [Security],CCertRequest object, GetCAPropertyFlags method [Security],ICertRequest interface, GetCAPropertyFlags method [Security],ICertRequest2 interface, GetCAPropertyFlags method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetCAPropertyFlags method, ICertRequest2 interface [Security],GetCAPropertyFlags method, ICertRequest2.GetCAPropertyFlags, ICertRequest2::GetCAPropertyFlags, ICertRequest3 interface [Security],GetCAPropertyFlags method, ICertRequest3::GetCAPropertyFlags, ICertRequest::GetCAPropertyFlags, _certsrv_icertrequest2_getcapropertyflags, certcli/ICertRequest2::GetCAPropertyFlags, certcli/ICertRequest3::GetCAPropertyFlags, certcli/ICertRequest::GetCAPropertyFlags, security.icertrequest2_getcapropertyflags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certcli.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509EnrollmentAuthFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certcli.dll
+api_name:
+-	ICertRequest3.GetCAPropertyFlags
+-	ICertRequest2.GetCAPropertyFlags
+-	ICertRequest.GetCAPropertyFlags
+-	CCertRequest.GetCAPropertyFlags
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 ---
 
 # ICertRequest2::GetCAPropertyFlags

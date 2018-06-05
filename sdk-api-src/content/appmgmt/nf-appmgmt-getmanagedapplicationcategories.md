@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:appmgmt.GetManagedApplicationCategories
+title: GetManagedApplicationCategories function
+author: windows-sdk-content
+description: The GetManagedApplicationCategories function gets a list of application categories for a domain. The list is the same for all users in the domain.
+old-location: policy\getmanagedapplicationcategories.htm
+old-project: Policy
+ms.assetid: 10824852-7810-483a-91b3-2d9cc3d21934
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetManagedApplicationCategories, GetManagedApplicationCategories function [Group Policy], appmgmt/GetManagedApplicationCategories, policy.getmanagedapplicationcategories
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: appmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INSTALLSPECTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+api_name:
+-	GetManagedApplicationCategories
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 ---
 
 # GetManagedApplicationCategories function

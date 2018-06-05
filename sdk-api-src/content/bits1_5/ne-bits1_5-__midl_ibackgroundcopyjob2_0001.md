@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:bits1_5.__MIDL_IBackgroundCopyJob2_0001
+title: "__MIDL_IBackgroundCopyJob2_0001"
+author: windows-sdk-content
+description: The BG_AUTH_TARGET enumeration defines the constant values that specify whether the credentials are used for proxy or server user authentication requests.
+old-location: bits\bg_auth_target.htm
+old-project: Bits
+ms.assetid: efe7aa0a-48fc-4192-b81b-40d3a9b0fb22
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BG_AUTH_TARGET, BG_AUTH_TARGET enumeration [BITS], BG_AUTH_TARGET_PROXY, BG_AUTH_TARGET_SERVER, __MIDL_IBackgroundCopyJob2_0001, _drz_bg_auth_target, bits.bg_auth_target, bits1_5/BG_AUTH_TARGET, bits1_5/BG_AUTH_TARGET_PROXY, bits1_5/BG_AUTH_TARGET_SERVER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: bits1_5.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits1_5.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_AUTH_TARGET
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bits1_5.h
+api_name:
+-	BG_AUTH_TARGET
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 ---
 
 # __MIDL_IBackgroundCopyJob2_0001 enumeration

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sspi.QueryContextAttributesA
+title: QueryContextAttributesA function
+author: windows-sdk-content
+description: Lets a transport application query the Credential Security Support Provider (CredSSP) security package for certain attributes of a security context.
+old-location: security\querycontextattributes__credssp_.htm
+old-project: SecAuthN
+ms.assetid: 4956c4ab-b71e-4960-b750-f3a79b87baac
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: QueryContextAttributes, QueryContextAttributes (CredSSP), QueryContextAttributes function [Security], QueryContextAttributesA, QueryContextAttributesW, SECPKG_ATTR_CERT_TRUST_STATUS, SECPKG_ATTR_CREDS, SECPKG_ATTR_CREDS_2, SECPKG_ATTR_C_ACCESS_TOKEN, SECPKG_ATTR_C_FULL_ACCESS_TOKEN, SECPKG_ATTR_NEGOTIATION_PACKAGE, SECPKG_ATTR_PACKAGE_INFO, SECPKG_ATTR_SERVER_AUTH_FLAGS, SECPKG_ATTR_SIZES, SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES, security.querycontextattributes__credssp_, sspi/QueryContextAttributes, sspi/QueryContextAttributesA, sspi/QueryContextAttributesW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: sspi.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: QueryContextAttributesW (Unicode) and QueryContextAttributesA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Secur32.dll
+api_name:
+-	QueryContextAttributes
+-	QueryContextAttributesA
+-	QueryContextAttributesW
+product: Windows
+targetos: Windows
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # QueryContextAttributesA function

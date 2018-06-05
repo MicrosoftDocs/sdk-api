@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkRecognitionAlternate.get_Descender
+title: IInkRecognitionAlternate::get_Descender
+author: windows-sdk-content
+description: Gets the decender line for an IInkRecognitionAlternate object that represents a single line of text.
+old-location: tablet\iinkrecognitionalternate_descender.htm
+old-project: tablet
+ms.assetid: 52507911-b48c-47a9-8046-3000ed61e3c8
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 52507911-b48c-47a9-8046-3000ed61e3c8, Descender property [Tablet PC], Descender property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],Descender property, IInkRecognitionAlternate.Descender, IInkRecognitionAlternate.get_Descender, IInkRecognitionAlternate::Descender, IInkRecognitionAlternate::get_Descender, get_Descender, msinkaut/IInkRecognitionAlternate::Descender, msinkaut/IInkRecognitionAlternate::get_Descender, tablet.iinkrecognitionalternate_descender
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkRecognitionAlternate.Descender
+-	IInkRecognitionAlternate.get_Descender
+-	IInkRecognitionAlternate.get_Descender
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognitionAlternate::get_Descender

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0000_0004
+title: "__MIDL___MIDL_itf_UIAnimation_0000_0000_0004"
+author: windows-sdk-content
+description: Defines the pattern for a loop iteration.
+old-location: uianimation\ui_animation_repeat_mode.htm
+old-project: UIAnimation
+ms.assetid: 5E3AAAFE-C4EC-4BAF-AD0E-51F1AC04E472
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: UI_ANIMATION_REPEAT_MODE, UI_ANIMATION_REPEAT_MODE enumeration [Windows Animation], UI_ANIMATION_REPEAT_MODE_ALTERNATE, UI_ANIMATION_REPEAT_MODE_NORMAL, __MIDL___MIDL_itf_UIAnimation_0000_0000_0004, uianimation.ui_animation_repeat_mode, uianimation/UI_ANIMATION_REPEAT_MODE, uianimation/UI_ANIMATION_REPEAT_MODE_ALTERNATE, uianimation/UI_ANIMATION_REPEAT_MODE_NORMAL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uianimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAnimation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_ANIMATION_REPEAT_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UIAnimation.h
+api_name:
+-	UI_ANIMATION_REPEAT_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # __MIDL___MIDL_itf_UIAnimation_0000_0000_0004 enumeration

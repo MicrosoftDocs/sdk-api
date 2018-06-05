@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:spatialaudioclient.ISpatialAudioClient.GetMaxDynamicObjectCount
+title: ISpatialAudioClient::GetMaxDynamicObjectCount
+author: windows-sdk-content
+description: Gets the maximum number of dynamic audio objects for the spatial audio client.
+old-location: coreaudio\ispatialaudioclient_getmaxdynamicobjectcount.htm
+old-project: CoreAudio
+ms.assetid: 0185D09E-0009-41BF-A0BB-3C3CE0A69BA8
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetMaxDynamicObjectCount, GetMaxDynamicObjectCount method [Core Audio], GetMaxDynamicObjectCount method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetMaxDynamicObjectCount method, ISpatialAudioClient.GetMaxDynamicObjectCount, ISpatialAudioClient::GetMaxDynamicObjectCount, coreaudio.ispatialaudioclient_getmaxdynamicobjectcount, spatialaudioclient/ISpatialAudioClient::GetMaxDynamicObjectCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spatialaudioclient.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AudioObjectType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	spatialaudioclient.h
+api_name:
+-	ISpatialAudioClient.GetMaxDynamicObjectCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioClient::GetMaxDynamicObjectCount

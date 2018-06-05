@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:objidl.IStdMarshalInfo
+title: IStdMarshalInfo
+author: windows-sdk-content
+description: Retrieves the CLSID identifying the handler to be used in the destination process during standard marshaling.
+old-location: com\istdmarshalinfo.htm
+old-project: com
+ms.assetid: f034436f-e24e-4b99-9fb9-b0400d3ebb72
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IStdMarshalInfo, IStdMarshalInfo interface [COM], IStdMarshalInfo interface [COM],described, _com_istdmarshalinfo, com.istdmarshalinfo, objidlbase/IStdMarshalInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: objidl.h
+req.include-header: ObjIdl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidlbase.h
+api_name:
+-	IStdMarshalInfo
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IStdMarshalInfo interface

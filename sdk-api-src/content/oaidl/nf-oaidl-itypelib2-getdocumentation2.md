@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oaidl.ITypeLib2.GetDocumentation2
+title: ITypeLib2::GetDocumentation2
+author: windows-sdk-content
+description: Retrieves the library's documentation string, the complete Help file name and path, the localization context to use, and the context ID for the library Help topic in the Help file.
+old-location: automat\itypelib2_getdocumentation2.htm
+old-project: automat
+ms.assetid: 976e3258-5dba-4d0c-916d-75449f869363
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: GetDocumentation2, GetDocumentation2 method [Automation], GetDocumentation2 method [Automation],ITypeLib2 interface, ITypeLib2 interface [Automation],GetDocumentation2 method, ITypeLib2.GetDocumentation2, ITypeLib2::GetDocumentation2, _oa96_ITypeLib2_GetDocumentation2, automat.itypelib2_getdocumentation2, oaidl/ITypeLib2::GetDocumentation2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OaIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ITypeLib2.GetDocumentation2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITypeLib2::GetDocumentation2

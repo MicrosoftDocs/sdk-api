@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddkmapi._DDCLOSEHANDLE
+title: "_DDCLOSEHANDLE"
+author: windows-sdk-content
+description: The DDCLOSEHANDLE structure contains the Microsoft DirectDraw object, surface, video port extensions (VPE) object, or VPE capture handle.
+old-location: display\ddclosehandle.htm
+old-project: display
+ms.assetid: 180612e0-6014-4a14-82a7-3ab2058b1cf3
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDCLOSEHANDLE, DDCLOSEHANDLE, DDCLOSEHANDLE structure [Display Devices], LPDDCLOSEHANDLE, LPDDCLOSEHANDLE structure pointer [Display Devices], _DDCLOSEHANDLE, ddkmapi/DDCLOSEHANDLE, ddkmapi/LPDDCLOSEHANDLE, ddstrcts_6f935c9b-9a18-4002-adcd-f9f203251e84.xml, display.ddclosehandle"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddkmapi.h
+req.include-header: Ddkmapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDCLOSEHANDLE, *LPDDCLOSEHANDLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddkmapi.h
+api_name:
+-	DDCLOSEHANDLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDCLOSEHANDLE structure

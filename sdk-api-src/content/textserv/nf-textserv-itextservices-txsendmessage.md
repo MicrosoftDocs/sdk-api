@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:textserv.ITextServices.TxSendMessage
+title: ITextServices::TxSendMessage
+author: windows-sdk-content
+description: Used by the window host to forward messages sent from its window to the text services object.
+old-location: controls\ITextServices_TxSendMessage.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsendmessage.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: ITextServices interface [Windows Controls],TxSendMessage method, ITextServices.TxSendMessage, ITextServices::TxSendMessage, TxSendMessage, TxSendMessage method [Windows Controls], TxSendMessage method [Windows Controls],ITextServices interface, _win32_ITextServices_TxSendMessage, _win32_ITextServices_TxSendMessage_cpp, controls.ITextServices_TxSendMessage, controls._win32_ITextServices_TxSendMessage, textserv/ITextServices::TxSendMessage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: textserv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextServices.TxSendMessage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextServices::TxSendMessage

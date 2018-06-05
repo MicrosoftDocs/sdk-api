@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vdssys._MIRROR_VIRTUAL_DISK_VERSION
+title: "_MIRROR_VIRTUAL_DISK_VERSION"
+author: windows-sdk-content
+description: Contains the version of the virtual disk MIRROR_VIRTUAL_DISK_PARAMETERS structure used by the MirrorVirtualDisk function.
+old-location: vhd\mirror_virtual_disk_version.htm
+old-project: VStor
+ms.assetid: 42045e2b-3e3b-4497-b6bb-18f360139c18
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: MIRROR_VIRTUAL_DISK_VERSION, MIRROR_VIRTUAL_DISK_VERSION enumeration [VHD], MIRROR_VIRTUAL_DISK_VERSION_1, MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED, _MIRROR_VIRTUAL_DISK_VERSION, vdssys/MIRROR_VIRTUAL_DISK_VERSION, vdssys/MIRROR_VIRTUAL_DISK_VERSION_1, vdssys/MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.mirror_virtual_disk_version, virtdisk/MIRROR_VIRTUAL_DISK_VERSION, virtdisk/MIRROR_VIRTUAL_DISK_VERSION_1, virtdisk/MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vdssys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIRROR_VIRTUAL_DISK_VERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VirtDisk.h
+-	vdssys.h
+api_name:
+-	MIRROR_VIRTUAL_DISK_VERSION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _MIRROR_VIRTUAL_DISK_VERSION enumeration

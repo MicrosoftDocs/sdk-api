@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrm.IFsrmMutableCollection.Clone
+title: IFsrmMutableCollection::Clone
+author: windows-sdk-content
+description: Creates a duplicate IFsrmMutableCollection collection.
+old-location: fsrm\ifsrmmutablecollection_clone.htm
+old-project: Fsrm
+ms.assetid: 8d673a7c-c8c3-409c-881f-58b87bf0809f
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: Clone, Clone method [File Server Resource Manager], Clone method [File Server Resource Manager],IFsrmMutableCollection interface, IFsrmMutableCollection interface [File Server Resource Manager],Clone method, IFsrmMutableCollection.Clone, IFsrmMutableCollection::Clone, fs.ifsrmmutablecollection_clone, fsrm.ifsrmmutablecollection_clone, fsrm/IFsrmMutableCollection::Clone
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrm.h
+req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmMutableCollection.Clone
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmMutableCollection::Clone

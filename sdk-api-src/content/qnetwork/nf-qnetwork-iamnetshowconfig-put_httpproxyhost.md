@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:qnetwork.IAMNetShowConfig.put_HTTPProxyHost
+title: IAMNetShowConfig::put_HTTPProxyHost
+author: windows-sdk-content
+description: The put_HTTPProxyHost method specifies the address of the HTTP proxy server.
+old-location: dshow\iamnetshowconfig_put_httpproxyhost.htm
+old-project: DirectShow
+ms.assetid: 3cd37fd4-3ce0-4b5c-9e2f-88c0e1845b2d
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IAMNetShowConfig interface [DirectShow],put_HTTPProxyHost method, IAMNetShowConfig.put_HTTPProxyHost, IAMNetShowConfig::put_HTTPProxyHost, IAMNetShowConfigput_HTTPProxyHost, dshow.iamnetshowconfig_put_httpproxyhost, put_HTTPProxyHost, put_HTTPProxyHost method [DirectShow], put_HTTPProxyHost method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_HTTPProxyHost
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: qnetwork.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMExtendedSeekingCapabilities
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Qnetwork.h
+api_name:
+-	IAMNetShowConfig.put_HTTPProxyHost
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAMNetShowConfig::put_HTTPProxyHost

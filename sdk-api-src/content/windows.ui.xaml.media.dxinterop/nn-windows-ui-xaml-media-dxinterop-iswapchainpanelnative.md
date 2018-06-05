@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:windows.ui.xaml.media.dxinterop.ISwapChainPanelNative
+title: ISwapChainPanelNative
+author: windows-sdk-content
+description: Provides interoperation between XAML and a DirectX swap chain. Unlike SwapChainBackgroundPanel, a SwapChainPanel can appear at any level in the XAML display tree, and more than 1 can be present in any given tree.
+old-location: winrt\iswapchainpanelnative.htm
+old-project: WinRT
+ms.assetid: B36147C7-1304-4175-8AD3-CD5FCA17B4AE
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: ISwapChainPanelNative, ISwapChainPanelNative interface [Windows Runtime], ISwapChainPanelNative interface [Windows Runtime],described, windows/ISwapChainPanelNative, winrt.iswapchainpanelnative
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: windows.ui.xaml.media.dxinterop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Windows.ui.xaml.media.dxinterop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDF_RENDER_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windows.UI.Xaml.dll
+api_name:
+-	ISwapChainPanelNative
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ISwapChainPanelNative interface

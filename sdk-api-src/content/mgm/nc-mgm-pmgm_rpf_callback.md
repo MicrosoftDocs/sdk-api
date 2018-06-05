@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:mgm.PMGM_RPF_CALLBACK
+title: PMGM_RPF_CALLBACK
+author: windows-sdk-content
+description: The PMGM_RPF_CALLBACK callback is a call into a routing protocol to determine if a given packet was received on the correct interface.
+old-location: rras\pmgm_rpf_callback.htm
+old-project: RRAS
+ms.assetid: 114a44c2-e352-45b9-9842-cfb369072c84
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: MgmRpfCallback, PMGM_RPF_CALLBACK, PMGM_RPF_CALLBACK callback, PMGM_RPF_CALLBACK callback function [RAS], _mpr_pmgm_rpf_callback, mgm/PMGM_RPF_CALLBACK, rras.pmgm_rpf_callback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: mgm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAM_MEDIUM, *PSTREAM_MEDIUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Mgm.h
+api_name:
+-	PMGM_RPF_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # PMGM_RPF_CALLBACK callback function

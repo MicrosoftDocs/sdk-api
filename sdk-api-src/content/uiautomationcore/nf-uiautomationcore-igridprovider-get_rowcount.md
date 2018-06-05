@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcore.IGridProvider.get_RowCount
+title: IGridProvider::get_RowCount
+author: windows-sdk-content
+description: Specifies the total number of rows in the grid.
+old-location: winauto\uiauto_IGridProvider_RowCount.htm
+old-project: WinAuto
+ms.assetid: 036a05fd-53b7-4e6d-b96b-503832933b56
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: IGridProvider interface [Windows Accessibility],RowCount property, IGridProvider.RowCount, IGridProvider.get_RowCount, IGridProvider::RowCount, IGridProvider::get_RowCount, RowCount property [Windows Accessibility], RowCount property [Windows Accessibility],IGridProvider interface, get_RowCount, uiauto.uiauto_IGridProvider_RowCount, uiauto_IGridProvider_RowCount, uiautomationcore/IGridProvider::RowCount, uiautomationcore/IGridProvider::get_RowCount, winauto.uiauto_IGridProvider_RowCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationCore.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uiautomationcore.dll
+api_name:
+-	IGridProvider.RowCount
+-	IGridProvider.get_RowCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IGridProvider::get_RowCount

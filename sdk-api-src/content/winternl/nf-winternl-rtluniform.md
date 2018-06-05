@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winternl.RtlUniform
+title: RtlUniform function
+author: windows-sdk-content
+description: Generates a uniform random number using D.H. Lehmer's 1948 algorithm.
+old-location: winprog\rtluniform.htm
+old-project: DevNotes
+ms.assetid: 78bb05fa-3ebc-4e61-ae4f-58544da51200
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: RtlUniform, RtlUniform function [Windows API], winprog.rtluniform, winternl/RtlUniform
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winternl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNC_VERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdll.dll
+api_name:
+-	RtlUniform
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # RtlUniform function

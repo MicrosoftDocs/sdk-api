@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shlobj_core.SCNRT_STATUS
+title: SCNRT_STATUS
+author: windows-sdk-content
+description: Indicates whether to enable or disable Async Register and Deregister for SHChangeNotifyRegisterThread.
+old-location: shell\SCNRT_STATUS.htm
+old-project: shell
+ms.assetid: 31fd993b-d8cb-40cc-9f31-15711dba1b10
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SCNRT_DISABLE, SCNRT_ENABLE, SCNRT_STATUS, SCNRT_STATUS enumeration [Windows Shell], _shell_SCNRT_STATUS, shell.SCNRT_STATUS, shlobj_core/SCNRT_DISABLE, shlobj_core/SCNRT_ENABLE, shlobj_core/SCNRT_STATUS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCNRT_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	SCNRT_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SCNRT_STATUS enumeration

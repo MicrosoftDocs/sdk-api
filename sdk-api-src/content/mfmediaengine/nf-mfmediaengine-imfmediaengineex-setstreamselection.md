@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfmediaengine.IMFMediaEngineEx.SetStreamSelection
+title: IMFMediaEngineEx::SetStreamSelection
+author: windows-sdk-content
+description: Selects or deselects a stream for playback.
+old-location: mf\imfmediaengineex_setstreamselection.htm
+old-project: medfound
+ms.assetid: 12F0FDD0-0D8C-496D-B5C4-3FBCBCAAC6FB
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: FALSE, IMFMediaEngineEx interface [Media Foundation],SetStreamSelection method, IMFMediaEngineEx.SetStreamSelection, IMFMediaEngineEx::SetStreamSelection, SetStreamSelection, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation],IMFMediaEngineEx interface, TRUE, mf.imfmediaengineex_setstreamselection, mfmediaengine/IMFMediaEngineEx::SetStreamSelection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.h
+api_name:
+-	IMFMediaEngineEx.SetStreamSelection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFMediaEngineEx::SetStreamSelection

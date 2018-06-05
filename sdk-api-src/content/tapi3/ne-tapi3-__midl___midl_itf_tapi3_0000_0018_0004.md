@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3.__MIDL___MIDL_itf_tapi3_0000_0018_0004
+title: "__MIDL___MIDL_itf_tapi3_0000_0018_0004"
+author: windows-sdk-content
+description: The MSP_EVENT enumerator defines the type of event information contained in MSP_EVENT_INFO.
+old-location: tapi3\msp_event.htm
+old-project: Tapi
+ms.assetid: 53e19eff-b5f0-43fd-b59b-e85e75220282
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ME_ADDRESS_EVENT, ME_CALL_EVENT, ME_PRIVATE_EVENT, ME_TSP_DATA, MSP_EVENT, MSP_EVENT enumeration [TAPI 2.2], __MIDL___MIDL_itf_tapi3_0000_0018_0004, _tapi3_msp_event, msp/ME_ADDRESS_EVENT, msp/ME_CALL_EVENT, msp/ME_PRIVATE_EVENT, msp/ME_TSP_DATA, msp/MSP_EVENT, tapi3.msp_event
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSP_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msp.h
+api_name:
+-	MSP_EVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # __MIDL___MIDL_itf_tapi3_0000_0018_0004 enumeration

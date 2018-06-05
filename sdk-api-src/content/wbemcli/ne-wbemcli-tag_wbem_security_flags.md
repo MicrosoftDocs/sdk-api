@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wbemcli.tag_WBEM_SECURITY_FLAGS
+title: tag_WBEM_SECURITY_FLAGS
+author: windows-sdk-content
+description: Contains flags used for setting security access levels.
+old-location: wmi\wbem_security_flags.htm
+old-project: WmiSdk
+ms.assetid: 28415184-B699-42D0-BC5C-0D3E055ABA16
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: WBEM_ENABLE, WBEM_FULL_WRITE_REP, WBEM_METHOD_EXECUTE, WBEM_PARTIAL_WRITE_REP, WBEM_REMOTE_ACCESS, WBEM_RIGHT_PUBLISH, WBEM_RIGHT_SUBSCRIBE, WBEM_SECURITY_FLAGS, WBEM_SECURITY_FLAGS enumeration [Windows Management Instrumentation], WBEM_WRITE_PROVIDER, tag_WBEM_SECURITY_FLAGS, wbemcli/WBEM_ENABLE, wbemcli/WBEM_FULL_WRITE_REP, wbemcli/WBEM_METHOD_EXECUTE, wbemcli/WBEM_PARTIAL_WRITE_REP, wbemcli/WBEM_REMOTE_ACCESS, wbemcli/WBEM_RIGHT_PUBLISH, wbemcli/WBEM_RIGHT_SUBSCRIBE, wbemcli/WBEM_SECURITY_FLAGS, wbemcli/WBEM_WRITE_PROVIDER, wmi.wbem_security_flags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wbemcli.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WBEM_SECURITY_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wbemcli.h
+api_name:
+-	WBEM_SECURITY_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tag_WBEM_SECURITY_FLAGS enumeration

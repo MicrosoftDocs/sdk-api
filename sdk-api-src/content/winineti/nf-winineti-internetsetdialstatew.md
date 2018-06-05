@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winineti.InternetSetDialStateW
+title: InternetSetDialStateW function
+author: windows-sdk-content
+description: Not supported.This function is obsolete. Do not use.
+old-location: wininet\internetsetdialstate.htm
+old-project: WinInet
+ms.assetid: f523f1ca-3e5a-4da0-850f-8654c82ee41e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: InternetSetDialState, InternetSetDialState function [WinINet], InternetSetDialStateA, InternetSetDialStateW, _inet_internetsetdialstate_function, wininet.internetsetdialstate, wininet/InternetSetDialState, wininet/InternetSetDialStateA, wininet/InternetSetDialStateW, winineti/InternetSetDialState, winineti/InternetSetDialStateA, winineti/InternetSetDialStateW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winineti.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: InternetSetDialStateW (Unicode) and InternetSetDialStateA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INTERNET_AUTH_NOTIFY_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wininet.dll
+api_name:
+-	InternetSetDialState
+-	InternetSetDialStateA
+-	InternetSetDialStateW
+product: Windows
+targetos: Windows
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # InternetSetDialStateW function

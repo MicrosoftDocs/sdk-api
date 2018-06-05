@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataCollectorSet.get_DataManager
+title: IDataCollectorSet::get_DataManager
+author: windows-sdk-content
+description: Retrieves the data manager associated with this data collector set.
+old-location: pla\idatacollectorset_get_datamanager.htm
+old-project: PLA
+ms.assetid: 739cf386-c5fb-454c-9919-e3997944d68c
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: DataManager property [PLA], DataManager property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DataManager property, IDataCollectorSet.DataManager, IDataCollectorSet.get_DataManager, IDataCollectorSet::DataManager, IDataCollectorSet::get_DataManager, base.idatacollectorset_get_datamanager, get_DataManager, pla.idatacollectorset_get_datamanager, pla/IDataCollectorSet::DataManager, pla/IDataCollectorSet::get_DataManager
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataCollectorSet.DataManager
+-	IDataCollectorSet.get_DataManager
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataCollectorSet::get_DataManager

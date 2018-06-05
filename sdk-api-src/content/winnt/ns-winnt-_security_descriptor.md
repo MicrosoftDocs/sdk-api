@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._SECURITY_DESCRIPTOR
+title: "_SECURITY_DESCRIPTOR"
+author: windows-sdk-content
+description: Contains the security information associated with an object.
+old-location: security\security_descriptor.htm
+old-project: SecAuthZ
+ms.assetid: 653992aa-4e32-4187-b3ac-727e82bfe0b6
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PISECURITY_DESCRIPTOR, PISECURITY_DESCRIPTOR, PISECURITY_DESCRIPTOR structure pointer [Security], SECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR structure [Security], _SECURITY_DESCRIPTOR, _win32_security_descriptor_str, security.security_descriptor, winnt/PISECURITY_DESCRIPTOR, winnt/SECURITY_DESCRIPTOR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SECURITY_DESCRIPTOR, *PISECURITY_DESCRIPTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	SECURITY_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SECURITY_DESCRIPTOR structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_SECURITY_HEADER_LAYOUT
+title: WS_SECURITY_HEADER_LAYOUT
+author: windows-sdk-content
+description: The layout rules applied to the elements of the WS-Security security header. This setting is relevant to message security bindings and mixed-mode security bindings.
+old-location: wsw\ws_security_header_layout.htm
+old-project: wsw
+ms.assetid: a3090e6f-1f80-4d67-b7d7-1165486dcc66
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_SECURITY_HEADER_LAYOUT, WS_SECURITY_HEADER_LAYOUT enumeration [Web Services for Windows], WS_SECURITY_HEADER_LAYOUT_LAX, WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_FIRST, WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_LAST, WS_SECURITY_HEADER_LAYOUT_STRICT, webservices/WS_SECURITY_HEADER_LAYOUT, webservices/WS_SECURITY_HEADER_LAYOUT_LAX, webservices/WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_FIRST, webservices/WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_LAST, webservices/WS_SECURITY_HEADER_LAYOUT_STRICT, wsw.ws_security_header_layout
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_SECURITY_HEADER_LAYOUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_SECURITY_HEADER_LAYOUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_SECURITY_HEADER_LAYOUT enumeration

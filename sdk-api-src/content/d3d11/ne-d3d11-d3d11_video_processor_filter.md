@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_FILTER
+title: D3D11_VIDEO_PROCESSOR_FILTER
+author: windows-sdk-content
+description: Identifies a video processor filter.
+old-location: mf\d3d11_video_processor_filter.htm
+old-project: medfound
+ms.assetid: 87CF9A1A-E196-4B5A-BAAE-DD948A5468C2
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3D11_VIDEO_PROCESSOR_FILTER, D3D11_VIDEO_PROCESSOR_FILTER enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_FILTER_ANAMORPHIC_SCALING, D3D11_VIDEO_PROCESSOR_FILTER_BRIGHTNESS, D3D11_VIDEO_PROCESSOR_FILTER_CONTRAST, D3D11_VIDEO_PROCESSOR_FILTER_EDGE_ENHANCEMENT, D3D11_VIDEO_PROCESSOR_FILTER_HUE, D3D11_VIDEO_PROCESSOR_FILTER_NOISE_REDUCTION, D3D11_VIDEO_PROCESSOR_FILTER_SATURATION, D3D11_VIDEO_PROCESSOR_FILTER_STEREO_ADJUSTMENT, d3d11/D3D11_VIDEO_PROCESSOR_FILTER, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_ANAMORPHIC_SCALING, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_BRIGHTNESS, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_CONTRAST, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_EDGE_ENHANCEMENT, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_HUE, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_NOISE_REDUCTION, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_SATURATION, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_STEREO_ADJUSTMENT, mf.d3d11_video_processor_filter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VIDEO_PROCESSOR_FILTER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11.h
+api_name:
+-	D3D11_VIDEO_PROCESSOR_FILTER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_VIDEO_PROCESSOR_FILTER enumeration

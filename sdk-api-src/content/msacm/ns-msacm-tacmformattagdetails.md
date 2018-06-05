@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:msacm.tACMFORMATTAGDETAILS
+title: tACMFORMATTAGDETAILS
+author: windows-sdk-content
+description: The ACMFORMATTAGDETAILS structure details a waveform-audio format tag for an ACM driver.
+old-location: multimedia\acmformattagdetails_struct.htm
+old-project: Multimedia
+ms.assetid: 134cccb1-4065-407f-a02b-7bd340b4a8cf
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*LPACMFORMATTAGDETAILS, *PACMFORMATTAGDETAILS, ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMFORMATTAGDETAILS, ACMFORMATTAGDETAILS structure [Windows Multimedia], msacm/ACMFORMATTAGDETAILS, multimedia.acmformattagdetails_COLLISION956, multimedia.acmformattagdetails_struct, tACMFORMATTAGDETAILS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: msacm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACMFORMATTAGDETAILS, *PACMFORMATTAGDETAILS, *LPACMFORMATTAGDETAILS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msacm.h
+api_name:
+-	ACMFORMATTAGDETAILS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tACMFORMATTAGDETAILS structure

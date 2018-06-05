@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ncrypt.NCryptSetProperty
+title: NCryptSetProperty function
+author: windows-sdk-content
+description: Sets the value for a named property for a CNG key storage object.
+old-location: security\ncryptsetproperty_func.htm
+old-project: SecCNG
+ms.assetid: ad1148aa-5f64-4867-9e17-6b41cc0c20b7
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, LABEL_SECURITY_INFORMATION, NCRYPT_PERSIST_FLAG, NCRYPT_PERSIST_ONLY_FLAG, NCRYPT_SILENT_FLAG, NCryptSetProperty, NCryptSetProperty function [Security], OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, ncrypt/NCryptSetProperty, security.ncryptsetproperty_func
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ncrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SESSION_HEADER, *PSESSION_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ncrypt.dll
+api_name:
+-	NCryptSetProperty
+product: Windows
+targetos: Windows
+req.lib: Ncrypt.lib
+req.dll: Ncrypt.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # NCryptSetProperty function

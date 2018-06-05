@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wtsapi32.WTSEnumerateProcessesExW
+title: WTSEnumerateProcessesExW function
+author: windows-sdk-content
+description: Retrieves information about the active processes on the specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
+old-location: termserv\wtsenumerateprocessesex.htm
+old-project: TermServ
+ms.assetid: bc8a2550-cf89-4203-b96b-c750c0dff255
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: WTSEnumerateProcessesEx, WTSEnumerateProcessesEx function [Remote Desktop Services], WTSEnumerateProcessesExA, WTSEnumerateProcessesExW, termserv.wtsenumerateprocessesex, wtsapi32/WTSEnumerateProcessesEx, wtsapi32/WTSEnumerateProcessesExA, wtsapi32/WTSEnumerateProcessesExW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WTSEnumerateProcessesExW (Unicode) and WTSEnumerateProcessesExA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_VIRTUAL_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wtsapi32.dll
+-	Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
+api_name:
+-	WTSEnumerateProcessesEx
+-	WTSEnumerateProcessesExA
+-	WTSEnumerateProcessesExW
+product: Windows
+targetos: Windows
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WTSEnumerateProcessesExW function

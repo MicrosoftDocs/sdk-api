@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:taskschd._TASK_PROCESSTOKENSID
+title: "_TASK_PROCESSTOKENSID"
+author: windows-sdk-content
+description: Defines the types of process security identifier (SID) that can be used by tasks.
+old-location: taskschd\task_processtokensid_type.htm
+old-project: TaskSchd
+ms.assetid: 3a9243b9-f764-430b-8184-1fd97e74a5f1
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: TASK_PROCESSTOKENSID_DEFAULT, TASK_PROCESSTOKENSID_NONE, TASK_PROCESSTOKENSID_TYPE, TASK_PROCESSTOKENSID_TYPE enumeration [Task Scheduler], TASK_PROCESSTOKENSID_UNRESTRICTED, _TASK_PROCESSTOKENSID, taskschd.task_processtokensid_type, taskschd/TASK_PROCESSTOKENSID_DEFAULT, taskschd/TASK_PROCESSTOKENSID_NONE, taskschd/TASK_PROCESSTOKENSID_TYPE, taskschd/TASK_PROCESSTOKENSID_UNRESTRICTED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_PROCESSTOKENSID_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	taskschd.h
+api_name:
+-	TASK_PROCESSTOKENSID_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TASK_PROCESSTOKENSID enumeration

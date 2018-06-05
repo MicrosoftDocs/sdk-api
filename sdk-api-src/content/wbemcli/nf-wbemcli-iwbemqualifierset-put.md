@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemQualifierSet.Put
+title: IWbemQualifierSet::Put
+author: windows-sdk-content
+description: The IWbemQualifierSet::Put method writes the named qualifier and value. The new qualifier overwrites the previous value of the same name. If the qualifier does not exist, it is created.
+old-location: wmi\iwbemqualifierset_put.htm
+old-project: WmiSdk
+ms.assetid: ad602440-dc19-45cf-bf10-a30f514e00bb
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IWbemQualifierSet interface [Windows Management Instrumentation],Put method, IWbemQualifierSet.Put, IWbemQualifierSet::Put, Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation],IWbemQualifierSet interface, WBEM_FLAVOR_AMENDED, WBEM_FLAVOR_FLAG_PROPAGATE_TO_DERIVED_CLASS, WBEM_FLAVOR_FLAG_PROPAGATE_TO_INSTANCE, WBEM_FLAVOR_NOT_OVERRIDABLE, WBEM_FLAVOR_OVERRIDABLE, _hmm_iwbemqualifierset_put, wbemcli/IWbemQualifierSet::Put, wmi.iwbemqualifierset_put
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fastprox.dll
+-	Krnlprov.dll
+-	Ncprov.dll
+-	Wbemcore.dll
+api_name:
+-	IWbemQualifierSet.Put
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemQualifierSet::Put

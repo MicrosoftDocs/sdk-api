@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rpcasync._RPC_ASYNC_NOTIFICATION_INFO
+title: "_RPC_ASYNC_NOTIFICATION_INFO"
+author: windows-sdk-content
+description: Contains notification information for asynchronous remote procedure calls. This notification information can be configured for I/O completion ports (IOC), Windows asynchronous procedure calls (APC), Windows messaging, and Windows event notification.
+old-location: rpc\rpc_async_notification_info.htm
+old-project: Rpc
+ms.assetid: 253f3d23-4cc2-44b3-9d25-c7f26d73ed1e
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO union pointer [RPC], RPC_ASYNC_NOTIFICATION_INFO, RPC_ASYNC_NOTIFICATION_INFO union [RPC], _RPC_ASYNC_NOTIFICATION_INFO, rpc.rpc_async_notification_info, rpcasync/PRPC_ASYNC_NOTIFICATION_INFO, rpcasync/RPC_ASYNC_NOTIFICATION_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rpcasync.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_ASYNC_NOTIFICATION_INFO, *PRPC_ASYNC_NOTIFICATION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rpcasync.h
+api_name:
+-	RPC_ASYNC_NOTIFICATION_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RPC_ASYNC_NOTIFICATION_INFO structure

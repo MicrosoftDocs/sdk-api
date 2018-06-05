@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d11sdklayers.D3D11_INFO_QUEUE_FILTER_DESC
+title: D3D11_INFO_QUEUE_FILTER_DESC
+author: windows-sdk-content
+description: Allow or deny certain types of messages to pass through a filter.
+old-location: direct3d11\d3d11_info_queue_filter_desc.htm
+old-project: direct3d11
+ms.assetid: 265aa51a-7352-4d3a-b523-9e497e1e6a94
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 06785e69-a7e6-f154-5f99-7c38c12d6958, D3D11_INFO_QUEUE_FILTER_DESC, D3D11_INFO_QUEUE_FILTER_DESC structure [Direct3D 11], d3d11sdklayers/D3D11_INFO_QUEUE_FILTER_DESC, direct3d11.d3d11_info_queue_filter_desc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d11sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_INFO_QUEUE_FILTER_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11SDKLayers.h
+api_name:
+-	D3D11_INFO_QUEUE_FILTER_DESC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_INFO_QUEUE_FILTER_DESC structure

@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:spellcheckprovider.ISpellCheckProvider.get_LanguageTag
+title: ISpellCheckProvider::get_LanguageTag
+author: windows-sdk-content
+description: Gets the BCP47 language tag this instance of the spell checker supports.
+old-location: intl\ispellcheckprovider_languagetag.htm
+old-project: Intl
+ms.assetid: 74ED381D-3BF5-4E43-85DA-8CD53C821979
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],LanguageTag property, ISpellCheckProvider.LanguageTag, ISpellCheckProvider.get_LanguageTag, ISpellCheckProvider::LanguageTag, ISpellCheckProvider::get_LanguageTag, LanguageTag property [Internationalization for Windows Applications], LanguageTag property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_LanguageTag, intl.ispellcheckprovider_languagetag, spellcheckprovider/ISpellCheckProvider::LanguageTag, spellcheckprovider/ISpellCheckProvider::get_LanguageTag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spellcheckprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Spellcheckprovider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WORDLIST_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Spellcheckprovider.h
+api_name:
+-	ISpellCheckProvider.LanguageTag
+-	ISpellCheckProvider.get_LanguageTag
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpellCheckProvider::get_LanguageTag

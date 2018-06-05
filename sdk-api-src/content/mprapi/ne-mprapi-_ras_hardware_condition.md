@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mprapi._RAS_HARDWARE_CONDITION
+title: "_RAS_HARDWARE_CONDITION"
+author: windows-sdk-content
+description: The RAS_HARDWARE_CONDITION enumeration type specifies hardware status information about a given RAS port.
+old-location: rras\ras_hardware_condition.htm
+old-project: RRAS
+ms.assetid: 54a92552-9ad2-4a4a-b177-041157b445cd
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RAS_HARDWARE_CONDITION, RAS_HARDWARE_CONDITION enumeration [RAS], RAS_HARDWARE_FAILURE, RAS_HARDWARE_OPERATIONAL, _RAS_HARDWARE_CONDITION, _mpr_ras_hardware_condition, mprapi/RAS_HARDWARE_CONDITION, mprapi/RAS_HARDWARE_FAILURE, mprapi/RAS_HARDWARE_OPERATIONAL, rras.ras_hardware_condition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RAS_HARDWARE_CONDITION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mprapi.h
+api_name:
+-	RAS_HARDWARE_CONDITION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _RAS_HARDWARE_CONDITION enumeration

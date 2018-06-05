@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:comsvcs.IComTrackingInfoEvents
+title: IComTrackingInfoEvents
+author: windows-sdk-content
+description: Notifies the subscriber when the tracking information for a collection changes.
+old-location: cos\icomtrackinginfoevents.htm
+old-project: cossdk
+ms.assetid: bed709ca-5083-4073-a9f9-2b7b7f14cf87
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IComTrackingInfoEvents, IComTrackingInfoEvents interface [COM+], IComTrackingInfoEvents interface [COM+],described, _dtc_IComTrackingInfoEvents, comsvcs/IComTrackingInfoEvents, cos.icomtrackinginfoevents
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IComTrackingInfoEvents
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IComTrackingInfoEvents interface

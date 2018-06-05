@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:docobj.IOleDocumentView.SetInPlaceSite
+title: IOleDocumentView::SetInPlaceSite
+author: windows-sdk-content
+description: Associates a container's document view site with a document's view object.
+old-location: com\ioledocumentview_setinplacesite.htm
+old-project: com
+ms.assetid: 88de47c2-979b-4595-8a2f-d4ed1a3a7b6c
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IOleDocumentView interface [COM],SetInPlaceSite method, IOleDocumentView.SetInPlaceSite, IOleDocumentView::SetInPlaceSite, SetInPlaceSite, SetInPlaceSite method [COM], SetInPlaceSite method [COM],IOleDocumentView interface, _ole_ioledocumentview_setinplacesite, com.ioledocumentview_setinplacesite, docobj/IOleDocumentView::SetInPlaceSite
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: docobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DocObj.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOCMISC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DocObj.h
+api_name:
+-	IOleDocumentView.SetInPlaceSite
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IOleDocumentView::SetInPlaceSite

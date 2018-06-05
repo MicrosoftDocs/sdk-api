@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:dinputd.IDirectInputJoyConfig8
+title: IDirectInputJoyConfig8
+author: windows-sdk-content
+description: IDirectInputJoyConfig8 interface contains methods that allow hardware developers who are writing property sheets to write and read information to and from the registry.
+old-location: hid\idirectinputjoyconfig8.htm
+old-project: hid
+ms.assetid: baae99bf-a826-45d0-bab2-76a5736bd378
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: IDirectInputJoyConfig8, IDirectInputJoyConfig8 interface [Human Input Devices], IDirectInputJoyConfig8 interface [Human Input Devices],described, di_ref_75413607-c6c1-4341-892a-7f313a0ed9d5.xml, dinputd/IDirectInputJoyConfig8, hid.idirectinputjoyconfig8
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: dinputd.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dinputd.h
+api_name:
+-	IDirectInputJoyConfig8
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputJoyConfig8 interface

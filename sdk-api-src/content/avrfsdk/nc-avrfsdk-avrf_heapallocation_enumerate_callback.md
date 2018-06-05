@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:avrfsdk.AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
+title: AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
+author: windows-sdk-content
+description: Receives information related to heap allocations.
+old-location: winprog\avrf_heap_allocation_enumerate_callback.htm
+old-project: DevNotes
+ms.assetid: 614d49f5-d119-4afe-b821-30ee9cb29582
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK, AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback, AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback function [Windows API], avrfsdk/AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK, base.avrf_heap_allocation_enumerate_callback, winprog.avrf_heap_allocation_enumerate_callback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: avrfsdk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AVISUPERINDEX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Avrfsdk.h
+api_name:
+-	AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback function

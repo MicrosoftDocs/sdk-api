@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d2d1_1helper.Matrix4x4F.RotationX
+title: Matrix4x4F::RotationX
+author: windows-sdk-content
+description: Rotates the transform matrix around the X axis.
+old-location: direct2d\matrix4x4f_rotationx.htm
+old-project: Direct2D
+ms.assetid: 3F9B9CE2-18F4-4F73-9725-A10B84639817
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: Matrix4x4F interface [Direct2D],RotationX method, Matrix4x4F.RotationX, Matrix4x4F::RotationX, RotationX, RotationX method [Direct2D], RotationX method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::RotationX, direct2d.matrix4x4f_rotationx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d2d1_1helper.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_STROKE_STYLE_PROPERTIES1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d2d1_1helper.h
+api_name:
+-	Matrix4x4F.RotationX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # Matrix4x4F::RotationX

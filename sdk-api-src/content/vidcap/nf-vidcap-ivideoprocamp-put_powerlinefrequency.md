@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vidcap.IVideoProcAmp.put_PowerlineFrequency
+title: IVideoProcAmp::put_PowerlineFrequency
+author: windows-sdk-content
+description: The put_PowerlineFrequency method sets the camera's power line frequency setting. This setting enables the camera to perform anti-flicker processing.
+old-location: dshow\ivideoprocamp_put_powerlinefrequency.htm
+old-project: DirectShow
+ms.assetid: ef490cec-4f25-432a-b6a5-3e16044314e4
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],put_PowerlineFrequency method, IVideoProcAmp.put_PowerlineFrequency, IVideoProcAmp::put_PowerlineFrequency, IVideoProcAmpput_PowerlineFrequency, dshow.ivideoprocamp_put_powerlinefrequency, put_PowerlineFrequency, put_PowerlineFrequency method [DirectShow], put_PowerlineFrequency method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_PowerlineFrequency
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vidcap.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Vidcap.h
+api_name:
+-	IVideoProcAmp.put_PowerlineFrequency
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVideoProcAmp::put_PowerlineFrequency

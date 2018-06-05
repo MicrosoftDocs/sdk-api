@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:vbinterf.IVBGetControl
+title: IVBGetControl
+author: windows-sdk-content
+description: Provides access to all the controls on a Visual Basic container.
+old-location: com\ivbgetcontrol.htm
+old-project: com
+ms.assetid: 22309920-f32c-4639-8869-b915a337d86f
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IVBGetControl, IVBGetControl interface [COM], IVBGetControl interface [COM],described, _com_IVBGetControl, com.ivbgetcontrol, vbinterf/IVBGetControl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: vbinterf.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VbInterf.h
+api_name:
+-	IVBGetControl
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVBGetControl interface

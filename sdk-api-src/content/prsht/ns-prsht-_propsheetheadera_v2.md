@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:prsht._PROPSHEETHEADERA_V2
+title: "_PROPSHEETHEADERA_V2"
+author: windows-sdk-content
+description: Defines the frame and pages of a property sheet.
+old-location: controls\PROPSHEETHEADER.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetheader.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPPROPSHEETHEADERA_V2, LPPROPSHEETHEADER, LPPROPSHEETHEADER structure pointer [Windows Controls], PROPSHEETHEADER, PROPSHEETHEADER structure [Windows Controls], PROPSHEETHEADERA, PROPSHEETHEADERA_V2, PROPSHEETHEADERW, PSH_AEROWIZARD, PSH_DEFAULT, PSH_HASHELP, PSH_HEADER, PSH_HEADERBITMAP, PSH_MODELESS, PSH_NOAPPLYNOW, PSH_NOCONTEXTHELP, PSH_NOMARGIN, PSH_PROPSHEETPAGE, PSH_PROPTITLE, PSH_RESIZABLE, PSH_RTLREADING, PSH_STRETCHWATERMARK, PSH_USECALLBACK, PSH_USEHBMHEADER, PSH_USEHBMWATERMARK, PSH_USEHICON, PSH_USEHPLWATERMARK, PSH_USEICONID, PSH_USEPAGELANG, PSH_USEPSTARTPAGE, PSH_WATERMARK, PSH_WIZARD, PSH_WIZARD97, PSH_WIZARDCONTEXTHELP, PSH_WIZARDHASFINISH, PSH_WIZARD_LITE, _PROPSHEETHEADERA_V2, _win32_PROPSHEETHEADER, _win32_PROPSHEETHEADER_cpp, controls.PROPSHEETHEADER, controls._win32_PROPSHEETHEADER, prsht/LPPROPSHEETHEADER, prsht/PROPSHEETHEADER, prsht/PROPSHEETHEADERA, prsht/PROPSHEETHEADERW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: prsht.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PROPSHEETHEADERW (Unicode) and PROPSHEETHEADERA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPSHEETHEADERA_V2, *LPPROPSHEETHEADERA_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Prsht.h
+api_name:
+-	PROPSHEETHEADER
+-	PROPSHEETHEADERA
+-	PROPSHEETHEADERW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PROPSHEETHEADERA_V2 structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xenroll.ICEnroll4.addBlobPropertyToCertificate
+title: ICEnroll4::addBlobPropertyToCertificate
+author: windows-sdk-content
+description: Adds a BLOB property to a certificate.
+old-location: security\icenroll4_addblobpropertytocertificate.htm
+old-project: SecCrypto
+ms.assetid: a21e2636-d49f-4490-867c-2ea95d7fdc69
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CERT_DESCRIPTION_PROP_ID, CERT_FRIENDLY_NAME_PROP_ID, CERT_PVK_FILE_PROP_ID, CERT_RENEWAL_PROP_ID, CEnroll object [Security],addBlobPropertyToCertificate method, ICEnroll4 interface [Security],addBlobPropertyToCertificate method, ICEnroll4.addBlobPropertyToCertificate, ICEnroll4::addBlobPropertyToCertificate, addBlobPropertyToCertificate, addBlobPropertyToCertificate method [Security], addBlobPropertyToCertificate method [Security],CEnroll object, addBlobPropertyToCertificate method [Security],ICEnroll4 interface, security.icenroll4_addblobpropertytocertificate, xenroll/ICEnroll4::addBlobPropertyToCertificate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	ICEnroll4.addBlobPropertyToCertificate
+-	CEnroll.addBlobPropertyToCertificate
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # ICEnroll4::addBlobPropertyToCertificate

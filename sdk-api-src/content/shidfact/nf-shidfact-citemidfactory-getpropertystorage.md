@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shidfact.CItemIDFactory.GetPropertyStorage
+title: CItemIDFactory::GetPropertyStorage
+author: windows-sdk-content
+description: Gets a read only pointer to the serialized property storage that is used for storing metadata.
+old-location: shell\citemidfactory_getpropertystorage.htm
+old-project: shell
+ms.assetid: 3A3F0F28-C9E1-4F2E-9A02-C6A48BF3C204
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyStorage method, CItemIDFactory.GetPropertyStorage, CItemIDFactory::GetPropertyStorage, GetPropertyStorage, GetPropertyStorage method [Windows Shell], GetPropertyStorage method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertystorage, shidfact/CItemIDFactory::GetPropertyStorage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shidfact.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHELL_UI_COMPONENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shidfact.h
+api_name:
+-	CItemIDFactory.GetPropertyStorage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # CItemIDFactory::GetPropertyStorage

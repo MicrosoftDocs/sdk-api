@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mstask.IScheduledWorkItem.GetNextRunTime
+title: IScheduledWorkItem::GetNextRunTime
+author: windows-sdk-content
+description: Retrieves the next time the work item will run.
+old-location: taskschd\ischeduledworkitem_getnextruntime.htm
+old-project: TaskSchd
+ms.assetid: a53700f7-0e2c-413f-b7b3-64aa2e970f11
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetNextRunTime, GetNextRunTime method [Task Scheduler], GetNextRunTime method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetNextRunTime method, IScheduledWorkItem.GetNextRunTime, IScheduledWorkItem::GetNextRunTime, _msb_ischeduledworkitem_getnextruntime, mstask/IScheduledWorkItem::GetNextRunTime, taskschd.ischeduledworkitem_getnextruntime
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mstask.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mstask.dll
+api_name:
+-	IScheduledWorkItem.GetNextRunTime
+product: Windows
+targetos: Windows
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IScheduledWorkItem::GetNextRunTime

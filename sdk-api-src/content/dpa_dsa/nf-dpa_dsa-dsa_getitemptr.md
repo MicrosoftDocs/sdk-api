@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dpa_dsa.DSA_GetItemPtr
+title: DSA_GetItemPtr function
+author: windows-sdk-content
+description: Gets a pointer to an element from a dynamic structure array (DSA).
+old-location: controls\DSA_GetItemPtr.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\common\functions\dsa_getitemptr.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: DSA_GetItemPtr, DSA_GetItemPtr function [Windows Controls], _win32_DSA_GetItemPtr, _win32_DSA_GetItemPtr_cpp, controls.DSA_GetItemPtr, controls._win32_DSA_GetItemPtr, dpa_dsa/DSA_GetItemPtr
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dpa_dsa.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ComCtl32.dll
+api_name:
+-	DSA_GetItemPtr
+product: Windows
+targetos: Windows
+req.lib: Comctl32.lib
+req.dll: ComCtl32.dll (version 4.0 or later)
+req.irql: 
 ---
 
 # DSA_GetItemPtr function

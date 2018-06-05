@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mobsync.ISyncMgrEnumItems.Reset
+title: ISyncMgrEnumItems::Reset
+author: windows-sdk-content
+description: Instructs the enumerator to position itself at the beginning of the list of elements.
+old-location: shell\syncmgr_isyncmgrenumitems_reset.htm
+old-project: shell
+ms.assetid: 91265648-1294-423d-8e09-6d14eb0b6d9e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ISyncMgrEnumItems interface [Windows Shell],Reset method, ISyncMgrEnumItems.Reset, ISyncMgrEnumItems::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],ISyncMgrEnumItems interface, mobsync/ISyncMgrEnumItems::Reset, shell.syncmgr_isyncmgrenumitems_reset, syncmgr.isyncmgrenumitems_reset
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mobsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGRSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mobsync.dll
+api_name:
+-	ISyncMgrEnumItems.Reset
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ISyncMgrEnumItems::Reset

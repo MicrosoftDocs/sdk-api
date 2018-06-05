@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:adhoc.tagDOT11_ADHOC_AUTH_ALGORITHM
+title: tagDOT11_ADHOC_AUTH_ALGORITHM
+author: windows-sdk-content
+description: Specifies the authentication algorithm for user or machine authentication on an ad hoc network.
+old-location: nwifi\dot11_adhoc_auth_algorithm.htm
+old-project: NativeWiFi
+ms.assetid: 6e28fb8f-a429-4b6c-a057-737bbadb0a95
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: DOT11_ADHOC_AUTH_ALGORITHM, DOT11_ADHOC_AUTH_ALGORITHM enumeration [NativeWIFI], DOT11_ADHOC_AUTH_ALGO_80211_OPEN, DOT11_ADHOC_AUTH_ALGO_INVALID, DOT11_ADHOC_AUTH_ALGO_RSNA_PSK, adhoc/DOT11_ADHOC_AUTH_ALGORITHM, adhoc/DOT11_ADHOC_AUTH_ALGO_80211_OPEN, adhoc/DOT11_ADHOC_AUTH_ALGO_INVALID, adhoc/DOT11_ADHOC_AUTH_ALGO_RSNA_PSK, nwifi.dot11_adhoc_auth_algorithm, tagDOT11_ADHOC_AUTH_ALGORITHM
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: adhoc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Adhoc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOT11_ADHOC_AUTH_ALGORITHM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	adhoc.h
+api_name:
+-	DOT11_ADHOC_AUTH_ALGORITHM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagDOT11_ADHOC_AUTH_ALGORITHM enumeration

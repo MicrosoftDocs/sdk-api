@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:oledlg.tagOLEUICONVERTA
+title: tagOLEUICONVERTA
+author: windows-sdk-content
+description: Contains information that the OLE User Interface Library uses to initialize the Convert dialog box, and space for the library to return information when the dialog box is dismissed.
+old-location: com\oleuiconvert_struct.htm
+old-project: com
+ms.assetid: 79206f06-b219-48c2-9fb2-74ebc2dbac65
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPOLEUICONVERTA, *POLEUICONVERTA, CF_CONVERTONLY, CF_DISABLEACTIVATEAS, CF_DISABLEDISPLAYASICON, CF_HIDECHANGEICON, CF_SELECTACTIVATEAS, CF_SELECTCONVERTTO, CF_SETACTIVATEDEFAULT, CF_SETCONVERTDEFAULT, CF_SHOWHELPBUTTON, LPOLEUICONVERT, LPOLEUICONVERT structure pointer [COM], OLEUICONVERT, OLEUICONVERT structure [COM], OLEUICONVERTA, OLEUICONVERTW, POLEUICONVERT, POLEUICONVERT structure pointer [COM], _ole_OLEUICONVERT_str, com.oleuiconvert_struct, oledlg/LPOLEUICONVERT, oledlg/OLEUICONVERT, oledlg/OLEUICONVERTA, oledlg/OLEUICONVERTW, oledlg/POLEUICONVERT, tagOLEUICONVERTA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: oledlg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: OLEUICONVERTW (Unicode) and OLEUICONVERTA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OLEUICONVERTA, *POLEUICONVERTA, *LPOLEUICONVERTA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	OleDlg.h
+api_name:
+-	OLEUICONVERT
+-	OLEUICONVERTA
+-	OLEUICONVERTW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagOLEUICONVERTA structure

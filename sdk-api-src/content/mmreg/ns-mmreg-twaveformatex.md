@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:mmreg.tWAVEFORMATEX
+title: tWAVEFORMATEX
+author: windows-sdk-content
+description: The WAVEFORMATEX structure specifies the data format of a wave audio stream.
+old-location: audio\waveformatex.htm
+old-project: audio
+ms.assetid: f2f050d6-afe2-4647-932b-1287f4538702
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*LPWAVEFORMATEX, *NPWAVEFORMATEX, *PWAVEFORMATEX, WAVEFORMATEX, WAVEFORMATEX structure [Audio Devices], aud-prop_f0d9c096-fa87-43d5-812b-de4d08358342.xml, audio.waveformatex, mmreg/WAVEFORMATEX, tWAVEFORMATEX"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mmreg.h
+req.include-header: Mmsystem.h, Mmreg.h, Mmsystem.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WAVEFORMATEX, *PWAVEFORMATEX, *NPWAVEFORMATEX, *LPWAVEFORMATEX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mmreg.h
+api_name:
+-	WAVEFORMATEX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tWAVEFORMATEX structure

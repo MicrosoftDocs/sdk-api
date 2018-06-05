@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdatif.IGuideData.GetScheduleEntryProperties
+title: IGuideData::GetScheduleEntryProperties
+author: windows-sdk-content
+description: The GetScheduleEntryProperties method retrieves the properties for a specified schedule entry.
+old-location: mstv\iguidedata_getscheduleentryproperties.htm
+old-project: mstv
+ms.assetid: 7fe01a0b-8101-40a2-97ee-e0f5c9d8d1a0
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetScheduleEntryProperties, GetScheduleEntryProperties method [Microsoft TV Technologies], GetScheduleEntryProperties method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetScheduleEntryProperties method, IGuideData.GetScheduleEntryProperties, IGuideData::GetScheduleEntryProperties, IGuideDataGetScheduleEntryProperties, bdatif/IGuideData::GetScheduleEntryProperties, mstv.iguidedata_getscheduleentryproperties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdatif.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SmartCardApplication
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdatif.h
+api_name:
+-	IGuideData.GetScheduleEntryProperties
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IGuideData::GetScheduleEntryProperties

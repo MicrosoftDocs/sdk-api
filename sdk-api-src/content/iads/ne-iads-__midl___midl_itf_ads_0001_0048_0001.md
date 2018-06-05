@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0001
+title: "__MIDL___MIDL_itf_ads_0001_0048_0001"
+author: windows-sdk-content
+description: Specifies access rights assigned to an Active Directory object.
+old-location: adsi\ads_rights_enum.htm
+old-project: ADSI
+ms.assetid: ade64dd8-e08c-4f68-b3bf-ccc252272a99
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ADS_RIGHTS_ENUM, ADS_RIGHTS_ENUM enumeration [ADSI], ADS_RIGHT_ACCESS_SYSTEM_SECURITY, ADS_RIGHT_ACTRL_DS_LIST, ADS_RIGHT_DELETE, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_DELETE_CHILD, ADS_RIGHT_DS_DELETE_TREE, ADS_RIGHT_DS_LIST_OBJECT, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, ADS_RIGHT_GENERIC_ALL, ADS_RIGHT_GENERIC_EXECUTE, ADS_RIGHT_GENERIC_READ, ADS_RIGHT_GENERIC_WRITE, ADS_RIGHT_READ_CONTROL, ADS_RIGHT_SYNCHRONIZE, ADS_RIGHT_WRITE_DAC, ADS_RIGHT_WRITE_OWNER, __MIDL___MIDL_itf_ads_0001_0048_0001, _ds_ads_rights_enum, adsi.ads__rights__enum, adsi.ads_rights_enum, iads/ADS_RIGHTS_ENUM, iads/ADS_RIGHT_ACCESS_SYSTEM_SECURITY, iads/ADS_RIGHT_ACTRL_DS_LIST, iads/ADS_RIGHT_DELETE, iads/ADS_RIGHT_DS_CONTROL_ACCESS, iads/ADS_RIGHT_DS_CREATE_CHILD, iads/ADS_RIGHT_DS_DELETE_CHILD, iads/ADS_RIGHT_DS_DELETE_TREE, iads/ADS_RIGHT_DS_LIST_OBJECT, iads/ADS_RIGHT_DS_READ_PROP, iads/ADS_RIGHT_DS_SELF, iads/ADS_RIGHT_DS_WRITE_PROP, iads/ADS_RIGHT_GENERIC_ALL, iads/ADS_RIGHT_GENERIC_EXECUTE, iads/ADS_RIGHT_GENERIC_READ, iads/ADS_RIGHT_GENERIC_WRITE, iads/ADS_RIGHT_READ_CONTROL, iads/ADS_RIGHT_SYNCHRONIZE, iads/ADS_RIGHT_WRITE_DAC, iads/ADS_RIGHT_WRITE_OWNER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: IAccess.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_RIGHTS_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_RIGHTS_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_ads_0001_0048_0001 enumeration

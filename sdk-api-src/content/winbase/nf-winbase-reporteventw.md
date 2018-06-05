@@ -1,31 +1,54 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.ReportEventW
+title: ReportEventW function
+author: windows-sdk-content
+description: Writes an entry at the end of the specified event log.
+old-location: base\reportevent.htm
+old-project: EventLog
+ms.assetid: e39273c3-9e42-41a1-9ec1-1cdff2ab7b55
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: EVENTLOG_AUDIT_FAILURE, EVENTLOG_AUDIT_SUCCESS, EVENTLOG_ERROR_TYPE, EVENTLOG_INFORMATION_TYPE, EVENTLOG_SUCCESS, EVENTLOG_WARNING_TYPE, ReportEvent, ReportEvent function, ReportEventA, ReportEventW, _win32_reportevent, base.reportevent, winbase/ReportEvent, winbase/ReportEventA, winbase/ReportEventW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ReportEventW (Unicode) and ReportEventA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-EventLog-Legacy-l1-1-0.dll
+-	advapi32legacy.dll
+-	Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll
+-	Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
+api_name:
+-	ReportEvent
+-	ReportEventA
+-	ReportEventW
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ReportEventW function

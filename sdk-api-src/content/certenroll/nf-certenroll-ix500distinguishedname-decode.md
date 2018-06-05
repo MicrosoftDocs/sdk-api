@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX500DistinguishedName.Decode
+title: IX500DistinguishedName::Decode
+author: windows-sdk-content
+description: Initializes the object from a Unicode-encoded distinguished name.
+old-location: security\ix500distinguishedname_decode_method.htm
+old-project: SecCertEnroll
+ms.assetid: 52cc0595-b825-4bf3-805c-21afc468b91e
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: Decode, Decode method [Security], Decode method [Security],IX500DistinguishedName interface, IX500DistinguishedName interface [Security],Decode method, IX500DistinguishedName.Decode, IX500DistinguishedName::Decode, certenroll/IX500DistinguishedName::Decode, security.ix500distinguishedname_decode_method
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX500DistinguishedName.Decode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IX500DistinguishedName::Decode

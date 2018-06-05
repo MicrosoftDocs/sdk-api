@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IServicePartitionConfig.PartitionID
+title: IServicePartitionConfig::PartitionID
+author: windows-sdk-content
+description: Sets the GUID for the partition that is used for the enclosed work.
+old-location: cos\iservicepartitionconfig_partitionid.htm
+old-project: cossdk
+ms.assetid: 40480925-dfb6-40ea-a8ea-72659e359b47
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IServicePartitionConfig interface [COM+],PartitionID method, IServicePartitionConfig.PartitionID, IServicePartitionConfig::PartitionID, PartitionID, PartitionID method [COM+], PartitionID method [COM+],IServicePartitionConfig interface, _cos_IServicePartitionConfig_PartitionID, comsvcs/IServicePartitionConfig::PartitionID, cos.iservicepartitionconfig_partitionid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IServicePartitionConfig.PartitionID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IServicePartitionConfig::PartitionID

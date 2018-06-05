@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:devicetopology.IAudioMute.GetMute
+title: IAudioMute::GetMute
+author: windows-sdk-content
+description: The GetMute method gets the current state (enabled or disabled) of the mute control.
+old-location: coreaudio\iaudiomute_getmute.htm
+old-project: CoreAudio
+ms.assetid: 4b6421d3-f238-46f6-a74a-085a63bf5441
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetMute, GetMute method [Core Audio], GetMute method [Core Audio],IAudioMute interface, IAudioMute interface [Core Audio],GetMute method, IAudioMute.GetMute, IAudioMute::GetMute, IAudioMuteGetMute, coreaudio.iaudiomute_getmute, devicetopology/IAudioMute::GetMute
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IAudioMute.GetMute
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioMute::GetMute

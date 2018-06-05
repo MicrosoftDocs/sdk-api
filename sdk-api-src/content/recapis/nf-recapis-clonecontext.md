@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:recapis.CloneContext
+title: CloneContext function
+author: windows-sdk-content
+description: Creates a recognizer context that contains the same settings as the original. The new recognizer context does not include the ink or recognition results of the original.
+old-location: tablet\clonecontext.htm
+old-project: tablet
+ms.assetid: 0a16d012-1d88-4dfb-a1a0-44a842d9ee1d
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 0a16d012-1d88-4dfb-a1a0-44a842d9ee1d, CloneContext, CloneContext function [Tablet PC], recapis/CloneContext, tablet.clonecontext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: recapis.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	recapis.h
+api_name:
+-	CloneContext
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CloneContext function

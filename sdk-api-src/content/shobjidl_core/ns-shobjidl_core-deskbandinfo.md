@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shobjidl_core.DESKBANDINFO
+title: DESKBANDINFO
+author: windows-sdk-content
+description: Receives information about a band object. This structure is used with the deprecated IDeskBand::GetBandInfo method.
+old-location: shell\DESKBANDINFO.htm
+old-project: shell
+ms.assetid: f44ef8a7-b05d-4908-95eb-b07d085e0c29
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: DBIMF_ADDTOFRONT, DBIMF_ALWAYSGRIPPER, DBIMF_BKCOLOR, DBIMF_BREAK, DBIMF_DEBOSSED, DBIMF_FIXED, DBIMF_FIXEDBMP, DBIMF_NOGRIPPER, DBIMF_NOMARGINS, DBIMF_NORMAL, DBIMF_TOPALIGN, DBIMF_UNDELETEABLE, DBIMF_USECHEVRON, DBIMF_VARIABLEHEIGHT, DBIM_ACTUAL, DBIM_BKCOLOR, DBIM_INTEGRAL, DBIM_MAXSIZE, DBIM_MINSIZE, DBIM_MODEFLAGS, DBIM_TITLE, DESKBANDINFO, DESKBANDINFO structure [Windows Shell], _win32_DESKBANDINFO, shell.DESKBANDINFO, shobjidl_core/DESKBANDINFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DESKBANDINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	DESKBANDINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # DESKBANDINFO structure

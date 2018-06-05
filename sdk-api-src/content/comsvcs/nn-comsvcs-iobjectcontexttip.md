@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:comsvcs.IObjectContextTip
+title: IObjectContextTip
+author: windows-sdk-content
+description: Retrieves properties describing the Transaction Internet Protocol (TIP) transaction context.
+old-location: cos\iobjectcontexttip.htm
+old-project: cossdk
+ms.assetid: 2fe4de87-e7ea-4120-8e37-5a26d836fcea
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IObjectContextTip, IObjectContextTip interface [COM+], IObjectContextTip interface [COM+],described, _cos_IObjectContextTip, comsvcs/IObjectContextTip, cos.iobjectcontexttip
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IObjectContextTip
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IObjectContextTip interface

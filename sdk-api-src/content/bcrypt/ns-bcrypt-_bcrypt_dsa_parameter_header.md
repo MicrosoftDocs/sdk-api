@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bcrypt._BCRYPT_DSA_PARAMETER_HEADER
+title: "_BCRYPT_DSA_PARAMETER_HEADER"
+author: windows-sdk-content
+description: Used to contain parameter header information for a Digital Signature Algorithm (DSA) key.
+old-location: security\bcrypt_dsa_parameter_header.htm
+old-project: SecCNG
+ms.assetid: 96c20afb-e429-45b3-b817-88134914a26b
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: BCRYPT_DSA_PARAMETERS_MAGIC, BCRYPT_DSA_PARAMETER_HEADER, BCRYPT_DSA_PARAMETER_HEADER structure [Security], PBCRYPT_DSA_PARAMETER_HEADER, PBCRYPT_DSA_PARAMETER_HEADER structure pointer [Security], _BCRYPT_DSA_PARAMETER_HEADER, bcrypt/BCRYPT_DSA_PARAMETER_HEADER, bcrypt/PBCRYPT_DSA_PARAMETER_HEADER, security.bcrypt_dsa_parameter_header
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bcrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BCRYPT_DSA_PARAMETER_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bcrypt.h
+api_name:
+-	BCRYPT_DSA_PARAMETER_HEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BCRYPT_DSA_PARAMETER_HEADER structure

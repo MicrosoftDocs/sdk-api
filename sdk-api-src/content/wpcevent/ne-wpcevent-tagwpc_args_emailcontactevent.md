@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wpcevent.tagWPC_ARGS_EMAILCONTACTEVENT
+title: tagWPC_ARGS_EMAILCONTACTEVENT
+author: windows-sdk-content
+description: Indicates information about contacting someone by using email.
+old-location: parcon\wpc_args_emailcontactevent.htm
+old-project: parcon
+ms.assetid: 42c2b1c3-11f9-4706-bb29-c9bf985e81be
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WPC_ARGS_EMAILCONTACTEVENT, WPC_ARGS_EMAILCONTACTEVENT enumeration, WPC_ARGS_EMAILCONTACTEVENT_APPNAME, WPC_ARGS_EMAILCONTACTEVENT_APPVERSION, WPC_ARGS_EMAILCONTACTEVENT_CARGS, WPC_ARGS_EMAILCONTACTEVENT_EMAILACCOUNT, WPC_ARGS_EMAILCONTACTEVENT_NEWID, WPC_ARGS_EMAILCONTACTEVENT_NEWNAME, WPC_ARGS_EMAILCONTACTEVENT_OLDID, WPC_ARGS_EMAILCONTACTEVENT_OLDNAME, WPC_ARGS_EMAILCONTACTEVENT_REASON, parcon.wpc_args_emailcontactevent, tagWPC_ARGS_EMAILCONTACTEVENT, wpcevent/WPC_ARGS_EMAILCONTACTEVENT, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_APPNAME, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_APPVERSION, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_CARGS, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_EMAILACCOUNT, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_NEWID, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_NEWNAME, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_OLDID, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_OLDNAME, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_REASON
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wpcevent.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WPC_ARGS_EMAILCONTACTEVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wpcevent.h
+api_name:
+-	WPC_ARGS_EMAILCONTACTEVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagWPC_ARGS_EMAILCONTACTEVENT enumeration

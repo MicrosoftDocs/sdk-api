@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemtime.WBEMTime.GetFILETIME
+title: WBEMTime::GetFILETIME
+author: windows-sdk-content
+description: The GetFILETIME method gets the time as an MFC FILETIME structure.
+old-location: wmi\wbemtime_getfiletime.htm
+old-project: WmiSdk
+ms.assetid: 3debc121-ff7b-4e2c-9d77-502ee491cad8
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z, GetFILETIME, GetFILETIME method [Windows Management Instrumentation], GetFILETIME method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetFILETIME method, WBEMTime.GetFILETIME, WBEMTime::GetFILETIME, _hmm_wbemtime_getfiletime, wbemtime/WBEMTime::GetFILETIME, wmi.wbemtime_getfiletime"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemtime.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	WBEMTime.GetFILETIME
+-	?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WBEMTime::GetFILETIME

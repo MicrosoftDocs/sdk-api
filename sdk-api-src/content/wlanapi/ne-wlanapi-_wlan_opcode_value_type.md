@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wlanapi._WLAN_OPCODE_VALUE_TYPE
+title: "_WLAN_OPCODE_VALUE_TYPE"
+author: windows-sdk-content
+description: Specifies the origin of automatic configuration (auto config) settings.
+old-location: nwifi\wlan_opcode_value_type.htm
+old-project: NativeWiFi
+ms.assetid: 36f74ee5-499e-4d3d-ae32-a57c5e3b2eac
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_OPCODE_VALUE_TYPE, PWLAN_OPCODE_VALUE_TYPE, PWLAN_OPCODE_VALUE_TYPE enumeration pointer [NativeWIFI], WLAN_OPCODE_VALUE_TYPE, WLAN_OPCODE_VALUE_TYPE enumeration [NativeWIFI], _WLAN_OPCODE_VALUE_TYPE, nwifi.wlan_opcode_value_type, wlan_opcode_value_type_invalid, wlan_opcode_value_type_query_only, wlan_opcode_value_type_set_by_group_policy, wlan_opcode_value_type_set_by_user, wlanapi/PWLAN_OPCODE_VALUE_TYPE, wlanapi/WLAN_OPCODE_VALUE_TYPE, wlanapi/wlan_opcode_value_type_invalid, wlanapi/wlan_opcode_value_type_query_only, wlanapi/wlan_opcode_value_type_set_by_group_policy, wlanapi/wlan_opcode_value_type_set_by_user"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_OPCODE_VALUE_TYPE, *PWLAN_OPCODE_VALUE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wlanapi.h
+api_name:
+-	WLAN_OPCODE_VALUE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_OPCODE_VALUE_TYPE enumeration

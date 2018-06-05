@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcoreapi.UiaRaiseAsyncContentLoadedEvent
+title: UiaRaiseAsyncContentLoadedEvent function
+author: windows-sdk-content
+description: Called by a provider to notify the Microsoft UI Automation core that content is being loaded asynchronously.
+old-location: winauto\uiauto_UiaRaiseAsyncContentLoadedEventFunction.htm
+old-project: WinAuto
+ms.assetid: 19047933-40c4-4ddb-aa95-af5cfeec44b6
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: UiaRaiseAsyncContentLoadedEvent, UiaRaiseAsyncContentLoadedEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseAsyncContentLoadedEventFunction, uiauto_UiaRaiseAsyncContentLoadedEventFunction, uiautomationcoreapi/UiaRaiseAsyncContentLoadedEvent, winauto.uiauto_UiaRaiseAsyncContentLoadedEventFunction
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: uiautomationcoreapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Uiautomationcore.dll
+api_name:
+-	UiaRaiseAsyncContentLoadedEvent
+product: Windows
+targetos: Windows
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # UiaRaiseAsyncContentLoadedEvent function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netcon.IEnumNetSharingEveryConnection.Reset
+title: IEnumNetSharingEveryConnection::Reset
+author: windows-sdk-content
+description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration.
+old-location: ics\ienumnetsharingeveryconnection_reset.htm
+old-project: ICS
+ms.assetid: c41539b9-2596-4bb4-9194-fa9accde165d
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Reset method, IEnumNetSharingEveryConnection.Reset, IEnumNetSharingEveryConnection::Reset, Reset, Reset method [ICS/ICF], Reset method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_reset, ics.ienumnetsharingeveryconnection_reset, netcon/IEnumNetSharingEveryConnection::Reset
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netcon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Hnetcfg.dll
+api_name:
+-	IEnumNetSharingEveryConnection.Reset
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumNetSharingEveryConnection::Reset

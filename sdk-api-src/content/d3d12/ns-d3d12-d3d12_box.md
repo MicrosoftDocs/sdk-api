@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d12.D3D12_BOX
+title: D3D12_BOX
+author: windows-sdk-content
+description: Describes a 3D box.
+old-location: direct3d12\d3d12_box.htm
+old-project: direct3d12
+ms.assetid: DD3973CC-043E-486E-9403-B46D8B7DE644
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_BOX, D3D12_BOX structure, d3d12/D3D12_BOX, direct3d12.d3d12_box
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_BOX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D12.h
+api_name:
+-	D3D12_BOX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_BOX structure

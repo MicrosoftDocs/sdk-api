@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:atscpsipparser.IATSC_VCT.GetRecordMajorChannelNumber
+title: IATSC_VCT::GetRecordMajorChannelNumber
+author: windows-sdk-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+old-location: mstv\iatsc_vct_getrecordmajorchannelnumber.htm
+old-project: mstv
+ms.assetid: 103de5b5-e78c-49a2-81a7-e85eae2d79c1
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetRecordMajorChannelNumber, GetRecordMajorChannelNumber method [Microsoft TV Technologies], GetRecordMajorChannelNumber method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordMajorChannelNumber method, IATSC_VCT.GetRecordMajorChannelNumber, IATSC_VCT::GetRecordMajorChannelNumber, IATSC_VCTGetRecordMajorChannelNumber, atscpsipparser/IATSC_VCT::GetRecordMajorChannelNumber, mstv.iatsc_vct_getrecordmajorchannelnumber
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: atscpsipparser.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AsyncStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	atscpsipparser.h
+api_name:
+-	IATSC_VCT.GetRecordMajorChannelNumber
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IATSC_VCT::GetRecordMajorChannelNumber

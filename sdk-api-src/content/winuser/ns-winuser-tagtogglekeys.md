@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winuser.tagTOGGLEKEYS
+title: tagTOGGLEKEYS
+author: windows-sdk-content
+description: Contains information about the ToggleKeys accessibility feature.
+old-location: winauto\togglekeys.htm
+old-project: WinAuto
+ms.assetid: 85ebc8c2-ac0b-45f2-aee5-11ec4ba582b7
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: "*LPTOGGLEKEYS, LPTOGGLEKEYS, LPTOGGLEKEYS structure pointer [Windows Accessibility], TKF_AVAILABLE, TKF_CONFIRMHOTKEY, TKF_HOTKEYACTIVE, TKF_HOTKEYSOUND, TKF_INDICATOR, TKF_TOGGLEKEYSON, TOGGLEKEYS, TOGGLEKEYS structure [Windows Accessibility], _win32_TOGGLEKEYS_str, msaa.togglekeys, tagTOGGLEKEYS, winauto.togglekeys, winuser/LPTOGGLEKEYS, winuser/TOGGLEKEYS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TOGGLEKEYS, *LPTOGGLEKEYS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winuser.h
+api_name:
+-	TOGGLEKEYS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagTOGGLEKEYS structure

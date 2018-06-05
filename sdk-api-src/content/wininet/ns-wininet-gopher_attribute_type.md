@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wininet.GOPHER_ATTRIBUTE_TYPE
+title: GOPHER_ATTRIBUTE_TYPE
+author: windows-sdk-content
+description: Contains the relevant information of a single Gopher attribute for an object.
+old-location: wininet\gopher_attribute_type.htm
+old-project: WinInet
+ms.assetid: 01daae8c-9080-4a8d-9f73-3e364ca868fe
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPGOPHER_ATTRIBUTE_TYPE, GOPHER_ATTRIBUTE_ID_ABSTRACT, GOPHER_ATTRIBUTE_ID_ADMIN, GOPHER_ATTRIBUTE_ID_GEOG, GOPHER_ATTRIBUTE_ID_LOCATION, GOPHER_ATTRIBUTE_ID_MOD_DATE, GOPHER_ATTRIBUTE_ID_ORG, GOPHER_ATTRIBUTE_ID_PROVIDER, GOPHER_ATTRIBUTE_ID_RANGE, GOPHER_ATTRIBUTE_ID_SCORE, GOPHER_ATTRIBUTE_ID_SITE, GOPHER_ATTRIBUTE_ID_TIMEZONE, GOPHER_ATTRIBUTE_ID_TREEWALK, GOPHER_ATTRIBUTE_ID_TTL, GOPHER_ATTRIBUTE_ID_UNKNOWN, GOPHER_ATTRIBUTE_ID_VERSION, GOPHER_ATTRIBUTE_ID_VIEW, GOPHER_ATTRIBUTE_TYPE, GOPHER_ATTRIBUTE_TYPE structure [WinINet], GOPHER_CATEGORY_ID_ABSTRACT, GOPHER_CATEGORY_ID_ADMIN, GOPHER_CATEGORY_ID_ALL, GOPHER_CATEGORY_ID_INFO, GOPHER_CATEGORY_ID_UNKNOWN, GOPHER_CATEGORY_ID_VERONICA, GOPHER_CATEGORY_ID_VIEWS, LPGOPHER_ATTRIBUTE_TYPE, LPGOPHER_ATTRIBUTE_TYPE structure pointer [WinINet], _win32_gopher_attribute_type, wininet.gopher_attribute_type, wininet/GOPHER_ATTRIBUTE_TYPE, wininet/LPGOPHER_ATTRIBUTE_TYPE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wininet.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GOPHER_ATTRIBUTE_TYPE, *LPGOPHER_ATTRIBUTE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wininet.h
+api_name:
+-	GOPHER_ATTRIBUTE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # GOPHER_ATTRIBUTE_TYPE structure

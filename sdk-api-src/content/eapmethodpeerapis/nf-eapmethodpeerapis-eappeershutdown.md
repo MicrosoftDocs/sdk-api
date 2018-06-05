@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:eapmethodpeerapis.EapPeerShutdown
+title: EapPeerShutdown function
+author: windows-sdk-content
+description: Shuts down the EAP method and prepares to unload its corresponding DLL.
+old-location: eaphost\eappeershutdown.htm
+old-project: EAPHost
+ms.assetid: 7d08a349-fdfc-40bc-97f4-4429ff6ade7e
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: EapPeerShutdown, EapPeerShutdown function [EAPHost], eaphost.eappeershutdown, eapmethodpeerapis/EapPeerShutdown
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: eapmethodpeerapis.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	eapmethodpeerapis.h
+api_name:
+-	EapPeerShutdown
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # EapPeerShutdown function

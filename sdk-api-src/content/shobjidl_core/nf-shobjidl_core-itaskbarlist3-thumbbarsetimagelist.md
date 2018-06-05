@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.ITaskbarList3.ThumbBarSetImageList
+title: ITaskbarList3::ThumbBarSetImageList
+author: windows-sdk-content
+description: Specifies an image list that contains button images for a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.
+old-location: shell\ITaskbarList3_ThumbBarSetImageList.htm
+old-project: shell
+ms.assetid: 5c288b64-8630-42ca-9821-8e131f11f76d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarSetImageList method, ITaskbarList3.ThumbBarSetImageList, ITaskbarList3::ThumbBarSetImageList, ThumbBarSetImageList, ThumbBarSetImageList method [Windows Shell], ThumbBarSetImageList method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarSetImageList, shell.ITaskbarList3_ThumbBarSetImageList, shobjidl_core/ITaskbarList3::ThumbBarSetImageList
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Explorerframe.dll
+api_name:
+-	ITaskbarList3.ThumbBarSetImageList
+product: Windows
+targetos: Windows
+req.lib: Explorerframe.lib
+req.dll: Explorerframe.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ITaskbarList3::ThumbBarSetImageList

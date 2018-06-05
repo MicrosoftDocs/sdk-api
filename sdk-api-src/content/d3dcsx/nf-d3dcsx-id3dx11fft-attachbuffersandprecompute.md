@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3dcsx.ID3DX11FFT.AttachBuffersAndPrecompute
+title: ID3DX11FFT::AttachBuffersAndPrecompute
+author: windows-sdk-content
+description: Attaches buffers to an FFT context and performs any required precomputations.
+old-location: direct3d11\id3dx11fft_attachbuffersandprecompute.htm
+old-project: direct3d11
+ms.assetid: 50c714fc-91fb-4a7d-a430-40ff221a1a14
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: AttachBuffersAndPrecompute, AttachBuffersAndPrecompute method [Direct3D 11], AttachBuffersAndPrecompute method [Direct3D 11],ID3DX11FFT interface, ID3DX11FFT interface [Direct3D 11],AttachBuffersAndPrecompute method, ID3DX11FFT.AttachBuffersAndPrecompute, ID3DX11FFT::AttachBuffersAndPrecompute, d035d5bc-194b-3f37-2b54-5d5f4ae0fbc8, d3dcsx/ID3DX11FFT::AttachBuffersAndPrecompute, direct3d11.id3dx11fft_attachbuffersandprecompute
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3dcsx.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DX11_SCAN_OPCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3dcsx.lib
+-	d3dcsx.dll
+api_name:
+-	ID3DX11FFT.AttachBuffersAndPrecompute
+product: Windows
+targetos: Windows
+req.lib: D3dcsx.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3DX11FFT::AttachBuffersAndPrecompute

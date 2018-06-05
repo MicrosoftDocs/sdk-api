@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleacc.IAccessible.get_accHelp
+title: IAccessible::get_accHelp
+author: windows-sdk-content
+description: The IAccessible::get_accHelp method retrieves the Help property string of an object. Not all objects support this property.
+old-location: winauto\iaccessible_iaccessible__get_acchelp.htm
+old-project: WinAuto
+ms.assetid: ef541ef9-ae9f-4a8c-8dd1-f221eddb55c7
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: IAccessible interface [Windows Accessibility],get_accHelp method, IAccessible.get_accHelp, IAccessible::get_accHelp, _msaa_IAccessible_get_accHelp, get_accHelp, get_accHelp method [Windows Accessibility], get_accHelp method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_acchelp, oleacc/IAccessible::get_accHelp, winauto.iaccessible_iaccessible__get_acchelp
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oleacc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Oleacc.dll
+api_name:
+-	IAccessible.get_accHelp
+product: Windows
+targetos: Windows
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAccessible::get_accHelp

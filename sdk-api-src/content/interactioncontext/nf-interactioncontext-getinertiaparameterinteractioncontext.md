@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:interactioncontext.GetInertiaParameterInteractionContext
+title: GetInertiaParameterInteractionContext function
+author: windows-sdk-content
+description: Gets the inertia behavior of a manipulation (translation, rotation, scaling).
+old-location: input_intcontext\getinertiaparameterinteractioncontext.htm
+old-project: Input_IntContext
+ms.assetid: e3ae71e2-be61-49c1-82a1-2fa82fe9a7ba
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: GetInertiaParameterInteractionContext, GetInertiaParameterInteractionContext function, input_intcontext.getinertiaparameterinteractioncontext, interactioncontext.getinertiaparameterinteractioncontext, interactioncontext/GetInertiaParameterInteractionContext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: interactioncontext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MOUSE_WHEEL_PARAMETER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ninput.dll
+-	API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+-	IE_Shims.dll
+api_name:
+-	GetInertiaParameterInteractionContext
+product: Windows
+targetos: Windows
+req.lib: Ninput.lib
+req.dll: Ninput.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # GetInertiaParameterInteractionContext function

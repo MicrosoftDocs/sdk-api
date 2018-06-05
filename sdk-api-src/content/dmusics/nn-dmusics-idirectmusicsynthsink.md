@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:dmusics.IDirectMusicSynthSink
+title: IDirectMusicSynthSink
+author: windows-sdk-content
+description: The IDirectMusicSynthSink interface is now largely obsolete and is supported only by versions of DirectMusic before DirectX 8.
+old-location: audio\idirectmusicsynthsink.htm
+old-project: audio
+ms.assetid: 11944933-cd95-4979-82b2-2c3875b221b3
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IDirectMusicSynthSink, IDirectMusicSynthSink interface [Audio Devices], IDirectMusicSynthSink interface [Audio Devices],described, audio.idirectmusicsynthsink, audmp-routines_9b9d541e-f841-40e1-8962-d93ec6650465.xml, dmusics/IDirectMusicSynthSink
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: dmusics.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dmusics.h
+api_name:
+-	IDirectMusicSynthSink
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectMusicSynthSink interface

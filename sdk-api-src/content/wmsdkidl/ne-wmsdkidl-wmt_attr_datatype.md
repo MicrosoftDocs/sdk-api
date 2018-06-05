@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wmsdkidl.WMT_ATTR_DATATYPE
+title: WMT_ATTR_DATATYPE
+author: windows-sdk-content
+description: The WMT_ATTR_DATATYPE enumeration defines the data type for a variably typed property.
+old-location: wmformat\wmt_attr_datatype.htm
+old-project: wmformat
+ms.assetid: 2a2756f9-2d76-48c9-bbea-35ee33a39918
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WMT_ATTR_DATATYPE, WMT_ATTR_DATATYPE enumeration [windows Media Format], WMT_TYPE_BINARY, WMT_TYPE_BOOL, WMT_TYPE_DWORD, WMT_TYPE_GUID, WMT_TYPE_QWORD, WMT_TYPE_STRING, WMT_TYPE_WORD, wmformat.wmt_attr_datatype, wmsdkidl/WMT_ATTR_DATATYPE, wmsdkidl/WMT_TYPE_BINARY, wmsdkidl/WMT_TYPE_BOOL, wmsdkidl/WMT_TYPE_DWORD, wmsdkidl/WMT_TYPE_GUID, wmsdkidl/WMT_TYPE_QWORD, wmsdkidl/WMT_TYPE_STRING, wmsdkidl/WMT_TYPE_WORD
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMT_ATTR_DATATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wmsdkidl.h
+api_name:
+-	WMT_ATTR_DATATYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WMT_ATTR_DATATYPE enumeration

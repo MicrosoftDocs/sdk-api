@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:inked.IInkEdit.put_SelRTF
+title: IInkEdit::put_SelRTF
+author: windows-sdk-content
+description: Gets or sets the currently selected Rich Text Format (RTF) formatted text in the InkEdit control (run time only).
+old-location: tablet\inkedit_selrtf.htm
+old-project: tablet
+ms.assetid: 85dc3b6d-54fa-4f23-9d36-03becff886cf
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IInkEdit interface [Tablet PC],SelRTF property, IInkEdit.SelRTF, IInkEdit.put_SelRTF, IInkEdit::SelRTF, IInkEdit::get_SelRTF, IInkEdit::put_SelRTF, InkEdit.get_SelRTF, InkEdit.put_SelRTF, SelRTF property [Tablet PC], SelRTF property [Tablet PC],IInkEdit interface, get_SelRTF, inked/IInkEdit::SelRTF, inked/IInkEdit::get_SelRTF, inked/IInkEdit::put_SelRTF, put_SelRTF, tablet.inkedit_selrtf
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: inked.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SelAlignmentConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkEd.dll
+-	InkEd.dll.dll
+api_name:
+-	IInkEdit.SelRTF
+-	IInkEdit.get_SelRTF
+-	IInkEdit.put_SelRTF
+-	InkEdit.get_SelRTF
+-	InkEdit.put_SelRTF
+product: Windows
+targetos: Windows
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IInkEdit::put_SelRTF

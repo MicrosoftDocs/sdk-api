@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.SetProperty
+title: IPortableDeviceConnector::SetProperty
+author: windows-sdk-content
+description: Sets the given property on the MTP/Bluetooth Bus Enumerator device.
+old-location: wpdsdk\iportabledeviceconnector_setproperty.htm
+old-project: wpd_sdk
+ms.assetid: 045268e1-3e91-41a9-a14e-eb20b8a707e4
+ms.author: windowssdkdev
+ms.date: 04/11/2018
+ms.keywords: IPortableDeviceConnector interface [Windows Portable Devices SDK],SetProperty method, IPortableDeviceConnector.SetProperty, IPortableDeviceConnector::SetProperty, SetProperty, SetProperty method [Windows Portable Devices SDK], SetProperty method [Windows Portable Devices SDK],IPortableDeviceConnector interface, devpkey/IPortableDeviceConnector::SetProperty, portabledeviceconnectapi/IPortableDeviceConnector::SetProperty, wpdsdk.iportabledeviceconnector_setproperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: portabledeviceconnectapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Portabledeviceconnectapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceGuids.lib
+-	PortableDeviceGuids.dll
+api_name:
+-	IPortableDeviceConnector.SetProperty
+product: Windows
+targetos: Windows
+req.lib: PortableDeviceGuids.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPortableDeviceConnector::SetProperty

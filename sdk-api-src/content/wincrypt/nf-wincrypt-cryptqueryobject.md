@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CryptQueryObject
+title: CryptQueryObject function
+author: windows-sdk-content
+description: Retrieves information about the contents of a cryptography API object, such as a certificate, a certificate revocation list, or a certificate trust list.
+old-location: security\cryptqueryobject.htm
+old-project: SecCrypto
+ms.assetid: d882f2b0-0f0a-41c7-afca-a232dc00797b
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CERT_QUERY_CONTENT_CERT, CERT_QUERY_CONTENT_CERT_PAIR, CERT_QUERY_CONTENT_CRL, CERT_QUERY_CONTENT_CTL, CERT_QUERY_CONTENT_FLAG_ALL, CERT_QUERY_CONTENT_FLAG_CERT, CERT_QUERY_CONTENT_FLAG_CERT_PAIR, CERT_QUERY_CONTENT_FLAG_CRL, CERT_QUERY_CONTENT_FLAG_CTL, CERT_QUERY_CONTENT_FLAG_PFX, CERT_QUERY_CONTENT_FLAG_PFX_AND_LOAD, CERT_QUERY_CONTENT_FLAG_PKCS10, CERT_QUERY_CONTENT_FLAG_PKCS7_SIGNED, CERT_QUERY_CONTENT_FLAG_PKCS7_SIGNED_EMBED, CERT_QUERY_CONTENT_FLAG_PKCS7_UNSIGNED, CERT_QUERY_CONTENT_FLAG_SERIALIZED_CERT, CERT_QUERY_CONTENT_FLAG_SERIALIZED_CRL, CERT_QUERY_CONTENT_FLAG_SERIALIZED_CTL, CERT_QUERY_CONTENT_FLAG_SERIALIZED_STORE, CERT_QUERY_CONTENT_PFX, CERT_QUERY_CONTENT_PFX_AND_LOAD, CERT_QUERY_CONTENT_PKCS10, CERT_QUERY_CONTENT_PKCS7_SIGNED, CERT_QUERY_CONTENT_PKCS7_SIGNED_EMBED, CERT_QUERY_CONTENT_PKCS7_UNSIGNED, CERT_QUERY_CONTENT_SERIALIZED_CERT, CERT_QUERY_CONTENT_SERIALIZED_CRL, CERT_QUERY_CONTENT_SERIALIZED_CTL, CERT_QUERY_CONTENT_SERIALIZED_STORE, CERT_QUERY_FORMAT_ASN_ASCII_HEX_ENCODED, CERT_QUERY_FORMAT_BASE64_ENCODED, CERT_QUERY_FORMAT_BINARY, CERT_QUERY_FORMAT_FLAG_ALL, CERT_QUERY_FORMAT_FLAG_ASN_ASCII_HEX_ENCODED, CERT_QUERY_FORMAT_FLAG_BASE64_ENCODED, CERT_QUERY_FORMAT_FLAG_BINARY, CERT_QUERY_OBJECT_BLOB, CERT_QUERY_OBJECT_FILE, CryptQueryObject, CryptQueryObject function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_cryptqueryobject, security.cryptqueryobject, wincrypt/CryptQueryObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CryptQueryObject
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CryptQueryObject function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmaccess._GROUP_INFO_3
+title: "_GROUP_INFO_3"
+author: windows-sdk-content
+description: The GROUP_INFO_3 structure contains information about a global group, including name, security identifier (SID), and resource attributes.
+old-location: netmgmt\group_info_3_str.htm
+old-project: NetMgmt
+ms.assetid: aa0c3b6e-ab27-48b9-a37f-5cceb63c70fd
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PGROUP_INFO_3, GROUP_INFO_3, GROUP_INFO_3 structure [Network Management], PGROUP_INFO_3, PGROUP_INFO_3 structure pointer [Network Management], _GROUP_INFO_3, _win32_group_info_3_str, lmaccess/GROUP_INFO_3, lmaccess/PGROUP_INFO_3, netmgmt.group_info_3_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmaccess.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GROUP_INFO_3, *PGROUP_INFO_3
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmaccess.h
+api_name:
+-	GROUP_INFO_3
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _GROUP_INFO_3 structure

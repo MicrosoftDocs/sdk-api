@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmaccess._NET_VALIDATE_PERSISTED_FIELDS
+title: "_NET_VALIDATE_PERSISTED_FIELDS"
+author: windows-sdk-content
+description: The NET_VALIDATE_PERSISTED_FIELDS structure contains information about a user's password properties.
+old-location: netmgmt\net_validate_persisted_fields.htm
+old-project: NetMgmt
+ms.assetid: 1e6ea28a-a007-4cd1-b5d6-686bcf019fa1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PNET_VALIDATE_PERSISTED_FIELDS, NET_VALIDATE_BAD_PASSWORD_COUNT, NET_VALIDATE_BAD_PASSWORD_TIME, NET_VALIDATE_LOCKOUT_TIME, NET_VALIDATE_PASSWORD_HISTORY, NET_VALIDATE_PASSWORD_HISTORY_LENGTH, NET_VALIDATE_PASSWORD_LAST_SET, NET_VALIDATE_PERSISTED_FIELDS, NET_VALIDATE_PERSISTED_FIELDS structure [Network Management], PNET_VALIDATE_PERSISTED_FIELDS, PNET_VALIDATE_PERSISTED_FIELDS structure pointer [Network Management], _NET_VALIDATE_PERSISTED_FIELDS, lmaccess/NET_VALIDATE_PERSISTED_FIELDS, lmaccess/PNET_VALIDATE_PERSISTED_FIELDS, netmgmt.net_validate_persisted_fields"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmaccess.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_VALIDATE_PERSISTED_FIELDS, *PNET_VALIDATE_PERSISTED_FIELDS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmaccess.h
+api_name:
+-	NET_VALIDATE_PERSISTED_FIELDS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _NET_VALIDATE_PERSISTED_FIELDS structure

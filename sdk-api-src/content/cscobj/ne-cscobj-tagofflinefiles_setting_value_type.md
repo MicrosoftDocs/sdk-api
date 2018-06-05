@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:cscobj.tagOFFLINEFILES_SETTING_VALUE_TYPE
+title: tagOFFLINEFILES_SETTING_VALUE_TYPE
+author: windows-sdk-content
+description: Identifies the data type returned by the IOfflineFilesSetting::GetValueType method.
+old-location: of\offlinefiles_setting_value_type.htm
+old-project: OfflineFiles
+ms.assetid: 37569197-efd3-4e4e-953a-3bbd2cb07d5a
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: OFFLINEFILES_SETTING_VALUE_2DIM_ARRAY_BSTR_BSTR, OFFLINEFILES_SETTING_VALUE_2DIM_ARRAY_BSTR_UI4, OFFLINEFILES_SETTING_VALUE_BSTR, OFFLINEFILES_SETTING_VALUE_BSTR_DBLNULTERM, OFFLINEFILES_SETTING_VALUE_TYPE, OFFLINEFILES_SETTING_VALUE_TYPE enumeration [Offline Files], OFFLINEFILES_SETTING_VALUE_UI4, cscobj/OFFLINEFILES_SETTING_VALUE_2DIM_ARRAY_BSTR_BSTR, cscobj/OFFLINEFILES_SETTING_VALUE_2DIM_ARRAY_BSTR_UI4, cscobj/OFFLINEFILES_SETTING_VALUE_BSTR, cscobj/OFFLINEFILES_SETTING_VALUE_BSTR_DBLNULTERM, cscobj/OFFLINEFILES_SETTING_VALUE_TYPE, cscobj/OFFLINEFILES_SETTING_VALUE_UI4, of.offlinefiles_setting_value_type, tagOFFLINEFILES_SETTING_VALUE_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFFLINEFILES_SETTING_VALUE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CscObj.h
+api_name:
+-	OFFLINEFILES_SETTING_VALUE_TYPE
+product: Windows
+targetos: Windows
+req.lib: CscApi.lib
+req.dll: CscApi.dll
+req.irql: 
 ---
 
 # tagOFFLINEFILES_SETTING_VALUE_TYPE enumeration

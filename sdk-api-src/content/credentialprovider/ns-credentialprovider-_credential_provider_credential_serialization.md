@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:credentialprovider._CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
+title: "_CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION"
+author: windows-sdk-content
+description: Contains details about a credential.
+old-location: shell\CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION.htm
+old-project: shell
+ms.assetid: 55ff9be3-490d-4f82-92a0-3551ccbcaade
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION structure [Windows Shell], _CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, _shell_CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, shell.CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: credentialprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Credentialprovider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Credentialprovider.h
+api_name:
+-	CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION structure

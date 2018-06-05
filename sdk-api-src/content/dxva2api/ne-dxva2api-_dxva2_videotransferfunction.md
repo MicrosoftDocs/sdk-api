@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dxva2api._DXVA2_VideoTransferFunction
+title: "_DXVA2_VideoTransferFunction"
+author: windows-sdk-content
+description: Specifies the conversion function from linear RGB to non-linear RGB (R'G'B').
+old-location: mf\dxva2_videotransferfunction.htm
+old-project: medfound
+ms.assetid: 43b99d5f-ea28-4de2-b118-e2277f283dee
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 43b99d5f-ea28-4de2-b118-e2277f283dee, DXVA2_VideoTransFuncMask, DXVA2_VideoTransFunc_10, DXVA2_VideoTransFunc_18, DXVA2_VideoTransFunc_20, DXVA2_VideoTransFunc_22, DXVA2_VideoTransFunc_240M, DXVA2_VideoTransFunc_28, DXVA2_VideoTransFunc_709, DXVA2_VideoTransFunc_Unknown, DXVA2_VideoTransFunc_sRGB, DXVA2_VideoTransferFunction, DXVA2_VideoTransferFunction enumeration [Media Foundation], _DXVA2_VideoTransferFunction, dxva2api/DXVA2_VideoTransFuncMask, dxva2api/DXVA2_VideoTransFunc_10, dxva2api/DXVA2_VideoTransFunc_18, dxva2api/DXVA2_VideoTransFunc_20, dxva2api/DXVA2_VideoTransFunc_22, dxva2api/DXVA2_VideoTransFunc_240M, dxva2api/DXVA2_VideoTransFunc_28, dxva2api/DXVA2_VideoTransFunc_709, dxva2api/DXVA2_VideoTransFunc_Unknown, dxva2api/DXVA2_VideoTransFunc_sRGB, dxva2api/DXVA2_VideoTransferFunction, mf.dxva2_videotransferfunction
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxva2api.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA2_VideoTransferFunction
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxva2api.h
+api_name:
+-	DXVA2_VideoTransferFunction
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVA2_VideoTransferFunction enumeration

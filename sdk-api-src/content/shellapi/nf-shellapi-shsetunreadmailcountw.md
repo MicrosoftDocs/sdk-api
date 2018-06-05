@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shellapi.SHSetUnreadMailCountW
+title: SHSetUnreadMailCountW function
+author: windows-sdk-content
+description: Stores the current user's unread message count for a specified email account in the registry.
+old-location: shell\SHSetUnreadMailCount.htm
+old-project: shell
+ms.assetid: 4a0e1ade-8df1-41b5-b6ea-dad427b50f5a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHSetUnreadMailCount, SHSetUnreadMailCount function [Windows Shell], SHSetUnreadMailCountW, _shell_SHSetUnreadMailCount, shell.SHSetUnreadMailCount, shellapi/SHSetUnreadMailCount, shellapi/SHSetUnreadMailCountW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shellapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SHSetUnreadMailCountW (Unicode)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHSTOCKICONID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+api_name:
+-	SHSetUnreadMailCount
+-	SHSetUnreadMailCountW
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.60 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SHSetUnreadMailCountW function

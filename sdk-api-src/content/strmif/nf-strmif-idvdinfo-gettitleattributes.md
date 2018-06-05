@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:strmif.IDvdInfo.GetTitleAttributes
+title: IDvdInfo::GetTitleAttributes
+author: windows-sdk-content
+description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves attributes of all video, audio, and subpicture streams for the specified title, including menus.
+old-location: dshow\idvdinfo_gettitleattributes.htm
+old-project: DirectShow
+ms.assetid: 012e3860-dfa2-45e8-ab37-2a3a4b2f7f9d
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetTitleAttributes, GetTitleAttributes method [DirectShow], GetTitleAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTitleAttributes method, IDvdInfo.GetTitleAttributes, IDvdInfo::GetTitleAttributes, IDvdInfoGetTitleAttributes, dshow.idvdinfo_gettitleattributes, strmif/IDvdInfo::GetTitleAttributes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmif.h
+api_name:
+-	IDvdInfo.GetTitleAttributes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IDvdInfo::GetTitleAttributes

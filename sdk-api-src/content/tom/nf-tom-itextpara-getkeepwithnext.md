@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tom.ITextPara.GetKeepWithNext
+title: ITextPara::GetKeepWithNext
+author: windows-sdk-content
+description: Determines whether page breaks are allowed between paragraphs in the range.
+old-location: controls\ITextPara_GetKeepWithNext.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkeepwithnext.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetKeepWithNext, GetKeepWithNext method [Windows Controls], GetKeepWithNext method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetKeepWithNext method, ITextPara.GetKeepWithNext, ITextPara::GetKeepWithNext, _win32_ITextPara_GetKeepWithNext, _win32_ITextPara_GetKeepWithNext_cpp, controls.ITextPara_GetKeepWithNext, controls._win32_ITextPara_GetKeepWithNext, tom/ITextPara::GetKeepWithNext, tomFalse, tomTrue, tomUndefined
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextPara.GetKeepWithNext
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextPara::GetKeepWithNext

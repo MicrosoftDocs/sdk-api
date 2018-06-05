@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msctf.__MIDL_ITfRange_0001
+title: "__MIDL_ITfRange_0001"
+author: windows-sdk-content
+description: Elements of the TfGravity enumeration specify the type of gravity associated with the anchor of an ITfRange object.
+old-location: tsf\tfgravity.htm
+old-project: TSF
+ms.assetid: 844925e7-4c3e-41e7-b560-586c85530cb4
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: TF_GRAVITY_BACKWARD, TF_GRAVITY_FORWARD, TfGravity, TfGravity enumeration [Text Services Framework], __MIDL_ITfRange_0001, _tsf_tfgravity_ref, msctf/TF_GRAVITY_BACKWARD, msctf/TF_GRAVITY_FORWARD, msctf/TfGravity, tsf.tfgravity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: MsClus.tlb
+tech.root: 
+req.typenames: TfGravity
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msctf.h
+api_name:
+-	TfGravity
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL_ITfRange_0001 enumeration

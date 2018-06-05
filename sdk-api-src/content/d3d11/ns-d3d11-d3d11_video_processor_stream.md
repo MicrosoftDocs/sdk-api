@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_STREAM
+title: D3D11_VIDEO_PROCESSOR_STREAM
+author: windows-sdk-content
+description: Contains stream-level data for the ID3D11VideoContext::VideoProcessorBlt method.
+old-location: mf\d3d11_video_processor_stream.htm
+old-project: medfound
+ms.assetid: B861D00B-2FF2-4F8F-AD40-0EE6A9706A0C
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3D11_VIDEO_PROCESSOR_STREAM, D3D11_VIDEO_PROCESSOR_STREAM structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_STREAM, mf.d3d11_video_processor_stream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VIDEO_PROCESSOR_STREAM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11.h
+api_name:
+-	D3D11_VIDEO_PROCESSOR_STREAM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_VIDEO_PROCESSOR_STREAM structure

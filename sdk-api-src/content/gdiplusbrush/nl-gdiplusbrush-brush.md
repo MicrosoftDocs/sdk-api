@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NL:gdiplusbrush.Brush
+title: Brush
+author: windows-sdk-content
+description: The Brush class is an abstract base class that defines a Brush object. A Brush object is used to paint the interior of graphics shapes, such as rectangles, ellipses, pies, polygons, and paths.
+old-location: gdiplus\_gdiplus_CLASS_Brush_Class.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brush.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: Brush, Brush class [GDI+], Brush class [GDI+],described, _gdiplus_CLASS_Brush_Class, gdiplus._gdiplus_CLASS_Brush_Class, gdiplusbrush/Brush
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: class
+req.header: gdiplusbrush.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KnownGamingPrivileges
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	gdiplusbrush.h
+api_name:
+-	Brush
+product: Windows
+targetos: Windows
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
+req.product: GDI+ 1.0
 ---
 
 # Brush class

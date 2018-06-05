@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msopc.IOpcSigningOptions.SetTimeFormat
+title: IOpcSigningOptions::SetTimeFormat
+author: windows-sdk-content
+description: Sets the format of the string retrieved by the IOpcDigitalSignature::GetSigningTime method.
+old-location: opc\iopcsigningoptions_settimeformat.htm
+old-project: OPC
+ms.assetid: 3f8c1dbe-6347-4013-bda6-5e08c9d6921d
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetTimeFormat method, IOpcSigningOptions.SetTimeFormat, IOpcSigningOptions::SetTimeFormat, SetTimeFormat, SetTimeFormat method [Open Packaging Conventions], SetTimeFormat method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetTimeFormat, opc.iopcsigningoptions_settimeformat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OpcDigitalSignature.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPC_SIGNATURE_TIME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msopc.h
+api_name:
+-	IOpcSigningOptions.SetTimeFormat
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOpcSigningOptions::SetTimeFormat

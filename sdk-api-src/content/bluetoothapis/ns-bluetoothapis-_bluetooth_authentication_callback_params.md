@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bluetoothapis._BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS
+title: "_BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS"
+author: windows-sdk-content
+description: BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure contains specific configuration information about the Bluetooth device responding to an authentication request.
+old-location: bluetooth\bluetooth_authentication_callback_params.htm
+old-project: Bluetooth
+ms.assetid: e9c703c1-7981-4c34-a96e-0123d3655e55
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure [Bluetooth], PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure pointer [Bluetooth], _BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, bluetooth.bluetooth_authentication_callback_params, bluetoothapis/BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, bluetoothapis/PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bluetoothapis.h
+req.include-header: Bthsdpdef.h, BluetoothAPIs.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, *PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	BluetoothAPIs.h
+api_name:
+-	BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure

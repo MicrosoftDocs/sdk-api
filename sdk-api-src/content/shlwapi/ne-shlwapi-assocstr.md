@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shlwapi.ASSOCSTR
+title: ASSOCSTR
+author: windows-sdk-content
+description: Used by IQueryAssociations::GetString to define the type of string that is to be returned.
+old-location: shell\ASSOCSTR_str.htm
+old-project: shell
+ms.assetid: b5fd3d25-3630-4dd8-acd2-d2e4ed571604
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ASSOCSTR, ASSOCSTR enumeration [Windows Shell], ASSOCSTR_APPICONREFERENCE, ASSOCSTR_APPID, ASSOCSTR_APPPUBLISHER, ASSOCSTR_COMMAND, ASSOCSTR_CONTENTTYPE, ASSOCSTR_DDEAPPLICATION, ASSOCSTR_DDECOMMAND, ASSOCSTR_DDEIFEXEC, ASSOCSTR_DDETOPIC, ASSOCSTR_DEFAULTICON, ASSOCSTR_DELEGATEEXECUTE, ASSOCSTR_DROPTARGET, ASSOCSTR_EXECUTABLE, ASSOCSTR_FRIENDLYAPPNAME, ASSOCSTR_FRIENDLYDOCNAME, ASSOCSTR_INFOTIP, ASSOCSTR_MAX, ASSOCSTR_NOOPEN, ASSOCSTR_PROGID, ASSOCSTR_QUICKTIP, ASSOCSTR_SHELLEXTENSION, ASSOCSTR_SHELLNEWVALUE, ASSOCSTR_SUPPORTED_URI_PROTOCOLS, ASSOCSTR_TILEINFO, _win32_ASSOCSTR_str, shell.ASSOCSTR_str, shlwapi/ASSOCSTR, shlwapi/ASSOCSTR_APPICONREFERENCE, shlwapi/ASSOCSTR_APPID, shlwapi/ASSOCSTR_APPPUBLISHER, shlwapi/ASSOCSTR_COMMAND, shlwapi/ASSOCSTR_CONTENTTYPE, shlwapi/ASSOCSTR_DDEAPPLICATION, shlwapi/ASSOCSTR_DDECOMMAND, shlwapi/ASSOCSTR_DDEIFEXEC, shlwapi/ASSOCSTR_DDETOPIC, shlwapi/ASSOCSTR_DEFAULTICON, shlwapi/ASSOCSTR_DELEGATEEXECUTE, shlwapi/ASSOCSTR_DROPTARGET, shlwapi/ASSOCSTR_EXECUTABLE, shlwapi/ASSOCSTR_FRIENDLYAPPNAME, shlwapi/ASSOCSTR_FRIENDLYDOCNAME, shlwapi/ASSOCSTR_INFOTIP, shlwapi/ASSOCSTR_MAX, shlwapi/ASSOCSTR_NOOPEN, shlwapi/ASSOCSTR_PROGID, shlwapi/ASSOCSTR_QUICKTIP, shlwapi/ASSOCSTR_SHELLEXTENSION, shlwapi/ASSOCSTR_SHELLNEWVALUE, shlwapi/ASSOCSTR_SUPPORTED_URI_PROTOCOLS, shlwapi/ASSOCSTR_TILEINFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP, Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ASSOCSTR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shlwapi.h
+api_name:
+-	ASSOCSTR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # ASSOCSTR enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vds.IVdsPack2.CreateVolume2
+title: IVdsPack2::CreateVolume2
+author: windows-sdk-content
+description: Creates a volume in a disk pack with an optional alignment parameter.
+old-location: base\ivdspack2_createvolume2.htm
+old-project: VDS
+ms.assetid: cc7de88b-af6c-4d39-9297-49e33810466a
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CreateVolume2, CreateVolume2 method, CreateVolume2 method,IVdsPack2 interface, IVdsPack2 interface,CreateVolume2 method, IVdsPack2.CreateVolume2, IVdsPack2::CreateVolume2, base.ivdspack2_createvolume2, vds/IVdsPack2::CreateVolume2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VOLUME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsPack2.CreateVolume2
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsPack2::CreateVolume2

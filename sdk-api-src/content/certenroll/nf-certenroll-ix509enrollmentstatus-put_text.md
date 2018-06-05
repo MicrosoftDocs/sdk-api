@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509EnrollmentStatus.put_Text
+title: IX509EnrollmentStatus::put_Text
+author: windows-sdk-content
+description: Specifies or retrieves a string that contains a message associated with the status of the enrollment process.
+old-location: security\ix509enrollmentstatus_text_property.htm
+old-project: SecCertEnroll
+ms.assetid: 071c4040-cdcf-4a01-918d-397726a235ed
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IX509EnrollmentStatus interface [Security],Text property, IX509EnrollmentStatus.Text, IX509EnrollmentStatus.put_Text, IX509EnrollmentStatus::Text, IX509EnrollmentStatus::get_Text, IX509EnrollmentStatus::put_Text, Text property [Security], Text property [Security],IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Text, certenroll/IX509EnrollmentStatus::get_Text, certenroll/IX509EnrollmentStatus::put_Text, put_Text, security.ix509enrollmentstatus_text_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509EnrollmentStatus.Text
+-	IX509EnrollmentStatus.get_Text
+-	IX509EnrollmentStatus.put_Text
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IX509EnrollmentStatus::put_Text

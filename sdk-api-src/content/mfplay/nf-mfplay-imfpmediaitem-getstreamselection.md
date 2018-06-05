@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfplay.IMFPMediaItem.GetStreamSelection
+title: IMFPMediaItem::GetStreamSelection
+author: windows-sdk-content
+description: Queries whether a stream is selected to play.
+old-location: mf\imfpmediaitem_getstreamselection.htm
+old-project: medfound
+ms.assetid: 808de13b-123f-4b9c-b2e6-6c0a6f4339fc
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: FALSE, GetStreamSelection, GetStreamSelection method [Media Foundation], GetStreamSelection method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStreamSelection method, IMFPMediaItem.GetStreamSelection, IMFPMediaItem::GetStreamSelection, TRUE, mf.imfpmediaitem_getstreamselection, mfplay/IMFPMediaItem::GetStreamSelection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfplay.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfplay.h
+api_name:
+-	IMFPMediaItem.GetStreamSelection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFPMediaItem::GetStreamSelection

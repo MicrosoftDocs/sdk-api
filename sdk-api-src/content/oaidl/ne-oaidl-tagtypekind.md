@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:oaidl.tagTYPEKIND
+title: tagTYPEKIND
+author: windows-sdk-content
+description: Specifies a type.
+old-location: automat\typekind.htm
+old-project: automat
+ms.assetid: ea7ae5cf-9572-4174-bfcb-63aabba26ed8
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: TKIND_ALIAS, TKIND_COCLASS, TKIND_DISPATCH, TKIND_ENUM, TKIND_INTERFACE, TKIND_MAX, TKIND_MODULE, TKIND_RECORD, TKIND_UNION, TYPEKIND, TYPEKIND enumeration [Automation], _oa96_TYPEKIND, automat.typekind, oaidl/TKIND_ALIAS, oaidl/TKIND_COCLASS, oaidl/TKIND_DISPATCH, oaidl/TKIND_ENUM, oaidl/TKIND_INTERFACE, oaidl/TKIND_MAX, oaidl/TKIND_MODULE, oaidl/TKIND_RECORD, oaidl/TKIND_UNION, oaidl/TYPEKIND, tagTYPEKIND
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OAIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TYPEKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	OaIdl.h
+api_name:
+-	TYPEKIND
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagTYPEKIND enumeration

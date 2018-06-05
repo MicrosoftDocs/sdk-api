@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcoreapi.UiaRaiseChangesEvent
+title: UiaRaiseChangesEvent function
+author: windows-sdk-content
+description: Called by providers to notify the Microsoft UI Automation core that a change has occurred.
+old-location: winauto\uiauto_UiaRaiseChangesEventFunction.htm
+old-project: WinAuto
+ms.assetid: AA6F1F6E-3EE9-44A6-B1AE-B08013DC1E37
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: UiaRaiseChangesEvent, UiaRaiseChangesEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseChangesEvent, winauto.uiauto_UiaRaiseChangesEventFunction
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: uiautomationcoreapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Uiautomationcore.dll
+-	Ext-MS-Win-UiaCore-L1-1-3.dll
+api_name:
+-	UiaRaiseChangesEvent
+product: Windows
+targetos: Windows
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # UiaRaiseChangesEvent function

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:imepad.IImeSpecifyApplets.GetAppletIIDList
+title: IImeSpecifyApplets::GetAppletIIDList
+author: windows-sdk-content
+description: Called from the IImePad interface to enumerate the IImePadApplet interfaces that are implemented.
+old-location: intl\iimespecifyapplets_getappletiidlist.htm
+old-project: Intl
+ms.assetid: 05FD7E9A-5C65-4FB7-B509-591B4B434961
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetAppletIIDList, GetAppletIIDList method [Internationalization for Windows Applications], GetAppletIIDList method [Internationalization for Windows Applications],IImeSpecifyApplets interface, IImeSpecifyApplets interface [Internationalization for Windows Applications],GetAppletIIDList method, IImeSpecifyApplets.GetAppletIIDList, IImeSpecifyApplets::GetAppletIIDList, imepad/IImeSpecifyApplets::GetAppletIIDList, intl.iimespecifyapplets_getappletiidlist
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imepad.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PlatformId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Imepad.h
+api_name:
+-	IImeSpecifyApplets.GetAppletIIDList
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IImeSpecifyApplets::GetAppletIIDList

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMFAsyncCallbackLogging.GetObjectTag
+title: IMFAsyncCallbackLogging::GetObjectTag
+author: windows-sdk-content
+description: Gets the tag of the parent object the async callback is associated object.
+old-location: mf\imfasynccallbacklogging_getobjecttag.htm
+old-project: medfound
+ms.assetid: f556a163-54d1-4353-ab9e-e8aa6bf35958
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetObjectTag, GetObjectTag method [Media Foundation], GetObjectTag method [Media Foundation],IMFAsyncCallbackLogging interface, IMFAsyncCallbackLogging interface [Media Foundation],GetObjectTag method, IMFAsyncCallbackLogging.GetObjectTag, IMFAsyncCallbackLogging::GetObjectTag, mf.imfasynccallbacklogging_getobjecttag, mfobjects/IMFAsyncCallbackLogging::GetObjectTag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mfobjects.h
+api_name:
+-	IMFAsyncCallbackLogging.GetObjectTag
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFAsyncCallbackLogging::GetObjectTag

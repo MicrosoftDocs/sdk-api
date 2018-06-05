@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sspi.DecryptMessage
+title: DecryptMessage function
+author: windows-sdk-content
+description: Decrypts a message by using Digest.
+old-location: security\decryptmessage__digest_.htm
+old-project: SecAuthN
+ms.assetid: 46d45f59-33fa-434a-b329-20b6257c9a19
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: DecryptMessage, DecryptMessage (Digest), DecryptMessage function [Security], SECQOP_WRAP_NO_ENCRYPT, SIGN_ONLY, UnsealMessage [Security], security.decryptmessage__digest_, sspi/DecryptMessage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: sspi.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Secur32.dll
+-	sspicli.dll
+api_name:
+-	DecryptMessage
+product: Windows
+targetos: Windows
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # DecryptMessage function

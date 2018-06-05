@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msxml6._XHR_CERT_IGNORE_FLAG
+title: "_XHR_CERT_IGNORE_FLAG"
+author: windows-sdk-content
+description: Defines flags that you can assign to an outgoing HTTP request to ignore certain certificate errors by calling the SetProperty method on the IXMLHTTPRequest3 interface.
+old-location: ixhr2\xhr_cert_ignore_flag.htm
+old-project: ixhr2
+ms.assetid: 22b7b3b0-a5e2-4cf1-af92-4fe66506fa40
+ms.author: windowssdkdev
+ms.date: 04/02/2018
+ms.keywords: XHR_CERT_IGNORE_ALL_SERVER_ERRORS, XHR_CERT_IGNORE_CERT_CN_INVALID, XHR_CERT_IGNORE_CERT_DATE_INVALID, XHR_CERT_IGNORE_FLAG, XHR_CERT_IGNORE_FLAG enumeration [XMLHttpRequest2], XHR_CERT_IGNORE_REVOCATION_FAILED, XHR_CERT_IGNORE_UNKNOWN_CA, _XHR_CERT_IGNORE_FLAG, ixhr2.xhr_cert_ignore_flag, msxml6/XHR_CERT_IGNORE_ALL_SERVER_ERRORS, msxml6/XHR_CERT_IGNORE_CERT_CN_INVALID, msxml6/XHR_CERT_IGNORE_CERT_DATE_INVALID, msxml6/XHR_CERT_IGNORE_FLAG, msxml6/XHR_CERT_IGNORE_REVOCATION_FAILED, msxml6/XHR_CERT_IGNORE_UNKNOWN_CA
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msxml6.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msxml.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Msxml.tlb
+tech.root: 
+req.typenames: XHR_CERT_IGNORE_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msxml6.h
+api_name:
+-	XHR_CERT_IGNORE_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msxml.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _XHR_CERT_IGNORE_FLAG enumeration

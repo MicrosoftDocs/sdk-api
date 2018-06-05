@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.ICodecAPI.GetParameterValues
+title: ICodecAPI::GetParameterValues
+author: windows-sdk-content
+description: The GetParameterValues method gets the list of possible values for a codec property.
+old-location: dshow\icodecapi_getparametervalues.htm
+old-project: DirectShow
+ms.assetid: 7f6c7db8-f71f-4ea7-8584-0df6e28c0fc9
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetParameterValues, GetParameterValues method [DirectShow], GetParameterValues method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetParameterValues method, ICodecAPI.GetParameterValues, ICodecAPI::GetParameterValues, ICodecAPIGetParameterValues, dshow.icodecapi_getparametervalues, strmif/ICodecAPI::GetParameterValues
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	ICodecAPI.GetParameterValues
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # ICodecAPI::GetParameterValues

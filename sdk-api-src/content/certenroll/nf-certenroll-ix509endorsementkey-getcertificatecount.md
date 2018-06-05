@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:certenroll.IX509EndorsementKey.GetCertificateCount
+title: IX509EndorsementKey::GetCertificateCount
+author: windows-sdk-content
+description: Gets the count of the endorsement certificates in the key storage provider.
+old-location: security\ix509endorsementkey_getcertificatecount.htm
+old-project: SecCertEnroll
+ms.assetid: 1a8ae8f9-c4df-4701-845d-7f9a42593d57
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetCertificateCount, GetCertificateCount method [Security], GetCertificateCount method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],GetCertificateCount method, IX509EndorsementKey.GetCertificateCount, IX509EndorsementKey::GetCertificateCount, certenroll/IX509EndorsementKey::GetCertificateCount, security.ix509endorsementkey_getcertificatecount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certenroll.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.dll
+api_name:
+-	IX509EndorsementKey.GetCertificateCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 ---
 
 # IX509EndorsementKey::GetCertificateCount

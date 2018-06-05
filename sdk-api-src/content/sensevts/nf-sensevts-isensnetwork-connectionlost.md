@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sensevts.ISensNetwork.ConnectionLost
+title: ISensNetwork::ConnectionLost
+author: windows-sdk-content
+description: The ConnectionLost method notifies your application that the specified connection has been dropped.
+old-location: sens\isensnetwork_connectionlost.htm
+old-project: Sens
+ms.assetid: b91e46b9-7931-4959-97de-fa882a56e406
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: CONNECTION_LAN, CONNECTION_WAN, ConnectionLost, ConnectionLost method [SENS], ConnectionLost method [SENS],ISensNetwork interface, ISensNetwork interface [SENS],ConnectionLost method, ISensNetwork.ConnectionLost, ISensNetwork::ConnectionLost, _zaw_isensnetwork_connectionlost, sens.isensnetwork_connectionlost, sensevts/ISensNetwork::ConnectionLost, syncmgr.isensnetwork_connectionlost
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sensevts.h
+req.include-header: Sensevts.h, Sens.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Sensevts.tlb
+tech.root: 
+req.typenames: QOCINFO, *LPQOCINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Sens.dll
+api_name:
+-	ISensNetwork.ConnectionLost
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISensNetwork::ConnectionLost

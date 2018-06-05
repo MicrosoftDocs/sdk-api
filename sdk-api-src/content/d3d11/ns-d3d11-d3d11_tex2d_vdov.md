@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:d3d11.D3D11_TEX2D_VDOV
+title: D3D11_TEX2D_VDOV
+author: windows-sdk-content
+description: Identifies the texture resource for a video decoder output view.
+old-location: mf\d3d11_tex2d_vdov.htm
+old-project: medfound
+ms.assetid: A25BB0AA-8CC9-4DA0-B4BE-8C107E9203F0
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3D11_TEX2D_VDOV, D3D11_TEX2D_VDOV structure [Media Foundation], d3d11/D3D11_TEX2D_VDOV, mf.d3d11_tex2d_vdov
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_TEX2D_VDOV
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11.h
+api_name:
+-	D3D11_TEX2D_VDOV
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_TEX2D_VDOV structure

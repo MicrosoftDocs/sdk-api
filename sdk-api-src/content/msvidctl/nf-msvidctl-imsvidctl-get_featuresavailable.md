@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msvidctl.IMSVidCtl.get_FeaturesAvailable
+title: IMSVidCtl::get_FeaturesAvailable
+author: windows-sdk-content
+description: The get_FeaturesAvailable method retrieves the features that are available on the local system.
+old-location: mstv\imsvidctl_get_featuresavailable.htm
+old-project: mstv
+ms.assetid: 73da686c-0c25-4dfb-8a13-681f1dac6a4a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_FeaturesAvailable method, IMSVidCtl.get_FeaturesAvailable, IMSVidCtl::get_FeaturesAvailable, IMSVidCtlget_FeaturesAvailable, get_FeaturesAvailable, get_FeaturesAvailable method [Microsoft TV Technologies], get_FeaturesAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_featuresavailable, msvidctl/IMSVidCtl::get_FeaturesAvailable
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msvidctl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msvidctl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msvidctl.h
+api_name:
+-	IMSVidCtl.get_FeaturesAvailable
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidCtl::get_FeaturesAvailable

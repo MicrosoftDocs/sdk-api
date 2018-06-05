@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:chptrarr.CHPtrArray.RemoveAll
+title: CHPtrArray::RemoveAll
+author: windows-sdk-content
+description: The RemoveAll method removes all the CHPtrArray members from this array.
+old-location: wmi\chptrarray_removeall.htm
+old-project: WmiSdk
+ms.assetid: 51de0ff1-e8e9-4484-80d6-51179ef82a51
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "?RemoveAll@CHPtrArray@@QAEXXZ, CHPtrArray interface [Windows Management Instrumentation],RemoveAll method, CHPtrArray.RemoveAll, CHPtrArray::RemoveAll, RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::RemoveAll, wmi.chptrarray_removeall"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: chptrarr.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CHPtrArray.RemoveAll
+-	?RemoveAll@CHPtrArray@@QAEXXZ
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 ---
 
 # CHPtrArray::RemoveAll

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl._MFNETSOURCE_STATISTICS_IDS
+title: "_MFNETSOURCE_STATISTICS_IDS"
+author: windows-sdk-content
+description: Defines statistics collected by the network source.
+old-location: mf\mfnetsource_statistics_ids.htm
+old-project: medfound
+ms.assetid: 4956e003-7f52-40af-8f6b-b1b73ba2a897
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 4956e003-7f52-40af-8f6b-b1b73ba2a897, MFNETSOURCE_AVGBANDWIDTHBPS_ID, MFNETSOURCE_BUFFERINGCOUNT_ID, MFNETSOURCE_BUFFERPROGRESS_ID, MFNETSOURCE_BUFFERSIZE_ID, MFNETSOURCE_BYTESRECEIVED_ID, MFNETSOURCE_CACHE_STATE_ID, MFNETSOURCE_CONTENTBITRATE_ID, MFNETSOURCE_DOWNLOADPROGRESS_ID, MFNETSOURCE_INCORRECTLYSIGNEDPACKETS_ID, MFNETSOURCE_LASTBWSWITCHTS_ID, MFNETSOURCE_LINKBANDWIDTH_ID, MFNETSOURCE_LOSTPACKETS_ID, MFNETSOURCE_MAXBITRATE_ID, MFNETSOURCE_OUTPACKETS_ID, MFNETSOURCE_PROTOCOL_ID, MFNETSOURCE_RECEPTION_QUALITY_ID, MFNETSOURCE_RECOVEREDBYECCPACKETS_ID, MFNETSOURCE_RECOVEREDBYRTXPACKETS_ID, MFNETSOURCE_RECOVEREDPACKETS_ID, MFNETSOURCE_RECVPACKETS_ID, MFNETSOURCE_RECVRATE_ID, MFNETSOURCE_RESENDSRECEIVED_ID, MFNETSOURCE_RESENDSREQUESTED_ID, MFNETSOURCE_SEEKRANGEEND_ID, MFNETSOURCE_SEEKRANGESTART_ID, MFNETSOURCE_SIGNEDSESSION_ID, MFNETSOURCE_SPEEDFACTOR_ID, MFNETSOURCE_STATISTICS_IDS, MFNETSOURCE_STATISTICS_IDS enumeration [Media Foundation], MFNETSOURCE_TRANSPORT_ID, MFNETSOURCE_VBR_ID, _MFNETSOURCE_STATISTICS_IDS, mf.mfnetsource_statistics_ids, mfidl/MFNETSOURCE_AVGBANDWIDTHBPS_ID, mfidl/MFNETSOURCE_BUFFERINGCOUNT_ID, mfidl/MFNETSOURCE_BUFFERPROGRESS_ID, mfidl/MFNETSOURCE_BUFFERSIZE_ID, mfidl/MFNETSOURCE_BYTESRECEIVED_ID, mfidl/MFNETSOURCE_CACHE_STATE_ID, mfidl/MFNETSOURCE_CONTENTBITRATE_ID, mfidl/MFNETSOURCE_DOWNLOADPROGRESS_ID, mfidl/MFNETSOURCE_INCORRECTLYSIGNEDPACKETS_ID, mfidl/MFNETSOURCE_LASTBWSWITCHTS_ID, mfidl/MFNETSOURCE_LINKBANDWIDTH_ID, mfidl/MFNETSOURCE_LOSTPACKETS_ID, mfidl/MFNETSOURCE_MAXBITRATE_ID, mfidl/MFNETSOURCE_OUTPACKETS_ID, mfidl/MFNETSOURCE_PROTOCOL_ID, mfidl/MFNETSOURCE_RECEPTION_QUALITY_ID, mfidl/MFNETSOURCE_RECOVEREDBYECCPACKETS_ID, mfidl/MFNETSOURCE_RECOVEREDBYRTXPACKETS_ID, mfidl/MFNETSOURCE_RECOVEREDPACKETS_ID, mfidl/MFNETSOURCE_RECVPACKETS_ID, mfidl/MFNETSOURCE_RECVRATE_ID, mfidl/MFNETSOURCE_RESENDSRECEIVED_ID, mfidl/MFNETSOURCE_RESENDSREQUESTED_ID, mfidl/MFNETSOURCE_SEEKRANGEEND_ID, mfidl/MFNETSOURCE_SEEKRANGESTART_ID, mfidl/MFNETSOURCE_SIGNEDSESSION_ID, mfidl/MFNETSOURCE_SPEEDFACTOR_ID, mfidl/MFNETSOURCE_STATISTICS_IDS, mfidl/MFNETSOURCE_TRANSPORT_ID, mfidl/MFNETSOURCE_VBR_ID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFNETSOURCE_STATISTICS_IDS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFNETSOURCE_STATISTICS_IDS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFNETSOURCE_STATISTICS_IDS enumeration

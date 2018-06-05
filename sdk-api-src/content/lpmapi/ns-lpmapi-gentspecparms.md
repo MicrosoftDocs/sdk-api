@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lpmapi.GenTspecParms
+title: GenTspecParms
+author: windows-sdk-content
+description: The GenTspecParms structure stores generic Tspec parameters.
+old-location: qos\gentspecparms.htm
+old-project: QOS
+ms.assetid: 8a702e7c-0dfd-48f5-8612-d64d19f2a55c
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: GenTspecParms, GenTspecParms structure [QOS], lpmapi/GenTspecParms, qos.gentspecparms
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lpmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GenTspecParms
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lpmapi.h
+api_name:
+-	GenTspecParms
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # GenTspecParms structure

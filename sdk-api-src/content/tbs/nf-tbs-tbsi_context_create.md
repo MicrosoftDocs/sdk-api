@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tbs.Tbsi_Context_Create
+title: Tbsi_Context_Create function
+author: windows-sdk-content
+description: Creates a context handle that can be used to pass commands to TBS.
+old-location: tbs\_tbsi_context_create.htm
+old-project: TBS
+ms.assetid: 5f19f649-2132-4fd8-a346-4be73fb8917c
+ms.author: windowssdkdev
+ms.date: 03/01/2018
+ms.keywords: Tbsi_Context_Create, Tbsi_Context_Create function [TBS], tbs._tbsi_context_create, tbs/Tbsi_Context_Create
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tbs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tbs.dll
+api_name:
+-	Tbsi_Context_Create
+product: Windows
+targetos: Windows
+req.lib: Tbs.lib
+req.dll: Tbs.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # Tbsi_Context_Create function

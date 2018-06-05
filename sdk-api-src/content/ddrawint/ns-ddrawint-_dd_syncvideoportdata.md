@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_SYNCVIDEOPORTDATA
+title: "_DD_SYNCVIDEOPORTDATA"
+author: windows-sdk-content
+description: The DD_SYNCVIDEOPORTDATA structure contains the video port extensions (VPE) object information.
+old-location: display\dd_syncvideoportdata.htm
+old-project: display
+ms.assetid: babe7d53-f278-44f7-9346-b4661b603123
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_SYNCVIDEOPORTDATA, DD_SYNCVIDEOPORTDATA, DD_SYNCVIDEOPORTDATA structure [Display Devices], _DD_SYNCVIDEOPORTDATA, ddrawint/DD_SYNCVIDEOPORTDATA, ddstrcts_7a531397-4c11-491f-8cec-8db6b9dfdd0d.xml, display.dd_syncvideoportdata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_SYNCVIDEOPORTDATA, DD_SYNCVIDEOPORTDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_SYNCVIDEOPORTDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_SYNCVIDEOPORTDATA structure

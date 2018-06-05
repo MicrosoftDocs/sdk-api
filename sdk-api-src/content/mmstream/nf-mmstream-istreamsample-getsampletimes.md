@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mmstream.IStreamSample.GetSampleTimes
+title: IStreamSample::GetSampleTimes
+author: windows-sdk-content
+description: Note  This interface is deprecated. New applications should not use it. Retrieves the current sample's start and end times. If the sample is updating, this method returns the times after the update completes.
+old-location: dshow\istreamsample_getsampletimes.htm
+old-project: DirectShow
+ms.assetid: d8c716fe-6731-4b54-9b4b-3b0f896f176b
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetSampleTimes, GetSampleTimes method [DirectShow], GetSampleTimes method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],GetSampleTimes method, IStreamSample.GetSampleTimes, IStreamSample::GetSampleTimes, IStreamSampleGetSampleTimes, dshow.istreamsample_getsampletimes, mmstream/IStreamSample::GetSampleTimes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mmstream.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAM_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mmstream.h
+api_name:
+-	IStreamSample.GetSampleTimes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IStreamSample::GetSampleTimes

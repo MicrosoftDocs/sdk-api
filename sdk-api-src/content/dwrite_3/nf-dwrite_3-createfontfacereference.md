@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dwrite_3.CreateFontFaceReference
+title: CreateFontFaceReference function
+author: windows-sdk-content
+description: Creates a reference to a font.
+old-location: directwrite\idwritefactory3_createfontfacereference_overload.htm
+old-project: DirectWrite
+ms.assetid: e4f73eff-84f8-3e86-08b1-aa513fad9a61
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: CreateFontFaceReference, CreateFontFaceReference methods [Direct2D], IDWriteFactory3::CreateFontFaceReference, directwrite.idwritefactory3_createfontfacereference_overload, dwrite_3/CreateFontFaceReference
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dwrite_3.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite_3.h
+api_name:
+-	IDWriteFactory3::CreateFontFaceReference
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # CreateFontFaceReference function

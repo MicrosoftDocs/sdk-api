@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CERT_STRONG_SIGN_PARA
+title: "_CERT_STRONG_SIGN_PARA"
+author: windows-sdk-content
+description: Contains parameters used to check for strong signatures on certificates, certificate revocation lists (CRLs), online certificate status protocol (OCSP) responses, and PKCS #7 messages.
+old-location: security\cert_strong_sign_para.htm
+old-project: SecCrypto
+ms.assetid: 12D9F82C-F484-43B0-BD55-F07321058671
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA structure [Security], PCCERT_STRONG_SIGN_PARA, PCCERT_STRONG_SIGN_PARA structure pointer [Security], PCERT_STRONG_SIGN_PARA, PCERT_STRONG_SIGN_PARA structure pointer [Security], _CERT_STRONG_SIGN_PARA, security.cert_strong_sign_para, szOID_CERT_STRONG_KEY_OS_1, szOID_CERT_STRONG_SIGN_OS_1, wincrypt/CERT_STRONG_SIGN_PARA, wincrypt/PCCERT_STRONG_SIGN_PARA, wincrypt/PCERT_STRONG_SIGN_PARA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_STRONG_SIGN_PARA, *PCERT_STRONG_SIGN_PARA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_STRONG_SIGN_PARA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERT_STRONG_SIGN_PARA structure

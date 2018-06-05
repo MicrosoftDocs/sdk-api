@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shldisp.IShellFolderViewDual3.put_GroupBy
+title: IShellFolderViewDual3::put_GroupBy
+author: windows-sdk-content
+description: Sets the column used in grouping the folder view.
+old-location: shell\IShellFolderViewDual3_put_GroupBy.htm
+old-project: shell
+ms.assetid: 32c23b6f-7c6f-432c-9f0e-11de8608e546
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IShellFolderViewDual3 interface [Windows Shell],put_GroupBy method, IShellFolderViewDual3.put_GroupBy, IShellFolderViewDual3::put_GroupBy, _shell_IShellFolderViewDual3_put_GroupBy, put_GroupBy, put_GroupBy method [Windows Shell], put_GroupBy method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_put_GroupBy, shldisp/IShellFolderViewDual3::put_GroupBy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shldisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shldisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETEOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shldisp.h
+api_name:
+-	IShellFolderViewDual3.put_GroupBy
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # IShellFolderViewDual3::put_GroupBy

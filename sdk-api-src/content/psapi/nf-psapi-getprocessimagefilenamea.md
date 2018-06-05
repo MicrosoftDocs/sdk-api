@@ -1,31 +1,55 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:psapi.GetProcessImageFileNameA
+title: GetProcessImageFileNameA function
+author: windows-sdk-content
+description: Retrieves the name of the executable file for the specified process.
+old-location: psapi\getprocessimagefilename.htm
+old-project: psapi
+ms.assetid: 819fc2f4-0801-417b-9cbb-d7fd2894634e
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetProcessImageFileName, GetProcessImageFileName function [PSAPI], GetProcessImageFileNameA, GetProcessImageFileNameW, K32GetProcessImageFileName, K32GetProcessImageNameA, K32GetProcessImageNameW, _win32_getprocessimagefilename, base.getprocessimagefilename, psapi.getprocessimagefilename, psapi/GetProcessImageFileName, psapi/GetProcessImageFileNameA, psapi/GetProcessImageFileNameW, psapi/K32GetProcessImageFileName, psapi/K32GetProcessImageNameA, psapi/K32GetProcessImageNameW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: psapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetProcessImageFileNameW (Unicode) and GetProcessImageFileNameA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSHNOTIFY, *LPPSHNOTIFY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	Psapi.dll
+-	Psapi.dll
+api_name:
+-	GetProcessImageFileName
+-	GetProcessImageFileNameA
+-	GetProcessImageFileNameW
+-	K32GetProcessImageFileName
+-	K32GetProcessImageNameW
+-	K32GetProcessImageNameA
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # GetProcessImageFileNameA function

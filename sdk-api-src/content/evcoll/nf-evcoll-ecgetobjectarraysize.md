@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:evcoll.EcGetObjectArraySize
+title: EcGetObjectArraySize function
+author: windows-sdk-content
+description: Retrieves the number of indexes of the array of property values for the event sources of a subscription.
+old-location: wec\ecgetobjectarraysize.htm
+old-project: WEC
+ms.assetid: f04c1748-d8b3-4000-a322-7854f8e7f5f9
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: EcGetObjectArraySize, EcGetObjectArraySize function, evcoll/EcGetObjectArraySize, wec.ecgetobjectarraysize, wes.ecgetobjectarraysize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: evcoll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EC_VARIANT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wecapi.dll
+api_name:
+-	EcGetObjectArraySize
+product: Windows
+targetos: Windows
+req.lib: Wecapi.lib
+req.dll: Wecapi.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # EcGetObjectArraySize function

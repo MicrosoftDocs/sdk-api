@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certadm.ICertAdmin.SetCertificateExtension
+title: ICertAdmin::SetCertificateExtension
+author: windows-sdk-content
+description: Adds a new extension to the certificate issued in response to a certificate request. This method was first defined by the ICertAdmin interface.
+old-location: security\icertadmin2_setcertificateextension.htm
+old-project: SecCrypto
+ms.assetid: d26061da-acc3-45d8-93de-f2d431d350a6
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertAdmin interface [Security],SetCertificateExtension method, EXTENSION_CRITICAL_FLAG, EXTENSION_DISABLE_FLAG, ICertAdmin interface [Security],SetCertificateExtension method, ICertAdmin.SetCertificateExtension, ICertAdmin2 interface [Security],SetCertificateExtension method, ICertAdmin2::SetCertificateExtension, ICertAdmin::SetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCertificateExtension, SetCertificateExtension method [Security], SetCertificateExtension method [Security],CCertAdmin interface, SetCertificateExtension method [Security],ICertAdmin interface, SetCertificateExtension method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetCertificateExtension, certadm/ICertAdmin::SetCertificateExtension, security.icertadmin2_setcertificateextension
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certadm.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certadm.dll
+api_name:
+-	ICertAdmin2.SetCertificateExtension
+-	ICertAdmin.SetCertificateExtension
+-	CCertAdmin.SetCertificateExtension
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # ICertAdmin::SetCertificateExtension

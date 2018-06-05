@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ntsecapi._KERB_LOGON_SUBMIT_TYPE
+title: "_KERB_LOGON_SUBMIT_TYPE"
+author: windows-sdk-content
+description: Identifies the type of logon being requested.
+old-location: security\kerb_logon_submit_type.htm
+old-project: SecAuthN
+ms.assetid: 500bee53-638b-4782-b42d-1df158396fb6
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PKERB_LOGON_SUBMIT_TYPE, KERB_LOGON_SUBMIT_TYPE, KERB_LOGON_SUBMIT_TYPE enumeration [Security], KerbCertificateLogon, KerbCertificateS4ULogon, KerbCertificateUnlockLogon, KerbInteractiveLogon, KerbProxyLogon, KerbS4ULogon, KerbSmartCardLogon, KerbSmartCardUnlockLogon, KerbTicketLogon, KerbTicketUnlockLogon, KerbWorkstationUnlockLogon, PKERB_LOGON_SUBMIT_TYPE, PKERB_LOGON_SUBMIT_TYPE enumeration pointer [Security], _KERB_LOGON_SUBMIT_TYPE, _lsa_kerb_logon_submit_type, ntsecapi/KERB_LOGON_SUBMIT_TYPE, ntsecapi/KerbCertificateLogon, ntsecapi/KerbCertificateS4ULogon, ntsecapi/KerbCertificateUnlockLogon, ntsecapi/KerbInteractiveLogon, ntsecapi/KerbProxyLogon, ntsecapi/KerbS4ULogon, ntsecapi/KerbSmartCardLogon, ntsecapi/KerbSmartCardUnlockLogon, ntsecapi/KerbTicketLogon, ntsecapi/KerbTicketUnlockLogon, ntsecapi/KerbWorkstationUnlockLogon, ntsecapi/PKERB_LOGON_SUBMIT_TYPE, security.kerb_logon_submit_type"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KERB_LOGON_SUBMIT_TYPE, *PKERB_LOGON_SUBMIT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	KERB_LOGON_SUBMIT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _KERB_LOGON_SUBMIT_TYPE enumeration

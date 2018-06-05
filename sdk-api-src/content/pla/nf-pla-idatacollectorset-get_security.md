@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataCollectorSet.get_Security
+title: IDataCollectorSet::get_Security
+author: windows-sdk-content
+description: Retrieves or sets access control information that determines who can access this data collector set.
+old-location: pla\idatacollectorset_get_security.htm
+old-project: PLA
+ms.assetid: cd915df3-2823-4d3e-bfd0-545c24f95267
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IDataCollectorSet interface [PLA],Security property, IDataCollectorSet.Security, IDataCollectorSet.get_Security, IDataCollectorSet::Security, IDataCollectorSet::get_Security, IDataCollectorSet::put_Security, Security property [PLA], Security property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_security, get_Security, pla.idatacollectorset_get_security, pla/IDataCollectorSet::Security, pla/IDataCollectorSet::get_Security, pla/IDataCollectorSet::put_Security
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataCollectorSet.Security
+-	IDataCollectorSet.get_Security
+-	IDataCollectorSet.put_Security
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataCollectorSet::get_Security

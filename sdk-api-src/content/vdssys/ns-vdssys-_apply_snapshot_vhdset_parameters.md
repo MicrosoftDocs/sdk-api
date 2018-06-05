@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vdssys._APPLY_SNAPSHOT_VHDSET_PARAMETERS
+title: "_APPLY_SNAPSHOT_VHDSET_PARAMETERS"
+author: windows-sdk-content
+description: Contains snapshot parameters, indicating information about the new snapshot to be applied.
+old-location: vhd\apply_snapshot_vhdset_parameters.htm
+old-project: VStor
+ms.assetid: 0C3A8097-0630-412E-AF23-144E3D98D292
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PAPPLY_SNAPSHOT_VHDSET_PARAMETERS, APPLY_SNAPSHOT_VHDSET_PARAMETERS, APPLY_SNAPSHOT_VHDSET_PARAMETERS structure [VHD], PAPPLY_SNAPSHOT_VHDSET_PARAMETERS, PAPPLY_SNAPSHOT_VHDSET_PARAMETERS structure pointer [VHD], _APPLY_SNAPSHOT_VHDSET_PARAMETERS, vdssys/APPLY_SNAPSHOT_VHDSET_PARAMETERS, vdssys/PAPPLY_SNAPSHOT_VHDSET_PARAMETERS, vhd.apply_snapshot_vhdset_parameters, virtdisk/APPLY_SNAPSHOT_VHDSET_PARAMETERS, virtdisk/PAPPLY_SNAPSHOT_VHDSET_PARAMETERS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vdssys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APPLY_SNAPSHOT_VHDSET_PARAMETERS, *PAPPLY_SNAPSHOT_VHDSET_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VirtDisk.h
+-	vdssys.h
+api_name:
+-	APPLY_SNAPSHOT_VHDSET_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _APPLY_SNAPSHOT_VHDSET_PARAMETERS structure

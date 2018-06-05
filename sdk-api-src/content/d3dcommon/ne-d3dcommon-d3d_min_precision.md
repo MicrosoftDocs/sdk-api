@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d3dcommon.D3D_MIN_PRECISION
+title: D3D_MIN_PRECISION
+author: windows-sdk-content
+description: Values that indicate the minimum desired interpolation precision.
+old-location: direct3d11\d3d_min_precision.htm
+old-project: direct3d11
+ms.assetid: C97D04D7-EAE4-4E5B-80A2-EDB1CE68C2BC
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D_MIN_PRECISION, D3D_MIN_PRECISION enumeration [Direct3D 11], D3D_MIN_PRECISION_ANY_10, D3D_MIN_PRECISION_ANY_16, D3D_MIN_PRECISION_DEFAULT, D3D_MIN_PRECISION_FLOAT_16, D3D_MIN_PRECISION_FLOAT_2_8, D3D_MIN_PRECISION_RESERVED, D3D_MIN_PRECISION_SINT_16, D3D_MIN_PRECISION_UINT_16, d3dcommon/D3D_MIN_PRECISION, d3dcommon/D3D_MIN_PRECISION_ANY_10, d3dcommon/D3D_MIN_PRECISION_ANY_16, d3dcommon/D3D_MIN_PRECISION_DEFAULT, d3dcommon/D3D_MIN_PRECISION_FLOAT_16, d3dcommon/D3D_MIN_PRECISION_FLOAT_2_8, d3dcommon/D3D_MIN_PRECISION_RESERVED, d3dcommon/D3D_MIN_PRECISION_SINT_16, d3dcommon/D3D_MIN_PRECISION_UINT_16, direct3d11.d3d_min_precision
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3dcommon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_MIN_PRECISION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3DCommon.h
+api_name:
+-	D3D_MIN_PRECISION
+product: Windows
+targetos: Windows
+req.lib: D3d9.lib
+req.dll: 
+req.irql: 
 ---
 
 # D3D_MIN_PRECISION enumeration

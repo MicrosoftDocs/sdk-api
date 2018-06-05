@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wnvapi._WNV_OBJECT_CHANGE_PARAM
+title: "_WNV_OBJECT_CHANGE_PARAM"
+author: windows-sdk-content
+description: Specifies the parameters of an event that causes the Windows Network Virtualization (WNV) driver to generate a WnvObjectChangeType type of notification.
+old-location: wnv\wnv_object_change_param.htm
+old-project: wnv
+ms.assetid: 12FF591A-B696-49DF-9E75-B966569A2AAE
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PWNV_OBJECT_CHANGE_PARAM, PWNV_OBJECT_CHANGE_PARAM, PWNV_OBJECT_CHANGE_PARAM structure pointer [Windows Network Virtualization], WNV_OBJECT_CHANGE_PARAM, WNV_OBJECT_CHANGE_PARAM structure [Windows Network Virtualization], _WNV_OBJECT_CHANGE_PARAM, wnv.wnv_object_change_param, wnvapi/PWNV_OBJECT_CHANGE_PARAM, wnvapi/WNV_OBJECT_CHANGE_PARAM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wnvapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WNV_OBJECT_CHANGE_PARAM, *PWNV_OBJECT_CHANGE_PARAM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wnvapi.h
+api_name:
+-	WNV_OBJECT_CHANGE_PARAM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WNV_OBJECT_CHANGE_PARAM structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vswriter.IVssExpressWriter.Register
+title: IVssExpressWriter::Register
+author: windows-sdk-content
+description: Causes VSS to store the writer's metadata in the express writer metadata store.
+old-location: base\ivssexpresswriter_register.htm
+old-project: VSS
+ms.assetid: 75cdc416-5fb6-4c9e-b7ab-f79b091786b2
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IVssExpressWriter interface,Register method, IVssExpressWriter.Register, IVssExpressWriter::Register, Register, Register method, Register method,IVssExpressWriter interface, base.ivssexpresswriter_register, vswriter/IVssExpressWriter::Register
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vswriter.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VsWriter.h
+api_name:
+-	IVssExpressWriter.Register
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssExpressWriter::Register

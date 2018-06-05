@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfreadwrite.IMFSourceReaderCallback.OnFlush
+title: IMFSourceReaderCallback::OnFlush
+author: windows-sdk-content
+description: Called when the IMFSourceReader::Flush method completes.
+old-location: mf\imfsourcereadercallback_onflush.htm
+old-project: medfound
+ms.assetid: a8273b0a-a75a-453f-bb42-38d554e44262
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFSourceReaderCallback interface [Media Foundation],OnFlush method, IMFSourceReaderCallback.OnFlush, IMFSourceReaderCallback::OnFlush, OnFlush, OnFlush method [Media Foundation], OnFlush method [Media Foundation],IMFSourceReaderCallback interface, mf.imfsourcereadercallback_onflush, mfreadwrite/IMFSourceReaderCallback::OnFlush
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfreadwrite.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update Supplement for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_SOURCE_READER_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfreadwrite.h
+api_name:
+-	IMFSourceReaderCallback.OnFlush
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSourceReaderCallback::OnFlush

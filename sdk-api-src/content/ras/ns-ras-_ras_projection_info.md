@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ras._RAS_PROJECTION_INFO
+title: "_RAS_PROJECTION_INFO"
+author: windows-sdk-content
+description: Contains the Point-to-Point (PPP) or Internet Key Exchange version 2 (IKEv2) projection information for a RAS connection.
+old-location: rras\ras_projection_info.htm
+old-project: RRAS
+ms.assetid: ca4fbaff-f035-4340-8d29-7dcddaf1b1bb
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PRAS_PROJECTION_INFO, PRAS_PROJECTION_INFO, PRAS_PROJECTION_INFO structure pointer [RAS], RAS_PROJECTION_INFO, RAS_PROJECTION_INFO structure [RAS], _RAS_PROJECTION_INFO, ras/PRAS_PROJECTION_INFO, ras/RAS_PROJECTION_INFO, rras.ras_projection_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ras.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RAS_PROJECTION_INFO, *PRAS_PROJECTION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ras.h
+api_name:
+-	RAS_PROJECTION_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RAS_PROJECTION_INFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cscobj.IOfflineFilesConnectionInfo.GetConnectState
+title: IOfflineFilesConnectionInfo::GetConnectState
+author: windows-sdk-content
+description: Determines whether an item is online or offline and, if offline, why.
+old-location: of\iofflinefilesconnectioninfo_getconnectstate.htm
+old-project: OfflineFiles
+ms.assetid: 83b082b4-5845-44b7-9456-f00b357e345a
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: GetConnectState, GetConnectState method [Offline Files], GetConnectState method [Offline Files],IOfflineFilesConnectionInfo interface, IOfflineFilesConnectionInfo interface [Offline Files],GetConnectState method, IOfflineFilesConnectionInfo.GetConnectState, IOfflineFilesConnectionInfo::GetConnectState, cscobj/IOfflineFilesConnectionInfo::GetConnectState, of.iofflinefilesconnectioninfo_getconnectstate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFFLINEFILES_SYNC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CscSvc.dll
+-	CscObj.dll
+api_name:
+-	IOfflineFilesConnectionInfo.GetConnectState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 ---
 
 # IOfflineFilesConnectionInfo::GetConnectState

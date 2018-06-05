@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:directmanipulation.DIRECTMANIPULATION_HORIZONTALALIGNMENT
+title: DIRECTMANIPULATION_HORIZONTALALIGNMENT
+author: windows-sdk-content
+description: Defines the horizontal alignment options for content within a viewport.
+old-location: directmanipulation\directmanipulation_horizontalalignment.htm
+old-project: directmanipulation
+ms.assetid: ced17ad6-0728-46ed-8c04-d0c588f0bb38
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: DIRECTMANIPULATION_HORIZONTALALIGNMENT, DIRECTMANIPULATION_HORIZONTALALIGNMENT enumeration [Direct Manipulation], DIRECTMANIPULATION_HORIZONTALALIGNMENT_CENTER, DIRECTMANIPULATION_HORIZONTALALIGNMENT_LEFT, DIRECTMANIPULATION_HORIZONTALALIGNMENT_NONE, DIRECTMANIPULATION_HORIZONTALALIGNMENT_RIGHT, DIRECTMANIPULATION_HORIZONTALALIGNMENT_UNLOCKCENTER, directmanipulation.directmanipulation_horizontalalignment, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_CENTER, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_LEFT, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_NONE, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_RIGHT, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_UNLOCKCENTER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DirectManipulation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIRECTMANIPULATION_HORIZONTALALIGNMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	directmanipulation.h
+api_name:
+-	DIRECTMANIPULATION_HORIZONTALALIGNMENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DIRECTMANIPULATION_HORIZONTALALIGNMENT enumeration

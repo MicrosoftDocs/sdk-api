@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msxml6._XHR_COOKIE_FLAG
+title: "_XHR_COOKIE_FLAG"
+author: windows-sdk-content
+description: Defines a set of flags that you can assign to a cookie in the HTTP cookie jar by calling the SetCookie method or query from the HTTP cookie jar by calling the GetCookie method.
+old-location: ixhr2\xhr_cookie_flag.htm
+old-project: ixhr2
+ms.assetid: 185a75cb-3901-4850-a987-803da50e14fd
+ms.author: windowssdkdev
+ms.date: 04/02/2018
+ms.keywords: XHR_COOKIE_APPLY_P3P, XHR_COOKIE_EVALUATE_P3P, XHR_COOKIE_FLAG, XHR_COOKIE_FLAG enumeration [XMLHttpRequest2], XHR_COOKIE_HTTPONLY, XHR_COOKIE_IE6, XHR_COOKIE_IS_LEGACY, XHR_COOKIE_IS_RESTRICTED, XHR_COOKIE_IS_SECURE, XHR_COOKIE_IS_SESSION, XHR_COOKIE_NON_SCRIPT, XHR_COOKIE_P3P_ENABLED, XHR_COOKIE_PROMPT_REQUIRED, XHR_COOKIE_THIRD_PARTY, _XHR_COOKIE_FLAG, ixhr2.xhr_cookie_flag, msxml6/XHR_COOKIE_APPLY_P3P, msxml6/XHR_COOKIE_EVALUATE_P3P, msxml6/XHR_COOKIE_FLAG, msxml6/XHR_COOKIE_HTTPONLY, msxml6/XHR_COOKIE_IE6, msxml6/XHR_COOKIE_IS_LEGACY, msxml6/XHR_COOKIE_IS_RESTRICTED, msxml6/XHR_COOKIE_IS_SECURE, msxml6/XHR_COOKIE_IS_SESSION, msxml6/XHR_COOKIE_NON_SCRIPT, msxml6/XHR_COOKIE_P3P_ENABLED, msxml6/XHR_COOKIE_PROMPT_REQUIRED, msxml6/XHR_COOKIE_THIRD_PARTY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msxml6.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msxml.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Msxml.tlb
+tech.root: 
+req.typenames: XHR_COOKIE_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msxml6.h
+api_name:
+-	XHR_COOKIE_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msxml.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _XHR_COOKIE_FLAG enumeration

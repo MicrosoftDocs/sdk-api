@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPEvents2.CreatePartnershipComplete
+title: IWMPEvents2::CreatePartnershipComplete
+author: windows-sdk-content
+description: The CreatePartnershipComplete event occurs when an asynchronous call to IWMPSyncDevice::createPartnership completes.
+old-location: wmp\iwmpevents2_iwmpevents2__createpartnershipcomplete.htm
+old-project: WMP
+ms.assetid: 3cd9b27d-ceb4-4655-ab3f-3d341774c81a
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: CreatePartnershipComplete, CreatePartnershipComplete method [Windows Media Player], CreatePartnershipComplete method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],CreatePartnershipComplete method, IWMPEvents2.CreatePartnershipComplete, IWMPEvents2::CreatePartnershipComplete, IWMPEvents2CreatePartnershipComplete, wmp.iwmpevents2_iwmpevents2__createpartnershipcomplete, wmp/IWMPEvents2::CreatePartnershipComplete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 10 or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPEvents2.CreatePartnershipComplete
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPEvents2::CreatePartnershipComplete

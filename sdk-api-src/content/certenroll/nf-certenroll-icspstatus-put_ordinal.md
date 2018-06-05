@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.ICspStatus.put_Ordinal
+title: ICspStatus::put_Ordinal
+author: windows-sdk-content
+description: Specifies or retrieves the position of the ICspStatus object in the ICspStatuses collection.
+old-location: security\icspstatus_ordinal_property.htm
+old-project: SecCertEnroll
+ms.assetid: e392e28f-084e-43a7-8a5e-14bea0ed8d58
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ICspStatus interface [Security],Ordinal property, ICspStatus.Ordinal, ICspStatus.put_Ordinal, ICspStatus::Ordinal, ICspStatus::get_Ordinal, ICspStatus::put_Ordinal, Ordinal property [Security], Ordinal property [Security],ICspStatus interface, certenroll/ICspStatus::Ordinal, certenroll/ICspStatus::get_Ordinal, certenroll/ICspStatus::put_Ordinal, put_Ordinal, security.icspstatus_ordinal_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	ICspStatus.Ordinal
+-	ICspStatus.get_Ordinal
+-	ICspStatus.put_Ordinal
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # ICspStatus::put_Ordinal

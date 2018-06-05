@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:uiribbon.IUIEventingManager
+title: IUIEventingManager
+author: windows-sdk-content
+description: The IUIEventingManager interface is implemented by the Ribbon framework and provides the notification functionality for applications that register for ribbon events.
+old-location: windowsribbon\iuieventingmanager.htm
+old-project: windowsribbon
+ms.assetid: 11E53D75-B8C0-40A3-8E4D-ACAA10BEAC84
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IUIEventingManager, IUIEventingManager interface [Windows Ribbon], IUIEventingManager interface [Windows Ribbon],described, uiribbon/IUIEventingManager, windowsribbon.iuieventingmanager
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: uiribbon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Uiribbon.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_VIEWVERB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uiribbon.dll
+api_name:
+-	IUIEventingManager
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Uiribbon.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUIEventingManager interface

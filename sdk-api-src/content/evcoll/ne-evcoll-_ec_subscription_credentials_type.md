@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:evcoll._EC_SUBSCRIPTION_CREDENTIALS_TYPE
+title: "_EC_SUBSCRIPTION_CREDENTIALS_TYPE"
+author: windows-sdk-content
+description: Specifies the type of credentials to use when communicating with event sources.
+old-location: wec\ec_subscription_credentials_type.htm
+old-project: WEC
+ms.assetid: 5f2d3e26-1703-4afb-8b58-ee747bb156e3
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: EC_SUBSCRIPTION_CREDENTIALS_TYPE, EC_SUBSCRIPTION_CREDENTIALS_TYPE enumeration, EcSubscriptionCredBasic, EcSubscriptionCredDefault, EcSubscriptionCredDigest, EcSubscriptionCredLocalMachine, EcSubscriptionCredNegotiate, _EC_SUBSCRIPTION_CREDENTIALS_TYPE, evcoll/EC_SUBSCRIPTION_CREDENTIALS_TYPE, evcoll/EcSubscriptionCredBasic, evcoll/EcSubscriptionCredDefault, evcoll/EcSubscriptionCredDigest, evcoll/EcSubscriptionCredLocalMachine, evcoll/EcSubscriptionCredNegotiate, wec.ec_subscription_credentials_type, wes.ec_subscription_credentials_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: evcoll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EC_SUBSCRIPTION_CREDENTIALS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Evcoll.h
+api_name:
+-	EC_SUBSCRIPTION_CREDENTIALS_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _EC_SUBSCRIPTION_CREDENTIALS_TYPE enumeration

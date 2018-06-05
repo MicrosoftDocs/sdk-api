@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:sspi._SecPkgContext_StreamSizes
+title: "_SecPkgContext_StreamSizes"
+author: windows-sdk-content
+description: Indicates the sizes of the various parts of a stream for use with the message support functions. The QueryContextAttributes (General) function uses this structure.
+old-location: security\secpkgcontext_streamsizes.htm
+old-project: SecAuthN
+ms.assetid: 75e5fc96-56cc-4713-a34f-fca687798ad6
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSecPkgContext_StreamSizes, PSecPkgContext_StreamSizes, PSecPkgContext_StreamSizes structure pointer [Security], SecPkgContext_DatagramSizes, SecPkgContext_StreamSizes, SecPkgContext_StreamSizes structure [Security], _SecPkgContext_StreamSizes, _ssp_secpkgcontext_streamsizes, security.secpkgcontext_streamsizes, sspi/PSecPkgContext_StreamSizes, sspi/SecPkgContext_StreamSizes"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: sspi.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SecPkgContext_StreamSizes, *PSecPkgContext_StreamSizes
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Sspi.h
+api_name:
+-	SecPkgContext_StreamSizes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_StreamSizes structure

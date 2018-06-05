@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:qossp._AD_GENERAL_PARAMS
+title: "_AD_GENERAL_PARAMS"
+author: windows-sdk-content
+description: The AD_GENERAL_PARAMS structure contains the General Characterization Parameters contained in the RSVP Adspec object.
+old-location: qos\ad_general_params.htm
+old-project: QOS
+ms.assetid: eab6b317-9d06-45e2-bc77-0882f40e7d79
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPAD_GENERAL_PARAMS, *LPAD_GENERAL_PARAMS structure [QOS], AD_FLAG_BREAK_BIT, AD_GENERAL_PARAMS, AD_GENERAL_PARAMS structure [QOS], _AD_GENERAL_PARAMS, qos.ad_general_params, qossp/*LPAD_GENERAL_PARAMS, qossp/AD_GENERAL_PARAMS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: qossp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AD_GENERAL_PARAMS, *LPAD_GENERAL_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Qossp.h
+api_name:
+-	AD_GENERAL_PARAMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _AD_GENERAL_PARAMS structure

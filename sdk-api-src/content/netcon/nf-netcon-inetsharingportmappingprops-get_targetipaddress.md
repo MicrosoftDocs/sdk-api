@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netcon.INetSharingPortMappingProps.get_TargetIPAddress
+title: INetSharingPortMappingProps::get_TargetIPAddress
+author: windows-sdk-content
+description: The get_TargetIPAddress method retrieves the IP address of the target computer for this port mapping.
+old-location: ics\inetsharingportmappingprops_get_targetipaddress.htm
+old-project: ICS
+ms.assetid: af794535-8b36-4306-a220-f4938f0e6ee9
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_TargetIPAddress method, INetSharingPortMappingProps.get_TargetIPAddress, INetSharingPortMappingProps::get_TargetIPAddress, _ics_inetsharingportmappingprops_get_targetipaddress, get_TargetIPAddress, get_TargetIPAddress method [ICS/ICF], get_TargetIPAddress method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_targetipaddress, netcon/INetSharingPortMappingProps::get_TargetIPAddress
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netcon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Hnetcfg.dll
+api_name:
+-	INetSharingPortMappingProps.get_TargetIPAddress
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetSharingPortMappingProps::get_TargetIPAddress

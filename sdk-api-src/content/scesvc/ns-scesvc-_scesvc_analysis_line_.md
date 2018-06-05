@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:scesvc._SCESVC_ANALYSIS_LINE_
+title: "_SCESVC_ANALYSIS_LINE_"
+author: windows-sdk-content
+description: The SCESVC_ANALYSIS_LINE structure contains the key, value, and value length for a specific line specified by an SCESVC_ANALYSIS_INFO structure.
+old-location: security\scesvc_analysis_line.htm
+old-project: SecMgmt
+ms.assetid: 91fa0f25-30e1-4af3-ad22-f16dc4692b0b
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSCESVC_ANALYSIS_LINE, PSCESVC_ANALYSIS_LINE, PSCESVC_ANALYSIS_LINE structure pointer [Security], SCESVC_ANALYSIS_LINE, SCESVC_ANALYSIS_LINE structure [Security], _SCESVC_ANALYSIS_LINE_, _config_scesvc_analysis_line, scesvc/PSCESVC_ANALYSIS_LINE, scesvc/SCESVC_ANALYSIS_LINE, security.scesvc_analysis_line"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: scesvc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCESVC_ANALYSIS_LINE, *PSCESVC_ANALYSIS_LINE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Scesvc.h
+api_name:
+-	SCESVC_ANALYSIS_LINE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SCESVC_ANALYSIS_LINE_ structure

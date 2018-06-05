@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mi.MI_Application_NewClass
+title: MI_Application_NewClass function
+author: windows-sdk-content
+description: Creates an MI_Class from an MI_ClassDecl structure.
+old-location: wmi_v2\mi_application_newclass.htm
+old-project: wmi_v2
+ms.assetid: f325532e-8e29-40d4-ab7f-52f318ae9349
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: MI_Application_NewClass, MI_Application_NewClass function [Windows Management Infrastructure (MI)], mi/MI_Application_NewClass, wmi_v2.mi_application_newclass
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MI_Type
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Mi.dll
+api_name:
+-	MI_Application_NewClass
+product: Windows
+targetos: Windows
+req.lib: Mi.lib
+req.dll: Mi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MI_Application_NewClass function

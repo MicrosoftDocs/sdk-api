@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mprapi._MPRAPI_OBJECT_HEADER
+title: "_MPRAPI_OBJECT_HEADER"
+author: windows-sdk-content
+description: Defines the structure version for the RAS_CONNECTION_EX, MPR_SERVER_EX, MPR_SERVER_SET_CONFIG_EX, RAS_UPDATE_CONNECTION, AUTH_VALIDATION_EX structures, and the structure version used by the MprAdminConnectionEnumEx method.
+old-location: rras\mprapi_object_header.htm
+old-project: RRAS
+ms.assetid: 2f4e1ddc-7991-4091-9889-fdd2d75e702f
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PMPRAPI_OBJECT_HEADER, MPRAPI_MPR_SERVER_OBJECT_REVISION_1, MPRAPI_MPR_SERVER_SET_CONFIG_OBJECT_REVISION_1, MPRAPI_OBJECT_HEADER, MPRAPI_OBJECT_HEADER structure [RAS], MPRAPI_RAS_CONNECTION_OBJECT_REVISION_1, PMPRAPI_OBJECT_HEADER, PMPRAPI_OBJECT_HEADER structure pointer [RAS], _MPRAPI_OBJECT_HEADER, mprapi/MPRAPI_OBJECT_HEADER, mprapi/PMPRAPI_OBJECT_HEADER, rras.mprapi_object_header"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPRAPI_OBJECT_HEADER, *PMPRAPI_OBJECT_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mprapi.h
+api_name:
+-	MPRAPI_OBJECT_HEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MPRAPI_OBJECT_HEADER structure

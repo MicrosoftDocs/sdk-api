@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:mmcobj.ColumnSortOrder
+title: ColumnSortOrder
+author: windows-sdk-content
+description: Used by IResultsViewer::SortOrderProperty to indicate or set how a query is to be sorted.
+old-location: lwef\search_2x_columnsortorder.htm
+old-project: lwef
+ms.assetid: VS|search|~\search\wds2x\reference\enum\columnsortorder.htm
+ms.author: windowssdkdev
+ms.date: 04/27/2018
+ms.keywords: AscItems, COLUMNSORTORDER, ColumnSortOrder, ColumnSortOrder enumeration [Legacy Windows Environment Features], DescItems, _ColumnSortOrder, lwef.search_2x_columnsortorder, mmcobj/AscItems, mmcobj/ColumnSortOrder, mmcobj/DescItems, search.search_2x_columnsortorder, search_2x_ColumnSortOrder
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mmcobj.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "_ColumnSortOrder, COLUMNSORTORDER"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mmcobj.h
+api_name:
+-	ColumnSortOrder
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ColumnSortOrder enumeration

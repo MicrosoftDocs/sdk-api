@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:cfgmgr32.CM_Delete_DevNode_Key
+title: CM_Delete_DevNode_Key function
+author: windows-sdk-content
+description: The CM_Delete_DevNode_Key function deletes the specified user-accessible registry keys that are associated with a device.
+old-location: devinst\cm_delete_devnode_key.htm
+old-project: devinst
+ms.assetid: a2b6faf3-bd24-416a-b7ea-1ef1b48f965b
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: CM_Delete_DevNode_Key, CM_Delete_DevNode_Key function [Device and Driver Installation], cfgmgr32/CM_Delete_DevNode_Key, cfgmgrfn_20a14360-4506-465d-bb5c-79116c3bc78f.xml, devinst.cm_delete_devnode_key
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	CfgMgr32.dll
+-	API-MS-Win-devices-config-l1-1-0.dll
+-	API-MS-Win-devices-config-l1-1-1.dll
+api_name:
+-	CM_Delete_DevNode_Key
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
+req.dll: CfgMgr32.dll
+req.irql: 
 ---
 
 # CM_Delete_DevNode_Key function

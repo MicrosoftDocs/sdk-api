@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12.D3D12_SHADER_CACHE_SUPPORT_FLAGS
+title: D3D12_SHADER_CACHE_SUPPORT_FLAGS
+author: windows-sdk-content
+description: Describes the level of support for shader caching in the current graphics driver.
+old-location: direct3d12\d3d12_shader_cache_support_flags.htm
+old-project: direct3d12
+ms.assetid: E270E04A-769F-4B08-AC17-5A87430CB3DA
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE, D3D12_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE, D3D12_SHADER_CACHE_SUPPORT_FLAGS, D3D12_SHADER_CACHE_SUPPORT_FLAGS enumeration, D3D12_SHADER_CACHE_SUPPORT_LIBRARY, D3D12_SHADER_CACHE_SUPPORT_NONE, D3D12_SHADER_CACHE_SUPPORT_SINGLE_PSO, d3d12/D3D12_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE, d3d12/D3D12_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE, d3d12/D3D12_SHADER_CACHE_SUPPORT_FLAGS, d3d12/D3D12_SHADER_CACHE_SUPPORT_LIBRARY, d3d12/D3D12_SHADER_CACHE_SUPPORT_NONE, d3d12/D3D12_SHADER_CACHE_SUPPORT_SINGLE_PSO, direct3d12.d3d12_shader_cache_support_flags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SHADER_CACHE_SUPPORT_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d12.h
+api_name:
+-	D3D12_SHADER_CACHE_SUPPORT_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_SHADER_CACHE_SUPPORT_FLAGS enumeration

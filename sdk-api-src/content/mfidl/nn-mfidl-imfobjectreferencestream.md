@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:mfidl.IMFObjectReferenceStream
+title: IMFObjectReferenceStream
+author: windows-sdk-content
+description: Marshals an interface pointer to and from a stream.Stream objects that support IStream can expose this interface to provide custom marshaling for interface pointers.
+old-location: mf\imfobjectreferencestream.htm
+old-project: medfound
+ms.assetid: 9d29befd-b0ae-4610-a0b7-17face03c45e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 9d29befd-b0ae-4610-a0b7-17face03c45e, IMFObjectReferenceStream, IMFObjectReferenceStream interface [Media Foundation], IMFObjectReferenceStream interface [Media Foundation],described, mf.imfobjectreferencestream, mfidl/IMFObjectReferenceStream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFObjectReferenceStream
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: Mfplat.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFObjectReferenceStream interface

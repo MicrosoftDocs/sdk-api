@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bluetoothapis.BluetoothSdpGetString
+title: BluetoothSdpGetString function
+author: windows-sdk-content
+description: Converts a raw string embedded in the SDP record into a Unicode string.
+old-location: bluetooth\bluetoothsdpgetstring.htm
+old-project: Bluetooth
+ms.assetid: 26a68fe3-6ffb-44ff-b9db-757d35022a41
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BluetoothSdpGetString, BluetoothSdpGetString function [Bluetooth], bluetooth.bluetoothsdpgetstring, bluetoothapis/BluetoothSdpGetString
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: bluetoothapis.h
+req.include-header: Bthsdpdef.h, BluetoothAPIs.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BLUETOOTH_IO_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Bthprops.dll
+-	BluetoothAPIs.dll
+-	Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+api_name:
+-	BluetoothSdpGetString
+product: Windows
+targetos: Windows
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 ---
 
 # BluetoothSdpGetString function

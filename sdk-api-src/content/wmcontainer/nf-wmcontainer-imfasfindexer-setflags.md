@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmcontainer.IMFASFIndexer.SetFlags
+title: IMFASFIndexer::SetFlags
+author: windows-sdk-content
+description: Sets indexer options.
+old-location: mf\imfasfindexer_setflags.htm
+old-project: medfound
+ms.assetid: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1, IMFASFIndexer interface [Media Foundation],SetFlags method, IMFASFIndexer.SetFlags, IMFASFIndexer::SetFlags, SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation],IMFASFIndexer interface, mf.imfasfindexer_setflags, wmcontainer/IMFASFIndexer::SetFlags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmcontainer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFASF_STREAMSELECTOR_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFASFIndexer.SetFlags
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IMFASFIndexer::SetFlags

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mswmdm.IWMDMDeviceSession.BeginSession
+title: IWMDMDeviceSession::BeginSession
+author: windows-sdk-content
+description: The BeginSession method begins a device session.
+old-location: wmdm\iwmdmdevicesession_beginsession.htm
+old-project: WMDM
+ms.assetid: 7077e594-58ed-497d-893d-81eeb317b274
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: BeginSession, BeginSession method [windows Media Device Manager], BeginSession method [windows Media Device Manager],IWMDMDeviceSession interface, IWMDMDeviceSession interface [windows Media Device Manager],BeginSession method, IWMDMDeviceSession.BeginSession, IWMDMDeviceSession::BeginSession, IWMDMDeviceSessionBeginSession, mswmdm/IWMDMDeviceSession::BeginSession, wmdm.iwmdmdevicesession_beginsession
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IWMDMDeviceSession.BeginSession
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMDeviceSession::BeginSession

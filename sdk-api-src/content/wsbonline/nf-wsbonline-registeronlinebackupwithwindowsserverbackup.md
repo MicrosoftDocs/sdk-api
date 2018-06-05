@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wsbonline.RegisterOnlineBackupWithWindowsServerBackup
+title: RegisterOnlineBackupWithWindowsServerBackup function
+author: windows-sdk-content
+description: Registers a Cloud backup provider with Windows Server Backup.
+old-location: wsb\registeronlinebackupwithwindowsserverbackup.htm
+old-project: wsb
+ms.assetid: F6BBE44C-E735-47E9-8AD1-A7F1FBAC0330
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: RegisterOnlineBackupWithWindowsServerBackup, RegisterOnlineBackupWithWindowsServerBackup function [Windows Server Backup], wsb.registeronlinebackupwithwindowsserverbackup, wsbonline/RegisterOnlineBackupWithWindowsServerBackup
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wsbonline.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSB_OB_STATUS_ENTRY_PAIR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WsbOnline.dll
+api_name:
+-	RegisterOnlineBackupWithWindowsServerBackup
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: WsbOnline.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # RegisterOnlineBackupWithWindowsServerBackup function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagDESIGNVECTOR
+title: tagDESIGNVECTOR
+author: windows-sdk-content
+description: The DESIGNVECTOR structure is used by an application to specify values for the axes of a multiple master font.
+old-location: gdi\designvector.htm
+old-project: gdi
+ms.assetid: aeff9901-2405-44aa-ba46-8d784afd6b76
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPDESIGNVECTOR, *PDESIGNVECTOR, DESIGNVECTOR, DESIGNVECTOR structure [Windows GDI], PDESIGNVECTOR, PDESIGNVECTOR structure pointer [Windows GDI], _win32_DESIGNVECTOR_str, gdi.designvector, tagDESIGNVECTOR, wingdi/DESIGNVECTOR, wingdi/PDESIGNVECTOR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DESIGNVECTOR, *PDESIGNVECTOR, *LPDESIGNVECTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	DESIGNVECTOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagDESIGNVECTOR structure

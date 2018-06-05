@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi.CLUS_RESSUBCLASS_NETWORK
+title: CLUS_RESSUBCLASS_NETWORK
+author: windows-sdk-content
+description: Identifies a resource subclass that manages an IP address provider.
+old-location: mscs\clus_ressubclass_network.htm
+old-project: MsCS
+ms.assetid: 1dea2545-f0d4-4730-87af-19de135c1640
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUS_RESSUBCLASS_NETWORK, CLUS_RESSUBCLASS_NETWORK enumeration [Failover Cluster], CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, clusapi/CLUS_RESSUBCLASS_NETWORK, clusapi/CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, msclus/CLUS_RESSUBCLASS_NETWORK, msclus/CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, mscs.clus_ressubclass_network
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUS_RESSUBCLASS_NETWORK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUS_RESSUBCLASS_NETWORK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUS_RESSUBCLASS_NETWORK enumeration

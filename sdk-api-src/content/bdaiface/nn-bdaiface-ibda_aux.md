@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:bdaiface.IBDA_AUX
+title: IBDA_AUX
+author: windows-sdk-content
+description: Gets the capabilities of a device's auxiliary input connectors. This interface provides access to a device's Aux Service.
+old-location: mstv\ibda_aux.htm
+old-project: mstv
+ms.assetid: 8397a04f-5d40-4fa3-ac02-79c764abd174
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBDA_AUX, IBDA_AUX interface [Microsoft TV Technologies], IBDA_AUX interface [Microsoft TV Technologies],described, bdaiface/IBDA_AUX, mstv.ibda_aux
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bdaiface.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_AUX
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_AUX interface

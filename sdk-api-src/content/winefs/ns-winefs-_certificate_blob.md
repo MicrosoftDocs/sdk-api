@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winefs._CERTIFICATE_BLOB
+title: "_CERTIFICATE_BLOB"
+author: windows-sdk-content
+description: Contains a certificate.
+old-location: fs\efs_certificate_blob_str.htm
+old-project: FileIO
+ms.assetid: e0d0aa0a-ac87-4734-93d0-30c2080319e8
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PEFS_CERTIFICATE_BLOB, CRYPT_ASN_ENCODING, CRYPT_NDR_ENCODING, EFS_CERTIFICATE_BLOB, EFS_CERTIFICATE_BLOB structure [Files], PEFS_CERTIFICATE_BLOB, PEFS_CERTIFICATE_BLOB structure pointer [Files], X509_ASN_ENCODING, X509_NDR_ENCODING, _CERTIFICATE_BLOB, _win32_efs_certificate_blob_str, base.efs_certificate_blob_str, fs.efs_certificate_blob_str, winefs/EFS_CERTIFICATE_BLOB, winefs/PEFS_CERTIFICATE_BLOB"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winefs.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EFS_CERTIFICATE_BLOB, *PEFS_CERTIFICATE_BLOB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winefs.h
+api_name:
+-	EFS_CERTIFICATE_BLOB
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERTIFICATE_BLOB structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_SURFCB_BLT
+title: PDD_SURFCB_BLT
+author: windows-sdk-content
+description: The DdBlt callback function performs a bit-block transfer.
+old-location: display\ddblt.htm
+old-project: display
+ms.assetid: 28e0c827-33f1-4b83-9f20-bbb66bc0e14a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DdBlt, DdBlt callback function [Display Devices], PDD_SURFCB_BLT, PDD_SURFCB_BLT callback, ddfncs_464b3f37-739d-45c9-955d-3103c6a21047.xml, ddrawint/DdBlt, display.ddblt
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdBlt
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_SURFCB_BLT callback function

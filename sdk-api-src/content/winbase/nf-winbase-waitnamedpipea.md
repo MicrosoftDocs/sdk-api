@@ -1,31 +1,60 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.WaitNamedPipeA
+title: WaitNamedPipeA function
+author: windows-sdk-content
+description: Waits until either a time-out interval elapses or an instance of the specified named pipe is available for connection (that is, the pipe's server process has a pending ConnectNamedPipe operation on the pipe).
+old-location: base\waitnamedpipe.htm
+old-project: ipc
+ms.assetid: cbb2300b-5d5f-4a7b-994b-63b747e9ccfc
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: NMPWAIT_USE_DEFAULT_WAIT, NMPWAIT_WAIT_FOREVER, WaitNamedPipe, WaitNamedPipe function, WaitNamedPipeA, WaitNamedPipeW, _win32_waitnamedpipe, base.waitnamedpipe, winbase/WaitNamedPipe, winbase/WaitNamedPipeA, winbase/WaitNamedPipeW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WaitNamedPipeW (Unicode) and WaitNamedPipeA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-NamedPipe-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-NamedPipe-l1-2-0.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+-	API-MS-Win-Core-NamedPipe-l1-2-1.dll
+-	API-Ms-Win-Core-NamedPipe-Ansi-L1-1-0.dll
+-	Kernel32Legacy.dll
+-	API-MS-Win-Core-NamedPipe-Ansi-L1-1-1.dll
+-	API-MS-Win-Core-NamedPipe-L1-2-2.dll
+api_name:
+-	WaitNamedPipe
+-	WaitNamedPipeA
+-	WaitNamedPipeW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WaitNamedPipeA function

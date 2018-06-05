@@ -1,31 +1,59 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winnls.SetCalendarInfoW
+title: SetCalendarInfoW function
+author: windows-sdk-content
+description: Sets an item of locale information for a calendar. For more information, see Date and Calendar.
+old-location: intl\setcalendarinfo.htm
+old-project: Intl
+ms.assetid: 3599f68f-5b7c-4bf9-9c42-452047c0731f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SetCalendarInfo, SetCalendarInfo function [Internationalization for Windows Applications], SetCalendarInfoA, SetCalendarInfoW, _win32_SetCalendarInfo, intl.setcalendarinfo, winnls/SetCalendarInfo, winnls/SetCalendarInfoA, winnls/SetCalendarInfoW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winnls.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SetCalendarInfoW (Unicode) and SetCalendarInfoA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NORM_FORM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Localization-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-Localization-l1-2-0.dll
+-	API-MS-Win-Core-Localization-l1-2-1.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+-	API-MS-Win-Core-Localization-L1-2-2.dll
+-	API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+-	Kernel32Legacy.dll
+api_name:
+-	SetCalendarInfo
+-	SetCalendarInfoA
+-	SetCalendarInfoW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # SetCalendarInfoW function

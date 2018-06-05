@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipsectypes.IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0_
+title: IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0_
+author: windows-sdk-content
+description: Stores information about the authentication and encryption algorithms of an IPsec security association (SA).
+old-location: fwp\ipsec_sa_auth_and_cipher_information0_struct.htm
+old-project: FWP
+ms.assetid: 0e213ba0-3993-41da-8ddd-5ecde7942a95
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0, IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0 structure [Filtering], IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0_, fwp.ipsec_sa_auth_and_cipher_information0_struct, ipsectypes/IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipsectypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipsectypes.h
+api_name:
+-	IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0_ structure

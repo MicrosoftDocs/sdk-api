@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:micaut.__MIDL___MIDL_itf_micaut_0000_0000_0001
+title: "__MIDL___MIDL_itf_micaut_0000_0000_0001"
+author: windows-sdk-content
+description: Specifies the user interface (UI) elements of a math input control (MIC).
+old-location: tablet\micuielement.htm
+old-project: tablet
+ms.assetid: 3091480b-cb75-4faf-9005-1d9ddccea236
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: MICUIELEMENT, MICUIELEMENT enumeration [Tablet PC], MICUIELEMENT_BUTTON_CANCEL, MICUIELEMENT_BUTTON_CLEAR, MICUIELEMENT_BUTTON_CORRECT, MICUIELEMENT_BUTTON_ERASE, MICUIELEMENT_BUTTON_INSERT, MICUIELEMENT_BUTTON_REDO, MICUIELEMENT_BUTTON_UNDO, MICUIELEMENT_BUTTON_WRITE, MICUIELEMENT_INKPANEL_BACKGROUND, MICUIELEMENT_RESULTPANEL_BACKGROUND, __MIDL___MIDL_itf_micaut_0000_0000_0001, micaut/MICUIELEMENT, micaut/MICUIELEMENT_BUTTON_CANCEL, micaut/MICUIELEMENT_BUTTON_CLEAR, micaut/MICUIELEMENT_BUTTON_CORRECT, micaut/MICUIELEMENT_BUTTON_ERASE, micaut/MICUIELEMENT_BUTTON_INSERT, micaut/MICUIELEMENT_BUTTON_REDO, micaut/MICUIELEMENT_BUTTON_UNDO, micaut/MICUIELEMENT_BUTTON_WRITE, micaut/MICUIELEMENT_INKPANEL_BACKGROUND, micaut/MICUIELEMENT_RESULTPANEL_BACKGROUND, tablet.micuielement
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: micaut.h
+req.include-header: Micaut.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Micaut.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MICUIELEMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	micaut.h
+api_name:
+-	MICUIELEMENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_micaut_0000_0000_0001 enumeration

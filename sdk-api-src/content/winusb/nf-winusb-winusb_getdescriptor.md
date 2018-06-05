@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winusb.WinUsb_GetDescriptor
+title: WinUsb_GetDescriptor function
+author: windows-sdk-content
+description: The WinUsb_GetDescriptor function returns the requested descriptor. This is a synchronous operation.
+old-location: buses\winusb_getdescriptor.htm
+old-project: usbref
+ms.assetid: 59393a8f-4da9-44fd-8380-bb97e50cdb51
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: WinUsb_GetDescriptor, WinUsb_GetDescriptor function [Buses], buses.winusb_getdescriptor, winusb/WinUsb_GetDescriptor, winusbfunc_abc6ce9f-1e6f-470f-8770-6376cc9ffebf.xml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winusb.h
+req.include-header: Winusb.h
+req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winusb.dll
+api_name:
+-	WinUsb_GetDescriptor
+product: Windows
+targetos: Windows
+req.lib: Winusb.lib
+req.dll: Winusb.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WinUsb_GetDescriptor function

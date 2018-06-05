@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi.CLUSTER_OBJECT_TYPE
+title: CLUSTER_OBJECT_TYPE
+author: windows-sdk-content
+description: Defines the type of object for which a notification is requested or generated.
+old-location: mscs\cluster_object_type.htm
+old-project: MsCS
+ms.assetid: 714C0EF1-7397-4227-B4B1-AFC5E61E08C2
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_OBJECT_TYPE, CLUSTER_OBJECT_TYPE enumeration [Failover Cluster], CLUSTER_OBJECT_TYPE_CLUSTER, CLUSTER_OBJECT_TYPE_GROUP, CLUSTER_OBJECT_TYPE_GROUPSET, CLUSTER_OBJECT_TYPE_NETWORK, CLUSTER_OBJECT_TYPE_NETWORK_INTERFACE, CLUSTER_OBJECT_TYPE_NODE, CLUSTER_OBJECT_TYPE_NONE, CLUSTER_OBJECT_TYPE_QUORUM, CLUSTER_OBJECT_TYPE_REGISTRY, CLUSTER_OBJECT_TYPE_RESOURCE, CLUSTER_OBJECT_TYPE_RESOURCE_TYPE, CLUSTER_OBJECT_TYPE_SHARED_VOLUME, clusapi/CLUSTER_OBJECT_TYPE, clusapi/CLUSTER_OBJECT_TYPE_CLUSTER, clusapi/CLUSTER_OBJECT_TYPE_GROUP, clusapi/CLUSTER_OBJECT_TYPE_GROUPSET, clusapi/CLUSTER_OBJECT_TYPE_NETWORK, clusapi/CLUSTER_OBJECT_TYPE_NETWORK_INTERFACE, clusapi/CLUSTER_OBJECT_TYPE_NODE, clusapi/CLUSTER_OBJECT_TYPE_NONE, clusapi/CLUSTER_OBJECT_TYPE_QUORUM, clusapi/CLUSTER_OBJECT_TYPE_REGISTRY, clusapi/CLUSTER_OBJECT_TYPE_RESOURCE, clusapi/CLUSTER_OBJECT_TYPE_RESOURCE_TYPE, clusapi/CLUSTER_OBJECT_TYPE_SHARED_VOLUME, msclus/CLUSTER_OBJECT_TYPE, msclus/CLUSTER_OBJECT_TYPE_CLUSTER, msclus/CLUSTER_OBJECT_TYPE_GROUP, msclus/CLUSTER_OBJECT_TYPE_GROUPSET, msclus/CLUSTER_OBJECT_TYPE_NETWORK, msclus/CLUSTER_OBJECT_TYPE_NETWORK_INTERFACE, msclus/CLUSTER_OBJECT_TYPE_NODE, msclus/CLUSTER_OBJECT_TYPE_NONE, msclus/CLUSTER_OBJECT_TYPE_QUORUM, msclus/CLUSTER_OBJECT_TYPE_REGISTRY, msclus/CLUSTER_OBJECT_TYPE_RESOURCE, msclus/CLUSTER_OBJECT_TYPE_RESOURCE_TYPE, msclus/CLUSTER_OBJECT_TYPE_SHARED_VOLUME, mscs.cluster_object_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_OBJECT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSTER_OBJECT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSTER_OBJECT_TYPE enumeration

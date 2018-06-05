@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_HALINFO
+title: "_DD_HALINFO"
+author: windows-sdk-content
+description: The DD_HALINFO structure describes the capabilities of the hardware and driver.
+old-location: display\dd_halinfo.htm
+old-project: display
+ms.assetid: 99ecd219-1e85-4904-867d-3efcb378bb11
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_HALINFO, DD_HALINFO, DD_HALINFO structure [Display Devices], PDD_HALINFO, PDD_HALINFO structure pointer [Display Devices], _DD_HALINFO, ddrawint/DD_HALINFO, ddrawint/PDD_HALINFO, ddstrcts_3b4465cc-0f18-431c-b0a5-bf5bfb854f05.xml, display.dd_halinfo"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DD_HALINFO, *PDD_HALINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_HALINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_HALINFO structure

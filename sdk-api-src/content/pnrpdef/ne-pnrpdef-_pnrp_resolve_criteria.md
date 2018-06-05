@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:pnrpdef._PNRP_RESOLVE_CRITERIA
+title: "_PNRP_RESOLVE_CRITERIA"
+author: windows-sdk-content
+description: The PNRP_RESOLVE_CRITERIA enumeration specifies the criteria that PNRP uses to resolve searches.
+old-location: p2p\pnrp_resolve_criteria.htm
+old-project: P2PSdk
+ms.assetid: 11104d6c-75a8-454a-8203-b1ef105db61a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PNRP_RESOLVE_CRITERIA, PNRP_RESOLVE_CRITERIA enumeration [Peer Networking], PNRP_RESOLVE_CRITERIA_ANY_PEER_NAME, PNRP_RESOLVE_CRITERIA_DEFAULT, PNRP_RESOLVE_CRITERIA_NEAREST_NON_CURRENT_PROCESS_PEER_NAME, PNRP_RESOLVE_CRITERIA_NEAREST_PEER_NAME, PNRP_RESOLVE_CRITERIA_NEAREST_REMOTE_PEER_NAME, PNRP_RESOLVE_CRITERIA_NON_CURRENT_PROCESS_PEER_NAME, PNRP_RESOLVE_CRITERIA_REMOTE_PEER_NAME, _PNRP_RESOLVE_CRITERIA, p2p.pnrp_resolve_criteria, pnrpdef/PNRP_RESOLVE_CRITERIA, pnrpdef/PNRP_RESOLVE_CRITERIA_ANY_PEER_NAME, pnrpdef/PNRP_RESOLVE_CRITERIA_DEFAULT, pnrpdef/PNRP_RESOLVE_CRITERIA_NEAREST_NON_CURRENT_PROCESS_PEER_NAME, pnrpdef/PNRP_RESOLVE_CRITERIA_NEAREST_PEER_NAME, pnrpdef/PNRP_RESOLVE_CRITERIA_NEAREST_REMOTE_PEER_NAME, pnrpdef/PNRP_RESOLVE_CRITERIA_NON_CURRENT_PROCESS_PEER_NAME, pnrpdef/PNRP_RESOLVE_CRITERIA_REMOTE_PEER_NAME
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: pnrpdef.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack for Windows XP
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Pnpxassoc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PNRP_RESOLVE_CRITERIA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pnrpdef.h
+api_name:
+-	PNRP_RESOLVE_CRITERIA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PNRP_RESOLVE_CRITERIA enumeration

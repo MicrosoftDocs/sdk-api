@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dot1x._ONEX_EAP_METHOD_BACKEND_SUPPORT
+title: "_ONEX_EAP_METHOD_BACKEND_SUPPORT"
+author: windows-sdk-content
+description: Specifies the possible values for whether the EAP method configured on the supplicant for 802.1X authentication is supported on the authentication server.
+old-location: nwifi\onex_eap_method_backend_support.htm
+old-project: NativeWiFi
+ms.assetid: ae0c30c3-331e-4b57-aa5f-f6b1f73dc69d
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: ONEX_EAP_METHOD_BACKEND_SUPPORT, ONEX_EAP_METHOD_BACKEND_SUPPORT enumeration [NativeWIFI], OneXEapMethodBackendSupportUnknown, OneXEapMethodBackendSupported, OneXEapMethodBackendUnsupported, _ONEX_EAP_METHOD_BACKEND_SUPPORT, dot1x/ONEX_EAP_METHOD_BACKEND_SUPPORT, dot1x/OneXEapMethodBackendSupportUnknown, dot1x/OneXEapMethodBackendSupported, dot1x/OneXEapMethodBackendUnsupported, nwifi.onex_eap_method_backend_support
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dot1x.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ONEX_EAP_METHOD_BACKEND_SUPPORT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dot1x.h
+api_name:
+-	ONEX_EAP_METHOD_BACKEND_SUPPORT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _ONEX_EAP_METHOD_BACKEND_SUPPORT enumeration

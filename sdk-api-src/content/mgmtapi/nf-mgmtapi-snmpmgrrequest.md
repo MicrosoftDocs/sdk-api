@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mgmtapi.SnmpMgrRequest
+title: SnmpMgrRequest function
+author: windows-sdk-content
+description: The SnmpMgrRequest function requests the specified operation be performed with the specified agent. This function is an element of the SNMP Management API.
+old-location: snmp\snmpmgrrequest.htm
+old-project: SNMP
+ms.assetid: f66ce774-dba0-466b-ad1e-671f9a487e0f
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: SNMP_ERRORSTATUS_BADVALUE, SNMP_ERRORSTATUS_GENERR, SNMP_ERRORSTATUS_NOERROR, SNMP_ERRORSTATUS_NOSUCHNAME, SNMP_ERRORSTATUS_READONLY, SNMP_ERRORSTATUS_TOOBIG, SNMP_PDU_GET, SNMP_PDU_GETNEXT, SNMP_PDU_SET, SnmpMgrRequest, SnmpMgrRequest function [SNMP], _snmp_snmpmgrrequest, mgmtapi/SnmpMgrRequest, snmp.snmpmgrrequest
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mgmtapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOURCE_GROUP_ENTRY, *PSOURCE_GROUP_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Mgmtapi.dll
+api_name:
+-	SnmpMgrRequest
+product: Windows
+targetos: Windows
+req.lib: Mgmtapi.lib
+req.dll: Mgmtapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # SnmpMgrRequest function

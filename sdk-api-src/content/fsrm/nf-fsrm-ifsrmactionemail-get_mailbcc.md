@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrm.IFsrmActionEmail.get_MailBcc
+title: IFsrmActionEmail::get_MailBcc
+author: windows-sdk-content
+description: Retrieves or sets the blind carbon copy (Bcc) email address to which email is sent when this action generates email.
+old-location: fsrm\ifsrmactionemail_mailbcc.htm
+old-project: Fsrm
+ms.assetid: 4c05fcd2-ec94-4ed3-a027-ac91e4452e59
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailBcc property, IFsrmActionEmail.MailBcc, IFsrmActionEmail.get_MailBcc, IFsrmActionEmail2 interface [File Server Resource Manager],MailBcc property, IFsrmActionEmail2.MailBcc, IFsrmActionEmail2::MailBcc, IFsrmActionEmail2::get_MailBcc, IFsrmActionEmail2::put_MailBcc, IFsrmActionEmail::get_MailBcc, IFsrmActionEmail::put_MailBcc, MailBcc property [File Server Resource Manager], MailBcc property [File Server Resource Manager],IFsrmActionEmail interface, MailBcc property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailbcc, fsrm.ifsrmactionemail_mailbcc, fsrm/IFsrmActionEmail2::MailBcc, fsrm/IFsrmActionEmail2::get_MailBcc, fsrm/IFsrmActionEmail2::put_MailBcc, fsrm/IFsrmActionEmail::MailBcc, fsrm/IFsrmActionEmail::get_MailBcc, fsrm/IFsrmActionEmail::put_MailBcc, get_MailBcc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrm.h
+req.include-header: FsrmQuota.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmActionEmail2.MailBcc
+-	IFsrmActionEmail2.get_MailBcc
+-	IFsrmActionEmail2.put_MailBcc
+-	IFsrmActionEmail.MailBcc
+-	IFsrmActionEmail.get_MailBcc
+-	IFsrmActionEmail.put_MailBcc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmActionEmail::get_MailBcc

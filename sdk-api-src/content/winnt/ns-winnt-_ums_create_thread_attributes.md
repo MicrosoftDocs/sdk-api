@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._UMS_CREATE_THREAD_ATTRIBUTES
+title: "_UMS_CREATE_THREAD_ATTRIBUTES"
+author: windows-sdk-content
+description: Specifies attributes for a user-mode scheduling (UMS) worker thread.
+old-location: base\ums_create_thread_attributes.htm
+old-project: ProcThread
+ms.assetid: 5d3e1721-c439-49bb-9cb6-8386fa8aaf50
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PUMS_CREATE_THREAD_ATTRIBUTES, PUMS_CREATE_THREAD_ATTRIBUTES, PUMS_CREATE_THREAD_ATTRIBUTES structure pointer, UMS_CREATE_THREAD_ATTRIBUTES, UMS_CREATE_THREAD_ATTRIBUTES structure, _UMS_CREATE_THREAD_ATTRIBUTES, base.ums_create_thread_attributes, winnt/PUMS_CREATE_THREAD_ATTRIBUTES, winnt/UMS_CREATE_THREAD_ATTRIBUTES"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UMS_CREATE_THREAD_ATTRIBUTES, *PUMS_CREATE_THREAD_ATTRIBUTES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	UMS_CREATE_THREAD_ATTRIBUTES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _UMS_CREATE_THREAD_ATTRIBUTES structure

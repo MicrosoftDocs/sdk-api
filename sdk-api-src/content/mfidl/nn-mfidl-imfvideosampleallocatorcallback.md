@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:mfidl.IMFVideoSampleAllocatorCallback
+title: IMFVideoSampleAllocatorCallback
+author: windows-sdk-content
+description: Enables an application to track video samples allocated by the enhanced video renderer (EVR).
+old-location: mf\imfvideosampleallocatorcallback.htm
+old-project: medfound
+ms.assetid: 7dbf8b3a-24b3-41d9-bb1e-9c57b88a77ac
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFVideoSampleAllocatorCallback, IMFVideoSampleAllocatorCallback interface [Media Foundation], IMFVideoSampleAllocatorCallback interface [Media Foundation],described, mf.imfvideosampleallocatorcallback, mfidl/IMFVideoSampleAllocatorCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfidl.h
+api_name:
+-	IMFVideoSampleAllocatorCallback
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: Mfsensorgroup.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFVideoSampleAllocatorCallback interface

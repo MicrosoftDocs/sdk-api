@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemContext.Clone
+title: IWbemContext::Clone
+author: windows-sdk-content
+description: The IWbemContext::Clone method makes a logical copy of the current IWbemContext object. This method can be useful when many calls must be made which have largely identical IWbemContext objects.
+old-location: wmi\iwbemcontext_clone.htm
+old-project: WmiSdk
+ms.assetid: a832f4b0-a450-4f74-a6ec-d205f57c1656
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: Clone, Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],Clone method, IWbemContext.Clone, IWbemContext::Clone, _hmm_iwbemcontext_clone, wbemcli/IWbemContext::Clone, wmi.iwbemcontext_clone
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,30 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Esscli.dll
+-	Fastprox.dll
+-	FrameDyn.dll
+-	FrameDynOS.dll
+-	Wbemcomn.dll
+-	Wbemcore.dll
+-	Wbemess.dll
+-	Wmipjobj.dll
+api_name:
+-	IWbemContext.Clone
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemContext::Clone

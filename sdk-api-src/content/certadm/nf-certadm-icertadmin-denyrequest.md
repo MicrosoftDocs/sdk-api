@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certadm.ICertAdmin.DenyRequest
+title: ICertAdmin::DenyRequest
+author: windows-sdk-content
+description: Denies a specified certificate request that is pending.
+old-location: security\icertadmin2_denyrequest.htm
+old-project: SecCrypto
+ms.assetid: a432fd66-0f80-4fb8-9778-38b240dd6369
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertAdmin interface [Security],DenyRequest method, DenyRequest, DenyRequest method [Security], DenyRequest method [Security],CCertAdmin interface, DenyRequest method [Security],ICertAdmin interface, DenyRequest method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],DenyRequest method, ICertAdmin.DenyRequest, ICertAdmin2 interface [Security],DenyRequest method, ICertAdmin2::DenyRequest, ICertAdmin::DenyRequest, certadm/ICertAdmin2::DenyRequest, certadm/ICertAdmin::DenyRequest, security.icertadmin2_denyrequest
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certadm.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certadm.dll
+api_name:
+-	ICertAdmin2.DenyRequest
+-	ICertAdmin.DenyRequest
+-	CCertAdmin.DenyRequest
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # ICertAdmin::DenyRequest

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winreg.RegNotifyChangeKeyValue
+title: RegNotifyChangeKeyValue function
+author: windows-sdk-content
+description: Notifies the caller about changes to the attributes or contents of a specified registry key.
+old-location: base\regnotifychangekeyvalue.htm
+old-project: SysInfo
+ms.assetid: aad72ed5-1123-4a8b-9fc4-b54a713b635e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: REG_NOTIFY_CHANGE_ATTRIBUTES, REG_NOTIFY_CHANGE_LAST_SET, REG_NOTIFY_CHANGE_NAME, REG_NOTIFY_CHANGE_SECURITY, REG_NOTIFY_THREAD_AGNOSTIC, RegNotifyChangeKeyValue, RegNotifyChangeKeyValue function, _win32_regnotifychangekeyvalue, base.regnotifychangekeyvalue, winreg/RegNotifyChangeKeyValue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winreg.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,31 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-Core-Localregistry-l1-1-0.dll
+-	KernelBase.dll
+-	Kernel32.dll
+-	API-MS-Win-Core-Registry-l1-1-0.dll
+-	API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+-	API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+-	MinKernelBase.dll
+-	api-ms-win-core-registry-l1-1-1.dll
+api_name:
+-	RegNotifyChangeKeyValue
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # RegNotifyChangeKeyValue function

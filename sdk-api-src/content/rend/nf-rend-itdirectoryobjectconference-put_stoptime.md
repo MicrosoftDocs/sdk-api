@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rend.ITDirectoryObjectConference.put_StopTime
+title: ITDirectoryObjectConference::put_StopTime
+author: windows-sdk-content
+description: The put_StopTime method sets the stop time of the conference. If the end time is zero, the session is not bounded.
+old-location: tapi3\itdirectoryobjectconference_put_stoptime.htm
+old-project: Tapi
+ms.assetid: 2542f3e2-d391-4d96-8aa8-120d639f0468
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_StopTime method, ITDirectoryObjectConference.put_StopTime, ITDirectoryObjectConference::put_StopTime, _tapi3_itdirectoryobjectconference_put_stoptime, put_StopTime, put_StopTime method [TAPI 2.2], put_StopTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_StopTime, tapi3.itdirectoryobjectconference_put_stoptime
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rend.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rend.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RND_ADVERTISING_SCOPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Rend.dll
+api_name:
+-	ITDirectoryObjectConference.put_StopTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITDirectoryObjectConference::put_StopTime

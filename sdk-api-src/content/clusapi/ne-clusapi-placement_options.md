@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi.PLACEMENT_OPTIONS
+title: PLACEMENT_OPTIONS
+author: windows-sdk-content
+description: Defines options for placing the cluster.
+old-location: mscs\placement_options.htm
+old-project: MsCS
+ms.assetid: 21b968c7-3132-4dda-9b27-404026cd525c
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PLACEMENT_OPTIONS, PLACEMENT_OPTIONS enumeration [Failover Cluster], PLACEMENT_OPTIONS_ALL, PLACEMENT_OPTIONS_CONSIDER_OFFLINE_VMS, PLACEMENT_OPTIONS_DEFAULT_PLACEMENT_OPTIONS, PLACEMENT_OPTIONS_DISABLE_CSV_VM_DEPENDENCY, PLACEMENT_OPTIONS_DONT_USE_CPU, PLACEMENT_OPTIONS_DONT_USE_MEMORY, PLACEMENT_OPTIONS_MIN_VALUE, clusapi/PLACEMENT_OPTIONS, clusapi/PLACEMENT_OPTIONS_ALL, clusapi/PLACEMENT_OPTIONS_CONSIDER_OFFLINE_VMS, clusapi/PLACEMENT_OPTIONS_DEFAULT_PLACEMENT_OPTIONS, clusapi/PLACEMENT_OPTIONS_DISABLE_CSV_VM_DEPENDENCY, clusapi/PLACEMENT_OPTIONS_DONT_USE_CPU, clusapi/PLACEMENT_OPTIONS_DONT_USE_MEMORY, clusapi/PLACEMENT_OPTIONS_MIN_VALUE, mscs.placement_options
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PLACEMENT_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	clusapi.h
+api_name:
+-	PLACEMENT_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PLACEMENT_OPTIONS enumeration

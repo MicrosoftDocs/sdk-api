@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataManager.put_CheckBeforeRunning
+title: IDataManager::put_CheckBeforeRunning
+author: windows-sdk-content
+description: Retrieves or sets a value that indicates whether the data manager should check imposed limits, such as the minimum available free disk space, before collecting data.
+old-location: pla\idatamanager_checkbeforerunning.htm
+old-project: PLA
+ms.assetid: 23c7aced-d159-4d5e-a9ff-f0ca5b3e4470
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: CheckBeforeRunning property [PLA], CheckBeforeRunning property [PLA],IDataManager interface, IDataManager interface [PLA],CheckBeforeRunning property, IDataManager.CheckBeforeRunning, IDataManager.put_CheckBeforeRunning, IDataManager::CheckBeforeRunning, IDataManager::get_CheckBeforeRunning, IDataManager::put_CheckBeforeRunning, base.idatamanager_checkbeforerunning, pla.idatamanager_checkbeforerunning, pla/IDataManager::CheckBeforeRunning, pla/IDataManager::get_CheckBeforeRunning, pla/IDataManager::put_CheckBeforeRunning, put_CheckBeforeRunning
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataManager.CheckBeforeRunning
+-	IDataManager.get_CheckBeforeRunning
+-	IDataManager.put_CheckBeforeRunning
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataManager::put_CheckBeforeRunning

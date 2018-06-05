@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.CALLINFO_LONG
+title: CALLINFO_LONG
+author: windows-sdk-content
+description: The CALLINFO_LONG enum is used by ITCallInfo methods that set and get call information of type LONG.
+old-location: tapi3\callinfo_long.htm
+old-project: Tapi
+ms.assetid: 48a27ba2-e21d-46bb-8fba-8052fc68b851
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CALLINFO_LONG, CALLINFO_LONG enumeration [TAPI 2.2], CIL_APPSPECIFIC, CIL_BEARERMODE, CIL_CALLEDIDADDRESSTYPE, CIL_CALLERIDADDRESSTYPE, CIL_CALLID, CIL_CALLPARAMSFLAGS, CIL_CALLTREATMENT, CIL_COMPLETIONID, CIL_CONNECTEDIDADDRESSTYPE, CIL_COUNTRYCODE, CIL_MAXRATE, CIL_MEDIATYPESAVAILABLE, CIL_MINRATE, CIL_NUMBEROFMONITORS, CIL_NUMBEROFOWNERS, CIL_ORIGIN, CIL_RATE, CIL_REASON, CIL_REDIRECTINGIDADDRESSTYPE, CIL_REDIRECTIONIDADDRESSTYPE, CIL_RELATEDCALLID, CIL_TRUNK, _tapi3_callinfo_long, tapi3.callinfo_long, tapi3if/CALLINFO_LONG, tapi3if/CIL_APPSPECIFIC, tapi3if/CIL_BEARERMODE, tapi3if/CIL_CALLEDIDADDRESSTYPE, tapi3if/CIL_CALLERIDADDRESSTYPE, tapi3if/CIL_CALLID, tapi3if/CIL_CALLPARAMSFLAGS, tapi3if/CIL_CALLTREATMENT, tapi3if/CIL_COMPLETIONID, tapi3if/CIL_CONNECTEDIDADDRESSTYPE, tapi3if/CIL_COUNTRYCODE, tapi3if/CIL_MAXRATE, tapi3if/CIL_MEDIATYPESAVAILABLE, tapi3if/CIL_MINRATE, tapi3if/CIL_NUMBEROFMONITORS, tapi3if/CIL_NUMBEROFOWNERS, tapi3if/CIL_ORIGIN, tapi3if/CIL_RATE, tapi3if/CIL_REASON, tapi3if/CIL_REDIRECTINGIDADDRESSTYPE, tapi3if/CIL_REDIRECTIONIDADDRESSTYPE, tapi3if/CIL_RELATEDCALLID, tapi3if/CIL_TRUNK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CALLINFO_LONG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	CALLINFO_LONG
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # CALLINFO_LONG enumeration

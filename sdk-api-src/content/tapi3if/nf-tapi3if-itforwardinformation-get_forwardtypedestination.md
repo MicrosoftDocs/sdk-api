@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITForwardInformation.get_ForwardTypeDestination
+title: ITForwardInformation::get_ForwardTypeDestination
+author: windows-sdk-content
+description: The get_ForwardTypeDestination method gets the destination for a forwarding mode.
+old-location: tapi3\itforwardinformation_get_forwardtypedestination.htm
+old-project: Tapi
+ms.assetid: 84a5737c-3bcd-4fdf-9a51-ef726fe71682
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITForwardInformation interface [TAPI 2.2],get_ForwardTypeDestination method, ITForwardInformation.get_ForwardTypeDestination, ITForwardInformation::get_ForwardTypeDestination, _tapi3_itforwardinformation_get_forwardtypedestination, get_ForwardTypeDestination, get_ForwardTypeDestination method [TAPI 2.2], get_ForwardTypeDestination method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_get_forwardtypedestination, tapi3if/ITForwardInformation::get_ForwardTypeDestination
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITForwardInformation.get_ForwardTypeDestination
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITForwardInformation::get_ForwardTypeDestination

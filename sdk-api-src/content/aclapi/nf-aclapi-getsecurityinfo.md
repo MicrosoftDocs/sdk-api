@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:aclapi.GetSecurityInfo
+title: GetSecurityInfo function
+author: windows-sdk-content
+description: Retrieves a copy of the security descriptor for an object specified by a handle.
+old-location: security\getsecurityinfo.htm
+old-project: SecAuthZ
+ms.assetid: 64767a6b-cd79-4e02-881a-706a078ff446
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetSecurityInfo, GetSecurityInfo function [Security], _win32_getsecurityinfo, aclapi/GetSecurityInfo, security.getsecurityinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: aclapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	Ext-MS-Win-AdvAPI32-ntmarta-l1-1-0.dll
+-	advapi32legacy.dll
+-	api-ms-win-security-provider-l1-1-0.dll
+-	API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
+-	ntmarta.dll
+api_name:
+-	GetSecurityInfo
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 ---
 
 # GetSecurityInfo function

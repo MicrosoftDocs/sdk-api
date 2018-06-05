@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11sdklayers.ID3D11SwitchToRef.GetUseRef
+title: ID3D11SwitchToRef::GetUseRef
+author: windows-sdk-content
+description: ID3D11SwitchToRef::GetUseRef method
+old-location: direct3d11\id3d11switchtoref_getuseref.htm
+old-project: direct3d11
+ms.assetid: 7dc2dc8a-eff6-49b6-a557-88a9d0e5acbf
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: GetUseRef, GetUseRef method [Direct3D 11], GetUseRef method [Direct3D 11],ID3D11SwitchToRef interface, ID3D11SwitchToRef interface [Direct3D 11],GetUseRef method, ID3D11SwitchToRef.GetUseRef, ID3D11SwitchToRef::GetUseRef, d2a88f74-2129-d715-e015-72a288420026, d3d11sdklayers/ID3D11SwitchToRef::GetUseRef, direct3d11.id3d11switchtoref_getuseref
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11SDKLayers.h
+api_name:
+-	ID3D11SwitchToRef.GetUseRef
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11SwitchToRef::GetUseRef

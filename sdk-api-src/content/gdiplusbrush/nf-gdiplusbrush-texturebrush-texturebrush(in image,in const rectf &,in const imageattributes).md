@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:gdiplusbrush.TextureBrush.TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes)
+title: TextureBrush::TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes)
+author: windows-sdk-content
+description: This topic lists the constructors of the TextureBrush class. For a complete class listing, see TextureBrush Class.
+old-location: gdiplus\_gdiplus_CLASS_TextureBrush_Constructors.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: TextureBrush, TextureBrush constructors [GDI+], TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes), _gdiplus_CLASS_TextureBrush_Constructors, gdiplus._gdiplus_CLASS_TextureBrush_Constructors, gdiplusbrush/TextureBrush
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: gdiplusbrush.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KnownGamingPrivileges
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	gdiplusbrush.h
+api_name:
+-	TextureBrush.TextureBrush
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.0
 ---
 
 # TextureBrush::TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes)

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d10.D3D10_CLEAR_FLAG
+title: D3D10_CLEAR_FLAG
+author: windows-sdk-content
+description: Specifies the parts of the depth stencil to clear. Usually used with ID3D10Device::ClearDepthStencilView.
+old-location: direct3d10\d3d10_clear_flag.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_clear_flag.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 6f00bddb-2778-cf66-6ca7-e2d2fe7b3c5a, D3D10_CLEAR_DEPTH, D3D10_CLEAR_FLAG, D3D10_CLEAR_FLAG enumeration [Direct3D 10], D3D10_CLEAR_STENCIL, d3d10/D3D10_CLEAR_DEPTH, d3d10/D3D10_CLEAR_FLAG, d3d10/D3D10_CLEAR_STENCIL, direct3d10.d3d10_clear_flag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_CLEAR_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D10.h
+api_name:
+-	D3D10_CLEAR_FLAG
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D3D10_CLEAR_FLAG enumeration

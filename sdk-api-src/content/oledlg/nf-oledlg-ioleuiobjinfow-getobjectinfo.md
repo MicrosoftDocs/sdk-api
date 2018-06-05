@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oledlg.IOleUIObjInfoW.GetObjectInfo
+title: IOleUIObjInfoW::GetObjectInfo
+author: windows-sdk-content
+description: Gets the size, type, name, and location information for an object.
+old-location: com\ioleuiobjinfo_getobjectinfo.htm
+old-project: com
+ms.assetid: d09aafd0-0f4b-42c4-b1e6-0656cf0bd02d
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetObjectInfo, GetObjectInfo method [COM], GetObjectInfo method [COM],IOleUIObjInfo interface, GetObjectInfo method [COM],IOleUIObjInfoA interface, GetObjectInfo method [COM],IOleUIObjInfoW interface, IOleUIObjInfo interface [COM],GetObjectInfo method, IOleUIObjInfo::GetObjectInfo, IOleUIObjInfoA interface [COM],GetObjectInfo method, IOleUIObjInfoA::GetObjectInfo, IOleUIObjInfoW interface [COM],GetObjectInfo method, IOleUIObjInfoW.GetObjectInfo, IOleUIObjInfoW::GetObjectInfo, _ole_IOleUIObjInfo_GetObjectInfo, com.ioleuiobjinfo_getobjectinfo, oledlg/IOleUIObjInfo::GetObjectInfo, oledlg/IOleUIObjInfoA::GetObjectInfo, oledlg/IOleUIObjInfoW::GetObjectInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oledlg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OLEUIPASTEFLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OleDlg.h
+api_name:
+-	IOleUIObjInfo.GetObjectInfo
+-	IOleUIObjInfoW.GetObjectInfo
+-	IOleUIObjInfoA.GetObjectInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleUIObjInfoW::GetObjectInfo

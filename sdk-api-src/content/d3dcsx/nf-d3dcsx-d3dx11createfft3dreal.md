@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3dcsx.D3DX11CreateFFT3DReal
+title: D3DX11CreateFFT3DReal function
+author: windows-sdk-content
+description: Creates an ID3DX11FFT COM interface object.
+old-location: direct3d11\d3dx11createfft3dreal.htm
+old-project: direct3d11
+ms.assetid: c9194109-3755-4e63-969d-c01a96198d2b
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 965f86f8-f5c0-6a29-55ee-93b995644cf2, D3DX11CreateFFT3DReal, D3DX11CreateFFT3DReal function [Direct3D 11], d3dcsx/D3DX11CreateFFT3DReal, direct3d11.d3dx11createfft3dreal
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d3dcsx.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DX11_SCAN_OPCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	d3dcsx.lib
+-	d3dcsx.dll
+api_name:
+-	D3DX11CreateFFT3DReal
+product: Windows
+targetos: Windows
+req.lib: D3dcsx.lib
+req.dll: 
+req.irql: 
 ---
 
 # D3DX11CreateFFT3DReal function

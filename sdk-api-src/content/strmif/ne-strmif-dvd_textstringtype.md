@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.DVD_TextStringType
+title: DVD_TextStringType
+author: windows-sdk-content
+description: Defines a subset of the DVD text-string types.
+old-location: dshow\dvd_textstringtype.htm
+old-project: DirectShow
+ms.assetid: e8308432-a9a1-40d5-abec-aa6f86af9e5b
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DVD_Channel_Audio, DVD_General_Comments, DVD_General_Name, DVD_Other_Cut, DVD_Other_Scene, DVD_Other_Take, DVD_Stream_Angle, DVD_Stream_Audio, DVD_Stream_Subpicture, DVD_Struct_Cell, DVD_Struct_ParentalID, DVD_Struct_PartOfTitle, DVD_Struct_Title, DVD_Struct_Volume, DVD_TextStringType, DVD_TextStringType , DVD_TextStringType enumeration [DirectShow], DVD_TextStringTypeEnumeration, DVD_Title_Album, DVD_Title_Movie, DVD_Title_Orig_Album, DVD_Title_Orig_Movie, DVD_Title_Orig_Other, DVD_Title_Orig_Series, DVD_Title_Orig_Song, DVD_Title_Orig_Video, DVD_Title_Other, DVD_Title_Series, DVD_Title_Song, DVD_Title_Sub_Album, DVD_Title_Sub_Movie, DVD_Title_Sub_Other, DVD_Title_Sub_Series, DVD_Title_Sub_Song, DVD_Title_Sub_Video, DVD_Title_Video, _DVD_TextStringType, dshow.dvd_textstringtype, strmif/DVD_Channel_Audio, strmif/DVD_General_Comments, strmif/DVD_General_Name, strmif/DVD_Other_Cut, strmif/DVD_Other_Scene, strmif/DVD_Other_Take, strmif/DVD_Stream_Angle, strmif/DVD_Stream_Audio, strmif/DVD_Stream_Subpicture, strmif/DVD_Struct_Cell, strmif/DVD_Struct_ParentalID, strmif/DVD_Struct_PartOfTitle, strmif/DVD_Struct_Title, strmif/DVD_Struct_Volume, strmif/DVD_TextStringType, strmif/DVD_Title_Album, strmif/DVD_Title_Movie, strmif/DVD_Title_Orig_Album, strmif/DVD_Title_Orig_Movie, strmif/DVD_Title_Orig_Other, strmif/DVD_Title_Orig_Series, strmif/DVD_Title_Orig_Song, strmif/DVD_Title_Orig_Video, strmif/DVD_Title_Other, strmif/DVD_Title_Series, strmif/DVD_Title_Song, strmif/DVD_Title_Sub_Album, strmif/DVD_Title_Sub_Movie, strmif/DVD_Title_Sub_Other, strmif/DVD_Title_Sub_Series, strmif/DVD_Title_Sub_Song, strmif/DVD_Title_Sub_Video, strmif/DVD_Title_Video
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	DVD_TextStringType
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # DVD_TextStringType enumeration

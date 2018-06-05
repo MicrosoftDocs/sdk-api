@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:audioenginebaseapo.__MIDL___MIDL_itf_audioenginebaseapo_0000_0007_0001
+title: "__MIDL___MIDL_itf_audioenginebaseapo_0000_0007_0001"
+author: windows-sdk-content
+description: The AudioFXExtensionParams structure is passed to the system effects ControlPanel Extension PropertyPage via IShellPropSheetExt::AddPages.
+old-location: audio\audiofxextensionparams.htm
+old-project: audio
+ms.assetid: 832F1190-ED3E-4059-AB45-18C23D98663B
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: AudioFXExtensionParams, AudioFXExtensionParams structure [Audio Devices], PAudioFXExtensionParams, PAudioFXExtensionParams structure pointer [Audio Devices], __MIDL___MIDL_itf_audioenginebaseapo_0000_0007_0001, audio.audiofxextensionparams, audioenginebaseapo/AudioFXExtensionParams, audioenginebaseapo/PAudioFXExtensionParams
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: audioenginebaseapo.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AudioFXExtensionParams
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Audioenginebaseapo.h
+api_name:
+-	AudioFXExtensionParams
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: All levels.
 ---
 
 # __MIDL___MIDL_itf_audioenginebaseapo_0000_0007_0001 structure

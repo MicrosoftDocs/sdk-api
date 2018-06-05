@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wpcevent.tagWPC_ARGS_EMAILRECEIEVEDEVENT
+title: tagWPC_ARGS_EMAILRECEIEVEDEVENT
+author: windows-sdk-content
+description: Indicates information about an email message that has been received.
+old-location: parcon\wpc_args_emailreceivedevent.htm
+old-project: parcon
+ms.assetid: 6d3076cb-445b-463a-8f04-264438304c37
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WPC_ARGS_EMAILRECEIEVEDEVENT, WPC_ARGS_EMAILRECEIEVEDEVENT enumeration, WPC_ARGS_EMAILRECEIEVEDEVENT_APPNAME, WPC_ARGS_EMAILRECEIEVEDEVENT_APPVERSION, WPC_ARGS_EMAILRECEIEVEDEVENT_ATTACHCOUNT, WPC_ARGS_EMAILRECEIEVEDEVENT_ATTACHMENTNAME, WPC_ARGS_EMAILRECEIEVEDEVENT_CARGS, WPC_ARGS_EMAILRECEIEVEDEVENT_EMAILACCOUNT, WPC_ARGS_EMAILRECEIEVEDEVENT_REASON, WPC_ARGS_EMAILRECEIEVEDEVENT_RECEIVEDTIME, WPC_ARGS_EMAILRECEIEVEDEVENT_RECIPCOUNT, WPC_ARGS_EMAILRECEIEVEDEVENT_RECIPIENT, WPC_ARGS_EMAILRECEIEVEDEVENT_SENDER, WPC_ARGS_EMAILRECEIEVEDEVENT_SUBJECT, WPC_ARGS_EMAILRECEIVEDEVENT, parcon.wpc_args_emailreceivedevent, tagWPC_ARGS_EMAILRECEIEVEDEVENT, wpcevent/WPC_ARGS_EMAILRECEIEVEDEVENT, wpcevent/WPC_ARGS_EMAILRECEIEVEDEVENT_APPNAME, wpcevent/WPC_ARGS_EMAILRECEIEVEDEVENT_APPVERSION, wpcevent/WPC_ARGS_EMAILRECEIEVEDEVENT_ATTACHCOUNT, wpcevent/WPC_ARGS_EMAILRECEIEVEDEVENT_ATTACHMENTNAME, wpcevent/WPC_ARGS_EMAILRECEIEVEDEVENT_CARGS, wpcevent/WPC_ARGS_EMAILRECEIEVEDEVENT_EMAILACCOUNT, wpcevent/WPC_ARGS_EMAILRECEIEVEDEVENT_REASON, wpcevent/WPC_ARGS_EMAILRECEIEVEDEVENT_RECEIVEDTIME, wpcevent/WPC_ARGS_EMAILRECEIEVEDEVENT_RECIPCOUNT, wpcevent/WPC_ARGS_EMAILRECEIEVEDEVENT_RECIPIENT, wpcevent/WPC_ARGS_EMAILRECEIEVEDEVENT_SENDER, wpcevent/WPC_ARGS_EMAILRECEIEVEDEVENT_SUBJECT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wpcevent.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WPC_ARGS_EMAILRECEIEVEDEVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wpcevent.h
+api_name:
+-	WPC_ARGS_EMAILRECEIEVEDEVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagWPC_ARGS_EMAILRECEIEVEDEVENT enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:taskschd._TASK_ENUM_FLAGS
+title: "_TASK_ENUM_FLAGS"
+author: windows-sdk-content
+description: Defines how the Task Scheduler enumerates through registered tasks.
+old-location: taskschd\task_enum_flags.htm
+old-project: TaskSchd
+ms.assetid: c77e597b-c8d9-426c-aa9d-7bb8536b349a
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: TASK_ENUM_FLAGS, TASK_ENUM_FLAGS enumeration [Task Scheduler], TASK_ENUM_HIDDEN, _TASK_ENUM_FLAGS, taskschd.task_enum_flags, taskschd/TASK_ENUM_FLAGS, taskschd/TASK_ENUM_HIDDEN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_ENUM_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	taskschd.h
+api_name:
+-	TASK_ENUM_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TASK_ENUM_FLAGS enumeration

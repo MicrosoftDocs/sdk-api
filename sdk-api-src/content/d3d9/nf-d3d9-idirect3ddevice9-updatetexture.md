@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d9.IDirect3DDevice9.UpdateTexture
+title: IDirect3DDevice9::UpdateTexture
+author: windows-sdk-content
+description: Updates the dirty portions of a texture.
+old-location: direct3d9\idirect3ddevice9__updatetexture.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\idirect3ddevice9__updatetexture.htm
+ms.author: windowssdkdev
+ms.date: 04/10/2018
+ms.keywords: 29cd384a-27b9-87ac-3d77-7fb734d0afbe, IDirect3DDevice9 interface [Direct3D 9],UpdateTexture method, IDirect3DDevice9.UpdateTexture, IDirect3DDevice9::UpdateTexture, UpdateTexture, UpdateTexture method [Direct3D 9], UpdateTexture method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::UpdateTexture, direct3d9.idirect3ddevice9__updatetexture
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d9.h
+req.include-header: D3D9.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D9.lib
+-	D3D9.dll
+api_name:
+-	IDirect3DDevice9.UpdateTexture
+product: Windows
+targetos: Windows
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 ---
 
 # IDirect3DDevice9::UpdateTexture

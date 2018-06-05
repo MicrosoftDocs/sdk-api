@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:p2p.peer_app_launch_info_tag
+title: peer_app_launch_info_tag
+author: windows-sdk-content
+description: The PEER_APP_LAUNCH_INFO structure contains the peer application application launch information provided by a contact in a previous peer invite request.
+old-location: p2p\peer_app_launch_info.htm
+old-project: P2PSdk
+ms.assetid: 98c7f7b8-438f-4ce3-86ab-0e824ff08dc4
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PPEER_APP_LAUNCH_INFO, PCPEER_APP_LAUNCH_INFO, PCPEER_APP_LAUNCH_INFO structure pointer [Peer Networking], PEER_APP_LAUNCH_INFO, PEER_APP_LAUNCH_INFO structure [Peer Networking], PPEER_APP_LAUNCH_INFO, PPEER_APP_LAUNCH_INFO structure pointer [Peer Networking], p2p.peer_app_launch_info, p2p/PCPEER_APP_LAUNCH_INFO, p2p/PEER_APP_LAUNCH_INFO, p2p/PPEER_APP_LAUNCH_INFO, peer_app_launch_info_tag"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEER_APP_LAUNCH_INFO, *PPEER_APP_LAUNCH_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	P2P.h
+api_name:
+-	PEER_APP_LAUNCH_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # peer_app_launch_info_tag structure

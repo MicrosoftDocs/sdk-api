@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPPlayer2.get_stretchToFit
+title: IWMPPlayer2::get_stretchToFit
+author: windows-sdk-content
+description: The get_stretchToFit method retrieves a value indicating whether video displayed by the Windows Media Player control automatically sizes to fit the video window when the video window is larger than the dimensions of the video image.
+old-location: wmp\iwmpplayer2_get_stretchtofit.htm
+old-project: WMP
+ms.assetid: d477800d-fb16-49a7-ab80-a0f5f7c68fc7
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPPlayer2 interface [Windows Media Player],get_stretchToFit method, IWMPPlayer2.get_stretchToFit, IWMPPlayer2::get_stretchToFit, IWMPPlayer2get_stretchToFit, get_stretchToFit, get_stretchToFit method [Windows Media Player], get_stretchToFit method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_get_stretchtofit, wmp/IWMPPlayer2::get_stretchToFit
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPPlayer2.get_stretchToFit
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPPlayer2::get_stretchToFit

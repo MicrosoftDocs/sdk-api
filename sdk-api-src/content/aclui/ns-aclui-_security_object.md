@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:aclui._SECURITY_OBJECT
+title: "_SECURITY_OBJECT"
+author: windows-sdk-content
+description: Contains the security object information.
+old-location: security\security_object.htm
+old-project: SecAuthZ
+ms.assetid: C3E61527-76AB-49E9-8BBD-486F437CC677
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PSECURITY_OBJECT, PSECURITY_OBJECT, PSECURITY_OBJECT structure pointer [Security], SECURITY_OBJECT, SECURITY_OBJECT structure [Security], SECURITY_OBJECT_ID_CENTRAL_ACCESS_RULE (4), SECURITY_OBJECT_ID_CENTRAL_POLICY (3), SECURITY_OBJECT_ID_OBJECT_SD (1), SECURITY_OBJECT_ID_SHARE (2), _SECURITY_OBJECT, aclui/PSECURITY_OBJECT, aclui/SECURITY_OBJECT, security.security_object"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: aclui.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SECURITY_OBJECT, *PSECURITY_OBJECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Aclui.h
+api_name:
+-	SECURITY_OBJECT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _SECURITY_OBJECT structure

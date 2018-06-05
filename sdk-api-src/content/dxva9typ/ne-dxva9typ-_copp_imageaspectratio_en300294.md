@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dxva9typ._COPP_ImageAspectRatio_EN300294
+title: "_COPP_ImageAspectRatio_EN300294"
+author: windows-sdk-content
+description: Specifies the aspect ratio for EN 300 294.
+old-location: dshow\copp_imageaspectratio_en300294.htm
+old-project: DirectShow
+ms.assetid: 9beb172c-6255-482b-90cc-a32b2e5d3bec
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: COPP_AspectRatio_EN300294_Box14by9Center, COPP_AspectRatio_EN300294_Box14by9Top, COPP_AspectRatio_EN300294_Box16by9Center, COPP_AspectRatio_EN300294_Box16by9Top, COPP_AspectRatio_EN300294_BoxGT16by9Center, COPP_AspectRatio_EN300294_FullFormat16by9Anamorphic, COPP_AspectRatio_EN300294_FullFormat4by3, COPP_AspectRatio_EN300294_FullFormat4by3ProtectedCenter, COPP_ImageAspectRatio_EN300294, COPP_ImageAspectRatio_EN300294 , COPP_ImageAspectRatio_EN300294 enumeration [DirectShow], COPP_ImageAspectRatio_EN300294Enumeration, _COPP_ImageAspectRatio_EN300294, dshow.copp_imageaspectratio_en300294, dxva9typ/COPP_AspectRatio_EN300294_Box14by9Center, dxva9typ/COPP_AspectRatio_EN300294_Box14by9Top, dxva9typ/COPP_AspectRatio_EN300294_Box16by9Center, dxva9typ/COPP_AspectRatio_EN300294_Box16by9Top, dxva9typ/COPP_AspectRatio_EN300294_BoxGT16by9Center, dxva9typ/COPP_AspectRatio_EN300294_FullFormat16by9Anamorphic, dxva9typ/COPP_AspectRatio_EN300294_FullFormat4by3, dxva9typ/COPP_AspectRatio_EN300294_FullFormat4by3ProtectedCenter, dxva9typ/COPP_ImageAspectRatio_EN300294
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxva9typ.h
+req.include-header: Dxva.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COPP_ImageAspectRatio_EN300294
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxva9typ.h
+api_name:
+-	COPP_ImageAspectRatio_EN300294
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _COPP_ImageAspectRatio_EN300294 enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wlanapi.WlanSetProfile
+title: WlanSetProfile function
+author: windows-sdk-content
+description: Sets the content of a specific profile.
+old-location: nwifi\wlansetprofile.htm
+old-project: NativeWiFi
+ms.assetid: 3f8dca2e-6fe5-4c7d-a135-a33c61ba3dd5
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_USER, WlanSetProfile, WlanSetProfile function [NativeWIFI], nwifi.wlansetprofile, wlanapi/WlanSetProfile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wlanapi.h
+req.include-header: Wlanapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	wlanapi.dll
+-	Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+api_name:
+-	WlanSetProfile
+product: Windows
+targetos: Windows
+req.lib: Wlanapi.lib
+req.dll: Wlanapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WlanSetProfile function

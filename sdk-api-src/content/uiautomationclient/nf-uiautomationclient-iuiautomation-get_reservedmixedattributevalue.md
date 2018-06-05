@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomation.get_ReservedMixedAttributeValue
+title: IUIAutomation::get_ReservedMixedAttributeValue
+author: windows-sdk-content
+description: Retrieves a static token object representing a text attribute that is a mixed attribute.
+old-location: winauto\uiauto_IUIAutomation_ReservedMixedAttributeValue.htm
+old-project: WinAuto
+ms.assetid: 5b225507-deee-4f2c-a17b-f0e96963a1d0
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: IUIAutomation interface [Windows Accessibility],ReservedMixedAttributeValue property, IUIAutomation.ReservedMixedAttributeValue, IUIAutomation.get_ReservedMixedAttributeValue, IUIAutomation::ReservedMixedAttributeValue, IUIAutomation::get_ReservedMixedAttributeValue, ReservedMixedAttributeValue property [Windows Accessibility], ReservedMixedAttributeValue property [Windows Accessibility],IUIAutomation interface, get_ReservedMixedAttributeValue, uiauto.uiauto_IUIAutomation_ReservedMixedAttributeValue, uiauto_IUIAutomation_ReservedMixedAttributeValue, uiautomationclient/IUIAutomation::ReservedMixedAttributeValue, uiautomationclient/IUIAutomation::get_ReservedMixedAttributeValue, winauto.uiauto_IUIAutomation_ReservedMixedAttributeValue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomation.ReservedMixedAttributeValue
+-	IUIAutomation.get_ReservedMixedAttributeValue
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomation::get_ReservedMixedAttributeValue

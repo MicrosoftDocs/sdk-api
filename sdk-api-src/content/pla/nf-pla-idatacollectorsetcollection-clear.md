@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataCollectorSetCollection.Clear
+title: IDataCollectorSetCollection::Clear
+author: windows-sdk-content
+description: Removes all data collector sets from the collection.
+old-location: pla\idatacollectorsetcollection_clear.htm
+old-project: PLA
+ms.assetid: a7a4754c-8c64-4add-89b1-c5bdbf4cb807
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],Clear method, IDataCollectorSetCollection.Clear, IDataCollectorSetCollection::Clear, base.idatacollectorsetcollection_clear, pla.idatacollectorsetcollection_clear, pla/IDataCollectorSetCollection::Clear
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataCollectorSetCollection.Clear
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataCollectorSetCollection::Clear

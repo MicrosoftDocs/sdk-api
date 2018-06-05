@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:processthreadsapi.IsProcessCritical
+title: IsProcessCritical function
+author: windows-sdk-content
+description: Determines whether the specified process is considered critical.
+old-location: base\isprocesscritical.htm
+old-project: ProcThread
+ms.assetid: A5ED8672-B4C3-4A31-8B3F-A181628219A4
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IsProcessCritical, IsProcessCritical function, base.isprocesscritical, processthreadsapi/IsProcessCritical
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: processthreadsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSS_VA_SPACE_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdll.dll
+-	API-MS-Win-Core-Processthreads-l1-1-2.dll
+-	Kernel32.dll
+-	KernelBase.dll
+-	MinKernelBase.dll
+-	API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+-	IsProcessCritical
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Ntdll.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IsProcessCritical function

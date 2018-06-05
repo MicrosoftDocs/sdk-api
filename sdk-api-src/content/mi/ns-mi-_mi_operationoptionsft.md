@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mi._MI_OperationOptionsFT
+title: "_MI_OperationOptionsFT"
+author: windows-sdk-content
+description: A support structure used in the MI_OperationOptions structure. Use the functions with the name prefix &#0034;MI_OperationOptions_&#0034; to manipulate these structures.
+old-location: wmi_v2\mi_operationoptionsft.htm
+old-project: wmi_v2
+ms.assetid: ed84d3bc-2cb0-4052-902d-96a3ab3a3ba4
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: MI_OperationOptionsFT, MI_OperationOptionsFT structure [Windows Management Infrastructure (MI)], _MI_OperationOptionsFT, mi/MI_OperationOptionsFT, wmi_v2.mi_operationoptionsft
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MI_OperationOptionsFT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_OperationOptionsFT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MI_OperationOptionsFT structure

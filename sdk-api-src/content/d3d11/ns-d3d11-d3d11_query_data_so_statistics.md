@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d11.D3D11_QUERY_DATA_SO_STATISTICS
+title: D3D11_QUERY_DATA_SO_STATISTICS
+author: windows-sdk-content
+description: Query information about the amount of data streamed out to the stream-output buffers in between ID3D11DeviceContext::Begin and ID3D11DeviceContext::End.
+old-location: direct3d11\d3d11_query_data_so_statistics.htm
+old-project: direct3d11
+ms.assetid: f5fa2563-817b-4ccd-a2c8-60926fa7d082
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 595165cc-6026-e884-f8d4-b74f4fc8e939, D3D11_QUERY_DATA_SO_STATISTICS, D3D11_QUERY_DATA_SO_STATISTICS structure [Direct3D 11], d3d11/D3D11_QUERY_DATA_SO_STATISTICS, direct3d11.d3d11_query_data_so_statistics
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_QUERY_DATA_SO_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	D3D11_QUERY_DATA_SO_STATISTICS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_QUERY_DATA_SO_STATISTICS structure

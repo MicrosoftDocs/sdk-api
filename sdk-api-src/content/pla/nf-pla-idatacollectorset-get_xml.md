@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataCollectorSet.get_Xml
+title: IDataCollectorSet::get_Xml
+author: windows-sdk-content
+description: Retrieves an XML string that describes the values of the data collector set properties, including those of the data collectors contained in the set.
+old-location: pla\idatacollectorset_get_xml.htm
+old-project: PLA
+ms.assetid: 4b07bf1c-58e8-430a-a68c-c16cab954140
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IDataCollectorSet interface [PLA],Xml property, IDataCollectorSet.Xml, IDataCollectorSet.get_Xml, IDataCollectorSet::Xml, IDataCollectorSet::get_Xml, Xml property [PLA], Xml property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_xml, get_Xml, pla.idatacollectorset_get_xml, pla/IDataCollectorSet::Xml, pla/IDataCollectorSet::get_Xml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataCollectorSet.Xml
+-	IDataCollectorSet.get_Xml
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataCollectorSet::get_Xml

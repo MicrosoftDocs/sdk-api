@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:webservices.WS_EXTENDED_PROTECTION_POLICY
+title: WS_EXTENDED_PROTECTION_POLICY
+author: windows-sdk-content
+description: Defines if Extended Protection data should be validated.
+old-location: wsw\ws_extended_protection_policy.htm
+old-project: wsw
+ms.assetid: ee3685b1-0ffe-410e-a6fc-b31ed8d25b26
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_EXTENDED_PROTECTION_POLICY, WS_EXTENDED_PROTECTION_POLICY enumeration [Web Services for Windows], WS_EXTENDED_PROTECTION_POLICY_ALWAYS, WS_EXTENDED_PROTECTION_POLICY_NEVER, WS_EXTENDED_PROTECTION_POLICY_WHEN_SUPPORTED, webservices/WS_EXTENDED_PROTECTION_POLICY, webservices/WS_EXTENDED_PROTECTION_POLICY_ALWAYS, webservices/WS_EXTENDED_PROTECTION_POLICY_NEVER, webservices/WS_EXTENDED_PROTECTION_POLICY_WHEN_SUPPORTED, wsw.ws_extended_protection_policy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: v.1.0
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_EXTENDED_PROTECTION_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_EXTENDED_PROTECTION_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_EXTENDED_PROTECTION_POLICY enumeration

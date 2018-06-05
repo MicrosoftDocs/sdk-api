@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:p2p.PFNPEER_SECURE_RECORD
+title: PFNPEER_SECURE_RECORD
+author: windows-sdk-content
+description: The PFNPEER_SECURE_RECORD callback specifies the function that the Peer Graphing Infrastructure calls to secure records.
+old-location: p2p\pfnpeer_secure_record.htm
+old-project: P2PSdk
+ms.assetid: 454b40f6-a7de-4b59-ae35-a809c4510133
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PFNPEER_SECURE_RECORD, PFNPEER_SECURE_RECORD callback, PFNPEER_SECURE_RECORD callback function [Peer Networking], p2p.pfnpeer_secure_record, p2p/PFNPEER_SECURE_RECORD
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPM_STANDARD_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	P2P.h
+api_name:
+-	PFNPEER_SECURE_RECORD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PFNPEER_SECURE_RECORD callback function

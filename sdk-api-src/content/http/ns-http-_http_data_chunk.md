@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:http._HTTP_DATA_CHUNK
+title: "_HTTP_DATA_CHUNK"
+author: windows-sdk-content
+description: Represents an individual block of data either in memory, in a file, or in the HTTP Server API response-fragment cache.
+old-location: http\http_data_chunk.htm
+old-project: Http
+ms.assetid: ae67c066-c8bd-483f-829f-30192f49593d
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_DATA_CHUNK, HTTP_DATA_CHUNK, HTTP_DATA_CHUNK structure [HTTP], PHTTP_DATA_CHUNK, PHTTP_DATA_CHUNK structure pointer [HTTP], _HTTP_DATA_CHUNK, _http_http_data_chunk, http.http_data_chunk, http/HTTP_DATA_CHUNK, http/PHTTP_DATA_CHUNK"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_DATA_CHUNK, *PHTTP_DATA_CHUNK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_DATA_CHUNK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_DATA_CHUNK structure

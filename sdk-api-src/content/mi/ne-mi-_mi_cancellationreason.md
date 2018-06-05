@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mi._MI_CancellationReason
+title: "_MI_CancellationReason"
+author: windows-sdk-content
+description: Value to pass to an operation cancel request to notify the system of the reason the operation is being canceled. If the service is being shutdown, it may pass one of these values to the provider as well.
+old-location: wmi_v2\mi_cancellationreason.htm
+old-project: wmi_v2
+ms.assetid: 3c498055-03ef-4163-9de5-cf4e70051cea
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: MI_CancellationReason, MI_CancellationReason enumeration [Windows Management Infrastructure (MI)], MI_REASON_NONE, MI_REASON_SERVICESTOP, MI_REASON_SHUTDOWN, MI_REASON_TIMEOUT, _MI_CancellationReason, mi/MI_CancellationReason, mi/MI_REASON_NONE, mi/MI_REASON_SERVICESTOP, mi/MI_REASON_SHUTDOWN, mi/MI_REASON_TIMEOUT, wmi._mi_cancellationreason, wmi_v2.mi_cancellationreason
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MI_CancellationReason
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_CancellationReason
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MI_CancellationReason enumeration

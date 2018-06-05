@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d2d1.FillRoundedRectangle
+title: FillRoundedRectangle function
+author: windows-sdk-content
+description: Paints the interior of the specified rounded rectangle.
+old-location: direct2d\id2d1rendertarget_fillroundedrectangle.htm
+old-project: Direct2D
+ms.assetid: 9c4765b0-858f-4a20-b044-0acf87a1f131
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: FillRoundedRectangle, FillRoundedRectangle methods [Direct2D], ID2D1RenderTarget::FillRoundedRectangle, d2d1/FillRoundedRectangle, direct2d.id2d1rendertarget_fillroundedrectangle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d2d1.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_WINDOW_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D2d1.dll
+api_name:
+-	ID2D1RenderTarget::FillRoundedRectangle
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # FillRoundedRectangle function

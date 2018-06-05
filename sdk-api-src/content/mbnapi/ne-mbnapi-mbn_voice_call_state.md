@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mbnapi.MBN_VOICE_CALL_STATE
+title: MBN_VOICE_CALL_STATE
+author: windows-sdk-content
+description: The MBN_VOICE_CALL_STATE enumerated type specifies the current voice call state of the device.
+old-location: mbn\mbn_voice_call_state.htm
+old-project: mbn
+ms.assetid: 1b94b210-e50f-4d7b-a738-9c372364c4f8
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: MBN_VOICE_CALL_STATE, MBN_VOICE_CALL_STATE enumeration [Microsoft Broadband Networks], MBN_VOICE_CALL_STATE_HANGUP, MBN_VOICE_CALL_STATE_IN_PROGRESS, MBN_VOICE_CALL_STATE_NONE, mbn.mbn_voice_call_state, mbnapi/MBN_VOICE_CALL_STATE, mbnapi/MBN_VOICE_CALL_STATE_HANGUP, mbnapi/MBN_VOICE_CALL_STATE_IN_PROGRESS, mbnapi/MBN_VOICE_CALL_STATE_NONE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_VOICE_CALL_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mbnapi.h
+api_name:
+-	MBN_VOICE_CALL_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MBN_VOICE_CALL_STATE enumeration

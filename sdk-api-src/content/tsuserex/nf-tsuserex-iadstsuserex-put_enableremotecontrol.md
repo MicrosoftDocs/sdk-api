@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tsuserex.IADsTSUserEx.put_EnableRemoteControl
+title: IADsTSUserEx::put_EnableRemoteControl
+author: windows-sdk-content
+description: A value that specifies whether to allow remote observation or remote control of the user's Remote Desktop Services session.
+old-location: termserv\iadstsuserex_enableremotecontrol.htm
+old-project: TermServ
+ms.assetid: 197d9d7e-118c-413e-952e-2186f79b6633
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: Disable, EnableInputNoNotify, EnableInputNotify, EnableNoInputNoNotify, EnableNoInputNotify, EnableRemoteControl property [Remote Desktop Services], EnableRemoteControl property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],EnableRemoteControl property, IADsTSUserEx.EnableRemoteControl, IADsTSUserEx.put_EnableRemoteControl, IADsTSUserEx::EnableRemoteControl, IADsTSUserEx::get_EnableRemoteControl, IADsTSUserEx::put_EnableRemoteControl, put_EnableRemoteControl, termserv.iadstsuserex_enableremotecontrol, tsuserex/IADsTSUserEx::EnableRemoteControl, tsuserex/IADsTSUserEx::get_EnableRemoteControl, tsuserex/IADsTSUserEx::put_EnableRemoteControl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tsuserex.h
+req.include-header: Tsuserex.h, Tsuserex_i.c
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,26 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Tsuserex.tlb
+tech.root: 
+req.typenames: WTSSBX_SESSION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tsuserex.dll
+api_name:
+-	IADsTSUserEx.EnableRemoteControl
+-	IADsTSUserEx.get_EnableRemoteControl
+-	IADsTSUserEx.put_EnableRemoteControl
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tsuserex.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IADsTSUserEx::put_EnableRemoteControl

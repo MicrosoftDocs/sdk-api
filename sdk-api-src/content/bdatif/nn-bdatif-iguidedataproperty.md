@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:bdatif.IGuideDataProperty
+title: IGuideDataProperty
+author: windows-sdk-content
+description: The IGuideDataProperty interface represents the name, value, and language of a property associated with a service, program or schedule entry object.
+old-location: mstv\iguidedataproperty.htm
+old-project: mstv
+ms.assetid: 1c614f2a-69e0-4100-b83e-740478654c17
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IGuideDataProperty, IGuideDataProperty interface [Microsoft TV Technologies], IGuideDataProperty interface [Microsoft TV Technologies],described, IGuideDataPropertyInterface, bdatif/IGuideDataProperty, mstv.iguidedataproperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: bdatif.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SmartCardApplication
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Bdatif.h
+api_name:
+-	IGuideDataProperty
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IGuideDataProperty interface

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:propsys.PSCoerceToCanonicalValue
+title: PSCoerceToCanonicalValue function
+author: windows-sdk-content
+description: Converts the value of a property to the canonical value, according to the property description.
+old-location: properties\PSCoerceToCanonicalValue.htm
+old-project: properties
+ms.assetid: 8225dd01-47cc-451e-b6a6-c16ddf62ca20
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PSCoerceToCanonicalValue, PSCoerceToCanonicalValue function [Windows Properties], _shell_PSCoerceToCanonicalValue, properties.PSCoerceToCanonicalValue, propsys/PSCoerceToCanonicalValue, shell.PSCoerceToCanonicalValue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Propsys.dll
+api_name:
+-	PSCoerceToCanonicalValue
+product: Windows
+targetos: Windows
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSCoerceToCanonicalValue function

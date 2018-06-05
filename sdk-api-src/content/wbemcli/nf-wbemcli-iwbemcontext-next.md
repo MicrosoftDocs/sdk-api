@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemContext.Next
+title: IWbemContext::Next
+author: windows-sdk-content
+description: The IWbemContext::Next method retrieves the next value in an enumeration of all context values beginning with IWbemContext::BeginEnumeration.
+old-location: wmi\iwbemcontext_next.htm
+old-project: WmiSdk
+ms.assetid: e316564c-a739-472b-b7a8-8acbf71e1c58
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IWbemContext interface [Windows Management Instrumentation],Next method, IWbemContext.Next, IWbemContext::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IWbemContext interface, _hmm_iwbemcontext_next, wbemcli/IWbemContext::Next, wmi.iwbemcontext_next
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,30 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Esscli.dll
+-	Fastprox.dll
+-	FrameDyn.dll
+-	FrameDynOS.dll
+-	Wbemcomn.dll
+-	Wbemcore.dll
+-	Wbemess.dll
+-	Wmipjobj.dll
+api_name:
+-	IWbemContext.Next
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemContext::Next

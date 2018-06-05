@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bits.IBackgroundCopyError.GetFile
+title: IBackgroundCopyError::GetFile
+author: windows-sdk-content
+description: Retrieves an interface pointer to the file object associated with the error.
+old-location: bits\ibackgroundcopyerror_getfile.htm
+old-project: Bits
+ms.assetid: 7b6d4bd4-2102-4e6b-b250-1d73fae94cf9
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetFile, GetFile method [BITS], GetFile method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetFile method, IBackgroundCopyError.GetFile, IBackgroundCopyError::GetFile, _drz_ibackgroundcopyerror_getfile, bits.ibackgroundcopyerror_getfile, bits/IBackgroundCopyError::GetFile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_PROXY_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	QmgrPrxy.dll
+api_name:
+-	IBackgroundCopyError.GetFile
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 ---
 
 # IBackgroundCopyError::GetFile

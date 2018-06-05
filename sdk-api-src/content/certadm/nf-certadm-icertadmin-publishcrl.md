@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certadm.ICertAdmin.PublishCRL
+title: ICertAdmin::PublishCRL
+author: windows-sdk-content
+description: Sends a request to the Certificate Services certification authority (CA) to publish a new certificate revocation list (CRL). This method was first introduced in the ICertAdmin interface.
+old-location: security\icertadmin2_publishcrl.htm
+old-project: SecCrypto
+ms.assetid: a42cab2d-2309-43f1-8d67-adbc5923ec45
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertAdmin object [Security],PublishCRL method, ICertAdmin interface [Security],PublishCRL method, ICertAdmin.PublishCRL, ICertAdmin2 interface [Security],PublishCRL method, ICertAdmin2::PublishCRL, ICertAdmin::PublishCRL, PublishCRL, PublishCRL method [Security], PublishCRL method [Security],CCertAdmin object, PublishCRL method [Security],ICertAdmin interface, PublishCRL method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::PublishCRL, certadm/ICertAdmin::PublishCRL, security.icertadmin2_publishcrl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certadm.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certadm.dll
+api_name:
+-	ICertAdmin2.PublishCRL
+-	ICertAdmin.PublishCRL
+-	CCertAdmin.PublishCRL
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # ICertAdmin::PublishCRL

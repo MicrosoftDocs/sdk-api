@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmserver._SERVER_INFO_503
+title: "_SERVER_INFO_503"
+author: windows-sdk-content
+description: The SERVER_INFO_503 structure is obsolete. The structure contains information about the specified server.
+old-location: netmgmt\server_info_503_str.htm
+old-project: NetMgmt
+ms.assetid: c6ad20ed-9f2b-4cbe-ac2e-a57acf1b32ea
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPSERVER_INFO_503, *PSERVER_INFO_503, LPSERVER_INFO_503, LPSERVER_INFO_503 structure pointer [Network Management], PSERVER_INFO_503, PSERVER_INFO_503 structure pointer [Network Management], SERVER_INFO_503, SERVER_INFO_503 structure [Network Management], _SERVER_INFO_503, _win32_server_info_503_str, lmserver/LPSERVER_INFO_503, lmserver/PSERVER_INFO_503, lmserver/SERVER_INFO_503, netmgmt.server_info_503_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmserver.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SERVER_INFO_503, *PSERVER_INFO_503, *LPSERVER_INFO_503
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmserver.h
+api_name:
+-	SERVER_INFO_503
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _SERVER_INFO_503 structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3dcsx.ID3DX11FFT.SetForwardScale
+title: ID3DX11FFT::SetForwardScale
+author: windows-sdk-content
+description: Sets the scale used for forward transforms.
+old-location: direct3d11\id3dx11fft_setforwardscale.htm
+old-project: direct3d11
+ms.assetid: afca03bb-459f-42ff-bc88-7487b1bc250d
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: ID3DX11FFT interface [Direct3D 11],SetForwardScale method, ID3DX11FFT.SetForwardScale, ID3DX11FFT::SetForwardScale, SetForwardScale, SetForwardScale method [Direct3D 11], SetForwardScale method [Direct3D 11],ID3DX11FFT interface, ceddf377-cf6d-2efb-3b7d-dcf4a17d5886, d3dcsx/ID3DX11FFT::SetForwardScale, direct3d11.id3dx11fft_setforwardscale
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3dcsx.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DX11_SCAN_OPCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3dcsx.lib
+-	d3dcsx.dll
+api_name:
+-	ID3DX11FFT.SetForwardScale
+product: Windows
+targetos: Windows
+req.lib: D3dcsx.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3DX11FFT::SetForwardScale

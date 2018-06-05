@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mobsync._tagSYNCMGRFLAG
+title: "_tagSYNCMGRFLAG"
+author: windows-sdk-content
+description: The SYNCMGRFLAG enumeration values are used in the ISyncMgrSynchronize::Initialize method to indicate how the synchronization event was initiated.
+old-location: shell\syncmgr_syncmgrflag.htm
+old-project: shell
+ms.assetid: b1a60a6b-b4f8-4c89-853b-5a5584c415e9
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SYNCMGRFLAG, SYNCMGRFLAG enumeration [Windows Shell], SYNCMGRFLAG_CONNECT, SYNCMGRFLAG_EVENTMASK, SYNCMGRFLAG_IDLE, SYNCMGRFLAG_INVOKE, SYNCMGRFLAG_MANUAL, SYNCMGRFLAG_MAYBOTHERUSER, SYNCMGRFLAG_PENDINGDISCONNECT, SYNCMGRFLAG_SCHEDULED, SYNCMGRFLAG_SETTINGS, _tagSYNCMGRFLAG, mobsync/SYNCMGRFLAG, mobsync/SYNCMGRFLAG_CONNECT, mobsync/SYNCMGRFLAG_EVENTMASK, mobsync/SYNCMGRFLAG_IDLE, mobsync/SYNCMGRFLAG_INVOKE, mobsync/SYNCMGRFLAG_MANUAL, mobsync/SYNCMGRFLAG_MAYBOTHERUSER, mobsync/SYNCMGRFLAG_PENDINGDISCONNECT, mobsync/SYNCMGRFLAG_SCHEDULED, mobsync/SYNCMGRFLAG_SETTINGS, shell.syncmgr_syncmgrflag, syncmgr.syncmgrflag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mobsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGRFLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mobsync.h
+api_name:
+-	SYNCMGRFLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _tagSYNCMGRFLAG enumeration

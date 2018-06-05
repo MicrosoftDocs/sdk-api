@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dsadmin.IDsAdminNotifyHandler.Begin
+title: IDsAdminNotifyHandler::Begin
+author: windows-sdk-content
+description: The IDsAdminNotifyHandler::Begin method is called when an event that the notification handler has requested is occurring. The notification handler specifies the events to receive notifications for when IDsAdminNotifyHandler::Initialize is called.
+old-location: ad\idsadminnotifyhandler_begin.htm
+old-project: AD
+ms.assetid: 443fe344-6545-45bd-8e2f-85347505d407
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: Begin, Begin method [Active Directory], Begin method [Active Directory],IDsAdminNotifyHandler interface, DSA_NOTIFY_DEL, DSA_NOTIFY_FLAG_ADDITIONAL_DATA, DSA_NOTIFY_FLAG_FORCE_ADDITIONAL_DATA, DSA_NOTIFY_MOV, DSA_NOTIFY_PROP, DSA_NOTIFY_REN, IDsAdminNotifyHandler interface [Active Directory],Begin method, IDsAdminNotifyHandler.Begin, IDsAdminNotifyHandler::Begin, _glines_idsadminnotifyhandler_begin, ad.idsadminnotifyhandler__begin, ad.idsadminnotifyhandler_begin, dsadmin/IDsAdminNotifyHandler::Begin
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dsadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DSAdmin.dll
+api_name:
+-	IDsAdminNotifyHandler.Begin
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 ---
 
 # IDsAdminNotifyHandler::Begin

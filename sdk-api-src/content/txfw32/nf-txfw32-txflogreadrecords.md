@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:txfw32.TxfLogReadRecords
+title: TxfLogReadRecords function
+author: windows-sdk-content
+description: Reads the redo records from the log.
+old-location: fs\txflogreadrecords.htm
+old-project: FileIO
+ms.assetid: f0f10d9c-957a-4484-bde8-337d235e3262
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: TxfLogReadRecords, TxfLogReadRecords function [Files], fs.txflogreadrecords, txfw32/TxfLogReadRecords
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: txfw32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EnTvRat_US_TV
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	TxfW32.dll
+api_name:
+-	TxfLogReadRecords
+product: Windows
+targetos: Windows
+req.lib: TxfW32.lib
+req.dll: TxfW32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TxfLogReadRecords function

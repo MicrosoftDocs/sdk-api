@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:netfw._NETISO_ERROR_TYPE
+title: "_NETISO_ERROR_TYPE"
+author: windows-sdk-content
+description: Specifies the type of error related to a network isolation operation.
+old-location: ics\netiso_error_type.htm
+old-project: ICS
+ms.assetid: 0daa9d07-8a65-4254-b197-a37e6e04ce32
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: NETISO_ERROR_TYPE, NETISO_ERROR_TYPE enumeration [ICS/ICF], NETISO_ERROR_TYPE_INTERNET_CLIENT, NETISO_ERROR_TYPE_INTERNET_CLIENT_SERVER, NETISO_ERROR_TYPE_MAX, NETISO_ERROR_TYPE_NONE, NETISO_ERROR_TYPE_PRIVATE_NETWORK, _NETISO_ERROR_TYPE, ics.netiso_error_type, networkisolation/NETISO_ERROR_TYPE, networkisolation/NETISO_ERROR_TYPE_INTERNET_CLIENT, networkisolation/NETISO_ERROR_TYPE_INTERNET_CLIENT_SERVER, networkisolation/NETISO_ERROR_TYPE_MAX, networkisolation/NETISO_ERROR_TYPE_NONE, networkisolation/NETISO_ERROR_TYPE_PRIVATE_NETWORK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: netfw.h
+req.include-header: Netfw.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETISO_ERROR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	networkisolation.h
+api_name:
+-	NETISO_ERROR_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NETISO_ERROR_TYPE enumeration

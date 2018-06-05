@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:nspapi._SERVICE_TYPE_VALUE_ABSW
+title: "_SERVICE_TYPE_VALUE_ABSW"
+author: windows-sdk-content
+description: Contains information about a network-service type value. This information may be specific to a namespace.
+old-location: winsock\service_type_value_abs_2.htm
+old-project: WinSock
+ms.assetid: 6e3df308-3f5c-40d7-b0f9-19fb6d6d3db8
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPSERVICE_TYPE_VALUE_ABSW, *PSERVICE_TYPE_VALUE_ABSW, NS_DEFAULT, NS_DNS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, REG_BINARY, REG_DWORD, REG_MULTI_SZ, REG_SZ, SERVICE_TYPE_VALUE_ABS, SERVICE_TYPE_VALUE_ABS structure [Winsock], SERVICE_TYPE_VALUE_ABSA, SERVICE_TYPE_VALUE_ABSW, SERVICE_TYPE_VALUE_CONN, SERVICE_TYPE_VALUE_SAPID, SERVICE_TYPE_VALUE_TCPPORT, SERVICE_TYPE_VALUE_UDPPORT, _SERVICE_TYPE_VALUE_ABSW, _win32_service_type_value_abs_2, nspapi/SERVICE_TYPE_VALUE_ABS, nspapi/SERVICE_TYPE_VALUE_ABSA, nspapi/SERVICE_TYPE_VALUE_ABSW, winsock.service_type_value_abs_2"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: nspapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SERVICE_TYPE_VALUE_ABSW (Unicode) and SERVICE_TYPE_VALUE_ABSA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SERVICE_TYPE_VALUE_ABSW, *PSERVICE_TYPE_VALUE_ABSW, *LPSERVICE_TYPE_VALUE_ABSW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Nspapi.h
+api_name:
+-	SERVICE_TYPE_VALUE_ABS
+-	SERVICE_TYPE_VALUE_ABSA
+-	SERVICE_TYPE_VALUE_ABSW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SERVICE_TYPE_VALUE_ABSW structure

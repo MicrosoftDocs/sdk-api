@@ -1,31 +1,66 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.CreateFileMappingA
+title: CreateFileMappingA function
+author: windows-sdk-content
+description: Creates or opens a named or unnamed file mapping object for a specified file.
+old-location: base\createfilemapping.htm
+old-project: Memory
+ms.assetid: d3302183-76a0-47ec-874f-1173db353dfe
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: CreateFileMapping, CreateFileMapping function, CreateFileMappingA, CreateFileMappingW, PAGE_EXECUTE_READ, PAGE_EXECUTE_READWRITE, PAGE_EXECUTE_WRITECOPY, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, _win32_createfilemapping, base.createfilemapping, fs.createfilemapping, winbase/CreateFileMapping, winbase/CreateFileMappingA, winbase/CreateFileMappingW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CreateFileMappingW (Unicode) and CreateFileMappingA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+-	kernel32legacy.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+-	API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+-	API-MS-Win-Core-memory-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-memory-l1-1-1.dll
+-	API-MS-Win-Core-memory-l1-1-2.dll
+-	API-MS-Win-Core-memory-l1-1-3.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+-	API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+-	CreateFileMapping
+-	CreateFileMappingA
+-	CreateFileMappingW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CreateFileMappingA function

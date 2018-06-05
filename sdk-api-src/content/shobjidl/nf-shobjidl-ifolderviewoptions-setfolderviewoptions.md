@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl.IFolderViewOptions.SetFolderViewOptions
+title: IFolderViewOptions::SetFolderViewOptions
+author: windows-sdk-content
+description: Sets specified options for the view.
+old-location: shell\IFolderViewOptions_SetFolderViewOptions.htm
+old-project: shell
+ms.assetid: e170f60f-9b6c-4765-8aad-b370b08db053
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IFolderViewOptions interface [Windows Shell],SetFolderViewOptions method, IFolderViewOptions.SetFolderViewOptions, IFolderViewOptions::SetFolderViewOptions, SetFolderViewOptions, SetFolderViewOptions method [Windows Shell], SetFolderViewOptions method [Windows Shell],IFolderViewOptions interface, _shell_IFolderViewOptions_SetFolderViewOptions, shell.IFolderViewOptions_SetFolderViewOptions, shobjidl/IFolderViewOptions::SetFolderViewOptions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ExplorerFrame.dll
+api_name:
+-	IFolderViewOptions.SetFolderViewOptions
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: ExplorerFrame.dll
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # IFolderViewOptions::SetFolderViewOptions

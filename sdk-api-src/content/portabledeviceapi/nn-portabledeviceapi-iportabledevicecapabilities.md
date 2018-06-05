@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:portabledeviceapi.IPortableDeviceCapabilities
+title: IPortableDeviceCapabilities
+author: windows-sdk-content
+description: The IPortableDeviceCapabilities interface a variety of device capabilities, including supported formats, commands, and functional objects. You can retrieve this interface from a device by calling IPortableDevice::Capabilities.
+old-location: wpdsdk\iportabledevicecapabilities.htm
+old-project: wpd_sdk
+ms.assetid: c292a509-f202-4136-bbf7-b4e82ef2b936
+ms.author: windowssdkdev
+ms.date: 04/11/2018
+ms.keywords: IPortableDeviceCapabilities, IPortableDeviceCapabilities interface [Windows Portable Devices SDK], IPortableDeviceCapabilities interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceCapabilities, wpdsdk.iportabledevicecapabilities
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: portabledeviceapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	portabledeviceapi.h
+api_name:
+-	IPortableDeviceCapabilities
+product: Windows
+targetos: Windows
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPortableDeviceCapabilities interface

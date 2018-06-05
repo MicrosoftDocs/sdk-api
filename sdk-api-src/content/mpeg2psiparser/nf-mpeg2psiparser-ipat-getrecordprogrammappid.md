@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mpeg2psiparser.IPAT.GetRecordProgramMapPid
+title: IPAT::GetRecordProgramMapPid
+author: windows-sdk-content
+description: The GetRecordProgramMapPid method returns the packet identifier (PID) for a given record in the PAT.
+old-location: mstv\ipat_getrecordprogrammappid.htm
+old-project: mstv
+ms.assetid: 0b1ca2c0-52c4-447a-8191-8f9b69aecd25
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetRecordProgramMapPid, GetRecordProgramMapPid method [Microsoft TV Technologies], GetRecordProgramMapPid method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetRecordProgramMapPid method, IPAT.GetRecordProgramMapPid, IPAT::GetRecordProgramMapPid, IPATGetRecordProgramMapPid, mpeg2psiparser/IPAT::GetRecordProgramMapPid, mstv.ipat_getrecordprogrammappid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mpeg2psiparser.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mpeg2PsiParser.h
+api_name:
+-	IPAT.GetRecordProgramMapPid
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IPAT::GetRecordProgramMapPid

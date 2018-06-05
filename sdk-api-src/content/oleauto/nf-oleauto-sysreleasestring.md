@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleauto.SysReleaseString
+title: SysReleaseString function
+author: windows-sdk-content
+description: Decreases the pinning reference count for the specified string by one. When that count reaches 0, the memory for that string is no longer prevented from being freed.
+old-location: automat\sysreleasestring.htm
+old-project: automat
+ms.assetid: D4905794-A4EA-4925-A4B2-92C8BF6EDFD0
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: SysReleaseString, SysReleaseString function [Automation], automat.sysreleasestring, oleauto/SysReleaseString
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: oleauto.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REGKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Oleaut32.dll
+api_name:
+-	SysReleaseString
+product: Windows
+targetos: Windows
+req.lib: Mincore.lib
+req.dll: Oleaut32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SysReleaseString function

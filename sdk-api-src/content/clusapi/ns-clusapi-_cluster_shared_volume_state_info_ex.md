@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clusapi._CLUSTER_SHARED_VOLUME_STATE_INFO_EX
+title: "_CLUSTER_SHARED_VOLUME_STATE_INFO_EX"
+author: windows-sdk-content
+description: Represents information about the state of a Cluster Shared Volume (CSV).
+old-location: mscs\cluster_shared_volume_state_info_ex.htm
+old-project: MsCS
+ms.assetid: B0926E1A-CA39-44FE-989C-B8BDD86F9683
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCLUSTER_SHARED_VOLUME_STATE_INFO_EX, CLUSTER_SHARED_VOLUME_STATE_INFO_EX, CLUSTER_SHARED_VOLUME_STATE_INFO_EX structure [Failover Cluster], PCLUSTER_SHARED_VOLUME_STATE_INFO_EX, PCLUSTER_SHARED_VOLUME_STATE_INFO_EX structure pointer [Failover Cluster], RedirectedIOReasonBitLockerInitializing, RedirectedIOReasonFileSystemTiering, RedirectedIOReasonMax, RedirectedIOReasonReFs, RedirectedIOReasonUnsafeFileSystemFilter, RedirectedIOReasonUnsafeVolumeFilter, RedirectedIOReasonUserRequest, VolumeRedirectedIOReasonMax, VolumeRedirectedIOReasonNoDiskConnectivity, VolumeRedirectedIOReasonStorageSpaceNotAttached, VolumeRedirectedIOReasonVolumeReplicationEnabled, _CLUSTER_SHARED_VOLUME_STATE_INFO_EX, clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO_EX, clusapi/PCLUSTER_SHARED_VOLUME_STATE_INFO_EX, mscs.cluster_shared_volume_state_info_ex"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,21 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_SHARED_VOLUME_STATE_INFO_EX, *PCLUSTER_SHARED_VOLUME_STATE_INFO_EX
+topic_type:
+-	kbSyntax
+api_type:
+-	<TBD>
+api_location:
+-
+api_name:
+-	CLUSTER_SHARED_VOLUME_STATE_INFO_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CLUSTER_SHARED_VOLUME_STATE_INFO_EX structure

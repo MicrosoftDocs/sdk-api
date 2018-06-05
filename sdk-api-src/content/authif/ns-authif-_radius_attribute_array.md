@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:authif._RADIUS_ATTRIBUTE_ARRAY
+title: "_RADIUS_ATTRIBUTE_ARRAY"
+author: windows-sdk-content
+description: The RADIUS_ATTRIBUTE_ARRAY structure represents an array of attributes.
+old-location: nps\IAS_radius_attribute_array.htm
+old-project: Nps
+ms.assetid: 2eec8b05-c74d-4876-a475-0be7f60014d0
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PRADIUS_ATTRIBUTE_ARRAY, PRADIUS_ATTRIBUTE_ARRAY, PRADIUS_ATTRIBUTE_ARRAY structure pointer [Network Policy Server], RADIUS_ATTRIBUTE_ARRAY, RADIUS_ATTRIBUTE_ARRAY structure [Network Policy Server], _RADIUS_ATTRIBUTE_ARRAY, _ias_radius_attribute_array, authif/PRADIUS_ATTRIBUTE_ARRAY, authif/RADIUS_ATTRIBUTE_ARRAY, ias.radius_attribute_array, nps.IAS_radius_attribute_array"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: authif.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RADIUS_ATTRIBUTE_ARRAY, *PRADIUS_ATTRIBUTE_ARRAY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AuthIf.h
+api_name:
+-	RADIUS_ATTRIBUTE_ARRAY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _RADIUS_ATTRIBUTE_ARRAY structure

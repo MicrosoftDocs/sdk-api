@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:certenroll.EnrollmentTemplateProperty
+title: EnrollmentTemplateProperty
+author: windows-sdk-content
+description: Contains property values for a given template.
+old-location: security\enrollmenttemplateproperty.htm
+old-project: SecCertEnroll
+ms.assetid: 408473d7-cfaa-4303-88f2-2a9d7dc6dc21
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: EnrollmentTemplateProperty, EnrollmentTemplateProperty enumeration [Security], TemplatePropAsymmetricAlgorithm, TemplatePropCertificatePolicies, TemplatePropCommonName, TemplatePropCryptoProviders, TemplatePropDescription, TemplatePropEKUs, TemplatePropEnrollmentFlags, TemplatePropExtensions, TemplatePropFriendlyName, TemplatePropGeneralFlags, TemplatePropHashAlgorithm, TemplatePropKeySecurityDescriptor, TemplatePropKeySpec, TemplatePropMajorRevision, TemplatePropMinimumKeySize, TemplatePropMinorRevision, TemplatePropOID, TemplatePropPrivateKeyFlags, TemplatePropRACertificatePolicies, TemplatePropRAEKUs, TemplatePropRASignatureCount, TemplatePropRenewalPeriod, TemplatePropSchemaVersion, TemplatePropSecurityDescriptor, TemplatePropSubjectNameFlags, TemplatePropSupersede, TemplatePropSymmetricAlgorithm, TemplatePropSymmetricKeyLength, TemplatePropV1ApplicationPolicy, TemplatePropValidityPeriod, certenroll/EnrollmentTemplateProperty, certenroll/TemplatePropAsymmetricAlgorithm, certenroll/TemplatePropCertificatePolicies, certenroll/TemplatePropCommonName, certenroll/TemplatePropCryptoProviders, certenroll/TemplatePropDescription, certenroll/TemplatePropEKUs, certenroll/TemplatePropEnrollmentFlags, certenroll/TemplatePropExtensions, certenroll/TemplatePropFriendlyName, certenroll/TemplatePropGeneralFlags, certenroll/TemplatePropHashAlgorithm, certenroll/TemplatePropKeySecurityDescriptor, certenroll/TemplatePropKeySpec, certenroll/TemplatePropMajorRevision, certenroll/TemplatePropMinimumKeySize, certenroll/TemplatePropMinorRevision, certenroll/TemplatePropOID, certenroll/TemplatePropPrivateKeyFlags, certenroll/TemplatePropRACertificatePolicies, certenroll/TemplatePropRAEKUs, certenroll/TemplatePropRASignatureCount, certenroll/TemplatePropRenewalPeriod, certenroll/TemplatePropSchemaVersion, certenroll/TemplatePropSecurityDescriptor, certenroll/TemplatePropSubjectNameFlags, certenroll/TemplatePropSupersede, certenroll/TemplatePropSymmetricAlgorithm, certenroll/TemplatePropSymmetricKeyLength, certenroll/TemplatePropV1ApplicationPolicy, certenroll/TemplatePropValidityPeriod, security.enrollmenttemplateproperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EnrollmentTemplateProperty
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Certenroll.h
+api_name:
+-	EnrollmentTemplateProperty
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 ---
 
 # EnrollmentTemplateProperty enumeration

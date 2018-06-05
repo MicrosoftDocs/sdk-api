@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bcrypt._BCRYPT_INTERFACE_VERSION
+title: "_BCRYPT_INTERFACE_VERSION"
+author: windows-sdk-content
+description: Contains version information for a programmatic interface for a CNG provider.
+old-location: security\bcrypt_interface_version.htm
+old-project: SecCNG
+ms.assetid: d89e819e-7cbc-4f19-85c5-08c1ecab3bdd
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: "*PBCRYPT_INTERFACE_VERSION, BCRYPT_INTERFACE_VERSION, BCRYPT_INTERFACE_VERSION structure [Security], PBCRYPT_INTERFACE_VERSION, PBCRYPT_INTERFACE_VERSION structure pointer [Security], _BCRYPT_INTERFACE_VERSION, bcrypt/BCRYPT_INTERFACE_VERSION, bcrypt/PBCRYPT_INTERFACE_VERSION, security.bcrypt_interface_version"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bcrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BCRYPT_INTERFACE_VERSION, *PBCRYPT_INTERFACE_VERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bcrypt.h
+api_name:
+-	BCRYPT_INTERFACE_VERSION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BCRYPT_INTERFACE_VERSION structure

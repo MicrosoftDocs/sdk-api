@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:nspapi.GetServiceW
+title: GetServiceW function
+author: windows-sdk-content
+description: The GetService function retrieves information about a network service in the context of a set of default namespaces or a specified namespace.
+old-location: winsock\getservice_2.htm
+old-project: WinSock
+ms.assetid: d09ffe2d-33c3-4ca3-bc99-d7d78fd83620
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: GetService, GetService function [Winsock], GetServiceA, GetServiceW, NS_DEFAULT, NS_DNS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, PROP_ADDRESSES, PROP_ALL, PROP_COMMENT, PROP_DISPLAY_HINT, PROP_LOCALE, PROP_MACHINE, PROP_SD, PROP_START_TIME, PROP_VERSION, _win32_getservice_2, nspapi/GetService, nspapi/GetServiceA, nspapi/GetServiceW, winsock.getservice_2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: nspapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetServiceW (Unicode) and GetServiceA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NAPI_PROVIDER_INSTALLATION_BLOB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Mswsock.dll
+api_name:
+-	GetService
+-	GetServiceA
+-	GetServiceW
+product: Windows
+targetos: Windows
+req.lib: Mswsock.lib
+req.dll: Mswsock.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # GetServiceW function

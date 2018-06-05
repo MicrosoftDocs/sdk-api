@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iads.IDirectoryObject.GetObjectAttributes
+title: IDirectoryObject::GetObjectAttributes
+author: windows-sdk-content
+description: Retrieves one or more specified attributes of the directory service object.
+old-location: adsi\idirectoryobject_getobjectattributes.htm
+old-project: ADSI
+ms.assetid: 6e3d046f-eac0-4955-925b-71ab15df9ed3
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetObjectAttributes, GetObjectAttributes method [ADSI], GetObjectAttributes method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],GetObjectAttributes method, IDirectoryObject.GetObjectAttributes, IDirectoryObject::GetObjectAttributes, _ds_idirectoryobject_getobjectattributes, adsi.idirectoryobject__getobjectattributes, adsi.idirectoryobject_getobjectattributes, iads/IDirectoryObject::GetObjectAttributes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SD_FORMAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Activeds.dll
+api_name:
+-	IDirectoryObject.GetObjectAttributes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IDirectoryObject::GetObjectAttributes

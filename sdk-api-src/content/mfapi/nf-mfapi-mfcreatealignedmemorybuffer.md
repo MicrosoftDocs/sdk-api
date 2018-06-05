@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfapi.MFCreateAlignedMemoryBuffer
+title: MFCreateAlignedMemoryBuffer function
+author: windows-sdk-content
+description: Allocates system memory with a specified byte alignment and creates a media buffer to manage the memory.
+old-location: mf\mfcreatealignedmemorybuffer.htm
+old-project: medfound
+ms.assetid: cccc0dea-3f1e-41e4-97f4-de7760ceccb0
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFCreateAlignedMemoryBuffer, MFCreateAlignedMemoryBuffer function [Media Foundation], MF_128_BYTE_ALIGNMENT, MF_16_BYTE_ALIGNMENT, MF_1_BYTE_ALIGNMENT, MF_256_BYTE_ALIGNMENT, MF_2_BYTE_ALIGNMENT, MF_32_BYTE_ALIGNMENT, MF_4_BYTE_ALIGNMENT, MF_512_BYTE_ALIGNMENT, MF_64_BYTE_ALIGNMENT, MF_8_BYTE_ALIGNMENT, cccc0dea-3f1e-41e4-97f4-de7760ceccb0, mf.mfcreatealignedmemorybuffer, mfapi/MFCreateAlignedMemoryBuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	mfplat.dll
+api_name:
+-	MFCreateAlignedMemoryBuffer
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MFCreateAlignedMemoryBuffer function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wtsdefs._WTS_SYSTEMTIME
+title: "_WTS_SYSTEMTIME"
+author: windows-sdk-content
+description: Specifies date and time information for transitions between standard time and daylight saving time.
+old-location: termserv\wts_systemtime.htm
+old-project: TermServ
+ms.assetid: 3d123666-c13c-4061-9c03-a84cc3ab2a51
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PWTS_SYSTEMTIME, 0, 1, 10, 11, 12, 2, 3, 4, 5, 6, 7, 8, 9, PWRDS_SYSTEMTIME, PWRDS_SYSTEMTIME structure [Remote Desktop Services], PWTS_SYSTEMTIME, PWTS_SYSTEMTIME structure pointer [Remote Desktop Services], WRDS_SYSTEMTIME, WRDS_SYSTEMTIME structure [Remote Desktop Services], WTS_SYSTEMTIME, WTS_SYSTEMTIME structure [Remote Desktop Services], _WTS_SYSTEMTIME, termserv.wts_systemtime, wtsdefs/PWRDS_SYSTEMTIME, wtsdefs/PWTS_SYSTEMTIME, wtsdefs/WRDS_SYSTEMTIME, wtsdefs/WTS_SYSTEMTIME"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wtsdefs.h
+req.include-header: Wtsprotocol.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_SYSTEMTIME, *PWTS_SYSTEMTIME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsdefs.h
+api_name:
+-	WTS_SYSTEMTIME
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTS_SYSTEMTIME structure

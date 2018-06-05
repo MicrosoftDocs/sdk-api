@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:peerdist.peerdist_status_info_tag
+title: peerdist_status_info_tag
+author: windows-sdk-content
+description: The PEERDIST_STATUS_INFO structure contains information about the current status and capabilities of the BranchCache service on the local computer.
+old-location: p2p\peerdist_status_info.htm
+old-project: P2PSdk
+ms.assetid: 6EE58EA9-BA0A-4A96-9F9C-EFAF2ABA37C6
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PPEERDIST_STATUS_INFO, PCPEERDIST_STATUS_INFO, PCPEERDIST_STATUS_INFO structure pointer [Peer Networking], PEERDIST_RETRIEVAL_OPTIONS_CONTENTINFO_VERSION_1, PEERDIST_RETRIEVAL_OPTIONS_CONTENTINFO_VERSION_2, PEERDIST_STATUS_INFO, PEERDIST_STATUS_INFO structure [Peer Networking], PPEERDIST_STATUS_INFO, PPEERDIST_STATUS_INFO structure pointer [Peer Networking], p2p.peerdist_status_info, peerdist/PCPEERDIST_STATUS_INFO, peerdist/PEERDIST_STATUS_INFO, peerdist/PPEERDIST_STATUS_INFO, peerdist_status_info_tag"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: peerdist.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEERDIST_STATUS_INFO, *PPEERDIST_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	peerdist.h
+api_name:
+-	PEERDIST_STATUS_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # peerdist_status_info_tag structure

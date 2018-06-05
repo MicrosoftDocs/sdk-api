@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d9.Direct3DCreate9Ex
+title: Direct3DCreate9Ex function
+author: windows-sdk-content
+description: Creates an IDirect3D9Ex object and returns an interface to it.
+old-location: direct3d9\direct3dcreate9ex.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\direct3dcreate9.htm
+ms.author: windowssdkdev
+ms.date: 04/10/2018
+ms.keywords: Direct3DCreate9Ex, Direct3DCreate9Ex function [Direct3D 9], d3bc9dd0-05d5-c0a2-6b7c-7e11497d0e97, d3d9/Direct3DCreate9Ex, direct3d9.direct3dcreate9ex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d3d9.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	d3d9.dll
+-	Ext-MS-Win-DX-D3D9-L1-1-0.dll
+api_name:
+-	Direct3DCreate9Ex
+product: Windows
+targetos: Windows
+req.lib: D3d9.lib
+req.dll: D3d9.dll
+req.irql: 
 ---
 
 # Direct3DCreate9Ex function

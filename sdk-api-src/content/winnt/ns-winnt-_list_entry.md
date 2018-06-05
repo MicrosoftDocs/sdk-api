@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._LIST_ENTRY
+title: "_LIST_ENTRY"
+author: windows-sdk-content
+description: Represents an item in a singly linked list.
+old-location: base\slist_entry_str.htm
+old-project: Sync
+ms.assetid: 6c467621-fa51-49f1-b962-2dd5ec0f7084
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PLIST_ENTRY, LIST_ENTRY, PRLIST_ENTRY, PSLIST_ENTRY, PSLIST_ENTRY structure pointer, SLIST_ENTRY, SLIST_ENTRY structure, _LIST_ENTRY, _SLIST_ENTRY, _win32_slist_entry_str, base.slist_entry_str, winnt/PSLIST_ENTRY, winnt/SLIST_ENTRY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LIST_ENTRY, *PLIST_ENTRY, PRLIST_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	SLIST_ENTRY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _LIST_ENTRY structure

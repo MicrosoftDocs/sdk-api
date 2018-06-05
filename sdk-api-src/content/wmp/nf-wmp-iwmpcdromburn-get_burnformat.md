@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPCdromBurn.get_burnFormat
+title: IWMPCdromBurn::get_burnFormat
+author: windows-sdk-content
+description: The get_burnFormat method retrieves a value that indicates the type of CD to burn.
+old-location: wmp\iwmpcdromburn_get_burnformat.htm
+old-project: WMP
+ms.assetid: 564a3978-555e-4cbc-90fe-b29f61349260
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnFormat method, IWMPCdromBurn.get_burnFormat, IWMPCdromBurn::get_burnFormat, IWMPCdromBurnget_burnFormat, get_burnFormat, get_burnFormat method [Windows Media Player], get_burnFormat method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnformat, wmp/IWMPCdromBurn::get_burnFormat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPCdromBurn.get_burnFormat
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPCdromBurn::get_burnFormat

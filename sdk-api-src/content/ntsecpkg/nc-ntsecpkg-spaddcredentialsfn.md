@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:ntsecpkg.SpAddCredentialsFn
+title: SpAddCredentialsFn
+author: windows-sdk-content
+description: Used to add credentials for a security principal.
+old-location: security\spaddcredentials.htm
+old-project: SecAuthN
+ms.assetid: 27377afa-4e54-4c6b-8e84-a8810bc01139
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, SpAddCredentials, SpAddCredentials function [Security], SpAddCredentialsFn, _ssp_spaddcredentials, ntsecpkg/SpAddCredentials, security.spaddcredentials
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ntsecpkg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTED_POSIX_OFFSET_INFO, *PTRUSTED_POSIX_OFFSET_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Ntsecpkg.h
+api_name:
+-	SpAddCredentials
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SpAddCredentialsFn callback function

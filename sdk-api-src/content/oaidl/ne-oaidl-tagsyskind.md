@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:oaidl.tagSYSKIND
+title: tagSYSKIND
+author: windows-sdk-content
+description: Identifies the target operating system platform.
+old-location: automat\syskind.htm
+old-project: automat
+ms.assetid: 662048b2-59a8-48ca-9e4f-2f9a5306faa1
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: SYSKIND, SYSKIND enumeration [Automation], SYS_MAC, SYS_WIN16, SYS_WIN32, SYS_WIN64, _oa96_SYSKIND, automat.syskind, oaidl/SYSKIND, oaidl/SYS_MAC, oaidl/SYS_WIN16, oaidl/SYS_WIN32, oaidl/SYS_WIN64, tagSYSKIND
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OAIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYSKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	OaIdl.h
+api_name:
+-	SYSKIND
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagSYSKIND enumeration

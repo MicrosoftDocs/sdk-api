@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12.D3D12_FILTER_TYPE
+title: D3D12_FILTER_TYPE
+author: windows-sdk-content
+description: Specifies the type of magnification or minification sampler filters.
+old-location: direct3d12\d3d12_filter_type.htm
+old-project: direct3d12
+ms.assetid: 3988D194-97C7-46C7-829D-154891684D68
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_FILTER_TYPE, D3D12_FILTER_TYPE enumeration, D3D12_FILTER_TYPE_LINEAR, D3D12_FILTER_TYPE_POINT, d3d12/D3D12_FILTER_TYPE, d3d12/D3D12_FILTER_TYPE_LINEAR, d3d12/D3D12_FILTER_TYPE_POINT, direct3d12.d3d12_filter_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_FILTER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D12.h
+api_name:
+-	D3D12_FILTER_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_FILTER_TYPE enumeration

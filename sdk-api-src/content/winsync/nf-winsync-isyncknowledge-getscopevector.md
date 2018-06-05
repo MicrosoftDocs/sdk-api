@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsync.ISyncKnowledge.GetScopeVector
+title: ISyncKnowledge::GetScopeVector
+author: windows-sdk-content
+description: Gets the clock vector that defines the changes that are contained in the knowledge.
+old-location: winsync\isyncknowledge_getscopevector.htm
+old-project: winsync
+ms.assetid: 92829da0-d9a3-4a91-a60f-6319163e899a
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetScopeVector, GetScopeVector method [Windows Sync], GetScopeVector method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetScopeVector method, ISyncKnowledge.GetScopeVector, ISyncKnowledge::GetScopeVector, winsync.isyncknowledge_getscopevector, winsync/ISyncKnowledge::GetScopeVector
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	ISyncKnowledge.GetScopeVector
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # ISyncKnowledge::GetScopeVector

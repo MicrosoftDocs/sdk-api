@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d12.ID3D12PipelineLibrary.LoadComputePipeline
+title: ID3D12PipelineLibrary::LoadComputePipeline
+author: windows-sdk-content
+description: Retrieves the requested PSO from the library. The input desc is matched against the data in the current library database, and remembered in order to prevent duplication of PSO contents.
+old-location: direct3d12\id3d12pipelinelibrary_loadcomputepipeline.htm
+old-project: direct3d12
+ms.assetid: 8295D6E3-8353-46AD-A741-170244495F8B
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: ID3D12PipelineLibrary interface,LoadComputePipeline method, ID3D12PipelineLibrary.LoadComputePipeline, ID3D12PipelineLibrary::LoadComputePipeline, LoadComputePipeline, LoadComputePipeline method, LoadComputePipeline method,ID3D12PipelineLibrary interface, d3d12/ID3D12PipelineLibrary::LoadComputePipeline, direct3d12.id3d12pipelinelibrary_loadcomputepipeline
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_SHADER_MODEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12.dll
+api_name:
+-	ID3D12PipelineLibrary.LoadComputePipeline
+product: Windows
+targetos: Windows
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 ---
 
 # ID3D12PipelineLibrary::LoadComputePipeline

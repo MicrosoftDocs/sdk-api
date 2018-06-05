@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uiautomationcoreapi.AutomationIdentifierType
+title: AutomationIdentifierType
+author: windows-sdk-content
+description: Contains values used in the UiaLookupId function.
+old-location: winauto\uiauto_AutomationIdTypeEnum.htm
+old-project: WinAuto
+ms.assetid: 798afc92-73bc-4a76-a8bb-afa804038205
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: AutomationIdentifierType, AutomationIdentifierType enumeration [Windows Accessibility], AutomationIdentifierType_Annotation, AutomationIdentifierType_Changes, AutomationIdentifierType_ControlType, AutomationIdentifierType_Event, AutomationIdentifierType_HeadingLevel, AutomationIdentifierType_LandmarkType, AutomationIdentifierType_Pattern, AutomationIdentifierType_Property, AutomationIdentifierType_Style, AutomationIdentifierType_TextAttribute, uiauto.uiauto_AutomationIdTypeEnum, uiauto_AutomationIdTypeEnum, uiautomationcoreapi/AutomationIdentifierType, uiautomationcoreapi/AutomationIdentifierType_Annotation, uiautomationcoreapi/AutomationIdentifierType_Changes, uiautomationcoreapi/AutomationIdentifierType_ControlType, uiautomationcoreapi/AutomationIdentifierType_Event, uiautomationcoreapi/AutomationIdentifierType_HeadingLevel, uiautomationcoreapi/AutomationIdentifierType_LandmarkType, uiautomationcoreapi/AutomationIdentifierType_Pattern, uiautomationcoreapi/AutomationIdentifierType_Property, uiautomationcoreapi/AutomationIdentifierType_Style, uiautomationcoreapi/AutomationIdentifierType_TextAttribute, winauto.uiauto_AutomationIdTypeEnum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uiautomationcoreapi.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UIAutomationCoreApi.h
+api_name:
+-	AutomationIdentifierType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # AutomationIdentifierType enumeration

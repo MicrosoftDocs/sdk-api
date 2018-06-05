@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG
+title: "_VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG"
+author: windows-sdk-content
+description: Defines the properties of file systems that are supported for formatting volumes.
+old-location: base\vds_file_system_format_support_flag.htm
+old-project: VDS
+ms.assetid: 78d60240-44dc-48b8-b2a6-5babbd79085f
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG, VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG enumeration, VDS_FSS_DEFAULT, VDS_FSS_PREVIOUS_REVISION, VDS_FSS_RECOMMENDED, _VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG, base.vds_file_system_format_support_flag, vds/VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG, vds/VDS_FSS_DEFAULT, vds/VDS_FSS_PREVIOUS_REVISION, vds/VDS_FSS_RECOMMENDED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG enumeration

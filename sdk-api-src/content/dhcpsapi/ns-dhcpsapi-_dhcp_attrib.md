@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi._DHCP_ATTRIB
+title: "_DHCP_ATTRIB"
+author: windows-sdk-content
+description: Defines an attribute set on the DHCP server.
+old-location: dhcp\dhcp_attrib.htm
+old-project: DHCP
+ms.assetid: 26822137-8633-4e18-a69f-eeebf9e78f9a
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_ATTRIB, *PDHCP_ATTRIB, DHCP_ATTRIB, DHCP_ATTRIB structure [DHCP], DHCP_ATTRIB_BOOL_IS_ADMIN, DHCP_ATTRIB_BOOL_IS_BINDING_AWARE, DHCP_ATTRIB_BOOL_IS_DYNBOOTP, DHCP_ATTRIB_BOOL_IS_PART_OF_DSDC, DHCP_ATTRIB_BOOL_IS_ROGUE, DHCP_ATTRIB_ULONG_RESTORE_STATUS, PDHCP_ATTRIB *LPDHCP_ATTRIB, PDHCP_ATTRIB *LPDHCP_ATTRIB structure pointer [DHCP], _DHCP_ATTRIB, dhcp.dhcp_attrib, dhcpsapi/PDHCP_ATTRIB *LPDHCP_ATTRIB, dhcpsapi/_DHCP_ATTRIB"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008, Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_ATTRIB, *PDHCP_ATTRIB, *LPDHCP_ATTRIB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCP_ATTRIB
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_ATTRIB structure

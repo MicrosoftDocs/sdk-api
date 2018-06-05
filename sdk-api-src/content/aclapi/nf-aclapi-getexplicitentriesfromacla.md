@@ -1,31 +1,54 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:aclapi.GetExplicitEntriesFromAclA
+title: GetExplicitEntriesFromAclA function
+author: windows-sdk-content
+description: Retrieves an array of structures that describe the access control entries (ACEs) in an access control list (ACL).
+old-location: security\getexplicitentriesfromacl.htm
+old-project: SecAuthZ
+ms.assetid: 186aa6aa-efc3-4f8a-acad-e257da3dac0b
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetExplicitEntriesFromAcl, GetExplicitEntriesFromAcl function [Security], GetExplicitEntriesFromAclA, GetExplicitEntriesFromAclW, _win32_getexplicitentriesfromacl, aclapi/GetExplicitEntriesFromAcl, aclapi/GetExplicitEntriesFromAclA, aclapi/GetExplicitEntriesFromAclW, security.getexplicitentriesfromacl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: aclapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetExplicitEntriesFromAclW (Unicode) and GetExplicitEntriesFromAclA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-Security-Provider-l1-1-0.dll
+-	advapi32legacy.dll
+-	API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
+-	ntmarta.dll
+-	API-MS-Win-Security-Provider-Ansi-L1-1-0.dll
+api_name:
+-	GetExplicitEntriesFromAcl
+-	GetExplicitEntriesFromAclA
+-	GetExplicitEntriesFromAclW
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 ---
 
 # GetExplicitEntriesFromAclA function

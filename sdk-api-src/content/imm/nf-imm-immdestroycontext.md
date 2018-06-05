@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imm.ImmDestroyContext
+title: ImmDestroyContext function
+author: windows-sdk-content
+description: Releases the input context and frees associated memory.
+old-location: intl\immdestroycontext.htm
+old-project: Intl
+ms.assetid: ab6dc79f-3c47-4ab0-ba72-1e7db7a72116
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ImmDestroyContext, ImmDestroyContext function [Internationalization for Windows Applications], _win32_ImmDestroyContext, imm/ImmDestroyContext, intl.immdestroycontext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: imm.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	imm32.dll
+api_name:
+-	ImmDestroyContext
+product: Windows
+targetos: Windows
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ImmDestroyContext function

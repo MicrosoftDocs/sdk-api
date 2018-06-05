@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi._CLUSTER_SETUP_PHASE
+title: "_CLUSTER_SETUP_PHASE"
+author: windows-sdk-content
+description: Used by the ClusterSetupProgressCallback function to identify the current phase of the cluster setup process.
+old-location: mscs\cluster_setup_phase.htm
+old-project: MsCS
+ms.assetid: cc881b92-c312-4b88-8d8d-09f98925b5b5
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_SETUP_PHASE, CLUSTER_SETUP_PHASE enumeration [Failover Cluster], ClusterSetupPhaseAddClusterProperties, ClusterSetupPhaseAddNodeToCluster, ClusterSetupPhaseCleanupCOs, ClusterSetupPhaseCleanupNode, ClusterSetupPhaseClusterGroupOnline, ClusterSetupPhaseConfigureClusSvc, ClusterSetupPhaseConfigureClusterAccount, ClusterSetupPhaseCoreGroupCleanup, ClusterSetupPhaseCreateClusterAccount, ClusterSetupPhaseCreateGroups, ClusterSetupPhaseCreateIPAddressResources, ClusterSetupPhaseCreateNetworkName, ClusterSetupPhaseCreateResourceTypes, ClusterSetupPhaseDeleteGroup, ClusterSetupPhaseEvictNode, ClusterSetupPhaseFailureCleanup, ClusterSetupPhaseFormingCluster, ClusterSetupPhaseGettingCurrentMembership, ClusterSetupPhaseInitialize, ClusterSetupPhaseMoveGroup, ClusterSetupPhaseNodeUp, ClusterSetupPhaseOfflineGroup, ClusterSetupPhaseQueryClusterNameAccount, ClusterSetupPhaseStartingClusSvc, ClusterSetupPhaseValidateClusDisk, ClusterSetupPhaseValidateClusterNameAccount, ClusterSetupPhaseValidateNetft, ClusterSetupPhaseValidateNodeState, _CLUSTER_SETUP_PHASE, clusapi/CLUSTER_SETUP_PHASE, clusapi/ClusterSetupPhaseAddClusterProperties, clusapi/ClusterSetupPhaseAddNodeToCluster, clusapi/ClusterSetupPhaseCleanupCOs, clusapi/ClusterSetupPhaseCleanupNode, clusapi/ClusterSetupPhaseClusterGroupOnline, clusapi/ClusterSetupPhaseConfigureClusSvc, clusapi/ClusterSetupPhaseConfigureClusterAccount, clusapi/ClusterSetupPhaseCoreGroupCleanup, clusapi/ClusterSetupPhaseCreateClusterAccount, clusapi/ClusterSetupPhaseCreateGroups, clusapi/ClusterSetupPhaseCreateIPAddressResources, clusapi/ClusterSetupPhaseCreateNetworkName, clusapi/ClusterSetupPhaseCreateResourceTypes, clusapi/ClusterSetupPhaseDeleteGroup, clusapi/ClusterSetupPhaseEvictNode, clusapi/ClusterSetupPhaseFailureCleanup, clusapi/ClusterSetupPhaseFormingCluster, clusapi/ClusterSetupPhaseGettingCurrentMembership, clusapi/ClusterSetupPhaseInitialize, clusapi/ClusterSetupPhaseMoveGroup, clusapi/ClusterSetupPhaseNodeUp, clusapi/ClusterSetupPhaseOfflineGroup, clusapi/ClusterSetupPhaseQueryClusterNameAccount, clusapi/ClusterSetupPhaseStartingClusSvc, clusapi/ClusterSetupPhaseValidateClusDisk, clusapi/ClusterSetupPhaseValidateClusterNameAccount, clusapi/ClusterSetupPhaseValidateNetft, clusapi/ClusterSetupPhaseValidateNodeState, mscs.cluster_setup_phase
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_SETUP_PHASE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+api_name:
+-	CLUSTER_SETUP_PHASE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CLUSTER_SETUP_PHASE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:clfsw32.ReserveAndAppendLogAligned
+title: ReserveAndAppendLogAligned function
+author: windows-sdk-content
+description: Reserves space for log buffers, or appends a log record to the log, or both.
+old-location: fs\reserveandappendlogaligned.htm
+old-project: Clfs
+ms.assetid: fce678e3-3b30-4bb9-ab61-d7c8b24fd1d7
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CLFS_FLAG_FORCE_APPEND, CLFS_FLAG_FORCE_FLUSH, CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, ReserveAndAppendLogAligned, ReserveAndAppendLogAligned function [Files], clfsw32/ReserveAndAppendLogAligned, fs.reserveandappendlogaligned
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: clfsw32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Clfsw32.dll
+api_name:
+-	ReserveAndAppendLogAligned
+product: Windows
+targetos: Windows
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 ---
 
 # ReserveAndAppendLogAligned function

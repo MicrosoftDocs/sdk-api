@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imm.ImmIsUIMessageA
+title: ImmIsUIMessageA function
+author: windows-sdk-content
+description: Checks for messages intended for the IME window and sends those messages to the window.
+old-location: intl\immisuimessage.htm
+old-project: Intl
+ms.assetid: 9c07c7b8-87cb-4bcb-a837-20f582ff7712
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ImmIsUIMessage, ImmIsUIMessage function [Internationalization for Windows Applications], ImmIsUIMessageA, ImmIsUIMessageW, _win32_ImmIsUIMessage, imm/ImmIsUIMessage, imm/ImmIsUIMessageA, imm/ImmIsUIMessageW, intl.immisuimessage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: imm.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ImmIsUIMessageW (Unicode) and ImmIsUIMessageA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Imm32.dll
+api_name:
+-	ImmIsUIMessage
+-	ImmIsUIMessageA
+-	ImmIsUIMessageW
+product: Windows
+targetos: Windows
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ImmIsUIMessageA function

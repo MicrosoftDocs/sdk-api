@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mssip.MS_ADDINFO_FLAT_
+title: MS_ADDINFO_FLAT_
+author: windows-sdk-content
+description: Provides additional information about flat or end-to-end subject types.
+old-location: security\ms_addinfo_flat.htm
+old-project: SecCrypto
+ms.assetid: 9f5bebd1-8eda-456d-9339-3334a19c0ea4
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PMS_ADDINFO_FLAT, MS_ADDINFO_FLAT, MS_ADDINFO_FLAT structure [Security], MS_ADDINFO_FLAT_, PMS_ADDINFO_FLAT, PMS_ADDINFO_FLAT structure pointer [Security], mssip/MS_ADDINFO_FLAT_, mssip/PMS_ADDINFO_FLAT, security.ms_addinfo_flat"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mssip.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MS_ADDINFO_FLAT, *PMS_ADDINFO_FLAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mssip.h
+api_name:
+-	MS_ADDINFO_FLAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # MS_ADDINFO_FLAT_ structure

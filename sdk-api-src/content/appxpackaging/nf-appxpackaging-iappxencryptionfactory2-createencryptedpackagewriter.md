@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:appxpackaging.IAppxEncryptionFactory2.CreateEncryptedPackageWriter
+title: IAppxEncryptionFactory2::CreateEncryptedPackageWriter
+author: windows-sdk-content
+description: Creates a new instance of an IAppxEncryptedPackageWriter.
+old-location: appxpkg\iappxencryptionfactory2_createencryptedpackagewriter.htm
+old-project: appxpkg
+ms.assetid: 70C3B332-7FB5-49CD-B0E2-43FD44AFF813
+ms.author: windowssdkdev
+ms.date: 04/26/2018
+ms.keywords: CreateEncryptedPackageWriter, CreateEncryptedPackageWriter method [App packaging and management], CreateEncryptedPackageWriter method [App packaging and management],IAppxEncryptionFactory2 interface, IAppxEncryptionFactory2 interface [App packaging and management],CreateEncryptedPackageWriter method, IAppxEncryptionFactory2.CreateEncryptedPackageWriter, IAppxEncryptionFactory2::CreateEncryptedPackageWriter, appxpackaging/IAppxEncryptionFactory2::CreateEncryptedPackageWriter, appxpkg.iappxencryptionfactory2_createencryptedpackagewriter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: appxpackaging.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: AppxPackaging.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	AppxPackaging.h
+api_name:
+-	IAppxEncryptionFactory2.CreateEncryptedPackageWriter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAppxEncryptionFactory2::CreateEncryptedPackageWriter

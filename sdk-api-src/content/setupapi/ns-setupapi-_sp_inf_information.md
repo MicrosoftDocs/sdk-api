@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:setupapi._SP_INF_INFORMATION
+title: "_SP_INF_INFORMATION"
+author: windows-sdk-content
+description: The SP_INF_INFORMATION structure stores information about an INF file, including the style, number of constituent INF files, and version data.
+old-location: setup\sp_inf_information_str.htm
+old-project: SetupApi
+ms.assetid: 1fb08456-bc84-41a1-9f02-8fb499801831
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*PSP_INF_INFORMATION, INF_STYLE_NONE, INF_STYLE_OLDNT, INF_STYLE_WIN4, PSP_INF_INFORMATION, PSP_INF_INFORMATION structure pointer [Setup API], SP_INF_INFORMATION, SP_INF_INFORMATION structure [Setup API], _SP_INF_INFORMATION, _setupapi_sp_inf_information_str, setup.sp_inf_information_str, setupapi/PSP_INF_INFORMATION, setupapi/SP_INF_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: setupapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SP_INF_INFORMATION, *PSP_INF_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Setupapi.h
+api_name:
+-	SP_INF_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SP_INF_INFORMATION structure

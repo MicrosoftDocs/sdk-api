@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:ddraw.IDirectDrawSurface7.GetDC
+title: IDirectDrawSurface7::GetDC
+author: windows-sdk-content
+description: Creates a GDI-compatible handle of a device context for this surface.
+old-location: directdraw\idirectdrawsurface7_getdc.htm
+old-project: directdraw
+ms.assetid: 683be1bc-8232-42de-907f-1136ffdd524d
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: GetDC, GetDC method [DirectDraw], GetDC method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetDC method, IDirectDrawSurface7.GetDC, IDirectDrawSurface7::GetDC, ddraw/IDirectDrawSurface7::GetDC, directdraw.idirectdrawsurface7_getdc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ddraw.dll
+api_name:
+-	IDirectDrawSurface7.GetDC
+product: Windows
+targetos: Windows
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 ---
 
 # IDirectDrawSurface7::GetDC

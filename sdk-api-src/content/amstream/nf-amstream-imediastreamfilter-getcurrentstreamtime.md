@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:amstream.IMediaStreamFilter.GetCurrentStreamTime
+title: IMediaStreamFilter::GetCurrentStreamTime
+author: windows-sdk-content
+description: Note  This interface is deprecated. New applications should not use it. The GetCurrentStreamTime method retrieves the current stream time.
+old-location: dshow\imediastreamfilter_getcurrentstreamtime.htm
+old-project: DirectShow
+ms.assetid: 933f83a3-600e-4897-b4df-a481d2874155
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetCurrentStreamTime, GetCurrentStreamTime method [DirectShow], GetCurrentStreamTime method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],GetCurrentStreamTime method, IMediaStreamFilter.GetCurrentStreamTime, IMediaStreamFilter::GetCurrentStreamTime, IMediaStreamFilterGetCurrentStreamTime, amstream/IMediaStreamFilter::GetCurrentStreamTime, dshow.imediastreamfilter_getcurrentstreamtime
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: amstream.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMSI_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	amstream.h
+api_name:
+-	IMediaStreamFilter.GetCurrentStreamTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IMediaStreamFilter::GetCurrentStreamTime

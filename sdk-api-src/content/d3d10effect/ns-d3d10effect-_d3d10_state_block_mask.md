@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d10effect._D3D10_STATE_BLOCK_MASK
+title: "_D3D10_STATE_BLOCK_MASK"
+author: windows-sdk-content
+description: Indicates the device state.
+old-location: direct3d10\d3d10_state_block_mask.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_state_block_mask.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: D3D10_STATE_BLOCK_MASK, D3D10_STATE_BLOCK_MASK structure [Direct3D 10], _D3D10_STATE_BLOCK_MASK, bf81f800-b1fd-0774-8da5-ae9bd9fc43d4, d3d10effect/D3D10_STATE_BLOCK_MASK, direct3d10.d3d10_state_block_mask
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d10effect.h
+req.include-header: D3D10.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_STATE_BLOCK_MASK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d10effect.h
+api_name:
+-	D3D10_STATE_BLOCK_MASK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _D3D10_STATE_BLOCK_MASK structure

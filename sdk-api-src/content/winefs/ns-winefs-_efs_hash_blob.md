@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winefs._EFS_HASH_BLOB
+title: "_EFS_HASH_BLOB"
+author: windows-sdk-content
+description: Contains a certificate hash.
+old-location: fs\efs_hash_blob_str.htm
+old-project: FileIO
+ms.assetid: 23a172be-6e94-4a1f-afde-fc9437443c7a
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PEFS_HASH_BLOB, EFS_HASH_BLOB, EFS_HASH_BLOB structure [Files], PEFS_HASH_BLOB, PEFS_HASH_BLOB structure pointer [Files], _EFS_HASH_BLOB, _win32_efs_hash_blob_str, base.efs_hash_blob_str, fs.efs_hash_blob_str, winefs/EFS_HASH_BLOB, winefs/PEFS_HASH_BLOB"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winefs.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EFS_HASH_BLOB, *PEFS_HASH_BLOB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winefs.h
+api_name:
+-	EFS_HASH_BLOB
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _EFS_HASH_BLOB structure

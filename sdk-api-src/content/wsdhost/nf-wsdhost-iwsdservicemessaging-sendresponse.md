@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wsdhost.IWSDServiceMessaging.SendResponse
+title: IWSDServiceMessaging::SendResponse
+author: windows-sdk-content
+description: Sends a response message matching a given request context.
+old-location: ncd\iwsdservicemessaging_sendresponse.htm
+old-project: WsdApi
+ms.assetid: ec136c44-b8f5-42db-a965-2dd5b3cd18ad
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IWSDServiceMessaging interface,SendResponse method, IWSDServiceMessaging.SendResponse, IWSDServiceMessaging::SendResponse, SendResponse, SendResponse method, SendResponse method,IWSDServiceMessaging interface, ncd.iwsdservicemessaging_sendresponse, wsdhost/IWSDServiceMessaging::SendResponse
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wsdhost.h
+req.include-header: Wsdapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wsdhost.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wsdapi.dll
+api_name:
+-	IWSDServiceMessaging.SendResponse
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWSDServiceMessaging::SendResponse

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:propsys.INamedPropertyStore.GetNameCount
+title: INamedPropertyStore::GetNameCount
+author: windows-sdk-content
+description: Gets the number of property names in the property store.
+old-location: shell\INamedPropertyStore_GetNameCount.htm
+old-project: shell
+ms.assetid: 74bba1bf-e003-40bb-9118-4d647f78e409
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetNameCount, GetNameCount method [Windows Shell], GetNameCount method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNameCount method, INamedPropertyStore.GetNameCount, INamedPropertyStore::GetNameCount, _shell_INamedPropertyStore_GetNameCount, propsys/INamedPropertyStore::GetNameCount, shell.INamedPropertyStore_GetNameCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Propsys.h
+api_name:
+-	INamedPropertyStore.GetNameCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INamedPropertyStore::GetNameCount

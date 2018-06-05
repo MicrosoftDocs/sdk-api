@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mbnapi.MBN_SMS_STATUS_FLAG
+title: MBN_SMS_STATUS_FLAG
+author: windows-sdk-content
+description: The MBN_SMS_STATUS_FLAG enumerated type indicates the status of a device's SMS message store.
+old-location: mbn\mbn_sms_status_flag.htm
+old-project: mbn
+ms.assetid: 835cfdfa-face-4779-8bbf-e35076b85521
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: MBN_SMS_FLAG_MESSAGE_STORE_FULL, MBN_SMS_FLAG_NEW_MESSAGE, MBN_SMS_FLAG_NONE, MBN_SMS_STATUS_FLAG, MBN_SMS_STATUS_FLAG enumeration [Microsoft Broadband Networks], mbn.mbn_sms_status_flag, mbnapi/MBN_SMS_FLAG_MESSAGE_STORE_FULL, mbnapi/MBN_SMS_FLAG_NEW_MESSAGE, mbnapi/MBN_SMS_FLAG_NONE, mbnapi/MBN_SMS_STATUS_FLAG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_SMS_STATUS_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mbnapi.h
+api_name:
+-	MBN_SMS_STATUS_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MBN_SMS_STATUS_FLAG enumeration

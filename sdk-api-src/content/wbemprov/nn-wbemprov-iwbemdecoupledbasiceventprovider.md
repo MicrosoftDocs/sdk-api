@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:wbemprov.IWbemDecoupledBasicEventProvider
+title: IWbemDecoupledBasicEventProvider
+author: windows-sdk-content
+description: The IWbemDecoupledBasicEventProvider interface is a cocreatable interface that registers decoupled providers with WMI. The object created should be passed into the pUnknown argument of IWbemDecoupledRegistrar::Register.
+old-location: wmi\iwbemdecoupledbasiceventprovider.htm
+old-project: WmiSdk
+ms.assetid: 71ce4f79-8168-47c5-a8b1-4286b34f7a31
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IWbemDecoupledBasicEventProvider, IWbemDecoupledBasicEventProvider interface [Windows Management Instrumentation], IWbemDecoupledBasicEventProvider interface [Windows Management Instrumentation],described, _hmm_iwbemdecoupledbasiceventprovider, wbemprov/IWbemDecoupledBasicEventProvider, wmi.iwbemdecoupledbasiceventprovider
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wbemprov.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wbemprov.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmidcprv.dll
+api_name:
+-	IWbemDecoupledBasicEventProvider
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wmidcprv.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemDecoupledBasicEventProvider interface

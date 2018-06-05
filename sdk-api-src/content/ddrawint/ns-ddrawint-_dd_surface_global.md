@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_SURFACE_GLOBAL
+title: "_DD_SURFACE_GLOBAL"
+author: windows-sdk-content
+description: The DD_SURFACE_GLOBAL structure contains global surface-related data that can be shared between multiple surfaces.
+old-location: display\dd_surface_global.htm
+old-project: display
+ms.assetid: 11e0a6b9-16b9-4fc3-8e17-776f56c12196
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_SURFACE_GLOBAL, DD_SURFACE_GLOBAL, DD_SURFACE_GLOBAL structure [Display Devices], PDD_SURFACE_GLOBAL, PDD_SURFACE_GLOBAL structure pointer [Display Devices], _DD_SURFACE_GLOBAL, ddrawint/DD_SURFACE_GLOBAL, ddrawint/PDD_SURFACE_GLOBAL, ddstrcts_83ae0625-9b08-4380-bd3a-d8d67675a48b.xml, display.dd_surface_global"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_SURFACE_GLOBAL, DD_SURFACE_GLOBAL"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_SURFACE_GLOBAL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_SURFACE_GLOBAL structure

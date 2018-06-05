@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tom.ITextRange2.GetFont2
+title: ITextRange2::GetFont2
+author: windows-sdk-content
+description: Gets an ITextFont2 object with the character attributes of the current range.
+old-location: controls\itextrange2_getfont2.htm
+old-project: Controls
+ms.assetid: 24ef7fb3-4cf4-46ed-9273-6f91c77f7641
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetFont2, GetFont2 method [Windows Controls], GetFont2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetFont2 method, ITextRange2.GetFont2, ITextRange2::GetFont2, controls.itextrange2_getfont2, tom/ITextRange2::GetFont2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextRange2.GetFont2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextRange2::GetFont2

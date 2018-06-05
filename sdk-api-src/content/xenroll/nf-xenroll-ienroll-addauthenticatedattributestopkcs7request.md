@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xenroll.IEnroll.AddAuthenticatedAttributesToPKCS7Request
+title: IEnroll::AddAuthenticatedAttributesToPKCS7Request
+author: windows-sdk-content
+description: The AddAuthenticatedAttributesToPKCS7Request method adds authenticated attributes to a PKCS #7 certificate request. This method was first defined in the IEnroll interface.
+old-location: security\ienroll4_addauthenticatedattributestopkcs7request.htm
+old-project: SecCrypto
+ms.assetid: a65eca3d-8308-4bdc-b851-016a4e63a1f1
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: AddAuthenticatedAttributesToPKCS7Request, AddAuthenticatedAttributesToPKCS7Request method [Security], AddAuthenticatedAttributesToPKCS7Request method [Security],IEnroll interface, IEnroll interface [Security],AddAuthenticatedAttributesToPKCS7Request method, IEnroll.AddAuthenticatedAttributesToPKCS7Request, IEnroll::AddAuthenticatedAttributesToPKCS7Request, security.ienroll4_addauthenticatedattributestopkcs7request, xenroll/IEnroll::AddAuthenticatedAttributesToPKCS7Request
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	IEnroll.AddAuthenticatedAttributesToPKCS7Request
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IEnroll::AddAuthenticatedAttributesToPKCS7Request

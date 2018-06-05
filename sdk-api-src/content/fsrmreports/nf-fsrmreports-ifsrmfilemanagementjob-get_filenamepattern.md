@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmreports.IFsrmFileManagementJob.get_FileNamePattern
+title: IFsrmFileManagementJob::get_FileNamePattern
+author: windows-sdk-content
+description: A condition property:\_wildcard filter for names.
+old-location: fsrm\ifsrmfilemanagementjob_filenamepattern.htm
+old-project: Fsrm
+ms.assetid: 6a51dbc2-8e60-4575-9e97-c798e73c02a4
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FileNamePattern property [File Server Resource Manager], FileNamePattern property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],FileNamePattern property, IFsrmFileManagementJob.FileNamePattern, IFsrmFileManagementJob.get_FileNamePattern, IFsrmFileManagementJob::FileNamePattern, IFsrmFileManagementJob::get_FileNamePattern, IFsrmFileManagementJob::put_FileNamePattern, fs.ifsrmfilemanagementjob_filenamepattern, fsrm.ifsrmfilemanagementjob_filenamepattern, fsrmreports/IFsrmFileManagementJob::FileNamePattern, fsrmreports/IFsrmFileManagementJob::get_FileNamePattern, fsrmreports/IFsrmFileManagementJob::put_FileNamePattern, get_FileNamePattern
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmreports.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileManagementJob.FileNamePattern
+-	IFsrmFileManagementJob.get_FileNamePattern
+-	IFsrmFileManagementJob.put_FileNamePattern
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileManagementJob::get_FileNamePattern

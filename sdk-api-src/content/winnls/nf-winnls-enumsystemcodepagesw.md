@@ -1,31 +1,54 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winnls.EnumSystemCodePagesW
+title: EnumSystemCodePagesW function
+author: windows-sdk-content
+description: Enumerates the code pages that are either installed on or supported by an operating system.
+old-location: intl\enumsystemcodepages.htm
+old-project: Intl
+ms.assetid: 4ef4d30f-3e38-47ee-8f68-fbb286b7b5c3
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CP_INSTALLED, CP_SUPPORTED, EnumSystemCodePages, EnumSystemCodePages function [Internationalization for Windows Applications], EnumSystemCodePagesA, EnumSystemCodePagesW, _win32_EnumSystemCodePages, intl.enumsystemcodepages, winnls/EnumSystemCodePages, winnls/EnumSystemCodePagesA, winnls/EnumSystemCodePagesW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winnls.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: EnumSystemCodePagesW (Unicode) and EnumSystemCodePagesA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NORM_FORM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Localization-l2-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+-	Kernel32Legacy.dll
+api_name:
+-	EnumSystemCodePages
+-	EnumSystemCodePagesA
+-	EnumSystemCodePagesW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # EnumSystemCodePagesW function

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:xamlom.VisualElementState
+title: VisualElementState
+author: windows-sdk-content
+description: Defines constants that specify the state of an element in the visual tree.
+old-location: xaml_diagnostics\visualelementstate.htm
+old-project: xaml_diagnostics
+ms.assetid: 6D2AA4D0-4EB6-419F-AA9F-1B2404E0ED42
+ms.author: windowssdkdev
+ms.date: 03/19/2018
+ms.keywords: ErrorInvalidResource, ErrorResolved, ErrorResourceNotFound, VisualElementState, VisualElementState enumeration, xaml_diagnostics.visualelementstate, xamlom/ErrorInvalidResource, xamlom/ErrorResolved, xamlom/ErrorResourceNotFound, xamlom/VisualElementState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: xamlom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XamlOM.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VisualElementState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	xamlom.h
+api_name:
+-	VisualElementState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # VisualElementState enumeration

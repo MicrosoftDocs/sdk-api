@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CurrentLastSelectedItem
+title: IUIAutomationSelectionPattern2::get_CurrentLastSelectedItem
+author: windows-sdk-content
+description: Gets an IUIAutomationElement object representing the last item in a group of selected items.
+old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CurrentLastSelectedItem.htm
+old-project: WinAuto
+ms.assetid: 30DE9698-318B-4794-B3C7-7256C46B3FE8
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CurrentLastSelectedItem property [Windows Accessibility], CurrentLastSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CurrentLastSelectedItem property, IUIAutomationSelectionPattern2.CurrentLastSelectedItem, IUIAutomationSelectionPattern2.get_CurrentLastSelectedItem, IUIAutomationSelectionPattern2::CurrentLastSelectedItem, IUIAutomationSelectionPattern2::get_CurrentLastSelectedItem, get_CurrentLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CurrentLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CurrentLastSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CurrentLastSelectedItem
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationSelectionPattern2.CurrentLastSelectedItem
+-	IUIAutomationSelectionPattern2.get_CurrentLastSelectedItem
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationSelectionPattern2::get_CurrentLastSelectedItem

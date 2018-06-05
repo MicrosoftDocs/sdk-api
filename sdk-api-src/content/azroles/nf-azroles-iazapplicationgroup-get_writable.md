@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzApplicationGroup.get_Writable
+title: IAzApplicationGroup::get_Writable
+author: windows-sdk-content
+description: Retrieves a value that indicates whether the application group can be modified by the user context that initialized it.
+old-location: security\iazapplicationgroup_writable.htm
+old-project: SecAuthZ
+ms.assetid: c0d88a7c-2df7-4f8e-94c2-75690d9758e7
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AzApplicationGroup object [Security],Writable property, IAzApplicationGroup interface [Security],Writable property, IAzApplicationGroup.Writable, IAzApplicationGroup.get_Writable, IAzApplicationGroup::Writable, IAzApplicationGroup::get_Writable, Writable property [Security], Writable property [Security],AzApplicationGroup object, Writable property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Writable, azroles/IAzApplicationGroup::get_Writable, get_Writable, security.iazapplicationgroup_writable
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzApplicationGroup.Writable
+-	IAzApplicationGroup.get_Writable
+-	AzApplicationGroup.Writable
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzApplicationGroup::get_Writable

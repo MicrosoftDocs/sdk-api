@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi.CLUSCTL_GROUPSET_CODES
+title: CLUSCTL_GROUPSET_CODES
+author: windows-sdk-content
+description: Enumerates groupset control codes used by the ClusterGroupSetControl function.
+old-location: mscs\clusctl_collection_codes.htm
+old-project: MsCS
+ms.assetid: 2c160770-5ced-4914-bcca-c8f7405ad0b0
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSCTL_GROUPSET_CODES, CLUSCTL_GROUPSET_CODES enumeration [Failover Cluster], CLUSCTL_GROUPSET_GET_COMMON_PROPERTIES, CLUSCTL_GROUPSET_GET_GROUPS, CLUSCTL_GROUPSET_GET_PROVIDER_GROUPS, CLUSCTL_GROUPSET_GET_PROVIDER_GROUPSETS, CLUSCTL_GROUPSET_GET_RO_COMMON_PROPERTIES, CLUSCTL_GROUPSET_SET_COMMON_PROPERTIES, CLUSCTL_GROUP_GET_ID, CLUSCTL_GROUP_GET_PROVIDER_GROUPS, CLUSCTL_GROUP_GET_PROVIDER_GROUPSETS, msclus/CLUSCTL_GROUPSET_CODES, msclus/CLUSCTL_GROUPSET_GET_COMMON_PROPERTIES, msclus/CLUSCTL_GROUPSET_GET_GROUPS, msclus/CLUSCTL_GROUPSET_GET_PROVIDER_GROUPS, msclus/CLUSCTL_GROUPSET_GET_PROVIDER_GROUPSETS, msclus/CLUSCTL_GROUPSET_GET_RO_COMMON_PROPERTIES, msclus/CLUSCTL_GROUPSET_SET_COMMON_PROPERTIES, msclus/CLUSCTL_GROUP_GET_ID, msclus/CLUSCTL_GROUP_GET_PROVIDER_GROUPS, msclus/CLUSCTL_GROUP_GET_PROVIDER_GROUPSETS, mscs.clusctl_collection_codes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: Clusapi.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSCTL_GROUPSET_CODES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msclus.h
+api_name:
+-	CLUSCTL_GROUPSET_CODES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSCTL_GROUPSET_CODES enumeration

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbe.ISBE2SpanningEvent.GetEvent
+title: ISBE2SpanningEvent::GetEvent
+author: windows-sdk-content
+description: Gets an in-band spanning event and event data from the Stream Buffer Engine, version 2 (SBE2). An in-band spanning event is an event that exists until it is replaced or erased, and is part of the state for events that appear later in the same stream.
+old-location: mstv\isbe2spanningevent_getevent.htm
+old-project: mstv
+ms.assetid: f1fc2b7c-3f60-4d03-9c75-9b9d9450ceef
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetEvent, GetEvent method [Microsoft TV Technologies], GetEvent method [Microsoft TV Technologies],ISBE2SpanningEvent interface, ISBE2SpanningEvent interface [Microsoft TV Technologies],GetEvent method, ISBE2SpanningEvent.GetEvent, ISBE2SpanningEvent::GetEvent, mstv.isbe2spanningevent_getevent, sbe/ISBE2SpanningEvent::GetEvent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Sbe.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAMBUFFER_ATTR_DATATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbe.h
+api_name:
+-	ISBE2SpanningEvent.GetEvent
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISBE2SpanningEvent::GetEvent

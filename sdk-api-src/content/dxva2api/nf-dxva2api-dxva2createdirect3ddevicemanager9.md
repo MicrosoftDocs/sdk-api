@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxva2api.DXVA2CreateDirect3DDeviceManager9
+title: DXVA2CreateDirect3DDeviceManager9 function
+author: windows-sdk-content
+description: Creates an instance of the Direct3D Device Manager.
+old-location: mf\dxva2createdirect3ddevicemanager9.htm
+old-project: medfound
+ms.assetid: b06e9c68-80ee-4997-bcf7-f05879aa5776
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DXVA2CreateDirect3DDeviceManager9, DXVA2CreateDirect3DDeviceManager9 function [Media Foundation], b06e9c68-80ee-4997-bcf7-f05879aa5776, dxva2api/DXVA2CreateDirect3DDeviceManager9, mf.dxva2createdirect3ddevicemanager9
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dxva2api.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA2_SurfaceType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	dxva2.dll
+api_name:
+-	DXVA2CreateDirect3DDeviceManager9
+product: Windows
+targetos: Windows
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DXVA2CreateDirect3DDeviceManager9 function

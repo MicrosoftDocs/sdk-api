@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dcompanimation.IDCompositionAnimation.End
+title: IDCompositionAnimation::End
+author: windows-sdk-content
+description: Adds an end segment that marks the end of an animation function.
+old-location: directcomp\idcompositionanimation_end.htm
+old-project: directcomp
+ms.assetid: 71287ae2-d930-4e96-8c12-538d2b58ccc6
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: End, End method [DirectComposition], End method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],End method, IDCompositionAnimation.End, IDCompositionAnimation::End, dcompanimation/IDCompositionAnimation::End, directcomp.idcompositionanimation_end
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dcompanimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DcompAnimation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D_VECTOR_4F
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dcomp.dll
+api_name:
+-	IDCompositionAnimation.End
+product: Windows
+targetos: Windows
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 ---
 
 # IDCompositionAnimation::End

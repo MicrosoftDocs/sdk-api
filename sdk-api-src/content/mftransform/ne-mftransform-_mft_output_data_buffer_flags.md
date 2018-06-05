@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mftransform._MFT_OUTPUT_DATA_BUFFER_FLAGS
+title: "_MFT_OUTPUT_DATA_BUFFER_FLAGS"
+author: windows-sdk-content
+description: Defines flags for the IMFTransform::ProcessOutput method.
+old-location: mf\_mft_output_data_buffer_flags.htm
+old-project: medfound
+ms.assetid: b975a1a9-2cd1-4187-9934-c6877f10cec6
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE, MFT_OUTPUT_DATA_BUFFER_INCOMPLETE, MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE, MFT_OUTPUT_DATA_BUFFER_STREAM_END, _MFT_OUTPUT_DATA_BUFFER_FLAGS, _MFT_OUTPUT_DATA_BUFFER_FLAGS enumeration [Media Foundation], b975a1a9-2cd1-4187-9934-c6877f10cec6, mf._mft_output_data_buffer_flags, mftransform/MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE, mftransform/MFT_OUTPUT_DATA_BUFFER_INCOMPLETE, mftransform/MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE, mftransform/MFT_OUTPUT_DATA_BUFFER_STREAM_END, mftransform/_MFT_OUTPUT_DATA_BUFFER_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mftransform.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mftransform.h
+api_name:
+-	_MFT_OUTPUT_DATA_BUFFER_FLAGS
+product: Windows
+targetos: Windows
+req.lib: Mfobjects.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFT_OUTPUT_DATA_BUFFER_FLAGS enumeration

@@ -1,31 +1,53 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wingdi.DeviceCapabilitiesW
+title: DeviceCapabilitiesW function
+author: windows-sdk-content
+description: The DeviceCapabilities function retrieves the capabilities of a printer driver.
+old-location: gdi\devicecapabilities.htm
+old-project: printdocs
+ms.assetid: d7f63ef7-0a2e-47c3-9e81-6e8a6dffe9af
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: DC_BINNAMES, DC_BINS, DC_COLLATE, DC_COLORDEVICE, DC_COPIES, DC_DRIVER, DC_DUPLEX, DC_ENUMRESOLUTIONS, DC_EXTRA, DC_FIELDS, DC_FILEDEPENDENCIES, DC_MAXEXTENT, DC_MEDIAREADY, DC_MEDIATYPENAMES, DC_MEDIATYPES, DC_MINEXTENT, DC_NUP, DC_ORIENTATION, DC_PAPERNAMES, DC_PAPERS, DC_PAPERSIZE, DC_PERSONALITY, DC_PRINTERMEM, DC_PRINTRATE, DC_PRINTRATEPPM, DC_PRINTRATEUNIT, DC_SIZE, DC_STAPLE, DC_TRUETYPE, DC_VERSION, DeviceCapabilities, DeviceCapabilities function [Windows GDI], DeviceCapabilitiesA, DeviceCapabilitiesW, _win32_DeviceCapabilities, gdi.devicecapabilities, wingdi/DeviceCapabilities, wingdi/DeviceCapabilitiesA, wingdi/DeviceCapabilitiesW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DeviceCapabilitiesW (Unicode) and DeviceCapabilitiesA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WinSpool.drv
+-	Ext-MS-Win-printer-WinSpool-l1-1-2.dll
+-	WinSpool.drv
+-	Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
+api_name:
+-	DeviceCapabilities
+-	DeviceCapabilitiesA
+-	DeviceCapabilitiesW
+product: Windows
+targetos: Windows
+req.lib: WinSpool.lib
+req.dll: WinSpool.drv
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DeviceCapabilitiesW function

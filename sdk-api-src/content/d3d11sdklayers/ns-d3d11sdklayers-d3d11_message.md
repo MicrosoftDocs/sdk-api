@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d11sdklayers.D3D11_MESSAGE
+title: D3D11_MESSAGE
+author: windows-sdk-content
+description: A debug message in the Information Queue.
+old-location: direct3d11\d3d11_message.htm
+old-project: direct3d11
+ms.assetid: b00a7e61-5394-40bd-bdc1-94da45dfa264
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 63ec230f-4005-c7e9-9187-f8c6f44e0780, D3D11_MESSAGE, D3D11_MESSAGE structure [Direct3D 11], d3d11sdklayers/D3D11_MESSAGE, direct3d11.d3d11_message
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d11sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_MESSAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11SDKLayers.h
+api_name:
+-	D3D11_MESSAGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_MESSAGE structure

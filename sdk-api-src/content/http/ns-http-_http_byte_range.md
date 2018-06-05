@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:http._HTTP_BYTE_RANGE
+title: "_HTTP_BYTE_RANGE"
+author: windows-sdk-content
+description: The HTTP_BYTE_RANGE structure is used to specify a byte range within a cached response fragment, file, or other data block.
+old-location: http\http_byte_range.htm
+old-project: Http
+ms.assetid: a57d23cd-1e91-401a-b242-6549b1457594
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_BYTE_RANGE, HTTP_BYTE_RANGE, HTTP_BYTE_RANGE structure [HTTP], PHTTP_BYTE_RANGE, PHTTP_BYTE_RANGE structure pointer [HTTP], _HTTP_BYTE_RANGE, _http_http_byte_range, http.http_byte_range, http/HTTP_BYTE_RANGE, http/PHTTP_BYTE_RANGE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_BYTE_RANGE, *PHTTP_BYTE_RANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_BYTE_RANGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_BYTE_RANGE structure

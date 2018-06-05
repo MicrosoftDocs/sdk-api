@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:ddraw.IDirectDraw7.TestCooperativeLevel
+title: IDirectDraw7::TestCooperativeLevel
+author: windows-sdk-content
+description: Reports the current cooperative-level status of the DirectDraw device for a windowed or full-screen application.
+old-location: directdraw\idirectdraw7_testcooperativelevel.htm
+old-project: directdraw
+ms.assetid: 6bbabd8c-f48e-480c-9ea4-06e4fce1255a
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: IDirectDraw7 interface [DirectDraw],TestCooperativeLevel method, IDirectDraw7.TestCooperativeLevel, IDirectDraw7::TestCooperativeLevel, TestCooperativeLevel, TestCooperativeLevel method [DirectDraw], TestCooperativeLevel method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::TestCooperativeLevel, directdraw.idirectdraw7_testcooperativelevel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ddraw.dll
+api_name:
+-	IDirectDraw7.TestCooperativeLevel
+product: Windows
+targetos: Windows
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 ---
 
 # IDirectDraw7::TestCooperativeLevel

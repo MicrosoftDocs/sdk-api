@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:codecapi.eAVEncH264PictureType
+title: eAVEncH264PictureType
+author: windows-sdk-content
+description: Specifies the type of picture that is output by a video encoder.
+old-location: mf\eavench264picturetype.htm
+old-project: medfound
+ms.assetid: D73E2F87-EED3-4655-BB39-EB4C8E0B0058
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: codecapi/eAVEncH264PictureType, codecapi/eAVEncH264PictureType_B, codecapi/eAVEncH264PictureType_IDR, codecapi/eAVEncH264PictureType_P, eAVEncH264PictureType, eAVEncH264PictureType enumeration [Media Foundation], eAVEncH264PictureType_B, eAVEncH264PictureType_IDR, eAVEncH264PictureType_P, mf.eavench264picturetype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: codecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	codecapi.h
+api_name:
+-	eAVEncH264PictureType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # eAVEncH264PictureType enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mi._MI_QualifierDecl
+title: "_MI_QualifierDecl"
+author: windows-sdk-content
+description: Represents a CIM qualifier declaration.
+old-location: wmi_v2\mi_qualifierdecl.htm
+old-project: wmi_v2
+ms.assetid: 88d167f5-3cb0-41ed-9355-ea31ff263a03
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: MI_FLAG_DISABLEOVERRIDE, MI_FLAG_ENABLEOVERRIDE, MI_FLAG_RESTRICTED, MI_FLAG_TOSUBCLASS, MI_FLAG_TRANSLATABLE, MI_QualifierDecl, MI_QualifierDecl structure [Windows Management Infrastructure (MI)], _MI_QualifierDecl, mi/MI_QualifierDecl, wmi._mi_qualifierdecl, wmi_v2.mi_qualifierdecl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MI_QualifierDecl
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_QualifierDecl
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MI_QualifierDecl structure

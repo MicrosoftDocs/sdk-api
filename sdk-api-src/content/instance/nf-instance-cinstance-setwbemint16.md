@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:instance.CInstance.SetWBEMINT16
+title: CInstance::SetWBEMINT16
+author: windows-sdk-content
+description: The SetWBEMINT16 method sets a 16-bit integer property.
+old-location: wmi\cinstance_setwbemint16.htm
+old-project: WmiSdk
+ms.assetid: a39d3885-6344-4c05-8eea-da3f33fb998e
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "?SetWBEMINT16@CInstance@@QAE_NPBGABF@Z, ?SetWBEMINT16@CInstance@@QEAA_NPEBGAEBF@Z, CInstance interface [Windows Management Instrumentation],SetWBEMINT16 method, CInstance.SetWBEMINT16, CInstance::SetWBEMINT16, SetWBEMINT16, SetWBEMINT16 method [Windows Management Instrumentation], SetWBEMINT16 method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setwbemint16, instance/CInstance::SetWBEMINT16, wmi.cinstance_setwbemint16"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: instance.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TrustLevel
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CInstance.SetWBEMINT16
+-	?SetWBEMINT16@CInstance@@QAE_NPBGABF@Z
+-	?SetWBEMINT16@CInstance@@QEAA_NPEBGAEBF@Z
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CInstance::SetWBEMINT16

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnetwk._REMOTE_NAME_INFOA
+title: "_REMOTE_NAME_INFOA"
+author: windows-sdk-content
+description: The REMOTE_NAME_INFO structure contains information about the remote form of a universal name. It is used by the NPGetUniversalName function.
+old-location: security\remote_name_info.htm
+old-project: SecAuthN
+ms.assetid: 5dec0c40-757e-4c3b-8442-23f6d0f0e670
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*LPREMOTE_NAME_INFOA, LPREMOTE_NAME_INFO, LPREMOTE_NAME_INFO structure pointer [Security], REMOTE_NAME_INFO, REMOTE_NAME_INFO structure [Security], REMOTE_NAME_INFOA, REMOTE_NAME_INFOW, _REMOTE_NAME_INFOA, _mnp_remote_name_info, security.remote_name_info, winnetwk/LPREMOTE_NAME_INFO, winnetwk/REMOTE_NAME_INFO, winnetwk/REMOTE_NAME_INFOA, winnetwk/REMOTE_NAME_INFOW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnetwk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: REMOTE_NAME_INFOW (Unicode) and REMOTE_NAME_INFOA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REMOTE_NAME_INFOA, *LPREMOTE_NAME_INFOA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnetwk.h
+api_name:
+-	REMOTE_NAME_INFO
+-	REMOTE_NAME_INFOA
+-	REMOTE_NAME_INFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _REMOTE_NAME_INFOA structure

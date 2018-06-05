@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:setupapi._SP_SELECTDEVICE_PARAMS_A
+title: "_SP_SELECTDEVICE_PARAMS_A"
+author: windows-sdk-content
+description: An SP_SELECTDEVICE_PARAMS structure corresponds to a DIF_SELECTDEVICE installation request.
+old-location: devinst\sp_selectdevice_params.htm
+old-project: devinst
+ms.assetid: 7d1168dd-0b61-44fb-928d-38f2c57c1092
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PSP_SELECTDEVICE_PARAMS_A, PSP_SELECTDEVICE_PARAMS, PSP_SELECTDEVICE_PARAMS structure pointer [Device and Driver Installation], SP_SELECTDEVICE_PARAMS, SP_SELECTDEVICE_PARAMS structure [Device and Driver Installation], SP_SELECTDEVICE_PARAMS_A, _SP_SELECTDEVICE_PARAMS_A, devinst.sp_selectdevice_params, di-struct_897a5d1d-5ff3-4d70-b39d-3763b81d54bf.xml, setupapi/PSP_SELECTDEVICE_PARAMS, setupapi/SP_SELECTDEVICE_PARAMS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SP_SELECTDEVICE_PARAMS_A, *PSP_SELECTDEVICE_PARAMS_A
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	setupapi.h
+api_name:
+-	SP_SELECTDEVICE_PARAMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SP_SELECTDEVICE_PARAMS_A structure

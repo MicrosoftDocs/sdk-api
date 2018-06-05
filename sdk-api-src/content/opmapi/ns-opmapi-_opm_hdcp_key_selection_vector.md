@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:opmapi._OPM_HDCP_KEY_SELECTION_VECTOR
+title: "_OPM_HDCP_KEY_SELECTION_VECTOR"
+author: windows-sdk-content
+description: Contains the key selection vector (KSV) for a High-Bandwidth Digital Content Protection (HDCP) receiver.
+old-location: mf\opm_hdcp_key_selection_vector.htm
+old-project: medfound
+ms.assetid: 79c0e5e5-62ef-4b8a-9e3b-3a9482731b16
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: OPM_HDCP_KEY_SELECTION_VECTOR, OPM_HDCP_KEY_SELECTION_VECTOR structure [Media Foundation], _OPM_HDCP_KEY_SELECTION_VECTOR, mf.opm_hdcp_key_selection_vector, opmapi/OPM_HDCP_KEY_SELECTION_VECTOR
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: opmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPM_HDCP_KEY_SELECTION_VECTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	opmapi.h
+api_name:
+-	OPM_HDCP_KEY_SELECTION_VECTOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _OPM_HDCP_KEY_SELECTION_VECTOR structure

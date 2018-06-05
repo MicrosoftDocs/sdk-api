@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tspubplugin2com.ItsPubPlugin2.GetResource2List
+title: ItsPubPlugin2::GetResource2List
+author: windows-sdk-content
+description: Retrieves a list of resources assigned to the specified user.
+old-location: termserv\itspubplugin2_getresource2list.htm
+old-project: TermServ
+ms.assetid: 58b30088-be32-4aa0-88a4-459df52db7af
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetResource2List, GetResource2List method [Remote Desktop Services], GetResource2List method [Remote Desktop Services],ItsPubPlugin2 interface, ItsPubPlugin2 interface [Remote Desktop Services],GetResource2List method, ItsPubPlugin2.GetResource2List, ItsPubPlugin2::GetResource2List, termserv.itspubplugin2_getresource2list, tspubplugin2com/ItsPubPlugin2::GetResource2List
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tspubplugin2com.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tspubplugin2com.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSPUB_PLUGIN_PD_RESOLUTION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tspubplugin2com.h
+api_name:
+-	ItsPubPlugin2.GetResource2List
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ItsPubPlugin2::GetResource2List

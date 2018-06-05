@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincodecsdk.IWICMetadataHandlerInfo.GetMetadataFormat
+title: IWICMetadataHandlerInfo::GetMetadataFormat
+author: windows-sdk-content
+description: Retrieves the metadata format of the metadata handler.
+old-location: wic\_wic_codec_iwicmetadatahandlerinfo_getmetadataformat.htm
+old-project: wic
+ms.assetid: 0a54d59a-3fe4-4636-94a0-5ee449d1d5c3
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetMetadataFormat, GetMetadataFormat method [Windows Imaging Component], GetMetadataFormat method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],GetMetadataFormat method, IWICMetadataHandlerInfo.GetMetadataFormat, IWICMetadataHandlerInfo::GetMetadataFormat, _wic_codec_iwicmetadatahandlerinfo_getmetadataformat, wic._wic_codec_iwicmetadatahandlerinfo_getmetadataformat, wincodecsdk/IWICMetadataHandlerInfo::GetMetadataFormat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wincodecsdk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodecsdk.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICPersistOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.dll
+api_name:
+-	IWICMetadataHandlerInfo.GetMetadataFormat
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWICMetadataHandlerInfo::GetMetadataFormat

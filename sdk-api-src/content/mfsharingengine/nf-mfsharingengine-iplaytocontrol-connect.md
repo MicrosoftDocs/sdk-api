@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfsharingengine.IPlayToControl.Connect
+title: IPlayToControl::Connect
+author: windows-sdk-content
+description: Connects the media element to the media sharing engine.
+old-location: mf\iplaytocontrol_connect.htm
+old-project: medfound
+ms.assetid: 5252DC51-E1EF-4A61-A2BD-682F51DC219B
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: Connect, Connect method [Media Foundation], Connect method [Media Foundation],IPlayToControl interface, IPlayToControl interface [Media Foundation],Connect method, IPlayToControl.Connect, IPlayToControl::Connect, mf.iplaytocontrol_connect, mfsharingengine/IPlayToControl::Connect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfsharingengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfsharingengine.h
+api_name:
+-	IPlayToControl.Connect
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IPlayToControl::Connect

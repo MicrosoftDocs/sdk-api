@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:msinkaut.IInkWordList2
+title: IInkWordList2
+author: windows-sdk-content
+description: Adds members to the InkWordList Class.
+old-location: tablet\iinkwordlist2.htm
+old-project: tablet
+ms.assetid: 16be0c11-7525-4e6e-9556-e7308c1919cf
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 16be0c11-7525-4e6e-9556-e7308c1919cf, IInkWordList2, IInkWordList2 interface [Tablet PC], IInkWordList2 interface [Tablet PC],described, msinkaut/IInkWordList2, tablet.iinkwordlist2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkWordList2
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkWordList2 interface

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:oleauto.NUMPARSE
+title: NUMPARSE
+author: windows-sdk-content
+description: Specifies numeric parsing information.
+old-location: automat\numparse.htm
+old-project: automat
+ms.assetid: d55034ff-4407-40ba-bee3-8e82cd5c497e
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: NUMPARSE, NUMPARSE structure [Automation], NUMPRS_CURRENCY, NUMPRS_DECIMAL, NUMPRS_EXPONENT, NUMPRS_HEX_OCT, NUMPRS_INEXACT, NUMPRS_LEADING_MINUS, NUMPRS_LEADING_PLUS, NUMPRS_LEADING_WHITE, NUMPRS_NEG, NUMPRS_PARENS, NUMPRS_STD, NUMPRS_THOUSANDS, NUMPRS_TRAILING_MINUS, NUMPRS_TRAILING_PLUS, NUMPRS_TRAILING_WHITE, NUMPRS_USE_ALL, _oa96_NUMPARSE, automat.numparse, oleauto/NUMPARSE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: oleauto.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NUMPARSE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	OleAuto.h
+api_name:
+-	NUMPARSE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # NUMPARSE structure

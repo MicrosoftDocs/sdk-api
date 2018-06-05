@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl.MFSESSION_SETTOPOLOGY_FLAGS
+title: MFSESSION_SETTOPOLOGY_FLAGS
+author: windows-sdk-content
+description: Defines the behavior of the IMFMediaSession::SetTopology method.
+old-location: mf\mfsession_settopology_flags.htm
+old-project: medfound
+ms.assetid: 2993bdf9-cf28-4e20-9f38-f51fb0f6429e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 2993bdf9-cf28-4e20-9f38-f51fb0f6429e, MFSESSION_SETTOPOLOGY_CLEAR_CURRENT, MFSESSION_SETTOPOLOGY_FLAGS, MFSESSION_SETTOPOLOGY_FLAGS enumeration [Media Foundation], MFSESSION_SETTOPOLOGY_IMMEDIATE, MFSESSION_SETTOPOLOGY_NORESOLUTION, mf.mfsession_settopology_flags, mfidl/MFSESSION_SETTOPOLOGY_CLEAR_CURRENT, mfidl/MFSESSION_SETTOPOLOGY_FLAGS, mfidl/MFSESSION_SETTOPOLOGY_IMMEDIATE, mfidl/MFSESSION_SETTOPOLOGY_NORESOLUTION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSESSION_SETTOPOLOGY_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFSESSION_SETTOPOLOGY_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MFSESSION_SETTOPOLOGY_FLAGS enumeration

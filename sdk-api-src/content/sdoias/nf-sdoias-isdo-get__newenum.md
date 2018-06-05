@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sdoias.ISdo.get__NewEnum
+title: ISdo::get__NewEnum
+author: windows-sdk-content
+description: The get__NewEnum method retrieves an IEnumVARIANT interface for the Server Data Objects (SDO) properties.
+old-location: nps\SDO_isdo_get__newenum.htm
+old-project: Nps
+ms.assetid: 23033dc3-824c-429c-836d-65782ca3df92
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ISdo interface [Network Policy Server],get__NewEnum method, ISdo.get__NewEnum, ISdo::get__NewEnum, _sdo_isdo_get__newenum, get__NewEnum, get__NewEnum method [Network Policy Server], get__NewEnum method [Network Policy Server],ISdo interface, nps.SDO_isdo_get__newenum, sdo.isdo_get__newenum, sdoias/ISdo::get__NewEnum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sdoias.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VENDORPROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Iassdo.dll
+api_name:
+-	ISdo.get__NewEnum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISdo::get__NewEnum

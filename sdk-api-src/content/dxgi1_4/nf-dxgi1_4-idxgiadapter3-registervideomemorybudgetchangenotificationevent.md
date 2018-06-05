@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dxgi1_4.IDXGIAdapter3.RegisterVideoMemoryBudgetChangeNotificationEvent
+title: IDXGIAdapter3::RegisterVideoMemoryBudgetChangeNotificationEvent
+author: windows-sdk-content
+description: This method establishes a correlation between a CPU synchronization object and the budget change event.
+old-location: direct3ddxgi\idxgiadapter3_registervideomemorybudgetchangenotificationevent.htm
+old-project: direct3ddxgi
+ms.assetid: 58ACCDE6-CB33-4BCE-9B15-84F60AC7B905
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IDXGIAdapter3 interface [DXGI],RegisterVideoMemoryBudgetChangeNotificationEvent method, IDXGIAdapter3.RegisterVideoMemoryBudgetChangeNotificationEvent, IDXGIAdapter3::RegisterVideoMemoryBudgetChangeNotificationEvent, RegisterVideoMemoryBudgetChangeNotificationEvent, RegisterVideoMemoryBudgetChangeNotificationEvent method [DXGI], RegisterVideoMemoryBudgetChangeNotificationEvent method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_registervideomemorybudgetchangenotificationevent, dxgi1_4/IDXGIAdapter3::RegisterVideoMemoryBudgetChangeNotificationEvent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi1_4.h
+req.include-header: DXGI1_3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxgi.dll
+api_name:
+-	IDXGIAdapter3.RegisterVideoMemoryBudgetChangeNotificationEvent
+product: Windows
+targetos: Windows
+req.lib: Dxgi.lib
+req.dll: Dxgi.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIAdapter3::RegisterVideoMemoryBudgetChangeNotificationEvent

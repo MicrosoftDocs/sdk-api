@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wsmandisp.IWSManEx3.SessionFlagUseCredSsp
+title: IWSManEx3::SessionFlagUseCredSsp
+author: windows-sdk-content
+description: Returns the value of the authentication flag WSManFlagUseCredSsp for use in the flags parameter of IWSMan::CreateSession.
+old-location: winrm\iwsmanex3_sessionflagusecredssp.htm
+old-project: WinRM
+ms.assetid: 69c62ad1-319e-4716-a2c7-61b931567244
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IWSManEx3 interface [Windows Remote Management],SessionFlagUseCredSsp method, IWSManEx3.SessionFlagUseCredSsp, IWSManEx3::SessionFlagUseCredSsp, SessionFlagUseCredSsp, SessionFlagUseCredSsp method [Windows Remote Management], SessionFlagUseCredSsp method [Windows Remote Management],IWSManEx3 interface, winrm.iwsmanex3_sessionflagusecredssp, wsmandisp/IWSManEx3::SessionFlagUseCredSsp
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wsmandisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WSManDisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSManProxyAuthenticationFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WSMAuto.dll
+api_name:
+-	IWSManEx3.SessionFlagUseCredSsp
+product: Windows
+targetos: Windows
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWSManEx3::SessionFlagUseCredSsp

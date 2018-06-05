@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rend.ITDirectoryObjectConference.put_StartTime
+title: ITDirectoryObjectConference::put_StartTime
+author: windows-sdk-content
+description: The put_StartTime method sets the start time of the conference.
+old-location: tapi3\itdirectoryobjectconference_put_starttime.htm
+old-project: Tapi
+ms.assetid: 87ccf59c-3fe6-4247-b7f9-d1fb8bcf4b69
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_StartTime method, ITDirectoryObjectConference.put_StartTime, ITDirectoryObjectConference::put_StartTime, _tapi3_itdirectoryobjectconference_put_starttime, put_StartTime, put_StartTime method [TAPI 2.2], put_StartTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_StartTime, tapi3.itdirectoryobjectconference_put_starttime
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rend.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rend.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RND_ADVERTISING_SCOPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Rend.dll
+api_name:
+-	ITDirectoryObjectConference.put_StartTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITDirectoryObjectConference::put_StartTime

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dxgi.IDXGIDevice.GetGPUThreadPriority
+title: IDXGIDevice::GetGPUThreadPriority
+author: windows-sdk-content
+description: Gets the GPU thread priority.
+old-location: direct3ddxgi\idxgidevice_getgputhreadpriority.htm
+old-project: direct3ddxgi
+ms.assetid: VS|directx_sdk|~\idxgidevice_getgputhreadpriority.htm
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: GetGPUThreadPriority, GetGPUThreadPriority method [DXGI], GetGPUThreadPriority method [DXGI],IDXGIDevice interface, IDXGIDevice interface [DXGI],GetGPUThreadPriority method, IDXGIDevice.GetGPUThreadPriority, IDXGIDevice::GetGPUThreadPriority, direct3ddxgi.idxgidevice_getgputhreadpriority, dxgi/IDXGIDevice::GetGPUThreadPriority, fbea5e3b-9023-68ed-7a86-b421d1d2cf36
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_SWAP_EFFECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DXGI.lib
+-	DXGI.dll
+api_name:
+-	IDXGIDevice.GetGPUThreadPriority
+product: Windows
+targetos: Windows
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIDevice::GetGPUThreadPriority

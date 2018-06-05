@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlobj_core.SHPropStgCreate
+title: SHPropStgCreate function
+author: windows-sdk-content
+description: Ensures proper handling of code page retrieval or assignment for the requested property set operation.
+old-location: properties\SHPropStgCreate.htm
+old-project: properties
+ms.assetid: fd99e04e-ef96-4357-9226-da6604fb0e84
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: CREATE_ALWAYS, CREATE_NEW, OPEN_ALWAYS, OPEN_EXISTING, SHPropStgCreate, SHPropStgCreate function [Windows Properties], _win32_SHPropStgCreate, properties.SHPropStgCreate, shell.SHPropStgCreate, shlobj_core/SHPropStgCreate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlobj_core.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETELISTOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+api_name:
+-	SHPropStgCreate
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SHPropStgCreate function

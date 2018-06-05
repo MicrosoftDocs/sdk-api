@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbase.tagHW_PROFILE_INFOA
+title: tagHW_PROFILE_INFOA
+author: windows-sdk-content
+description: Contains information about a hardware profile.
+old-location: base\hw_profile_info_str.htm
+old-project: SysInfo
+ms.assetid: b1c8eb4c-8c62-4e3e-a7d2-0888512b3d4c
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPHW_PROFILE_INFOA, DOCKINFO_DOCKED, DOCKINFO_UNDOCKED, DOCKINFO_USER_DOCKED, DOCKINFO_USER_SUPPLIED, DOCKINFO_USER_UNDOCKED, HW_PROFILE_INFO, HW_PROFILE_INFO structure, HW_PROFILE_INFOA, HW_PROFILE_INFOW, LPHW_PROFILE_INFO, LPHW_PROFILE_INFO structure pointer, _win32_hw_profile_info_str, base.hw_profile_info_str, tagHW_PROFILE_INFOA, tagHW_PROFILE_INFOW, winbase/HW_PROFILE_INFO, winbase/HW_PROFILE_INFOA, winbase/HW_PROFILE_INFOW, winbase/LPHW_PROFILE_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: HW_PROFILE_INFOW (Unicode) and HW_PROFILE_INFOA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HW_PROFILE_INFOA, *LPHW_PROFILE_INFOA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winbase.h
+api_name:
+-	HW_PROFILE_INFO
+-	HW_PROFILE_INFOA
+-	HW_PROFILE_INFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagHW_PROFILE_INFOA structure

@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d3d11.D3D11_VIDEO_USAGE
+title: D3D11_VIDEO_USAGE
+author: windows-sdk-content
+description: Specifies the intended use for a video processor.
+old-location: mf\d3d11_video_usage.htm
+old-project: medfound
+ms.assetid: 11657847-FFDB-42EA-9A29-FDC1F92DF039
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3D11_VIDEO_USAGE, D3D11_VIDEO_USAGE enumeration [Media Foundation], D3D11_VIDEO_USAGE_OPTIMAL_QUALITY, D3D11_VIDEO_USAGE_OPTIMAL_SPEED, D3D11_VIDEO_USAGE_PLAYBACK_NORMAL, d3d11/D3D11_VIDEO_USAGE, d3d11/D3D11_VIDEO_USAGE_OPTIMAL_QUALITY, d3d11/D3D11_VIDEO_USAGE_OPTIMAL_SPEED, d3d11/D3D11_VIDEO_USAGE_PLAYBACK_NORMAL, mf.d3d11_video_usage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: D3d11.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VIDEO_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11.h
+api_name:
+-	D3D11_VIDEO_USAGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_VIDEO_USAGE enumeration

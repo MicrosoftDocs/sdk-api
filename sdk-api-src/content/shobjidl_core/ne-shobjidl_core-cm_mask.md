@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core.CM_MASK
+title: CM_MASK
+author: windows-sdk-content
+description: Indicates which values in the CM_COLUMNINFO structure should be set during calls to IColumnManager::SetColumnInfo.
+old-location: shell\CM_MASK.htm
+old-project: shell
+ms.assetid: c6ba9410-7c56-428c-9ad9-4e769c047863
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CM_MASK, CM_MASK enumeration [Windows Shell], CM_MASK_DEFAULTWIDTH, CM_MASK_IDEALWIDTH, CM_MASK_NAME, CM_MASK_STATE, CM_MASK_WIDTH, shell.CM_MASK, shell_CM_MASK, shobjidl_core/CM_MASK, shobjidl_core/CM_MASK_DEFAULTWIDTH, shobjidl_core/CM_MASK_IDEALWIDTH, shobjidl_core/CM_MASK_NAME, shobjidl_core/CM_MASK_STATE, shobjidl_core/CM_MASK_WIDTH
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_MASK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	CM_MASK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # CM_MASK enumeration

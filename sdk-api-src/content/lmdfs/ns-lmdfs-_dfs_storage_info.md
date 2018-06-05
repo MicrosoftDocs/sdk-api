@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmdfs._DFS_STORAGE_INFO
+title: "_DFS_STORAGE_INFO"
+author: windows-sdk-content
+description: Contains information about a DFS root or link target in a DFS namespace or from the cache maintained by the DFS client.
+old-location: dfs\dfs_storage_info.htm
+old-project: Dfs
+ms.assetid: f50f32d8-1745-4ff6-97a6-ddd6fff95955
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDFS_STORAGE_INFO, *PDFS_STORAGE_INFO, DFS_STORAGE_INFO, DFS_STORAGE_INFO structure [Distributed File System], DFS_STORAGE_STATE_ACTIVE, DFS_STORAGE_STATE_OFFLINE, DFS_STORAGE_STATE_ONLINE, LPDFS_STORAGE_INFO, LPDFS_STORAGE_INFO structure pointer [Distributed File System], PDFS_STORAGE_INFO, PDFS_STORAGE_INFO structure pointer [Distributed File System], _DFS_STORAGE_INFO, _win32_dfs_storage_info_str, dfs.dfs_storage_info, fs.dfs_storage_info, fs.dfs_storage_info_str, lmdfs/DFS_STORAGE_INFO, lmdfs/LPDFS_STORAGE_INFO, lmdfs/PDFS_STORAGE_INFO, netmgmt.dfs_storage_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmdfs.h
+req.include-header: LmDfs.h, Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DFS_STORAGE_INFO, *PDFS_STORAGE_INFO, *LPDFS_STORAGE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	LmDfs.h
+api_name:
+-	DFS_STORAGE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _DFS_STORAGE_INFO structure

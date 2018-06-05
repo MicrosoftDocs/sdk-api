@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0078_0004
+title: "__MIDL___MIDL_itf_ads_0001_0078_0004"
+author: windows-sdk-content
+description: Specifies how escape characters are displayed in a directory path.
+old-location: adsi\ads_escape_mode_enum.htm
+old-project: ADSI
+ms.assetid: f69934bc-69ac-4822-b92d-89c94f55e036
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ADS_ESCAPEDMODE_DEFAULT, ADS_ESCAPEDMODE_OFF, ADS_ESCAPEDMODE_OFF_EX, ADS_ESCAPEDMODE_ON, ADS_ESCAPE_MODE_ENUM, ADS_ESCAPE_MODE_ENUM enumeration [ADSI], __MIDL___MIDL_itf_ads_0001_0078_0004, _ds_ads_escape_mode_enum, adsi.ads__escape__mode__enum, adsi.ads_escape_mode_enum, iads/ADS_ESCAPEDMODE_DEFAULT, iads/ADS_ESCAPEDMODE_OFF, iads/ADS_ESCAPEDMODE_OFF_EX, iads/ADS_ESCAPEDMODE_ON, iads/ADS_ESCAPE_MODE_ENUM
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: IAccess.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_ESCAPE_MODE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_ESCAPE_MODE_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_ads_0001_0078_0004 enumeration

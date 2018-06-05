@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:slpublic.SLGetLicense
+title: SLGetLicense function
+author: windows-sdk-content
+description: Returns the license file BLOB.
+old-location: security\slgetlicense.htm
+old-project: SecSLApi
+ms.assetid: 68648512-ea63-43b9-af86-b1014c89f1d7
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: SLGetLicense, SLGetLicense function [Security], security.slgetlicense, slpublic/SLGetLicense
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: slpublic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SL_ACTIVATION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Slc.dll
+api_name:
+-	SLGetLicense
+product: Windows
+targetos: Windows
+req.lib: Slc.lib
+req.dll: Slc.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLGetLicense function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:certmod.ICertManageModule
+title: ICertManageModule
+author: windows-sdk-content
+description: Provided to retrieve information about a Certificate Services Policy or Exit module.
+old-location: security\icertmanagemodule.htm
+old-project: SecCrypto
+ms.assetid: 82b7b770-c098-40da-8a4e-8eb0e0b8a645
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: ICertManageModule, ICertManageModule interface [Security], ICertManageModule interface [Security],described, _certsrv_icertmanagemodule, certmod/ICertManageModule, security.icertmanagemodule
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: certmod.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certidl.lib
+-	Certidl.dll
+api_name:
+-	ICertManageModule
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: 
+req.irql: 
 ---
 
 # ICertManageModule interface

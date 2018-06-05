@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core.ASSOCIATIONTYPE
+title: ASSOCIATIONTYPE
+author: windows-sdk-content
+description: Specifies the type of association for an application. Used by methods of the IApplicationAssociationRegistration interface.
+old-location: shell\ASSOCIATIONTYPE.htm
+old-project: shell
+ms.assetid: 3dbbe748-5e83-4103-932a-b51a2a55f9fd
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ASSOCIATIONTYPE, ASSOCIATIONTYPE enumeration [Windows Shell], AT_FILEEXTENSION, AT_MIMETYPE, AT_STARTMENUCLIENT, AT_URLPROTOCOL, _shell_ASSOCIATIONTYPE, shell.ASSOCIATIONTYPE, shobjidl_core/ASSOCIATIONTYPE, shobjidl_core/AT_FILEEXTENSION, shobjidl_core/AT_MIMETYPE, shobjidl_core/AT_STARTMENUCLIENT, shobjidl_core/AT_URLPROTOCOL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ASSOCIATIONTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	ASSOCIATIONTYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # ASSOCIATIONTYPE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dxgidebug.DXGI_INFO_QUEUE_FILTER
+title: DXGI_INFO_QUEUE_FILTER
+author: windows-sdk-content
+description: Describes a debug message filter, which contains lists of message types to allow and deny.
+old-location: direct3ddxgi\dxgi_info_queue_filter.htm
+old-project: direct3ddxgi
+ms.assetid: 95E68ECE-39D2-4D16-9A8F-FE6E527A83E3
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGI_INFO_QUEUE_FILTER, DXGI_INFO_QUEUE_FILTER structure [DXGI], direct3ddxgi.dxgi_info_queue_filter, dxgidebug/DXGI_INFO_QUEUE_FILTER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxgidebug.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_INFO_QUEUE_FILTER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DXGIDebug.h
+api_name:
+-	DXGI_INFO_QUEUE_FILTER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DXGI_INFO_QUEUE_FILTER structure

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winldap.ldap_parse_reference
+title: ldap_parse_reference function
+author: windows-sdk-content
+description: The ldap_parse_reference function returns a list of subordinate referrals in a search response message.
+old-location: ldap\ldap_parse_reference.htm
+old-project: LDAP
+ms.assetid: 106db7dd-ee1e-48c9-9357-e14d4f8e8782
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: "_ldap_ldap_parse_reference, ldap.ldap__parse__reference, ldap.ldap_parse_reference, ldap_parse_reference, ldap_parse_reference function [LDAP], ldap_parse_referenceA, ldap_parse_referenceW, winldap/ldap_parse_reference, winldap/ldap_parse_referenceA, winldap/ldap_parse_referenceW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winldap.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ldap_parse_referenceW (Unicode) and ldap_parse_referenceA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wldap32.dll
+api_name:
+-	ldap_parse_reference
+-	ldap_parse_referenceA
+-	ldap_parse_referenceW
+product: Windows
+targetos: Windows
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ldap_parse_reference function

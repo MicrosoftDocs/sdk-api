@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:directmanipulation.IDirectManipulationViewport.Abandon
+title: IDirectManipulationViewport::Abandon
+author: windows-sdk-content
+description: Releases all resources that are used by the viewport and prepares it for destruction from memory.
+old-location: directmanipulation\idirectmanipulationviewport_abandon.htm
+old-project: directmanipulation
+ms.assetid: 83d0bcde-03d2-4eba-991a-399b5307c8bd
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: Abandon, Abandon method [Direct Manipulation], Abandon method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Abandon method, IDirectManipulationViewport.Abandon, IDirectManipulationViewport::Abandon, directmanipulation.idirectmanipulationviewport_abandon, directmanipulation/IDirectManipulationViewport::Abandon
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DirectManipulation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DirectManipulation.h
+api_name:
+-	IDirectManipulationViewport.Abandon
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectManipulationViewport::Abandon

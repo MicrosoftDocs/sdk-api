@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:setupapi._SP_DEVICE_INTERFACE_DATA
+title: "_SP_DEVICE_INTERFACE_DATA"
+author: windows-sdk-content
+description: An SP_DEVICE_INTERFACE_DATA structure defines a device interface in a device information set.
+old-location: devinst\sp_device_interface_data.htm
+old-project: devinst
+ms.assetid: df142e95-aa1c-4d3e-90c6-bac86effbd5d
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PSP_DEVICE_INTERFACE_DATA, PSP_DEVICE_INTERFACE_DATA, PSP_DEVICE_INTERFACE_DATA structure pointer [Device and Driver Installation], SP_DEVICE_INTERFACE_DATA, SP_DEVICE_INTERFACE_DATA structure [Device and Driver Installation], SP_INTERFACE_DEVICE_DATA, _SP_DEVICE_INTERFACE_DATA, devinst.sp_device_interface_data, di-struct_6ad1a986-b29c-4adc-af28-e8895eee5ac4.xml, setupapi/PSP_DEVICE_INTERFACE_DATA, setupapi/SP_DEVICE_INTERFACE_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SP_DEVICE_INTERFACE_DATA, *PSP_DEVICE_INTERFACE_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	setupapi.h
+api_name:
+-	SP_DEVICE_INTERFACE_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SP_DEVICE_INTERFACE_DATA structure

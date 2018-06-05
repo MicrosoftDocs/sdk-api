@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:propsys.IPropertyDescription.GetPropertyType
+title: IPropertyDescription::GetPropertyType
+author: windows-sdk-content
+description: Gets the variant type of the property.
+old-location: properties\IPropertyDescription_GetPropertyType.htm
+old-project: properties
+ms.assetid: 88f960b0-4b83-48d9-af24-ad6995ade550
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetPropertyType, GetPropertyType method [Windows Properties], GetPropertyType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetPropertyType method, IPropertyDescription.GetPropertyType, IPropertyDescription::GetPropertyType, VT_BLOB, VT_BOOL, VT_CLSID, VT_FILETIME, VT_I2, VT_I4, VT_I8, VT_LPWSTR, VT_NULL, VT_R8, VT_STREAM, VT_UI1, VT_UI2, VT_UI4, VT_UI8, VT_UNKNOWN, properties.IPropertyDescription_GetPropertyType, propsys/IPropertyDescription::GetPropertyType, shell.IPropertyDescription_GetPropertyType, shell_IPropertyDescription_GetPropertyType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Propsys.h
+api_name:
+-	IPropertyDescription.GetPropertyType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyDescription::GetPropertyType

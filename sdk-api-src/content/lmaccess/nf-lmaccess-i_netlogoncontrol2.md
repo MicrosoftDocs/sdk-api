@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:lmaccess.I_NetLogonControl2
+title: I_NetLogonControl2 function
+author: windows-sdk-content
+description: Controls various aspects of the Netlogon service.
+old-location: winprog\i_netlogoncontrol2.htm
+old-project: DevNotes
+ms.assetid: bf40ee60-3a13-4a4e-a0f4-ba7c9fc11097
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: I_NetLogonControl2, I_NetLogonControl2 function [Windows API], NETLOGON_CONTROL_CHANGE_PASSWORD, NETLOGON_CONTROL_FORCE_DNS_REG, NETLOGON_CONTROL_PDC_REPLICATE, NETLOGON_CONTROL_QUERY, NETLOGON_CONTROL_QUERY_DNS_REG, NETLOGON_CONTROL_REDISCOVER, NETLOGON_CONTROL_REPLICATE, NETLOGON_CONTROL_SYNCHRONIZE, NETLOGON_CONTROL_TC_QUERY, NETLOGON_CONTROL_TC_VERIFY, NETLOGON_INFO_1, NETLOGON_INFO_2, NETLOGON_INFO_3, NETLOGON_INFO_4, lmaccess/I_NetLogonControl2, winprog.i_netlogoncontrol2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: lmaccess.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netapi32.dll
+api_name:
+-	I_NetLogonControl2
+product: Windows
+targetos: Windows
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # I_NetLogonControl2 function

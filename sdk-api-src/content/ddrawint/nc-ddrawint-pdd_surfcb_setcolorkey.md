@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_SURFCB_SETCOLORKEY
+title: PDD_SURFCB_SETCOLORKEY
+author: windows-sdk-content
+description: The DdSetColorKey callback function sets the color key value for the specified surface.
+old-location: display\ddsetcolorkey.htm
+old-project: display
+ms.assetid: 4b4ee889-15c8-4a7c-a9d8-adab27b271dd
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DdSetColorKey, DdSetColorKey callback function [Display Devices], PDD_SURFCB_SETCOLORKEY, PDD_SURFCB_SETCOLORKEY callback, ddfncs_d15b9bba-6ff4-441e-8bbe-f23e85de8e32.xml, ddrawint/DdSetColorKey, display.ddsetcolorkey
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdSetColorKey
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_SURFCB_SETCOLORKEY callback function

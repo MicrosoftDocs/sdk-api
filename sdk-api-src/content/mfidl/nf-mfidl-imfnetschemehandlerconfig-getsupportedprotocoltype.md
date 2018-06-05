@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFNetSchemeHandlerConfig.GetSupportedProtocolType
+title: IMFNetSchemeHandlerConfig::GetSupportedProtocolType
+author: windows-sdk-content
+description: Retrieves a supported protocol by index.
+old-location: mf\imfnetschemehandlerconfig_getsupportedprotocoltype.htm
+old-project: medfound
+ms.assetid: 51cd90cf-a3ae-45dd-bc27-c91d44cab9f5
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 51cd90cf-a3ae-45dd-bc27-c91d44cab9f5, GetSupportedProtocolType, GetSupportedProtocolType method [Media Foundation], GetSupportedProtocolType method [Media Foundation],IMFNetSchemeHandlerConfig interface, IMFNetSchemeHandlerConfig interface [Media Foundation],GetSupportedProtocolType method, IMFNetSchemeHandlerConfig.GetSupportedProtocolType, IMFNetSchemeHandlerConfig::GetSupportedProtocolType, mf.imfnetschemehandlerconfig_getsupportedprotocoltype, mfidl/IMFNetSchemeHandlerConfig::GetSupportedProtocolType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFNetSchemeHandlerConfig.GetSupportedProtocolType
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFNetSchemeHandlerConfig::GetSupportedProtocolType

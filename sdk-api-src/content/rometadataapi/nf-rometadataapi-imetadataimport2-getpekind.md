@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rometadataapi.IMetaDataImport2.GetPEKind
+title: IMetaDataImport2::GetPEKind
+author: windows-sdk-content
+description: Gets a value identifying the nature of the code in the portable executable (PE) file, typically a DLL or EXE file, that is defined in the current metadata scope.
+old-location: winrt\imetadataimport2_getpekind.htm
+old-project: WinRT
+ms.assetid: ece40ffa-f92f-4f27-b03c-75204e0c6ee1
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: GetPEKind, GetPEKind method [Windows Runtime], GetPEKind method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetPEKind method, IMetaDataImport2.GetPEKind, IMetaDataImport2::GetPEKind, rometadataapi/IMetaDataImport2::GetPEKind, winrt.imetadataimport2_getpekind
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rometadataapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rometadataapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	rometadataapi.h
+api_name:
+-	IMetaDataImport2.GetPEKind
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMetaDataImport2::GetPEKind

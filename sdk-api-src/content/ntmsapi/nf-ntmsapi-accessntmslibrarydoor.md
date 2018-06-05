@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntmsapi.AccessNtmsLibraryDoor
+title: AccessNtmsLibraryDoor function
+author: windows-sdk-content
+description: The AccessNtmsLibraryDoor function unlocks the door of the specified library. If the library is busy, RSM queues the request and returns successfully.
+old-location: fs\accessntmslibrarydoor.htm
+old-project: Rsm
+ms.assetid: c7bc4582-4405-4e42-a8bf-e2e8c68bbd7e
+ms.author: windowssdkdev
+ms.date: 04/05/2018
+ms.keywords: AccessNtmsLibraryDoor, AccessNtmsLibraryDoor function [Files], NTMS_INVENTORY_DEFAULT, NTMS_INVENTORY_FAST, NTMS_INVENTORY_NONE, NTMS_INVENTORY_OMID, _zaw_accessntmslibrarydoor, base.accessntmslibrarydoor, fs.accessntmslibrarydoor, ntmsapi/AccessNtmsLibraryDoor
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntmsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntmsapi.dll
+api_name:
+-	AccessNtmsLibraryDoor
+product: Windows
+targetos: Windows
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # AccessNtmsLibraryDoor function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:winbase.PCOPYFILE2_PROGRESS_ROUTINE
+title: PCOPYFILE2_PROGRESS_ROUTINE
+author: windows-sdk-content
+description: An application-defined callback function used with the CopyFile2 function.
+old-location: fs\copyfile2progressroutine.htm
+old-project: FileIO
+ms.assetid: d14b5f5b-c353-49e8-82bb-a695a3ec76fd
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: CopyFile2ProgressRoutine, CopyFile2ProgressRoutine callback function [Files], PCOPYFILE2_PROGRESS_ROUTINE, PCOPYFILE2_PROGRESS_ROUTINE callback, fs.copyfile2progressroutine, winbase/CopyFile2ProgressRoutine, winbase/PCOPYFILE2_PROGRESS_ROUTINE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIA_PROPID_TO_NAME, *PWIA_PROPID_TO_NAME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	WinBase.h
+api_name:
+-	CopyFile2ProgressRoutine
+-	PCOPYFILE2_PROGRESS_ROUTINE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PCOPYFILE2_PROGRESS_ROUTINE callback function

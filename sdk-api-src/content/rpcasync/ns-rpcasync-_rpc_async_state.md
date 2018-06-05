@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rpcasync._RPC_ASYNC_STATE
+title: "_RPC_ASYNC_STATE"
+author: windows-sdk-content
+description: The RPC_ASYNC_STATE structure holds the state of an asynchronous remote procedure call. RPC_ASYNC_STATE is a handle to this structure, used to wait for, query, reply to, or cancel asynchronous calls.
+old-location: rpc\rpc_async_state.htm
+old-project: Rpc
+ms.assetid: ad004f49-89a6-486c-80ec-5b85ab4b8db9
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PRPC_ASYNC_STATE, PRPC_ASYNC_STATE, PRPC_ASYNC_STATE structure pointer [RPC], RPC_ASYNC_STATE, RPC_ASYNC_STATE structure [RPC], RPC_C_NOTIFY_ON_SEND_COMPLETE, RpcNotificationTypeApc, RpcNotificationTypeCallback, RpcNotificationTypeEvent, RpcNotificationTypeHwnd, RpcNotificationTypeIoc, RpcNotificationTypeNone, _RPC_ASYNC_STATE, _rpc_rpc_async_state, rpc.rpc_async_state, rpcasync/PRPC_ASYNC_STATE, rpcasync/RPC_ASYNC_STATE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rpcasync.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_ASYNC_STATE, *PRPC_ASYNC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rpcasync.h
+api_name:
+-	RPC_ASYNC_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RPC_ASYNC_STATE structure

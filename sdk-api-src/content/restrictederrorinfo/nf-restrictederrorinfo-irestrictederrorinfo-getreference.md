@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:restrictederrorinfo.IRestrictedErrorInfo.GetReference
+title: IRestrictedErrorInfo::GetReference
+author: windows-sdk-content
+description: Returns a reference to restricted error information.
+old-location: winrt\irestrictederrorinfo_getreference.htm
+old-project: WinRT
+ms.assetid: e7f0c451-c6a4-49ec-a97a-dc834081b3c1
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: GetReference, GetReference method [Windows Runtime], GetReference method [Windows Runtime],IRestrictedErrorInfo interface, IRestrictedErrorInfo interface [Windows Runtime],GetReference method, IRestrictedErrorInfo.GetReference, IRestrictedErrorInfo::GetReference, restrictederrorinfo/IRestrictedErrorInfo::GetReference, winrt.irestrictederrorinfo_getreference
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: restrictederrorinfo.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RestrictedErrorInfo.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RestrictedErrorInfo.h
+api_name:
+-	IRestrictedErrorInfo.GetReference
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRestrictedErrorInfo::GetReference

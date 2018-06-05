@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:netioapi.GetNetworkInformation
+title: GetNetworkInformation function
+author: windows-sdk-content
+description: Reserved for future use. Do not use this function.
+old-location: netvista\getnetworkinformation.htm
+old-project: netvista
+ms.assetid: 5c28b606-a8ab-48de-8cfb-97fa877c52c8
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: GetNetworkInformation, GetNetworkInformation function [Network Drivers Starting with Windows Vista], iphelper_a4a29ea4-0581-4c98-a294-6042db2937c3.xml, netioapi/GetNetworkInformation, netvista.getnetworkinformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: netioapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Netioapi.h
+api_name:
+-	GetNetworkInformation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # GetNetworkInformation function

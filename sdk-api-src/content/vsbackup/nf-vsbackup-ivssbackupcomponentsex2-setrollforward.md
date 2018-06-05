@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsbackup.IVssBackupComponentsEx2.SetRollForward
+title: IVssBackupComponentsEx2::SetRollForward
+author: windows-sdk-content
+description: Sets the roll-forward operation type for a component and specifies the restore point for a partial roll-forward operation.
+old-location: base\ivssbackupcomponentsex2_setrollforward.htm
+old-project: VSS
+ms.assetid: 9529284f-2150-4d32-af6c-178ba8681945
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IVssBackupComponentsEx2 interface,SetRollForward method, IVssBackupComponentsEx2.SetRollForward, IVssBackupComponentsEx2::SetRollForward, SetRollForward, SetRollForward method, SetRollForward method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_setrollforward, vsbackup/IVssBackupComponentsEx2::SetRollForward
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsbackup.h
+req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssBackupComponentsEx2.SetRollForward
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssBackupComponentsEx2::SetRollForward

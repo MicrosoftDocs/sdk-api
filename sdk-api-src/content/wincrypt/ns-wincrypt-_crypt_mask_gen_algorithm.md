@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_MASK_GEN_ALGORITHM
+title: "_CRYPT_MASK_GEN_ALGORITHM"
+author: windows-sdk-content
+description: Identifies the algorithm used to generate an RSA PKCS #1 v2.1 signature mask.
+old-location: security\crypt_mask_gen_algorithm.htm
+old-project: SecCrypto
+ms.assetid: 26ccf26d-9cde-4653-b4ab-7362f4fad640
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_MASK_GEN_ALGORITHM, CRYPT_MASK_GEN_ALGORITHM, CRYPT_MASK_GEN_ALGORITHM structure [Security], PCRYPT_MASK_GEN_ALGORITHM, PCRYPT_MASK_GEN_ALGORITHM structure pointer [Security], _CRYPT_MASK_GEN_ALGORITHM, security.crypt_mask_gen_algorithm, szOID_RSA_MGF1, wincrypt/CRYPT_MASK_GEN_ALGORITHM, wincrypt/PCRYPT_MASK_GEN_ALGORITHM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_MASK_GEN_ALGORITHM, *PCRYPT_MASK_GEN_ALGORITHM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRYPT_MASK_GEN_ALGORITHM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_MASK_GEN_ALGORITHM structure

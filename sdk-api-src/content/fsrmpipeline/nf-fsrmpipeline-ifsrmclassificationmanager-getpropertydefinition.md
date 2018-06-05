@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmClassificationManager.GetPropertyDefinition
+title: IFsrmClassificationManager::GetPropertyDefinition
+author: windows-sdk-content
+description: Retrieves the specified property definition.
+old-location: fsrm\ifsrmclassificationmanager_getpropertydefinition.htm
+old-project: Fsrm
+ms.assetid: de89524d-70b7-4f0a-add0-d34d54bd32a7
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetPropertyDefinition method, GetPropertyDefinition, GetPropertyDefinition method [File Server Resource Manager], GetPropertyDefinition method [File Server Resource Manager],FsrmClassificationManager class, GetPropertyDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, GetPropertyDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetPropertyDefinition method, IFsrmClassificationManager.GetPropertyDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],GetPropertyDefinition method, IFsrmClassificationManager2::GetPropertyDefinition, IFsrmClassificationManager::GetPropertyDefinition, fs.ifsrmclassificationmanager_getpropertydefinition, fsrm.ifsrmclassificationmanager_getpropertydefinition, fsrmpipeline/IFsrmClassificationManager2::GetPropertyDefinition, fsrmpipeline/IFsrmClassificationManager::GetPropertyDefinition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: FsrmPipeline.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmClassificationManager.GetPropertyDefinition
+-	IFsrmClassificationManager2.GetPropertyDefinition
+-	FsrmClassificationManager.GetPropertyDefinition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmClassificationManager::GetPropertyDefinition

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:encdec.IDTFilter2.GetCurrLicenseExpDate
+title: IDTFilter2::GetCurrLicenseExpDate
+author: windows-sdk-content
+description: Not implemented in this release.
+old-location: mstv\idtfilter2_getcurrlicenseexpdate.htm
+old-project: mstv
+ms.assetid: 3c9b9aa5-62b7-4b3a-abc1-2e0af7e65b18
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetCurrLicenseExpDate, GetCurrLicenseExpDate method [Microsoft TV Technologies], GetCurrLicenseExpDate method [Microsoft TV Technologies],IDTFilter2 interface, IDTFilter2 interface [Microsoft TV Technologies],GetCurrLicenseExpDate method, IDTFilter2.GetCurrLicenseExpDate, IDTFilter2::GetCurrLicenseExpDate, IDTFilter2GetCurrLicenseExpDate, encdec/IDTFilter2::GetCurrLicenseExpDate, mstv.idtfilter2_getcurrlicenseexpdate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: encdec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ProtType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EncDec.h
+api_name:
+-	IDTFilter2.GetCurrLicenseExpDate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDTFilter2::GetCurrLicenseExpDate

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:tpcshrd._PACKET_DESCRIPTION
+title: "_PACKET_DESCRIPTION"
+author: windows-sdk-content
+description: Describes the content of the packet for a particular tablet recognizer context.Do not use this structure to access the data contained in a packet. This structure describes the content of the packet.
+old-location: tablet\packet_description.htm
+old-project: tablet
+ms.assetid: 6823f2c6-2c99-4b9a-8208-041fc1f7bf82
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PPACKET_DESCRIPTION, 6823f2c6-2c99-4b9a-8208-041fc1f7bf82, PACKET_DESCRIPTION, PACKET_DESCRIPTION structure [Tablet PC], PPACKET_DESCRIPTION, PPACKET_DESCRIPTION structure pointer [Tablet PC], _PACKET_DESCRIPTION, tablet.packet_description, tpcshrd/PACKET_DESCRIPTION, tpcshrd/PPACKET_DESCRIPTION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tpcshrd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PACKET_DESCRIPTION, *PPACKET_DESCRIPTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tpcshrd.h
+api_name:
+-	PACKET_DESCRIPTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _PACKET_DESCRIPTION structure

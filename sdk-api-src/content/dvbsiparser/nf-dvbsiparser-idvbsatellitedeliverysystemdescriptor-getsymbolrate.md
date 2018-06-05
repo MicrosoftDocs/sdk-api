@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor.GetSymbolRate
+title: IDvbSatelliteDeliverySystemDescriptor::GetSymbolRate
+author: windows-sdk-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+old-location: mstv\idvbsatellitedeliverysystemdescriptor_getsymbolrate.htm
+old-project: mstv
+ms.assetid: 184b1cb6-432a-4227-b711-e05201f80bf1
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetSymbolRate, GetSymbolRate method [Microsoft TV Technologies], GetSymbolRate method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetSymbolRate method, IDvbSatelliteDeliverySystemDescriptor.GetSymbolRate, IDvbSatelliteDeliverySystemDescriptor::GetSymbolRate, IDvbSatelliteDeliverySystemDescriptorGetSymbolRate, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetSymbolRate, mstv.idvbsatellitedeliverysystemdescriptor_getsymbolrate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IDvbSatelliteDeliverySystemDescriptor.GetSymbolRate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDvbSatelliteDeliverySystemDescriptor::GetSymbolRate

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj_core._SHChangeUpdateImageIDList
+title: "_SHChangeUpdateImageIDList"
+author: windows-sdk-content
+description: SHChangeUpdateImageIDList may be altered or unavailable.
+old-location: shell\SHChangeUpdateImageIDList.htm
+old-project: shell
+ms.assetid: 0aa99a6b-39c2-41f3-bd9d-30b86aa4da2f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPSHChangeUpdateImageIDList, GIL_NOTFILENAME, GIL_SIMULATEDOC, LPSHChangeUpdateImageIDList, LPSHChangeUpdateImageIDList structure pointer [Windows Shell], SHChangeUpdateImageIDList, SHChangeUpdateImageIDList structure [Windows Shell], _SHChangeUpdateImageIDList, _shell_SHChangeUpdateImageIDList, shell.SHChangeUpdateImageIDList, shlobj_core/LPSHChangeUpdateImageIDList, shlobj_core/SHChangeUpdateImageIDList"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHChangeUpdateImageIDList, *LPSHChangeUpdateImageIDList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	SHChangeUpdateImageIDList
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # _SHChangeUpdateImageIDList structure

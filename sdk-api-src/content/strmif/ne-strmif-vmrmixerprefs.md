@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.VMRMixerPrefs
+title: VMRMixerPrefs
+author: windows-sdk-content
+description: The VMRMixerPrefs enumeration contains flags that specify decimation, filtering, and color space information that will be used when the video image is created on the DirectDraw surface.
+old-location: dshow\vmrmixerprefs.htm
+old-project: DirectShow
+ms.assetid: 0852590c-6bca-4261-99c0-fff8a012f18e
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: MixerPref_ARAdjustXorY, MixerPref_BiLinearFiltering, MixerPref_DecimateMask, MixerPref_DecimateOutput, MixerPref_DecimationReserved, MixerPref_DynamicDecimateBy2, MixerPref_DynamicMask, MixerPref_DynamicReserved, MixerPref_DynamicSwitchToBOB, MixerPref_FilteringMask, MixerPref_NoDecimation, MixerPref_PointFiltering, MixerPref_RenderTargetMask, MixerPref_RenderTargetRGB, MixerPref_RenderTargetReserved, MixerPref_RenderTargetYUV, MixerPref_RenderTargetYUV420, MixerPref_RenderTargetYUV422, MixerPref_RenderTargetYUV444, VMRMixerPrefs, VMRMixerPrefs enumeration [DirectShow], VMRMixerPrefsEnumeration, dshow.vmrmixerprefs, strmif/MixerPref_ARAdjustXorY, strmif/MixerPref_BiLinearFiltering, strmif/MixerPref_DecimateMask, strmif/MixerPref_DecimateOutput, strmif/MixerPref_DecimationReserved, strmif/MixerPref_DynamicDecimateBy2, strmif/MixerPref_DynamicMask, strmif/MixerPref_DynamicReserved, strmif/MixerPref_DynamicSwitchToBOB, strmif/MixerPref_FilteringMask, strmif/MixerPref_NoDecimation, strmif/MixerPref_PointFiltering, strmif/MixerPref_RenderTargetMask, strmif/MixerPref_RenderTargetRGB, strmif/MixerPref_RenderTargetReserved, strmif/MixerPref_RenderTargetYUV, strmif/MixerPref_RenderTargetYUV420, strmif/MixerPref_RenderTargetYUV422, strmif/MixerPref_RenderTargetYUV444, strmif/VMRMixerPrefs
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VMRMixerPrefs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	VMRMixerPrefs
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # VMRMixerPrefs enumeration

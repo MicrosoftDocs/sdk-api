@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:devicetopology.IAudioAutoGainControl
+title: IAudioAutoGainControl
+author: windows-sdk-content
+description: The IAudioAutoGainControl interface provides access to a hardware automatic gain control (AGC).
+old-location: coreaudio\iaudioautogaincontrol.htm
+old-project: CoreAudio
+ms.assetid: f21e27e6-f3a0-418a-ad2e-e3e104dd6da2
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IAudioAutoGainControl, IAudioAutoGainControl interface [Core Audio], IAudioAutoGainControl interface [Core Audio],described, coreaudio.iaudioautogaincontrol, devicetopology/IAudioAutoGainControl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IAudioAutoGainControl
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioAutoGainControl interface

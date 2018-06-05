@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dsclient.DSCLASSCREATIONINFO
+title: DSCLASSCREATIONINFO
+author: windows-sdk-content
+description: Used with the IDsDisplaySpecifier::GetClassCreationInfo method to hold data about the class creation wizard objects for an object class.
+old-location: ad\dsclasscreationinfo.htm
+old-project: AD
+ms.assetid: 5c1551f7-f651-4b87-829a-ec9a07fb0ec2
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDSCLASSCREATIONINFO, DSCCIF_HASWIZARDDIALOG, DSCCIF_HASWIZARDPRIMARYPAGE, DSCLASSCREATIONINFO, DSCLASSCREATIONINFO structure [Active Directory], LPDSCLASSCREATIONINFO, LPDSCLASSCREATIONINFO structure pointer [Active Directory], _glines_dsclasscreationinfo, ad.dsclasscreationinfo, dsclient/DSCLASSCREATIONINFO, dsclient/LPDSCLASSCREATIONINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dsclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSCLASSCREATIONINFO, *LPDSCLASSCREATIONINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dsclient.h
+api_name:
+-	DSCLASSCREATIONINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DSCLASSCREATIONINFO structure

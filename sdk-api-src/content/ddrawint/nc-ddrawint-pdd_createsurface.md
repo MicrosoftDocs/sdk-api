@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_CREATESURFACE
+title: PDD_CREATESURFACE
+author: windows-sdk-content
+description: The CreateD3DBuffer callback function is used to create a driver-level command or vertex buffer of the specified description.
+old-location: display\created3dbuffer.htm
+old-project: display
+ms.assetid: 8b012e65-b78b-41a4-ac05-d9be015b6ed8
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CreateD3DBuffer, CreateD3DBuffer callback function [Display Devices], PDD_CREATESURFACE, PDD_CREATESURFACE callback, d3dfncs_065c964d-8e17-4ec1-9b9a-c74d2f91aa27.xml, ddrawint/CreateD3DBuffer, display.created3dbuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	CreateD3DBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_CREATESURFACE callback function

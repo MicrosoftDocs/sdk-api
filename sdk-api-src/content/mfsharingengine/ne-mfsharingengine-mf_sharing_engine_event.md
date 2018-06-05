@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfsharingengine.MF_SHARING_ENGINE_EVENT
+title: MF_SHARING_ENGINE_EVENT
+author: windows-sdk-content
+description: Defines events that are sent by the sharing engine.
+old-location: mf\mf_sharing_engine_event.htm
+old-project: medfound
+ms.assetid: 475BC98E-6795-4629-AD41-9C6A63AC51C7
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_SHARING_ENGINE_EVENT, MF_SHARING_ENGINE_EVENT enumeration [Media Foundation], MF_SHARING_ENGINE_EVENT_DISCONNECT, MF_SHARING_ENGINE_EVENT_LOCALRENDERINGENDED, MF_SHARING_ENGINE_EVENT_LOCALRENDERINGSTARTED, MF_SHARING_ENGINE_EVENT_STOPPED, mf.mf_sharing_engine_event, mfsharingengine/MF_SHARING_ENGINE_EVENT, mfsharingengine/MF_SHARING_ENGINE_EVENT_DISCONNECT, mfsharingengine/MF_SHARING_ENGINE_EVENT_LOCALRENDERINGENDED, mfsharingengine/MF_SHARING_ENGINE_EVENT_LOCALRENDERINGSTARTED, mfsharingengine/MF_SHARING_ENGINE_EVENT_STOPPED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfsharingengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_SHARING_ENGINE_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfsharingengine.h
+api_name:
+-	MF_SHARING_ENGINE_EVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MF_SHARING_ENGINE_EVENT enumeration

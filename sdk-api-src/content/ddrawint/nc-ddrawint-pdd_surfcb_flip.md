@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_SURFCB_FLIP
+title: PDD_SURFCB_FLIP
+author: windows-sdk-content
+description: The DdFlip callback function causes the surface memory associated with the target surface to become the primary surface, and the current surface to become the nonprimary surface.
+old-location: display\ddflip.htm
+old-project: display
+ms.assetid: 4ce2e967-7b4a-4065-844d-d8852dec8a8f
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DdFlip, DdFlip callback function [Display Devices], PDD_SURFCB_FLIP, PDD_SURFCB_FLIP callback, ddfncs_c7f9b1ea-0c9e-47f3-8fd1-b814d6e6adbd.xml, ddrawint/DdFlip, display.ddflip
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdFlip
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_SURFCB_FLIP callback function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bluetoothapis.BluetoothSelectDevicesFree
+title: BluetoothSelectDevicesFree function
+author: windows-sdk-content
+description: Frees resources associated with a previous call to BluetoothSelectDevices.
+old-location: bluetooth\bluetoothselectdevicesfree.htm
+old-project: Bluetooth
+ms.assetid: 9332e62d-a7ee-452e-8e21-27bbbc82448e
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BluetoothSelectDevicesFree, BluetoothSelectDevicesFree function [Bluetooth], _bth_bluetoothselectdevicesfree, bluetooth.bluetoothselectdevicesfree, bluetoothapis/BluetoothSelectDevicesFree
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: bluetoothapis.h
+req.include-header: Bthsdpdef.h, BluetoothAPIs.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BLUETOOTH_IO_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Bthprops.dll
+api_name:
+-	BluetoothSelectDevicesFree
+product: Windows
+targetos: Windows
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 ---
 
 # BluetoothSelectDevicesFree function

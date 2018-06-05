@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shellapi._SHCREATEPROCESSINFOW
+title: "_SHCREATEPROCESSINFOW"
+author: windows-sdk-content
+description: Contains the information needed by SHCreateProcessAsUserW to create a process.
+old-location: shell\SHCREATEPROCESSINFOW_str.htm
+old-project: shell
+ms.assetid: f51d22c5-ea3e-4040-9761-7555f8f7e0aa
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PSHCREATEPROCESSINFOW, PSHCREATEPROCESSINFOW, PSHCREATEPROCESSINFOW structure pointer [Windows Shell], SEE_MASK_CLASSKEY, SEE_MASK_CLASSNAME, SEE_MASK_CONNECTNETDRV, SEE_MASK_DOENVSUBST, SEE_MASK_FLAG_DDEWAIT, SEE_MASK_FLAG_NO_UI, SEE_MASK_HMONITOR, SEE_MASK_NOCLOSEPROCESS, SEE_MASK_NO_CONSOLE, SEE_MASK_UNICODE, SHCREATEPROCESSINFOW, SHCREATEPROCESSINFOW structure [Windows Shell], _SHCREATEPROCESSINFOW, _win32_SHCREATEPROCESSINFOW_str, shell.SHCREATEPROCESSINFOW_str, shellapi/PSHCREATEPROCESSINFOW, shellapi/SHCREATEPROCESSINFOW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shellapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHCREATEPROCESSINFOW, *PSHCREATEPROCESSINFOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shellapi.h
+api_name:
+-	SHCREATEPROCESSINFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # _SHCREATEPROCESSINFOW structure

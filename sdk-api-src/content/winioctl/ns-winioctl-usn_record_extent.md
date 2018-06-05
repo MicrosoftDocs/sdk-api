@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl.USN_RECORD_EXTENT
+title: USN_RECORD_EXTENT
+author: windows-sdk-content
+description: Contains the offset and length for an update sequence number (USN) record extent.
+old-location: fs\usn_record_extent.htm
+old-project: FileIO
+ms.assetid: 7D569FCB-06D4-4348-B75A-D087D1D37851
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PUSN_RECORD_EXTENT, PUSN_RECORD_EXTENT, PUSN_RECORD_EXTENT structure pointer [Files], USN_RECORD_EXTENT, USN_RECORD_EXTENT structure [Files], fs.usn_record_extent, winioctl/PUSN_RECORD_EXTENT, winioctl/USN_RECORD_EXTENT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USN_RECORD_EXTENT, *PUSN_RECORD_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	USN_RECORD_EXTENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # USN_RECORD_EXTENT structure

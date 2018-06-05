@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wia_xp._WIA_DEV_CAP
+title: "_WIA_DEV_CAP"
+author: windows-sdk-content
+description: Applications use the WIA_DEV_CAP structure to enumerate device capabilities. A device capability is defined by an event or command that the device supports. For more information, see IEnumWIA_DEV_CAPS.
+old-location: wia\_wia_WIA_DEV_CAP.htm
+old-project: wia
+ms.assetid: VS|wia|~\wia\refwia\structs\wia_dev_cap.htm
+ms.author: windowssdkdev
+ms.date: 05/03/2018
+ms.keywords: "*PWIA_DEV_CAP, *PWIA_EVENT_HANDLER, PWIA_DEV_CAP, PWIA_DEV_CAP structure pointer [WIA], PWIA_EVENT_HANDLER, PWIA_EVENT_HANDLER structure pointer [WIA], WIA_DEV_CAP, WIA_DEV_CAP structure [WIA], WIA_EVENT_HANDLER, WIA_EVENT_HANDLER structure [WIA], _WIA_DEV_CAP, _wia_WIA_DEV_CAP, wia._wia_WIA_DEV_CAP, wia_xp/PWIA_DEV_CAP, wia_xp/PWIA_EVENT_HANDLER, wia_xp/WIA_DEV_CAP, wia_xp/WIA_EVENT_HANDLER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wia_xp.h
+req.include-header: Wia.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIA_DEV_CAP, *PWIA_DEV_CAP, WIA_EVENT_HANDLER, *PWIA_EVENT_HANDLER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wia_xp.h
+api_name:
+-	WIA_DEV_CAP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WIA_DEV_CAP structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:elscore._MAPPING_SERVICE_INFO
+title: "_MAPPING_SERVICE_INFO"
+author: windows-sdk-content
+description: Contains information about an ELS service.
+old-location: intl\mappingserviceinfo.htm
+old-project: Intl
+ms.assetid: 444102a7-0da9-44be-989e-7a5139320034
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PMAPPING_SERVICE_INFO, 0, 1, MAPPING_SERVICE_INFO, MAPPING_SERVICE_INFO structure [Internationalization for Windows Applications], PMAPPING_SERVICE_INFO, PMAPPING_SERVICE_INFO structure pointer [Internationalization for Windows Applications], _MAPPING_SERVICE_INFO, elscore/MAPPING_SERVICE_INFO, elscore/PMAPPING_SERVICE_INFO, intl.mappingserviceinfo"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: elscore.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MAPPING_SERVICE_INFO, *PMAPPING_SERVICE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Elscore.h
+api_name:
+-	MAPPING_SERVICE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _MAPPING_SERVICE_INFO structure

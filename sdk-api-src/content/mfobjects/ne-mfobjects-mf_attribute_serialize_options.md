@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfobjects.MF_ATTRIBUTE_SERIALIZE_OPTIONS
+title: MF_ATTRIBUTE_SERIALIZE_OPTIONS
+author: windows-sdk-content
+description: Defines flags for serializing and deserializing attribute stores.
+old-location: mf\mf_attribute_serialize_options.htm
+old-project: medfound
+ms.assetid: e4b218d1-185c-483f-b697-19ce8b3a4058
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_ATTRIBUTE_SERIALIZE_OPTIONS, MF_ATTRIBUTE_SERIALIZE_OPTIONS enumeration [Media Foundation], MF_ATTRIBUTE_SERIALIZE_UNKNOWN_BYREF, e4b218d1-185c-483f-b697-19ce8b3a4058, mf.mf_attribute_serialize_options, mfobjects/MF_ATTRIBUTE_SERIALIZE_OPTIONS, mfobjects/MF_ATTRIBUTE_SERIALIZE_UNKNOWN_BYREF
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfobjects.h
+api_name:
+-	MF_ATTRIBUTE_SERIALIZE_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MF_ATTRIBUTE_SERIALIZE_OPTIONS enumeration

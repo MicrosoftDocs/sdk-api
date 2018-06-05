@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tom.ITextFont2.GetSpaceExtension
+title: ITextFont2::GetSpaceExtension
+author: windows-sdk-content
+description: Gets the East Asian space extension value.
+old-location: controls\itextfont2_getspaceextension.htm
+old-project: Controls
+ms.assetid: 36623ab5-3584-49c7-aeba-c34cfc8053e6
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetSpaceExtension, GetSpaceExtension method [Windows Controls], GetSpaceExtension method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetSpaceExtension method, ITextFont2.GetSpaceExtension, ITextFont2::GetSpaceExtension, controls.itextfont2_getspaceextension, tom/ITextFont2::GetSpaceExtension
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextFont2.GetSpaceExtension
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextFont2::GetSpaceExtension

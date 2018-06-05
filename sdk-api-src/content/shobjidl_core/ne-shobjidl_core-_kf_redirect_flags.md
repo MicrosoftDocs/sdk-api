@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core._KF_REDIRECT_FLAGS
+title: "_KF_REDIRECT_FLAGS"
+author: windows-sdk-content
+description: Flags used by IKnownFolderManager::Redirect to specify details of a known folder redirection such as permissions and ownership for the redirected folder.
+old-location: shell\KF_REDIRECT_FLAGS.htm
+old-project: shell
+ms.assetid: 6016f02f-5480-4fd8-b21d-209ebd863922
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: KF_REDIRECT_CHECK_ONLY, KF_REDIRECT_COPY_CONTENTS, KF_REDIRECT_COPY_SOURCE_DACL, KF_REDIRECT_DEL_SOURCE_CONTENTS, KF_REDIRECT_EXCLUDE_ALL_KNOWN_SUBFOLDERS, KF_REDIRECT_FLAGS, KF_REDIRECT_FLAGS enumeration [Windows Shell], KF_REDIRECT_OWNER_USER, KF_REDIRECT_PIN, KF_REDIRECT_SET_OWNER_EXPLICIT, KF_REDIRECT_UNPIN, KF_REDIRECT_USER_EXCLUSIVE, KF_REDIRECT_WITH_UI, _KF_REDIRECT_FLAGS, _shell_KF_REDIRECT_FLAGS, shell.KF_REDIRECT_FLAGS, shobjidl_core/KF_REDIRECT_CHECK_ONLY, shobjidl_core/KF_REDIRECT_COPY_CONTENTS, shobjidl_core/KF_REDIRECT_COPY_SOURCE_DACL, shobjidl_core/KF_REDIRECT_DEL_SOURCE_CONTENTS, shobjidl_core/KF_REDIRECT_EXCLUDE_ALL_KNOWN_SUBFOLDERS, shobjidl_core/KF_REDIRECT_FLAGS, shobjidl_core/KF_REDIRECT_OWNER_USER, shobjidl_core/KF_REDIRECT_PIN, shobjidl_core/KF_REDIRECT_SET_OWNER_EXPLICIT, shobjidl_core/KF_REDIRECT_UNPIN, shobjidl_core/KF_REDIRECT_USER_EXCLUSIVE, shobjidl_core/KF_REDIRECT_WITH_UI
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	KF_REDIRECT_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # _KF_REDIRECT_FLAGS enumeration

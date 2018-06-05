@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationElement.get_CachedAriaRole
+title: IUIAutomationElement::get_CachedAriaRole
+author: windows-sdk-content
+description: Retrieves the cached Accessible Rich Internet Applications (ARIA) role of the element.
+old-location: winauto\uiauto_IUIAutomationElement_CachedAriaRole.htm
+old-project: WinAuto
+ms.assetid: 8e3671b0-49f5-4d8b-b2ab-51a976316191
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CachedAriaRole property [Windows Accessibility], CachedAriaRole property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedAriaRole property, IUIAutomationElement.CachedAriaRole, IUIAutomationElement.get_CachedAriaRole, IUIAutomationElement::CachedAriaRole, IUIAutomationElement::get_CachedAriaRole, get_CachedAriaRole, uiauto.uiauto_IUIAutomationElement_CachedAriaRole, uiauto_IUIAutomationElement_CachedAriaRole, uiautomationclient/IUIAutomationElement::CachedAriaRole, uiautomationclient/IUIAutomationElement::get_CachedAriaRole, winauto.uiauto_IUIAutomationElement_CachedAriaRole
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationElement.CachedAriaRole
+-	IUIAutomationElement.get_CachedAriaRole
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationElement::get_CachedAriaRole

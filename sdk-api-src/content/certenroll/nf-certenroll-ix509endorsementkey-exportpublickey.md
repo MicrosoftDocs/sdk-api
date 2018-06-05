@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:certenroll.IX509EndorsementKey.ExportPublicKey
+title: IX509EndorsementKey::ExportPublicKey
+author: windows-sdk-content
+description: Exports the endorsement public key.
+old-location: security\ix509endorsementkey_exportpublickey.htm
+old-project: SecCertEnroll
+ms.assetid: b38c6421-2918-4d0e-81ed-d9d575817efa
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ExportPublicKey, ExportPublicKey method [Security], ExportPublicKey method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],ExportPublicKey method, IX509EndorsementKey.ExportPublicKey, IX509EndorsementKey::ExportPublicKey, certenroll/IX509EndorsementKey::ExportPublicKey, security.ix509endorsementkey_exportpublickey
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certenroll.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.dll
+api_name:
+-	IX509EndorsementKey.ExportPublicKey
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 ---
 
 # IX509EndorsementKey::ExportPublicKey

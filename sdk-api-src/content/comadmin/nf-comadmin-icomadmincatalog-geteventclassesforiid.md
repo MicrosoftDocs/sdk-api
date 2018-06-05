@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comadmin.ICOMAdminCatalog.GetEventClassesForIID
+title: ICOMAdminCatalog::GetEventClassesForIID
+author: windows-sdk-content
+description: Retrieves a list of the event classes registered on the computer that implement a specified interface.
+old-location: cos\icomadmincatalog_geteventclassesforiid.htm
+old-project: cossdk
+ms.assetid: 9f1a77ef-3dfd-4402-a05a-9cb4fd50dbd8
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: GetEventClassesForIID, GetEventClassesForIID method [COM+], GetEventClassesForIID method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetEventClassesForIID method, ICOMAdminCatalog.GetEventClassesForIID, ICOMAdminCatalog::GetEventClassesForIID, _cos_ICOMAdminCatalog_GetEventClassesForIID, comadmin/ICOMAdminCatalog::GetEventClassesForIID, cos.icomadmincatalog_geteventclassesforiid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ComAdmin.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMAdminTxIsolationLevelOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComAdmin.h
+api_name:
+-	ICOMAdminCatalog.GetEventClassesForIID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICOMAdminCatalog::GetEventClassesForIID

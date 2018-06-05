@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddkmapi.LPDD_NOTIFYCALLBACK
+title: LPDD_NOTIFYCALLBACK
+author: windows-sdk-content
+description: The NotifyCallback callback function performs operations related to an event that occurred.
+old-location: display\notifycallback.htm
+old-project: display
+ms.assetid: ee581d7b-c3b8-47e5-bae8-348b22ea0f95
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: LPDD_NOTIFYCALLBACK, LPDD_NOTIFYCALLBACK callback, NotifyCallback, NotifyCallback callback function [Display Devices], ddfncs_89344672-ba6d-42b3-a03e-dd832316d9c9.xml, ddkmapi/NotifyCallback, display.notifycallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddkmapi.h
+req.include-header: Ddkmapi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDKERNELCAPS, DDKERNELCAPS"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddkmapi.h
+api_name:
+-	NotifyCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # LPDD_NOTIFYCALLBACK callback function

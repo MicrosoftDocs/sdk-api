@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._STORAGE_HW_FIRMWARE_DOWNLOAD
+title: "_STORAGE_HW_FIRMWARE_DOWNLOAD"
+author: windows-sdk-content
+description: This structure contains a firmware image payload to be downloaded to the target.
+old-location: fs\storage_hw_firmware_download.htm
+old-project: FileIO
+ms.assetid: BD1D39C7-9624-400C-BF4D-5F7583AA82FB
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PSTORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD structure pointer [Files], STORAGE_HW_FIRMWARE_DOWNLOAD, STORAGE_HW_FIRMWARE_DOWNLOAD structure [Files], _STORAGE_HW_FIRMWARE_DOWNLOAD, fs.storage_hw_firmware_download, winioctl/PSTORAGE_HW_FIRMWARE_DOWNLOAD, winioctl/STORAGE_HW_FIRMWARE_DOWNLOAD"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winioctl.h
+api_name:
+-	STORAGE_HW_FIRMWARE_DOWNLOAD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _STORAGE_HW_FIRMWARE_DOWNLOAD structure

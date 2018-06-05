@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ip2string.RtlIpv4StringToAddressExW
+title: RtlIpv4StringToAddressExW function
+author: windows-sdk-content
+description: Converts a string representation of an IPv4 address and port number to a binary IPv4 address and port.
+old-location: iphlp\rtlipv4stringtoaddressex.htm
+old-project: IpHlp
+ms.assetid: 72d20cf0-38ff-4c00-93ec-949aaf6f96e2
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: RtlIpv4StringToAddressEx, RtlIpv4StringToAddressEx function [IP Helper], RtlIpv4StringToAddressExW, ip2string/RtlIpv4StringToAddressEx, ip2string/RtlIpv4StringToAddressExW, iphlp.rtlipv4stringtoaddressex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ip2string.h
+req.include-header: Mstcpip.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RtlIpv4StringToAddressExW (Unicode) and RtlIpv4StringToAddressEx (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URLASSOCIATIONDIALOG_IN_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdll.dll
+api_name:
+-	RtlIpv4StringToAddressEx
+-	RtlIpv4StringToAddressEx
+-	RtlIpv4StringToAddressExW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # RtlIpv4StringToAddressExW function

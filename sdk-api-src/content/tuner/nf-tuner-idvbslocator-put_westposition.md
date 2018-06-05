@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tuner.IDVBSLocator.put_WestPosition
+title: IDVBSLocator::put_WestPosition
+author: windows-sdk-content
+description: The put_WestPosition method sets the longitudinal position as west longitude or east longitude.
+old-location: mstv\idvbslocator_put_westposition.htm
+old-project: mstv
+ms.assetid: 567aa90e-6179-477a-813d-13e99b16bbc2
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_WestPosition method, IDVBSLocator.put_WestPosition, IDVBSLocator::put_WestPosition, IDVBSLocatorput_WestPosition, mstv.idvbslocator_put_westposition, put_WestPosition, put_WestPosition method [Microsoft TV Technologies], put_WestPosition method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_WestPosition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tuner.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IDVBSLocator.put_WestPosition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IDVBSLocator::put_WestPosition

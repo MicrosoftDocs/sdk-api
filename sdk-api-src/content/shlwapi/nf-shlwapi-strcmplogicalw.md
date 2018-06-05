@@ -1,31 +1,54 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlwapi.StrCmpLogicalW
+title: StrCmpLogicalW function
+author: windows-sdk-content
+description: Compares two Unicode strings. Digits in the strings are considered as numerical content rather than text. This test is not case-sensitive.
+old-location: shell\StrCmpLogicalW.htm
+old-project: shell
+ms.assetid: 013c6db3-7d14-44ef-89af-b3aac28f4e3f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: StrCmpLogicalW, StrCmpLogicalW function [Windows Shell], _shell_StrCmpLogicalW, shell.StrCmpLogicalW, shlwapi/StrCmpLogicalW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: StrCmpLogicalW (Unicode)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+-	API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+-	API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+-	API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+-	StrCmpLogicalW
+-	StrCmpLogicalW
+product: Windows
+targetos: Windows
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.5 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # StrCmpLogicalW function

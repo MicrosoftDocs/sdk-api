@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dvbsiparser.IISDB_NBIT.GetRecordCountOfDescriptors
+title: IISDB_NBIT::GetRecordCountOfDescriptors
+author: windows-sdk-content
+description: Returns the number of descriptors for a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
+old-location: mstv\iisdb_nbit_getrecordcountofdescriptors.htm
+old-project: mstv
+ms.assetid: 2f4f5b5a-f03a-4b90-aa7c-2552841ba165
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IISDB_NBIT.GetRecordCountOfDescriptors, IISDB_NBIT::GetRecordCountOfDescriptors, dvbsiparser/IISDB_NBIT::GetRecordCountOfDescriptors, mstv.iisdb_nbit_getrecordcountofdescriptors
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: Dvbsiparser.idl
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IISDB_NBIT.GetRecordCountOfDescriptors
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IISDB_NBIT::GetRecordCountOfDescriptors

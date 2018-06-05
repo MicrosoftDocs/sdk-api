@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certadm.IOCSPAdmin.get_OCSPServiceProperties
+title: IOCSPAdmin::get_OCSPServiceProperties
+author: windows-sdk-content
+description: Gets an instance of an OCSPPropertyCollection object. This object represents the attributes of an Online Certificate Status Protocol (OCSP) responder service.
+old-location: security\iocspadmin_ocspserviceproperties_method.htm
+old-project: SecCrypto
+ms.assetid: d792283b-dde9-46b7-8483-b3011b4433eb
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IOCSPAdmin interface [Security],OCSPServiceProperties property, IOCSPAdmin.OCSPServiceProperties, IOCSPAdmin.get_OCSPServiceProperties, IOCSPAdmin::OCSPServiceProperties, IOCSPAdmin::get_OCSPServiceProperties, OCSPServiceProperties property [Security], OCSPServiceProperties property [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::OCSPServiceProperties, certadm/IOCSPAdmin::get_OCSPServiceProperties, get_OCSPServiceProperties, security.iocspadmin_ocspserviceproperties_method
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certadm.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certadm.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certadm.dll
+api_name:
+-	IOCSPAdmin.OCSPServiceProperties
+-	IOCSPAdmin.get_OCSPServiceProperties
+product: Windows
+targetos: Windows
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # IOCSPAdmin::get_OCSPServiceProperties

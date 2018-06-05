@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbe.IStreamBufferConfigure.GetBackingFileDuration
+title: IStreamBufferConfigure::GetBackingFileDuration
+author: windows-sdk-content
+description: The GetBackingFileDuration method retrieves the duration of each backing file.
+old-location: mstv\istreambufferconfigure_getbackingfileduration.htm
+old-project: mstv
+ms.assetid: 3d02d87f-b617-4d46-82b2-41eb4b160d0f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetBackingFileDuration, GetBackingFileDuration method [Microsoft TV Technologies], GetBackingFileDuration method [Microsoft TV Technologies],IStreamBufferConfigure interface, IStreamBufferConfigure interface [Microsoft TV Technologies],GetBackingFileDuration method, IStreamBufferConfigure.GetBackingFileDuration, IStreamBufferConfigure::GetBackingFileDuration, IStreamBufferConfigureGetBackingFileDuration, mstv.istreambufferconfigure_getbackingfileduration, sbe/IStreamBufferConfigure::GetBackingFileDuration
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAMBUFFER_ATTR_DATATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Sbe.h
+api_name:
+-	IStreamBufferConfigure.GetBackingFileDuration
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IStreamBufferConfigure::GetBackingFileDuration

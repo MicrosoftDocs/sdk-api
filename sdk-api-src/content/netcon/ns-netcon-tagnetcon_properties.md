@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:netcon.tagNETCON_PROPERTIES
+title: tagNETCON_PROPERTIES
+author: windows-sdk-content
+description: The NETCON_PROPERTIES structure stores values that describe the properties of a network connection.
+old-location: ics\netcon_properties.htm
+old-project: ICS
+ms.assetid: 5acda2b8-960f-41ef-9ff2-49787f4e1c0c
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: NETCON_PROPERTIES, NETCON_PROPERTIES structure [ICS/ICF], _ics_netcon_properties, ics.netcon_properties, netcon/NETCON_PROPERTIES, tagNETCON_PROPERTIES
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: netcon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETCON_PROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	NetCon.h
+api_name:
+-	NETCON_PROPERTIES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagNETCON_PROPERTIES structure

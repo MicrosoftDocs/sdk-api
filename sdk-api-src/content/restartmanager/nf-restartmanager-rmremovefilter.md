@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:restartmanager.RmRemoveFilter
+title: RmRemoveFilter function
+author: windows-sdk-content
+description: Removes any modifications to shutdown or restart actions that have been applied using the RmAddFilter function.
+old-location: rstmgr\rmremovefilter.htm
+old-project: RstMgr
+ms.assetid: fb1baa7b-0dfb-4bd1-8a3f-cfaf9bf4079f
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: RmRemoveFilter, RmRemoveFilter function [Restart Mgr], restartmanager/RmRemoveFilter, rstmgr.rmremovefilter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: restartmanager.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RM_SHUTDOWN_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rstrtmgr.dll
+api_name:
+-	RmRemoveFilter
+product: Windows
+targetos: Windows
+req.lib: Rstrtmgr.lib
+req.dll: Rstrtmgr.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RmRemoveFilter function

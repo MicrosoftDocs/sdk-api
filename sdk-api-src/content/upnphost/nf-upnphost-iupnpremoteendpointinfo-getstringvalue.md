@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:upnphost.IUPnPRemoteEndpointInfo.GetStringValue
+title: IUPnPRemoteEndpointInfo::GetStringValue
+author: windows-sdk-content
+description: The GetStringValue method gets a string that provides information about either a request or requester.
+old-location: upnp\iupnpremoteendpointinfo_getstringvalue.htm
+old-project: UPnP
+ms.assetid: c3b0dcd2-2195-4e09-aac4-073a3d848fa9
+ms.author: windowssdkdev
+ms.date: 04/25/2018
+ms.keywords: GetStringValue, GetStringValue method [UPnP APIs], GetStringValue method [UPnP APIs],IUPnPRemoteEndpointInfo interface, IUPnPRemoteEndpointInfo interface [UPnP APIs],GetStringValue method, IUPnPRemoteEndpointInfo.GetStringValue, IUPnPRemoteEndpointInfo::GetStringValue, upnp.iupnpremoteendpointinfo_getstringvalue, upnphost/IUPnPRemoteEndpointInfo::GetStringValue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: upnphost.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Upnphost.dll
+api_name:
+-	IUPnPRemoteEndpointInfo.GetStringValue
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUPnPRemoteEndpointInfo::GetStringValue

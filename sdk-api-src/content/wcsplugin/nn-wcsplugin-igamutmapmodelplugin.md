@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:wcsplugin.IGamutMapModelPlugIn
+title: IGamutMapModelPlugIn
+author: windows-sdk-content
+description: Describes the methods that are defined for the IGamutMapModelPlugIn Component Object Model (COM) interface.
+old-location: wcs\igamutmapmodelplugin.htm
+old-project: WCS
+ms.assetid: 794eb94c-fdb3-42b3-8320-b13bf51324d1
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IGamutMapModelPlugIn, IGamutMapModelPlugIn interface [Windows Color System], IGamutMapModelPlugIn interface [Windows Color System],described, _color_IGamutMapModelPlugIn, wcs.igamutmapmodelplugin, wcsplugin/IGamutMapModelPlugIn
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wcsplugin.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wcsplugin.h
+api_name:
+-	IGamutMapModelPlugIn
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IGamutMapModelPlugIn interface

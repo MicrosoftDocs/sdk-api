@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winml.WINML_VARIABLE_DESC
+title: WINML_VARIABLE_DESC
+author: windows-sdk-content
+description: Contains description properties of the variable.
+old-location: machinelearning\winml_variable_desc.htm
+old-project: MachineLearning
+ms.assetid: 94FBC8E4-13BD-49A5-A720-0827479A43A6
+ms.author: windowssdkdev
+ms.date: 03/07/2018
+ms.keywords: MachineLearning.winml_variable_desc, PWINML_VARIABLE_DESC, PWINML_VARIABLE_DESC structure pointer, WINML_VARIABLE_DESC, WINML_VARIABLE_DESC structure, winml/PWINML_VARIABLE_DESC, winml/WINML_VARIABLE_DESC
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINML_VARIABLE_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winml.h
+api_name:
+-	WINML_VARIABLE_DESC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WINML_VARIABLE_DESC structure

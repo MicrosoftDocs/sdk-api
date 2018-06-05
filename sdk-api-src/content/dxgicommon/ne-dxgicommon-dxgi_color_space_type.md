@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dxgicommon.DXGI_COLOR_SPACE_TYPE
+title: DXGI_COLOR_SPACE_TYPE
+author: windows-sdk-content
+description: Specifies color space types.
+old-location: direct3ddxgi\dxgi_color_space_type.htm
+old-project: direct3ddxgi
+ms.assetid: E25C933F-0DB3-4BC4-9755-9361B2B9B9CB
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGI_COLOR_SPACE_CUSTOM, DXGI_COLOR_SPACE_RESERVED, DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709, DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020, DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P2020, DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709, DXGI_COLOR_SPACE_RGB_STUDIO_G2084_NONE_P2020, DXGI_COLOR_SPACE_RGB_STUDIO_G22_NONE_P2020, DXGI_COLOR_SPACE_RGB_STUDIO_G22_NONE_P709, DXGI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P2020, DXGI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P709, DXGI_COLOR_SPACE_TYPE, DXGI_COLOR_SPACE_TYPE enumeration [DXGI], DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P2020, DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P601, DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P709, DXGI_COLOR_SPACE_YCBCR_FULL_G22_NONE_P709_X601, DXGI_COLOR_SPACE_YCBCR_FULL_GHLG_TOPLEFT_P2020, DXGI_COLOR_SPACE_YCBCR_STUDIO_G2084_LEFT_P2020, DXGI_COLOR_SPACE_YCBCR_STUDIO_G2084_TOPLEFT_P2020, DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P2020, DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P601, DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P709, DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_TOPLEFT_P2020, DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P2020, DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P709, DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_TOPLEFT_P2020, DXGI_COLOR_SPACE_YCBCR_STUDIO_GHLG_TOPLEFT_P2020, direct3ddxgi.dxgi_color_space_type, dxgicommon/DXGI_COLOR_SPACE_CUSTOM, dxgicommon/DXGI_COLOR_SPACE_RESERVED, dxgicommon/DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709, dxgicommon/DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020, dxgicommon/DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P2020, dxgicommon/DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709, dxgicommon/DXGI_COLOR_SPACE_RGB_STUDIO_G2084_NONE_P2020, dxgicommon/DXGI_COLOR_SPACE_RGB_STUDIO_G22_NONE_P2020, dxgicommon/DXGI_COLOR_SPACE_RGB_STUDIO_G22_NONE_P709, dxgicommon/DXGI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P2020, dxgicommon/DXGI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P709, dxgicommon/DXGI_COLOR_SPACE_TYPE, dxgicommon/DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P601, dxgicommon/DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P709, dxgicommon/DXGI_COLOR_SPACE_YCBCR_FULL_G22_NONE_P709_X601, dxgicommon/DXGI_COLOR_SPACE_YCBCR_FULL_GHLG_TOPLEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G2084_LEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G2084_TOPLEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P601, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P709, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_TOPLEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P709, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_TOPLEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_GHLG_TOPLEFT_P2020
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxgicommon.h
+req.include-header: DXGIType.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_COLOR_SPACE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxgicommon.h
+api_name:
+-	DXGI_COLOR_SPACE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DXGI_COLOR_SPACE_TYPE enumeration

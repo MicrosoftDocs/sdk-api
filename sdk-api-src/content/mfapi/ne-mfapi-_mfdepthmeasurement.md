@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:mfapi._MFDepthMeasurement
+title: "_MFDepthMeasurement"
+author: windows-sdk-content
+description: Specifies the measurement system for a depth value in a video frame.
+old-location: mf\_mfdepthmeasurement.htm
+old-project: medfound
+ms.assetid: CCE34279-A52C-4F6E-9E8E-679F76187B3B
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DistanceToFocalPlane, DistanceToOpticalCenter, MFDepthMeasurement, _MFDepthMeasurement, _MFDepthMeasurement enumeration [Media Foundation], mf._mfdepthmeasurement, mfapi/DistanceToFocalPlane, mfapi/DistanceToOpticalCenter, mfapi/_MFDepthMeasurement
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFDepthMeasurement
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfapi.h
+api_name:
+-	_MFDepthMeasurement
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFDepthMeasurement enumeration

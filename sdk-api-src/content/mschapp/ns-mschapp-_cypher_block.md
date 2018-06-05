@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mschapp._CYPHER_BLOCK
+title: "_CYPHER_BLOCK"
+author: windows-sdk-content
+description: The CYPHER_BLOCK is the basic unit of storage for the one-way function (OWF) password hashes.
+old-location: mschap\cypher_block.htm
+old-project: MsChap
+ms.assetid: eb0e38ed-8d12-4df2-be58-7ac18447121f
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: CYPHER_BLOCK, CYPHER_BLOCK structure [MS-CHAP], _CYPHER_BLOCK, mschap.cypher_block, mschapp/CYPHER_BLOCK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mschapp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CYPHER_BLOCK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	MsChapp.h
+api_name:
+-	CYPHER_BLOCK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _CYPHER_BLOCK structure

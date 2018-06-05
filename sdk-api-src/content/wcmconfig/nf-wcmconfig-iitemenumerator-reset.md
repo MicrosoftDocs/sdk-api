@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wcmconfig.IItemEnumerator.Reset
+title: IItemEnumerator::Reset
+author: windows-sdk-content
+description: Resets the state of the enumerator to its initialized state. You must immediately follow IItemEnumerator::Reset with a call to IItemEnumerator::MoveNext on the enumerator in order to set the current pointer at the first position in the enumeration.
+old-location: smi\iitemenumerator_reset.htm
+old-project: SMI
+ms.assetid: 6da5d581-7f8c-48fa-8522-1e51a805ad9b
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IItemEnumerator interface [SMI],Reset method, IItemEnumerator.Reset, IItemEnumerator::Reset, Reset, Reset method [SMI], Reset method [SMI],IItemEnumerator interface, smi.iitemenumerator_reset, wcmconfig/IItemEnumerator::Reset
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WcmConfig.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	IItemEnumerator.Reset
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IItemEnumerator::Reset

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mprapi._PPP_IPV6_CP_INFO
+title: "_PPP_IPV6_CP_INFO"
+author: windows-sdk-content
+description: Contains the result of an IPv6 control protocol negotiation.
+old-location: rras\ppp_ipv6cp_info.htm
+old-project: RRAS
+ms.assetid: fb77a15d-a513-456d-9d55-258b93fe8db5
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: PPPP_IPV6_CP_INFO, PPPP_IPV6_CP_INFO structure pointer [RAS], PPP_IPV6_CP_INFO, PPP_IPV6_CP_INFO structure [RAS], _PPP_IPV6_CP_INFO, mprapi/PPPP_IPV6_CP_INFO, mprapi/PPP_IPV6_CP_INFO, rras.ppp_ipv6cp_info
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PPP_IPV6_CP_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mprapi.h
+api_name:
+-	PPP_IPV6_CP_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _PPP_IPV6_CP_INFO structure

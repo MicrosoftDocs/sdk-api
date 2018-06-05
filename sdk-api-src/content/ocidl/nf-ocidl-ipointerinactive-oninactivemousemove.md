@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ocidl.IPointerInactive.OnInactiveMouseMove
+title: IPointerInactive::OnInactiveMouseMove
+author: windows-sdk-content
+description: Notifies the object that the mouse pointer has moved over it so the object can fire mouse events. This method is called by the container on receipt of a WM_MOUSEMOVE method when an inactive object is under the mouse pointer.
+old-location: com\ipointerinactive_oninactivemousemove.htm
+old-project: com
+ms.assetid: d026c570-b51b-456f-b121-eb2be08e2cac
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IPointerInactive interface [COM],OnInactiveMouseMove method, IPointerInactive.OnInactiveMouseMove, IPointerInactive::OnInactiveMouseMove, OnInactiveMouseMove, OnInactiveMouseMove method [COM], OnInactiveMouseMove method [COM],IPointerInactive interface, _ctrl_ipointerinactive_oninactivemousemove, com.ipointerinactive_oninactivemousemove, ocidl/IPointerInactive::OnInactiveMouseMove
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ocidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OCIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIEWSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OCIdl.h
+api_name:
+-	IPointerInactive.OnInactiveMouseMove
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPointerInactive::OnInactiveMouseMove

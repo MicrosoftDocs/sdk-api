@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:devicetopology.IAudioMute.SetMute
+title: IAudioMute::SetMute
+author: windows-sdk-content
+description: The SetMute method enables or disables the mute control.
+old-location: coreaudio\iaudiomute_setmute.htm
+old-project: CoreAudio
+ms.assetid: e99cb894-b39e-42ec-be8f-dc3fa6e7abcd
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IAudioMute interface [Core Audio],SetMute method, IAudioMute.SetMute, IAudioMute::SetMute, IAudioMuteSetMute, SetMute, SetMute method [Core Audio], SetMute method [Core Audio],IAudioMute interface, coreaudio.iaudiomute_setmute, devicetopology/IAudioMute::SetMute
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IAudioMute.SetMute
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioMute::SetMute

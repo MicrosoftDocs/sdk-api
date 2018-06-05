@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationTextRange.GetEnclosingElement
+title: IUIAutomationTextRange::GetEnclosingElement
+author: windows-sdk-content
+description: Returns the innermost UI Automation element that encloses the text range.
+old-location: winauto\uiauto_IUIAutomationTextRange_GetEnclosingElement.htm
+old-project: WinAuto
+ms.assetid: 0120b4af-6f08-4bbd-b649-0f8e84cda3b9
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: GetEnclosingElement, GetEnclosingElement method [Windows Accessibility], GetEnclosingElement method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetEnclosingElement method, IUIAutomationTextRange.GetEnclosingElement, IUIAutomationTextRange::GetEnclosingElement, uiauto.uiauto_IUIAutomationTextRange_GetEnclosingElement, uiauto_IUIAutomationTextRange_GetEnclosingElement, uiautomationclient/IUIAutomationTextRange::GetEnclosingElement, winauto.uiauto_IUIAutomationTextRange_GetEnclosingElement
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationTextRange.GetEnclosingElement
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationTextRange::GetEnclosingElement

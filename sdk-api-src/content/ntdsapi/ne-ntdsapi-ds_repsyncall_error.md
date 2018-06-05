@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ntdsapi.DS_REPSYNCALL_ERROR
+title: DS_REPSYNCALL_ERROR
+author: windows-sdk-content
+description: The DS_REPSYNCALL_ERROR enumeration is used with the DS_REPSYNCALL_ERRINFO structure to indicate where in the replication process an error occurred.
+old-location: ad\ds_repsyncall_error.htm
+old-project: AD
+ms.assetid: 9c020046-ab52-4676-931e-12ce176e93fb
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_REPSYNCALL_ERROR, DS_REPSYNCALL_ERROR enumeration [Active Directory], DS_REPSYNCALL_SERVER_UNREACHABLE, DS_REPSYNCALL_WIN32_ERROR_CONTACTING_SERVER, DS_REPSYNCALL_WIN32_ERROR_REPLICATING, ad.ds_repsyncall_error, ntdsapi/DS_REPSYNCALL_ERROR, ntdsapi/DS_REPSYNCALL_SERVER_UNREACHABLE, ntdsapi/DS_REPSYNCALL_WIN32_ERROR_CONTACTING_SERVER, ntdsapi/DS_REPSYNCALL_WIN32_ERROR_REPLICATING
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_REPSYNCALL_ERROR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntdsapi.h
+api_name:
+-	DS_REPSYNCALL_ERROR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: Any level
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DS_REPSYNCALL_ERROR enumeration

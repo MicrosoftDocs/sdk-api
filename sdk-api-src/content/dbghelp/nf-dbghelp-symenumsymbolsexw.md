@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dbghelp.SymEnumSymbolsExW
+title: SymEnumSymbolsExW function
+author: windows-sdk-content
+description: Enumerates all symbols in a process.
+old-location: base\symenumsymbolsex.htm
+old-project: Debug
+ms.assetid: 80fbe47d-702c-4cda-8e28-c72f8d7db3d2
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*!*, SYMENUM_OPTIONS_DEFAULT, SYMENUM_OPTIONS_INLINE, SymEnumSymbolsEx, SymEnumSymbolsEx function, SymEnumSymbolsExW, base.symenumsymbolsex, dbghelp/SymEnumSymbolsEx, dbghelp/SymEnumSymbolsExW, foo, foo*!bar, foo?"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SymEnumSymbolsExW (Unicode) and SymEnumSymbolsEx (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	DbgHelp.dll
+api_name:
+-	SymEnumSymbolsEx
+-	SymEnumSymbolsEx
+-	SymEnumSymbolsExW
+product: Windows
+targetos: Windows
+req.lib: DbgHelp.lib
+req.dll: DbgHelp.dll
+req.irql: 
 ---
 
 # SymEnumSymbolsExW function

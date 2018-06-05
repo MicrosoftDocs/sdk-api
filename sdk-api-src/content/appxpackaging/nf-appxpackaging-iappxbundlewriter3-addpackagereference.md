@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:appxpackaging.IAppxBundleWriter3.AddPackageReference
+title: IAppxBundleWriter3::AddPackageReference
+author: windows-sdk-content
+description: Adds a reference to an optional app package or a payload file within an app bundle.
+old-location: appxpkg\iappxbundlewriter3_addpackagereference.htm
+old-project: appxpkg
+ms.assetid: 99969971-9153-47C9-AF9C-7BF1D56EC54D
+ms.author: windowssdkdev
+ms.date: 04/26/2018
+ms.keywords: AddPackageReference, AddPackageReference method [App packaging and management], AddPackageReference method [App packaging and management],IAppxBundleWriter3 interface, IAppxBundleWriter3 interface [App packaging and management],AddPackageReference method, IAppxBundleWriter3.AddPackageReference, IAppxBundleWriter3::AddPackageReference, appxpackaging/IAppxBundleWriter3::AddPackageReference, appxpkg.iappxbundlewriter3_addpackagereference
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: appxpackaging.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: AppxPackaging.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	AppxPackaging.h
+api_name:
+-	IAppxBundleWriter3.AddPackageReference
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAppxBundleWriter3::AddPackageReference

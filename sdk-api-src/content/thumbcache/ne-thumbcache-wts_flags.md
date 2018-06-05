@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:thumbcache.WTS_FLAGS
+title: WTS_FLAGS
+author: windows-sdk-content
+description: Values used by IThumbnailCache::GetThumbnail to specify options for the extraction and display of the thumbnail image.
+old-location: shell\WTS_FLAGS.htm
+old-project: shell
+ms.assetid: D9C84E86-35AF-437f-966E-BABD02B824C0
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: WTS_APPSTYLE, WTS_CROPTOSQUARE, WTS_EXTRACT, WTS_EXTRACTDONOTCACHE, WTS_EXTRACTINPROC, WTS_FASTEXTRACT, WTS_FLAGS, WTS_FLAGS enumeration [Windows Shell], WTS_FORCEEXTRACTION, WTS_IDEALCACHESIZEONLY, WTS_INCACHEONLY, WTS_INSTANCESURROGATE, WTS_NONE, WTS_REQUIRESURROGATE, WTS_SCALETOREQUESTEDSIZE, WTS_SCALEUP, WTS_SKIPFASTEXTRACT, WTS_SLOWRECLAIM, WTS_WIDETHUMBNAILS, shell.WTS_FLAGS, thumbcache/WTS_APPSTYLE, thumbcache/WTS_CROPTOSQUARE, thumbcache/WTS_EXTRACT, thumbcache/WTS_EXTRACTDONOTCACHE, thumbcache/WTS_EXTRACTINPROC, thumbcache/WTS_FASTEXTRACT, thumbcache/WTS_FLAGS, thumbcache/WTS_FORCEEXTRACTION, thumbcache/WTS_IDEALCACHESIZEONLY, thumbcache/WTS_INCACHEONLY, thumbcache/WTS_INSTANCESURROGATE, thumbcache/WTS_NONE, thumbcache/WTS_REQUIRESURROGATE, thumbcache/WTS_SCALETOREQUESTEDSIZE, thumbcache/WTS_SCALEUP, thumbcache/WTS_SKIPFASTEXTRACT, thumbcache/WTS_SLOWRECLAIM, thumbcache/WTS_WIDETHUMBNAILS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: thumbcache.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Thumbcache.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Thumbcache.h
+api_name:
+-	WTS_FLAGS
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # WTS_FLAGS enumeration

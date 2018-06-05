@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ntdsapi.DS_NAME_FLAGS
+title: DS_NAME_FLAGS
+author: windows-sdk-content
+description: The DS_NAME_FLAGS enumeration is used to define how the name syntax will be cracked. These flags are used by the DsCrackNames function.
+old-location: ad\ds_name_flags.htm
+old-project: AD
+ms.assetid: f0108568-4a6a-4159-b55f-2c651c588b73
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_NAME_FLAGS, DS_NAME_FLAGS enumeration [Active Directory], DS_NAME_FLAG_EVAL_AT_DC, DS_NAME_FLAG_GCVERIFY, DS_NAME_FLAG_SYNTACTICAL_ONLY, DS_NAME_FLAG_TRUST_REFERRAL, DS_NAME_NO_FLAGS, _glines_ds_name_flags, ad.ds__name__flags, ad.ds_name_flags, ntdsapi/DS_NAME_FLAGS, ntdsapi/DS_NAME_FLAG_EVAL_AT_DC, ntdsapi/DS_NAME_FLAG_GCVERIFY, ntdsapi/DS_NAME_FLAG_SYNTACTICAL_ONLY, ntdsapi/DS_NAME_FLAG_TRUST_REFERRAL, ntdsapi/DS_NAME_NO_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_NAME_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntdsapi.h
+api_name:
+-	DS_NAME_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: Any level
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DS_NAME_FLAGS enumeration

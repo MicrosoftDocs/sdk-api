@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:eapauthenticatoractiondefine.tagEapPeerMethodResponseAction
+title: tagEapPeerMethodResponseAction
+author: windows-sdk-content
+description: Defines the set of actions an EAP authenticator can indicate to a supplicant or EAP peer method during authentication.
+old-location: eaphost\eappeermethodresponseaction.htm
+old-project: EAPHost
+ms.assetid: def7e04e-ed0c-46f0-97d6-4c0ab021fa8b
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: EapPeerMethodResponseAction, EapPeerMethodResponseAction enumeration [EAPHost], EapPeerMethodResponseActionDiscard, EapPeerMethodResponseActionInvokeUI, EapPeerMethodResponseActionNone, EapPeerMethodResponseActionRespond, EapPeerMethodResponseActionResult, EapPeerMethodResponseActionSend, eapauthenticatoractiondefine/EapPeerMethodResponseAction, eapauthenticatoractiondefine/EapPeerMethodResponseActionDiscard, eapauthenticatoractiondefine/EapPeerMethodResponseActionInvokeUI, eapauthenticatoractiondefine/EapPeerMethodResponseActionNone, eapauthenticatoractiondefine/EapPeerMethodResponseActionRespond, eapauthenticatoractiondefine/EapPeerMethodResponseActionResult, eapauthenticatoractiondefine/EapPeerMethodResponseActionSend, eaphost.eappeermethodresponseaction, tagEapPeerMethodResponseAction
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: eapauthenticatoractiondefine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EapPeerMethodResponseAction
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	EapAuthenticatorActionDefine.h
+api_name:
+-	EapPeerMethodResponseAction
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # tagEapPeerMethodResponseAction enumeration

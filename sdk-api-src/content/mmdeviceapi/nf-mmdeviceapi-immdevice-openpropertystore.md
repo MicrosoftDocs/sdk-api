@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mmdeviceapi.IMMDevice.OpenPropertyStore
+title: IMMDevice::OpenPropertyStore
+author: windows-sdk-content
+description: The OpenPropertyStore method retrieves an interface to the device's property store.
+old-location: coreaudio\immdevice_openpropertystore.htm
+old-project: CoreAudio
+ms.assetid: d13a5743-8b07-4876-ab9d-7a6bd60e7add
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IMMDevice interface [Core Audio],OpenPropertyStore method, IMMDevice.OpenPropertyStore, IMMDevice::OpenPropertyStore, IMMDeviceOpenPropertyStore, OpenPropertyStore, OpenPropertyStore method [Core Audio], OpenPropertyStore method [Core Audio],IMMDevice interface, coreaudio.immdevice_openpropertystore, mmdeviceapi/IMMDevice::OpenPropertyStore
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mmdeviceapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EndpointFormFactor
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mmdeviceapi.h
+api_name:
+-	IMMDevice.OpenPropertyStore
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMMDevice::OpenPropertyStore

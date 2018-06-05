@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:mfidl._MF_CROSS_ORIGIN_POLICY
+title: "_MF_CROSS_ORIGIN_POLICY"
+author: windows-sdk-content
+description: Maps to the W3C cross origin settings (CORS) attribute used by the HTML5 media element.
+old-location: mf\_mf_cross_origin_policy.htm
+old-project: medfound
+ms.assetid: 77A8F413-5AA8-49E4-9846-A3F87FB878E7
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_CROSS_ORIGIN_POLICY, MF_CROSS_ORIGIN_POLICY_ANONYMOUS, MF_CROSS_ORIGIN_POLICY_NONE, MF_CROSS_ORIGIN_POLICY_USE_CREDENTIALS, _MF_CROSS_ORIGIN_POLICY, _MF_CROSS_ORIGIN_POLICY enumeration [Media Foundation], mf._mf_cross_origin_policy, mfidl/MF_CROSS_ORIGIN_POLICY_ANONYMOUS, mfidl/MF_CROSS_ORIGIN_POLICY_NONE, mfidl/MF_CROSS_ORIGIN_POLICY_USE_CREDENTIALS, mfidl/_MF_CROSS_ORIGIN_POLICY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CROSS_ORIGIN_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	_MF_CROSS_ORIGIN_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MF_CROSS_ORIGIN_POLICY enumeration

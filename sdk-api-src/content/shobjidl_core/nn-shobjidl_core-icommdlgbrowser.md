@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:shobjidl_core.ICommDlgBrowser
+title: ICommDlgBrowser
+author: windows-sdk-content
+description: Exposed by the common file dialog boxes to be used when they host a Shell browser.
+old-location: shell\ICommDlgBrowser.htm
+old-project: shell
+ms.assetid: bf89ac6e-6c2e-4944-885c-9ab62f58fe71
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ICommDlgBrowser, ICommDlgBrowser interface [Windows Shell], ICommDlgBrowser interface [Windows Shell],described, _win32_ICommDlgBrowser, shell.ICommDlgBrowser, shobjidl_core/ICommDlgBrowser
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	ICommDlgBrowser
+product: Windows
+targetos: Windows
+req.lib: Twinapi.lib
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ICommDlgBrowser interface

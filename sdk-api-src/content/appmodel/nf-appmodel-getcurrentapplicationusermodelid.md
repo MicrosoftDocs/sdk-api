@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:appmodel.GetCurrentApplicationUserModelId
+title: GetCurrentApplicationUserModelId function
+author: windows-sdk-content
+description: Gets the application user model ID for the current process.
+old-location: appxpkg\getcurrentapplicationusermodelid.htm
+old-project: appxpkg
+ms.assetid: 562BB225-0922-4FE7-92C0-573A2CCE3195
+ms.author: windowssdkdev
+ms.date: 04/26/2018
+ms.keywords: GetCurrentApplicationUserModelId, GetCurrentApplicationUserModelId function [App packaging and management], appmodel/GetCurrentApplicationUserModelId, appxpkg.getcurrentapplicationusermodelid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: appmodel.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PackageOrigin
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-AppModel-Runtime-l1-1-0.dll
+-	kernel32legacy.dll
+-	Kernel.AppCore.dll
+-	API-MS-Win-AppModel-RunTime-l1-1-1.dll
+-	API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+-	GetCurrentApplicationUserModelId
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 ---
 
 # GetCurrentApplicationUserModelId function

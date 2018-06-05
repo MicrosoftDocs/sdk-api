@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_HBAPORT_STATUS
+title: "_VDS_HBAPORT_STATUS"
+author: windows-sdk-content
+description: Defines the set of valid statuses for an HBA port.
+old-location: base\vds_hbaport_status.htm
+old-project: VDS
+ms.assetid: 67ef9025-c929-476b-8644-7e085dff91c4
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_HBAPORT_STATUS, VDS_HBAPORT_STATUS enumeration [VDS], VDS_HPS_BYPASSED, VDS_HPS_DIAGNOSTICS, VDS_HPS_ERROR, VDS_HPS_LINKDOWN, VDS_HPS_LOOPBACK, VDS_HPS_OFFLINE, VDS_HPS_ONLINE, VDS_HPS_UNKNOWN, _VDS_HBAPORT_STATUS, base.vds_hbaport_status, vds/VDS_HBAPORT_STATUS, vds/VDS_HPS_BYPASSED, vds/VDS_HPS_DIAGNOSTICS, vds/VDS_HPS_ERROR, vds/VDS_HPS_LINKDOWN, vds/VDS_HPS_LOOPBACK, vds/VDS_HPS_OFFLINE, vds/VDS_HPS_ONLINE, vds/VDS_HPS_UNKNOWN, vdshwprv/VDS_HBAPORT_STATUS, vdshwprv/VDS_HPS_BYPASSED, vdshwprv/VDS_HPS_DIAGNOSTICS, vdshwprv/VDS_HPS_ERROR, vdshwprv/VDS_HPS_LINKDOWN, vdshwprv/VDS_HPS_LOOPBACK, vdshwprv/VDS_HPS_OFFLINE, vdshwprv/VDS_HPS_ONLINE, vdshwprv/VDS_HPS_UNKNOWN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_HBAPORT_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_HBAPORT_STATUS
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_HBAPORT_STATUS enumeration

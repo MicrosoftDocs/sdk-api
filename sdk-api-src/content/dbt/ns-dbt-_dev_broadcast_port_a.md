@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dbt._DEV_BROADCAST_PORT_A
+title: "_DEV_BROADCAST_PORT_A"
+author: windows-sdk-content
+description: Contains information about a modem, serial, or parallel port.
+old-location: base\dev_broadcast_port_str.htm
+old-project: DevIO
+ms.assetid: b8789f1c-7d82-4637-bdb0-016a22b3bc8a
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*PDEV_BROADCAST_PORT_A, DEV_BROADCAST_PORT, DEV_BROADCAST_PORT structure, DEV_BROADCAST_PORT_A, PDEV_BROADCAST_PORT, PDEV_BROADCAST_PORT structure pointer, _DEV_BROADCAST_PORT_A, _win32_dev_broadcast_port_str, base.dev_broadcast_port_str, dbt/DEV_BROADCAST_PORT, dbt/PDEV_BROADCAST_PORT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dbt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEV_BROADCAST_PORT_A, *PDEV_BROADCAST_PORT_A
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dbt.h
+api_name:
+-	DEV_BROADCAST_PORT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DEV_BROADCAST_PORT_A structure

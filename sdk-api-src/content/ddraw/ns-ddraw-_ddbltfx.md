@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddraw._DDBLTFX
+title: "_DDBLTFX"
+author: windows-sdk-content
+description: The DDBLTFX structure passes raster operations (ROPs), effects, and override information to the IDirectDrawSurface7::Blt method. This structure is also part of the DDBLTBATCH structure that is used with the IDirectDrawSurface7::BltBatch method.
+old-location: directdraw\ddbltfx.htm
+old-project: directdraw
+ms.assetid: a542434f-61d3-4c73-a087-ffb83a509c67
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPDDBLTFX, DDBLTFX, DDBLTFX structure [DirectDraw], DDBLTFX_ARITHSTRETCHY, DDBLTFX_MIRRORLEFTRIGHT, DDBLTFX_MIRRORUPDOWN, DDBLTFX_NOTEARING, DDBLTFX_ROTATE180, DDBLTFX_ROTATE270, DDBLTFX_ROTATE90, DDBLTFX_ZBUFFERBASEDEST, DDBLTFX_ZBUFFERRANGE, LPDDBLTFX, LPDDBLTFX structure pointer [DirectDraw], _DDBLTFX, ddraw/DDBLTFX, ddraw/LPDDBLTFX, directdraw.ddbltfx"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDBLTFX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ddraw.h
+api_name:
+-	DDBLTFX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDBLTFX structure

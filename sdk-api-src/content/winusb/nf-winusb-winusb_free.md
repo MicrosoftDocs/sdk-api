@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winusb.WinUsb_Free
+title: WinUsb_Free function
+author: windows-sdk-content
+description: The WinUsb_Free function releases all of the resources that WinUsb_Initialize allocated. This is a synchronous operation.
+old-location: buses\winusb_free.htm
+old-project: usbref
+ms.assetid: 0f453364-fb2b-4b29-a96d-37c1d0d22608
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: WinUsb_Free, WinUsb_Free function [Buses], buses.winusb_free, winusb/WinUsb_Free, winusbfunc_5364f078-34b5-4844-ab20-60e601f036b9.xml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winusb.h
+req.include-header: Winusb.h
+req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winusb.dll
+api_name:
+-	WinUsb_Free
+product: Windows
+targetos: Windows
+req.lib: Winusb.lib
+req.dll: Winusb.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WinUsb_Free function

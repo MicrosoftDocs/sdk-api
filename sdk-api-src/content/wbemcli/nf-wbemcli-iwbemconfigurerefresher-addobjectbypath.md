@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemConfigureRefresher.AddObjectByPath
+title: IWbemConfigureRefresher::AddObjectByPath
+author: windows-sdk-content
+description: The IWbemConfigureRefresher::AddObjectByPath method adds an object to a refresher by specifying an object path.
+old-location: wmi\iwbemconfigurerefresher_addobjectbypath.htm
+old-project: WmiSdk
+ms.assetid: 85721e0c-863b-45af-91ca-8ee14af37181
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: AddObjectByPath, AddObjectByPath method [Windows Management Instrumentation], AddObjectByPath method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddObjectByPath method, IWbemConfigureRefresher.AddObjectByPath, IWbemConfigureRefresher::AddObjectByPath, _hmm_iwbemconfigurerefresher_addobjectbypath, wbemcli/IWbemConfigureRefresher::AddObjectByPath, wmi.iwbemconfigurerefresher_addobjectbypath
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wbemuuid.lib
+-	Wbemuuid.dll
+api_name:
+-	IWbemConfigureRefresher.AddObjectByPath
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemConfigureRefresher::AddObjectByPath

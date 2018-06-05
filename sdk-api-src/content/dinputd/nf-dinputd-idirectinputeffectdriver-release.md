@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dinputd.IDirectInputEffectDriver.Release
+title: IDirectInputEffectDriver::Release
+author: windows-sdk-content
+description: The IDirectInputEffectDriver::Release method decreases the reference count of the DirectInputEffectDriver object by 1. This method is part of the IUnknown interface inherited by DirectInputEffectDriver.
+old-location: hid\idirectinputeffectdriver_release.htm
+old-project: hid
+ms.assetid: 04f8c7ab-56d4-4173-be84-b24253a231ab
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],Release method, IDirectInputEffectDriver.Release, IDirectInputEffectDriver::Release, Release, Release method [Human Input Devices], Release method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_1363e951-bfbc-4918-9c35-3178d2670990.xml, dinputd/IDirectInputEffectDriver::Release, hid.idirectinputeffectdriver_release
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dinputd.h
+api_name:
+-	IDirectInputEffectDriver.Release
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputEffectDriver::Release

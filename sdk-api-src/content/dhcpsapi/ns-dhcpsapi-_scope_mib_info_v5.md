@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi._SCOPE_MIB_INFO_V5
+title: "_SCOPE_MIB_INFO_V5"
+author: windows-sdk-content
+description: Contains information about a specific DHCP scope.
+old-location: dhcp\scope_mib_info_v5.htm
+old-project: DHCP
+ms.assetid: 5144d83e-f21e-4f68-bf33-c7245b31da01
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPSCOPE_MIB_INFO_V5, LPSCOPE_MIB_INFO_V5, LPSCOPE_MIB_INFO_V5 structure pointer [DHCP], SCOPE_MIB_INFO_V5, SCOPE_MIB_INFO_V5 structure [DHCP], _SCOPE_MIB_INFO_V5, dhcp.scope_mib_info_v5, dhcpsapi/LPSCOPE_MIB_INFO_V5, dhcpsapi/SCOPE_MIB_INFO_V5"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCOPE_MIB_INFO_V5, *LPSCOPE_MIB_INFO_V5
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	SCOPE_MIB_INFO_V5
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _SCOPE_MIB_INFO_V5 structure

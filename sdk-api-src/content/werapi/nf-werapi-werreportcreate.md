@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:werapi.WerReportCreate
+title: WerReportCreate function
+author: windows-sdk-content
+description: Creates a problem report that describes an application event.
+old-location: wer\werreportcreate.htm
+old-project: wer
+ms.assetid: 41f68dde-5e43-45a6-8e0b-3ae0c6180e8b
+ms.author: windowssdkdev
+ms.date: 03/22/2018
+ms.keywords: WerReportApplicationCrash, WerReportApplicationHang, WerReportCreate, WerReportCreate function [Windows Error Reporting], WerReportCritical, WerReportInvalid, WerReportKernel, WerReportNonCritical, base.werreportcreate, wer.werreportcreate, werapi/WerReportCreate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: werapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wer.dll
+-	Ext-MS-Win-wer-reporting-l1-1-0.dll
+-	errorhandlingext.dll
+-	Ext-MS-Win-Wer-Reporting-L1-1-1.dll
+api_name:
+-	WerReportCreate
+product: Windows
+targetos: Windows
+req.lib: Wer.lib
+req.dll: Wer.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WerReportCreate function

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iscsidsc.IKE_AUTHENTICATION_METHOD
+title: IKE_AUTHENTICATION_METHOD
+author: windows-sdk-content
+description: IKE_AUTHENTICATION_METHOD enumeration indicates the type of Internet Key Exchange (IKE) authentication method.
+old-location: iscsidisc\ike_authentication_method.htm
+old-project: iSCSIDisc
+ms.assetid: be92f3db-93c5-41e3-bd5a-f929f911da39
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: "*PIKE_AUTHENTICATION_METHOD, IKE_AUTHENTICATION_METHOD, IKE_AUTHENTICATION_METHOD enumeration [iSCSI Discovery Library API], IKE_AUTHENTICATION_PRESHARED_KEY_METHOD, PIKE_AUTHENTICATION_METHOD, PIKE_AUTHENTICATION_METHOD enumeration pointer [iSCSI Discovery Library API], iscsidisc.ike_authentication_method, iscsidsc/IKE_AUTHENTICATION_METHOD, iscsidsc/IKE_AUTHENTICATION_PRESHARED_KEY_METHOD, iscsidsc/PIKE_AUTHENTICATION_METHOD"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IKE_AUTHENTICATION_METHOD, *PIKE_AUTHENTICATION_METHOD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iscsidsc.h
+api_name:
+-	IKE_AUTHENTICATION_METHOD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IKE_AUTHENTICATION_METHOD enumeration

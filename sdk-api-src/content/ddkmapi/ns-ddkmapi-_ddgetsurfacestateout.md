@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddkmapi._DDGETSURFACESTATEOUT
+title: "_DDGETSURFACESTATEOUT"
+author: windows-sdk-content
+description: The DDGETSURFACESTATEOUT structure contains the capabilities and status of the specified surface.
+old-location: display\ddgetsurfacestateout.htm
+old-project: display
+ms.assetid: 8d84fcdf-c880-4a3e-a57d-12bb8e59cb5b
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDGETSURFACESTATEOUT, DDGETSURFACESTATEOUT, DDGETSURFACESTATEOUT structure [Display Devices], LPDDGETSURFACESTATEOUT, LPDDGETSURFACESTATEOUT structure pointer [Display Devices], _DDGETSURFACESTATEOUT, ddkmapi/DDGETSURFACESTATEOUT, ddkmapi/LPDDGETSURFACESTATEOUT, ddstrcts_bfeeac46-f803-48ee-aac4-39cb4781f925.xml, display.ddgetsurfacestateout"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddkmapi.h
+req.include-header: Ddkmapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDGETSURFACESTATEOUT, *LPDDGETSURFACESTATEOUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddkmapi.h
+api_name:
+-	DDGETSURFACESTATEOUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDGETSURFACESTATEOUT structure

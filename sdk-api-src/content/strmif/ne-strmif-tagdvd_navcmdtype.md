@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.tagDVD_NavCmdType
+title: tagDVD_NavCmdType
+author: windows-sdk-content
+description: Defines DVD navigation command types.
+old-location: dshow\dvd_navcmdtype.htm
+old-project: DirectShow
+ms.assetid: cefe9a5f-3cd6-4b4c-96d5-cd4746a80729
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DVD_NavCmdType, DVD_NavCmdType enumeration [DirectShow], DVD_NavCmdType_Button, DVD_NavCmdType_Cell, DVD_NavCmdType_Post, DVD_NavCmdType_Pre, dshow.dvd_navcmdtype, strmif/DVD_NavCmdType, strmif/DVD_NavCmdType_Button, strmif/DVD_NavCmdType_Cell, strmif/DVD_NavCmdType_Post, strmif/DVD_NavCmdType_Pre, tagDVD_NavCmdType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_NavCmdType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	DVD_NavCmdType
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # tagDVD_NavCmdType enumeration

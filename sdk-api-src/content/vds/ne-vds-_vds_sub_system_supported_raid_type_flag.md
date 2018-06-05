@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
+title: "_VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG"
+author: windows-sdk-content
+description: Defines the set of RAID levels that can be supported by subsystems.
+old-location: base\vds_sub_system_supported_raid_type_flag.htm
+old-project: VDS
+ms.assetid: 0ee75959-f55c-43c9-b58c-a62b0544dcda
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PVDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG, VDS_SF_SUPPORTS_RAID01_LUNS, VDS_SF_SUPPORTS_RAID03_LUNS, VDS_SF_SUPPORTS_RAID05_LUNS, VDS_SF_SUPPORTS_RAID10_LUNS, VDS_SF_SUPPORTS_RAID15_LUNS, VDS_SF_SUPPORTS_RAID2_LUNS, VDS_SF_SUPPORTS_RAID30_LUNS, VDS_SF_SUPPORTS_RAID3_LUNS, VDS_SF_SUPPORTS_RAID4_LUNS, VDS_SF_SUPPORTS_RAID50_LUNS, VDS_SF_SUPPORTS_RAID51_LUNS, VDS_SF_SUPPORTS_RAID53_LUNS, VDS_SF_SUPPORTS_RAID5_LUNS, VDS_SF_SUPPORTS_RAID60_LUNS, VDS_SF_SUPPORTS_RAID61_LUNS, VDS_SF_SUPPORTS_RAID6_LUNS, VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG, VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG enumeration, _VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG, base.vds_sub_system_supported_raid_type_flag, vds/VDS_SF_SUPPORTS_RAID01_LUNS, vds/VDS_SF_SUPPORTS_RAID03_LUNS, vds/VDS_SF_SUPPORTS_RAID05_LUNS, vds/VDS_SF_SUPPORTS_RAID10_LUNS, vds/VDS_SF_SUPPORTS_RAID15_LUNS, vds/VDS_SF_SUPPORTS_RAID2_LUNS, vds/VDS_SF_SUPPORTS_RAID30_LUNS, vds/VDS_SF_SUPPORTS_RAID3_LUNS, vds/VDS_SF_SUPPORTS_RAID4_LUNS, vds/VDS_SF_SUPPORTS_RAID50_LUNS, vds/VDS_SF_SUPPORTS_RAID51_LUNS, vds/VDS_SF_SUPPORTS_RAID53_LUNS, vds/VDS_SF_SUPPORTS_RAID5_LUNS, vds/VDS_SF_SUPPORTS_RAID60_LUNS, vds/VDS_SF_SUPPORTS_RAID61_LUNS, vds/VDS_SF_SUPPORTS_RAID6_LUNS, vds/VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG, vdshwprv/VDS_SF_SUPPORTS_RAID01_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID03_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID05_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID10_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID15_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID2_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID30_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID3_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID4_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID50_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID51_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID53_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID5_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID60_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID61_LUNS, vdshwprv/VDS_SF_SUPPORTS_RAID6_LUNS, vdshwprv/VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG, *PVDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG enumeration

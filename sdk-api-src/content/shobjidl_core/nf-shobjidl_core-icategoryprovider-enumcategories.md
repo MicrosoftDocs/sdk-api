@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.ICategoryProvider.EnumCategories
+title: ICategoryProvider::EnumCategories
+author: windows-sdk-content
+description: Gets the enumerator for the list of GUIDs that represent categories.
+old-location: shell\ICategoryProvider_EnumCategories.htm
+old-project: shell
+ms.assetid: 5008ce75-7a90-4f30-84e0-13d00cc1e58e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EnumCategories, EnumCategories method [Windows Shell], EnumCategories method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],EnumCategories method, ICategoryProvider.EnumCategories, ICategoryProvider::EnumCategories, inet_ICategoryProvider_EnumCategories, shell.ICategoryProvider_EnumCategories, shobjidl_core/ICategoryProvider::EnumCategories
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	ICategoryProvider.EnumCategories
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ICategoryProvider::EnumCategories

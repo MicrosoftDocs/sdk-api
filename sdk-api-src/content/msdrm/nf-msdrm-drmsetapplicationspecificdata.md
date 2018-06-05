@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:msdrm.DRMSetApplicationSpecificData
+title: DRMSetApplicationSpecificData function
+author: windows-sdk-content
+description: Allows an issuance license to store arbitrary name-value pairs for use by the content-consuming application.
+old-location: rm\drmsetapplicationspecificdata.htm
+old-project: AdRms_Sdk
+ms.assetid: 659b2d73-1160-4e5a-8779-4bb272653c54
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DRMSetApplicationSpecificData, DRMSetApplicationSpecificData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetApplicationSpecificData, rm.drmsetapplicationspecificdata
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msdrm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_SELECTIONSTYLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msdrm.dll
+api_name:
+-	DRMSetApplicationSpecificData
+product: Windows
+targetos: Windows
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DRMSetApplicationSpecificData function

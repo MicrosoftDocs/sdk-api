@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IObjectContext.SetAbort
+title: IObjectContext::SetAbort
+author: windows-sdk-content
+description: Declares that the transaction in which the object is executing must be aborted and that the object should be deactivated when it returns from the currently executing method call.
+old-location: cos\iobjectcontext_setabort.htm
+old-project: cossdk
+ms.assetid: c254305f-1fc5-417e-b93b-d5e2b36e9e39
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IObjectContext interface [COM+],SetAbort method, IObjectContext.SetAbort, IObjectContext::SetAbort, SetAbort, SetAbort method [COM+], SetAbort method [COM+],IObjectContext interface, _cos_IObjectContext_SetAbort, comsvcs/IObjectContext::SetAbort, cos.iobjectcontext_setabort
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IObjectContext.SetAbort
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IObjectContext::SetAbort

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:p2p.peer_event_presence_changed_data_tag
+title: peer_event_presence_changed_data_tag
+author: windows-sdk-content
+description: The PEER_EVENT_PRESENCE_CHANGED_DATA structure contains information returned when a PEER_EVENT_ENDPOINT_PRESENCE_CHANGED or PEER_EVENT_MY_PRESENCE_CHANGED event is raised on a peer participating in a peer collaboration network.
+old-location: p2p\peer_event_presence_changed_data.htm
+old-project: P2PSdk
+ms.assetid: 31b64adf-f015-404a-aed7-0b9a21d83c9a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PPEER_EVENT_PRESENCE_CHANGED_DATA, PEER_EVENT_PRESENCE_CHANGED_DATA, PEER_EVENT_PRESENCE_CHANGED_DATA structure [Peer Networking], PPEER_EVENT_PRESENCE_CHANGED_DATA, PPEER_EVENT_PRESENCE_CHANGED_DATA structure pointer [Peer Networking], p2p.peer_event_presence_changed_data, p2p/PEER_EVENT_PRESENCE_CHANGED_DATA, p2p/PPEER_EVENT_PRESENCE_CHANGED_DATA, peer_event_presence_changed_data_tag"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEER_EVENT_PRESENCE_CHANGED_DATA, *PPEER_EVENT_PRESENCE_CHANGED_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	P2P.h
+api_name:
+-	PEER_EVENT_PRESENCE_CHANGED_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # peer_event_presence_changed_data_tag structure

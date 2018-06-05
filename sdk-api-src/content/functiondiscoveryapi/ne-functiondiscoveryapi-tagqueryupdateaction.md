@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:functiondiscoveryapi.tagQueryUpdateAction
+title: tagQueryUpdateAction
+author: windows-sdk-content
+description: Represents the type of action Function Discovery is performing on the specified function instance. This information is used by the client program's change notification handler.
+old-location: ncd\queryupdateaction_enum.htm
+old-project: FunDisc
+ms.assetid: ae3a4fe2-1b1f-4a8d-9b5d-361a7ece315d
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: QUA_ADD, QUA_CHANGE, QUA_REMOVE, QueryUpdateAction, QueryUpdateAction enumeration, functiondiscoveryapi/QUA_ADD, functiondiscoveryapi/QUA_CHANGE, functiondiscoveryapi/QUA_REMOVE, functiondiscoveryapi/QueryUpdateAction, ncd.queryupdateaction_enum, tagQueryUpdateAction
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: functiondiscoveryapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FunctionDiscoveryAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QueryUpdateAction
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	FunctionDiscoveryAPI.h
+api_name:
+-	QueryUpdateAction
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # tagQueryUpdateAction enumeration

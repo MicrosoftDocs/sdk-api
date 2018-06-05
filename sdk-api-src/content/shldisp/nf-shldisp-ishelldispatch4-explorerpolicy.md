@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shldisp.IShellDispatch4.ExplorerPolicy
+title: IShellDispatch4::ExplorerPolicy
+author: windows-sdk-content
+description: Gets the value for a specified Windows Internet Explorer policy.
+old-location: shell\IShellDispatch4_ExplorerPolicy.htm
+old-project: shell
+ms.assetid: 490c3e18-b606-456a-9016-dc4f7bad2bc3
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ExplorerPolicy, ExplorerPolicy method [Windows Shell], ExplorerPolicy method [Windows Shell],IShellDispatch4 object, IShellDispatch4 object [Windows Shell],ExplorerPolicy method, IShellDispatch4.ExplorerPolicy, IShellDispatch4::ExplorerPolicy, _shell_IShellDispatch4_ExplorerPolicy, shell.IShellDispatch4_ExplorerPolicy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shldisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shldisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETEOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IShellDispatch4.ExplorerPolicy
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 6.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # IShellDispatch4::ExplorerPolicy

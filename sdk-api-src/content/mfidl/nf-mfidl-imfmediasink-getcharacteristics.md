@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFMediaSink.GetCharacteristics
+title: IMFMediaSink::GetCharacteristics
+author: windows-sdk-content
+description: Gets the characteristics of the media sink.
+old-location: mf\imfmediasink_getcharacteristics.htm
+old-project: medfound
+ms.assetid: a7e8e2af-8b10-47f5-8b09-a7147ace5ba1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetCharacteristics, GetCharacteristics method [Media Foundation], GetCharacteristics method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetCharacteristics method, IMFMediaSink.GetCharacteristics, IMFMediaSink::GetCharacteristics, MEDIASINK_CANNOT_MATCH_CLOCK, MEDIASINK_CAN_PREROLL, MEDIASINK_CLOCK_REQUIRED, MEDIASINK_FIXED_STREAMS, MEDIASINK_RATELESS, MEDIASINK_REQUIRE_REFERENCE_MEDIATYPE, a7e8e2af-8b10-47f5-8b09-a7147ace5ba1, mf.imfmediasink_getcharacteristics, mfidl/IMFMediaSink::GetCharacteristics
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFMediaSink.GetCharacteristics
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFMediaSink::GetCharacteristics

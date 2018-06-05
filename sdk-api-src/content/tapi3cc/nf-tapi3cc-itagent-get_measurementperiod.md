@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3cc.ITAgent.get_MeasurementPeriod
+title: ITAgent::get_MeasurementPeriod
+author: windows-sdk-content
+description: The get_MeasurementPeriod method gets the measurement period (in seconds) for which the switch and/or implementation stores and calculates information.
+old-location: tapi3\itagent_get_measurementperiod.htm
+old-project: Tapi
+ms.assetid: ccc91dfb-83e5-496a-921d-784fcaea5af5
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITAgent interface [TAPI 2.2],get_MeasurementPeriod method, ITAgent.get_MeasurementPeriod, ITAgent::get_MeasurementPeriod, _tapi3_itagent_get_measurementperiod, get_MeasurementPeriod, get_MeasurementPeriod method [TAPI 2.2], get_MeasurementPeriod method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_measurementperiod, tapi3cc/ITAgent::get_MeasurementPeriod
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3cc.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AGENT_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAgent.get_MeasurementPeriod
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAgent::get_MeasurementPeriod

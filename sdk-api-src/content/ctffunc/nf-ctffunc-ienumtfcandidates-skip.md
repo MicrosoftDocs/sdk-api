@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ctffunc.IEnumTfCandidates.Skip
+title: IEnumTfCandidates::Skip
+author: windows-sdk-content
+description: IEnumTfCandidates::Skip method
+old-location: tsf\ienumtfcandidates_skip.htm
+old-project: TSF
+ms.assetid: f32587f2-cdfa-4cbc-8a5c-f6630c7866f9
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IEnumTfCandidates interface [Text Services Framework],Skip method, IEnumTfCandidates.Skip, IEnumTfCandidates::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_skip_ref, ctffunc/IEnumTfCandidates::Skip, tsf.ienumtfcandidates_skip
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ctffunc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ctffunc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TfIntegratableCandidateListSelectionStyle
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	IEnumTfCandidates.Skip
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 ---
 
 # IEnumTfCandidates::Skip

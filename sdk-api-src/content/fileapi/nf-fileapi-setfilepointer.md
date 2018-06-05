@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fileapi.SetFilePointer
+title: SetFilePointer function
+author: windows-sdk-content
+description: Moves the file pointer of the specified file.
+old-location: fs\setfilepointer.htm
+old-project: FileIO
+ms.assetid: a0a0081b-9132-4dea-967b-1ee1d1fdfa13
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointer, SetFilePointer function [Files], _win32_setfilepointer, base.setfilepointer, fileapi/SetFilePointer, fs.setfilepointer, winbase/SetFilePointer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fileapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,30 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAM_INFO_LEVELS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-File-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-File-l1-2-0.dll
+-	API-MS-Win-Core-File-l1-2-1.dll
+-	API-MS-Win-Core-File-l1-2-2.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+api_name:
+-	SetFilePointer
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # SetFilePointer function

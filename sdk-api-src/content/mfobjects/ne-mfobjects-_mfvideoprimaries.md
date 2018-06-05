@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfobjects._MFVideoPrimaries
+title: "_MFVideoPrimaries"
+author: windows-sdk-content
+description: Specifies the color primaries of a video source.
+old-location: mf\mfvideoprimaries.htm
+old-project: medfound
+ms.assetid: a1d6a60c-823c-46c3-a751-18e55fbc52a1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFVideoPrimaries, MFVideoPrimaries enumeration [Media Foundation], MFVideoPrimaries_ACES, MFVideoPrimaries_BT2020, MFVideoPrimaries_BT470_2_SysBG, MFVideoPrimaries_BT470_2_SysM, MFVideoPrimaries_BT709, MFVideoPrimaries_DCI_P3, MFVideoPrimaries_EBU3213, MFVideoPrimaries_ForceDWORD, MFVideoPrimaries_Last, MFVideoPrimaries_SMPTE170M, MFVideoPrimaries_SMPTE240M, MFVideoPrimaries_SMPTE_C, MFVideoPrimaries_Unknown, MFVideoPrimaries_XYZ, MFVideoPrimaries_reserved, _MFVideoPrimaries, a1d6a60c-823c-46c3-a751-18e55fbc52a1, mf.mfvideoprimaries, mfobjects/MFVideoPrimaries, mfobjects/MFVideoPrimaries_ACES, mfobjects/MFVideoPrimaries_BT2020, mfobjects/MFVideoPrimaries_BT470_2_SysBG, mfobjects/MFVideoPrimaries_BT470_2_SysM, mfobjects/MFVideoPrimaries_BT709, mfobjects/MFVideoPrimaries_DCI_P3, mfobjects/MFVideoPrimaries_EBU3213, mfobjects/MFVideoPrimaries_ForceDWORD, mfobjects/MFVideoPrimaries_Last, mfobjects/MFVideoPrimaries_SMPTE170M, mfobjects/MFVideoPrimaries_SMPTE240M, mfobjects/MFVideoPrimaries_SMPTE_C, mfobjects/MFVideoPrimaries_Unknown, mfobjects/MFVideoPrimaries_XYZ, mfobjects/MFVideoPrimaries_reserved
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoPrimaries
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfobjects.h
+api_name:
+-	MFVideoPrimaries
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFVideoPrimaries enumeration

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:eventsys.IEventPublisher.get_PublisherName
+title: IEventPublisher::get_PublisherName
+author: windows-sdk-content
+description: The display name for the event publisher.
+old-location: com\ieventpublisher_publishername.htm
+old-project: com
+ms.assetid: 223c57b9-2d70-476b-9f97-0f4d73c36dce
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IEventPublisher interface [COM],PublisherName property, IEventPublisher.PublisherName, IEventPublisher.get_PublisherName, IEventPublisher::PublisherName, IEventPublisher::get_PublisherName, IEventPublisher::put_PublisherName, PublisherName property [COM], PublisherName property [COM],IEventPublisher interface, _com_ieventpublisher_publishername, com.ieventpublisher_publishername, eventsys/IEventPublisher::PublisherName, eventsys/IEventPublisher::get_PublisherName, eventsys/IEventPublisher::put_PublisherName, get_PublisherName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: eventsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: EventSys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EOC_ChangeType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EventSys.h
+api_name:
+-	IEventPublisher.PublisherName
+-	IEventPublisher.get_PublisherName
+-	IEventPublisher.put_PublisherName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IEventPublisher::get_PublisherName

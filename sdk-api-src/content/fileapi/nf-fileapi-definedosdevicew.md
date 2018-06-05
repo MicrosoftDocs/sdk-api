@@ -1,31 +1,59 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fileapi.DefineDosDeviceW
+title: DefineDosDeviceW function
+author: windows-sdk-content
+description: Defines, redefines, or deletes MS-DOS device names.
+old-location: fs\definedosdevice.htm
+old-project: FileIO
+ms.assetid: 924b1456-b2c5-4d52-aacf-6172608c73ea
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: DDD_EXACT_MATCH_ON_REMOVE, DDD_NO_BROADCAST_SYSTEM, DDD_RAW_TARGET_PATH, DDD_REMOVE_DEFINITION, DefineDosDevice, DefineDosDevice function [Files], DefineDosDeviceA, DefineDosDeviceW, _win32_definedosdevice, base.definedosdevice, fileapi/DefineDosDevice, fileapi/DefineDosDeviceA, fileapi/DefineDosDeviceW, fs.definedosdevice, winbase/DefineDosDevice, winbase/DefineDosDeviceA, winbase/DefineDosDeviceW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fileapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DefineDosDeviceW (Unicode) and DefineDosDeviceA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAM_INFO_LEVELS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-File-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-File-l1-2-0.dll
+-	API-MS-Win-Core-File-l1-2-1.dll
+-	API-MS-Win-Core-File-l1-2-2.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+-	API-Ms-Win-Core-File-Ansi-L1-1-0.dll
+-	Kernel32Legacy.dll
+api_name:
+-	DefineDosDevice
+-	DefineDosDeviceA
+-	DefineDosDeviceW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # DefineDosDeviceW function

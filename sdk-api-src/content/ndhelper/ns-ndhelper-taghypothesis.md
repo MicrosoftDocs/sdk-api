@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ndhelper.tagHYPOTHESIS
+title: tagHYPOTHESIS
+author: windows-sdk-content
+description: The HYPOTHESIS structure contains data used to submit a hypothesis to NDF for another helper class.
+old-location: ndf\hypothesis.htm
+old-project: NDF
+ms.assetid: 8f137633-8501-404c-9540-d558be9beeca
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PHYPOTHESIS, HYPOTHESIS, HYPOTHESIS structure [NDF], HYPOTHESIS,*PHYPOTHESIS, HYPOTHESIS,*PHYPOTHESIS structure [NDF], ndf.hypothesis, ndhelper/HYPOTHESIS, tagHYPOTHESIS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ndhelper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ndhelper.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HYPOTHESIS, *PHYPOTHESIS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ndhelper.h
+api_name:
+-	HYPOTHESIS, *PHYPOTHESIS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagHYPOTHESIS structure

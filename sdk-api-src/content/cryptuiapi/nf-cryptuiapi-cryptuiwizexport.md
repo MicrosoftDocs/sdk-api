@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cryptuiapi.CryptUIWizExport
+title: CryptUIWizExport function
+author: windows-sdk-content
+description: Exports a certificate, a certificate trust list (CTL), a certificate revocation list (CRL), or a certificate store to a file.
+old-location: security\cryptuiwizexport.htm
+old-project: SecCrypto
+ms.assetid: 62537d51-c761-4180-b857-58c819ea66aa
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CRYPTUI_WIZ_EXPORT_NO_DELETE_PRIVATE_KEY, CRYPTUI_WIZ_EXPORT_PRIVATE_KEY, CRYPTUI_WIZ_IGNORE_NO_UI_FLAG_FOR_CSPS, CRYPTUI_WIZ_NO_UI, CRYPTUI_WIZ_NO_UI_EXCEPT_CSP, CryptUIWizExport, CryptUIWizExport function [Security], cryptuiapi/CryptUIWizExport, security.cryptuiwizexport
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cryptuiapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cryptui.dll
+api_name:
+-	CryptUIWizExport
+product: Windows
+targetos: Windows
+req.lib: Cryptui.lib
+req.dll: Cryptui.dll
+req.irql: 
 ---
 
 # CryptUIWizExport function

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tuner.ITuningSpaceContainer._TuningSpacesForCLSID
+title: ITuningSpaceContainer::_TuningSpacesForCLSID
+author: windows-sdk-content
+description: The _TuningSpacesForCLSID method retrieves a collection of tuning spaces that match the specified CLSID.
+old-location: mstv\ituningspacecontainer__tuningspacesforclsid.htm
+old-project: mstv
+ms.assetid: f31be8f8-3482-484a-b1a3-f27f3e0f7203
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],_TuningSpacesForCLSID method, ITuningSpaceContainer._TuningSpacesForCLSID, ITuningSpaceContainer::_TuningSpacesForCLSID, ITuningSpaceContainer_TuningSpacesForCLSID, _TuningSpacesForCLSID, _TuningSpacesForCLSID method [Microsoft TV Technologies], _TuningSpacesForCLSID method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer__tuningspacesforclsid, tuner/ITuningSpaceContainer::_TuningSpacesForCLSID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tuner.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	ITuningSpaceContainer._TuningSpacesForCLSID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITuningSpaceContainer::_TuningSpacesForCLSID

@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509CertificateTemplates.Clear
+title: IX509CertificateTemplates::Clear
+author: windows-sdk-content
+description: Removes all IX509CertificateTemplate objects from the collection.
+old-location: security\ix509certificatetemplates_clear.htm
+old-project: SecCertEnroll
+ms.assetid: e0f39478-f68b-4227-8e5f-812796feffc7
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509CertificateTemplates interface, IX509CertificateTemplates interface [Security],Clear method, IX509CertificateTemplates.Clear, IX509CertificateTemplates::Clear, certenroll/IX509CertificateTemplates::Clear, security.ix509certificatetemplates_clear
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certenroll.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.h
+api_name:
+-	IX509CertificateTemplates.Clear
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IX509CertificateTemplates::Clear

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d11.D3D11_FORMAT_SUPPORT2
+title: D3D11_FORMAT_SUPPORT2
+author: windows-sdk-content
+description: Unordered resource support options for a compute shader resource (see ID3D11Device::CheckFeatureSupport).
+old-location: direct3d11\d3d11_format_support2.htm
+old-project: direct3d11
+ms.assetid: 40650aae-ec0d-4c44-8abd-32c00343b717
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 560bc969-3791-be4b-1df7-1bec05505739, D3D11_FORMAT_SUPPORT2, D3D11_FORMAT_SUPPORT2 enumeration [Direct3D 11], D3D11_FORMAT_SUPPORT2_MULTIPLANE_OVERLAY, D3D11_FORMAT_SUPPORT2_OUTPUT_MERGER_LOGIC_OP, D3D11_FORMAT_SUPPORT2_SHAREABLE, D3D11_FORMAT_SUPPORT2_TILED, D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_ADD, D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_BITWISE_OPS, D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_COMPARE_STORE_OR_COMPARE_EXCHANGE, D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_EXCHANGE, D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_SIGNED_MIN_OR_MAX, D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_UNSIGNED_MIN_OR_MAX, D3D11_FORMAT_SUPPORT2_UAV_TYPED_LOAD, D3D11_FORMAT_SUPPORT2_UAV_TYPED_STORE, d3d11/D3D11_FORMAT_SUPPORT2, d3d11/D3D11_FORMAT_SUPPORT2_MULTIPLANE_OVERLAY, d3d11/D3D11_FORMAT_SUPPORT2_OUTPUT_MERGER_LOGIC_OP, d3d11/D3D11_FORMAT_SUPPORT2_SHAREABLE, d3d11/D3D11_FORMAT_SUPPORT2_TILED, d3d11/D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_ADD, d3d11/D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_BITWISE_OPS, d3d11/D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_COMPARE_STORE_OR_COMPARE_EXCHANGE, d3d11/D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_EXCHANGE, d3d11/D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_SIGNED_MIN_OR_MAX, d3d11/D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_UNSIGNED_MIN_OR_MAX, d3d11/D3D11_FORMAT_SUPPORT2_UAV_TYPED_LOAD, d3d11/D3D11_FORMAT_SUPPORT2_UAV_TYPED_STORE, direct3d11.d3d11_format_support2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_FORMAT_SUPPORT2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	D3D11_FORMAT_SUPPORT2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_FORMAT_SUPPORT2 enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:icftypes.NET_FW_PROFILE_TYPE2_
+title: NET_FW_PROFILE_TYPE2_
+author: windows-sdk-content
+description: Specifies the type of profile.
+old-location: ics\net_fw_profile_type2.htm
+old-project: ICS
+ms.assetid: cb8328ec-a2eb-4d6f-b6af-214a31a037e9
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: NET_FW_PROFILE2_ALL, NET_FW_PROFILE2_DOMAIN, NET_FW_PROFILE2_PRIVATE, NET_FW_PROFILE2_PUBLIC, NET_FW_PROFILE_TYPE2, NET_FW_PROFILE_TYPE2 enumeration [ICS/ICF], NET_FW_PROFILE_TYPE2_, icftypes/NET_FW_PROFILE2_ALL, icftypes/NET_FW_PROFILE2_DOMAIN, icftypes/NET_FW_PROFILE2_PRIVATE, icftypes/NET_FW_PROFILE2_PUBLIC, icftypes/NET_FW_PROFILE_TYPE2, ics.net_fw_profile_type2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: icftypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_FW_PROFILE_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Icftypes.h
+api_name:
+-	NET_FW_PROFILE_TYPE2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # NET_FW_PROFILE_TYPE2_ enumeration

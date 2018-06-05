@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fileapi.CreateFile2
+title: CreateFile2 function
+author: windows-sdk-content
+description: Creates or opens a file or I/O device.
+old-location: fs\createfile2.htm
+old-project: FileIO
+ms.assetid: cd7a81f3-60ee-443a-99f3-a4c8afd365e7
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile2, CreateFile2 function [Files], FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, TRUNCATE_EXISTING, fileapi/CreateFile2, fs.createfile2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fileapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAM_INFO_LEVELS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-File-l1-2-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-File-l1-2-1.dll
+-	API-MS-Win-Core-File-l1-2-2.dll
+-	MinKernelBase.dll
+api_name:
+-	CreateFile2
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # CreateFile2 function

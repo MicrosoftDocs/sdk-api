@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddkmapi._DDGETFIELDNUMIN
+title: "_DDGETFIELDNUMIN"
+author: windows-sdk-content
+description: The DDGETFIELDNUMIN structure contains the Microsoft DirectDraw and video port extensions (VPE) object handle information.
+old-location: display\ddgetfieldnumin.htm
+old-project: display
+ms.assetid: d0f8d7d0-6af6-44d1-8f18-d77ce6502b3f
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDGETFIELDNUMIN, DDGETFIELDNUMIN, DDGETFIELDNUMIN structure [Display Devices], LPDDGETFIELDNUMIN, LPDDGETFIELDNUMIN structure pointer [Display Devices], _DDGETFIELDNUMIN, ddkmapi/DDGETFIELDNUMIN, ddkmapi/LPDDGETFIELDNUMIN, ddstrcts_d975a952-2893-44cf-a7cb-57b3dd3b633c.xml, display.ddgetfieldnumin"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddkmapi.h
+req.include-header: Ddkmapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDGETFIELDNUMIN, *LPDDGETFIELDNUMIN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddkmapi.h
+api_name:
+-	DDGETFIELDNUMIN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDGETFIELDNUMIN structure

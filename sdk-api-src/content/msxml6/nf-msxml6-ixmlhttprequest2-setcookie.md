@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msxml6.IXMLHTTPRequest2.SetCookie
+title: IXMLHTTPRequest2::SetCookie
+author: windows-sdk-content
+description: Sets a cookie associated with the specified URL in the HTTP cookie jar.
+old-location: ixhr2\ixmlhttprequest2_setcookie.htm
+old-project: ixhr2
+ms.assetid: E150B7CA-A881-4CD5-896F-7E3B6770E105
+ms.author: windowssdkdev
+ms.date: 04/02/2018
+ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetCookie method, IXMLHTTPRequest2.SetCookie, IXMLHTTPRequest2::SetCookie, SetCookie, SetCookie method [XMLHttpRequest2], SetCookie method [XMLHttpRequest2],IXMLHTTPRequest2 interface, XHR_COOKIE_STATE_ACCEPT, XHR_COOKIE_STATE_DOWNGRADE, XHR_COOKIE_STATE_LEASH, XHR_COOKIE_STATE_PROMPT, XHR_COOKIE_STATE_REJECT, XHR_COOKIE_STATE_UNKNOWN, ixhr2.ixmlhttprequest2_setcookie, msxml6/IXMLHTTPRequest2::SetCookie
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msxml6.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps],MSXML 6.0 and later
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msxml6.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XHR_PROPERTY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msxml6.h
+api_name:
+-	IXMLHTTPRequest2.SetCookie
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IXMLHTTPRequest2::SetCookie

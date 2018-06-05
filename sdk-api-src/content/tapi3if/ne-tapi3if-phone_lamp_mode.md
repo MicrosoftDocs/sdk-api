@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.PHONE_LAMP_MODE
+title: PHONE_LAMP_MODE
+author: windows-sdk-content
+description: The PHONE_LAMP_MODE enum provides indicators of a phone lamp's status.
+old-location: tapi3\phone_lamp_mode.htm
+old-project: Tapi
+ms.assetid: cb971936-269c-4e59-bfc1-a3edc977ceb5
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: LM_BROKENFLUTTER, LM_DUMMY, LM_FLASH, LM_FLUTTER, LM_OFF, LM_STEADY, LM_UNKNOWN, LM_WINK, PHONE_LAMP_MODE, PHONE_LAMP_MODE enumeration [TAPI 2.2], _tapi3_phone_lamp_mode, tapi3.phone_lamp_mode, tapi3if/LM_BROKENFLUTTER, tapi3if/LM_DUMMY, tapi3if/LM_FLASH, tapi3if/LM_FLUTTER, tapi3if/LM_OFF, tapi3if/LM_STEADY, tapi3if/LM_UNKNOWN, tapi3if/LM_WINK, tapi3if/PHONE_LAMP_MODE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PHONE_LAMP_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	PHONE_LAMP_MODE
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # PHONE_LAMP_MODE enumeration

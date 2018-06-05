@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:gdiplusheaders.Image.Save(IN IStream,IN const CLSID,IN const EncoderParameters)
+title: Image::Save(IN IStream,IN const CLSID,IN const EncoderParameters)
+author: windows-sdk-content
+description: This topic lists the Save methods of the Image class. For a complete list of methods for the Image class, see Image Methods.
+old-location: gdiplus\_gdiplus_CLASS_Image_Save_Methods.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesavemethods.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: Image.Save, Image.Save(IN IStream,IN const CLSID,IN const EncoderParameters), Image::Save, Image::Save(IN IStream,IN const CLSID,IN const EncoderParameters), Save, Save methods [GDI+], _gdiplus_CLASS_Image_Save_Methods, gdiplus._gdiplus_CLASS_Image_Save_Methods, gdiplusheaders/Save
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: gdiplusheaders.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	gdiplusheaders.h
+api_name:
+-	Image.Save
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.0
 ---
 
 # Image::Save(IN IStream,IN const CLSID,IN const EncoderParameters)

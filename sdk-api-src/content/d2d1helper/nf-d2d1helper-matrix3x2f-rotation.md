@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:d2d1helper.Matrix3x2F.Rotation
+title: Matrix3x2F::Rotation
+author: windows-sdk-content
+description: Creates a rotation transformation that has the specified angle and center point.
+old-location: direct2d\matrix3x2f_rotate.htm
+old-project: Direct2D
+ms.assetid: 9bb3ee14-3637-41fc-9164-1114619a59e4
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1.Matrix3x2F.Rotation, D2D1::Matrix3x2F::Rotation, Matrix3x2F interface [Direct2D],Rotation method, Matrix3x2F.Rotation, Matrix3x2F::Rotation, Rotation, Rotation method [Direct2D], Rotation method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Rotation, direct2d.matrix3x2f_rotate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d2d1helper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: 
+req.namespace: D2D1
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_VIGNETTE_PROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D2d1.dll
+api_name:
+-	Matrix3x2F.Rotation
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # Matrix3x2F::Rotation

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wcmconfig.ISettingsEngine.GetNamespace
+title: ISettingsEngine::GetNamespace
+author: windows-sdk-content
+description: Opens an existing namespace as specified by the ISettingsIdentity parameter.
+old-location: smi\isettingsengine_getnamespace.htm
+old-project: SMI
+ms.assetid: 4f8193f5-9e9f-4819-aa2e-72b8623eca71
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetNamespace, GetNamespace method [SMI], GetNamespace method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetNamespace method, ISettingsEngine.GetNamespace, ISettingsEngine::GetNamespace, smi.isettingsengine_getnamespace, wcmconfig/ISettingsEngine::GetNamespace
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WcmConfig.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ISettingsEngine.GetNamespace
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ISettingsEngine::GetNamespace

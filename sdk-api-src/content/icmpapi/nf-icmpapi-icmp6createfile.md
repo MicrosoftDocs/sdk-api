@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:icmpapi.Icmp6CreateFile
+title: Icmp6CreateFile function
+author: windows-sdk-content
+description: The Icmp6CreateFile function opens a handle on which IPv6 ICMP echo requests can be issued.
+old-location: iphlp\icmp6createfile.htm
+old-project: IpHlp
+ms.assetid: 2ddb23d8-a4e6-47c4-a552-2815ccaf055f
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: Icmp6CreateFile, Icmp6CreateFile function [IP Helper], icmpapi/Icmp6CreateFile, iphlp.icmp6createfile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: icmpapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_FW_SERVICE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Iphlpapi.dll
+api_name:
+-	Icmp6CreateFile
+product: Windows
+targetos: Windows
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # Icmp6CreateFile function

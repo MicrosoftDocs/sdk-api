@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:lmalert.ALERT_OTHER_INFO
+title: ALERT_OTHER_INFO macro
+author: windows-sdk-content
+description: The ALERT_OTHER_INFO macro returns a pointer to the alert-specific data in an alert message. The data follows a STD_ALERT structure, and can be an ADMIN_OTHER_INFO, a PRINT_OTHER_INFO, or a USER_OTHER_INFO structure.
+old-location: netmgmt\alert_other_info.htm
+old-project: NetMgmt
+ms.assetid: e7bcc306-4b44-4230-96aa-a4717bb1fb11
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ALERT_OTHER_INFO, ALERT_OTHER_INFO macro [Network Management], _win32_alert_other_info, lmalert/ALERT_OTHER_INFO, netmgmt.alert_other_info
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: lmalert.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_MODALS_INFO_3, *PUSER_MODALS_INFO_3, *LPUSER_MODALS_INFO_3
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmalert.h
+api_name:
+-	ALERT_OTHER_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ALERT_OTHER_INFO macro

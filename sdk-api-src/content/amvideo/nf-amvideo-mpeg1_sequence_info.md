@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:amvideo.MPEG1_SEQUENCE_INFO
+title: MPEG1_SEQUENCE_INFO macro
+author: windows-sdk-content
+description: The MPEG1_SEQUENCE_INFO macro returns the address of the sequence header inside an MPEG1VIDEOINFO structure.
+old-location: dshow\mpeg1_sequence_info.htm
+old-project: DirectShow
+ms.assetid: 2c3f7dd7-3437-49ab-969c-d2425a75352b
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: MPEG1_SEQUENCE_INFO, MPEG1_SEQUENCE_INFO macro [DirectShow], amvideo/MPEG1_SEQUENCE_INFO, dshow.mpeg1_sequence_info
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: amvideo.h
+req.include-header: Streams.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Amvideo.h
+api_name:
+-	MPEG1_SEQUENCE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # MPEG1_SEQUENCE_INFO macro

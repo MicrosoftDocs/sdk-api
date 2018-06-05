@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFAudioStreamVolume.GetChannelVolume
+title: IMFAudioStreamVolume::GetChannelVolume
+author: windows-sdk-content
+description: Retrieves the volume level for a specified channel in the audio stream.
+old-location: mf\imfaudiostreamvolume_getchannelvolume.htm
+old-project: medfound
+ms.assetid: 5cfcc3a8-2911-45a3-8322-bf4e3b023dd2
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 5cfcc3a8-2911-45a3-8322-bf4e3b023dd2, GetChannelVolume, GetChannelVolume method [Media Foundation], GetChannelVolume method [Media Foundation],IMFAudioStreamVolume interface, IMFAudioStreamVolume interface [Media Foundation],GetChannelVolume method, IMFAudioStreamVolume.GetChannelVolume, IMFAudioStreamVolume::GetChannelVolume, mf.imfaudiostreamvolume_getchannelvolume, mfidl/IMFAudioStreamVolume::GetChannelVolume
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFAudioStreamVolume.GetChannelVolume
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFAudioStreamVolume::GetChannelVolume

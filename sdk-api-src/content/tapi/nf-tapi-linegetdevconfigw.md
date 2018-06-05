@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi.lineGetDevConfigW
+title: lineGetDevConfigW function
+author: windows-sdk-content
+description: The lineGetDevConfig function returns an &#0034;opaque&#0034; data structure object, the contents of which are specific to the line (service provider) and device class.
+old-location: tapi2\linegetdevconfig.htm
+old-project: Tapi
+ms.assetid: 39ff5ddb-142e-4f11-9395-e2c3a3ac7d19
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "_tapi2_linegetdevconfig, lineGetDevConfig, lineGetDevConfig function [TAPI 2.2], lineGetDevConfigA, lineGetDevConfigW, tapi/lineGetDevConfig, tapi/lineGetDevConfigA, tapi/lineGetDevConfigW, tapi2.linegetdevconfig"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: lineGetDevConfigW (Unicode) and lineGetDevConfigA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FLICK_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tapi32.dll
+api_name:
+-	lineGetDevConfig
+-	lineGetDevConfigA
+-	lineGetDevConfigW
+product: Windows
+targetos: Windows
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # lineGetDevConfigW function

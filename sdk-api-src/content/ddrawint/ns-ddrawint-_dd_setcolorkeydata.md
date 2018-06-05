@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_SETCOLORKEYDATA
+title: "_DD_SETCOLORKEYDATA"
+author: windows-sdk-content
+description: The DD_SETCOLORKEYDATA structure contains information necessary to set the color key value for the specified surface.
+old-location: display\dd_setcolorkeydata.htm
+old-project: display
+ms.assetid: 08d17ac7-a5d4-47ed-9ee4-896471b46769
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA structure [Display Devices], _DD_SETCOLORKEYDATA, ddrawint/DD_SETCOLORKEYDATA, ddstrcts_2798d2f9-38f8-42c3-a28e-a0d2a2ac3433.xml, display.dd_setcolorkeydata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_SETCOLORKEYDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_SETCOLORKEYDATA structure

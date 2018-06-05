@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:deviceaccess.IDeviceIoControl.DeviceIoControlSync
+title: IDeviceIoControl::DeviceIoControlSync
+author: windows-sdk-content
+description: The DeviceIoControlSync method sends a synchronous device input/output (I/O) control request to the device interface that the call to the CreateDeviceAccessInstance function specified.
+old-location: deviceaccess\ideviceiocontrol_deviceiocontrolsync.htm
+old-project: deviceaccess
+ms.assetid: 7b17ab14-e9bb-40be-a463-ca9031ba9bb3
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: DeviceIoControlSync, DeviceIoControlSync method [Device Access Broker API], DeviceIoControlSync method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],DeviceIoControlSync method, IDeviceIoControl.DeviceIoControlSync, IDeviceIoControl::DeviceIoControlSync, deviceaccess.ideviceiocontrol_deviceiocontrolsync, deviceaccess/IDeviceIoControl::DeviceIoControlSync
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: deviceaccess.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Deviceaccess.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIDEOMEMORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Deviceaccess.lib
+-	Deviceaccess.dll
+api_name:
+-	IDeviceIoControl.DeviceIoControlSync
+product: Windows
+targetos: Windows
+req.lib: Deviceaccess.lib
+req.dll: 
+req.irql: 
 ---
 
 # IDeviceIoControl::DeviceIoControlSync

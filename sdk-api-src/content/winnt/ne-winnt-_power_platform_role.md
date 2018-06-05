@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winnt._POWER_PLATFORM_ROLE
+title: "_POWER_PLATFORM_ROLE"
+author: windows-sdk-content
+description: Indicates the OEM's preferred power management profile.
+old-location: base\power_platform_role.htm
+old-project: Power
+ms.assetid: ec94a0c4-8451-47a5-be48-9d5ed76c3585
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PPOWER_PLATFORM_ROLE, POWER_PLATFORM_ROLE, POWER_PLATFORM_ROLE enumeration, PlatformRoleAppliancePC, PlatformRoleDesktop, PlatformRoleEnterpriseServer, PlatformRoleMaximum, PlatformRoleMobile, PlatformRolePerformanceServer, PlatformRoleSOHOServer, PlatformRoleSlate, PlatformRoleUnspecified, PlatformRoleWorkstation, _POWER_PLATFORM_ROLE, base.power_platform_role, winnt/POWER_PLATFORM_ROLE, winnt/PlatformRoleAppliancePC, winnt/PlatformRoleDesktop, winnt/PlatformRoleEnterpriseServer, winnt/PlatformRoleMaximum, winnt/PlatformRoleMobile, winnt/PlatformRolePerformanceServer, winnt/PlatformRoleSOHOServer, winnt/PlatformRoleSlate, winnt/PlatformRoleUnspecified, winnt/PlatformRoleWorkstation"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: POWER_PLATFORM_ROLE, *PPOWER_PLATFORM_ROLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	POWER_PLATFORM_ROLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _POWER_PLATFORM_ROLE enumeration

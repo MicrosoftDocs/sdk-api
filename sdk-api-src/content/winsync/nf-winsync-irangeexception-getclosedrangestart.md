@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsync.IRangeException.GetClosedRangeStart
+title: IRangeException::GetClosedRangeStart
+author: windows-sdk-content
+description: Gets the lower bound of the range of item IDs to exclude.
+old-location: winsync\irangeexception_getclosedrangestart.htm
+old-project: winsync
+ms.assetid: 5c3c4e92-8c0d-4a3d-97be-029d2c386af4
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetClosedRangeStart, GetClosedRangeStart method [Windows Sync], GetClosedRangeStart method [Windows Sync],IRangeException interface, IRangeException interface [Windows Sync],GetClosedRangeStart method, IRangeException.GetClosedRangeStart, IRangeException::GetClosedRangeStart, winsync.irangeexception_getclosedrangestart, winsync/IRangeException::GetClosedRangeStart
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	IRangeException.GetClosedRangeStart
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IRangeException::GetClosedRangeStart

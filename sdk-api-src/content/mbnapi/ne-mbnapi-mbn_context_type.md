@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mbnapi.MBN_CONTEXT_TYPE
+title: MBN_CONTEXT_TYPE
+author: windows-sdk-content
+description: The MBN_CONTEXT_TYPE enumerated type specifies the represented context type.
+old-location: mbn\mbn_context_type.htm
+old-project: mbn
+ms.assetid: 40ab2190-9fc2-43e2-9a8a-29fcaa5b035f
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: MBN_CONTEXT_TYPE, MBN_CONTEXT_TYPE enumeration [Microsoft Broadband Networks], MBN_CONTEXT_TYPE_CUSTOM, MBN_CONTEXT_TYPE_INTERNET, MBN_CONTEXT_TYPE_NONE, MBN_CONTEXT_TYPE_PURCHASE, MBN_CONTEXT_TYPE_VIDEO_SHARE, MBN_CONTEXT_TYPE_VOICE, MBN_CONTEXT_TYPE_VPN, mbn.mbn_context_type, mbnapi/MBN_CONTEXT_TYPE, mbnapi/MBN_CONTEXT_TYPE_CUSTOM, mbnapi/MBN_CONTEXT_TYPE_INTERNET, mbnapi/MBN_CONTEXT_TYPE_NONE, mbnapi/MBN_CONTEXT_TYPE_PURCHASE, mbnapi/MBN_CONTEXT_TYPE_VIDEO_SHARE, mbnapi/MBN_CONTEXT_TYPE_VOICE, mbnapi/MBN_CONTEXT_TYPE_VPN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_CONTEXT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mbnapi.h
+api_name:
+-	MBN_CONTEXT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MBN_CONTEXT_TYPE enumeration

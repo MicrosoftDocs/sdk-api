@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:webservices._WS_CHANNEL_DECODER
+title: "_WS_CHANNEL_DECODER"
+author: windows-sdk-content
+description: A structure that is used to specify a set of callbacks that can transform the content type and encoded bytes of a received message.
+old-location: wsw\ws_channel_decoder.htm
+old-project: wsw
+ms.assetid: d634f203-cf98-4f4e-85ce-5df23653a3ad
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_CHANNEL_DECODER, WS_CHANNEL_DECODER structure [Web Services for Windows], _WS_CHANNEL_DECODER, webservices/WS_CHANNEL_DECODER, wsw.ws_channel_decoder
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_CHANNEL_DECODER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_CHANNEL_DECODER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WS_CHANNEL_DECODER structure

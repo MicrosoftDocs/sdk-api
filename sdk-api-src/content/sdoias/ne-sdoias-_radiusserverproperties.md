@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:sdoias._RADIUSSERVERPROPERTIES
+title: "_RADIUSSERVERPROPERTIES"
+author: windows-sdk-content
+description: The values of the RADIUSSERVERPROPERTIES enumeration type enumerate the properties of the RADIUS server, that is the SDO computer.
+old-location: nps\SDO_radiusserverproperties.htm
+old-project: Nps
+ms.assetid: ff506849-0472-48a7-851f-a09f26942814
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PROPERTY_RADIUSSERVER_ACCT_PORT, PROPERTY_RADIUSSERVER_ACCT_SECRET, PROPERTY_RADIUSSERVER_ADDRESS, PROPERTY_RADIUSSERVER_AUTH_PORT, PROPERTY_RADIUSSERVER_AUTH_SECRET, PROPERTY_RADIUSSERVER_BLACKOUT, PROPERTY_RADIUSSERVER_FORWARD_ACCT_ONOFF, PROPERTY_RADIUSSERVER_MAX_LOST, PROPERTY_RADIUSSERVER_PRIORITY, PROPERTY_RADIUSSERVER_SEND_SIGNATURE, PROPERTY_RADIUSSERVER_TIMEOUT, PROPERTY_RADIUSSERVER_WEIGHT, RADIUSSERVERPROPERTIES, RADIUSSERVERPROPERTIES enumeration [Network Policy Server], _RADIUSSERVERPROPERTIES, _sdo_radiusserverproperties, nps.SDO_radiusserverproperties, sdo.radiusserverproperties, sdoias/PROPERTY_RADIUSSERVER_ACCT_PORT, sdoias/PROPERTY_RADIUSSERVER_ACCT_SECRET, sdoias/PROPERTY_RADIUSSERVER_ADDRESS, sdoias/PROPERTY_RADIUSSERVER_AUTH_PORT, sdoias/PROPERTY_RADIUSSERVER_AUTH_SECRET, sdoias/PROPERTY_RADIUSSERVER_BLACKOUT, sdoias/PROPERTY_RADIUSSERVER_FORWARD_ACCT_ONOFF, sdoias/PROPERTY_RADIUSSERVER_MAX_LOST, sdoias/PROPERTY_RADIUSSERVER_PRIORITY, sdoias/PROPERTY_RADIUSSERVER_SEND_SIGNATURE, sdoias/PROPERTY_RADIUSSERVER_TIMEOUT, sdoias/PROPERTY_RADIUSSERVER_WEIGHT, sdoias/RADIUSSERVERPROPERTIES
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: sdoias.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RADIUSSERVERPROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	SdoIas.h
+api_name:
+-	RADIUSSERVERPROPERTIES
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RADIUSSERVERPROPERTIES enumeration

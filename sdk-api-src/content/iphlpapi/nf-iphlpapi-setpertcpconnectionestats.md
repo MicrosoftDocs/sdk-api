@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iphlpapi.SetPerTcpConnectionEStats
+title: SetPerTcpConnectionEStats function
+author: windows-sdk-content
+description: Sets a value in the read/write information for an IPv4 TCP connection. This function is used to enable or disable extended statistics for an IPv4 TCP connection.
+old-location: iphlp\setpertcpconnectionestats.htm
+old-project: IpHlp
+ms.assetid: 96d838ca-69e3-4a73-b969-3e6e810a0a69
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: SetPerTcpConnectionEStats, SetPerTcpConnectionEStats function [IP Helper], iphlp.setpertcpconnectionestats, iphlpapi/SetPerTcpConnectionEStats
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: iphlpapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_ADDRESS_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Iphlpapi.dll
+api_name:
+-	SetPerTcpConnectionEStats
+product: Windows
+targetos: Windows
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # SetPerTcpConnectionEStats function

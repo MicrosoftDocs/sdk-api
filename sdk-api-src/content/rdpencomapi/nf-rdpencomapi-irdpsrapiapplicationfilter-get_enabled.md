@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rdpencomapi.IRDPSRAPIApplicationFilter.get_Enabled
+title: IRDPSRAPIApplicationFilter::get_Enabled
+author: windows-sdk-content
+description: The enabled state of the application filter.
+old-location: rdp\irdpsrapiapplicationfilter_enabled.htm
+old-project: Rdp
+ms.assetid: 91d8fdea-3fe0-4623-ab83-ce3927321bbc
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: Enabled property [RDP], Enabled property [RDP],IRDPSRAPIApplicationFilter interface, Enabled property [RDP],RDPSRAPIApplicationFilter object, IRDPSRAPIApplicationFilter interface [RDP],Enabled property, IRDPSRAPIApplicationFilter.Enabled, IRDPSRAPIApplicationFilter.get_Enabled, IRDPSRAPIApplicationFilter::Enabled, IRDPSRAPIApplicationFilter::get_Enabled, IRDPSRAPIApplicationFilter::put_Enabled, RDPSRAPIApplicationFilter object [RDP],Enabled property, get_Enabled, rdp.irdpsrapiapplicationfilter_enabled, rdpencomapi/IRDPSRAPIApplicationFilter::Enabled, rdpencomapi/IRDPSRAPIApplicationFilter::get_Enabled, rdpencomapi/IRDPSRAPIApplicationFilter::put_Enabled
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RdpEncomAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: RdpEncomAPI.tlb
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RdpEncom.dll
+api_name:
+-	IRDPSRAPIApplicationFilter.Enabled
+-	IRDPSRAPIApplicationFilter.get_Enabled
+-	IRDPSRAPIApplicationFilter.put_Enabled
+-	RDPSRAPIApplicationFilter.Enabled
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRDPSRAPIApplicationFilter::get_Enabled

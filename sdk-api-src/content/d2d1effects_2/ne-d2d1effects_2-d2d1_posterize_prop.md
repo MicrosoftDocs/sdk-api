@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d2d1effects_2.D2D1_POSTERIZE_PROP
+title: D2D1_POSTERIZE_PROP
+author: windows-sdk-content
+description: Identifiers for properties of the Posterize effect.
+old-location: direct2d\d2d1_posterize_prop.htm
+old-project: Direct2D
+ms.assetid: F5A41C61-6AEB-47A6-813E-FF19994D013D
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_POSTERIZE_PROP, D2D1_POSTERIZE_PROP enumeration [Direct2D], D2D1_POSTERIZE_PROP_BLUE_VALUE_COUNT, D2D1_POSTERIZE_PROP_GREEN_VALUE_COUNT, D2D1_POSTERIZE_PROP_RED_VALUE_COUNT, d2d1effects_2/D2D1_POSTERIZE_PROP, d2d1effects_2/D2D1_POSTERIZE_PROP_BLUE_VALUE_COUNT, d2d1effects_2/D2D1_POSTERIZE_PROP_GREEN_VALUE_COUNT, d2d1effects_2/D2D1_POSTERIZE_PROP_RED_VALUE_COUNT, direct2d.d2d1_posterize_prop
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1effects_2.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_POSTERIZE_PROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1effects_2.h
+api_name:
+-	D2D1_POSTERIZE_PROP
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D2D1_POSTERIZE_PROP enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipexport.arp_send_reply
+title: arp_send_reply
+author: windows-sdk-content
+description: The ARP_SEND_REPLY structure stores information about an Address Resolution Protocol (ARP) reply messages.
+old-location: iphlp\arp_send_reply.htm
+old-project: IpHlp
+ms.assetid: 6495d289-b9b8-42cb-b00b-cde53d3dc91c
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PARP_SEND_REPLY, *PARP_SEND_REPLY structure [IP Helper], ARP_SEND_REPLY, ARP_SEND_REPLY structure [IP Helper], arp_send_reply, ipexport/*PARP_SEND_REPLY, ipexport/ARP_SEND_REPLY, iphlp.arp_send_reply"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipexport.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ARP_SEND_REPLY, *PARP_SEND_REPLY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipexport.h
+api_name:
+-	ARP_SEND_REPLY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # arp_send_reply structure

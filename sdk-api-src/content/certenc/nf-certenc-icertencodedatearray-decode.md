@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenc.ICertEncodeDateArray.Decode
+title: ICertEncodeDateArray::Decode
+author: windows-sdk-content
+description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded date array and stores the resulting array of date values in the CertEncodeDateArray object.
+old-location: security\icertencodedatearray_decode.htm
+old-project: SecCrypto
+ms.assetid: 79937ef7-4b1a-4132-9ef4-23b2857c7fac
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertEncodeDateArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeDateArray object, Decode method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],Decode method, ICertEncodeDateArray.Decode, ICertEncodeDateArray::Decode, _certsrv_icertencodedatearray_decode, certenc/ICertEncodeDateArray::Decode, security.icertencodedatearray_decode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenc.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509EnrollmentAuthFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenc.dll
+api_name:
+-	ICertEncodeDateArray.Decode
+-	CCertEncodeDateArray.Decode
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 ---
 
 # ICertEncodeDateArray::Decode

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFTimecodeTranslate.EndConvertTimecodeToHNS
+title: IMFTimecodeTranslate::EndConvertTimecodeToHNS
+author: windows-sdk-content
+description: Completes an asynchronous request to convert time in Society of Motion Picture and Television Engineers (SMPTE) time code to 100-nanosecond units.
+old-location: mf\imftimecodetranslate_endconverttimecodetohns.htm
+old-project: medfound
+ms.assetid: d1b8b8ba-d03a-4a45-8788-38dbb2be8c6a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: EndConvertTimecodeToHNS, EndConvertTimecodeToHNS method [Media Foundation], EndConvertTimecodeToHNS method [Media Foundation],IMFTimecodeTranslate interface, IMFTimecodeTranslate interface [Media Foundation],EndConvertTimecodeToHNS method, IMFTimecodeTranslate.EndConvertTimecodeToHNS, IMFTimecodeTranslate::EndConvertTimecodeToHNS, mf.imftimecodetranslate_endconverttimecodetohns, mfidl/IMFTimecodeTranslate::EndConvertTimecodeToHNS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfidl.h
+api_name:
+-	IMFTimecodeTranslate.EndConvertTimecodeToHNS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFTimecodeTranslate::EndConvertTimecodeToHNS

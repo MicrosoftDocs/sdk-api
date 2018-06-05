@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:eapmethodtypes.tagEapCode
+title: tagEapCode
+author: windows-sdk-content
+description: Defines the set of EAP packet types.
+old-location: eaphost\eapcode.htm
+old-project: EAPHost
+ms.assetid: 19d424a1-91d6-4ebd-acb8-912b4900a4cd
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: EapCode, EapCode enumeration [EAPHost], EapCodeFailure, EapCodeMaximum, EapCodeMinimum, EapCodeRequest, EapCodeResponse, EapCodeSuccess, eaphost.eapcode, eapmethodtypes/EapCode, eapmethodtypes/EapCodeFailure, eapmethodtypes/EapCodeMaximum, eapmethodtypes/EapCodeMinimum, eapmethodtypes/EapCodeRequest, eapmethodtypes/EapCodeResponse, eapmethodtypes/EapCodeSuccess, tagEapCode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: eapmethodtypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EapCode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	eapmethodtypes.h
+api_name:
+-	EapCode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # tagEapCode enumeration

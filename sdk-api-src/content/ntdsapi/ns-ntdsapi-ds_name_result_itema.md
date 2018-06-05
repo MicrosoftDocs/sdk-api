@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntdsapi.DS_NAME_RESULT_ITEMA
+title: DS_NAME_RESULT_ITEMA
+author: windows-sdk-content
+description: The DS_NAME_RESULT_ITEM structure contains a name converted by the DsCrackNames function, along with associated error and domain data.
+old-location: ad\ds_name_result_item.htm
+old-project: AD
+ms.assetid: 50a4488f-e2d4-4671-b0e7-fb8cb4096c5c
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PDS_NAME_RESULT_ITEMA, DS_NAME_RESULT_ITEM, DS_NAME_RESULT_ITEM structure [Active Directory], DS_NAME_RESULT_ITEMA, DS_NAME_RESULT_ITEMW, PDS_NAME_RESULT_ITEM, PDS_NAME_RESULT_ITEM structure pointer [Active Directory], _glines_ds_name_result_item, ad.ds__name__result__item, ad.ds_name_result_item, ntdsapi/DS_NAME_RESULT_ITEM, ntdsapi/DS_NAME_RESULT_ITEMA, ntdsapi/DS_NAME_RESULT_ITEMW, ntdsapi/PDS_NAME_RESULT_ITEM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DS_NAME_RESULT_ITEMW (Unicode) and DS_NAME_RESULT_ITEMA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_NAME_RESULT_ITEMA, *PDS_NAME_RESULT_ITEMA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntdsapi.h
+api_name:
+-	DS_NAME_RESULT_ITEM
+-	DS_NAME_RESULT_ITEMA
+-	DS_NAME_RESULT_ITEMW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DS_NAME_RESULT_ITEMA structure

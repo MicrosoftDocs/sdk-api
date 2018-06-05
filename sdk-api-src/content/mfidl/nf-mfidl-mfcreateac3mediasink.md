@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.MFCreateAC3MediaSink
+title: MFCreateAC3MediaSink function
+author: windows-sdk-content
+description: Creates an instance of the AC-3 media sink.
+old-location: mf\mfcreateac3mediasink.htm
+old-project: medfound
+ms.assetid: 49203EBF-24F3-4D9D-85EC-77BD8780BB41
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFCreateAC3MediaSink, MFCreateAC3MediaSink function [Media Foundation], mf.mfcreateac3mediasink, mfidl/MFCreateAC3MediaSink
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	mf.dll
+api_name:
+-	MFCreateAC3MediaSink
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MFCreateAC3MediaSink function

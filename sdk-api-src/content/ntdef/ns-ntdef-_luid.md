@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ntdef._LUID
+title: "_LUID"
+author: windows-sdk-content
+description: The LUID structure is an opaque structure that specifies an identifier that is guaranteed to be unique on the local machine. For more information, see the reference page for LUID in the Microsoft Windows SDK documentation.
+old-location: kernel\luid.htm
+old-project: kernel
+ms.assetid: 974536eb-5cb3-4056-9c43-c6df170f6bf7
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PLUID, LUID, LUID structure [Kernel-Mode Driver Architecture], PLUID, PLUID structure pointer [Kernel-Mode Driver Architecture], _LUID, kernel.luid, kstruct_c_0aa22a8e-19fe-40b3-96b1-9aed87ac58c3.xml, ntdef/PLUID, ntdef/SINGLE_LIST_ENTRY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntdef.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LUID, *PLUID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntdef.h
+api_name:
+-	LUID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: Any level
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _LUID structure

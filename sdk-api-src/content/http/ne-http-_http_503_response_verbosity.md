@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:http._HTTP_503_RESPONSE_VERBOSITY
+title: "_HTTP_503_RESPONSE_VERBOSITY"
+author: windows-sdk-content
+description: The HTTP_503_RESPONSE_VERBOSITY enumeration defines the verbosity levels for a 503, service unavailable, error responses.This structure must be used when setting or querying the HttpServer503ResponseProperty on a request queue.
+old-location: http\http_503_response_verbosity.htm
+old-project: Http
+ms.assetid: e103bdf4-dc48-45ba-84dc-4161310ee3ff
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_503_RESPONSE_VERBOSITY, *PHTTP_503_RESPONSE_VERBOSITY enumeration [HTTP], HTTP_503_RESPONSE_VERBOSITY, HTTP_503_RESPONSE_VERBOSITY enumeration [HTTP], Http503ResponseVerbosityBasic, Http503ResponseVerbosityFull, Http503ResponseVerbosityLimited, _HTTP_503_RESPONSE_VERBOSITY, http.http_503_response_verbosity, http/*PHTTP_503_RESPONSE_VERBOSITY, http/HTTP_503_RESPONSE_VERBOSITY, http/Http503ResponseVerbosityBasic, http/Http503ResponseVerbosityFull, http/Http503ResponseVerbosityLimited"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_503_RESPONSE_VERBOSITY, *PHTTP_503_RESPONSE_VERBOSITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_503_RESPONSE_VERBOSITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_503_RESPONSE_VERBOSITY enumeration

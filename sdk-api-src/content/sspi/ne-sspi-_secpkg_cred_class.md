@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:sspi._SECPKG_CRED_CLASS
+title: "_SECPKG_CRED_CLASS"
+author: windows-sdk-content
+description: Indicates the type of credential used in a client context. The SECPKG_CRED_CLASS enumeration is used in the SecPkgContext_CredInfo structure.
+old-location: security\secpkg_cred_class.htm
+old-project: SecAuthN
+ms.assetid: 2f5f9be2-e7b5-4d34-a2ad-89a99db78ad0
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSECPKG_CRED_CLASS, PSECPKG_CRED_CLASS, PSECPKG_CRED_CLASS enumeration pointer [Security], SECPKG_CRED_CLASS, SECPKG_CRED_CLASS enumeration [Security], SecPkgCredClass_Ephemeral, SecPkgCredClass_Explicit = 40, SecPkgCredClass_None, SecPkgCredClass_PersistedGeneric, SecPkgCredClass_PersistedSpecific, _SECPKG_CRED_CLASS, security.secpkg_cred_class, sspi/PSECPKG_CRED_CLASS, sspi/SECPKG_CRED_CLASS, sspi/SecPkgCredClass_Ephemeral, sspi/SecPkgCredClass_Explicit = 40, sspi/SecPkgCredClass_None, sspi/SecPkgCredClass_PersistedGeneric, sspi/SecPkgCredClass_PersistedSpecific"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: sspi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SECPKG_CRED_CLASS, *PSECPKG_CRED_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Sspi.h
+api_name:
+-	SECPKG_CRED_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SECPKG_CRED_CLASS enumeration

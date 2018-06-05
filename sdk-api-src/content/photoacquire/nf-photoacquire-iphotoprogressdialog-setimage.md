@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:photoacquire.IPhotoProgressDialog.SetImage
+title: IPhotoProgressDialog::SetImage
+author: windows-sdk-content
+description: Sets either the thumbnail image displayed in the progress dialog box, the icon in the title bar of the progress dialog box, or the icon in ALT+TAB key combination windows.
+old-location: picacq\iphotoprogressdialog_setimage.htm
+old-project: acquisition
+ms.assetid: 45b795c4-4f95-4132-86a7-cda47e534e9c
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetImage method, IPhotoProgressDialog.SetImage, IPhotoProgressDialog::SetImage, IPhotoProgressDialogSetImage, PROGRESS_DIALOG_BITMAP_THUMBNAIL, PROGRESS_DIALOG_ICON_LARGE, PROGRESS_DIALOG_ICON_SMALL, PROGRESS_DIALOG_ICON_THUMBNAIL, SetImage, SetImage method [Picture Acquisition], SetImage method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetImage, picacq.iphotoprogressdialog_setimage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: photoacquire.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_INPUT_STRING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PhotoAcquireUID.lib
+-	PhotoAcquireUID.dll
+api_name:
+-	IPhotoProgressDialog.SetImage
+product: Windows
+targetos: Windows
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPhotoProgressDialog::SetImage

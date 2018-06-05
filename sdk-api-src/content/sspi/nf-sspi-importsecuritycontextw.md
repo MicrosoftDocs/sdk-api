@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sspi.ImportSecurityContextW
+title: ImportSecurityContextW function
+author: windows-sdk-content
+description: Imports a security context. The security context must have been exported to the process calling ImportSecurityContext by a previous call to ExportSecurityContext.
+old-location: security\importsecuritycontext.htm
+old-project: SecAuthN
+ms.assetid: 0f8e65d0-69cf-42ba-a903-1922d731e5ec
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ImportSecurityContext, ImportSecurityContext function [Security], ImportSecurityContextA, ImportSecurityContextW, _ssp_importsecuritycontext, security.importsecuritycontext, sspi/ImportSecurityContext, sspi/ImportSecurityContextA, sspi/ImportSecurityContextW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: sspi.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ImportSecurityContextW (Unicode) and ImportSecurityContextA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Secur32.dll
+-	sspicli.dll
+api_name:
+-	ImportSecurityContext
+-	ImportSecurityContextA
+-	ImportSecurityContextW
+product: Windows
+targetos: Windows
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ImportSecurityContextW function

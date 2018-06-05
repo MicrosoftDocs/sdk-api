@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msclus.ISCluster.get_Networks
+title: ISCluster::get_Networks
+author: windows-sdk-content
+description: Returns a ClusNetworks collection providing access to the networks in a cluster.
+old-location: mscs\cluster_networks.htm
+old-project: MsCS
+ms.assetid: 352f186d-bf42-480a-9554-c764345dafe6
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: Cluster object [Failover Cluster],Networks property, ISCluster interface [Failover Cluster],Networks property, ISCluster.get_Networks, ISCluster::Networks, ISCluster::get_Networks, Networks property [Failover Cluster], Networks property [Failover Cluster],Cluster object, Networks property [Failover Cluster],ISCluster interface, _wolf_cluster.networks, get_Networks, mscs.cluster_networks
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: MsClus.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: MsClus.tlb
+tech.root: 
+req.typenames: CLUS_GROUP_START_SETTING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsClus.dll
+api_name:
+-	Cluster.Networks
+-	ISCluster.Networks
+-	ISCluster.get_Networks
+-	ISCluster.get_Networks
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsClus.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ISCluster::get_Networks

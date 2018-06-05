@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wia_xp.IWiaItem.FindItemByName
+title: IWiaItem::FindItemByName
+author: windows-sdk-content
+description: The IWiaItem::FindItemByName method searches an item's tree of sub-items using the name as the search key. Each IWiaItem object has a name as one of its standard properties.
+old-location: wia\_wia_IWiaItem_FindItemByName.htm
+old-project: wia
+ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\finditembyname.htm
+ms.author: windowssdkdev
+ms.date: 05/03/2018
+ms.keywords: FindItemByName, FindItemByName method [WIA], FindItemByName method [WIA],IWiaItem interface, IWiaItem interface [WIA],FindItemByName method, IWiaItem.FindItemByName, IWiaItem::FindItemByName, _wia_IWiaItem_FindItemByName, wia._wia_IWiaItem_FindItemByName, wia_xp/IWiaItem::FindItemByName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wia_xp.h
+req.include-header: Wia.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIAVIDEO_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wiaservc.dll
+api_name:
+-	IWiaItem.FindItemByName
+product: Windows
+targetos: Windows
+req.lib: Wiaguid.lib
+req.dll: Wiaservc.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWiaItem::FindItemByName

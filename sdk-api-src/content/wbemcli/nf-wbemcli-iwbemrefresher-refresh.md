@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemRefresher.Refresh
+title: IWbemRefresher::Refresh
+author: windows-sdk-content
+description: The IWbemRefresher::Refresh method updates all refreshable objects, enumerators, and nested refreshers. The WMI Refresher calls this function in response to a client request to Refresh.
+old-location: wmi\iwbemrefresher_refresh.htm
+old-project: WmiSdk
+ms.assetid: 6de85040-c938-41dc-8240-0e21e89c7716
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IWbemRefresher interface [Windows Management Instrumentation],Refresh method, IWbemRefresher.Refresh, IWbemRefresher::Refresh, Refresh, Refresh method [Windows Management Instrumentation], Refresh method [Windows Management Instrumentation],IWbemRefresher interface, _hmm_iwbemrefresher_refresh, wbemcli/IWbemRefresher::Refresh, wmi.iwbemrefresher_refresh
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wbemuuid.lib
+-	Wbemuuid.dll
+api_name:
+-	IWbemRefresher.Refresh
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemRefresher::Refresh

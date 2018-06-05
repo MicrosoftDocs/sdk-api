@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IPreviewHandlerFrame.GetWindowContext
+title: IPreviewHandlerFrame::GetWindowContext
+author: windows-sdk-content
+description: Gets a list of the keyboard shortcuts for the preview host.
+old-location: shell\IPreviewHandlerFrame_GetWindowContext.htm
+old-project: shell
+ms.assetid: 953b7571-0da1-4e31-bb6f-1761f8103c6e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetWindowContext, GetWindowContext method [Windows Shell], GetWindowContext method [Windows Shell],IPreviewHandlerFrame interface, IPreviewHandlerFrame interface [Windows Shell],GetWindowContext method, IPreviewHandlerFrame.GetWindowContext, IPreviewHandlerFrame::GetWindowContext, _shell_IPreviewHandlerFrame_GetWindowContext, shell.IPreviewHandlerFrame_GetWindowContext, shobjidl_core/IPreviewHandlerFrame::GetWindowContext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	IPreviewHandlerFrame.GetWindowContext
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IPreviewHandlerFrame::GetWindowContext

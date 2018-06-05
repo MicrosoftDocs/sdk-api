@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mbnapi.IMbnRadio.get_SoftwareRadioState
+title: IMbnRadio::get_SoftwareRadioState
+author: windows-sdk-content
+description: The software radio state of a Mobile Broadband device.
+old-location: mbn\imbnradio_softwareradiostate.htm
+old-project: mbn
+ms.assetid: 8e8cd410-0c8b-4e62-ab8e-65e67f7a81a5
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: IMbnRadio interface [Microsoft Broadband Networks],SoftwareRadioState property, IMbnRadio.SoftwareRadioState, IMbnRadio.get_SoftwareRadioState, IMbnRadio::SoftwareRadioState, IMbnRadio::get_SoftwareRadioState, SoftwareRadioState property [Microsoft Broadband Networks], SoftwareRadioState property [Microsoft Broadband Networks],IMbnRadio interface, get_SoftwareRadioState, mbn.imbnradio_softwareradiostate, mbnapi/IMbnRadio::SoftwareRadioState, mbnapi/IMbnRadio::get_SoftwareRadioState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnRadio.SoftwareRadioState
+-	IMbnRadio.get_SoftwareRadioState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMbnRadio::get_SoftwareRadioState

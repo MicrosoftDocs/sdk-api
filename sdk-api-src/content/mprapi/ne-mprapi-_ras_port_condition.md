@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mprapi._RAS_PORT_CONDITION
+title: "_RAS_PORT_CONDITION"
+author: windows-sdk-content
+description: The RAS_PORT_CONDITION enumerated type specifies information regarding the connection condition of a given RAS port.
+old-location: rras\ras_port_condition.htm
+old-project: RRAS
+ms.assetid: 86bcca08-97c5-404c-b5d9-a90d93f26e00
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RAS_PORT_AUTHENTICATED, RAS_PORT_AUTHENTICATING, RAS_PORT_CALLING_BACK, RAS_PORT_CONDITION, RAS_PORT_CONDITION enumeration [RAS], RAS_PORT_DISCONNECTED, RAS_PORT_INITIALIZING, RAS_PORT_LISTENING, RAS_PORT_NON_OPERATIONAL, _RAS_PORT_CONDITION, _mpr_ras_port_condition, mprapi/RAS_PORT_AUTHENTICATED, mprapi/RAS_PORT_AUTHENTICATING, mprapi/RAS_PORT_CALLING_BACK, mprapi/RAS_PORT_CONDITION, mprapi/RAS_PORT_DISCONNECTED, mprapi/RAS_PORT_INITIALIZING, mprapi/RAS_PORT_LISTENING, mprapi/RAS_PORT_NON_OPERATIONAL, rras.ras_port_condition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RAS_PORT_CONDITION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mprapi.h
+api_name:
+-	RAS_PORT_CONDITION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _RAS_PORT_CONDITION enumeration

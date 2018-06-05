@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wincodec.WICComponentType
+title: WICComponentType
+author: windows-sdk-content
+description: Specifies the type of Windows Imaging Component (WIC) component.
+old-location: wic\_wic_codec_wiccomponenttype.htm
+old-project: wic
+ms.assetid: eff6b77c-ea4b-4476-8d75-dec5bb2e1745
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WICAllComponents, WICComponentType, WICComponentType enumeration [Windows Imaging Component], WICDecoder, WICEncoder, WICMetadataReader, WICMetadataWriter, WICPixelFormat, WICPixelFormatConverter, _wic_codec_wiccomponenttype, wic._wic_codec_wiccomponenttype, wincodec/WICAllComponents, wincodec/WICComponentType, wincodec/WICDecoder, wincodec/WICEncoder, wincodec/WICMetadataReader, wincodec/WICMetadataWriter, wincodec/WICPixelFormat, wincodec/WICPixelFormatConverter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodec.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICComponentType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincodec.h
+api_name:
+-	WICComponentType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WICComponentType enumeration

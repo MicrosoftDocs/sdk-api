@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:http.HttpSendHttpResponse
+title: HttpSendHttpResponse function
+author: windows-sdk-content
+description: Sends an HTTP response to the specified HTTP request.
+old-location: http\httpsendhttpresponse.htm
+old-project: Http
+ms.assetid: 0183584f-105e-4fa3-8991-d3f2dfca1d62
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: HTTP_SEND_RESPONSE_FLAG_BUFFER_DATA, HTTP_SEND_RESPONSE_FLAG_DISCONNECT, HTTP_SEND_RESPONSE_FLAG_ENABLE_NAGLING, HTTP_SEND_RESPONSE_FLAG_MORE_DATA, HTTP_SEND_RESPONSE_FLAG_OPAQUE, HTTP_SEND_RESPONSE_FLAG_PROCESS_RANGES, HttpSendHttpResponse, HttpSendHttpResponse function [HTTP], _http_httpsendhttpresponse, http.httpsendhttpresponse, http/HttpSendHttpResponse
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_VERB, *PHTTP_VERB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Httpapi.dll
+api_name:
+-	HttpSendHttpResponse
+product: Windows
+targetos: Windows
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # HttpSendHttpResponse function

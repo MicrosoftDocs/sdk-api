@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:waasapi.IWaaSAssessor
+title: IWaaSAssessor
+author: windows-sdk-content
+description: Gets the OS update assessment by comparing the latest build from Microsoft against the build running on the current device.
+old-location: base\iwaasassessor.htm
+old-project: SysInfo
+ms.assetid: CE5D99C9-2348-4566-AC94-DFBA5B583503
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IWaaSAssessor, IWaaSAssessor interface, IWaaSAssessor interface,described, base.iwaasassessor, waasapi/IWaaSAssessor
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: waasapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WaaSAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	waasapi.h
+api_name:
+-	IWaaSAssessor
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IWaaSAssessor interface

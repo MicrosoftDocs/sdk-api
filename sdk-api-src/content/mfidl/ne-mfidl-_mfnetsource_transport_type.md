@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl._MFNETSOURCE_TRANSPORT_TYPE
+title: "_MFNETSOURCE_TRANSPORT_TYPE"
+author: windows-sdk-content
+description: Describes the type of transport used in streaming or downloading data (TCP or UDP).
+old-location: mf\mfnetsource_transport_type.htm
+old-project: medfound
+ms.assetid: b3cdb604-15eb-4df7-af30-b21093c93781
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFNETSOURCE_TCP, MFNETSOURCE_TRANSPORT_TYPE, MFNETSOURCE_TRANSPORT_TYPE enumeration [Media Foundation], MFNETSOURCE_UDP, _MFNETSOURCE_TRANSPORT_TYPE, b3cdb604-15eb-4df7-af30-b21093c93781, mf.mfnetsource_transport_type, mfidl/MFNETSOURCE_TCP, mfidl/MFNETSOURCE_TRANSPORT_TYPE, mfidl/MFNETSOURCE_UDP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFNETSOURCE_TRANSPORT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFNETSOURCE_TRANSPORT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFNETSOURCE_TRANSPORT_TYPE enumeration

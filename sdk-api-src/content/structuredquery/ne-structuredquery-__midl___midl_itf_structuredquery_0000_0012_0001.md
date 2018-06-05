@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:structuredquery.__MIDL___MIDL_itf_structuredquery_0000_0012_0001
+title: "__MIDL___MIDL_itf_structuredquery_0000_0012_0001"
+author: windows-sdk-content
+description: Defines the level of certainty for a named entity.
+old-location: search\_search_NAMED_ENTITY_CERTAINTY.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\enums\named_entity_certainty.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: NAMED_ENTITY_CERTAINTY, NAMED_ENTITY_CERTAINTY enumeration [search], NEC_HIGH, NEC_LOW, NEC_MEDIUM, __MIDL___MIDL_itf_structuredquery_0000_0012_0001, _search_NAMED_ENTITY_CERTAINTY, search._search_NAMED_ENTITY_CERTAINTY, structuredquery/NAMED_ENTITY_CERTAINTY, structuredquery/NEC_HIGH, structuredquery/NEC_LOW, structuredquery/NEC_MEDIUM
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: structuredquery.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: StringCchVPrintf_lW (Unicode) and StringCchVPrintf_lA (ANSI)
+req.idl: Structuredquery.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NAMED_ENTITY_CERTAINTY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Structuredquery.h
+api_name:
+-	NAMED_ENTITY_CERTAINTY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # __MIDL___MIDL_itf_structuredquery_0000_0012_0001 enumeration

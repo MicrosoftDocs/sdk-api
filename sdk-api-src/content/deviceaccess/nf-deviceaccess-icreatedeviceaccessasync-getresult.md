@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:deviceaccess.ICreateDeviceAccessAsync.GetResult
+title: ICreateDeviceAccessAsync::GetResult
+author: windows-sdk-content
+description: Retrieves an IDeviceIoControl object that's bound to the device interface that's specified in a call to the CreateDeviceAccessInstance function.
+old-location: deviceaccess\icreatedeviceaccessasync_getresult.htm
+old-project: deviceaccess
+ms.assetid: 002e6638-a38a-4fda-b71c-a7a6983dda62
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetResult, GetResult method [Device Access Broker API], GetResult method [Device Access Broker API],ICreateDeviceAccessAsync interface, ICreateDeviceAccessAsync interface [Device Access Broker API],GetResult method, ICreateDeviceAccessAsync.GetResult, ICreateDeviceAccessAsync::GetResult, deviceaccess.icreatedeviceaccessasync_getresult, deviceaccess/ICreateDeviceAccessAsync::GetResult
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: deviceaccess.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Deviceaccess.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIDEOMEMORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Deviceaccess.lib
+-	Deviceaccess.dll
+api_name:
+-	ICreateDeviceAccessAsync.GetResult
+product: Windows
+targetos: Windows
+req.lib: Deviceaccess.lib
+req.dll: 
+req.irql: 
 ---
 
 # ICreateDeviceAccessAsync::GetResult

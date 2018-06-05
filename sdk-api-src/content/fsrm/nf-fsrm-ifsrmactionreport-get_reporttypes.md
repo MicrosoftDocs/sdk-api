@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrm.IFsrmActionReport.get_ReportTypes
+title: IFsrmActionReport::get_ReportTypes
+author: windows-sdk-content
+description: Retrieves or sets the types of reports to generate.
+old-location: fsrm\ifsrmactionreport_reporttypes.htm
+old-project: Fsrm
+ms.assetid: 942b9a7f-06b2-45bf-8398-b4c68a168a73
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmActionReport interface [File Server Resource Manager],ReportTypes property, IFsrmActionReport.ReportTypes, IFsrmActionReport.get_ReportTypes, IFsrmActionReport::ReportTypes, IFsrmActionReport::get_ReportTypes, IFsrmActionReport::put_ReportTypes, ReportTypes property [File Server Resource Manager], ReportTypes property [File Server Resource Manager],IFsrmActionReport interface, fs.ifsrmactionreport_reporttypes, fsrm.ifsrmactionreport_reporttypes, fsrm/IFsrmActionReport::ReportTypes, fsrm/IFsrmActionReport::get_ReportTypes, fsrm/IFsrmActionReport::put_ReportTypes, get_ReportTypes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrm.h
+req.include-header: FsrmQuota.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmActionReport.ReportTypes
+-	IFsrmActionReport.get_ReportTypes
+-	IFsrmActionReport.put_ReportTypes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmActionReport::get_ReportTypes

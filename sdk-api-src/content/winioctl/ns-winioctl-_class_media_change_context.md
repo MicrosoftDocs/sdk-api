@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._CLASS_MEDIA_CHANGE_CONTEXT
+title: "_CLASS_MEDIA_CHANGE_CONTEXT"
+author: windows-sdk-content
+description: Contains information associated with a media change event.
+old-location: base\class_media_change_context_str.htm
+old-project: DevIO
+ms.assetid: c89da554-3dc5-4278-8afe-8da9cc0a0120
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*PCLASS_MEDIA_CHANGE_CONTEXT, CLASS_MEDIA_CHANGE_CONTEXT, CLASS_MEDIA_CHANGE_CONTEXT structure, MediaNotPresent, MediaPresent, MediaUnavailable, MediaUnknown, PCLASS_MEDIA_CHANGE_CONTEXT, PCLASS_MEDIA_CHANGE_CONTEXT structure pointer, _CLASS_MEDIA_CHANGE_CONTEXT, _win32_class_media_change_context_str, base.class_media_change_context_str, winioctl/CLASS_MEDIA_CHANGE_CONTEXT, winioctl/PCLASS_MEDIA_CHANGE_CONTEXT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLASS_MEDIA_CHANGE_CONTEXT, *PCLASS_MEDIA_CHANGE_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	CLASS_MEDIA_CHANGE_CONTEXT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CLASS_MEDIA_CHANGE_CONTEXT structure

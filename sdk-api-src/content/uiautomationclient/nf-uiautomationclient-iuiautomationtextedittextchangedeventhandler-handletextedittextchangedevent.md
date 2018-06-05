@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
+title: IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent
+author: windows-sdk-content
+description: Handles an event that is raised when a Microsoft UI Automation provider for a text-edit control reports a programmatic text change.
+old-location: winauto\uiauto_IUIAutomationTextEditTextChangedEventHandler_HandleTextEditTextChangedEvent.htm
+old-project: WinAuto
+ms.assetid: FA63086A-40C5-BE7B-DC4E-2C8547636AE8
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: HandleTextEditTextChangedEvent, HandleTextEditTextChangedEvent method [Windows Accessibility], HandleTextEditTextChangedEvent method [Windows Accessibility],IUIAutomationTextEditTextChangedEventHandler interface, IUIAutomationTextEditTextChangedEventHandler interface [Windows Accessibility],HandleTextEditTextChangedEvent method, IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent, IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent, uiautomationclient/IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent, winauto.uiauto_IUIAutomationTextEditTextChangedEventHandler_HandleTextEditTextChangedEvent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent

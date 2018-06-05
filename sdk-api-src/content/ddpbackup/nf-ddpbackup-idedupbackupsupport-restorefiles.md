@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ddpbackup.IDedupBackupSupport.RestoreFiles
+title: IDedupBackupSupport::RestoreFiles
+author: windows-sdk-content
+description: Reconstructs a set of files from a backup store that contains the fully optimized version of the files (reparse points) and the Data Deduplication store.
+old-location: dedup\idedupbackupsupport_restorefiles.htm
+old-project: dedup
+ms.assetid: CFBB0B59-2869-4A30-8F2F-A473372B1E68
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: DDP_E_FILE_CORRUPT, DDP_E_FILE_SYSTEM_CORRUPT, DDP_E_INVALID_DATA, DDP_E_JOB_COMPLETED_PARTIAL_SUCCESS, DDP_E_NOT_FOUND, DDP_E_PATH_NOT_FOUND, DDP_E_UNEXPECTED, DDP_E_VOLUME_DEDUP_DISABLED, DDP_E_VOLUME_UNSUPPORTED, IDedupBackupSupport interface [Data Deduplication API],RestoreFiles method, IDedupBackupSupport.RestoreFiles, IDedupBackupSupport::RestoreFiles, RestoreFiles, RestoreFiles method [Data Deduplication API], RestoreFiles method [Data Deduplication API],IDedupBackupSupport interface, S_FALSE, S_OK, ddpbackup/IDedupBackupSupport::RestoreFiles, dedup.idedupbackupsupport_restorefile, dedup.idedupbackupsupport_restorefiles
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ddpbackup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DdpBackup.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DdpBackup.h
+api_name:
+-	IDedupBackupSupport.RestoreFiles
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDedupBackupSupport::RestoreFiles

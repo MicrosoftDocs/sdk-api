@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRL_ISSUING_DIST_POINT
+title: "_CRL_ISSUING_DIST_POINT"
+author: windows-sdk-content
+description: Contains information about the kinds of certificates listed in a certificate revocation list (CRL).
+old-location: security\crl_issuing_dist_point.htm
+old-project: SecCrypto
+ms.assetid: cdac9e96-5b26-4398-8863-16ea2c43f11e
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRL_ISSUING_DIST_POINT, CRL_ISSUING_DIST_POINT, CRL_ISSUING_DIST_POINT structure [Security], PCRL_ISSUING_DIST_POINT, PCRL_ISSUING_DIST_POINT structure pointer [Security], _CRL_ISSUING_DIST_POINT, _crypto2_crl_issuing_dist_point, security.crl_issuing_dist_point, wincrypt/CRL_ISSUING_DIST_POINT, wincrypt/PCRL_ISSUING_DIST_POINT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRL_ISSUING_DIST_POINT, *PCRL_ISSUING_DIST_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRL_ISSUING_DIST_POINT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRL_ISSUING_DIST_POINT structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_DISK_OFFLINE_REASON
+title: "_VDS_DISK_OFFLINE_REASON"
+author: windows-sdk-content
+description: Defines the set of reasons for a disk to be offline.
+old-location: base\vds_disk_offline_reason.htm
+old-project: VDS
+ms.assetid: 45115cd5-52bb-4cb8-978b-208a2bc3c148
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDSDiskOfflineReasonCollision, VDSDiskOfflineReasonNone, VDSDiskOfflineReasonPolicy, VDSDiskOfflineReasonRedundantPath, VDSDiskOfflineReasonSnapshot, VDS_DISK_OFFLINE_REASON, VDS_DISK_OFFLINE_REASON enumeration, _VDS_DISK_OFFLINE_REASON, base.vds_disk_offline_reason, vds/VDSDiskOfflineReasonCollision, vds/VDSDiskOfflineReasonNone, vds/VDSDiskOfflineReasonPolicy, vds/VDSDiskOfflineReasonRedundantPath, vds/VDSDiskOfflineReasonSnapshot, vds/VDS_DISK_OFFLINE_REASON
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_DISK_OFFLINE_REASON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	VDS_DISK_OFFLINE_REASON
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_DISK_OFFLINE_REASON enumeration

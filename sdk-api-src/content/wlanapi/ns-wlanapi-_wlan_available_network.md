@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wlanapi._WLAN_AVAILABLE_NETWORK
+title: "_WLAN_AVAILABLE_NETWORK"
+author: windows-sdk-content
+description: Contains information about an available wireless network.
+old-location: nwifi\wlan_available_network.htm
+old-project: NativeWiFi
+ms.assetid: 82883cea-515b-426d-9961-c144ce99b3db
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_AVAILABLE_NETWORK, PWLAN_AVAILABLE_NETWORK, PWLAN_AVAILABLE_NETWORK structure pointer [NativeWIFI], WLAN_AVAILABLE_NETWORK, WLAN_AVAILABLE_NETWORK structure [NativeWIFI], WLAN_AVAILABLE_NETWORK_CONNECTED, WLAN_AVAILABLE_NETWORK_HAS_PROFILE, _WLAN_AVAILABLE_NETWORK, dot11_phy_type_IHV_end, dot11_phy_type_IHV_start, dot11_phy_type_any, dot11_phy_type_dsss, dot11_phy_type_erp, dot11_phy_type_fhss, dot11_phy_type_hrdsss, dot11_phy_type_ht, dot11_phy_type_irbaseband, dot11_phy_type_ofdm, dot11_phy_type_unknown, dot11_phy_type_vht, nativewifi.wlan_visible_network, nwifi.wlan_available_network, wlanapi/PWLAN_AVAILABLE_NETWORK, wlanapi/WLAN_AVAILABLE_NETWORK"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_AVAILABLE_NETWORK, *PWLAN_AVAILABLE_NETWORK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wlanapi.h
+api_name:
+-	WLAN_AVAILABLE_NETWORK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_AVAILABLE_NETWORK structure

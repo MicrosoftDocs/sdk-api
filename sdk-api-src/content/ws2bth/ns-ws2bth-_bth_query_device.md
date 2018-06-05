@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ws2bth._BTH_QUERY_DEVICE
+title: "_BTH_QUERY_DEVICE"
+author: windows-sdk-content
+description: The BTH_QUERY_DEVICE structure is used when querying for the presence of a Bluetooth device.
+old-location: bluetooth\bth_query_device.htm
+old-project: Bluetooth
+ms.assetid: c132c79e-5938-4436-a1fb-d0d6db5dc9d3
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PBTHNS_INQUIRYBLOB, *PBTH_QUERY_DEVICE, BTHNS_INQUIRYBLOB, BTH_QUERY_DEVICE, BTH_QUERY_DEVICE structure [Bluetooth], PBTH_QUERY_DEVICE, PBTH_QUERY_DEVICE structure pointer [Bluetooth], _BTH_QUERY_DEVICE, _bth_bth_query_device, bluetooth.bth_query_device, ws2bth/BTH_QUERY_DEVICE, ws2bth/PBTH_QUERY_DEVICE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ws2bth.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wrdsgraphicschannels.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BTH_QUERY_DEVICE, *PBTH_QUERY_DEVICE, BTHNS_INQUIRYBLOB, *PBTHNS_INQUIRYBLOB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ws2bth.h
+api_name:
+-	BTH_QUERY_DEVICE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _BTH_QUERY_DEVICE structure

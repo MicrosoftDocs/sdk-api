@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_MOCOMPCB_GETCOMPBUFFINFO
+title: PDD_MOCOMPCB_GETCOMPBUFFINFO
+author: windows-sdk-content
+description: The DDMoCompGetBuffInfo callback function allows the driver to specify how many interim surfaces are required to support the specified GUID, and the size, location, and format of each of these surfaces.
+old-location: display\ddmocompgetbuffinfo.htm
+old-project: display
+ms.assetid: 7303f80d-1b6e-401f-a9ef-cf646b716c70
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DdMoCompGetBuffInfo, DdMoCompGetBuffInfo callback function [Display Devices], PDD_MOCOMPCB_GETCOMPBUFFINFO, PDD_MOCOMPCB_GETCOMPBUFFINFO callback, ddfncs_6b92e5df-6051-4481-a2a6-bb0f4cc4fd8e.xml, ddrawint/DdMoCompGetBuffInfo, display.ddmocompgetbuffinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdMoCompGetBuffInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_MOCOMPCB_GETCOMPBUFFINFO callback function

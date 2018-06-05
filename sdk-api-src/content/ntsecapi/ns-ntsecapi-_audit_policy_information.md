@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._AUDIT_POLICY_INFORMATION
+title: "_AUDIT_POLICY_INFORMATION"
+author: windows-sdk-content
+description: Specifies a security event type and when to audit that type.
+old-location: security\audit_policy_information.htm
+old-project: SecAuthZ
+ms.assetid: 3fafeec9-a028-4a65-933e-fb973eb257b0
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PAUDIT_POLICY_INFORMATION, AUDIT_POLICY_INFORMATION, AUDIT_POLICY_INFORMATION structure [Security], PAUDIT_POLICY_INFORMATION, PAUDIT_POLICY_INFORMATION structure pointer [Security], PER_USER_AUDIT_FAILURE_EXCLUDE, PER_USER_AUDIT_FAILURE_INCLUDE, PER_USER_AUDIT_NONE, PER_USER_AUDIT_SUCCESS_EXCLUDE, PER_USER_AUDIT_SUCCESS_INCLUDE, PER_USER_POLICY_UNCHANGED, POLICY_AUDIT_EVENT_FAILURE, POLICY_AUDIT_EVENT_NONE, POLICY_AUDIT_EVENT_SUCCESS, POLICY_AUDIT_EVENT_UNCHANGED, _AUDIT_POLICY_INFORMATION, ntsecapi/AUDIT_POLICY_INFORMATION, ntsecapi/PAUDIT_POLICY_INFORMATION, security.audit_policy_information"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUDIT_POLICY_INFORMATION, *PAUDIT_POLICY_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	AUDIT_POLICY_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _AUDIT_POLICY_INFORMATION structure

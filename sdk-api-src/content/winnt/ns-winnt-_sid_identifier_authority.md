@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._SID_IDENTIFIER_AUTHORITY
+title: "_SID_IDENTIFIER_AUTHORITY"
+author: windows-sdk-content
+description: Represents the top-level authority of a security identifier (SID).
+old-location: security\sid_identifier_authority.htm
+old-project: SecAuthZ
+ms.assetid: 450a6d2d-d2e4-4098-90af-a8024ddcfcb5
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PSID_IDENTIFIER_AUTHORITY, PSID_IDENTIFIER_AUTHORITY, PSID_IDENTIFIER_AUTHORITY structure pointer [Security], SID_IDENTIFIER_AUTHORITY, SID_IDENTIFIER_AUTHORITY structure [Security], _SID_IDENTIFIER_AUTHORITY, _win32_sid_identifier_authority_str, security.sid_identifier_authority, winnt/PSID_IDENTIFIER_AUTHORITY, winnt/SID_IDENTIFIER_AUTHORITY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SID_IDENTIFIER_AUTHORITY, *PSID_IDENTIFIER_AUTHORITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	SID_IDENTIFIER_AUTHORITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SID_IDENTIFIER_AUTHORITY structure

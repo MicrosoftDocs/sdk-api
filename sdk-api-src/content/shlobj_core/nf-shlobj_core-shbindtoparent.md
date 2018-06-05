@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlobj_core.SHBindToParent
+title: SHBindToParent function
+author: windows-sdk-content
+description: Takes a pointer to a fully qualified item identifier list (PIDL), and returns a specified interface pointer on the parent object.
+old-location: shell\SHBindToParent.htm
+old-project: shell
+ms.assetid: 1cb283a6-3ebf-4986-9f32-5f6ab8d977ad
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHBindToParent, SHBindToParent function [Windows Shell], _win32_SHBindToParent, shell.SHBindToParent, shlobj_core/SHBindToParent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETELISTOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+-	API-MS-Win-Shell-Namespace-L1-1-0.dll
+-	Ext-MS-Win-Shell-Shell32-L1-2-1.dll
+-	Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+-	Windows.Storage.Dll
+api_name:
+-	SHBindToParent
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SHBindToParent function

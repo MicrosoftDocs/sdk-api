@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3cc.ITQueue.get_Name
+title: ITQueue::get_Name
+author: windows-sdk-content
+description: The get_Name method gets the queue name.
+old-location: tapi3\itqueue_get_name.htm
+old-project: Tapi
+ms.assetid: c2a9f402-9341-426f-8994-902b754ceed9
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITQueue interface [TAPI 2.2],get_Name method, ITQueue.get_Name, ITQueue::get_Name, _tapi3_itqueue_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_name, tapi3cc/ITQueue::get_Name
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3cc.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AGENT_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITQueue.get_Name
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITQueue::get_Name

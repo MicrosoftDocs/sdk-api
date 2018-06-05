@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl._MFMEDIASOURCE_CHARACTERISTICS
+title: "_MFMEDIASOURCE_CHARACTERISTICS"
+author: windows-sdk-content
+description: Defines the characteristics of a media source.
+old-location: mf\mfmediasource_characteristics.htm
+old-project: medfound
+ms.assetid: 115f4a6b-99c2-436e-9483-c44003e61a7d
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 115f4a6b-99c2-436e-9483-c44003e61a7d, MFMEDIASOURCE_CAN_PAUSE, MFMEDIASOURCE_CAN_SEEK, MFMEDIASOURCE_CAN_SKIPBACKWARD, MFMEDIASOURCE_CAN_SKIPFORWARD, MFMEDIASOURCE_CHARACTERISTICS, MFMEDIASOURCE_CHARACTERISTICS enumeration [Media Foundation], MFMEDIASOURCE_DOES_NOT_USE_NETWORK, MFMEDIASOURCE_HAS_MULTIPLE_PRESENTATIONS, MFMEDIASOURCE_HAS_SLOW_SEEK, MFMEDIASOURCE_IS_LIVE, _MFMEDIASOURCE_CHARACTERISTICS, mf.mfmediasource_characteristics, mfidl/MFMEDIASOURCE_CAN_PAUSE, mfidl/MFMEDIASOURCE_CAN_SEEK, mfidl/MFMEDIASOURCE_CAN_SKIPBACKWARD, mfidl/MFMEDIASOURCE_CAN_SKIPFORWARD, mfidl/MFMEDIASOURCE_CHARACTERISTICS, mfidl/MFMEDIASOURCE_DOES_NOT_USE_NETWORK, mfidl/MFMEDIASOURCE_HAS_MULTIPLE_PRESENTATIONS, mfidl/MFMEDIASOURCE_HAS_SLOW_SEEK, mfidl/MFMEDIASOURCE_IS_LIVE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFMEDIASOURCE_CHARACTERISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFMEDIASOURCE_CHARACTERISTICS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFMEDIASOURCE_CHARACTERISTICS enumeration

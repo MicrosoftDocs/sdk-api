@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d10.D3D10_MAPPED_TEXTURE3D
+title: D3D10_MAPPED_TEXTURE3D
+author: windows-sdk-content
+description: Provides access to subresource data in a 3D texture.
+old-location: direct3d10\d3d10_mapped_texture3d.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_mapped_texture3d.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: D3D10_MAPPED_TEXTURE3D, D3D10_MAPPED_TEXTURE3D structure [Direct3D 10], d3d10/D3D10_MAPPED_TEXTURE3D, d6a9ab51-df0f-5e41-8e19-a9049f06d5ed, direct3d10.d3d10_mapped_texture3d
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_MAPPED_TEXTURE3D
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D10.h
+api_name:
+-	D3D10_MAPPED_TEXTURE3D
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D10_MAPPED_TEXTURE3D structure

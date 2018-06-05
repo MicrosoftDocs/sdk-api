@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.tagTVITEMW
+title: tagTVITEMW
+author: windows-sdk-content
+description: Specifies or receives attributes of a tree-view item. This structure is identical to the TV_ITEM structure, but it has been renamed to follow current naming conventions. New applications should use this structure.
+old-location: controls\TVITEM.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\treeview\structures\tvitem.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPTVITEMW, I_CHILDRENAUTO, I_CHILDRENCALLBACK, LPTVITEM, LPTVITEM structure pointer [Windows Controls], TVIF_CHILDREN, TVIF_DI_SETITEM, TVIF_HANDLE, TVIF_IMAGE, TVIF_PARAM, TVIF_SELECTEDIMAGE, TVIF_STATE, TVIF_TEXT, TVITEM, TVITEM structure [Windows Controls], TVITEMA, TVITEMW, _win32_TVITEM, _win32_TVITEM_cpp, commctrl/LPTVITEM, commctrl/TVITEM, commctrl/TVITEMA, commctrl/TVITEMW, controls.TVITEM, controls._win32_TVITEM, one, tagTVITEMW, zero"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: TVITEMW (Unicode) and TVITEMA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TVITEMW, *LPTVITEMW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	TVITEM
+-	TVITEMA
+-	TVITEMW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagTVITEMW structure

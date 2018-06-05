@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.PHONE_EVENT
+title: PHONE_EVENT
+author: windows-sdk-content
+description: The PHONE_EVENT enum indicates a type of phone event.
+old-location: tapi3\phone_event.htm
+old-project: Tapi
+ms.assetid: 9508cb8f-b7c9-4d5c-a58d-afdf079f9fee
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: PE_ANSWER, PE_BUTTON, PE_CAPSCHANGE, PE_CLOSE, PE_DIALING, PE_DISCONNECT, PE_DISPLAY, PE_HOOKSWITCH, PE_LAMPMODE, PE_LASTITEM, PE_NUMBERGATHERED, PE_RINGMODE, PE_RINGVOLUME, PHONE_EVENT, PHONE_EVENT enumeration [TAPI 2.2], _tapi3_phone_event, tapi3.phone_event, tapi3if/PE_ANSWER, tapi3if/PE_BUTTON, tapi3if/PE_CAPSCHANGE, tapi3if/PE_CLOSE, tapi3if/PE_DIALING, tapi3if/PE_DISCONNECT, tapi3if/PE_DISPLAY, tapi3if/PE_HOOKSWITCH, tapi3if/PE_LAMPMODE, tapi3if/PE_LASTITEM, tapi3if/PE_NUMBERGATHERED, tapi3if/PE_RINGMODE, tapi3if/PE_RINGVOLUME, tapi3if/PHONE_EVENT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PHONE_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	PHONE_EVENT
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # PHONE_EVENT enumeration

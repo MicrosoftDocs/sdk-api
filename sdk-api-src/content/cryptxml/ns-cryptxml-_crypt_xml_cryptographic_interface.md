@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:cryptxml._CRYPT_XML_CRYPTOGRAPHIC_INTERFACE
+title: "_CRYPT_XML_CRYPTOGRAPHIC_INTERFACE"
+author: windows-sdk-content
+description: Exposes the implemented CryptXML functions.
+old-location: security\crypt_xml_cryptographic_interface.htm
+old-project: SecCrypto
+ms.assetid: 55585a57-be3e-492d-bf56-4e2456572161
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE, *PCRYPT_XML_CRYPTO_PROVIDER, CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, CRYPT_XML_CRYPTOGRAPHIC_INTERFACE structure [Security], PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE, PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE structure pointer [Security], _CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, cryptxml/CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, cryptxml/PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE, security.crypt_xml_cryptographic_interface"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cryptxml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, *PCRYPT_XML_CRYPTO_PROVIDER, *PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Cryptxml.h
+api_name:
+-	CRYPT_XML_CRYPTOGRAPHIC_INTERFACE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CRYPT_XML_CRYPTOGRAPHIC_INTERFACE structure

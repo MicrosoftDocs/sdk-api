@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dvbsiparser.IDvbServiceDescriptor2.GetServiceNameW
+title: IDvbServiceDescriptor2::GetServiceNameW
+author: windows-sdk-content
+description: Gets a string containing the service name from a Digital Video Broadcast (DVB) service descriptor.
+old-location: mstv\idvbservicedescriptor2_getservicenamew.htm
+old-project: mstv
+ms.assetid: 05d826fd-2795-4335-9f6f-f8e19a6dbe4c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetServiceNameW, GetServiceNameW method [Microsoft TV Technologies], GetServiceNameW method [Microsoft TV Technologies],IDvbServiceDescriptor2 interface, IDvbServiceDescriptor2 interface [Microsoft TV Technologies],GetServiceNameW method, IDvbServiceDescriptor2.GetServiceNameW, IDvbServiceDescriptor2::GetServiceNameW, dvbsiparser/IDvbServiceDescriptor2::GetServiceNameW, mstv.idvbservicedescriptor2_getservicenamew
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: Dvbsiparser.idl
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IDvbServiceDescriptor2.GetServiceNameW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDvbServiceDescriptor2::GetServiceNameW

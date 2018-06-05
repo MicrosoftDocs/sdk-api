@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:wmpservices.IWMPPluginEnable
+title: IWMPPluginEnable
+author: windows-sdk-content
+description: The IWMPPluginEnable interface is implemented by the plug-in. It sets and retrieves a value that represents whether the plug-in has been enabled by Windows Media Player.
+old-location: wmp\iwmppluginenable.htm
+old-project: WMP
+ms.assetid: 997708e2-18fa-436f-9ca1-cdde5c7414fc
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPPluginEnable, IWMPPluginEnable interface [Windows Media Player], IWMPPluginEnable interface [Windows Media Player],described, IWMPPluginEnableInterfaceDSP, wmp.iwmppluginenable, wmpservices/IWMPPluginEnable
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wmpservices.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPServices_StreamState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmpservices.h
+api_name:
+-	IWMPPluginEnable
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPPluginEnable interface

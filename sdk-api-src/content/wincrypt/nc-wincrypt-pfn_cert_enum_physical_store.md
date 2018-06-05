@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:wincrypt.PFN_CERT_ENUM_PHYSICAL_STORE
+title: PFN_CERT_ENUM_PHYSICAL_STORE
+author: windows-sdk-content
+description: The CertEnumPhysicalStoreCallback callback function formats and presents information on each physical store found by a call to CertEnumPhysicalStore.
+old-location: security\certenumphysicalstorecallback.htm
+old-project: SecCrypto
+ms.assetid: 0651730a-39f2-4598-a81c-d05e6d282e6c
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CertEnumPhysicalStoreCallback, CertEnumPhysicalStoreCallback callback, CertEnumPhysicalStoreCallback callback function [Security], PFN_CERT_ENUM_PHYSICAL_STORE, PFN_CERT_ENUM_PHYSICAL_STORE callback function [Security], security.certenumphysicalstorecallback, wincrypt/CertEnumPhysicalStoreCallback, wincrypt/PFN_CERT_ENUM_PHYSICAL_STORE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Wincrypt.h
+api_name:
+-	CertEnumPhysicalStoreCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PFN_CERT_ENUM_PHYSICAL_STORE callback function

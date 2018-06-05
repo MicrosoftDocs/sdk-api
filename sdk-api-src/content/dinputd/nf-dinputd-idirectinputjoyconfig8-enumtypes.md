@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dinputd.IDirectInputJoyConfig8.EnumTypes
+title: IDirectInputJoyConfig8::EnumTypes
+author: windows-sdk-content
+description: The IDirectInputJoyConfig8::EnumTypes method enumerates the joystick types currently supported by DirectInput.
+old-location: hid\idirectinputjoyconfig8_enumtypes.htm
+old-project: hid
+ms.assetid: bacca5a8-2323-46d7-b018-cce2f09bb06d
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: EnumTypes, EnumTypes method [Human Input Devices], EnumTypes method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],EnumTypes method, IDirectInputJoyConfig8.EnumTypes, IDirectInputJoyConfig8::EnumTypes, di_ref_085bc431-1a23-4e9d-ae83-03b55ec163b5.xml, dinputd/IDirectInputJoyConfig8::EnumTypes, hid.idirectinputjoyconfig8_enumtypes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dinputd.h
+api_name:
+-	IDirectInputJoyConfig8.EnumTypes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputJoyConfig8::EnumTypes

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:vswriter.CreateWriterEx
+title: CreateWriterEx function
+author: windows-sdk-content
+description: This function is reserved for system use.
+old-location: base\createwriterex.htm
+old-project: VSS
+ms.assetid: 044dde5c-599f-495b-8d5c-7a37833bcb41
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: CreateWriterEx, CreateWriterEx function, base.createwriterex, vswriter/CreateWriterEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: vswriter.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	vswriter.h
+-	Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
+-	VssAPI.dll
+api_name:
+-	CreateWriterEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # CreateWriterEx function

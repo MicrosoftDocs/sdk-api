@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msajtransport.AllJoynConnectToBus
+title: AllJoynConnectToBus function
+author: windows-sdk-content
+description: Opens the AllJoyn Router Node Service named pipe, and sets it to PIPE_NOWAIT.
+old-location: alljoyn\alljoynconnecttobus.htm
+old-project: AllJoyn
+ms.assetid: B1929CE6-3707-4660-92CA-E267B1E5B9CC
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: AllJoynConnectToBus, AllJoynConnectToBus function [AllJoyn API], alljoyn.alljoynconnecttobus, msajtransport/AllJoynConnectToBus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msajtransport.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACMSTREAMHEADER, *PACMSTREAMHEADER, *LPACMSTREAMHEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	MSAJApi.dll
+api_name:
+-	AllJoynConnectToBus
+product: Windows
+targetos: Windows
+req.lib: MSAJApi.lib
+req.dll: MSAJApi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # AllJoynConnectToBus function

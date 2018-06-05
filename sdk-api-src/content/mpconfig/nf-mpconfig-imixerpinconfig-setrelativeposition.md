@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mpconfig.IMixerPinConfig.SetRelativePosition
+title: IMixerPinConfig::SetRelativePosition
+author: windows-sdk-content
+description: The SetRelativePosition method sets the position of the stream in the display window.
+old-location: dshow\imixerpinconfig_setrelativeposition.htm
+old-project: DirectShow
+ms.assetid: 2b8ff58b-04df-4a6a-b501-f5c138b8abbf
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IMixerPinConfig interface [DirectShow],SetRelativePosition method, IMixerPinConfig.SetRelativePosition, IMixerPinConfig::SetRelativePosition, IMixerPinConfigSetRelativePosition, SetRelativePosition, SetRelativePosition method [DirectShow], SetRelativePosition method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setrelativeposition, mpconfig/IMixerPinConfig::SetRelativePosition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mpconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_ASPECT_RATIO_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IMixerPinConfig.SetRelativePosition
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMixerPinConfig::SetRelativePosition

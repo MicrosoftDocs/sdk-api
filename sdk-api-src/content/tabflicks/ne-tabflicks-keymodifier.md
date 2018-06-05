@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tabflicks.KEYMODIFIER
+title: KEYMODIFIER
+author: windows-sdk-content
+description: Determines which, if any, modifier keys were pressed when the flick gesture occurred.
+old-location: tablet\keymodifier.htm
+old-project: tablet
+ms.assetid: ffb27356-9ad2-4759-bdc4-1025813a7258
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: KEYMODIFIER, KEYMODIFIER enumeration [Tablet PC], KEYMODIFIER_ALTGR, KEYMODIFIER_CONTROL, KEYMODIFIER_EXT, KEYMODIFIER_MENU, KEYMODIFIER_SHIFT, KEYMODIFIER_WIN, ffb27356-9ad2-4759-bdc4-1025813a7258, tabflicks/KEYMODIFIER, tabflicks/KEYMODIFIER_ALTGR, tabflicks/KEYMODIFIER_CONTROL, tabflicks/KEYMODIFIER_EXT, tabflicks/KEYMODIFIER_MENU, tabflicks/KEYMODIFIER_SHIFT, tabflicks/KEYMODIFIER_WIN, tablet.keymodifier
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tabflicks.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KEYMODIFIER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tabflicks.h
+api_name:
+-	KEYMODIFIER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # KEYMODIFIER enumeration

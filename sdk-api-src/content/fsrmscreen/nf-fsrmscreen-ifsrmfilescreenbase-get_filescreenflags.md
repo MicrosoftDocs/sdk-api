@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmscreen.IFsrmFileScreenBase.get_FileScreenFlags
+title: IFsrmFileScreenBase::get_FileScreenFlags
+author: windows-sdk-content
+description: Retrieves or sets the file screen flags.
+old-location: fsrm\ifsrmfilescreenbase_filescreenflags.htm
+old-project: Fsrm
+ms.assetid: af888368-36a8-401e-b4df-6b0cc0dfb422
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FileScreenFlags property [File Server Resource Manager], FileScreenFlags property [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],FileScreenFlags property, IFsrmFileScreenBase.FileScreenFlags, IFsrmFileScreenBase.get_FileScreenFlags, IFsrmFileScreenBase::FileScreenFlags, IFsrmFileScreenBase::get_FileScreenFlags, IFsrmFileScreenBase::put_FileScreenFlags, fs.ifsrmfilescreenbase_filescreenflags, fsrm.ifsrmfilescreenbase_filescreenflags, fsrmscreen/IFsrmFileScreenBase::FileScreenFlags, fsrmscreen/IFsrmFileScreenBase::get_FileScreenFlags, fsrmscreen/IFsrmFileScreenBase::put_FileScreenFlags, get_FileScreenFlags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmscreen.h
+req.include-header: FsrmScreen.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FsrmScreen.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileScreenBase.FileScreenFlags
+-	IFsrmFileScreenBase.get_FileScreenFlags
+-	IFsrmFileScreenBase.put_FileScreenFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileScreenBase::get_FileScreenFlags

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IShellItem2.GetPropertyDescriptionList
+title: IShellItem2::GetPropertyDescriptionList
+author: windows-sdk-content
+description: Gets a property description list object given a reference to a property key.
+old-location: shell\IShellItem2_GetPropertyDescriptionList.htm
+old-project: shell
+ms.assetid: 443b95c9-0a9e-4ad5-8774-ad3b1b51c136
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetPropertyDescriptionList, GetPropertyDescriptionList method [Windows Shell], GetPropertyDescriptionList method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyDescriptionList method, IShellItem2.GetPropertyDescriptionList, IShellItem2::GetPropertyDescriptionList, _shell_IShellItem2_GetPropertyDescriptionList, shell.IShellItem2_GetPropertyDescriptionList, shobjidl_core/IShellItem2::GetPropertyDescriptionList
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	IShellItem2.GetPropertyDescriptionList
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IShellItem2::GetPropertyDescriptionList

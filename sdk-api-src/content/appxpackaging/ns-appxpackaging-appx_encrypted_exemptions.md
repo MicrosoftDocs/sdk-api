@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:appxpackaging.APPX_ENCRYPTED_EXEMPTIONS
+title: APPX_ENCRYPTED_EXEMPTIONS
+author: windows-sdk-content
+description: Files exempted from Windows app package encryption.
+old-location: appxpkg\appx_encrypted_exemptions.htm
+old-project: appxpkg
+ms.assetid: EEA57363-3070-4D3E-9F37-4FE0ADF35FED
+ms.author: windowssdkdev
+ms.date: 04/26/2018
+ms.keywords: APPX_ENCRYPTED_EXEMPTIONS, APPX_ENCRYPTED_EXEMPTIONS structure [App packaging and management], PAPPX_ENCRYPTED_EXEMPTIONS, PAPPX_ENCRYPTED_EXEMPTIONS structure pointer [App packaging and management], appxpackaging/APPX_ENCRYPTED_EXEMPTIONS, appxpackaging/PAPPX_ENCRYPTED_EXEMPTIONS, appxpkg.appx_encrypted_exemptions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: appxpackaging.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: AppxPackaging.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APPX_ENCRYPTED_EXEMPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AppxPackaging.h
+api_name:
+-	APPX_ENCRYPTED_EXEMPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # APPX_ENCRYPTED_EXEMPTIONS structure

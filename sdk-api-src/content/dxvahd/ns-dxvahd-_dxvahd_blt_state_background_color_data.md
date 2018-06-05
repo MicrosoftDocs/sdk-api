@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dxvahd._DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
+title: "_DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA"
+author: windows-sdk-content
+description: Specifies the background color for blit operations, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+old-location: mf\dxvahd_blt_state_background_color_data.htm
+old-project: medfound
+ms.assetid: 34b8c29e-a183-4e68-bd46-802c43d554f7
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA, DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA structure [Media Foundation], _DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA, dxvahd/DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA, mf.dxvahd_blt_state_background_color_data
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxvahd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxvahd.h
+api_name:
+-	DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA structure

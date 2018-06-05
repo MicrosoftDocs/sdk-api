@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iads.IADsNameTranslate.Get
+title: IADsNameTranslate::Get
+author: windows-sdk-content
+description: Retrieves the name of a directory object in the specified format.
+old-location: adsi\iadsnametranslate_get.htm
+old-project: ADSI
+ms.assetid: 6c8246a9-657e-4db1-ae8f-d9c0a2d41397
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: Get, Get method [ADSI], Get method [ADSI],IADsNameTranslate interface, IADsNameTranslate interface [ADSI],Get method, IADsNameTranslate.Get, IADsNameTranslate::Get, _ds_iadsnametranslate_get, adsi.iadsnametranslate__get, adsi.iadsnametranslate_get, iads/IADsNameTranslate::Get
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SD_FORMAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Activeds.dll
+api_name:
+-	IADsNameTranslate.Get
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IADsNameTranslate::Get

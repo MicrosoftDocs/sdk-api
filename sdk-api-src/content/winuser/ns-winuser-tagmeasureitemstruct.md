@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winuser.tagMEASUREITEMSTRUCT
+title: tagMEASUREITEMSTRUCT
+author: windows-sdk-content
+description: Informs the system of the dimensions of an owner-drawn control or menu item. This allows the system to process user interaction with the control correctly.
+old-location: controls\MEASUREITEMSTRUCT.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\measureitemstruct.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPMEASUREITEMSTRUCT, *PMEASUREITEMSTRUCT, MEASUREITEMSTRUCT, MEASUREITEMSTRUCT structure [Windows Controls], ODT_COMBOBOX, ODT_LISTBOX, ODT_LISTVIEW, ODT_MENU, _win32_MEASUREITEMSTRUCT_str, _win32_MEASUREITEMSTRUCT_str_cpp, controls.MEASUREITEMSTRUCT, controls._win32_MEASUREITEMSTRUCT_str, tagMEASUREITEMSTRUCT, winuser/MEASUREITEMSTRUCT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MEASUREITEMSTRUCT, *PMEASUREITEMSTRUCT, *LPMEASUREITEMSTRUCT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winuser.h
+api_name:
+-	MEASUREITEMSTRUCT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagMEASUREITEMSTRUCT structure

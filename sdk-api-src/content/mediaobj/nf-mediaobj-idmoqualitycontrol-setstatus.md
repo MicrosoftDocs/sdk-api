@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mediaobj.IDMOQualityControl.SetStatus
+title: IDMOQualityControl::SetStatus
+author: windows-sdk-content
+description: The SetStatus method enables or disables quality control.
+old-location: dshow\idmoqualitycontrol_setstatus.htm
+old-project: DirectShow
+ms.assetid: d22a7a23-6623-4a98-9a0c-5195b29781f9
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IDMOQualityControl interface [DirectShow],SetStatus method, IDMOQualityControl.SetStatus, IDMOQualityControl::SetStatus, IDMOQualityControlSetStatus, SetStatus, SetStatus method [DirectShow], SetStatus method [DirectShow],IDMOQualityControl interface, dshow.idmoqualitycontrol_setstatus, mediaobj/IDMOQualityControl::SetStatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mediaobj.h
+req.include-header: Dmo.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dmoguids.lib
+-	Dmoguids.dll
+api_name:
+-	IDMOQualityControl.SetStatus
+product: Windows
+targetos: Windows
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IDMOQualityControl::SetStatus

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:cmdtree.DBVALUEKINDENUM
+title: DBVALUEKINDENUM
+author: windows-sdk-content
+description: The DBVALUEKINDENUM enumerated type is used to indicate the type of the union member inside a DBCOMMANDTREE structure.
+old-location: indexsrv\dbvaluekindenum.htm
+old-project: IndexSrv
+ms.assetid: VS|indexsrv|~\html\ixoledb_8565.htm
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DBVALUEKINDENUM, DBVALUEKINDENUM enumeration [Indexing Service], See below., _idxs_DBVALUEKINDENUM, cmdtree/DBVALUEKINDENUM, cmdtree/See below., indexsrv.dbvaluekindenum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: cmdtree.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	cmdtree.h
+api_name:
+-	DBVALUEKINDENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DBVALUEKINDENUM enumeration

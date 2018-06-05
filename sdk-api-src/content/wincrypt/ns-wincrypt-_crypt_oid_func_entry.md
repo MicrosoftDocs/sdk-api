@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_OID_FUNC_ENTRY
+title: "_CRYPT_OID_FUNC_ENTRY"
+author: windows-sdk-content
+description: Contains an object identifier (OID) and a pointer to its related function.
+old-location: security\crypt_oid_func_entry.htm
+old-project: SecCrypto
+ms.assetid: 84c4aca8-ee38-455f-8330-58f512a6d12c
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_OID_FUNC_ENTRY, CRYPT_OID_FUNC_ENTRY, CRYPT_OID_FUNC_ENTRY structure [Security], PCRYPT_OID_FUNC_ENTRY, PCRYPT_OID_FUNC_ENTRY structure pointer [Security], _CRYPT_OID_FUNC_ENTRY, _crypto2_crypt_oid_func_entry, security.crypt_oid_func_entry, wincrypt/CRYPT_OID_FUNC_ENTRY, wincrypt/PCRYPT_OID_FUNC_ENTRY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_OID_FUNC_ENTRY, *PCRYPT_OID_FUNC_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRYPT_OID_FUNC_ENTRY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_OID_FUNC_ENTRY structure

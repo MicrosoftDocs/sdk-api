@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fhcfg._FH_RETENTION_TYPES
+title: "_FH_RETENTION_TYPES"
+author: windows-sdk-content
+description: Specifies under what conditions previous versions of files and folders can be deleted from a backup target.
+old-location: winprog\fh_retention_types.htm
+old-project: DevNotes
+ms.assetid: B80EC7BF-1825-462C-ACE3-5163C14EE15D
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: FH_RETENTION_AGE_BASED, FH_RETENTION_DISABLED, FH_RETENTION_TYPES, FH_RETENTION_TYPES enumeration [Windows API], FH_RETENTION_UNLIMITED, MAX_RETENTION_TYPE, _FH_RETENTION_TYPES, fhcfg/FH_RETENTION_AGE_BASED, fhcfg/FH_RETENTION_DISABLED, fhcfg/FH_RETENTION_TYPES, fhcfg/FH_RETENTION_UNLIMITED, fhcfg/MAX_RETENTION_TYPE, winprog.fh_retention_types
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fhcfg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fhcfg.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FH_RETENTION_TYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Fhcfg.h
+api_name:
+-	FH_RETENTION_TYPES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _FH_RETENTION_TYPES enumeration

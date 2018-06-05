@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d11_1.D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK
+title: D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK
+author: windows-sdk-content
+description: Describes a sub sample mapping block.
+old-location: mf\d3d11_video_decoder_sub_sample_mapping_block.htm
+old-project: medfound
+ms.assetid: 82EC2598-60FB-4800-A001-0CCC2D0D529E
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK, D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK structure [Media Foundation], d3d11_1/D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK, mf.d3d11_video_decoder_sub_sample_mapping_block
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d11_1.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11_1.h
+api_name:
+-	D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d2d1.AddBezier
+title: AddBezier function
+author: windows-sdk-content
+description: Creates a cubic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
+old-location: direct2d\id2d1geometrysink_addbezier.htm
+old-project: Direct2D
+ms.assetid: d1e228eb-dac6-485d-b3c9-69b2bd45e531
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: AddBezier, AddBezier methods [Direct2D], ID2D1GeometrySink::AddBezier, d2d1/AddBezier, direct2d.id2d1geometrysink_addbezier
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d2d1.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_WINDOW_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D2d1.dll
+api_name:
+-	ID2D1GeometrySink::AddBezier
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # AddBezier function

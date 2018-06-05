@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:evr.IMFVideoPresenter.GetCurrentMediaType
+title: IMFVideoPresenter::GetCurrentMediaType
+author: windows-sdk-content
+description: Retrieves the presenter's media type.
+old-location: mf\imfvideopresenter_getcurrentmediatype.htm
+old-project: medfound
+ms.assetid: 4b8f0e56-35de-4b4f-9897-32a7e14171c8
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 4b8f0e56-35de-4b4f-9897-32a7e14171c8, GetCurrentMediaType, GetCurrentMediaType method [Media Foundation], GetCurrentMediaType method [Media Foundation],IMFVideoPresenter interface, IMFVideoPresenter interface [Media Foundation],GetCurrentMediaType method, IMFVideoPresenter.GetCurrentMediaType, IMFVideoPresenter::GetCurrentMediaType, evr/IMFVideoPresenter::GetCurrentMediaType, mf.imfvideopresenter_getcurrentmediatype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: evr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoMixPrefs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	strmiids.lib
+-	strmiids.dll
+api_name:
+-	IMFVideoPresenter.GetCurrentMediaType
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IMFVideoPresenter::GetCurrentMediaType

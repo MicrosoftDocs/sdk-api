@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:securitybaseapi.AddMandatoryAce
+title: AddMandatoryAce function
+author: windows-sdk-content
+description: Adds a SYSTEM_MANDATORY_LABEL_ACE access control entry (ACE) to the specified system access control list (SACL).
+old-location: security\addmandatoryace.htm
+old-project: SecAuthZ
+ms.assetid: 22c8f384-fdb7-4d5a-8854-d9fd25cd351e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ACL_REVISION, ACL_REVISION_DS, AddMandatoryAce, AddMandatoryAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SYSTEM_MANDATORY_LABEL_NO_EXECUTE_UP, SYSTEM_MANDATORY_LABEL_NO_READ_UP, SYSTEM_MANDATORY_LABEL_NO_WRITE_UP, security.addmandatoryace, securitybaseapi/AddMandatoryAce, winbase/AddMandatoryAce
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: securitybaseapi.h
+req.include-header: WinBase.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,30 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+-	API-MS-Win-Security-base-l1-1-0.dll
+-	API-MS-Win-Security-base-l1-2-0.dll
+-	MinKernelBase.dll
+-	API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+-	AddMandatoryAce
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # AddMandatoryAce function

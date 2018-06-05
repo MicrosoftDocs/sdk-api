@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:gdiplustypes.RectF.Contains(IN const RectF &)
+title: RectF::Contains(IN const RectF &)
+author: windows-sdk-content
+description: This topic lists the Contains methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
+old-location: gdiplus\_gdiplus_CLASS_RectF_Contains_Methods.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfcontainsmethods.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: Contains, Contains methods [GDI+], RectF.Contains, RectF.Contains(IN const RectF &), RectF::Contains, RectF::Contains(IN const RectF &), _gdiplus_CLASS_RectF_Contains_Methods, gdiplus._gdiplus_CLASS_RectF_Contains_Methods, gdiplustypes/Contains
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: gdiplustypes.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	gdiplustypes.h
+api_name:
+-	RectF.Contains
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.0
 ---
 
 # RectF::Contains(IN const RectF &)

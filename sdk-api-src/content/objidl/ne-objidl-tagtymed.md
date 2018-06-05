@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:objidl.tagTYMED
+title: tagTYMED
+author: windows-sdk-content
+description: Indicates the type of storage medium being used in a data transfer. They are used in the STGMEDIUM or FORMATETC structures.
+old-location: com\tymed.htm
+old-project: com
+ms.assetid: ac41286f-7c67-444a-81b7-21b61079bbf5
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: TYMED, TYMED enumeration [COM], TYMED_ENHMF, TYMED_FILE, TYMED_GDI, TYMED_HGLOBAL, TYMED_ISTORAGE, TYMED_ISTREAM, TYMED_MFPICT, TYMED_NULL, _ole_TYMED, com.tymed, objidl/TYMED, objidl/TYMED_ENHMF, objidl/TYMED_FILE, objidl/TYMED_GDI, objidl/TYMED_HGLOBAL, objidl/TYMED_ISTORAGE, objidl/TYMED_ISTREAM, objidl/TYMED_MFPICT, objidl/TYMED_NULL, tagTYMED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Objidlbase.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TYMED
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ObjIdl.h
+api_name:
+-	TYMED
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagTYMED enumeration

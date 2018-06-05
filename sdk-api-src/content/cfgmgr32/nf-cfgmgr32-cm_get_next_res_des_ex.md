@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:cfgmgr32.CM_Get_Next_Res_Des_Ex
+title: CM_Get_Next_Res_Des_Ex function
+author: windows-sdk-content
+description: The CM_Get_Next_Res_Des_Ex function obtains a handle to the next resource descriptor, of a specified resource type, for a logical configuration on a local or a remote machine.
+old-location: devinst\cm_get_next_res_des_ex.htm
+old-project: devinst
+ms.assetid: 91e9a686-2465-4ae8-9cc2-391cd98c2138
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: CM_Get_Next_Res_Des_Ex, CM_Get_Next_Res_Des_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Next_Res_Des_Ex, cfgmgrfn_2c25fbc8-7434-4a94-817e-2c7cd8d9fa99.xml, devinst.cm_get_next_res_des_ex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cfgmgr32.dll
+api_name:
+-	CM_Get_Next_Res_Des_Ex
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 ---
 
 # CM_Get_Next_Res_Des_Ex function

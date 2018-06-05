@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vds._VDS_VDISK_PROPERTIES
+title: "_VDS_VDISK_PROPERTIES"
+author: windows-sdk-content
+description: Defines the properties of a virtual disk.
+old-location: base\vds_vdisk_properties.htm
+old-project: VDS
+ms.assetid: e4cdab29-2bb7-4754-9ac8-d6f088910b0d
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PVDS_VDISK_PROPERTIES, PVDS_VDISK_PROPERTIES, PVDS_VDISK_PROPERTIES structure pointer, VDS_VDISK_PROPERTIES, VDS_VDISK_PROPERTIES structure, _VDS_VDISK_PROPERTIES, base.vds_vdisk_properties, vds/PVDS_VDISK_PROPERTIES, vds/VDS_VDISK_PROPERTIES"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VDISK_PROPERTIES, *PVDS_VDISK_PROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	VDS_VDISK_PROPERTIES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_VDISK_PROPERTIES structure

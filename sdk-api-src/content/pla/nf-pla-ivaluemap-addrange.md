@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IValueMap.AddRange
+title: IValueMap::AddRange
+author: windows-sdk-content
+description: Adds one or more items to the collection.
+old-location: pla\ivaluemap_addrange.htm
+old-project: PLA
+ms.assetid: 80893a3d-fcfc-475f-86ad-d19bb9e43ee0
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IValueMap interface, IValueMap interface [PLA],AddRange method, IValueMap.AddRange, IValueMap::AddRange, base.ivaluemap_addrange, pla.ivaluemap_addrange, pla/IValueMap::AddRange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IValueMap.AddRange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IValueMap::AddRange

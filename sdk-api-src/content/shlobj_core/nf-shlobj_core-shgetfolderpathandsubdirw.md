@@ -1,31 +1,56 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlobj_core.SHGetFolderPathAndSubDirW
+title: SHGetFolderPathAndSubDirW function
+author: windows-sdk-content
+description: Gets the path of a folder and appends a user-provided subfolder path.
+old-location: shell\SHGetFolderPathAndSubDir.htm
+old-project: shell
+ms.assetid: 7e92e136-1036-4c96-931f-6e0129fb839a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPathAndSubDir, SHGetFolderPathAndSubDir function [Windows Shell], SHGetFolderPathAndSubDirA, SHGetFolderPathAndSubDirW, _shell_SHGetFolderPathAndSubDir, shell.SHGetFolderPathAndSubDir, shlobj_core/SHGetFolderPathAndSubDir, shlobj_core/SHGetFolderPathAndSubDirA, shlobj_core/SHGetFolderPathAndSubDirW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlobj_core.h
+req.include-header: Shlobj.h, Shlobj_core.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SHGetFolderPathAndSubDirW (Unicode) and SHGetFolderPathAndSubDirA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETELISTOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+-	API-MS-Win-shell-shellfolders-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
+-	Windows.Storage.dll
+-	Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+-	Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+api_name:
+-	SHGetFolderPathAndSubDir
+-	SHGetFolderPathAndSubDirA
+-	SHGetFolderPathAndSubDirW
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.60 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SHGetFolderPathAndSubDirW function

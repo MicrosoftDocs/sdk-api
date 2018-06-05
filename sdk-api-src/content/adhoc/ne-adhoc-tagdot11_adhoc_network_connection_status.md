@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:adhoc.tagDOT11_ADHOC_NETWORK_CONNECTION_STATUS
+title: tagDOT11_ADHOC_NETWORK_CONNECTION_STATUS
+author: windows-sdk-content
+description: Specifies the connection state of an ad hoc network.
+old-location: nwifi\dot11_adhoc_network_connection_status.htm
+old-project: NativeWiFi
+ms.assetid: 194179b9-9bd2-4c2f-ab22-c6b95eebfb43
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: DOT11_ADHOC_NETWORK_CONNECTION_STATUS, DOT11_ADHOC_NETWORK_CONNECTION_STATUS enumeration [NativeWIFI], DOT11_ADHOC_NETWORK_CONNECTION_STATUS_CONNECTED, DOT11_ADHOC_NETWORK_CONNECTION_STATUS_CONNECTING, DOT11_ADHOC_NETWORK_CONNECTION_STATUS_DISCONNECTED, DOT11_ADHOC_NETWORK_CONNECTION_STATUS_FORMED, DOT11_ADHOC_NETWORK_CONNECTION_STATUS_INVALID, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_CONNECTED, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_CONNECTING, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_DISCONNECTED, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_FORMED, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_INVALID, nwifi.dot11_adhoc_network_connection_status, tagDOT11_ADHOC_NETWORK_CONNECTION_STATUS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: adhoc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Adhoc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	adhoc.h
+api_name:
+-	DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagDOT11_ADHOC_NETWORK_CONNECTION_STATUS enumeration

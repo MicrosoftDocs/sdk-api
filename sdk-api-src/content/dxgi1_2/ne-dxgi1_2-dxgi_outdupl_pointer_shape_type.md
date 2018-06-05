@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dxgi1_2.DXGI_OUTDUPL_POINTER_SHAPE_TYPE
+title: DXGI_OUTDUPL_POINTER_SHAPE_TYPE
+author: windows-sdk-content
+description: Identifies the type of pointer shape.
+old-location: direct3ddxgi\dxgi_outdupl_pointer_shape_type.htm
+old-project: direct3ddxgi
+ms.assetid: A066B6D3-A72A-48A9-BAED-BC3488BD1BC7
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGI_OUTDUPL_POINTER_SHAPE_TYPE, DXGI_OUTDUPL_POINTER_SHAPE_TYPE enumeration [DXGI], DXGI_OUTDUPL_POINTER_SHAPE_TYPE_COLOR, DXGI_OUTDUPL_POINTER_SHAPE_TYPE_MASKED_COLOR, DXGI_OUTDUPL_POINTER_SHAPE_TYPE_MONOCHROME, direct3ddxgi.dxgi_outdupl_pointer_shape_type, dxgi1_2/DXGI_OUTDUPL_POINTER_SHAPE_TYPE, dxgi1_2/DXGI_OUTDUPL_POINTER_SHAPE_TYPE_COLOR, dxgi1_2/DXGI_OUTDUPL_POINTER_SHAPE_TYPE_MASKED_COLOR, dxgi1_2/DXGI_OUTDUPL_POINTER_SHAPE_TYPE_MONOCHROME
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxgi1_2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_OUTDUPL_POINTER_SHAPE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DXGI1_2.h
+api_name:
+-	DXGI_OUTDUPL_POINTER_SHAPE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DXGI_OUTDUPL_POINTER_SHAPE_TYPE enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dxgi.IDXGISwapChain.GetBuffer
+title: IDXGISwapChain::GetBuffer
+author: windows-sdk-content
+description: Accesses one of the swap-chain's back buffers.
+old-location: direct3ddxgi\idxgiswapchain_getbuffer.htm
+old-project: direct3ddxgi
+ms.assetid: VS|directx_sdk|~\idxgiswapchain_getbuffer.htm
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: GetBuffer, GetBuffer method [DXGI], GetBuffer method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetBuffer method, IDXGISwapChain.GetBuffer, IDXGISwapChain::GetBuffer, bd427578-fb6a-3136-aa3f-221b9262700c, direct3ddxgi.idxgiswapchain_getbuffer, dxgi/IDXGISwapChain::GetBuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_SWAP_EFFECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DXGI.lib
+-	DXGI.dll
+api_name:
+-	IDXGISwapChain.GetBuffer
+product: Windows
+targetos: Windows
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGISwapChain::GetBuffer

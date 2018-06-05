@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfContextComposition.TakeOwnership
+title: ITfContextComposition::TakeOwnership
+author: windows-sdk-content
+description: ITfContextComposition::TakeOwnership method
+old-location: tsf\itfcontextcomposition_takeownership.htm
+old-project: TSF
+ms.assetid: 54182932-f749-4de0-a536-0f2f29d7664c
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITfContextComposition interface [Text Services Framework],TakeOwnership method, ITfContextComposition.TakeOwnership, ITfContextComposition::TakeOwnership, TakeOwnership, TakeOwnership method [Text Services Framework], TakeOwnership method [Text Services Framework],ITfContextComposition interface, _tsf_itfcontextcomposition_takeownership_ref, msctf/ITfContextComposition::TakeOwnership, tsf.itfcontextcomposition_takeownership
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfContextComposition.TakeOwnership
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfContextComposition::TakeOwnership

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0000_0001
+title: "__MIDL___MIDL_itf_UIAnimation_0000_0000_0001"
+author: windows-sdk-content
+description: Defines results for animation updates.
+old-location: uianimation\ui_animation_update_result.htm
+old-project: UIAnimation
+ms.assetid: 19b1d80f-39b3-4046-aa6a-5312e004b4b0
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: UI_ANIMATION_UPDATE_NO_CHANGE, UI_ANIMATION_UPDATE_RESULT, UI_ANIMATION_UPDATE_RESULT enumeration [Windows Animation], UI_ANIMATION_UPDATE_VARIABLES_CHANGED, __MIDL___MIDL_itf_UIAnimation_0000_0000_0001, uianimation.ui_animation_update_result, uianimation/UI_ANIMATION_UPDATE_NO_CHANGE, uianimation/UI_ANIMATION_UPDATE_RESULT, uianimation/UI_ANIMATION_UPDATE_VARIABLES_CHANGED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uianimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAnimation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_ANIMATION_UPDATE_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UIAnimation.h
+api_name:
+-	UI_ANIMATION_UPDATE_RESULT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # __MIDL___MIDL_itf_UIAnimation_0000_0000_0001 enumeration

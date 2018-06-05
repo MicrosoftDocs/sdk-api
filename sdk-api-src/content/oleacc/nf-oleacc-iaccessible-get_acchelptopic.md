@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleacc.IAccessible.get_accHelpTopic
+title: IAccessible::get_accHelpTopic
+author: windows-sdk-content
+description: The IAccessible::get_accHelpTopic method retrieves the full path of the WinHelp file that is associated with the specified object; it also retrieves the identifier of the appropriate topic within that file.
+old-location: winauto\iaccessible_iaccessible__get_acchelptopic.htm
+old-project: WinAuto
+ms.assetid: a8f4ae56-6bd9-4615-a87d-a4de2f7632b1
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: IAccessible interface [Windows Accessibility],get_accHelpTopic method, IAccessible.get_accHelpTopic, IAccessible::get_accHelpTopic, _msaa_IAccessible_get_accHelpTopic, get_accHelpTopic, get_accHelpTopic method [Windows Accessibility], get_accHelpTopic method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_acchelptopic, oleacc/IAccessible::get_accHelpTopic, winauto.iaccessible_iaccessible__get_acchelptopic
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oleacc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Oleacc.dll
+api_name:
+-	IAccessible.get_accHelpTopic
+product: Windows
+targetos: Windows
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAccessible::get_accHelpTopic

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:windns._DnsAddrArray
+title: "_DnsAddrArray"
+author: windows-sdk-content
+description: Stores an array of IPv4 or IPv6 addresses.
+old-location: dns\dns_addr_array.htm
+old-project: DNS
+ms.assetid: 5FD7F28B-D1A6-4731-ACB9-A7BB23CC1FB4
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: "*PDNS_ADDR_ARRAY, AF_INET, AF_INET6, DNS_ADDR_ARRAY, DNS_ADDR_ARRAY structure [DNS], PDNS_ADDR_ARRAY, PDNS_ADDR_ARRAY structure pointer [DNS], _DnsAddrArray, dns.dns_addr_array, windns/DNS_ADDR_ARRAY, windns/PDNS_ADDR_ARRAY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: windns.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DNS_ADDR_ARRAY, *PDNS_ADDR_ARRAY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Windns.h
+api_name:
+-	DNS_ADDR_ARRAY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _DnsAddrArray structure

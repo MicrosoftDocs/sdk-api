@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.CopyMetadataForFrames
+title: ISpatialAudioMetadataCopier::CopyMetadataForFrames
+author: windows-sdk-content
+description: Copies metadata items from the source ISpatialAudioMetadataItems, provided to the Open method, object to the destination ISpatialAudioMetadataItems object, specified with the dstMetadataItems parameter.
+old-location: coreaudio\ispatialaudiometadatacopier_copymetadataforframes.htm
+old-project: CoreAudio
+ms.assetid: 12ABAD23-7EDF-4F74-AE2E-26C75FA6AB37
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: CopyMetadataForFrames, CopyMetadataForFrames method [Core Audio], CopyMetadataForFrames method [Core Audio],ISpatialAudioMetadataCopier interface, ISpatialAudioMetadataCopier interface [Core Audio],CopyMetadataForFrames method, ISpatialAudioMetadataCopier.CopyMetadataForFrames, ISpatialAudioMetadataCopier::CopyMetadataForFrames, coreaudio.ispatialaudiometadatacopier_copymetadataforframes, spatialaudiometadata/ISpatialAudioMetadataCopier::CopyMetadataForFrames
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spatialaudiometadata.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SpatialAudioMetadataWriterOverflowMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SpatialAudioMetadata.h
+api_name:
+-	ISpatialAudioMetadataCopier.CopyMetadataForFrames
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioMetadataCopier::CopyMetadataForFrames

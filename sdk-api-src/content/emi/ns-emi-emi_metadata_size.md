@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:emi.EMI_METADATA_SIZE
+title: EMI_METADATA_SIZE
+author: windows-sdk-content
+description: The EMI_METADATA_SIZE structure specifies the size of the Energy Metering Interface (EMI) metadata object that can be obtained from the device by issuing an IOCTL_EMI_GET_METADATA request.
+old-location: powermeter\emi_metadata_size.htm
+old-project: powermeter
+ms.assetid: EC9C71E8-7864-464B-8F16-E9D80460B36B
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: EMI_METADATA_SIZE, EMI_METADATA_SIZE structure [Power Metering and Budgeting Devices], PEMI_METADATA_SIZE, PEMI_METADATA_SIZE structure pointer [Power Metering and Budgeting Devices], emi/EMI_METADATA_SIZE, emi/PEMI_METADATA_SIZE, powermeter.emi_metadata_size
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: emi.h
+req.include-header: Emi.h
+req.target-type: Windows
+req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMI_METADATA_SIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	emi.h
+api_name:
+-	EMI_METADATA_SIZE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # EMI_METADATA_SIZE structure

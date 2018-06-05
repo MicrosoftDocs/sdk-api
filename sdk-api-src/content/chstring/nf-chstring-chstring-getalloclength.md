@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:chstring.CHString.GetAllocLength
+title: CHString::GetAllocLength
+author: windows-sdk-content
+description: The GetAllocLength method returns the size of the allocated string buffer.
+old-location: wmi\chstring_getalloclength.htm
+old-project: WmiSdk
+ms.assetid: f6761c83-d5f2-4900-9863-96692fe897fa
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "?GetAllocLength@CHString@@QBEHXZ, CHString interface [Windows Management Instrumentation],GetAllocLength method, CHString.GetAllocLength, CHString::GetAllocLength, GetAllocLength, GetAllocLength method [Windows Management Instrumentation], GetAllocLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getalloclength, chstring/CHString::GetAllocLength, wmi.chstring_getalloclength"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: chstring.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CHString.GetAllocLength
+-	?GetAllocLength@CHString@@QBEHXZ
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 ---
 
 # CHString::GetAllocLength

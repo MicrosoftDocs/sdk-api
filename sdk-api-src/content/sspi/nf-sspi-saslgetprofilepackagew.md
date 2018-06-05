@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sspi.SaslGetProfilePackageW
+title: SaslGetProfilePackageW function
+author: windows-sdk-content
+description: Returns the package information for the specified package.
+old-location: security\saslgetprofilepackage.htm
+old-project: SecAuthN
+ms.assetid: b7cecc5f-775f-40ba-abfc-27d51b3f5395
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: SaslGetProfilePackage, SaslGetProfilePackage function [Security], SaslGetProfilePackageA, SaslGetProfilePackageW, security.saslgetprofilepackage, sspi/SaslGetProfilePackage, sspi/SaslGetProfilePackageA, sspi/SaslGetProfilePackageW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: sspi.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SaslGetProfilePackageW (Unicode) and SaslGetProfilePackageA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Secur32.dll
+api_name:
+-	SaslGetProfilePackage
+-	SaslGetProfilePackageA
+-	SaslGetProfilePackageW
+product: Windows
+targetos: Windows
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SaslGetProfilePackageW function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wmcontainer.MFASF_STREAMSELECTORFLAGS
+title: MFASF_STREAMSELECTORFLAGS
+author: windows-sdk-content
+description: Defines the ASF stream selector options.
+old-location: mf\mfasf_streamselector_flags.htm
+old-project: medfound
+ms.assetid: 2ececb4a-9516-4066-bf01-0924252f93ee
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 2ececb4a-9516-4066-bf01-0924252f93ee, MFASF_STREAMSELECTORFLAGS, MFASF_STREAMSELECTOR_DISABLE_THINNING, MFASF_STREAMSELECTOR_FLAGS, MFASF_STREAMSELECTOR_FLAGS enumeration [Media Foundation], MFASF_STREAMSELECTOR_USE_AVERAGE_BITRATE, enumeration [Media Foundation], mf.mfasf_streamselector_flags, wmcontainer/MFASF_STREAMSELECTOR_DISABLE_THINNING, wmcontainer/MFASF_STREAMSELECTOR_FLAGS, wmcontainer/MFASF_STREAMSELECTOR_USE_AVERAGE_BITRATE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wmcontainer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFASF_STREAMSELECTOR_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wmcontainer.h
+api_name:
+-	MFASF_STREAMSELECTOR_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # MFASF_STREAMSELECTORFLAGS enumeration

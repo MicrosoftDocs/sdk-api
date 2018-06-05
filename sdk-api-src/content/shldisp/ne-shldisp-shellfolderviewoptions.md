@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:shldisp.ShellFolderViewOptions
+title: ShellFolderViewOptions
+author: windows-sdk-content
+description: Specifies the view options returned by the ViewOptions property.
+old-location: shell\ShellFolderViewOptions.htm
+old-project: shell
+ms.assetid: 7028ff38-7596-4126-aa98-c0be519243c9
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SFVVO_DESKTOPHTML, SFVVO_DOUBLECLICKINWEBVIEW, SFVVO_SHOWALLOBJECTS, SFVVO_SHOWCOMPCOLOR, SFVVO_SHOWEXTENSIONS, SFVVO_SHOWSYSFILES, SFVVO_WIN95CLASSIC, ShellFolderViewOptions, ShellFolderViewOptions enumeration [Windows Shell], _win32_ShellFolderViewOptions, shell.ShellFolderViewOptions, shldisp/SFVVO_DESKTOPHTML, shldisp/SFVVO_DOUBLECLICKINWEBVIEW, shldisp/SFVVO_SHOWALLOBJECTS, shldisp/SFVVO_SHOWCOMPCOLOR, shldisp/SFVVO_SHOWEXTENSIONS, shldisp/SFVVO_SHOWSYSFILES, shldisp/SFVVO_WIN95CLASSIC, shldisp/ShellFolderViewOptions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shldisp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shldisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ShellFolderViewOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shldisp.h
+api_name:
+-	ShellFolderViewOptions
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # ShellFolderViewOptions enumeration

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imapi2.IDiscFormat2RawCD.get_SupportedWriteSpeedDescriptors
+title: IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors
+author: windows-sdk-content
+description: Retrieves a list of the detailed write configurations supported by the disc recorder and current media.
+old-location: imapi\idiscformat2rawcd_get_supportedwritespeeddescriptors.htm
+old-project: imapi
+ms.assetid: 00a7c10a-7790-4193-928c-d3211047dbbe
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_SupportedWriteSpeedDescriptors method, IDiscFormat2RawCD.get_SupportedWriteSpeedDescriptors, IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors method [IMAPI], get_SupportedWriteSpeedDescriptors method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_supportedwritespeeddescriptors, imapi2/IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2.h
+api_name:
+-	IDiscFormat2RawCD.get_SupportedWriteSpeedDescriptors
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors

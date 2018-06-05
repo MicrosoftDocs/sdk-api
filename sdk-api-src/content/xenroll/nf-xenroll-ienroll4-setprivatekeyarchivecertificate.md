@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xenroll.IEnroll4.SetPrivateKeyArchiveCertificate
+title: IEnroll4::SetPrivateKeyArchiveCertificate
+author: windows-sdk-content
+description: The SetPrivateKeyArchiveCertificate method specifies the certificate used to archive the private key. This method was first defined in the IEnroll4 interface.
+old-location: security\ienroll4_setprivatekeyarchivecertificate.htm
+old-project: SecCrypto
+ms.assetid: e37a8055-4074-425b-8f88-69b898855824
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IEnroll4 interface [Security],SetPrivateKeyArchiveCertificate method, IEnroll4.SetPrivateKeyArchiveCertificate, IEnroll4::SetPrivateKeyArchiveCertificate, SetPrivateKeyArchiveCertificate, SetPrivateKeyArchiveCertificate method [Security], SetPrivateKeyArchiveCertificate method [Security],IEnroll4 interface, security.ienroll4_setprivatekeyarchivecertificate, xenroll/IEnroll4::SetPrivateKeyArchiveCertificate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	IEnroll4.SetPrivateKeyArchiveCertificate
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IEnroll4::SetPrivateKeyArchiveCertificate

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:pdh._PDH_RAW_COUNTER
+title: "_PDH_RAW_COUNTER"
+author: windows-sdk-content
+description: The PDH_RAW_COUNTER structure returns the data as it was collected from the counter provider. No translation, formatting, or other interpretation is performed on the data.
+old-location: perf\pdh_raw_counter_str.htm
+old-project: PerfCtrs
+ms.assetid: 237a3c82-0ab4-45cb-bd93-2f308178c573
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PPDH_RAW_COUNTER, PDH_RAW_COUNTER, PDH_RAW_COUNTER structure [Perf], PPDH_RAW_COUNTER, PPDH_RAW_COUNTER structure pointer [Perf], _PDH_RAW_COUNTER, _win32_pdh_raw_counter_str, base.pdh_raw_counter_str, pdh/PDH_RAW_COUNTER, pdh/PPDH_RAW_COUNTER, perf.pdh_raw_counter_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: pdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDH_RAW_COUNTER, *PPDH_RAW_COUNTER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pdh.h
+api_name:
+-	PDH_RAW_COUNTER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PDH_RAW_COUNTER structure

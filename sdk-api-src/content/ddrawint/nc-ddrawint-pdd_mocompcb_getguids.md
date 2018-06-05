@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_MOCOMPCB_GETGUIDS
+title: PDD_MOCOMPCB_GETGUIDS
+author: windows-sdk-content
+description: The DdMoCompGetGuids callback function retrieves the number of GUIDs the driver supports.
+old-location: display\ddmocompgetguids.htm
+old-project: display
+ms.assetid: 22c6a3f2-4a27-4a4b-a021-8f2be04e4f87
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DdMoCompGetGuids, DdMoCompGetGuids callback function [Display Devices], PDD_MOCOMPCB_GETGUIDS, PDD_MOCOMPCB_GETGUIDS callback, ddfncs_224ee005-4c85-41cc-afcf-2958c31dfd45.xml, ddrawint/DdMoCompGetGuids, display.ddmocompgetguids
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdMoCompGetGuids
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_MOCOMPCB_GETGUIDS callback function

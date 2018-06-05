@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ras.RasHangUpW
+title: RasHangUpW function
+author: windows-sdk-content
+description: The RasHangUp function terminates a remote access connection. The connection is specified with a RAS connection handle. The function releases all RASAPI32.DLL resources associated with the handle.
+old-location: rras\rashangup.htm
+old-project: RRAS
+ms.assetid: b5720ddf-c7ac-439e-97cb-62240122a775
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RasHangUp, RasHangUp function [RAS], RasHangUpA, RasHangUpW, _ras_rashangup, ras/RasHangUp, ras/RasHangUpA, ras/RasHangUpW, rras.rashangup
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ras.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RasHangUpW (Unicode) and RasHangUpA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RASPROJECTION_INFO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rasapi32.dll
+-	Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+-	Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+api_name:
+-	RasHangUp
+-	RasHangUpA
+-	RasHangUpW
+product: Windows
+targetos: Windows
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RasHangUpW function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:gpedit.IGroupPolicyObject.GetOptions
+title: IGroupPolicyObject::GetOptions
+author: windows-sdk-content
+description: The GetOptions method retrieves the options for the GPO.
+old-location: policy\igrouppolicyobject_getoptions.htm
+old-project: Policy
+ms.assetid: a4b86196-04c8-4ec1-bf26-2a33e44020d2
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GPO_OPTION_DISABLE_MACHINE, GPO_OPTION_DISABLE_USER, GetOptions, GetOptions method [Group Policy], GetOptions method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetOptions method, IGroupPolicyObject.GetOptions, IGroupPolicyObject::GetOptions, _win32_igrouppolicyobject_getoptions, gpedit/IGroupPolicyObject::GetOptions, policy.igrouppolicyobject_getoptions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: gpedit.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gpedit.dll
+api_name:
+-	IGroupPolicyObject.GetOptions
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IGroupPolicyObject::GetOptions

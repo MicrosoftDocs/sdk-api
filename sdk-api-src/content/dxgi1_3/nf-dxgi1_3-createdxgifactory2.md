@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxgi1_3.CreateDXGIFactory2
+title: CreateDXGIFactory2 function
+author: windows-sdk-content
+description: Creates a DXGI 1.3 factory that you can use to generate other DXGI objects.
+old-location: direct3ddxgi\createdxgifactory2.htm
+old-project: direct3ddxgi
+ms.assetid: D3CF43B0-8F17-486E-8750-CF0B9052BE74
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: CreateDXGIFactory2, CreateDXGIFactory2 function [DXGI], direct3ddxgi.createdxgifactory2, dxgi1_3/CreateDXGIFactory2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dxgi1_3.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	dxgi.dll
+api_name:
+-	CreateDXGIFactory2
+product: Windows
+targetos: Windows
+req.lib: DXGI.lib
+req.dll: Dxgi.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # CreateDXGIFactory2 function

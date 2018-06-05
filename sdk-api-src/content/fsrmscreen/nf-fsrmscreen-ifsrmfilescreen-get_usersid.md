@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmscreen.IFsrmFileScreen.get_UserSid
+title: IFsrmFileScreen::get_UserSid
+author: windows-sdk-content
+description: The SID of the user whose files will be screened.
+old-location: fsrm\ifsrmfilescreen_usersid.htm
+old-project: Fsrm
+ms.assetid: 7f5c549d-52a3-4013-9f86-844d823636f6
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],UserSid property, IFsrmFileScreen.UserSid, IFsrmFileScreen.get_UserSid, IFsrmFileScreen::UserSid, IFsrmFileScreen::get_UserSid, UserSid property [File Server Resource Manager], UserSid property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_usersid, fsrm.ifsrmfilescreen_usersid, fsrmscreen/IFsrmFileScreen::UserSid, fsrmscreen/IFsrmFileScreen::get_UserSid, get_UserSid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmscreen.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FsrmScreen.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileScreen.UserSid
+-	IFsrmFileScreen.get_UserSid
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileScreen::get_UserSid

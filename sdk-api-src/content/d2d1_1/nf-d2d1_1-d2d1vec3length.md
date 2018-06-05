@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d2d1_1.D2D1Vec3Length
+title: D2D1Vec3Length function
+author: windows-sdk-content
+description: Returns the length of a 3 dimensional vector.
+old-location: direct2d\d2d1vec3length.htm
+old-project: Direct2D
+ms.assetid: 0E305151-63EA-4865-B9C4-5F685D17FD5A
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1Vec3Length, D2D1Vec3Length function [Direct2D], d2d1_1/D2D1Vec3Length, direct2d.d2d1vec3length
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d2d1_1.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_UNIT_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	d2d1.dll
+api_name:
+-	D2D1Vec3Length
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D2D1Vec3Length function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:emptyvc.IEmptyVolumeCache2.InitializeEx
+title: IEmptyVolumeCache2::InitializeEx
+author: windows-sdk-content
+description: Initializes the disk cleanup handler. It provides better support for localization than Initialize.
+old-location: lwef\iemptyvolumecache2_initializeex.htm
+old-project: lwef
+ms.assetid: 42f39dcd-0292-4121-89e9-80145b1c1c7d
+ms.author: windowssdkdev
+ms.date: 04/27/2018
+ms.keywords: EVCF_DONTSHOWIFZERO, EVCF_ENABLEBYDEFAULT, EVCF_ENABLEBYDEFAULT_AUTO, EVCF_HASSETTINGS, EVCF_OUTOFDISKSPACE, EVCF_REMOVEFROMLIST, EVCF_SETTINGSMODE, IEmptyVolumeCache2 interface [Legacy Windows Environment Features],InitializeEx method, IEmptyVolumeCache2.InitializeEx, IEmptyVolumeCache2::InitializeEx, InitializeEx, InitializeEx method [Legacy Windows Environment Features], InitializeEx method [Legacy Windows Environment Features],IEmptyVolumeCache2 interface, These flags can be passed by the handler back to the disk cleanup manager:, These flags can be passed in to the object:, _win32_IEmptyVolumeCache2_InitializeEx, emptyvc/IEmptyVolumeCache2::InitializeEx, lwef.iemptyvolumecache2_initializeex, shell.iemptyvolumecache2_initializeex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: emptyvc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMI_VERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IEmptyVolumeCache2.InitializeEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IEmptyVolumeCache2::InitializeEx

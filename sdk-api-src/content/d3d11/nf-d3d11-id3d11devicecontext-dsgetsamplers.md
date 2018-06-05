@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11.ID3D11DeviceContext.DSGetSamplers
+title: ID3D11DeviceContext::DSGetSamplers
+author: windows-sdk-content
+description: Get an array of sampler state interfaces from the domain-shader stage.
+old-location: direct3d11\id3d11devicecontext_dsgetsamplers.htm
+old-project: direct3d11
+ms.assetid: 9cb6fee7-0dda-472c-b2e0-36d52e7f12b7
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 070d6004-b3cb-bc84-b78f-d7f9851d5fbf, DSGetSamplers, DSGetSamplers method [Direct3D 11], DSGetSamplers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DSGetSamplers method, ID3D11DeviceContext.DSGetSamplers, ID3D11DeviceContext::DSGetSamplers, d3d11/ID3D11DeviceContext::DSGetSamplers, direct3d11.id3d11devicecontext_dsgetsamplers
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11DeviceContext.DSGetSamplers
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11DeviceContext::DSGetSamplers

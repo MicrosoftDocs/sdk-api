@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:clusapi.RestoreClusterDatabase
+title: RestoreClusterDatabase function
+author: windows-sdk-content
+description: Restores the cluster database and restarts the Cluster service on the node from which the function is called. This node is called the restoring node.
+old-location: mscs\restoreclusterdatabase.htm
+old-project: MsCS
+ms.assetid: a0524363-c5dc-449a-aaf6-9bcd9522c9eb
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: RestoreClusterDatabase, RestoreClusterDatabase function [Failover Cluster], _wolf_restoreclusterdatabase, clusapi/RestoreClusterDatabase, mscs.restoreclusterdatabase
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ClusAPI.dll
+api_name:
+-	RestoreClusterDatabase
+product: Windows
+targetos: Windows
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 ---
 
 # RestoreClusterDatabase function

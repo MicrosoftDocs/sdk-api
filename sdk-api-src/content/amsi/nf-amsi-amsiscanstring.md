@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:amsi.AmsiScanString
+title: AmsiScanString function
+author: windows-sdk-content
+description: Scans a string for malware.
+old-location: amsi\amsiscanstring.htm
+old-project: AMSI
+ms.assetid: 7D26C57B-014B-4506-A29D-33699808B111
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: AmsiScanString, AmsiScanString function [Antimalware Scan Interface], amsi.amsiscanstring, amsi/AmsiScanString
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: amsi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMSI_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	amsi.dll
+api_name:
+-	AmsiScanString
+product: Windows
+targetos: Windows
+req.lib: Amsi.lib
+req.dll: Amsi.dll
+req.irql: 
 ---
 
 # AmsiScanString function

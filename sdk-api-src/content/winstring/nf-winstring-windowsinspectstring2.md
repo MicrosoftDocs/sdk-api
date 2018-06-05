@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winstring.WindowsInspectString2
+title: WindowsInspectString2 function
+author: windows-sdk-content
+description: Provides a way to for debuggers to display the value of an Windows Runtime&#160;HSTRING in another address space, remotely, or from a dump.
+old-location: winrt\windowsinspectstring2.htm
+old-project: WinRT
+ms.assetid: 6A359C2A-21A3-4DCD-B40A-B983E790AC3C
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: WindowsInspectString2, WindowsInspectString2 function [Windows Runtime], winrt.windowsinspectstring2, winstring/WindowsInspectString2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winstring.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ComBase.dll
+-	API-MS-Win-Core-WinRT-String-l1-1-0.dll
+-	API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+-	WindowsInspectString2
+product: Windows
+targetos: Windows
+req.lib: RuntimeObject.lib
+req.dll: ComBase.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WindowsInspectString2 function

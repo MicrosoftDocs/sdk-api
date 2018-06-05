@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.QueryActCtxW
+title: QueryActCtxW function
+author: windows-sdk-content
+description: The QueryActCtxW function queries the activation context.
+old-location: setup\queryactctxw.htm
+old-project: SbsCs
+ms.assetid: 7d45f63f-0baf-4236-b245-d36f9eb32e8c
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: ActivationContextBasicInformation, ActivationContextDetailedInformation, AssemblyDetailedInformationInActivationContext, CompatibilityInformationInActivationContext, FileInformationInAssemblyOfAssemblyInActivationContext, QUERY_ACTCTX_FLAG_ACTCTX_IS_ADDRESS, QUERY_ACTCTX_FLAG_ACTCTX_IS_HMODULE, QUERY_ACTCTX_FLAG_USE_ACTIVE_ACTCTX, QueryActCtxW, QueryActCtxW function [Side-by-side Assemblies], RunlevelInformationInActivationContext, _win32_queryactctxw, setup.queryactctxw, winbase/QueryActCtxW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-sidebyside-l1-1-0.dll
+-	KernelBase.dll
+api_name:
+-	QueryActCtxW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # QueryActCtxW function

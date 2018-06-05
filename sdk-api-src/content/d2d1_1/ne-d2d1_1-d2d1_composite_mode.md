@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d2d1_1.D2D1_COMPOSITE_MODE
+title: D2D1_COMPOSITE_MODE
+author: windows-sdk-content
+description: Used to specify the blend mode for all of the Direct2D blending operations.
+old-location: direct2d\__d2d1_composite_mode.htm
+old-project: Direct2D
+ms.assetid: 4f01e805-aed7-4bfc-9793-42a9fdde3473
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_COMPOSITE_MODE, D2D1_COMPOSITE_MODE enumeration [Direct2D], D2D1_COMPOSITE_MODE_BOUNDED_SOURCE_COPY, D2D1_COMPOSITE_MODE_DESTINATION_ATOP, D2D1_COMPOSITE_MODE_DESTINATION_IN, D2D1_COMPOSITE_MODE_DESTINATION_OUT, D2D1_COMPOSITE_MODE_DESTINATION_OVER, D2D1_COMPOSITE_MODE_MASK_INVERT, D2D1_COMPOSITE_MODE_PLUS, D2D1_COMPOSITE_MODE_SOURCE_ATOP, D2D1_COMPOSITE_MODE_SOURCE_COPY, D2D1_COMPOSITE_MODE_SOURCE_IN, D2D1_COMPOSITE_MODE_SOURCE_OUT, D2D1_COMPOSITE_MODE_SOURCE_OVER, D2D1_COMPOSITE_MODE_XOR, d2d1_1/D2D1_COMPOSITE_MODE, d2d1_1/D2D1_COMPOSITE_MODE_BOUNDED_SOURCE_COPY, d2d1_1/D2D1_COMPOSITE_MODE_DESTINATION_ATOP, d2d1_1/D2D1_COMPOSITE_MODE_DESTINATION_IN, d2d1_1/D2D1_COMPOSITE_MODE_DESTINATION_OUT, d2d1_1/D2D1_COMPOSITE_MODE_DESTINATION_OVER, d2d1_1/D2D1_COMPOSITE_MODE_MASK_INVERT, d2d1_1/D2D1_COMPOSITE_MODE_PLUS, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_ATOP, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_COPY, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_IN, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_OUT, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_OVER, d2d1_1/D2D1_COMPOSITE_MODE_XOR, direct2d.__d2d1_composite_mode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_COMPOSITE_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D2d1_1.h
+api_name:
+-	D2D1_COMPOSITE_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D2D1_COMPOSITE_MODE enumeration

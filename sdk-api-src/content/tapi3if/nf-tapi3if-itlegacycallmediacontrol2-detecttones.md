@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITLegacyCallMediaControl2.DetectTones
+title: ITLegacyCallMediaControl2::DetectTones
+author: windows-sdk-content
+description: The DetectTones method enables and disables the detection of inband tones on the call. Each time a specified tone is detected, a message is sent to the application.
+old-location: tapi3\itlegacycallmediacontrol2_detecttones.htm
+old-project: Tapi
+ms.assetid: e059bfc0-3701-4e07-8c30-0a2512731080
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: DetectTones, DetectTones method [TAPI 2.2], DetectTones method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],DetectTones method, ITLegacyCallMediaControl2.DetectTones, ITLegacyCallMediaControl2::DetectTones, _tapi3_itlegacycallmediacontrol2_detecttones, tapi3.itlegacycallmediacontrol2_detecttones, tapi3if/ITLegacyCallMediaControl2::DetectTones
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITLegacyCallMediaControl2.DetectTones
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITLegacyCallMediaControl2::DetectTones

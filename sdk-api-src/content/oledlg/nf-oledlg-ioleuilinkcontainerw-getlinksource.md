@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oledlg.IOleUILinkContainerW.GetLinkSource
+title: IOleUILinkContainerW::GetLinkSource
+author: windows-sdk-content
+description: Retrieves information about a link that can be displayed in the Links dialog box.
+old-location: com\ioleuilinkcontainer_getlinksource.htm
+old-project: com
+ms.assetid: 10f1bc84-cc09-4a41-8f55-21314338f636
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetLinkSource, GetLinkSource method [COM], GetLinkSource method [COM],IOleUILinkContainer interface, GetLinkSource method [COM],IOleUILinkContainerA interface, GetLinkSource method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],GetLinkSource method, IOleUILinkContainer::GetLinkSource, IOleUILinkContainerA interface [COM],GetLinkSource method, IOleUILinkContainerA::GetLinkSource, IOleUILinkContainerW interface [COM],GetLinkSource method, IOleUILinkContainerW.GetLinkSource, IOleUILinkContainerW::GetLinkSource, _ole_IOleUILinkContainer_GetLinkSource, com.ioleuilinkcontainer_getlinksource, oledlg/IOleUILinkContainer::GetLinkSource, oledlg/IOleUILinkContainerA::GetLinkSource, oledlg/IOleUILinkContainerW::GetLinkSource
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oledlg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OLEUIPASTEFLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OleDlg.h
+api_name:
+-	IOleUILinkContainer.GetLinkSource
+-	IOleUILinkContainerA.GetLinkSource
+-	IOleUILinkContainerW.GetLinkSource
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleUILinkContainerW::GetLinkSource

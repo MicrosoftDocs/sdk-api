@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITAddress.put_MessageWaiting
+title: ITAddress::put_MessageWaiting
+author: windows-sdk-content
+description: The put_MessageWaiting method sets the status of the message waiting on the address.
+old-location: tapi3\itaddress_put_messagewaiting.htm
+old-project: Tapi
+ms.assetid: 9dc125ab-a452-4108-93d5-9f341b879e8d
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITAddress interface [TAPI 2.2],put_MessageWaiting method, ITAddress.put_MessageWaiting, ITAddress::put_MessageWaiting, _tapi3_itaddress_put_messagewaiting, put_MessageWaiting, put_MessageWaiting method [TAPI 2.2], put_MessageWaiting method [TAPI 2.2],ITAddress interface, tapi3.itaddress_put_messagewaiting, tapi3if/ITAddress::put_MessageWaiting
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAddress.put_MessageWaiting
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAddress::put_MessageWaiting

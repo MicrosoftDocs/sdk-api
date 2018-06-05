@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl.FOLDERVIEWOPTIONS
+title: FOLDERVIEWOPTIONS
+author: windows-sdk-content
+description: Used by methods of the IFolderViewOptions interface to activate Windows Vista options not supported by default in Windows 7 and later systems as well as deactivating new Windows 7 options.
+old-location: shell\FOLDERVIEWOPTIONS.htm
+old-project: shell
+ms.assetid: ab0ebc82-e917-4e3a-864b-fc3bb6280a48
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: FOLDERVIEWOPTIONS, FOLDERVIEWOPTIONS enumeration [Windows Shell], FVO_CUSTOMORDERING, FVO_CUSTOMPOSITION, FVO_DEFAULT, FVO_NOANIMATIONS, FVO_NOSCROLLTIPS, FVO_SUPPORTHYPERLINKS, FVO_VISTALAYOUT, _shell_FOLDERVIEWOPTIONS, shell.FOLDERVIEWOPTIONS, shobjidl/FOLDERVIEWOPTIONS, shobjidl/FVO_CUSTOMORDERING, shobjidl/FVO_CUSTOMPOSITION, shobjidl/FVO_DEFAULT, shobjidl/FVO_NOANIMATIONS, shobjidl/FVO_NOSCROLLTIPS, shobjidl/FVO_SUPPORTHYPERLINKS, shobjidl/FVO_VISTALAYOUT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FOLDERVIEWOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shobjidl.h
+api_name:
+-	FOLDERVIEWOPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # FOLDERVIEWOPTIONS enumeration

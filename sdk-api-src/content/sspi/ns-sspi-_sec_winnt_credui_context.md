@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:sspi._SEC_WINNT_CREDUI_CONTEXT
+title: "_SEC_WINNT_CREDUI_CONTEXT"
+author: windows-sdk-content
+description: Specifies unserialized credential information.
+old-location: security\sec_winnt_credui_context.htm
+old-project: SecAuthN
+ms.assetid: ac9410eb-ec1b-494c-8e8b-6d161ff2b41c
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSEC_WINNT_CREDUI_CONTEXT, PSEC_WINNT_CREDUI_CONTEXT, PSEC_WINNT_CREDUI_CONTEXT structure pointer [Security], SEC_WINNT_CREDUI_CONTEXT, SEC_WINNT_CREDUI_CONTEXT structure [Security], _SEC_WINNT_CREDUI_CONTEXT, security.sec_winnt_credui_context, sspi/PSEC_WINNT_CREDUI_CONTEXT, sspi/SEC_WINNT_CREDUI_CONTEXT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: sspi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SEC_WINNT_CREDUI_CONTEXT, *PSEC_WINNT_CREDUI_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Sspi.h
+api_name:
+-	SEC_WINNT_CREDUI_CONTEXT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SEC_WINNT_CREDUI_CONTEXT structure

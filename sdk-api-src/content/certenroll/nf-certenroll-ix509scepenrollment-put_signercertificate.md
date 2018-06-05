@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:certenroll.IX509SCEPEnrollment.put_SignerCertificate
+title: IX509SCEPEnrollment::put_SignerCertificate
+author: windows-sdk-content
+description: Gets or sets the signer certificate for the request.
+old-location: security\ix509scepenrollment_signercertificate.htm
+old-project: SecCertEnroll
+ms.assetid: 7d01acc5-158d-4429-a2e8-d179571f9a1c
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IX509SCEPEnrollment interface [Security],SignerCertificate property, IX509SCEPEnrollment.SignerCertificate, IX509SCEPEnrollment.put_SignerCertificate, IX509SCEPEnrollment::SignerCertificate, IX509SCEPEnrollment::get_SignerCertificate, IX509SCEPEnrollment::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::SignerCertificate, certenroll/IX509SCEPEnrollment::get_SignerCertificate, certenroll/IX509SCEPEnrollment::put_SignerCertificate, put_SignerCertificate, security.ix509scepenrollment_signercertificate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certenroll.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.dll
+api_name:
+-	IX509SCEPEnrollment.SignerCertificate
+-	IX509SCEPEnrollment.get_SignerCertificate
+-	IX509SCEPEnrollment.put_SignerCertificate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 ---
 
 # IX509SCEPEnrollment::put_SignerCertificate

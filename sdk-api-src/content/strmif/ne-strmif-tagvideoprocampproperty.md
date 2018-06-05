@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.tagVideoProcAmpProperty
+title: tagVideoProcAmpProperty
+author: windows-sdk-content
+description: The VideoProcAmpProperty enumeration specifies video properties on a video capture device.
+old-location: dshow\videoprocampproperty.htm
+old-project: DirectShow
+ms.assetid: 113e3896-4920-41a3-9ce2-a26c34af4896
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: VideoProcAmpProperty, VideoProcAmpProperty enumeration [DirectShow], VideoProcAmpPropertyEnumeration, VideoProcAmp_BacklightCompensation, VideoProcAmp_Brightness, VideoProcAmp_ColorEnable, VideoProcAmp_Contrast, VideoProcAmp_Gain, VideoProcAmp_Gamma, VideoProcAmp_Hue, VideoProcAmp_Saturation, VideoProcAmp_Sharpness, VideoProcAmp_WhiteBalance, dshow.videoprocampproperty, strmif/VideoProcAmpProperty, strmif/VideoProcAmp_BacklightCompensation, strmif/VideoProcAmp_Brightness, strmif/VideoProcAmp_ColorEnable, strmif/VideoProcAmp_Contrast, strmif/VideoProcAmp_Gain, strmif/VideoProcAmp_Gamma, strmif/VideoProcAmp_Hue, strmif/VideoProcAmp_Saturation, strmif/VideoProcAmp_Sharpness, strmif/VideoProcAmp_WhiteBalance, tagVideoProcAmpProperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VideoProcAmpProperty
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	VideoProcAmpProperty
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # tagVideoProcAmpProperty enumeration

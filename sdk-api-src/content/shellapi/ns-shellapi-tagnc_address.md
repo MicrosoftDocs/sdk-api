@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shellapi.tagNC_ADDRESS
+title: tagNC_ADDRESS
+author: windows-sdk-content
+description: Contains information that describes a network address.
+old-location: shell\NC_ADDRESS.htm
+old-project: shell
+ms.assetid: 1dfb0f6a-3aa5-486b-bbd0-8a24070bca19
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PNC_ADDRESS, NC_ADDRESS, NC_ADDRESS structure [Windows Shell], PNC_ADDRESS, PNC_ADDRESS structure pointer [Windows Shell], _shell_NC_ADDRESS, shell.NC_ADDRESS, shellapi/NC_ADDRESS, shellapi/PNC_ADDRESS, tagNC_ADDRESS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shellapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NC_ADDRESS, *PNC_ADDRESS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shellapi.h
+api_name:
+-	NC_ADDRESS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # tagNC_ADDRESS structure

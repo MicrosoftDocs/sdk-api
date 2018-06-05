@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:windef.tagSIZE
+title: tagSIZE
+author: windows-sdk-content
+description: The SIZE structure defines the width and height of a rectangle.
+old-location: display\size.htm
+old-project: display
+ms.assetid: 08d81096-069f-4554-9bb9-d4a37c0950ac
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPSIZE, *PSIZE, *PSIZEL, LPSIZE, LPSIZE structure pointer [Display Devices], PSIZE, PSIZE structure pointer [Display Devices], SIZE, SIZE structure [Display Devices], SIZEL, display.size, grstrcts_2697a459-d1f4-4617-8370-d51a3c79f609.xml, tagSIZE, windef/LPSIZE, windef/PSIZE, windef/SIZE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: windef.h
+req.include-header: Windows.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SIZE, *PSIZE, *LPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	windef.h
+api_name:
+-	SIZE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagSIZE structure

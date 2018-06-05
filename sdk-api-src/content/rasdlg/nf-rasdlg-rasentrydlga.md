@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rasdlg.RasEntryDlgA
+title: RasEntryDlgA function
+author: windows-sdk-content
+description: The RasEntryDlg function displays modal property sheets that allow a user to manipulate phone-book entries.
+old-location: rras\rasentrydlg.htm
+old-project: RRAS
+ms.assetid: 9259502d-c31b-4ebd-ace7-70f02bbb7873
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RasEntryDlg, RasEntryDlg function [RAS], RasEntryDlgA, RasEntryDlgW, _ras_rasentrydlg, rasdlg/RasEntryDlg, rasdlg/RasEntryDlgA, rasdlg/RasEntryDlgW, rras.rasentrydlg
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rasdlg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RasEntryDlgW (Unicode) and RasEntryDlgA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RASNAPSTATE, *LPRASNAPSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rasdlg.dll
+api_name:
+-	RasEntryDlg
+-	RasEntryDlgA
+-	RasEntryDlgW
+product: Windows
+targetos: Windows
+req.lib: Rasdlg.lib
+req.dll: Rasdlg.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RasEntryDlgA function

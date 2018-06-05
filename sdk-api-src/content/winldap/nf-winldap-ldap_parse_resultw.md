@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winldap.ldap_parse_resultW
+title: ldap_parse_resultW function
+author: windows-sdk-content
+description: The ldap_parse_result function parses responses from the server and returns the appropriate fields.
+old-location: ldap\ldap_parse_result.htm
+old-project: LDAP
+ms.assetid: 6cadfbe0-0b69-4c43-a2ca-d8b3a12bf0a9
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: "_ldap_ldap_parse_result, ldap.ldap__parse__result, ldap.ldap_parse_result, ldap_parse_result, ldap_parse_result function [LDAP], ldap_parse_resultA, ldap_parse_resultW, winldap/ldap_parse_result, winldap/ldap_parse_resultA, winldap/ldap_parse_resultW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winldap.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ldap_parse_resultW (Unicode) and ldap_parse_resultA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wldap32.dll
+api_name:
+-	ldap_parse_result
+-	ldap_parse_resultA
+-	ldap_parse_resultW
+product: Windows
+targetos: Windows
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ldap_parse_resultW function

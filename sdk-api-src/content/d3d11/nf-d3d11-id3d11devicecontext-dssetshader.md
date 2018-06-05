@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11.ID3D11DeviceContext.DSSetShader
+title: ID3D11DeviceContext::DSSetShader
+author: windows-sdk-content
+description: Set a domain shader to the device.
+old-location: direct3d11\id3d11devicecontext_dssetshader.htm
+old-project: direct3d11
+ms.assetid: 5ee4a072-3b4a-44e6-ae70-19e0888905a2
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: DSSetShader, DSSetShader method [Direct3D 11], DSSetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DSSetShader method, ID3D11DeviceContext.DSSetShader, ID3D11DeviceContext::DSSetShader, b38d5392-9654-20ac-d78c-5d92274289d3, d3d11/ID3D11DeviceContext::DSSetShader, direct3d11.id3d11devicecontext_dssetshader
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11DeviceContext.DSSetShader
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11DeviceContext::DSSetShader

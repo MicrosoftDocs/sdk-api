@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mmreg.wavefilter_tag
+title: wavefilter_tag
+author: windows-sdk-content
+description: The WAVEFILTER structure defines a filter for waveform-audio data.
+old-location: multimedia\wavefilter.htm
+old-project: Multimedia
+ms.assetid: dea3df47-88a2-439f-bf07-b5c592bf23e8
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*LPWAVEFILTER, *NPWAVEFILTER, *PWAVEFILTER, WAVEFILTER, WAVEFILTER structure [Windows Multimedia], _win32_WAVEFILTER_str, mmreg/WAVEFILTER, multimedia.wavefilter, wavefilter_tag"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mmreg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WAVEFILTER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mmreg.h
+api_name:
+-	WAVEFILTER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # wavefilter_tag structure

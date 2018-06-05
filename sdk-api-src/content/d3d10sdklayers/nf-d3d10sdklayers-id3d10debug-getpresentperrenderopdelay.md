@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d10sdklayers.ID3D10Debug.GetPresentPerRenderOpDelay
+title: ID3D10Debug::GetPresentPerRenderOpDelay
+author: windows-sdk-content
+description: Get the number of milliseconds to sleep after Present is called.
+old-location: direct3d10\id3d10debug_getpresentperrenderopdelay.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10debug_getpresentperrenderopdelay.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 089e85a9-c0e8-518c-4ced-8dfac65c1761, GetPresentPerRenderOpDelay, GetPresentPerRenderOpDelay method [Direct3D 10], GetPresentPerRenderOpDelay method [Direct3D 10],ID3D10Debug interface, ID3D10Debug interface [Direct3D 10],GetPresentPerRenderOpDelay method, ID3D10Debug.GetPresentPerRenderOpDelay, ID3D10Debug::GetPresentPerRenderOpDelay, d3d10sdklayers/ID3D10Debug::GetPresentPerRenderOpDelay, direct3d10.id3d10debug_getpresentperrenderopdelay
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d10sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_MESSAGE_SEVERITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10SDKLayers.h
+api_name:
+-	ID3D10Debug.GetPresentPerRenderOpDelay
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D10Debug::GetPresentPerRenderOpDelay

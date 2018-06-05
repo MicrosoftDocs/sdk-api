@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_DigitalDemodulator.put_SpectralInversion
+title: IBDA_DigitalDemodulator::put_SpectralInversion
+author: windows-sdk-content
+description: The put_SpectralInversion method specifies the spectral inversion value for the signal.
+old-location: mstv\ibda_digitaldemodulator_put_spectralinversion.htm
+old-project: mstv
+ms.assetid: 6aabb829-5198-407f-a8f7-f99f87229560
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_SpectralInversion method, IBDA_DigitalDemodulator.put_SpectralInversion, IBDA_DigitalDemodulator::put_SpectralInversion, IBDA_DigitalDemodulatorput_SpectralInversion, bdaiface/IBDA_DigitalDemodulator::put_SpectralInversion, mstv.ibda_digitaldemodulator_put_spectralinversion, put_SpectralInversion, put_SpectralInversion method [Microsoft TV Technologies], put_SpectralInversion method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_DigitalDemodulator.put_SpectralInversion
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_DigitalDemodulator::put_SpectralInversion

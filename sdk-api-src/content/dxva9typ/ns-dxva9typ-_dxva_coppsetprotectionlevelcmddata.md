@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dxva9typ._DXVA_COPPSetProtectionLevelCmdData
+title: "_DXVA_COPPSetProtectionLevelCmdData"
+author: windows-sdk-content
+description: Contains data for the Set Protection Level command in Certified Output Protection Protocol (COPP).
+old-location: dshow\dxva_coppsetprotectionlevelcmddata.htm
+old-project: DirectShow
+ms.assetid: 19810f8f-2d23-4b01-864d-86ac82d40fe0
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [DirectShow], DXVA_COPPSetProtectionLevelCmdDataStructure, _DXVA_COPPSetProtectionLevelCmdData, dshow.dxva_coppsetprotectionlevelcmddata, dxva9typ/DXVA_COPPSetProtectionLevelCmdData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxva9typ.h
+req.include-header: Dxva.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA_COPPSetProtectionLevelCmdData
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxva9typ.h
+api_name:
+-	DXVA_COPPSetProtectionLevelCmdData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVA_COPPSetProtectionLevelCmdData structure

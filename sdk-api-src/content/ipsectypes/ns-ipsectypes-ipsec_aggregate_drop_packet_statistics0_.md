@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipsectypes.IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0_
+title: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0_
+author: windows-sdk-content
+description: Stores aggregate IPsec kernel packet drop statistics.Note  IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0 is the specific implementation of IPSEC_AGGREGATE_DROP_PACKET_STATISTICS used in Windows Vista.
+old-location: fwp\ipsec_aggregate_drop_packet_statistics0_struct.htm
+old-project: FWP
+ms.assetid: f7c955af-97ec-4c27-a9de-d1498398608e
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0, IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0 structure [Filtering], IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0_, fwp.ipsec_aggregate_drop_packet_statistics0_struct, ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipsectypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipsectypes.h
+api_name:
+-	IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0_ structure

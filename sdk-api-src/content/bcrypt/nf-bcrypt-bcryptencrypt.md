@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bcrypt.BCryptEncrypt
+title: BCryptEncrypt function
+author: windows-sdk-content
+description: Encrypts a block of data.
+old-location: security\bcryptencrypt_func.htm
+old-project: SecCNG
+ms.assetid: 69fe4530-4b7c-40db-a85c-f9dc458735e7
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: BCRYPT_BLOCK_PADDING, BCRYPT_PAD_NONE, BCRYPT_PAD_OAEP, BCRYPT_PAD_PKCS1, BCryptEncrypt, BCryptEncrypt function [Security], bcrypt/BCryptEncrypt, security.bcryptencrypt_func
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: bcrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HASHALGORITHM_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Bcrypt.dll
+-	Ksecdd.sys
+api_name:
+-	BCryptEncrypt
+product: Windows
+targetos: Windows
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 ---
 
 # BCryptEncrypt function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:magnification.tagMAGCOLOREFFECT
+title: tagMAGCOLOREFFECT
+author: windows-sdk-content
+description: Describes a color transformation matrix that a magnifier control uses to apply a color effect to magnified screen content.
+old-location: magapi\magapi_magcoloreffect.htm
+old-project: magapi
+ms.assetid: VS|magapi|~\magapi\reference\structures\magcoloreffectstruct.htm
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PMAGCOLOREFFECT, MAGCOLOREFFECT, MAGCOLOREFFECT structure [Magnification API], PMAGCOLOREFFECT, PMAGCOLOREFFECT structure pointer [Magnification API], magapi.magapi_magcoloreffect, magapi_magcoloreffect, magnification/MAGCOLOREFFECT, magnification/PMAGCOLOREFFECT, tagMAGCOLOREFFECT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: magnification.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MAGCOLOREFFECT, *PMAGCOLOREFFECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Magnification.h
+api_name:
+-	MAGCOLOREFFECT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tagMAGCOLOREFFECT structure

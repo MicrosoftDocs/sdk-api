@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msinkaut.InkBoundingBoxMode
+title: InkBoundingBoxMode
+author: windows-sdk-content
+description: Specifies which characteristics of a stroke, such as drawing attributes, are used to calculate the bounding box of the ink.The bounding box is the smallest rectangle that includes all points in the InkDisp object.
+old-location: tablet\inkboundingboxmode.htm
+old-project: tablet
+ms.assetid: 8c92fb43-1584-42fc-857e-aae5d5c222b4
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 8c92fb43-1584-42fc-857e-aae5d5c222b4, IBBM_CurveFit, IBBM_Default, IBBM_NoCurveFit, IBBM_PointsOnly, IBBM_Union, InkBoundingBoxMode, InkBoundingBoxMode enumeration [Tablet PC], msinkaut/IBBM_CurveFit, msinkaut/IBBM_Default, msinkaut/IBBM_NoCurveFit, msinkaut/IBBM_PointsOnly, msinkaut/IBBM_Union, msinkaut/InkBoundingBoxMode, tablet.inkboundingboxmode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InkBoundingBoxMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msinkaut.h
+api_name:
+-	InkBoundingBoxMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkBoundingBoxMode enumeration

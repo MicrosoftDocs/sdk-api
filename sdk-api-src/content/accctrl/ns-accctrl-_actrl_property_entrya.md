@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:accctrl._ACTRL_PROPERTY_ENTRYA
+title: "_ACTRL_PROPERTY_ENTRYA"
+author: windows-sdk-content
+description: Contains a list of access-control entries for an object or a specified property on an object.
+old-location: com\actrl_property_entry.htm
+old-project: com
+ms.assetid: 90b13dd1-0ca6-4674-b9fa-a61aed4637d7
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PACTRL_PROPERTY_ENTRYA, ACTRL_ACCESS_PROTECTED, ACTRL_PROPERTY_ENTRY, ACTRL_PROPERTY_ENTRY structure [COM], ACTRL_PROPERTY_ENTRYA, ACTRL_PROPERTY_ENTRYW, PACTRL_PROPERTY_ENTRY, PACTRL_PROPERTY_ENTRY structure pointer [COM], _ACTRL_PROPERTY_ENTRYA, _ACTRL_PROPERTY_ENTRYW, accctrl/ACTRL_PROPERTY_ENTRY, accctrl/ACTRL_PROPERTY_ENTRYA, accctrl/ACTRL_PROPERTY_ENTRYW, accctrl/PACTRL_PROPERTY_ENTRY, com.actrl_property_entry"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: accctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ACTRL_PROPERTY_ENTRYW (Unicode) and ACTRL_PROPERTY_ENTRYA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACTRL_PROPERTY_ENTRYA, *PACTRL_PROPERTY_ENTRYA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AccCtrl.h
+api_name:
+-	ACTRL_PROPERTY_ENTRY
+-	ACTRL_PROPERTY_ENTRYA
+-	ACTRL_PROPERTY_ENTRYW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
 ---
 
 # _ACTRL_PROPERTY_ENTRYA structure

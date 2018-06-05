@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:combaseapi.CoDecrementMTAUsage
+title: CoDecrementMTAUsage function
+author: windows-sdk-content
+description: Releases the increment made by a previous call to the CoIncrementMTAUsage function.
+old-location: com\codecrementmtausage.htm
+old-project: com
+ms.assetid: 66AA2783-7F24-41BB-911B-D452DF54C003
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: CoDecrementMTAUsage, CoDecrementMTAUsage function [COM], com.codecrementmtausage, combaseapi/CoDecrementMTAUsage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: combaseapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REGCLS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ole32.dll
+-	API-MS-Win-Core-Com-l1-1-0.dll
+-	ComBase.dll
+-	API-MS-Win-Core-Com-l1-1-1.dll
+api_name:
+-	CoDecrementMTAUsage
+product: Windows
+targetos: Windows
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 ---
 
 # CoDecrementMTAUsage function

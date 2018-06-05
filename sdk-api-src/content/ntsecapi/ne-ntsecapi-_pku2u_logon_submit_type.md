@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ntsecapi._PKU2U_LOGON_SUBMIT_TYPE
+title: "_PKU2U_LOGON_SUBMIT_TYPE"
+author: windows-sdk-content
+description: Indicates the type of logon message passed in a PKU2U_CERTIFICATE_S4U_LOGON structure.
+old-location: security\pku2u_logon_submit_type.htm
+old-project: SecAuthN
+ms.assetid: 10de9dd4-0f6c-4431-a60d-9b9c60585676
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PPKU2U_LOGON_SUBMIT_TYPE, PKU2U_LOGON_SUBMIT_TYPE, PKU2U_LOGON_SUBMIT_TYPE enumeration [Security], PPKU2U_LOGON_SUBMIT_TYPE, PPKU2U_LOGON_SUBMIT_TYPE enumeration pointer [Security], Pku2uCertificateS4ULogon, _PKU2U_LOGON_SUBMIT_TYPE, ntsecapi/PKU2U_LOGON_SUBMIT_TYPE, ntsecapi/PPKU2U_LOGON_SUBMIT_TYPE, ntsecapi/Pku2uCertificateS4ULogon, security.pku2u_logon_submit_type"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PKU2U_LOGON_SUBMIT_TYPE, *PPKU2U_LOGON_SUBMIT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	PKU2U_LOGON_SUBMIT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PKU2U_LOGON_SUBMIT_TYPE enumeration

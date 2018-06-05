@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntddpsch._PS_DRRSEQ_STATS
+title: "_PS_DRRSEQ_STATS"
+author: windows-sdk-content
+description: The PS_DRRSEQ_STATS structure provides network interface card (NIC) and packet sequencer&#8211;packet shaper statistics. Note that the PS_DRRSEQ_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
+old-location: qos\ps_drrseq_stats.htm
+old-project: QOS
+ms.assetid: c8d5bf61-5a19-4bbd-ae4c-0502b6803191
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*PPS_DRRSEQ_STATS, PPS_DRRSEQ_STATS, PPS_DRRSEQ_STATS structure pointer [QOS], PS_DRRSEQ_STATS, PS_DRRSEQ_STATS structure [QOS], _PS_DRRSEQ_STATS, _gqos_ps_drrseq_stats, ntddpsch/PPS_DRRSEQ_STATS, ntddpsch/PS_DRRSEQ_STATS, qos.ps_drrseq_stats"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntddpsch.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PS_DRRSEQ_STATS, *PPS_DRRSEQ_STATS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntddpsch.h
+api_name:
+-	PS_DRRSEQ_STATS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PS_DRRSEQ_STATS structure

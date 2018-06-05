@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:minidumpapiset.MiniDumpReadDumpStream
+title: MiniDumpReadDumpStream function
+author: windows-sdk-content
+description: Reads a stream from a user-mode minidump file.
+old-location: base\minidumpreaddumpstream.htm
+old-project: Debug
+ms.assetid: 56df69aa-55b6-451b-a003-3ee88dc934f9
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: MiniDumpReadDumpStream, MiniDumpReadDumpStream function, _win32_minidumpreaddumpstream, base.minidumpreaddumpstream, minidumpapiset/MiniDumpReadDumpStream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: minidumpapiset.h
+req.include-header: Dbghelp.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THREAD_WRITE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dbghelp.dll
+-	Dbgcore.dll
+-	API-MS-Win-Core-Debug-MiniDump-L1-1-0.dll
+-	DbgCore.dll
+api_name:
+-	MiniDumpReadDumpStream
+product: Windows
+targetos: Windows
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll; Dbgcore.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MiniDumpReadDumpStream function

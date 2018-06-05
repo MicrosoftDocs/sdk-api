@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netfw.INetFwRule.put_Direction
+title: INetFwRule::put_Direction
+author: windows-sdk-content
+description: Specifies the direction of traffic for which the rule applies.
+old-location: ics\inetfwrule_direction.htm
+old-project: ICS
+ms.assetid: 4462c39a-27b8-497b-8393-ed63c7e4cc9b
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: Direction property [ICS/ICF], Direction property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Direction property, INetFwRule.Direction, INetFwRule.put_Direction, INetFwRule::Direction, INetFwRule::get_Direction, INetFwRule::put_Direction, ics.inetfwrule_direction, netfw/INetFwRule::Direction, netfw/INetFwRule::get_Direction, netfw/INetFwRule::put_Direction, put_Direction
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETISO_ERROR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FirewallAPI.dll
+api_name:
+-	INetFwRule.Direction
+-	INetFwRule.get_Direction
+-	INetFwRule.put_Direction
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetFwRule::put_Direction

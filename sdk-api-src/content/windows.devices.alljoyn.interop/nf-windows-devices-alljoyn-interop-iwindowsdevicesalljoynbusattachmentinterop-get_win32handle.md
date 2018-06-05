@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:windows.devices.alljoyn.interop.IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle
+title: IWindowsDevicesAllJoynBusAttachmentInterop::alljoyn
+author: windows-sdk-content
+description: Classic COM interface that simply returns a pointer to the underlying alljoyn_busattachment instance, so the app can use it directly with the AllJoyn Core C API.
+old-location: alljoyn\iwindowsdevicesalljoynbusattachmentinterop_get_win32handle.htm
+old-project: AllJoyn
+ms.assetid: E46C47FC-08D2-4CE6-9205-46A840DFA3F4
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IInspectable ::get_Win32Handle, IInspectable interface [AllJoyn API],get_Win32Handle method, IWindowsDevicesAllJoynBusAttachmentInterop interface [AllJoyn API],get_Win32Handle method, IWindowsDevicesAllJoynBusAttachmentInterop.alljoyn, IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle, IWindowsDevicesAllJoynBusAttachmentInterop::alljoyn, IWindowsDevicesAllJoynBusAttachmentInterop::get_Win32Handle, alljoyn.iwindowsdevicesalljoynbusattachmentinterop_get_win32handle, get_Win32Handle, get_Win32Handle method [AllJoyn API], get_Win32Handle method [AllJoyn API],IInspectable interface, get_Win32Handle method [AllJoyn API],IWindowsDevicesAllJoynBusAttachmentInterop interface, windows/IInspectable ::get_Win32Handle, windows/IWindowsDevicesAllJoynBusAttachmentInterop::get_Win32Handle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: windows.devices.alljoyn.interop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDF_RENDER_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	windows.devices.alljoyn.interop.h
+api_name:
+-	IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle
+-	IInspectable .get_Win32Handle
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWindowsDevicesAllJoynBusAttachmentInterop::alljoyn

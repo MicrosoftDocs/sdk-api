@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi._FONTOBJ
+title: "_FONTOBJ"
+author: windows-sdk-content
+description: The FONTOBJ structure is used to give a driver access to information about a particular instance of a font.
+old-location: display\fontobj.htm
+old-project: display
+ms.assetid: 09af2006-51f1-433e-9227-3c99b9860e75
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: FONTOBJ, FONTOBJ structure [Display Devices], _FONTOBJ, display.fontobj, grstrcts_245faf9a-31c1-4b75-aa97-c4646022cea6.xml, winddi/FONTOBJ
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FONTOBJ
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	FONTOBJ
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FONTOBJ structure

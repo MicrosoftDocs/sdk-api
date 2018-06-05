@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:netfw.PAC_CHANGES_CALLBACK_FN
+title: PAC_CHANGES_CALLBACK_FN
+author: windows-sdk-content
+description: Used to add custom behavior to the app container change notification process.
+old-location: ics\pac_changes_callback_fn.htm
+old-project: ICS
+ms.assetid: 7a2afc36-c250-4eb1-9853-d79def85bb67
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: PAC_CHANGES_CALLBACK_FN, PAC_CHANGES_CALLBACK_FN callback, PAC_CHANGES_CALLBACK_FN callback function [ICS/ICF], ics.pac_changes_callback_fn, networkisolation/PAC_CHANGES_CALLBACK_FN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: netfw.h
+req.include-header: Netfw.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETCON_PROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	networkisolation.h
+api_name:
+-	PAC_CHANGES_CALLBACK_FN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PAC_CHANGES_CALLBACK_FN callback function

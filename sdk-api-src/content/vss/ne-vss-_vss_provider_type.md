@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vss._VSS_PROVIDER_TYPE
+title: "_VSS_PROVIDER_TYPE"
+author: windows-sdk-content
+description: Specifies the provider type.
+old-location: base\vss_provider_type.htm
+old-project: VSS
+ms.assetid: 76a85ff4-df3c-4280-a6f1-2a1cff96ccfd
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PVSS_PROVIDER_TYPE, PVSS_PROVIDER_TYPE, PVSS_PROVIDER_TYPE enumeration pointer [VSS], VSS_PROVIDER_TYPE, VSS_PROVIDER_TYPE enumeration [VSS], VSS_PROV_FILESHARE, VSS_PROV_HARDWARE, VSS_PROV_SOFTWARE, VSS_PROV_SYSTEM, VSS_PROV_UNKNOWN, _VSS_PROVIDER_TYPE, _win32_vss_provider_type, base.vss_provider_type, vss/PVSS_PROVIDER_TYPE, vss/VSS_PROVIDER_TYPE, vss/VSS_PROV_FILESHARE, vss/VSS_PROV_HARDWARE, vss/VSS_PROV_SOFTWARE, vss/VSS_PROV_SYSTEM, vss/VSS_PROV_UNKNOWN"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vss.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_PROVIDER_TYPE, *PVSS_PROVIDER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vss.h
+api_name:
+-	VSS_PROVIDER_TYPE
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VSS_PROVIDER_TYPE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj_core._SHDESCRIPTIONID
+title: "_SHDESCRIPTIONID"
+author: windows-sdk-content
+description: Receives item data in response to a call to SHGetDataFromIDList.
+old-location: shell\SHDESCRIPTIONID_str.htm
+old-project: shell
+ms.assetid: dca32567-2049-4797-af87-d08a5d5d055d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPSHDESCRIPTIONID, LPSHDESCRIPTIONID, LPSHDESCRIPTIONID structure pointer [Windows Shell], SHDESCRIPTIONID, SHDESCRIPTIONID structure [Windows Shell], SHDID_COMPUTER_AUDIO, SHDID_COMPUTER_CDROM, SHDID_COMPUTER_DRIVE35, SHDID_COMPUTER_DRIVE525, SHDID_COMPUTER_FIXED, SHDID_COMPUTER_IMAGING, SHDID_COMPUTER_NETDRIVE, SHDID_COMPUTER_OTHER, SHDID_COMPUTER_RAMDISK, SHDID_COMPUTER_REMOVABLE, SHDID_COMPUTER_SHAREDDOCS, SHDID_FS_DIRECTORY, SHDID_FS_FILE, SHDID_FS_OTHER, SHDID_MOBILE_DEVICE, SHDID_NET_DOMAIN, SHDID_NET_OTHER, SHDID_NET_RESTOFNET, SHDID_NET_SERVER, SHDID_NET_SHARE, SHDID_ROOT_REGITEM, _SHDESCRIPTIONID, _win32_SHDESCRIPTIONID_str, shell.SHDESCRIPTIONID_str, shlobj_core/LPSHDESCRIPTIONID, shlobj_core/SHDESCRIPTIONID"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHDESCRIPTIONID, *LPSHDESCRIPTIONID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	SHDESCRIPTIONID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # _SHDESCRIPTIONID structure

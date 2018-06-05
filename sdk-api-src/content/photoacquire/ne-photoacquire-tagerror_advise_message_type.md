@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:photoacquire.tagERROR_ADVISE_MESSAGE_TYPE
+title: tagERROR_ADVISE_MESSAGE_TYPE
+author: windows-sdk-content
+description: The ERROR_ADVISE_MESSAGE_TYPE enumeration type indicates the type of error values that can be passed to the nMessageType parameter of IPhotoAcquireProgressCB::ErrorAdvise.
+old-location: picacq\error_advise_message_type.htm
+old-project: acquisition
+ms.assetid: 2fde8aa9-126a-4908-8faf-71ecad231f8d
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ERROR_ADVISE_MESSAGE_TYPE, ERROR_ADVISE_MESSAGE_TYPE enumeration [Picture Acquisition], PHOTOACQUIRE_ERROR_OK, PHOTOACQUIRE_ERROR_RETRYCANCEL, PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL, PHOTOACQUIRE_ERROR_YESNO, enumeration [Picture Acquisition], photoacquire/ERROR_ADVISE_MESSAGE_TYPE, photoacquire/PHOTOACQUIRE_ERROR_OK, photoacquire/PHOTOACQUIRE_ERROR_RETRYCANCEL, photoacquire/PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL, photoacquire/PHOTOACQUIRE_ERROR_YESNO, picacq.error_advise_message_type, tagERROR_ADVISE_MESSAGE_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: photoacquire.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ERROR_ADVISE_MESSAGE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	PhotoAcquire.h
+api_name:
+-	ERROR_ADVISE_MESSAGE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagERROR_ADVISE_MESSAGE_TYPE enumeration

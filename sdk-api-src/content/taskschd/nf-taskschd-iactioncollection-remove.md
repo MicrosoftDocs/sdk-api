@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.IActionCollection.Remove
+title: IActionCollection::Remove
+author: windows-sdk-content
+description: Removes the specified action from the collection.
+old-location: taskschd\iactioncollection_remove.htm
+old-project: TaskSchd
+ms.assetid: 91332ec0-8225-421a-baae-1a106be157a9
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IActionCollection interface [Task Scheduler],Remove method, IActionCollection.Remove, IActionCollection::Remove, Remove, Remove method [Task Scheduler], Remove method [Task Scheduler],IActionCollection interface, actions [Task Scheduler],removing, taskschd.iactioncollection_remove, taskschd/IActionCollection::Remove
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	IActionCollection.Remove
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IActionCollection::Remove

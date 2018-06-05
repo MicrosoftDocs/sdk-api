@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ntddmou._MOUSE_UNIT_ID_PARAMETER
+title: "_MOUSE_UNIT_ID_PARAMETER"
+author: windows-sdk-content
+description: MOUSE_UNIT_ID_PARAMETER specifies a unit ID that Mouclass assigns to a mouse.
+old-location: hid\mouse_unit_id_parameter.htm
+old-project: hid
+ms.assetid: c121e9af-29c3-4638-9c21-2dc45c572858
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PMOUSE_UNIT_ID_PARAMETER, MOUSE_UNIT_ID_PARAMETER, MOUSE_UNIT_ID_PARAMETER structure [Human Input Devices], PMOUSE_UNIT_ID_PARAMETER, PMOUSE_UNIT_ID_PARAMETER structure pointer [Human Input Devices], _MOUSE_UNIT_ID_PARAMETER, hid.mouse_unit_id_parameter, mref_596482c8-d90d-4505-9b30-567bd8468691.xml, ntddmou/MOUSE_UNIT_ID_PARAMETER, ntddmou/PMOUSE_UNIT_ID_PARAMETER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntddmou.h
+req.include-header: Ntddmou.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MOUSE_UNIT_ID_PARAMETER, *PMOUSE_UNIT_ID_PARAMETER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ntddmou.h
+api_name:
+-	MOUSE_UNIT_ID_PARAMETER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _MOUSE_UNIT_ID_PARAMETER structure

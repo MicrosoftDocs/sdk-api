@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl.IWebWizardExtension.SetErrorURL
+title: IWebWizardExtension::SetErrorURL
+author: windows-sdk-content
+description: Specifies the URL of a page that displays when a user experiences an error while navigating through the wizard extension pages.
+old-location: shell\IWebWizardExtension_SetErrorURL.htm
+old-project: shell
+ms.assetid: 4b7ba688-dfa0-45ee-a32f-08f24a7626d8
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IWebWizardExtension interface [Windows Shell],SetErrorURL method, IWebWizardExtension.SetErrorURL, IWebWizardExtension::SetErrorURL, SetErrorURL, SetErrorURL method [Windows Shell], SetErrorURL method [Windows Shell],IWebWizardExtension interface, _shell_IWebWizardExtension_SetErrorURL, shell.IWebWizardExtension_SetErrorURL, shobjidl/IWebWizardExtension::SetErrorURL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IWebWizardExtension.SetErrorURL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # IWebWizardExtension::SetErrorURL

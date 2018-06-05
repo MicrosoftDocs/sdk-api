@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.BuildCommDCBW
+title: BuildCommDCBW function
+author: windows-sdk-content
+description: Fills a specified DCB structure with values specified in a device-control string.
+old-location: base\buildcommdcb.htm
+old-project: DevIO
+ms.assetid: 6ecd497d-2247-4b6b-8751-c107717de434
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: BuildCommDCB, BuildCommDCB function, BuildCommDCBA, BuildCommDCBW, _win32_buildcommdcb, base.buildcommdcb, winbase/BuildCommDCB, winbase/BuildCommDCBA, winbase/BuildCommDCBW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: BuildCommDCBW (Unicode) and BuildCommDCBA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+api_name:
+-	BuildCommDCB
+-	BuildCommDCBA
+-	BuildCommDCBW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # BuildCommDCBW function

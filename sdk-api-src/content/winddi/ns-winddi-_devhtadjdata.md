@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi._DEVHTADJDATA
+title: "_DEVHTADJDATA"
+author: windows-sdk-content
+description: The DEVHTADJDATA structure is used as input to the HTUI_DeviceColorAdjustment function.
+old-location: display\devhtadjdata.htm
+old-project: display
+ms.assetid: a90f2283-7bc3-48e4-bb1c-172d9776a284
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDEVHTADJDATA, DEVHTADJDATA, DEVHTADJDATA structure [Display Devices], PDEVHTADJDATA, PDEVHTADJDATA structure pointer [Display Devices], _DEVHTADJDATA, display.devhtadjdata, grstrcts_bd1a058d-3d43-48f3-a87e-7f6f5276ba51.xml, winddi/DEVHTADJDATA, winddi/PDEVHTADJDATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEVHTADJDATA, *PDEVHTADJDATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	DEVHTADJDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _DEVHTADJDATA structure

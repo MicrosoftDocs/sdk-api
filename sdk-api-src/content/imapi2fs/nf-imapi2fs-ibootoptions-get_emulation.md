@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imapi2fs.IBootOptions.get_Emulation
+title: IBootOptions::get_Emulation
+author: windows-sdk-content
+description: Retrieves the media type that the boot image is intended to emulate.
+old-location: imapi\ibootoptions_get_emulation.htm
+old-project: imapi
+ms.assetid: ade69c2b-ff25-4993-bf4c-ee372e3cc1b0
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IBootOptions interface [IMAPI],get_Emulation method, IBootOptions.get_Emulation, IBootOptions::get_Emulation, get_Emulation, get_Emulation method [IMAPI], get_Emulation method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_emulation, imapi2fs/IBootOptions::get_Emulation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imapi2fs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2fs.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PlatformId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2fs.h
+api_name:
+-	IBootOptions.get_Emulation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IBootOptions::get_Emulation

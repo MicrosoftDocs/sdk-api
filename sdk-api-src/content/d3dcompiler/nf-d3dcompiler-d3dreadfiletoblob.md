@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3dcompiler.D3DReadFileToBlob
+title: D3DReadFileToBlob function
+author: windows-sdk-content
+description: Reads a file that is on disk into memory.
+old-location: direct3dhlsl\d3dreadfiletoblob.htm
+old-project: direct3dhlsl
+ms.assetid: 7CFB1BA6-7C36-4BDB-9705-781CCC2E7DB2
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: D3DReadFileToBlob, D3DReadFileToBlob function [HLSL], d3dcompiler/D3DReadFileToBlob, direct3dhlsl.d3dreadfiletoblob
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d3dcompiler.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_BLOB_PART
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D3DCompiler_47.dll
+api_name:
+-	D3DReadFileToBlob
+product: Windows
+targetos: Windows
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 ---
 
 # D3DReadFileToBlob function

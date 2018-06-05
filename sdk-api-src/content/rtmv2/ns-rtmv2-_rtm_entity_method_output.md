@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rtmv2._RTM_ENTITY_METHOD_OUTPUT
+title: "_RTM_ENTITY_METHOD_OUTPUT"
+author: windows-sdk-content
+description: The RTM_ENTITY_METHOD_OUTPUT structure is used to pass information to the calling client when the routing table manager invokes a method.
+old-location: rras\rtm_entity_method_output.htm
+old-project: RRAS
+ms.assetid: 9ec05355-a912-4ed0-ace9-8823d333bab5
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PRTM_ENTITY_METHOD_OUTPUT, PRTM_ENTITY_METHOD_OUTPUT, PRTM_ENTITY_METHOD_OUTPUT structure pointer [RAS], RTM_ENTITY_METHOD_OUTPUT, RTM_ENTITY_METHOD_OUTPUT structure [RAS], _RTM_ENTITY_METHOD_OUTPUT, _rtmv2ref_rtm_entity_method_output, rras.rtm_entity_method_output, rtmv2/PRTM_ENTITY_METHOD_OUTPUT, rtmv2/RTM_ENTITY_METHOD_OUTPUT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rtmv2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RTM_ENTITY_METHOD_OUTPUT, *PRTM_ENTITY_METHOD_OUTPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rtmv2.h
+api_name:
+-	RTM_ENTITY_METHOD_OUTPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RTM_ENTITY_METHOD_OUTPUT structure

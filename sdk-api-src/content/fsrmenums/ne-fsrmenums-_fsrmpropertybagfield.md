@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fsrmenums._FsrmPropertyBagField
+title: "_FsrmPropertyBagField"
+author: windows-sdk-content
+description: Describes the type of property bag.
+old-location: fsrm\fsrmpropertybagfield.htm
+old-project: Fsrm
+ms.assetid: 7a8cd6a6-7933-4190-b4fc-1b1cd653bd14
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmPropertyBagField, FsrmPropertyBagField enumeration [File Server Resource Manager], FsrmPropertyBagField_AccessVolume, FsrmPropertyBagField_VolumeGuidName, _FsrmPropertyBagField, fs.fsrmpropertybagfield, fsrm.fsrmpropertybagfield, fsrmenums/FsrmPropertyBagField, fsrmenums/FsrmPropertyBagField_AccessVolume, fsrmenums/FsrmPropertyBagField_VolumeGuidName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fsrmenums.h
+req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FsrmEnums.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmPropertyBagField
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	FsrmEnums.h
+api_name:
+-	FsrmPropertyBagField
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _FsrmPropertyBagField enumeration

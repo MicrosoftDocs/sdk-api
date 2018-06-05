@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint.DD_VIDEOPORTCALLBACKS
+title: DD_VIDEOPORTCALLBACKS
+author: windows-sdk-content
+description: The DD_VIDEOPORTCALLBACKS structure contains entry pointers to Microsoft DirectDraw video port extensions (VPE) callback functions that a device driver supports.
+old-location: display\dd_videoportcallbacks.htm
+old-project: display
+ms.assetid: 5e03d240-f483-4ecf-8890-b9f0368e2b2f
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_VIDEOPORTCALLBACKS, DD_VIDEOPORTCALLBACKS, DD_VIDEOPORTCALLBACKS structure [Display Devices], PDD_VIDEOPORTCALLBACKS, PDD_VIDEOPORTCALLBACKS structure pointer [Display Devices], ddrawint/DD_VIDEOPORTCALLBACKS, ddrawint/PDD_VIDEOPORTCALLBACKS, ddstrcts_e0a55748-eb24-4e5f-8208-bcb0083cdf21.xml, display.dd_videoportcallbacks"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DD_VIDEOPORTCALLBACKS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_VIDEOPORTCALLBACKS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DD_VIDEOPORTCALLBACKS structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:olectl.OleLoadPictureFileEx
+title: OleLoadPictureFileEx function
+author: windows-sdk-content
+description: Loads a picture from a file.
+old-location: automat\oleloadpicturefileex.htm
+old-project: automat
+ms.assetid: 39a2c814-97f6-4157-8884-8b3f268d3f7f
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: LP_COLOR, LP_DEFAULT, LP_MONOCHROME, LP_VGACOLOR, OleLoadPictureFileEx, OleLoadPictureFileEx function [Automation], _oa96_OleLoadPictureFileEx, automat.oleloadpicturefileex, olectl/OleLoadPictureFileEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: olectl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PARAMDATA, *LPPARAMDATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	OleAut32.dll
+api_name:
+-	OleLoadPictureFileEx
+product: Windows
+targetos: Windows
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # OleLoadPictureFileEx function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:gdiplusenums.HatchStyle
+title: HatchStyle
+author: windows-sdk-content
+description: The HatchStyle enumeration specifies the hatch pattern used by a brush of type HatchBrush. The hatch pattern consists of a solid background color and lines drawn over the background.
+old-location: gdiplus\_gdiplus_ENUM_HatchStyle.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\hatchstyle.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: HatchStyle, HatchStyle enumeration [GDI+], HatchStyle05Percent, HatchStyle10Percent, HatchStyle20Percent, HatchStyle25Percent, HatchStyle30Percent, HatchStyle40Percent, HatchStyle50Percent, HatchStyle60Percent, HatchStyle70Percent, HatchStyle75Percent, HatchStyle80Percent, HatchStyle90Percent, HatchStyleBackwardDiagonal, HatchStyleCross, HatchStyleDarkDownwardDiagonal, HatchStyleDarkHorizontal, HatchStyleDarkUpwardDiagonal, HatchStyleDarkVertical, HatchStyleDashedDownwardDiagonal, HatchStyleDashedHorizontal, HatchStyleDashedUpwardDiagonal, HatchStyleDashedVertical, HatchStyleDiagonalBrick, HatchStyleDiagonalCross, HatchStyleDivot, HatchStyleDottedDiamond, HatchStyleDottedGrid, HatchStyleForwardDiagonal, HatchStyleHorizontal, HatchStyleHorizontalBrick, HatchStyleLargeCheckerBoard, HatchStyleLargeConfetti, HatchStyleLargeGrid, HatchStyleLightDownwardDiagonal, HatchStyleLightHorizontal, HatchStyleLightUpwardDiagonal, HatchStyleLightVertical, HatchStyleMax, HatchStyleMin, HatchStyleNarrowHorizontal, HatchStyleNarrowVertical, HatchStyleOutlinedDiamond, HatchStylePlaid, HatchStyleShingle, HatchStyleSmallCheckerBoard, HatchStyleSmallConfetti, HatchStyleSmallGrid, HatchStyleSolidDiamond, HatchStyleSphere, HatchStyleTotal, HatchStyleTrellis, HatchStyleVertical, HatchStyleWave, HatchStyleWeave, HatchStyleWideDownwardDiagonal, HatchStyleWideUpwardDiagonal, HatchStyleZigZag, _gdiplus_ENUM_HatchStyle, gdiplus._gdiplus_ENUM_HatchStyle, gdiplusenums/HatchStyle, gdiplusenums/HatchStyle05Percent, gdiplusenums/HatchStyle10Percent, gdiplusenums/HatchStyle20Percent, gdiplusenums/HatchStyle25Percent, gdiplusenums/HatchStyle30Percent, gdiplusenums/HatchStyle40Percent, gdiplusenums/HatchStyle50Percent, gdiplusenums/HatchStyle60Percent, gdiplusenums/HatchStyle70Percent, gdiplusenums/HatchStyle75Percent, gdiplusenums/HatchStyle80Percent, gdiplusenums/HatchStyle90Percent, gdiplusenums/HatchStyleBackwardDiagonal, gdiplusenums/HatchStyleCross, gdiplusenums/HatchStyleDarkDownwardDiagonal, gdiplusenums/HatchStyleDarkHorizontal, gdiplusenums/HatchStyleDarkUpwardDiagonal, gdiplusenums/HatchStyleDarkVertical, gdiplusenums/HatchStyleDashedDownwardDiagonal, gdiplusenums/HatchStyleDashedHorizontal, gdiplusenums/HatchStyleDashedUpwardDiagonal, gdiplusenums/HatchStyleDashedVertical, gdiplusenums/HatchStyleDiagonalBrick, gdiplusenums/HatchStyleDiagonalCross, gdiplusenums/HatchStyleDivot, gdiplusenums/HatchStyleDottedDiamond, gdiplusenums/HatchStyleDottedGrid, gdiplusenums/HatchStyleForwardDiagonal, gdiplusenums/HatchStyleHorizontal, gdiplusenums/HatchStyleHorizontalBrick, gdiplusenums/HatchStyleLargeCheckerBoard, gdiplusenums/HatchStyleLargeConfetti, gdiplusenums/HatchStyleLargeGrid, gdiplusenums/HatchStyleLightDownwardDiagonal, gdiplusenums/HatchStyleLightHorizontal, gdiplusenums/HatchStyleLightUpwardDiagonal, gdiplusenums/HatchStyleLightVertical, gdiplusenums/HatchStyleMax, gdiplusenums/HatchStyleMin, gdiplusenums/HatchStyleNarrowHorizontal, gdiplusenums/HatchStyleNarrowVertical, gdiplusenums/HatchStyleOutlinedDiamond, gdiplusenums/HatchStylePlaid, gdiplusenums/HatchStyleShingle, gdiplusenums/HatchStyleSmallCheckerBoard, gdiplusenums/HatchStyleSmallConfetti, gdiplusenums/HatchStyleSmallGrid, gdiplusenums/HatchStyleSolidDiamond, gdiplusenums/HatchStyleSphere, gdiplusenums/HatchStyleTotal, gdiplusenums/HatchStyleTrellis, gdiplusenums/HatchStyleVertical, gdiplusenums/HatchStyleWave, gdiplusenums/HatchStyleWeave, gdiplusenums/HatchStyleWideDownwardDiagonal, gdiplusenums/HatchStyleWideUpwardDiagonal, gdiplusenums/HatchStyleZigZag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: gdiplusenums.h
+req.include-header: Gdiplus.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Gdiplusenums.h
+api_name:
+-	HatchStyle
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.0
 ---
 
 # HatchStyle enumeration

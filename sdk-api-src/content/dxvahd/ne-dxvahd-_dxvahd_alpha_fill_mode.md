@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dxvahd._DXVAHD_ALPHA_FILL_MODE
+title: "_DXVAHD_ALPHA_FILL_MODE"
+author: windows-sdk-content
+description: Specifies how the output alpha values are calculated for Microsoft DirectX Video Acceleration High Definition (DXVA-HD) blit operations.
+old-location: mf\dxvahd_alpha_fill_mode.htm
+old-project: medfound
+ms.assetid: f5e9f37e-5600-4139-86b2-7f63c2981b69
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DXVAHD_ALPHA_FILL_MODE, DXVAHD_ALPHA_FILL_MODE enumeration [Media Foundation], DXVAHD_ALPHA_FILL_MODE_BACKGROUND, DXVAHD_ALPHA_FILL_MODE_DESTINATION, DXVAHD_ALPHA_FILL_MODE_OPAQUE, DXVAHD_ALPHA_FILL_MODE_SOURCE_STREAM, _DXVAHD_ALPHA_FILL_MODE, dxvahd/DXVAHD_ALPHA_FILL_MODE, dxvahd/DXVAHD_ALPHA_FILL_MODE_BACKGROUND, dxvahd/DXVAHD_ALPHA_FILL_MODE_DESTINATION, dxvahd/DXVAHD_ALPHA_FILL_MODE_OPAQUE, dxvahd/DXVAHD_ALPHA_FILL_MODE_SOURCE_STREAM, mf.dxvahd_alpha_fill_mode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxvahd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVAHD_ALPHA_FILL_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxvahd.h
+api_name:
+-	DXVAHD_ALPHA_FILL_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVAHD_ALPHA_FILL_MODE enumeration

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPEvents2.DeviceDisconnect
+title: IWMPEvents2::DeviceDisconnect
+author: windows-sdk-content
+description: The DeviceDisconnect event occurs when the user disconnects a device from the computer.
+old-location: wmp\iwmpevents2_iwmpevents2__devicedisconnect.htm
+old-project: WMP
+ms.assetid: a37b72f9-4f71-433c-afad-66caae2d749a
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: DeviceDisconnect, DeviceDisconnect method [Windows Media Player], DeviceDisconnect method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceDisconnect method, IWMPEvents2.DeviceDisconnect, IWMPEvents2::DeviceDisconnect, IWMPEvents2DeviceDisconnect, wmp.iwmpevents2_iwmpevents2__devicedisconnect, wmp/IWMPEvents2::DeviceDisconnect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 10 or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPEvents2.DeviceDisconnect
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPEvents2::DeviceDisconnect

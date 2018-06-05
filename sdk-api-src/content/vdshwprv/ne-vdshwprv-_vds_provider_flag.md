@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vdshwprv._VDS_PROVIDER_FLAG
+title: "_VDS_PROVIDER_FLAG"
+author: windows-sdk-content
+description: Defines the set of valid flags for a provider object.
+old-location: base\vds_provider_flag.htm
+old-project: VDS
+ms.assetid: 610e11a8-6670-4e76-baa6-58dd78f7611b
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_PF_DYNAMIC, VDS_PF_INTERNAL_HARDWARE_PROVIDER, VDS_PF_ONE_DISK_ONLY_PER_PACK, VDS_PF_ONE_PACK_ONLINE_ONLY, VDS_PF_SUPPORT_DYNAMIC, VDS_PF_SUPPORT_DYNAMIC_1394, VDS_PF_SUPPORT_FAULT_TOLERANT, VDS_PF_SUPPORT_MIRROR, VDS_PF_SUPPORT_RAID5, VDS_PF_VOLUME_SPACE_MUST_BE_CONTIGUOUS, VDS_PROVIDER_FLAG, VDS_PROVIDER_FLAG enumeration [VDS], _VDS_PROVIDER_FLAG, base.vds_provider_flag, vds/VDS_PF_DYNAMIC, vds/VDS_PF_INTERNAL_HARDWARE_PROVIDER, vds/VDS_PF_ONE_DISK_ONLY_PER_PACK, vds/VDS_PF_ONE_PACK_ONLINE_ONLY, vds/VDS_PF_SUPPORT_DYNAMIC, vds/VDS_PF_SUPPORT_DYNAMIC_1394, vds/VDS_PF_SUPPORT_FAULT_TOLERANT, vds/VDS_PF_SUPPORT_MIRROR, vds/VDS_PF_SUPPORT_RAID5, vds/VDS_PF_VOLUME_SPACE_MUST_BE_CONTIGUOUS, vds/VDS_PROVIDER_FLAG, vdshwprv/VDS_PF_DYNAMIC, vdshwprv/VDS_PF_INTERNAL_HARDWARE_PROVIDER, vdshwprv/VDS_PF_ONE_DISK_ONLY_PER_PACK, vdshwprv/VDS_PF_ONE_PACK_ONLINE_ONLY, vdshwprv/VDS_PF_SUPPORT_DYNAMIC, vdshwprv/VDS_PF_SUPPORT_DYNAMIC_1394, vdshwprv/VDS_PF_SUPPORT_FAULT_TOLERANT, vdshwprv/VDS_PF_SUPPORT_MIRROR, vdshwprv/VDS_PF_SUPPORT_RAID5, vdshwprv/VDS_PF_VOLUME_SPACE_MUST_BE_CONTIGUOUS, vdshwprv/VDS_PROVIDER_FLAG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vdshwprv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_PROVIDER_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_PROVIDER_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_PROVIDER_FLAG enumeration

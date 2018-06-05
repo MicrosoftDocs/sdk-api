@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._TAPE_GET_DRIVE_PARAMETERS
+title: "_TAPE_GET_DRIVE_PARAMETERS"
+author: windows-sdk-content
+description: Describes the tape drive. It is used by the GetTapeParameters function.
+old-location: backup\tape_get_drive_parameters_str.htm
+old-project: Backup
+ms.assetid: 02fc702b-3f34-47d0-b8ba-7a9f497659ad
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PTAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS structure pointer [Backup], TAPE_DRIVE_ABSOLUTE_BLK, TAPE_DRIVE_ABS_BLK_IMMED, TAPE_DRIVE_CLEAN_REQUESTS, TAPE_DRIVE_COMPRESSION, TAPE_DRIVE_ECC, TAPE_DRIVE_EJECT_MEDIA, TAPE_DRIVE_END_OF_DATA, TAPE_DRIVE_ERASE_BOP_ONLY, TAPE_DRIVE_ERASE_IMMEDIATE, TAPE_DRIVE_ERASE_LONG, TAPE_DRIVE_ERASE_SHORT, TAPE_DRIVE_FILEMARKS, TAPE_DRIVE_FIXED, TAPE_DRIVE_FIXED_BLOCK, TAPE_DRIVE_GET_ABSOLUTE_BLK, TAPE_DRIVE_GET_LOGICAL_BLK, TAPE_DRIVE_INITIATOR, TAPE_DRIVE_LOAD_UNLD_IMMED, TAPE_DRIVE_LOAD_UNLOAD, TAPE_DRIVE_LOCK_UNLK_IMMED, TAPE_DRIVE_LOCK_UNLOCK, TAPE_DRIVE_LOGICAL_BLK, TAPE_DRIVE_LOG_BLK_IMMED, TAPE_DRIVE_PADDING, TAPE_DRIVE_RELATIVE_BLKS, TAPE_DRIVE_REPORT_SMKS, TAPE_DRIVE_REVERSE_POSITION, TAPE_DRIVE_REWIND_IMMEDIATE, TAPE_DRIVE_SELECT, TAPE_DRIVE_SEQUENTIAL_FMKS, TAPE_DRIVE_SEQUENTIAL_SMKS, TAPE_DRIVE_SETMARKS, TAPE_DRIVE_SET_BLOCK_SIZE, TAPE_DRIVE_SET_CMP_BOP_ONLY, TAPE_DRIVE_SET_COMPRESSION, TAPE_DRIVE_SET_ECC, TAPE_DRIVE_SET_EOT_WZ_SIZE, TAPE_DRIVE_SET_PADDING, TAPE_DRIVE_SET_REPORT_SMKS, TAPE_DRIVE_SPACE_IMMEDIATE, TAPE_DRIVE_TAPE_CAPACITY, TAPE_DRIVE_TAPE_REMAINING, TAPE_DRIVE_TENSION, TAPE_DRIVE_TENSION_IMMED, TAPE_DRIVE_VARIABLE_BLOCK, TAPE_DRIVE_WRITE_FILEMARKS, TAPE_DRIVE_WRITE_LONG_FMKS, TAPE_DRIVE_WRITE_MARK_IMMED, TAPE_DRIVE_WRITE_PROTECT, TAPE_DRIVE_WRITE_SETMARKS, TAPE_DRIVE_WRITE_SHORT_FMKS, TAPE_GET_DRIVE_PARAMETERS, TAPE_GET_DRIVE_PARAMETERS structure [Backup], _TAPE_GET_DRIVE_PARAMETERS, _win32_tape_get_drive_parameters_str, backup.tape_get_drive_parameters_str, base.tape_get_drive_parameters_str, winnt/PTAPE_GET_DRIVE_PARAMETERS, winnt/TAPE_GET_DRIVE_PARAMETERS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TAPE_GET_DRIVE_PARAMETERS, *PTAPE_GET_DRIVE_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	TAPE_GET_DRIVE_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _TAPE_GET_DRIVE_PARAMETERS structure

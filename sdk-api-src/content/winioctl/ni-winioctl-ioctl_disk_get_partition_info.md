@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NI:winioctl.IOCTL_DISK_GET_PARTITION_INFO
+title: IOCTL_DISK_GET_PARTITION_INFO
+author: windows-sdk-content
+description: Retrieves information about the type, size, and nature of a disk partition.
+old-location: fs\ioctl_disk_get_partition_info.htm
+old-project: FileIO
+ms.assetid: 24053a1a-8cf8-4aa8-a611-15c9fae0a36d
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IOCTL_DISK_GET_PARTITION_INFO, IOCTL_DISK_GET_PARTITION_INFO control, IOCTL_DISK_GET_PARTITION_INFO control code [Files], _win32_ioctl_disk_get_partition_info, base.ioctl_disk_get_partition_info, fs.ioctl_disk_get_partition_info, winioctl/IOCTL_DISK_GET_PARTITION_INFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: ioctl
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	IOCTL_DISK_GET_PARTITION_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IOCTL_DISK_GET_PARTITION_INFO IOCTL

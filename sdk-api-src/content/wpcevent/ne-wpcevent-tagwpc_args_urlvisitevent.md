@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wpcevent.tagWPC_ARGS_URLVISITEVENT
+title: tagWPC_ARGS_URLVISITEVENT
+author: windows-sdk-content
+description: Indicates information about the address URL of a website viewed.
+old-location: parcon\wpc_args_urlvisitevent.htm
+old-project: parcon
+ms.assetid: 53cc633d-2e68-48d3-9150-1aee094354e5
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WPC_ARGS_URLVISITEVENT, WPC_ARGS_URLVISITEVENT enumeration, WPC_ARGS_URLVISITEVENT_APPNAME, WPC_ARGS_URLVISITEVENT_CARGS, WPC_ARGS_URLVISITEVENT_CATCOUNT, WPC_ARGS_URLVISITEVENT_CATEGORY, WPC_ARGS_URLVISITEVENT_RATINGSYSTEMID, WPC_ARGS_URLVISITEVENT_REASON, WPC_ARGS_URLVISITEVENT_URL, WPC_ARGS_URLVISITEVENT_VERSION, parcon.wpc_args_urlvisitevent, tagWPC_ARGS_URLVISITEVENT, wpcevent/WPC_ARGS_URLVISITEVENT, wpcevent/WPC_ARGS_URLVISITEVENT_APPNAME, wpcevent/WPC_ARGS_URLVISITEVENT_CARGS, wpcevent/WPC_ARGS_URLVISITEVENT_CATCOUNT, wpcevent/WPC_ARGS_URLVISITEVENT_CATEGORY, wpcevent/WPC_ARGS_URLVISITEVENT_RATINGSYSTEMID, wpcevent/WPC_ARGS_URLVISITEVENT_REASON, wpcevent/WPC_ARGS_URLVISITEVENT_URL, wpcevent/WPC_ARGS_URLVISITEVENT_VERSION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wpcevent.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WPC_ARGS_URLVISITEVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wpcevent.h
+api_name:
+-	WPC_ARGS_URLVISITEVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagWPC_ARGS_URLVISITEVENT enumeration

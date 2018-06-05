@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._CSV_QUERY_MDS_PATH
+title: "_CSV_QUERY_MDS_PATH"
+author: windows-sdk-content
+description: Contains the path that is used by CSV to communicate to the MDS.
+old-location: fs\csv_query_mds_path.htm
+old-project: FileIO
+ms.assetid: 478AE3FD-1668-46CE-876D-51E4BB679C87
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PCSV_QUERY_MDS_PATH, CSV_QUERY_MDS_PATH, CSV_QUERY_MDS_PATH structure [Files], PCSV_QUERY_MDS_PATH, PCSV_QUERY_MDS_PATH structure pointer [Files], _CSV_QUERY_MDS_PATH, fs.csv_query_mds_path, winioctl/CSV_QUERY_MDS_PATH, winioctl/PCSV_QUERY_MDS_PATH"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CSV_QUERY_MDS_PATH, *PCSV_QUERY_MDS_PATH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	CSV_QUERY_MDS_PATH
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CSV_QUERY_MDS_PATH structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:termmgr.ITPluggableTerminalClassRegistration.put_Version
+title: ITPluggableTerminalClassRegistration::put_Version
+author: windows-sdk-content
+description: The put_Version method sets the terminal version.
+old-location: tapi3\itpluggableterminalclassregistration_put_version.htm
+old-project: Tapi
+ms.assetid: 1fd659d3-869b-4055-bbd2-e567d13f239d
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_Version method, ITPluggableTerminalClassRegistration.put_Version, ITPluggableTerminalClassRegistration::put_Version, _tapi3_itpluggableterminalclassregistration_put_version, put_Version, put_Version method [TAPI 2.2], put_Version method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_version, termmgr/ITPluggableTerminalClassRegistration::put_Version
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: termmgr.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITPluggableTerminalClassRegistration.put_Version
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITPluggableTerminalClassRegistration::put_Version

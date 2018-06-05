@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sdoias.ISdoMachine.GetOSType
+title: ISdoMachine::GetOSType
+author: windows-sdk-content
+description: The GetOSType method retrieves the type of operating system running on the SDO computer.
+old-location: nps\SDO_isdomachine_getostype.htm
+old-project: Nps
+ms.assetid: aa4f31af-57b0-4ce2-b8b9-981e4ef30d31
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetOSType, GetOSType method [Network Policy Server], GetOSType method [Network Policy Server],ISdoMachine interface, GetOSType method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetOSType method, ISdoMachine.GetOSType, ISdoMachine::GetOSType, SdoMachine object [Network Policy Server],GetOSType method, _sdo_isdomachine_getostype, nps.SDO_isdomachine_getostype, sdo.isdomachine_getostype, sdoias/ISdoMachine::GetOSType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sdoias.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VENDORPROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Iassdo.dll
+api_name:
+-	ISdoMachine.GetOSType
+-	SdoMachine.GetOSType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISdoMachine::GetOSType

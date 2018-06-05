@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uianimation.IUIAnimationManager2.CreateAnimationVectorVariable
+title: IUIAnimationManager2::CreateAnimationVectorVariable
+author: windows-sdk-content
+description: Creates a new animation variable for each specified dimension.
+old-location: uianimation\iuianimationmanager2_createanimationvectorvariable.htm
+old-project: UIAnimation
+ms.assetid: b102f7d7-1a0b-40b5-bcc6-fa82dbcb4156
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CreateAnimationVectorVariable, CreateAnimationVectorVariable method [Windows Animation], CreateAnimationVectorVariable method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],CreateAnimationVectorVariable method, IUIAnimationManager2.CreateAnimationVectorVariable, IUIAnimationManager2::CreateAnimationVectorVariable, uianimation.iuianimationmanager2_createanimationvectorvariable, uianimation/IUIAnimationManager2::CreateAnimationVectorVariable
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uianimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAnimation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAnimation.dll
+api_name:
+-	IUIAnimationManager2.CreateAnimationVectorVariable
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAnimationManager2::CreateAnimationVectorVariable

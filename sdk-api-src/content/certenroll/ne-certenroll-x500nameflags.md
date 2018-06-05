@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:certenroll.X500NameFlags
+title: X500NameFlags
+author: windows-sdk-content
+description: Specifies the display and encoding characteristics of a distinguished name or relative distinguished name (RDN).
+old-location: security\x500nameflags_enum.htm
+old-project: SecCertEnroll
+ms.assetid: 8961f21c-1aab-4bbf-a696-e5bc0f37724a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: X500NameFlags, X500NameFlags enumeration [Security], XCN_CERT_NAME_STR_COMMA_FLAG, XCN_CERT_NAME_STR_CRLF_FLAG, XCN_CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG, XCN_CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG, XCN_CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG, XCN_CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG, XCN_CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG, XCN_CERT_NAME_STR_FORWARD_FLAG, XCN_CERT_NAME_STR_NONE, XCN_CERT_NAME_STR_NO_PLUS_FLAG, XCN_CERT_NAME_STR_NO_QUOTING_FLAG, XCN_CERT_NAME_STR_REVERSE_FLAG, XCN_CERT_NAME_STR_SEMICOLON_FLAG, XCN_CERT_OID_NAME_STR, XCN_CERT_SIMPLE_NAME_STR, XCN_CERT_X500_NAME_STR, XCN_CERT_XML_NAME_STR, certenroll/X500NameFlags, certenroll/XCN_CERT_NAME_STR_COMMA_FLAG, certenroll/XCN_CERT_NAME_STR_CRLF_FLAG, certenroll/XCN_CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG, certenroll/XCN_CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG, certenroll/XCN_CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG, certenroll/XCN_CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG, certenroll/XCN_CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG, certenroll/XCN_CERT_NAME_STR_FORWARD_FLAG, certenroll/XCN_CERT_NAME_STR_NONE, certenroll/XCN_CERT_NAME_STR_NO_PLUS_FLAG, certenroll/XCN_CERT_NAME_STR_NO_QUOTING_FLAG, certenroll/XCN_CERT_NAME_STR_REVERSE_FLAG, certenroll/XCN_CERT_NAME_STR_SEMICOLON_FLAG, certenroll/XCN_CERT_OID_NAME_STR, certenroll/XCN_CERT_SIMPLE_NAME_STR, certenroll/XCN_CERT_X500_NAME_STR, certenroll/XCN_CERT_XML_NAME_STR, security.x500nameflags_enum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X500NameFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CertEnroll.h
+api_name:
+-	X500NameFlags
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 ---
 
 # X500NameFlags enumeration

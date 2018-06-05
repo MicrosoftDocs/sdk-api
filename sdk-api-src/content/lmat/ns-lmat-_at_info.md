@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmat._AT_INFO
+title: "_AT_INFO"
+author: windows-sdk-content
+description: The AT_INFO structure contains information about a job.
+old-location: netmgmt\at_info_str.htm
+old-project: NetMgmt
+ms.assetid: eb0bf696-53ca-432a-b04c-5e0b6a61a0fd
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPAT_INFO, *PAT_INFO, AT_INFO, AT_INFO structure [Network Management], JOB_ADD_CURRENT_DATE, JOB_EXEC_ERROR, JOB_NONINTERACTIVE, JOB_RUNS_TODAY, JOB_RUN_PERIODICALLY, LPAT_INFO, LPAT_INFO structure pointer [Network Management], PAT_INFO, PAT_INFO structure pointer [Network Management], _AT_INFO, _win32_at_info_str, lmat/AT_INFO, lmat/LPAT_INFO, lmat/PAT_INFO, netmgmt.at_info_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmat.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AT_INFO, *PAT_INFO, *LPAT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmat.h
+api_name:
+-	AT_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _AT_INFO structure

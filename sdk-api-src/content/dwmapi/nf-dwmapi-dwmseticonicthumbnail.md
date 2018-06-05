@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dwmapi.DwmSetIconicThumbnail
+title: DwmSetIconicThumbnail function
+author: windows-sdk-content
+description: Sets a static, iconic bitmap on a window or tab to use as a thumbnail representation. The taskbar can use this bitmap as a thumbnail switch target for the window or tab.
+old-location: dwm\dwmseticonicthumbnail.htm
+old-project: dwm
+ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmseticonicthumbnail.htm
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: 0, DWM_SIT_DISPLAYFRAME, DwmSetIconicThumbnail, DwmSetIconicThumbnail function [Desktop Window Manager], _udwm_dwmseticonicthumbnail, _udwm_dwmseticonicthumbnail_cpp, dwm.dwmseticonicthumbnail, dwmapi/DwmSetIconicThumbnail, winui._udwm_dwmseticonicthumbnail
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dwmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dwmapi.dll
+-	uxtheme.dll
+-	ext-ms-win-dwmapi-ext-l1-1-0.dll
+api_name:
+-	DwmSetIconicThumbnail
+product: Windows
+targetos: Windows
+req.lib: Dwmapi.lib
+req.dll: Dwmapi.dll; Uxtheme.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DwmSetIconicThumbnail function

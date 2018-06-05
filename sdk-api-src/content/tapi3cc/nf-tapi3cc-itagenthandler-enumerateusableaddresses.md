@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3cc.ITAgentHandler.EnumerateUsableAddresses
+title: ITAgentHandler::EnumerateUsableAddresses
+author: windows-sdk-content
+description: The EnumerateUsableAddresses method enumerates addresses available for receiving ACD calls on this agent handler.
+old-location: tapi3\itagenthandler_enumerateusableaddresses.htm
+old-project: Tapi
+ms.assetid: 9821b073-c64b-4f2b-b771-6bf027f9aa70
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: EnumerateUsableAddresses, EnumerateUsableAddresses method [TAPI 2.2], EnumerateUsableAddresses method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],EnumerateUsableAddresses method, ITAgentHandler.EnumerateUsableAddresses, ITAgentHandler::EnumerateUsableAddresses, _tapi3_itagenthandler_enumerateusableaddresses, tapi3.itagenthandler_enumerateusableaddresses, tapi3cc/ITAgentHandler::EnumerateUsableAddresses
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3cc.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AGENT_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAgentHandler.EnumerateUsableAddresses
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAgentHandler::EnumerateUsableAddresses

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oaidl.ITypeLib.IsName
+title: ITypeLib::IsName
+author: windows-sdk-content
+description: Indicates whether a passed-in string contains the name of a type or member described in the library.
+old-location: automat\itypelib_isname.htm
+old-project: automat
+ms.assetid: c9cd5cc8-f65f-43de-9dd4-c617b56ecadf
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: ITypeLib interface [Automation],IsName method, ITypeLib.IsName, ITypeLib::IsName, IsName, IsName method [Automation], IsName method [Automation],ITypeLib interface, _oa96_ITypeLib_IsName, automat.itypelib_isname, oaidl/ITypeLib::IsName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OaIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ITypeLib.IsName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITypeLib::IsName

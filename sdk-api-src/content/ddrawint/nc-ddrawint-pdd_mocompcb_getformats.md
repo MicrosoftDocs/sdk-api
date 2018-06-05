@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_MOCOMPCB_GETFORMATS
+title: PDD_MOCOMPCB_GETFORMATS
+author: windows-sdk-content
+description: The DdMoCompGetFormats callback function indicates the uncompressed formats to which the hardware can decode the data.
+old-location: display\ddmocompgetformats.htm
+old-project: display
+ms.assetid: 9df6473f-32a1-49bd-9ddb-2f2adec3cb45
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DdMoCompGetFormats, DdMoCompGetFormats callback function [Display Devices], PDD_MOCOMPCB_GETFORMATS, PDD_MOCOMPCB_GETFORMATS callback, ddfncs_bc9cd90d-e40c-4ddd-9415-3d02c4620618.xml, ddrawint/DdMoCompGetFormats, display.ddmocompgetformats
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdMoCompGetFormats
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_MOCOMPCB_GETFORMATS callback function

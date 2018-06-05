@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IComObjectPoolEvents.OnObjPoolGetFromTx
+title: IComObjectPoolEvents::OnObjPoolGetFromTx
+author: windows-sdk-content
+description: Generated when a transactional object is obtained from the pool.
+old-location: cos\icomobjectpoolevents_onobjpoolgetfromtx.htm
+old-project: cossdk
+ms.assetid: 977ab640-a9d5-47f5-ad47-ad2e1648fd6b
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolGetFromTx method, IComObjectPoolEvents.OnObjPoolGetFromTx, IComObjectPoolEvents::OnObjPoolGetFromTx, OnObjPoolGetFromTx, OnObjPoolGetFromTx method [COM+], OnObjPoolGetFromTx method [COM+],IComObjectPoolEvents interface, _dtc_IComObjectPoolEvents_OnObjPoolGetFromTx, comsvcs/IComObjectPoolEvents::OnObjPoolGetFromTx, cos.icomobjectpoolevents_onobjpoolgetfromtx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IComObjectPoolEvents.OnObjPoolGetFromTx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IComObjectPoolEvents::OnObjPoolGetFromTx

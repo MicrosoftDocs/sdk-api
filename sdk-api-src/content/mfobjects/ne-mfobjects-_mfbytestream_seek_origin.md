@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfobjects._MFBYTESTREAM_SEEK_ORIGIN
+title: "_MFBYTESTREAM_SEEK_ORIGIN"
+author: windows-sdk-content
+description: Specifies the origin for a seek request.
+old-location: mf\mfbytestream_seek_origin.htm
+old-project: medfound
+ms.assetid: ad7ad61a-0c02-4a8f-96c3-33f7d1f0ce51
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFBYTESTREAM_SEEK_ORIGIN, MFBYTESTREAM_SEEK_ORIGIN enumeration [Media Foundation], _MFBYTESTREAM_SEEK_ORIGIN, ad7ad61a-0c02-4a8f-96c3-33f7d1f0ce51, mf.mfbytestream_seek_origin, mfobjects/MFBYTESTREAM_SEEK_ORIGIN, mfobjects/msoBegin, mfobjects/msoCurrent, msoBegin, msoCurrent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFBYTESTREAM_SEEK_ORIGIN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfobjects.h
+api_name:
+-	MFBYTESTREAM_SEEK_ORIGIN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFBYTESTREAM_SEEK_ORIGIN enumeration

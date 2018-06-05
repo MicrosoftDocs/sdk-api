@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:bits2_5.IBackgroundCopyJobHttpOptions
+title: IBackgroundCopyJobHttpOptions
+author: windows-sdk-content
+description: Use this interface to specify client certificates for certificate-based client authentication and custom headers for HTTP requests.
+old-location: bits\ibackgroundcopyjobhttpoptions.htm
+old-project: Bits
+ms.assetid: d8ccf65d-a4f1-44d9-9903-43e5529f1f29
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IBackgroundCopyJobHttpOptions, IBackgroundCopyJobHttpOptions interface [BITS], IBackgroundCopyJobHttpOptions interface [BITS],described, bits.ibackgroundcopyjobhttpoptions, bits2_5/IBackgroundCopyJobHttpOptions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: bits2_5.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits2_5.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_CERT_STORE_LOCATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	BitsPrx4.dll
+api_name:
+-	IBackgroundCopyJobHttpOptions
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: BitsPrx4.dll
+req.irql: 
 ---
 
 # IBackgroundCopyJobHttpOptions interface

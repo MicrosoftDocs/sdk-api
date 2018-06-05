@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsbackup.IVssWMComponent.GetFile
+title: IVssWMComponent::GetFile
+author: windows-sdk-content
+description: The GetFile method obtains a file descriptor associated with a file group.
+old-location: base\ivsswmcomponent_getfile.htm
+old-project: VSS
+ms.assetid: 55956a05-59b8-4197-8496-03903b6e0faa
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetFile, GetFile method [VSS], GetFile method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetFile method, IVssWMComponent.GetFile, IVssWMComponent::GetFile, _win32_ivsswmcomponent_getfile, base.ivsswmcomponent_getfile, vsbackup/IVssWMComponent::GetFile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsbackup.h
+req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssWMComponent.GetFile
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssWMComponent::GetFile

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:minidumpapiset._MINIDUMP_STREAM_TYPE
+title: "_MINIDUMP_STREAM_TYPE"
+author: windows-sdk-content
+description: Represents the type of a minidump data stream.
+old-location: base\minidump_stream_type.htm
+old-project: Debug
+ms.assetid: 495136a0-2fed-47ca-8233-7e813b43b82f
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: CommentStreamA, CommentStreamW, ExceptionStream, FunctionTableStream, HandleDataStream, HandleOperationListStream, LastReservedStream, MINIDUMP_STREAM_TYPE, MINIDUMP_STREAM_TYPE enumeration, Memory64ListStream, MemoryInfoListStream, MemoryListStream, MiscInfoStream, ModuleListStream, ReservedStream0, ReservedStream1, SystemInfoStream, ThreadExListStream, ThreadInfoListStream, ThreadListStream, UnloadedModuleListStream, UnusedStream, _MINIDUMP_STREAM_TYPE, _win32_minidump_stream_type, base.minidump_stream_type, minidumpapiset/CommentStreamA, minidumpapiset/CommentStreamW, minidumpapiset/ExceptionStream, minidumpapiset/FunctionTableStream, minidumpapiset/HandleDataStream, minidumpapiset/HandleOperationListStream, minidumpapiset/LastReservedStream, minidumpapiset/MINIDUMP_STREAM_TYPE, minidumpapiset/Memory64ListStream, minidumpapiset/MemoryInfoListStream, minidumpapiset/MemoryListStream, minidumpapiset/MiscInfoStream, minidumpapiset/ModuleListStream, minidumpapiset/ReservedStream0, minidumpapiset/ReservedStream1, minidumpapiset/SystemInfoStream, minidumpapiset/ThreadExListStream, minidumpapiset/ThreadInfoListStream, minidumpapiset/ThreadListStream, minidumpapiset/UnloadedModuleListStream, minidumpapiset/UnusedStream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: minidumpapiset.h
+req.include-header: DbgHelp.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MINIDUMP_STREAM_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	minidumpapiset.h
+api_name:
+-	MINIDUMP_STREAM_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MINIDUMP_STREAM_TYPE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._TXFS_QUERY_RM_INFORMATION
+title: "_TXFS_QUERY_RM_INFORMATION"
+author: windows-sdk-content
+description: Contains information about the resource manager (RM).
+old-location: fs\txfs_query_rm_information.htm
+old-project: FileIO
+ms.assetid: a8dc6b69-306a-4843-b7b5-ea6a1e5068cb
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PTXFS_QUERY_RM_INFORMATION, PTXFS_QUERY_RM_INFORMATION, PTXFS_QUERY_RM_INFORMATION structure pointer [Files], TXFS_LOGGING_MODE_FULL, TXFS_LOGGING_MODE_SIMPLE, TXFS_QUERY_RM_INFORMATION, TXFS_QUERY_RM_INFORMATION structure [Files], TXFS_RM_FLAG_DO_NOT_RESET_RM_AT_NEXT_START, TXFS_RM_FLAG_LOG_CONTAINER_COUNT_MIN, TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_NUM_CONTAINERS, TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_PERCENT, TXFS_RM_FLAG_LOG_NO_CONTAINER_COUNT_MAX, TXFS_RM_FLAG_PREFER_AVAILABILITY, TXFS_RM_FLAG_PREFER_CONSISTENCY, TXFS_RM_FLAG_RESET_RM_AT_NEXT_START, TXFS_RM_STATE_ACTIVE, TXFS_RM_STATE_NOT_STARTED, TXFS_RM_STATE_SHUTTING_DOWN, TXFS_RM_STATE_STARTING, _TXFS_QUERY_RM_INFORMATION, base.txfs_query_rm_information, fs.txfs_query_rm_information, winioctl/PTXFS_QUERY_RM_INFORMATION, winioctl/TXFS_QUERY_RM_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TXFS_QUERY_RM_INFORMATION, *PTXFS_QUERY_RM_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	TXFS_QUERY_RM_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _TXFS_QUERY_RM_INFORMATION structure

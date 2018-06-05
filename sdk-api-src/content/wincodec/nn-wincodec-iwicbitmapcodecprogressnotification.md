@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:wincodec.IWICBitmapCodecProgressNotification
+title: IWICBitmapCodecProgressNotification
+author: windows-sdk-content
+description: Exposes methods used for progress notification for encoders and decoders.
+old-location: wic\_wic_codec_iwicbitmapcodecprogressnotification.htm
+old-project: wic
+ms.assetid: 8cf3fbca-0953-4dd7-aa44-3e1924cfd8b0
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWICBitmapCodecProgressNotification, IWICBitmapCodecProgressNotification interface [Windows Imaging Component], IWICBitmapCodecProgressNotification interface [Windows Imaging Component],described, _wic_codec_iwicbitmapcodecprogressnotification, wic._wic_codec_iwicbitmapcodecprogressnotification, wincodec/IWICBitmapCodecProgressNotification
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodec.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.lib
+-	Windowscodecs.dll
+api_name:
+-	IWICBitmapCodecProgressNotification
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWICBitmapCodecProgressNotification interface

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:winnt.RTL_UMS_SCHEDULER_ENTRY_POINT
+title: RTL_UMS_SCHEDULER_ENTRY_POINT
+author: windows-sdk-content
+description: The application-defined user-mode scheduling (UMS) scheduler entry point function associated with a UMS completion list.
+old-location: base\umsschedulerproc.htm
+old-project: ProcThread
+ms.assetid: 10de1c48-255d-45c3-acf0-25f8a564b585
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: 0, 1, RTL_UMS_SCHEDULER_ENTRY_POINT, RTL_UMS_SCHEDULER_ENTRY_POINT callback, UmsSchedulerProc, UmsSchedulerProc callback function, UmsSchedulerStartup, UmsSchedulerThreadBlocked, UmsSchedulerThreadYield, base.umsschedulerproc, winnt/UmsSchedulerProc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: winnt.h
+req.include-header: WinBase.h, Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 (64-bit only) [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NUMBERFMTW, *LPNUMBERFMTW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	WinNT.h
+api_name:
+-	UmsSchedulerProc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # RTL_UMS_SCHEDULER_ENTRY_POINT callback function

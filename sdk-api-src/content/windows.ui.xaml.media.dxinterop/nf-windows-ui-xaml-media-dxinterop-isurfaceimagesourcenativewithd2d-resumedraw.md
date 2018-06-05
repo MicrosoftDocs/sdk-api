@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNativeWithD2D.ResumeDraw
+title: ISurfaceImageSourceNativeWithD2D::xaml
+author: windows-sdk-content
+description: Resume the drawing operation.
+old-location: winrt\isurfaceimagesourcenativewithd2d_resumedraw.htm
+old-project: WinRT
+ms.assetid: 0A1FD29B-6340-49F5-BBF3-2E621FB16925
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],ResumeDraw method, ISurfaceImageSourceNativeWithD2D.ResumeDraw, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::ResumeDraw, ISurfaceImageSourceNativeWithD2D::xaml, ResumeDraw, ResumeDraw method [Windows Runtime], ResumeDraw method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, windows/ISurfaceImageSourceNativeWithD2D::ResumeDraw, winrt.isurfaceimagesourcenativewithd2d_resumedraw
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: windows.ui.xaml.media.dxinterop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Windows.ui.xaml.media.dxinterop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDF_RENDER_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windows.UI.Xaml.dll
+api_name:
+-	ISurfaceImageSourceNativeWithD2D.ResumeDraw
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ISurfaceImageSourceNativeWithD2D::xaml

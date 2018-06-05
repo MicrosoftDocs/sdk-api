@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:spellcheckprovider.ISpellCheckProvider.InitializeWordlist
+title: ISpellCheckProvider::InitializeWordlist
+author: windows-sdk-content
+description: Initialize the specified word list to contain only the specified words.
+old-location: intl\ispellcheckprovider_initializewordlist.htm
+old-project: Intl
+ms.assetid: B1E3D0F9-8A6B-431F-A8AF-46D783E23FEF
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],InitializeWordlist method, ISpellCheckProvider.InitializeWordlist, ISpellCheckProvider::InitializeWordlist, InitializeWordlist, InitializeWordlist method [Internationalization for Windows Applications], InitializeWordlist method [Internationalization for Windows Applications],ISpellCheckProvider interface, intl.ispellcheckprovider_initializewordlist, spellcheckprovider/ISpellCheckProvider::InitializeWordlist
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spellcheckprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Spellcheckprovider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WORDLIST_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Spellcheckprovider.h
+api_name:
+-	ISpellCheckProvider.InitializeWordlist
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpellCheckProvider::InitializeWordlist

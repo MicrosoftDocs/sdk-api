@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wuapicommon.tagServerSelection
+title: tagServerSelection
+author: windows-sdk-content
+description: Defines the update services that Windows Update can operate against.
+old-location: wua\serverselection.htm
+old-project: Wua_Sdk
+ms.assetid: 51caac5e-98a6-49e4-a175-6319349a6d68
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ServerSelection, ServerSelection enumeration [Windows Update Agent], ssDefault, ssManagedServer, ssOthers, ssWindowsUpdate, tagServerSelection, wua.serverselection, wuapicommon/ServerSelection, wuapicommon/ssDefault, wuapicommon/ssManagedServer, wuapicommon/ssOthers, wuapicommon/ssWindowsUpdate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wuapicommon.h
+req.include-header: Wuapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wuapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ServerSelection
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wuapicommon.h
+api_name:
+-	ServerSelection
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # tagServerSelection enumeration

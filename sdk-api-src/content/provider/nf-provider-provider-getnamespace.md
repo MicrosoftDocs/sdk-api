@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:provider.Provider.GetNamespace
+title: Provider::GetNamespace
+author: windows-sdk-content
+description: The GetNamespace method returns a constant reference to the namespace name in CHString format. The name returned is the second parameter originally given to the provider constructor.
+old-location: wmi\provider_getnamespace.htm
+old-project: WmiSdk
+ms.assetid: aa400731-3127-4ea7-a4ac-f31b6af8db98
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetNamespace, GetNamespace method [Windows Management Instrumentation], GetNamespace method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetNamespace method, Provider.GetNamespace, Provider::GetNamespace, _hmm_provider_getnamespace, provider/Provider::GetNamespace, wmi.provider_getnamespace
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: provider.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPVAR_COMPARE_UNIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	Provider.GetNamespace
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # Provider::GetNamespace

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagEMRCREATEPEN
+title: tagEMRCREATEPEN
+author: windows-sdk-content
+description: The EMRCREATEPEN structure contains members for the CreatePen enhanced metafile record.
+old-location: gdi\emrcreatepen.htm
+old-project: gdi
+ms.assetid: bd338c56-00b4-4eae-9e4f-57ac49809f32
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PEMRCREATEPEN, EMRCREATEPEN, EMRCREATEPEN structure [Windows GDI], PEMRCREATEPEN, PEMRCREATEPEN structure pointer [Windows GDI], _win32_EMRCREATEPEN_str, gdi.emrcreatepen, tagEMRCREATEPEN, wingdi/EMRCREATEPEN, wingdi/PEMRCREATEPEN"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMRCREATEPEN, *PEMRCREATEPEN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	EMRCREATEPEN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagEMRCREATEPEN structure

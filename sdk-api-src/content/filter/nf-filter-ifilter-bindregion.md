@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:filter.IFilter.BindRegion
+title: IFilter::BindRegion
+author: windows-sdk-content
+description: Retrieves an interface representing the specified portion of object. Currently reserved for future use.
+old-location: indexsrv\ifilter_bindregion.htm
+old-project: IndexSrv
+ms.assetid: VS|indexsrv|~\html\ixrefint_8bam.htm
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: BindRegion, BindRegion method [Indexing Service], BindRegion method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],BindRegion method, IFilter.BindRegion, IFilter::BindRegion, _idxs_IFilter_BindRegion, filter/IFilter::BindRegion, indexsrv.ifilter_bindregion
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: filter.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IFILTER_INIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Filter.h
+api_name:
+-	IFilter.BindRegion
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFilter::BindRegion

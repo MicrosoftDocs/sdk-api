@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:fltuser.FilterVolumeInstanceFindFirst
+title: FilterVolumeInstanceFindFirst function
+author: windows-sdk-content
+description: The FilterVolumeInstanceFindFirst function returns information about a minifilter driver instance or legacy filter driver and is used to begin scanning the filter drivers that are attached to a volume.
+old-location: ifsk\filtervolumeinstancefindfirst.htm
+old-project: ifsk
+ms.assetid: 8bcaa20e-90f8-4e18-88b0-85a6b6632ef7
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: FilterVolumeInstanceFindFirst, FilterVolumeInstanceFindFirst function [Installable File System Drivers], FltWin32ApiRef_3a784a96-c717-4118-bf97-bba9ac4b7736.xml, fltuser/FilterVolumeInstanceFindFirst, ifsk.filtervolumeinstancefindfirst
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fltuser.h
+req.include-header: FltUser.h
+req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	FltLib.dll
+api_name:
+-	FilterVolumeInstanceFindFirst
+product: Windows
+targetos: Windows
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FilterVolumeInstanceFindFirst function

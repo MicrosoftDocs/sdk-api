@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:rend.ITDirectoryObjectConference
+title: ITDirectoryObjectConference
+author: windows-sdk-content
+description: The ITDirectoryObjectConference interface provides methods that allow an application to set and get conference details. The ITDirectoryObjectConference interface is created by calling QueryInterface on ITDirectoryObject.
+old-location: tapi3\itdirectoryobjectconference.htm
+old-project: Tapi
+ms.assetid: bab167cf-2726-4423-87b3-69227404bddc
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITDirectoryObjectConference, ITDirectoryObjectConference interface [TAPI 2.2], ITDirectoryObjectConference interface [TAPI 2.2],described, _tapi3_itdirectoryobjectconference, rend/ITDirectoryObjectConference, tapi3.itdirectoryobjectconference
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: rend.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rend.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RND_ADVERTISING_SCOPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Rend.dll
+api_name:
+-	ITDirectoryObjectConference
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITDirectoryObjectConference interface

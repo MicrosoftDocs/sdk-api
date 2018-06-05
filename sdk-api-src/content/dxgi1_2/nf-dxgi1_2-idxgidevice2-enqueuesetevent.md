@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxgi1_2.IDXGIDevice2.EnqueueSetEvent
+title: IDXGIDevice2::EnqueueSetEvent
+author: windows-sdk-content
+description: Flushes any outstanding rendering commands and sets the specified event object to the signaled state after all previously submitted rendering commands complete.
+old-location: direct3ddxgi\idxgidevice2_enqueuesetevent.htm
+old-project: direct3ddxgi
+ms.assetid: CECF3ED6-A025-48C4-A7E2-971B86A262F0
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: EnqueueSetEvent, EnqueueSetEvent method [DXGI], EnqueueSetEvent method [DXGI],IDXGIDevice2 interface, IDXGIDevice2 interface [DXGI],EnqueueSetEvent method, IDXGIDevice2.EnqueueSetEvent, IDXGIDevice2::EnqueueSetEvent, direct3ddxgi.idxgidevice2_enqueuesetevent, dxgi1_2/IDXGIDevice2::EnqueueSetEvent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi1_2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dxgi.lib
+-	Dxgi.dll
+api_name:
+-	IDXGIDevice2.EnqueueSetEvent
+product: Windows
+targetos: Windows
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIDevice2::EnqueueSetEvent

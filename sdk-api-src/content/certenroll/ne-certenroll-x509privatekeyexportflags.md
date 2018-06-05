@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:certenroll.X509PrivateKeyExportFlags
+title: X509PrivateKeyExportFlags
+author: windows-sdk-content
+description: Specifies the export policy for a private key.
+old-location: security\x509privatekeyexportflags.htm
+old-project: SecCertEnroll
+ms.assetid: a50af298-a579-462f-8744-78aa84070360
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: X509PrivateKeyExportFlags, X509PrivateKeyExportFlags enumeration [Security], XCN_NCRYPT_ALLOW_ARCHIVING_FLAG, XCN_NCRYPT_ALLOW_EXPORT_FLAG, XCN_NCRYPT_ALLOW_EXPORT_NONE, XCN_NCRYPT_ALLOW_PLAINTEXT_ARCHIVING_FLAG, XCN_NCRYPT_ALLOW_PLAINTEXT_EXPORT_FLAG, certenroll/X509PrivateKeyExportFlags, certenroll/XCN_NCRYPT_ALLOW_ARCHIVING_FLAG, certenroll/XCN_NCRYPT_ALLOW_EXPORT_FLAG, certenroll/XCN_NCRYPT_ALLOW_EXPORT_NONE, certenroll/XCN_NCRYPT_ALLOW_PLAINTEXT_ARCHIVING_FLAG, certenroll/XCN_NCRYPT_ALLOW_PLAINTEXT_EXPORT_FLAG, security.x509privatekeyexportflags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509PrivateKeyExportFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CertEnroll.h
+api_name:
+-	X509PrivateKeyExportFlags
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 ---
 
 # X509PrivateKeyExportFlags enumeration

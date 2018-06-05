@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:netcon.tagNETCON_CHARACTERISTIC_FLAGS
+title: tagNETCON_CHARACTERISTIC_FLAGS
+author: windows-sdk-content
+description: The NETCON_CHARACTERISTIC_FLAGS enumeration type specifies possible characteristics for a network connection.
+old-location: ics\netcon_characteristic_flags.htm
+old-project: ICS
+ms.assetid: fc64c840-7f88-4d81-910b-3cf21dce70fa
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: NCCF_ALLOW_DUPLICATION, NCCF_ALLOW_REMOVAL, NCCF_ALLOW_RENAME, NCCF_ALL_USERS, NCCF_BLUETOOTH_MASK, NCCF_BRANDED, NCCF_BRIDGED, NCCF_DEFAULT, NCCF_FIREWALLED, NCCF_HOMENET_CAPABLE, NCCF_INCOMING_ONLY, NCCF_LAN_MASK, NCCF_NONE, NCCF_OUTGOING_ONLY, NCCF_QUARANTINED, NCCF_RESERVED, NCCF_SHARED, NCCF_SHARED_PRIVATE, NETCON_CHARACTERISTIC_FLAGS, NETCON_CHARACTERISTIC_FLAGS enumeration [ICS/ICF], _ics_netcon_characteristic_flags, ics.netcon_characteristic_flags, netcon/NCCF_ALLOW_DUPLICATION, netcon/NCCF_ALLOW_REMOVAL, netcon/NCCF_ALLOW_RENAME, netcon/NCCF_ALL_USERS, netcon/NCCF_BLUETOOTH_MASK, netcon/NCCF_BRANDED, netcon/NCCF_BRIDGED, netcon/NCCF_DEFAULT, netcon/NCCF_FIREWALLED, netcon/NCCF_HOMENET_CAPABLE, netcon/NCCF_INCOMING_ONLY, netcon/NCCF_LAN_MASK, netcon/NCCF_NONE, netcon/NCCF_OUTGOING_ONLY, netcon/NCCF_QUARANTINED, netcon/NCCF_RESERVED, netcon/NCCF_SHARED, netcon/NCCF_SHARED_PRIVATE, netcon/NETCON_CHARACTERISTIC_FLAGS, tagNETCON_CHARACTERISTIC_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: netcon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ndhelper.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETCON_CHARACTERISTIC_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	NetCon.h
+api_name:
+-	NETCON_CHARACTERISTIC_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagNETCON_CHARACTERISTIC_FLAGS enumeration

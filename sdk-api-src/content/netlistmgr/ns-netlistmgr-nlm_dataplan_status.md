@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:netlistmgr.NLM_DATAPLAN_STATUS
+title: NLM_DATAPLAN_STATUS
+author: windows-sdk-content
+description: NLM_DATAPLAN_STATUS structure stores the current data plan status information supplied by the carrier.
+old-location: nla\nlm_dataplan_status.htm
+old-project: NLA
+ms.assetid: 49774150-FD7E-4541-95DF-C848247A6A9C
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: NLM_DATAPLAN_STATUS, NLM_DATAPLAN_STATUS structure [Network Awareness], PNLM_DATAPLAN_STATUS, PNLM_DATAPLAN_STATUS structure pointer [Network Awareness], netlistmgr/NLM_DATAPLAN_STATUS, netlistmgr/PNLM_DATAPLAN_STATUS, nla.nlm_dataplan_status
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: netlistmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Netlistmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NLM_DATAPLAN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Netlistmgr.h
+api_name:
+-	NLM_DATAPLAN_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # NLM_DATAPLAN_STATUS structure

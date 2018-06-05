@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:http._HTTP_RESPONSE_V1
+title: "_HTTP_RESPONSE_V1"
+author: windows-sdk-content
+description: Contains data associated with an HTTP response.
+old-location: http\http_response_v1.htm
+old-project: Http
+ms.assetid: 9e1bbcca-1b7c-4146-95c7-72660bf31507
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_RESPONSE, *PHTTP_RESPONSE_V1, HTTP_RESPONSE, HTTP_RESPONSE_V1, HTTP_RESPONSE_V1 structure [HTTP], PHTTP_RESPONSE_V1, PHTTP_RESPONSE_V1 structure pointer [HTTP], _HTTP_RESPONSE_V1, http.http_response_v1, http/HTTP_RESPONSE_V1, http/PHTTP_RESPONSE_V1"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_RESPONSE_V1, *PHTTP_RESPONSE_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_RESPONSE_V1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_RESPONSE_V1 structure

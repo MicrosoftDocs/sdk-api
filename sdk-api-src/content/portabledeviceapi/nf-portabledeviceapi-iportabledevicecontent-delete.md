@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:portabledeviceapi.IPortableDeviceContent.Delete
+title: IPortableDeviceContent::Delete
+author: windows-sdk-content
+description: The Delete method deletes one or more objects from the device.
+old-location: wpdsdk\iportabledevicecontent_delete.htm
+old-project: wpd_sdk
+ms.assetid: 7315c869-d2b6-4ccf-9315-ec1fc1d827ac
+ms.author: windowssdkdev
+ms.date: 04/11/2018
+ms.keywords: Delete, Delete method [Windows Portable Devices SDK], Delete method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],Delete method, IPortableDeviceContent.Delete, IPortableDeviceContent::Delete, IPortableDeviceContentDelete, portabledeviceapi/IPortableDeviceContent::Delete, wpdsdk.iportabledevicecontent_delete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: portabledeviceapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceGUIDs.lib
+-	PortableDeviceGUIDs.dll
+api_name:
+-	IPortableDeviceContent.Delete
+product: Windows
+targetos: Windows
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPortableDeviceContent::Delete

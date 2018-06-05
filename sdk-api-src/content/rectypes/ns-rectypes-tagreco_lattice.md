@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rectypes.tagRECO_LATTICE
+title: tagRECO_LATTICE
+author: windows-sdk-content
+description: Serves as the entry point into a lattice.
+old-location: tablet\reco_lattice.htm
+old-project: tablet
+ms.assetid: 0fab8928-1632-4011-9d1d-2be5f6c5f22d
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 0fab8928-1632-4011-9d1d-2be5f6c5f22d, RECO_LATTICE, RECO_LATTICE structure [Tablet PC], rectypes/RECO_LATTICE, tablet.reco_lattice, tagRECO_LATTICE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rectypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RECO_LATTICE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	rectypes.h
+api_name:
+-	RECO_LATTICE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagRECO_LATTICE structure

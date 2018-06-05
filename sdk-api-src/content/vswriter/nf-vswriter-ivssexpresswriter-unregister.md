@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vswriter.IVssExpressWriter.Unregister
+title: IVssExpressWriter::Unregister
+author: windows-sdk-content
+description: Causes VSS to delete the writer's metadata from the express writer metadata store.
+old-location: base\ivssexpresswriter_unregister.htm
+old-project: VSS
+ms.assetid: 24398ace-4e76-471b-ae04-d2005e09cb6a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IVssExpressWriter interface,Unregister method, IVssExpressWriter.Unregister, IVssExpressWriter::Unregister, Unregister, Unregister method, Unregister method,IVssExpressWriter interface, base.ivssexpresswriter_unregister, vswriter/IVssExpressWriter::Unregister
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vswriter.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VsWriter.h
+api_name:
+-	IVssExpressWriter.Unregister
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssExpressWriter::Unregister

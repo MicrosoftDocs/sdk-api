@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:processsnapshot.PSS_QUERY_INFORMATION_CLASS
+title: PSS_QUERY_INFORMATION_CLASS
+author: windows-sdk-content
+description: Specifies what information PssQuerySnapshot function returns.
+old-location: proc_snap\pss_query_information_class.htm
+old-project: proc_snap
+ms.assetid: 1C3E5BF4-5AC9-4012-B29D-49C35C0AF90B
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: PSS_QUERY_AUXILIARY_PAGES_INFORMATION, PSS_QUERY_HANDLE_INFORMATION, PSS_QUERY_HANDLE_TRACE_INFORMATION, PSS_QUERY_INFORMATION_CLASS, PSS_QUERY_INFORMATION_CLASS enumeration, PSS_QUERY_PERFORMANCE_COUNTERS, PSS_QUERY_PROCESS_INFORMATION, PSS_QUERY_THREAD_INFORMATION, PSS_QUERY_VA_CLONE_INFORMATION, PSS_QUERY_VA_SPACE_INFORMATION, proc_snap.pss_query_information_class, processsnapshot/PSS_QUERY_AUXILIARY_PAGES_INFORMATION, processsnapshot/PSS_QUERY_HANDLE_INFORMATION, processsnapshot/PSS_QUERY_HANDLE_TRACE_INFORMATION, processsnapshot/PSS_QUERY_INFORMATION_CLASS, processsnapshot/PSS_QUERY_PERFORMANCE_COUNTERS, processsnapshot/PSS_QUERY_PROCESS_INFORMATION, processsnapshot/PSS_QUERY_THREAD_INFORMATION, processsnapshot/PSS_QUERY_VA_CLONE_INFORMATION, processsnapshot/PSS_QUERY_VA_SPACE_INFORMATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: processsnapshot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSS_QUERY_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	processsnapshot.h
+api_name:
+-	PSS_QUERY_INFORMATION_CLASS
+product: Windows
+targetos: Windows
+req.lib: Prntvpt.lib
+req.dll: Prntvpt.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSS_QUERY_INFORMATION_CLASS enumeration

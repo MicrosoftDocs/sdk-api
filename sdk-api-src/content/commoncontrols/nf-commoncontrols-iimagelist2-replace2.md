@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:commoncontrols.IImageList2.Replace2
+title: IImageList2::Replace2
+author: windows-sdk-content
+description: Replaces an image in an image list.
+old-location: controls\IImageList2_Replace2.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\replace2.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IImageList2 interface [Windows Controls],Replace2 method, IImageList2.Replace2, IImageList2::Replace2, ILR_DEFAULT, ILR_HORIZONTAL_CENTER, ILR_HORIZONTAL_LEFT, ILR_HORIZONTAL_RIGHT, ILR_SCALE_ASPECTRATIO, ILR_SCALE_CLIP, ILR_VERTICAL_BOTTOM, ILR_VERTICAL_CENTER, ILR_VERTICAL_TOP, Replace2, Replace2 method [Windows Controls], Replace2 method [Windows Controls],IImageList2 interface, _shell_IImageList2_Replace2, _shell_IImageList2_Replace2_cpp, commoncontrols/IImageList2::Replace2, controls.IImageList2_Replace2, controls._shell_IImageList2_Replace2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: commoncontrols.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Commoncontrols.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Comctl32.dll
+api_name:
+-	IImageList2.Replace2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 ---
 
 # IImageList2::Replace2

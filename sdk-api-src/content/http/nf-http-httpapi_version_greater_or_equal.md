@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:http.HTTPAPI_VERSION_GREATER_OR_EQUAL
+title: HTTPAPI_VERSION_GREATER_OR_EQUAL macro
+author: windows-sdk-content
+description: The HTTPAPI_VERSION_GREATER_OR_EQUAL returns a non-zero value if an HTTPAPI_VERSION structure is greater than or equal to a specified major/minor version combination, or zero otherwise.
+old-location: http\httpapi_version_greater_or_equal.htm
+old-project: Http
+ms.assetid: d9ac035f-7085-417f-b7df-0607b95f4233
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: HTTPAPI_VERSION_GREATER_OR_EQUAL, HTTPAPI_VERSION_GREATER_OR_EQUAL macro [HTTP], http.httpapi_version_greater_or_equal, http/HTTPAPI_VERSION_GREATER_OR_EQUAL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_VERB, *PHTTP_VERB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	http.h
+api_name:
+-	HTTP_GREATER_EQUAL_VERSION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # HTTPAPI_VERSION_GREATER_OR_EQUAL macro

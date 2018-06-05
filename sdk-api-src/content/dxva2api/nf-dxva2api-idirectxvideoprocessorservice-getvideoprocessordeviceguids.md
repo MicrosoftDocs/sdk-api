@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxva2api.IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
+title: IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids
+author: windows-sdk-content
+description: Gets an array of GUIDs which identify the video processors supported by the graphics hardware.
+old-location: mf\idirectxvideoprocessorservice_getvideoprocessordeviceguids.htm
+old-project: medfound
+ms.assetid: 26b52407-7c75-4731-aff3-41376aa9ac3a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 26b52407-7c75-4731-aff3-41376aa9ac3a, GetVideoProcessorDeviceGuids, GetVideoProcessorDeviceGuids method [Media Foundation], GetVideoProcessorDeviceGuids method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetVideoProcessorDeviceGuids method, IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids, IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids, mf.idirectxvideoprocessorservice_getvideoprocessordeviceguids
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxva2api.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA2_SurfaceType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxva2api.h
+api_name:
+-	IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids

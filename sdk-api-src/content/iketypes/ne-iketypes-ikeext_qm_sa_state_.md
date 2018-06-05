@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iketypes.IKEEXT_QM_SA_STATE_
+title: IKEEXT_QM_SA_STATE_
+author: windows-sdk-content
+description: States for the Quick Mode (QM) negotiation exchanges that are part of the Authenticated Internet Protocol (AuthIP) and Internet Key Exchange (IKE) protocols.
+old-location: fwp\ikeext_qm_sa_state.htm
+old-project: FWP
+ms.assetid: e1124447-dd56-4ab6-affc-59e351407261
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IKEEXT_QM_SA_STATE, IKEEXT_QM_SA_STATE enumeration [Filtering], IKEEXT_QM_SA_STATE_, IKEEXT_QM_SA_STATE_COMPLETE, IKEEXT_QM_SA_STATE_FINAL, IKEEXT_QM_SA_STATE_INITIAL, IKEEXT_QM_SA_STATE_MAX, IKEEXT_QM_SA_STATE_NONE, fwp.ikeext_qm_sa_state, iketypes/IKEEXT_QM_SA_STATE, iketypes/IKEEXT_QM_SA_STATE_COMPLETE, iketypes/IKEEXT_QM_SA_STATE_FINAL, iketypes/IKEEXT_QM_SA_STATE_INITIAL, iketypes/IKEEXT_QM_SA_STATE_MAX, iketypes/IKEEXT_QM_SA_STATE_NONE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iketypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Iketypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IKEEXT_QM_SA_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iketypes.h
+api_name:
+-	IKEEXT_QM_SA_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IKEEXT_QM_SA_STATE_ enumeration

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:objidl.tagSOLE_AUTHENTICATION_LIST
+title: tagSOLE_AUTHENTICATION_LIST
+author: windows-sdk-content
+description: Indicates the default authentication information to use with each authentication service.
+old-location: com\sole_authentication_list.htm
+old-project: com
+ms.assetid: 21f7aef3-b6be-41cc-a6ed-16d3778e3cee
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PSOLE_AUTHENTICATION_LIST, PSOLE_AUTHENTICATION_LIST, PSOLE_AUTHENTICATION_LIST structure pointer [COM], SOLE_AUTHENTICATION_LIST, SOLE_AUTHENTICATION_LIST structure [COM], _com_SOLE_AUTHENTICATION_LIST, com.sole_authentication_list, objidlbase/PSOLE_AUTHENTICATION_LIST, objidlbase/SOLE_AUTHENTICATION_LIST, tagSOLE_AUTHENTICATION_LIST"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: objidl.h
+req.include-header: Objidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOLE_AUTHENTICATION_LIST, *PSOLE_AUTHENTICATION_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	objidlbase.h
+api_name:
+-	SOLE_AUTHENTICATION_LIST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagSOLE_AUTHENTICATION_LIST structure

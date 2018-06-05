@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:compressapi.CloseCompressor
+title: CloseCompressor function
+author: windows-sdk-content
+description: Call to close an open COMPRESSOR_HANDLE.
+old-location: cmpapi\closecompressor.htm
+old-project: cmpapi
+ms.assetid: 098cf0b9-cd42-4a40-b30f-d7364d067e41
+ms.author: windowssdkdev
+ms.date: 04/10/2018
+ms.keywords: CloseCompressor, CloseCompressor function [Compression API], cmpapi.closecompressor, compressapi/CloseCompressor
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: compressapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMPRESS_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	cabinet.dll
+api_name:
+-	CloseCompressor
+product: Windows
+targetos: Windows
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
 ---
 
 # CloseCompressor function

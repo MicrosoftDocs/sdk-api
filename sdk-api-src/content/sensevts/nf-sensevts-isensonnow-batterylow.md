@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sensevts.ISensOnNow.BatteryLow
+title: ISensOnNow::BatteryLow
+author: windows-sdk-content
+description: The BatteryLow method notifies an application that battery power is low. SENS calls the BatteryLow method to notify an application that a computer is using battery power.
+old-location: sens\isensonnow_batterylow.htm
+old-project: Sens
+ms.assetid: 78b305ef-761b-48b8-8f1b-371a75df4edb
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: BatteryLow, BatteryLow method [SENS], BatteryLow method [SENS],ISensOnNow interface, ISensOnNow interface [SENS],BatteryLow method, ISensOnNow.BatteryLow, ISensOnNow::BatteryLow, _zaw_isensonnow_batterylow, sens.isensonnow_batterylow, sensevts/ISensOnNow::BatteryLow, syncmgr.isensonnow_batterylow
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sensevts.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Sensevts.tlb
+tech.root: 
+req.typenames: QOCINFO, *LPQOCINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Sens.dll
+api_name:
+-	ISensOnNow.BatteryLow
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISensOnNow::BatteryLow

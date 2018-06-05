@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:fdi.FNWRITE
+title: FNWRITE macro
+author: windows-sdk-content
+description: The FNWRITE macro provides the declaration for the application-defined callback function to write data to a file in an FDI context.
+old-location: winprog\fnwrite.htm
+old-project: DevNotes
+ms.assetid: e15d4293-2955-48cd-b8c9-77669a1e6436
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: FNWRITE, FNWRITE macro [Windows API], fdi/FNWRITE, winprog.fnwrite
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: fdi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CCAB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	fdi.h
+api_name:
+-	FNWRITE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FNWRITE macro

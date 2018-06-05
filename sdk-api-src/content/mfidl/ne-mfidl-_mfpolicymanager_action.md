@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl._MFPOLICYMANAGER_ACTION
+title: "_MFPOLICYMANAGER_ACTION"
+author: windows-sdk-content
+description: Defines actions that can be performed on a stream.
+old-location: mf\mfpolicymanager_action.htm
+old-project: medfound
+ms.assetid: 74cee983-e084-458b-b615-5447cca9abbc
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 74cee983-e084-458b-b615-5447cca9abbc, MFPOLICYMANAGER_ACTION, MFPOLICYMANAGER_ACTION enumeration [Media Foundation], PEACTION_COPY, PEACTION_EXPORT, PEACTION_EXTRACT, PEACTION_LAST, PEACTION_NO, PEACTION_PLAY, PEACTION_RESERVED1, PEACTION_RESERVED2, PEACTION_RESERVED3, _MFPOLICYMANAGER_ACTION, mf.mfpolicymanager_action, mfidl/MFPOLICYMANAGER_ACTION, mfidl/PEACTION_COPY, mfidl/PEACTION_EXPORT, mfidl/PEACTION_EXTRACT, mfidl/PEACTION_LAST, mfidl/PEACTION_NO, mfidl/PEACTION_PLAY, mfidl/PEACTION_RESERVED1, mfidl/PEACTION_RESERVED2, mfidl/PEACTION_RESERVED3
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFPOLICYMANAGER_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFPOLICYMANAGER_ACTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFPOLICYMANAGER_ACTION enumeration

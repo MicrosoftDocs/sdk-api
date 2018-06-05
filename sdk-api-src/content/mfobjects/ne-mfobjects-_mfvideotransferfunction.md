@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfobjects._MFVideoTransferFunction
+title: "_MFVideoTransferFunction"
+author: windows-sdk-content
+description: Specifies the conversion function from linear RGB to non-linear RGB (R'G'B').
+old-location: mf\mfvideotransferfunction.htm
+old-project: medfound
+ms.assetid: f9aff1d5-e9f7-48fd-9c86-8dc597d37dfa
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFVideoTransFunc_10, MFVideoTransFunc_18, MFVideoTransFunc_20, MFVideoTransFunc_2020, MFVideoTransFunc_2020_const, MFVideoTransFunc_2084, MFVideoTransFunc_22, MFVideoTransFunc_240M, MFVideoTransFunc_26, MFVideoTransFunc_28, MFVideoTransFunc_709, MFVideoTransFunc_709_sym, MFVideoTransFunc_ForceDWORD, MFVideoTransFunc_HLG, MFVideoTransFunc_Last, MFVideoTransFunc_Log_100, MFVideoTransFunc_Log_316, MFVideoTransFunc_Unknown, MFVideoTransFunc_sRGB, MFVideoTransferFunction, MFVideoTransferFunction enumeration [Media Foundation], _MFVideoTransferFunction, f9aff1d5-e9f7-48fd-9c86-8dc597d37dfa, mf.mfvideotransferfunction, mfobjects/MFVideoTransFunc_10, mfobjects/MFVideoTransFunc_18, mfobjects/MFVideoTransFunc_20, mfobjects/MFVideoTransFunc_2020, mfobjects/MFVideoTransFunc_2020_const, mfobjects/MFVideoTransFunc_2084, mfobjects/MFVideoTransFunc_22, mfobjects/MFVideoTransFunc_240M, mfobjects/MFVideoTransFunc_26, mfobjects/MFVideoTransFunc_28, mfobjects/MFVideoTransFunc_709, mfobjects/MFVideoTransFunc_709_sym, mfobjects/MFVideoTransFunc_ForceDWORD, mfobjects/MFVideoTransFunc_HLG, mfobjects/MFVideoTransFunc_Last, mfobjects/MFVideoTransFunc_Log_100, mfobjects/MFVideoTransFunc_Log_316, mfobjects/MFVideoTransFunc_Unknown, mfobjects/MFVideoTransFunc_sRGB, mfobjects/MFVideoTransferFunction
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoTransferFunction
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfobjects.h
+api_name:
+-	MFVideoTransferFunction
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFVideoTransferFunction enumeration

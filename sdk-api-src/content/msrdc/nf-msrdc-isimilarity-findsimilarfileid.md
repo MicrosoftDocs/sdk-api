@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msrdc.ISimilarity.FindSimilarFileId
+title: ISimilarity::FindSimilarFileId
+author: windows-sdk-content
+description: Returns a list of files that are similar to a given file.
+old-location: rdc\isimilarity_findsimilarfileid.htm
+old-project: Rdc
+ms.assetid: 70a205fc-d90a-43fc-88f4-2f3a573c5a82
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: FindSimilarFileId, FindSimilarFileId method [Remote Differential Compression], FindSimilarFileId method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],FindSimilarFileId method, ISimilarity.FindSimilarFileId, ISimilarity::FindSimilarFileId, fs.isimilarity_findsimilarfileid, msrdc/ISimilarity::FindSimilarFileId, rdc.isimilarity_findsimilarfileid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msrdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: MsRdc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RdcMappingAccessMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsRdc.dll
+api_name:
+-	ISimilarity.FindSimilarFileId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISimilarity::FindSimilarFileId

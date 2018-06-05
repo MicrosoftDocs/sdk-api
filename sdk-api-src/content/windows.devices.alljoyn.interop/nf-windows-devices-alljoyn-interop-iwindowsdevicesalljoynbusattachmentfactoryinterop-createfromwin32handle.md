@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:windows.devices.alljoyn.interop.IWindowsDevicesAllJoynBusAttachmentFactoryInterop.CreateFromWin32Handle
+title: IWindowsDevicesAllJoynBusAttachmentFactoryInterop::alljoyn
+author: windows-sdk-content
+description: Constructs an AllJoynBusAttachment over an existing alljoyn_busattachment instance without taking ownership.
+old-location: alljoyn\iwindowsdevicesalljoynbusattachmentfactoryinterop_createfromwin32handle.htm
+old-project: AllJoyn
+ms.assetid: AB33FA90-7A74-4B0D-8E99-EF304E508FCB
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: CreateFromWin32Handle, CreateFromWin32Handle method [AllJoyn API], CreateFromWin32Handle method [AllJoyn API],IInspectable interface, CreateFromWin32Handle method [AllJoyn API],IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface, IInspectable ::CreateFromWin32Handle, IInspectable interface [AllJoyn API],CreateFromWin32Handle method, IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API],CreateFromWin32Handle method, IWindowsDevicesAllJoynBusAttachmentFactoryInterop.CreateFromWin32Handle, IWindowsDevicesAllJoynBusAttachmentFactoryInterop.alljoyn, IWindowsDevicesAllJoynBusAttachmentFactoryInterop::CreateFromWin32Handle, IWindowsDevicesAllJoynBusAttachmentFactoryInterop::alljoyn, alljoyn.iwindowsdevicesalljoynbusattachmentfactoryinterop_createfromwin32handle, windows/IInspectable ::CreateFromWin32Handle, windows/IWindowsDevicesAllJoynBusAttachmentFactoryInterop::CreateFromWin32Handle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: windows.devices.alljoyn.interop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDF_RENDER_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	windows.devices.alljoyn.interop.h
+api_name:
+-	IWindowsDevicesAllJoynBusAttachmentFactoryInterop.CreateFromWin32Handle
+-	IInspectable .CreateFromWin32Handle
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWindowsDevicesAllJoynBusAttachmentFactoryInterop::alljoyn

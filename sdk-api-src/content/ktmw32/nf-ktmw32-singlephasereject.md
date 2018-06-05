@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ktmw32.SinglePhaseReject
+title: SinglePhaseReject function
+author: windows-sdk-content
+description: Indicates that the resource manager (RM) is refusing a single-phase request. When a transaction manager (TM) receives this call, it initiates a two-phase commit and sends a prepare request to all enlisted RMs.
+old-location: fs\singlephasereject.htm
+old-project: Ktm
+ms.assetid: 8cc77686-e130-4b82-b2f5-70121b40e052
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: SinglePhaseReject, SinglePhaseReject function [Files], fs.singlephasereject, ktmw32/SinglePhaseReject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ktmw32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ktmw32.dll
+api_name:
+-	SinglePhaseReject
+product: Windows
+targetos: Windows
+req.lib: Ktmw32.lib
+req.dll: Ktmw32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # SinglePhaseReject function

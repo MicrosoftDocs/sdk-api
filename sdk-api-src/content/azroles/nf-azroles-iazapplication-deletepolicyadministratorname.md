@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzApplication.DeletePolicyAdministratorName
+title: IAzApplication::DeletePolicyAdministratorName
+author: windows-sdk-content
+description: Removes the specified account name from the list of principals that act as policy administrators.
+old-location: security\iazapplication_deletepolicyadministratorname.htm
+old-project: SecAuthZ
+ms.assetid: 6da92103-6de0-4310-b52c-c1441e775da8
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AzApplication object [Security],DeletePolicyAdministratorName method, DeletePolicyAdministratorName, DeletePolicyAdministratorName method [Security], DeletePolicyAdministratorName method [Security],AzApplication object, DeletePolicyAdministratorName method [Security],IAzApplication interface, IAzApplication interface [Security],DeletePolicyAdministratorName method, IAzApplication.DeletePolicyAdministratorName, IAzApplication::DeletePolicyAdministratorName, azroles/IAzApplication::DeletePolicyAdministratorName, security.iazapplication_deletepolicyadministratorname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzApplication.DeletePolicyAdministratorName
+-	AzApplication.DeletePolicyAdministratorName
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzApplication::DeletePolicyAdministratorName

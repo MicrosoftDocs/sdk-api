@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxgi1_2.IDXGIResource1.CreateSharedHandle
+title: IDXGIResource1::CreateSharedHandle
+author: windows-sdk-content
+description: Creates a handle to a shared resource. You can then use the returned handle with multiple Direct3D devices.
+old-location: direct3ddxgi\idxgiresource1_createsharedhandle.htm
+old-project: direct3ddxgi
+ms.assetid: 7A53616A-E7AB-4EB7-9B8F-ED43A70B691C
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: CreateSharedHandle, CreateSharedHandle method [DXGI], CreateSharedHandle method [DXGI],IDXGIResource1 interface, IDXGIResource1 interface [DXGI],CreateSharedHandle method, IDXGIResource1.CreateSharedHandle, IDXGIResource1::CreateSharedHandle, direct3ddxgi.idxgiresource1_createsharedhandle, dxgi1_2/IDXGIResource1::CreateSharedHandle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi1_2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dxgi.lib
+-	Dxgi.dll
+api_name:
+-	IDXGIResource1.CreateSharedHandle
+product: Windows
+targetos: Windows
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIResource1::CreateSharedHandle

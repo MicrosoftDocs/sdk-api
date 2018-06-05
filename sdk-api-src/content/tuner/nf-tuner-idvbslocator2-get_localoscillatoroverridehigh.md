@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tuner.IDVBSLocator2.get_LocalOscillatorOverrideHigh
+title: IDVBSLocator2::get_LocalOscillatorOverrideHigh
+author: windows-sdk-content
+description: Specifies the high oscillator frequency of a Digital Video Broadcasting (DVB) system, in kHz.
+old-location: mstv\idvbslocator2_localoscillatoroverridehigh.htm
+old-project: mstv
+ms.assetid: 72cc7ca2-f021-4f86-b5d5-443db88298b8
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],LocalOscillatorOverrideHigh property, IDVBSLocator2.LocalOscillatorOverrideHigh, IDVBSLocator2.get_LocalOscillatorOverrideHigh, IDVBSLocator2::LocalOscillatorOverrideHigh, IDVBSLocator2::get_LocalOscillatorOverrideHigh, IDVBSLocator2::put_LocalOscillatorOverrideHigh, LocalOscillatorOverrideHigh property [Microsoft TV Technologies], LocalOscillatorOverrideHigh property [Microsoft TV Technologies],IDVBSLocator2 interface, get_LocalOscillatorOverrideHigh, mstv.idvbslocator2_localoscillatoroverridehigh, tuner/IDVBSLocator2::LocalOscillatorOverrideHigh, tuner/IDVBSLocator2::get_LocalOscillatorOverrideHigh, tuner/IDVBSLocator2::put_LocalOscillatorOverrideHigh
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tuner.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IDVBSLocator2.LocalOscillatorOverrideHigh
+-	IDVBSLocator2.get_LocalOscillatorOverrideHigh
+-	IDVBSLocator2.put_LocalOscillatorOverrideHigh
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IDVBSLocator2::get_LocalOscillatorOverrideHigh

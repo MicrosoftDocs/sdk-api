@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ws2def._SOCKET_PROCESSOR_AFFINITY
+title: "_SOCKET_PROCESSOR_AFFINITY"
+author: windows-sdk-content
+description: Contains the association between a socket and an RSS processor core and NUMA node.
+old-location: winsock\socket_processor_affinity.htm
+old-project: WinSock
+ms.assetid: CB1E9F79-C6BD-40C2-8D0F-36B24B1BBBF4
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PSOCKET_PROCESSOR_AFFINITY, PSOCKET_PROCESSOR_AFFINITY, PSOCKET_PROCESSOR_AFFINITY structure pointer [Winsock], SOCKET_PROCESSOR_AFFINITY, SOCKET_PROCESSOR_AFFINITY structure [Winsock], _SOCKET_PROCESSOR_AFFINITY, winsock.socket_processor_affinity, ws2def/PSOCKET_PROCESSOR_AFFINITY, ws2def/SOCKET_PROCESSOR_AFFINITY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ws2def.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wrdsgraphicschannels.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOCKET_PROCESSOR_AFFINITY, *PSOCKET_PROCESSOR_AFFINITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ws2def.h
+api_name:
+-	SOCKET_PROCESSOR_AFFINITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SOCKET_PROCESSOR_AFFINITY structure

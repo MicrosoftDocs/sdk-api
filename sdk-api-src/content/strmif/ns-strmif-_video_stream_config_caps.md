@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:strmif._VIDEO_STREAM_CONFIG_CAPS
+title: "_VIDEO_STREAM_CONFIG_CAPS"
+author: windows-sdk-content
+description: The VIDEO_STREAM_CONFIG_CAPS structure describes a range of video formats. Video compression and video capture filters use this structure to describe what formats they can produce.
+old-location: dshow\video_stream_config_caps.htm
+old-project: DirectShow
+ms.assetid: c4e68065-79d0-4e2e-abe5-2e5b6a51bd40
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: 0, 1, 2, 3 and higher, VIDEO_STREAM_CONFIG_CAPS, VIDEO_STREAM_CONFIG_CAPS structure [DirectShow], VIDEO_STREAM_CONFIG_CAPSStructure, _VIDEO_STREAM_CONFIG_CAPS, dshow.video_stream_config_caps, strmif/VIDEO_STREAM_CONFIG_CAPS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIDEO_STREAM_CONFIG_CAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	VIDEO_STREAM_CONFIG_CAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP
 ---
 
 # _VIDEO_STREAM_CONFIG_CAPS structure

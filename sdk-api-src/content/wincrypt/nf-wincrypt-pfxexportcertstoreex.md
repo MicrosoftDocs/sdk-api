@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.PFXExportCertStoreEx
+title: PFXExportCertStoreEx function
+author: windows-sdk-content
+description: Exports the certificates and, if available, their associated private keys from the referenced certificate store.
+old-location: security\pfxexportcertstoreex.htm
+old-project: SecCrypto
+ms.assetid: e8bd54b1-946f-4c65-8a86-96f0dbec07ff
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: EXPORT_PRIVATE_KEYS, PFXExportCertStoreEx, PFXExportCertStoreEx function [Security], PKCS12_INCLUDE_EXTENDED_PROPERTIES, PKCS12_PROTECT_TO_DOMAIN_SIDS, REPORT_NOT_ABLE_TO_EXPORT_PRIVATE_KEY, REPORT_NO_PRIVATE_KEY, _crypto2_pfxexportcertstoreex, security.pfxexportcertstoreex, wincrypt/PFXExportCertStoreEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	PFXExportCertStoreEx
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PFXExportCertStoreEx function

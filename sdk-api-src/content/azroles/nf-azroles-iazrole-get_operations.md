@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzRole.get_Operations
+title: IAzRole::get_Operations
+author: windows-sdk-content
+description: Retrieves the operations associated with the role.
+old-location: security\iazrole_operations.htm
+old-project: SecAuthZ
+ms.assetid: 44d90f1e-6112-4f02-b840-2ba7af8d9f33
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AzRole object [Security],Operations property, IAzRole interface [Security],Operations property, IAzRole.Operations, IAzRole.get_Operations, IAzRole::Operations, IAzRole::get_Operations, Operations property [Security], Operations property [Security],AzRole object, Operations property [Security],IAzRole interface, azroles/IAzRole::Operations, azroles/IAzRole::get_Operations, get_Operations, security.iazrole_operations
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzRole.Operations
+-	IAzRole.get_Operations
+-	AzRole.Operations
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzRole::get_Operations

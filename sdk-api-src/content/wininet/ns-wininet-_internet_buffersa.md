@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wininet._INTERNET_BUFFERSA
+title: "_INTERNET_BUFFERSA"
+author: windows-sdk-content
+description: Contains both the data and header information.
+old-location: wininet\internet_buffers.htm
+old-project: WinInet
+ms.assetid: 9381184d-17f4-46ad-bd09-15c7e653d1b9
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPINTERNET_BUFFERSA, INTERNET_BUFFERS, INTERNET_BUFFERS structure [WinINet], INTERNET_BUFFERSA, INTERNET_BUFFERSW, LPINTERNET_BUFFERS, LPINTERNET_BUFFERS structure pointer [WinINet], _INTERNET_BUFFERSA, _win32_internet_buffers, wininet.internet_buffers, wininet/ LPINTERNET_BUFFERS, wininet/INTERNET_BUFFERS, wininet/INTERNET_BUFFERSA, wininet/INTERNET_BUFFERSW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wininet.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: INTERNET_BUFFERSW (Unicode) and INTERNET_BUFFERSA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INTERNET_BUFFERSA, *LPINTERNET_BUFFERSA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wininet.h
+api_name:
+-	INTERNET_BUFFERS
+-	INTERNET_BUFFERSA
+-	INTERNET_BUFFERSW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _INTERNET_BUFFERSA structure

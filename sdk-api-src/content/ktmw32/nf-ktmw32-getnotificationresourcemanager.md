@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ktmw32.GetNotificationResourceManager
+title: GetNotificationResourceManager function
+author: windows-sdk-content
+description: Requests and receives a notification for a resource manager (RM). This function is used by the RM register to receive notifications when a transaction changes state.
+old-location: fs\getnotificationresourcemanager.htm
+old-project: Ktm
+ms.assetid: d606f960-e843-4478-8ba7-5201f85c44ce
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetNotificationResourceManager, GetNotificationResourceManager function [Files], fs.getnotificationresourcemanager, ktmw32/GetNotificationResourceManager
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ktmw32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	KtmW32.dll
+api_name:
+-	GetNotificationResourceManager
+product: Windows
+targetos: Windows
+req.lib: KtmW32.lib
+req.dll: KtmW32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # GetNotificationResourceManager function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmscreen.IFsrmFileGroup.get_Name
+title: IFsrmFileGroup::get_Name
+author: windows-sdk-content
+description: Retrieves or sets the name of the file group.
+old-location: fsrm\ifsrmfilegroup_name.htm
+old-project: Fsrm
+ms.assetid: 46baa451-21d5-4a03-a437-483f9bcc2812
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmFileGroup interface [File Server Resource Manager],Name property, IFsrmFileGroup.Name, IFsrmFileGroup.get_Name, IFsrmFileGroup::Name, IFsrmFileGroup::get_Name, IFsrmFileGroup::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmFileGroup interface, fs.ifsrmfilegroup_name, fsrm.ifsrmfilegroup_name, fsrmscreen/IFsrmFileGroup::Name, fsrmscreen/IFsrmFileGroup::get_Name, fsrmscreen/IFsrmFileGroup::put_Name, get_Name
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmscreen.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileGroup.Name
+-	IFsrmFileGroup.get_Name
+-	IFsrmFileGroup.put_Name
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileGroup::get_Name

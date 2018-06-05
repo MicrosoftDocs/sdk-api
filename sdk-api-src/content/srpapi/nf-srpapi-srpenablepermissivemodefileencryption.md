@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:srpapi.SrpEnablePermissiveModeFileEncryption
+title: SrpEnablePermissiveModeFileEncryption function
+author: windows-sdk-content
+description: Enables permissive mode for file encryption on the current thread and all threads this thread will create or post work to.
+old-location: edp\srpenablepermissivemodefileencryption_.htm
+old-project: EDP
+ms.assetid: 4CC6D174-55FC-40D7-BE7B-5F56B27DA225
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: EDP.srpenablepermissivemodefileencryption_, SrpEnablePermissiveModeFileEncryption, SrpEnablePermissiveModeFileEncryption , SrpEnablePermissiveModeFileEncryption function, srpapi/SrpEnablePermissiveModeFileEncryption
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: srpapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENTERPRISE_DATA_POLICIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	srpapi.dll
+-	Ext-MS-Win-Security-Srp-L1-1-0.dll
+-	Ext-MS-Win-Security-Srp-L1-1-1.dll
+api_name:
+-	SrpEnablePermissiveModeFileEncryption
+product: Windows
+targetos: Windows
+req.lib: Srpapi.lib
+req.dll: Srpapi.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SrpEnablePermissiveModeFileEncryption function

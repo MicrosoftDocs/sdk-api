@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wlanapi._WLAN_HOSTED_NETWORK_REASON
+title: "_WLAN_HOSTED_NETWORK_REASON"
+author: windows-sdk-content
+description: Specifies the possible values for the result of a wireless Hosted Network function call.
+old-location: nwifi\wlan_hosted_network_reason.htm
+old-project: NativeWiFi
+ms.assetid: affca9ab-fcd4-474d-993c-f6bb6b1f967c
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_HOSTED_NETWORK_REASON, PWLAN_HOSTED_NETWORK_REASON, PWLAN_HOSTED_NETWORK_REASON enumeration pointer [NativeWIFI], WLAN_HOSTED_NETWORK_REASON, WLAN_HOSTED_NETWORK_REASON enumeration [NativeWIFI], _WLAN_HOSTED_NETWORK_REASON, nwifi.wlan_hosted_network_reason, wlan_hosted_network_reason_ap_start_failed, wlan_hosted_network_reason_bad_parameters, wlan_hosted_network_reason_client_abort, wlan_hosted_network_reason_crypt_error, wlan_hosted_network_reason_device_change, wlan_hosted_network_reason_elevation_required, wlan_hosted_network_reason_gp_denied, wlan_hosted_network_reason_impersonation, wlan_hosted_network_reason_incompatible_connection_started, wlan_hosted_network_reason_incompatible_connection_stopped, wlan_hosted_network_reason_insufficient_resources, wlan_hosted_network_reason_interface_available, wlan_hosted_network_reason_interface_unavailable, wlan_hosted_network_reason_miniport_started, wlan_hosted_network_reason_miniport_stopped, wlan_hosted_network_reason_peer_arrived, wlan_hosted_network_reason_peer_departed, wlan_hosted_network_reason_peer_timeout, wlan_hosted_network_reason_persistence_failed, wlan_hosted_network_reason_properties_change, wlan_hosted_network_reason_read_only, wlan_hosted_network_reason_service_available_on_virtual_station, wlan_hosted_network_reason_service_shutting_down, wlan_hosted_network_reason_service_unavailable, wlan_hosted_network_reason_stop_before_start, wlan_hosted_network_reason_success, wlan_hosted_network_reason_unspecified, wlan_hosted_network_reason_user_action, wlan_hosted_network_reason_virtual_station_blocking_use, wlanapi/PWLAN_HOSTED_NETWORK_REASON, wlanapi/WLAN_HOSTED_NETWORK_REASON, wlanapi/wlan_hosted_network_reason_ap_start_failed, wlanapi/wlan_hosted_network_reason_bad_parameters, wlanapi/wlan_hosted_network_reason_client_abort, wlanapi/wlan_hosted_network_reason_crypt_error, wlanapi/wlan_hosted_network_reason_device_change, wlanapi/wlan_hosted_network_reason_elevation_required, wlanapi/wlan_hosted_network_reason_gp_denied, wlanapi/wlan_hosted_network_reason_impersonation, wlanapi/wlan_hosted_network_reason_incompatible_connection_started, wlanapi/wlan_hosted_network_reason_incompatible_connection_stopped, wlanapi/wlan_hosted_network_reason_insufficient_resources, wlanapi/wlan_hosted_network_reason_interface_available, wlanapi/wlan_hosted_network_reason_interface_unavailable, wlanapi/wlan_hosted_network_reason_miniport_started, wlanapi/wlan_hosted_network_reason_miniport_stopped, wlanapi/wlan_hosted_network_reason_peer_arrived, wlanapi/wlan_hosted_network_reason_peer_departed, wlanapi/wlan_hosted_network_reason_peer_timeout, wlanapi/wlan_hosted_network_reason_persistence_failed, wlanapi/wlan_hosted_network_reason_properties_change, wlanapi/wlan_hosted_network_reason_read_only, wlanapi/wlan_hosted_network_reason_service_available_on_virtual_station, wlanapi/wlan_hosted_network_reason_service_shutting_down, wlanapi/wlan_hosted_network_reason_service_unavailable, wlanapi/wlan_hosted_network_reason_stop_before_start, wlanapi/wlan_hosted_network_reason_success, wlanapi/wlan_hosted_network_reason_unspecified, wlanapi/wlan_hosted_network_reason_user_action, wlanapi/wlan_hosted_network_reason_virtual_station_blocking_use"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wlanapi.h
+req.include-header: Wlanapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_HOSTED_NETWORK_REASON, *PWLAN_HOSTED_NETWORK_REASON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wlanapi.h
+api_name:
+-	WLAN_HOSTED_NETWORK_REASON
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_HOSTED_NETWORK_REASON enumeration

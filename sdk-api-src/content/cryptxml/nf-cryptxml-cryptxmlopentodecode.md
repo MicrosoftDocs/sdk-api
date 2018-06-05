@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cryptxml.CryptXmlOpenToDecode
+title: CryptXmlOpenToDecode function
+author: windows-sdk-content
+description: Opens an XML digital signature to decode and returns the handle of the document context that encapsulates a CRYPT_XML_SIGNATURE structure. The document context can include one or more Signature elements.
+old-location: security\cryptxmlopentodecode.htm
+old-project: SecCrypto
+ms.assetid: b6a77d62-b92d-4b83-949f-14a0ce3ce025
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_FLAG_NO_SERIALIZE, CryptXmlOpenToDecode, CryptXmlOpenToDecode function [Security], cryptxml/CryptXmlOpenToDecode, security.cryptxmlopentodecode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cryptxml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_XML_PROPERTY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cryptxml.dll
+api_name:
+-	CryptXmlOpenToDecode
+product: Windows
+targetos: Windows
+req.lib: Cryptxml.lib
+req.dll: Cryptxml.dll
+req.irql: 
 ---
 
 # CryptXmlOpenToDecode function

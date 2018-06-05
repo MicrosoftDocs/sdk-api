@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:sdoias._USERPROPERTIES
+title: "_USERPROPERTIES"
+author: windows-sdk-content
+description: The values of the USERPROPERTIES enumeration type enumerate the user properties supported by the SDO API.
+old-location: nps\SDO_userproperties.htm
+old-project: Nps
+ms.assetid: ce16b0e4-3be1-42fc-a489-d3ddce2ebf3f
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PROPERTY_USER_ALLOW_DIALIN, PROPERTY_USER_CALLING_STATION_ID, PROPERTY_USER_RADIUS_CALLBACK_NUMBER, PROPERTY_USER_RADIUS_FRAMED_INTERFACE_ID, PROPERTY_USER_RADIUS_FRAMED_IPV6_PREFIX, PROPERTY_USER_RADIUS_FRAMED_IPV6_ROUTE, PROPERTY_USER_RADIUS_FRAMED_IP_ADDRESS, PROPERTY_USER_RADIUS_FRAMED_ROUTE, PROPERTY_USER_SAVED_CALLING_STATION_ID, PROPERTY_USER_SAVED_RADIUS_CALLBACK_NUMBER, PROPERTY_USER_SAVED_RADIUS_FRAMED_INTERFACE_ID, PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_PREFIX, PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_ROUTE, PROPERTY_USER_SAVED_RADIUS_FRAMED_IP_ADDRESS, PROPERTY_USER_SAVED_RADIUS_FRAMED_ROUTE, PROPERTY_USER_SERVICE_TYPE, USERPROPERTIES, USERPROPERTIES enumeration [Network Policy Server], _USERPROPERTIES, _sdo_userproperties, nps.SDO_userproperties, sdo.userproperties, sdoias/PROPERTY_USER_ALLOW_DIALIN, sdoias/PROPERTY_USER_CALLING_STATION_ID, sdoias/PROPERTY_USER_RADIUS_CALLBACK_NUMBER, sdoias/PROPERTY_USER_RADIUS_FRAMED_INTERFACE_ID, sdoias/PROPERTY_USER_RADIUS_FRAMED_IPV6_PREFIX, sdoias/PROPERTY_USER_RADIUS_FRAMED_IPV6_ROUTE, sdoias/PROPERTY_USER_RADIUS_FRAMED_IP_ADDRESS, sdoias/PROPERTY_USER_RADIUS_FRAMED_ROUTE, sdoias/PROPERTY_USER_SAVED_CALLING_STATION_ID, sdoias/PROPERTY_USER_SAVED_RADIUS_CALLBACK_NUMBER, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_INTERFACE_ID, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_PREFIX, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_ROUTE, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_IP_ADDRESS, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_ROUTE, sdoias/PROPERTY_USER_SERVICE_TYPE, sdoias/USERPROPERTIES
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: sdoias.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERPROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	SdoIas.h
+api_name:
+-	USERPROPERTIES
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _USERPROPERTIES enumeration

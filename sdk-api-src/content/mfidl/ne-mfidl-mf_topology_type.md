@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl.MF_TOPOLOGY_TYPE
+title: MF_TOPOLOGY_TYPE
+author: windows-sdk-content
+description: Defines the type of a topology node.
+old-location: mf\mf_topology_type.htm
+old-project: medfound
+ms.assetid: 73ea1f48-0d86-4104-860c-83a4f9189920
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 73ea1f48-0d86-4104-860c-83a4f9189920, MF_TOPOLOGY_MAX, MF_TOPOLOGY_OUTPUT_NODE, MF_TOPOLOGY_SOURCESTREAM_NODE, MF_TOPOLOGY_TEE_NODE, MF_TOPOLOGY_TRANSFORM_NODE, MF_TOPOLOGY_TYPE, MF_TOPOLOGY_TYPE enumeration [Media Foundation], mf.mf_topology_type, mfidl/MF_TOPOLOGY_MAX, mfidl/MF_TOPOLOGY_OUTPUT_NODE, mfidl/MF_TOPOLOGY_SOURCESTREAM_NODE, mfidl/MF_TOPOLOGY_TEE_NODE, mfidl/MF_TOPOLOGY_TRANSFORM_NODE, mfidl/MF_TOPOLOGY_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_TOPOLOGY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MF_TOPOLOGY_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MF_TOPOLOGY_TYPE enumeration

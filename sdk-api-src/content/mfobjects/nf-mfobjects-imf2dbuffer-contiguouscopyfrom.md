@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMF2DBuffer.ContiguousCopyFrom
+title: IMF2DBuffer::ContiguousCopyFrom
+author: windows-sdk-content
+description: Copies data to this buffer from a buffer that has a contiguous format.
+old-location: mf\imf2dbuffer_contiguouscopyfrom.htm
+old-project: medfound
+ms.assetid: 84634782-7805-4e2b-a043-7e49adef5c2a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 84634782-7805-4e2b-a043-7e49adef5c2a, ContiguousCopyFrom, ContiguousCopyFrom method [Media Foundation], ContiguousCopyFrom method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],ContiguousCopyFrom method, IMF2DBuffer.ContiguousCopyFrom, IMF2DBuffer::ContiguousCopyFrom, mf.imf2dbuffer_contiguouscopyfrom, mfobjects/IMF2DBuffer::ContiguousCopyFrom
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMF2DBuffer.ContiguousCopyFrom
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMF2DBuffer::ContiguousCopyFrom

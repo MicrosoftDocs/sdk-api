@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rtscom.IRealTimeStylus.put_HWND
+title: IRealTimeStylus::put_HWND
+author: windows-sdk-content
+description: Gets or sets the handle value associated with the window the RealTimeStylus object uses.
+old-location: tablet\irealtimestylus_hwnd.htm
+old-project: tablet
+ms.assetid: b6bc8053-80fa-45f3-8096-272b471a5f6d
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: HWND property [Tablet PC], HWND property [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],HWND property, IRealTimeStylus.HWND, IRealTimeStylus.get_HWND, IRealTimeStylus.put_HWND, IRealTimeStylus::HWND, IRealTimeStylus::get_HWND, IRealTimeStylus::put_HWND, b6bc8053-80fa-45f3-8096-272b471a5f6d, put_HWND, rtscom/IRealTimeStylus::HWND, rtscom/IRealTimeStylus::get_HWND, rtscom/IRealTimeStylus::put_HWND, tablet.irealtimestylus_hwnd
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rtscom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: StylusQueue
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RTSCom.dll
+api_name:
+-	IRealTimeStylus.HWND
+-	IRealTimeStylus.get_HWND
+-	IRealTimeStylus.put_HWND
+-	IRealTimeStylus.get_HWND
+-	IRealTimeStylus.put_HWND
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRealTimeStylus::put_HWND

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:eaptypes._EapCredentialType
+title: "_EapCredentialType"
+author: windows-sdk-content
+description: Defines the set of possible EAP credentials that can be passed to the EapPeerGetConfigBlobAndUserBlob function.
+old-location: eaphost\eapcredentialtype.htm
+old-project: EAPHost
+ms.assetid: E77AA5E1-970A-43A6-916D-623A9C554F53
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: EAP_CERTIFICATE_CREDENTIAL, EAP_EMPTY_CREDENTIAL, EAP_SIM_CREDENTIAL, EAP_USERNAME_PASSWORD_CREDENTIAL, EAP_WINLOGON_CREDENTIAL, EapCredentialType, EapCredentialType enumeration [EAPHost], _EapCredentialType, eaphost.eapcredentialtype, eaptypes/EAP_CERTIFICATE_CREDENTIAL, eaptypes/EAP_EMPTY_CREDENTIAL, eaptypes/EAP_SIM_CREDENTIAL, eaptypes/EAP_USERNAME_PASSWORD_CREDENTIAL, eaptypes/EAP_WINLOGON_CREDENTIAL, eaptypes/EapCredentialType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: eaptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EapCredentialType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	eaptypes.h
+api_name:
+-	EapCredentialType
+product: Windows
+targetos: Windows
+req.lib: Eappprxy.lib
+req.dll: Eappprxy.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _EapCredentialType enumeration

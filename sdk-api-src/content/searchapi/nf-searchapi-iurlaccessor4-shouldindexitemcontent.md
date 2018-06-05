@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:searchapi.IUrlAccessor4.ShouldIndexItemContent
+title: IUrlAccessor4::ShouldIndexItemContent
+author: windows-sdk-content
+description: Identifies whether the item's content should be indexed.
+old-location: search\_search_IUrlAccessor4_ShouldIndexItemContent.htm
+old-project: search
+ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor4\shouldindexitemcontent.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IUrlAccessor4 interface [search],ShouldIndexItemContent method, IUrlAccessor4.ShouldIndexItemContent, IUrlAccessor4::ShouldIndexItemContent, ShouldIndexItemContent, ShouldIndexItemContent method [search], ShouldIndexItemContent method [search],IUrlAccessor4 interface, _search_IUrlAccessor4_ShouldIndexItemContent, search._search_IUrlAccessor4_ShouldIndexItemContent, searchapi/IUrlAccessor4::ShouldIndexItemContent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: searchapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Urlaccsdk.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ROWSETEVENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Searchapi.h
+api_name:
+-	IUrlAccessor4.ShouldIndexItemContent
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IUrlAccessor4::ShouldIndexItemContent

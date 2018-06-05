@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbe.ISBE2StreamMap.EnumMappedStreams
+title: ISBE2StreamMap::EnumMappedStreams
+author: windows-sdk-content
+description: Enumerates streams that are mapped to output pins in a Stream Buffer Source filter.
+old-location: mstv\isbe2streammap_enummappedstreams.htm
+old-project: mstv
+ms.assetid: bb98db94-3aa1-4f29-b98a-7594e27466ef
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EnumMappedStreams, EnumMappedStreams method [Microsoft TV Technologies], EnumMappedStreams method [Microsoft TV Technologies],ISBE2StreamMap interface, ISBE2StreamMap interface [Microsoft TV Technologies],EnumMappedStreams method, ISBE2StreamMap.EnumMappedStreams, ISBE2StreamMap::EnumMappedStreams, mstv.isbe2streammap_enummappedstreams, sbe/ISBE2StreamMap::EnumMappedStreams
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Sbe.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAMBUFFER_ATTR_DATATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbe.h
+api_name:
+-	ISBE2StreamMap.EnumMappedStreams
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISBE2StreamMap::EnumMappedStreams

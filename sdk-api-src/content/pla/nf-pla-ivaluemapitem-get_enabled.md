@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IValueMapItem.get_Enabled
+title: IValueMapItem::get_Enabled
+author: windows-sdk-content
+description: Retrieves or sets a value that indicates whether the item is enabled.
+old-location: pla\ivaluemapitem_enabled.htm
+old-project: PLA
+ms.assetid: f23e02bf-217a-44a2-9e1f-e92a39c1b065
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: Enabled property [PLA], Enabled property [PLA],IValueMapItem interface, IValueMapItem interface [PLA],Enabled property, IValueMapItem.Enabled, IValueMapItem.get_Enabled, IValueMapItem::Enabled, IValueMapItem::get_Enabled, IValueMapItem::put_Enabled, base.ivaluemapitem_enabled, get_Enabled, pla.ivaluemapitem_enabled, pla/IValueMapItem::Enabled, pla/IValueMapItem::get_Enabled, pla/IValueMapItem::put_Enabled
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IValueMapItem.Enabled
+-	IValueMapItem.get_Enabled
+-	IValueMapItem.put_Enabled
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IValueMapItem::get_Enabled

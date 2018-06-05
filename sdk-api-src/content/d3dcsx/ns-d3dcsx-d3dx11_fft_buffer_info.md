@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3dcsx.D3DX11_FFT_BUFFER_INFO
+title: D3DX11_FFT_BUFFER_INFO
+author: windows-sdk-content
+description: Describes buffer requirements for an FFT.
+old-location: direct3d11\d3dx11_fft_buffer_info.htm
+old-project: direct3d11
+ms.assetid: 18db9e61-f1bc-4c70-8b2c-37305d9ac479
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3DX11_FFT_BUFFER_INFO, D3DX11_FFT_BUFFER_INFO structure [Direct3D 11], d3dcsx/D3DX11_FFT_BUFFER_INFO, direct3d11.d3dx11_fft_buffer_info, f06d9ab2-6da1-c0ae-f9cc-c42662b380f5
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3dcsx.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DX11_FFT_BUFFER_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3dcsx.h
+api_name:
+-	D3DX11_FFT_BUFFER_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3DX11_FFT_BUFFER_INFO structure

@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0003
+title: "__MIDL___MIDL_itf_bits5_0_0000_0000_0003"
+author: windows-sdk-content
+description: Provides the property value of the BITS job based on the value of the BITS_JOB_PROPERTY_ID enumeration.
+old-location: bits\bits_job_property_value.htm
+old-project: Bits
+ms.assetid: DF1DDB37-F16F-47FF-B6C1-8C545A827CCB
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BITS_JOB_PROPERTY_VALUE, BITS_JOB_PROPERTY_VALUE union [BITS], __MIDL___MIDL_itf_bits5_0_0000_0000_0003, bits.bits_job_property_value, bits.bits_job_property_value_union, bits5_0/BITS_JOB_PROPERTY_VALUE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bits5_0.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits5_0.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITS_JOB_PROPERTY_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bits5_0.h
+api_name:
+-	BITS_JOB_PROPERTY_VALUE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # __MIDL___MIDL_itf_bits5_0_0000_0000_0003 structure

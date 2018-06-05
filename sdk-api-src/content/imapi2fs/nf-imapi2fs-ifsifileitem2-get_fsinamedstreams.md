@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imapi2fs.IFsiFileItem2.get_FsiNamedStreams
+title: IFsiFileItem2::get_FsiNamedStreams
+author: windows-sdk-content
+description: Retrieves a collection of named streams associated with a file in the file system image.
+old-location: imapi\ifsifileitem2_get_fsinamedstreams.htm
+old-project: imapi
+ms.assetid: 011c6241-4989-41ca-9876-d6810797a382
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IFsiFileItem2 interface [IMAPI],get_FsiNamedStreams method, IFsiFileItem2.get_FsiNamedStreams, IFsiFileItem2::get_FsiNamedStreams, get_FsiNamedStreams, get_FsiNamedStreams method [IMAPI], get_FsiNamedStreams method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_fsinamedstreams, imapi2fs/IFsiFileItem2::get_FsiNamedStreams
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imapi2fs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PlatformId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2fs.h
+api_name:
+-	IFsiFileItem2.get_FsiNamedStreams
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IFsiFileItem2::get_FsiNamedStreams

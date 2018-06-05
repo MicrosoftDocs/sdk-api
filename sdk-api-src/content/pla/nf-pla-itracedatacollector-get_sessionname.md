@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.ITraceDataCollector.get_SessionName
+title: ITraceDataCollector::get_SessionName
+author: windows-sdk-content
+description: Retrieves or sets the name of the session.
+old-location: pla\itracedatacollector_sessionname.htm
+old-project: PLA
+ms.assetid: eef98aa2-8494-46d6-bbc2-1115eff30996
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ITraceDataCollector interface [PLA],SessionName property, ITraceDataCollector.SessionName, ITraceDataCollector.get_SessionName, ITraceDataCollector::SessionName, ITraceDataCollector::get_SessionName, ITraceDataCollector::put_SessionName, SessionName property [PLA], SessionName property [PLA],ITraceDataCollector interface, base.itracedatacollector_sessionname, get_SessionName, pla.itracedatacollector_sessionname, pla/ITraceDataCollector::SessionName, pla/ITraceDataCollector::get_SessionName, pla/ITraceDataCollector::put_SessionName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	ITraceDataCollector.SessionName
+-	ITraceDataCollector.get_SessionName
+-	ITraceDataCollector.put_SessionName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITraceDataCollector::get_SessionName

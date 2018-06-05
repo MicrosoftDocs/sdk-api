@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oaidl.ITypeInfo.Invoke
+title: ITypeInfo::Invoke
+author: windows-sdk-content
+description: Invokes a method, or accesses a property of an object, that implements the interface described by the type description.
+old-location: automat\itypeinfo_invoke.htm
+old-project: automat
+ms.assetid: dde2ca58-84bd-4a49-a160-a9955d691f3b
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, ITypeInfo interface [Automation],Invoke method, ITypeInfo.Invoke, ITypeInfo2.Invoke, ITypeInfo::Invoke, Invoke, Invoke method [Automation], Invoke method [Automation],ITypeInfo interface, _oa96_ITypeInfo_Invoke, automat.itypeinfo_invoke, oaidl/ITypeInfo::Invoke
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OaIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+-	oleaut32.dll
+api_name:
+-	ITypeInfo.Invoke
+-	ITypeInfo2.Invoke
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITypeInfo::Invoke

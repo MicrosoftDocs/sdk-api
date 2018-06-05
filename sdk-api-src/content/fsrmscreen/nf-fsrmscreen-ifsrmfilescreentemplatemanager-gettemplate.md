@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmscreen.IFsrmFileScreenTemplateManager.GetTemplate
+title: IFsrmFileScreenTemplateManager::GetTemplate
+author: windows-sdk-content
+description: Retrieves the specified file screen template.
+old-location: fsrm\ifsrmfilescreentemplatemanager_gettemplate.htm
+old-project: Fsrm
+ms.assetid: e97149f6-8cf5-433c-a487-799322253e44
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmFileScreenTemplateManager class [File Server Resource Manager],GetTemplate method, GetTemplate, GetTemplate method [File Server Resource Manager], GetTemplate method [File Server Resource Manager],FsrmFileScreenTemplateManager class, GetTemplate method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],GetTemplate method, IFsrmFileScreenTemplateManager.GetTemplate, IFsrmFileScreenTemplateManager::GetTemplate, fs.ifsrmfilescreentemplatemanager_gettemplate, fsrm.ifsrmfilescreentemplatemanager_gettemplate, fsrmscreen/IFsrmFileScreenTemplateManager::GetTemplate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmscreen.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileScreenTemplateManager.GetTemplate
+-	FsrmFileScreenTemplateManager.GetTemplate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileScreenTemplateManager::GetTemplate

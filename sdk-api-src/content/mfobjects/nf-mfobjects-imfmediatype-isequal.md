@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMFMediaType.IsEqual
+title: IMFMediaType::IsEqual
+author: windows-sdk-content
+description: Compares two media types and determines whether they are identical. If they are not identical, the method indicates how the two formats differ.
+old-location: mf\imfmediatype_isequal.htm
+old-project: medfound
+ms.assetid: 42b5b0e8-3b13-4bda-a53c-0428a3c9b131
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 42b5b0e8-3b13-4bda-a53c-0428a3c9b131, IMFMediaType interface [Media Foundation],IsEqual method, IMFMediaType.IsEqual, IMFMediaType::IsEqual, IsEqual, IsEqual method [Media Foundation], IsEqual method [Media Foundation],IMFMediaType interface, MF_MEDIATYPE_EQUAL_FORMAT_DATA, MF_MEDIATYPE_EQUAL_FORMAT_TYPES, MF_MEDIATYPE_EQUAL_FORMAT_USER_DATA, MF_MEDIATYPE_EQUAL_MAJOR_TYPES, mf.imfmediatype_isequal, mfobjects/IMFMediaType::IsEqual
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFMediaType.IsEqual
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFMediaType::IsEqual

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lsalookup._LSA_UNICODE_STRING
+title: "_LSA_UNICODE_STRING"
+author: windows-sdk-content
+description: The LSA_UNICODE_STRING structure is used by various Local Security Authority (LSA) functions to specify a Unicode string.
+old-location: security\lsa_unicode_string.htm
+old-project: SecMgmt
+ms.assetid: 9e1cf20f-01f9-4813-bf95-e47c5d57dcdc
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PLSA_UNICODE_STRING, LSA_UNICODE_STRING, LSA_UNICODE_STRING structure [Security], PLSA_UNICODE_STRING, PLSA_UNICODE_STRING structure pointer [Security], UNICODE_STRING, _LSA_UNICODE_STRING, _lsa_lsa_unicode_string, lsalookup/LSA_UNICODE_STRING, lsalookup/PLSA_UNICODE_STRING, security.lsa_unicode_string"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lsalookup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LSA_UNICODE_STRING, *PLSA_UNICODE_STRING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	lsalookup.h
+api_name:
+-	LSA_UNICODE_STRING
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _LSA_UNICODE_STRING structure

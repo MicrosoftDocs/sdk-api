@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.AM_SEEKING_SeekingCapabilities
+title: AM_SEEKING_SeekingCapabilities
+author: windows-sdk-content
+description: Specifies the seeking capabilities of a media stream.
+old-location: dshow\am_seeking_seeking_capabilities.htm
+old-project: DirectShow
+ms.assetid: 1c7ad11b-2d10-409e-a292-b777566c637d
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AM_SEEKING_CanDoSegments, AM_SEEKING_CanGetCurrentPos, AM_SEEKING_CanGetDuration, AM_SEEKING_CanGetStopPos, AM_SEEKING_CanPlayBackwards, AM_SEEKING_CanSeekAbsolute, AM_SEEKING_CanSeekBackwards, AM_SEEKING_CanSeekForwards, AM_SEEKING_SEEKING_CAPABILITIES, AM_SEEKING_SEEKING_CAPABILITIES , AM_SEEKING_SEEKING_CAPABILITIES enumeration [DirectShow], AM_SEEKING_SEEKING_CAPABILITIESEnumeration, AM_SEEKING_SeekingCapabilities, AM_SEEKING_Source, dshow.am_seeking_seeking_capabilities, strmif/AM_SEEKING_CanDoSegments, strmif/AM_SEEKING_CanGetCurrentPos, strmif/AM_SEEKING_CanGetDuration, strmif/AM_SEEKING_CanGetStopPos, strmif/AM_SEEKING_CanPlayBackwards, strmif/AM_SEEKING_CanSeekAbsolute, strmif/AM_SEEKING_CanSeekBackwards, strmif/AM_SEEKING_CanSeekForwards, strmif/AM_SEEKING_SEEKING_CAPABILITIES, strmif/AM_SEEKING_Source
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_SEEKING_SEEKING_CAPABILITIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	AM_SEEKING_SEEKING_CAPABILITIES
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # AM_SEEKING_SeekingCapabilities enumeration

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IShellView2.GetView
+title: IShellView2::GetView
+author: windows-sdk-content
+description: Requests the current or default Shell view, together with all other valid view identifiers (VIDs) supported by this implementation of IShellView2.
+old-location: shell\IShellView2_GetView.htm
+old-project: shell
+ms.assetid: 74fe42fe-33de-483a-88e4-50da9c1f77c2
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetView, GetView method [Windows Shell], GetView method [Windows Shell],IShellView2 interface, IShellView2 interface [Windows Shell],GetView method, IShellView2.GetView, IShellView2::GetView, SV2GV_CURRENTVIEW, SV2GV_DEFAULTVIEW, VID_Details, VID_LargeIcons, VID_List, VID_SmallIcons, VID_Tile, _win32_IShellView2_GetView, shell.IShellView2_GetView, shobjidl_core/IShellView2::GetView
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IShellView2.GetView
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IShellView2::GetView

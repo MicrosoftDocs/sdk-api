@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:wingdi.DISPLAYCONFIG_VIDEO_SIGNAL_INFO
+title: DISPLAYCONFIG_VIDEO_SIGNAL_INFO
+author: windows-sdk-content
+description: The DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure contains information about the video signal for a display.
+old-location: display\displayconfig_video_signal_info.htm
+old-project: display
+ms.assetid: 960089fe-dbb7-41a1-af73-0002cfce6da2
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CCD_Structures_17b322c2-76a8-4f82-8ee7-c70d3f613d5a.xml, DISPLAYCONFIG_VIDEO_SIGNAL_INFO, DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure [Display Devices], display.displayconfig_video_signal_info, wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_VIDEO_SIGNAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wingdi.h
+api_name:
+-	DISPLAYCONFIG_VIDEO_SIGNAL_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure

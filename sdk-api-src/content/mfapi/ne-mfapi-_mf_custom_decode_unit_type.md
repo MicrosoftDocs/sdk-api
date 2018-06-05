@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfapi._MF_CUSTOM_DECODE_UNIT_TYPE
+title: "_MF_CUSTOM_DECODE_UNIT_TYPE"
+author: windows-sdk-content
+description: Specifies the type of unit contained in an IMFSample in a MFSampleExtension_ForwardedDecodeUnits collection.
+old-location: mf\mf_custom_decode_unit_type_enum.htm
+old-project: medfound
+ms.assetid: B74890ED-9586-475B-8C77-457ECB893980
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_CUSTOM_DECODE_UNIT_TYPE, MF_CUSTOM_DECODE_UNIT_TYPE enumeration [Media Foundation], MF_DECODE_UNIT_NAL, MF_DECODE_UNIT_SEI, _MF_CUSTOM_DECODE_UNIT_TYPE, mf.mf_custom_decode_unit_type_enum, mfapi/MF_CUSTOM_DECODE_UNIT_TYPE, mfapi/MF_DECODE_UNIT_NAL, mfapi/MF_DECODE_UNIT_SEI
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfapi.h
+api_name:
+-	MF_CUSTOM_DECODE_UNIT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MF_CUSTOM_DECODE_UNIT_TYPE enumeration

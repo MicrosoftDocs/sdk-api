@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:websocket._WEB_SOCKET_PROPERTY_TYPE
+title: "_WEB_SOCKET_PROPERTY_TYPE"
+author: windows-sdk-content
+description: Specifies a WebSocket property type.
+old-location: websock\web_socket_property_type.htm
+old-project: WebSock
+ms.assetid: d9442e90-a74f-452d-b1b5-9f4285b39f10
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WEB_SOCKET_ALLOCATED_BUFFER_PROPERTY_TYPE, WEB_SOCKET_DISABLE_MASKING_PROPERTY_TYPE, WEB_SOCKET_DISABLE_UTF8_VERIFICATION_PROPERTY_TYPE, WEB_SOCKET_KEEPALIVE_INTERVAL_PROPERTY_TYPE, WEB_SOCKET_PROPERTY_TYPE, WEB_SOCKET_PROPERTY_TYPE enumeration [Websocket Protocol Component API], WEB_SOCKET_RECEIVE_BUFFER_SIZE_PROPERTY_TYPE, WEB_SOCKET_SEND_BUFFER_SIZE_PROPERTY_TYPE, WEB_SOCKET_SUPPORTED_VERSIONS_PROPERTY_TYPE, _WEB_SOCKET_PROPERTY_TYPE, websock.web_socket_property_type, websocket/WEB_SOCKET_ALLOCATED_BUFFER_PROPERTY_TYPE, websocket/WEB_SOCKET_DISABLE_MASKING_PROPERTY_TYPE, websocket/WEB_SOCKET_DISABLE_UTF8_VERIFICATION_PROPERTY_TYPE, websocket/WEB_SOCKET_KEEPALIVE_INTERVAL_PROPERTY_TYPE, websocket/WEB_SOCKET_PROPERTY_TYPE, websocket/WEB_SOCKET_RECEIVE_BUFFER_SIZE_PROPERTY_TYPE, websocket/WEB_SOCKET_SEND_BUFFER_SIZE_PROPERTY_TYPE, websocket/WEB_SOCKET_SUPPORTED_VERSIONS_PROPERTY_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: websocket.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WEB_SOCKET_PROPERTY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Websocket.h
+api_name:
+-	WEB_SOCKET_PROPERTY_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WEB_SOCKET_PROPERTY_TYPE enumeration

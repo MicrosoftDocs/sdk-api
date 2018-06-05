@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsatcominterfacei.IInitiateWinSATAssessment.InitiateAssessment
+title: IInitiateWinSATAssessment::InitiateAssessment
+author: windows-sdk-content
+description: Initiates an ad hoc assessment.
+old-location: winsat\iinitiatewinsatassessment_initiateassessment.htm
+old-project: WinSAT
+ms.assetid: c57d88b6-81ac-4314-8593-59a950348be4
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IInitiateWinSATAssessment interface [WinSAT],InitiateAssessment method, IInitiateWinSATAssessment.InitiateAssessment, IInitiateWinSATAssessment::InitiateAssessment, InitiateAssessment, InitiateAssessment method [WinSAT], InitiateAssessment method [WinSAT],IInitiateWinSATAssessment interface, winsat.iinitiatewinsatassessment_initiateassessment, winsatcominterfacei/IInitiateWinSATAssessment::InitiateAssessment
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winsatcominterfacei.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINSAT_BITMAP_SIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Winsatapi.dll
+api_name:
+-	IInitiateWinSATAssessment.InitiateAssessment
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IInitiateWinSATAssessment::InitiateAssessment

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rtworkq.RtwqUnregisterPlatformEvents
+title: RtwqUnregisterPlatformEvents function
+author: windows-sdk-content
+description: Unregisters a listener event from the callback platform.
+old-location: base\rtwqunregisterplatformevents.htm
+old-project: ProcThread
+ms.assetid: C1AB42C4-745B-46D6-9A1C-B5FD2443F48B
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: RtwqUnregisterPlatformEvents, RtwqUnregisterPlatformEvents function, base.rtwqunregisterplatformevents, rtworkq/RtwqUnregisterPlatformEvents
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rtworkq.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RTWQ_WORKQUEUE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	RTWorkQ.dll
+api_name:
+-	RtwqUnregisterPlatformEvents
+product: Windows
+targetos: Windows
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtwqUnregisterPlatformEvents function

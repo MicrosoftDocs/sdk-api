@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sspi.QueryContextAttributesExW
+title: QueryContextAttributesExW function
+author: windows-sdk-content
+description: Enables a transport application to query a security package for certain attributes of a security context.
+old-location: security\querycontextattributesex.htm
+old-project: SecAuthN
+ms.assetid: FD91EE99-F94E-44CE-9331-933D0CAA5F75
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: QueryContextAttributesEx, QueryContextAttributesEx function [Security], QueryContextAttributesExA, QueryContextAttributesExW, SECPKG_ATTR_ACCESS_TOKEN, SECPKG_ATTR_APP_DATA, SECPKG_ATTR_AUTHORITY, SECPKG_ATTR_CLIENT_SPECIFIED_TARGET, SECPKG_ATTR_CONNECTION_INFO, SECPKG_ATTR_CREDS_2, SECPKG_ATTR_DCE_INFO, SECPKG_ATTR_EAP_KEY_BLOCK, SECPKG_ATTR_ENDPOINT_BINDINGS, SECPKG_ATTR_FLAGS, SECPKG_ATTR_ISSUER_LIST_EX, SECPKG_ATTR_KEY_INFO, SECPKG_ATTR_LAST_CLIENT_TOKEN_STATUS, SECPKG_ATTR_LIFESPAN, SECPKG_ATTR_LOCAL_CERT_CONTEXT, SECPKG_ATTR_LOCAL_CRED, SECPKG_ATTR_NAMES, SECPKG_ATTR_NATIVE_NAMES, SECPKG_ATTR_NEGOTIATION_INFO, SECPKG_ATTR_PACKAGE_INFO, SECPKG_ATTR_PASSWORD_EXPIRY, SECPKG_ATTR_REMOTE_CERT_CONTEXT, SECPKG_ATTR_ROOT_STORE, SECPKG_ATTR_SESSION_INFO, SECPKG_ATTR_SESSION_KEY, SECPKG_ATTR_SIZES, SECPKG_ATTR_STREAM_SIZES, SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES, SECPKG_ATTR_SUPPORTED_SIGNATURES, SECPKG_ATTR_TARGET_INFORMATION, SECPKG_ATTR_UNIQUE_BINDINGS, security.querycontextattributesex, sspi/QueryContextAttributesEx, sspi/QueryContextAttributesExA, sspi/QueryContextAttributesExW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: sspi.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: QueryContextAttributesExW (Unicode) and QueryContextAttributesExA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Secur32.dll
+api_name:
+-	QueryContextAttributesEx
+-	QueryContextAttributesExA
+-	QueryContextAttributesExW
+product: Windows
+targetos: Windows
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # QueryContextAttributesExW function

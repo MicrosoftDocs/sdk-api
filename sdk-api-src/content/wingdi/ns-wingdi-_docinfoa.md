@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi._DOCINFOA
+title: "_DOCINFOA"
+author: windows-sdk-content
+description: The DOCINFO structure contains the input and output file names and other information used by the StartDoc function.
+old-location: gdi\docinfo.htm
+old-project: printdocs
+ms.assetid: 329bf0d9-399b-4f64-a029-361ef7558aeb
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*LPDOCINFOA, DOCINFO, DOCINFO structure [Windows GDI], DOCINFOA, LPDOCINFO, LPDOCINFO structure pointer [Windows GDI], _DOCINFOA, _win32_DOCINFO_str, gdi.docinfo, wingdi/DOCINFO, wingdi/LPDOCINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOCINFOA, *LPDOCINFOA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	DOCINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _DOCINFOA structure

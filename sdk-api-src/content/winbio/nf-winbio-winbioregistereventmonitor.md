@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbio.WinBioRegisterEventMonitor
+title: WinBioRegisterEventMonitor function
+author: windows-sdk-content
+description: Registers a callback function to receive event notifications from the service provider associated with an open session.
+old-location: secbiomet\winbioregistereventmonitor.htm
+old-project: SecBioMet
+ms.assetid: 408291ca-66fe-4f4a-8f6e-3a1b60eb2d15
+ms.author: windowssdkdev
+ms.date: 04/24/2018
+ms.keywords: WINBIO_EVENT_FP_UNCLAIMED, WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY, WinBioRegisterEventMonitor, WinBioRegisterEventMonitor function [Windows Biometric Framework API], secbiomet.winbioregistereventmonitor, winbio/WinBioRegisterEventMonitor
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbio.h
+req.include-header: Winbio.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winbio.dll
+-	Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+-	winbioext.dll
+-	Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+api_name:
+-	WinBioRegisterEventMonitor
+product: Windows
+targetos: Windows
+req.lib: Winbio.lib
+req.dll: Winbio.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WinBioRegisterEventMonitor function

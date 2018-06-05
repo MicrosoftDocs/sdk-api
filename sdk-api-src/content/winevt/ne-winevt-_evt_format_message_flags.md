@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winevt._EVT_FORMAT_MESSAGE_FLAGS
+title: "_EVT_FORMAT_MESSAGE_FLAGS"
+author: windows-sdk-content
+description: Defines the values that specify the message string from the event to format.
+old-location: wes\evt_format_message_flags.htm
+old-project: WES
+ms.assetid: 6a8ed14a-1952-4fcf-ac66-12c1fecd363f
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: EVT_FORMAT_MESSAGE_FLAGS, EVT_FORMAT_MESSAGE_FLAGS enumeration [EventLog], EvtFormatMessageChannel, EvtFormatMessageEvent, EvtFormatMessageId, EvtFormatMessageKeyword, EvtFormatMessageLevel, EvtFormatMessageOpcode, EvtFormatMessageProvider, EvtFormatMessageTask, EvtFormatMessageXml, _EVT_FORMAT_MESSAGE_FLAGS, wes.evt_format_message_flags, winevt/EVT_FORMAT_MESSAGE_FLAGS, winevt/EvtFormatMessageChannel, winevt/EvtFormatMessageEvent, winevt/EvtFormatMessageId, winevt/EvtFormatMessageKeyword, winevt/EvtFormatMessageLevel, winevt/EvtFormatMessageOpcode, winevt/EvtFormatMessageProvider, winevt/EvtFormatMessageTask, winevt/EvtFormatMessageXml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winevt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVT_FORMAT_MESSAGE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinEvt.h
+api_name:
+-	EVT_FORMAT_MESSAGE_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _EVT_FORMAT_MESSAGE_FLAGS enumeration

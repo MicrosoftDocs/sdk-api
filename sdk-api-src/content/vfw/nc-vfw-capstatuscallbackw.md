@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:vfw.CAPSTATUSCALLBACKW
+title: CAPSTATUSCALLBACKW
+author: windows-sdk-content
+description: The capStatusCallback function is the status callback function used with video capture. The name capStatusCallback is a placeholder for the application-supplied function name.
+old-location: multimedia\capstatuscallback.htm
+old-project: Multimedia
+ms.assetid: b48021a7-7fa1-4837-a6ca-af266fd55f4f
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: CAPSTATUSCALLBACKA, CAPSTATUSCALLBACKW, _win32_capStatusCallback, capStatusCallback, capStatusCallback callback, capStatusCallback callback function [Windows Multimedia], multimedia.capstatuscallback, vfw/CAPSTATUSCALLBACKA, vfw/CAPSTATUSCALLBACKW, vfw/capStatusCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CAPSTATUSCALLBACKW (Unicode) and CAPSTATUSCALLBACKA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Vfw.h
+api_name:
+-	capStatusCallback
+-	CAPSTATUSCALLBACKA
+-	CAPSTATUSCALLBACKW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # CAPSTATUSCALLBACKW callback function

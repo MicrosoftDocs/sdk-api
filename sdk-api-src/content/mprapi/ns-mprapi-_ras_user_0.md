@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mprapi._RAS_USER_0
+title: "_RAS_USER_0"
+author: windows-sdk-content
+description: The RAS_USER_0 structure contains information for a particular Remote Access Service user.
+old-location: rras\ras_user_0.htm
+old-project: RRAS
+ms.assetid: f034c6c2-2dac-40bf-b810-9bf6f3eb3c41
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PRAS_USER_0, PRAS_USER_0, PRAS_USER_0 structure pointer [RAS], RASPRIV_AdminSetCallback, RASPRIV_CallerSetCallback, RASPRIV_DialinPrivilege, RASPRIV_NoCallback, RAS_USER_0, RAS_USER_0 structure [RAS], _RAS_USER_0, _mpr_ras_user_0, mprapi/PRAS_USER_0, mprapi/RAS_USER_0, rras.ras_user_0"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RAS_USER_0, *PRAS_USER_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mprapi.h
+api_name:
+-	RAS_USER_0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _RAS_USER_0 structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:audioengineendpoint.IHardwareAudioEngineBase.SetGfxState
+title: IHardwareAudioEngineBase::SetGfxState
+author: windows-sdk-content
+description: The SetGfxState method sets the GFX state of the offloaded audio stream.
+old-location: coreaudio\ihardwareaudioenginebase_setgfxstate.htm
+old-project: CoreAudio
+ms.assetid: 1B90A629-D41A-4339-918B-DAAF577EB699
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IHardwareAudioEngineBase interface [Core Audio],SetGfxState method, IHardwareAudioEngineBase.SetGfxState, IHardwareAudioEngineBase::SetGfxState, SetGfxState, SetGfxState method [Core Audio], SetGfxState method [Core Audio],IHardwareAudioEngineBase interface, audioengineendpoint/IHardwareAudioEngineBase::SetGfxState, coreaudio.ihardwareaudioenginebase_setgfxstate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioengineendpoint.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AE_POSITION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	audioengineendpoint.h
+api_name:
+-	IHardwareAudioEngineBase.SetGfxState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IHardwareAudioEngineBase::SetGfxState

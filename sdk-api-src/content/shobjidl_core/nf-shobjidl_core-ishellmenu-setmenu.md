@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IShellMenu.SetMenu
+title: IShellMenu::SetMenu
+author: windows-sdk-content
+description: Appends a static menu to the menu band.
+old-location: shell\IShellMenu_SetMenu.htm
+old-project: shell
+ms.assetid: afa393eb-05a0-478e-88a2-7c31b4a48930
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IShellMenu interface [Windows Shell],SetMenu method, IShellMenu.SetMenu, IShellMenu::SetMenu, SMSET_BOTTOM, SMSET_DONTOWN, SMSET_TOP, SetMenu, SetMenu method [Windows Shell], SetMenu method [Windows Shell],IShellMenu interface, _shell_IShellMenu_SetMenu, shell.IShellMenu_SetMenu, shobjidl_core/IShellMenu::SetMenu
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IShellMenu.SetMenu
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IShellMenu::SetMenu

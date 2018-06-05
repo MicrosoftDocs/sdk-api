@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ntdef._SINGLE_LIST_ENTRY
+title: "_SINGLE_LIST_ENTRY"
+author: windows-sdk-content
+description: A SINGLE_LIST_ENTRY structure describes an entry in a singly linked list, or serves as the header for such a list.
+old-location: kernel\single_list_entry.htm
+old-project: kernel
+ms.assetid: 2db8ce7e-67e0-43e8-98b5-a2112db5bd5a
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PSINGLE_LIST_ENTRY, PSINGLE_LIST_ENTRY, PSINGLE_LIST_ENTRY structure pointer [Kernel-Mode Driver Architecture], SINGLE_LIST_ENTRY, SINGLE_LIST_ENTRY structure [Kernel-Mode Driver Architecture], _SINGLE_LIST_ENTRY, kernel.single_list_entry, kstruct_d_146e3fe9-b909-4cd8-9eba-61203c32d658.xml, ntdef/PSINGLE_LIST_ENTRY, ntdef/SINGLE_LIST_ENTRY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntdef.h
+req.include-header: Wdm.h, Ntddk.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SINGLE_LIST_ENTRY, *PSINGLE_LIST_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ntdef.h
+api_name:
+-	SINGLE_LIST_ENTRY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: Any level
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SINGLE_LIST_ENTRY structure

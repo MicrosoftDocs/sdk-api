@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rpcdce.RPC_ENDPOINT_TEMPLATE
+title: RPC_ENDPOINT_TEMPLATE
+author: windows-sdk-content
+description: Specifies the properties of an RPC interface group server endpoint, including protocol sequence and name.
+old-location: rpc\rpc_endpoint_template.htm
+old-project: Rpc
+ms.assetid: F1C4A10B-D7DA-4A2A-B166-F814E6926ADD
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PRPC_ENDPOINT_TEMPLATE, PRPC_ENDPOINT_TEMPLATE, PRPC_ENDPOINT_TEMPLATE structure pointer [RPC], RPC_ENDPOINT_TEMPLATE, RPC_ENDPOINT_TEMPLATE structure [RPC], RPC_ENDPOINT_TEMPLATEA, RPC_ENDPOINT_TEMPLATEW, rpc.rpc_endpoint_template, rpcdce/PRPC_ENDPOINT_TEMPLATE, rpcdce/RPC_ENDPOINT_TEMPLATE, rpcdce/RPC_ENDPOINT_TEMPLATEA, rpcdce/RPC_ENDPOINT_TEMPLATEW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rpcdce.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RPC_ENDPOINT_TEMPLATEW (Unicode) and RPC_ENDPOINT_TEMPLATEA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_ENDPOINT_TEMPLATE, *PRPC_ENDPOINT_TEMPLATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rpcdce.h
+api_name:
+-	RPC_ENDPOINT_TEMPLATE
+-	RPC_ENDPOINT_TEMPLATEA
+-	RPC_ENDPOINT_TEMPLATEW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RPC_ENDPOINT_TEMPLATE structure

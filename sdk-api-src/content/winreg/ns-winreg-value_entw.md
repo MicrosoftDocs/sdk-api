@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winreg.value_entW
+title: value_entW
+author: windows-sdk-content
+description: Contains information about a registry value. The RegQueryMultipleValues function uses this structure.
+old-location: base\valent_str.htm
+old-project: SysInfo
+ms.assetid: 7881eea8-e4e3-48cf-ba8f-b5c23910ae7d
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PVALENTW, PVALENT, PVALENT structure pointer, VALENT, VALENT structure, VALENTA, VALENTW, _win32_valent_str, base.valent_str, value_entW, winreg/PVALENT, winreg/VALENT, winreg/VALENTA, winreg/VALENTW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winreg.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: VALENTW (Unicode) and VALENTA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VALENTW, *PVALENTW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winreg.h
+api_name:
+-	VALENT
+-	VALENTA
+-	VALENTW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # value_entW structure

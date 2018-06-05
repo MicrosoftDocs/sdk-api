@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlobj_core.PifMgr_SetProperties
+title: PifMgr_SetProperties function
+author: windows-sdk-content
+description: Assigns values to a block of data from a .pif file.
+old-location: properties\PifMgr_SetProperties.htm
+old-project: properties
+ms.assetid: 720ed580-1867-4651-aef6-24ac4397ad39
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PifMgr_SetProperties, PifMgr_SetProperties function [Windows Properties], _win32_PifMgr_SetProperties, properties.PifMgr_SetProperties, shell.PifMgr_SetProperties, shlobj_core/PifMgr_SetProperties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlobj_core.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETELISTOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+api_name:
+-	PifMgr_SetProperties
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # PifMgr_SetProperties function

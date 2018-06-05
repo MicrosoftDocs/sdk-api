@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d11.D3D11_TEX2DMS_DSV
+title: D3D11_TEX2DMS_DSV
+author: windows-sdk-content
+description: Specifies the subresource from a multisampled 2D texture that is accessible to a depth-stencil view.
+old-location: direct3d11\d3d11_tex2dms_dsv.htm
+old-project: direct3d11
+ms.assetid: 1723044b-1942-4373-8040-0c47b680ea95
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 8d27f5d8-2d28-1d90-094b-7cb4d66f7887, D3D11_TEX2DMS_DSV, D3D11_TEX2DMS_DSV structure [Direct3D 11], d3d11/D3D11_TEX2DMS_DSV, direct3d11.d3d11_tex2dms_dsv
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_TEX2DMS_DSV
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	D3D11_TEX2DMS_DSV
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_TEX2DMS_DSV structure

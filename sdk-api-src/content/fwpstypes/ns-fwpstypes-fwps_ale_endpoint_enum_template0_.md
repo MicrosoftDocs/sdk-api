@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:fwpstypes.FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0_
+title: FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0_
+author: windows-sdk-content
+description: The FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0 structure specifies a template for application layer enforcement (ALE) endpoints to be enumerated.Note  FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0 is a specific version of FWPS_ALE_ENDPOINT_ENUM_TEMPLATE.
+old-location: netvista\fwps_ale_endpoint_enum_template0.htm
+old-project: netvista
+ms.assetid: 7875bf42-4510-4af1-8f24-4b9f1d945100
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0, FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0 structure [Network Drivers Starting with Windows Vista], FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0_, fwpstypes/FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0, netvista.fwps_ale_endpoint_enum_template0, wfp_ref_3_struct_3_fwps_A-E_1d06d4d7-6e8f-4f8d-b57e-96292a680e68.xml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: fwpstypes.h
+req.include-header: Fwpsk.h
+req.target-type: Windows
+req.target-min-winverclnt: Available starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	fwpstypes.h
+api_name:
+-	FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0_ structure

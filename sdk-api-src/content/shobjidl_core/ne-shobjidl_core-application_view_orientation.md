@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core.APPLICATION_VIEW_ORIENTATION
+title: APPLICATION_VIEW_ORIENTATION
+author: windows-sdk-content
+description: Defines the set of display orientation modes for a window (app view). Used by IApplicationDesignModeSettings2::GetApplicationViewOrientation and IApplicationDesignModeSettings2::SetApplicationViewOrientation.
+old-location: shell\APPLICATION_VIEW_ORIENTATION.htm
+old-project: shell
+ms.assetid: 6E14D892-09E3-46F4-84AD-991996431FB2
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: APPLICATION_VIEW_ORIENTATION, APPLICATION_VIEW_ORIENTATION enumeration [Windows Shell], AVO_LANDSCAPE, AVO_PORTRAIT, shell.APPLICATION_VIEW_ORIENTATION, shobjidl_core/APPLICATION_VIEW_ORIENTATION, shobjidl_core/AVO_LANDSCAPE, shobjidl_core/AVO_PORTRAIT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APPLICATION_VIEW_ORIENTATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shobjidl_core.h
+api_name:
+-	APPLICATION_VIEW_ORIENTATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # APPLICATION_VIEW_ORIENTATION enumeration

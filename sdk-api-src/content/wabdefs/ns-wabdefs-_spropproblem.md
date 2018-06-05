@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wabdefs._SPropProblem
+title: "_SPropProblem"
+author: windows-sdk-content
+description: Do not use. Describes an error relating to an operation involving a property.
+old-location: wab\_wab_SPropProblem.htm
+old-project: wab
+ms.assetid: VS|wab|~\wab\reference\structures\spropproblem.htm
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPSPropProblem, SPropProblem, SPropProblem structure [Windows Address Book], _SPropProblem, _wab_SPropProblem, wab._wab_SPropProblem, wabdefs/SPropProblem"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wabdefs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SPropProblem, *LPSPropProblem
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wabdefs.h
+api_name:
+-	SPropProblem
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 4.0
 ---
 
 # _SPropProblem structure

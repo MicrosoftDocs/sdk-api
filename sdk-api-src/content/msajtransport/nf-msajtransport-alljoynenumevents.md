@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msajtransport.AllJoynEnumEvents
+title: AllJoynEnumEvents function
+author: windows-sdk-content
+description: Provides AllJoyn transport functionality similar to the TCP socket WSAEnumNetworkEvents functionality.
+old-location: alljoyn\alljoynenumevents.htm
+old-project: AllJoyn
+ms.assetid: 0B53EAE5-9043-46F2-9C7B-A5836AF241A3
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: AllJoynEnumEvents, AllJoynEnumEvents function [AllJoyn API], alljoyn.alljoynenumevents, msajtransport/AllJoynEnumEvents
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msajtransport.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACMSTREAMHEADER, *PACMSTREAMHEADER, *LPACMSTREAMHEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	MSAJApi.dll
+api_name:
+-	AllJoynEnumEvents
+product: Windows
+targetos: Windows
+req.lib: MSAJApi.lib
+req.dll: MSAJApi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # AllJoynEnumEvents function

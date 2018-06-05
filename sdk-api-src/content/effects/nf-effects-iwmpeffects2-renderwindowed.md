@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:effects.IWMPEffects2.RenderWindowed
+title: IWMPEffects2::RenderWindowed
+author: windows-sdk-content
+description: The RenderWindowed method is called by Windows Media Player to render a windowed visualization.
+old-location: wmp\iwmpeffects2_renderwindowed.htm
+old-project: WMP
+ms.assetid: 95a0b71e-6485-4b14-81cf-b853a664b3cc
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPEffects2 interface [Windows Media Player],RenderWindowed method, IWMPEffects2.RenderWindowed, IWMPEffects2::RenderWindowed, IWMPEffectsRenderWindowed, RenderWindowed, RenderWindowed method [Windows Media Player], RenderWindowed method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::RenderWindowed, wmp.iwmpeffects2_renderwindowed
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: effects.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	effects.h
+api_name:
+-	IWMPEffects2.RenderWindowed
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IWMPEffects2::RenderWindowed

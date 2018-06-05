@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bitscfg.IBITSExtensionSetup.GetCleanupTask
+title: IBITSExtensionSetup::GetCleanupTask
+author: windows-sdk-content
+description: Use the GetCleanupTask method to retrieve an interface pointer to the cleanup task associated with the virtual directory.
+old-location: bits\ibitsextensionsetup_getcleanuptask.htm
+old-project: Bits
+ms.assetid: ffa89d5b-7ba1-433b-a93d-032012906258
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetCleanupTask, GetCleanupTask method [BITS], GetCleanupTask method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],GetCleanupTask method, IBITSExtensionSetup.GetCleanupTask, IBITSExtensionSetup::GetCleanupTask, _drz_ibitsextensionsetup_getcleanuptask, bits.ibitsextensionsetup_getcleanuptask, bitscfg/IBITSExtensionSetup::GetCleanupTask
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bitscfg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bitscfg.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITS_FILE_PROPERTY_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	BitsMgr.dll
+api_name:
+-	IBITSExtensionSetup.GetCleanupTask
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: BitsMgr.dll
+req.irql: 
 ---
 
 # IBITSExtensionSetup::GetCleanupTask

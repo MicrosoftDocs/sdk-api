@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPMediaCollection.getAll
+title: IWMPMediaCollection::getAll
+author: windows-sdk-content
+description: The getAll method retrieves a pointer to an IWMPPlaylist interface. This interface corresponds to the playlist that contains all media items in the library.
+old-location: wmp\iwmpmediacollection_getall.htm
+old-project: WMP
+ms.assetid: db06194c-36e2-4494-b464-c08f6983bdc1
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPMediaCollection interface [Windows Media Player],getAll method, IWMPMediaCollection.getAll, IWMPMediaCollection::getAll, IWMPMediaCollectiongetAll, getAll, getAll method [Windows Media Player], getAll method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getall, wmp/IWMPMediaCollection::getAll
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPMediaCollection.getAll
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPMediaCollection::getAll

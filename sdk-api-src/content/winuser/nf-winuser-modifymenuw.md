@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winuser.ModifyMenuW
+title: ModifyMenuW function
+author: windows-sdk-content
+description: Changes an existing menu item.
+old-location: menurc\modifymenu.htm
+old-project: menurc
+ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\modifymenu.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: MF_BITMAP, MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, ModifyMenu, ModifyMenu function [Menus and Other Resources], ModifyMenuA, ModifyMenuW, _win32_ModifyMenu, _win32_modifymenu_cpp, menurc.modifymenu, winui._win32_modifymenu, winuser/ModifyMenu, winuser/ModifyMenuA, winuser/ModifyMenuW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ModifyMenuW (Unicode) and ModifyMenuA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+api_name:
+-	ModifyMenu
+-	ModifyMenuA
+-	ModifyMenuW
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # ModifyMenuW function

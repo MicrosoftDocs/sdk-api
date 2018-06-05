@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:ifdef._NET_IF_CONNECTION_TYPE
+title: "_NET_IF_CONNECTION_TYPE"
+author: windows-sdk-content
+description: The NET_IF_CONNECTION_TYPE enumeration type specifies the NDIS network interface connection type.
+old-location: netvista\net_if_connection_type.htm
+old-project: netvista
+ms.assetid: af1ffcf2-65cf-4d80-b702-a843b6d19fdc
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PNET_IF_CONNECTION_TYPE, NET_IF_CONNECTION_DEDICATED, NET_IF_CONNECTION_DEMAND, NET_IF_CONNECTION_MAXIMUM, NET_IF_CONNECTION_PASSIVE, NET_IF_CONNECTION_TYPE, NET_IF_CONNECTION_TYPE enumeration [Network Drivers Starting with Windows Vista], PNET_IF_CONNECTION_TYPE, PNET_IF_CONNECTION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NET_IF_CONNECTION_TYPE, ifdef/NET_IF_CONNECTION_DEDICATED, ifdef/NET_IF_CONNECTION_DEMAND, ifdef/NET_IF_CONNECTION_MAXIMUM, ifdef/NET_IF_CONNECTION_PASSIVE, ifdef/NET_IF_CONNECTION_TYPE, ifdef/PNET_IF_CONNECTION_TYPE, net_if_enums_ref_b37dfff6-f81c-4633-a409-82535736247b.xml, netvista.net_if_connection_type"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ifdef.h
+req.include-header: Netioapi.h, Ntddndis.h
+req.target-type: Windows
+req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_IF_CONNECTION_TYPE, *PNET_IF_CONNECTION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ifdef.h
+api_name:
+-	NET_IF_CONNECTION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _NET_IF_CONNECTION_TYPE enumeration

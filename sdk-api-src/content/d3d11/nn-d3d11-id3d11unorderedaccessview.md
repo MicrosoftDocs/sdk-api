@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:d3d11.ID3D11UnorderedAccessView
+title: ID3D11UnorderedAccessView
+author: windows-sdk-content
+description: A view interface specifies the parts of a resource the pipeline can access during rendering.
+old-location: direct3d11\id3d11unorderedaccessview.htm
+old-project: direct3d11
+ms.assetid: 9def4a7d-f145-4073-8d7d-bf3c7ac7a060
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 0d091716-fdf1-7aff-5a05-68258dd1f745, ID3D11UnorderedAccessView, ID3D11UnorderedAccessView interface [Direct3D 11], ID3D11UnorderedAccessView interface [Direct3D 11],described, d3d11/ID3D11UnorderedAccessView, direct3d11.id3d11unorderedaccessview
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11UnorderedAccessView
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11UnorderedAccessView interface

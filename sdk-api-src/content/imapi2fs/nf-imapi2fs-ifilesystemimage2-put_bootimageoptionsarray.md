@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imapi2fs.IFileSystemImage2.put_BootImageOptionsArray
+title: IFileSystemImage2::put_BootImageOptionsArray
+author: windows-sdk-content
+description: Sets the boot option array that will be utilized to generate the file system image. Unlike IFileSystemImage::put_BootImageOptions, this method will not create a complete copy of each boot options array element, but instead use references to each element.
+old-location: imapi\ifilesystemimage2_put_bootimageoptionsarray.htm
+old-project: imapi
+ms.assetid: 0b827f6a-8e40-4d9d-bec6-8d7f33dade43
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IFileSystemImage2 interface [IMAPI],put_BootImageOptionsArray method, IFileSystemImage2.put_BootImageOptionsArray, IFileSystemImage2::put_BootImageOptionsArray, imapi.ifilesystemimage2_put_bootimageoptionsarray, imapi2fs/IFileSystemImage2::put_BootImageOptionsArray, put_BootImageOptionsArray, put_BootImageOptionsArray method [IMAPI], put_BootImageOptionsArray method [IMAPI],IFileSystemImage2 interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imapi2fs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2fs.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PlatformId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2fs.h
+api_name:
+-	IFileSystemImage2.put_BootImageOptionsArray
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IFileSystemImage2::put_BootImageOptionsArray

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dpa_dsa.DPA_GetPtrCount
+title: DPA_GetPtrCount macro
+author: windows-sdk-content
+description: Gets the number of pointers in a dynamic pointer array (DPA).
+old-location: controls\DPA_GetPtrCount.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\common\macros\dpa_getptrcount.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: DPA_GetPtrCount, DPA_GetPtrCount macro [Windows Controls], _shell_DPA_GetPtrCount, _shell_DPA_GetPtrCount_cpp, controls.DPA_GetPtrCount, controls._shell_DPA_GetPtrCount, dpa_dsa/DPA_GetPtrCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: dpa_dsa.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dpa_dsa.h
+api_name:
+-	DPA_GetPtrCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DPA_GetPtrCount macro

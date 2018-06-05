@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:propsys.PROPDESC_FORMAT_FLAGS
+title: PROPDESC_FORMAT_FLAGS
+author: windows-sdk-content
+description: Used by property description helper functions, such as PSFormatForDisplay, to indicate the format of a property string.
+old-location: properties\PROPDESC_FORMAT_FLAGS.htm
+old-project: properties
+ms.assetid: 4425d97f-2530-40d4-ba1a-06bc85f2f567
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PDFF_ALWAYSKB, PDFF_DEFAULT, PDFF_FILENAME, PDFF_HIDEDATE, PDFF_HIDETIME, PDFF_LONGDATE, PDFF_LONGTIME, PDFF_NOAUTOREADINGORDER, PDFF_PREFIXNAME, PDFF_READONLY, PDFF_RELATIVEDATE, PDFF_RESERVED_RIGHTTOLEFT, PDFF_SHORTDATE, PDFF_SHORTTIME, PDFF_USEEDITINVITATION, PROPDESC_FORMAT_FLAGS, PROPDESC_FORMAT_FLAGS enumeration [Windows Properties], _shell_PROPDESC_FORMAT_FLAGS, properties.PROPDESC_FORMAT_FLAGS, propsys/PDFF_ALWAYSKB, propsys/PDFF_DEFAULT, propsys/PDFF_FILENAME, propsys/PDFF_HIDEDATE, propsys/PDFF_HIDETIME, propsys/PDFF_LONGDATE, propsys/PDFF_LONGTIME, propsys/PDFF_NOAUTOREADINGORDER, propsys/PDFF_PREFIXNAME, propsys/PDFF_READONLY, propsys/PDFF_RELATIVEDATE, propsys/PDFF_RESERVED_RIGHTTOLEFT, propsys/PDFF_SHORTDATE, propsys/PDFF_SHORTTIME, propsys/PDFF_USEEDITINVITATION, propsys/PROPDESC_FORMAT_FLAGS, shell.PROPDESC_FORMAT_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPDESC_FORMAT_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Propsys.h
+api_name:
+-	PROPDESC_FORMAT_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PROPDESC_FORMAT_FLAGS enumeration

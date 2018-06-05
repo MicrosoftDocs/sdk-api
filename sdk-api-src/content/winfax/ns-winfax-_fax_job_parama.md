@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winfax._FAX_JOB_PARAMA
+title: "_FAX_JOB_PARAMA"
+author: windows-sdk-content
+description: The FAX_JOB_PARAM structure contains the information necessary for the fax server to send an individual fax transmission.
+old-location: fax\_mfax_fax_job_param_str.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxlegacy_21yq.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PFAX_JOB_PARAMA, DRT_EMAIL, DRT_INBOX, DRT_NONE, FAX_JOB_PARAM, FAX_JOB_PARAM structure [Fax Service], FAX_JOB_PARAMA, FAX_JOB_PARAMW, JSA_DISCOUNT_PERIOD, JSA_NOW, JSA_SPECIFIC_TIME, PFAX_JOB_PARAM, PFAX_JOB_PARAM structure pointer [Fax Service], _FAX_JOB_PARAMA, _mfax_fax_job_param_str, fax._mfax_fax_job_param_str, winfax/FAX_JOB_PARAM, winfax/FAX_JOB_PARAMA, winfax/FAX_JOB_PARAMW, winfax/PFAX_JOB_PARAM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winfax.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: FAX_JOB_PARAMW (Unicode) and FAX_JOB_PARAMA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_JOB_PARAMA, *PFAX_JOB_PARAMA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winfax.h
+api_name:
+-	FAX_JOB_PARAM
+-	FAX_JOB_PARAMA
+-	FAX_JOB_PARAMW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FAX_JOB_PARAMA structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwrite_2.DWRITE_GRID_FIT_MODE
+title: DWRITE_GRID_FIT_MODE
+author: windows-sdk-content
+description: Specifies whether to enable grid-fitting of glyph outlines (also known as hinting).
+old-location: directwrite\dwrite_grid_fit_mode.htm
+old-project: DirectWrite
+ms.assetid: C32A6017-3711-482B-B806-79651163DEF6
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_GRID_FIT_MODE, DWRITE_GRID_FIT_MODE enumeration [Direct Write], DWRITE_GRID_FIT_MODE_DEFAULT, DWRITE_GRID_FIT_MODE_DISABLED, DWRITE_GRID_FIT_MODE_ENABLED, directwrite.dwrite_grid_fit_mode, dwrite_2/DWRITE_GRID_FIT_MODE, dwrite_2/DWRITE_GRID_FIT_MODE_DEFAULT, dwrite_2/DWRITE_GRID_FIT_MODE_DISABLED, dwrite_2/DWRITE_GRID_FIT_MODE_ENABLED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite_2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite_2.h
+api_name:
+-	DWRITE_GRID_FIT_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_GRID_FIT_MODE enumeration

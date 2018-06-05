@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:devicetopology.IControlChangeNotify
+title: IControlChangeNotify
+author: windows-sdk-content
+description: The IControlChangeNotify interface provides notifications when the status of a part (connector or subunit) changes.
+old-location: coreaudio\icontrolchangenotify.htm
+old-project: CoreAudio
+ms.assetid: e50e13c2-1ef3-46f6-8c53-f99cc1631a79
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IControlChangeNotify, IControlChangeNotify interface [Core Audio], IControlChangeNotify interface [Core Audio],described, coreaudio.icontrolchangenotify, devicetopology/IControlChangeNotify
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IControlChangeNotify
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IControlChangeNotify interface

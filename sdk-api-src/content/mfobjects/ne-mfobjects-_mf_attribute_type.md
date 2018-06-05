@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfobjects._MF_ATTRIBUTE_TYPE
+title: "_MF_ATTRIBUTE_TYPE"
+author: windows-sdk-content
+description: Defines the data type for a key/value pair.
+old-location: mf\mf_attribute_type.htm
+old-project: medfound
+ms.assetid: 1844fbe2-0a07-4c0c-9ffe-4c59fc01f793
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 1844fbe2-0a07-4c0c-9ffe-4c59fc01f793, MF_ATTRIBUTE_BLOB, MF_ATTRIBUTE_DOUBLE, MF_ATTRIBUTE_GUID, MF_ATTRIBUTE_IUNKNOWN, MF_ATTRIBUTE_STRING, MF_ATTRIBUTE_TYPE, MF_ATTRIBUTE_TYPE enumeration [Media Foundation], MF_ATTRIBUTE_UINT32, MF_ATTRIBUTE_UINT64, _MF_ATTRIBUTE_TYPE, mf.mf_attribute_type, mfobjects/MF_ATTRIBUTE_BLOB, mfobjects/MF_ATTRIBUTE_DOUBLE, mfobjects/MF_ATTRIBUTE_GUID, mfobjects/MF_ATTRIBUTE_IUNKNOWN, mfobjects/MF_ATTRIBUTE_STRING, mfobjects/MF_ATTRIBUTE_TYPE, mfobjects/MF_ATTRIBUTE_UINT32, mfobjects/MF_ATTRIBUTE_UINT64
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_ATTRIBUTE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfobjects.h
+api_name:
+-	MF_ATTRIBUTE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MF_ATTRIBUTE_TYPE enumeration

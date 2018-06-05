@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wpcevent.tagWPC_ARGS_CUSTOMEVENT
+title: tagWPC_ARGS_CUSTOMEVENT
+author: windows-sdk-content
+description: Indicates information about a user-defined event that is not covered by the general events.
+old-location: parcon\wpc_args_customevent.htm
+old-project: parcon
+ms.assetid: 7f08d847-6042-4e56-97fd-cdf4e75da680
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WPC_ARGS_CUSTOMEVENT, WPC_ARGS_CUSTOMEVENT enumeration, WPC_ARGS_CUSTOMEVENT_APPNAME, WPC_ARGS_CUSTOMEVENT_APPVERSION, WPC_ARGS_CUSTOMEVENT_BLOCKED, WPC_ARGS_CUSTOMEVENT_CARGS, WPC_ARGS_CUSTOMEVENT_EVENT, WPC_ARGS_CUSTOMEVENT_PUBLISHER, WPC_ARGS_CUSTOMEVENT_REASON, WPC_ARGS_CUSTOMEVENT_VALUE1, WPC_ARGS_CUSTOMEVENT_VALUE2, WPC_ARGS_CUSTOMEVENT_VALUE3, parcon.wpc_args_customevent, tagWPC_ARGS_CUSTOMEVENT, wpcevent/WPC_ARGS_CUSTOMEVENT, wpcevent/WPC_ARGS_CUSTOMEVENT_APPNAME, wpcevent/WPC_ARGS_CUSTOMEVENT_APPVERSION, wpcevent/WPC_ARGS_CUSTOMEVENT_BLOCKED, wpcevent/WPC_ARGS_CUSTOMEVENT_CARGS, wpcevent/WPC_ARGS_CUSTOMEVENT_EVENT, wpcevent/WPC_ARGS_CUSTOMEVENT_PUBLISHER, wpcevent/WPC_ARGS_CUSTOMEVENT_REASON, wpcevent/WPC_ARGS_CUSTOMEVENT_VALUE1, wpcevent/WPC_ARGS_CUSTOMEVENT_VALUE2, wpcevent/WPC_ARGS_CUSTOMEVENT_VALUE3
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wpcevent.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WPC_ARGS_CUSTOMEVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wpcevent.h
+api_name:
+-	WPC_ARGS_CUSTOMEVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagWPC_ARGS_CUSTOMEVENT enumeration

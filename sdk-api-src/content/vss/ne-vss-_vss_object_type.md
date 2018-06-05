@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vss._VSS_OBJECT_TYPE
+title: "_VSS_OBJECT_TYPE"
+author: windows-sdk-content
+description: Used by requesters to identify an object as a shadow copy set, shadow copy, or provider.
+old-location: base\vss_object_type.htm
+old-project: VSS
+ms.assetid: b7c91003-0ce7-463e-a816-c212da9dc31e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PVSS_OBJECT_TYPE, PVSS_OBJECT_TYPE, PVSS_OBJECT_TYPE enumeration pointer [VSS], VSS_OBJECT_NONE, VSS_OBJECT_PROVIDER, VSS_OBJECT_SNAPSHOT, VSS_OBJECT_SNAPSHOT_SET, VSS_OBJECT_TYPE, VSS_OBJECT_TYPE enumeration [VSS], VSS_OBJECT_TYPE_COUNT, VSS_OBJECT_UNKNOWN, _VSS_OBJECT_TYPE, _win32_vss_object_type, base.vss_object_type, vss/PVSS_OBJECT_TYPE, vss/VSS_OBJECT_NONE, vss/VSS_OBJECT_PROVIDER, vss/VSS_OBJECT_SNAPSHOT, vss/VSS_OBJECT_SNAPSHOT_SET, vss/VSS_OBJECT_TYPE, vss/VSS_OBJECT_TYPE_COUNT, vss/VSS_OBJECT_UNKNOWN"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vss.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_OBJECT_TYPE, *PVSS_OBJECT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vss.h
+api_name:
+-	VSS_OBJECT_TYPE
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VSS_OBJECT_TYPE enumeration

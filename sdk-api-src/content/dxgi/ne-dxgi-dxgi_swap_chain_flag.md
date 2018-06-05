@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dxgi.DXGI_SWAP_CHAIN_FLAG
+title: DXGI_SWAP_CHAIN_FLAG
+author: windows-sdk-content
+description: Options for swap-chain behavior.
+old-location: direct3ddxgi\DXGI_SWAP_CHAIN_FLAG.htm
+old-project: direct3ddxgi
+ms.assetid: VS|directx_sdk|~\dxgi_swap_chain_flag.htm
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGI_SWAP_CHAIN_FLAG, DXGI_SWAP_CHAIN_FLAG enumeration [DXGI], DXGI_SWAP_CHAIN_FLAG_ALLOW_MODE_SWITCH, DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING, DXGI_SWAP_CHAIN_FLAG_DISPLAY_ONLY, DXGI_SWAP_CHAIN_FLAG_FOREGROUND_LAYER, DXGI_SWAP_CHAIN_FLAG_FRAME_LATENCY_WAITABLE_OBJECT, DXGI_SWAP_CHAIN_FLAG_FULLSCREEN_VIDEO, DXGI_SWAP_CHAIN_FLAG_GDI_COMPATIBLE, DXGI_SWAP_CHAIN_FLAG_HW_PROTECTED, DXGI_SWAP_CHAIN_FLAG_NONPREROTATED, DXGI_SWAP_CHAIN_FLAG_RESTRICTED_CONTENT, DXGI_SWAP_CHAIN_FLAG_RESTRICT_SHARED_RESOURCE_DRIVER, DXGI_SWAP_CHAIN_FLAG_YUV_VIDEO, direct3ddxgi.DXGI_SWAP_CHAIN_FLAG, dxgi/DXGI_SWAP_CHAIN_FLAG, dxgi/DXGI_SWAP_CHAIN_FLAG_ALLOW_MODE_SWITCH, dxgi/DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING, dxgi/DXGI_SWAP_CHAIN_FLAG_DISPLAY_ONLY, dxgi/DXGI_SWAP_CHAIN_FLAG_FOREGROUND_LAYER, dxgi/DXGI_SWAP_CHAIN_FLAG_FRAME_LATENCY_WAITABLE_OBJECT, dxgi/DXGI_SWAP_CHAIN_FLAG_FULLSCREEN_VIDEO, dxgi/DXGI_SWAP_CHAIN_FLAG_GDI_COMPATIBLE, dxgi/DXGI_SWAP_CHAIN_FLAG_HW_PROTECTED, dxgi/DXGI_SWAP_CHAIN_FLAG_NONPREROTATED, dxgi/DXGI_SWAP_CHAIN_FLAG_RESTRICTED_CONTENT, dxgi/DXGI_SWAP_CHAIN_FLAG_RESTRICT_SHARED_RESOURCE_DRIVER, dxgi/DXGI_SWAP_CHAIN_FLAG_YUV_VIDEO, e9b1bfe4-18e3-1a44-ba71-9359f09d8247
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxgi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_SWAP_CHAIN_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DXGI.h
+api_name:
+-	DXGI_SWAP_CHAIN_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DXGI_SWAP_CHAIN_FLAG enumeration

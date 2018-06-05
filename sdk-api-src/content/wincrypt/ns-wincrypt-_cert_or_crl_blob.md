@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CERT_OR_CRL_BLOB
+title: "_CERT_OR_CRL_BLOB"
+author: windows-sdk-content
+description: Encapsulates certificates for use with Internet Key Exchange messages.
+old-location: security\cert_or_crl_blob.htm
+old-project: SecCrypto
+ms.assetid: f1e37c8f-7fca-4bf1-868f-8ec03a23a434
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_OR_CRL_BLOB, CERT_BUNDLE_CERTIFICATE, CERT_BUNDLE_CRL, CERT_OR_CRL_BLOB, CERT_OR_CRL_BLOB structure [Security], PCERT_OR_CRL_BLOB, PCERT_OR_CRL_BLOB structure pointer [Security], _CERT_OR_CRL_BLOB, security.cert_or_crl_blob, wincrypt/CERT_OR_CRL_BLOB, wincrypt/PCERT_OR_CRL_BLOB"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_OR_CRL_BLOB, *PCERT_OR_CRL_BLOB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_OR_CRL_BLOB
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERT_OR_CRL_BLOB structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITPhone.DeviceSpecific
+title: ITPhone::DeviceSpecific
+author: windows-sdk-content
+description: The DeviceSpecific method enables service providers to provide access to device specific features not offered by other TAPI functions.
+old-location: tapi3\itphone_devicespecific.htm
+old-project: Tapi
+ms.assetid: fba4bf7e-8c9d-4d34-ac56-aa47dff6f57c
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: DeviceSpecific, DeviceSpecific method [TAPI 2.2], DeviceSpecific method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],DeviceSpecific method, ITPhone.DeviceSpecific, ITPhone::DeviceSpecific, _tapi3_itphone_devicespecific, tapi3.itphone_devicespecific, tapi3if/ITPhone::DeviceSpecific
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITPhone.DeviceSpecific
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITPhone::DeviceSpecific

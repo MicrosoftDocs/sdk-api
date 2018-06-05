@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:rpcasync.tagRpcLocalAddressFormat
+title: tagRpcLocalAddressFormat
+author: windows-sdk-content
+description: Specifies the possible local IP address formats supported by RPC.
+old-location: rpc\rpclocaladdressformat.htm
+old-project: Rpc
+ms.assetid: c05610ba-6b00-45e4-b28f-9ce288d08df8
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: RpcLocalAddressFormat, RpcLocalAddressFormat enumeration [RPC], rlafIPv4, rlafIPv6, rlafInvalid, rpc.rpclocaladdressformat, rpcasync/RpcLocalAddressFormat, rpcasync/rlafIPv4, rpcasync/rlafIPv6, rpcasync/rlafInvalid, tagRpcLocalAddressFormat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: rpcasync.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RpcLocalAddressFormat
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rpcasync.h
+api_name:
+-	RpcLocalAddressFormat
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagRpcLocalAddressFormat enumeration

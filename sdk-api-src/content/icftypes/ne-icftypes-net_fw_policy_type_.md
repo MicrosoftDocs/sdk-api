@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:icftypes.NET_FW_POLICY_TYPE_
+title: NET_FW_POLICY_TYPE_
+author: windows-sdk-content
+description: The NET_FW_POLICY_TYPE enumerated type specifies the type of policy.
+old-location: ics\net_fw_policy_type.htm
+old-project: ICS
+ms.assetid: 10b052d6-55d1-4583-9fd4-ebb02548d1db
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: NET_FW_POLICY_EFFECTIVE, NET_FW_POLICY_GROUP, NET_FW_POLICY_LOCAL, NET_FW_POLICY_TYPE, NET_FW_POLICY_TYPE enumeration [ICS/ICF], NET_FW_POLICY_TYPE_, NET_FW_POLICY_TYPE_MAX, icftypes/NET_FW_POLICY_EFFECTIVE, icftypes/NET_FW_POLICY_GROUP, icftypes/NET_FW_POLICY_LOCAL, icftypes/NET_FW_POLICY_TYPE, icftypes/NET_FW_POLICY_TYPE_MAX, ics.net_fw_policy_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: icftypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_FW_POLICY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Icftypes.h
+api_name:
+-	NET_FW_POLICY_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # NET_FW_POLICY_TYPE_ enumeration

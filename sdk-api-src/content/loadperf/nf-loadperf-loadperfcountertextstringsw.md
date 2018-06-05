@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:loadperf.LoadPerfCounterTextStringsW
+title: LoadPerfCounterTextStringsW function
+author: windows-sdk-content
+description: Loads onto the computer the performance objects and counters defined in the specified initialization file.
+old-location: perf\loadperfcountertextstrings.htm
+old-project: PerfCtrs
+ms.assetid: 19f6989a-708a-485d-94c0-ab617707ced4
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: LoadPerfCounterTextStrings, LoadPerfCounterTextStrings function [Perf], LoadPerfCounterTextStringsA, LoadPerfCounterTextStringsW, _win32_loadperfcountertextstrings, base.loadperfcountertextstrings, loadperf/LoadPerfCounterTextStrings, loadperf/LoadPerfCounterTextStringsA, loadperf/LoadPerfCounterTextStringsW, perf.loadperfcountertextstrings
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: loadperf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: LoadPerfCounterTextStringsW (Unicode) and LoadPerfCounterTextStringsA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, *LPWKSTA_USER_INFO_1101
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Loadperf.dll
+api_name:
+-	LoadPerfCounterTextStrings
+-	LoadPerfCounterTextStringsA
+-	LoadPerfCounterTextStringsW
+product: Windows
+targetos: Windows
+req.lib: Loadperf.lib
+req.dll: Loadperf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # LoadPerfCounterTextStringsW function

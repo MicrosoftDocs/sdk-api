@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzRoleDefinitions.get_Item
+title: IAzRoleDefinitions::get_Item
+author: windows-sdk-content
+description: Retrieves the IAzRoleDefinition object at the specified index in the IAzRoleDefinitions collection.
+old-location: security\iazroledefinitions_item.htm
+old-project: SecAuthZ
+ms.assetid: f132b254-4c8e-4313-b596-8d5c8cb047d8
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IAzRoleDefinitions interface [Security],Item property, IAzRoleDefinitions.Item, IAzRoleDefinitions.get_Item, IAzRoleDefinitions::Item, IAzRoleDefinitions::get_Item, Item property [Security], Item property [Security],IAzRoleDefinitions interface, azroles/IAzRoleDefinitions::Item, azroles/IAzRoleDefinitions::get_Item, get_Item, security.iazroledefinitions_item
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzRoleDefinitions.Item
+-	IAzRoleDefinitions.get_Item
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzRoleDefinitions::get_Item

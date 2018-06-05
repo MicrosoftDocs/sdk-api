@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsmgmt.IVssSnapshotMgmt2.GetMinDiffAreaSize
+title: IVssSnapshotMgmt2::GetMinDiffAreaSize
+author: windows-sdk-content
+description: Returns the current minimum size of the shadow copy storage area.
+old-location: base\ivsssnapshotmgmt2_getmindiffareasize.htm
+old-project: VSS
+ms.assetid: d1ee4499-07cb-4373-a3c9-892129a257db
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetMinDiffAreaSize, GetMinDiffAreaSize method [VSS], GetMinDiffAreaSize method [VSS],IVssSnapshotMgmt2 interface, IVssSnapshotMgmt2 interface [VSS],GetMinDiffAreaSize method, IVssSnapshotMgmt2.GetMinDiffAreaSize, IVssSnapshotMgmt2::GetMinDiffAreaSize, base.ivsssnapshotmgmt2_getmindiffareasize, vsmgmt/IVssSnapshotMgmt2::GetMinDiffAreaSize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VsMgmt.h
+api_name:
+-	IVssSnapshotMgmt2.GetMinDiffAreaSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssSnapshotMgmt2::GetMinDiffAreaSize

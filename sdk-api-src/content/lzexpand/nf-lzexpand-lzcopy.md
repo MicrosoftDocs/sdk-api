@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:lzexpand.LZCopy
+title: LZCopy function
+author: windows-sdk-content
+description: Copies a source file to a destination file.
+old-location: fs\lzcopy.htm
+old-project: FileIO
+ms.assetid: 9b6e1ab7-68a2-4721-9e84-11c4126f37a7
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: LZCopy, LZCopy function [Files], _win32_lzcopy, base.lzcopy, fs.lzcopy, lzexpand/LZCopy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: lzexpand.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: POLICY_DNS_DOMAIN_INFO, *PPOLICY_DNS_DOMAIN_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Lz32.dll
+api_name:
+-	LZCopy
+product: Windows
+targetos: Windows
+req.lib: Lz32.lib
+req.dll: Lz32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # LZCopy function

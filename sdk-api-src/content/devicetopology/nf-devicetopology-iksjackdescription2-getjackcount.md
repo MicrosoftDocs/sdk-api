@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:devicetopology.IKsJackDescription2.GetJackCount
+title: IKsJackDescription2::GetJackCount
+author: windows-sdk-content
+description: The GetJackCount method gets the number of jacks on the connector, which are required to connect to an endpoint device.
+old-location: coreaudio\iksjackdescription2_getjackcount.htm
+old-project: CoreAudio
+ms.assetid: b7ebe746-4680-4921-a1fd-1940e306f4eb
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetJackCount, GetJackCount method [Core Audio], GetJackCount method [Core Audio],IKsJackDescription2 interface, IKsJackDescription2 interface [Core Audio],GetJackCount method, IKsJackDescription2.GetJackCount, IKsJackDescription2::GetJackCount, coreaudio.iksjackdescription2_getjackcount, devicetopology/IKsJackDescription2::GetJackCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IKsJackDescription2.GetJackCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IKsJackDescription2::GetJackCount

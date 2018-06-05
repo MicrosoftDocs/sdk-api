@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:setupapi.SetupQueueCopyA
+title: SetupQueueCopyA function
+author: windows-sdk-content
+description: The SetupQueueCopy function adds a single file copy operation to a setup file queue.
+old-location: setup\setupqueuecopy.htm
+old-project: SetupApi
+ms.assetid: c8683438-7a28-4713-8781-45f9bd75b72c
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: SetupQueueCopy, SetupQueueCopy function [Setup API], SetupQueueCopyA, SetupQueueCopyW, _setupapi_setupqueuecopy, setup.setupqueuecopy, setupapi/SetupQueueCopy, setupapi/SetupQueueCopyA, setupapi/SetupQueueCopyW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: setupapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SetupQueueCopyW (Unicode) and SetupQueueCopyA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Setupapi.dll
+api_name:
+-	SetupQueueCopy
+-	SetupQueueCopyA
+-	SetupQueueCopyW
+product: Windows
+targetos: Windows
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetupQueueCopyA function

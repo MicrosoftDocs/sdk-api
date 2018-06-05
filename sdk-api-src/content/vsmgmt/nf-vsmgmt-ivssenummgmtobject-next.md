@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsmgmt.IVssEnumMgmtObject.Next
+title: IVssEnumMgmtObject::Next
+author: windows-sdk-content
+description: Returns the specified number of objects from the specified list of enumerated objects.
+old-location: base\ivssenummgmtobject_next.htm
+old-project: VSS
+ms.assetid: 0ddcf25d-dc3e-4522-a98e-98d867230d42
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IVssEnumMgmtObject interface [VSS],Next method, IVssEnumMgmtObject.Next, IVssEnumMgmtObject::Next, Next, Next method [VSS], Next method [VSS],IVssEnumMgmtObject interface, base.ivssenummgmtobject_next, vsmgmt/IVssEnumMgmtObject::Next
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VsMgmt.h
+api_name:
+-	IVssEnumMgmtObject.Next
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssEnumMgmtObject::Next

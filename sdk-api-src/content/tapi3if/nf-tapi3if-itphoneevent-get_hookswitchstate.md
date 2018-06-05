@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITPhoneEvent.get_HookSwitchState
+title: ITPhoneEvent::get_HookSwitchState
+author: windows-sdk-content
+description: The get_HookSwitchState method returns a PHONE_HOOK_SWITCH_STATE value specifying the state to which the hookswitch has transitioned. This information is available only when the ITPhoneEvent::get_Event method returns PE_HOOKSWITCH.
+old-location: tapi3\itphoneevent_get_hookswitchstate.htm
+old-project: Tapi
+ms.assetid: d7d1033d-0a37-4b9c-86d7-bab5a2cbb454
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_HookSwitchState method, ITPhoneEvent.get_HookSwitchState, ITPhoneEvent::get_HookSwitchState, _tapi3_itphoneevent_get_hookswitchstate, get_HookSwitchState, get_HookSwitchState method [TAPI 2.2], get_HookSwitchState method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_hookswitchstate, tapi3if/ITPhoneEvent::get_HookSwitchState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITPhoneEvent.get_HookSwitchState
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITPhoneEvent::get_HookSwitchState

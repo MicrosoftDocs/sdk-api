@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdatif.IEnumTuneRequests.Skip
+title: IEnumTuneRequests::Skip
+author: windows-sdk-content
+description: The Skip method skips over the specified number of items in the collection.
+old-location: mstv\ienumtunerequests_skip.htm
+old-project: mstv
+ms.assetid: 43ed5c7e-2d31-417e-9d87-c3100e5096d0
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Skip method, IEnumTuneRequests.Skip, IEnumTuneRequests::Skip, IEnumTuneRequestsSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Skip, mstv.ienumtunerequests_skip
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdatif.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SmartCardApplication
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdatif.h
+api_name:
+-	IEnumTuneRequests.Skip
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IEnumTuneRequests::Skip

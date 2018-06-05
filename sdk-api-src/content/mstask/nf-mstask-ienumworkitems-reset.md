@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mstask.IEnumWorkItems.Reset
+title: IEnumWorkItems::Reset
+author: windows-sdk-content
+description: Resets the enumeration sequence to the beginning.
+old-location: taskschd\ienumworkitems_reset.htm
+old-project: TaskSchd
+ms.assetid: 920ba47b-41cd-462b-9b72-73898a5cd4d0
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IEnumWorkItems interface [Task Scheduler],Reset method, IEnumWorkItems.Reset, IEnumWorkItems::Reset, Reset, Reset method [Task Scheduler], Reset method [Task Scheduler],IEnumWorkItems interface, _msb_ienumworkitems_reset, mstask/IEnumWorkItems::Reset, taskschd.ienumworkitems_reset
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mstask.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mstask.dll
+api_name:
+-	IEnumWorkItems.Reset
+product: Windows
+targetos: Windows
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumWorkItems::Reset

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ktmtypes._TRANSACTION_NOTIFICATION
+title: "_TRANSACTION_NOTIFICATION"
+author: windows-sdk-content
+description: Contains the data that is associated with a transaction notification.
+old-location: fs\transaction_notification.htm
+old-project: Ktm
+ms.assetid: 4f87de9d-a068-4ab9-8f38-b75f20552b1d
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PTRANSACTION_NOTIFICATION, PTRANSACTION_NOTIFICATION, PTRANSACTION_NOTIFICATION structure pointer [Files], TRANSACTION_NOTIFICATION, TRANSACTION_NOTIFICATION structure [Files], _TRANSACTION_NOTIFICATION, fs.transaction_notification, ktmtypes/PTRANSACTION_NOTIFICATION, ktmtypes/TRANSACTION_NOTIFICATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ktmtypes.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRANSACTION_NOTIFICATION, *PTRANSACTION_NOTIFICATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	KtmTypes.h
+api_name:
+-	TRANSACTION_NOTIFICATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _TRANSACTION_NOTIFICATION structure

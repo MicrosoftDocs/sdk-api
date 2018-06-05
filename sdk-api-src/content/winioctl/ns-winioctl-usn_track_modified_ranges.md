@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl.USN_TRACK_MODIFIED_RANGES
+title: USN_TRACK_MODIFIED_RANGES
+author: windows-sdk-content
+description: Contains information on range tracking parameters for an update sequence number (USN) change journal using the FSCTL_USN_TRACK_MODIFIED_RANGES control code.
+old-location: fs\usn_track_modified_ranges.htm
+old-project: FileIO
+ms.assetid: 00254BBD-8F38-46AB-8B0A-3094020A48C5
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PUSN_TRACK_MODIFIED_RANGES, PUSN_TRACK_MODIFIED_RANGES, PUSN_TRACK_MODIFIED_RANGES structure pointer [Files], USN_TRACK_MODIFIED_RANGES, USN_TRACK_MODIFIED_RANGES structure [Files], fs.usn_track_modified_ranges, winioctl/PUSN_TRACK_MODIFIED_RANGES, winioctl/USN_TRACK_MODIFIED_RANGES"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USN_TRACK_MODIFIED_RANGES, *PUSN_TRACK_MODIFIED_RANGES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	USN_TRACK_MODIFIED_RANGES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # USN_TRACK_MODIFIED_RANGES structure

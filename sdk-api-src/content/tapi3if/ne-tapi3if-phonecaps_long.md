@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.PHONECAPS_LONG
+title: PHONECAPS_LONG
+author: windows-sdk-content
+description: The PHONECAPS_LONG enum is used by methods that set or get phone capabilities described by a long value.
+old-location: tapi3\phonecaps_long.htm
+old-project: Tapi
+ms.assetid: 7a73d5ff-d08a-46e6-b4ad-4f3b973967a7
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: PCL_DISPLAYNUMCOLUMNS, PCL_DISPLAYNUMROWS, PCL_GENERICPHONE, PCL_HANDSETHOOKSWITCHMODES, PCL_HEADSETHOOKSWITCHMODES, PCL_HOOKSWITCHES, PCL_NUMBUTTONLAMPS, PCL_NUMRINGMODES, PCL_SPEAKERPHONEHOOKSWITCHMODES, PHONECAPS_LONG, PHONECAPS_LONG enumeration [TAPI 2.2], _tapi3_phonecaps_long, tapi3.phonecaps_long, tapi3if/PCL_DISPLAYNUMCOLUMNS, tapi3if/PCL_DISPLAYNUMROWS, tapi3if/PCL_GENERICPHONE, tapi3if/PCL_HANDSETHOOKSWITCHMODES, tapi3if/PCL_HEADSETHOOKSWITCHMODES, tapi3if/PCL_HOOKSWITCHES, tapi3if/PCL_NUMBUTTONLAMPS, tapi3if/PCL_NUMRINGMODES, tapi3if/PCL_SPEAKERPHONEHOOKSWITCHMODES, tapi3if/PHONECAPS_LONG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PHONECAPS_LONG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	PHONECAPS_LONG
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # PHONECAPS_LONG enumeration

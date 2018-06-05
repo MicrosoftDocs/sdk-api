@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS
+title: D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS
+author: windows-sdk-content
+description: Specifies video processing capabilities that relate to deinterlacing, inverse telecine (IVTC), and frame-rate conversion.
+old-location: mf\d3d11_video_processor_processor_caps.htm
+old-project: medfound
+ms.assetid: 9AD4ED7B-B12E-4DFD-BB85-BC19FC6C755A
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS, D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS_DEINTERLACE_ADAPTIVE, D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS_DEINTERLACE_BLEND, D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS_DEINTERLACE_BOB, D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS_DEINTERLACE_MOTION_COMPENSATION, D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS_FRAME_RATE_CONVERSION, D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS_INVERSE_TELECINE, d3d11/D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS, d3d11/D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS_DEINTERLACE_ADAPTIVE, d3d11/D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS_DEINTERLACE_BLEND, d3d11/D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS_DEINTERLACE_BOB, d3d11/D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS_DEINTERLACE_MOTION_COMPENSATION, d3d11/D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS_FRAME_RATE_CONVERSION, d3d11/D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS_INVERSE_TELECINE, mf.d3d11_video_processor_processor_caps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: D3d11.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11.h
+api_name:
+-	D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS enumeration

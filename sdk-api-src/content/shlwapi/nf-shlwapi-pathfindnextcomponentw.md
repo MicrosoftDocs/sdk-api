@@ -1,31 +1,54 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlwapi.PathFindNextComponentW
+title: PathFindNextComponentW function
+author: windows-sdk-content
+description: Parses a path and returns the portion of that path that follows the first backslash.
+old-location: shell\PathFindNextComponent.htm
+old-project: shell
+ms.assetid: 2c76b901-dc0e-4f26-93c8-3c59b8f7147d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: PathFindNextComponent, PathFindNextComponent function [Windows Shell], PathFindNextComponentA, PathFindNextComponentW, _win32_PathFindNextComponent, shell.PathFindNextComponent, shlwapi/PathFindNextComponent, shlwapi/PathFindNextComponentA, shlwapi/PathFindNextComponentW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PathFindNextComponentW (Unicode) and PathFindNextComponentA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+-	API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+-	API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+-	PathFindNextComponent
+-	PathFindNextComponentA
+-	PathFindNextComponentW
+product: Windows
+targetos: Windows
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # PathFindNextComponentW function

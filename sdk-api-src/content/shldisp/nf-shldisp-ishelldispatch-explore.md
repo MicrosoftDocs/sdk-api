@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shldisp.IShellDispatch.Explore
+title: IShellDispatch::Explore
+author: windows-sdk-content
+description: Opens a specified folder in a Windows Explorer window.
+old-location: shell\IShellDispatch_Explore.htm
+old-project: shell
+ms.assetid: DB434D02-56B2-4e8f-9E43-BBF47C7BE377
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: Explore, Explore method [Windows Shell], Explore method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],Explore method, IShellDispatch.Explore, IShellDispatch::Explore, shell.IShellDispatch_Explore
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shldisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shldisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETEOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IShellDispatch.Explore
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # IShellDispatch::Explore

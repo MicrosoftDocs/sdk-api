@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:webservices.WS_XML_STRING_VALUE
+title: WS_XML_STRING_VALUE macro
+author: windows-sdk-content
+description: Provides an initializer for a WS_XML_STRING structure when there is no associated dictionary ID.
+old-location: wsw\ws_xml_string_value.htm
+old-project: wsw
+ms.assetid: 95e2326c-d4b2-421c-b991-ca9c332b6f6f
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_XML_STRING_VALUE, WS_XML_STRING_VALUE macro [Web Services for Windows], webservices/WS_XML_STRING_VALUE, wsw.ws_xml_string_value
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_XML_STRING_VALUE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_XML_STRING_VALUE macro

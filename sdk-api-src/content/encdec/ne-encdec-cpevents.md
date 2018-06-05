@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:encdec.CPEvents
+title: CPEvents
+author: windows-sdk-content
+description: This topic applies to Windows XP Service Pack 1 or later.
+old-location: mstv\cpevents.htm
+old-project: mstv
+ms.assetid: 7a8ef55f-0546-4642-960d-6bd6093ab5d2
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CPEVENT_COPP, CPEVENT_DOWNRES, CPEVENT_LICENSE, CPEVENT_NONE, CPEVENT_RATINGS, CPEVENT_ROLLBACK, CPEVENT_SAC, CPEVENT_STUBLIB, CPEVENT_UNTRUSTEDGRAPH, CPEvents, CPEvents enumeration [Microsoft TV Technologies], encdec/CPEVENT_COPP, encdec/CPEVENT_DOWNRES, encdec/CPEVENT_LICENSE, encdec/CPEVENT_NONE, encdec/CPEVENT_RATINGS, encdec/CPEVENT_ROLLBACK, encdec/CPEVENT_SAC, encdec/CPEVENT_STUBLIB, encdec/CPEVENT_UNTRUSTEDGRAPH, encdec/CPEvents, mstv.cpevents
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: encdec.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CPEvents
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	EncDec.h
+api_name:
+-	CPEvents
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # CPEvents enumeration

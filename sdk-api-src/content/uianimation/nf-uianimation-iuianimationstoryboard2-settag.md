@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uianimation.IUIAnimationStoryboard2.SetTag
+title: IUIAnimationStoryboard2::SetTag
+author: windows-sdk-content
+description: Sets the tag for the storyboard.
+old-location: uianimation\iuianimationstoryboard2_settag.htm
+old-project: UIAnimation
+ms.assetid: 9BEB2BF7-55F7-43F7-822C-CB4AC6F29E32
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],SetTag method, IUIAnimationStoryboard2.SetTag, IUIAnimationStoryboard2::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_settag, uianimation/IUIAnimationStoryboard2::SetTag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uianimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAnimation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAnimation.dll
+api_name:
+-	IUIAnimationStoryboard2.SetTag
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAnimationStoryboard2::SetTag

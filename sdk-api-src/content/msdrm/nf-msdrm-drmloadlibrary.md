@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:msdrm.DRMLoadLibrary
+title: DRMLoadLibrary function
+author: windows-sdk-content
+description: Loads a handle to an approved library, as determined by the credentials.
+old-location: rm\drmloadlibrary.htm
+old-project: AdRms_Sdk
+ms.assetid: b0a95d3f-4252-4685-bc51-547620b5dcf7
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DRMLoadLibrary, DRMLoadLibrary function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMLoadLibrary, rm.drmloadlibrary
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msdrm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_SELECTIONSTYLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msdrm.dll
+api_name:
+-	DRMLoadLibrary
+product: Windows
+targetos: Windows
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DRMLoadLibrary function

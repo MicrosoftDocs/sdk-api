@@ -1,31 +1,57 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemClassObject.CompareTo
+title: IWbemClassObject::CompareTo
+author: windows-sdk-content
+description: The IWbemClassObject::CompareTo method compares an object to another Windows Management object. Note that there are certain constraints in this comparison process.
+old-location: wmi\iwbemclassobject_compareto.htm
+old-project: WmiSdk
+ms.assetid: 246e5c2e-8d89-4ab5-b9ae-21a41eefa2e2
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CompareTo, CompareTo method [Windows Management Instrumentation], CompareTo method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],CompareTo method, IWbemClassObject.CompareTo, IWbemClassObject::CompareTo, WBEM_FLAG_IGNORE_CASE, WBEM_FLAG_IGNORE_CLASS, WBEM_FLAG_IGNORE_DEFAULT_VALUES, WBEM_FLAG_IGNORE_FLAVOR, WBEM_FLAG_IGNORE_OBJECT_SOURCE, WBEM_FLAG_IGNORE_QUALIFIERS, _hmm_iwbemclassobject_compareto, wbemcli/IWbemClassObject::CompareTo, wmi.iwbemclassobject_compareto
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WbemCli.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CIMWin32.dll
+-	Esscli.dll
+-	Fastprox.dll
+-	FrameDyn.dll
+-	FrameDynOS.dll
+-	Krnlprov.dll
+-	Ncprov.dll
+-	Wbemcore.dll
+-	Wbemess.dll
+-	Wmipiprt.dll
+api_name:
+-	IWbemClassObject.CompareTo
+product: Windows
+targetos: Windows
+req.lib: WbemUuid.lib
+req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemClassObject::CompareTo

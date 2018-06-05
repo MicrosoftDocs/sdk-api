@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:virtdisk._DELETE_SNAPSHOT_VHDSET_PARAMETERS
+title: "_DELETE_SNAPSHOT_VHDSET_PARAMETERS"
+author: windows-sdk-content
+description: Contains snapshot deletion parameters, designating which snapshot to delete from the VHD Set.
+old-location: vhd\delete_snapshot_vhdset_parameters.htm
+old-project: VStor
+ms.assetid: A10EB006-2FE5-4445-9E2F-DF2C1AF0A44F
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PDELETE_SNAPSHOT_VHDSET_PARAMETERS, DELETE_SNAPSHOT_VHDSET_PARAMETERS, DELETE_SNAPSHOT_VHDSET_PARAMETERS structure [VHD], PDELETE_SNAPSHOT_VHDSET_PARAMETERS, PDELETE_SNAPSHOT_VHDSET_PARAMETERS structure pointer [VHD], _DELETE_SNAPSHOT_VHDSET_PARAMETERS, vdssys/DELETE_SNAPSHOT_VHDSET_PARAMETERS, vdssys/PDELETE_SNAPSHOT_VHDSET_PARAMETERS, vhd.delete_snapshot_vhdset_parameters, virtdisk/DELETE_SNAPSHOT_VHDSET_PARAMETERS, virtdisk/PDELETE_SNAPSHOT_VHDSET_PARAMETERS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: virtdisk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DELETE_SNAPSHOT_VHDSET_PARAMETERS, *PDELETE_SNAPSHOT_VHDSET_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VirtDisk.h
+-	vdssys.h
+api_name:
+-	DELETE_SNAPSHOT_VHDSET_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _DELETE_SNAPSHOT_VHDSET_PARAMETERS structure

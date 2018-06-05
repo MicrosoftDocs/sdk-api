@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rometadataapi.IMetaDataImport2.GetGenericParamProps
+title: IMetaDataImport2::GetGenericParamProps
+author: windows-sdk-content
+description: Gets the metadata associated with the generic parameter represented by the specified token.
+old-location: winrt\imetadataimport2_getgenericparamprops.htm
+old-project: WinRT
+ms.assetid: 3967e82c-64e3-4d05-b10a-e4e86f9f60ab
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: GetGenericParamProps, GetGenericParamProps method [Windows Runtime], GetGenericParamProps method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetGenericParamProps method, IMetaDataImport2.GetGenericParamProps, IMetaDataImport2::GetGenericParamProps, rometadataapi/IMetaDataImport2::GetGenericParamProps, winrt.imetadataimport2_getgenericparamprops
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rometadataapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rometadataapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	rometadataapi.h
+api_name:
+-	IMetaDataImport2.GetGenericParamProps
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMetaDataImport2::GetGenericParamProps

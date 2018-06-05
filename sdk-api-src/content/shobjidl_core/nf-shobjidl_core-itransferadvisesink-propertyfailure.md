@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.ITransferAdviseSink.PropertyFailure
+title: ITransferAdviseSink::PropertyFailure
+author: windows-sdk-content
+description: Called when there is a failure that involves file properties and user interaction is needed.
+old-location: shell\ITransferAdviseSink_PropertyFailure.htm
+old-project: shell
+ms.assetid: c43cb166-6edf-4c45-93c1-16cb9b5c2d30
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ITransferAdviseSink interface [Windows Shell],PropertyFailure method, ITransferAdviseSink.PropertyFailure, ITransferAdviseSink::PropertyFailure, PropertyFailure, PropertyFailure method [Windows Shell], PropertyFailure method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_PropertyFailure, shell.ITransferAdviseSink_PropertyFailure, shobjidl_core/ITransferAdviseSink::PropertyFailure
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	ITransferAdviseSink.PropertyFailure
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ITransferAdviseSink::PropertyFailure

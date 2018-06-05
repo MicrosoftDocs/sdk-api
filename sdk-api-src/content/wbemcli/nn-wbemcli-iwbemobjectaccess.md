@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:wbemcli.IWbemObjectAccess
+title: IWbemObjectAccess
+author: windows-sdk-content
+description: Provides access to the methods and properties of an object.
+old-location: wmi\iwbemobjectaccess.htm
+old-project: WmiSdk
+ms.assetid: 1025ae50-870f-4d38-8e83-3c6b628315c6
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], IWbemObjectAccess interface [Windows Management Instrumentation],described, _hmm_iwbemobjectaccess, wbemcli/IWbemObjectAccess, wmi.iwbemobjectaccess
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Esscli.dll
+-	Fastprox.dll
+-	Wbemess.dll
+api_name:
+-	IWbemObjectAccess
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Esscli.dll; Fastprox.dll; Wbemess.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemObjectAccess interface

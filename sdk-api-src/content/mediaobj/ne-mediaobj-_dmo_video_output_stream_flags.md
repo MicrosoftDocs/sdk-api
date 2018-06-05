@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:mediaobj._DMO_VIDEO_OUTPUT_STREAM_FLAGS
+title: "_DMO_VIDEO_OUTPUT_STREAM_FLAGS"
+author: windows-sdk-content
+description: The DMO_VIDEO_OUTPUT_STREAM_FLAGS enumeration defines flags that describe requested features, for video optimizations.
+old-location: dshow\dmo_video_output_stream_flags.htm
+old-project: DirectShow
+ms.assetid: fafacdd8-d918-491a-a7e5-7b59128f574f
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DMO_VIDEO_OUTPUT_STREAM_FLAGS , DMO_VIDEO_OUTPUT_STREAM_FLAGSEnumeration, DMO_VOSF_NEEDS_PREVIOUS_SAMPLE, _DMO_VIDEO_OUTPUT_STREAM_FLAGS, _DMO_VIDEO_OUTPUT_STREAM_FLAGS enumeration [DirectShow], dshow.dmo_video_output_stream_flags, mediaobj/DMO_VOSF_NEEDS_PREVIOUS_SAMPLE, mediaobj/_DMO_VIDEO_OUTPUT_STREAM_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mediaobj.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mediaobj.h
+api_name:
+-	_DMO_VIDEO_OUTPUT_STREAM_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _DMO_VIDEO_OUTPUT_STREAM_FLAGS enumeration

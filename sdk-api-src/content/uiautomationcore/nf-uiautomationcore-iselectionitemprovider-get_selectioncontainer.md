@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcore.ISelectionItemProvider.get_SelectionContainer
+title: ISelectionItemProvider::get_SelectionContainer
+author: windows-sdk-content
+description: Specifies the provider that implements ISelectionProvider and acts as the container for the calling object.
+old-location: winauto\uiauto_ISelectionItemProvider_SelectionContainer.htm
+old-project: WinAuto
+ms.assetid: c1bfdb40-f30c-4f33-a947-875077000029
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: ISelectionItemProvider interface [Windows Accessibility],SelectionContainer property, ISelectionItemProvider.SelectionContainer, ISelectionItemProvider.get_SelectionContainer, ISelectionItemProvider::SelectionContainer, ISelectionItemProvider::get_SelectionContainer, SelectionContainer property [Windows Accessibility], SelectionContainer property [Windows Accessibility],ISelectionItemProvider interface, get_SelectionContainer, uiauto.uiauto_ISelectionItemProvider_SelectionContainer, uiauto_ISelectionItemProvider_SelectionContainer, uiautomationcore/ISelectionItemProvider::SelectionContainer, uiautomationcore/ISelectionItemProvider::get_SelectionContainer, winauto.uiauto_ISelectionItemProvider_SelectionContainer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationCore.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	ISelectionItemProvider.SelectionContainer
+-	ISelectionItemProvider.get_SelectionContainer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ISelectionItemProvider::get_SelectionContainer

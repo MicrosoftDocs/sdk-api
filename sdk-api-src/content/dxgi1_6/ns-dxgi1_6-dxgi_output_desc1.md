@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dxgi1_6.DXGI_OUTPUT_DESC1
+title: DXGI_OUTPUT_DESC1
+author: windows-sdk-content
+description: Describes an output or physical connection between the adapter (video card) and a device, including additional information about color capabilities and connection type.
+old-location: direct3ddxgi\dxgi_output_desc1.htm
+old-project: direct3ddxgi
+ms.assetid: 5215EF2C-9511-4B21-B574-3447FA5896F7
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGI_OUTPUT_DESC1, DXGI_OUTPUT_DESC1 structure [DXGI], direct3ddxgi.dxgi_output_desc1, dxgi1_6/DXGI_OUTPUT_DESC1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxgi1_6.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_OUTPUT_DESC1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DXGI1_6.h
+api_name:
+-	DXGI_OUTPUT_DESC1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DXGI_OUTPUT_DESC1 structure

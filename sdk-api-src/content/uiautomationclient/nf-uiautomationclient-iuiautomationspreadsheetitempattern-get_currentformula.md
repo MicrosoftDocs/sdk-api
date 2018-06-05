@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.get_CurrentFormula
+title: IUIAutomationSpreadsheetItemPattern::get_CurrentFormula
+author: windows-sdk-content
+description: Retrieves the formula for this cell.
+old-location: winauto\uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula.htm
+old-project: WinAuto
+ms.assetid: CBE97F32-9640-4093-9612-8751C4508563
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CurrentFormula property [Windows Accessibility], CurrentFormula property [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],CurrentFormula property, IUIAutomationSpreadsheetItemPattern.CurrentFormula, IUIAutomationSpreadsheetItemPattern.get_CurrentFormula, IUIAutomationSpreadsheetItemPattern::CurrentFormula, IUIAutomationSpreadsheetItemPattern::get_CurrentFormula, get_CurrentFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::CurrentFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CurrentFormula, winauto.uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationSpreadsheetItemPattern.CurrentFormula
+-	IUIAutomationSpreadsheetItemPattern.get_CurrentFormula
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationSpreadsheetItemPattern::get_CurrentFormula

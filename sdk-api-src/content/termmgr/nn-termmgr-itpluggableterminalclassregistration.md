@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:termmgr.ITPluggableTerminalClassRegistration
+title: ITPluggableTerminalClassRegistration
+author: windows-sdk-content
+description: The ITPluggableTerminalClassRegistration interface exposes methods that allow the creation, modification, and deletion of the registry entry for a pluggable terminal.
+old-location: tapi3\itpluggableterminalclassregistration.htm
+old-project: Tapi
+ms.assetid: 178824f5-9dda-4e8a-b921-f2c9d064a83c
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITPluggableTerminalClassRegistration, ITPluggableTerminalClassRegistration interface [TAPI 2.2], ITPluggableTerminalClassRegistration interface [TAPI 2.2],described, _tapi3_itpluggableterminalclassregistration, tapi3.itpluggableterminalclassregistration, termmgr/ITPluggableTerminalClassRegistration
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: termmgr.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITPluggableTerminalClassRegistration
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITPluggableTerminalClassRegistration interface

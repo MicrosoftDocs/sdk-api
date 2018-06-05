@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:devicetopology.IAudioPeakMeter.GetLevel
+title: IAudioPeakMeter::GetLevel
+author: windows-sdk-content
+description: The GetLevel method gets the peak level that the peak meter recorded for the specified channel since the peak level for that channel was previously read.
+old-location: coreaudio\iaudiopeakmeter_getlevel.htm
+old-project: CoreAudio
+ms.assetid: c5d7d941-b001-49a9-b421-a999f90ddb22
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetLevel, GetLevel method [Core Audio], GetLevel method [Core Audio],IAudioPeakMeter interface, IAudioPeakMeter interface [Core Audio],GetLevel method, IAudioPeakMeter.GetLevel, IAudioPeakMeter::GetLevel, IAudioPeakMeterGetLevel, coreaudio.iaudiopeakmeter_getlevel, devicetopology/IAudioPeakMeter::GetLevel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IAudioPeakMeter.GetLevel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioPeakMeter::GetLevel

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:setupapi._CABINET_INFO_W
+title: "_CABINET_INFO_W"
+author: windows-sdk-content
+description: The CABINET_INFO structure stores information about a cabinet file. The SetupIterateCabinet function specifies this structure as a parameter when it sends a SPFILENOTIFY_NEEDNEWCABINET notification to the cabinet callback routine.
+old-location: setup\cabinet_info_str.htm
+old-project: SetupApi
+ms.assetid: 205bff19-d9ac-4dc0-ab11-92cf70a3bd49
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*PCABINET_INFO_W, CABINET_INFO, CABINET_INFO structure [Setup API], CABINET_INFO_W, PCABINET_INFO, PCABINET_INFO structure pointer [Setup API], _CABINET_INFO_W, _setupapi_cabinet_info_str, setup.cabinet_info_str, setupapi/CABINET_INFO, setupapi/PCABINET_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: setupapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CABINET_INFO_W, *PCABINET_INFO_W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Setupapi.h
+api_name:
+-	CABINET_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _CABINET_INFO_W structure

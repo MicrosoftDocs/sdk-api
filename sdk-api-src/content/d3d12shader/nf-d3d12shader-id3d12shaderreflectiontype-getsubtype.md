@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetSubType
+title: ID3D12ShaderReflectionType::GetSubType
+author: windows-sdk-content
+description: Gets the base class of a class.
+old-location: direct3d12\id3d12shaderreflectiontype_getsubtype.htm
+old-project: direct3d12
+ms.assetid: FE91228D-F9DD-47F1-84E7-08D3C7E424C4
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: GetSubType, GetSubType method, GetSubType method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetSubType method, ID3D12ShaderReflectionType.GetSubType, ID3D12ShaderReflectionType::GetSubType, d3d12shader/ID3D12ShaderReflectionType::GetSubType, direct3d12.id3d12shaderreflectiontype_getsubtype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d12shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SHADER_VERSION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12shader.h
+api_name:
+-	ID3D12ShaderReflectionType.GetSubType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D12ShaderReflectionType::GetSubType

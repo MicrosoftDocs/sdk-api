@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:newdev.DiInstallDevice
+title: DiInstallDevice function
+author: windows-sdk-content
+description: The DiInstallDevice function installs a specified driver that is preinstalled in the driver store on a specified device that is present in the system.
+old-location: devinst\diinstalldevice.htm
+old-project: devinst
+ms.assetid: e107fc37-02cb-4d50-822c-1c6fd80d7532
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: DiInstallDevice, DiInstallDevice function [Device and Driver Installation], devinst.diinstalldevice, di-rtns_a2abff84-96e6-43c3-85ab-fe095d11b689.xml, newdev/DiInstallDevice
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: newdev.h
+req.include-header: Newdev.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INET_FIREWALL_APP_CONTAINER, *PINET_FIREWALL_APP_CONTAINER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Newdev.dll
+-	Ext-MS-Win-Newdev-Config-L1-1-1.dll
+api_name:
+-	DiInstallDevice
+product: Windows
+targetos: Windows
+req.lib: Newdev.lib
+req.dll: Newdev.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DiInstallDevice function

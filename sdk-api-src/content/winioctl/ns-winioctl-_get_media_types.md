@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._GET_MEDIA_TYPES
+title: "_GET_MEDIA_TYPES"
+author: windows-sdk-content
+description: Contains information about the media types supported by a device.
+old-location: base\get_media_types_str.htm
+old-project: DevIO
+ms.assetid: 07d1ccc5-5f8a-4272-a9be-74fa7a9e1bbc
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*PGET_MEDIA_TYPES, FILE_DEVICE_8042_PORT, FILE_DEVICE_ACPI, FILE_DEVICE_BATTERY, FILE_DEVICE_BEEP, FILE_DEVICE_BLUETOOTH, FILE_DEVICE_BUS_EXTENDER, FILE_DEVICE_CD_ROM, FILE_DEVICE_CD_ROM_FILE_SYSTEM, FILE_DEVICE_CHANGER, FILE_DEVICE_CONTROLLER, FILE_DEVICE_CRYPT_PROVIDER, FILE_DEVICE_DATALINK, FILE_DEVICE_DFS, FILE_DEVICE_DFS_FILE_SYSTEM, FILE_DEVICE_DFS_VOLUME, FILE_DEVICE_DISK, FILE_DEVICE_DISK_FILE_SYSTEM, FILE_DEVICE_DVD, FILE_DEVICE_FILE_SYSTEM, FILE_DEVICE_FIPS, FILE_DEVICE_FULLSCREEN_VIDEO, FILE_DEVICE_INFINIBAND, FILE_DEVICE_INPORT_PORT, FILE_DEVICE_KEYBOARD, FILE_DEVICE_KS, FILE_DEVICE_KSEC, FILE_DEVICE_MAILSLOT, FILE_DEVICE_MASS_STORAGE, FILE_DEVICE_MIDI_IN, FILE_DEVICE_MIDI_OUT, FILE_DEVICE_MODEM, FILE_DEVICE_MOUSE, FILE_DEVICE_MULTI_UNC_PROVIDER, FILE_DEVICE_NAMED_PIPE, FILE_DEVICE_NETWORK, FILE_DEVICE_NETWORK_BROWSER, FILE_DEVICE_NETWORK_FILE_SYSTEM, FILE_DEVICE_NETWORK_REDIRECTOR, FILE_DEVICE_NULL, FILE_DEVICE_PARALLEL_PORT, FILE_DEVICE_PHYSICAL_NETCARD, FILE_DEVICE_PRINTER, FILE_DEVICE_SCANNER, FILE_DEVICE_SCREEN, FILE_DEVICE_SERENUM, FILE_DEVICE_SERIAL_MOUSE_PORT, FILE_DEVICE_SERIAL_PORT, FILE_DEVICE_SMARTCARD, FILE_DEVICE_SMB, FILE_DEVICE_SOUND, FILE_DEVICE_STREAMS, FILE_DEVICE_TAPE, FILE_DEVICE_TAPE_FILE_SYSTEM, FILE_DEVICE_TERMSRV, FILE_DEVICE_TRANSPORT, FILE_DEVICE_UNKNOWN, FILE_DEVICE_VDM, FILE_DEVICE_VIDEO, FILE_DEVICE_VIRTUAL_DISK, FILE_DEVICE_VMBUS, FILE_DEVICE_WAVE_IN, FILE_DEVICE_WAVE_OUT, FILE_DEVICE_WPD, GET_MEDIA_TYPES, GET_MEDIA_TYPES structure, PGET_MEDIA_TYPES, PGET_MEDIA_TYPES structure pointer, _GET_MEDIA_TYPES, _win32_get_media_types_str, base.get_media_types_str, winioctl/GET_MEDIA_TYPES, winioctl/PGET_MEDIA_TYPES"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GET_MEDIA_TYPES, *PGET_MEDIA_TYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	GET_MEDIA_TYPES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _GET_MEDIA_TYPES structure

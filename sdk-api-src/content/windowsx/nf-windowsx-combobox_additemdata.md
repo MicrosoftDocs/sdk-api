@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:windowsx.ComboBox_AddItemData
+title: ComboBox_AddItemData macro
+author: windows-sdk-content
+description: Adds item data to the list in a combo box at the specified location. You can use this macro or send the CB_ADDSTRING message explicitly.
+old-location: controls\ComboBox_AddItemData.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_additemdata.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: ComboBox_AddItemData, ComboBox_AddItemData macro [Windows Controls], _win32_ComboBox_AddItemData, _win32_ComboBox_AddItemData_cpp, controls.ComboBox_AddItemData, controls._win32_ComboBox_AddItemData, windowsx/ComboBox_AddItemData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: windowsx.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HANDLE_SHARING_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Windowsx.h
+api_name:
+-	ComboBox_AddItemData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ComboBox_AddItemData macro

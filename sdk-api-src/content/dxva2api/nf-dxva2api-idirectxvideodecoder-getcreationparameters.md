@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxva2api.IDirectXVideoDecoder.GetCreationParameters
+title: IDirectXVideoDecoder::GetCreationParameters
+author: windows-sdk-content
+description: Retrieves the parameters that were used to create this device.
+old-location: mf\idirectxvideodecoder_getcreationparameters.htm
+old-project: medfound
+ms.assetid: 5e1a4f6b-22f3-40ae-8990-88ecb5b16d44
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 5e1a4f6b-22f3-40ae-8990-88ecb5b16d44, GetCreationParameters, GetCreationParameters method [Media Foundation], GetCreationParameters method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],GetCreationParameters method, IDirectXVideoDecoder.GetCreationParameters, IDirectXVideoDecoder::GetCreationParameters, dxva2api/IDirectXVideoDecoder::GetCreationParameters, mf.idirectxvideodecoder_getcreationparameters
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxva2api.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA2_SurfaceType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxva2api.h
+api_name:
+-	IDirectXVideoDecoder.GetCreationParameters
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDirectXVideoDecoder::GetCreationParameters

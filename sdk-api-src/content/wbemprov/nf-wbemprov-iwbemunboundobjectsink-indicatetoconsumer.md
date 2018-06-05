@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemprov.IWbemUnboundObjectSink.IndicateToConsumer
+title: IWbemUnboundObjectSink::IndicateToConsumer
+author: windows-sdk-content
+description: Called by WMI to actually deliver events to a consumer.
+old-location: wmi\iwbemunboundobjectsink_indicatetoconsumer.htm
+old-project: WmiSdk
+ms.assetid: 70fe9976-cfa9-442d-93a4-12293e80d1fa
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IWbemUnboundObjectSink interface [Windows Management Instrumentation],IndicateToConsumer method, IWbemUnboundObjectSink.IndicateToConsumer, IWbemUnboundObjectSink::IndicateToConsumer, IndicateToConsumer, IndicateToConsumer method [Windows Management Instrumentation], IndicateToConsumer method [Windows Management Instrumentation],IWbemUnboundObjectSink interface, _hmm_iwbemunboundobjectsink_indicatetoconsumer, wbemprov/IWbemUnboundObjectSink::IndicateToConsumer, wmi.iwbemunboundobjectsink_indicatetoconsumer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemprov.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fastprox.dll
+api_name:
+-	IWbemUnboundObjectSink.IndicateToConsumer
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemUnboundObjectSink::IndicateToConsumer

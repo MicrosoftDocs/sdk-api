@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bits3_0.IBitsPeerCacheAdministration.SetConfigurationFlags
+title: IBitsPeerCacheAdministration::SetConfigurationFlags
+author: windows-sdk-content
+description: Sets the configuration flags that determine if the computer can serve content to peers and can download content from peers.
+old-location: bits\ibitspeercacheadministration_setconfigurationflags.htm
+old-project: Bits
+ms.assetid: 1ede7c58-bc6d-4930-bca6-e4f26f97c648
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BG_ENABLE_PEERCACHING_CLIENT, BG_ENABLE_PEERCACHING_SERVER, IBitsPeerCacheAdministration interface [BITS],SetConfigurationFlags method, IBitsPeerCacheAdministration.SetConfigurationFlags, IBitsPeerCacheAdministration::SetConfigurationFlags, SetConfigurationFlags, SetConfigurationFlags method [BITS], SetConfigurationFlags method [BITS],IBitsPeerCacheAdministration interface, bits.ibitspeercacheadministration_setconfigurationflags, bits3_0/IBitsPeerCacheAdministration::SetConfigurationFlags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bits3_0.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits3_0.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_CERT_STORE_LOCATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Bits.lib
+-	Bits.dll
+api_name:
+-	IBitsPeerCacheAdministration.SetConfigurationFlags
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 ---
 
 # IBitsPeerCacheAdministration::SetConfigurationFlags

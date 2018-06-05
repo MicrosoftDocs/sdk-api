@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dbghelp._IMAGEHLP_MODULEW64
+title: "_IMAGEHLP_MODULEW64"
+author: windows-sdk-content
+description: Contains module information.
+old-location: base\imagehlp_module64_str.htm
+old-project: Debug
+ms.assetid: 3cc7a678-561b-4af8-8cf0-5cf6ebc0cb26
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PIMAGEHLP_MODULEW64, IMAGEHLP_MODULE, IMAGEHLP_MODULE structure, IMAGEHLP_MODULE64, IMAGEHLP_MODULE64 structure, IMAGEHLP_MODULEW64, PIMAGEHLP_MODULE64, PIMAGEHLP_MODULE64 structure pointer, SymCoff, SymCv, SymDeferred, SymDia, SymExport, SymNone, SymPdb, SymSym, SymVirtual, _IMAGEHLP_MODULE64, _IMAGEHLP_MODULEW64, _win32_imagehlp_module64_str, base.imagehlp_module64_str, dbghelp/IMAGEHLP_MODULE64, dbghelp/IMAGEHLP_MODULEW64, dbghelp/PIMAGEHLP_MODULE64"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: IMAGEHLP_MODULEW64 (Unicode) and IMAGEHLP_MODULE64 (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_MODULEW64, *PIMAGEHLP_MODULEW64
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DbgHelp.h
+api_name:
+-	IMAGEHLP_MODULE64
+-	IMAGEHLP_MODULE64
+-	IMAGEHLP_MODULEW64
+-	IMAGEHLP_MODULE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _IMAGEHLP_MODULEW64 structure

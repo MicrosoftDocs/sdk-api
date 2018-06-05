@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dxmini._DDLOCKOUTINFO
+title: "_DDLOCKOUTINFO"
+author: windows-sdk-content
+description: The DDLOCKOUTINFO structure contains the surface information output from the DxLock function.
+old-location: display\ddlockoutinfo.htm
+old-project: display
+ms.assetid: a29ec594-c5f9-46e4-a8c2-95e24e2ddb2d
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDDLOCKOUTINFO, DDLOCKOUTINFO, DDLOCKOUTINFO structure [Display Devices], PDDLOCKOUTINFO, PDDLOCKOUTINFO structure pointer [Display Devices], Video_Structs_7e32e28f-c3c0-48cc-85e7-341bed0382e5.xml, _DDLOCKOUTINFO, display.ddlockoutinfo, dxmini/DDLOCKOUTINFO, dxmini/PDDLOCKOUTINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDLOCKOUTINFO, *PDDLOCKOUTINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxmini.h
+api_name:
+-	DDLOCKOUTINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DDLOCKOUTINFO structure

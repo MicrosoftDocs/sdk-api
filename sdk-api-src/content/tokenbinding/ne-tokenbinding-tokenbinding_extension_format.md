@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tokenbinding.TOKENBINDING_EXTENSION_FORMAT
+title: TOKENBINDING_EXTENSION_FORMAT
+author: windows-sdk-content
+description: Specifies the formats that are available to interpret extension data.
+old-location: security\tokenbinding_extension_format.htm
+old-project: SecCNG
+ms.assetid: EBF14890-3F7D-4814-93E1-570E81E05DF2
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: TOKENBINDING_EXTENSION_FORMAT, TOKENBINDING_EXTENSION_FORMAT enumeration [Security], TOKENBINDING_EXTENSION_FORMAT_UNDEFINED, security.tokenbinding_extension_format, tokenbinding/TOKENBINDING_EXTENSION_FORMAT, tokenbinding/TOKENBINDING_EXTENSION_FORMAT_UNDEFINED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tokenbinding.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tlogstg.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TOKENBINDING_EXTENSION_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tokenbinding.h
+api_name:
+-	TOKENBINDING_EXTENSION_FORMAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TOKENBINDING_EXTENSION_FORMAT enumeration

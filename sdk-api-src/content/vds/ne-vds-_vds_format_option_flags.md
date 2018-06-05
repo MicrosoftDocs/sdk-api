@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_FORMAT_OPTION_FLAGS
+title: "_VDS_FORMAT_OPTION_FLAGS"
+author: windows-sdk-content
+description: Defines the set of valid formatting options for the IVdsDiskPartitionMF2::FormatPartitionEx2 method.
+old-location: base\vds_format_option_flags.htm
+old-project: VDS
+ms.assetid: 75c92a9a-36c9-4c8d-90f2-a2b88cd8a7b5
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_FORMAT_OPTION_FLAGS, VDS_FORMAT_OPTION_FLAGS enumeration, VDS_FSOF_COMPRESSION, VDS_FSOF_DUPLICATE_METADATA, VDS_FSOF_FORCE, VDS_FSOF_NONE, VDS_FSOF_QUICK, _VDS_FORMAT_OPTION_FLAGS, base.vds_format_option_flags, vds/VDS_FORMAT_OPTION_FLAGS, vds/VDS_FSOF_COMPRESSION, vds/VDS_FSOF_DUPLICATE_METADATA, vds/VDS_FSOF_FORCE, vds/VDS_FSOF_NONE, vds/VDS_FSOF_QUICK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_FORMAT_OPTION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	VDS_FORMAT_OPTION_FLAGS
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_FORMAT_OPTION_FLAGS enumeration

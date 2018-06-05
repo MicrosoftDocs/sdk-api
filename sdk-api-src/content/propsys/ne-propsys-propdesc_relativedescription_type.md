@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:propsys.PROPDESC_RELATIVEDESCRIPTION_TYPE
+title: PROPDESC_RELATIVEDESCRIPTION_TYPE
+author: windows-sdk-content
+description: Describes the relative description type for a property description, as determined by the relativeDescriptionType attribute of the displayInfo element.
+old-location: properties\PROPDESC_RELATIVEDESCRIPTION_TYPE.htm
+old-project: properties
+ms.assetid: cc9d59db-88d6-4726-ac1e-15b483afd637
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PDRDT_COUNT, PDRDT_DATE, PDRDT_DURATION, PDRDT_GENERAL, PDRDT_LENGTH, PDRDT_PRIORITY, PDRDT_RATE, PDRDT_RATING, PDRDT_REVISION, PDRDT_SIZE, PDRDT_SPEED, PROPDESC_RELATIVEDESCRIPTION_TYPE, PROPDESC_RELATIVEDESCRIPTION_TYPE enumeration [Windows Properties], properties.PROPDESC_RELATIVEDESCRIPTION_TYPE, propsys/PDRDT_COUNT, propsys/PDRDT_DATE, propsys/PDRDT_DURATION, propsys/PDRDT_GENERAL, propsys/PDRDT_LENGTH, propsys/PDRDT_PRIORITY, propsys/PDRDT_RATE, propsys/PDRDT_RATING, propsys/PDRDT_REVISION, propsys/PDRDT_SIZE, propsys/PDRDT_SPEED, propsys/PROPDESC_RELATIVEDESCRIPTION_TYPE, shell.PROPDESC_RELATIVEDESCRIPTION_TYPE, shell_PROPDESC_RELATIVEDESCRIPTION_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPDESC_RELATIVEDESCRIPTION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Propsys.h
+api_name:
+-	PROPDESC_RELATIVEDESCRIPTION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PROPDESC_RELATIVEDESCRIPTION_TYPE enumeration

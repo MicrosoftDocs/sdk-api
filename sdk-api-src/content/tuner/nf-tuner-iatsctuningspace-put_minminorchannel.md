@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tuner.IATSCTuningSpace.put_MinMinorChannel
+title: IATSCTuningSpace::put_MinMinorChannel
+author: windows-sdk-content
+description: The put_MinMinorChannel method sets the lowest minor channel number ever allowed for this tuning space.
+old-location: mstv\iatsctuningspace_put_minminorchannel.htm
+old-project: mstv
+ms.assetid: 71ae8be2-8e80-49ff-9d1b-be42a620c20c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],put_MinMinorChannel method, IATSCTuningSpace.put_MinMinorChannel, IATSCTuningSpace::put_MinMinorChannel, IATSCTuningSpaceput_MinMinorChannel, mstv.iatsctuningspace_put_minminorchannel, put_MinMinorChannel, put_MinMinorChannel method [Microsoft TV Technologies], put_MinMinorChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, tuner/IATSCTuningSpace::put_MinMinorChannel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tuner.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IATSCTuningSpace.put_MinMinorChannel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IATSCTuningSpace::put_MinMinorChannel

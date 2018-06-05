@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:fci.FCIFlushFolder
+title: FCIFlushFolder function
+author: windows-sdk-content
+description: The FCIFlushFolder function forces the current folder under construction to be completed immediately.
+old-location: winprog\fciflushfolder.htm
+old-project: DevNotes
+ms.assetid: dc9c226e-e309-48c3-9edb-3f0a040c0c18
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: FCIFlushFolder, FCIFlushFolder function [Windows API], fci/FCIFlushFolder, winprog.fciflushfolder
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fci.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cabinet.dll
+api_name:
+-	FCIFlushFolder
+product: Windows
+targetos: Windows
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FCIFlushFolder function

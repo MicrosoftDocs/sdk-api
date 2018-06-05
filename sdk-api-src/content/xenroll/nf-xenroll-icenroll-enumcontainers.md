@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xenroll.ICEnroll.enumContainers
+title: ICEnroll::enumContainers
+author: windows-sdk-content
+description: Retrieves the names of containers for the cryptographic service provider (CSP) specified by the ProviderName property. This method was first defined in the ICEnroll interface.
+old-location: security\icenroll4_enumcontainers.htm
+old-project: SecCrypto
+ms.assetid: 28102a55-3bda-4413-84b6-cfa2057be98b
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CEnroll object [Security],enumContainers method, ICEnroll interface [Security],enumContainers method, ICEnroll.enumContainers, ICEnroll2 interface [Security],enumContainers method, ICEnroll2::enumContainers, ICEnroll3 interface [Security],enumContainers method, ICEnroll3::enumContainers, ICEnroll4 interface [Security],enumContainers method, ICEnroll4::enumContainers, ICEnroll::enumContainers, enumContainers, enumContainers method [Security], enumContainers method [Security],CEnroll object, enumContainers method [Security],ICEnroll interface, enumContainers method [Security],ICEnroll2 interface, enumContainers method [Security],ICEnroll3 interface, enumContainers method [Security],ICEnroll4 interface, security.icenroll4_enumcontainers, xenroll/ICEnroll2::enumContainers, xenroll/ICEnroll3::enumContainers, xenroll/ICEnroll4::enumContainers, xenroll/ICEnroll::enumContainers
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	ICEnroll4.enumContainers
+-	ICEnroll3.enumContainers
+-	ICEnroll2.enumContainers
+-	ICEnroll.enumContainers
+-	CEnroll.enumContainers
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # ICEnroll::enumContainers

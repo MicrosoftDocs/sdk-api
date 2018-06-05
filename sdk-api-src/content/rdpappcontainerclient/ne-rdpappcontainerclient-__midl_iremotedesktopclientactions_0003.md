@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:rdpappcontainerclient.__MIDL_IRemoteDesktopClientActions_0003
+title: "__MIDL_IRemoteDesktopClientActions_0003"
+author: windows-sdk-content
+description: The data format used for a Remote Desktop Protocol (RDP) app container client snapshot.
+old-location: termserv\snapshotformattype.htm
+old-project: TermServ
+ms.assetid: 18B73928-F797-457A-84A1-0E1B2B1208A2
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: SnapshotFormatBmp, SnapshotFormatJpeg, SnapshotFormatPng, SnapshotFormatType, SnapshotFormatType enumeration [Remote Desktop Services], __MIDL_IRemoteDesktopClientActions_0003, rdpappcontainerclient/SnapshotFormatBmp, rdpappcontainerclient/SnapshotFormatJpeg, rdpappcontainerclient/SnapshotFormatPng, rdpappcontainerclient/SnapshotFormatType, termserv.snapshotformattype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: rdpappcontainerclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: MsTscAx.dll
+tech.root: 
+req.typenames: SnapshotFormatType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	MsTscAx.dll
+api_name:
+-	SnapshotFormatType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL_IRemoteDesktopClientActions_0003 enumeration

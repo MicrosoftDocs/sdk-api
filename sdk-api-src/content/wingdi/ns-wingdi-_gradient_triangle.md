@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi._GRADIENT_TRIANGLE
+title: "_GRADIENT_TRIANGLE"
+author: windows-sdk-content
+description: The GRADIENT_TRIANGLE structure specifies the index of three vertices in the pVertex array in the GradientFill function. These three vertices form one triangle.
+old-location: gdi\gradient_triangle.htm
+old-project: gdi
+ms.assetid: 71f3a4bd-5823-47ae-aa7a-f3058f18c591
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPGRADIENT_TRIANGLE, *PGRADIENT_TRIANGLE, GRADIENT_TRIANGLE, GRADIENT_TRIANGLE structure [Windows GDI], PGRADIENT_TRIANGLE, PGRADIENT_TRIANGLE structure pointer [Windows GDI], _GRADIENT_TRIANGLE, _win32_GRADIENT_TRIANGLE_str, gdi.gradient_triangle, wingdi/GRADIENT_TRIANGLE, wingdi/PGRADIENT_TRIANGLE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GRADIENT_TRIANGLE, *PGRADIENT_TRIANGLE, *LPGRADIENT_TRIANGLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	GRADIENT_TRIANGLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _GRADIENT_TRIANGLE structure

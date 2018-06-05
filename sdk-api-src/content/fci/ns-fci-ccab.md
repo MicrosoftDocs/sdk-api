@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:fci.CCAB
+title: CCAB
+author: windows-sdk-content
+description: The CCAB structure contains cabinet information.
+old-location: winprog\ccab.htm
+old-project: DevNotes
+ms.assetid: e25cb72b-4c96-40e9-9fd5-2920e4a01d3a
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*PCCAB, CCAB, CCAB structure [Windows API], PCCAB, PCCAB structure pointer [Windows API], fci/CCAB, fci/PCCAB, winprog.ccab"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: fci.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CCAB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Fci.h
+api_name:
+-	CCAB
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # CCAB structure

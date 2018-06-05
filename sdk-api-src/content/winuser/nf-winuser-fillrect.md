@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winuser.FillRect
+title: FillRect function
+author: windows-sdk-content
+description: The FillRect function fills a rectangle by using the specified brush. This function includes the left and top borders, but excludes the right and bottom borders of the rectangle.
+old-location: gdi\fillrect.htm
+old-project: gdi
+ms.assetid: 98ab34da-ea07-4446-a62e-509c849d95f9
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: FillRect, FillRect function [Windows GDI], _win32_FillRect, gdi.fillrect, winuser/FillRect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,30 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	user32.dll
+-	Ext-MS-Win-NTUser-GUI-l1-1-0.dll
+-	Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+-	Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+-	api-ms-win-ntuser-ie-gui-l1-1-0.dll
+-	ie_stubs.dll
+-	ext-ms-win-ntuser-gui-l1-2-1.dll
+-	Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+api_name:
+-	FillRect
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # FillRect function

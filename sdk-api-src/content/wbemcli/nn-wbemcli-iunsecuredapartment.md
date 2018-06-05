@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:wbemcli.IUnsecuredApartment
+title: IUnsecuredApartment
+author: windows-sdk-content
+description: The IUnsecuredApartment interface is used to simplify the process of making asynchronous calls from a client process.
+old-location: wmi\iunsecuredapartment.htm
+old-project: WmiSdk
+ms.assetid: 6293d8e3-cc5b-4401-8fdc-86f5d03720ea
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IUnsecuredApartment, IUnsecuredApartment interface [Windows Management Instrumentation], IUnsecuredApartment interface [Windows Management Instrumentation],described, UnsecuredApartment, _hmm_iunsecuredapartment, wbemcli/IUnsecuredApartment, wmi.iunsecuredapartment
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Unsecapp.exe
+api_name:
+-	IUnsecuredApartment
+-	UnsecuredApartment
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Unsecapp.exe
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IUnsecuredApartment interface

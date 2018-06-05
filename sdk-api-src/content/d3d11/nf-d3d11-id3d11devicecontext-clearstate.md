@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11.ID3D11DeviceContext.ClearState
+title: ID3D11DeviceContext::ClearState
+author: windows-sdk-content
+description: Restore all default settings.
+old-location: direct3d11\id3d11devicecontext_clearstate.htm
+old-project: direct3d11
+ms.assetid: dabf52f5-0f69-4017-863c-9e3ecef4d5dc
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: ClearState, ClearState method [Direct3D 11], ClearState method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],ClearState method, ID3D11DeviceContext.ClearState, ID3D11DeviceContext::ClearState, b3d84ab3-64bc-1c6c-0a7d-5e4409b47dec, d3d11/ID3D11DeviceContext::ClearState, direct3d11.id3d11devicecontext_clearstate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11DeviceContext.ClearState
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11DeviceContext::ClearState

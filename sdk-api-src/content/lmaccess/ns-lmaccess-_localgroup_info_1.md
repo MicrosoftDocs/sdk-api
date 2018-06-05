@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmaccess._LOCALGROUP_INFO_1
+title: "_LOCALGROUP_INFO_1"
+author: windows-sdk-content
+description: The LOCALGROUP_INFO_1 structure contains a local group name and a comment describing the local group.
+old-location: netmgmt\localgroup_info_1_str.htm
+old-project: NetMgmt
+ms.assetid: b96d7ddc-3ffb-4203-88b1-4aa123051695
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPLOCALGROUP_INFO_1, *PLOCALGROUP_INFO_1, LOCALGROUP_INFO_1, LOCALGROUP_INFO_1 structure [Network Management], LPLOCALGROUP_INFO_1, LPLOCALGROUP_INFO_1 structure pointer [Network Management], PLOCALGROUP_INFO_1, PLOCALGROUP_INFO_1 structure pointer [Network Management], _LOCALGROUP_INFO_1, _win32_localgroup_info_1_str, lmaccess/LOCALGROUP_INFO_1, lmaccess/LPLOCALGROUP_INFO_1, lmaccess/PLOCALGROUP_INFO_1, netmgmt.localgroup_info_1_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmaccess.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOCALGROUP_INFO_1, *PLOCALGROUP_INFO_1, *LPLOCALGROUP_INFO_1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmaccess.h
+api_name:
+-	LOCALGROUP_INFO_1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _LOCALGROUP_INFO_1 structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.IWeeklyTrigger.get_WeeksInterval
+title: IWeeklyTrigger::get_WeeksInterval
+author: windows-sdk-content
+description: Gets or sets the interval between the weeks in the schedule.
+old-location: taskschd\iweeklytrigger_weeksinterval.htm
+old-project: TaskSchd
+ms.assetid: 11f2c708-a95b-4b9c-a3a6-9b37b01d2d0b
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWeeklyTrigger interface [Task Scheduler],WeeksInterval property, IWeeklyTrigger.WeeksInterval, IWeeklyTrigger.get_WeeksInterval, IWeeklyTrigger::WeeksInterval, IWeeklyTrigger::get_WeeksInterval, IWeeklyTrigger::put_WeeksInterval, WeeksInterval property [Task Scheduler], WeeksInterval property [Task Scheduler],IWeeklyTrigger interface, get_WeeksInterval, taskschd.iweeklytrigger_weeksinterval, taskschd/IWeeklyTrigger::WeeksInterval, taskschd/IWeeklyTrigger::get_WeeksInterval, taskschd/IWeeklyTrigger::put_WeeksInterval
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	IWeeklyTrigger.WeeksInterval
+-	IWeeklyTrigger.get_WeeksInterval
+-	IWeeklyTrigger.put_WeeksInterval
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IWeeklyTrigger::get_WeeksInterval

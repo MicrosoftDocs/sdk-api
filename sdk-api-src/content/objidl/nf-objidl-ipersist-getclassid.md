@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objidl.IPersist.GetClassID
+title: IPersist::GetClassID
+author: windows-sdk-content
+description: Retrieves the class identifier (CLSID) of the object.
+old-location: com\ipersist_getclassid.htm
+old-project: com
+ms.assetid: 921a3b86-a240-454e-9411-8d653e02b90e
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetClassID, GetClassID method [COM], GetClassID method [COM],IBaseFilter interface, GetClassID method [COM],IPersist interface, GetClassID method [COM],IPersistFolder interface, IBaseFilter interface [COM],GetClassID method, IBaseFilter::GetClassID, IPersist interface [COM],GetClassID method, IPersist.GetClassID, IPersist::GetClassID, IPersistFolder interface [COM],GetClassID method, IPersistFolder::GetClassID, _com_ipersist_getclassid, com.ipersist_getclassid, objidl/IBaseFilter::GetClassID, objidl/IPersist::GetClassID, objidl/IPersistFolder::GetClassID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IPersist.GetClassID
+-	IPersistFolder.GetClassID
+-	IBaseFilter.GetClassID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPersist::GetClassID

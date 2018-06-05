@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dvdevcod._tagDVD_PB_STOPPED
+title: "_tagDVD_PB_STOPPED"
+author: windows-sdk-content
+description: The DVD_PB_STOPPED enumeration value has flags that indicate why DVD playback stopped. This flag is sent in the lParam1 parameter of the EC_DVD_PLAYBACK_STOPPED event.
+old-location: dshow\dvd_pb_stopped.htm
+old-project: DirectShow
+ms.assetid: 7f095629-9d44-4666-b14a-932122959f4e
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DVD_PB_STOPPED, DVD_PB_STOPPED , DVD_PB_STOPPED enumeration [DirectShow], DVD_PB_STOPPEDEnumeration, DVD_PB_STOPPED_CopyProtectFailure, DVD_PB_STOPPED_CopyProtectOutputFailure, DVD_PB_STOPPED_CopyProtectOutputNotSupported, DVD_PB_STOPPED_DiscEjected, DVD_PB_STOPPED_DiscReadError, DVD_PB_STOPPED_IllegalNavCommand, DVD_PB_STOPPED_MacrovisionFailure, DVD_PB_STOPPED_NoBranch, DVD_PB_STOPPED_NoFirstPlayDomain, DVD_PB_STOPPED_Other, DVD_PB_STOPPED_ParentalFailure, DVD_PB_STOPPED_PlayChapterAutoStop, DVD_PB_STOPPED_PlayPeriodAutoStop, DVD_PB_STOPPED_RegionFailure, DVD_PB_STOPPED_Reset, DVD_PB_STOPPED_StopCommand, _tagDVD_PB_STOPPED, dshow.dvd_pb_stopped, dvdevcod/DVD_PB_STOPPED, dvdevcod/DVD_PB_STOPPED_CopyProtectFailure, dvdevcod/DVD_PB_STOPPED_CopyProtectOutputFailure, dvdevcod/DVD_PB_STOPPED_CopyProtectOutputNotSupported, dvdevcod/DVD_PB_STOPPED_DiscEjected, dvdevcod/DVD_PB_STOPPED_DiscReadError, dvdevcod/DVD_PB_STOPPED_IllegalNavCommand, dvdevcod/DVD_PB_STOPPED_MacrovisionFailure, dvdevcod/DVD_PB_STOPPED_NoBranch, dvdevcod/DVD_PB_STOPPED_NoFirstPlayDomain, dvdevcod/DVD_PB_STOPPED_Other, dvdevcod/DVD_PB_STOPPED_ParentalFailure, dvdevcod/DVD_PB_STOPPED_PlayChapterAutoStop, dvdevcod/DVD_PB_STOPPED_PlayPeriodAutoStop, dvdevcod/DVD_PB_STOPPED_RegionFailure, dvdevcod/DVD_PB_STOPPED_Reset, dvdevcod/DVD_PB_STOPPED_StopCommand
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dvdevcod.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_PB_STOPPED
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dvdevcod.h
+api_name:
+-	DVD_PB_STOPPED
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _tagDVD_PB_STOPPED enumeration

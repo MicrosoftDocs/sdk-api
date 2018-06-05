@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d9helper.IDirect3DVolume9.LockBox
+title: IDirect3DVolume9::LockBox
+author: windows-sdk-content
+description: Locks a box on a volume resource.
+old-location: direct3d9\idirect3dvolume9__lockbox.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\idirect3dvolume9__lockbox.htm
+ms.author: windowssdkdev
+ms.date: 04/10/2018
+ms.keywords: 12716af9-b250-6fc9-e8ab-a4053a1ce97a, IDirect3DVolume9 interface [Direct3D 9],LockBox method, IDirect3DVolume9.LockBox, IDirect3DVolume9::LockBox, LockBox, LockBox method [Direct3D 9], LockBox method [Direct3D 9],IDirect3DVolume9 interface, d3d9helper/IDirect3DVolume9::LockBox, direct3d9.idirect3dvolume9__lockbox
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d9helper.h
+req.include-header: D3D9.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DVSHADERCAPS2_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D9.lib
+-	D3D9.dll
+api_name:
+-	IDirect3DVolume9.LockBox
+product: Windows
+targetos: Windows
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 ---
 
 # IDirect3DVolume9::LockBox

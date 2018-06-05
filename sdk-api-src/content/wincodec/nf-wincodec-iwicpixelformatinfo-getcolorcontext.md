@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincodec.IWICPixelFormatInfo.GetColorContext
+title: IWICPixelFormatInfo::GetColorContext
+author: windows-sdk-content
+description: Gets the pixel format's IWICColorContext.
+old-location: wic\_wic_codec_iwicpixelformatinfo_getcolorcontext.htm
+old-project: wic
+ms.assetid: c35fc474-cbf5-4705-b0f1-a2e24a062a7a
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetColorContext, GetColorContext method [Windows Imaging Component], GetColorContext method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetColorContext method, IWICPixelFormatInfo.GetColorContext, IWICPixelFormatInfo::GetColorContext, _wic_codec_iwicpixelformatinfo_getcolorcontext, wic._wic_codec_iwicpixelformatinfo_getcolorcontext, wincodec/IWICPixelFormatInfo::GetColorContext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodec.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.lib
+-	Windowscodecs.dll
+api_name:
+-	IWICPixelFormatInfo.GetColorContext
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWICPixelFormatInfo::GetColorContext

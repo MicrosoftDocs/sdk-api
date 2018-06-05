@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:authz.AuthzSetAppContainerInformation
+title: AuthzSetAppContainerInformation function
+author: windows-sdk-content
+description: Sets the app container and capability information in a current Authz context.
+old-location: security\authzsetappcontainerinformation.htm
+old-project: SecAuthZ
+ms.assetid: CD01C5E1-2367-4CC1-A495-A295E3C82B46
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AuthzSetAppContainerInformation, AuthzSetAppContainerInformation function [Security], authz/AuthzSetAppContainerInformation, security.authzsetappcontainerinformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: authz.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTHZ_CONTEXT_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Authz.dll
+api_name:
+-	AuthzSetAppContainerInformation
+product: Windows
+targetos: Windows
+req.lib: Authz.lib
+req.dll: Authz.dll
+req.irql: 
 ---
 
 # AuthzSetAppContainerInformation function

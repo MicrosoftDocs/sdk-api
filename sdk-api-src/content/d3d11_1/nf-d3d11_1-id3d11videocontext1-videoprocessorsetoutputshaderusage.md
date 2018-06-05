@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorSetOutputShaderUsage
+title: ID3D11VideoContext1::VideoProcessorSetOutputShaderUsage
+author: windows-sdk-content
+description: Sets a value indicating whether the output surface from a call to ID3D11VideoContext::VideoProcessorBlt will be read by Direct3D shaders.
+old-location: mf\id3d11videocontext1_videoprocessorsetoutputshaderusage.htm
+old-project: medfound
+ms.assetid: 84901282-D4FF-4084-B016-50A66910D0A2
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorSetOutputShaderUsage method, ID3D11VideoContext1.VideoProcessorSetOutputShaderUsage, ID3D11VideoContext1::VideoProcessorSetOutputShaderUsage, VideoProcessorSetOutputShaderUsage, VideoProcessorSetOutputShaderUsage method [Media Foundation], VideoProcessorSetOutputShaderUsage method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorSetOutputShaderUsage, mf.id3d11videocontext1_videoprocessorsetoutputshaderusage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d11_1.h
+api_name:
+-	ID3D11VideoContext1.VideoProcessorSetOutputShaderUsage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11VideoContext1::VideoProcessorSetOutputShaderUsage

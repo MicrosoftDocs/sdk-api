@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netfw.INetFwPolicy2.get_CurrentProfileTypes
+title: INetFwPolicy2::get_CurrentProfileTypes
+author: windows-sdk-content
+description: Retrieves the currently active firewall profile.
+old-location: ics\inetfwpolicy2_currentprofiletypes.htm
+old-project: ICS
+ms.assetid: 93f4b508-30db-45a9-a7aa-df4a993dc50b
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: CurrentProfileTypes property [ICS/ICF], CurrentProfileTypes property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],CurrentProfileTypes property, INetFwPolicy2.CurrentProfileTypes, INetFwPolicy2.get_CurrentProfileTypes, INetFwPolicy2::CurrentProfileTypes, INetFwPolicy2::get_CurrentProfileTypes, get_CurrentProfileTypes, ics.inetfwpolicy2_currentprofiletypes, netfw/INetFwPolicy2::CurrentProfileTypes, netfw/INetFwPolicy2::get_CurrentProfileTypes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETISO_ERROR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FirewallAPI.dll
+api_name:
+-	INetFwPolicy2.CurrentProfileTypes
+-	INetFwPolicy2.get_CurrentProfileTypes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetFwPolicy2::get_CurrentProfileTypes

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11on12.ID3D11On12Device.ReleaseWrappedResources
+title: ID3D11On12Device::ReleaseWrappedResources
+author: windows-sdk-content
+description: Releases D3D11 resources that were wrapped for D3D 11on12.
+old-location: direct3d12\id3d11on12device_releasewrappedresources.htm
+old-project: direct3d12
+ms.assetid: 6591D7D4-9B8D-4837-9DCF-0502CC26E725
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: ID3D11On12Device interface,ReleaseWrappedResources method, ID3D11On12Device.ReleaseWrappedResources, ID3D11On12Device::ReleaseWrappedResources, ReleaseWrappedResources, ReleaseWrappedResources method, ReleaseWrappedResources method,ID3D11On12Device interface, d3d11on12/ID3D11On12Device::ReleaseWrappedResources, direct3d12.id3d11on12device_releasewrappedresources
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11on12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_AES_CTR_IV
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.dll
+api_name:
+-	ID3D11On12Device.ReleaseWrappedResources
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: D3D11.dll
+req.irql: 
 ---
 
 # ID3D11On12Device::ReleaseWrappedResources

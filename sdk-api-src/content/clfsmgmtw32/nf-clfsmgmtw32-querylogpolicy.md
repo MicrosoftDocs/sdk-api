@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:clfsmgmtw32.QueryLogPolicy
+title: QueryLogPolicy function
+author: windows-sdk-content
+description: The QueryLogPolicy function allows you to obtain a policy that is installed for the specified log.
+old-location: fs\querylogpolicy.htm
+old-project: Clfs
+ms.assetid: 45bed7c7-132e-48f9-8b9a-d8cb1580f456
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: QueryLogPolicy, QueryLogPolicy function [Files], clfsmgmtw32/QueryLogPolicy, fs.querylogpolicy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: clfsmgmtw32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Clfsw32.dll
+api_name:
+-	QueryLogPolicy
+product: Windows
+targetos: Windows
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 ---
 
 # QueryLogPolicy function

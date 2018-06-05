@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wdstci.WdsTransportClientCancelSession
+title: WdsTransportClientCancelSession function
+author: windows-sdk-content
+description: Releases the resources associated with a session in the client.
+old-location: wds\wdstransportclientcancelsession.htm
+old-project: Wds
+ms.assetid: 96348bbf-e1b6-4889-a2a6-59d265c1a031
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WdsTransportClientCancelSession, WdsTransportClientCancelSession function [Windows Deployment Services], wds.wdstransportclientcancelsession, wdstci/WdsTransportClientCancelSession
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wdstci.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRANSPORTCLIENT_CALLBACK_ID, *PTRANSPORTCLIENT_CALLBACK_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wdstptc.dll
+api_name:
+-	WdsTransportClientCancelSession
+product: Windows
+targetos: Windows
+req.lib: Wdstptc.lib
+req.dll: Wdstptc.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WdsTransportClientCancelSession function

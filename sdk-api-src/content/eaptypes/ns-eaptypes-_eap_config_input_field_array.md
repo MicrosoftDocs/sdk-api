@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:eaptypes._EAP_CONFIG_INPUT_FIELD_ARRAY
+title: "_EAP_CONFIG_INPUT_FIELD_ARRAY"
+author: windows-sdk-content
+description: Contains a set of EAP_CONFIG_INPUT_FIELD_DATA structures that collectively contain the user input field data obtained from the user.
+old-location: eaphost\eap_config_input_field_array.htm
+old-project: EAPHost
+ms.assetid: e8a2e934-1ded-4159-8cd8-7aeb75ce743a
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: "*PEAP_CONFIG_INPUT_FIELD_ARRAY, EAP_CONFIG_INPUT_FIELD_ARRAY, EAP_CONFIG_INPUT_FIELD_ARRAY structure [EAPHost], EAP_CREDENTIAL_VERSION, EAP_CRED_LOGON_REQ, EAP_CRED_LOGON_RESP, EAP_CRED_REQ, EAP_CRED_RESP, PEAP_CONFIG_INPUT_FIELD_ARRAY, PEAP_CONFIG_INPUT_FIELD_ARRAY structure pointer [EAPHost], _EAP_CONFIG_INPUT_FIELD_ARRAY, eaphost.eap_config_input_field_array, eaptypes/EAP_CONFIG_INPUT_FIELD_ARRAY, eaptypes/PEAP_CONFIG_INPUT_FIELD_ARRAY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: eaptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EAP_CONFIG_INPUT_FIELD_ARRAY, *PEAP_CONFIG_INPUT_FIELD_ARRAY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	eaptypes.h
+api_name:
+-	EAP_CONFIG_INPUT_FIELD_ARRAY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _EAP_CONFIG_INPUT_FIELD_ARRAY structure

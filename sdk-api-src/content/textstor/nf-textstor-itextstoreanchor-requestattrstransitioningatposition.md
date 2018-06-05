@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:textstor.ITextStoreAnchor.RequestAttrsTransitioningAtPosition
+title: ITextStoreAnchor::RequestAttrsTransitioningAtPosition
+author: windows-sdk-content
+description: ITextStoreAnchor::RequestAttrsTransitioningAtPosition method
+old-location: tsf\itextstoreanchor_requestattrstransitioningatposition.htm
+old-project: TSF
+ms.assetid: f0f43237-8c26-4e0c-8717-908884229b7b
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestAttrsTransitioningAtPosition method, ITextStoreAnchor.RequestAttrsTransitioningAtPosition, ITextStoreAnchor::RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition method [Text Services Framework], RequestAttrsTransitioningAtPosition method [Text Services Framework],ITextStoreAnchor interface, TS_ATTR_FIND_WANT_END, TS_ATTR_FIND_WANT_VALUE, textstor/ITextStoreAnchor::RequestAttrsTransitioningAtPosition, tsf.itextstoreanchor_requestattrstransitioningatposition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: textstor.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Textstor.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TsRunType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITextStoreAnchor.RequestAttrsTransitioningAtPosition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextStoreAnchor::RequestAttrsTransitioningAtPosition

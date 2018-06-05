@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3.AGENT_SESSION_EVENT
+title: AGENT_SESSION_EVENT
+author: windows-sdk-content
+description: The AGENT_SESSION_EVENT enum describes agent session events. The ITAgentSessionEvent::get_Event method returns a member of this enum to indicate the type of agent session event that occurred.
+old-location: tapi3\agent_session_event.htm
+old-project: Tapi
+ms.assetid: 44eb7669-6c0b-4b9c-a209-9f15f27a1ba9
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: AGENT_SESSION_EVENT, AGENT_SESSION_EVENT enumeration [TAPI 2.2], ASE_BUSY, ASE_END, ASE_NEW_SESSION, ASE_NOT_READY, ASE_READY, ASE_WRAPUP, _tapi3_agent_session_event, tapi3.agent_session_event, tapi3cc/AGENT_SESSION_EVENT, tapi3cc/ASE_BUSY, tapi3cc/ASE_END, tapi3cc/ASE_NEW_SESSION, tapi3cc/ASE_NOT_READY, tapi3cc/ASE_READY, tapi3cc/ASE_WRAPUP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AGENT_SESSION_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tapi3cc.h
+api_name:
+-	AGENT_SESSION_EVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # AGENT_SESSION_EVENT enumeration

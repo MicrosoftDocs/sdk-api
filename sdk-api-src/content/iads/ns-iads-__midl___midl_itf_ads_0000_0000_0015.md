@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0015
+title: "__MIDL___MIDL_itf_ads_0000_0000_0015"
+author: windows-sdk-content
+description: Used with the ADSVALUE structure to contain a distinguished name attribute value that also contains binary data.
+old-location: adsi\ads_dn_with_binary.htm
+old-project: ADSI
+ms.assetid: 541dd19d-79a1-4a74-b4a1-31cdf69fbf0c
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY structure [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0015, _ds_ads_dn_with_binary, adsi.ads__dn__with__binary, adsi.ads_dn_with_binary, iads/ADS_DN_WITH_BINARY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_DN_WITH_BINARY, *PADS_DN_WITH_BINARY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_DN_WITH_BINARY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_ads_0000_0000_0015 structure

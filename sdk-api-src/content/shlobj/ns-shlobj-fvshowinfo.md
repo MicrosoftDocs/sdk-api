@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj.FVSHOWINFO
+title: FVSHOWINFO
+author: windows-sdk-content
+description: Contains information that the file viewer uses to display a file.
+old-location: shell\FVSHOWINFO.htm
+old-project: shell
+ms.assetid: 8f399964-1ce4-4a9c-8cea-650a698783d3
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPFVSHOWINFO, FVSHOWINFO, FVSHOWINFO structure [Windows Shell], FVSIF_CANVIEWIT, FVSIF_NEWFAILED, FVSIF_NEWFILE, FVSIF_PINNED, FVSIF_RECT, LPFVSHOWINFO, LPFVSHOWINFO structure pointer [Windows Shell], _win32_FVSHOWINFO, shell.FVSHOWINFO, shlobj/FVSHOWINFO, shlobj/LPFVSHOWINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FVSHOWINFO, *LPFVSHOWINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shlobj.h
+api_name:
+-	FVSHOWINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # FVSHOWINFO structure

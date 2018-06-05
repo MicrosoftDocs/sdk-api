@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bluetoothapis._BLUETOOTH_LOCAL_SERVICE_INFO
+title: "_BLUETOOTH_LOCAL_SERVICE_INFO"
+author: windows-sdk-content
+description: Contains local service information for a Bluetooth device.
+old-location: bluetooth\bluetooth_local_service_info.htm
+old-project: Bluetooth
+ms.assetid: d16fe6f1-4b76-4dbe-825e-e3995d2b4961
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BLUETOOTH_LOCAL_SERVICE_INFO, BLUETOOTH_LOCAL_SERVICE_INFO structure [Bluetooth], BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT, _BLUETOOTH_LOCAL_SERVICE_INFO, bluetooth.bluetooth_local_service_info, bluetoothapis/BLUETOOTH_LOCAL_SERVICE_INFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bluetoothapis.h
+req.include-header: Bthsdpdef.h, BluetoothAPIs.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	BluetoothAPIs.h
+api_name:
+-	BLUETOOTH_LOCAL_SERVICE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BLUETOOTH_LOCAL_SERVICE_INFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.IMediaFilter.GetState
+title: IMediaFilter::GetState
+author: windows-sdk-content
+description: The GetState method retrieves the filters's state (running, stopped, or paused).
+old-location: dshow\imediafilter_getstate.htm
+old-project: DirectShow
+ms.assetid: b20ca3e9-bec2-4c6d-ba80-f4dae2f5a831
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IBaseFilter interface, GetState method [DirectShow],IMediaFilter interface, IBaseFilter interface [DirectShow],GetState method, IBaseFilter::GetState, IMediaFilter interface [DirectShow],GetState method, IMediaFilter.GetState, IMediaFilter::GetState, IMediaFilterGetState, dshow.imediafilter_getstate, strmif/IBaseFilter::GetState, strmif/IMediaFilter::GetState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IMediaFilter.GetState
+-	IBaseFilter.GetState
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IMediaFilter::GetState

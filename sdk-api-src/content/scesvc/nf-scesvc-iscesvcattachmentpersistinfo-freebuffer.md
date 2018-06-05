@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:scesvc.ISceSvcAttachmentPersistInfo.FreeBuffer
+title: ISceSvcAttachmentPersistInfo::FreeBuffer
+author: windows-sdk-content
+description: The FreeBuffer method frees memory allocated by the attachment snap-in extension.
+old-location: security\iscesvcattachmentpersistinfo_freebuffer.htm
+old-project: SecMgmt
+ms.assetid: b41f01a4-dc38-4954-a3c5-19fa72910d6f
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: FreeBuffer, FreeBuffer method [Security], FreeBuffer method [Security],ISceSvcAttachmentPersistInfo interface, ISceSvcAttachmentPersistInfo interface [Security],FreeBuffer method, ISceSvcAttachmentPersistInfo.FreeBuffer, ISceSvcAttachmentPersistInfo::FreeBuffer, _config_iscesvcattachmentpersistinfo_freebuffer, scesvc/ISceSvcAttachmentPersistInfo::FreeBuffer, security.iscesvcattachmentpersistinfo_freebuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: scesvc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCESVC_INFO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wsecedit.dll
+api_name:
+-	ISceSvcAttachmentPersistInfo.FreeBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wsecedit.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISceSvcAttachmentPersistInfo::FreeBuffer

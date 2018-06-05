@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d2d1.D2D1_SWEEP_DIRECTION
+title: D2D1_SWEEP_DIRECTION
+author: windows-sdk-content
+description: Defines the direction that an elliptical arc is drawn.
+old-location: direct2d\D2D1_SWEEP_DIRECTION.htm
+old-project: Direct2D
+ms.assetid: 97e6f384-7a42-4852-b948-66010bffed22
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_SWEEP_DIRECTION, D2D1_SWEEP_DIRECTION enumeration [Direct2D], D2D1_SWEEP_DIRECTION_CLOCKWISE, D2D1_SWEEP_DIRECTION_COUNTER_CLOCKWISE, d2d1/D2D1_SWEEP_DIRECTION, d2d1/D2D1_SWEEP_DIRECTION_CLOCKWISE, d2d1/D2D1_SWEEP_DIRECTION_COUNTER_CLOCKWISE, direct2d.D2D1_SWEEP_DIRECTION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ctxtcall.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_SWEEP_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1.h
+api_name:
+-	D2D1_SWEEP_DIRECTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D2D1_SWEEP_DIRECTION enumeration

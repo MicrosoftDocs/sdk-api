@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:prnasnot.IPrintAsyncNotifyChannel.CloseChannel
+title: IPrintAsyncNotifyChannel::CloseChannel
+author: windows-sdk-content
+description: Closes the channel.
+old-location: gdi\iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel.htm
+old-project: printdocs
+ms.assetid: d5878cf1-c2c3-4f33-bc08-e4f868c8a5e7
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: CloseChannel, CloseChannel method [Windows GDI], CloseChannel method [Windows GDI],IPrintAsyncNotifyChannel interface, IPrintAsyncNotifyChannel interface [Windows GDI],CloseChannel method, IPrintAsyncNotifyChannel.CloseChannel, IPrintAsyncNotifyChannel::CloseChannel, _win32_IPrintAsyncNotifyChannel_CloseChannel, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel, prnasnot/IPrintAsyncNotifyChannel::CloseChannel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: prnasnot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PrintAsyncNotifyUserFilter
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	prnasnot.dll
+api_name:
+-	IPrintAsyncNotifyChannel.CloseChannel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Prnasnot.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPrintAsyncNotifyChannel::CloseChannel

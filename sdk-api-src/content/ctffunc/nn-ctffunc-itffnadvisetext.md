@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:ctffunc.ITfFnAdviseText
+title: ITfFnAdviseText
+author: windows-sdk-content
+description: The ITfFnAdviseText interface is implemented by a text service and used by the TSF manager to supply notifications when the text or lattice element in a context changes.
+old-location: tsf\itffnadvisetext.htm
+old-project: TSF
+ms.assetid: 7cca7f23-48d3-4855-8f3d-e937bbc990d4
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITfFnAdviseText, ITfFnAdviseText interface [Text Services Framework], ITfFnAdviseText interface [Text Services Framework],described, _tsf_itffnadvisetext_ref, ctffunc/ITfFnAdviseText, tsf.itffnadvisetext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: ctffunc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ctffunc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TfIntegratableCandidateListSelectionStyle
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfFnAdviseText
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 ---
 
 # ITfFnAdviseText interface

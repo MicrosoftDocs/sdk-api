@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11_4.ID3D11VideoContext2.VideoProcessorGetStreamHDRMetaData
+title: ID3D11VideoContext2::VideoProcessorGetStreamHDRMetaData
+author: windows-sdk-content
+description: Gets the HDR metadata associated with the video stream.
+old-location: mf\id3d11videocontext2_videoprocessorgetstreamhdrmetadata.htm
+old-project: medfound
+ms.assetid: 08464EB5-8E1F-4E4B-A545-A18C82A0C921
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorGetStreamHDRMetaData method, ID3D11VideoContext2.VideoProcessorGetStreamHDRMetaData, ID3D11VideoContext2::VideoProcessorGetStreamHDRMetaData, VideoProcessorGetStreamHDRMetaData, VideoProcessorGetStreamHDRMetaData method [Media Foundation], VideoProcessorGetStreamHDRMetaData method [Media Foundation],ID3D11VideoContext2 interface, d3d11_4/ID3D11VideoContext2::VideoProcessorGetStreamHDRMetaData, mf.id3d11videocontext2_videoprocessorgetstreamhdrmetadata
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11_4.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_UNORDERED_ACCESS_VIEW_DESC1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d11_4.h
+api_name:
+-	ID3D11VideoContext2.VideoProcessorGetStreamHDRMetaData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11VideoContext2::VideoProcessorGetStreamHDRMetaData

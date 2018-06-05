@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmalert._PRINT_OTHER_INFO
+title: "_PRINT_OTHER_INFO"
+author: windows-sdk-content
+description: Contains information about a print job.
+old-location: netmgmt\print_other_info_str.htm
+old-project: NetMgmt
+ms.assetid: f2fd87bc-abde-43c0-b29d-d43cc5f038b8
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPPRINT_OTHER_INFO, *PPRINT_OTHER_INFO, LPPRINT_OTHER_INFO, LPPRINT_OTHER_INFO structure pointer [Network Management], PPRINT_OTHER_INFO, PPRINT_OTHER_INFO structure pointer [Network Management], PRINT_OTHER_INFO, PRINT_OTHER_INFO structure [Network Management], PRJOB_COMPLETE, PRJOB_DELETED, PRJOB_DESTNOPAPER, PRJOB_DESTOFFLINE, PRJOB_DESTPAUSED, PRJOB_ERROR, PRJOB_INTERV, PRJOB_NOTIFY, PRJOB_QS_PAUSED, PRJOB_QS_PRINTING, PRJOB_QS_QUEUED, PRJOB_QS_SPOOLING, _PRINT_OTHER_INFO, _win32_print_other_info_str, lmalert/LPPRINT_OTHER_INFO, lmalert/PPRINT_OTHER_INFO, lmalert/PRINT_OTHER_INFO, netmgmt.print_other_info_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmalert.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRINT_OTHER_INFO, *PPRINT_OTHER_INFO, *LPPRINT_OTHER_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmalert.h
+api_name:
+-	PRINT_OTHER_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _PRINT_OTHER_INFO structure

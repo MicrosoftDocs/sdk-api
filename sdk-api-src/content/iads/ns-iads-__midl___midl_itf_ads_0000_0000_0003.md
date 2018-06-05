@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0003
+title: "__MIDL___MIDL_itf_ads_0000_0000_0003"
+author: windows-sdk-content
+description: The ADS_NT_SECURITY_DESCRIPTOR structure defines the data type of the security descriptor for Windows.
+old-location: adsi\ads_nt_security_descriptor.htm
+old-project: ADSI
+ms.assetid: 4776fe35-2c16-4dd3-b708-cf36e2423425
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PADS_NT_SECURITY_DESCRIPTOR, ADS_NT_SECURITY_DESCRIPTOR, ADS_NT_SECURITY_DESCRIPTOR structure [ADSI], PADS_NT_SECURITY_DESCRIPTOR, PADS_NT_SECURITY_DESCRIPTOR structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0003, _ds_ads_nt_security_descriptor, adsi.ads__nt__security__descriptor, adsi.ads_nt_security_descriptor, iads/ADS_NT_SECURITY_DESCRIPTOR, iads/PADS_NT_SECURITY_DESCRIPTOR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_NT_SECURITY_DESCRIPTOR, *PADS_NT_SECURITY_DESCRIPTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_NT_SECURITY_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_ads_0000_0000_0003 structure

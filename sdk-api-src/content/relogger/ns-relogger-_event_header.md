@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:relogger._EVENT_HEADER
+title: "_EVENT_HEADER"
+author: windows-sdk-content
+description: Defines information about the event.
+old-location: etw\event_header.htm
+old-project: ETW
+ms.assetid: 479091ae-7229-433b-b93b-8da6cc18df89
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PEVENT_HEADER, EVENT_HEADER, EVENT_HEADER structure [ETW], EVENT_HEADER_FLAG_32_BIT_HEADER, EVENT_HEADER_FLAG_64_BIT_HEADER, EVENT_HEADER_FLAG_CLASSIC_HEADER, EVENT_HEADER_FLAG_EXTENDED_INFO, EVENT_HEADER_FLAG_NO_CPUTIME, EVENT_HEADER_FLAG_PRIVATE_SESSION, EVENT_HEADER_FLAG_STRING_ONLY, EVENT_HEADER_FLAG_TRACE_MESSAGE, EVENT_HEADER_PROPERTY_FORWARDED_XML, EVENT_HEADER_PROPERTY_LEGACY_EVENTLOG, EVENT_HEADER_PROPERTY_XML, PEVENT_HEADER, PEVENT_HEADER structure pointer [ETW], _EVENT_HEADER, base.event_header, etw.event_header, relogger/EVENT_HEADER, relogger/PEVENT_HEADER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: relogger.h
+req.include-header: Evntcons.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Relogger.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVENT_HEADER, *PEVENT_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	relogger.h
+api_name:
+-	EVENT_HEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _EVENT_HEADER structure

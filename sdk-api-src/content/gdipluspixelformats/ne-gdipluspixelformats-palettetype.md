@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:gdipluspixelformats.PaletteType
+title: PaletteType
+author: windows-sdk-content
+description: The PaletteType enumeration is used by the Bitmap::InitializePalette and Bitmap::ConvertFormat methods of the Bitmap class. The members of the enumeration identify several standard color palette formats.
+old-location: gdiplus\_gdiplus_ENUM_PaletteType.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\palettetype.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: PaletteType, PaletteType enumeration [GDI+], PaletteTypeCustom, PaletteTypeFixedBW, PaletteTypeFixedHalftone125, PaletteTypeFixedHalftone216, PaletteTypeFixedHalftone252, PaletteTypeFixedHalftone256, PaletteTypeFixedHalftone27, PaletteTypeFixedHalftone64, PaletteTypeFixedHalftone8, PaletteTypeOptimal, _gdiplus_ENUM_PaletteType, gdiplus._gdiplus_ENUM_PaletteType, gdipluspixelformats/PaletteType, gdipluspixelformats/PaletteTypeCustom, gdipluspixelformats/PaletteTypeFixedBW, gdipluspixelformats/PaletteTypeFixedHalftone125, gdipluspixelformats/PaletteTypeFixedHalftone216, gdipluspixelformats/PaletteTypeFixedHalftone252, gdipluspixelformats/PaletteTypeFixedHalftone256, gdipluspixelformats/PaletteTypeFixedHalftone27, gdipluspixelformats/PaletteTypeFixedHalftone64, gdipluspixelformats/PaletteTypeFixedHalftone8, gdipluspixelformats/PaletteTypeOptimal
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: gdipluspixelformats.h
+req.include-header: Gdiplus.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	GdiplusPixelFormats.h
+api_name:
+-	PaletteType
+product: Windows
+targetos: Windows
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # PaletteType enumeration

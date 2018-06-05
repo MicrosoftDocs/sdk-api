@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleidl.IDropSourceNotify.DragEnterTarget
+title: IDropSourceNotify::DragEnterTarget
+author: windows-sdk-content
+description: OLE calls this method when the user drags the mouse cursor into a potential drop target window.
+old-location: com\idropsourcenotify_dragentertarget.htm
+old-project: com
+ms.assetid: 2f2ca860-1f63-4cc1-9a9e-4efb6fceb867
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DragEnterTarget, DragEnterTarget method [COM], DragEnterTarget method [COM],IDropSourceNotify interface, IDropSourceNotify interface [COM],DragEnterTarget method, IDropSourceNotify.DragEnterTarget, IDropSourceNotify::DragEnterTarget, _ole_idropsourcenotify_dragentertarget, com.idropsourcenotify_dragentertarget, oleidl/IDropSourceNotify::DragEnterTarget
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oleidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OleIdl.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERCLASSTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OleIdl.h
+api_name:
+-	IDropSourceNotify.DragEnterTarget
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDropSourceNotify::DragEnterTarget

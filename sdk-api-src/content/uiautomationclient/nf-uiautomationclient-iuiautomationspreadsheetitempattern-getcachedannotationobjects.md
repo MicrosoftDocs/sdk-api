@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationObjects
+title: IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationObjects
+author: windows-sdk-content
+description: Retrieves a cached array of elements representing the annotations associated with this spreadsheet cell.
+old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCachedAnnotationObjects.htm
+old-project: WinAuto
+ms.assetid: C2F11DD7-60D0-4848-98DD-FC33FD51BBD4
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: GetCachedAnnotationObjects, GetCachedAnnotationObjects method [Windows Accessibility], GetCachedAnnotationObjects method [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],GetCachedAnnotationObjects method, IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationObjects, IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationObjects, uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationObjects, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCachedAnnotationObjects
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationObjects
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationObjects

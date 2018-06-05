@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrm.IFsrmActionReport.get_MailTo
+title: IFsrmActionReport::get_MailTo
+author: windows-sdk-content
+description: Retrieves or sets the email address to which the reports are sent.
+old-location: fsrm\ifsrmactionreport_mailto.htm
+old-project: Fsrm
+ms.assetid: 89c2fc2c-bf14-4a42-b7ab-12988433b275
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmActionReport interface [File Server Resource Manager],MailTo property, IFsrmActionReport.MailTo, IFsrmActionReport.get_MailTo, IFsrmActionReport::MailTo, IFsrmActionReport::get_MailTo, IFsrmActionReport::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmActionReport interface, fs.ifsrmactionreport_mailto, fsrm.ifsrmactionreport_mailto, fsrm/IFsrmActionReport::MailTo, fsrm/IFsrmActionReport::get_MailTo, fsrm/IFsrmActionReport::put_MailTo, get_MailTo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrm.h
+req.include-header: FsrmQuota.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmActionReport.MailTo
+-	IFsrmActionReport.get_MailTo
+-	IFsrmActionReport.put_MailTo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmActionReport::get_MailTo

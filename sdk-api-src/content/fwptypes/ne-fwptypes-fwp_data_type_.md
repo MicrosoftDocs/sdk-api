@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fwptypes.FWP_DATA_TYPE_
+title: FWP_DATA_TYPE_
+author: windows-sdk-content
+description: Data types that can be stored in an FWP_VALUE0 or an FWP_CONDITION_VALUE0 structure.
+old-location: fwp\fwp_data_type_enum.htm
+old-project: FWP
+ms.assetid: db605170-bfe0-4339-8a40-7b1ce435278b
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: FWP_BYTE_ARRAY16_TYPE, FWP_BYTE_ARRAY6_TYPE, FWP_BYTE_BLOB_TYPE, FWP_DATA_TYPE, FWP_DATA_TYPE enumeration [Filtering], FWP_DATA_TYPE_, FWP_DATA_TYPE_MAX, FWP_DOUBLE, FWP_EMPTY, FWP_FLOAT, FWP_INT16, FWP_INT32, FWP_INT64, FWP_INT8, FWP_RANGE_TYPE, FWP_SECURITY_DESCRIPTOR_TYPE, FWP_SID, FWP_SINGLE_DATA_TYPE_MAX, FWP_TOKEN_ACCESS_INFORMATION_TYPE, FWP_TOKEN_INFORMATION_TYPE, FWP_UINT16, FWP_UINT32, FWP_UINT64, FWP_UINT8, FWP_UNICODE_STRING_TYPE, FWP_V4_ADDR_MASK, FWP_V6_ADDR_MASK, fwp.fwp_data_type_enum, fwptypes/FWP_BYTE_ARRAY16_TYPE, fwptypes/FWP_BYTE_ARRAY6_TYPE, fwptypes/FWP_BYTE_BLOB_TYPE, fwptypes/FWP_DATA_TYPE, fwptypes/FWP_DATA_TYPE_MAX, fwptypes/FWP_DOUBLE, fwptypes/FWP_EMPTY, fwptypes/FWP_FLOAT, fwptypes/FWP_INT16, fwptypes/FWP_INT32, fwptypes/FWP_INT64, fwptypes/FWP_INT8, fwptypes/FWP_RANGE_TYPE, fwptypes/FWP_SECURITY_DESCRIPTOR_TYPE, fwptypes/FWP_SID, fwptypes/FWP_SINGLE_DATA_TYPE_MAX, fwptypes/FWP_TOKEN_ACCESS_INFORMATION_TYPE, fwptypes/FWP_TOKEN_INFORMATION_TYPE, fwptypes/FWP_UINT16, fwptypes/FWP_UINT32, fwptypes/FWP_UINT64, fwptypes/FWP_UINT8, fwptypes/FWP_UNICODE_STRING_TYPE, fwptypes/FWP_V4_ADDR_MASK, fwptypes/FWP_V6_ADDR_MASK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fwptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fwptypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWP_DATA_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Fwptypes.h
+api_name:
+-	FWP_DATA_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FWP_DATA_TYPE_ enumeration

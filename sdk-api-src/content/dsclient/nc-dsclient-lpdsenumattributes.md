@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:dsclient.LPDSENUMATTRIBUTES
+title: LPDSENUMATTRIBUTES
+author: windows-sdk-content
+description: The DSEnumAttributesCallback function is an application-defined callback function that is called once for each attribute enumerated by the IDsDisplaySpecifier::EnumClassAttributes method.
+old-location: ad\dsenumattributescallback.htm
+old-project: AD
+ms.assetid: f4f35119-9ffc-4fe9-aea1-2d4a5d4edd0b
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DSECAF_NOTLISTED, DSEnumAttributesCallback, DSEnumAttributesCallback callback, DSEnumAttributesCallback callback function [Active Directory], LPDSENUMATTRIBUTES, LPDSENUMATTRIBUTES callback function [Active Directory], ad.dsenumattributescallback, dsclient/DSEnumAttributesCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: dsclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Dsclient.h
+api_name:
+-	LPDSENUMATTRIBUTES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # LPDSENUMATTRIBUTES callback function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._NTFS_STATISTICS
+title: "_NTFS_STATISTICS"
+author: windows-sdk-content
+description: Contains statistical information from the NTFS file system.
+old-location: fs\ntfs_statistics_str.htm
+old-project: FileIO
+ms.assetid: 9b5cffc5-386d-4333-9a37-cc27b8f9b187
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PNTFS_STATISTICS, NTFS_STATISTICS, NTFS_STATISTICS structure [Files], PNTFS_STATISTICS, PNTFS_STATISTICS structure pointer [Files], _NTFS_STATISTICS, base.ntfs_statistics_str, fs.ntfs_statistics_str, winioctl/NTFS_STATISTICS, winioctl/PNTFS_STATISTICS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NTFS_STATISTICS, *PNTFS_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	NTFS_STATISTICS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _NTFS_STATISTICS structure

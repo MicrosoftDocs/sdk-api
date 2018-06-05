@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:structuredquerycondition.tagCONDITION_OPERATION
+title: tagCONDITION_OPERATION
+author: windows-sdk-content
+description: Provides a set of flags to be used with following methods to indicate the operation in ICondition::GetComparisonInfo, ICondition2::GetLeafConditionInfo, IConditionFactory::MakeLeaf, IConditionFactory2::CreateBooleanLeaf, IConditionFactory2::CreateIntegerLeaf, IConditionFactory2::MakeLeaf, IConditionFactory2::CreateStringLeaf, and IConditionGenerator::GenerateForLeaf.
+old-location: search\_search_CONDITION_OPERATION.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\enums\condition_operation.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CONDITION_OPERATION, CONDITION_OPERATION enumeration [search], COP_APPLICATION_SPECIFIC, COP_DOSWILDCARDS, COP_EQUAL, COP_GREATERTHAN, COP_GREATERTHANOREQUAL, COP_IMPLICIT, COP_LESSTHAN, COP_LESSTHANOREQUAL, COP_NOTEQUAL, COP_VALUE_CONTAINS, COP_VALUE_ENDSWITH, COP_VALUE_NOTCONTAINS, COP_VALUE_STARTSWITH, COP_WORD_EQUAL, COP_WORD_STARTSWITH, _search_CONDITION_OPERATION, search._search_CONDITION_OPERATION, structuredquerycondition/CONDITION_OPERATION, structuredquerycondition/COP_APPLICATION_SPECIFIC, structuredquerycondition/COP_DOSWILDCARDS, structuredquerycondition/COP_EQUAL, structuredquerycondition/COP_GREATERTHAN, structuredquerycondition/COP_GREATERTHANOREQUAL, structuredquerycondition/COP_IMPLICIT, structuredquerycondition/COP_LESSTHAN, structuredquerycondition/COP_LESSTHANOREQUAL, structuredquerycondition/COP_NOTEQUAL, structuredquerycondition/COP_VALUE_CONTAINS, structuredquerycondition/COP_VALUE_ENDSWITH, structuredquerycondition/COP_VALUE_NOTCONTAINS, structuredquerycondition/COP_VALUE_STARTSWITH, structuredquerycondition/COP_WORD_EQUAL, structuredquerycondition/COP_WORD_STARTSWITH, tagCONDITION_OPERATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: structuredquerycondition.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista, Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Structuredquerycondition.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONDITION_OPERATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Structuredquerycondition.h
+api_name:
+-	CONDITION_OPERATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # tagCONDITION_OPERATION enumeration

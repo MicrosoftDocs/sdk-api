@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tom.ITextFont2.GetAutoLigatures
+title: ITextFont2::GetAutoLigatures
+author: windows-sdk-content
+description: Gets whether support for automatic ligatures is active.
+old-location: controls\itextfont2_getautoligatures.htm
+old-project: Controls
+ms.assetid: f8209c34-139c-45e6-b110-f6d3d76f5575
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetAutoLigatures, GetAutoLigatures method [Windows Controls], GetAutoLigatures method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetAutoLigatures method, ITextFont2.GetAutoLigatures, ITextFont2::GetAutoLigatures, controls.itextfont2_getautoligatures, tom/ITextFont2::GetAutoLigatures
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextFont2.GetAutoLigatures
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextFont2::GetAutoLigatures

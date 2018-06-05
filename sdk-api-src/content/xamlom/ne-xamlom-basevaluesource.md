@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:xamlom.BaseValueSource
+title: BaseValueSource
+author: windows-sdk-content
+description: Defines constants that specify where the effective value of a property was set.
+old-location: xaml_diagnostics\basevaluesource.htm
+old-project: xaml_diagnostics
+ms.assetid: 1B5C4153-A266-43B1-B659-FE0FD0FD6A37
+ms.author: windowssdkdev
+ms.date: 03/19/2018
+ms.keywords: Animation, BaseValueSource, BaseValueSource enumeration, BaseValueSourceBuiltInStyle, BaseValueSourceDefault, BaseValueSourceLocal, BaseValueSourceStyle, BaseValueSourceUnknown, BaseValueSourceVisualState, Coercion, DefaultStyleTrigger, ImplicitStyleReference, Inherited, ParentTemplate, ParentTemplateTrigger, StyleTrigger, TemplateTrigger, xaml_diagnostics.basevaluesource, xamlom/Animation, xamlom/BaseValueSource, xamlom/BaseValueSourceBuiltInStyle, xamlom/BaseValueSourceDefault, xamlom/BaseValueSourceLocal, xamlom/BaseValueSourceStyle, xamlom/BaseValueSourceUnknown, xamlom/BaseValueSourceVisualState, xamlom/Coercion, xamlom/DefaultStyleTrigger, xamlom/ImplicitStyleReference, xamlom/Inherited, xamlom/ParentTemplate, xamlom/ParentTemplateTrigger, xamlom/StyleTrigger, xamlom/TemplateTrigger
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: xamlom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XamlOM.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BaseValueSource
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	xamlom.h
+api_name:
+-	BaseValueSource
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # BaseValueSource enumeration

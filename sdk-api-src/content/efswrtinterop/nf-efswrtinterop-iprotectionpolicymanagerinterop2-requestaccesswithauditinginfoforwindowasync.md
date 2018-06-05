@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:efswrtinterop.IProtectionPolicyManagerInterop2.RequestAccessWithAuditingInfoForWindowAsync
+title: IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync
+author: windows-sdk-content
+description: Request access to enterprise protected content for an identity.
+old-location: edp\iprotectionpolicymanagerinterop2_requestaccesswithauditinginfoforwindowasync.htm
+old-project: EDP
+ms.assetid: 9C631272-BF69-4CA5-9664-45C6831C252F
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccesswithauditinginfoforwindowasync, IProtectionPolicyManagerInterop2 interface,RequestAccessWithAuditingInfoForWindowAsync method, IProtectionPolicyManagerInterop2.RequestAccessWithAuditingInfoForWindowAsync, IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync, RequestAccessWithAuditingInfoForWindowAsync, RequestAccessWithAuditingInfoForWindowAsync method, RequestAccessWithAuditingInfoForWindowAsync method,IProtectionPolicyManagerInterop2 interface, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: efswrtinterop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Efswrtinterop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TimedLevel
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	efswrt.dll
+api_name:
+-	IProtectionPolicyManagerInterop2.RequestAccessWithAuditingInfoForWindowAsync
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Efswrt.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync

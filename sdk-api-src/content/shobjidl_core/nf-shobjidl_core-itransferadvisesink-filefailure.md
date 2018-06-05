@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.ITransferAdviseSink.FileFailure
+title: ITransferAdviseSink::FileFailure
+author: windows-sdk-content
+description: Called when there is a failure and user interaction is needed.
+old-location: shell\ITransferAdviseSink_FileFailure.htm
+old-project: shell
+ms.assetid: 4adc4e9d-f1d1-438c-bae3-23d1259453a6
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: FileFailure, FileFailure method [Windows Shell], FileFailure method [Windows Shell],ITransferAdviseSink interface, ITransferAdviseSink interface [Windows Shell],FileFailure method, ITransferAdviseSink.FileFailure, ITransferAdviseSink::FileFailure, _shell_ITransferAdviseSink_FileFailure, shell.ITransferAdviseSink_FileFailure, shobjidl_core/ITransferAdviseSink::FileFailure
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	ITransferAdviseSink.FileFailure
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ITransferAdviseSink::FileFailure

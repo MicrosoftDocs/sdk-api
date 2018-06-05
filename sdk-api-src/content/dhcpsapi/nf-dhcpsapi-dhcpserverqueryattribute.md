@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dhcpsapi.DhcpServerQueryAttribute
+title: DhcpServerQueryAttribute function
+author: windows-sdk-content
+description: Returns specific attribute information from the DHCP server.
+old-location: dhcp\dhcpserverqueryattribute.htm
+old-project: DHCP
+ms.assetid: 8a522a8d-0b65-4dce-a785-d2b0c70e2794
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DhcpServerQueryAttribute, DhcpServerQueryAttribute function [DHCP], dhcp.dhcpserverqueryattribute, dhcpsapi/DhcpServerQueryAttribute
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QuarantineStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dhcpsapi.dll
+api_name:
+-	DhcpServerQueryAttribute
+product: Windows
+targetos: Windows
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 ---
 
 # DhcpServerQueryAttribute function

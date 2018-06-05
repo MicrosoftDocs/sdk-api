@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfmediaengine.IMFMediaTimeRange.ContainsTime
+title: IMFMediaTimeRange::ContainsTime
+author: windows-sdk-content
+description: Queries whether a specified time falls within any of the time ranges.
+old-location: mf\imfmediatimerange_containstime.htm
+old-project: medfound
+ms.assetid: 67BA2464-D8F0-4A5C-9C12-DBD9AD0238A7
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ContainsTime, ContainsTime method [Media Foundation], ContainsTime method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],ContainsTime method, IMFMediaTimeRange.ContainsTime, IMFMediaTimeRange::ContainsTime, mf.imfmediatimerange_containstime, mfmediaengine/IMFMediaTimeRange::ContainsTime
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.h
+api_name:
+-	IMFMediaTimeRange.ContainsTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFMediaTimeRange::ContainsTime

@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:faxcomex.IFaxConfiguration.get_ArchiveSizeLow
+title: IFaxConfiguration::get_ArchiveSizeLow
+author: windows-sdk-content
+description: The value that specifies the low-order 32-bit value (in bytes) for the size of the fax message archive.
+old-location: fax\_mfax_ifaxconfiguration_archivesizelow.htm
+old-project: Fax
+ms.assetid: e10cde26-deec-47b8-bc69-0b785087ab74
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: ArchiveSizeLow property [Fax Service], ArchiveSizeLow property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],ArchiveSizeLow property, IFaxConfiguration.ArchiveSizeLow, IFaxConfiguration.get_ArchiveSizeLow, IFaxConfiguration::ArchiveSizeLow, IFaxConfiguration::get_ArchiveSizeLow, fax._mfax_ifaxconfiguration_archivesizelow, faxcomex/IFaxConfiguration::ArchiveSizeLow, faxcomex/IFaxConfiguration::get_ArchiveSizeLow, get_ArchiveSizeLow
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: faxcomex.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Faxcomex.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fxscomex.dll
+api_name:
+-	IFaxConfiguration.ArchiveSizeLow
+-	IFaxConfiguration.get_ArchiveSizeLow
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFaxConfiguration::get_ArchiveSizeLow

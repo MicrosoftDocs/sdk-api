@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsnmp.SnmpOpen
+title: SnmpOpen function
+author: windows-sdk-content
+description: The SnmpOpen function requests the Microsoft WinSNMP implementation to open a session for the WinSNMP application.
+old-location: snmp\snmpopen.htm
+old-project: SNMP
+ms.assetid: 45085cad-2bfb-4f6c-9e42-6041fed681b8
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: SnmpOpen, SnmpOpen function [SNMP], _snmp_snmpopen, snmp.snmpopen, winsnmp/SnmpOpen
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winsnmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wsnmp32.dll
+api_name:
+-	SnmpOpen
+product: Windows
+targetos: Windows
+req.lib: Wsnmp32.lib
+req.dll: Wsnmp32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # SnmpOpen function

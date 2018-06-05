@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:msopc.IOpcSignatureReferenceEnumerator
+title: IOpcSignatureReferenceEnumerator
+author: windows-sdk-content
+description: A read-only enumerator of IOpcSignatureReference interface pointers.
+old-location: opc\iopcsignaturereferenceenumerator.htm
+old-project: OPC
+ms.assetid: 1d0a14c6-826c-419f-9e94-d5929fdbae82
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: IOpcSignatureReferenceEnumerator, IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions], IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignatureReferenceEnumerator, opc.iopcsignaturereferenceenumerator
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPC_SIGNATURE_TIME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msopc.h
+api_name:
+-	IOpcSignatureReferenceEnumerator
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOpcSignatureReferenceEnumerator interface

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clusapi._CLUSTER_CREATE_GROUP_INFO
+title: "_CLUSTER_CREATE_GROUP_INFO"
+author: windows-sdk-content
+description: Allows the caller to provide additional properties when creating a new group.
+old-location: mscs\cluster_create_group_info.htm
+old-project: MsCS
+ms.assetid: DBF71DAA-B8F1-42BF-AC82-FAFA9ADE4C44
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCLUSTER_CREATE_GROUP_INFO, CLUSTER_CREATE_GROUP_INFO, CLUSTER_CREATE_GROUP_INFO structure [Failover Cluster], PCLUSTER_CREATE_GROUP_INFO, PCLUSTER_CREATE_GROUP_INFO structure pointer [Failover Cluster], _CLUSTER_CREATE_GROUP_INFO, _CLUSTER_CREATE_GROUP_INFO structure [Failover Cluster], clusapi/CLUSTER_CREATE_GROUP_INFO, clusapi/PCLUSTER_CREATE_GROUP_INFO, clusapi/_CLUSTER_CREATE_GROUP_INFO, msclus/CLUSTER_CREATE_GROUP_INFO, msclus/PCLUSTER_CREATE_GROUP_INFO, msclus/_CLUSTER_CREATE_GROUP_INFO, mscs.cluster_create_group_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_CREATE_GROUP_INFO, *PCLUSTER_CREATE_GROUP_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MSClus.h
+api_name:
+-	CLUSTER_CREATE_GROUP_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CLUSTER_CREATE_GROUP_INFO structure

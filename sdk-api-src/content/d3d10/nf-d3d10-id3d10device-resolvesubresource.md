@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d10.ID3D10Device.ResolveSubresource
+title: ID3D10Device::ResolveSubresource
+author: windows-sdk-content
+description: Copy a multisampled resource into a non-multisampled resource. This API is most useful when re-using the resulting rendertarget of one render pass as an input to a second render pass.
+old-location: direct3d10\id3d10device_resolvesubresource.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10device_resolvesubresource.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: ID3D10Device interface [Direct3D 10],ResolveSubresource method, ID3D10Device.ResolveSubresource, ID3D10Device::ResolveSubresource, ResolveSubresource, ResolveSubresource method [Direct3D 10], ResolveSubresource method [Direct3D 10],ID3D10Device interface, ba86f6c0-1c03-0ae4-a93b-f0475c4a5a37, d3d10/ID3D10Device::ResolveSubresource, direct3d10.id3d10device_resolvesubresource
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d10.h
+req.include-header: D3d10core
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d10.h
+api_name:
+-	ID3D10Device.ResolveSubresource
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D10Device::ResolveSubresource

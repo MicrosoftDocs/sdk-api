@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsbackup.IVssBackupComponents.GetWriterComponents
+title: IVssBackupComponents::GetWriterComponents
+author: windows-sdk-content
+description: The GetWriterComponents method is used to return information about those components of a given writer that have been stored in a requester's Backup Components Document.
+old-location: base\ivssbackupcomponents_getwritercomponents.htm
+old-project: VSS
+ms.assetid: b99e7e41-1c88-462c-b6d8-734f7a6e24d4
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetWriterComponents, GetWriterComponents method [VSS], GetWriterComponents method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterComponents method, IVssBackupComponents.GetWriterComponents, IVssBackupComponents::GetWriterComponents, _win32_ivssbackupcomponents_getwritercomponents, base.ivssbackupcomponents_getwritercomponents, vsbackup/IVssBackupComponents::GetWriterComponents
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsbackup.h
+req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssBackupComponents.GetWriterComponents
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssBackupComponents::GetWriterComponents

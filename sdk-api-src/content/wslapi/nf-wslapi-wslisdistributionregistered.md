@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:wslapi.WslIsDistributionRegistered
+title: WslIsDistributionRegistered function
+author: windows-sdk-content
+description: Determines if a distribution is registered with the Windows Subsystem for Linux (WSL).
+old-location: wsl\wslisdistributionregistered.htm
+old-project: wsl
+ms.assetid: 51751073-922D-43B9-A253-2017CEEC262A
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WslIsDistributionRegistered, WslIsDistributionRegistered function, wsl.wslisdistributionregistered, wslapi/WslIsDistributionRegistered
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wslapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSL_DISTRIBUTION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	api-ms-win-wsl-api-l1-1-0.dll
+api_name:
+-	WslIsDistributionRegistered
+product: Windows
+targetos: Windows
+req.lib: Wslapi.lib
+req.dll: Api-ms-win-wsl-api-l1-1-0.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WslIsDistributionRegistered function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:peninputpanel.ITextInputPanel.put_PreferredInPlaceDirection
+title: ITextInputPanel::put_PreferredInPlaceDirection
+author: windows-sdk-content
+description: Gets or sets the preferred direction of the in-place Input Panel relative to the text entry field.
+old-location: tablet\itextinputpanel_preferredinplacedirection.htm
+old-project: tablet
+ms.assetid: 5d05e315-4e6d-4591-83d8-9cc98f2c2e2b
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 5d05e315-4e6d-4591-83d8-9cc98f2c2e2b, ITextInputPanel interface [Tablet PC],PreferredInPlaceDirection property, ITextInputPanel.PreferredInPlaceDirection, ITextInputPanel.get_PreferredInPlaceDirection, ITextInputPanel.put_PreferredInPlaceDirection, ITextInputPanel::PreferredInPlaceDirection, ITextInputPanel::get_PreferredInPlaceDirection, ITextInputPanel::put_PreferredInPlaceDirection, PreferredInPlaceDirection property [Tablet PC], PreferredInPlaceDirection property [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::PreferredInPlaceDirection, peninputpanel/ITextInputPanel::get_PreferredInPlaceDirection, peninputpanel/ITextInputPanel::put_PreferredInPlaceDirection, put_PreferredInPlaceDirection, tablet.itextinputpanel_preferredinplacedirection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: peninputpanel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EventMask
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tiptsf.dll
+api_name:
+-	ITextInputPanel.PreferredInPlaceDirection
+-	ITextInputPanel.get_PreferredInPlaceDirection
+-	ITextInputPanel.put_PreferredInPlaceDirection
+-	ITextInputPanel.get_PreferredInPlaceDirection
+-	ITextInputPanel.put_PreferredInPlaceDirection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITextInputPanel::put_PreferredInPlaceDirection

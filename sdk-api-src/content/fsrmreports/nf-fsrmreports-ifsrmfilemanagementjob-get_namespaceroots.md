@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmreports.IFsrmFileManagementJob.get_NamespaceRoots
+title: IFsrmFileManagementJob::get_NamespaceRoots
+author: windows-sdk-content
+description: An array of local directory paths that will be scanned when the file management job is run.
+old-location: fsrm\ifsrmfilemanagementjob_namespaceroots.htm
+old-project: Fsrm
+ms.assetid: 1f48ac40-eace-49f2-b77d-2456a1a5fa34
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],NamespaceRoots property, IFsrmFileManagementJob.NamespaceRoots, IFsrmFileManagementJob.get_NamespaceRoots, IFsrmFileManagementJob::NamespaceRoots, IFsrmFileManagementJob::get_NamespaceRoots, IFsrmFileManagementJob::put_NamespaceRoots, NamespaceRoots property [File Server Resource Manager], NamespaceRoots property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_namespaceroots, fsrm.ifsrmfilemanagementjob_namespaceroots, fsrmreports/IFsrmFileManagementJob::NamespaceRoots, fsrmreports/IFsrmFileManagementJob::get_NamespaceRoots, fsrmreports/IFsrmFileManagementJob::put_NamespaceRoots, get_NamespaceRoots
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmreports.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileManagementJob.NamespaceRoots
+-	IFsrmFileManagementJob.get_NamespaceRoots
+-	IFsrmFileManagementJob.put_NamespaceRoots
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileManagementJob::get_NamespaceRoots

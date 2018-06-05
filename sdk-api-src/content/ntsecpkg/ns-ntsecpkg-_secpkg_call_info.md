@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecpkg._SECPKG_CALL_INFO
+title: "_SECPKG_CALL_INFO"
+author: windows-sdk-content
+description: Contains information about a currently executing call.
+old-location: security\secpkg_call_info.htm
+old-project: SecAuthN
+ms.assetid: ac25ef88-7c64-42dd-8daa-fad039453043
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSECPKG_CALL_INFO, PSECPKG_CALL_INFO, PSECPKG_CALL_INFO structure pointer [Security], SECPKG_CALL_ANSI, SECPKG_CALL_ASYNC_UPDATE, SECPKG_CALL_BUFFER_MARSHALL, SECPKG_CALL_CLEANUP, SECPKG_CALL_INFO, SECPKG_CALL_INFO structure [Security], SECPKG_CALL_IN_PROC, SECPKG_CALL_IS_TCB, SECPKG_CALL_KERNEL_MODE, SECPKG_CALL_NEGO, SECPKG_CALL_NEGO_EXTENDER, SECPKG_CALL_NETWORK_ONLY, SECPKG_CALL_PROCESS_TERM, SECPKG_CALL_RECURSIVE, SECPKG_CALL_SYSTEM_PROC, SECPKG_CALL_THREAD_TERM, SECPKG_CALL_URGENT, SECPKG_CALL_WINLOGON, SECPKG_CALL_WOWCLIENT, _SECPKG_CALL_INFO, _ssp_secpkg_call_info, ntsecpkg/PSECPKG_CALL_INFO, ntsecpkg/SECPKG_CALL_INFO, security.secpkg_call_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecpkg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SECPKG_CALL_INFO, *PSECPKG_CALL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecpkg.h
+api_name:
+-	SECPKG_CALL_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SECPKG_CALL_INFO structure

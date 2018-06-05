@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._MSV1_0_SUBAUTH_LOGON
+title: "_MSV1_0_SUBAUTH_LOGON"
+author: windows-sdk-content
+description: Used by subauthentication DLLs.
+old-location: security\msv1_0_subauth_logon.htm
+old-project: SecAuthN
+ms.assetid: e53cb14a-097c-4ee4-ab7a-baa4b6699cc7
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PMSV1_0_SUBAUTH_LOGON, MSV1_0_ALLOW_SERVER_TRUST_ACCOUNT, MSV1_0_ALLOW_WORKSTATION_TRUST_ACCOUNT, MSV1_0_CLEARTEXT_PASSWORD_ALLOWED, MSV1_0_DONT_TRY_GUEST_ACCOUNT, MSV1_0_RETURN_PASSWORD_EXPIRY, MSV1_0_RETURN_PROFILE_PATH, MSV1_0_RETURN_USER_PARAMETERS, MSV1_0_SUBAUTH_LOGON, MSV1_0_SUBAUTH_LOGON structure [Security], MSV1_0_TRY_GUEST_ACCOUNT_ONLY, MSV1_0_TRY_SPECIFIED_DOMAIN_ONLY, MSV1_0_UPDATE_LOGON_STATISTICS, PMSV1_0_SUBAUTH_LOGON, PMSV1_0_SUBAUTH_LOGON structure pointer [Security], _MSV1_0_SUBAUTH_LOGON, _lsa_msv1_0_subauth_logon, ntsecapi/MSV1_0_SUBAUTH_LOGON, ntsecapi/PMSV1_0_SUBAUTH_LOGON, security.msv1_0_subauth_logon"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSV1_0_SUBAUTH_LOGON, *PMSV1_0_SUBAUTH_LOGON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	MSV1_0_SUBAUTH_LOGON
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _MSV1_0_SUBAUTH_LOGON structure

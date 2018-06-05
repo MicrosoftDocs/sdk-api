@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xpsobjectmodel_1.IXpsDocumentPackageTarget.GetXpsOMFactory
+title: IXpsDocumentPackageTarget::GetXpsOMFactory
+author: windows-sdk-content
+description: Gets the IXpsOMObjectFactory object for the document package.
+old-location: xps\ixpsdocumentpackagetarget_getxpsomfactory.htm
+old-project: printdocs
+ms.assetid: 130114DF-DEE7-4ADD-8080-7D804F9F296E
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: GetXpsOMFactory, GetXpsOMFactory method [XPS Documents and Packaging], GetXpsOMFactory method [XPS Documents and Packaging],IXpsDocumentPackageTarget interface, IXpsDocumentPackageTarget interface [XPS Documents and Packaging],GetXpsOMFactory method, IXpsDocumentPackageTarget.GetXpsOMFactory, IXpsDocumentPackageTarget::GetXpsOMFactory, xps.ixpsdocumentpackagetarget_getxpsomfactory, xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsOMFactory
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xpsobjectmodel_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Xpsobjectmodel_1.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XPS_DOCUMENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xpsobjectmodel_1.h
+api_name:
+-	IXpsDocumentPackageTarget.GetXpsOMFactory
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IXpsDocumentPackageTarget::GetXpsOMFactory

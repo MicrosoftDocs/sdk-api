@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsprov.IVssHardwareSnapshotProvider.FillInLunInfo
+title: IVssHardwareSnapshotProvider::FillInLunInfo
+author: windows-sdk-content
+description: Prompts the hardware provider to indicate whether it supports the corresponding disk device and correct any omissions in the VDS_LUN_INFORMATION structure.
+old-location: base\ivsshardwaresnapshotprovider_fillinluninfo.htm
+old-project: VSS
+ms.assetid: 4e4e5942-5bc8-4b5e-a651-5bb354514994
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: FillInLunInfo, FillInLunInfo method [VSS], FillInLunInfo method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],FillInLunInfo method, IVssHardwareSnapshotProvider.FillInLunInfo, IVssHardwareSnapshotProvider::FillInLunInfo, base.ivsshardwaresnapshotprovider_fillinluninfo, vsprov/IVssHardwareSnapshotProvider::FillInLunInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsprov.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_MGMT_OBJECT_UNION, *PVSS_MGMT_OBJECT_UNION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VsProv.h
+api_name:
+-	IVssHardwareSnapshotProvider.FillInLunInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssHardwareSnapshotProvider::FillInLunInfo

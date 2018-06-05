@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vfw.capFileSetCaptureFile
+title: capFileSetCaptureFile macro
+author: windows-sdk-content
+description: The capFileSetCaptureFile macro names the file used for video capture. You can use this macro or explicitly call the WM_CAP_FILE_SET_CAPTURE_FILE message.
+old-location: multimedia\capfilesetcapturefile.htm
+old-project: Multimedia
+ms.assetid: 47c69c62-5455-401e-adba-9a0eced548cf
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "_win32_capFileSetCaptureFile, capFileSetCaptureFile, capFileSetCaptureFile macro [Windows Multimedia], multimedia.capfilesetcapturefile, vfw/capFileSetCaptureFile"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vfw.h
+api_name:
+-	capFileSetCaptureFile
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # capFileSetCaptureFile macro

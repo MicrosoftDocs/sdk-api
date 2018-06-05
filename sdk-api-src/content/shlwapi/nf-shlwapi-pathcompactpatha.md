@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlwapi.PathCompactPathA
+title: PathCompactPathA function
+author: windows-sdk-content
+description: Truncates a file path to fit within a given pixel width by replacing path components with ellipses.
+old-location: shell\PathCompactPath.htm
+old-project: shell
+ms.assetid: b8184c98-1f86-4714-baf8-af4ef3e71cf2
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: PathCompactPath, PathCompactPath function [Windows Shell], PathCompactPathA, PathCompactPathW, _win32_PathCompactPath, shell.PathCompactPath, shlwapi/PathCompactPath, shlwapi/PathCompactPathA, shlwapi/PathCompactPathW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PathCompactPathW (Unicode) and PathCompactPathA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+-	API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+-	api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+api_name:
+-	PathCompactPath
+-	PathCompactPathA
+-	PathCompactPathW
+product: Windows
+targetos: Windows
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # PathCompactPathA function

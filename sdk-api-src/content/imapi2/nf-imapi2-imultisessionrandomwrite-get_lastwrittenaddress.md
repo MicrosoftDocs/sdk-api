@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imapi2.IMultisessionRandomWrite.get_LastWrittenAddress
+title: IMultisessionRandomWrite::get_LastWrittenAddress
+author: windows-sdk-content
+description: Retrieves the last written address on the media.
+old-location: imapi\imultisessionrandomwrite_get_lastwrittenaddress.htm
+old-project: imapi
+ms.assetid: 04d5c8ad-347c-4f2d-aa3d-3db77067a51e
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IMultisessionRandomWrite interface [IMAPI],get_LastWrittenAddress method, IMultisessionRandomWrite.get_LastWrittenAddress, IMultisessionRandomWrite::get_LastWrittenAddress, get_LastWrittenAddress, get_LastWrittenAddress method [IMAPI], get_LastWrittenAddress method [IMAPI],IMultisessionRandomWrite interface, imapi.imultisessionrandomwrite_get_lastwrittenaddress, imapi2/IMultisessionRandomWrite::get_LastWrittenAddress
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2.h
+api_name:
+-	IMultisessionRandomWrite.get_LastWrittenAddress
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMultisessionRandomWrite::get_LastWrittenAddress

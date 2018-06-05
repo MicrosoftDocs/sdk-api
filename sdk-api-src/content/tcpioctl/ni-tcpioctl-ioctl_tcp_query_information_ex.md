@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NI:tcpioctl.IOCTL_TCP_QUERY_INFORMATION_EX
+title: IOCTL_TCP_QUERY_INFORMATION_EX
+author: windows-sdk-content
+description: Retrieves information from the TCP/IP driver.
+old-location: winprog\ioctl_tcp_query_information_ex.htm
+old-project: DevNotes
+ms.assetid: b992b585-e1c8-4262-a6e0-ad8b5047620f
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IOCTL_TCP_QUERY_INFORMATION_EX, IOCTL_TCP_QUERY_INFORMATION_EX control, IOCTL_TCP_QUERY_INFORMATION_EX control code [Windows API], tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX, winprog.ioctl_tcp_query_information_ex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: ioctl
+req.header: tcpioctl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TCP_ESTATS_SYN_OPTS_ROS_v0, *PTCP_ESTATS_SYN_OPTS_ROS_v0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tcpioctl.h
+api_name:
+-	IOCTL_TCP_QUERY_INFORMATION_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IOCTL_TCP_QUERY_INFORMATION_EX IOCTL

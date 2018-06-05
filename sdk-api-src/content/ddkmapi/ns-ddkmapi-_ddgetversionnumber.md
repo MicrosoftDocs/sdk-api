@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddkmapi._DDGETVERSIONNUMBER
+title: "_DDGETVERSIONNUMBER"
+author: windows-sdk-content
+description: The DDGETVERSIONNUMBER structure contains the version number of the kernel-mode video transport component of Microsoft DirectDraw that is supported by the video miniport driver's DxApi interface.
+old-location: display\ddgetversionnumber.htm
+old-project: display
+ms.assetid: fa752700-8bc4-46be-bed9-d7d546f18f03
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDGETVERSIONNUMBER, DDGETVERSIONNUMBER, DDGETVERSIONNUMBER structure [Display Devices], LPDDGETVERSIONNUMBER, LPDDGETVERSIONNUMBER structure pointer [Display Devices], _DDGETVERSIONNUMBER, ddkmapi/DDGETVERSIONNUMBER, ddkmapi/LPDDGETVERSIONNUMBER, ddstrcts_82a9e57e-1569-44f2-b903-41140e18621f.xml, display.ddgetversionnumber"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddkmapi.h
+req.include-header: Ddkmapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDGETVERSIONNUMBER, *LPDDGETVERSIONNUMBER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddkmapi.h
+api_name:
+-	DDGETVERSIONNUMBER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDGETVERSIONNUMBER structure

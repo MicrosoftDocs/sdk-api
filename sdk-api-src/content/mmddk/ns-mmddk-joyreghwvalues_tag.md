@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:mmddk.joyreghwvalues_tag
+title: joyreghwvalues_tag
+author: windows-sdk-content
+description: The JOYREGHWVALUES structure contains the range of values returned by the hardware (filled in by calibration).
+old-location: hid\joyreghwvalues.htm
+old-project: hid
+ms.assetid: cd59611f-7bf2-4bba-80dc-f54c815af3e6
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES structure [Human Input Devices], JOYREGHWVALUES, JOYREGHWVALUES structure [Human Input Devices], di_ref_bd51a1ee-82e2-417f-81a1-9732931706a3.xml, hid.joyreghwvalues, joyreghwvalues_tag, mmddk/FAR *LPJOYREGHWVALUES, mmddk/JOYREGHWVALUES"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mmddk.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: JOYREGHWVALUES, *LPJOYREGHWVALUES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mmddk.h
+api_name:
+-	JOYREGHWVALUES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # joyreghwvalues_tag structure

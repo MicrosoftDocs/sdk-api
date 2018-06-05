@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl.IFolderBandPriv.SetCascade
+title: IFolderBandPriv::SetCascade
+author: windows-sdk-content
+description: Sets a cascade folder.
+old-location: shell\IFolderBandPriv_SetCascade.htm
+old-project: shell
+ms.assetid: c4981edf-981e-47e3-8869-86cb99f23e3e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IFolderBandPriv interface [Windows Shell],SetCascade method, IFolderBandPriv.SetCascade, IFolderBandPriv::SetCascade, SetCascade, SetCascade method [Windows Shell], SetCascade method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetCascade, shell.IFolderBandPriv_SetCascade, shobjidl/IFolderBandPriv::SetCascade
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IFolderBandPriv.SetCascade
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.00 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # IFolderBandPriv::SetCascade

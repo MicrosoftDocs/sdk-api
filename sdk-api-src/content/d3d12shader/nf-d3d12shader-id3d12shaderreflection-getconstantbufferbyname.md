@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d12shader.ID3D12ShaderReflection.GetConstantBufferByName
+title: ID3D12ShaderReflection::GetConstantBufferByName
+author: windows-sdk-content
+description: Gets a constant buffer by name.
+old-location: direct3d12\id3d12shaderreflection_getconstantbufferbyname.htm
+old-project: direct3d12
+ms.assetid: C8BE8C17-2B5A-45AB-8C39-778FFFA78992
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: GetConstantBufferByName, GetConstantBufferByName method, GetConstantBufferByName method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetConstantBufferByName method, ID3D12ShaderReflection.GetConstantBufferByName, ID3D12ShaderReflection::GetConstantBufferByName, d3d12shader/ID3D12ShaderReflection::GetConstantBufferByName, direct3d12.id3d12shaderreflection_getconstantbufferbyname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d12shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SHADER_VERSION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12shader.h
+api_name:
+-	ID3D12ShaderReflection.GetConstantBufferByName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D12ShaderReflection::GetConstantBufferByName

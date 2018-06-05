@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:gpedit.IGPEInformation.GetHint
+title: IGPEInformation::GetHint
+author: windows-sdk-content
+description: The GetHint method retrieves the type of Active Directory object to which this GPO can be linked.
+old-location: policy\igpeinformation_gethint.htm
+old-project: Policy
+ms.assetid: 4e63c6b7-ae4f-4789-bfcc-8a066fb6ad02
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GPHintDomain, GPHintMachine, GPHintOrganizationalUnit, GPHintSite, GPHintUnknown, GetHint, GetHint method [Group Policy], GetHint method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetHint method, IGPEInformation.GetHint, IGPEInformation::GetHint, _win32_igpeinformation_gethint, gpedit/IGPEInformation::GetHint, policy.igpeinformation_gethint
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: gpedit.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gpedit.dll
+api_name:
+-	IGPEInformation.GetHint
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IGPEInformation::GetHint

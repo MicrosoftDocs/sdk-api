@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shdeprecated.BASEBROWSERDATALH
+title: BASEBROWSERDATALH
+author: windows-sdk-content
+description: Contains protected members of the base class. BASEBROWSERDATA defines the browser state and is used with IBrowserService2::GetBaseBrowserData and IBrowserService2::PutBaseBrowserData.
+old-location: shell\BASEBROWSERDATA.htm
+old-project: shell
+ms.assetid: d56e42e8-a556-4470-82d9-466edd84214f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPBASEBROWSERDATA, *LPBASEBROWSERDATALH, BASEBROWSERDATA, BASEBROWSERDATA structure [Windows Shell], BASEBROWSERDATALH, FALSE, LPCBASEBROWSERDATA, LPCBASEBROWSERDATA structure pointer [Windows Shell], SECURELOCK_FIRSTSUGGEST, SECURELOCK_NOCHANGE, SECURELOCK_SET_FORTEZZA, SECURELOCK_SET_MIXED, SECURELOCK_SET_SECURE128BIT, SECURELOCK_SET_SECURE40BIT, SECURELOCK_SET_SECURE56BIT, SECURELOCK_SET_SECUREUNKNOWNBIT, SECURELOCK_SET_UNSECURE, SECURELOCK_SUGGEST_FORTEZZA, SECURELOCK_SUGGEST_MIXED, SECURELOCK_SUGGEST_SECURE128BIT, SECURELOCK_SUGGEST_SECURE40BIT, SECURELOCK_SUGGEST_SECURE56BIT, SECURELOCK_SUGGEST_SECUREUNKNOWNBIT, SECURELOCK_SUGGEST_UNSECURE, TRUE, shdeprecated/BASEBROWSERDATA, shdeprecated/LPCBASEBROWSERDATA, shell.BASEBROWSERDATA, zone_BASEBROWSERDATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shdeprecated.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shdeprecated.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BASEBROWSERDATALH, *LPBASEBROWSERDATALH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shdeprecated.h
+api_name:
+-	BASEBROWSERDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # BASEBROWSERDATALH structure

@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winfax.FaxSendDocumentForBroadcastW
+title: FaxSendDocumentForBroadcastW function
+author: windows-sdk-content
+description: A fax client application calls the FaxSendDocumentForBroadcast function to queue several fax jobs that will transmit the same outgoing fax transmission to several recipients.
+old-location: fax\_mfax_faxsenddocumentforbroadcast.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxlegacy_0sz8.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: FaxSendDocumentForBroadcast, FaxSendDocumentForBroadcast function [Fax Service], FaxSendDocumentForBroadcastA, FaxSendDocumentForBroadcastW, _mfax_faxsenddocumentforbroadcast, fax._mfax_faxsenddocumentforbroadcast, winfax/FaxSendDocumentForBroadcast, winfax/FaxSendDocumentForBroadcastA, winfax/FaxSendDocumentForBroadcastW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winfax.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: FaxSendDocumentForBroadcastW (Unicode) and FaxSendDocumentForBroadcastA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVT_VARIANT, *PEVT_VARIANT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	WinFax.lib
+-	WinFax.dll
+api_name:
+-	FaxSendDocumentForBroadcast
+-	FaxSendDocumentForBroadcastA
+-	FaxSendDocumentForBroadcastW
+product: Windows
+targetos: Windows
+req.lib: WinFax.lib
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # FaxSendDocumentForBroadcastW function

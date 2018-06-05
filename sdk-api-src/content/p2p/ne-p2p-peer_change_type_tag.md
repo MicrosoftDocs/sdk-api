@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:p2p.peer_change_type_tag
+title: peer_change_type_tag
+author: windows-sdk-content
+description: The PEER_CHANGE_TYPE enumeration defines the set of changes that were performed on a peer object, endpoint, or application in a peer event. It is used to qualify the peer event associated with the change type.
+old-location: p2p\peer_change_type.htm
+old-project: P2PSdk
+ms.assetid: ef8f1cc7-e1db-4d6d-9ff6-141746d0787a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PEER_CHANGE_ADDED, PEER_CHANGE_DELETED, PEER_CHANGE_TYPE, PEER_CHANGE_TYPE enumeration [Peer Networking], PEER_CHANGE_UPDATED, p2p.peer_change_type, p2p/PEER_CHANGE_ADDED, p2p/PEER_CHANGE_DELETED, p2p/PEER_CHANGE_TYPE, p2p/PEER_CHANGE_UPDATED, peer_change_type_tag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEER_CHANGE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	P2P.h
+api_name:
+-	PEER_CHANGE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # peer_change_type_tag enumeration

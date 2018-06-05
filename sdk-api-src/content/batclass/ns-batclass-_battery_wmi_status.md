@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:batclass._BATTERY_WMI_STATUS
+title: "_BATTERY_WMI_STATUS"
+author: windows-sdk-content
+description: Defines battery status information.
+old-location: battery\battery_wmi_status.htm
+old-project: battery
+ms.assetid: BE3FB7CA-928D-4A2E-A11D-20E9D3F8841E
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PBATTERY_WMI_STATUS, BATTERY_WMI_STATUS, BATTERY_WMI_STATUS structure [Battery Devices], PBATTERY_WMI_STATUS, PBATTERY_WMI_STATUS structure pointer [Battery Devices], _BATTERY_WMI_STATUS, batclass/BATTERY_WMI_STATUS, batclass/PBATTERY_WMI_STATUS, battery.battery_wmi_status"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: batclass.h
+req.include-header: Batclass.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BATTERY_WMI_STATUS, *PBATTERY_WMI_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Batclass.h
+api_name:
+-	BATTERY_WMI_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BATTERY_WMI_STATUS structure

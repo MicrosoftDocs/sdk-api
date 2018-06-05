@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winml.WINML_TENSOR_DATA_TYPE
+title: WINML_TENSOR_DATA_TYPE
+author: windows-sdk-content
+description: Specifies the different data types of WinML tensors.
+old-location: machinelearning\winml_tensor_data_type.htm
+old-project: MachineLearning
+ms.assetid: A8EB60A1-F769-460F-8C94-5D1DE3A1820F
+ms.author: windowssdkdev
+ms.date: 03/07/2018
+ms.keywords: MachineLearning.winml_tensor_data_type, WINML_TENSOR_BOOLEAN, WINML_TENSOR_COMPLEX128, WINML_TENSOR_COMPLEX64, WINML_TENSOR_DATA_TYPE, WINML_TENSOR_DATA_TYPE enumeration, WINML_TENSOR_DOUBLE, WINML_TENSOR_FLOAT, WINML_TENSOR_FLOAT16, WINML_TENSOR_INT16, WINML_TENSOR_INT32, WINML_TENSOR_INT64, WINML_TENSOR_INT8, WINML_TENSOR_STRING, WINML_TENSOR_UINT16, WINML_TENSOR_UINT32, WINML_TENSOR_UINT64, WINML_TENSOR_UINT8, WINML_TENSOR_UNDEFINED, winml/WINML_TENSOR_BOOLEAN, winml/WINML_TENSOR_COMPLEX128, winml/WINML_TENSOR_COMPLEX64, winml/WINML_TENSOR_DATA_TYPE, winml/WINML_TENSOR_DOUBLE, winml/WINML_TENSOR_FLOAT, winml/WINML_TENSOR_FLOAT16, winml/WINML_TENSOR_INT16, winml/WINML_TENSOR_INT32, winml/WINML_TENSOR_INT64, winml/WINML_TENSOR_INT8, winml/WINML_TENSOR_STRING, winml/WINML_TENSOR_UINT16, winml/WINML_TENSOR_UINT32, winml/WINML_TENSOR_UINT64, winml/WINML_TENSOR_UINT8, winml/WINML_TENSOR_UNDEFINED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINML_TENSOR_DATA_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winml.h
+api_name:
+-	WINML_TENSOR_DATA_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WINML_TENSOR_DATA_TYPE enumeration

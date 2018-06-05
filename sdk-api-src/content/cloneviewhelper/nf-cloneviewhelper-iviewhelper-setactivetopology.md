@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:cloneviewhelper.IViewHelper.SetActiveTopology
+title: IViewHelper::SetActiveTopology
+author: windows-sdk-content
+description: The SetActiveTopology method sets up the topology to be used by a Video Present Network (VidPN) on a particular graphics adapter.
+old-location: display\iviewhelper_setactivetopology.htm
+old-project: display
+ms.assetid: a4a9d98c-834b-4578-9ba3-7c7295989a84
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IViewHelper interface [Display Devices],SetActiveTopology method, IViewHelper.SetActiveTopology, IViewHelper::SetActiveTopology, SetActiveTopology, SetActiveTopology method [Display Devices], SetActiveTopology method [Display Devices],IViewHelper interface, TMM_Ref_2624b29c-5a04-4312-b65c-9878af440c39.xml, cloneviewhelper/IViewHelper::SetActiveTopology, display.iviewhelper_setactivetopology
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: cloneviewhelper.h
+req.include-header: Cloneviewhelper.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -22,10 +22,26 @@ req.umdf-ver:
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
-req.max-support: 
+req.max-support: Windows 7
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	cloneviewhelper.h
+api_name:
+-	IViewHelper.SetActiveTopology
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IViewHelper::SetActiveTopology

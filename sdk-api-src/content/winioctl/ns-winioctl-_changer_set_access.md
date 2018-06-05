@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._CHANGER_SET_ACCESS
+title: "_CHANGER_SET_ACCESS"
+author: windows-sdk-content
+description: Contains information that the IOCTL_CHANGER_SET_ACCESS control code needs to set the state of the device's insert/eject port, door, or keypad.
+old-location: base\changer_set_access_str.htm
+old-project: DevIO
+ms.assetid: 14a687c0-18c0-4504-a49e-7ba1b1525d12
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*PCHANGER_SET_ACCESS, CHANGER_SET_ACCESS, CHANGER_SET_ACCESS structure, EXTEND_IEPORT, LOCK_ELEMENT, PCHANGER_SET_ACCESS, PCHANGER_SET_ACCESS structure pointer, RETRACT_IEPORT, UNLOCK_ELEMENT, _CHANGER_SET_ACCESS, _win32_changer_set_access_str, base.changer_set_access_str, winioctl/CHANGER_SET_ACCESS, winioctl/PCHANGER_SET_ACCESS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CHANGER_SET_ACCESS, *PCHANGER_SET_ACCESS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	CHANGER_SET_ACCESS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CHANGER_SET_ACCESS structure

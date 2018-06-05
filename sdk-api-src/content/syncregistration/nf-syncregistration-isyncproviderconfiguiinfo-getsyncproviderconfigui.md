@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:syncregistration.ISyncProviderConfigUIInfo.GetSyncProviderConfigUI
+title: ISyncProviderConfigUIInfo::GetSyncProviderConfigUI
+author: windows-sdk-content
+description: Creates an instance of a synchronization provider configuration UI.
+old-location: winsync\isyncproviderconfiguiinfo_getsyncproviderconfigui.htm
+old-project: winsync
+ms.assetid: eb9a2f2f-4c9f-405c-90f6-b251ab1a652d
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetSyncProviderConfigUI, GetSyncProviderConfigUI method [Windows Sync], GetSyncProviderConfigUI method [Windows Sync],ISyncProviderConfigUIInfo interface, ISyncProviderConfigUIInfo interface [Windows Sync],GetSyncProviderConfigUI method, ISyncProviderConfigUIInfo.GetSyncProviderConfigUI, ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, syncregistration/ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, winsync.isyncproviderconfiguiinfo_getsyncproviderconfigui
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: syncregistration.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNC_REGISTRATION_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Syncregistration.h
+api_name:
+-	ISyncProviderConfigUIInfo.GetSyncProviderConfigUI
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ISyncProviderConfigUIInfo::GetSyncProviderConfigUI

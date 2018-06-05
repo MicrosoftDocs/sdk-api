@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IApiTracingDataCollector.get_LogApiNamesOnly
+title: IApiTracingDataCollector::get_LogApiNamesOnly
+author: windows-sdk-content
+description: Retrieves or sets a value that indicates whether PLA logs only the function name.
+old-location: pla\iapitracingdatacollector_logapinamesonly.htm
+old-project: PLA
+ms.assetid: bb3cc333-52d9-416c-9db2-654a254f4477
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IApiTracingDataCollector interface [PLA],LogApiNamesOnly property, IApiTracingDataCollector.LogApiNamesOnly, IApiTracingDataCollector.get_LogApiNamesOnly, IApiTracingDataCollector::LogApiNamesOnly, IApiTracingDataCollector::get_LogApiNamesOnly, IApiTracingDataCollector::put_LogApiNamesOnly, LogApiNamesOnly property [PLA], LogApiNamesOnly property [PLA],IApiTracingDataCollector interface, base.iapitracingdatacollector_logapinamesonly, get_LogApiNamesOnly, pla.iapitracingdatacollector_logapinamesonly, pla/IApiTracingDataCollector::LogApiNamesOnly, pla/IApiTracingDataCollector::get_LogApiNamesOnly, pla/IApiTracingDataCollector::put_LogApiNamesOnly
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IApiTracingDataCollector.LogApiNamesOnly
+-	IApiTracingDataCollector.get_LogApiNamesOnly
+-	IApiTracingDataCollector.put_LogApiNamesOnly
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IApiTracingDataCollector::get_LogApiNamesOnly

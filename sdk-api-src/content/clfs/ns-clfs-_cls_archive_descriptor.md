@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clfs._CLS_ARCHIVE_DESCRIPTOR
+title: "_CLS_ARCHIVE_DESCRIPTOR"
+author: windows-sdk-content
+description: Used by the GetNextLogArchiveExtent function to return information about log archive extents.
+old-location: fs\clfs_archive_descriptor.htm
+old-project: Clfs
+ms.assetid: a2d50d1d-f4cb-48de-be73-4858adfa951f
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PCLFS_ARCHIVE_DESCRIPTOR, *PCLS_ARCHIVE_DESCRIPTOR, CLFS_ARCHIVE_DESCRIPTOR, CLFS_ARCHIVE_DESCRIPTOR structure [Files], CLS_ARCHIVE_DESCRIPTOR, PCLFS_ARCHIVE_DESCRIPTOR, PCLFS_ARCHIVE_DESCRIPTOR structure pointer [Files], PPCLFS_ARCHIVE_DESCRIPTOR, PPCLFS_ARCHIVE_DESCRIPTOR structure pointer [Files], PPCLS_ARCHIVE_DESCRIPTOR, _CLS_ARCHIVE_DESCRIPTOR, clfs/CLFS_ARCHIVE_DESCRIPTOR, clfs/PCLFS_ARCHIVE_DESCRIPTOR, clfs/PPCLFS_ARCHIVE_DESCRIPTOR, fs.clfs_archive_descriptor"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clfs.h
+req.include-header: Clfsw32.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLS_ARCHIVE_DESCRIPTOR, *PCLS_ARCHIVE_DESCRIPTOR, PPCLS_ARCHIVE_DESCRIPTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Clfs.h
+api_name:
+-	CLFS_ARCHIVE_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CLS_ARCHIVE_DESCRIPTOR structure

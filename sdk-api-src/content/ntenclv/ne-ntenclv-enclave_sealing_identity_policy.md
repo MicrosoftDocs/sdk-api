@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ntenclv.ENCLAVE_SEALING_IDENTITY_POLICY
+title: ENCLAVE_SEALING_IDENTITY_POLICY
+author: windows-sdk-content
+description: Defines values that specify how another enclave must be related to the enclave that calls EnclaveSealData for the enclave to unseal the data.
+old-location: base\enclave_sealing_identity_policy.htm
+old-project: Memory
+ms.assetid: 986C122D-4CC9-487F-8B9F-6B3F9B727E4A
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ENCLAVE_IDENTITY_POLICY_SEAL_EXACT_CODE, ENCLAVE_IDENTITY_POLICY_SEAL_INVALID, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_AUTHOR, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_FAMILY, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_IMAGE, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_PRIMARY_CODE, ENCLAVE_SEALING_IDENTITY_POLICY, ENCLAVE_SEALING_IDENTITY_POLICY enumeration, base.enclave_sealing_identity_policy, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_EXACT_CODE, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_INVALID, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_AUTHOR, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_FAMILY, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_IMAGE, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_PRIMARY_CODE, ntenclv/ENCLAVE_SEALING_IDENTITY_POLICY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ntenclv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENCLAVE_SEALING_IDENTITY_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ntenclv.h
+api_name:
+-	ENCLAVE_SEALING_IDENTITY_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ENCLAVE_SEALING_IDENTITY_POLICY enumeration

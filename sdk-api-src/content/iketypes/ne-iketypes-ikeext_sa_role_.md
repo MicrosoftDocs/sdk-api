@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iketypes.IKEEXT_SA_ROLE_
+title: IKEEXT_SA_ROLE_
+author: windows-sdk-content
+description: Security association (SA) role for Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) Main Mode or Quick Mode negotiations.
+old-location: fwp\ikeext_sa_role.htm
+old-project: FWP
+ms.assetid: 6bb1e264-6141-4545-add5-e12f09769e25
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IKEEXT_SA_ROLE, IKEEXT_SA_ROLE enumeration [Filtering], IKEEXT_SA_ROLE_, IKEEXT_SA_ROLE_INITIATOR, IKEEXT_SA_ROLE_MAX, IKEEXT_SA_ROLE_RESPONDER, fwp.ikeext_sa_role, iketypes/IKEEXT_SA_ROLE, iketypes/IKEEXT_SA_ROLE_INITIATOR, iketypes/IKEEXT_SA_ROLE_MAX, iketypes/IKEEXT_SA_ROLE_RESPONDER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iketypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Iketypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IKEEXT_SA_ROLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iketypes.h
+api_name:
+-	IKEEXT_SA_ROLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IKEEXT_SA_ROLE_ enumeration

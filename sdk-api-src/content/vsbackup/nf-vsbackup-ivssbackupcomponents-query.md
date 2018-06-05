@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsbackup.IVssBackupComponents.Query
+title: IVssBackupComponents::Query
+author: windows-sdk-content
+description: The Query method queries providers on the system and/or the completed shadow copies in the system that reside in the current context. The method can be called only during backup operations.
+old-location: base\ivssbackupcomponents_query.htm
+old-project: VSS
+ms.assetid: 3f79bf84-c7b9-4291-ae3b-7061fe3199e9
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IVssBackupComponents interface [VSS],Query method, IVssBackupComponents.Query, IVssBackupComponents::Query, Query, Query method [VSS], Query method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_query, base.ivssbackupcomponents_query, vsbackup/IVssBackupComponents::Query
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsbackup.h
+req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssBackupComponents.Query
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssBackupComponents::Query

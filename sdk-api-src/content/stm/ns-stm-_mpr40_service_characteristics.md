@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:stm._MPR40_SERVICE_CHARACTERISTICS
+title: "_MPR40_SERVICE_CHARACTERISTICS"
+author: windows-sdk-content
+description: The MPR_SERVICE_CHARACTERISTICS structure contains information used to register a routing protocol with the router manager.
+old-location: rras\mpr_service_characteristics.htm
+old-project: RRAS
+ms.assetid: 92a117ae-3a5f-4702-a936-8e23bc575763
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PMPR_SERVICE_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, MPR40_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS structure [RAS], PMPR_SERVICE_CHARACTERISTICS, PMPR_SERVICE_CHARACTERISTICS structure pointer [RAS], ROUTING, SERVICES, _MPR40_SERVICE_CHARACTERISTICS, _mpr_mpr_service_characteristics, routprot/MPR_SERVICE_CHARACTERISTICS, routprot/PMPR_SERVICE_CHARACTERISTICS, rras.mpr_service_characteristics, stm/MPR_SERVICE_CHARACTERISTICS, stm/PMPR_SERVICE_CHARACTERISTICS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: stm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPR40_SERVICE_CHARACTERISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Routprot.h
+-	Stm.h
+api_name:
+-	MPR_SERVICE_CHARACTERISTICS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _MPR40_SERVICE_CHARACTERISTICS structure

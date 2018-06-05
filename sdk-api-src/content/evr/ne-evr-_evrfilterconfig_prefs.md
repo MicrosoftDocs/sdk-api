@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:evr._EVRFilterConfig_Prefs
+title: "_EVRFilterConfig_Prefs"
+author: windows-sdk-content
+description: Contains flags that are used to configure the Microsoft DirectShow enhanced video renderer (EVR) filter.
+old-location: mf\evrfilterconfigprefs.htm
+old-project: medfound
+ms.assetid: 39d6845e-8655-4f8f-be39-76d704fd1177
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: EVRFilterConfigPrefs, EVRFilterConfigPrefs enumeration [Media Foundation], EVRFilterConfigPrefs_EnableQoS, EVRFilterConfigPrefs_Mask, _EVRFilterConfig_Prefs, evr/EVRFilterConfigPrefs, evr/EVRFilterConfigPrefs_EnableQoS, evr/EVRFilterConfigPrefs_Mask, mf.evrfilterconfigprefs
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: evr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVRFilterConfigPrefs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	evr.h
+api_name:
+-	EVRFilterConfigPrefs
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _EVRFilterConfig_Prefs enumeration

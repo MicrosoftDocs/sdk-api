@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:sspi._SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX
+title: "_SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX"
+author: windows-sdk-content
+description: Specifies serialized credentials and a list of security packages that support the credentials.
+old-location: security\sec_winnt_auth_packed_credentials_ex.htm
+old-project: SecAuthN
+ms.assetid: 33e42e35-e34c-4e89-90c7-8aee5176ae1b
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX structure pointer [Security], SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX structure [Security], _SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, security.sec_winnt_auth_packed_credentials_ex, sspi/PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, sspi/SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: sspi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, *PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Sspi.h
+api_name:
+-	SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX structure

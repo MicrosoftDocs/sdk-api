@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rtworkq.RtwqAllocateWorkQueue
+title: RtwqAllocateWorkQueue function
+author: windows-sdk-content
+description: Creates a new work queue.
+old-location: base\rtwqallocateworkqueue.htm
+old-project: ProcThread
+ms.assetid: B8FF907A-1448-43A4-B249-9D3D859D8F95
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: RTWQ_MULTITHREADED_WORKQUEUE, RTWQ_STANDARD_WORKQUEUE, RTWQ_WINDOW_WORKQUEUE, RtwqAllocateWorkQueue, RtwqAllocateWorkQueue function, base.rtwqallocateworkqueue, rtworkq/RtwqAllocateWorkQueue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rtworkq.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RTWQ_WORKQUEUE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	RTWorkQ.dll
+api_name:
+-	RtwqAllocateWorkQueue
+product: Windows
+targetos: Windows
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtwqAllocateWorkQueue function

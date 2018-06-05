@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.PegFromTrackerSource
+title: IReferenceTracker::xaml
+author: windows-sdk-content
+description: Indicates that a tracker source is unable to protected a reference tracker object.
+old-location: winrt\ireferencetracker_pegfromtrackersource.htm
+old-project: WinRT
+ms.assetid: ca35bcf5-add0-47a8-b989-f6d69674ca30
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: IReferenceTracker interface [Windows Runtime],PegFromTrackerSource method, IReferenceTracker.PegFromTrackerSource, IReferenceTracker.xaml, IReferenceTracker::PegFromTrackerSource, IReferenceTracker::xaml, PegFromTrackerSource, PegFromTrackerSource method [Windows Runtime], PegFromTrackerSource method [Windows Runtime],IReferenceTracker interface, windows/IReferenceTracker::PegFromTrackerSource, winrt.ireferencetracker_pegfromtrackersource
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: windows.ui.xaml.hosting.referencetracker.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Windows.ui.xaml.hosting.referencetracker.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDF_RENDER_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windows.ui.xaml.hosting.referencetracker.h
+api_name:
+-	IReferenceTracker.PegFromTrackerSource
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IReferenceTracker::xaml

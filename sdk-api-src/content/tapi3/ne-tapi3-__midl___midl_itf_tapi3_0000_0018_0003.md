@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3.__MIDL___MIDL_itf_tapi3_0000_0018_0003
+title: "__MIDL___MIDL_itf_tapi3_0000_0018_0003"
+author: windows-sdk-content
+description: The MSP_CALL_EVENT_CAUSE constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_CALL_EVENT.
+old-location: tapi3\msp_call_event_cause.htm
+old-project: Tapi
+ms.assetid: 3724bead-d16a-40dd-b55c-3c31846f1c1c
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CALL_CAUSE_BAD_DEVICE, CALL_CAUSE_CONNECT_FAIL, CALL_CAUSE_LOCAL_REQUEST, CALL_CAUSE_MEDIA_RECOVERED, CALL_CAUSE_MEDIA_TIMEOUT, CALL_CAUSE_REMOTE_REQUEST, CALL_CAUSE_UNKNOWN, MSP_CALL_EVENT_CAUSE, MSP_CALL_EVENT_CAUSE enumeration [TAPI 2.2], __MIDL___MIDL_itf_tapi3_0000_0018_0003, _tapi3_msp_call_event_cause, msp/CALL_CAUSE_BAD_DEVICE, msp/CALL_CAUSE_CONNECT_FAIL, msp/CALL_CAUSE_LOCAL_REQUEST, msp/CALL_CAUSE_MEDIA_RECOVERED, msp/CALL_CAUSE_MEDIA_TIMEOUT, msp/CALL_CAUSE_REMOTE_REQUEST, msp/CALL_CAUSE_UNKNOWN, msp/MSP_CALL_EVENT_CAUSE, tapi3.msp_call_event_cause
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSP_CALL_EVENT_CAUSE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msp.h
+api_name:
+-	MSP_CALL_EVENT_CAUSE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # __MIDL___MIDL_itf_tapi3_0000_0018_0003 enumeration

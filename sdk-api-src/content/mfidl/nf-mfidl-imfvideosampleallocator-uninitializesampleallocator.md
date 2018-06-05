@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFVideoSampleAllocator.UninitializeSampleAllocator
+title: IMFVideoSampleAllocator::UninitializeSampleAllocator
+author: windows-sdk-content
+description: Releases all of the video samples that have been allocated.
+old-location: mf\imfvideosampleallocator_uninitializesampleallocator.htm
+old-project: medfound
+ms.assetid: 7bcb0425-00ac-4fdc-83a8-2b2686979a1d
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 7bcb0425-00ac-4fdc-83a8-2b2686979a1d, IMFVideoSampleAllocator interface [Media Foundation],UninitializeSampleAllocator method, IMFVideoSampleAllocator.UninitializeSampleAllocator, IMFVideoSampleAllocator::UninitializeSampleAllocator, UninitializeSampleAllocator, UninitializeSampleAllocator method [Media Foundation], UninitializeSampleAllocator method [Media Foundation],IMFVideoSampleAllocator interface, mf.imfvideosampleallocator_uninitializesampleallocator, mfidl/IMFVideoSampleAllocator::UninitializeSampleAllocator
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFVideoSampleAllocator.UninitializeSampleAllocator
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFVideoSampleAllocator::UninitializeSampleAllocator

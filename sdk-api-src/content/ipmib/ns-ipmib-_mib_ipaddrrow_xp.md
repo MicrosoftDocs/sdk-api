@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipmib._MIB_IPADDRROW_XP
+title: "_MIB_IPADDRROW_XP"
+author: windows-sdk-content
+description: Specifies information for a particular IPv4 address in the MIB_IPADDRTABLE structure.
+old-location: mib\mib_ipaddrrow.htm
+old-project: MIB
+ms.assetid: ed1777bd-4c02-43e0-9bbb-6bb02702e1a4
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIB_IPADDRROW, *PMIB_IPADDRROW_XP, MIB_IPADDRROW, MIB_IPADDRROW structure [MIB], MIB_IPADDRROW_XP, MIB_IPADDR_DELETED, MIB_IPADDR_DISCONNECTED, MIB_IPADDR_DYNAMIC, MIB_IPADDR_PRIMARY, MIB_IPADDR_TRANSIENT, PMIB_IPADDRROW, PMIB_IPADDRROW structure pointer [MIB], _MIB_IPADDRROW_XP, _mpr_mib_ipaddrrow, ipmib/MIB_IPADDRROW, ipmib/PMIB_IPADDRROW, iprtrmib/MIB_IPADDRROW, iprtrmib/PMIB_IPADDRROW, mib.mib_ipaddrrow, rras.mib_ipaddrrow"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_IPADDRROW_XP, *PMIB_IPADDRROW_XP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipmib.h
+-	Iprtrmib.h
+api_name:
+-	MIB_IPADDRROW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MIB_IPADDRROW_XP structure

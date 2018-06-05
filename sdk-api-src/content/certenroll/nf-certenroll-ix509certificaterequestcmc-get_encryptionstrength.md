@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509CertificateRequestCmc.get_EncryptionStrength
+title: IX509CertificateRequestCmc::get_EncryptionStrength
+author: windows-sdk-content
+description: Specifies or retrieves the relative encryption level applied to the private key to be archived.
+old-location: security\ix509certificaterequestcmc_encryptionstrength_property.htm
+old-project: SecCertEnroll
+ms.assetid: 9cade9f0-d614-4838-bf42-0a19b4ce53d5
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: EncryptionStrength property [Security], EncryptionStrength property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],EncryptionStrength property, IX509CertificateRequestCmc.EncryptionStrength, IX509CertificateRequestCmc.get_EncryptionStrength, IX509CertificateRequestCmc::EncryptionStrength, IX509CertificateRequestCmc::get_EncryptionStrength, IX509CertificateRequestCmc::put_EncryptionStrength, certenroll/IX509CertificateRequestCmc::EncryptionStrength, certenroll/IX509CertificateRequestCmc::get_EncryptionStrength, certenroll/IX509CertificateRequestCmc::put_EncryptionStrength, get_EncryptionStrength, security.ix509certificaterequestcmc_encryptionstrength_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509CertificateRequestCmc.EncryptionStrength
+-	IX509CertificateRequestCmc.get_EncryptionStrength
+-	IX509CertificateRequestCmc.put_EncryptionStrength
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IX509CertificateRequestCmc::get_EncryptionStrength

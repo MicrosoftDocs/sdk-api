@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_LUN_RESERVE_MODE
+title: "_VDS_LUN_RESERVE_MODE"
+author: windows-sdk-content
+description: Not supported.This enumeration is reserved for future use.
+old-location: base\vds_lun_reserve_mode.htm
+old-project: VDS
+ms.assetid: 198706a4-3692-4f75-bf68-c56671b752a5
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_LRM_EXCLUSIVE_RO, VDS_LRM_EXCLUSIVE_RW, VDS_LRM_NONE, VDS_LRM_SHARED_RO, VDS_LRM_SHARED_RW, VDS_LUN_RESERVE_MODE, VDS_LUN_RESERVE_MODE enumeration [VDS], _VDS_LUN_RESERVE_MODE, base.vds_lun_reserve_mode, vds/VDS_LRM_EXCLUSIVE_RO, vds/VDS_LRM_EXCLUSIVE_RW, vds/VDS_LRM_NONE, vds/VDS_LRM_SHARED_RO, vds/VDS_LRM_SHARED_RW, vds/VDS_LUN_RESERVE_MODE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_LUN_RESERVE_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	VDS_LUN_RESERVE_MODE
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_LUN_RESERVE_MODE enumeration

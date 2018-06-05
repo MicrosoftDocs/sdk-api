@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dxgi1_3.DXGI_MATRIX_3X2_F
+title: DXGI_MATRIX_3X2_F
+author: windows-sdk-content
+description: Represents a 3x2 matrix. Used with GetMatrixTransform and SetMatrixTransform to indicate the scaling and translation transform for SwapChainPanel swap chains.
+old-location: direct3ddxgi\dxgi_matrix_3x2_f.htm
+old-project: direct3ddxgi
+ms.assetid: 5EA0FAD4-5F19-4E5A-97D4-11AE750E8560
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGI_MATRIX_3X2_F, DXGI_MATRIX_3X2_F structure [DXGI], direct3ddxgi.dxgi_matrix_3x2_f, dxgi1_3/DXGI_MATRIX_3X2_F
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxgi1_3.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_MATRIX_3X2_F
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxgi1_3.h
+api_name:
+-	DXGI_MATRIX_3X2_F
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DXGI_MATRIX_3X2_F structure

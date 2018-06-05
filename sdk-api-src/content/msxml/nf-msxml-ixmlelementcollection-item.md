@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:msxml.IXMLElementCollection.item
+title: IXMLElementCollection::item
+author: windows-sdk-content
+description: Retrieves the child elements from a collection using their index, name, or both.
+old-location: winprog\ixmlelementcollection_item.htm
+old-project: DevNotes
+ms.assetid: 3851fe72-b826-4948-ba74-638229429345
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IXMLElementCollection interface [Windows API],item method, IXMLElementCollection.item, IXMLElementCollection::item, item, item method [Windows API], item method [Windows API],IXMLElementCollection interface, msxml/IXMLElementCollection::item, winprog.ixmlelementcollection_item
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msxml.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msxml.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Msxml.tlb
+tech.root: 
+req.typenames: RIO_BUF, *PRIO_BUF
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msxml.dll
+api_name:
+-	IXMLElementCollection.item
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msxml.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IXMLElementCollection::item

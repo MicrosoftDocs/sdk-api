@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:spatialaudiometadata.ISpatialAudioMetadataItemsBuffer.DetachBuffer
+title: ISpatialAudioMetadataItemsBuffer::DetachBuffer
+author: windows-sdk-content
+description: Detaches the buffer. Memory can only be attached to a single metadata item at a time.
+old-location: coreaudio\ispatialaudiometadataitemsbuffer_detachbuffer.htm
+old-project: CoreAudio
+ms.assetid: EE914F58-31C3-4621-987D-D0804CE90CA9
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: DetachBuffer, DetachBuffer method [Core Audio], DetachBuffer method [Core Audio],ISpatialAudioMetadataItemsBuffer interface, ISpatialAudioMetadataItemsBuffer interface [Core Audio],DetachBuffer method, ISpatialAudioMetadataItemsBuffer.DetachBuffer, ISpatialAudioMetadataItemsBuffer::DetachBuffer, coreaudio.ispatialaudiometadataitemsbuffer_detachbuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::DetachBuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spatialaudiometadata.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SpatialAudioMetadataWriterOverflowMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SpatialAudioMetadata.h
+api_name:
+-	ISpatialAudioMetadataItemsBuffer.DetachBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioMetadataItemsBuffer::DetachBuffer

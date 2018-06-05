@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ws2tcpip.GetAddrInfoExA
+title: GetAddrInfoExA function
+author: windows-sdk-content
+description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.
+old-location: winsock\getaddrinfoex.htm
+old-project: WinSock
+ms.assetid: cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: GetAddrInfoEx, GetAddrInfoEx function [Winsock], GetAddrInfoExA, GetAddrInfoExW, NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NETBT, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, NS_WINS, winsock.getaddrinfoex, ws2tcpip/GetAddrInfoEx, ws2tcpip/GetAddrInfoExA, ws2tcpip/GetAddrInfoExW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ws2tcpip.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetAddrInfoExW (Unicode) and GetAddrInfoExA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ws2_32.dll
+api_name:
+-	GetAddrInfoEx
+-	GetAddrInfoExA
+-	GetAddrInfoExW
+product: Windows
+targetos: Windows
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # GetAddrInfoExA function

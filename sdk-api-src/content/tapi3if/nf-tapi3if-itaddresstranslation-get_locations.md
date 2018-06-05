@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITAddressTranslation.get_Locations
+title: ITAddressTranslation::get_Locations
+author: windows-sdk-content
+description: The get_Locations method creates a collection of currently available address locations. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateLocations method.
+old-location: tapi3\itaddresstranslation_get_locations.htm
+old-project: Tapi
+ms.assetid: b18f7cb1-fcec-41eb-ac57-bf2d47f958e0
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITAddressTranslation interface [TAPI 2.2],get_Locations method, ITAddressTranslation.get_Locations, ITAddressTranslation::get_Locations, _tapi3_itaddresstranslation_get_locations, get_Locations, get_Locations method [TAPI 2.2], get_Locations method [TAPI 2.2],ITAddressTranslation interface, tapi3.itaddresstranslation_get_locations, tapi3if/ITAddressTranslation::get_Locations
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAddressTranslation.get_Locations
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAddressTranslation::get_Locations

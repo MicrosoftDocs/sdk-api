@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.put_Name
+title: ITPluggableTerminalSuperclassRegistration::put_Name
+author: windows-sdk-content
+description: The put_Name method sets the friendly name for the terminal superclass.
+old-location: tapi3\itpluggableterminalsuperclassregistration_put_name.htm
+old-project: Tapi
+ms.assetid: fe9b569b-bfb7-401b-98a8-5db7f3739d41
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],put_Name method, ITPluggableTerminalSuperclassRegistration.put_Name, ITPluggableTerminalSuperclassRegistration::put_Name, _tapi3_itpluggableterminalsuperclassregistration_put_name, put_Name, put_Name method [TAPI 2.2], put_Name method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, tapi3.itpluggableterminalsuperclassregistration_put_name, termmgr/ITPluggableTerminalSuperclassRegistration::put_Name
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: termmgr.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITPluggableTerminalSuperclassRegistration.put_Name
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITPluggableTerminalSuperclassRegistration::put_Name

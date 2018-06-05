@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12.D3D12_STENCIL_OP
+title: D3D12_STENCIL_OP
+author: windows-sdk-content
+description: Identifies the stencil operations that can be performed during depth-stencil testing.
+old-location: direct3d12\d3d12_stencil_op.htm
+old-project: direct3d12
+ms.assetid: E3527EA4-D931-49C7-B446-829B93A8A620
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_STENCIL_OP, D3D12_STENCIL_OP enumeration, D3D12_STENCIL_OP_DECR, D3D12_STENCIL_OP_DECR_SAT, D3D12_STENCIL_OP_INCR, D3D12_STENCIL_OP_INCR_SAT, D3D12_STENCIL_OP_INVERT, D3D12_STENCIL_OP_KEEP, D3D12_STENCIL_OP_REPLACE, D3D12_STENCIL_OP_ZERO, d3d12/D3D12_STENCIL_OP, d3d12/D3D12_STENCIL_OP_DECR, d3d12/D3D12_STENCIL_OP_DECR_SAT, d3d12/D3D12_STENCIL_OP_INCR, d3d12/D3D12_STENCIL_OP_INCR_SAT, d3d12/D3D12_STENCIL_OP_INVERT, d3d12/D3D12_STENCIL_OP_KEEP, d3d12/D3D12_STENCIL_OP_REPLACE, d3d12/D3D12_STENCIL_OP_ZERO, direct3d12.d3d12_stencil_op
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_STENCIL_OP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D12.h
+api_name:
+-	D3D12_STENCIL_OP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_STENCIL_OP enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbase._UMS_SYSTEM_THREAD_INFORMATION
+title: "_UMS_SYSTEM_THREAD_INFORMATION"
+author: windows-sdk-content
+description: Specifies a UMS scheduler thread, UMS worker thread, or non-UMS thread. The GetUmsSystemThreadInformation function uses this structure.
+old-location: base\ums_system_thread_information.htm
+old-project: ProcThread
+ms.assetid: eecdc592-5046-47c3-a4c6-ecb10899db3c
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PUMS_SYSTEM_THREAD_INFORMATION, PUMS_SYSTEM_THREAD_INFORMATION, PUMS_SYSTEM_THREAD_INFORMATION structure pointer, UMS_SYSTEM_THREAD_INFORMATION, UMS_SYSTEM_THREAD_INFORMATION structure, _UMS_SYSTEM_THREAD_INFORMATION, base.ums_system_thread_information, winbase/PUMS_SYSTEM_THREAD_INFORMATION, winbase/UMS_SYSTEM_THREAD_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 with SP1 [desktop apps only],Windows 7 (64-bit only) and Windows Server 2008 R2 (64-bit only) with KB977165  installed
+req.target-min-winversvr: Windows Server 2008 R2 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UMS_SYSTEM_THREAD_INFORMATION, *PUMS_SYSTEM_THREAD_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinBase.h
+api_name:
+-	UMS_SYSTEM_THREAD_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _UMS_SYSTEM_THREAD_INFORMATION structure

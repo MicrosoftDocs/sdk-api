@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:commctrl.TreeView_SelectDropTarget
+title: TreeView_SelectDropTarget macro
+author: windows-sdk-content
+description: Redraws a specified tree-view control item in the style used to indicate the target of a drag-and-drop operation. You can use this macro or the TreeView_Select macro, or you can send the TVM_SELECTITEM message explicitly.
+old-location: controls\TreeView_SelectDropTarget.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_selectdroptarget.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: TreeView_SelectDropTarget, TreeView_SelectDropTarget macro [Windows Controls], _win32_TreeView_SelectDropTarget, _win32_TreeView_SelectDropTarget_cpp, commctrl/TreeView_SelectDropTarget, controls.TreeView_SelectDropTarget, controls._win32_TreeView_SelectDropTarget
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STGOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	TreeView_SelectDropTarget
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # TreeView_SelectDropTarget macro

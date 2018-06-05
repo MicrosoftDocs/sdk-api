@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wdspxe.tagPXE_DHCP_MESSAGE
+title: tagPXE_DHCP_MESSAGE
+author: windows-sdk-content
+description: The PXE_DHCP_MESSAGE structure can be used with the Windows Deployment Services PXE Server API.
+old-location: wds\pxe_dhcp_message.htm
+old-project: Wds
+ms.assetid: 466906f1-9439-4c9f-91f1-28530969181c
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*PPXE_DHCP_MESSAGE, PPXE_DHCP_MESSAGE, PPXE_DHCP_MESSAGE structure pointer [Windows Deployment Services], PXE_DHCP_MESSAGE, PXE_DHCP_MESSAGE structure [Windows Deployment Services], tagPXE_DHCP_MESSAGE, wds.pxe_dhcp_message, wdspxe/PPXE_DHCP_MESSAGE, wdspxe/PXE_DHCP_MESSAGE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wdspxe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PXE_DHCP_MESSAGE, *PPXE_DHCP_MESSAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WdsPxe.h
+api_name:
+-	PXE_DHCP_MESSAGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagPXE_DHCP_MESSAGE structure

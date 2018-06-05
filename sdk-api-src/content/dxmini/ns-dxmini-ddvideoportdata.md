@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dxmini.DDVIDEOPORTDATA
+title: DDVIDEOPORTDATA
+author: windows-sdk-content
+description: The DDVIDEOPORTDATA structure is used by DirectDraw to represent a video port extensions (VPE) object to the kernel-mode video miniport driver.
+old-location: display\ddvideoportdata.htm
+old-project: display
+ms.assetid: 662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDVIDEOPORTDATA, DDVIDEOPORTDATA, DDVIDEOPORTDATA structure [Display Devices], LPDDVIDEOPORTDATA, LPDDVIDEOPORTDATA structure pointer [Display Devices], Video_Structs_2c27c41d-7b5c-4e72-a362-ca2699099ef4.xml, display.ddvideoportdata, dxmini/DDVIDEOPORTDATA, dxmini/LPDDVIDEOPORTDATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDVIDEOPORTDATA, *LPDDVIDEOPORTDATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxmini.h
+api_name:
+-	DDVIDEOPORTDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DDVIDEOPORTDATA structure

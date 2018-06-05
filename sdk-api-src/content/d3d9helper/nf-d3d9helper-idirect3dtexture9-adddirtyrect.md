@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d9helper.IDirect3DTexture9.AddDirtyRect
+title: IDirect3DTexture9::AddDirtyRect
+author: windows-sdk-content
+description: Adds a dirty region to a texture resource.
+old-location: direct3d9\idirect3dtexture9__adddirtyrect.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\idirect3dtexture9__adddirtyrect.htm
+ms.author: windowssdkdev
+ms.date: 04/10/2018
+ms.keywords: 5056714a-00c4-8318-bc7b-f4fc70438ea2, AddDirtyRect, AddDirtyRect method [Direct3D 9], AddDirtyRect method [Direct3D 9],IDirect3DTexture9 interface, IDirect3DTexture9 interface [Direct3D 9],AddDirtyRect method, IDirect3DTexture9.AddDirtyRect, IDirect3DTexture9::AddDirtyRect, d3d9helper/IDirect3DTexture9::AddDirtyRect, direct3d9.idirect3dtexture9__adddirtyrect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d9helper.h
+req.include-header: D3D9.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DVSHADERCAPS2_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D9.lib
+-	D3D9.dll
+api_name:
+-	IDirect3DTexture9.AddDirtyRect
+product: Windows
+targetos: Windows
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 ---
 
 # IDirect3DTexture9::AddDirtyRect

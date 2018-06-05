@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:bluetoothleapis.BluetoothGATTGetCharacteristics
+title: BluetoothGATTGetCharacteristics function
+author: windows-sdk-content
+description: Gets all the characteristics available for the specified service.
+old-location: bltooth\bluetoothgattgetcharacteristics.htm
+old-project: bltooth
+ms.assetid: 974270EE-6319-45E3-BAB8-3A57665591EA
+ms.author: windowssdkdev
+ms.date: 04/27/2018
+ms.keywords: BluetoothGATTGetCharacteristics, BluetoothGATTGetCharacteristics function [Bluetooth Devices], bltooth.bluetoothgattgetcharacteristics, bluetoothleapis/BluetoothGATTGetCharacteristics
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: bluetoothleapis.h
+req.include-header: 
+req.target-type: Universal
+req.target-min-winverclnt: Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	BluetoothApis.dll
+-	Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+api_name:
+-	BluetoothGATTGetCharacteristics
+product: Windows
+targetos: Windows
+req.lib: BluetoothApis.lib
+req.dll: BluetoothApis.dll
+req.irql: 
 ---
 
 # BluetoothGATTGetCharacteristics function

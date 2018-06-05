@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wcsplugin.IGamutMapModelPlugIn.SourceToDestinationAppearanceColors
+title: IGamutMapModelPlugIn::SourceToDestinationAppearanceColors
+author: windows-sdk-content
+description: Returns the appropriate gamut-mapped appearance colors in response to the specified number of colors and the CIEJCh colors.
+old-location: wcs\IGamutMapModelPlugIn_SourceToDestinationAppearanceColors.htm
+old-project: WCS
+ms.assetid: b98f05db-f003-4a3f-9bc3-0675719e339d
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IGamutMapModelPlugIn interface [Windows Color System],SourceToDestinationAppearanceColors method, IGamutMapModelPlugIn.SourceToDestinationAppearanceColors, IGamutMapModelPlugIn::SourceToDestinationAppearanceColors, SourceToDestinationAppearanceColors, SourceToDestinationAppearanceColors method [Windows Color System], SourceToDestinationAppearanceColors method [Windows Color System],IGamutMapModelPlugIn interface, _color_IGamutMapModelPlugIn::SourceToDestinationAppearanceColors, wcs.IGamutMapModelPlugIn_SourceToDestinationAppearanceColors, wcsplugin/IGamutMapModelPlugIn::SourceToDestinationAppearanceColors
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wcsplugin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WcsPlugIn.h
+api_name:
+-	IGamutMapModelPlugIn.SourceToDestinationAppearanceColors
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IGamutMapModelPlugIn::SourceToDestinationAppearanceColors

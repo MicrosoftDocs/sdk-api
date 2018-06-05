@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:devicetopology.IConnector.GetType
+title: IConnector::GetType
+author: windows-sdk-content
+description: The GetType method gets the type of this connector.
+old-location: coreaudio\iconnector_gettype.htm
+old-project: CoreAudio
+ms.assetid: 0e50d371-0a2e-4004-9225-4a9da7c3f139
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetType, GetType method [Core Audio], GetType method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetType method, IConnector.GetType, IConnector::GetType, IConnectorGetType, coreaudio.iconnector_gettype, devicetopology/IConnector::GetType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IConnector.GetType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IConnector::GetType

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:exdisp.ShellWindowTypeConstants
+title: ShellWindowTypeConstants
+author: windows-sdk-content
+description: Specifies types of Shell windows.
+old-location: shell\ShellWindowTypeConstants.htm
+old-project: shell
+ms.assetid: 79d4fcf3-5256-4e21-ab9a-94605e1d742f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SWC_3RDPARTY, SWC_BROWSER, SWC_CALLBACK, SWC_DESKTOP, SWC_EXPLORER, ShellWindowTypeConstants, ShellWindowTypeConstants enumeration [Windows Shell], _win32_ShellWindowTypeConstants, exdisp/SWC_3RDPARTY, exdisp/SWC_BROWSER, exdisp/SWC_CALLBACK, exdisp/SWC_DESKTOP, exdisp/SWC_EXPLORER, exdisp/ShellWindowTypeConstants, shell.ShellWindowTypeConstants
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: exdisp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Exdisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ShellWindowTypeConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Exdisp.h
+api_name:
+-	ShellWindowTypeConstants
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # ShellWindowTypeConstants enumeration

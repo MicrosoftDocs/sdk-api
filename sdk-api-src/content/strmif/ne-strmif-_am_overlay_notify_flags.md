@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif._AM_OVERLAY_NOTIFY_FLAGS
+title: "_AM_OVERLAY_NOTIFY_FLAGS"
+author: windows-sdk-content
+description: The AM_OVERLAY_NOTIFY_FLAGS enumeration indicates what the overlay has changed, or is about to change.
+old-location: dshow\am_overlay_notify_flags.htm
+old-project: DirectShow
+ms.assetid: bc16714b-acee-4b5d-aa1d-6b53965183dc
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AM_OVERLAY_NOTIFY_DEST_CHANGE, AM_OVERLAY_NOTIFY_FLAGS, AM_OVERLAY_NOTIFY_FLAGSEnumeration, AM_OVERLAY_NOTIFY_SOURCE_CHANGE, AM_OVERLAY_NOTIFY_VISIBLE_CHANGE, _AM_OVERLAY_NOTIFY_FLAGS, _AM_OVERLAY_NOTIFY_FLAGS enumeration [DirectShow], dshow.am_overlay_notify_flags, strmif/AM_OVERLAY_NOTIFY_DEST_CHANGE, strmif/AM_OVERLAY_NOTIFY_SOURCE_CHANGE, strmif/AM_OVERLAY_NOTIFY_VISIBLE_CHANGE, strmif/_AM_OVERLAY_NOTIFY_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Strmif.h
+api_name:
+-	_AM_OVERLAY_NOTIFY_FLAGS
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # _AM_OVERLAY_NOTIFY_FLAGS enumeration

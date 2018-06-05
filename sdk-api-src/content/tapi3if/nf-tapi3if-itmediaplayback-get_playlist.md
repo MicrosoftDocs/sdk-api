@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITMediaPlayback.get_PlayList
+title: ITMediaPlayback::get_PlayList
+author: windows-sdk-content
+description: The get_PlayList method gets the list of files to play.
+old-location: tapi3\itmediaplayback_get_playlist.htm
+old-project: Tapi
+ms.assetid: 57bc8373-0015-4652-bad7-21497d1fd6ff
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITMediaPlayback interface [TAPI 2.2],get_PlayList method, ITMediaPlayback.get_PlayList, ITMediaPlayback::get_PlayList, _tapi3_itmediaplayback_get_playlist, get_PlayList, get_PlayList method [TAPI 2.2], get_PlayList method [TAPI 2.2],ITMediaPlayback interface, tapi3.itmediaplayback_get_playlist, tapi3if/ITMediaPlayback::get_PlayList
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITMediaPlayback.get_PlayList
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITMediaPlayback::get_PlayList

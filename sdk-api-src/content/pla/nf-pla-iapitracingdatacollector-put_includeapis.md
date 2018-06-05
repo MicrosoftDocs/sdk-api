@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IApiTracingDataCollector.put_IncludeApis
+title: IApiTracingDataCollector::put_IncludeApis
+author: windows-sdk-content
+description: Retrieves or sets the list of functions to include in the trace.
+old-location: pla\iapitracingdatacollector_includeapis.htm
+old-project: PLA
+ms.assetid: eca2b220-5316-4f8b-a1f2-808a8d10b43e
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IApiTracingDataCollector interface [PLA],IncludeApis property, IApiTracingDataCollector.IncludeApis, IApiTracingDataCollector.put_IncludeApis, IApiTracingDataCollector::IncludeApis, IApiTracingDataCollector::get_IncludeApis, IApiTracingDataCollector::put_IncludeApis, IncludeApis property [PLA], IncludeApis property [PLA],IApiTracingDataCollector interface, base.iapitracingdatacollector_includeapis, pla.iapitracingdatacollector_includeapis, pla/IApiTracingDataCollector::IncludeApis, pla/IApiTracingDataCollector::get_IncludeApis, pla/IApiTracingDataCollector::put_IncludeApis, put_IncludeApis
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IApiTracingDataCollector.IncludeApis
+-	IApiTracingDataCollector.get_IncludeApis
+-	IApiTracingDataCollector.put_IncludeApis
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IApiTracingDataCollector::put_IncludeApis

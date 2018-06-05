@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:newdev.DiUninstallDevice
+title: DiUninstallDevice function
+author: windows-sdk-content
+description: The DiUninstallDevice function uninstalls a device and removes its device node (devnode) from the system.
+old-location: devinst\diuninstalldevice.htm
+old-project: devinst
+ms.assetid: 317b24bd-01a8-41ff-9aac-78690574eade
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: DiUninstallDevice, DiUninstallDevice function [Device and Driver Installation], devinst.diuninstalldevice, di-rtns_361ca427-6e65-497e-a9c0-8723e4aaa8c6.xml, newdev/DiUninstallDevice
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: newdev.h
+req.include-header: Newdev.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INET_FIREWALL_APP_CONTAINER, *PINET_FIREWALL_APP_CONTAINER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Newdev.dll
+-	Ext-MS-Win-NewDev-Config-l1-1-0.dll
+-	Ext-MS-Win-Newdev-Config-L1-1-1.dll
+api_name:
+-	DiUninstallDevice
+product: Windows
+targetos: Windows
+req.lib: Newdev.lib
+req.dll: Newdev.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DiUninstallDevice function

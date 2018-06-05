@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:evr9.IMFVideoProcessor.SetVideoProcessorMode
+title: IMFVideoProcessor::SetVideoProcessorMode
+author: windows-sdk-content
+description: Sets the preferred video processor mode. The EVR will attempt to use this mode when playback starts.
+old-location: mf\imfvideoprocessor_setvideoprocessormode.htm
+old-project: medfound
+ms.assetid: 4b353576-c8ee-4f73-9ee6-ba4545a6f4fc
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 4b353576-c8ee-4f73-9ee6-ba4545a6f4fc, IMFVideoProcessor interface [Media Foundation],SetVideoProcessorMode method, IMFVideoProcessor.SetVideoProcessorMode, IMFVideoProcessor::SetVideoProcessorMode, SetVideoProcessorMode, SetVideoProcessorMode method [Media Foundation], SetVideoProcessorMode method [Media Foundation],IMFVideoProcessor interface, evr9/IMFVideoProcessor::SetVideoProcessorMode, mf.imfvideoprocessor_setvideoprocessormode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: evr9.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoAlphaBitmapFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	strmiids.lib
+-	strmiids.dll
+api_name:
+-	IMFVideoProcessor.SetVideoProcessorMode
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IMFVideoProcessor::SetVideoProcessorMode

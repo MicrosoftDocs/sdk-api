@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3dcommon.ID3D10Blob.GetBufferPointer
+title: ID3D10Blob::GetBufferPointer
+author: windows-sdk-content
+description: Get a pointer to the data.
+old-location: direct3d10\id3d10blob_getbufferpointer.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10blob_getbufferpointer.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 85ab9d71-7135-d4b0-3d58-5c56a845845f, GetBufferPointer, GetBufferPointer method [Direct3D 10], GetBufferPointer method [Direct3D 10],ID3D10Blob interface, ID3D10Blob interface [Direct3D 10],GetBufferPointer method, ID3D10Blob.GetBufferPointer, ID3D10Blob::GetBufferPointer, d3dcommon/ID3D10Blob::GetBufferPointer, direct3d10.id3d10blob_getbufferpointer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3dcommon.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_SHADER_VARIABLE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3DCommon.h
+api_name:
+-	ID3D10Blob.GetBufferPointer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D10Blob::GetBufferPointer

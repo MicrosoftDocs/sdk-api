@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:windef.DPI_AWARENESS
+title: DPI_AWARENESS
+author: windows-sdk-content
+description: Identifies the dots per inch (dpi) setting for a thread, process, or window.
+old-location: hidpi\dpi_awareness.htm
+old-project: hidpi
+ms.assetid: 0E7EB331-7D72-4853-8785-03F30263C323
+ms.author: windowssdkdev
+ms.date: 03/29/2018
+ms.keywords: DPI_AWARENESS, DPI_AWARENESS enumeration, DPI_AWARENESS enumeration enumeration [High DPI], DPI_AWARENESS_INVALID, DPI_AWARENESS_PER_MONITOR_AWARE, DPI_AWARENESS_SYSTEM_AWARE, DPI_AWARENESS_UNAWARE, hidpi.dpi_awareness, windef/DPI_AWARENESS enumeration, windef/DPI_AWARENESS_INVALID, windef/DPI_AWARENESS_PER_MONITOR_AWARE, windef/DPI_AWARENESS_SYSTEM_AWARE, windef/DPI_AWARENESS_UNAWARE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: windef.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DPI_AWARENESS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	windef.h
+api_name:
+-	DPI_AWARENESS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DPI_AWARENESS enumeration

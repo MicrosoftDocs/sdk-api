@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:ctffunc.ITfFnConfigureRegisterEudc
+title: ITfFnConfigureRegisterEudc
+author: windows-sdk-content
+description: The ITfFnConfigureRegisterEudc interface is implemented by a text service to provide the UI to register the key sequence for the given EUDC.
+old-location: tsf\itffnconfigureregistereudc.htm
+old-project: TSF
+ms.assetid: 40bbb994-fece-4c38-8480-2c50011aac64
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITfFnConfigureRegisterEudc, ITfFnConfigureRegisterEudc interface [Text Services Framework], ITfFnConfigureRegisterEudc interface [Text Services Framework],described, _tsf_itffnconfigureregistereudc_ref, ctffunc/ITfFnConfigureRegisterEudc, tsf.itffnconfigureregistereudc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: ctffunc.h
+req.include-header: Msctf.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TfIntegratableCandidateListSelectionStyle
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ctffunc.h
+api_name:
+-	ITfFnConfigureRegisterEudc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Imekrcic.dll
+req.irql: 
 ---
 
 # ITfFnConfigureRegisterEudc interface

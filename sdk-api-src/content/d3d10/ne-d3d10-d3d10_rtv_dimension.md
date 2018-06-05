@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d10.D3D10_RTV_DIMENSION
+title: D3D10_RTV_DIMENSION
+author: windows-sdk-content
+description: Specifies how to access a resource used in a render-target view.
+old-location: direct3d10\d3d10_rtv_dimension.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_rtv_dimension.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: D3D10_RTV_DIMENSION, D3D10_RTV_DIMENSION enumeration [Direct3D 10], D3D10_RTV_DIMENSION_BUFFER, D3D10_RTV_DIMENSION_TEXTURE1D, D3D10_RTV_DIMENSION_TEXTURE1DARRAY, D3D10_RTV_DIMENSION_TEXTURE2D, D3D10_RTV_DIMENSION_TEXTURE2DARRAY, D3D10_RTV_DIMENSION_TEXTURE2DMS, D3D10_RTV_DIMENSION_TEXTURE2DMSARRAY, D3D10_RTV_DIMENSION_TEXTURE3D, D3D10_RTV_DIMENSION_UNKNOWN, d3d10/D3D10_RTV_DIMENSION, d3d10/D3D10_RTV_DIMENSION_BUFFER, d3d10/D3D10_RTV_DIMENSION_TEXTURE1D, d3d10/D3D10_RTV_DIMENSION_TEXTURE1DARRAY, d3d10/D3D10_RTV_DIMENSION_TEXTURE2D, d3d10/D3D10_RTV_DIMENSION_TEXTURE2DARRAY, d3d10/D3D10_RTV_DIMENSION_TEXTURE2DMS, d3d10/D3D10_RTV_DIMENSION_TEXTURE2DMSARRAY, d3d10/D3D10_RTV_DIMENSION_TEXTURE3D, d3d10/D3D10_RTV_DIMENSION_UNKNOWN, direct3d10.d3d10_rtv_dimension, ee7da179-55ef-38ba-f14d-1b95f3eb9520
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_RTV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D10.h
+api_name:
+-	D3D10_RTV_DIMENSION
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D3D10_RTV_DIMENSION enumeration

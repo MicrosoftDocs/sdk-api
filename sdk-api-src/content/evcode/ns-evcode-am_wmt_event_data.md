@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:evcode.AM_WMT_EVENT_DATA
+title: AM_WMT_EVENT_DATA
+author: windows-sdk-content
+description: The AM_WMT_EVENT_DATA structure contains information pertaining to a EC_WMT_EVENT event.
+old-location: dshow\am_wmt_event_data.htm
+old-project: DirectShow
+ms.assetid: d28efe7f-b1ff-4454-8779-95851a86c94a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AM_WMT_EVENT_DATA, AM_WMT_EVENT_DATA structure [DirectShow], AM_WMT_EVENT_DATAStructure, dshow.am_wmt_event_data, evcode/AM_WMT_EVENT_DATA
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: evcode.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_WMT_EVENT_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	evcode.h
+api_name:
+-	AM_WMT_EVENT_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # AM_WMT_EVENT_DATA structure

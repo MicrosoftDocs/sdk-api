@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winnt.RtlUnwind2
+title: RtlUnwind2 function
+author: windows-sdk-content
+description: Initiates an unwind of procedure call frames.
+old-location: base\rtlunwind2.htm
+old-project: Debug
+ms.assetid: 8015d070-51b9-49d4-b760-c9faaeba2cd0
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: RtlUnwind2, RtlUnwind2 function, base.rtlunwind2, winnt/RtlUnwind2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRANSACTION_OUTCOME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+api_name:
+-	RtlUnwind2
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Intel Itanium edition of Windows Server 2003 or     Windows XP
 ---
 
 # RtlUnwind2 function

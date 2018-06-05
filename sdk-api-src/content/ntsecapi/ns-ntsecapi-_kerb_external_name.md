@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._KERB_EXTERNAL_NAME
+title: "_KERB_EXTERNAL_NAME"
+author: windows-sdk-content
+description: Contains information about an external name.
+old-location: security\kerb_external_name.htm
+old-project: SecAuthN
+ms.assetid: 8ed37546-6443-4010-a078-4359dd1c2861
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PKERB_EXTERNAL_NAME, KERB_EXTERNAL_NAME, KERB_EXTERNAL_NAME structure [Security], KRB_NT_ENTERPRISE_PRINCIPAL, KRB_NT_ENT_PRINCIPAL_AND_ID, KRB_NT_MS_PRINCIPAL_AND_ID, KRB_NT_MS_PRINICPAL, KRB_NT_PRINCIPAL, KRB_NT_SRV_HST, KRB_NT_SRV_INST, KRB_NT_SRV_XHST, KRB_NT_UID, KRB_NT_UNKNOWN, PKERB_EXTERNAL_NAME, PKERB_EXTERNAL_NAME structure pointer [Security], _KERB_EXTERNAL_NAME, _lsa_kerb_external_name, ntsecapi/KERB_EXTERNAL_NAME, ntsecapi/PKERB_EXTERNAL_NAME, security.kerb_external_name"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KERB_EXTERNAL_NAME, *PKERB_EXTERNAL_NAME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	KERB_EXTERNAL_NAME
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _KERB_EXTERNAL_NAME structure

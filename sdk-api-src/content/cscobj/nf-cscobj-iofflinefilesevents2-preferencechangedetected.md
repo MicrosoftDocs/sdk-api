@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cscobj.IOfflineFilesEvents2.PreferenceChangeDetected
+title: IOfflineFilesEvents2::PreferenceChangeDetected
+author: windows-sdk-content
+description: Reports that the Offline Files service detected a change in one or more of its setting values that are not controlled by Group Policy.
+old-location: of\iofflinefilesevents2_preferencechangedetected.htm
+old-project: OfflineFiles
+ms.assetid: c947d9e5-2712-4dbd-8806-79a8bf0f4cc9
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: IOfflineFilesEvents2 interface [Offline Files],PreferenceChangeDetected method, IOfflineFilesEvents2.PreferenceChangeDetected, IOfflineFilesEvents2::PreferenceChangeDetected, PreferenceChangeDetected, PreferenceChangeDetected method [Offline Files], PreferenceChangeDetected method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::PreferenceChangeDetected, of.iofflinefilesevents2_preferencechangedetected
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFFLINEFILES_SYNC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CscSvc.dll
+-	CscObj.dll
+api_name:
+-	IOfflineFilesEvents2.PreferenceChangeDetected
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 ---
 
 # IOfflineFilesEvents2::PreferenceChangeDetected

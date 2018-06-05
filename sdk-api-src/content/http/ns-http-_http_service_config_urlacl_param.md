@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:http._HTTP_SERVICE_CONFIG_URLACL_PARAM
+title: "_HTTP_SERVICE_CONFIG_URLACL_PARAM"
+author: windows-sdk-content
+description: Used to specify the permissions associated with a particular record in the URL namespace reservation store.
+old-location: http\http_service_config_urlacl_param.htm
+old-project: Http
+ms.assetid: 5fd50d77-cd2b-47d7-baa3-ed1d7fc934a7
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_SERVICE_CONFIG_URLACL_PARAM, HTTP_SERVICE_CONFIG_URLACL_PARAM, HTTP_SERVICE_CONFIG_URLACL_PARAM structure [HTTP], PHTTP_SERVICE_CONFIG_URLACL_PARAM, PHTTP_SERVICE_CONFIG_URLACL_PARAM structure pointer [HTTP], _HTTP_SERVICE_CONFIG_URLACL_PARAM, _http_http_service_config_urlacl_param, http.http_service_config_urlacl_param, http/HTTP_SERVICE_CONFIG_URLACL_PARAM, http/PHTTP_SERVICE_CONFIG_URLACL_PARAM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_SERVICE_CONFIG_URLACL_PARAM, *PHTTP_SERVICE_CONFIG_URLACL_PARAM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_SERVICE_CONFIG_URLACL_PARAM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_SERVICE_CONFIG_URLACL_PARAM structure

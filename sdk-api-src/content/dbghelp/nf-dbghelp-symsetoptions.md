@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dbghelp.SymSetOptions
+title: SymSetOptions function
+author: windows-sdk-content
+description: Sets the options mask.
+old-location: base\symsetoptions.htm
+old-project: Debug
+ms.assetid: 15d72415-829f-4ba3-af80-1f3762cbebda
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: SYMOPT_ALLOW_ABSOLUTE_SYMBOLS, SYMOPT_ALLOW_ZERO_ADDRESS, SYMOPT_AUTO_PUBLICS, SYMOPT_CASE_INSENSITIVE, SYMOPT_DEBUG, SYMOPT_DEFERRED_LOADS, SYMOPT_DISABLE_SYMSRV_AUTODETECT, SYMOPT_EXACT_SYMBOLS, SYMOPT_FAIL_CRITICAL_ERRORS, SYMOPT_FAVOR_COMPRESSED, SYMOPT_FLAT_DIRECTORY, SYMOPT_IGNORE_CVREC, SYMOPT_IGNORE_IMAGEDIR, SYMOPT_IGNORE_NT_SYMPATH, SYMOPT_INCLUDE_32BIT_MODULES, SYMOPT_LOAD_ANYTHING, SYMOPT_LOAD_LINES, SYMOPT_NO_CPP, SYMOPT_NO_IMAGE_SEARCH, SYMOPT_NO_PROMPTS, SYMOPT_NO_PUBLICS, SYMOPT_NO_UNQUALIFIED_LOADS, SYMOPT_OVERWRITE, SYMOPT_PUBLICS_ONLY, SYMOPT_SECURE, SYMOPT_UNDNAME, SymSetOptions, SymSetOptions function, _win32_symsetoptions, base.symsetoptions, dbghelp/SymSetOptions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dbghelp.dll
+api_name:
+-	SymSetOptions
+product: Windows
+targetos: Windows
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 ---
 
 # SymSetOptions function

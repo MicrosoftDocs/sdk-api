@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataCollectorSet.put_Subdirectory
+title: IDataCollectorSet::put_Subdirectory
+author: windows-sdk-content
+description: Retrieves or sets a base subdirectory of the root path where the next instance of the data collector set will write its logs.
+old-location: pla\idatacollectorset_get_subdirectory.htm
+old-project: PLA
+ms.assetid: c2c55fd9-3b29-46be-9792-acb095b1c0e4
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IDataCollectorSet interface [PLA],Subdirectory property, IDataCollectorSet.Subdirectory, IDataCollectorSet.put_Subdirectory, IDataCollectorSet::Subdirectory, IDataCollectorSet::get_Subdirectory, IDataCollectorSet::put_Subdirectory, Subdirectory property [PLA], Subdirectory property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_subdirectory, pla.idatacollectorset_get_subdirectory, pla/IDataCollectorSet::Subdirectory, pla/IDataCollectorSet::get_Subdirectory, pla/IDataCollectorSet::put_Subdirectory, put_Subdirectory
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataCollectorSet.Subdirectory
+-	IDataCollectorSet.get_Subdirectory
+-	IDataCollectorSet.put_Subdirectory
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataCollectorSet::put_Subdirectory

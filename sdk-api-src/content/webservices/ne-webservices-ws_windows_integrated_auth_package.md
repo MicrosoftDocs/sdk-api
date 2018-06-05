@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
+title: WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
+author: windows-sdk-content
+description: Defines the specific SSP package to be used for Windows Integrated Authentication.
+old-location: wsw\ws_windows_integrated_auth_package.htm
+old-project: wsw
+ms.assetid: 7aa0bbf3-afc0-4deb-9cb3-62e297dd8702
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_WINDOWS_INTEGRATED_AUTH_PACKAGE, WS_WINDOWS_INTEGRATED_AUTH_PACKAGE enumeration [Web Services for Windows], WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_KERBEROS, WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_NTLM, WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_SPNEGO, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_KERBEROS, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_NTLM, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_SPNEGO, wsw.ws_windows_integrated_auth_package
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_WINDOWS_INTEGRATED_AUTH_PACKAGE enumeration

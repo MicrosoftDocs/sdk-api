@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:webapplication.IWebApplicationAuthoringMode
+title: IWebApplicationAuthoringMode
+author: windows-sdk-content
+description: Provides the full local path to the authoring binary to be loaded into the WWAHost process.
+old-location: debug\iwebapplicationauthoringmode.htm
+old-project: debug_wwahost
+ms.assetid: c33793c9-499e-4a57-b52d-345d3b360789
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IWebApplicationAuthoringMode, IWebApplicationAuthoringMode interface [Debugging Windows Store apps], IWebApplicationAuthoringMode interface [Debugging Windows Store apps],described, debug.iwebapplicationauthoringmode, webapplication/IWebApplicationAuthoringMode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: webapplication.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Webapplication.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	webapplication.h
+api_name:
+-	IWebApplicationAuthoringMode
+product: Windows
+targetos: Windows
+req.lib: WWAHost.exe
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWebApplicationAuthoringMode interface

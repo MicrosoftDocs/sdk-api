@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:aviriff.tagTIMECODE_SAMPLE
+title: tagTIMECODE_SAMPLE
+author: windows-sdk-content
+description: The TIMECODE_SAMPLE structure contains complete timecode information.
+old-location: dshow\timecode_sample.htm
+old-project: DirectShow
+ms.assetid: 7b17e152-99eb-4d6d-a8b1-bf4ef7ab83be
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AM_TIMECODE_COLORFRAME, AM_TIMECODE_COLORSEQUENCE, AM_TIMECODE_FILMSEQUENCE_TYPE, AM_TIMECODE_FLAG_CF, AM_TIMECODE_FLAG_DF, AM_TIMECODE_FLAG_FCM, AM_TIMECODE_FLAG_FIELD, ED_DEVCAP_ATN_READ, ED_DEVCAP_RTC_READ, ED_DEVCAP_TIMECODE_READ, TIMECODE_SAMPLE, TIMECODE_SAMPLE structure [DirectShow], TIMECODE_SAMPLEStructure, aviriff/TIMECODE_SAMPLE, dshow.timecode_sample, tagTIMECODE_SAMPLE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: aviriff.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TIMECODE_SAMPLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	aviriff.h
+api_name:
+-	TIMECODE_SAMPLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagTIMECODE_SAMPLE structure

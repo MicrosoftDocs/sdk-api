@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IMofCompiler.CreateBMOF
+title: IMofCompiler::CreateBMOF
+author: windows-sdk-content
+description: The IMofCompiler::CreateBMOF method creates a binary MOF file.
+old-location: wmi\imofcompiler_createbmof.htm
+old-project: WmiSdk
+ms.assetid: 39c5d621-0cdf-44e2-9ec0-c68299e85cb7
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CreateBMOF, CreateBMOF method [Windows Management Instrumentation], CreateBMOF method [Windows Management Instrumentation],IMofCompiler interface, IMofCompiler interface [Windows Management Instrumentation],CreateBMOF method, IMofCompiler.CreateBMOF, IMofCompiler::CreateBMOF, WBEM_FLAG_CHECK_ONLY, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, WBEM_FLAG_WMI_CHECK, WBEM_FLAT_CONSOLE_PRINT, _hmm_imofcompiler_createbmof, wbemcli/IMofCompiler::CreateBMOF, wmi.imofcompiler_createbmof
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mofd.dll
+api_name:
+-	IMofCompiler.CreateBMOF
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Mofd.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IMofCompiler::CreateBMOF

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:processsnapshot.PSS_CAPTURE_FLAGS
+title: PSS_CAPTURE_FLAGS
+author: windows-sdk-content
+description: Flags that specify what PssCaptureSnapshot captures.
+old-location: proc_snap\pss_capture_flags.htm
+old-project: proc_snap
+ms.assetid: 6146DDA2-2475-45F8-86F3-65791B10743D
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: PSS_CAPTURE_FLAGS, PSS_CAPTURE_FLAGS enumeration, PSS_CAPTURE_HANDLES, PSS_CAPTURE_HANDLE_BASIC_INFORMATION, PSS_CAPTURE_HANDLE_NAME_INFORMATION, PSS_CAPTURE_HANDLE_TRACE, PSS_CAPTURE_HANDLE_TYPE_SPECIFIC_INFORMATION, PSS_CAPTURE_NONE, PSS_CAPTURE_RESERVED_00000002, PSS_CAPTURE_RESERVED_00000400, PSS_CAPTURE_THREADS, PSS_CAPTURE_THREAD_CONTEXT, PSS_CAPTURE_THREAD_CONTEXT_EXTENDED, PSS_CAPTURE_VA_CLONE, PSS_CAPTURE_VA_SPACE, PSS_CAPTURE_VA_SPACE_SECTION_INFORMATION, PSS_CREATE_BREAKAWAY, PSS_CREATE_BREAKAWAY_OPTIONAL, PSS_CREATE_FORCE_BREAKAWAY, PSS_CREATE_MEASURE_PERFORMANCE, PSS_CREATE_RELEASE_SECTION, PSS_CREATE_USE_VM_ALLOCATIONS, proc_snap.pss_capture_flags, processsnapshot/PSS_CAPTURE_FLAGS, processsnapshot/PSS_CAPTURE_HANDLES, processsnapshot/PSS_CAPTURE_HANDLE_BASIC_INFORMATION, processsnapshot/PSS_CAPTURE_HANDLE_NAME_INFORMATION, processsnapshot/PSS_CAPTURE_HANDLE_TRACE, processsnapshot/PSS_CAPTURE_HANDLE_TYPE_SPECIFIC_INFORMATION, processsnapshot/PSS_CAPTURE_NONE, processsnapshot/PSS_CAPTURE_RESERVED_00000002, processsnapshot/PSS_CAPTURE_RESERVED_00000400, processsnapshot/PSS_CAPTURE_THREADS, processsnapshot/PSS_CAPTURE_THREAD_CONTEXT, processsnapshot/PSS_CAPTURE_THREAD_CONTEXT_EXTENDED, processsnapshot/PSS_CAPTURE_VA_CLONE, processsnapshot/PSS_CAPTURE_VA_SPACE, processsnapshot/PSS_CAPTURE_VA_SPACE_SECTION_INFORMATION, processsnapshot/PSS_CREATE_BREAKAWAY, processsnapshot/PSS_CREATE_BREAKAWAY_OPTIONAL, processsnapshot/PSS_CREATE_FORCE_BREAKAWAY, processsnapshot/PSS_CREATE_MEASURE_PERFORMANCE, processsnapshot/PSS_CREATE_RELEASE_SECTION, processsnapshot/PSS_CREATE_USE_VM_ALLOCATIONS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: processsnapshot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSS_CAPTURE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	processsnapshot.h
+api_name:
+-	PSS_CAPTURE_FLAGS
+product: Windows
+targetos: Windows
+req.lib: Prntvpt.lib
+req.dll: Prntvpt.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSS_CAPTURE_FLAGS enumeration

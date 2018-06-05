@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:textstor.ITextStoreACP2.InsertEmbeddedAtSelection
+title: ITextStoreACP2::InsertEmbeddedAtSelection
+author: windows-sdk-content
+description: Inserts an IDataObject at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an IDataObject object into the document.
+old-location: tsf\itextstoreacp2_insertembeddedatselection.htm
+old-project: TSF
+ms.assetid: 677114a5-8c87-4632-b308-2bb6dedf78c8
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: 0, ITextStoreACP2 interface [Text Services Framework],InsertEmbeddedAtSelection method, ITextStoreACP2.InsertEmbeddedAtSelection, ITextStoreACP2::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITextStoreACP2 interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP2::InsertEmbeddedAtSelection, tsf.itextstoreacp2_insertembeddedatselection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: textstor.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Textstor.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TsRunType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITextStoreACP2.InsertEmbeddedAtSelection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextStoreACP2::InsertEmbeddedAtSelection

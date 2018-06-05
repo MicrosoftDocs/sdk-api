@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmquota.IFsrmQuotaTemplate.put_Name
+title: IFsrmQuotaTemplate::put_Name
+author: windows-sdk-content
+description: Retrieves and sets the name of the quota template.
+old-location: fsrm\ifsrmquotatemplate_name.htm
+old-project: Fsrm
+ms.assetid: 77a38b03-eb47-4298-ac13-44ffbd649752
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmQuotaTemplate interface [File Server Resource Manager],Name property, IFsrmQuotaTemplate.Name, IFsrmQuotaTemplate.put_Name, IFsrmQuotaTemplate::Name, IFsrmQuotaTemplate::get_Name, IFsrmQuotaTemplate::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmQuotaTemplate interface, fs.ifsrmquotatemplate_name, fsrm.ifsrmquotatemplate_name, fsrmquota/IFsrmQuotaTemplate::Name, fsrmquota/IFsrmQuotaTemplate::get_Name, fsrmquota/IFsrmQuotaTemplate::put_Name, put_Name
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmquota.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmQuotaTemplate.Name
+-	IFsrmQuotaTemplate.get_Name
+-	IFsrmQuotaTemplate.put_Name
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmQuotaTemplate::put_Name

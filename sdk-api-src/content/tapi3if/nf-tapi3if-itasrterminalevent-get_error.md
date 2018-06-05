@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITASRTerminalEvent.get_Error
+title: ITASRTerminalEvent::get_Error
+author: windows-sdk-content
+description: The get_Error method returns an HRESULT cast of the error associated with the terminal event.
+old-location: tapi3\itasrterminalevent_get_error.htm
+old-project: Tapi
+ms.assetid: 7bccf537-a54b-4c40-866b-0f7a42149841
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITASRTerminalEvent interface [TAPI 2.2],get_Error method, ITASRTerminalEvent.get_Error, ITASRTerminalEvent::get_Error, _tapi3_itasrterminalevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITASRTerminalEvent interface, tapi3.itasrterminalevent_get_error, tapi3if/ITASRTerminalEvent::get_Error
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITASRTerminalEvent.get_Error
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITASRTerminalEvent::get_Error

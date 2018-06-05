@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:cfgmgr32.IRQ_Range_s
+title: IRQ_Range_s
+author: windows-sdk-content
+description: The IRQ_RANGE structure specifies a resource requirements list that describes IRQ line usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
+old-location: devinst\irq_range.htm
+old-project: devinst
+ms.assetid: 973834cc-0798-414f-a937-5ab14c214559
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PIRQ_RANGE, IRQ_RANGE, IRQ_RANGE structure [Device and Driver Installation], IRQ_Range_s, PIRQ_RANGE, PIRQ_RANGE structure pointer [Device and Driver Installation], cfgmgr32/IRQ_RANGE, cfgmgr32/PIRQ_RANGE, cfgmgrst_6ee86ca7-d07d-4f1b-9c94-96766a5fd4cb.xml, devinst.irq_range"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IRQ_RANGE, *PIRQ_RANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	cfgmgr32.h
+api_name:
+-	IRQ_RANGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IRQ_Range_s structure

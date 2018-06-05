@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wtsdefs._WTS_SESSION_ID
+title: "_WTS_SESSION_ID"
+author: windows-sdk-content
+description: Contains a GUID that uniquely identifies a session.
+old-location: termserv\wts_session_id.htm
+old-project: TermServ
+ms.assetid: fe0714ec-c670-40b7-9808-2171abae79a8
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PWTS_SESSION_ID, PWRDS_SESSION_ID, PWRDS_SESSION_ID structure pointer [Remote Desktop Services], PWTS_SESSION_ID, PWTS_SESSION_ID structure pointer [Remote Desktop Services], WRDS_SESSION_ID, WRDS_SESSION_ID structure [Remote Desktop Services], WTS_SESSION_ID, WTS_SESSION_ID structure [Remote Desktop Services], _WTS_SESSION_ID, termserv.wts_session_id, wtsdefs/PWRDS_SESSION_ID, wtsdefs/PWTS_SESSION_ID, wtsdefs/WRDS_SESSION_ID, wtsdefs/WTS_SESSION_ID"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wtsdefs.h
+req.include-header: Wtsprotocol.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_SESSION_ID, *PWTS_SESSION_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsdefs.h
+api_name:
+-	WTS_SESSION_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTS_SESSION_ID structure

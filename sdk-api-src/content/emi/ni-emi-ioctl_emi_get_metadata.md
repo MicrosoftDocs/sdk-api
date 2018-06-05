@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NI:emi.IOCTL_EMI_GET_METADATA
+title: IOCTL_EMI_GET_METADATA
+author: windows-sdk-content
+description: The IOCTL_EMI_GET_METADATA control code retrieves EMI metadata from a device.
+old-location: powermeter\ioctl_emi_get_metadata.htm
+old-project: powermeter
+ms.assetid: 3A1A76B0-2A46-4C15-84BC-CE75701C30B7
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IOCTL_EMI_GET_METADATA, IOCTL_EMI_GET_METADATA control, IOCTL_EMI_GET_METADATA control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_METADATA, powermeter.ioctl_emi_get_metadata
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: ioctl
+req.header: emi.h
+req.include-header: Emi.h
+req.target-type: Windows
+req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMI_MEASUREMENT_UNIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	emi.h
+api_name:
+-	IOCTL_EMI_GET_METADATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IOCTL_EMI_GET_METADATA IOCTL

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:d3d10effect.ID3D10EffectScalarVariable
+title: ID3D10EffectScalarVariable
+author: windows-sdk-content
+description: An effect-scalar-variable interface accesses scalar values.
+old-location: direct3d10\id3d10effectscalarvariable.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 0954ac9f-acd1-fb91-e361-0b5644656816, ID3D10EffectScalarVariable, ID3D10EffectScalarVariable interface [Direct3D 10], ID3D10EffectScalarVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectScalarVariable, direct3d10.id3d10effectscalarvariable
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: d3d10effect.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_DEVICE_STATE_TYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10.lib
+-	D3D10.dll
+api_name:
+-	ID3D10EffectScalarVariable
+product: Windows
+targetos: Windows
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D10EffectScalarVariable interface

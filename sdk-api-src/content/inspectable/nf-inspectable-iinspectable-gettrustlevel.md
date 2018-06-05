@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:inspectable.IInspectable.GetTrustLevel
+title: IInspectable::GetTrustLevel
+author: windows-sdk-content
+description: Gets the trust level of the current Windows Runtime object.
+old-location: winrt\iinspectable_gettrustlevel.htm
+old-project: WinRT
+ms.assetid: E7E8AFD1-A8B7-4023-9F8B-573E0D2622F6
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: GetTrustLevel, GetTrustLevel method [Windows Runtime], GetTrustLevel method [Windows Runtime],IInputPaneInterop interface, GetTrustLevel method [Windows Runtime],IInspectable interface, IInputPaneInterop interface [Windows Runtime],GetTrustLevel method, IInputPaneInterop::GetTrustLevel, IInspectable interface [Windows Runtime],GetTrustLevel method, IInspectable.GetTrustLevel, IInspectable::GetTrustLevel, inspectable/IInputPaneInterop::GetTrustLevel, inspectable/IInspectable::GetTrustLevel, winrt.iinspectable_gettrustlevel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: inspectable.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Inspectable.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TrustLevel
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Inspectable.h
+api_name:
+-	IInspectable.GetTrustLevel
+-	IInputPaneInterop.GetTrustLevel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IInspectable::GetTrustLevel

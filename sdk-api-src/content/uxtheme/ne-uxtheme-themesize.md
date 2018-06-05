@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uxtheme.THEMESIZE
+title: THEMESIZE
+author: windows-sdk-content
+description: Identifies the type of size value to retrieve for a visual style part.
+old-location: controls\THEME_SIZE.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\userex\enums\themesize.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: THEMESIZE, THEMESIZE enumeration [Windows Controls], THEME_SIZE, THEME_SIZE enumeration [Windows Controls], TS_DRAW, TS_MIN, TS_TRUE, controls.THEME_SIZE, controls.inet_THEME_SIZE, inet_THEME_SIZE, inet_THEME_SIZE_cpp, uxtheme/THEMESIZE, uxtheme/TS_DRAW, uxtheme/TS_MIN, uxtheme/TS_TRUE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uxtheme.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Uxtheme.h
+api_name:
+-	THEME_SIZE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # THEMESIZE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_SECURITY_ALGORITHM_ID
+title: WS_SECURITY_ALGORITHM_ID
+author: windows-sdk-content
+description: Defines the security algorithms to be used with WS-Security. These values are relevant to message security bindings and mixed-mode security bindings.
+old-location: wsw\ws_security_algorithm_id.htm
+old-project: wsw
+ms.assetid: e1af7178-0671-45d9-9e25-0931b895ad40
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5, WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP, WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_DSA_SHA1, WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1, WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_256, WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_384, WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_512, WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE, WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE_WITH_COMMENTS, WS_SECURITY_ALGORITHM_DEFAULT, WS_SECURITY_ALGORITHM_DIGEST_SHA1, WS_SECURITY_ALGORITHM_DIGEST_SHA_256, WS_SECURITY_ALGORITHM_DIGEST_SHA_384, WS_SECURITY_ALGORITHM_DIGEST_SHA_512, WS_SECURITY_ALGORITHM_ID, WS_SECURITY_ALGORITHM_ID enumeration [Web Services for Windows], WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1, WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1, WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_256, WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_384, WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_512, webservices/WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5, webservices/WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP, webservices/WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_DSA_SHA1, webservices/WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1, webservices/WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_256, webservices/WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_384, webservices/WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA_512, webservices/WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE, webservices/WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE_WITH_COMMENTS, webservices/WS_SECURITY_ALGORITHM_DEFAULT, webservices/WS_SECURITY_ALGORITHM_DIGEST_SHA1, webservices/WS_SECURITY_ALGORITHM_DIGEST_SHA_256, webservices/WS_SECURITY_ALGORITHM_DIGEST_SHA_384, webservices/WS_SECURITY_ALGORITHM_DIGEST_SHA_512, webservices/WS_SECURITY_ALGORITHM_ID, webservices/WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1, webservices/WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1, webservices/WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_256, webservices/WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_384, webservices/WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA_512, wsw.ws_security_algorithm_id
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_SECURITY_ALGORITHM_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_SECURITY_ALGORITHM_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_SECURITY_ALGORITHM_ID enumeration

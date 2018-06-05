@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._TAPE_PREPARE
+title: "_TAPE_PREPARE"
+author: windows-sdk-content
+description: Describes how to prepare the tape.
+old-location: backup\tape_prepare_str.htm
+old-project: Backup
+ms.assetid: 32169173-eb19-4082-bf05-a52ee4ab95ba
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PTAPE_PREPARE, PTAPE_PREPARE, PTAPE_PREPARE structure pointer [Backup], TAPE_LOCK, TAPE_PREPARE, TAPE_PREPARE structure [Backup], TAPE_TENSION, TAPE_UNLOAD, TAPE_UNLOCK, _TAPE_PREPARE, _win32_tape_prepare_str, backup.tape_prepare_str, base.tape_prepare_str, winnt/PTAPE_PREPARE, winnt/TAPE_PREPARE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TAPE_PREPARE, *PTAPE_PREPARE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	TAPE_PREPARE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _TAPE_PREPARE structure

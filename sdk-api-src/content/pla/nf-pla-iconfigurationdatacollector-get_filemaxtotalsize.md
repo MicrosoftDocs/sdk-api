@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IConfigurationDataCollector.get_FileMaxTotalSize
+title: IConfigurationDataCollector::get_FileMaxTotalSize
+author: windows-sdk-content
+description: Retrieves or sets the maximum total file size of all files combined that you can collect.
+old-location: pla\iconfigurationdatacollector_filemaxtotalsize.htm
+old-project: PLA
+ms.assetid: bcfe2b95-770d-4543-8f79-c5f1b55c5dec
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: FileMaxTotalSize property [PLA], FileMaxTotalSize property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],FileMaxTotalSize property, IConfigurationDataCollector.FileMaxTotalSize, IConfigurationDataCollector.get_FileMaxTotalSize, IConfigurationDataCollector::FileMaxTotalSize, IConfigurationDataCollector::get_FileMaxTotalSize, IConfigurationDataCollector::put_FileMaxTotalSize, base.iconfigurationdatacollector_filemaxtotalsize, get_FileMaxTotalSize, pla.iconfigurationdatacollector_filemaxtotalsize, pla/IConfigurationDataCollector::FileMaxTotalSize, pla/IConfigurationDataCollector::get_FileMaxTotalSize, pla/IConfigurationDataCollector::put_FileMaxTotalSize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IConfigurationDataCollector.FileMaxTotalSize
+-	IConfigurationDataCollector.get_FileMaxTotalSize
+-	IConfigurationDataCollector.put_FileMaxTotalSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IConfigurationDataCollector::get_FileMaxTotalSize

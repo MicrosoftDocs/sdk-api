@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsock2._WSANAMESPACE_INFOEXW
+title: "_WSANAMESPACE_INFOEXW"
+author: windows-sdk-content
+description: Contains all registration information for a namespace provider.
+old-location: winsock\wsanamespace_infoex.htm
+old-project: WinSock
+ms.assetid: 3f4a8916-9db9-4b65-982f-4cb4ec2205ed
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPWSANAMESPACE_INFOEXW, *PWSANAMESPACE_INFOEXW, LPWSANAMESPACE_INFOEX, LPWSANAMESPACE_INFOEX structure pointer [Winsock], NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, PWSANAMESPACE_INFOEX, PWSANAMESPACE_INFOEX structure pointer [Winsock], WSANAMESPACE_INFOEX, WSANAMESPACE_INFOEX structure [Winsock], WSANAMESPACE_INFOEXA, WSANAMESPACE_INFOEXW, _WSANAMESPACE_INFOEXW, winsock.wsanamespace_infoex, winsock2/LPWSANAMESPACE_INFOEX, winsock2/PWSANAMESPACE_INFOEX, winsock2/WSANAMESPACE_INFOEX, winsock2/WSANAMESPACE_INFOEXA, winsock2/WSANAMESPACE_INFOEXW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsock2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WSANAMESPACE_INFOEXW (Unicode) and WSANAMESPACE_INFOEXA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSANAMESPACE_INFOEXW, *PWSANAMESPACE_INFOEXW, *LPWSANAMESPACE_INFOEXW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsock2.h
+api_name:
+-	WSANAMESPACE_INFOEX
+-	WSANAMESPACE_INFOEXA
+-	WSANAMESPACE_INFOEXW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WSANAMESPACE_INFOEXW structure

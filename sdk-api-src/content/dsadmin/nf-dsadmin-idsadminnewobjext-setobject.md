@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dsadmin.IDsAdminNewObjExt.SetObject
+title: IDsAdminNewObjExt::SetObject
+author: windows-sdk-content
+description: The IDsAdminNewObjExt::SetObject method provides the object creation extension with a pointer to the directory object created.
+old-location: ad\idsadminnewobjext_setobject.htm
+old-project: AD
+ms.assetid: e6dbb0ed-e20e-49c7-8247-d5688be93d8e
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IDsAdminNewObjExt interface [Active Directory],SetObject method, IDsAdminNewObjExt.SetObject, IDsAdminNewObjExt::SetObject, SetObject, SetObject method [Active Directory], SetObject method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_setobject, ad.idsadminnewobjext__setobject, ad.idsadminnewobjext_setobject, dsadmin/IDsAdminNewObjExt::SetObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dsadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DSAdmin.dll
+api_name:
+-	IDsAdminNewObjExt.SetObject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 ---
 
 # IDsAdminNewObjExt::SetObject

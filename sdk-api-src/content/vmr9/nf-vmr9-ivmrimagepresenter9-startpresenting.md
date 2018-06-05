@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vmr9.IVMRImagePresenter9.StartPresenting
+title: IVMRImagePresenter9::StartPresenting
+author: windows-sdk-content
+description: The StartPresenting method is called just before the video starts playing. The allocator-presenter should perform any necessary configuration in this method.
+old-location: dshow\ivmrimagepresenter9_startpresenting.htm
+old-project: DirectShow
+ms.assetid: 654ac7eb-d6ea-4b9a-8dfb-7ba7bc7e8429
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IVMRImagePresenter9 interface [DirectShow],StartPresenting method, IVMRImagePresenter9.StartPresenting, IVMRImagePresenter9::StartPresenting, IVMRImagePresenter9StartPresenting, StartPresenting, StartPresenting method [DirectShow], StartPresenting method [DirectShow],IVMRImagePresenter9 interface, dshow.ivmrimagepresenter9_startpresenting, vmr9/IVMRImagePresenter9::StartPresenting
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vmr9.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VMR9DeinterlaceTech
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IVMRImagePresenter9.StartPresenting
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVMRImagePresenter9::StartPresenting

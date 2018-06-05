@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clfs._CLFS_NODE_ID
+title: "_CLFS_NODE_ID"
+author: windows-sdk-content
+description: Represents a node identifier.
+old-location: fs\clfs_node_id.htm
+old-project: Clfs
+ms.assetid: 99132138-b7ba-47a1-ac40-353d5d70db42
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PCLFS_NODE_ID, CLFS_NODE_ID, CLFS_NODE_ID structure [Files], PCLFS_NODE_ID, PCLFS_NODE_ID structure pointer [Files], _CLFS_NODE_ID, clfs/CLFS_NODE_ID, clfs/PCLFS_NODE_ID, fs.clfs_node_id"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clfs.h
+req.include-header: Clfsw32.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLFS_NODE_ID, *PCLFS_NODE_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Clfs.h
+api_name:
+-	CLFS_NODE_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CLFS_NODE_ID structure

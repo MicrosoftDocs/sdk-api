@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipexport._IPV6_ADDRESS_EX
+title: "_IPV6_ADDRESS_EX"
+author: windows-sdk-content
+description: Stores an IPv6 address.
+old-location: iphlp\ipv6_address_ex.htm
+old-project: IpHlp
+ms.assetid: 68c9e941-bbc4-4506-949d-efd16c15d5b9
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PIPV6_ADDRESS_EX, IPV6_ADDRESS_EX, IPV6_ADDRESS_EX structure [IP Helper], PIPV6_ADDRESS_EX, PIPV6_ADDRESS_EX structure pointer [IP Helper], _IPV6_ADDRESS_EX, ipexport/IPV6_ADDRESS_EX, ipexport/PIPV6_ADDRESS_EX, iphlp.ipv6_address_ex"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipexport.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPV6_ADDRESS_EX, *PIPV6_ADDRESS_EX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipexport.h
+api_name:
+-	IPV6_ADDRESS_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _IPV6_ADDRESS_EX structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:inked.IInkEdit.get_Enabled
+title: IInkEdit::get_Enabled
+author: windows-sdk-content
+description: Gets or sets a value that determines whether the InkEdit control can respond to user-generated events.
+old-location: tablet\inkedit_enabled.htm
+old-project: tablet
+ms.assetid: e3a143ed-82e4-46ba-9745-066eaa08bf7f
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Enabled property, IInkEdit.Enabled, IInkEdit.get_Enabled, IInkEdit::Enabled, IInkEdit::get_Enabled, IInkEdit::put_Enabled, InkEdit.get_Enabled, InkEdit.put_Enabled, get_Enabled, inked/IInkEdit::Enabled, inked/IInkEdit::get_Enabled, inked/IInkEdit::put_Enabled, put_Enabled, tablet.inkedit_enabled
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: inked.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SelAlignmentConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkEd.dll
+-	InkEd.dll.dll
+api_name:
+-	IInkEdit.Enabled
+-	IInkEdit.get_Enabled
+-	IInkEdit.put_Enabled
+-	InkEdit.get_Enabled
+-	InkEdit.put_Enabled
+product: Windows
+targetos: Windows
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IInkEdit::get_Enabled

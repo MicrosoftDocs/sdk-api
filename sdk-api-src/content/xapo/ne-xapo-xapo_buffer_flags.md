@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:xapo.XAPO_BUFFER_FLAGS
+title: XAPO_BUFFER_FLAGS
+author: windows-sdk-content
+description: Describes the contents of a stream buffer.
+old-location: xaudio2\xapo_buffer_flags.htm
+old-project: xaudio2
+ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_BUFFER_FLAGS
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: XAPO_BUFFER_FLAGS, XAPO_BUFFER_FLAGS enumeration [XAudio2 Audio Mixing APIs], XAPO_BUFFER_SILENT, XAPO_BUFFER_VALID, xapo/XAPO_BUFFER_FLAGS, xapo/XAPO_BUFFER_SILENT, xapo/XAPO_BUFFER_VALID, xaudio2.xapo_buffer_flags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: xapo.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XamlOM.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XAPO_BUFFER_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	xapo.h
+api_name:
+-	XAPO_BUFFER_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # XAPO_BUFFER_FLAGS enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._TXFS_WRITE_BACKUP_INFORMATION
+title: "_TXFS_WRITE_BACKUP_INFORMATION"
+author: windows-sdk-content
+description: Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling TXFS_WRITE_BACKUP_INFORMATION.
+old-location: fs\txfs_write_backup_information.htm
+old-project: FileIO
+ms.assetid: 777210c4-4e9b-484e-a412-8c807882facb
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PTXFS_WRITE_BACKUP_INFORMATION, PTXFS_WRITE_BACKUP_INFORMATION, PTXFS_WRITE_BACKUP_INFORMATION structure pointer [Files], TXFS_WRITE_BACKUP_INFORMATION, TXFS_WRITE_BACKUP_INFORMATION structure [Files], _TXFS_WRITE_BACKUP_INFORMATION, fs.txfs_write_backup_information, winioctl/PTXFS_WRITE_BACKUP_INFORMATION, winioctl/TXFS_WRITE_BACKUP_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TXFS_WRITE_BACKUP_INFORMATION, *PTXFS_WRITE_BACKUP_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	TXFS_WRITE_BACKUP_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _TXFS_WRITE_BACKUP_INFORMATION structure

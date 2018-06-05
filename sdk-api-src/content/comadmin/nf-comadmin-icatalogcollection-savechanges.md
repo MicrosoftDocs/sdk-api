@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comadmin.ICatalogCollection.SaveChanges
+title: ICatalogCollection::SaveChanges
+author: windows-sdk-content
+description: Saves all pending changes made to the collection and the items it contains to the COM+ catalog data store.
+old-location: cos\icatalogcollection_savechanges.htm
+old-project: cossdk
+ms.assetid: ae984eee-4a8d-48e5-839c-fa115fd4aeea
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: ICatalogCollection interface [COM+],SaveChanges method, ICatalogCollection.SaveChanges, ICatalogCollection::SaveChanges, SaveChanges, SaveChanges method [COM+], SaveChanges method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_SaveChanges, comadmin/ICatalogCollection::SaveChanges, cos.icatalogcollection_savechanges
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ComAdmin.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMAdminTxIsolationLevelOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComAdmin.h
+api_name:
+-	ICatalogCollection.SaveChanges
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICatalogCollection::SaveChanges

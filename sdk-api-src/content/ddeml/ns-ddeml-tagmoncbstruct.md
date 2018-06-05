@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ddeml.tagMONCBSTRUCT
+title: tagMONCBSTRUCT
+author: windows-sdk-content
+description: Contains information about the current Dynamic Data Exchange (DDE) transaction. A DDE debugging application can use this structure when monitoring transactions that the system passes to the DDE callback functions of other applications.
+old-location: dataxchg\moncbstruct_str.htm
+old-project: dataxchg
+ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\moncbstruct.htm
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PMONCBSTRUCT, MONCBSTRUCT, MONCBSTRUCT structure [Data Exchange], PMONCBSTRUCT, PMONCBSTRUCT structure pointer [Data Exchange], _win32_MONCBSTRUCT_str, _win32_moncbstruct_str_cpp, dataxchg.moncbstruct_str, ddeml/MONCBSTRUCT, ddeml/PMONCBSTRUCT, tagMONCBSTRUCT, winui._win32_moncbstruct_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddeml.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MONCBSTRUCT, *PMONCBSTRUCT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ddeml.h
+api_name:
+-	MONCBSTRUCT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagMONCBSTRUCT structure

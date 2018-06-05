@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_VOLUME_FLAG
+title: "_VDS_VOLUME_FLAG"
+author: windows-sdk-content
+description: Defines the set of valid flags for a volume object.
+old-location: base\vds_volume_flag.htm
+old-project: VDS
+ms.assetid: 3a59cc61-1efe-4027-9aca-a785a5cfaef5
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_VF_ACTIVE, VDS_VF_BOOT_VOLUME, VDS_VF_CAN_EXTEND, VDS_VF_CAN_SHRINK, VDS_VF_CRASHDUMP, VDS_VF_DIRTY, VDS_VF_FAT32_NOT_SUPPORTED, VDS_VF_FAT_NOT_SUPPORTED, VDS_VF_FORMATTING, VDS_VF_FVE_ENABLED, VDS_VF_HIBERNATION, VDS_VF_HIDDEN, VDS_VF_INSTALLABLE, VDS_VF_LBN_REMAP_ENABLED, VDS_VF_NOT_FORMATTABLE, VDS_VF_NO_DEFAULT_DRIVE_LETTER, VDS_VF_NTFS_NOT_SUPPORTED, VDS_VF_PAGEFILE, VDS_VF_PERMANENTLY_DISMOUNTED, VDS_VF_PERMANENT_DISMOUNT_SUPPORTED, VDS_VF_READONLY, VDS_VF_SHADOW_COPY, VDS_VF_SYSTEM_VOLUME, VDS_VOLUME_FLAG, VDS_VOLUME_FLAG enumeration [VDS], _VDS_VOLUME_FLAG, base.vds_volume_flag, vds/VDS_VF_ACTIVE, vds/VDS_VF_BOOT_VOLUME, vds/VDS_VF_CAN_EXTEND, vds/VDS_VF_CAN_SHRINK, vds/VDS_VF_CRASHDUMP, vds/VDS_VF_DIRTY, vds/VDS_VF_FAT32_NOT_SUPPORTED, vds/VDS_VF_FAT_NOT_SUPPORTED, vds/VDS_VF_FORMATTING, vds/VDS_VF_FVE_ENABLED, vds/VDS_VF_HIBERNATION, vds/VDS_VF_HIDDEN, vds/VDS_VF_INSTALLABLE, vds/VDS_VF_LBN_REMAP_ENABLED, vds/VDS_VF_NOT_FORMATTABLE, vds/VDS_VF_NO_DEFAULT_DRIVE_LETTER, vds/VDS_VF_NTFS_NOT_SUPPORTED, vds/VDS_VF_PAGEFILE, vds/VDS_VF_PERMANENTLY_DISMOUNTED, vds/VDS_VF_PERMANENT_DISMOUNT_SUPPORTED, vds/VDS_VF_READONLY, vds/VDS_VF_SHADOW_COPY, vds/VDS_VF_SYSTEM_VOLUME, vds/VDS_VOLUME_FLAG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VOLUME_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	VDS_VOLUME_FLAG
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_VOLUME_FLAG enumeration

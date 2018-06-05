@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:schannel._SCH_CRED_PUBLIC_CERTCHAIN
+title: "_SCH_CRED_PUBLIC_CERTCHAIN"
+author: windows-sdk-content
+description: The SCH_CRED_PUBLIC_CERTCHAIN structure contains a single certificate. A certification chain can be built from this certificate.
+old-location: security\sch_cred_public_certchain.htm
+old-project: SecAuthN
+ms.assetid: b6019f43-df94-4d30-9acf-a94772901e6e
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSCH_CRED_PUBLIC_CERTCHAIN, PSCH_CRED_PUBLIC_CERTCHAIN, PSCH_CRED_PUBLIC_CERTCHAIN structure pointer [Security], SCH_CRED_PUBLIC_CERTCHAIN, SCH_CRED_PUBLIC_CERTCHAIN structure [Security], _SCH_CRED_PUBLIC_CERTCHAIN, _ssp_sch_cred_public_certchain, schannel/PSCH_CRED_PUBLIC_CERTCHAIN, schannel/SCH_CRED_PUBLIC_CERTCHAIN, security.sch_cred_public_certchain"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: schannel.h
+req.include-header: Schnlsp.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCH_CRED_PUBLIC_CERTCHAIN, *PSCH_CRED_PUBLIC_CERTCHAIN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Schannel.h
+api_name:
+-	SCH_CRED_PUBLIC_CERTCHAIN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SCH_CRED_PUBLIC_CERTCHAIN structure

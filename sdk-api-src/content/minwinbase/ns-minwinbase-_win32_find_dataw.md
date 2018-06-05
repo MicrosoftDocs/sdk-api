@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:minwinbase._WIN32_FIND_DATAW
+title: "_WIN32_FIND_DATAW"
+author: windows-sdk-content
+description: Contains information about the file that is found by the FindFirstFile, FindFirstFileEx, or FindNextFile function.
+old-location: fs\win32_find_data_str.htm
+old-project: FileIO
+ms.assetid: eb700d84-0ba5-4af8-a619-2d2544560dbc
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*LPWIN32_FIND_DATAW, *PWIN32_FIND_DATAW, IO_REPARSE_TAG_CSV, IO_REPARSE_TAG_DEDUP, IO_REPARSE_TAG_DFS, IO_REPARSE_TAG_DFSR, IO_REPARSE_TAG_HSM, IO_REPARSE_TAG_HSM2, IO_REPARSE_TAG_MOUNT_POINT, IO_REPARSE_TAG_NFS, IO_REPARSE_TAG_SIS, IO_REPARSE_TAG_SYMLINK, IO_REPARSE_TAG_WIM, LPWIN32_FIND_DATA, LPWIN32_FIND_DATA structure pointer [Files], PWIN32_FIND_DATA, PWIN32_FIND_DATA structure pointer [Files], WIN32_FIND_DATA, WIN32_FIND_DATA structure [Files], WIN32_FIND_DATAA, WIN32_FIND_DATAW, _WIN32_FIND_DATAW, _win32_win32_find_data_str, base.win32_find_data_str, fs.win32_find_data_str, minwinbase/LPWIN32_FIND_DATA, minwinbase/PWIN32_FIND_DATA, minwinbase/WIN32_FIND_DATA, minwinbase/WIN32_FIND_DATAA, minwinbase/WIN32_FIND_DATAW, winbase/LPWIN32_FIND_DATA, winbase/PWIN32_FIND_DATA, winbase/WIN32_FIND_DATA, winbase/WIN32_FIND_DATAA, winbase/WIN32_FIND_DATAW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: minwinbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WIN32_FIND_DATAW (Unicode) and WIN32_FIND_DATAA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	MinWinBase.h
+-	WinBase.h
+api_name:
+-	WIN32_FIND_DATA
+-	WIN32_FIND_DATAA
+-	WIN32_FIND_DATAW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _WIN32_FIND_DATAW structure

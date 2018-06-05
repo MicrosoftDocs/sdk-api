@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:eventsys.IEventClass2.put_MultiInterfacePublisherFilterCLSID
+title: IEventClass2::put_MultiInterfacePublisherFilterCLSID
+author: windows-sdk-content
+description: The CLSID of the object implementing IMultiInterfacePublisherFilter.
+old-location: cos\ieventclass2_multiinterfacepublisherfilterclsid.htm
+old-project: cossdk
+ms.assetid: 09583b2f-a43e-4afd-9709-c34bb3a98fe3
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IEventClass2 interface [COM+],MultiInterfacePublisherFilterCLSID property, IEventClass2.MultiInterfacePublisherFilterCLSID, IEventClass2.put_MultiInterfacePublisherFilterCLSID, IEventClass2::MultiInterfacePublisherFilterCLSID, IEventClass2::get_MultiInterfacePublisherFilterCLSID, IEventClass2::put_MultiInterfacePublisherFilterCLSID, MultiInterfacePublisherFilterCLSID property [COM+], MultiInterfacePublisherFilterCLSID property [COM+],IEventClass2 interface, _cos_IEventClass2_get_MultiInterfacePublisherFilterCLSID, _cos_IEventClass2_put_MultiInterfacePublisherFilterCLSID, cos.ieventclass2_multiinterfacepublisherfilterclsid, eventsys/IEventClass2::MultiInterfacePublisherFilterCLSID, eventsys/IEventClass2::get_MultiInterfacePublisherFilterCLSID, eventsys/IEventClass2::put_MultiInterfacePublisherFilterCLSID, put_MultiInterfacePublisherFilterCLSID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: eventsys.h
+req.include-header: Eventsys.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Eventsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EOC_ChangeType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	eventsys.h
+api_name:
+-	IEventClass2.MultiInterfacePublisherFilterCLSID
+-	IEventClass2.get_MultiInterfacePublisherFilterCLSID
+-	IEventClass2.put_MultiInterfacePublisherFilterCLSID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IEventClass2::put_MultiInterfacePublisherFilterCLSID

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmcontainer.IMFASFContentInfo.ParseHeader
+title: IMFASFContentInfo::ParseHeader
+author: windows-sdk-content
+description: Parses the information in an ASF header and uses that information to set values in the ContentInfo object. You can pass the entire header in a single buffer or send it in several pieces.
+old-location: mf\imfasfcontentinfo_parseheader.htm
+old-project: medfound
+ms.assetid: 149e2514-74e5-403b-925f-53a17dbbcb64
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 149e2514-74e5-403b-925f-53a17dbbcb64, IMFASFContentInfo interface [Media Foundation],ParseHeader method, IMFASFContentInfo.ParseHeader, IMFASFContentInfo::ParseHeader, ParseHeader, ParseHeader method [Media Foundation], ParseHeader method [Media Foundation],IMFASFContentInfo interface, mf.imfasfcontentinfo_parseheader, wmcontainer/IMFASFContentInfo::ParseHeader
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmcontainer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFASF_STREAMSELECTOR_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFASFContentInfo.ParseHeader
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IMFASFContentInfo::ParseHeader

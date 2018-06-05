@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dxva2api._DXVA2_DecodeBufferDesc
+title: "_DXVA2_DecodeBufferDesc"
+author: windows-sdk-content
+description: Describes a buffer sent from a decoder to a DirectX Video Acceleration (DXVA) device.
+old-location: mf\dxva2_decodebufferdesc.htm
+old-project: medfound
+ms.assetid: eb17005a-035d-41cb-8f54-97b5d0f84736
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DXVA2_BitStreamDateBufferType, DXVA2_DeblockingControlBufferType, DXVA2_DecodeBufferDesc, DXVA2_DecodeBufferDesc structure [Media Foundation], DXVA2_FilmGrainBuffer, DXVA2_InverseQuantizationMatrixBufferType, DXVA2_MacroBlockControlBufferType, DXVA2_MotionVectorBuffer, DXVA2_PictureParametersBufferType, DXVA2_ResidualDifferenceBufferType, DXVA2_SliceControlBufferType, _DXVA2_DecodeBufferDesc, dxva2api/DXVA2_DecodeBufferDesc, eb17005a-035d-41cb-8f54-97b5d0f84736, mf.dxva2_decodebufferdesc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxva2api.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA2_DecodeBufferDesc
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxva2api.h
+api_name:
+-	DXVA2_DecodeBufferDesc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVA2_DecodeBufferDesc structure

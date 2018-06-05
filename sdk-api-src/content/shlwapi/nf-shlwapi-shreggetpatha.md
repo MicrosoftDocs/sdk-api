@@ -1,31 +1,55 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlwapi.SHRegGetPathA
+title: SHRegGetPathA function
+author: windows-sdk-content
+description: Retrieves a file path from the registry, expanding environment variables as needed.
+old-location: shell\SHRegGetPath.htm
+old-project: shell
+ms.assetid: 2874b868-33f9-4f20-9e0b-136125cf268c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHRegGetPath, SHRegGetPath function [Windows Shell], SHRegGetPathA, SHRegGetPathW, _win32_SHRegGetPath, shell.SHRegGetPath, shlwapi/SHRegGetPath, shlwapi/SHRegGetPathA, shlwapi/SHRegGetPathW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SHRegGetPathW (Unicode) and SHRegGetPathA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+-	API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+-	ShCore.dll
+-	API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+-	API-MS-Win-ShCore-Registry-l1-1-0.dll
+-	API-MS-Win-ShCore-Registry-l1-1-1.dll
+api_name:
+-	SHRegGetPath
+-	SHRegGetPathA
+-	SHRegGetPathW
+product: Windows
+targetos: Windows
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # SHRegGetPathA function

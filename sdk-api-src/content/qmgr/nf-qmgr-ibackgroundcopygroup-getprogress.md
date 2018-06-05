@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:qmgr.IBackgroundCopyGroup.GetProgress
+title: IBackgroundCopyGroup::GetProgress
+author: windows-sdk-content
+description: Use the GetProgress method to retrieve the progress of the download.
+old-location: bits\ibackgroundcopygroup_getprogress.htm
+old-project: Bits
+ms.assetid: a596a005-a3ad-4d2b-b19b-60c2279590da
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetProgress method, IBackgroundCopyGroup.GetProgress, IBackgroundCopyGroup::GetProgress, QM_PROGRESS_PERCENT_DONE, QM_PROGRESS_SIZE_DONE, QM_PROGRESS_TIME_DONE, bits.ibackgroundcopygroup_getprogress, qmgr/IBackgroundCopyGroup::GetProgress
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: qmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Qmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GROUPPROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	QmgrPrxy.dll
+api_name:
+-	IBackgroundCopyGroup.GetProgress
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IBackgroundCopyGroup::GetProgress

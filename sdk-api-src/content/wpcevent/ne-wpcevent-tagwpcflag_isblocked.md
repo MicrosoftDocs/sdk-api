@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wpcevent.tagWPCFLAG_ISBLOCKED
+title: tagWPCFLAG_ISBLOCKED
+author: windows-sdk-content
+description: Indicates information about what events are blocked from use and what controls are in place.
+old-location: parcon\wpcflag_isblocked.htm
+old-project: parcon
+ms.assetid: d8ddea59-04be-4d03-a792-866d8f920e17
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WPCFLAG_ISBLOCKED, WPCFLAG_ISBLOCKED enumeration, WPCFLAG_ISBLOCKED_ATTACHMENTBLOCKED, WPCFLAG_ISBLOCKED_BADPASS, WPCFLAG_ISBLOCKED_CATEGORYBLOCKED, WPCFLAG_ISBLOCKED_CATEGORYNOTINLIST, WPCFLAG_ISBLOCKED_CONTACTBLOCKED, WPCFLAG_ISBLOCKED_DESCRIPTORBLOCKED, WPCFLAG_ISBLOCKED_DOWNLOADBLOCKED, WPCFLAG_ISBLOCKED_EMAILBLOCKED, WPCFLAG_ISBLOCKED_EXPLICITBLOCK, WPCFLAG_ISBLOCKED_FEATUREBLOCKED, WPCFLAG_ISBLOCKED_GAMESBLOCKED, WPCFLAG_ISBLOCKED_IMBLOCKED, WPCFLAG_ISBLOCKED_INTERNALERROR, WPCFLAG_ISBLOCKED_MAXHOURS, WPCFLAG_ISBLOCKED_MEDIAPLAYBACKBLOCKED, WPCFLAG_ISBLOCKED_NOACCESS, WPCFLAG_ISBLOCKED_NOTBLOCKED, WPCFLAG_ISBLOCKED_NOTEXPLICITLYALLOWED, WPCFLAG_ISBLOCKED_NOTINLIST, WPCFLAG_ISBLOCKED_NOTKIDS, WPCFLAG_ISBLOCKED_RATINGBLOCKED, WPCFLAG_ISBLOCKED_RECEIVERBLOCKED, WPCFLAG_ISBLOCKED_SENDERBLOCKED, WPCFLAG_ISBLOCKED_SETTINGSCHANGEBLOCKED, WPCFLAG_ISBLOCKED_SPECHOURS, WPCFLAG_ISBLOCKED_UNRATED, WPCFLAG_ISBLOCKED_WEBBLOCKED, parcon.wpcflag_isblocked, tagWPCFLAG_ISBLOCKED, wpcevent/WPCFLAG_ISBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_ATTACHMENTBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_BADPASS, wpcevent/WPCFLAG_ISBLOCKED_CATEGORYBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_CATEGORYNOTINLIST, wpcevent/WPCFLAG_ISBLOCKED_CONTACTBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_DESCRIPTORBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_DOWNLOADBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_EMAILBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_EXPLICITBLOCK, wpcevent/WPCFLAG_ISBLOCKED_FEATUREBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_GAMESBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_IMBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_INTERNALERROR, wpcevent/WPCFLAG_ISBLOCKED_MAXHOURS, wpcevent/WPCFLAG_ISBLOCKED_MEDIAPLAYBACKBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_NOACCESS, wpcevent/WPCFLAG_ISBLOCKED_NOTBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_NOTEXPLICITLYALLOWED, wpcevent/WPCFLAG_ISBLOCKED_NOTINLIST, wpcevent/WPCFLAG_ISBLOCKED_NOTKIDS, wpcevent/WPCFLAG_ISBLOCKED_RATINGBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_RECEIVERBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_SENDERBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_SETTINGSCHANGEBLOCKED, wpcevent/WPCFLAG_ISBLOCKED_SPECHOURS, wpcevent/WPCFLAG_ISBLOCKED_UNRATED, wpcevent/WPCFLAG_ISBLOCKED_WEBBLOCKED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wpcevent.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WPCFLAG_ISBLOCKED
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wpcevent.h
+api_name:
+-	WPCFLAG_ISBLOCKED
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagWPCFLAG_ISBLOCKED enumeration

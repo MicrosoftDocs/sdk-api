@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wnvapi._WNV_REDIRECT_PARAM
+title: "_WNV_REDIRECT_PARAM"
+author: windows-sdk-content
+description: Specifies the parameters of the event (receiving an incoming Internet Control Message Protocol redirect packet) that causes the Windows Network Virtualization (WNV) driver to generate a WnvRedirectType notification.
+old-location: wnv\wnv_redirect_param.htm
+old-project: wnv
+ms.assetid: 53305594-4539-490E-B034-99355265F175
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM structure pointer [Windows Network Virtualization], WNV_REDIRECT_PARAM, WNV_REDIRECT_PARAM structure [Windows Network Virtualization], _WNV_REDIRECT_PARAM, wnv.wnv_redirect_param, wnvapi/PWNV_REDIRECT_PARAM, wnvapi/WNV_REDIRECT_PARAM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wnvapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wnvapi.h
+api_name:
+-	WNV_REDIRECT_PARAM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WNV_REDIRECT_PARAM structure

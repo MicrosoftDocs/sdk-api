@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core.NSTCFOLDERCAPABILITIES
+title: NSTCFOLDERCAPABILITIES
+author: windows-sdk-content
+description: Specifies the state of a tree item. These values are used by methods of the INameSpaceTreeControlFolderCapabilities interface.
+old-location: shell\NSTCFOLDERCAPABILITIES.htm
+old-project: shell
+ms.assetid: a5282277-85f5-494e-b994-efbf1116b519
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: NSTCFC_DELAY_REGISTER_NOTIFY, NSTCFC_NONE, NSTCFC_PINNEDITEMFILTERING, NSTCFOLDERCAPABILITIES, NSTCFOLDERCAPABILITIES enumeration [Windows Shell], _shell_NSTCFOLDERCAPABILITIES, shell.NSTCFOLDERCAPABILITIES, shobjidl_core/NSTCFC_DELAY_REGISTER_NOTIFY, shobjidl_core/NSTCFC_NONE, shobjidl_core/NSTCFC_PINNEDITEMFILTERING, shobjidl_core/NSTCFOLDERCAPABILITIES
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NSTCFOLDERCAPABILITIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	NSTCFOLDERCAPABILITIES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # NSTCFOLDERCAPABILITIES enumeration

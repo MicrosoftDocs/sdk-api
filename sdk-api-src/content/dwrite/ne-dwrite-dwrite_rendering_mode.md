@@ -1,22 +1,23 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwrite.DWRITE_RENDERING_MODE
+title: DWRITE_RENDERING_MODE
+author: windows-sdk-content
+description: Represents a method of rendering glyphs.
+old-location: directwrite\dwrite_rendering_mode.htm
+old-project: DirectWrite
+ms.assetid: c6b2c15a-be22-49ce-affd-1369e23f4d6b
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_RENDERING_MODE, DWRITE_RENDERING_MODE (Windows 8 and later)
+    , DWRITE_RENDERING_MODE enumeration [Direct Write], DWRITE_RENDERING_MODE_ALIASED, DWRITE_RENDERING_MODE_DEFAULT, DWRITE_RENDERING_MODE_GDI_CLASSIC, DWRITE_RENDERING_MODE_GDI_NATURAL, DWRITE_RENDERING_MODE_NATURAL, DWRITE_RENDERING_MODE_NATURAL_SYMMETRIC, DWRITE_RENDERING_MODE_OUTLINE, directwrite.dwrite_rendering_mode, dwrite/DWRITE_RENDERING_MODE, dwrite/DWRITE_RENDERING_MODE_ALIASED, dwrite/DWRITE_RENDERING_MODE_DEFAULT, dwrite/DWRITE_RENDERING_MODE_GDI_CLASSIC, dwrite/DWRITE_RENDERING_MODE_GDI_NATURAL, dwrite/DWRITE_RENDERING_MODE_NATURAL, dwrite/DWRITE_RENDERING_MODE_NATURAL_SYMMETRIC, dwrite/DWRITE_RENDERING_MODE_OUTLINE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +27,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite.h
+api_name:
+-	DWRITE_RENDERING_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_RENDERING_MODE enumeration

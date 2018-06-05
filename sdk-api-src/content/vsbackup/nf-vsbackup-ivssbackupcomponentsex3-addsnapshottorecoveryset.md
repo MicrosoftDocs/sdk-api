@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsbackup.IVssBackupComponentsEx3.AddSnapshotToRecoverySet
+title: IVssBackupComponentsEx3::AddSnapshotToRecoverySet
+author: windows-sdk-content
+description: Specifies the volumes to be included in a LUN resynchronization operation.
+old-location: base\ivssbackupcomponentsex3_addsnapshottorecoveryset.htm
+old-project: VSS
+ms.assetid: f489d353-7c8a-45d2-8917-82d29fbdf5f5
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AddSnapshotToRecoverySet, AddSnapshotToRecoverySet method, AddSnapshotToRecoverySet method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,AddSnapshotToRecoverySet method, IVssBackupComponentsEx3.AddSnapshotToRecoverySet, IVssBackupComponentsEx3::AddSnapshotToRecoverySet, base.ivssbackupcomponentsex3_addsnapshottorecoveryset, vsbackup/IVssBackupComponentsEx3::AddSnapshotToRecoverySet
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsbackup.h
+req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VsBackup.h
+api_name:
+-	IVssBackupComponentsEx3.AddSnapshotToRecoverySet
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssBackupComponentsEx3::AddSnapshotToRecoverySet

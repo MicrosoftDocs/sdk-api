@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netsh.PrintMessage
+title: PrintMessage function
+author: windows-sdk-content
+description: Displays output to the NetShell console.
+old-location: netshell\printmessage.htm
+old-project: NetShell
+ms.assetid: 6646a4f7-24b7-460c-8027-80485ac50785
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PrintMessage, PrintMessage function [NetShell], _netsh_printmessage, netsh/PrintMessage, netshell.printmessage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: netsh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NS_REQS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netsh.exe
+api_name:
+-	PrintMessage
+product: Windows
+targetos: Windows
+req.lib: Netsh.lib
+req.dll: Netsh.exe
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PrintMessage function

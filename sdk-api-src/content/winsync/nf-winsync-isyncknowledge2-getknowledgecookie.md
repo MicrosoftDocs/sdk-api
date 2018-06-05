@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsync.ISyncKnowledge2.GetKnowledgeCookie
+title: ISyncKnowledge2::GetKnowledgeCookie
+author: windows-sdk-content
+description: Gets a lightweight, read-only representation of this knowledge object that can be used for fast comparisons.
+old-location: winsync\isyncknowledge2_getknowledgecookie.htm
+old-project: winsync
+ms.assetid: d182f81d-131c-4f18-85e4-ff675ae99888
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetKnowledgeCookie, GetKnowledgeCookie method [Windows Sync], GetKnowledgeCookie method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetKnowledgeCookie method, ISyncKnowledge2.GetKnowledgeCookie, ISyncKnowledge2::GetKnowledgeCookie, winsync.isyncknowledge2_getknowledgecookie, winsync/ISyncKnowledge2::GetKnowledgeCookie
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	ISyncKnowledge2.GetKnowledgeCookie
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # ISyncKnowledge2::GetKnowledgeCookie

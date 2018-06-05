@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntmsapi.CreateNtmsMediaA
+title: CreateNtmsMediaA function
+author: windows-sdk-content
+description: The CreateNtmsMedia function creates a PMID and side (or sides) for a new piece of offline media. The media is placed in the media pool specified for lpPhysicalMedia.
+old-location: fs\createntmsmedia.htm
+old-project: Rsm
+ms.assetid: a44c51c3-13d7-490e-9b6f-4d4c82d5a8f8
+ms.author: windowssdkdev
+ms.date: 04/05/2018
+ms.keywords: CreateNtmsMedia, CreateNtmsMedia function [Files], CreateNtmsMediaA, CreateNtmsMediaW, NTMS_ERROR_ON_DUPLICATE, _zaw_createntmsmedia, base.createntmsmedia, fs.createntmsmedia, ntmsapi/CreateNtmsMedia, ntmsapi/CreateNtmsMediaA, ntmsapi/CreateNtmsMediaW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntmsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CreateNtmsMediaW (Unicode) and CreateNtmsMediaA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntmsapi.dll
+api_name:
+-	CreateNtmsMedia
+-	CreateNtmsMediaA
+-	CreateNtmsMediaW
+product: Windows
+targetos: Windows
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CreateNtmsMediaA function

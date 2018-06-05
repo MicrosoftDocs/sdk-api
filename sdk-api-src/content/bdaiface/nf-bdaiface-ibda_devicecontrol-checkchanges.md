@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_DeviceControl.CheckChanges
+title: IBDA_DeviceControl::CheckChanges
+author: windows-sdk-content
+description: The CheckChanges method queries the device filter as to whether the changes that are pending would succeed if they were committed.
+old-location: mstv\ibda_devicecontrol_checkchanges.htm
+old-project: mstv
+ms.assetid: e4654041-d17b-4b1b-9d0f-23c00b0090ea
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CheckChanges, CheckChanges method [Microsoft TV Technologies], CheckChanges method [Microsoft TV Technologies],IBDA_DeviceControl interface, IBDA_DeviceControl interface [Microsoft TV Technologies],CheckChanges method, IBDA_DeviceControl.CheckChanges, IBDA_DeviceControl::CheckChanges, IBDA_DeviceControlCheckChanges, bdaiface/IBDA_DeviceControl::CheckChanges, mstv.ibda_devicecontrol_checkchanges
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_DeviceControl.CheckChanges
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_DeviceControl::CheckChanges

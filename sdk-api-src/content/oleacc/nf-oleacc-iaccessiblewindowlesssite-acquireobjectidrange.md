@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleacc.IAccessibleWindowlessSite.AcquireObjectIdRange
+title: IAccessibleWindowlessSite::AcquireObjectIdRange
+author: windows-sdk-content
+description: Acquires a range of object IDs from the control host and marks them as reserved by a specific windowless control.
+old-location: winauto\uiauto_IAccessibleWindowlessSite_AcquireObjectIdRange.htm
+old-project: WinAuto
+ms.assetid: EB8BAD4D-0C8F-4926-A1B4-383D03C3B0C4
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: AcquireObjectIdRange, AcquireObjectIdRange method [Windows Accessibility], AcquireObjectIdRange method [Windows Accessibility],IAccessibleWindowlessSite interface, IAccessibleWindowlessSite interface [Windows Accessibility],AcquireObjectIdRange method, IAccessibleWindowlessSite.AcquireObjectIdRange, IAccessibleWindowlessSite::AcquireObjectIdRange, oleacc/IAccessibleWindowlessSite::AcquireObjectIdRange, winauto.uiauto_IAccessibleWindowlessSite_AcquireObjectIdRange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oleacc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Oleacc.dll
+api_name:
+-	IAccessibleWindowlessSite.AcquireObjectIdRange
+product: Windows
+targetos: Windows
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAccessibleWindowlessSite::AcquireObjectIdRange

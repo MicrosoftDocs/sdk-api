@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dxmini._DDFLIPVIDEOPORTINFO
+title: "_DDFLIPVIDEOPORTINFO"
+author: windows-sdk-content
+description: The DDFLIPVIDEOPORTINFO structure contains the video port extensions (VPE) object and surface information.
+old-location: display\ddflipvideoportinfo.htm
+old-project: display
+ms.assetid: 9cf87d19-2db6-48f8-96a6-2b6ac969c774
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDDFLIPVIDEOPORTINFO, DDFLIPVIDEOPORTINFO, DDFLIPVIDEOPORTINFO structure [Display Devices], PDDFLIPVIDEOPORTINFO, PDDFLIPVIDEOPORTINFO structure pointer [Display Devices], Video_Structs_e5e5e93f-25a2-47a6-a99c-6ac8ca43f069.xml, _DDFLIPVIDEOPORTINFO, display.ddflipvideoportinfo, dxmini/DDFLIPVIDEOPORTINFO, dxmini/PDDFLIPVIDEOPORTINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDFLIPVIDEOPORTINFO, *PDDFLIPVIDEOPORTINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxmini.h
+api_name:
+-	DDFLIPVIDEOPORTINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DDFLIPVIDEOPORTINFO structure

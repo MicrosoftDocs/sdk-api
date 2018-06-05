@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzApplicationGroups.get_Item
+title: IAzApplicationGroups::get_Item
+author: windows-sdk-content
+description: Retrieves the IAzApplicationGroup object at the specified index into the IAzApplicationGroups collection.
+old-location: security\iazapplicationgroups_item.htm
+old-project: SecAuthZ
+ms.assetid: 9b895379-9b2f-45f5-997e-b589f08d7d6e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AzApplicationGroups object [Security],Item property, IAzApplicationGroups interface [Security],Item property, IAzApplicationGroups.Item, IAzApplicationGroups.get_Item, IAzApplicationGroups::Item, IAzApplicationGroups::get_Item, Item property [Security], Item property [Security],AzApplicationGroups object, Item property [Security],IAzApplicationGroups interface, azroles/IAzApplicationGroups::Item, azroles/IAzApplicationGroups::get_Item, get_Item, security.iazapplicationgroups_item
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzApplicationGroups.Item
+-	IAzApplicationGroups.get_Item
+-	AzApplicationGroups.Item
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzApplicationGroups::get_Item

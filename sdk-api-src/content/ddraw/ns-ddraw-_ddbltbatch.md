@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddraw._DDBLTBATCH
+title: "_DDBLTBATCH"
+author: windows-sdk-content
+description: The DDBLTBATCH structure passes bit block transfer (bitblt) operations to the IDirectDrawSurface7::BltBatch method.
+old-location: directdraw\ddbltbatch.htm
+old-project: directdraw
+ms.assetid: d8c302aa-9c57-41f8-ad22-d8fdd1158c3c
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPDDBLTBATCH, DDBLTBATCH, DDBLTBATCH structure [DirectDraw], DDBLT_ALPHADEST, DDBLT_ALPHADESTCONSTOVERRIDE, DDBLT_ALPHADESTNEG, DDBLT_ALPHADESTSURFACEOVERRIDE, DDBLT_ALPHAEDGEBLEND, DDBLT_ALPHASRC, DDBLT_ALPHASRCCONSTOVERRIDE, DDBLT_ALPHASRCNEG, DDBLT_ALPHASRCSURFACEOVERRIDE, DDBLT_ASYNC, DDBLT_COLORFILL, DDBLT_DDFX, DDBLT_DDROPS, DDBLT_KEYDEST, DDBLT_KEYDESTOVERRIDE, DDBLT_KEYSRC, DDBLT_KEYSRCOVERRIDE, DDBLT_ROP, DDBLT_ROTATIONANGLE, DDBLT_ZBUFFER, DDBLT_ZBUFFERDESTCONSTOVERRIDE, DDBLT_ZBUFFERDESTOVERRIDE, DDBLT_ZBUFFERSRCCONSTOVERRIDE, DDBLT_ZBUFFERSRCOVERRIDE, LPDDBLTBATCH, LPDDBLTBATCH structure pointer [DirectDraw], _DDBLTBATCH, ddraw/DDBLTBATCH, ddraw/LPDDBLTBATCH, directdraw.ddbltbatch"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDBLTBATCH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ddraw.h
+api_name:
+-	DDBLTBATCH
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDBLTBATCH structure

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmscreen.IFsrmFileScreenException.get_AllowedFileGroups
+title: IFsrmFileScreenException::get_AllowedFileGroups
+author: windows-sdk-content
+description: Retrieves or sets the names of the file groups that contain the file name patterns of the files that are allowed in the directory.
+old-location: fsrm\ifsrmfilescreenexception_allowedfilegroups.htm
+old-project: Fsrm
+ms.assetid: e02070dd-a51d-4572-a282-4e5a151cd987
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: AllowedFileGroups property [File Server Resource Manager], AllowedFileGroups property [File Server Resource Manager],IFsrmFileScreenException interface, IFsrmFileScreenException interface [File Server Resource Manager],AllowedFileGroups property, IFsrmFileScreenException.AllowedFileGroups, IFsrmFileScreenException.get_AllowedFileGroups, IFsrmFileScreenException::AllowedFileGroups, IFsrmFileScreenException::get_AllowedFileGroups, IFsrmFileScreenException::put_AllowedFileGroups, fs.ifsrmfilescreenexception_allowedfilegroups, fsrm.ifsrmfilescreenexception_allowedfilegroups, fsrmscreen/IFsrmFileScreenException::AllowedFileGroups, fsrmscreen/IFsrmFileScreenException::get_AllowedFileGroups, fsrmscreen/IFsrmFileScreenException::put_AllowedFileGroups, get_AllowedFileGroups
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmscreen.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FsrmScreen.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileScreenException.AllowedFileGroups
+-	IFsrmFileScreenException.get_AllowedFileGroups
+-	IFsrmFileScreenException.put_AllowedFileGroups
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileScreenException::get_AllowedFileGroups

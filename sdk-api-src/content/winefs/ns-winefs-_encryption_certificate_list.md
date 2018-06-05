@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winefs._ENCRYPTION_CERTIFICATE_LIST
+title: "_ENCRYPTION_CERTIFICATE_LIST"
+author: windows-sdk-content
+description: Contains a list of certificates.
+old-location: fs\encryption_certificate_list_str.htm
+old-project: FileIO
+ms.assetid: e1914b96-2fba-49ed-9dd2-464659323eda
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PENCRYPTION_CERTIFICATE_LIST, ENCRYPTION_CERTIFICATE_LIST, ENCRYPTION_CERTIFICATE_LIST structure [Files], PENCRYPTION_CERTIFICATE_LIST, PENCRYPTION_CERTIFICATE_LIST structure pointer [Files], _ENCRYPTION_CERTIFICATE_LIST, _win32_encryption_certificate_list_str, base.encryption_certificate_list_str, fs.encryption_certificate_list_str, winefs/ENCRYPTION_CERTIFICATE_LIST, winefs/PENCRYPTION_CERTIFICATE_LIST"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winefs.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENCRYPTION_CERTIFICATE_LIST, *PENCRYPTION_CERTIFICATE_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinEfs.h
+api_name:
+-	ENCRYPTION_CERTIFICATE_LIST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _ENCRYPTION_CERTIFICATE_LIST structure

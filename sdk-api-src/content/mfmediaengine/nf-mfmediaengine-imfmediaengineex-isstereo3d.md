@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfmediaengine.IMFMediaEngineEx.IsStereo3D
+title: IMFMediaEngineEx::IsStereo3D
+author: windows-sdk-content
+description: Queries whether the media resource contains stereoscopic 3D video.
+old-location: mf\imfmediaengineex_isstereo3d.htm
+old-project: medfound
+ms.assetid: 9E1C2E47-416F-4016-A576-7BE360A66A81
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFMediaEngineEx interface [Media Foundation],IsStereo3D method, IMFMediaEngineEx.IsStereo3D, IMFMediaEngineEx::IsStereo3D, IsStereo3D, IsStereo3D method [Media Foundation], IsStereo3D method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_isstereo3d, mfmediaengine/IMFMediaEngineEx::IsStereo3D
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.h
+api_name:
+-	IMFMediaEngineEx.IsStereo3D
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFMediaEngineEx::IsStereo3D

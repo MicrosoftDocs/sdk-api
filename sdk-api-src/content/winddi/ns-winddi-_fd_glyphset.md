@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi._FD_GLYPHSET
+title: "_FD_GLYPHSET"
+author: windows-sdk-content
+description: The FD_GLYPHSET structure is used to define the mappings from Unicode characters to glyph handles.
+old-location: display\fd_glyphset.htm
+old-project: display
+ms.assetid: af56f2a0-92a6-4217-8121-944a0b4f26f6
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PFD_GLYPHSET, FD_GLYPHSET, FD_GLYPHSET structure [Display Devices], PFD_GLYPHSET, PFD_GLYPHSET structure pointer [Display Devices], _FD_GLYPHSET, display.fd_glyphset, grstrcts_69cd5b01-58bb-4141-8f1d-26a6258423ce.xml, winddi/FD_GLYPHSET, winddi/PFD_GLYPHSET"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FD_GLYPHSET, *PFD_GLYPHSET
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	FD_GLYPHSET
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FD_GLYPHSET structure

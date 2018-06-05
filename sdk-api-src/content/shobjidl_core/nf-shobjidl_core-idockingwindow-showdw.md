@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IDockingWindow.ShowDW
+title: IDockingWindow::ShowDW
+author: windows-sdk-content
+description: Instructs the docking window object to show or hide itself.
+old-location: shell\IDockingWindow_ShowDW.htm
+old-project: shell
+ms.assetid: c33031d4-f9f4-4210-93be-963e5f299408
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IDockingWindow interface [Windows Shell],ShowDW method, IDockingWindow.ShowDW, IDockingWindow::ShowDW, ShowDW, ShowDW method [Windows Shell], ShowDW method [Windows Shell],IDockingWindow interface, _win32_IDockingWindow_ShowDW, shell.IDockingWindow_ShowDW, shobjidl_core/IDockingWindow::ShowDW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IDockingWindow.ShowDW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IDockingWindow::ShowDW

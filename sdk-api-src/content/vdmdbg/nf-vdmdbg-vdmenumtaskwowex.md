@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:vdmdbg.VDMEnumTaskWOWEx
+title: VDMEnumTaskWOWEx function
+author: windows-sdk-content
+description: Enumerates tasks within a particular virtual DOS machine (VDM).
+old-location: winprog\vdmenumtaskwowex.htm
+old-project: DevNotes
+ms.assetid: c09c5d80-9de6-424b-bd57-bf6a450221e4
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: VDMEnumTaskWOWEx, VDMEnumTaskWOWEx function [Windows API], vdmdbg/VDMEnumTaskWOWEx, winprog.vdmenumtaskwowex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: vdmdbg.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	VdmDbg.dll
+api_name:
+-	VDMEnumTaskWOWEx
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # VDMEnumTaskWOWEx function

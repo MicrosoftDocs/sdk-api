@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_KEY_PROV_INFO
+title: "_CRYPT_KEY_PROV_INFO"
+author: windows-sdk-content
+description: The CRYPT_KEY_PROV_INFO structure contains information about a key container within a cryptographic service provider (CSP).
+old-location: security\crypt_key_prov_info.htm
+old-project: SecCrypto
+ms.assetid: 6aea2f47-9d4a-4069-ac6d-f28907df00be
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_KEY_PROV_INFO, AT_KEYEXCHANGE, AT_SIGNATURE, CERT_SET_KEY_PROV_HANDLE_PROP_ID / CERT_SET_KEY_CONTEXT_PROP_ID, CRYPT_KEY_PROV_INFO, CRYPT_KEY_PROV_INFO structure [Security], CRYPT_MACHINE_KEYSET / NCRYPT_MACHINE_KEY_FLAG, CRYPT_SILENT / NCRYPT_SILENT_FLAG, PCRYPT_KEY_PROV_INFO, PCRYPT_KEY_PROV_INFO structure pointer [Security], _CRYPT_KEY_PROV_INFO, _crypto2_crypt_key_prov_info, security.crypt_key_prov_info, wincrypt/CRYPT_KEY_PROV_INFO, wincrypt/PCRYPT_KEY_PROV_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_KEY_PROV_INFO, *PCRYPT_KEY_PROV_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRYPT_KEY_PROV_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_KEY_PROV_INFO structure

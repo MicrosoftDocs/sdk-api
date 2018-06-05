@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincred._CREDENTIALW
+title: "_CREDENTIALW"
+author: windows-sdk-content
+description: The CREDENTIAL structure contains an individual credential.
+old-location: security\credential.htm
+old-project: SecAuthN
+ms.assetid: 6361b93c-4441-4a01-bd39-b95c42962497
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PCREDENTIALW, CREDENTIAL, CREDENTIAL structure [Security], CREDENTIALA, CREDENTIALW, CRED_FLAGS_PROMPT_NOW, CRED_FLAGS_USERNAME_TARGET, CRED_PERSIST_ENTERPRISE, CRED_PERSIST_LOCAL_MACHINE, CRED_PERSIST_SESSION, CRED_TYPE_DOMAIN_CERTIFICATE, CRED_TYPE_DOMAIN_EXTENDED, CRED_TYPE_DOMAIN_PASSWORD, CRED_TYPE_DOMAIN_VISIBLE_PASSWORD, CRED_TYPE_GENERIC, CRED_TYPE_GENERIC_CERTIFICATE, CRED_TYPE_MAXIMUM, CRED_TYPE_MAXIMUM_EX, PCREDENTIAL, PCREDENTIAL structure pointer [Security], _CREDENTIALW, _cred_credential, security.credential, wincred/CREDENTIAL, wincred/CREDENTIALA, wincred/CREDENTIALW, wincred/PCREDENTIAL"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincred.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CREDENTIALW (Unicode) and CREDENTIALA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CREDENTIALW, *PCREDENTIALW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinCred.h
+api_name:
+-	CREDENTIAL
+-	CREDENTIALA
+-	CREDENTIALW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CREDENTIALW structure

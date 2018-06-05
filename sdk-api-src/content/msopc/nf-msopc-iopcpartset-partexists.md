@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msopc.IOpcPartSet.PartExists
+title: IOpcPartSet::PartExists
+author: windows-sdk-content
+description: Gets a value that indicates whether a specified part is represented as a part object in the set.
+old-location: opc\iopcpartset_partexists.htm
+old-project: OPC
+ms.assetid: 721e0252-330a-4218-9267-b3dd0dea7598
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: IOpcPartSet interface [Open Packaging Conventions],PartExists method, IOpcPartSet.PartExists, IOpcPartSet::PartExists, PartExists, PartExists method [Open Packaging Conventions], PartExists method [Open Packaging Conventions],IOpcPartSet interface, msopc/IOpcPartSet::PartExists, opc.iopcpartset_partexists
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Opcobjectmodel.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPC_SIGNATURE_TIME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msopc.h
+api_name:
+-	IOpcPartSet.PartExists
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOpcPartSet::PartExists

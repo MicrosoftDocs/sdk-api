@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:ws2spi.LPWSPJOINLEAF
+title: LPWSPJOINLEAF
+author: windows-sdk-content
+description: The WSPJoinLeaf function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the supplied flow specifications.
+old-location: winsock\wspjoinleaf_2.htm
+old-project: WinSock
+ms.assetid: 3b0451e2-0e4c-4da7-b16c-37c242632bdd
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: LPWSPJOINLEAF, WSPJoinLeaf, WSPJoinLeaf function [Winsock], _win32_wspjoinleaf_2, winsock.wspjoinleaf_2, ws2spi/WSPJoinLeaf
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ws2spi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOCKADDR_INET, *PSOCKADDR_INET
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Ws2spi.h
+api_name:
+-	WSPJoinLeaf
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # LPWSPJOINLEAF callback function

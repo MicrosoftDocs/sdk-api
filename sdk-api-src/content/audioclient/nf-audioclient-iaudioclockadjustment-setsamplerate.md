@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:audioclient.IAudioClockAdjustment.SetSampleRate
+title: IAudioClockAdjustment::SetSampleRate
+author: windows-sdk-content
+description: The SetSampleRate method sets the sample rate of a stream.
+old-location: coreaudio\iaudioclockadjustment_setsamplerate.htm
+old-project: CoreAudio
+ms.assetid: fbb5b525-dc5a-4845-a1fa-ed37281b5c69
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IAudioClockAdjustment interface [Core Audio],SetSampleRate method, IAudioClockAdjustment.SetSampleRate, IAudioClockAdjustment::SetSampleRate, SetSampleRate, SetSampleRate method [Core Audio], SetSampleRate method [Core Audio],IAudioClockAdjustment interface, audioclient/IAudioClockAdjustment::SetSampleRate, coreaudio.iaudioclockadjustment_setsamplerate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	audioclient.h
+api_name:
+-	IAudioClockAdjustment.SetSampleRate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioClockAdjustment::SetSampleRate

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oleauto.VarUI2FromR4
+title: VarUI2FromR4 function
+author: windows-sdk-content
+description: Converts a float value to an unsigned short value.
+old-location: automat\varui2fromr4.htm
+old-project: automat
+ms.assetid: 3db8b903-1b63-4bff-b301-2f270320c842
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: VarUI2FromR4, VarUI2FromR4 function [Automation], _oa96_VarUI2FromR4, automat.varui2fromr4, oleauto/VarUI2FromR4
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: oleauto.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REGKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	OleAut32.dll
+api_name:
+-	VarUI2FromR4
+product: Windows
+targetos: Windows
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VarUI2FromR4 function

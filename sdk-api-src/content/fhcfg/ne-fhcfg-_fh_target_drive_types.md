@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fhcfg._FH_TARGET_DRIVE_TYPES
+title: "_FH_TARGET_DRIVE_TYPES"
+author: windows-sdk-content
+description: Specifies the type of a File History backup target.
+old-location: winprog\fh_target_drive_types.htm
+old-project: DevNotes
+ms.assetid: 4D3F3B57-BD6E-4334-8DF6-ECD317A051EC
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: FH_DRIVE_FIXED, FH_DRIVE_REMOTE, FH_DRIVE_REMOVABLE, FH_DRIVE_UNKNOWN, FH_TARGET_DRIVE_TYPES, FH_TARGET_DRIVE_TYPES enumeration [Windows API], _FH_TARGET_DRIVE_TYPES, fhcfg/FH_DRIVE_FIXED, fhcfg/FH_DRIVE_REMOTE, fhcfg/FH_DRIVE_REMOVABLE, fhcfg/FH_DRIVE_UNKNOWN, fhcfg/FH_TARGET_DRIVE_TYPES, winprog.fh_target_drive_types
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fhcfg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fhcfg.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FH_TARGET_DRIVE_TYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Fhcfg.h
+api_name:
+-	FH_TARGET_DRIVE_TYPES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _FH_TARGET_DRIVE_TYPES enumeration

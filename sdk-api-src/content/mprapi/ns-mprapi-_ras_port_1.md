@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mprapi._RAS_PORT_1
+title: "_RAS_PORT_1"
+author: windows-sdk-content
+description: The RAS_PORT_1 structure contains detailed information regarding a specific RAS port, such as line speed or errors. For more general information about a port, such as port condition or port name, see RAS_PORT_0.
+old-location: rras\ras_port_1.htm
+old-project: RRAS
+ms.assetid: 4850f08e-13ee-485f-99a5-be4554d6311b
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PRAS_PORT_1, PRAS_PORT_1, PRAS_PORT_1 structure pointer [RAS], RAS_PORT_1, RAS_PORT_1 structure [RAS], _RAS_PORT_1, _mpr_ras_port_1, mprapi/PRAS_PORT_1, mprapi/RAS_PORT_1, rras.ras_port_1"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RAS_PORT_1, *PRAS_PORT_1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mprapi.h
+api_name:
+-	RAS_PORT_1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _RAS_PORT_1 structure

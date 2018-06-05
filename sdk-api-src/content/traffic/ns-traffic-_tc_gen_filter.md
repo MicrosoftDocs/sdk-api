@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:traffic._TC_GEN_FILTER
+title: "_TC_GEN_FILTER"
+author: windows-sdk-content
+description: The TC_GEN_FILTER structure creates a filter that matches a certain set of packet attributes or criteria, which can subsequently be used to associate packets that meet the attribute criteria with a particular flow.
+old-location: qos\tc_gen_filter.htm
+old-project: QOS
+ms.assetid: 979bfa2d-50da-43a6-8ead-d338159e31cf
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*PTC_GEN_FILTER, TC_GEN_FILTER, TC_GEN_FILTER structure [QOS], TC_GEN_FILTER), TC_GEN_FILTER) structure [QOS], _TC_GEN_FILTER, _gqos_tc_gen_filter, qos.tc_gen_filter, traffic/TC_GEN_FILTER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: traffic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TC_GEN_FILTER, *PTC_GEN_FILTER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Traffic.h
+api_name:
+-	TC_GEN_FILTER)
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TC_GEN_FILTER structure

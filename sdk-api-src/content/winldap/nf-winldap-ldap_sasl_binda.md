@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winldap.ldap_sasl_bindA
+title: ldap_sasl_bindA function
+author: windows-sdk-content
+description: The ldap_sasl_bind is an asynchronous function that authenticates a client to the LDAP server using SASL.
+old-location: ldap\ldap_sasl_bind.htm
+old-project: LDAP
+ms.assetid: 0de57c82-3d8e-4faa-b1ca-4559ecc326b1
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: "_ldap_ldap_sasl_bind, ldap.ldap__sasl__bind, ldap.ldap_sasl_bind, ldap_sasl_bind, ldap_sasl_bind function [LDAP], ldap_sasl_bindA, ldap_sasl_bindW, winldap/ldap_sasl_bind, winldap/ldap_sasl_bindA, winldap/ldap_sasl_bindW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winldap.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ldap_sasl_bindW (Unicode) and ldap_sasl_bindA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wldap32.dll
+api_name:
+-	ldap_sasl_bind
+-	ldap_sasl_bindA
+-	ldap_sasl_bindW
+product: Windows
+targetos: Windows
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ldap_sasl_bindA function

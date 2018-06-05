@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fwpmu.FwpmProviderContextEnum2
+title: FwpmProviderContextEnum2 function
+author: windows-sdk-content
+description: Returns the next page of results from the provider context enumerator.
+old-location: fwp\fwpmprovidercontextenum2.htm
+old-project: FWP
+ms.assetid: 6c86d858-69f4-41bc-8e08-53c88d124879
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: FwpmProviderContextEnum2, FwpmProviderContextEnum2 function [Filtering], fwp.fwpmprovidercontextenum2, fwpmu/FwpmProviderContextEnum2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fwpmu.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	fwpuclnt.dll
+api_name:
+-	FwpmProviderContextEnum2
+product: Windows
+targetos: Windows
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FwpmProviderContextEnum2 function

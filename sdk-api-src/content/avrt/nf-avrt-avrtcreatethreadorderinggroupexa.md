@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:avrt.AvRtCreateThreadOrderingGroupExA
+title: AvRtCreateThreadOrderingGroupExA function
+author: windows-sdk-content
+description: Creates a thread ordering group and associates the server thread with a task.
+old-location: base\avrtcreatethreadorderinggroupex.htm
+old-project: ProcThread
+ms.assetid: b1ada400-54d9-4238-8d22-97eaa55dcd50
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: AvRtCreateThreadOrderingGroupEx, AvRtCreateThreadOrderingGroupEx function, AvRtCreateThreadOrderingGroupExA, AvRtCreateThreadOrderingGroupExW, avrt/AvRtCreateThreadOrderingGroupEx, avrt/AvRtCreateThreadOrderingGroupExA, avrt/AvRtCreateThreadOrderingGroupExW, base.avrtcreatethreadorderinggroupex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: avrt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: AvRtCreateThreadOrderingGroupExW (Unicode) and AvRtCreateThreadOrderingGroupExA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AVRF_HEAP_ALLOCATION, *PAVRF_HEAP_ALLOCATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Avrt.dll
+api_name:
+-	AvRtCreateThreadOrderingGroupEx
+-	AvRtCreateThreadOrderingGroupExA
+-	AvRtCreateThreadOrderingGroupExW
+product: Windows
+targetos: Windows
+req.lib: Avrt.lib
+req.dll: Avrt.dll
+req.irql: 
 ---
 
 # AvRtCreateThreadOrderingGroupExA function

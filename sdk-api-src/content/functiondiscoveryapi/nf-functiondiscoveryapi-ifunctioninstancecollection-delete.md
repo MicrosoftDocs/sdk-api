@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Delete
+title: IFunctionInstanceCollection::Delete
+author: windows-sdk-content
+description: Removes the specified function instance from the collection.
+old-location: ncd\ifunctioninstancecollection_delete.htm
+old-project: FunDisc
+ms.assetid: e7f94912-9656-4a6b-8754-eb37358b5f9d
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: Delete, Delete method, Delete method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Delete method, IFunctionInstanceCollection.Delete, IFunctionInstanceCollection::Delete, functiondiscoveryapi/IFunctionInstanceCollection::Delete, ncd.ifunctioninstancecollection_delete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: functiondiscoveryapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FunctionDiscoveryAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SystemVisibilityFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FunDisc.dll
+api_name:
+-	IFunctionInstanceCollection.Delete
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFunctionInstanceCollection::Delete

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfobjects._MFVideoInterlaceMode
+title: "_MFVideoInterlaceMode"
+author: windows-sdk-content
+description: Specifies how a video stream is interlaced.
+old-location: mf\mfvideointerlacemode.htm
+old-project: medfound
+ms.assetid: 10a3d7b1-74ed-46cd-b10e-59a8f01726d5
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 10a3d7b1-74ed-46cd-b10e-59a8f01726d5, MFVideoInterlaceMode, MFVideoInterlaceMode enumeration [Media Foundation], MFVideoInterlace_FieldInterleavedLowerFirst, MFVideoInterlace_FieldInterleavedUpperFirst, MFVideoInterlace_FieldSingleLower, MFVideoInterlace_FieldSingleUpper, MFVideoInterlace_ForceDWORD, MFVideoInterlace_Last, MFVideoInterlace_MixedInterlaceOrProgressive, MFVideoInterlace_Progressive, MFVideoInterlace_Unknown, _MFVideoInterlaceMode, mf.mfvideointerlacemode, mfobjects/MFVideoInterlaceMode, mfobjects/MFVideoInterlace_FieldInterleavedLowerFirst, mfobjects/MFVideoInterlace_FieldInterleavedUpperFirst, mfobjects/MFVideoInterlace_FieldSingleLower, mfobjects/MFVideoInterlace_FieldSingleUpper, mfobjects/MFVideoInterlace_ForceDWORD, mfobjects/MFVideoInterlace_Last, mfobjects/MFVideoInterlace_MixedInterlaceOrProgressive, mfobjects/MFVideoInterlace_Progressive, mfobjects/MFVideoInterlace_Unknown
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoInterlaceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfobjects.h
+api_name:
+-	MFVideoInterlaceMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFVideoInterlaceMode enumeration

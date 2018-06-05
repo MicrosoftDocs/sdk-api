@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:d3d11.ID3D11CryptoSession.GetCryptoType
+title: ID3D11CryptoSession::GetCryptoType
+author: windows-sdk-content
+description: Gets the type of encryption that is supported by this session.
+old-location: mf\id3d11cryptosession_getcryptotype.htm
+old-project: medfound
+ms.assetid: D5F62BFA-EA46-4BDD-8D8C-5D9D5BB590B9
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3D11_CRYPTO_TYPE_AES128_CTR, GetCryptoType, GetCryptoType method [Media Foundation], GetCryptoType method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetCryptoType method, ID3D11CryptoSession.GetCryptoType, ID3D11CryptoSession::GetCryptoType, d3d11/ID3D11CryptoSession::GetCryptoType, mf.id3d11cryptosession_getcryptotype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d11.h
+api_name:
+-	ID3D11CryptoSession.GetCryptoType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11CryptoSession::GetCryptoType

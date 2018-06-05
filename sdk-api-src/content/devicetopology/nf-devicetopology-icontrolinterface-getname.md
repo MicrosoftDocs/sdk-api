@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:devicetopology.IControlInterface.GetName
+title: IControlInterface::GetName
+author: windows-sdk-content
+description: The GetName method gets the friendly name for the audio function that the control interface encapsulates.
+old-location: coreaudio\icontrolinterface_getname.htm
+old-project: CoreAudio
+ms.assetid: 591e96ba-aaf1-42ba-9526-f839c30947d3
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetName, GetName method [Core Audio], GetName method [Core Audio],IControlInterface interface, IControlInterface interface [Core Audio],GetName method, IControlInterface.GetName, IControlInterface::GetName, IControlInterfaceGetName, coreaudio.icontrolinterface_getname, devicetopology/IControlInterface::GetName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IControlInterface.GetName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IControlInterface::GetName

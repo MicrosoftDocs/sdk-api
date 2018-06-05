@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0001
+title: "__MIDL___MIDL_itf_msrdc_0000_0000_0001"
+author: windows-sdk-content
+description: Defines the set of RDC-specific error codes.
+old-location: rdc\rdc_errorcode.htm
+old-project: Rdc
+ms.assetid: 32e9eab0-dc6e-4e04-af8a-bc2ed4adf0be
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: RDC_Aborted, RDC_ApplicationError, RDC_DataMissingOrCorrupt, RDC_DataTooManyRecords, RDC_ErrorCode, RDC_ErrorCode enumeration [Remote Differential Compression], RDC_FileChecksumMismatch, RDC_HeaderMissingOrCorrupt, RDC_HeaderVersionNewer, RDC_HeaderVersionOlder, RDC_HeaderWrongType, RDC_NoError, RDC_Win32Error, __MIDL___MIDL_itf_msrdc_0000_0000_0001, fs.rdc_errorcode, msrdc/RDC_Aborted, msrdc/RDC_ApplicationError, msrdc/RDC_DataMissingOrCorrupt, msrdc/RDC_DataTooManyRecords, msrdc/RDC_ErrorCode, msrdc/RDC_FileChecksumMismatch, msrdc/RDC_HeaderMissingOrCorrupt, msrdc/RDC_HeaderVersionNewer, msrdc/RDC_HeaderVersionOlder, msrdc/RDC_HeaderWrongType, msrdc/RDC_NoError, msrdc/RDC_Win32Error, rdc.rdc_errorcode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msrdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: MsRdc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RDC_ErrorCode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	MsRdc.h
+api_name:
+-	RDC_ErrorCode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_msrdc_0000_0000_0001 enumeration

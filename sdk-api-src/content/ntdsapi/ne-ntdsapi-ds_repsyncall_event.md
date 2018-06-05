@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ntdsapi.DS_REPSYNCALL_EVENT
+title: DS_REPSYNCALL_EVENT
+author: windows-sdk-content
+description: The DS_REPSYNCALL_EVENT enumeration is used with the DS_REPSYNCALL_UPDATE structure to define which event the DS_REPSYNCALL_UPDATE structure represents.
+old-location: ad\ds_repsyncall_event.htm
+old-project: AD
+ms.assetid: a732a906-0e26-45f6-b89c-58f2277057ba
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_REPSYNCALL_EVENT, DS_REPSYNCALL_EVENT enumeration [Active Directory], DS_REPSYNCALL_EVENT_ERROR, DS_REPSYNCALL_EVENT_FINISHED, DS_REPSYNCALL_EVENT_SYNC_COMPLETED, DS_REPSYNCALL_EVENT_SYNC_STARTED, ad.ds_repsyncall_event, ntdsapi/DS_REPSYNCALL_EVENT, ntdsapi/DS_REPSYNCALL_EVENT_ERROR, ntdsapi/DS_REPSYNCALL_EVENT_FINISHED, ntdsapi/DS_REPSYNCALL_EVENT_SYNC_COMPLETED, ntdsapi/DS_REPSYNCALL_EVENT_SYNC_STARTED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_REPSYNCALL_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntdsapi.h
+api_name:
+-	DS_REPSYNCALL_EVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: Any level
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DS_REPSYNCALL_EVENT enumeration

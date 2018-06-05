@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagEMRSELECTOBJECT
+title: tagEMRSELECTOBJECT
+author: windows-sdk-content
+description: The EMRSELECTOBJECT and EMRDELETEOBJECT structures contain members for the SelectObject and DeleteObject enhanced metafile records.
+old-location: gdi\emrselectobject__emrdeleteobject.htm
+old-project: gdi
+ms.assetid: 02ec5839-3390-429b-8f0c-6f2e74393c8f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PEMRDELETEOBJECT, *PEMRSELECTOBJECT, EMRDELETEOBJECT, EMRDELETEOBJECT structure [Windows GDI], EMRSELECTOBJECT, EMRSELECTOBJECT structure [Windows GDI], EMRSELECTOBJECT,EMRDELETEOBJECT, EMRSELECTOBJECT,EMRDELETEOBJECT structure [Windows GDI], PEMRDELETEOBJECT, PEMRDELETEOBJECT structure pointer [Windows GDI], PEMRSELECTOBJECT, PEMRSELECTOBJECT structure pointer [Windows GDI], _win32_EMRSELECTOBJECT_str, gdi.emrselectobject__emrdeleteobject, tagEMRSELECTOBJECT, wingdi/EMRDELETEOBJECT, wingdi/EMRSELECTOBJECT,EMRDELETEOBJECT, wingdi/PEMRDELETEOBJECT, wingdi/PEMRSELECTOBJECT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMRSELECTOBJECT, *PEMRSELECTOBJECT, EMRDELETEOBJECT, *PEMRDELETEOBJECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	EMRSELECTOBJECT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagEMRSELECTOBJECT structure

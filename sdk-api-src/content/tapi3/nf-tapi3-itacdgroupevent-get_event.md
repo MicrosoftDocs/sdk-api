@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3.ITACDGroupEvent.get_Event
+title: ITACDGroupEvent::get_Event
+author: windows-sdk-content
+description: The get_Event method gets the descriptor of an event which indicates that a new ACD group has been added.
+old-location: tapi3\itacdgroupevent_get_event.htm
+old-project: Tapi
+ms.assetid: 9bc67911-cfb6-450c-bdc6-ade8d4617271
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITACDGroupEvent interface [TAPI 2.2],get_Event method, ITACDGroupEvent.get_Event, ITACDGroupEvent::get_Event, _tapi3_itacdgroupevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITACDGroupEvent interface, tapi3.itacdgroupevent_get_event, tapi3cc/ITACDGroupEvent::get_Event
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSP_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITACDGroupEvent.get_Event
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITACDGroupEvent::get_Event

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12.D3D12_FENCE_FLAGS
+title: D3D12_FENCE_FLAGS
+author: windows-sdk-content
+description: Specifies fence options.
+old-location: direct3d12\d3d12_fence_flags.htm
+old-project: direct3d12
+ms.assetid: EF725566-B77A-40EE-B5E3-86C5D13CC7D5
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_FENCE_FLAGS, D3D12_FENCE_FLAGS enumeration, D3D12_FENCE_FLAG_NONE, D3D12_FENCE_FLAG_NON_MONITORED, D3D12_FENCE_FLAG_SHARED, D3D12_FENCE_FLAG_SHARED_CROSS_ADAPTER, d3d12/D3D12_FENCE_FLAGS, d3d12/D3D12_FENCE_FLAG_NONE, d3d12/D3D12_FENCE_FLAG_NON_MONITORED, d3d12/D3D12_FENCE_FLAG_SHARED, d3d12/D3D12_FENCE_FLAG_SHARED_CROSS_ADAPTER, direct3d12.d3d12_fence_flags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_FENCE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d12.h
+api_name:
+-	D3D12_FENCE_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_FENCE_FLAGS enumeration

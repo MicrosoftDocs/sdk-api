@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.ITraceDataProviderCollection.Add
+title: ITraceDataProviderCollection::Add
+author: windows-sdk-content
+description: Adds a trace provider to the collection.
+old-location: pla\itracedataprovidercollection_add.htm
+old-project: PLA
+ms.assetid: 3214f25d-1991-439a-b237-61249a531a2b
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: Add, Add method [PLA], Add method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],Add method, ITraceDataProviderCollection.Add, ITraceDataProviderCollection::Add, base.itracedataprovidercollection_add, pla.itracedataprovidercollection_add, pla/ITraceDataProviderCollection::Add
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	ITraceDataProviderCollection.Add
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITraceDataProviderCollection::Add

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:d3d9.IDirect3DCryptoSession9.GetEncryptionBltKey
+title: IDirect3DCryptoSession9::GetEncryptionBltKey
+author: windows-sdk-content
+description: Gets the cryptographic key used to decrypt the data returned by the IDirect3DCryptoSession9::EncryptionBlt method.
+old-location: mf\idirect3dcryptosession9_getencryptionbltkey.htm
+old-project: medfound
+ms.assetid: c06b42b7-dc8a-4004-b2c5-37accc76db40
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetEncryptionBltKey, GetEncryptionBltKey method [Media Foundation], GetEncryptionBltKey method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],GetEncryptionBltKey method, IDirect3DCryptoSession9.GetEncryptionBltKey, IDirect3DCryptoSession9::GetEncryptionBltKey, d3d9/IDirect3DCryptoSession9::GetEncryptionBltKey, mf.idirect3dcryptosession9_getencryptionbltkey
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d9.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d9.h
+api_name:
+-	IDirect3DCryptoSession9.GetEncryptionBltKey
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirect3DCryptoSession9::GetEncryptionBltKey

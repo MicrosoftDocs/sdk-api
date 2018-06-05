@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ctffunc.__MIDL_ITfCandidateList_0001
+title: "__MIDL_ITfCandidateList_0001"
+author: windows-sdk-content
+description: Elements of the TfCandidateResult enumeration are used with the ITfCandidateList::SetResult method to specify the result of a reconversion operation performed on a given candidate string.
+old-location: tsf\tfcandidateresult.htm
+old-project: TSF
+ms.assetid: 8b2b4762-f28d-40e0-b162-5e35e8835c8e
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: CAND_CANCELED, CAND_FINALIZED, CAND_SELECTED, TfCandidateResult, TfCandidateResult enumeration [Text Services Framework], __MIDL_ITfCandidateList_0001, _tsf_tfcandidateresult_ref, ctffunc/CAND_CANCELED, ctffunc/CAND_FINALIZED, ctffunc/CAND_SELECTED, ctffunc/TfCandidateResult, tsf.tfcandidateresult
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ctffunc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ctffunc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TfCandidateResult
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ctffunc.h
+api_name:
+-	TfCandidateResult
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 ---
 
 # __MIDL_ITfCandidateList_0001 enumeration

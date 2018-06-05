@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IComTrackingInfoProperties.PropCount
+title: IComTrackingInfoProperties::PropCount
+author: windows-sdk-content
+description: Retrieves the number of properties defined for a tracking information object.
+old-location: cos\icomtrackinginfoproperties_propcount.htm
+old-project: cossdk
+ms.assetid: f8036da8-3bd4-4500-a707-a43ac9dd5a52
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IComTrackingInfoProperties interface [COM+],PropCount method, IComTrackingInfoProperties.PropCount, IComTrackingInfoProperties::PropCount, PropCount, PropCount method [COM+], PropCount method [COM+],IComTrackingInfoProperties interface, _dtc_IComTrackingInfoProperties_PropCount, comsvcs/IComTrackingInfoProperties::PropCount, cos.icomtrackinginfoproperties_propcount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IComTrackingInfoProperties.PropCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IComTrackingInfoProperties::PropCount

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMFSample.GetSampleDuration
+title: IMFSample::GetSampleDuration
+author: windows-sdk-content
+description: Retrieves the duration of the sample.
+old-location: mf\imfsample_getsampleduration.htm
+old-project: medfound
+ms.assetid: c3284edc-b9b5-489b-9166-3bb6da50bd2a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetSampleDuration, GetSampleDuration method [Media Foundation], GetSampleDuration method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetSampleDuration method, IMFSample.GetSampleDuration, IMFSample::GetSampleDuration, c3284edc-b9b5-489b-9166-3bb6da50bd2a, mf.imfsample_getsampleduration, mfobjects/IMFSample::GetSampleDuration
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFSample.GetSampleDuration
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSample::GetSampleDuration

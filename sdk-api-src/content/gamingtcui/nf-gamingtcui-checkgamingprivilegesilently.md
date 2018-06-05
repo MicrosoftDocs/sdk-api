@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:gamingtcui.CheckGamingPrivilegeSilently
+title: CheckGamingPrivilegeSilently function
+author: windows-sdk-content
+description: Do not use. This API is only supported for Xbox developers.
+old-location: tcui\CheckGamingPrivilegeSilently.htm
+old-project: tcui
+ms.assetid: 1C67C36E-E6E8-45C8-8B89-ED7740F5827C
+ms.author: windowssdkdev
+ms.date: 03/19/2018
+ms.keywords: CheckGamingPrivilegeSilently, CheckGamingPrivilegeSilently function, gamingtcui/CheckGamingPrivilegeSilently, tcui.CheckGamingPrivilegeSilently
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: gamingtcui.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KnownGamingPrivileges
+topic_type:
+-	kbSyntax
+api_type:
+-	<TBD>
+api_location:
+-
+api_name:
+-	CheckGamingPrivilegeSilently
+product: Windows
+targetos: Windows
+req.lib: WindowsApp.lib
+req.dll: Gamingtcui.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # CheckGamingPrivilegeSilently function

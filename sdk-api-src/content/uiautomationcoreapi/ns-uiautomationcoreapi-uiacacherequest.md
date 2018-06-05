@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:uiautomationcoreapi.UiaCacheRequest
+title: UiaCacheRequest
+author: windows-sdk-content
+description: Note  This structure is deprecated.  Contains information about a request to cache data about UI Automation elements.
+old-location: winauto\uiauto_UiaCacheRequestStruct.htm
+old-project: WinAuto
+ms.assetid: 426355e4-50ce-4189-824d-c2256903224c
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: UiaCacheRequest, UiaCacheRequest structure [Windows Accessibility], uiauto.uiauto_UiaCacheRequestStruct, uiauto_UiaCacheRequestStruct, uiautomationcoreapi/UiaCacheRequest, winauto.uiauto_UiaCacheRequestStruct
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: uiautomationcoreapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UIAutomationCoreApi.h
+api_name:
+-	UiaCacheRequest
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # UiaCacheRequest structure

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsock2._WSAQuerySet2W
+title: "_WSAQuerySet2W"
+author: windows-sdk-content
+description: Provides relevant information about a given service, including service class ID, service name , applicable namespace identifier and protocol information, as well as a set of transport addresses at which the service listens.
+old-location: winsock\wsaqueryset2.htm
+old-project: WinSock
+ms.assetid: ffe71de0-3561-481f-b81f-835c6c3a3ee4
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPWSAQUERYSET2W, *PWSAQUERYSET2W, LPWSAQUERYSET2, LPWSAQUERYSET2 structure pointer [Winsock], NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_PNRPCLOUD, NS_PNRPNAME, PWSAQUERYSET2, PWSAQUERYSET2 structure pointer [Winsock], WSAQUERYSET2, WSAQUERYSET2 structure [Winsock], WSAQUERYSET2A, WSAQUERYSET2W, _WSAQuerySet2W, winsock.wsaqueryset2, winsock2/LPWSAQUERYSET2, winsock2/PWSAQUERYSET2, winsock2/WSAQUERYSET2, winsock2/WSAQUERYSET2A, winsock2/WSAQUERYSET2W"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsock2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WSAQUERYSET2W (Unicode) and WSAQUERYSET2A (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSAQUERYSET2W, *PWSAQUERYSET2W, *LPWSAQUERYSET2W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsock2.h
+api_name:
+-	WSAQUERYSET2
+-	WSAQUERYSET2A
+-	WSAQUERYSET2W
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WSAQuerySet2W structure

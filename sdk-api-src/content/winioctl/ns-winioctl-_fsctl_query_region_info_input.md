@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._FSCTL_QUERY_REGION_INFO_INPUT
+title: "_FSCTL_QUERY_REGION_INFO_INPUT"
+author: windows-sdk-content
+description: Contains the storage tier regions from the storage stack for a particular volume.
+old-location: fs\fsctl_query_region_info_input.htm
+old-project: FileIO
+ms.assetid: 2D098A85-F1EA-4538-9BFB-E04092497945
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PFSCTL_QUERY_REGION_INFO_INPUT, FSCTL_QUERY_REGION_INFO_INPUT, FSCTL_QUERY_REGION_INFO_INPUT structure [Files], PFSCTL_QUERY_REGION_INFO_INPUT, PFSCTL_QUERY_REGION_INFO_INPUT structure pointer [Files], _FSCTL_QUERY_REGION_INFO_INPUT, fs.fsctl_query_region_info_input, winioctl/FSCTL_QUERY_REGION_INFO_INPUT, winioctl/PFSCTL_QUERY_REGION_INFO_INPUT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FSCTL_QUERY_REGION_INFO_INPUT, *PFSCTL_QUERY_REGION_INFO_INPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoctl.h
+api_name:
+-	FSCTL_QUERY_REGION_INFO_INPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FSCTL_QUERY_REGION_INFO_INPUT structure

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:nldef._NL_ROUTE_ORIGIN
+title: "_NL_ROUTE_ORIGIN"
+author: windows-sdk-content
+description: The NL_ROUTE_ORIGIN enumeration type defines the origin of the IP route.
+old-location: netvista\nl_route_origin.htm
+old-project: netvista
+ms.assetid: 15f45fe9-5a51-4b4b-ba34-cec2488cd1e0
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PNL_ROUTE_ORIGIN, NL_ROUTE_ORIGIN, NL_ROUTE_ORIGIN enumeration [Network Drivers Starting with Windows Vista], Nlro6to4, NlroDHCP, NlroManual, NlroRouterAdvertisement, NlroWellKnown, PNL_ROUTE_ORIGIN, PNL_ROUTE_ORIGIN enumeration pointer [Network Drivers Starting with Windows Vista], _NL_ROUTE_ORIGIN, iphelper_f6fb2f16-6da7-4f32-895e-8dbb6929f81f.xml, netvista.nl_route_origin, nldef/NL_ROUTE_ORIGIN, nldef/Nlro6to4, nldef/NlroDHCP, nldef/NlroManual, nldef/NlroRouterAdvertisement, nldef/NlroWellKnown, nldef/PNL_ROUTE_ORIGIN"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: nldef.h
+req.include-header: Netioapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NL_ROUTE_ORIGIN, *PNL_ROUTE_ORIGIN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	nldef.h
+api_name:
+-	NL_ROUTE_ORIGIN
+product: Windows
+targetos: Windows
+req.lib: Newdev.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NL_ROUTE_ORIGIN enumeration

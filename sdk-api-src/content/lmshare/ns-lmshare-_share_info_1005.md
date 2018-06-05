@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmshare._SHARE_INFO_1005
+title: "_SHARE_INFO_1005"
+author: windows-sdk-content
+description: Contains information about the shared resource.
+old-location: fs\share_info_1005_str.htm
+old-project: NetShare
+ms.assetid: 9fb3e0ae-76b5-4432-80dd-f3361738aa7c
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPSHARE_INFO_1005, *PSHARE_INFO_1005, CSC_MASK, CSC_MASK_EXT, LPSHARE_INFO_1005, LPSHARE_INFO_1005 structure pointer [Files], PSHARE_INFO_1005, PSHARE_INFO_1005 structure pointer [Files], SHARE_INFO_1005, SHARE_INFO_1005 structure [Files], SHI1005_FLAGS_ACCESS_BASED_DIRECTORY_ENUM, SHI1005_FLAGS_ALLOW_NAMESPACE_CACHING, SHI1005_FLAGS_DFS, SHI1005_FLAGS_DFS_ROOT, SHI1005_FLAGS_ENABLE_CA, SHI1005_FLAGS_ENABLE_HASH, SHI1005_FLAGS_FORCE_LEVELII_OPLOCK, SHI1005_FLAGS_FORCE_SHARED_DELETE, SHI1005_FLAGS_RESTRICT_EXCLUSIVE_OPENS, _SHARE_INFO_1005, _win32_share_info_1005_str, fs.share_info_1005_str, lmshare/LPSHARE_INFO_1005, lmshare/PSHARE_INFO_1005, lmshare/SHARE_INFO_1005, netmgmt.share_info_1005_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmshare.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHARE_INFO_1005, *PSHARE_INFO_1005, *LPSHARE_INFO_1005
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmshare.h
+api_name:
+-	SHARE_INFO_1005
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _SHARE_INFO_1005 structure

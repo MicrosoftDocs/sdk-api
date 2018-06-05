@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vswriter.CVssWriter.OnPreRestore
+title: CVssWriter::OnPreRestore
+author: windows-sdk-content
+description: The OnPreRestore method is called by a writer following a PreRestore event.
+old-location: base\cvsswriter_onprerestore.htm
+old-project: VSS
+ms.assetid: 5f4a6168-4102-4790-81d6-d195a440471f
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: CVssWriter interface [VSS],OnPreRestore method, CVssWriter.OnPreRestore, CVssWriter::OnPreRestore, OnPreRestore, OnPreRestore method [VSS], OnPreRestore method [VSS],CVssWriter interface, _win32_cvsswriter_onprerestore, base.cvsswriter_onprerestore, vswriter/CVssWriter::OnPreRestore
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vswriter.h
+req.include-header: Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	CVssWriter.OnPreRestore
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # CVssWriter::OnPreRestore

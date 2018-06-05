@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:mmddk.MDEVICECAPSEX
+title: MDEVICECAPSEX
+author: windows-sdk-content
+description: The MDEVICECAPSEX structure contains device capability information for Plug and Play (PnP) device drivers.
+old-location: audio\mdevicecapsex.htm
+old-project: audio
+ms.assetid: d2da18d2-4ff3-47a8-9cd9-f8df03eed0a5
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: MDEVICECAPSEX, MDEVICECAPSEX structure [Audio Devices], aud-prop_12e0eeb8-beac-4b01-8a5c-6e78f58f703b.xml, audio.mdevicecapsex, mmddk/MDEVICECAPSEX
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mmddk.h
+req.include-header: Mmddk.h, Mmsystem.h, Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows XP and later Windows operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MDEVICECAPSEX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mmddk.h
+api_name:
+-	MDEVICECAPSEX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MDEVICECAPSEX structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmiutils.IWbemQuery.FreeMemory
+title: IWbemQuery::FreeMemory
+author: windows-sdk-content
+description: The IWbemQuery::FreeMemory method frees the memory that the parser returns to a caller in a previous call to GetAnalysis.
+old-location: wmi\iwbemquery_freememory.htm
+old-project: WmiSdk
+ms.assetid: fbc4329d-73b8-4104-b3e0-e6dc12938b4f
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: FreeMemory, FreeMemory method [Windows Management Instrumentation], FreeMemory method [Windows Management Instrumentation],IWbemQuery interface, IWbemQuery interface [Windows Management Instrumentation],FreeMemory method, IWbemQuery.FreeMemory, IWbemQuery::FreeMemory, _hmm_iwbemquery_freememory, wmi.iwbemquery_freememory, wmiutils/IWbemQuery::FreeMemory
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmiutils.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMIQ_ASSOCQ_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmiutils.dll
+api_name:
+-	IWbemQuery.FreeMemory
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wmiutils.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWbemQuery::FreeMemory

@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationElement3.get_CachedIsPeripheral
+title: IUIAutomationElement3::get_CachedIsPeripheral
+author: windows-sdk-content
+description: Retrieves the cached peripheral UI indicator for the element.
+old-location: winauto\uiauto_IUIAutomationElement3_CachedIsPeripheral.htm
+old-project: WinAuto
+ms.assetid: 3F6D2EE1-CE3B-2E48-7539-555A44D1DBFD
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CachedIsPeripheral property [Windows Accessibility], CachedIsPeripheral property [Windows Accessibility],IUIAutomationElement3 interface, IUIAutomationElement3 interface [Windows Accessibility],CachedIsPeripheral property, IUIAutomationElement3.CachedIsPeripheral, IUIAutomationElement3.get_CachedIsPeripheral, IUIAutomationElement3::CachedIsPeripheral, IUIAutomationElement3::get_CachedIsPeripheral, get_CachedIsPeripheral, uiautomationclient/IUIAutomationElement3::CachedIsPeripheral, uiautomationclient/IUIAutomationElement3::get_CachedIsPeripheral, winauto.uiauto_IUIAutomationElement3_CachedIsPeripheral
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationElement3.CachedIsPeripheral
+-	IUIAutomationElement3.get_CachedIsPeripheral
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationElement3::get_CachedIsPeripheral

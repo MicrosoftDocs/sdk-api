@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:roerrorapi.RO_ERROR_REPORTING_FLAGS
+title: RO_ERROR_REPORTING_FLAGS
+author: windows-sdk-content
+description: Specifies the behavior of the RoOriginateError and RoTransformError functions.
+old-location: winrt\ro_error_reporting_flags.htm
+old-project: WinRT
+ms.assetid: 345E1C4D-4A2F-4E18-9E70-4B8AE25FE8FD
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: RO_ERROR_REPORTING_FLAGS, RO_ERROR_REPORTING_FLAGS enumeration [Windows Runtime], RO_ERROR_REPORTING_FORCEEXCEPTIONS, RO_ERROR_REPORTING_NONE, RO_ERROR_REPORTING_SUPPRESSEXCEPTIONS, RO_ERROR_REPORTING_SUPPRESSSETERRORINFO, RO_ERROR_REPORTING_USESETERRORINFO, roerrorapi/RO_ERROR_REPORTING_FLAGS, roerrorapi/RO_ERROR_REPORTING_FORCEEXCEPTIONS, roerrorapi/RO_ERROR_REPORTING_NONE, roerrorapi/RO_ERROR_REPORTING_SUPPRESSEXCEPTIONS, roerrorapi/RO_ERROR_REPORTING_SUPPRESSSETERRORINFO, roerrorapi/RO_ERROR_REPORTING_USESETERRORINFO, winrt.ro_error_reporting_flags, winrt.winrterrorreportingflags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: roerrorapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	roerrorapi.h
+api_name:
+-	RO_ERROR_REPORTING_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RO_ERROR_REPORTING_FLAGS enumeration

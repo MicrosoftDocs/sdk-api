@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11.ID3D11DeviceContext.IAGetIndexBuffer
+title: ID3D11DeviceContext::IAGetIndexBuffer
+author: windows-sdk-content
+description: Get a pointer to the index buffer that is bound to the input-assembler stage.
+old-location: direct3d11\id3d11devicecontext_iagetindexbuffer.htm
+old-project: direct3d11
+ms.assetid: 948a5cbd-8413-4aaa-b666-7b9adc4705da
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 3fe40bcc-a76c-bfbf-97f0-0ee55d520b2d, IAGetIndexBuffer, IAGetIndexBuffer method [Direct3D 11], IAGetIndexBuffer method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IAGetIndexBuffer method, ID3D11DeviceContext.IAGetIndexBuffer, ID3D11DeviceContext::IAGetIndexBuffer, d3d11/ID3D11DeviceContext::IAGetIndexBuffer, direct3d11.id3d11devicecontext_iagetindexbuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11DeviceContext.IAGetIndexBuffer
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11DeviceContext::IAGetIndexBuffer

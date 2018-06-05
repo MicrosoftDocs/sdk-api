@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rend.ITRendezvous.get_DefaultDirectories
+title: ITRendezvous::get_DefaultDirectories
+author: windows-sdk-content
+description: The get_DefaultDirectories method enumerates all configured default directories. This method is similar to EnumerateDefaultDirectories but is provided for use by Visual Basic and other scripting languages.
+old-location: tapi3\itrendezvous_get_defaultdirectories.htm
+old-project: Tapi
+ms.assetid: 3db02f17-6fb5-467b-91f6-dc501b5472cf
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITRendezvous interface [TAPI 2.2],get_DefaultDirectories method, ITRendezvous.get_DefaultDirectories, ITRendezvous::get_DefaultDirectories, _tapi3_itrendezvous_get_defaultdirectories, get_DefaultDirectories, get_DefaultDirectories method [TAPI 2.2], get_DefaultDirectories method [TAPI 2.2],ITRendezvous interface, rend/ITRendezvous::get_DefaultDirectories, tapi3.itrendezvous_get_defaultdirectories
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rend.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rend.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RND_ADVERTISING_SCOPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Rend.dll
+api_name:
+-	ITRendezvous.get_DefaultDirectories
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITRendezvous::get_DefaultDirectories

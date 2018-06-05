@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wincodec.WICDdsAlphaMode
+title: WICDdsAlphaMode
+author: windows-sdk-content
+description: Specifies the the meaning of pixel color component values contained in the DDS image.
+old-location: wic\wicddsalphamode.htm
+old-project: wic
+ms.assetid: 67C9B07F-5259-4032-9EBF-CBC3B8637343
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WICDdsAlphaMode, WICDdsAlphaMode enumeration [Windows Imaging Component], WICDdsAlphaModeCustom, WICDdsAlphaModeOpaque, WICDdsAlphaModePremultiplied, WICDdsAlphaModeStraight, WICDdsAlphaModeUnknown, wic.wicddsalphamode, wincodec/WICDdsAlphaMode, wincodec/WICDdsAlphaModeCustom, wincodec/WICDdsAlphaModeOpaque, wincodec/WICDdsAlphaModePremultiplied, wincodec/WICDdsAlphaModeStraight, wincodec/WICDdsAlphaModeUnknown
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodec.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICDdsAlphaMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincodec.h
+api_name:
+-	WICDdsAlphaMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WICDdsAlphaMode enumeration

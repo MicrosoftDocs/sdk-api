@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vswriter.VSS_ALTERNATE_WRITER_STATE
+title: VSS_ALTERNATE_WRITER_STATE
+author: windows-sdk-content
+description: Used to indicate whether a given writer has an associated alternate writer.
+old-location: base\vss_alternate_writer_state.htm
+old-project: VSS
+ms.assetid: 8d41fd9d-6448-4bec-a669-4aa50f37cada
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: VSS_ALTERNATE_WRITER_STATE, VSS_ALTERNATE_WRITER_STATE enumeration [VSS], VSS_AWS_ALTERNATE_WRITER_EXISTS, VSS_AWS_NO_ALTERNATE_WRITER, VSS_AWS_THIS_IS_ALTERNATE_WRITER, VSS_AWS_UNDEFINED, _win32_vss_alternate_writer_state, base.vss_alternate_writer_state, enumeration [VSS], vswriter/VSS_ALTERNATE_WRITER_STATE, vswriter/VSS_AWS_ALTERNATE_WRITER_EXISTS, vswriter/VSS_AWS_NO_ALTERNATE_WRITER, vswriter/VSS_AWS_THIS_IS_ALTERNATE_WRITER, vswriter/VSS_AWS_UNDEFINED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vswriter.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_ALTERNATE_WRITER_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VsWriter.h
+api_name:
+-	VSS_ALTERNATE_WRITER_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # VSS_ALTERNATE_WRITER_STATE enumeration

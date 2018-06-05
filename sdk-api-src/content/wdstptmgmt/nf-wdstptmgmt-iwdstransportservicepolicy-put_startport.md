@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wdstptmgmt.IWdsTransportServicePolicy.put_StartPort
+title: IWdsTransportServicePolicy::put_StartPort
+author: windows-sdk-content
+description: Enables a WDS client computer to configure the start of a UDP port range that is used by WDS transport services.
+old-location: wds\iwdstransportservicepolicy_startport.htm
+old-project: Wds
+ms.assetid: 0ef74479-f732-4b7b-8d40-29c359901837
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],StartPort property, IWdsTransportServicePolicy.StartPort, IWdsTransportServicePolicy.put_StartPort, IWdsTransportServicePolicy::StartPort, IWdsTransportServicePolicy::get_StartPort, IWdsTransportServicePolicy::put_StartPort, StartPort property [Windows Deployment Services], StartPort property [Windows Deployment Services],IWdsTransportServicePolicy interface, put_StartPort, wds.iwdstransportservicepolicy_startport, wdstptmgmt/IWdsTransportServicePolicy::StartPort, wdstptmgmt/IWdsTransportServicePolicy::get_StartPort, wdstptmgmt/IWdsTransportServicePolicy::put_StartPort
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wdstptmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,26 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Wdstptmgmt.tlb
+tech.root: 
+req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wdstptmgmt.dll
+api_name:
+-	IWdsTransportServicePolicy.StartPort
+-	IWdsTransportServicePolicy.get_StartPort
+-	IWdsTransportServicePolicy.put_StartPort
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWdsTransportServicePolicy::put_StartPort

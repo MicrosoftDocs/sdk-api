@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwrite_1.DWRITE_PANOSE_SCRIPT_TOPOLOGY
+title: DWRITE_PANOSE_SCRIPT_TOPOLOGY
+author: windows-sdk-content
+description: The DWRITE_PANOSE_SCRIPT_TOPOLOGY enumeration contains values that specify the topology of letterforms.
+old-location: directwrite\dwrite_panose_script_topology.htm
+old-project: DirectWrite
+ms.assetid: 6D546DCF-3812-495C-AAF3-A7C2E14CACA2
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_PANOSE_SCRIPT_TOPOLOGY, DWRITE_PANOSE_SCRIPT_TOPOLOGY enumeration [Direct Write], DWRITE_PANOSE_SCRIPT_TOPOLOGY_ANY, DWRITE_PANOSE_SCRIPT_TOPOLOGY_BLACKLETTER_CONNECTED, DWRITE_PANOSE_SCRIPT_TOPOLOGY_BLACKLETTER_DISCONNECTED, DWRITE_PANOSE_SCRIPT_TOPOLOGY_BLACKLETTER_TRAILING, DWRITE_PANOSE_SCRIPT_TOPOLOGY_CURSIVE_CONNECTED, DWRITE_PANOSE_SCRIPT_TOPOLOGY_CURSIVE_DISCONNECTED, DWRITE_PANOSE_SCRIPT_TOPOLOGY_CURSIVE_TRAILING, DWRITE_PANOSE_SCRIPT_TOPOLOGY_NO_FIT, DWRITE_PANOSE_SCRIPT_TOPOLOGY_ROMAN_CONNECTED, DWRITE_PANOSE_SCRIPT_TOPOLOGY_ROMAN_DISCONNECTED, DWRITE_PANOSE_SCRIPT_TOPOLOGY_ROMAN_TRAILING, directwrite.dwrite_panose_script_topology, dwrite_1/DWRITE_PANOSE_SCRIPT_TOPOLOGY, dwrite_1/DWRITE_PANOSE_SCRIPT_TOPOLOGY_ANY, dwrite_1/DWRITE_PANOSE_SCRIPT_TOPOLOGY_BLACKLETTER_CONNECTED, dwrite_1/DWRITE_PANOSE_SCRIPT_TOPOLOGY_BLACKLETTER_DISCONNECTED, dwrite_1/DWRITE_PANOSE_SCRIPT_TOPOLOGY_BLACKLETTER_TRAILING, dwrite_1/DWRITE_PANOSE_SCRIPT_TOPOLOGY_CURSIVE_CONNECTED, dwrite_1/DWRITE_PANOSE_SCRIPT_TOPOLOGY_CURSIVE_DISCONNECTED, dwrite_1/DWRITE_PANOSE_SCRIPT_TOPOLOGY_CURSIVE_TRAILING, dwrite_1/DWRITE_PANOSE_SCRIPT_TOPOLOGY_NO_FIT, dwrite_1/DWRITE_PANOSE_SCRIPT_TOPOLOGY_ROMAN_CONNECTED, dwrite_1/DWRITE_PANOSE_SCRIPT_TOPOLOGY_ROMAN_DISCONNECTED, dwrite_1/DWRITE_PANOSE_SCRIPT_TOPOLOGY_ROMAN_TRAILING
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dwrite_1.h
+api_name:
+-	DWRITE_PANOSE_SCRIPT_TOPOLOGY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_PANOSE_SCRIPT_TOPOLOGY enumeration

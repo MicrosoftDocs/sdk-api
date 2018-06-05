@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bitscfg.IBITSExtensionSetupFactory.GetObject
+title: IBITSExtensionSetupFactory::GetObject
+author: windows-sdk-content
+description: Use the GetObject method to retrieve a pointer to the IBITSExtensionSetup interface. This method performs the same binding that the ADsGetObject ADSI function performs.
+old-location: bits\ibitsextensionsetupfactory_getobject.htm
+old-project: Bits
+ms.assetid: ac0bb9d5-3f1f-4c9b-bd7d-905e0451bf70
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetObject, GetObject method [BITS], GetObject method [BITS],IBITSExtensionSetupFactory interface, IBITSExtensionSetupFactory interface [BITS],GetObject method, IBITSExtensionSetupFactory.GetObject, IBITSExtensionSetupFactory::GetObject, _drz_ibitsextensionsetupfactory_getobject, bits.ibitsextensionsetupfactory_getobject, bitscfg/IBITSExtensionSetupFactory::GetObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bitscfg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bitscfg.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITS_FILE_PROPERTY_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	BitsMgr.dll
+api_name:
+-	IBITSExtensionSetupFactory.GetObject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: BitsMgr.dll
+req.irql: 
 ---
 
 # IBITSExtensionSetupFactory::GetObject

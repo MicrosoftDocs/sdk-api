@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:comsvcs.tagCOMPLUS_APPTYPE
+title: tagCOMPLUS_APPTYPE
+author: windows-sdk-content
+description: Represents types of applications tracked by the tracker server.
+old-location: cos\complus_apptype.htm
+old-project: cossdk
+ms.assetid: 121d287f-067b-4640-ac81-43904463ded4
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: APPTYPE_LIBRARY, APPTYPE_SERVER, APPTYPE_SWC, APPTYPE_UNKNOWN, COMPLUS_APPTYPE, COMPLUS_APPTYPE enumeration [COM+], comsvcs/APPTYPE_LIBRARY, comsvcs/APPTYPE_SERVER, comsvcs/APPTYPE_SWC, comsvcs/APPTYPE_UNKNOWN, comsvcs/COMPLUS_APPTYPE, cos.complus_apptype, tagCOMPLUS_APPTYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMPLUS_APPTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ComSvcs.h
+api_name:
+-	COMPLUS_APPTYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagCOMPLUS_APPTYPE enumeration

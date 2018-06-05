@@ -1,31 +1,58 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:psapi.GetDeviceDriverFileNameA
+title: GetDeviceDriverFileNameA function
+author: windows-sdk-content
+description: Retrieves the path available for the specified device driver.
+old-location: psapi\getdevicedriverfilename.htm
+old-project: psapi
+ms.assetid: 6ddbcf7e-e41c-4ea7-b60a-01ed5c98c530
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetDeviceDriverFileName, GetDeviceDriverFileName function [PSAPI], GetDeviceDriverFileNameA, GetDeviceDriverFileNameW, K32GetDeviceDriverFileName, K32GetDeviceDriverFileNameA, K32GetDeviceDriverFileNameW, _win32_getdevicedriverfilename, base.getdevicedriverfilename, psapi.getdevicedriverfilename, psapi/GetDeviceDriverFileName, psapi/GetDeviceDriverFileNameA, psapi/GetDeviceDriverFileNameW, psapi/K32GetDeviceDriverFileName, psapi/K32GetDeviceDriverFileNameA, psapi/K32GetDeviceDriverFileNameW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: psapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetDeviceDriverFileNameW (Unicode) and GetDeviceDriverFileNameA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSHNOTIFY, *LPPSHNOTIFY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	Psapi.dll
+-	Psapi.dll
+-	API-MS-Win-Core-PsAPI-Ansi-L1-1-0.dll
+-	API-MS-Win-Core-PsAPI-L1-1-0.dll
+-	KernelBase.dll
+api_name:
+-	GetDeviceDriverFileName
+-	GetDeviceDriverFileNameA
+-	GetDeviceDriverFileNameW
+-	K32GetDeviceDriverFileName
+-	K32GetDeviceDriverFileNameW
+-	K32GetDeviceDriverFileNameA
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # GetDeviceDriverFileNameA function

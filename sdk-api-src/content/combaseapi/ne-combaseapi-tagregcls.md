@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:combaseapi.tagREGCLS
+title: tagREGCLS
+author: windows-sdk-content
+description: Controls the type of connections to a class object.
+old-location: com\regcls.htm
+old-project: com
+ms.assetid: 16bca8e0-9999-4d51-b7f0-87deb7619d89
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: REGCLS, REGCLS enumeration [COM], REGCLS_MULTIPLEUSE, REGCLS_MULTI_SEPARATE, REGCLS_SINGLEUSE, REGCLS_SURROGATE, REGCLS_SUSPENDED, _com_REGCLS, com.regcls, combaseapi/REGCLS, combaseapi/REGCLS_MULTIPLEUSE, combaseapi/REGCLS_MULTI_SEPARATE, combaseapi/REGCLS_SINGLEUSE, combaseapi/REGCLS_SURROGATE, combaseapi/REGCLS_SUSPENDED, tagREGCLS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: combaseapi.h
+req.include-header: Objbase.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ComAdmin.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REGCLS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	combaseapi.h
+api_name:
+-	REGCLS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagREGCLS enumeration

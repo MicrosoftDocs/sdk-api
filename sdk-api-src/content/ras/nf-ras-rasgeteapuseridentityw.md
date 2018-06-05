@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ras.RasGetEapUserIdentityW
+title: RasGetEapUserIdentityW function
+author: windows-sdk-content
+description: The RasGetEapUserIdentity function retrieves identity information for the current user. Use this information to call RasDial with a phone-book entry that requires Extensible Authentication Protocol (EAP).
+old-location: rras\rasgeteapuseridentity.htm
+old-project: RRAS
+ms.assetid: b1b44672-86f3-4d8b-b816-31167a84b05a
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RASEAPF_Logon, RASEAPF_NonInteractive, RASEAPF_Preview, RasGetEapUserIdentity, RasGetEapUserIdentity function [RAS], RasGetEapUserIdentityA, RasGetEapUserIdentityW, _ras_rasgeteapuseridentity, ras/RasGetEapUserIdentity, ras/RasGetEapUserIdentityA, ras/RasGetEapUserIdentityW, rras.rasgeteapuseridentity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ras.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RasGetEapUserIdentityW (Unicode) and RasGetEapUserIdentityA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RASPROJECTION_INFO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rasapi32.dll
+api_name:
+-	RasGetEapUserIdentity
+-	RasGetEapUserIdentityA
+-	RasGetEapUserIdentityW
+product: Windows
+targetos: Windows
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RasGetEapUserIdentityW function

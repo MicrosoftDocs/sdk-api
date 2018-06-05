@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rasdlg.RasDialDlgW
+title: RasDialDlgW function
+author: windows-sdk-content
+description: The RasDialDlg function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation.
+old-location: rras\rasdialdlg.htm
+old-project: RRAS
+ms.assetid: 698a18a1-b302-4b0d-8399-0bbdbe775f08
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RasDialDlg, RasDialDlg function [RAS], RasDialDlgA, RasDialDlgW, _ras_rasdialdlg, rasdlg/RasDialDlg, rasdlg/RasDialDlgA, rasdlg/RasDialDlgW, rras.rasdialdlg
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rasdlg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RasDialDlgW (Unicode) and RasDialDlgA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RASNAPSTATE, *LPRASNAPSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rasdlg.dll
+-	Ext-MS-Win-ras-rasdlg-l1-1-0.dll
+api_name:
+-	RasDialDlg
+-	RasDialDlgA
+-	RasDialDlgW
+product: Windows
+targetos: Windows
+req.lib: Rasdlg.lib
+req.dll: Rasdlg.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RasDialDlgW function

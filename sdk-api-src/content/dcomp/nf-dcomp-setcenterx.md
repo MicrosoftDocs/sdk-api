@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dcomp.SetCenterX
+title: SetCenterX function
+author: windows-sdk-content
+description: Changes or animates the value of the CenterX property of a 3D rotation transform. The CenterX property specifies the x-coordinate of the point about which the rotation is performed. The default value is zero.
+old-location: directcomp\idcompositionrotatetransform3d_setcenterx_overloaded.htm
+old-project: directcomp
+ms.assetid: 2E4924A5-64D0-4415-B345-0DE9A0900258
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IDCompositionRotateTransform3D::SetCenterX, SetCenterX, SetCenterX methods [DirectComposition], dcomp/SetCenterX, directcomp.idcompositionrotatetransform3d_setcenterx_overloaded
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dcomp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D_VECTOR_4F
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dcomp.dll
+api_name:
+-	IDCompositionRotateTransform3D::SetCenterX
+product: Windows
+targetos: Windows
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 ---
 
 # SetCenterX function

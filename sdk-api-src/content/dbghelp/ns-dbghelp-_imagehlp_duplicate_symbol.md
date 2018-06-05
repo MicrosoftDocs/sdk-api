@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dbghelp._IMAGEHLP_DUPLICATE_SYMBOL
+title: "_IMAGEHLP_DUPLICATE_SYMBOL"
+author: windows-sdk-content
+description: Contains duplicate symbol information.
+old-location: base\imagehlp_duplicate_symbol64_str.htm
+old-project: Debug
+ms.assetid: 47ef96d5-94ba-487c-8678-59ddd18ad449
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PIMAGEHLP_DUPLICATE_SYMBOL, IMAGEHLP_DUPLICATE_SYMBOL, IMAGEHLP_DUPLICATE_SYMBOL structure, IMAGEHLP_DUPLICATE_SYMBOL64, IMAGEHLP_DUPLICATE_SYMBOL64 structure, PIMAGEHLP_DUPLICATE_SYMBOL64, PIMAGEHLP_DUPLICATE_SYMBOL64 structure pointer, _IMAGEHLP_DUPLICATE_SYMBOL, _IMAGEHLP_DUPLICATE_SYMBOL64, _win32_imagehlp_duplicate_symbol64_str, base.imagehlp_duplicate_symbol64_str, dbghelp/IMAGEHLP_DUPLICATE_SYMBOL64, dbghelp/PIMAGEHLP_DUPLICATE_SYMBOL64"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_DUPLICATE_SYMBOL, *PIMAGEHLP_DUPLICATE_SYMBOL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DbgHelp.h
+api_name:
+-	IMAGEHLP_DUPLICATE_SYMBOL64
+-	IMAGEHLP_DUPLICATE_SYMBOL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _IMAGEHLP_DUPLICATE_SYMBOL structure

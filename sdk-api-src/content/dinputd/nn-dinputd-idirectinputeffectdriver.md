@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:dinputd.IDirectInputEffectDriver
+title: IDirectInputEffectDriver
+author: windows-sdk-content
+description: These three methods allow additional interfaces to be added to the DirectInputEffectDriver object without affecting the functionality of the original interface.
+old-location: hid\idirectinputeffectdriver.htm
+old-project: hid
+ms.assetid: 8071dcc8-21e3-4157-827c-18e4f2abf303
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: IDirectInputEffectDriver, IDirectInputEffectDriver interface [Human Input Devices], IDirectInputEffectDriver interface [Human Input Devices],described, di_ref_298f3a98-21fc-407e-8a6a-a50249fe6a12.xml, dinputd/IDirectInputEffectDriver, hid.idirectinputeffectdriver
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: dinputd.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dinputd.h
+api_name:
+-	IDirectInputEffectDriver
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputEffectDriver interface

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fhcfg._FH_PROTECTED_ITEM_CATEGORY
+title: "_FH_PROTECTED_ITEM_CATEGORY"
+author: windows-sdk-content
+description: Specifies the type of an inclusion or exclusion list.
+old-location: winprog\fh_protected_item_category.htm
+old-project: DevNotes
+ms.assetid: 40AE4FB7-B81D-4CC1-B1A2-53952AE538DD
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*PFH_PROTECTED_ITEM_CATEGORY, FH_FOLDER, FH_LIBRARY, FH_PROTECTED_ITEM_CATEGORY, FH_PROTECTED_ITEM_CATEGORY enumeration [Windows API], MAX_PROTECTED_ITEM_CATEGORY, _FH_PROTECTED_ITEM_CATEGORY, fhcfg/FH_FOLDER, fhcfg/FH_LIBRARY, fhcfg/FH_PROTECTED_ITEM_CATEGORY, fhcfg/MAX_PROTECTED_ITEM_CATEGORY, winprog.fh_protected_item_category"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fhcfg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fhcfg.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FH_PROTECTED_ITEM_CATEGORY, *PFH_PROTECTED_ITEM_CATEGORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Fhcfg.h
+api_name:
+-	FH_PROTECTED_ITEM_CATEGORY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _FH_PROTECTED_ITEM_CATEGORY enumeration

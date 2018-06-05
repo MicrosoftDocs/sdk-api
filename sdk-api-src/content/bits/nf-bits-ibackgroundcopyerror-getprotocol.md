@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bits.IBackgroundCopyError.GetProtocol
+title: IBackgroundCopyError::GetProtocol
+author: windows-sdk-content
+description: Retrieves the protocol used to transfer the file. The remote file name identifies the protocol to use to transfer the file.
+old-location: bits\ibackgroundcopyerror_getprotocol.htm
+old-project: Bits
+ms.assetid: 94c1fcc8-7132-41db-9a1c-cbe105e3b0bb
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetProtocol, GetProtocol method [BITS], GetProtocol method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetProtocol method, IBackgroundCopyError.GetProtocol, IBackgroundCopyError::GetProtocol, _drz_ibackgroundcopyerror_getprotocol, bits.ibackgroundcopyerror_getprotocol, bits/IBackgroundCopyError::GetProtocol
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_PROXY_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	QmgrPrxy.dll
+api_name:
+-	IBackgroundCopyError.GetProtocol
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 ---
 
 # IBackgroundCopyError::GetProtocol

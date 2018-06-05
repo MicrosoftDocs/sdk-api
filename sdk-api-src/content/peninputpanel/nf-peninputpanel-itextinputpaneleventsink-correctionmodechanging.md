@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:peninputpanel.ITextInputPanelEventSink.CorrectionModeChanging
+title: ITextInputPanelEventSink::CorrectionModeChanging
+author: windows-sdk-content
+description: Occurs when the correction comb on the Tablet PC Input Panel is about to change modes.
+old-location: tablet\itextinputpaneleventsink_correctionmodechanging.htm
+old-project: tablet
+ms.assetid: f20b77dc-a04f-4bd3-9aa0-3a0c3d98e4a8
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: CorrectionModeChanging, CorrectionModeChanging method [Tablet PC], CorrectionModeChanging method [Tablet PC],ITextInputPanelEventSink interface, ITextInputPanelEventSink interface [Tablet PC],CorrectionModeChanging method, ITextInputPanelEventSink.CorrectionModeChanging, ITextInputPanelEventSink::CorrectionModeChanging, f20b77dc-a04f-4bd3-9aa0-3a0c3d98e4a8, peninputpanel/ITextInputPanelEventSink::CorrectionModeChanging, tablet.itextinputpaneleventsink_correctionmodechanging
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: peninputpanel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EventMask
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tiptsf.dll
+api_name:
+-	ITextInputPanelEventSink.CorrectionModeChanging
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITextInputPanelEventSink::CorrectionModeChanging

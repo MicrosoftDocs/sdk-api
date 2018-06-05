@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bthsdpdef._SdpAttributeRange
+title: "_SdpAttributeRange"
+author: windows-sdk-content
+description: The SdpAttributeRange structure is used in a Bluetooth query to constrain the set of attributes to return in the query.
+old-location: bluetooth\sdpattributerange.htm
+old-project: Bluetooth
+ms.assetid: 2b8bf753-a3c4-4a41-89c7-0caac76cfd33
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: SdpAttributeRange, SdpAttributeRange structure [Bluetooth], _SdpAttributeRange, bluetooth.sdpattributerange, bthsdpdef/SdpAttributeRange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bthsdpdef.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SdpAttributeRange
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bthsdpdef.h
+api_name:
+-	SdpAttributeRange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _SdpAttributeRange structure

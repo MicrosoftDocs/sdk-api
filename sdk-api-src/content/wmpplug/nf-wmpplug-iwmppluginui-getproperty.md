@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmpplug.IWMPPluginUI.GetProperty
+title: IWMPPluginUI::GetProperty
+author: windows-sdk-content
+description: The GetProperty method is called by Windows Media Player to retrieve name/value property pairs from the plug-in.
+old-location: wmp\iwmppluginui_getproperty.htm
+old-project: WMP
+ms.assetid: f01d0700-2399-4e33-8a0c-59bb1f0f2495
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: GetProperty, GetProperty method [Windows Media Player], GetProperty method [Windows Media Player],IWMPPluginUI interface, IWMPPluginUI interface [Windows Media Player],GetProperty method, IWMPPluginUI.GetProperty, IWMPPluginUI::GetProperty, IWMPPluginUIGetProperty, wmp.iwmppluginui_getproperty, wmpplug/IWMPPluginUI::GetProperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmpplug.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmpplug.h
+api_name:
+-	IWMPPluginUI.GetProperty
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPPluginUI::GetProperty

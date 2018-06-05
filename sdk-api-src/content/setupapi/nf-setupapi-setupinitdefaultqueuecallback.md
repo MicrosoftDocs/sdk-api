@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:setupapi.SetupInitDefaultQueueCallback
+title: SetupInitDefaultQueueCallback function
+author: windows-sdk-content
+description: The SetupInitDefaultQueueCallback function initializes the context used by the default queue callback routine included with the Setup API.
+old-location: setup\setupinitdefaultqueuecallback.htm
+old-project: SetupApi
+ms.assetid: 3ee7da67-42ff-4ea1-9c7f-6c0dcc3dc0b4
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: SetupInitDefaultQueueCallback, SetupInitDefaultQueueCallback function [Setup API], _setupapi_setupinitdefaultqueuecallback, setup.setupinitdefaultqueuecallback, setupapi/SetupInitDefaultQueueCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: setupapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Setupapi.dll
+api_name:
+-	SetupInitDefaultQueueCallback
+product: Windows
+targetos: Windows
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetupInitDefaultQueueCallback function

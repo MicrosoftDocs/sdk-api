@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagEMRMODIFYWORLDTRANSFORM
+title: tagEMRMODIFYWORLDTRANSFORM
+author: windows-sdk-content
+description: The EMRMODIFYWORLDTRANSFORM structure contains members for the ModifyWorldTransform enhanced metafile record.
+old-location: gdi\emrmodifyworldtransform.htm
+old-project: gdi
+ms.assetid: 61d51fc9-a8dd-4981-940d-eedc8936360a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PEMRMODIFYWORLDTRANSFORM, EMRMODIFYWORLDTRANSFORM, EMRMODIFYWORLDTRANSFORM structure [Windows GDI], PEMRMODIFYWORLDTRANSFORM, PEMRMODIFYWORLDTRANSFORM structure pointer [Windows GDI], _win32_EMRMODIFYWORLDTRANSFORM_str, gdi.emrmodifyworldtransform, tagEMRMODIFYWORLDTRANSFORM, wingdi/EMRMODIFYWORLDTRANSFORM, wingdi/PEMRMODIFYWORLDTRANSFORM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMRMODIFYWORLDTRANSFORM, *PEMRMODIFYWORLDTRANSFORM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	EMRMODIFYWORLDTRANSFORM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagEMRMODIFYWORLDTRANSFORM structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oaidl.ICreateTypeInfo.SetGuid
+title: ICreateTypeInfo::SetGuid
+author: windows-sdk-content
+description: Sets the globally unique identifier (GUID) associated with the type description.
+old-location: automat\icreatetypeinfo_setguid.htm
+old-project: automat
+ms.assetid: 031bc83d-8e0c-49da-aa15-cd44af469592
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: ICreateTypeInfo interface [Automation],SetGuid method, ICreateTypeInfo.SetGuid, ICreateTypeInfo::SetGuid, SetGuid, SetGuid method [Automation], SetGuid method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetGuid, automat.icreatetypeinfo_setguid, oaidl/ICreateTypeInfo::SetGuid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OaIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ICreateTypeInfo.SetGuid
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ICreateTypeInfo::SetGuid

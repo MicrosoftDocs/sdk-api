@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:workspaceruntime.IWorkspaceScriptable.ClearWorkspaceCredential
+title: IWorkspaceScriptable::ClearWorkspaceCredential
+author: windows-sdk-content
+description: Deletes the user credentials associated with the specified connection ID.
+old-location: termserv\iworkspacescriptable_clearworkspacecredential.htm
+old-project: TermServ
+ms.assetid: f21df395-3ff7-43c0-b1cd-010ae2c1d16b
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ClearWorkspaceCredential, ClearWorkspaceCredential method [Remote Desktop Services], ClearWorkspaceCredential method [Remote Desktop Services],IWorkspaceScriptable interface, ClearWorkspaceCredential method [Remote Desktop Services],IWorkspaceScriptable2 interface, ClearWorkspaceCredential method [Remote Desktop Services],IWorkspaceScriptable3 interface, ClearWorkspaceCredential method [Remote Desktop Services],Workspace object, IWorkspaceScriptable interface [Remote Desktop Services],ClearWorkspaceCredential method, IWorkspaceScriptable.ClearWorkspaceCredential, IWorkspaceScriptable2 interface [Remote Desktop Services],ClearWorkspaceCredential method, IWorkspaceScriptable2::ClearWorkspaceCredential, IWorkspaceScriptable3 interface [Remote Desktop Services],ClearWorkspaceCredential method, IWorkspaceScriptable3::ClearWorkspaceCredential, IWorkspaceScriptable::ClearWorkspaceCredential, Workspace object [Remote Desktop Services],ClearWorkspaceCredential method, termserv.iworkspacescriptable_clearworkspacecredential, workspaceruntime/IWorkspaceScriptable2::ClearWorkspaceCredential, workspaceruntime/IWorkspaceScriptable3::ClearWorkspaceCredential, workspaceruntime/IWorkspaceScriptable::ClearWorkspaceCredential
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: workspaceruntime.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WorkspaceRuntime.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Wksprt.exe
+tech.root: 
+req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wksprt.exe
+api_name:
+-	IWorkspaceScriptable.ClearWorkspaceCredential
+-	IWorkspaceScriptable2.ClearWorkspaceCredential
+-	IWorkspaceScriptable3.ClearWorkspaceCredential
+-	Workspace.ClearWorkspaceCredential
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWorkspaceScriptable::ClearWorkspaceCredential

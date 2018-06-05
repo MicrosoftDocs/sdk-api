@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:directmanipulation.IDirectManipulationManager3.GetService
+title: IDirectManipulationManager3::GetService
+author: windows-sdk-content
+description: Retrieves an IDirectManipulationDeferContactService object.
+old-location: directmanipulation\idirectmanipulationmanager3_getservice.htm
+old-project: directmanipulation
+ms.assetid: 36f46402-ed71-41d8-8df5-02ef59819bb3
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetService, GetService method [Direct Manipulation], GetService method [Direct Manipulation],IDirectManipulationManager3 interface, IDirectManipulationManager3 interface [Direct Manipulation],GetService method, IDirectManipulationManager3.GetService, IDirectManipulationManager3::GetService, directmanipulation.idirectmanipulationmanager3_getservice, directmanipulation/IDirectManipulationManager3::GetService
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DirectManipulation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DirectManipulation.h
+api_name:
+-	IDirectManipulationManager3.GetService
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectManipulationManager3::GetService

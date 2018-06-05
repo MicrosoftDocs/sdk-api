@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:portabledeviceapi.IPortableDeviceDispatchFactory
+title: IPortableDeviceDispatchFactory
+author: windows-sdk-content
+description: Represents a factory that can instantiate a WPD Automation Device object.
+old-location: wpdauto\iportabledevicedispatchfactory_interface.htm
+old-project: wpdauto
+ms.assetid: 537551c9-0773-44a9-b602-7d2a6bf9ad00
+ms.author: windowssdkdev
+ms.date: 04/05/2018
+ms.keywords: IPortableDeviceDispatchFactory, IPortableDeviceDispatchFactory interface [WPD Automation], IPortableDeviceDispatchFactory interface [WPD Automation],described, portabledeviceapi/IPortableDeviceDispatchFactory, wpdauto.iportabledevicedispatchfactory_interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: portabledeviceapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceGuids.lib
+-	PortableDeviceGuids.dll
+api_name:
+-	IPortableDeviceDispatchFactory
+product: Windows
+targetos: Windows
+req.lib: PortableDeviceGuids.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPortableDeviceDispatchFactory interface

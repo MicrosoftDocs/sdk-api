@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl._TT_HITTESTINFOW
+title: "_TT_HITTESTINFOW"
+author: windows-sdk-content
+description: Contains information that a tooltip control uses to determine whether a point is in the bounding rectangle of the specified tool. If the point is in the rectangle, the structure receives information about the tool.
+old-location: controls\TTHITTESTINFO.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\tooltip\structures\tthittestinfo.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPTTHITTESTINFOW, LPHITTESTINFO, LPHITTESTINFO structure pointer [Windows Controls], TTHITTESTINFO, TTHITTESTINFO structure [Windows Controls], TTHITTESTINFOA, TTHITTESTINFOW, _TT_HITTESTINFOW, _win32_TTHITTESTINFO, _win32_TTHITTESTINFO_cpp, commctrl/LPHITTESTINFO, commctrl/TTHITTESTINFO, commctrl/TTHITTESTINFOA, commctrl/TTHITTESTINFOW, controls.TTHITTESTINFO, controls._win32_TTHITTESTINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: TTHITTESTINFOW (Unicode) and TTHITTESTINFOA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TTHITTESTINFOW, *LPTTHITTESTINFOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	TTHITTESTINFO
+-	TTHITTESTINFOA
+-	TTHITTESTINFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _TT_HITTESTINFOW structure

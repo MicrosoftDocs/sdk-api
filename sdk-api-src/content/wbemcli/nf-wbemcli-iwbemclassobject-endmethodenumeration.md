@@ -1,31 +1,57 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemClassObject.EndMethodEnumeration
+title: IWbemClassObject::EndMethodEnumeration
+author: windows-sdk-content
+description: The IWbemClassObject::EndMethodEnumeration method is used to terminate a method enumeration sequence started with IWbemClassObject::BeginMethodEnumeration.
+old-location: wmi\iwbemclassobject_endmethodenumeration.htm
+old-project: WmiSdk
+ms.assetid: 7a6de467-65f7-4873-a2dd-9c52c138b1d2
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: EndMethodEnumeration, EndMethodEnumeration method [Windows Management Instrumentation], EndMethodEnumeration method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],EndMethodEnumeration method, IWbemClassObject.EndMethodEnumeration, IWbemClassObject::EndMethodEnumeration, _hmm_iwbemclassobject_endmethodenumeration, wbemcli/IWbemClassObject::EndMethodEnumeration, wmi.iwbemclassobject_endmethodenumeration
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WbemCli.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CIMWin32.dll
+-	Esscli.dll
+-	Fastprox.dll
+-	FrameDyn.dll
+-	FrameDynOS.dll
+-	Krnlprov.dll
+-	Ncprov.dll
+-	Wbemcore.dll
+-	Wbemess.dll
+-	Wmipiprt.dll
+api_name:
+-	IWbemClassObject.EndMethodEnumeration
+product: Windows
+targetos: Windows
+req.lib: WbemUuid.lib
+req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemClassObject::EndMethodEnumeration

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:propsys.IPropertyEnumType.GetEnumType
+title: IPropertyEnumType::GetEnumType
+author: windows-sdk-content
+description: Gets an enumeration type from an enumeration information structure.
+old-location: properties\IPropertyEnumType_GetEnumType.htm
+old-project: properties
+ms.assetid: f73ad824-5605-4c3c-b623-debdebdf5780
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetEnumType, GetEnumType method [Windows Properties], GetEnumType method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetEnumType method, IPropertyEnumType.GetEnumType, IPropertyEnumType::GetEnumType, PET_DEFAULTVALUE, PET_DISCRETEVALUE, PET_ENDRANGE, PET_RANGEDVALUE, _shell_IPropertyEnumType_GetEnumType, properties.IPropertyEnumType_GetEnumType, propsys/IPropertyEnumType::GetEnumType, shell.IPropertyEnumType_GetEnumType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Propsys.h
+api_name:
+-	IPropertyEnumType.GetEnumType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyEnumType::GetEnumType

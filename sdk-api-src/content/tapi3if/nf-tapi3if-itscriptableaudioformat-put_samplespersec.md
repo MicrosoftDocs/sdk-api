@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITScriptableAudioFormat.put_SamplesPerSec
+title: ITScriptableAudioFormat::put_SamplesPerSec
+author: windows-sdk-content
+description: The put_SamplesPerSec method sets the nSamplesPerSec member in the WAVEFORMATEX structure.
+old-location: tapi3\itscriptableaudioformat_put_samplespersec.htm
+old-project: Tapi
+ms.assetid: 9cf0d204-3623-4c93-9f75-39c39aa20f76
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_SamplesPerSec method, ITScriptableAudioFormat.put_SamplesPerSec, ITScriptableAudioFormat::put_SamplesPerSec, _tapi3_itscriptableaudioformat_put_samplespersec, put_SamplesPerSec, put_SamplesPerSec method [TAPI 2.2], put_SamplesPerSec method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_samplespersec, tapi3if/ITScriptableAudioFormat::put_SamplesPerSec
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITScriptableAudioFormat.put_SamplesPerSec
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITScriptableAudioFormat::put_SamplesPerSec

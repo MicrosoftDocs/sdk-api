@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:x3daudio.X3DAUDIO_EMITTER
+title: X3DAUDIO_EMITTER
+author: windows-sdk-content
+description: Defines a single-point or multiple-point 3D audio source that is used with an arbitrary number of sound channels.
+old-location: xaudio2\x3daudio_emitter.htm
+old-project: xaudio2
+ms.assetid: T:Microsoft.directx_sdk.x3daudio.X3DAUDIO_EMITTER
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: "*LPX3DAUDIO_EMITTER, LPX3DAUDIO_EMITTER, LPX3DAUDIO_EMITTER structure pointer [XAudio2 Audio Mixing APIs], X3DAUDIO_EMITTER, X3DAUDIO_EMITTER structure [XAudio2 Audio Mixing APIs], x3daudio/LPX3DAUDIO_EMITTER, x3daudio/X3DAUDIO_EMITTER, xaudio2.x3daudio_emitter"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: x3daudio.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X3DAUDIO_EMITTER, *LPX3DAUDIO_EMITTER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	x3daudio.h
+api_name:
+-	X3DAUDIO_EMITTER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # X3DAUDIO_EMITTER structure

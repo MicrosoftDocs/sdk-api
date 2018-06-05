@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certbcli.CertSrvRestorePrepareW
+title: CertSrvRestorePrepareW function
+author: windows-sdk-content
+description: Prepares a Certificate Services instance for restore operations.
+old-location: security\certsrvrestoreprepare.htm
+old-project: SecCrypto
+ms.assetid: e607b61c-9636-40e6-abba-74152f37b49e
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CSRESTORE_TYPE_FULL, CertSrvRestorePrepare, CertSrvRestorePrepare function [Security], CertSrvRestorePrepareW, _certsrv_certsrvrestoreprepare, certbcli/CertSrvRestorePrepare, certbcli/CertSrvRestorePrepareW, security.certsrvrestoreprepare
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: certbcli.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CertSrvRestorePrepareW (Unicode)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Certadm.dll
+api_name:
+-	CertSrvRestorePrepare
+-	CertSrvRestorePrepareW
+product: Windows
+targetos: Windows
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # CertSrvRestorePrepareW function

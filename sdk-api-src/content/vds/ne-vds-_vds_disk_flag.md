@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_DISK_FLAG
+title: "_VDS_DISK_FLAG"
+author: windows-sdk-content
+description: Defines the set of valid flags for a disk object.Note   Except for VDS_DF_READ_ONLY, these flags cannot be set by using the IVdsDisk::SetFlags method or cleared by using the IVdsDisk::ClearFlags method.
+old-location: base\vds_disk_flag.htm
+old-project: VDS
+ms.assetid: a421a1c1-a82c-4e07-846c-10aa2082ab86
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_DF_AUDIO_CD, VDS_DF_BOOT_DISK, VDS_DF_BOOT_FROM_DISK, VDS_DF_CLUSTERED, VDS_DF_CRASHDUMP_DISK, VDS_DF_CURRENT_READ_ONLY, VDS_DF_DYNAMIC, VDS_DF_HAS_ARC_PATH, VDS_DF_HIBERNATIONFILE_DISK, VDS_DF_HOTSPARE, VDS_DF_MASKED, VDS_DF_PAGEFILE_DISK, VDS_DF_READ_ONLY, VDS_DF_RESERVE_CAPABLE, VDS_DF_STYLE_CONVERTIBLE, VDS_DF_SYSTEM_DISK, VDS_DISK_FLAG, VDS_DISK_FLAG enumeration [VDS], _VDS_DISK_FLAG, base.vds_disk_flag, vds/VDS_DF_AUDIO_CD, vds/VDS_DF_BOOT_DISK, vds/VDS_DF_BOOT_FROM_DISK, vds/VDS_DF_CLUSTERED, vds/VDS_DF_CRASHDUMP_DISK, vds/VDS_DF_CURRENT_READ_ONLY, vds/VDS_DF_DYNAMIC, vds/VDS_DF_HAS_ARC_PATH, vds/VDS_DF_HIBERNATIONFILE_DISK, vds/VDS_DF_HOTSPARE, vds/VDS_DF_MASKED, vds/VDS_DF_PAGEFILE_DISK, vds/VDS_DF_READ_ONLY, vds/VDS_DF_RESERVE_CAPABLE, vds/VDS_DF_STYLE_CONVERTIBLE, vds/VDS_DF_SYSTEM_DISK, vds/VDS_DISK_FLAG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_DISK_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	VDS_DISK_FLAG
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_DISK_FLAG enumeration

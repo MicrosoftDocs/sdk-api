@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shobjidl_core.CATEGORY_INFO
+title: CATEGORY_INFO
+author: windows-sdk-content
+description: Contains category information. A component category is a group of logically-related Component Object Model (COM) classes that share a common category identifier (CATID).
+old-location: shell\CATEGORY_INFO.htm
+old-project: shell
+ms.assetid: 6198cd31-94db-4d31-9cc9-f8b90e661809
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CATEGORY_INFO, CATEGORY_INFO structure [Windows Shell], inet_CATEGORY_INFO, shell.CATEGORY_INFO, shobjidl_core/CATEGORY_INFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CATEGORY_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	CATEGORY_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # CATEGORY_INFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMFCollection.GetElementCount
+title: IMFCollection::GetElementCount
+author: windows-sdk-content
+description: Retrieves the number of objects in the collection.
+old-location: mf\imfcollection_getelementcount.htm
+old-project: medfound
+ms.assetid: 4bd46f66-0542-4185-b50e-163cc3b4e2f8
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 4bd46f66-0542-4185-b50e-163cc3b4e2f8, GetElementCount, GetElementCount method [Media Foundation], GetElementCount method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],GetElementCount method, IMFCollection.GetElementCount, IMFCollection::GetElementCount, mf.imfcollection_getelementcount, mfobjects/IMFCollection::GetElementCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFCollection.GetElementCount
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFCollection::GetElementCount

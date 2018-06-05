@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:msdrm.DRMCreateRight
+title: DRMCreateRight function
+author: windows-sdk-content
+description: Creates an XrML right that will define a right granted to a user or group.
+old-location: rm\drmcreateright.htm
+old-project: AdRms_Sdk
+ms.assetid: 05074fbd-9268-41b4-a916-a932dc7a7858
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DRMCreateRight, DRMCreateRight function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateRight, rm.drmcreateright
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msdrm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_SELECTIONSTYLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msdrm.dll
+api_name:
+-	DRMCreateRight
+product: Windows
+targetos: Windows
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DRMCreateRight function

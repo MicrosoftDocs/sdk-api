@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:p2p.PeerCollabAsyncInviteEndpoint
+title: PeerCollabAsyncInviteEndpoint function
+author: windows-sdk-content
+description: Sends an invitation to a specified peer endpoint to join the sender's peer collaboration activity. The availability of the response to the invitation is updated through an asynchronous event.
+old-location: p2p\peercollabasyncinviteendpoint.htm
+old-project: P2PSdk
+ms.assetid: 2606d2ef-26d3-4c52-b481-3ea38350295a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PeerCollabAsyncInviteEndpoint, PeerCollabAsyncInviteEndpoint function [Peer Networking], p2p.peercollabasyncinviteendpoint, p2p/PeerCollabAsyncInviteEndpoint
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEER_WATCH_PERMISSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	P2P.dll
+api_name:
+-	PeerCollabAsyncInviteEndpoint
+product: Windows
+targetos: Windows
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PeerCollabAsyncInviteEndpoint function

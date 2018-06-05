@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dxgi1_2.DXGI_OUTDUPL_POINTER_POSITION
+title: DXGI_OUTDUPL_POINTER_POSITION
+author: windows-sdk-content
+description: The DXGI_OUTDUPL_POINTER_POSITION structure describes the position of the hardware cursor.
+old-location: direct3ddxgi\dxgi_outdupl_pointer_position.htm
+old-project: direct3ddxgi
+ms.assetid: CCD55021-8F67-463D-BA00-46D8B9D22B9A
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGI_OUTDUPL_POINTER_POSITION, DXGI_OUTDUPL_POINTER_POSITION structure [DXGI], direct3ddxgi.dxgi_outdupl_pointer_position, dxgi1_2/DXGI_OUTDUPL_POINTER_POSITION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxgi1_2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_OUTDUPL_POINTER_POSITION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DXGI1_2.h
+api_name:
+-	DXGI_OUTDUPL_POINTER_POSITION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DXGI_OUTDUPL_POINTER_POSITION structure

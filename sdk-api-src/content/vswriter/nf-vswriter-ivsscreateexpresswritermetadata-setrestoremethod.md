@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vswriter.IVssCreateExpressWriterMetadata.SetRestoreMethod
+title: IVssCreateExpressWriterMetadata::SetRestoreMethod
+author: windows-sdk-content
+description: Specifies how an express writer's data is to be restored.
+old-location: base\ivsscreateexpresswritermetadata_setrestoremethod.htm
+old-project: VSS
+ms.assetid: 220e399b-aafd-4b72-bef4-abc3f39f202f
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IVssCreateExpressWriterMetadata interface,SetRestoreMethod method, IVssCreateExpressWriterMetadata.SetRestoreMethod, IVssCreateExpressWriterMetadata::SetRestoreMethod, SetRestoreMethod, SetRestoreMethod method, SetRestoreMethod method,IVssCreateExpressWriterMetadata interface, base.ivsscreateexpresswritermetadata_setrestoremethod, vswriter/IVssCreateExpressWriterMetadata::SetRestoreMethod
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vswriter.h
+req.include-header: Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssCreateExpressWriterMetadata.SetRestoreMethod
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssCreateExpressWriterMetadata::SetRestoreMethod

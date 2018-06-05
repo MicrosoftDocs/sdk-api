@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imagehlp.ImageEnumerateCertificates
+title: ImageEnumerateCertificates function
+author: windows-sdk-content
+description: Retrieves information about the certificates currently contained in an image file.
+old-location: base\imageenumeratecertificates.htm
+old-project: Debug
+ms.assetid: 5f2e4fb7-180a-4172-9c38-5f65dfd29f69
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: ImageEnumerateCertificates, ImageEnumerateCertificates function, _win32_imageenumeratecertificates, base.imageenumeratecertificates, imagehlp/ImageEnumerateCertificates
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: imagehlp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Imagehlp.dll
+api_name:
+-	ImageEnumerateCertificates
+product: Windows
+targetos: Windows
+req.lib: Imagehlp.lib
+req.dll: Imagehlp.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ImageEnumerateCertificates function

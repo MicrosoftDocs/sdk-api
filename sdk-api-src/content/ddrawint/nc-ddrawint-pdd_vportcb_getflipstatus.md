@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_VPORTCB_GETFLIPSTATUS
+title: PDD_VPORTCB_GETFLIPSTATUS
+author: windows-sdk-content
+description: The DdVideoPortGetFlipStatus callback function determines whether the most recently requested flip on a surface has occurred.
+old-location: display\ddvideoportgetflipstatus.htm
+old-project: display
+ms.assetid: 67a7aa80-2201-4bb7-919b-dd9ca1228f06
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DdVideoPortGetFlipStatus, DdVideoPortGetFlipStatus callback function [Display Devices], PDD_VPORTCB_GETFLIPSTATUS, PDD_VPORTCB_GETFLIPSTATUS callback, ddfncs_b5004bc9-0486-40b0-9be0-b17b10b0241a.xml, ddrawint/DdVideoPortGetFlipStatus, display.ddvideoportgetflipstatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdVideoPortGetFlipStatus
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_VPORTCB_GETFLIPSTATUS callback function

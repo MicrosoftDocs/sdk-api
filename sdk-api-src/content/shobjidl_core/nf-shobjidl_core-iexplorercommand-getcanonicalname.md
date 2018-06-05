@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IExplorerCommand.GetCanonicalName
+title: IExplorerCommand::GetCanonicalName
+author: windows-sdk-content
+description: Gets the GUID of an Windows Explorer command.
+old-location: shell\IExplorerCommand_GetCanonicalName.htm
+old-project: shell
+ms.assetid: c0f2fc66-98f5-404f-9d82-0290ed235ac0
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetCanonicalName, GetCanonicalName method [Windows Shell], GetCanonicalName method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetCanonicalName method, IExplorerCommand.GetCanonicalName, IExplorerCommand::GetCanonicalName, _shell_IExplorerCommand_GetCanonicalName, shell.IExplorerCommand_GetCanonicalName, shobjidl_core/IExplorerCommand::GetCanonicalName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	IExplorerCommand.GetCanonicalName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IExplorerCommand::GetCanonicalName

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPLibrary.isIdentical
+title: IWMPLibrary::isIdentical
+author: windows-sdk-content
+description: The isIdentical method retrieves a value that indicates whether the supplied object is the same as the current one.
+old-location: wmp\iwmplibrary_isidentical.htm
+old-project: WMP
+ms.assetid: af121fc7-6a9a-4c1a-bea4-433e62ca19e3
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPLibrary interface [Windows Media Player],isIdentical method, IWMPLibrary.isIdentical, IWMPLibrary::isIdentical, IWMPLibraryisIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_isidentical, wmp/IWMPLibrary::isIdentical
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPLibrary.isIdentical
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPLibrary::isIdentical

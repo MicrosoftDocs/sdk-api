@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsock2.in_addr
+title: in_addr
+author: windows-sdk-content
+description: The in_addr structure represents an IPv4 Internet address.
+old-location: winsock\in_addr_2.htm
+old-project: WinSock
+ms.assetid: fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: FAR *LPIN_ADDR, FAR *LPIN_ADDR structure [Winsock], IN_ADDR, IN_ADDR [Winsock], IN_ADDR structure [Winsock], PIN_ADDR, PIN_ADDR structure pointer [Winsock], _win32_in_addr_2, in_addr, in_addr structure [Winsock], inaddr/FAR *LPIN_ADDR, inaddr/PIN_ADDR, inaddr/in_addr, winsock.in_addr_2, winsock2/FAR *LPIN_ADDR, winsock2/PIN_ADDR, winsock2/in_addr
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsock2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Inaddr.h
+-	Winsock2.h
+api_name:
+-	IN_ADDR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # in_addr structure

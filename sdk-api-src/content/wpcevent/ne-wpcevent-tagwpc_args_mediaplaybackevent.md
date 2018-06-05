@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wpcevent.tagWPC_ARGS_MEDIAPLAYBACKEVENT
+title: tagWPC_ARGS_MEDIAPLAYBACKEVENT
+author: windows-sdk-content
+description: Indicates information about the playback of a media file.
+old-location: parcon\wpc_args_mediaplaybackevent.htm
+old-project: parcon
+ms.assetid: 1d541892-25f2-4a7b-918d-3445751d5f8d
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WPC_ARGS_MEDIAPLAYBACKEVENT, WPC_ARGS_MEDIAPLAYBACKEVENT enumeration, WPC_ARGS_MEDIAPLAYBACKEVENT_ALBUM, WPC_ARGS_MEDIAPLAYBACKEVENT_APPNAME, WPC_ARGS_MEDIAPLAYBACKEVENT_APPVERSION, WPC_ARGS_MEDIAPLAYBACKEVENT_CARGS, WPC_ARGS_MEDIAPLAYBACKEVENT_EXPLICIT, WPC_ARGS_MEDIAPLAYBACKEVENT_MEDIATYPE, WPC_ARGS_MEDIAPLAYBACKEVENT_PATH, WPC_ARGS_MEDIAPLAYBACKEVENT_PML, WPC_ARGS_MEDIAPLAYBACKEVENT_REASON, WPC_ARGS_MEDIAPLAYBACKEVENT_TITLE, parcon.wpc_args_mediaplaybackevent, tagWPC_ARGS_MEDIAPLAYBACKEVENT, wpcevent/WPC_ARGS_MEDIAPLAYBACKEVENT, wpcevent/WPC_ARGS_MEDIAPLAYBACKEVENT_ALBUM, wpcevent/WPC_ARGS_MEDIAPLAYBACKEVENT_APPNAME, wpcevent/WPC_ARGS_MEDIAPLAYBACKEVENT_APPVERSION, wpcevent/WPC_ARGS_MEDIAPLAYBACKEVENT_CARGS, wpcevent/WPC_ARGS_MEDIAPLAYBACKEVENT_EXPLICIT, wpcevent/WPC_ARGS_MEDIAPLAYBACKEVENT_MEDIATYPE, wpcevent/WPC_ARGS_MEDIAPLAYBACKEVENT_PATH, wpcevent/WPC_ARGS_MEDIAPLAYBACKEVENT_PML, wpcevent/WPC_ARGS_MEDIAPLAYBACKEVENT_REASON, wpcevent/WPC_ARGS_MEDIAPLAYBACKEVENT_TITLE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wpcevent.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WPC_ARGS_MEDIAPLAYBACKEVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wpcevent.h
+api_name:
+-	WPC_ARGS_MEDIAPLAYBACKEVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagWPC_ARGS_MEDIAPLAYBACKEVENT enumeration

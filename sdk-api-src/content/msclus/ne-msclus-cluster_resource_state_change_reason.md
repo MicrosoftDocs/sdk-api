@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msclus.CLUSTER_RESOURCE_STATE_CHANGE_REASON
+title: CLUSTER_RESOURCE_STATE_CHANGE_REASON
+author: windows-sdk-content
+description: Used by the CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT and CLUSCTL_RESOURCE_STATE_CHANGE_REASON control codes to describe the reason for a resource state change.
+old-location: mscs\cluster_resource_state_change_reason.htm
+old-project: MsCS
+ms.assetid: f9071688-24c2-4b00-ac66-6cf0363bccf2
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_RESOURCE_STATE_CHANGE_REASON, CLUSTER_RESOURCE_STATE_CHANGE_REASON enumeration [Failover Cluster], _CLUSTER_RESOURCE_STATE_CHANGE_REASON, _CLUSTER_RESOURCE_STATE_CHANGE_REASON enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_STATE_CHANGE_REASON, clusapi/_CLUSTER_RESOURCE_STATE_CHANGE_REASON, clusapi/eResourceStateChangeReasonFailedMove, clusapi/eResourceStateChangeReasonFailover, clusapi/eResourceStateChangeReasonMove, clusapi/eResourceStateChangeReasonRundown, clusapi/eResourceStateChangeReasonShutdown, clusapi/eResourceStateChangeReasonUnknown, eResourceStateChangeReasonFailedMove, eResourceStateChangeReasonFailover, eResourceStateChangeReasonMove, eResourceStateChangeReasonRundown, eResourceStateChangeReasonShutdown, eResourceStateChangeReasonUnknown, msclus/CLUSTER_RESOURCE_STATE_CHANGE_REASON, msclus/_CLUSTER_RESOURCE_STATE_CHANGE_REASON, msclus/eResourceStateChangeReasonFailedMove, msclus/eResourceStateChangeReasonFailover, msclus/eResourceStateChangeReasonMove, msclus/eResourceStateChangeReasonRundown, msclus/eResourceStateChangeReasonShutdown, msclus/eResourceStateChangeReasonUnknown, mscs.cluster_resource_state_change_reason
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_RESOURCE_STATE_CHANGE_REASON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSTER_RESOURCE_STATE_CHANGE_REASON
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CLUSTER_RESOURCE_STATE_CHANGE_REASON enumeration

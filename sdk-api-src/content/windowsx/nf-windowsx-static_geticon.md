@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:windowsx.Static_GetIcon
+title: Static_GetIcon macro
+author: windows-sdk-content
+description: Retrieves a handle to the icon associated with a static control that has the SS_ICON style. You can use this macro or send the STM_GETICON message explicitly.
+old-location: controls\Static_GetIcon.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_geticon.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: Static_GetIcon, Static_GetIcon macro [Windows Controls], _win32_Static_GetIcon, _win32_Static_GetIcon_cpp, controls.Static_GetIcon, controls._win32_Static_GetIcon, windowsx/Static_GetIcon
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: windowsx.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HANDLE_SHARING_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Windowsx.h
+api_name:
+-	Static_GetIcon
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # Static_GetIcon macro

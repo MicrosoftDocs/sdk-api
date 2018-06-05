@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITAddress2.NegotiateExtVersion
+title: ITAddress2::NegotiateExtVersion
+author: windows-sdk-content
+description: The NegotiateExtVersion method allows an application to negotiate an extension version to use with the specified line device. This method need not be called if the application does not support provider-specific extensions.
+old-location: tapi3\itaddress2_negotiateextversion.htm
+old-project: Tapi
+ms.assetid: 219b5c74-f999-4bb7-9e13-59c6ade9da46
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITAddress2 interface [TAPI 2.2],NegotiateExtVersion method, ITAddress2.NegotiateExtVersion, ITAddress2::NegotiateExtVersion, NegotiateExtVersion, NegotiateExtVersion method [TAPI 2.2], NegotiateExtVersion method [TAPI 2.2],ITAddress2 interface, _tapi3_itaddress2_negotiateextversion, tapi3.itaddress2_negotiateextversion, tapi3if/ITAddress2::NegotiateExtVersion
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAddress2.NegotiateExtVersion
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAddress2::NegotiateExtVersion

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dbghelp._IMAGEHLP_GET_TYPE_INFO_PARAMS
+title: "_IMAGEHLP_GET_TYPE_INFO_PARAMS"
+author: windows-sdk-content
+description: Contains type information for a module.
+old-location: base\imagehlp_get_type_info_params_str.htm
+old-project: Debug
+ms.assetid: f3885945-9a96-49d9-a535-7b37220e1da4
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PIMAGEHLP_GET_TYPE_INFO_PARAMS, IMAGEHLP_GET_TYPE_INFO_CHILDREN, IMAGEHLP_GET_TYPE_INFO_PARAMS, IMAGEHLP_GET_TYPE_INFO_PARAMS structure, IMAGEHLP_GET_TYPE_INFO_UNCACHED, PIMAGEHLP_GET_TYPE_INFO_PARAMS, PIMAGEHLP_GET_TYPE_INFO_PARAMS structure pointer, _IMAGEHLP_GET_TYPE_INFO_PARAMS, base.imagehlp_get_type_info_params_str, dbghelp/IMAGEHLP_GET_TYPE_INFO_PARAMS, dbghelp/PIMAGEHLP_GET_TYPE_INFO_PARAMS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_GET_TYPE_INFO_PARAMS, *PIMAGEHLP_GET_TYPE_INFO_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DbgHelp.h
+api_name:
+-	IMAGEHLP_GET_TYPE_INFO_PARAMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _IMAGEHLP_GET_TYPE_INFO_PARAMS structure

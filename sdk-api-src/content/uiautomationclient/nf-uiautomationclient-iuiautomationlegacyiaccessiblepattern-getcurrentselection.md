@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.GetCurrentSelection
+title: IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection
+author: windows-sdk-content
+description: Retrieves the Microsoft Active Accessibility property that identifies the selected children of this element.
+old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection.htm
+old-project: WinAuto
+ms.assetid: 7fe666dc-2168-44a0-87f2-f444fd2a70f2
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: GetCurrentSelection, GetCurrentSelection method [Windows Accessibility], GetCurrentSelection method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],GetCurrentSelection method, IUIAutomationLegacyIAccessiblePattern.GetCurrentSelection, IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection, uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationLegacyIAccessiblePattern.GetCurrentSelection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection

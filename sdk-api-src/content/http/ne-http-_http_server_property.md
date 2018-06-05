@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:http._HTTP_SERVER_PROPERTY
+title: "_HTTP_SERVER_PROPERTY"
+author: windows-sdk-content
+description: Defines the properties that are configured by the HTTP Server API on a URL group, server session, or request queue.
+old-location: http\http_server_property.htm
+old-project: Http
+ms.assetid: 14865796-135c-43c2-955a-fdeae05a8278
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_SERVER_PROPERTY, *PHTTP_SERVER_PROPERTY enumeration [HTTP], HTTP_SERVER_PROPERTY, HTTP_SERVER_PROPERTY enumeration [HTTP], HttpServer503VerbosityProperty, HttpServerAuthenticationProperty, HttpServerBindingProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerListenEndpointProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, _HTTP_SERVER_PROPERTY, http.http_server_property, http/*PHTTP_SERVER_PROPERTY, http/HTTP_SERVER_PROPERTY, http/HttpServer503VerbosityProperty, http/HttpServerAuthenticationProperty, http/HttpServerBindingProperty, http/HttpServerChannelBindProperty, http/HttpServerExtendedAuthenticationProperty, http/HttpServerListenEndpointProperty, http/HttpServerLoggingProperty, http/HttpServerQosProperty, http/HttpServerQueueLengthProperty, http/HttpServerStateProperty, http/HttpServerTimeoutsProperty"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_SERVER_PROPERTY, *PHTTP_SERVER_PROPERTY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_SERVER_PROPERTY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_SERVER_PROPERTY enumeration

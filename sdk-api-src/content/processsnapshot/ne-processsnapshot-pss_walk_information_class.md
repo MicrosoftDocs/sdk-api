@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:processsnapshot.PSS_WALK_INFORMATION_CLASS
+title: PSS_WALK_INFORMATION_CLASS
+author: windows-sdk-content
+description: Specifies what information the PssWalkSnapshot function returns.
+old-location: proc_snap\pss_walk_information_class.htm
+old-project: proc_snap
+ms.assetid: 93A79F7F-2164-4F7A-ADE7-C1655EEFC9BF
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: PSS_WALK_AUXILIARY_PAGES, PSS_WALK_HANDLES, PSS_WALK_INFORMATION_CLASS, PSS_WALK_INFORMATION_CLASS enumeration, PSS_WALK_THREADS, PSS_WALK_VA_SPACE, proc_snap.pss_walk_information_class, processsnapshot/PSS_WALK_AUXILIARY_PAGES, processsnapshot/PSS_WALK_HANDLES, processsnapshot/PSS_WALK_INFORMATION_CLASS, processsnapshot/PSS_WALK_THREADS, processsnapshot/PSS_WALK_VA_SPACE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: processsnapshot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSS_WALK_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	processsnapshot.h
+api_name:
+-	PSS_WALK_INFORMATION_CLASS
+product: Windows
+targetos: Windows
+req.lib: Prntvpt.lib
+req.dll: Prntvpt.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSS_WALK_INFORMATION_CLASS enumeration

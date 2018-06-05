@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:filehc.FindSyncContextFromName
+title: FindSyncContextFromName function
+author: windows-sdk-content
+description: Retrieves the FIO_CONTEXT structure that is associated with the specified user name.
+old-location: winprog\_findsynccontextfromname.htm
+old-project: DevNotes
+ms.assetid: 1528b545-6d04-4315-a0ca-cebef6144fe9
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: FindSyncContextFromName, FindSyncContextFromName function [Windows API], filehc/FindSyncContextFromName, winprog._findsynccontextfromname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: filehc.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Fcachdll.dll
+api_name:
+-	FindSyncContextFromName
+product: Windows
+targetos: Windows
+req.lib: Fcachdll.lib
+req.dll: Fcachdll.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FindSyncContextFromName function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl.__MIDL___MIDL_itf_mfidl_0000_0031_0001
+title: "__MIDL___MIDL_itf_mfidl_0000_0031_0001"
+author: windows-sdk-content
+description: Indicates whether the URL is from a trusted source.
+old-location: mf\mf_url_trust_status.htm
+old-project: medfound
+ms.assetid: fd008a23-71f7-4718-a51a-ee88453b6fdd
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_LICENSE_URL_TAMPERED, MF_LICENSE_URL_TRUSTED, MF_LICENSE_URL_UNTRUSTED, MF_URL_TRUST_STATUS, MF_URL_TRUST_STATUS enumeration [Media Foundation], __MIDL___MIDL_itf_mfidl_0000_0031_0001, fd008a23-71f7-4718-a51a-ee88453b6fdd, mf.mf_url_trust_status, mfidl/MF_LICENSE_URL_TAMPERED, mfidl/MF_LICENSE_URL_TRUSTED, mfidl/MF_LICENSE_URL_UNTRUSTED, mfidl/MF_URL_TRUST_STATUS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_URL_TRUST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MF_URL_TRUST_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_mfidl_0000_0031_0001 enumeration

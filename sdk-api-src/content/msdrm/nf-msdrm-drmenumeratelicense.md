@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:msdrm.DRMEnumerateLicense
+title: DRMEnumerateLicense function
+author: windows-sdk-content
+description: Enumerates valid licenses, machine certificates or rights account certificates, revocation lists for the current user, or issuance license templates.
+old-location: rm\drmenumeratelicense.htm
+old-project: AdRms_Sdk
+ms.assetid: 7a7797f2-d219-4a17-ac3d-96134cd14a55
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DRMEnumerateLicense, DRMEnumerateLicense function [Active Directory Rights Management Services SDK 1.0], DRM_EL_CLIENTLICENSOR, DRM_EL_CLIENTLICENSOR_LID, DRM_EL_EUL, DRM_EL_EUL_LID, DRM_EL_EXPIRED, DRM_EL_GROUPIDENTITY, DRM_EL_GROUPIDENTITY_LID, DRM_EL_GROUPIDENTITY_NAME, DRM_EL_ISSUANCELICENSE_TEMPLATE, DRM_EL_ISSUANCELICENSE_TEMPLATE_LID, DRM_EL_ISSUERNAME, DRM_EL_MACHINE, DRM_EL_REVOCATIONLIST, DRM_EL_REVOCATIONLIST_LID, DRM_EL_SPECIFIED_CLIENTLICENSOR, DRM_EL_SPECIFIED_GROUPIDENTITY, msdrm/DRMEnumerateLicense, rm.drmenumeratelicense
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msdrm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_SELECTIONSTYLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msdrm.dll
+api_name:
+-	DRMEnumerateLicense
+product: Windows
+targetos: Windows
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DRMEnumerateLicense function

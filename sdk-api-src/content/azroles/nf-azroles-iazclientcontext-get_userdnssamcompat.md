@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzClientContext.get_UserDnsSamCompat
+title: IAzClientContext::get_UserDnsSamCompat
+author: windows-sdk-content
+description: Retrieves the name of the current client in a DNS format compatible with Windows&#160;Security&#160;Account&#160;Manager (SAM).
+old-location: security\iazclientcontext_userdnssamcompat.htm
+old-project: SecAuthZ
+ms.assetid: 8f2739cd-3add-4a3c-9c00-8b23d2cec068
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AzClientContext object [Security],UserDnsSamCompat property, IAzClientContext interface [Security],UserDnsSamCompat property, IAzClientContext.UserDnsSamCompat, IAzClientContext.get_UserDnsSamCompat, IAzClientContext::UserDnsSamCompat, IAzClientContext::get_UserDnsSamCompat, UserDnsSamCompat property [Security], UserDnsSamCompat property [Security],AzClientContext object, UserDnsSamCompat property [Security],IAzClientContext interface, azroles/IAzClientContext::UserDnsSamCompat, azroles/IAzClientContext::get_UserDnsSamCompat, get_UserDnsSamCompat, security.iazclientcontext_userdnssamcompat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzClientContext.UserDnsSamCompat
+-	IAzClientContext.get_UserDnsSamCompat
+-	AzClientContext.UserDnsSamCompat
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzClientContext::get_UserDnsSamCompat

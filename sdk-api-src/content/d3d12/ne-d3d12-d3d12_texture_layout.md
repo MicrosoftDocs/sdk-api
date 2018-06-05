@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12.D3D12_TEXTURE_LAYOUT
+title: D3D12_TEXTURE_LAYOUT
+author: windows-sdk-content
+description: Specifies texture layout options.
+old-location: direct3d12\d3d12_texture_layout.htm
+old-project: direct3d12
+ms.assetid: 1C61B658-9CA1-493C-8DBC-86313D0D302F
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_TEXTURE_LAYOUT, D3D12_TEXTURE_LAYOUT enumeration, D3D12_TEXTURE_LAYOUT_64KB_STANDARD_SWIZZLE, D3D12_TEXTURE_LAYOUT_64KB_UNDEFINED_SWIZZLE, D3D12_TEXTURE_LAYOUT_ROW_MAJOR, D3D12_TEXTURE_LAYOUT_UNKNOWN, d3d12/D3D12_TEXTURE_LAYOUT, d3d12/D3D12_TEXTURE_LAYOUT_64KB_STANDARD_SWIZZLE, d3d12/D3D12_TEXTURE_LAYOUT_64KB_UNDEFINED_SWIZZLE, d3d12/D3D12_TEXTURE_LAYOUT_ROW_MAJOR, d3d12/D3D12_TEXTURE_LAYOUT_UNKNOWN, direct3d12.d3d12_texture_layout
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_TEXTURE_LAYOUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D12.h
+api_name:
+-	D3D12_TEXTURE_LAYOUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_TEXTURE_LAYOUT enumeration

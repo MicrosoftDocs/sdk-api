@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:netsh._NS_CONTEXT_ATTRIBUTES
+title: "_NS_CONTEXT_ATTRIBUTES"
+author: windows-sdk-content
+description: Defines attributes of a context.
+old-location: netshell\ns_context_attributes.htm
+old-project: NetShell
+ms.assetid: 5041801d-384d-4faf-b0df-2a76b083facd
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PNS_CONTEXT_ATTRIBUTES, CMD_FLAG_INTERACTIVE, CMD_FLAG_LOCAL, CMD_FLAG_ONLINE, CMD_FLAG_PRIORITY, NS_CONTEXT_ATTRIBUTES, NS_CONTEXT_ATTRIBUTES structure [NetShell], PNS_CONTEXT_ATTRIBUTES, PNS_CONTEXT_ATTRIBUTES structure pointer [NetShell], _NS_CONTEXT_ATTRIBUTES, _netsh_ns_context_attributes, netsh/NS_CONTEXT_ATTRIBUTES, netsh/PNS_CONTEXT_ATTRIBUTES, netshell.ns_context_attributes"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: netsh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NS_CONTEXT_ATTRIBUTES, *PNS_CONTEXT_ATTRIBUTES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Netsh.h
+api_name:
+-	NS_CONTEXT_ATTRIBUTES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NS_CONTEXT_ATTRIBUTES structure

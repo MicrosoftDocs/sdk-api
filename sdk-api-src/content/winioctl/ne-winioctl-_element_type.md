@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winioctl._ELEMENT_TYPE
+title: "_ELEMENT_TYPE"
+author: windows-sdk-content
+description: Specifies the element type of a changer device.
+old-location: base\element_type_str.htm
+old-project: DevIO
+ms.assetid: b026d0f5-133d-4138-a727-80bf4480bb74
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*PELEMENT_TYPE, AllElements, ChangerDoor, ChangerDrive, ChangerIEPort, ChangerKeypad, ChangerSlot, ChangerTransport, ELEMENT_TYPE, ELEMENT_TYPE enumeration, PELEMENT_TYPE, PELEMENT_TYPE enumeration pointer, _ELEMENT_TYPE, _win32_element_type_str, base.element_type_str, winioctl/AllElements, winioctl/ChangerDoor, winioctl/ChangerDrive, winioctl/ChangerIEPort, winioctl/ChangerKeypad, winioctl/ChangerSlot, winioctl/ChangerTransport, winioctl/ELEMENT_TYPE, winioctl/PELEMENT_TYPE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	ELEMENT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _ELEMENT_TYPE enumeration

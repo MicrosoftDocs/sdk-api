@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_MOCOMPCB_GETINTERNALINFO
+title: PDD_MOCOMPCB_GETINTERNALINFO
+author: windows-sdk-content
+description: The DdMoCompGetInternalInfo callback function allows the driver to report that it internally allocates display memory to perform motion compensation.
+old-location: display\ddmocompgetinternalinfo.htm
+old-project: display
+ms.assetid: 297ff4a2-52f4-4b24-9abe-9c7d22a9b3ad
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DdMoCompGetInternalInfo, DdMoCompGetInternalInfo callback function [Display Devices], PDD_MOCOMPCB_GETINTERNALINFO, PDD_MOCOMPCB_GETINTERNALINFO callback, ddfncs_0dc5afc5-0e35-49eb-a376-afbfe5def553.xml, ddrawint/DdMoCompGetInternalInfo, display.ddmocompgetinternalinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdMoCompGetInternalInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_MOCOMPCB_GETINTERNALINFO callback function

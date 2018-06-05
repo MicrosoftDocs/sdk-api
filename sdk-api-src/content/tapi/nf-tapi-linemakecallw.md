@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi.lineMakeCallW
+title: lineMakeCallW function
+author: windows-sdk-content
+description: The lineMakeCall function places a call on the specified line to the specified destination address. Optionally, call parameters can be specified if anything but default call setup parameters are requested.
+old-location: tapi2\linemakecall.htm
+old-project: Tapi
+ms.assetid: a7dc9cdc-3cc3-4b6a-98c8-e141402c781e
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "_tapi2_linemakecall, lineMakeCall, lineMakeCall function [TAPI 2.2], lineMakeCallA, lineMakeCallW, tapi/lineMakeCall, tapi/lineMakeCallA, tapi/lineMakeCallW, tapi2.linemakecall"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: lineMakeCallW (Unicode) and lineMakeCallA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FLICK_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tapi32.dll
+api_name:
+-	lineMakeCall
+-	lineMakeCallA
+-	lineMakeCallW
+product: Windows
+targetos: Windows
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # lineMakeCallW function

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:nspapi.GetTypeByNameW
+title: GetTypeByNameW function
+author: windows-sdk-content
+description: The GetTypeByName function retrieves a service type GUID for a network service specified by name.
+old-location: winsock\gettypebyname_2.htm
+old-project: WinSock
+ms.assetid: 177bbae5-bc00-4ce5-a0f7-8474f0c2cb2e
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: GetTypeByName, GetTypeByName function [Winsock], GetTypeByNameA, GetTypeByNameW, _win32_gettypebyname_2, nspapi/GetTypeByName, nspapi/GetTypeByNameA, nspapi/GetTypeByNameW, winsock.gettypebyname_2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: nspapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetTypeByNameW (Unicode) and GetTypeByNameA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NAPI_PROVIDER_INSTALLATION_BLOB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Mswsock.dll
+api_name:
+-	GetTypeByName
+-	GetTypeByNameA
+-	GetTypeByNameW
+product: Windows
+targetos: Windows
+req.lib: Mswsock.lib
+req.dll: Mswsock.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # GetTypeByNameW function

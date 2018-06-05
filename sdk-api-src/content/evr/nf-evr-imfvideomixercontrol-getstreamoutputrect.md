@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:evr.IMFVideoMixerControl.GetStreamOutputRect
+title: IMFVideoMixerControl::GetStreamOutputRect
+author: windows-sdk-content
+description: Retrieves the position of a video stream within the composition rectangle.
+old-location: mf\imfvideomixercontrol_getstreamoutputrect.htm
+old-project: medfound
+ms.assetid: 6de631cd-f85e-4f53-b14c-8ca3cd65b719
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 6de631cd-f85e-4f53-b14c-8ca3cd65b719, GetStreamOutputRect, GetStreamOutputRect method [Media Foundation], GetStreamOutputRect method [Media Foundation],IMFVideoMixerControl interface, IMFVideoMixerControl interface [Media Foundation],GetStreamOutputRect method, IMFVideoMixerControl.GetStreamOutputRect, IMFVideoMixerControl::GetStreamOutputRect, evr/IMFVideoMixerControl::GetStreamOutputRect, mf.imfvideomixercontrol_getstreamoutputrect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: evr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoMixPrefs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	strmiids.lib
+-	strmiids.dll
+api_name:
+-	IMFVideoMixerControl.GetStreamOutputRect
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IMFVideoMixerControl::GetStreamOutputRect

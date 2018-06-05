@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dxgi1_6.DXGI_GPU_PREFERENCE
+title: DXGI_GPU_PREFERENCE
+author: windows-sdk-content
+description: The preference of GPU for the app to run on.
+old-location: direct3ddxgi\dxgi_gpu_preference.htm
+old-project: direct3ddxgi
+ms.assetid: 4228FF8B-968B-42B5-8355-226C7FE9F230
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGI_GPU_PREFERENCE, DXGI_GPU_PREFERENCE enumeration [DXGI], DXGI_GPU_PREFERENCE_HIGH_PERFORMANCE, DXGI_GPU_PREFERENCE_MINIMUM_POWER, DXGI_GPU_PREFERENCE_UNSPECIFIED, direct3ddxgi.dxgi_gpu_preference, dxgi1_6/DXGI_GPU_PREFERENCE, dxgi1_6/DXGI_GPU_PREFERENCE_HIGH_PERFORMANCE, dxgi1_6/DXGI_GPU_PREFERENCE_MINIMUM_POWER, dxgi1_6/DXGI_GPU_PREFERENCE_UNSPECIFIED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxgi1_6.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_GPU_PREFERENCE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxgi1_6.h
+api_name:
+-	DXGI_GPU_PREFERENCE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DXGI_GPU_PREFERENCE enumeration

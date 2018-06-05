@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:processsnapshot.PSS_VA_CLONE_INFORMATION
+title: PSS_VA_CLONE_INFORMATION
+author: windows-sdk-content
+description: Holds virtual address (VA) clone information returned by PssQuerySnapshot.
+old-location: proc_snap\pss_va_clone_information.htm
+old-project: proc_snap
+ms.assetid: F93D61B0-EDB2-4560-A69F-CF839EC98B53
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: PSS_VA_CLONE_INFORMATION, PSS_VA_CLONE_INFORMATION structure, proc_snap.pss_va_clone_information, processsnapshot/PSS_VA_CLONE_INFORMATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: processsnapshot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSS_VA_CLONE_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	processsnapshot.h
+api_name:
+-	PSS_VA_CLONE_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSS_VA_CLONE_INFORMATION structure

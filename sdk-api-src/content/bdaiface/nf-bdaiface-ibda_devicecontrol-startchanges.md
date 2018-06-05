@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_DeviceControl.StartChanges
+title: IBDA_DeviceControl::StartChanges
+author: windows-sdk-content
+description: The StartChanges method is called by a Network Provider before it begins to modify a set of properties on a BDA device filter.
+old-location: mstv\ibda_devicecontrol_startchanges.htm
+old-project: mstv
+ms.assetid: 989cdd9b-ea5b-4a80-b157-9469a210b966
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBDA_DeviceControl interface [Microsoft TV Technologies],StartChanges method, IBDA_DeviceControl.StartChanges, IBDA_DeviceControl::StartChanges, IBDA_DeviceControlStartChanges, StartChanges, StartChanges method [Microsoft TV Technologies], StartChanges method [Microsoft TV Technologies],IBDA_DeviceControl interface, bdaiface/IBDA_DeviceControl::StartChanges, mstv.ibda_devicecontrol_startchanges
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_DeviceControl.StartChanges
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_DeviceControl::StartChanges

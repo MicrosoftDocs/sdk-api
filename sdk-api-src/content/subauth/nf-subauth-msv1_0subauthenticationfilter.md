@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:subauth.Msv1_0SubAuthenticationFilter
+title: Msv1_0SubAuthenticationFilter function
+author: windows-sdk-content
+description: Performs user logon authentication that is specific to domain controllers.
+old-location: security\msv1_0subauthenticationfilter.htm
+old-project: SecAuthN
+ms.assetid: d7162830-8cab-4ec1-afcb-7892f5e435d3
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: LOGON_GUEST, LOGON_NOENCRYPTION, MSV1_0_GUEST_LOGON, MSV1_0_PASSTHRU, Msv1_0SubAuthenticationFilter, Msv1_0SubAuthenticationFilter function [Security], USER_ALL_PARAMETERS, _lsa_msv1_0subauthenticationfilter, security.msv1_0subauthenticationfilter, subauth/Msv1_0SubAuthenticationFilter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: subauth.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONDITION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Subauth.h
+api_name:
+-	Msv1_0SubAuthenticationFilter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # Msv1_0SubAuthenticationFilter function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vmr9.IVMRMixerBitmap9.SetAlphaBitmap
+title: IVMRMixerBitmap9::SetAlphaBitmap
+author: windows-sdk-content
+description: The SetAlphaBitmap method specifies a new bitmap image and the source location of the bitmap and how and where it should be rendered on the destination rectangle.
+old-location: dshow\ivmrmixerbitmap9_setalphabitmap.htm
+old-project: DirectShow
+ms.assetid: 22aadb5b-8dc8-48ec-bff1-1bac498f3984
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IVMRMixerBitmap9 interface [DirectShow],SetAlphaBitmap method, IVMRMixerBitmap9.SetAlphaBitmap, IVMRMixerBitmap9::SetAlphaBitmap, IVMRMixerBitmap9SetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [DirectShow], SetAlphaBitmap method [DirectShow],IVMRMixerBitmap9 interface, dshow.ivmrmixerbitmap9_setalphabitmap, vmr9/IVMRMixerBitmap9::SetAlphaBitmap
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vmr9.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VMR9DeinterlaceTech
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IVMRMixerBitmap9.SetAlphaBitmap
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVMRMixerBitmap9::SetAlphaBitmap

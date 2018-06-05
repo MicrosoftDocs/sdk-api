@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfTextInputProcessorEx.ActivateEx
+title: ITfTextInputProcessorEx::ActivateEx
+author: windows-sdk-content
+description: The ITfTextInputProcessorEx::ActivateEx method activates a text service when a user session starts. If the text service implements ITfTextInputProcessorEx and ActivateEx is called, ITfTextInputProcessor::Activate will not be called.
+old-location: tsf\itftextinputprocessorex_activateex.htm
+old-project: TSF
+ms.assetid: b628e803-ea94-4e69-9919-94e4164d5b36
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ActivateEx, ActivateEx method [Text Services Framework], ActivateEx method [Text Services Framework],ITfTextInputProcessorEx interface, ITfTextInputProcessorEx interface [Text Services Framework],ActivateEx method, ITfTextInputProcessorEx.ActivateEx, ITfTextInputProcessorEx::ActivateEx, TF_TMAE_COMLESS, TF_TMAE_CONSOLE, TF_TMAE_SECUREMODE, TF_TMAE_WOW16, msctf/ITfTextInputProcessorEx::ActivateEx, tsf.itftextinputprocessorex_activateex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfTextInputProcessorEx.ActivateEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfTextInputProcessorEx::ActivateEx

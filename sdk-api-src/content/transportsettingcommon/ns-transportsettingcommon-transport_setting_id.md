@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:transportsettingcommon.TRANSPORT_SETTING_ID
+title: TRANSPORT_SETTING_ID
+author: windows-sdk-content
+description: Specifies the transport setting ID used by the SIO_APPLY_TRANSPORT_SETTING and SIO_QUERY_TRANSPORT_SETTING IOCTLs to apply or query the transport setting for a socket.
+old-location: winsock\transport_setting_id.htm
+old-project: WinSock
+ms.assetid: 8ECBF92A-0AF9-4419-A4E8-0EDEF63FCE16
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PTRANSPORT_SETTING_ID, PTRANSPORT_SETTING_ID, PTRANSPORT_SETTING_ID structure pointer [Winsock], TRANSPORT_SETTING_ID, TRANSPORT_SETTING_ID structure [Winsock], transportsettingcommon/PTRANSPORT_SETTING_ID, transportsettingcommon/TRANSPORT_SETTING_ID, winsock.transport_setting_id"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: transportsettingcommon.h
+req.include-header: Mstcpip.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	transportsettingcommon.h
+api_name:
+-	TRANSPORT_SETTING_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TRANSPORT_SETTING_ID structure

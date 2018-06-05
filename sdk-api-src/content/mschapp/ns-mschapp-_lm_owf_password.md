@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mschapp._LM_OWF_PASSWORD
+title: "_LM_OWF_PASSWORD"
+author: windows-sdk-content
+description: The LM_OWF_PASSWORD stores the Lan Manage (LM) one-way function (OWF) of a user's password.
+old-location: mschap\lm_owf_password.htm
+old-project: MsChap
+ms.assetid: db155f34-fa57-4449-9319-d46561fd18c0
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PLM_OWF_PASSWORD, *PNT_OWF_PASSWORD, LM_OWF_PASSWORD, LM_OWF_PASSWORD structure [MS-CHAP], NT_OWF_PASSWORD, PLM_OWF_PASSWORD, PLM_OWF_PASSWORD structure pointer [MS-CHAP], _LM_OWF_PASSWORD, mschap.lm_owf_password, mschapp/LM_OWF_PASSWORD, mschapp/PLM_OWF_PASSWORD"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mschapp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LM_OWF_PASSWORD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	MsChapp.h
+api_name:
+-	LM_OWF_PASSWORD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _LM_OWF_PASSWORD structure

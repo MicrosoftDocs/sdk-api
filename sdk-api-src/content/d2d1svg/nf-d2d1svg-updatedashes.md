@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d2d1svg.UpdateDashes
+title: UpdateDashes function
+author: windows-sdk-content
+description: Updates the array.
+old-location: direct2d\id2d1svgstrokedasharray_updatedashes_overload.htm
+old-project: Direct2D
+ms.assetid: b9be98f2-d215-d009-ec9e-732163539053
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: ID2D1SvgStrokeDashArray::UpdateDashes, UpdateDashes, UpdateDashes methods [Direct2D], d2d1svg/UpdateDashes, direct2d.id2d1svgstrokedasharray_updatedashes_overload
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d2d1svg.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_SVG_VISIBILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1svg.h
+api_name:
+-	ID2D1SvgStrokeDashArray::UpdateDashes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # UpdateDashes function

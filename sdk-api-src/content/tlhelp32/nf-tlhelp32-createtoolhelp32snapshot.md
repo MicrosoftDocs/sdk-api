@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tlhelp32.CreateToolhelp32Snapshot
+title: CreateToolhelp32Snapshot function
+author: windows-sdk-content
+description: Takes a snapshot of the specified processes, as well as the heaps, modules, and threads used by these processes.
+old-location: toolhelp\createtoolhelp32snapshot.htm
+old-project: ToolHelp
+ms.assetid: df643c25-7558-424c-b187-b3f86ba51358
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: CreateToolhelp32Snapshot, CreateToolhelp32Snapshot function [ToolHelp], TH32CS_INHERIT, TH32CS_SNAPALL, TH32CS_SNAPHEAPLIST, TH32CS_SNAPMODULE, TH32CS_SNAPMODULE32, TH32CS_SNAPPROCESS, TH32CS_SNAPTHREAD, _win32_createtoolhelp32snapshot, base.createtoolhelp32snapshot, tlhelp32/CreateToolhelp32Snapshot, toolhelp.createtoolhelp32snapshot
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tlhelp32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TpcGetSamplesArgs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-toolhelp-l1-1-0.dll
+-	kernel32legacy.dll
+-	API-MS-Win-Core-ToolHelp-L1-1-1.dll
+api_name:
+-	CreateToolhelp32Snapshot
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # CreateToolhelp32Snapshot function

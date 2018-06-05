@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetErrorCode
+title: IXblIdpAuthTokenResult::GetErrorCode
+author: windows-sdk-content
+description: Reserved for Microsoft use.
+old-location: xblidp\ixblidpauthtokenresult_geterrorcode.htm
+old-project: xblidp
+ms.assetid: 0870EC42-9E67-4A5F-A465-CDD8B152D257
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetErrorCode, GetErrorCode method, GetErrorCode method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetErrorCode method, IXblIdpAuthTokenResult.GetErrorCode, IXblIdpAuthTokenResult::GetErrorCode, xblidp.ixblidpauthtokenresult_geterrorcode, xblidpauthmanager/IXblIdpAuthTokenResult::GetErrorCode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xblidpauthmanager.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	XblIdpAuthManager.h
+api_name:
+-	IXblIdpAuthTokenResult.GetErrorCode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IXblIdpAuthTokenResult::GetErrorCode

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:http.HttpCreateUrlGroup
+title: HttpCreateUrlGroup function
+author: windows-sdk-content
+description: Creates a URL Group under the specified server session.
+old-location: http\httpcreateurlgroup.htm
+old-project: Http
+ms.assetid: 6f2b14bb-ecb9-4a63-9bef-e2ceaf09f97a
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: HttpCreateUrlGroup, HttpCreateUrlGroup function [HTTP], http.httpcreateurlgroup, http/HttpCreateUrlGroup
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_VERB, *PHTTP_VERB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Httpapi.dll
+api_name:
+-	HttpCreateUrlGroup
+product: Windows
+targetos: Windows
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # HttpCreateUrlGroup function

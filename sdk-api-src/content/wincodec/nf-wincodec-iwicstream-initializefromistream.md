@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincodec.IWICStream.InitializeFromIStream
+title: IWICStream::InitializeFromIStream
+author: windows-sdk-content
+description: Initializes a stream from another stream. Access rights are inherited from the underlying stream.
+old-location: wic\_wic_codec_iwicstream_initializefromistream.htm
+old-project: wic
+ms.assetid: bfe413e1-f579-4c9c-9e88-3b369235c529
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWICStream interface [Windows Imaging Component],InitializeFromIStream method, IWICStream.InitializeFromIStream, IWICStream::InitializeFromIStream, InitializeFromIStream, InitializeFromIStream method [Windows Imaging Component], InitializeFromIStream method [Windows Imaging Component],IWICStream interface, _wic_codec_iwicstream_initializefromistream, wic._wic_codec_iwicstream_initializefromistream, wincodec/IWICStream::InitializeFromIStream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodec.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.dll
+api_name:
+-	IWICStream.InitializeFromIStream
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWICStream::InitializeFromIStream

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:msctf.IEnumTfFunctionProviders
+title: IEnumTfFunctionProviders
+author: windows-sdk-content
+description: The IEnumTfFunctionProviders interface is implemented by the TSF manager to provide an enumeration of function provider objects.
+old-location: tsf\ienumtffunctionproviders.htm
+old-project: TSF
+ms.assetid: 21e2f1c8-926e-4e53-b8d1-aecc2d1a97cb
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IEnumTfFunctionProviders, IEnumTfFunctionProviders interface [Text Services Framework], IEnumTfFunctionProviders interface [Text Services Framework],described, _tsf_ienumtffunctionproviders_ref, msctf/IEnumTfFunctionProviders, tsf.ienumtffunctionproviders
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	IEnumTfFunctionProviders
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IEnumTfFunctionProviders interface

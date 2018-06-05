@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsock2.WSASetServiceW
+title: WSASetServiceW function
+author: windows-sdk-content
+description: The WSASetService function registers or removes from the registry a service instance within one or more namespaces.
+old-location: winsock\wsasetservice_2.htm
+old-project: WinSock
+ms.assetid: 21a8ff26-4c9e-4846-a75a-1a27c746edab
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, WSASetService, WSASetService function [Winsock], WSASetServiceA, WSASetServiceW, _win32_wsasetservice_2, winsock.wsasetservice_2, winsock2/WSASetService, winsock2/WSASetServiceA, winsock2/WSASetServiceW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winsock2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WSASetServiceW (Unicode) and WSASetServiceA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ws2_32.dll
+api_name:
+-	WSASetService
+-	WSASetServiceA
+-	WSASetServiceW
+product: Windows
+targetos: Windows
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WSASetServiceW function

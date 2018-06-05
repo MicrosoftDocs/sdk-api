@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._OCSP_BASIC_REVOKED_INFO
+title: "_OCSP_BASIC_REVOKED_INFO"
+author: windows-sdk-content
+description: Contains the reason a certificate was revoked.
+old-location: security\ocsp_basic_revoked_info.htm
+old-project: SecCrypto
+ms.assetid: 4475cf2a-bf25-427d-8e53-5e5b96dd676a
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*POCSP_BASIC_REVOKED_INFO, CRL_REASON_AFFILIATION_CHANGED, CRL_REASON_CA_COMPROMISE, CRL_REASON_CERTIFICATE_HOLD, CRL_REASON_CESSATION_OF_OPERATION, CRL_REASON_KEY_COMPROMISE, CRL_REASON_REMOVE_FROM_CRL, CRL_REASON_SUPERSEDED, CRL_REASON_UNSPECIFIED, OCSP_BASIC_REVOKED_INFO, OCSP_BASIC_REVOKED_INFO structure [Security], POCSP_BASIC_REVOKED_INFO, POCSP_BASIC_REVOKED_INFO structure pointer [Security], _OCSP_BASIC_REVOKED_INFO, security.ocsp_basic_revoked_info, wincrypt/OCSP_BASIC_REVOKED_INFO, wincrypt/POCSP_BASIC_REVOKED_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OCSP_BASIC_REVOKED_INFO, *POCSP_BASIC_REVOKED_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	OCSP_BASIC_REVOKED_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _OCSP_BASIC_REVOKED_INFO structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcore.ISpreadsheetProvider.GetItemByName
+title: ISpreadsheetProvider::GetItemByName
+author: windows-sdk-content
+description: Exposes a UI Automation element that represents the spreadsheet cell that has the specified name.
+old-location: winauto\uiauto_ISpreadsheetProvider_GetItemByName.htm
+old-project: WinAuto
+ms.assetid: 9A496B3F-5095-4094-BAF6-D4EE20498D4B
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: GetItemByName, GetItemByName method [Windows Accessibility], GetItemByName method [Windows Accessibility],ISpreadsheetProvider interface, ISpreadsheetProvider interface [Windows Accessibility],GetItemByName method, ISpreadsheetProvider.GetItemByName, ISpreadsheetProvider::GetItemByName, uiautomationcore/ISpreadsheetProvider::GetItemByName, winauto.uiauto_ISpreadsheetProvider_GetItemByName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationCore.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	ISpreadsheetProvider.GetItemByName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ISpreadsheetProvider::GetItemByName

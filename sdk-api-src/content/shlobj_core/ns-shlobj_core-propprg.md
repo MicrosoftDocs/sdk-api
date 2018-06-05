@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj_core.PROPPRG
+title: PROPPRG
+author: windows-sdk-content
+description: This structure contains information from a .pif file. It is used by PifMgr_GetProperties.
+old-location: properties\PROPPRG.htm
+old-project: properties
+ms.assetid: 603f990b-efb8-4d72-bc96-27bda4ffcbd8
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPPROPPRG, *PPROPPRG, LPPROPPRG, LPPROPPRG structure pointer [Windows Properties], PRGINIT_AMBIGUOUSPIF, PRGINIT_DEFAULT, PRGINIT_DEFAULTPIF, PRGINIT_INFSETTINGS, PRGINIT_INHIBITPIF, PRGINIT_MAXIMIZED, PRGINIT_MINIMIZED, PRGINIT_NOPIF, PRGINIT_REALMODE, PRGINIT_REALMODESILENT, PRG_CLOSEONEXIT, PRG_DEFAULT, PROPPRG, PROPPRG structure [Windows Properties], RMOPT_CDROM, RMOPT_DISKLOCK, RMOPT_EMS, RMOPT_MOUSE, RMOPT_NETWORK, RMOPT_PRIVATECFG, RMOPT_VESA, _win32_PROPPRG, properties.PROPPRG, shell.PROPPRG, shlobj_core/LPPROPPRG, shlobj_core/PROPPRG"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj_core.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPPRG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shlobj_core.h
+api_name:
+-	PROPPRG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # PROPPRG structure

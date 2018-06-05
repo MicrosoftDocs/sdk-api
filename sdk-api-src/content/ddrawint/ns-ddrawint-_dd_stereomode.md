@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_STEREOMODE
+title: "_DD_STEREOMODE"
+author: windows-sdk-content
+description: The DD_STEREOMODE structure is used by the runtime with GUID_DDStereoMode in a DdGetDriverInfo call to query whether the driver supports stereo for a given video display mode.
+old-location: display\dd_stereomode.htm
+old-project: display
+ms.assetid: 0b160c57-5e79-4777-a514-fa04e02c1508
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_STEREOMODE, DD_STEREOMODE, DD_STEREOMODE structure [Display Devices], _DD_STEREOMODE, ddrawint/DD_STEREOMODE, ddstrcts_aca080e5-a3ae-409b-9546-f4d270fb9f10.xml, display.dd_stereomode"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_STEREOMODE, DD_STEREOMODE"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_STEREOMODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_STEREOMODE structure

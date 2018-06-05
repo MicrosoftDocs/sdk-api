@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vds._VDS_ASYNC_OUTPUT
+title: "_VDS_ASYNC_OUTPUT"
+author: windows-sdk-content
+description: Defines the output of an async object. Output elements vary depending on the operation type.
+old-location: base\vds_async_output.htm
+old-project: VDS
+ms.assetid: 21771c6a-eca9-47f3-b6fc-383bca1e11bf
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_ASYNCOUT_BREAKVOLUMEPLEX, VDS_ASYNCOUT_CREATELUN, VDS_ASYNCOUT_CREATEPARTITION, VDS_ASYNCOUT_CREATEPORTALGROUP, VDS_ASYNCOUT_CREATETARGET, VDS_ASYNCOUT_CREATEVOLUME, VDS_ASYNCOUT_CREATE_VDISK, VDS_ASYNC_OUTPUT, VDS_ASYNC_OUTPUT structure [VDS], _VDS_ASYNC_OUTPUT, base.vds_async_output, vds/_VDS_ASYNC_OUTPUT, vdshwprv/_VDS_ASYNC_OUTPUT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_ASYNC_OUTPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_ASYNC_OUTPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_ASYNC_OUTPUT structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.IDvdInfo2.GetPlayerParentalLevel
+title: IDvdInfo2::GetPlayerParentalLevel
+author: windows-sdk-content
+description: The GetPlayerParentalLevel method retrieves the current parental level and ISO 3166 country/region code settings for the DVD Navigator.
+old-location: dshow\idvdinfo2_getplayerparentallevel.htm
+old-project: DirectShow
+ms.assetid: 7ae9b79a-1a2e-4679-9ead-6892491a1af3
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetPlayerParentalLevel, GetPlayerParentalLevel method [DirectShow], GetPlayerParentalLevel method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetPlayerParentalLevel method, IDvdInfo2.GetPlayerParentalLevel, IDvdInfo2::GetPlayerParentalLevel, IDvdInfo2GetPlayerParentalLevel, dshow.idvdinfo2_getplayerparentallevel, strmif/IDvdInfo2::GetPlayerParentalLevel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IDvdInfo2.GetPlayerParentalLevel
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IDvdInfo2::GetPlayerParentalLevel

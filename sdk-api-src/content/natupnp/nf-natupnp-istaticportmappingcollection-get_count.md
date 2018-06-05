@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:natupnp.IStaticPortMappingCollection.get_Count
+title: IStaticPortMappingCollection::get_Count
+author: windows-sdk-content
+description: The get_Count method retrieves the number of port mappings in the collection.
+old-location: ics\istaticportmappingcollection_get_count.htm
+old-project: ICS
+ms.assetid: 8ececd98-a700-4d64-8f89-a1ec36597edf
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get_Count method, IStaticPortMappingCollection.get_Count, IStaticPortMappingCollection::get_Count, _ics_istaticportmappingcollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],IStaticPortMappingCollection interface, ics.istaticportmappingcollection_get_count, natupnp/IStaticPortMappingCollection::get_Count
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: natupnp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SystemHealthAgentState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Hnetcfg.dll
+api_name:
+-	IStaticPortMappingCollection.get_Count
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IStaticPortMappingCollection::get_Count

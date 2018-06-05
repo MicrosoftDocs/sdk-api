@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:msapofxproxy.tagKSP_PINMODE
+title: tagKSP_PINMODE
+author: windows-sdk-content
+description: The KSP_PINMODE structure specifies the pin property and the supported audio processing modes for a pin factory.
+old-location: audio\ksp_pinmode.htm
+old-project: audio
+ms.assetid: 179517E8-BFC7-4B63-8F9E-A57D0C881102
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*PKSP_PINMODE, KSP_PINMODE, KSP_PINMODE structure [Audio Devices], PKSP_PINMODE, PKSP_PINMODE structure pointer [Audio Devices], audio.ksp_pinmode, msapofxproxy/KSP_PINMODE, msapofxproxy/PKSP_PINMODE, tagKSP_PINMODE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: msapofxproxy.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KSP_PINMODE, *PKSP_PINMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msapofxproxy.h
+api_name:
+-	KSP_PINMODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tagKSP_PINMODE structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3dcommon.D3D_RESOURCE_RETURN_TYPE
+title: D3D_RESOURCE_RETURN_TYPE
+author: windows-sdk-content
+description: Values that identify the return type of a resource.
+old-location: direct3d11\d3d_resource_return_type.htm
+old-project: direct3d11
+ms.assetid: 3da3f315-9f92-4557-93b8-94aff42a91fe
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D10_RETURN_TYPE_FLOAT, D3D10_RETURN_TYPE_MIXED, D3D10_RETURN_TYPE_SINT, D3D10_RETURN_TYPE_SNORM, D3D10_RETURN_TYPE_UINT, D3D10_RETURN_TYPE_UNORM, D3D11_RETURN_TYPE_CONTINUED, D3D11_RETURN_TYPE_DOUBLE, D3D11_RETURN_TYPE_FLOAT, D3D11_RETURN_TYPE_MIXED, D3D11_RETURN_TYPE_SINT, D3D11_RETURN_TYPE_SNORM, D3D11_RETURN_TYPE_UINT, D3D11_RETURN_TYPE_UNORM, D3D_RESOURCE_RETURN_TYPE, D3D_RESOURCE_RETURN_TYPE enumeration [Direct3D 11], D3D_RETURN_TYPE_CONTINUED, D3D_RETURN_TYPE_DOUBLE, D3D_RETURN_TYPE_FLOAT, D3D_RETURN_TYPE_MIXED, D3D_RETURN_TYPE_SINT, D3D_RETURN_TYPE_SNORM, D3D_RETURN_TYPE_UINT, D3D_RETURN_TYPE_UNORM, d3dcommon/D3D10_RETURN_TYPE_FLOAT, d3dcommon/D3D10_RETURN_TYPE_MIXED, d3dcommon/D3D10_RETURN_TYPE_SINT, d3dcommon/D3D10_RETURN_TYPE_SNORM, d3dcommon/D3D10_RETURN_TYPE_UINT, d3dcommon/D3D10_RETURN_TYPE_UNORM, d3dcommon/D3D11_RETURN_TYPE_CONTINUED, d3dcommon/D3D11_RETURN_TYPE_DOUBLE, d3dcommon/D3D11_RETURN_TYPE_FLOAT, d3dcommon/D3D11_RETURN_TYPE_MIXED, d3dcommon/D3D11_RETURN_TYPE_SINT, d3dcommon/D3D11_RETURN_TYPE_SNORM, d3dcommon/D3D11_RETURN_TYPE_UINT, d3dcommon/D3D11_RETURN_TYPE_UNORM, d3dcommon/D3D_RESOURCE_RETURN_TYPE, d3dcommon/D3D_RETURN_TYPE_CONTINUED, d3dcommon/D3D_RETURN_TYPE_DOUBLE, d3dcommon/D3D_RETURN_TYPE_FLOAT, d3dcommon/D3D_RETURN_TYPE_MIXED, d3dcommon/D3D_RETURN_TYPE_SINT, d3dcommon/D3D_RETURN_TYPE_SNORM, d3dcommon/D3D_RETURN_TYPE_UINT, d3dcommon/D3D_RETURN_TYPE_UNORM, direct3d11.d3d_resource_return_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3dcommon.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_RESOURCE_RETURN_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3DCommon.h
+api_name:
+-	D3D_RESOURCE_RETURN_TYPE
+product: Windows
+targetos: Windows
+req.lib: D3d9.lib
+req.dll: 
+req.irql: 
 ---
 
 # D3D_RESOURCE_RETURN_TYPE enumeration

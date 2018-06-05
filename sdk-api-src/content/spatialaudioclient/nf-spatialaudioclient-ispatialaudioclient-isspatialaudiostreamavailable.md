@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:spatialaudioclient.ISpatialAudioClient.IsSpatialAudioStreamAvailable
+title: ISpatialAudioClient::IsSpatialAudioStreamAvailable
+author: windows-sdk-content
+description: When successful, gets a value indicating whether the currently active spatial rendering engine supports the specified spatial audio render stream.
+old-location: coreaudio\ispatialaudioclient_isspatialaudiostreamavailable.htm
+old-project: CoreAudio
+ms.assetid: 4CE8A0D2-8B0B-4628-99DE-5B588842D7C5
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ISpatialAudioClient interface [Core Audio],IsSpatialAudioStreamAvailable method, ISpatialAudioClient.IsSpatialAudioStreamAvailable, ISpatialAudioClient::IsSpatialAudioStreamAvailable, IsSpatialAudioStreamAvailable, IsSpatialAudioStreamAvailable method [Core Audio], IsSpatialAudioStreamAvailable method [Core Audio],ISpatialAudioClient interface, coreaudio.ispatialaudioclient_isspatialaudiostreamavailable, spatialaudioclient/ISpatialAudioClient::IsSpatialAudioStreamAvailable
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spatialaudioclient.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AudioObjectType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	spatialaudioclient.h
+api_name:
+-	ISpatialAudioClient.IsSpatialAudioStreamAvailable
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioClient::IsSpatialAudioStreamAvailable

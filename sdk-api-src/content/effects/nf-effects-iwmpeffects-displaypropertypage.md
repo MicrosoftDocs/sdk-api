@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:effects.IWMPEffects.DisplayPropertyPage
+title: IWMPEffects::DisplayPropertyPage
+author: windows-sdk-content
+description: The DisplayPropertyPage method displays the property page of a visualization, if it exists.
+old-location: wmp\iwmpeffects_displaypropertypage.htm
+old-project: WMP
+ms.assetid: dadde782-577d-4dcb-b8ae-2f6ddca77a40
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: DisplayPropertyPage, DisplayPropertyPage method [Windows Media Player], DisplayPropertyPage method [Windows Media Player],IWMPEffects interface, EffectsDisplayPropertyPage, IWMPEffects interface [Windows Media Player],DisplayPropertyPage method, IWMPEffects.DisplayPropertyPage, IWMPEffects::DisplayPropertyPage, effects/IWMPEffects::DisplayPropertyPage, wmp.iwmpeffects_displaypropertypage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: effects.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player version 7.0 or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	effects.h
+api_name:
+-	IWMPEffects.DisplayPropertyPage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IWMPEffects::DisplayPropertyPage

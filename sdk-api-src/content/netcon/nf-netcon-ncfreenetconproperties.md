@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netcon.NcFreeNetconProperties
+title: NcFreeNetconProperties function
+author: windows-sdk-content
+description: The NcFreeNetconProperties function frees memory associated with NETCON_PROPERTIES structures.
+old-location: ics\ncfreenetconproperties.htm
+old-project: ICS
+ms.assetid: ac73b831-81da-48e7-858b-7ca1ee03768e
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: NcFreeNetconProperties, NcFreeNetconProperties function [ICS/ICF], ics.ncfreenetconproperties, netcon/NcFreeNetconProperties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: netcon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netshell.dll
+api_name:
+-	NcFreeNetconProperties
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Netshell.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # NcFreeNetconProperties function

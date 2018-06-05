@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:fwpstypes.FWPS_FILTER1_
+title: FWPS_FILTER1_
+author: windows-sdk-content
+description: The FWPS_FILTER1 structure defines a run-time filter in the filter engine.Note  FWPS_FILTER1 is the specific version of FWPS_FILTER used in Windows 7 and later.
+old-location: netvista\fwps_filter1.htm
+old-project: netvista
+ms.assetid: 3a5f6f0a-0162-4e64-b3c1-60021ef2dd95
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: FWPS_FILTER1, FWPS_FILTER1 structure [Network Drivers Starting with Windows Vista], FWPS_FILTER1_, FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT, FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED, fwpstypes/FWPS_FILTER1, netvista.fwps_filter1, wfp_ref_3_struct_3_fwps_F-O_4091c3ca-8d86-4a94-a138-01a6ce09cca8.xml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: fwpstypes.h
+req.include-header: Fwpsk.h
+req.target-type: Windows
+req.target-min-winverclnt: Available starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWPS_FILTER1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	fwpstypes.h
+api_name:
+-	FWPS_FILTER1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FWPS_FILTER1_ structure

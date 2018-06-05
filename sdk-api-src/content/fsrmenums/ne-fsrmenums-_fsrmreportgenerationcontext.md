@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fsrmenums._FsrmReportGenerationContext
+title: "_FsrmReportGenerationContext"
+author: windows-sdk-content
+description: Defines the context in which the report is initiated.
+old-location: fsrm\fsrmreportgenerationcontext.htm
+old-project: Fsrm
+ms.assetid: 02e18cc2-7c5e-473f-8a7f-e310bfb1c57d
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmReportGenerationContext, FsrmReportGenerationContext enumeration [File Server Resource Manager], FsrmReportGenerationContext_IncidentReport, FsrmReportGenerationContext_InteractiveReport, FsrmReportGenerationContext_ScheduledReport, FsrmReportGenerationContext_Undefined, _FsrmReportGenerationContext, fs.fsrmreportgenerationcontext, fsrm.fsrmreportgenerationcontext, fsrmenums/FsrmReportGenerationContext, fsrmenums/FsrmReportGenerationContext_IncidentReport, fsrmenums/FsrmReportGenerationContext_InteractiveReport, fsrmenums/FsrmReportGenerationContext_ScheduledReport, fsrmenums/FsrmReportGenerationContext_Undefined
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fsrmenums.h
+req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FsrmEnums.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmReportGenerationContext
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	FsrmEnums.h
+api_name:
+-	FsrmReportGenerationContext
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _FsrmReportGenerationContext enumeration

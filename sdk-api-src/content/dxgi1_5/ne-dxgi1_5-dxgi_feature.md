@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dxgi1_5.DXGI_FEATURE
+title: DXGI_FEATURE
+author: windows-sdk-content
+description: Specifies a range of hardware features, to be used when checking for feature support.
+old-location: direct3ddxgi\dxgi_feature.htm
+old-project: direct3ddxgi
+ms.assetid: 207D5BDC-5D10-4F84-931F-4812574FA74B
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGI_FEATURE, DXGI_FEATURE enumeration [DXGI], DXGI_FEATURE_PRESENT_ALLOW_TEARING, direct3ddxgi.dxgi_feature, dxgi1_5/DXGI_FEATURE, dxgi1_5/DXGI_FEATURE_PRESENT_ALLOW_TEARING
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxgi1_5.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_FEATURE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DXGI1_5.h
+api_name:
+-	DXGI_FEATURE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DXGI_FEATURE enumeration

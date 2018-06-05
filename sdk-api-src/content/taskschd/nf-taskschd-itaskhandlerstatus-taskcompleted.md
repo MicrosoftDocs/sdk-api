@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.ITaskHandlerStatus.TaskCompleted
+title: ITaskHandlerStatus::TaskCompleted
+author: windows-sdk-content
+description: Tells the Task Scheduler that the COM handler is completed.
+old-location: taskschd\itaskhandlerstatus_taskcompleted.htm
+old-project: TaskSchd
+ms.assetid: e6f7adf5-3cdb-4691-bc0a-682df7f019e2
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ITaskHandlerStatus interface [Task Scheduler],TaskCompleted method, ITaskHandlerStatus.TaskCompleted, ITaskHandlerStatus::TaskCompleted, TaskCompleted, TaskCompleted method [Task Scheduler], TaskCompleted method [Task Scheduler],ITaskHandlerStatus interface, taskschd.itaskhandlerstatus_taskcompleted, taskschd/ITaskHandlerStatus::TaskCompleted
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	ITaskHandlerStatus.TaskCompleted
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITaskHandlerStatus::TaskCompleted

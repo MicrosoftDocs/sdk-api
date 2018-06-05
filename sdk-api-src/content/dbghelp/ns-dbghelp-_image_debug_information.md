@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dbghelp._IMAGE_DEBUG_INFORMATION
+title: "_IMAGE_DEBUG_INFORMATION"
+author: windows-sdk-content
+description: Contains debugging information.
+old-location: base\image_debug_information_str.htm
+old-project: Debug
+ms.assetid: f8db7695-4967-45c0-a6bf-019e825bd9ab
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PIMAGE_DEBUG_INFORMATION, IMAGE_DEBUG_INFORMATION, IMAGE_DEBUG_INFORMATION structure, IMAGE_FILE_32BIT_MACHINE, IMAGE_FILE_AGGRESIVE_WS_TRIM, IMAGE_FILE_BYTES_REVERSED_HI, IMAGE_FILE_BYTES_REVERSED_LO, IMAGE_FILE_DEBUG_STRIPPED, IMAGE_FILE_DLL, IMAGE_FILE_EXECUTABLE_IMAGE, IMAGE_FILE_LARGE_ADDRESS_AWARE, IMAGE_FILE_LINE_NUMS_STRIPPED, IMAGE_FILE_LOCAL_SYMS_STRIPPED, IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, IMAGE_FILE_NET_RUN_FROM_SWAP, IMAGE_FILE_RELOCS_STRIPPED, IMAGE_FILE_REMOVABLE_RUN_FROM_SWAP, IMAGE_FILE_SYSTEM, IMAGE_FILE_UP_SYSTEM_ONLY, LIST_ENTRY, PIMAGE_DEBUG_INFORMATION, PIMAGE_DEBUG_INFORMATION structure pointer, _IMAGE_DEBUG_INFORMATION, _win32_image_debug_information_str, base.image_debug_information_str, dbghelp/IMAGE_DEBUG_INFORMATION, dbghelp/PIMAGE_DEBUG_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGE_DEBUG_INFORMATION, *PIMAGE_DEBUG_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DbgHelp.h
+api_name:
+-	IMAGE_DEBUG_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _IMAGE_DEBUG_INFORMATION structure

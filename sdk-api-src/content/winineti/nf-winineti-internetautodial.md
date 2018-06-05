@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winineti.InternetAutodial
+title: InternetAutodial function
+author: windows-sdk-content
+description: Causes the modem to automatically dial the default Internet connection.
+old-location: wininet\internetautodial.htm
+old-project: WinInet
+ms.assetid: 843875a8-6c83-4259-8e46-a04f786eb230
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: INTERNET_AUTODIAL_FAILIFSECURITYCHECK, INTERNET_AUTODIAL_FORCE_ONLINE, INTERNET_AUTODIAL_FORCE_UNATTENDED, INTERNET_AUTODIAL_OVERRIDE_NET_PRESENT, InternetAutodial, InternetAutodial function [WinINet], _inet_internetautodial_function, wininet.internetautodial, winineti/InternetAutodial
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winineti.h
+req.include-header: Wininet.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INTERNET_AUTH_NOTIFY_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wininet.dll
+api_name:
+-	InternetAutodial
+product: Windows
+targetos: Windows
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # InternetAutodial function

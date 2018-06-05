@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xpsobjectmodel.IXpsOMImageBrush.SetColorProfileResource
+title: IXpsOMImageBrush::SetColorProfileResource
+author: windows-sdk-content
+description: Sets a pointer to the IXpsOMColorProfileResource interface, which contains the color profile resource that is associated with the image.
+old-location: xps\ixpsomimagebrush_setcolorprofileresource.htm
+old-project: printdocs
+ms.assetid: d18511b7-13ed-4528-9f3d-aef3bcadc403
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: IXpsOMImageBrush interface [XPS Documents and Packaging],SetColorProfileResource method, IXpsOMImageBrush.SetColorProfileResource, IXpsOMImageBrush::SetColorProfileResource, SetColorProfileResource, SetColorProfileResource method [XPS Documents and Packaging], SetColorProfileResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, xps.ixpsomimagebrush_setcolorprofileresource, xpsobjectmodel/IXpsOMImageBrush::SetColorProfileResource
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xpsobjectmodel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XpsObjectModel.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XPS_INTERLEAVING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xpsobjectmodel.h
+api_name:
+-	IXpsOMImageBrush.SetColorProfileResource
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IXpsOMImageBrush::SetColorProfileResource

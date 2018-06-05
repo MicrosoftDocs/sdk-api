@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:tlhelp32.tagHEAPENTRY32
+title: tagHEAPENTRY32
+author: windows-sdk-content
+description: Describes one entry (block) of a heap that is being examined.
+old-location: toolhelp\heapentry32_str.htm
+old-project: ToolHelp
+ms.assetid: c5f1dc66-d44f-4491-b0b7-961b163d0f1f
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPHEAPENTRY32, *PHEAPENTRY32, HEAPENTRY32, HEAPENTRY32 structure [ToolHelp], LF32_FIXED, LF32_FREE, LF32_MOVEABLE, PHEAPENTRY32, PHEAPENTRY32 structure pointer [ToolHelp], _win32_heapentry32_str, base.heapentry32_str, tagHEAPENTRY32, tlhelp32/HEAPENTRY32, tlhelp32/PHEAPENTRY32, toolhelp.heapentry32_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tlhelp32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HEAPENTRY32
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	TlHelp32.h
+api_name:
+-	HEAPENTRY32
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # tagHEAPENTRY32 structure

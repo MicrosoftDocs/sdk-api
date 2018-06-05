@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12.D3D12_SRV_DIMENSION
+title: D3D12_SRV_DIMENSION
+author: windows-sdk-content
+description: Identifies the type of resource that will be viewed as a shader resource.
+old-location: direct3d12\d3d12_srv_dimension.htm
+old-project: direct3d12
+ms.assetid: 1834E70A-4193-4D75-AE47-5C423EACC349
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_SRV_DIMENSION, D3D12_SRV_DIMENSION enumeration, D3D12_SRV_DIMENSION_BUFFER, D3D12_SRV_DIMENSION_TEXTURE1D, D3D12_SRV_DIMENSION_TEXTURE1DARRAY, D3D12_SRV_DIMENSION_TEXTURE2D, D3D12_SRV_DIMENSION_TEXTURE2DARRAY, D3D12_SRV_DIMENSION_TEXTURE2DMS, D3D12_SRV_DIMENSION_TEXTURE2DMSARRAY, D3D12_SRV_DIMENSION_TEXTURE3D, D3D12_SRV_DIMENSION_TEXTURECUBE, D3D12_SRV_DIMENSION_TEXTURECUBEARRAY, D3D12_SRV_DIMENSION_UNKNOWN, d3d12/D3D12_SRV_DIMENSION, d3d12/D3D12_SRV_DIMENSION_BUFFER, d3d12/D3D12_SRV_DIMENSION_TEXTURE1D, d3d12/D3D12_SRV_DIMENSION_TEXTURE1DARRAY, d3d12/D3D12_SRV_DIMENSION_TEXTURE2D, d3d12/D3D12_SRV_DIMENSION_TEXTURE2DARRAY, d3d12/D3D12_SRV_DIMENSION_TEXTURE2DMS, d3d12/D3D12_SRV_DIMENSION_TEXTURE2DMSARRAY, d3d12/D3D12_SRV_DIMENSION_TEXTURE3D, d3d12/D3D12_SRV_DIMENSION_TEXTURECUBE, d3d12/D3D12_SRV_DIMENSION_TEXTURECUBEARRAY, d3d12/D3D12_SRV_DIMENSION_UNKNOWN, direct3d12.d3d12_srv_dimension
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SRV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D12.h
+api_name:
+-	D3D12_SRV_DIMENSION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_SRV_DIMENSION enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fwpmu.FwpmEngineSetSecurityInfo0
+title: FwpmEngineSetSecurityInfo0 function
+author: windows-sdk-content
+description: Sets specified security information in the security descriptor of the filter engine.
+old-location: fwp\fwpmenginesetsecurityinfo0.htm
+old-project: FWP
+ms.assetid: 31a7f409-26c9-4804-bd74-b9ee356da84c
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: FwpmEngineSetSecurityInfo0, FwpmEngineSetSecurityInfo0 function [Filtering], fwp.fwpmenginesetsecurityinfo0, fwpmu/FwpmEngineSetSecurityInfo0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fwpmu.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Fwpuclnt.dll
+api_name:
+-	FwpmEngineSetSecurityInfo0
+product: Windows
+targetos: Windows
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FwpmEngineSetSecurityInfo0 function

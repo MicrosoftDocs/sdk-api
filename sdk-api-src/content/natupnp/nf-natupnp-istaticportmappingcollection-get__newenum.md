@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:natupnp.IStaticPortMappingCollection.get__NewEnum
+title: IStaticPortMappingCollection::get__NewEnum
+author: windows-sdk-content
+description: The get__NewEnum method retrieves an enumerator for the static port mappings collection.
+old-location: ics\istaticportmappingcollection_get__newenum.htm
+old-project: ICS
+ms.assetid: d1a2fa98-d1f2-404c-84fb-b3dccc60031f
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get__NewEnum method, IStaticPortMappingCollection.get__NewEnum, IStaticPortMappingCollection::get__NewEnum, _ics_istaticportmappingcollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],IStaticPortMappingCollection interface, ics.istaticportmappingcollection_get__newenum, natupnp/IStaticPortMappingCollection::get__NewEnum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: natupnp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SystemHealthAgentState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Hnetcfg.dll
+api_name:
+-	IStaticPortMappingCollection.get__NewEnum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IStaticPortMappingCollection::get__NewEnum

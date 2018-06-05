@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmdfs._DFS_TARGET_PRIORITY
+title: "_DFS_TARGET_PRIORITY"
+author: windows-sdk-content
+description: Contains the priority class and rank of a specific DFS target.
+old-location: dfs\dfs_target_priority.htm
+old-project: Dfs
+ms.assetid: b8f645ab-e3b4-4e0f-809a-57e27ab1e641
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PDFS_TARGET_PRIORITY, DFS_TARGET_PRIORITY, DFS_TARGET_PRIORITY structure [Distributed File System], LPDFS_TARGET_PRIORITY, LPDFS_TARGET_PRIORITY structure pointer [Distributed File System], PDFS_TARGET_PRIORITY, PDFS_TARGET_PRIORITY structure pointer [Distributed File System], _DFS_TARGET_PRIORITY, dfs.dfs_target_priority, fs.dfs_target_priority, lmdfs/DFS_TARGET_PRIORITY, lmdfs/LPDFS_TARGET_PRIORITY, lmdfs/PDFS_TARGET_PRIORITY, netmgmt.dfs_target_priority"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmdfs.h
+req.include-header: LmDfs.h, Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008, Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DFS_TARGET_PRIORITY, *PDFS_TARGET_PRIORITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	LmDfs.h
+api_name:
+-	DFS_TARGET_PRIORITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _DFS_TARGET_PRIORITY structure

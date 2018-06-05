@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msclus.CLUSTER_ENUM
+title: CLUSTER_ENUM
+author: windows-sdk-content
+description: Describes the type of cluster objects being enumerated.
+old-location: mscs\cluster_enum.htm
+old-project: MsCS
+ms.assetid: e3d5a207-d30e-4935-be95-0957e68d4fe6
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_ENUM, CLUSTER_ENUM enumeration [Failover Cluster], CLUSTER_ENUM_ALL, CLUSTER_ENUM_GROUP, CLUSTER_ENUM_INTERNAL_NETWORK, CLUSTER_ENUM_NETINTERFACE, CLUSTER_ENUM_NETWORK, CLUSTER_ENUM_NODE, CLUSTER_ENUM_RESOURCE, CLUSTER_ENUM_RESTYPE, CLUSTER_ENUM_SHARED_VOLUME_GROUP, CLUSTER_ENUM_SHARED_VOLUME_RESOURCE, _CLUSTER_ENUM, _CLUSTER_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_ENUM, clusapi/CLUSTER_ENUM_ALL, clusapi/CLUSTER_ENUM_GROUP, clusapi/CLUSTER_ENUM_INTERNAL_NETWORK, clusapi/CLUSTER_ENUM_NETINTERFACE, clusapi/CLUSTER_ENUM_NETWORK, clusapi/CLUSTER_ENUM_NODE, clusapi/CLUSTER_ENUM_RESOURCE, clusapi/CLUSTER_ENUM_RESTYPE, clusapi/CLUSTER_ENUM_SHARED_VOLUME_GROUP, clusapi/CLUSTER_ENUM_SHARED_VOLUME_RESOURCE, clusapi/_CLUSTER_ENUM, msclus/CLUSTER_ENUM, msclus/CLUSTER_ENUM_ALL, msclus/CLUSTER_ENUM_GROUP, msclus/CLUSTER_ENUM_INTERNAL_NETWORK, msclus/CLUSTER_ENUM_NETINTERFACE, msclus/CLUSTER_ENUM_NETWORK, msclus/CLUSTER_ENUM_NODE, msclus/CLUSTER_ENUM_RESOURCE, msclus/CLUSTER_ENUM_RESTYPE, msclus/CLUSTER_ENUM_SHARED_VOLUME_GROUP, msclus/CLUSTER_ENUM_SHARED_VOLUME_RESOURCE, msclus/_CLUSTER_ENUM, mscs.cluster_enum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSTER_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CLUSTER_ENUM enumeration

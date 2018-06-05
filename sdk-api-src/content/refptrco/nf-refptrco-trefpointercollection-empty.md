@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:refptrco.TRefPointerCollection.Empty
+title: TRefPointerCollection::Empty
+author: windows-sdk-content
+description: The Empty method removes all items from the collection.
+old-location: wmi\trefpointercollection_empty.htm
+old-project: WmiSdk
+ms.assetid: 08f9dcc6-cb85-42aa-837b-ab8021f488c6
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],Empty method, TRefPointerCollection.Empty, TRefPointerCollection::Empty, _hmm_trefpointercollection_empty, refptrco/TRefPointerCollection::Empty, wmi.trefpointercollection_empty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: refptrco.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RECO_RANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	TRefPointerCollection.Empty
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # TRefPointerCollection::Empty

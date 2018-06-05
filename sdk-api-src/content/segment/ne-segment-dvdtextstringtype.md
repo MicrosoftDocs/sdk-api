@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:segment.DVDTextStringType
+title: DVDTextStringType
+author: windows-sdk-content
+description: The DVDTextStringType enumeration type indicates the type of information contained in a DVD text string.
+old-location: mstv\dvdtextstringtype.htm
+old-project: mstv
+ms.assetid: 4ed4d0a5-31f1-418a-a0c9-c6f4997ef63b
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: DVDTextStringType, DVDTextStringType enumeration [Microsoft TV Technologies], dvdChannel_Audio, dvdGeneral_Comments, dvdGeneral_Name, dvdOther_Cut, dvdOther_Scene, dvdOther_Take, dvdStream_Angle, dvdStream_Audio, dvdStream_Subpicture, dvdStruct_Cell, dvdStruct_ParentalID, dvdStruct_PartOfTitle, dvdStruct_Title, dvdStruct_Volume, dvdTitle_Album, dvdTitle_Movie, dvdTitle_Orig_Album, dvdTitle_Orig_Movie, dvdTitle_Orig_Other, dvdTitle_Orig_Series, dvdTitle_Orig_Song, dvdTitle_Orig_Video, dvdTitle_Other, dvdTitle_Series, dvdTitle_Song, dvdTitle_Sub_Album, dvdTitle_Sub_Movie, dvdTitle_Sub_Other, dvdTitle_Sub_Series, dvdTitle_Sub_Song, dvdTitle_Sub_Video, dvdTitle_Video, mstv.dvdtextstringtype, segment/DVDTextStringType, segment/dvdChannel_Audio, segment/dvdGeneral_Comments, segment/dvdGeneral_Name, segment/dvdOther_Cut, segment/dvdOther_Scene, segment/dvdOther_Take, segment/dvdStream_Angle, segment/dvdStream_Audio, segment/dvdStream_Subpicture, segment/dvdStruct_Cell, segment/dvdStruct_ParentalID, segment/dvdStruct_PartOfTitle, segment/dvdStruct_Title, segment/dvdStruct_Volume, segment/dvdTitle_Album, segment/dvdTitle_Movie, segment/dvdTitle_Orig_Album, segment/dvdTitle_Orig_Movie, segment/dvdTitle_Orig_Other, segment/dvdTitle_Orig_Series, segment/dvdTitle_Orig_Song, segment/dvdTitle_Orig_Video, segment/dvdTitle_Other, segment/dvdTitle_Series, segment/dvdTitle_Song, segment/dvdTitle_Sub_Album, segment/dvdTitle_Sub_Movie, segment/dvdTitle_Sub_Other, segment/dvdTitle_Sub_Series, segment/dvdTitle_Sub_Song, segment/dvdTitle_Sub_Video, segment/dvdTitle_Video
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: segment.h
+req.include-header: DShow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVDTextStringType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	segment.h
+api_name:
+-	DVDTextStringType
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DVDTextStringType enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.tagDVD_AUDIO_APPMODE
+title: tagDVD_AUDIO_APPMODE
+author: windows-sdk-content
+description: Indicates the current audio mode as retrieved in a call to IDvdInfo2::GetAudioAttributes.
+old-location: dshow\dvd_audio_appmode.htm
+old-project: DirectShow
+ms.assetid: 900fd812-7ca0-4dd8-bb30-3c8eff136939
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DVD_AUDIO_APPMODE, DVD_AUDIO_APPMODE , DVD_AUDIO_APPMODE enumeration [DirectShow], DVD_AUDIO_APPMODEEnumeration, DVD_AudioMode_Karaoke, DVD_AudioMode_None, DVD_AudioMode_Other, DVD_AudioMode_Surround, dshow.dvd_audio_appmode, strmif/DVD_AUDIO_APPMODE, strmif/DVD_AudioMode_Karaoke, strmif/DVD_AudioMode_None, strmif/DVD_AudioMode_Other, strmif/DVD_AudioMode_Surround, tagDVD_AUDIO_APPMODE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_AUDIO_APPMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	DVD_AUDIO_APPMODE
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # tagDVD_AUDIO_APPMODE enumeration

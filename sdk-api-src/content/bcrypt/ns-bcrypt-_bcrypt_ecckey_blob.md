@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bcrypt._BCRYPT_ECCKEY_BLOB
+title: "_BCRYPT_ECCKEY_BLOB"
+author: windows-sdk-content
+description: Used as a header for an elliptic curve public key or private key BLOB in memory.
+old-location: security\bcrypt_ecckey_blob.htm
+old-project: SecCNG
+ms.assetid: e60f6630-e4b0-4f35-a3cf-95dbcb007124
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: "*PBCRYPT_ECCKEY_BLOB, BCRYPT_ECCKEY_BLOB, BCRYPT_ECCKEY_BLOB structure [Security], BCRYPT_ECDH_PRIVATE_P256_MAGIC, BCRYPT_ECDH_PRIVATE_P384_MAGIC, BCRYPT_ECDH_PRIVATE_P521_MAGIC, BCRYPT_ECDH_PUBLIC_P256_MAGIC, BCRYPT_ECDH_PUBLIC_P384_MAGIC, BCRYPT_ECDH_PUBLIC_P521_MAGIC, BCRYPT_ECDSA_PRIVATE_P256_MAGIC, BCRYPT_ECDSA_PRIVATE_P384_MAGIC, BCRYPT_ECDSA_PRIVATE_P521_MAGIC, BCRYPT_ECDSA_PUBLIC_P256_MAGIC, BCRYPT_ECDSA_PUBLIC_P384_MAGIC, BCRYPT_ECDSA_PUBLIC_P521_MAGIC, PBCRYPT_ECCKEY_BLOB, PBCRYPT_ECCKEY_BLOB structure pointer [Security], _BCRYPT_ECCKEY_BLOB, bcrypt/BCRYPT_ECCKEY_BLOB, bcrypt/PBCRYPT_ECCKEY_BLOB, security.bcrypt_ecckey_blob"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bcrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BCRYPT_ECCKEY_BLOB, *PBCRYPT_ECCKEY_BLOB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bcrypt.h
+api_name:
+-	BCRYPT_ECCKEY_BLOB
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BCRYPT_ECCKEY_BLOB structure

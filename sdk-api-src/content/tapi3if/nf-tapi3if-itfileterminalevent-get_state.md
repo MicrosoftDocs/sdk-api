@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITFileTerminalEvent.get_State
+title: ITFileTerminalEvent::get_State
+author: windows-sdk-content
+description: The get_State method gets information on the new file terminal state.
+old-location: tapi3\itfileterminalevent_get_state.htm
+old-project: Tapi
+ms.assetid: f75537e8-f54c-4165-ba89-013eeabceb74
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITFileTerminalEvent interface [TAPI 2.2],get_State method, ITFileTerminalEvent.get_State, ITFileTerminalEvent::get_State, _tapi3_itfileterminalevent_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITFileTerminalEvent interface, tapi3.itfileterminalevent_get_state, tapi3if/ITFileTerminalEvent::get_State
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITFileTerminalEvent.get_State
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITFileTerminalEvent::get_State

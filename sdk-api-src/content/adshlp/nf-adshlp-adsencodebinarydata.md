@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:adshlp.ADsEncodeBinaryData
+title: ADsEncodeBinaryData function
+author: windows-sdk-content
+description: The ADsEncodeBinaryData function converts a binary large object (BLOB) to the Unicode format suitable to be embedded in a search filter.
+old-location: adsi\adsencodebinarydata.htm
+old-project: ADSI
+ms.assetid: b7bdf16c-7533-4db6-9bc4-06bc57d864ec
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ADsEncodeBinaryData, ADsEncodeBinaryData function [ADSI], _ds_adsencodebinarydata, adshlp/ADsEncodeBinaryData, adsi.adsencodebinarydata
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: adshlp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Activeds.dll
+-	AdsLdpc.dll
+api_name:
+-	ADsEncodeBinaryData
+product: Windows
+targetos: Windows
+req.lib: Activeds.lib
+req.dll: Activeds.dll; AdsLdpc.dll
+req.irql: 
 ---
 
 # ADsEncodeBinaryData function

@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bits._BG_JOB_TIMES
+title: "_BG_JOB_TIMES"
+author: windows-sdk-content
+description: The BG_JOB_TIMES structure provides job-related time stamps.
+old-location: bits\bg_job_times.htm
+old-project: Bits
+ms.assetid: d7ee63f7-e2d1-451d-b200-cccb86816f21
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BG_JOB_TIMES, BG_JOB_TIMES structure [BITS], _BG_JOB_TIMES, _drz_bg_job_times, bits.bg_job_times, bits/BG_JOB_TIMES
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_TIMES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bits.h
+api_name:
+-	BG_JOB_TIMES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BG_JOB_TIMES structure

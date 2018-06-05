@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmwksta._WKSTA_USER_INFO_1
+title: "_WKSTA_USER_INFO_1"
+author: windows-sdk-content
+description: The WKSTA_USER_INFO_1 structure contains user information as it pertains to a specific workstation. The information includes the name of the current user and the domains accessed by the workstation.
+old-location: netmgmt\wksta_user_info_1_str.htm
+old-project: NetMgmt
+ms.assetid: a30747de-6cb0-41dc-95a7-be3d471056d5
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPWKSTA_USER_INFO_1, *PWKSTA_USER_INFO_1, LPWKSTA_USER_INFO_1, LPWKSTA_USER_INFO_1 structure pointer [Network Management], PWKSTA_USER_INFO_1, PWKSTA_USER_INFO_1 structure pointer [Network Management], WKSTA_USER_INFO_1, WKSTA_USER_INFO_1 structure [Network Management], _WKSTA_USER_INFO_1, _win32_wksta_user_info_1_str, lmwksta/LPWKSTA_USER_INFO_1, lmwksta/PWKSTA_USER_INFO_1, lmwksta/WKSTA_USER_INFO_1, netmgmt.wksta_user_info_1_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmwksta.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WKSTA_USER_INFO_1, *PWKSTA_USER_INFO_1, *LPWKSTA_USER_INFO_1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmwksta.h
+api_name:
+-	WKSTA_USER_INFO_1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _WKSTA_USER_INFO_1 structure

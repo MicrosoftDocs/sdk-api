@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:icontentprefetchertasktrigger.IContentPrefetcherTaskTrigger
+title: IContentPrefetcherTaskTrigger
+author: windows-sdk-content
+description: The IContentPrefetcherTaskTrigger interface supports content prefetching behavior and performance testing by defining methods that allow you to verify that an installed app package is registered for this background task and manually trigger its content prefetch operations.
+old-location: wsw\icontentprefetchertasktrigger.htm
+old-project: wsw
+ms.assetid: 5DB67142-4B8F-4B88-A77F-B69F48E75839
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: IContentPrefetcherTaskTrigger, IContentPrefetcherTaskTrigger interface [Web Services for Windows], IContentPrefetcherTaskTrigger interface [Web Services for Windows],described, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger, wsw.icontentprefetchertasktrigger
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: icontentprefetchertasktrigger.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_FW_SERVICE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	IContentPrefetcherTaskTrigger.h
+api_name:
+-	IContentPrefetcherTaskTrigger
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IContentPrefetcherTaskTrigger interface

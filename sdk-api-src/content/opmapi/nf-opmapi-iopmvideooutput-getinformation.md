@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:opmapi.IOPMVideoOutput.GetInformation
+title: IOPMVideoOutput::GetInformation
+author: windows-sdk-content
+description: Sends an Output Protection Manager (OPM) status request to the display driver.
+old-location: mf\iopmvideooutput_iopmvideooutput__getinformation.htm
+old-project: medfound
+ms.assetid: 47d724eb-07e9-4659-886a-4b492fbb2415
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetInformation, GetInformation method [Media Foundation], GetInformation method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],GetInformation method, IOPMVideoOutput.GetInformation, IOPMVideoOutput::GetInformation, mf.iopmvideooutput_iopmvideooutput__getinformation, opmapi/IOPMVideoOutput::GetInformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: opmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPM_VIDEO_OUTPUT_SEMANTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	opmapi.h
+api_name:
+-	IOPMVideoOutput.GetInformation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOPMVideoOutput::GetInformation

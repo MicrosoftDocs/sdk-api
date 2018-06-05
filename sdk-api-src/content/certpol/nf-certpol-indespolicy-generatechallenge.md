@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:certpol.INDESPolicy.GenerateChallenge
+title: INDESPolicy::GenerateChallenge
+author: windows-sdk-content
+description: Performs the policy decision whether to issue a challenge password to the SCEP client.
+old-location: security\indespolicy_generatechallenge.htm
+old-project: SecCrypto
+ms.assetid: e09ef64c-5b4c-41ef-942a-1080cd566a5b
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: GenerateChallenge, GenerateChallenge method [Security], GenerateChallenge method [Security],INDESPolicy interface, INDESPolicy interface [Security],GenerateChallenge method, INDESPolicy.GenerateChallenge, INDESPolicy::GenerateChallenge, certpol/INDESPolicy::GenerateChallenge, security.indespolicy_generatechallenge
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certpol.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certpol.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509SCEPFailInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	certpol.h
+api_name:
+-	INDESPolicy.GenerateChallenge
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # INDESPolicy::GenerateChallenge

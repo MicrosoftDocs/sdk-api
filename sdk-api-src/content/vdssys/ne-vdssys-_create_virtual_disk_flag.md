@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vdssys._CREATE_VIRTUAL_DISK_FLAG
+title: "_CREATE_VIRTUAL_DISK_FLAG"
+author: windows-sdk-content
+description: Contains virtual hard disk (VHD) creation flags.
+old-location: vhd\create_virtual_disk_flag.htm
+old-project: VStor
+ms.assetid: 35dba6c6-2825-425a-b432-a6ac8ad4ea4b
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: CREATE_VIRTUAL_DISK_FLAG, CREATE_VIRTUAL_DISK_FLAG enumeration [VHD], CREATE_VIRTUAL_DISK_FLAG_DO_NOT_COPY_METADATA_FROM_PARENT, CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, CREATE_VIRTUAL_DISK_FLAG_NONE, CREATE_VIRTUAL_DISK_FLAG_PREVENT_WRITES_TO_SOURCE_DISK, _CREATE_VIRTUAL_DISK_FLAG, vdssys/CREATE_VIRTUAL_DISK_FLAG, vdssys/CREATE_VIRTUAL_DISK_FLAG_DO_NOT_COPY_METADATA_FROM_PARENT, vdssys/CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, vdssys/CREATE_VIRTUAL_DISK_FLAG_NONE, vdssys/CREATE_VIRTUAL_DISK_FLAG_PREVENT_WRITES_TO_SOURCE_DISK, vhd.create_virtual_disk_flag, virtdisk/CREATE_VIRTUAL_DISK_FLAG, virtdisk/CREATE_VIRTUAL_DISK_FLAG_DO_NOT_COPY_METADATA_FROM_PARENT, virtdisk/CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, virtdisk/CREATE_VIRTUAL_DISK_FLAG_NONE, virtdisk/CREATE_VIRTUAL_DISK_FLAG_PREVENT_WRITES_TO_SOURCE_DISK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vdssys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CREATE_VIRTUAL_DISK_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VirtDisk.h
+-	vdssys.h
+api_name:
+-	CREATE_VIRTUAL_DISK_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _CREATE_VIRTUAL_DISK_FLAG enumeration

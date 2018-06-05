@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Parameters
+title: IFsrmPipelineModuleDefinition::put_Parameters
+author: windows-sdk-content
+description: The optional parameters to pass to the module.
+old-location: fsrm\ifsrmpipelinemoduledefinition_parameters.htm
+old-project: Fsrm
+ms.assetid: 71421c07-f7cd-4baf-80a1-47416d514f56
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Parameters property, IFsrmPipelineModuleDefinition.Parameters, IFsrmPipelineModuleDefinition.put_Parameters, IFsrmPipelineModuleDefinition::Parameters, IFsrmPipelineModuleDefinition::get_Parameters, IFsrmPipelineModuleDefinition::put_Parameters, Parameters property [File Server Resource Manager], Parameters property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_parameters, fsrm.ifsrmpipelinemoduledefinition_parameters, fsrmpipeline/IFsrmPipelineModuleDefinition::Parameters, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Parameters, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Parameters, put_Parameters
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmPipelineModuleDefinition.Parameters
+-	IFsrmPipelineModuleDefinition.get_Parameters
+-	IFsrmPipelineModuleDefinition.put_Parameters
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmPipelineModuleDefinition::put_Parameters

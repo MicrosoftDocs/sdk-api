@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tvratings.IEvalRat.get_BlockedRatingAttributes
+title: IEvalRat::get_BlockedRatingAttributes
+author: windows-sdk-content
+description: The get_BlockedRatingAttributes method determines whether content is blocked for a given rating system and rating level.
+old-location: mstv\ievalrat_get_blockedratingattributes.htm
+old-project: mstv
+ms.assetid: d07b6462-958c-4e97-9be1-41941aa6b747
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IEvalRat interface [Microsoft TV Technologies],get_BlockedRatingAttributes method, IEvalRat.get_BlockedRatingAttributes, IEvalRat::get_BlockedRatingAttributes, IEvalRatget_BlockedRatingAttributes, get_BlockedRatingAttributes, get_BlockedRatingAttributes method [Microsoft TV Technologies], get_BlockedRatingAttributes method [Microsoft TV Technologies],IEvalRat interface, mstv.ievalrat_get_blockedratingattributes, tvratings/IEvalRat::get_BlockedRatingAttributes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tvratings.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EnTvRat_US_TV
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tvratings.h
+api_name:
+-	IEvalRat.get_BlockedRatingAttributes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IEvalRat::get_BlockedRatingAttributes

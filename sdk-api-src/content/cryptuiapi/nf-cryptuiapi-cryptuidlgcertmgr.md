@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cryptuiapi.CryptUIDlgCertMgr
+title: CryptUIDlgCertMgr function
+author: windows-sdk-content
+description: Displays a dialog box that allows the user to manage certificates.
+old-location: security\cryptuidlgcertmgr.htm
+old-project: SecCrypto
+ms.assetid: 8d94694e-1724-42aa-99bb-6ed2c6d3bc0e
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CryptUIDlgCertMgr, CryptUIDlgCertMgr function [Security], cryptuiapi/CryptUIDlgCertMgr, security.cryptuidlgcertmgr
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cryptuiapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cryptui.dll
+-	Ext-MS-Win-security-cryptui-l1-1-0.dll
+-	ext-ms-win-security-cryptui-l1-1-1.dll
+-	CertCredProviderOneCore.dll
+api_name:
+-	CryptUIDlgCertMgr
+product: Windows
+targetos: Windows
+req.lib: Cryptui.lib
+req.dll: Cryptui.dll
+req.irql: 
 ---
 
 # CryptUIDlgCertMgr function

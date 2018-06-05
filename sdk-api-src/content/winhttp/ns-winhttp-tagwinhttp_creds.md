@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winhttp.tagWINHTTP_CREDS
+title: tagWINHTTP_CREDS
+author: windows-sdk-content
+description: Contains user credential information used for server and proxy authentication.
+old-location: http\winhttp_creds.htm
+old-project: WinHttp
+ms.assetid: dc4960b6-ca78-4b7d-a012-61fb7b0b1ef2
+ms.author: windowssdkdev
+ms.date: 03/08/2018
+ms.keywords: "*PWINHTTP_CREDS, INHTTP_AUTH_SCHEME_DIGEST, PWINHTTP_CREDS, PWINHTTP_CREDS structure pointer [HTTP], WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_CREDS, WINHTTP_CREDS structure [HTTP], http.winhttp_creds, tagWINHTTP_CREDS, winhttp/PWINHTTP_CREDS, winhttp/WINHTTP_CREDS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winhttp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINHTTP_CREDS, *PWINHTTP_CREDS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winhttp.h
+api_name:
+-	WINHTTP_CREDS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagWINHTTP_CREDS structure

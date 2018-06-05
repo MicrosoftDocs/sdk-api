@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ktmw32.PrePrepareComplete
+title: PrePrepareComplete function
+author: windows-sdk-content
+description: Signals that this resource manager has completed its preprepare work, so that other resource managers can now begin their prepare operations.
+old-location: fs\prepreparecomplete.htm
+old-project: Ktm
+ms.assetid: b4a70a51-2c49-4626-9fca-9ca6e0d21a53
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: PrePrepareComplete, PrePrepareComplete function [Files], fs.prepreparecomplete, ktmw32/PrePrepareComplete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ktmw32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ktmw32.dll
+api_name:
+-	PrePrepareComplete
+product: Windows
+targetos: Windows
+req.lib: Ktmw32.lib
+req.dll: Ktmw32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # PrePrepareComplete function

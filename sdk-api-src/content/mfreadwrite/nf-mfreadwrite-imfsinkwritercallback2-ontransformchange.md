@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mfreadwrite.IMFSinkWriterCallback2.OnTransformChange
+title: IMFSinkWriterCallback2::OnTransformChange
+author: windows-sdk-content
+description: Called when the transform chain in the IMFSourceReader is built or modified.
+old-location: mf\imfsinkwritercallback2_ontransformchange.htm
+old-project: medfound
+ms.assetid: A0D93B37-1A74-486E-8A7C-6D909E2F25FD
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFSinkWriterCallback2 interface [Media Foundation],OnTransformChange method, IMFSinkWriterCallback2.OnTransformChange, IMFSinkWriterCallback2::OnTransformChange, OnTransformChange, OnTransformChange method [Media Foundation], OnTransformChange method [Media Foundation],IMFSinkWriterCallback2 interface, mf.imfsinkwritercallback2_ontransformchange, mfreadwrite/IMFSinkWriterCallback2::OnTransformChange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfreadwrite.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_SOURCE_READER_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfreadwrite.h
+api_name:
+-	IMFSinkWriterCallback2.OnTransformChange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSinkWriterCallback2::OnTransformChange

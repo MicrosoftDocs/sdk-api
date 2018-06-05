@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._KERB_ADD_CREDENTIALS_REQUEST_EX
+title: "_KERB_ADD_CREDENTIALS_REQUEST_EX"
+author: windows-sdk-content
+description: Specifies a message to add, remove, or replace an extra server credential for a logon session, and the service principal names (SPNs) to be associated with that credential.
+old-location: security\kerb_add_credentials_request_ex.htm
+old-project: SecAuthN
+ms.assetid: 9e806fce-9b3e-4bc9-bd75-a692f0ca5680
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PKERB_ADD_CREDENTIALS_REQUEST_EX, KERB_ADD_CREDENTIALS_REQUEST_EX, KERB_ADD_CREDENTIALS_REQUEST_EX structure [Security], PKERB_ADD_CREDENTIALS_REQUEST_EX, PKERB_ADD_CREDENTIALS_REQUEST_EX structure pointer [Security], _KERB_ADD_CREDENTIALS_REQUEST_EX, ntsecapi/KERB_ADD_CREDENTIALS_REQUEST_EX, ntsecapi/PKERB_ADD_CREDENTIALS_REQUEST_EX, security.kerb_add_credentials_request_ex"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KERB_ADD_CREDENTIALS_REQUEST_EX, *PKERB_ADD_CREDENTIALS_REQUEST_EX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	KERB_ADD_CREDENTIALS_REQUEST_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _KERB_ADD_CREDENTIALS_REQUEST_EX structure

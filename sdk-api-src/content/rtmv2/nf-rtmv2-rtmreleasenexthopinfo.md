@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rtmv2.RtmReleaseNextHopInfo
+title: RtmReleaseNextHopInfo function
+author: windows-sdk-content
+description: The RtmReleaseNextHopInfo function releases a next-hop structure.
+old-location: rras\rtmreleasenexthopinfo.htm
+old-project: RRAS
+ms.assetid: 1c5a9b72-8605-4c54-bc44-b7a1a4e1b367
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RtmReleaseNextHopInfo, RtmReleaseNextHopInfo function [RAS], _rtmv2ref_rtmreleasenexthopinfo, rras.rtmreleasenexthopinfo, rtmv2/RtmReleaseNextHopInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rtmv2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rtm.dll
+api_name:
+-	RtmReleaseNextHopInfo
+product: Windows
+targetos: Windows
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtmReleaseNextHopInfo function

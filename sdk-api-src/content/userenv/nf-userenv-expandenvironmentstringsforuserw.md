@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:userenv.ExpandEnvironmentStringsForUserW
+title: ExpandEnvironmentStringsForUserW function
+author: windows-sdk-content
+description: Expands the source string by using the environment block established for the specified user.
+old-location: shell\ExpandEnvironmentStringsForUser.htm
+old-project: shell
+ms.assetid: d32fa6c8-035a-4c84-b210-5366f21b6c17
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ExpandEnvironmentStringsForUser, ExpandEnvironmentStringsForUser function [Windows Shell], ExpandEnvironmentStringsForUserA, ExpandEnvironmentStringsForUserW, _shell_ExpandEnvironmentStringsForUser, shell.ExpandEnvironmentStringsForUser, userenv/ExpandEnvironmentStringsForUser, userenv/ExpandEnvironmentStringsForUserA, userenv/ExpandEnvironmentStringsForUserW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: userenv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ExpandEnvironmentStringsForUserW (Unicode) and ExpandEnvironmentStringsForUserA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Userenv.dll
+api_name:
+-	ExpandEnvironmentStringsForUser
+-	ExpandEnvironmentStringsForUserA
+-	ExpandEnvironmentStringsForUserW
+product: Windows
+targetos: Windows
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # ExpandEnvironmentStringsForUserW function

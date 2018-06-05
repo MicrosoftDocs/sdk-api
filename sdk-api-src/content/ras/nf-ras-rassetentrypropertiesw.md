@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ras.RasSetEntryPropertiesW
+title: RasSetEntryPropertiesW function
+author: windows-sdk-content
+description: The RasSetEntryProperties function changes the connection information for an entry in the phone book or creates a new phone-book entry.
+old-location: rras\rassetentryproperties.htm
+old-project: RRAS
+ms.assetid: 6532b48b-0d80-4993-800e-c808bb7540d6
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RasSetEntryProperties, RasSetEntryProperties function [RAS], RasSetEntryPropertiesA, RasSetEntryPropertiesW, _ras_rassetentryproperties, ras/RasSetEntryProperties, ras/RasSetEntryPropertiesA, ras/RasSetEntryPropertiesW, rras.rassetentryproperties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ras.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RasSetEntryPropertiesW (Unicode) and RasSetEntryPropertiesA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RASPROJECTION_INFO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rasapi32.dll
+api_name:
+-	RasSetEntryProperties
+-	RasSetEntryPropertiesA
+-	RasSetEntryPropertiesW
+product: Windows
+targetos: Windows
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RasSetEntryPropertiesW function

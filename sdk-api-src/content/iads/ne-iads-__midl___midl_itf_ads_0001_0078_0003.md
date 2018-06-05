@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0078_0003
+title: "__MIDL___MIDL_itf_ads_0001_0078_0003"
+author: windows-sdk-content
+description: The ADS_DISPLAY_ENUM enumeration specifies how a path is to be displayed.
+old-location: adsi\ads_display_enum.htm
+old-project: ADSI
+ms.assetid: bc57aa4d-99f6-483f-b027-9b66b0c3bad1
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ADS_DISPLAY_ENUM, ADS_DISPLAY_ENUM enumeration [ADSI], ADS_DISPLAY_FULL, ADS_DISPLAY_VALUE_ONLY, __MIDL___MIDL_itf_ads_0001_0078_0003, _ds_ads_display_enum, adsi.ads__display__enum, adsi.ads_display_enum, iads/ADS_DISPLAY_ENUM, iads/ADS_DISPLAY_FULL, iads/ADS_DISPLAY_VALUE_ONLY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: IAccess.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_DISPLAY_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_DISPLAY_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_ads_0001_0078_0003 enumeration

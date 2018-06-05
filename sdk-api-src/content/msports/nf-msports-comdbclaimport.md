@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:msports.ComDBClaimPort
+title: ComDBClaimPort function
+author: windows-sdk-content
+description: ComDBClaimPort logs an unused COM port number as &#0034;in use&#0034; in the COM port database.
+old-location: serports\comdbclaimport.htm
+old-project: serports
+ms.assetid: d0baa783-1039-41a4-8bb1-78c977ed62b6
+ms.author: windowssdkdev
+ms.date: 04/23/2018
+ms.keywords: ComDBClaimPort, ComDBClaimPort function [Serial Ports], comdb_e636ae45-1105-4322-9429-f8bf24333432.xml, msports/ComDBClaimPort, serports.comdbclaimport
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msports.h
+req.include-header: Msports.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msports.dll
+api_name:
+-	ComDBClaimPort
+product: Windows
+targetos: Windows
+req.lib: Msports.lib
+req.dll: Msports.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ComDBClaimPort function

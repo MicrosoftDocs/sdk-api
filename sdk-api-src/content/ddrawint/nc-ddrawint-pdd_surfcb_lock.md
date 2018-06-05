@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_SURFCB_LOCK
+title: PDD_SURFCB_LOCK
+author: windows-sdk-content
+description: The DdLock callback function locks a specified area of surface memory and provides a valid pointer to a block of memory associated with a surface.
+old-location: display\ddlock.htm
+old-project: display
+ms.assetid: b5256ed8-79be-4c7b-a079-ed3bca954e9e
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DdLock, DdLock callback function [Display Devices], PDD_SURFCB_LOCK, PDD_SURFCB_LOCK callback, ddfncs_af3e49f9-5fe1-4bf7-962b-18644a6fb582.xml, ddrawint/DdLock, display.ddlock
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdLock
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_SURFCB_LOCK callback function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbase.tagACTCTX_SECTION_KEYED_DATA
+title: tagACTCTX_SECTION_KEYED_DATA
+author: windows-sdk-content
+description: The ACTCTX_SECTION_KEYED_DATA structure is used by the FindActCtxSectionString and FindActCtxSectionGuid functions to return the activation context information along with either the GUID or 32-bit integer-tagged activation context section.
+old-location: setup\actctx_section_keyed_data_str.htm
+old-project: SbsCs
+ms.assetid: c73160e7-fff5-4ba5-8b3a-895ac944c76d
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PACTCTX_SECTION_KEYED_DATA, ACTCTX_SECTION_KEYED_DATA, ACTCTX_SECTION_KEYED_DATA structure [Side-by-side Assemblies], PACTCTX_SECTION_KEYED_DATA, PACTCTX_SECTION_KEYED_DATA structure pointer [Side-by-side Assemblies], _win32_actctx_section_keyed_data_str, setup.actctx_section_keyed_data_str, tagACTCTX_SECTION_KEYED_DATA, winbase/ACTCTX_SECTION_KEYED_DATA, winbase/PACTCTX_SECTION_KEYED_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACTCTX_SECTION_KEYED_DATA, *PACTCTX_SECTION_KEYED_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winbase.h
+api_name:
+-	ACTCTX_SECTION_KEYED_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagACTCTX_SECTION_KEYED_DATA structure

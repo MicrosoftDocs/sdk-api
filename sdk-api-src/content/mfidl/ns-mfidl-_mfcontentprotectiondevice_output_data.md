@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mfidl._MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
+title: "_MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA"
+author: windows-sdk-content
+description: Contains information about the data you received as output from a protection system function.
+old-location: mf\mfcontentprotectiondevice_output_data.htm
+old-project: medfound
+ms.assetid: 73380F30-E219-4670-86DA-63CDA10C94BF
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA, MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA structure [Media Foundation], _MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA, mf.mfcontentprotectiondevice_output_data, mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA structure

@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fhcfg.IFhReassociation.ScanTargetForConfigurations
+title: IFhReassociation::ScanTargetForConfigurations
+author: windows-sdk-content
+description: Scans the namespace on a specified storage device or network share for File History configurations that can be reassociated with and continued to be used on the current computer.
+old-location: winprog\ifhreassociation_scantargetforconfigurations.htm
+old-project: DevNotes
+ms.assetid: E26F5C41-50E7-4D4F-A6FF-D1B21AF28A9D
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: FhReassociation class [Windows API],ScanTargetForConfigurations method, IFhReassociation interface [Windows API],ScanTargetForConfigurations method, IFhReassociation.ScanTargetForConfigurations, IFhReassociation::ScanTargetForConfigurations, ScanTargetForConfigurations, ScanTargetForConfigurations method [Windows API], ScanTargetForConfigurations method [Windows API],FhReassociation class, ScanTargetForConfigurations method [Windows API],IFhReassociation interface, fhcfg/IFhReassociation::ScanTargetForConfigurations, winprog.ifhreassociation_scantargetforconfigurations
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fhcfg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fhcfg.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fhcfg.h
+api_name:
+-	IFhReassociation.ScanTargetForConfigurations
+-	FhReassociation.ScanTargetForConfigurations
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFhReassociation::ScanTargetForConfigurations

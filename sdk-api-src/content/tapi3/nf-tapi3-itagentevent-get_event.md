@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3.ITAgentEvent.get_Event
+title: ITAgentEvent::get_Event
+author: windows-sdk-content
+description: Gets an AGENT_EVENT descriptor of the event that occurred.
+old-location: tapi3\itagentevent_get_event.htm
+old-project: Tapi
+ms.assetid: d402b2b4-2817-4ebe-b735-69ea9e975f54
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITAgentEvent interface [TAPI 2.2],get_Event method, ITAgentEvent.get_Event, ITAgentEvent::get_Event, _tapi3_itagentevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITAgentEvent interface, tapi3.itagentevent_get_event, tapi3cc/ITAgentEvent::get_Event
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSP_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAgentEvent.get_Event
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAgentEvent::get_Event

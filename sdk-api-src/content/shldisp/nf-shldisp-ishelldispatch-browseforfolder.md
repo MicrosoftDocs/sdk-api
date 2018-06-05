@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shldisp.IShellDispatch.BrowseForFolder
+title: IShellDispatch::BrowseForFolder
+author: windows-sdk-content
+description: Creates a dialog box that enables the user to select a folder and then returns the selected folder's Folder object.
+old-location: shell\IShellDispatch_BrowseForFolder.htm
+old-project: shell
+ms.assetid: 578C51C1-F59B-4604-A09B-62BA61225ABB
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: BrowseForFolder, BrowseForFolder method [Windows Shell], BrowseForFolder method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],BrowseForFolder method, IShellDispatch.BrowseForFolder, IShellDispatch::BrowseForFolder, shell.IShellDispatch_BrowseForFolder
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shldisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shldisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETEOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IShellDispatch.BrowseForFolder
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # IShellDispatch::BrowseForFolder

@@ -1,31 +1,54 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbtsv.ITsSbPlugin.Terminate
+title: ITsSbPlugin::Terminate
+author: windows-sdk-content
+description: Performs clean-up and unloads the plug-in.
+old-location: termserv\itssbplugin_terminate.htm
+old-project: TermServ
+ms.assetid: c47c6231-f967-4239-afd4-a87e9d8f49c2
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ITsSbLoadBalancing interface [Remote Desktop Services],Terminate method, ITsSbLoadBalancing::Terminate, ITsSbOrchestration interface [Remote Desktop Services],Terminate method, ITsSbOrchestration::Terminate, ITsSbPlacement interface [Remote Desktop Services],Terminate method, ITsSbPlacement::Terminate, ITsSbPlugin interface [Remote Desktop Services],Terminate method, ITsSbPlugin.Terminate, ITsSbPlugin::Terminate, ITsSbProvisioning interface [Remote Desktop Services],Terminate method, ITsSbProvisioning::Terminate, ITsSbResourcePlugin interface [Remote Desktop Services],Terminate method, ITsSbResourcePlugin::Terminate, ITsSbTaskPlugin interface [Remote Desktop Services],Terminate method, ITsSbTaskPlugin::Terminate, Terminate, Terminate method [Remote Desktop Services], Terminate method [Remote Desktop Services],ITsSbLoadBalancing interface, Terminate method [Remote Desktop Services],ITsSbOrchestration interface, Terminate method [Remote Desktop Services],ITsSbPlacement interface, Terminate method [Remote Desktop Services],ITsSbPlugin interface, Terminate method [Remote Desktop Services],ITsSbProvisioning interface, Terminate method [Remote Desktop Services],ITsSbResourcePlugin interface, Terminate method [Remote Desktop Services],ITsSbTaskPlugin interface, sbtsv/ITsSbLoadBalancing::Terminate, sbtsv/ITsSbOrchestration::Terminate, sbtsv/ITsSbPlacement::Terminate, sbtsv/ITsSbPlugin::Terminate, sbtsv/ITsSbProvisioning::Terminate, sbtsv/ITsSbResourcePlugin::Terminate, sbtsv/ITsSbTaskPlugin::Terminate, termserv.itssbplugin_terminate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbtsv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Sbtsv.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TS_SB_SORT_BY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbtsv.h
+api_name:
+-	ITsSbPlugin.Terminate
+-	ITsSbLoadBalancing.Terminate
+-	ITsSbOrchestration.Terminate
+-	ITsSbPlacement.Terminate
+-	ITsSbProvisioning.Terminate
+-	ITsSbResourcePlugin.Terminate
+-	ITsSbTaskPlugin.Terminate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbPlugin::Terminate

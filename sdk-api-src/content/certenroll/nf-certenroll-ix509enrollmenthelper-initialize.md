@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509EnrollmentHelper.Initialize
+title: IX509EnrollmentHelper::Initialize
+author: windows-sdk-content
+description: Initializes an IX509EnrollmentHelper object.
+old-location: security\ix509enrollmenthelper_initialize.htm
+old-project: SecCertEnroll
+ms.assetid: 83cb603b-9396-4983-8707-12d1c5b8b234
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentHelper interface [Security],Initialize method, IX509EnrollmentHelper.Initialize, IX509EnrollmentHelper::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509EnrollmentHelper interface, certenroll/IX509EnrollmentHelper::Initialize, security.ix509enrollmenthelper_initialize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certenroll.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.h
+api_name:
+-	IX509EnrollmentHelper.Initialize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IX509EnrollmentHelper::Initialize

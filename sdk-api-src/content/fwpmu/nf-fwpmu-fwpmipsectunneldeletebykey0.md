@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fwpmu.FwpmIPsecTunnelDeleteByKey0
+title: FwpmIPsecTunnelDeleteByKey0 function
+author: windows-sdk-content
+description: Removes an Internet Protocol Security (IPsec) tunnel mode policy from the system.
+old-location: fwp\fwpmipsectunneldeletebykey0.htm
+old-project: FWP
+ms.assetid: cbef853e-0d6e-420b-84a9-640f56614fe7
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: FwpmIPsecTunnelDeleteByKey0, FwpmIPsecTunnelDeleteByKey0 function [Filtering], fwp.fwpmipsectunneldeletebykey0, fwpmu/FwpmIPsecTunnelDeleteByKey0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fwpmu.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Fwpuclnt.dll
+api_name:
+-	FwpmIPsecTunnelDeleteByKey0
+product: Windows
+targetos: Windows
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FwpmIPsecTunnelDeleteByKey0 function

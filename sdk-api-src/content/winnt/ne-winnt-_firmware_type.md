@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winnt._FIRMWARE_TYPE
+title: "_FIRMWARE_TYPE"
+author: windows-sdk-content
+description: Specifies a firmware type.
+old-location: base\firmware_type.htm
+old-project: SysInfo
+ms.assetid: c058e20e-11f9-4652-b658-9fd0a43d4224
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PFIRMWARE_TYPE, FIRMWARE_TYPE, FIRMWARE_TYPE enumeration, FirmwareTypeBios, FirmwareTypeMax, FirmwareTypeUefi, FirmwareTypeUnknown, PFIRMWARE_TYPE, PFIRMWARE_TYPE enumeration pointer, _FIRMWARE_TYPE, base.firmware_type, winnt/FIRMWARE_TYPE, winnt/FirmwareTypeBios, winnt/FirmwareTypeMax, winnt/FirmwareTypeUefi, winnt/FirmwareTypeUnknown, winnt/PFIRMWARE_TYPE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FIRMWARE_TYPE, *PFIRMWARE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	FIRMWARE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FIRMWARE_TYPE enumeration

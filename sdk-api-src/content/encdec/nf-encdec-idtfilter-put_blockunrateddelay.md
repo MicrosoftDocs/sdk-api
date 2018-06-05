@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:encdec.IDTFilter.put_BlockUnRatedDelay
+title: IDTFilter::put_BlockUnRatedDelay
+author: windows-sdk-content
+description: The put_BlockUnRatedDelay method sets the length of time the filter waits before it blocks unrated content.
+old-location: mstv\idtfilter_put_blockunrateddelay.htm
+old-project: mstv
+ms.assetid: 2caabce8-57b0-4a43-87b7-1b045ca573db
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IDTFilter interface [Microsoft TV Technologies],put_BlockUnRatedDelay method, IDTFilter.put_BlockUnRatedDelay, IDTFilter::put_BlockUnRatedDelay, IDTFilterput_BlockUnRatedDelay, encdec/IDTFilter::put_BlockUnRatedDelay, mstv.idtfilter_put_blockunrateddelay, put_BlockUnRatedDelay, put_BlockUnRatedDelay method [Microsoft TV Technologies], put_BlockUnRatedDelay method [Microsoft TV Technologies],IDTFilter interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: encdec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ProtType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EncDec.h
+api_name:
+-	IDTFilter.put_BlockUnRatedDelay
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDTFilter::put_BlockUnRatedDelay

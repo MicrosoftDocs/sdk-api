@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wmiutils.tag_SWbemRpnConst
+title: tag_SWbemRpnConst
+author: windows-sdk-content
+description: Defines the structure of the union used by WQL to process query tokens.
+old-location: wmi\swbemrpnconst.htm
+old-project: WmiSdk
+ms.assetid: 06b2feff-b604-44d2-8381-719575650e88
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: SWbemRpnConst, SWbemRpnConst union [Windows Management Instrumentation], tag_SWbemRpnConst, wmi.swbemrpnconst, wmiutils/SWbemRpnConst
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wmiutils.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SWbemRpnConst
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wmiutils.h
+api_name:
+-	SWbemRpnConst
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tag_SWbemRpnConst structure

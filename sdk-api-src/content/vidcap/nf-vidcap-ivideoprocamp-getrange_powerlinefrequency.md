@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vidcap.IVideoProcAmp.getRange_PowerlineFrequency
+title: IVideoProcAmp::getRange_PowerlineFrequency
+author: windows-sdk-content
+description: The getRange_PowerlineFrequency method returns the range of power line frequency settings supported by the camera.
+old-location: dshow\ivideoprocamp_getrange_powerlinefrequency.htm
+old-project: DirectShow
+ms.assetid: f6bb1df3-d033-4627-b5ea-574a2ebf43aa
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],getRange_PowerlineFrequency method, IVideoProcAmp.getRange_PowerlineFrequency, IVideoProcAmp::getRange_PowerlineFrequency, IVideoProcAmpgetRange_PowerlineFrequency, dshow.ivideoprocamp_getrange_powerlinefrequency, getRange_PowerlineFrequency, getRange_PowerlineFrequency method [DirectShow], getRange_PowerlineFrequency method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_PowerlineFrequency
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vidcap.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Vidcap.h
+api_name:
+-	IVideoProcAmp.getRange_PowerlineFrequency
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVideoProcAmp::getRange_PowerlineFrequency

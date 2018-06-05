@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:amvideo.SIZE_MPEG1VIDEOINFO
+title: SIZE_MPEG1VIDEOINFO macro
+author: windows-sdk-content
+description: The SIZE_MPEG1VIDEOINFO macro calculates the size of an MPEG1VIDEOINFO structure, including the sequence header (bSequenceHeader).
+old-location: dshow\size_mpeg1videoinfo.htm
+old-project: DirectShow
+ms.assetid: 192c9179-baed-4fa5-a972-34964a6bdfd7
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: SIZE_MPEG1VIDEOINFO, SIZE_MPEG1VIDEOINFO macro [DirectShow], amvideo/SIZE_MPEG1VIDEOINFO, dshow.size_mpeg1videoinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: amvideo.h
+req.include-header: Streams.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Amvideo.h
+api_name:
+-	SIZE_MPEG1VIDEOINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # SIZE_MPEG1VIDEOINFO macro

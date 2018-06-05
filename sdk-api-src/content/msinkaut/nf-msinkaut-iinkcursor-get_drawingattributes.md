@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkCursor.get_DrawingAttributes
+title: IInkCursor::get_DrawingAttributes
+author: windows-sdk-content
+description: Gets or sets the drawing attributes to apply to ink as it is drawn.
+old-location: tablet\iinkcursor_drawingattributes.htm
+old-project: tablet
+ms.assetid: de8b2473-092d-4ff9-adbc-3ba378b035e2
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC],IInkCursor interface, IInkCursor interface [Tablet PC],DrawingAttributes property, IInkCursor.DrawingAttributes, IInkCursor.get_DrawingAttributes, IInkCursor::DrawingAttributes, IInkCursor::get_DrawingAttributes, IInkCursor::putref_DrawingAttributes, de8b2473-092d-4ff9-adbc-3ba378b035e2, get_DrawingAttributes, msinkaut/IInkCursor::DrawingAttributes, msinkaut/IInkCursor::get_DrawingAttributes, msinkaut/IInkCursor::putref_DrawingAttributes, tablet.iinkcursor_drawingattributes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkCursor.DrawingAttributes
+-	IInkCursor.get_DrawingAttributes
+-	IInkCursor.get_DrawingAttributes
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkCursor::get_DrawingAttributes

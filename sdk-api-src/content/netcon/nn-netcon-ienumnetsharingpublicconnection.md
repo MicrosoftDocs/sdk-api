@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:netcon.IEnumNetSharingPublicConnection
+title: IEnumNetSharingPublicConnection
+author: windows-sdk-content
+description: The IEnumNetSharingPublicConnection interface provides methods for enumerating the currently configured publicly-shared connections.
+old-location: ics\ienumnetsharingpublicconnection.htm
+old-project: ICS
+ms.assetid: 69f2d4c0-7c25-4a50-988b-3ca6babb489a
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: IEnumNetSharingPublicConnection, IEnumNetSharingPublicConnection interface [ICS/ICF], IEnumNetSharingPublicConnection interface [ICS/ICF],described, _ics_ienumnetsharingpublicconnection, ics.ienumnetsharingpublicconnection, netcon/IEnumNetSharingPublicConnection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: netcon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Hnetcfg.dll
+api_name:
+-	IEnumNetSharingPublicConnection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumNetSharingPublicConnection interface

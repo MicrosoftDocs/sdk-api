@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:functiondiscoveryprovider.IProviderProperties
+title: IProviderProperties
+author: windows-sdk-content
+description: Is optionally implemented by discovery providers to directly create and manage their own property store.
+old-location: ncd\iproviderproperties.htm
+old-project: FunDisc
+ms.assetid: d6d3d1d1-d2fb-409c-be37-3cd286e325a3
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IProviderProperties, IProviderProperties interface, IProviderProperties interface,described, functiondiscoveryprovider/IProviderProperties, ncd.iproviderproperties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: functiondiscoveryprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FunctionDiscoveryProvider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PropertyConstraint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FunctionDiscoveryProvider.h
+api_name:
+-	IProviderProperties
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IProviderProperties interface

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:webservices.WsOpenListener
+title: WsOpenListener function
+author: windows-sdk-content
+description: Initiates &#0034;listening&#0034; on a specified address. Once a listener is opened channels can be accepted from it. If the open is successful the Listener must be closed using the WsCloseListener function before Listener resources can be released.
+old-location: wsw\wsopenlistener.htm
+old-project: wsw
+ms.assetid: 36226881-3fe7-4510-b147-7ee30146482c
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WsOpenListener, WsOpenListener function [Web Services for Windows], webservices/WsOpenListener, wsw.wsopenlistener
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WebServices.dll
+api_name:
+-	WsOpenListener
+product: Windows
+targetos: Windows
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WsOpenListener function

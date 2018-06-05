@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipsectypes.IPSEC_AUTH_TRANSFORM0_
+title: IPSEC_AUTH_TRANSFORM0_
+author: windows-sdk-content
+description: Specifies hash specific information for an SA transform.
+old-location: fwp\ipsec_auth_transform0_struct.htm
+old-project: FWP
+ms.assetid: 26464393-7dc4-4a94-af46-25148c61bdb5
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IPSEC_AUTH_TRANSFORM0, IPSEC_AUTH_TRANSFORM0 structure [Filtering], IPSEC_AUTH_TRANSFORM0_, IPSEC_AUTH_TRANSFORM_ID_GCM_AES_128, IPSEC_AUTH_TRANSFORM_ID_GCM_AES_192, IPSEC_AUTH_TRANSFORM_ID_GCM_AES_256, IPSEC_AUTH_TRANSFORM_ID_HMAC_MD5_96, IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_1_96, IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_256_128, fwp.ipsec_auth_transform0_struct, ipsectypes/IPSEC_AUTH_TRANSFORM0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipsectypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPSEC_AUTH_TRANSFORM0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipsectypes.h
+api_name:
+-	IPSEC_AUTH_TRANSFORM0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IPSEC_AUTH_TRANSFORM0_ structure

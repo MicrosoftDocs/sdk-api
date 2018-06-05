@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi._RGNDATAHEADER
+title: "_RGNDATAHEADER"
+author: windows-sdk-content
+description: The RGNDATAHEADER structure describes the data returned by the GetRegionData function.
+old-location: gdi\rgndataheader.htm
+old-project: gdi
+ms.assetid: 15990903-8a48-4c47-b527-269d775255a5
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PRGNDATAHEADER, PRGNDATAHEADER, PRGNDATAHEADER structure pointer [Windows GDI], RGNDATAHEADER, RGNDATAHEADER structure [Windows GDI], _RGNDATAHEADER, _win32_RGNDATAHEADER_str, gdi.rgndataheader, wingdi/PRGNDATAHEADER, wingdi/RGNDATAHEADER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RGNDATAHEADER, *PRGNDATAHEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	RGNDATAHEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _RGNDATAHEADER structure

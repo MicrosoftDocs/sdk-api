@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msopc.IOpcSigningOptions.SetSignatureMethod
+title: IOpcSigningOptions::SetSignatureMethod
+author: windows-sdk-content
+description: Sets the signature method to use to calculate and encrypt the hash value of the SignedInfo element, which will be contained in the SignatureValue element of the signature.
+old-location: opc\iopcsigningoptions_setsignaturemethod.htm
+old-project: OPC
+ms.assetid: b567b09a-e688-4c02-8c01-983a307fd0e2
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetSignatureMethod method, IOpcSigningOptions.SetSignatureMethod, IOpcSigningOptions::SetSignatureMethod, SetSignatureMethod, SetSignatureMethod method [Open Packaging Conventions], SetSignatureMethod method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetSignatureMethod, opc.iopcsigningoptions_setsignaturemethod
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OpcDigitalSignature.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPC_SIGNATURE_TIME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msopc.h
+api_name:
+-	IOpcSigningOptions.SetSignatureMethod
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOpcSigningOptions::SetSignatureMethod

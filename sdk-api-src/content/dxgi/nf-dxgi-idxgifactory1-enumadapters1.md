@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxgi.IDXGIFactory1.EnumAdapters1
+title: IDXGIFactory1::EnumAdapters1
+author: windows-sdk-content
+description: Enumerates both adapters (video cards) with or without outputs.
+old-location: direct3ddxgi\idxgifactory1_enumadapters1.htm
+old-project: direct3ddxgi
+ms.assetid: 351b7b2d-abb7-449e-bee2-eea96fef3b9d
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: 0a909fb2-9d08-a479-d85f-14de8ba21f69, EnumAdapters1, EnumAdapters1 method [DXGI], EnumAdapters1 method [DXGI],IDXGIFactory1 interface, IDXGIFactory1 interface [DXGI],EnumAdapters1 method, IDXGIFactory1.EnumAdapters1, IDXGIFactory1::EnumAdapters1, direct3ddxgi.idxgifactory1_enumadapters1, dxgi/IDXGIFactory1::EnumAdapters1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_SWAP_EFFECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DXGI.lib
+-	DXGI.dll
+api_name:
+-	IDXGIFactory1.EnumAdapters1
+product: Windows
+targetos: Windows
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIFactory1::EnumAdapters1

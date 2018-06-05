@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsvc._SERVICE_TABLE_ENTRYA
+title: "_SERVICE_TABLE_ENTRYA"
+author: windows-sdk-content
+description: Specifies the ServiceMain function for a service that can run in the calling process. It is used by the StartServiceCtrlDispatcher function.
+old-location: base\service_table_entry_str.htm
+old-project: Services
+ms.assetid: dd40c4f0-cbbe-429f-91c0-3ba141dab702
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*LPSERVICE_TABLE_ENTRYA, LPSERVICE_TABLE_ENTRY, LPSERVICE_TABLE_ENTRY structure pointer, SERVICE_TABLE_ENTRY, SERVICE_TABLE_ENTRY structure, SERVICE_TABLE_ENTRYA, SERVICE_TABLE_ENTRYW, _SERVICE_TABLE_ENTRYA, _win32_service_table_entry_str, base.service_table_entry_str, winsvc/LPSERVICE_TABLE_ENTRY, winsvc/SERVICE_TABLE_ENTRY, winsvc/SERVICE_TABLE_ENTRYA, winsvc/SERVICE_TABLE_ENTRYW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsvc.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SERVICE_TABLE_ENTRYW (Unicode) and SERVICE_TABLE_ENTRYA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SERVICE_TABLE_ENTRYA, *LPSERVICE_TABLE_ENTRYA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsvc.h
+api_name:
+-	SERVICE_TABLE_ENTRY
+-	SERVICE_TABLE_ENTRYA
+-	SERVICE_TABLE_ENTRYW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SERVICE_TABLE_ENTRYA structure

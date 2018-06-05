@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:msdrmdefs._DRMENCODINGTYPE
+title: "_DRMENCODINGTYPE"
+author: windows-sdk-content
+description: The DRMENCODINGTYPE enumeration identifies possible encoding types used in licenses.
+old-location: rm\drmencodingtype.htm
+old-project: AdRms_Sdk
+ms.assetid: 7859d7e9-aec4-4255-a11b-5d18c08fd6ca
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DRMENCODINGTYPE, DRMENCODINGTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMENCODINGTYPE_BASE64, DRMENCODINGTYPE_LONG, DRMENCODINGTYPE_RAW, DRMENCODINGTYPE_STRING, DRMENCODINGTYPE_TIME, DRMENCODINGTYPE_UINT, _DRMENCODINGTYPE, msdrmdefs/DRMENCODINGTYPE, msdrmdefs/DRMENCODINGTYPE_BASE64, msdrmdefs/DRMENCODINGTYPE_LONG, msdrmdefs/DRMENCODINGTYPE_RAW, msdrmdefs/DRMENCODINGTYPE_STRING, msdrmdefs/DRMENCODINGTYPE_TIME, msdrmdefs/DRMENCODINGTYPE_UINT, rm.drmencodingtype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msdrmdefs.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRMENCODINGTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msdrmdefs.h
+api_name:
+-	DRMENCODINGTYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _DRMENCODINGTYPE enumeration

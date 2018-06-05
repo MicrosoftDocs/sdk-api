@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msctf.__MIDL___MIDL_itf_msctf_0000_0070_0001
+title: "__MIDL___MIDL_itf_msctf_0000_0070_0001"
+author: windows-sdk-content
+description: Elements of the TF_DA_LINESTYLE enumeration specify the underline style of a display attribute in the TF_DA_COLOR structure.
+old-location: tsf\tf_da_linestyle.htm
+old-project: TSF
+ms.assetid: 36ea6359-e25a-4b23-8d9d-961d743268ab
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: TF_DA_LINESTYLE, TF_DA_LINESTYLE enumeration [Text Services Framework], TF_LS_DASH, TF_LS_DOT, TF_LS_NONE, TF_LS_SOLID, TF_LS_SQUIGGLE, __MIDL___MIDL_itf_msctf_0000_0070_0001, _tsf_tf_da_linestyle_ref, msctf/TF_DA_LINESTYLE, msctf/TF_LS_DASH, msctf/TF_LS_DOT, msctf/TF_LS_NONE, msctf/TF_LS_SOLID, msctf/TF_LS_SQUIGGLE, tsf.tf_da_linestyle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: MsClus.tlb
+tech.root: 
+req.typenames: TF_DA_LINESTYLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msctf.h
+api_name:
+-	TF_DA_LINESTYLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_msctf_0000_0070_0001 enumeration

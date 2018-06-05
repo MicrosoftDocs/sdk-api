@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mswsock._RIO_NOTIFICATION_COMPLETION_TYPE
+title: "_RIO_NOTIFICATION_COMPLETION_TYPE"
+author: windows-sdk-content
+description: Specifies the type of completion queue notifications to use with the RIONotify function when sending or receiving data using the Winsock registered I/O extensions.
+old-location: winsock\rio_notification_completion_type.htm
+old-project: WinSock
+ms.assetid: F60DC5AD-9114-46FA-BCFF-981D637B3683
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PRIO_NOTIFICATION_COMPLETION_TYPE, RIO_EVENT_COMPLETION, RIO_IOCP_COMPLETION, RIO_NOTIFICATION_COMPLETION_TYPE, RIO_NOTIFICATION_COMPLETION_TYPE enumeration [Winsock], _RIO_NOTIFICATION_COMPLETION_TYPE, mswsock/RIO_EVENT_COMPLETION, mswsock/RIO_IOCP_COMPLETION, mswsock/RIO_NOTIFICATION_COMPLETION_TYPE, winsock.rio_notification_completion_type"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mswsock.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RIO_NOTIFICATION_COMPLETION_TYPE, *PRIO_NOTIFICATION_COMPLETION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mswsock.h
+api_name:
+-	RIO_NOTIFICATION_COMPLETION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RIO_NOTIFICATION_COMPLETION_TYPE enumeration

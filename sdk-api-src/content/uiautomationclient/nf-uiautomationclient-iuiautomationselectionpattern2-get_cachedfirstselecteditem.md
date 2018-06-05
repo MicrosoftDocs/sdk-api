@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CachedFirstSelectedItem
+title: IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem
+author: windows-sdk-content
+description: Gets a cached IUIAutomationElement object representing the first item in a group of selected items.
+old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CachedFirstSelectedItem.htm
+old-project: WinAuto
+ms.assetid: 580E229B-70E3-4FE6-85FF-42F0757F0620
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CachedFirstSelectedItem property [Windows Accessibility], CachedFirstSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CachedFirstSelectedItem property, IUIAutomationSelectionPattern2.CachedFirstSelectedItem, IUIAutomationSelectionPattern2.get_CachedFirstSelectedItem, IUIAutomationSelectionPattern2::CachedFirstSelectedItem, IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem, get_CachedFirstSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CachedFirstSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CachedFirstSelectedItem
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationSelectionPattern2.CachedFirstSelectedItem
+-	IUIAutomationSelectionPattern2.get_CachedFirstSelectedItem
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:opmapi._OPM_VIDEO_OUTPUT_SEMANTICS
+title: "_OPM_VIDEO_OUTPUT_SEMANTICS"
+author: windows-sdk-content
+description: Specifies whether the IOPMVideoOutput interface will use Output Protection Manager (OPM) semantics or Certified Output Protection Protocol (COPP) semantics.
+old-location: mf\opm_video_output_semantics.htm
+old-project: medfound
+ms.assetid: d52fbc40-072b-4b7a-87c2-b928563100bb
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: OPM_VIDEO_OUTPUT_SEMANTICS, OPM_VIDEO_OUTPUT_SEMANTICS enumeration [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, _OPM_VIDEO_OUTPUT_SEMANTICS, mf.opm_video_output_semantics, opmapi/OPM_VIDEO_OUTPUT_SEMANTICS, opmapi/OPM_VOS_COPP_SEMANTICS, opmapi/OPM_VOS_OPM_SEMANTICS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: opmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Opmapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPM_VIDEO_OUTPUT_SEMANTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	opmapi.h
+api_name:
+-	OPM_VIDEO_OUTPUT_SEMANTICS
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _OPM_VIDEO_OUTPUT_SEMANTICS enumeration

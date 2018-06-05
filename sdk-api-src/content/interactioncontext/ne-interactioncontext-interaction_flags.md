@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:interactioncontext.INTERACTION_FLAGS
+title: INTERACTION_FLAGS
+author: windows-sdk-content
+description: Specifies the state of an interaction.
+old-location: input_intcontext\interaction_flags.htm
+old-project: Input_IntContext
+ms.assetid: 8d1adbd2-03ca-4609-9738-45bc7b21f934
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: INTERACTION_FLAGS, INTERACTION_FLAGS enumeration, INTERACTION_FLAG_BEGIN, INTERACTION_FLAG_CANCEL, INTERACTION_FLAG_END, INTERACTION_FLAG_INERTIA, INTERACTION_FLAG_MAX, INTERACTION_FLAG_NONE, input_intcontext.interaction_flags, interactioncontext.interaction_flags, interactioncontext/INTERACTION_FLAGS, interactioncontext/INTERACTION_FLAG_BEGIN, interactioncontext/INTERACTION_FLAG_CANCEL, interactioncontext/INTERACTION_FLAG_END, interactioncontext/INTERACTION_FLAG_INERTIA, interactioncontext/INTERACTION_FLAG_MAX, interactioncontext/INTERACTION_FLAG_NONE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: interactioncontext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INTERACTION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	interactioncontext.h
+api_name:
+-	INTERACTION_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # INTERACTION_FLAGS enumeration

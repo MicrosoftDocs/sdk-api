@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wpcevent.tagWPCFLAG_IM_LEAVE_FLAG
+title: tagWPCFLAG_IM_LEAVE_FLAG
+author: windows-sdk-content
+description: Indicates information about when a participant leaves the instant messaging interaction.
+old-location: parcon\wpcflag_im_leave_flag.htm
+old-project: parcon
+ms.assetid: d1ca0b51-5d58-4df2-877b-73a02fe1c67d
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WPCFLAG_IM_LEAVE, WPCFLAG_IM_LEAVE enumeration, WPCFLAG_IM_LEAVE_CONVERSATION_END, WPCFLAG_IM_LEAVE_FORCED, WPCFLAG_IM_LEAVE_NORMAL, parcon.wpcflag_im_leave_flag, tagWPCFLAG_IM_LEAVE_FLAG, wpcevent/WPCFLAG_IM_LEAVE, wpcevent/WPCFLAG_IM_LEAVE_CONVERSATION_END, wpcevent/WPCFLAG_IM_LEAVE_FORCED, wpcevent/WPCFLAG_IM_LEAVE_NORMAL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wpcevent.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WPCFLAG_IM_LEAVE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wpcevent.h
+api_name:
+-	WPCFLAG_IM_LEAVE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagWPCFLAG_IM_LEAVE_FLAG enumeration

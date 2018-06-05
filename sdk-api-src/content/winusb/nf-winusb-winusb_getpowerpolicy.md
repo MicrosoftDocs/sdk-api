@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winusb.WinUsb_GetPowerPolicy
+title: WinUsb_GetPowerPolicy function
+author: windows-sdk-content
+description: The WinUsb_GetPowerPolicy function retrieves the power policy for a device. This is a synchronous operation.
+old-location: buses\winusb_getpowerpolicy.htm
+old-project: usbref
+ms.assetid: 515a4548-d89f-458d-89ed-1cc4d25561ef
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: WinUsb_GetPowerPolicy, WinUsb_GetPowerPolicy function [Buses], buses.winusb_getpowerpolicy, winusb/WinUsb_GetPowerPolicy, winusbfunc_85084f46-4707-4fd1-8246-61cd4a18eec0.xml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winusb.h
+req.include-header: Winusb.h
+req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winusb.dll
+api_name:
+-	WinUsb_GetPowerPolicy
+product: Windows
+targetos: Windows
+req.lib: Winusb.lib
+req.dll: Winusb.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WinUsb_GetPowerPolicy function

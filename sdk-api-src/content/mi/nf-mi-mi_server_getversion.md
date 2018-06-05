@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mi.MI_Server_GetVersion
+title: MI_Server_GetVersion function
+author: windows-sdk-content
+description: Gets the value of the MI_VERSION macro used when generating the provider.
+old-location: wmi_v2\mi_server_getversion.htm
+old-project: wmi_v2
+ms.assetid: ba3d3bc8-fd07-45c7-8292-38768738cf82
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: MI_Server_GetVersion, MI_Server_GetVersion callback, MI_Server_GetVersion callback function [Windows Management Infrastructure (MI)], mi/MI_Server_GetVersion, wmi_v2.mi_server_getversion
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MI_Type
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Mi.h
+api_name:
+-	MI_Server_GetVersion
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MI_Server_GetVersion function

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:bluetoothapis.BluetoothSetLocalServiceInfo
+title: BluetoothSetLocalServiceInfo function
+author: windows-sdk-content
+description: Sets local service information for a specific Bluetooth radio.
+old-location: bltooth\bluetoothsetlocalserviceinfo.htm
+old-project: bltooth
+ms.assetid: ab76f5d5-b7b6-4dc5-967d-5fe19260b5ad
+ms.author: windowssdkdev
+ms.date: 04/27/2018
+ms.keywords: BluetoothSetLocalServiceInfo, BluetoothSetLocalServiceInfo function [Bluetooth Devices], bltooth.bluetoothsetlocalserviceinfo, bluetoothapis/BluetoothSetLocalServiceInfo, bth_funcs_036c64a4-5050-4d5d-8217-fc4ff9ef300d.xml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: bluetoothapis.h
+req.include-header: 
+req.target-type: Universal
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BLUETOOTH_IO_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	BthProps.dll
+-	BluetoothAPIs.dll
+-	Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+api_name:
+-	BluetoothSetLocalServiceInfo
+product: Windows
+targetos: Windows
+req.lib: BthProps.lib
+req.dll: BthProps.dll; BluetoothAPIs.dll
+req.irql: 
 ---
 
 # BluetoothSetLocalServiceInfo function

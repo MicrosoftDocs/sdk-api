@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d11.D3D11_CREATE_DEVICE_FLAG
+title: D3D11_CREATE_DEVICE_FLAG
+author: windows-sdk-content
+description: Describes parameters that are used to create a device.
+old-location: direct3d11\d3d11_create_device_flag.htm
+old-project: direct3d11
+ms.assetid: 580c784a-17de-495c-9159-833f858ad155
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D11_CREATE_DEVICE_BGRA_SUPPORT, D3D11_CREATE_DEVICE_DEBUG, D3D11_CREATE_DEVICE_DEBUGGABLE, D3D11_CREATE_DEVICE_DISABLE_GPU_TIMEOUT, D3D11_CREATE_DEVICE_FLAG, D3D11_CREATE_DEVICE_FLAG enumeration [Direct3D 11], D3D11_CREATE_DEVICE_PREVENT_ALTERING_LAYER_SETTINGS_FROM_REGISTRY, D3D11_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS, D3D11_CREATE_DEVICE_SINGLETHREADED, D3D11_CREATE_DEVICE_SWITCH_TO_REF, D3D11_CREATE_DEVICE_VIDEO_SUPPORT, d3d11/D3D11_CREATE_DEVICE_BGRA_SUPPORT, d3d11/D3D11_CREATE_DEVICE_DEBUG, d3d11/D3D11_CREATE_DEVICE_DEBUGGABLE, d3d11/D3D11_CREATE_DEVICE_DISABLE_GPU_TIMEOUT, d3d11/D3D11_CREATE_DEVICE_FLAG, d3d11/D3D11_CREATE_DEVICE_PREVENT_ALTERING_LAYER_SETTINGS_FROM_REGISTRY, d3d11/D3D11_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS, d3d11/D3D11_CREATE_DEVICE_SINGLETHREADED, d3d11/D3D11_CREATE_DEVICE_SWITCH_TO_REF, d3d11/D3D11_CREATE_DEVICE_VIDEO_SUPPORT, d68526ea-ccc4-6cc8-c252-eefe99541f51, direct3d11.d3d11_create_device_flag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_CREATE_DEVICE_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	D3D11_CREATE_DEVICE_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_CREATE_DEVICE_FLAG enumeration

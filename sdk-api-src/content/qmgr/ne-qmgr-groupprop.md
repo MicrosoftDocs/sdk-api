@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:qmgr.GROUPPROP
+title: GROUPPROP
+author: windows-sdk-content
+description: The GROUPPROP enumeration defines the constant values for retrieving and setting group property values.
+old-location: bits\groupprop.htm
+old-project: Bits
+ms.assetid: 8bd5d1df-237a-4c42-afe1-6540ab1ad8c1
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GROUPPROP, GROUPPROP enumeration [BITS], GROUPPROP_DESCRIPTION, GROUPPROP_DISPLAYNAME, GROUPPROP_LOCALUSERID, GROUPPROP_LOCALUSERPWD, GROUPPROP_NOTIFYCLSID, GROUPPROP_NOTIFYFLAGS, GROUPPROP_PRIORITY, GROUPPROP_PROGRESSPERCENT, GROUPPROP_PROGRESSSIZE, GROUPPROP_PROGRESSTIME, GROUPPROP_PROTOCOLFLAGS, GROUPPROP_REMOTEUSERID, GROUPPROP_REMOTEUSERPWD, bits.groupprop, qmgr/GROUPPROP, qmgr/GROUPPROP_DESCRIPTION, qmgr/GROUPPROP_DISPLAYNAME, qmgr/GROUPPROP_LOCALUSERID, qmgr/GROUPPROP_LOCALUSERPWD, qmgr/GROUPPROP_NOTIFYCLSID, qmgr/GROUPPROP_NOTIFYFLAGS, qmgr/GROUPPROP_PRIORITY, qmgr/GROUPPROP_PROGRESSPERCENT, qmgr/GROUPPROP_PROGRESSSIZE, qmgr/GROUPPROP_PROGRESSTIME, qmgr/GROUPPROP_PROTOCOLFLAGS, qmgr/GROUPPROP_REMOTEUSERID, qmgr/GROUPPROP_REMOTEUSERPWD
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: qmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Qmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GROUPPROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Qmgr.h
+api_name:
+-	GROUPPROP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # GROUPPROP enumeration

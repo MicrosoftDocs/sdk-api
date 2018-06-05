@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._KERB_TICKET_PROFILE
+title: "_KERB_TICKET_PROFILE"
+author: windows-sdk-content
+description: The KERB_TICKET_PROFILE structure contains information about an interactive logon profile. This structure is returned by LsaLogonUser.
+old-location: security\kerb_ticket_profile.htm
+old-project: SecAuthN
+ms.assetid: 9db0f9ac-b469-4e62-a735-ca3c56086009
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PKERB_TICKET_PROFILE, KERB_TICKET_PROFILE, KERB_TICKET_PROFILE structure [Security], PKERB_TICKET_PROFILE, PKERB_TICKET_PROFILE structure pointer [Security], _KERB_TICKET_PROFILE, _lsa_kerb_ticket_profile, ntsecapi/KERB_TICKET_PROFILE, ntsecapi/PKERB_TICKET_PROFILE, security.kerb_ticket_profile"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KERB_TICKET_PROFILE, *PKERB_TICKET_PROFILE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	KERB_TICKET_PROFILE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _KERB_TICKET_PROFILE structure

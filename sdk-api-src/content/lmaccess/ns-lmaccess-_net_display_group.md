@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmaccess._NET_DISPLAY_GROUP
+title: "_NET_DISPLAY_GROUP"
+author: windows-sdk-content
+description: The NET_DISPLAY_GROUP structure contains information that an account manager can access to determine information about group accounts.
+old-location: netmgmt\net_display_group_str.htm
+old-project: NetMgmt
+ms.assetid: 8e467f20-2cfb-40ae-a8b2-a5350d736eed
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PNET_DISPLAY_GROUP, NET_DISPLAY_GROUP, NET_DISPLAY_GROUP structure [Network Management], PNET_DISPLAY_GROUP, PNET_DISPLAY_GROUP structure pointer [Network Management], _NET_DISPLAY_GROUP, _win32_net_display_group_str, lmaccess/NET_DISPLAY_GROUP, lmaccess/PNET_DISPLAY_GROUP, netmgmt.net_display_group_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmaccess.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_DISPLAY_GROUP, *PNET_DISPLAY_GROUP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmaccess.h
+api_name:
+-	NET_DISPLAY_GROUP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _NET_DISPLAY_GROUP structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITToneTerminalEvent.get_Call
+title: ITToneTerminalEvent::get_Call
+author: windows-sdk-content
+description: The get_Call method retrieves an interface pointer for the call object on which the event occurred.
+old-location: tapi3\ittoneterminalevent_get_call.htm
+old-project: Tapi
+ms.assetid: adbbce76-827d-439c-865d-9dcfe40c9722
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITToneTerminalEvent interface [TAPI 2.2],get_Call method, ITToneTerminalEvent.get_Call, ITToneTerminalEvent::get_Call, _tapi3_ittoneterminalevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITToneTerminalEvent interface, tapi3.ittoneterminalevent_get_call, tapi3if/ITToneTerminalEvent::get_Call
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITToneTerminalEvent.get_Call
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITToneTerminalEvent::get_Call

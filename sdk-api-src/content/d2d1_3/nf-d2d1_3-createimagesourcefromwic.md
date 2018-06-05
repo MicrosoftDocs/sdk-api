@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d2d1_3.CreateImageSourceFromWic
+title: CreateImageSourceFromWic function
+author: windows-sdk-content
+description: Creates an image source object from a WIC bitmap source, while populating all pixel memory within the image source. The image is loaded and stored while using a minimal amount of memory.
+old-location: direct2d\id2d1devicecontext2_createimagesourcefromwic_overload.htm
+old-project: Direct2D
+ms.assetid: af02630d-a9ca-f5b4-6f2a-31a73ef603e5
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: CreateImageSourceFromWic, CreateImageSourceFromWic methods [Direct2D], ID2D1DeviceContext2::CreateImageSourceFromWic, d2d1_3/CreateImageSourceFromWic, direct2d.id2d1devicecontext2_createimagesourcefromwic_overload
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d2d1_3.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1_3.h
+api_name:
+-	ID2D1DeviceContext2::CreateImageSourceFromWic
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CreateImageSourceFromWic function

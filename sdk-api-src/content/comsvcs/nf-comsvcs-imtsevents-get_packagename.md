@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IMtsEvents.get_PackageName
+title: IMtsEvents::get_PackageName
+author: windows-sdk-content
+description: Retrieves the name of the package in which the instance of the object that implements the IMtsEvents interface is running.
+old-location: cos\imtsevents_get_packagename.htm
+old-project: cossdk
+ms.assetid: 0b23828f-cadc-472d-9186-0712e0120b60
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IMtsEvents interface [COM+],get_PackageName method, IMtsEvents.get_PackageName, IMtsEvents::get_PackageName, _dtc_IMtsEvents_PackageName, comsvcs/IMtsEvents::get_PackageName, cos.imtsevents_get_packagename, get_PackageName, get_PackageName method [COM+], get_PackageName method [COM+],IMtsEvents interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IMtsEvents.get_PackageName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IMtsEvents::get_PackageName

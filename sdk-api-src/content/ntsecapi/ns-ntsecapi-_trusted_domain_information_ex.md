@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._TRUSTED_DOMAIN_INFORMATION_EX
+title: "_TRUSTED_DOMAIN_INFORMATION_EX"
+author: windows-sdk-content
+description: Used to retrieve extended information about a trusted domain.
+old-location: security\trusted_domain_information_ex.htm
+old-project: SecMgmt
+ms.assetid: acf9a2b5-f301-4e6a-a515-df338658ad56
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PTRUSTED_DOMAIN_INFORMATION_EX, 0x00100000 to 0xFFF00000, 0x5 - 0x000FFFFF, PTRUSTED_DOMAIN_INFORMATION_EX, PTRUSTED_DOMAIN_INFORMATION_EX structure pointer [Security], TRUSTED_DOMAIN_INFORMATION_EX, TRUSTED_DOMAIN_INFORMATION_EX structure [Security], TRUST_ATTRIBUTE_CROSS_ORGANIZATION, TRUST_ATTRIBUTE_FILTER_SIDS, TRUST_ATTRIBUTE_FOREST_TRANSITIVE, TRUST_ATTRIBUTE_NON_TRANSITIVE, TRUST_ATTRIBUTE_TREAT_AS_EXTERNAL, TRUST_ATTRIBUTE_UPLEVEL_ONLY, TRUST_ATTRIBUTE_WITHIN_FOREST, TRUST_DIRECTION_BIDIRECTIONAL, TRUST_DIRECTION_DISABLED, TRUST_DIRECTION_INBOUND, TRUST_DIRECTION_OUTBOUND, TRUST_TYPE_DCE, TRUST_TYPE_DOWNLEVEL, TRUST_TYPE_MIT, TRUST_TYPE_UPLEVEL, _TRUSTED_DOMAIN_INFORMATION_EX, _lsa_trusted_domain_information_ex, ntsecapi/PTRUSTED_DOMAIN_INFORMATION_EX, ntsecapi/TRUSTED_DOMAIN_INFORMATION_EX, security.trusted_domain_information_ex"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTED_DOMAIN_INFORMATION_EX, *PTRUSTED_DOMAIN_INFORMATION_EX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	TRUSTED_DOMAIN_INFORMATION_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _TRUSTED_DOMAIN_INFORMATION_EX structure

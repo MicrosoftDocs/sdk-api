@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:strmif.IAMAnalogVideoEncoder.put_CCEnable
+title: IAMAnalogVideoEncoder::put_CCEnable
+author: windows-sdk-content
+description: Note  The IAMAnalogVideoEncoder interface is deprecated. The put_CCEnable method enables or disables closed captioning.
+old-location: dshow\iamanalogvideoencoder_put_ccenable.htm
+old-project: DirectShow
+ms.assetid: 6513cde7-2765-4225-814b-a619d6a6ab15
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],put_CCEnable method, IAMAnalogVideoEncoder.put_CCEnable, IAMAnalogVideoEncoder::put_CCEnable, IAMAnalogVideoEncoderput_CCEnable, dshow.iamanalogvideoencoder_put_ccenable, put_CCEnable, put_CCEnable method [DirectShow], put_CCEnable method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::put_CCEnable
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmif.h
+api_name:
+-	IAMAnalogVideoEncoder.put_CCEnable
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IAMAnalogVideoEncoder::put_CCEnable

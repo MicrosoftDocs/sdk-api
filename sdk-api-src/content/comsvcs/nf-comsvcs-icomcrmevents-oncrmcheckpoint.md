@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IComCRMEvents.OnCRMCheckpoint
+title: IComCRMEvents::OnCRMCheckpoint
+author: windows-sdk-content
+description: Generated when a CRM checkpoint occurs.
+old-location: cos\icomcrmevents_oncrmcheckpoint.htm
+old-project: cossdk
+ms.assetid: f1a91d24-0a78-4d4f-a686-817d0609e2b1
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IComCRMEvents interface [COM+],OnCRMCheckpoint method, IComCRMEvents.OnCRMCheckpoint, IComCRMEvents::OnCRMCheckpoint, OnCRMCheckpoint, OnCRMCheckpoint method [COM+], OnCRMCheckpoint method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMCheckpoint, comsvcs/IComCRMEvents::OnCRMCheckpoint, cos.icomcrmevents_oncrmcheckpoint
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IComCRMEvents.OnCRMCheckpoint
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IComCRMEvents::OnCRMCheckpoint

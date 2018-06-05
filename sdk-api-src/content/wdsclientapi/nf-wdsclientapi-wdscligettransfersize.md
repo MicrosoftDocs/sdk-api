@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wdsclientapi.WdsCliGetTransferSize
+title: WdsCliGetTransferSize function
+author: windows-sdk-content
+description: Returns the size of the current file transfer.
+old-location: wds\wdscligettransfersize.htm
+old-project: Wds
+ms.assetid: 411ef76f-8075-4d1a-8ec1-faa399e073a4
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WdsCliGetTransferSize, WdsCliGetTransferSize function [Windows Deployment Services], wds.wdscligettransfersize, wdsclientapi/WdsCliGetTransferSize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wdsclientapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WdsClientAPI.dll
+api_name:
+-	WdsCliGetTransferSize
+product: Windows
+targetos: Windows
+req.lib: WdsClientApi.lib
+req.dll: WdsClientAPI.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WdsCliGetTransferSize function

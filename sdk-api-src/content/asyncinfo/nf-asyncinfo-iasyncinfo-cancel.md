@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:asyncinfo.IAsyncInfo.Cancel
+title: IAsyncInfo::Cancel
+author: windows-sdk-content
+description: Requests cancellation of the asynchronous operation already in progress.
+old-location: winrt\iasyncinfo_cancel.htm
+old-project: WinRT
+ms.assetid: f011c6e3-dd8f-4f77-8f06-be2a3fb1e0f0
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: Cancel, Cancel method [Windows Runtime], Cancel method [Windows Runtime],IAsyncInfo interface, IAsyncInfo interface [Windows Runtime],Cancel method, IAsyncInfo.Cancel, IAsyncInfo::Cancel, asyncinfo/IAsyncInfo::Cancel, winrt.iasyncinfo_cancel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: asyncinfo.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: AsyncInfo.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AsyncStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	AsyncInfo.h
+api_name:
+-	IAsyncInfo.Cancel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAsyncInfo::Cancel

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msclus.CLUSTER_RESOURCE_TYPE_ENUM
+title: CLUSTER_RESOURCE_TYPE_ENUM
+author: windows-sdk-content
+description: Describes the type of cluster object being enumerated by the ClusterResourceTypeEnum and ClusterResourceTypeOpenEnum functions.
+old-location: mscs\cluster_resource_type_enum.htm
+old-project: MsCS
+ms.assetid: f8356cb3-303c-4294-a634-d91d5141004a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_RESOURCE_TYPE_ENUM, CLUSTER_RESOURCE_TYPE_ENUM enumeration [Failover Cluster], CLUSTER_RESOURCE_TYPE_ENUM_ALL, CLUSTER_RESOURCE_TYPE_ENUM_NODES, CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, _CLUSTER_RESOURCE_TYPE_ENUM, _CLUSTER_RESOURCE_TYPE_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_TYPE_ENUM, clusapi/CLUSTER_RESOURCE_TYPE_ENUM_ALL, clusapi/CLUSTER_RESOURCE_TYPE_ENUM_NODES, clusapi/CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, clusapi/_CLUSTER_RESOURCE_TYPE_ENUM, msclus/CLUSTER_RESOURCE_TYPE_ENUM, msclus/CLUSTER_RESOURCE_TYPE_ENUM_ALL, msclus/CLUSTER_RESOURCE_TYPE_ENUM_NODES, msclus/CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, msclus/_CLUSTER_RESOURCE_TYPE_ENUM, mscs.cluster_resource_type_enum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_RESOURCE_TYPE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSTER_RESOURCE_TYPE_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CLUSTER_RESOURCE_TYPE_ENUM enumeration

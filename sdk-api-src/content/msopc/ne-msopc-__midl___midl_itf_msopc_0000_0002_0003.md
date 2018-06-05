@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0003
+title: "__MIDL___MIDL_itf_msopc_0000_0002_0003"
+author: windows-sdk-content
+description: Describes the read/write status of a stream.
+old-location: opc\opc_stream_io_mode.htm
+old-project: OPC
+ms.assetid: cf72ddcf-5472-451f-bfa8-94f549dc9246
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: OPC_STREAM_IO_MODE, OPC_STREAM_IO_MODE enumeration [Open Packaging Conventions], OPC_STREAM_IO_READ, OPC_STREAM_IO_WRITE, __MIDL___MIDL_itf_msopc_0000_0002_0003, msopc/OPC_STREAM_IO_MODE, msopc/OPC_STREAM_IO_READ, msopc/OPC_STREAM_IO_WRITE, opc.opc_stream_io_mode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msopc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPC_STREAM_IO_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msopc.h
+api_name:
+-	OPC_STREAM_IO_MODE
+product: Windows
+targetos: Windows
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_msopc_0000_0002_0003 enumeration

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:msctf.ITfCategoryMgr
+title: ITfCategoryMgr
+author: windows-sdk-content
+description: The ITfCategoryMgr interface manages categories of objects for text services. The TSF manager implements this interface.
+old-location: tsf\itfcategorymgr.htm
+old-project: TSF
+ms.assetid: 26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITfCategoryMgr, ITfCategoryMgr interface [Text Services Framework], ITfCategoryMgr interface [Text Services Framework],described, _tsf_itfcategorymgr_ref, msctf/ITfCategoryMgr, tsf.itfcategorymgr
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITfCategoryMgr
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfCategoryMgr interface

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:vmr9._VMR9VideoDesc
+title: "_VMR9VideoDesc"
+author: windows-sdk-content
+description: The VMR9VideoDesc structure describes a video stream to be deinterlaced.
+old-location: dshow\vmr9videodesc.htm
+old-project: DirectShow
+ms.assetid: af4bf46a-fae7-4485-b5fb-3fd1857f383f
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: VMR9VideoDesc, VMR9VideoDesc structure [DirectShow], VMR9VideoDescStructure, _VMR9VideoDesc, dshow.vmr9videodesc, vmr9/VMR9VideoDesc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vmr9.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VMR9VideoDesc
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vmr9.h
+api_name:
+-	VMR9VideoDesc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VMR9VideoDesc structure

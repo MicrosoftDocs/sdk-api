@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:mpeg2structs._MPE_ELEMENT
+title: "_MPE_ELEMENT"
+author: windows-sdk-content
+description: The MPE_ELEMENT structure contains information from a multi-protocol encapsulation (MPE) element.
+old-location: mstv\mpe_element.htm
+old-project: mstv
+ms.assetid: 2753160b-de52-4d62-960a-c200c6f5f29a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PMPE_ELEMENT, MPE_ELEMENT, MPE_ELEMENT structure [Microsoft TV Technologies], PMPE_ELEMENT, PMPE_ELEMENT structure pointer [Microsoft TV Technologies], _MPE_ELEMENT, mpeg2structs/MPE_ELEMENT, mpeg2structs/PMPE_ELEMENT, mstv.mpe_element"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mpeg2structs.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPE_ELEMENT, *PMPE_ELEMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mpeg2Structs.h
+api_name:
+-	MPE_ELEMENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MPE_ELEMENT structure

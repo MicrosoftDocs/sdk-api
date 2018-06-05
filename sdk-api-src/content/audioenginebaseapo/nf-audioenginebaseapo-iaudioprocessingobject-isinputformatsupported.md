@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:audioenginebaseapo.IAudioProcessingObject.IsInputFormatSupported
+title: IAudioProcessingObject::IsInputFormatSupported
+author: windows-sdk-content
+description: This method negotiates with the Windows Vista audio engine to establish a data format for the stream of audio data.
+old-location: audio\iaudioprocessingobject_isinputformatsupported.htm
+old-project: audio
+ms.assetid: 11eebb5d-21fd-48f7-8929-cd2612a3f451
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IAudioProcessingObject interface [Audio Devices],IsInputFormatSupported method, IAudioProcessingObject.IsInputFormatSupported, IAudioProcessingObject::IsInputFormatSupported, IsInputFormatSupported, IsInputFormatSupported method [Audio Devices], IsInputFormatSupported method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_isinputformatsupported, audio_syseffects_r_d9f38647-9d9e-4776-98d4-1a9904271dc1.xml, audioenginebaseapo/IAudioProcessingObject::IsInputFormatSupported
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioenginebaseapo.h
+req.include-header: 
+req.target-type: Universal
+req.target-min-winverclnt: Available with Windows Vista and later Windows operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APO_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioenginebaseapo.idl
+-	Audioenginebaseapo.idl.dll
+api_name:
+-	IAudioProcessingObject.IsInputFormatSupported
+product: Windows
+targetos: Windows
+req.lib: Audioenginebaseapo.idl
+req.dll: 
+req.irql: All levels
 ---
 
 # IAudioProcessingObject::IsInputFormatSupported

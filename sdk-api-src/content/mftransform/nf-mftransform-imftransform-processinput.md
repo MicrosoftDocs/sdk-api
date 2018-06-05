@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mftransform.IMFTransform.ProcessInput
+title: IMFTransform::ProcessInput
+author: windows-sdk-content
+description: Delivers data to an input stream on this Media Foundation transform (MFT).
+old-location: mf\imftransform_processinput.htm
+old-project: medfound
+ms.assetid: c94d406b-7cd9-42d4-ae9e-3d21dbb47209
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFTransform interface [Media Foundation],ProcessInput method, IMFTransform.ProcessInput, IMFTransform::ProcessInput, ProcessInput, ProcessInput method [Media Foundation], ProcessInput method [Media Foundation],IMFTransform interface, c94d406b-7cd9-42d4-ae9e-3d21dbb47209, mf.imftransform_processinput, mftransform/IMFTransform::ProcessInput
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mftransform.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFTransform.ProcessInput
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFTransform::ProcessInput

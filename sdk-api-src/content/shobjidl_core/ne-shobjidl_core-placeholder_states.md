@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core.PLACEHOLDER_STATES
+title: PLACEHOLDER_STATES
+author: windows-sdk-content
+description: Specifies the states that a placeholder file can have. Retrieve this value through the System.FilePlaceholderStatus (PKEY_FilePlaceholderStatus) property.
+old-location: properties\PLACEHOLDER_STATES.htm
+old-project: properties
+ms.assetid: BF4E0A9F-CD78-4D29-AD0C-7DF14AE88447
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PLACEHOLDER_STATES, PLACEHOLDER_STATES enumeration [Windows Properties], PS_ALL, PS_CREATE_FILE_ACCESSIBLE, PS_FULL_PRIMARY_STREAM_AVAILABLE, PS_MARKED_FOR_OFFLINE_AVAILABILITY, PS_NONE, properties.PLACEHOLDER_STATES, shobjidl_core/PLACEHOLDER_STATES, shobjidl_core/PS_ALL, shobjidl_core/PS_CREATE_FILE_ACCESSIBLE, shobjidl_core/PS_FULL_PRIMARY_STREAM_AVAILABLE, shobjidl_core/PS_MARKED_FOR_OFFLINE_AVAILABILITY, shobjidl_core/PS_NONE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PLACEHOLDER_STATES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shobjidl_core.h
+api_name:
+-	PLACEHOLDER_STATES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # PLACEHOLDER_STATES enumeration

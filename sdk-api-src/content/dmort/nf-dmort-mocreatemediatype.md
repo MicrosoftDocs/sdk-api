@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dmort.MoCreateMediaType
+title: MoCreateMediaType function
+author: windows-sdk-content
+description: The MoCreateMediaType function allocates a new media type structure.
+old-location: dshow\mocreatemediatype.htm
+old-project: DirectShow
+ms.assetid: f67b04b5-163e-4793-8df0-10a4b2be5025
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: MoCreateMediaType, MoCreateMediaType function [DirectShow], dmort/MoCreateMediaType, dshow.mocreatemediatype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dmort.h
+req.include-header: Dmo.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msdmo.dll
+api_name:
+-	MoCreateMediaType
+product: Windows
+targetos: Windows
+req.lib: Msdmo.lib
+req.dll: Msdmo.dll
+req.irql: 
 ---
 
 # MoCreateMediaType function

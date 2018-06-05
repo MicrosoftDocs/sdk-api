@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS
+title: D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS
+author: windows-sdk-content
+description: Specifies the inverse telecine (IVTC) capabilities of a video processor.
+old-location: mf\d3d11_video_processor_itelecine_caps.htm
+old-project: medfound
+ms.assetid: EE92F877-1B27-4A95-8BB7-01852253D112
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS, D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_22, D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_222222222223, D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_2224, D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_2332, D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_32, D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_32322, D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_55, D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_64, D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_87, D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_OTHER, d3d11/D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS, d3d11/D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_22, d3d11/D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_222222222223, d3d11/D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_2224, d3d11/D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_2332, d3d11/D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_32, d3d11/D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_32322, d3d11/D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_55, d3d11/D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_64, d3d11/D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_87, d3d11/D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS_OTHER, mf.d3d11_video_processor_itelecine_caps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11.h
+api_name:
+-	D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_VIDEO_PROCESSOR_ITELECINE_CAPS enumeration

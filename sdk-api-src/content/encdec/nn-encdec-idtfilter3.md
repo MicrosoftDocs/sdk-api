@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:encdec.IDTFilter3
+title: IDTFilter3
+author: windows-sdk-content
+description: The IDTFilter3 interface extends the IDTFilter2 interface and is exposed by the Decrypter/Detagger filter.
+old-location: mstv\idtfilter3.htm
+old-project: mstv
+ms.assetid: 88e42006-c387-41b5-a013-e968da0d918b
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IDTFilter3, IDTFilter3 interface [Microsoft TV Technologies], IDTFilter3 interface [Microsoft TV Technologies],described, IDTFilter3Interface, encdec/IDTFilter3, mstv.idtfilter3
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: encdec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ProtType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	encdec.h
+api_name:
+-	IDTFilter3
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDTFilter3 interface

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vswriter.IVssCreateWriterMetadata.AddFilesToFileGroup
+title: IVssCreateWriterMetadata::AddFilesToFileGroup
+author: windows-sdk-content
+description: The AddFilesToFileGroup method adds a file set (a specified file or files) to a specified file group component.
+old-location: base\ivsscreatewritermetadata_addfilestofilegroup.htm
+old-project: VSS
+ms.assetid: 5d5a0155-467c-4c42-876e-a1b245cf6f8e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AddFilesToFileGroup, AddFilesToFileGroup method [VSS], AddFilesToFileGroup method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddFilesToFileGroup method, IVssCreateWriterMetadata.AddFilesToFileGroup, IVssCreateWriterMetadata::AddFilesToFileGroup, _win32_ivsscreatewritermetadata_addfilestofilegroup, base.ivsscreatewritermetadata_addfilestofilegroup, vswriter/IVssCreateWriterMetadata::AddFilesToFileGroup
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vswriter.h
+req.include-header: Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssCreateWriterMetadata.AddFilesToFileGroup
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssCreateWriterMetadata::AddFilesToFileGroup

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzApplicationGroup.SetProperty
+title: IAzApplicationGroup::SetProperty
+author: windows-sdk-content
+description: Sets the specified value to the IAzApplicationGroup object property with the specified property ID.
+old-location: security\iazapplicationgroup_setproperty.htm
+old-project: SecAuthZ
+ms.assetid: c1af01f2-bd86-4404-a281-2024777dafaa
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AZ_PROP_DESCRIPTION, AZ_PROP_GROUP_LDAP_QUERY, AZ_PROP_GROUP_TYPE, AZ_PROP_NAME, AzApplicationGroup object [Security],SetProperty method, IAzApplicationGroup interface [Security],SetProperty method, IAzApplicationGroup.SetProperty, IAzApplicationGroup::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzApplicationGroup object, SetProperty method [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::SetProperty, security.iazapplicationgroup_setproperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzApplicationGroup.SetProperty
+-	AzApplicationGroup.SetProperty
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzApplicationGroup::SetProperty

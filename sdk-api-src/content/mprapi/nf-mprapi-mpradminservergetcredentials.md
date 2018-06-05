@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mprapi.MprAdminServerGetCredentials
+title: MprAdminServerGetCredentials function
+author: windows-sdk-content
+description: The MprAdminServerGetCredentials function retrieves the pre-shared key for the specified server.
+old-location: rras\mpradminservergetcredentials.htm
+old-project: RRAS
+ms.assetid: 76211b14-8f6c-48e4-846f-bd5d3a04285d
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: MprAdminServerGetCredentials, MprAdminServerGetCredentials function [RAS], _mpr_mpradminservergetcredentials, mprapi/MprAdminServerGetCredentials, rras.mpradminservergetcredentials
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ROUTER_INTERFACE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Mprapi.dll
+api_name:
+-	MprAdminServerGetCredentials
+product: Windows
+targetos: Windows
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MprAdminServerGetCredentials function

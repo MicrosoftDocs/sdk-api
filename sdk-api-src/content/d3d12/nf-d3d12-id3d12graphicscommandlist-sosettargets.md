@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d12.ID3D12GraphicsCommandList.SOSetTargets
+title: ID3D12GraphicsCommandList::SOSetTargets
+author: windows-sdk-content
+description: Sets the stream output buffer views.
+old-location: direct3d12\id3d12graphicscommandlist_sosettargets.htm
+old-project: direct3d12
+ms.assetid: 40683FD6-5B9F-411C-AC0A-6641E0A3D688
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: ID3D12GraphicsCommandList interface,SOSetTargets method, ID3D12GraphicsCommandList.SOSetTargets, ID3D12GraphicsCommandList::SOSetTargets, SOSetTargets, SOSetTargets method, SOSetTargets method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SOSetTargets, direct3d12.id3d12graphicscommandlist_sosettargets
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_SHADER_MODEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12.dll
+api_name:
+-	ID3D12GraphicsCommandList.SOSetTargets
+product: Windows
+targetos: Windows
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 ---
 
 # ID3D12GraphicsCommandList::SOSetTargets

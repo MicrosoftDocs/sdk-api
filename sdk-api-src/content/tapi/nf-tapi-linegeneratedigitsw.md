@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi.lineGenerateDigitsW
+title: lineGenerateDigitsW function
+author: windows-sdk-content
+description: Initiates the generation of the specified digits on the specified call as inband tones using the specified signaling mode.
+old-location: tapi2\linegeneratedigits.htm
+old-project: Tapi
+ms.assetid: aa407269-06be-43e2-906e-20137e4bdb89
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "_tapi2_linegeneratedigits, lineGenerateDigits, lineGenerateDigits function [TAPI 2.2], lineGenerateDigitsA, lineGenerateDigitsW, tapi/lineGenerateDigits, tapi/lineGenerateDigitsA, tapi/lineGenerateDigitsW, tapi2.linegeneratedigits"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: lineGenerateDigitsW (Unicode) and lineGenerateDigitsA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FLICK_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tapi32.dll
+api_name:
+-	lineGenerateDigits
+-	lineGenerateDigitsA
+-	lineGenerateDigitsW
+product: Windows
+targetos: Windows
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # lineGenerateDigitsW function

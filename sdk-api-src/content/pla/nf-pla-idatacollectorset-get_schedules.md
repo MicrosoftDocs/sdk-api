@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataCollectorSet.get_Schedules
+title: IDataCollectorSet::get_Schedules
+author: windows-sdk-content
+description: Retrieves the list of schedules that determine when the data collector set runs.
+old-location: pla\idatacollectorset_get_schedules.htm
+old-project: PLA
+ms.assetid: 6654c101-5179-41db-8fd9-ae281691073f
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IDataCollectorSet interface [PLA],Schedules property, IDataCollectorSet.Schedules, IDataCollectorSet.get_Schedules, IDataCollectorSet::Schedules, IDataCollectorSet::get_Schedules, Schedules property [PLA], Schedules property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_schedules, get_Schedules, pla.idatacollectorset_get_schedules, pla/IDataCollectorSet::Schedules, pla/IDataCollectorSet::get_Schedules
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataCollectorSet.Schedules
+-	IDataCollectorSet.get_Schedules
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataCollectorSet::get_Schedules

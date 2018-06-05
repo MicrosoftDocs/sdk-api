@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iscsidsc.TARGET_INFORMATION_CLASS
+title: TARGET_INFORMATION_CLASS
+author: windows-sdk-content
+description: TARGET_INFORMATION_CLASS enumeration specifies information about the indicated target device that the GetIScsiTargetInformation function retrieves.
+old-location: iscsidisc\target_information_class.htm
+old-project: iSCSIDisc
+ms.assetid: 2ef6cff7-b5ab-463d-b274-62be81bc9295
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: "*PTARGET_INFORMATION_CLASS, DiscoveryMechanism, InitiatorName, LoginOptions, PersistentTargetMappings, PortalGroups, ProtocolType, TARGET_INFORMATION_CLASS, TARGET_INFORMATION_CLASS enumeration [iSCSI Discovery Library API], TargetAlias, TargetFlags, iscsidisc.target_information_class, iscsidsc/DiscoveryMechanism, iscsidsc/InitiatorName, iscsidsc/LoginOptions, iscsidsc/PersistentTargetMappings, iscsidsc/PortalGroups, iscsidsc/ProtocolType, iscsidsc/TARGET_INFORMATION_CLASS, iscsidsc/TargetAlias, iscsidsc/TargetFlags"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iscsidsc.h
+api_name:
+-	TARGET_INFORMATION_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # TARGET_INFORMATION_CLASS enumeration

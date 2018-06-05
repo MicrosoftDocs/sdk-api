@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bits2_0.IBackgroundCopyJob3.ReplaceRemotePrefix
+title: IBackgroundCopyJob3::ReplaceRemotePrefix
+author: windows-sdk-content
+description: Replaces the beginning text of all remote names in the download job with the specified string.
+old-location: bits\ibackgroundcopyjob3_replaceremoteprefix.htm
+old-project: Bits
+ms.assetid: 5ea62d29-c40e-4bd2-b22a-fce2d9f4eecf
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IBackgroundCopyJob3 interface [BITS],ReplaceRemotePrefix method, IBackgroundCopyJob3.ReplaceRemotePrefix, IBackgroundCopyJob3::ReplaceRemotePrefix, ReplaceRemotePrefix, ReplaceRemotePrefix method [BITS], ReplaceRemotePrefix method [BITS],IBackgroundCopyJob3 interface, bits.ibackgroundcopyjob3_replaceremoteprefix, bits2_0/IBackgroundCopyJob3::ReplaceRemotePrefix
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bits2_0.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2,KB842773 on  Windows Server 2003,  and Windows XP
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits2_0.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_AUTH_CREDENTIALS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	BitsPrx3.dll
+api_name:
+-	IBackgroundCopyJob3.ReplaceRemotePrefix
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: BitsPrx3.dll
+req.irql: 
 ---
 
 # IBackgroundCopyJob3::ReplaceRemotePrefix

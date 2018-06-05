@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.Next
+title: IProviderQueryConstraintCollection::Next
+author: windows-sdk-content
+description: Gets the name and value of the next query constraint in the collection.
+old-location: ncd\iproviderqueryconstraintcollection_next.htm
+old-project: FunDisc
+ms.assetid: 5dd03e98-5367-4434-aa68-be36cb7aaf24
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IProviderQueryConstraintCollection interface,Next method, IProviderQueryConstraintCollection.Next, IProviderQueryConstraintCollection::Next, Next, Next method, Next method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Next, ncd.iproviderqueryconstraintcollection_next
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: functiondiscoveryprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FunctionDiscoveryProvider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PropertyConstraint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FunctionDiscoveryProvider.h
+api_name:
+-	IProviderQueryConstraintCollection.Next
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IProviderQueryConstraintCollection::Next

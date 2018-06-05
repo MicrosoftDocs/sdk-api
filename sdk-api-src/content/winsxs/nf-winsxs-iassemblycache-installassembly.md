@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsxs.IAssemblyCache.InstallAssembly
+title: IAssemblyCache::InstallAssembly
+author: windows-sdk-content
+description: The InstallAssembly method adds an application reference to an assembly to the side-by-side store and copies the files of the assembly to the side-by-side store. The files of the assembly being installed must be present in the current file system.
+old-location: setup\iassemblycache_installassembly.htm
+old-project: SbsCs
+ms.assetid: aff1da20-9e82-43d5-b601-f73ee2dba0fe
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IASSEMBLYCACHE_INSTALL_FLAG_FORCE_REFRESH, IASSEMBLYCACHE_INSTALL_FLAG_REFRESH, IAssemblyCache interface [Side-by-side Assemblies],InstallAssembly method, IAssemblyCache.InstallAssembly, IAssemblyCache::InstallAssembly, InstallAssembly, InstallAssembly method [Side-by-side Assemblies], InstallAssembly method [Side-by-side Assemblies],IAssemblyCache interface, setup.iassemblycache_installassembly, winsxs/IAssemblyCache::InstallAssembly
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winsxs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CREATE_ASM_NAME_OBJ_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sxs.dll
+api_name:
+-	IAssemblyCache.InstallAssembly
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Sxs.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IAssemblyCache::InstallAssembly

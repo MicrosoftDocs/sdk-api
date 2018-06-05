@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objpath.CObjectPathParser.Unparse
+title: CObjectPathParser::Unparse
+author: windows-sdk-content
+description: Converts a structure that contains the parsed path to a string. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
+old-location: wmi\cobjectpathparser_unparse.htm
+old-project: WmiSdk
+ms.assetid: 6135b808-b9eb-4ba0-9eb8-e7a59993ae34
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CObjectPathParser interface [Windows Management Instrumentation],UnParse method, CObjectPathParser.Unparse, CObjectPathParser::UnParse, CObjectPathParser::Unparse, UnParse method [Windows Management Instrumentation], UnParse method [Windows Management Instrumentation],CObjectPathParser interface, Unparse, objpath/CObjectPathParser::UnParse, wmi.cobjectpathparser_unparse
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: objpath.h
+req.include-header: ObjPath.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ObjectParserFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CObjectPathParser.UnParse
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CObjectPathParser::Unparse

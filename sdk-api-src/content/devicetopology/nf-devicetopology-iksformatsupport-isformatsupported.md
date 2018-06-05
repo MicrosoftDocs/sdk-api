@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:devicetopology.IKsFormatSupport.IsFormatSupported
+title: IKsFormatSupport::IsFormatSupported
+author: windows-sdk-content
+description: The IsFormatSupported method indicates whether the audio endpoint device supports the specified audio stream format.
+old-location: coreaudio\iksformatsupport_isformatsupported.htm
+old-project: CoreAudio
+ms.assetid: 0f377b14-fd19-40ac-9875-9ee3bd8d51c7
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IKsFormatSupport interface [Core Audio],IsFormatSupported method, IKsFormatSupport.IsFormatSupported, IKsFormatSupport::IsFormatSupported, IKsFormatSupportIsFormatSupported, IsFormatSupported, IsFormatSupported method [Core Audio], IsFormatSupported method [Core Audio],IKsFormatSupport interface, coreaudio.iksformatsupport_isformatsupported, devicetopology/IKsFormatSupport::IsFormatSupported
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IKsFormatSupport.IsFormatSupported
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IKsFormatSupport::IsFormatSupported

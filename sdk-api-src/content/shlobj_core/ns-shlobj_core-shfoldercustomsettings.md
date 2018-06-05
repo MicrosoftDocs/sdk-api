@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj_core.SHFOLDERCUSTOMSETTINGS
+title: SHFOLDERCUSTOMSETTINGS
+author: windows-sdk-content
+description: Holds custom folder settings. This structure is used with the SHGetSetFolderCustomSettings function.
+old-location: shell\SHFOLDERCUSTOMSETTINGS.htm
+old-project: shell
+ms.assetid: a6357372-80ef-4719-b53f-87eb3fdc1b0d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPSHFOLDERCUSTOMSETTINGS, FCSM_CLSID, FCSM_FLAGS, FCSM_ICONFILE, FCSM_INFOTIP, FCSM_LOGO, FCSM_VIEWID, FCSM_WEBVIEWTEMPLATE, LPSHFOLDERCUSTOMSETTINGS, LPSHFOLDERCUSTOMSETTINGS structure pointer [Windows Shell], SHFOLDERCUSTOMSETTINGS, SHFOLDERCUSTOMSETTINGS structure [Windows Shell], SHFOLDERCUSTOMSETTINGSA, SHFOLDERCUSTOMSETTINGSW, _win32_SHFOLDERCUSTOMSETTINGS, shell.SHFOLDERCUSTOMSETTINGS, shlobj_core/LPSHFOLDERCUSTOMSETTINGS, shlobj_core/SHFOLDERCUSTOMSETTINGS, shlobj_core/SHFOLDERCUSTOMSETTINGSA, shlobj_core/SHFOLDERCUSTOMSETTINGSW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SHFOLDERCUSTOMSETTINGSW (Unicode) and SHFOLDERCUSTOMSETTINGSA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHFOLDERCUSTOMSETTINGS, *LPSHFOLDERCUSTOMSETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	SHFOLDERCUSTOMSETTINGS
+-	SHFOLDERCUSTOMSETTINGSA
+-	SHFOLDERCUSTOMSETTINGSW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SHFOLDERCUSTOMSETTINGS structure

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:setupapi.SetupDiRestartDevices
+title: SetupDiRestartDevices function
+author: windows-sdk-content
+description: The SetupDiRestartDevices function restarts a specified device or, if necessary, restarts all devices that are operated by the same function and filter drivers that operate the specified device.
+old-location: devinst\setupdirestartdevices.htm
+old-project: devinst
+ms.assetid: 38bb2e40-e522-4155-9d2c-f6aaeea70839
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: SetupDiRestartDevices, SetupDiRestartDevices function [Device and Driver Installation], devinst.setupdirestartdevices, di-rtns_9e27f3b7-c33c-44f1-b804-521d7403ac4f.xml, setupapi/SetupDiRestartDevices
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Windows Server 2003 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Setupapi.dll
+api_name:
+-	SetupDiRestartDevices
+product: Windows
+targetos: Windows
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetupDiRestartDevices function

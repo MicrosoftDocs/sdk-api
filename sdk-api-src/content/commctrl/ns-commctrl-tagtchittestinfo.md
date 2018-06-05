@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.tagTCHITTESTINFO
+title: tagTCHITTESTINFO
+author: windows-sdk-content
+description: Contains information about a hit test. This structure supersedes the TC_HITTESTINFO structure.
+old-location: controls\TCHITTESTINFO.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\tab\structures\tchittestinfo.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPTCHITTESTINFO, LPTCHITTESTINFO, LPTCHITTESTINFO structure pointer [Windows Controls], TCHITTESTINFO, TCHITTESTINFO structure [Windows Controls], TCHT_NOWHERE, TCHT_ONITEM, TCHT_ONITEMICON, TCHT_ONITEMLABEL, _win32_TCHITTESTINFO, _win32_TCHITTESTINFO_cpp, commctrl/LPTCHITTESTINFO, commctrl/TCHITTESTINFO, controls.TCHITTESTINFO, controls._win32_TCHITTESTINFO, tagTCHITTESTINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TCHITTESTINFO, *LPTCHITTESTINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	TCHITTESTINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagTCHITTESTINFO structure

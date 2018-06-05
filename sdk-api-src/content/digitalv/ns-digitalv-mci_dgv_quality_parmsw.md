@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:digitalv.MCI_DGV_QUALITY_PARMSW
+title: MCI_DGV_QUALITY_PARMSW
+author: windows-sdk-content
+description: The MCI_DGV_QUALITY_PARMS structure contains parameters for the MCI_QUALITY command for digital-video devices.
+old-location: multimedia\mci_dgv_quality_parms.htm
+old-project: Multimedia
+ms.assetid: 0a150c37-9699-4b9e-b539-bdeb980b2f28
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*LPMCI_DGV_QUALITY_PARMSW, MCI_DGV_QUALITY_PARMS, MCI_DGV_QUALITY_PARMS structure [Windows Multimedia], MCI_DGV_QUALITY_PARMSW, MCI_QUALITY_ITEM_AUDIO, MCI_QUALITY_ITEM_STILL, MCI_QUALITY_ITEM_VIDEO, _win32_MCI_DGV_QUALITY_PARMS_str, digitalv/MCI_DGV_QUALITY_PARMS, multimedia.mci_dgv_quality_parms"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: digitalv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MCI_DGV_QUALITY_PARMSW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Digitalv.h
+api_name:
+-	MCI_DGV_QUALITY_PARMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # MCI_DGV_QUALITY_PARMSW structure

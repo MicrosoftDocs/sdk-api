@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:msaatext.IAccClientDocMgr
+title: IAccClientDocMgr
+author: windows-sdk-content
+description: Exposes methods for client applications to retrieve documents.
+old-location: winauto\iaccclientdocmgr.htm
+old-project: WinAuto
+ms.assetid: 29d9c39c-0067-4ec4-b49c-13a174ff8722
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: IAccClientDocMgr, IAccClientDocMgr interface [Windows Accessibility], IAccClientDocMgr interface [Windows Accessibility],described, msaa.iaccclientdocmgr, msaatext/IAccClientDocMgr, winauto.iaccclientdocmgr
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: msaatext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msaatext.h
+api_name:
+-	IAccClientDocMgr
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msaatext.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IAccClientDocMgr interface

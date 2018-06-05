@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_GETVPORTFLIPSTATUSDATA
+title: "_DD_GETVPORTFLIPSTATUSDATA"
+author: windows-sdk-content
+description: The DD_GETVPORTFLIPSTATUSDATA structure contains the flip status information for the specified surface.
+old-location: display\dd_getvportflipstatusdata.htm
+old-project: display
+ms.assetid: 64be9019-a75f-42db-a636-b767f87c1858
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_GETVPORTFLIPSTATUSDATA, DD_GETVPORTFLIPSTATUSDATA, DD_GETVPORTFLIPSTATUSDATA structure [Display Devices], _DD_GETVPORTFLIPSTATUSDATA, ddrawint/DD_GETVPORTFLIPSTATUSDATA, ddstrcts_a1239418-1670-477d-b96e-d21dc2b9647b.xml, display.dd_getvportflipstatusdata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_GETVPORTFLIPSTATUSDATA, DD_GETVPORTFLIPSTATUSDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_GETVPORTFLIPSTATUSDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_GETVPORTFLIPSTATUSDATA structure

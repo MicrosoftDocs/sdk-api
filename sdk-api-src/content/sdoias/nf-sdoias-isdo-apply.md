@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sdoias.ISdo.Apply
+title: ISdo::Apply
+author: windows-sdk-content
+description: The Apply method writes to persistent storage the changes made by calls to the ISdo::PutProperty method.
+old-location: nps\SDO_isdo_apply.htm
+old-project: Nps
+ms.assetid: aceca2f9-7b17-46a5-bcd1-e6fec3c369ed
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: Apply, Apply method [Network Policy Server], Apply method [Network Policy Server],ISdo interface, ISdo interface [Network Policy Server],Apply method, ISdo.Apply, ISdo::Apply, _sdo_isdo_apply, nps.SDO_isdo_apply, sdo.isdo_apply, sdoias/ISdo::Apply
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sdoias.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VENDORPROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Iassdo.dll
+api_name:
+-	ISdo.Apply
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISdo::Apply

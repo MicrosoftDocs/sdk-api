@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winfax._FAX_EVENTA
+title: "_FAX_EVENTA"
+author: windows-sdk-content
+description: The FAX_EVENT structure represents the contents of an I/O completion packet. The fax server sends the completion packet to notify a fax client application of an asynchronous fax server event.
+old-location: fax\_mfax_fax_event_str.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxlegacy_9bw2.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PFAX_EVENTA, FAX_EVENT, FAX_EVENT structure [Fax Service], FAX_EVENTA, FAX_EVENTW, FEI_ABORTING, FEI_ANSWERED, FEI_BAD_ADDRESS, FEI_BUSY, FEI_CALL_BLACKLISTED, FEI_CALL_DELAYED, FEI_COMPLETED, FEI_DELETED, FEI_DIALING, FEI_DISCONNECTED, FEI_FATAL_ERROR, FEI_FAXSVC_ENDED, FEI_FAXSVC_STARTED, FEI_IDLE, FEI_JOB_QUEUED, FEI_MODEM_POWERED_OFF, FEI_MODEM_POWERED_ON, FEI_NEVENTS, FEI_NOT_FAX_CALL, FEI_NO_ANSWER, FEI_NO_DIAL_TONE, FEI_RECEIVING, FEI_RINGING, FEI_ROUTING, FEI_SENDING, PFAX_EVENT, PFAX_EVENT structure pointer [Fax Service], _FAX_EVENTA, _mfax_fax_event_str, fax._mfax_fax_event_str, winfax/FAX_EVENT, winfax/FAX_EVENTA, winfax/FAX_EVENTW, winfax/PFAX_EVENT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winfax.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: FAX_EVENTW (Unicode) and FAX_EVENTA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_EVENTA, *PFAX_EVENTA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winfax.h
+api_name:
+-	FAX_EVENT
+-	FAX_EVENTA
+-	FAX_EVENTW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FAX_EVENTA structure

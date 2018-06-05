@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:cryptuiapi.tagCRYPTUI_VIEWCERTIFICATE_STRUCTA
+title: tagCRYPTUI_VIEWCERTIFICATE_STRUCTA
+author: windows-sdk-content
+description: Contains information about a certificate to view. This structure is used in the CryptUIDlgViewCertificate function.
+old-location: security\cryptui_viewcertificate_struct.htm
+old-project: SecCrypto
+ms.assetid: 7bbd58df-3a1b-4d82-9a90-7c94260a7165
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPTUI_VIEWCERTIFICATE_STRUCTA, CRYPTUI_ACCEPT_DECLINE_STYLE, CRYPTUI_CACHE_ONLY_URL_RETRIEVAL, CRYPTUI_DISABLE_ADDTOSTORE, CRYPTUI_DISABLE_EDITPROPERTIES, CRYPTUI_DISABLE_EXPORT, CRYPTUI_DISABLE_HTMLLINK, CRYPTUI_DISABLE_ISSUERSTATEMENT, CRYPTUI_DONT_OPEN_STORES, CRYPTUI_ENABLE_ADDTOSTORE, CRYPTUI_ENABLE_EDITPROPERTIES, CRYPTUI_ENABLE_REVOCATION_CHECKING, CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN, CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, CRYPTUI_ENABLE_REVOCATION_CHECK_END_CERT, CRYPTUI_HIDE_DETAILPAGE, CRYPTUI_HIDE_HIERARCHYPAGE, CRYPTUI_IGNORE_UNTRUSTED_ROOT, CRYPTUI_ONLY_OPEN_ROOT_STORE, CRYPTUI_VIEWCERTIFICATE_STRUCT, CRYPTUI_VIEWCERTIFICATE_STRUCT structure [Security], CRYPTUI_VIEWCERTIFICATE_STRUCTA, CRYPTUI_VIEWCERTIFICATE_STRUCTW, CRYPTUI_WARN_REMOTE_TRUST, CRYPTUI_WARN_UNTRUSTED_ROOT, PCCRYPTUI_VIEWCERTIFICATE_STRUCT, PCCRYPTUI_VIEWCERTIFICATE_STRUCT structure pointer [Security], PCRYPTUI_VIEWCERTIFICATE_STRUCT, PCRYPTUI_VIEWCERTIFICATE_STRUCT structure pointer [Security], cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCT, cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCTA, cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCTW, cryptuiapi/PCCRYPTUI_VIEWCERTIFICATE_STRUCT, cryptuiapi/PCRYPTUI_VIEWCERTIFICATE_STRUCT, security.cryptui_viewcertificate_struct, security.cryptui_viewcertificate_structw, tagCRYPTUI_VIEWCERTIFICATE_STRUCTA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cryptuiapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CRYPTUI_VIEWCERTIFICATE_STRUCTW (Unicode) and CRYPTUI_VIEWCERTIFICATE_STRUCTA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPTUI_VIEWCERTIFICATE_STRUCTA, *PCRYPTUI_VIEWCERTIFICATE_STRUCTA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Cryptuiapi.h
+api_name:
+-	CRYPTUI_VIEWCERTIFICATE_STRUCT
+-	CRYPTUI_VIEWCERTIFICATE_STRUCTA
+-	CRYPTUI_VIEWCERTIFICATE_STRUCTW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagCRYPTUI_VIEWCERTIFICATE_STRUCTA structure

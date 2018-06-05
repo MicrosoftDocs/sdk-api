@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IGetAppTrackerData.GetApplicationProcesses
+title: IGetAppTrackerData::GetApplicationProcesses
+author: windows-sdk-content
+description: Retrieves summary information for all processes that are hosting COM+ applications, or for a specified subset of these processes.
+old-location: cos\igetapptrackerdata_getapplicationprocesses.htm
+old-project: cossdk
+ms.assetid: ec15db5c-fce6-42c0-a291-635344a7c4fc
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: GetApplicationProcesses, GetApplicationProcesses method [COM+], GetApplicationProcesses method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetApplicationProcesses method, IGetAppTrackerData.GetApplicationProcesses, IGetAppTrackerData::GetApplicationProcesses, comsvcs/IGetAppTrackerData::GetApplicationProcesses, cos.igetapptrackerdata_getapplicationprocesses
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IGetAppTrackerData.GetApplicationProcesses
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IGetAppTrackerData::GetApplicationProcesses

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfInputProcessorProfileMgr.RegisterProfile
+title: ITfInputProcessorProfileMgr::RegisterProfile
+author: windows-sdk-content
+description: The ITfInputProcessorProfileMgr::RegisterProfile method registers the text service and the profile.
+old-location: tsf\itfinputprocessorprofilemgr_registerprofile.htm
+old-project: TSF
+ms.assetid: b497409d-96b8-41d1-9512-5d79494c6287
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITfInputProcessorProfileMgr interface [Text Services Framework],RegisterProfile method, ITfInputProcessorProfileMgr.RegisterProfile, ITfInputProcessorProfileMgr::RegisterProfile, RegisterProfile, RegisterProfile method [Text Services Framework], RegisterProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, TF_RP_HIDDENINSETTINGUI, TF_RP_LOCALPROCESS, TF_RP_LOCALTHREAD, msctf/ITfInputProcessorProfileMgr::RegisterProfile, tsf.itfinputprocessorprofilemgr_registerprofile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfInputProcessorProfileMgr.RegisterProfile
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfInputProcessorProfileMgr::RegisterProfile

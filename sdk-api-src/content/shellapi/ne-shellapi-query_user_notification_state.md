@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shellapi.QUERY_USER_NOTIFICATION_STATE
+title: QUERY_USER_NOTIFICATION_STATE
+author: windows-sdk-content
+description: Specifies the state of the machine for the current user in relation to the propriety of sending a notification. Used by SHQueryUserNotificationState.
+old-location: shell\QUERY_USER_NOTIFICATION_STATE.htm
+old-project: shell
+ms.assetid: b26439dd-6695-45d8-8c7f-5bbd5eaf5b54
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: QUERY_USER_NOTIFICATION_STATE, QUERY_USER_NOTIFICATION_STATE enumeration [Windows Shell], QUNS_ACCEPTS_NOTIFICATIONS, QUNS_APP, QUNS_BUSY, QUNS_NOT_PRESENT, QUNS_PRESENTATION_MODE, QUNS_QUIET_TIME, QUNS_RUNNING_D3D_FULL_SCREEN, _shell_QUERY_USER_NOTIFICATION_STATE, shell.QUERY_USER_NOTIFICATION_STATE, shellapi/QUERY_USER_NOTIFICATION_STATE, shellapi/QUNS_ACCEPTS_NOTIFICATIONS, shellapi/QUNS_APP, shellapi/QUNS_BUSY, shellapi/QUNS_NOT_PRESENT, shellapi/QUNS_PRESENTATION_MODE, shellapi/QUNS_QUIET_TIME, shellapi/QUNS_RUNNING_D3D_FULL_SCREEN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shellapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shdeprecated.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QUERY_USER_NOTIFICATION_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shellapi.h
+api_name:
+-	QUERY_USER_NOTIFICATION_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # QUERY_USER_NOTIFICATION_STATE enumeration

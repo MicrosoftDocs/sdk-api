@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ip2string.RtlIpv4StringToAddressW
+title: RtlIpv4StringToAddressW function
+author: windows-sdk-content
+description: Converts a string representation of an IPv4 address to a binary IPv4 address.
+old-location: iphlp\rtlipv4stringtoaddress.htm
+old-project: IpHlp
+ms.assetid: 79896c13-a671-423e-975e-98a4ccfa1eb8
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: RtlIpv4StringToAddress, RtlIpv4StringToAddress function [IP Helper], RtlIpv4StringToAddressA, RtlIpv4StringToAddressW, ip2string/RtlIpv4StringToAddress, ip2string/RtlIpv4StringToAddressA, ip2string/RtlIpv4StringToAddressW, iphlp.rtlipv4stringtoaddress
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ip2string.h
+req.include-header: Mstcpip.h, Ip2string.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RtlIpv4StringToAddressW (Unicode) and RtlIpv4StringToAddressA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URLASSOCIATIONDIALOG_IN_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdll.dll
+api_name:
+-	RtlIpv4StringToAddress
+-	RtlIpv4StringToAddressA
+-	RtlIpv4StringToAddressW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # RtlIpv4StringToAddressW function

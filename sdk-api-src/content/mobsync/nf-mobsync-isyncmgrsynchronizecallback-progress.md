@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mobsync.ISyncMgrSynchronizeCallback.Progress
+title: ISyncMgrSynchronizeCallback::Progress
+author: windows-sdk-content
+description: Called by a registered application to update the progress information and determine whether an operation should continue.
+old-location: shell\syncmgr_isyncmgrsynchronizecallback_progress.htm
+old-project: shell
+ms.assetid: 924310aa-e210-476d-b532-f235de943498
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],Progress method, ISyncMgrSynchronizeCallback.Progress, ISyncMgrSynchronizeCallback::Progress, Progress, Progress method [Windows Shell], Progress method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::Progress, shell.syncmgr_isyncmgrsynchronizecallback_progress, syncmgr.isyncmgrsynchronizecallback_progress
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mobsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGRSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mobsync.dll
+api_name:
+-	ISyncMgrSynchronizeCallback.Progress
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ISyncMgrSynchronizeCallback::Progress

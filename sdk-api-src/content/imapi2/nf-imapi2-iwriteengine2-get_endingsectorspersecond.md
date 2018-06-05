@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imapi2.IWriteEngine2.get_EndingSectorsPerSecond
+title: IWriteEngine2::get_EndingSectorsPerSecond
+author: windows-sdk-content
+description: Retrieves the estimated number of sectors per second that the recording device can write to the media at the end of the writing process.
+old-location: imapi\iwriteengine2_get_endingsectorspersecond.htm
+old-project: imapi
+ms.assetid: 7e6a5f41-328d-47b3-ba43-900e524cf51a
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IWriteEngine2 interface [IMAPI],get_EndingSectorsPerSecond method, IWriteEngine2.get_EndingSectorsPerSecond, IWriteEngine2::get_EndingSectorsPerSecond, get_EndingSectorsPerSecond, get_EndingSectorsPerSecond method [IMAPI], get_EndingSectorsPerSecond method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_endingsectorspersecond, imapi2/IWriteEngine2::get_EndingSectorsPerSecond
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2.h
+api_name:
+-	IWriteEngine2.get_EndingSectorsPerSecond
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IWriteEngine2::get_EndingSectorsPerSecond

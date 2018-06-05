@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITCallMediaEvent.get_Error
+title: ITCallMediaEvent::get_Error
+author: windows-sdk-content
+description: The get_Error method gets the error associated with the media event, if any.
+old-location: tapi3\itcallmediaevent_get_error.htm
+old-project: Tapi
+ms.assetid: 6a6b84f1-700e-42e5-9127-161a6c078235
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Error method, ITCallMediaEvent.get_Error, ITCallMediaEvent::get_Error, _tapi3_itcallmediaevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_error, tapi3if/ITCallMediaEvent::get_Error
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITCallMediaEvent.get_Error
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITCallMediaEvent::get_Error

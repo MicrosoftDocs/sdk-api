@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wpcevent.tagWPC_MEDIA_TYPE
+title: tagWPC_MEDIA_TYPE
+author: windows-sdk-content
+description: Indicates information about the type of media file accessed.
+old-location: parcon\wpc_media_type.htm
+old-project: parcon
+ms.assetid: 256fdf95-894c-41a1-b72f-26d5f9b86c3d
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WPC_MEDIA_TYPE, WPC_MEDIA_TYPE enumeration, WPC_MEDIA_TYPE_AUDIO_FILE, WPC_MEDIA_TYPE_CD_AUDIO, WPC_MEDIA_TYPE_DVD, WPC_MEDIA_TYPE_MAX, WPC_MEDIA_TYPE_OTHER, WPC_MEDIA_TYPE_PICTURE_FILE, WPC_MEDIA_TYPE_RECORDED_TV, WPC_MEDIA_TYPE_VIDEO_FILE, parcon.wpc_media_type, tagWPC_MEDIA_TYPE, wpcevent/WPC_MEDIA_TYPE, wpcevent/WPC_MEDIA_TYPE_AUDIO_FILE, wpcevent/WPC_MEDIA_TYPE_CD_AUDIO, wpcevent/WPC_MEDIA_TYPE_DVD, wpcevent/WPC_MEDIA_TYPE_MAX, wpcevent/WPC_MEDIA_TYPE_OTHER, wpcevent/WPC_MEDIA_TYPE_PICTURE_FILE, wpcevent/WPC_MEDIA_TYPE_RECORDED_TV, wpcevent/WPC_MEDIA_TYPE_VIDEO_FILE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wpcevent.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WPC_MEDIA_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wpcevent.h
+api_name:
+-	WPC_MEDIA_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagWPC_MEDIA_TYPE enumeration

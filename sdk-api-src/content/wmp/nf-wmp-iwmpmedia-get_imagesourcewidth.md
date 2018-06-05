@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPMedia.get_imageSourceWidth
+title: IWMPMedia::get_imageSourceWidth
+author: windows-sdk-content
+description: The get_imageSourceWidth method retrieves the width of the current media item in pixels.
+old-location: wmp\iwmpmedia_get_imagesourcewidth.htm
+old-project: WMP
+ms.assetid: 57480abb-9852-46a5-a6e4-2a1ba517a9cb
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPMedia interface [Windows Media Player],get_imageSourceWidth method, IWMPMedia.get_imageSourceWidth, IWMPMedia2 interface [Windows Media Player],get_imageSourceWidth method, IWMPMedia2::get_imageSourceWidth, IWMPMedia3 interface [Windows Media Player],get_imageSourceWidth method, IWMPMedia3::get_imageSourceWidth, IWMPMedia::get_imageSourceWidth, IWMPMediaget_imageSourceWidth, get_imageSourceWidth, get_imageSourceWidth method [Windows Media Player], get_imageSourceWidth method [Windows Media Player],IWMPMedia interface, get_imageSourceWidth method [Windows Media Player],IWMPMedia2 interface, get_imageSourceWidth method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_imagesourcewidth, wmp/IWMPMedia2::get_imageSourceWidth, wmp/IWMPMedia3::get_imageSourceWidth, wmp/IWMPMedia::get_imageSourceWidth
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPMedia.get_imageSourceWidth
+-	IWMPMedia2.get_imageSourceWidth
+-	IWMPMedia3.get_imageSourceWidth
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPMedia::get_imageSourceWidth

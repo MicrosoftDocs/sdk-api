@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:wsman.WSMAN_PLUGIN_SHUTDOWN
+title: WSMAN_PLUGIN_SHUTDOWN
+author: windows-sdk-content
+description: Defines the shutdown callback for the plug-in.
+old-location: winrm\wsman_plugin_shutdown.htm
+old-project: WinRM
+ms.assetid: a9f72416-f6a7-4ba0-94d0-48f85393acab
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: WSMAN_PLUGIN_SHUTDOWN, WSMAN_PLUGIN_SHUTDOWN callback, WSMAN_PLUGIN_SHUTDOWN callback function [Windows Remote Management], WSMAN_PLUGIN_SHUTDOWN_IISHOST, WSMAN_PLUGIN_SHUTDOWN_SERVICE, WSMAN_PLUGIN_SHUTDOWN_SYSTEM, WSManPluginShutdown, winrm.wsman_plugin_shutdown, wsman/WSMAN_PLUGIN_SHUTDOWN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: wsman.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSL_DISTRIBUTION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Wsman.h
+api_name:
+-	WSMAN_PLUGIN_SHUTDOWN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WSMAN_PLUGIN_SHUTDOWN callback function

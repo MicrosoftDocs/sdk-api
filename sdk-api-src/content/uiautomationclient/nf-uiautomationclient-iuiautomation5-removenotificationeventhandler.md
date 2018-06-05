@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomation5.RemoveNotificationEventHandler
+title: IUIAutomation5::RemoveNotificationEventHandler
+author: windows-sdk-content
+description: Removes a notification event handler.
+old-location: winauto\uiauto_IUIAutomation5_RemoveNotificationEventHandler.htm
+old-project: WinAuto
+ms.assetid: E0775AB3-814F-4420-9764-333572DAD201
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: IUIAutomation5 interface [Windows Accessibility],RemoveNotificationEventHandler method, IUIAutomation5.RemoveNotificationEventHandler, IUIAutomation5::RemoveNotificationEventHandler, RemoveNotificationEventHandler, RemoveNotificationEventHandler method [Windows Accessibility], RemoveNotificationEventHandler method [Windows Accessibility],IUIAutomation5 interface, uiautomationclient/IUIAutomation5::RemoveNotificationEventHandler, winauto.uiauto_IUIAutomation5_RemoveNotificationEventHandler
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
+req.target-min-winversvr: Windows Server, version 1709 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomation5.RemoveNotificationEventHandler
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomation5::RemoveNotificationEventHandler

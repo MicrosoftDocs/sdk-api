@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFHttpDownloadRequest.QueryHeader
+title: IMFHttpDownloadRequest::QueryHeader
+author: windows-sdk-content
+description: Invoked by Microsoft Media Foundation to retrieve the values of specified HTTP headers from the response to a previously sent HTTP or HTTPS request.
+old-location: mf\imfhttpdownloadrequest_queryheader.htm
+old-project: medfound
+ms.assetid: BFAE5257-0BE8-47F3-B3CD-490885E60065
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFHttpDownloadRequest interface [Media Foundation],QueryHeader method, IMFHttpDownloadRequest.QueryHeader, IMFHttpDownloadRequest::QueryHeader, QueryHeader, QueryHeader method [Media Foundation], QueryHeader method [Media Foundation],IMFHttpDownloadRequest interface, mf.imfhttpdownloadrequest_queryheader, mfidl/IMFHttpDownloadRequest::QueryHeader
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfplat.lib
+-	mfplat.dll
+-	mfplat.dll
+-	mfplat.dll.dll
+api_name:
+-	IMFHttpDownloadRequest.QueryHeader
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFHttpDownloadRequest::QueryHeader

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d9helper.IDirect3DTexture9.LockRect
+title: IDirect3DTexture9::LockRect
+author: windows-sdk-content
+description: Locks a rectangle on a texture resource.
+old-location: direct3d9\idirect3dtexture9__lockrect.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\idirect3dtexture9__lockrect.htm
+ms.author: windowssdkdev
+ms.date: 04/10/2018
+ms.keywords: IDirect3DTexture9 interface [Direct3D 9],LockRect method, IDirect3DTexture9.LockRect, IDirect3DTexture9::LockRect, LockRect, LockRect method [Direct3D 9], LockRect method [Direct3D 9],IDirect3DTexture9 interface, d0e2d5f7-5658-91b3-8546-73a643bf1df0, d3d9helper/IDirect3DTexture9::LockRect, direct3d9.idirect3dtexture9__lockrect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d9helper.h
+req.include-header: D3D9.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DVSHADERCAPS2_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D9.lib
+-	D3D9.dll
+api_name:
+-	IDirect3DTexture9.LockRect
+product: Windows
+targetos: Windows
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 ---
 
 # IDirect3DTexture9::LockRect

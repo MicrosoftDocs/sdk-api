@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:icftypes.NET_FW_AUTHENTICATE_TYPE_
+title: NET_FW_AUTHENTICATE_TYPE_
+author: windows-sdk-content
+description: Specifies the type of authentication which must occur in order for traffic to be allowed.
+old-location: ics\net_fw_authenticate_type.htm
+old-project: ICS
+ms.assetid: 65ace93f-0e27-4cfd-befe-9b94e05e3244
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: NET_FW_AUTHENTICATE_AND_ENCRYPT, NET_FW_AUTHENTICATE_AND_NEGOTIATE_ENCRYPTION, NET_FW_AUTHENTICATE_NONE, NET_FW_AUTHENTICATE_NO_ENCAPSULATION, NET_FW_AUTHENTICATE_TYPE, NET_FW_AUTHENTICATE_TYPE enumeration [ICS/ICF], NET_FW_AUTHENTICATE_TYPE_, NET_FW_AUTHENTICATE_WITH_INTEGRITY, icftypes/NET_FW_AUTHENTICATE_AND_ENCRYPT, icftypes/NET_FW_AUTHENTICATE_AND_NEGOTIATE_ENCRYPTION, icftypes/NET_FW_AUTHENTICATE_NONE, icftypes/NET_FW_AUTHENTICATE_NO_ENCAPSULATION, icftypes/NET_FW_AUTHENTICATE_TYPE, icftypes/NET_FW_AUTHENTICATE_WITH_INTEGRITY, ics.net_fw_authenticate_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: icftypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_FW_AUTHENTICATE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	icftypes.h
+api_name:
+-	NET_FW_AUTHENTICATE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # NET_FW_AUTHENTICATE_TYPE_ enumeration

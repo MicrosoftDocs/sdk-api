@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ws2ipdef.in6_pktinfo
+title: in6_pktinfo
+author: windows-sdk-content
+description: The in6_pktinfo structure is used to store received IPv6 packet address information, and is used by Windows to return information about received packets and also allows specifying the local IPv6 address to use for sending packets.
+old-location: winsock\in6_pktinfo_2.htm
+old-project: WinSock
+ms.assetid: d0f1006c-2b6f-4bc9-855b-e268c27f6ca2
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PIN6_PKTINFO, IN6_PKTINFO, IN6_PKTINFO structure [Winsock], PIN6_PKTINFO, PIN6_PKTINFO structure pointer [Winsock], _win32_in6_pktinfo_2, in6_pktinfo, in6_pktinfo structure [Winsock], winsock.in6_pktinfo_2, ws2ipdef/PIN6_PKTINFO, ws2ipdef/in6_pktinfo, ws2tcpip/PIN6_PKTINFO, ws2tcpip/in6_pktinfo"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ws2ipdef.h
+req.include-header: Ws2tcpip.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wrdsgraphicschannels.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IN6_PKTINFO, *PIN6_PKTINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ws2ipdef.h
+-	Ws2tcpip.h
+api_name:
+-	IN6_PKTINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # in6_pktinfo structure

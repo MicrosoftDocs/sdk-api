@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:madcapcl._IPNG_ADDRESS
+title: "_IPNG_ADDRESS"
+author: windows-sdk-content
+description: The IPNG_ADDRESS union provides Internet Protocol version 4 (IPv4) and Internet Protocol version 6 (IPv6) addresses.
+old-location: madcap\ipng_address.htm
+old-project: Madcap
+ms.assetid: c3dc76aa-d903-49be-a4a2-1f66cafff40a
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PIPNG_ADDRESS, IPNG_ADDRESS, IPNG_ADDRESS union [MADCAP], PIPNG_ADDRESS, PIPNG_ADDRESS union pointer [MADCAP], _IPNG_ADDRESS, _mdhcp_ipng_address, madcap.ipng_address, madcapcl/IPNG_ADDRESS, madcapcl/PIPNG_ADDRESS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: madcapcl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPNG_ADDRESS, *PIPNG_ADDRESS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Madcapcl.h
+api_name:
+-	IPNG_ADDRESS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _IPNG_ADDRESS structure

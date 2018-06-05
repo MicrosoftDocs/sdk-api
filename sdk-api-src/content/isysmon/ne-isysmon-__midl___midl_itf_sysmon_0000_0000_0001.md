@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:isysmon.__MIDL___MIDL_itf_sysmon_0000_0000_0001
+title: "__MIDL___MIDL_itf_sysmon_0000_0000_0001"
+author: windows-sdk-content
+description: Determines the format in which the counter data is saved to a file.
+old-location: sysmon\sysmonfiletype.htm
+old-project: SysMon
+ms.assetid: a3db8565-6316-445e-8fb2-b0bfb08bf72c
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: SysmonFileType, SysmonFileType enumeration [SysMon], __MIDL___MIDL_itf_sysmon_0000_0000_0001, base.sysmonfiletype, isysmon/SysmonFileType, isysmon/sysmonFileBlg, isysmon/sysmonFileCsv, isysmon/sysmonFileGif, isysmon/sysmonFileHtml, isysmon/sysmonFileReport, isysmon/sysmonFileRetiredBlg, isysmon/sysmonFileTsv, sysmon.sysmonfiletype, sysmonFileBlg, sysmonFileCsv, sysmonFileGif, sysmonFileHtml, sysmonFileReport, sysmonFileRetiredBlg, sysmonFileTsv
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: isysmon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SysmonFileType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ISysmon.h
+api_name:
+-	SysmonFileType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_sysmon_0000_0000_0001 enumeration

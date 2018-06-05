@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:powrprof.SetSuspendState
+title: SetSuspendState function
+author: windows-sdk-content
+description: Suspends the system by shutting power down. Depending on the Hibernate parameter, the system either enters a suspend (sleep) state or hibernation (S4).
+old-location: base\setsuspendstate.htm
+old-project: Power
+ms.assetid: 63cb6574-8c0d-4bcb-832c-7088447a5c04
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: SetSuspendState, SetSuspendState function, _win32_setsuspendstate, base.setsuspendstate, powrprof/SetSuspendState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: powrprof.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	PowrProf.dll
+api_name:
+-	SetSuspendState
+product: Windows
+targetos: Windows
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetSuspendState function

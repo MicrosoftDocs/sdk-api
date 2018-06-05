@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:propsys.IInitializeWithFile.Initialize
+title: IInitializeWithFile::Initialize
+author: windows-sdk-content
+description: Initializes a handler with a file path.
+old-location: shell\IInitializeWithFile_Initialize.htm
+old-project: shell
+ms.assetid: 7b7bb534-dff7-455b-baee-f573fb645cc3
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IInitializeWithFile interface [Windows Shell],Initialize method, IInitializeWithFile.Initialize, IInitializeWithFile::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithFile interface, STGM_READ, STGM_READWRITE, propsys/IInitializeWithFile::Initialize, shell.IInitializeWithFile_Initialize, shell_IInitializeWithFile_Initialize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Propsys.h
+api_name:
+-	IInitializeWithFile.Initialize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInitializeWithFile::Initialize

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:wsdclient.IWSDEndpointProxy
+title: IWSDEndpointProxy
+author: windows-sdk-content
+description: Implements a device services messaging proxy.
+old-location: ncd\iwsdendpointproxy.htm
+old-project: WsdApi
+ms.assetid: 58ca085f-8939-413c-8fd3-4d867b1cf490
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IWSDEndpointProxy, IWSDEndpointProxy interface, IWSDEndpointProxy interface,described, ncd.iwsdendpointproxy, wsdclient/IWSDEndpointProxy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wsdclient.h
+req.include-header: Wsdapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WsdClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wsdapi.dll
+api_name:
+-	IWSDEndpointProxy
+product: Windows
+targetos: Windows
+req.lib: Wsdapi.lib
+req.dll: Wsdapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWSDEndpointProxy interface

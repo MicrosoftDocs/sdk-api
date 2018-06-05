@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_DIRECTDRAW_LOCAL
+title: "_DD_DIRECTDRAW_LOCAL"
+author: windows-sdk-content
+description: The DD_DIRECTDRAW_LOCAL structure contains driver information that is relevant to the current DirectDraw process only.
+old-location: display\dd_directdraw_local.htm
+old-project: display
+ms.assetid: 58e378b7-863a-46d4-91cb-904ed4e892a3
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL structure [Display Devices], _DD_DIRECTDRAW_LOCAL, ddrawint/DD_DIRECTDRAW_LOCAL, ddstrcts_2df3e80e-6d5d-4d81-9ae8-d92b7c7c74eb.xml, display.dd_directdraw_local"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_DIRECTDRAW_LOCAL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_DIRECTDRAW_LOCAL structure

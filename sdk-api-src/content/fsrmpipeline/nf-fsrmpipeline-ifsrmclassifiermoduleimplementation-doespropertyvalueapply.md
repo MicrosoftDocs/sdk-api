@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.DoesPropertyValueApply
+title: IFsrmClassifierModuleImplementation::DoesPropertyValueApply
+author: windows-sdk-content
+description: Queries the classifier to find out whether the specified property value applies to the file most recently specified by the IFsrmClassifierModuleImplementation::OnBeginFile method.
+old-location: fsrm\ifsrmclassifiermoduleimplementation_doespropertyvalueapply.htm
+old-project: Fsrm
+ms.assetid: ab42430c-1e30-4576-b6f8-c0488b6230dd
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: DoesPropertyValueApply, DoesPropertyValueApply method [File Server Resource Manager], DoesPropertyValueApply method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, IFsrmClassifierModuleImplementation interface [File Server Resource Manager],DoesPropertyValueApply method, IFsrmClassifierModuleImplementation.DoesPropertyValueApply, IFsrmClassifierModuleImplementation::DoesPropertyValueApply, fs.ifsrmclassifiermoduleimplementation_doespropertyvalueapply, fsrm.ifsrmclassifiermoduleimplementation_doespropertyvalueapply, fsrmpipeline/IFsrmClassifierModuleImplementation::DoesPropertyValueApply
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmClassifierModuleImplementation.DoesPropertyValueApply
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmClassifierModuleImplementation::DoesPropertyValueApply

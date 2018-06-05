@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certadm.IOCSPCAConfiguration.get_SigningFlags
+title: IOCSPCAConfiguration::get_SigningFlags
+author: windows-sdk-content
+description: Gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a certification authority (CA) configuration.
+old-location: security\iocspcaconfiguration_signingflags_method.htm
+old-project: SecCrypto
+ms.assetid: 00575bb5-eb18-44f2-b2a8-f2f2fd361dec
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IOCSPCAConfiguration interface [Security],SigningFlags property, IOCSPCAConfiguration.SigningFlags, IOCSPCAConfiguration.get_SigningFlags, IOCSPCAConfiguration::SigningFlags, IOCSPCAConfiguration::get_SigningFlags, IOCSPCAConfiguration::put_SigningFlags, SigningFlags property [Security], SigningFlags property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningFlags, certadm/IOCSPCAConfiguration::get_SigningFlags, certadm/IOCSPCAConfiguration::put_SigningFlags, get_SigningFlags, security.iocspcaconfiguration_signingflags_method
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certadm.h
+req.include-header: Certserv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certadm.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certadm.dll
+api_name:
+-	IOCSPCAConfiguration.SigningFlags
+-	IOCSPCAConfiguration.get_SigningFlags
+-	IOCSPCAConfiguration.put_SigningFlags
+product: Windows
+targetos: Windows
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # IOCSPCAConfiguration::get_SigningFlags

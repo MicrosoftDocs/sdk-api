@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wia_xp._WIA_DATA_CALLBACK_HEADER
+title: "_WIA_DATA_CALLBACK_HEADER"
+author: windows-sdk-content
+description: The WIA_DATA_CALLBACK_HEADER is transmitted to an application during a series of calls by the Windows Image Acquisition (WIA) run-time system to the IWiaDataCallback::BandedDataCallback method.
+old-location: wia\_wia_WIA_DATA_CALLBACK_HEADER.htm
+old-project: wia
+ms.assetid: VS|wia|~\wia\refwia\structs\wia_data_callback_header.htm
+ms.author: windowssdkdev
+ms.date: 05/03/2018
+ms.keywords: "*PWIA_DATA_CALLBACK_HEADER, PWIA_DATA_CALLBACK_HEADER, PWIA_DATA_CALLBACK_HEADER structure pointer [WIA], WIA_DATA_CALLBACK_HEADER, WIA_DATA_CALLBACK_HEADER structure [WIA], _WIA_DATA_CALLBACK_HEADER, _wia_WIA_DATA_CALLBACK_HEADER, wia._wia_WIA_DATA_CALLBACK_HEADER, wia_xp/PWIA_DATA_CALLBACK_HEADER, wia_xp/WIA_DATA_CALLBACK_HEADER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wia_xp.h
+req.include-header: Wia.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIA_DATA_CALLBACK_HEADER, *PWIA_DATA_CALLBACK_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wia_xp.h
+api_name:
+-	WIA_DATA_CALLBACK_HEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WIA_DATA_CALLBACK_HEADER structure

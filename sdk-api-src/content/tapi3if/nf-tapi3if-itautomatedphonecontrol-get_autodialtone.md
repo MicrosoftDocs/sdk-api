@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoDialtone
+title: ITAutomatedPhoneControl::get_AutoDialtone
+author: windows-sdk-content
+description: The get_AutoDialtone method retrieves the current value of the AutoDialtone property.
+old-location: tapi3\itautomatedphonecontrol_get_autodialtone.htm
+old-project: Tapi
+ms.assetid: 977be70d-bb2d-490a-afd1-8e7f496b10ae
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoDialtone method, ITAutomatedPhoneControl.get_AutoDialtone, ITAutomatedPhoneControl::get_AutoDialtone, _tapi3_itautomatedphonecontrol_get_autodialtone, get_AutoDialtone, get_AutoDialtone method [TAPI 2.2], get_AutoDialtone method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autodialtone, tapi3if/ITAutomatedPhoneControl::get_AutoDialtone
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAutomatedPhoneControl.get_AutoDialtone
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAutomatedPhoneControl::get_AutoDialtone

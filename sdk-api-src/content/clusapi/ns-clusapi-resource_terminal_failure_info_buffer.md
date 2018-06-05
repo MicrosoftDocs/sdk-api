@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clusapi.RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+title: RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+author: windows-sdk-content
+description: Represents a buffer for a terminal failure for a resource.
+old-location: mscs\resource_terminal_failure_info_buffer.htm
+old-project: MsCS
+ms.assetid: D84EEF3A-BDB4-4D6E-BDC6-5A39DC32945E
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, RESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure [Failover Cluster], clusapi/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, clusapi/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, msclus/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, msclus/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, mscs.resource_terminal_failure_info_buffer"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,21 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, *PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+topic_type:
+-	kbSyntax
+api_type:
+-	<TBD>
+api_location:
+-
+api_name:
+-	RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # RESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure

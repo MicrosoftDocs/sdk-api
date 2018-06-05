@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmlss.IWindowsMediaLibrarySharingDeviceProperty.get_Name
+title: IWindowsMediaLibrarySharingDeviceProperty::get_Name
+author: windows-sdk-content
+description: The get_Name method retrieves the name of an individual property of a media device.
+old-location: wmlss\IWMLSDevicePropertyget_Name.htm
+old-project: WMLSS
+ms.assetid: 335e3beb-351e-40ad-b065-7058716180d3
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services],get_Name method, IWindowsMediaLibrarySharingDeviceProperty.get_Name, IWindowsMediaLibrarySharingDeviceProperty::get_Name, get_Name, get_Name method [Windows Media Library Sharing Services], get_Name method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperty interface, wmlss.IWMLSDevicePropertyget_Name, wmlss/IWindowsMediaLibrarySharingDeviceProperty::get_Name
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmlss.h
+req.include-header: Wmlss.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WMPMediaSharing.dll
+api_name:
+-	IWindowsMediaLibrarySharingDeviceProperty.get_Name
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: WMPMediaSharing.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWindowsMediaLibrarySharingDeviceProperty::get_Name

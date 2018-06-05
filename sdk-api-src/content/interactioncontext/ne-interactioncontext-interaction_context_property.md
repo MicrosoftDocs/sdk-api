@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:interactioncontext.INTERACTION_CONTEXT_PROPERTY
+title: INTERACTION_CONTEXT_PROPERTY
+author: windows-sdk-content
+description: Specifies properties of the Interaction Context object.
+old-location: input_intcontext\interaction_context_property.htm
+old-project: Input_IntContext
+ms.assetid: b5b96b33-212e-4e1a-89f6-ee9f94de84aa
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: INTERACTION_CONTEXT_PROPERTY, INTERACTION_CONTEXT_PROPERTY enumeration, INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS, INTERACTION_CONTEXT_PROPERTY_INTERACTION_UI_FEEDBACK, INTERACTION_CONTEXT_PROPERTY_MAX, INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS, input_intcontext.interaction_context_property, interactioncontext.interaction_context_property, interactioncontext/INTERACTION_CONTEXT_PROPERTY, interactioncontext/INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS, interactioncontext/INTERACTION_CONTEXT_PROPERTY_INTERACTION_UI_FEEDBACK, interactioncontext/INTERACTION_CONTEXT_PROPERTY_MAX, interactioncontext/INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: interactioncontext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INTERACTION_CONTEXT_PROPERTY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	interactioncontext.h
+api_name:
+-	INTERACTION_CONTEXT_PROPERTY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # INTERACTION_CONTEXT_PROPERTY enumeration

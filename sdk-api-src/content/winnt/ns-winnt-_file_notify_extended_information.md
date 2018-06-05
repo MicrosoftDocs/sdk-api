@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._FILE_NOTIFY_EXTENDED_INFORMATION
+title: "_FILE_NOTIFY_EXTENDED_INFORMATION"
+author: windows-sdk-content
+description: Describes the changes found by the ReadDirectoryChangesExW function.
+old-location: fs\file_notify_extended_information.htm
+old-project: FileIO
+ms.assetid: 4558F2E8-F515-4202-9CAA-FDAF20160F61
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PFILE_NOTIFY_EXTENDED_INFORMATION, FILE_ACTION_ADDED, FILE_ACTION_MODIFIED, FILE_ACTION_REMOVED, FILE_ACTION_RENAMED_NEW_NAME, FILE_ACTION_RENAMED_OLD_NAME, FILE_NOTIFY_EXTENDED_INFORMATION, FILE_NOTIFY_EXTENDED_INFORMATION structure [Files], PFILE_NOTIFY_EXTENDED_INFORMATION, PFILE_NOTIFY_EXTENDED_INFORMATION structure pointer [Files], _FILE_NOTIFY_EXTENDED_INFORMATION, fs.file_notify_extended_information, winnt/FILE_NOTIFY_EXTENDED_INFORMATION, winnt/PFILE_NOTIFY_EXTENDED_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILE_NOTIFY_EXTENDED_INFORMATION, *PFILE_NOTIFY_EXTENDED_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	FILE_NOTIFY_EXTENDED_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _FILE_NOTIFY_EXTENDED_INFORMATION structure

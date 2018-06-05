@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:sdoias._IASPROPERTIES
+title: "_IASPROPERTIES"
+author: windows-sdk-content
+description: The values of the IASPROPERTIES enumeration type enumerate properties related to NPS.
+old-location: nps\SDO_iasproperties.htm
+old-project: Nps
+ms.assetid: 4290621c-7fc7-416b-89a2-11f2254f0d70
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IASPROPERTIES, IASPROPERTIES enumeration [Network Policy Server], PROPERTY_IAS_AUDITORS_COLLECTION, PROPERTY_IAS_POLICIES_COLLECTION, PROPERTY_IAS_PROFILES_COLLECTION, PROPERTY_IAS_PROTOCOLS_COLLECTION, PROPERTY_IAS_PROXYPOLICIES_COLLECTION, PROPERTY_IAS_PROXYPROFILES_COLLECTION, PROPERTY_IAS_RADIUSSERVERGROUPS_COLLECTION, PROPERTY_IAS_REMEDIATIONSERVERGROUPS_COLLECTION, PROPERTY_IAS_REQUESTHANDLERS_COLLECTION, PROPERTY_IAS_SHVTEMPLATES_COLLECTION, _IASPROPERTIES, _sdo_iasproperties, nps.SDO_iasproperties, sdo.iasproperties, sdoias/IASPROPERTIES, sdoias/PROPERTY_IAS_AUDITORS_COLLECTION, sdoias/PROPERTY_IAS_POLICIES_COLLECTION, sdoias/PROPERTY_IAS_PROFILES_COLLECTION, sdoias/PROPERTY_IAS_PROTOCOLS_COLLECTION, sdoias/PROPERTY_IAS_PROXYPOLICIES_COLLECTION, sdoias/PROPERTY_IAS_PROXYPROFILES_COLLECTION, sdoias/PROPERTY_IAS_RADIUSSERVERGROUPS_COLLECTION, sdoias/PROPERTY_IAS_REMEDIATIONSERVERGROUPS_COLLECTION, sdoias/PROPERTY_IAS_REQUESTHANDLERS_COLLECTION, sdoias/PROPERTY_IAS_SHVTEMPLATES_COLLECTION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: sdoias.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IASPROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	SdoIas.h
+api_name:
+-	IASPROPERTIES
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _IASPROPERTIES enumeration

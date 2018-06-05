@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dhcpsapi.DhcpSetServerBindingInfoV6
+title: DhcpSetServerBindingInfoV6 function
+author: windows-sdk-content
+description: Sets or modifies the IPv6 interface bindings for the DHCPv6 server.
+old-location: dhcp\dhcpsetserverbindinginfov6.htm
+old-project: DHCP
+ms.assetid: 55eb2073-87c4-49b1-b294-35bfeb13d530
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DhcpSetServerBindingInfoV6, DhcpSetServerBindingInfoV6 function [DHCP], dhcp.dhcpsetserverbindinginfov6, dhcpsapi/DhcpSetServerBindingInfoV6
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QuarantineStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dhcpsapi.dll
+api_name:
+-	DhcpSetServerBindingInfoV6
+product: Windows
+targetos: Windows
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 ---
 
 # DhcpSetServerBindingInfoV6 function

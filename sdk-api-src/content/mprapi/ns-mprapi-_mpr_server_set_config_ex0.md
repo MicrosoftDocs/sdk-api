@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mprapi._MPR_SERVER_SET_CONFIG_EX0
+title: "_MPR_SERVER_SET_CONFIG_EX0"
+author: windows-sdk-content
+description: Used to get or set the tunnel configuration information of a RAS server.
+old-location: rras\mpr_server_set_config_ex.htm
+old-project: RRAS
+ms.assetid: 6c993c9c-4522-4758-926a-fa7ef2a89418
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PMPR_SERVER_SET_CONFIG_EX0, MPRAPI_SET_CONFIG_PROTOCOL_FOR_IKEV2, MPRAPI_SET_CONFIG_PROTOCOL_FOR_L2TP, MPRAPI_SET_CONFIG_PROTOCOL_FOR_PPTP, MPRAPI_SET_CONFIG_PROTOCOL_FOR_SSTP, MPR_SERVER_SET_CONFIG_EX, MPR_SERVER_SET_CONFIG_EX structure [RAS], MPR_SERVER_SET_CONFIG_EX0, PMPR_SERVER_SET_CONFIG_EX, PMPR_SERVER_SET_CONFIG_EX structure pointer [RAS], _MPR_SERVER_SET_CONFIG_EX0, _MPR_SERVER_SET_CONFIG_EX1, mprapi/MPR_SERVER_SET_CONFIG_EX, mprapi/PMPR_SERVER_SET_CONFIG_EX, rras.mpr_server_set_config_ex"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPR_SERVER_SET_CONFIG_EX0, *PMPR_SERVER_SET_CONFIG_EX0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mprapi.h
+api_name:
+-	MPR_SERVER_SET_CONFIG_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MPR_SERVER_SET_CONFIG_EX0 structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrm.IFsrmDerivedObjectsResult.get_Results
+title: IFsrmDerivedObjectsResult::get_Results
+author: windows-sdk-content
+description: Retrieves the HRESULT values that indicate the success or failure of the update for each derived object.
+old-location: fsrm\ifsrmderivedobjectsresult_results.htm
+old-project: Fsrm
+ms.assetid: b5946160-565b-4c94-ba2e-18f270eb1af1
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmDerivedObjectsResult interface [File Server Resource Manager],Results property, IFsrmDerivedObjectsResult.Results, IFsrmDerivedObjectsResult.get_Results, IFsrmDerivedObjectsResult::Results, IFsrmDerivedObjectsResult::get_Results, Results property [File Server Resource Manager], Results property [File Server Resource Manager],IFsrmDerivedObjectsResult interface, fs.ifsrmderivedobjectsresult_results, fsrm.ifsrmderivedobjectsresult_results, fsrm/IFsrmDerivedObjectsResult::Results, fsrm/IFsrmDerivedObjectsResult::get_Results, get_Results
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrm.h
+req.include-header: FsrmQuota.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmDerivedObjectsResult.Results
+-	IFsrmDerivedObjectsResult.get_Results
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmDerivedObjectsResult::get_Results

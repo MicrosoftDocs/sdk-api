@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IAlertDataCollector.put_AlertThresholds
+title: IAlertDataCollector::put_AlertThresholds
+author: windows-sdk-content
+description: Retrieves or sets a list of performance counters and thresholds to monitor.
+old-location: pla\ialertdatacollector_alertthresholds.htm
+old-project: PLA
+ms.assetid: e0d504ea-58d4-48fd-9baf-851505d6d3ac
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: AlertThresholds property [PLA], AlertThresholds property [PLA],IAlertDataCollector interface, IAlertDataCollector interface [PLA],AlertThresholds property, IAlertDataCollector.AlertThresholds, IAlertDataCollector.put_AlertThresholds, IAlertDataCollector::AlertThresholds, IAlertDataCollector::get_AlertThresholds, IAlertDataCollector::put_AlertThresholds, base.ialertdatacollector_alertthresholds, pla.ialertdatacollector_alertthresholds, pla/IAlertDataCollector::AlertThresholds, pla/IAlertDataCollector::get_AlertThresholds, pla/IAlertDataCollector::put_AlertThresholds, put_AlertThresholds
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IAlertDataCollector.AlertThresholds
+-	IAlertDataCollector.get_AlertThresholds
+-	IAlertDataCollector.put_AlertThresholds
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAlertDataCollector::put_AlertThresholds

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxva2api.IDirectXVideoProcessorService.GetVideoProcessorSubStreamFormats
+title: IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats
+author: windows-sdk-content
+description: Gets a list of substream formats supported by a specified video processor device.
+old-location: mf\idirectxvideoprocessorservice_getvideoprocessorsubstreamformats.htm
+old-project: medfound
+ms.assetid: 10ad4d8d-9b5e-4f77-8244-c29a0e14a5b1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 10ad4d8d-9b5e-4f77-8244-c29a0e14a5b1, GetVideoProcessorSubStreamFormats, GetVideoProcessorSubStreamFormats method [Media Foundation], GetVideoProcessorSubStreamFormats method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetVideoProcessorSubStreamFormats method, IDirectXVideoProcessorService.GetVideoProcessorSubStreamFormats, IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats, mf.idirectxvideoprocessorservice_getvideoprocessorsubstreamformats
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxva2api.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA2_SurfaceType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxva2api.h
+api_name:
+-	IDirectXVideoProcessorService.GetVideoProcessorSubStreamFormats
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats

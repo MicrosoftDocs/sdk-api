@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo
+title: ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo
+author: windows-sdk-content
+description: Retrieves the previous language exception error information object.
+old-location: winrt\ilanguageexceptionerrorinfo2_getpreviouslanguageexceptionerrorinfo.htm
+old-project: WinRT
+ms.assetid: 10A45EF1-AF8F-498D-B95B-FCE9EF8AB203
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: GetPreviousLanguageExceptionErrorInfo, GetPreviousLanguageExceptionErrorInfo method [Windows Runtime], GetPreviousLanguageExceptionErrorInfo method [Windows Runtime],ILanguageExceptionErrorInfo2 interface, ILanguageExceptionErrorInfo2 interface [Windows Runtime],GetPreviousLanguageExceptionErrorInfo method, ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo, ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo, restrictederrorinfo/ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo, winrt.ilanguageexceptionerrorinfo2_getpreviouslanguageexceptionerrorinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: restrictederrorinfo.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Restrictederrorinfo.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	restrictederrorinfo.h
+api_name:
+-	ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo

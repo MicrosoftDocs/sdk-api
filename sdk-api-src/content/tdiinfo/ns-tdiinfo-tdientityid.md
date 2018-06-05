@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:tdiinfo.TDIEntityID
+title: TDIEntityID
+author: windows-sdk-content
+description: Contains a part of the TDIObjectID structure to represent information about TDI drivers retrieved using the IOCTL_TCP_QUERY_INFORMATION_EX control code.
+old-location: winprog\tdientityid.htm
+old-project: DevNotes
+ms.assetid: d95a96b5-c062-44c5-9a66-b27db531800a
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: AT_ENTITY, CL_NL_ENTITY, CL_TL_ENTITY, CO_NL_ENTITY, CO_TL_ENTITY, ER_ENTITY, GENERIC_ENTITY, IF_ENTITY, TDIEntityID, TDIEntityID structure [Windows API], tdiinfo/TDIEntityID, winprog.tdientityid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tdiinfo.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TDIEntityID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tdiinfo.h
+api_name:
+-	TDIEntityID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TDIEntityID structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:d3d12.ID3D12DescriptorHeap
+title: ID3D12DescriptorHeap
+author: windows-sdk-content
+description: A descriptor heap is a collection of contiguous allocations of descriptors, one allocation for every descriptor.
+old-location: direct3d12\id3d12descriptorheap.htm
+old-project: direct3d12
+ms.assetid: B6FF011B-3FED-425B-B9D5-A823E6915FD5
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: ID3D12DescriptorHeap, ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,described, d3d12/ID3D12DescriptorHeap, direct3d12.id3d12descriptorheap
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_SHADER_MODEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D12.dll
+api_name:
+-	ID3D12DescriptorHeap
+product: Windows
+targetos: Windows
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 ---
 
 # ID3D12DescriptorHeap interface

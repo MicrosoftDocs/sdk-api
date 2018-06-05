@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core.CATEGORYINFO_FLAGS
+title: CATEGORYINFO_FLAGS
+author: windows-sdk-content
+description: Provides a set of flags for use with the CATEGORY_INFO structure.
+old-location: shell\CATEGORYINFO_FLAGS.htm
+old-project: shell
+ms.assetid: 6179ed67-905a-454a-a226-fe1e5070e39f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CATEGORYINFO_FLAGS, CATEGORYINFO_FLAGS enumeration [Windows Shell], CATINFO_COLLAPSED, CATINFO_EXPANDED, CATINFO_HIDDEN, CATINFO_NOHEADER, CATINFO_NOHEADERCOUNT, CATINFO_NORMAL, CATINFO_NOTCOLLAPSIBLE, CATINFO_SUBSETTED, inet_CATEGORYINFO_FLAGS, shell.CATEGORYINFO_FLAGS, shobjidl_core/CATEGORYINFO_FLAGS, shobjidl_core/CATINFO_COLLAPSED, shobjidl_core/CATINFO_EXPANDED, shobjidl_core/CATINFO_HIDDEN, shobjidl_core/CATINFO_NOHEADER, shobjidl_core/CATINFO_NOHEADERCOUNT, shobjidl_core/CATINFO_NORMAL, shobjidl_core/CATINFO_NOTCOLLAPSIBLE, shobjidl_core/CATINFO_SUBSETTED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CATEGORYINFO_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	CATEGORYINFO_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # CATEGORYINFO_FLAGS enumeration

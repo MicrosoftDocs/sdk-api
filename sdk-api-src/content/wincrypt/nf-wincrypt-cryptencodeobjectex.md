@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CryptEncodeObjectEx
+title: CryptEncodeObjectEx function
+author: windows-sdk-content
+description: Encodes a structure of the type indicated by the value of the lpszStructType parameter.
+old-location: security\cryptencodeobjectex.htm
+old-project: SecCrypto
+ms.assetid: 45134db8-059b-43d3-90c2-9b6cc970fca0
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CRYPT_ENCODE_ALLOC_FLAG, CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_DISABLE_CHECK_TYPE_FLAG, CRYPT_UNICODE_NAME_ENCODE_ENABLE_T61_UNICODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_ENABLE_UTF8_UNICODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_FORCE_UTF8_UNICODE_FLAG, CryptEncodeObjectEx, CryptEncodeObjectEx function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_cryptencodeobjectex, security.cryptencodeobjectex, wincrypt/CryptEncodeObjectEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CryptEncodeObjectEx
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CryptEncodeObjectEx function

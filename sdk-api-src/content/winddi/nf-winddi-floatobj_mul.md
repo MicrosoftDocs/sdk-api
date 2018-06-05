@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:winddi.FLOATOBJ_Mul
+title: FLOATOBJ_Mul function
+author: windows-sdk-content
+description: The FLOATOBJ_Mul function multiplies the two FLOATOBJs, and returns with the result in the first parameter.
+old-location: display\floatobj_mul.htm
+old-project: display
+ms.assetid: 95b4c3eb-5e62-4209-9c05-eae9ab48f7ab
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: FLOATOBJ_Mul, FLOATOBJ_Mul function [Display Devices], display.floatobj_mul, gdifncs_1647a791-7781-4e67-a7b1-06b283c32b0b.xml, winddi/FLOATOBJ_Mul
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Win32k.sys
+api_name:
+-	FLOATOBJ_Mul
+product: Windows
+targetos: Windows
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # FLOATOBJ_Mul function

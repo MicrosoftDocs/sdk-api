@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:d3d9caps._D3DCONTENTPROTECTIONCAPS
+title: "_D3DCONTENTPROTECTIONCAPS"
+author: windows-sdk-content
+description: Describes the content protection capabilities of a display driver.
+old-location: mf\d3dcontentprotectioncaps.htm
+old-project: medfound
+ms.assetid: 73ef2e12-d376-4bc2-a940-d421acfdd43e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3DCONTENTPROTECTIONCAPS, D3DCONTENTPROTECTIONCAPS structure [Media Foundation], D3DCPCAPS_CONTENTKEY, D3DCPCAPS_ENCRYPTEDREADBACK, D3DCPCAPS_ENCRYPTEDREADBACKKEY, D3DCPCAPS_FRESHENSESSIONKEY, D3DCPCAPS_HARDWARE, D3DCPCAPS_PARTIALDECRYPTION, D3DCPCAPS_PROTECTIONALWAYSON, D3DCPCAPS_SEQUENTIAL_CTR_IV, D3DCPCAPS_SOFTWARE, D3DKEYEXCHANGE_DXVA, D3DKEYEXCHANGE_RSAES_OAEP, _D3DCONTENTPROTECTIONCAPS, d3d9caps/D3DCONTENTPROTECTIONCAPS, mf.d3dcontentprotectioncaps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d9caps.h
+req.include-header: D3d9.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DCONTENTPROTECTIONCAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d9caps.h
+api_name:
+-	D3DCONTENTPROTECTIONCAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _D3DCONTENTPROTECTIONCAPS structure

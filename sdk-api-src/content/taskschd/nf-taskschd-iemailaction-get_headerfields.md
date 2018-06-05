@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.IEmailAction.get_HeaderFields
+title: IEmailAction::get_HeaderFields
+author: windows-sdk-content
+description: Gets or sets the header information in the email message to send.
+old-location: taskschd\iemailaction_headerfields.htm
+old-project: TaskSchd
+ms.assetid: e7b822a0-1e5e-4dd2-8139-ac44c6308fe0
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: HeaderFields property [Task Scheduler], HeaderFields property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],HeaderFields property, IEmailAction.HeaderFields, IEmailAction.get_HeaderFields, IEmailAction::HeaderFields, IEmailAction::get_HeaderFields, IEmailAction::put_HeaderFields, get_HeaderFields, taskschd.iemailaction_headerfields, taskschd/IEmailAction::HeaderFields, taskschd/IEmailAction::get_HeaderFields, taskschd/IEmailAction::put_HeaderFields
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	IEmailAction.HeaderFields
+-	IEmailAction.get_HeaderFields
+-	IEmailAction.put_HeaderFields
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IEmailAction::get_HeaderFields

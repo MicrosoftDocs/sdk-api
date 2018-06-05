@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi.CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
+title: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
+author: windows-sdk-content
+description: Specifies the various actions that can be performed when a resource has an embedded failure.
+old-location: mscs\cluster_resource_embedded_failure_action.htm
+old-project: MsCS
+ms.assetid: 72251E97-0DBC-4EEA-BACF-3F7677483F29
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION enumeration [Failover Cluster], ClusterResourceEmbeddedFailureActionLogOnly, ClusterResourceEmbeddedFailureActionNone, ClusterResourceEmbeddedFailureActionRecover, clusapi/CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, clusapi/ClusterResourceEmbeddedFailureActionLogOnly, clusapi/ClusterResourceEmbeddedFailureActionNone, clusapi/ClusterResourceEmbeddedFailureActionRecover, msclus/CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, msclus/ClusterResourceEmbeddedFailureActionLogOnly, msclus/ClusterResourceEmbeddedFailureActionNone, msclus/ClusterResourceEmbeddedFailureActionRecover, mscs.cluster_resource_embedded_failure_action
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MSClus.h
+api_name:
+-	CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION enumeration

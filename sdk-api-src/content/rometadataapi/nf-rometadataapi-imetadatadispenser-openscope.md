@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rometadataapi.IMetaDataDispenser.OpenScope
+title: IMetaDataDispenser::OpenScope
+author: windows-sdk-content
+description: Opens an existing, on-disk file and maps its metadata into memory.
+old-location: winrt\imetadatadispenser_openscope.htm
+old-project: WinRT
+ms.assetid: 77ba5ee6-082c-478f-83fc-7f6c31ee3c74
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: IMetaDataDispenser interface [Windows Runtime],OpenScope method, IMetaDataDispenser.OpenScope, IMetaDataDispenser::OpenScope, OpenScope, OpenScope method [Windows Runtime], OpenScope method [Windows Runtime],IMetaDataDispenser interface, rometadataapi/IMetaDataDispenser::OpenScope, winrt.imetadatadispenser_openscope
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rometadataapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rometadataapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	rometadataapi.h
+api_name:
+-	IMetaDataDispenser.OpenScope
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMetaDataDispenser::OpenScope

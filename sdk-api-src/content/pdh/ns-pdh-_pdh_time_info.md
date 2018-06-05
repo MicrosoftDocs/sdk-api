@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:pdh._PDH_TIME_INFO
+title: "_PDH_TIME_INFO"
+author: windows-sdk-content
+description: The PDH_TIME_INFO structure contains information on time intervals as applied to the sampling of performance data.
+old-location: perf\pdh_time_info_str.htm
+old-project: PerfCtrs
+ms.assetid: a747f288-8d6c-401c-a927-a61ffea3d423
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PPDH_TIME_INFO, PDH_TIME_INFO, PDH_TIME_INFO structure [Perf], PPDH_TIME_INFO, PPDH_TIME_INFO structure pointer [Perf], _PDH_TIME_INFO, _win32_pdh_time_info_str, base.pdh_time_info_str, pdh/PDH_TIME_INFO, pdh/PPDH_TIME_INFO, perf.pdh_time_info_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: pdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDH_TIME_INFO, *PPDH_TIME_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pdh.h
+api_name:
+-	PDH_TIME_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PDH_TIME_INFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:clfsw32.AddLogContainer
+title: AddLogContainer function
+author: windows-sdk-content
+description: Adds a container to the physical log that is associated with the log handle&#8212;if the calling process has write access to the .blf file and the ability to create files in the target directory of the container.
+old-location: fs\addlogcontainer.htm
+old-project: Clfs
+ms.assetid: 5e886b96-9431-43f6-b888-e0f47c432371
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: AddLogContainer, AddLogContainer function [Files], clfsw32/AddLogContainer, fs.addlogcontainer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: clfsw32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Clfsw32.dll
+api_name:
+-	AddLogContainer
+product: Windows
+targetos: Windows
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 ---
 
 # AddLogContainer function

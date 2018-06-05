@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rtscom.IDynamicRenderer.get_DataCacheEnabled
+title: IDynamicRenderer::get_DataCacheEnabled
+author: windows-sdk-content
+description: Gets or sets a value that indicates whether data caching is enabled for the DynamicRenderer Class object.
+old-location: tablet\idynamicrenderer_datacacheenabled.htm
+old-project: tablet
+ms.assetid: 1b2435ee-4682-4499-aa5c-35201ab2ba95
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 1b2435ee-4682-4499-aa5c-35201ab2ba95, DataCacheEnabled property [Tablet PC], DataCacheEnabled property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],DataCacheEnabled property, IDynamicRenderer.DataCacheEnabled, IDynamicRenderer.get_DataCacheEnabled, IDynamicRenderer.put_DataCacheEnabled, IDynamicRenderer::DataCacheEnabled, IDynamicRenderer::get_DataCacheEnabled, IDynamicRenderer::put_DataCacheEnabled, get_DataCacheEnabled, rtscom/IDynamicRenderer::DataCacheEnabled, rtscom/IDynamicRenderer::get_DataCacheEnabled, rtscom/IDynamicRenderer::put_DataCacheEnabled, tablet.idynamicrenderer_datacacheenabled
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rtscom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: StylusQueue
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RTSCom.dll
+api_name:
+-	IDynamicRenderer.DataCacheEnabled
+-	IDynamicRenderer.get_DataCacheEnabled
+-	IDynamicRenderer.put_DataCacheEnabled
+-	IDynamicRenderer.get_DataCacheEnabled
+-	IDynamicRenderer.put_DataCacheEnabled
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDynamicRenderer::get_DataCacheEnabled

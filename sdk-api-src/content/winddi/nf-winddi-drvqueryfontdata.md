@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winddi.DrvQueryFontData
+title: DrvQueryFontData function
+author: windows-sdk-content
+description: The DrvQueryFontData function retrieves information about a realized font.
+old-location: display\drvqueryfontdata.htm
+old-project: display
+ms.assetid: 3f6efd3c-3ddf-4ce6-9527-730e01c45e74
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DrvQueryFontData, DrvQueryFontData function [Display Devices], ddifncs_6992339b-a8e8-4bdf-b7a4-7a3087f62051.xml, display.drvqueryfontdata, winddi/DrvQueryFontData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	DrvQueryFontData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DrvQueryFontData function

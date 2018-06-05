@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:adsprop._ADSPROPERROR
+title: "_ADSPROPERROR"
+author: windows-sdk-content
+description: The ADSPROPERROR structure is used to pass error data to the notification object with the ADsPropSendErrorMessage function or the WM_ADSPROP_NOTIFY_ERROR message.
+old-location: ad\adsproperror.htm
+old-project: AD
+ms.assetid: 584cb3e7-3b26-4346-9162-b3e3064ded1a
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PADSPROPERROR, ADSPROPERROR, ADSPROPERROR structure [Active Directory], PADSPROPERROR, PADSPROPERROR structure pointer [Active Directory], _ADSPROPERROR, _glines_adsproperror, ad.adsproperror, adsprop/ADSPROPERROR, adsprop/PADSPROPERROR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: adsprop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADSPROPERROR, *PADSPROPERROR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Adsprop.h
+api_name:
+-	ADSPROPERROR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _ADSPROPERROR structure

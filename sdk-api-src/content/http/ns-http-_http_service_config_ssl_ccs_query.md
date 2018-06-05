@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:http._HTTP_SERVICE_CONFIG_SSL_CCS_QUERY
+title: "_HTTP_SERVICE_CONFIG_SSL_CCS_QUERY"
+author: windows-sdk-content
+description: Specifies a Secure Sockets Layer (SSL) configuration to query for an SSL Centralized Certificate Store (CCS) record on the port when you call the HttpQueryServiceConfiguration function.
+old-location: http\http_service_config_ssl_ccs_query.htm
+old-project: Http
+ms.assetid: E7578D74-E8BE-472D-A01B-51BBA511F561
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY, HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, HTTP_SERVICE_CONFIG_SSL_CCS_QUERY structure [HTTP], HttpServiceConfigQueryExact, HttpServiceConfigQueryNext, PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY, PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY structure pointer [HTTP], _HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, http.http_service_config_ssl_ccs_query, http/HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, http/PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, *PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_SERVICE_CONFIG_SSL_CCS_QUERY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_SERVICE_CONFIG_SSL_CCS_QUERY structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlwapi.IsOS
+title: IsOS function
+author: windows-sdk-content
+description: Checks for specified operating systems and operating system features.
+old-location: shell\IsOS.htm
+old-project: shell
+ms.assetid: 827a76bc-3581-4f1c-8095-8e2fd30dfdbc
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IsOS, IsOS function [Windows Shell], _win32_IsOS, shell.IsOS, shlwapi/IsOS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server, Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+-	API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+-	ShCore.dll
+-	API-MS-Win-ShCore-SysInfo-l1-1-0.dll
+api_name:
+-	IsOS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # IsOS function

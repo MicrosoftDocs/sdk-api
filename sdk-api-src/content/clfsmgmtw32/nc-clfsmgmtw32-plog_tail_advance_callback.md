@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:clfsmgmtw32.PLOG_TAIL_ADVANCE_CALLBACK
+title: PLOG_TAIL_ADVANCE_CALLBACK
+author: windows-sdk-content
+description: The LOG_TAIL_ADVANCE_CALLBACK function is an application-defined callback function that advances the log tail. The callback is invoked in the context of an asynchronous procedure call (APC) on the thread that registers for log management.
+old-location: fs\log_tail_advance_callback.htm
+old-project: Clfs
+ms.assetid: dfa64e5e-55ef-4102-90d5-104b1a624267
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: LOG_TAIL_ADVANCE_CALLBACK, LOG_TAIL_ADVANCE_CALLBACK callback function [Files], PLOG_TAIL_ADVANCE_CALLBACK, PLOG_TAIL_ADVANCE_CALLBACK callback, clfsmgmtw32/LOG_TAIL_ADVANCE_CALLBACK, fs.log_tail_advance_callback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: clfsmgmtw32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Clfsmgmtw32.h
+api_name:
+-	LOG_TAIL_ADVANCE_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PLOG_TAIL_ADVANCE_CALLBACK callback function

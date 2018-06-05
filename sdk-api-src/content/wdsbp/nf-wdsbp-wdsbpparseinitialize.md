@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wdsbp.WdsBpParseInitialize
+title: WdsBpParseInitialize function
+author: windows-sdk-content
+description: Receives a handle to the packet sent by the network boot program.
+old-location: wds\wdsbpparseinitialize.htm
+old-project: Wds
+ms.assetid: dc6007ad-0dd5-477d-a49f-45820aa1b5f6
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCP, WDSBP_PK_TYPE_WDSNBP, WdsBpParseInitialize, WdsBpParseInitialize function [Windows Deployment Services], wds.wdsbpparseinitialize, wdsbp/WdsBpParseInitialize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wdsbp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wdsbp.dll
+api_name:
+-	WdsBpParseInitialize
+product: Windows
+targetos: Windows
+req.lib: Wdsbp.lib
+req.dll: Wdsbp.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WdsBpParseInitialize function

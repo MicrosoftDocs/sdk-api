@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d12sdklayers.ID3D12DebugCommandList.GetFeatureMask
+title: ID3D12DebugCommandList::GetFeatureMask
+author: windows-sdk-content
+description: Returns the debug feature flags that have been set on a command list.
+old-location: direct3d12\id3d12debugcommandlist_getfeaturemask.htm
+old-project: direct3d12
+ms.assetid: 98FE1D2C-648B-4689-BE52-A53C969D9281
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: GetFeatureMask, GetFeatureMask method, GetFeatureMask method,ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,GetFeatureMask method, ID3D12DebugCommandList.GetFeatureMask, ID3D12DebugCommandList::GetFeatureMask, d3d12sdklayers/ID3D12DebugCommandList::GetFeatureMask, direct3d12.id3d12debugcommandlist_getfeaturemask
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d12sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_RLDO_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12sdklayers.h
+api_name:
+-	ID3D12DebugCommandList.GetFeatureMask
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D12DebugCommandList::GetFeatureMask

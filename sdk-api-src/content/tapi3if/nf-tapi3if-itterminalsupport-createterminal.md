@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITTerminalSupport.CreateTerminal
+title: ITTerminalSupport::CreateTerminal
+author: windows-sdk-content
+description: The CreateTerminal method creates and initializes a new ITTerminal object based on the dynamic terminal class and media. The terminal class is identified by a GUID. The GUID must be converted to a string using StringFromIID to pass to this method.
+old-location: tapi3\itterminalsupport_createterminal.htm
+old-project: Tapi
+ms.assetid: 2a2a037a-753c-4dd4-b6ce-10b69f2e2421
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CreateTerminal, CreateTerminal method [TAPI 2.2], CreateTerminal method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],CreateTerminal method, ITTerminalSupport.CreateTerminal, ITTerminalSupport::CreateTerminal, _tapi3_itterminalsupport_createterminal, tapi3.itterminalsupport_createterminal, tapi3if/ITTerminalSupport::CreateTerminal
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tapi3if.h
+api_name:
+-	ITTerminalSupport.CreateTerminal
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITTerminalSupport::CreateTerminal

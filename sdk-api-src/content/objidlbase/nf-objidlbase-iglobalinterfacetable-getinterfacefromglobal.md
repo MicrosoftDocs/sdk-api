@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objidlbase.IGlobalInterfaceTable.GetInterfaceFromGlobal
+title: IGlobalInterfaceTable::GetInterfaceFromGlobal
+author: windows-sdk-content
+description: Retrieves a pointer to an interface on an object that is usable by the calling apartment. This interface must be currently registered in the global interface table.
+old-location: com\iglobalinterfacetable_getinterfacefromglobal.htm
+old-project: com
+ms.assetid: 3b37184d-c4e8-47b2-8f3f-008d3ea00759
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetInterfaceFromGlobal, GetInterfaceFromGlobal method [COM], GetInterfaceFromGlobal method [COM],IGlobalInterfaceTable interface, IGlobalInterfaceTable interface [COM],GetInterfaceFromGlobal method, IGlobalInterfaceTable.GetInterfaceFromGlobal, IGlobalInterfaceTable::GetInterfaceFromGlobal, _com_iglobalinterfacetable_getinterfacefromglobal, com.iglobalinterfacetable_getinterfacefromglobal, objidlbase/IGlobalInterfaceTable::GetInterfaceFromGlobal
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: objidlbase.h
+req.include-header: ObjIdl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidlbase.h
+api_name:
+-	IGlobalInterfaceTable.GetInterfaceFromGlobal
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IGlobalInterfaceTable::GetInterfaceFromGlobal

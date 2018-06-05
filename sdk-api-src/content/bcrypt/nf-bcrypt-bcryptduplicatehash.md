@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bcrypt.BCryptDuplicateHash
+title: BCryptDuplicateHash function
+author: windows-sdk-content
+description: Duplicates an existing hash or Message Authentication Code (MAC) object.
+old-location: security\bcryptduplicatehash_func.htm
+old-project: SecCNG
+ms.assetid: 451ff5dc-b66a-4e8e-a327-28b4ee618b74
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: BCryptDuplicateHash, BCryptDuplicateHash function [Security], bcrypt/BCryptDuplicateHash, security.bcryptduplicatehash_func
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: bcrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HASHALGORITHM_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Bcrypt.dll
+-	Ksecdd.sys
+api_name:
+-	BCryptDuplicateHash
+product: Windows
+targetos: Windows
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 ---
 
 # BCryptDuplicateHash function

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wsdxml.IWSDXMLContext.SetTypes
+title: IWSDXMLContext::SetTypes
+author: windows-sdk-content
+description: Associates custom message types with the XML context object.
+old-location: ncd\iwsdxmlcontext_settypes_method.htm
+old-project: WsdApi
+ms.assetid: c3bf56e1-42c6-4ecf-971f-2a6253fba0bc
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IWSDXMLContext interface,SetTypes method, IWSDXMLContext.SetTypes, IWSDXMLContext::SetTypes, SetTypes, SetTypes method, SetTypes method,IWSDXMLContext interface, ncd.iwsdxmlcontext_settypes_method, wsdxml/IWSDXMLContext::SetTypes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wsdxml.h
+req.include-header: Wsdapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WsdXml.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RESPONSEBODY_SubscriptionEnd
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wsdapi.dll
+api_name:
+-	IWSDXMLContext.SetTypes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWSDXMLContext::SetTypes

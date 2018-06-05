@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msacm.acmFilterEnumA
+title: acmFilterEnumA function
+author: windows-sdk-content
+description: The acmFilterEnum function enumerates waveform-audio filters available for a given filter tag from an ACM driver. This function continues enumerating until there are no more suitable filters for the filter tag or the callback function returns FALSE.
+old-location: multimedia\acmfilterenum.htm
+old-project: Multimedia
+ms.assetid: ee8154d6-3aa1-49ce-96c5-7b8526f02a8a
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "_win32_acmFilterEnum, acmFilterEnum, acmFilterEnum function [Windows Multimedia], acmFilterEnumA, acmFilterEnumW, msacm/acmFilterEnum, msacm/acmFilterEnumA, msacm/acmFilterEnumW, multimedia.acmfilterenum"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msacm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: acmFilterEnumW (Unicode) and acmFilterEnumA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msacm32.dll
+-	Ext-MS-Win-mm-msacm-l1-1-0.dll
+api_name:
+-	acmFilterEnum
+-	acmFilterEnumA
+-	acmFilterEnumW
+product: Windows
+targetos: Windows
+req.lib: Msacm32.lib
+req.dll: Msacm32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # acmFilterEnumA function

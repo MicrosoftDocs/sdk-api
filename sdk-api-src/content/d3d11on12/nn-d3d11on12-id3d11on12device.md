@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:d3d11on12.ID3D11On12Device
+title: ID3D11On12Device
+author: windows-sdk-content
+description: Handles the creation, wrapping and releasing of D3D11 resources for Direct3D 11on12.
+old-location: direct3d12\id3d11on12device.htm
+old-project: direct3d12
+ms.assetid: 031F9AC2-E5C0-47F9-B084-2D2431F1187A
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: ID3D11On12Device, ID3D11On12Device interface, ID3D11On12Device interface,described, d3d11on12/ID3D11On12Device, direct3d12.id3d11on12device
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: d3d11on12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_AES_CTR_IV
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.dll
+api_name:
+-	ID3D11On12Device
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: D3D11.dll
+req.irql: 
 ---
 
 # ID3D11On12Device interface

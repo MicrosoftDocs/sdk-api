@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iscsidsc.SendScsiReadCapacity
+title: SendScsiReadCapacity function
+author: windows-sdk-content
+description: SendScsiReadCapacity function sends a SCSI READ CAPACITY command to the indicated target.
+old-location: iscsidisc\sendscsireadcapacity.htm
+old-project: iSCSIDisc
+ms.assetid: 1a12848f-4b2d-45f6-971b-d8e4ccd00c21
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: SendScsiReadCapacity, SendScsiReadCapacity function [iSCSI Discovery Library API], iscsidisc.sendscsireadcapacity, iscsidsc/SendScsiReadCapacity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Iscsidsc.dll
+api_name:
+-	SendScsiReadCapacity
+product: Windows
+targetos: Windows
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # SendScsiReadCapacity function

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPPlayer.get_fullScreen
+title: IWMPPlayer::get_fullScreen
+author: windows-sdk-content
+description: The get_fullScreen method retrieves a value indicating whether video content is played back in full-screen mode.
+old-location: wmp\iwmpplayer_get_fullscreen.htm
+old-project: WMP
+ms.assetid: 5a8bb0b5-76c6-424f-ba37-5e913b6ed542
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPPlayer interface [Windows Media Player],get_fullScreen method, IWMPPlayer.get_fullScreen, IWMPPlayer::get_fullScreen, IWMPPlayerget_fullScreen, get_fullScreen, get_fullScreen method [Windows Media Player], get_fullScreen method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_fullscreen, wmp/IWMPPlayer::get_fullScreen
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPPlayer.get_fullScreen
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPPlayer::get_fullScreen

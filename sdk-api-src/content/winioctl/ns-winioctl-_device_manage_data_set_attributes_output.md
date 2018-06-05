@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
+title: "_DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT"
+author: windows-sdk-content
+description: Output structure for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
+old-location: base\device_manage_data_set_attributes_output.htm
+old-project: DevIO
+ms.assetid: a3f03509-8be9-4cb4-b942-f5ab358bd70e
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*PDEVICE_DSM_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_DSM_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure, DeviceDsmAction_Allocation, DeviceDsmAction_Notification, DeviceDsmAction_OffloadRead, DeviceDsmAction_OffloadWrite, DeviceDsmAction_Repair, DeviceDsmAction_Resiliency, DeviceDsmAction_Scrub, DeviceDsmAction_Trim, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer, _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, base.device_manage_data_set_attributes_output, winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_DSM_OUTPUT, *PDEVICE_DSM_OUTPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure

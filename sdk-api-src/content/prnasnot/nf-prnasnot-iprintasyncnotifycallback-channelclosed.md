@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:prnasnot.IPrintAsyncNotifyCallback.ChannelClosed
+title: IPrintAsyncNotifyCallback::ChannelClosed
+author: windows-sdk-content
+description: Advises one member of a communication channel to notify the other member that the channel is being closed.
+old-location: gdi\iprintasyncnotifycallback_iprintasyncnotifycallback__channelclosed.htm
+old-project: printdocs
+ms.assetid: 245f4d86-a6b9-421a-add5-fb7afbbacb45
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: ChannelClosed, ChannelClosed method [Windows GDI], ChannelClosed method [Windows GDI],IPrintAsyncNotifyCallback interface, IPrintAsyncNotifyCallback interface [Windows GDI],ChannelClosed method, IPrintAsyncNotifyCallback.ChannelClosed, IPrintAsyncNotifyCallback::ChannelClosed, _win32_IPrintAsyncNotifyCallback_ChannelClosed, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__channelclosed, prnasnot/IPrintAsyncNotifyCallback::ChannelClosed
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: prnasnot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PrintAsyncNotifyUserFilter
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	prnasnot.dll
+api_name:
+-	IPrintAsyncNotifyCallback.ChannelClosed
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Prnasnot.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPrintAsyncNotifyCallback::ChannelClosed

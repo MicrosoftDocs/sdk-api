@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:fwpstypes.FWPS_DISCARD_MODULE0_
+title: FWPS_DISCARD_MODULE0_
+author: windows-sdk-content
+description: The FWPS_DISCARD_MODULE0 enumeration type specifies the type of module that discarded the data.Note  FWPS_DISCARD_MODULE0 is a specific version of FWPS_DISCARD_MODULE.
+old-location: netvista\fwps_discard_module0.htm
+old-project: netvista
+ms.assetid: d9237268-a5e1-4b1c-91f7-9e894876ca87
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: FWPS_DISCARD_MODULE0, FWPS_DISCARD_MODULE0 enumeration [Network Drivers Starting with Windows Vista], FWPS_DISCARD_MODULE0_, FWPS_DISCARD_MODULE_GENERAL, FWPS_DISCARD_MODULE_MAX, FWPS_DISCARD_MODULE_NETWORK, FWPS_DISCARD_MODULE_TRANSPORT, fwpstypes/FWPS_DISCARD_MODULE0, fwpstypes/FWPS_DISCARD_MODULE_GENERAL, fwpstypes/FWPS_DISCARD_MODULE_MAX, fwpstypes/FWPS_DISCARD_MODULE_NETWORK, fwpstypes/FWPS_DISCARD_MODULE_TRANSPORT, netvista.fwps_discard_module0, wfp_ref_4_enum_9cf37d53-bbf0-45ec-adc8-e690b4fd8aea.xml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fwpstypes.h
+req.include-header: Fwpsk.h
+req.target-type: Windows
+req.target-min-winverclnt: Supported starting with  Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWPS_DISCARD_MODULE0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	fwpstypes.h
+api_name:
+-	FWPS_DISCARD_MODULE0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FWPS_DISCARD_MODULE0_ enumeration

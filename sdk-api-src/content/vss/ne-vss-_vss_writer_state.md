@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vss._VSS_WRITER_STATE
+title: "_VSS_WRITER_STATE"
+author: windows-sdk-content
+description: Indicates the current state of the writer.
+old-location: base\vss_writer_state.htm
+old-project: VSS
+ms.assetid: 97aa20a3-4d58-49e8-83c0-fc33c700c410
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PVSS_WRITER_STATE, PVSS_WRITER_STATE, PVSS_WRITER_STATE enumeration pointer [VSS], VSS_WRITER_STATE, VSS_WRITER_STATE enumeration [VSS], VSS_WS_COUNT, VSS_WS_FAILED_AT_BACKUPSHUTDOWN, VSS_WS_FAILED_AT_BACKUP_COMPLETE, VSS_WS_FAILED_AT_FREEZE, VSS_WS_FAILED_AT_IDENTIFY, VSS_WS_FAILED_AT_POST_RESTORE, VSS_WS_FAILED_AT_POST_SNAPSHOT, VSS_WS_FAILED_AT_PREPARE_BACKUP, VSS_WS_FAILED_AT_PREPARE_SNAPSHOT, VSS_WS_FAILED_AT_PRE_RESTORE, VSS_WS_FAILED_AT_THAW, VSS_WS_STABLE, VSS_WS_UNKNOWN, VSS_WS_WAITING_FOR_BACKUP_COMPLETE, VSS_WS_WAITING_FOR_FREEZE, VSS_WS_WAITING_FOR_POST_SNAPSHOT, VSS_WS_WAITING_FOR_THAW, _VSS_WRITER_STATE, _win32_vss_writer_state, base.vss_writer_state, vss/PVSS_WRITER_STATE, vss/VSS_WRITER_STATE, vss/VSS_WS_COUNT, vss/VSS_WS_FAILED_AT_BACKUPSHUTDOWN, vss/VSS_WS_FAILED_AT_BACKUP_COMPLETE, vss/VSS_WS_FAILED_AT_FREEZE, vss/VSS_WS_FAILED_AT_IDENTIFY, vss/VSS_WS_FAILED_AT_POST_RESTORE, vss/VSS_WS_FAILED_AT_POST_SNAPSHOT, vss/VSS_WS_FAILED_AT_PREPARE_BACKUP, vss/VSS_WS_FAILED_AT_PREPARE_SNAPSHOT, vss/VSS_WS_FAILED_AT_PRE_RESTORE, vss/VSS_WS_FAILED_AT_THAW, vss/VSS_WS_STABLE, vss/VSS_WS_UNKNOWN, vss/VSS_WS_WAITING_FOR_BACKUP_COMPLETE, vss/VSS_WS_WAITING_FOR_FREEZE, vss/VSS_WS_WAITING_FOR_POST_SNAPSHOT, vss/VSS_WS_WAITING_FOR_THAW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vss.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITER_STATE, *PVSS_WRITER_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vss.h
+api_name:
+-	VSS_WRITER_STATE
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VSS_WRITER_STATE enumeration

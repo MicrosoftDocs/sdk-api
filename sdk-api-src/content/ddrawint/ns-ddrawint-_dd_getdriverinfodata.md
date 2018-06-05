@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_GETDRIVERINFODATA
+title: "_DD_GETDRIVERINFODATA"
+author: windows-sdk-content
+description: The DD_GETDRIVERINFODATA structure is used to pass data to and from the DdGetDriverInfo callback routine.
+old-location: display\dd_getdriverinfodata.htm
+old-project: display
+ms.assetid: 15a4e80d-2186-4683-a05f-405ca75044e5
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA structure [Display Devices], PDD_GETDRIVERINFODATA, PDD_GETDRIVERINFODATA structure pointer [Display Devices], _DD_GETDRIVERINFODATA, ddrawint/DD_GETDRIVERINFODATA, ddrawint/PDD_GETDRIVERINFODATA, ddstrcts_1c0cf063-699e-497d-8554-db34185a1668.xml, display.dd_getdriverinfodata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_GETDRIVERINFODATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_GETDRIVERINFODATA structure

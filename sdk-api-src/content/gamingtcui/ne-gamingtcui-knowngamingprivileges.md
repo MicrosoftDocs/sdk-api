@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:gamingtcui.KnownGamingPrivileges
+title: KnownGamingPrivileges
+author: windows-sdk-content
+description: Do not use. This API is only supported for Xbox developers.
+old-location: tcui\KnownGamingPrivileges.htm
+old-project: tcui
+ms.assetid: 250410B2-DE8B-4BFC-8613-AC574B45E7FE
+ms.author: windowssdkdev
+ms.date: 03/19/2018
+ms.keywords: KnownGamingPrivileges, KnownGamingPrivileges enumeration, XPRIVILEGE_ADD_FRIEND, XPRIVILEGE_BROADCAST, XPRIVILEGE_CLOUD_GAMING_JOIN_SESSION, XPRIVILEGE_CLOUD_GAMING_MANAGE_SESSION, XPRIVILEGE_CLOUD_SAVED_GAMES, XPRIVILEGE_COMMUNICATIONS, XPRIVILEGE_COMMUNICATION_VOICE_INGAME, XPRIVILEGE_COMMUNICATION_VOICE_SKYPE, XPRIVILEGE_GAME_DVR, XPRIVILEGE_MULTIPLAYER_PARTIES, XPRIVILEGE_MULTIPLAYER_SESSIONS, XPRIVILEGE_PREMIUM_CONTENT, XPRIVILEGE_PREMIUM_VIDEO, XPRIVILEGE_PROFILE_VIEWING, XPRIVILEGE_PURCHASE_CONTENT, XPRIVILEGE_SHARE_CONTENT, XPRIVILEGE_SHARE_KINECT_CONTENT, XPRIVILEGE_SOCIAL_NETWORK_SHARING, XPRIVILEGE_SUBSCRIPTION_CONTENT, XPRIVILEGE_USER_CREATED_CONTENT, XPRIVILEGE_VIDEO_COMMUNICATIONS, XPRIVILEGE_VIEW_FRIENDS_LIST, gamingtcui/KnownGamingPrivileges, gamingtcui/XPRIVILEGE_ADD_FRIEND, gamingtcui/XPRIVILEGE_BROADCAST, gamingtcui/XPRIVILEGE_CLOUD_GAMING_JOIN_SESSION, gamingtcui/XPRIVILEGE_CLOUD_GAMING_MANAGE_SESSION, gamingtcui/XPRIVILEGE_CLOUD_SAVED_GAMES, gamingtcui/XPRIVILEGE_COMMUNICATIONS, gamingtcui/XPRIVILEGE_COMMUNICATION_VOICE_INGAME, gamingtcui/XPRIVILEGE_COMMUNICATION_VOICE_SKYPE, gamingtcui/XPRIVILEGE_GAME_DVR, gamingtcui/XPRIVILEGE_MULTIPLAYER_PARTIES, gamingtcui/XPRIVILEGE_MULTIPLAYER_SESSIONS, gamingtcui/XPRIVILEGE_PREMIUM_CONTENT, gamingtcui/XPRIVILEGE_PREMIUM_VIDEO, gamingtcui/XPRIVILEGE_PROFILE_VIEWING, gamingtcui/XPRIVILEGE_PURCHASE_CONTENT, gamingtcui/XPRIVILEGE_SHARE_CONTENT, gamingtcui/XPRIVILEGE_SHARE_KINECT_CONTENT, gamingtcui/XPRIVILEGE_SOCIAL_NETWORK_SHARING, gamingtcui/XPRIVILEGE_SUBSCRIPTION_CONTENT, gamingtcui/XPRIVILEGE_USER_CREATED_CONTENT, gamingtcui/XPRIVILEGE_VIDEO_COMMUNICATIONS, gamingtcui/XPRIVILEGE_VIEW_FRIENDS_LIST, tcui.KnownGamingPrivileges
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: gamingtcui.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KnownGamingPrivileges
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	gamingtcui.h
+api_name:
+-	KnownGamingPrivileges
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # KnownGamingPrivileges enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl.USN_JOURNAL_DATA_V0
+title: USN_JOURNAL_DATA_V0
+author: windows-sdk-content
+description: Represents an update sequence number (USN) change journal, its records, and its capacity.
+old-location: fs\usn_journal_data_str.htm
+old-project: FileIO
+ms.assetid: 6b75eab2-aa10-4b48-8918-e4b03b5d8564
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PUSN_JOURNAL_DATA, *PUSN_JOURNAL_DATA_V0, PUSN_JOURNAL_DATA, PUSN_JOURNAL_DATA structure pointer [Files], PUSN_JOURNAL_DATA_V0, PUSN_JOURNAL_DATA_V0 structure pointer [Files], USN_JOURNAL_DATA, USN_JOURNAL_DATA structure [Files], USN_JOURNAL_DATA_V0, USN_JOURNAL_DATA_V0 structure [Files], _win32_usn_journal_data_str, base.usn_journal_data_str, fs.usn_journal_data_str, winioctl/PUSN_JOURNAL_DATA, winioctl/PUSN_JOURNAL_DATA_V0, winioctl/USN_JOURNAL_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USN_JOURNAL_DATA_V0, *PUSN_JOURNAL_DATA_V0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	USN_JOURNAL_DATA_V0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # USN_JOURNAL_DATA_V0 structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:gdipluspixelformats.DitherType
+title: DitherType
+author: windows-sdk-content
+description: The DitherType enumeration identifies the available algorithms for dithering when a bitmap is converted.
+old-location: gdiplus\_gdiplus_ENUM_DitherType.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\dithertype.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: DitherType, DitherType enumeration [GDI+], DitherTypeDualSpiral4x4, DitherTypeDualSpiral8x8, DitherTypeErrorDiffusion, DitherTypeNone, DitherTypeOrdered16x16, DitherTypeOrdered4x4, DitherTypeOrdered8x8, DitherTypeOrdered91x91, DitherTypeSolid, DitherTypeSpiral4x4, DitherTypeSpiral8x8, _gdiplus_ENUM_DitherType, gdiplus._gdiplus_ENUM_DitherType, gdipluspixelformats/DitherType, gdipluspixelformats/DitherTypeDualSpiral4x4, gdipluspixelformats/DitherTypeDualSpiral8x8, gdipluspixelformats/DitherTypeErrorDiffusion, gdipluspixelformats/DitherTypeNone, gdipluspixelformats/DitherTypeOrdered16x16, gdipluspixelformats/DitherTypeOrdered4x4, gdipluspixelformats/DitherTypeOrdered8x8, gdipluspixelformats/DitherTypeOrdered91x91, gdipluspixelformats/DitherTypeSolid, gdipluspixelformats/DitherTypeSpiral4x4, gdipluspixelformats/DitherTypeSpiral8x8
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: gdipluspixelformats.h
+req.include-header: Gdiplus.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	gdipluspixelformats.h
+api_name:
+-	DitherType
+product: Windows
+targetos: Windows
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # DitherType enumeration

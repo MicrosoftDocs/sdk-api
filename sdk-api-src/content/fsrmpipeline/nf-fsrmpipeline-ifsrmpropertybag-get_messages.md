@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmPropertyBag.get_Messages
+title: IFsrmPropertyBag::get_Messages
+author: windows-sdk-content
+description: A list of the error messages that have been added to the bag.
+old-location: fsrm\ifsrmpropertybag_messages.htm
+old-project: Fsrm
+ms.assetid: 3aa6bc28-03bb-40ea-8c56-94133c8eeb54
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],Messages property, IFsrmPropertyBag.Messages, IFsrmPropertyBag.get_Messages, IFsrmPropertyBag::Messages, IFsrmPropertyBag::get_Messages, Messages property [File Server Resource Manager], Messages property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_messages, fsrm.ifsrmpropertybag_messages, fsrmpipeline/IFsrmPropertyBag::Messages, fsrmpipeline/IFsrmPropertyBag::get_Messages, get_Messages
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmPropertyBag.Messages
+-	IFsrmPropertyBag.get_Messages
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmPropertyBag::get_Messages

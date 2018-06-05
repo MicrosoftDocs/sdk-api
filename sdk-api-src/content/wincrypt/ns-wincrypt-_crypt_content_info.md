@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_CONTENT_INFO
+title: "_CRYPT_CONTENT_INFO"
+author: windows-sdk-content
+description: Contains data encoded in the PKCS #7 ContentInfo data format.
+old-location: security\crypt_content_info.htm
+old-project: SecCrypto
+ms.assetid: 033de6e3-c860-4f41-902b-79f528f5736b
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_CONTENT_INFO, CRYPT_CONTENT_INFO, CRYPT_CONTENT_INFO structure [Security], PCRYPT_CONTENT_INFO, PCRYPT_CONTENT_INFO structure pointer [Security], _CRYPT_CONTENT_INFO, _crypto2_crypt_content_info, security.crypt_content_info, wincrypt/CRYPT_CONTENT_INFO, wincrypt/PCRYPT_CONTENT_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_CONTENT_INFO, *PCRYPT_CONTENT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRYPT_CONTENT_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_CONTENT_INFO structure

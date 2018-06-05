@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:evr9.__MIDL___MIDL_itf_evr9_0000_0002_0002
+title: "__MIDL___MIDL_itf_evr9_0000_0002_0002"
+author: windows-sdk-content
+description: Defines flags for the MFVideoAlphaBitmapParams structure.
+old-location: mf\mfvideoalphabitmapflags.htm
+old-project: medfound
+ms.assetid: d9989c44-8a3c-4f8b-a63d-e39e26797935
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFVideoAlphaBitmapFlags, MFVideoAlphaBitmapFlags enumeration [Media Foundation], MFVideoAlphaBitmap_Alpha, MFVideoAlphaBitmap_BitMask, MFVideoAlphaBitmap_DestRect, MFVideoAlphaBitmap_EntireDDS, MFVideoAlphaBitmap_FilterMode, MFVideoAlphaBitmap_SrcColorKey, MFVideoAlphaBitmap_SrcRect, __MIDL___MIDL_itf_evr9_0000_0002_0002, d9989c44-8a3c-4f8b-a63d-e39e26797935, evr9/MFVideoAlphaBitmapFlags, evr9/MFVideoAlphaBitmap_Alpha, evr9/MFVideoAlphaBitmap_BitMask, evr9/MFVideoAlphaBitmap_DestRect, evr9/MFVideoAlphaBitmap_EntireDDS, evr9/MFVideoAlphaBitmap_FilterMode, evr9/MFVideoAlphaBitmap_SrcColorKey, evr9/MFVideoAlphaBitmap_SrcRect, mf.mfvideoalphabitmapflags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: evr9.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoAlphaBitmapFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	evr9.h
+api_name:
+-	MFVideoAlphaBitmapFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # __MIDL___MIDL_itf_evr9_0000_0002_0002 enumeration

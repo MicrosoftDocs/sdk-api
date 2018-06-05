@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IAlternativeNames.get_Count
+title: IAlternativeNames::get_Count
+author: windows-sdk-content
+description: Retrieves the number of objects in the collection.
+old-location: security\ialternativenames_count_property.htm
+old-project: SecCertEnroll
+ms.assetid: ef7f588a-f877-4626-ada6-782db6202c65
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: Count property [Security], Count property [Security],IAlternativeNames interface, IAlternativeNames interface [Security],Count property, IAlternativeNames.Count, IAlternativeNames.get_Count, IAlternativeNames::Count, IAlternativeNames::get_Count, certenroll/IAlternativeNames::Count, certenroll/IAlternativeNames::get_Count, get_Count, security.ialternativenames_count_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IAlternativeNames.Count
+-	IAlternativeNames.get_Count
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IAlternativeNames::get_Count

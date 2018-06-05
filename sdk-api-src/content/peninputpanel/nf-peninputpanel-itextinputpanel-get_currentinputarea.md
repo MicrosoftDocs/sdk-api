@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:peninputpanel.ITextInputPanel.get_CurrentInputArea
+title: ITextInputPanel::get_CurrentInputArea
+author: windows-sdk-content
+description: Gets the current input area as specified by the PanelInputArea Enumeration.
+old-location: tablet\itextinputpanel_currentinputarea.htm
+old-project: tablet
+ms.assetid: 47ffdda4-bfe2-4ee0-bfda-cad73a346b1e
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 47ffdda4-bfe2-4ee0-bfda-cad73a346b1e, CurrentInputArea property [Tablet PC], CurrentInputArea property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CurrentInputArea property, ITextInputPanel.CurrentInputArea, ITextInputPanel.get_CurrentInputArea, ITextInputPanel::CurrentInputArea, ITextInputPanel::get_CurrentInputArea, get_CurrentInputArea, peninputpanel/ITextInputPanel::CurrentInputArea, peninputpanel/ITextInputPanel::get_CurrentInputArea, tablet.itextinputpanel_currentinputarea
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: peninputpanel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EventMask
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tiptsf.dll
+api_name:
+-	ITextInputPanel.CurrentInputArea
+-	ITextInputPanel.get_CurrentInputArea
+-	ITextInputPanel.get_CurrentInputArea
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITextInputPanel::get_CurrentInputArea

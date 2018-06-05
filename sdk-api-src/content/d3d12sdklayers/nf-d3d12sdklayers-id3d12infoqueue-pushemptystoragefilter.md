@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d12sdklayers.ID3D12InfoQueue.PushEmptyStorageFilter
+title: ID3D12InfoQueue::PushEmptyStorageFilter
+author: windows-sdk-content
+description: Push an empty storage filter onto the storage-filter stack.
+old-location: direct3d12\id3d12infoqueue_pushemptystoragefilter.htm
+old-project: direct3d12
+ms.assetid: 27D7B243-934E-440F-8571-914D7EAF355E
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: ID3D12InfoQueue interface,PushEmptyStorageFilter method, ID3D12InfoQueue.PushEmptyStorageFilter, ID3D12InfoQueue::PushEmptyStorageFilter, PushEmptyStorageFilter, PushEmptyStorageFilter method, PushEmptyStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushEmptyStorageFilter, direct3d12.id3d12infoqueue_pushemptystoragefilter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d12sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_RLDO_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12sdklayers.h
+api_name:
+-	ID3D12InfoQueue.PushEmptyStorageFilter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D12InfoQueue::PushEmptyStorageFilter

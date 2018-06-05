@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntdsapi.DsReplicaSyncAllW
+title: DsReplicaSyncAllW function
+author: windows-sdk-content
+description: Synchronizes a server with all other servers, using transitive replication, as necessary.
+old-location: ad\dsreplicasyncall.htm
+old-project: AD
+ms.assetid: 2608adde-4f18-4048-a96f-d736ff09cd4b
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_REPSYNCALL_ABORT_IF_SERVER_UNAVAILABLE, DS_REPSYNCALL_CROSS_SITE_BOUNDARIES, DS_REPSYNCALL_DO_NOT_SYNC, DS_REPSYNCALL_ID_SERVERS_BY_DN, DS_REPSYNCALL_NO_OPTIONS, DS_REPSYNCALL_PUSH_CHANGES_OUTWARD, DS_REPSYNCALL_SKIP_INITIAL_CHECK, DS_REPSYNCALL_SYNC_ADJACENT_SERVERS_ONLY, DsReplicaSyncAll, DsReplicaSyncAll function [Active Directory], DsReplicaSyncAllA, DsReplicaSyncAllW, ad.dsreplicasyncall, ntdsapi/DsReplicaSyncAll, ntdsapi/DsReplicaSyncAllA, ntdsapi/DsReplicaSyncAllW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DsReplicaSyncAllW (Unicode) and DsReplicaSyncAllA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_REPL_OP_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdsapi.dll
+api_name:
+-	DsReplicaSyncAll
+-	DsReplicaSyncAllA
+-	DsReplicaSyncAllW
+product: Windows
+targetos: Windows
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DsReplicaSyncAllW function

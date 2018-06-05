@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:evntprov.EventWriteTransfer
+title: EventWriteTransfer function
+author: windows-sdk-content
+description: Links events together when tracing events in an end-to-end scenario.
+old-location: etw\eventwritetransfer_func.htm
+old-project: ETW
+ms.assetid: 798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: EventWriteTransfer, EventWriteTransfer function [ETW], base.eventwritetransfer_func, etw.eventwritetransfer_func, evntprov/EventWriteTransfer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: evntprov.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVENT_INFO_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+-	API-MS-Win-eventing-provider-l1-1-0.dll
+-	API-MS-Win-Eventing-Provider-L1-1-1.dll
+api_name:
+-	EventWriteTransfer
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # EventWriteTransfer function

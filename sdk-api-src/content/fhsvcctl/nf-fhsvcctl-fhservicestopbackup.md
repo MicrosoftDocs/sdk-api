@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fhsvcctl.FhServiceStopBackup
+title: FhServiceStopBackup function
+author: windows-sdk-content
+description: This function stops an ongoing backup cycle for the current user.
+old-location: winprog\fhservicestopbackup.htm
+old-project: DevNotes
+ms.assetid: 17FCD464-2543-454A-B60E-E37EDF61C595
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: FhServiceStopBackup, FhServiceStopBackup function [Windows API], fhsvcctl/FhServiceStopBackup, winprog.fhservicestopbackup
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fhsvcctl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	FhSvcCtl.lib
+-	FhSvcCtl.dll
+api_name:
+-	FhServiceStopBackup
+product: Windows
+targetos: Windows
+req.lib: FhSvcCtl.lib
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FhServiceStopBackup function

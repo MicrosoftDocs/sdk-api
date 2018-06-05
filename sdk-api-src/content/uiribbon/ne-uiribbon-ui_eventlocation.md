@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uiribbon.UI_EVENTLOCATION
+title: UI_EVENTLOCATION
+author: windows-sdk-content
+description: Identifies the locations where events associated with a Ribbon control can originate.
+old-location: windowsribbon\ui_eventlocation.htm
+old-project: windowsribbon
+ms.assetid: EA278262-8CA7-42A3-9F66-0C7B4D3AA525
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: UI_EVENTLOCATION, UI_EVENTLOCATION enumeration [Windows Ribbon], UI_EVENTLOCATION_ApplicationMenu, UI_EVENTLOCATION_ContextPopup, UI_EVENTLOCATION_QAT, UI_EVENTLOCATION_Ribbon, uiribbon/UI_EVENTLOCATION, uiribbon/UI_EVENTLOCATION_ApplicationMenu, uiribbon/UI_EVENTLOCATION_ContextPopup, uiribbon/UI_EVENTLOCATION_QAT, uiribbon/UI_EVENTLOCATION_Ribbon, windowsribbon.ui_eventlocation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uiribbon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Uiribbon.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTLOCATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Uiribbon.h
+api_name:
+-	UI_EVENTLOCATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # UI_EVENTLOCATION enumeration

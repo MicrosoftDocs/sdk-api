@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:textstor.IAnchor.ShiftRegion
+title: IAnchor::ShiftRegion
+author: windows-sdk-content
+description: IAnchor::ShiftRegion method
+old-location: tsf\ianchor_shiftregion.htm
+old-project: TSF
+ms.assetid: f24f0155-fab6-46fb-9bff-598cd25e17ea
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: FALSE, IAnchor interface [Text Services Framework],ShiftRegion method, IAnchor.ShiftRegion, IAnchor::ShiftRegion, ShiftRegion, ShiftRegion method [Text Services Framework], ShiftRegion method [Text Services Framework],IAnchor interface, TRUE, TS_SD_BACKWARD, TS_SD_FORWARD, TS_SHIFT_COUNT_HIDDEN, TS_SHIFT_COUNT_ONLY, textstor/IAnchor::ShiftRegion, tsf.ianchor_shiftregion
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: textstor.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Textstor.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TsRunType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	IAnchor.ShiftRegion
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IAnchor::ShiftRegion

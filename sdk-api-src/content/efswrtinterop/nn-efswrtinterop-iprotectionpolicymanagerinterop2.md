@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:efswrtinterop.IProtectionPolicyManagerInterop2
+title: IProtectionPolicyManagerInterop2
+author: windows-sdk-content
+description: Manages enterprise protection policy on protected content.
+old-location: edp\iprotectionpolicymanagerinterop2.htm
+old-project: EDP
+ms.assetid: B4B5BD4B-8F5F-4C1A-902E-5FB7FF75616B
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: EDP.iprotectionpolicymanagerinterop2, IProtectionPolicyManagerInterop2, IProtectionPolicyManagerInterop2 interface, IProtectionPolicyManagerInterop2 interface,described, efswrtinterop/IProtectionPolicyManagerInterop2 interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: efswrtinterop.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TimedLevel
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	efswrtinterop.h
+api_name:
+-	IProtectionPolicyManagerInterop2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Efswrt.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IProtectionPolicyManagerInterop2 interface

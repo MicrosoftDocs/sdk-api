@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:wincrypt.PFN_CERT_STORE_PROV_READ_CRL
+title: PFN_CERT_STORE_PROV_READ_CRL
+author: windows-sdk-content
+description: An application-defined callback function that reads the provider's copy of the CRL context.
+old-location: security\certstoreprovreadcrlcallback.htm
+old-project: SecCrypto
+ms.assetid: 9644c200-1b55-4287-8d98-27b5a8d38c90
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CertStoreProvReadCRLCallback, CertStoreProvReadCRLCallback callback, CertStoreProvReadCRLCallback callback function [Security], PFN_CERT_STORE_PROV_READ_CRL, PFN_CERT_STORE_PROV_READ_CRL callback function [Security], _crypto2_certstoreprovreadcrlcallback, security.certstoreprovreadcrlcallback, wincrypt/CertStoreProvReadCRLCallback, wincrypt/PFN_CERT_STORE_PROV_READ_CRL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Wincrypt.h
+api_name:
+-	CertStoreProvReadCRLCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PFN_CERT_STORE_PROV_READ_CRL callback function

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imapi2.IWriteEngine2EventArgs.get_TotalSystemBuffer
+title: IWriteEngine2EventArgs::get_TotalSystemBuffer
+author: windows-sdk-content
+description: Retrieves the size of the internal data buffer that is used for writing to disc.
+old-location: imapi\iwriteengine2eventargs_get_totalsystembuffer.htm
+old-project: imapi
+ms.assetid: dfdf4116-0402-4c90-8b9b-0758fd0bb973
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_TotalSystemBuffer method, IWriteEngine2EventArgs.get_TotalSystemBuffer, IWriteEngine2EventArgs::get_TotalSystemBuffer, get_TotalSystemBuffer, get_TotalSystemBuffer method [IMAPI], get_TotalSystemBuffer method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_totalsystembuffer, imapi2/IWriteEngine2EventArgs::get_TotalSystemBuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2.h
+api_name:
+-	IWriteEngine2EventArgs.get_TotalSystemBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IWriteEngine2EventArgs::get_TotalSystemBuffer

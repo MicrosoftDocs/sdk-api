@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_SignalStatistics.put_SignalPresent
+title: IBDA_SignalStatistics::put_SignalPresent
+author: windows-sdk-content
+description: The put_SignalPresent method specifies whether a signal is present.
+old-location: mstv\ibda_signalstatistics_put_signalpresent.htm
+old-project: mstv
+ms.assetid: 9d27dd06-a180-4ee6-bb52-34a8f434ab6a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],put_SignalPresent method, IBDA_SignalStatistics.put_SignalPresent, IBDA_SignalStatistics::put_SignalPresent, IBDA_SignalStatisticsput_SignalPresent, bdaiface/IBDA_SignalStatistics::put_SignalPresent, mstv.ibda_signalstatistics_put_signalpresent, put_SignalPresent, put_SignalPresent method [Microsoft TV Technologies], put_SignalPresent method [Microsoft TV Technologies],IBDA_SignalStatistics interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_SignalStatistics.put_SignalPresent
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_SignalStatistics::put_SignalPresent

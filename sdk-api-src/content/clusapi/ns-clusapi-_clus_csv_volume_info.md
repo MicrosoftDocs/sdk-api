@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clusapi._CLUS_CSV_VOLUME_INFO
+title: "_CLUS_CSV_VOLUME_INFO"
+author: windows-sdk-content
+description: Represents information about a cluster shared volume (CSV).
+old-location: mscs\clus_csv_volume_info.htm
+old-project: MsCS
+ms.assetid: C672B42B-0DB9-4E70-8157-15C3189102EF
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCLUS_CSV_VOLUME_INFO, CLUS_CSV_VOLUME_INFO, CLUS_CSV_VOLUME_INFO structure [Failover Cluster], PCLUS_CSV_VOLUME_INFO, PCLUS_CSV_VOLUME_INFO structure pointer [Failover Cluster], _CLUS_CSV_VOLUME_INFO, clusapi/CLUS_CSV_VOLUME_INFO, clusapi/PCLUS_CSV_VOLUME_INFO, mscs.clus_csv_volume_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUS_CSV_VOLUME_INFO, *PCLUS_CSV_VOLUME_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+api_name:
+-	CLUS_CSV_VOLUME_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CLUS_CSV_VOLUME_INFO structure

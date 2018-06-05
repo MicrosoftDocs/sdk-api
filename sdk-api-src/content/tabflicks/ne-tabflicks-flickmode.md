@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tabflicks.FLICKMODE
+title: FLICKMODE
+author: windows-sdk-content
+description: Describes where Flick gestures are enabled.
+old-location: tablet\flickmode.htm
+old-project: tablet
+ms.assetid: d8e015dc-033c-47a6-b4fd-6ef3b014e505
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: FLICKMODE, FLICKMODE enumeration [Tablet PC], FLICKMODE_OFF, FLICKMODE_ON, d8e015dc-033c-47a6-b4fd-6ef3b014e505, tabflicks/FLICKMODE, tabflicks/FLICKMODE_OFF, tabflicks/FLICKMODE_ON, tablet.flickmode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tabflicks.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FLICKMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tabflicks.h
+api_name:
+-	FLICKMODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # FLICKMODE enumeration

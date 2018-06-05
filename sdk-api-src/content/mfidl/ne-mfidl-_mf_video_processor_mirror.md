@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl._MF_VIDEO_PROCESSOR_MIRROR
+title: "_MF_VIDEO_PROCESSOR_MIRROR"
+author: windows-sdk-content
+description: Specifies how to flip a video image.
+old-location: mf\mf_video_processor_mirror.htm
+old-project: medfound
+ms.assetid: AFD29AD7-8DC9-4834-8F8E-D062A3A19BD0
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_VIDEO_PROCESSOR_MIRROR, MF_VIDEO_PROCESSOR_MIRROR enumeration [Media Foundation], MIRROR_HORIZONTAL, MIRROR_NONE, MIRROR_VERTICAL, _MF_VIDEO_PROCESSOR_MIRROR, mf.mf_video_processor_mirror, mfidl/MF_VIDEO_PROCESSOR_MIRROR, mfidl/MIRROR_HORIZONTAL, mfidl/MIRROR_NONE, mfidl/MIRROR_VERTICAL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_VIDEO_PROCESSOR_MIRROR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MF_VIDEO_PROCESSOR_MIRROR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MF_VIDEO_PROCESSOR_MIRROR enumeration

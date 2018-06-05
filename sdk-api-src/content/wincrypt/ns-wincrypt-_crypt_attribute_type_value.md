@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_ATTRIBUTE_TYPE_VALUE
+title: "_CRYPT_ATTRIBUTE_TYPE_VALUE"
+author: windows-sdk-content
+description: Contains a single attribute value. The Value member's CRYPT_OBJID_BLOB is encoded.
+old-location: security\crypt_attribute_type_value.htm
+old-project: SecCrypto
+ms.assetid: 84057581-d0a9-464a-9399-ba806e37516f
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_ATTRIBUTE_TYPE_VALUE, CRYPT_ATTRIBUTE_TYPE_VALUE, CRYPT_ATTRIBUTE_TYPE_VALUE structure [Security], PCRYPT_ATTRIBUTE_TYPE_VALUE, PCRYPT_ATTRIBUTE_TYPE_VALUE structure pointer [Security], _CRYPT_ATTRIBUTE_TYPE_VALUE, _crypto2_crypt_attribute_type_value, security.crypt_attribute_type_value, wincrypt/CRYPT_ATTRIBUTE_TYPE_VALUE, wincrypt/PCRYPT_ATTRIBUTE_TYPE_VALUE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_ATTRIBUTE_TYPE_VALUE, *PCRYPT_ATTRIBUTE_TYPE_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRYPT_ATTRIBUTE_TYPE_VALUE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_ATTRIBUTE_TYPE_VALUE structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfCompositionSink.OnCompositionTerminated
+title: ITfCompositionSink::OnCompositionTerminated
+author: windows-sdk-content
+description: ITfCompositionSink::OnCompositionTerminated method
+old-location: tsf\itfcompositionsink_oncompositionterminated.htm
+old-project: TSF
+ms.assetid: 4b7c3993-6d01-492f-9bb5-241a1cbd4b63
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITfCompositionSink interface [Text Services Framework],OnCompositionTerminated method, ITfCompositionSink.OnCompositionTerminated, ITfCompositionSink::OnCompositionTerminated, OnCompositionTerminated, OnCompositionTerminated method [Text Services Framework], OnCompositionTerminated method [Text Services Framework],ITfCompositionSink interface, _tsf_itfcompositionsink_oncompositionterminated_ref, msctf/ITfCompositionSink::OnCompositionTerminated, tsf.itfcompositionsink_oncompositionterminated
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imekrcic.dll
+api_name:
+-	ITfCompositionSink.OnCompositionTerminated
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Imekrcic.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfCompositionSink::OnCompositionTerminated

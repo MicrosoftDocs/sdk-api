@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rend.ITDirectoryObjectUser.put_IPPhonePrimary
+title: ITDirectoryObjectUser::put_IPPhonePrimary
+author: windows-sdk-content
+description: The put_IPPhonePrimary method sets the name of a machine as the primary IP phone for a user.
+old-location: tapi3\itdirectoryobjectuser_put_ipphoneprimary.htm
+old-project: Tapi
+ms.assetid: ba53ea12-7f05-4f68-8a59-915a5906b7be
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITDirectoryObjectUser interface [TAPI 2.2],put_IPPhonePrimary method, ITDirectoryObjectUser.put_IPPhonePrimary, ITDirectoryObjectUser::put_IPPhonePrimary, _tapi3_itdirectoryobjectuser_put_ipphoneprimary, put_IPPhonePrimary, put_IPPhonePrimary method [TAPI 2.2], put_IPPhonePrimary method [TAPI 2.2],ITDirectoryObjectUser interface, rend/ITDirectoryObjectUser::put_IPPhonePrimary, tapi3.itdirectoryobjectuser_put_ipphoneprimary
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rend.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rend.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RND_ADVERTISING_SCOPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Rend.dll
+api_name:
+-	ITDirectoryObjectUser.put_IPPhonePrimary
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITDirectoryObjectUser::put_IPPhonePrimary

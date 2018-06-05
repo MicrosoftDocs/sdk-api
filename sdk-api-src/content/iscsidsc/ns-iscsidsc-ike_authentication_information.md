@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iscsidsc.IKE_AUTHENTICATION_INFORMATION
+title: IKE_AUTHENTICATION_INFORMATION
+author: windows-sdk-content
+description: IKE_AUTHENTICATION_INFORMATION structure contains Internet Key Exchange (IKE) authentication information used to establish a secure channel between two key management daemons.
+old-location: iscsidisc\ike_authentication_information.htm
+old-project: iSCSIDisc
+ms.assetid: d61036f5-a5e8-4c1a-8f99-57fe8e5c5bd0
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: "*PIKE_AUTHENTICATION_INFORMATION, IKE_AUTHENTICATION_INFORMATION, IKE_AUTHENTICATION_INFORMATION structure [iSCSI Discovery Library API], PIKE_AUTHENTICATION_INFORMATION, PIKE_AUTHENTICATION_INFORMATION structure pointer [iSCSI Discovery Library API], iscsidisc.ike_authentication_information, iscsidsc/IKE_AUTHENTICATION_INFORMATION, iscsidsc/PIKE_AUTHENTICATION_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IKE_AUTHENTICATION_INFORMATION, *PIKE_AUTHENTICATION_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iscsidsc.h
+api_name:
+-	IKE_AUTHENTICATION_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IKE_AUTHENTICATION_INFORMATION structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:sdoias._IASDATASTORE
+title: "_IASDATASTORE"
+author: windows-sdk-content
+description: The values of the IASDATASTORE enumeration indicate the possible storage locations for SDO data.
+old-location: nps\SDO_iasdatastore.htm
+old-project: Nps
+ms.assetid: 1eec69f9-b82e-48e5-a471-0a0626d91957
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PIASDATASTORE, DATA_STORE_DIRECTORY, DATA_STORE_LOCAL, IASDATASTORE, IASDATASTORE enumeration [Network Policy Server], PIASDATASTORE, PIASDATASTORE enumeration pointer [Network Policy Server], _IASDATASTORE, _sdo_iasdatastore, nps.SDO_iasdatastore, sdo.iasdatastore, sdoias/DATA_STORE_DIRECTORY, sdoias/DATA_STORE_LOCAL, sdoias/IASDATASTORE, sdoias/PIASDATASTORE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: sdoias.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IASDATASTORE, *PIASDATASTORE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	SdoIas.h
+api_name:
+-	IASDATASTORE
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _IASDATASTORE enumeration

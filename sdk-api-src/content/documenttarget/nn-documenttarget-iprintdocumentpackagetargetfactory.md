@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:documenttarget.IPrintDocumentPackageTargetFactory
+title: IPrintDocumentPackageTargetFactory
+author: windows-sdk-content
+description: Used with IPrintDocumentPackageTarget for starting a print job.
+old-location: xps\iprintdocumentpackagetargetfactory.htm
+old-project: printdocs
+ms.assetid: 631FBF5E-1DDF-49A9-8E1E-201BC6996EA5
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: IPrintDocumentPackageTargetFactory, IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging], IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageTargetFactory, xps.iprintdocumentpackagetargetfactory
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: documenttarget.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PrintDocumentPackageCompletion
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	documenttarget.h
+api_name:
+-	IPrintDocumentPackageTargetFactory
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IPrintDocumentPackageTargetFactory interface

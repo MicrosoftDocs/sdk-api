@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:ntsecpkg.LSA_AP_INITIALIZE_PACKAGE
+title: LSA_AP_INITIALIZE_PACKAGE
+author: windows-sdk-content
+description: Called once by the Local Security Authority (LSA) during system initialization to provide the authentication package a chance to initialize itself.
+old-location: security\lsaapinitializepackage.htm
+old-project: SecAuthN
+ms.assetid: 1fed5a5e-5dc1-4b59-aa28-bd1395a27742
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: LSA_AP_INITIALIZE_PACKAGE, LsaApInitializePackage, LsaApInitializePackage function [Security], _lsa_lsaapinitializepackage, ntsecpkg/LsaApInitializePackage, security.lsaapinitializepackage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ntsecpkg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTED_POSIX_OFFSET_INFO, *PTRUSTED_POSIX_OFFSET_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Ntsecpkg.h
+api_name:
+-	LsaApInitializePackage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LSA_AP_INITIALIZE_PACKAGE callback function

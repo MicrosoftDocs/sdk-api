@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12.D3D12_COMPARISON_FUNC
+title: D3D12_COMPARISON_FUNC
+author: windows-sdk-content
+description: Specifies comparison options.
+old-location: direct3d12\d3d12_comparison_func.htm
+old-project: direct3d12
+ms.assetid: 68223746-59B3-4FDD-B7EF-44557F1C46E3
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_COMPARISON_FUNC, D3D12_COMPARISON_FUNC enumeration, D3D12_COMPARISON_FUNC_ALWAYS, D3D12_COMPARISON_FUNC_EQUAL, D3D12_COMPARISON_FUNC_GREATER, D3D12_COMPARISON_FUNC_GREATER_EQUAL, D3D12_COMPARISON_FUNC_LESS, D3D12_COMPARISON_FUNC_LESS_EQUAL, D3D12_COMPARISON_FUNC_NEVER, D3D12_COMPARISON_FUNC_NOT_EQUAL, d3d12/D3D12_COMPARISON_FUNC, d3d12/D3D12_COMPARISON_FUNC_ALWAYS, d3d12/D3D12_COMPARISON_FUNC_EQUAL, d3d12/D3D12_COMPARISON_FUNC_GREATER, d3d12/D3D12_COMPARISON_FUNC_GREATER_EQUAL, d3d12/D3D12_COMPARISON_FUNC_LESS, d3d12/D3D12_COMPARISON_FUNC_LESS_EQUAL, d3d12/D3D12_COMPARISON_FUNC_NEVER, d3d12/D3D12_COMPARISON_FUNC_NOT_EQUAL, direct3d12.d3d12_comparison_func
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_COMPARISON_FUNC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D12.h
+api_name:
+-	D3D12_COMPARISON_FUNC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_COMPARISON_FUNC enumeration

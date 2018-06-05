@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.IFilterGraph3.SetSyncSourceEx
+title: IFilterGraph3::SetSyncSourceEx
+author: windows-sdk-content
+description: The SetSyncSourceEx method establishes two reference clocks for the filter graph:\_a primary clock that is used by most of the filters, and a secondary clock that is used only by one specified filter.
+old-location: dshow\ifiltergraph3_setsyncsourceex.htm
+old-project: DirectShow
+ms.assetid: 153a0584-d613-499d-8dbb-c4207c7f60b3
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IFilterGraph3 interface [DirectShow],SetSyncSourceEx method, IFilterGraph3.SetSyncSourceEx, IFilterGraph3::SetSyncSourceEx, IFilterGraph3SetSyncSourceEx, SetSyncSourceEx, SetSyncSourceEx method [DirectShow], SetSyncSourceEx method [DirectShow],IFilterGraph3 interface, dshow.ifiltergraph3_setsyncsourceex, strmif/IFilterGraph3::SetSyncSourceEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IFilterGraph3.SetSyncSourceEx
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IFilterGraph3::SetSyncSourceEx

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:wsman.WSMAN_PLUGIN_COMMAND
+title: WSMAN_PLUGIN_COMMAND
+author: windows-sdk-content
+description: Defines the command callback for a plug-in.
+old-location: winrm\wsman_plugin_command.htm
+old-project: WinRM
+ms.assetid: df4b4e7b-cf30-4eb0-b646-49b17c883a16
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: WSMAN_PLUGIN_COMMAND, WSMAN_PLUGIN_COMMAND callback, WSMAN_PLUGIN_COMMAND callback function [Windows Remote Management], WSManPluginCommand, winrm.wsman_plugin_command, wsman/WSMAN_PLUGIN_COMMAND
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: wsman.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSL_DISTRIBUTION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Wsman.h
+api_name:
+-	WSMAN_PLUGIN_COMMAND
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WSMAN_PLUGIN_COMMAND callback function

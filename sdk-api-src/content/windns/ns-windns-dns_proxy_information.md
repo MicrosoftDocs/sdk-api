@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:windns.DNS_PROXY_INFORMATION
+title: DNS_PROXY_INFORMATION
+author: windows-sdk-content
+description: Contains the proxy information for a DNS server's name resolution policy table.
+old-location: dns\dns_proxy_information.htm
+old-project: DNS
+ms.assetid: cfe7653f-7e68-4e50-ba67-bd441f837ef8
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: DNS_PROXY_INFORMATION, DNS_PROXY_INFORMATION structure [DNS], PDNS_PROXY_INFORMATION, PDNS_PROXY_INFORMATION structure pointer [DNS], dns.dns_proxy_information, windns/DNS_PROXY_INFORMATION, windns/PDNS_PROXY_INFORMATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: windns.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DNS_PROXY_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Windns.h
+api_name:
+-	DNS_PROXY_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DNS_PROXY_INFORMATION structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:asyncinfo.IAsyncInfo.get_ErrorCode
+title: IAsyncInfo::get_ErrorCode
+author: windows-sdk-content
+description: Retrieves the termination status of the asynchronous operation.
+old-location: winrt\iasyncinfo_errorcode.htm
+old-project: WinRT
+ms.assetid: 1de13cb9-3f1f-44b5-984f-8e7ccb31cec9
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: ErrorCode property [Windows Runtime], ErrorCode property [Windows Runtime],IAsyncInfo interface, IAsyncInfo interface [Windows Runtime],ErrorCode property, IAsyncInfo.ErrorCode, IAsyncInfo.get_ErrorCode, IAsyncInfo::ErrorCode, IAsyncInfo::get_ErrorCode, asyncinfo/IAsyncInfo::ErrorCode, asyncinfo/IAsyncInfo::get_ErrorCode, get_ErrorCode, winrt.iasyncinfo_errorcode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: asyncinfo.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: AsyncInfo.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AsyncStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	AsyncInfo.h
+api_name:
+-	IAsyncInfo.ErrorCode
+-	IAsyncInfo.get_ErrorCode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAsyncInfo::get_ErrorCode

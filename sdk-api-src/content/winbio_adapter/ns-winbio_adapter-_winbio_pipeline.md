@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbio_adapter._WINBIO_PIPELINE
+title: "_WINBIO_PIPELINE"
+author: windows-sdk-content
+description: Contains shared context information used by the sensor, engine, and storage adapter components in a single biometric unit.
+old-location: secbiomet\winbio_pipeline.htm
+old-project: SecBioMet
+ms.assetid: b5fc2b14-b0b6-4327-a42a-ecae41c3e12a
+ms.author: windowssdkdev
+ms.date: 04/24/2018
+ms.keywords: "*PWINBIO_PIPELINE, PWINBIO_PIPELINE, PWINBIO_PIPELINE structure pointer [Windows Biometric Framework API], WINBIO_PIPELINE, WINBIO_PIPELINE structure [Windows Biometric Framework API], _WINBIO_PIPELINE, secbiomet.winbio_pipeline, winbio_adapter/PWINBIO_PIPELINE, winbio_adapter/WINBIO_PIPELINE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbio_adapter.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINBIO_PIPELINE, *PWINBIO_PIPELINE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winbio_adapter.h
+api_name:
+-	WINBIO_PIPELINE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WINBIO_PIPELINE structure

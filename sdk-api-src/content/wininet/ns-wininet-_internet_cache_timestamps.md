@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wininet._INTERNET_CACHE_TIMESTAMPS
+title: "_INTERNET_CACHE_TIMESTAMPS"
+author: windows-sdk-content
+description: Contains the LastModified and Expire times for a resource stored in the Internet cache.
+old-location: wininet\internet_cache_timestamps.htm
+old-project: WinInet
+ms.assetid: e0fc2d73-95b9-4466-8a80-ca3211fc58e1
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPINTERNET_CACHE_TIMESTAMPS, INTERNET_CACHE_TIMESTAMPS, INTERNET_CACHE_TIMESTAMPS structure [WinINet], LPINTERNET_CACHE_TIMESTAMPS, LPINTERNET_CACHE_TIMESTAMPS structure pointer [WinINet], _INTERNET_CACHE_TIMESTAMPS, _inet_internet_cache_timestamps_structure, wininet.internet_cache_timestamps, wininet/INTERNET_CACHE_TIMESTAMPS, wininet/LPINTERNET_CACHE_TIMESTAMPS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wininet.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INTERNET_CACHE_TIMESTAMPS, *LPINTERNET_CACHE_TIMESTAMPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wininet.h
+api_name:
+-	INTERNET_CACHE_TIMESTAMPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _INTERNET_CACHE_TIMESTAMPS structure

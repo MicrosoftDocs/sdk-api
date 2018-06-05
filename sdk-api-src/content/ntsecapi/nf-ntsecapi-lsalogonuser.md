@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntsecapi.LsaLogonUser
+title: LsaLogonUser function
+author: windows-sdk-content
+description: Authenticates a security principal's logon data by using stored credentials information.
+old-location: security\lsalogonuser.htm
+old-project: SecAuthN
+ms.assetid: 75968d53-5af2-4d77-9486-26403b73c954
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: KERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_UNLOCK_LOGON, KERB_INTERACTIVE_LOGON, KERB_S4U_LOGON, KERB_SMARTCARD_LOGON, KERB_SMARTCARD_UNLOCK_LOGON, KERB_TICKET_LOGON, KERB_TICKET_PROFILE, KERB_TICKET_UNLOCK_LOGON, LsaLogonUser, LsaLogonUser function [Security], MSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_PROFILE, MSV1_0_LM20_LOGON, MSV1_0_LM20_LOGON_PROFILE, MSV1_0_SUBAUTH_LOGON, STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsalogonuser, ntsecapi/LsaLogonUser, security.lsalogonuser
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Secur32.dll
+api_name:
+-	LsaLogonUser
+product: Windows
+targetos: Windows
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LsaLogonUser function

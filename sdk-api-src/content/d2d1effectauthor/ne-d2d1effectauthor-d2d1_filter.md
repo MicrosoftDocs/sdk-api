@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d2d1effectauthor.D2D1_FILTER
+title: D2D1_FILTER
+author: windows-sdk-content
+description: Represents filtering modes that a transform may select to use on input textures.
+old-location: direct2d\d2d1_filter.htm
+old-project: Direct2D
+ms.assetid: cd978d3c-ae41-4321-95dd-46b186acf002
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_FILTER, D2D1_FILTER enumeration [Direct2D], D2D1_FILTER_ANISOTROPIC, D2D1_FILTER_MIN_LINEAR_MAG_MIP_POINT, D2D1_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D2D1_FILTER_MIN_MAG_LINEAR_MIP_POINT, D2D1_FILTER_MIN_MAG_MIP_LINEAR, D2D1_FILTER_MIN_MAG_MIP_POINT, D2D1_FILTER_MIN_MAG_POINT_MIP_LINEAR, D2D1_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT, D2D1_FILTER_MIN_POINT_MAG_MIP_LINEAR, d2d1effectauthor/D2D1_FILTER, d2d1effectauthor/D2D1_FILTER_ANISOTROPIC, d2d1effectauthor/D2D1_FILTER_MIN_LINEAR_MAG_MIP_POINT, d2d1effectauthor/D2D1_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR, d2d1effectauthor/D2D1_FILTER_MIN_MAG_LINEAR_MIP_POINT, d2d1effectauthor/D2D1_FILTER_MIN_MAG_MIP_LINEAR, d2d1effectauthor/D2D1_FILTER_MIN_MAG_MIP_POINT, d2d1effectauthor/D2D1_FILTER_MIN_MAG_POINT_MIP_LINEAR, d2d1effectauthor/D2D1_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT, d2d1effectauthor/D2D1_FILTER_MIN_POINT_MAG_MIP_LINEAR, direct2d.d2d1_filter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1effectauthor.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: D2d1.lib; D2d1.dll
+tech.root: 
+req.typenames: D2D1_FILTER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	D2d1.lib
+-	D2d1.dll
+api_name:
+-	D2D1_FILTER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D2D1_FILTER enumeration

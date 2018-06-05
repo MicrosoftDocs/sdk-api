@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:setupapi.SetupDiSetDeviceInterfacePropertyW
+title: SetupDiSetDeviceInterfacePropertyW function
+author: windows-sdk-content
+description: The SetupDiSetDeviceInterfaceProperty function sets a device property of a device interface.
+old-location: devinst\setupdisetdeviceinterfaceproperty.htm
+old-project: devinst
+ms.assetid: 5c8da8a3-1c53-42c1-8adc-46743b63f731
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: SetupDiSetDeviceInterfaceProperty, SetupDiSetDeviceInterfaceProperty , SetupDiSetDeviceInterfaceProperty function [Device and Driver Installation], SetupDiSetDeviceInterfacePropertyW, devinst.setupdisetdeviceinterfaceproperty, di-rtns_046f3d0e-43cc-4a62-be1e-4bbad8e59e48.xml, setupapi/SetupDiSetDeviceInterfaceProperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: DesktopFor universal, call CM_Set_Device_Interface_Property
+req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Setupapi.lib
+-	Setupapi.dll
+api_name:
+-	SetupDiSetDeviceInterfaceProperty
+product: Windows
+targetos: Windows
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetupDiSetDeviceInterfacePropertyW function

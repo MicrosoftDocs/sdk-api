@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemLocator.ConnectServer
+title: IWbemLocator::ConnectServer
+author: windows-sdk-content
+description: The IWbemLocator::ConnectServer method creates a connection through DCOM to a WMI namespace on the computer specified in the strNetworkResource parameter.
+old-location: wmi\iwbemlocator_connectserver.htm
+old-project: WmiSdk
+ms.assetid: 92222e08-8622-46c3-9465-cd12260a2ca0
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: ConnectServer, ConnectServer method [Windows Management Instrumentation], ConnectServer method [Windows Management Instrumentation],IWbemLocator interface, ConnectServer method [Windows Management Instrumentation],WbemAdministrativeLocator object, ConnectServer method [Windows Management Instrumentation],WbemAuthenticatedLocator object, ConnectServer method [Windows Management Instrumentation],WbemLocator object, ConnectServer method [Windows Management Instrumentation],WbemUnauthenticatedLocator object, IWbemLocator interface [Windows Management Instrumentation],ConnectServer method, IWbemLocator.ConnectServer, IWbemLocator::ConnectServer, WBEM_FLAG_CONNECT_REPOSITORY_ONLY, WBEM_FLAG_CONNECT_USE_MAX_WAIT, WbemAdministrativeLocator object [Windows Management Instrumentation],ConnectServer method, WbemAuthenticatedLocator object [Windows Management Instrumentation],ConnectServer method, WbemLocator object [Windows Management Instrumentation],ConnectServer method, WbemUnauthenticatedLocator object [Windows Management Instrumentation],ConnectServer method, _hmm_iwbemlocator_connectserver, wbemcli/IWbemLocator::ConnectServer, wmi.iwbemlocator_connectserver
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wbemcli.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wbemcore.dll
+api_name:
+-	IWbemLocator.ConnectServer
+-	WbemAuthenticatedLocator.ConnectServer
+-	WbemAdministrativeLocator.ConnectServer
+-	WbemUnauthenticatedLocator.ConnectServer
+-	WbemLocator.ConnectServer
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wbemcore.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemLocator::ConnectServer

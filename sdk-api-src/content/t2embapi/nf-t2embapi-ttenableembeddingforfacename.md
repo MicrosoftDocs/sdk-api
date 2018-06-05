@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:t2embapi.TTEnableEmbeddingForFacename
+title: TTEnableEmbeddingForFacename function
+author: windows-sdk-content
+description: Adds or removes facenames from the typeface exclusion list.
+old-location: gdi\ttenableembeddingforfacename.htm
+old-project: gdi
+ms.assetid: 05d74bfb-28c4-4e1a-9e18-df868f8fa784
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: TTEnableEmbeddingForFacename, TTEnableEmbeddingForFacename function [Windows GDI], _win32_TTEnableEmbeddingForFacename, gdi.ttenableembeddingforfacename, t2embapi/TTEnableEmbeddingForFacename
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: t2embapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SyncProviderConfiguration
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	T2embed.dll
+api_name:
+-	TTEnableEmbeddingForFacename
+product: Windows
+targetos: Windows
+req.lib: T2embed.lib
+req.dll: T2embed.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TTEnableEmbeddingForFacename function

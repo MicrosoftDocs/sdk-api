@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mftransform._MFT_MESSAGE_TYPE
+title: "_MFT_MESSAGE_TYPE"
+author: windows-sdk-content
+description: Defines messages for a Media Foundation transform (MFT).
+old-location: mf\mft_message_type.htm
+old-project: medfound
+ms.assetid: 55b0aa32-53af-4f19-9d99-9885c1e28588
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 55b0aa32-53af-4f19-9d99-9885c1e28588, MFT_MESSAGE_COMMAND_DRAIN, MFT_MESSAGE_COMMAND_FLUSH, MFT_MESSAGE_COMMAND_MARKER, MFT_MESSAGE_COMMAND_TICK, MFT_MESSAGE_DROP_SAMPLES, MFT_MESSAGE_NOTIFY_BEGIN_STREAMING, MFT_MESSAGE_NOTIFY_END_OF_STREAM, MFT_MESSAGE_NOTIFY_END_STREAMING, MFT_MESSAGE_NOTIFY_START_OF_STREAM, MFT_MESSAGE_SET_D3D_MANAGER, MFT_MESSAGE_TYPE, MFT_MESSAGE_TYPE enumeration [Media Foundation], _MFT_MESSAGE_TYPE, mf.mft_message_type, mftransform/MFT_MESSAGE_COMMAND_DRAIN, mftransform/MFT_MESSAGE_COMMAND_FLUSH, mftransform/MFT_MESSAGE_COMMAND_MARKER, mftransform/MFT_MESSAGE_COMMAND_TICK, mftransform/MFT_MESSAGE_DROP_SAMPLES, mftransform/MFT_MESSAGE_NOTIFY_BEGIN_STREAMING, mftransform/MFT_MESSAGE_NOTIFY_END_OF_STREAM, mftransform/MFT_MESSAGE_NOTIFY_END_STREAMING, mftransform/MFT_MESSAGE_NOTIFY_START_OF_STREAM, mftransform/MFT_MESSAGE_SET_D3D_MANAGER, mftransform/MFT_MESSAGE_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mftransform.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFT_MESSAGE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mftransform.h
+api_name:
+-	MFT_MESSAGE_TYPE
+product: Windows
+targetos: Windows
+req.lib: Mfobjects.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFT_MESSAGE_TYPE enumeration

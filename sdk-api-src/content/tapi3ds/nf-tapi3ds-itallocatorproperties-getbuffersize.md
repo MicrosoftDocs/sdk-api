@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3ds.ITAllocatorProperties.GetBufferSize
+title: ITAllocatorProperties::GetBufferSize
+author: windows-sdk-content
+description: The GetBufferSize method gets the size of the allocator buffer.
+old-location: tapi3\itallocatorproperties_getbuffersize.htm
+old-project: Tapi
+ms.assetid: c1571bbb-345b-4b62-acb2-67afda1c9c9b
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: GetBufferSize, GetBufferSize method [TAPI 2.2], GetBufferSize method [TAPI 2.2],ITAllocatorProperties interface, ITAllocatorProperties interface [TAPI 2.2],GetBufferSize method, ITAllocatorProperties.GetBufferSize, ITAllocatorProperties::GetBufferSize, _tapi3_itallocatorproperties_getbuffersize, tapi3.itallocatorproperties_getbuffersize, tapi3ds/ITAllocatorProperties::GetBufferSize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3ds.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AGENT_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAllocatorProperties.GetBufferSize
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAllocatorProperties::GetBufferSize

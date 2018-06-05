@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:authz._AUTHZ_INIT_INFO
+title: "_AUTHZ_INIT_INFO"
+author: windows-sdk-content
+description: Defines the initialization information for the resource manager.
+old-location: security\authz_init_info.htm
+old-project: SecAuthZ
+ms.assetid: 30489BE7-5B95-413E-8134-039AD3220A50
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PAUTHZ_INIT_INFO, AUTHZ_INIT_INFO, AUTHZ_INIT_INFO structure [Security], PAUTHZ_INIT_INFO, PAUTHZ_INIT_INFO structure pointer [Security], _AUTHZ_INIT_INFO, authz/AUTHZ_INIT_INFO, authz/PAUTHZ_INIT_INFO, security.authz_init_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: authz.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTHZ_INIT_INFO, *PAUTHZ_INIT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Authz.h
+api_name:
+-	AUTHZ_INIT_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _AUTHZ_INIT_INFO structure

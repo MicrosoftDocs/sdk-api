@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:p2p.peer_watch_permission_tag
+title: peer_watch_permission_tag
+author: windows-sdk-content
+description: Defines whether a peer contact can receive presence updates from a contact.
+old-location: p2p\peer_watch_permission.htm
+old-project: P2PSdk
+ms.assetid: e3f4a1e6-6ac8-48f8-8480-0cf60c9b4ce9
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PEER_WATCH_ALLOWED, PEER_WATCH_BLOCKED, PEER_WATCH_PERMISSION, PEER_WATCH_PERMISSION enumeration [Peer Networking], p2p.peer_watch_permission, p2p/PEER_WATCH_ALLOWED, p2p/PEER_WATCH_BLOCKED, p2p/PEER_WATCH_PERMISSION, peer_watch_permission_tag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEER_WATCH_PERMISSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	P2P.h
+api_name:
+-	PEER_WATCH_PERMISSION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # peer_watch_permission_tag enumeration

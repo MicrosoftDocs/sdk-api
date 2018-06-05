@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commdlg.tagPSDA
+title: tagPSDA
+author: windows-sdk-content
+description: Contains information the PageSetupDlg function uses to initialize the Page Setup dialog box. After the user closes the dialog box, the system returns information about the user-defined page parameters in this structure.
+old-location: dlgbox\pagesetupdlg_str.htm
+old-project: dlgbox
+ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\pagesetupdlg.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*LPPAGESETUPDLGA, LPPAGESETUPDLG, LPPAGESETUPDLG structure pointer [Dialog Boxes], PAGESETUPDLG, PAGESETUPDLG structure [Dialog Boxes], PAGESETUPDLGA, PAGESETUPDLGW, PSD_DEFAULTMINMARGINS, PSD_DISABLEMARGINS, PSD_DISABLEORIENTATION, PSD_DISABLEPAGEPAINTING, PSD_DISABLEPAPER, PSD_DISABLEPRINTER, PSD_ENABLEPAGEPAINTHOOK, PSD_ENABLEPAGESETUPHOOK, PSD_ENABLEPAGESETUPTEMPLATE, PSD_ENABLEPAGESETUPTEMPLATEHANDLE, PSD_INHUNDREDTHSOFMILLIMETERS, PSD_INTHOUSANDTHSOFINCHES, PSD_INWININIINTLMEASURE, PSD_MARGINS, PSD_MINMARGINS, PSD_NONETWORKBUTTON, PSD_NOWARNING, PSD_RETURNDEFAULT, PSD_SHOWHELP, _win32_PAGESETUPDLG_str, _win32_pagesetupdlg_str_cpp, commdlg/LPPAGESETUPDLG, commdlg/PAGESETUPDLG, commdlg/PAGESETUPDLGA, commdlg/PAGESETUPDLGW, dlgbox.pagesetupdlg_str, tagPSDA, tagPSDW, winui._win32_pagesetupdlg_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commdlg.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PAGESETUPDLGW (Unicode) and PAGESETUPDLGA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PAGESETUPDLGA, *LPPAGESETUPDLGA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commdlg.h
+api_name:
+-	PAGESETUPDLG
+-	PAGESETUPDLGA
+-	PAGESETUPDLGW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagPSDA structure

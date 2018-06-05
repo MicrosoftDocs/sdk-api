@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vdslun._VDS_STORAGE_DEVICE_ID_DESCRIPTOR
+title: "_VDS_STORAGE_DEVICE_ID_DESCRIPTOR"
+author: windows-sdk-content
+description: Defines one or more storage identifiers for a storage device (typically an instance, as opposed to a class, of device).
+old-location: base\vds_storage_device_id_descriptor.htm
+old-project: VDS
+ms.assetid: 88fe83cb-6d3c-40bd-a5ce-71771d2e7511
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_STORAGE_DEVICE_ID_DESCRIPTOR, VDS_STORAGE_DEVICE_ID_DESCRIPTOR structure [VDS], _VDS_STORAGE_DEVICE_ID_DESCRIPTOR, base.vds_storage_device_id_descriptor, vdslun/_VDS_STORAGE_DEVICE_ID_DESCRIPTOR
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vdslun.h
+req.include-header: Vds.h, VdsHwPrv.h for hardware providers
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_STORAGE_DEVICE_ID_DESCRIPTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VdsLun.h
+api_name:
+-	VDS_STORAGE_DEVICE_ID_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_STORAGE_DEVICE_ID_DESCRIPTOR structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfmediaengine.MF_MEDIA_ENGINE_READY
+title: MF_MEDIA_ENGINE_READY
+author: windows-sdk-content
+description: Defines ready-state values for the Media Engine.
+old-location: mf\mf_media_engine_ready.htm
+old-project: medfound
+ms.assetid: ADA5BBD6-B831-4C19-8770-318F0C5FDD6F
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_MEDIA_ENGINE_READY, MF_MEDIA_ENGINE_READY enumeration [Media Foundation], MF_MEDIA_ENGINE_READY_HAVE_CURRENT_DATA, MF_MEDIA_ENGINE_READY_HAVE_ENOUGH_DATA, MF_MEDIA_ENGINE_READY_HAVE_FUTURE_DATA, MF_MEDIA_ENGINE_READY_HAVE_METADATA, MF_MEDIA_ENGINE_READY_HAVE_NOTHING, mf.mf_media_engine_ready, mfmediaengine/MF_MEDIA_ENGINE_READY, mfmediaengine/MF_MEDIA_ENGINE_READY_HAVE_CURRENT_DATA, mfmediaengine/MF_MEDIA_ENGINE_READY_HAVE_ENOUGH_DATA, mfmediaengine/MF_MEDIA_ENGINE_READY_HAVE_FUTURE_DATA, mfmediaengine/MF_MEDIA_ENGINE_READY_HAVE_METADATA, mfmediaengine/MF_MEDIA_ENGINE_READY_HAVE_NOTHING
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_MEDIA_ENGINE_READY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfmediaengine.h
+api_name:
+-	MF_MEDIA_ENGINE_READY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MF_MEDIA_ENGINE_READY enumeration

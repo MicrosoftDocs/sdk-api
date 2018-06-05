@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:aclui._SID_INFO
+title: "_SID_INFO"
+author: windows-sdk-content
+description: Contains the list of common names corresponding to the SID structures returned by ISecurityInformation2::LookupSids.
+old-location: security\sid_info.htm
+old-project: SecAuthZ
+ms.assetid: 6a69e5b9-ab6a-4bbb-9f1a-5882d4c8038c
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PSID_INFO, PSID_INFO, PSID_INFO structure pointer [Security], SID_INFO, SID_INFO structure [Security], _SID_INFO, _win32_sid_info_str, aclui/PSID_INFO, aclui/SID_INFO, security.sid_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: aclui.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SID_INFO, *PSID_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Aclui.h
+api_name:
+-	SID_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _SID_INFO structure

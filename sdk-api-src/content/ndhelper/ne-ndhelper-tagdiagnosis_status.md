@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ndhelper.tagDIAGNOSIS_STATUS
+title: tagDIAGNOSIS_STATUS
+author: windows-sdk-content
+description: The DIAGNOSIS_STATUS enumeration describes the result of a hypothesis submitted to a helper class in which the health of a component has been determined.
+old-location: ndf\diagnosis_status.htm
+old-project: NDF
+ms.assetid: 2ad72ac5-3f33-4206-be39-1cfe11ee840d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: DIAGNOSIS_STATUS, DIAGNOSIS_STATUS enumeration [NDF], DS_CONFIRMED, DS_DEFERRED, DS_INDETERMINATE, DS_NOT_IMPLEMENTED, DS_PASSTHROUGH, DS_REJECTED, ndf.diagnosis_status, ndhelper/DIAGNOSIS_STATUS, ndhelper/DS_CONFIRMED, ndhelper/DS_DEFERRED, ndhelper/DS_INDETERMINATE, ndhelper/DS_NOT_IMPLEMENTED, ndhelper/DS_PASSTHROUGH, ndhelper/DS_REJECTED, tagDIAGNOSIS_STATUS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ndhelper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIAGNOSIS_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ndhelper.h
+api_name:
+-	DIAGNOSIS_STATUS
+product: Windows
+targetos: Windows
+req.lib: Ndfapi.lib
+req.dll: Ndfapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagDIAGNOSIS_STATUS enumeration

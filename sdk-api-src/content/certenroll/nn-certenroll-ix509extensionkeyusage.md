@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:certenroll.IX509ExtensionKeyUsage
+title: IX509ExtensionKeyUsage
+author: windows-sdk-content
+description: Can be used to define restrictions on the operations that can be performed by the public key contained in the certificate.
+old-location: security\ix509extensionkeyusage.htm
+old-project: SecCertEnroll
+ms.assetid: 4325e6aa-99bb-4c9a-9b19-c5352ebf27b9
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IX509ExtensionKeyUsage, IX509ExtensionKeyUsage interface [Security], IX509ExtensionKeyUsage interface [Security],described, certenroll/IX509ExtensionKeyUsage, security.ix509extensionkeyusage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509ExtensionKeyUsage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IX509ExtensionKeyUsage interface

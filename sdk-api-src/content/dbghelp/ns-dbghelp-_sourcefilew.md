@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dbghelp._SOURCEFILEW
+title: "_SOURCEFILEW"
+author: windows-sdk-content
+description: Contains source file information.
+old-location: base\sourcefile_str.htm
+old-project: Debug
+ms.assetid: b41b844d-85d2-4ea3-bdd9-1564898da9e1
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PSOURCEFILEW, PSOURCEFILE, PSOURCEFILE structure pointer, SOURCEFILE, SOURCEFILE structure, SOURCEFILEW, _SOURCEFILE, _SOURCEFILEW, base.sourcefile_str, dbghelp/PSOURCEFILE, dbghelp/SOURCEFILE, dbghelp/SOURCEFILEW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SOURCEFILEW (Unicode) and SOURCEFILE (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOURCEFILEW, *PSOURCEFILEW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DbgHelp.h
+api_name:
+-	SOURCEFILE
+-	SOURCEFILE
+-	SOURCEFILEW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _SOURCEFILEW structure

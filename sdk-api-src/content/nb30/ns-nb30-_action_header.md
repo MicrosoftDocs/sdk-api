@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:nb30._ACTION_HEADER
+title: "_ACTION_HEADER"
+author: windows-sdk-content
+description: The ACTION_HEADER structure contains information about an action. This action is an extension to the standard transport interface.
+old-location: netbios\action_header.htm
+old-project: NetBIOS
+ms.assetid: f2bbf394-972a-4e96-8cc6-9f230359cbfc
+ms.author: windowssdkdev
+ms.date: 05/02/2018
+ms.keywords: "*PACTION_HEADER, ACTION_HEADER, ACTION_HEADER structure [NetBIOS], MABF, MNBF, MOOO, MXNS, PACTION_HEADER, PACTION_HEADER structure pointer [NetBIOS], _ACTION_HEADER, nb30/ACTION_HEADER, nb30/PACTION_HEADER, netbios.action_header"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: nb30.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACTION_HEADER, *PACTION_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Nb30.h
+api_name:
+-	ACTION_HEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _ACTION_HEADER structure

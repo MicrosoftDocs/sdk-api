@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfcaptureengine.IMFCaptureSink2.SetOutputMediaType
+title: IMFCaptureSink2::SetOutputMediaType
+author: windows-sdk-content
+description: Dynamically sets the output media type of the record sink or preview sink.
+old-location: mf\imfcapturesink2_setoutputmediatype.htm
+old-project: medfound
+ms.assetid: e9a653c3-927b-4577-9a54-2d63f6b29c06
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFCaptureSink2 interface [Media Foundation],SetOutputMediaType method, IMFCaptureSink2.SetOutputMediaType, IMFCaptureSink2::SetOutputMediaType, SetOutputMediaType, SetOutputMediaType method [Media Foundation], SetOutputMediaType method [Media Foundation],IMFCaptureSink2 interface, mf.imfcapturesink2_setoutputmediatype, mfcaptureengine/IMFCaptureSink2::SetOutputMediaType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfcaptureengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mfcaptureengine.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfcaptureengine.h
+api_name:
+-	IMFCaptureSink2.SetOutputMediaType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFCaptureSink2::SetOutputMediaType

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rtmv2.RTM_SIZE_OF_ROUTE_INFO
+title: RTM_SIZE_OF_ROUTE_INFO macro
+author: windows-sdk-content
+description: The RTM_SIZE_OF_ROUTE_INFO macro returns the size of the route information structure, RTM_ROUTE_INFO.
+old-location: rras\rtm_size_of_route_info.htm
+old-project: RRAS
+ms.assetid: ef3308a1-9a5e-4162-91d1-6ae2abff5c3b
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RTM_SIZE_OF_ROUTE_INFO, RTM_SIZE_OF_ROUTE_INFO macro [RAS], _rtmv2ref_rtm_size_of_route_info, rras.rtm_size_of_route_info, rtmv2/RTM_SIZE_OF_ROUTE_INFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: rtmv2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rtmv2.h
+api_name:
+-	RTM_SIZE_OF_ROUTE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RTM_SIZE_OF_ROUTE_INFO macro

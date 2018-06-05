@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NC:bthledef.PFNBLUETOOTH_GATT_EVENT_CALLBACK
+title: PFNBLUETOOTH_GATT_EVENT_CALLBACK
+author: windows-sdk-content
+description: Profile drivers implement a Bluetooth GATT event callback to be called whenever the value of a specific characteristic changes.
+old-location: bltooth\bluetooth_gatt_notification_callback_function.htm
+old-project: bltooth
+ms.assetid: 96AC4E49-76D7-47B5-93B9-64D574A28E0A
+ms.author: windowssdkdev
+ms.date: 04/27/2018
+ms.keywords: BluetoothGattEventCallback, BluetoothGattEventCallback callback function [Bluetooth Devices], PFNBLUETOOTH_GATT_EVENT_CALLBACK, PFNBLUETOOTH_GATT_EVENT_CALLBACK callback, bltooth.bluetooth_gatt_notification_callback_function, bthledef/BluetoothGattEventCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: bthledef.h
+req.include-header: 
+req.target-type: Desktop
+req.target-min-winverclnt: Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	bthledef.h
+api_name:
+-	BluetoothGattEventCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PFNBLUETOOTH_GATT_EVENT_CALLBACK callback function

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:msi.MsiGetProductCodeW
+title: MsiGetProductCodeW function
+author: windows-sdk-content
+description: The MsiGetProductCode function returns the product code of an application by using the component code of an installed or advertised component of the application.
+old-location: setup\msigetproductcode.htm
+old-project: Msi
+ms.assetid: 5893c437-6827-44d6-bc22-18c402dda894
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: MsiGetProductCode, MsiGetProductCode function, MsiGetProductCodeA, MsiGetProductCodeW, _msi_msigetproductcode, msi/MsiGetProductCode, msi/MsiGetProductCodeA, msi/MsiGetProductCodeW, setup.msigetproductcode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: MsiGetProductCodeW (Unicode) and MsiGetProductCodeA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRM_LICENSE_ACQ_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msi.dll
+api_name:
+-	MsiGetProductCode
+-	MsiGetProductCodeA
+-	MsiGetProductCodeW
+product: Windows
+targetos: Windows
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # MsiGetProductCodeW function

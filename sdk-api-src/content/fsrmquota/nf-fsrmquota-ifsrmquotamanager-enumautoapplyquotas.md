@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmquota.IFsrmQuotaManager.EnumAutoApplyQuotas
+title: IFsrmQuotaManager::EnumAutoApplyQuotas
+author: windows-sdk-content
+description: Enumerates the automatic quotas that are associated with the specified directory.
+old-location: fsrm\ifsrmquotamanager_enumautoapplyquotas.htm
+old-project: Fsrm
+ms.assetid: 6542bc4e-535f-4e6c-aaa8-ba6963490811
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: EnumAutoApplyQuotas, EnumAutoApplyQuotas method [File Server Resource Manager], EnumAutoApplyQuotas method [File Server Resource Manager],FsrmQuotaManager class, EnumAutoApplyQuotas method [File Server Resource Manager],IFsrmQuotaManager interface, EnumAutoApplyQuotas method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],EnumAutoApplyQuotas method, IFsrmQuotaManager interface [File Server Resource Manager],EnumAutoApplyQuotas method, IFsrmQuotaManager.EnumAutoApplyQuotas, IFsrmQuotaManager::EnumAutoApplyQuotas, IFsrmQuotaManagerEx interface [File Server Resource Manager],EnumAutoApplyQuotas method, IFsrmQuotaManagerEx::EnumAutoApplyQuotas, fs.ifsrmquotamanager_enumautoapplyquotas, fsrm.ifsrmquotamanager_enumautoapplyquotas, fsrmquota/IFsrmQuotaManager::EnumAutoApplyQuotas, fsrmquota/IFsrmQuotaManagerEx::EnumAutoApplyQuotas
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmquota.h
+req.include-header: FsrmQuota.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmQuotaManager.EnumAutoApplyQuotas
+-	IFsrmQuotaManagerEx.EnumAutoApplyQuotas
+-	FsrmQuotaManager.EnumAutoApplyQuotas
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmQuotaManager::EnumAutoApplyQuotas

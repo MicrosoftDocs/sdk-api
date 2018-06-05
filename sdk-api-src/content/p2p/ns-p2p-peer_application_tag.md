@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:p2p.peer_application_tag
+title: peer_application_tag
+author: windows-sdk-content
+description: The PEER_APPLICATION structure contains data describing a locally installed software application or component that can be registered and shared with trusted contacts within a peer collaboration network.
+old-location: p2p\peer_application.htm
+old-project: P2PSdk
+ms.assetid: a219231b-75d0-47d3-8294-f1cc25b43d27
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PPEER_APPLICATION, PCPEER_APPLICATION, PCPEER_APPLICATION structure pointer [Peer Networking], PEER_APPLICATION, PEER_APPLICATION structure [Peer Networking], PPEER_APPLICATION, PPEER_APPLICATION structure pointer [Peer Networking], p2p.peer_application, p2p/PCPEER_APPLICATION, p2p/PEER_APPLICATION, p2p/PPEER_APPLICATION, peer_application_tag"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEER_APPLICATION, *PPEER_APPLICATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	P2P.h
+api_name:
+-	PEER_APPLICATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # peer_application_tag structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsbackup.IVssBackupComponents.DisableWriterClasses
+title: IVssBackupComponents::DisableWriterClasses
+author: windows-sdk-content
+description: The DisableWriterClasses method prevents a specific class of writers from receiving any events.
+old-location: base\ivssbackupcomponents_disablewriterclasses.htm
+old-project: VSS
+ms.assetid: 7567bf23-4f4c-4210-87f7-4f90262fda7a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DisableWriterClasses, DisableWriterClasses method [VSS], DisableWriterClasses method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DisableWriterClasses method, IVssBackupComponents.DisableWriterClasses, IVssBackupComponents::DisableWriterClasses, _win32_ivssbackupcomponents_disablewriterclasses, base.ivssbackupcomponents_disablewriterclasses, vsbackup/IVssBackupComponents::DisableWriterClasses
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsbackup.h
+req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssBackupComponents.DisableWriterClasses
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssBackupComponents::DisableWriterClasses

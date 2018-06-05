@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleacc.IAccPropServices.SetPropValue
+title: IAccPropServices::SetPropValue
+author: windows-sdk-content
+description: Use SetPropValue to identify the accessible element to be annotated, specify the property to be annotated, and provide a new value for that property.
+old-location: winauto\iaccpropservices_iaccpropservices__setpropvalue.htm
+old-project: WinAuto
+ms.assetid: c86acb70-fa77-4f95-8a99-e60872cdaa7e
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: IAccPropServices interface [Windows Accessibility],SetPropValue method, IAccPropServices.SetPropValue, IAccPropServices::SetPropValue, SetPropValue, SetPropValue method [Windows Accessibility], SetPropValue method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetPropValue, msaa.iaccpropservices_iaccpropservices__setpropvalue, oleacc/IAccPropServices::SetPropValue, winauto.iaccpropservices_iaccpropservices__setpropvalue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oleacc.h
+req.include-header: OleAcc.h Include Initguid.h first.
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Oleacc.dll
+api_name:
+-	IAccPropServices.SetPropValue
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Oleacc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAccPropServices::SetPropValue

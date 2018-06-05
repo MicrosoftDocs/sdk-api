@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d2d1_1helper.Matrix4x4F.Determinant
+title: Matrix4x4F::Determinant
+author: windows-sdk-content
+description: Calculates the determinant of the matrix.
+old-location: direct2d\matrix4x4f_determinant.htm
+old-project: Direct2D
+ms.assetid: 900531EB-F3D4-4971-984E-A355E79D6577
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: Determinant, Determinant method [Direct2D], Determinant method [Direct2D],Matrix4x4F interface, Matrix4x4F interface [Direct2D],Determinant method, Matrix4x4F.Determinant, Matrix4x4F::Determinant, d2d1_1helper/Matrix4x4F::Determinant, direct2d.matrix4x4f_determinant
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d2d1_1helper.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_STROKE_STYLE_PROPERTIES1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d2d1_1helper.h
+api_name:
+-	Matrix4x4F.Determinant
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # Matrix4x4F::Determinant

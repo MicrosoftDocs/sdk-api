@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl.MF_OBJECT_TYPE
+title: MF_OBJECT_TYPE
+author: windows-sdk-content
+description: Defines the object types that are created by the source resolver.
+old-location: mf\mf_object_type.htm
+old-project: medfound
+ms.assetid: e919ae78-e3a5-42c5-b4e0-186e7e4fe54a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_OBJECT_BYTESTREAM, MF_OBJECT_INVALID, MF_OBJECT_MEDIASOURCE, MF_OBJECT_TYPE, MF_OBJECT_TYPE enumeration [Media Foundation], e919ae78-e3a5-42c5-b4e0-186e7e4fe54a, mf.mf_object_type, mfidl/MF_OBJECT_BYTESTREAM, mfidl/MF_OBJECT_INVALID, mfidl/MF_OBJECT_MEDIASOURCE, mfidl/MF_OBJECT_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_OBJECT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MF_OBJECT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MF_OBJECT_TYPE enumeration

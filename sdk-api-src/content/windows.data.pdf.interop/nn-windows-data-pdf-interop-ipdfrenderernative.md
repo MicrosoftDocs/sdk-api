@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:windows.data.pdf.interop.IPdfRendererNative
+title: IPdfRendererNative
+author: windows-sdk-content
+description: Represents a high-performance API for displaying a single page of a Portable Document Format (PDF) file.
+old-location: winrt\ipdfrenderernative.htm
+old-project: WinRT
+ms.assetid: 96a00afb-e957-4e49-8f30-d6a3d639680f
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: IPdfRendererNative, IPdfRendererNative interface [Windows Runtime], IPdfRendererNative interface [Windows Runtime],described, windows/IPdfRendererNative, winrt.ipdfrenderernative
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: windows.data.pdf.interop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Windows.data.pdf.interop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windows.Data.Pdf.dll
+api_name:
+-	IPdfRendererNative
+product: Windows
+targetos: Windows
+req.lib: Windows.data.pdf.lib
+req.dll: Windows.Data.Pdf.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IPdfRendererNative interface

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12sdklayers.D3D12_DEBUG_DEVICE_PARAMETER_TYPE
+title: D3D12_DEBUG_DEVICE_PARAMETER_TYPE
+author: windows-sdk-content
+description: Specifies the data type of the memory pointed to by the pData parameter of ID3D12DebugDevice1::SetDebugParameter and ID3D12DebugDevice1::GetDebugParameter.
+old-location: direct3d12\d3d12_debug_device_parameter_type.htm
+old-project: direct3d12
+ms.assetid: 477155FF-9DF7-4E21-AF52-21EB3DBC3550
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_DEBUG_DEVICE_PARAMETER_FEATURE_FLAGS, D3D12_DEBUG_DEVICE_PARAMETER_GPU_BASED_VALIDATION_SETTINGS, D3D12_DEBUG_DEVICE_PARAMETER_GPU_SLOWDOWN_PERFORMANCE_FACTOR, D3D12_DEBUG_DEVICE_PARAMETER_TYPE, D3D12_DEBUG_DEVICE_PARAMETER_TYPE enumeration, d3d12sdklayers/D3D12_DEBUG_DEVICE_PARAMETER_FEATURE_FLAGS, d3d12sdklayers/D3D12_DEBUG_DEVICE_PARAMETER_GPU_BASED_VALIDATION_SETTINGS, d3d12sdklayers/D3D12_DEBUG_DEVICE_PARAMETER_GPU_SLOWDOWN_PERFORMANCE_FACTOR, d3d12sdklayers/D3D12_DEBUG_DEVICE_PARAMETER_TYPE, direct3d12.d3d12_debug_device_parameter_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_DEBUG_DEVICE_PARAMETER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d12sdklayers.h
+api_name:
+-	D3D12_DEBUG_DEVICE_PARAMETER_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_DEBUG_DEVICE_PARAMETER_TYPE enumeration

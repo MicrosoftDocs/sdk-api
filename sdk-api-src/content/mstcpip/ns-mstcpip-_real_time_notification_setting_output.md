@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mstcpip._REAL_TIME_NOTIFICATION_SETTING_OUTPUT
+title: "_REAL_TIME_NOTIFICATION_SETTING_OUTPUT"
+author: windows-sdk-content
+description: Provides the output settings from a query for the REAL_TIME_NOTIFICATION_CAPABILITY transport setting for a TCP socket that is used with ControlChannelTrigger to receive background network notifications in a Windows Store app.
+old-location: winsock\real_time_notification_setting_output.htm
+old-project: WinSock
+ms.assetid: 7585CA60-8C7B-4187-A311-72DFA38EB577
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PREAL_TIME_NOTIFICATION_SETTING_OUTPUT, PREAL_TIME_NOTIFICATION_SETTING_OUTPUT, PREAL_TIME_NOTIFICATION_SETTING_OUTPUT structure pointer [Winsock], REAL_TIME_NOTIFICATION_SETTING_OUTPUT, REAL_TIME_NOTIFICATION_SETTING_OUTPUT structure [Winsock], _REAL_TIME_NOTIFICATION_SETTING_OUTPUT, mstcpip/PREAL_TIME_NOTIFICATION_SETTING_OUTPUT, mstcpip/REAL_TIME_NOTIFICATION_SETTING_OUTPUT, winsock.real_time_notification_setting_output"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mstcpip.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REAL_TIME_NOTIFICATION_SETTING_OUTPUT, *PREAL_TIME_NOTIFICATION_SETTING_OUTPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mstcpip.h
+api_name:
+-	REAL_TIME_NOTIFICATION_SETTING_OUTPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _REAL_TIME_NOTIFICATION_SETTING_OUTPUT structure

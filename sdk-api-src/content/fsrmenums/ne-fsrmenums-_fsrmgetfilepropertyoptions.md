@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fsrmenums._FsrmGetFilePropertyOptions
+title: "_FsrmGetFilePropertyOptions"
+author: windows-sdk-content
+description: Flags that defines how classification properties associated with a file are retrieved.
+old-location: fsrm\fsrmgetfilepropertyoptions.htm
+old-project: Fsrm
+ms.assetid: d909e244-344f-4da9-987c-de406c2dc359
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmGetFilePropertyOptions, FsrmGetFilePropertyOptions enumeration [File Server Resource Manager], FsrmGetFilePropertyOptions_FailOnPersistErrors, FsrmGetFilePropertyOptions_NoRuleEvaluation, FsrmGetFilePropertyOptions_None, FsrmGetFilePropertyOptions_Persistent, FsrmGetFilePropertyOptions_SkipOrphaned, _FsrmGetFilePropertyOptions, fs.fsrmgetfilepropertyoptions, fsrm.fsrmgetfilepropertyoptions, fsrm/FsrmGetFilePropertyOptions, fsrm/FsrmGetFilePropertyOptions_FailOnPersistErrors, fsrm/FsrmGetFilePropertyOptions_NoRuleEvaluation, fsrm/FsrmGetFilePropertyOptions_None, fsrm/FsrmGetFilePropertyOptions_Persistent, fsrm/FsrmGetFilePropertyOptions_SkipOrphaned
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fsrmenums.h
+req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, Fsrmenums.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FsrmEnums.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmGetFilePropertyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Fsrm.h
+api_name:
+-	FsrmGetFilePropertyOptions
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _FsrmGetFilePropertyOptions enumeration

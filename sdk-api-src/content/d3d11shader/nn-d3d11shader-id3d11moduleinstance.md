@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:d3d11shader.ID3D11ModuleInstance
+title: ID3D11ModuleInstance
+author: windows-sdk-content
+description: A module-instance interface is used for resource rebinding.
+old-location: direct3d11\id3d11moduleinstance.htm
+old-project: direct3d11
+ms.assetid: BBC64078-FCA8-4868-B9CD-3E6F3C86BFC5
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: ID3D11ModuleInstance, ID3D11ModuleInstance interface [Direct3D 11], ID3D11ModuleInstance interface [Direct3D 11],described, d3d11shader/ID3D11ModuleInstance, direct3d11.id3d11moduleinstance
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: d3d11shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_SHADER_VERSION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3DCompiler_47.dll
+api_name:
+-	ID3D11ModuleInstance
+product: Windows
+targetos: Windows
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 ---
 
 # ID3D11ModuleInstance interface

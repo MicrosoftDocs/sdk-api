@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certcli.ICertRequest2.GetErrorMessageText
+title: ICertRequest2::GetErrorMessageText
+author: windows-sdk-content
+description: Retrieves the error message text for an HRESULT error code.
+old-location: security\icertrequest2_geterrormessagetext.htm
+old-project: SecCrypto
+ms.assetid: eeecaeec-2e06-4d4b-9b85-5fb3ef90944a
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertRequest object [Security],GetErrorMessageText method, CR_GEMT_HRESULT_STRING, GetErrorMessageText, GetErrorMessageText method [Security], GetErrorMessageText method [Security],CCertRequest object, GetErrorMessageText method [Security],ICertRequest interface, GetErrorMessageText method [Security],ICertRequest2 interface, GetErrorMessageText method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetErrorMessageText method, ICertRequest2 interface [Security],GetErrorMessageText method, ICertRequest2.GetErrorMessageText, ICertRequest2::GetErrorMessageText, ICertRequest3 interface [Security],GetErrorMessageText method, ICertRequest3::GetErrorMessageText, ICertRequest::GetErrorMessageText, Zero (0), _certsrv_icertrequest2_geterrormessagetext, certcli/ICertRequest2::GetErrorMessageText, certcli/ICertRequest3::GetErrorMessageText, certcli/ICertRequest::GetErrorMessageText, security.icertrequest2_geterrormessagetext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certcli.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509EnrollmentAuthFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certcli.dll
+api_name:
+-	ICertRequest3.GetErrorMessageText
+-	ICertRequest2.GetErrorMessageText
+-	ICertRequest.GetErrorMessageText
+-	CCertRequest.GetErrorMessageText
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 ---
 
 # ICertRequest2::GetErrorMessageText

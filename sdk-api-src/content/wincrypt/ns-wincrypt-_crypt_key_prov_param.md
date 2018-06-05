@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_KEY_PROV_PARAM
+title: "_CRYPT_KEY_PROV_PARAM"
+author: windows-sdk-content
+description: Contains information about a key container parameter.
+old-location: security\crypt_key_prov_param.htm
+old-project: SecCrypto
+ms.assetid: 3731708f-0ce9-42bf-ace9-5ed671be113a
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_KEY_PROV_PARAM, CRYPT_KEY_PROV_PARAM, CRYPT_KEY_PROV_PARAM structure [Security], PCRYPT_KEY_PROV_PARAM, PCRYPT_KEY_PROV_PARAM structure pointer [Security], _CRYPT_KEY_PROV_PARAM, _crypto2_crypt_key_prov_param, security.crypt_key_prov_param, wincrypt/CRYPT_KEY_PROV_PARAM, wincrypt/PCRYPT_KEY_PROV_PARAM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_KEY_PROV_PARAM, *PCRYPT_KEY_PROV_PARAM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRYPT_KEY_PROV_PARAM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_KEY_PROV_PARAM structure

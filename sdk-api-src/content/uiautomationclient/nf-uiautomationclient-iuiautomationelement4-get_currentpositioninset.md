@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationElement4.get_CurrentPositionInSet
+title: IUIAutomationElement4::get_CurrentPositionInSet
+author: windows-sdk-content
+description: Returns the current 1-based integer for the ordinal position in the set for the element.
+old-location: winauto\uiauto_IUIAutomationElement4_CurrentPositionInSet.htm
+old-project: WinAuto
+ms.assetid: 29AAA407-B21B-452F-8887-91FF3E97E0C7
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CurrentPositionInSet property [Windows Accessibility], CurrentPositionInSet property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentPositionInSet property, IUIAutomationElement4.CurrentPositionInSet, IUIAutomationElement4.get_CurrentPositionInSet, IUIAutomationElement4::CurrentPositionInSet, IUIAutomationElement4::get_CurrentPositionInSet, get_CurrentPositionInSet, uiautomationclient/IUIAutomationElement4::CurrentPositionInSet, uiautomationclient/IUIAutomationElement4::get_CurrentPositionInSet, winauto.uiauto_IUIAutomationElement4_CurrentPositionInSet
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.dll
+api_name:
+-	IUIAutomationElement4.CurrentPositionInSet
+-	IUIAutomationElement4.get_CurrentPositionInSet
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationElement4::get_CurrentPositionInSet

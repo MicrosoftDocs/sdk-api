@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfcaptureengine.IMFCaptureSource.GetService
+title: IMFCaptureSource::GetService
+author: windows-sdk-content
+description: Gets a pointer to the underlying Source Reader object.
+old-location: mf\imfcapturesource_getservice.htm
+old-project: medfound
+ms.assetid: 67A77196-A499-4C28-8A35-CFB130B85D79
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetService, GetService method [Media Foundation], GetService method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetService method, IMFCaptureSource.GetService, IMFCaptureSource::GetService, mf.imfcapturesource_getservice, mfcaptureengine/IMFCaptureSource::GetService
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfcaptureengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfcaptureengine.h
+api_name:
+-	IMFCaptureSource.GetService
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFCaptureSource::GetService

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:fwpstypes.FWPS_ACTION0_
+title: FWPS_ACTION0_
+author: windows-sdk-content
+description: The FWPS_ACTION0 structure specifies the run-time action that the filter engine takes if all of the filter's filtering conditions are true.Note  FWPS_ACTION0 is a specific version of FWPS_ACTION.
+old-location: netvista\fwps_action0.htm
+old-project: netvista
+ms.assetid: 1b192efc-e685-48bf-bf61-1419ce03a77a
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: FWPS_ACTION0, FWPS_ACTION0 structure [Network Drivers Starting with Windows Vista], FWPS_ACTION0_, fwpstypes/FWPS_ACTION0, netvista.fwps_action0, wfp_ref_3_struct_3_fwps_A-E_2621dcb1-3b0a-4e5a-8869-4d8b9f635f99.xml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: fwpstypes.h
+req.include-header: Fwpsk.h
+req.target-type: Windows
+req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWPS_ACTION0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	fwpstypes.h
+api_name:
+-	FWPS_ACTION0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FWPS_ACTION0_ structure

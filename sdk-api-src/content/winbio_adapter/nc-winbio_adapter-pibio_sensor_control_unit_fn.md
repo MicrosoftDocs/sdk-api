@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:winbio_adapter.PIBIO_SENSOR_CONTROL_UNIT_FN
+title: PIBIO_SENSOR_CONTROL_UNIT_FN
+author: windows-sdk-content
+description: Performs a vendor-defined control operation that does not require elevated privilege.
+old-location: secbiomet\sensoradaptercontrolunit.htm
+old-project: SecBioMet
+ms.assetid: cc37b9a0-bea8-4413-a2fe-30a92db74604
+ms.author: windowssdkdev
+ms.date: 04/24/2018
+ms.keywords: PIBIO_SENSOR_CONTROL_UNIT_FN, PIBIO_SENSOR_CONTROL_UNIT_FN callback, SensorAdapterControlUnit, SensorAdapterControlUnit callback function [Windows Biometric Framework API], secbiomet.sensoradaptercontrolunit, winbio_adapter/SensorAdapterControlUnit
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: winbio_adapter.h
+req.include-header: Winbio_adapter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Winbio_adapter.h
+api_name:
+-	SensorAdapterControlUnit
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PIBIO_SENSOR_CONTROL_UNIT_FN callback function

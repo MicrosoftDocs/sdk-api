@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mfidl._MFINPUTTRUSTAUTHORITY_ACTION
+title: "_MFINPUTTRUSTAUTHORITY_ACTION"
+author: windows-sdk-content
+description: Describes an action requested by an output trust authority (OTA). The request is sent to an input trust authority (ITA).
+old-location: mf\mfinputtrustauthority_access_action.htm
+old-project: medfound
+ms.assetid: 24e74739-054c-46ef-8df7-b29a9a2ea94a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 24e74739-054c-46ef-8df7-b29a9a2ea94a, MFINPUTTRUSTAUTHORITY_ACCESS_ACTION, MFINPUTTRUSTAUTHORITY_ACCESS_ACTION structure [Media Foundation], _MFINPUTTRUSTAUTHORITY_ACTION, mf.mfinputtrustauthority_access_action, mfidl/MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFINPUTTRUSTAUTHORITY_ACTION structure

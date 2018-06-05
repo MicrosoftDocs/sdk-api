@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfDocumentMgr.Push
+title: ITfDocumentMgr::Push
+author: windows-sdk-content
+description: ITfDocumentMgr::Push method
+old-location: tsf\itfdocumentmgr_push.htm
+old-project: TSF
+ms.assetid: afd5452b-4121-428d-801f-1638c2767c67
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITfDocumentMgr interface [Text Services Framework],Push method, ITfDocumentMgr.Push, ITfDocumentMgr::Push, Push, Push method [Text Services Framework], Push method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_push_ref, msctf/ITfDocumentMgr::Push, tsf.itfdocumentmgr_push
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITfDocumentMgr.Push
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfDocumentMgr::Push

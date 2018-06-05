@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wininet.__unnamed_enum_0
+title: InternetCookieState
+author: windows-sdk-content
+description: The InternetCookieState enumeration defines the state of the cookie.
+old-location: wininet\internetcookiestate.htm
+old-project: WinInet
+ms.assetid: 3f43f492-3133-4cbd-9ab9-3c9600ef5263
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: COOKIE_STATE_ACCEPT, COOKIE_STATE_DOWNGRADE, COOKIE_STATE_LEASH, COOKIE_STATE_MAX, COOKIE_STATE_PROMPT, COOKIE_STATE_REJECT, COOKIE_STATE_UNKNOWN, InternetCookieState, InternetCookieState enumeration [WinINet], wininet.internetcookiestate, wininet/COOKIE_STATE_ACCEPT, wininet/COOKIE_STATE_DOWNGRADE, wininet/COOKIE_STATE_LEASH, wininet/COOKIE_STATE_MAX, wininet/COOKIE_STATE_PROMPT, wininet/COOKIE_STATE_REJECT, wininet/COOKIE_STATE_UNKNOWN, wininet/InternetCookieState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wininet.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InternetCookieState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wininet.h
+api_name:
+-	InternetCookieState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # InternetCookieState enumeration

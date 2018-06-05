@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsvc._ENUM_SERVICE_STATUSA
+title: "_ENUM_SERVICE_STATUSA"
+author: windows-sdk-content
+description: Contains the name of a service in a service control manager database and information about that service. It is used by the EnumDependentServices and EnumServicesStatus functions.
+old-location: base\enum_service_status_str.htm
+old-project: Services
+ms.assetid: b088bd94-5d25-44a7-93c0-80ce6588b811
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*LPENUM_SERVICE_STATUSA, ENUM_SERVICE_STATUS, ENUM_SERVICE_STATUS structure, ENUM_SERVICE_STATUSA, ENUM_SERVICE_STATUSW, LPENUM_SERVICE_STATUS, LPENUM_SERVICE_STATUS structure pointer, _ENUM_SERVICE_STATUSA, _win32_enum_service_status_str, base.enum_service_status_str, winsvc/ENUM_SERVICE_STATUS, winsvc/ENUM_SERVICE_STATUSA, winsvc/ENUM_SERVICE_STATUSW, winsvc/LPENUM_SERVICE_STATUS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsvc.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ENUM_SERVICE_STATUSW (Unicode) and ENUM_SERVICE_STATUSA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENUM_SERVICE_STATUSA, *LPENUM_SERVICE_STATUSA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsvc.h
+api_name:
+-	ENUM_SERVICE_STATUS
+-	ENUM_SERVICE_STATUSA
+-	ENUM_SERVICE_STATUSW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _ENUM_SERVICE_STATUSA structure

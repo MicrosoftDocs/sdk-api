@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iscsidsc.PERSISTENT_ISCSI_LOGIN_INFOA
+title: PERSISTENT_ISCSI_LOGIN_INFOA
+author: windows-sdk-content
+description: PERSISTENT_ISCSI_LOGIN_INFO structure contains information that describes a login session established by the Microsoft iSCSI initiator service after the machine boots up.
+old-location: iscsidisc\persistent_iscsi_login_info.htm
+old-project: iSCSIDisc
+ms.assetid: adfd57fb-18dc-440f-988e-f2c01698d987
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: "*PPERSISTENT_ISCSI_LOGIN_INFOA, ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, PERSISTENT_ISCSI_LOGIN_INFO, PERSISTENT_ISCSI_LOGIN_INFO structure [iSCSI Discovery Library API], PERSISTENT_ISCSI_LOGIN_INFOA, PERSISTENT_ISCSI_LOGIN_INFOW, PPERSISTENT_ISCSI_LOGIN_INFO, PPERSISTENT_ISCSI_LOGIN_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.persistent_iscsi_login_info, iscsidsc/PERSISTENT_ISCSI_LOGIN_INFO, iscsidsc/PERSISTENT_ISCSI_LOGIN_INFOA, iscsidsc/PERSISTENT_ISCSI_LOGIN_INFOW, iscsidsc/PPERSISTENT_ISCSI_LOGIN_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PERSISTENT_ISCSI_LOGIN_INFOW (Unicode) and PERSISTENT_ISCSI_LOGIN_INFOA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PERSISTENT_ISCSI_LOGIN_INFOA, *PPERSISTENT_ISCSI_LOGIN_INFOA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iscsidsc.h
+api_name:
+-	PERSISTENT_ISCSI_LOGIN_INFO
+-	PERSISTENT_ISCSI_LOGIN_INFOA
+-	PERSISTENT_ISCSI_LOGIN_INFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # PERSISTENT_ISCSI_LOGIN_INFOA structure

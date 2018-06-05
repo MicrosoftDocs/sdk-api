@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:routprot.PMIB_GET_TRAP_INFO
+title: PMIB_GET_TRAP_INFO
+author: windows-sdk-content
+description: The MibGetTrapInfo function queries the module that set a trap event for more information about the trap.
+old-location: rras\mibgettrapinfo.htm
+old-project: RRAS
+ms.assetid: 2eb77b83-27bb-414b-8fbf-519d5e0cb08a
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: MibGetTrapInfo, MibGetTrapInfo callback function [RAS], PMIB_GET_TRAP_INFO, PMIB_GET_TRAP_INFO callback, _mpr_mibgettrapinfo, routprot/MibGetTrapInfo, rras.mibgettrapinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: routprot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Routprot.h
+api_name:
+-	MibGetTrapInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PMIB_GET_TRAP_INFO callback function

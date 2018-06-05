@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:enclaveapi.CallEnclave
+title: CallEnclave function
+author: windows-sdk-content
+description: Calls a function within an enclave.
+old-location: base\callenclave.htm
+old-project: Memory
+ms.assetid: 4C495245-381F-4561-970D-5FCEC105276B
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: CallEnclave, CallEnclave function, base.callenclave, enclaveapi/CallEnclave
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: enclaveapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ProtType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Vertdll.dll
+-	api-ms-win-core-enclave-l1-1-0.dll
+api_name:
+-	CallEnclave
+product: Windows
+targetos: Windows
+req.lib: Vertdll.lib
+req.dll: Vertdll.dll; Api-ms-win-core-enclave-l1-1-0.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # CallEnclave function

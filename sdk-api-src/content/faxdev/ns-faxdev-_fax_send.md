@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:faxdev._FAX_SEND
+title: "_FAX_SEND"
+author: windows-sdk-content
+description: The FAX_SEND structure contains information about an outbound fax document.
+old-location: fax\_mfax_fax_send_str.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxfspapiref_8ueq.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PFAX_SEND, FAX_SEND, FAX_SEND structure [Fax Service], PFAX_SEND, PFAX_SEND structure pointer [Fax Service], _FAX_SEND, _mfax_fax_send_str, fax._mfax_fax_send_str, faxdev/FAX_SEND, faxdev/PFAX_SEND"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: faxdev.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_SEND, *PFAX_SEND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	FaxDev.h
+api_name:
+-	FAX_SEND
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _FAX_SEND structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfobjects._MF_Plugin_Type
+title: "_MF_Plugin_Type"
+author: windows-sdk-content
+description: Specifies the object type for the IMFPluginControl interface.
+old-location: mf\mf_plugin_type.htm
+old-project: medfound
+ms.assetid: f967cf3f-582c-457a-ba75-980feb2d9bf3
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_Plugin_Type, MF_Plugin_Type enumeration [Media Foundation], MF_Plugin_Type_MFT, MF_Plugin_Type_MFT_MatchOutputType, MF_Plugin_Type_MediaSource, MF_Plugin_Type_Other, _MF_Plugin_Type, mf.mf_plugin_type, mfobjects/, mfobjects/MF_Plugin_Type, mfobjects/MF_Plugin_Type_MFT, mfobjects/MF_Plugin_Type_MFT_MatchOutputType, mfobjects/MF_Plugin_Type_MediaSource, mfobjects/MF_Plugin_Type_Other
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_Plugin_Type
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfobjects.h
+api_name:
+-	MF_Plugin_Type
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MF_Plugin_Type enumeration

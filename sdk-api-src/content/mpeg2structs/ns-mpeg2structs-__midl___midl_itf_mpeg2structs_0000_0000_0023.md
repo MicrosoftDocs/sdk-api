@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0023
+title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0023"
+author: windows-sdk-content
+description: The MPEG_STREAM_BUFFER structure defines a buffer that receives MPEG-2 data.
+old-location: mstv\mpeg_stream_buffer.htm
+old-project: mstv
+ms.assetid: d376af4c-4b22-4a2d-917a-6f25d2c38861
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PMPEG_STREAM_BUFFER, MPEG_STREAM_BUFFER, MPEG_STREAM_BUFFER structure [Microsoft TV Technologies], PMPEG_STREAM_BUFFER, PMPEG_STREAM_BUFFER structure pointer [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0023, mpeg2structs/MPEG_STREAM_BUFFER, mpeg2structs/PMPEG_STREAM_BUFFER, mstv.mpeg_stream_buffer"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mpeg2structs.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPEG_STREAM_BUFFER, *PMPEG_STREAM_BUFFER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mpeg2Structs.h
+api_name:
+-	MPEG_STREAM_BUFFER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_mpeg2structs_0000_0000_0023 structure

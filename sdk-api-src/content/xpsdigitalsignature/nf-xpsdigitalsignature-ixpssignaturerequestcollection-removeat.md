@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xpsdigitalsignature.IXpsSignatureRequestCollection.RemoveAt
+title: IXpsSignatureRequestCollection::RemoveAt
+author: windows-sdk-content
+description: Removes and releases an IXpsSignatureRequest interface pointer from a specified location in the collection.
+old-location: xps\ixpssignaturerequestcollection_removeat.htm
+old-project: printdocs
+ms.assetid: 6149de80-d0ca-4b6b-a092-b1c30f313df5
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: IXpsSignatureRequestCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsSignatureRequestCollection.RemoveAt, IXpsSignatureRequestCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsSignatureRequestCollection interface, xps.ixpssignaturerequestcollection_removeat, xpsdigitalsignature/IXpsSignatureRequestCollection::RemoveAt
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xpsdigitalsignature.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XpsDigitalSignature.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XPS_SIGN_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xpsdigitalsignature.h
+api_name:
+-	IXpsSignatureRequestCollection.RemoveAt
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IXpsSignatureRequestCollection::RemoveAt

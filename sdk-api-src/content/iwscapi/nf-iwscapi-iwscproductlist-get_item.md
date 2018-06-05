@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iwscapi.IWSCProductList.get_Item
+title: IWSCProductList::get_Item
+author: windows-sdk-content
+description: Returns one of the types of providers on the computer.
+old-location: winprog\iwscproductlist_item.htm
+old-project: DevNotes
+ms.assetid: 041F45EF-BE1E-4C37-9BD7-ED9F45587ADA
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IWSCProductList interface [Windows API],get_Item method, IWSCProductList.get_Item, IWSCProductList::get_Item, get_Item, get_Item method [Windows API], get_Item method [Windows API],IWSCProductList interface, iwscapi/IWSCProductList::get_Item, winprog.iwscproductlist_item
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: iwscapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSC_SECURITY_SIGNATURE_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wscapi.dll
+api_name:
+-	IWSCProductList.get_Item
+product: Windows
+targetos: Windows
+req.lib: Wscapi.lib
+req.dll: Wscapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IWSCProductList::get_Item

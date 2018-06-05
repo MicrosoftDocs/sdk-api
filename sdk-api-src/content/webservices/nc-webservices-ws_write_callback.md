@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:webservices.WS_WRITE_CALLBACK
+title: WS_WRITE_CALLBACK
+author: windows-sdk-content
+description: Used by the WS_XML_WRITER function to write a specified buffer to a user-determined destination.
+old-location: wsw\ws_write_callback.htm
+old-project: wsw
+ms.assetid: 8d106ac2-226d-4e0c-8f14-8d3e17f15548
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_WRITE_CALLBACK, WS_WRITE_CALLBACK callback, WS_WRITE_CALLBACK callback function [Web Services for Windows], webservices/WS_WRITE_CALLBACK, wsw.ws_write_callback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	WebServices.h
+api_name:
+-	WS_WRITE_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_WRITE_CALLBACK callback function

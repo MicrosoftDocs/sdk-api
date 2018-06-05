@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cluadmex.IWCContextMenuCallback.AddExtensionMenuItem
+title: IWCContextMenuCallback::AddExtensionMenuItem
+author: windows-sdk-content
+description: Adds a menu item to a Failover Cluster Administrator context menu.
+old-location: mscs\iwccontextmenucallback_addextensionmenuitem.htm
+old-project: MsCS
+ms.assetid: 0eedc564-c82d-4309-b11c-c87d2e73c2c9
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: AddExtensionMenuItem, AddExtensionMenuItem method [Failover Cluster], AddExtensionMenuItem method [Failover Cluster],IWCContextMenuCallback interface, IWCContextMenuCallback interface [Failover Cluster],AddExtensionMenuItem method, IWCContextMenuCallback.AddExtensionMenuItem, IWCContextMenuCallback::AddExtensionMenuItem, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, _wolf_iwccontextmenucallback_addextensionmenuitem, cluadmex/IWCContextMenuCallback::AddExtensionMenuItem, mscs.iwccontextmenucallback_addextensionmenuitem
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: cluadmex.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CluAdmEx.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: Sources
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	cluadmex.h
+api_name:
+-	IWCContextMenuCallback.AddExtensionMenuItem
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IWCContextMenuCallback::AddExtensionMenuItem

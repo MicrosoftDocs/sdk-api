@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:recapis.GetUnicodeRanges
+title: GetUnicodeRanges function
+author: windows-sdk-content
+description: Returns the ranges of Unicode points that the recognizer supports.
+old-location: tablet\getunicoderanges.htm
+old-project: tablet
+ms.assetid: 4a354073-e971-43ba-93c9-84fa2e8c59aa
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 4a354073-e971-43ba-93c9-84fa2e8c59aa, GetUnicodeRanges, GetUnicodeRanges function [Tablet PC], recapis/GetUnicodeRanges, tablet.getunicoderanges
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: recapis.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	recapis.h
+api_name:
+-	GetUnicodeRanges
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # GetUnicodeRanges function

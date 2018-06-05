@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d2d1effects_2.D2D1_SHARPEN_PROP
+title: D2D1_SHARPEN_PROP
+author: windows-sdk-content
+description: Identifiers for properties of the Sharpen effect.
+old-location: direct2d\d2d1_sharpen_prop.htm
+old-project: Direct2D
+ms.assetid: 73ED06C4-A8FB-4312-8BB8-3B9C885E9FEC
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_SHARPEN_PROP, D2D1_SHARPEN_PROP enumeration [Direct2D], D2D1_SHARPEN_PROP_SHARPNESS, D2D1_SHARPEN_PROP_THRESHOLD, d2d1effects_2/D2D1_SHARPEN_PROP, d2d1effects_2/D2D1_SHARPEN_PROP_SHARPNESS, d2d1effects_2/D2D1_SHARPEN_PROP_THRESHOLD, direct2d.d2d1_sharpen_prop
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1effects_2.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_SHARPEN_PROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1effects_2.h
+api_name:
+-	D2D1_SHARPEN_PROP
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D2D1_SHARPEN_PROP enumeration

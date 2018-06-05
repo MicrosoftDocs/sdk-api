@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wsman.WSManSignalShell
+title: WSManSignalShell function
+author: windows-sdk-content
+description: Sends a control code to an existing command or to the shell itself.
+old-location: winrm\wsmansignalshell.htm
+old-project: WinRM
+ms.assetid: 9954097d-3e27-4f56-bf8c-3d9aba5c19b5
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: WSMAN_SIGNAL_SHELL_CODE_CTRL_BREAK, WSMAN_SIGNAL_SHELL_CODE_CTRL_C, WSMAN_SIGNAL_SHELL_CODE_TERMINATE, WSManSignalShell, WSManSignalShell function [Windows Remote Management], winrm.wsmansignalshell, wsman/WSManSignalShell
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wsman.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSManSessionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WsmSvc.dll
+api_name:
+-	WSManSignalShell
+product: Windows
+targetos: Windows
+req.lib: WsmSvc.lib
+req.dll: WsmSvc.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WSManSignalShell function

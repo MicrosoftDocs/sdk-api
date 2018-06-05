@@ -1,31 +1,55 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsvc.ChangeServiceConfigW
+title: ChangeServiceConfigW function
+author: windows-sdk-content
+description: Changes the configuration parameters of a service.
+old-location: base\changeserviceconfig.htm
+old-project: Services
+ms.assetid: add8a99b-aced-4341-9790-86efac76df6b
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ChangeServiceConfig, ChangeServiceConfig function, ChangeServiceConfigA, ChangeServiceConfigW, SERVICE_AUTO_START, SERVICE_BOOT_START, SERVICE_DEMAND_START, SERVICE_DISABLED, SERVICE_ERROR_CRITICAL, SERVICE_ERROR_IGNORE, SERVICE_ERROR_NORMAL, SERVICE_ERROR_SEVERE, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INTERACTIVE_PROCESS, SERVICE_KERNEL_DRIVER, SERVICE_SYSTEM_START, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_changeserviceconfig, base.changeserviceconfig, winsvc/ChangeServiceConfig, winsvc/ChangeServiceConfigA, winsvc/ChangeServiceConfigW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winsvc.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ChangeServiceConfigW (Unicode) and ChangeServiceConfigA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+-	sechost.dll
+-	API-MS-Win-Service-management-l2-1-0.dll
+-	API-MS-Win-Service-Winsvc-l1-1-0.dll
+-	API-MS-Win-Service-Winsvc-l1-2-0.dll
+api_name:
+-	ChangeServiceConfig
+-	ChangeServiceConfigA
+-	ChangeServiceConfigW
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # ChangeServiceConfigW function

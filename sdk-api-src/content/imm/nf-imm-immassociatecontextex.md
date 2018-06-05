@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imm.ImmAssociateContextEx
+title: ImmAssociateContextEx function
+author: windows-sdk-content
+description: Changes the association between the input method context and the specified window or its children.
+old-location: intl\immassociatecontextex.htm
+old-project: Intl
+ms.assetid: 7f44d274-b5e9-4feb-acd6-5c68b3f7d868
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IACE_CHILDREN, IACE_DEFAULT, IACE_IGNORENOCONTEXT, ImmAssociateContextEx, ImmAssociateContextEx function [Internationalization for Windows Applications], _win32_ImmAssociateContextEx, imm/ImmAssociateContextEx, intl.immassociatecontextex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: imm.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	imm32.dll
+-	Ext-MS-Win-imm-l1-1-0.dll
+-	ext-ms-win-imm-l1-1-1.dll
+api_name:
+-	ImmAssociateContextEx
+product: Windows
+targetos: Windows
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ImmAssociateContextEx function

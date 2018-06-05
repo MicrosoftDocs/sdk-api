@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.ICodecAPI.SetAllDefaults
+title: ICodecAPI::SetAllDefaults
+author: windows-sdk-content
+description: The SetAllDefaults method resets all codec properties to their default values.
+old-location: dshow\icodecapi_setalldefaults.htm
+old-project: DirectShow
+ms.assetid: b2f630be-a105-4f1b-9f9a-9d56c8853f35
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: ICodecAPI interface [DirectShow],SetAllDefaults method, ICodecAPI.SetAllDefaults, ICodecAPI::SetAllDefaults, ICodecAPISetAllDefaults, SetAllDefaults, SetAllDefaults method [DirectShow], SetAllDefaults method [DirectShow],ICodecAPI interface, dshow.icodecapi_setalldefaults, strmif/ICodecAPI::SetAllDefaults
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	ICodecAPI.SetAllDefaults
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # ICodecAPI::SetAllDefaults

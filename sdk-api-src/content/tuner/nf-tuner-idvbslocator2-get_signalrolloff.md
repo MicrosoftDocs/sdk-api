@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tuner.IDVBSLocator2.get_SignalRollOff
+title: IDVBSLocator2::get_SignalRollOff
+author: windows-sdk-content
+description: Specifies the roll-off factor for a Digital Video Broadcasting-Satellite, Second Generation (DVB-S2) signal.
+old-location: mstv\idvbslocator2_signalrolloff.htm
+old-project: mstv
+ms.assetid: 2c6ac5ef-4d89-430c-a6df-bef8dd00b89f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],SignalRollOff property, IDVBSLocator2.SignalRollOff, IDVBSLocator2.get_SignalRollOff, IDVBSLocator2::SignalRollOff, IDVBSLocator2::get_SignalRollOff, IDVBSLocator2::put_SignalRollOff, SignalRollOff property [Microsoft TV Technologies], SignalRollOff property [Microsoft TV Technologies],IDVBSLocator2 interface, get_SignalRollOff, mstv.idvbslocator2_signalrolloff, tuner/IDVBSLocator2::SignalRollOff, tuner/IDVBSLocator2::get_SignalRollOff, tuner/IDVBSLocator2::put_SignalRollOff
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tuner.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IDVBSLocator2.SignalRollOff
+-	IDVBSLocator2.get_SignalRollOff
+-	IDVBSLocator2.put_SignalRollOff
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IDVBSLocator2::get_SignalRollOff

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vds.IVdsVDisk.GetProperties
+title: IVdsVDisk::GetProperties
+author: windows-sdk-content
+description: Returns disk property information for the volume where the virtual disk resides.
+old-location: base\ivdsvdisk_getproperties.htm
+old-project: VDS
+ms.assetid: 0ecfbd1f-2f67-4d79-b081-7df071b070a4
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: GetProperties, GetProperties method, GetProperties method,IVdsVDisk interface, IVdsVDisk interface,GetProperties method, IVdsVDisk.GetProperties, IVdsVDisk::GetProperties, base.ivdsvdisk_getproperties, vds/IVdsVDisk::GetProperties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VOLUME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsVDisk.GetProperties
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsVDisk::GetProperties

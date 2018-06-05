@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsprov.IVssHardwareSnapshotProvider.OnLunEmpty
+title: IVssHardwareSnapshotProvider::OnLunEmpty
+author: windows-sdk-content
+description: Called whenever VSS determines that a shadow copy LUN contains no interesting data.
+old-location: base\ivsshardwaresnapshotprovider_onlunempty.htm
+old-project: VSS
+ms.assetid: 06a31704-9031-4ab9-84eb-685f6b648d27
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IVssHardwareSnapshotProvider interface [VSS],OnLunEmpty method, IVssHardwareSnapshotProvider.OnLunEmpty, IVssHardwareSnapshotProvider::OnLunEmpty, OnLunEmpty, OnLunEmpty method [VSS], OnLunEmpty method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_onlunempty, vsprov/IVssHardwareSnapshotProvider::OnLunEmpty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsprov.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_MGMT_OBJECT_UNION, *PVSS_MGMT_OBJECT_UNION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VsProv.h
+api_name:
+-	IVssHardwareSnapshotProvider.OnLunEmpty
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssHardwareSnapshotProvider::OnLunEmpty

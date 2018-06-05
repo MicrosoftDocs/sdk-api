@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vdshwprv._VDS_OBJECT_TYPE
+title: "_VDS_OBJECT_TYPE"
+author: windows-sdk-content
+description: Defines the set of valid types of a VDS object.
+old-location: base\vds_object_type.htm
+old-project: VDS
+ms.assetid: 63997e08-b6d3-4011-8946-56ef9832c0e4
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_OBJECT_TYPE, VDS_OBJECT_TYPE enumeration [VDS], VDS_OT_ASYNC, VDS_OT_CONTROLLER, VDS_OT_DISK, VDS_OT_DRIVE, VDS_OT_ENUM, VDS_OT_HBAPORT, VDS_OT_INIT_ADAPTER, VDS_OT_INIT_PORTAL, VDS_OT_LUN, VDS_OT_LUN_PLEX, VDS_OT_OPEN_VDISK, VDS_OT_PACK, VDS_OT_PORT, VDS_OT_PORTAL, VDS_OT_PORTAL_GROUP, VDS_OT_PROVIDER, VDS_OT_STORAGE_POOL, VDS_OT_SUB_SYSTEM, VDS_OT_TARGET, VDS_OT_UNKNOWN, VDS_OT_VDISK, VDS_OT_VOLUME, VDS_OT_VOLUME_PLEX, _VDS_OBJECT_TYPE, base.vds_object_type, vds/VDS_OBJECT_TYPE, vds/VDS_OT_ASYNC, vds/VDS_OT_CONTROLLER, vds/VDS_OT_DISK, vds/VDS_OT_DRIVE, vds/VDS_OT_ENUM, vds/VDS_OT_HBAPORT, vds/VDS_OT_INIT_ADAPTER, vds/VDS_OT_INIT_PORTAL, vds/VDS_OT_LUN, vds/VDS_OT_LUN_PLEX, vds/VDS_OT_OPEN_VDISK, vds/VDS_OT_PACK, vds/VDS_OT_PORT, vds/VDS_OT_PORTAL, vds/VDS_OT_PORTAL_GROUP, vds/VDS_OT_PROVIDER, vds/VDS_OT_STORAGE_POOL, vds/VDS_OT_SUB_SYSTEM, vds/VDS_OT_TARGET, vds/VDS_OT_UNKNOWN, vds/VDS_OT_VDISK, vds/VDS_OT_VOLUME, vds/VDS_OT_VOLUME_PLEX, vdshwprv/VDS_OBJECT_TYPE, vdshwprv/VDS_OT_ASYNC, vdshwprv/VDS_OT_CONTROLLER, vdshwprv/VDS_OT_DISK, vdshwprv/VDS_OT_DRIVE, vdshwprv/VDS_OT_ENUM, vdshwprv/VDS_OT_HBAPORT, vdshwprv/VDS_OT_INIT_ADAPTER, vdshwprv/VDS_OT_INIT_PORTAL, vdshwprv/VDS_OT_LUN, vdshwprv/VDS_OT_LUN_PLEX, vdshwprv/VDS_OT_OPEN_VDISK, vdshwprv/VDS_OT_PACK, vdshwprv/VDS_OT_PORT, vdshwprv/VDS_OT_PORTAL, vdshwprv/VDS_OT_PORTAL_GROUP, vdshwprv/VDS_OT_PROVIDER, vdshwprv/VDS_OT_STORAGE_POOL, vdshwprv/VDS_OT_SUB_SYSTEM, vdshwprv/VDS_OT_TARGET, vdshwprv/VDS_OT_UNKNOWN, vdshwprv/VDS_OT_VDISK, vdshwprv/VDS_OT_VOLUME, vdshwprv/VDS_OT_VOLUME_PLEX
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vdshwprv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_OBJECT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_OBJECT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_OBJECT_TYPE enumeration

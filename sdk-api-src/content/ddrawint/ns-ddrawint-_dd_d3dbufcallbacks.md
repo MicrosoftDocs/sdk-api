@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_D3DBUFCALLBACKS
+title: "_DD_D3DBUFCALLBACKS"
+author: windows-sdk-content
+description: The DD_D3DBUFCALLBACKS structure is used only by drivers that implement driver level allocation of command and vertex buffers.
+old-location: display\dd_d3dbufcallbacks.htm
+old-project: display
+ms.assetid: 59fa4043-6238-49f7-b9d6-58c1f215865a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_D3DBUFCALLBACKS, DD_D3DBUFCALLBACKS, DD_D3DBUFCALLBACKS structure [Display Devices], PDD_D3DBUFCALLBACKS, PDD_D3DBUFCALLBACKS structure pointer [Display Devices], _DD_D3DBUFCALLBACKS, ddrawint/DD_D3DBUFCALLBACKS, ddrawint/PDD_D3DBUFCALLBACKS, ddstrcts_cfe891c1-2660-460f-ac58-79f243ee902e.xml, display.dd_d3dbufcallbacks"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DD_D3DBUFCALLBACKS, *PDD_D3DBUFCALLBACKS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_D3DBUFCALLBACKS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_D3DBUFCALLBACKS structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:textstor.__MIDL___MIDL_itf_textstor_0000_0000_0003
+title: "__MIDL___MIDL_itf_textstor_0000_0000_0003"
+author: windows-sdk-content
+description: Elements of the TsRunType enumeration specify if a text run is visible, hidden, or is a private data type embedded in the text run.
+old-location: tsf\tsruntype.htm
+old-project: TSF
+ms.assetid: 47da6ff6-34c9-4c36-a254-ce8396723fcb
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: TS_RT_HIDDEN, TS_RT_OPAQUE, TS_RT_PLAIN, TsRunType, TsRunType enumeration [Text Services Framework], __MIDL___MIDL_itf_textstor_0000_0000_0003, _tsf_tsruntype_ref, textstor/TS_RT_HIDDEN, textstor/TS_RT_OPAQUE, textstor/TS_RT_PLAIN, textstor/TsRunType, tsf.tsruntype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: textstor.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Textstor.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TsRunType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Textstor.h
+api_name:
+-	TsRunType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # __MIDL___MIDL_itf_textstor_0000_0000_0003 enumeration

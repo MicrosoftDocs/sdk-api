@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:authif._RADIUS_ATTRIBUTE
+title: "_RADIUS_ATTRIBUTE"
+author: windows-sdk-content
+description: The RADIUS_ATTRIBUTE structure represents a RADIUS attribute or an extended attribute.
+old-location: nps\IAS_radius_attribute.htm
+old-project: Nps
+ms.assetid: 7c6e1a41-9736-4bd3-b709-779d871ead57
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PRADIUS_ATTRIBUTE, PRADIUS_ATTRIBUTE, PRADIUS_ATTRIBUTE structure pointer [Network Policy Server], RADIUS_ATTRIBUTE, RADIUS_ATTRIBUTE structure [Network Policy Server], _RADIUS_ATTRIBUTE, _ias_radius_attribute, authif/PRADIUS_ATTRIBUTE, authif/RADIUS_ATTRIBUTE, ias.radius_attribute, nps.IAS_radius_attribute"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: authif.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RADIUS_ATTRIBUTE, *PRADIUS_ATTRIBUTE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AuthIf.h
+api_name:
+-	RADIUS_ATTRIBUTE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _RADIUS_ATTRIBUTE structure

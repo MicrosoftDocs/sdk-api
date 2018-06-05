@@ -1,31 +1,59 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fileapi.DeleteVolumeMountPointW
+title: DeleteVolumeMountPointW function
+author: windows-sdk-content
+description: Deletes a drive letter or mounted folder.
+old-location: fs\deletevolumemountpoint.htm
+old-project: FileIO
+ms.assetid: b1a0a273-fa7f-4794-8b50-c74f00b0228d
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: DeleteVolumeMountPoint, DeleteVolumeMountPoint function [Files], DeleteVolumeMountPointA, DeleteVolumeMountPointW, _win32_deletevolumemountpoint, base.deletevolumemountpoint, fileapi/DeleteVolumeMountPoint, fileapi/DeleteVolumeMountPointA, fileapi/DeleteVolumeMountPointW, fs.deletevolumemountpoint, winbase/DeleteVolumeMountPoint, winbase/DeleteVolumeMountPointA, winbase/DeleteVolumeMountPointW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fileapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DeleteVolumeMountPointW (Unicode) and DeleteVolumeMountPointA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAM_INFO_LEVELS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-File-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-File-l1-2-0.dll
+-	API-MS-Win-Core-File-l1-2-1.dll
+-	API-MS-Win-Core-File-l1-2-2.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+-	API-Ms-Win-Core-File-Ansi-L1-1-0.dll
+-	Kernel32Legacy.dll
+api_name:
+-	DeleteVolumeMountPoint
+-	DeleteVolumeMountPointA
+-	DeleteVolumeMountPointW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # DeleteVolumeMountPointW function

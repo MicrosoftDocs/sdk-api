@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_FILE_SYSTEM_FLAG
+title: "_VDS_FILE_SYSTEM_FLAG"
+author: windows-sdk-content
+description: Defines the set of valid flags for a file system.
+old-location: base\vds_file_system_flag.htm
+old-project: VDS
+ms.assetid: 2598877b-03f0-4190-8dcc-41ea3cb9497f
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_FILE_SYSTEM_FLAG, VDS_FILE_SYSTEM_FLAG enumeration [VDS], VDS_FSF_ALLOCATION_UNIT_128K, VDS_FSF_ALLOCATION_UNIT_16K, VDS_FSF_ALLOCATION_UNIT_1K, VDS_FSF_ALLOCATION_UNIT_256K, VDS_FSF_ALLOCATION_UNIT_2K, VDS_FSF_ALLOCATION_UNIT_32K, VDS_FSF_ALLOCATION_UNIT_4K, VDS_FSF_ALLOCATION_UNIT_512, VDS_FSF_ALLOCATION_UNIT_64K, VDS_FSF_ALLOCATION_UNIT_8K, VDS_FSF_SUPPORT_COMPRESS, VDS_FSF_SUPPORT_EXTEND, VDS_FSF_SUPPORT_FORMAT, VDS_FSF_SUPPORT_MOUNT_POINT, VDS_FSF_SUPPORT_QUICK_FORMAT, VDS_FSF_SUPPORT_REMOVABLE_MEDIA, VDS_FSF_SUPPORT_SPECIFY_LABEL, _VDS_FILE_SYSTEM_FLAG, base.vds_file_system_flag, vds/VDS_FILE_SYSTEM_FLAG, vds/VDS_FSF_ALLOCATION_UNIT_128K, vds/VDS_FSF_ALLOCATION_UNIT_16K, vds/VDS_FSF_ALLOCATION_UNIT_1K, vds/VDS_FSF_ALLOCATION_UNIT_256K, vds/VDS_FSF_ALLOCATION_UNIT_2K, vds/VDS_FSF_ALLOCATION_UNIT_32K, vds/VDS_FSF_ALLOCATION_UNIT_4K, vds/VDS_FSF_ALLOCATION_UNIT_512, vds/VDS_FSF_ALLOCATION_UNIT_64K, vds/VDS_FSF_ALLOCATION_UNIT_8K, vds/VDS_FSF_SUPPORT_COMPRESS, vds/VDS_FSF_SUPPORT_EXTEND, vds/VDS_FSF_SUPPORT_FORMAT, vds/VDS_FSF_SUPPORT_MOUNT_POINT, vds/VDS_FSF_SUPPORT_QUICK_FORMAT, vds/VDS_FSF_SUPPORT_REMOVABLE_MEDIA, vds/VDS_FSF_SUPPORT_SPECIFY_LABEL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_FILE_SYSTEM_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	VDS_FILE_SYSTEM_FLAG
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_FILE_SYSTEM_FLAG enumeration

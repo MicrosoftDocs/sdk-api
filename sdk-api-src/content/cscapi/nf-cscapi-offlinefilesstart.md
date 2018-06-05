@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cscapi.OfflineFilesStart
+title: OfflineFilesStart function
+author: windows-sdk-content
+description: Starts the Offline Files service.
+old-location: of\offlinefilesstart.htm
+old-project: OfflineFiles
+ms.assetid: 79060780-A2C1-45CE-BB9A-75DF433C3F3C
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: OfflineFilesStart, OfflineFilesStart function [Offline Files], cscapi/OfflineFilesStart, of.offlinefilesstart
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cscapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_XML_X509DATA_ITEM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	CscApi.dll
+api_name:
+-	OfflineFilesStart
+product: Windows
+targetos: Windows
+req.lib: CscApi.lib
+req.dll: CscApi.dll
+req.irql: 
 ---
 
 # OfflineFilesStart function

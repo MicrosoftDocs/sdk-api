@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wtypes.tagSTATFLAG
+title: tagSTATFLAG
+author: windows-sdk-content
+description: Indicate whether the method should try to return a name in the pwcsName member of the STATSTG structure.
+old-location: stg\statflag.htm
+old-project: Stg
+ms.assetid: 9070b517-8ca5-455f-baee-0647b1895c08
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: STATFLAG, STATFLAG enumeration [Structured Storage], STATFLAG_DEFAULT, STATFLAG_NONAME, STATFLAG_NOOPEN, _stg_statflag, stg.statflag, tagSTATFLAG, wtypes/STATFLAG, wtypes/STATFLAG_DEFAULT, wtypes/STATFLAG_NONAME, wtypes/STATFLAG_NOOPEN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wtypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WTypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STATFLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WTypes.h
+api_name:
+-	STATFLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagSTATFLAG enumeration

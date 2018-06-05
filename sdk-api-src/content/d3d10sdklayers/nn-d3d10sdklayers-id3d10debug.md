@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:d3d10sdklayers.ID3D10Debug
+title: ID3D10Debug
+author: windows-sdk-content
+description: A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on.
+old-location: direct3d10\id3d10debug.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10debug.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 9243084e-1ae3-39f6-3e6b-d8150af7e0cc, ID3D10Debug, ID3D10Debug interface [Direct3D 10], ID3D10Debug interface [Direct3D 10],described, d3d10sdklayers/ID3D10Debug, direct3d10.id3d10debug
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: d3d10sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_MESSAGE_SEVERITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10.lib
+-	D3D10.dll
+api_name:
+-	ID3D10Debug
+product: Windows
+targetos: Windows
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D10Debug interface

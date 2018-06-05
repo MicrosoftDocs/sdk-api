@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:propsys.PROPDESC_AGGREGATION_TYPE
+title: PROPDESC_AGGREGATION_TYPE
+author: windows-sdk-content
+description: Describes how property values are displayed when multiple items are selected.
+old-location: properties\PROPDESC_AGGREGATION_TYPE.htm
+old-project: properties
+ms.assetid: 7f42d7dd-cc8e-444f-a4df-2d67362486f2
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PDAT_AVERAGE, PDAT_DATERANGE, PDAT_DEFAULT, PDAT_FIRST, PDAT_MAX, PDAT_MIN, PDAT_SUM, PDAT_UNION, PROPDESC_AGGREGATION_TYPE, PROPDESC_AGGREGATION_TYPE enumeration [Windows Properties], _shell_PROPDESC_AGGREGATION_TYPE, properties.PROPDESC_AGGREGATION_TYPE, propsys/PDAT_AVERAGE, propsys/PDAT_DATERANGE, propsys/PDAT_DEFAULT, propsys/PDAT_FIRST, propsys/PDAT_MAX, propsys/PDAT_MIN, propsys/PDAT_SUM, propsys/PDAT_UNION, propsys/PROPDESC_AGGREGATION_TYPE, shell.PROPDESC_AGGREGATION_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPDESC_AGGREGATION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Propsys.h
+api_name:
+-	PROPDESC_AGGREGATION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PROPDESC_AGGREGATION_TYPE enumeration

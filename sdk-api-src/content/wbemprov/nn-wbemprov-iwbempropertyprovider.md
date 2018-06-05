@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:wbemprov.IWbemPropertyProvider
+title: IWbemPropertyProvider
+author: windows-sdk-content
+description: Supports retrieving and updating individual properties in an instance of a WMI class.
+old-location: wmi\iwbempropertyprovider.htm
+old-project: WmiSdk
+ms.assetid: 8a7910ae-4258-4486-80ff-82b1081083cc
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IWbemPropertyProvider, IWbemPropertyProvider interface [Windows Management Instrumentation], IWbemPropertyProvider interface [Windows Management Instrumentation],described, _hmm_iwbempropertyprovider, wbemprov/IWbemPropertyProvider, wmi.iwbempropertyprovider
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wbemprov.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wbemsvc.dll
+api_name:
+-	IWbemPropertyProvider
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemPropertyProvider interface

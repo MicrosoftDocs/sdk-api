@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uiautomationcore.TextDecorationLineStyle
+title: TextDecorationLineStyle
+author: windows-sdk-content
+description: Contains values that specify the OverlineStyle, StrikethroughStyle, and UnderlineStyle text attributes.
+old-location: winauto\uiauto_TextDecLineStyle.htm
+old-project: WinAuto
+ms.assetid: e9f618d6-656f-41e2-8ca5-32d7209e8058
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: TextDecorationLineStyle, TextDecorationLineStyle enumeration [Windows Accessibility], TextDecorationLineStyle_Dash, TextDecorationLineStyle_DashDot, TextDecorationLineStyle_DashDotDot, TextDecorationLineStyle_Dot, TextDecorationLineStyle_Double, TextDecorationLineStyle_DoubleWavy, TextDecorationLineStyle_LongDash, TextDecorationLineStyle_None, TextDecorationLineStyle_Other, TextDecorationLineStyle_Single, TextDecorationLineStyle_ThickDash, TextDecorationLineStyle_ThickDashDot, TextDecorationLineStyle_ThickDashDotDot, TextDecorationLineStyle_ThickDot, TextDecorationLineStyle_ThickLongDash, TextDecorationLineStyle_ThickSingle, TextDecorationLineStyle_ThickWavy, TextDecorationLineStyle_Wavy, TextDecorationLineStyle_WordsOnly, uiauto.uiauto_TextDecLineStyle, uiauto_TextDecLineStyle, uiautomationcore/TextDecorationLineStyle, uiautomationcore/TextDecorationLineStyle_Dash, uiautomationcore/TextDecorationLineStyle_DashDot, uiautomationcore/TextDecorationLineStyle_DashDotDot, uiautomationcore/TextDecorationLineStyle_Dot, uiautomationcore/TextDecorationLineStyle_Double, uiautomationcore/TextDecorationLineStyle_DoubleWavy, uiautomationcore/TextDecorationLineStyle_LongDash, uiautomationcore/TextDecorationLineStyle_None, uiautomationcore/TextDecorationLineStyle_Other, uiautomationcore/TextDecorationLineStyle_Single, uiautomationcore/TextDecorationLineStyle_ThickDash, uiautomationcore/TextDecorationLineStyle_ThickDashDot, uiautomationcore/TextDecorationLineStyle_ThickDashDotDot, uiautomationcore/TextDecorationLineStyle_ThickDot, uiautomationcore/TextDecorationLineStyle_ThickLongDash, uiautomationcore/TextDecorationLineStyle_ThickSingle, uiautomationcore/TextDecorationLineStyle_ThickWavy, uiautomationcore/TextDecorationLineStyle_Wavy, uiautomationcore/TextDecorationLineStyle_WordsOnly, winauto.uiauto_TextDecLineStyle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	TextDecorationLineStyle
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TextDecorationLineStyle enumeration

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:audioenginebaseapo.IAudioSystemEffectsCustomFormats.GetFormatCount
+title: IAudioSystemEffectsCustomFormats::GetFormatCount
+author: windows-sdk-content
+description: The GetFormatCount method retrieves the number of custom formats supported by the system effects audio processing object (sAPO).
+old-location: audio\iaudiosystemeffectscustomformats_getformatcount.htm
+old-project: audio
+ms.assetid: 70d215e5-e30a-4fbd-b9c3-c988c6bbd941
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetFormatCount, GetFormatCount method [Audio Devices], GetFormatCount method [Audio Devices],IAudioSystemEffectsCustomFormats interface, IAudioSystemEffectsCustomFormats interface [Audio Devices],GetFormatCount method, IAudioSystemEffectsCustomFormats.GetFormatCount, IAudioSystemEffectsCustomFormats::GetFormatCount, audio.iaudiosystemeffectscustomformats_getformatcount, audio_syseffects_r_1f186185-3eb9-4683-a2e1-bbcc9598943d.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioenginebaseapo.h
+req.include-header: Audioenginebaseapo.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APO_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	audioenginebaseapo.h
+api_name:
+-	IAudioSystemEffectsCustomFormats.GetFormatCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: All levels.
 ---
 
 # IAudioSystemEffectsCustomFormats::GetFormatCount

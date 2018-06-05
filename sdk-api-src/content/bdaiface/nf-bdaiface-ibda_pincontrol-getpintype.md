@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_PinControl.GetPinType
+title: IBDA_PinControl::GetPinType
+author: windows-sdk-content
+description: The GetPinType method retrieves the type of the pin.
+old-location: mstv\ibda_pincontrol_getpintype.htm
+old-project: mstv
+ms.assetid: 97ab3873-be75-48a5-b854-303aec3d7058
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetPinType, GetPinType method [Microsoft TV Technologies], GetPinType method [Microsoft TV Technologies],IBDA_PinControl interface, IBDA_PinControl interface [Microsoft TV Technologies],GetPinType method, IBDA_PinControl.GetPinType, IBDA_PinControl::GetPinType, IBDA_PinControlGetPinType, bdaiface/IBDA_PinControl::GetPinType, mstv.ibda_pincontrol_getpintype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_PinControl.GetPinType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_PinControl::GetPinType

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:authif.PRADIUS_EXTENSION_PROCESS_EX
+title: PRADIUS_EXTENSION_PROCESS_EX
+author: windows-sdk-content
+description: The RadiusExtensionProcessEx function is an application-defined function and is called by NPS for each authentication or accounting packet that NPS receives from the network access server (NAS).
+old-location: nps\IAS_radiusextensionprocessex.htm
+old-project: Nps
+ms.assetid: 7525b719-5741-4256-8759-421a407b9e44
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PRADIUS_EXTENSION_PROCESS_EX, PRADIUS_EXTENSION_PROCESS_EX callback, PRADIUS_EXTENSION_PROCESS_EX callback function [Network Policy Server], RadiusExtensionProcessEx, _ias_radiusextensionprocessex, authif/PRADIUS_EXTENSION_PROCESS_EX, ias.radiusextensionprocessex, nps.IAS_radiusextensionprocessex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: authif.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUDIO_STREAM_CATEGORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Authif.h
+api_name:
+-	PRADIUS_EXTENSION_PROCESS_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PRADIUS_EXTENSION_PROCESS_EX callback function

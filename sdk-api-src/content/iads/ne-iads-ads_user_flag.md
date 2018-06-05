@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iads.ADS_USER_FLAG
+title: ADS_USER_FLAG
+author: windows-sdk-content
+description: Defines the flags used for setting user properties in the directory.
+old-location: adsi\ads_user_flag_enum.htm
+old-project: ADSI
+ms.assetid: c385ef3d-9de4-4938-9733-ad8fe90fb2dc
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ADS_UF_ACCOUNTDISABLE, ADS_UF_DONT_EXPIRE_PASSWD, ADS_UF_DONT_REQUIRE_PREAUTH, ADS_UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, ADS_UF_HOMEDIR_REQUIRED, ADS_UF_INTERDOMAIN_TRUST_ACCOUNT, ADS_UF_LOCKOUT, ADS_UF_MNS_LOGON_ACCOUNT, ADS_UF_NORMAL_ACCOUNT, ADS_UF_NOT_DELEGATED, ADS_UF_PASSWD_CANT_CHANGE, ADS_UF_PASSWD_NOTREQD, ADS_UF_PASSWORD_EXPIRED, ADS_UF_SCRIPT, ADS_UF_SERVER_TRUST_ACCOUNT, ADS_UF_SMARTCARD_REQUIRED, ADS_UF_TEMP_DUPLICATE_ACCOUNT, ADS_UF_TRUSTED_FOR_DELEGATION, ADS_UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, ADS_UF_USE_DES_KEY_ONLY, ADS_UF_WORKSTATION_TRUST_ACCOUNT, ADS_USER_FLAG, ADS_USER_FLAG_ENUM, ADS_USER_FLAG_ENUM enumeration [ADSI], _ds_ads_user_flag_enum, adsi.ads__user__flag__enum, adsi.ads_user_flag_enum, iads/ADS_UF_ACCOUNTDISABLE, iads/ADS_UF_DONT_EXPIRE_PASSWD, iads/ADS_UF_DONT_REQUIRE_PREAUTH, iads/ADS_UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, iads/ADS_UF_HOMEDIR_REQUIRED, iads/ADS_UF_INTERDOMAIN_TRUST_ACCOUNT, iads/ADS_UF_LOCKOUT, iads/ADS_UF_MNS_LOGON_ACCOUNT, iads/ADS_UF_NORMAL_ACCOUNT, iads/ADS_UF_NOT_DELEGATED, iads/ADS_UF_PASSWD_CANT_CHANGE, iads/ADS_UF_PASSWD_NOTREQD, iads/ADS_UF_PASSWORD_EXPIRED, iads/ADS_UF_SCRIPT, iads/ADS_UF_SERVER_TRUST_ACCOUNT, iads/ADS_UF_SMARTCARD_REQUIRED, iads/ADS_UF_TEMP_DUPLICATE_ACCOUNT, iads/ADS_UF_TRUSTED_FOR_DELEGATION, iads/ADS_UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, iads/ADS_UF_USE_DES_KEY_ONLY, iads/ADS_UF_WORKSTATION_TRUST_ACCOUNT, iads/ADS_USER_FLAG_ENUM
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: IAccess.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_USER_FLAG_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_USER_FLAG_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ADS_USER_FLAG enumeration

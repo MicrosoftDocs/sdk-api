@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:gpedit.tag_GPOBROWSEINFO
+title: tag_GPOBROWSEINFO
+author: windows-sdk-content
+description: The GPOBROWSEINFO structure contains information that the BrowseForGPO function uses to initialize a GPO browser dialog box. After the user closes the dialog box, the system returns information about the user's actions in this structure.
+old-location: policy\gpobrowseinfo_str.htm
+old-project: Policy
+ms.assetid: a0d038f2-66f1-4a79-b9e7-189cb57b80a9
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPGPOBROWSEINFO, GPHintDomain, GPHintMachine, GPHintOrganizationalUnit, GPHintSite, GPHintUnknown, GPOBROWSEINFO, GPOBROWSEINFO structure [Group Policy], GPOTypeDS, GPOTypeLocal, GPOTypeRemote, GPO_BROWSE_DISABLE_NEW, GPO_BROWSE_INITTOALL, GPO_BROWSE_NOCOMPUTERS, GPO_BROWSE_NODSGPOS, GPO_BROWSE_OPENBUTTON, LPGPOBROWSEINFO, LPGPOBROWSEINFO structure pointer [Group Policy], _win32_gpobrowseinfo_str, gpedit/GPOBROWSEINFO, gpedit/LPGPOBROWSEINFO, policy.gpobrowseinfo_str, tag_GPOBROWSEINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: gpedit.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GPOBROWSEINFO, *LPGPOBROWSEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Gpedit.h
+api_name:
+-	GPOBROWSEINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tag_GPOBROWSEINFO structure

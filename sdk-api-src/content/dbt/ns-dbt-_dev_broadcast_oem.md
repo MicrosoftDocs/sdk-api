@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dbt._DEV_BROADCAST_OEM
+title: "_DEV_BROADCAST_OEM"
+author: windows-sdk-content
+description: Contains information about a OEM-defined device type.
+old-location: base\dev_broadcast_oem_str.htm
+old-project: DevIO
+ms.assetid: 32d72002-1e67-4f72-8821-6712eb898e7d
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: DEV_BROADCAST_OEM, DEV_BROADCAST_OEM structure, PDEV_BROADCAST_OEM, PDEV_BROADCAST_OEM structure pointer, _DEV_BROADCAST_OEM, _win32_dev_broadcast_oem_str, base.dev_broadcast_oem_str, dbt/DEV_BROADCAST_OEM, dbt/PDEV_BROADCAST_OEM
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dbt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEV_BROADCAST_OEM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dbt.h
+api_name:
+-	DEV_BROADCAST_OEM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DEV_BROADCAST_OEM structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dsclient.DsGetFriendlyClassName
+title: DsGetFriendlyClassName function
+author: windows-sdk-content
+description: Retrieves the localized name for an object class.
+old-location: ad\dsgetfriendlyclassname.htm
+old-project: AD
+ms.assetid: 944b7227-2f22-418e-a9da-6fddec66876b
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DsGetFriendlyClassName, DsGetFriendlyClassName function [Active Directory], ad.dsgetfriendlyclassname, dsclient/DsGetFriendlyClassName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dsclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dsuiext.dll
+api_name:
+-	DsGetFriendlyClassName
+product: Windows
+targetos: Windows
+req.lib: Dsuiext.lib
+req.dll: Dsuiext.dll
+req.irql: 
 ---
 
 # DsGetFriendlyClassName function

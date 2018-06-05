@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CryptGetTimeValidObject
+title: CryptGetTimeValidObject function
+author: windows-sdk-content
+description: Retrieves a CRL, an OCSP response, or CTL object that is valid within a given context and time.
+old-location: security\cryptgettimevalidobject.htm
+old-project: SecCrypto
+ms.assetid: dd639b43-1560-4e9f-a778-9e20484ae012
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CRYPT_ACCUMULATIVE_TIMEOUT, CRYPT_CACHE_ONLY_RETRIEVAL, CRYPT_CHECK_FRESHNESS_TIME_VALIDITY, CRYPT_DONT_CHECK_TIME_VALIDITY, CRYPT_DONT_VERIFY_SIGNATURE, CRYPT_KEEP_TIME_VALID, CRYPT_OCSP_ONLY_RETRIEVAL, CRYPT_WIRE_ONLY_RETRIEVAL, CryptGetTimeValidObject, CryptGetTimeValidObject function [Security], TIME_VALID_OID_GET_CRL, TIME_VALID_OID_GET_CRL_FROM_CERT, TIME_VALID_OID_GET_CTL, TIME_VALID_OID_GET_FRESHEST_CRL_FROM_CERT, TIME_VALID_OID_GET_FRESHEST_CRL_FROM_CRL, security.cryptgettimevalidobject, wincrypt/CryptGetTimeValidObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cryptnet.dll
+api_name:
+-	CryptGetTimeValidObject
+product: Windows
+targetos: Windows
+req.lib: Cryptnet.lib
+req.dll: Cryptnet.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CryptGetTimeValidObject function

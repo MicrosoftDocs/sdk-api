@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:perflib._PERF_COUNTERSET_INFO
+title: "_PERF_COUNTERSET_INFO"
+author: windows-sdk-content
+description: Defines information about a counter set that a provider uses. The CTRPP tool automatically generates this structure based on the schema you specify.
+old-location: perf\perf_counterset_info.htm
+old-project: PerfCtrs
+ms.assetid: bf48dcdb-6fdd-4093-9006-a53690c3ed86
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PPERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO structure [Perf], PERF_COUNTERSET_INFO,*PPERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO,*PPERF_COUNTERSET_INFO structure [Perf], PERF_COUNTERSET_INSTANCE_AGGREGATE, PERF_COUNTERSET_MULTI_AGGREGATE, PERF_COUNTERSET_MULTI_INSTANCES, PERF_COUNTERSET_SINGLE_AGGREGATE, PERF_COUNTERSET_SINGLE_AGGREGATE_HISTORY, PERF_COUNTERSET_SINGLE_INSTANCE, _PERF_COUNTERSET_INFO, base.perf_counterset_info, perf.perf_counterset_info, perflib/PERF_COUNTERSET_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: perflib.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Perflib.h
+api_name:
+-	PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PERF_COUNTERSET_INFO structure

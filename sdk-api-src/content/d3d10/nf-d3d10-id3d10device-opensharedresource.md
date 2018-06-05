@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d10.ID3D10Device.OpenSharedResource
+title: ID3D10Device::OpenSharedResource
+author: windows-sdk-content
+description: Give a device access to a shared resource created on a different Direct3d device.
+old-location: direct3d10\id3d10device_opensharedresource.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10device_opensharedresource.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: ID3D10Device interface [Direct3D 10],OpenSharedResource method, ID3D10Device.OpenSharedResource, ID3D10Device::OpenSharedResource, OpenSharedResource, OpenSharedResource method [Direct3D 10], OpenSharedResource method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OpenSharedResource, direct3d10.id3d10device_opensharedresource, e1b41a59-f80c-625e-e0a5-cc59636f10e1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3d10.h
+api_name:
+-	ID3D10Device.OpenSharedResource
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D10Device::OpenSharedResource

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:messagedispatcherapi.CoSetMessageDispatcher
+title: CoSetMessageDispatcher function
+author: windows-sdk-content
+description: Registers or unregisters the per-thread message dispatcher that is to be invoked when there are window messages available to dispatch within COM wait APIs on an ASTA thread.
+old-location: com\cosetmessagedispatcher.htm
+old-project: com
+ms.assetid: 3D6CFE01-8D3D-474E-A7D0-9B129ECD4EEA
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: CoSetMessageDispatcher, CoSetMessageDispatcher function [COM], com.cosetmessagedispatcher, messagedispatcherapi/CoSetMessageDispatcher
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: messagedispatcherapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIN32_MEMORY_REGION_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	messagedispatcherapi.h
+api_name:
+-	CoSetMessageDispatcher
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CoSetMessageDispatcher function

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dinputd.IDirectInputJoyConfig8.DeleteConfig
+title: IDirectInputJoyConfig8::DeleteConfig
+author: windows-sdk-content
+description: The IDirectInputJoyConfig8::DeleteConfig method deletes configuration information about a joystick.
+old-location: hid\idirectinputjoyconfig8_deleteconfig.htm
+old-project: hid
+ms.assetid: f589e5f4-e003-4a42-b7e6-10b5b14d1aa6
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: DeleteConfig, DeleteConfig method [Human Input Devices], DeleteConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],DeleteConfig method, IDirectInputJoyConfig8.DeleteConfig, IDirectInputJoyConfig8::DeleteConfig, di_ref_453b121d-6edc-4674-ab3c-f610ba900831.xml, dinputd/IDirectInputJoyConfig8::DeleteConfig, hid.idirectinputjoyconfig8_deleteconfig
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dinputd.h
+api_name:
+-	IDirectInputJoyConfig8.DeleteConfig
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputJoyConfig8::DeleteConfig

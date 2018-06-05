@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winevt._EVT_LOGIN_CLASS
+title: "_EVT_LOGIN_CLASS"
+author: windows-sdk-content
+description: Defines the types of connection methods you can use to connect to the remote computer.
+old-location: wes\evt_login_class.htm
+old-project: WES
+ms.assetid: 8d53402b-2d2c-4f93-8e98-4449701052b0
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: EVT_LOGIN_CLASS, EvtRpcLogin, _EVT_LOGIN_CLASS, _EVT_LOGIN_CLASS enumeration [EventLog], wes.evt_login_class, winevt/EvtRpcLogin, winevt/_EVT_LOGIN_CLASS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winevt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVT_LOGIN_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinEvt.h
+api_name:
+-	EVT_LOGIN_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _EVT_LOGIN_CLASS enumeration

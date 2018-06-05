@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.DVD_TextCharSet
+title: DVD_TextCharSet
+author: windows-sdk-content
+description: Defines which character set a specified string is encoded with.
+old-location: dshow\dvd_textcharset.htm
+old-project: DirectShow
+ms.assetid: ee7d09e1-6274-4993-914e-d8f5efeb5f90
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DVD_CharSet_ISO646, DVD_CharSet_ISO8859_1, DVD_CharSet_JIS_Roman_Kanji, DVD_CharSet_ShiftJIS_Kanji_Roman_Katakana, DVD_CharSet_Unicode, DVD_TextCharSet, DVD_TextCharSet , DVD_TextCharSet enumeration [DirectShow], DVD_TextCharSetEnumeration, dshow.dvd_textcharset, strmif/DVD_CharSet_ISO646, strmif/DVD_CharSet_ISO8859_1, strmif/DVD_CharSet_JIS_Roman_Kanji, strmif/DVD_CharSet_ShiftJIS_Kanji_Roman_Katakana, strmif/DVD_CharSet_Unicode, strmif/DVD_TextCharSet
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	DVD_TextCharSet
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # DVD_TextCharSet enumeration

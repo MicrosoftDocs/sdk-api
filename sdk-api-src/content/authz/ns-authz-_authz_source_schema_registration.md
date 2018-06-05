@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:authz._AUTHZ_SOURCE_SCHEMA_REGISTRATION
+title: "_AUTHZ_SOURCE_SCHEMA_REGISTRATION"
+author: windows-sdk-content
+description: Specifies information about source schema registration.
+old-location: security\authz_source_schema_registration.htm
+old-project: SecAuthZ
+ms.assetid: 8b4d6e14-fb9c-428a-bd94-34eba668edc6
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PAUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_ALLOW_MULTIPLE_SOURCE_INSTANCES, AUTHZ_MIGRATED_LEGACY_PUBLISHER, AUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_SOURCE_SCHEMA_REGISTRATION structure [Security], PAUTHZ_SOURCE_SCHEMA_REGISTRATION, PAUTHZ_SOURCE_SCHEMA_REGISTRATION structure pointer [Security], _AUTHZ_SOURCE_SCHEMA_REGISTRATION, authz/AUTHZ_SOURCE_SCHEMA_REGISTRATION, authz/PAUTHZ_SOURCE_SCHEMA_REGISTRATION, security.authz_source_schema_registration"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: authz.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTHZ_SOURCE_SCHEMA_REGISTRATION, *PAUTHZ_SOURCE_SCHEMA_REGISTRATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Authz.h
+api_name:
+-	AUTHZ_SOURCE_SCHEMA_REGISTRATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _AUTHZ_SOURCE_SCHEMA_REGISTRATION structure

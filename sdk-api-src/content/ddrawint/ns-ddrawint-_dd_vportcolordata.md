@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_VPORTCOLORDATA
+title: "_DD_VPORTCOLORDATA"
+author: windows-sdk-content
+description: The DD_VPORTCOLORDATA structure contains the video port extensions (VPE) object color control information.
+old-location: display\dd_vportcolordata.htm
+old-project: display
+ms.assetid: b52bbd7e-2c80-4cfb-b0c5-7900993f4a3a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_VPORTCOLORDATA, DD_VPORTCOLORDATA, DD_VPORTCOLORDATA structure [Display Devices], _DD_VPORTCOLORDATA, ddrawint/DD_VPORTCOLORDATA, ddstrcts_8dc16578-631f-406e-94da-510e6f8b1e24.xml, display.dd_vportcolordata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_VPORTCOLORDATA, DD_VPORTCOLORDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_VPORTCOLORDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_VPORTCOLORDATA structure

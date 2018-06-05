@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:camerauicontrol.ICameraUIControl.Close
+title: ICameraUIControl::Close
+author: windows-sdk-content
+description: Closes the user interface control.
+old-location: winprog\icamerauicontrol_close.htm
+old-project: DevNotes
+ms.assetid: d1f73422-37e9-488e-92e6-8e8dd99af57f
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: Close, Close method [Windows API], Close method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],Close method, ICameraUIControl.Close, ICameraUIControl::Close, camerauicontrol/ICameraUIControl::Close, winprog.icamerauicontrol_close
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: camerauicontrol.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CameraUIControl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CALLFRAME_MARSHALCONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	camerauicontrol.h
+api_name:
+-	ICameraUIControl.Close
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICameraUIControl::Close

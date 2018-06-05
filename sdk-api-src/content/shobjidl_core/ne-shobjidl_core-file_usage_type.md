@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core.FILE_USAGE_TYPE
+title: FILE_USAGE_TYPE
+author: windows-sdk-content
+description: Constants used by IFileIsInUse::GetUsage to indicate how a file in use is being used.
+old-location: shell\FILE_USAGE_TYPE.htm
+old-project: shell
+ms.assetid: 32b0e148-499a-401d-837c-8cea74cf9cac
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: FILE_USAGE_TYPE, FILE_USAGE_TYPE enumeration [Windows Shell], FUT_EDITING, FUT_GENERIC, FUT_PLAYING, _shell_FILE_USAGE_TYPE, shell.FILE_USAGE_TYPE, shobjidl_core/FILE_USAGE_TYPE, shobjidl_core/FUT_EDITING, shobjidl_core/FUT_GENERIC, shobjidl_core/FUT_PLAYING
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILE_USAGE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	FILE_USAGE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # FILE_USAGE_TYPE enumeration

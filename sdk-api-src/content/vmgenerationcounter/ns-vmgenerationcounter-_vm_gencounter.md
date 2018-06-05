@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vmgenerationcounter._VM_GENCOUNTER
+title: "_VM_GENCOUNTER"
+author: windows-sdk-content
+description: Describes a virtual machine generation identifier.
+old-location: hyperv\vm_gencounter.htm
+old-project: HyperV_v2
+ms.assetid: F1F2C867-2607-40AD-92B7-E7C07304D885
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PVM_GENCOUNTER, PVM_GENCOUNTER, PVM_GENCOUNTER structure pointer, VM_GENCOUNTER, VM_GENCOUNTER structure, _VM_GENCOUNTER, hyperv.vm_gencounter, vmgenerationcounter/PVM_GENCOUNTER, vmgenerationcounter/VM_GENCOUNTER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vmgenerationcounter.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VM_GENCOUNTER, *PVM_GENCOUNTER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vmgenerationcounter.h
+api_name:
+-	VM_GENCOUNTER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VM_GENCOUNTER structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rpcdce.RpcServerInterfaceGroupDeactivate
+title: RpcServerInterfaceGroupDeactivate function
+author: windows-sdk-content
+description: The RpcServerInterfaceGroupDeactivate function tells the RPC runtime to attempt to close the given interface group, optionally aborting the operation if there is outstanding client activity.
+old-location: rpc\rpcserverinterfacegroupdeactivate.htm
+old-project: Rpc
+ms.assetid: 625D8E6E-278F-4A96-879B-64294531D21B
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: RpcServerInterfaceGroupDeactivate, RpcServerInterfaceGroupDeactivate function [RPC], rpc.rpcserverinterfacegroupdeactivate, rpcdce/RpcServerInterfaceGroupDeactivate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rpcdce.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Rpcrt4.dll
+api_name:
+-	RpcServerInterfaceGroupDeactivate
+product: Windows
+targetos: Windows
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RpcServerInterfaceGroupDeactivate function

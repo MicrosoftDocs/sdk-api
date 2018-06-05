@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:contentpartner.IWMPContentPartner.Logout
+title: IWMPContentPartner::Logout
+author: windows-sdk-content
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Logout method ends the user's online store session.
+old-location: wmp\iwmpcontentpartner_logout.htm
+old-project: WMP
+ms.assetid: 8919dd66-1ec0-4551-8132-7067957bb545
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPContentPartner interface [Windows Media Player],Logout method, IWMPContentPartner.Logout, IWMPContentPartner::Logout, IWMPContentPartnerLogout, Logout, Logout method [Windows Media Player], Logout method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::Logout, wmp.iwmpcontentpartner_logout
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: contentpartner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPTransactionType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	contentpartner.h
+api_name:
+-	IWMPContentPartner.Logout
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IWMPContentPartner::Logout

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dxmini._DDGETCURRENTAUTOFLIPININFO
+title: "_DDGETCURRENTAUTOFLIPININFO"
+author: windows-sdk-content
+description: The DDGETCURRENTAUTOFLIPININFO structure contains the video port extensions (VPE) object information.
+old-location: display\ddgetcurrentautoflipininfo.htm
+old-project: display
+ms.assetid: 17443cab-7dc6-4bc9-ae0c-463c6f76d768
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDDGETCURRENTAUTOFLIPININFO, DDGETCURRENTAUTOFLIPININFO, DDGETCURRENTAUTOFLIPININFO structure [Display Devices], PDDGETCURRENTAUTOFLIPININFO, PDDGETCURRENTAUTOFLIPININFO structure pointer [Display Devices], Video_Structs_3476fe24-7963-4d7c-a794-ade9c2fdca57.xml, _DDGETCURRENTAUTOFLIPININFO, display.ddgetcurrentautoflipininfo, dxmini/DDGETCURRENTAUTOFLIPININFO, dxmini/PDDGETCURRENTAUTOFLIPININFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDGETCURRENTAUTOFLIPININFO, *PDDGETCURRENTAUTOFLIPININFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxmini.h
+api_name:
+-	DDGETCURRENTAUTOFLIPININFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DDGETCURRENTAUTOFLIPININFO structure

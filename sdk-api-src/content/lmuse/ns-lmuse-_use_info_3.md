@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmuse._USE_INFO_3
+title: "_USE_INFO_3"
+author: windows-sdk-content
+description: The USE_INFO_3 structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, domain name, and specific flags that describe connection behavior.
+old-location: netmgmt\use_info_3_str.htm
+old-project: NetMgmt
+ms.assetid: 3fb3ad35-f9e5-46ba-b930-fc2ccafd8ee9
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPUSE_INFO_3, *PUSE_INFO_3, CREATE_BYPASS_CSC, CREATE_NO_CONNECT, LPUSE_INFO_0, LPUSE_INFO_0 structure pointer [Network Management], PUSE_INFO_3, PUSE_INFO_3 structure pointer [Network Management], USE_DEFAULT_CREDENTIALS, USE_INFO_3, USE_INFO_3 structure [Network Management], _USE_INFO_3, lmuse/LPUSE_INFO_0, lmuse/PUSE_INFO_3, lmuse/USE_INFO_3, netmgmt.use_info_3_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmuse.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USE_INFO_3, *PUSE_INFO_3, *LPUSE_INFO_3
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmuse.h
+api_name:
+-	USE_INFO_3
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _USE_INFO_3 structure

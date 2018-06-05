@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IAlertDataCollector.get_TaskUserTextArguments
+title: IAlertDataCollector::get_TaskUserTextArguments
+author: windows-sdk-content
+description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IAlertDataCollector::Task property.
+old-location: pla\ialertdatacollector_taskusertextarguments.htm
+old-project: PLA
+ms.assetid: d432652a-3dea-43f0-a698-bb7ccb1cb79a
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IAlertDataCollector interface [PLA],TaskUserTextArguments property, IAlertDataCollector.TaskUserTextArguments, IAlertDataCollector.get_TaskUserTextArguments, IAlertDataCollector::TaskUserTextArguments, IAlertDataCollector::get_TaskUserTextArguments, IAlertDataCollector::put_TaskUserTextArguments, TaskUserTextArguments property [PLA], TaskUserTextArguments property [PLA],IAlertDataCollector interface, get_TaskUserTextArguments, pla.ialertdatacollector_taskusertextarguments, pla/IAlertDataCollector::TaskUserTextArguments, pla/IAlertDataCollector::get_TaskUserTextArguments, pla/IAlertDataCollector::put_TaskUserTextArguments
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IAlertDataCollector.TaskUserTextArguments
+-	IAlertDataCollector.get_TaskUserTextArguments
+-	IAlertDataCollector.put_TaskUserTextArguments
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAlertDataCollector::get_TaskUserTextArguments

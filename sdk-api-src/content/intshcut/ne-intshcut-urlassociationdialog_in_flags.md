@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:intshcut.urlassociationdialog_in_flags
+title: urlassociationdialog_in_flags
+author: windows-sdk-content
+description: The URLASSOCIATIONDIALOG_IN_FLAGS enumerated values are used with URLAssociationDialog to determine how it executes.
+old-location: shell\URLASSOCIATIONDIALOG_IN_FLAGS.htm
+old-project: shell
+ms.assetid: bbfb0063-0d7e-432b-8428-a7652933c670
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: URLASSOCDLG_FL_REGISTER_ASSOC, URLASSOCDLG_FL_USE_DEFAULT_NAME, URLASSOCIATIONDIALOG_IN_FLAGS, URLASSOCIATIONDIALOG_IN_FLAGS enumeration [Windows Shell], _win32_URLASSOCIATIONDIALOG_IN_FLAGS, intshcut/URLASSOCDLG_FL_REGISTER_ASSOC, intshcut/URLASSOCDLG_FL_USE_DEFAULT_NAME, intshcut/URLASSOCIATIONDIALOG_IN_FLAGS, shell.URLASSOCIATIONDIALOG_IN_FLAGS, urlassociationdialog_in_flags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: intshcut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URLASSOCIATIONDIALOG_IN_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Intshcut.h
+api_name:
+-	URLASSOCIATIONDIALOG_IN_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # urlassociationdialog_in_flags enumeration

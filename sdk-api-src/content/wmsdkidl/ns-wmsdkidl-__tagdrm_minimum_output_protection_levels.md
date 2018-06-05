@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wmsdkidl.__tagDRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
+title: "__tagDRM_MINIMUM_OUTPUT_PROTECTION_LEVELS"
+author: windows-sdk-content
+description: The DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure holds the minimum output protection levels (OPL) for playback of various types of content. A device must support the minimum OPL for a type of data to receive that type of data from the reader.
+old-location: wmformat\drm_minimum_output_protection_levels.htm
+old-project: wmformat
+ms.assetid: 4358c3ea-b65b-4446-b758-c1cd2d68d02a
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS, DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure [windows Media Format], __tagDRM_MINIMUM_OUTPUT_PROTECTION_LEVELS, structure [windows Media Format], wmformat.drm_minimum_output_protection_levels, wmsdkidl/DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wmsdkidl.h
+req.include-header: Drmexternals.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wmsdkidl.h
+api_name:
+-	DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # __tagDRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure

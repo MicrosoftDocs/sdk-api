@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpv6csdk._DHCPV6CAPI_PARAMS_ARRAY
+title: "_DHCPV6CAPI_PARAMS_ARRAY"
+author: windows-sdk-content
+description: Contains an array of requested parameters.
+old-location: dhcp\dhcpv6capi_params_array.htm
+old-project: DHCP
+ms.assetid: 2392586f-94a0-4667-b59a-88c0e1d88713
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCPV6CAPI_PARAMS_ARRAY, *PDHCPV6CAPI_PARAMS_ARRAY, DHCPV6CAPI_PARAMS_ARRAY, DHCPV6CAPI_PARAMS_ARRAY structure [DHCP], LPDHCPV6CAPI_PARAMS_ARRAY, LPDHCPV6CAPI_PARAMS_ARRAY structure pointer [DHCP], PDHCPV6CAPI_PARAMS_ARRAY, PDHCPV6CAPI_PARAMS_ARRAY structure pointer [DHCP], _DHCPV6CAPI_PARAMS_ARRAY, dhcp.dhcpv6capi_params_array, dhcpv6csdk/DHCPV6CAPI_PARAMS_ARRAY, dhcpv6csdk/LPDHCPV6CAPI_PARAMS_ARRAY, dhcpv6csdk/PDHCPV6CAPI_PARAMS_ARRAY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpv6csdk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCPV6CAPI_PARAMS_ARRAY, *PDHCPV6CAPI_PARAMS_ARRAY, *LPDHCPV6CAPI_PARAMS_ARRAY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpv6csdk.h
+api_name:
+-	DHCPV6CAPI_PARAMS_ARRAY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCPV6CAPI_PARAMS_ARRAY structure

@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:directmanipulation.DIRECTMANIPULATION_DRAG_DROP_STATUS
+title: DIRECTMANIPULATION_DRAG_DROP_STATUS
+author: windows-sdk-content
+description: Defines the drag-and-drop interaction states for the viewport.
+old-location: directmanipulation\directmanipulation_drag_drop_status.htm
+old-project: directmanipulation
+ms.assetid: BC3B8541-E18B-4654-80C8-C5EC1359BE2F
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: DIRECTMANIPULATION_DRAG_DROP_CANCELLED, DIRECTMANIPULATION_DRAG_DROP_COMMITTED, DIRECTMANIPULATION_DRAG_DROP_DRAGGING, DIRECTMANIPULATION_DRAG_DROP_PRESELECT, DIRECTMANIPULATION_DRAG_DROP_READY, DIRECTMANIPULATION_DRAG_DROP_SELECTING, DIRECTMANIPULATION_DRAG_DROP_STATUS, DIRECTMANIPULATION_DRAG_DROP_STATUS enumeration [Direct Manipulation], directmanipulation.directmanipulation_drag_drop_status, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CANCELLED, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_COMMITTED, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_DRAGGING, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_PRESELECT, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_READY, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_SELECTING, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_STATUS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DirectManipulation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIRECTMANIPULATION_DRAG_DROP_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	directmanipulation.h
+api_name:
+-	DIRECTMANIPULATION_DRAG_DROP_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DIRECTMANIPULATION_DRAG_DROP_STATUS enumeration

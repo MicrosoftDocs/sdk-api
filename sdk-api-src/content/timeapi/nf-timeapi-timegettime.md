@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:timeapi.timeGetTime
+title: timeGetTime function
+author: windows-sdk-content
+description: The timeGetTime function retrieves the system time, in milliseconds. The system time is the time elapsed since Windows was started.
+old-location: multimedia\timegettime.htm
+old-project: Multimedia
+ms.assetid: f9d3a7a9-1457-4993-92f1-f888780a565e
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "_win32_timeGetTime, mmsystem/timeGetTime, multimedia.timegettime, timeGetTime, timeGetTime function [Windows Multimedia], timeapi/timeGetTime"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: timeapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ThumbnailStreamCacheOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winmm.dll
+-	API-MS-Win-mm-Time-l1-1-0.dll
+-	Kernel32.dll
+-	Kernel32legacy.dll
+api_name:
+-	timeGetTime
+product: Windows
+targetos: Windows
+req.lib: Winmm.lib
+req.dll: Winmm.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # timeGetTime function

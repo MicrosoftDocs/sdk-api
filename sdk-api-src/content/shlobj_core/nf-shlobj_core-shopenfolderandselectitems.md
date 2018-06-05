@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlobj_core.SHOpenFolderAndSelectItems
+title: SHOpenFolderAndSelectItems function
+author: windows-sdk-content
+description: Opens a Windows Explorer window with specified items in a particular folder selected.
+old-location: shell\SHOpenFolderAndSelectItems.htm
+old-project: shell
+ms.assetid: 1d46142d-aa4a-49fc-89dc-44266d21e405
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: OFASI_EDIT, OFASI_OPENDESKTOP, SHOpenFolderAndSelectItems, SHOpenFolderAndSelectItems function [Windows Shell], shell.SHOpenFolderAndSelectItems, shell_SHOpenFolderAndSelectItems, shlobj_core/SHOpenFolderAndSelectItems
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETELISTOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+-	ext-ms-win-shell-shell32-l1-2-1.dll
+-	Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+api_name:
+-	SHOpenFolderAndSelectItems
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SHOpenFolderAndSelectItems function

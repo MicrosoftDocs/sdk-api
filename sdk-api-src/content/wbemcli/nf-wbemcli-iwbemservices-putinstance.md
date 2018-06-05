@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemServices.PutInstance
+title: IWbemServices::PutInstance
+author: windows-sdk-content
+description: The IWbemServices::PutInstance method creates or updates an instance of an existing class. The instance is written to the WMI repository.
+old-location: wmi\iwbemservices_putinstance.htm
+old-project: WmiSdk
+ms.assetid: 1e07b328-40f7-4e14-bf53-9a5cebfc23f6
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IWbemServices interface [Windows Management Instrumentation],PutInstance method, IWbemServices.PutInstance, IWbemServices::PutInstance, PutInstance, PutInstance method [Windows Management Instrumentation], PutInstance method [Windows Management Instrumentation],IWbemServices interface, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putinstance, wbemcli/IWbemServices::PutInstance, wmi.iwbemservices_putinstance
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fastprox.dll
+-	Esscli.dll
+-	FrameDyn.dll
+-	FrameDynOS.dll
+-	Ntevt.dll
+-	Stdprov.dll
+-	Viewprov.dll
+-	Wbemcomn.dll
+-	Wbemcore.dll
+-	Wbemess.dll
+-	Wbemsvc.dll
+-	Wmipicmp.dll
+-	Wmidcprv.dll
+-	Wmipjobj.dll
+-	Wmiprvsd.dll
+api_name:
+-	IWbemServices.PutInstance
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemServices::PutInstance

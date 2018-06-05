@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:vptype._AMVPDATAINFO
+title: "_AMVPDATAINFO"
+author: windows-sdk-content
+description: The AMVPDATAINFO structure specifies the data-specific characteristics of the VP input stream.
+old-location: dshow\amvpdatainfo.htm
+old-project: DirectShow
+ms.assetid: b71fc468-b0ba-4c75-b1db-b7802e598e96
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPAMVPDATAINFO, AMVPDATAINFO, AMVPDATAINFO structure [DirectShow], AMVPDATAINFOStructure, LPAMVPDATAINFO, LPAMVPDATAINFO structure pointer [DirectShow], _AMVPDATAINFO, dshow.amvpdatainfo, vptype/AMVPDATAINFO, vptype/LPAMVPDATAINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vptype.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPDATAINFO, *LPAMVPDATAINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	vptype.h
+api_name:
+-	AMVPDATAINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _AMVPDATAINFO structure

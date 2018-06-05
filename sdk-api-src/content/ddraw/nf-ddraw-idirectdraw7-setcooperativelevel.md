@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:ddraw.IDirectDraw7.SetCooperativeLevel
+title: IDirectDraw7::SetCooperativeLevel
+author: windows-sdk-content
+description: Determines the top-level behavior of the application.
+old-location: directdraw\idirectdraw7_setcooperativelevel.htm
+old-project: directdraw
+ms.assetid: f791732d-9dab-470a-9243-6f71fd3bcd54
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DDSCL_ALLOWMODEX, DDSCL_ALLOWREBOOT, DDSCL_CREATEDEVICEWINDOW, DDSCL_EXCLUSIVE, DDSCL_FPUPRESERVE, DDSCL_FPUSETUP, DDSCL_FULLSCREEN, DDSCL_MULTITHREADED, DDSCL_NORMAL, DDSCL_NOWINDOWCHANGES, DDSCL_SETDEVICEWINDOW, DDSCL_SETFOCUSWINDOW, IDirectDraw7 interface [DirectDraw],SetCooperativeLevel method, IDirectDraw7.SetCooperativeLevel, IDirectDraw7::SetCooperativeLevel, SetCooperativeLevel, SetCooperativeLevel method [DirectDraw], SetCooperativeLevel method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::SetCooperativeLevel, directdraw.idirectdraw7_setcooperativelevel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ddraw.dll
+api_name:
+-	IDirectDraw7.SetCooperativeLevel
+product: Windows
+targetos: Windows
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 ---
 
 # IDirectDraw7::SetCooperativeLevel

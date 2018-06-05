@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagLAYERPLANEDESCRIPTOR
+title: tagLAYERPLANEDESCRIPTOR
+author: windows-sdk-content
+description: The LAYERPLANEDESCRIPTOR structure describes the pixel format of a drawing surface.
+old-location: opengl\layerplanedescriptor.htm
+old-project: OpenGL
+ms.assetid: fdb0322d-503f-4c17-b438-f764d60da7f6
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPLAYERPLANEDESCRIPTOR, *PLAYERPLANEDESCRIPTOR, LAYERPLANEDESCRIPTOR, LAYERPLANEDESCRIPTOR structure [OpenGL], PLAYERPLANEDESCRIPTOR, PLAYERPLANEDESCRIPTOR structure pointer [OpenGL], _ogl_LAYERPLANEDESCRIPTOR, opengl.layerplanedescriptor, tagLAYERPLANEDESCRIPTOR, wingdi/LAYERPLANEDESCRIPTOR, wingdi/PLAYERPLANEDESCRIPTOR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LAYERPLANEDESCRIPTOR, *PLAYERPLANEDESCRIPTOR, *LPLAYERPLANEDESCRIPTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	LAYERPLANEDESCRIPTOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagLAYERPLANEDESCRIPTOR structure

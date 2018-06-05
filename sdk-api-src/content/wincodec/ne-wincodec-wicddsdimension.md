@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wincodec.WICDdsDimension
+title: WICDdsDimension
+author: windows-sdk-content
+description: Specifies the dimension type of the data contained in DDS image.
+old-location: wic\wicddsdimension.htm
+old-project: wic
+ms.assetid: 76CEBFD7-EE7D-48C4-9F88-9AD82C9FED55
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WICDdsDimension, WICDdsDimension enumeration [Windows Imaging Component], WICDdsTexture1D, WICDdsTexture2D, WICDdsTexture3D, WICDdsTextureCube, wic.wicddsdimension, wincodec/WICDdsDimension, wincodec/WICDdsTexture1D, wincodec/WICDdsTexture2D, wincodec/WICDdsTexture3D, wincodec/WICDdsTextureCube
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodec.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICDdsDimension
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincodec.h
+api_name:
+-	WICDdsDimension
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WICDdsDimension enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:objsel._DSOP_UPLEVEL_FILTER_FLAGS
+title: "_DSOP_UPLEVEL_FILTER_FLAGS"
+author: windows-sdk-content
+description: The DSOP_UPLEVEL_FILTER_FLAGS structure contains flags that indicate the filters to use for an up-level scope.
+old-location: ad\dsop_uplevel_filter_flags.htm
+old-project: AD
+ms.assetid: 54a0046a-7a20-4306-a32f-93e449280574
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DSOP_FILTER_BUILTIN_GROUPS, DSOP_FILTER_COMPUTERS, DSOP_FILTER_CONTACTS, DSOP_FILTER_DOMAIN_LOCAL_GROUPS_DL, DSOP_FILTER_DOMAIN_LOCAL_GROUPS_SE, DSOP_FILTER_GLOBAL_GROUPS_DL, DSOP_FILTER_GLOBAL_GROUPS_SE, DSOP_FILTER_INCLUDE_ADVANCED_VIEW, DSOP_FILTER_PASSWORDSETTINGS_OBJECTS, DSOP_FILTER_SERVICE_ACCOUNTS, DSOP_FILTER_UNIVERSAL_GROUPS_DL, DSOP_FILTER_UNIVERSAL_GROUPS_SE, DSOP_FILTER_USERS, DSOP_FILTER_WELL_KNOWN_PRINCIPALS, DSOP_UPLEVEL_FILTER_FLAGS, DSOP_UPLEVEL_FILTER_FLAGS structure [Active Directory], _DSOP_UPLEVEL_FILTER_FLAGS, _glines_dsop_uplevel_filter_flags, ad.dsop__uplevel__filter__flags, ad.dsop_uplevel_filter_flags, objsel/DSOP_UPLEVEL_FILTER_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: objsel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSOP_UPLEVEL_FILTER_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Objsel.h
+api_name:
+-	DSOP_UPLEVEL_FILTER_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _DSOP_UPLEVEL_FILTER_FLAGS structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:pchannel.tagCHANNEL_DEF
+title: tagCHANNEL_DEF
+author: windows-sdk-content
+description: Contains the name and options of a Remote Desktop Services virtual channel.
+old-location: termserv\channel_def_str.htm
+old-project: TermServ
+ms.assetid: 05fb703f-b43c-420f-aab5-b2d6533a6cab
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: CHANNEL_DEF, CHANNEL_DEF structure [Remote Desktop Services], CHANNEL_OPTION_COMPRESS, CHANNEL_OPTION_COMPRESS_RDP, CHANNEL_OPTION_ENCRYPT_CS, CHANNEL_OPTION_ENCRYPT_RDP, CHANNEL_OPTION_ENCRYPT_SC, CHANNEL_OPTION_INITIALIZED, CHANNEL_OPTION_PRI_HIGH, CHANNEL_OPTION_PRI_LOW, CHANNEL_OPTION_PRI_MED, CHANNEL_OPTION_REMOTE_CONTROL_PERSISTENT, CHANNEL_OPTION_SHOW_PROTOCOL, PAL_PACKED_STRUCT, PCHANNEL_DEF, PCHANNEL_DEF structure pointer [Remote Desktop Services], PPCHANNEL_DEF, PPCHANNEL_DEF structure pointer [Remote Desktop Services], _win32_channel_def_str, pchannel/CHANNEL_DEF, pchannel/PCHANNEL_DEF, pchannel/PPCHANNEL_DEF, tagCHANNEL_DEF, termserv.channel_def_str
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: pchannel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PAL_PACKED_STRUCT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pchannel.h
+api_name:
+-	CHANNEL_DEF
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagCHANNEL_DEF structure

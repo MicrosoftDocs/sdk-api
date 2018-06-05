@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:wingdi.DISPLAYCONFIG_DEVICE_INFO_TYPE
+title: DISPLAYCONFIG_DEVICE_INFO_TYPE
+author: windows-sdk-content
+description: The DISPLAYCONFIG_DEVICE_INFO_TYPE enumeration specifies the type of display device info to configure or obtain through the DisplayConfigSetDeviceInfo or DisplayConfigGetDeviceInfo function.
+old-location: display\displayconfig_device_info_type.htm
+old-project: display
+ms.assetid: 40cc67c0-1508-4b67-b297-5a8dabaabb16
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CCD_Enumerations_29e89f4b-f002-4493-a1dc-5dba3150a7f8.xml, DISPLAYCONFIG_DEVICE_INFO_FORCE_UINT32, DISPLAYCONFIG_DEVICE_INFO_GET_ADAPTER_NAME, DISPLAYCONFIG_DEVICE_INFO_GET_SOURCE_NAME, DISPLAYCONFIG_DEVICE_INFO_GET_SUPPORT_VIRTUAL_RESOLUTION, DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_BASE_TYPE, DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_NAME, DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_PREFERRED_MODE, DISPLAYCONFIG_DEVICE_INFO_SET_SUPPORT_VIRTUAL_RESOLUTION, DISPLAYCONFIG_DEVICE_INFO_SET_TARGET_PERSISTENCE, DISPLAYCONFIG_DEVICE_INFO_TYPE, DISPLAYCONFIG_DEVICE_INFO_TYPE enumeration [Display Devices], display.displayconfig_device_info_type, wingdi/DISPLAYCONFIG_DEVICE_INFO_FORCE_UINT32, wingdi/DISPLAYCONFIG_DEVICE_INFO_GET_ADAPTER_NAME, wingdi/DISPLAYCONFIG_DEVICE_INFO_GET_SOURCE_NAME, wingdi/DISPLAYCONFIG_DEVICE_INFO_GET_SUPPORT_VIRTUAL_RESOLUTION, wingdi/DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_BASE_TYPE, wingdi/DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_NAME, wingdi/DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_PREFERRED_MODE, wingdi/DISPLAYCONFIG_DEVICE_INFO_SET_SUPPORT_VIRTUAL_RESOLUTION, wingdi/DISPLAYCONFIG_DEVICE_INFO_SET_TARGET_PERSISTENCE, wingdi/DISPLAYCONFIG_DEVICE_INFO_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_DEVICE_INFO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wingdi.h
+api_name:
+-	DISPLAYCONFIG_DEVICE_INFO_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DISPLAYCONFIG_DEVICE_INFO_TYPE enumeration

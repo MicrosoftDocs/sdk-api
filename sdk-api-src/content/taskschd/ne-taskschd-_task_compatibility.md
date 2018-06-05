@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:taskschd._TASK_COMPATIBILITY
+title: "_TASK_COMPATIBILITY"
+author: windows-sdk-content
+description: Defines what versions of Task Scheduler or the AT command that the task is compatible with.
+old-location: taskschd\task_compatibility.htm
+old-project: TaskSchd
+ms.assetid: a842ab84-26e1-49bd-bf57-1a1073a17183
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: TASK_COMPATIBILITY, TASK_COMPATIBILITY enumeration [Task Scheduler], TASK_COMPATIBILITY_AT, TASK_COMPATIBILITY_V1, TASK_COMPATIBILITY_V2, _TASK_COMPATIBILITY, taskschd.task_compatibility, taskschd/TASK_COMPATIBILITY, taskschd/TASK_COMPATIBILITY_AT, taskschd/TASK_COMPATIBILITY_V1, taskschd/TASK_COMPATIBILITY_V2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_COMPATIBILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	taskschd.h
+api_name:
+-	TASK_COMPATIBILITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TASK_COMPATIBILITY enumeration

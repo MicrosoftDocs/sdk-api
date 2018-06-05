@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:coml2api.CreateILockBytesOnHGlobal
+title: CreateILockBytesOnHGlobal function
+author: windows-sdk-content
+description: Creates a byte array object that uses an HGLOBAL memory handle to store the bytes intended for in-memory storage of a compound file.
+old-location: stg\createilockbytesonhglobal.htm
+old-project: Stg
+ms.assetid: e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: CreateILockBytesOnHGlobal, CreateILockBytesOnHGlobal function [Structured Storage], _stg_createilockbytesonhglobal, coml2api/CreateILockBytesOnHGlobal, stg.createilockbytesonhglobal
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: coml2api.h
+req.include-header: Ole2.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ole32.dll
+-	Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+-	API-MS-Win-Core-Com-l2-1-1.dll
+-	coml2.dll
+api_name:
+-	CreateILockBytesOnHGlobal
+product: Windows
+targetos: Windows
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 ---
 
 # CreateILockBytesOnHGlobal function

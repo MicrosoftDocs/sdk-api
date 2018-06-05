@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iads.IADsExtension.Operate
+title: IADsExtension::Operate
+author: windows-sdk-content
+description: Interprets the control code and input parameters according to the specifications of the provider.
+old-location: adsi\iadsextension_operate.htm
+old-project: ADSI
+ms.assetid: c3cab311-6717-4d95-ad46-9da6047f84b8
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ADS_EXT_INITCREDENTIALS, IADsExtension interface [ADSI],Operate method, IADsExtension.Operate, IADsExtension::Operate, Operate, Operate method [ADSI], Operate method [ADSI],IADsExtension interface, _ds_iadsextension_operate, adsi.iadsextension__operate, adsi.iadsextension_operate, iads/IADsExtension::Operate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SD_FORMAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Activeds.dll
+api_name:
+-	IADsExtension.Operate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IADsExtension::Operate

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:lmdfs.NetDfsAddFtRoot
+title: NetDfsAddFtRoot function
+author: windows-sdk-content
+description: Creates a new domain-based Distributed File System (DFS) namespace. If the namespace already exists, the function adds the specified root target to it.
+old-location: dfs\netdfsaddftroot.htm
+old-project: Dfs
+ms.assetid: df3192f8-f8fc-40ad-a5ff-fb991befff09
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: NetDfsAddFtRoot, NetDfsAddFtRoot function [Distributed File System], _win32_netdfsaddftroot, dfs.netdfsaddftroot, fs.netdfsaddftroot, lmdfs/NetDfsAddFtRoot, netmgmt.netdfsaddftroot
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: lmdfs.h
+req.include-header: LmDfs.h, Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DFS_TARGET_PRIORITY_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netapi32.dll
+api_name:
+-	NetDfsAddFtRoot
+product: Windows
+targetos: Windows
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # NetDfsAddFtRoot function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:coml2api.tagSTGOPTIONS
+title: tagSTGOPTIONS
+author: windows-sdk-content
+description: Specifies features of the storage object, such as sector size, in the StgCreateStorageEx and StgOpenStorageEx functions.
+old-location: stg\stgoptions.htm
+old-project: Stg
+ms.assetid: dff6e626-d0c8-4b7c-85c7-c5cb2481d810
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: STGOPTIONS, STGOPTIONS structure [Structured Storage], _stg_stgoptions, coml2api/STGOPTIONS, stg.stgoptions, tagSTGOPTIONS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: coml2api.h
+req.include-header: Objbase.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STGOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	coml2api.h
+api_name:
+-	STGOPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagSTGOPTIONS structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msapofxproxy.KSPROPERTY_AUDIOEFFECTSDISCOVERY
+title: KSPROPERTY_AUDIOEFFECTSDISCOVERY
+author: windows-sdk-content
+description: The KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration defines a constant that is used by the list of audio processing objects (APOs).
+old-location: audio\ksproperty_audioeffectsdiscovery.htm
+old-project: audio
+ms.assetid: 35151A3F-3F33-4811-B50C-3F1EB197B7D8
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: KSPROPERTY_AUDIOEFFECTSDISCOVERY, KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration [Audio Devices], KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST, audio.ksproperty_audioeffectsdiscovery, msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY, msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msapofxproxy.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KSPROPERTY_AUDIOEFFECTSDISCOVERY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msapofxproxy.h
+api_name:
+-	KSPROPERTY_AUDIOEFFECTSDISCOVERY
+product: Windows
+targetos: Windows
+req.lib: MSAJApi.lib
+req.dll: MSAJApi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration

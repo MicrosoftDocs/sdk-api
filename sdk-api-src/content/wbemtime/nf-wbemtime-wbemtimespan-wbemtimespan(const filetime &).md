@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemtime.WBEMTimeSpan.WBEMTimeSpan(const FILETIME &)
+title: WBEMTimeSpan::WBEMTimeSpan(const FILETIME &)
+author: windows-sdk-content
+description: The WBEMTimeSpan class constructor creates a time span object. The constructor is overloaded.
+old-location: wmi\wbemtimespan_wbemtimespan.htm
+old-project: WmiSdk
+ms.assetid: 337dc247-9904-457a-a1f3-e1cf29b61126
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(const FILETIME &), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan constructors [Windows Management Instrumentation], WBEMTimeSpan::WBEMTimeSpan(const FILETIME &), WBEMTimeSpan::WbemTimeSpan, wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemtime.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	WBEMTimeSpan::WbemTimeSpan
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WBEMTimeSpan::WBEMTimeSpan(const FILETIME &)

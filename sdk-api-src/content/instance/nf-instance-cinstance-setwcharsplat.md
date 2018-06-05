@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:instance.CInstance.SetWCHARSplat
+title: CInstance::SetWCHARSplat
+author: windows-sdk-content
+description: The SetWCHARSplat method sets a string property.
+old-location: wmi\cinstance_setwcharsplat.htm
+old-project: WmiSdk
+ms.assetid: 3c565630-3626-4d60-9bd2-74c2218bec11
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CInstance interface [Windows Management Instrumentation],SetWCHARSplat method, CInstance.SetWCHARSplat, CInstance::SetWCHARSplat, SetWCHARSplat, SetWCHARSplat method [Windows Management Instrumentation], SetWCHARSplat method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setwcharsplat, instance/CInstance::SetWCHARSplat, wmi.cinstance_setwcharsplat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: instance.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TrustLevel
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CInstance.SetWCHARSplat
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CInstance::SetWCHARSplat

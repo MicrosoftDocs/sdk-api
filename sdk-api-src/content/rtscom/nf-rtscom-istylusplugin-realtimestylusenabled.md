@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rtscom.IStylusPlugin.RealTimeStylusEnabled
+title: IStylusPlugin::RealTimeStylusEnabled
+author: windows-sdk-content
+description: Notifies the implementing plug-in that the RealTimeStylus Class (RTS) object is enabled.
+old-location: tablet\istylusplugin_realtimestylusenabled.htm
+old-project: tablet
+ms.assetid: bd5689c1-32e2-4a37-8dd2-4525b16f4662
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IStylusPlugin interface [Tablet PC],RealTimeStylusEnabled method, IStylusPlugin.RealTimeStylusEnabled, IStylusPlugin::RealTimeStylusEnabled, RealTimeStylusEnabled, RealTimeStylusEnabled method [Tablet PC], RealTimeStylusEnabled method [Tablet PC],IStylusPlugin interface, bd5689c1-32e2-4a37-8dd2-4525b16f4662, rtscom/IStylusPlugin::RealTimeStylusEnabled, tablet.istylusplugin_realtimestylusenabled
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rtscom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: StylusQueue
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RTSCom.dll
+api_name:
+-	IStylusPlugin.RealTimeStylusEnabled
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IStylusPlugin::RealTimeStylusEnabled

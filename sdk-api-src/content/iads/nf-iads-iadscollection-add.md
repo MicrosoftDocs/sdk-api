@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iads.IADsCollection.Add
+title: IADsCollection::Add
+author: windows-sdk-content
+description: Adds a named item to the collection.
+old-location: adsi\iadscollection_add.htm
+old-project: ADSI
+ms.assetid: c4f0dc3e-238c-4fd3-adb7-9d467efc8c3d
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: Add, Add method [ADSI], Add method [ADSI],IADsCollection interface, IADsCollection interface [ADSI],Add method, IADsCollection.Add, IADsCollection::Add, _ds_iadscollection_add, adsi.iadscollection__add, adsi.iadscollection_add, iads/IADsCollection::Add
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SD_FORMAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Activeds.dll
+api_name:
+-	IADsCollection.Add
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IADsCollection::Add

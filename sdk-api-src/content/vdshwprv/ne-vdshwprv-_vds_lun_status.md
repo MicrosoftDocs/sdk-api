@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vdshwprv._VDS_LUN_STATUS
+title: "_VDS_LUN_STATUS"
+author: windows-sdk-content
+description: Defines the set of object status values for a LUN.
+old-location: base\vds_lun_status.htm
+old-project: VDS
+ms.assetid: dac82973-d8c0-430b-aeea-163af7d94d24
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PVDS_LUN_STATUS, VDS_LS_FAILED, VDS_LS_NOT_READY, VDS_LS_OFFLINE, VDS_LS_ONLINE, VDS_LS_UNKNOWN, VDS_LUN_STATUS, VDS_LUN_STATUS enumeration [VDS], _VDS_LUN_STATUS, base.vds_lun_status, vds/VDS_LS_FAILED, vds/VDS_LS_NOT_READY, vds/VDS_LS_OFFLINE, vds/VDS_LS_ONLINE, vds/VDS_LS_UNKNOWN, vds/VDS_LUN_STATUS, vdshwprv/VDS_LS_FAILED, vdshwprv/VDS_LS_NOT_READY, vdshwprv/VDS_LS_OFFLINE, vdshwprv/VDS_LS_ONLINE, vdshwprv/VDS_LS_UNKNOWN, vdshwprv/VDS_LUN_STATUS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vdshwprv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_LUN_STATUS, *PVDS_LUN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_LUN_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_LUN_STATUS enumeration

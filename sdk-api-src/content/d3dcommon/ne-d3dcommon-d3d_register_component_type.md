@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3dcommon.D3D_REGISTER_COMPONENT_TYPE
+title: D3D_REGISTER_COMPONENT_TYPE
+author: windows-sdk-content
+description: Values that identify the data types that can be stored in a register.
+old-location: direct3d11\d3d_register_component_type.htm
+old-project: direct3d11
+ms.assetid: 71e3c707-745b-40b4-ba3c-6c501196e3d3
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D10_REGISTER_COMPONENT_FLOAT32, D3D10_REGISTER_COMPONENT_SINT32, D3D10_REGISTER_COMPONENT_UINT32, D3D10_REGISTER_COMPONENT_UNKNOWN, D3D_REGISTER_COMPONENT_FLOAT32, D3D_REGISTER_COMPONENT_SINT32, D3D_REGISTER_COMPONENT_TYPE, D3D_REGISTER_COMPONENT_TYPE enumeration [Direct3D 11], D3D_REGISTER_COMPONENT_UINT32, D3D_REGISTER_COMPONENT_UNKNOWN, d3dcommon/D3D10_REGISTER_COMPONENT_FLOAT32, d3dcommon/D3D10_REGISTER_COMPONENT_SINT32, d3dcommon/D3D10_REGISTER_COMPONENT_UINT32, d3dcommon/D3D10_REGISTER_COMPONENT_UNKNOWN, d3dcommon/D3D_REGISTER_COMPONENT_FLOAT32, d3dcommon/D3D_REGISTER_COMPONENT_SINT32, d3dcommon/D3D_REGISTER_COMPONENT_TYPE, d3dcommon/D3D_REGISTER_COMPONENT_UINT32, d3dcommon/D3D_REGISTER_COMPONENT_UNKNOWN, direct3d11.d3d_register_component_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3dcommon.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_REGISTER_COMPONENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3DCommon.h
+api_name:
+-	D3D_REGISTER_COMPONENT_TYPE
+product: Windows
+targetos: Windows
+req.lib: D3d9.lib
+req.dll: 
+req.irql: 
 ---
 
 # D3D_REGISTER_COMPONENT_TYPE enumeration

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rpcasync.tagRPC_CALL_ATTRIBUTES_V1_A
+title: tagRPC_CALL_ATTRIBUTES_V1_A
+author: windows-sdk-content
+description: The RPC_CALL_ATTRIBUTES_V1 structure provides parameters to the RpcServerInqCallAttributes function. Implemented in ANSI and UNICODE versions for Windows XP and Windows Server 2003 operating systems.
+old-location: rpc\rpc_call_attributes_v1.htm
+old-project: Rpc
+ms.assetid: 62988900-e794-4d91-861e-f72d854249fe
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: RPC_CALL_ATTRIBUTES_V1, RPC_CALL_ATTRIBUTES_V1 structure [RPC], RPC_CALL_ATTRIBUTES_V1_A, RPC_CALL_ATTRIBUTES_V1_W, rpc.rpc_call_attributes_v1, rpcasync/RPC_CALL_ATTRIBUTES_V1, rpcasync/RPC_CALL_ATTRIBUTES_V1_A, rpcasync/RPC_CALL_ATTRIBUTES_V1_W, tagRPC_CALL_ATTRIBUTES_V1_A
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rpcasync.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RPC_CALL_ATTRIBUTES_V1_W (Unicode) and RPC_CALL_ATTRIBUTES_V1_A (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_CALL_ATTRIBUTES_V1_A
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rpcasync.h
+api_name:
+-	RPC_CALL_ATTRIBUTES_V1
+-	RPC_CALL_ATTRIBUTES_V1_A
+-	RPC_CALL_ATTRIBUTES_V1_W
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagRPC_CALL_ATTRIBUTES_V1_A structure

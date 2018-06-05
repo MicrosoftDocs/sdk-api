@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:qos2._QOS_FLOWRATE_OUTGOING
+title: "_QOS_FLOWRATE_OUTGOING"
+author: windows-sdk-content
+description: The QOS_FLOWRATE_OUTGOING structure is used to set flow rate information in the QOSSetFlow function.
+old-location: qos\qos_flowrate_outgoing.htm
+old-project: QOS
+ms.assetid: 6f0408fa-842c-4c6c-954b-cdc8a77b4bd3
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*PQOS_FLOWRATE_OUTGOING, PQOS_FLOWRATE_OUTGOING, PQOS_FLOWRATE_OUTGOING structure pointer [QOS], QOS_FLOWRATE_OUTGOING, QOS_FLOWRATE_OUTGOING structure [QOS], _QOS_FLOWRATE_OUTGOING, qos.qos_flowrate_outgoing, qos2/PQOS_FLOWRATE_OUTGOING, qos2/QOS_FLOWRATE_OUTGOING"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: qos2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QOS_FLOWRATE_OUTGOING, *PQOS_FLOWRATE_OUTGOING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Qos2.h
+api_name:
+-	QOS_FLOWRATE_OUTGOING
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _QOS_FLOWRATE_OUTGOING structure

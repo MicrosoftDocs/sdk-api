@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d2d1_3.EnsureCached
+title: EnsureCached function
+author: windows-sdk-content
+description: Loads image data into caches of image sources if that data is not already cached.
+old-location: direct2d\id2d1imagesourcefromwic_ensurecached_overload.htm
+old-project: Direct2D
+ms.assetid: 9addc82b-7446-1f2c-5666-f817b8b5707d
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: EnsureCached, EnsureCached methods [Direct2D], ID2D1ImageSourceFromWic::EnsureCached, d2d1_3/EnsureCached, direct2d.id2d1imagesourcefromwic_ensurecached_overload
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d2d1_3.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1_3.h
+api_name:
+-	ID2D1ImageSourceFromWic::EnsureCached
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # EnsureCached function

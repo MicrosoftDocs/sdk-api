@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:wtypes.VARENUM
+title: VARENUM
+author: windows-sdk-content
+description: Specifies the variant types.
+old-location: automat\varenum.htm
+old-project: automat
+ms.assetid: 42da4048-ad98-45b4-8541-d6c912e8f5cf
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: VARENUM, VARENUM enumeration [Automation], VT_ARRAY, VT_BLOB, VT_BLOB_OBJECT, VT_BOOL, VT_BSTR, VT_BSTR_BLOB, VT_BYREF, VT_CARRAY, VT_CF, VT_CLSID, VT_CY, VT_DATE, VT_DECIMAL, VT_DISPATCH, VT_EMPTY, VT_ERROR, VT_FILETIME, VT_HRESULT, VT_I1, VT_I2, VT_I4, VT_I8, VT_INT, VT_INT_PTR, VT_LPSTR, VT_LPWSTR, VT_NULL, VT_PTR, VT_R4, VT_R8, VT_RECORD, VT_SAFEARRAY, VT_STORAGE, VT_STORED_OBJECT, VT_STREAM, VT_STREAMED_OBJECT, VT_UI1, VT_UI2, VT_UI4, VT_UI8, VT_UINT, VT_UINT_PTR, VT_UNKNOWN, VT_USERDEFINED, VT_VARIANT, VT_VECTOR, VT_VERSIONED_STREAM, VT_VOID, _oa96_VARENUM, automat.varenum, wtypes/VARENUM, wtypes/VT_ARRAY, wtypes/VT_BLOB, wtypes/VT_BLOB_OBJECT, wtypes/VT_BOOL, wtypes/VT_BSTR, wtypes/VT_BSTR_BLOB, wtypes/VT_BYREF, wtypes/VT_CARRAY, wtypes/VT_CF, wtypes/VT_CLSID, wtypes/VT_CY, wtypes/VT_DATE, wtypes/VT_DECIMAL, wtypes/VT_DISPATCH, wtypes/VT_EMPTY, wtypes/VT_ERROR, wtypes/VT_FILETIME, wtypes/VT_HRESULT, wtypes/VT_I1, wtypes/VT_I2, wtypes/VT_I4, wtypes/VT_I8, wtypes/VT_INT, wtypes/VT_INT_PTR, wtypes/VT_LPSTR, wtypes/VT_LPWSTR, wtypes/VT_NULL, wtypes/VT_PTR, wtypes/VT_R4, wtypes/VT_R8, wtypes/VT_RECORD, wtypes/VT_SAFEARRAY, wtypes/VT_STORAGE, wtypes/VT_STORED_OBJECT, wtypes/VT_STREAM, wtypes/VT_STREAMED_OBJECT, wtypes/VT_UI1, wtypes/VT_UI2, wtypes/VT_UI4, wtypes/VT_UI8, wtypes/VT_UINT, wtypes/VT_UINT_PTR, wtypes/VT_UNKNOWN, wtypes/VT_USERDEFINED, wtypes/VT_VARIANT, wtypes/VT_VECTOR, wtypes/VT_VERSIONED_STREAM, wtypes/VT_VOID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wtypes.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WTypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WTypes.h
+api_name:
+-	VARENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # VARENUM enumeration

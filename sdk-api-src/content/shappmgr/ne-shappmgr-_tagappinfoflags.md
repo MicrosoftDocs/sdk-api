@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shappmgr._tagAppInfoFlags
+title: "_tagAppInfoFlags"
+author: windows-sdk-content
+description: Specifies application information to return from IShellApp::GetAppInfo. These flags are bitmasks used in the dwMask member of the APPINFODATA structure.
+old-location: shell\APPINFODATAFLAGS.htm
+old-project: shell
+ms.assetid: 80cbc46f-9918-4cca-b41b-1b6caa9c26df
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: AIM_COMMENTS, AIM_CONTACT, AIM_DISPLAYNAME, AIM_HELPLINK, AIM_IMAGE, AIM_INSTALLDATE, AIM_INSTALLLOCATION, AIM_INSTALLSOURCE, AIM_LANGUAGE, AIM_PRODUCTID, AIM_PUBLISHER, AIM_READMEURL, AIM_REGISTEREDCOMPANY, AIM_REGISTEREDOWNER, AIM_REQUIREDBYPOLICY, AIM_SUPPORTTELEPHONE, AIM_SUPPORTURL, AIM_UPDATEINFOURL, AIM_VERSION, APPINFODATAFLAGS, APPINFODATAFLAGS enumeration [Windows Shell], _tagAppInfoFlags, inet_APPINFODATAFLAGS, shappmgr/AIM_COMMENTS, shappmgr/AIM_CONTACT, shappmgr/AIM_DISPLAYNAME, shappmgr/AIM_HELPLINK, shappmgr/AIM_IMAGE, shappmgr/AIM_INSTALLDATE, shappmgr/AIM_INSTALLLOCATION, shappmgr/AIM_INSTALLSOURCE, shappmgr/AIM_LANGUAGE, shappmgr/AIM_PRODUCTID, shappmgr/AIM_PUBLISHER, shappmgr/AIM_READMEURL, shappmgr/AIM_REGISTEREDCOMPANY, shappmgr/AIM_REGISTEREDOWNER, shappmgr/AIM_REQUIREDBYPOLICY, shappmgr/AIM_SUPPORTTELEPHONE, shappmgr/AIM_SUPPORTURL, shappmgr/AIM_UPDATEINFOURL, shappmgr/AIM_VERSION, shappmgr/APPINFODATAFLAGS, shell.APPINFODATAFLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shappmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shappmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APPINFODATAFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shappmgr.h
+api_name:
+-	APPINFODATAFLAGS
+product: Windows
+targetos: Windows
+req.lib: Sfc.lib
+req.dll: Sfc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _tagAppInfoFlags enumeration

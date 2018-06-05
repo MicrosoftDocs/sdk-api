@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFMediaSession.GetFullTopology
+title: IMFMediaSession::GetFullTopology
+author: windows-sdk-content
+description: Gets a topology from the Media Session.
+old-location: mf\imfmediasession_getfulltopology.htm
+old-project: medfound
+ms.assetid: 6899dbe2-a684-487f-ab56-8631b3d5a033
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 6899dbe2-a684-487f-ab56-8631b3d5a033, GetFullTopology, GetFullTopology method [Media Foundation], GetFullTopology method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetFullTopology method, IMFMediaSession.GetFullTopology, IMFMediaSession::GetFullTopology, mf.imfmediasession_getfulltopology, mfidl/IMFMediaSession::GetFullTopology
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFMediaSession.GetFullTopology
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFMediaSession::GetFullTopology

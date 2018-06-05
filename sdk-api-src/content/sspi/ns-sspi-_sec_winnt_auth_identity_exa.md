@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:sspi._SEC_WINNT_AUTH_IDENTITY_EXA
+title: "_SEC_WINNT_AUTH_IDENTITY_EXA"
+author: windows-sdk-content
+description: Contains information about a user. Both an ANSI and Unicode form of this structure are provided.
+old-location: security\sec_winnt_auth_identity_ex.htm
+old-project: SecAuthN
+ms.assetid: 6b95bce8-5613-4403-9bda-16262596bb1b
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSEC_WINNT_AUTH_IDENTITY_EXA, PSEC_WINNT_AUTH_IDENTITY_EX, PSEC_WINNT_AUTH_IDENTITY_EX structure pointer [Security], SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_EX, SEC_WINNT_AUTH_IDENTITY_EX structure [Security], SEC_WINNT_AUTH_IDENTITY_EXA, SEC_WINNT_AUTH_IDENTITY_MARSHALLED, SEC_WINNT_AUTH_IDENTITY_ONLY, SEC_WINNT_AUTH_IDENTITY_UNICODE, _SEC_WINNT_AUTH_IDENTITY_EXA, _SEC_WINNT_AUTH_IDENTITY_EXW, _ssp_sec_winnt_auth_identity_ex, security.sec_winnt_auth_identity_ex, sspi/PSEC_WINNT_AUTH_IDENTITY_EX, sspi/SEC_WINNT_AUTH_IDENTITY_EX"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: sspi.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SEC_WINNT_AUTH_IDENTITY_EXA, *PSEC_WINNT_AUTH_IDENTITY_EXA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Sspi.h
+api_name:
+-	SEC_WINNT_AUTH_IDENTITY_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SEC_WINNT_AUTH_IDENTITY_EXA structure

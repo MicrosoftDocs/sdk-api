@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmcontainer.IMFASFSplitter.Flush
+title: IMFASFSplitter::Flush
+author: windows-sdk-content
+description: Resets the Advanced Systems Format (ASF) splitter and releases all pending samples.
+old-location: mf\imfasfsplitter_flush.htm
+old-project: medfound
+ms.assetid: be92c734-2bcb-4a7c-bd62-fb545c3c7762
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],Flush method, IMFASFSplitter.Flush, IMFASFSplitter::Flush, be92c734-2bcb-4a7c-bd62-fb545c3c7762, mf.imfasfsplitter_flush, wmcontainer/IMFASFSplitter::Flush
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmcontainer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFASF_STREAMSELECTOR_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFASFSplitter.Flush
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IMFASFSplitter::Flush

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:ifdef._NET_IF_MEDIA_DUPLEX_STATE
+title: "_NET_IF_MEDIA_DUPLEX_STATE"
+author: windows-sdk-content
+description: The NET_IF_MEDIA_DUPLEX_STATE enumeration type specifies the NDIS network interface duplex state.
+old-location: netvista\net_if_media_duplex_state.htm
+old-project: netvista
+ms.assetid: 0bd49b84-0b73-4628-bd86-65b599f791df
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PNET_IF_MEDIA_DUPLEX_STATE, MediaDuplexStateFull, MediaDuplexStateHalf, MediaDuplexStateUnknown, NET_IF_MEDIA_DUPLEX_STATE, NET_IF_MEDIA_DUPLEX_STATE enumeration [Network Drivers Starting with Windows Vista], PNET_IF_MEDIA_DUPLEX_STATE, PNET_IF_MEDIA_DUPLEX_STATE enumeration pointer [Network Drivers Starting with Windows Vista], _NET_IF_MEDIA_DUPLEX_STATE, ifdef/MediaDuplexStateFull, ifdef/MediaDuplexStateHalf, ifdef/MediaDuplexStateUnknown, ifdef/NET_IF_MEDIA_DUPLEX_STATE, ifdef/PNET_IF_MEDIA_DUPLEX_STATE, net_if_enums_ref_b609914b-6556-4d4a-b689-4bd78a995bbd.xml, netvista.net_if_media_duplex_state"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ifdef.h
+req.include-header: Netioapi.h, Ntddndis.h
+req.target-type: Windows
+req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_IF_MEDIA_DUPLEX_STATE, *PNET_IF_MEDIA_DUPLEX_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ifdef.h
+api_name:
+-	NET_IF_MEDIA_DUPLEX_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _NET_IF_MEDIA_DUPLEX_STATE enumeration

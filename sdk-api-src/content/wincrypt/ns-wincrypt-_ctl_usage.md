@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CTL_USAGE
+title: "_CTL_USAGE"
+author: windows-sdk-content
+description: Contains an array of object identifiers (OIDs) for Certificate Trust List (CTL) extensions.
+old-location: security\ctl_usage.htm
+old-project: SecCrypto
+ms.assetid: 70ee138a-df94-4fc4-9de5-0d8b7704b890
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_ENHKEY_USAGE, *PCTL_USAGE, CERT_ENHKEY_USAGE, CERT_ENHKEY_USAGE structure [Security], CTL_USAGE, CTL_USAGE structure [Security], PCERT_ENHKEY_USAGE, PCERT_ENHKEY_USAGE structure pointer [Security], PCTL_USAGE, PCTL_USAGE structure pointer [Security], _CTL_USAGE, _crypto2_ctl_usage, security.ctl_usage, wincrypt/CERT_ENHKEY_USAGE, wincrypt/CTL_USAGE, wincrypt/PCERT_ENHKEY_USAGE, wincrypt/PCTL_USAGE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CTL_USAGE, *PCTL_USAGE, CERT_ENHKEY_USAGE, *PCERT_ENHKEY_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CTL_USAGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CTL_USAGE structure

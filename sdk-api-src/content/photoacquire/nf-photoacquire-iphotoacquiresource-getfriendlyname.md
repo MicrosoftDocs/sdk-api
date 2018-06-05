@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:photoacquire.IPhotoAcquireSource.GetFriendlyName
+title: IPhotoAcquireSource::GetFriendlyName
+author: windows-sdk-content
+description: The GetFriendlyName method retrieves the name of the device, formatted for display.
+old-location: picacq\iphotoacquiresource_getfriendlyname.htm
+old-project: acquisition
+ms.assetid: e6e1c5d7-b9d8-479a-a8e5-53124b55369d
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: GetFriendlyName, GetFriendlyName method [Picture Acquisition], GetFriendlyName method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetFriendlyName method, IPhotoAcquireSource.GetFriendlyName, IPhotoAcquireSource::GetFriendlyName, IPhotoAcquireSourceGetFriendlyName, photoacquire/IPhotoAcquireSource::GetFriendlyName, picacq.iphotoacquiresource_getfriendlyname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: photoacquire.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_INPUT_STRING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PhotoAcquireUID.lib
+-	PhotoAcquireUID.dll
+api_name:
+-	IPhotoAcquireSource.GetFriendlyName
+product: Windows
+targetos: Windows
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPhotoAcquireSource::GetFriendlyName

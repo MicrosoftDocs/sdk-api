@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winsxs.__MIDL_IAssemblyName_0003
+title: "__MIDL_IAssemblyName_0003"
+author: windows-sdk-content
+description: The values of the ASM_DISPLAY_FLAGS enumeration are used by the GetDisplayName method to specify which portions of the assembly's full name to include in the string representation of the assembly name.
+old-location: setup\asm_display_flags_.htm
+old-project: SbsCs
+ms.assetid: 8f4c00b9-2684-44eb-9a68-bef6da87c396
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: ASM_DISPLAYF_CULTURE, ASM_DISPLAYF_CUSTOM, ASM_DISPLAYF_LANGUAGEID, ASM_DISPLAYF_PROCESSORARCHITECTURE, ASM_DISPLAYF_PUBLIC_KEY, ASM_DISPLAYF_PUBLIC_KEY_TOKEN, ASM_DISPLAYF_VERSION, ASM_DISPLAY_FLAGS, ASM_DISPLAY_FLAGS , ASM_DISPLAY_FLAGS enumeration [Side-by-side Assemblies], __MIDL_IAssemblyName_0003, setup.asm_display_flags_, winsxs/ASM_DISPLAYF_CULTURE, winsxs/ASM_DISPLAYF_CUSTOM, winsxs/ASM_DISPLAYF_LANGUAGEID, winsxs/ASM_DISPLAYF_PROCESSORARCHITECTURE, winsxs/ASM_DISPLAYF_PUBLIC_KEY, winsxs/ASM_DISPLAYF_PUBLIC_KEY_TOKEN, winsxs/ASM_DISPLAYF_VERSION, winsxs/ASM_DISPLAY_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winsxs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ASM_DISPLAY_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsxs.h
+api_name:
+-	ASM_DISPLAY_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # __MIDL_IAssemblyName_0003 enumeration

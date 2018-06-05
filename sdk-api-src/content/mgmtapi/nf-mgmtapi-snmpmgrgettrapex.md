@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mgmtapi.SnmpMgrGetTrapEx
+title: SnmpMgrGetTrapEx function
+author: windows-sdk-content
+description: The SnmpMgrGetTrapEx function returns outstanding trap data that the caller has not received if trap reception is enabled.
+old-location: snmp\snmpmgrgettrapex.htm
+old-project: SNMP
+ms.assetid: 1dc4b432-8418-46a7-9ea8-5025799c8ec9
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: SNMP_GENERICTRAP_AUTHFAILURE, SNMP_GENERICTRAP_COLDSTART, SNMP_GENERICTRAP_EGPNEIGHLOSS, SNMP_GENERICTRAP_ENTERSPECIFIC, SNMP_GENERICTRAP_LINKDOWN, SNMP_GENERICTRAP_LINKUP, SNMP_GENERICTRAP_WARMSTART, SnmpMgrGetTrapEx, SnmpMgrGetTrapEx function [SNMP], _snmp_snmpmgrgettrapex, mgmtapi/SnmpMgrGetTrapEx, snmp.snmpmgrgettrapex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mgmtapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOURCE_GROUP_ENTRY, *PSOURCE_GROUP_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Mgmtapi.dll
+api_name:
+-	SnmpMgrGetTrapEx
+product: Windows
+targetos: Windows
+req.lib: Mgmtapi.lib
+req.dll: Mgmtapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # SnmpMgrGetTrapEx function

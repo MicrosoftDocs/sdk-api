@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pdh.PdhCollectQueryDataEx
+title: PdhCollectQueryDataEx function
+author: windows-sdk-content
+description: Uses a separate thread to collect the current raw data value for all counters in the specified query. The function then signals the application-defined event and waits the specified time interval before returning.
+old-location: perf\pdhcollectquerydataex.htm
+old-project: PerfCtrs
+ms.assetid: 3fa1d193-03d0-44d8-a32b-b7754594d0ca
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PdhCollectQueryDataEx, PdhCollectQueryDataEx function [Perf], _win32_pdhcollectquerydataex, base.pdhcollectquerydataex, pdh/PdhCollectQueryDataEx, perf.pdhcollectquerydataex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: pdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Pdh.dll
+api_name:
+-	PdhCollectQueryDataEx
+product: Windows
+targetos: Windows
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PdhCollectQueryDataEx function

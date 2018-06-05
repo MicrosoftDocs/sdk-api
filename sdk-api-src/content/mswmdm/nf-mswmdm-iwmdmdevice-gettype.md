@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mswmdm.IWMDMDevice.GetType
+title: IWMDMDevice::GetType
+author: windows-sdk-content
+description: The GetType method retrieves the operations supported by the device.
+old-location: wmdm\iwmdmdevice_gettype.htm
+old-project: WMDM
+ms.assetid: b240d6ac-99bd-4cc2-92d8-e9c7c5834bd7
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetType, GetType method [windows Media Device Manager], GetType method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetType method, IWMDMDevice.GetType, IWMDMDevice::GetType, IWMDMDeviceGetType, mswmdm/IWMDMDevice::GetType, wmdm.iwmdmdevice_gettype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IWMDMDevice.GetType
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMDevice::GetType

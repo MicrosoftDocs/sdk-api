@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmwksta._WKSTA_INFO_502
+title: "_WKSTA_INFO_502"
+author: windows-sdk-content
+description: The WKSTA_INFO_502 structure is obsolete. The structure contains information about a workstation environment.
+old-location: netmgmt\wksta_info_502_str.htm
+old-project: NetMgmt
+ms.assetid: 716e700a-e464-47ec-a2df-74c03597ac6d
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPWKSTA_INFO_502, *PWKSTA_INFO_502, LPWKSTA_INFO_502, LPWKSTA_INFO_502 structure pointer [Network Management], PWKSTA_INFO_502, PWKSTA_INFO_502 structure pointer [Network Management], WKSTA_INFO_502, WKSTA_INFO_502 structure [Network Management], _WKSTA_INFO_502, _win32_wksta_info_502_str, lmwksta/LPWKSTA_INFO_502, lmwksta/PWKSTA_INFO_502, lmwksta/WKSTA_INFO_502, netmgmt.wksta_info_502_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmwksta.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WKSTA_INFO_502, *PWKSTA_INFO_502, *LPWKSTA_INFO_502
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmwksta.h
+api_name:
+-	WKSTA_INFO_502
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _WKSTA_INFO_502 structure

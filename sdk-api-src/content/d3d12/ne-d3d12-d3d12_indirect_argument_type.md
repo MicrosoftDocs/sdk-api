@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12.D3D12_INDIRECT_ARGUMENT_TYPE
+title: D3D12_INDIRECT_ARGUMENT_TYPE
+author: windows-sdk-content
+description: Specifies the type of the indirect parameter.
+old-location: direct3d12\d3d12_indirect_argument_type.htm
+old-project: direct3d12
+ms.assetid: 03324A50-BE16-4FC0-BFE7-9EE97C738165
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_INDIRECT_ARGUMENT_TYPE, D3D12_INDIRECT_ARGUMENT_TYPE enumeration, D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT, D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT_BUFFER_VIEW, D3D12_INDIRECT_ARGUMENT_TYPE_DISPATCH, D3D12_INDIRECT_ARGUMENT_TYPE_DRAW, D3D12_INDIRECT_ARGUMENT_TYPE_DRAW_INDEXED, D3D12_INDIRECT_ARGUMENT_TYPE_INDEX_BUFFER_VIEW, D3D12_INDIRECT_ARGUMENT_TYPE_SHADER_RESOURCE_VIEW, D3D12_INDIRECT_ARGUMENT_TYPE_UNORDERED_ACCESS_VIEW, D3D12_INDIRECT_ARGUMENT_TYPE_VERTEX_BUFFER_VIEW, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT_BUFFER_VIEW, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_DISPATCH, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_DRAW, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_DRAW_INDEXED, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_INDEX_BUFFER_VIEW, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_SHADER_RESOURCE_VIEW, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_UNORDERED_ACCESS_VIEW, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_VERTEX_BUFFER_VIEW, direct3d12.d3d12_indirect_argument_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_INDIRECT_ARGUMENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D12.h
+api_name:
+-	D3D12_INDIRECT_ARGUMENT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_INDIRECT_ARGUMENT_TYPE enumeration

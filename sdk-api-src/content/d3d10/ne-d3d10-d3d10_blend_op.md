@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d10.D3D10_BLEND_OP
+title: D3D10_BLEND_OP
+author: windows-sdk-content
+description: RGB or alpha blending operation.
+old-location: direct3d10\d3d10_blend_op.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_blend_op.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 9bbf55a2-225d-7084-43ca-8305b06faa0d, D3D10_BLEND_OP, D3D10_BLEND_OP enumeration [Direct3D 10], D3D10_BLEND_OP_ADD, D3D10_BLEND_OP_MAX, D3D10_BLEND_OP_MIN, D3D10_BLEND_OP_REV_SUBTRACT, D3D10_BLEND_OP_SUBTRACT, d3d10/D3D10_BLEND_OP, d3d10/D3D10_BLEND_OP_ADD, d3d10/D3D10_BLEND_OP_MAX, d3d10/D3D10_BLEND_OP_MIN, d3d10/D3D10_BLEND_OP_REV_SUBTRACT, d3d10/D3D10_BLEND_OP_SUBTRACT, direct3d10.d3d10_blend_op
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_BLEND_OP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D10.h
+api_name:
+-	D3D10_BLEND_OP
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D3D10_BLEND_OP enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagEMRSETTEXTCOLOR
+title: tagEMRSETTEXTCOLOR
+author: windows-sdk-content
+description: The EMRSETBKCOLOR and EMRSETTEXTCOLOR structures contain members for the SetBkColor and SetTextColor enhanced metafile records.
+old-location: gdi\emrsetbkcolor__emrsettextcolor.htm
+old-project: gdi
+ms.assetid: 9916fc79-cac0-4c46-8fa5-aeca3b7f2cf0
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PEMRSETBKCOLOR, *PEMRSETTEXTCOLOR, EMRSETBKCOLOR, EMRSETBKCOLOR structure [Windows GDI], EMRSETBKCOLOR,EMRSETTEXTCOLOR, EMRSETBKCOLOR,EMRSETTEXTCOLOR structure [Windows GDI], EMRSETTEXTCOLOR, EMRSETTEXTCOLOR structure [Windows GDI], PEMRSETBKCOLOR, PEMRSETBKCOLOR structure pointer [Windows GDI], PEMRSETTEXTCOLOR, PEMRSETTEXTCOLOR structure pointer [Windows GDI], _win32_EMRSETBKCOLOR_str, gdi.emrsetbkcolor__emrsettextcolor, tagEMRSETTEXTCOLOR, wingdi/EMRSETBKCOLOR,EMRSETTEXTCOLOR, wingdi/EMRSETTEXTCOLOR, wingdi/PEMRSETBKCOLOR, wingdi/PEMRSETTEXTCOLOR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMRSETBKCOLOR, *PEMRSETBKCOLOR, EMRSETTEXTCOLOR, *PEMRSETTEXTCOLOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	EMRSETBKCOLOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagEMRSETTEXTCOLOR structure

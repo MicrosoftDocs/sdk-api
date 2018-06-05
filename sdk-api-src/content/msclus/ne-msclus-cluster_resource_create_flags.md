@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msclus.CLUSTER_RESOURCE_CREATE_FLAGS
+title: CLUSTER_RESOURCE_CREATE_FLAGS
+author: windows-sdk-content
+description: Determines which resource monitor a given resource will be assigned to.
+old-location: mscs\cluster_resource_create_flags.htm
+old-project: MsCS
+ms.assetid: 16f5ab58-2507-431a-98f9-bd00a24485ba
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_RESOURCE_CREATE_FLAGS, CLUSTER_RESOURCE_CREATE_FLAGS enumeration [Failover Cluster], CLUSTER_RESOURCE_DEFAULT_MONITOR, CLUSTER_RESOURCE_SEPARATE_MONITOR, CLUSTER_RESOURCE_VALID_FLAGS, _CLUSTER_RESOURCE_CREATE_FLAGS, _CLUSTER_RESOURCE_CREATE_FLAGS enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_CREATE_FLAGS, clusapi/CLUSTER_RESOURCE_DEFAULT_MONITOR, clusapi/CLUSTER_RESOURCE_SEPARATE_MONITOR, clusapi/CLUSTER_RESOURCE_VALID_FLAGS, clusapi/_CLUSTER_RESOURCE_CREATE_FLAGS, msclus/CLUSTER_RESOURCE_CREATE_FLAGS, msclus/CLUSTER_RESOURCE_DEFAULT_MONITOR, msclus/CLUSTER_RESOURCE_SEPARATE_MONITOR, msclus/CLUSTER_RESOURCE_VALID_FLAGS, msclus/_CLUSTER_RESOURCE_CREATE_FLAGS, mscs.cluster_resource_create_flags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_RESOURCE_CREATE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSTER_RESOURCE_CREATE_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CLUSTER_RESOURCE_CREATE_FLAGS enumeration

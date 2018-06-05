@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:vfw.CAPERRORCALLBACKW
+title: CAPERRORCALLBACKW
+author: windows-sdk-content
+description: The capErrorCallback function is the error callback function used with video capture. The name capErrorCallback is a placeholder for the application-supplied function name.
+old-location: multimedia\caperrorcallback.htm
+old-project: Multimedia
+ms.assetid: 3dc41a0e-1fed-423d-b05b-c42f361a3fb3
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: CAPERRORCALLBACKA, CAPERRORCALLBACKW, _win32_capErrorCallback, capErrorCallback, capErrorCallback callback, capErrorCallback callback function [Windows Multimedia], multimedia.caperrorcallback, vfw/CAPERRORCALLBACKA, vfw/CAPERRORCALLBACKW, vfw/capErrorCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CAPERRORCALLBACKW (Unicode) and CAPERRORCALLBACKA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Vfw.h
+api_name:
+-	capErrorCallback
+-	CAPERRORCALLBACKA
+-	CAPERRORCALLBACKW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # CAPERRORCALLBACKW callback function

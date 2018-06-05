@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dbghelp.IMAGEHLP_EXTENDED_OPTIONS
+title: IMAGEHLP_EXTENDED_OPTIONS
+author: windows-sdk-content
+description: Lists the extended symbol options that you can get and set by using the SymGetExtendedOption and SymSetExtendedOption functions.
+old-location: base\imagehlp_extended_options.htm
+old-project: Debug
+ms.assetid: 5354F53C-F161-4887-85E4-7A00521034EE
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IMAGEHLP_EXTENDED_OPTIONS, IMAGEHLP_EXTENDED_OPTIONS enumeration, SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SYMOPT_EX_MAX, base.imagehlp_extended_options, dbghelp/IMAGEHLP_EXTENDED_OPTIONS, dbghelp/SYMOPT_EX_DISABLEACCESSTIMEUPDATE, dbghelp/SYMOPT_EX_MAX
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_EXTENDED_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DbgHelp.h
+api_name:
+-	IMAGEHLP_EXTENDED_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IMAGEHLP_EXTENDED_OPTIONS enumeration

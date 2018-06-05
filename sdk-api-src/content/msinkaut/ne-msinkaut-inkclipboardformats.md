@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msinkaut.InkClipboardFormats
+title: InkClipboardFormats
+author: windows-sdk-content
+description: Specifies the format of ink that is stored on the Clipboard.
+old-location: tablet\inkclipboardformats.htm
+old-project: tablet
+ms.assetid: bedee31c-d957-4162-83d9-f1c8df9428cd
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: ICF_Bitmap, ICF_CopyMask, ICF_Default, ICF_EnhancedMetafile, ICF_InkSerializedFormat, ICF_Metafile, ICF_None, ICF_PasteMask, ICF_SketchInk, ICF_TextInk, InkClipboardFormatFlags, InkClipboardFormatFlags enumeration [Tablet PC], InkClipboardFormats, InkClipboardFormats enumeration [Tablet PC], bedee31c-d957-4162-83d9-f1c8df9428cd, msinkaut/ICF_Bitmap, msinkaut/ICF_CopyMask, msinkaut/ICF_Default, msinkaut/ICF_EnhancedMetafile, msinkaut/ICF_InkSerializedFormat, msinkaut/ICF_Metafile, msinkaut/ICF_None, msinkaut/ICF_PasteMask, msinkaut/ICF_SketchInk, msinkaut/ICF_TextInk, msinkaut/InkClipboardFormats, tablet.inkclipboardformats
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InkClipboardFormats
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msinkaut.h
+api_name:
+-	InkClipboardFormatFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkClipboardFormats enumeration

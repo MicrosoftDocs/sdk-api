@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wsman._WSMAN_SENDER_DETAILS
+title: "_WSMAN_SENDER_DETAILS"
+author: windows-sdk-content
+description: Specifies the client details for every inbound request.
+old-location: winrm\wsman_sender_details.htm
+old-project: WinRM
+ms.assetid: f68a9f75-6808-4dfa-b40f-061da88ead3c
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: WSMAN_SENDER_DETAILS, WSMAN_SENDER_DETAILS structure [Windows Remote Management], _WSMAN_SENDER_DETAILS, winrm.wsman_sender_details, wsman/WSMAN_SENDER_DETAILS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wsman.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSMAN_SENDER_DETAILS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wsman.h
+api_name:
+-	WSMAN_SENDER_DETAILS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WSMAN_SENDER_DETAILS structure

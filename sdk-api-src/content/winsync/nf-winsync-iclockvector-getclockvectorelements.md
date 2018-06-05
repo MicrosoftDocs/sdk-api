@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsync.IClockVector.GetClockVectorElements
+title: IClockVector::GetClockVectorElements
+author: windows-sdk-content
+description: Returns an enumerator that iterates through the clock vector elements.
+old-location: winsync\iclockvector_getclockvectorelements.htm
+old-project: winsync
+ms.assetid: a0712a2b-5aeb-458d-bc0f-c18eeb7ba9ff
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetClockVectorElements, GetClockVectorElements method [Windows Sync], GetClockVectorElements method [Windows Sync],IClockVector interface, IClockVector interface [Windows Sync],GetClockVectorElements method, IClockVector.GetClockVectorElements, IClockVector::GetClockVectorElements, winsync.iclockvector_getclockvectorelements, winsync/IClockVector::GetClockVectorElements
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	IClockVector.GetClockVectorElements
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IClockVector::GetClockVectorElements

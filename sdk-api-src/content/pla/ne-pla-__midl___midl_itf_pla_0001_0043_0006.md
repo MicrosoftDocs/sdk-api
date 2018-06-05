@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0006
+title: "__MIDL___MIDL_itf_pla_0001_0043_0006"
+author: windows-sdk-content
+description: Defines where the trace events are delivered.
+old-location: pla\streammode.htm
+old-project: PLA
+ms.assetid: 38d9e78f-4ac1-4d65-80e7-9b32c5e79604
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: StreamMode, StreamMode enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0006, base.streammode, pla.streammode, pla/StreamMode, pla/plaBoth, pla/plaBuffering, pla/plaFile, pla/plaRealTime, plaBoth, plaBuffering, plaFile, plaRealTime
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: StreamMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pla.h
+api_name:
+-	StreamMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_pla_0001_0043_0006 enumeration

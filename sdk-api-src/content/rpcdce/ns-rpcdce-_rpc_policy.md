@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rpcdce._RPC_POLICY
+title: "_RPC_POLICY"
+author: windows-sdk-content
+description: The RPC_POLICY structure contains flags that determine binding on multihomed computers, and port allocations when using the ncacn_ip_tcp and ncadg_ip_udp protocols.
+old-location: rpc\rpc_policy.htm
+old-project: Rpc
+ms.assetid: 2647d75d-09b5-48b2-9a79-4d1f95cb094b
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PRPC_POLICY, 0, PRPC_POLICY, PRPC_POLICY structure pointer [RPC], RPC_C_BIND_TO_ALL_NICS, RPC_C_MQ_AUTHENTICATE, RPC_C_MQ_AUTHN_LEVEL_NONE, RPC_C_MQ_AUTHN_LEVEL_PKT_INTEGRITY, RPC_C_MQ_AUTHN_LEVEL_PKT_PRIVACY, RPC_C_MQ_CLEAR_ON_OPEN, RPC_C_MQ_ENCRYPT, RPC_C_MQ_PERMANENT, RPC_C_MQ_TEMPORARY, RPC_C_MQ_USE_EXISTING_SECURITY, RPC_C_USE_INTERNET_PORT, RPC_C_USE_INTRANET_PORT, RPC_POLICY, RPC_POLICY structure [RPC], _RPC_POLICY, _rpc_rpc_policy, rpc.rpc_policy, rpcdce/PRPC_POLICY, rpcdce/RPC_POLICY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rpcdce.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_POLICY, *PRPC_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rpcdce.h
+api_name:
+-	RPC_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RPC_POLICY structure

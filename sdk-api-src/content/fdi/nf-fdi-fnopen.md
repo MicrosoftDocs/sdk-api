@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:fdi.FNOPEN
+title: FNOPEN macro
+author: windows-sdk-content
+description: The FNOPEN macro provides the declaration for the application-defined callback function to open a file in an FDI context.
+old-location: winprog\fnopen.htm
+old-project: DevNotes
+ms.assetid: 45bd2d23-1f6d-42a6-8afb-86227da6118f
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: FNOPEN, FNOPEN macro [Windows API], fdi/FNOPEN, winprog.fnopen
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: fdi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CCAB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	fdi.h
+api_name:
+-	FNOPEN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FNOPEN macro

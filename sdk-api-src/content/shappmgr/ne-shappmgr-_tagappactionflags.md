@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shappmgr._tagAppActionFlags
+title: "_tagAppActionFlags"
+author: windows-sdk-content
+description: Specifies application management actions supported by an application publisher. These flags are bitmasks passed to IShellApp::GetPossibleActions.
+old-location: shell\APPACTIONFLAGS.htm
+old-project: shell
+ms.assetid: edfd9b1e-7f4d-4350-9d2c-71f59ca4f7eb
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: APPACTIONFLAGS, APPACTIONFLAGS enumeration [Windows Shell], APPACTION_ADDLATER, APPACTION_CANGETSIZE, APPACTION_INSTALL, APPACTION_MODIFY, APPACTION_MODIFYREMOVE, APPACTION_REPAIR, APPACTION_UNINSTALL, APPACTION_UNSCHEDULE, APPACTION_UPGRADE, _tagAppActionFlags, inet_APPACTIONFLAGS, shappmgr/APPACTIONFLAGS, shappmgr/APPACTION_ADDLATER, shappmgr/APPACTION_CANGETSIZE, shappmgr/APPACTION_INSTALL, shappmgr/APPACTION_MODIFY, shappmgr/APPACTION_MODIFYREMOVE, shappmgr/APPACTION_REPAIR, shappmgr/APPACTION_UNINSTALL, shappmgr/APPACTION_UNSCHEDULE, shappmgr/APPACTION_UPGRADE, shell.APPACTIONFLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shappmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shappmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APPACTIONFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shappmgr.h
+api_name:
+-	APPACTIONFLAGS
+product: Windows
+targetos: Windows
+req.lib: Sfc.lib
+req.dll: Sfc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _tagAppActionFlags enumeration

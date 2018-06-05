@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.DISCONNECT_CODE
+title: DISCONNECT_CODE
+author: windows-sdk-content
+description: The DISCONNECT_CODE enum is used by the ITBasicCallControl::Disconnect method.
+old-location: tapi3\disconnect_code.htm
+old-project: Tapi
+ms.assetid: 90e7b63f-3e19-422d-b45b-43408de9c6cc
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: DC_NOANSWER, DC_NORMAL, DC_REJECTED, DISCONNECT_CODE, DISCONNECT_CODE enumeration [TAPI 2.2], _tapi3_disconnect_code, tapi3.disconnect_code, tapi3if/DC_NOANSWER, tapi3if/DC_NORMAL, tapi3if/DC_REJECTED, tapi3if/DISCONNECT_CODE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISCONNECT_CODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	DISCONNECT_CODE
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # DISCONNECT_CODE enumeration

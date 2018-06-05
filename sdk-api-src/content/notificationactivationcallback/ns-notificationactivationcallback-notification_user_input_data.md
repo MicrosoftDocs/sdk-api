@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:notificationactivationcallback.NOTIFICATION_USER_INPUT_DATA
+title: NOTIFICATION_USER_INPUT_DATA
+author: windows-sdk-content
+description: Contains information about how a user interacted with a notification toast in the action center. This structure is used by Activate.
+old-location: win32_tile_badge_notif\notification_user_input_data.htm
+old-project: win32_tile_badge_notif
+ms.assetid: C39B906E-4EB2-4EFF-B0A3-76E6B17A3662
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: NOTIFICATION_USER_INPUT_DATA, NOTIFICATION_USER_INPUT_DATA structure, PNOTIFICATION_USER_INPUT_DATA, PNOTIFICATION_USER_INPUT_DATA structure pointer, notificationactivationcallback/NOTIFICATION_USER_INPUT_DATA, notificationactivationcallback/PNOTIFICATION_USER_INPUT_DATA, win32_tile_badge_notif.notification_user_input_data
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: notificationactivationcallback.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NOTIFICATION_USER_INPUT_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	NotificationActivationCallback.h
+api_name:
+-	NOTIFICATION_USER_INPUT_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # NOTIFICATION_USER_INPUT_DATA structure

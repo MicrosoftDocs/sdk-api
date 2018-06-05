@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:dbghelp.PENUMSOURCEFILETOKENSCALLBACK
+title: PENUMSOURCEFILETOKENSCALLBACK
+author: windows-sdk-content
+description: An application-defined callback function used with the SymEnumSourceFileTokens function which enumerates the source server version control information stored in the PDB for a module.
+old-location: base\symenumsourcefiletokensproc.htm
+old-project: Debug
+ms.assetid: 20c0eb1e-671b-4d31-88d4-57f2c149fcd9
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: PENUMSOURCEFILETOKENSCALLBACK, PENUMSOURCEFILETOKENSCALLBACK callback, SymEnumSourceFileTokensProc, SymEnumSourceFileTokensProc callback function, base.symenumsourcefiletokensproc, dbghelp/SymEnumSourceFileTokensProc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Dbghelp.h
+api_name:
+-	SymEnumSourceFileTokensProc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PENUMSOURCEFILETOKENSCALLBACK callback function

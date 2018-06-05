@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi.CLUSTER_NODE_DRAIN_STATUS
+title: CLUSTER_NODE_DRAIN_STATUS
+author: windows-sdk-content
+description: Enumerates the possible values of the status of a node drain.
+old-location: mscs\cluster_node_drain_status.htm
+old-project: MsCS
+ms.assetid: B6BC00A8-7D1E-4A86-8756-42917160DF30
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_NODE_DRAIN_STATUS, CLUSTER_NODE_DRAIN_STATUS enumeration [Failover Cluster], ClusterNodeDrainStatusCount, NodeDrainStatusCompleted, NodeDrainStatusFailed, NodeDrainStatusInProgress, NodeDrainStatusNotInitiated, clusapi/CLUSTER_NODE_DRAIN_STATUS, clusapi/ClusterNodeDrainStatusCount, clusapi/NodeDrainStatusCompleted, clusapi/NodeDrainStatusFailed, clusapi/NodeDrainStatusInProgress, clusapi/NodeDrainStatusNotInitiated, msclus/CLUSTER_NODE_DRAIN_STATUS, msclus/ClusterNodeDrainStatusCount, msclus/NodeDrainStatusCompleted, msclus/NodeDrainStatusFailed, msclus/NodeDrainStatusInProgress, msclus/NodeDrainStatusNotInitiated, mscs.cluster_node_drain_status
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_NODE_DRAIN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusApi.h
+-	MSClus.h
+api_name:
+-	CLUSTER_NODE_DRAIN_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSTER_NODE_DRAIN_STATUS enumeration

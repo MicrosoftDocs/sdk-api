@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincodec.IWICImagingFactory.CreateColorContext
+title: IWICImagingFactory::CreateColorContext
+author: windows-sdk-content
+description: Creates a new instance of the IWICColorContext class.
+old-location: wic\_wic_codec_iwicimagingfactory_createcolorcontext.htm
+old-project: wic
+ms.assetid: 60ae0ec4-2bf4-43f0-9882-ff8b6f5f5923
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: CreateColorContext, CreateColorContext method [Windows Imaging Component], CreateColorContext method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateColorContext method, IWICImagingFactory.CreateColorContext, IWICImagingFactory::CreateColorContext, _wic_codec_iwicimagingfactory_createcolorcontext, wic._wic_codec_iwicimagingfactory_createcolorcontext, wincodec/IWICImagingFactory::CreateColorContext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodec.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.lib
+-	Windowscodecs.dll
+api_name:
+-	IWICImagingFactory.CreateColorContext
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWICImagingFactory::CreateColorContext

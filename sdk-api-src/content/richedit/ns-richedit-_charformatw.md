@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:richedit._charformatw
+title: "_charformatw"
+author: windows-sdk-content
+description: Contains information about character formatting in a rich edit control.
+old-location: controls\CHARFORMAT.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charformat.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CFE_AUTOCOLOR, CFE_BOLD, CFE_DISABLED, CFE_ITALIC, CFE_PROTECTED, CFE_STRIKEOUT, CFE_UNDERLINE, CFM_ALL, CFM_BOLD, CFM_CHARSET, CFM_COLOR, CFM_EFFECTS, CFM_FACE, CFM_ITALIC, CFM_OFFSET, CFM_PROTECTED, CFM_SIZE, CFM_STRIKEOUT, CFM_UNDERLINE., CHARFORMAT, CHARFORMAT structure [Windows Controls], CHARFORMATA, CHARFORMATW, _charformatw, _win32_CHARFORMAT_str, _win32_CHARFORMAT_str_cpp, controls.CHARFORMAT, controls._win32_CHARFORMAT_str, richedit/CHARFORMAT, richedit/CHARFORMATA, richedit/CHARFORMATW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: richedit.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CHARFORMATW (Unicode) and CHARFORMATA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CHARFORMATW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Richedit.h
+api_name:
+-	CHARFORMAT
+-	CHARFORMATA
+-	CHARFORMATW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _charformatw structure

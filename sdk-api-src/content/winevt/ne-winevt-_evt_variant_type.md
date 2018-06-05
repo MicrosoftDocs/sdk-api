@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winevt._EVT_VARIANT_TYPE
+title: "_EVT_VARIANT_TYPE"
+author: windows-sdk-content
+description: Defines the possible data types of a variant data item.
+old-location: wes\evt_variant_type.htm
+old-project: WES
+ms.assetid: 13cf5e71-07bb-45ac-89f9-b76a26539dcd
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: EVT_VARIANT_TYPE, EvtVarTypeAnsiString, EvtVarTypeBinary, EvtVarTypeBoolean, EvtVarTypeByte, EvtVarTypeDouble, EvtVarTypeEvtHandle, EvtVarTypeEvtXml, EvtVarTypeFileTime, EvtVarTypeGuid, EvtVarTypeHexInt32, EvtVarTypeHexInt64, EvtVarTypeInt16, EvtVarTypeInt32, EvtVarTypeInt64, EvtVarTypeNull, EvtVarTypeSByte, EvtVarTypeSid, EvtVarTypeSingle, EvtVarTypeSizeT, EvtVarTypeString, EvtVarTypeSysTime, EvtVarTypeUInt16, EvtVarTypeUInt32, EvtVarTypeUInt64, _EVT_VARIANT_TYPE, _EVT_VARIANT_TYPE enumeration [EventLog], wes.evt_variant_type, winevt/EvtVarTypeAnsiString, winevt/EvtVarTypeBinary, winevt/EvtVarTypeBoolean, winevt/EvtVarTypeByte, winevt/EvtVarTypeDouble, winevt/EvtVarTypeEvtHandle, winevt/EvtVarTypeEvtXml, winevt/EvtVarTypeFileTime, winevt/EvtVarTypeGuid, winevt/EvtVarTypeHexInt32, winevt/EvtVarTypeHexInt64, winevt/EvtVarTypeInt16, winevt/EvtVarTypeInt32, winevt/EvtVarTypeInt64, winevt/EvtVarTypeNull, winevt/EvtVarTypeSByte, winevt/EvtVarTypeSid, winevt/EvtVarTypeSingle, winevt/EvtVarTypeSizeT, winevt/EvtVarTypeString, winevt/EvtVarTypeSysTime, winevt/EvtVarTypeUInt16, winevt/EvtVarTypeUInt32, winevt/EvtVarTypeUInt64, winevt/_EVT_VARIANT_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winevt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVT_VARIANT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinEvt.h
+api_name:
+-	EVT_VARIANT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _EVT_VARIANT_TYPE enumeration

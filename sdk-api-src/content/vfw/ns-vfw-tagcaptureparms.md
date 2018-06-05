@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vfw.tagCaptureParms
+title: tagCaptureParms
+author: windows-sdk-content
+description: The CAPTUREPARMS structure contains parameters that control the streaming video capture process. This structure is used to get and set parameters that affect the capture rate, the number of buffers to use while capturing, and how capture is terminated.
+old-location: multimedia\captureparms.htm
+old-project: Multimedia
+ms.assetid: 6bf7e374-5991-4a7b-984a-628d3e77b2d7
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*LPCAPTUREPARMS, *PCAPTUREPARMS, CAPTUREPARMS, CAPTUREPARMS structure [Windows Multimedia], _win32_CAPTUREPARMS_str, multimedia.captureparms, tagCaptureParms, vfw/CAPTUREPARMS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CAPTUREPARMS, *PCAPTUREPARMS, *LPCAPTUREPARMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vfw.h
+api_name:
+-	CAPTUREPARMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # tagCaptureParms structure

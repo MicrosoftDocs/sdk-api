@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:objidl.IBlockingLock
+title: IBlockingLock
+author: windows-sdk-content
+description: Provides a semaphore that can be used to provide temporarily exclusive access to a shared resource such as a file.
+old-location: com\iblockinglock.htm
+old-project: com
+ms.assetid: 8fccc4f9-17fe-4927-b00d-2815f47857e5
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IBlockingLock, IBlockingLock interface [COM], IBlockingLock interface [COM],described, _com_iblockinglock, com.iblockinglock, objidl/IBlockingLock
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IBlockingLock
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IBlockingLock interface

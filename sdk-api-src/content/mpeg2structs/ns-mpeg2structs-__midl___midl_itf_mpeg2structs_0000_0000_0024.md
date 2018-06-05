@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0024
+title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0024"
+author: windows-sdk-content
+description: The MPEG_TIME structure represents a time of day, or a duration.
+old-location: mstv\mpeg_time.htm
+old-project: mstv
+ms.assetid: b0a28edb-fcd8-43b4-a65c-d45e8a0f02b3
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: MPEG_DURATION, MPEG_TIME, MPEG_TIME structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0024, mpeg2structs/MPEG_TIME, mstv.mpeg_time
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mpeg2structs.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPEG_TIME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mpeg2Structs.h
+api_name:
+-	MPEG_TIME
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_mpeg2structs_0000_0000_0024 structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:resapi._CLUSTER_ROLE
+title: "_CLUSTER_ROLE"
+author: windows-sdk-content
+description: Contains the names of the standard cluster roles.
+old-location: mscs\cluster_role.htm
+old-project: MsCS
+ms.assetid: 65fc8a8f-0a9e-464c-b62a-d2e61431d927
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_ROLE, CLUSTER_ROLE enumeration [Failover Cluster], ClusterRoleDFSReplicatedFolder, ClusterRoleDHCP, ClusterRoleDTC, ClusterRoleDistributedFileSystem, ClusterRoleDistributedNetworkName, ClusterRoleFileServer, ClusterRoleFileShare, ClusterRoleFileShareWitness, ClusterRoleGenericApplication, ClusterRoleGenericScript, ClusterRoleGenericService, ClusterRoleHardDisk, ClusterRoleIPAddress, ClusterRoleIPV6Address, ClusterRoleIPV6TunnelAddress, ClusterRoleISCSINameServer, ClusterRoleISCSITargetServer, ClusterRoleMSMQ, ClusterRoleNFS, ClusterRoleNetworkFileSystem, ClusterRoleNetworkName, ClusterRolePhysicalDisk, ClusterRolePrintServer, ClusterRoleSODAFileServer, ClusterRoleStandAloneNamespaceServer, ClusterRoleStoragePool, ClusterRoleTaskScheduler, ClusterRoleVirtualMachine, ClusterRoleVirtualMachineConfiguration, ClusterRoleVirtualMachineReplicaBroker, ClusterRoleVolumeShadowCopyServiceTask, ClusterRoleWINS, _CLUSTER_ROLE, mscs.cluster_role, resapi/CLUSTER_ROLE, resapi/ClusterRoleDFSReplicatedFolder, resapi/ClusterRoleDHCP, resapi/ClusterRoleDTC, resapi/ClusterRoleDistributedFileSystem, resapi/ClusterRoleDistributedNetworkName, resapi/ClusterRoleFileServer, resapi/ClusterRoleFileShare, resapi/ClusterRoleFileShareWitness, resapi/ClusterRoleGenericApplication, resapi/ClusterRoleGenericScript, resapi/ClusterRoleGenericService, resapi/ClusterRoleHardDisk, resapi/ClusterRoleIPAddress, resapi/ClusterRoleIPV6Address, resapi/ClusterRoleIPV6TunnelAddress, resapi/ClusterRoleISCSINameServer, resapi/ClusterRoleISCSITargetServer, resapi/ClusterRoleMSMQ, resapi/ClusterRoleNFS, resapi/ClusterRoleNetworkFileSystem, resapi/ClusterRoleNetworkName, resapi/ClusterRolePhysicalDisk, resapi/ClusterRolePrintServer, resapi/ClusterRoleSODAFileServer, resapi/ClusterRoleStandAloneNamespaceServer, resapi/ClusterRoleStoragePool, resapi/ClusterRoleTaskScheduler, resapi/ClusterRoleVirtualMachine, resapi/ClusterRoleVirtualMachineConfiguration, resapi/ClusterRoleVirtualMachineReplicaBroker, resapi/ClusterRoleVolumeShadowCopyServiceTask, resapi/ClusterRoleWINS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: resapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_ROLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ResApi.h
+api_name:
+-	CLUSTER_ROLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _CLUSTER_ROLE enumeration

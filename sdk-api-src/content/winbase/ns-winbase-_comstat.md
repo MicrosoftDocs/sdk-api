@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbase._COMSTAT
+title: "_COMSTAT"
+author: windows-sdk-content
+description: Contains information about a communications device.
+old-location: base\comstat_str.htm
+old-project: DevIO
+ms.assetid: dd54d040-1244-425f-a43e-9071d679c4ec
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*LPCOMSTAT, COMSTAT, COMSTAT structure, LPCOMSTAT, LPCOMSTAT structure pointer, _COMSTAT, _win32_comstat_str, base.comstat_str, winbase/COMSTAT, winbase/LPCOMSTAT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMSTAT, *LPCOMSTAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winbase.h
+api_name:
+-	COMSTAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _COMSTAT structure

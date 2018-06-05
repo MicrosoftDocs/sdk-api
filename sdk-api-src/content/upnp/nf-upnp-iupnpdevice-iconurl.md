@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:upnp.IUPnPDevice.IconURL
+title: IUPnPDevice::IconURL
+author: windows-sdk-content
+description: The IconURL method returns a URL from which an icon of the specified format can be loaded.
+old-location: upnp\iupnpdevice_iconurl.htm
+old-project: UPnP
+ms.assetid: 17b3d4f1-a51a-42f9-8fc0-4156d4975889
+ms.author: windowssdkdev
+ms.date: 04/25/2018
+ms.keywords: IUPnPDevice interface [UPnP APIs],IconURL method, IUPnPDevice.IconURL, IUPnPDevice::IconURL, IconURL, IconURL method [UPnP APIs], IconURL method [UPnP APIs],IUPnPDevice interface, _upnp_iupnpdevice_iconurl, upnp.iupnpdevice_iconurl, upnp/IUPnPDevice::IconURL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: upnp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Upnp.dll
+api_name:
+-	IUPnPDevice.IconURL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUPnPDevice::IconURL

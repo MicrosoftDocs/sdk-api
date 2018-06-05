@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clusapi._CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
+title: "_CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT"
+author: windows-sdk-content
+description: Sent with the CLUSCTL_RESOURCE_STATE_CHANGE_REASON control code to provide the reason for a resource state change.
+old-location: mscs\clusctl_resource_state_change_reason_struct.htm
+old-project: MsCS
+ms.assetid: 5effbb81-eec4-4e5a-b079-b404df8fd801
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT, CLUSCTL_RESOURCE_STATE_CHANGE_REASON, CLUSCTL_RESOURCE_STATE_CHANGE_REASON structure [Failover Cluster], CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT, CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT structure [Failover Cluster], PCLUSCTL_RESOURCE_STATE_CHANGE_REASON, PCLUSCTL_RESOURCE_STATE_CHANGE_REASON structure pointer [Failover Cluster], _CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT, _wolf_clusctl_resource_state_change_reason_struct, clusapi/CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT, clusapi/PCLUSCTL_RESOURCE_STATE_CHANGE_REASON, eResourceStateChangeReasonFailedMove, eResourceStateChangeReasonFailover, eResourceStateChangeReasonMove, eResourceStateChangeReasonRundown, eResourceStateChangeReasonShutdown, eResourceStateChangeReasonUnknown, mscs.clusctl_resource_state_change_reason_struct"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT, *PCLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+api_name:
+-	CLUSCTL_RESOURCE_STATE_CHANGE_REASON
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT structure

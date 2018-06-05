@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mswmdm.IWMDMStorageControl3.Insert3
+title: IWMDMStorageControl3::Insert3
+author: windows-sdk-content
+description: The Insert3 method puts content into/next to the storage. This method extends IWMDMStorageControl2::Insert2 by allowing the application to explicitly specify the metadata and type of the object being sent.
+old-location: wmdm\iwmdmstoragecontrol3_insert3.htm
+old-project: WMDM
+ms.assetid: 044a6571-8ec0-48af-b105-07c60c25d68a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IWMDMStorageControl3 interface [windows Media Device Manager],Insert3 method, IWMDMStorageControl3.Insert3, IWMDMStorageControl3::Insert3, IWMDMStorageControl3Insert3, Insert3, Insert3 method [windows Media Device Manager], Insert3 method [windows Media Device Manager],IWMDMStorageControl3 interface, mswmdm/IWMDMStorageControl3::Insert3, wmdm.iwmdmstoragecontrol3_insert3
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IWMDMStorageControl3.Insert3
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMStorageControl3::Insert3

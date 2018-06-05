@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:uiautomationclient.IUIAutomationElement7
+title: IUIAutomationElement7
+author: windows-sdk-content
+description: Extends the IUIAutomationElement6 interface.
+old-location: winauto\uiauto_IUIAutomationElement7.htm
+old-project: WinAuto
+ms.assetid: 62B3D170-C3B3-48B8-92F8-3DF02F5D4082
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: IUIAutomationElement7, IUIAutomationElement7 interface [Windows Accessibility], IUIAutomationElement7 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement7, winauto.uiauto_IUIAutomationElement7
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.dll
+api_name:
+-	IUIAutomationElement7
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationElement7 interface

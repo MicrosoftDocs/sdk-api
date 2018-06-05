@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:msports.ComDBClaimNextFreePort
+title: ComDBClaimNextFreePort function
+author: windows-sdk-content
+description: ComDBClaimNextFreePort returns the lowest COM port number that is not already in use.
+old-location: serports\comdbclaimnextfreeport.htm
+old-project: serports
+ms.assetid: b32b42e8-d38c-4bb5-bf8a-96538a03cb5b
+ms.author: windowssdkdev
+ms.date: 04/23/2018
+ms.keywords: ComDBClaimNextFreePort, ComDBClaimNextFreePort function [Serial Ports], comdb_ed1e04f0-bebb-4d9f-8603-20e7d15b7644.xml, msports/ComDBClaimNextFreePort, serports.comdbclaimnextfreeport
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msports.h
+req.include-header: Msports.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msports.dll
+api_name:
+-	ComDBClaimNextFreePort
+product: Windows
+targetos: Windows
+req.lib: Msports.lib
+req.dll: Msports.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ComDBClaimNextFreePort function

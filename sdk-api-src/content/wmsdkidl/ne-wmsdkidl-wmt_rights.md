@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wmsdkidl.WMT_RIGHTS
+title: WMT_RIGHTS
+author: windows-sdk-content
+description: Defines the rights that may be specified in a DRM license.
+old-location: wmformat\wmt_rights.htm
+old-project: wmformat
+ms.assetid: 52a9a5ec-58fb-4804-8f56-4d863c738934
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WMT_RIGHTS, WMT_RIGHTS enumeration [windows Media Format], WMT_RIGHT_COLLABORATIVE_PLAY, WMT_RIGHT_COPY, WMT_RIGHT_COPY_TO_CD, WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE, WMT_RIGHT_COPY_TO_SDMI_DEVICE, WMT_RIGHT_ONE_TIME, WMT_RIGHT_PLAYBACK, WMT_RIGHT_SAVE_STREAM_PROTECTED, WMT_RIGHT_SDMI_NOMORECOPIES, WMT_RIGHT_SDMI_TRIGGER, enumeration [windows Media Format], wmformat.wmt_rights, wmsdkidl/WMT_RIGHTS, wmsdkidl/WMT_RIGHT_COLLABORATIVE_PLAY, wmsdkidl/WMT_RIGHT_COPY, wmsdkidl/WMT_RIGHT_COPY_TO_CD, wmsdkidl/WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE, wmsdkidl/WMT_RIGHT_COPY_TO_SDMI_DEVICE, wmsdkidl/WMT_RIGHT_ONE_TIME, wmsdkidl/WMT_RIGHT_PLAYBACK, wmsdkidl/WMT_RIGHT_SAVE_STREAM_PROTECTED, wmsdkidl/WMT_RIGHT_SDMI_NOMORECOPIES, wmsdkidl/WMT_RIGHT_SDMI_TRIGGER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMT_RIGHTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wmsdkidl.h
+api_name:
+-	WMT_RIGHTS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WMT_RIGHTS enumeration

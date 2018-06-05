@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:contentpartner.IWMPContentPartnerCallback.DownloadTrack
+title: IWMPContentPartnerCallback::DownloadTrack
+author: windows-sdk-content
+description: Note  This section describes functionality designed for use by online stores.
+old-location: wmp\iwmpcontentpartnercallback_downloadtrack.htm
+old-project: WMP
+ms.assetid: fe8772fa-2eb4-4dfe-b677-e667b6021690
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: DownloadTrack, DownloadTrack method [Windows Media Player], DownloadTrack method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],DownloadTrack method, IWMPContentPartnerCallback.DownloadTrack, IWMPContentPartnerCallback::DownloadTrack, IWMPContentPartnerCallbackDownloadTrack, contentpartner/IWMPContentPartnerCallback::DownloadTrack, wmp.iwmpcontentpartnercallback_downloadtrack
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: contentpartner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPTransactionType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	contentpartner.h
+api_name:
+-	IWMPContentPartnerCallback.DownloadTrack
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IWMPContentPartnerCallback::DownloadTrack

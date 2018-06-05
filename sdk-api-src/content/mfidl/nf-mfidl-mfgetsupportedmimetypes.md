@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.MFGetSupportedMimeTypes
+title: MFGetSupportedMimeTypes function
+author: windows-sdk-content
+description: Retrieves the MIME types that are registered for the source resolver.
+old-location: mf\mfgetsupportedmimetypes.htm
+old-project: medfound
+ms.assetid: 7e7b0e6e-98eb-4fb1-8577-e73eb9d62623
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 7e7b0e6e-98eb-4fb1-8577-e73eb9d62623, MFGetSupportedMimeTypes, MFGetSupportedMimeTypes function [Media Foundation], mf.mfgetsupportedmimetypes, mfidl/MFGetSupportedMimeTypes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	mf.dll
+api_name:
+-	MFGetSupportedMimeTypes
+product: Windows
+targetos: Windows
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MFGetSupportedMimeTypes function

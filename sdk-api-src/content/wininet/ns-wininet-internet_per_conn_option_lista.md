@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wininet.INTERNET_PER_CONN_OPTION_LISTA
+title: INTERNET_PER_CONN_OPTION_LISTA
+author: windows-sdk-content
+description: Contains the list of options for a particular Internet connection.
+old-location: wininet\internet_per_conn_option_list.htm
+old-project: WinInet
+ms.assetid: 5e3178d5-b266-44bd-846c-f14bad0083c4
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPINTERNET_PER_CONN_OPTION_LISTA, INTERNET_PER_CONN_OPTION_LIST, INTERNET_PER_CONN_OPTION_LIST structure [WinINet], INTERNET_PER_CONN_OPTION_LISTA, INTERNET_PER_CONN_OPTION_LISTW, LPINTERNET_PER_CONN_OPTION_LIST, LPINTERNET_PER_CONN_OPTION_LIST structure pointer [WinINet], _inet_internet_per_conn_option_list_structure, wininet.internet_per_conn_option_list, wininet/INTERNET_PER_CONN_OPTION_LIST, wininet/INTERNET_PER_CONN_OPTION_LISTA, wininet/INTERNET_PER_CONN_OPTION_LISTW, wininet/LPINTERNET_PER_CONN_OPTION_LIST"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wininet.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: INTERNET_PER_CONN_OPTION_LISTW (Unicode) and INTERNET_PER_CONN_OPTION_LISTA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INTERNET_PER_CONN_OPTION_LISTA, *LPINTERNET_PER_CONN_OPTION_LISTA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wininet.h
+api_name:
+-	INTERNET_PER_CONN_OPTION_LIST
+-	INTERNET_PER_CONN_OPTION_LISTA
+-	INTERNET_PER_CONN_OPTION_LISTW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # INTERNET_PER_CONN_OPTION_LISTA structure

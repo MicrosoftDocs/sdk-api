@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:webservices._WS_XML_QNAME
+title: "_WS_XML_QNAME"
+author: windows-sdk-content
+description: A structure used to specify an XML name (of an element or an attribute) as a local name, namespace pair.
+old-location: wsw\ws_xml_qname.htm
+old-project: wsw
+ms.assetid: 54095ad5-e9ba-4fa8-92e2-87b3a8950d5c
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_XML_QNAME, WS_XML_QNAME structure [Web Services for Windows], _WS_XML_QNAME, webservices/WS_XML_QNAME, wsw.ws_xml_qname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_XML_QNAME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_XML_QNAME
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WS_XML_QNAME structure

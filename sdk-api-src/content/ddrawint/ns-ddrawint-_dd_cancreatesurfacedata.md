@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_CANCREATESURFACEDATA
+title: "_DD_CANCREATESURFACEDATA"
+author: windows-sdk-content
+description: The DD_CANCREATESURFACEDATA structure contains information necessary to indicate whether a surface--in the case of CanCreateD3DBuffer, a buffer--can be created.
+old-location: display\dd_cancreatesurfacedata.htm
+old-project: display
+ms.assetid: 35ac7efd-1949-497c-8730-2c4414aed977
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA structure [Display Devices], _DD_CANCREATESURFACEDATA, ddrawint/DD_CANCREATESURFACEDATA, ddstrcts_53ef5031-d754-4aab-8729-520852df024a.xml, display.dd_cancreatesurfacedata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_CANCREATESURFACEDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_CANCREATESURFACEDATA structure

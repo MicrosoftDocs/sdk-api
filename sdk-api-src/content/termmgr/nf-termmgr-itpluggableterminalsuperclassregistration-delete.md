@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.Delete
+title: ITPluggableTerminalSuperclassRegistration::Delete
+author: windows-sdk-content
+description: The Delete method removes the current terminal superclass from the registry.
+old-location: tapi3\itpluggableterminalsuperclassregistration_delete.htm
+old-project: Tapi
+ms.assetid: fe87d55f-1e1c-4241-b8a3-b56d2000f3ca
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: Delete, Delete method [TAPI 2.2], Delete method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],Delete method, ITPluggableTerminalSuperclassRegistration.Delete, ITPluggableTerminalSuperclassRegistration::Delete, _tapi3_itpluggableterminalsuperclassregistration_delete, tapi3.itpluggableterminalsuperclassregistration_delete, termmgr/ITPluggableTerminalSuperclassRegistration::Delete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: termmgr.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITPluggableTerminalSuperclassRegistration.Delete
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITPluggableTerminalSuperclassRegistration::Delete

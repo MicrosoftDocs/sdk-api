@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wtsapi32._WTS_INFO_CLASS
+title: "_WTS_INFO_CLASS"
+author: windows-sdk-content
+description: Contains values that indicate the type of session information to retrieve in a call to the WTSQuerySessionInformation function.
+old-location: termserv\wts_info_class_str.htm
+old-project: TermServ
+ms.assetid: 20e015bd-323a-44c4-a0d6-02781f3a5eec
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: WTSApplicationName, WTSClientAddress, WTSClientBuildNumber, WTSClientDirectory, WTSClientDisplay, WTSClientHardwareId, WTSClientInfo, WTSClientName, WTSClientProductId, WTSClientProtocolType, WTSConfigInfo, WTSConnectState, WTSDomainName, WTSIdleTime, WTSIncomingBytes, WTSIncomingFrames, WTSInitialProgram, WTSIsRemoteSession, WTSLogonTime, WTSOEMId, WTSOutgoingBytes, WTSOutgoingFrames, WTSSessionAddressV4, WTSSessionId, WTSSessionInfo, WTSSessionInfoEx, WTSUserName, WTSValidationInfo, WTSWinStationName, WTSWorkingDirectory, WTS_INFO_CLASS, WTS_INFO_CLASS enumeration [Remote Desktop Services], _WTS_INFO_CLASS, _win32_wts_info_class_str, termserv.wts_info_class_str, wtsapi32/WTSApplicationName, wtsapi32/WTSClientAddress, wtsapi32/WTSClientBuildNumber, wtsapi32/WTSClientDirectory, wtsapi32/WTSClientDisplay, wtsapi32/WTSClientHardwareId, wtsapi32/WTSClientInfo, wtsapi32/WTSClientName, wtsapi32/WTSClientProductId, wtsapi32/WTSClientProtocolType, wtsapi32/WTSConfigInfo, wtsapi32/WTSConnectState, wtsapi32/WTSDomainName, wtsapi32/WTSIdleTime, wtsapi32/WTSIncomingBytes, wtsapi32/WTSIncomingFrames, wtsapi32/WTSInitialProgram, wtsapi32/WTSIsRemoteSession, wtsapi32/WTSLogonTime, wtsapi32/WTSOEMId, wtsapi32/WTSOutgoingBytes, wtsapi32/WTSOutgoingFrames, wtsapi32/WTSSessionAddressV4, wtsapi32/WTSSessionId, wtsapi32/WTSSessionInfo, wtsapi32/WTSSessionInfoEx, wtsapi32/WTSUserName, wtsapi32/WTSValidationInfo, wtsapi32/WTSWinStationName, wtsapi32/WTSWorkingDirectory, wtsapi32/WTS_INFO_CLASS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WSManDisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_INFO_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsapi32.h
+api_name:
+-	WTS_INFO_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTS_INFO_CLASS enumeration

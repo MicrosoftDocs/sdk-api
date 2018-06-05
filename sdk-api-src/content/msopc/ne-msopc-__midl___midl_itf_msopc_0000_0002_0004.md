@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0004
+title: "__MIDL___MIDL_itf_msopc_0000_0002_0004"
+author: windows-sdk-content
+description: Describes the read settings for caching package components and validating them against ECMA-376 OpenXML, 1st Edition, Part 2:\_Open Packaging Conventions (OPC) conformance requirements.
+old-location: opc\opc_read_flags.htm
+old-project: OPC
+ms.assetid: f7d21dac-c606-4a6a-9d6a-cf6f8ec4dbb5
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: OPC_CACHE_ON_ACCESS, OPC_READ_DEFAULT, OPC_READ_FLAGS, OPC_READ_FLAGS enumeration [Open Packaging Conventions], OPC_VALIDATE_ON_LOAD, __MIDL___MIDL_itf_msopc_0000_0002_0004, msopc/OPC_CACHE_ON_ACCESS, msopc/OPC_READ_DEFAULT, msopc/OPC_READ_FLAGS, msopc/OPC_VALIDATE_ON_LOAD, opc.opc_read_flags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Opcobjectmodel.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPC_READ_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msopc.h
+api_name:
+-	OPC_READ_FLAGS
+product: Windows
+targetos: Windows
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_msopc_0000_0002_0004 enumeration

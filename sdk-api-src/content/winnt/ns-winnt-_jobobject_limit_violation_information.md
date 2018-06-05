@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._JOBOBJECT_LIMIT_VIOLATION_INFORMATION
+title: "_JOBOBJECT_LIMIT_VIOLATION_INFORMATION"
+author: windows-sdk-content
+description: Contains information about resource notification limits that have been exceeded for a job object. This structure is used with the QueryInformationJobObject function with the JobObjectLimitViolationInformation information class.
+old-location: base\jobobject_limit_violation_information.htm
+old-project: ProcThread
+ms.assetid: 445f21aa-ba42-4ad6-8d28-f7811a5d8a8c
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PJOBOBJECT_LIMIT_VIOLATION_INFORMATION, JOBOBJECT_LIMIT_VIOLATION_INFORMATION, JOBOBJECT_LIMIT_VIOLATION_INFORMATION structure, JOB_OBJECT_LIMIT_JOB_MEMORY, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, JOB_OBJECT_LIMIT_RATE_CONTROL, JOB_OBJECT_LIMIT_READ_BYTES, JOB_OBJECT_LIMIT_WRITE_BYTES, PJOBOBJECT_LIMIT_VIOLATION_INFORMATION, PJOBOBJECT_LIMIT_VIOLATION_INFORMATION structure pointer, ToleranceHigh, ToleranceIntervalLong, ToleranceIntervalMedium, ToleranceIntervalShort, ToleranceLow, ToleranceMedium, _JOBOBJECT_LIMIT_VIOLATION_INFORMATION, base.jobobject_limit_violation_information, winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION, winnt/PJOBOBJECT_LIMIT_VIOLATION_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: JOBOBJECT_LIMIT_VIOLATION_INFORMATION, *PJOBOBJECT_LIMIT_VIOLATION_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	JOBOBJECT_LIMIT_VIOLATION_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _JOBOBJECT_LIMIT_VIOLATION_INFORMATION structure

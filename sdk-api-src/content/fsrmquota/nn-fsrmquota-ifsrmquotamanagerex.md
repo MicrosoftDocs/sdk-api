@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:fsrmquota.IFsrmQuotaManagerEx
+title: IFsrmQuotaManagerEx
+author: windows-sdk-content
+description: Used to manage quotas, extended version.
+old-location: fsrm\ifsrmquotamanagerex.htm
+old-project: Fsrm
+ms.assetid: aa665a9d-d053-49e4-82a7-d6ba27406a7c
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmQuotaManagerEx, IFsrmQuotaManagerEx interface [File Server Resource Manager], IFsrmQuotaManagerEx interface [File Server Resource Manager],described, fs.ifsrmquotamanagerex, fsrm.ifsrmquotamanagerex, fsrm/IFsrmQuotaManagerEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: fsrmquota.h
+req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmQuotaManagerEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmQuotaManagerEx interface

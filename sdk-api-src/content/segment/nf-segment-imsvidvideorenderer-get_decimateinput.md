@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:segment.IMSVidVideoRenderer.get_DecimateInput
+title: IMSVidVideoRenderer::get_DecimateInput
+author: windows-sdk-content
+description: The get_DecimateInput method queries whether the Video Mixing Renderer (VMR) is currently configured to decimate the video (that is, reduce the native video size) before processing it.
+old-location: mstv\imsvidvideorenderer_get_decimateinput.htm
+old-project: mstv
+ms.assetid: 1f533b85-175b-4381-b7a9-eac0d8e313ed
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_DecimateInput method, IMSVidVideoRenderer.get_DecimateInput, IMSVidVideoRenderer::get_DecimateInput, IMSVidVideoRendererget_DecimateInput, get_DecimateInput, get_DecimateInput method [Microsoft TV Technologies], get_DecimateInput method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_decimateinput, segment/IMSVidVideoRenderer::get_DecimateInput
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidVideoRenderer.get_DecimateInput
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidVideoRenderer::get_DecimateInput

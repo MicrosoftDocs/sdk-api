@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:audioenginebaseapo.APOInitBaseStruct
+title: APOInitBaseStruct
+author: windows-sdk-content
+description: The APOInitBaseStruct structure is the base initialization header that must precede other initialization data in IAudioProcessingObject::Initialize.
+old-location: audio\apoinitbasestruct.htm
+old-project: audio
+ms.assetid: 15C973AE-B0E8-42FD-9F34-671A6A915B47
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: APOInitBaseStruct, APOInitBaseStruct structure [Audio Devices], PAPOInitBaseStruct, PAPOInitBaseStruct structure pointer [Audio Devices], audio.apoinitbasestruct, audioenginebaseapo/APOInitBaseStruct, audioenginebaseapo/PAPOInitBaseStruct
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: audioenginebaseapo.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APOInitBaseStruct
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Audioenginebaseapo.h
+api_name:
+-	APOInitBaseStruct
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: All levels.
 ---
 
 # APOInitBaseStruct structure

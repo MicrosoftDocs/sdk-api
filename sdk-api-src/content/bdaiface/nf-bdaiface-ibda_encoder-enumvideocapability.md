@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bdaiface.IBDA_Encoder.EnumVideoCapability
+title: IBDA_Encoder::EnumVideoCapability
+author: windows-sdk-content
+description: Gets one of the video formats supported by the device.
+old-location: mstv\ibda_encoder_enumvideocapability.htm
+old-project: mstv
+ms.assetid: 81a780d3-1b1c-4c9a-9b4b-cb82f83fb7d6
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EnumVideoCapability, EnumVideoCapability method [Microsoft TV Technologies], EnumVideoCapability method [Microsoft TV Technologies],IBDA_Encoder interface, IBDA_Encoder interface [Microsoft TV Technologies],EnumVideoCapability method, IBDA_Encoder.EnumVideoCapability, IBDA_Encoder::EnumVideoCapability, PBDA_Encoder_Video_AVC, PBDA_Encoder_Video_H264, PBDA_Encoder_Video_MPEG2PartII, PBDA_Encoder_Video_MPEG4Part10, bdaiface/IBDA_Encoder::EnumVideoCapability, mstv.ibda_encoder_enumvideocapability
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bdaiface.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_Encoder.EnumVideoCapability
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_Encoder::EnumVideoCapability

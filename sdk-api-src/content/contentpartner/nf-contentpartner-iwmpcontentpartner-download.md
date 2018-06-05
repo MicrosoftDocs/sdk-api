@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:contentpartner.IWMPContentPartner.Download
+title: IWMPContentPartner::Download
+author: windows-sdk-content
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Download method initiates the download of a set of media items.
+old-location: wmp\iwmpcontentpartner_download.htm
+old-project: WMP
+ms.assetid: 0fa3ed40-e155-4e42-b031-d6cb8f8b4ac4
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: Download, Download method [Windows Media Player], Download method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],Download method, IWMPContentPartner.Download, IWMPContentPartner::Download, IWMPContentPartnerDownload, contentpartner/IWMPContentPartner::Download, wmp.iwmpcontentpartner_download
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: contentpartner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPTransactionType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	contentpartner.h
+api_name:
+-	IWMPContentPartner.Download
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IWMPContentPartner::Download

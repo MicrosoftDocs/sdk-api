@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfcaptureengine.MF_CAPTURE_ENGINE_STREAM_CATEGORY
+title: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+author: windows-sdk-content
+description: Defines the values for the source stream category.
+old-location: mf\mf_capture_engine_stream_category.htm
+old-project: medfound
+ms.assetid: F82CFF90-CFA5-4000-A0E6-547042EDE02F
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_CAPTURE_ENGINE_STREAM_CATEGORY, MF_CAPTURE_ENGINE_STREAM_CATEGORY enumeration [Media Foundation], MF_CAPTURE_ENGINE_STREAM_CATEGORY_AUDIO, MF_CAPTURE_ENGINE_STREAM_CATEGORY_PHOTO_DEPENDENT, MF_CAPTURE_ENGINE_STREAM_CATEGORY_PHOTO_INDEPENDENT, MF_CAPTURE_ENGINE_STREAM_CATEGORY_UNSUPPORTED, MF_CAPTURE_ENGINE_STREAM_CATEGORY_VIDEO_CAPTURE, MF_CAPTURE_ENGINE_STREAM_CATEGORY_VIDEO_PREVIEW, mf.mf_capture_engine_stream_category, mfcaptureengine/MF_CAPTURE_ENGINE_STREAM_CATEGORY, mfcaptureengine/MF_CAPTURE_ENGINE_STREAM_CATEGORY_AUDIO, mfcaptureengine/MF_CAPTURE_ENGINE_STREAM_CATEGORY_PHOTO_DEPENDENT, mfcaptureengine/MF_CAPTURE_ENGINE_STREAM_CATEGORY_PHOTO_INDEPENDENT, mfcaptureengine/MF_CAPTURE_ENGINE_STREAM_CATEGORY_UNSUPPORTED, mfcaptureengine/MF_CAPTURE_ENGINE_STREAM_CATEGORY_VIDEO_CAPTURE, mfcaptureengine/MF_CAPTURE_ENGINE_STREAM_CATEGORY_VIDEO_PREVIEW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfcaptureengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfcaptureengine.h
+api_name:
+-	MF_CAPTURE_ENGINE_STREAM_CATEGORY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MF_CAPTURE_ENGINE_STREAM_CATEGORY enumeration

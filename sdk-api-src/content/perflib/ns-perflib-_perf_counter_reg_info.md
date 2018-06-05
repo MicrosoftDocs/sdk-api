@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:perflib._PERF_COUNTER_REG_INFO
+title: "_PERF_COUNTER_REG_INFO"
+author: windows-sdk-content
+description: Provides registration information about a performance counter.
+old-location: perf\perf_counter_reg_info.htm
+old-project: PerfCtrs
+ms.assetid: 34CA6EA3-DF74-4DB5-8DD0-2B0BB0162F9D
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PPERF_COUNTER_REG_INFO, PERF_100NSEC_MULTI_TIMER, PERF_100NSEC_MULTI_TIMER_II, PERF_100NSEC_TIMER, PERF_100NSEC_TIMER_INV, PERF_AGGREGATE_AVG, PERF_AGGREGATE_MAX, PERF_AGGREGATE_MIN, PERF_AGGREGATE_TOTAL, PERF_AGGREGATE_UNDEFINED, PERF_ATTRIB_BY_REFERENCE, PERF_ATTRIB_DISPLAY_AS_HEX, PERF_ATTRIB_DISPLAY_AS_REAL, PERF_ATTRIB_NO_DISPLAYABLE, PERF_ATTRIB_NO_GROUP_SEPARATOR, PERF_AVERAGE_BASE, PERF_AVERAGE_BULK, PERF_AVERAGE_TIMER, PERF_COUNTER_100NS_QUEUELEN_TYPE, PERF_COUNTER_BULK_COUNT, PERF_COUNTER_COUNTER, PERF_COUNTER_DELTA, PERF_COUNTER_LARGE_DELTA, PERF_COUNTER_LARGE_QUEUELEN_TYPE, PERF_COUNTER_LARGE_RAWCOUNT, PERF_COUNTER_LARGE_RAWCOUNT_HEX, PERF_COUNTER_MULTI_TIMER, PERF_COUNTER_MULTI_TIMER_INV, PERF_COUNTER_OBJ_QUEUELEN_TYPE, PERF_COUNTER_RAWCOUNT, PERF_COUNTER_RAWCOUNT_HEX, PERF_COUNTER_REG_INFO, PERF_COUNTER_REG_INFO structure [Perf], PERF_COUNTER_TEXT, PERF_COUNTER_TIMER, PERF_COUNTER_TIMER_INV, PERF_DETAIL_ADVANCED, PERF_DETAIL_NOVICE, PERF_ELAPSED_TIME, PERF_LARGE_RAW_BASE, PERF_OBJ_TIME_TIMER, PERF_PRECISION_100NS_TIMER, PERF_PRECISION_OBJECT_TIMER, PERF_PRECISION_TIMER, PERF_RAW_BASE, PERF_RAW_FRACTION, PERF_SAMPLE_COUNTER, PERF_SAMPLE_FRACTION, PPERF_COUNTER_REG_INFO, PPERF_COUNTER_REG_INFO structure pointer [Perf], _PERF_COUNTER_REG_INFO, perf.perf_counter_reg_info, perflib/PERF_COUNTER_REG_INFO, perflib/PPERF_COUNTER_REG_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: perflib.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PERF_COUNTER_REG_INFO, *PPERF_COUNTER_REG_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Perflib.h
+api_name:
+-	PERF_COUNTER_REG_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PERF_COUNTER_REG_INFO structure

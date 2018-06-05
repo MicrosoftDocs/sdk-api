@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core._FILEOPENDIALOGOPTIONS
+title: "_FILEOPENDIALOGOPTIONS"
+author: windows-sdk-content
+description: Defines the set of options available to an Open or Save dialog.
+old-location: shell\FILEOPENDIALOGOPTIONS.htm
+old-project: shell
+ms.assetid: CDDB4B39-AFB9-4C0D-9D5A-0F2EA9EABE64
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "; typedef DWORD FILEOPENDIALOGOPTIONS, ; typedef DWORD FILEOPENDIALOGOPTIONS enumeration [Windows Shell], FILEOPENDIALOGOPTIONS, FILEOPENDIALOGOPTIONS enumeration [Windows Shell], FOS_ALLNONSTORAGEITEMS, FOS_ALLOWMULTISELECT, FOS_CREATEPROMPT, FOS_DEFAULTNOMINIMODE, FOS_DONTADDTORECENT, FOS_FILEMUSTEXIST, FOS_FORCEFILESYSTEM, FOS_FORCEPREVIEWPANEON, FOS_FORCESHOWHIDDEN, FOS_HIDEMRUPLACES, FOS_HIDEPINNEDPLACES, FOS_NOCHANGEDIR, FOS_NODEREFERENCELINKS, FOS_NOREADONLYRETURN, FOS_NOTESTFILECREATE, FOS_NOVALIDATE, FOS_OVERWRITEPROMPT, FOS_PATHMUSTEXIST, FOS_PICKFOLDERS, FOS_SHAREAWARE, FOS_STRICTFILETYPES, FOS_SUPPORTSTREAMABLEITEMS, _FILEOPENDIALOGOPTIONS, shell.FILEOPENDIALOGOPTIONS, shobjidl_core/FILEOPENDIALOGOPTIONS, shobjidl_core/FOS_ALLNONSTORAGEITEMS, shobjidl_core/FOS_ALLOWMULTISELECT, shobjidl_core/FOS_CREATEPROMPT, shobjidl_core/FOS_DEFAULTNOMINIMODE, shobjidl_core/FOS_DONTADDTORECENT, shobjidl_core/FOS_FILEMUSTEXIST, shobjidl_core/FOS_FORCEFILESYSTEM, shobjidl_core/FOS_FORCEPREVIEWPANEON, shobjidl_core/FOS_FORCESHOWHIDDEN, shobjidl_core/FOS_HIDEMRUPLACES, shobjidl_core/FOS_HIDEPINNEDPLACES, shobjidl_core/FOS_NOCHANGEDIR, shobjidl_core/FOS_NODEREFERENCELINKS, shobjidl_core/FOS_NOREADONLYRETURN, shobjidl_core/FOS_NOTESTFILECREATE, shobjidl_core/FOS_NOVALIDATE, shobjidl_core/FOS_OVERWRITEPROMPT, shobjidl_core/FOS_PATHMUSTEXIST, shobjidl_core/FOS_PICKFOLDERS, shobjidl_core/FOS_SHAREAWARE, shobjidl_core/FOS_STRICTFILETYPES, shobjidl_core/FOS_SUPPORTSTREAMABLEITEMS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	; typedef DWORD FILEOPENDIALOGOPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # _FILEOPENDIALOGOPTIONS enumeration

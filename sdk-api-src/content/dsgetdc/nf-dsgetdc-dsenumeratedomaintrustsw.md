@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dsgetdc.DsEnumerateDomainTrustsW
+title: DsEnumerateDomainTrustsW function
+author: windows-sdk-content
+description: Obtains domain trust data for a specified domain.
+old-location: ad\dsenumeratedomaintrusts.htm
+old-project: AD
+ms.assetid: 6c3b788f-ee53-4637-acdb-04316e8464fe
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_DOMAIN_DIRECT_INBOUND, DS_DOMAIN_DIRECT_OUTBOUND, DS_DOMAIN_IN_FOREST, DS_DOMAIN_NATIVE_MODE, DS_DOMAIN_PRIMARY, DS_DOMAIN_TREE_ROOT, DsEnumerateDomainTrusts, DsEnumerateDomainTrusts function [Active Directory], DsEnumerateDomainTrustsA, DsEnumerateDomainTrustsW, _glines_dsenumeratedomaintrusts, ad.dsenumeratedomaintrusts, dsgetdc/DsEnumerateDomainTrusts, dsgetdc/DsEnumerateDomainTrustsA, dsgetdc/DsEnumerateDomainTrustsW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dsgetdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DsEnumerateDomainTrustsW (Unicode) and DsEnumerateDomainTrustsA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netapi32.dll
+api_name:
+-	DsEnumerateDomainTrusts
+-	DsEnumerateDomainTrustsA
+-	DsEnumerateDomainTrustsW
+product: Windows
+targetos: Windows
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 ---
 
 # DsEnumerateDomainTrustsW function

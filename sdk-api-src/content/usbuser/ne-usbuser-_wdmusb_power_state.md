@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:usbuser._WDMUSB_POWER_STATE
+title: "_WDMUSB_POWER_STATE"
+author: windows-sdk-content
+description: The WDMUSB_POWER_STATE enumeration indicates the power state of a host controller or root hub.
+old-location: buses\wdmusb_power_state.htm
+old-project: usbref
+ms.assetid: 2f64bd5b-507c-4824-b50c-dbc228e8671a
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: WDMUSB_POWER_STATE, WDMUSB_POWER_STATE enumeration [Buses], WdmUsbPowerDeviceD0, WdmUsbPowerDeviceD1, WdmUsbPowerDeviceD2, WdmUsbPowerDeviceD3, WdmUsbPowerDeviceUnspecified, WdmUsbPowerNotMapped, WdmUsbPowerSystemHibernate, WdmUsbPowerSystemShutdown, WdmUsbPowerSystemSleeping1, WdmUsbPowerSystemSleeping2, WdmUsbPowerSystemSleeping3, WdmUsbPowerSystemUnspecified, WdmUsbPowerSystemWorking, _WDMUSB_POWER_STATE, buses.wdmusb_power_state, usbstrct_fa696b93-8427-4480-b808-d02628a87f84.xml, usbuser/WDMUSB_POWER_STATE, usbuser/WdmUsbPowerDeviceD0, usbuser/WdmUsbPowerDeviceD1, usbuser/WdmUsbPowerDeviceD2, usbuser/WdmUsbPowerDeviceD3, usbuser/WdmUsbPowerDeviceUnspecified, usbuser/WdmUsbPowerNotMapped, usbuser/WdmUsbPowerSystemHibernate, usbuser/WdmUsbPowerSystemShutdown, usbuser/WdmUsbPowerSystemSleeping1, usbuser/WdmUsbPowerSystemSleeping2, usbuser/WdmUsbPowerSystemSleeping3, usbuser/WdmUsbPowerSystemUnspecified, usbuser/WdmUsbPowerSystemWorking
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: usbuser.h
+req.include-header: Usbuser.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WDMUSB_POWER_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	usbuser.h
+api_name:
+-	WDMUSB_POWER_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _WDMUSB_POWER_STATE enumeration

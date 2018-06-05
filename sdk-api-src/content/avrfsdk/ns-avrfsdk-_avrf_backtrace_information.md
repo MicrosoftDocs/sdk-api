@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:avrfsdk._AVRF_BACKTRACE_INFORMATION
+title: "_AVRF_BACKTRACE_INFORMATION"
+author: windows-sdk-content
+description: Contains information about backtraces performed.
+old-location: winprog\avrf_backtrace_information.htm
+old-project: DevNotes
+ms.assetid: 634d9569-469c-4dc7-9192-217af0937b6c
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*PAVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION structure [Windows API], _AVRF_BACKTRACE_INFORMATION, avrfsdk/AVRF_BACKTRACE_INFORMATION, base.avrf_backtrace_information, winprog.avrf_backtrace_information"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: avrfsdk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AVRF_BACKTRACE_INFORMATION, *PAVRF_BACKTRACE_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Avrfsdk.h
+api_name:
+-	AVRF_BACKTRACE_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _AVRF_BACKTRACE_INFORMATION structure

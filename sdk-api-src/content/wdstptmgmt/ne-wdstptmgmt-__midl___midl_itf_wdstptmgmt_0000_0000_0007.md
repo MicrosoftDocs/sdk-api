@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0007
+title: "__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0007"
+author: windows-sdk-content
+description: Indicates the source from which the WDS multicast provider obtains a multicast address for a new session.
+old-location: wds\wdstransport_ip_address_source_type.htm
+old-project: Wds
+ms.assetid: bc16cf5e-2cfe-480b-b67c-546b47ef2518
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*PWDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE enumeration [Windows Deployment Services], WdsTptIpAddressSourceDhcp, WdsTptIpAddressSourceRange, WdsTptIpAddressSourceUnknown, __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0007, wds.wdstransport_ip_address_source_type, wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, wdstptmgmt/WdsTptIpAddressSourceDhcp, wdstptmgmt/WdsTptIpAddressSourceRange, wdstptmgmt/WdsTptIpAddressSourceUnknown"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wdstptmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, *PWDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wdstptmgmt.h
+api_name:
+-	WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0007 enumeration

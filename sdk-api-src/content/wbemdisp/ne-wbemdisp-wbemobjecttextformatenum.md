@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wbemdisp.WbemObjectTextFormatEnum
+title: WbemObjectTextFormatEnum
+author: windows-sdk-content
+description: Define the valid object text formats to be used by SWbemObjectEx.GetText_.
+old-location: wmi\wbemobjecttextformatenum.htm
+old-project: WmiSdk
+ms.assetid: 0c97d16c-e6fc-431c-8d49-943f716a4284
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: WMI_OBJ_TEXT_LAST, WMI_OBJ_TEXT_WMI_EXT1, WMI_OBJ_TEXT_WMI_EXT10, WMI_OBJ_TEXT_WMI_EXT2, WMI_OBJ_TEXT_WMI_EXT3, WMI_OBJ_TEXT_WMI_EXT4, WMI_OBJ_TEXT_WMI_EXT5, WMI_OBJ_TEXT_WMI_EXT6, WMI_OBJ_TEXT_WMI_EXT7, WMI_OBJ_TEXT_WMI_EXT8, WMI_OBJ_TEXT_WMI_EXT9, WbemObjectTextFormatEnum, WbemObjectTextFormatEnum enumeration [Windows Management Instrumentation], _hmm_wbemobjecttextformatenum, wbemObjectTextFormatCIMDTD20, wbemObjectTextFormatWMIDTD20, wbemdisp/WMI_OBJ_TEXT_LAST, wbemdisp/WMI_OBJ_TEXT_WMI_EXT1, wbemdisp/WMI_OBJ_TEXT_WMI_EXT10, wbemdisp/WMI_OBJ_TEXT_WMI_EXT2, wbemdisp/WMI_OBJ_TEXT_WMI_EXT3, wbemdisp/WMI_OBJ_TEXT_WMI_EXT4, wbemdisp/WMI_OBJ_TEXT_WMI_EXT5, wbemdisp/WMI_OBJ_TEXT_WMI_EXT6, wbemdisp/WMI_OBJ_TEXT_WMI_EXT7, wbemdisp/WMI_OBJ_TEXT_WMI_EXT8, wbemdisp/WMI_OBJ_TEXT_WMI_EXT9, wbemdisp/WbemObjectTextFormatEnum, wbemdisp/wbemObjectTextFormatCIMDTD20, wbemdisp/wbemObjectTextFormatWMIDTD20, wmi.wbemobjecttextformatenum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wbemdisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wbemdisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemObjectTextFormatEnum
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wbemdisp.h
+api_name:
+-	WbemObjectTextFormatEnum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WbemObjectTextFormatEnum enumeration

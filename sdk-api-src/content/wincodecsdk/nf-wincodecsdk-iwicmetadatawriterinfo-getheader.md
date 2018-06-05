@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincodecsdk.IWICMetadataWriterInfo.GetHeader
+title: IWICMetadataWriterInfo::GetHeader
+author: windows-sdk-content
+description: Gets the metadata header for the metadata writer.
+old-location: wic\_wic_codec_iwicmetadatawriterinfo_getheader.htm
+old-project: wic
+ms.assetid: 156728ea-b4a3-47d7-b0d8-cd34881e9703
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetHeader, GetHeader method [Windows Imaging Component], GetHeader method [Windows Imaging Component],IWICMetadataWriterInfo interface, IWICMetadataWriterInfo interface [Windows Imaging Component],GetHeader method, IWICMetadataWriterInfo.GetHeader, IWICMetadataWriterInfo::GetHeader, _wic_codec_iwicmetadatawriterinfo_getheader, wic._wic_codec_iwicmetadatawriterinfo_getheader, wincodecsdk/IWICMetadataWriterInfo::GetHeader
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wincodecsdk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodecsdk.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICPersistOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windowscodecs.dll
+api_name:
+-	IWICMetadataWriterInfo.GetHeader
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWICMetadataWriterInfo::GetHeader

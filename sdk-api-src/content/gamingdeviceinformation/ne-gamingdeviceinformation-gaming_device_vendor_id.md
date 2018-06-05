@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:gamingdeviceinformation.GAMING_DEVICE_VENDOR_ID
+title: GAMING_DEVICE_VENDOR_ID
+author: windows-sdk-content
+description: Indicates the vendor of the console that the game is running on.
+old-location: gamingdvcinfo\gaming_device_vendor_id.htm
+old-project: gamingdvcinfo
+ms.assetid: 0A74E610-9853-4299-A278-41C3B7F47D9C
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GAMING_DEVICE_VENDOR_ID, GAMING_DEVICE_VENDOR_ID enumeration, GAMING_DEVICE_VENDOR_ID_MICROSOFT, GAMING_DEVICE_VENDOR_ID_NONE, gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID, gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID_MICROSOFT, gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID_NONE, gamingdvcinfo.gaming_device_vendor_id
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: gamingdeviceinformation.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GAMING_DEVICE_VENDOR_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	gamingdeviceinformation.h
+api_name:
+-	GAMING_DEVICE_VENDOR_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Fxsutility.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # GAMING_DEVICE_VENDOR_ID enumeration

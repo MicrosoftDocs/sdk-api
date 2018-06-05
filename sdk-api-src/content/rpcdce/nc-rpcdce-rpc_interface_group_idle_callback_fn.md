@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:rpcdce.RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
+title: RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
+author: windows-sdk-content
+description: The RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN is a user-defined callback that can be implemented for each defined interface group. This callback is invoked by the RPC runtime when it detects that the idle state of an interface group has changed.
+old-location: rpc\rpc_interface_group_idle_callback_fn.htm
+old-project: Rpc
+ms.assetid: D34F2902-80EE-4011-A837-2A8C21E5A136
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN, RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN callback, RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN callback function [RPC], rpc.rpc_interface_group_idle_callback_fn, rpcdce/RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: rpcdce.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Rpcdce.h
+api_name:
+-	RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN callback function

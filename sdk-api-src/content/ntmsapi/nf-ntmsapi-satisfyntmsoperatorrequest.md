@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntmsapi.SatisfyNtmsOperatorRequest
+title: SatisfyNtmsOperatorRequest function
+author: windows-sdk-content
+description: The SatisfyNtmsOperatorRequest function completes the specified RSM operator request.
+old-location: fs\satisfyntmsoperatorrequest.htm
+old-project: Rsm
+ms.assetid: 37f9c9c4-7fb2-4559-94a4-e508b277e69e
+ms.author: windowssdkdev
+ms.date: 04/05/2018
+ms.keywords: SatisfyNtmsOperatorRequest, SatisfyNtmsOperatorRequest function [Files], _zaw_satisfyntmsoperatorrequest, base.satisfyntmsoperatorrequest, fs.satisfyntmsoperatorrequest, ntmsapi/SatisfyNtmsOperatorRequest
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntmsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntmsapi.dll
+api_name:
+-	SatisfyNtmsOperatorRequest
+product: Windows
+targetos: Windows
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SatisfyNtmsOperatorRequest function

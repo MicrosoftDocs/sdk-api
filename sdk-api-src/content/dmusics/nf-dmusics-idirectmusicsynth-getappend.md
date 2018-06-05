@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dmusics.IDirectMusicSynth.GetAppend
+title: IDirectMusicSynth::GetAppend
+author: windows-sdk-content
+description: The GetAppend method outputs the number of additional wave samples that the DirectMusic &#0034;port&#0034; needs to have appended to the end of a download buffer.
+old-location: audio\idirectmusicsynth_getappend.htm
+old-project: audio
+ms.assetid: fc250e51-2e7d-4406-a8cf-7b7430a0ef7c
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetAppend, GetAppend method [Audio Devices], GetAppend method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetAppend method, IDirectMusicSynth.GetAppend, IDirectMusicSynth::GetAppend, audio.idirectmusicsynth_getappend, audmp-routines_691b2730-4c18-43c7-b5cd-1ee1f94c5e3d.xml, dmusics/IDirectMusicSynth::GetAppend
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dmusics.h
+req.include-header: Dmusics.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dmusics.h
+api_name:
+-	IDirectMusicSynth.GetAppend
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectMusicSynth::GetAppend

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._FILE_SEGMENT_ELEMENT
+title: "_FILE_SEGMENT_ELEMENT"
+author: windows-sdk-content
+description: Union that contains a 64-bit value that points to a page of data.
+old-location: fs\file_segment_element.htm
+old-project: FileIO
+ms.assetid: dde79dcb-95ec-4a9e-87a4-9ad99ac6266e
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PFILE_SEGMENT_ELEMENT, FILE_SEGMENT_ELEMENT, FILE_SEGMENT_ELEMENT union [Files], PFILE_SEGMENT_ELEMENT, PFILE_SEGMENT_ELEMENT union pointer [Files], _FILE_SEGMENT_ELEMENT, fs.file_segment_element, winnt/FILE_SEGMENT_ELEMENT, winnt/PFILE_SEGMENT_ELEMENT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILE_SEGMENT_ELEMENT, *PFILE_SEGMENT_ELEMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	FILE_SEGMENT_ELEMENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _FILE_SEGMENT_ELEMENT structure

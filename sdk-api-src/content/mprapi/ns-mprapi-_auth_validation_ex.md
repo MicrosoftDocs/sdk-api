@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mprapi._AUTH_VALIDATION_EX
+title: "_AUTH_VALIDATION_EX"
+author: windows-sdk-content
+description: Used for enabling clients to bypass Point-to-Point (PPP) authentication during Secure Socket Tunneling Protocol (SSTP) connection establishment.
+old-location: rras\auth_validation_ex.htm
+old-project: RRAS
+ms.assetid: 17e78379-a9f8-4aab-aff3-aa9b21eb629c
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: AUTH_VALIDATION_EX, AUTH_VALIDATION_EX structure [RAS], PAUTH_VALIDATION_EX, PAUTH_VALIDATION_EX structure pointer [RAS], _AUTH_VALIDATION_EX, mprapi/AUTH_VALIDATION_EX, mprapi/PAUTH_VALIDATION_EX, rras.auth_validation_ex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTH_VALIDATION_EX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mprapi.h
+api_name:
+-	AUTH_VALIDATION_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _AUTH_VALIDATION_EX structure

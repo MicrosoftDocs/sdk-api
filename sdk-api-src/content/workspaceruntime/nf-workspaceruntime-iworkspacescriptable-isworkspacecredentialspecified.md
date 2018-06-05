@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:workspaceruntime.IWorkspaceScriptable.IsWorkspaceCredentialSpecified
+title: IWorkspaceScriptable::IsWorkspaceCredentialSpecified
+author: windows-sdk-content
+description: Determines whether user credentials exist for the specified connection ID.
+old-location: termserv\iworkspacescriptable_isworkspacecredentialspecified.htm
+old-project: TermServ
+ms.assetid: 1b01f48d-161a-4cea-84d4-82c98d2e6998
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IWorkspaceScriptable interface [Remote Desktop Services],IsWorkspaceCredentialSpecified method, IWorkspaceScriptable.IsWorkspaceCredentialSpecified, IWorkspaceScriptable2 interface [Remote Desktop Services],IsWorkspaceCredentialSpecified method, IWorkspaceScriptable2::IsWorkspaceCredentialSpecified, IWorkspaceScriptable3 interface [Remote Desktop Services],IsWorkspaceCredentialSpecified method, IWorkspaceScriptable3::IsWorkspaceCredentialSpecified, IWorkspaceScriptable::IsWorkspaceCredentialSpecified, IsWorkspaceCredentialSpecified, IsWorkspaceCredentialSpecified method [Remote Desktop Services], IsWorkspaceCredentialSpecified method [Remote Desktop Services],IWorkspaceScriptable interface, IsWorkspaceCredentialSpecified method [Remote Desktop Services],IWorkspaceScriptable2 interface, IsWorkspaceCredentialSpecified method [Remote Desktop Services],IWorkspaceScriptable3 interface, IsWorkspaceCredentialSpecified method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],IsWorkspaceCredentialSpecified method, termserv.iworkspacescriptable_isworkspacecredentialspecified, workspaceruntime/IWorkspaceScriptable2::IsWorkspaceCredentialSpecified, workspaceruntime/IWorkspaceScriptable3::IsWorkspaceCredentialSpecified, workspaceruntime/IWorkspaceScriptable::IsWorkspaceCredentialSpecified
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: workspaceruntime.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WorkspaceRuntime.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Wksprt.exe
+tech.root: 
+req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wksprt.exe
+api_name:
+-	IWorkspaceScriptable.IsWorkspaceCredentialSpecified
+-	IWorkspaceScriptable2.IsWorkspaceCredentialSpecified
+-	IWorkspaceScriptable3.IsWorkspaceCredentialSpecified
+-	Workspace.IsWorkspaceCredentialSpecified
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWorkspaceScriptable::IsWorkspaceCredentialSpecified

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NL:vsbackup.IVssBackupComponentsEx2
+title: IVssBackupComponentsEx2
+author: windows-sdk-content
+description: Defines additional methods that requesters can use to run backup and restore operations.
+old-location: base\ivssbackupcomponentsex2.htm
+old-project: VSS
+ms.assetid: 69d4d500-0e21-48bd-b90b-d06c88fde136
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IVssBackupComponentsEx2, IVssBackupComponentsEx2 interface, IVssBackupComponentsEx2 interface,described, base.ivssbackupcomponentsex2, vsbackup/IVssBackupComponentsEx2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: class
+req.header: vsbackup.h
+req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VsBackup.h
+api_name:
+-	IVssBackupComponentsEx2
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: VssApi.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssBackupComponentsEx2 class

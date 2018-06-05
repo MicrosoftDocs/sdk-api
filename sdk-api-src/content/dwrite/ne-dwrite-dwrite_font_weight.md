@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwrite.DWRITE_FONT_WEIGHT
+title: DWRITE_FONT_WEIGHT
+author: windows-sdk-content
+description: Represents the density of a typeface, in terms of the lightness or heaviness of the strokes.
+old-location: directwrite\dwrite_font_weight.htm
+old-project: DirectWrite
+ms.assetid: 82396f80-eb62-4865-ba07-9653220c84f2
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_FONT_WEIGHT, DWRITE_FONT_WEIGHT enumeration [Direct Write], DWRITE_FONT_WEIGHT_BLACK, DWRITE_FONT_WEIGHT_BOLD, DWRITE_FONT_WEIGHT_DEMI_BOLD, DWRITE_FONT_WEIGHT_EXTRA_BLACK, DWRITE_FONT_WEIGHT_EXTRA_BOLD, DWRITE_FONT_WEIGHT_EXTRA_LIGHT, DWRITE_FONT_WEIGHT_HEAVY, DWRITE_FONT_WEIGHT_LIGHT, DWRITE_FONT_WEIGHT_MEDIUM, DWRITE_FONT_WEIGHT_NORMAL, DWRITE_FONT_WEIGHT_REGULAR, DWRITE_FONT_WEIGHT_SEMI_BOLD, DWRITE_FONT_WEIGHT_SEMI_LIGHT, DWRITE_FONT_WEIGHT_THIN, DWRITE_FONT_WEIGHT_ULTRA_BLACK, DWRITE_FONT_WEIGHT_ULTRA_BOLD, DWRITE_FONT_WEIGHT_ULTRA_LIGHT, directwrite.dwrite_font_weight, dwrite/DWRITE_FONT_WEIGHT, dwrite/DWRITE_FONT_WEIGHT_BLACK, dwrite/DWRITE_FONT_WEIGHT_BOLD, dwrite/DWRITE_FONT_WEIGHT_DEMI_BOLD, dwrite/DWRITE_FONT_WEIGHT_EXTRA_BLACK, dwrite/DWRITE_FONT_WEIGHT_EXTRA_BOLD, dwrite/DWRITE_FONT_WEIGHT_EXTRA_LIGHT, dwrite/DWRITE_FONT_WEIGHT_HEAVY, dwrite/DWRITE_FONT_WEIGHT_LIGHT, dwrite/DWRITE_FONT_WEIGHT_MEDIUM, dwrite/DWRITE_FONT_WEIGHT_NORMAL, dwrite/DWRITE_FONT_WEIGHT_REGULAR, dwrite/DWRITE_FONT_WEIGHT_SEMI_BOLD, dwrite/DWRITE_FONT_WEIGHT_SEMI_LIGHT, dwrite/DWRITE_FONT_WEIGHT_THIN, dwrite/DWRITE_FONT_WEIGHT_ULTRA_BLACK, dwrite/DWRITE_FONT_WEIGHT_ULTRA_BOLD, dwrite/DWRITE_FONT_WEIGHT_ULTRA_LIGHT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite.h
+api_name:
+-	DWRITE_FONT_WEIGHT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_FONT_WEIGHT enumeration

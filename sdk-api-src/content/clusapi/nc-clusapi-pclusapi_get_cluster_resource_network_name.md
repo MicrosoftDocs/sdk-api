@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:clusapi.PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME
+title: PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME
+author: windows-sdk-content
+description: Retrieves the Name private property of the Network Name resource on which a resource is dependent.
+old-location: mscs\getclusterresourcenetworkname.htm
+old-project: MsCS
+ms.assetid: db3cdaa6-d686-48be-be4a-468910813d6d
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME, PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME callback, PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME callback function [Failover Cluster], _wolf_getclusterresourcenetworkname, clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME, mscs.getclusterresourcenetworkname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: Sources
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ClusAPI.h
+api_name:
+-	PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME callback function

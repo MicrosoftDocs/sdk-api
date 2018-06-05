@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winternl.NtQuerySystemInformation
+title: NtQuerySystemInformation function
+author: windows-sdk-content
+description: Retrieves the specified system information.
+old-location: base\ntquerysysteminformation.htm
+old-project: SysInfo
+ms.assetid: 553ec7b9-c5eb-4955-8dc0-f1c06f59fe31
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: NtQuerySystemInformation, NtQuerySystemInformation function, SYSTEM_BASIC_INFORMATION, SYSTEM_CODEINTEGRITY_INFORMATION, SYSTEM_EXCEPTION_INFORMATION, SYSTEM_INFORMATION_CLASS, SYSTEM_INTERRUPT_INFORMATION, SYSTEM_KERNEL_VA_SHADOW_INFORMATION, SYSTEM_LOOKASIDE_INFORMATION, SYSTEM_PERFORMANCE_INFORMATION, SYSTEM_POLICY_INFORMATION, SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION, SYSTEM_PROCESS_INFORMATION, SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION, SYSTEM_REGISTRY_QUOTA_INFORMATION, SYSTEM_SPECULATION_CONTROL_INFORMATION, SYSTEM_THREAD_INFORMATION, SYSTEM_TIMEOFDAY_INFORMATION, SYSTEM_VHD_BOOT_INFORMATION, SystemBasicInformation, SystemCodeIntegrityInformation, SystemExceptionInformation, SystemInterruptInformation, SystemKernelVaShadowInformation, SystemLookasideInformation, SystemPerformanceInformation, SystemPolicyInformation, SystemProcessInformation, SystemProcessorPerformanceInformation, SystemQueryPerformanceCounterInformation, SystemRegistryQuotaInformation, SystemSpeculationControlInformation, SystemTimeOfDayInformation, base.ntquerysysteminformation, winternl/NtQuerySystemInformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winternl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNC_VERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdll.dll
+api_name:
+-	NtQuerySystemInformation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # NtQuerySystemInformation function

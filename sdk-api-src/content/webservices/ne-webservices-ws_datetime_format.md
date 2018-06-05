@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_DATETIME_FORMAT
+title: WS_DATETIME_FORMAT
+author: windows-sdk-content
+description: Specifies the textual format of a WS_DATETIME.
+old-location: wsw\ws_datetime_format.htm
+old-project: wsw
+ms.assetid: e5859797-90dd-4509-ae41-f8d8c83cfd9c
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_DATETIME_FORMAT, WS_DATETIME_FORMAT enumeration [Web Services for Windows], WS_DATETIME_FORMAT_LOCAL, WS_DATETIME_FORMAT_NONE, WS_DATETIME_FORMAT_UTC, webservices/WS_DATETIME_FORMAT, webservices/WS_DATETIME_FORMAT_LOCAL, webservices/WS_DATETIME_FORMAT_NONE, webservices/WS_DATETIME_FORMAT_UTC, wsw.ws_datetime_format
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_DATETIME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_DATETIME_FORMAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_DATETIME_FORMAT enumeration

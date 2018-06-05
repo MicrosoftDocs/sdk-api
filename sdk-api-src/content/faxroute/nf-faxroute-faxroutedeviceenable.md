@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:faxroute.FaxRouteDeviceEnable
+title: FaxRouteDeviceEnable function
+author: windows-sdk-content
+description: The FaxRouteDeviceEnable function allows a fax routing extension DLL to query, enable, or disable a fax routing method for a specific fax device. Each fax routing extension must export the FaxRouteDeviceEnable function.
+old-location: fax\_mfax_faxroutedeviceenable.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxrouteextapiref_771h.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: FaxRouteDeviceEnable, FaxRouteDeviceEnable function [Fax Service], QUERY_STATUS, STATUS_DISABLE, STATUS_ENABLE, _mfax_faxroutedeviceenable, fax._mfax_faxroutedeviceenable, faxroute/FaxRouteDeviceEnable
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: faxroute.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_SEND, *PFAX_SEND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	FaxRoute.h
+api_name:
+-	FaxRouteDeviceEnable
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FaxRouteDeviceEnable function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IAlertDataCollector.get_TriggerDataCollectorSet
+title: IAlertDataCollector::get_TriggerDataCollectorSet
+author: windows-sdk-content
+description: Retrieves or sets the name of a data collector set to start each time the counter value crosses the threshold.
+old-location: pla\ialertdatacollector_triggerdatacollectorset.htm
+old-project: PLA
+ms.assetid: 3ba9b1c0-432e-4caf-a082-33d1c5c3b132
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IAlertDataCollector interface [PLA],TriggerDataCollectorSet property, IAlertDataCollector.TriggerDataCollectorSet, IAlertDataCollector.get_TriggerDataCollectorSet, IAlertDataCollector::TriggerDataCollectorSet, IAlertDataCollector::get_TriggerDataCollectorSet, IAlertDataCollector::put_TriggerDataCollectorSet, TriggerDataCollectorSet property [PLA], TriggerDataCollectorSet property [PLA],IAlertDataCollector interface, base.ialertdatacollector_triggerdatacollectorset, get_TriggerDataCollectorSet, pla.ialertdatacollector_triggerdatacollectorset, pla/IAlertDataCollector::TriggerDataCollectorSet, pla/IAlertDataCollector::get_TriggerDataCollectorSet, pla/IAlertDataCollector::put_TriggerDataCollectorSet
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IAlertDataCollector.TriggerDataCollectorSet
+-	IAlertDataCollector.get_TriggerDataCollectorSet
+-	IAlertDataCollector.put_TriggerDataCollectorSet
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAlertDataCollector::get_TriggerDataCollectorSet

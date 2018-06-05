@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:gdiplusenums.ObjectType
+title: ObjectType
+author: windows-sdk-content
+description: The ObjectType enumeration indicates the object type value of an EMF+ record.
+old-location: gdiplus\_gdiplus_ENUM_ObjectType.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\objecttype.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ObjectType, ObjectType enumeration [GDI+], ObjectTypeBrush, ObjectTypeCustomLineCap, ObjectTypeFont, ObjectTypeGraphics, ObjectTypeImageAttributes, ObjectTypeInvalid, ObjectTypeMax, ObjectTypeMin, ObjectTypePath, ObjectTypePen, ObjectTypeRegion, ObjectTypeStringFormat, _gdiplus_ENUM_ObjectType, gdiplus._gdiplus_ENUM_ObjectType, gdiplusenums/ObjectType, gdiplusenums/ObjectTypeBrush, gdiplusenums/ObjectTypeCustomLineCap, gdiplusenums/ObjectTypeFont, gdiplusenums/ObjectTypeGraphics, gdiplusenums/ObjectTypeImageAttributes, gdiplusenums/ObjectTypeInvalid, gdiplusenums/ObjectTypeMax, gdiplusenums/ObjectTypeMin, gdiplusenums/ObjectTypePath, gdiplusenums/ObjectTypePen, gdiplusenums/ObjectTypeRegion, gdiplusenums/ObjectTypeStringFormat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: gdiplusenums.h
+req.include-header: Gdiplus.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Gdiplusenums.h
+api_name:
+-	ObjectType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ObjectType enumeration

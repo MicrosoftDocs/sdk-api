@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:dmusics.IDirectMusicSynth
+title: IDirectMusicSynth
+author: windows-sdk-content
+description: The IDirectMusicSynth interface is used by DirectMusic to communicate with user-mode synthesizers.
+old-location: audio\idirectmusicsynth.htm
+old-project: audio
+ms.assetid: 08f1056a-fead-475b-a13a-ee11b9709241
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IDirectMusicSynth, IDirectMusicSynth interface [Audio Devices], IDirectMusicSynth interface [Audio Devices],described, audio.idirectmusicsynth, audmp-routines_ab253bc7-f9a6-4279-99fb-4e5b2693c94b.xml, dmusics/IDirectMusicSynth
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: dmusics.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dmusics.h
+api_name:
+-	IDirectMusicSynth
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectMusicSynth interface

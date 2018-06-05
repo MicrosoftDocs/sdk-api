@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITPhone.get_Display
+title: ITPhone::get_Display
+author: windows-sdk-content
+description: The get_Display method gets the display for the phone. In TAPI, the display is simply an NxM character buffer.
+old-location: tapi3\itphone_get_display.htm
+old-project: Tapi
+ms.assetid: 259982d7-8c28-4c0d-81b3-e4ec49fc9765
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITPhone interface [TAPI 2.2],get_Display method, ITPhone.get_Display, ITPhone::get_Display, _tapi3_itphone_get_display, get_Display, get_Display method [TAPI 2.2], get_Display method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_display, tapi3if/ITPhone::get_Display
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITPhone.get_Display
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITPhone::get_Display

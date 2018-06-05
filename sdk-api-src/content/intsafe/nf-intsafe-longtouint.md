@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:intsafe.LongToUInt
+title: LongToUInt function
+author: windows-sdk-content
+description: Converts a value of type LONG to a value of type UINT.
+old-location: shell\LongToUInt.htm
+old-project: shell
+ms.assetid: 8a40e74e-9173-46a9-93ad-62eafb23c4d7
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: LongToUInt, LongToUInt function [Windows Shell], _shell_LongToUInt, intsafe/LongToUInt, shell.LongToUInt
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: intsafe.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANIPULATION_VELOCITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Intsafe.h
+api_name:
+-	LongToUInt
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # LongToUInt function

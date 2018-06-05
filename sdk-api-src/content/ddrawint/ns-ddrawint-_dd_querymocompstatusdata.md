@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_QUERYMOCOMPSTATUSDATA
+title: "_DD_QUERYMOCOMPSTATUSDATA"
+author: windows-sdk-content
+description: The DD_QUERYMOCOMPSTATUSDATA structure contains information required to query the status of the previous frame.
+old-location: display\dd_querymocompstatusdata.htm
+old-project: display
+ms.assetid: 53e2c8c7-dc6b-4c0b-9555-9aac07bd9186
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_QUERYMOCOMPSTATUSDATA, DD_QUERYMOCOMPSTATUSDATA, DD_QUERYMOCOMPSTATUSDATA structure [Display Devices], _DD_QUERYMOCOMPSTATUSDATA, ddrawint/DD_QUERYMOCOMPSTATUSDATA, ddstrcts_d8a10a3c-886c-4cef-b4a0-2db5f4c45927.xml, display.dd_querymocompstatusdata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_QUERYMOCOMPSTATUSDATA, DD_QUERYMOCOMPSTATUSDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_QUERYMOCOMPSTATUSDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_QUERYMOCOMPSTATUSDATA structure

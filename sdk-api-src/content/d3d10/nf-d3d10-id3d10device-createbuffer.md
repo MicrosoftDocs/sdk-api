@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d10.ID3D10Device.CreateBuffer
+title: ID3D10Device::CreateBuffer
+author: windows-sdk-content
+description: Create a buffer (vertex buffer, index buffer, or shader-constant buffer).
+old-location: direct3d10\id3d10device_createbuffer.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10device_createbuffer.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CreateBuffer, CreateBuffer method [Direct3D 10], CreateBuffer method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateBuffer method, ID3D10Device.CreateBuffer, ID3D10Device::CreateBuffer, d3d10/ID3D10Device::CreateBuffer, direct3d10.id3d10device_createbuffer, f67833a5-95f8-0430-5015-e074533c6dd1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10.lib
+-	D3D10.dll
+api_name:
+-	ID3D10Device.CreateBuffer
+product: Windows
+targetos: Windows
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D10Device::CreateBuffer

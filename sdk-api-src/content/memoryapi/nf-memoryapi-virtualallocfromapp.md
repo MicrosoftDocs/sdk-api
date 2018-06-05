@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:memoryapi.VirtualAllocFromApp
+title: VirtualAllocFromApp function
+author: windows-sdk-content
+description: Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process.
+old-location: base\virtualallocfromapp.htm
+old-project: Memory
+ms.assetid: 6124F358-718B-464F-ACBF-6BBE5189988B
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_RESERVE, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, MEM_WRITE_WATCH, VirtualAllocFromApp, VirtualAllocFromApp function, base.virtualallocfromapp, memoryapi/VirtualAllocFromApp
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: memoryapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MP_PARAMINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-memory-l1-1-3.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+-	VirtualAllocFromApp
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # VirtualAllocFromApp function

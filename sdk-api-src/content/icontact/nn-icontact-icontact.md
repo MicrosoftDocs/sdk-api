@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:icontact.IContact
+title: IContact
+author: windows-sdk-content
+description: Do not use. Defines methods for reading and writing properties for a single contact.
+old-location: wincontacts\_wincontacts_IContact.htm
+old-project: wincontacts
+ms.assetid: 9dc97b84-ede9-4ec1-939a-2b13e0d68486
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: IContact, IContact interface [Windows Contacts], IContact interface [Windows Contacts],described, _wincontacts_IContact, icontact/IContact, wincontacts._wincontacts_IContact
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: icontact.h
+req.include-header: Contact.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Icontact.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_FW_SERVICE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wab32.dll
+api_name:
+-	IContact
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IContact interface

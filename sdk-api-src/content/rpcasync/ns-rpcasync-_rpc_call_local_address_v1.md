@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rpcasync._RPC_CALL_LOCAL_ADDRESS_V1
+title: "_RPC_CALL_LOCAL_ADDRESS_V1"
+author: windows-sdk-content
+description: Contains information about the local address on which a call was made.
+old-location: rpc\rpc_call_local_address_v1.htm
+old-project: Rpc
+ms.assetid: 2dda59dc-d2e5-4d98-a12a-f86557dcb1c0
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PRPC_CALL_LOCAL_ADDRESS_V1, RPC_CALL_LOCAL_ADDRESS, RPC_CALL_LOCAL_ADDRESS structure [RPC], RPC_CALL_LOCAL_ADDRESS_V1, RPC_CALL_LOCAL_ADDRESS_V1 structure [RPC], RPC_CALL_LOCAL_ADDRESS_V1_A, RPC_CALL_LOCAL_ADDRESS_V1_W, _RPC_CALL_LOCAL_ADDRESS_V1, rpc.rpc_call_local_address_v1, rpcasync/RPC_CALL_LOCAL_ADDRESS, rpcasync/RPC_CALL_LOCAL_ADDRESS_V1, rpcasync/RPC_CALL_LOCAL_ADDRESS_V1_A, rpcasync/RPC_CALL_LOCAL_ADDRESS_V1_W"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rpcasync.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RPC_CALL_LOCAL_ADDRESS_V1_W (Unicode) and RPC_CALL_LOCAL_ADDRESS_V1_A (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rpcasync.h
+api_name:
+-	RPC_CALL_LOCAL_ADDRESS_V1
+-	RPC_CALL_LOCAL_ADDRESS_V1_A
+-	RPC_CALL_LOCAL_ADDRESS_V1_W
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RPC_CALL_LOCAL_ADDRESS_V1 structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFSensorProfileCollection.RemoveProfileByIndex
+title: IMFSensorProfileCollection::RemoveProfileByIndex
+author: windows-sdk-content
+description: Removes a profile based on the specified index.
+old-location: mf\imfsensorprofilecollection_removeprofilebyindex.htm
+old-project: medfound
+ms.assetid: 9E1EB9BC-E124-4F26-9CCB-100B139AE0A8
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFSensorProfileCollection interface [Media Foundation],RemoveProfileByIndex method, IMFSensorProfileCollection.RemoveProfileByIndex, IMFSensorProfileCollection::RemoveProfileByIndex, RemoveProfileByIndex, RemoveProfileByIndex method [Media Foundation], RemoveProfileByIndex method [Media Foundation],IMFSensorProfileCollection interface, mf.imfsensorprofilecollection_removeprofilebyindex, mfidl/IMFSensorProfileCollection::RemoveProfileByIndex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mfsensorgroup.dll
+api_name:
+-	IMFSensorProfileCollection.RemoveProfileByIndex
+product: Windows
+targetos: Windows
+req.lib: Mfsensorgroup.lib
+req.dll: Mfsensorgroup.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSensorProfileCollection::RemoveProfileByIndex

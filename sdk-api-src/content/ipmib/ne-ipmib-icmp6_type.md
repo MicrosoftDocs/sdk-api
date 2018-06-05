@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ipmib.ICMP6_TYPE
+title: ICMP6_TYPE
+author: windows-sdk-content
+description: Defines the set of Internet Control Message Protocol for IP version 6.0 (ICMPv6) message types.
+old-location: mib\icmp6_type.htm
+old-project: MIB
+ms.assetid: d20f72a3-4e9e-43ea-b7b1-c21940c219fc
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PICMP6_TYPE, ICMP6_DST_UNREACH, ICMP6_ECHO_REPLY, ICMP6_ECHO_REQUEST, ICMP6_MEMBERSHIP_QUERY, ICMP6_MEMBERSHIP_REDUCTION, ICMP6_MEMBERSHIP_REPORT, ICMP6_PACKET_TOO_BIG, ICMP6_PARAM_PROB, ICMP6_TIME_EXCEEDED, ICMP6_TYPE, ICMP6_TYPE enumeration [MIB], ND_NEIGHBOR_ADVERT, ND_NEIGHBOR_SOLICIT, ND_REDIRECT, ND_ROUTER_ADVERT, ND_ROUTER_SOLICIT, PICMP6_TYPE, PICMP6_TYPE enumeration pointer [MIB], ipmib/ICMP6_DST_UNREACH, ipmib/ICMP6_ECHO_REPLY, ipmib/ICMP6_ECHO_REQUEST, ipmib/ICMP6_MEMBERSHIP_QUERY, ipmib/ICMP6_MEMBERSHIP_REDUCTION, ipmib/ICMP6_MEMBERSHIP_REPORT, ipmib/ICMP6_PACKET_TOO_BIG, ipmib/ICMP6_PARAM_PROB, ipmib/ICMP6_TIME_EXCEEDED, ipmib/ICMP6_TYPE, ipmib/ND_NEIGHBOR_ADVERT, ipmib/ND_NEIGHBOR_SOLICIT, ipmib/ND_REDIRECT, ipmib/ND_ROUTER_ADVERT, ipmib/ND_ROUTER_SOLICIT, ipmib/PICMP6_TYPE, iprtrmib/ICMP6_DST_UNREACH, iprtrmib/ICMP6_ECHO_REPLY, iprtrmib/ICMP6_ECHO_REQUEST, iprtrmib/ICMP6_MEMBERSHIP_QUERY, iprtrmib/ICMP6_MEMBERSHIP_REDUCTION, iprtrmib/ICMP6_MEMBERSHIP_REPORT, iprtrmib/ICMP6_PACKET_TOO_BIG, iprtrmib/ICMP6_PARAM_PROB, iprtrmib/ICMP6_TIME_EXCEEDED, iprtrmib/ICMP6_TYPE, iprtrmib/ND_NEIGHBOR_ADVERT, iprtrmib/ND_NEIGHBOR_SOLICIT, iprtrmib/ND_REDIRECT, iprtrmib/ND_ROUTER_ADVERT, iprtrmib/ND_ROUTER_SOLICIT, iprtrmib/PICMP6_TYPE, mib.icmp6_type"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ipmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ICMP6_TYPE, *PICMP6_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipmib.h
+-	Iprtrmib.h
+api_name:
+-	ICMP6_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ICMP6_TYPE enumeration

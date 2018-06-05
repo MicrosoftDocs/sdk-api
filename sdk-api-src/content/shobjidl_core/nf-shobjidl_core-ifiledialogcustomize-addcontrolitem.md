@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IFileDialogCustomize.AddControlItem
+title: IFileDialogCustomize::AddControlItem
+author: windows-sdk-content
+description: Adds an item to a container control in the dialog.
+old-location: shell\IFileDialogCustomize_AddControlItem.htm
+old-project: shell
+ms.assetid: 56d7d0df-0c3e-4bc3-b91e-3b191f5dad76
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: AddControlItem, AddControlItem method [Windows Shell], AddControlItem method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddControlItem method, IFileDialogCustomize.AddControlItem, IFileDialogCustomize::AddControlItem, shell.IFileDialogCustomize_AddControlItem, shell_IFileDialogCustomize_AddControlItem, shobjidl_core/IFileDialogCustomize::AddControlItem
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	IFileDialogCustomize.AddControlItem
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IFileDialogCustomize::AddControlItem

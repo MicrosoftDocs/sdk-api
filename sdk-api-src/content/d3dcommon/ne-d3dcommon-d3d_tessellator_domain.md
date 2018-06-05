@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3dcommon.D3D_TESSELLATOR_DOMAIN
+title: D3D_TESSELLATOR_DOMAIN
+author: windows-sdk-content
+description: Values that identify domain options for tessellator data.
+old-location: direct3d11\d3d_tessellator_domain.htm
+old-project: direct3d11
+ms.assetid: 9a62f3f4-b9d9-4aed-952e-00f3ad6aafd1
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D11_TESSELLATOR_DOMAIN_ISOLINE, D3D11_TESSELLATOR_DOMAIN_QUAD, D3D11_TESSELLATOR_DOMAIN_TRI, D3D11_TESSELLATOR_DOMAIN_UNDEFINED, D3D_TESSELLATOR_DOMAIN, D3D_TESSELLATOR_DOMAIN enumeration [Direct3D 11], D3D_TESSELLATOR_DOMAIN_ISOLINE, D3D_TESSELLATOR_DOMAIN_QUAD, D3D_TESSELLATOR_DOMAIN_TRI, D3D_TESSELLATOR_DOMAIN_UNDEFINED, d3dcommon/D3D11_TESSELLATOR_DOMAIN_ISOLINE, d3dcommon/D3D11_TESSELLATOR_DOMAIN_QUAD, d3dcommon/D3D11_TESSELLATOR_DOMAIN_TRI, d3dcommon/D3D11_TESSELLATOR_DOMAIN_UNDEFINED, d3dcommon/D3D_TESSELLATOR_DOMAIN, d3dcommon/D3D_TESSELLATOR_DOMAIN_ISOLINE, d3dcommon/D3D_TESSELLATOR_DOMAIN_QUAD, d3dcommon/D3D_TESSELLATOR_DOMAIN_TRI, d3dcommon/D3D_TESSELLATOR_DOMAIN_UNDEFINED, direct3d11.d3d_tessellator_domain
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3dcommon.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_TESSELLATOR_DOMAIN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3DCommon.h
+api_name:
+-	D3D_TESSELLATOR_DOMAIN
+product: Windows
+targetos: Windows
+req.lib: D3d9.lib
+req.dll: 
+req.irql: 
 ---
 
 # D3D_TESSELLATOR_DOMAIN enumeration

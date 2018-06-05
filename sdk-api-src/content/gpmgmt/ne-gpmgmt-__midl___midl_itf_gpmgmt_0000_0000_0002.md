@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:gpmgmt.__MIDL___MIDL_itf_gpmgmt_0000_0000_0002
+title: "__MIDL___MIDL_itf_gpmgmt_0000_0000_0002"
+author: windows-sdk-content
+description: The categories, permissions included in the categories, and the object to which they can be applied.
+old-location: gpmc\gpmpermissiontype.htm
+old-project: GPMC
+ms.assetid: e363d91b-f4c1-4ccb-a9bb-94c3f1c5f6aa
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: GPMPermissionType, GPMPermissionType enumeration [GPMC], __MIDL___MIDL_itf_gpmgmt_0000_0000_0002, gpmc.gpmpermissiontype, gpmgmt/GPMPermissionType, gpmgmt/permGPOApply, gpmgmt/permGPOCustom, gpmgmt/permGPOEdit, gpmgmt/permGPOEditSecurityAndDelete, gpmgmt/permGPORead, gpmgmt/permSOMGPOCreate, gpmgmt/permSOMLink, gpmgmt/permSOMLogging, gpmgmt/permSOMPlanning, gpmgmt/permSOMStarterGPOCreate, gpmgmt/permSOMWMICreate, gpmgmt/permSOMWMIFullControl, gpmgmt/permStarterGPOCustom, gpmgmt/permStarterGPOEdit, gpmgmt/permStarterGPOFullControl, gpmgmt/permStarterGPORead, gpmgmt/permWMIFilterCustom, gpmgmt/permWMIFilterEdit, gpmgmt/permWMIFilterFullControl, permGPOApply, permGPOCustom, permGPOEdit, permGPOEditSecurityAndDelete, permGPORead, permSOMGPOCreate, permSOMLink, permSOMLogging, permSOMPlanning, permSOMStarterGPOCreate, permSOMWMICreate, permSOMWMIFullControl, permStarterGPOCustom, permStarterGPOEdit, permStarterGPOFullControl, permStarterGPORead, permWMIFilterCustom, permWMIFilterEdit, permWMIFilterFullControl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: gpmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Gpmgmt.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GPMPermissionType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Gpmgmt.h
+api_name:
+-	GPMPermissionType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_gpmgmt_0000_0000_0002 enumeration

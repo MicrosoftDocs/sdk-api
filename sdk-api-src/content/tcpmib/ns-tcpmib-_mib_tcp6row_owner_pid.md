@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:tcpmib._MIB_TCP6ROW_OWNER_PID
+title: "_MIB_TCP6ROW_OWNER_PID"
+author: windows-sdk-content
+description: Contains information that describes an IPv6 TCP connection associated with a specific process ID (PID).
+old-location: mib\mib_tcp6row_owner_pid.htm
+old-project: MIB
+ms.assetid: d0c9c783-c095-487e-a007-8a10700f9fea
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIB_TCP6ROW_OWNER_PID, MIB_TCP6ROW_OWNER_PID, MIB_TCP6ROW_OWNER_PID structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCP6ROW_OWNER_PID, PMIB_TCP6ROW_OWNER_PID structure pointer [MIB], _MIB_TCP6ROW_OWNER_PID, iprtrmib/MIB_TCP6ROW_OWNER_PID, iprtrmib/PMIB_TCP6ROW_OWNER_PID, mib.mib_tcp6row_owner_pid, tcpmib/MIB_TCP6ROW_OWNER_PID, tcpmib/PMIB_TCP6ROW_OWNER_PID"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tcpmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_TCP6ROW_OWNER_PID, *PMIB_TCP6ROW_OWNER_PID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tcpmib.h
+-	Iprtrmib.h
+api_name:
+-	MIB_TCP6ROW_OWNER_PID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _MIB_TCP6ROW_OWNER_PID structure

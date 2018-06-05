@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfplay._MFP_MEDIAITEM_CHARACTERISTICS
+title: "_MFP_MEDIAITEM_CHARACTERISTICS"
+author: windows-sdk-content
+description: Contains flags that describe a media item.
+old-location: mf\_mfp_mediaitem_characteristics.htm
+old-project: medfound
+ms.assetid: 7bbb45e6-717d-413c-95fd-db730ab960ff
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFP_MEDIAITEM_CAN_PAUSE, MFP_MEDIAITEM_CAN_SEEK, MFP_MEDIAITEM_HAS_SLOW_SEEK, MFP_MEDIAITEM_IS_LIVE, _MFP_MEDIAITEM_CHARACTERISTICS, _MFP_MEDIAITEM_CHARACTERISTICS enumeration [Media Foundation], mf._mfp_mediaitem_characteristics, mfplay/MFP_MEDIAITEM_CAN_PAUSE, mfplay/MFP_MEDIAITEM_CAN_SEEK, mfplay/MFP_MEDIAITEM_HAS_SLOW_SEEK, mfplay/MFP_MEDIAITEM_IS_LIVE, mfplay/_MFP_MEDIAITEM_CHARACTERISTICS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfplay.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mfplay.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfplay.h
+api_name:
+-	_MFP_MEDIAITEM_CHARACTERISTICS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFP_MEDIAITEM_CHARACTERISTICS enumeration

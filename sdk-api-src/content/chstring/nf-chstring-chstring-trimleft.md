@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:chstring.CHString.TrimLeft
+title: CHString::TrimLeft
+author: windows-sdk-content
+description: The TrimLeft method trims leading whitespace characters from the string by removing new line, space, and tab characters.
+old-location: wmi\chstring_trimleft.htm
+old-project: WmiSdk
+ms.assetid: 7f64181b-eae9-4c65-8fa5-d9171a1e2de8
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "?TrimLeft@CHString@@QAEXXZ, ?TrimLeft@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],TrimLeft method, CHString.TrimLeft, CHString::TrimLeft, TrimLeft, TrimLeft method [Windows Management Instrumentation], TrimLeft method [Windows Management Instrumentation],CHString interface, _hmm_chstring_trimleft, chstring/CHString::TrimLeft, wmi.chstring_trimleft"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: chstring.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CHString.TrimLeft
+-	?TrimLeft@CHString@@QAEXXZ
+-	?TrimLeft@CHString@@QEAAXXZ
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 ---
 
 # CHString::TrimLeft

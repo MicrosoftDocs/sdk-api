@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.__MIDL___MIDL_itf_strmif_0000_0132_0001
+title: "__MIDL___MIDL_itf_strmif_0000_0132_0001"
+author: windows-sdk-content
+description: Indicates which user operation (UOP) commands are currently allowed by the DVD.
+old-location: dshow\valid_uop_flag.htm
+old-project: DirectShow
+ms.assetid: 419d3d5f-e775-438e-9754-0291df6a1ed7
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: UOP_FLAG_Pause_On, UOP_FLAG_PlayNext_Chapter, UOP_FLAG_PlayPrev_Or_Replay_Chapter, UOP_FLAG_Play_Backwards, UOP_FLAG_Play_Chapter, UOP_FLAG_Play_Chapter_Or_AtTime, UOP_FLAG_Play_Forwards, UOP_FLAG_Play_Title, UOP_FLAG_Play_Title_Or_AtTime, UOP_FLAG_Resume, UOP_FLAG_ReturnFromSubMenu, UOP_FLAG_Select_Angle, UOP_FLAG_Select_Audio_Stream, UOP_FLAG_Select_Karaoke_Audio_Presentation_Mode, UOP_FLAG_Select_Or_Activate_Button, UOP_FLAG_Select_SubPic_Stream, UOP_FLAG_Select_Video_Mode_Preference, UOP_FLAG_ShowMenu_Angle, UOP_FLAG_ShowMenu_Audio, UOP_FLAG_ShowMenu_Chapter, UOP_FLAG_ShowMenu_Root, UOP_FLAG_ShowMenu_SubPic, UOP_FLAG_ShowMenu_Title, UOP_FLAG_Still_Off, UOP_FLAG_Stop, VALID_UOP_FLAG, VALID_UOP_FLAG , VALID_UOP_FLAG enumeration [DirectShow], VALID_UOP_FLAGEnumeration, __MIDL___MIDL_itf_strmif_0000_0132_0001, dshow.valid_uop_flag, strmif/UOP_FLAG_Pause_On, strmif/UOP_FLAG_PlayNext_Chapter, strmif/UOP_FLAG_PlayPrev_Or_Replay_Chapter, strmif/UOP_FLAG_Play_Backwards, strmif/UOP_FLAG_Play_Chapter, strmif/UOP_FLAG_Play_Chapter_Or_AtTime, strmif/UOP_FLAG_Play_Forwards, strmif/UOP_FLAG_Play_Title, strmif/UOP_FLAG_Play_Title_Or_AtTime, strmif/UOP_FLAG_Resume, strmif/UOP_FLAG_ReturnFromSubMenu, strmif/UOP_FLAG_Select_Angle, strmif/UOP_FLAG_Select_Audio_Stream, strmif/UOP_FLAG_Select_Karaoke_Audio_Presentation_Mode, strmif/UOP_FLAG_Select_Or_Activate_Button, strmif/UOP_FLAG_Select_SubPic_Stream, strmif/UOP_FLAG_Select_Video_Mode_Preference, strmif/UOP_FLAG_ShowMenu_Angle, strmif/UOP_FLAG_ShowMenu_Audio, strmif/UOP_FLAG_ShowMenu_Chapter, strmif/UOP_FLAG_ShowMenu_Root, strmif/UOP_FLAG_ShowMenu_SubPic, strmif/UOP_FLAG_ShowMenu_Title, strmif/UOP_FLAG_Still_Off, strmif/UOP_FLAG_Stop, strmif/VALID_UOP_FLAG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VALID_UOP_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	VALID_UOP_FLAG
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # __MIDL___MIDL_itf_strmif_0000_0132_0001 enumeration

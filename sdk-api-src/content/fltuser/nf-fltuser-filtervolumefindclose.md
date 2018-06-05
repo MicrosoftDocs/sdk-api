@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:fltuser.FilterVolumeFindClose
+title: FilterVolumeFindClose function
+author: windows-sdk-content
+description: The FilterVolumeFindClose function closes the specified volume search handle. FilterVolumeFindFirst and FilterVolumeFindNext use this search handle to locate volumes.
+old-location: ifsk\filtervolumefindclose.htm
+old-project: ifsk
+ms.assetid: 18b707a0-2d34-46a9-a77c-b356aba44d72
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: FilterVolumeFindClose, FilterVolumeFindClose function [Installable File System Drivers], FltWin32ApiRef_bdc13aec-06f6-4e73-abcb-ca452040e600.xml, fltuser/FilterVolumeFindClose, ifsk.filtervolumefindclose
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fltuser.h
+req.include-header: Fltuser.h
+req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	FltLib.dll
+api_name:
+-	FilterVolumeFindClose
+product: Windows
+targetos: Windows
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FilterVolumeFindClose function

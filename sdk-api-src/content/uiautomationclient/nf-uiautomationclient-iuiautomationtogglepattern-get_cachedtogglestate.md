@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationTogglePattern.get_CachedToggleState
+title: IUIAutomationTogglePattern::get_CachedToggleState
+author: windows-sdk-content
+description: Retrieves the cached state of the control.
+old-location: winauto\uiauto_IUIAutomationTogglePattern_CachedToggleState.htm
+old-project: WinAuto
+ms.assetid: 49d32394-d7e0-43be-b1f5-db57c6cbe3c4
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CachedToggleState property [Windows Accessibility], CachedToggleState property [Windows Accessibility],IUIAutomationTogglePattern interface, IUIAutomationTogglePattern interface [Windows Accessibility],CachedToggleState property, IUIAutomationTogglePattern.CachedToggleState, IUIAutomationTogglePattern.get_CachedToggleState, IUIAutomationTogglePattern::CachedToggleState, IUIAutomationTogglePattern::get_CachedToggleState, get_CachedToggleState, uiauto.uiauto_IUIAutomationTogglePattern_CachedToggleState, uiauto_IUIAutomationTogglePattern_CachedToggleState, uiautomationclient/IUIAutomationTogglePattern::CachedToggleState, uiautomationclient/IUIAutomationTogglePattern::get_CachedToggleState, winauto.uiauto_IUIAutomationTogglePattern_CachedToggleState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationTogglePattern.CachedToggleState
+-	IUIAutomationTogglePattern.get_CachedToggleState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationTogglePattern::get_CachedToggleState

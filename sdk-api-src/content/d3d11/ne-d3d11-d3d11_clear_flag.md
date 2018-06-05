@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d11.D3D11_CLEAR_FLAG
+title: D3D11_CLEAR_FLAG
+author: windows-sdk-content
+description: Specifies the parts of the depth stencil to clear.
+old-location: direct3d11\d3d11_clear_flag.htm
+old-project: direct3d11
+ms.assetid: 6da515f3-d71d-4b59-b2ea-cacdf78fcb42
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 88ebcd50-b0dd-e04e-4b30-028ca4147553, D3D11_CLEAR_DEPTH, D3D11_CLEAR_FLAG, D3D11_CLEAR_FLAG enumeration [Direct3D 11], D3D11_CLEAR_STENCIL, d3d11/D3D11_CLEAR_DEPTH, d3d11/D3D11_CLEAR_FLAG, d3d11/D3D11_CLEAR_STENCIL, direct3d11.d3d11_clear_flag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_CLEAR_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	D3D11_CLEAR_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_CLEAR_FLAG enumeration

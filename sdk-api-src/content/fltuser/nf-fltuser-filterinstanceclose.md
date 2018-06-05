@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:fltuser.FilterInstanceClose
+title: FilterInstanceClose function
+author: windows-sdk-content
+description: The FilterInstanceClose function closes a minifilter instance handle opened by FilterInstanceCreate.
+old-location: ifsk\filterinstanceclose.htm
+old-project: ifsk
+ms.assetid: a0605b02-a5eb-4e7f-9659-0f0f538ea153
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: FilterInstanceClose, FilterInstanceClose function [Installable File System Drivers], FltWin32ApiRef_aed3c694-a4bb-4804-9171-4d89cabd666d.xml, fltuser/FilterInstanceClose, ifsk.filterinstanceclose
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fltuser.h
+req.include-header: Fltuser.h
+req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	FltLib.dll
+api_name:
+-	FilterInstanceClose
+product: Windows
+targetos: Windows
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FilterInstanceClose function

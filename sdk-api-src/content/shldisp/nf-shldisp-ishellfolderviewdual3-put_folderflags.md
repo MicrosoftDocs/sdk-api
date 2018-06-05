@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shldisp.IShellFolderViewDual3.put_FolderFlags
+title: IShellFolderViewDual3::put_FolderFlags
+author: windows-sdk-content
+description: Sets the current folders settings.
+old-location: shell\IShellFolderViewDual3_put_FolderFlags.htm
+old-project: shell
+ms.assetid: 698678a6-3624-420a-997a-9fd1e61d67e6
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IShellFolderViewDual3 interface [Windows Shell],put_FolderFlags method, IShellFolderViewDual3.put_FolderFlags, IShellFolderViewDual3::put_FolderFlags, _shell_IShellFolderViewDual3_put_FolderFlags, put_FolderFlags, put_FolderFlags method [Windows Shell], put_FolderFlags method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_put_FolderFlags, shldisp/IShellFolderViewDual3::put_FolderFlags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shldisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shldisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETEOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shldisp.h
+api_name:
+-	IShellFolderViewDual3.put_FolderFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # IShellFolderViewDual3::put_FolderFlags

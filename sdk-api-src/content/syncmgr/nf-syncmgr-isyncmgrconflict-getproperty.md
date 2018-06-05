@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:syncmgr.ISyncMgrConflict.GetProperty
+title: ISyncMgrConflict::GetProperty
+author: windows-sdk-content
+description: Gets a conflict property, given a property key.
+old-location: shell\ISyncMgrConflict_GetProperty.htm
+old-project: shell
+ms.assetid: 8b7b23e7-fbd4-4ced-9610-d001a2167bae
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetProperty, GetProperty method [Windows Shell], GetProperty method [Windows Shell],ISyncMgrConflict interface, ISyncMgrConflict interface [Windows Shell],GetProperty method, ISyncMgrConflict.GetProperty, ISyncMgrConflict::GetProperty, PKEY_DateModified, PKEY_ItemNameDisplay, PKEY_Sync_ConflictDescription, PKEY_Sync_HandlerID, PKEY_Sync_ItemID, _shell_ISyncMgrConflict_GetProperty, shell.ISyncMgrConflict_GetProperty, syncmgr/ISyncMgrConflict::GetProperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: syncmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Syncmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Syncmgr.h
+api_name:
+-	ISyncMgrConflict.GetProperty
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ISyncMgrConflict::GetProperty

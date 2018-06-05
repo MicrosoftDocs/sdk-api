@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bcrypt._BCRYPT_DSA_KEY_BLOB_V2
+title: "_BCRYPT_DSA_KEY_BLOB_V2"
+author: windows-sdk-content
+description: Used as a header for a Digital Signature Algorithm (DSA) public key or private key BLOB in memory.
+old-location: security\bcrypt_dsa_key_blob_v2.htm
+old-project: SecCNG
+ms.assetid: E8240DE1-B65F-4DAC-92C9-45725435A0F7
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: "*PBCRYPT_DSA_KEY_BLOB_V2, BCRYPT_DSA_KEY_BLOB_V2, BCRYPT_DSA_KEY_BLOB_V2 structure [Security], BCRYPT_DSA_PRIVATE_MAGIC, BCRYPT_DSA_PUBLIC_MAGIC, PBCRYPT_DSA_KEY_BLOB_V2, PBCRYPT_DSA_KEY_BLOB_V2 structure pointer [Security], _BCRYPT_DSA_KEY_BLOB_V2, bcrypt/BCRYPT_DSA_KEY_BLOB_V2, bcrypt/PBCRYPT_DSA_KEY_BLOB_V2, security.bcrypt_dsa_key_blob_v2"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bcrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BCRYPT_DSA_KEY_BLOB_V2, *PBCRYPT_DSA_KEY_BLOB_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bcrypt.h
+api_name:
+-	BCRYPT_DSA_KEY_BLOB_V2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BCRYPT_DSA_KEY_BLOB_V2 structure

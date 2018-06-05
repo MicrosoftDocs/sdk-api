@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_NullTransform.Stop
+title: IBDA_NullTransform::Stop
+author: windows-sdk-content
+description: The Stop method stops the transforms on data flowing through the control node.
+old-location: mstv\ibda_nulltransform_stop.htm
+old-project: mstv
+ms.assetid: 1881d54f-2e26-4cb5-8456-da24f569875b
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBDA_NullTransform interface [Microsoft TV Technologies],Stop method, IBDA_NullTransform.Stop, IBDA_NullTransform::Stop, IBDA_NullTransformStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IBDA_NullTransform interface, bdaiface/IBDA_NullTransform::Stop, mstv.ibda_nulltransform_stop
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_NullTransform.Stop
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_NullTransform::Stop

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vidcap.IVideoProcAmp.get_Hue
+title: IVideoProcAmp::get_Hue
+author: windows-sdk-content
+description: The get_Hue method returns the camera's hue setting.
+old-location: dshow\ivideoprocamp_get_hue.htm
+old-project: DirectShow
+ms.assetid: dfdd44b5-fd39-40da-95b8-9008aef10f9a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],get_Hue method, IVideoProcAmp.get_Hue, IVideoProcAmp::get_Hue, IVideoProcAmpget_Hue, dshow.ivideoprocamp_get_hue, get_Hue, get_Hue method [DirectShow], get_Hue method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Hue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vidcap.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Vidcap.h
+api_name:
+-	IVideoProcAmp.get_Hue
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVideoProcAmp::get_Hue

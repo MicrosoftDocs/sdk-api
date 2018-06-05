@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wingdi.GetStockObject
+title: GetStockObject function
+author: windows-sdk-content
+description: The GetStockObject function retrieves a handle to one of the stock pens, brushes, fonts, or palettes.
+old-location: gdi\getstockobject.htm
+old-project: gdi
+ms.assetid: b14ddc05-7e7b-4fc6-b7e3-efe892df7e21
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ANSI_FIXED_FONT, ANSI_VAR_FONT, BLACK_BRUSH, BLACK_PEN, DC_BRUSH, DC_PEN, DEFAULT_GUI_FONT, DEFAULT_PALETTE, DEVICE_DEFAULT_FONT, DKGRAY_BRUSH, GRAY_BRUSH, GetStockObject, GetStockObject function [Windows GDI], HOLLOW_BRUSH, LTGRAY_BRUSH, NULL_BRUSH, NULL_PEN, OEM_FIXED_FONT, SYSTEM_FIXED_FONT, SYSTEM_FONT, WHITE_BRUSH, WHITE_PEN, _win32_GetStockObject, gdi.getstockobject, wingdi/GetStockObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	gdi32.dll
+-	Ext-MS-Win-GDI-DC-l1-2-0.dll
+-	ext-ms-win-gdi-dc-l1-1-0.dll
+-	ext-ms-win-gdi-dc-l1-2-1.dll
+-	GDI32Full.dll
+api_name:
+-	GetStockObject
+product: Windows
+targetos: Windows
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # GetStockObject function

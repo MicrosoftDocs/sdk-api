@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsync.ISyncKnowledge.GetRangeExceptions
+title: ISyncKnowledge::GetRangeExceptions
+author: windows-sdk-content
+description: Gets an object that can enumerate the IRangeException objects that are stored in the knowledge.
+old-location: winsync\isyncknowledge_getrangeexceptions.htm
+old-project: winsync
+ms.assetid: 9dd945bf-a3e4-408a-bdfe-5163a7dbdc3f
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetRangeExceptions, GetRangeExceptions method [Windows Sync], GetRangeExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetRangeExceptions method, ISyncKnowledge.GetRangeExceptions, ISyncKnowledge::GetRangeExceptions, winsync.isyncknowledge_getrangeexceptions, winsync/ISyncKnowledge::GetRangeExceptions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	ISyncKnowledge.GetRangeExceptions
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # ISyncKnowledge::GetRangeExceptions

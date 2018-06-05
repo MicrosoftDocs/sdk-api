@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IFrequencyMap.put_FrequencyMapping
+title: IFrequencyMap::put_FrequencyMapping
+author: windows-sdk-content
+description: The put_FrequencyMapping method sets the frequency table.
+old-location: mstv\ifrequencymap_put_frequencymapping.htm
+old-project: mstv
+ms.assetid: cfde2c8e-803d-46b8-b3d4-8e9b3129af0e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],put_FrequencyMapping method, IFrequencyMap.put_FrequencyMapping, IFrequencyMap::put_FrequencyMapping, IFrequencyMapput_FrequencyMapping, bdaiface/IFrequencyMap::put_FrequencyMapping, mstv.ifrequencymap_put_frequencymapping, put_FrequencyMapping, put_FrequencyMapping method [Microsoft TV Technologies], put_FrequencyMapping method [Microsoft TV Technologies],IFrequencyMap interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IFrequencyMap.put_FrequencyMapping
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IFrequencyMap::put_FrequencyMapping

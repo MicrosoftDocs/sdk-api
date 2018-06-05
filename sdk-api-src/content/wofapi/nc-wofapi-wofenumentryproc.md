@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:wofapi.WofEnumEntryProc
+title: WofEnumEntryProc
+author: windows-sdk-content
+description: Callback function that gets called for each data source in response to a call to WofEnumEntries.
+old-location: fs\wofenumentryproc.htm
+old-project: FileIO
+ms.assetid: B0569A28-7B5F-451D-A972-89A6D42F9821
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: WofEnumEntryProc, WofEnumEntryProc function, WofEnumEntryProc function pointer [Files], fs.wofenumentryproc, wofapi/WofEnumEntryProc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: wofapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	wofapi.h
+api_name:
+-	WofEnumEntryProc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WofEnumEntryProc callback function

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:evalcom2.IValidate.OpenDatabase
+title: IValidate::OpenDatabase
+author: windows-sdk-content
+description: The OpenDatabase method opens a Windows Installer installation package or merge module for validation.
+old-location: setup\ivalidate_opendatabase.htm
+old-project: Msi
+ms.assetid: 3f295eea-5f6b-4afa-b0ac-55606086b2b2
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IValidate interface,OpenDatabase method, IValidate.OpenDatabase, IValidate::OpenDatabase, OpenDatabase, OpenDatabase method, OpenDatabase method,IValidate interface, evalcom2/IValidate::OpenDatabase, setup.ivalidate_opendatabase
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: evalcom2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Evalcom2.dll version 3.0.3790.371 or later
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Evalcom2.dll
+api_name:
+-	IValidate.OpenDatabase
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Evalcom2.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IValidate::OpenDatabase

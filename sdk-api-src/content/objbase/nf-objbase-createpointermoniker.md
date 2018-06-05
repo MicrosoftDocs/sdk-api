@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objbase.CreatePointerMoniker
+title: CreatePointerMoniker function
+author: windows-sdk-content
+description: Creates a pointer moniker based on a pointer to an object.
+old-location: com\createpointermoniker.htm
+old-project: com
+ms.assetid: d4d40fd5-6035-4ddc-a443-01d32dcf4bca
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: CreatePointerMoniker, CreatePointerMoniker function [COM], _com_CreatePointerMoniker, com.createpointermoniker, objbase/CreatePointerMoniker
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: objbase.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMSD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ole32.dll
+-	Ext-MS-Win-COM-OLE32-l1-1-0.dll
+-	Ext-MS-Win-COM-OLE32-l1-1-1.dll
+-	Ext-MS-Win-COM-OLE32-l1-1-2.dll
+-	ext-ms-win-com-ole32-l1-1-3.dll
+-	Ext-MS-Win-Com-Ole32-L1-1-4.dll
+api_name:
+-	CreatePointerMoniker
+product: Windows
+targetos: Windows
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CreatePointerMoniker function

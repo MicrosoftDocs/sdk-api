@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:codecapi.eAVDecAudioDualMonoReproMode
+title: eAVDecAudioDualMonoReproMode
+author: windows-sdk-content
+description: Specifies how the decoder reproduces dual mono audio. This enumeration is used with the AVDecAudioDualMonoReproMode property.
+old-location: dshow\eavdecaudiodualmonorepromode.htm
+old-project: DirectShow
+ms.assetid: 16374617-8342-4e8c-b52a-c5a419998699
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: codecapi/eAVDecAudioDualMonoReproMode, codecapi/eAVDecAudioDualMonoReproMode_LEFT_MONO, codecapi/eAVDecAudioDualMonoReproMode_MIX_MONO, codecapi/eAVDecAudioDualMonoReproMode_RIGHT_MONO, codecapi/eAVDecAudioDualMonoReproMode_STEREO, dshow.eavdecaudiodualmonorepromode, eAVDecAudioDualMonoReproMode, eAVDecAudioDualMonoReproMode enumeration [DirectShow], eAVDecAudioDualMonoReproModeEnumeration, eAVDecAudioDualMonoReproMode_LEFT_MONO, eAVDecAudioDualMonoReproMode_MIX_MONO, eAVDecAudioDualMonoReproMode_RIGHT_MONO, eAVDecAudioDualMonoReproMode_STEREO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: codecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	codecapi.h
+api_name:
+-	eAVDecAudioDualMonoReproMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # eAVDecAudioDualMonoReproMode enumeration

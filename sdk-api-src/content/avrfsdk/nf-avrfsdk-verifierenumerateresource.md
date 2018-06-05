@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:avrfsdk.VerifierEnumerateResource
+title: VerifierEnumerateResource function
+author: windows-sdk-content
+description: Enumerates operating system resources for use by debugging and support tools.
+old-location: winprog\verifierenumerateresource.htm
+old-project: DevNotes
+ms.assetid: e1715f2a-5928-44e6-afbf-f2f0ab0ba3dd
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: AVRF_ENUM_RESOURCES_FLAGS_DONT_RESOLVE_TRACES, AVRF_ENUM_RESOURCES_FLAGS_SUSPEND, AvrfResourceHandleTrace, AvrfResourceHeapAllocation, VerifierEnumerateResource, VerifierEnumerateResource function [Windows API], avrfsdk/VerifierEnumerateResource, base.verifierenumerateresource, winprog.verifierenumerateresource
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: avrfsdk.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Verifier.dll
+api_name:
+-	VerifierEnumerateResource
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Verifier.dll
+req.irql: 
 ---
 
 # VerifierEnumerateResource function

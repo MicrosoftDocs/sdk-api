@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winscard.OPENCARD_SEARCH_CRITERIAW
+title: OPENCARD_SEARCH_CRITERIAW
+author: windows-sdk-content
+description: The OPENCARD_SEARCH_CRITERIA structure is used by the SCardUIDlgSelectCard function in order to recognize cards that meet the requirements set forth by the caller. You can, however, call SCardUIDlgSelectCard without using this structure.
+old-location: security\opencard_search_criteria.htm
+old-project: SecAuthN
+ms.assetid: f20874ca-a714-45b7-abcb-85bedc4e6245
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*LPOPENCARD_SEARCH_CRITERIAW, *POPENCARD_SEARCH_CRITERIAW, LPOPENCARD_SEARCH_CRITERIA, LPOPENCARD_SEARCH_CRITERIA structure pointer [Security], OPENCARD_SEARCH_CRITERIA, OPENCARD_SEARCH_CRITERIA structure [Security], OPENCARD_SEARCH_CRITERIAA, OPENCARD_SEARCH_CRITERIAW, POPENCARD_SEARCH_CRITERIA, POPENCARD_SEARCH_CRITERIA structure pointer [Security], _smart_opencard_search_criteria, security.opencard_search_criteria, winscard/LPOPENCARD_SEARCH_CRITERIA, winscard/OPENCARD_SEARCH_CRITERIA, winscard/OPENCARD_SEARCH_CRITERIAA, winscard/OPENCARD_SEARCH_CRITERIAW, winscard/POPENCARD_SEARCH_CRITERIA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winscard.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: OPENCARD_SEARCH_CRITERIAW (Unicode) and OPENCARD_SEARCH_CRITERIAA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPENCARD_SEARCH_CRITERIAW, *POPENCARD_SEARCH_CRITERIAW, *LPOPENCARD_SEARCH_CRITERIAW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winscard.h
+api_name:
+-	OPENCARD_SEARCH_CRITERIA
+-	OPENCARD_SEARCH_CRITERIAA
+-	OPENCARD_SEARCH_CRITERIAW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # OPENCARD_SEARCH_CRITERIAW structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:windowsstoragecom.IUnbufferedFileHandleOplockCallback.OnBrokenCallback
+title: IUnbufferedFileHandleOplockCallback::OnBrokenCallback
+author: windows-sdk-content
+description: Runs when the opportunistic lock for a handle that you get by calling the IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle method is broken.
+old-location: winrt\iunbufferedfilehandleoplockcallback_onbrokencallback.htm
+old-project: WinRT
+ms.assetid: F5B6B4F6-61F2-4C5A-9E63-E9DC876FEB60
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: IUnbufferedFileHandleOplockCallback interface [Windows Runtime],OnBrokenCallback method, IUnbufferedFileHandleOplockCallback.OnBrokenCallback, IUnbufferedFileHandleOplockCallback::OnBrokenCallback, OnBrokenCallback, OnBrokenCallback method [Windows Runtime], OnBrokenCallback method [Windows Runtime],IUnbufferedFileHandleOplockCallback interface, windowsstoragecom/IUnbufferedFileHandleOplockCallback::OnBrokenCallback, winrt.iunbufferedfilehandleoplockcallback_onbrokencallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: windowsstoragecom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HANDLE_SHARING_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	windows.storage.dll
+api_name:
+-	IUnbufferedFileHandleOplockCallback.OnBrokenCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Windows.storage.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IUnbufferedFileHandleOplockCallback::OnBrokenCallback

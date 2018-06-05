@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bdaiface.IBDA_ISDBConditionalAccess.SetIsdbCasRequest
+title: IBDA_ISDBConditionalAccess::SetIsdbCasRequest
+author: windows-sdk-content
+description: Sends a conditional access system (CAS) command for Integrated Services Digital Broadcasting (ISDB).
+old-location: mstv\ibda_isdbconditionalaccess_setisdbcasrequest.htm
+old-project: mstv
+ms.assetid: c93351f5-1829-4405-b665-00f2e78391e0
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies],SetIsdbCasRequest method, IBDA_ISDBConditionalAccess.SetIsdbCasRequest, IBDA_ISDBConditionalAccess::SetIsdbCasRequest, SetIsdbCasRequest, SetIsdbCasRequest method [Microsoft TV Technologies], SetIsdbCasRequest method [Microsoft TV Technologies],IBDA_ISDBConditionalAccess interface, bdaiface/IBDA_ISDBConditionalAccess::SetIsdbCasRequest, mstv.ibda_isdbconditionalaccess_setisdbcasrequest
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bdaiface.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_ISDBConditionalAccess.SetIsdbCasRequest
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_ISDBConditionalAccess::SetIsdbCasRequest

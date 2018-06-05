@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:fwpstypes.FWPS_CLASSIFY_OUT0_
+title: FWPS_CLASSIFY_OUT0_
+author: windows-sdk-content
+description: The FWPS_CLASSIFY_OUT0 structure defines the data that is returned to the caller of a callout's classifyFn callout function.Note  FWPS_CLASSIFY_OUT0 is a specific version of FWPS_CLASSIFY_OUT.
+old-location: netvista\fwps_classify_out0.htm
+old-project: netvista
+ms.assetid: 18d84523-bd4c-4f5d-87c7-6fcdcaad6c5d
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: FWPS_CLASSIFY_OUT0, FWPS_CLASSIFY_OUT0 structure [Network Drivers Starting with Windows Vista], FWPS_CLASSIFY_OUT0_, fwpstypes/FWPS_CLASSIFY_OUT0, netvista.fwps_classify_out0, wfp_ref_3_struct_3_fwps_A-E_05656990-cf7c-4fef-a192-88f96860aa02.xml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: fwpstypes.h
+req.include-header: Fwpsk.h, Fwpmtypes.h, Fwpmk.h
+req.target-type: Windows
+req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWPS_CLASSIFY_OUT0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Fwpstypes.h
+api_name:
+-	FWPS_CLASSIFY_OUT0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FWPS_CLASSIFY_OUT0_ structure

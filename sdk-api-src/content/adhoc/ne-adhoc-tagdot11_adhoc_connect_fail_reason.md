@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:adhoc.tagDOT11_ADHOC_CONNECT_FAIL_REASON
+title: tagDOT11_ADHOC_CONNECT_FAIL_REASON
+author: windows-sdk-content
+description: Specifies the reason why a connection attempt failed.
+old-location: nwifi\dot11_adhoc_connect_fail_reason.htm
+old-project: NativeWiFi
+ms.assetid: ea95f0b8-14ce-40a6-b5a3-853c414c52af
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: DOT11_ADHOC_CONNECT_FAIL_DOMAIN_MISMATCH, DOT11_ADHOC_CONNECT_FAIL_OTHER, DOT11_ADHOC_CONNECT_FAIL_PASSPHRASE_MISMATCH, DOT11_ADHOC_CONNECT_FAIL_REASON, DOT11_ADHOC_CONNECT_FAIL_REASON enumeration [NativeWIFI], adhoc/DOT11_ADHOC_CONNECT_FAIL_DOMAIN_MISMATCH, adhoc/DOT11_ADHOC_CONNECT_FAIL_OTHER, adhoc/DOT11_ADHOC_CONNECT_FAIL_PASSPHRASE_MISMATCH, adhoc/DOT11_ADHOC_CONNECT_FAIL_REASON, nwifi.dot11_adhoc_connect_fail_reason, tagDOT11_ADHOC_CONNECT_FAIL_REASON
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: adhoc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Adhoc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOT11_ADHOC_CONNECT_FAIL_REASON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	adhoc.h
+api_name:
+-	DOT11_ADHOC_CONNECT_FAIL_REASON
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagDOT11_ADHOC_CONNECT_FAIL_REASON enumeration

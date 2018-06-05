@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:http.HttpPrepareUrl
+title: HttpPrepareUrl function
+author: windows-sdk-content
+description: Parses, analyzes, and normalizes a non-normalized Unicode or punycode URL so it is safe and valid to use in other HTTP functions.
+old-location: http\httpprepareurl.htm
+old-project: Http
+ms.assetid: 45199AEE-950D-44C4-8590-96077DBDC846
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: HttpPrepareUrl, HttpPrepareUrl function [HTTP], http.httpprepareurl, http/HttpPrepareUrl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_VERB, *PHTTP_VERB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Httpapi.dll
+api_name:
+-	HttpPrepareUrl
+product: Windows
+targetos: Windows
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # HttpPrepareUrl function

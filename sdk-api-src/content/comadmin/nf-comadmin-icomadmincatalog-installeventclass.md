@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comadmin.ICOMAdminCatalog.InstallEventClass
+title: ICOMAdminCatalog::InstallEventClass
+author: windows-sdk-content
+description: Installs event classes from a file into a COM+ application.
+old-location: cos\icomadmincatalog_installeventclass.htm
+old-project: cossdk
+ms.assetid: 8e9f7c79-076e-46dc-bce0-389c5309e6fa
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: ICOMAdminCatalog interface [COM+],InstallEventClass method, ICOMAdminCatalog.InstallEventClass, ICOMAdminCatalog::InstallEventClass, InstallEventClass, InstallEventClass method [COM+], InstallEventClass method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallEventClass, comadmin/ICOMAdminCatalog::InstallEventClass, cos.icomadmincatalog_installeventclass
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ComAdmin.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMAdminTxIsolationLevelOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComAdmin.h
+api_name:
+-	ICOMAdminCatalog.InstallEventClass
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICOMAdminCatalog::InstallEventClass

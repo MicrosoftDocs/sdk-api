@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_SignalStatistics.put_SignalLocked
+title: IBDA_SignalStatistics::put_SignalLocked
+author: windows-sdk-content
+description: The put_SignalLocked method specifies whether the signal is locked.
+old-location: mstv\ibda_signalstatistics_put_signallocked.htm
+old-project: mstv
+ms.assetid: 26e4053f-7e43-464d-8ea1-076f741d5b63
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],put_SignalLocked method, IBDA_SignalStatistics.put_SignalLocked, IBDA_SignalStatistics::put_SignalLocked, IBDA_SignalStatisticsput_SignalLocked, bdaiface/IBDA_SignalStatistics::put_SignalLocked, mstv.ibda_signalstatistics_put_signallocked, put_SignalLocked, put_SignalLocked method [Microsoft TV Technologies], put_SignalLocked method [Microsoft TV Technologies],IBDA_SignalStatistics interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_SignalStatistics.put_SignalLocked
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_SignalStatistics::put_SignalLocked

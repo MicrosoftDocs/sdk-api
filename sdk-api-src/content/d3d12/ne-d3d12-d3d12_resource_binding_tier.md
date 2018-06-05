@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12.D3D12_RESOURCE_BINDING_TIER
+title: D3D12_RESOURCE_BINDING_TIER
+author: windows-sdk-content
+description: Identifies the tier of resource binding being used.
+old-location: direct3d12\d3d12_resource_binding_tier.htm
+old-project: direct3d12
+ms.assetid: D09EB3C3-9FE6-416C-91C5-E04C869C757D
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_RESOURCE_BINDING_TIER, D3D12_RESOURCE_BINDING_TIER enumeration, D3D12_RESOURCE_BINDING_TIER_1, D3D12_RESOURCE_BINDING_TIER_2, D3D12_RESOURCE_BINDING_TIER_3, d3d12/D3D12_RESOURCE_BINDING_TIER, d3d12/D3D12_RESOURCE_BINDING_TIER_1, d3d12/D3D12_RESOURCE_BINDING_TIER_2, d3d12/D3D12_RESOURCE_BINDING_TIER_3, direct3d12.d3d12_resource_binding_tier
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_RESOURCE_BINDING_TIER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D12.h
+api_name:
+-	D3D12_RESOURCE_BINDING_TIER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_RESOURCE_BINDING_TIER enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:manipulations.IManipulationProcessor.ProcessDownWithTime
+title: IManipulationProcessor::ProcessDownWithTime
+author: windows-sdk-content
+description: Feeds touch down data, including a timestamp, to the manipulation processor associated with a target.
+old-location: wintouch\imanpiulationprocessor_processdownwithtime.htm
+old-project: wintouch
+ms.assetid: a76c9150-49b8-4a74-8ef0-bfa5ce9ec28a
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessDownWithTime method, IManipulationProcessor.ProcessDownWithTime, IManipulationProcessor::ProcessDownWithTime, ProcessDownWithTime, ProcessDownWithTime method [Windows Touch], ProcessDownWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessDownWithTime, wintouch.imanpiulationprocessor_processdownwithtime
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: manipulations.h
+req.include-header: Manipulations_i.c
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	manipulations.h
+api_name:
+-	IManipulationProcessor.ProcessDownWithTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IManipulationProcessor::ProcessDownWithTime

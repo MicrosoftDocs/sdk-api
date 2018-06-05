@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iscsidsc.ISCSI_LOGIN_OPTIONS
+title: ISCSI_LOGIN_OPTIONS
+author: windows-sdk-content
+description: ISCSI_LOGIN_OPTIONS structure is used by initiators to specify the characteristics of a login session.
+old-location: iscsidisc\iscsi_login_options.htm
+old-project: iSCSIDisc
+ms.assetid: 7d45be86-3d85-4253-aef7-92e05379f1b2
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: "*PISCSI_LOGIN_OPTIONS, ISCSI_LOGIN_FLAG_ALLOW_PORTAL_HOPPING, ISCSI_LOGIN_FLAG_MULTIPATH_ENABLED, ISCSI_LOGIN_FLAG_REQUIRE_IPSEC, ISCSI_LOGIN_FLAG_RESERVED1, ISCSI_LOGIN_OPTIONS, ISCSI_LOGIN_OPTIONS structure [iSCSI Discovery Library API], ISCSI_LOGIN_OPTIONS_AUTH_TYPE, ISCSI_LOGIN_OPTIONS_DATA_DIGEST, ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_RETAIN, ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_WAIT, ISCSI_LOGIN_OPTIONS_HEADER_DIGEST, ISCSI_LOGIN_OPTIONS_MAXIMUM_CONNECTIONS, ISCSI_LOGIN_OPTIONS_PASSWORD, ISCSI_LOGIN_OPTIONS_USERNAME, PISCSI_LOGIN_OPTIONS, PISCSI_LOGIN_OPTIONS structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_login_options, iscsidsc/ISCSI_LOGIN_OPTIONS, iscsidsc/PISCSI_LOGIN_OPTIONS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ISCSI_LOGIN_OPTIONS, *PISCSI_LOGIN_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iscsidsc.h
+api_name:
+-	ISCSI_LOGIN_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ISCSI_LOGIN_OPTIONS structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._TXFS_MODIFY_RM
+title: "_TXFS_MODIFY_RM"
+author: windows-sdk-content
+description: Contains the information required when modifying log parameters and logging mode for a secondary resource manager.
+old-location: fs\txfs_modify_rm.htm
+old-project: FileIO
+ms.assetid: f50d64de-4452-47ac-b2fe-a049afbd526c
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PTXFS_MODIFY_RM, PTXFS_MODIFY_RM, PTXFS_MODIFY_RM structure pointer [Files], TXFS_LOGGING_MODE_FULL, TXFS_LOGGING_MODE_SIMPLE, TXFS_MODIFY_RM, TXFS_MODIFY_RM structure [Files], TXFS_RM_FLAG_DO_NOT_RESET_RM_AT_NEXT_START, TXFS_RM_FLAG_ENFORCE_MINIMUM_SIZE, TXFS_RM_FLAG_GROW_LOG, TXFS_RM_FLAG_LOGGING_MODE, TXFS_RM_FLAG_LOG_AUTO_SHRINK_PERCENTAGE, TXFS_RM_FLAG_LOG_CONTAINER_COUNT_MAX, TXFS_RM_FLAG_LOG_CONTAINER_COUNT_MIN, TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_NUM_CONTAINERS, TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_PERCENT, TXFS_RM_FLAG_LOG_NO_CONTAINER_COUNT_MAX, TXFS_RM_FLAG_LOG_NO_CONTAINER_COUNT_MIN, TXFS_RM_FLAG_PREFER_AVAILABILITY, TXFS_RM_FLAG_PREFER_CONSISTENCY, TXFS_RM_FLAG_PRESERVE_CHANGES, TXFS_RM_FLAG_RENAME_RM, TXFS_RM_FLAG_RESET_RM_AT_NEXT_START, TXFS_RM_FLAG_SHRINK_LOG, _TXFS_MODIFY_RM, base.txfs_set_rm_information, fs.txfs_modify_rm, fs.txfs_set_rm_information, winioctl/PTXFS_MODIFY_RM, winioctl/TXFS_MODIFY_RM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TXFS_MODIFY_RM, *PTXFS_MODIFY_RM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	TXFS_MODIFY_RM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _TXFS_MODIFY_RM structure

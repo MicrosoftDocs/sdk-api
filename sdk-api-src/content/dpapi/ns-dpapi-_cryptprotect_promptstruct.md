@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dpapi._CRYPTPROTECT_PROMPTSTRUCT
+title: "_CRYPTPROTECT_PROMPTSTRUCT"
+author: windows-sdk-content
+description: Provides the text of a prompt and information about when and where that prompt is to be displayed when using the CryptProtectData and CryptUnprotectData functions.
+old-location: security\cryptprotect_promptstruct.htm
+old-project: SecCrypto
+ms.assetid: 412ce598-a7c9-446d-bd98-6583a20d6cd7
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPTPROTECT_PROMPTSTRUCT, CRYPTPROTECT_PROMPTSTRUCT, CRYPTPROTECT_PROMPTSTRUCT structure [Security], CRYPTPROTECT_PROMPT_ON_PROTECT, CRYPTPROTECT_PROMPT_ON_UNPROTECT, PCRYPTPROTECT_PROMPTSTRUCT, PCRYPTPROTECT_PROMPTSTRUCT structure pointer [Security], _CRYPTPROTECT_PROMPTSTRUCT, _crypto2_cryptprotect_promptstruct, dpapi/CRYPTPROTECT_PROMPTSTRUCT, dpapi/PCRYPTPROTECT_PROMPTSTRUCT, security.cryptprotect_promptstruct, wincrypt/CRYPTPROTECT_PROMPTSTRUCT, wincrypt/PCRYPTPROTECT_PROMPTSTRUCT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dpapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dpapi.h
+-	Wincrypt.h
+api_name:
+-	CRYPTPROTECT_PROMPTSTRUCT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CRYPTPROTECT_PROMPTSTRUCT structure

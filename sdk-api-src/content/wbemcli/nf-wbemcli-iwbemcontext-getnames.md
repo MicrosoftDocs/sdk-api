@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemContext.GetNames
+title: IWbemContext::GetNames
+author: windows-sdk-content
+description: The IWbemContext::GetNames method returns a SAFEARRAY structure of all of the names of the named context values.
+old-location: wmi\iwbemcontext_getnames.htm
+old-project: WmiSdk
+ms.assetid: 781c4a13-ff9e-4448-8a83-3c4d8653324a
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetNames, GetNames method [Windows Management Instrumentation], GetNames method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],GetNames method, IWbemContext.GetNames, IWbemContext::GetNames, _hmm_iwbemcontext_getnames, wbemcli/IWbemContext::GetNames, wmi.iwbemcontext_getnames
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,30 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Esscli.dll
+-	Fastprox.dll
+-	FrameDyn.dll
+-	FrameDynOS.dll
+-	Wbemcomn.dll
+-	Wbemcore.dll
+-	Wbemess.dll
+-	Wmipjobj.dll
+api_name:
+-	IWbemContext.GetNames
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemContext::GetNames

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawi._DDCORECAPS
+title: "_DDCORECAPS"
+author: windows-sdk-content
+description: The DDCORECAPS structure specifies the core capabilities of the Microsoft DirectDraw driver and its device, which are exposed to an application through the DirectDraw object.
+old-location: display\ddcorecaps.htm
+old-project: display
+ms.assetid: 529d60b5-658d-4d55-a599-fa35386c01a7
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDCORECAPS, DDCORECAPS, DDCORECAPS structure [Display Devices], _DDCORECAPS, ddrawi/DDCORECAPS, ddstrcts_c5f9b49c-9c33-453b-af30-1f2ed36d5851.xml, display.ddcorecaps"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawi.h
+req.include-header: Ddrawi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDCORECAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawi.h
+api_name:
+-	DDCORECAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDCORECAPS structure

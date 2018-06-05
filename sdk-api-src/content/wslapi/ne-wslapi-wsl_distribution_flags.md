@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:wslapi.WSL_DISTRIBUTION_FLAGS
+title: WSL_DISTRIBUTION_FLAGS
+author: windows-sdk-content
+description: The WSL_DISTRIBUTION_FLAGS enumeration specifies the behavior of a distribution in the Windows Subsystem for Linux (WSL).
+old-location: wsl\wsl_distribution_flags.htm
+old-project: wsl
+ms.assetid: C0E67521-2C18-4464-B0BC-BBBC4C1FCAF0
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WSL_DISTRIBUTION_FLAGS, WSL_DISTRIBUTION_FLAGS enumeration, WSL_DISTRIBUTION_FLAGS_APPEND_NT_PATH, WSL_DISTRIBUTION_FLAGS_ENABLE_DRIVE_MOUNTING, WSL_DISTRIBUTION_FLAGS_ENABLE_INTEROP, WSL_DISTRIBUTION_FLAGS_NONE, wsl.wsl_distribution_flags, wslapi/WSL_DISTRIBUTION_FLAGS, wslapi/WSL_DISTRIBUTION_FLAGS_APPEND_NT_PATH, wslapi/WSL_DISTRIBUTION_FLAGS_ENABLE_DRIVE_MOUNTING, wslapi/WSL_DISTRIBUTION_FLAGS_ENABLE_INTEROP, wslapi/WSL_DISTRIBUTION_FLAGS_NONE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wslapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSL_DISTRIBUTION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wslapi.h
+api_name:
+-	WSL_DISTRIBUTION_FLAGS
+product: Windows
+targetos: Windows
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WSL_DISTRIBUTION_FLAGS enumeration

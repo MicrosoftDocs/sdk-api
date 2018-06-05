@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:accctrl._ACTRL_ACCESS_ENTRY_LISTA
+title: "_ACTRL_ACCESS_ENTRY_LISTA"
+author: windows-sdk-content
+description: Contains a list of access entries.
+old-location: com\actrl_access_entry_list.htm
+old-project: com
+ms.assetid: d0e71756-0247-4c6b-b8b5-a343121b7406
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PACTRL_ACCESS_ENTRY_LISTA, ACTRL_ACCESS_ENTRY_LIST, ACTRL_ACCESS_ENTRY_LIST structure [COM], ACTRL_ACCESS_ENTRY_LISTA, ACTRL_ACCESS_ENTRY_LISTW, PACTRL_ACCESS_ENTRY_LIST, PACTRL_ACCESS_ENTRY_LIST structure pointer [COM], _ACTRL_ACCESS_ENTRY_LISTA, _ACTRL_ACCESS_ENTRY_LISTW, accctrl/ACTRL_ACCESS_ENTRY_LIST, accctrl/ACTRL_ACCESS_ENTRY_LISTA, accctrl/ACTRL_ACCESS_ENTRY_LISTW, accctrl/PACTRL_ACCESS_ENTRY_LIST, com.actrl_access_entry_list"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: accctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ACTRL_ACCESS_ENTRY_LISTW (Unicode) and ACTRL_ACCESS_ENTRY_LISTA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACTRL_ACCESS_ENTRY_LISTA, *PACTRL_ACCESS_ENTRY_LISTA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AccCtrl.h
+api_name:
+-	ACTRL_ACCESS_ENTRY_LIST
+-	ACTRL_ACCESS_ENTRY_LISTA
+-	ACTRL_ACCESS_ENTRY_LISTW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
 ---
 
 # _ACTRL_ACCESS_ENTRY_LISTA structure

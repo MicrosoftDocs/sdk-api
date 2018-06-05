@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:nldef.NL_ADDRESS_TYPE
+title: NL_ADDRESS_TYPE
+author: windows-sdk-content
+description: The NL_ADDRESS_TYPE enumeration type specifies the IP address type of the network layer.
+old-location: netvista\nl_address_type.htm
+old-project: netvista
+ms.assetid: fc91bebc-e023-4f6a-a588-c4f1fbecd200
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PNL_ADDRESS_TYPE, NL_ADDRESS_TYPE, NL_ADDRESS_TYPE enumeration [Network Drivers Starting with Windows Vista], NlatAnycast, NlatBroadcast, NlatInvalid, NlatMulticast, NlatUnicast, NlatUnspecified, PNL_ADDRESS_TYPE, PNL_ADDRESS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], iphelper_2e71b644-fdff-4c64-bd7f-3f0e24006dc6.xml, netvista.nl_address_type, nldef/NL_ADDRESS_TYPE, nldef/NlatAnycast, nldef/NlatBroadcast, nldef/NlatInvalid, nldef/NlatMulticast, nldef/NlatUnicast, nldef/NlatUnspecified, nldef/PNL_ADDRESS_TYPE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: nldef.h
+req.include-header: Netioapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NL_ADDRESS_TYPE, *PNL_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	nldef.h
+api_name:
+-	NL_ADDRESS_TYPE
+product: Windows
+targetos: Windows
+req.lib: Newdev.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # NL_ADDRESS_TYPE enumeration

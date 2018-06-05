@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:compressapi.COMPRESS_INFORMATION_CLASS
+title: COMPRESS_INFORMATION_CLASS
+author: windows-sdk-content
+description: The values of this enumeration identify the type of information class being set or retrieved.
+old-location: cmpapi\compress_information_class.htm
+old-project: cmpapi
+ms.assetid: ebdcbe03-b7fb-4dec-b906-086f8fe9be4c
+ms.author: windowssdkdev
+ms.date: 04/10/2018
+ms.keywords: COMPRESS_INFORMATION_CLASS, COMPRESS_INFORMATION_CLASS enumeration [Compression API], COMPRESS_INFORMATION_CLASS_BLOCK_SIZE, COMPRESS_INFORMATION_CLASS_INVALID, COMPRESS_INFORMATION_CLASS_LEVEL, cmpapi.compress_information_class, compressapi/COMPRESS_INFORMATION_CLASS, compressapi/COMPRESS_INFORMATION_CLASS_BLOCK_SIZE, compressapi/COMPRESS_INFORMATION_CLASS_INVALID, compressapi/COMPRESS_INFORMATION_CLASS_LEVEL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: compressapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMPRESS_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	compressapi.h
+api_name:
+-	COMPRESS_INFORMATION_CLASS
+product: Windows
+targetos: Windows
+req.lib: Comppkgsup.lib
+req.dll: CompPkgSup.dll
+req.irql: 
 ---
 
 # COMPRESS_INFORMATION_CLASS enumeration

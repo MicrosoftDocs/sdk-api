@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:termmgr.ITTerminalManager2.GetPluggableTerminalClasses
+title: ITTerminalManager2::GetPluggableTerminalClasses
+author: windows-sdk-content
+description: The GetPluggableTerminalClasses method lists the terminal classes for all pluggable terminals registered under a terminal superclass.
+old-location: tapi3\itterminalmanager2_getpluggableterminalclasses.htm
+old-project: Tapi
+ms.assetid: 7f967958-fc32-4336-aae5-bea180ba86d1
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: GetPluggableTerminalClasses, GetPluggableTerminalClasses method [TAPI 2.2], GetPluggableTerminalClasses method [TAPI 2.2],ITTerminalManager2 interface, ITTerminalManager2 interface [TAPI 2.2],GetPluggableTerminalClasses method, ITTerminalManager2.GetPluggableTerminalClasses, ITTerminalManager2::GetPluggableTerminalClasses, _tapi3_itterminalmanager2_getpluggableterminalclasses, tapi3.itterminalmanager2_getpluggableterminalclasses, termmgr/ITTerminalManager2::GetPluggableTerminalClasses
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: termmgr.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Termmgr.h
+api_name:
+-	ITTerminalManager2.GetPluggableTerminalClasses
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITTerminalManager2::GetPluggableTerminalClasses

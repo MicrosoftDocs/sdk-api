@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IPoolManager.ShutdownPool
+title: IPoolManager::ShutdownPool
+author: windows-sdk-content
+description: Shuts down the object pool.
+old-location: cos\ipoolmanager_shutdownpool.htm
+old-project: cossdk
+ms.assetid: c374b0a4-d984-4fa6-80a7-8bc4d0aff284
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IPoolManager interface [COM+],ShutdownPool method, IPoolManager.ShutdownPool, IPoolManager::ShutdownPool, ShutdownPool, ShutdownPool method [COM+], ShutdownPool method [COM+],IPoolManager interface, _cos_IPoolManager_ShutdownPool, comsvcs/IPoolManager::ShutdownPool, cos.ipoolmanager_shutdownpool
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IPoolManager.ShutdownPool
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IPoolManager::ShutdownPool

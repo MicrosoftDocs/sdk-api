@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:bluetoothapis._BLUETOOTH_AUTHENTICATION_REQUIREMENTS
+title: "_BLUETOOTH_AUTHENTICATION_REQUIREMENTS"
+author: windows-sdk-content
+description: BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration specifies the 'Man in the Middle' protection required for authentication.
+old-location: bluetooth\bluetooth_authentication_requirements.htm
+old-project: Bluetooth
+ms.assetid: 644372af-d613-4fd6-adcd-7faf0afb0033
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: AUTHENTICATION_REQUIREMENTS, AUTHENTICATION_REQUIREMENTS enumeration [Bluetooth], BLUETOOTH_AUTHENTICATION_REQUIREMENTS, BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration [Bluetooth], MITMProtectionNotDefined, MITMProtectionNotRequired, MITMProtectionNotRequiredBonding, MITMProtectionNotRequiredGeneralBonding, MITMProtectionRequired, MITMProtectionRequiredBonding, MITMProtectionRequiredGeneralBonding, _AUTHENTICATION_REQUIREMENTS, _BLUETOOTH_AUTHENTICATION_REQUIREMENTS, bluetooth.bluetooth_authentication_requirements, bluetoothapis/BLUETOOTH_AUTHENTICATION_REQUIREMENTS, bluetoothapis/MITMProtectionNotDefined, bluetoothapis/MITMProtectionNotRequired, bluetoothapis/MITMProtectionNotRequiredBonding, bluetoothapis/MITMProtectionNotRequiredGeneralBonding, bluetoothapis/MITMProtectionRequired, bluetoothapis/MITMProtectionRequiredBonding, bluetoothapis/MITMProtectionRequiredGeneralBonding
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: bluetoothapis.h
+req.include-header: Bthsdpdef.h, BluetoothAPIs.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BLUETOOTH_AUTHENTICATION_REQUIREMENTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	BluetoothAPIs.h
+api_name:
+-	AUTHENTICATION_REQUIREMENTS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration

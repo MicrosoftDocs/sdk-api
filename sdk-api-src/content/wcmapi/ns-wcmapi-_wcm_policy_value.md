@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wcmapi._WCM_POLICY_VALUE
+title: "_WCM_POLICY_VALUE"
+author: windows-sdk-content
+description: Contains information about the current value of a policy.
+old-location: wcm\wcm_policy_value.htm
+old-project: wcm
+ms.assetid: 0f259661-723b-4c76-8652-c86e0b8c9ebf
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PWCM_POLICY_VALUE, PWCM_POLICY_VALUE, PWCM_POLICY_VALUE structure pointer [Windows Connection Manager], WCM_POLICY_VALUE, WCM_POLICY_VALUE structure [Windows Connection Manager], _WCM_POLICY_VALUE, wcm.wcm_policy_value, wcmapi/PWCM_POLICY_VALUE, wcmapi/WCM_POLICY_VALUE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wcmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WCM_POLICY_VALUE, *PWCM_POLICY_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wcmapi.h
+api_name:
+-	WCM_POLICY_VALUE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WCM_POLICY_VALUE structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._CSV_NAMESPACE_INFO
+title: "_CSV_NAMESPACE_INFO"
+author: windows-sdk-content
+description: Contains the output for the FSCTL_IS_CSV_FILE control code that retrieves namespace information for a file.
+old-location: fs\csv_namespace_info.htm
+old-project: FileIO
+ms.assetid: E6F3D334-6974-40E2-B00A-17CA5F05C3F4
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PCSV_NAMESPACE_INFO, CSV_NAMESPACE_INFO, CSV_NAMESPACE_INFO structure [Files], CSV_NAMESPACE_INFO_V1, PCSV_NAMESPACE_INFO, PCSV_NAMESPACE_INFO structure pointer [Files], _CSV_NAMESPACE_INFO, fs.csv_namespace_info, winioctl/CSV_NAMESPACE_INFO, winioctl/PCSV_NAMESPACE_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CSV_NAMESPACE_INFO, *PCSV_NAMESPACE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	CSV_NAMESPACE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CSV_NAMESPACE_INFO structure

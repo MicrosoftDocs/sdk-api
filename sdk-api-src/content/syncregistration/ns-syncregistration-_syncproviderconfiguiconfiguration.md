@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:syncregistration._SyncProviderConfigUIConfiguration
+title: "_SyncProviderConfigUIConfiguration"
+author: windows-sdk-content
+description: Represents the information for a synchronization provider configuration UI.
+old-location: winsync\syncproviderconfiguiconfiguration.htm
+old-project: winsync
+ms.assetid: 4f07719b-c1e5-4985-a952-0ff07601bf1a
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: SyncProviderConfigUI, SyncProviderConfigUI structure [Windows Sync], SyncProviderConfigUIConfiguration, SyncProviderConfigUIConfiguration structure [Windows Sync], _SyncProviderConfigUIConfiguration, syncregistration/SyncProviderConfigUI, winsync.syncproviderconfiguiconfiguration
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: syncregistration.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SyncProviderConfigUIConfiguration
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Syncregistration.h
+api_name:
+-	SyncProviderConfigUI
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _SyncProviderConfigUIConfiguration structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:qos2.QOSStopTrackingClient
+title: QOSStopTrackingClient function
+author: windows-sdk-content
+description: The QOSStopTrackingClient function notifies the QoS subsystem to stop tracking a client that has previously used the QOSStartTrackingClient function. If a flow is currently in progress, this function will not affect it.
+old-location: qos\qosstoptrackingclient.htm
+old-project: QOS
+ms.assetid: 7db9971e-3b53-458e-81ff-94f355c49973
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: QOSStopTrackingClient, QOSStopTrackingClient function [QOS], qos.qosstoptrackingclient, qos2/QOSStopTrackingClient
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: qos2.h
+req.include-header: Qos2.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	qwave.dll
+api_name:
+-	QOSStopTrackingClient
+product: Windows
+targetos: Windows
+req.lib: Qwave.lib
+req.dll: Qwave.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # QOSStopTrackingClient function

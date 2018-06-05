@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:tpcshrd._PROPERTY_METRICS
+title: "_PROPERTY_METRICS"
+author: windows-sdk-content
+description: Defines the range and resolution of a packet property.
+old-location: tablet\property_metrics.htm
+old-project: tablet
+ms.assetid: a6f82b69-50a2-4dfb-a0cd-c37907f5fc1c
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PPROPERTY_METRICS, PPROPERTY_METRICS, PPROPERTY_METRICS structure pointer [Tablet PC], PROPERTY_METRICS, PROPERTY_METRICS structure [Tablet PC], _PROPERTY_METRICS, a6f82b69-50a2-4dfb-a0cd-c37907f5fc1c, tablet.property_metrics, tpcshrd/PPROPERTY_METRICS, tpcshrd/PROPERTY_METRICS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tpcshrd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPERTY_METRICS, *PPROPERTY_METRICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tpcshrd.h
+api_name:
+-	PROPERTY_METRICS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _PROPERTY_METRICS structure

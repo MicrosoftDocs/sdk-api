@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:msdrmdefs._DRM_DISTRIBUTION_POINT_INFO
+title: "_DRM_DISTRIBUTION_POINT_INFO"
+author: windows-sdk-content
+description: Specifies the type of distribution point to retrieve information about when calling DRMGetIssuanceLicenseInfo.
+old-location: rm\drm_distribution_point_info.htm
+old-project: AdRms_Sdk
+ms.assetid: 09e586bc-bf0e-4831-be35-f00a6288231e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DRM_DISTRIBUTION_POINT_INFO, DRM_DISTRIBUTION_POINT_INFO enumeration [Active Directory Rights Management Services SDK 1.0], DRM_DISTRIBUTION_POINT_LICENSE_ACQUISITION, DRM_DISTRIBUTION_POINT_PUBLISHING, DRM_DISTRIBUTION_POINT_REFERRAL_INFO, _DRM_DISTRIBUTION_POINT_INFO, msdrmdefs/DRM_DISTRIBUTION_POINT_INFO, msdrmdefs/DRM_DISTRIBUTION_POINT_LICENSE_ACQUISITION, msdrmdefs/DRM_DISTRIBUTION_POINT_PUBLISHING, msdrmdefs/DRM_DISTRIBUTION_POINT_REFERRAL_INFO, rm.drm_distribution_point_info, rm.drm_distributionpoint_info
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msdrmdefs.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRM_DISTRIBUTION_POINT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msdrmdefs.h
+api_name:
+-	DRM_DISTRIBUTION_POINT_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _DRM_DISTRIBUTION_POINT_INFO enumeration

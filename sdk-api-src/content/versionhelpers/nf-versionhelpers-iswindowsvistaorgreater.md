@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:versionhelpers.IsWindowsVistaOrGreater
+title: IsWindowsVistaOrGreater function
+author: windows-sdk-content
+description: Indicates if the current OS version matches, or is greater than, the Windows Vista version.
+old-location: base\iswindowsvistaorgreater.htm
+old-project: SysInfo
+ms.assetid: 556C70DC-6A44-4D85-BDBF-C1110D63DC69
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IsWindowsVistaOrGreater, IsWindowsVistaOrGreater function, base.iswindowsvistaorgreater, versionhelpers/IsWindowsVistaOrGreater
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: versionhelpers.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	ntdll.dll
+api_name:
+-	IsWindowsVistaOrGreater
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib; Ntdll.lib
+req.dll: Kernel32.dll; Ntdll.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IsWindowsVistaOrGreater function

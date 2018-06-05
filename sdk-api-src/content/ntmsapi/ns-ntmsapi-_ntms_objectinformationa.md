@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntmsapi._NTMS_OBJECTINFORMATIONA
+title: "_NTMS_OBJECTINFORMATIONA"
+author: windows-sdk-content
+description: The NTMS_OBJECTINFORMATION structure defines the properties that an application can get and set for RSM devices, media and system controls (such as libraries, drives, media, operator requests). This is the common structure of objects in the RSM database.
+old-location: fs\ntms_objectinformation.htm
+old-project: Rsm
+ms.assetid: 56e3380b-47c7-4861-bb2b-31d67ac10fe1
+ms.author: windowssdkdev
+ms.date: 04/05/2018
+ms.keywords: "*LPNTMS_OBJECTINFORMATIONA, LPNTMS_OBJECTINFORMATION, LPNTMS_OBJECTINFORMATION structure pointer [Files], NTMS_CHANGER, NTMS_CHANGER_TYPE, NTMS_COMPUTER, NTMS_DRIVE, NTMS_DRIVE_TYPE, NTMS_IEDOOR, NTMS_IEPORT, NTMS_LIBRARY, NTMS_LIBREQUEST, NTMS_LOGICAL_MEDIA, NTMS_MEDIA_POOL, NTMS_MEDIA_TYPE, NTMS_NEEDS_SERVICE, NTMS_NOT_PRESENT, NTMS_OBJECTINFORMATION, NTMS_OBJECTINFORMATION structure [Files], NTMS_OBJECTINFORMATIONA, NTMS_OPREQUEST, NTMS_PARTITION, NTMS_PHYSICAL_MEDIA, NTMS_READY, NTMS_STORAGESLOT, _NTMS_OBJECTINFORMATIONA, _NTMS_OBJECTINFORMATIONW, _zaw_ntms_objectinformation, base.ntms_objectinformation, fs.ntms_objectinformation, ntmsapi/LPNTMS_OBJECTINFORMATION, ntmsapi/NTMS_OBJECTINFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntmsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NTMS_OBJECTINFORMATIONA, *LPNTMS_OBJECTINFORMATIONA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntmsapi.h
+api_name:
+-	NTMS_OBJECTINFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NTMS_OBJECTINFORMATIONA structure

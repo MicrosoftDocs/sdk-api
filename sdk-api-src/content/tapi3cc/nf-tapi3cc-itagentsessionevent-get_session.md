@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3cc.ITAgentSessionEvent.get_Session
+title: ITAgentSessionEvent::get_Session
+author: windows-sdk-content
+description: The get_Session method gets a pointer to the ITAgentSession on which the event occurred.
+old-location: tapi3\itagentsessionevent_get_session.htm
+old-project: Tapi
+ms.assetid: 2868e5db-f596-424d-bd6a-0f0c5f52e1e7
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITAgentSessionEvent interface [TAPI 2.2],get_Session method, ITAgentSessionEvent.get_Session, ITAgentSessionEvent::get_Session, _tapi3_itagentsessionevent_get_session, get_Session, get_Session method [TAPI 2.2], get_Session method [TAPI 2.2],ITAgentSessionEvent interface, tapi3.itagentsessionevent_get_session, tapi3cc/ITAgentSessionEvent::get_Session
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3cc.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AGENT_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAgentSessionEvent.get_Session
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAgentSessionEvent::get_Session

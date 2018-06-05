@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CERT_ALT_NAME_INFO
+title: "_CERT_ALT_NAME_INFO"
+author: windows-sdk-content
+description: The CERT_ALT_NAME_INFO structure is used in encoding and decoding extensions for subject or issuer certificates, Certificate Revocation Lists (CRLs), and Certificate Trust Lists (CTLs).
+old-location: security\cert_alt_name_info.htm
+old-project: SecCrypto
+ms.assetid: f9a20827-3333-4ce2-b074-2e8ce903fad2
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_ALT_NAME_INFO, CERT_ALT_NAME_INFO, CERT_ALT_NAME_INFO structure [Security], PCERT_ALT_NAME_INFO, PCERT_ALT_NAME_INFO structure pointer [Security], _CERT_ALT_NAME_INFO, _crypto2_cert_alt_name_info, security.cert_alt_name_info, wincrypt/CERT_ALT_NAME_INFO, wincrypt/PCERT_ALT_NAME_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_ALT_NAME_INFO, *PCERT_ALT_NAME_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_ALT_NAME_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERT_ALT_NAME_INFO structure

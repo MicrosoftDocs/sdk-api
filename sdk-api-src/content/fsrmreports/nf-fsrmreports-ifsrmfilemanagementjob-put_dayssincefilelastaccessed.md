@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmreports.IFsrmFileManagementJob.put_DaysSinceFileLastAccessed
+title: IFsrmFileManagementJob::put_DaysSinceFileLastAccessed
+author: windows-sdk-content
+description: The number of days that have elapsed since the file was last accessed.
+old-location: fsrm\ifsrmfilemanagementjob_dayssincefilelastaccessed.htm
+old-project: Fsrm
+ms.assetid: 0892f31d-e2e4-4aeb-9496-f0ff10c2c0af
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: DaysSinceFileLastAccessed property [File Server Resource Manager], DaysSinceFileLastAccessed property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DaysSinceFileLastAccessed property, IFsrmFileManagementJob.DaysSinceFileLastAccessed, IFsrmFileManagementJob.put_DaysSinceFileLastAccessed, IFsrmFileManagementJob::DaysSinceFileLastAccessed, IFsrmFileManagementJob::get_DaysSinceFileLastAccessed, IFsrmFileManagementJob::put_DaysSinceFileLastAccessed, fs.ifsrmfilemanagementjob_dayssincefilelastaccessed, fsrm.ifsrmfilemanagementjob_dayssincefilelastaccessed, fsrmreports/IFsrmFileManagementJob::DaysSinceFileLastAccessed, fsrmreports/IFsrmFileManagementJob::get_DaysSinceFileLastAccessed, fsrmreports/IFsrmFileManagementJob::put_DaysSinceFileLastAccessed, put_DaysSinceFileLastAccessed
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmreports.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileManagementJob.DaysSinceFileLastAccessed
+-	IFsrmFileManagementJob.get_DaysSinceFileLastAccessed
+-	IFsrmFileManagementJob.put_DaysSinceFileLastAccessed
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileManagementJob::put_DaysSinceFileLastAccessed

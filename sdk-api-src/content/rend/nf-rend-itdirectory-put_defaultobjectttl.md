@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rend.ITDirectory.put_DefaultObjectTTL
+title: ITDirectory::put_DefaultObjectTTL
+author: windows-sdk-content
+description: The put_DefaultObjectTTL method sets the default time to live (TTL) value, in seconds, for objects created. Only applies to dynamic servers. The minimum value is 300 seconds.
+old-location: tapi3\itdirectory_put_defaultobjectttl.htm
+old-project: Tapi
+ms.assetid: aecadd26-648e-43ce-8331-ef4af24567ed
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITDirectory interface [TAPI 2.2],put_DefaultObjectTTL method, ITDirectory.put_DefaultObjectTTL, ITDirectory::put_DefaultObjectTTL, _tapi3_itdirectory_put_defaultobjectttl, put_DefaultObjectTTL, put_DefaultObjectTTL method [TAPI 2.2], put_DefaultObjectTTL method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::put_DefaultObjectTTL, tapi3.itdirectory_put_defaultobjectttl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rend.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rend.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RND_ADVERTISING_SCOPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Rend.dll
+api_name:
+-	ITDirectory.put_DefaultObjectTTL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITDirectory::put_DefaultObjectTTL

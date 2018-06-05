@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dsparse._DS_MANGLE_FOR
+title: "_DS_MANGLE_FOR"
+author: windows-sdk-content
+description: The DS_MANGLE_FOR enumeration is used to define whether a relative distinguished name is mangled (encoded) and in what form the mangling occurs.
+old-location: ad\ds_mangle_for.htm
+old-project: AD
+ms.assetid: 79a66a54-889e-464e-8199-ad911ea84a86
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_MANGLE_FOR, DS_MANGLE_FOR enumeration [Active Directory], DS_MANGLE_OBJECT_RDN_FOR_DELETION, DS_MANGLE_OBJECT_RDN_FOR_NAME_CONFLICT, DS_MANGLE_UNKNOWN, _DS_MANGLE_FOR, _glines_ds_mangle_for, ad.ds__mangle__for, ad.ds_mangle_for, dsparse/DS_MANGLE_FOR, dsparse/DS_MANGLE_OBJECT_RDN_FOR_DELETION, dsparse/DS_MANGLE_OBJECT_RDN_FOR_NAME_CONFLICT, dsparse/DS_MANGLE_UNKNOWN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dsparse.h
+req.include-header: Ntdsapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_MANGLE_FOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dsparse.h
+api_name:
+-	DS_MANGLE_FOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DS_MANGLE_FOR enumeration

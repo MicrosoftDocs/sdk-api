@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:vptype._AMVPDIMINFO
+title: "_AMVPDIMINFO"
+author: windows-sdk-content
+description: The AMVPDIMINFO structure specifies the dimensional characteristics of a video port (VP) input stream.
+old-location: dshow\amvpdiminfo.htm
+old-project: DirectShow
+ms.assetid: e39cbb85-33f0-4810-aa32-cc96676da123
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPAMVPDIMINFO, AMVPDIMINFO, AMVPDIMINFO structure [DirectShow], AMVPDIMINFOStructure, LPAMVPDIMINFO, LPAMVPDIMINFO structure pointer [DirectShow], _AMVPDIMINFO, dshow.amvpdiminfo, vptype/AMVPDIMINFO, vptype/LPAMVPDIMINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vptype.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPDIMINFO, *LPAMVPDIMINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	vptype.h
+api_name:
+-	AMVPDIMINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _AMVPDIMINFO structure

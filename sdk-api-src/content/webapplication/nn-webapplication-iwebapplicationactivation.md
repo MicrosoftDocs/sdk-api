@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:webapplication.IWebApplicationActivation
+title: IWebApplicationActivation
+author: windows-sdk-content
+description: Enables debugging applications to manage activations.
+old-location: debug\iwebapplicationactivation.htm
+old-project: debug_wwahost
+ms.assetid: 51127F64-2FE1-49F9-9E68-E38F4DDB8D1B
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IWebApplicationActivation, IWebApplicationActivation interface [Debugging Windows Store apps], IWebApplicationActivation interface [Debugging Windows Store apps],described, debug.iwebapplicationactivation, webapplication/IWebApplicationActivation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: webapplication.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Webapplication.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WWAHost.exe
+-	WWAHost.exe.dll
+api_name:
+-	IWebApplicationActivation
+product: Windows
+targetos: Windows
+req.lib: WWAHost.exe
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWebApplicationActivation interface

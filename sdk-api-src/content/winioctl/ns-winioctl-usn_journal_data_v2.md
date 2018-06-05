@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl.USN_JOURNAL_DATA_V2
+title: USN_JOURNAL_DATA_V2
+author: windows-sdk-content
+description: Represents an update sequence number (USN) change journal, its records, and its capacity. This structure is the output buffer for the FSCTL_QUERY_USN_JOURNAL control code.
+old-location: fs\usn_journal_data_v2.htm
+old-project: FileIO
+ms.assetid: BBFA6D14-1423-45B0-83A0-62019D08507F
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PUSN_JOURNAL_DATA_V2, FLAG_USN_TRACK_MODIFIED_RANGES_ENABLE, PUSN_JOURNAL_DATA_V2, PUSN_JOURNAL_DATA_V2 structure pointer [Files], USN_JOURNAL_DATA_V2, USN_JOURNAL_DATA_V2 structure [Files], fs.usn_journal_data_v2, winioctl/PUSN_JOURNAL_DATA_V2, winioctl/USN_JOURNAL_DATA_V2"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USN_JOURNAL_DATA_V2, *PUSN_JOURNAL_DATA_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	USN_JOURNAL_DATA_V2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # USN_JOURNAL_DATA_V2 structure

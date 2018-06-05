@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:tapi.lineproxyrequestlist_tag
+title: lineproxyrequestlist_tag
+author: windows-sdk-content
+description: The LINEPROXYREQUESTLIST structure describes a list of proxy requests. The lineGetProxyStatus function returns the LINEPROXYREQUESTLIST structure.
+old-location: tapi2\lineproxyrequestlist.htm
+old-project: Tapi
+ms.assetid: dc417954-56b4-4436-9582-7b656121fd6f
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*LPLINEPROXYREQUESTLIST, LINEPROXYREQUESTLIST, LINEPROXYREQUESTLIST structure [TAPI 2.2], LPLINEPROXYREQUESTLIST, LPLINEPROXYREQUESTLIST structure pointer [TAPI 2.2], _tapi2_lineproxyrequestlist, lineproxyrequestlist_tag, tapi/LINEPROXYREQUESTLIST, tapi/LPLINEPROXYREQUESTLIST, tapi2.lineproxyrequestlist"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LINEPROXYREQUESTLIST, *LPLINEPROXYREQUESTLIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi.h
+api_name:
+-	LINEPROXYREQUESTLIST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # lineproxyrequestlist_tag structure

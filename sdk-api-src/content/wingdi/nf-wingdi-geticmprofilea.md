@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wingdi.GetICMProfileA
+title: GetICMProfileA function
+author: windows-sdk-content
+description: The GetICMProfile function retrieves the file name of the current output color profile for a specified device context.
+old-location: wcs\geticmprofile.htm
+old-project: WCS
+ms.assetid: 1e16771a-80c5-47bb-9c98-14169d4dd773
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: GetICMProfile, GetICMProfile function [Windows Color System], GetICMProfileA, GetICMProfileW, _color_GetICMProfile, wcs.geticmprofile, wingdi/GetICMProfile, wingdi/GetICMProfileA, wingdi/GetICMProfileW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wingdi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetICMProfileW (Unicode) and GetICMProfileA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Gdi32.dll
+-	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+-	GDI32Full.dll
+api_name:
+-	GetICMProfile
+-	GetICMProfileA
+-	GetICMProfileW
+product: Windows
+targetos: Windows
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # GetICMProfileA function

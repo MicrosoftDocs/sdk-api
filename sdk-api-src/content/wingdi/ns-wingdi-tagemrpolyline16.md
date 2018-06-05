@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagEMRPOLYLINE16
+title: tagEMRPOLYLINE16
+author: windows-sdk-content
+description: The EMRPOLYLINE16, EMRPOLYBEZIER16, EMRPOLYGON16, EMRPOLYBEZIERTO16, and EMRPOLYLINETO16 structures contain members for the Polyline, PolyBezier, Polygon, PolyBezierTo, and PolylineTo enhanced metafile records.
+old-location: gdi\emrpolyline16__emrpolybezier16__emrpolygon16__emrpolybezierto16__emrpolylineto16.htm
+old-project: gdi
+ms.assetid: ba1d4fad-44d7-438c-8e03-972d88c2780e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PEMRPOLYBEZIER16, *PEMRPOLYBEZIERTO16, *PEMRPOLYGON16, *PEMRPOLYLINE16, *PEMRPOLYLINETO16, EMRPOLYBEZIER16, EMRPOLYBEZIER16 structure [Windows GDI], EMRPOLYBEZIERTO16, EMRPOLYBEZIERTO16 structure [Windows GDI], EMRPOLYGON16, EMRPOLYGON16 structure [Windows GDI], EMRPOLYLINE16, EMRPOLYLINE16 structure [Windows GDI], EMRPOLYLINE16,EMRPOLYBEZIER16,EMRPOLYGON16,EMRPOLYBEZIERTO16,EMRPOLYLINETO16, EMRPOLYLINE16,EMRPOLYBEZIER16,EMRPOLYGON16,EMRPOLYBEZIERTO16,EMRPOLYLINETO16 structure [Windows GDI], EMRPOLYLINETO16, EMRPOLYLINETO16 structure [Windows GDI], PEMRPOLYBEZIER16, PEMRPOLYBEZIER16 structure pointer [Windows GDI], PEMRPOLYBEZIERTO16, PEMRPOLYBEZIERTO16 structure pointer [Windows GDI], PEMRPOLYGON16, PEMRPOLYGON16 structure pointer [Windows GDI], PEMRPOLYLINE16, PEMRPOLYLINE16 structure pointer [Windows GDI], PEMRPOLYLINETO16, PEMRPOLYLINETO16 structure pointer [Windows GDI], _win32_EMRPOLYLINE16_str, gdi.emrpolyline16__emrpolybezier16__emrpolygon16__emrpolybezierto16__emrpolylineto16, tagEMRPOLYLINE16, wingdi/EMRPOLYBEZIER16, wingdi/EMRPOLYBEZIERTO16, wingdi/EMRPOLYGON16, wingdi/EMRPOLYLINE16,EMRPOLYBEZIER16,EMRPOLYGON16,EMRPOLYBEZIERTO16,EMRPOLYLINETO16, wingdi/EMRPOLYLINETO16, wingdi/PEMRPOLYBEZIER16, wingdi/PEMRPOLYBEZIERTO16, wingdi/PEMRPOLYGON16, wingdi/PEMRPOLYLINE16, wingdi/PEMRPOLYLINETO16"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMRPOLYLINE16, *PEMRPOLYLINE16, EMRPOLYBEZIER16, *PEMRPOLYBEZIER16, EMRPOLYGON16, *PEMRPOLYGON16, EMRPOLYBEZIERTO16, *PEMRPOLYBEZIERTO16, EMRPOLYLINETO16, *PEMRPOLYLINETO16
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	EMRPOLYLINE16
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagEMRPOLYLINE16 structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:thumbcache.IThumbnailCachePrimer
+title: IThumbnailCachePrimer
+author: windows-sdk-content
+description: "."
+old-location: shell\IThumbnailCachePrimer.htm
+old-project: shell
+ms.assetid: 2EBDF7CF-8EDF-4d2f-9632-905C60A7BC45
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IThumbnailCachePrimer, IThumbnailCachePrimer interface [Windows Shell], IThumbnailCachePrimer interface [Windows Shell],described, shell.IThumbnailCachePrimer, thumbcache/IThumbnailCachePrimer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: thumbcache.h
+req.include-header: Thumbcache.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Thumbcache.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	thumbcache.h
+api_name:
+-	IThumbnailCachePrimer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IThumbnailCachePrimer interface

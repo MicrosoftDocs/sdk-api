@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:cfgmgr32.CM_Get_First_Log_Conf
+title: CM_Get_First_Log_Conf function
+author: windows-sdk-content
+description: The CM_Get_First_Log_Conf function obtains the first logical configuration, of a specified configuration type, associated with a specified device instance on the local machine.
+old-location: devinst\cm_get_first_log_conf.htm
+old-project: devinst
+ms.assetid: 7ef14797-ea67-40cb-ad8d-e8c846ae1fd4
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: CM_Get_First_Log_Conf, CM_Get_First_Log_Conf function [Device and Driver Installation], cfgmgr32/CM_Get_First_Log_Conf, cfgmgrfn_5310503c-65cc-4185-9d26-bf29c1af74c4.xml, devinst.cm_get_first_log_conf
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cfgmgr32.dll
+api_name:
+-	CM_Get_First_Log_Conf
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 ---
 
 # CM_Get_First_Log_Conf function

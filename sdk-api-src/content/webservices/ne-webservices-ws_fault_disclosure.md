@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_FAULT_DISCLOSURE
+title: WS_FAULT_DISCLOSURE
+author: windows-sdk-content
+description: Controls how much error information is included in a fault. Since the error object may contain sensitive data as part of the error string, it is not always appropriate to include the error strings information in all faults.
+old-location: wsw\ws_fault_disclosure.htm
+old-project: wsw
+ms.assetid: 1dca9074-b329-4293-8a44-d0ced00ae59e
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_FAULT_DISCLOSURE, WS_FAULT_DISCLOSURE enumeration [Web Services for Windows], WS_FULL_FAULT_DISCLOSURE, WS_MINIMAL_FAULT_DISCLOSURE, webservices/WS_FAULT_DISCLOSURE, webservices/WS_FULL_FAULT_DISCLOSURE, webservices/WS_MINIMAL_FAULT_DISCLOSURE, wsw.ws_fault_disclosure
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_FAULT_DISCLOSURE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_FAULT_DISCLOSURE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_FAULT_DISCLOSURE enumeration

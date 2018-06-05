@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzAuthorizationStore.UpdateCache
+title: IAzAuthorizationStore::UpdateCache
+author: windows-sdk-content
+description: Updates the cache of objects and object attributes to match the underlying policy store.
+old-location: security\azauthorizationstore_updatecache.htm
+old-project: SecAuthZ
+ms.assetid: 1fd17040-f736-44a6-8a01-720f4c8fe9ac
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AzAuthorizationStore object [Security],UpdateCache method, IAzAuthorizationStore interface [Security],UpdateCache method, IAzAuthorizationStore.UpdateCache, IAzAuthorizationStore::UpdateCache, UpdateCache, UpdateCache method [Security], UpdateCache method [Security],AzAuthorizationStore object, UpdateCache method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::UpdateCache, security.azauthorizationstore_updatecache
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	AzAuthorizationStore.UpdateCache
+-	IAzAuthorizationStore.UpdateCache
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzAuthorizationStore::UpdateCache

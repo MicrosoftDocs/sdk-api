@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winuser.DrawFrameControl
+title: DrawFrameControl function
+author: windows-sdk-content
+description: The DrawFrameControl function draws a frame control of the specified type and style.
+old-location: gdi\drawframecontrol.htm
+old-project: gdi
+ms.assetid: 3102007e-e9f7-46d8-ae10-cf156d2131f6
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: DFCS_ADJUSTRECT, DFCS_BUTTON3STATE, DFCS_BUTTONCHECK, DFCS_BUTTONPUSH, DFCS_BUTTONRADIO, DFCS_BUTTONRADIOIMAGE, DFCS_BUTTONRADIOMASK, DFCS_CAPTIONCLOSE, DFCS_CAPTIONHELP, DFCS_CAPTIONMAX, DFCS_CAPTIONMIN, DFCS_CAPTIONRESTORE, DFCS_CHECKED, DFCS_FLAT, DFCS_HOT, DFCS_INACTIVE, DFCS_MENUARROW, DFCS_MENUARROWRIGHT, DFCS_MENUBULLET, DFCS_MENUCHECK, DFCS_MONO, DFCS_PUSHED, DFCS_SCROLLCOMBOBOX, DFCS_SCROLLDOWN, DFCS_SCROLLLEFT, DFCS_SCROLLRIGHT, DFCS_SCROLLSIZEGRIP, DFCS_SCROLLSIZEGRIPRIGHT, DFCS_SCROLLUP, DFCS_TRANSPARENT, DFC_BUTTON, DFC_CAPTION, DFC_MENU, DFC_POPUPMENU, DFC_SCROLL, DrawFrameControl, DrawFrameControl function [Windows GDI], _win32_DrawFrameControl, gdi.drawframecontrol, winuser/DrawFrameControl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	user32.dll
+-	ext-ms-win-ntuser-draw-l1-1-2.dll
+api_name:
+-	DrawFrameControl
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # DrawFrameControl function

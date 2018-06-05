@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winldap.ldap_dn2ufn
+title: ldap_dn2ufn function
+author: windows-sdk-content
+description: Converts a distinguished name to a user-friendly format.
+old-location: ldap\ldap_dn2ufn.htm
+old-project: LDAP
+ms.assetid: 6c9c943f-304a-496c-bac4-283b6c717774
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: "_ldap_ldap_dn2ufn, ldap.ldap__dn2ufn, ldap.ldap_dn2ufn, ldap_dn2ufn, ldap_dn2ufn function [LDAP], ldap_dn2ufnA, ldap_dn2ufnW, winldap/ldap_dn2ufn, winldap/ldap_dn2ufnA, winldap/ldap_dn2ufnW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winldap.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ldap_dn2ufnW (Unicode) and ldap_dn2ufnA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wldap32.dll
+api_name:
+-	ldap_dn2ufn
+-	ldap_dn2ufnA
+-	ldap_dn2ufnW
+product: Windows
+targetos: Windows
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ldap_dn2ufn function

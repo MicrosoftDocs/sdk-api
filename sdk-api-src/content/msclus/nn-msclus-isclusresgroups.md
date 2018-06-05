@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:msclus.ISClusResGroups
+title: ISClusResGroups
+author: windows-sdk-content
+description: Provides access to all cluster groups belonging either to a cluster or to a particular node in a cluster.
+old-location: mscs\clusresgroups_collection.htm
+old-project: MsCS
+ms.assetid: 7411d5f9-15c0-4c03-9128-c6b636979a50
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ClusResGroups, ClusResGroups collection [Failover Cluster], ClusResGroups collection [Failover Cluster],described, ISClusResGroups, _wolf_clusresgroups_collection, msclus/ClusResGroups, mscs.clusresgroups_collection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: MsClus.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: MsClus.tlb
+tech.root: 
+req.typenames: CLUS_GROUP_START_SETTING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsClus.dll
+api_name:
+-	ClusResGroups
+-	ISClusResGroups
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsClus.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ISClusResGroups interface

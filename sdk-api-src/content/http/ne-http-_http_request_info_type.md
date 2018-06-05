@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:http._HTTP_REQUEST_INFO_TYPE
+title: "_HTTP_REQUEST_INFO_TYPE"
+author: windows-sdk-content
+description: The HTTP_REQUEST_INFO_TYPE enumeration defines the type of information contained in the HTTP_REQUEST_INFO structure. This enumeration is used in the HTTP_REQUEST_INFO structure.
+old-location: http\http_request_info_type.htm
+old-project: Http
+ms.assetid: 178d2608-85c8-4842-bd6a-4c66d7f1b892
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_REQUEST_INFO_TYPE, *PHTTP_REQUEST_INFO_TYPE enumeration [HTTP], HTTP_REQUEST_INFO_TYPE, HTTP_REQUEST_INFO_TYPE enumeration [HTTP], HttpRequestInfoTypeAuth, _HTTP_REQUEST_INFO_TYPE, http.http_request_info_type, http/*PHTTP_REQUEST_INFO_TYPE, http/HTTP_REQUEST_INFO_TYPE, http/HttpRequestInfoTypeAuth"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_REQUEST_INFO_TYPE, *PHTTP_REQUEST_INFO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_REQUEST_INFO_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_REQUEST_INFO_TYPE enumeration

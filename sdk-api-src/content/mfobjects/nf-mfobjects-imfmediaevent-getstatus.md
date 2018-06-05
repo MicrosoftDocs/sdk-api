@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMFMediaEvent.GetStatus
+title: IMFMediaEvent::GetStatus
+author: windows-sdk-content
+description: Retrieves an HRESULT that specifies the event status.
+old-location: mf\imfmediaevent_getstatus.htm
+old-project: medfound
+ms.assetid: e2fc6c81-11c0-4947-b647-3e74a73ee5a2
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetStatus, GetStatus method [Media Foundation], GetStatus method [Media Foundation],IMFMediaEvent interface, IMFMediaEvent interface [Media Foundation],GetStatus method, IMFMediaEvent.GetStatus, IMFMediaEvent::GetStatus, e2fc6c81-11c0-4947-b647-3e74a73ee5a2, mf.imfmediaevent_getstatus, mfobjects/IMFMediaEvent::GetStatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFMediaEvent.GetStatus
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFMediaEvent::GetStatus

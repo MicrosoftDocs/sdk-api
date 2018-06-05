@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wcmconfig.ISettingsNamespace.Save
+title: ISettingsNamespace::Save
+author: windows-sdk-content
+description: Updates the settings namespace to persistent and visible.
+old-location: smi\isettingsnamespace_save.htm
+old-project: SMI
+ms.assetid: 368c1d0b-c8a2-47af-82f8-bcc1ccf8930b
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ISettingsNamespace interface [SMI],Save method, ISettingsNamespace.Save, ISettingsNamespace::Save, Save, Save method [SMI], Save method [SMI],ISettingsNamespace interface, smi.isettingsnamespace_save, wcmconfig/ISettingsNamespace::Save
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WcmConfig.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ISettingsNamespace.Save
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ISettingsNamespace::Save

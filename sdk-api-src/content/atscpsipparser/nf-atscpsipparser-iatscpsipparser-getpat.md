@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:atscpsipparser.IAtscPsipParser.GetPAT
+title: IAtscPsipParser::GetPAT
+author: windows-sdk-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+old-location: mstv\iatscpsipparser_getpat.htm
+old-project: mstv
+ms.assetid: 7cfa9ec0-a802-4dbe-9997-d0eaac2b71c9
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetPAT, GetPAT method [Microsoft TV Technologies], GetPAT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetPAT method, IAtscPsipParser.GetPAT, IAtscPsipParser::GetPAT, IAtscPsipParserGetPAT, atscpsipparser/IAtscPsipParser::GetPAT, mstv.iatscpsipparser_getpat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: atscpsipparser.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AsyncStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	atscpsipparser.h
+api_name:
+-	IAtscPsipParser.GetPAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAtscPsipParser::GetPAT

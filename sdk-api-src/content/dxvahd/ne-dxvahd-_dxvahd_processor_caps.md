@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dxvahd._DXVAHD_PROCESSOR_CAPS
+title: "_DXVAHD_PROCESSOR_CAPS"
+author: windows-sdk-content
+description: Specifies the processing capabilities of a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
+old-location: mf\dxvahd_processor_caps.htm
+old-project: medfound
+ms.assetid: 6fe6b1fe-4eef-427a-b28f-a359b066e552
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DXVAHD_PROCESSOR_CAPS, DXVAHD_PROCESSOR_CAPS enumeration [Media Foundation], DXVAHD_PROCESSOR_CAPS_DEINTERLACE_ADAPTIVE, DXVAHD_PROCESSOR_CAPS_DEINTERLACE_BLEND, DXVAHD_PROCESSOR_CAPS_DEINTERLACE_BOB, DXVAHD_PROCESSOR_CAPS_DEINTERLACE_MOTION_COMPENSATION, DXVAHD_PROCESSOR_CAPS_FRAME_RATE_CONVERSION, DXVAHD_PROCESSOR_CAPS_INVERSE_TELECINE, _DXVAHD_PROCESSOR_CAPS, dxvahd/DXVAHD_PROCESSOR_CAPS, dxvahd/DXVAHD_PROCESSOR_CAPS_DEINTERLACE_ADAPTIVE, dxvahd/DXVAHD_PROCESSOR_CAPS_DEINTERLACE_BLEND, dxvahd/DXVAHD_PROCESSOR_CAPS_DEINTERLACE_BOB, dxvahd/DXVAHD_PROCESSOR_CAPS_DEINTERLACE_MOTION_COMPENSATION, dxvahd/DXVAHD_PROCESSOR_CAPS_FRAME_RATE_CONVERSION, dxvahd/DXVAHD_PROCESSOR_CAPS_INVERSE_TELECINE, mf.dxvahd_processor_caps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxvahd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVAHD_PROCESSOR_CAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxvahd.h
+api_name:
+-	DXVAHD_PROCESSOR_CAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVAHD_PROCESSOR_CAPS enumeration

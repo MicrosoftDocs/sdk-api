@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpv6csdk._DHCPV6PrefixLeaseInformation
+title: "_DHCPV6PrefixLeaseInformation"
+author: windows-sdk-content
+description: Information about a prefix lease.
+old-location: dhcp\dhcpv6prefixleaseinformation.htm
+old-project: DHCP
+ms.assetid: d3e76716-a8cc-4618-a85f-d8fb9ca3257e
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCPV6PrefixLeaseInformation, *PDHCPV6PrefixLeaseInformation, DHCPV6PrefixLeaseInformation, DHCPV6PrefixLeaseInformation structure [DHCP], LPDHCPV6PrefixLeaseInformation, LPDHCPV6PrefixLeaseInformation structure pointer [DHCP], PDHCPV6PrefixLeaseInformation, PDHCPV6PrefixLeaseInformation structure pointer [DHCP], STATUS_NOPREFIX_AVAIL, STATUS_NO_BINDING, STATUS_NO_ERROR, STATUS_UNSPECIFIED_FAILURE, _DHCPV6PrefixLeaseInformation, dhcp.dhcpv6prefixleaseinformation, dhcpv6csdk/DHCPV6PrefixLeaseInformation, dhcpv6csdk/LPDHCPV6PrefixLeaseInformation, dhcpv6csdk/PDHCPV6PrefixLeaseInformation"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpv6csdk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCPV6PrefixLeaseInformation, *PDHCPV6PrefixLeaseInformation, *LPDHCPV6PrefixLeaseInformation
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpv6csdk.h
+api_name:
+-	DHCPV6PrefixLeaseInformation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCPV6PrefixLeaseInformation structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:clusapi.PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2
+title: PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2
+author: windows-sdk-content
+description: Creates or modifies a notification port. For information about notification ports, see Receiving Cluster Events.
+old-location: mscs\createclusternotifyportv2.htm
+old-project: MsCS
+ms.assetid: 81FE17A9-DE1C-4CDD-BE7D-50EA202D5AAC
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 callback, PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, mscs.createclusternotifyportv2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: Sources
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ClusAPI.h
+api_name:
+-	PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 callback function

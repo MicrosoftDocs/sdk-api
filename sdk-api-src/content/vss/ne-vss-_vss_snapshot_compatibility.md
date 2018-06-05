@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vss._VSS_SNAPSHOT_COMPATIBILITY
+title: "_VSS_SNAPSHOT_COMPATIBILITY"
+author: windows-sdk-content
+description: The VSS_SNAPSHOT_COMPATIBILITY enumeration indicates which volume control or file I/O operations are disabled for the volume that has been shadow copied.
+old-location: base\vss_snapshot_compatibility.htm
+old-project: VSS
+ms.assetid: 105d7bd6-0e95-4803-ae39-f03af40daa8e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: VSS_SC_DISABLE_CONTENTINDEX, VSS_SC_DISABLE_DEFRAG, VSS_SNAPSHOT_COMPATIBILITY, VSS_SNAPSHOT_COMPATIBILITY enumeration [VSS], _VSS_SNAPSHOT_COMPATIBILITY, _win32_vss_snapshot_compatibility, base.vss_snapshot_compatibility, vss/VSS_SC_DISABLE_CONTENTINDEX, vss/VSS_SC_DISABLE_DEFRAG, vss/VSS_SNAPSHOT_COMPATIBILITY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vss.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_SNAPSHOT_COMPATIBILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vss.h
+api_name:
+-	VSS_SNAPSHOT_COMPATIBILITY
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VSS_SNAPSHOT_COMPATIBILITY enumeration

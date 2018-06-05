@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wdsclientapi.WdsCliTransferFile
+title: WdsCliTransferFile function
+author: windows-sdk-content
+description: Transfers a file from a WDS server to the WDS client using a multicast transfer protocol.
+old-location: wds\wdsclitransferfile.htm
+old-project: Wds
+ms.assetid: d219b7ee-4cb8-43ce-959b-4793c7df17ff
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WDS_CLI_TRANSFER_ASYNCHRONOUS, WdsCliTransferFile, WdsCliTransferFile function [Windows Deployment Services], wds.wdsclitransferfile, wdsclientapi/WdsCliTransferFile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wdsclientapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WdsClientAPI.dll
+api_name:
+-	WdsCliTransferFile
+product: Windows
+targetos: Windows
+req.lib: WdsClientAPI.lib
+req.dll: WdsClientAPI.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WdsCliTransferFile function

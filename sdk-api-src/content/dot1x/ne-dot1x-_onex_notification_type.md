@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dot1x._ONEX_NOTIFICATION_TYPE
+title: "_ONEX_NOTIFICATION_TYPE"
+author: windows-sdk-content
+description: Specifies the possible values of the NotificationCode member of the WLAN_NOTIFICATION_DATA structure for 802.1X module notifications.
+old-location: nwifi\onex_notification_type.htm
+old-project: NativeWiFi
+ms.assetid: c5892938-9798-4c09-a766-4924cda4d090
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: ONEX_NOTIFICATION_TYPE, ONEX_NOTIFICATION_TYPE enumeration [NativeWIFI], OneXNotificationTypeAuthRestarted, OneXNotificationTypeEventInvalid, OneXNotificationTypeResultUpdate, OneXNumNotifications, OneXPublicNotificationBase, PONEX_NOTIFICATION_TYPE, PONEX_NOTIFICATION_TYPE enumeration pointer [NativeWIFI], _ONEX_NOTIFICATION_TYPE, dot1x/ONEX_NOTIFICATION_TYPE, dot1x/OneXNotificationTypeAuthRestarted, dot1x/OneXNotificationTypeEventInvalid, dot1x/OneXNotificationTypeResultUpdate, dot1x/OneXNumNotifications, dot1x/OneXPublicNotificationBase, dot1x/PONEX_NOTIFICATION_TYPE, nwifi.onex_notification_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dot1x.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ONEX_NOTIFICATION_TYPE, PONEX_NOTIFICATION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dot1x.h
+api_name:
+-	ONEX_NOTIFICATION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _ONEX_NOTIFICATION_TYPE enumeration

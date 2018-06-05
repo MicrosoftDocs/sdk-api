@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntdsapi._DS_REPL_OPW_BLOB
+title: "_DS_REPL_OPW_BLOB"
+author: windows-sdk-content
+description: The DS_REPL_OPW_BLOB structure describes a replication task currently executing or pending execution.
+old-location: ad\ds_repl_opw_blob.htm
+old-project: AD
+ms.assetid: 14676159-cc31-4254-b174-dcd84d9ceec1
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_REPL_OPW_BLOB, DS_REPL_OPW_BLOB structure [Active Directory], DS_REPL_OP_TYPE_ADD, DS_REPL_OP_TYPE_DELETE, DS_REPL_OP_TYPE_MODIFY, DS_REPL_OP_TYPE_SYNC, DS_REPL_OP_TYPE_UPDATE_REFS, _DS_REPL_OPW_BLOB, ad.ds_repl_opw_blob, ntdsapi/DS_REPL_OPW_BLOB
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_REPL_OPW_BLOB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntdsapi.h
+api_name:
+-	DS_REPL_OPW_BLOB
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _DS_REPL_OPW_BLOB structure

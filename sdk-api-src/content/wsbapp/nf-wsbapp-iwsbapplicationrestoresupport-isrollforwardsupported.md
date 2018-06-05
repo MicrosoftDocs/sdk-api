@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wsbapp.IWsbApplicationRestoreSupport.IsRollForwardSupported
+title: IWsbApplicationRestoreSupport::IsRollForwardSupported
+author: windows-sdk-content
+description: Reports whether the application supports roll-forward restore.
+old-location: wsb\iwsbapplicationrestoresupport_isrollforwardsupported.htm
+old-project: wsb
+ms.assetid: 6dae61b7-0e52-42f7-8ca4-b3566f6b4bbc
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],IsRollForwardSupported method, IWsbApplicationRestoreSupport.IsRollForwardSupported, IWsbApplicationRestoreSupport::IsRollForwardSupported, IsRollForwardSupported, IsRollForwardSupported method [Windows Server Backup], IsRollForwardSupported method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_isrollforwardsupported, wsbapp/IWsbApplicationRestoreSupport::IsRollForwardSupported
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wsbapp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WsbApp.h
+api_name:
+-	IWsbApplicationRestoreSupport.IsRollForwardSupported
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWsbApplicationRestoreSupport::IsRollForwardSupported

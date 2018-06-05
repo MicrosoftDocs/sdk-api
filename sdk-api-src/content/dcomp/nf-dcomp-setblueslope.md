@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dcomp.SetBlueSlope
+title: SetBlueSlope function
+author: windows-sdk-content
+description: The slope of the linear function for the blue channel.
+old-location: directcomp\idcompositionlineartransfereffect_setblueslope_overloaded.htm
+old-project: directcomp
+ms.assetid: 088b6b01-6c0b-c746-85ed-54b822a4615d
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: SetBlueSlope, SetBlueSlope methods [DirectComposition], dcomp/SetBlueSlope, directcomp.idcompositionlineartransfereffect_setblueslope_overloaded, idcompositionlineartransfereffect::SetBlueSlope
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dcomp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D_VECTOR_4F
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dcomp.h
+api_name:
+-	idcompositionlineartransfereffect::SetBlueSlope
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # SetBlueSlope function

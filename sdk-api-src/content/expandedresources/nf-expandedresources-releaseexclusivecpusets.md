@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:expandedresources.ReleaseExclusiveCpuSets
+title: ReleaseExclusiveCpuSets function
+author: windows-sdk-content
+description: Opts out of CPU exclusivity, giving the app access to all cores, but at the cost of having to share them with other processes.
+old-location: gamemode\releaseexclusivecpusets.htm
+old-project: gamemode
+ms.assetid: C30D28CF-1A35-4849-AEC4-74F971C5F9DF
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ReleaseExclusiveCpuSets, ReleaseExclusiveCpuSets function, expandedresources/ReleaseExclusiveCpuSets, gamemode.releaseexclusivecpusets
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: expandedresources.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ShellWindowTypeConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	gamemode.dll
+api_name:
+-	ReleaseExclusiveCpuSets
+product: Windows
+targetos: Windows
+req.lib: Windowsapp.lib
+req.dll: Gamemode.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # ReleaseExclusiveCpuSets function

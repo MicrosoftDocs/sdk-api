@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ocidl.IPicture.SaveAsFile
+title: IPicture::SaveAsFile
+author: windows-sdk-content
+description: Saves the picture's data into a stream in the same format that it would save itself into a file. Bitmaps use the BMP file format, metafiles the WMF format, and icons the ICO format.
+old-location: com\ipicture_saveasfile.htm
+old-project: com
+ms.assetid: fa949064-d1cf-4056-9990-ae9ea88fae86
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IPicture interface [COM],SaveAsFile method, IPicture.SaveAsFile, IPicture::SaveAsFile, SaveAsFile, SaveAsFile method [COM], SaveAsFile method [COM],IPicture interface, _ctrl_ipicture_saveasfile, com.ipicture_saveasfile, ocidl/IPicture::SaveAsFile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ocidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OCIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIEWSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OCIdl.h
+api_name:
+-	IPicture.SaveAsFile
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPicture::SaveAsFile

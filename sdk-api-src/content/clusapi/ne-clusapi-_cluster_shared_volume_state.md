@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi._CLUSTER_SHARED_VOLUME_STATE
+title: "_CLUSTER_SHARED_VOLUME_STATE"
+author: windows-sdk-content
+description: Defines the states of a cluster shared volume.
+old-location: mscs\cluster_shared_volume_state.htm
+old-project: MsCS
+ms.assetid: B27C110C-939F-42D4-960E-702CA1B141F9
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCLUSTER_SHARED_VOLUME_STATE, CLUSTER_SHARED_VOLUME_STATE, CLUSTER_SHARED_VOLUME_STATE enumeration [Failover Cluster], SharedVolumeStateActive, SharedVolumeStatePaused, SharedVolumeStateUnavailable, _CLUSTER_SHARED_VOLUME_STATE, clusapi/CLUSTER_SHARED_VOLUME_STATE, clusapi/SharedVolumeStateActive, clusapi/SharedVolumeStatePaused, clusapi/SharedVolumeStateUnavailable, mscs.cluster_shared_volume_state"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_SHARED_VOLUME_STATE, *PCLUSTER_SHARED_VOLUME_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+api_name:
+-	CLUSTER_SHARED_VOLUME_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CLUSTER_SHARED_VOLUME_STATE enumeration

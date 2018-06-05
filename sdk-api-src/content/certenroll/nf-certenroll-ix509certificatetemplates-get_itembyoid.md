@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509CertificateTemplates.get_ItemByOid
+title: IX509CertificateTemplates::get_ItemByOid
+author: windows-sdk-content
+description: Retrieves an IX509CertificateTemplate object from the collection by object identifier.
+old-location: security\ix509certificatetemplates_itembyoid.htm
+old-project: SecCertEnroll
+ms.assetid: f601a98b-035d-428b-8579-8e26365e4b78
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IX509CertificateTemplates interface [Security],ItemByOid property, IX509CertificateTemplates.ItemByOid, IX509CertificateTemplates.get_ItemByOid, IX509CertificateTemplates::ItemByOid, IX509CertificateTemplates::get_ItemByOid, ItemByOid property [Security], ItemByOid property [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::ItemByOid, certenroll/IX509CertificateTemplates::get_ItemByOid, get_ItemByOid, security.ix509certificatetemplates_itembyoid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certenroll.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.h
+api_name:
+-	IX509CertificateTemplates.ItemByOid
+-	IX509CertificateTemplates.get_ItemByOid
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IX509CertificateTemplates::get_ItemByOid

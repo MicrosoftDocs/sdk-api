@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:certenroll.EncodingType
+title: EncodingType
+author: windows-sdk-content
+description: Specifies the type of encoding applied to a byte array for display purposes.
+old-location: security\encodingtype_enum.htm
+old-project: SecCertEnroll
+ms.assetid: b42628ae-deed-497b-a20f-d175843b79c2
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: EncodingType, EncodingType enumeration [Security], XCN_CRYPT_STRING_ANY, XCN_CRYPT_STRING_BASE64, XCN_CRYPT_STRING_BASE64HEADER, XCN_CRYPT_STRING_BASE64REQUESTHEADER, XCN_CRYPT_STRING_BASE64X509CRLHEADER, XCN_CRYPT_STRING_BASE64_ANY, XCN_CRYPT_STRING_BINARY, XCN_CRYPT_STRING_HEX, XCN_CRYPT_STRING_HEXADDR, XCN_CRYPT_STRING_HEXASCII, XCN_CRYPT_STRING_HEXASCIIADDR, XCN_CRYPT_STRING_HEXRAW, XCN_CRYPT_STRING_HEX_ANY, XCN_CRYPT_STRING_NOCR, XCN_CRYPT_STRING_NOCRLF, certenroll/EncodingType, certenroll/XCN_CRYPT_STRING_ANY, certenroll/XCN_CRYPT_STRING_BASE64, certenroll/XCN_CRYPT_STRING_BASE64HEADER, certenroll/XCN_CRYPT_STRING_BASE64REQUESTHEADER, certenroll/XCN_CRYPT_STRING_BASE64X509CRLHEADER, certenroll/XCN_CRYPT_STRING_BASE64_ANY, certenroll/XCN_CRYPT_STRING_BINARY, certenroll/XCN_CRYPT_STRING_HEX, certenroll/XCN_CRYPT_STRING_HEXADDR, certenroll/XCN_CRYPT_STRING_HEXASCII, certenroll/XCN_CRYPT_STRING_HEXASCIIADDR, certenroll/XCN_CRYPT_STRING_HEXRAW, certenroll/XCN_CRYPT_STRING_HEX_ANY, certenroll/XCN_CRYPT_STRING_NOCR, certenroll/XCN_CRYPT_STRING_NOCRLF, security.encodingtype_enum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EncodingType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CertEnroll.h
+api_name:
+-	EncodingType
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 ---
 
 # EncodingType enumeration

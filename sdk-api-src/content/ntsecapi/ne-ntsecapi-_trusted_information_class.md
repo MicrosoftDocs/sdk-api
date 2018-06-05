@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ntsecapi._TRUSTED_INFORMATION_CLASS
+title: "_TRUSTED_INFORMATION_CLASS"
+author: windows-sdk-content
+description: The TRUSTED_INFORMATION_CLASS enumeration type defines values that indicate the type of information to set or query for a trusted domain.
+old-location: security\trusted_information_class.htm
+old-project: SecMgmt
+ms.assetid: 442a0944-b498-4d9f-b338-d5aed1663d8d
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PTRUSTED_INFORMATION_CLASS, PTRUSTED_INFORMATION_CLASS, PTRUSTED_INFORMATION_CLASS enumeration pointer [Security], TRUSTED_INFORMATION_CLASS, TRUSTED_INFORMATION_CLASS enumeration [Security], TrustedControllersInformation, TrustedDomainAuthInformation, TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _TRUSTED_INFORMATION_CLASS, _lsa_trusted_information_class, ntsecapi/PTRUSTED_INFORMATION_CLASS, ntsecapi/TRUSTED_INFORMATION_CLASS, ntsecapi/TrustedControllersInformation, ntsecapi/TrustedDomainAuthInformation, ntsecapi/TrustedDomainFullInformation, ntsecapi/TrustedDomainInformationBasic, ntsecapi/TrustedDomainInformationEx, ntsecapi/TrustedDomainNameInformation, ntsecapi/TrustedPasswordInformation, ntsecapi/TrustedPosixOffsetInformation, security.trusted_information_class"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	TRUSTED_INFORMATION_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _TRUSTED_INFORMATION_CLASS enumeration

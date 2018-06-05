@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:ifdef._NDIS_INTERFACE_INFORMATION
+title: "_NDIS_INTERFACE_INFORMATION"
+author: windows-sdk-content
+description: The NDIS_INTERFACE_INFORMATION structure provides information about a network interface for the OID_GEN_INTERFACE_INFO OID.
+old-location: netvista\ndis_interface_information_str.htm
+old-project: netvista
+ms.assetid: 9bfcd319-faff-4bae-8653-511154c19863
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PNDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION structure [Network Drivers Starting with Windows Vista], PNDIS_INTERFACE_INFORMATION, PNDIS_INTERFACE_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_INTERFACE_INFORMATION, ifdef/NDIS_INTERFACE_INFORMATION, ifdef/PNDIS_INTERFACE_INFORMATION, net_if_struct_ref_7b31aa66-635c-4992-b5d6-301c004bdc8a.xml, netvista.ndis_interface_information_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ifdef.h
+req.include-header: Ndis.h
+req.target-type: Windows
+req.target-min-winverclnt: Supported for NDIS 6.0 drivers in Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NDIS_INTERFACE_INFORMATION, *PNDIS_INTERFACE_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ifdef.h
+api_name:
+-	NDIS_INTERFACE_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _NDIS_INTERFACE_INFORMATION structure

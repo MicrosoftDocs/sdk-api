@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msrdc.ISimilarity.CopyAndSwap
+title: ISimilarity::CopyAndSwap
+author: windows-sdk-content
+description: Creates copies of an existing similarity traits table and an existing similarity file ID table, swaps the internal pointers, and deletes the existing tables.
+old-location: rdc\isimilarity_copyandswap.htm
+old-project: Rdc
+ms.assetid: 3a31530e-da6d-4ac8-9fd4-d91419777ce5
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: CopyAndSwap, CopyAndSwap method [Remote Differential Compression], CopyAndSwap method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],CopyAndSwap method, ISimilarity.CopyAndSwap, ISimilarity::CopyAndSwap, fs.isimilarity_copyandswap, msrdc/ISimilarity::CopyAndSwap, rdc.isimilarity_copyandswap
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msrdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: MsRdc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RdcMappingAccessMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsRdc.dll
+api_name:
+-	ISimilarity.CopyAndSwap
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISimilarity::CopyAndSwap

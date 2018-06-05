@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vds.IVdsSubSystem.QueryMaxLunCreateSize
+title: IVdsSubSystem::QueryMaxLunCreateSize
+author: windows-sdk-content
+description: Returns the size of the maximum LUN that can be created using the specified LUN type and hints.
+old-location: base\ivdssubsystem_querymaxluncreatesize.htm
+old-project: VDS
+ms.assetid: 16e8bcab-d01f-494a-9705-8392cf043674
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IVdsSubSystem interface,QueryMaxLunCreateSize method, IVdsSubSystem.QueryMaxLunCreateSize, IVdsSubSystem::QueryMaxLunCreateSize, QueryMaxLunCreateSize, QueryMaxLunCreateSize method, QueryMaxLunCreateSize method,IVdsSubSystem interface, base.ivdssubsystem_querymaxluncreatesize, vds/IVdsSubSystem::QueryMaxLunCreateSize, vdshwprv/IVdsSubSystem::QueryMaxLunCreateSize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VOLUME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsSubSystem.QueryMaxLunCreateSize
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsSubSystem::QueryMaxLunCreateSize

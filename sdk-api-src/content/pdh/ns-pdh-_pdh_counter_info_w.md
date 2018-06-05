@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:pdh._PDH_COUNTER_INFO_W
+title: "_PDH_COUNTER_INFO_W"
+author: windows-sdk-content
+description: The PDH_COUNTER_INFO structure contains information describing the properties of a counter. This information also includes the counter path.
+old-location: perf\pdh_counter_info_str.htm
+old-project: PerfCtrs
+ms.assetid: c9ede50e-85de-4a68-b539-54285c2599cb
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PPDH_COUNTER_INFO_W, PDH_COUNTER_INFO, PDH_COUNTER_INFO structure [Perf], PDH_COUNTER_INFO_A, PDH_COUNTER_INFO_W, PPDH_COUNTER_INFO, PPDH_COUNTER_INFO structure pointer [Perf], _PDH_COUNTER_INFO_W, _win32_pdh_counter_info_str, base.pdh_counter_info_str, pdh/PDH_COUNTER_INFO, pdh/PDH_COUNTER_INFO_A, pdh/PDH_COUNTER_INFO_W, pdh/PPDH_COUNTER_INFO, perf.pdh_counter_info_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: pdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PDH_COUNTER_INFO_W (Unicode) and PDH_COUNTER_INFO_A (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDH_COUNTER_INFO_W, *PPDH_COUNTER_INFO_W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pdh.h
+api_name:
+-	PDH_COUNTER_INFO
+-	PDH_COUNTER_INFO_A
+-	PDH_COUNTER_INFO_W
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PDH_COUNTER_INFO_W structure

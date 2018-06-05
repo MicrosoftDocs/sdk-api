@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:gamingtcui.ShowPlayerPickerUI
+title: ShowPlayerPickerUI function
+author: windows-sdk-content
+description: Do not use. This API is only supported for Xbox developers.
+old-location: tcui\showplayerpickerui.htm
+old-project: tcui
+ms.assetid: 71A5DD28-1C0F-46B6-835F-1358B21AF2EF
+ms.author: windowssdkdev
+ms.date: 03/19/2018
+ms.keywords: ShowPlayerPickerUI, ShowPlayerPickerUI function, gamingtcui/ShowPlayerPickerUI, tcui.showplayerpickerui
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: gamingtcui.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KnownGamingPrivileges
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	gamingtcui.dll
+-	API-MS-Win-Gaming-Tcui-L1-1-0.dll
+-	GamingTcuiStub.dll
+-	API-MS-Win-Gaming-Tcui-L1-1-1.dll
+-	Xbox.Shell.API.dll
+-	API-MS-Win-Gaming-Tcui-L1-1-2.dll
+api_name:
+-	ShowPlayerPickerUI
+product: Windows
+targetos: Windows
+req.lib: WindowsApp.lib
+req.dll: Gamingtcui.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # ShowPlayerPickerUI function

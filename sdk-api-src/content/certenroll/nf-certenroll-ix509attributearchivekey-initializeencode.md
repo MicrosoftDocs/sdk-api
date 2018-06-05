@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509AttributeArchiveKey.InitializeEncode
+title: IX509AttributeArchiveKey::InitializeEncode
+author: windows-sdk-content
+description: Initializes the attribute from an IX509PrivateKey object, the certification authority encryption certificate, and the symmetric encryption algorithm object identifier (OID).
+old-location: security\ix509attributearchivekey_initializeencode_method.htm
+old-project: SecCertEnroll
+ms.assetid: 44865c22-0eca-4781-962c-a10698a435f4
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IX509AttributeArchiveKey interface [Security],InitializeEncode method, IX509AttributeArchiveKey.InitializeEncode, IX509AttributeArchiveKey::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeArchiveKey interface, certenroll/IX509AttributeArchiveKey::InitializeEncode, security.ix509attributearchivekey_initializeencode_method
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509AttributeArchiveKey.InitializeEncode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IX509AttributeArchiveKey::InitializeEncode

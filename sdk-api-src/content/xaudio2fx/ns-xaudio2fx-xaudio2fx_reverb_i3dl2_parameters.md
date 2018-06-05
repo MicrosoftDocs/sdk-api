@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:xaudio2fx.XAUDIO2FX_REVERB_I3DL2_PARAMETERS
+title: XAUDIO2FX_REVERB_I3DL2_PARAMETERS
+author: windows-sdk-content
+description: Describes I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) parameters for use in the ReverbConvertI3DL2ToNative function.
+old-location: xaudio2\xaudio2fx_reverb_i3dl2_parameters.htm
+old-project: xaudio2
+ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2FX_REVERB_I3DL2_PARAMETERS
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: XAUDIO2FX_REVERB_I3DL2_PARAMETERS, XAUDIO2FX_REVERB_I3DL2_PARAMETERS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2fx_reverb_i3dl2_parameters, xaudio2fx/XAUDIO2FX_REVERB_I3DL2_PARAMETERS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: xaudio2fx.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XAUDIO2FX_REVERB_I3DL2_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	xaudio2fx.h
+api_name:
+-	XAUDIO2FX_REVERB_I3DL2_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # XAUDIO2FX_REVERB_I3DL2_PARAMETERS structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:accctrl._ACCESS_MODE
+title: "_ACCESS_MODE"
+author: windows-sdk-content
+description: Contains values that indicate how the access rights in an EXPLICIT_ACCESS structure apply to the trustee.
+old-location: security\access_mode.htm
+old-project: SecAuthZ
+ms.assetid: 52d1b3a3-eed5-4603-9056-520320da2a52
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ACCESS_MODE, ACCESS_MODE enumeration [Security], DENY_ACCESS, GRANT_ACCESS, NOT_USED_ACCESS, REVOKE_ACCESS, SET_ACCESS, SET_AUDIT_FAILURE, SET_AUDIT_SUCCESS, _ACCESS_MODE, _win32_access_mode_str, accctrl/ACCESS_MODE, accctrl/DENY_ACCESS, accctrl/GRANT_ACCESS, accctrl/NOT_USED_ACCESS, accctrl/REVOKE_ACCESS, accctrl/SET_ACCESS, accctrl/SET_AUDIT_FAILURE, accctrl/SET_AUDIT_SUCCESS, security.access_mode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: accctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,19 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACCESS_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AccCtrl.h
+api_name:
+-	ACCESS_MODE
+product: Windows
+targetos: Windows
 ---
 
 # _ACCESS_MODE enumeration

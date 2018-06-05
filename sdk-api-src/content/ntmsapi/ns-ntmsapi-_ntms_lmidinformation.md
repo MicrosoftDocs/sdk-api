@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntmsapi._NTMS_LMIDINFORMATION
+title: "_NTMS_LMIDINFORMATION"
+author: windows-sdk-content
+description: The NTMS_LMIDINFORMATION structure defines the properties specific to a logical media object.
+old-location: fs\ntms_lmidinformation.htm
+old-project: Rsm
+ms.assetid: f1a003af-101a-4f1f-b644-392e5542e8dd
+ms.author: windowssdkdev
+ms.date: 04/05/2018
+ms.keywords: NTMS_LMIDINFORMATION, NTMS_LMIDINFORMATION structure [Files], _NTMS_LMIDINFORMATION, _zaw_ntms_lmidinformation, base.ntms_lmidinformation, fs.ntms_lmidinformation, ntmsapi/NTMS_LMIDINFORMATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntmsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NTMS_LMIDINFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntmsapi.h
+api_name:
+-	NTMS_LMIDINFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NTMS_LMIDINFORMATION structure

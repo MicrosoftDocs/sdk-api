@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:amsi.AMSI_RESULT
+title: AMSI_RESULT
+author: windows-sdk-content
+description: Specifies the types of results returned by scans.
+old-location: amsi\amsi_result.htm
+old-project: AMSI
+ms.assetid: 3D7C74E3-BB09-4C53-930D-72D352374151
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: AMSI_RESULT, AMSI_RESULT enumeration [Antimalware Scan Interface], AMSI_RESULT_BLOCKED_BY_ADMIN_END, AMSI_RESULT_BLOCKED_BY_ADMIN_START, AMSI_RESULT_CLEAN, AMSI_RESULT_DETECTED, AMSI_RESULT_NOT_DETECTED, amsi.amsi_result, amsi/AMSI_RESULT, amsi/AMSI_RESULT_BLOCKED_BY_ADMIN_END, amsi/AMSI_RESULT_BLOCKED_BY_ADMIN_START, amsi/AMSI_RESULT_CLEAN, amsi/AMSI_RESULT_DETECTED, amsi/AMSI_RESULT_NOT_DETECTED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: amsi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMSI_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	amsi.h
+api_name:
+-	AMSI_RESULT
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 ---
 
 # AMSI_RESULT enumeration

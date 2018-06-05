@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:cloneviewhelper.IViewHelper.GetActiveTopology
+title: IViewHelper::GetActiveTopology
+author: windows-sdk-content
+description: The GetActiveTopology method retrieves, for a given adapter, an array of identifiers for targets that are active on a given source.
+old-location: display\iviewhelper_getactivetopology.htm
+old-project: display
+ms.assetid: 9862cbf4-26d7-440c-a1eb-bd8decd257c0
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetActiveTopology, GetActiveTopology method [Display Devices], GetActiveTopology method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],GetActiveTopology method, IViewHelper.GetActiveTopology, IViewHelper::GetActiveTopology, TMM_Ref_584d74ec-d61d-4119-87c6-94de6b568a6f.xml, cloneviewhelper/IViewHelper::GetActiveTopology, display.iviewhelper_getactivetopology
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: cloneviewhelper.h
+req.include-header: Cloneviewhelper.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -22,10 +22,26 @@ req.umdf-ver:
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
-req.max-support: 
+req.max-support: Windows 7
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	cloneviewhelper.h
+api_name:
+-	IViewHelper.GetActiveTopology
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IViewHelper::GetActiveTopology

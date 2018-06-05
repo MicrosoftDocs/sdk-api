@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsnmp.smiOID
+title: smiOID
+author: windows-sdk-content
+description: The WinSNMP smiOID structure passes object identifiers to multiple WinSNMP functions. The structure also receives the variable name of a variable binding entry in a call to the SnmpGetVb function.
+old-location: snmp\smioid_str.htm
+old-project: SNMP
+ms.assetid: 0bdf900e-6e67-4461-97bc-4c9650d888bf
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*smiLPOID, _snmp_smioid_str, smiLPOID, smiLPOID structure pointer [SNMP], smiOID, smiOID structure [SNMP], snmp.smioid_str, winsnmp/smiLPOID, winsnmp/smiOID"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsnmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: smiOID, *smiLPOID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsnmp.h
+api_name:
+-	smiOID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # smiOID structure

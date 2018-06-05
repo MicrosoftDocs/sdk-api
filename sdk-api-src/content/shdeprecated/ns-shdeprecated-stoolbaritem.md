@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:shdeprecated.SToolbarItem
+title: SToolbarItem
+author: windows-sdk-content
+description: Deprecated. Data used in IBrowserService2::_GetToolbarItem, IBrowserService2::v_MayGetNextToolbarFocus, and IBrowserService2::_SetFocus to define a toolbar item.
+old-location: shell\TOOLBARITEM.htm
+old-project: shell
+ms.assetid: 7378f2f3-c164-46fe-9989-a7a57fceb48a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPTOOLBARITEM, LPTOOLBARITEM, LPTOOLBARITEM structure pointer [Windows Shell], SToolbarItem, TOOLBARITEM, TOOLBARITEM structure [Windows Shell], _shell_TOOLBARITEM, shdeprecated/LPTOOLBARITEM, shdeprecated/TOOLBARITEM, shell.TOOLBARITEM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shdeprecated.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shdeprecated.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TOOLBARITEM, *LPTOOLBARITEM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shdeprecated.h
+api_name:
+-	TOOLBARITEM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SToolbarItem structure

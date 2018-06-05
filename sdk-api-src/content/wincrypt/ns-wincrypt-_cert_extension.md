@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CERT_EXTENSION
+title: "_CERT_EXTENSION"
+author: windows-sdk-content
+description: The CERT_EXTENSION structure contains the extension information for a certificate, Certificate Revocation List (CRL) or Certificate Trust List (CTL).
+old-location: security\cert_extension.htm
+old-project: SecCrypto
+ms.assetid: 787a4df0-c0e3-46b9-a7e6-eb3bee3ed717
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_EXTENSION, CERT_EXTENSION, CERT_EXTENSION structure [Security], PCERT_EXTENSION, PCERT_EXTENSION structure pointer [Security], _CERT_EXTENSION, _crypto2_cert_extension, security.cert_extension, wincrypt/CERT_EXTENSION, wincrypt/PCERT_EXTENSION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_EXTENSION, *PCERT_EXTENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_EXTENSION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERT_EXTENSION structure

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wtsapi32.WTSSetListenerSecurityA
+title: WTSSetListenerSecurityA function
+author: windows-sdk-content
+description: Configures the security descriptor of a Remote Desktop Services listener.
+old-location: termserv\wtssetlistenersecurity.htm
+old-project: TermServ
+ms.assetid: bc90d526-e252-4506-b781-66da5bd66ced
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: WTSSetListenerSecurity, WTSSetListenerSecurity function [Remote Desktop Services], WTSSetListenerSecurityA, WTSSetListenerSecurityW, WTS_SECURITY_ALL_ACCESS, WTS_SECURITY_CONNECT, WTS_SECURITY_CURRENT_GUEST_ACCESS, WTS_SECURITY_CURRENT_USER_ACCESS, WTS_SECURITY_DISCONNECT, WTS_SECURITY_GUEST_ACCESS, WTS_SECURITY_LOGOFF, WTS_SECURITY_LOGON, WTS_SECURITY_MESSAGE, WTS_SECURITY_QUERY_INFORMATION, WTS_SECURITY_REMOTE_CONTROL, WTS_SECURITY_RESET, WTS_SECURITY_SET_INFORMATION, WTS_SECURITY_USER_ACCESS, WTS_SECURITY_VIRTUAL_CHANNELS, termserv.wtssetlistenersecurity, wtsapi32/WTSSetListenerSecurity, wtsapi32/WTSSetListenerSecurityA, wtsapi32/WTSSetListenerSecurityW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WTSSetListenerSecurityW (Unicode) and WTSSetListenerSecurityA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_VIRTUAL_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wtsapi32.dll
+api_name:
+-	WTSSetListenerSecurity
+-	WTSSetListenerSecurityA
+-	WTSSetListenerSecurityW
+product: Windows
+targetos: Windows
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WTSSetListenerSecurityA function

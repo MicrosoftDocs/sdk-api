@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:searchapi._SEARCH_TERM_EXPANSION
+title: "_SEARCH_TERM_EXPANSION"
+author: windows-sdk-content
+description: Indicates wildcard options on search terms. Used by ISearchQueryHelper::get_QueryTermExpansion and ISearchQueryHelper::put_QueryTermExpansion methods.
+old-location: search\_search_SEARCH_TERM_EXPANSION.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\enums\search_term_expansion.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: SEARCH_TERM_EXPANSION, SEARCH_TERM_EXPANSION enumeration [search], SEARCH_TERM_NO_EXPANSION, SEARCH_TERM_PREFIX_ALL, SEARCH_TERM_STEM_ALL, _SEARCH_TERM_EXPANSION, _search_SEARCH_TERM_EXPANSION, search._search_SEARCH_TERM_EXPANSION, searchapi/SEARCH_TERM_EXPANSION, searchapi/SEARCH_TERM_NO_EXPANSION, searchapi/SEARCH_TERM_PREFIX_ALL, searchapi/SEARCH_TERM_STEM_ALL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: searchapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Searchquery.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SEARCH_TERM_EXPANSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Searchapi.h
+api_name:
+-	SEARCH_TERM_EXPANSION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SEARCH_TERM_EXPANSION enumeration

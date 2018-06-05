@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:faxcomex.FAX_JOB_EXTENDED_STATUS_ENUM
+title: FAX_JOB_EXTENDED_STATUS_ENUM
+author: windows-sdk-content
+description: The FAX_JOB_EXTENDED_STATUS_ENUM enumeration defines the extended status values for a fax job.
+old-location: fax\_mfax_fax_job_extended_status_enum.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_3w6l.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: FAX_JOB_EXTENDED_STATUS_ENUM, FAX_JOB_EXTENDED_STATUS_ENUM enumeration [Fax Service], _mfax_fax_job_extended_status_enum, fax._mfax_fax_job_extended_status_enum, faxcomex/FAX_JOB_EXTENDED_STATUS_ENUM, faxcomex/fjesANSWERED, faxcomex/fjesBAD_ADDRESS, faxcomex/fjesBUSY, faxcomex/fjesCALL_ABORTED, faxcomex/fjesCALL_BLACKLISTED, faxcomex/fjesCALL_COMPLETED, faxcomex/fjesCALL_DELAYED, faxcomex/fjesDIALING, faxcomex/fjesDISCONNECTED, faxcomex/fjesFATAL_ERROR, faxcomex/fjesHANDLED, faxcomex/fjesINITIALIZING, faxcomex/fjesLINE_UNAVAILABLE, faxcomex/fjesNONE, faxcomex/fjesNOT_FAX_CALL, faxcomex/fjesNO_ANSWER, faxcomex/fjesNO_DIAL_TONE, faxcomex/fjesPARTIALLY_RECEIVED, faxcomex/fjesPROPRIETARY, faxcomex/fjesRECEIVING, faxcomex/fjesTRANSMITTING, fjesANSWERED, fjesBAD_ADDRESS, fjesBUSY, fjesCALL_ABORTED, fjesCALL_BLACKLISTED, fjesCALL_COMPLETED, fjesCALL_DELAYED, fjesDIALING, fjesDISCONNECTED, fjesFATAL_ERROR, fjesHANDLED, fjesINITIALIZING, fjesLINE_UNAVAILABLE, fjesNONE, fjesNOT_FAX_CALL, fjesNO_ANSWER, fjesNO_DIAL_TONE, fjesPARTIALLY_RECEIVED, fjesPROPRIETARY, fjesRECEIVING, fjesTRANSMITTING
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: faxcomex.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_JOB_EXTENDED_STATUS_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	FaxComex.h
+api_name:
+-	FAX_JOB_EXTENDED_STATUS_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FAX_JOB_EXTENDED_STATUS_ENUM enumeration

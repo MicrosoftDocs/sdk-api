@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d11_3.D3D11_TEXTURE_LAYOUT
+title: D3D11_TEXTURE_LAYOUT
+author: windows-sdk-content
+description: Specifies texture layout options.
+old-location: direct3d11\d3d11_texture_layout.htm
+old-project: direct3d11
+ms.assetid: E7786550-99FC-4F8E-B93F-C2877C052EC2
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D11_TEXTURE_LAYOUT, D3D11_TEXTURE_LAYOUT enumeration [Direct3D 11], D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE, D3D11_TEXTURE_LAYOUT_ROW_MAJOR, D3D11_TEXTURE_LAYOUT_UNDEFINED, d3d11_3/D3D11_TEXTURE_LAYOUT, d3d11_3/D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE, d3d11_3/D3D11_TEXTURE_LAYOUT_ROW_MAJOR, d3d11_3/D3D11_TEXTURE_LAYOUT_UNDEFINED, direct3d11.d3d11_texture_layout
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11_3.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_TEXTURE_LAYOUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11_3.h
+api_name:
+-	D3D11_TEXTURE_LAYOUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_TEXTURE_LAYOUT enumeration

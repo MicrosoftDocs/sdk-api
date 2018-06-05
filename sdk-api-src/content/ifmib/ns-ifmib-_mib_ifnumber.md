@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ifmib._MIB_IFNUMBER
+title: "_MIB_IFNUMBER"
+author: windows-sdk-content
+description: Stores the number of interfaces on a particular computer.
+old-location: mib\mib_ifnumber.htm
+old-project: MIB
+ms.assetid: cdab8d39-b0f9-462c-ac5e-ae0c420df067
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIB_IFNUMBER, MIB_IFNUMBER, MIB_IFNUMBER structure [MIB], PMIB_IFNUMBER, PMIB_IFNUMBER structure pointer [MIB], _MIB_IFNUMBER, _mpr_mib_ifnumber, ifmib/MIB_IFNUMBER, ifmib/PMIB_IFNUMBER, iprtrmib/MIB_IFNUMBER, iprtrmib/PMIB_IFNUMBER, mib.mib_ifnumber, rras.mib_ifnumber"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ifmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_IFNUMBER, *PMIB_IFNUMBER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ifmib.h
+-	Iprtrmib.h
+api_name:
+-	MIB_IFNUMBER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MIB_IFNUMBER structure

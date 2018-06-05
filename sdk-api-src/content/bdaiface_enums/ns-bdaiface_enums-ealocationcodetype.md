@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:bdaiface_enums.EALocationCodeType
+title: EALocationCodeType
+author: windows-sdk-content
+description: The EALocationCodeType structure defines an Emergency Alert (EA) location code, as defined in ANSI/SCTE 28.
+old-location: mstv\ealocationcodetype.htm
+old-project: mstv
+ms.assetid: dd705e3a-4125-46db-b33d-d97476096484
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EALocationCodeType, EALocationCodeType structure [Microsoft TV Technologies], EALocationCodeTypeStructure, bdaiface_enums/EALocationCodeType, mstv.ealocationcodetype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bdaiface_enums.h
+req.include-header: Bdaiface.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EALocationCodeType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	bdaiface_enums.h
+api_name:
+-	EALocationCodeType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # EALocationCodeType structure

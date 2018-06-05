@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0008
+title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0008"
+author: windows-sdk-content
+description: The LONG_SECTION structure represents a long MPEG-2 section header. If a section contains a long header, you can cast a SECTION pointer to a LONG_SECTION pointer. For more information, see the Remarks section in the SECTION reference.
+old-location: mstv\long_section.htm
+old-project: mstv
+ms.assetid: 1403971f-5165-484c-9aa3-0cd489985545
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PLONG_SECTION, LONG_SECTION, LONG_SECTION structure [Microsoft TV Technologies], PLONG_SECTION, PLONG_SECTION structure pointer [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0008, mpeg2structs/LONG_SECTION, mpeg2structs/PLONG_SECTION, mstv.long_section"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mpeg2structs.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LONG_SECTION, *PLONG_SECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mpeg2Structs.h
+api_name:
+-	LONG_SECTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_mpeg2structs_0000_0000_0008 structure

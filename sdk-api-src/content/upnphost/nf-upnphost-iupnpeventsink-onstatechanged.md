@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:upnphost.IUPnPEventSink.OnStateChanged
+title: IUPnPEventSink::OnStateChanged
+author: windows-sdk-content
+description: The OnStateChanged method sends an event to the device host with the list of DISPIDs of the state variables that have changed. The device host must query the service object to obtain the new value for each state variable that has changed.
+old-location: upnp\iupnpeventsink_onstatechanged.htm
+old-project: UPnP
+ms.assetid: bb87345e-6a61-48fd-94dc-9a90f756a586
+ms.author: windowssdkdev
+ms.date: 04/25/2018
+ms.keywords: IUPnPEventSink interface [UPnP APIs],OnStateChanged method, IUPnPEventSink.OnStateChanged, IUPnPEventSink::OnStateChanged, OnStateChanged, OnStateChanged method [UPnP APIs], OnStateChanged method [UPnP APIs],IUPnPEventSink interface, _upnp_iupnpeventsink_onstatechanged, upnp.iupnpeventsink_onstatechanged, upnphost/IUPnPEventSink::OnStateChanged
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: upnphost.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Upnphost.dll
+api_name:
+-	IUPnPEventSink.OnStateChanged
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUPnPEventSink::OnStateChanged

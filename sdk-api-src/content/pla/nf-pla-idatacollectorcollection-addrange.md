@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataCollectorCollection.AddRange
+title: IDataCollectorCollection::AddRange
+author: windows-sdk-content
+description: Adds one or more data collectors to the collection.
+old-location: pla\idatacollectorcollection_addrange.htm
+old-project: PLA
+ms.assetid: e7482bc4-18a4-4267-9ceb-1552dd71391c
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],AddRange method, IDataCollectorCollection.AddRange, IDataCollectorCollection::AddRange, base.idatacollectorcollection_addrange, pla.idatacollectorcollection_addrange, pla/IDataCollectorCollection::AddRange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataCollectorCollection.AddRange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataCollectorCollection::AddRange

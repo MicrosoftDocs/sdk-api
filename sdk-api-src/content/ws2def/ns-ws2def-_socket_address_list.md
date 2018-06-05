@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:ws2def._SOCKET_ADDRESS_LIST
+title: "_SOCKET_ADDRESS_LIST"
+author: windows-sdk-content
+description: The SOCKET_ADDRESS_LIST structure defines a variable-sized list of transport addresses.
+old-location: netvista\socket_address_list.htm
+old-project: netvista
+ms.assetid: b005200b-b0c2-4f19-8765-cd26fbfc0cff
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*LPSOCKET_ADDRESS_LIST, *PSOCKET_ADDRESS_LIST, LPSOCKET_ADDRESS_LIST, LPSOCKET_ADDRESS_LIST structure pointer [Network Drivers Starting with Windows Vista], PSOCKET_ADDRESS_LIST, PSOCKET_ADDRESS_LIST structure pointer [Network Drivers Starting with Windows Vista], SOCKET_ADDRESS_LIST, SOCKET_ADDRESS_LIST structure [Network Drivers Starting with Windows Vista], _SOCKET_ADDRESS_LIST, netvista.socket_address_list, ws2def/LPSOCKET_ADDRESS_LIST, ws2def/PSOCKET_ADDRESS_LIST, ws2def/SOCKET_ADDRESS_LIST, wskref_7bca89ec-9ce8-4046-9bf6-fcaa01a37b21.xml"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ws2def.h
+req.include-header: Wsk.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wrdsgraphicschannels.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOCKET_ADDRESS_LIST, *PSOCKET_ADDRESS_LIST, *LPSOCKET_ADDRESS_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ws2def.h
+api_name:
+-	SOCKET_ADDRESS_LIST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SOCKET_ADDRESS_LIST structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfplay._MFP_CREDENTIAL_FLAGS
+title: "_MFP_CREDENTIAL_FLAGS"
+author: windows-sdk-content
+description: Contains flags for the MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure.
+old-location: mf\_mfp_credential_flags.htm
+old-project: medfound
+ms.assetid: 5aa13072-239a-41b6-a0b6-a2729bab2db4
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFP_CREDENTIAL_CLEAR_TEXT, MFP_CREDENTIAL_DO_NOT_CACHE, MFP_CREDENTIAL_LOGGED_ON_USER, MFP_CREDENTIAL_PROMPT, MFP_CREDENTIAL_PROXY, MFP_CREDENTIAL_SAVE, _MFP_CREDENTIAL_FLAGS, _MFP_CREDENTIAL_FLAGS enumeration [Media Foundation], mf._mfp_credential_flags, mfplay/MFP_CREDENTIAL_CLEAR_TEXT, mfplay/MFP_CREDENTIAL_DO_NOT_CACHE, mfplay/MFP_CREDENTIAL_LOGGED_ON_USER, mfplay/MFP_CREDENTIAL_PROMPT, mfplay/MFP_CREDENTIAL_PROXY, mfplay/MFP_CREDENTIAL_SAVE, mfplay/_MFP_CREDENTIAL_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfplay.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mfplay.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "_MFP_CREDENTIAL_FLAGS"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfplay.h
+api_name:
+-	_MFP_CREDENTIAL_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFP_CREDENTIAL_FLAGS enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tom.__MIDL___MIDL_itf_tom_0000_0000_0002
+title: "__MIDL___MIDL_itf_tom_0000_0000_0002"
+author: windows-sdk-content
+description: Defines values that identify object types in the Text Object Model (TOM)&#32; content.
+old-location: controls\objecttype.htm
+old-project: Controls
+ms.assetid: fbac082e-adf2-48f9-ae13-5ea1357fc428
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: OBJECTTYPE, OBJECTTYPE enumeration [Windows Controls], __MIDL___MIDL_itf_tom_0000_0000_0002, controls.objecttype, tom/OBJECTTYPE, tom/tomAccent, tom/tomBox, tom/tomBoxedFormula, tom/tomBrackets, tom/tomBracketsWithSeps, tom/tomEq, tom/tomEquationArray, tom/tomFraction, tom/tomFunctionApply, tom/tomHorzVert, tom/tomLeftSubSup, tom/tomLowerLimit, tom/tomMath, tom/tomMatrix, tom/tomNary, tom/tomObjectMax, tom/tomOpChar, tom/tomOverbar, tom/tomPhantom, tom/tomRadical, tom/tomRuby, tom/tomSimpleText, tom/tomSlashedFraction, tom/tomStack, tom/tomStretchStack, tom/tomSubSup, tom/tomSubscript, tom/tomSuperscript, tom/tomUnderbar, tom/tomUpperLimit, tom/tomWarichu, tomAccent, tomBox, tomBoxedFormula, tomBrackets, tomBracketsWithSeps, tomEq, tomEquationArray, tomFraction, tomFunctionApply, tomHorzVert, tomLeftSubSup, tomLowerLimit, tomMath, tomMatrix, tomNary, tomObjectMax, tomOpChar, tomOverbar, tomPhantom, tomRadical, tomRuby, tomSimpleText, tomSlashedFraction, tomStack, tomStretchStack, tomSubSup, tomSubscript, tomSuperscript, tomUnderbar, tomUpperLimit, tomWarichu
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OBJECTTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tom.h
+api_name:
+-	OBJECTTYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # __MIDL___MIDL_itf_tom_0000_0000_0002 enumeration

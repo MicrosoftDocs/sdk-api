@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl.IPublishingWizard.Initialize
+title: IPublishingWizard::Initialize
+author: windows-sdk-content
+description: Initializes the Publishing Wizard object with the files to transfer, the settings to use, and the type of wizard to create.
+old-location: shell\IPublishingWizard_Initialize.htm
+old-project: shell
+ms.assetid: 8312bb2e-cc06-4440-a72c-cf153a5d61b6
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: AddNetPlace, IPublishingWizard interface [Windows Shell],Initialize method, IPublishingWizard.Initialize, IPublishingWizard::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IPublishingWizard interface, InternetPhotoPrinting, SHPWHF_ANYLOCATION, SHPWHF_NOFILESELECTOR, SHPWHF_NONETPLACECREATE, SHPWHF_NORECOMPRESS, SHPWHF_USEMRU, SHPWHF_VALIDATEVIAWEBFOLDERS, _shell_IPublishingWizard_Initialize, shell.IPublishingWizard_Initialize, shobjidl/IPublishingWizard::Initialize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Netplwiz.dll
+api_name:
+-	IPublishingWizard.Initialize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Netplwiz.dll
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # IPublishingWizard::Initialize

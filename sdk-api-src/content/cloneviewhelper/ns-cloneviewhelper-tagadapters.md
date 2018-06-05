@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:cloneviewhelper.tagAdapters
+title: tagAdapters
+author: windows-sdk-content
+description: The Adapters structure contains a list of graphics adapters.
+old-location: display\adapters.htm
+old-project: display
+ms.assetid: 4f91e683-66f6-4667-86d0-d3de28ba64b0
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: Adapters, Adapters structure [Display Devices], TMM_Ref_5b0d959d-9d91-4166-8555-633b0690de8a.xml, cloneviewhelper/Adapters, display.adapters, tagAdapters
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cloneviewhelper.h
+req.include-header: Cloneviewhelper.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: Adapters
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	cloneviewhelper.h
+api_name:
+-	Adapters
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagAdapters structure

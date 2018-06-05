@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetMethodAttributes
+title: IPortableDeviceServiceCapabilities::GetMethodAttributes
+author: windows-sdk-content
+description: Retrieves the attributes used to describe a given method.
+old-location: wpdsdk\iportabledeviceservicecapabilities_getmethodattributes.htm
+old-project: wpd_sdk
+ms.assetid: 4cd125ea-545f-461b-90e1-88d3e3a6c032
+ms.author: windowssdkdev
+ms.date: 04/11/2018
+ms.keywords: GetMethodAttributes, GetMethodAttributes method [Windows Portable Devices SDK], GetMethodAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetMethodAttributes method, IPortableDeviceServiceCapabilities.GetMethodAttributes, IPortableDeviceServiceCapabilities::GetMethodAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetMethodAttributes, wpdsdk.iportabledeviceservicecapabilities_getmethodattributes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: portabledeviceapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: PortableDeviceAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceAPI.h
+api_name:
+-	IPortableDeviceServiceCapabilities.GetMethodAttributes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPortableDeviceServiceCapabilities::GetMethodAttributes

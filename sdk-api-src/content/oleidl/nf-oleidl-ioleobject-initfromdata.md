@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleidl.IOleObject.InitFromData
+title: IOleObject::InitFromData
+author: windows-sdk-content
+description: Initializes a newly created object with data from a specified data object, which can reside either in the same container or on the Clipboard.
+old-location: com\ioleobject_initfromdata.htm
+old-project: com
+ms.assetid: 8bbda602-4421-4f79-a33a-63ded9a8bf90
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IOleObject interface [COM],InitFromData method, IOleObject.InitFromData, IOleObject::InitFromData, InitFromData, InitFromData method [COM], InitFromData method [COM],IOleObject interface, _ole_ioleobject_initfromdata, com.ioleobject_initfromdata, oleidl/IOleObject::InitFromData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oleidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OleIdl.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERCLASSTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OleIdl.h
+api_name:
+-	IOleObject.InitFromData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleObject::InitFromData

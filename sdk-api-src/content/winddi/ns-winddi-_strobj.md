@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi._STROBJ
+title: "_STROBJ"
+author: windows-sdk-content
+description: The STROBJ class, or text string object, contains an enumeration of glyph handles and positions for the device driver.
+old-location: display\strobj.htm
+old-project: display
+ms.assetid: efe53cb8-39b9-4931-bac2-9c61efd9d457
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: STROBJ, STROBJ structure [Display Devices], _STROBJ, display.strobj, grstrcts_fcaba370-f9bd-40e8-819a-c5277d6d89b6.xml, winddi/STROBJ
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STROBJ
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	STROBJ
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _STROBJ structure

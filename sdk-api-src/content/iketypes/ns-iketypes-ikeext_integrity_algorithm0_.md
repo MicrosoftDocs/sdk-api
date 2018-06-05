@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iketypes.IKEEXT_INTEGRITY_ALGORITHM0_
+title: IKEEXT_INTEGRITY_ALGORITHM0_
+author: windows-sdk-content
+description: Stores the IKE/AuthIP hash algorithm.
+old-location: fwp\ikeext_integrity_algorithm0.htm
+old-project: FWP
+ms.assetid: 231d6ed9-ad41-488c-ad8b-ba64ae73f5b9
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IKEEXT_INTEGRITY_ALGORITHM0, IKEEXT_INTEGRITY_ALGORITHM0 structure [Filtering], IKEEXT_INTEGRITY_ALGORITHM0_, fwp.ikeext_integrity_algorithm0, iketypes/IKEEXT_INTEGRITY_ALGORITHM0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iketypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Iketypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IKEEXT_INTEGRITY_ALGORITHM0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iketypes.h
+api_name:
+-	IKEEXT_INTEGRITY_ALGORITHM0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IKEEXT_INTEGRITY_ALGORITHM0_ structure

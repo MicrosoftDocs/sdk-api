@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzScope2.get_RoleAssignments
+title: IAzScope2::get_RoleAssignments
+author: windows-sdk-content
+description: Retrieves an IAzRoleAssignments object that represents the collection of IAzRoleAssignment objects associated with this scope.
+old-location: security\iazscope2_roleassignments.htm
+old-project: SecAuthZ
+ms.assetid: 9f844f6b-8c31-4cec-ae72-a3fd4e947d49
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IAzScope2 interface [Security],RoleAssignments property, IAzScope2.RoleAssignments, IAzScope2.get_RoleAssignments, IAzScope2::RoleAssignments, IAzScope2::get_RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzScope2 interface, azroles/IAzScope2::RoleAssignments, azroles/IAzScope2::get_RoleAssignments, get_RoleAssignments, security.iazscope2_roleassignments
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzScope2.RoleAssignments
+-	IAzScope2.get_RoleAssignments
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzScope2::get_RoleAssignments

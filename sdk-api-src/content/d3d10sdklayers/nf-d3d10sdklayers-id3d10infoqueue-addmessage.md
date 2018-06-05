@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d10sdklayers.ID3D10InfoQueue.AddMessage
+title: ID3D10InfoQueue::AddMessage
+author: windows-sdk-content
+description: Add a Direct3D 10 debug message to the message queue and send that message to debug output.
+old-location: direct3d10\id3d10infoqueue_addmessage.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10infoqueue_addmessage.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: AddMessage, AddMessage method [Direct3D 10], AddMessage method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],AddMessage method, ID3D10InfoQueue.AddMessage, ID3D10InfoQueue::AddMessage, cdfe0171-65a2-02d0-bad5-e630bf30db83, d3d10sdklayers/ID3D10InfoQueue::AddMessage, direct3d10.id3d10infoqueue_addmessage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d10sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_MESSAGE_SEVERITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10SDKLayers.h
+api_name:
+-	ID3D10InfoQueue.AddMessage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D10InfoQueue::AddMessage

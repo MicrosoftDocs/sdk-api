@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fwptypes.FWP_CLASSIFY_OPTION_TYPE_
+title: FWP_CLASSIFY_OPTION_TYPE_
+author: windows-sdk-content
+description: The FWP_CLASSIFY_OPTION_TYPE enumerated type is used by callouts and shims during run-time classification.FWP_CLASSIFY_OPTION_TYPE specifies timeout options for unicast, multicast, and loose source mapping states and enables blocking or permission of state creation on outbound multicast and broadcast traffic.
+old-location: fwp\fwp_classify_option_type.htm
+old-project: FWP
+ms.assetid: 5c757bf6-a4ea-42f0-ad87-74855703a041
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: FWP_CLASSIFY_OPTION_LOOSE_SOURCE_MAPPING, FWP_CLASSIFY_OPTION_MAX, FWP_CLASSIFY_OPTION_MCAST_BCAST_LIFETIME, FWP_CLASSIFY_OPTION_MULTICAST_STATE, FWP_CLASSIFY_OPTION_SECURE_SOCKET_AUTHIP_MM_POLICY_KEY, FWP_CLASSIFY_OPTION_SECURE_SOCKET_AUTHIP_QM_POLICY_KEY, FWP_CLASSIFY_OPTION_SECURE_SOCKET_SECURITY_FLAGS, FWP_CLASSIFY_OPTION_TYPE, FWP_CLASSIFY_OPTION_TYPE enumeration [Filtering], FWP_CLASSIFY_OPTION_TYPE_, FWP_CLASSIFY_OPTION_UNICAST_LIFETIME, fwp.fwp_classify_option_type, fwptypes/FWP_CLASSIFY_OPTION_LOOSE_SOURCE_MAPPING, fwptypes/FWP_CLASSIFY_OPTION_MAX, fwptypes/FWP_CLASSIFY_OPTION_MCAST_BCAST_LIFETIME, fwptypes/FWP_CLASSIFY_OPTION_MULTICAST_STATE, fwptypes/FWP_CLASSIFY_OPTION_SECURE_SOCKET_AUTHIP_MM_POLICY_KEY, fwptypes/FWP_CLASSIFY_OPTION_SECURE_SOCKET_AUTHIP_QM_POLICY_KEY, fwptypes/FWP_CLASSIFY_OPTION_SECURE_SOCKET_SECURITY_FLAGS, fwptypes/FWP_CLASSIFY_OPTION_TYPE, fwptypes/FWP_CLASSIFY_OPTION_UNICAST_LIFETIME
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fwptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fwptypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWP_CLASSIFY_OPTION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Fwptypes.h
+api_name:
+-	FWP_CLASSIFY_OPTION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FWP_CLASSIFY_OPTION_TYPE_ enumeration

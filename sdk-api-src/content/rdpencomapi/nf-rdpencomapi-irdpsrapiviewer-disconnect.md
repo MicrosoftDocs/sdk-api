@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rdpencomapi.IRDPSRAPIViewer.Disconnect
+title: IRDPSRAPIViewer::Disconnect
+author: windows-sdk-content
+description: Initiates a disconnect of the viewer from the sharer.
+old-location: rdp\irdpsrapiviewer_disconnect.htm
+old-project: Rdp
+ms.assetid: 526b91aa-a5b9-4ee9-873f-ca23c4633d21
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: Disconnect, Disconnect method [RDP], Disconnect method [RDP],IRDPSRAPIViewer interface, IRDPSRAPIViewer interface [RDP],Disconnect method, IRDPSRAPIViewer.Disconnect, IRDPSRAPIViewer::Disconnect, rdp.irdpsrapiviewer_disconnect, rdpencomapi/IRDPSRAPIViewer::Disconnect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RdpEncomAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: RdpEncomAPI.tlb
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RdpEncom.dll
+api_name:
+-	IRDPSRAPIViewer.Disconnect
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRDPSRAPIViewer::Disconnect

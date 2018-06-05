@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d2d1effects_1.D2D1_YCBCR_INTERPOLATION_MODE
+title: D2D1_YCBCR_INTERPOLATION_MODE
+author: windows-sdk-content
+description: Specifies the interpolation mode for the YCbCr effect.
+old-location: direct2d\d2d1_ycbcr_interpolation_mode.htm
+old-project: Direct2D
+ms.assetid: 30F27963-DF93-46B6-A30E-F89AD634C987
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_YCBCR_INTERPOLATION_MODE, D2D1_YCBCR_INTERPOLATION_MODE enumeration [Direct2D], D2D1_YCBCR_INTERPOLATION_MODE_ANISOTROPIC, D2D1_YCBCR_INTERPOLATION_MODE_CUBIC, D2D1_YCBCR_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, D2D1_YCBCR_INTERPOLATION_MODE_LINEAR, D2D1_YCBCR_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, D2D1_YCBCR_INTERPOLATION_MODE_NEAREST_NEIGHBOR, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_ANISOTROPIC, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_CUBIC, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_LINEAR, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_ycbcr_interpolation_mode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1effects_1.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_YCBCR_INTERPOLATION_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1effects_1.h
+api_name:
+-	D2D1_YCBCR_INTERPOLATION_MODE
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D2D1_YCBCR_INTERPOLATION_MODE enumeration

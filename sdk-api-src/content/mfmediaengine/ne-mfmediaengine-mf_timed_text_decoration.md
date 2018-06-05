@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfmediaengine.MF_TIMED_TEXT_DECORATION
+title: MF_TIMED_TEXT_DECORATION
+author: windows-sdk-content
+description: Specifies how text is decorated (underlined and so on).
+old-location: mf\mf_timed_text_decoration.htm
+old-project: medfound
+ms.assetid: CA2AFC99-F30F-4AFC-928A-45EA7218B851
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_TIMED_TEXT_DECORATION, MF_TIMED_TEXT_DECORATION enumeration [Media Foundation], MF_TIMED_TEXT_DECORATION_LINE_THROUGH, MF_TIMED_TEXT_DECORATION_NONE, MF_TIMED_TEXT_DECORATION_OVERLINE, MF_TIMED_TEXT_DECORATION_UNDERLINE, mf.mf_timed_text_decoration, mfmediaengine/MF_TIMED_TEXT_DECORATION, mfmediaengine/MF_TIMED_TEXT_DECORATION_LINE_THROUGH, mfmediaengine/MF_TIMED_TEXT_DECORATION_NONE, mfmediaengine/MF_TIMED_TEXT_DECORATION_OVERLINE, mfmediaengine/MF_TIMED_TEXT_DECORATION_UNDERLINE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_TIMED_TEXT_DECORATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfmediaengine.h
+api_name:
+-	MF_TIMED_TEXT_DECORATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MF_TIMED_TEXT_DECORATION enumeration

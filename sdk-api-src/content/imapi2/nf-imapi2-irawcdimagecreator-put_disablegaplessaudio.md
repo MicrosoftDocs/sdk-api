@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imapi2.IRawCDImageCreator.put_DisableGaplessAudio
+title: IRawCDImageCreator::put_DisableGaplessAudio
+author: windows-sdk-content
+description: Sets the value that specifies if &#0034;Gapless Audio&#0034; recording is disabled. This property defaults to a value of VARIANT_FALSE, which disables the use of &#0034;gapless&#0034; recording between consecutive audio tracks.
+old-location: imapi\irawcdimagecreator_put_disablegaplessaudio.htm
+old-project: imapi
+ms.assetid: c9e17ed7-f51a-4b28-82db-36cad1aedd39
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IRawCDImageCreator interface [IMAPI],put_DisableGaplessAudio method, IRawCDImageCreator.put_DisableGaplessAudio, IRawCDImageCreator::put_DisableGaplessAudio, imapi.irawcdimagecreator_put_disablegaplessaudio, imapi2/IRawCDImageCreator::put_DisableGaplessAudio, put_DisableGaplessAudio, put_DisableGaplessAudio method [IMAPI], put_DisableGaplessAudio method [IMAPI],IRawCDImageCreator interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2.h
+api_name:
+-	IRawCDImageCreator.put_DisableGaplessAudio
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IRawCDImageCreator::put_DisableGaplessAudio

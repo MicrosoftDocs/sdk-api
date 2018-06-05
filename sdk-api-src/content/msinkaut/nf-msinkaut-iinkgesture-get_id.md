@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkGesture.get_Id
+title: IInkGesture::get_Id
+author: windows-sdk-content
+description: Gets the identifier of an object.
+old-location: tablet\iinkgesture_id.htm
+old-project: tablet
+ms.assetid: 9ed0fcb7-57f9-43f4-95d9-dd75e9e7bd3f
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: ID property [Tablet PC], ID property [Tablet PC],IInkGesture interface, IInkGesture interface [Tablet PC],ID property, IInkGesture.ID, IInkGesture.get_Id, IInkGesture::ID, IInkGesture::get_ID, IInkGesture::get_Id, get_Id, msinkaut/IInkGesture::ID, msinkaut/IInkGesture::get_ID, tablet.iinkgesture_id
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkGesture.ID
+-	IInkGesture.get_ID
+-	IInkGesture.get_Id
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkGesture::get_Id

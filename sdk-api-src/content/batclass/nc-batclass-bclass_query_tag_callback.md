@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:batclass.BCLASS_QUERY_TAG_CALLBACK
+title: BCLASS_QUERY_TAG_CALLBACK
+author: windows-sdk-content
+description: BatteryMiniQueryTag returns the current battery tag.
+old-location: battery\batteryminiquerytag.htm
+old-project: battery
+ms.assetid: 030b7f5f-8ace-4dfc-8330-97aace86a1eb
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: BCLASS_QUERY_TAG_CALLBACK, BCLASS_QUERY_TAG_CALLBACK callback, BatteryMiniQueryTag, BatteryMiniQueryTag callback function [Battery Devices], bat-mini_67f7c8df-433f-43fa-bca1-206f9e0932bb.xml, batclass/BatteryMiniQueryTag, battery.batteryminiquerytag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: batclass.h
+req.include-header: Batclass.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Batclass.h
+api_name:
+-	BatteryMiniQueryTag
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: PASSIVE_LEVEL
 ---
 
 # BCLASS_QUERY_TAG_CALLBACK callback function

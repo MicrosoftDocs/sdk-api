@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wbemcli.tag_WBEM_COMPARISON_FLAG
+title: tag_WBEM_COMPARISON_FLAG
+author: windows-sdk-content
+description: Contains flags that define the comparison to perform when using the IWbemClassObject::CompareTo method.
+old-location: wmi\wbem_comparison_flag.htm
+old-project: WmiSdk
+ms.assetid: B32685D3-C096-4E1F-BF59-EB68ED497FEC
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: WBEM_COMPARISON_FLAG, WBEM_COMPARISON_FLAG enumeration [Windows Management Instrumentation], WBEM_COMPARISON_INCLUDE_ALL, WBEM_FLAG_IGNORE_CASE, WBEM_FLAG_IGNORE_CLASS, WBEM_FLAG_IGNORE_DEFAULT_VALUES, WBEM_FLAG_IGNORE_FLAVOR, WBEM_FLAG_IGNORE_OBJECT_SOURCE, WBEM_FLAG_IGNORE_QUALIFIERS, tag_WBEM_COMPARISON_FLAG, wbemcli/WBEM_COMPARISON_FLAG, wbemcli/WBEM_COMPARISON_INCLUDE_ALL, wbemcli/WBEM_FLAG_IGNORE_CASE, wbemcli/WBEM_FLAG_IGNORE_CLASS, wbemcli/WBEM_FLAG_IGNORE_DEFAULT_VALUES, wbemcli/WBEM_FLAG_IGNORE_FLAVOR, wbemcli/WBEM_FLAG_IGNORE_OBJECT_SOURCE, wbemcli/WBEM_FLAG_IGNORE_QUALIFIERS, wmi.wbem_comparison_flag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wbemcli.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WBEM_COMPARISON_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wbemcli.h
+api_name:
+-	WBEM_COMPARISON_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tag_WBEM_COMPARISON_FLAG enumeration

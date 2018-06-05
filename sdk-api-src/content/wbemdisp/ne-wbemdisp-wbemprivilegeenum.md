@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wbemdisp.WbemPrivilegeEnum
+title: WbemPrivilegeEnum
+author: windows-sdk-content
+description: Define privileges. These constants are used with SWbemSecurity to grant the privileges required for some operations.
+old-location: wmi\wbemprivilegeenum.htm
+old-project: WmiSdk
+ms.assetid: 235a1115-d8c4-4334-a4e0-fc539da4d2ae
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: WbemPrivilegeEnum, WbemPrivilegeEnum enumeration [Windows Management Instrumentation], wbemPrivilegeAudit, wbemPrivilegeBackup, wbemPrivilegeChangeNotify, wbemPrivilegeCreatePagefile, wbemPrivilegeCreatePermanent, wbemPrivilegeCreateToken, wbemPrivilegeDebug, wbemPrivilegeEnableDelegation, wbemPrivilegeIncreaseBasePriority, wbemPrivilegeIncreaseQuota, wbemPrivilegeLoadDriver, wbemPrivilegeLockMemory, wbemPrivilegeMachineAccount, wbemPrivilegeManageVolume, wbemPrivilegePrimaryToken, wbemPrivilegeProfileSingleProcess, wbemPrivilegeRemoteShutdown, wbemPrivilegeRestore, wbemPrivilegeSecurity, wbemPrivilegeShutdown, wbemPrivilegeSyncAgent, wbemPrivilegeSystemEnvironment, wbemPrivilegeSystemProfile, wbemPrivilegeSystemtime, wbemPrivilegeTakeOwnership, wbemPrivilegeTcb, wbemPrivilegeUndock, wbemdisp/WbemPrivilegeEnum, wbemdisp/wbemPrivilegeAudit, wbemdisp/wbemPrivilegeBackup, wbemdisp/wbemPrivilegeChangeNotify, wbemdisp/wbemPrivilegeCreatePagefile, wbemdisp/wbemPrivilegeCreatePermanent, wbemdisp/wbemPrivilegeCreateToken, wbemdisp/wbemPrivilegeDebug, wbemdisp/wbemPrivilegeEnableDelegation, wbemdisp/wbemPrivilegeIncreaseBasePriority, wbemdisp/wbemPrivilegeIncreaseQuota, wbemdisp/wbemPrivilegeLoadDriver, wbemdisp/wbemPrivilegeLockMemory, wbemdisp/wbemPrivilegeMachineAccount, wbemdisp/wbemPrivilegeManageVolume, wbemdisp/wbemPrivilegePrimaryToken, wbemdisp/wbemPrivilegeProfileSingleProcess, wbemdisp/wbemPrivilegeRemoteShutdown, wbemdisp/wbemPrivilegeRestore, wbemdisp/wbemPrivilegeSecurity, wbemdisp/wbemPrivilegeShutdown, wbemdisp/wbemPrivilegeSyncAgent, wbemdisp/wbemPrivilegeSystemEnvironment, wbemdisp/wbemPrivilegeSystemProfile, wbemdisp/wbemPrivilegeSystemtime, wbemdisp/wbemPrivilegeTakeOwnership, wbemdisp/wbemPrivilegeTcb, wbemdisp/wbemPrivilegeUndock, wmi.wbemprivilegeenum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wbemdisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wbemdisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemPrivilegeEnum
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wbemdisp.h
+api_name:
+-	WbemPrivilegeEnum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WbemPrivilegeEnum enumeration

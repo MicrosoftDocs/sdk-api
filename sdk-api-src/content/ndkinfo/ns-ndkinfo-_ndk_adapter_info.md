@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ndkinfo._NDK_ADAPTER_INFO
+title: "_NDK_ADAPTER_INFO"
+author: windows-sdk-content
+description: The NDK_ADAPTER_INFO structure specifies information about limits and capabilities of an NDK adapter.
+old-location: netvista\ndk_adapter_info.htm
+old-project: netvista
+ms.assetid: 3F8EAA7F-20CE-4948-9F10-E23025B174E7
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORTED, NDK_ADAPTER_FLAG_CQ_RESIZE_SUPPORTED, NDK_ADAPTER_FLAG_IN_ORDER_DMA_SUPPORTED, NDK_ADAPTER_FLAG_LOOPBACK_CONNECTIONS_SUPPORTED, NDK_ADAPTER_FLAG_MULTI_ENGINE_SUPPORTED, NDK_ADAPTER_FLAG_RDMA_READ_LOCAL_INVALIDATE_SUPPORTED, NDK_ADAPTER_FLAG_RDMA_READ_SINK_NOT_REQUIRED, NDK_ADAPTER_INFO, NDK_ADAPTER_INFO structure [Network Drivers Starting with Windows Vista], _NDK_ADAPTER_INFO, ndkinfo/NDK_ADAPTER_INFO, netvista.ndk_adapter_info
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ndkinfo.h
+req.include-header: Ndkpi.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ndhelper.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NDK_ADAPTER_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ndkinfo.h
+api_name:
+-	NDK_ADAPTER_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NDK_ADAPTER_INFO structure

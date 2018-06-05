@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:imapi2._IMAPI_PROFILE_TYPE
+title: "_IMAPI_PROFILE_TYPE"
+author: windows-sdk-content
+description: Defines values for the possible profiles of a CD and DVD device. A profile defines the type of media and features that the device supports.
+old-location: imapi\imapi_profile_type.htm
+old-project: imapi
+ms.assetid: 3b5f940b-a2de-4029-a502-c12ff8290749
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PIMAPI_PROFILE_TYPE, IMAPI_PROFILE_TYPE, IMAPI_PROFILE_TYPE enumeration [IMAPI], IMAPI_PROFILE_TYPE_AS_MO, IMAPI_PROFILE_TYPE_BD_REWRITABLE, IMAPI_PROFILE_TYPE_BD_ROM, IMAPI_PROFILE_TYPE_BD_R_RANDOM_RECORDING, IMAPI_PROFILE_TYPE_BD_R_SEQUENTIAL, IMAPI_PROFILE_TYPE_CDROM, IMAPI_PROFILE_TYPE_CD_RECORDABLE, IMAPI_PROFILE_TYPE_CD_REWRITABLE, IMAPI_PROFILE_TYPE_DDCDROM, IMAPI_PROFILE_TYPE_DDCD_RECORDABLE, IMAPI_PROFILE_TYPE_DDCD_REWRITABLE, IMAPI_PROFILE_TYPE_DVDROM, IMAPI_PROFILE_TYPE_DVD_DASH_RECORDABLE, IMAPI_PROFILE_TYPE_DVD_DASH_REWRITABLE, IMAPI_PROFILE_TYPE_DVD_DASH_RW_SEQUENTIAL, IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_LAYER_JUMP, IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_SEQUENTIAL, IMAPI_PROFILE_TYPE_DVD_PLUS_R, IMAPI_PROFILE_TYPE_DVD_PLUS_RW, IMAPI_PROFILE_TYPE_DVD_PLUS_RW_DUAL, IMAPI_PROFILE_TYPE_DVD_PLUS_R_DUAL, IMAPI_PROFILE_TYPE_DVD_RAM, IMAPI_PROFILE_TYPE_HD_DVD_RAM, IMAPI_PROFILE_TYPE_HD_DVD_RECORDABLE, IMAPI_PROFILE_TYPE_HD_DVD_ROM, IMAPI_PROFILE_TYPE_INVALID, IMAPI_PROFILE_TYPE_MO_ERASABLE, IMAPI_PROFILE_TYPE_MO_WRITE_ONCE, IMAPI_PROFILE_TYPE_NON_REMOVABLE_DISK, IMAPI_PROFILE_TYPE_NON_STANDARD, IMAPI_PROFILE_TYPE_REMOVABLE_DISK, PIMAPI_PROFILE_TYPE, PIMAPI_PROFILE_TYPE enumeration pointer [IMAPI], _IMAPI_PROFILE_TYPE, imapi.imapi_profile_type, imapi2/ IMAPI_PROFILE_TYPE_DDCDROM, imapi2/ IMAPI_PROFILE_TYPE_DDCD_REWRITABLE, imapi2/IMAPI_PROFILE_TYPE, imapi2/IMAPI_PROFILE_TYPE_AS_MO, imapi2/IMAPI_PROFILE_TYPE_BD_REWRITABLE, imapi2/IMAPI_PROFILE_TYPE_BD_ROM, imapi2/IMAPI_PROFILE_TYPE_BD_R_RANDOM_RECORDING, imapi2/IMAPI_PROFILE_TYPE_BD_R_SEQUENTIAL, imapi2/IMAPI_PROFILE_TYPE_CDROM, imapi2/IMAPI_PROFILE_TYPE_CD_RECORDABLE, imapi2/IMAPI_PROFILE_TYPE_CD_REWRITABLE, imapi2/IMAPI_PROFILE_TYPE_DDCD_RECORDABLE, imapi2/IMAPI_PROFILE_TYPE_DVDROM, imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_RECORDABLE, imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_REWRITABLE, imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_RW_SEQUENTIAL, imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_LAYER_JUMP, imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_SEQUENTIAL, imapi2/IMAPI_PROFILE_TYPE_DVD_PLUS_R, imapi2/IMAPI_PROFILE_TYPE_DVD_PLUS_RW, imapi2/IMAPI_PROFILE_TYPE_DVD_PLUS_RW_DUAL, imapi2/IMAPI_PROFILE_TYPE_DVD_PLUS_R_DUAL, imapi2/IMAPI_PROFILE_TYPE_DVD_RAM, imapi2/IMAPI_PROFILE_TYPE_HD_DVD_RAM, imapi2/IMAPI_PROFILE_TYPE_HD_DVD_RECORDABLE, imapi2/IMAPI_PROFILE_TYPE_HD_DVD_ROM, imapi2/IMAPI_PROFILE_TYPE_INVALID, imapi2/IMAPI_PROFILE_TYPE_MO_ERASABLE, imapi2/IMAPI_PROFILE_TYPE_MO_WRITE_ONCE, imapi2/IMAPI_PROFILE_TYPE_NON_REMOVABLE_DISK, imapi2/IMAPI_PROFILE_TYPE_NON_STANDARD, imapi2/IMAPI_PROFILE_TYPE_REMOVABLE_DISK, imapi2/PIMAPI_PROFILE_TYPE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAPI_PROFILE_TYPE, *PIMAPI_PROFILE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	imapi2.h
+api_name:
+-	IMAPI_PROFILE_TYPE
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _IMAPI_PROFILE_TYPE enumeration

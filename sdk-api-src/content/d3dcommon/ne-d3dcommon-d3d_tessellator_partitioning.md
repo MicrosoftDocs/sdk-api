@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3dcommon.D3D_TESSELLATOR_PARTITIONING
+title: D3D_TESSELLATOR_PARTITIONING
+author: windows-sdk-content
+description: Values that identify partitioning options.
+old-location: direct3d11\d3d_tessellator_partitioning.htm
+old-project: direct3d11
+ms.assetid: 2a33c1c2-cdd6-48d0-8bd1-a3108c4b9449
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D11_TESSELLATOR_PARTITIONING_FRACTIONAL_EVEN, D3D11_TESSELLATOR_PARTITIONING_FRACTIONAL_ODD, D3D11_TESSELLATOR_PARTITIONING_INTEGER, D3D11_TESSELLATOR_PARTITIONING_POW2, D3D11_TESSELLATOR_PARTITIONING_UNDEFINED, D3D_TESSELLATOR_PARTITIONING, D3D_TESSELLATOR_PARTITIONING enumeration [Direct3D 11], D3D_TESSELLATOR_PARTITIONING_FRACTIONAL_EVEN, D3D_TESSELLATOR_PARTITIONING_FRACTIONAL_ODD, D3D_TESSELLATOR_PARTITIONING_INTEGER, D3D_TESSELLATOR_PARTITIONING_POW2, D3D_TESSELLATOR_PARTITIONING_UNDEFINED, d3dcommon/D3D11_TESSELLATOR_PARTITIONING_FRACTIONAL_EVEN, d3dcommon/D3D11_TESSELLATOR_PARTITIONING_FRACTIONAL_ODD, d3dcommon/D3D11_TESSELLATOR_PARTITIONING_INTEGER, d3dcommon/D3D11_TESSELLATOR_PARTITIONING_POW2, d3dcommon/D3D11_TESSELLATOR_PARTITIONING_UNDEFINED, d3dcommon/D3D_TESSELLATOR_PARTITIONING, d3dcommon/D3D_TESSELLATOR_PARTITIONING_FRACTIONAL_EVEN, d3dcommon/D3D_TESSELLATOR_PARTITIONING_FRACTIONAL_ODD, d3dcommon/D3D_TESSELLATOR_PARTITIONING_INTEGER, d3dcommon/D3D_TESSELLATOR_PARTITIONING_POW2, d3dcommon/D3D_TESSELLATOR_PARTITIONING_UNDEFINED, direct3d11.d3d_tessellator_partitioning
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3dcommon.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_TESSELLATOR_PARTITIONING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3DCommon.h
+api_name:
+-	D3D_TESSELLATOR_PARTITIONING
+product: Windows
+targetos: Windows
+req.lib: D3d9.lib
+req.dll: 
+req.irql: 
 ---
 
 # D3D_TESSELLATOR_PARTITIONING enumeration

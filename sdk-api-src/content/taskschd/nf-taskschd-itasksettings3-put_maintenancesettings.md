@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.ITaskSettings3.put_MaintenanceSettings
+title: ITaskSettings3::put_MaintenanceSettings
+author: windows-sdk-content
+description: Gets or sets a pointer to pointer to an IMaintenanceSettingsobject that Task scheduler uses to perform a task during Automatic maintenance.
+old-location: taskschd\itasksettings3_maintenancesettings.htm
+old-project: TaskSchd
+ms.assetid: F4B6ED81-DE9A-42C8-8F16-D5BD93743CB3
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ITaskSettings3 interface [Task Scheduler],MaintenanceSettings property, ITaskSettings3.MaintenanceSettings, ITaskSettings3.put_MaintenanceSettings, ITaskSettings3::MaintenanceSettings, ITaskSettings3::get_MaintenanceSettings, ITaskSettings3::put_MaintenanceSettings, MaintenanceSettings property [Task Scheduler], MaintenanceSettings property [Task Scheduler],ITaskSettings3 interface, put_MaintenanceSettings, taskschd.itasksettings3_maintenancesettings, taskschd/ITaskSettings3::MaintenanceSettings, taskschd/ITaskSettings3::get_MaintenanceSettings, taskschd/ITaskSettings3::put_MaintenanceSettings
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Taskschd.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Taskschd.dll
+api_name:
+-	ITaskSettings3.MaintenanceSettings
+-	ITaskSettings3.get_MaintenanceSettings
+-	ITaskSettings3.put_MaintenanceSettings
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITaskSettings3::put_MaintenanceSettings

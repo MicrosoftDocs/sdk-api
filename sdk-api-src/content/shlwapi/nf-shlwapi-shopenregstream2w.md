@@ -1,31 +1,54 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlwapi.SHOpenRegStream2W
+title: SHOpenRegStream2W function
+author: windows-sdk-content
+description: Opens a registry value and supplies a stream that can be used to read from or write to the value. This function supersedes SHOpenRegStream.
+old-location: shell\SHOpenRegStream2.htm
+old-project: shell
+ms.assetid: 2450dde0-cd02-4d48-be40-467b4b8be240
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHOpenRegStream2, SHOpenRegStream2 function [Windows Shell], SHOpenRegStream2A, SHOpenRegStream2W, STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_SHOpenRegStream2, shell.SHOpenRegStream2, shlwapi/SHOpenRegStream2, shlwapi/SHOpenRegStream2A, shlwapi/SHOpenRegStream2W
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SHOpenRegStream2W (Unicode) and SHOpenRegStream2A (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+-	API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+-	ShCore.dll
+-	API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+-	API-MS-Win-ShCore-stream-l1-1-0.dll
+api_name:
+-	SHOpenRegStream2
+-	SHOpenRegStream2A
+-	SHOpenRegStream2W
+product: Windows
+targetos: Windows
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # SHOpenRegStream2W function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_ECC_CMS_SHARED_INFO
+title: "_CRYPT_ECC_CMS_SHARED_INFO"
+author: windows-sdk-content
+description: Represents key-encryption key information when using Elliptic Curve Cryptography (ECC) in the Cryptographic Message Syntax (CMS) EnvelopedData content type.
+old-location: security\crypt_ecc_cms_shared_info.htm
+old-project: SecCrypto
+ms.assetid: 858dbf61-5c4f-4bd6-b47c-0a1379119693
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_ECC_CMS_SHARED_INFO, CRYPT_ECC_CMS_SHARED_INFO, CRYPT_ECC_CMS_SHARED_INFO structure [Security], CRYPT_ECC_CMS_SHARED_INFO_SUPPPUBINFO_BYTE_LENGTH, PCRYPT_ECC_CMS_SHARED_INFO, PCRYPT_ECC_CMS_SHARED_INFO structure pointer [Security], _CRYPT_ECC_CMS_SHARED_INFO, security.crypt_ecc_cms_shared_info, wincrypt/CRYPT_ECC_CMS_SHARED_INFO, wincrypt/PCRYPT_ECC_CMS_SHARED_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_ECC_CMS_SHARED_INFO, *PCRYPT_ECC_CMS_SHARED_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRYPT_ECC_CMS_SHARED_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_ECC_CMS_SHARED_INFO structure

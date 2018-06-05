@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_OID_INFO
+title: "_CRYPT_OID_INFO"
+author: windows-sdk-content
+description: Contains information about an object identifier (OID).
+old-location: security\crypt_oid_info.htm
+old-project: SecCrypto
+ms.assetid: 06ba0f60-778d-450b-8f71-23471b8c4e2c
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_OID_INFO, CCRYPT_OID_INFO, CCRYPT_OID_INFO structure [Security], CRYPT_ENCRYPT_ALG_OID_GROUP_ID, CRYPT_ENHKEY_USAGE_OID_GROUP_ID, CRYPT_EXT_OR_ATTR_OID_GROUP_ID, CRYPT_HASH_ALG_OID_GROUP_ID, CRYPT_OID_INFO, CRYPT_OID_INFO structure [Security], CRYPT_OID_INFO_ECC_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_ECC_WRAP_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_HASH_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_MGF1_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_NO_SIGN_ALGORITHM, CRYPT_OID_INFO_OAEP_PARAMETERS_ALGORITHM, CRYPT_OID_INHIBIT_SIGNATURE_FORMAT_FLAG, CRYPT_OID_NO_NULL_ALGORITHM_PARA_FLAG, CRYPT_OID_PUBKEY_ENCRYPT_ONLY_FLAG, CRYPT_OID_PUBKEY_SIGN_ONLY_FLAG, CRYPT_OID_USE_PUBKEY_PARA_FOR_PKCS7_FLAG, CRYPT_POLICY_OID_GROUP_ID, CRYPT_PUBKEY_ALG_OID_GROUP_ID, CRYPT_RDN_ATTR_OID_GROUP_ID, CRYPT_SIGN_ALG_OID_GROUP_ID, PCCRYPT_OID_INFO, PCCRYPT_OID_INFO structure pointer [Security], PCRYPT_OID_INFO, PCRYPT_OID_INFO structure pointer [Security], _CRYPT_OID_INFO, _crypto2_crypt_oid_info, security.crypt_oid_info, wincrypt/CCRYPT_OID_INFO, wincrypt/CRYPT_OID_INFO, wincrypt/PCCRYPT_OID_INFO, wincrypt/PCRYPT_OID_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_OID_INFO, *PCRYPT_OID_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRYPT_OID_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_OID_INFO structure

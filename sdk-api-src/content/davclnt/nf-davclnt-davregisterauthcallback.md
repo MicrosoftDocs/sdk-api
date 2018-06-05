@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:davclnt.DavRegisterAuthCallback
+title: DavRegisterAuthCallback function
+author: windows-sdk-content
+description: Registers an application-defined callback function that the WebDAV client can use to prompt the user for credentials.
+old-location: webdav\davregisterauthcallback.htm
+old-project: WebDAV
+ms.assetid: 7b381929-174f-4b7b-aa22-dc7a2c3e3b4d
+ms.author: windowssdkdev
+ms.date: 03/22/2018
+ms.keywords: DavRegisterAuthCallback, DavRegisterAuthCallback function [WebDAV], davclnt/DavRegisterAuthCallback, webdav.davregisterauthcallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: davclnt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 with SP2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTHNEXTSTEP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Davclnt.dll
+api_name:
+-	DavRegisterAuthCallback
+product: Windows
+targetos: Windows
+req.lib: Davclnt.lib
+req.dll: Davclnt.dll
+req.irql: 
 ---
 
 # DavRegisterAuthCallback function

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:webapplication.IWebApplicationUpdateEvents
+title: IWebApplicationUpdateEvents
+author: windows-sdk-content
+description: Enables an authoring app to receive notification of designer events and respond to those events.
+old-location: debug\iwebapplicationupdateevents.htm
+old-project: debug_wwahost
+ms.assetid: C1ED87B6-CC24-48CF-BC9F-FF702A0903E8
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IWebApplicationUpdateEvents, IWebApplicationUpdateEvents interface [Debugging Windows Store apps], IWebApplicationUpdateEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationupdateevents, webapplication/IWebApplicationUpdateEvents
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: webapplication.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Webapplication.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	webapplication.h
+api_name:
+-	IWebApplicationUpdateEvents
+product: Windows
+targetos: Windows
+req.lib: WWAHost.exe
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWebApplicationUpdateEvents interface

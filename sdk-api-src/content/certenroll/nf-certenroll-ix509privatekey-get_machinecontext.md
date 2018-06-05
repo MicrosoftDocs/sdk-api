@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509PrivateKey.get_MachineContext
+title: IX509PrivateKey::get_MachineContext
+author: windows-sdk-content
+description: Specifies or retrieves a Boolean value that identifies the local certificate store context.
+old-location: security\ix509privatekey_machinecontext_property.htm
+old-project: SecCertEnroll
+ms.assetid: bdc3278e-3b5a-4ad0-9e9b-9639a2db4040
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IX509PrivateKey interface [Security],MachineContext property, IX509PrivateKey.MachineContext, IX509PrivateKey.get_MachineContext, IX509PrivateKey::MachineContext, IX509PrivateKey::get_MachineContext, IX509PrivateKey::put_MachineContext, MachineContext property [Security], MachineContext property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::MachineContext, certenroll/IX509PrivateKey::get_MachineContext, certenroll/IX509PrivateKey::put_MachineContext, get_MachineContext, security.ix509privatekey_machinecontext_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509PrivateKey.MachineContext
+-	IX509PrivateKey.get_MachineContext
+-	IX509PrivateKey.put_MachineContext
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IX509PrivateKey::get_MachineContext

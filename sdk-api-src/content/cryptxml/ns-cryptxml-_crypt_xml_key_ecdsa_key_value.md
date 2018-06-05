@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:cryptxml._CRYPT_XML_KEY_ECDSA_KEY_VALUE
+title: "_CRYPT_XML_KEY_ECDSA_KEY_VALUE"
+author: windows-sdk-content
+description: Defines an Elliptic Curve Digital Signature Algorithm (ECDSA) key value. The CRYPT_XML_KEY_ECDSA_KEY_VALUE structure is used as an element of the key value union in the CRYPT_XML_KEY_VALUE structure.
+old-location: security\crypt_xml_key_ecdsa_key_value.htm
+old-project: SecCrypto
+ms.assetid: db7e8ee0-25b4-4e2e-83da-f970906c9da9
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CRYPT_XML_KEY_ECDSA_KEY_VALUE, CRYPT_XML_KEY_ECDSA_KEY_VALUE structure [Security], _CRYPT_XML_KEY_ECDSA_KEY_VALUE, cryptxml/CRYPT_XML_KEY_ECDSA_KEY_VALUE, security.crypt_xml_key_ecdsa_key_value
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cryptxml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_XML_KEY_ECDSA_KEY_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Cryptxml.h
+api_name:
+-	CRYPT_XML_KEY_ECDSA_KEY_VALUE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CRYPT_XML_KEY_ECDSA_KEY_VALUE structure

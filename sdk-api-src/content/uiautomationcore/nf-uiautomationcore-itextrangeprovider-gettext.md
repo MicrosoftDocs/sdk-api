@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcore.ITextRangeProvider.GetText
+title: ITextRangeProvider::GetText
+author: windows-sdk-content
+description: Retrieves the plain text of the range.
+old-location: winauto\uiauto_ITextRangeProvider_GetText.htm
+old-project: WinAuto
+ms.assetid: f3c5f0cc-15a5-4a13-b3be-355de6633c66
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: GetText, GetText method [Windows Accessibility], GetText method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],GetText method, ITextRangeProvider.GetText, ITextRangeProvider::GetText, uiauto.uiauto_ITextRangeProvider_GetText, uiauto_ITextRangeProvider_GetText, uiautomationcore/ITextRangeProvider::GetText, winauto.uiauto_ITextRangeProvider_GetText
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationCore.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	ITextRangeProvider.GetText
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextRangeProvider::GetText

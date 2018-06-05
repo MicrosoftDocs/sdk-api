@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:devicetopology.IDeviceSpecificProperty
+title: IDeviceSpecificProperty
+author: windows-sdk-content
+description: The IDeviceSpecificProperty interface provides access to the control value of a device-specific hardware control.
+old-location: coreaudio\idevicespecificproperty.htm
+old-project: CoreAudio
+ms.assetid: 52873fe2-7f59-4a30-b526-cbefa27a81bb
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IDeviceSpecificProperty, IDeviceSpecificProperty interface [Core Audio], IDeviceSpecificProperty interface [Core Audio],described, coreaudio.idevicespecificproperty, devicetopology/IDeviceSpecificProperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IDeviceSpecificProperty
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDeviceSpecificProperty interface

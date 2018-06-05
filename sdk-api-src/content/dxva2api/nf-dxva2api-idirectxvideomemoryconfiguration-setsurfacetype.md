@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxva2api.IDirectXVideoMemoryConfiguration.SetSurfaceType
+title: IDirectXVideoMemoryConfiguration::SetSurfaceType
+author: windows-sdk-content
+description: Sets the video surface type that a decoder will use for DirectX Video Acceleration (DVXA) 2.0.
+old-location: mf\idirectxvideomemoryconfiguration_setsurfacetype.htm
+old-project: medfound
+ms.assetid: 06fe0072-1fe5-491f-b0b7-fc85ca731fe7
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 06fe0072-1fe5-491f-b0b7-fc85ca731fe7, IDirectXVideoMemoryConfiguration interface [Media Foundation],SetSurfaceType method, IDirectXVideoMemoryConfiguration.SetSurfaceType, IDirectXVideoMemoryConfiguration::SetSurfaceType, SetSurfaceType, SetSurfaceType method [Media Foundation], SetSurfaceType method [Media Foundation],IDirectXVideoMemoryConfiguration interface, dxva2api/IDirectXVideoMemoryConfiguration::SetSurfaceType, mf.idirectxvideomemoryconfiguration_setsurfacetype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxva2api.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA2_SurfaceType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxva2api.h
+api_name:
+-	IDirectXVideoMemoryConfiguration.SetSurfaceType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDirectXVideoMemoryConfiguration::SetSurfaceType

@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcore.ITextProvider.get_DocumentRange
+title: ITextProvider::get_DocumentRange
+author: windows-sdk-content
+description: Retrieves a text range that encloses the main text of a document.
+old-location: winauto\uiauto_ITextProvider_DocumentRange.htm
+old-project: WinAuto
+ms.assetid: 38892548-7c1f-4bac-8eac-29d7b4d190d3
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: DocumentRange property [Windows Accessibility], DocumentRange property [Windows Accessibility],ITextProvider interface, ITextProvider interface [Windows Accessibility],DocumentRange property, ITextProvider.DocumentRange, ITextProvider.get_DocumentRange, ITextProvider::DocumentRange, ITextProvider::get_DocumentRange, get_DocumentRange, uiauto.uiauto_ITextProvider_DocumentRange, uiauto_ITextProvider_DocumentRange, uiautomationcore/ITextProvider::DocumentRange, uiautomationcore/ITextProvider::get_DocumentRange, winauto.uiauto_ITextProvider_DocumentRange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationCore.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	ITextProvider.DocumentRange
+-	ITextProvider.get_DocumentRange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextProvider::get_DocumentRange

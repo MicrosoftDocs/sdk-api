@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:faxcom.IFaxDoc.put_CoverpageSubject
+title: IFaxDoc::put_CoverpageSubject
+author: windows-sdk-content
+description: Sets or retrieves the CoverpageSubject property of a FaxDoc object. The CoverpageSubject property is a null-terminated string that contains the subject line of the fax transmission.
+old-location: fax\_mfax_ifaxdoc_get_coverpagesubject_vb.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxlegacy_6svo.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CoverpageSubject property [Fax Service], CoverpageSubject property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],CoverpageSubject property, FaxDoc.CoverpageSubject, IFaxDoc.put_CoverpageSubject, IFaxDoc::put_CoverpageSubject, _mfax_ifaxdoc_get_coverpagesubject, fax._mfax_ifaxdoc_get_coverpagesubject, fax._mfax_ifaxdoc_get_coverpagesubject_vb, put_CoverpageSubject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: faxcom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ShellWindowTypeConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Faxcom.dll
+api_name:
+-	FaxDoc.CoverpageSubject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFaxDoc::put_CoverpageSubject

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dcomp.SetAngleX
+title: SetAngleX function
+author: windows-sdk-content
+description: Changes or animates the value of the AngleX property of a 2D skew transform. The AngleX property specifies the rotation angle, in degrees. The default value is zero.
+old-location: directcomp\idcompositionskewtransform_setanglex_overloaded.htm
+old-project: directcomp
+ms.assetid: DA4AEE0D-A913-434E-9150-DD6763132041
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IDCompositionSkewTransform::SetAngleX, SetAngleX, SetAngleX methods [DirectComposition], dcomp/SetAngleX, directcomp.idcompositionskewtransform_setanglex_overloaded
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dcomp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D_VECTOR_4F
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dcomp.dll
+api_name:
+-	IDCompositionSkewTransform::SetAngleX
+product: Windows
+targetos: Windows
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 ---
 
 # SetAngleX function

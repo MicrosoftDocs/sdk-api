@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IActionProgress.ResetCancel
+title: IActionProgress::ResetCancel
+author: windows-sdk-content
+description: Resets progress dialog after a cancellation has been completed.
+old-location: shell\IActionProgress_ResetCancel.htm
+old-project: shell
+ms.assetid: 28a2ee51-0a7a-4802-be55-f111be3a4d2d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IActionProgress interface [Windows Shell],ResetCancel method, IActionProgress.ResetCancel, IActionProgress::ResetCancel, ResetCancel, ResetCancel method [Windows Shell], ResetCancel method [Windows Shell],IActionProgress interface, shell.IActionProgress_ResetCancel, shell_IActionProgress_ResetCancel, shobjidl_core/IActionProgress::ResetCancel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shobjidl.idl
+api_name:
+-	IActionProgress.ResetCancel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shobjidl.idl
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IActionProgress::ResetCancel

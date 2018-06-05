@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IContextMenuSite.DoContextMenuPopup
+title: IContextMenuSite::DoContextMenuPopup
+author: windows-sdk-content
+description: DoContextMenuPopup is no longer available for use as of Windows Server 2003.
+old-location: shell\IContextMenuSite_DoContextMenuPopup.htm
+old-project: shell
+ms.assetid: 5601dc9c-e008-4387-b0d3-4cbdf29b7849
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CMF_ASYNCVERBSTATE, CMF_CANRENAME, CMF_DEFAULTONLY, CMF_DISABLEDVERBS, CMF_DONOTPICKDEFAULT, CMF_EXPLORE, CMF_EXTENDEDVERBS, CMF_INCLUDESTATIC, CMF_ITEMMENU, CMF_NODEFAULT, CMF_NORMAL, CMF_NOVERBS, CMF_OPTIMIZEFORINVOKE, CMF_RESERVED, CMF_SYNCCASCADEMENU, CMF_VERBSONLY, DoContextMenuPopup, DoContextMenuPopup method [Windows Shell], DoContextMenuPopup method [Windows Shell],IContextMenuSite interface, IContextMenuSite interface [Windows Shell],DoContextMenuPopup method, IContextMenuSite.DoContextMenuPopup, IContextMenuSite::DoContextMenuPopup, _shell_IContextMenuSite_DoContextMenuPopup, shell.IContextMenuSite_DoContextMenuPopup, shobjidl_core/IContextMenuSite::DoContextMenuPopup
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IContextMenuSite.DoContextMenuPopup
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IContextMenuSite::DoContextMenuPopup

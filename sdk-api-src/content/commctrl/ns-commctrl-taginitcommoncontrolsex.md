@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.tagINITCOMMONCONTROLSEX
+title: tagINITCOMMONCONTROLSEX
+author: windows-sdk-content
+description: Carries information used to load common control classes from the dynamic-link library (DLL). This structure is used with the InitCommonControlsEx function.
+old-location: controls\INITCOMMONCONTROLSEX_4vvx.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\common\structures\initcommoncontrolsex.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPINITCOMMONCONTROLSEX, ICC_ANIMATE_CLASS, ICC_BAR_CLASSES, ICC_COOL_CLASSES, ICC_DATE_CLASSES, ICC_HOTKEY_CLASS, ICC_INTERNET_CLASSES, ICC_LINK_CLASS, ICC_LISTVIEW_CLASSES, ICC_NATIVEFNTCTL_CLASS, ICC_PAGESCROLLER_CLASS, ICC_PROGRESS_CLASS, ICC_STANDARD_CLASSES, ICC_TAB_CLASSES, ICC_TREEVIEW_CLASSES, ICC_UPDOWN_CLASS, ICC_USEREX_CLASSES, ICC_WIN95_CLASSES, INITCOMMONCONTROLSEX, INITCOMMONCONTROLSEX structure [Windows Controls], LPINITCOMMONCONTROLSEX, LPINITCOMMONCONTROLSEX structure pointer [Windows Controls], _win32_INITCOMMONCONTROLSEX_4vvx, _win32_INITCOMMONCONTROLSEX_4vvx_cpp, commctrl/INITCOMMONCONTROLSEX, commctrl/LPINITCOMMONCONTROLSEX, controls.INITCOMMONCONTROLSEX_4vvx, controls._win32_INITCOMMONCONTROLSEX_4vvx, tagINITCOMMONCONTROLSEX"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INITCOMMONCONTROLSEX, *LPINITCOMMONCONTROLSEX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	INITCOMMONCONTROLSEX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagINITCOMMONCONTROLSEX structure

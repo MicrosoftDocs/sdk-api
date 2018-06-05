@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfInputProcessorProfileMgr.DeactivateProfile
+title: ITfInputProcessorProfileMgr::DeactivateProfile
+author: windows-sdk-content
+description: The ITfInputProcessorProfileMgr::DeactivateProfile method deactivates the specified text service's profile or keyboard layout.
+old-location: tsf\itfinputprocessorprofilemgr_deactivateprofile.htm
+old-project: TSF
+ms.assetid: 8d2bd329-1b17-4b03-8c75-74d99ccc0f08
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: DeactivateProfile, DeactivateProfile method [Text Services Framework], DeactivateProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],DeactivateProfile method, ITfInputProcessorProfileMgr.DeactivateProfile, ITfInputProcessorProfileMgr::DeactivateProfile, TF_IPPMF_DISABLEPROFILE, TF_IPPMF_FORPROCESS, TF_IPPMF_FORSESSION, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileMgr::DeactivateProfile, tsf.itfinputprocessorprofilemgr_deactivateprofile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfInputProcessorProfileMgr.DeactivateProfile
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfInputProcessorProfileMgr::DeactivateProfile

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.IVMRFilterConfig.GetNumberOfStreams
+title: IVMRFilterConfig::GetNumberOfStreams
+author: windows-sdk-content
+description: The GetNumberOfStreams method retrieves the number of input streams being mixed.
+old-location: dshow\ivmrfilterconfig_getnumberofstreams.htm
+old-project: DirectShow
+ms.assetid: e031c427-23bb-4243-bb38-0837a6db8c2c
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [DirectShow], GetNumberOfStreams method [DirectShow],IVMRFilterConfig interface, IVMRFilterConfig interface [DirectShow],GetNumberOfStreams method, IVMRFilterConfig.GetNumberOfStreams, IVMRFilterConfig::GetNumberOfStreams, IVMRFilterConfigGetNumberOfStreams, dshow.ivmrfilterconfig_getnumberofstreams, strmif/IVMRFilterConfig::GetNumberOfStreams
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IVMRFilterConfig.GetNumberOfStreams
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IVMRFilterConfig::GetNumberOfStreams

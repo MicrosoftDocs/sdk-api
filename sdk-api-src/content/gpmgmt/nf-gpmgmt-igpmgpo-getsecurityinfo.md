@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:gpmgmt.IGPMGPO.GetSecurityInfo
+title: IGPMGPO::GetSecurityInfo
+author: windows-sdk-content
+description: Retrieves the set of permissions for the GPO, such as who is granted permission to edit it.
+old-location: gpmc\igpmgpo_getsecurityinfo.htm
+old-project: GPMC
+ms.assetid: 104e96e6-60c5-4cc1-9728-7c0ea9715a58
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: GPMGPO class [GPMC],GetSecurityInfo method, GetSecurityInfo, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC],GPMGPO class, GetSecurityInfo method [GPMC],IGPMGPO interface, IGPMGPO interface [GPMC],GetSecurityInfo method, IGPMGPO.GetSecurityInfo, IGPMGPO::GetSecurityInfo, _win32_igpmgpo_getsecurityinfo, gpmc.igpmgpo_getsecurityinfo, gpmgmt/IGPMGPO::GetSecurityInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: gpmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Gpmgmt.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GPMStarterGPOType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gpmgmt.dll
+api_name:
+-	IGPMGPO.GetSecurityInfo
+-	GPMGPO.GetSecurityInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IGPMGPO::GetSecurityInfo

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:htmlhelp.HtmlHelpW
+title: HtmlHelpW function
+author: windows-sdk-content
+description: Displays a help window.
+old-location: htmlhelp\htmlhelp.htm
+old-project: htmlhelp
+ms.assetid: VS|htmlhelp|~\html\vsconhowcallingthehtmlhelpapi.htm
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: HtmlHelp, HtmlHelp function [HTML Help Workshop], HtmlHelpA, HtmlHelpW, htmlhelp.htmlhelp, htmlhelp/HtmlHelp, htmlhelp/HtmlHelpA, htmlhelp/HtmlHelpW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: htmlhelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: HtmlHelpW (Unicode) and HtmlHelpA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HSTRING_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Htmlhelp.dll
+api_name:
+-	HtmlHelp
+-	HtmlHelpA
+-	HtmlHelpW
+product: Windows
+targetos: Windows
+req.lib: Htmlhelp.lib
+req.dll: Htmlhelp.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # HtmlHelpW function

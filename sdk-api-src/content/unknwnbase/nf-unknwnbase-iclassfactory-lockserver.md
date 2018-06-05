@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:unknwnbase.IClassFactory.LockServer
+title: IClassFactory::LockServer
+author: windows-sdk-content
+description: Locks an object application open in memory. This enables instances to be created more quickly.
+old-location: com\iclassfactory_lockserver.htm
+old-project: com
+ms.assetid: 4c817b89-013d-477f-a713-5e320896dfa0
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IClassFactory interface [COM],LockServer method, IClassFactory.LockServer, IClassFactory::LockServer, LockServer, LockServer method [COM], LockServer method [COM],IClassFactory interface, _com_iclassfactory_lockserver, com.iclassfactory_lockserver, unknwnbase/IClassFactory::LockServer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: unknwnbase.h
+req.include-header: Unknwn.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Unknwn.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	unknwnbase.h
+api_name:
+-	IClassFactory.LockServer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IClassFactory::LockServer

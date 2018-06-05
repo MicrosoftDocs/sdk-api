@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0004
+title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0004"
+author: windows-sdk-content
+description: The MPEG_CURRENT_NEXT_BIT enumeration type specifies the value of the current_next_indicator bit.
+old-location: mstv\mpeg_current_next_bit.htm
+old-project: mstv
+ms.assetid: b35ced88-92b3-4f70-842b-9664a714823c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: MPEG_CURRENT_NEXT_BIT, MPEG_CURRENT_NEXT_BIT enumeration [Microsoft TV Technologies], MPEG_SECTION_IS_CURRENT, MPEG_SECTION_IS_NEXT, __MIDL___MIDL_itf_mpeg2structs_0000_0000_0004, mpeg2structs/MPEG_CURRENT_NEXT_BIT, mpeg2structs/MPEG_SECTION_IS_CURRENT, mpeg2structs/MPEG_SECTION_IS_NEXT, mstv.mpeg_current_next_bit
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mpeg2structs.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPEG_CURRENT_NEXT_BIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mpeg2Structs.h
+api_name:
+-	MPEG_CURRENT_NEXT_BIT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_mpeg2structs_0000_0000_0004 enumeration

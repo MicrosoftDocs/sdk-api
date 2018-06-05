@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbase._WIN32_STREAM_ID
+title: "_WIN32_STREAM_ID"
+author: windows-sdk-content
+description: Contains stream data.
+old-location: backup\win32_stream_id_str.htm
+old-project: Backup
+ms.assetid: 8beb4315-ec0e-4f6f-abfe-369094f7bedd
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*LPWIN32_STREAM_ID, BACKUP_ALTERNATE_DATA, BACKUP_DATA, BACKUP_EA_DATA, BACKUP_LINK, BACKUP_OBJECT_ID, BACKUP_PROPERTY_DATA, BACKUP_REPARSE_DATA, BACKUP_SECURITY_DATA, BACKUP_SPARSE_BLOCK, BACKUP_TXFS_DATA, LPWIN32_STREAM_ID, LPWIN32_STREAM_ID structure pointer [Backup], STREAM_CONTAINS_SECURITY, STREAM_MODIFIED_WHEN_READ, WIN32_STREAM_ID, WIN32_STREAM_ID structure [Backup], _WIN32_STREAM_ID, _win32_win32_stream_id_str, backup.win32_stream_id_str, base.win32_stream_id_str, winbase/LPWIN32_STREAM_ID, winbase/WIN32_STREAM_ID"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winbase.h
+api_name:
+-	WIN32_STREAM_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WIN32_STREAM_ID structure

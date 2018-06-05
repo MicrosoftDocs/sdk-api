@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdatif.IMPEG2_TIF_CONTROL.RegisterTIF
+title: IMPEG2_TIF_CONTROL::RegisterTIF
+author: windows-sdk-content
+description: The RegisterTIF method is called by the Transport Information Filter (TIF) to register itself with the Network Provider.
+old-location: mstv\impeg2_tif_control_registertif.htm
+old-project: mstv
+ms.assetid: d17b1f6b-24f4-40f4-9a58-aa582c0958f8
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],RegisterTIF method, IMPEG2_TIF_CONTROL.RegisterTIF, IMPEG2_TIF_CONTROL::RegisterTIF, IMPEG2_TIF_CONTROLRegisterTIF, RegisterTIF, RegisterTIF method [Microsoft TV Technologies], RegisterTIF method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, bdatif/IMPEG2_TIF_CONTROL::RegisterTIF, mstv.impeg2_tif_control_registertif
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdatif.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SmartCardApplication
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdatif.h
+api_name:
+-	IMPEG2_TIF_CONTROL.RegisterTIF
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IMPEG2_TIF_CONTROL::RegisterTIF

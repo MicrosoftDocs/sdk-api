@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bthdef._BTH_RADIO_IN_RANGE
+title: "_BTH_RADIO_IN_RANGE"
+author: windows-sdk-content
+description: Stores data about Bluetooth devices within communication range.
+old-location: bluetooth\bth_radio_in_range.htm
+old-project: Bluetooth
+ms.assetid: 997c50bb-1313-409a-9a24-9225a6cf91d9
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PBTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE structure [Bluetooth], BTH_RADIO_IN_RANGE, BTH_RADIO_IN_RANGE structure [Bluetooth], _BTH_RADIO_IN_RANGE, bluetooth.bth_radio_in_range, bthdef/*PBTH_RADIO_IN_RANGE, bthdef/BTH_RADIO_IN_RANGE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bthdef.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bthdef.h
+api_name:
+-	BTH_RADIO_IN_RANGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BTH_RADIO_IN_RANGE structure

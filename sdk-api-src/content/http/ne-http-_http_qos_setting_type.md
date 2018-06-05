@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:http._HTTP_QOS_SETTING_TYPE
+title: "_HTTP_QOS_SETTING_TYPE"
+author: windows-sdk-content
+description: Identifies the type of a QOS setting contained in a HTTP_QOS_SETTING_INFO structure.
+old-location: http\http_qos_setting_type.htm
+old-project: Http
+ms.assetid: d1593670-9f5c-48a9-93d9-d5ff744cfc8b
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_QOS_SETTING_TYPE, *PHTTP_QOS_SETTING_TYPE enumeration [HTTP], HTTP_QOS_SETTING_TYPE, HTTP_QOS_SETTING_TYPE enumeration [HTTP], HttpQosSettingTypeBandwidth, HttpQosSettingTypeConnectionLimit, HttpQosSettingTypeFlowRate, _HTTP_QOS_SETTING_TYPE, http.http_qos_setting_type, http/*PHTTP_QOS_SETTING_TYPE, http/HTTP_QOS_SETTING_TYPE, http/HttpQosSettingTypeBandwidth, http/HttpQosSettingTypeConnectionLimit, http/HttpQosSettingTypeFlowRate"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_QOS_SETTING_TYPE, *PHTTP_QOS_SETTING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_QOS_SETTING_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_QOS_SETTING_TYPE enumeration

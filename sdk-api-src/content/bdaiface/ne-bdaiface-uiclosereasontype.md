@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:bdaiface.UICloseReasonType
+title: UICloseReasonType
+author: windows-sdk-content
+description: The UICloseReasonType enumeration type specifies the reason that a user-interface dialog for a smart card was closed.
+old-location: mstv\uiclosereasontype.htm
+old-project: mstv
+ms.assetid: ed609bf8-9675-40bc-a789-c98cbc96e45f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: DeviceClosed, ErrorClosed, NotReady, SystemClosed, UICloseReasonType, UICloseReasonType enumeration [Microsoft TV Technologies], UserClosed, bdaiface/DeviceClosed, bdaiface/ErrorClosed, bdaiface/NotReady, bdaiface/SystemClosed, bdaiface/UICloseReasonType, bdaiface/UserClosed, mstv.uiclosereasontype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bdaiface.h
+api_name:
+-	UICloseReasonType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # UICloseReasonType enumeration

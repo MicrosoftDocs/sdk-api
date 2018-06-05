@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFByteStreamHandler.EndCreateObject
+title: IMFByteStreamHandler::EndCreateObject
+author: windows-sdk-content
+description: Completes an asynchronous request to create a media source.
+old-location: mf\imfbytestreamhandler_endcreateobject.htm
+old-project: medfound
+ms.assetid: 8fd9797a-8dfb-4e59-8bcb-52dc53b5bb2e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 8fd9797a-8dfb-4e59-8bcb-52dc53b5bb2e, EndCreateObject, EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],EndCreateObject method, IMFByteStreamHandler.EndCreateObject, IMFByteStreamHandler::EndCreateObject, mf.imfbytestreamhandler_endcreateobject, mfidl/IMFByteStreamHandler::EndCreateObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFByteStreamHandler.EndCreateObject
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFByteStreamHandler::EndCreateObject

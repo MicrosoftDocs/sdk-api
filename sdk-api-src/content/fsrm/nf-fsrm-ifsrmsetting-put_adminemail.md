@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrm.IFsrmSetting.put_AdminEmail
+title: IFsrmSetting::put_AdminEmail
+author: windows-sdk-content
+description: Retrieves or sets the email address for the administrator.
+old-location: fsrm\ifsrmsetting_adminemail.htm
+old-project: Fsrm
+ms.assetid: 5985f697-f982-481c-896e-e6c3834f645d
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: AdminEmail property [File Server Resource Manager], AdminEmail property [File Server Resource Manager],FsrmSetting class, AdminEmail property [File Server Resource Manager],IFsrmSetting interface, FsrmSetting class [File Server Resource Manager],AdminEmail property, IFsrmSetting interface [File Server Resource Manager],AdminEmail property, IFsrmSetting.AdminEmail, IFsrmSetting.put_AdminEmail, IFsrmSetting::AdminEmail, IFsrmSetting::get_AdminEmail, IFsrmSetting::put_AdminEmail, fs.ifsrmsetting_adminemail, fsrm.ifsrmsetting_adminemail, fsrm/IFsrmSetting::AdminEmail, fsrm/IFsrmSetting::get_AdminEmail, fsrm/IFsrmSetting::put_AdminEmail, put_AdminEmail
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrm.h
+req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmSetting.AdminEmail
+-	IFsrmSetting.get_AdminEmail
+-	IFsrmSetting.put_AdminEmail
+-	FsrmSetting.AdminEmail
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmSetting::put_AdminEmail

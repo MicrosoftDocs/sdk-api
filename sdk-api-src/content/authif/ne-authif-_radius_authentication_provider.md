@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:authif._RADIUS_AUTHENTICATION_PROVIDER
+title: "_RADIUS_AUTHENTICATION_PROVIDER"
+author: windows-sdk-content
+description: The RADIUS_AUTHENTICATION_PROVIDER type enumerates the possible authentication providers that NPS can use.
+old-location: nps\IAS_radius_authentication_provider.htm
+old-project: Nps
+ms.assetid: 017c31f1-1654-4312-a1f0-747ea82391e1
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: RADIUS_AUTHENTICATION_PROVIDER, RADIUS_AUTHENTICATION_PROVIDER enumeration [Network Policy Server], _RADIUS_AUTHENTICATION_PROVIDER, _ias_radius_authentication_provider, authif/RADIUS_AUTHENTICATION_PROVIDER, authif/rapMCIS, authif/rapNone, authif/rapODBC, authif/rapProxy, authif/rapUnknown, authif/rapUsersFile, authif/rapWindowsNT, ias.radius_authentication_provider, nps.IAS_radius_authentication_provider, rapMCIS, rapNone, rapODBC, rapProxy, rapUnknown, rapUsersFile, rapWindowsNT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: authif.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RADIUS_AUTHENTICATION_PROVIDER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AuthIf.h
+api_name:
+-	RADIUS_AUTHENTICATION_PROVIDER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _RADIUS_AUTHENTICATION_PROVIDER enumeration

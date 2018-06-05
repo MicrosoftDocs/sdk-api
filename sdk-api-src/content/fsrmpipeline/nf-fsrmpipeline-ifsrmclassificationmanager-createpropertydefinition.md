@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmClassificationManager.CreatePropertyDefinition
+title: IFsrmClassificationManager::CreatePropertyDefinition
+author: windows-sdk-content
+description: Creates a property definition.
+old-location: fsrm\ifsrmclassificationmanager_createpropertydefinition.htm
+old-project: Fsrm
+ms.assetid: 92c6198b-08b6-4ea6-b8de-1a21acd235d1
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: CreatePropertyDefinition, CreatePropertyDefinition method [File Server Resource Manager], CreatePropertyDefinition method [File Server Resource Manager],FsrmClassificationManager class, CreatePropertyDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, CreatePropertyDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],CreatePropertyDefinition method, IFsrmClassificationManager interface [File Server Resource Manager],CreatePropertyDefinition method, IFsrmClassificationManager.CreatePropertyDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],CreatePropertyDefinition method, IFsrmClassificationManager2::CreatePropertyDefinition, IFsrmClassificationManager::CreatePropertyDefinition, fs.ifsrmclassificationmanager_createpropertydefinition, fsrm.ifsrmclassificationmanager_createpropertydefinition, fsrmpipeline/IFsrmClassificationManager2::CreatePropertyDefinition, fsrmpipeline/IFsrmClassificationManager::CreatePropertyDefinition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: FsrmPipeline.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmClassificationManager.CreatePropertyDefinition
+-	IFsrmClassificationManager2.CreatePropertyDefinition
+-	FsrmClassificationManager.CreatePropertyDefinition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmClassificationManager::CreatePropertyDefinition

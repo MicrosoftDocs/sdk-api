@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi._FONTINFO
+title: "_FONTINFO"
+author: windows-sdk-content
+description: The FONTINFO structure contains information regarding a specific font.
+old-location: display\fontinfo.htm
+old-project: display
+ms.assetid: fdb1539a-f8cb-41fd-bad2-d84c6663b1bb
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PFONTINFO, FONTINFO, FONTINFO structure [Display Devices], PFONTINFO, PFONTINFO structure pointer [Display Devices], _FONTINFO, display.fontinfo, grstrcts_95e2167e-53ae-44d9-a889-be2139bcac99.xml, winddi/FONTINFO, winddi/PFONTINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FONTINFO, *PFONTINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	FONTINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FONTINFO structure

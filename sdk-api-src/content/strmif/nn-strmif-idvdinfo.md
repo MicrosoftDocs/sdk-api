@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:strmif.IDvdInfo
+title: IDvdInfo
+author: windows-sdk-content
+description: Note  This interface has been deprecated.
+old-location: dshow\idvdinfo.htm
+old-project: DirectShow
+ms.assetid: 6b0c5dfe-aa1b-4ad0-9272-f1351e494b11
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IDvdInfo, IDvdInfo interface [DirectShow], IDvdInfo interface [DirectShow],described, IDvdInfoInterface, dshow.idvdinfo, strmif/IDvdInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: strmif.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	strmif.h
+api_name:
+-	IDvdInfo
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IDvdInfo interface

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:sspi._SecPkgContext_NegotiationInfoA
+title: "_SecPkgContext_NegotiationInfoA"
+author: windows-sdk-content
+description: The SecPkgContext_NegotiationInfo structure contains information on the security package that is being set up or has been set up, and also gives the status on the negotiation to set up the security package.
+old-location: security\secpkgcontext_negotiationinfo.htm
+old-project: SecAuthN
+ms.assetid: 3af724b8-fbe5-4a75-b128-9efe65381f2f
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSecPkgContext_NegotiationInfoA, PSecPkgContext_NegotiationInfo, PSecPkgContext_NegotiationInfo structure pointer [Security], SECPKG_NEGOTIATION_COMPLETE, SECPKG_NEGOTIATION_IN_PROGRESS, SECPKG_NEGOTIATION_OPTIMISTIC, SecPkgContext_NegotiationInfo, SecPkgContext_NegotiationInfo structure [Security], SecPkgContext_NegotiationInfoA, SecPkgContext_NegotiationInfoW, _SecPkgContext_NegotiationInfoA, _ssp_secpkgcontext_negotiationinfo, security.secpkgcontext_negotiationinfo, sspi/PSecPkgContext_NegotiationInfo, sspi/SecPkgContext_NegotiationInfo, sspi/SecPkgContext_NegotiationInfoA, sspi/SecPkgContext_NegotiationInfoW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: sspi.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SecPkgContext_NegotiationInfoW (Unicode) and SecPkgContext_NegotiationInfoA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SecPkgContext_NegotiationInfoA, *PSecPkgContext_NegotiationInfoA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Sspi.h
+api_name:
+-	SecPkgContext_NegotiationInfo
+-	SecPkgContext_NegotiationInfoA
+-	SecPkgContext_NegotiationInfoW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_NegotiationInfoA structure

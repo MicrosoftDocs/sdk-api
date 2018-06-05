@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vdshwprv.IVdsController.Reset
+title: IVdsController::Reset
+author: windows-sdk-content
+description: Reinitializes the controller and invalidates the cache.
+old-location: base\ivdscontroller_reset.htm
+old-project: VDS
+ms.assetid: e3b08b80-b81d-444b-86f6-2d10607ad02e
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IVdsController interface [VDS],Reset method, IVdsController.Reset, IVdsController::Reset, Reset, Reset method [VDS], Reset method [VDS],IVdsController interface, base.ivdscontroller_reset, vds/IVdsController::Reset, vdshwprv/IVdsController::Reset
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vdshwprv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VERSION_SUPPORT_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsController.Reset
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsController::Reset

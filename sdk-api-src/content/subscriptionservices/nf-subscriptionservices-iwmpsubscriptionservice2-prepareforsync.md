@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:subscriptionservices.IWMPSubscriptionService2.prepareForSync
+title: IWMPSubscriptionService2::prepareForSync
+author: windows-sdk-content
+description: Note  This section describes functionality designed for use by online stores.
+old-location: wmp\iwmpsubscriptionservice2_prepareforsync.htm
+old-project: WMP
+ms.assetid: 64ab5548-b562-44e4-9798-8f14d3ed653b
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPSubscriptionService2 interface [Windows Media Player],prepareForSync method, IWMPSubscriptionService2.prepareForSync, IWMPSubscriptionService2::prepareForSync, IWMPSubscriptionService2prepareForSync, prepareForSync, prepareForSync method [Windows Media Player], prepareForSync method [Windows Media Player],IWMPSubscriptionService2 interface, subscriptionservices/IWMPSubscriptionService2::prepareForSync, wmp.iwmpsubscriptionservice2_prepareforsync
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: subscriptionservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 10 or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSubscriptionServiceEvent
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	subscriptionservices.h
+api_name:
+-	IWMPSubscriptionService2.prepareForSync
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IWMPSubscriptionService2::prepareForSync

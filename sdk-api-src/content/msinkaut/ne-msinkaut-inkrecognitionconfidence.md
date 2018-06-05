@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msinkaut.InkRecognitionConfidence
+title: InkRecognitionConfidence
+author: windows-sdk-content
+description: Indicates the level of confidence that the recognizer has in the recognition result.
+old-location: tablet\inkrecognitionconfidence.htm
+old-project: tablet
+ms.assetid: ce99de84-d1c9-420f-8eb5-a8e4f3c04d1d
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IRC_Intermediate, IRC_Poor, IRC_Strong, InkRecognitionConfidence, InkRecognitionConfidence enumeration [Tablet PC], ce99de84-d1c9-420f-8eb5-a8e4f3c04d1d, msinkaut/IRC_Intermediate, msinkaut/IRC_Poor, msinkaut/IRC_Strong, msinkaut/InkRecognitionConfidence, tablet.inkrecognitionconfidence
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InkRecognitionConfidence
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msinkaut.h
+api_name:
+-	InkRecognitionConfidence
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkRecognitionConfidence enumeration

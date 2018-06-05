@@ -1,31 +1,58 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winnls.GetNumberFormatA
+title: GetNumberFormatA function
+author: windows-sdk-content
+description: Formats a number string as a number string customized for a locale specified by identifier.
+old-location: intl\getnumberformat.htm
+old-project: Intl
+ms.assetid: acbfebed-71bd-4266-b639-66f453158442
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetNumberFormat, GetNumberFormat function [Internationalization for Windows Applications], GetNumberFormatA, GetNumberFormatW, _win32_GetNumberFormat, intl.getnumberformat, winnls/GetNumberFormat, winnls/GetNumberFormatA, winnls/GetNumberFormatW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winnls.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetNumberFormatW (Unicode) and GetNumberFormatA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NORM_FORM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+-	API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
+-	API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+-	Kernel32Legacy.dll
+api_name:
+-	GetNumberFormat
+-	GetNumberFormatA
+-	GetNumberFormatW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # GetNumberFormatA function

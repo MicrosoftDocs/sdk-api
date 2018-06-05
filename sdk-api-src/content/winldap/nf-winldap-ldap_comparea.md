@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winldap.ldap_compareA
+title: ldap_compareA function
+author: windows-sdk-content
+description: Use the ldap_compare function to determine whether an attribute for a given entry holds a known value.
+old-location: ldap\ldap_compare.htm
+old-project: LDAP
+ms.assetid: 0cdcea2f-5ee2-407a-a229-5a3fb1e3b856
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: "_ldap_ldap_compare, ldap.ldap__compare, ldap.ldap_compare, ldap_compare, ldap_compare function [LDAP], ldap_compareA, ldap_compareW, winldap/ldap_compare, winldap/ldap_compareA, winldap/ldap_compareW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winldap.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ldap_compareW (Unicode) and ldap_compareA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wldap32.dll
+api_name:
+-	ldap_compare
+-	ldap_compareA
+-	ldap_compareW
+product: Windows
+targetos: Windows
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ldap_compareA function

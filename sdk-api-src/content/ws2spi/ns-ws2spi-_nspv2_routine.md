@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ws2spi._NSPV2_ROUTINE
+title: "_NSPV2_ROUTINE"
+author: windows-sdk-content
+description: Contains information on the functions implemented by a namespace service provider version-2 (NSPv2) provider.
+old-location: winsock\nspv2_routine.htm
+old-project: WinSock
+ms.assetid: 22a4ee47-030b-4aee-b9b1-c9e33b3e4fce
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPNSPV2_ROUTINE, *PNSPV2_ROUTINE, NSPV2_ROUTINE, NSPV2_ROUTINE structure [Winsock], PNSPV2_ROUTINE, PNSPV2_ROUTINE structure pointer [Winsock], _NSPV2_ROUTINE, winsock.nspv2_routine, ws2spi/NSPV2_ROUTINE, ws2spi/PNSPV2_ROUTINE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ws2spi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NSPV2_ROUTINE, *PNSPV2_ROUTINE, *LPNSPV2_ROUTINE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ws2spi.h
+api_name:
+-	NSPV2_ROUTINE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _NSPV2_ROUTINE structure

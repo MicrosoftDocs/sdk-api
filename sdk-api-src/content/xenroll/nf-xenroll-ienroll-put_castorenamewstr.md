@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xenroll.IEnroll.put_CAStoreNameWStr
+title: IEnroll::put_CAStoreNameWStr
+author: windows-sdk-content
+description: The CAStoreNameWStr property of IEnroll4 sets or retrieves the name of the store where all non-&#0034;ROOT&#0034; and non-&#0034;MY&#0034; certificates are kept.
+old-location: security\ienroll4_castorenamewstr.htm
+old-project: SecCrypto
+ms.assetid: 4c016649-a780-45c1-94a4-fb08c15c4e0f
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CAStoreNameWStr property [Security], CAStoreNameWStr property [Security],IEnroll interface, IEnroll interface [Security],CAStoreNameWStr property, IEnroll.CAStoreNameWStr, IEnroll.put_CAStoreNameWStr, IEnroll::CAStoreNameWStr, IEnroll::get_CAStoreNameWStr, IEnroll::put_CAStoreNameWStr, put_CAStoreNameWStr, security.ienroll4_castorenamewstr, xenroll/IEnroll::CAStoreNameWStr, xenroll/IEnroll::get_CAStoreNameWStr, xenroll/IEnroll::put_CAStoreNameWStr
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	IEnroll.CAStoreNameWStr
+-	IEnroll.get_CAStoreNameWStr
+-	IEnroll.put_CAStoreNameWStr
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IEnroll::put_CAStoreNameWStr

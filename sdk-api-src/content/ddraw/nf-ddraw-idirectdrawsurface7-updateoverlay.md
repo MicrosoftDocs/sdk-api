@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:ddraw.IDirectDrawSurface7.UpdateOverlay
+title: IDirectDrawSurface7::UpdateOverlay
+author: windows-sdk-content
+description: Repositions or modifies the visual attributes of an overlay surface. These surfaces must have the DDSCAPS_OVERLAY flag set.
+old-location: directdraw\idirectdrawsurface7_updateoverlay.htm
+old-project: directdraw
+ms.assetid: 8706c6ca-cd17-490a-8ff9-9470a7d7a150
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DDOVER_ADDDIRTYRECT, DDOVER_ALPHADEST, DDOVER_ALPHADESTCONSTOVERRIDE, DDOVER_ALPHADESTNEG, DDOVER_ALPHADESTSURFACEOVERRIDE, DDOVER_ALPHAEDGEBLEND, DDOVER_ALPHASRC, DDOVER_ALPHASRCCONSTOVERRIDE, DDOVER_ALPHASRCNEG, DDOVER_ALPHASRCSURFACEOVERRIDE, DDOVER_ARGBSCALEFACTORS, DDOVER_AUTOFLIP, DDOVER_BOB, DDOVER_BOBHARDWARE, DDOVER_DDFX, DDOVER_DEGRADEARGBSCALING, DDOVER_HIDE, DDOVER_INTERLEAVED, DDOVER_KEYDEST, DDOVER_KEYDESTOVERRIDE, DDOVER_KEYSRC, DDOVER_KEYSRCOVERRIDE, DDOVER_OVERRIDEBOBWEAVE, DDOVER_REFRESHALL, DDOVER_REFRESHDIRTYRECTS, DDOVER_SHOW, IDirectDrawSurface7 interface [DirectDraw],UpdateOverlay method, IDirectDrawSurface7.UpdateOverlay, IDirectDrawSurface7::UpdateOverlay, UpdateOverlay, UpdateOverlay method [DirectDraw], UpdateOverlay method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::UpdateOverlay, directdraw.idirectdrawsurface7_updateoverlay
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ddraw.dll
+api_name:
+-	IDirectDrawSurface7.UpdateOverlay
+product: Windows
+targetos: Windows
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 ---
 
 # IDirectDrawSurface7::UpdateOverlay

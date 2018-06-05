@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:propvarutil.PROPVAR_COMPARE_UNIT
+title: PROPVAR_COMPARE_UNIT
+author: windows-sdk-content
+description: These flags are associated with certain PROPVARIANT structure comparisons.
+old-location: properties\PROPVAR_COMPARE_UNIT.htm
+old-project: properties
+ms.assetid: 5bcc479e-8f33-408a-a82f-3c9e4ce53bb8
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PROPVAR_COMPARE_UNIT, PROPVAR_COMPARE_UNIT enumeration [Windows Properties], PVCU_DAY, PVCU_DEFAULT, PVCU_HOUR, PVCU_MINUTE, PVCU_MONTH, PVCU_SECOND, PVCU_YEAR, _shell_PROPVAR_COMPARE_UNIT, properties.PROPVAR_COMPARE_UNIT, propvarutil/PROPVAR_COMPARE_UNIT, propvarutil/PVCU_DAY, propvarutil/PVCU_DEFAULT, propvarutil/PVCU_HOUR, propvarutil/PVCU_MINUTE, propvarutil/PVCU_MONTH, propvarutil/PVCU_SECOND, propvarutil/PVCU_YEAR, shell.PROPVAR_COMPARE_UNIT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: propvarutil.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPVAR_COMPARE_UNIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	PropVarUtil.h
+api_name:
+-	PROPVAR_COMPARE_UNIT
+product: Windows
+targetos: Windows
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0.6001 or later)
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PROPVAR_COMPARE_UNIT enumeration

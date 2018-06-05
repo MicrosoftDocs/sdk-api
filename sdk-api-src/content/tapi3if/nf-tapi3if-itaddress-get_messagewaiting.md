@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITAddress.get_MessageWaiting
+title: ITAddress::get_MessageWaiting
+author: windows-sdk-content
+description: The get_MessageWaiting method determines if the address has a message waiting.
+old-location: tapi3\itaddress_get_messagewaiting.htm
+old-project: Tapi
+ms.assetid: 4ddb49d9-dde7-498b-a243-f8c5b1294a87
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITAddress interface [TAPI 2.2],get_MessageWaiting method, ITAddress.get_MessageWaiting, ITAddress::get_MessageWaiting, _tapi3_itaddress_get_messagewaiting, get_MessageWaiting, get_MessageWaiting method [TAPI 2.2], get_MessageWaiting method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_messagewaiting, tapi3if/ITAddress::get_MessageWaiting
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAddress.get_MessageWaiting
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAddress::get_MessageWaiting

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objidlbase.IServerSecurity.ImpersonateClient
+title: IServerSecurity::ImpersonateClient
+author: windows-sdk-content
+description: Enables a server to impersonate a client for the duration of a call.
+old-location: com\iserversecurity_impersonateclient.htm
+old-project: com
+ms.assetid: 20398b63-0fcb-40ab-93ed-f4c75760eb9e
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IServerSecurity interface [COM],ImpersonateClient method, IServerSecurity.ImpersonateClient, IServerSecurity::ImpersonateClient, ImpersonateClient, ImpersonateClient method [COM], ImpersonateClient method [COM],IServerSecurity interface, _com_iserversecurity_impersonateclient, com.iserversecurity_impersonateclient, objidlbase/IServerSecurity::ImpersonateClient
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: objidlbase.h
+req.include-header: ObjIdl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	objidlbase.h
+api_name:
+-	IServerSecurity.ImpersonateClient
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IServerSecurity::ImpersonateClient

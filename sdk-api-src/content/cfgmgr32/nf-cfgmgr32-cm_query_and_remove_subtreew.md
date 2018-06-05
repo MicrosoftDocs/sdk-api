@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:cfgmgr32.CM_Query_And_Remove_SubTreeW
+title: CM_Query_And_Remove_SubTreeW function
+author: windows-sdk-content
+description: The CM_Query_And_Remove_SubTree function checks whether a device instance and its children can be removed and, if so, it removes them.
+old-location: devinst\cm_query_and_remove_subtree.htm
+old-project: devinst
+ms.assetid: 0a80cddd-d5be-42cb-ba11-0a3292b973a3
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: CM_Query_And_Remove_SubTree, CM_Query_And_Remove_SubTree function [Device and Driver Installation], CM_Query_And_Remove_SubTreeW, cfgmgr32/CM_Query_And_Remove_SubTree, cfgmgr32/CM_Query_And_Remove_SubTreeW, cfgmgrfn_81d4975f-cc31-49aa-8fa7-984abd25c26b.xml, devinst.cm_query_and_remove_subtree
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CM_Query_And_Remove_SubTreeW (Unicode)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cfgmgr32.lib
+-	Cfgmgr32.dll
+-	API-Ms-Win-Devices-Config-L1-1-0.dll
+-	API-Ms-Win-Devices-Config-L1-1-1.dll
+-	CfgMgr32.dll
+api_name:
+-	CM_Query_And_Remove_SubTree
+-	CM_Query_And_Remove_SubTreeW
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 ---
 
 # CM_Query_And_Remove_SubTreeW function

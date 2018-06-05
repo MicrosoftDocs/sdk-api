@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._CHANGER_SEND_VOLUME_TAG_INFORMATION
+title: "_CHANGER_SEND_VOLUME_TAG_INFORMATION"
+author: windows-sdk-content
+description: Contains information that the IOCTL_CHANGER_QUERY_VOLUME_TAGS control code uses to determine the volume information to be retrieved.
+old-location: base\changer_send_volume_tag_information_str.htm
+old-project: DevIO
+ms.assetid: 96148983-48be-466d-be7f-c1dbf6910c20
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*PCHANGER_SEND_VOLUME_TAG_INFORMATION, ASSERT_ALTERNATE, ASSERT_PRIMARY, CHANGER_SEND_VOLUME_TAG_INFORMATION, CHANGER_SEND_VOLUME_TAG_INFORMATION structure, PCHANGER_SEND_VOLUME_TAG_INFORMATION, PCHANGER_SEND_VOLUME_TAG_INFORMATION structure pointer, REPLACE_ALTERNATE, REPLACE_PRIMARY, SEARCH_ALL, SEARCH_ALL_NO_SEQ, SEARCH_ALTERNATE, SEARCH_ALT_NO_SEQ, SEARCH_PRIMARY, SEARCH_PRI_NO_SEQ, UNDEFINE_ALTERNATE, UNDEFINE_PRIMARY, _CHANGER_SEND_VOLUME_TAG_INFORMATION, _win32_changer_send_volume_tag_information_str, base.changer_send_volume_tag_information_str, winioctl/CHANGER_SEND_VOLUME_TAG_INFORMATION, winioctl/PCHANGER_SEND_VOLUME_TAG_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CHANGER_SEND_VOLUME_TAG_INFORMATION, *PCHANGER_SEND_VOLUME_TAG_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	CHANGER_SEND_VOLUME_TAG_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CHANGER_SEND_VOLUME_TAG_INFORMATION structure

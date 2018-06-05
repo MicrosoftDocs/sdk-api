@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:ws2spi.LPNSPSETSERVICE
+title: LPNSPSETSERVICE
+author: windows-sdk-content
+description: Registers or deregisters a service instance within a namespace.
+old-location: winsock\nspsetservice_2.htm
+old-project: WinSock
+ms.assetid: df76ea75-c0bc-48b8-b1a7-0c510c5cc28d
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: LPNSPSETSERVICE, NSPSetService, NSPSetService function [Winsock], RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, _win32_nspsetservice_2, winsock.nspsetservice_2, ws2spi/NSPSetService
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ws2spi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOCKADDR_INET, *PSOCKADDR_INET
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Ws2spi.h
+api_name:
+-	NSPSetService
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # LPNSPSETSERVICE callback function

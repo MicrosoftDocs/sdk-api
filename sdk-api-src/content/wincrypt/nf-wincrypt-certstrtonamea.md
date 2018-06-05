@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CertStrToNameA
+title: CertStrToNameA function
+author: windows-sdk-content
+description: Converts a null-terminated X.500 string to an encoded certificate name.
+old-location: security\certstrtoname.htm
+old-project: SecCrypto
+ms.assetid: 8bdfafa6-9833-4689-a155-dff09647ec8d
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CERT_NAME_STR_COMMA_FLAG, CERT_NAME_STR_CRLF_FLAG, CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG, CERT_NAME_STR_ENABLE_PUNYCODE_FLAG, CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG, CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG, CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG, CERT_NAME_STR_NO_PLUS_FLAG, CERT_NAME_STR_NO_QUOTING_FLAG, CERT_NAME_STR_REVERSE_FLAG, CERT_NAME_STR_SEMICOLON_FLAG, CERT_OID_NAME_STR, CERT_SIMPLE_NAME_STR, CERT_X500_NAME_STR, CRYPT_E_INVALID_IA5_STRING, CRYPT_E_INVALID_NUMERIC_STRING, CRYPT_E_INVALID_PRINTABLE_STRING, CRYPT_E_INVALID_X500_STRING, CertStrToName, CertStrToName function [Security], CertStrToNameA, CertStrToNameW, X509_ASN_ENCODING, _crypto2_certstrtoname, security.certstrtoname, wincrypt/CertStrToName, wincrypt/CertStrToNameA, wincrypt/CertStrToNameW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CertStrToNameW (Unicode) and CertStrToNameA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CertStrToName
+-	CertStrToNameA
+-	CertStrToNameW
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CertStrToNameA function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vmr9.IVMRMixerControl9.GetProcAmpControlRange
+title: IVMRMixerControl9::GetProcAmpControlRange
+author: windows-sdk-content
+description: The GetProcAmpControlRange method retrieves the range of values for an image adjustment setting, such as brightness, contrast, hue, or saturation.
+old-location: dshow\ivmrmixercontrol9_getprocampcontrolrange.htm
+old-project: DirectShow
+ms.assetid: e7db2b22-b3d2-4c6f-84fc-5a287761ed7a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetProcAmpControlRange, GetProcAmpControlRange method [DirectShow], GetProcAmpControlRange method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetProcAmpControlRange method, IVMRMixerControl9.GetProcAmpControlRange, IVMRMixerControl9::GetProcAmpControlRange, IVMRMixerControl9GetProcAmpControlRange, dshow.ivmrmixercontrol9_getprocampcontrolrange, vmr9/IVMRMixerControl9::GetProcAmpControlRange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vmr9.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VMR9DeinterlaceTech
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IVMRMixerControl9.GetProcAmpControlRange
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVMRMixerControl9::GetProcAmpControlRange

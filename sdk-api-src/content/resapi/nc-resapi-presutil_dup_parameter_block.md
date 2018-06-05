@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:resapi.PRESUTIL_DUP_PARAMETER_BLOCK
+title: PRESUTIL_DUP_PARAMETER_BLOCK
+author: windows-sdk-content
+description: Performs a member-wise copy of the data from one parameter block to another.
+old-location: mscs\resutildupparameterblock.htm
+old-project: MsCS
+ms.assetid: b05b5afe-7d4b-4a21-9f28-88d6effaf5af
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PRESUTIL_DUP_PARAMETER_BLOCK, PRESUTIL_DUP_PARAMETER_BLOCK callback, PRESUTIL_DUP_PARAMETER_BLOCK callback function [Failover Cluster], _wolf_resutildupparameterblock, mscs.resutildupparameterblock, resapi/PRESUTIL_DUP_PARAMETER_BLOCK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: resapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RENDEZVOUS_SESSION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ResApi.h
+api_name:
+-	PRESUTIL_DUP_PARAMETER_BLOCK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PRESUTIL_DUP_PARAMETER_BLOCK callback function

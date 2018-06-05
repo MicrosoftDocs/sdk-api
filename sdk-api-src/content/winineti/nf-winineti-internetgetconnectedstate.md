@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winineti.InternetGetConnectedState
+title: InternetGetConnectedState function
+author: windows-sdk-content
+description: Note  Using this API is not recommended, use the INetworkListManager::GetConnectivity method instead. Retrieves the connected state of the local system.
+old-location: wininet\internetgetconnectedstate.htm
+old-project: WinInet
+ms.assetid: 500765b8-fbe4-4bba-894e-cc7f114d9eaa
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: INTERNET_CONNECTION_CONFIGURED, INTERNET_CONNECTION_LAN, INTERNET_CONNECTION_MODEM, INTERNET_CONNECTION_MODEM_BUSY, INTERNET_CONNECTION_OFFLINE, INTERNET_CONNECTION_PROXY, INTERNET_RAS_INSTALLED, InternetGetConnectedState, InternetGetConnectedState function [WinINet], _inet_internetgetconnectedstate_function, wininet.internetgetconnectedstate, winineti/InternetGetConnectedState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winineti.h
+req.include-header: Wininet.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INTERNET_AUTH_NOTIFY_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wininet.dll
+api_name:
+-	InternetGetConnectedState
+product: Windows
+targetos: Windows
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # InternetGetConnectedState function

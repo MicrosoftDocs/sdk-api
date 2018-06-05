@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dbghelp._IMAGEHLP_LINE
+title: "_IMAGEHLP_LINE"
+author: windows-sdk-content
+description: Represents a source file line.
+old-location: base\imagehlp_line64_str.htm
+old-project: Debug
+ms.assetid: 62124983-8381-4eb4-94f6-220b844aca45
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PIMAGEHLP_LINE, IMAGEHLP_LINE, IMAGEHLP_LINE structure, IMAGEHLP_LINE64, IMAGEHLP_LINE64 structure, IMAGEHLP_LINEW64, PIMAGEHLP_LINE64, PIMAGEHLP_LINE64 structure pointer, _IMAGEHLP_LINE, _IMAGEHLP_LINE64, _win32_imagehlp_line64_str, base.imagehlp_line64_str, dbghelp/IMAGEHLP_LINE64, dbghelp/IMAGEHLP_LINEW64, dbghelp/PIMAGEHLP_LINE64"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: IMAGEHLP_LINEW64 (Unicode) and IMAGEHLP_LINE64 (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_LINE, *PIMAGEHLP_LINE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DbgHelp.h
+api_name:
+-	IMAGEHLP_LINE64
+-	IMAGEHLP_LINE64
+-	IMAGEHLP_LINEW64
+-	IMAGEHLP_LINE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _IMAGEHLP_LINE structure

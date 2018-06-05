@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:audiomediatype._UNCOMPRESSEDAUDIOFORMAT
+title: "_UNCOMPRESSEDAUDIOFORMAT"
+author: windows-sdk-content
+description: The UNCOMPRESSEDAUDIOFORMAT structure specifies the frame rate, channel mask, and other attributes of the uncompressed audio data format.
+old-location: audio\uncompressedauudioformat.htm
+old-project: audio
+ms.assetid: b1d35067-7ef3-4c29-8b16-642300485695
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: UNCOMPRESSEDAUDIOFORMAT, UNCOMPRESSEDAUDIOFORMAT structure [Audio Devices], _UNCOMPRESSEDAUDIOFORMAT, aud-prop_077921c9-89ee-44ca-a585-d87e4d025c16.xml, audio.uncompressedauudioformat, audiomediatype/UNCOMPRESSEDAUUDIOFORMAT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: audiomediatype.h
+req.include-header: Audiomediatype.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Audiomediatype.h
+api_name:
+-	UNCOMPRESSEDAUDIOFORMAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: All levels.
 ---
 
 # _UNCOMPRESSEDAUDIOFORMAT structure

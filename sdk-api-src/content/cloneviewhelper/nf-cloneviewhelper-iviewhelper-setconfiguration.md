@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:cloneviewhelper.IViewHelper.SetConfiguration
+title: IViewHelper::SetConfiguration
+author: windows-sdk-content
+description: The SetConfiguration method passes in display data (display modes and topology data) to the underlying user-mode display driver that the driver should set.
+old-location: display\iviewhelper_setconfiguration.htm
+old-project: display
+ms.assetid: 8ec09950-afb6-43ff-8e05-4c801e49ba4b
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IViewHelper interface [Display Devices],SetConfiguration method, IViewHelper.SetConfiguration, IViewHelper::SetConfiguration, SetConfiguration, SetConfiguration method [Display Devices], SetConfiguration method [Display Devices],IViewHelper interface, TMM_Ref_3eec4d30-b77b-4ff5-88eb-a285efd5cf42.xml, cloneviewhelper/IViewHelper::SetConfiguration, display.iviewhelper_setconfiguration
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: cloneviewhelper.h
+req.include-header: Cloneviewhelper.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -22,10 +22,26 @@ req.umdf-ver:
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
-req.max-support: 
+req.max-support: Windows 7
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	cloneviewhelper.h
+api_name:
+-	IViewHelper.SetConfiguration
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IViewHelper::SetConfiguration

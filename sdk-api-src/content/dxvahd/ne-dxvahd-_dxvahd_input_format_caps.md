@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dxvahd._DXVAHD_INPUT_FORMAT_CAPS
+title: "_DXVAHD_INPUT_FORMAT_CAPS"
+author: windows-sdk-content
+description: Defines capabilities related to input formats for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
+old-location: mf\dxvahd_input_format_caps.htm
+old-project: medfound
+ms.assetid: ddfff29c-3a40-4238-93e7-821c4ffc27af
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DXVAHD_INPUT_FORMAT_CAPS, DXVAHD_INPUT_FORMAT_CAPS enumeration [Media Foundation], DXVAHD_INPUT_FORMAT_CAPS_PALETTE_INTERLACED, DXVAHD_INPUT_FORMAT_CAPS_RGB_INTERLACED, DXVAHD_INPUT_FORMAT_CAPS_RGB_LUMA_KEY, DXVAHD_INPUT_FORMAT_CAPS_RGB_PROCAMP, _DXVAHD_INPUT_FORMAT_CAPS, dxvahd/DXVAHD_INPUT_FORMAT_CAPS, dxvahd/DXVAHD_INPUT_FORMAT_CAPS_PALETTE_INTERLACED, dxvahd/DXVAHD_INPUT_FORMAT_CAPS_RGB_INTERLACED, dxvahd/DXVAHD_INPUT_FORMAT_CAPS_RGB_LUMA_KEY, dxvahd/DXVAHD_INPUT_FORMAT_CAPS_RGB_PROCAMP, mf.dxvahd_input_format_caps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxvahd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVAHD_INPUT_FORMAT_CAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxvahd.h
+api_name:
+-	DXVAHD_INPUT_FORMAT_CAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVAHD_INPUT_FORMAT_CAPS enumeration

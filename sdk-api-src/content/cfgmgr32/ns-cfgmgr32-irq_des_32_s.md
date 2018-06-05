@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:cfgmgr32.IRQ_Des_32_s
+title: IRQ_Des_32_s
+author: windows-sdk-content
+description: The IRQ_DES structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
+old-location: devinst\irq_des.htm
+old-project: devinst
+ms.assetid: fa8b8d96-6642-4f5a-b65c-0c7470340251
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PIRQ_DES_32, IRQ_DES, IRQ_DES structure [Device and Driver Installation], IRQ_DES_32, IRQ_Des_32_s, PIRQ_DES, PIRQ_DES structure pointer [Device and Driver Installation], cfgmgr32/IRQ_DES, cfgmgr32/PIRQ_DES, cfgmgrst_039f414c-eefc-46f0-acbe-a94d09406d92.xml, devinst.irq_des"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IRQ_DES_32, *PIRQ_DES_32
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	cfgmgr32.h
+api_name:
+-	IRQ_DES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IRQ_Des_32_s structure

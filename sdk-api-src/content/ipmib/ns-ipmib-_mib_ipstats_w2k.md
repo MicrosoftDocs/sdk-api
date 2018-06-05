@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipmib._MIB_IPSTATS_W2K
+title: "_MIB_IPSTATS_W2K"
+author: windows-sdk-content
+description: Stores information about the IP protocol running on a particular computer.
+old-location: mib\mib_ipstats.htm
+old-project: MIB
+ms.assetid: 920e71b6-247c-4442-9f66-704a6c878feb
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIB_IPSTATS, *PMIB_IPSTATS_W2K, MIB_IPSTATS, MIB_IPSTATS structure [MIB], MIB_IPSTATS_W2K, MIB_IP_FORWARDING, MIB_IP_NOT_FORWARDING, MIB_USE_CURRENT_FORWARDING, PMIB_IPSTATS, PMIB_IPSTATS structure pointer [MIB], _MIB_IPSTATS_W2K, _mpr_mib_ipstats, ipmib/MIB_IPSTATS, ipmib/PMIB_IPSTATS, iprtrmib/MIB_IPSTATS, iprtrmib/PMIB_IPSTATS, mib.mib_ipstats, rras.mib_ipstats"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_IPSTATS_W2K, *PMIB_IPSTATS_W2K
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipmib.h
+-	Iprtrmib.h
+api_name:
+-	MIB_IPSTATS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MIB_IPSTATS_W2K structure

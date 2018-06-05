@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:setupapi._SP_DRVINFO_DETAIL_DATA_W
+title: "_SP_DRVINFO_DETAIL_DATA_W"
+author: windows-sdk-content
+description: An SP_DRVINFO_DETAIL_DATA structure contains detailed information about a particular driver information structure.
+old-location: devinst\sp_drvinfo_detail_data.htm
+old-project: devinst
+ms.assetid: 6e16a90a-a876-471c-917b-a26229a9187a
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PSP_DRVINFO_DETAIL_DATA_W, PSP_DRVINFO_DETAIL_DATA, PSP_DRVINFO_DETAIL_DATA structure pointer [Device and Driver Installation], SP_DRVINFO_DETAIL_DATA, SP_DRVINFO_DETAIL_DATA structure [Device and Driver Installation], SP_DRVINFO_DETAIL_DATA_W, _SP_DRVINFO_DETAIL_DATA_W, devinst.sp_drvinfo_detail_data, di-struct_74ef2af7-e982-4041-9c39-605ca316359c.xml, setupapi/PSP_DRVINFO_DETAIL_DATA, setupapi/SP_DRVINFO_DETAIL_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SP_DRVINFO_DETAIL_DATA_W, *PSP_DRVINFO_DETAIL_DATA_W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	setupapi.h
+api_name:
+-	SP_DRVINFO_DETAIL_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SP_DRVINFO_DETAIL_DATA_W structure

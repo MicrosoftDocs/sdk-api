@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleidl.IOleClientSite.OnShowWindow
+title: IOleClientSite::OnShowWindow
+author: windows-sdk-content
+description: Notifies a container when an embedded object's window is about to become visible or invisible. This method does not apply to an object that is activated in place and therefore has no window separate from that of its container.
+old-location: com\ioleclientsite_onshowwindow.htm
+old-project: com
+ms.assetid: 9185add8-02d1-4bf3-99ff-82f64ba12ef4
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IOleClientSite interface [COM],OnShowWindow method, IOleClientSite.OnShowWindow, IOleClientSite::OnShowWindow, OnShowWindow, OnShowWindow method [COM], OnShowWindow method [COM],IOleClientSite interface, _ole_ioleclientsite_onshowwindow, com.ioleclientsite_onshowwindow, oleidl/IOleClientSite::OnShowWindow
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oleidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OleIdl.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERCLASSTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OleIdl.h
+api_name:
+-	IOleClientSite.OnShowWindow
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleClientSite::OnShowWindow

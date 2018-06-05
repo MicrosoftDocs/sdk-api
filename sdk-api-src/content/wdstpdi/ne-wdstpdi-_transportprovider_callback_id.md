@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wdstpdi._TRANSPORTPROVIDER_CALLBACK_ID
+title: "_TRANSPORTPROVIDER_CALLBACK_ID"
+author: windows-sdk-content
+description: This structure is used by the WdsTransportServerRegisterCallback function.
+old-location: wds\transportprovider_callback_id.htm
+old-project: Wds
+ms.assetid: 5e91f39b-4876-4523-817f-91467469344f
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*PTRANSPORTPROVIDER_CALLBACK_ID, TRANSPORTPROVIDER_CALLBACK_ID, TRANSPORTPROVIDER_CALLBACK_ID enumeration [Windows Deployment Services], TRANSPORTPROVIDER_CALLBACK_ID,*PTRANSPORTPROVIDER_CALLBACK_ID, TRANSPORTPROVIDER_CALLBACK_ID,*PTRANSPORTPROVIDER_CALLBACK_ID enumeration [Windows Deployment Services], WDS_TRANSPORTPROVIDER_CLOSE_CONTENT, WDS_TRANSPORTPROVIDER_CLOSE_INSTANCE, WDS_TRANSPORTPROVIDER_COMPARE_CONTENT, WDS_TRANSPORTPROVIDER_CREATE_INSTANCE, WDS_TRANSPORTPROVIDER_DUMP_STATE, WDS_TRANSPORTPROVIDER_GET_CONTENT_METADATA, WDS_TRANSPORTPROVIDER_GET_CONTENT_SIZE, WDS_TRANSPORTPROVIDER_MAX_CALLBACKS, WDS_TRANSPORTPROVIDER_OPEN_CONTENT, WDS_TRANSPORTPROVIDER_READ_CONTENT, WDS_TRANSPORTPROVIDER_REFRESH_SETTINGS, WDS_TRANSPORTPROVIDER_SHUTDOWN, WDS_TRANSPORTPROVIDER_USER_ACCESS_CHECK, _TRANSPORTPROVIDER_CALLBACK_ID, wds.transportprovider_callback_id, wdstpdi/ WDS_TRANSPORTPROVIDER_GET_CONTENT_METADATA, wdstpdi/ WDS_TRANSPORTPROVIDER_MAX_CALLBACKS, wdstpdi/TRANSPORTPROVIDER_CALLBACK_ID, wdstpdi/WDS_TRANSPORTPROVIDER_CLOSE_CONTENT, wdstpdi/WDS_TRANSPORTPROVIDER_CLOSE_INSTANCE, wdstpdi/WDS_TRANSPORTPROVIDER_COMPARE_CONTENT, wdstpdi/WDS_TRANSPORTPROVIDER_CREATE_INSTANCE, wdstpdi/WDS_TRANSPORTPROVIDER_DUMP_STATE, wdstpdi/WDS_TRANSPORTPROVIDER_GET_CONTENT_SIZE, wdstpdi/WDS_TRANSPORTPROVIDER_OPEN_CONTENT, wdstpdi/WDS_TRANSPORTPROVIDER_READ_CONTENT, wdstpdi/WDS_TRANSPORTPROVIDER_REFRESH_SETTINGS, wdstpdi/WDS_TRANSPORTPROVIDER_SHUTDOWN, wdstpdi/WDS_TRANSPORTPROVIDER_USER_ACCESS_CHECK"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wdstpdi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRANSPORTPROVIDER_CALLBACK_ID, *PTRANSPORTPROVIDER_CALLBACK_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wdstpdi.h
+api_name:
+-	TRANSPORTPROVIDER_CALLBACK_ID, *PTRANSPORTPROVIDER_CALLBACK_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _TRANSPORTPROVIDER_CALLBACK_ID enumeration

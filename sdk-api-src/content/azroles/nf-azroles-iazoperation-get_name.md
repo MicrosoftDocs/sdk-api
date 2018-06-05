@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzOperation.get_Name
+title: IAzOperation::get_Name
+author: windows-sdk-content
+description: Sets or retrieves the name of the operation.
+old-location: security\iazoperation_name.htm
+old-project: SecAuthZ
+ms.assetid: e1ebacda-513c-49f7-bb36-15229fdb0b3b
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AzOperation object [Security],Name property, IAzOperation interface [Security],Name property, IAzOperation.Name, IAzOperation.get_Name, IAzOperation::Name, IAzOperation::get_Name, IAzOperation::put_Name, Name property [Security], Name property [Security],AzOperation object, Name property [Security],IAzOperation interface, azroles/IAzOperation::Name, azroles/IAzOperation::get_Name, azroles/IAzOperation::put_Name, get_Name, security.iazoperation_name
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzOperation.Name
+-	IAzOperation.get_Name
+-	IAzOperation.put_Name
+-	AzOperation.Name
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzOperation::get_Name

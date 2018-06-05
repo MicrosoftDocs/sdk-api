@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:resapi.CLRES_V2_FUNCTIONS
+title: CLRES_V2_FUNCTIONS
+author: windows-sdk-content
+description: Contains pointers to all Resource API version 2.0 entry points except StartupEx.
+old-location: mscs\clres_v2_functions.htm
+old-project: MsCS
+ms.assetid: 81A5169E-C2AB-4666-9D9F-9DE4A639D0D6
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCLRES_V2_FUNCTIONS, CLRES_V2_FUNCTIONS, CLRES_V2_FUNCTIONS structure [Failover Cluster], PCLRES_V2_FUNCTIONS, PCLRES_V2_FUNCTIONS structure pointer [Failover Cluster], mscs.clres_v2_functions, resapi/CLRES_V2_FUNCTIONS, resapi/PCLRES_V2_FUNCTIONS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: resapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLRES_V2_FUNCTIONS, *PCLRES_V2_FUNCTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ResApi.h
+api_name:
+-	CLRES_V2_FUNCTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CLRES_V2_FUNCTIONS structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:featurestagingapi.FEATURE_ENABLED_STATE
+title: FEATURE_ENABLED_STATE
+author: windows-sdk-content
+description: This enumeration is intended for infrastructure use only.
+old-location: winprog\feature_enabled_state.htm
+old-project: DevNotes
+ms.assetid: 3517732F-926F-4A64-90EE-7923D03270AC
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: FEATURE_ENABLED_STATE, FEATURE_ENABLED_STATE enumeration [Windows API], FEATURE_ENABLED_STATE_DEFAULT, FEATURE_ENABLED_STATE_DISABLED, FEATURE_ENABLED_STATE_ENABLED, FEATURE_ENABLED_STATE_HAS_NOTIFICATION, featurestagingapi/FEATURE_ENABLED_STATE, featurestagingapi/FEATURE_ENABLED_STATE_DEFAULT, featurestagingapi/FEATURE_ENABLED_STATE_DISABLED, featurestagingapi/FEATURE_ENABLED_STATE_ENABLED, featurestagingapi/FEATURE_ENABLED_STATE_HAS_NOTIFICATION, winprog.feature_enabled_state
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: featurestagingapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FEATURE_ENABLED_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	featurestagingapi.h
+api_name:
+-	FEATURE_ENABLED_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FEATURE_ENABLED_STATE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:clusapi.PCLUSAPI_RESTART_CLUSTER_RESOURCE
+title: PCLUSAPI_RESTART_CLUSTER_RESOURCE
+author: windows-sdk-content
+description: Restarts a cluster resource.
+old-location: mscs\restartclusterresource.htm
+old-project: MsCS
+ms.assetid: 4DF2EF5A-F9F2-4230-96D8-F4B2CB6E4B92
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PCLUSAPI_RESTART_CLUSTER_RESOURCE, PCLUSAPI_RESTART_CLUSTER_RESOURCE callback, PCLUSAPI_RESTART_CLUSTER_RESOURCE callback function [Failover Cluster], clusapi/PCLUSAPI_RESTART_CLUSTER_RESOURCE, mscs.restartclusterresource
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,21 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: Sources
+topic_type:
+-	kbSyntax
+api_type:
+-	<TBD>
+api_location:
+-
+api_name:
+-	PCLUSAPI_RESTART_CLUSTER_RESOURCE callback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PCLUSAPI_RESTART_CLUSTER_RESOURCE callback function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iads._ads_vlv
+title: "_ads_vlv"
+author: windows-sdk-content
+description: Contains metadata used to conduct virtual list view (VLV) searches.
+old-location: adsi\ads_vlv.htm
+old-project: ADSI
+ms.assetid: bd8eab9f-9b44-4cef-b828-6e7c7c3e19bb
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PADS_VLV, ADS_VLV, ADS_VLV structure [ADSI], _ads_vlv, _ds_ads_vlv, adsi.ads__vlv, adsi.ads_vlv, iads/ADS_VLV"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_VLV, *PADS_VLV
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_VLV
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _ads_vlv structure

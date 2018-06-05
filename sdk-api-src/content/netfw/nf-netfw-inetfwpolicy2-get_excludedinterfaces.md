@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netfw.INetFwPolicy2.get_ExcludedInterfaces
+title: INetFwPolicy2::get_ExcludedInterfaces
+author: windows-sdk-content
+description: Specifies a list of interfaces on which firewall settings are excluded.
+old-location: ics\inetfwpolicy2_excludedinterfaces.htm
+old-project: ICS
+ms.assetid: 0e8cbb09-c146-42e9-9b7c-002e6775bf19
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: ExcludedInterfaces property [ICS/ICF], ExcludedInterfaces property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],ExcludedInterfaces property, INetFwPolicy2.ExcludedInterfaces, INetFwPolicy2.get_ExcludedInterfaces, INetFwPolicy2::ExcludedInterfaces, INetFwPolicy2::get_ExcludedInterfaces, INetFwPolicy2::put_ExcludedInterfaces, get_ExcludedInterfaces, ics.inetfwpolicy2_excludedinterfaces, netfw/INetFwPolicy2::ExcludedInterfaces, netfw/INetFwPolicy2::get_ExcludedInterfaces, netfw/INetFwPolicy2::put_ExcludedInterfaces
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETISO_ERROR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FirewallAPI.dll
+api_name:
+-	INetFwPolicy2.ExcludedInterfaces
+-	INetFwPolicy2.get_ExcludedInterfaces
+-	INetFwPolicy2.put_ExcludedInterfaces
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetFwPolicy2::get_ExcludedInterfaces

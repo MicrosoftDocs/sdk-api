@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi._XLATEOBJ
+title: "_XLATEOBJ"
+author: windows-sdk-content
+description: The XLATEOBJ structure is used to translate color indexes from one palette to another.
+old-location: display\xlateobj.htm
+old-project: display
+ms.assetid: 08bdead0-290a-4b23-8118-5f1f941e439f
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: XLATEOBJ, XLATEOBJ structure [Display Devices], _XLATEOBJ, display.xlateobj, grstrcts_36b2a277-ceee-4ee5-9dd6-55088df73d85.xml, winddi/XLATEOBJ
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XLATEOBJ
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	XLATEOBJ
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _XLATEOBJ structure

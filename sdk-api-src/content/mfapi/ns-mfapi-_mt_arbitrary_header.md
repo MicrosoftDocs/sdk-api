@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mfapi._MT_ARBITRARY_HEADER
+title: "_MT_ARBITRARY_HEADER"
+author: windows-sdk-content
+description: Contains format data for a binary stream in an Advanced Streaming Format (ASF) file.
+old-location: mf\mt_arbitrary_header.htm
+old-project: medfound
+ms.assetid: efe2ceb7-32f5-4a43-b4d9-807fe66d6edb
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MT_ARBITRARY_HEADER, MT_ARBITRARY_HEADER structure [Media Foundation], _MT_ARBITRARY_HEADER, mf.mt_arbitrary_header, mfapi/MT_ARBITRARY_HEADER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MT_ARBITRARY_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfapi.h
+api_name:
+-	MT_ARBITRARY_HEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MT_ARBITRARY_HEADER structure

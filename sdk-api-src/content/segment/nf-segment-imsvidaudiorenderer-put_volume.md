@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:segment.IMSVidAudioRenderer.put_Volume
+title: IMSVidAudioRenderer::put_Volume
+author: windows-sdk-content
+description: The put_Volume method specifies the audio renderer's volume level.
+old-location: mstv\imsvidaudiorenderer_put_volume.htm
+old-project: mstv
+ms.assetid: a0fa96bb-a903-41e1-bd2a-6ef1733adbd4
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],put_Volume method, IMSVidAudioRenderer.put_Volume, IMSVidAudioRenderer::put_Volume, IMSVidAudioRendererput_Volume, mstv.imsvidaudiorenderer_put_volume, put_Volume, put_Volume method [Microsoft TV Technologies], put_Volume method [Microsoft TV Technologies],IMSVidAudioRenderer interface, segment/IMSVidAudioRenderer::put_Volume
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidAudioRenderer.put_Volume
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidAudioRenderer::put_Volume

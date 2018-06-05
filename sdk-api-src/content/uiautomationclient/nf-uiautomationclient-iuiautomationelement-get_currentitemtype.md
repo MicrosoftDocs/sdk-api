@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentItemType
+title: IUIAutomationElement::get_CurrentItemType
+author: windows-sdk-content
+description: Retrieves a description of the type of UI item represented by the element.
+old-location: winauto\uiauto_IUIAutomationElement_CurrentItemType.htm
+old-project: WinAuto
+ms.assetid: 773960d8-40f2-4015-9b9d-6bfc05a72115
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CurrentItemType property [Windows Accessibility], CurrentItemType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentItemType property, IUIAutomationElement.CurrentItemType, IUIAutomationElement.get_CurrentItemType, IUIAutomationElement::CurrentItemType, IUIAutomationElement::get_CurrentItemType, get_CurrentItemType, uiauto.uiauto_IUIAutomationElement_CurrentItemType, uiauto_IUIAutomationElement_CurrentItemType, uiautomationclient/IUIAutomationElement::CurrentItemType, uiautomationclient/IUIAutomationElement::get_CurrentItemType, winauto.uiauto_IUIAutomationElement_CurrentItemType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationElement.CurrentItemType
+-	IUIAutomationElement.get_CurrentItemType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationElement::get_CurrentItemType

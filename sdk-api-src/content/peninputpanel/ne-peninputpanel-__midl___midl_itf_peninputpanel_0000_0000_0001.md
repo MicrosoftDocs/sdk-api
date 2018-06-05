@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0001
+title: "__MIDL___MIDL_itf_peninputpanel_0000_0000_0001"
+author: windows-sdk-content
+description: Specifies the interaction modes that can be chosen by the user for the Tablet PC Input Panel.
+old-location: tablet\interactionmode.htm
+old-project: tablet
+ms.assetid: 8e01c1fd-3351-47f1-beae-c84d9f7969a8
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 8e01c1fd-3351-47f1-beae-c84d9f7969a8, InteractionMode, InteractionMode enumeration [Tablet PC], InteractionMode_DockedBottom, InteractionMode_DockedTop, InteractionMode_Floating, InteractionMode_InPlace, __MIDL___MIDL_itf_peninputpanel_0000_0000_0001, peninputpanel/InteractionMode, peninputpanel/InteractionMode_DockedBottom, peninputpanel/InteractionMode_DockedTop, peninputpanel/InteractionMode_Floating, peninputpanel/InteractionMode_InPlace, tablet.interactionmode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: peninputpanel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InteractionMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	peninputpanel.h
+api_name:
+-	InteractionMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_peninputpanel_0000_0000_0001 enumeration

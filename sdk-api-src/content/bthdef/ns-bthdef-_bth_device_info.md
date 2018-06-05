@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bthdef._BTH_DEVICE_INFO
+title: "_BTH_DEVICE_INFO"
+author: windows-sdk-content
+description: Stores information about a Bluetooth device.
+old-location: bluetooth\bth_device_info.htm
+old-project: Bluetooth
+ms.assetid: b0f2c1fe-1fa0-4816-8471-73fbbced529b
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PBTH_DEVICE_INFO, *PBTH_DEVICE_INFO structure [Bluetooth], BDIF_ADDRESS, BDIF_COD, BDIF_CONNECTED, BDIF_NAME, BDIF_PAIRED, BDIF_PERSONAL, BDIF_SSP_MITM_PROTECTED, BDIF_SSP_PAIRED, BDIF_SSP_SUPPORTED, BTH_DEVICE_INFO, BTH_DEVICE_INFO structure [Bluetooth], COD_MAJOR_AUDIO, COD_MAJOR_COMPUTER, COD_MAJOR_IMAGING, COD_MAJOR_LAN_ACCESS, COD_MAJOR_MISCELLANEOUS, COD_MAJOR_PERIPHERAL, COD_MAJOR_PHONE, COD_MAJOR_UNCLASSIFIED, COD_SERVICE_AUDIO, COD_SERVICE_CAPTURING, COD_SERVICE_INFORMATION, COD_SERVICE_LIMITED, COD_SERVICE_NETWORKING, COD_SERVICE_OBJECT_XFER, COD_SERVICE_POSITIONING, COD_SERVICE_RENDERING, COD_SERVICE_TELEPHONY, _BTH_DEVICE_INFO, bluetooth.bth_device_info, bthdef/*PBTH_DEVICE_INFO, bthdef/BTH_DEVICE_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bthdef.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BTH_DEVICE_INFO, *PBTH_DEVICE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bthdef.h
+api_name:
+-	BTH_DEVICE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BTH_DEVICE_INFO structure

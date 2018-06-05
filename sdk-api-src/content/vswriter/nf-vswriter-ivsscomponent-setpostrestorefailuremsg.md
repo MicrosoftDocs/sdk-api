@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vswriter.IVssComponent.SetPostRestoreFailureMsg
+title: IVssComponent::SetPostRestoreFailureMsg
+author: windows-sdk-content
+description: The SetPostRestoreFailureMsg method is used to create a message describing a failure in processing a PostRestore event.
+old-location: base\ivsscomponent_setpostrestorefailuremsg.htm
+old-project: VSS
+ms.assetid: 1059a586-69e2-4a02-8f52-b8da3f04f51c
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IVssComponent interface [VSS],SetPostRestoreFailureMsg method, IVssComponent.SetPostRestoreFailureMsg, IVssComponent::SetPostRestoreFailureMsg, SetPostRestoreFailureMsg, SetPostRestoreFailureMsg method [VSS], SetPostRestoreFailureMsg method [VSS],IVssComponent interface, _win32_ivsscomponent_setpostrestorefailuremsg, base.ivsscomponent_setpostrestorefailuremsg, vswriter/IVssComponent::SetPostRestoreFailureMsg
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vswriter.h
+req.include-header: Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssComponent.SetPostRestoreFailureMsg
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssComponent::SetPostRestoreFailureMsg

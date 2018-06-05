@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:appmgmt._LOCALMANAGEDAPPLICATION
+title: "_LOCALMANAGEDAPPLICATION"
+author: windows-sdk-content
+description: The LOCALMANAGEDAPPLICATION structure describes a managed application installed for a user or a computer. Returned by the GetLocalManagedApplications function.
+old-location: policy\localmanagedapplication_str.htm
+old-project: Policy
+ms.assetid: b2b7d209-76ee-4ba4-ac61-034d2c8e0689
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PLOCALMANAGEDAPPLICATION, LOCALMANAGEDAPPLICATION, LOCALMANAGEDAPPLICATION structure [Group Policy], LOCAL_STATE_ASSIGNED, LOCAL_STATE_POLICYREMOVE_ORPHAN, LOCAL_STATE_POLICYREMOVE_UNINSTALL, LOCAL_STATE_PUBLISHED, LOCAL_STATE_UNINSTALL_UNMANAGED, PLOCALMANAGEDAPPLICATION, PLOCALMANAGEDAPPLICATION structure pointer [Group Policy], _LOCALMANAGEDAPPLICATION, appmgmt/LOCALMANAGEDAPPLICATION, appmgmt/PLOCALMANAGEDAPPLICATION, policy.localmanagedapplication_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: appmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOCALMANAGEDAPPLICATION, *PLOCALMANAGEDAPPLICATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Appmgmt.h
+api_name:
+-	LOCALMANAGEDAPPLICATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _LOCALMANAGEDAPPLICATION structure

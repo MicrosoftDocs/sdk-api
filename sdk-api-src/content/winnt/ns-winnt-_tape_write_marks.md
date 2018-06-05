@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._TAPE_WRITE_MARKS
+title: "_TAPE_WRITE_MARKS"
+author: windows-sdk-content
+description: Describes the type and number of tapemarks to write.
+old-location: backup\tape_write_marks_str.htm
+old-project: Backup
+ms.assetid: fd2f2a69-7683-430a-a60b-0fc70c1ab60f
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS structure pointer [Backup], TAPE_FILEMARKS, TAPE_LONG_FILEMARKS, TAPE_SETMARKS, TAPE_SHORT_FILEMARKS, TAPE_WRITE_MARKS, TAPE_WRITE_MARKS structure [Backup], _TAPE_WRITE_MARKS, _win32_tape_write_marks_str, backup.tape_write_marks_str, winnt/PTAPE_WRITE_MARKS, winnt/TAPE_WRITE_MARKS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	TAPE_WRITE_MARKS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _TAPE_WRITE_MARKS structure

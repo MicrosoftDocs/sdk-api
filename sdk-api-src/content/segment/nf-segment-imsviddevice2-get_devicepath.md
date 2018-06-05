@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:segment.IMSVidDevice2.get_DevicePath
+title: IMSVidDevice2::get_DevicePath
+author: windows-sdk-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.
+old-location: mstv\imsviddevice2_get_devicepath.htm
+old-project: mstv
+ms.assetid: 4a0191d7-2b10-4f7e-96e1-263ddd718229
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMSVidDevice2 interface [Microsoft TV Technologies],get_DevicePath method, IMSVidDevice2.get_DevicePath, IMSVidDevice2::get_DevicePath, IMSVidDevice2get_DevicePath, get_DevicePath, get_DevicePath method [Microsoft TV Technologies], get_DevicePath method [Microsoft TV Technologies],IMSVidDevice2 interface, mstv.imsviddevice2_get_devicepath, segment/IMSVidDevice2::get_DevicePath
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidDevice2.get_DevicePath
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidDevice2::get_DevicePath

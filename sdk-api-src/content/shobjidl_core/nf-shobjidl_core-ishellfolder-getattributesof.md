@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IShellFolder.GetAttributesOf
+title: IShellFolder::GetAttributesOf
+author: windows-sdk-content
+description: Gets the attributes of one or more file or folder objects contained in the object represented by IShellFolder.
+old-location: shell\IShellFolder_GetAttributesOf.htm
+old-project: shell
+ms.assetid: 3864b386-7653-4661-880c-e96c08ff0dbb
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetAttributesOf, GetAttributesOf method [Windows Shell], GetAttributesOf method [Windows Shell],IShellFolder interface, GetAttributesOf method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],GetAttributesOf method, IShellFolder.GetAttributesOf, IShellFolder2 interface [Windows Shell],GetAttributesOf method, IShellFolder2::GetAttributesOf, IShellFolder::GetAttributesOf, _win32_IShellFolder_GetAttributesOf, shell.IShellFolder_GetAttributesOf, shobjidl_core/IShellFolder2::GetAttributesOf, shobjidl_core/IShellFolder::GetAttributesOf
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IShellFolder.GetAttributesOf
+-	IShellFolder2.GetAttributesOf
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IShellFolder::GetAttributesOf

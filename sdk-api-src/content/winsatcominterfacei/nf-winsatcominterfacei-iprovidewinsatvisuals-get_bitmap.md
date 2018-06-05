@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsatcominterfacei.IProvideWinSATVisuals.get_Bitmap
+title: IProvideWinSATVisuals::get_Bitmap
+author: windows-sdk-content
+description: Retrieves a bitmap for the WinSAT base score.
+old-location: winsat\iprovidewinsatvisuals_get_bitmap.htm
+old-project: WinSAT
+ms.assetid: 90188fb1-3125-459e-a475-5042c2ee0a5c
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IProvideWinSATVisuals interface [WinSAT],get_Bitmap method, IProvideWinSATVisuals.get_Bitmap, IProvideWinSATVisuals::get_Bitmap, get_Bitmap, get_Bitmap method [WinSAT], get_Bitmap method [WinSAT],IProvideWinSATVisuals interface, winsat.iprovidewinsatvisuals_get_bitmap, winsatcominterfacei/IProvideWinSATVisuals::get_Bitmap
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winsatcominterfacei.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINSAT_BITMAP_SIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Winsatapi.dll
+api_name:
+-	IProvideWinSATVisuals.get_Bitmap
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IProvideWinSATVisuals::get_Bitmap

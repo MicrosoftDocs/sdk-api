@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.MFCreateTranscodeProfile
+title: MFCreateTranscodeProfile function
+author: windows-sdk-content
+description: Creates an empty transcode profile object.
+old-location: mf\mfcreatetranscodeprofile.htm
+old-project: medfound
+ms.assetid: 2a482c6f-6e20-419a-a7eb-085c41cc8186
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFCreateTranscodeProfile, MFCreateTranscodeProfile function [Media Foundation], mf.mfcreatetranscodeprofile, mfidl/MFCreateTranscodeProfile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	mf.dll
+api_name:
+-	MFCreateTranscodeProfile
+product: Windows
+targetos: Windows
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MFCreateTranscodeProfile function

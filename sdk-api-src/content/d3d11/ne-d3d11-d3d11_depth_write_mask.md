@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d11.D3D11_DEPTH_WRITE_MASK
+title: D3D11_DEPTH_WRITE_MASK
+author: windows-sdk-content
+description: Identify the portion of a depth-stencil buffer for writing depth data.
+old-location: direct3d11\d3d11_depth_write_mask.htm
+old-project: direct3d11
+ms.assetid: 8f61d53d-5bfc-4966-84b8-7ddd46008f5e
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 9c3d009a-7018-dfd4-2e89-34daef69b3b7, D3D11_DEPTH_WRITE_MASK, D3D11_DEPTH_WRITE_MASK enumeration [Direct3D 11], D3D11_DEPTH_WRITE_MASK_ALL, D3D11_DEPTH_WRITE_MASK_ZERO, d3d11/D3D11_DEPTH_WRITE_MASK, d3d11/D3D11_DEPTH_WRITE_MASK_ALL, d3d11/D3D11_DEPTH_WRITE_MASK_ZERO, direct3d11.d3d11_depth_write_mask
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_DEPTH_WRITE_MASK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	D3D11_DEPTH_WRITE_MASK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_DEPTH_WRITE_MASK enumeration

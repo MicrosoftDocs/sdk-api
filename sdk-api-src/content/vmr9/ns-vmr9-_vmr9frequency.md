@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:vmr9._VMR9Frequency
+title: "_VMR9Frequency"
+author: windows-sdk-content
+description: The VMR9Frequency structure describes the frequency of a video stream. Frequencies are described as ratios. For example, the NTSC frame rate of 29.97 fps is expressed as 30,000:1001.
+old-location: dshow\vmr9frequency.htm
+old-project: DirectShow
+ms.assetid: a2d19dcf-521e-4df0-8e28-5561f2617411
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: VMR9Frequency, VMR9Frequency structure [DirectShow], VMR9FrequencyStructure, _VMR9Frequency, dshow.vmr9frequency, vmr9/VMR9Frequency
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vmr9.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VMR9Frequency
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vmr9.h
+api_name:
+-	VMR9Frequency
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VMR9Frequency structure

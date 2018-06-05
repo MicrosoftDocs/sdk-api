@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.tagDVD_AUDIO_FORMAT
+title: tagDVD_AUDIO_FORMAT
+author: windows-sdk-content
+description: Indicates the audio format of a DVD.
+old-location: dshow\dvd_audio_format.htm
+old-project: DirectShow
+ms.assetid: 99fffd6b-a37f-4dac-8849-0409caba3c13
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DVD_AUDIO_FORMAT, DVD_AUDIO_FORMAT , DVD_AUDIO_FORMAT enumeration [DirectShow], DVD_AUDIO_FORMATEnumeration, DVD_AudioFormat_AC3, DVD_AudioFormat_DTS, DVD_AudioFormat_LPCM, DVD_AudioFormat_MPEG1, DVD_AudioFormat_MPEG1_DRC, DVD_AudioFormat_MPEG2, DVD_AudioFormat_MPEG2_DRC, DVD_AudioFormat_Other, DVD_AudioFormat_SDDS, dshow.dvd_audio_format, strmif/DVD_AUDIO_FORMAT, strmif/DVD_AudioFormat_AC3, strmif/DVD_AudioFormat_DTS, strmif/DVD_AudioFormat_LPCM, strmif/DVD_AudioFormat_MPEG1, strmif/DVD_AudioFormat_MPEG1_DRC, strmif/DVD_AudioFormat_MPEG2, strmif/DVD_AudioFormat_MPEG2_DRC, strmif/DVD_AudioFormat_Other, strmif/DVD_AudioFormat_SDDS, tagDVD_AUDIO_FORMAT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_AUDIO_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	DVD_AUDIO_FORMAT
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # tagDVD_AUDIO_FORMAT enumeration

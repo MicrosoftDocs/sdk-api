@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dbghelp.SYMSRV_INDEX_INFO
+title: SYMSRV_INDEX_INFO
+author: windows-sdk-content
+description: Contains symbol server index information.
+old-location: base\symsrv_index_info.htm
+old-project: Debug
+ms.assetid: 110cf21c-7768-48fd-bfdc-1f7cd30ca291
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO structure pointer, SYMSRV_INDEX_INFO, SYMSRV_INDEX_INFO structure, SYMSRV_INDEX_INFOW, base.symsrv_index_info, dbghelp/PSYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFOW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SYMSRV_INDEX_INFOW (Unicode) and SYMSRV_INDEX_INFO (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYMSRV_INDEX_INFO, *PSYMSRV_INDEX_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dbghelp.h
+api_name:
+-	SYMSRV_INDEX_INFO
+-	SYMSRV_INDEX_INFO
+-	SYMSRV_INDEX_INFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # SYMSRV_INDEX_INFO structure

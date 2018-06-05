@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntmsapi._NTMS_LIBREQUESTINFORMATIONA
+title: "_NTMS_LIBREQUESTINFORMATIONA"
+author: windows-sdk-content
+description: The NTMS_LIBREQUESTINFORMATION structure defines the properties specific to a work request, which are queued to RSM.
+old-location: fs\ntms_librequestinformation.htm
+old-project: Rsm
+ms.assetid: 0250ed88-410c-4fe3-8188-5e6253d45dc4
+ms.author: windowssdkdev
+ms.date: 04/05/2018
+ms.keywords: NTMS_LIBREQUESTINFORMATION, NTMS_LIBREQUESTINFORMATION structure [Files], NTMS_LIBREQUESTINFORMATIONA, NTMS_LM_CANCELLED, NTMS_LM_CLASSIFY, NTMS_LM_CLEANDRIVE, NTMS_LM_DISABLEDRIVE, NTMS_LM_DISABLELIBRARY, NTMS_LM_DISABLEMEDIA, NTMS_LM_DISMOUNT, NTMS_LM_DOORACCESS, NTMS_LM_EJECT, NTMS_LM_EJECTCLEANER, NTMS_LM_ENABLEDRIVE, NTMS_LM_ENABLELIBRARY, NTMS_LM_ENABLEMEDIA, NTMS_LM_FAILED, NTMS_LM_INJECT, NTMS_LM_INJECTCLEANER, NTMS_LM_INPROCESS, NTMS_LM_INVALID, NTMS_LM_INVENTORY, NTMS_LM_MOUNT, NTMS_LM_PASSED, NTMS_LM_PROCESSOMID, NTMS_LM_QUEUED, NTMS_LM_RELEASECLEANER, NTMS_LM_REMOVE, NTMS_LM_RESERVECLEANER, NTMS_LM_UPDATEOMID, NTMS_LM_WAITING, NTMS_LM_WRITESCRATCH, _NTMS_LIBREQUESTINFORMATIONA, _NTMS_LIBREQUESTINFORMATIONW, _zaw_ntms_librequestinformation, base.ntms_librequestinformation, fs.ntms_librequestinformation, ntmsapi/NTMS_LIBREQUESTINFORMATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntmsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NTMS_LIBREQUESTINFORMATIONA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntmsapi.h
+api_name:
+-	NTMS_LIBREQUESTINFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NTMS_LIBREQUESTINFORMATIONA structure

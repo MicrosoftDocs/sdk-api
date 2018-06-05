@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:inkpresenterdesktop.IInkDesktopHost.CreateAndInitializeInkPresenter
+title: IInkDesktopHost::CreateAndInitializeInkPresenter
+author: windows-sdk-content
+description: Creates an IInkPresenterDesktop object on an application thread, connects it to the app's DirectComposition visual tree, and sets the size of the object.
+old-location: input_ink\iinkdesktophost_createandinitializeinkpresenter.htm
+old-project: input_ink
+ms.assetid: 596e1180-04ca-474b-b519-f9ebe468fb6a
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: CreateAndInitializeInkPresenter, CreateAndInitializeInkPresenter method, CreateAndInitializeInkPresenter method,IInkDesktopHost interface, IInkDesktopHost interface,CreateAndInitializeInkPresenter method, IInkDesktopHost.CreateAndInitializeInkPresenter, IInkDesktopHost::CreateAndInitializeInkPresenter, InkPresenterDesktop.iinkdesktophost_createandinitializeinkpresenter, inkpresenterdesktop/IInkDesktopHost::CreateAndInitializeInkPresenter, input_ink.iinkdesktophost_createandinitializeinkpresenter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: inkpresenterdesktop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: InkPresenterDesktop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkPresenterDesktop.h
+api_name:
+-	IInkDesktopHost.CreateAndInitializeInkPresenter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IInkDesktopHost::CreateAndInitializeInkPresenter

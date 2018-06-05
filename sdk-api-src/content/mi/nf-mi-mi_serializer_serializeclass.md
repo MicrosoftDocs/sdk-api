@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mi.MI_Serializer_SerializeClass
+title: MI_Serializer_SerializeClass function
+author: windows-sdk-content
+description: Serializes an MI_Class into a buffer in the format specified when the serializer was created. Options can be passed into the flags to control if the class and all its parent classes are serialized, or just the child-most class.
+old-location: wmi_v2\mi_serializer_serializeclass.htm
+old-project: wmi_v2
+ms.assetid: 3417731d-8727-4dcb-8ce4-2b07b6addd19
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: MI_Serializer_SerializeClass, MI_Serializer_SerializeClass function [Windows Management Infrastructure (MI)], mi/MI_Serializer_SerializeClass, wmi_v2.mi_serializer_serializeclass
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MI_Type
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_Serializer_SerializeClass
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MI_Serializer_SerializeClass function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._SYSTEM_ALARM_OBJECT_ACE
+title: "_SYSTEM_ALARM_OBJECT_ACE"
+author: windows-sdk-content
+description: Defines an access control entry (ACE) for a system access control list (SACL).
+old-location: security\system_audit_object_ace.htm
+old-project: SecAuthZ
+ms.assetid: de37bef6-e6c8-4455-856a-adebebda4cc7
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PSYSTEM_ALARM_OBJECT_ACE, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP and/or ADS_RIGHT_DS_WRITE_PROP, ADS_RIGHT_DS_SELF, PSYSTEM_ALARM_OBJECT_ACE, PSYSTEM_ALARM_OBJECT_ACE structure pointer [Security], SYSTEM_ALARM_OBJECT_ACE, SYSTEM_AUDIT_OBJECT_ACE, SYSTEM_AUDIT_OBJECT_ACE structure [Security], _SYSTEM_ALARM_OBJECT_ACE, _SYSTEM_AUDIT_OBJECT_ACE, _win32_system_audit_object_ace_str, security.system_audit_object_ace, winnt/PSYSTEM_ALARM_OBJECT_ACE, winnt/SYSTEM_AUDIT_OBJECT_ACE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYSTEM_ALARM_OBJECT_ACE, *PSYSTEM_ALARM_OBJECT_ACE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	SYSTEM_AUDIT_OBJECT_ACE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SYSTEM_ALARM_OBJECT_ACE structure

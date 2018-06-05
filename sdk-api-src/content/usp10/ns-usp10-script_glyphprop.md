@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:usp10.script_glyphprop
+title: script_glyphprop
+author: windows-sdk-content
+description: Contains information about a glyph that is part of an output glyph array.
+old-location: intl\script_glyphprop.htm
+old-project: Intl
+ms.assetid: 5d68c8b6-77dd-48f7-b05a-0c02c9271097
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SCRIPT_GLYPHPROP, SCRIPT_GLYPHPROP structure [Internationalization for Windows Applications], _win32_SCRIPT_GLYPHPROP, intl.script_glyphprop, script_glyphprop, usp10/SCRIPT_GLYPHPROP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: usp10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCRIPT_GLYPHPROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Usp10.h
+api_name:
+-	SCRIPT_GLYPHPROP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # script_glyphprop structure

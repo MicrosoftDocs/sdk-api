@@ -1,31 +1,55 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shellapi.ShellMessageBoxW
+title: ShellMessageBoxW function
+author: windows-sdk-content
+description: ShellMessageBox may be altered or unavailable.
+old-location: shell\ShellMessageBox.htm
+old-project: shell
+ms.assetid: 7cbaeae3-3473-4568-90ab-63efef049af3
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ShellMessageBox, ShellMessageBox function [Windows Shell], ShellMessageBoxA, ShellMessageBoxW, _win32_ShellMessageBox, shell.ShellMessageBox, shellapi/ShellMessageBox, shellapi/ShellMessageBoxA, shellapi/ShellMessageBoxW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shellapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ShellMessageBoxW (Unicode) and ShellMessageBoxA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHSTOCKICONID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+-	API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+-	Ext-MS-Win-shell-shlwapi-l1-1-0.dll
+-	api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+-	Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
+-	Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
+api_name:
+-	ShellMessageBox
+-	ShellMessageBoxA
+-	ShellMessageBoxW
+product: Windows
+targetos: Windows
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # ShellMessageBoxW function

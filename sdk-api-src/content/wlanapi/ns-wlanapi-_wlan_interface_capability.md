@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wlanapi._WLAN_INTERFACE_CAPABILITY
+title: "_WLAN_INTERFACE_CAPABILITY"
+author: windows-sdk-content
+description: Contains information about the capabilities of an interface.
+old-location: nwifi\wlan_interface_capability.htm
+old-project: NativeWiFi
+ms.assetid: db7a9066-d699-4860-90cd-dc3f4bf42549
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_INTERFACE_CAPABILITY, PWLAN_INTERFACE_CAPABILITY, PWLAN_INTERFACE_CAPABILITY structure pointer [NativeWIFI], WLAN_INTERFACE_CAPABILITY, WLAN_INTERFACE_CAPABILITY structure [NativeWIFI], _WLAN_INTERFACE_CAPABILITY, nwifi.wlan_interface_capability, wlanapi/PWLAN_INTERFACE_CAPABILITY, wlanapi/WLAN_INTERFACE_CAPABILITY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_INTERFACE_CAPABILITY, *PWLAN_INTERFACE_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wlanapi.h
+api_name:
+-	WLAN_INTERFACE_CAPABILITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_INTERFACE_CAPABILITY structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:webservices._WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE
+title: "_WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE"
+author: windows-sdk-content
+description: The security binding template for specifying the use of an application supplied username / password pair as a direct (i.e., one-shot) security token.
+old-location: wsw\ws_username_message_security_binding_template.htm
+old-project: wsw
+ms.assetid: c538c670-9a61-4891-9f63-e0eea12ee224
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE, WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], _WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE, webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE, wsw.ws_username_message_security_binding_template
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE structure

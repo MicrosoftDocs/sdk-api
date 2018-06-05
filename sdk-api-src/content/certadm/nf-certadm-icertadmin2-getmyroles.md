@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certadm.ICertAdmin2.GetMyRoles
+title: ICertAdmin2::GetMyRoles
+author: windows-sdk-content
+description: Retrieves the certification authority (CA) roles of the caller.
+old-location: security\icertadmin2_getmyroles.htm
+old-project: SecCrypto
+ms.assetid: 1378f1ad-1e01-4f09-869c-f450b9b2f454
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CA_ACCESS_ADMIN, CA_ACCESS_AUDITOR, CA_ACCESS_ENROLL, CA_ACCESS_OFFICER, CA_ACCESS_OPERATOR, CA_ACCESS_READ, GetMyRoles, GetMyRoles method [Security], GetMyRoles method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetMyRoles method, ICertAdmin2.GetMyRoles, ICertAdmin2::GetMyRoles, certadm/ICertAdmin2::GetMyRoles, security.icertadmin2_getmyroles
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certadm.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certadm.dll
+api_name:
+-	ICertAdmin2.GetMyRoles
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # ICertAdmin2::GetMyRoles

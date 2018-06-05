@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:dxmini.PDX_GETCURRENTAUTOFLIP
+title: PDX_GETCURRENTAUTOFLIP
+author: windows-sdk-content
+description: The DxGetCurrentAutoflip callback function is called when the device is hardware autoflipping and a client of the video miniport driver wants to know which surface is receiving the current field of video data for capture purposes.
+old-location: display\dxgetcurrentautoflip.htm
+old-project: display
+ms.assetid: 25010ffb-893f-401f-8883-f5a08e7014bf
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DxGetCurrentAutoflip, DxGetCurrentAutoflip callback function [Display Devices], PDX_GETCURRENTAUTOFLIP, PDX_GETCURRENTAUTOFLIP callback, VideoMiniPort_DxApiFunctions_1e8f1780-efe2-4f65-955b-887dc9a11358.xml, display.dxgetcurrentautoflip, dxmini/DxGetCurrentAutoflip
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	dxmini.h
+api_name:
+-	DxGetCurrentAutoflip
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # PDX_GETCURRENTAUTOFLIP callback function

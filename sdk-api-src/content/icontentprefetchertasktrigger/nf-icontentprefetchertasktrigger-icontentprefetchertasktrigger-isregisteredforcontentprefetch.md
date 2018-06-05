@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:icontentprefetchertasktrigger.IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
+title: IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch
+author: windows-sdk-content
+description: Indicates if an app package has registered for the content prefetch background task.
+old-location: wsw\icontentprefetchertasktrigger_isregisteredforcontentprefetch.htm
+old-project: wsw
+ms.assetid: 6F8A0A9B-CF05-47F9-8486-10DFE720E0DD
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: IContentPrefetcherTaskTrigger interface [Web Services for Windows],IsRegisteredForContentPrefetch method, IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch, IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch, IsRegisteredForContentPrefetch, IsRegisteredForContentPrefetch method [Web Services for Windows], IsRegisteredForContentPrefetch method [Web Services for Windows],IContentPrefetcherTaskTrigger interface, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch, wsw.icontentprefetchertasktrigger_isregisteredforcontentprefetch
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: icontentprefetchertasktrigger.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_FW_SERVICE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	IContentPrefetcherTaskTrigger.h
+api_name:
+-	IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch

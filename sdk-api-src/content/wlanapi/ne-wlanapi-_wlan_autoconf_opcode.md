@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wlanapi._WLAN_AUTOCONF_OPCODE
+title: "_WLAN_AUTOCONF_OPCODE"
+author: windows-sdk-content
+description: Specifies an automatic configuration parameter.
+old-location: nwifi\wlan_autoconf_opcode.htm
+old-project: NativeWiFi
+ms.assetid: d7816d6f-0f8c-4d53-aa70-357aaca360d0
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_AUTOCONF_OPCODE, PWLAN_AUTOCONF_OPCODE, PWLAN_AUTOCONF_OPCODE enumeration pointer [NativeWIFI], WLAN_AUTOCONF_OPCODE, WLAN_AUTOCONF_OPCODE enumeration [NativeWIFI], _WLAN_AUTOCONF_OPCODE, nwifi.wlan_autoconf_opcode, wlan_autoconf_opcode_allow_explicit_creds, wlan_autoconf_opcode_allow_virtual_station_extensibility, wlan_autoconf_opcode_block_period, wlan_autoconf_opcode_end, wlan_autoconf_opcode_only_use_gp_profiles_for_allowed_networks, wlan_autoconf_opcode_power_setting, wlan_autoconf_opcode_show_denied_networks, wlan_autoconf_opcode_start, wlanapi/PWLAN_AUTOCONF_OPCODE, wlanapi/WLAN_AUTOCONF_OPCODE, wlanapi/wlan_autoconf_opcode_allow_explicit_creds, wlanapi/wlan_autoconf_opcode_allow_virtual_station_extensibility, wlanapi/wlan_autoconf_opcode_block_period, wlanapi/wlan_autoconf_opcode_end, wlanapi/wlan_autoconf_opcode_only_use_gp_profiles_for_allowed_networks, wlanapi/wlan_autoconf_opcode_power_setting, wlanapi/wlan_autoconf_opcode_show_denied_networks, wlanapi/wlan_autoconf_opcode_start"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_AUTOCONF_OPCODE, *PWLAN_AUTOCONF_OPCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wlanapi.h
+api_name:
+-	WLAN_AUTOCONF_OPCODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_AUTOCONF_OPCODE enumeration

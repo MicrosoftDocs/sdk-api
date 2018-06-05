@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_TRANSFER_MODE
+title: WS_TRANSFER_MODE
+author: windows-sdk-content
+description: Whether messages that are sent or received are streamed or buffered.
+old-location: wsw\ws_transfer_mode.htm
+old-project: wsw
+ms.assetid: 6153bef6-f37f-4bc6-b1c5-5fbedd6bd234
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_BUFFERED_TRANSFER_MODE, WS_STREAMED_INPUT_TRANSFER_MODE, WS_STREAMED_OUTPUT_TRANSFER_MODE, WS_STREAMED_TRANSFER_MODE, WS_TRANSFER_MODE, WS_TRANSFER_MODE enumeration [Web Services for Windows], webservices/WS_BUFFERED_TRANSFER_MODE, webservices/WS_STREAMED_INPUT_TRANSFER_MODE, webservices/WS_STREAMED_OUTPUT_TRANSFER_MODE, webservices/WS_STREAMED_TRANSFER_MODE, webservices/WS_TRANSFER_MODE, wsw.ws_transfer_mode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_TRANSFER_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_TRANSFER_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_TRANSFER_MODE enumeration

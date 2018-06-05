@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fwptypes.FWP_MATCH_TYPE_
+title: FWP_MATCH_TYPE_
+author: windows-sdk-content
+description: Different match types allowed in filter conditions.
+old-location: fwp\fwp_match_type_enum.htm
+old-project: FWP
+ms.assetid: a49efb25-990c-459d-90bc-758337c351d5
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: FWP_MATCH_EQUAL, FWP_MATCH_EQUAL_CASE_INSENSITIVE, FWP_MATCH_FLAGS_ALL_SET, FWP_MATCH_FLAGS_ANY_SET, FWP_MATCH_FLAGS_NONE_SET, FWP_MATCH_GREATER, FWP_MATCH_GREATER_OR_EQUAL, FWP_MATCH_LESS, FWP_MATCH_LESS_OR_EQUAL, FWP_MATCH_NOT_EQUAL, FWP_MATCH_RANGE, FWP_MATCH_TYPE, FWP_MATCH_TYPE enumeration [Filtering], FWP_MATCH_TYPE_, FWP_MATCH_TYPE_MAX, fwp.fwp_match_type_enum, fwptypes/FWP_MATCH_EQUAL, fwptypes/FWP_MATCH_EQUAL_CASE_INSENSITIVE, fwptypes/FWP_MATCH_FLAGS_ALL_SET, fwptypes/FWP_MATCH_FLAGS_ANY_SET, fwptypes/FWP_MATCH_FLAGS_NONE_SET, fwptypes/FWP_MATCH_GREATER, fwptypes/FWP_MATCH_GREATER_OR_EQUAL, fwptypes/FWP_MATCH_LESS, fwptypes/FWP_MATCH_LESS_OR_EQUAL, fwptypes/FWP_MATCH_NOT_EQUAL, fwptypes/FWP_MATCH_RANGE, fwptypes/FWP_MATCH_TYPE, fwptypes/FWP_MATCH_TYPE_MAX
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fwptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fwptypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWP_MATCH_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Fwptypes.h
+api_name:
+-	FWP_MATCH_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FWP_MATCH_TYPE_ enumeration

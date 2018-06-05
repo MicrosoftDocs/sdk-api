@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFHttpDownloadRequest.AddHeader
+title: IMFHttpDownloadRequest::AddHeader
+author: windows-sdk-content
+description: Invoked by Microsoft Media Foundation to add a single HTTP header to a HTTP request. Microsoft Media Foundation will invoke this method once for each header that shall be included in the HTTP request, before it invokes the BeginSendRequest method.
+old-location: mf\imfhttpdownloadrequest_addheader.htm
+old-project: medfound
+ms.assetid: 37A2C9D8-EFF6-49D5-B495-EDBEEABD59CE
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AddHeader, AddHeader method [Media Foundation], AddHeader method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],AddHeader method, IMFHttpDownloadRequest.AddHeader, IMFHttpDownloadRequest::AddHeader, mf.imfhttpdownloadrequest_addheader, mfidl/IMFHttpDownloadRequest::AddHeader
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfplat.lib
+-	mfplat.dll
+-	mfplat.dll
+-	mfplat.dll.dll
+api_name:
+-	IMFHttpDownloadRequest.AddHeader
+product: Windows
+targetos: Windows
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFHttpDownloadRequest::AddHeader

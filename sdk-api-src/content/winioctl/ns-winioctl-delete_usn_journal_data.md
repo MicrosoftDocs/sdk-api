@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl.DELETE_USN_JOURNAL_DATA
+title: DELETE_USN_JOURNAL_DATA
+author: windows-sdk-content
+description: Contains information on the deletion of an update sequence number (USN) change journal using the FSCTL_DELETE_USN_JOURNAL control code.
+old-location: fs\delete_usn_journal_data_str.htm
+old-project: FileIO
+ms.assetid: 06db4b46-fc91-40e0-ab0b-1e014622ae22
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PDELETE_USN_JOURNAL_DATA, DELETE_USN_JOURNAL_DATA, DELETE_USN_JOURNAL_DATA structure [Files], PDELETE_USN_JOURNAL_DATA, PDELETE_USN_JOURNAL_DATA structure pointer [Files], USN_DELETE_FLAG_DELETE, USN_DELETE_FLAG_NOTIFY, _win32_delete_usn_journal_data_str, base.delete_usn_journal_data_str, fs.delete_usn_journal_data_str, winioctl/DELETE_USN_JOURNAL_DATA, winioctl/PDELETE_USN_JOURNAL_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DELETE_USN_JOURNAL_DATA, *PDELETE_USN_JOURNAL_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	DELETE_USN_JOURNAL_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DELETE_USN_JOURNAL_DATA structure

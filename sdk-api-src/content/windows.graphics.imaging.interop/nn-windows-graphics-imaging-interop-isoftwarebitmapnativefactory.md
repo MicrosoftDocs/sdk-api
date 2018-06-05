@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:windows.graphics.imaging.interop.ISoftwareBitmapNativeFactory
+title: ISoftwareBitmapNativeFactory
+author: windows-sdk-content
+description: Creates instances of ISoftwareBitmapNative.
+old-location: winrt\isoftwarebitmapnativefactory.htm
+old-project: WinRT
+ms.assetid: 613BFE81-AC55-4786-B6BD-0FFB7506D7F1
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: ISoftwareBitmapNativeFactory, ISoftwareBitmapNativeFactory interface [Windows Runtime], ISoftwareBitmapNativeFactory interface [Windows Runtime],described, windows/ISoftwareBitmapNativeFactory, winrt.isoftwarebitmapnativefactory
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: windows.graphics.imaging.interop.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDF_RENDER_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	windows.graphics.imaging.interop.h
+api_name:
+-	ISoftwareBitmapNativeFactory
+product: Windows
+targetos: Windows
+req.lib: Windows.graphics.imaging.interop.lib
+req.dll: Windows.graphics.imaging.interop.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ISoftwareBitmapNativeFactory interface

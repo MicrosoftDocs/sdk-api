@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:psapi._PSAPI_WORKING_SET_EX_INFORMATION
+title: "_PSAPI_WORKING_SET_EX_INFORMATION"
+author: windows-sdk-content
+description: Contains extended working set information for a process.
+old-location: psapi\psapi_working_set_ex_information.htm
+old-project: psapi
+ms.assetid: d3500737-b9af-41a8-bf69-61d0bfbd6ce4
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PPSAPI_WORKING_SET_EX_INFORMATION, PPSAPI_WORKING_SET_EX_INFORMATION, PPSAPI_WORKING_SET_EX_INFORMATION structure pointer [PSAPI], PSAPI_WORKING_SET_EX_INFORMATION, PSAPI_WORKING_SET_EX_INFORMATION structure [PSAPI], _PSAPI_WORKING_SET_EX_INFORMATION, base.psapi_working_set_ex_information, psapi.psapi_working_set_ex_information, psapi/PPSAPI_WORKING_SET_EX_INFORMATION, psapi/PSAPI_WORKING_SET_EX_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: psapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSAPI_WORKING_SET_EX_INFORMATION, *PPSAPI_WORKING_SET_EX_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Psapi.h
+api_name:
+-	PSAPI_WORKING_SET_EX_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PSAPI_WORKING_SET_EX_INFORMATION structure

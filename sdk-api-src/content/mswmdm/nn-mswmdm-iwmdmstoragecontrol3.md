@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:mswmdm.IWMDMStorageControl3
+title: IWMDMStorageControl3
+author: windows-sdk-content
+description: The IWMDMStorageControl3 interface extends IWMDMStorageControl2 by providing an Insert method that accepts an IWMDMMetaData interface pointer.
+old-location: wmdm\iwmdmstoragecontrol3.htm
+old-project: WMDM
+ms.assetid: bc5165c2-791d-4549-a271-78728625b219
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IWMDMStorageControl3, IWMDMStorageControl3 interface [windows Media Device Manager], IWMDMStorageControl3 interface [windows Media Device Manager],described, IWMDMStorageControl3Interface, mswmdm/IWMDMStorageControl3, wmdm.iwmdmstoragecontrol3
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mswmdm.h
+api_name:
+-	IWMDMStorageControl3
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMStorageControl3 interface

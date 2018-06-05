@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint.DD_KERNELCALLBACKS
+title: DD_KERNELCALLBACKS
+author: windows-sdk-content
+description: The DD_KERNELCALLBACKS structure contains entry pointers to the DirectDraw kernel-mode callback functions that the driver supports.
+old-location: display\dd_kernelcallbacks.htm
+old-project: display
+ms.assetid: 85dcb71b-ad1f-4b83-8ead-db502d9f294e
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_KERNELCALLBACKS, DD_KERNELCALLBACKS, DD_KERNELCALLBACKS structure [Display Devices], PDD_KERNELCALLBACKS, PDD_KERNELCALLBACKS structure pointer [Display Devices], ddrawint/DD_KERNELCALLBACKS, ddrawint/PDD_KERNELCALLBACKS, ddstrcts_6d33c1f1-37e3-421a-b40f-1009a5ee3d25.xml, display.dd_kernelcallbacks"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DD_KERNELCALLBACKS, *PDD_KERNELCALLBACKS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_KERNELCALLBACKS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DD_KERNELCALLBACKS structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:atscpsipparser.IATSC_VCT.GetTransportStreamId
+title: IATSC_VCT::GetTransportStreamId
+author: windows-sdk-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+old-location: mstv\iatsc_vct_gettransportstreamid.htm
+old-project: mstv
+ms.assetid: 0c3261e8-c671-48c7-b07c-59ce74b13c76
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetTransportStreamId method, IATSC_VCT.GetTransportStreamId, IATSC_VCT::GetTransportStreamId, IATSC_VCTGetTransportStreamId, atscpsipparser/IATSC_VCT::GetTransportStreamId, mstv.iatsc_vct_gettransportstreamid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: atscpsipparser.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AsyncStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	atscpsipparser.h
+api_name:
+-	IATSC_VCT.GetTransportStreamId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IATSC_VCT::GetTransportStreamId

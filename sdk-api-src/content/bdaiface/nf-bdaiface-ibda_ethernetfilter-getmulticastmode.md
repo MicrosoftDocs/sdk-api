@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_EthernetFilter.GetMulticastMode
+title: IBDA_EthernetFilter::GetMulticastMode
+author: windows-sdk-content
+description: The GetMulticastMode method retrieves the multicast mode.
+old-location: mstv\ibda_ethernetfilter_getmulticastmode.htm
+old-project: mstv
+ms.assetid: 8a0a5dbb-642a-458b-a5b2-80e993ab61ca
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetMulticastMode, GetMulticastMode method [Microsoft TV Technologies], GetMulticastMode method [Microsoft TV Technologies],IBDA_EthernetFilter interface, IBDA_EthernetFilter interface [Microsoft TV Technologies],GetMulticastMode method, IBDA_EthernetFilter.GetMulticastMode, IBDA_EthernetFilter::GetMulticastMode, IBDA_EthernetFilterGetMulticastMode, bdaiface/IBDA_EthernetFilter::GetMulticastMode, mstv.ibda_ethernetfilter_getmulticastmode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_EthernetFilter.GetMulticastMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_EthernetFilter::GetMulticastMode

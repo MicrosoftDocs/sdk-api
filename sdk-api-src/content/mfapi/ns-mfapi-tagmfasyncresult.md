@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mfapi.tagMFASYNCRESULT
+title: tagMFASYNCRESULT
+author: windows-sdk-content
+description: Contains data that is needed to implement the IMFAsyncResult interface.
+old-location: mf\mfasyncresult.htm
+old-project: medfound
+ms.assetid: fffa32d6-5e9f-42a1-9978-04f5726528bc
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFASYNCRESULT, MFASYNCRESULT structure [Media Foundation], fffa32d6-5e9f-42a1-9978-04f5726528bc, mf.mfasyncresult, mfapi/MFASYNCRESULT, tagMFASYNCRESULT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFASYNCRESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfapi.h
+api_name:
+-	MFASYNCRESULT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tagMFASYNCRESULT structure

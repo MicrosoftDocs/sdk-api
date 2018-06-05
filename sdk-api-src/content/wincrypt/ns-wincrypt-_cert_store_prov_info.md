@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CERT_STORE_PROV_INFO
+title: "_CERT_STORE_PROV_INFO"
+author: windows-sdk-content
+description: Contains information returned by the installed CertDllOpenStoreProv function when a store is opened by using the CertOpenStore function.
+old-location: security\cert_store_prov_info.htm
+old-project: SecCrypto
+ms.assetid: dc6789a7-09a5-467a-b2e4-16acfa25b5f6
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_STORE_PROV_INFO, CERT_STORE_PROV_CLOSE_FUNC, CERT_STORE_PROV_CONTROL_FUNC, CERT_STORE_PROV_DELETED_FLAG, CERT_STORE_PROV_DELETE_CERT_FUNC, CERT_STORE_PROV_DELETE_CRL_FUNC, CERT_STORE_PROV_DELETE_CTL_FUNC, CERT_STORE_PROV_EXTERNAL_FLAG, CERT_STORE_PROV_FIND_CERT_FUNC, CERT_STORE_PROV_FIND_CRL_FUNC, CERT_STORE_PROV_FIND_CTL_FUNC, CERT_STORE_PROV_FREE_FIND_CERT_FUNC, CERT_STORE_PROV_FREE_FIND_CRL_FUNC, CERT_STORE_PROV_FREE_FIND_CTL_FUNC, CERT_STORE_PROV_GET_CERT_PROPERTY_FUNC, CERT_STORE_PROV_GET_CRL_PROPERTY_FUNC, CERT_STORE_PROV_GET_CTL_PROPERTY_FUNC, CERT_STORE_PROV_INFO, CERT_STORE_PROV_INFO structure [Security], CERT_STORE_PROV_LM_SYSTEM_STORE_FLAG, CERT_STORE_PROV_NO_PERSIST_FLAG, CERT_STORE_PROV_READ_CERT_FUNC, CERT_STORE_PROV_READ_CRL_FUNC, CERT_STORE_PROV_READ_CTL_FUNC, CERT_STORE_PROV_SET_CERT_PROPERTY_FUNC, CERT_STORE_PROV_SET_CRL_PROPERTY_FUNC, CERT_STORE_PROV_SET_CTL_PROPERTY_FUNC, CERT_STORE_PROV_SYSTEM_STORE_FLAG, CERT_STORE_PROV_WRITE_CERT_FUNC, CERT_STORE_PROV_WRITE_CRL_FUNC, CERT_STORE_PROV_WRITE_CTL_FUNC, PCERT_STORE_PROV_INFO, PCERT_STORE_PROV_INFO structure pointer [Security], _CERT_STORE_PROV_INFO, _crypto2_cert_store_prov_info, security.cert_store_prov_info, wincrypt/CERT_STORE_PROV_INFO, wincrypt/PCERT_STORE_PROV_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_STORE_PROV_INFO, *PCERT_STORE_PROV_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_STORE_PROV_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERT_STORE_PROV_INFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfreadwrite.IMFSourceReaderEx.AddTransformForStream
+title: IMFSourceReaderEx::AddTransformForStream
+author: windows-sdk-content
+description: Adds a transform, such as an audio or video effect, to a stream.
+old-location: mf\imfsourcereaderex_addtransformforstream.htm
+old-project: medfound
+ms.assetid: 493BB3CF-044D-4E83-9FF7-BD2039358501
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AddTransformForStream, AddTransformForStream method [Media Foundation], AddTransformForStream method [Media Foundation],IMFSourceReaderEx interface, IMFSourceReaderEx interface [Media Foundation],AddTransformForStream method, IMFSourceReaderEx.AddTransformForStream, IMFSourceReaderEx::AddTransformForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereaderex_addtransformforstream, mfreadwrite/IMFSourceReaderEx::AddTransformForStream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfreadwrite.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_SOURCE_READER_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfreadwrite.h
+api_name:
+-	IMFSourceReaderEx.AddTransformForStream
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSourceReaderEx::AddTransformForStream

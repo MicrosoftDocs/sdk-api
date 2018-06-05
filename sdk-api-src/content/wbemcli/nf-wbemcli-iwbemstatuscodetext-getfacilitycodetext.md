@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemStatusCodeText.GetFacilityCodeText
+title: IWbemStatusCodeText::GetFacilityCodeText
+author: windows-sdk-content
+description: The IWbemStatusCodeText::GetFacilityCodeText method returns the name of the subsystem where the error occurred, such as &#0034;Windows&#0034;, &#0034;WBEM&#0034;, &#0034;SSPI&#0034;, or &#0034;RPC&#0034;.
+old-location: wmi\iwbemstatuscodetext_getfacilitycodetext.htm
+old-project: WmiSdk
+ms.assetid: 831f8eb4-3dcd-42ec-aa43-309360e9a5ce
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetFacilityCodeText, GetFacilityCodeText method [Windows Management Instrumentation], GetFacilityCodeText method [Windows Management Instrumentation],IWbemStatusCodeText interface, IWbemStatusCodeText interface [Windows Management Instrumentation],GetFacilityCodeText method, IWbemStatusCodeText.GetFacilityCodeText, IWbemStatusCodeText::GetFacilityCodeText, _hmm_iwbemstatuscodetext_getfacilitycodetext, wbemcli/IWbemStatusCodeText::GetFacilityCodeText, wmi.iwbemstatuscodetext_getfacilitycodetext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmiutils.dll
+api_name:
+-	IWbemStatusCodeText.GetFacilityCodeText
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wmiutils.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemStatusCodeText::GetFacilityCodeText

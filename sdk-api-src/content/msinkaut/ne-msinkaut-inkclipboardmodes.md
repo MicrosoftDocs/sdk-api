@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msinkaut.InkClipboardModes
+title: InkClipboardModes
+author: windows-sdk-content
+description: Specifies the copy options of the Clipboard.
+old-location: tablet\inkclipboardmodes.htm
+old-project: tablet
+ms.assetid: a9718b79-8f98-4bfc-a5db-208899d1f59e
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: ICB_Copy, ICB_Cut, ICB_Default, ICB_DelayedCopy, ICB_ExtractOnly, InkClipboardModes, InkClipboardModes enumeration [Tablet PC], a9718b79-8f98-4bfc-a5db-208899d1f59e, msinkaut/ICB_Copy, msinkaut/ICB_Cut, msinkaut/ICB_Default, msinkaut/ICB_DelayedCopy, msinkaut/ICB_ExtractOnly, msinkaut/InkClipboardModes, tablet.inkclipboardmodes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InkClipboardModes
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msinkaut.h
+api_name:
+-	InkClipboardModes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkClipboardModes enumeration

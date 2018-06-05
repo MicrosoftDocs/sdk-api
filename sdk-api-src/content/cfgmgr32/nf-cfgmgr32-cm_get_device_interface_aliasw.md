@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:cfgmgr32.CM_Get_Device_Interface_AliasW
+title: CM_Get_Device_Interface_AliasW function
+author: windows-sdk-content
+description: The CM_Get_Device_Interface_Alias function returns the alias of the specified device interface instance, if the alias exists.
+old-location: devinst\cm_get_device_interface_alias.htm
+old-project: devinst
+ms.assetid: 855d1b3b-1c65-4a0d-a591-d9fbc235c4ca
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: CM_Get_Device_Interface_Alias, CM_Get_Device_Interface_Alias function [Device and Driver Installation], CM_Get_Device_Interface_AliasW, cfgmgr32/CM_Get_Device_Interface_Alias, cfgmgr32/CM_Get_Device_Interface_AliasW, cfgmgrfn_7650eacc-4b5e-4f88-81f2-a7f75462dfc1.xml, devinst.cm_get_device_interface_alias
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CM_Get_Device_Interface_AliasW (Unicode)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Cfgmgr32.lib
+-	Cfgmgr32.dll
+api_name:
+-	CM_Get_Device_Interface_Alias
+-	CM_Get_Device_Interface_AliasW
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 ---
 
 # CM_Get_Device_Interface_AliasW function

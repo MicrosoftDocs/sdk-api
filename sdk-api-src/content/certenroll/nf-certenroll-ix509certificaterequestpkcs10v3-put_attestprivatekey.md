@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:certenroll.IX509CertificateRequestPkcs10V3.put_AttestPrivateKey
+title: IX509CertificateRequestPkcs10V3::put_AttestPrivateKey
+author: windows-sdk-content
+description: True if the created private key needs to be attested; otherwise false. If true, it is expected that the AttestationEncryptionCertificate property has been set.
+old-location: security\ix509certificaterequestpkcs10v3_attestprivatekey.htm
+old-project: SecCertEnroll
+ms.assetid: 9b3234a2-ec65-4624-8d35-a6f50cb10150
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: AttestPrivateKey property [Security], AttestPrivateKey property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],AttestPrivateKey property, IX509CertificateRequestPkcs10V3.AttestPrivateKey, IX509CertificateRequestPkcs10V3.put_AttestPrivateKey, IX509CertificateRequestPkcs10V3::AttestPrivateKey, IX509CertificateRequestPkcs10V3::get_AttestPrivateKey, IX509CertificateRequestPkcs10V3::put_AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::get_AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::put_AttestPrivateKey, put_AttestPrivateKey, security.ix509certificaterequestpkcs10v3_attestprivatekey
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certenroll.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.dll
+api_name:
+-	IX509CertificateRequestPkcs10V3.AttestPrivateKey
+-	IX509CertificateRequestPkcs10V3.get_AttestPrivateKey
+-	IX509CertificateRequestPkcs10V3.put_AttestPrivateKey
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 ---
 
 # IX509CertificateRequestPkcs10V3::put_AttestPrivateKey

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NL:frquery.CFrameworkQuery
+title: CFrameworkQuery
+author: windows-sdk-content
+description: The CFrameworkQuery class is used to parse and manipulate a query. It contains methods that return specific property values and methods that test the query to determine the particular properties that are included.
+old-location: wmi\cframeworkquery.htm
+old-project: WmiSdk
+ms.assetid: 60a7d83c-cfea-41fa-8d97-321127d33c43
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CFrameworkQuery, CFrameworkQuery class [Windows Management Instrumentation], CFrameworkQuery class [Windows Management Instrumentation],described, _hmm_cframeworkquery, frquery/CFrameworkQuery, wmi.cframeworkquery
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: class
+req.header: frquery.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CFrameworkQuery
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # CFrameworkQuery class

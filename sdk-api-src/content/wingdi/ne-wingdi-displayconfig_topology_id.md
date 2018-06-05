@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:wingdi.DISPLAYCONFIG_TOPOLOGY_ID
+title: DISPLAYCONFIG_TOPOLOGY_ID
+author: windows-sdk-content
+description: The DISPLAYCONFIG_TOPOLOGY_ID enumeration specifies the type of display topology.
+old-location: display\displayconfig_topology_id.htm
+old-project: display
+ms.assetid: 0018f137-7cdf-47b7-9ede-8685f9b073fb
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CCD_Enumerations_a5eed051-186c-4a2e-8a8b-fd189d867fbd.xml, DISPLAYCONFIG_TOPOLOGY_CLONE, DISPLAYCONFIG_TOPOLOGY_EXTEND, DISPLAYCONFIG_TOPOLOGY_EXTERNAL, DISPLAYCONFIG_TOPOLOGY_FORCE_UINT32, DISPLAYCONFIG_TOPOLOGY_ID, DISPLAYCONFIG_TOPOLOGY_ID enumeration [Display Devices], DISPLAYCONFIG_TOPOLOGY_INTERNAL, display.displayconfig_topology_id, wingdi/DISPLAYCONFIG_TOPOLOGY_CLONE, wingdi/DISPLAYCONFIG_TOPOLOGY_EXTEND, wingdi/DISPLAYCONFIG_TOPOLOGY_EXTERNAL, wingdi/DISPLAYCONFIG_TOPOLOGY_FORCE_UINT32, wingdi/DISPLAYCONFIG_TOPOLOGY_ID, wingdi/DISPLAYCONFIG_TOPOLOGY_INTERNAL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_TOPOLOGY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wingdi.h
+api_name:
+-	DISPLAYCONFIG_TOPOLOGY_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DISPLAYCONFIG_TOPOLOGY_ID enumeration

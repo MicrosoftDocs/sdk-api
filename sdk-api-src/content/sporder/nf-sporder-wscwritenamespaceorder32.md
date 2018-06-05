@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sporder.WSCWriteNameSpaceOrder32
+title: WSCWriteNameSpaceOrder32 function
+author: windows-sdk-content
+description: Changes the order of available Windows Sockets (Winsock) 2 namespace providers in a 32-bit catalog.
+old-location: winsock\wscwritenamespaceorder32.htm
+old-project: WinSock
+ms.assetid: a5b15d28-8137-42bf-8f2a-7c6b5a8a63c2
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: WSCWriteNameSpaceOrder32, WSCWriteNameSpaceOrder32 function [Winsock], sporder/WSCWriteNameSpaceOrder32, winsock.wscwritenamespaceorder32
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: sporder.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 x64 Edition [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WORDLIST_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ws2_32.dll
+api_name:
+-	WSCWriteNameSpaceOrder32
+product: Windows
+targetos: Windows
+req.lib: Sporder.lib
+req.dll: Ws2_32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # WSCWriteNameSpaceOrder32 function

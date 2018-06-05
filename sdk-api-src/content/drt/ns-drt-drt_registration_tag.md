@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:drt.drt_registration_tag
+title: drt_registration_tag
+author: windows-sdk-content
+description: The DRT_REGISTRATION structure contains key and application data that make up a registration.
+old-location: p2p\drt_registration.htm
+old-project: P2PSdk
+ms.assetid: 1b5fea2c-c1df-4639-8f62-e62d8a09b1f5
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PDRT_REGISTRATION, DRT_REGISTRATION, DRT_REGISTRATION structure [Peer Networking], PDRT_REGISTRATION, PDRT_REGISTRATION structure pointer [Peer Networking], drt/DRT_REGISTRATION, drt/PDRT_REGISTRATION, drt_registration_tag, p2p.drt_registration"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: drt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRT_REGISTRATION, *PDRT_REGISTRATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	drt.h
+api_name:
+-	DRT_REGISTRATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # drt_registration_tag structure

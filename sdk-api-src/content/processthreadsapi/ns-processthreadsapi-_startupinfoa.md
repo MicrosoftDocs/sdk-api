@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:processthreadsapi._STARTUPINFOA
+title: "_STARTUPINFOA"
+author: windows-sdk-content
+description: Specifies the window station, desktop, standard handles, and appearance of the main window for a process at creation time.
+old-location: base\startupinfo_str.htm
+old-project: ProcThread
+ms.assetid: cf4b795c-52c1-4573-8328-99ee13f68bb3
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPSTARTUPINFOA, LPSTARTUPINFO, LPSTARTUPINFO structure pointer, STARTF_FORCEOFFFEEDBACK, STARTF_FORCEONFEEDBACK, STARTF_PREVENTPINNING, STARTF_RUNFULLSCREEN, STARTF_TITLEISAPPID, STARTF_TITLEISLINKNAME, STARTF_UNTRUSTEDSOURCE, STARTF_USECOUNTCHARS, STARTF_USEFILLATTRIBUTE, STARTF_USEHOTKEY, STARTF_USEPOSITION, STARTF_USESHOWWINDOW, STARTF_USESIZE, STARTF_USESTDHANDLES, STARTUPINFO, STARTUPINFO structure, STARTUPINFOA, STARTUPINFOW, _STARTUPINFOA, _win32_startupinfo_str, base.startupinfo_str, processthreadsapi/LPSTARTUPINFO, processthreadsapi/STARTUPINFO, processthreadsapi/STARTUPINFOA, processthreadsapi/STARTUPINFOW, winbase/LPSTARTUPINFO, winbase/STARTUPINFO, winbase/STARTUPINFOA, winbase/STARTUPINFOW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: processthreadsapi.h
+req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: STARTUPINFOW (Unicode) and STARTUPINFOA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STARTUPINFOA, *LPSTARTUPINFOA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinBase.h
+-	processthreadsapi.h
+api_name:
+-	STARTUPINFO
+-	STARTUPINFOA
+-	STARTUPINFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _STARTUPINFOA structure

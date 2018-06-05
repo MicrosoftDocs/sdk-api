@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlwapi.SHMessageBoxCheckA
+title: SHMessageBoxCheckA function
+author: windows-sdk-content
+description: SHMessageBoxCheck may be altered or unavailable.
+old-location: shell\SHMessageBoxCheck.htm
+old-project: shell
+ms.assetid: 7e62cde0-2b9f-44d3-afb8-5df71f98453a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_OK, MB_OKCANCEL, MB_YESNO, SHMessageBoxCheck, SHMessageBoxCheck function [Windows Shell], SHMessageBoxCheckA, SHMessageBoxCheckW, _win32_SHMessageBoxCheck, shell.SHMessageBoxCheck, shlwapi/SHMessageBoxCheck, shlwapi/SHMessageBoxCheckA, shlwapi/SHMessageBoxCheckW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SHMessageBoxCheckW (Unicode) and SHMessageBoxCheckA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+api_name:
+-	SHMessageBoxCheck
+-	SHMessageBoxCheckA
+-	SHMessageBoxCheckW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # SHMessageBoxCheckA function

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xamlom.IVisualTreeService.GetPropertyValuesChain
+title: IVisualTreeService::GetPropertyValuesChain
+author: windows-sdk-content
+description: Gets an array of all the properties set on the element passed in, and an array of all the styles involved in setting the effective values of the properties.
+old-location: xaml_diagnostics\ivisualtreeservice_getpropertyvalueschain.htm
+old-project: xaml_diagnostics
+ms.assetid: 3D997B09-7B20-47BC-B19C-98945CA41D17
+ms.author: windowssdkdev
+ms.date: 03/19/2018
+ms.keywords: GetPropertyValuesChain, GetPropertyValuesChain method, GetPropertyValuesChain method,IVisualTreeService interface, IVisualTreeService interface,GetPropertyValuesChain method, IVisualTreeService.GetPropertyValuesChain, IVisualTreeService::GetPropertyValuesChain, xaml_diagnostics.ivisualtreeservice_getpropertyvalueschain, xamlom/IVisualTreeService::GetPropertyValuesChain
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xamlom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XamlOM.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VisualMutationType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xamlom.h
+api_name:
+-	IVisualTreeService.GetPropertyValuesChain
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IVisualTreeService::GetPropertyValuesChain

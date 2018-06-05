@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dxva9typ._DXVA_COPPStatusData
+title: "_DXVA_COPPStatusData"
+author: windows-sdk-content
+description: Contains the result from a Certified Output Protection Protocol (COPP) status request.
+old-location: dshow\dxva_coppstatusdata.htm
+old-project: DirectShow
+ms.assetid: 62172141-cda4-4713-8ae2-e1f0c5f3fba8
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DXVA_COPPStatusData, DXVA_COPPStatusData structure [DirectShow], DXVA_COPPStatusDataStructure, _DXVA_COPPStatusData, dshow.dxva_coppstatusdata, dxva9typ/DXVA_COPPStatusData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxva9typ.h
+req.include-header: Dxva.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA_COPPStatusData
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxva9typ.h
+api_name:
+-	DXVA_COPPStatusData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVA_COPPStatusData structure

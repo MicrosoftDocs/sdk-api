@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:usp10.opentype_feature_record
+title: opentype_feature_record
+author: windows-sdk-content
+description: Contains information about a single OpenType feature to apply to a run.
+old-location: intl\opentype_feature_record.htm
+old-project: Intl
+ms.assetid: 3f4d76f7-fd50-4a38-973b-329e477e5960
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: OPENTYPE_FEATURE_RECORD, OPENTYPE_FEATURE_RECORD structure [Internationalization for Windows Applications], _win32_OPENTYPE_FEATURE_RECORD, intl.opentype_feature_record, opentype_feature_record, usp10/OPENTYPE_FEATURE_RECORD
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: usp10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPENTYPE_FEATURE_RECORD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Usp10.h
+api_name:
+-	OPENTYPE_FEATURE_RECORD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # opentype_feature_record structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateImageBrush
+title: IXpsOMObjectFactory::CreateImageBrush
+author: windows-sdk-content
+description: Creates an IXpsOMImageBrush interface.
+old-location: xps\ixpsomobjectfactory_createimagebrush.htm
+old-project: printdocs
+ms.assetid: f271e152-8120-49c4-804d-069e224c6597
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: CreateImageBrush, CreateImageBrush method [XPS Documents and Packaging], CreateImageBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateImageBrush method, IXpsOMObjectFactory.CreateImageBrush, IXpsOMObjectFactory::CreateImageBrush, xps.ixpsomobjectfactory_createimagebrush, xpsobjectmodel/IXpsOMObjectFactory::CreateImageBrush
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xpsobjectmodel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XpsObjectModel.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XPS_INTERLEAVING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xpsobjectmodel.h
+api_name:
+-	IXpsOMObjectFactory.CreateImageBrush
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IXpsOMObjectFactory::CreateImageBrush

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:winfax.PFAX_RECIPIENT_CALLBACKW
+title: PFAX_RECIPIENT_CALLBACKW
+author: windows-sdk-content
+description: The FAX_RECIPIENT_CALLBACK function is an application-defined or library-defined callback function that the FaxSendDocumentForBroadcast function calls to retrieve user-specific information for the transmission.
+old-location: fax\_mfax_fax_recipient_callback.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxlegacy_5a5n.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: FAX_RECIPIENT_CALLBACK, FAX_RECIPIENT_CALLBACK callback, FAX_RECIPIENT_CALLBACK callback function [Fax Service], PFAX_RECIPIENT_CALLBACKA, PFAX_RECIPIENT_CALLBACKW, _mfax_fax_recipient_callback, fax._mfax_fax_recipient_callback, winfax/FAX_RECIPIENT_CALLBACK, winfax/PFAX_RECIPIENT_CALLBACKA, winfax/PFAX_RECIPIENT_CALLBACKW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: winfax.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PFAX_RECIPIENT_CALLBACKW (Unicode) and PFAX_RECIPIENT_CALLBACKA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVT_VARIANT, *PEVT_VARIANT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Winfax.h
+api_name:
+-	FAX_RECIPIENT_CALLBACK
+-	PFAX_RECIPIENT_CALLBACKA
+-	PFAX_RECIPIENT_CALLBACKW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PFAX_RECIPIENT_CALLBACKW callback function

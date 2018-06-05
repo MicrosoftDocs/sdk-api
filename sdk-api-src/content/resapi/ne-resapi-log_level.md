@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:resapi.LOG_LEVEL
+title: LOG_LEVEL
+author: windows-sdk-content
+description: Represents the severity of the log event passed to the LogEvent callback function.
+old-location: mscs\log_level.htm
+old-project: MsCS
+ms.assetid: 976251d5-6619-47f7-9b6e-2031768100b0
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PLOG_LEVEL, LOG_ERROR, LOG_INFORMATION, LOG_LEVEL, LOG_LEVEL enumeration [Failover Cluster], LOG_SEVERE, LOG_WARNING, PLOG_LEVEL, PLOG_LEVEL enumeration pointer [Failover Cluster], mscs.log_level, resapi/LOG_ERROR, resapi/LOG_INFORMATION, resapi/LOG_LEVEL, resapi/LOG_SEVERE, resapi/LOG_WARNING, resapi/PLOG_LEVEL"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: resapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOG_LEVEL, *PLOG_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ResApi.h
+api_name:
+-	LOG_LEVEL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LOG_LEVEL enumeration

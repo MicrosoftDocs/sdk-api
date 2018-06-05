@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:shobjidl_core.ITaskbarList3
+title: ITaskbarList3
+author: windows-sdk-content
+description: Extends ITaskbarList2 by exposing methods that support the unified launching and switching taskbar button functionality added in Windows 7.
+old-location: shell\ITaskbarList3.htm
+old-project: shell
+ms.assetid: a5eb4e5a-df17-4aca-96fb-d8475e266b92
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ITaskbarList3, ITaskbarList3 interface [Windows Shell], ITaskbarList3 interface [Windows Shell],described, _shell_ITaskbarList3, shell.ITaskbarList3, shobjidl_core/ITaskbarList3
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Explorerframe.dll
+api_name:
+-	ITaskbarList3
+product: Windows
+targetos: Windows
+req.lib: Explorerframe.lib
+req.dll: Explorerframe.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ITaskbarList3 interface

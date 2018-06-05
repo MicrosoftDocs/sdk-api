@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wingdi.GetDeviceCaps
+title: GetDeviceCaps function
+author: windows-sdk-content
+description: The GetDeviceCaps function retrieves device-specific information for the specified device.
+old-location: gdi\getdevicecaps.htm
+old-project: gdi
+ms.assetid: d524c4c7-22af-495d-aecc-b9921e53ca7b
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ASPECTX, ASPECTXY, ASPECTY, BITSPIXEL, BLTALIGNMENT, CLIPCAPS, COLORMGMTCAPS, COLORRES, CURVECAPS, DRIVERVERSION, GetDeviceCaps, GetDeviceCaps function [Windows GDI], HORZRES, HORZSIZE, LINECAPS, LOGPIXELSX, LOGPIXELSY, NUMBRUSHES, NUMCOLORS, NUMFONTS, NUMPENS, NUMRESERVED, PDEVICESIZE, PHYSICALHEIGHT, PHYSICALOFFSETX, PHYSICALOFFSETY, PHYSICALWIDTH, PLANES, POLYGONALCAPS, RASTERCAPS, SCALINGFACTORX, SCALINGFACTORY, SHADEBLENDCAPS, SIZEPALETTE, TECHNOLOGY, TEXTCAPS, VERTRES, VERTSIZE, VREFRESH, _win32_GetDeviceCaps, gdi.getdevicecaps, wingdi/GetDeviceCaps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	gdi32.dll
+-	Ext-MS-Win-GDI-devcaps-l1-1-0.dll
+-	Ext-MS-Win-RTCore-GDI-devcaps-l1-1-0.dll
+-	Ext-MS-Win-RTCore-GDI-DevCaps-L1-1-1.dll
+-	GDI32Full.dll
+api_name:
+-	GetDeviceCaps
+product: Windows
+targetos: Windows
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # GetDeviceCaps function

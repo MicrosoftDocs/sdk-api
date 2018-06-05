@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dhcpsapi.DhcpHlprAddV4PolicyRange
+title: DhcpHlprAddV4PolicyRange function
+author: windows-sdk-content
+description: Adds a DHCP IPv4 range to a DHCP server policy.
+old-location: dhcp\dhcphlpraddv4policyrange.htm
+old-project: DHCP
+ms.assetid: 4e5b5fca-7583-43a8-8816-c1003d936233
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DhcpHlprAddV4PolicyRange, DhcpHlprAddV4PolicyRange function [DHCP], dhcp.dhcphlpraddv4policyrange, dhcpsapi/DhcpHlprAddV4PolicyRange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QuarantineStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dhcpsapi.dll
+api_name:
+-	DhcpHlprAddV4PolicyRange
+product: Windows
+targetos: Windows
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 ---
 
 # DhcpHlprAddV4PolicyRange function

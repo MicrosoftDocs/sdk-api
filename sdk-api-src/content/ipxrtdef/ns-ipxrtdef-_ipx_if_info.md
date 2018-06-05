@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipxrtdef._IPX_IF_INFO
+title: "_IPX_IF_INFO"
+author: windows-sdk-content
+description: The IPX_IF_INFO structure stores information for an IPX interface.
+old-location: rras\ipx_if_info.htm
+old-project: RRAS
+ms.assetid: f1c07033-dbfa-4bbe-b275-f5bfc629b2d7
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PIPX_IF_INFO, IPX_IF_INFO, IPX_IF_INFO structure [RAS], PIPX_IF_INFO, PIPX_IF_INFO structure pointer [RAS], _IPX_IF_INFO, _mpr_ipx_if_info, ipxrtdef/IPX_IF_INFO, ipxrtdef/PIPX_IF_INFO, rras.ipx_if_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipxrtdef.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPX_IF_INFO, *PIPX_IF_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipxrtdef.h
+api_name:
+-	IPX_IF_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _IPX_IF_INFO structure

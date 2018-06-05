@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmClassificationManager.SetFileProperty
+title: IFsrmClassificationManager::SetFileProperty
+author: windows-sdk-content
+description: Sets the value of the specified property in the file or folder.
+old-location: fsrm\ifsrmclassificationmanager_setfileproperty.htm
+old-project: Fsrm
+ms.assetid: 0f13f00e-6ca2-4436-822e-01eff638c446
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmClassificationManager class [File Server Resource Manager],SetFileProperty method, IFsrmClassificationManager interface [File Server Resource Manager],SetFileProperty method, IFsrmClassificationManager.SetFileProperty, IFsrmClassificationManager2 interface [File Server Resource Manager],SetFileProperty method, IFsrmClassificationManager2::SetFileProperty, IFsrmClassificationManager::SetFileProperty, SetFileProperty, SetFileProperty method [File Server Resource Manager], SetFileProperty method [File Server Resource Manager],FsrmClassificationManager class, SetFileProperty method [File Server Resource Manager],IFsrmClassificationManager interface, SetFileProperty method [File Server Resource Manager],IFsrmClassificationManager2 interface, fs.ifsrmclassificationmanager_setfileproperty, fsrm.ifsrmclassificationmanager_setfileproperty, fsrmpipeline/IFsrmClassificationManager2::SetFileProperty, fsrmpipeline/IFsrmClassificationManager::SetFileProperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: FsrmPipeline.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmClassificationManager.SetFileProperty
+-	IFsrmClassificationManager2.SetFileProperty
+-	FsrmClassificationManager.SetFileProperty
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmClassificationManager::SetFileProperty

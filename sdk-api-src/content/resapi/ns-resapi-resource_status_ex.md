@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:resapi.RESOURCE_STATUS_EX
+title: RESOURCE_STATUS_EX
+author: windows-sdk-content
+description: Contains information about a resource that is being brought online or taken offline. This structure is used as a parameter to the callback function SetResourceStatusEx.
+old-location: mscs\resource_status_ex.htm
+old-project: MsCS
+ms.assetid: CBEBF870-B413-400C-A485-FD093358FB67
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PRESOURCE_STATUS_EX, CLUSRESDLL_STATUS_INSUFFICIENT_MEMORY, CLUSRESDLL_STATUS_INSUFFICIENT_OTHER_RESOURCES, CLUSRESDLL_STATUS_INSUFFICIENT_PROCESSOR, CLUSRESDLL_STATUS_NETWORK_NOT_AVAILABLE, CLUSRESDLL_STATUS_OFFLINE_BUSY, CLUSRESDLL_STATUS_OFFLINE_DESTINATION_REJECTED, CLUSRESDLL_STATUS_OFFLINE_DESTINATION_THROTTLED, CLUSRESDLL_STATUS_OFFLINE_SOURCE_THROTTLED, PRESOURCE_STATUS_EX, PRESOURCE_STATUS_EX structure pointer [Failover Cluster], RESOURCE_STATUS_EX, RESOURCE_STATUS_EX structure [Failover Cluster], STATUS_INVALID_PARAMETERS, mscs.resource_status_ex, resapi/PRESOURCE_STATUS_EX, resapi/RESOURCE_STATUS_EX"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: resapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RESOURCE_STATUS_EX, *PRESOURCE_STATUS_EX
+topic_type:
+-	kbSyntax
+api_type:
+-	<TBD>
+api_location:
+-
+api_name:
+-	RESOURCE_STATUS_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RESOURCE_STATUS_EX structure

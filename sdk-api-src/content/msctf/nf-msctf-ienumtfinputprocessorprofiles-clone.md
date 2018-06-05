@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.IEnumTfInputProcessorProfiles.Clone
+title: IEnumTfInputProcessorProfiles::Clone
+author: windows-sdk-content
+description: The IEnumTfInputProcessorProfiles::Clone method creates a copy of the enumerator object.
+old-location: tsf\ienumtfinputprocessorprofiles_clone.htm
+old-project: TSF
+ms.assetid: 485c27ac-20da-4974-832c-8305d18b2c4b
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfInputProcessorProfiles interface, IEnumTfInputProcessorProfiles interface [Text Services Framework],Clone method, IEnumTfInputProcessorProfiles.Clone, IEnumTfInputProcessorProfiles::Clone, msctf/IEnumTfInputProcessorProfiles::Clone, tsf.ienumtfinputprocessorprofiles_clone
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	IEnumTfInputProcessorProfiles.Clone
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IEnumTfInputProcessorProfiles::Clone

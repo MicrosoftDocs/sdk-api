@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:credentialprovider.ICredentialProviderFilter.UpdateRemoteCredential
+title: ICredentialProviderFilter::UpdateRemoteCredential
+author: windows-sdk-content
+description: Updates a credential from a remote session.
+old-location: shell\ICredentialProviderFilter_UpdateRemoteCredential.htm
+old-project: shell
+ms.assetid: d0730f67-e4f1-42b2-823a-75b08a5c952e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ICredentialProviderFilter interface [Windows Shell],UpdateRemoteCredential method, ICredentialProviderFilter.UpdateRemoteCredential, ICredentialProviderFilter::UpdateRemoteCredential, UpdateRemoteCredential, UpdateRemoteCredential method [Windows Shell], UpdateRemoteCredential method [Windows Shell],ICredentialProviderFilter interface, _shell_ICredentialProviderFilter_UpdateRemoteCredential, credentialprovider/ICredentialProviderFilter::UpdateRemoteCredential, shell.ICredentialProviderFilter_UpdateRemoteCredential
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: credentialprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Credentialprovider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Credentialprovider.h
+api_name:
+-	ICredentialProviderFilter.UpdateRemoteCredential
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICredentialProviderFilter::UpdateRemoteCredential

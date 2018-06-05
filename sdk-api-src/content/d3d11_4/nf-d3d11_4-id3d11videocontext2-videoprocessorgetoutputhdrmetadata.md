@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:d3d11_4.ID3D11VideoContext2.VideoProcessorGetOutputHDRMetaData
+title: ID3D11VideoContext2::VideoProcessorGetOutputHDRMetaData
+author: windows-sdk-content
+description: Gets the HDR metadata describing the display on which the content will be presented.
+old-location: mf\id3d11videocontext2_videoprocessorgetoutputhdrmetadata.htm
+old-project: medfound
+ms.assetid: 5739668F-DCF8-448C-8690-E254315B92AF
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorGetOutputHDRMetaData method, ID3D11VideoContext2.VideoProcessorGetOutputHDRMetaData, ID3D11VideoContext2::VideoProcessorGetOutputHDRMetaData, VideoProcessorGetOutputHDRMetaData, VideoProcessorGetOutputHDRMetaData method [Media Foundation], VideoProcessorGetOutputHDRMetaData method [Media Foundation],ID3D11VideoContext2 interface, d3d11_4/ID3D11VideoContext2::VideoProcessorGetOutputHDRMetaData, mf.id3d11videocontext2_videoprocessorgetoutputhdrmetadata
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11_4.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_UNORDERED_ACCESS_VIEW_DESC1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d11_4.h
+api_name:
+-	ID3D11VideoContext2.VideoProcessorGetOutputHDRMetaData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11VideoContext2::VideoProcessorGetOutputHDRMetaData

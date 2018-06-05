@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dsparse.DsIsMangledRdnValueW
+title: DsIsMangledRdnValueW function
+author: windows-sdk-content
+description: Determines if a given relative distinguished name value is a mangled name of the given type.
+old-location: ad\dsismangledrdnvalue.htm
+old-project: AD
+ms.assetid: adf5e133-9e48-4e97-af0c-4f8ea9b8bf8f
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DsIsMangledRdnValue, DsIsMangledRdnValue function [Active Directory], DsIsMangledRdnValueA, DsIsMangledRdnValueW, _glines_dsismangledrdnvalue, ad.dsismangledrdnvalue, dsparse/DsIsMangledRdnValue, dsparse/DsIsMangledRdnValueA, dsparse/DsIsMangledRdnValueW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dsparse.h
+req.include-header: Ntdsapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DsIsMangledRdnValueW (Unicode) and DsIsMangledRdnValueA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_MANGLE_FOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdsapi.dll
+api_name:
+-	DsIsMangledRdnValue
+-	DsIsMangledRdnValueA
+-	DsIsMangledRdnValueW
+product: Windows
+targetos: Windows
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DsIsMangledRdnValueW function

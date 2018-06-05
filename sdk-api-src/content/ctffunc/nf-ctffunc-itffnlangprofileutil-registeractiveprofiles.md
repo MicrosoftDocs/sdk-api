@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ctffunc.ITfFnLangProfileUtil.RegisterActiveProfiles
+title: ITfFnLangProfileUtil::RegisterActiveProfiles
+author: windows-sdk-content
+description: ITfFnLangProfileUtil::RegisterActiveProfiles method
+old-location: tsf\itffnlangprofileutil_registeractiveprofiles.htm
+old-project: TSF
+ms.assetid: 3b86206d-a299-4207-a0be-35a334786560
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITfFnLangProfileUtil interface [Text Services Framework],RegisterActiveProfiles method, ITfFnLangProfileUtil.RegisterActiveProfiles, ITfFnLangProfileUtil::RegisterActiveProfiles, RegisterActiveProfiles, RegisterActiveProfiles method [Text Services Framework], RegisterActiveProfiles method [Text Services Framework],ITfFnLangProfileUtil interface, _tsf_itffnlangprofileutil_registeractiveprofiles_ref, ctffunc/ITfFnLangProfileUtil::RegisterActiveProfiles, tsf.itffnlangprofileutil_registeractiveprofiles
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ctffunc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ctffunc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TfIntegratableCandidateListSelectionStyle
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfFnLangProfileUtil.RegisterActiveProfiles
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 ---
 
 # ITfFnLangProfileUtil::RegisterActiveProfiles

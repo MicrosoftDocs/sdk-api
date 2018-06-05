@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vds.IVdsSubSystem.Reenumerate
+title: IVdsSubSystem::Reenumerate
+author: windows-sdk-content
+description: Prompts the subsystem to scan its bus to discover newly-connected drives or newly-disconnected drives.
+old-location: base\ivdssubsystem_reenumerate.htm
+old-project: VDS
+ms.assetid: 9d6118bb-7b13-4ae1-9faf-9c17ada20511
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IVdsSubSystem interface [VDS],Reenumerate method, IVdsSubSystem.Reenumerate, IVdsSubSystem::Reenumerate, Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS],IVdsSubSystem interface, base.ivdssubsystem_reenumerate, vds/IVdsSubSystem::Reenumerate, vdshwprv/IVdsSubSystem::Reenumerate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VOLUME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsSubSystem.Reenumerate
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsSubSystem::Reenumerate

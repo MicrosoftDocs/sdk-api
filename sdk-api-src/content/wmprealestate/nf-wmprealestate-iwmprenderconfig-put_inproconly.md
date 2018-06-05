@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmprealestate.IWMPRenderConfig.put_inProcOnly
+title: IWMPRenderConfig::put_inProcOnly
+author: windows-sdk-content
+description: The put_inProcOnly method specifies a value indicating whether playback is restricted to the current process.
+old-location: wmp\iwmprenderconfig_put_inproconly.htm
+old-project: WMP
+ms.assetid: fd7c7cbc-f428-46e1-b239-74b78cbf5835
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPRenderConfig interface [Windows Media Player],put_inProcOnly method, IWMPRenderConfig.put_inProcOnly, IWMPRenderConfig::put_inProcOnly, IWMPRenderConfigputInProcOnly, put_inProcOnly, put_inProcOnly method [Windows Media Player], put_inProcOnly method [Windows Media Player],IWMPRenderConfig interface, wmp.iwmprenderconfig_put_inproconly, wmprealestate/IWMPRenderConfig::put_inProcOnly
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmprealestate.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPRenderConfig.put_inProcOnly
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPRenderConfig::put_inProcOnly

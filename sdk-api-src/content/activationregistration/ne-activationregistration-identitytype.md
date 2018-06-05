@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:activationregistration.IdentityType
+title: IdentityType
+author: windows-sdk-content
+description: Represents the kind of activation for an out-of-process server.
+old-location: winrt\identitytype.htm
+old-project: WinRT
+ms.assetid: 17EBFEE2-903A-4B64-A59F-D94E96E4457E
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: ActivateAsActivator, ActivateAsPackage, IdentityType, IdentityType enumeration [Windows Runtime], RunAs, activationregistration/ActivateAsActivator, activationregistration/ActivateAsPackage, activationregistration/IdentityType, activationregistration/RunAs, winrt.identitytype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: activationregistration.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Activation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IdentityType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	activationregistration.h
+api_name:
+-	IdentityType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IdentityType enumeration

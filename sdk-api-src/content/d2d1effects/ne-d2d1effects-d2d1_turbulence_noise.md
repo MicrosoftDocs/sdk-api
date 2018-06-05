@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d2d1effects.D2D1_TURBULENCE_NOISE
+title: D2D1_TURBULENCE_NOISE
+author: windows-sdk-content
+description: The turbulence noise mode for the Turbulence effect. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function.
+old-location: direct2d\d2d1_turbulence_noise.htm
+old-project: Direct2D
+ms.assetid: 6D2C57B9-AE6E-43CF-AF76-299BC7FCFC06
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_TURBULENCE_NOISE, D2D1_TURBULENCE_NOISE enumeration [Direct2D], D2D1_TURBULENCE_NOISE_FRACTAL_SUM, D2D1_TURBULENCE_NOISE_TURBULENCE, d2d1effects/D2D1_TURBULENCE_NOISE, d2d1effects/D2D1_TURBULENCE_NOISE_FRACTAL_SUM, d2d1effects/D2D1_TURBULENCE_NOISE_TURBULENCE, direct2d.d2d1_turbulence_noise
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1effects.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_TURBULENCE_NOISE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1effects.h
+api_name:
+-	D2D1_TURBULENCE_NOISE
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D2D1_TURBULENCE_NOISE enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_GETAVAILDRIVERMEMORYDATA
+title: "_DD_GETAVAILDRIVERMEMORYDATA"
+author: windows-sdk-content
+description: The DD_GETAVAILDRIVERMEMORYDATA structure contains the information needed by the driver to query and return the amount of free memory.
+old-location: display\dd_getavaildrivermemorydata.htm
+old-project: display
+ms.assetid: 4e344c43-55ae-49fc-94ef-390c399d5d0b
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_GETAVAILDRIVERMEMORYDATA, DD_GETAVAILDRIVERMEMORYDATA, DD_GETAVAILDRIVERMEMORYDATA structure [Display Devices], _DD_GETAVAILDRIVERMEMORYDATA, ddrawint/DD_GETAVAILDRIVERMEMORYDATA, ddstrcts_874c0a25-9513-44fa-bbfc-a480c918a835.xml, display.dd_getavaildrivermemorydata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_GETAVAILDRIVERMEMORYDATA, DD_GETAVAILDRIVERMEMORYDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_GETAVAILDRIVERMEMORYDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_GETAVAILDRIVERMEMORYDATA structure

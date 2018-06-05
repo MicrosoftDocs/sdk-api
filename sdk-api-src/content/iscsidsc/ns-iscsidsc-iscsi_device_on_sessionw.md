@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iscsidsc.ISCSI_DEVICE_ON_SESSIONW
+title: ISCSI_DEVICE_ON_SESSIONW
+author: windows-sdk-content
+description: ISCSI_DEVICE_ON_SESSION structure specifies multiple methods for identifying a device associated with an iSCSI login session.
+old-location: iscsidisc\iscsi_device_on_session.htm
+old-project: iSCSIDisc
+ms.assetid: ea5d01ee-64c7-43bb-8945-af38d06de36c
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: "*PISCSI_DEVICE_ON_SESSIONW, ISCSI_DEVICE_ON_SESSION, ISCSI_DEVICE_ON_SESSION structure [iSCSI Discovery Library API], ISCSI_DEVICE_ON_SESSIONA, ISCSI_DEVICE_ON_SESSIONW, PISCSI_DEVICE_ON_SESSION, PISCSI_DEVICE_ON_SESSION structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_device_on_session, iscsidsc/ISCSI_DEVICE_ON_SESSION, iscsidsc/ISCSI_DEVICE_ON_SESSIONA, iscsidsc/ISCSI_DEVICE_ON_SESSIONW, iscsidsc/PISCSI_DEVICE_ON_SESSION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ISCSI_DEVICE_ON_SESSIONW (Unicode) and ISCSI_DEVICE_ON_SESSIONA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ISCSI_DEVICE_ON_SESSIONW, *PISCSI_DEVICE_ON_SESSIONW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iscsidsc.h
+api_name:
+-	ISCSI_DEVICE_ON_SESSION
+-	ISCSI_DEVICE_ON_SESSIONA
+-	ISCSI_DEVICE_ON_SESSIONW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ISCSI_DEVICE_ON_SESSIONW structure

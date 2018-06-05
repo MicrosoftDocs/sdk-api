@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_DISK_EXTENT_TYPE
+title: "_VDS_DISK_EXTENT_TYPE"
+author: windows-sdk-content
+description: Defines the set of disk extents types. The type can be a partition, volume, or free space.
+old-location: base\vds_disk_extent_type.htm
+old-project: VDS
+ms.assetid: 3f7a5dba-315b-4757-bd4c-1335c18739eb
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_DET_CLUSTER, VDS_DET_DATA, VDS_DET_ESP, VDS_DET_FREE, VDS_DET_LDM, VDS_DET_MSR, VDS_DET_OEM, VDS_DET_UNKNOWN, VDS_DET_UNUSABLE, VDS_DISK_EXTENT_TYPE, VDS_DISK_EXTENT_TYPE enumeration [VDS], _VDS_DISK_EXTENT_TYPE, base.vds_disk_extent_type, vds/VDS_DET_CLUSTER, vds/VDS_DET_DATA, vds/VDS_DET_ESP, vds/VDS_DET_FREE, vds/VDS_DET_LDM, vds/VDS_DET_MSR, vds/VDS_DET_OEM, vds/VDS_DET_UNKNOWN, vds/VDS_DET_UNUSABLE, vds/VDS_DISK_EXTENT_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_DISK_EXTENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	VDS_DISK_EXTENT_TYPE
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_DISK_EXTENT_TYPE enumeration

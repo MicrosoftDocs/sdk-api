@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wbemcli.tag_WBEM_TIMEOUT_TYPE
+title: tag_WBEM_TIMEOUT_TYPE
+author: windows-sdk-content
+description: Contains values used to specify the timeout for the IEnumWbemClassObject::Next method.
+old-location: wmi\wbem_timeout_type.htm
+old-project: WmiSdk
+ms.assetid: 5A4E800A-7CA2-42D0-AF40-DA18171B3DB8
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: WBEM_INFINITE, WBEM_NO_WAIT, WBEM_TIMEOUT_TYPE, WBEM_TIMEOUT_TYPE enumeration [Windows Management Instrumentation], tag_WBEM_TIMEOUT_TYPE, wbemcli/WBEM_INFINITE, wbemcli/WBEM_NO_WAIT, wbemcli/WBEM_TIMEOUT_TYPE, wmi.wbem_timeout_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wbemcli.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WBEM_TIMEOUT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wbemcli.h
+api_name:
+-	WBEM_TIMEOUT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tag_WBEM_TIMEOUT_TYPE enumeration

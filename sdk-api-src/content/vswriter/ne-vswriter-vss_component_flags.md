@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vswriter.VSS_COMPONENT_FLAGS
+title: VSS_COMPONENT_FLAGS
+author: windows-sdk-content
+description: Used by writers to indicate support for auto-recovery.
+old-location: base\vss_component_flags.htm
+old-project: VSS
+ms.assetid: 91b7fbab-82f8-48cc-8078-f8f71c48a70b
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: VSS_CF_APP_ROLLBACK_RECOVERY, VSS_CF_BACKUP_RECOVERY, VSS_CF_NOT_SYSTEM_STATE, VSS_COMPONENT_FLAGS, VSS_COMPONENT_FLAGS enumeration [VSS], _win32_vss_component_flags, base.vss_component_flags, enumeration [VSS], vswriter/VSS_CF_APP_ROLLBACK_RECOVERY, vswriter/VSS_CF_BACKUP_RECOVERY, vswriter/VSS_CF_NOT_SYSTEM_STATE, vswriter/VSS_COMPONENT_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vswriter.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_COMPONENT_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VsWriter.h
+api_name:
+-	VSS_COMPONENT_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # VSS_COMPONENT_FLAGS enumeration

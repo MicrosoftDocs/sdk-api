@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dxgi1_2._DXGI_OFFER_RESOURCE_PRIORITY
+title: "_DXGI_OFFER_RESOURCE_PRIORITY"
+author: windows-sdk-content
+description: Identifies the importance of a resource’s content when you call the IDXGIDevice2::OfferResources method to offer the resource.
+old-location: direct3ddxgi\_dxgi_offer_resource_priority.htm
+old-project: direct3ddxgi
+ms.assetid: BDC0AAA3-2B72-4732-82CE-458C14B0D993
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGI_OFFER_RESOURCE_PRIORITY, DXGI_OFFER_RESOURCE_PRIORITY enumeration [DXGI], DXGI_OFFER_RESOURCE_PRIORITY_HIGH, DXGI_OFFER_RESOURCE_PRIORITY_LOW, DXGI_OFFER_RESOURCE_PRIORITY_NORMAL, _DXGI_OFFER_RESOURCE_PRIORITY, direct3ddxgi._dxgi_offer_resource_priority, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_HIGH, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_LOW, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_NORMAL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxgi1_2.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxgi1_2.h
+api_name:
+-	DXGI_OFFER_RESOURCE_PRIORITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXGI_OFFER_RESOURCE_PRIORITY enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:dsadmin.IDsAdminNewObj
+title: IDsAdminNewObj
+author: windows-sdk-content
+description: The IDsAdminNewObj interface is used by a primary or secondary object creation wizard extension to obtain page count data and to control the command buttons in the wizard.
+old-location: ad\idsadminnewobj.htm
+old-project: AD
+ms.assetid: b38016a2-bbb7-4715-81cc-bd9911fb5a3b
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IDsAdminNewObj, IDsAdminNewObj interface [Active Directory], IDsAdminNewObj interface [Active Directory],described, _glines_idsadminnewobj, ad.idsadminnewobj, dsadmin/IDsAdminNewObj
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: dsadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DSAdmin.dll
+api_name:
+-	IDsAdminNewObj
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 ---
 
 # IDsAdminNewObj interface

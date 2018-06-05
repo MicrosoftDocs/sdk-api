@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:intsafe.Int8ToUChar
+title: Int8ToUChar function
+author: windows-sdk-content
+description: Converts a value of type INT8 to a value of type UCHAR.
+old-location: shell\Int8ToUChar.htm
+old-project: shell
+ms.assetid: f8e87f71-f1a2-433a-8b57-6a7bd59b1e06
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: Int8ToUChar, Int8ToUChar function [Windows Shell], intsafe/Int8ToUChar, shell.Int8ToUChar
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: intsafe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANIPULATION_VELOCITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	intsafe.h
+api_name:
+-	Int8ToUChar
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # Int8ToUChar function

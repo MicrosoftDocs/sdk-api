@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:adsprop.ADsPropSetHwndWithTitle
+title: ADsPropSetHwndWithTitle function
+author: windows-sdk-content
+description: Used to notify the notification object of the property page window handle.
+old-location: ad\adspropsethwndwithtitle.htm
+old-project: AD
+ms.assetid: d0d26f32-1c15-4641-bdeb-0f464a510669
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: ADsPropSetHwndWithTitle, ADsPropSetHwndWithTitle function [Active Directory], ad.adspropsethwndwithtitle, adsprop/ADsPropSetHwndWithTitle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: adsprop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dsprop.dll
+api_name:
+-	ADsPropSetHwndWithTitle
+product: Windows
+targetos: Windows
+req.lib: Dsprop.lib
+req.dll: Dsprop.dll
+req.irql: 
 ---
 
 # ADsPropSetHwndWithTitle function

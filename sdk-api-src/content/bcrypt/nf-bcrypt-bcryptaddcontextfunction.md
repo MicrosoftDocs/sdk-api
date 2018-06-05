@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bcrypt.BCryptAddContextFunction
+title: BCryptAddContextFunction function
+author: windows-sdk-content
+description: Adds a cryptographic function to the list of functions that are supported by an existing CNG context.
+old-location: security\bcryptaddcontextfunction.htm
+old-project: SecCNG
+ms.assetid: 4f5b6db0-775d-42de-b9d9-a99fb11c89f2
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptAddContextFunction, BCryptAddContextFunction function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, NCRYPT_SCHANNEL_SIGNATURE_INTERFACE, bcrypt/BCryptAddContextFunction, security.bcryptaddcontextfunction
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: bcrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HASHALGORITHM_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Bcrypt.dll
+api_name:
+-	BCryptAddContextFunction
+product: Windows
+targetos: Windows
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 ---
 
 # BCryptAddContextFunction function

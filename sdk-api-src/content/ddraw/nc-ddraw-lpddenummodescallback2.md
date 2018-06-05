@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddraw.LPDDENUMMODESCALLBACK2
+title: LPDDENUMMODESCALLBACK2
+author: windows-sdk-content
+description: The EnumModesCallback2 function is an application-defined callback function for the IDirectDraw7::EnumDisplayModes method.
+old-location: directdraw\enummodescallback2.htm
+old-project: directdraw
+ms.assetid: 53185A9A-EBA3-4443-8E76-AC85E69B39F2
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: EnumModesCallback2, EnumModesCallback2 callback function [DirectDraw], LPDDENUMMODESCALLBACK2, LPDDENUMMODESCALLBACK2 callback, ddraw/EnumModesCallback2, directdraw.enummodescallback2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Ddraw.h
+api_name:
+-	EnumModesCallback2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # LPDDENUMMODESCALLBACK2 callback function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:fsrmscreen.IFsrmFileScreenTemplateImported
+title: IFsrmFileScreenTemplateImported
+author: windows-sdk-content
+description: Used to save imported file screen templates.
+old-location: fsrm\ifsrmfilescreentemplateimported.htm
+old-project: Fsrm
+ms.assetid: 9e3c3d05-298d-4373-abd2-21de9770e85c
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmFileScreenTemplateImported, IFsrmFileScreenTemplateImported interface [File Server Resource Manager], IFsrmFileScreenTemplateImported interface [File Server Resource Manager],described, fs.ifsrmfilescreentemplateimported, fsrm.ifsrmfilescreentemplateimported, fsrm/IFsrmFileScreenTemplateImported
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: fsrmscreen.h
+req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileScreenTemplateImported
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileScreenTemplateImported interface

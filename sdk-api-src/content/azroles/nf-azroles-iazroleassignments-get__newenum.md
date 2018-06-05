@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzRoleAssignments.get__NewEnum
+title: IAzRoleAssignments::get__NewEnum
+author: windows-sdk-content
+description: Retrieves an IEnumVARIANT interface on an object that can be used to enumerate the IAzRoleAssignments collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+old-location: security\iazroleassignments__newenum.htm
+old-project: SecAuthZ
+ms.assetid: 84f19d93-5e89-47f9-ade1-afb243c93ce0
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IAzRoleAssignments interface [Security],_NewEnum property, IAzRoleAssignments._NewEnum, IAzRoleAssignments.get__NewEnum, IAzRoleAssignments::_NewEnum, IAzRoleAssignments::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IAzRoleAssignments interface, azroles/IAzRoleAssignments::_NewEnum, azroles/IAzRoleAssignments::get__NewEnum, get__NewEnum, security.iazroleassignments__newenum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzRoleAssignments._NewEnum
+-	IAzRoleAssignments.get__NewEnum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzRoleAssignments::get__NewEnum

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winuser.GetSystemMetricsForDpi
+title: GetSystemMetricsForDpi function
+author: windows-sdk-content
+description: Retrieves the specified system metric or system configuration setting taking into account a provided DPI.
+old-location: hidpi\getsystemmetricsfordpi.htm
+old-project: hidpi
+ms.assetid: E95BB417-81FA-4824-BE68-A1E3E003F8E0
+ms.author: windowssdkdev
+ms.date: 03/29/2018
+ms.keywords: GetSystemMetricsForDpi, GetSystemMetricsForDpi function [High DPI], hidpi.getsystemmetricsfordpi, winuser/GetSystemMetricsForDpi
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+-	Ext-MS-Win-NTUser-Window-l1-1-0.dll
+-	Ext-MS-Win-NTUser-Window-l1-1-1.dll
+-	Ext-MS-Win-NTUser-Window-l1-1-2.dll
+-	ext-ms-win-ntuser-window-l1-1-3.dll
+-	Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+-	GetSystemMetricsForDpi
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # GetSystemMetricsForDpi function

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:xapobase.CXAPOBase.ProcessThru
+title: CXAPOBase::ProcessThru
+author: windows-sdk-content
+description: Called by an IXAPO::Process implementation when an XAPO is disabled for thru processing.
+old-location: xaudio2\cxapobase_processthru.htm
+old-project: xaudio2
+ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.ProcessThru(void,FLOAT32,UINT32,WORD,WORD,BOOL)
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],ProcessThru method, CXAPOBase.ProcessThru, CXAPOBase::ProcessThru, ProcessThru, ProcessThru method [XAudio2 Audio Mixing APIs], ProcessThru method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::ProcessThru, xaudio2.cxapobase_processthru
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xapobase.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XAPO_REGISTRATION_PROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	XAPOBase.lib
+-	XAPOBase.dll
+api_name:
+-	CXAPOBase.ProcessThru
+product: Windows
+targetos: Windows
+req.lib: XAPOBase.lib
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # CXAPOBase::ProcessThru

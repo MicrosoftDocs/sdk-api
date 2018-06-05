@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certpoleng.PstMapCertificate
+title: PstMapCertificate function
+author: windows-sdk-content
+description: Retrieves a structure that specifies information that can be used to create a user token associated with the specified certificate.
+old-location: security\pstmapcertificate.htm
+old-project: SecAuthN
+ms.assetid: b4e7e3b0-97ec-4c59-b2a1-cb83a27df94d
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: PstMapCertificate, PstMapCertificate function [Security], certpoleng/PstMapCertificate, security.pstmapcertificate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: certpoleng.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509SCEPFailInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Certpoleng.dll
+api_name:
+-	PstMapCertificate
+product: Windows
+targetos: Windows
+req.lib: Certpoleng.lib
+req.dll: Certpoleng.dll
+req.irql: 
 ---
 
 # PstMapCertificate function

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:winddi.DrvSetPointerShape
+title: DrvSetPointerShape function
+author: windows-sdk-content
+description: The DrvSetPointerShape function is used to request the driver to take the pointer off the display, if the driver has drawn it there; to attempt to set a new pointer shape; and to put the new pointer on the display at a specified position.
+old-location: display\drvsetpointershape.htm
+old-project: display
+ms.assetid: 3cc186df-572b-48ed-ac0b-56c8d91a9794
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DrvSetPointerShape, DrvSetPointerShape function [Display Devices], ddifncs_86472b92-edfc-4811-8b35-e690136a2430.xml, display.drvsetpointershape, winddi/DrvSetPointerShape
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	DrvSetPointerShape
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DrvSetPointerShape function

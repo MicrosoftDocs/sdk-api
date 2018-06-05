@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imapi2.IDiscFormat2RawCD.WriteMedia2
+title: IDiscFormat2RawCD::WriteMedia2
+author: windows-sdk-content
+description: Writes a DAO-96 raw image to the blank media using a specified starting address.
+old-location: imapi\idiscformat2rawcd_writemedia2.htm
+old-project: imapi
+ms.assetid: 636d04dd-081d-407c-827e-55e443516d9b
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IDiscFormat2RawCD interface [IMAPI],WriteMedia2 method, IDiscFormat2RawCD.WriteMedia2, IDiscFormat2RawCD::WriteMedia2, WriteMedia2, WriteMedia2 method [IMAPI], WriteMedia2 method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_writemedia2, imapi2/IDiscFormat2RawCD::WriteMedia2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2.h
+api_name:
+-	IDiscFormat2RawCD.WriteMedia2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IDiscFormat2RawCD::WriteMedia2

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IBandSite.EnumBands
+title: IBandSite::EnumBands
+author: windows-sdk-content
+description: Enumerates the bands in a band site.
+old-location: shell\IBandSite_EnumBands.htm
+old-project: shell
+ms.assetid: d92ead78-9d58-48fe-ad93-33b2dbcbda68
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EnumBands, EnumBands method [Windows Shell], EnumBands method [Windows Shell],IBandSite interface, IBandSite interface [Windows Shell],EnumBands method, IBandSite.EnumBands, IBandSite::EnumBands, _win32_IBandSite_EnumBands, shell.IBandSite_EnumBands, shobjidl_core/IBandSite::EnumBands
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shldisp.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shldisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IBandSite.EnumBands
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IBandSite::EnumBands

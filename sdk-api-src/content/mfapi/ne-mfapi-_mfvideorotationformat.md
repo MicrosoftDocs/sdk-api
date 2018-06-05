@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfapi._MFVideoRotationFormat
+title: "_MFVideoRotationFormat"
+author: windows-sdk-content
+description: Describes the rotation of the video image in the counter-clockwise direction.
+old-location: mf\mfvideorotationformat.htm
+old-project: medfound
+ms.assetid: E2760742-3914-4B5C-87FB-38F2EF3025C3
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFVideoRotationFormat, MFVideoRotationFormat enumeration [Media Foundation], MFVideoRotationFormat_0, MFVideoRotationFormat_180, MFVideoRotationFormat_270, MFVideoRotationFormat_90, _MFVideoRotationFormat, mf.mfvideorotationformat, mfapi/MFVideoRotationFormat, mfapi/MFVideoRotationFormat_0, mfapi/MFVideoRotationFormat_180, mfapi/MFVideoRotationFormat_270, mfapi/MFVideoRotationFormat_90
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoRotationFormat
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfapi.h
+api_name:
+-	MFVideoRotationFormat
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFVideoRotationFormat enumeration

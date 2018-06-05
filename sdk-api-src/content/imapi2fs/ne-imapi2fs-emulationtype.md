@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:imapi2fs.EmulationType
+title: EmulationType
+author: windows-sdk-content
+description: Defines values for media types that the boot image is intended to emulate.
+old-location: imapi\emulationtype.htm
+old-project: imapi
+ms.assetid: 53e87d6d-9547-4437-9548-652cfcbd308e
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: Emulation12MFloppy, Emulation144MFloppy, Emulation288MFloppy, EmulationHardDisk, EmulationNone, EmulationType, EmulationType enumeration [IMAPI], imapi.emulationtype, imapi2fs/Emulation12MFloppy, imapi2fs/Emulation144MFloppy, imapi2fs/Emulation288MFloppy, imapi2fs/EmulationHardDisk, imapi2fs/EmulationNone, imapi2fs/EmulationType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: imapi2fs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2fs.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EmulationType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	imapi2fs.h
+api_name:
+-	EmulationType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # EmulationType enumeration

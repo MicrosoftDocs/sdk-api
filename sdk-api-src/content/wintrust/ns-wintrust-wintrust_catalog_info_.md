@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wintrust.WINTRUST_CATALOG_INFO_
+title: WINTRUST_CATALOG_INFO_
+author: windows-sdk-content
+description: The WINTRUST_CATALOG_INFO structure is used when calling WinVerifyTrust to verify a member of a Microsoft catalog.
+old-location: security\wintrust_catalog_info.htm
+old-project: SecCrypto
+ms.assetid: 5d095e0f-c8c9-4717-b23a-985737b78431
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PWINTRUST_CATALOG_INFO, PWINTRUST_CATALOG_INFO, PWINTRUST_CATALOG_INFO structure pointer [Security], WINTRUST_CATALOG_INFO, WINTRUST_CATALOG_INFO structure [Security], WINTRUST_CATALOG_INFO_, _win32_wintrust_catalog_info, security.wintrust_catalog_info, wintrust/PWINTRUST_CATALOG_INFO, wintrust/WINTRUST_CATALOG_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wintrust.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINTRUST_CATALOG_INFO, *PWINTRUST_CATALOG_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wintrust.h
+api_name:
+-	WINTRUST_CATALOG_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WINTRUST_CATALOG_INFO_ structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bcrypt.BCryptDeriveKeyPBKDF2
+title: BCryptDeriveKeyPBKDF2 function
+author: windows-sdk-content
+description: Derives a key from a hash value by using the PBKDF2 key derivation algorithm as defined by RFC 2898.
+old-location: security\bcryptderivekeypbkdf2.htm
+old-project: SecCNG
+ms.assetid: afdddfec-a3a5-410c-998b-9a5af8e051b6
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: BCryptDeriveKeyPBKDF2, BCryptDeriveKeyPBKDF2 function [Security], bcrypt/BCryptDeriveKeyPBKDF2, security.bcryptderivekeypbkdf2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: bcrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HASHALGORITHM_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Bcrypt.dll
+api_name:
+-	BCryptDeriveKeyPBKDF2
+product: Windows
+targetos: Windows
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 ---
 
 # BCryptDeriveKeyPBKDF2 function

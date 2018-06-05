@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:control.IBasicAudio.put_Volume
+title: IBasicAudio::put_Volume
+author: windows-sdk-content
+description: The put_Volume method sets the volume (amplitude) of the audio signal.
+old-location: dshow\ibasicaudio_put_volume.htm
+old-project: DirectShow
+ms.assetid: 95171b87-e558-450b-8a48-f43a19069218
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IBasicAudio interface [DirectShow],put_Volume method, IBasicAudio.put_Volume, IBasicAudio::put_Volume, IBasicAudioput_Volume, control/IBasicAudio::put_Volume, dshow.ibasicaudio_put_volume, put_Volume, put_Volume method [DirectShow], put_Volume method [DirectShow],IBasicAudio interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: control.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPContextMenuInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IBasicAudio.put_Volume
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 ---
 
 # IBasicAudio::put_Volume

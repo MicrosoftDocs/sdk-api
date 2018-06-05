@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecpkg._SECPKG_PRIMARY_CRED
+title: "_SECPKG_PRIMARY_CRED"
+author: windows-sdk-content
+description: The SECPKG_PRIMARY_CRED structure contains the primary credentials. This structure is used by the LsaApLogonUserEx2 and SpAcceptCredentials functions.
+old-location: security\secpkg_primary_cred.htm
+old-project: SecAuthN
+ms.assetid: e51fd400-6c3c-4861-ab5c-6c1800b12d31
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSECPKG_PRIMARY_CRED, PRIMARY_CRED_CACHED_LOGON, PRIMARY_CRED_CLEAR_PASSWORD, PRIMARY_CRED_OWF_PASSWORD, PRIMARY_CRED_UPDATE, PSECPKG_PRIMARY_CRED, PSECPKG_PRIMARY_CRED structure pointer [Security], SECPKG_PRIMARY_CRED, SECPKG_PRIMARY_CRED structure [Security], _SECPKG_PRIMARY_CRED, _ssp_secpkg_primary_cred, ntsecpkg/PSECPKG_PRIMARY_CRED, ntsecpkg/SECPKG_PRIMARY_CRED, security.secpkg_primary_cred"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecpkg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SECPKG_PRIMARY_CRED, *PSECPKG_PRIMARY_CRED
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecpkg.h
+api_name:
+-	SECPKG_PRIMARY_CRED
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SECPKG_PRIMARY_CRED structure

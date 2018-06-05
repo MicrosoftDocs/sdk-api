@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vswriter.VSS_WRITERRESTORE_ENUM
+title: VSS_WRITERRESTORE_ENUM
+author: windows-sdk-content
+description: Indicate to a requester the conditions under which it will handle events generated during a restore operation.
+old-location: base\vss_writerrestore_enum.htm
+old-project: VSS
+ms.assetid: a3e45d52-4d9a-4bdf-a8e5-622939be6f2c
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: VSS_WRE_ALWAYS, VSS_WRE_IF_REPLACE_FAILS, VSS_WRE_NEVER, VSS_WRE_UNDEFINED, VSS_WRITERRESTORE_ENUM, VSS_WRITERRESTORE_ENUM enumeration [VSS], _win32_vss_writerrestore_enum, base.vss_writerrestore_enum, enumeration [VSS], vswriter/VSS_WRE_ALWAYS, vswriter/VSS_WRE_IF_REPLACE_FAILS, vswriter/VSS_WRE_NEVER, vswriter/VSS_WRE_UNDEFINED, vswriter/VSS_WRITERRESTORE_ENUM
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vswriter.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VsWriter.h
+api_name:
+-	VSS_WRITERRESTORE_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # VSS_WRITERRESTORE_ENUM enumeration

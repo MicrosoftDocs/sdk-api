@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mdhcp.IMcastScope.get_TTL
+title: IMcastScope::get_TTL
+author: windows-sdk-content
+description: The get_TTL method obtains the time to live value for the multicast scope.
+old-location: tapi3\imcastscope_get_ttl.htm
+old-project: Tapi
+ms.assetid: 68e402e5-87ae-49fd-9149-8eb79a0a8aee
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IMcastScope interface [TAPI 2.2],get_TTL method, IMcastScope.get_TTL, IMcastScope::get_TTL, _tapi3_imcastscope_get_ttl, get_TTL, get_TTL method [TAPI 2.2], get_TTL method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_TTL, tapi3.imcastscope_get_ttl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mdhcp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mdhcp.dll
+api_name:
+-	IMcastScope.get_TTL
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMcastScope::get_TTL

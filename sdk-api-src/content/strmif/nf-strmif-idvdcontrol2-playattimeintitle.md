@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.IDvdControl2.PlayAtTimeInTitle
+title: IDvdControl2::PlayAtTimeInTitle
+author: windows-sdk-content
+description: The PlayAtTimeInTitle method starts playback from the specified time in the specified title.
+old-location: dshow\idvdcontrol2_playattimeintitle.htm
+old-project: DirectShow
+ms.assetid: 034fa82f-38d2-4031-8d7f-dcf97aa699aa
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IDvdControl2 interface [DirectShow],PlayAtTimeInTitle method, IDvdControl2.PlayAtTimeInTitle, IDvdControl2::PlayAtTimeInTitle, IDvdControl2PlayAtTimeInTitle, PlayAtTimeInTitle, PlayAtTimeInTitle method [DirectShow], PlayAtTimeInTitle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playattimeintitle, strmif/IDvdControl2::PlayAtTimeInTitle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IDvdControl2.PlayAtTimeInTitle
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IDvdControl2::PlayAtTimeInTitle

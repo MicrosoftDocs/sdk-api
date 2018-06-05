@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0024
+title: "__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0024"
+author: windows-sdk-content
+description: The contents of the XPS_COLOR structure when the colorType is XPS_COLOR_TYPE_CONTEXT.
+old-location: xps\xps_color_type_context.htm
+old-project: printdocs
+ms.assetid: 76dcabb0-2407-4877-9f52-100883746695
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: XPS_COLOR, XPS_COLOR structure [XPS Documents and Packaging], XPS_COLOR_TYPE_CONTEXT, XPS_COLOR_TYPE_CONTEXT structure [XPS Documents and Packaging], __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0024, xps.xps_color_type_context, xpsobjectmodel/XPS_COLOR_TYPE_CONTEXT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: xpsobjectmodel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XpsObjectModel.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XPS_COLOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	xpsobjectmodel.h
+api_name:
+-	XPS_COLOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0024 structure

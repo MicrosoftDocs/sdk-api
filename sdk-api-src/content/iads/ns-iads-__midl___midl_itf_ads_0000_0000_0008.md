@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0008
+title: "__MIDL___MIDL_itf_ads_0000_0000_0008"
+author: windows-sdk-content
+description: The ADS_BACKLINK structure is an ADSI representation of the Back Link attribute syntax.
+old-location: adsi\ads_backlink.htm
+old-project: ADSI
+ms.assetid: 1352d304-b984-43ab-8c47-5108f35ae193
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PADS_BACKLINK, ADS_BACKLINK, ADS_BACKLINK structure [ADSI], PADS_BACKLINK, PADS_BACKLINK structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0008, _ds_ads_backlink, adsi.ads__backlink, adsi.ads_backlink, iads/ADS_BACKLINK, iads/PADS_BACKLINK"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_BACKLINK, *PADS_BACKLINK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_BACKLINK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_ads_0000_0000_0008 structure

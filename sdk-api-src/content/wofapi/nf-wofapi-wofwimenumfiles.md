@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:wofapi.WofWimEnumFiles
+title: WofWimEnumFiles function
+author: windows-sdk-content
+description: Enumerates all of the files which are being backed by a specified WIM data source on a specified volume.
+old-location: fs\wofwimenumfiles.htm
+old-project: FileIO
+ms.assetid: D95F344F-762F-4F3C-ADAE-0A20BAE448F2
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: WofWimEnumFiles, WofWimEnumFiles function [Files], fs.wofwimenumfiles, wofapi/WofWimEnumFiles
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wofapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	wofutil.dll
+api_name:
+-	WofWimEnumFiles
+product: Windows
+targetos: Windows
+req.lib: Wofutil.lib
+req.dll: Wofutil.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WofWimEnumFiles function

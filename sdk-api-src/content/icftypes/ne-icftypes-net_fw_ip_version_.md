@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:icftypes.NET_FW_IP_VERSION_
+title: NET_FW_IP_VERSION_
+author: windows-sdk-content
+description: Specifies the IP version for a port.
+old-location: ics\net_fw_ip_version.htm
+old-project: ICS
+ms.assetid: f322c914-e84f-4c13-8200-06e5fe2bdab7
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: NET_FW_IP_VERSION, NET_FW_IP_VERSION enumeration [ICS/ICF], NET_FW_IP_VERSION_, NET_FW_IP_VERSION_ANY, NET_FW_IP_VERSION_MAX, NET_FW_IP_VERSION_V4, NET_FW_IP_VERSION_V6, icftypes/NET_FW_IP_VERSION, icftypes/NET_FW_IP_VERSION_ANY, icftypes/NET_FW_IP_VERSION_MAX, icftypes/NET_FW_IP_VERSION_V4, icftypes/NET_FW_IP_VERSION_V6, ics.net_fw_ip_version
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: icftypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_FW_IP_VERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Icftypes.h
+api_name:
+-	NET_FW_IP_VERSION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # NET_FW_IP_VERSION_ enumeration

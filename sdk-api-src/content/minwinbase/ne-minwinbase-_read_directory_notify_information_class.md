@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:minwinbase._READ_DIRECTORY_NOTIFY_INFORMATION_CLASS
+title: "_READ_DIRECTORY_NOTIFY_INFORMATION_CLASS"
+author: windows-sdk-content
+description: Indicates the possible types of information that an application that calls the ReadDirectoryChangesExW function can request.
+old-location: fs\read_directory_notify_information_class.htm
+old-project: FileIO
+ms.assetid: 193D018B-80FE-45B2-826A-A00D173E32D3
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS, PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS, PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration pointer [Files], READ_DIRECTORY_NOTIFY_INFORMATION_CLASS, READ_DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration [Files], ReadDirectoryNotifyExtendedInformation, ReadDirectoryNotifyInformation, _READ_DIRECTORY_NOTIFY_INFORMATION_CLASS, fs.read_directory_notify_information_class, minwinbase/PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS, minwinbase/READ_DIRECTORY_NOTIFY_INFORMATION_CLASS, minwinbase/ReadDirectoryNotifyExtendedInformation, minwinbase/ReadDirectoryNotifyInformation"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: minwinbase.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: READ_DIRECTORY_NOTIFY_INFORMATION_CLASS, *PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Minwinbase.h
+api_name:
+-	READ_DIRECTORY_NOTIFY_INFORMATION_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _READ_DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration

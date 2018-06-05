@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFMediaSession.Start
+title: IMFMediaSession::Start
+author: windows-sdk-content
+description: Starts the Media Session.
+old-location: mf\imfmediasession_start.htm
+old-project: medfound
+ms.assetid: 1bdec0c0-b042-4e5e-a72b-b15942750ced
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 1bdec0c0-b042-4e5e-a72b-b15942750ced, GUID_NULL, IMFMediaSession interface [Media Foundation],Start method, IMFMediaSession.Start, IMFMediaSession::Start, MF_TIME_FORMAT_ENTRY_RELATIVE, MF_TIME_FORMAT_SEGMENT_OFFSET, Start, Start method [Media Foundation], Start method [Media Foundation],IMFMediaSession interface, mf.imfmediasession_start, mfidl/IMFMediaSession::Start
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFMediaSession.Start
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFMediaSession::Start

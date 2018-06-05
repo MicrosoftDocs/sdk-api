@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shobjidl_core.tagBANDSITEINFO
+title: tagBANDSITEINFO
+author: windows-sdk-content
+description: Contains information about a band site. This structure is used with the IBandSite::GetBandSiteInfo and IBandSite::SetBandSiteInfo methods.
+old-location: shell\BANDSITEINFO.htm
+old-project: shell
+ms.assetid: 86e4afce-594a-441e-b6d9-ce05c8234150
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: BANDSITEINFO, BANDSITEINFO structure [Windows Shell], BSIM_STATE, BSIM_STYLE, BSIS_ALWAYSGRIPPER, BSIS_AUTOGRIPPER, BSIS_FIXEDORDER, BSIS_LEFTALIGN, BSIS_LOCKED, BSIS_NOCAPTION, BSIS_NOCONTEXTMENU, BSIS_NODROPTARGET, BSIS_NOGRIPPER, BSIS_PREFERNOLINEBREAK, BSIS_PRESERVEORDERDURINGLAYOUT, BSIS_SINGLECLICK, BSSF_NOTITLE, BSSF_UNDELETEABLE, BSSF_VISIBLE, _win32_BANDSITEINFO, shell.BANDSITEINFO, shobjidl_core/BANDSITEINFO, tagBANDSITEINFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BANDSITEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shobjidl_core.h
+api_name:
+-	BANDSITEINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # tagBANDSITEINFO structure

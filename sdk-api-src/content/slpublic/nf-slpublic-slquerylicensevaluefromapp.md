@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:slpublic.SLQueryLicenseValueFromApp
+title: SLQueryLicenseValueFromApp function
+author: windows-sdk-content
+description: Gets the value for the specified component policy.
+old-location: security\slquerylicensevaluefromapp.htm
+old-project: SecSLApi
+ms.assetid: C26FF469-2B25-4EDA-8432-EF32A4550650
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: SLQueryLicenseValueFromApp, SLQueryLicenseValueFromApp function [Security], security.slquerylicensevaluefromapp, slpublic/SLQueryLicenseValueFromApp
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: slpublic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SL_ACTIVATION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	api-ms-win-core-slapi-l1-1-0.dll
+-	Slc.dll
+-	Clipc.dll
+api_name:
+-	SLQueryLicenseValueFromApp
+product: Windows
+targetos: Windows
+req.lib: Api-ms-win-core-slapi-l1-1-0.lib
+req.dll: Api-ms-win-core-slapi-l1-1-0.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLQueryLicenseValueFromApp function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vds.IVdsAdvancedDisk.ChangeAttributes
+title: IVdsAdvancedDisk::ChangeAttributes
+author: windows-sdk-content
+description: Modifies the attributes of the partition.
+old-location: base\ivdsadvanceddisk_changeattributes.htm
+old-project: VDS
+ms.assetid: 0345a4b1-bbe1-4e59-9a04-bb40ff6db954
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ChangeAttributes, ChangeAttributes method [VDS], ChangeAttributes method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],ChangeAttributes method, IVdsAdvancedDisk.ChangeAttributes, IVdsAdvancedDisk::ChangeAttributes, base.ivdsadvanceddisk_changeattributes, vds/IVdsAdvancedDisk::ChangeAttributes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VOLUME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsAdvancedDisk.ChangeAttributes
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsAdvancedDisk::ChangeAttributes

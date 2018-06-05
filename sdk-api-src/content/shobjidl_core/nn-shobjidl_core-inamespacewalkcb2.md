@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:shobjidl_core.INamespaceWalkCB2
+title: INamespaceWalkCB2
+author: windows-sdk-content
+description: Extends INamespaceWalkCB with a method that is required in order to complete a namespace walk. This method removes data collected during the walk.
+old-location: shell\INamespaceWalkCB2.htm
+old-project: shell
+ms.assetid: a748083b-a99e-4015-93da-112d2950f623
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: INamespaceWalkCB2, INamespaceWalkCB2 interface [Windows Shell], INamespaceWalkCB2 interface [Windows Shell],described, _shell_INamespaceWalkCB2, shell.INamespaceWalkCB2, shobjidl_core/INamespaceWalkCB2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	INamespaceWalkCB2
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # INamespaceWalkCB2 interface

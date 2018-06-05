@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._PROCESSOR_POWER_POLICY_INFO
+title: "_PROCESSOR_POWER_POLICY_INFO"
+author: windows-sdk-content
+description: Contains information about processor C-state policy settings.
+old-location: base\processor_power_policy_info_str.htm
+old-project: Power
+ms.assetid: 9d29aec0-ba22-46be-b429-d6dfd2191b98
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PPROCESSOR_POWER_POLICY_INFO, PPROCESSOR_POWER_POLICY_INFO, PPROCESSOR_POWER_POLICY_INFO structure pointer, PROCESSOR_POWER_POLICY_INFO, PROCESSOR_POWER_POLICY_INFO structure, _PROCESSOR_POWER_POLICY_INFO, _win32_processor_power_policy_info_str, base.processor_power_policy_info_str, winnt/PPROCESSOR_POWER_POLICY_INFO, winnt/PROCESSOR_POWER_POLICY_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROCESSOR_POWER_POLICY_INFO, *PPROCESSOR_POWER_POLICY_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	PROCESSOR_POWER_POLICY_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _PROCESSOR_POWER_POLICY_INFO structure

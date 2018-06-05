@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mmdeviceapi.__MIDL___MIDL_itf_mmdeviceapi_0000_0008_0001
+title: "__MIDL___MIDL_itf_mmdeviceapi_0000_0008_0001"
+author: windows-sdk-content
+description: This structure is passed to the Control Panel Endpoint Extension property page through IShellPropSheetExt::AddPages and is used to create endpoint PropertyPages.
+old-location: coreaudio\audioextensionparams.htm
+old-project: CoreAudio
+ms.assetid: 02A38355-104D-46C0-A34E-C0BB482323A9
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: AudioExtensionParams, AudioExtensionParams structure [Core Audio], PAudioExtensionParams, PAudioExtensionParams structure pointer [Core Audio], __MIDL___MIDL_itf_mmdeviceapi_0000_0008_0001, coreaudio.audioextensionparams, mmdeviceapi/AudioExtensionParams, mmdeviceapi/PAudioExtensionParams
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mmdeviceapi.h
+req.include-header: Mmdevapi.idl
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AudioExtensionParams
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mmdeviceapi.h
+api_name:
+-	AudioExtensionParams
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_mmdeviceapi_0000_0008_0001 structure

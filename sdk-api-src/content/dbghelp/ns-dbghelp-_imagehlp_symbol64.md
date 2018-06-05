@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dbghelp._IMAGEHLP_SYMBOL64
+title: "_IMAGEHLP_SYMBOL64"
+author: windows-sdk-content
+description: Contains symbol information.
+old-location: base\imagehlp_symbol64_str.htm
+old-project: Debug
+ms.assetid: 7b39281a-c34b-47ae-a3ff-5f0a7a66a588
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PIMAGEHLP_SYMBOL64, IMAGEHLP_SYMBOL, IMAGEHLP_SYMBOL structure, IMAGEHLP_SYMBOL64, IMAGEHLP_SYMBOL64 structure, IMAGEHLP_SYMBOLW64, PIMAGEHLP_SYMBOL64, PIMAGEHLP_SYMBOL64 structure pointer, _IMAGEHLP_SYMBOL64, _win32_imagehlp_symbol64_str, base.imagehlp_symbol64_str, dbghelp/IMAGEHLP_SYMBOL64, dbghelp/IMAGEHLP_SYMBOLW64, dbghelp/PIMAGEHLP_SYMBOL64"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: IMAGEHLP_SYMBOLW64 (Unicode) and IMAGEHLP_SYMBOL64 (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_SYMBOL64, *PIMAGEHLP_SYMBOL64
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DbgHelp.h
+api_name:
+-	IMAGEHLP_SYMBOL64
+-	IMAGEHLP_SYMBOL64
+-	IMAGEHLP_SYMBOLW64
+-	IMAGEHLP_SYMBOL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _IMAGEHLP_SYMBOL64 structure

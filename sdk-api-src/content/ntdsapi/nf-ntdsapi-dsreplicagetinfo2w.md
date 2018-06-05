@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntdsapi.DsReplicaGetInfo2W
+title: DsReplicaGetInfo2W function
+author: windows-sdk-content
+description: Retrieves replication state data from the directory service. This function allows paging of results in cases where there are more than 1000 entries to retrieve.
+old-location: ad\dsreplicagetinfo2.htm
+old-project: AD
+ms.assetid: 5735d91d-1b7d-4dc6-b6c6-61ba38ebe50d
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_REPL_INFO_CURSORS_2_FOR_NC, DS_REPL_INFO_CURSORS_3_FOR_NC, DS_REPL_INFO_CURSORS_FOR_NC, DS_REPL_INFO_FLAG_IMPROVE_LINKED_ATTRS, DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, DS_REPL_INFO_KCC_DSA_LINK_FAILURES, DS_REPL_INFO_METADATA_2_FOR_ATTR_VALUE, DS_REPL_INFO_METADATA_2_FOR_OBJ, DS_REPL_INFO_METADATA_FOR_ATTR_VALUE, DS_REPL_INFO_METADATA_FOR_OBJ, DS_REPL_INFO_NEIGHBORS, DS_REPL_INFO_PENDING_OPS, DsReplicaGetInfo2, DsReplicaGetInfo2 function [Active Directory], DsReplicaGetInfo2W, ad.dsreplicagetinfo2, ntdsapi/DsReplicaGetInfo2, ntdsapi/DsReplicaGetInfo2W
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DsReplicaGetInfo2W (Unicode)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_REPL_OP_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdsapi.dll
+api_name:
+-	DsReplicaGetInfo2
+-	DsReplicaGetInfo2W
+product: Windows
+targetos: Windows
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DsReplicaGetInfo2W function

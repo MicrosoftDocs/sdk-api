@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmpservices.IWMPPluginEnable.SetEnable
+title: IWMPPluginEnable::SetEnable
+author: windows-sdk-content
+description: The IWMPPluginEnable::SetEnable method retrieves a value indicating whether user has enabled the plug-in.
+old-location: wmp\iwmppluginenable_setenable.htm
+old-project: WMP
+ms.assetid: a0b8e79b-e9bd-40e5-ab58-11469406110a
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPPluginEnable interface [Windows Media Player],SetEnable method, IWMPPluginEnable.SetEnable, IWMPPluginEnable::SetEnable, IWMPPluginEnableSetEnableDSP, SetEnable, SetEnable method [Windows Media Player], SetEnable method [Windows Media Player],IWMPPluginEnable interface, wmp.iwmppluginenable_setenable, wmpservices/IWMPPluginEnable::SetEnable
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmpservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPServices_StreamState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmpservices.h
+api_name:
+-	IWMPPluginEnable.SetEnable
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPPluginEnable::SetEnable

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wcmconfig.ISettingsContext.SetUserData
+title: ISettingsContext::SetUserData
+author: windows-sdk-content
+description: Sets the user-defined data.
+old-location: smi\isettingscontext_setuserdata.htm
+old-project: SMI
+ms.assetid: 4ae754a5-7e03-4747-b4bc-1abf72920d83
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ISettingsContext interface [SMI],SetUserData method, ISettingsContext.SetUserData, ISettingsContext::SetUserData, SetUserData, SetUserData method [SMI], SetUserData method [SMI],ISettingsContext interface, smi.isettingscontext_setuserdata, wcmconfig/ISettingsContext::SetUserData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WcmConfig.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ISettingsContext.SetUserData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ISettingsContext::SetUserData

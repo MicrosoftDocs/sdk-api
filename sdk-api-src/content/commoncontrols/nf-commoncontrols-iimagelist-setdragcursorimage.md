@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:commoncontrols.IImageList.SetDragCursorImage
+title: IImageList::SetDragCursorImage
+author: windows-sdk-content
+description: Creates a new drag image by combining the specified image, which is typically a mouse cursor image, with the current drag image.
+old-location: controls\IImageList_SetDragCursorImage.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setdragcursorimage.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IImageList interface [Windows Controls],SetDragCursorImage method, IImageList.SetDragCursorImage, IImageList::SetDragCursorImage, SetDragCursorImage, SetDragCursorImage method [Windows Controls], SetDragCursorImage method [Windows Controls],IImageList interface, comctl_IImageList_SetDragCursorImage, comctl_IImageList_SetDragCursorImage_cpp, commoncontrols/IImageList::SetDragCursorImage, controls.IImageList_SetDragCursorImage, controls.comctl_IImageList_SetDragCursorImage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: commoncontrols.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CommonControls.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Comctl32.dll
+api_name:
+-	IImageList.SetDragCursorImage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 ---
 
 # IImageList::SetDragCursorImage

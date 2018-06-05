@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincred._CREDENTIAL_ATTRIBUTEA
+title: "_CREDENTIAL_ATTRIBUTEA"
+author: windows-sdk-content
+description: The CREDENTIAL_ATTRIBUTE structure contains an application-defined attribute of the credential. An attribute is a keyword-value pair. It is up to the application to define the meaning of the attribute.
+old-location: security\credential_attribute.htm
+old-project: SecAuthN
+ms.assetid: eb46766c-5f05-4e4a-9550-173347f156d9
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PCREDENTIAL_ATTRIBUTEA, CREDENTIAL_ATTRIBUTE, CREDENTIAL_ATTRIBUTE structure [Security], CREDENTIAL_ATTRIBUTEA, PCREDENTIAL_ATTRIBUTE, PCREDENTIAL_ATTRIBUTE structure pointer [Security], _CREDENTIAL_ATTRIBUTEA, _cred_credential_attribute, security.credential_attribute, wincred/CREDENTIAL_ATTRIBUTE, wincred/PCREDENTIAL_ATTRIBUTE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincred.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CREDENTIAL_ATTRIBUTEA, *PCREDENTIAL_ATTRIBUTEA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinCred.h
+api_name:
+-	CREDENTIAL_ATTRIBUTE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CREDENTIAL_ATTRIBUTEA structure

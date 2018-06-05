@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ipsectypes.IPSEC_CIPHER_TYPE_
+title: IPSEC_CIPHER_TYPE_
+author: windows-sdk-content
+description: Indicates the type of encryption algorithm used in an IPsec SA for data privacy.
+old-location: fwp\ipsec_cipher_type_enum.htm
+old-project: FWP
+ms.assetid: 88bcd239-83a6-4bc6-b9c8-2416c91ee4c4
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IPSEC_CIPHER_TYPE, IPSEC_CIPHER_TYPE enumeration [Filtering], IPSEC_CIPHER_TYPE_, IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, IPSEC_CIPHER_TYPE_DES, IPSEC_CIPHER_TYPE_MAX, fwp.ipsec_cipher_type_enum, ipsectypes/IPSEC_CIPHER_TYPE, ipsectypes/IPSEC_CIPHER_TYPE_3DES, ipsectypes/IPSEC_CIPHER_TYPE_AES_128, ipsectypes/IPSEC_CIPHER_TYPE_AES_192, ipsectypes/IPSEC_CIPHER_TYPE_AES_256, ipsectypes/IPSEC_CIPHER_TYPE_DES, ipsectypes/IPSEC_CIPHER_TYPE_MAX
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ipsectypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPSEC_CIPHER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipsectypes.h
+api_name:
+-	IPSEC_CIPHER_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IPSEC_CIPHER_TYPE_ enumeration

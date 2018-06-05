@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:clusapi.ClusterGroupSetOpenEnum
+title: ClusterGroupSetOpenEnum function
+author: windows-sdk-content
+description: Starts the enumeration of groupset for a cluster.
+old-location: mscs\clustergroupcollectionopenenum.htm
+old-project: MsCS
+ms.assetid: 9e629cc8-2e5f-4682-a9b5-902d13a9792d
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ClusterGroupSetOpenEnum, ClusterGroupSetOpenEnum function [Failover Cluster], clusapi/ClusterGroupSetOpenEnum, mscs.clustergroupcollectionopenenum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ClusAPI.dll
+api_name:
+-	ClusterGroupSetOpenEnum
+product: Windows
+targetos: Windows
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 ---
 
 # ClusterGroupSetOpenEnum function

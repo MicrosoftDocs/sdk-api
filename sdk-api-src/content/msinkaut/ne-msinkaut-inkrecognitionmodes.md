@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msinkaut.InkRecognitionModes
+title: InkRecognitionModes
+author: windows-sdk-content
+description: Specifies how the recognizer interprets the ink and determines the result string.
+old-location: tablet\inkrecognitionmodes.htm
+old-project: tablet
+ms.assetid: ab9f4164-ea07-41d1-be6a-50009fa9464d
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IRM_AutoSpace, IRM_Coerce, IRM_DisablePersonalization, IRM_LineMode, IRM_Max, IRM_None, IRM_PrefixOk, IRM_TopInkBreaksOnly, IRM_WordModeOnly, InkRecognitionModes, InkRecognitionModes enumeration [Tablet PC], ab9f4164-ea07-41d1-be6a-50009fa9464d, msinkaut/IRM_AutoSpace, msinkaut/IRM_Coerce, msinkaut/IRM_DisablePersonalization, msinkaut/IRM_LineMode, msinkaut/IRM_Max, msinkaut/IRM_None, msinkaut/IRM_PrefixOk, msinkaut/IRM_TopInkBreaksOnly, msinkaut/IRM_WordModeOnly, msinkaut/InkRecognitionModes, tablet.inkrecognitionmodes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InkRecognitionModes
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msinkaut.h
+api_name:
+-	InkRecognitionModes
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkRecognitionModes enumeration

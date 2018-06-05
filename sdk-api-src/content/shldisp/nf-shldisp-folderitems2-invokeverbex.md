@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shldisp.FolderItems2.InvokeVerbEx
+title: FolderItems2::InvokeVerbEx
+author: windows-sdk-content
+description: Executes a verb on a collection of FolderItem objects. This method is an extension of the InvokeVerb method, allowing additional control of the operation through a set of flags.
+old-location: shell\FolderItems2_InvokeVerbEx.htm
+old-project: shell
+ms.assetid: 2c02985d-8877-4a02-a232-6aeb1716928c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: FolderItems2 object [Windows Shell],InvokeVerbEx method, FolderItems2.InvokeVerbEx, FolderItems2::InvokeVerbEx, InvokeVerbEx, InvokeVerbEx method [Windows Shell], InvokeVerbEx method [Windows Shell],FolderItems2 object, _win32_FolderItems2_InvokeVerbEx, shell.FolderItems2_InvokeVerbEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shldisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shldisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETEOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	FolderItems2.InvokeVerbEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # FolderItems2::InvokeVerbEx

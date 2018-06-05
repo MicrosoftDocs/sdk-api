@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlobj_core.SHCreateDataObject
+title: SHCreateDataObject function
+author: windows-sdk-content
+description: Creates a data object in a parent folder.
+old-location: shell\SHCreateDataObject.htm
+old-project: shell
+ms.assetid: d56cdafe-9463-43a5-8ef0-6cfaf0c524a8
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHCreateDataObject, SHCreateDataObject function [Windows Shell], _shell_SHCreateDataObject, shell.SHCreateDataObject, shlobj_core/SHCreateDataObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETELISTOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+-	windows.storage.dll
+-	API-MS-Win-Shell-Dataobject-L1-1-0.dll
+api_name:
+-	SHCreateDataObject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SHCreateDataObject function

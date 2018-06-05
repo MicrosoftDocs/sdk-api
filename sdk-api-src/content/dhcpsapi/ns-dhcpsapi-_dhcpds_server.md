@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi._DHCPDS_SERVER
+title: "_DHCPDS_SERVER"
+author: windows-sdk-content
+description: The DHCPDS_SERVER structure defines information on a DHCP server in the context of directory services.
+old-location: dhcp\dhcpds_server.htm
+old-project: DHCP
+ms.assetid: 12f3fbd3-9b81-4a11-914c-83658c2bce89
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCPDS_SERVER, *PDHCPDS_SERVER, DHCPDS_SERVER, DHCPDS_SERVER structure [DHCP], DHCP_SERVER_INFO, DHCP_SERVER_INFO structure [DHCP], LPDHCPDS_SERVER *PDHCPDS_SERVER, LPDHCPDS_SERVER *PDHCPDS_SERVER structure pointer [DHCP], LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO, LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO structure pointer [DHCP], PDHCPDS_SERVER, PDHCPDS_SERVER structure pointer [DHCP], PDHCP_SERVER_INFO, PDHCP_SERVER_INFO structure pointer [DHCP], _DHCPDS_SERVER, dhcp.dhcpds_server, dhcpsapi/DHCP_SERVER_INFO, dhcpsapi/LPDHCPDS_SERVER *PDHCPDS_SERVER, dhcpsapi/LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO, dhcpsapi/PDHCPDS_SERVER, dhcpsapi/PDHCP_SERVER_INFO, dhcpsapi/_DHCPDS_SERVER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCPDS_SERVER, *LPDHCPDS_SERVER, *PDHCPDS_SERVER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCPDS_SERVER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCPDS_SERVER structure

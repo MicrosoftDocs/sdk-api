@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mftransform._MFT_OUTPUT_DATA_BUFFER
+title: "_MFT_OUTPUT_DATA_BUFFER"
+author: windows-sdk-content
+description: Contains information about an output buffer for a Media Foundation transform. This structure is used in the IMFTransform::ProcessOutput method.
+old-location: mf\mft_output_data_buffer.htm
+old-project: medfound
+ms.assetid: 57623c8f-f7b6-4cb3-8d54-4ee516c706c3
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PMFT_OUTPUT_DATA_BUFFER, 57623c8f-f7b6-4cb3-8d54-4ee516c706c3, MFT_OUTPUT_DATA_BUFFER, MFT_OUTPUT_DATA_BUFFER structure [Media Foundation], _MFT_OUTPUT_DATA_BUFFER, mf.mft_output_data_buffer, mftransform/MFT_OUTPUT_DATA_BUFFER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mftransform.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFT_OUTPUT_DATA_BUFFER, *PMFT_OUTPUT_DATA_BUFFER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mftransform.h
+api_name:
+-	MFT_OUTPUT_DATA_BUFFER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFT_OUTPUT_DATA_BUFFER structure

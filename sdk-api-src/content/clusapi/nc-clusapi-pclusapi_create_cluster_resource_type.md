@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:clusapi.PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE
+title: PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE
+author: windows-sdk-content
+description: Creates a resource type in a cluster.
+old-location: mscs\createclusterresourcetype.htm
+old-project: MsCS
+ms.assetid: 19b8e8cf-898c-4df5-959c-e3789b082a76
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE, PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE callback, PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE callback function [Failover Cluster], _wolf_createclusterresourcetype, clusapi/PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE, mscs.createclusterresourcetype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: Sources
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ClusAPI.h
+api_name:
+-	PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE callback function

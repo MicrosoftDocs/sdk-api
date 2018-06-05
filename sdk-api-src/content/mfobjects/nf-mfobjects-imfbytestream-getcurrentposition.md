@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMFByteStream.GetCurrentPosition
+title: IMFByteStream::GetCurrentPosition
+author: windows-sdk-content
+description: Retrieves the current read or write position in the stream.
+old-location: mf\imfbytestream_getcurrentposition.htm
+old-project: medfound
+ms.assetid: de36742a-a8a5-4f40-9fea-af89d9a6bf2e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetCurrentPosition, GetCurrentPosition method [Media Foundation], GetCurrentPosition method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],GetCurrentPosition method, IMFByteStream.GetCurrentPosition, IMFByteStream::GetCurrentPosition, de36742a-a8a5-4f40-9fea-af89d9a6bf2e, mf.imfbytestream_getcurrentposition, mfobjects/IMFByteStream::GetCurrentPosition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFByteStream.GetCurrentPosition
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFByteStream::GetCurrentPosition

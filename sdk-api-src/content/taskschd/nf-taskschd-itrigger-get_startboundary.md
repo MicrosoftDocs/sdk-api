@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.ITrigger.get_StartBoundary
+title: ITrigger::get_StartBoundary
+author: windows-sdk-content
+description: Gets or sets the date and time when the trigger is activated.
+old-location: taskschd\itrigger_startboundary.htm
+old-project: TaskSchd
+ms.assetid: 749101ae-3db6-44ec-9113-95282c86c3c0
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ITrigger interface [Task Scheduler],StartBoundary property, ITrigger.StartBoundary, ITrigger.get_StartBoundary, ITrigger::StartBoundary, ITrigger::get_StartBoundary, ITrigger::put_StartBoundary, StartBoundary property [Task Scheduler], StartBoundary property [Task Scheduler],ITrigger interface, get_StartBoundary, taskschd.itrigger_startboundary, taskschd/ITrigger::StartBoundary, taskschd/ITrigger::get_StartBoundary, taskschd/ITrigger::put_StartBoundary
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	ITrigger.StartBoundary
+-	ITrigger.get_StartBoundary
+-	ITrigger.put_StartBoundary
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITrigger::get_StartBoundary

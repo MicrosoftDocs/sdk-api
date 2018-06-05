@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11.ID3D11Device.CreateTexture3D
+title: ID3D11Device::CreateTexture3D
+author: windows-sdk-content
+description: Create a single 3D texture.
+old-location: direct3d11\id3d11device_createtexture3d.htm
+old-project: direct3d11
+ms.assetid: 92b31baf-2d64-47fe-bd0d-550f2a65ed9a
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: CreateTexture3D, CreateTexture3D method [Direct3D 11], CreateTexture3D method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateTexture3D method, ID3D11Device.CreateTexture3D, ID3D11Device::CreateTexture3D, d3d11/ID3D11Device::CreateTexture3D, d98ea118-c203-f23f-517e-92225bfe119d, direct3d11.id3d11device_createtexture3d
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11Device.CreateTexture3D
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11Device::CreateTexture3D

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vdshwprv._VDS_TRANSITION_STATE
+title: "_VDS_TRANSITION_STATE"
+author: windows-sdk-content
+description: Defines the set of the valid transition state values for a VDS object.
+old-location: base\vds_transition_state.htm
+old-project: VDS
+ms.assetid: ef688d1f-136b-4bc8-8209-e30033e752e9
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_TRANSITION_STATE, VDS_TRANSITION_STATE enumeration, VDS_TS_EXTENDING, VDS_TS_RECONFIGING, VDS_TS_RESTRIPING, VDS_TS_SHRINKING, VDS_TS_STABLE, VDS_TS_UNKNOWN, _VDS_TRANSITION_STATE, base.vds_transition_state, vds/VDS_TRANSITION_STATE, vds/VDS_TS_EXTENDING, vds/VDS_TS_RECONFIGING, vds/VDS_TS_RESTRIPING, vds/VDS_TS_SHRINKING, vds/VDS_TS_STABLE, vds/VDS_TS_UNKNOWN, vdshwprv/VDS_TRANSITION_STATE, vdshwprv/VDS_TS_EXTENDING, vdshwprv/VDS_TS_RECONFIGING, vdshwprv/VDS_TS_RESTRIPING, vdshwprv/VDS_TS_SHRINKING, vdshwprv/VDS_TS_STABLE, vdshwprv/VDS_TS_UNKNOWN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vdshwprv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_TRANSITION_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_TRANSITION_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_TRANSITION_STATE enumeration

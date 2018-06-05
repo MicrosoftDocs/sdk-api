@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:devicetopology.__MIDL___MIDL_itf_devicetopology_0000_0000_0011
+title: "__MIDL___MIDL_itf_devicetopology_0000_0000_0011"
+author: windows-sdk-content
+description: The DataFlow enumeration indicates the data-flow direction of an audio stream through a connector.
+old-location: coreaudio\dataflow.htm
+old-project: CoreAudio
+ms.assetid: bdc2336c-5609-43f2-9b65-d8806f0fc63b
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: DataFlow, DataFlow , DataFlow enumeration [Core Audio], In, Out, __MIDL___MIDL_itf_devicetopology_0000_0000_0011, coreaudio.dataflow, devicetopology/DataFlow, devicetopology/In, devicetopology/Out
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Deviceaccess.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DataFlow
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Devicetopology.h
+api_name:
+-	DataFlow
+product: Windows
+targetos: Windows
+req.lib: Deviceaccess.lib
+req.dll: 
+req.irql: 
 ---
 
 # __MIDL___MIDL_itf_devicetopology_0000_0000_0011 enumeration

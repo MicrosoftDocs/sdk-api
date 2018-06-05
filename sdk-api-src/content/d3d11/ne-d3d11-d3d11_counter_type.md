@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d11.D3D11_COUNTER_TYPE
+title: D3D11_COUNTER_TYPE
+author: windows-sdk-content
+description: Data type of a performance counter.
+old-location: direct3d11\d3d11_counter_type.htm
+old-project: direct3d11
+ms.assetid: c39ecf5c-f4c5-4caf-bcd6-2f1ea924ec64
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D11_COUNTER_TYPE, D3D11_COUNTER_TYPE enumeration [Direct3D 11], D3D11_COUNTER_TYPE_FLOAT32, D3D11_COUNTER_TYPE_UINT16, D3D11_COUNTER_TYPE_UINT32, D3D11_COUNTER_TYPE_UINT64, d3d11/D3D11_COUNTER_TYPE, d3d11/D3D11_COUNTER_TYPE_FLOAT32, d3d11/D3D11_COUNTER_TYPE_UINT16, d3d11/D3D11_COUNTER_TYPE_UINT32, d3d11/D3D11_COUNTER_TYPE_UINT64, direct3d11.d3d11_counter_type, e65eb816-2056-25d0-88d3-3d082588c48d
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_COUNTER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	D3D11_COUNTER_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_COUNTER_TYPE enumeration

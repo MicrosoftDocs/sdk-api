@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xenroll.IEnroll.put_RootStoreFlags
+title: IEnroll::put_RootStoreFlags
+author: windows-sdk-content
+description: Sets or retrieves the registry location used for the root store.
+old-location: security\ienroll4_rootstoreflags.htm
+old-project: SecCrypto
+ms.assetid: fa4640db-f3e5-4fe0-a696-26b5e13b7dd1
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IEnroll interface [Security],RootStoreFlags property, IEnroll.RootStoreFlags, IEnroll.put_RootStoreFlags, IEnroll::RootStoreFlags, IEnroll::get_RootStoreFlags, IEnroll::put_RootStoreFlags, RootStoreFlags property [Security], RootStoreFlags property [Security],IEnroll interface, put_RootStoreFlags, security.ienroll4_rootstoreflags, xenroll/IEnroll::RootStoreFlags, xenroll/IEnroll::get_RootStoreFlags, xenroll/IEnroll::put_RootStoreFlags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	IEnroll.RootStoreFlags
+-	IEnroll.get_RootStoreFlags
+-	IEnroll.put_RootStoreFlags
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IEnroll::put_RootStoreFlags

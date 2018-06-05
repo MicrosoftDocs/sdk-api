@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ifmib._MIB_IFROW
+title: "_MIB_IFROW"
+author: windows-sdk-content
+description: Stores information about a particular interface.
+old-location: mib\mib_ifrow.htm
+old-project: MIB
+ms.assetid: b08631e9-6036-4377-b2f2-4ea899acb787
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIB_IFROW, IF_OPER_STATUS_CONNECTED, IF_OPER_STATUS_CONNECTING, IF_OPER_STATUS_DISCONNECTED, IF_OPER_STATUS_NON_OPERATIONAL, IF_OPER_STATUS_OPERATIONAL, IF_OPER_STATUS_UNREACHABLE, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_FDDI, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_IEEE80216_WMAN, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IF_TYPE_WWANPP, IF_TYPE_WWANPP2, MIB_IFROW, MIB_IFROW structure [MIB], PMIB_IFROW, PMIB_IFROW structure pointer [MIB], _MIB_IFROW, _mpr_mib_ifrow, ifmib/MIB_IFROW, ifmib/PMIB_IFROW, iprtrmib/MIB_IFROW, iprtrmib/PMIB_IFROW, mib.mib_ifrow, rras.mib_ifrow"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ifmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_IFROW, *PMIB_IFROW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ifmib.h
+-	Iprtrmib.h
+api_name:
+-	MIB_IFROW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MIB_IFROW structure

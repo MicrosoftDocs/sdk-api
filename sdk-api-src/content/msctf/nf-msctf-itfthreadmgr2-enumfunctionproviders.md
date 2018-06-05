@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfThreadMgr2.EnumFunctionProviders
+title: ITfThreadMgr2::EnumFunctionProviders
+author: windows-sdk-content
+description: Obtains an enumerator for all of the function providers registered for the calling thread.
+old-location: tsf\itfthreadmgr2_enumfunctionproviders.htm
+old-project: TSF
+ms.assetid: 0F28BDFD-4CD8-4D50-92D9-6A60B80122B2
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: EnumFunctionProviders, EnumFunctionProviders method [Text Services Framework], EnumFunctionProviders method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],EnumFunctionProviders method, ITfThreadMgr2.EnumFunctionProviders, ITfThreadMgr2::EnumFunctionProviders, msctf/ITfThreadMgr2::EnumFunctionProviders, tsf.itfthreadmgr2_enumfunctionproviders
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.h
+api_name:
+-	ITfThreadMgr2.EnumFunctionProviders
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfThreadMgr2::EnumFunctionProviders

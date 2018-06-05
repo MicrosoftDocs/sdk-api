@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:structuredquery.CONDITION_CREATION_OPTIONS
+title: CONDITION_CREATION_OPTIONS
+author: windows-sdk-content
+description: Provides a set of flags to be used with the following interfaces to indicate the type of condition tree node:\_ICondition, ICondition2, IConditionFactory, IConditionFactory2, and IConditionGenerator.
+old-location: search\_search_CONDITION_CREATION_OPTIONS.htm
+old-project: search
+ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\condition_creation_options.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CONDITION_CREATION_DEFAULT, CONDITION_CREATION_NONE, CONDITION_CREATION_OPTIONS, CONDITION_CREATION_OPTIONS enumeration [search], CONDITION_CREATION_SIMPLIFY, CONDITION_CREATION_USE_CONTENT_LOCALE, CONDITION_CREATION_VECTOR_AND, CONDITION_CREATION_VECTOR_LEAF, CONDITION_CREATION_VECTOR_OR, _search_CONDITION_CREATION_OPTIONS, search._search_CONDITION_CREATION_OPTIONS, structuredquery/CONDITION_CREATION_DEFAULT, structuredquery/CONDITION_CREATION_NONE, structuredquery/CONDITION_CREATION_OPTIONS, structuredquery/CONDITION_CREATION_SIMPLIFY, structuredquery/CONDITION_CREATION_USE_CONTENT_LOCALE, structuredquery/CONDITION_CREATION_VECTOR_AND, structuredquery/CONDITION_CREATION_VECTOR_LEAF, structuredquery/CONDITION_CREATION_VECTOR_OR
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: structuredquery.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: StringCchVPrintf_lW (Unicode) and StringCchVPrintf_lA (ANSI)
+req.idl: Structuredquery.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONDITION_CREATION_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Structuredquery.h
+api_name:
+-	CONDITION_CREATION_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # CONDITION_CREATION_OPTIONS enumeration

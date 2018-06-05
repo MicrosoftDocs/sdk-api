@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ws2spi.WSCDeinstallProvider32
+title: WSCDeinstallProvider32 function
+author: windows-sdk-content
+description: Removes the specified 32-bit transport provider from the system configuration database.
+old-location: winsock\wscdeinstallprovider32.htm
+old-project: WinSock
+ms.assetid: 3de74059-dbfb-49b9-830b-7b2f81f8b68c
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: WSCDeinstallProvider32, WSCDeinstallProvider32 function [Winsock], winsock.wscdeinstallprovider32, ws2spi/WSCDeinstallProvider32
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ws2spi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 x64 Edition [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSC_PROVIDER_INFO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ws2_32.dll
+api_name:
+-	WSCDeinstallProvider32
+product: Windows
+targetos: Windows
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WSCDeinstallProvider32 function

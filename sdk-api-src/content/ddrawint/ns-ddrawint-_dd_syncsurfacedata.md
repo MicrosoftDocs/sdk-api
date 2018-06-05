@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_SYNCSURFACEDATA
+title: "_DD_SYNCSURFACEDATA"
+author: windows-sdk-content
+description: The DD_SYNCSURFACEDATA structure contains the surface information.
+old-location: display\dd_syncsurfacedata.htm
+old-project: display
+ms.assetid: 76294b03-9182-408a-a0ee-1a24f8b53163
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_SYNCSURFACEDATA, DD_SYNCSURFACEDATA, DD_SYNCSURFACEDATA structure [Display Devices], PDD_SYNCSURFACEDATA, PDD_SYNCSURFACEDATA structure pointer [Display Devices], _DD_SYNCSURFACEDATA, ddrawint/DD_SYNCSURFACEDATA, ddrawint/PDD_SYNCSURFACEDATA, ddstrcts_59fb70d7-7462-48bf-a0f7-3d54cdf8f62e.xml, display.dd_syncsurfacedata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_SYNCSURFACEDATA, DD_SYNCSURFACEDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_SYNCSURFACEDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_SYNCSURFACEDATA structure

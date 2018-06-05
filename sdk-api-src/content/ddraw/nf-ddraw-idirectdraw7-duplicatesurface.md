@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:ddraw.IDirectDraw7.DuplicateSurface
+title: IDirectDraw7::DuplicateSurface
+author: windows-sdk-content
+description: Duplicates a DirectDrawSurface object.
+old-location: directdraw\idirectdraw7_duplicatesurface.htm
+old-project: directdraw
+ms.assetid: 515219e9-95e9-41fd-9797-d143cd542ef6
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DuplicateSurface, DuplicateSurface method [DirectDraw], DuplicateSurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],DuplicateSurface method, IDirectDraw7.DuplicateSurface, IDirectDraw7::DuplicateSurface, ddraw/IDirectDraw7::DuplicateSurface, directdraw.idirectdraw7_duplicatesurface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ddraw.dll
+api_name:
+-	IDirectDraw7.DuplicateSurface
+product: Windows
+targetos: Windows
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 ---
 
 # IDirectDraw7::DuplicateSurface

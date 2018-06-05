@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IApplicationActivationManager.ActivateApplication
+title: IApplicationActivationManager::ActivateApplication
+author: windows-sdk-content
+description: Activates the specified Windows Store app for the generic launch contract (Windows.Launch) in the current session.
+old-location: shell\IApplicationActivationManager_ActivateApplication.htm
+old-project: shell
+ms.assetid: A39FA68E-F79F-454a-BB41-31D4D5EEC253
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: AO_DESIGNMODE, AO_NOERRORUI, AO_NONE, AO_NOSPLASHSCREEN, AO_PRELAUNCH, ActivateApplication, ActivateApplication method [Windows Shell], ActivateApplication method [Windows Shell],IApplicationActivationManager interface, IApplicationActivationManager interface [Windows Shell],ActivateApplication method, IApplicationActivationManager.ActivateApplication, IApplicationActivationManager::ActivateApplication, shell.IApplicationActivationManager_ActivateApplication, shobjidl_core/IApplicationActivationManager::ActivateApplication
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	IApplicationActivationManager.ActivateApplication
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IApplicationActivationManager::ActivateApplication

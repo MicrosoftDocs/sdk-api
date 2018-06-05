@@ -1,31 +1,54 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winver.GetFileVersionInfoSizeA
+title: GetFileVersionInfoSizeA function
+author: windows-sdk-content
+description: Determines whether the operating system can retrieve version information for a specified file. If version information is available, GetFileVersionInfoSize returns the size, in bytes, of that information.
+old-location: menurc\getfileversioninfosize.htm
+old-project: menurc
+ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfosize.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetFileVersionInfoSize, GetFileVersionInfoSize function [Menus and Other Resources], GetFileVersionInfoSizeA, GetFileVersionInfoSizeW, _win32_GetFileVersionInfoSize, _win32_getfileversioninfosize_cpp, menurc.getfileversioninfosize, winui._win32_getfileversioninfosize, winver/GetFileVersionInfoSize, winver/GetFileVersionInfoSizeA, winver/GetFileVersionInfoSizeW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winver.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetFileVersionInfoSizeW (Unicode) and GetFileVersionInfoSizeA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ICONINFOEXW, *PICONINFOEXW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	api-ms-win-core-version-l1-1-0.dll
+-	API-MS-Win-Core-Versionansi-L1-1-1.dll
+-	API-MS-Win-Core-Version-L1-1-1.dll
+-	KernelBase.dll
+-	version.dll
+api_name:
+-	GetFileVersionInfoSize
+-	GetFileVersionInfoSizeA
+-	GetFileVersionInfoSizeW
+product: Windows
+targetos: Windows
+req.lib: Mincore.lib
+req.dll: Api-ms-win-core-version-l1-1-0.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # GetFileVersionInfoSizeA function

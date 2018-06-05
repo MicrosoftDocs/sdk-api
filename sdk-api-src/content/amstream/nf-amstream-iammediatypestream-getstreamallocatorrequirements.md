@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:amstream.IAMMediaTypeStream.GetStreamAllocatorRequirements
+title: IAMMediaTypeStream::GetStreamAllocatorRequirements
+author: windows-sdk-content
+description: Note  This interface is deprecated. New applications should not use it. The GetStreamAllocatorRequirements retrieves the allocator requirements for the stream. This method is not currently implemented.
+old-location: dshow\iammediatypestream_getstreamallocatorrequirements.htm
+old-project: DirectShow
+ms.assetid: 0a1ad5c5-0cbf-44a5-833f-951c9934bd19
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetStreamAllocatorRequirements, GetStreamAllocatorRequirements method [DirectShow], GetStreamAllocatorRequirements method [DirectShow],IAMMediaTypeStream interface, IAMMediaTypeStream interface [DirectShow],GetStreamAllocatorRequirements method, IAMMediaTypeStream.GetStreamAllocatorRequirements, IAMMediaTypeStream::GetStreamAllocatorRequirements, IAMMediaTypeStreamGetStreamAllocatorRequirements, amstream/IAMMediaTypeStream::GetStreamAllocatorRequirements, dshow.iammediatypestream_getstreamallocatorrequirements
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: amstream.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMSI_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	amstream.h
+api_name:
+-	IAMMediaTypeStream.GetStreamAllocatorRequirements
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAMMediaTypeStream::GetStreamAllocatorRequirements

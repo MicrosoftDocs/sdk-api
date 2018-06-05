@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:audioclient.IAudioClient2.GetBufferSizeLimits
+title: IAudioClient2::GetBufferSizeLimits
+author: windows-sdk-content
+description: The GetBufferSizeLimits method returns the buffer size limits of the hardware audio engine in 100-nanosecond units.
+old-location: coreaudio\iaudioclient2_getbuffersizelimits.htm
+old-project: CoreAudio
+ms.assetid: BCB6066E-2672-4E56-83EA-7EBEC3C7F3DD
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetBufferSizeLimits, GetBufferSizeLimits method [Core Audio], GetBufferSizeLimits method [Core Audio],IAudioClient2 interface, IAudioClient2 interface [Core Audio],GetBufferSizeLimits method, IAudioClient2.GetBufferSizeLimits, IAudioClient2::GetBufferSizeLimits, audioclient/IAudioClient2::GetBufferSizeLimits, coreaudio.getbuffersizelimits_iaudioclient2__getbuffersizelimits, coreaudio.iaudioclient2_getbuffersizelimits
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioclient.h
+api_name:
+-	IAudioClient2.GetBufferSizeLimits
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioClient2::GetBufferSizeLimits

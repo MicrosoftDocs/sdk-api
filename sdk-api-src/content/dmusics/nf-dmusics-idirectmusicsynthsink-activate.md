@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dmusics.IDirectMusicSynthSink.Activate
+title: IDirectMusicSynthSink::Activate
+author: windows-sdk-content
+description: The Activate method activates or deactivates the synthesizer sink.
+old-location: audio\idirectmusicsynthsink_activate.htm
+old-project: audio
+ms.assetid: 49b66410-23bd-4c4d-929c-b7e82fb45a9c
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: Activate, Activate method [Audio Devices], Activate method [Audio Devices],IDirectMusicSynthSink interface, IDirectMusicSynthSink interface [Audio Devices],Activate method, IDirectMusicSynthSink.Activate, IDirectMusicSynthSink::Activate, audio.idirectmusicsynthsink_activate, audmp-routines_8a2d5dd7-92f1-4341-a5f3-68fd1215fc06.xml, dmusics/IDirectMusicSynthSink::Activate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dmusics.h
+req.include-header: Dmusics.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dmusics.h
+api_name:
+-	IDirectMusicSynthSink.Activate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectMusicSynthSink::Activate

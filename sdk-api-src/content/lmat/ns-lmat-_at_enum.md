@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmat._AT_ENUM
+title: "_AT_ENUM"
+author: windows-sdk-content
+description: The AT_ENUM structure contains information about a submitted job. The NetScheduleJobEnum function uses this structure to enumerate and return information about an entire queue of submitted jobs.
+old-location: netmgmt\at_enum_str.htm
+old-project: NetMgmt
+ms.assetid: ed7c5171-b8aa-4a9a-8f31-4d914bcad0b1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPAT_ENUM, *PAT_ENUM, AT_ENUM, AT_ENUM structure [Network Management], JOB_EXEC_ERROR, JOB_NONINTERACTIVE, JOB_RUNS_TODAY, JOB_RUN_PERIODICALLY, LPAT_ENUM, LPAT_ENUM structure pointer [Network Management], PAT_ENUM, PAT_ENUM structure pointer [Network Management], _AT_ENUM, _win32_at_enum_str, lmat/AT_ENUM, lmat/LPAT_ENUM, lmat/PAT_ENUM, netmgmt.at_enum_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmat.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AT_ENUM, *PAT_ENUM, *LPAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmat.h
+api_name:
+-	AT_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _AT_ENUM structure

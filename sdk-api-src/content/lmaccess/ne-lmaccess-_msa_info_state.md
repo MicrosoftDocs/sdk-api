@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:lmaccess._MSA_INFO_STATE
+title: "_MSA_INFO_STATE"
+author: windows-sdk-content
+description: Indicates the state of a managed service account.
+old-location: security\msa_info_state.htm
+old-project: SecMgmt
+ms.assetid: 3cba6c6a-1d63-4795-b009-1fcdf86cc2ef
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PMSA_INFO_STATE, MSA_INFO_STATE, MSA_INFO_STATE enumeration [Security], MsaInfoCanInstall, MsaInfoCannotInstall, MsaInfoInstalled, MsaInfoNotExist, MsaInfoNotService, _MSA_INFO_STATE, lmaccess/MSA_INFO_STATE, lmaccess/MsaInfoCanInstall, lmaccess/MsaInfoCannotInstall, lmaccess/MsaInfoInstalled, lmaccess/MsaInfoNotExist, lmaccess/MsaInfoNotService, security.msa_info_state"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: lmaccess.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmaccess.h
+api_name:
+-	MSA_INFO_STATE
+product: Windows
+targetos: Windows
+req.lib: WindowsApp.lib
+req.dll: Api-ms-win-core-libraryloader-l1-1-1.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MSA_INFO_STATE enumeration

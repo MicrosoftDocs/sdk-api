@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:certenroll.X509CertificateTemplateSubjectNameFlag
+title: X509CertificateTemplateSubjectNameFlag
+author: windows-sdk-content
+description: Contains values that specify server and client actions concerning subject names.
+old-location: security\x509certificatetemplatesubjectnameflag.htm
+old-project: SecCertEnroll
+ms.assetid: 0880bb94-d26f-49a7-9749-f8be272fa4f6
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: SubjectAlternativeNameEnrolleeSupplies, SubjectAlternativeNameRequireDNS, SubjectAlternativeNameRequireDirectoryGUID, SubjectAlternativeNameRequireDomainDNS, SubjectAlternativeNameRequireEmail, SubjectAlternativeNameRequireSPN, SubjectAlternativeNameRequireUPN, SubjectNameAndAlternativeNameOldCertSupplies, SubjectNameEnrolleeSupplies, SubjectNameRequireCommonName, SubjectNameRequireDNS, SubjectNameRequireDirectoryPath, SubjectNameRequireEmail, X509CertificateTemplateSubjectNameFlag, X509CertificateTemplateSubjectNameFlag enumeration [Security], certenroll/SubjectAlternativeNameEnrolleeSupplies, certenroll/SubjectAlternativeNameRequireDNS, certenroll/SubjectAlternativeNameRequireDirectoryGUID, certenroll/SubjectAlternativeNameRequireDomainDNS, certenroll/SubjectAlternativeNameRequireEmail, certenroll/SubjectAlternativeNameRequireSPN, certenroll/SubjectAlternativeNameRequireUPN, certenroll/SubjectNameAndAlternativeNameOldCertSupplies, certenroll/SubjectNameEnrolleeSupplies, certenroll/SubjectNameRequireCommonName, certenroll/SubjectNameRequireDNS, certenroll/SubjectNameRequireDirectoryPath, certenroll/SubjectNameRequireEmail, certenroll/X509CertificateTemplateSubjectNameFlag, security.x509certificatetemplatesubjectnameflag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509CertificateTemplateSubjectNameFlag
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CertEnroll.h
+api_name:
+-	X509CertificateTemplateSubjectNameFlag
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 ---
 
 # X509CertificateTemplateSubjectNameFlag enumeration

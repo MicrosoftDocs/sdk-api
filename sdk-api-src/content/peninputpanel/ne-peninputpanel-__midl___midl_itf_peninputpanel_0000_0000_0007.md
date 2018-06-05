@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0007
+title: "__MIDL___MIDL_itf_peninputpanel_0000_0000_0007"
+author: windows-sdk-content
+description: The events on the ITextInputPanel Interface that you can set attention for.
+old-location: tablet\eventmask.htm
+old-project: tablet
+ms.assetid: 83fefdcf-eb5f-4fb6-b107-dc8abce02bb6
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 83fefdcf-eb5f-4fb6-b107-dc8abce02bb6, EventMask, EventMask enumeration [Tablet PC], EventMask_All, EventMask_CorrectionModeChanged, EventMask_CorrectionModeChanging, EventMask_InPlaceSizeChanged, EventMask_InPlaceSizeChanging, EventMask_InPlaceStateChanged, EventMask_InPlaceStateChanging, EventMask_InPlaceVisibilityChanged, EventMask_InPlaceVisibilityChanging, EventMask_InputAreaChanged, EventMask_InputAreaChanging, EventMask_TextInserted, EventMask_TextInserting, __MIDL___MIDL_itf_peninputpanel_0000_0000_0007, peninputpanel/EventMask, peninputpanel/EventMask_All, peninputpanel/EventMask_CorrectionModeChanged, peninputpanel/EventMask_CorrectionModeChanging, peninputpanel/EventMask_InPlaceSizeChanged, peninputpanel/EventMask_InPlaceSizeChanging, peninputpanel/EventMask_InPlaceStateChanged, peninputpanel/EventMask_InPlaceStateChanging, peninputpanel/EventMask_InPlaceVisibilityChanged, peninputpanel/EventMask_InPlaceVisibilityChanging, peninputpanel/EventMask_InputAreaChanged, peninputpanel/EventMask_InputAreaChanging, peninputpanel/EventMask_TextInserted, peninputpanel/EventMask_TextInserting, tablet.eventmask
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: peninputpanel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EventMask
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	peninputpanel.h
+api_name:
+-	EventMask
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_peninputpanel_0000_0000_0007 enumeration

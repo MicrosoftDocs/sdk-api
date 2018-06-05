@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._TRUSTED_DOMAIN_NAME_INFO
+title: "_TRUSTED_DOMAIN_NAME_INFO"
+author: windows-sdk-content
+description: Used to query or set the name of a trusted domain.
+old-location: security\trusted_domain_name_info.htm
+old-project: SecMgmt
+ms.assetid: 9bc1301b-1d09-4cd2-8590-e7756ee4792d
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PTRUSTED_DOMAIN_NAME_INFO, PTRUSTED_DOMAIN_NAME_INFO, PTRUSTED_DOMAIN_NAME_INFO structure pointer [Security], TRUSTED_DOMAIN_NAME_INFO, TRUSTED_DOMAIN_NAME_INFO structure [Security], _TRUSTED_DOMAIN_NAME_INFO, _lsa_trusted_domain_name_info, ntsecapi/PTRUSTED_DOMAIN_NAME_INFO, ntsecapi/TRUSTED_DOMAIN_NAME_INFO, security.trusted_domain_name_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTED_DOMAIN_NAME_INFO, *PTRUSTED_DOMAIN_NAME_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	TRUSTED_DOMAIN_NAME_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _TRUSTED_DOMAIN_NAME_INFO structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:tvout._VIDEOPARAMETERS
+title: "_VIDEOPARAMETERS"
+author: windows-sdk-content
+description: The video miniport driver receives a pointer to a VIDEOPARAMETERS structure in the InputBuffer member of a VIDEO_REQUEST_PACKET when the IOCTL request is IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS.
+old-location: display\videoparameters.htm
+old-project: display
+ms.assetid: 1f889c5b-2a9a-468e-8612-a7c5359f92d4
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPVIDEOPARAMETERS, *PVIDEOPARAMETERS, LPVIDEOPARAMETERS, LPVIDEOPARAMETERS structure pointer [Display Devices], PVIDEOPARAMETERS, PVIDEOPARAMETERS structure pointer [Display Devices], VIDEOPARAMETERS, VIDEOPARAMETERS structure [Display Devices], Video_Structs_58a5b287-2296-4c62-be8e-33147cfe0167.xml, _VIDEOPARAMETERS, display.videoparameters, tvout/LPVIDEOPARAMETERS, tvout/PVIDEOPARAMETERS, tvout/VIDEOPARAMETERS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tvout.h
+req.include-header: Tvout.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tuner.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIDEOPARAMETERS, *PVIDEOPARAMETERS, *LPVIDEOPARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tvout.h
+api_name:
+-	VIDEOPARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _VIDEOPARAMETERS structure

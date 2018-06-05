@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mi._MI_SubscriptionDeliveryType
+title: "_MI_SubscriptionDeliveryType"
+author: windows-sdk-content
+description: Differentiates between a push or pull subscription delivery type. This is not supported when using the DCOM protocol.
+old-location: wmi_v2\mi_subscriptiondeliverytype.htm
+old-project: wmi_v2
+ms.assetid: 3e1eb580-8f36-4ddb-8d65-7c7e65dd08bb
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: MI_SubscriptionDeliveryType, MI_SubscriptionDeliveryType enumeration [Windows Management Infrastructure (MI)], MI_SubscriptionDeliveryType_Pull, MI_SubscriptionDeliveryType_Push, _MI_SubscriptionDeliveryType, mi/MI_SubscriptionDeliveryType, mi/MI_SubscriptionDeliveryType_Pull, mi/MI_SubscriptionDeliveryType_Push, wmi._mi_subscriptiondeliverytype, wmi_v2.mi_subscriptiondeliverytype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MI_SubscriptionDeliveryType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_SubscriptionDeliveryType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MI_SubscriptionDeliveryType enumeration

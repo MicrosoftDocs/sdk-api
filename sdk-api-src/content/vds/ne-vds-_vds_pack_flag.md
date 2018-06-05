@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_PACK_FLAG
+title: "_VDS_PACK_FLAG"
+author: windows-sdk-content
+description: Defines the set of valid flags for a pack object.
+old-location: base\vds_pack_flag.htm
+old-project: VDS
+ms.assetid: 65b7e65d-5d20-49ff-af35-bd3529f5c858
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_PACK_FLAG, VDS_PACK_FLAG enumeration [VDS], VDS_PKF_CORRUPTED, VDS_PKF_FOREIGN, VDS_PKF_NOQUORUM, VDS_PKF_ONLINE_ERROR, VDS_PKF_POLICY, _VDS_PACK_FLAG, base.vds_pack_flag, vds/VDS_PACK_FLAG, vds/VDS_PKF_CORRUPTED, vds/VDS_PKF_FOREIGN, vds/VDS_PKF_NOQUORUM, vds/VDS_PKF_ONLINE_ERROR, vds/VDS_PKF_POLICY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_PACK_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	VDS_PACK_FLAG
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_PACK_FLAG enumeration

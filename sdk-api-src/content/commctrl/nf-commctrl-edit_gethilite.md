@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:commctrl.Edit_GetHilite
+title: Edit_GetHilite macro
+author: windows-sdk-content
+description: This macro is not implemented.
+old-location: controls\Edit_GetHilite.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_gethilite.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: Edit_GetHilite, Edit_GetHilite macro [Windows Controls], _shell_Edit_GetHilite, _shell_Edit_GetHilite_cpp, commctrl/Edit_GetHilite, controls.Edit_GetHilite, controls._shell_Edit_GetHilite
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STGOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	Edit_GetHilite
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # Edit_GetHilite macro

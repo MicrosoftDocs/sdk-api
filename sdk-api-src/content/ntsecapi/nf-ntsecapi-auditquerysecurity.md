@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntsecapi.AuditQuerySecurity
+title: AuditQuerySecurity function
+author: windows-sdk-content
+description: Retrieves security descriptor that delegates access to audit policy.
+old-location: security\auditquerysecurity.htm
+old-project: SecAuthZ
+ms.assetid: 496c9659-0c03-42c9-93c4-eb4d97e950e2
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AuditQuerySecurity, AuditQuerySecurity function [Security], ntsecapi/AuditQuerySecurity, security.auditquerysecurity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-Security-audit-l1-1-1.dll
+-	sechost.dll
+api_name:
+-	AuditQuerySecurity
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # AuditQuerySecurity function

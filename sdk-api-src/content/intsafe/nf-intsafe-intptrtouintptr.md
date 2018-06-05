@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:intsafe.IntPtrToUIntPtr
+title: IntPtrToUIntPtr function
+author: windows-sdk-content
+description: Converts a value of type INT_PTR to a value of type UINT_PTR.
+old-location: shell\IntPtrToUIntPtr.htm
+old-project: shell
+ms.assetid: 9c85af51-5f28-445d-a6fe-4d3dd5666b6f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IntPtrToSizeT, IntPtrToUIntPtr, IntPtrToUIntPtr function [Windows Shell], PtrdiffTToSizeT, PtrdiffTToUIntPtr, _shell_IntPtrToUIntPtr, intsafe/IntPtrToUIntPtr, shell.IntPtrToUIntPtr
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: intsafe.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANIPULATION_VELOCITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Intsafe.h
+api_name:
+-	IntPtrToUIntPtr
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IntPtrToUIntPtr function

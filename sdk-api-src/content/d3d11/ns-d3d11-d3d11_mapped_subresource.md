@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d11.D3D11_MAPPED_SUBRESOURCE
+title: D3D11_MAPPED_SUBRESOURCE
+author: windows-sdk-content
+description: Provides access to subresource data.
+old-location: direct3d11\d3d11_mapped_subresource.htm
+old-project: direct3d11
+ms.assetid: cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 6581ca11-abcb-9ae4-0972-0f8f36933283, D3D11_MAPPED_SUBRESOURCE, D3D11_MAPPED_SUBRESOURCE structure [Direct3D 11], d3d11/D3D11_MAPPED_SUBRESOURCE, direct3d11.d3d11_mapped_subresource
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_MAPPED_SUBRESOURCE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	D3D11_MAPPED_SUBRESOURCE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_MAPPED_SUBRESOURCE structure

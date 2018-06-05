@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:psapi._MODULEINFO
+title: "_MODULEINFO"
+author: windows-sdk-content
+description: Contains the module load address, size, and entry point.
+old-location: psapi\moduleinfo_str.htm
+old-project: psapi
+ms.assetid: 583caafe-7fa3-4041-b5bc-4e8899b3a08a
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPMODULEINFO, LPMODULEINFO, LPMODULEINFO structure pointer [PSAPI], MODULEINFO, MODULEINFO structure [PSAPI], _MODULEINFO, _win32_moduleinfo_str, base.moduleinfo_str, psapi.moduleinfo_str, psapi/LPMODULEINFO, psapi/MODULEINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: psapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MODULEINFO, *LPMODULEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Psapi.h
+api_name:
+-	MODULEINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _MODULEINFO structure

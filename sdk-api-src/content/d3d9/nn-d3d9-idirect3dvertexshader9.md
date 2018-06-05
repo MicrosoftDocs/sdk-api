@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:d3d9.IDirect3DVertexShader9
+title: IDirect3DVertexShader9
+author: windows-sdk-content
+description: Applications use the methods of the IDirect3DVertexShader9 interface to encapsulate the functionality of a vertex shader.
+old-location: direct3d9\idirect3dvertexshader9.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\idirect3dvertexshader9.htm
+ms.author: windowssdkdev
+ms.date: 04/10/2018
+ms.keywords: 09169d01-44dc-55c7-a6bd-28349bbc3b06, IDirect3DVertexShader9, IDirect3DVertexShader9 interface [Direct3D 9], IDirect3DVertexShader9 interface [Direct3D 9],described, d3d9helper/IDirect3DVertexShader9, direct3d9.idirect3dvertexshader9
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: d3d9.h
+req.include-header: D3D9.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d9.lib
+-	d3d9.dll
+api_name:
+-	IDirect3DVertexShader9
+product: Windows
+targetos: Windows
+req.lib: D3d9.lib
+req.dll: 
+req.irql: 
 ---
 
 # IDirect3DVertexShader9 interface

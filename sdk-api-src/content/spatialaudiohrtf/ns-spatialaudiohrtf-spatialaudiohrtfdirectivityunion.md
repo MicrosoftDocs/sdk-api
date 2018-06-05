@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivityUnion
+title: SpatialAudioHrtfDirectivityUnion
+author: windows-sdk-content
+description: Defines a spatial audio directivity model for an ISpatialAudioObjectForHrtf.
+old-location: coreaudio\spatialaudiohrtfdirectivityunion.htm
+old-project: CoreAudio
+ms.assetid: BBBE4B0B-59C2-44E0-9BB4-B10CE5CE12E3
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: SpatialAudioHrtfDirectivityUnion, SpatialAudioHrtfDirectivityUnion union [Core Audio], coreaudio.spatialaudiohrtfdirectivityunion, spatialaudiohrtf/SpatialAudioHrtfDirectivityUnion
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: spatialaudiohrtf.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SpatialAudioHrtfDirectivityUnion
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	spatialaudiohrtf.h
+api_name:
+-	SpatialAudioHrtfDirectivityUnion
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SpatialAudioHrtfDirectivityUnion structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:routprot._MPR60_ROUTING_CHARACTERISTICS
+title: "_MPR60_ROUTING_CHARACTERISTICS"
+author: windows-sdk-content
+description: The MPR_ROUTING_CHARACTERISTICS structure contains information used to register routing protocols with the router manager.
+old-location: rras\mpr_routing_characteristics.htm
+old-project: RRAS
+ms.assetid: 7046c4c2-b0bd-4459-b361-e46ce876823f
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PMPR_ROUTING_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, MPR50_ROUTING_CHARACTERISTICS, MPR50_ROUTING_CHARACTERISTICS structure [RAS], MPR60_ROUTING_CHARACTERISTICS, MPR_ROUTING_CHARACTERISTICS, MPR_ROUTING_CHARACTERISTICS structure [RAS], PMPR_ROUTING_CHARACTERISTICS, PMPR_ROUTING_CHARACTERISTICS structure pointer [RAS], ROUTING, SERVICES, _MPR60_ROUTING_CHARACTERISTICS, _mpr_mpr_routing_characteristics, routprot/MPR_ROUTING_CHARACTERISTICS, routprot/PMPR_ROUTING_CHARACTERISTICS, rras.mpr_routing_characteristics"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: routprot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPR60_ROUTING_CHARACTERISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Routprot.h
+api_name:
+-	MPR50_ROUTING_CHARACTERISTICS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _MPR60_ROUTING_CHARACTERISTICS structure

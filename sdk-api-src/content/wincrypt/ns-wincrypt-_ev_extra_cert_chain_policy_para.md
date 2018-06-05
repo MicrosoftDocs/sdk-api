@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._EV_EXTRA_CERT_CHAIN_POLICY_PARA
+title: "_EV_EXTRA_CERT_CHAIN_POLICY_PARA"
+author: windows-sdk-content
+description: Specifies the parameters that are passed in for EV policy validation. Applications use this structure to pass hints to the API that indicate which of the policy qualifier flags of the extended validation certificates are important to the application.
+old-location: security\ev_extra_cert_chain_policy_para.htm
+old-project: SecCrypto
+ms.assetid: 64ea96a7-ba37-49e1-a73f-ce772c1a9fb2
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PEV_EXTRA_CERT_CHAIN_POLICY_PARA, CERT_ROOT_PROGRAM_FLAG_LSC, CERT_ROOT_PROGRAM_FLAG_ORG, CERT_ROOT_PROGRAM_FLAG_SUBJECT_LOGO, EV_EXTRA_CERT_CHAIN_POLICY_PARA, EV_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], PEV_EXTRA_CERT_CHAIN_POLICY_PARA, PEV_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], _EV_EXTRA_CERT_CHAIN_POLICY_PARA, security.ev_extra_cert_chain_policy_para, wincrypt/EV_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/PEV_EXTRA_CERT_CHAIN_POLICY_PARA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EV_EXTRA_CERT_CHAIN_POLICY_PARA, *PEV_EXTRA_CERT_CHAIN_POLICY_PARA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	EV_EXTRA_CERT_CHAIN_POLICY_PARA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _EV_EXTRA_CERT_CHAIN_POLICY_PARA structure

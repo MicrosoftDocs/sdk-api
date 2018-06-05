@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:mfobjects.IMFMediaEventGenerator
+title: IMFMediaEventGenerator
+author: windows-sdk-content
+description: Retrieves events from any Media Foundation object that generates events.
+old-location: mf\imfmediaeventgenerator.htm
+old-project: medfound
+ms.assetid: a37d0840-c896-43a0-b3d1-c2a6aaff1b25
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFMediaEventGenerator, IMFMediaEventGenerator interface [Media Foundation], IMFMediaEventGenerator interface [Media Foundation],described, a37d0840-c896-43a0-b3d1-c2a6aaff1b25, mf.imfmediaeventgenerator, mfobjects/IMFMediaEventGenerator
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFMediaEventGenerator
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: Mfplat.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFMediaEventGenerator interface

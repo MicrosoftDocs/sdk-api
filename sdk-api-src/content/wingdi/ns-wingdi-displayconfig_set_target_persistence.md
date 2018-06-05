@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:wingdi.DISPLAYCONFIG_SET_TARGET_PERSISTENCE
+title: DISPLAYCONFIG_SET_TARGET_PERSISTENCE
+author: windows-sdk-content
+description: The DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure contains information about setting the display.
+old-location: display\displayconfig_set_target_persistence.htm
+old-project: display
+ms.assetid: 4798a1e1-8685-40c2-917a-0ee071bc780c
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CCD_Structures_705e98bf-b3ea-4d2b-8c93-ffb300d700c8.xml, DISPLAYCONFIG_SET_TARGET_PERSISTENCE, DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure [Display Devices], display.displayconfig_set_target_persistence, wingdi/DISPLAYCONFIG_SET_TARGET_PERSISTENCE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_SET_TARGET_PERSISTENCE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wingdi.h
+api_name:
+-	DISPLAYCONFIG_SET_TARGET_PERSISTENCE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure

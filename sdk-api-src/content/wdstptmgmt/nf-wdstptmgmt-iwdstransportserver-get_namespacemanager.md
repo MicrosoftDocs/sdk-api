@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wdstptmgmt.IWdsTransportServer.get_NamespaceManager
+title: IWdsTransportServer::get_NamespaceManager
+author: windows-sdk-content
+description: Returns a pointer to the object of an IWdsTransportNamespaceManager interface used to manage namespaces on this server.
+old-location: wds\iwdstransportserver_namespacemanager.htm
+old-project: Wds
+ms.assetid: 3f54d5ef-c630-4f5b-93ea-1da7303482ba
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWdsTransportServer interface [Windows Deployment Services],NamespaceManager property, IWdsTransportServer.NamespaceManager, IWdsTransportServer.get_NamespaceManager, IWdsTransportServer::NamespaceManager, IWdsTransportServer::get_NamespaceManager, NamespaceManager property [Windows Deployment Services], NamespaceManager property [Windows Deployment Services],IWdsTransportServer interface, get_NamespaceManager, wds.iwdstransportserver_namespacemanager, wdstptmgmt/IWdsTransportServer::NamespaceManager, wdstptmgmt/IWdsTransportServer::get_NamespaceManager
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wdstptmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,25 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Wdstptmgmt.tlb
+tech.root: 
+req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wdstptmgmt.dll
+api_name:
+-	IWdsTransportServer.NamespaceManager
+-	IWdsTransportServer.get_NamespaceManager
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWdsTransportServer::get_NamespaceManager

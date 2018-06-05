@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:photoacquire.IPhotoAcquireProgressCB.StartItemTransfer
+title: IPhotoAcquireProgressCB::StartItemTransfer
+author: windows-sdk-content
+description: The StartItemTransfer method provides extended functionality each time the transfer of an item begins. The application provides the implementation of the StartItemTransfer method.
+old-location: picacq\iphotoacquireprogresscb_startitemtransfer.htm
+old-project: acquisition
+ms.assetid: fffd9313-fbed-493b-a82e-1ccd202859c0
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartItemTransfer method, IPhotoAcquireProgressCB.StartItemTransfer, IPhotoAcquireProgressCB::StartItemTransfer, IPhotoAcquireProgressCBStartItemTransfer, StartItemTransfer, StartItemTransfer method [Picture Acquisition], StartItemTransfer method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartItemTransfer, picacq.iphotoacquireprogresscb_startitemtransfer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: photoacquire.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_INPUT_STRING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PhotoAcquireUID.lib
+-	PhotoAcquireUID.dll
+api_name:
+-	IPhotoAcquireProgressCB.StartItemTransfer
+product: Windows
+targetos: Windows
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPhotoAcquireProgressCB::StartItemTransfer

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winscard.SCardGetAttrib
+title: SCardGetAttrib function
+author: windows-sdk-content
+description: Retrieves the current reader attributes for the given handle. It does not affect the state of the reader, driver, or card.
+old-location: security\scardgetattrib.htm
+old-project: SecAuthN
+ms.assetid: 309ac107-175b-489e-b428-b87bc4204f34
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: SCARD_ATTR_ATR_STRING, SCARD_ATTR_CHANNEL_ID, SCARD_ATTR_CHARACTERISTICS, SCARD_ATTR_CURRENT_BWT, SCARD_ATTR_CURRENT_CLK, SCARD_ATTR_CURRENT_CWT, SCARD_ATTR_CURRENT_D, SCARD_ATTR_CURRENT_EBC_ENCODING, SCARD_ATTR_CURRENT_F, SCARD_ATTR_CURRENT_IFSC, SCARD_ATTR_CURRENT_IFSD, SCARD_ATTR_CURRENT_N, SCARD_ATTR_CURRENT_PROTOCOL_TYPE, SCARD_ATTR_CURRENT_W, SCARD_ATTR_DEFAULT_CLK, SCARD_ATTR_DEFAULT_DATA_RATE, SCARD_ATTR_DEVICE_FRIENDLY_NAME, SCARD_ATTR_DEVICE_IN_USE, SCARD_ATTR_DEVICE_SYSTEM_NAME, SCARD_ATTR_DEVICE_UNIT, SCARD_ATTR_ICC_INTERFACE_STATUS, SCARD_ATTR_ICC_PRESENCE, SCARD_ATTR_ICC_TYPE_PER_ATR, SCARD_ATTR_MAX_CLK, SCARD_ATTR_MAX_DATA_RATE, SCARD_ATTR_MAX_IFSD, SCARD_ATTR_POWER_MGMT_SUPPORT, SCARD_ATTR_PROTOCOL_TYPES, SCARD_ATTR_VENDOR_IFD_SERIAL_NO, SCARD_ATTR_VENDOR_IFD_TYPE, SCARD_ATTR_VENDOR_IFD_VERSION, SCARD_ATTR_VENDOR_NAME, SCardGetAttrib, SCardGetAttrib function [Security], _smart_scardgetattrib, security.scardgetattrib, winscard/SCardGetAttrib
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winscard.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINSAT_BITMAP_SIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winscard.dll
+api_name:
+-	SCardGetAttrib
+product: Windows
+targetos: Windows
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # SCardGetAttrib function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ws2spi.WSAAdvertiseProvider
+title: WSAAdvertiseProvider function
+author: windows-sdk-content
+description: Makes a specific namespace version-2 provider available for all eligible clients.
+old-location: winsock\wsaadvertiseprovider.htm
+old-project: WinSock
+ms.assetid: 574ebfa4-d7f2-43c2-b1ec-35ce3db9151f
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: WSAAdvertiseProvider, WSAAdvertiseProvider function [Winsock], winsock.wsaadvertiseprovider, ws2spi/WSAAdvertiseProvider
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ws2spi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSC_PROVIDER_INFO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ws2_32.dll
+api_name:
+-	WSAAdvertiseProvider
+product: Windows
+targetos: Windows
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WSAAdvertiseProvider function

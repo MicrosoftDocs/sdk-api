@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:batclass.BatteryClassInitializeDevice
+title: BatteryClassInitializeDevice function
+author: windows-sdk-content
+description: The BatteryClassInitializeDevice routine initializes a new battery device for the class driver.
+old-location: battery\batteryclassinitializedevice.htm
+old-project: battery
+ms.assetid: 0af685a5-f5c2-4448-b8b2-f5cd9ed77047
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: BatteryClassInitializeDevice, BatteryClassInitializeDevice routine [Battery Devices], bat-rtn_19921d6e-cd86-40ad-86e3-acfc01fd8a56.xml, batclass/BatteryClassInitializeDevice, battery.batteryclassinitializedevice
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: batclass.h
+req.include-header: Batclass.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Battc.lib
+-	Battc.dll
+api_name:
+-	BatteryClassInitializeDevice
+product: Windows
+targetos: Windows
+req.lib: Battc.lib
+req.dll: 
+req.irql: 
 ---
 
 # BatteryClassInitializeDevice function

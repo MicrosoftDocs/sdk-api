@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shellapi.CommandLineToArgvW
+title: CommandLineToArgvW function
+author: windows-sdk-content
+description: Parses a Unicode command line string and returns an array of pointers to the command line arguments, along with a count of such arguments, in a way that is similar to the standard C run-time argv and argc values.
+old-location: shell\CommandLineToArgvW.htm
+old-project: shell
+ms.assetid: 9889a016-b7a5-402b-8305-6f7c199d41b3
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CommandLineToArgvW, CommandLineToArgvW function [Windows Shell], _shell_CommandLineToArgvW, shell.CommandLineToArgvW, shellapi/CommandLineToArgvW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shellapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server, Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CommandLineToArgvW (Unicode)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHSTOCKICONID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+-	API-MS-Win-DownLevel-shell32-l1-1-0.dll
+-	ShCore.dll
+-	API-MS-Win-ShCore-Obsolete-l1-1-0.dll
+api_name:
+-	CommandLineToArgvW
+-	CommandLineToArgvW
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # CommandLineToArgvW function

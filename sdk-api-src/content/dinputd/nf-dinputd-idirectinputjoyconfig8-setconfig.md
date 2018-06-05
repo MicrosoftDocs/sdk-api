@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dinputd.IDirectInputJoyConfig8.SetConfig
+title: IDirectInputJoyConfig8::SetConfig
+author: windows-sdk-content
+description: The IDirectInputJoyConfig8::SetConfig method creates or redefines configuration information about a joystick.
+old-location: hid\idirectinputjoyconfig8_setconfig.htm
+old-project: hid
+ms.assetid: 58f413c4-7b4c-47bd-8991-ffe681e96f48
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetConfig method, IDirectInputJoyConfig8.SetConfig, IDirectInputJoyConfig8::SetConfig, SetConfig, SetConfig method [Human Input Devices], SetConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_e9168f2d-cee8-4cac-8299-65360fd784f1.xml, dinputd/IDirectInputJoyConfig8::SetConfig, hid.idirectinputjoyconfig8_setconfig
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dinputd.h
+api_name:
+-	IDirectInputJoyConfig8.SetConfig
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputJoyConfig8::SetConfig

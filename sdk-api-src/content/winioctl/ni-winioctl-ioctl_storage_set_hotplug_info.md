@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NI:winioctl.IOCTL_STORAGE_SET_HOTPLUG_INFO
+title: IOCTL_STORAGE_SET_HOTPLUG_INFO
+author: windows-sdk-content
+description: Sets the hotplug configuration of the specified device.
+old-location: base\ioctl_storage_set_hotplug_info.htm
+old-project: DevIO
+ms.assetid: f15c183d-d883-470c-9b78-e63d2a9b76ca
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: IOCTL_STORAGE_SET_HOTPLUG_INFO, IOCTL_STORAGE_SET_HOTPLUG_INFO control, IOCTL_STORAGE_SET_HOTPLUG_INFO control code, _win32_ioctl_storage_set_hotplug_info, base.ioctl_storage_set_hotplug_info, winioctl/IOCTL_STORAGE_SET_HOTPLUG_INFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: ioctl
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	IOCTL_STORAGE_SET_HOTPLUG_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IOCTL_STORAGE_SET_HOTPLUG_INFO IOCTL

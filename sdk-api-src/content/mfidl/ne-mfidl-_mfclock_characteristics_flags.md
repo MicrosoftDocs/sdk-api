@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl._MFCLOCK_CHARACTERISTICS_FLAGS
+title: "_MFCLOCK_CHARACTERISTICS_FLAGS"
+author: windows-sdk-content
+description: Contains flags that describe the characteristics of a clock.
+old-location: mf\mfclock_characteristics_flags.htm
+old-project: medfound
+ms.assetid: 8064ce25-6c79-479b-a1a8-bdcc2c29ad54
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 8064ce25-6c79-479b-a1a8-bdcc2c29ad54, MFCLOCK_CHARACTERISTICS_FLAGS, MFCLOCK_CHARACTERISTICS_FLAGS enumeration [Media Foundation], MFCLOCK_CHARACTERISTICS_FLAG_ALWAYS_RUNNING, MFCLOCK_CHARACTERISTICS_FLAG_FREQUENCY_10MHZ, MFCLOCK_CHARACTERISTICS_FLAG_IS_SYSTEM_CLOCK, _MFCLOCK_CHARACTERISTICS_FLAGS, enumeration [Media Foundation], mf.mfclock_characteristics_flags, mfidl/MFCLOCK_CHARACTERISTICS_FLAGS, mfidl/MFCLOCK_CHARACTERISTICS_FLAG_ALWAYS_RUNNING, mfidl/MFCLOCK_CHARACTERISTICS_FLAG_FREQUENCY_10MHZ, mfidl/MFCLOCK_CHARACTERISTICS_FLAG_IS_SYSTEM_CLOCK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFCLOCK_CHARACTERISTICS_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFCLOCK_CHARACTERISTICS_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFCLOCK_CHARACTERISTICS_FLAGS enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkOverlay.put_SupportHighContrastInk
+title: IInkOverlay::put_SupportHighContrastInk
+author: windows-sdk-content
+description: Gets or sets a value that specifies whether ink is rendered as just one color when the system is in High Contrast mode.
+old-location: tablet\inkoverlay_supporthighcontrastink.htm
+old-project: tablet
+ms.assetid: 69c0c628-e377-4c26-8fb7-1f0574fbff29
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IInkOverlay interface [Tablet PC],SupportHighContrastInk property, IInkOverlay.SupportHighContrastInk, IInkOverlay.put_SupportHighContrastInk, IInkOverlay::SupportHighContrastInk, IInkOverlay::get_SupportHighContrastInk, IInkOverlay::put_SupportHighContrastInk, InkOverlay.get_SupportHighContrastInk, InkOverlay.put_SupportHighContrastInk, SupportHighContrastInk property [Tablet PC], SupportHighContrastInk property [Tablet PC],IInkOverlay interface, get_SupportHighContrastInk, msinkaut/IInkOverlay::SupportHighContrastInk, msinkaut/IInkOverlay::get_SupportHighContrastInk, msinkaut/IInkOverlay::put_SupportHighContrastInk, put_SupportHighContrastInk, tablet.inkoverlay_supporthighcontrastink
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkOverlay.SupportHighContrastInk
+-	IInkOverlay.get_SupportHighContrastInk
+-	IInkOverlay.put_SupportHighContrastInk
+-	InkOverlay.get_SupportHighContrastInk
+-	InkOverlay.put_SupportHighContrastInk
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkOverlay::put_SupportHighContrastInk

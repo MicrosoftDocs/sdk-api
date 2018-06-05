@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkOverlay.put_Selection
+title: IInkOverlay::put_Selection
+author: windows-sdk-content
+description: Gets or sets the InkStrokes collection that is currently selected inside the InkOverlay object or the InkPicture control.
+old-location: tablet\inkoverlay_selection.htm
+old-project: tablet
+ms.assetid: fed95f40-d0c4-43a3-9d15-ce9d4d573b5c
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IInkOverlay interface [Tablet PC],Selection property, IInkOverlay.Selection, IInkOverlay.put_Selection, IInkOverlay::Selection, IInkOverlay::get_Selection, IInkOverlay::put_Selection, InkOverlay.get_Selection, InkOverlay.put_Selection, Selection property [Tablet PC], Selection property [Tablet PC],IInkOverlay interface, fed95f40-d0c4-43a3-9d15-ce9d4d573b5c, msinkaut/IInkOverlay::Selection, msinkaut/IInkOverlay::get_Selection, msinkaut/IInkOverlay::put_Selection, put_Selection, tablet.inkoverlay_selection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkOverlay.Selection
+-	IInkOverlay.get_Selection
+-	IInkOverlay.put_Selection
+-	InkOverlay.get_Selection
+-	InkOverlay.put_Selection
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkOverlay::put_Selection

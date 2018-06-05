@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmshare._CONNECTION_INFO_1
+title: "_CONNECTION_INFO_1"
+author: windows-sdk-content
+description: Contains the identification number of a connection, number of open files, connection time, number of users on the connection, and the type of connection.
+old-location: fs\connection_info_1_str.htm
+old-project: NetShare
+ms.assetid: 9904c448-dcc4-47cc-a2e0-7df8d4d37f3f
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPCONNECTION_INFO_1, *PCONNECTION_INFO_1, CONNECTION_INFO_1, CONNECTION_INFO_1 structure [Files], LPCONNECTION_INFO_1, LPCONNECTION_INFO_1 structure pointer [Files], PCONNECTION_INFO_1, PCONNECTION_INFO_1 structure pointer [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _CONNECTION_INFO_1, _win32_connection_info_1_str, fs.connection_info_1_str, lmshare/CONNECTION_INFO_1, lmshare/LPCONNECTION_INFO_1, lmshare/PCONNECTION_INFO_1, netmgmt.connection_info_1_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmshare.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONNECTION_INFO_1, *PCONNECTION_INFO_1, *LPCONNECTION_INFO_1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmshare.h
+api_name:
+-	CONNECTION_INFO_1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _CONNECTION_INFO_1 structure

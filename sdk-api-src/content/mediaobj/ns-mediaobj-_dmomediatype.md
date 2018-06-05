@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:mediaobj._DMOMediaType
+title: "_DMOMediaType"
+author: windows-sdk-content
+description: The DMO_MEDIA_TYPE structure describes the format of the data used by a stream in a Microsoft DirectX Media Object (DMO).
+old-location: dshow\dmo_media_type.htm
+old-project: DirectShow
+ms.assetid: c545ddf7-9797-45ab-a42a-d8550b598e98
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DMO_MEDIA_TYPE, DMO_MEDIA_TYPE structure [DirectShow], DMO_MEDIA_TYPEStructure, FORMAT_DvInfo, FORMAT_MPEG2Video, FORMAT_MPEGVideo, FORMAT_None, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, _DMOMediaType, dshow.dmo_media_type, mediaobj/DMO_MEDIA_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mediaobj.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMO_MEDIA_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mediaobj.h
+api_name:
+-	DMO_MEDIA_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _DMOMediaType structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomation3.AddTextEditTextChangedEventHandler
+title: IUIAutomation3::AddTextEditTextChangedEventHandler
+author: windows-sdk-content
+description: Registers a method that handles programmatic text-edit events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
+old-location: winauto\uiauto_IUIAutomation3_AddTextEditTextChangedEventHandler.htm
+old-project: WinAuto
+ms.assetid: E4FBD04E-2E0B-6B87-F589-C3214EF54E5F
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: AddTextEditTextChangedEventHandler, AddTextEditTextChangedEventHandler method [Windows Accessibility], AddTextEditTextChangedEventHandler method [Windows Accessibility],IUIAutomation3 interface, IUIAutomation3 interface [Windows Accessibility],AddTextEditTextChangedEventHandler method, IUIAutomation3.AddTextEditTextChangedEventHandler, IUIAutomation3::AddTextEditTextChangedEventHandler, uiautomationclient/IUIAutomation3::AddTextEditTextChangedEventHandler, winauto.uiauto_IUIAutomation3_AddTextEditTextChangedEventHandler
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomation3.AddTextEditTextChangedEventHandler
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomation3::AddTextEditTextChangedEventHandler

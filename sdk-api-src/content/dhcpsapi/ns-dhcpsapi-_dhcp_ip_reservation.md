@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dhcpsapi._DHCP_IP_RESERVATION
+title: "_DHCP_IP_RESERVATION"
+author: windows-sdk-content
+description: The DHCP_IP_RESERVATION structure defines a client IP reservation.
+old-location: dhcp\dhcp_ip_reservation.htm
+old-project: DHCP
+ms.assetid: 35d7ebc7-790b-4453-a9d4-b485f0adac46
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_IP_RESERVATION, DHCP_IP_RESERVATION, DHCP_IP_RESERVATION structure [DHCP], LPDHCP_IP_RESERVATION, LPDHCP_IP_RESERVATION structure pointer [DHCP], _DHCP_IP_RESERVATION, dhcp.dhcp_ip_reservation, dhcpsapi/LPDHCP_IP_RESERVATION, dhcpsapi/_DHCP_IP_RESERVATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_IP_RESERVATION, *LPDHCP_IP_RESERVATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCP_IP_RESERVATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_IP_RESERVATION structure

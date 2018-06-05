@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iads.IDirectorySearch.GetFirstRow
+title: IDirectorySearch::GetFirstRow
+author: windows-sdk-content
+description: The GetFirstRow method gets the first row of a search result. This method will issue or reissue a new search, even if this method has been called before.
+old-location: adsi\idirectorysearch_getfirstrow.htm
+old-project: ADSI
+ms.assetid: 99ece6d1-3963-40bc-993e-f03aa9039c2d
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetFirstRow, GetFirstRow method [ADSI], GetFirstRow method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetFirstRow method, IDirectorySearch.GetFirstRow, IDirectorySearch::GetFirstRow, _ds_idirectorysearch_getfirstrow, adsi.idirectorysearch__getfirstrow, adsi.idirectorysearch_getfirstrow, iads/IDirectorySearch::GetFirstRow
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SD_FORMAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Activeds.dll
+-	Adsldp.dll
+-	Adsldpc.dll
+api_name:
+-	IDirectorySearch.GetFirstRow
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IDirectorySearch::GetFirstRow

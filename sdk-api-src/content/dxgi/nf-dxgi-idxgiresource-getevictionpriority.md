@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dxgi.IDXGIResource.GetEvictionPriority
+title: IDXGIResource::GetEvictionPriority
+author: windows-sdk-content
+description: Get the eviction priority.
+old-location: direct3ddxgi\idxgiresource_getevictionpriority.htm
+old-project: direct3ddxgi
+ms.assetid: VS|directx_sdk|~\idxgiresource_getevictionpriority.htm
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: 271e783f-4a0f-1453-c22a-244b5f091171, DXGI_RESOURCE_PRIORITY_HIGH (0xa0000000), DXGI_RESOURCE_PRIORITY_LOW (0x50000000), DXGI_RESOURCE_PRIORITY_MAXIMUM (0xc8000000), DXGI_RESOURCE_PRIORITY_MINIMUM (0x28000000), DXGI_RESOURCE_PRIORITY_NORMAL (0x78000000), GetEvictionPriority, GetEvictionPriority method [DXGI], GetEvictionPriority method [DXGI],IDXGIResource interface, IDXGIResource interface [DXGI],GetEvictionPriority method, IDXGIResource.GetEvictionPriority, IDXGIResource::GetEvictionPriority, direct3ddxgi.idxgiresource_getevictionpriority, dxgi/IDXGIResource::GetEvictionPriority
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_SWAP_EFFECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DXGI.lib
+-	DXGI.dll
+api_name:
+-	IDXGIResource.GetEvictionPriority
+product: Windows
+targetos: Windows
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIResource::GetEvictionPriority

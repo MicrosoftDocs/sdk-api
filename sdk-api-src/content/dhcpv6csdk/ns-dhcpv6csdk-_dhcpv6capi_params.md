@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpv6csdk._DHCPV6CAPI_PARAMS
+title: "_DHCPV6CAPI_PARAMS"
+author: windows-sdk-content
+description: Contains a requested parameter.
+old-location: dhcp\dhcpv6capi_params.htm
+old-project: DHCP
+ms.assetid: a8978435-a16d-446d-9bd3-4a2dc6c9ec1a
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCPV6CAPI_PARAMS, *PDHCPV6CAPI_PARAMS, DHCPV6CAPI_PARAMS, DHCPV6CAPI_PARAMS structure [DHCP], DHCPV6_OPTION_CLIENTID, DHCPV6_OPTION_CLIENTIDNISP_DOMAIN_NAME, DHCPV6_OPTION_DNS_SERVERS, DHCPV6_OPTION_DOMAIN_LIST, DHCPV6_OPTION_IA_NA, DHCPV6_OPTION_IA_PD, DHCPV6_OPTION_IA_TA, DHCPV6_OPTION_NISP_SERVERS, DHCPV6_OPTION_NIS_DOMAIN_NAME, DHCPV6_OPTION_NIS_SERVERS, DHCPV6_OPTION_ORO, DHCPV6_OPTION_PREFERENCE, DHCPV6_OPTION_RAPID_COMMIT, DHCPV6_OPTION_RECONF_MSG, DHCPV6_OPTION_SERVERID, DHCPV6_OPTION_SIP_SERVERS_ADDRS, DHCPV6_OPTION_SIP_SERVERS_NAMES, DHCPV6_OPTION_UNICAST, DHCPV6_OPTION_USER_CLASS, DHCPV6_OPTION_VENDOR_CLASS, DHCPV6_OPTION_VENDOR_OPTS, LPDHCPV6CAPI_PARAMS, LPDHCPV6CAPI_PARAMS structure pointer [DHCP], PDHCPV6CAPI_PARAMS, PDHCPV6CAPI_PARAMS structure pointer [DHCP], _DHCPV6CAPI_PARAMS, dhcp.dhcpv6capi_params, dhcpv6csdk/DHCPV6CAPI_PARAMS, dhcpv6csdk/LPDHCPV6CAPI_PARAMS, dhcpv6csdk/PDHCPV6CAPI_PARAMS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpv6csdk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCPV6CAPI_PARAMS, *PDHCPV6CAPI_PARAMS, *LPDHCPV6CAPI_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpv6csdk.h
+api_name:
+-	DHCPV6CAPI_PARAMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCPV6CAPI_PARAMS structure

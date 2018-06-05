@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsync.ISyncKnowledge.ContainsChangeUnit
+title: ISyncKnowledge::ContainsChangeUnit
+author: windows-sdk-content
+description: Indicates whether the specified change unit change is known by this knowledge.
+old-location: winsync\isyncknowledge_containschangeunit.htm
+old-project: winsync
+ms.assetid: 67fc3b59-ad82-47a4-9fc6-2d980b9e26fe
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ContainsChangeUnit, ContainsChangeUnit method [Windows Sync], ContainsChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ContainsChangeUnit method, ISyncKnowledge.ContainsChangeUnit, ISyncKnowledge::ContainsChangeUnit, winsync.isyncknowledge_containschangeunit, winsync/ISyncKnowledge::ContainsChangeUnit
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	ISyncKnowledge.ContainsChangeUnit
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # ISyncKnowledge::ContainsChangeUnit

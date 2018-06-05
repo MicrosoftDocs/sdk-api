@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ws2bth._SOCKADDR_BTH
+title: "_SOCKADDR_BTH"
+author: windows-sdk-content
+description: The SOCKADDR_BTH structure is used in conjunction with Bluetooth socket operations, defined by address family AF_BTH.
+old-location: bluetooth\sockaddr_bth.htm
+old-project: Bluetooth
+ms.assetid: e8eefa1d-94fa-45f3-a7c2-ea12a372a43b
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PSOCKADDR_BTH, PSOCKADDR_BTH, PSOCKADDR_BTH structure pointer [Bluetooth], SOCKADDR_BTH, SOCKADDR_BTH structure [Bluetooth], _SOCKADDR_BTH, _bth_sockaddr_bth, bluetooth.sockaddr_bth, ws2bth/PSOCKADDR_BTH, ws2bth/SOCKADDR_BTH"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ws2bth.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wrdsgraphicschannels.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOCKADDR_BTH, *PSOCKADDR_BTH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ws2bth.h
+api_name:
+-	SOCKADDR_BTH
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SOCKADDR_BTH structure

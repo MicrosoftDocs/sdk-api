@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msrdc.ISimilarityTraitsMappedView.Flush
+title: ISimilarityTraitsMappedView::Flush
+author: windows-sdk-content
+description: Writes to the disk any dirty pages within a mapped view of a similarity traits table file.
+old-location: rdc\isimilaritytraitsmappedview_flush.htm
+old-project: Rdc
+ms.assetid: 88ac6bd2-846e-40ae-bbc6-3f2c49e66e3a
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: Flush, Flush method [Remote Differential Compression], Flush method [Remote Differential Compression],ISimilarityTraitsMappedView interface, ISimilarityTraitsMappedView interface [Remote Differential Compression],Flush method, ISimilarityTraitsMappedView.Flush, ISimilarityTraitsMappedView::Flush, fs.isimilaritytraitsmappedview_flush, msrdc/ISimilarityTraitsMappedView::Flush, rdc.isimilaritytraitsmappedview_flush
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msrdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: MsRdc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RdcMappingAccessMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsRdc.dll
+api_name:
+-	ISimilarityTraitsMappedView.Flush
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISimilarityTraitsMappedView::Flush

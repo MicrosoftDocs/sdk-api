@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netlistmgr.INetworkConnectionCostEvents.ConnectionCostChanged
+title: INetworkConnectionCostEvents::ConnectionCostChanged
+author: windows-sdk-content
+description: ConnectionCostChanged method notifies an application of a network cost change for a connection.
+old-location: nla\inetworkconnectioncostevents_connectioncostchanged.htm
+old-project: NLA
+ms.assetid: 85D0BF59-3E06-4978-8400-71FD7BF990C9
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ConnectionCostChanged, ConnectionCostChanged method [Network Awareness], ConnectionCostChanged method [Network Awareness],INetworkConnectionCostEvents interface, INetworkConnectionCostEvents interface [Network Awareness],ConnectionCostChanged method, INetworkConnectionCostEvents.ConnectionCostChanged, INetworkConnectionCostEvents::ConnectionCostChanged, netlistmgr/INetworkConnectionCostEvents::ConnectionCostChanged, nla.inetworkconnectioncostevents_connectioncostchanged
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netlistmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Netlistmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Netlistmgr.h
+api_name:
+-	INetworkConnectionCostEvents.ConnectionCostChanged
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetworkConnectionCostEvents::ConnectionCostChanged

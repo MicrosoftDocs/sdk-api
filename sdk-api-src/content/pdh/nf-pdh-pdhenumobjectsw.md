@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pdh.PdhEnumObjectsW
+title: PdhEnumObjectsW function
+author: windows-sdk-content
+description: Returns a list of objects available on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectsH function.
+old-location: perf\pdhenumobjects.htm
+old-project: PerfCtrs
+ms.assetid: dfa4b10f-5134-4620-a6b0-0fa2c13a33ec
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: FALSE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjects, PdhEnumObjects function [Perf], PdhEnumObjectsA, PdhEnumObjectsW, TRUE, _win32_pdhenumobjects, base.pdhenumobjects, pdh/PdhEnumObjects, pdh/PdhEnumObjectsA, pdh/PdhEnumObjectsW, perf.pdhenumobjects
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: pdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PdhEnumObjectsW (Unicode) and PdhEnumObjectsA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Pdh.dll
+api_name:
+-	PdhEnumObjects
+-	PdhEnumObjectsA
+-	PdhEnumObjectsW
+product: Windows
+targetos: Windows
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PdhEnumObjectsW function

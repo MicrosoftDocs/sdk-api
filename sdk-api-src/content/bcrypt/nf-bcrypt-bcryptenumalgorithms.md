@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bcrypt.BCryptEnumAlgorithms
+title: BCryptEnumAlgorithms function
+author: windows-sdk-content
+description: Gets a list of the registered algorithm identifiers.
+old-location: security\bcryptenumalgorithms_func.htm
+old-project: SecCNG
+ms.assetid: 7fa227c0-2b80-49ab-8a19-72f8444d5507
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, BCRYPT_CIPHER_OPERATION, BCRYPT_HASH_OPERATION, BCRYPT_RNG_OPERATION, BCRYPT_SECRET_AGREEMENT_OPERATION, BCRYPT_SIGNATURE_OPERATION, BCryptEnumAlgorithms, BCryptEnumAlgorithms function [Security], bcrypt/BCryptEnumAlgorithms, security.bcryptenumalgorithms_func
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: bcrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HASHALGORITHM_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Bcrypt.dll
+api_name:
+-	BCryptEnumAlgorithms
+product: Windows
+targetos: Windows
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 ---
 
 # BCryptEnumAlgorithms function

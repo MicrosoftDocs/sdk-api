@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiribbon.IUIFramework.FlushPendingInvalidations
+title: IUIFramework::FlushPendingInvalidations
+author: windows-sdk-content
+description: Processes all pending Command updates.
+old-location: windowsribbon\windowsribbon_iuiframework_flushpendinginvalidations.htm
+old-project: windowsribbon
+ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\flushpendinginvalidations.htm
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: FlushPendingInvalidations, FlushPendingInvalidations method [Windows Ribbon], FlushPendingInvalidations method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],FlushPendingInvalidations method, IUIFramework.FlushPendingInvalidations, IUIFramework::FlushPendingInvalidations, scenicintent_IUIFramework_FlushPendingInvalidations, uiribbon/IUIFramework::FlushPendingInvalidations, windowsribbon.windowsribbon_iuiframework_flushpendinginvalidations
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiribbon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Uiribbon.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_VIEWVERB
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mshtml.dll
+api_name:
+-	IUIFramework.FlushPendingInvalidations
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mshtml.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUIFramework::FlushPendingInvalidations

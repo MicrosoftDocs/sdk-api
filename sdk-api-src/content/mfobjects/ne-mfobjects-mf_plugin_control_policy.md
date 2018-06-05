@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfobjects.MF_PLUGIN_CONTROL_POLICY
+title: MF_PLUGIN_CONTROL_POLICY
+author: windows-sdk-content
+description: Defines policy settings for the IMFPluginControl2::SetPolicy method.
+old-location: mf\mf_plugin_control_policy.htm
+old-project: medfound
+ms.assetid: AEA55D69-B3F1-463E-9DEC-B6BF7B9859D6
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_PLUGIN_CONTROL_POLICY, MF_PLUGIN_CONTROL_POLICY enumeration [Media Foundation], MF_PLUGIN_CONTROL_POLICY_USE_ALL_PLUGINS, MF_PLUGIN_CONTROL_POLICY_USE_APPROVED_PLUGINS, MF_PLUGIN_CONTROL_POLICY_USE_WEB_PLUGINS, mf.mf_plugin_control_policy, mfobjects/MF_PLUGIN_CONTROL_POLICY, mfobjects/MF_PLUGIN_CONTROL_POLICY_USE_ALL_PLUGINS, mfobjects/MF_PLUGIN_CONTROL_POLICY_USE_APPROVED_PLUGINS, mfobjects/MF_PLUGIN_CONTROL_POLICY_USE_WEB_PLUGINS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_PLUGIN_CONTROL_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfobjects.h
+api_name:
+-	MF_PLUGIN_CONTROL_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MF_PLUGIN_CONTROL_POLICY enumeration

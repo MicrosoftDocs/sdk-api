@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:sensevts.ISensLogon2
+title: ISensLogon2
+author: windows-sdk-content
+description: The ISensLogon2 interface handles logon events fired by SENS.
+old-location: sens\isenslogon2.htm
+old-project: Sens
+ms.assetid: be61b5b9-d4f1-40ea-a734-7b02c06e41e8
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ISensLogon2, ISensLogon2 interface [SENS], ISensLogon2 interface [SENS],described, _zaw_isenslogon2, sens.isenslogon2, sensevts/ISensLogon2, syncmgr.isenslogon2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: sensevts.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Sensevts.tlb
+tech.root: 
+req.typenames: QOCINFO, *LPQOCINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Sens.dll
+api_name:
+-	ISensLogon2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISensLogon2 interface

@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shellapi.SHEmptyRecycleBinW
+title: SHEmptyRecycleBinW function
+author: windows-sdk-content
+description: Empties the Recycle Bin on the specified drive.
+old-location: shell\SHEmptyRecycleBin.htm
+old-project: shell
+ms.assetid: c3995be7-bc8b-4e1f-8ef6-fdf4c0a75720
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHERB_NOCONFIRMATION, SHERB_NOPROGRESSUI, SHERB_NOSOUND, SHEmptyRecycleBin, SHEmptyRecycleBin function [Windows Shell], SHEmptyRecycleBinA, SHEmptyRecycleBinW, _win32_SHEmptyRecycleBin, shell.SHEmptyRecycleBin, shellapi/SHEmptyRecycleBin, shellapi/SHEmptyRecycleBinA, shellapi/SHEmptyRecycleBinW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shellapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SHEmptyRecycleBinW (Unicode) and SHEmptyRecycleBinA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHSTOCKICONID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+-	Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+api_name:
+-	SHEmptyRecycleBin
+-	SHEmptyRecycleBinA
+-	SHEmptyRecycleBinW
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SHEmptyRecycleBinW function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmStorageModuleDefinition.put_Capabilities
+title: IFsrmStorageModuleDefinition::put_Capabilities
+author: windows-sdk-content
+description: Flags that specify capabilities of the storage module.
+old-location: fsrm\ifsrmstoragemoduledefinition_capabilities.htm
+old-project: Fsrm
+ms.assetid: 94e8a6fa-11f7-4ba4-a02b-c62c5f017b8a
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: Capabilities property [File Server Resource Manager], Capabilities property [File Server Resource Manager],IFsrmStorageModuleDefinition interface, IFsrmStorageModuleDefinition interface [File Server Resource Manager],Capabilities property, IFsrmStorageModuleDefinition.Capabilities, IFsrmStorageModuleDefinition.put_Capabilities, IFsrmStorageModuleDefinition::Capabilities, IFsrmStorageModuleDefinition::get_Capabilities, IFsrmStorageModuleDefinition::put_Capabilities, fs.ifsrmstoragemoduledefinition_capabilities, fsrm.ifsrmstoragemoduledefinition_capabilities, fsrmpipeline/IFsrmStorageModuleDefinition::Capabilities, fsrmpipeline/IFsrmStorageModuleDefinition::get_Capabilities, fsrmpipeline/IFsrmStorageModuleDefinition::put_Capabilities, put_Capabilities
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmStorageModuleDefinition.Capabilities
+-	IFsrmStorageModuleDefinition.get_Capabilities
+-	IFsrmStorageModuleDefinition.put_Capabilities
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmStorageModuleDefinition::put_Capabilities

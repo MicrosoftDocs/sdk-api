@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wtsapi32._WTS_CONFIG_SOURCE
+title: "_WTS_CONFIG_SOURCE"
+author: windows-sdk-content
+description: Specifies the source of configuration information returned by the WTSQueryUserConfig function.
+old-location: termserv\wts_config_source.htm
+old-project: TermServ
+ms.assetid: 2e1f45d9-dc89-4848-9ba5-e6d54b2a7737
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: WTSUserConfigSourceSAM, WTS_CONFIG_SOURCE, WTS_CONFIG_SOURCE enumeration [Remote Desktop Services], _WTS_CONFIG_SOURCE, termserv.wts_config_source, wtsapi32/WTSUserConfigSourceSAM, wtsapi32/WTS_CONFIG_SOURCE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WSManDisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_CONFIG_SOURCE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsapi32.h
+api_name:
+-	WTS_CONFIG_SOURCE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTS_CONFIG_SOURCE enumeration

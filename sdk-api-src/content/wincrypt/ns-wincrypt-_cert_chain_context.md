@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CERT_CHAIN_CONTEXT
+title: "_CERT_CHAIN_CONTEXT"
+author: windows-sdk-content
+description: Contains an array of simple certificate chains and a trust status structure that indicates summary validity data on all of the connected simple chains.
+old-location: security\cert_chain_context.htm
+old-project: SecCrypto
+ms.assetid: 609311f4-9cd6-4945-9f93-7266b3fc4a74
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_CHAIN_CONTEXT, CERT_CHAIN_CONTEXT, CERT_CHAIN_CONTEXT structure [Security], PCERT_CHAIN_CONTEXT, PCERT_CHAIN_CONTEXT structure pointer [Security], _CERT_CHAIN_CONTEXT, _crypto2_cert_chain_context, security.cert_chain_context, wincrypt/CERT_CHAIN_CONTEXT, wincrypt/PCERT_CHAIN_CONTEXT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_CHAIN_CONTEXT, *PCERT_CHAIN_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_CHAIN_CONTEXT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERT_CHAIN_CONTEXT structure

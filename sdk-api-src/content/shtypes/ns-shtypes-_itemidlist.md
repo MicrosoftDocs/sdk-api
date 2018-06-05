@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shtypes._ITEMIDLIST
+title: "_ITEMIDLIST"
+author: windows-sdk-content
+description: Contains a list of item identifiers.
+old-location: shell\ITEMIDLIST.htm
+old-project: shell
+ms.assetid: 60daf071-4e93-4e1c-bc38-894f706db04f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPITEMIDLIST, *PIDLIST_ABSOLUTE, *PIDLIST_RELATIVE, *PITEMID_CHILD, *PUIDLIST_RELATIVE, *PUITEMID_CHILD, ITEMIDLIST, ITEMIDLIST structure [Windows Shell], ITEMIDLIST_ABSOLUTE, ITEMIDLIST_RELATIVE, ITEMID_CHILD, _ITEMIDLIST, _win32_ITEMIDLIST, shell.ITEMIDLIST, shtypes/ITEMIDLIST"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shtypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shtypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ITEMIDLIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shtypes.h
+api_name:
+-	ITEMIDLIST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _ITEMIDLIST structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CryptVerifyTimeStampSignature
+title: CryptVerifyTimeStampSignature function
+author: windows-sdk-content
+description: Validates the time stamp signature on a specified array of bytes.
+old-location: security\cryptverifytimestampsignature.htm
+old-project: SecCrypto
+ms.assetid: 791b1500-98e3-49d5-97aa-be91f5edb7c2
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CryptVerifyTimeStampSignature, CryptVerifyTimeStampSignature function [Security], security.cryptverifytimestampsignature, wincrypt/CryptVerifyTimeStampSignature
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CryptVerifyTimeStampSignature
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CryptVerifyTimeStampSignature function

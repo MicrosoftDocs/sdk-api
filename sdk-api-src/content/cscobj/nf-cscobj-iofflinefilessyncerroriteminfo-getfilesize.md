@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cscobj.IOfflineFilesSyncErrorItemInfo.GetFileSize
+title: IOfflineFilesSyncErrorItemInfo::GetFileSize
+author: windows-sdk-content
+description: Retrieves the size of the item in bytes.
+old-location: of\iofflinefilessyncerroriteminfo_getfilesize.htm
+old-project: OfflineFiles
+ms.assetid: a1873a10-0e60-46c3-a3a3-12d974cc0ee9
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: GetFileSize, GetFileSize method [Offline Files], GetFileSize method [Offline Files],IOfflineFilesSyncErrorItemInfo interface, IOfflineFilesSyncErrorItemInfo interface [Offline Files],GetFileSize method, IOfflineFilesSyncErrorItemInfo.GetFileSize, IOfflineFilesSyncErrorItemInfo::GetFileSize, cscobj/IOfflineFilesSyncErrorItemInfo::GetFileSize, of.iofflinefilessyncerroriteminfo_getfilesize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFFLINEFILES_SYNC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CscSvc.dll
+-	CscObj.dll
+api_name:
+-	IOfflineFilesSyncErrorItemInfo.GetFileSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 ---
 
 # IOfflineFilesSyncErrorItemInfo::GetFileSize

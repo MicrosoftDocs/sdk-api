@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comadmin.ICatalogCollection.GetCollection
+title: ICatalogCollection::GetCollection
+author: windows-sdk-content
+description: Retrieves a collection from the COM+ catalog that is related to the current collection.
+old-location: cos\icatalogcollection_getcollection.htm
+old-project: cossdk
+ms.assetid: 4198f456-97fa-45b2-aa79-29ac506a8618
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: GetCollection, GetCollection method [COM+], GetCollection method [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],GetCollection method, ICatalogCollection.GetCollection, ICatalogCollection::GetCollection, _cos_ICatalogCollection_GetCollection, comadmin/ICatalogCollection::GetCollection, cos.icatalogcollection_getcollection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ComAdmin.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMAdminTxIsolationLevelOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComAdmin.h
+api_name:
+-	ICatalogCollection.GetCollection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICatalogCollection::GetCollection

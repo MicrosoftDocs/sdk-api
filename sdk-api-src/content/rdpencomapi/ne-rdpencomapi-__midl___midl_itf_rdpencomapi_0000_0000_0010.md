@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0010
+title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0010"
+author: windows-sdk-content
+description: Defines values for the type of encoding of a keyboard.
+old-location: rdp\rdpsrapi_kbd_code_type.htm
+old-project: Rdp
+ms.assetid: 7E8CD302-3F61-4132-8C80-E73A6DD034E1
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: RDPSRAPI_KBD_CODE_SCANCODE, RDPSRAPI_KBD_CODE_TYPE, RDPSRAPI_KBD_CODE_TYPE enumeration [RDP], RDPSRAPI_KBD_CODE_UNICODE, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0010, rdp.rdpsrapi_kbd_code_type, rdpencomapi/RDPSRAPI_KBD_CODE_SCANCODE, rdpencomapi/RDPSRAPI_KBD_CODE_TYPE, rdpencomapi/RDPSRAPI_KBD_CODE_UNICODE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RdpEncomAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: RdpEncomAPI.tlb
+tech.root: 
+req.typenames: RDPSRAPI_KBD_CODE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	RdpEncomAPI.tlb
+api_name:
+-	RDPSRAPI_KBD_CODE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsTscAx.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_rdpencomapi_0000_0000_0010 enumeration

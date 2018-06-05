@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winfax._FAX_JOB_ENTRYA
+title: "_FAX_JOB_ENTRYA"
+author: windows-sdk-content
+description: The FAX_JOB_ENTRY structure describes one fax job.
+old-location: fax\_mfax_fax_job_entry_str.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxlegacy_09de.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PFAX_JOB_ENTRYA, DRT_EMAIL, DRT_INBOX, DRT_NONE, FAX_JOB_ENTRY, FAX_JOB_ENTRY structure [Fax Service], FAX_JOB_ENTRYA, FAX_JOB_ENTRYW, FPS_ABORTING, FPS_ANSWERED, FPS_AVAILABLE, FPS_BAD_ADDRESS, FPS_BUSY, FPS_CALL_BLACKLISTED, FPS_CALL_DELAYED, FPS_COMPLETED, FPS_DIALING, FPS_DISCONNECTED, FPS_FATAL_ERROR, FPS_HANDLED, FPS_INITIALIZING, FPS_NOT_FAX_CALL, FPS_NO_ANSWER, FPS_NO_DIAL_TONE, FPS_OFFLINE, FPS_RECEIVING, FPS_RINGING, FPS_ROUTING, FPS_SENDING, FPS_UNAVAILABLE, JSA_DISCOUNT_PERIOD, JSA_NOW, JSA_SPECIFIC_TIME, JS_DELETING, JS_FAILED, JS_INPROGRESS, JS_NOLINE, JS_PAUSED, JS_PENDING, JS_RETRIES_EXCEEDED, JS_RETRYING, JT_FAIL_RECEIVE, JT_RECEIVE, JT_ROUTING, JT_SEND, JT_UNKNOWN, PFAX_JOB_ENTRY, PFAX_JOB_ENTRY structure pointer [Fax Service], _FAX_JOB_ENTRYA, _mfax_fax_job_entry_str, fax._mfax_fax_job_entry_str, winfax/FAX_JOB_ENTRY, winfax/FAX_JOB_ENTRYA, winfax/FAX_JOB_ENTRYW, winfax/PFAX_JOB_ENTRY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winfax.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: FAX_JOB_ENTRYW (Unicode) and FAX_JOB_ENTRYA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_JOB_ENTRYA, *PFAX_JOB_ENTRYA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winfax.h
+api_name:
+-	FAX_JOB_ENTRY
+-	FAX_JOB_ENTRYA
+-	FAX_JOB_ENTRYW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FAX_JOB_ENTRYA structure

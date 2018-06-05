@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winwlx._WLX_DESKTOP
+title: "_WLX_DESKTOP"
+author: windows-sdk-content
+description: Used to pass desktop information between your GINA DLL and Winlogon.
+old-location: security\wlx_desktop.htm
+old-project: SecAuthN
+ms.assetid: 3cde1b9e-5109-400d-a67f-1e263f2283d1
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PWLX_DESKTOP, PWLX_DESKTOP, PWLX_DESKTOP structure pointer [Security], WLX_DESKTOP, WLX_DESKTOP structure [Security], WLX_DESKTOP_HANDLE, WLX_DESKTOP_NAME, _WLX_DESKTOP, _gina_wlx_desktop, security.wlx_desktop, winwlx/PWLX_DESKTOP, winwlx/WLX_DESKTOP"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winwlx.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLX_DESKTOP, *PWLX_DESKTOP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winwlx.h
+api_name:
+-	WLX_DESKTOP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLX_DESKTOP structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:p2p.peer_collab_event_type_tag
+title: peer_collab_event_type_tag
+author: windows-sdk-content
+description: The PEER_COLLAB_EVENT_TYPE enumeration defines the set of events that can be raised on a peer by the peer collaboration network event infrastructure.
+old-location: p2p\peer_collab_event_type.htm
+old-project: P2PSdk
+ms.assetid: 2266c518-d383-4f37-9494-d57a3f780ced
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PEER_COLLAB_EVENT_TYPE, PEER_COLLAB_EVENT_TYPE enumeration [Peer Networking], PEER_EVENT_ENDPOINT_APPLICATION_CHANGED, PEER_EVENT_ENDPOINT_CHANGED, PEER_EVENT_ENDPOINT_OBJECT_CHANGED, PEER_EVENT_ENDPOINT_PRESENCE_CHANGED, PEER_EVENT_MY_APPLICATION_CHANGED, PEER_EVENT_MY_ENDPOINT_CHANGED, PEER_EVENT_MY_OBJECT_CHANGED, PEER_EVENT_MY_PRESENCE_CHANGED, PEER_EVENT_PEOPLE_NEAR_ME_CHANGED, PEER_EVENT_REQUEST_STATUS_CHANGED, PEER_EVENT_WATCHLIST_CHANGED, p2p.peer_collab_event_type, p2p/PEER_COLLAB_EVENT_TYPE, p2p/PEER_EVENT_ENDPOINT_APPLICATION_CHANGED, p2p/PEER_EVENT_ENDPOINT_CHANGED, p2p/PEER_EVENT_ENDPOINT_OBJECT_CHANGED, p2p/PEER_EVENT_ENDPOINT_PRESENCE_CHANGED, p2p/PEER_EVENT_MY_APPLICATION_CHANGED, p2p/PEER_EVENT_MY_ENDPOINT_CHANGED, p2p/PEER_EVENT_MY_OBJECT_CHANGED, p2p/PEER_EVENT_MY_PRESENCE_CHANGED, p2p/PEER_EVENT_PEOPLE_NEAR_ME_CHANGED, p2p/PEER_EVENT_REQUEST_STATUS_CHANGED, p2p/PEER_EVENT_WATCHLIST_CHANGED, peer_collab_event_type_tag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEER_COLLAB_EVENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	P2P.h
+api_name:
+-	PEER_COLLAB_EVENT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # peer_collab_event_type_tag enumeration

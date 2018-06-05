@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:pdh._PDH_RAW_LOG_RECORD
+title: "_PDH_RAW_LOG_RECORD"
+author: windows-sdk-content
+description: The PDH_RAW_LOG_RECORD structure contains information about a binary trace log file record.
+old-location: perf\pdh_raw_log_record_str.htm
+old-project: PerfCtrs
+ms.assetid: ae96515f-ea3f-4578-a249-fb8f41cdfa69
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PPDH_RAW_LOG_RECORD, PDH_LOG_TYPE_BINARY, PDH_LOG_TYPE_CSV, PDH_LOG_TYPE_PERFMON, PDH_LOG_TYPE_SQL, PDH_LOG_TYPE_TSV, PDH_RAW_LOG_RECORD, PDH_RAW_LOG_RECORD structure [Perf], PPDH_RAW_LOG_RECORD, PPDH_RAW_LOG_RECORD structure pointer [Perf], _PDH_RAW_LOG_RECORD, _win32_pdh_raw_log_record_str, base.pdh_raw_log_record_str, pdh/PDH_RAW_LOG_RECORD, pdh/PPDH_RAW_LOG_RECORD, perf.pdh_raw_log_record_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: pdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDH_RAW_LOG_RECORD, *PPDH_RAW_LOG_RECORD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pdh.h
+api_name:
+-	PDH_RAW_LOG_RECORD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PDH_RAW_LOG_RECORD structure

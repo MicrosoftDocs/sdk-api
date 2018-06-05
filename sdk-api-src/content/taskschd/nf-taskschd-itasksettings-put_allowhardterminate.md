@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.ITaskSettings.put_AllowHardTerminate
+title: ITaskSettings::put_AllowHardTerminate
+author: windows-sdk-content
+description: Gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using TerminateProcess.
+old-location: taskschd\itasksettings_allowhardterminate.htm
+old-project: TaskSchd
+ms.assetid: fd8105cf-5ef1-4ae4-8bb7-05469758b6b4
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: AllowHardTerminate property [Task Scheduler], AllowHardTerminate property [Task Scheduler],ITaskSettings interface, AllowHardTerminate property [Task Scheduler],TaskSettings class, ITaskSettings interface [Task Scheduler],AllowHardTerminate property, ITaskSettings.AllowHardTerminate, ITaskSettings.put_AllowHardTerminate, ITaskSettings::AllowHardTerminate, ITaskSettings::get_AllowHardTerminate, ITaskSettings::put_AllowHardTerminate, TaskSettings class [Task Scheduler],AllowHardTerminate property, put_AllowHardTerminate, taskschd.itasksettings_allowhardterminate, taskschd/ITaskSettings::AllowHardTerminate, taskschd/ITaskSettings::get_AllowHardTerminate, taskschd/ITaskSettings::put_AllowHardTerminate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	ITaskSettings.AllowHardTerminate
+-	ITaskSettings.get_AllowHardTerminate
+-	ITaskSettings.put_AllowHardTerminate
+-	TaskSettings.AllowHardTerminate
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITaskSettings::put_AllowHardTerminate

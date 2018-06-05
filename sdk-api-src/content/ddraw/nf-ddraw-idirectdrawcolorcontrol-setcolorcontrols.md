@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:ddraw.IDirectDrawColorControl.SetColorControls
+title: IDirectDrawColorControl::SetColorControls
+author: windows-sdk-content
+description: Sets the color-control options for an overlay or a primary surface.
+old-location: directdraw\idirectdrawcolorcontrol_setcolorcontrols.htm
+old-project: directdraw
+ms.assetid: de6f8266-d712-40bd-8230-cf5800cf8926
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: IDirectDrawColorControl interface [DirectDraw],SetColorControls method, IDirectDrawColorControl.SetColorControls, IDirectDrawColorControl::SetColorControls, SetColorControls, SetColorControls method [DirectDraw], SetColorControls method [DirectDraw],IDirectDrawColorControl interface, ddraw/IDirectDrawColorControl::SetColorControls, directdraw.idirectdrawcolorcontrol_setcolorcontrols
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ddraw.dll
+api_name:
+-	IDirectDrawColorControl.SetColorControls
+product: Windows
+targetos: Windows
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 ---
 
 # IDirectDrawColorControl::SetColorControls

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:combaseapi.tagServerInformation
+title: tagServerInformation
+author: windows-sdk-content
+description: Represents the implementation of a Component Object Model (COM) interface in a server process.
+old-location: winrt\serverinformation.htm
+old-project: WinRT
+ms.assetid: 568246B8-48F7-4A83-B7DE-24F36B2C3F49
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: "*PServerInformation, PServerInformation, PServerInformation structure pointer [Windows Runtime], ServerInformation, ServerInformation structure [Windows Runtime], combaseapi/PServerInformation, combaseapi/ServerInformation, tagServerInformation, winrt.serverinformation"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: combaseapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ServerInformation, *PServerInformation
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	combaseapi.h
+api_name:
+-	ServerInformation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagServerInformation structure

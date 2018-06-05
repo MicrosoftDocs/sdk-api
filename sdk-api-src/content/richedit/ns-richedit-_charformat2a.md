@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:richedit._charformat2a
+title: "_charformat2a"
+author: windows-sdk-content
+description: Contains information about character formatting in a rich edit control.
+old-location: controls\CHARFORMAT2.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charformat2.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CFE_ALLCAPS, CFE_AUTOBACKCOLOR, CFE_AUTOCOLOR, CFE_BOLD, CFE_DISABLED, CFE_EMBOSS, CFE_EXTENDED, CFE_FONTBOUND, CFE_HIDDEN, CFE_IMPRINT, CFE_ITALIC, CFE_LINK, CFE_LINKPROTECTED, CFE_MATH, CFE_MATHNOBUILDUP, CFE_MATHORDINARY, CFE_OUTLINE, CFE_PROTECTED, CFE_REVISED, CFE_SHADOW, CFE_SMALLCAPS, CFE_STRIKEOUT, CFE_SUBSCRIPT, CFE_SUPERSCRIPT, CFE_UNDERLINE, CFM_ALL, CFM_ALL2, CFM_ALLCAPS, CFM_ANIMATION, CFM_BACKCOLOR, CFM_BOLD, CFM_CHARSET, CFM_COLOR, CFM_COOKIE, CFM_DISABLED, CFM_EFFECTS, CFM_EFFECTS2, CFM_EMBOSS, CFM_EXTENDED, CFM_FACE, CFM_FONTBOUND, CFM_HIDDEN, CFM_IMPRINT, CFM_ITALIC, CFM_KERNING, CFM_LCID, CFM_LINK, CFM_LINKPROTECTED, CFM_MATH, CFM_MATHNOBUILDUP, CFM_MATHORDINARY, CFM_OFFSET, CFM_OUTLINE, CFM_PROTECTED, CFM_REVAUTHOR, CFM_REVISED, CFM_SHADOW, CFM_SIZE, CFM_SMALLCAPS, CFM_SPACING, CFM_STRIKEOUT, CFM_STYLE, CFM_SUBSCRIPT, CFM_SUPERSCRIPT, CFM_UNDERLINE, CFM_UNDERLINETYPE, CFM_WEIGHT, CFU_CF1UNDERLINE, CFU_INVERT, CFU_UNDERLINE, CFU_UNDERLINEDASH, CFU_UNDERLINEDASHDOT, CFU_UNDERLINEDASHDOTDOT, CFU_UNDERLINEDOTTED, CFU_UNDERLINEDOUBLE, CFU_UNDERLINEDOUBLEWAVE, CFU_UNDERLINEHAIRLINE, CFU_UNDERLINEHEAVYWAVE, CFU_UNDERLINELONGDASH, CFU_UNDERLINENONE, CFU_UNDERLINETHICK, CFU_UNDERLINETHICKDASH, CFU_UNDERLINETHICKDASHDOT, CFU_UNDERLINETHICKDASHDOTDOT, CFU_UNDERLINETHICKDOTTED, CFU_UNDERLINETHICKLONGDASH, CFU_UNDERLINEWAVE, CFU_UNDERLINEWORD, CHARFORMAT2, CHARFORMAT2 structure [Windows Controls], CHARFORMAT2A, CHARFORMAT2W, _charformat2a, _win32_CHARFORMAT2_str, _win32_CHARFORMAT2_str_cpp, controls.CHARFORMAT2, controls._win32_CHARFORMAT2_str, richedit/CHARFORMAT2, richedit/CHARFORMAT2A, richedit/CHARFORMAT2W
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: richedit.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CHARFORMAT2W (Unicode) and CHARFORMAT2A (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CHARFORMAT2A
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Richedit.h
+api_name:
+-	CHARFORMAT2
+-	CHARFORMAT2A
+-	CHARFORMAT2W
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _charformat2a structure

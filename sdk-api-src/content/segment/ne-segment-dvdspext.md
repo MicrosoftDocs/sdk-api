@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:segment.DVDSPExt
+title: DVDSPExt
+author: windows-sdk-content
+description: The DVDSPExt enumeration type holds a value indicating the default DVD subpicture language extension.
+old-location: mstv\dvdspext.htm
+old-project: mstv
+ms.assetid: cc33083a-1281-4863-937c-bd4688989a6c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: DVDSPExt, DVDSPExt enumeration [Microsoft TV Technologies], dvdSPExt_CC_Big, dvdSPExt_CC_Children, dvdSPExt_CC_Normal, dvdSPExt_Caption_Big, dvdSPExt_Caption_Children, dvdSPExt_Caption_Normal, dvdSPExt_DirectorComments_Big, dvdSPExt_DirectorComments_Children, dvdSPExt_DirectorComments_Normal, dvdSPExt_Forced, dvdSPExt_NotSpecified, enumeration [Microsoft TV Technologies], mstv.dvdspext, segment/DVDSPExt, segment/dvdSPExt_CC_Big, segment/dvdSPExt_CC_Children, segment/dvdSPExt_CC_Normal, segment/dvdSPExt_Caption_Big, segment/dvdSPExt_Caption_Children, segment/dvdSPExt_Caption_Normal, segment/dvdSPExt_DirectorComments_Big, segment/dvdSPExt_DirectorComments_Children, segment/dvdSPExt_DirectorComments_Normal, segment/dvdSPExt_Forced, segment/dvdSPExt_NotSpecified
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVDSPExt
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	segment.h
+api_name:
+-	DVDSPExt
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DVDSPExt enumeration

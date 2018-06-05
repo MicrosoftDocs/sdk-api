@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfobjects._MFVideoLighting
+title: "_MFVideoLighting"
+author: windows-sdk-content
+description: Describes the optimal lighting for viewing a particular set of video content.
+old-location: mf\mfvideolighting.htm
+old-project: medfound
+ms.assetid: 2eeca357-b7e2-40b1-b19f-2e12a833c1ca
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 2eeca357-b7e2-40b1-b19f-2e12a833c1ca, MFVideoLighting, MFVideoLighting enumeration [Media Foundation], MFVideoLighting_ForceDWORD, MFVideoLighting_Last, MFVideoLighting_Unknown, MFVideoLighting_bright, MFVideoLighting_dark, MFVideoLighting_dim, MFVideoLighting_office, _MFVideoLighting, mf.mfvideolighting, mfobjects/MFVideoLighting, mfobjects/MFVideoLighting_ForceDWORD, mfobjects/MFVideoLighting_Last, mfobjects/MFVideoLighting_Unknown, mfobjects/MFVideoLighting_bright, mfobjects/MFVideoLighting_dark, mfobjects/MFVideoLighting_dim, mfobjects/MFVideoLighting_office
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoLighting
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfobjects.h
+api_name:
+-	MFVideoLighting
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFVideoLighting enumeration

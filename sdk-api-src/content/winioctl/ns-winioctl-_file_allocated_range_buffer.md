@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._FILE_ALLOCATED_RANGE_BUFFER
+title: "_FILE_ALLOCATED_RANGE_BUFFER"
+author: windows-sdk-content
+description: Indicates a range of bytes in a file.
+old-location: fs\file_allocated_range_buffer_str.htm
+old-project: FileIO
+ms.assetid: e9c7d757-df29-4419-baba-56beb41623bf
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PFILE_ALLOCATED_RANGE_BUFFER, FILE_ALLOCATED_RANGE_BUFFER, FILE_ALLOCATED_RANGE_BUFFER structure [Files], PFILE_ALLOCATED_RANGE_BUFFER, PFILE_ALLOCATED_RANGE_BUFFER structure pointer [Files], _FILE_ALLOCATED_RANGE_BUFFER, _win32_file_allocated_range_buffer_str, base.file_allocated_range_buffer_str, fs.file_allocated_range_buffer_str, winioctl/FILE_ALLOCATED_RANGE_BUFFER, winioctl/PFILE_ALLOCATED_RANGE_BUFFER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILE_ALLOCATED_RANGE_BUFFER, *PFILE_ALLOCATED_RANGE_BUFFER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	FILE_ALLOCATED_RANGE_BUFFER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FILE_ALLOCATED_RANGE_BUFFER structure

@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincred.CredUIParseUserNameW
+title: CredUIParseUserNameW function
+author: windows-sdk-content
+description: The CredUIParseUserName function extracts the domain and user account name from a fully qualified user name.
+old-location: security\creduiparseusername.htm
+old-project: SecAuthN
+ms.assetid: 4a7fb207-f940-4610-a740-7bf5d58fb285
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CredUIParseUserName, CredUIParseUserName function [Security], CredUIParseUserNameA, CredUIParseUserNameW, _cred_creduiparseusername, security.creduiparseusername, wincred/CredUIParseUserName, wincred/CredUIParseUserNameA, wincred/CredUIParseUserNameW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincred.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CredUIParseUserNameW (Unicode) and CredUIParseUserNameA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Credui.dll
+-	Ext-MS-Win-security-credui-l1-1-1.dll
+-	AnalogCredUI.dll
+api_name:
+-	CredUIParseUserName
+-	CredUIParseUserNameA
+-	CredUIParseUserNameW
+product: Windows
+targetos: Windows
+req.lib: Credui.lib
+req.dll: Credui.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CredUIParseUserNameW function

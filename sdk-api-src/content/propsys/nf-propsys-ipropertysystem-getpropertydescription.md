@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:propsys.IPropertySystem.GetPropertyDescription
+title: IPropertySystem::GetPropertyDescription
+author: windows-sdk-content
+description: Gets an instance of the subsystem object that implements IPropertyDescription, to obtain the property description for a given PROPERTYKEY.
+old-location: properties\IPropertySystem_GetPropertyDescription.htm
+old-project: properties
+ms.assetid: c26f6f7e-7ed1-4a97-a9b0-63197ee7b43a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetPropertyDescription, GetPropertyDescription method [Windows Properties], GetPropertyDescription method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescription method, IPropertySystem.GetPropertyDescription, IPropertySystem::GetPropertyDescription, properties.IPropertySystem_GetPropertyDescription, propsys/IPropertySystem::GetPropertyDescription, shell.IPropertySystem_GetPropertyDescription, shell_IPropertySystem_GetPropertyDescription
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Propsys.dll
+api_name:
+-	IPropertySystem.GetPropertyDescription
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Propsys.dll (version 5.0 or later)
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertySystem::GetPropertyDescription

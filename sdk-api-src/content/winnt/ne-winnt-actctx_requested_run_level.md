@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winnt.ACTCTX_REQUESTED_RUN_LEVEL
+title: ACTCTX_REQUESTED_RUN_LEVEL
+author: windows-sdk-content
+description: The ACTCTX_REQUESTED_RUN_LEVEL enumeration describes the requested run level of the activation context.
+old-location: setup\actctx_requested_run_level.htm
+old-project: SbsCs
+ms.assetid: 3bf75a4d-a209-43e4-9fe2-f7da1602fc6c
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: ACTCTX_REQUESTED_RUN_LEVEL, ACTCTX_REQUESTED_RUN_LEVEL enumeration [Side-by-side Assemblies], ACTCTX_RUN_LEVEL_AS_INVOKER, ACTCTX_RUN_LEVEL_HIGHEST_AVAILABLE, ACTCTX_RUN_LEVEL_NUMBERS, ACTCTX_RUN_LEVEL_REQUIRE_ADMIN, ACTCTX_RUN_LEVEL_UNSPECIFIED, setup.actctx_requested_run_level, winnt/ACTCTX_REQUESTED_RUN_LEVEL, winnt/ACTCTX_RUN_LEVEL_AS_INVOKER, winnt/ACTCTX_RUN_LEVEL_HIGHEST_AVAILABLE, winnt/ACTCTX_RUN_LEVEL_NUMBERS, winnt/ACTCTX_RUN_LEVEL_REQUIRE_ADMIN, winnt/ACTCTX_RUN_LEVEL_UNSPECIFIED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACTCTX_REQUESTED_RUN_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	ACTCTX_REQUESTED_RUN_LEVEL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ACTCTX_REQUESTED_RUN_LEVEL enumeration

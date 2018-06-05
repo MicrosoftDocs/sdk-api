@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:wingdi.DISPLAYCONFIG_SCALING
+title: DISPLAYCONFIG_SCALING
+author: windows-sdk-content
+description: The DISPLAYCONFIG_SCALING enumeration specifies the scaling transformation applied to content displayed on a video present network (VidPN) present path.
+old-location: display\displayconfig_scaling.htm
+old-project: display
+ms.assetid: 6f073aa6-2647-4a51-9256-b2da488fd382
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CCD_Enumerations_67f71fcc-f83c-4a11-94d4-169ab6d55f7c.xml, DISPLAYCONFIG_SCALING, DISPLAYCONFIG_SCALING enumeration [Display Devices], DISPLAYCONFIG_SCALING_ASPECTRATIOCENTEREDMAX, DISPLAYCONFIG_SCALING_CENTERED, DISPLAYCONFIG_SCALING_CUSTOM, DISPLAYCONFIG_SCALING_FORCE_UINT32, DISPLAYCONFIG_SCALING_IDENTITY, DISPLAYCONFIG_SCALING_PREFERRED, DISPLAYCONFIG_SCALING_STRETCHED, display.displayconfig_scaling, wingdi/DISPLAYCONFIG_SCALING, wingdi/DISPLAYCONFIG_SCALING_ASPECTRATIOCENTEREDMAX, wingdi/DISPLAYCONFIG_SCALING_CENTERED, wingdi/DISPLAYCONFIG_SCALING_CUSTOM, wingdi/DISPLAYCONFIG_SCALING_FORCE_UINT32, wingdi/DISPLAYCONFIG_SCALING_IDENTITY, wingdi/DISPLAYCONFIG_SCALING_PREFERRED, wingdi/DISPLAYCONFIG_SCALING_STRETCHED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_SCALING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wingdi.h
+api_name:
+-	DISPLAYCONFIG_SCALING
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DISPLAYCONFIG_SCALING enumeration

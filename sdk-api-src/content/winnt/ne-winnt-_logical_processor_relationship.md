@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winnt._LOGICAL_PROCESSOR_RELATIONSHIP
+title: "_LOGICAL_PROCESSOR_RELATIONSHIP"
+author: windows-sdk-content
+description: Represents the relationship between the processor set identified in the corresponding SYSTEM_LOGICAL_PROCESSOR_INFORMATION or SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure.
+old-location: base\logical_processor_relationship.htm
+old-project: ProcThread
+ms.assetid: 2ada52f0-70ec-4146-9ef7-9af3b08996f9
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: LOGICAL_PROCESSOR_RELATIONSHIP, LOGICAL_PROCESSOR_RELATIONSHIP enumeration, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, _LOGICAL_PROCESSOR_RELATIONSHIP, base.logical_processor_relationship, winnt/LOGICAL_PROCESSOR_RELATIONSHIP, winnt/RelationAll, winnt/RelationCache, winnt/RelationGroup, winnt/RelationNumaNode, winnt/RelationProcessorCore, winnt/RelationProcessorPackage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOGICAL_PROCESSOR_RELATIONSHIP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	LOGICAL_PROCESSOR_RELATIONSHIP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _LOGICAL_PROCESSOR_RELATIONSHIP enumeration

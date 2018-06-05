@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:lpmapi.LPM_GetRsvpObjects
+title: LPM_GetRsvpObjects function
+author: windows-sdk-content
+description: The LPM_GetRsvpObjects function allows the PCM to query LPMs for policy data.
+old-location: qos\lpm_getrsvpobjects.htm
+old-project: QOS
+ms.assetid: 1ae417e9-3180-4fd4-90f6-6e91c12d523b
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: FlowDescCount, FlowDescList, LPM_GetRsvpObjects, LPM_GetRsvpObjects callback, LPM_GetRsvpObjects callback function [QOS], RsvpHop, RsvpMsgType, RsvpScope, RsvpSession, RsvpStyle, _gqos_lpm_getrsvpobjects, lpmapi/LPM_GetRsvpObjects, qos.lpm_getrsvpobjects
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: lpmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Lpmapi.h
+api_name:
+-	LPM_GetRsvpObjects
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # LPM_GetRsvpObjects function

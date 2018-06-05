@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d10.D3D10_INPUT_ELEMENT_DESC
+title: D3D10_INPUT_ELEMENT_DESC
+author: windows-sdk-content
+description: A description of a single element for the input-assembler stage.
+old-location: direct3d10\d3d10_input_element_desc.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_input_element_desc.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 0181f051-1b3b-7933-88f6-5ddfa2b8cf74, D3D10_INPUT_ELEMENT_DESC, D3D10_INPUT_ELEMENT_DESC structure [Direct3D 10], d3d10/D3D10_INPUT_ELEMENT_DESC, direct3d10.d3d10_input_element_desc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_INPUT_ELEMENT_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D10.h
+api_name:
+-	D3D10_INPUT_ELEMENT_DESC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D10_INPUT_ELEMENT_DESC structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:peerdist.PEERDIST_STATUS
+title: PEERDIST_STATUS
+author: windows-sdk-content
+description: PEERDIST_STATUS enumeration defines the possible status values of the Peer Distribution service.
+old-location: p2p\peerdist_status.htm
+old-project: P2PSdk
+ms.assetid: d693dc1c-39ce-4a2b-b769-9d370abc3d3c
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PEERDIST_STATUS, PEERDIST_STATUS enumeration [Peer Networking], PEERDIST_STATUS_AVAILABLE, PEERDIST_STATUS_DISABLED, PEERDIST_STATUS_UNAVAILABLE, p2p.peerdist_status, peerdist/PEERDIST_STATUS, peerdist/PEERDIST_STATUS_AVAILABLE, peerdist/PEERDIST_STATUS_DISABLED, peerdist/PEERDIST_STATUS_UNAVAILABLE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: peerdist.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEERDIST_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	peerdist.h
+api_name:
+-	PEERDIST_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PEERDIST_STATUS enumeration

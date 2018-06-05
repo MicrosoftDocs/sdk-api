@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:audioengineendpoint.IAudioEndpoint.SetStreamFlags
+title: IAudioEndpoint::SetStreamFlags
+author: windows-sdk-content
+description: Sets the stream configuration flags on the audio endpoint.
+old-location: termserv\iaudioendpoint_setstreamflags.htm
+old-project: TermServ
+ms.assetid: f6713912-ba7e-4e3e-95d9-8318c40a7042
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IAudioEndpoint interface [Remote Desktop Services],SetStreamFlags method, IAudioEndpoint.SetStreamFlags, IAudioEndpoint::SetStreamFlags, SetStreamFlags, SetStreamFlags method [Remote Desktop Services], SetStreamFlags method [Remote Desktop Services],IAudioEndpoint interface, audioengineendpoint/IAudioEndpoint::SetStreamFlags, termserv.iaudioendpoint_setstreamflags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioengineendpoint.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AE_POSITION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioengineendpoint.h
+api_name:
+-	IAudioEndpoint.SetStreamFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioEndpoint::SetStreamFlags

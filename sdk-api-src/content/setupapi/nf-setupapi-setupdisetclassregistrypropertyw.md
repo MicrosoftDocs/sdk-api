@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:setupapi.SetupDiSetClassRegistryPropertyW
+title: SetupDiSetClassRegistryPropertyW function
+author: windows-sdk-content
+description: The SetupDiSetClassRegistryProperty function sets a specified device class property in the registry.
+old-location: devinst\setupdisetclassregistryproperty.htm
+old-project: devinst
+ms.assetid: 78457461-11ef-44ec-aa60-1adf4a48db8c
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: SetupDiSetClassRegistryProperty, SetupDiSetClassRegistryProperty function [Device and Driver Installation], SetupDiSetClassRegistryPropertyA, SetupDiSetClassRegistryPropertyW, devinst.setupdisetclassregistryproperty, di-rtns_77b5fc07-42ec-4515-b20c-87cf1c8e4b86.xml, setupapi/SetupDiSetClassRegistryProperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Setupapi.lib
+-	Setupapi.dll
+api_name:
+-	SetupDiSetClassRegistryProperty
+product: Windows
+targetos: Windows
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetupDiSetClassRegistryPropertyW function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:handleapi.CompareObjectHandles
+title: CompareObjectHandles function
+author: windows-sdk-content
+description: Compares two object handles to determine if they refer to the same underlying kernel object.
+old-location: base\compareobjecthandles.htm
+old-project: SysInfo
+ms.assetid: 06F22A46-0999-4622-8D62-23465C92A997
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: CompareObjectHandles, CompareObjectHandles function, base.compareobjecthandles, handleapi/CompareObjectHandles
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: handleapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GPMStarterGPOType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernelbase.dll
+-	api-ms-win-core-handle-l1-1-0.lib
+-	api-ms-win-core-handle-l1-1-0.dll
+-	Kernel32.dll
+api_name:
+-	CompareObjectHandles
+product: Windows
+targetos: Windows
+req.lib: Kernelbase.lib
+req.dll: Kernelbase.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CompareObjectHandles function

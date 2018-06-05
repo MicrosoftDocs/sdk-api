@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:http._HTTP_SSL_CLIENT_CERT_INFO
+title: "_HTTP_SSL_CLIENT_CERT_INFO"
+author: windows-sdk-content
+description: Contains data about a Secure Sockets Layer (SSL) client certificate that can be used to determine whether the certificate is valid.
+old-location: http\http_ssl_client_cert_info.htm
+old-project: Http
+ms.assetid: bfe6a9a9-6117-4403-a83f-e9448615500b
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_SSL_CLIENT_CERT_INFO, CERT_E_CN_NO_MATCH, CERT_E_EXPIRED, CERT_E_REVOKED, CERT_E_UNTRUSTEDCA, CERT_E_UNTRUSTEDROOT, CERT_E_WRONG_USAGE, HTTP_SSL_CLIENT_CERT_INFO, HTTP_SSL_CLIENT_CERT_INFO structure [HTTP], PHTTP_SSL_CLIENT_CERT_INFO, PHTTP_SSL_CLIENT_CERT_INFO structure pointer [HTTP], _HTTP_SSL_CLIENT_CERT_INFO, _http_http_ssl_client_cert_info, http.http_ssl_client_cert_info, http/HTTP_SSL_CLIENT_CERT_INFO, http/PHTTP_SSL_CLIENT_CERT_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_SSL_CLIENT_CERT_INFO, *PHTTP_SSL_CLIENT_CERT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_SSL_CLIENT_CERT_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_SSL_CLIENT_CERT_INFO structure

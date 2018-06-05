@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d3d11.D3D11_BUS_TYPE
+title: D3D11_BUS_TYPE
+author: windows-sdk-content
+description: Specifies the type of I/O bus that is used by the graphics adapter.
+old-location: mf\d3d11_bus_type.htm
+old-project: medfound
+ms.assetid: 3B93166B-7829-4A3D-9D13-631F0242E13F
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3D11_BUS_IMPL_MODIFIER_DAUGHTER_BOARD_CONNECTOR, D3D11_BUS_IMPL_MODIFIER_DAUGHTER_BOARD_CONNECTOR_INSIDE_OF_NUAE, D3D11_BUS_IMPL_MODIFIER_INSIDE_OF_CHIPSET, D3D11_BUS_IMPL_MODIFIER_NON_STANDARD, D3D11_BUS_IMPL_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_CHIP, D3D11_BUS_IMPL_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_SOCKET, D3D11_BUS_TYPE, D3D11_BUS_TYPE enumeration [Media Foundation], D3D11_BUS_TYPE_AGP, D3D11_BUS_TYPE_OTHER, D3D11_BUS_TYPE_PCI, D3D11_BUS_TYPE_PCIEXPRESS, D3D11_BUS_TYPE_PCIX, d3d11/D3D11_BUS_IMPL_MODIFIER_DAUGHTER_BOARD_CONNECTOR, d3d11/D3D11_BUS_IMPL_MODIFIER_DAUGHTER_BOARD_CONNECTOR_INSIDE_OF_NUAE, d3d11/D3D11_BUS_IMPL_MODIFIER_INSIDE_OF_CHIPSET, d3d11/D3D11_BUS_IMPL_MODIFIER_NON_STANDARD, d3d11/D3D11_BUS_IMPL_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_CHIP, d3d11/D3D11_BUS_IMPL_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_SOCKET, d3d11/D3D11_BUS_TYPE, d3d11/D3D11_BUS_TYPE_AGP, d3d11/D3D11_BUS_TYPE_OTHER, d3d11/D3D11_BUS_TYPE_PCI, d3d11/D3D11_BUS_TYPE_PCIEXPRESS, d3d11/D3D11_BUS_TYPE_PCIX, mf.d3d11_bus_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_BUS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11.h
+api_name:
+-	D3D11_BUS_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_BUS_TYPE enumeration

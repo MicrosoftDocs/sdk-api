@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winscard.SCardGetCardTypeProviderNameA
+title: SCardGetCardTypeProviderNameA function
+author: windows-sdk-content
+description: Returns the name of the module (dynamic link library) that contains the provider for a given card name and provider type.
+old-location: security\scardgetcardtypeprovidername.htm
+old-project: SecAuthN
+ms.assetid: 5006d1d6-b0f4-431f-8868-d1f4fc0c8124
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: SCARD_PROVIDER_CARD_MODULE, SCARD_PROVIDER_CSP, SCARD_PROVIDER_KSP, SCARD_PROVIDER_PRIMARY, SCardGetCardTypeProviderName, SCardGetCardTypeProviderName function [Security], SCardGetCardTypeProviderNameA, SCardGetCardTypeProviderNameW, _smart_scardgetcardtypeprovidername, security.scardgetcardtypeprovidername, winscard/SCardGetCardTypeProviderName, winscard/SCardGetCardTypeProviderNameA, winscard/SCardGetCardTypeProviderNameW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winscard.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SCardGetCardTypeProviderNameW (Unicode) and SCardGetCardTypeProviderNameA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINSAT_BITMAP_SIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winscard.dll
+-	Ext-MS-Win-wlan-scard-l1-1-0.dll
+-	Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+api_name:
+-	SCardGetCardTypeProviderName
+-	SCardGetCardTypeProviderNameA
+-	SCardGetCardTypeProviderNameW
+product: Windows
+targetos: Windows
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # SCardGetCardTypeProviderNameA function

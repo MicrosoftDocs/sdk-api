@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iketypes.IKEEXT_KERBEROS_AUTHENTICATION1__
+title: IKEEXT_KERBEROS_AUTHENTICATION1__
+author: windows-sdk-content
+description: Contains information needed for preshared key authentication.
+old-location: fwp\ikeext_kerberos_authentication1.htm
+old-project: FWP
+ms.assetid: c9ea72e1-3d98-49f1-9061-d19e16f50660
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IKEEXT_KERBEROS_AUTHENTICATION1, IKEEXT_KERBEROS_AUTHENTICATION1 structure [Filtering], IKEEXT_KERBEROS_AUTHENTICATION1__, IKEEXT_KERB_AUTH_DISABLE_INITIATOR_TOKEN_GENERATION, IKEEXT_KERB_AUTH_DONT_ACCEPT_EXPLICIT_CREDENTIALS, IKEEXT_KERB_AUTH_FORCE_PROXY_ON_INITIATOR, fwp.ikeext_kerberos_authentication1, iketypes/IKEEXT_KERBEROS_AUTHENTICATION1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iketypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Iketypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IKEEXT_KERBEROS_AUTHENTICATION1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	iketypes.h
+api_name:
+-	IKEEXT_KERBEROS_AUTHENTICATION1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IKEEXT_KERBEROS_AUTHENTICATION1__ structure

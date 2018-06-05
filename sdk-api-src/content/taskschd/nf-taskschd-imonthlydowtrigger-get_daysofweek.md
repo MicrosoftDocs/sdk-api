@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.IMonthlyDOWTrigger.get_DaysOfWeek
+title: IMonthlyDOWTrigger::get_DaysOfWeek
+author: windows-sdk-content
+description: Gets or sets the days of the week during which the task runs.
+old-location: taskschd\imonthlydowtrigger_daysofweek.htm
+old-project: TaskSchd
+ms.assetid: 553a0a51-fc2f-4ace-a69d-6aef4d9b06af
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: DaysOfWeek property [Task Scheduler], DaysOfWeek property [Task Scheduler],IMonthlyDOWTrigger interface, IMonthlyDOWTrigger interface [Task Scheduler],DaysOfWeek property, IMonthlyDOWTrigger.DaysOfWeek, IMonthlyDOWTrigger.get_DaysOfWeek, IMonthlyDOWTrigger::DaysOfWeek, IMonthlyDOWTrigger::get_DaysOfWeek, IMonthlyDOWTrigger::put_DaysOfWeek, get_DaysOfWeek, taskschd.imonthlydowtrigger_daysofweek, taskschd/IMonthlyDOWTrigger::DaysOfWeek, taskschd/IMonthlyDOWTrigger::get_DaysOfWeek, taskschd/IMonthlyDOWTrigger::put_DaysOfWeek
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	IMonthlyDOWTrigger.DaysOfWeek
+-	IMonthlyDOWTrigger.get_DaysOfWeek
+-	IMonthlyDOWTrigger.put_DaysOfWeek
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IMonthlyDOWTrigger::get_DaysOfWeek

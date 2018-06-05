@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:wsdevlicensing.RemoveDeveloperLicense
+title: RemoveDeveloperLicense function
+author: windows-sdk-content
+description: Removes a developer license.
+old-location: devlic\removedeveloperlicense.htm
+old-project: devlic
+ms.assetid: C75F8B6E-EAFB-48E2-93B1-CEC1A1FF5FC0
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: RemoveDeveloperLicense, RemoveDeveloperLicense function, devlic.removedeveloperlicense, wsdevlicensing/RemoveDeveloperLicense
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wsdevlicensing.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WSClient.dll
+api_name:
+-	RemoveDeveloperLicense
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: WSClient.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # RemoveDeveloperLicense function

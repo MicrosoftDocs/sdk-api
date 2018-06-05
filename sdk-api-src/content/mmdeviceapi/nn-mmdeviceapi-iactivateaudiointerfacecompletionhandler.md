@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:mmdeviceapi.IActivateAudioInterfaceCompletionHandler
+title: IActivateAudioInterfaceCompletionHandler
+author: windows-sdk-content
+description: Provides a callback to indicate that activation of a WASAPI interface is complete.
+old-location: coreaudio\iactivateaudiointerfacecompletionhandler.htm
+old-project: CoreAudio
+ms.assetid: 04ff7cbb-fd33-40d9-9c11-4f716c6423b0
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IActivateAudioInterfaceCompletionHandler, IActivateAudioInterfaceCompletionHandler interface [Core Audio], IActivateAudioInterfaceCompletionHandler interface [Core Audio],described, coreaudio.iactivateaudiointerfacecompletionhandler, mmdeviceapi/IActivateAudioInterfaceCompletionHandler
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mmdeviceapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mmdeviceapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EndpointFormFactor
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mmdeviceapi.h
+api_name:
+-	IActivateAudioInterfaceCompletionHandler
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mmdevapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IActivateAudioInterfaceCompletionHandler interface

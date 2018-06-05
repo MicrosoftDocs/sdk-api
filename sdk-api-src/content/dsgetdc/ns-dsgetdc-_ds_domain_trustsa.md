@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dsgetdc._DS_DOMAIN_TRUSTSA
+title: "_DS_DOMAIN_TRUSTSA"
+author: windows-sdk-content
+description: Used with the DsEnumerateDomainTrusts function to contain trust data for a domain.
+old-location: ad\ds_domain_trusts.htm
+old-project: AD
+ms.assetid: cd260fd1-dc38-4405-95ba-097a23faf668
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PDS_DOMAIN_TRUSTSA, DS_DOMAIN_DIRECT_INBOUND, DS_DOMAIN_DIRECT_OUTBOUND, DS_DOMAIN_IN_FOREST, DS_DOMAIN_NATIVE_MODE, DS_DOMAIN_PRIMARY, DS_DOMAIN_TREE_ROOT, DS_DOMAIN_TRUSTS, DS_DOMAIN_TRUSTS structure [Active Directory], DS_DOMAIN_TRUSTSA, DS_DOMAIN_TRUSTSW, PDS_DOMAIN_TRUSTS, PDS_DOMAIN_TRUSTS structure pointer [Active Directory], _DS_DOMAIN_TRUSTSA, _glines_ds_domain_trusts, ad.ds__domain__trusts, ad.ds_domain_trusts, dsgetdc/DS_DOMAIN_TRUSTS, dsgetdc/DS_DOMAIN_TRUSTSA, dsgetdc/DS_DOMAIN_TRUSTSW, dsgetdc/PDS_DOMAIN_TRUSTS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dsgetdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DS_DOMAIN_TRUSTSW (Unicode) and DS_DOMAIN_TRUSTSA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_DOMAIN_TRUSTSA, *PDS_DOMAIN_TRUSTSA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dsgetdc.h
+api_name:
+-	DS_DOMAIN_TRUSTS
+-	DS_DOMAIN_TRUSTSA
+-	DS_DOMAIN_TRUSTSW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DS_DOMAIN_TRUSTSA structure

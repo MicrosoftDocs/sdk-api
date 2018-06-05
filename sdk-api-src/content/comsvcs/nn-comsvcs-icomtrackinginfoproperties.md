@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:comsvcs.IComTrackingInfoProperties
+title: IComTrackingInfoProperties
+author: windows-sdk-content
+description: Retrieves the total number of properties associated with a tracking information object and their names.
+old-location: cos\icomtrackinginfoproperties.htm
+old-project: cossdk
+ms.assetid: 1964b04e-7146-4d08-a08f-a85393d07592
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IComTrackingInfoProperties, IComTrackingInfoProperties interface [COM+], IComTrackingInfoProperties interface [COM+],described, _dtc_IComTrackingInfoProperties, comsvcs/IComTrackingInfoProperties, cos.icomtrackinginfoproperties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IComTrackingInfoProperties
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IComTrackingInfoProperties interface

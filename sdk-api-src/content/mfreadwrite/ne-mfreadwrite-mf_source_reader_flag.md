@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfreadwrite.MF_SOURCE_READER_FLAG
+title: MF_SOURCE_READER_FLAG
+author: windows-sdk-content
+description: Contains flags that indicate the status of the IMFSourceReader::ReadSample method.
+old-location: mf\mf_source_reader_flag.htm
+old-project: medfound
+ms.assetid: 8981a682-3c0b-458b-910a-d1462ed73e64
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_SOURCE_READERF_ALLEFFECTSREMOVED, MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED, MF_SOURCE_READERF_ENDOFSTREAM, MF_SOURCE_READERF_ERROR, MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED, MF_SOURCE_READERF_NEWSTREAM, MF_SOURCE_READERF_STREAMTICK, MF_SOURCE_READER_FLAG, MF_SOURCE_READER_FLAG enumeration [Media Foundation], mf.mf_source_reader_flag, mfreadwrite/MF_SOURCE_READERF_ALLEFFECTSREMOVED, mfreadwrite/MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED, mfreadwrite/MF_SOURCE_READERF_ENDOFSTREAM, mfreadwrite/MF_SOURCE_READERF_ERROR, mfreadwrite/MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED, mfreadwrite/MF_SOURCE_READERF_NEWSTREAM, mfreadwrite/MF_SOURCE_READERF_STREAMTICK, mfreadwrite/MF_SOURCE_READER_FLAG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfreadwrite.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_SOURCE_READER_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfreadwrite.h
+api_name:
+-	MF_SOURCE_READER_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MF_SOURCE_READER_FLAG enumeration

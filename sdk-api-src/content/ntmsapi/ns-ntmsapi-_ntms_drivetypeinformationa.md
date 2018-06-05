@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntmsapi._NTMS_DRIVETYPEINFORMATIONA
+title: "_NTMS_DRIVETYPEINFORMATIONA"
+author: windows-sdk-content
+description: The NTMS_DRIVETYPEINFORMATION structure defines the properties specific to a type of drive supported by RSM.
+old-location: fs\ntms_drivetypeinformation.htm
+old-project: Rsm
+ms.assetid: 2c852397-540c-44f9-a94e-2100d1588d75
+ms.author: windowssdkdev
+ms.date: 04/05/2018
+ms.keywords: FILE_DEVICE_CD_ROM, FILE_DEVICE_DISK, FILE_DEVICE_DVD, FILE_DEVICE_TAPE, NTMS_DRIVETYPEINFORMATION, NTMS_DRIVETYPEINFORMATION structure [Files], NTMS_DRIVETYPEINFORMATIONA, _NTMS_DRIVETYPEINFORMATIONA, _NTMS_DRIVETYPEINFORMATIONW, _zaw_ntms_drivetypeinformation, base.ntms_drivetypeinformation, fs.ntms_drivetypeinformation, ntmsapi/NTMS_DRIVETYPEINFORMATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntmsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NTMS_DRIVETYPEINFORMATIONA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntmsapi.h
+api_name:
+-	NTMS_DRIVETYPEINFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NTMS_DRIVETYPEINFORMATIONA structure

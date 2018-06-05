@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfobjects._MFVideoChromaSubsampling
+title: "_MFVideoChromaSubsampling"
+author: windows-sdk-content
+description: Contains flags that define the chroma encoding scheme for Y'Cb'Cr' data.
+old-location: mf\mfvideochromasubsampling.htm
+old-project: medfound
+ms.assetid: 778d0456-f98e-44ac-afb7-9ce01da06741
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 778d0456-f98e-44ac-afb7-9ce01da06741, MFVideoChromaSubsampling, MFVideoChromaSubsampling enumeration [Media Foundation], MFVideoChromaSubsampling_Cosited, MFVideoChromaSubsampling_DV_PAL, MFVideoChromaSubsampling_ForceDWORD, MFVideoChromaSubsampling_Horizontally_Cosited, MFVideoChromaSubsampling_Last, MFVideoChromaSubsampling_MPEG1, MFVideoChromaSubsampling_MPEG2, MFVideoChromaSubsampling_ProgressiveChroma, MFVideoChromaSubsampling_Unknown, MFVideoChromaSubsampling_Vertically_AlignedChromaPlanes, MFVideoChromaSubsampling_Vertically_Cosited, _MFVideoChromaSubsampling, mf.mfvideochromasubsampling, mfobjects/MFVideoChromaSubsampling, mfobjects/MFVideoChromaSubsampling_Cosited, mfobjects/MFVideoChromaSubsampling_DV_PAL, mfobjects/MFVideoChromaSubsampling_ForceDWORD, mfobjects/MFVideoChromaSubsampling_Horizontally_Cosited, mfobjects/MFVideoChromaSubsampling_Last, mfobjects/MFVideoChromaSubsampling_MPEG1, mfobjects/MFVideoChromaSubsampling_MPEG2, mfobjects/MFVideoChromaSubsampling_ProgressiveChroma, mfobjects/MFVideoChromaSubsampling_Unknown, mfobjects/MFVideoChromaSubsampling_Vertically_AlignedChromaPlanes, mfobjects/MFVideoChromaSubsampling_Vertically_Cosited
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoChromaSubsampling
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfobjects.h
+api_name:
+-	MFVideoChromaSubsampling
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFVideoChromaSubsampling enumeration

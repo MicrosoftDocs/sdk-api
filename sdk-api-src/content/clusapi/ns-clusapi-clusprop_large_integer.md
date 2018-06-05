@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clusapi.CLUSPROP_LARGE_INTEGER
+title: CLUSPROP_LARGE_INTEGER
+author: windows-sdk-content
+description: Describes a signed large integer.
+old-location: mscs\clusprop_large_integer.htm
+old-project: MsCS
+ms.assetid: 3e0849e6-3d93-47cb-858d-9891451b8dfd
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCLUSPROP_LARGE_INTEGER, CLUSPROP_LARGE_INTEGER, CLUSPROP_LARGE_INTEGER structure [Failover Cluster], PCLUSPROP_LARGE_INTEGER, PCLUSPROP_LARGE_INTEGER structure pointer [Failover Cluster], _wolf_clusprop_large_integer, clusapi/CLUSPROP_LARGE_INTEGER, clusapi/PCLUSPROP_LARGE_INTEGER, mscs.clusprop_large_integer"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSPROP_LARGE_INTEGER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+api_name:
+-	CLUSPROP_LARGE_INTEGER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSPROP_LARGE_INTEGER structure

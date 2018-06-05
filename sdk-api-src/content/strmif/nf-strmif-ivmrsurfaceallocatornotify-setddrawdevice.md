@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.IVMRSurfaceAllocatorNotify.SetDDrawDevice
+title: IVMRSurfaceAllocatorNotify::SetDDrawDevice
+author: windows-sdk-content
+description: The SetDDrawDevice method sets the initial DirectDraw device and monitor to be used for video playback.
+old-location: dshow\ivmrsurfaceallocatornotify_setddrawdevice.htm
+old-project: DirectShow
+ms.assetid: 3e6bd77e-8b2d-4cd8-9bd3-40a3fe9373f3
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],SetDDrawDevice method, IVMRSurfaceAllocatorNotify.SetDDrawDevice, IVMRSurfaceAllocatorNotify::SetDDrawDevice, IVMRSurfaceAllocatorNotifySetDDrawDevice, SetDDrawDevice, SetDDrawDevice method [DirectShow], SetDDrawDevice method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_setddrawdevice, strmif/IVMRSurfaceAllocatorNotify::SetDDrawDevice
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IVMRSurfaceAllocatorNotify.SetDDrawDevice
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IVMRSurfaceAllocatorNotify::SetDDrawDevice

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11sdklayers.ID3D11Debug.ValidateContext
+title: ID3D11Debug::ValidateContext
+author: windows-sdk-content
+description: Check to see if the draw pipeline state is valid.
+old-location: direct3d11\id3d11debug_validatecontext.htm
+old-project: direct3d11
+ms.assetid: c8679a68-336f-4bfa-91d6-398a75b34dfb
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 4ee713bf-94e0-0a30-fb72-d6e8a2216e88, ID3D11Debug interface [Direct3D 11],ValidateContext method, ID3D11Debug.ValidateContext, ID3D11Debug::ValidateContext, ValidateContext, ValidateContext method [Direct3D 11], ValidateContext method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::ValidateContext, direct3d11.id3d11debug_validatecontext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11Debug.ValidateContext
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11Debug::ValidateContext

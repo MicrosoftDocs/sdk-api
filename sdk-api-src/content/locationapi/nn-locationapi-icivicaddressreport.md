@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:locationapi.ICivicAddressReport
+title: ICivicAddressReport
+author: windows-sdk-content
+description: ICivicAddressReport represents a location report that contains information in the form of a street address.
+old-location: winlocation\icivicaddressreport.htm
+old-project: LocationAPI
+ms.assetid: ba8c66cb-be94-4649-ada9-620ed3b35516
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: ICivicAddressReport, ICivicAddressReport interface [WinLocation], ICivicAddressReport interface [WinLocation],described, locationapi/ICivicAddressReport, winlocation.icivicaddressreport
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: locationapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, *LPWKSTA_USER_INFO_1101
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	LocationAPI.dll
+api_name:
+-	ICivicAddressReport
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ICivicAddressReport interface

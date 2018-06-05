@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxgi.IDXGIFactory1.IsCurrent
+title: IDXGIFactory1::IsCurrent
+author: windows-sdk-content
+description: Informs an application of the possible need to re-enumerate adapters.
+old-location: direct3ddxgi\idxgifactory1_iscurrent.htm
+old-project: direct3ddxgi
+ms.assetid: e1337b20-85c2-48e1-9205-aa729c0d0edc
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IDXGIFactory1 interface [DXGI],IsCurrent method, IDXGIFactory1.IsCurrent, IDXGIFactory1::IsCurrent, IsCurrent, IsCurrent method [DXGI], IsCurrent method [DXGI],IDXGIFactory1 interface, a9f61d9d-ccf9-6f3c-a7a3-9545c2b59500, direct3ddxgi.idxgifactory1_iscurrent, dxgi/IDXGIFactory1::IsCurrent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_SWAP_EFFECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DXGI.lib
+-	DXGI.dll
+api_name:
+-	IDXGIFactory1.IsCurrent
+product: Windows
+targetos: Windows
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIFactory1::IsCurrent

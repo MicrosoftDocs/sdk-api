@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:oledlg.tagOLEUIVIEWPROPSW
+title: tagOLEUIVIEWPROPSW
+author: windows-sdk-content
+description: Contains information that is used to initialize the View tab of the Object properties dialog box.
+old-location: com\oleuiviewprops_struct.htm
+old-project: com
+ms.assetid: e45565c5-185e-4143-a5c2-d0b273b5086e
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPOLEUIVIEWPROPSW, *POLEUIVIEWPROPSW, LPOLEUIVIEWPROPS, LPOLEUIVIEWPROPS structure pointer [COM], OLEUIVIEWPROPS, OLEUIVIEWPROPS structure [COM], OLEUIVIEWPROPSA, OLEUIVIEWPROPSW, POLEUIVIEWPROPS, POLEUIVIEWPROPS structure pointer [COM], VPF_DISABLERELATIVE, VPF_DISABLESCALE, VPF_SELECTRELATIVE, _ole_OLEUIVIEWPROPS, com.oleuiviewprops_struct, oledlg/LPOLEUIVIEWPROPS, oledlg/OLEUIVIEWPROPS, oledlg/OLEUIVIEWPROPSA, oledlg/OLEUIVIEWPROPSW, oledlg/POLEUIVIEWPROPS, tagOLEUIVIEWPROPSW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: oledlg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: OLEUIVIEWPROPSW (Unicode) and OLEUIVIEWPROPSA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OLEUIVIEWPROPSW, *POLEUIVIEWPROPSW, *LPOLEUIVIEWPROPSW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	OleDlg.h
+api_name:
+-	OLEUIVIEWPROPS
+-	OLEUIVIEWPROPSA
+-	OLEUIVIEWPROPSW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagOLEUIVIEWPROPSW structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d10effect.ID3D10EffectVectorVariable.GetFloatVectorArray
+title: ID3D10EffectVectorVariable::GetFloatVectorArray
+author: windows-sdk-content
+description: Get an array of four-component vectors that contain floating-point data.
+old-location: direct3d10\id3d10effectvectorvariable_getfloatvectorarray.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_getfloatvectorarray.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 0c6374bb-9ea0-894f-8f00-4c6aa56619e1, GetFloatVectorArray, GetFloatVectorArray method [Direct3D 10], GetFloatVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, ID3D10EffectVectorVariable interface [Direct3D 10],GetFloatVectorArray method, ID3D10EffectVectorVariable.GetFloatVectorArray, ID3D10EffectVectorVariable::GetFloatVectorArray, d3d10effect/ID3D10EffectVectorVariable::GetFloatVectorArray, direct3d10.id3d10effectvectorvariable_getfloatvectorarray
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d10effect.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_DEVICE_STATE_TYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10Effect.h
+api_name:
+-	ID3D10EffectVectorVariable.GetFloatVectorArray
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D10EffectVectorVariable::GetFloatVectorArray

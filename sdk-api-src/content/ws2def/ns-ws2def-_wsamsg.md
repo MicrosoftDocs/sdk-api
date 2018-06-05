@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ws2def._WSAMSG
+title: "_WSAMSG"
+author: windows-sdk-content
+description: Used with the WSARecvMsg and WSASendMsg functions to store address and optional control information about connected and unconnected sockets as well as an array of buffers used to store message data.
+old-location: winsock\wsamsg_2.htm
+old-project: WinSock
+ms.assetid: 105a6e2c-1edf-4ec0-a1c2-ac0bcafeda30
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPWSAMSG, *PWSAMSG, LPWSAMSG, LPWSAMSG structure pointer [Winsock], MSG_BCAST, MSG_CTRUNC, MSG_MCAST, MSG_PEEK, MSG_TRUNC, PWSAMSG, PWSAMSG structure pointer [Winsock], WSAMSG, WSAMSG structure [Winsock], _WSAMSG, _win32_wsamsg_2, mswsock/LPWSAMSG, mswsock/PWSAMSG, mswsock/WSAMSG, winsock.wsamsg_2, ws2def/LPWSAMSG, ws2def/PWSAMSG, ws2def/WSAMSG"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ws2def.h
+req.include-header: Winsock2.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wrdsgraphicschannels.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSAMSG, *PWSAMSG, *LPWSAMSG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ws2def.h
+-	Mswsock.h
+api_name:
+-	WSAMSG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WSAMSG structure

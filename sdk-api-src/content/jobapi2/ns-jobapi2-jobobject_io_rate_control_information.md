@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:jobapi2.JOBOBJECT_IO_RATE_CONTROL_INFORMATION
+title: JOBOBJECT_IO_RATE_CONTROL_INFORMATION
+author: windows-sdk-content
+description: Contains information used to control the I/O rate for a job. This structure is used by the SetIoRateControlInformationJobObject and QueryIoRateControlInformationJobObject functions.
+old-location: base\jobobject_io_rate_control_information.htm
+old-project: ProcThread
+ms.assetid: E4AA03B5-4D83-4826-B85D-FA4B412AFEBF
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: JOBOBJECT_IO_RATE_CONTROL_INFORMATION, JOBOBJECT_IO_RATE_CONTROL_INFORMATION structure, JOB_OBJECT_IO_RATE_CONTROL_ENABLE, base.jobobject_io_rate_control_information, jobapi2/JOBOBJECT_IO_RATE_CONTROL_INFORMATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: jobapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: JOBOBJECT_IO_RATE_CONTROL_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	jobapi2.h
+api_name:
+-	JOBOBJECT_IO_RATE_CONTROL_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # JOBOBJECT_IO_RATE_CONTROL_INFORMATION structure

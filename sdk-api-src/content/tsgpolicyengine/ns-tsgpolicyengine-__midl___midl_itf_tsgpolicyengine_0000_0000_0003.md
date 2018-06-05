@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:tsgpolicyengine.__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003
+title: "__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003"
+author: windows-sdk-content
+description: This structure contains information about a connection event.
+old-location: termserv\aaaccountingdata.htm
+old-project: TermServ
+ms.assetid: 1c79f910-8dd9-47dc-80d1-f6252f0a43dd
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AAAccountingData, AAAccountingData structure [Remote Desktop Services], __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003, termserv.aaaccountingdata, tsgpolicyengine/AAAccountingData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tsgpolicyengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: TSGPolicyEngine.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AAAccountingData
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	TSGPolicyEngine.h
+api_name:
+-	AAAccountingData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003 structure

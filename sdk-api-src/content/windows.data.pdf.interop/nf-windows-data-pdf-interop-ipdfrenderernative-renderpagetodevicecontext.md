@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:windows.data.pdf.interop.IPdfRendererNative.RenderPageToDeviceContext
+title: IPdfRendererNative::pdf
+author: windows-sdk-content
+description: Outputs a single page of a Portable Document Format (PDF) file as a bitmap image.
+old-location: winrt\ipdfrenderernative_renderpagetodevicecontext.htm
+old-project: WinRT
+ms.assetid: 5ec97d21-3160-48e7-9486-a8ea9ca9df92
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: IPdfRendererNative interface [Windows Runtime],RenderPageToDeviceContext method, IPdfRendererNative.RenderPageToDeviceContext, IPdfRendererNative.pdf, IPdfRendererNative::RenderPageToDeviceContext, IPdfRendererNative::pdf, RenderPageToDeviceContext, RenderPageToDeviceContext method [Windows Runtime], RenderPageToDeviceContext method [Windows Runtime],IPdfRendererNative interface, windows/IPdfRendererNative::RenderPageToDeviceContext, winrt.ipdfrenderernative_renderpagetodevicecontext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: windows.data.pdf.interop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [UWP apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [UWP apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Windows.data.pdf.interop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windows.Data.Pdf.dll
+api_name:
+-	IPdfRendererNative.RenderPageToDeviceContext
+product: Windows
+targetos: Windows
+req.lib: Windows.data.pdf.lib
+req.dll: Windows.Data.Pdf.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IPdfRendererNative::pdf

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:evr.IMFVideoDisplayControl.GetNativeVideoSize
+title: IMFVideoDisplayControl::GetNativeVideoSize
+author: windows-sdk-content
+description: Gets the size and aspect ratio of the video, prior to any stretching by the video renderer.
+old-location: mf\imfvideodisplaycontrol_getnativevideosize.htm
+old-project: medfound
+ms.assetid: 12630035-dd07-44bd-98f7-79974c9cc58b
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 12630035-dd07-44bd-98f7-79974c9cc58b, GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetNativeVideoSize method, IMFVideoDisplayControl.GetNativeVideoSize, IMFVideoDisplayControl::GetNativeVideoSize, evr/IMFVideoDisplayControl::GetNativeVideoSize, mf.imfvideodisplaycontrol_getnativevideosize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: evr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoMixPrefs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	strmiids.lib
+-	strmiids.dll
+api_name:
+-	IMFVideoDisplayControl.GetNativeVideoSize
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IMFVideoDisplayControl::GetNativeVideoSize

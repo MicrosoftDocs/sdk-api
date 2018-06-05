@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bits.IBackgroundCopyCallback.JobModification
+title: IBackgroundCopyCallback::JobModification
+author: windows-sdk-content
+description: BITS calls your implementation of the JobModification method when the job has been modified.
+old-location: bits\ibackgroundcopycallback_jobmodification.htm
+old-project: Bits
+ms.assetid: 7614756d-92d1-4b71-a589-c0e39728a51c
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IBackgroundCopyCallback interface [BITS],JobModification method, IBackgroundCopyCallback.JobModification, IBackgroundCopyCallback::JobModification, JobModification, JobModification method [BITS], JobModification method [BITS],IBackgroundCopyCallback interface, _drz_ibackgroundcopycallback_jobmodification, bits.ibackgroundcopycallback_jobmodification, bits/IBackgroundCopyCallback::JobModification
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_PROXY_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Bits.h
+api_name:
+-	IBackgroundCopyCallback.JobModification
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBackgroundCopyCallback::JobModification

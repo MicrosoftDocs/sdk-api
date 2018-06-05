@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:atscpsipparser.ISCTE_EAS.GetNatureOfActivationText
+title: ISCTE_EAS::GetNatureOfActivationText
+author: windows-sdk-content
+description: The GetNatureOfActivationText method gets a textual representation of the alert for a specified ISO 639 language code.
+old-location: mstv\iscte_eas_getnatureofactivationtext.htm
+old-project: mstv
+ms.assetid: 36cb57f1-b894-4c41-b555-db15f8dbe516
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetNatureOfActivationText, GetNatureOfActivationText method [Microsoft TV Technologies], GetNatureOfActivationText method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetNatureOfActivationText method, ISCTE_EAS.GetNatureOfActivationText, ISCTE_EAS::GetNatureOfActivationText, ISCTE_EASGetNatureOfActivationText, atscpsipparser/ISCTE_EAS::GetNatureOfActivationText, mstv.iscte_eas_getnatureofactivationtext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: atscpsipparser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AsyncStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	atscpsipparser.h
+api_name:
+-	ISCTE_EAS.GetNatureOfActivationText
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ISCTE_EAS::GetNatureOfActivationText

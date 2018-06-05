@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:cfgmgr32.CS_Des_s
+title: CS_Des_s
+author: windows-sdk-content
+description: The CS_DES structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see Hardware Resources.
+old-location: devinst\cs_des.htm
+old-project: devinst
+ms.assetid: 16b47fe9-cb84-453d-b515-bfdba254f947
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PCS_DES, CS_DES, CS_DES structure [Device and Driver Installation], CS_Des_s, PCS_DES, PCS_DES structure pointer [Device and Driver Installation], cfgmgr32/CS_DES, cfgmgr32/PCS_DES, cfgmgrst_b22826b5-3488-4667-831a-24b848f2dd74.xml, devinst.cs_des"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CS_DES, *PCS_DES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	cfgmgr32.h
+api_name:
+-	CS_DES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CS_Des_s structure

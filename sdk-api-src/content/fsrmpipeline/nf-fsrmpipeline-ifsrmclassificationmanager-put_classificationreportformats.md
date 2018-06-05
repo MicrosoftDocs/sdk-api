@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmClassificationManager.put_ClassificationReportFormats
+title: IFsrmClassificationManager::put_ClassificationReportFormats
+author: windows-sdk-content
+description: The list of formats in which to generate the classification reports.
+old-location: fsrm\ifsrmclassificationmanager_classificationreportformats.htm
+old-project: Fsrm
+ms.assetid: a9402faa-06f9-4cfe-9a36-a2fc1a581824
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: ClassificationReportFormats property [File Server Resource Manager], ClassificationReportFormats property [File Server Resource Manager],FsrmClassificationManager class, ClassificationReportFormats property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationReportFormats property [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassificationReportFormats property, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationReportFormats property, IFsrmClassificationManager.ClassificationReportFormats, IFsrmClassificationManager.put_ClassificationReportFormats, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationReportFormats property, IFsrmClassificationManager2.ClassificationReportFormats, IFsrmClassificationManager2::get_ClassificationReportFormats, IFsrmClassificationManager2::put_ClassificationReportFormats, IFsrmClassificationManager::ClassificationReportFormats, IFsrmClassificationManager::get_ClassificationReportFormats, IFsrmClassificationManager::put_ClassificationReportFormats, fs.ifsrmclassificationmanager_classificationreportformats, fsrm.ifsrmclassificationmanager_classificationreportformats, fsrmpipeline/IFsrmClassificationManager2::ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager2::put_ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager::ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager::get_ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager::put_ClassificationReportFormats, put_ClassificationReportFormats
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: FsrmPipeline.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,29 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmClassificationManager.ClassificationReportFormats
+-	IFsrmClassificationManager.get_ClassificationReportFormats
+-	IFsrmClassificationManager.put_ClassificationReportFormats
+-	IFsrmClassificationManager2.ClassificationReportFormats
+-	IFsrmClassificationManager2.get_ClassificationReportFormats
+-	IFsrmClassificationManager2.put_ClassificationReportFormats
+-	FsrmClassificationManager.ClassificationReportFormats
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmClassificationManager::put_ClassificationReportFormats

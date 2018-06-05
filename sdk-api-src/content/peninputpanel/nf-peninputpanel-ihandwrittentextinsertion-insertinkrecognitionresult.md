@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:peninputpanel.IHandwrittenTextInsertion.InsertInkRecognitionResult
+title: IHandwrittenTextInsertion::InsertInkRecognitionResult
+author: windows-sdk-content
+description: Inserts recognition results.
+old-location: tablet\ihandwrittentextinsertion_insertinkrecognitionresult.htm
+old-project: tablet
+ms.assetid: d519aff4-573d-4b06-aef5-e9cc6a5e8102
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IHandWrittenTextInsertion interface [Tablet PC],InsertInkRecognitionResult method, IHandWrittenTextInsertion::InsertInkRecognitionResult, IHandwrittenTextInsertion.InsertInkRecognitionResult, IHandwrittenTextInsertion::InsertInkRecognitionResult, InsertInkRecognitionResult, InsertInkRecognitionResult method [Tablet PC], InsertInkRecognitionResult method [Tablet PC],IHandWrittenTextInsertion interface, d519aff4-573d-4b06-aef5-e9cc6a5e8102, peninputpanel/IHandWrittenTextInsertion::InsertInkRecognitionResult, tablet.ihandwrittentextinsertion_insertinkrecognitionresult
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: peninputpanel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EventMask
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tiptsf.dll
+api_name:
+-	IHandWrittenTextInsertion.InsertInkRecognitionResult
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IHandwrittenTextInsertion::InsertInkRecognitionResult

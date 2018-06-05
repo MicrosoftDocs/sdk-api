@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:directmanipulation.DIRECTMANIPULATION_GESTURE_CONFIGURATION
+title: DIRECTMANIPULATION_GESTURE_CONFIGURATION
+author: windows-sdk-content
+description: Defines the gestures that can be passed to SetManualGesture.
+old-location: directmanipulation\directmanipulation_gesture_configuration.htm
+old-project: directmanipulation
+ms.assetid: B8EE991B-6DBF-42DE-966F-FA5CB397562C
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: DIRECTMANIPULATION_GESTURE_CONFIGURATION, DIRECTMANIPULATION_GESTURE_CONFIGURATION enumeration [Direct Manipulation], DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_HORIZONTAL, DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_VERTICAL, DIRECTMANIPULATION_GESTURE_DEFAULT, DIRECTMANIPULATION_GESTURE_NONE, DIRECTMANIPULATION_GESTURE_PINCH_ZOOM, directmanipulation.directmanipulation_gesture_configuration, directmanipulation/DIRECTMANIPULATION_GESTURE_CONFIGURATION, directmanipulation/DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_HORIZONTAL, directmanipulation/DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_VERTICAL, directmanipulation/DIRECTMANIPULATION_GESTURE_DEFAULT, directmanipulation/DIRECTMANIPULATION_GESTURE_NONE, directmanipulation/DIRECTMANIPULATION_GESTURE_PINCH_ZOOM
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DirectManipulation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIRECTMANIPULATION_GESTURE_CONFIGURATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	directmanipulation.h
+api_name:
+-	DIRECTMANIPULATION_GESTURE_CONFIGURATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DIRECTMANIPULATION_GESTURE_CONFIGURATION enumeration

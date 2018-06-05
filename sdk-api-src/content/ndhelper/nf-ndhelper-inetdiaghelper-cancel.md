@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ndhelper.INetDiagHelper.Cancel
+title: INetDiagHelper::Cancel
+author: windows-sdk-content
+description: Cancels an ongoing diagnosis or repair.
+old-location: ndf\inetdiaghelpe_cancel.htm
+old-project: NDF
+ms.assetid: 0df79e75-f3a6-43fd-82a3-2798ac1d99cd
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: Cancel, Cancel method [NDF], Cancel method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],Cancel method, INetDiagHelper.Cancel, INetDiagHelper::Cancel, ndf.inetdiaghelpe_cancel, ndhelper/INetDiagHelper::Cancel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ndhelper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REPAIR_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ndhelper.h
+api_name:
+-	INetDiagHelper.Cancel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetDiagHelper::Cancel

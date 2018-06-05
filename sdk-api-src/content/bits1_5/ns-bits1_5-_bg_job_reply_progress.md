@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bits1_5._BG_JOB_REPLY_PROGRESS
+title: "_BG_JOB_REPLY_PROGRESS"
+author: windows-sdk-content
+description: The BG_JOB_REPLY_PROGRESS structure provides progress information related to the reply portion of an upload-reply job.
+old-location: bits\bg_job_reply_progress.htm
+old-project: Bits
+ms.assetid: ea78ee22-87b2-4859-bd49-dd309c8aa234
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BG_JOB_REPLY_PROGRESS, BG_JOB_REPLY_PROGRESS structure [BITS], _BG_JOB_REPLY_PROGRESS, _drz_bg_job_reply_progress, bits.bg_job_reply_progress, bits1_5/BG_JOB_REPLY_PROGRESS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bits1_5.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits1_5.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_REPLY_PROGRESS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bits1_5.h
+api_name:
+-	BG_JOB_REPLY_PROGRESS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BG_JOB_REPLY_PROGRESS structure

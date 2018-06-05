@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:combaseapi.tagCOWAIT_FLAGS
+title: tagCOWAIT_FLAGS
+author: windows-sdk-content
+description: Specifies the behavior of the CoWaitForMultipleHandles function.
+old-location: com\cowait_flags.htm
+old-project: com
+ms.assetid: e6f8300c-f74b-4383-8ee5-519a0ed0b358
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: COWAIT_ALERTABLE, COWAIT_DISPATCH_CALLS, COWAIT_DISPATCH_WINDOW_MESSAGES, COWAIT_FLAGS, COWAIT_FLAGS enumeration [COM], COWAIT_INPUTAVAILABLE, COWAIT_WAITALL, _com_COWAIT_FLAGS, com.cowait_flags, combaseapi/COWAIT_ALERTABLE, combaseapi/COWAIT_DISPATCH_CALLS, combaseapi/COWAIT_DISPATCH_WINDOW_MESSAGES, combaseapi/COWAIT_FLAGS, combaseapi/COWAIT_INPUTAVAILABLE, combaseapi/COWAIT_WAITALL, tagCOWAIT_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: combaseapi.h
+req.include-header: Objbase.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ComAdmin.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COWAIT_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	combaseapi.h
+api_name:
+-	COWAIT_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagCOWAIT_FLAGS enumeration

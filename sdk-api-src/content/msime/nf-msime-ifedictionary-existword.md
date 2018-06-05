@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:msime.IFEDictionary.ExistWord
+title: IFEDictionary::ExistWord
+author: windows-sdk-content
+description: Determines if the specified word exists in IFEDictionary.
+old-location: intl\ifedictionary_existword.htm
+old-project: Intl
+ms.assetid: 70BBC94A-97D6-4237-A0C9-F6861ED6C95D
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ExistWord, ExistWord method [Internationalization for Windows Applications], ExistWord method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],ExistWord method, IFEDictionary.ExistWord, IFEDictionary::ExistWord, intl.ifedictionary_existword, msime/IFEDictionary::ExistWord
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msime.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMEUCT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msime.h
+api_name:
+-	IFEDictionary.ExistWord
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFEDictionary::ExistWord

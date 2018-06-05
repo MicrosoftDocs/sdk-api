@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certbcli.CertSrvRestoreRegisterThroughFile
+title: CertSrvRestoreRegisterThroughFile function
+author: windows-sdk-content
+description: Registers a Certificate Services restore.
+old-location: security\certsrvrestoreregisterthroughfile.htm
+old-project: SecCrypto
+ms.assetid: 6b929983-9905-48c1-96f3-01d8b39878be
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CertSrvRestoreRegisterThroughFile, CertSrvRestoreRegisterThroughFile function [Security], certbcli/CertSrvRestoreRegisterThroughFile, security.certsrvrestoreregisterthroughfile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: certbcli.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Certadm.dll
+api_name:
+-	CertSrvRestoreRegisterThroughFile
+product: Windows
+targetos: Windows
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # CertSrvRestoreRegisterThroughFile function

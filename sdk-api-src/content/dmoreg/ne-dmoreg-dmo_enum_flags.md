@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dmoreg.DMO_ENUM_FLAGS
+title: DMO_ENUM_FLAGS
+author: windows-sdk-content
+description: The DMO_ENUM_FLAGS enumeration defines flags that specify search criteria when enumerating Microsoft DirectX Media Objects (DMOs).
+old-location: dshow\dmo_enum_flags.htm
+old-project: DirectShow
+ms.assetid: ef2be8d8-99d9-4200-8edb-284a5b216814
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DMO_ENUMF_INCLUDE_KEYED, DMO_ENUM_FLAGS, DMO_ENUM_FLAGS enumeration [DirectShow], DMO_ENUM_FLAGSEnumeration, dmoreg/DMO_ENUMF_INCLUDE_KEYED, dmoreg/DMO_ENUM_FLAGS, dshow.dmo_enum_flags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dmoreg.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dmoreg.h
+api_name:
+-	DMO_ENUM_FLAGS
+product: Windows
+targetos: Windows
+req.lib: Dmoguids.lib; Msdmo.lib
+req.dll: 
+req.irql: 
 ---
 
 # DMO_ENUM_FLAGS enumeration

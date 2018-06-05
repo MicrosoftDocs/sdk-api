@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:gamingdeviceinformation.GAMING_DEVICE_DEVICE_ID
+title: GAMING_DEVICE_DEVICE_ID
+author: windows-sdk-content
+description: Indicates the type of device that the game is running on.
+old-location: gamingdvcinfo\gaming_device_device_id.htm
+old-project: gamingdvcinfo
+ms.assetid: DA196767-940E-47CF-8444-4A2C37E3718B
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GAMING_DEVICE_DEVICE_ID, GAMING_DEVICE_DEVICE_ID enumeration, GAMING_DEVICE_DEVICE_ID_NONE, GAMING_DEVICE_DEVICE_ID_XBOX_ONE, GAMING_DEVICE_DEVICE_ID_XBOX_ONE_S, GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X, GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X_DEVKIT, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_NONE, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_XBOX_ONE, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_XBOX_ONE_S, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X_DEVKIT, gamingdvcinfo.gaming_device_device_id
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: gamingdeviceinformation.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GAMING_DEVICE_DEVICE_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	gamingdeviceinformation.h
+api_name:
+-	GAMING_DEVICE_DEVICE_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Fxsutility.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # GAMING_DEVICE_DEVICE_ID enumeration

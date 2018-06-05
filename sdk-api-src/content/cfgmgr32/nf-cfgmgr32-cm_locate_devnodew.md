@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:cfgmgr32.CM_Locate_DevNodeW
+title: CM_Locate_DevNodeW function
+author: windows-sdk-content
+description: The CM_Locate_DevNode function obtains a device instance handle to the device node that is associated with a specified device instance ID on the local machine.
+old-location: devinst\cm_locate_devnode.htm
+old-project: devinst
+ms.assetid: b0bb2510-44be-4598-96ea-9b8fdcc7f7c6
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: CM_Locate_DevNode, CM_Locate_DevNode function [Device and Driver Installation], CM_Locate_DevNodeA, CM_Locate_DevNodeW, cfgmgr32/CM_Locate_DevNode, cfgmgr32/CM_Locate_DevNodeA, cfgmgr32/CM_Locate_DevNodeW, cfgmgrfn_70e99ef3-9630-4088-8fcb-f6c7123f2cb5.xml, devinst.cm_locate_devnode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CM_Locate_DevNodeW (Unicode) and CM_Locate_DevNodeA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	CfgMgr32.dll
+-	API-MS-Win-Devices-Config-L1-1-0.dll
+-	API-MS-Win-Devices-Config-L1-1-1.dll
+api_name:
+-	CM_Locate_DevNode
+-	CM_Locate_DevNodeA
+-	CM_Locate_DevNodeW
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib
+req.dll: CfgMgr32.dll
+req.irql: 
 ---
 
 # CM_Locate_DevNodeW function

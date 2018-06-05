@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzApplication2.InitializeClientContextFromToken2
+title: IAzApplication2::InitializeClientContextFromToken2
+author: windows-sdk-content
+description: Retrieves an IAzClientContext2 object pointer from the specified client token.
+old-location: security\iazapplication2_initializeclientcontextfromtoken2.htm
+old-project: SecAuthZ
+ms.assetid: f77b5eb1-c121-4392-a317-7021059268ed
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IAzApplication2 interface [Security],InitializeClientContextFromToken2 method, IAzApplication2.InitializeClientContextFromToken2, IAzApplication2::InitializeClientContextFromToken2, InitializeClientContextFromToken2, InitializeClientContextFromToken2 method [Security], InitializeClientContextFromToken2 method [Security],IAzApplication2 interface, azroles/IAzApplication2::InitializeClientContextFromToken2, security.iazapplication2_initializeclientcontextfromtoken2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzApplication2.InitializeClientContextFromToken2
+product: Windows
+targetos: Windows
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzApplication2::InitializeClientContextFromToken2

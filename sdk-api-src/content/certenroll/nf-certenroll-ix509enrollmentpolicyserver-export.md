@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509EnrollmentPolicyServer.Export
+title: IX509EnrollmentPolicyServer::Export
+author: windows-sdk-content
+description: Exports templates and object identifiers associated with the certificate enrollment policy (CEP) server to a buffer.
+old-location: security\ix509enrollmentpolicyserver_export.htm
+old-project: SecCertEnroll
+ms.assetid: b821329b-2ec6-4f47-ba5f-2e1cd7ffb06f
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: Export, Export method [Security], Export method [Security],IX509EnrollmentPolicyServer interface, ExportOIDs, ExportTemplates, IX509EnrollmentPolicyServer interface [Security],Export method, IX509EnrollmentPolicyServer.Export, IX509EnrollmentPolicyServer::Export, certenroll/IX509EnrollmentPolicyServer::Export, security.ix509enrollmentpolicyserver_export
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certenroll.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.h
+api_name:
+-	IX509EnrollmentPolicyServer.Export
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IX509EnrollmentPolicyServer::Export

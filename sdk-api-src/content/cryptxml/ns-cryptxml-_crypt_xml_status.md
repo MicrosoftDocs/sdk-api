@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:cryptxml._CRYPT_XML_STATUS
+title: "_CRYPT_XML_STATUS"
+author: windows-sdk-content
+description: Returns information about the signature validation status, summary status information about a SignedInfo element, or summary status information about an array of Reference elements.
+old-location: security\crypt_xml_status.htm
+old-project: SecCrypto
+ms.assetid: 1d49429e-9c81-4bf0-92d8-4effe9795dc9
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_XML_STATUS, CRYPT_XML_STATUS, CRYPT_XML_STATUS structure [Security], CRYPT_XML_STATUS_DIGESTING, CRYPT_XML_STATUS_DIGEST_VALID, CRYPT_XML_STATUS_ERROR_DIGEST_INVALID, CRYPT_XML_STATUS_ERROR_KEYINFO_NOT_PARSED, CRYPT_XML_STATUS_ERROR_NOT_RESOLVED, CRYPT_XML_STATUS_ERROR_NOT_SUPPORTED_ALGORITHM, CRYPT_XML_STATUS_ERROR_NOT_SUPPORTED_TRANSFORM, CRYPT_XML_STATUS_ERROR_SIGNATURE_INVALID, CRYPT_XML_STATUS_INTERNAL_REFERENCE, CRYPT_XML_STATUS_KEY_AVAILABLE, CRYPT_XML_STATUS_OPENED_TO_ENCODE, CRYPT_XML_STATUS_SIGNATURE_VALID, PCRYPT_XML_STATUS, PCRYPT_XML_STATUS structure pointer [Security], _CRYPT_XML_STATUS, cryptxml/CRYPT_XML_STATUS, cryptxml/PCRYPT_XML_STATUS, security.crypt_xml_status"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cryptxml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_XML_STATUS, *PCRYPT_XML_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Cryptxml.h
+api_name:
+-	CRYPT_XML_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CRYPT_XML_STATUS structure

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winineti.GetUrlCacheConfigInfoW
+title: GetUrlCacheConfigInfoW function
+author: windows-sdk-content
+description: Retrieves information about cache configuration.
+old-location: wininet\geturlcacheconfiginfo.htm
+old-project: WinInet
+ms.assetid: 93a29a4f-57bf-497c-a7b1-3960935590f9
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CACHE_CONFIG_CONTENT_PATHS_FC, CACHE_CONFIG_CONTENT_USAGE_FC, CACHE_CONFIG_COOKIES_PATHS_FC, CACHE_CONFIG_DISK_CACHE_PATHS_FC, CACHE_CONFIG_FORCE_CLEANUP_FC, CACHE_CONFIG_HISTORY_PATHS_FC, CACHE_CONFIG_QUOTA_FC, CACHE_CONFIG_STICKY_CONTENT_USAGE_FC, CACHE_CONFIG_SYNC_MODE_FC, CACHE_CONFIG_USER_MODE_FC, GetUrlCacheConfigInfo, GetUrlCacheConfigInfo function [WinINet], GetUrlCacheConfigInfoA, GetUrlCacheConfigInfoW, wininet.geturlcacheconfiginfo, winineti/GetUrlCacheConfigInfo, winineti/GetUrlCacheConfigInfoA, winineti/GetUrlCacheConfigInfoW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winineti.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP4 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP4 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetUrlCacheConfigInfoW (Unicode) and GetUrlCacheConfigInfoA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INTERNET_AUTH_NOTIFY_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wininet.dll
+api_name:
+-	GetUrlCacheConfigInfo
+-	GetUrlCacheConfigInfoA
+-	GetUrlCacheConfigInfoW
+product: Windows
+targetos: Windows
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # GetUrlCacheConfigInfoW function

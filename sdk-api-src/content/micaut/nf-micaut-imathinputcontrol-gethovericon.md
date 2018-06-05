@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:micaut.IMathInputControl.GetHoverIcon
+title: IMathInputControl::GetHoverIcon
+author: windows-sdk-content
+description: Retrieves the icon to be used for the hover target to launch math input control.
+old-location: tablet\imathinputcontrol_gethovericon.htm
+old-project: tablet
+ms.assetid: 281695e6-295b-42d8-a184-c5a005de10e3
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: GetHoverIcon, GetHoverIcon method [Tablet PC], GetHoverIcon method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetHoverIcon method, IMathInputControl.GetHoverIcon, IMathInputControl::GetHoverIcon, micaut/IMathInputControl::GetHoverIcon, tablet.imathinputcontrol_gethovericon
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: micaut.h
+req.include-header: Micaut.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Micaut.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MICUIELEMENTSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	micaut.h
+api_name:
+-	IMathInputControl.GetHoverIcon
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMathInputControl::GetHoverIcon

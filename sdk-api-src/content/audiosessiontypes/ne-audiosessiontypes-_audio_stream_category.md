@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:audiosessiontypes._AUDIO_STREAM_CATEGORY
+title: "_AUDIO_STREAM_CATEGORY"
+author: windows-sdk-content
+description: Specifies the category of an audio stream.
+old-location: coreaudio\audio_stream_category.htm
+old-project: CoreAudio
+ms.assetid: B6B9195A-2704-4633-AFCF-B01CED6B6DB4
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: AUDIO_STREAM_CATEGORY, AUDIO_STREAM_CATEGORY enumeration [Core Audio], AudioCategory_Alerts, AudioCategory_BackgroundCapableMedia, AudioCategory_Communications, AudioCategory_ForegroundOnlyMedia, AudioCategory_GameChat, AudioCategory_GameEffects, AudioCategory_GameMedia, AudioCategory_Media, AudioCategory_Movie, AudioCategory_Other, AudioCategory_SoundEffects, AudioCategory_Speech, _AUDIO_STREAM_CATEGORY, audiosessiontypes/AUDIO_STREAM_CATEGORY, audiosessiontypes/AudioCategory_Alerts, audiosessiontypes/AudioCategory_BackgroundCapableMedia, audiosessiontypes/AudioCategory_Communications, audiosessiontypes/AudioCategory_ForegroundOnlyMedia, audiosessiontypes/AudioCategory_GameChat, audiosessiontypes/AudioCategory_GameEffects, audiosessiontypes/AudioCategory_GameMedia, audiosessiontypes/AudioCategory_Media, audiosessiontypes/AudioCategory_Movie, audiosessiontypes/AudioCategory_Other, audiosessiontypes/AudioCategory_SoundEffects, audiosessiontypes/AudioCategory_Speech, coreaudio.audio_stream_category
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: audiosessiontypes.h
+req.include-header: Audioclient.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUDIO_STREAM_CATEGORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	audiosessiontypes.h
+api_name:
+-	AUDIO_STREAM_CATEGORY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _AUDIO_STREAM_CATEGORY enumeration

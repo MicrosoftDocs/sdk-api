@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dmemmgr._DD_GETHEAPALIGNMENTDATA
+title: "_DD_GETHEAPALIGNMENTDATA"
+author: windows-sdk-content
+description: The DD_GETHEAPALIGNMENTDATA structure contains data on required alignments from a particular heap.
+old-location: display\dd_getheapalignmentdata.htm
+old-project: display
+ms.assetid: 5bdc13e3-396d-45f6-8c90-a831bbb23628
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_GETHEAPALIGNMENTDATA, DD_GETHEAPALIGNMENTDATA, DD_GETHEAPALIGNMENTDATA structure [Display Devices], PDD_GETHEAPALIGNMENTDATA, PDD_GETHEAPALIGNMENTDATA structure pointer [Display Devices], _DD_GETHEAPALIGNMENTDATA, ddstrcts_f3e28642-cebe-4512-9ef4-20cc707a4459.xml, display.dd_getheapalignmentdata, dmemmgr/DD_GETHEAPALIGNMENTDATA, dmemmgr/PDD_GETHEAPALIGNMENTDATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dmemmgr.h
+req.include-header: Dmemmgr.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DD_GETHEAPALIGNMENTDATA, *PDD_GETHEAPALIGNMENTDATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dmemmgr.h
+api_name:
+-	DD_GETHEAPALIGNMENTDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_GETHEAPALIGNMENTDATA structure

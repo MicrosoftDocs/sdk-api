@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:activationregistration.IExeServerActivatableClassRegistration
+title: IExeServerActivatableClassRegistration
+author: windows-sdk-content
+description: Enables getting the registration info for an out-of-process server.
+old-location: winrt\iexeserveractivatableclassregistration.htm
+old-project: WinRT
+ms.assetid: 1D8F7B12-2883-478D-B83D-84AC47D512E4
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: IExeServerActivatableClassRegistration, IExeServerActivatableClassRegistration interface [Windows Runtime], IExeServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IExeServerActivatableClassRegistration, winrt.iexeserveractivatableclassregistration
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: activationregistration.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ThreadingType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	activationregistration.h
+api_name:
+-	IExeServerActivatableClassRegistration
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IExeServerActivatableClassRegistration interface

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dmusics.IDirectMusicSynth.PlayBuffer
+title: IDirectMusicSynth::PlayBuffer
+author: windows-sdk-content
+description: The PlayBuffer method downloads a stream of MIDI messages to the synthesizer.
+old-location: audio\idirectmusicsynth_playbuffer.htm
+old-project: audio
+ms.assetid: 96d0a2ef-1265-4e04-bb70-920f4c82058c
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IDirectMusicSynth interface [Audio Devices],PlayBuffer method, IDirectMusicSynth.PlayBuffer, IDirectMusicSynth::PlayBuffer, PlayBuffer, PlayBuffer method [Audio Devices], PlayBuffer method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_playbuffer, audmp-routines_1a5efe25-ef92-4baf-a4bc-fc2d043c832f.xml, dmusics/IDirectMusicSynth::PlayBuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dmusics.h
+req.include-header: Dmusics.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dmusics.h
+api_name:
+-	IDirectMusicSynth.PlayBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectMusicSynth::PlayBuffer

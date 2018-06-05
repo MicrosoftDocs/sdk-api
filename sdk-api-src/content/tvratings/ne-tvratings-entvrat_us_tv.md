@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tvratings.EnTvRat_US_TV
+title: EnTvRat_US_TV
+author: windows-sdk-content
+description: This topic applies to Windows XP Service Pack 1 or later.
+old-location: mstv\entvrat_us_tv.htm
+old-project: mstv
+ms.assetid: a029bab6-b2e4-4141-9b0e-bd0e98071f53
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EnTvRat_US_TV, EnTvRat_US_TV enumeration [Microsoft TV Technologies], US_TV_14, US_TV_G, US_TV_MA, US_TV_None, US_TV_None7, US_TV_PG, US_TV_Y, US_TV_Y7, mstv.entvrat_us_tv, tvratings/EnTvRat_US_TV, tvratings/US_TV_14, tvratings/US_TV_G, tvratings/US_TV_MA, tvratings/US_TV_None, tvratings/US_TV_None7, tvratings/US_TV_PG, tvratings/US_TV_Y, tvratings/US_TV_Y7
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tvratings.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tuner.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EnTvRat_US_TV
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tvratings.h
+api_name:
+-	EnTvRat_US_TV
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # EnTvRat_US_TV enumeration

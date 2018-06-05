@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:routprot.PGET_EVENT_MESSAGE
+title: PGET_EVENT_MESSAGE
+author: windows-sdk-content
+description: The GetEventMessage function gets an entry from the routing protocol's message queue. The routing protocol uses the queue to inform the router manager of asynchronous events.
+old-location: rras\geteventmessage.htm
+old-project: RRAS
+ms.assetid: 59aa7bd8-3510-4ca0-90f1-2667dcb4abf0
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: GetEventMessage, GetEventMessage callback function [RAS], PGET_EVENT_MESSAGE, PGET_EVENT_MESSAGE callback, ROUTER_STOPPED, SAVE_GLOBAL_CONFIG_INFO, SAVE_INTERFACE_CONFIG_INFO, UPDATE_COMPLETE, _mpr_geteventmessage, routprot/GetEventMessage, rras.geteventmessage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: routprot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Routprot.h
+api_name:
+-	GetEventMessage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PGET_EVENT_MESSAGE callback function

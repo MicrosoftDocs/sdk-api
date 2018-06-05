@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:termmgr.__MIDL___MIDL_itf_termmgr_0000_0000_0001
+title: "__MIDL___MIDL_itf_termmgr_0000_0000_0001"
+author: windows-sdk-content
+description: The TMGR_DIRECTION enum is used by the pluggable terminal methods to indicate terminal direction.
+old-location: tapi3\tmgr_direction.htm
+old-project: Tapi
+ms.assetid: 1758efb7-55fc-4925-be56-7f43177db64f
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: TMGR_DIRECTION, TMGR_DIRECTION enumeration [TAPI 2.2], TMGR_TD_BOTH, TMGR_TD_CAPTURE, TMGR_TD_RENDER, __MIDL___MIDL_itf_termmgr_0000_0000_0001, _tapi3_tmgr_direction, tapi3.tmgr_direction, termmgr/TMGR_DIRECTION, termmgr/TMGR_TD_BOTH, termmgr/TMGR_TD_CAPTURE, termmgr/TMGR_TD_RENDER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: termmgr.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Termmgr.h
+api_name:
+-	TMGR_DIRECTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # __MIDL___MIDL_itf_termmgr_0000_0000_0001 enumeration

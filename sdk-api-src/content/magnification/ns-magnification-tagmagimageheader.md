@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:magnification.tagMAGIMAGEHEADER
+title: tagMAGIMAGEHEADER
+author: windows-sdk-content
+description: Describes an image format.
+old-location: magapi\magapi_magimageheader.htm
+old-project: magapi
+ms.assetid: VS|magapi|~\magapi\reference\structures\magimageheaderstruct.htm
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PMAGIMAGEHEADER, MAGIMAGEHEADER, MAGIMAGEHEADER structure [Magnification API], PMAGIMAGEHEADER, PMAGIMAGEHEADER structure pointer [Magnification API], magapi.magapi_magimageheader, magapi_magimageheader, magnification/MAGIMAGEHEADER, magnification/PMAGIMAGEHEADER, tagMAGIMAGEHEADER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: magnification.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MAGIMAGEHEADER, *PMAGIMAGEHEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Magnification.h
+api_name:
+-	MAGIMAGEHEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tagMAGIMAGEHEADER structure

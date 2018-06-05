@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.ICryptAttribute.get_Values
+title: ICryptAttribute::get_Values
+author: windows-sdk-content
+description: Retrieves an IX509Attributes object that contains a collection of attributes.
+old-location: security\icryptattribute_values_property.htm
+old-project: SecCertEnroll
+ms.assetid: ae439c12-65f4-4e2b-b141-6e6bf6738a68
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ICryptAttribute interface [Security],Values property, ICryptAttribute.Values, ICryptAttribute.get_Values, ICryptAttribute::Values, ICryptAttribute::get_Values, Values property [Security], Values property [Security],ICryptAttribute interface, certenroll/ICryptAttribute::Values, certenroll/ICryptAttribute::get_Values, get_Values, security.icryptattribute_values_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	ICryptAttribute.Values
+-	ICryptAttribute.get_Values
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # ICryptAttribute::get_Values

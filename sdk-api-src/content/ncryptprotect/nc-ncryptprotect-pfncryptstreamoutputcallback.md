@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:ncryptprotect.PFNCryptStreamOutputCallback
+title: PFNCryptStreamOutputCallback
+author: windows-sdk-content
+description: Receives encrypted or decrypted data from tasks started by using the NCryptStreamOpenToProtect or NCryptStreamOpenToUnprotect functions.
+old-location: security\pfncryptstreamoutputcallback.htm
+old-project: SecCNG
+ms.assetid: D07B2B63-306B-4C41-AA14-320EFEFFB939
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: PFNCryptStreamOutputCallback, PFNCryptStreamOutputCallback function, PFNCryptStreamOutputCallback function pointer [Security], ncryptprotect/PFNCryptStreamOutputCallback, security.pfncryptstreamoutputcallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ncryptprotect.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NCRYPT_UI_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	NCryptprotect.h
+api_name:
+-	PFNCryptStreamOutputCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PFNCryptStreamOutputCallback callback function

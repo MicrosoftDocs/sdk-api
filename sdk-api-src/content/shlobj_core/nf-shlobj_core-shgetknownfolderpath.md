@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlobj_core.SHGetKnownFolderPath
+title: SHGetKnownFolderPath function
+author: windows-sdk-content
+description: Retrieves the full path of a known folder identified by the folder's KNOWNFOLDERID.
+old-location: shell\SHGetKnownFolderPath.htm
+old-project: shell
+ms.assetid: 5434c744-484b-4c34-9a76-dddbcb81eb29
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHGetKnownFolderPath, SHGetKnownFolderPath function [Windows Shell], _shell_SHGetKnownFolderPath, shell.SHGetKnownFolderPath, shlobj_core/SHGetKnownFolderPath
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETELISTOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+-	API-MS-Win-shell-shellfolders-l1-1-0.dll
+-	KernelBase.dll
+-	Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+-	Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+-	Windows.Storage.dll
+api_name:
+-	SHGetKnownFolderPath
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 6.0.6000 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SHGetKnownFolderPath function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmreports.IFsrmFileManagementJob.put_FromDate
+title: IFsrmFileManagementJob::put_FromDate
+author: windows-sdk-content
+description: The date from which you want the file management job to begin expiring files (moving files to the expired files directory). This property also applies to custom commands for the file management job.
+old-location: fsrm\ifsrmfilemanagementjob_fromdate.htm
+old-project: Fsrm
+ms.assetid: f891679d-3d94-4fbe-99b1-9445666b7694
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FromDate property [File Server Resource Manager], FromDate property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],FromDate property, IFsrmFileManagementJob.FromDate, IFsrmFileManagementJob.put_FromDate, IFsrmFileManagementJob::FromDate, IFsrmFileManagementJob::get_FromDate, IFsrmFileManagementJob::put_FromDate, fs.ifsrmfilemanagementjob_fromdate, fsrm.ifsrmfilemanagementjob_fromdate, fsrmreports/IFsrmFileManagementJob::FromDate, fsrmreports/IFsrmFileManagementJob::get_FromDate, fsrmreports/IFsrmFileManagementJob::put_FromDate, put_FromDate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmreports.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileManagementJob.FromDate
+-	IFsrmFileManagementJob.get_FromDate
+-	IFsrmFileManagementJob.put_FromDate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileManagementJob::put_FromDate

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:wsmandisp.IWSManConnectionOptionsEx2
+title: IWSManConnectionOptionsEx2
+author: windows-sdk-content
+description: The IWSManConnectionOptionsEx2 object is passed to the IWSMan::CreateSession method to provide the authentication mechanism, access type, and credentials to connect to a proxy server.
+old-location: winrm\iwsmanconnectionoptionsex2.htm
+old-project: WinRM
+ms.assetid: 09159904-0160-411d-af54-f6aca94d4d7d
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IWSManConnectionOptionsEx2, IWSManConnectionOptionsEx2 interface [Windows Remote Management], IWSManConnectionOptionsEx2 interface [Windows Remote Management],described, winrm.iwsmanconnectionoptionsex2, wsmandisp/IWSManConnectionOptionsEx2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wsmandisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WSManDisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSManProxyAuthenticationFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WSManDisp.h
+api_name:
+-	IWSManConnectionOptionsEx2
+product: Windows
+targetos: Windows
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWSManConnectionOptionsEx2 interface

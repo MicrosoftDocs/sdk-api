@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dvdmedia.AM_DVDCOPY_SET_COPY_STATE
+title: AM_DVDCOPY_SET_COPY_STATE
+author: windows-sdk-content
+description: Specifies the copy protection state of the filter.
+old-location: dshow\am_dvdcopy_set_copy_state.htm
+old-project: DirectShow
+ms.assetid: 0ad15402-096c-4967-bebc-10652535e502
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PAM_DVDCOPY_SET_COPY_STATE, AM_DVDCOPY_SET_COPY_STATE, AM_DVDCOPY_SET_COPY_STATE structure [DirectShow], PAM_DVDCOPY_SET_COPY_STATE, PAM_DVDCOPY_SET_COPY_STATE structure pointer [DirectShow], dshow.am_dvdcopy_set_copy_state, dvdmedia/AM_DVDCOPY_SET_COPY_STATE, dvdmedia/PAM_DVDCOPY_SET_COPY_STATE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dvdmedia.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_DVDCOPY_SET_COPY_STATE, *PAM_DVDCOPY_SET_COPY_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dvdmedia.h
+api_name:
+-	AM_DVDCOPY_SET_COPY_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # AM_DVDCOPY_SET_COPY_STATE structure

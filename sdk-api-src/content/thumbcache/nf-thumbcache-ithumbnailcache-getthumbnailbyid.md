@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:thumbcache.IThumbnailCache.GetThumbnailByID
+title: IThumbnailCache::GetThumbnailByID
+author: windows-sdk-content
+description: Gets a thumbnail from the thumbnail cache, given its ID.
+old-location: shell\IThumbnailCache_GetThumbnailByID.htm
+old-project: shell
+ms.assetid: 3b5069e2-f20b-4c43-a9e7-334366980f5c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetThumbnailByID, GetThumbnailByID method [Windows Shell], GetThumbnailByID method [Windows Shell],IThumbnailCache interface, IThumbnailCache interface [Windows Shell],GetThumbnailByID method, IThumbnailCache.GetThumbnailByID, IThumbnailCache::GetThumbnailByID, WTS_CACHED, WTS_DEFAULT, WTS_LOWQUALITY, _shell__GetThumbnailByID, shell.IThumbnailCache_GetThumbnailByID, thumbcache/IThumbnailCache::GetThumbnailByID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: thumbcache.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Thumbcache.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Thumbcache.h
+api_name:
+-	IThumbnailCache.GetThumbnailByID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IThumbnailCache::GetThumbnailByID

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d9.IDirect3DDevice9.SetFVF
+title: IDirect3DDevice9::SetFVF
+author: windows-sdk-content
+description: Sets the current vertex stream declaration.
+old-location: direct3d9\idirect3ddevice9__setfvf.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setfvf.htm
+ms.author: windowssdkdev
+ms.date: 04/10/2018
+ms.keywords: 19b67e41-5ea9-7478-a24f-8698b2b106a5, IDirect3DDevice9 interface [Direct3D 9],SetFVF method, IDirect3DDevice9.SetFVF, IDirect3DDevice9::SetFVF, SetFVF, SetFVF method [Direct3D 9], SetFVF method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetFVF, direct3d9.idirect3ddevice9__setfvf
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d9.h
+req.include-header: D3D9.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D9.lib
+-	D3D9.dll
+api_name:
+-	IDirect3DDevice9.SetFVF
+product: Windows
+targetos: Windows
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 ---
 
 # IDirect3DDevice9::SetFVF

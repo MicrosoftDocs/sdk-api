@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wininet.FtpOpenFileW
+title: FtpOpenFileW function
+author: windows-sdk-content
+description: Initiates access to a remote file on an FTP server for reading or writing.
+old-location: wininet\ftpopenfile.htm
+old-project: WinInet
+ms.assetid: fb44d7bd-7868-4c53-aa4b-608d79c5bc7c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: FTP_TRANSFER_TYPE_ASCII, FTP_TRANSFER_TYPE_BINARY, FTP_TRANSFER_TYPE_UNKNOWN, FtpOpenFile, FtpOpenFile function [WinINet], FtpOpenFileA, FtpOpenFileW, INTERNET_FLAG_HYPERLINK, INTERNET_FLAG_NEED_FILE, INTERNET_FLAG_RELOAD, INTERNET_FLAG_RESYNCHRONIZE, INTERNET_FLAG_TRANSFER_ASCII, INTERNET_FLAG_TRANSFER_BINARY, _inet_ftpopenfile_function, wininet.ftpopenfile, wininet/FtpOpenFile, wininet/FtpOpenFileA, wininet/FtpOpenFileW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wininet.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: FtpOpenFileW (Unicode) and FtpOpenFileA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InternetCookieState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wininet.dll
+api_name:
+-	FtpOpenFile
+-	FtpOpenFileA
+-	FtpOpenFileW
+product: Windows
+targetos: Windows
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # FtpOpenFileW function

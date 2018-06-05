@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:processthreadsapi._PROCESS_INFORMATION
+title: "_PROCESS_INFORMATION"
+author: windows-sdk-content
+description: Contains information about a newly created process and its primary thread. It is used with the CreateProcess, CreateProcessAsUser, CreateProcessWithLogonW, or CreateProcessWithTokenW function.
+old-location: base\process_information_str.htm
+old-project: ProcThread
+ms.assetid: 78d84499-7e56-4ff7-a8cd-1cf1b275597a
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPPROCESS_INFORMATION, *PPROCESS_INFORMATION, LPPROCESS_INFORMATION, LPPROCESS_INFORMATION structure pointer, PROCESS_INFORMATION, PROCESS_INFORMATION structure, _PROCESS_INFORMATION, _win32_process_information_str, base.process_information_str, processthreadsapi/LPPROCESS_INFORMATION, processthreadsapi/PROCESS_INFORMATION, winbase/LPPROCESS_INFORMATION, winbase/PROCESS_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: processthreadsapi.h
+req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROCESS_INFORMATION, *PPROCESS_INFORMATION, *LPPROCESS_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinBase.h
+-	processthreadsapi.h
+api_name:
+-	PROCESS_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PROCESS_INFORMATION structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_GETVPORTOUTPUTFORMATDATA
+title: "_DD_GETVPORTOUTPUTFORMATDATA"
+author: windows-sdk-content
+description: The DD_GETVPORTOUTPUTFORMATDATA structure contains the information required for the driver to return all of the output formats that the video port extensions (VPE) object supports for a given input format.
+old-location: display\dd_getvportoutputformatdata.htm
+old-project: display
+ms.assetid: 3033a4e9-3f94-4702-9db8-098a358ab1c2
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_GETVPORTOUTPUTFORMATDATA, DD_GETVPORTOUTPUTFORMATDATA, DD_GETVPORTOUTPUTFORMATDATA structure [Display Devices], _DD_GETVPORTOUTPUTFORMATDATA, ddrawint/DD_GETVPORTOUTPUTFORMATDATA, ddstrcts_c8b41b3c-cb15-46d2-aa72-f59301276ffe.xml, display.dd_getvportoutputformatdata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_GETVPORTOUTPUTFORMATDATA, DD_GETVPORTOUTPUTFORMATDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_GETVPORTOUTPUTFORMATDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_GETVPORTOUTPUTFORMATDATA structure

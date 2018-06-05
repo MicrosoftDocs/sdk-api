@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dsclient._DOMAINDESC
+title: "_DOMAINDESC"
+author: windows-sdk-content
+description: Contains data about an element in a domain tree obtained with the IDsBrowseDomainTree::GetDomains method.
+old-location: ad\domaindesc.htm
+old-project: AD
+ms.assetid: c788d106-2cc7-4d67-8568-23e858c0075f
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDOMAINDESC, *PDOMAIN_DESC, DOMAINDESC, DOMAINDESC structure [Active Directory], DOMAIN_DESC, DOMAIN_DESC structure [Active Directory], LPDOMAINDESC, LPDOMAINDESC structure pointer [Active Directory], PDOMAIN_DESC, PDOMAIN_DESC structure pointer [Active Directory], _DOMAINDESC, _glines_domaindesc, ad.domaindesc, dsclient/DOMAINDESC, dsclient/LPDOMAINDESC, dsclient/PDOMAIN_DESC"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dsclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOMAIN_DESC, DOMAINDESC, *PDOMAIN_DESC, *LPDOMAINDESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dsclient.h
+api_name:
+-	DOMAIN_DESC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DOMAINDESC structure

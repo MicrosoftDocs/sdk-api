@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:accctrl._OBJECTS_AND_NAME_A
+title: "_OBJECTS_AND_NAME_A"
+author: windows-sdk-content
+description: Contains a string that identifies a trustee by name and additional strings that identify the object types of an object-specific access control entry (ACE).
+old-location: security\objects_and_name.htm
+old-project: SecAuthZ
+ms.assetid: ad91a302-f693-44e9-9655-ec4488ff78c4
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*POBJECTS_AND_NAME_A, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, OBJECTS_AND_NAME, OBJECTS_AND_NAME structure [Security], OBJECTS_AND_NAME_, OBJECTS_AND_NAME_A, OBJECTS_AND_NAME_W, POBJECTS_AND_NAME, POBJECTS_AND_NAME structure pointer [Security], _OBJECTS_AND_NAME_A, _win32_objects_and_name_str, accctrl/OBJECTS_AND_NAME, accctrl/OBJECTS_AND_NAME_A, accctrl/OBJECTS_AND_NAME_W, accctrl/POBJECTS_AND_NAME, security.objects_and_name"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: accctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: OBJECTS_AND_NAME_W (Unicode) and OBJECTS_AND_NAME_A (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OBJECTS_AND_NAME_A, *POBJECTS_AND_NAME_A
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AccCtrl.h
+api_name:
+-	OBJECTS_AND_NAME
+-	OBJECTS_AND_NAME_A
+-	OBJECTS_AND_NAME_W
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
 ---
 
 # _OBJECTS_AND_NAME_A structure

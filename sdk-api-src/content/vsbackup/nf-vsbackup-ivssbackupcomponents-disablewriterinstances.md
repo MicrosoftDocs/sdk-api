@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsbackup.IVssBackupComponents.DisableWriterInstances
+title: IVssBackupComponents::DisableWriterInstances
+author: windows-sdk-content
+description: The DisableWriterInstances method disables a specified writer instance or instances.
+old-location: base\ivssbackupcomponents_disablewriterinstances.htm
+old-project: VSS
+ms.assetid: 746fb12d-83d7-463d-848d-36e095832d1a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DisableWriterInstances, DisableWriterInstances method [VSS], DisableWriterInstances method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DisableWriterInstances method, IVssBackupComponents.DisableWriterInstances, IVssBackupComponents::DisableWriterInstances, _win32_ivssbackupcomponents_disablewriterinstances, base.ivssbackupcomponents_disablewriterinstances, vsbackup/IVssBackupComponents::DisableWriterInstances
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsbackup.h
+req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssBackupComponents.DisableWriterInstances
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssBackupComponents::DisableWriterInstances

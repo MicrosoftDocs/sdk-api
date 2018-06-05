@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:dxmini.PDX_BOBNEXTFIELD
+title: PDX_BOBNEXTFIELD
+author: windows-sdk-content
+description: The DxBobNextField callback function bobs the next field of interleaved data.
+old-location: display\dxbobnextfield.htm
+old-project: display
+ms.assetid: 5daafc0c-2a6d-45e2-8403-d54cb383b3b7
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DxBobNextField, DxBobNextField callback function [Display Devices], PDX_BOBNEXTFIELD, PDX_BOBNEXTFIELD callback, VideoMiniPort_DxApiFunctions_d95db457-005d-4eee-a110-19159f64008b.xml, display.dxbobnextfield, dxmini/DxBobNextField
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	dxmini.h
+api_name:
+-	DxBobNextField
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # PDX_BOBNEXTFIELD callback function

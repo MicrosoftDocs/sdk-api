@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfActiveLanguageProfileNotifySink.OnActivated
+title: ITfActiveLanguageProfileNotifySink::OnActivated
+author: windows-sdk-content
+description: ITfActiveLanguageProfileNotifySink::OnActivated method
+old-location: tsf\itfactivelanguageprofilenotifysink_onactivated.htm
+old-project: TSF
+ms.assetid: 89444189-254e-4a3c-9c8e-79c8b96aee34
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITfActiveLanguageProfileNotifySink interface [Text Services Framework],OnActivated method, ITfActiveLanguageProfileNotifySink.OnActivated, ITfActiveLanguageProfileNotifySink::OnActivated, OnActivated, OnActivated method [Text Services Framework], OnActivated method [Text Services Framework],ITfActiveLanguageProfileNotifySink interface, _tsf_itfactivelanguageprofilenotifysink_onactivated_ref, msctf/ITfActiveLanguageProfileNotifySink::OnActivated, tsf.itfactivelanguageprofilenotifysink_onactivated
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imekrcic.dll
+api_name:
+-	ITfActiveLanguageProfileNotifySink.OnActivated
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Imekrcic.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfActiveLanguageProfileNotifySink::OnActivated

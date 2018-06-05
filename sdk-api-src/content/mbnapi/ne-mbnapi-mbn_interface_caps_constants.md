@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mbnapi.MBN_INTERFACE_CAPS_CONSTANTS
+title: MBN_INTERFACE_CAPS_CONSTANTS
+author: windows-sdk-content
+description: The MBN_INTERFACE_CAPS_CONSTANTS enumerated type defines the maximum length of string values used by assorted elements of the MBN_INTERFACE_CAPS structure.
+old-location: mbn\mbn_interface_caps_constants.htm
+old-project: mbn
+ms.assetid: d5478721-7d7b-487e-b223-0240f3451aed
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: MBN_DEVICEID_LEN, MBN_FIRMWARE_LEN, MBN_INTERFACE_CAPS_CONSTANTS, MBN_INTERFACE_CAPS_CONSTANTS enumeration [Microsoft Broadband Networks], MBN_MANUFACTURER_LEN, MBN_MODEL_LEN, mbn.mbn_interface_caps_constants, mbnapi/MBN_DEVICEID_LEN, mbnapi/MBN_FIRMWARE_LEN, mbnapi/MBN_INTERFACE_CAPS_CONSTANTS, mbnapi/MBN_MANUFACTURER_LEN, mbnapi/MBN_MODEL_LEN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_INTERFACE_CAPS_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mbnapi.h
+api_name:
+-	MBN_INTERFACE_CAPS_CONSTANTS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MBN_INTERFACE_CAPS_CONSTANTS enumeration

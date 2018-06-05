@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntquery.LocateCatalogsW
+title: LocateCatalogsW function
+author: windows-sdk-content
+description: Finds the catalog that indexes a directory.
+old-location: indexsrv\locatecatalogs.htm
+old-project: IndexSrv
+ms.assetid: VS|indexsrv|~\html\ixrefint_4t6b.htm
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: LocateCatalogs, LocateCatalogs function [Indexing Service], LocateCatalogsA, LocateCatalogsW, _idxs_LocateCatalogs, indexsrv.locatecatalogs, ntquery/LocateCatalogs, ntquery/LocateCatalogsA, ntquery/LocateCatalogsW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntquery.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: LocateCatalogsW (Unicode) and LocateCatalogsA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MediaLabelInfo, *pMediaLabelInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntquery.dll
+api_name:
+-	LocateCatalogs
+-	LocateCatalogsA
+-	LocateCatalogsW
+product: Windows
+targetos: Windows
+req.lib: Ntquery.lib
+req.dll: Ntquery.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LocateCatalogsW function

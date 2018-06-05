@@ -1,31 +1,53 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:gpmgmt.IGPMCSECollection
+title: IGPMCSECollection
+author: windows-sdk-content
+description: The IGPMCSECollection interface contains methods that enable applications to query a collection of client-side extensions (CSEs) when you use the Group Policy Management Console (GPMC) interfaces.
+old-location: gpmc\igpmcsecollection.htm
+old-project: GPMC
+ms.assetid: e32c1c39-b817-4db6-ad76-b2e66b54d79d
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: GPMCSECollection, IGPMCSECollection, IGPMCSECollection interface [GPMC], IGPMCSECollection interface [GPMC],described, _win32_igpmcsecollection, gpmc.igpmcsecollection, gpmgmt/IGPMCSECollection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: gpmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Gpmgmt.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GPMStarterGPOType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Gpmgmt.dll
+api_name:
+-	IGPMCSECollection
+-	IGPMCSECollection.Count
+-	IGPMCSECollection.get_Count
+-	IGPMCSECollection.Item
+-	IGPMCSECollection.get_Item
+-	GPMCSECollection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IGPMCSECollection interface

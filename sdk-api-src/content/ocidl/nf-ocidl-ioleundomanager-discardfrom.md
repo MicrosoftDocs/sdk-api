@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ocidl.IOleUndoManager.DiscardFrom
+title: IOleUndoManager::DiscardFrom
+author: windows-sdk-content
+description: Instructs the undo manager to discard the specified undo unit and all undo units below it on the undo or redo stack.
+old-location: com\ioleundomanager_discardfrom.htm
+old-project: com
+ms.assetid: eb742d04-63cb-4505-bc91-8d87267a3a4a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DiscardFrom, DiscardFrom method [COM], DiscardFrom method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],DiscardFrom method, IOleUndoManager.DiscardFrom, IOleUndoManager::DiscardFrom, _ole_ioleundomanager_discardfrom, com.ioleundomanager_discardfrom, ocidl/IOleUndoManager::DiscardFrom
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ocidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OCIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIEWSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OCIdl.h
+api_name:
+-	IOleUndoManager.DiscardFrom
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleUndoManager::DiscardFrom

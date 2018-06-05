@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3ds.ITAMMediaFormat.put_MediaFormat
+title: ITAMMediaFormat::put_MediaFormat
+author: windows-sdk-content
+description: The put_MediaFormat method sets the media format.
+old-location: tapi3\itammediaformat_put_mediaformat.htm
+old-project: Tapi
+ms.assetid: 692df069-3016-46a2-9f33-4c709e85be1b
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITAMMediaFormat interface [TAPI 2.2],put_MediaFormat method, ITAMMediaFormat.put_MediaFormat, ITAMMediaFormat::put_MediaFormat, _tapi3_itammediaformat_put_mediaformat, put_MediaFormat, put_MediaFormat method [TAPI 2.2], put_MediaFormat method [TAPI 2.2],ITAMMediaFormat interface, tapi3.itammediaformat_put_mediaformat, tapi3ds/ITAMMediaFormat::put_MediaFormat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3ds.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AGENT_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAMMediaFormat.put_MediaFormat
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAMMediaFormat::put_MediaFormat

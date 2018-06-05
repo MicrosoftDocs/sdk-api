@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbio_adapter.WbioQueryEngineInterface
+title: WbioQueryEngineInterface function
+author: windows-sdk-content
+description: Retrieves a pointer to the WINBIO_ENGINE_INTERFACE structure for the engine adapter.
+old-location: secbiomet\wbioqueryengineinterface.htm
+old-project: SecBioMet
+ms.assetid: d98da825-ce27-41ec-8f82-6f44e4854018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
+ms.keywords: WbioQueryEngineInterface, WbioQueryEngineInterface function [Windows Biometric Framework API], secbiomet.wbioqueryengineinterface, winbio_adapter/WbioQueryEngineInterface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbio_adapter.h
+req.include-header: Winbio_adapter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winbio_adapter.h
+api_name:
+-	WbioQueryEngineInterface
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WbioQueryEngineInterface function

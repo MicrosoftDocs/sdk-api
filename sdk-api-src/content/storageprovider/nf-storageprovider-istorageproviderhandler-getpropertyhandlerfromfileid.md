@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:storageprovider.IStorageProviderHandler.GetPropertyHandlerFromFileId
+title: IStorageProviderHandler::GetPropertyHandlerFromFileId
+author: windows-sdk-content
+description: Gets an instance of IStorageProviderPropertyHandler associated with the provided file identifier.
+old-location: shell\istorageproviderhandler_getpropertyhandlerfromfileid.htm
+old-project: shell
+ms.assetid: 6EBC5567-E64E-47FC-A5A9-C482714401D8
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetPropertyHandlerFromFileId, GetPropertyHandlerFromFileId method [Windows Shell], GetPropertyHandlerFromFileId method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromFileId method, IStorageProviderHandler.GetPropertyHandlerFromFileId, IStorageProviderHandler::GetPropertyHandlerFromFileId, shell.istorageproviderhandler_getpropertyhandlerfromfileid, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromFileId
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: storageprovider.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPR50_SERVICE_CHARACTERISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	storageprovider.h
+api_name:
+-	IStorageProviderHandler.GetPropertyHandlerFromFileId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IStorageProviderHandler::GetPropertyHandlerFromFileId

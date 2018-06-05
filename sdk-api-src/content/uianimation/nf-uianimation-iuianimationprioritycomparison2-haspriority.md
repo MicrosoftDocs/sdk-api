@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uianimation.IUIAnimationPriorityComparison2.HasPriority
+title: IUIAnimationPriorityComparison2::HasPriority
+author: windows-sdk-content
+description: Determines the relative priority between a scheduled storyboard and a new storyboard.
+old-location: uianimation\iuianimationprioritycomparison2_haspriority.htm
+old-project: UIAnimation
+ms.assetid: A448144F-37B2-46E5-AA0D-604CE3FDEAA4
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: HasPriority, HasPriority method [Windows Animation], HasPriority method [Windows Animation],IUIAnimationPriorityComparison2 interface, IUIAnimationPriorityComparison2 interface [Windows Animation],HasPriority method, IUIAnimationPriorityComparison2.HasPriority, IUIAnimationPriorityComparison2::HasPriority, uianimation.iuianimationprioritycomparison2_haspriority, uianimation/IUIAnimationPriorityComparison2::HasPriority
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uianimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAnimation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAnimation.dll
+api_name:
+-	IUIAnimationPriorityComparison2.HasPriority
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAnimationPriorityComparison2::HasPriority

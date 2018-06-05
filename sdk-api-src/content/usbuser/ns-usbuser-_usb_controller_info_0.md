@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:usbuser._USB_CONTROLLER_INFO_0
+title: "_USB_CONTROLLER_INFO_0"
+author: windows-sdk-content
+description: The USB_CONTROLLER_INFO_0 structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve information about the USB host controller.
+old-location: buses\usb_controller_info_0.htm
+old-project: usbref
+ms.assetid: fcd88eb4-4fba-445a-b266-d89db8db1a55
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: "*PUSB_CONTROLLER_INFO_0, PUSB_CONTROLLER_INFO_0, PUSB_CONTROLLER_INFO_0 structure pointer [Buses], USB_CONTROLLER_INFO_0, USB_CONTROLLER_INFO_0 structure [Buses], _USB_CONTROLLER_INFO_0, buses.usb_controller_info_0, usbstrct_2a3ac867-422b-46cf-b529-d1a9dde27970.xml, usbuser/PUSB_CONTROLLER_INFO_0, usbuser/USB_CONTROLLER_INFO_0"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: usbuser.h
+req.include-header: Usbuser.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USB_CONTROLLER_INFO_0, *PUSB_CONTROLLER_INFO_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	usbuser.h
+api_name:
+-	USB_CONTROLLER_INFO_0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _USB_CONTROLLER_INFO_0 structure

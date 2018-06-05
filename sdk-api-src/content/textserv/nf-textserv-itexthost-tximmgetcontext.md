@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:textserv.ITextHost.TxImmGetContext
+title: ITextHost::TxImmGetContext
+author: windows-sdk-content
+description: Retrieves the Input Method Editor (IME) input context associated with the text services host. This method is used only in Asian-language versions of the operating system.
+old-location: controls\ITextHost_TxImmGetContext.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttximmgetcontext.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: ITextHost interface [Windows Controls],TxImmGetContext method, ITextHost.TxImmGetContext, ITextHost::TxImmGetContext, TxImmGetContext, TxImmGetContext method [Windows Controls], TxImmGetContext method [Windows Controls],ITextHost interface, _win32_ITextHost_TxImmGetContext, _win32_ITextHost_TxImmGetContext_cpp, controls.ITextHost_TxImmGetContext, controls._win32_ITextHost_TxImmGetContext, textserv/ITextHost::TxImmGetContext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: textserv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextHost.TxImmGetContext
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextHost::TxImmGetContext

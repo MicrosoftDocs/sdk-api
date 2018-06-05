@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbtsv.ITsSbSession.put_ProtocolType
+title: ITsSbSession::put_ProtocolType
+author: windows-sdk-content
+description: Retrieves or specifies the protocol type for the session.
+old-location: termserv\itssbsession_protocoltype.htm
+old-project: TermServ
+ms.assetid: ee4016c7-1cd4-456c-abec-e43d57866bc1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ITsSbSession interface [Remote Desktop Services],ProtocolType property, ITsSbSession.ProtocolType, ITsSbSession.put_ProtocolType, ITsSbSession::ProtocolType, ITsSbSession::get_ProtocolType, ITsSbSession::put_ProtocolType, ProtocolType property [Remote Desktop Services], ProtocolType property [Remote Desktop Services],ITsSbSession interface, put_ProtocolType, sbtsv/ITsSbSession::ProtocolType, sbtsv/ITsSbSession::get_ProtocolType, sbtsv/ITsSbSession::put_ProtocolType, termserv.itssbsession_protocoltype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbtsv.h
+req.include-header: Sbtsv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Sbtsv.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TS_SB_SORT_BY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbtsv.h
+api_name:
+-	ITsSbSession.ProtocolType
+-	ITsSbSession.get_ProtocolType
+-	ITsSbSession.put_ProtocolType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbSession::put_ProtocolType

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:naptypes.tagIsolationInfoEx
+title: tagIsolationInfoEx
+author: windows-sdk-content
+description: Defines the extended isolation status of the machine or the connection.
+old-location: nap\isolationinfoex.htm
+old-project: NAP
+ms.assetid: 7b361429-015f-4ecc-8569-3075b5b7b85d
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IsolationInfoEx, IsolationInfoEx structure [NAP], nap.isolationinfoex, naptypes/IsolationInfoEx, tagIsolationInfoEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: naptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: NapTypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IsolationInfoEx
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	NapTypes.h
+api_name:
+-	IsolationInfoEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagIsolationInfoEx structure

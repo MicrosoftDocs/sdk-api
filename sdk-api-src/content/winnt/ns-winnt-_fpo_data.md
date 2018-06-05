@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winnt._FPO_DATA
+title: "_FPO_DATA"
+author: windows-sdk-content
+description: Represents the stack frame layout for a function on an x86 computer when frame pointer omission (FPO) optimization is used. The structure is used to locate the base of the call frame.
+old-location: base\fpo_data_str.htm
+old-project: Debug
+ms.assetid: 916dc7d5-ed88-4573-b696-fd00bbf4e086
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PFPO_DATA, FPO_DATA, FPO_DATA structure, FRAME_FPO, FRAME_NONFPO, FRAME_TRAP, FRAME_TSS, PFPO_DATA, PFPO_DATA structure pointer, _FPO_DATA, _win32_fpo_data_str, base.fpo_data_str, winnt/FPO_DATA, winnt/PFPO_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FPO_DATA, *PFPO_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	FPO_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _FPO_DATA structure

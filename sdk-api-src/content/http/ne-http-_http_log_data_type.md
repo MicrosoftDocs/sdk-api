@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:http._HTTP_LOG_DATA_TYPE
+title: "_HTTP_LOG_DATA_TYPE"
+author: windows-sdk-content
+description: Identifies the type of log data.
+old-location: http\http_log_data_type.htm
+old-project: Http
+ms.assetid: 8c53a3e6-5001-4e72-bff4-a6eab007aa9c
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_LOG_DATA_TYPE, *PHTTP_LOG_DATA_TYPE enumeration [HTTP], HTTP_LOG_DATA_TYPE, HTTP_LOG_DATA_TYPE enumeration [HTTP], HttpLogDataTypeFields, _HTTP_LOG_DATA_TYPE, http.http_log_data_type, http/*PHTTP_LOG_DATA_TYPE, http/HTTP_LOG_DATA_TYPE, http/HttpLogDataTypeFields"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_LOG_DATA_TYPE, *PHTTP_LOG_DATA_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_LOG_DATA_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_LOG_DATA_TYPE enumeration

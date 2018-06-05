@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:slpublic.SLGetPolicyInformationDWORD
+title: SLGetPolicyInformationDWORD function
+author: windows-sdk-content
+description: Gets the policy information after right has been consumed successfully.
+old-location: security\slgetpolicyinformationdword.htm
+old-project: SecSLApi
+ms.assetid: 273e843d-94eb-405d-b7fa-43d49783282f
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: SLGetPolicyInformationDWORD, SLGetPolicyInformationDWORD function [Security], security.slgetpolicyinformationdword, slpublic/SLGetPolicyInformationDWORD
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: slpublic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SL_ACTIVATION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Slc.dll
+api_name:
+-	SLGetPolicyInformationDWORD
+product: Windows
+targetos: Windows
+req.lib: Slc.lib
+req.dll: Slc.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLGetPolicyInformationDWORD function

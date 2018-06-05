@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netfw.INetFwRule3.put_LocalAppPackageId
+title: INetFwRule3::put_LocalAppPackageId
+author: windows-sdk-content
+description: Specifies the package identifier or the app container identifier of a process, whether from a Windows Store app or a desktop app.
+old-location: ics\inetfwrule3_localapppackageid.htm
+old-project: ICS
+ms.assetid: 8c1bccc6-3c8d-401c-8e9f-e88a4a60e3f4
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: INetFwRule3 interface [ICS/ICF],LocalAppPackageId property, INetFwRule3.LocalAppPackageId, INetFwRule3.put_LocalAppPackageId, INetFwRule3::LocalAppPackageId, INetFwRule3::get_LocalAppPackageId, INetFwRule3::put_LocalAppPackageId, LocalAppPackageId property [ICS/ICF], LocalAppPackageId property [ICS/ICF],INetFwRule3 interface, ics.inetfwrule3_localapppackageid, netfw/INetFwRule3::LocalAppPackageId, netfw/INetFwRule3::get_LocalAppPackageId, netfw/INetFwRule3::put_LocalAppPackageId, put_LocalAppPackageId
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETISO_ERROR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FirewallAPI.dll
+api_name:
+-	INetFwRule3.LocalAppPackageId
+-	INetFwRule3.get_LocalAppPackageId
+-	INetFwRule3.put_LocalAppPackageId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetFwRule3::put_LocalAppPackageId

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imapi2fs.IIsoImageManager.get_Path
+title: IIsoImageManager::get_Path
+author: windows-sdk-content
+description: Retrives the logical path to an .iso image.
+old-location: imapi\iisoimagemanager_get_path.htm
+old-project: imapi
+ms.assetid: 56166789-8eeb-4468-a85e-b35e665170d6
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IIsoImageManager interface [IMAPI],get_Path method, IIsoImageManager.get_Path, IIsoImageManager::get_Path, get_Path, get_Path method [IMAPI], get_Path method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_get_path, imapi2fs/IIsoImageManager::get_Path
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imapi2fs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PlatformId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2fs.h
+api_name:
+-	IIsoImageManager.get_Path
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IIsoImageManager::get_Path

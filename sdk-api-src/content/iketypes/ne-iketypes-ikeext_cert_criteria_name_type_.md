@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iketypes.IKEEXT_CERT_CRITERIA_NAME_TYPE_
+title: IKEEXT_CERT_CRITERIA_NAME_TYPE_
+author: windows-sdk-content
+description: Specifies the type of NAME fields possible for a certificate selection &#0034;subject&#0034; criteria.
+old-location: fwp\ikeext_cert_criteria_name_type.htm
+old-project: FWP
+ms.assetid: ec59d6b2-3bfc-4e5b-9222-609d3141db5c
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IKEEXT_CERT_CRITERIA_CN, IKEEXT_CERT_CRITERIA_DC, IKEEXT_CERT_CRITERIA_DNS, IKEEXT_CERT_CRITERIA_NAME_TYPE, IKEEXT_CERT_CRITERIA_NAME_TYPE enumeration [Filtering], IKEEXT_CERT_CRITERIA_NAME_TYPE_, IKEEXT_CERT_CRITERIA_NAME_TYPE_MAX, IKEEXT_CERT_CRITERIA_O, IKEEXT_CERT_CRITERIA_OU, IKEEXT_CERT_CRITERIA_RFC822, IKEEXT_CERT_CRITERIA_UPN, fwp.ikeext_cert_criteria_name_type, iketypes/IKEEXT_CERT_CRITERIA_CN, iketypes/IKEEXT_CERT_CRITERIA_DC, iketypes/IKEEXT_CERT_CRITERIA_DNS, iketypes/IKEEXT_CERT_CRITERIA_NAME_TYPE, iketypes/IKEEXT_CERT_CRITERIA_NAME_TYPE_MAX, iketypes/IKEEXT_CERT_CRITERIA_O, iketypes/IKEEXT_CERT_CRITERIA_OU, iketypes/IKEEXT_CERT_CRITERIA_RFC822, iketypes/IKEEXT_CERT_CRITERIA_UPN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iketypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Iketypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IKEEXT_CERT_CRITERIA_NAME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	iketypes.h
+api_name:
+-	IKEEXT_CERT_CRITERIA_NAME_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IKEEXT_CERT_CRITERIA_NAME_TYPE_ enumeration

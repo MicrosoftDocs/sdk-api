@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:exdisp.IWebBrowser2
+title: IWebBrowser2
+author: windows-sdk-content
+description: Exposes methods that are implemented by the WebBrowser control (Microsoft ActiveX control) or implemented by an instance of the InternetExplorer application (OLE Automation).
+old-location: winprog\iwebbrowser2.htm
+old-project: DevNotes
+ms.assetid: AFED694C-8D7B-4539-9A1A-B2DA546F3A07
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IWebBrowser2, IWebBrowser2 interface [Windows API], IWebBrowser2 interface [Windows API],described, exdisp/IWebBrowser2, winprog.iwebbrowser2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: exdisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ShellWindowTypeConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shdocvw.dll
+-	Shdocvw.dll.dll
+api_name:
+-	IWebBrowser2
+product: Windows
+targetos: Windows
+req.lib: Shdocvw.dll
+req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IWebBrowser2 interface

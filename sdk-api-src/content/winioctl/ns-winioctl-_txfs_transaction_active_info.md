@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._TXFS_TRANSACTION_ACTIVE_INFO
+title: "_TXFS_TRANSACTION_ACTIVE_INFO"
+author: windows-sdk-content
+description: Contains the flag that indicates whether transactions were active or not when a snapshot was taken.
+old-location: fs\txfs_transaction_active_info.htm
+old-project: FileIO
+ms.assetid: 72ab7652-7841-4195-a109-1caf65b629f1
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PTXFS_TRANSACTION_ACTIVE_INFO, PTXFS_TRANSACTION_ACTIVE_INFO, PTXFS_TRANSACTION_ACTIVE_INFO structure pointer [Files], TXFS_TRANSACTION_ACTIVE_INFO, TXFS_TRANSACTION_ACTIVE_INFO structure [Files], _TXFS_TRANSACTION_ACTIVE_INFO, fs.txfs_transaction_active_info, winioctl/PTXFS_TRANSACTION_ACTIVE_INFO, winioctl/TXFS_TRANSACTION_ACTIVE_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TXFS_TRANSACTION_ACTIVE_INFO, *PTXFS_TRANSACTION_ACTIVE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	TXFS_TRANSACTION_ACTIVE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _TXFS_TRANSACTION_ACTIVE_INFO structure

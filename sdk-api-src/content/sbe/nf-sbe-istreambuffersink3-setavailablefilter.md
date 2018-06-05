@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbe.IStreamBufferSink3.SetAvailableFilter
+title: IStreamBufferSink3::SetAvailableFilter
+author: windows-sdk-content
+description: The SetAvailableFilter method limits how far the Stream Buffer Source filter can seek backward, relative to the current recording position.
+old-location: mstv\istreambuffersink3_setavailablefilter.htm
+old-project: mstv
+ms.assetid: 81822768-f627-4324-815f-51d06b4bd7b3
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IStreamBufferSink3 interface [Microsoft TV Technologies],SetAvailableFilter method, IStreamBufferSink3.SetAvailableFilter, IStreamBufferSink3::SetAvailableFilter, IStreamBufferSink3SetAvailableFilter, SetAvailableFilter, SetAvailableFilter method [Microsoft TV Technologies], SetAvailableFilter method [Microsoft TV Technologies],IStreamBufferSink3 interface, mstv.istreambuffersink3_setavailablefilter, sbe/IStreamBufferSink3::SetAvailableFilter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAMBUFFER_ATTR_DATATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Sbe.h
+api_name:
+-	IStreamBufferSink3.SetAvailableFilter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IStreamBufferSink3::SetAvailableFilter

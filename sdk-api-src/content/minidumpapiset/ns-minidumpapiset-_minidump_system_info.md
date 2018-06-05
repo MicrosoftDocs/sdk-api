@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:minidumpapiset._MINIDUMP_SYSTEM_INFO
+title: "_MINIDUMP_SYSTEM_INFO"
+author: windows-sdk-content
+description: Contains processor and operating system information.
+old-location: base\minidump_system_info_str.htm
+old-project: Debug
+ms.assetid: 1d4e2a78-2184-4846-b51d-441bf1133ec0
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PMINIDUMP_SYSTEM_INFO, MINIDUMP_SYSTEM_INFO, MINIDUMP_SYSTEM_INFO structure, PMINIDUMP_SYSTEM_INFO, PMINIDUMP_SYSTEM_INFO structure pointer, PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_ARM, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, PROCESSOR_ARCHITECTURE_UNKNOWN, VER_NT_DOMAIN_CONTROLLER, VER_NT_SERVER, VER_NT_WORKSTATION, VER_PLATFORM_WIN32_NT, VER_PLATFORM_WIN32_WINDOWS, VER_PLATFORM_WIN32s, VER_SUITE_BACKOFFICE, VER_SUITE_BLADE, VER_SUITE_COMPUTE_SERVER, VER_SUITE_DATACENTER, VER_SUITE_EMBEDDEDNT, VER_SUITE_ENTERPRISE, VER_SUITE_PERSONAL, VER_SUITE_SINGLEUSERTS, VER_SUITE_SMALLBUSINESS, VER_SUITE_SMALLBUSINESS_RESTRICTED, VER_SUITE_STORAGE_SERVER, VER_SUITE_TERMINAL, _MINIDUMP_SYSTEM_INFO, _win32_minidump_system_info_str, base.minidump_system_info_str, minidumpapiset/MINIDUMP_SYSTEM_INFO, minidumpapiset/PMINIDUMP_SYSTEM_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: minidumpapiset.h
+req.include-header: DbgHelp.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MINIDUMP_SYSTEM_INFO, *PMINIDUMP_SYSTEM_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	minidumpapiset.h
+api_name:
+-	MINIDUMP_SYSTEM_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MINIDUMP_SYSTEM_INFO structure

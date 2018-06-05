@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:dxmini.PDX_ENABLEIRQ
+title: PDX_ENABLEIRQ
+author: windows-sdk-content
+description: The DxEnableIRQ callback function indicates to the video miniport driver which IRQs should be enabled or disabled.
+old-location: display\dxenableirq.htm
+old-project: display
+ms.assetid: 31762a21-e604-4c95-b46c-224b39ab5ac8
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DxEnableIRQ, DxEnableIRQ callback function [Display Devices], PDX_ENABLEIRQ, PDX_ENABLEIRQ callback, VideoMiniPort_DxApiFunctions_9ef73159-8915-4534-881d-3dcdb9c13369.xml, display.dxenableirq, dxmini/DxEnableIRQ
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	dxmini.h
+api_name:
+-	DxEnableIRQ
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # PDX_ENABLEIRQ callback function

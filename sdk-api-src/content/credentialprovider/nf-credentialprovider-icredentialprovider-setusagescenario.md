@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:credentialprovider.ICredentialProvider.SetUsageScenario
+title: ICredentialProvider::SetUsageScenario
+author: windows-sdk-content
+description: Defines the scenarios for which the credential provider is valid. Called whenever the credential provider is initialized.
+old-location: shell\ICredentialProvider_SetUsageScenario.htm
+old-project: shell
+ms.assetid: 62577b41-e115-45df-9f9b-c5c282365a3e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CREDUIWIN_AUTHPACKAGE_ONLY, CREDUIWIN_CHECKBOX, CREDUIWIN_ENUMERATE_ADMINS, CREDUIWIN_ENUMERATE_CURRENT_USER, CREDUIWIN_GENERIC, CREDUIWIN_IN_CRED_ONLY, CREDUIWIN_PACK_32_WOW, CREDUIWIN_SECURE_PROMPT, ICredentialProvider interface [Windows Shell],SetUsageScenario method, ICredentialProvider.SetUsageScenario, ICredentialProvider::SetUsageScenario, SetUsageScenario, SetUsageScenario method [Windows Shell], SetUsageScenario method [Windows Shell],ICredentialProvider interface, credentialprovider/ICredentialProvider::SetUsageScenario, shell.ICredentialProvider_SetUsageScenario, shell_ICredentialProvider_SetUsageScenario
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: credentialprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Credentialprovider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Credentialprovider.h
+api_name:
+-	ICredentialProvider.SetUsageScenario
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICredentialProvider::SetUsageScenario

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winuser.tagMENUITEMINFOA
+title: tagMENUITEMINFOA
+author: windows-sdk-content
+description: Contains information about a menu item.
+old-location: menurc\menuiteminfo.htm
+old-project: menurc
+ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuiteminfo.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPMENUITEMINFOA, HBMMENU_CALLBACK, HBMMENU_MBAR_CLOSE, HBMMENU_MBAR_CLOSE_D, HBMMENU_MBAR_MINIMIZE, HBMMENU_MBAR_MINIMIZE_D, HBMMENU_MBAR_RESTORE, HBMMENU_POPUP_CLOSE, HBMMENU_POPUP_MAXIMIZE, HBMMENU_POPUP_MINIMIZE, HBMMENU_POPUP_RESTORE, HBMMENU_SYSTEM, LPMENUITEMINFO, LPMENUITEMINFO structure pointer [Menus and Other Resources], MENUITEMINFO, MENUITEMINFO structure [Menus and Other Resources], MENUITEMINFOA, MENUITEMINFOW, MFS_CHECKED, MFS_DEFAULT, MFS_DISABLED, MFS_ENABLED, MFS_GRAYED, MFS_HILITE, MFS_UNCHECKED, MFS_UNHILITE, MFT_BITMAP, MFT_MENUBARBREAK, MFT_MENUBREAK, MFT_OWNERDRAW, MFT_RADIOCHECK, MFT_RIGHTJUSTIFY, MFT_RIGHTORDER, MFT_SEPARATOR, MFT_STRING, MIIM_BITMAP, MIIM_CHECKMARKS, MIIM_DATA, MIIM_FTYPE, MIIM_ID, MIIM_STATE, MIIM_STRING, MIIM_SUBMENU, MIIM_TYPE, _win32_MENUITEMINFO_str, _win32_menuiteminfo_str_cpp, menurc.menuiteminfo, tagMENUITEMINFOA, winui._win32_menuiteminfo_str, winuser/LPMENUITEMINFO, winuser/MENUITEMINFO, winuser/MENUITEMINFOA, winuser/MENUITEMINFOW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: MENUITEMINFOW (Unicode) and MENUITEMINFOA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MENUITEMINFOA, *LPMENUITEMINFOA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winuser.h
+api_name:
+-	MENUITEMINFO
+-	MENUITEMINFOA
+-	MENUITEMINFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagMENUITEMINFOA structure

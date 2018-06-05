@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:photoacquire.IPhotoAcquireOptionsDialog.Initialize
+title: IPhotoAcquireOptionsDialog::Initialize
+author: windows-sdk-content
+description: Initializes the options dialog box and reads any saved options from the registry.
+old-location: picacq\iphotoacquireoptionsdialog_initialize.htm
+old-project: acquisition
+ms.assetid: 6e3c7876-28a6-4d5f-afca-7c0421df8c02
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IPhotoAcquireOptionsDialog interface [Picture Acquisition],Initialize method, IPhotoAcquireOptionsDialog.Initialize, IPhotoAcquireOptionsDialog::Initialize, IPhotoAcquireOptionsDialogInitialize, Initialize, Initialize method [Picture Acquisition], Initialize method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, photoacquire/IPhotoAcquireOptionsDialog::Initialize, picacq.iphotoacquireoptionsdialog_initialize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: photoacquire.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_INPUT_STRING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PhotoAcquireUID.lib
+-	PhotoAcquireUID.dll
+api_name:
+-	IPhotoAcquireOptionsDialog.Initialize
+product: Windows
+targetos: Windows
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPhotoAcquireOptionsDialog::Initialize

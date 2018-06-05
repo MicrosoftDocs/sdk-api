@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winhttp.__unnamed_struct_4
+title: WINHTTP_AUTOPROXY_OPTIONS
+author: windows-sdk-content
+description: The WINHTTP_AUTOPROXY_OPTIONS structure is used to indicate to the WinHttpGetProxyForURL function whether to specify the URL of the Proxy Auto-Configuration (PAC) file or to automatically locate the URL with DHCP or DNS queries to the network.
+old-location: http\winhttp_autoproxy_options.htm
+old-project: WinHttp
+ms.assetid: bc08e800-d58f-46d7-ba04-83a9f9144b0f
+ms.author: windowssdkdev
+ms.date: 03/08/2018
+ms.keywords: WINHTTP_AUTOPROXY_AUTO_DETECT, WINHTTP_AUTOPROXY_CONFIG_URL, WINHTTP_AUTOPROXY_NO_CACHE_CLIENT, WINHTTP_AUTOPROXY_NO_CACHE_SVC, WINHTTP_AUTOPROXY_NO_DIRECTACCESS, WINHTTP_AUTOPROXY_OPTIONS, WINHTTP_AUTOPROXY_OPTIONS structure [HTTP], WINHTTP_AUTOPROXY_RUN_INPROCESS, WINHTTP_AUTOPROXY_RUN_OUTPROCESS_ONLY, WINHTTP_AUTOPROXY_SORT_RESULTS, WINHTTP_AUTO_DETECT_TYPE_DHCP, WINHTTP_AUTO_DETECT_TYPE_DNS_A, http.winhttp_autoproxy_options, winhttp/WINHTTP_AUTOPROXY_OPTIONS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winhttp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINHTTP_AUTOPROXY_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winhttp.h
+api_name:
+-	WINHTTP_AUTOPROXY_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WINHTTP_AUTOPROXY_OPTIONS structure

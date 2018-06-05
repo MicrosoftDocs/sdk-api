@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:commctrl.TabCtrl_HighlightItem
+title: TabCtrl_HighlightItem macro
+author: windows-sdk-content
+description: Sets the highlight state of a tab item. You can use this macro or send the TCM_HIGHLIGHTITEM message explicitly.
+old-location: controls\TabCtrl_HighlightItem.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_highlightitem.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: TabCtrl_HighlightItem, TabCtrl_HighlightItem macro [Windows Controls], _win32_TabCtrl_HighlightItem, _win32_TabCtrl_HighlightItem_cpp, commctrl/TabCtrl_HighlightItem, controls.TabCtrl_HighlightItem, controls._win32_TabCtrl_HighlightItem
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STGOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	TabCtrl_HighlightItem
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # TabCtrl_HighlightItem macro

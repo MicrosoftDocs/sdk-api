@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msxml6.IXMLHTTPRequest3Callback.OnServerCertificateReceived
+title: IXMLHTTPRequest3Callback::OnServerCertificateReceived
+author: windows-sdk-content
+description: Occurs when a client receives certificate errors or a server certificate chain during SSL negotiation with the server.
+old-location: ixhr2\ixmlhttprequest3callback_onservercertificatereceived.htm
+old-project: ixhr2
+ms.assetid: 5b00ab76-880b-4450-a6b2-fda399cc9e8b
+ms.author: windowssdkdev
+ms.date: 04/02/2018
+ms.keywords: IXMLHTTPRequest3Callback interface [XMLHttpRequest2],OnServerCertificateReceived method, IXMLHTTPRequest3Callback.OnServerCertificateReceived, IXMLHTTPRequest3Callback::OnServerCertificateReceived, OnServerCertificateReceived, OnServerCertificateReceived method [XMLHttpRequest2], OnServerCertificateReceived method [XMLHttpRequest2],IXMLHTTPRequest3Callback interface, ixhr2.ixmlhttprequest3callback_onservercertificatereceived, msxml6/IXMLHTTPRequest3Callback::OnServerCertificateReceived
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msxml6.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msxml6.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XHR_PROPERTY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msxml6.h
+api_name:
+-	IXMLHTTPRequest3Callback.OnServerCertificateReceived
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IXMLHTTPRequest3Callback::OnServerCertificateReceived

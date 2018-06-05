@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:certenroll.IX509SCEPEnrollment.get_CertificateFriendlyName
+title: IX509SCEPEnrollment::get_CertificateFriendlyName
+author: windows-sdk-content
+description: Gets or sets the friendly name for the certificate.
+old-location: security\ix509scepenrollment_certificatefriendlyname.htm
+old-project: SecCertEnroll
+ms.assetid: 7d6802be-c8d7-45ea-8da2-042414ae5e55
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CertificateFriendlyName property [Security], CertificateFriendlyName property [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],CertificateFriendlyName property, IX509SCEPEnrollment.CertificateFriendlyName, IX509SCEPEnrollment.get_CertificateFriendlyName, IX509SCEPEnrollment::CertificateFriendlyName, IX509SCEPEnrollment::get_CertificateFriendlyName, IX509SCEPEnrollment::put_CertificateFriendlyName, certenroll/IX509SCEPEnrollment::CertificateFriendlyName, certenroll/IX509SCEPEnrollment::get_CertificateFriendlyName, certenroll/IX509SCEPEnrollment::put_CertificateFriendlyName, get_CertificateFriendlyName, security.ix509scepenrollment_certificatefriendlyname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certenroll.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.dll
+api_name:
+-	IX509SCEPEnrollment.CertificateFriendlyName
+-	IX509SCEPEnrollment.get_CertificateFriendlyName
+-	IX509SCEPEnrollment.put_CertificateFriendlyName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 ---
 
 # IX509SCEPEnrollment::get_CertificateFriendlyName

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12sdklayers.D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS
+title: D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS
+author: windows-sdk-content
+description: Specifies how GPU-Based Validation handles patched pipeline states during ID3D12Device::CreateGraphicsPipelineState and ID3D12Device::CreateComputePipelineState.
+old-location: direct3d12\d3d12_gpu_based_validation_pipeline_state_create_flags.htm
+old-project: direct3d12
+ms.assetid: B3D0ABD0-E7CE-4853-AC7C-228398B4588C
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS enumeration, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS_VALID_MASK, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_GUARDED_VALIDATION_SHADERS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_TRACKING_ONLY_SHADERS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_UNGUARDED_VALIDATION_SHADERS, D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_NONE, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS_VALID_MASK, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_GUARDED_VALIDATION_SHADERS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_TRACKING_ONLY_SHADERS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_FRONT_LOAD_CREATE_UNGUARDED_VALIDATION_SHADERS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAG_NONE, direct3d12.d3d12_gpu_based_validation_pipeline_state_create_flags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d12sdklayers.h
+api_name:
+-	D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS enumeration

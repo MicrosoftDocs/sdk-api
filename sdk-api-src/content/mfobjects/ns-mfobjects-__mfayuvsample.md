@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mfobjects.__MFAYUVSample
+title: "__MFAYUVSample"
+author: windows-sdk-content
+description: Describes a 4:4:4:4 Y'Cb'Cr' sample.
+old-location: mf\mfayuvsample.htm
+old-project: medfound
+ms.assetid: 9784b561-3b87-4df9-a434-55e12f97b05a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 9784b561-3b87-4df9-a434-55e12f97b05a, MFAYUVSample, MFAYUVSample structure [Media Foundation], __MFAYUVSample, mf.mfayuvsample, mfobjects/MFAYUVSample
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFAYUVSample
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfobjects.h
+api_name:
+-	MFAYUVSample
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MFAYUVSample structure

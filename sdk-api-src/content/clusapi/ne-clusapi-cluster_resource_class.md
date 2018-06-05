@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi.CLUSTER_RESOURCE_CLASS
+title: CLUSTER_RESOURCE_CLASS
+author: windows-sdk-content
+description: Defines the class of a resource.
+old-location: mscs\cluster_resource_class.htm
+old-project: MsCS
+ms.assetid: 65168256-f097-48a5-9e86-ec419ccb13bd
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_RESOURCE_CLASS, CLUSTER_RESOURCE_CLASS enumeration [Failover Cluster], CLUS_RESCLASS_NETWORK, CLUS_RESCLASS_STORAGE, CLUS_RESCLASS_UNKNOWN, CLUS_RESCLASS_USER, _CLUSTER_RESOURCE_CLASS, _CLUSTER_RESOURCE_CLASS enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_CLASS, clusapi/CLUS_RESCLASS_NETWORK, clusapi/CLUS_RESCLASS_STORAGE, clusapi/CLUS_RESCLASS_UNKNOWN, clusapi/CLUS_RESCLASS_USER, clusapi/_CLUSTER_RESOURCE_CLASS, msclus/CLUSTER_RESOURCE_CLASS, msclus/CLUS_RESCLASS_NETWORK, msclus/CLUS_RESCLASS_STORAGE, msclus/CLUS_RESCLASS_UNKNOWN, msclus/CLUS_RESCLASS_USER, msclus/_CLUSTER_RESOURCE_CLASS, mscs.cluster_resource_class
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_RESOURCE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSTER_RESOURCE_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSTER_RESOURCE_CLASS enumeration

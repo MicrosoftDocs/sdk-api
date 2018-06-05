@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION
+title: "_ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION"
+author: windows-sdk-content
+description: The ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION structure is used by the QueryActCtxW function.
+old-location: setup\activation_context_run_level_information.htm
+old-project: SbsCs
+ms.assetid: 1c4e7333-6982-4d58-ab2a-d1993c59d0ef
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION structure [Side-by-side Assemblies], PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION structure pointer [Side-by-side Assemblies], _ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, setup.activation_context_run_level_information, winnt/ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, winnt/PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, *PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dvdmedia.AM_MPEG2Level
+title: AM_MPEG2Level
+author: windows-sdk-content
+description: Indicates an MPEG-2 video level as specified in the MPEG-2 video standard (ISO13818-2).
+old-location: dshow\am_mpeg2level.htm
+old-project: DirectShow
+ms.assetid: 78446b44-7b83-4266-a591-5f70a0542c20
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AM_MPEG2Level, AM_MPEG2Level enumeration [DirectShow], AM_MPEG2Level_High, AM_MPEG2Level_High1440, AM_MPEG2Level_Low, AM_MPEG2Level_Main, MPEG2LevelEnumeration, dshow.am_mpeg2level, dvdmedia/AM_MPEG2Level, dvdmedia/AM_MPEG2Level_High, dvdmedia/AM_MPEG2Level_High1440, dvdmedia/AM_MPEG2Level_Low, dvdmedia/AM_MPEG2Level_Main
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dvdmedia.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dvdmedia.h
+api_name:
+-	AM_MPEG2Level
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # AM_MPEG2Level enumeration

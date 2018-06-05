@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmscreen.IFsrmFileScreenManager.CreateFileScreenCollection
+title: IFsrmFileScreenManager::CreateFileScreenCollection
+author: windows-sdk-content
+description: Creates an empty collection to which you can add file screens.
+old-location: fsrm\ifsrmfilescreenmanager_createfilescreencollection.htm
+old-project: Fsrm
+ms.assetid: 4adce5d6-8be6-477b-8dab-d437163b4449
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: CreateFileScreenCollection, CreateFileScreenCollection method [File Server Resource Manager], CreateFileScreenCollection method [File Server Resource Manager],FsrmFileScreenManager class, CreateFileScreenCollection method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],CreateFileScreenCollection method, IFsrmFileScreenManager interface [File Server Resource Manager],CreateFileScreenCollection method, IFsrmFileScreenManager.CreateFileScreenCollection, IFsrmFileScreenManager::CreateFileScreenCollection, fs.ifsrmfilescreenmanager_createfilescreencollection, fsrm.ifsrmfilescreenmanager_createfilescreencollection, fsrmscreen/IFsrmFileScreenManager::CreateFileScreenCollection
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmscreen.h
+req.include-header: FsrmQuota.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileScreenManager.CreateFileScreenCollection
+-	FsrmFileScreenManager.CreateFileScreenCollection
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileScreenManager::CreateFileScreenCollection

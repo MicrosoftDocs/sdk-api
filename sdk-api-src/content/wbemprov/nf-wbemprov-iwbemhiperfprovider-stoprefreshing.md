@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemprov.IWbemHiPerfProvider.StopRefreshing
+title: IWbemHiPerfProvider::StopRefreshing
+author: windows-sdk-content
+description: Stops refreshing the object or enumerator corresponding to the supplied identifier.
+old-location: wmi\iwbemhiperfprovider_stoprefreshing.htm
+old-project: WmiSdk
+ms.assetid: d1de54de-b57b-4e15-84b3-96cc36bf023b
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IWbemHiPerfProvider interface [Windows Management Instrumentation],StopRefreshing method, IWbemHiPerfProvider.StopRefreshing, IWbemHiPerfProvider::StopRefreshing, StopRefreshing, StopRefreshing method [Windows Management Instrumentation], StopRefreshing method [Windows Management Instrumentation],IWbemHiPerfProvider interface, _hmm_iwbemhiperfprovider_stoprefreshing, wbemprov/IWbemHiPerfProvider::StopRefreshing, wmi.iwbemhiperfprovider_stoprefreshing
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemprov.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmiprvsd.dll
+api_name:
+-	IWbemHiPerfProvider.StopRefreshing
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wmiprvsd.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemHiPerfProvider::StopRefreshing

@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dcomptypes.DCOMPOSITION_COMPOSITE_MODE
+title: DCOMPOSITION_COMPOSITE_MODE
+author: windows-sdk-content
+description: The mode to use to blend the bitmap content of a visual with the render target.
+old-location: directcomp\dcomposition_composite_mode.htm
+old-project: directcomp
+ms.assetid: D89379F5-57F8-4838-8E8F-FF261D69DE59
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: DCOMPOSITION_COMPOSITE_MODE, DCOMPOSITION_COMPOSITE_MODE enumeration [DirectComposition], DCOMPOSITION_COMPOSITE_MODE_DESTINATION_INVERT, DCOMPOSITION_COMPOSITE_MODE_INHERIT, DCOMPOSITION_COMPOSITE_MODE_MIN_BLEND, DCOMPOSITION_COMPOSITE_MODE_SOURCE_OVER, dcomptypes/DCOMPOSITION_COMPOSITE_MODE, dcomptypes/DCOMPOSITION_COMPOSITE_MODE_DESTINATION_INVERT, dcomptypes/DCOMPOSITION_COMPOSITE_MODE_INHERIT, dcomptypes/DCOMPOSITION_COMPOSITE_MODE_MIN_BLEND, dcomptypes/DCOMPOSITION_COMPOSITE_MODE_SOURCE_OVER, directcomp.dcomposition_composite_mode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dcomptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DcompAnimation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DcompTypes.h
+api_name:
+-	DCOMPOSITION_COMPOSITE_MODE
+product: Windows
+targetos: Windows
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 ---
 
 # DCOMPOSITION_COMPOSITE_MODE enumeration

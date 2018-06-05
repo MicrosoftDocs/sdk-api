@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0001
+title: "__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0001"
+author: windows-sdk-content
+description: Describes the tiling behavior of a tile brush.
+old-location: xps\xps_tile_mode.htm
+old-project: printdocs
+ms.assetid: 59434771-6402-4b0f-b8b6-58a4dda0f836
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: XPS_TILE_MODE, XPS_TILE_MODE enumeration [XPS Documents and Packaging], XPS_TILE_MODE_FLIPX, XPS_TILE_MODE_FLIPXY, XPS_TILE_MODE_FLIPY, XPS_TILE_MODE_NONE, XPS_TILE_MODE_TILE, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0001, xps.xps_tile_mode, xpsobjectmodel/XPS_TILE_MODE, xpsobjectmodel/XPS_TILE_MODE_FLIPX, xpsobjectmodel/XPS_TILE_MODE_FLIPXY, xpsobjectmodel/XPS_TILE_MODE_FLIPY, xpsobjectmodel/XPS_TILE_MODE_NONE, xpsobjectmodel/XPS_TILE_MODE_TILE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: xpsobjectmodel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XpsObjectModel.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XPS_TILE_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	xpsobjectmodel.h
+api_name:
+-	XPS_TILE_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0001 enumeration

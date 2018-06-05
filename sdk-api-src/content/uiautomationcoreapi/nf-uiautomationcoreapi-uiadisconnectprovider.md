@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcoreapi.UiaDisconnectProvider
+title: UiaDisconnectProvider function
+author: windows-sdk-content
+description: Releases all references that a particular provider holds to Microsoft UI Automation objects.
+old-location: winauto\uiauto_UiaDisconnectProvider.htm
+old-project: WinAuto
+ms.assetid: D4CE0071-47C4-421D-A0F1-D6E2D9983838
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: UiaDisconnectProvider, UiaDisconnectProvider function [Windows Accessibility], uiautomationcoreapi/UiaDisconnectProvider, winauto.uiauto_UiaDisconnectProvider
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: uiautomationcoreapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Uiautomationcore.dll
+-	Ext-MS-Win-uiacore-l1-1-0.dll
+-	Ext-MS-Win-UIaCore-l1-1-1.dll
+-	Ext-MS-Win-UIaCore-l1-1-2.dll
+-	Ext-MS-Win-UiaCore-L1-1-3.dll
+api_name:
+-	UiaDisconnectProvider
+product: Windows
+targetos: Windows
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # UiaDisconnectProvider function

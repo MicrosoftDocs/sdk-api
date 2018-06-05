@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:l2cmn._L2_NOTIFICATION_DATA
+title: "_L2_NOTIFICATION_DATA"
+author: windows-sdk-content
+description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
+old-location: netvista\l2_notification_data.htm
+old-project: netvista
+ms.assetid: 4b67b6c0-2b73-4816-8e85-d6b00227a33c
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PL2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_56767c07-0bb6-4050-9c44-ed5fd4055ec2.xml, PL2_NOTIFICATION_DATA, PL2_NOTIFICATION_DATA structure pointer [Network Drivers Starting with Windows Vista], _L2_NOTIFICATION_DATA, l2cmn/L2_NOTIFICATION_DATA, l2cmn/PL2_NOTIFICATION_DATA, netvista.l2_notification_data"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: l2cmn.h
+req.include-header: Wlanihv.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: L2_NOTIFICATION_DATA, *PL2_NOTIFICATION_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	l2cmn.h
+api_name:
+-	L2_NOTIFICATION_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _L2_NOTIFICATION_DATA structure

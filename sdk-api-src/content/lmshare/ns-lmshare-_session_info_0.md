@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmshare._SESSION_INFO_0
+title: "_SESSION_INFO_0"
+author: windows-sdk-content
+description: Contains the name of the computer that established the session.
+old-location: fs\session_info_0_str.htm
+old-project: NetShare
+ms.assetid: 6b39df47-f25c-41dd-ba15-6e6806c4ec89
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPSESSION_INFO_0, *PSESSION_INFO_0, LPSESSION_INFO_0, LPSESSION_INFO_0 structure pointer [Files], PSESSION_INFO_0, PSESSION_INFO_0 structure pointer [Files], SESSION_INFO_0, SESSION_INFO_0 structure [Files], _SESSION_INFO_0, _win32_session_info_0_str, fs.session_info_0_str, lmshare/LPSESSION_INFO_0, lmshare/PSESSION_INFO_0, lmshare/SESSION_INFO_0, netmgmt.session_info_0_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmshare.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SESSION_INFO_0, *PSESSION_INFO_0, *LPSESSION_INFO_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmshare.h
+api_name:
+-	SESSION_INFO_0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _SESSION_INFO_0 structure

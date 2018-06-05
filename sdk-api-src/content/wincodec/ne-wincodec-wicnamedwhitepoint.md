@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wincodec.WICNamedWhitePoint
+title: WICNamedWhitePoint
+author: windows-sdk-content
+description: Specifies named white balances for raw images.
+old-location: wic\_wic_codec_wicnamedwhitepoint.htm
+old-project: wic
+ms.assetid: e256a6d6-a035-47c3-a82c-d9aec284de17
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WICNamedWhitePoint, WICNamedWhitePoint enumeration [Windows Imaging Component], WICWhitePointAsShot, WICWhitePointAutoWhiteBalance, WICWhitePointCloudy, WICWhitePointCustom, WICWhitePointDaylight, WICWhitePointDefault, WICWhitePointFlash, WICWhitePointFluorescent, WICWhitePointShade, WICWhitePointTungsten, WICWhitePointUnderwater, _wic_codec_wicnamedwhitepoint, wic._wic_codec_wicnamedwhitepoint, wincodec/WICNamedWhitePoint, wincodec/WICWhitePointAsShot, wincodec/WICWhitePointAutoWhiteBalance, wincodec/WICWhitePointCloudy, wincodec/WICWhitePointCustom, wincodec/WICWhitePointDaylight, wincodec/WICWhitePointDefault, wincodec/WICWhitePointFlash, wincodec/WICWhitePointFluorescent, wincodec/WICWhitePointShade, wincodec/WICWhitePointTungsten, wincodec/WICWhitePointUnderwater
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodec.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICNamedWhitePoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincodec.h
+api_name:
+-	WICNamedWhitePoint
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WICNamedWhitePoint enumeration

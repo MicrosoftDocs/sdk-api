@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+title: "_VOLUME_GET_GPT_ATTRIBUTES_INFORMATION"
+author: windows-sdk-content
+description: Contains volume attributes retrieved with the IOCTL_VOLUME_GET_GPT_ATTRIBUTES control code.
+old-location: fs\volume_get_gpt_attributes_information.htm
+old-project: FileIO
+ms.assetid: d67590a9-9182-406f-8d15-8d40172cf5e5
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION, PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION structure pointer [Files], VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, VOLUME_GET_GPT_ATTRIBUTES_INFORMATION structure [Files], _VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, fs.volume_get_gpt_attributes_information, winioctl/PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION, winioctl/VOLUME_GET_GPT_ATTRIBUTES_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _VOLUME_GET_GPT_ATTRIBUTES_INFORMATION structure

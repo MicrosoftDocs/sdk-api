@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:wbemprov.IWbemEventProviderSecurity
+title: IWbemEventProviderSecurity
+author: windows-sdk-content
+description: The IWbemEventProviderSecurity interface is optionally implemented by event providers who want to restrict consumer access to their event. For more information about when to use this interface, see Securing WMI Events.
+old-location: wmi\iwbemeventprovidersecurity.htm
+old-project: WmiSdk
+ms.assetid: 892a7a9d-f058-4c4d-870d-c0eb5773949f
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IWbemEventProviderSecurity, IWbemEventProviderSecurity interface [Windows Management Instrumentation], IWbemEventProviderSecurity interface [Windows Management Instrumentation],described, _hmm_iwbemeventprovidersecurity, wbemprov/IWbemEventProviderSecurity, wmi.iwbemeventprovidersecurity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wbemprov.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wbemsvc.dll
+api_name:
+-	IWbemEventProviderSecurity
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemEventProviderSecurity interface

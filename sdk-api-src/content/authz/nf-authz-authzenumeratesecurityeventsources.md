@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:authz.AuthzEnumerateSecurityEventSources
+title: AuthzEnumerateSecurityEventSources function
+author: windows-sdk-content
+description: Retrieves the registered security event sources that are not installed by default.
+old-location: security\authzenumeratesecurityeventsources.htm
+old-project: SecAuthZ
+ms.assetid: 2a20ccc9-f2ac-41e4-9d86-745004775e67
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AuthzEnumerateSecurityEventSources, AuthzEnumerateSecurityEventSources function [Security], authz/AuthzEnumerateSecurityEventSources, security.authzenumeratesecurityeventsources
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: authz.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTHZ_CONTEXT_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Authz.dll
+api_name:
+-	AuthzEnumerateSecurityEventSources
+product: Windows
+targetos: Windows
+req.lib: Authz.lib
+req.dll: Authz.dll
+req.irql: 
 ---
 
 # AuthzEnumerateSecurityEventSources function

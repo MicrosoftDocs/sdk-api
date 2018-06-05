@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemprov.IWbemHiPerfProvider.GetObjects
+title: IWbemHiPerfProvider::GetObjects
+author: windows-sdk-content
+description: Inserts the non-key properties of the objects in the supplied array.
+old-location: wmi\iwbemhiperfprovider_getobjects.htm
+old-project: WmiSdk
+ms.assetid: ba56b029-95d4-4c79-8385-0a5adb9f7dcc
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetObjects, GetObjects method [Windows Management Instrumentation], GetObjects method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],GetObjects method, IWbemHiPerfProvider.GetObjects, IWbemHiPerfProvider::GetObjects, _hmm_iwbemhiperfprovider_getobjects, wbemprov/IWbemHiPerfProvider::GetObjects, wmi.iwbemhiperfprovider_getobjects
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemprov.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmiprvsd.dll
+api_name:
+-	IWbemHiPerfProvider.GetObjects
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wmiprvsd.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemHiPerfProvider::GetObjects

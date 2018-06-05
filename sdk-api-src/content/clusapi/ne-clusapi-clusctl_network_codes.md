@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi.CLUSCTL_NETWORK_CODES
+title: CLUSCTL_NETWORK_CODES
+author: windows-sdk-content
+description: Enumerates network control codes.
+old-location: mscs\clusctl_network_codes.htm
+old-project: MsCS
+ms.assetid: d9226efc-9dc8-491f-8056-ead799af552b
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSCTL_NETWORK_CODES, CLUSCTL_NETWORK_CODES enumeration [Failover Cluster], CLUSCTL_NETWORK_ENUM_COMMON_PROPERTIES, CLUSCTL_NETWORK_ENUM_PRIVATE_PROPERTIES, CLUSCTL_NETWORK_GET_CHARACTERISTICS, CLUSCTL_NETWORK_GET_COMMON_PROPERTIES, CLUSCTL_NETWORK_GET_COMMON_PROPERTY_FMTS, CLUSCTL_NETWORK_GET_FLAGS, CLUSCTL_NETWORK_GET_ID, CLUSCTL_NETWORK_GET_NAME, CLUSCTL_NETWORK_GET_PRIVATE_PROPERTIES, CLUSCTL_NETWORK_GET_PRIVATE_PROPERTY_FMTS, CLUSCTL_NETWORK_GET_RO_COMMON_PROPERTIES, CLUSCTL_NETWORK_GET_RO_PRIVATE_PROPERTIES, CLUSCTL_NETWORK_SET_COMMON_PROPERTIES, CLUSCTL_NETWORK_SET_PRIVATE_PROPERTIES, CLUSCTL_NETWORK_UNKNOWN, CLUSCTL_NETWORK_VALIDATE_COMMON_PROPERTIES, CLUSCTL_NETWORK_VALIDATE_PRIVATE_PROPERTIES, _CLUSCTL_NETWORK_CODES, _CLUSCTL_NETWORK_CODES enumeration [Failover Cluster], clusapi/CLUSCTL_NETWORK_CODES, clusapi/CLUSCTL_NETWORK_ENUM_COMMON_PROPERTIES, clusapi/CLUSCTL_NETWORK_ENUM_PRIVATE_PROPERTIES, clusapi/CLUSCTL_NETWORK_GET_CHARACTERISTICS, clusapi/CLUSCTL_NETWORK_GET_COMMON_PROPERTIES, clusapi/CLUSCTL_NETWORK_GET_COMMON_PROPERTY_FMTS, clusapi/CLUSCTL_NETWORK_GET_FLAGS, clusapi/CLUSCTL_NETWORK_GET_ID, clusapi/CLUSCTL_NETWORK_GET_NAME, clusapi/CLUSCTL_NETWORK_GET_PRIVATE_PROPERTIES, clusapi/CLUSCTL_NETWORK_GET_PRIVATE_PROPERTY_FMTS, clusapi/CLUSCTL_NETWORK_GET_RO_COMMON_PROPERTIES, clusapi/CLUSCTL_NETWORK_GET_RO_PRIVATE_PROPERTIES, clusapi/CLUSCTL_NETWORK_SET_COMMON_PROPERTIES, clusapi/CLUSCTL_NETWORK_SET_PRIVATE_PROPERTIES, clusapi/CLUSCTL_NETWORK_UNKNOWN, clusapi/CLUSCTL_NETWORK_VALIDATE_COMMON_PROPERTIES, clusapi/CLUSCTL_NETWORK_VALIDATE_PRIVATE_PROPERTIES, clusapi/_CLUSCTL_NETWORK_CODES, msclus/CLUSCTL_NETWORK_CODES, msclus/CLUSCTL_NETWORK_ENUM_COMMON_PROPERTIES, msclus/CLUSCTL_NETWORK_ENUM_PRIVATE_PROPERTIES, msclus/CLUSCTL_NETWORK_GET_CHARACTERISTICS, msclus/CLUSCTL_NETWORK_GET_COMMON_PROPERTIES, msclus/CLUSCTL_NETWORK_GET_COMMON_PROPERTY_FMTS, msclus/CLUSCTL_NETWORK_GET_FLAGS, msclus/CLUSCTL_NETWORK_GET_ID, msclus/CLUSCTL_NETWORK_GET_NAME, msclus/CLUSCTL_NETWORK_GET_PRIVATE_PROPERTIES, msclus/CLUSCTL_NETWORK_GET_PRIVATE_PROPERTY_FMTS, msclus/CLUSCTL_NETWORK_GET_RO_COMMON_PROPERTIES, msclus/CLUSCTL_NETWORK_GET_RO_PRIVATE_PROPERTIES, msclus/CLUSCTL_NETWORK_SET_COMMON_PROPERTIES, msclus/CLUSCTL_NETWORK_SET_PRIVATE_PROPERTIES, msclus/CLUSCTL_NETWORK_UNKNOWN, msclus/CLUSCTL_NETWORK_VALIDATE_COMMON_PROPERTIES, msclus/CLUSCTL_NETWORK_VALIDATE_PRIVATE_PROPERTIES, msclus/_CLUSCTL_NETWORK_CODES, mscs.clusctl_network_codes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSCTL_NETWORK_CODES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSCTL_NETWORK_CODES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSCTL_NETWORK_CODES enumeration

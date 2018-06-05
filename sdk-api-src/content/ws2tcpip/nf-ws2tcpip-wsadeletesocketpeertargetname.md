@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ws2tcpip.WSADeleteSocketPeerTargetName
+title: WSADeleteSocketPeerTargetName function
+author: windows-sdk-content
+description: Removes the association between a peer target name and an IP address for a socket. After a successful return, there will be no future association between the IP address and the target name.
+old-location: winsock\wsadeletesocketpeertargetname.htm
+old-project: WinSock
+ms.assetid: 5d973316-fc51-453e-8d98-36ba36367df7
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: WSADeleteSocketPeerTargetName, WSADeleteSocketPeerTargetName function [Winsock], winsock.wsadeletesocketpeertargetname, ws2tcpip/WSADeleteSocketPeerTargetName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ws2tcpip.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Fwpuclnt.dll
+api_name:
+-	WSADeleteSocketPeerTargetName
+product: Windows
+targetos: Windows
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WSADeleteSocketPeerTargetName function

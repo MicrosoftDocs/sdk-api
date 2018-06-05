@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strsafe.StringCbPrintf_lW
+title: StringCbPrintf_lW function
+author: windows-sdk-content
+description: Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
+old-location: menurc\stringcbprintf_l.htm
+old-project: menurc
+ms.assetid: d4576e63-32b0-413d-9b8c-ae16e6e15990
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: StringCbPrintf_l, StringCbPrintf_l function [Menus and Other Resources], StringCbPrintf_lA, StringCbPrintf_lW, menurc.stringcbprintf_l, strsafe/StringCbPrintf_l, strsafe/StringCbPrintf_lA, strsafe/StringCbPrintf_lW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: strsafe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: StringCbPrintf_lW (Unicode) and StringCbPrintf_lA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_DVD_RENDERSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	StrSafe.h
+api_name:
+-	StringCbPrintf_l
+-	StringCbPrintf_lA
+-	StringCbPrintf_lW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # StringCbPrintf_lW function

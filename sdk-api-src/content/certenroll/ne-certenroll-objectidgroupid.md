@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:certenroll.ObjectIdGroupId
+title: ObjectIdGroupId
+author: windows-sdk-content
+description: Specifies the category or group to which an object identifier (OID) belongs.
+old-location: security\objectidgroupid_enum.htm
+old-project: SecCertEnroll
+ms.assetid: 66a70cad-ce72-461b-8d71-605a62dd35b4
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ObjectIdGroupId, ObjectIdGroupId enumeration [Security], XCN_CRYPT_ANY_GROUP_ID, XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID, XCN_CRYPT_ENHKEY_USAGE_OID_GROUP_ID, XCN_CRYPT_EXT_OR_ATTR_OID_GROUP_ID, XCN_CRYPT_FIRST_ALG_OID_GROUP_ID, XCN_CRYPT_HASH_ALG_OID_GROUP_ID, XCN_CRYPT_KEY_LENGTH_MASK, XCN_CRYPT_LAST_ALG_OID_GROUP_ID, XCN_CRYPT_LAST_OID_GROUP_ID, XCN_CRYPT_OID_DISABLE_SEARCH_DS_FLAG, XCN_CRYPT_POLICY_OID_GROUP_ID, XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID, XCN_CRYPT_RDN_ATTR_OID_GROUP_ID, XCN_CRYPT_SIGN_ALG_OID_GROUP_ID, XCN_CRYPT_TEMPLATE_OID_GROUP_ID, certenroll/ObjectIdGroupId, certenroll/XCN_CRYPT_ANY_GROUP_ID, certenroll/XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_ENHKEY_USAGE_OID_GROUP_ID, certenroll/XCN_CRYPT_EXT_OR_ATTR_OID_GROUP_ID, certenroll/XCN_CRYPT_FIRST_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_HASH_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_KEY_LENGTH_MASK, certenroll/XCN_CRYPT_LAST_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_LAST_OID_GROUP_ID, certenroll/XCN_CRYPT_OID_DISABLE_SEARCH_DS_FLAG, certenroll/XCN_CRYPT_POLICY_OID_GROUP_ID, certenroll/XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_RDN_ATTR_OID_GROUP_ID, certenroll/XCN_CRYPT_SIGN_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_TEMPLATE_OID_GROUP_ID, security.objectidgroupid_enum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ObjectIdGroupId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CertEnroll.h
+api_name:
+-	ObjectIdGroupId
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 ---
 
 # ObjectIdGroupId enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11_4.ID3D11Device4.UnregisterDeviceRemoved
+title: ID3D11Device4::UnregisterDeviceRemoved
+author: windows-sdk-content
+description: Unregisters the &#0034;device removed&#0034; event.
+old-location: direct3d11\id3d11device4_unregisterdeviceremoved.htm
+old-project: direct3d11
+ms.assetid: F1B8BBD2-3D7D-4125-953F-D10D073B77AF
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: ID3D11Device4 interface [Direct3D 11],UnregisterDeviceRemoved method, ID3D11Device4.UnregisterDeviceRemoved, ID3D11Device4::UnregisterDeviceRemoved, UnregisterDeviceRemoved, UnregisterDeviceRemoved method [Direct3D 11], UnregisterDeviceRemoved method [Direct3D 11],ID3D11Device4 interface, d3d11_4/ID3D11Device4::UnregisterDeviceRemoved, direct3d11.id3d11device4_unregisterdeviceremoved
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11_4.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_UNORDERED_ACCESS_VIEW_DESC1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d11.lib
+-	d3d11.dll
+api_name:
+-	ID3D11Device4.UnregisterDeviceRemoved
+product: Windows
+targetos: Windows
+req.lib: D3d11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11Device4::UnregisterDeviceRemoved

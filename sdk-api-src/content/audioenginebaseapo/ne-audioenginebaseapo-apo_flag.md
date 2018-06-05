@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:audioenginebaseapo.APO_FLAG
+title: APO_FLAG
+author: windows-sdk-content
+description: The APO_FLAG enumeration defines constants that are used as flags by an audio processing object (APO).
+old-location: audio\apo_flag.htm
+old-project: audio
+ms.assetid: 42134625-A351-4CB6-B83C-3F2E662D1938
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: APO_FLAG, APO_FLAG enumeration [Audio Devices], APO_FLAG_BITSPERSAMPLE_MUST_MATCH, APO_FLAG_DEFAULT, APO_FLAG_FRAMESPERSECOND_MUST_MATCH, APO_FLAG_INPLACE, APO_FLAG_NONE, APO_FLAG_SAMPLESPERFRAME_MUST_MATCH, audio.apo_flag, audioenginebaseapo/APO_FLAG, audioenginebaseapo/APO_FLAG_BITSPERSAMPLE_MUST_MATCH, audioenginebaseapo/APO_FLAG_DEFAULT, audioenginebaseapo/APO_FLAG_FRAMESPERSECOND_MUST_MATCH, audioenginebaseapo/APO_FLAG_INPLACE, audioenginebaseapo/APO_FLAG_NONE, audioenginebaseapo/APO_FLAG_SAMPLESPERFRAME_MUST_MATCH
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: audioenginebaseapo.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APO_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	audioenginebaseapo.h
+api_name:
+-	APO_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # APO_FLAG enumeration

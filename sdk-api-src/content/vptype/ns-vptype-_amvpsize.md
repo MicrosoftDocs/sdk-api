@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:vptype._AMVPSIZE
+title: "_AMVPSIZE"
+author: windows-sdk-content
+description: The AMVPSIZE structure specifies the width and height for a VP image.
+old-location: dshow\amvpsize.htm
+old-project: DirectShow
+ms.assetid: e36163bc-a7ea-421e-b876-2d459ecb11e8
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPAMVPSIZE, AMVPSIZE, AMVPSIZE structure [DirectShow], AMVPSIZEStructure, LPAMVPSIZE, LPAMVPSIZE structure pointer [DirectShow], _AMVPSIZE, dshow.amvpsize, vptype/AMVPSIZE, vptype/LPAMVPSIZE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vptype.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	vptype.h
+api_name:
+-	AMVPSIZE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _AMVPSIZE structure

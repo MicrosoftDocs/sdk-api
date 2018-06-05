@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winuser.tagSCROLLBARINFO
+title: tagSCROLLBARINFO
+author: windows-sdk-content
+description: The SCROLLBARINFO structure contains scroll bar information.
+old-location: controls\SCROLLBARINFO.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarstructures\scrollbarinfo.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPSCROLLBARINFO, *PSCROLLBARINFO, LPSCROLLBARINFO, LPSCROLLBARINFO structure pointer [Windows Controls], PSCROLLBARINFO, PSCROLLBARINFO structure pointer [Windows Controls], SCROLLBARINFO, SCROLLBARINFO structure [Windows Controls], STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_OFFSCREEN, STATE_SYSTEM_PRESSED, STATE_SYSTEM_UNAVAILABLE, _win32_SCROLLBARINFO_str, _win32_SCROLLBARINFO_str_cpp, controls.SCROLLBARINFO, controls._win32_SCROLLBARINFO_str, tagSCROLLBARINFO, winuser/LPSCROLLBARINFO, winuser/PSCROLLBARINFO, winuser/SCROLLBARINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCROLLBARINFO, *PSCROLLBARINFO, *LPSCROLLBARINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winuser.h
+api_name:
+-	SCROLLBARINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagSCROLLBARINFO structure

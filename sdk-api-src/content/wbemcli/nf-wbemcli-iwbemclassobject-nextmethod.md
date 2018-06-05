@@ -1,31 +1,57 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemClassObject.NextMethod
+title: IWbemClassObject::NextMethod
+author: windows-sdk-content
+description: Used to retrieve the next method in a method enumeration sequence that starts with a call to IWbemClassObject::BeginMethodEnumeration.
+old-location: wmi\iwbemclassobject_nextmethod.htm
+old-project: WmiSdk
+ms.assetid: 4c11e043-518b-46f6-bb39-e80354ef2c8a
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],NextMethod method, IWbemClassObject.NextMethod, IWbemClassObject::NextMethod, NextMethod, NextMethod method [Windows Management Instrumentation], NextMethod method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_nextmethod, wbemcli/IWbemClassObject::NextMethod, wmi.iwbemclassobject_nextmethod
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WbemCli.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CIMWin32.dll
+-	Esscli.dll
+-	Fastprox.dll
+-	FrameDyn.dll
+-	FrameDynOS.dll
+-	Krnlprov.dll
+-	Ncprov.dll
+-	Wbemcore.dll
+-	Wbemess.dll
+-	Wmipiprt.dll
+api_name:
+-	IWbemClassObject.NextMethod
+product: Windows
+targetos: Windows
+req.lib: WbemUuid.lib
+req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemClassObject::NextMethod

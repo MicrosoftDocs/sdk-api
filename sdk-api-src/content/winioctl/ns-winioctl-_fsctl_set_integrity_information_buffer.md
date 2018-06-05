@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
+title: "_FSCTL_SET_INTEGRITY_INFORMATION_BUFFER"
+author: windows-sdk-content
+description: Input buffer passed with the FSCTL_SET_INTEGRITY_INFORMATION control code.
+old-location: fs\fsctl_set_integrity_information_buffer.htm
+old-project: FileIO
+ms.assetid: e5f6c4c5-86cb-4e95-bc24-05d2bea37bc8
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER, CHECKSUM_TYPE_CRC64, CHECKSUM_TYPE_NONE, CHECKSUM_TYPE_UNCHANGED, FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF, FSCTL_SET_INTEGRITY_INFORMATION_BUFFER, FSCTL_SET_INTEGRITY_INFORMATION_BUFFER structure [Files], PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER, PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER structure pointer [Files], _FSCTL_SET_INTEGRITY_INFORMATION_BUFFER, fs.fsctl_set_integrity_information_buffer, winioctl/FSCTL_SET_INTEGRITY_INFORMATION_BUFFER, winioctl/PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FSCTL_SET_INTEGRITY_INFORMATION_BUFFER, *PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FSCTL_SET_INTEGRITY_INFORMATION_BUFFER structure

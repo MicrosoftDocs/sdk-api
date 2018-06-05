@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:sbe.ISBE2EnumStream
+title: ISBE2EnumStream
+author: windows-sdk-content
+description: Enumerates a collection of streams. This is a utility interface, which you can use to enumerate the streams discovered in a WTV file. The Stream Buffer Source filter implements this interface.
+old-location: mstv\isbe2enumstream.htm
+old-project: mstv
+ms.assetid: 77a918f8-d305-4d4d-9a5c-523ddb796b26
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ISBE2EnumStream, ISBE2EnumStream interface [Microsoft TV Technologies], ISBE2EnumStream interface [Microsoft TV Technologies],described, mstv.isbe2enumstream, sbe/ISBE2EnumStream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: sbe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Sbe.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAMBUFFER_ATTR_DATATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbe.dll
+api_name:
+-	ISBE2EnumStream
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Sbe.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISBE2EnumStream interface

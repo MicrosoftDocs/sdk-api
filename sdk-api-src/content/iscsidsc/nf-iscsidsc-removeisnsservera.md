@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iscsidsc.RemoveISNSServerA
+title: RemoveISNSServerA function
+author: windows-sdk-content
+description: RemoveIsnsServer function removes a server from the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service uses to discover targets.
+old-location: iscsidisc\removeisnsserver.htm
+old-project: iSCSIDisc
+ms.assetid: 702a86e3-eeac-40cd-9203-ee865e2b710a
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: RemoveISNSServerA, RemoveIsnsServer, RemoveIsnsServer function [iSCSI Discovery Library API], RemoveIsnsServerA, RemoveIsnsServerW, iscsidisc.removeisnsserver, iscsidsc/RemoveIsnsServer, iscsidsc/RemoveIsnsServerA, iscsidsc/RemoveIsnsServerW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RemoveIsnsServerW (Unicode) and RemoveIsnsServerA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Iscsidsc.dll
+api_name:
+-	RemoveIsnsServer
+-	RemoveIsnsServerA
+-	RemoveIsnsServerW
+product: Windows
+targetos: Windows
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # RemoveISNSServerA function

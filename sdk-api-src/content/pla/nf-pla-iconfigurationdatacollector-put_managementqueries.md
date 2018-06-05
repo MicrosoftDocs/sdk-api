@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IConfigurationDataCollector.put_ManagementQueries
+title: IConfigurationDataCollector::put_ManagementQueries
+author: windows-sdk-content
+description: Retrieves or sets Windows Management Instrumentation (WMI) queries to run.
+old-location: pla\iconfigurationdatacollector_managementqueries.htm
+old-project: PLA
+ms.assetid: 183762e4-d312-4a0c-8195-d38d1b79d17d
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IConfigurationDataCollector interface [PLA],ManagementQueries property, IConfigurationDataCollector.ManagementQueries, IConfigurationDataCollector.put_ManagementQueries, IConfigurationDataCollector::ManagementQueries, IConfigurationDataCollector::get_ManagementQueries, IConfigurationDataCollector::put_ManagementQueries, ManagementQueries property [PLA], ManagementQueries property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_managementqueries, pla.iconfigurationdatacollector_managementqueries, pla/IConfigurationDataCollector::ManagementQueries, pla/IConfigurationDataCollector::get_ManagementQueries, pla/IConfigurationDataCollector::put_ManagementQueries, put_ManagementQueries
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IConfigurationDataCollector.ManagementQueries
+-	IConfigurationDataCollector.get_ManagementQueries
+-	IConfigurationDataCollector.put_ManagementQueries
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IConfigurationDataCollector::put_ManagementQueries

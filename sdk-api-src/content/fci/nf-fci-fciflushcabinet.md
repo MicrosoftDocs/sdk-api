@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:fci.FCIFlushCabinet
+title: FCIFlushCabinet function
+author: windows-sdk-content
+description: The FCIFlushCabinet function completes the current cabinet.
+old-location: winprog\fciflushcabinet.htm
+old-project: DevNotes
+ms.assetid: dc586260-180e-4a6b-accf-2ddd62ac1335
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: FCIFlushCabinet, FCIFlushCabinet function [Windows API], fci/FCIFlushCabinet, winprog.fciflushcabinet
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fci.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cabinet.dll
+api_name:
+-	FCIFlushCabinet
+product: Windows
+targetos: Windows
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FCIFlushCabinet function

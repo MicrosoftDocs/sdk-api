@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPPlayer4.get_isRemote
+title: IWMPPlayer4::get_isRemote
+author: windows-sdk-content
+description: The get_isRemote method retrieves a value indicating whether the Windows Media Player control is running in remote mode.
+old-location: wmp\iwmpplayer4_get_isremote.htm
+old-project: WMP
+ms.assetid: 0b4f76f2-f62a-4c91-bbc4-166c450608dd
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPPlayer4 interface [Windows Media Player],get_isRemote method, IWMPPlayer4.get_isRemote, IWMPPlayer4::get_isRemote, IWMPPlayer4get_isRemote, get_isRemote, get_isRemote method [Windows Media Player], get_isRemote method [Windows Media Player],IWMPPlayer4 interface, wmp.iwmpplayer4_get_isremote, wmp/IWMPPlayer4::get_isRemote
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPPlayer4.get_isRemote
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPPlayer4::get_isRemote

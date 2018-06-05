@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:objidl.tagGLOBALOPT_UNMARSHALING_POLICY_VALUES
+title: tagGLOBALOPT_UNMARSHALING_POLICY_VALUES
+author: windows-sdk-content
+description: Provides values for the COM unmarshaling policy global option.
+old-location: com\globalopt_unmarshaling_policy_values.htm
+old-project: com
+ms.assetid: 7F557290-7162-4B32-880B-9A445A083F91
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: COMGLB_UNMARSHALING_POLICY_HYBRID, COMGLB_UNMARSHALING_POLICY_NORMAL, COMGLB_UNMARSHALING_POLICY_STRONG, GLOBALOPT_UNMARSHALING_POLICY_VALUES, GLOBALOPT_UNMARSHALING_POLICY_VALUES enumeration [COM], com.globalopt_unmarshaling_policy_values, objidl/COMGLB_UNMARSHALING_POLICY_HYBRID, objidl/COMGLB_UNMARSHALING_POLICY_NORMAL, objidl/COMGLB_UNMARSHALING_POLICY_STRONG, objidl/GLOBALOPT_UNMARSHALING_POLICY_VALUES, tagGLOBALOPT_UNMARSHALING_POLICY_VALUES
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: objidl.h
+req.include-header: Objidlbase.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Objidlbase.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GLOBALOPT_UNMARSHALING_POLICY_VALUES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	objidl.h
+api_name:
+-	GLOBALOPT_UNMARSHALING_POLICY_VALUES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagGLOBALOPT_UNMARSHALING_POLICY_VALUES enumeration

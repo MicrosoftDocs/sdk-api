@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemprov.IWbemProviderInit.Initialize
+title: IWbemProviderInit::Initialize
+author: windows-sdk-content
+description: Called by Windows Management to initialize a provider to receive client requests. All types of providers must implement this method.
+old-location: wmi\iwbemproviderinit_initialize.htm
+old-project: WmiSdk
+ms.assetid: 437d803d-b916-4209-bbf0-64b1ec3b7068
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IWbemProviderInit interface [Windows Management Instrumentation],Initialize method, IWbemProviderInit.Initialize, IWbemProviderInit::Initialize, Initialize, Initialize method [Windows Management Instrumentation], Initialize method [Windows Management Instrumentation],IWbemProviderInit interface, _hmm_iwbemproviderinit_initialize, wbemprov/IWbemProviderInit::Initialize, wmi.iwbemproviderinit_initialize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemprov.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wbemsvc.dll
+api_name:
+-	IWbemProviderInit.Initialize
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemProviderInit::Initialize

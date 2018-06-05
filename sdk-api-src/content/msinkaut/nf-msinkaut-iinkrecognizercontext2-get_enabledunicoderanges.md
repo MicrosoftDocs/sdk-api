@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkRecognizerContext2.get_EnabledUnicodeRanges
+title: IInkRecognizerContext2::get_EnabledUnicodeRanges
+author: windows-sdk-content
+description: Gets or sets a set of one or more Unicode ranges that the recognizer context will support.
+old-location: tablet\iinkrecognizercontext2_enabledunicoderanges.htm
+old-project: tablet
+ms.assetid: d976eed0-32d0-47ab-931e-177635f95875
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: EnabledUnicodeRanges property [Tablet PC], EnabledUnicodeRanges property [Tablet PC],IInkRecognizerContext2 interface, IInkRecognizerContext2 interface [Tablet PC],EnabledUnicodeRanges property, IInkRecognizerContext2.EnabledUnicodeRanges, IInkRecognizerContext2.get_EnabledUnicodeRanges, IInkRecognizerContext2.put_EnabledUnicodeRanges, IInkRecognizerContext2::EnabledUnicodeRanges, IInkRecognizerContext2::get_EnabledUnicodeRanges, IInkRecognizerContext2::put_EnabledUnicodeRanges, get_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::get_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::put_EnabledUnicodeRanges, tablet.iinkrecognizercontext2_enabledunicoderanges
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkRecognizerContext2.EnabledUnicodeRanges
+-	IInkRecognizerContext2.get_EnabledUnicodeRanges
+-	IInkRecognizerContext2.put_EnabledUnicodeRanges
+-	IInkRecognizerContext2.get_EnabledUnicodeRanges
+-	IInkRecognizerContext2.put_EnabledUnicodeRanges
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognizerContext2::get_EnabledUnicodeRanges

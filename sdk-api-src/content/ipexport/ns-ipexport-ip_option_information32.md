@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipexport.ip_option_information32
+title: ip_option_information32
+author: windows-sdk-content
+description: Describes the options to be included in the header of an IP packet on a 64-bit platform.
+old-location: iphlp\ip_option_information32.htm
+old-project: IpHlp
+ms.assetid: 3924230d-ff10-43ac-981c-81273bce6896
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PIP_OPTION_INFORMATION32, IP_FLAG_DF, IP_FLAG_REVERSE, IP_OPTION_INFORMATION32, IP_OPTION_INFORMATION32 structure [IP Helper], PIP_OPTION_INFORMATION32, PIP_OPTION_INFORMATION32 structure pointer [IP Helper], ip_option_information32, ipexport/IP_OPTION_INFORMATION32, ipexport/PIP_OPTION_INFORMATION32, iphlp.ip_option_information32"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipexport.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IP_OPTION_INFORMATION32, *PIP_OPTION_INFORMATION32
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipexport.h
+api_name:
+-	IP_OPTION_INFORMATION32
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ip_option_information32 structure

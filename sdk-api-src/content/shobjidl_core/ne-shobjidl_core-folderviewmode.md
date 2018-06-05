@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core.FOLDERVIEWMODE
+title: FOLDERVIEWMODE
+author: windows-sdk-content
+description: Specifies the folder view type.
+old-location: shell\FOLDERVIEWMODE.htm
+old-project: shell
+ms.assetid: 16b92115-6e7d-41d3-960d-6783d779224c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: FOLDERVIEWMODE, FOLDERVIEWMODE enumeration [Windows Shell], FVM_AUTO, FVM_CONTENT, FVM_DETAILS, FVM_FIRST, FVM_ICON, FVM_LAST, FVM_LIST, FVM_SMALLICON, FVM_THUMBNAIL, FVM_THUMBSTRIP, FVM_TILE, _win32_FOLDERVIEWMODE, shell.FOLDERVIEWMODE, shobjidl_core/FOLDERVIEWMODE, shobjidl_core/FVM_AUTO, shobjidl_core/FVM_CONTENT, shobjidl_core/FVM_DETAILS, shobjidl_core/FVM_FIRST, shobjidl_core/FVM_ICON, shobjidl_core/FVM_LAST, shobjidl_core/FVM_LIST, shobjidl_core/FVM_SMALLICON, shobjidl_core/FVM_THUMBNAIL, shobjidl_core/FVM_THUMBSTRIP, shobjidl_core/FVM_TILE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FOLDERVIEWMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	FOLDERVIEWMODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # FOLDERVIEWMODE enumeration

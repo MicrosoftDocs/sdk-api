@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rdpencomapi.IRDPSRAPISharingSession.ConnectToClient
+title: IRDPSRAPISharingSession::ConnectToClient
+author: windows-sdk-content
+description: Used for reverse connect mode, where the sharer connects to the viewer.
+old-location: rdp\irdpsrapisharingsession_connecttoclient.htm
+old-project: Rdp
+ms.assetid: 18651433-90cb-4ebd-afaf-480800dfe033
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: ConnectToClient, ConnectToClient method [RDP], ConnectToClient method [RDP],IRDPSRAPISharingSession interface, ConnectToClient method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession interface [RDP],ConnectToClient method, IRDPSRAPISharingSession.ConnectToClient, IRDPSRAPISharingSession2 interface [RDP],ConnectToClient method, IRDPSRAPISharingSession2::ConnectToClient, IRDPSRAPISharingSession::ConnectToClient, rdp.irdpsrapisharingsession_connecttoclient, rdpencomapi/IRDPSRAPISharingSession2::ConnectToClient, rdpencomapi/IRDPSRAPISharingSession::ConnectToClient
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RdpEncomAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: RdpEncomAPI.tlb
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RdpEncom.dll
+api_name:
+-	IRDPSRAPISharingSession2.ConnectToClient
+-	IRDPSRAPISharingSession.ConnectToClient
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRDPSRAPISharingSession::ConnectToClient

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl._TASKDIALOGCONFIG
+title: "_TASKDIALOGCONFIG"
+author: windows-sdk-content
+description: The TASKDIALOGCONFIG structure contains information used to display a task dialog. The TaskDialogIndirect function uses this structure.
+old-location: controls\TASKDIALOGCONFIG.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogstructures\taskdialogconfig.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: TASKDIALOGCONFIG, TASKDIALOGCONFIG structure [Windows Controls], TDCBF_CANCEL_BUTTON, TDCBF_CLOSE_BUTTON, TDCBF_NO_BUTTON, TDCBF_OK_BUTTON, TDCBF_RETRY_BUTTON, TDCBF_YES_BUTTON, TDF_ALLOW_DIALOG_CANCELLATION, TDF_CALLBACK_TIMER, TDF_CAN_BE_MINIMIZED, TDF_ENABLE_HYPERLINKS, TDF_EXPANDED_BY_DEFAULT, TDF_EXPAND_FOOTER_AREA, TDF_NO_DEFAULT_RADIO_BUTTON, TDF_POSITION_RELATIVE_TO_WINDOW, TDF_RTL_LAYOUT, TDF_SHOW_MARQUEE_PROGRESS_BAR, TDF_SHOW_PROGRESS_BAR, TDF_SIZE_TO_CONTENT, TDF_USE_COMMAND_LINKS, TDF_USE_COMMAND_LINKS_NO_ICON, TDF_USE_HICON_FOOTER, TDF_USE_HICON_MAIN, TDF_VERIFICATION_FLAG_CHECKED, TDIF_SIZE_TO_CONTENT, TD_ERROR_ICON, TD_INFORMATION_ICON, TD_SHIELD_ICON, TD_WARNING_ICON, _TASKDIALOGCONFIG, _shell_TASKDIALOGCONFIG, _shell_TASKDIALOGCONFIG_cpp, commctrl/TASKDIALOGCONFIG, controls.TASKDIALOGCONFIG, controls._shell_TASKDIALOGCONFIG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASKDIALOGCONFIG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	TASKDIALOGCONFIG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _TASKDIALOGCONFIG structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d2d1svg.D2D1_SVG_PAINT_TYPE
+title: D2D1_SVG_PAINT_TYPE
+author: windows-sdk-content
+description: Specifies the paint type for an SVG fill or stroke.
+old-location: direct2d\d2d1_svg_paint_type.htm
+old-project: Direct2D
+ms.assetid: FBCD7EF5-E1DF-4FE0-98A2-40F42798FB93
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_SVG_PAINT_TYPE, D2D1_SVG_PAINT_TYPE enumeration [Direct2D], D2D1_SVG_PAINT_TYPE_COLOR, D2D1_SVG_PAINT_TYPE_CURRENT_COLOR, D2D1_SVG_PAINT_TYPE_FORCE_DWORD, D2D1_SVG_PAINT_TYPE_NONE, D2D1_SVG_PAINT_TYPE_URI, D2D1_SVG_PAINT_TYPE_URI_COLOR, D2D1_SVG_PAINT_TYPE_URI_CURRENT_COLOR, D2D1_SVG_PAINT_TYPE_URI_NONE, d2d1svg/D2D1_SVG_PAINT_TYPE, d2d1svg/D2D1_SVG_PAINT_TYPE_COLOR, d2d1svg/D2D1_SVG_PAINT_TYPE_CURRENT_COLOR, d2d1svg/D2D1_SVG_PAINT_TYPE_FORCE_DWORD, d2d1svg/D2D1_SVG_PAINT_TYPE_NONE, d2d1svg/D2D1_SVG_PAINT_TYPE_URI, d2d1svg/D2D1_SVG_PAINT_TYPE_URI_COLOR, d2d1svg/D2D1_SVG_PAINT_TYPE_URI_CURRENT_COLOR, d2d1svg/D2D1_SVG_PAINT_TYPE_URI_NONE, direct2d.d2d1_svg_paint_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1svg.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_SVG_PAINT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1svg.h
+api_name:
+-	D2D1_SVG_PAINT_TYPE
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D2D1_SVG_PAINT_TYPE enumeration

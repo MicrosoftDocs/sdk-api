@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mmeapi.waveformat_tag
+title: waveformat_tag
+author: windows-sdk-content
+description: The WAVEFORMAT structure describes the format of waveform-audio data. Only format information common to all waveform-audio data formats is included in this structure. This structure has been superseded by the WAVEFORMATEX structure.
+old-location: multimedia\waveformat.htm
+old-project: Multimedia
+ms.assetid: 48871868-792a-4479-9e92-95306c25673a
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*LPWAVEFORMAT, *NPWAVEFORMAT, *PWAVEFORMAT, WAVEFORMAT, WAVEFORMAT structure [Windows Multimedia], WAVE_FORMAT_PCM, _win32_WAVEFORMAT_str, mmeapi/WAVEFORMAT, multimedia.waveformat, tWAVEFORMATEX, waveformat_tag"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mmeapi.h
+req.include-header: Mmreg.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WAVEFORMAT, *PWAVEFORMAT, *NPWAVEFORMAT, *LPWAVEFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mmeapi.h
+api_name:
+-	WAVEFORMAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # waveformat_tag structure

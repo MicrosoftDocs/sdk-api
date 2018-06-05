@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsvc._SERVICE_DESCRIPTIONW
+title: "_SERVICE_DESCRIPTIONW"
+author: windows-sdk-content
+description: Contains a service description.
+old-location: base\service_description_str.htm
+old-project: Services
+ms.assetid: 1b4e18d5-6086-4d1b-b39c-1d919bfdc0b9
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*LPSERVICE_DESCRIPTIONW, LPSERVICE_DESCRIPTION, LPSERVICE_DESCRIPTION structure pointer, SERVICE_DESCRIPTION, SERVICE_DESCRIPTION structure, SERVICE_DESCRIPTIONA, SERVICE_DESCRIPTIONW, _SERVICE_DESCRIPTIONW, _win32_service_description_str, base.service_description_str, winsvc/LPSERVICE_DESCRIPTION, winsvc/SERVICE_DESCRIPTION, winsvc/SERVICE_DESCRIPTIONA, winsvc/SERVICE_DESCRIPTIONW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsvc.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SERVICE_DESCRIPTIONW (Unicode) and SERVICE_DESCRIPTIONA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SERVICE_DESCRIPTIONW, *LPSERVICE_DESCRIPTIONW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsvc.h
+api_name:
+-	SERVICE_DESCRIPTION
+-	SERVICE_DESCRIPTIONA
+-	SERVICE_DESCRIPTIONW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SERVICE_DESCRIPTIONW structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wingdi.TransparentBlt
+title: TransparentBlt function
+author: windows-sdk-content
+description: The TransparentBlt function performs a bit-block transfer of the color data corresponding to a rectangle of pixels from the specified source device context into a destination device context.
+old-location: gdi\transparentblt.htm
+old-project: gdi
+ms.assetid: 900b2ca3-398d-4128-a1ae-8b4940574327
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: TransparentBlt, TransparentBlt function [Windows GDI], _win32_TransparentBlt, gdi.transparentblt, wingdi/TransparentBlt
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msimg32.dll
+-	ext-ms-win-msimg-draw-l1-1-0.dll
+api_name:
+-	TransparentBlt
+product: Windows
+targetos: Windows
+req.lib: Msimg32.lib
+req.dll: Msimg32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # TransparentBlt function

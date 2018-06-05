@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.IAMStreamSelect.Enable
+title: IAMStreamSelect::Enable
+author: windows-sdk-content
+description: The Enable method enables or disables a given stream.
+old-location: dshow\iamstreamselect_enable.htm
+old-project: DirectShow
+ms.assetid: ac17a218-34a4-49aa-9b4d-cb34f3c2a5d3
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: Enable, Enable method [DirectShow], Enable method [DirectShow],IAMStreamSelect interface, IAMStreamSelect interface [DirectShow],Enable method, IAMStreamSelect.Enable, IAMStreamSelect::Enable, IAMStreamSelectEnable, dshow.iamstreamselect_enable, strmif/IAMStreamSelect::Enable
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IAMStreamSelect.Enable
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IAMStreamSelect::Enable

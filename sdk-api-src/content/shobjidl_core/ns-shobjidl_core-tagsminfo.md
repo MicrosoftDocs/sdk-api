@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shobjidl_core.tagSMINFO
+title: tagSMINFO
+author: windows-sdk-content
+description: Contains information about an item from a menu band.
+old-location: shell\SMINFO.htm
+old-project: shell
+ms.assetid: aaa6ee05-7236-4b68-9d93-4848c4fe693d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PSMINFO, PSMINFO, PSMINFO structure pointer [Windows Shell], SMIF_ACCELERATOR, SMIF_ALTSTATE, SMIF_CHECKED, SMIF_DEMOTED, SMIF_DISABLED, SMIF_DRAGNDROP, SMIF_DROPCASCADE, SMIF_DROPTARGET, SMIF_HIDDEN, SMIF_ICON, SMIF_NEW, SMIF_SUBMENU, SMIF_TRACKPOPUP, SMIF_VOLATILE, SMIM_FLAGS, SMIM_ICON, SMIM_TYPE, SMINFO, SMINFO structure [Windows Shell], SMIT_SEPARATOR, SMIT_STRING, _win32_SMINFO, shell.SMINFO, shobjidl_core/PSMINFO, shobjidl_core/SMINFO, tagSMINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SMINFO, *PSMINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shobjidl_core.h
+api_name:
+-	SMINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # tagSMINFO structure

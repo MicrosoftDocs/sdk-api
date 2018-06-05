@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfDisplayAttributeProvider.GetDisplayAttributeInfo
+title: ITfDisplayAttributeProvider::GetDisplayAttributeInfo
+author: windows-sdk-content
+description: ITfDisplayAttributeProvider::GetDisplayAttributeInfo method
+old-location: tsf\itfdisplayattributeprovider_getdisplayattributeinfo.htm
+old-project: TSF
+ms.assetid: 2081f1b4-45b4-43bd-ba20-392a5ad0a30e
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetDisplayAttributeInfo, GetDisplayAttributeInfo method [Text Services Framework], GetDisplayAttributeInfo method [Text Services Framework],ITfDisplayAttributeProvider interface, ITfDisplayAttributeProvider interface [Text Services Framework],GetDisplayAttributeInfo method, ITfDisplayAttributeProvider.GetDisplayAttributeInfo, ITfDisplayAttributeProvider::GetDisplayAttributeInfo, _tsf_itfdisplayattributeprovider_getdisplayattributeinfo_ref, msctf/ITfDisplayAttributeProvider::GetDisplayAttributeInfo, tsf.itfdisplayattributeprovider_getdisplayattributeinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imjpcic.dll
+api_name:
+-	ITfDisplayAttributeProvider.GetDisplayAttributeInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Imjpcic.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfDisplayAttributeProvider::GetDisplayAttributeInfo

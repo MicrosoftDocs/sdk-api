@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdaiface.IBDA_DigitalDemodulator.put_ModulationType
+title: IBDA_DigitalDemodulator::put_ModulationType
+author: windows-sdk-content
+description: The put_ModulationType method specifies the modulation type for the signal.
+old-location: mstv\ibda_digitaldemodulator_put_modulationtype.htm
+old-project: mstv
+ms.assetid: 9e2bf33f-b139-4455-ad49-c75e52f31083
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_ModulationType method, IBDA_DigitalDemodulator.put_ModulationType, IBDA_DigitalDemodulator::put_ModulationType, IBDA_DigitalDemodulatorput_ModulationType, bdaiface/IBDA_DigitalDemodulator::put_ModulationType, mstv.ibda_digitaldemodulator_put_modulationtype, put_ModulationType, put_ModulationType method [Microsoft TV Technologies], put_ModulationType method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_DigitalDemodulator.put_ModulationType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_DigitalDemodulator::put_ModulationType

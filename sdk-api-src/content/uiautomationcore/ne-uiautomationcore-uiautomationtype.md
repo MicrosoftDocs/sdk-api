@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:uiautomationcore.UIAutomationType
+title: UIAutomationType
+author: windows-sdk-content
+description: Contains values used to indicate Microsoft UI Automation data types.
+old-location: winauto\uiauto_UIAutomationTypeEnum.htm
+old-project: WinAuto
+ms.assetid: 6090d5b5-2376-43ce-bef2-49bb3515107a
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: UIAutomationType, UIAutomationType enumeration [Windows Accessibility], UIAutomationType_Array, UIAutomationType_Bool, UIAutomationType_BoolArray, UIAutomationType_Double, UIAutomationType_DoubleArray, UIAutomationType_Element, UIAutomationType_ElementArray, UIAutomationType_Int, UIAutomationType_IntArray, UIAutomationType_Out, UIAutomationType_OutBool, UIAutomationType_OutBoolArray, UIAutomationType_OutDouble, UIAutomationType_OutDoubleArray, UIAutomationType_OutElement, UIAutomationType_OutElementArray, UIAutomationType_OutInt, UIAutomationType_OutIntArray, UIAutomationType_OutPoint, UIAutomationType_OutPointArray, UIAutomationType_OutRect, UIAutomationType_OutRectArray, UIAutomationType_OutString, UIAutomationType_OutStringArray, UIAutomationType_Point, UIAutomationType_PointArray, UIAutomationType_Rect, UIAutomationType_RectArray, UIAutomationType_String, UIAutomationType_StringArray, uiauto.uiauto_UIAutomationTypeEnum, uiauto_UIAutomationTypeEnum, uiautomationcore/UIAutomationType, uiautomationcore/UIAutomationType_Array, uiautomationcore/UIAutomationType_Bool, uiautomationcore/UIAutomationType_BoolArray, uiautomationcore/UIAutomationType_Double, uiautomationcore/UIAutomationType_DoubleArray, uiautomationcore/UIAutomationType_Element, uiautomationcore/UIAutomationType_ElementArray, uiautomationcore/UIAutomationType_Int, uiautomationcore/UIAutomationType_IntArray, uiautomationcore/UIAutomationType_Out, uiautomationcore/UIAutomationType_OutBool, uiautomationcore/UIAutomationType_OutBoolArray, uiautomationcore/UIAutomationType_OutDouble, uiautomationcore/UIAutomationType_OutDoubleArray, uiautomationcore/UIAutomationType_OutElement, uiautomationcore/UIAutomationType_OutElementArray, uiautomationcore/UIAutomationType_OutInt, uiautomationcore/UIAutomationType_OutIntArray, uiautomationcore/UIAutomationType_OutPoint, uiautomationcore/UIAutomationType_OutPointArray, uiautomationcore/UIAutomationType_OutRect, uiautomationcore/UIAutomationType_OutRectArray, uiautomationcore/UIAutomationType_OutString, uiautomationcore/UIAutomationType_OutStringArray, uiautomationcore/UIAutomationType_Point, uiautomationcore/UIAutomationType_PointArray, uiautomationcore/UIAutomationType_Rect, uiautomationcore/UIAutomationType_RectArray, uiautomationcore/UIAutomationType_String, uiautomationcore/UIAutomationType_StringArray, winauto.uiauto_UIAutomationTypeEnum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	UIAutomationType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # UIAutomationType enumeration

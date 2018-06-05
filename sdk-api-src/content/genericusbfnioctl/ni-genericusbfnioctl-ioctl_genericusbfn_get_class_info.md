@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_GET_CLASS_INFO
+title: IOCTL_GENERICUSBFN_GET_CLASS_INFO
+author: windows-sdk-content
+description: This I/O control code (IOCTL) is sent by the user-mode service or application to retrieve information about a device's available pipes as configured in the registry.
+old-location: buses\ioctl_genericusbfn_get_class_info.htm
+old-project: usbref
+ms.assetid: DF30E838-9C5A-45DD-8E51-5642CF726918
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: IOCTL_GENERICUSBFN_GET_CLASS_INFO, IOCTL_GENERICUSBFN_GET_CLASS_INFO control, IOCTL_GENERICUSBFN_GET_CLASS_INFO control code [Buses], buses.ioctl_genericusbfn_get_class_info, genericusbfnioctl/IOCTL_GENERICUSBFN_GET_CLASS_INFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: ioctl
+req.header: genericusbfnioctl.h
+req.include-header: GenericUsbFnIoctl.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	GenericUsbFnIoctl.h
+api_name:
+-	IOCTL_GENERICUSBFN_GET_CLASS_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IOCTL_GENERICUSBFN_GET_CLASS_INFO IOCTL

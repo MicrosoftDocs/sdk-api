@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfplay.IMFPMediaPlayer.GetVideoSourceRect
+title: IMFPMediaPlayer::GetVideoSourceRect
+author: windows-sdk-content
+description: Gets the video source rectangle.
+old-location: mf\imfpmediaplayer_getvideosourcerect.htm
+old-project: medfound
+ms.assetid: 3b72ece3-f573-42e1-948c-443c793e5ba4
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetVideoSourceRect, GetVideoSourceRect method [Media Foundation], GetVideoSourceRect method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVideoSourceRect method, IMFPMediaPlayer.GetVideoSourceRect, IMFPMediaPlayer::GetVideoSourceRect, mf.imfpmediaplayer_getvideosourcerect, mfplay/IMFPMediaPlayer::GetVideoSourceRect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfplay.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfplay.h
+api_name:
+-	IMFPMediaPlayer.GetVideoSourceRect
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFPMediaPlayer::GetVideoSourceRect

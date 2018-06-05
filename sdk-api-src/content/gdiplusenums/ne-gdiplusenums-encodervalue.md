@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:gdiplusenums.EncoderValue
+title: EncoderValue
+author: windows-sdk-content
+description: The EncoderValue enumeration specifies values that can be passed as arguments to image encoders. For more information about image encoders, see Using Image Encoders and Decoders .
+old-location: gdiplus\_gdiplus_ENUM_EncoderValue.htm
+old-project: gdiplus
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\encodervalue.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EncoderValue, EncoderValue enumeration [GDI+], EncoderValueColorTypeCMYK, EncoderValueColorTypeYCCK, EncoderValueCompressionCCITT3, EncoderValueCompressionCCITT4, EncoderValueCompressionLZW, EncoderValueCompressionNone, EncoderValueCompressionRle, EncoderValueFlush, EncoderValueFrameDimensionPage, EncoderValueFrameDimensionResolution, EncoderValueFrameDimensionTime, EncoderValueLastFrame, EncoderValueMultiFrame, EncoderValueRenderNonProgressive, EncoderValueRenderProgressive, EncoderValueScanMethodInterlaced, EncoderValueScanMethodNonInterlaced, EncoderValueTransformFlipHorizontal, EncoderValueTransformFlipVertical, EncoderValueTransformRotate180, EncoderValueTransformRotate270, EncoderValueTransformRotate90, EncoderValueVersionGif87, EncoderValueVersionGif89, _gdiplus_ENUM_EncoderValue, gdiplus._gdiplus_ENUM_EncoderValue, gdiplusenums/EncoderValue, gdiplusenums/EncoderValueColorTypeCMYK, gdiplusenums/EncoderValueColorTypeYCCK, gdiplusenums/EncoderValueCompressionCCITT3, gdiplusenums/EncoderValueCompressionCCITT4, gdiplusenums/EncoderValueCompressionLZW, gdiplusenums/EncoderValueCompressionNone, gdiplusenums/EncoderValueCompressionRle, gdiplusenums/EncoderValueFlush, gdiplusenums/EncoderValueFrameDimensionPage, gdiplusenums/EncoderValueFrameDimensionResolution, gdiplusenums/EncoderValueFrameDimensionTime, gdiplusenums/EncoderValueLastFrame, gdiplusenums/EncoderValueMultiFrame, gdiplusenums/EncoderValueRenderNonProgressive, gdiplusenums/EncoderValueRenderProgressive, gdiplusenums/EncoderValueScanMethodInterlaced, gdiplusenums/EncoderValueScanMethodNonInterlaced, gdiplusenums/EncoderValueTransformFlipHorizontal, gdiplusenums/EncoderValueTransformFlipVertical, gdiplusenums/EncoderValueTransformRotate180, gdiplusenums/EncoderValueTransformRotate270, gdiplusenums/EncoderValueTransformRotate90, gdiplusenums/EncoderValueVersionGif87, gdiplusenums/EncoderValueVersionGif89
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: gdiplusenums.h
+req.include-header: Gdiplus.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Gdiplusenums.h
+api_name:
+-	EncoderValue
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.0
 ---
 
 # EncoderValue enumeration

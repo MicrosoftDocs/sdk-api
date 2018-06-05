@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj_core._SFVM_HELPTOPIC_DATA
+title: "_SFVM_HELPTOPIC_DATA"
+author: windows-sdk-content
+description: Contains the name of an HTML Help file and a topic in that file. Used with the SFVM_GETHELPTOPIC notification. This structure requires Unicode strings.
+old-location: shell\SFVM_HELPTOPIC_DATA_str.htm
+old-project: shell
+ms.assetid: c06f43ca-be32-4ab7-ba6c-a0066b749dba
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SFVM_HELPTOPIC_DATA, SFVM_HELPTOPIC_DATA structure [Windows Shell], _SFVM_HELPTOPIC_DATA, _win32_SFVM_HELPTOPIC_DATA_str, shell.SFVM_HELPTOPIC_DATA_str, shlobj_core/SFVM_HELPTOPIC_DATA
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SFVM_HELPTOPIC_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	SFVM_HELPTOPIC_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # _SFVM_HELPTOPIC_DATA structure

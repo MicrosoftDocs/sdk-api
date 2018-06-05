@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:t2embapi.TTDeleteEmbeddedFont
+title: TTDeleteEmbeddedFont function
+author: windows-sdk-content
+description: Releases memory used by an embedded font, hFontReference.
+old-location: gdi\ttdeleteembeddedfont.htm
+old-project: gdi
+ms.assetid: cbd0945a-3f78-43d2-87f7-18e6e9d00096
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: TTDELETE_DONTREMOVEFONT, TTDeleteEmbeddedFont, TTDeleteEmbeddedFont function [Windows GDI], _win32_TTDeleteEmbeddedFont, gdi.ttdeleteembeddedfont, t2embapi/TTDeleteEmbeddedFont
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: t2embapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SyncProviderConfiguration
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	T2embed.dll
+api_name:
+-	TTDeleteEmbeddedFont
+product: Windows
+targetos: Windows
+req.lib: T2embed.lib
+req.dll: T2embed.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TTDeleteEmbeddedFont function

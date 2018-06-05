@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:segment.IMSVidStreamBufferSourceEvent2.RateChange
+title: IMSVidStreamBufferSourceEvent2::RateChange
+author: windows-sdk-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+old-location: mstv\imsvidstreambuffersourceevent2_ratechange.htm
+old-project: mstv
+ms.assetid: 5c3b9e5f-51ad-4a36-8181-bec4243499a5
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies],RateChange method, IMSVidStreamBufferSourceEvent2.RateChange, IMSVidStreamBufferSourceEvent2::RateChange, IMSVidStreamBufferSourceEvent2RateChange, RateChange, RateChange method [Microsoft TV Technologies], RateChange method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent2 interface, mstv.imsvidstreambuffersourceevent2_ratechange, segment/IMSVidStreamBufferSourceEvent2::RateChange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidStreamBufferSourceEvent2.RateChange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidStreamBufferSourceEvent2::RateChange

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.ICrmMonitorLogRecords.get_Count
+title: ICrmMonitorLogRecords::get_Count
+author: windows-sdk-content
+description: Retrieves the number of log records written by this CRM clerk.
+old-location: cos\icrmmonitorlogrecords_get_count.htm
+old-project: cossdk
+ms.assetid: 51acc910-a38a-4747-bf99-b468f7ffddd1
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: ICrmMonitorLogRecords interface [COM+],get_Count method, ICrmMonitorLogRecords.get_Count, ICrmMonitorLogRecords::get_Count, _dtc_ICrmMonitorLogRecords_Count, comsvcs/ICrmMonitorLogRecords::get_Count, cos.icrmmonitorlogrecords_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ICrmMonitorLogRecords interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	ICrmMonitorLogRecords.get_Count
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICrmMonitorLogRecords::get_Count

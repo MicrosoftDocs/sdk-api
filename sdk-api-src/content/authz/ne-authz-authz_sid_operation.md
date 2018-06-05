@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:authz.AUTHZ_SID_OPERATION
+title: AUTHZ_SID_OPERATION
+author: windows-sdk-content
+description: Indicates the type of SID operations that can be made by a call to the AuthzModifySids function.
+old-location: security\authz_sid_operation.htm
+old-project: SecAuthZ
+ms.assetid: C312BE7D-DA1B-47FE-80BA-7506B9A26E9E
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PAUTHZ_SID_OPERATION, AUTHZ_SID_OPERATION, AUTHZ_SID_OPERATION enumeration [Security], AUTHZ_SID_OPERATION_ADD, AUTHZ_SID_OPERATION_DELETE, AUTHZ_SID_OPERATION_NONE, AUTHZ_SID_OPERATION_REPLACE, AUTHZ_SID_OPERATION_REPLACE_ALL, authz/AUTHZ_SID_OPERATION, authz/AUTHZ_SID_OPERATION_ADD, authz/AUTHZ_SID_OPERATION_DELETE, authz/AUTHZ_SID_OPERATION_NONE, authz/AUTHZ_SID_OPERATION_REPLACE, authz/AUTHZ_SID_OPERATION_REPLACE_ALL, security.authz_sid_operation"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: authz.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTHZ_SID_OPERATION, *PAUTHZ_SID_OPERATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Authz.h
+api_name:
+-	AUTHZ_SID_OPERATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # AUTHZ_SID_OPERATION enumeration

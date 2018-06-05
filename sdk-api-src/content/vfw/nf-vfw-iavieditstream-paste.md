@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vfw.IAVIEditStream.Paste
+title: IAVIEditStream::Paste
+author: windows-sdk-content
+description: The Paste method copies a stream or a portion of it in another stream. Called when an application uses the EditStreamPaste function.
+old-location: multimedia\iavieditstream_paste.htm
+old-project: Multimedia
+ms.assetid: bdb6de96-6a1e-49ca-a824-ed6d7b43fd13
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IAVIEditStream interface [Windows Multimedia],Paste method, IAVIEditStream.Paste, IAVIEditStream::Paste, Paste, Paste method [Windows Multimedia], Paste method [Windows Multimedia],IAVIEditStream interface, _win32_IAVIEditStream_Paste, multimedia.iavieditstream_paste, vfw/IAVIEditStream::Paste
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Vfw32.lib
+-	Vfw32.dll
+api_name:
+-	IAVIEditStream.Paste
+product: Windows
+targetos: Windows
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IAVIEditStream::Paste

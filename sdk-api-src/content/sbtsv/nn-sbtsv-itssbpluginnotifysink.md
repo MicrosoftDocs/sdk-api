@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:sbtsv.ITsSbPluginNotifySink
+title: ITsSbPluginNotifySink
+author: windows-sdk-content
+description: Exposes methods that notify Remote Desktop Connection Broker (RD Connection Broker) about initialization or termination of a plug-in.
+old-location: termserv\itssbpluginnotifysink.htm
+old-project: TermServ
+ms.assetid: c52a3253-74cb-4ff9-a4f3-cb9601c02e7d
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ITsSbPluginNotifySink, ITsSbPluginNotifySink interface [Remote Desktop Services], ITsSbPluginNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbPluginNotifySink, termserv.itssbpluginnotifysink
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: sbtsv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Sbtsv.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TS_SB_SORT_BY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbtsv.h
+api_name:
+-	ITsSbPluginNotifySink
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbPluginNotifySink interface

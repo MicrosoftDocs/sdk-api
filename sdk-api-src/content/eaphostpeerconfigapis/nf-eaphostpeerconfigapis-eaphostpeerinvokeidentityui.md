@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:eaphostpeerconfigapis.EapHostPeerInvokeIdentityUI
+title: EapHostPeerInvokeIdentityUI function
+author: windows-sdk-content
+description: This function is called by tunnel methods to invoke the identity UI of the inner methods. This function returns the identity as well as credentials to use in order to start the authentication.
+old-location: eaphost\eaphostpeerinvokeidentityui.htm
+old-project: EAPHost
+ms.assetid: 48c48162-44d8-45d2-9147-5bf006d493b5
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: EapHostPeerInvokeIdentityUI, EapHostPeerInvokeIdentityUI function [EAPHost], eaphost.eaphostpeerinvokeidentityui, eaphostpeerconfigapis/EapHostPeerInvokeIdentityUI
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: eaphostpeerconfigapis.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EAP_AUTHENTICATOR_SEND_TIMEOUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	eappcfg.dll
+api_name:
+-	EapHostPeerInvokeIdentityUI
+product: Windows
+targetos: Windows
+req.lib: Eappcfg.lib
+req.dll: Eappcfg.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # EapHostPeerInvokeIdentityUI function

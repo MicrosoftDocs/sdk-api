@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dcomp.SetCoefficient1
+title: SetCoefficient1 function
+author: windows-sdk-content
+description: Sets the first coefficient for the equation used to composite the two input images.
+old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient1_overloaded.htm
+old-project: directcomp
+ms.assetid: 74b18201-5710-1213-51f8-2f97ba86c9a4
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IDCompositionArithmeticCompositeEffect::setcoefficient1, SetCoefficient1, SetCoefficient1 methods [DirectComposition], dcomp/SetCoefficient1, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient1_overloaded
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dcomp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D_VECTOR_4F
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dcomp.h
+api_name:
+-	IDCompositionArithmeticCompositeEffect::setcoefficient1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # SetCoefficient1 function

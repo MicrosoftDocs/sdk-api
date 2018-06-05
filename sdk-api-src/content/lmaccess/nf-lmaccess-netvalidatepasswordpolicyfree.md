@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:lmaccess.NetValidatePasswordPolicyFree
+title: NetValidatePasswordPolicyFree function
+author: windows-sdk-content
+description: The NetValidatePasswordPolicyFree function frees the memory that the NetValidatePasswordPolicy function allocates for the OutputArg parameter, which is a NET_VALIDATE_OUTPUT_ARG structure.
+old-location: netmgmt\netvalidatepasswordpolicyfree.htm
+old-project: NetMgmt
+ms.assetid: 263834cd-a0e2-4ec0-9cb1-c03eb198de3a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: NetValidatePasswordPolicyFree, NetValidatePasswordPolicyFree function [Network Management], lmaccess/NetValidatePasswordPolicyFree, netmgmt.netvalidatepasswordpolicyfree
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: lmaccess.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netapi32.dll
+api_name:
+-	NetValidatePasswordPolicyFree
+product: Windows
+targetos: Windows
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # NetValidatePasswordPolicyFree function

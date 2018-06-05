@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwrite.DWRITE_FLOW_DIRECTION
+title: DWRITE_FLOW_DIRECTION
+author: windows-sdk-content
+description: Indicates the direction of how lines of text are placed relative to one another.
+old-location: directwrite\dwrite_flow_direction.htm
+old-project: DirectWrite
+ms.assetid: 35a78bde-ba80-4328-8fb8-77ca73c1c04b
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_FLOW_DIRECTION, DWRITE_FLOW_DIRECTION enumeration [Direct Write], DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP, DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT, DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT, DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM, directwrite.dwrite_flow_direction, dwrite/DWRITE_FLOW_DIRECTION, dwrite/DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP, dwrite/DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT, dwrite/DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT, dwrite/DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite.h
+api_name:
+-	DWRITE_FLOW_DIRECTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_FLOW_DIRECTION enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:traffic._TCI_CLIENT_FUNC_LIST
+title: "_TCI_CLIENT_FUNC_LIST"
+author: windows-sdk-content
+description: The TCI_CLIENT_FUNC_LIST structure is used by the traffic control interface to register and then access client-callback functions. Each member of TCI_CLIENT_FUNC_LIST is a pointer to the client provided&#8211;callback function.
+old-location: qos\tci_client_func_list.htm
+old-project: QOS
+ms.assetid: 45eccc44-d170-49cc-b51d-bb502c2fc1c7
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*PTCI_CLIENT_FUNC_LIST, PTCI_CLIENT_FUNC_LIST, PTCI_CLIENT_FUNC_LIST structure pointer [QOS], TCI_CLIENT_FUNC_LIST, TCI_CLIENT_FUNC_LIST structure [QOS], _TCI_CLIENT_FUNC_LIST, _gqos_tci_client_func_list, qos.tci_client_func_list, traffic/PTCI_CLIENT_FUNC_LIST, traffic/TCI_CLIENT_FUNC_LIST"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: traffic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TCI_CLIENT_FUNC_LIST, *PTCI_CLIENT_FUNC_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Traffic.h
+api_name:
+-	TCI_CLIENT_FUNC_LIST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TCI_CLIENT_FUNC_LIST structure

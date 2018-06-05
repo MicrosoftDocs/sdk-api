@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ocidl.tagCALPOLESTR
+title: tagCALPOLESTR
+author: windows-sdk-content
+description: Specifies a counted array of strings used to specify the predefined strings that a property can accept.
+old-location: com\calpolestr.htm
+old-project: com
+ms.assetid: 730d5e23-e84a-4629-9b59-492d8536122e
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPCALPOLESTR, CALPOLESTR, CALPOLESTR structure [COM], LPCALPOLESTR, LPCALPOLESTR structure pointer [COM], _ctrl_CALPOLESTR, com.calpolestr, ocidl/CALPOLESTR, ocidl/LPCALPOLESTR, tagCALPOLESTR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ocidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OCIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CALPOLESTR, *LPCALPOLESTR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	OCIdl.h
+api_name:
+-	CALPOLESTR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagCALPOLESTR structure

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vfw.AVIFileCreateStreamW
+title: AVIFileCreateStreamW function
+author: windows-sdk-content
+description: The AVIFileCreateStream function creates a new stream in an existing file and creates an interface to the new stream.
+old-location: multimedia\avifilecreatestream.htm
+old-project: Multimedia
+ms.assetid: bff87fbb-fcd8-4dd4-93d0-9cab39c30409
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: AVIFileCreateStream, AVIFileCreateStream function [Windows Multimedia], AVIFileCreateStreamA, AVIFileCreateStreamW, _win32_AVIFileCreateStream, multimedia.avifilecreatestream, vfw/AVIFileCreateStream, vfw/AVIFileCreateStreamA, vfw/AVIFileCreateStreamW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: AVIFileCreateStreamW (Unicode) and AVIFileCreateStreamA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Avifil32.dll
+api_name:
+-	AVIFileCreateStream
+-	AVIFileCreateStreamA
+-	AVIFileCreateStreamW
+product: Windows
+targetos: Windows
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # AVIFileCreateStreamW function

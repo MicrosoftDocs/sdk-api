@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:opmapi._OPM_OMAC
+title: "_OPM_OMAC"
+author: windows-sdk-content
+description: Contains a Message Authentication Code (MAC) for an Output Protection Manager (OPM) message.
+old-location: mf\opm_omac.htm
+old-project: medfound
+ms.assetid: 6ff37a2a-9e63-4097-8ee6-bcc4bd580ab8
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: OPM_OMAC, OPM_OMAC structure [Media Foundation], _OPM_OMAC, ksopmapi/OPM_OMAC, mf.opm_omac
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: opmapi.h
+req.include-header: Opmapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPM_OMAC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ksopmapi.h
+api_name:
+-	OPM_OMAC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _OPM_OMAC structure

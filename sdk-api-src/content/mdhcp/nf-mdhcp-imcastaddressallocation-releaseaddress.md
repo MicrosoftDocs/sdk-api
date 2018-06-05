@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mdhcp.IMcastAddressAllocation.ReleaseAddress
+title: IMcastAddressAllocation::ReleaseAddress
+author: windows-sdk-content
+description: The ReleaseAddress method releases a lease that was obtained previously.
+old-location: tapi3\imcastaddressallocation_releaseaddress.htm
+old-project: Tapi
+ms.assetid: 6b5fd18b-1b13-4e2a-9ff9-4a66212213a7
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],ReleaseAddress method, IMcastAddressAllocation.ReleaseAddress, IMcastAddressAllocation::ReleaseAddress, ReleaseAddress, ReleaseAddress method [TAPI 2.2], ReleaseAddress method [TAPI 2.2],IMcastAddressAllocation interface, _tapi3_imcastaddressallocation_releaseaddress, mdhcp/IMcastAddressAllocation::ReleaseAddress, tapi3.imcastaddressallocation_releaseaddress
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mdhcp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mdhcp.dll
+api_name:
+-	IMcastAddressAllocation.ReleaseAddress
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMcastAddressAllocation::ReleaseAddress

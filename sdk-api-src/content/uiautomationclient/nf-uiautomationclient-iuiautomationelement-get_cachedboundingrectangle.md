@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationElement.get_CachedBoundingRectangle
+title: IUIAutomationElement::get_CachedBoundingRectangle
+author: windows-sdk-content
+description: Retrieves the cached coordinates of the rectangle that completely encloses the element.
+old-location: winauto\uiauto_IUIAutomationElement_CachedBoundingRectangle.htm
+old-project: WinAuto
+ms.assetid: 31e171e1-b688-45ab-8bc3-971d9f61db3c
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CachedBoundingRectangle property [Windows Accessibility], CachedBoundingRectangle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedBoundingRectangle property, IUIAutomationElement.CachedBoundingRectangle, IUIAutomationElement.get_CachedBoundingRectangle, IUIAutomationElement::CachedBoundingRectangle, IUIAutomationElement::get_CachedBoundingRectangle, get_CachedBoundingRectangle, uiauto.uiauto_IUIAutomationElement_CachedBoundingRectangle, uiauto_IUIAutomationElement_CachedBoundingRectangle, uiautomationclient/IUIAutomationElement::CachedBoundingRectangle, uiautomationclient/IUIAutomationElement::get_CachedBoundingRectangle, winauto.uiauto_IUIAutomationElement_CachedBoundingRectangle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationElement.CachedBoundingRectangle
+-	IUIAutomationElement.get_CachedBoundingRectangle
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationElement::get_CachedBoundingRectangle

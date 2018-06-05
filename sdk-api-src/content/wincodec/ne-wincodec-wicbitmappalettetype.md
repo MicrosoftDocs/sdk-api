@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wincodec.WICBitmapPaletteType
+title: WICBitmapPaletteType
+author: windows-sdk-content
+description: Specifies the type of palette used for an indexed image format.
+old-location: wic\_wic_codec_wicbitmappalettetype.htm
+old-project: wic
+ms.assetid: a8192905-2bae-4760-bf2d-64640c46e168
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WICBitmapPaletteType, WICBitmapPaletteType enumeration [Windows Imaging Component], WICBitmapPaletteTypeCustom, WICBitmapPaletteTypeFixedBW, WICBitmapPaletteTypeFixedGray16, WICBitmapPaletteTypeFixedGray256, WICBitmapPaletteTypeFixedGray4, WICBitmapPaletteTypeFixedHalftone125, WICBitmapPaletteTypeFixedHalftone216, WICBitmapPaletteTypeFixedHalftone252, WICBitmapPaletteTypeFixedHalftone256, WICBitmapPaletteTypeFixedHalftone27, WICBitmapPaletteTypeFixedHalftone64, WICBitmapPaletteTypeFixedHalftone8, WICBitmapPaletteTypeFixedWebPalette, WICBitmapPaletteTypeMedianCut, _wic_codec_wicbitmappalettetype, wic._wic_codec_wicbitmappalettetype, wincodec/WICBitmapPaletteType, wincodec/WICBitmapPaletteTypeCustom, wincodec/WICBitmapPaletteTypeFixedBW, wincodec/WICBitmapPaletteTypeFixedGray16, wincodec/WICBitmapPaletteTypeFixedGray256, wincodec/WICBitmapPaletteTypeFixedGray4, wincodec/WICBitmapPaletteTypeFixedHalftone125, wincodec/WICBitmapPaletteTypeFixedHalftone216, wincodec/WICBitmapPaletteTypeFixedHalftone252, wincodec/WICBitmapPaletteTypeFixedHalftone256, wincodec/WICBitmapPaletteTypeFixedHalftone27, wincodec/WICBitmapPaletteTypeFixedHalftone64, wincodec/WICBitmapPaletteTypeFixedHalftone8, wincodec/WICBitmapPaletteTypeFixedWebPalette, wincodec/WICBitmapPaletteTypeMedianCut
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodec.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICBitmapPaletteType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincodec.h
+api_name:
+-	WICBitmapPaletteType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WICBitmapPaletteType enumeration

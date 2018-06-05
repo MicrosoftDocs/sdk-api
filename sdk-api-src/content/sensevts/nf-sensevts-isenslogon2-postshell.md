@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sensevts.ISensLogon2.PostShell
+title: ISensLogon2::PostShell
+author: windows-sdk-content
+description: Use the PostShell method when a user has logged on and Windows Explorer is running. This method is different from the Logon method because Logon is called after logon when the Shell may not yet be running.
+old-location: sens\isenslogon2_sessionpostshell.htm
+old-project: Sens
+ms.assetid: fa187b3c-fc78-410f-9339-9b4c94c43f95
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ISensLogon2 interface [SENS],PostShell method, ISensLogon2.PostShell, ISensLogon2::PostShell, PostShell, PostShell method [SENS], PostShell method [SENS],ISensLogon2 interface, _zaw_isenslogon2_sessionpostshell, sens.isenslogon2_sessionpostshell, sensevts/ISensLogon2::PostShell, syncmgr.isenslogon2_sessionpostshell
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sensevts.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,25 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Sensevts.tlb
+tech.root: 
+req.typenames: QOCINFO, *LPQOCINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Sens.dll
+api_name:
+-	ISensLogon2.PostShell
+-	ISensLogon2.PostShell
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISensLogon2::PostShell

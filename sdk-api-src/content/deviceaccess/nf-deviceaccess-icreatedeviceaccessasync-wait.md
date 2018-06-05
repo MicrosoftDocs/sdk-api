@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:deviceaccess.ICreateDeviceAccessAsync.Wait
+title: ICreateDeviceAccessAsync::Wait
+author: windows-sdk-content
+description: The Wait method waits a specified length of time for an asynchronous bind operation that is in progress to finish.
+old-location: deviceaccess\icreatedeviceaccessasync_wait.htm
+old-project: deviceaccess
+ms.assetid: 6fdab230-f8f7-47fa-838f-97316a4e78b9
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ICreateDeviceAccessAsync interface [Device Access Broker API],Wait method, ICreateDeviceAccessAsync.Wait, ICreateDeviceAccessAsync::Wait, Wait, Wait method [Device Access Broker API], Wait method [Device Access Broker API],ICreateDeviceAccessAsync interface, deviceaccess.icreatedeviceaccessasync_wait, deviceaccess/ICreateDeviceAccessAsync::Wait
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: deviceaccess.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Deviceaccess.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIDEOMEMORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Deviceaccess.lib
+-	Deviceaccess.dll
+api_name:
+-	ICreateDeviceAccessAsync.Wait
+product: Windows
+targetos: Windows
+req.lib: Deviceaccess.lib
+req.dll: 
+req.irql: 
 ---
 
 # ICreateDeviceAccessAsync::Wait

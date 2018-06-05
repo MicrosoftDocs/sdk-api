@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vfw.ICINFO
+title: ICINFO
+author: windows-sdk-content
+description: The ICINFO structure contains compression parameters supplied by a video compression driver. The driver fills or updates the structure when it receives the ICM_GETINFO message.
+old-location: multimedia\icinfo_struct.htm
+old-project: Multimedia
+ms.assetid: 5faf7022-6dc8-475c-8f5a-721bc5b6afee
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ICINFO, ICINFO structure [Windows Multimedia], VIDCF_COMPRESSFRAMES, VIDCF_CRUNCH, VIDCF_DRAW, VIDCF_FASTTEMPORALC, VIDCF_FASTTEMPORALD, VIDCF_QUALITY, VIDCF_TEMPORAL, multimedia.icinfo_COLLISION204, multimedia.icinfo_struct, vfw/ICINFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ICINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vfw.h
+api_name:
+-	ICINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # ICINFO structure

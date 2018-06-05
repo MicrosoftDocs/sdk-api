@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl._MF_CONNECT_METHOD
+title: "_MF_CONNECT_METHOD"
+author: windows-sdk-content
+description: Specifies how the topology loader connects a topology node.
+old-location: mf\mf_connect_method.htm
+old-project: medfound
+ms.assetid: 881045bf-ea3b-46e2-aae0-b26e35882da1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 881045bf-ea3b-46e2-aae0-b26e35882da1, MF_CONNECT_ALLOW_CONVERTER, MF_CONNECT_ALLOW_DECODER, MF_CONNECT_AS_OPTIONAL, MF_CONNECT_AS_OPTIONAL_BRANCH, MF_CONNECT_DIRECT, MF_CONNECT_METHOD, MF_CONNECT_METHOD enumeration [Media Foundation], MF_CONNECT_RESOLVE_INDEPENDENT_OUTPUTTYPES, _MF_CONNECT_METHOD, mf.mf_connect_method, mfidl/MF_CONNECT_ALLOW_CONVERTER, mfidl/MF_CONNECT_ALLOW_DECODER, mfidl/MF_CONNECT_AS_OPTIONAL, mfidl/MF_CONNECT_AS_OPTIONAL_BRANCH, mfidl/MF_CONNECT_DIRECT, mfidl/MF_CONNECT_METHOD, mfidl/MF_CONNECT_RESOLVE_INDEPENDENT_OUTPUTTYPES
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CONNECT_METHOD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MF_CONNECT_METHOD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MF_CONNECT_METHOD enumeration

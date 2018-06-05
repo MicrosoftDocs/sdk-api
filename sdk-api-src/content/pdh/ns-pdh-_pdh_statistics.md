@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:pdh._PDH_STATISTICS
+title: "_PDH_STATISTICS"
+author: windows-sdk-content
+description: The PDH_STATISTICS structure contains the minimum, maximum, and mean values for an array of raw counters values.
+old-location: perf\pdh_statistics_str.htm
+old-project: PerfCtrs
+ms.assetid: a1daedfd-55f6-418e-b71f-8334cb628d98
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PPDH_STATISTICS, PDH_STATISTICS, PDH_STATISTICS structure [Perf], PPDH_STATISTICS, PPDH_STATISTICS structure pointer [Perf], _PDH_STATISTICS, _win32_pdh_statistics_str, base.pdh_statistics_str, pdh/PDH_STATISTICS, pdh/PPDH_STATISTICS, perf.pdh_statistics_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: pdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDH_STATISTICS, *PPDH_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pdh.h
+api_name:
+-	PDH_STATISTICS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PDH_STATISTICS structure

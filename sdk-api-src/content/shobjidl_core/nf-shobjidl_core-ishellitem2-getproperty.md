@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IShellItem2.GetProperty
+title: IShellItem2::GetProperty
+author: windows-sdk-content
+description: Gets a PROPVARIANT structure from a specified property key.
+old-location: shell\IShellItem2_GetProperty.htm
+old-project: shell
+ms.assetid: f72e23b9-e99b-462b-91b6-9ef27a4fc9e1
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetProperty, GetProperty method [Windows Shell], GetProperty method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetProperty method, IShellItem2.GetProperty, IShellItem2::GetProperty, _shell_IShellItem2_GetProperty, shell.IShellItem2_GetProperty, shobjidl_core/IShellItem2::GetProperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	IShellItem2.GetProperty
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IShellItem2::GetProperty

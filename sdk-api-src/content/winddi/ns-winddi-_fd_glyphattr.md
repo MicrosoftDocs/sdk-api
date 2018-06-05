@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi._FD_GLYPHATTR
+title: "_FD_GLYPHATTR"
+author: windows-sdk-content
+description: The FD_GLYPHATTR structure is used to specify the return value for the FONTOBJ_pQueryGlyphAttrs and DrvQueryGlyphAttrs functions.
+old-location: display\fd_glyphattr.htm
+old-project: display
+ms.assetid: 25a5c390-244c-4cff-a6a5-cc61fc5aa40b
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PFD_GLYPHATTR, FD_GLYPHATTR, FD_GLYPHATTR structure [Display Devices], PFD_GLYPHATTR, PFD_GLYPHATTR structure pointer [Display Devices], _FD_GLYPHATTR, display.fd_glyphattr, grstrcts_5edf5620-9123-4fdd-b402-d7e06bdeee2a.xml, winddi/FD_GLYPHATTR, winddi/PFD_GLYPHATTR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FD_GLYPHATTR, *PFD_GLYPHATTR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	FD_GLYPHATTR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FD_GLYPHATTR structure

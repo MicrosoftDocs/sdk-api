@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IObjectContext.SetComplete
+title: IObjectContext::SetComplete
+author: windows-sdk-content
+description: Declares that the transaction in which the object is executing can be committed and that the object should be deactivated when it returns from the currently executing method call.
+old-location: cos\iobjectcontext_setcomplete.htm
+old-project: cossdk
+ms.assetid: 8ff25b68-fcb3-4e11-9c74-b49b31806796
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IObjectContext interface [COM+],SetComplete method, IObjectContext.SetComplete, IObjectContext::SetComplete, SetComplete, SetComplete method [COM+], SetComplete method [COM+],IObjectContext interface, _cos_IObjectContext_SetComplete, comsvcs/IObjectContext::SetComplete, cos.iobjectcontext_setcomplete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IObjectContext.SetComplete
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IObjectContext::SetComplete

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
+title: "_CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO"
+author: windows-sdk-content
+description: Contains information on a message receiver used to decrypt the session key needed to decrypt the message contents.
+old-location: security\cmsg_recipient_encrypted_key_encode_info.htm
+old-project: SecCrypto
+ms.assetid: 839ab3d8-0fdc-4d43-a12b-238091289ff5
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO, CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO, CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO structure [Security], PCMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO, PCMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO structure pointer [Security], _CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO, _crypto2_cmsg_recipient_encrypted_key_encode_info, security.cmsg_recipient_encrypted_key_encode_info, wincrypt/CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO, wincrypt/PCMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO, *PCMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO structure

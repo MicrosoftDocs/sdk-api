@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wincodec.WICComponentSigning
+title: WICComponentSigning
+author: windows-sdk-content
+description: Specifies the component signing status.
+old-location: wic\_wic_codec_wiccomponentsigning.htm
+old-project: wic
+ms.assetid: 64f3de6d-15da-4cc8-ad74-57759bcd4d07
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WICComponentDisabled, WICComponentSafe, WICComponentSigned, WICComponentSigning, WICComponentSigning enumeration [Windows Imaging Component], WICComponentUnsigned, _wic_codec_wiccomponentsigning, wic._wic_codec_wiccomponentsigning, wincodec/WICComponentDisabled, wincodec/WICComponentSafe, wincodec/WICComponentSigned, wincodec/WICComponentSigning, wincodec/WICComponentUnsigned
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodec.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICComponentSigning
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincodec.h
+api_name:
+-	WICComponentSigning
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WICComponentSigning enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:d2d1helper.StrokeStyleProperties
+title: StrokeStyleProperties function
+author: windows-sdk-content
+description: Creates a D2D1_STROKE_STYLE_PROPERTIES structure.
+old-location: direct2d\strokestyleproperties.htm
+old-project: Direct2D
+ms.assetid: 7b7c2313-b105-45b2-9348-752ca44db716
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: StrokeStyleProperties, StrokeStyleProperties function [Direct2D], d2d1helper/StrokeStyleProperties, direct2d.strokestyleproperties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d2d1helper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_VIGNETTE_PROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D2d1.dll
+api_name:
+-	StrokeStyleProperties
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # StrokeStyleProperties function

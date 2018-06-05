@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:clusapi.PCLUSAPI_GET_CLUSTER_NODE_ID
+title: PCLUSAPI_GET_CLUSTER_NODE_ID
+author: windows-sdk-content
+description: Returns the unique identifier of a cluster node.
+old-location: mscs\getclusternodeid.htm
+old-project: MsCS
+ms.assetid: 976ca079-10f7-4e12-9033-07ea83e8c92a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PCLUSAPI_GET_CLUSTER_NODE_ID, PCLUSAPI_GET_CLUSTER_NODE_ID callback, PCLUSAPI_GET_CLUSTER_NODE_ID callback function [Failover Cluster], _wolf_getclusternodeid, clusapi/PCLUSAPI_GET_CLUSTER_NODE_ID, mscs.getclusternodeid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: Sources
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ClusAPI.h
+api_name:
+-	PCLUSAPI_GET_CLUSTER_NODE_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PCLUSAPI_GET_CLUSTER_NODE_ID callback function

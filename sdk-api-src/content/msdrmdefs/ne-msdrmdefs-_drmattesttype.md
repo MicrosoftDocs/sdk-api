@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:msdrmdefs._DRMATTESTTYPE
+title: "_DRMATTESTTYPE"
+author: windows-sdk-content
+description: The DRMATTESTTYPE enumeration specifies what kind of signature to create for a data blob.
+old-location: rm\drmattesttype.htm
+old-project: AdRms_Sdk
+ms.assetid: adbf8718-e707-4ab9-a961-f8b4b4e1fe6a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DRMATTESTTYPE, DRMATTESTTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMATTESTTYPE_FULLENVIRONMENT, DRMATTESTTYPE_HASHONLY, _DRMATTESTTYPE, msdrmdefs/DRMATTESTTYPE, msdrmdefs/DRMATTESTTYPE_FULLENVIRONMENT, msdrmdefs/DRMATTESTTYPE_HASHONLY, rm.drmattesttype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msdrmdefs.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRMATTESTTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msdrmdefs.h
+api_name:
+-	DRMATTESTTYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _DRMATTESTTYPE enumeration

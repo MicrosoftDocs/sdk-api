@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationElement2.get_CachedLiveSetting
+title: IUIAutomationElement2::get_CachedLiveSetting
+author: windows-sdk-content
+description: Retrieves a cached value that indicates the type of notifications, if any, that the element sends when the content of the element changes.
+old-location: winauto\uiauto_iuiautomationelement2_cachedlivesetting.htm
+old-project: WinAuto
+ms.assetid: 5DAE4E4B-A93D-4743-907E-29FC4B6D9101
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CachedLiveSetting property [Windows Accessibility], CachedLiveSetting property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CachedLiveSetting property, IUIAutomationElement2.CachedLiveSetting, IUIAutomationElement2.get_CachedLiveSetting, IUIAutomationElement2::CachedLiveSetting, IUIAutomationElement2::get_CachedLiveSetting, get_CachedLiveSetting, uiautomationclient/IUIAutomationElement2::CachedLiveSetting, uiautomationclient/IUIAutomationElement2::get_CachedLiveSetting, winauto.uiauto_iuiautomationelement2_cachedlivesetting
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationElement2.CachedLiveSetting
+-	IUIAutomationElement2.get_CachedLiveSetting
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationElement2::get_CachedLiveSetting

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wabapi._tagWAB_PARAM
+title: "_tagWAB_PARAM"
+author: windows-sdk-content
+description: Do not use. Contains the input information to pass to WABOpen.
+old-location: wab\_wab_WAB_PARAM.htm
+old-project: wab
+ms.assetid: VS|wab|~\wab\reference\structures\wab_param.htm
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPWAB_PARAM, LPWAB_PARAM, LPWAB_PARAM structure pointer [Windows Address Book], WAB_ENABLE_PROFILES, WAB_PARAM, WAB_PARAM structure [Windows Address Book], WAB_USE_OE_SENDMAIL, _tagWAB_PARAM, _wab_WAB_PARAM, wab._wab_WAB_PARAM, wabapi/LPWAB_PARAM, wabapi/WAB_PARAM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wabapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WAB_PARAM, *LPWAB_PARAM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wabapi.h
+api_name:
+-	WAB_PARAM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 4.0
 ---
 
 # _tagWAB_PARAM structure

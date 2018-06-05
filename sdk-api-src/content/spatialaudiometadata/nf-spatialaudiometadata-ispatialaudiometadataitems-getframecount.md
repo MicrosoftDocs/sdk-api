@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:spatialaudiometadata.ISpatialAudioMetadataItems.GetFrameCount
+title: ISpatialAudioMetadataItems::GetFrameCount
+author: windows-sdk-content
+description: Gets the total frame count of the ISpatialAudioMetadataItems, which defines valid item offsets.
+old-location: coreaudio\ispatialaudiometadataitems_getframecount.htm
+old-project: CoreAudio
+ms.assetid: 5932E338-AB0E-4D1E-9B7E-36E2D5A76B18
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetFrameCount, GetFrameCount method [Core Audio], GetFrameCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetFrameCount method, ISpatialAudioMetadataItems.GetFrameCount, ISpatialAudioMetadataItems::GetFrameCount, coreaudio.ispatialaudiometadataitems_getframecount, spatialaudiometadata/ISpatialAudioMetadataItems::GetFrameCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spatialaudiometadata.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SpatialAudioMetadataWriterOverflowMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SpatialAudioMetadata.h
+api_name:
+-	ISpatialAudioMetadataItems.GetFrameCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioMetadataItems::GetFrameCount

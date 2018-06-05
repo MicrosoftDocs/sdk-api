@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msclus.ISCluster.get_CommonROProperties
+title: ISCluster::get_CommonROProperties
+author: windows-sdk-content
+description: Returns the read-only common properties of a cluster.
+old-location: mscs\cluster_commonroproperties.htm
+old-project: MsCS
+ms.assetid: fcd27e3b-4895-445f-a578-f08ccd110a99
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: Cluster object [Failover Cluster],CommonROProperties property, Cluster.CommonROProperties, CommonROProperties property [Failover Cluster], CommonROProperties property [Failover Cluster],Cluster object, ISCluster.get_CommonROProperties, ISCluster::get_CommonROProperties, _wolf_cluster.commonroproperties, get_CommonROProperties, mscs.cluster_commonroproperties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: MsClus.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: MsClus.tlb
+tech.root: 
+req.typenames: CLUS_GROUP_START_SETTING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	MsClus.dll
+api_name:
+-	Cluster.CommonROProperties
+-	ISCluster.get_CommonROProperties
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MsClus.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ISCluster::get_CommonROProperties

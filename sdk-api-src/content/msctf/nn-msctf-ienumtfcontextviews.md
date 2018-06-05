@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:msctf.IEnumTfContextViews
+title: IEnumTfContextViews
+author: windows-sdk-content
+description: Not implemented.
+old-location: tsf\ienumtfcontextviews.htm
+old-project: TSF
+ms.assetid: d9b4be70-0ef3-421a-9c9a-18533d563170
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IEnumTfContextViews, IEnumTfContextViews interface [Text Services Framework], IEnumTfContextViews interface [Text Services Framework],described, _tsf_ienumtfcontextviews_ref, msctf/IEnumTfContextViews, tsf.ienumtfcontextviews
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.h
+api_name:
+-	IEnumTfContextViews
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IEnumTfContextViews interface

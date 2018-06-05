@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:audioclient.IAudioCaptureClient.GetBuffer
+title: IAudioCaptureClient::GetBuffer
+author: windows-sdk-content
+description: Retrieves a pointer to the next available packet of data in the capture endpoint buffer.
+old-location: coreaudio\iaudiocaptureclient_getbuffer.htm
+old-project: CoreAudio
+ms.assetid: 4298f584-39ce-4138-994a-0e551370429f
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetBuffer, GetBuffer method [Core Audio], GetBuffer method [Core Audio],IAudioCaptureClient interface, IAudioCaptureClient interface [Core Audio],GetBuffer method, IAudioCaptureClient.GetBuffer, IAudioCaptureClient::GetBuffer, IAudioCaptureClientGetBuffer, audioclient/IAudioCaptureClient::GetBuffer, coreaudio.iaudiocaptureclient_getbuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioclient.h
+api_name:
+-	IAudioCaptureClient.GetBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioCaptureClient::GetBuffer

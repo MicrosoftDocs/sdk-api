@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:windef._RECTL
+title: "_RECTL"
+author: windows-sdk-content
+description: The RECTL structure defines a rectangle by the coordinates of its upper-left and lower-right corners.
+old-location: display\rectl.htm
+old-project: display
+ms.assetid: 709f8262-829e-4cda-bb0b-564307edfd24
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPRECTL, *PRECTL, LPRECTL, LPRECTL structure pointer [Display Devices], PRECTL, PRECTL structure pointer [Display Devices], RECTL, RECTL structure [Display Devices], _RECTL, display.rectl, grstrcts_9ae84b3b-7f9e-4296-a6da-4565cd170470.xml, windef/LPRECTL, windef/PRECTL, windef/RECTL"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: windef.h
+req.include-header: Windows.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RECTL, *PRECTL, *LPRECTL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	windef.h
+api_name:
+-	RECTL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _RECTL structure

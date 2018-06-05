@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmquota.IFsrmQuotaTemplateManager.ExportTemplates
+title: IFsrmQuotaTemplateManager::ExportTemplates
+author: windows-sdk-content
+description: Exports the quota templates as an XML string.
+old-location: fsrm\ifsrmquotatemplatemanager_exporttemplates.htm
+old-project: Fsrm
+ms.assetid: 36ba071b-4db2-42fb-90a8-838c45dfdd16
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: ExportTemplates, ExportTemplates method [File Server Resource Manager], ExportTemplates method [File Server Resource Manager],FsrmQuotaTemplateManager class, ExportTemplates method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, FsrmQuotaTemplateManager class [File Server Resource Manager],ExportTemplates method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],ExportTemplates method, IFsrmQuotaTemplateManager.ExportTemplates, IFsrmQuotaTemplateManager::ExportTemplates, fs.ifsrmquotatemplatemanager_exporttemplates, fsrm.ifsrmquotatemplatemanager_exporttemplates, fsrmquota/IFsrmQuotaTemplateManager::ExportTemplates
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmquota.h
+req.include-header: FsrmQuota.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmQuotaTemplateManager.ExportTemplates
+-	FsrmQuotaTemplateManager.ExportTemplates
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmQuotaTemplateManager::ExportTemplates

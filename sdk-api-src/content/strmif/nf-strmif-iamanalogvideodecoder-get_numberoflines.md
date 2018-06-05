@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.IAMAnalogVideoDecoder.get_NumberOfLines
+title: IAMAnalogVideoDecoder::get_NumberOfLines
+author: windows-sdk-content
+description: The get_NumberOfLInes method retrieves the number of scan lines in the video signal.
+old-location: dshow\iamanalogvideodecoder_get_numberoflines.htm
+old-project: DirectShow
+ms.assetid: d1c30230-bd47-4bdb-a89a-332c4da7cc00
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_NumberOfLines method, IAMAnalogVideoDecoder.get_NumberOfLines, IAMAnalogVideoDecoder::get_NumberOfLines, IAMAnalogVideoDecoderget_NumberOfLines, dshow.iamanalogvideodecoder_get_numberoflines, get_NumberOfLines, get_NumberOfLines method [DirectShow], get_NumberOfLines method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_NumberOfLines
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IAMAnalogVideoDecoder.get_NumberOfLines
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IAMAnalogVideoDecoder::get_NumberOfLines

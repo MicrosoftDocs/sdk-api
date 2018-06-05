@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagENHMETAHEADER
+title: tagENHMETAHEADER
+author: windows-sdk-content
+description: The ENHMETAHEADER structure contains enhanced-metafile data such as the dimensions of the picture stored in the enhanced metafile, the count of records in the enhanced metafile, the resolution of the device on which the picture was created, and so on.This structure is always the first record in an enhanced metafile.
+old-location: gdi\enhmetaheader.htm
+old-project: gdi
+ms.assetid: 8e5f9a51-a995-48be-b936-1766fccb603a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPENHMETAHEADER, *PENHMETAHEADER, ENHMETAHEADER, ENHMETAHEADER structure [Windows GDI], PENHMETAHEADER, PENHMETAHEADER structure pointer [Windows GDI], _win32_ENHMETAHEADER_str, gdi.enhmetaheader, tagENHMETAHEADER, wingdi/ENHMETAHEADER, wingdi/PENHMETAHEADER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENHMETAHEADER, *PENHMETAHEADER, *LPENHMETAHEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	ENHMETAHEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagENHMETAHEADER structure

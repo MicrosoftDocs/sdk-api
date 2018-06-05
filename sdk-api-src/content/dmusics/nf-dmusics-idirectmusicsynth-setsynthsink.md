@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dmusics.IDirectMusicSynth.SetSynthSink
+title: IDirectMusicSynth::SetSynthSink
+author: windows-sdk-content
+description: The SetSynthSink method establishes the connection of the synth to the wave sink.
+old-location: audio\idirectmusicsynth_setsynthsink.htm
+old-project: audio
+ms.assetid: 51153ea3-7c61-458a-8879-10efbd678b53
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IDirectMusicSynth interface [Audio Devices],SetSynthSink method, IDirectMusicSynth.SetSynthSink, IDirectMusicSynth::SetSynthSink, SetSynthSink, SetSynthSink method [Audio Devices], SetSynthSink method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_setsynthsink, audmp-routines_4a1e1c4d-af5d-4141-8740-308cf711184e.xml, dmusics/IDirectMusicSynth::SetSynthSink
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dmusics.h
+req.include-header: Dmusics.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dmusics.h
+api_name:
+-	IDirectMusicSynth.SetSynthSink
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectMusicSynth::SetSynthSink

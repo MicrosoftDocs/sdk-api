@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wdstci._TRANSPORTCLIENT_CALLBACK_ID
+title: "_TRANSPORTCLIENT_CALLBACK_ID"
+author: windows-sdk-content
+description: This enumeration is received by the WdsTransportClientRegisterCallback function.
+old-location: wds\transportclient_callback_id.htm
+old-project: Wds
+ms.assetid: 6dd5e1ed-a9f8-4c6b-8bbb-8e3e6551d980
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*PTRANSPORTCLIENT_CALLBACK_ID, TRANSPORTCLIENT_CALLBACK_ID, TRANSPORTCLIENT_CALLBACK_ID enumeration [Windows Deployment Services], TRANSPORTCLIENT_CALLBACK_ID,*PTRANSPORTCLIENT_CALLBACK_ID, TRANSPORTCLIENT_CALLBACK_ID,*PTRANSPORTCLIENT_CALLBACK_ID enumeration [Windows Deployment Services], WDS_TRANSPORTCLIENT_MAX_CALLBACKS, WDS_TRANSPORTCLIENT_RECEIVE_CONTENTS, WDS_TRANSPORTCLIENT_RECEIVE_METADATA, WDS_TRANSPORTCLIENT_SESSION_COMPLETE, WDS_TRANSPORTCLIENT_SESSION_START, WDS_TRANSPORTCLIENT_SESSION_STARTEX, _TRANSPORTCLIENT_CALLBACK_ID, wds.transportclient_callback_id, wdstci/ WDS_TRANSPORTCLIENT_SESSION_STARTEX, wdstci/TRANSPORTCLIENT_CALLBACK_ID, wdstci/WDS_TRANSPORTCLIENT_MAX_CALLBACKS, wdstci/WDS_TRANSPORTCLIENT_RECEIVE_CONTENTS, wdstci/WDS_TRANSPORTCLIENT_RECEIVE_METADATA, wdstci/WDS_TRANSPORTCLIENT_SESSION_COMPLETE, wdstci/WDS_TRANSPORTCLIENT_SESSION_START"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wdstci.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRANSPORTCLIENT_CALLBACK_ID, *PTRANSPORTCLIENT_CALLBACK_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wdstci.h
+api_name:
+-	TRANSPORTCLIENT_CALLBACK_ID,*PTRANSPORTCLIENT_CALLBACK_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _TRANSPORTCLIENT_CALLBACK_ID enumeration

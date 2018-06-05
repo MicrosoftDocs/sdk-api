@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlobj_core.DAD_DragEnterEx2
+title: DAD_DragEnterEx2 function
+author: windows-sdk-content
+description: Locks updates to the specified window during a drag-and-drop operation and displays the drag image at the specified position within the window.
+old-location: shell\DAD_DragEnterEx2.htm
+old-project: shell
+ms.assetid: d9d902c5-c488-4e23-a749-bae42c6cb719
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: DAD_DragEnterEx2, DAD_DragEnterEx2 function [Windows Shell], _shell_DAD_DragEnterEx2, shell.DAD_DragEnterEx2, shlobj_core/DAD_DragEnterEx2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETELISTOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+-	ext-ms-win-shell-shell32-l1-2-1.dll
+-	Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+api_name:
+-	DAD_DragEnterEx2
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # DAD_DragEnterEx2 function

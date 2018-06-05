@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dxmini._DDGETPREVIOUSAUTOFLIPININFO
+title: "_DDGETPREVIOUSAUTOFLIPININFO"
+author: windows-sdk-content
+description: The DDGETPREVIOUSAUTOFLIPININFO structure provides the video port extensions (VPE) object information.
+old-location: display\ddgetpreviousautoflipininfo.htm
+old-project: display
+ms.assetid: 44816bbe-9ec2-4f96-a18c-442359aa36ad
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDDGETPREVIOUSAUTOFLIPININFO, DDGETPREVIOUSAUTOFLIPININFO, DDGETPREVIOUSAUTOFLIPININFO structure [Display Devices], PDDGETPREVIOUSAUTOFLIPININFO, PDDGETPREVIOUSAUTOFLIPININFO structure pointer [Display Devices], Video_Structs_4327df9a-a51c-4fd6-9cd6-ef0665c6562e.xml, _DDGETPREVIOUSAUTOFLIPININFO, display.ddgetpreviousautoflipininfo, dxmini/DDGETPREVIOUSAUTOFLIPININFO, dxmini/PDDGETPREVIOUSAUTOFLIPININFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDGETPREVIOUSAUTOFLIPININFO, *PDDGETPREVIOUSAUTOFLIPININFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxmini.h
+api_name:
+-	DDGETPREVIOUSAUTOFLIPININFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DDGETPREVIOUSAUTOFLIPININFO structure

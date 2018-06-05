@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsock.GetAcceptExSockaddrs
+title: GetAcceptExSockaddrs function
+author: windows-sdk-content
+description: Parses the data obtained from a call to the AcceptEx function and passes the local and remote addresses to a sockaddr structure.Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .
+old-location: winsock\getacceptexsockaddrs_2.htm
+old-project: WinSock
+ms.assetid: 381ba8ab-3c99-45c8-8895-4c87949f5238
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: GetAcceptExSockaddrs, GetAcceptExSockaddrs function [Winsock], _win32_getacceptexsockaddrs_2, winsock.getacceptexsockaddrs_2, winsock/GetAcceptExSockaddrs
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winsock.h
+req.include-header: Mswsock.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: smiVENDORINFO, *smiLPVENDORINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Mswsock.dll
+api_name:
+-	GetAcceptExSockaddrs
+product: Windows
+targetos: Windows
+req.lib: Mswsock.lib
+req.dll: Mswsock.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # GetAcceptExSockaddrs function

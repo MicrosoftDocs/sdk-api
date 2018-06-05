@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oaidl.ICreateTypeInfo2.DeleteFuncDesc
+title: ICreateTypeInfo2::DeleteFuncDesc
+author: windows-sdk-content
+description: Deletes a function description specified by the index number.
+old-location: automat\icreatetypeinfo2_deletefuncdesc.htm
+old-project: automat
+ms.assetid: 5e157287-e4f3-49c4-9c18-a7b3ba1a965d
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: DeleteFuncDesc, DeleteFuncDesc method [Automation], DeleteFuncDesc method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteFuncDesc method, ICreateTypeInfo2.DeleteFuncDesc, ICreateTypeInfo2::DeleteFuncDesc, _oa96_ICreateTypeInfo2_DeleteFuncDesc, automat.icreatetypeinfo2_deletefuncdesc, oaidl/ICreateTypeInfo2::DeleteFuncDesc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OaIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ICreateTypeInfo2.DeleteFuncDesc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ICreateTypeInfo2::DeleteFuncDesc

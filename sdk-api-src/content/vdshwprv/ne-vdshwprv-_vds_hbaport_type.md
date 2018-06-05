@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vdshwprv._VDS_HBAPORT_TYPE
+title: "_VDS_HBAPORT_TYPE"
+author: windows-sdk-content
+description: Defines the set of valid types for an HBA port.
+old-location: base\vds_hbaport_type.htm
+old-project: VDS
+ms.assetid: fcad33c0-9a85-4180-b5de-fbef06e9e6e6
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_HBAPORT_TYPE, VDS_HBAPORT_TYPE enumeration [VDS], VDS_HPT_EPORT, VDS_HPT_FLPORT, VDS_HPT_FPORT, VDS_HPT_GPORT, VDS_HPT_LPORT, VDS_HPT_NLPORT, VDS_HPT_NOTPRESENT, VDS_HPT_NPORT, VDS_HPT_OTHER, VDS_HPT_PTP, VDS_HPT_UNKNOWN, _VDS_HBAPORT_TYPE, base.vds_hbaport_type, vds/VDS_HBAPORT_TYPE, vds/VDS_HPT_EPORT, vds/VDS_HPT_FLPORT, vds/VDS_HPT_FPORT, vds/VDS_HPT_GPORT, vds/VDS_HPT_LPORT, vds/VDS_HPT_NLPORT, vds/VDS_HPT_NOTPRESENT, vds/VDS_HPT_NPORT, vds/VDS_HPT_OTHER, vds/VDS_HPT_PTP, vds/VDS_HPT_UNKNOWN, vdshwprv/VDS_HBAPORT_TYPE, vdshwprv/VDS_HPT_EPORT, vdshwprv/VDS_HPT_FLPORT, vdshwprv/VDS_HPT_FPORT, vdshwprv/VDS_HPT_GPORT, vdshwprv/VDS_HPT_LPORT, vdshwprv/VDS_HPT_NLPORT, vdshwprv/VDS_HPT_NOTPRESENT, vdshwprv/VDS_HPT_NPORT, vdshwprv/VDS_HPT_OTHER, vdshwprv/VDS_HPT_PTP, vdshwprv/VDS_HPT_UNKNOWN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vdshwprv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_HBAPORT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_HBAPORT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_HBAPORT_TYPE enumeration

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.ReauthenticateUser
+title: ITSGAuthenticateUserSink::ReauthenticateUser
+author: windows-sdk-content
+description: Notifies Remote Desktop Gateway (RD Gateway) that it should silently reauthenticate and reauthorize the user.
+old-location: termserv\itsgauthenticateusersink_reauthenticateuser.htm
+old-project: TermServ
+ms.assetid: f3706f72-d23c-49ac-9d81-3a38f8d399c8
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],ReauthenticateUser method, ITSGAuthenticateUserSink.ReauthenticateUser, ITSGAuthenticateUserSink::ReauthenticateUser, ReauthenticateUser, ReauthenticateUser method [Remote Desktop Services], ReauthenticateUser method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_reauthenticateuser, tsgauthenticationengine/ITSGAuthenticateUserSink::ReauthenticateUser
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tsgauthenticationengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: TSGAuthenticationEngine.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	TSGAuthenticationEngine.h
+api_name:
+-	ITSGAuthenticateUserSink.ReauthenticateUser
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITSGAuthenticateUserSink::ReauthenticateUser

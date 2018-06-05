@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl.SYNC_ENGINE_STATE_FLAGS
+title: SYNC_ENGINE_STATE_FLAGS
+author: windows-sdk-content
+description: Specifies values used by any sync engine to expose their internal engine states to the Property Store's PKEY_StorageProviderStatus value in the File Indexer To update the property, first call IShellItem2::GetPropertyStore with the GPS_EXTRINSICPROPERTIES flag. Next, call the IPropertyStore::SetValue method of the returned object, specifying the PKEY_StorageProviderStatus key, to set the property's bitmask value using these SYNC_ENGINE_STATE_FLAGS.
+old-location: properties\SYNC_ENGINE_STATE_FLAGS.htm
+old-project: properties
+ms.assetid: BD81EE89-AAB3-4270-8F62-B26708740EE1
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PLACEHOLDER_STATES, PLACEHOLDER_STATES enumeration [Windows Properties], SESF_ALL_FLAGS, SESF_AUTHENTICATION_ERROR, SESF_NONE, SESF_PAUSED_DUE_TO_CLIENT_POLICY, SESF_PAUSED_DUE_TO_DISK_SPACE_FULL, SESF_PAUSED_DUE_TO_METERED_NETWORK, SESF_PAUSED_DUE_TO_SERVICE_POLICY, SESF_SERVICE_QUOTA_EXCEEDED_LIMIT, SESF_SERVICE_QUOTA_NEARING_LIMIT, SESF_SERVICE_UNAVAILABLE, SYNC_ENGINE_STATE_FLAGS, properties.SYNC_ENGINE_STATE_FLAGS, shobjidl/PLACEHOLDER_STATES, shobjidl/SESF_ALL_FLAGS, shobjidl/SESF_AUTHENTICATION_ERROR, shobjidl/SESF_NONE, shobjidl/SESF_PAUSED_DUE_TO_CLIENT_POLICY, shobjidl/SESF_PAUSED_DUE_TO_DISK_SPACE_FULL, shobjidl/SESF_PAUSED_DUE_TO_METERED_NETWORK, shobjidl/SESF_PAUSED_DUE_TO_SERVICE_POLICY, shobjidl/SESF_SERVICE_QUOTA_EXCEEDED_LIMIT, shobjidl/SESF_SERVICE_QUOTA_NEARING_LIMIT, shobjidl/SESF_SERVICE_UNAVAILABLE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNC_ENGINE_STATE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shobjidl.h
+api_name:
+-	SYNC_ENGINE_STATE_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # SYNC_ENGINE_STATE_FLAGS enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMFByteStream.Flush
+title: IMFByteStream::Flush
+author: windows-sdk-content
+description: Clears any internal buffers used by the stream. If you are writing to the stream, the buffered data is written to the underlying file or device.
+old-location: mf\imfbytestream_flush.htm
+old-project: medfound
+ms.assetid: 16ea6c38-52f3-405e-8a8f-be5d0527099c
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 16ea6c38-52f3-405e-8a8f-be5d0527099c, Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],Flush method, IMFByteStream.Flush, IMFByteStream::Flush, mf.imfbytestream_flush, mfobjects/IMFByteStream::Flush
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFByteStream.Flush
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFByteStream::Flush

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core.THUMBBUTTONFLAGS
+title: THUMBBUTTONFLAGS
+author: windows-sdk-content
+description: Used by THUMBBUTTON to control specific states and behaviors of the button.
+old-location: shell\THUMBBUTTONFLAGS.htm
+old-project: shell
+ms.assetid: 601a2517-cfce-4edb-b2ca-e2ed8a365a0d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: THBF_DISABLED, THBF_DISMISSONCLICK, THBF_ENABLED, THBF_HIDDEN, THBF_NOBACKGROUND, THBF_NONINTERACTIVE, THUMBBUTTONFLAGS, THUMBBUTTONFLAGS enumeration [Windows Shell], _shell_THUMBBUTTONFLAGS, shell.THUMBBUTTONFLAGS, shobjidl_core/THBF_DISABLED, shobjidl_core/THBF_DISMISSONCLICK, shobjidl_core/THBF_ENABLED, shobjidl_core/THBF_HIDDEN, shobjidl_core/THBF_NOBACKGROUND, shobjidl_core/THBF_NONINTERACTIVE, shobjidl_core/THUMBBUTTONFLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THUMBBUTTONFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	THUMBBUTTONFLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # THUMBBUTTONFLAGS enumeration

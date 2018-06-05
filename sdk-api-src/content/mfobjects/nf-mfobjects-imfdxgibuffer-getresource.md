@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMFDXGIBuffer.GetResource
+title: IMFDXGIBuffer::GetResource
+author: windows-sdk-content
+description: Queries the Microsoft DirectX Graphics Infrastructure (DXGI) surface for an interface.
+old-location: mf\imfdxgibuffer_getresource.htm
+old-project: medfound
+ms.assetid: E8FF3346-D60A-4FF9-AF3E-673397EA6E6A
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetResource, GetResource method [Media Foundation], GetResource method [Media Foundation],IMFDXGIBuffer interface, IMFDXGIBuffer interface [Media Foundation],GetResource method, IMFDXGIBuffer.GetResource, IMFDXGIBuffer::GetResource, mf.imfdxgibuffer_getresource, mfobjects/IMFDXGIBuffer::GetResource
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfobjects.h
+api_name:
+-	IMFDXGIBuffer.GetResource
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFDXGIBuffer::GetResource

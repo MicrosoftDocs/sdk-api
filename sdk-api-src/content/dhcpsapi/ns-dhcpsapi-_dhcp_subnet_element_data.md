@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_DATA
+title: "_DHCP_SUBNET_ELEMENT_DATA"
+author: windows-sdk-content
+description: Defines an element that describes a feature or restriction of a subnet.
+old-location: dhcp\dhcp_subnet_element_data.htm
+old-project: DHCP
+ms.assetid: d6c32be0-a080-42c1-b9bf-3f5da2c4dbe0
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_SUBNET_ELEMENT_DATA, DHCP_SUBNET_ELEMENT_DATA, DHCP_SUBNET_ELEMENT_DATA structure [DHCP], LPDHCP_SUBNET_ELEMENT_DATA, LPDHCP_SUBNET_ELEMENT_DATA structure pointer [DHCP], _DHCP_SUBNET_ELEMENT_DATA, dhcp.dhcp_subnet_element_data, dhcpsapi/LPDHCP_SUBNET_ELEMENT_DATA, dhcpsapi/_DHCP_SUBNET_ELEMENT_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008, Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_SUBNET_ELEMENT_DATA, *LPDHCP_SUBNET_ELEMENT_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCP_SUBNET_ELEMENT_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_SUBNET_ELEMENT_DATA structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcore.IUIAutomationRegistrar.RegisterPattern
+title: IUIAutomationRegistrar::RegisterPattern
+author: windows-sdk-content
+description: Registers a third-party control pattern.
+old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterPattern.htm
+old-project: WinAuto
+ms.assetid: 6aa61295-e035-4a51-9157-7cf9cfaee37a
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: IUIAutomationRegistrar interface [Windows Accessibility],RegisterPattern method, IUIAutomationRegistrar.RegisterPattern, IUIAutomationRegistrar::RegisterPattern, RegisterPattern, RegisterPattern method [Windows Accessibility], RegisterPattern method [Windows Accessibility],IUIAutomationRegistrar interface, uiauto.uiauto_IUIAutomationRegistrar_RegisterPattern, uiauto_IUIAutomationRegistrar_RegisterPattern, uiautomationcore/IUIAutomationRegistrar::RegisterPattern, winauto.uiauto_IUIAutomationRegistrar_RegisterPattern
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	IUIAutomationRegistrar.RegisterPattern
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationRegistrar::RegisterPattern

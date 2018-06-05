@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbase._COMMPROP
+title: "_COMMPROP"
+author: windows-sdk-content
+description: Contains information about a communications driver.
+old-location: base\commprop_str.htm
+old-project: DevIO
+ms.assetid: d50ff606-1939-4e36-ba83-da8f269a3cc8
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*LPCOMMPROP, BAUD_075, BAUD_110, BAUD_115200, BAUD_1200, BAUD_128K, BAUD_134_5, BAUD_14400, BAUD_150, BAUD_1800, BAUD_19200, BAUD_2400, BAUD_300, BAUD_38400, BAUD_4800, BAUD_56K, BAUD_57600, BAUD_600, BAUD_7200, BAUD_9600, BAUD_USER, COMMPROP, COMMPROP structure, DATABITS_16, DATABITS_16X, DATABITS_5, DATABITS_6, DATABITS_7, DATABITS_8, LPCOMMPROP, LPCOMMPROP structure pointer, PARITY_EVEN, PARITY_MARK, PARITY_NONE, PARITY_ODD, PARITY_SPACE, PCF_16BITMODE, PCF_DTRDSR, PCF_INTTIMEOUTS, PCF_PARITY_CHECK, PCF_RLSD, PCF_RTSCTS, PCF_SETXCHAR, PCF_SPECIALCHARS, PCF_TOTALTIMEOUTS, PCF_XONXOFF, PST_FAX, PST_LAT, PST_MODEM, PST_NETWORK_BRIDGE, PST_PARALLELPORT, PST_RS232, PST_RS422, PST_RS423, PST_RS449, PST_SCANNER, PST_TCPIP_TELNET, PST_UNSPECIFIED, PST_X25, SP_BAUD, SP_DATABITS, SP_HANDSHAKING, SP_PARITY, SP_PARITY_CHECK, SP_RLSD, SP_STOPBITS, STOPBITS_10, STOPBITS_15, STOPBITS_20, _COMMPROP, _win32_commprop_str, base.commprop_str, winbase/COMMPROP, winbase/LPCOMMPROP"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMMPROP, *LPCOMMPROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinBase.h
+api_name:
+-	COMMPROP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _COMMPROP structure

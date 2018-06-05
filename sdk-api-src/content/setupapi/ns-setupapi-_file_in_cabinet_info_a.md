@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:setupapi._FILE_IN_CABINET_INFO_A
+title: "_FILE_IN_CABINET_INFO_A"
+author: windows-sdk-content
+description: The FILE_IN_CABINET_INFO structure provides information about a file found in the cabinet.
+old-location: setup\file_in_cabinet_info_str.htm
+old-project: SetupApi
+ms.assetid: 071491a8-f305-4e53-b0d7-16f7c9606e99
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*PFILE_IN_CABINET_INFO_A, FILE_IN_CABINET_INFO, FILE_IN_CABINET_INFO structure [Setup API], FILE_IN_CABINET_INFO_A, PFILE_IN_CABINET_INFO, PFILE_IN_CABINET_INFO structure pointer [Setup API], _FILE_IN_CABINET_INFO_A, _setupapi_file_in_cabinet_info_str, setup.file_in_cabinet_info_str, setupapi/FILE_IN_CABINET_INFO, setupapi/PFILE_IN_CABINET_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: setupapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILE_IN_CABINET_INFO_A, *PFILE_IN_CABINET_INFO_A
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Setupapi.h
+api_name:
+-	FILE_IN_CABINET_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _FILE_IN_CABINET_INFO_A structure

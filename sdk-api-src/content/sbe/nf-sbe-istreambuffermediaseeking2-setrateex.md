@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbe.IStreamBufferMediaSeeking2.SetRateEx
+title: IStreamBufferMediaSeeking2::SetRateEx
+author: windows-sdk-content
+description: "."
+old-location: mstv\istreambuffermediaseeking2_setrateex.htm
+old-project: mstv
+ms.assetid: 37b80d0d-561d-4ef3-b0ad-70fb43530026
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IStreamBufferMediaSeeking2 interface [Microsoft TV Technologies],SetRateEx method, IStreamBufferMediaSeeking2.SetRateEx, IStreamBufferMediaSeeking2::SetRateEx, IStreamBufferMediaSeeking2SetRateEx, SetRateEx, SetRateEx method [Microsoft TV Technologies], SetRateEx method [Microsoft TV Technologies],IStreamBufferMediaSeeking2 interface, mstv.istreambuffermediaseeking2_setrateex, sbe/IStreamBufferMediaSeeking2::SetRateEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAMBUFFER_ATTR_DATATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Sbe.h
+api_name:
+-	IStreamBufferMediaSeeking2.SetRateEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IStreamBufferMediaSeeking2::SetRateEx

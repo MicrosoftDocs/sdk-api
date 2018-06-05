@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shellapi._NOTIFYICONIDENTIFIER
+title: "_NOTIFYICONIDENTIFIER"
+author: windows-sdk-content
+description: Contains information used by Shell_NotifyIconGetRect to identify the icon for which to retrieve the bounding rectangle.
+old-location: shell\NOTIFYICONIDENTIFIER.htm
+old-project: shell
+ms.assetid: 2fe4ffba-6fe5-4d34-9cb1-f266e4594b8e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PNOTIFYICONIDENTIFIER, NOTIFYICONIDENTIFIER, NOTIFYICONIDENTIFIER structure [Windows Shell], PNOTIFYICONIDENTIFIER, PNOTIFYICONIDENTIFIER structure pointer [Windows Shell], _NOTIFYICONIDENTIFIER, _shell_NOTIFYICONIDENTIFIER, shell.NOTIFYICONIDENTIFIER, shellapi/NOTIFYICONIDENTIFIER, shellapi/PNOTIFYICONIDENTIFIER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shellapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NOTIFYICONIDENTIFIER, *PNOTIFYICONIDENTIFIER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shellapi.h
+api_name:
+-	NOTIFYICONIDENTIFIER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # _NOTIFYICONIDENTIFIER structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:photoacquire.IPhotoAcquireItem.GetSubItemAt
+title: IPhotoAcquireItem::GetSubItemAt
+author: windows-sdk-content
+description: The GetSubItemAt method retrieves a subitem of an item, given the index of the subitem.
+old-location: picacq\iphotoacquireitem_getsubitemat.htm
+old-project: acquisition
+ms.assetid: 2fd410a0-20b5-4e16-9d36-89a14443c8bd
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: GetSubItemAt, GetSubItemAt method [Picture Acquisition], GetSubItemAt method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetSubItemAt method, IPhotoAcquireItem.GetSubItemAt, IPhotoAcquireItem::GetSubItemAt, IPhotoAcquireItemGetSubItemAt, photoacquire/IPhotoAcquireItem::GetSubItemAt, picacq.iphotoacquireitem_getsubitemat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: photoacquire.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_INPUT_STRING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PhotoAcquireUID.lib
+-	PhotoAcquireUID.dll
+api_name:
+-	IPhotoAcquireItem.GetSubItemAt
+product: Windows
+targetos: Windows
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPhotoAcquireItem::GetSubItemAt

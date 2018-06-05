@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IIOCancelInformation.SetCancelInformation
+title: IIOCancelInformation::SetCancelInformation
+author: windows-sdk-content
+description: Sets information that is posted when a user selects Cancel from the progress UI.
+old-location: shell\IIOCancelInformation_SetCancelInformation.htm
+old-project: shell
+ms.assetid: ed7a2a43-8944-4e17-af0a-d64f0cb493e6
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IIOCancelInformation interface [Windows Shell],SetCancelInformation method, IIOCancelInformation.SetCancelInformation, IIOCancelInformation::SetCancelInformation, SetCancelInformation, SetCancelInformation method [Windows Shell], SetCancelInformation method [Windows Shell],IIOCancelInformation interface, _shell_IIOCancelInformation_SetCancelInformation, shell.IIOCancelInformation_SetCancelInformation, shobjidl_core/IIOCancelInformation::SetCancelInformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IIOCancelInformation.SetCancelInformation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IIOCancelInformation::SetCancelInformation

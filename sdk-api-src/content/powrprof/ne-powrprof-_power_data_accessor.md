@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:powrprof._POWER_DATA_ACCESSOR
+title: "_POWER_DATA_ACCESSOR"
+author: windows-sdk-content
+description: Enumeration values used by PowerEnumerate and PowerSettingAccessCheck.
+old-location: base\power_data_accessor.htm
+old-project: Power
+ms.assetid: 4b3f8f89-2ade-4594-b055-b1873e74cda6
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PPOWER_DATA_ACCESSOR, ACCESS_ACTIVE_SCHEME, ACCESS_AC_POWER_SETTING_INDEX, ACCESS_CREATE_SCHEME, ACCESS_DC_POWER_SETTING_INDEX, ACCESS_INDIVIDUAL_SETTING, ACCESS_SCHEME, ACCESS_SUBGROUP, POWER_DATA_ACCESSOR, POWER_DATA_ACCESSOR enumeration, PPOWER_DATA_ACCESSOR, PPOWER_DATA_ACCESSOR enumeration pointer, _POWER_DATA_ACCESSOR, base.power_data_accessor, powrprof/ACCESS_ACTIVE_SCHEME, powrprof/ACCESS_AC_POWER_SETTING_INDEX, powrprof/ACCESS_CREATE_SCHEME, powrprof/ACCESS_DC_POWER_SETTING_INDEX, powrprof/ACCESS_INDIVIDUAL_SETTING, powrprof/ACCESS_SCHEME, powrprof/ACCESS_SUBGROUP, powrprof/POWER_DATA_ACCESSOR, powrprof/PPOWER_DATA_ACCESSOR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: powrprof.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	PowrProf.h
+api_name:
+-	POWER_DATA_ACCESSOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _POWER_DATA_ACCESSOR enumeration

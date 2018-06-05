@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:mswsock.LPFN_TRANSMITPACKETS
+title: LPFN_TRANSMITPACKETS
+author: windows-sdk-content
+description: Transmits in-memory data or file data over a connected socket.
+old-location: winsock\transmitpackets_2.htm
+old-project: WinSock
+ms.assetid: c574d320-2a90-40bb-b34c-6023e80514e6
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: LPFN_TRANSMITPACKETS, LPFN_TRANSMITPACKETS callback, LPFN_TRANSMITPACKETS callback function [Winsock], TF_DISCONNECT, TF_REUSE_SOCKET, TF_USE_DEFAULT_WORKER, TF_USE_KERNEL_APC, TF_USE_SYSTEM_THREAD, _win32_transmitpackets_2, mswsock/LPFN_TRANSMITPACKETS, winsock.transmitpackets_2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: mswsock.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Mswsock.h
+api_name:
+-	LPFN_TRANSMITPACKETS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LPFN_TRANSMITPACKETS callback function

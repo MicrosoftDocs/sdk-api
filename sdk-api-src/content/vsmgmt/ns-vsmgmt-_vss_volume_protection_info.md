@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vsmgmt._VSS_VOLUME_PROTECTION_INFO
+title: "_VSS_VOLUME_PROTECTION_INFO"
+author: windows-sdk-content
+description: Contains information about a volume's shadow copy protection level.
+old-location: base\vss_volume_protection_info.htm
+old-project: VSS
+ms.assetid: 46cdc46e-fc44-452a-8aae-e47c12deedb4
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PVSS_VOLUME_PROTECTION_INFO, VSS_VOLUME_PROTECTION_INFO, VSS_VOLUME_PROTECTION_INFO structure, _VSS_VOLUME_PROTECTION_INFO, base.vss_volume_protection_info, vsmgmt/VSS_VOLUME_PROTECTION_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vsmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VsMgmt.h
+api_name:
+-	VSS_VOLUME_PROTECTION_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VSS_VOLUME_PROTECTION_INFO structure

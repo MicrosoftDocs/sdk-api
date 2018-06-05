@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CachedIsReadOnly
+title: IUIAutomationRangeValuePattern::get_CachedIsReadOnly
+author: windows-sdk-content
+description: Retrieves a cached value that indicates whether the value of the element can be changed.
+old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedIsReadOnly.htm
+old-project: WinAuto
+ms.assetid: 93e8df1a-8e07-4efa-8f0e-81aa7f4a3171
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CachedIsReadOnly property [Windows Accessibility], CachedIsReadOnly property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedIsReadOnly property, IUIAutomationRangeValuePattern.CachedIsReadOnly, IUIAutomationRangeValuePattern.get_CachedIsReadOnly, IUIAutomationRangeValuePattern::CachedIsReadOnly, IUIAutomationRangeValuePattern::get_CachedIsReadOnly, get_CachedIsReadOnly, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedIsReadOnly, uiauto_IUIAutomationRangeValuePattern_CachedIsReadOnly, uiautomationclient/IUIAutomationRangeValuePattern::CachedIsReadOnly, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedIsReadOnly, winauto.uiauto_IUIAutomationRangeValuePattern_CachedIsReadOnly
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationRangeValuePattern.CachedIsReadOnly
+-	IUIAutomationRangeValuePattern.get_CachedIsReadOnly
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationRangeValuePattern::get_CachedIsReadOnly

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wtsdefs._WTS_USER_DATA
+title: "_WTS_USER_DATA"
+author: windows-sdk-content
+description: Contains select client property values.
+old-location: termserv\wts_user_data.htm
+old-project: TermServ
+ms.assetid: be2f7338-44a8-433f-b45d-620b9b7e93c7
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PWTS_USER_DATA, PWTS_USER_DATA, PWTS_USER_DATA structure pointer [Remote Desktop Services], WTS_USER_DATA, WTS_USER_DATA structure [Remote Desktop Services], _WTS_USER_DATA, termserv.wts_user_data, wtsdefs/PWTS_USER_DATA, wtsdefs/WTS_USER_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wtsdefs.h
+req.include-header: Wtsprotocol.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_USER_DATA, *PWTS_USER_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsdefs.h
+api_name:
+-	WTS_USER_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTS_USER_DATA structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:batclass._BATTERY_WMI_STATIC_DATA
+title: "_BATTERY_WMI_STATIC_DATA"
+author: windows-sdk-content
+description: Defines static data about a battery.
+old-location: battery\battery_wmi_static_data.htm
+old-project: battery
+ms.assetid: 39930853-AB5A-4DA5-A544-7913770C4D88
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PBATTERY_WMI_STATIC_DATA, BATTERY_WMI_STATIC_DATA, BATTERY_WMI_STATIC_DATA structure [Battery Devices], PBATTERY_WMI_STATIC_DATA, PBATTERY_WMI_STATIC_DATA structure pointer [Battery Devices], _BATTERY_WMI_STATIC_DATA, batclass/BATTERY_WMI_STATIC_DATA, batclass/PBATTERY_WMI_STATIC_DATA, battery.battery_wmi_static_data"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: batclass.h
+req.include-header: Batclass.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BATTERY_WMI_STATIC_DATA, *PBATTERY_WMI_STATIC_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Batclass.h
+api_name:
+-	BATTERY_WMI_STATIC_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BATTERY_WMI_STATIC_DATA structure

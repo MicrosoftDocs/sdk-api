@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:imapi2._IMAPI_CD_SECTOR_TYPE
+title: "_IMAPI_CD_SECTOR_TYPE"
+author: windows-sdk-content
+description: Defines the sector types that can be written to CD media.
+old-location: imapi\imapi_cd_sector_type.htm
+old-project: imapi
+ms.assetid: 3af4a8c9-66b7-490e-aafa-fdfe614f5f3e
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PIMAPI_CD_SECTOR_TYPE, IMAPI_CD_SECTOR_AUDIO, IMAPI_CD_SECTOR_MODE1, IMAPI_CD_SECTOR_MODE1RAW, IMAPI_CD_SECTOR_MODE2FORM0, IMAPI_CD_SECTOR_MODE2FORM0RAW, IMAPI_CD_SECTOR_MODE2FORM1, IMAPI_CD_SECTOR_MODE2FORM1RAW, IMAPI_CD_SECTOR_MODE2FORM2, IMAPI_CD_SECTOR_MODE2FORM2RAW, IMAPI_CD_SECTOR_MODE_ZERO, IMAPI_CD_SECTOR_TYPE, IMAPI_CD_SECTOR_TYPE enumeration [IMAPI], _IMAPI_CD_SECTOR_TYPE, imapi.imapi_cd_sector_type, imapi2/IMAPI_CD_SECTOR_AUDIO, imapi2/IMAPI_CD_SECTOR_MODE1, imapi2/IMAPI_CD_SECTOR_MODE1RAW, imapi2/IMAPI_CD_SECTOR_MODE2FORM0, imapi2/IMAPI_CD_SECTOR_MODE2FORM0RAW, imapi2/IMAPI_CD_SECTOR_MODE2FORM1, imapi2/IMAPI_CD_SECTOR_MODE2FORM1RAW, imapi2/IMAPI_CD_SECTOR_MODE2FORM2, imapi2/IMAPI_CD_SECTOR_MODE2FORM2RAW, imapi2/IMAPI_CD_SECTOR_MODE_ZERO, imapi2/IMAPI_CD_SECTOR_TYPE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAPI_CD_SECTOR_TYPE, *PIMAPI_CD_SECTOR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	imapi2.h
+api_name:
+-	IMAPI_CD_SECTOR_TYPE
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _IMAPI_CD_SECTOR_TYPE enumeration

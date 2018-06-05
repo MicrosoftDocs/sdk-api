@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winldap.ldapvlvinfo
+title: ldapvlvinfo
+author: windows-sdk-content
+description: Used to set up the search parameters for a virtual list view (VLV) request control (LDAP_CONTROL_VLVREQUEST).
+old-location: ldap\ldapvlvinfo.htm
+old-project: LDAP
+ms.assetid: 2018ecb1-9b32-4afa-ad20-5cdae396376d
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: "*PLDAPVLVInfo, LDAPVLVInfo, LDAPVLVInfo structure [LDAP], _ldap_ldapvlvinfo, ldap.ldapvlvinfo, ldapvlvinfo, winldap/LDAPVLVInfo"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winldap.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LDAPVLVInfo, *PLDAPVLVInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winldap.h
+api_name:
+-	LDAPVLVInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ldapvlvinfo structure

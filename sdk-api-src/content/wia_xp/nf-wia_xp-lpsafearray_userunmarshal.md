@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:wia_xp.LPSAFEARRAY_UserUnmarshal
+title: LPSAFEARRAY_UserUnmarshal function
+author: windows-sdk-content
+description: Unmarshals a SAFEARRAY object from the RPC buffer.
+old-location: automat\lpsafearray_userunmarshal.htm
+old-project: automat
+ms.assetid: 8798b8c1-d1c0-4729-b7bd-0329e8b71b0d
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: LPSAFEARRAY_UserUnmarshal, LPSAFEARRAY_UserUnmarshal function [Automation], _oa96_LPSAFEARRAY_UserUnmarshal, automat.lpsafearray_userunmarshal, wia_xp/LPSAFEARRAY_UserUnmarshal
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wia_xp.h
+req.include-header: Propidlbase.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIAVIDEO_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	OleAut32.dll
+api_name:
+-	LPSAFEARRAY_UserUnmarshal
+product: Windows
+targetos: Windows
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # LPSAFEARRAY_UserUnmarshal function

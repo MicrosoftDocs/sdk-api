@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winml.IWinMLEvaluationContext.GetValueByName
+title: IWinMLEvaluationContext::GetValueByName
+author: windows-sdk-content
+description: Returns the input/output description for the specific binding name.
+old-location: machinelearning\iwinmlevaluationcontext_getvaluebyname.htm
+old-project: MachineLearning
+ms.assetid: 750A799F-A5A7-48D2-958B-D03423C0CE09
+ms.author: windowssdkdev
+ms.date: 03/07/2018
+ms.keywords: GetValueByName, GetValueByName method, GetValueByName method,IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,GetValueByName method, IWinMLEvaluationContext.GetValueByName, IWinMLEvaluationContext::GetValueByName, MachineLearning.iwinmlevaluationcontext_getvaluebyname, winml/IWinMLEvaluationContext::GetValueByName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINML_TENSOR_DATA_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winml.dll
+api_name:
+-	IWinMLEvaluationContext.GetValueByName
+product: Windows
+targetos: Windows
+req.lib: Winml.lib
+req.dll: Winml.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWinMLEvaluationContext::GetValueByName

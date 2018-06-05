@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsafer._SAFER_HASH_IDENTIFICATION
+title: "_SAFER_HASH_IDENTIFICATION"
+author: windows-sdk-content
+description: Represents a hash identification rule.
+old-location: security\safer_hash_identification.htm
+old-project: SecMgmt
+ms.assetid: 68b4b5f5-8220-4180-8243-b6f1fd7826bd
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSAFER_HASH_IDENTIFICATION, PSAFER_HASH_IDENTIFICATION, PSAFER_HASH_IDENTIFICATION structure pointer [Security], SAFER_HASH_IDENTIFICATION, SAFER_HASH_IDENTIFICATION structure [Security], _SAFER_HASH_IDENTIFICATION, _mnp_safer_hash_identification, security.safer_hash_identification, winsafer/PSAFER_HASH_IDENTIFICATION, winsafer/SAFER_HASH_IDENTIFICATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsafer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SAFER_HASH_IDENTIFICATION, *PSAFER_HASH_IDENTIFICATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinSafer.h
+api_name:
+-	SAFER_HASH_IDENTIFICATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SAFER_HASH_IDENTIFICATION structure

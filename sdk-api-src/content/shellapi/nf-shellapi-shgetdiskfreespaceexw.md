@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shellapi.SHGetDiskFreeSpaceExW
+title: SHGetDiskFreeSpaceExW function
+author: windows-sdk-content
+description: Retrieves disk space information for a disk volume.
+old-location: shell\SHGetDiskFreeSpaceEx.htm
+old-project: shell
+ms.assetid: f8adbfa8-124a-4934-b5dc-16e261c15a8b
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHGetDiskFreeSpace, SHGetDiskFreeSpaceEx, SHGetDiskFreeSpaceEx function [Windows Shell], SHGetDiskFreeSpaceExA, SHGetDiskFreeSpaceExW, _shell_SHGetDiskFreeSpaceEx, shell.SHGetDiskFreeSpaceEx, shellapi/SHGetDiskFreeSpaceEx, shellapi/SHGetDiskFreeSpaceExA, shellapi/SHGetDiskFreeSpaceExW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shellapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SHGetDiskFreeSpaceExW (Unicode) and SHGetDiskFreeSpaceExA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHSTOCKICONID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shell32.dll
+api_name:
+-	SHGetDiskFreeSpaceEx
+-	SHGetDiskFreeSpaceExA
+-	SHGetDiskFreeSpaceExW
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SHGetDiskFreeSpaceExW function

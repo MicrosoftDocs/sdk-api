@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core._SHCONTF
+title: "_SHCONTF"
+author: windows-sdk-content
+description: Determines the types of items included in an enumeration. These values are used with the IShellFolder::EnumObjects method.
+old-location: shell\SHCONTF.htm
+old-project: shell
+ms.assetid: a46845bf-ade6-4366-8a73-6dc960fd7722
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHCONTF, SHCONTF enumeration [Windows Shell], SHCONTF_CHECKING_FOR_CHILDREN, SHCONTF_ENABLE_ASYNC, SHCONTF_FASTITEMS, SHCONTF_FLATLIST, SHCONTF_FOLDERS, SHCONTF_INCLUDEHIDDEN, SHCONTF_INCLUDESUPERHIDDEN, SHCONTF_INIT_ON_FIRST_NEXT, SHCONTF_NAVIGATION_ENUM, SHCONTF_NETPRINTERSRCH, SHCONTF_NONFOLDERS, SHCONTF_SHAREABLE, SHCONTF_STORAGE, _SHCONTF, _win32_SHCONTF, shell.SHCONTF, shobjidl_core/SHCONTF, shobjidl_core/SHCONTF_CHECKING_FOR_CHILDREN, shobjidl_core/SHCONTF_ENABLE_ASYNC, shobjidl_core/SHCONTF_FASTITEMS, shobjidl_core/SHCONTF_FLATLIST, shobjidl_core/SHCONTF_FOLDERS, shobjidl_core/SHCONTF_INCLUDEHIDDEN, shobjidl_core/SHCONTF_INCLUDESUPERHIDDEN, shobjidl_core/SHCONTF_INIT_ON_FIRST_NEXT, shobjidl_core/SHCONTF_NAVIGATION_ENUM, shobjidl_core/SHCONTF_NETPRINTERSRCH, shobjidl_core/SHCONTF_NONFOLDERS, shobjidl_core/SHCONTF_SHAREABLE, shobjidl_core/SHCONTF_STORAGE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	SHCONTF
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # _SHCONTF enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:resapi.PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP
+title: PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP
+author: windows-sdk-content
+description: ClusterPrepareSharedVolumeForBackup may be altered or unavailable.
+old-location: mscs\clusterpreparesharedvolumeforbackup.htm
+old-project: MsCS
+ms.assetid: d30f1a5b-f231-4874-8e79-6d25cfd094a5
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP, PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP callback, PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP callback function [Failover Cluster], mscs.clusterpreparesharedvolumeforbackup, resapi/PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: resapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RENDEZVOUS_SESSION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ResApi.h
+api_name:
+-	PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP callback function

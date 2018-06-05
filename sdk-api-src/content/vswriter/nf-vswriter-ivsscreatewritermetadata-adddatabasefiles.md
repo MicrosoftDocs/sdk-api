@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vswriter.IVssCreateWriterMetadata.AddDatabaseFiles
+title: IVssCreateWriterMetadata::AddDatabaseFiles
+author: windows-sdk-content
+description: The AddDatabaseFiles method indicates the file set (the specified file or files) that make up the database component to be backed up.
+old-location: base\ivsscreatewritermetadata_adddatabasefiles.htm
+old-project: VSS
+ms.assetid: 37ef5e50-127d-4bd0-9d26-04dc7781b3ff
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AddDatabaseFiles, AddDatabaseFiles method [VSS], AddDatabaseFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddDatabaseFiles method, IVssCreateWriterMetadata.AddDatabaseFiles, IVssCreateWriterMetadata::AddDatabaseFiles, _win32_ivsscreatewritermetadata_adddatabasefiles, base.ivsscreatewritermetadata_adddatabasefiles, vswriter/IVssCreateWriterMetadata::AddDatabaseFiles
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vswriter.h
+req.include-header: Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssCreateWriterMetadata.AddDatabaseFiles
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssCreateWriterMetadata::AddDatabaseFiles

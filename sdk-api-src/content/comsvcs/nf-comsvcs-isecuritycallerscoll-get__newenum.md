@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.ISecurityCallersColl.get__NewEnum
+title: ISecurityCallersColl::get__NewEnum
+author: windows-sdk-content
+description: Retrieves an enumerator for the security callers collection.
+old-location: cos\isecuritycallerscoll_get__newenum.htm
+old-project: cossdk
+ms.assetid: 80fb8fe7-0f8f-497c-a046-82f19d6469d8
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: ISecurityCallersColl interface [COM+],get__NewEnum method, ISecurityCallersColl.get__NewEnum, ISecurityCallersColl::get__NewEnum, _cos_ISecurityCallersColl_get__NewEnum, comsvcs/ISecurityCallersColl::get__NewEnum, cos.isecuritycallerscoll_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ISecurityCallersColl interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	ISecurityCallersColl.get__NewEnum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ISecurityCallersColl::get__NewEnum

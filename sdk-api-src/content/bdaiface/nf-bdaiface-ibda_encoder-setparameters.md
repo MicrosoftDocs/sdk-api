@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bdaiface.IBDA_Encoder.SetParameters
+title: IBDA_Encoder::SetParameters
+author: windows-sdk-content
+description: Sets the parameters for the Encoder Service.
+old-location: mstv\ibda_encoder_setparameters.htm
+old-project: mstv
+ms.assetid: 0ee90121-b52b-47dc-b954-e7ba0b14f75c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBDA_Encoder interface [Microsoft TV Technologies],SetParameters method, IBDA_Encoder.SetParameters, IBDA_Encoder::SetParameters, PBDA_Encoder_BitrateMode_Average, PBDA_Encoder_BitrateMode_Constant, PBDA_Encoder_BitrateMode_Variable, SetParameters, SetParameters method [Microsoft TV Technologies], SetParameters method [Microsoft TV Technologies],IBDA_Encoder interface, bdaiface/IBDA_Encoder::SetParameters, mstv.ibda_encoder_setparameters
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bdaiface.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_Encoder.SetParameters
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_Encoder::SetParameters

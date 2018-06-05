@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:routprot.PGET_INTERFACE_INFO
+title: PGET_INTERFACE_INFO
+author: windows-sdk-content
+description: The GetInterfaceInfo function gets the configuration information kept by the routing protocol for a specific interface.
+old-location: rras\getinterfaceinfo.htm
+old-project: RRAS
+ms.assetid: ec662772-f864-4108-b676-3fa501b3b927
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: GetInterfaceInfo, PGET_INTERFACE_INFO, PGET_INTERFACE_INFO callback, PGET_INTERFACE_INFO callback function [RAS], _mpr_getinterfaceinfo, routprot/PGET_INTERFACE_INFO, rras.getinterfaceinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: routprot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Routprot.h
+api_name:
+-	PGET_INTERFACE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PGET_INTERFACE_INFO callback function

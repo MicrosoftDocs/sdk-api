@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mfidl._MFBYTESTREAM_BUFFERING_PARAMS
+title: "_MFBYTESTREAM_BUFFERING_PARAMS"
+author: windows-sdk-content
+description: Specifies the buffering parameters for a network byte stream.
+old-location: mf\mfbytestream_buffering_params.htm
+old-project: medfound
+ms.assetid: 6667d32c-36a8-414e-a546-02d00a447b70
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 6667d32c-36a8-414e-a546-02d00a447b70, MFBYTESTREAM_BUFFERING_PARAMS, MFBYTESTREAM_BUFFERING_PARAMS structure [Media Foundation], _MFBYTESTREAM_BUFFERING_PARAMS, mf.mfbytestream_buffering_params, mfidl/MFBYTESTREAM_BUFFERING_PARAMS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFBYTESTREAM_BUFFERING_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFBYTESTREAM_BUFFERING_PARAMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFBYTESTREAM_BUFFERING_PARAMS structure

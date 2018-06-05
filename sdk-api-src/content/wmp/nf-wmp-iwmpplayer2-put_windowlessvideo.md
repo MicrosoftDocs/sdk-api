@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPPlayer2.put_windowlessVideo
+title: IWMPPlayer2::put_windowlessVideo
+author: windows-sdk-content
+description: The put_windowlessVideo method specifies a value indicating whether the Windows Media Player control renders video in windowless mode.
+old-location: wmp\iwmpplayer2_put_windowlessvideo.htm
+old-project: WMP
+ms.assetid: 736eaf52-29bd-4223-a62d-d3d75cef1863
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPPlayer2 interface [Windows Media Player],put_windowlessVideo method, IWMPPlayer2.put_windowlessVideo, IWMPPlayer2::put_windowlessVideo, IWMPPlayer2put_windowlessVideo, put_windowlessVideo, put_windowlessVideo method [Windows Media Player], put_windowlessVideo method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_put_windowlessvideo, wmp/IWMPPlayer2::put_windowlessVideo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player for Windows XP or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPPlayer2.put_windowlessVideo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPPlayer2::put_windowlessVideo

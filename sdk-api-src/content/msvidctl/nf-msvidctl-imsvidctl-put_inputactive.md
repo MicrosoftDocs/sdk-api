@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msvidctl.IMSVidCtl.put_InputActive
+title: IMSVidCtl::put_InputActive
+author: windows-sdk-content
+description: The put_InputActive method specifies the input device to use in the filter graph.
+old-location: mstv\imsvidctl_put_inputactive.htm
+old-project: mstv
+ms.assetid: 696d8ece-a377-4fe8-a790-a68d1a24e65a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_InputActive method, IMSVidCtl.put_InputActive, IMSVidCtl::put_InputActive, IMSVidCtlput_InputActive, mstv.imsvidctl_put_inputactive, msvidctl/IMSVidCtl::put_InputActive, put_InputActive, put_InputActive method [Microsoft TV Technologies], put_InputActive method [Microsoft TV Technologies],IMSVidCtl interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msvidctl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msvidctl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msvidctl.h
+api_name:
+-	IMSVidCtl.put_InputActive
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidCtl::put_InputActive

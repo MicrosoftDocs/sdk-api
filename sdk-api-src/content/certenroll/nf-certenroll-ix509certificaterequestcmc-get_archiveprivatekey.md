@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509CertificateRequestCmc.get_ArchivePrivateKey
+title: IX509CertificateRequestCmc::get_ArchivePrivateKey
+author: windows-sdk-content
+description: Specifies or retrieves a Boolean value that indicates whether to archive a private key on the certification authority (CA).
+old-location: security\ix509certificaterequestcmc_archiveprivatekey_property.htm
+old-project: SecCertEnroll
+ms.assetid: 6d17222e-3657-4911-a8e7-d90214284441
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ArchivePrivateKey property [Security], ArchivePrivateKey property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],ArchivePrivateKey property, IX509CertificateRequestCmc.ArchivePrivateKey, IX509CertificateRequestCmc.get_ArchivePrivateKey, IX509CertificateRequestCmc::ArchivePrivateKey, IX509CertificateRequestCmc::get_ArchivePrivateKey, IX509CertificateRequestCmc::put_ArchivePrivateKey, certenroll/IX509CertificateRequestCmc::ArchivePrivateKey, certenroll/IX509CertificateRequestCmc::get_ArchivePrivateKey, certenroll/IX509CertificateRequestCmc::put_ArchivePrivateKey, get_ArchivePrivateKey, security.ix509certificaterequestcmc_archiveprivatekey_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509CertificateRequestCmc.ArchivePrivateKey
+-	IX509CertificateRequestCmc.get_ArchivePrivateKey
+-	IX509CertificateRequestCmc.put_ArchivePrivateKey
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IX509CertificateRequestCmc::get_ArchivePrivateKey

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mswmdm.IWMDMDevice2.GetFormatSupport2
+title: IWMDMDevice2::GetFormatSupport2
+author: windows-sdk-content
+description: The GetFormatSupport2 method retrieves the formats supported by the device, including audio and video codecs, and MIME file formats.
+old-location: wmdm\iwmdmdevice2_getformatsupport2.htm
+old-project: WMDM
+ms.assetid: 9ace6192-5b50-40f0-98b4-5cab26a48798
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetFormatSupport2, GetFormatSupport2 method [windows Media Device Manager], GetFormatSupport2 method [windows Media Device Manager],IWMDMDevice2 interface, IWMDMDevice2 interface [windows Media Device Manager],GetFormatSupport2 method, IWMDMDevice2.GetFormatSupport2, IWMDMDevice2::GetFormatSupport2, IWMDMDevice2GetFormatSupport2, mswmdm/IWMDMDevice2::GetFormatSupport2, wmdm.iwmdmdevice2_getformatsupport2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IWMDMDevice2.GetFormatSupport2
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMDevice2::GetFormatSupport2

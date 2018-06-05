@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._FILE_LEVEL_TRIM_OUTPUT
+title: "_FILE_LEVEL_TRIM_OUTPUT"
+author: windows-sdk-content
+description: Used as output to the FSCTL_FILE_LEVEL_TRIM control code.
+old-location: fs\file_level_trim_output.htm
+old-project: FileIO
+ms.assetid: 3d293d09-8d41-495d-9095-f2f24bf6ac6b
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PFILE_LEVEL_TRIM_OUTPUT, FILE_LEVEL_TRIM_OUTPUT, FILE_LEVEL_TRIM_OUTPUT structure [Files], PFILE_LEVEL_TRIM_OUTPUT, PFILE_LEVEL_TRIM_OUTPUT structure pointer [Files], _FILE_LEVEL_TRIM_OUTPUT, fs.file_level_trim_output, winioctl/FILE_LEVEL_TRIM_OUTPUT, winioctl/PFILE_LEVEL_TRIM_OUTPUT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILE_LEVEL_TRIM_OUTPUT, *PFILE_LEVEL_TRIM_OUTPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	FILE_LEVEL_TRIM_OUTPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FILE_LEVEL_TRIM_OUTPUT structure

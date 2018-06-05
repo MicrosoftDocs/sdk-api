@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfsharingengine.IMFImageSharingEngineClassFactory.CreateInstanceFromUDN
+title: IMFImageSharingEngineClassFactory::CreateInstanceFromUDN
+author: windows-sdk-content
+description: Creates an instance of the IMFImageSharingEngine from the provided unique device name.
+old-location: mf\imfimagesharingengineclassfactory_createinstancefromudn.htm
+old-project: medfound
+ms.assetid: 343E9CB5-12CA-4AC9-857F-D8324D035F07
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: CreateInstanceFromUDN, CreateInstanceFromUDN method [Media Foundation], CreateInstanceFromUDN method [Media Foundation],IMFImageSharingEngineClassFactory interface, IMFImageSharingEngineClassFactory interface [Media Foundation],CreateInstanceFromUDN method, IMFImageSharingEngineClassFactory.CreateInstanceFromUDN, IMFImageSharingEngineClassFactory::CreateInstanceFromUDN, mf.imfimagesharingengineclassfactory_createinstancefromudn, mfsharingengine/IMFImageSharingEngineClassFactory::CreateInstanceFromUDN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfsharingengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfsharingengine.h
+api_name:
+-	IMFImageSharingEngineClassFactory.CreateInstanceFromUDN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFImageSharingEngineClassFactory::CreateInstanceFromUDN

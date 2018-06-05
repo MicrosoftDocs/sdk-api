@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:devicetopology.IPartsList
+title: IPartsList
+author: windows-sdk-content
+description: The IPartsList interface represents a list of parts, each of which is an object with an IPart interface that represents a connector or subunit.
+old-location: coreaudio\ipartslist.htm
+old-project: CoreAudio
+ms.assetid: 3ac48781-90c2-4b23-aa68-3453091bde61
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IPartsList, IPartsList interface [Core Audio], IPartsList interface [Core Audio],described, coreaudio.ipartslist, devicetopology/IPartsList
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IPartsList
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IPartsList interface

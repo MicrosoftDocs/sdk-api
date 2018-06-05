@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wlanapi._WLAN_HOSTED_NETWORK_OPCODE
+title: "_WLAN_HOSTED_NETWORK_OPCODE"
+author: windows-sdk-content
+description: Specifies the possible values of the operation code for the properties to query or set on the wireless Hosted Network.
+old-location: nwifi\wlan_hosted_network_opcode.htm
+old-project: NativeWiFi
+ms.assetid: e4acd7ad-c8f2-4ece-8d27-ced879baa9e7
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_HOSTED_NETWORK_OPCODE, PWLAN_HOSTED_NETWORK_OPCODE, PWLAN_HOSTED_NETWORK_OPCODE enumeration pointer [NativeWIFI], WLAN_HOSTED_NETWORK_OPCODE, WLAN_HOSTED_NETWORK_OPCODE enumeration [NativeWIFI], _WLAN_HOSTED_NETWORK_OPCODE, nwifi.wlan_hosted_network_opcode, wlan_hosted_network_opcode_connection_settings, wlan_hosted_network_opcode_enable, wlan_hosted_network_opcode_security_settings, wlan_hosted_network_opcode_station_profile, wlanapi/PWLAN_HOSTED_NETWORK_OPCODE, wlanapi/WLAN_HOSTED_NETWORK_OPCODE, wlanapi/wlan_hosted_network_opcode_connection_settings, wlanapi/wlan_hosted_network_opcode_enable, wlanapi/wlan_hosted_network_opcode_security_settings, wlanapi/wlan_hosted_network_opcode_station_profile"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wlanapi.h
+req.include-header: Wlanapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_HOSTED_NETWORK_OPCODE, *PWLAN_HOSTED_NETWORK_OPCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wlanapi.h
+api_name:
+-	WLAN_HOSTED_NETWORK_OPCODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_HOSTED_NETWORK_OPCODE enumeration

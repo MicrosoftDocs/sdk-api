@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcore.ITextRangeProvider.FindAttribute
+title: ITextRangeProvider::FindAttribute
+author: windows-sdk-content
+description: Returns a text range subset that has the specified text attribute value.
+old-location: winauto\uiauto_ITextRangeProvider_FindAttribute.htm
+old-project: WinAuto
+ms.assetid: 623a9b66-7d8c-44d7-b0c1-5ed8a8b8f0c6
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: FindAttribute, FindAttribute method [Windows Accessibility], FindAttribute method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],FindAttribute method, ITextRangeProvider.FindAttribute, ITextRangeProvider::FindAttribute, uiauto.uiauto_ITextRangeProvider_FindAttribute, uiauto_ITextRangeProvider_FindAttribute, uiautomationcore/ITextRangeProvider::FindAttribute, winauto.uiauto_ITextRangeProvider_FindAttribute
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationCore.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	ITextRangeProvider.FindAttribute
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextRangeProvider::FindAttribute

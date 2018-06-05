@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrm.IFsrmActionEmail.put_MailFrom
+title: IFsrmActionEmail::put_MailFrom
+author: windows-sdk-content
+description: Retrieves or sets the email address to use as the sender of the email when the action generates an email message.
+old-location: fsrm\ifsrmactionemail_mailfrom.htm
+old-project: Fsrm
+ms.assetid: 67fb5ae6-7728-4c95-92d6-f36859346cc7
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailFrom property, IFsrmActionEmail.MailFrom, IFsrmActionEmail.put_MailFrom, IFsrmActionEmail2 interface [File Server Resource Manager],MailFrom property, IFsrmActionEmail2.MailFrom, IFsrmActionEmail2::MailFrom, IFsrmActionEmail2::get_MailFrom, IFsrmActionEmail2::put_MailFrom, IFsrmActionEmail::get_MailFrom, IFsrmActionEmail::put_MailFrom, MailFrom property [File Server Resource Manager], MailFrom property [File Server Resource Manager],IFsrmActionEmail interface, MailFrom property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailfrom, fsrm.ifsrmactionemail_mailfrom, fsrm/IFsrmActionEmail2::MailFrom, fsrm/IFsrmActionEmail2::get_MailFrom, fsrm/IFsrmActionEmail2::put_MailFrom, fsrm/IFsrmActionEmail::MailFrom, fsrm/IFsrmActionEmail::get_MailFrom, fsrm/IFsrmActionEmail::put_MailFrom, put_MailFrom
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrm.h
+req.include-header: FsrmQuota.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmActionEmail2.MailFrom
+-	IFsrmActionEmail2.get_MailFrom
+-	IFsrmActionEmail2.put_MailFrom
+-	IFsrmActionEmail.MailFrom
+-	IFsrmActionEmail.get_MailFrom
+-	IFsrmActionEmail.put_MailFrom
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmActionEmail::put_MailFrom

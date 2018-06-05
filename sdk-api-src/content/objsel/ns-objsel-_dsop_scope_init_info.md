@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:objsel._DSOP_SCOPE_INIT_INFO
+title: "_DSOP_SCOPE_INIT_INFO"
+author: windows-sdk-content
+description: The DSOP_SCOPE_INIT_INFO structure describes one or more scope types that have the same attributes.
+old-location: ad\dsop_scope_init_info.htm
+old-project: AD
+ms.assetid: 6262b520-1eee-48e0-b3af-636b66d78b3d
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PDSOP_SCOPE_INIT_INFO, DSOP_SCOPE_FLAG_DEFAULT_FILTER_COMPUTERS, DSOP_SCOPE_FLAG_DEFAULT_FILTER_CONTACTS, DSOP_SCOPE_FLAG_DEFAULT_FILTER_GROUPS, DSOP_SCOPE_FLAG_DEFAULT_FILTER_PASSWORDSETTINGS_OBJECTS, DSOP_SCOPE_FLAG_DEFAULT_FILTER_SERVICE_ACCOUNTS, DSOP_SCOPE_FLAG_DEFAULT_FILTER_USERS, DSOP_SCOPE_FLAG_STARTING_SCOPE, DSOP_SCOPE_FLAG_WANT_DOWNLEVEL_BUILTIN_PATH, DSOP_SCOPE_FLAG_WANT_PROVIDER_GC, DSOP_SCOPE_FLAG_WANT_PROVIDER_LDAP, DSOP_SCOPE_FLAG_WANT_PROVIDER_WINNT, DSOP_SCOPE_FLAG_WANT_SID_PATH, DSOP_SCOPE_INIT_INFO, DSOP_SCOPE_INIT_INFO structure [Active Directory], DSOP_SCOPE_TYPE_DOWNLEVEL_JOINED_DOMAIN, DSOP_SCOPE_TYPE_ENTERPRISE_DOMAIN, DSOP_SCOPE_TYPE_EXTERNAL_DOWNLEVEL_DOMAIN, DSOP_SCOPE_TYPE_EXTERNAL_UPLEVEL_DOMAIN, DSOP_SCOPE_TYPE_GLOBAL_CATALOG, DSOP_SCOPE_TYPE_TARGET_COMPUTER, DSOP_SCOPE_TYPE_UPLEVEL_JOINED_DOMAIN, DSOP_SCOPE_TYPE_USER_ENTERED_DOWNLEVEL_SCOPE, DSOP_SCOPE_TYPE_USER_ENTERED_UPLEVEL_SCOPE, DSOP_SCOPE_TYPE_WORKGROUP, PCDSOP_SCOPE_INIT_INFO, PCDSOP_SCOPE_INIT_INFO structure pointer [Active Directory], PDSOP_SCOPE_INIT_INFO, PDSOP_SCOPE_INIT_INFO structure pointer [Active Directory], _DSOP_SCOPE_INIT_INFO, _glines_dsop_scope_init_info, ad.dsop__scope__init__info, ad.dsop_scope_init_info, objsel/DSOP_SCOPE_INIT_INFO, objsel/PCDSOP_SCOPE_INIT_INFO, objsel/PDSOP_SCOPE_INIT_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: objsel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSOP_SCOPE_INIT_INFO, *PDSOP_SCOPE_INIT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Objsel.h
+api_name:
+-	DSOP_SCOPE_INIT_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _DSOP_SCOPE_INIT_INFO structure

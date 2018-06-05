@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:lpmapi.CBADMITRESULT
+title: CBADMITRESULT
+author: windows-sdk-content
+description: The cbAdmitResult function is used by LPMs to return results for the LPM_AdmitRsvpMsg request.
+old-location: qos\cbadmitresult.htm
+old-project: QOS
+ms.assetid: 9040155b-6c6d-4deb-a63a-74e5fc8123ba
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: CBADMITRESULT, CBADMITRESULT callback function [QOS], DUP_RESULTS, INV_LPM_HANDLE, INV_REQ_HANDLE, INV_RESULTS, LPM_TIME_OUT, cbAdmitResult, cbAdmitResult callback, cbAdmitResult callback function [QOS], lpmapi/cbAdmitResult, qos.cbadmitresult
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: lpmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	lpmapi.h
+api_name:
+-	CBADMITRESULT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CBADMITRESULT callback function

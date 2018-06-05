@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:imepad.IImePad.Request
+title: IImePad::Request
+author: windows-sdk-content
+description: Called by an IImePadApplet to insert text into an app.
+old-location: intl\iimepad_request.htm
+old-project: Intl
+ms.assetid: C74B0374-D6C7-44C7-94EF-E97B46534462
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IImePad interface [Internationalization for Windows Applications],Request method, IImePad.Request, IImePad::Request, IMEPADREQ_CHANGESTRING, IMEPADREQ_DELETESTRING, IMEPADREQ_FORCEIMEPADWINDOWSHOW, IMEPADREQ_GETAPPLETUISTYLE, IMEPADREQ_GETAPPLHWND, IMEPADREQ_GETCOMPOSITIONSTRING, IMEPADREQ_GETCOMPOSITIONSTRINGINFO, IMEPADREQ_GETCONVERSIONSTATUS, IMEPADREQ_GETCURRENTIMEINFO, IMEPADREQ_GETCURRENTUILANG, IMEPADREQ_GETDEFAULTUILANGID, IMEPADREQ_GETVERSION, IMEPADREQ_INSERTSTRING, IMEPADREQ_ISAPPLETACTIVE, IMEPADREQ_ISIMEPADWINDOWVISIBLE, IMEPADREQ_POSTMODALNOTIFY, IMEPADREQ_SENDCONTROL, IMEPADREQ_SETAPPLETMINMAXSIZE, IMEPADREQ_SETAPPLETSIZE, IMEPADREQ_SETAPPLETUISTYLE, Request, Request method [Internationalization for Windows Applications], Request method [Internationalization for Windows Applications],IImePad interface, imepad/IImePad::Request, intl.iimepad_request
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imepad.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PlatformId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Imepad.h
+api_name:
+-	IImePad.Request
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IImePad::Request

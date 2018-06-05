@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mswmdm.IWMDMDevice.SendOpaqueCommand
+title: IWMDMDevice::SendOpaqueCommand
+author: windows-sdk-content
+description: The SendOpaqueCommand method sends a device-specific command to the device through Windows Media Device Manager. Windows Media Device Manager does not attempt to read the command.
+old-location: wmdm\iwmdmdevice_sendopaquecommand.htm
+old-project: WMDM
+ms.assetid: 4554318b-497f-488f-a52f-a392b8fee992
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IWMDMDevice interface [windows Media Device Manager],SendOpaqueCommand method, IWMDMDevice.SendOpaqueCommand, IWMDMDevice::SendOpaqueCommand, IWMDMDeviceSendOpaqueCommand, SendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager],IWMDMDevice interface, mswmdm/IWMDMDevice::SendOpaqueCommand, wmdm.iwmdmdevice_sendopaquecommand
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IWMDMDevice.SendOpaqueCommand
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMDevice::SendOpaqueCommand

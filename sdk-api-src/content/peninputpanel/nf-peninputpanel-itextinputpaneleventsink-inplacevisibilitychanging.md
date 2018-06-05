@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceVisibilityChanging
+title: ITextInputPanelEventSink::InPlaceVisibilityChanging
+author: windows-sdk-content
+description: Occurs when the Tablet PC Input Panel is about to switch between visible and invisible.
+old-location: tablet\itextinputpaneleventsink_inplacevisibilitychanging.htm
+old-project: tablet
+ms.assetid: 957e1c24-3eee-4a6f-9157-961e3d6914b7
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 957e1c24-3eee-4a6f-9157-961e3d6914b7, ITextInputPanelEventSink interface [Tablet PC],InPlaceVisibilityChanging method, ITextInputPanelEventSink.InPlaceVisibilityChanging, ITextInputPanelEventSink::InPlaceVisibilityChanging, InPlaceVisibilityChanging, InPlaceVisibilityChanging method [Tablet PC], InPlaceVisibilityChanging method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::InPlaceVisibilityChanging, tablet.itextinputpaneleventsink_inplacevisibilitychanging
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: peninputpanel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EventMask
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tiptsf.dll
+api_name:
+-	ITextInputPanelEventSink.InPlaceVisibilityChanging
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITextInputPanelEventSink::InPlaceVisibilityChanging

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.ICspInformation.get_KeySpec
+title: ICspInformation::get_KeySpec
+author: windows-sdk-content
+description: Retrieves a value that specifies the intended use of the algorithms supported by the provider.
+old-location: security\icspinformation_keyspec_property.htm
+old-project: SecCertEnroll
+ms.assetid: f66f2f5c-7f50-4be6-973e-844d6cb76f61
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ICspInformation interface [Security],KeySpec property, ICspInformation.KeySpec, ICspInformation.get_KeySpec, ICspInformation::KeySpec, ICspInformation::get_KeySpec, KeySpec property [Security], KeySpec property [Security],ICspInformation interface, XCN_AT_KEYEXCHANGE (1), XCN_AT_SIGNATURE (2), certenroll/ICspInformation::KeySpec, certenroll/ICspInformation::get_KeySpec, get_KeySpec, security.icspinformation_keyspec_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	ICspInformation.KeySpec
+-	ICspInformation.get_KeySpec
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # ICspInformation::get_KeySpec

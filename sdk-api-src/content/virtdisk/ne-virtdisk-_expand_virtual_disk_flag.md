@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:virtdisk._EXPAND_VIRTUAL_DISK_FLAG
+title: "_EXPAND_VIRTUAL_DISK_FLAG"
+author: windows-sdk-content
+description: Contains virtual hard disk (VHD) expand request flags.
+old-location: vhd\expand_virtual_disk_flag.htm
+old-project: VStor
+ms.assetid: e117f103-5136-4dbb-87a0-9fb41d43a924
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: EXPAND_VIRTUAL_DISK_FLAG, EXPAND_VIRTUAL_DISK_FLAG enumeration [VHD], EXPAND_VIRTUAL_DISK_FLAG_NONE, _EXPAND_VIRTUAL_DISK_FLAG, vdssys/EXPAND_VIRTUAL_DISK_FLAG, vdssys/EXPAND_VIRTUAL_DISK_FLAG_NONE, vhd.expand_virtual_disk_flag, virtdisk/EXPAND_VIRTUAL_DISK_FLAG, virtdisk/EXPAND_VIRTUAL_DISK_FLAG_NONE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: virtdisk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EXPAND_VIRTUAL_DISK_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VirtDisk.h
+-	vdssys.h
+api_name:
+-	EXPAND_VIRTUAL_DISK_FLAG
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _EXPAND_VIRTUAL_DISK_FLAG enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:endpointvolume.IAudioEndpointVolumeCallback.OnNotify
+title: IAudioEndpointVolumeCallback::OnNotify
+author: windows-sdk-content
+description: The OnNotify method notifies the client that the volume level or muting state of the audio endpoint device has changed.
+old-location: coreaudio\iaudioendpointvolumecallback_onnotify.htm
+old-project: CoreAudio
+ms.assetid: a8ffad44-c621-4335-a312-16e7d6af2c18
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IAudioEndpointVolumeCallback interface [Core Audio],OnNotify method, IAudioEndpointVolumeCallback.OnNotify, IAudioEndpointVolumeCallback::OnNotify, IAudioEndpointVolumeCallbackOnNotify, OnNotify, OnNotify method [Core Audio], OnNotify method [Core Audio],IAudioEndpointVolumeCallback interface, coreaudio.iaudioendpointvolumecallback_onnotify, endpointvolume/IAudioEndpointVolumeCallback::OnNotify
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: endpointvolume.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ProtType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Endpointvolume.h
+api_name:
+-	IAudioEndpointVolumeCallback.OnNotify
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IAudioEndpointVolumeCallback::OnNotify

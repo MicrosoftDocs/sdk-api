@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:documenttarget.IPrintDocumentPackageTarget.GetPackageTarget
+title: IPrintDocumentPackageTarget::GetPackageTarget
+author: windows-sdk-content
+description: Retrieves the pointer to the specific document package target, which allows the client to add a document with the given target type. Clients can call this method multiple times but they always have to use the same target ID.
+old-location: xps\iprintdocumentpackagetarget_getpackagetarget.htm
+old-project: printdocs
+ms.assetid: 7D9A749D-954E-43BA-A522-98CBAD79D18C
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: GetPackageTarget, GetPackageTarget method [XPS Documents and Packaging], GetPackageTarget method [XPS Documents and Packaging],IPrintDocumentPackageTarget interface, IPrintDocumentPackageTarget interface [XPS Documents and Packaging],GetPackageTarget method, IPrintDocumentPackageTarget.GetPackageTarget, IPrintDocumentPackageTarget::GetPackageTarget, documenttarget/IPrintDocumentPackageTarget::GetPackageTarget, xps.iprintdocumentpackagetarget_getpackagetarget
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: documenttarget.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PrintDocumentPackageCompletion
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Documenttarget.h
+api_name:
+-	IPrintDocumentPackageTarget.GetPackageTarget
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IPrintDocumentPackageTarget::GetPackageTarget

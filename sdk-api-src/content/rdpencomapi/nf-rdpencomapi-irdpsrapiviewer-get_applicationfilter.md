@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rdpencomapi.IRDPSRAPIViewer.get_ApplicationFilter
+title: IRDPSRAPIViewer::get_ApplicationFilter
+author: windows-sdk-content
+description: Returns an object implementing the IRDPSRAPIApplicationFilter interface.
+old-location: rdp\irdpsrapiviewer_applicationfilter.htm
+old-project: Rdp
+ms.assetid: 984c7238-99ba-438f-b122-e952f95e018d
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: ApplicationFilter property [RDP], ApplicationFilter property [RDP],IRDPSRAPIViewer interface, ApplicationFilter property [RDP],RDPViewer object, IRDPSRAPIViewer interface [RDP],ApplicationFilter property, IRDPSRAPIViewer.ApplicationFilter, IRDPSRAPIViewer.get_ApplicationFilter, IRDPSRAPIViewer::ApplicationFilter, IRDPSRAPIViewer::get_ApplicationFilter, RDPViewer object [RDP],ApplicationFilter property, get_ApplicationFilter, rdp.irdpsrapiviewer_applicationfilter, rdpencomapi/IRDPSRAPIViewer::ApplicationFilter, rdpencomapi/IRDPSRAPIViewer::get_ApplicationFilter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RdpEncomAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: RdpEncomAPI.tlb
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RdpEncom.dll
+api_name:
+-	IRDPSRAPIViewer.ApplicationFilter
+-	IRDPSRAPIViewer.get_ApplicationFilter
+-	RDPViewer.ApplicationFilter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRDPSRAPIViewer::get_ApplicationFilter

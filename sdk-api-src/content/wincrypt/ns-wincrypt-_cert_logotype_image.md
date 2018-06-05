@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CERT_LOGOTYPE_IMAGE
+title: "_CERT_LOGOTYPE_IMAGE"
+author: windows-sdk-content
+description: Contains information about an image logotype.
+old-location: security\cert_logotype_image.htm
+old-project: SecCrypto
+ms.assetid: d1dff71c-41e1-4f02-93b4-019d688ed012
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_LOGOTYPE_IMAGE, CERT_LOGOTYPE_IMAGE, CERT_LOGOTYPE_IMAGE structure [Security], PCERT_LOGOTYPE_IMAGE, PCERT_LOGOTYPE_IMAGE structure pointer [Security], _CERT_LOGOTYPE_IMAGE, security.cert_logotype_image, wincrypt/CERT_LOGOTYPE_IMAGE, wincrypt/PCERT_LOGOTYPE_IMAGE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_LOGOTYPE_IMAGE, *PCERT_LOGOTYPE_IMAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_LOGOTYPE_IMAGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERT_LOGOTYPE_IMAGE structure

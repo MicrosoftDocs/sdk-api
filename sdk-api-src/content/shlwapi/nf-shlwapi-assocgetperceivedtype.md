@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlwapi.AssocGetPerceivedType
+title: AssocGetPerceivedType function
+author: windows-sdk-content
+description: Retrieves a file's perceived type based on its extension.
+old-location: shell\AssocGetPerceivedType.htm
+old-project: shell
+ms.assetid: d37f1574-b261-43bf-9712-05a569ab4246
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: AssocGetPerceivedType, AssocGetPerceivedType function [Windows Shell], PERCEIVEDFLAG_GDIPLUS, PERCEIVEDFLAG_HARDCODED, PERCEIVEDFLAG_NATIVESUPPORT, PERCEIVEDFLAG_SOFTCODED, PERCEIVEDFLAG_UNDEFINED, PERCEIVEDFLAG_WMSDK, PERCEIVEDFLAG_ZIPFOLDER, _shell_AssocGetPerceivedType, shell.AssocGetPerceivedType, shlwapi/AssocGetPerceivedType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+-	API-MS-Win-shlwapi-IE-l1-1-0.dll
+api_name:
+-	AssocGetPerceivedType
+product: Windows
+targetos: Windows
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 6.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # AssocGetPerceivedType function

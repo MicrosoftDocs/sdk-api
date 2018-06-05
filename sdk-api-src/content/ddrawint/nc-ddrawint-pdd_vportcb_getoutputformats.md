@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_VPORTCB_GETOUTPUTFORMATS
+title: PDD_VPORTCB_GETOUTPUTFORMATS
+author: windows-sdk-content
+description: The DdVideoPortGetOutputFormats callback function determines the output formats that the VPE object supports.
+old-location: display\ddvideoportgetoutputformats.htm
+old-project: display
+ms.assetid: 8e9df88b-a50a-4838-9732-9f818936cbcb
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DdVideoPortGetOutputFormats, DdVideoPortGetOutputFormats callback function [Display Devices], PDD_VPORTCB_GETOUTPUTFORMATS, PDD_VPORTCB_GETOUTPUTFORMATS callback, ddfncs_24c5f4e8-c9ee-4104-80e5-7f6ef21a1f22.xml, ddrawint/DdVideoPortGetOutputFormats, display.ddvideoportgetoutputformats
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdVideoPortGetOutputFormats
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_VPORTCB_GETOUTPUTFORMATS callback function

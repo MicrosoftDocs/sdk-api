@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:cfgmgr32.DMA_Range_s
+title: DMA_Range_s
+author: windows-sdk-content
+description: The DMA_RANGE structure specifies a resource requirements list that describes DMA channel usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
+old-location: devinst\dma_range.htm
+old-project: devinst
+ms.assetid: 46c80013-1863-4e02-be8d-282d2e619200
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PDMA_RANGE, DMA_RANGE, DMA_RANGE structure [Device and Driver Installation], DMA_Range_s, PDMA_RANGE, PDMA_RANGE structure pointer [Device and Driver Installation], cfgmgr32/DMA_RANGE, cfgmgr32/PDMA_RANGE, cfgmgrst_a19d993e-d664-4218-8bae-23e97919b3a8.xml, devinst.dma_range"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMA_RANGE, *PDMA_RANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	cfgmgr32.h
+api_name:
+-	DMA_RANGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DMA_Range_s structure

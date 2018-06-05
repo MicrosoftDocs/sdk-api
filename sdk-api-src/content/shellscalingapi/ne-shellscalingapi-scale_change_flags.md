@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shellscalingapi.SCALE_CHANGE_FLAGS
+title: SCALE_CHANGE_FLAGS
+author: windows-sdk-content
+description: Flags that are used to indicate the scaling change that occured.
+old-location: shell\scale_change_flags.htm
+old-project: shell
+ms.assetid: 18B3E8F1-C9A9-4CE4-8982-C552486EA9B1
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SCALE_CHANGE_FLAGS, SCALE_CHANGE_FLAGS enumeration [Windows Shell], SCF_PHYSICAL, SCF_SCALE, SCF_VALUE_NONE, shell.scale_change_flags, shellscalingapi/SCALE_CHANGE_FLAGS, shellscalingapi/SCF_PHYSICAL, shellscalingapi/SCF_SCALE, shellscalingapi/SCF_VALUE_NONE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shellscalingapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCALE_CHANGE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ShellScalingAPI.h
+api_name:
+-	SCALE_CHANGE_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # SCALE_CHANGE_FLAGS enumeration

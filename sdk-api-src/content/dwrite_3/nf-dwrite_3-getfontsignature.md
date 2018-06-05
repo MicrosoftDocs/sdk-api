@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dwrite_3.GetFontSignature
+title: GetFontSignature function
+author: windows-sdk-content
+description: Retrieves a font signature.
+old-location: directwrite\idwritegdiinterop1_getfontsignature_overload.htm
+old-project: DirectWrite
+ms.assetid: 83967afd-8309-74b7-da76-1caee04a4990
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: GetFontSignature, GetFontSignature methods [Direct Write], IDWriteGdiInterop1::GetFontSignature, directwrite.idwritegdiinterop1_getfontsignature_overload, dwrite_3/GetFontSignature
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dwrite_3.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite_3.h
+api_name:
+-	IDWriteGdiInterop1::GetFontSignature
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # GetFontSignature function

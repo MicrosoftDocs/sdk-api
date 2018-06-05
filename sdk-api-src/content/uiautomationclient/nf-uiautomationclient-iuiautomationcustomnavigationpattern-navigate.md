@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationCustomNavigationPattern.Navigate
+title: IUIAutomationCustomNavigationPattern::Navigate
+author: windows-sdk-content
+description: Gets the next element in the specified direction within the logical UI tree.
+old-location: winauto\uiauto_IUIAutomationCustomNavigationPattern_Navigate.htm
+old-project: WinAuto
+ms.assetid: 82481F62-9FBB-42C8-BDCB-2462FEEB5A0F
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: IUIAutomationCustomNavigationPattern interface [Windows Accessibility],Navigate method, IUIAutomationCustomNavigationPattern.Navigate, IUIAutomationCustomNavigationPattern::Navigate, Navigate, Navigate method [Windows Accessibility], Navigate method [Windows Accessibility],IUIAutomationCustomNavigationPattern interface, uiautomationclient/IUIAutomationCustomNavigationPattern::Navigate, winauto.uiauto_IUIAutomationCustomNavigationPattern_Navigate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationCustomNavigationPattern.Navigate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationCustomNavigationPattern::Navigate

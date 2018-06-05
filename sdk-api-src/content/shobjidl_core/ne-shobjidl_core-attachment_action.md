@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core.ATTACHMENT_ACTION
+title: ATTACHMENT_ACTION
+author: windows-sdk-content
+description: Provides a set of flags to be used with IAttachmentExecute::Prompt to indicate the action to be performed upon user confirmation.
+old-location: shell\ATTACHMENT_ACTION.htm
+old-project: shell
+ms.assetid: 2deeb14b-2665-4970-923c-9da1f561979f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ATTACHMENT_ACTION, ATTACHMENT_ACTION enumeration [Windows Shell], ATTACHMENT_ACTION_CANCEL, ATTACHMENT_ACTION_EXEC, ATTACHMENT_ACTION_SAVE, _win32_ATTACHMENT_ACTION, shell.ATTACHMENT_ACTION, shobjidl_core/ATTACHMENT_ACTION, shobjidl_core/ATTACHMENT_ACTION_CANCEL, shobjidl_core/ATTACHMENT_ACTION_EXEC, shobjidl_core/ATTACHMENT_ACTION_SAVE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ATTACHMENT_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	ATTACHMENT_ACTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # ATTACHMENT_ACTION enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._KERB_ADD_CREDENTIALS_REQUEST
+title: "_KERB_ADD_CREDENTIALS_REQUEST"
+author: windows-sdk-content
+description: Specifies a message to add, remove, or replace an extra server credential for a logon session.
+old-location: security\kerb_add_credentials_request.htm
+old-project: SecAuthN
+ms.assetid: a9a8810b-c9cf-4e19-8a33-7ad0c7ef8694
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PKERB_ADD_CREDENTIALS_REQUEST, KERB_ADD_CREDENTIALS_REQUEST, KERB_ADD_CREDENTIALS_REQUEST structure [Security], KERB_REQUEST_ADD_CREDENTIAL, KERB_REQUEST_REMOVE_CREDENTIAL, KERB_REQUEST_REPLACE_CREDENTIAL, PKERB_ADD_CREDENTIALS_REQUEST, PKERB_ADD_CREDENTIALS_REQUEST structure pointer [Security], _KERB_ADD_CREDENTIALS_REQUEST, ntsecapi/KERB_ADD_CREDENTIALS_REQUEST, ntsecapi/PKERB_ADD_CREDENTIALS_REQUEST, security.kerb_add_credentials_request"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KERB_ADD_CREDENTIALS_REQUEST, *PKERB_ADD_CREDENTIALS_REQUEST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	KERB_ADD_CREDENTIALS_REQUEST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _KERB_ADD_CREDENTIALS_REQUEST structure

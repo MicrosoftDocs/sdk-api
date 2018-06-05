@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.ICspInformation.get_CspAlgorithms
+title: ICspInformation::get_CspAlgorithms
+author: windows-sdk-content
+description: Retrieves a collection of ICspAlgorithm interfaces that contain information about the algorithms supported by the provider.
+old-location: security\icspinformation_cspalgorithms_property.htm
+old-project: SecCertEnroll
+ms.assetid: e74f1aa3-883b-40e4-8052-6651eaa4b63f
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CspAlgorithms property [Security], CspAlgorithms property [Security],ICspInformation interface, ICspInformation interface [Security],CspAlgorithms property, ICspInformation.CspAlgorithms, ICspInformation.get_CspAlgorithms, ICspInformation::CspAlgorithms, ICspInformation::get_CspAlgorithms, certenroll/ICspInformation::CspAlgorithms, certenroll/ICspInformation::get_CspAlgorithms, get_CspAlgorithms, security.icspinformation_cspalgorithms_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	ICspInformation.CspAlgorithms
+-	ICspInformation.get_CspAlgorithms
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # ICspInformation::get_CspAlgorithms

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wsman.WSManPluginGetOperationParameters
+title: WSManPluginGetOperationParameters function
+author: windows-sdk-content
+description: Gets operational information for items such as time-outs and data restrictions that are associated with the operation.
+old-location: winrm\wsmanplugingetoperationparameters.htm
+old-project: WinRM
+ms.assetid: 338e7afc-d05b-4779-ae74-e9ee97e9e0ce
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: WSMAN_PLUGIN_PARAMS_GET_REQUESTED_DATA_LOCALE, WSMAN_PLUGIN_PARAMS_GET_REQUESTED_LOCALE, WSMAN_PLUGIN_PARAMS_LARGEST_RESULT_SIZE, WSMAN_PLUGIN_PARAMS_MAX_ENVELOPE_SIZE, WSMAN_PLUGIN_PARAMS_REMAINING_RESULT_SIZE, WSMAN_PLUGIN_PARAMS_TIMEOUT, WSManPluginGetOperationParameters, WSManPluginGetOperationParameters function [Windows Remote Management], winrm.wsmanplugingetoperationparameters, wsman/WSManPluginGetOperationParameters
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wsman.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSManSessionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	WsmSvc.dll
+api_name:
+-	WSManPluginGetOperationParameters
+product: Windows
+targetos: Windows
+req.lib: WsmSvc.lib
+req.dll: WsmSvc.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WSManPluginGetOperationParameters function

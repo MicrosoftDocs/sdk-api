@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:qos2.QOSCloseHandle
+title: QOSCloseHandle function
+author: windows-sdk-content
+description: The QOSCloseHandle function closes a handle returned by the QOSCreateHandle function.
+old-location: qos\qosclosehandle.htm
+old-project: QOS
+ms.assetid: e9e8e467-616c-419e-952d-2c9e93044a2f
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: QOSCloseHandle, QOSCloseHandle function [QOS], qos.qosclosehandle, qos2/QOSCloseHandle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: qos2.h
+req.include-header: Qos2.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	qwave.dll
+api_name:
+-	QOSCloseHandle
+product: Windows
+targetos: Windows
+req.lib: Qwave.lib
+req.dll: Qwave.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # QOSCloseHandle function

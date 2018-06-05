@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:segment.IMSVidStreamBufferV2SourceEvent.RatingsChanged
+title: IMSVidStreamBufferV2SourceEvent::RatingsChanged
+author: windows-sdk-content
+description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_RATE_CHANGED event, which indicates the playback rate has changed.
+old-location: mstv\imsvidstreambufferv2sourceevent_ratingschanged.htm
+old-project: mstv
+ms.assetid: 56ba6126-c3c7-4cbd-9209-7638452d5782
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],RatingsChanged method, IMSVidStreamBufferV2SourceEvent.RatingsChanged, IMSVidStreamBufferV2SourceEvent::RatingsChanged, RatingsChanged, RatingsChanged method [Microsoft TV Technologies], RatingsChanged method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_ratingschanged, segment/IMSVidStreamBufferV2SourceEvent::RatingsChanged
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidStreamBufferV2SourceEvent.RatingsChanged
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidStreamBufferV2SourceEvent::RatingsChanged

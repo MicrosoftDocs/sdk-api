@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bluetoothapis.BluetoothRegisterForAuthentication
+title: BluetoothRegisterForAuthentication function
+author: windows-sdk-content
+description: The BluetoothRegisterForAuthentication function registers a callback function that is called when a particular Bluetooth device requests authentication.
+old-location: bluetooth\bluetoothregisterforauthentication.htm
+old-project: Bluetooth
+ms.assetid: f85dd076-9062-413f-863f-9d3baba322ad
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BluetoothRegisterForAuthentication, BluetoothRegisterForAuthentication function [Bluetooth], bluetooth.bluetoothregisterforauthentication, bluetoothapis/BluetoothRegisterForAuthentication
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: bluetoothapis.h
+req.include-header: Bthsdpdef.h, BluetoothAPIs.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BLUETOOTH_IO_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Bthprops.dll
+api_name:
+-	BluetoothRegisterForAuthentication
+product: Windows
+targetos: Windows
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 ---
 
 # BluetoothRegisterForAuthentication function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wia_xp._WIA_DITHER_PATTERN_DATA
+title: "_WIA_DITHER_PATTERN_DATA"
+author: windows-sdk-content
+description: The WIA_DITHER_PATTERN_DATA structure specifies a dither pattern for scanners. It is used in conjunction with the scanner device property constant WIA_DPS_DITHER_PATTERN_DATA.
+old-location: wia\_wia_WIA_DITHER_PATTERN_DATA.htm
+old-project: wia
+ms.assetid: VS|wia|~\wia\refwia\structs\wia_dither_pattern_data.htm
+ms.author: windowssdkdev
+ms.date: 05/03/2018
+ms.keywords: "*PWIA_DITHER_PATTERN_DATA, PWIA_DITHER_PATTERN_DATA, PWIA_DITHER_PATTERN_DATA structure pointer [WIA], WIA_DITHER_PATTERN_DATA, WIA_DITHER_PATTERN_DATA structure [WIA], _WIA_DITHER_PATTERN_DATA, _wia_WIA_DITHER_PATTERN_DATA, wia._wia_WIA_DITHER_PATTERN_DATA, wia_xp/PWIA_DITHER_PATTERN_DATA, wia_xp/WIA_DITHER_PATTERN_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wia_xp.h
+req.include-header: Wia.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIA_DITHER_PATTERN_DATA, *PWIA_DITHER_PATTERN_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wia_xp.h
+api_name:
+-	WIA_DITHER_PATTERN_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WIA_DITHER_PATTERN_DATA structure

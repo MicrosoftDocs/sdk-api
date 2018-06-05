@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CryptGetProvParam
+title: CryptGetProvParam function
+author: windows-sdk-content
+description: Retrieves parameters that govern the operations of a cryptographic service provider (CSP).
+old-location: security\cryptgetprovparam.htm
+old-project: SecCrypto
+ms.assetid: c0b7c1c8-aa42-4d40-a7f7-99c0821c8977
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CRYPT_FASTSGC, CRYPT_FIRST, CRYPT_NEXT, CRYPT_SGC, CRYPT_SGC_ENUM, CryptGetProvParam, CryptGetProvParam function [Security], DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, PP_ADMIN_PIN, PP_APPLI_CERT, PP_CERTCHAIN, PP_CHANGE_PASSWORD, PP_CONTAINER, PP_CRYPT_COUNT_KEY_USE, PP_ENUMALGS, PP_ENUMALGS_EX, PP_ENUMCONTAINERS, PP_ENUMELECTROOTS, PP_ENUMEX_SIGNING_PROT, PP_ENUMMANDROOTS, PP_IMPTYPE, PP_KEYEXCHANGE_PIN, PP_KEYSET_SEC_DESCR, PP_KEYSET_TYPE, PP_KEYSPEC, PP_KEYSTORAGE, PP_KEYX_KEYSIZE_INC, PP_KEY_TYPE_SUBTYPE, PP_NAME, PP_PROVTYPE, PP_ROOT_CERTSTORE, PP_SESSION_KEYSIZE, PP_SGC_INFO, PP_SIGNATURE_PIN, PP_SIG_KEYSIZE_INC, PP_SMARTCARD_GUID, PP_SMARTCARD_READER, PP_SYM_KEYSIZE, PP_UI_PROMPT, PP_UNIQUE_CONTAINER, PP_USER_CERTSTORE, PP_USE_HARDWARE_RNG, PP_VERSION, SACL_SECURITY_INFORMATION, _crypto2_cryptgetprovparam, security.cryptgetprovparam, wincrypt/CryptGetProvParam
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-Security-cryptoapi-l1-1-0.dll
+-	cryptsp.dll
+api_name:
+-	CryptGetProvParam
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CryptGetProvParam function

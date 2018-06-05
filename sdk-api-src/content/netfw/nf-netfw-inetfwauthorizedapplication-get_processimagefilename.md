@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netfw.INetFwAuthorizedApplication.get_ProcessImageFileName
+title: INetFwAuthorizedApplication::get_ProcessImageFileName
+author: windows-sdk-content
+description: Specifies the process image file name for this application.
+old-location: ics\inetfwauthorizedapplication_processimagefilename.htm
+old-project: ICS
+ms.assetid: 14e7c8e1-088c-4eae-8f93-7ee41bfa484b
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],ProcessImageFileName property, INetFwAuthorizedApplication.ProcessImageFileName, INetFwAuthorizedApplication.get_ProcessImageFileName, INetFwAuthorizedApplication::ProcessImageFileName, INetFwAuthorizedApplication::get_ProcessImageFileName, INetFwAuthorizedApplication::put_ProcessImageFileName, ProcessImageFileName property [ICS/ICF], ProcessImageFileName property [ICS/ICF],INetFwAuthorizedApplication interface, get_ProcessImageFileName, ics.inetfwauthorizedapplication_processimagefilename, netfw/INetFwAuthorizedApplication::ProcessImageFileName, netfw/INetFwAuthorizedApplication::get_ProcessImageFileName, netfw/INetFwAuthorizedApplication::put_ProcessImageFileName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETISO_ERROR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FirewallAPI.dll
+-	Hnetcfg.dll
+api_name:
+-	INetFwAuthorizedApplication.ProcessImageFileName
+-	INetFwAuthorizedApplication.get_ProcessImageFileName
+-	INetFwAuthorizedApplication.put_ProcessImageFileName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetFwAuthorizedApplication::get_ProcessImageFileName

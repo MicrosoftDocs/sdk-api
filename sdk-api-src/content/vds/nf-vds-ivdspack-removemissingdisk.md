@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vds.IVdsPack.RemoveMissingDisk
+title: IVdsPack::RemoveMissingDisk
+author: windows-sdk-content
+description: Removes a disk that is missing from the pack. This method applies to software provider objects only.
+old-location: base\ivdspack_removemissingdisk.htm
+old-project: VDS
+ms.assetid: f7bdd5b9-430b-49c8-8476-be15eb3948c6
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IVdsPack interface [VDS],RemoveMissingDisk method, IVdsPack.RemoveMissingDisk, IVdsPack::RemoveMissingDisk, RemoveMissingDisk, RemoveMissingDisk method [VDS], RemoveMissingDisk method [VDS],IVdsPack interface, base.ivdspack_removemissingdisk, vds/IVdsPack::RemoveMissingDisk
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VOLUME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsPack.RemoveMissingDisk
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsPack::RemoveMissingDisk

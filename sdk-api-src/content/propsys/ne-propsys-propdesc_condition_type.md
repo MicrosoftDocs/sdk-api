@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:propsys.PROPDESC_CONDITION_TYPE
+title: PROPDESC_CONDITION_TYPE
+author: windows-sdk-content
+description: Describes the condition type to use when displaying the property in the query builder UI in Windows Vista, but not in Windows 7 and later.
+old-location: properties\PROPDESC_CONDITION_TYPE.htm
+old-project: properties
+ms.assetid: 35ed3b49-8b36-4681-bad6-1669c0da94e0
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PDCOT_BOOLEAN, PDCOT_DATETIME, PDCOT_NONE, PDCOT_NUMBER, PDCOT_SIZE, PDCOT_STRING, PROPDESC_CONDITION_TYPE, PROPDESC_CONDITION_TYPE enumeration [Windows Properties], properties.PROPDESC_CONDITION_TYPE, propsys/PDCOT_BOOLEAN, propsys/PDCOT_DATETIME, propsys/PDCOT_NONE, propsys/PDCOT_NUMBER, propsys/PDCOT_SIZE, propsys/PDCOT_STRING, propsys/PROPDESC_CONDITION_TYPE, shell.PROPDESC_CONDITION_TYPE, shell_PROPDESC_CONDITION_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPDESC_CONDITION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Propsys.h
+api_name:
+-	PROPDESC_CONDITION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PROPDESC_CONDITION_TYPE enumeration

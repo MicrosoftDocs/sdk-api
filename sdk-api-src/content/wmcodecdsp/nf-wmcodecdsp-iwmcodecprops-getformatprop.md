@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmcodecdsp.IWMCodecProps.GetFormatProp
+title: IWMCodecProps::GetFormatProp
+author: windows-sdk-content
+description: Retrieves a format property for an output media type. Use this method to get information about enumerated audio formats.
+old-location: mf\iwmcodecpropsgetformatprop.htm
+old-project: medfound
+ms.assetid: b9808c67-915c-4767-9107-8d3a38bb9319
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetFormatProp, GetFormatProp method [Media Foundation], GetFormatProp method [Media Foundation],IWMCodecProps interface, IWMCodecProps interface [Media Foundation],GetFormatProp method, IWMCodecProps.GetFormatProp, IWMCodecProps::GetFormatProp, codecapi.iwmcodecpropsgetformatprop, g_wszSpeechFormatCaps, mf.iwmcodecpropsgetformatprop, wmcodecdsp/ IWMCodecProps::GetFormatProp
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmcodecdsp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoDSPMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmcodecdsp.h
+api_name:
+-	IWMCodecProps.GetFormatProp
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMCodecProps::GetFormatProp

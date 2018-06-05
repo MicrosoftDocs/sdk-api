@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:adhoc.tagDOT11_ADHOC_CIPHER_ALGORITHM
+title: tagDOT11_ADHOC_CIPHER_ALGORITHM
+author: windows-sdk-content
+description: Specifies a cipher algorithm used to encrypt and decrypt information on an ad hoc network.
+old-location: nwifi\dot11_adhoc_cipher_algorithm.htm
+old-project: NativeWiFi
+ms.assetid: 2ea8173d-f528-4065-90ce-71a455a6b35f
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: DOT11_ADHOC_CIPHER_ALGORITHM, DOT11_ADHOC_CIPHER_ALGORITHM enumeration [NativeWIFI], DOT11_ADHOC_CIPHER_ALGO_CCMP, DOT11_ADHOC_CIPHER_ALGO_INVALID, DOT11_ADHOC_CIPHER_ALGO_NONE, DOT11_ADHOC_CIPHER_ALGO_WEP, adhoc/DOT11_ADHOC_CIPHER_ALGORITHM, adhoc/DOT11_ADHOC_CIPHER_ALGO_CCMP, adhoc/DOT11_ADHOC_CIPHER_ALGO_INVALID, adhoc/DOT11_ADHOC_CIPHER_ALGO_NONE, adhoc/DOT11_ADHOC_CIPHER_ALGO_WEP, nwifi.dot11_adhoc_cipher_algorithm, tagDOT11_ADHOC_CIPHER_ALGORITHM
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: adhoc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Adhoc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOT11_ADHOC_CIPHER_ALGORITHM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	adhoc.h
+api_name:
+-	DOT11_ADHOC_CIPHER_ALGORITHM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagDOT11_ADHOC_CIPHER_ALGORITHM enumeration

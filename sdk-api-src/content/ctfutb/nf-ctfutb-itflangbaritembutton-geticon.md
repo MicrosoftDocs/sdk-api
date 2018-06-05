@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ctfutb.ITfLangBarItemButton.GetIcon
+title: ITfLangBarItemButton::GetIcon
+author: windows-sdk-content
+description: ITfLangBarItemButton::GetIcon method
+old-location: tsf\itflangbaritembutton_geticon.htm
+old-project: TSF
+ms.assetid: 6134f747-a138-4ec4-8a89-c25beddcf319
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetIcon, GetIcon method [Text Services Framework], GetIcon method [Text Services Framework],ITfLangBarItemButton interface, ITfLangBarItemButton interface [Text Services Framework],GetIcon method, ITfLangBarItemButton.GetIcon, ITfLangBarItemButton::GetIcon, _tsf_itflangbaritembutton_geticon_ref, ctfutb/ITfLangBarItemButton::GetIcon, tsf.itflangbaritembutton_geticon
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ctfutb.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ctfutb.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TfLBIClick
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITfLangBarItemButton.GetIcon
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 ---
 
 # ITfLangBarItemButton::GetIcon

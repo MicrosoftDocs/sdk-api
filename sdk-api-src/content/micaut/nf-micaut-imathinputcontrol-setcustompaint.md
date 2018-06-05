@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:micaut.IMathInputControl.SetCustomPaint
+title: IMathInputControl::SetCustomPaint
+author: windows-sdk-content
+description: Determines whether a button or background has custom painting.
+old-location: tablet\imathinputcontrol_setcustompaint.htm
+old-project: tablet
+ms.assetid: f734b73c-88a9-45d0-a657-ff048d1f5ffe
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IMathInputControl interface [Tablet PC],SetCustomPaint method, IMathInputControl.SetCustomPaint, IMathInputControl::SetCustomPaint, SetCustomPaint, SetCustomPaint method [Tablet PC], SetCustomPaint method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetCustomPaint, tablet.imathinputcontrol_setcustompaint
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: micaut.h
+req.include-header: Micaut.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Micaut.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MICUIELEMENTSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	micaut.h
+api_name:
+-	IMathInputControl.SetCustomPaint
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMathInputControl::SetCustomPaint

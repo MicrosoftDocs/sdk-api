@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dmusics.IDirectMusicSynth.Download
+title: IDirectMusicSynth::Download
+author: windows-sdk-content
+description: The Download method downloads a wave or instrument definition to the synthesizer.
+old-location: audio\idirectmusicsynth_download.htm
+old-project: audio
+ms.assetid: 2f36654c-25bf-47c3-a4d6-990d427bd1fc
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: Download, Download method [Audio Devices], Download method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Download method, IDirectMusicSynth.Download, IDirectMusicSynth::Download, audio.idirectmusicsynth_download, audmp-routines_5b59a66c-53b7-429c-81d1-8924f712b884.xml, dmusics/IDirectMusicSynth::Download
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dmusics.h
+req.include-header: Dmusics.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dmusics.h
+api_name:
+-	IDirectMusicSynth.Download
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectMusicSynth::Download

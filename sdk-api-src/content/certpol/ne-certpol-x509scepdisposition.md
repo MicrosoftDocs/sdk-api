@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:certpol.X509SCEPDisposition
+title: X509SCEPDisposition
+author: windows-sdk-content
+description: Describes the resulting disposition of a request to process a response message.
+old-location: security\x509scepdisposition.htm
+old-project: SecCertEnroll
+ms.assetid: 635AAD37-261F-4F38-AD00-B3E8A5C55ABF
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: SCEPDispositionFailure, SCEPDispositionPending, SCEPDispositionSuccess, X509SCEPDisposition, X509SCEPDisposition enumeration [Security], certpol/SCEPDispositionFailure, certpol/SCEPDispositionPending, certpol/SCEPDispositionSuccess, certpol/X509SCEPDisposition, security.x509scepdisposition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: certpol.h
+req.include-header: CertEnroll.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509SCEPDisposition
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	certpol.h
+api_name:
+-	X509SCEPDisposition
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: 
+req.irql: 
 ---
 
 # X509SCEPDisposition enumeration

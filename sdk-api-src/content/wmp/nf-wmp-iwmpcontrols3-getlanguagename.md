@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPControls3.getLanguageName
+title: IWMPControls3::getLanguageName
+author: windows-sdk-content
+description: The getLanguageName method retrieves the name of the audio language with the specified locale identifier (LCID).
+old-location: wmp\iwmpcontrols3_getlanguagename.htm
+old-project: WMP
+ms.assetid: cbae09f6-be4d-4736-9e02-d5b85b82ae77
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPControls3 interface [Windows Media Player],getLanguageName method, IWMPControls3.getLanguageName, IWMPControls3::getLanguageName, IWMPControls3getLanguageName, getLanguageName, getLanguageName method [Windows Media Player], getLanguageName method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_getlanguagename, wmp/IWMPControls3::getLanguageName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPControls3.getLanguageName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPControls3::getLanguageName

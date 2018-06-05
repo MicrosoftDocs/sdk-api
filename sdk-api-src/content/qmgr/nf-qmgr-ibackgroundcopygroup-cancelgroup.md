@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:qmgr.IBackgroundCopyGroup.CancelGroup
+title: IBackgroundCopyGroup::CancelGroup
+author: windows-sdk-content
+description: Use the CancelGroup method to remove the group from the queue. Files completely downloaded before calling this method are available to the client. You can cancel a group at anytime; however, the group cannot be recovered once it is canceled.
+old-location: bits\ibackgroundcopygroup_cancelgroup.htm
+old-project: Bits
+ms.assetid: 4ef86db1-3dff-4345-a09a-efea8b6c8c8e
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CancelGroup, CancelGroup method [BITS], CancelGroup method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],CancelGroup method, IBackgroundCopyGroup.CancelGroup, IBackgroundCopyGroup::CancelGroup, bits.ibackgroundcopygroup_cancelgroup, qmgr/IBackgroundCopyGroup::CancelGroup
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: qmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Qmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GROUPPROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	QmgrPrxy.dll
+api_name:
+-	IBackgroundCopyGroup.CancelGroup
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IBackgroundCopyGroup::CancelGroup

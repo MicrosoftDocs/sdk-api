@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0001
+title: "__MIDL___MIDL_itf_bits5_0_0000_0000_0001"
+author: windows-sdk-content
+description: Enumeration that defines ID values corresponding to BITS properties.
+old-location: bits\bits_job_transfer_policy.htm
+old-project: Bits
+ms.assetid: 6B321E80-333A-49F3-B36F-18652F2C92FE
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BITS_JOB_TRANSFER_POLICY, BITS_JOB_TRANSFER_POLICY enumeration [BITS], BITS_JOB_TRANSFER_POLICY_ALWAYS, BITS_JOB_TRANSFER_POLICY_NOT_ROAMING, BITS_JOB_TRANSFER_POLICY_NO_SURCHARGE, BITS_JOB_TRANSFER_POLICY_STANDARD, BITS_JOB_TRANSFER_POLICY_UNRESTRICTED, __MIDL___MIDL_itf_bits5_0_0000_0000_0001, bits.bits_job_transfer_policy, bits5_0/BITS_JOB_TRANSFER_POLICY, bits5_0/BITS_JOB_TRANSFER_POLICY_ALWAYS, bits5_0/BITS_JOB_TRANSFER_POLICY_NOT_ROAMING, bits5_0/BITS_JOB_TRANSFER_POLICY_NO_SURCHARGE, bits5_0/BITS_JOB_TRANSFER_POLICY_STANDARD, bits5_0/BITS_JOB_TRANSFER_POLICY_UNRESTRICTED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: bits5_0.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits4_0.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITS_JOB_TRANSFER_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bits5_0.h
+api_name:
+-	BITS_JOB_TRANSFER_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # __MIDL___MIDL_itf_bits5_0_0000_0000_0001 enumeration

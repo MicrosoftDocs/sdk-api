@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:rtscom.IRealTimeStylusSynchronization
+title: IRealTimeStylusSynchronization
+author: windows-sdk-content
+description: Synchronizes access to the RealTimeStylus Class object.
+old-location: tablet\irealtimestylussynchronization.htm
+old-project: tablet
+ms.assetid: fe76386d-55b5-40a8-aa6f-b4a1ee8d9fbd
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IRealTimeStylusSynchronization, IRealTimeStylusSynchronization interface [Tablet PC], IRealTimeStylusSynchronization interface [Tablet PC],described, fe76386d-55b5-40a8-aa6f-b4a1ee8d9fbd, rtscom/IRealTimeStylusSynchronization, tablet.irealtimestylussynchronization
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: rtscom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: StylusQueue
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RTSCom.dll
+api_name:
+-	IRealTimeStylusSynchronization
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRealTimeStylusSynchronization interface

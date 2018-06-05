@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fhcfg.IFhConfigMgr.AddRemoveExcludeRule
+title: IFhConfigMgr::AddRemoveExcludeRule
+author: windows-sdk-content
+description: Adds an exclusion rule to the exclusion list or removes a rule from the list.
+old-location: winprog\ifhconfigmgr_addremoveexcluderule.htm
+old-project: DevNotes
+ms.assetid: 8900944D-3B73-49AB-AE26-F0B2D5842B02
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: AddRemoveExcludeRule, AddRemoveExcludeRule method [Windows API], AddRemoveExcludeRule method [Windows API],FhConfigMgr class, AddRemoveExcludeRule method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],AddRemoveExcludeRule method, IFhConfigMgr interface [Windows API],AddRemoveExcludeRule method, IFhConfigMgr.AddRemoveExcludeRule, IFhConfigMgr::AddRemoveExcludeRule, fhcfg/IFhConfigMgr::AddRemoveExcludeRule, winprog.ifhconfigmgr_addremoveexcluderule
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fhcfg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fhcfg.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fhcfg.h
+api_name:
+-	IFhConfigMgr.AddRemoveExcludeRule
+-	FhConfigMgr.AddRemoveExcludeRule
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFhConfigMgr::AddRemoveExcludeRule

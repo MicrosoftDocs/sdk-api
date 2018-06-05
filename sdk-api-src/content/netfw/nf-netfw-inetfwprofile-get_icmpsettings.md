@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netfw.INetFwProfile.get_IcmpSettings
+title: INetFwProfile::get_IcmpSettings
+author: windows-sdk-content
+description: Retrieves the ICMP settings of the profile.
+old-location: ics\inetfwprofile_icmpsettings.htm
+old-project: ICS
+ms.assetid: 088be29e-cd1f-4e00-9759-c6e40dca8449
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: INetFwProfile interface [ICS/ICF],IcmpSettings property, INetFwProfile.IcmpSettings, INetFwProfile.get_IcmpSettings, INetFwProfile::IcmpSettings, INetFwProfile::get_IcmpSettings, IcmpSettings property [ICS/ICF], IcmpSettings property [ICS/ICF],INetFwProfile interface, get_IcmpSettings, ics.inetfwprofile_icmpsettings, netfw/INetFwProfile::IcmpSettings, netfw/INetFwProfile::get_IcmpSettings
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETISO_ERROR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FirewallAPI.dll
+-	Hnetcfg.dll
+api_name:
+-	INetFwProfile.IcmpSettings
+-	INetFwProfile.get_IcmpSettings
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetFwProfile::get_IcmpSettings

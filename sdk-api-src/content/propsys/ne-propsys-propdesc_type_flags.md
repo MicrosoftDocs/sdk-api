@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:propsys.PROPDESC_TYPE_FLAGS
+title: PROPDESC_TYPE_FLAGS
+author: windows-sdk-content
+description: Describes attributes of the typeInfo element in the property's .propdesc file.
+old-location: properties\PROPDESC_TYPE_FLAGS.htm
+old-project: properties
+ms.assetid: e8027e59-3d37-4cb9-b73b-b1f05a2f959b
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PDTF_CANBEPURGED, PDTF_CANGROUPBY, PDTF_CANSTACKBY, PDTF_DEFAULT, PDTF_INCLUDEINFULLTEXTQUERY, PDTF_ISGROUP, PDTF_ISINNATE, PDTF_ISQUERYABLE, PDTF_ISSYSTEMPROPERTY, PDTF_ISTREEPROPERTY, PDTF_ISVIEWABLE, PDTF_MASK_ALL, PDTF_MULTIPLEVALUES, PDTF_SEARCHRAWVALUE, PROPDESC_TYPE_FLAGS, PROPDESC_TYPE_FLAGS enumeration [Windows Properties], properties.PROPDESC_TYPE_FLAGS, propsys/PDTF_CANBEPURGED, propsys/PDTF_CANGROUPBY, propsys/PDTF_CANSTACKBY, propsys/PDTF_DEFAULT, propsys/PDTF_INCLUDEINFULLTEXTQUERY, propsys/PDTF_ISGROUP, propsys/PDTF_ISINNATE, propsys/PDTF_ISQUERYABLE, propsys/PDTF_ISSYSTEMPROPERTY, propsys/PDTF_ISTREEPROPERTY, propsys/PDTF_ISVIEWABLE, propsys/PDTF_MASK_ALL, propsys/PDTF_MULTIPLEVALUES, propsys/PDTF_SEARCHRAWVALUE, propsys/PROPDESC_TYPE_FLAGS, shell.PROPDESC_TYPE_FLAGS, shell_PROPDESC_TYPE_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPDESC_TYPE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Propsys.h
+api_name:
+-	PROPDESC_TYPE_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PROPDESC_TYPE_FLAGS enumeration

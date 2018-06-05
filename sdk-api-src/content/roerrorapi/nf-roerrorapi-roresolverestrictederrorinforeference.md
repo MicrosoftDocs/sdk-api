@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:roerrorapi.RoResolveRestrictedErrorInfoReference
+title: RoResolveRestrictedErrorInfoReference function
+author: windows-sdk-content
+description: Returns the IRestrictedErrorInfo interface pointer based on the given reference.
+old-location: winrt\roresolverestrictederrorinforeference.htm
+old-project: WinRT
+ms.assetid: 2F5C5A84-502C-4BD1-A01F-8F0E9B5857AD
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: RoResolveRestrictedErrorInfoReference, RoResolveRestrictedErrorInfoReference function [Windows Runtime], roerrorapi/RoResolveRestrictedErrorInfoReference, winrt.roresolverestrictederrorinforeference
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: roerrorapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	runtimeobject.lib
+-	runtimeobject.dll
+-	API-MS-Win-Core-WinRT-error-l1-1-0.dll
+-	ComBase.dll
+-	API-MS-Win-Core-WinRT-error-l1-1-1.dll
+api_name:
+-	RoResolveRestrictedErrorInfoReference
+product: Windows
+targetos: Windows
+req.lib: Runtimeobject.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RoResolveRestrictedErrorInfoReference function

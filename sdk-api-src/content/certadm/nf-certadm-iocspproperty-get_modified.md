@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certadm.IOCSPProperty.get_Modified
+title: IOCSPProperty::get_Modified
+author: windows-sdk-content
+description: Gets a value that indicates whether an OCSPProperty object has been modified since it was instantiated.
+old-location: security\iocspproperty_modified_method.htm
+old-project: SecCrypto
+ms.assetid: 3e965ee2-4b6f-4c95-b048-b9e9c7701306
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IOCSPProperty interface [Security],Modified property, IOCSPProperty.Modified, IOCSPProperty.get_Modified, IOCSPProperty::Modified, IOCSPProperty::get_Modified, Modified property [Security], Modified property [Security],IOCSPProperty interface, certadm/IOCSPProperty::Modified, certadm/IOCSPProperty::get_Modified, get_Modified, security.iocspproperty_modified_method
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certadm.h
+req.include-header: Certserv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certadm.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certadm.dll
+api_name:
+-	IOCSPProperty.Modified
+-	IOCSPProperty.get_Modified
+product: Windows
+targetos: Windows
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # IOCSPProperty::get_Modified

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi._devicemodeA
+title: "_devicemodeA"
+author: windows-sdk-content
+description: The DEVMODE data structure contains information about the initialization and environment of a printer or a display device.
+old-location: gdi\devmode.htm
+old-project: printdocs
+ms.assetid: 85741025-9393-42ab-8a6d-27f1ae2c0f1b
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*LPDEVMODEA, *NPDEVMODEA, *PDEVMODEA, DEVMODE, DEVMODE structure [Windows GDI], DEVMODEA, DMBIN_AUTO, DMBIN_CASSETTE, DMBIN_ENVELOPE, DMBIN_ENVMANUAL, DMBIN_FIRST, DMBIN_FORMSOURCE, DMBIN_LARGECAPACITY, DMBIN_LARGEFMT, DMBIN_LAST, DMBIN_LOWER, DMBIN_MANUAL, DMBIN_MIDDLE, DMBIN_ONLYONE, DMBIN_SMALLFMT, DMBIN_TRACTOR, DMBIN_UPPER, DMRES_DRAFT, DMRES_HIGH, DMRES_LOW, DMRES_MEDIUM, LPDEVMODE, LPDEVMODE structure pointer [Windows GDI], PDEVMODE, PDEVMODE structure pointer [Windows GDI], _DEVMODEA, _DEVMODEW, _devicemodeA, _win32_DEVMODE_str, gdi.devmode, wingdi/DEVMODE, wingdi/LPDEVMODE, wingdi/PDEVMODE, wingdi/_DEVMODEA, wingdi/_DEVMODEW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: "_DEVMODEW (Unicode) and _DEVMODEA (ANSI)"
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEVMODEA, *PDEVMODEA, *NPDEVMODEA, *LPDEVMODEA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	DEVMODE
+-	_DEVMODEA
+-	_DEVMODEW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _devicemodeA structure

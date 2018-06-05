@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:msdrmdefs._DRMSECURITYPROVIDERTYPE
+title: "_DRMSECURITYPROVIDERTYPE"
+author: windows-sdk-content
+description: The DRMSECURITYPROVIDERTYPE enumeration specifies the type of secure DRM environment used.
+old-location: rm\drmsecurityprovidertype.htm
+old-project: AdRms_Sdk
+ms.assetid: e8b81e48-d13a-4b7d-b7a4-a197dc81dc6b
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DRMSECURITYPROVIDERTYPE, DRMSECURITYPROVIDERTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMSECURITYPROVIDERTYPE_SOFTWARESECREP, _DRMSECURITYPROVIDERTYPE, msdrmdefs/DRMSECURITYPROVIDERTYPE, msdrmdefs/DRMSECURITYPROVIDERTYPE_SOFTWARESECREP, rm.drmsecurityprovidertype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msdrmdefs.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRMSECURITYPROVIDERTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msdrmdefs.h
+api_name:
+-	DRMSECURITYPROVIDERTYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _DRMSECURITYPROVIDERTYPE enumeration

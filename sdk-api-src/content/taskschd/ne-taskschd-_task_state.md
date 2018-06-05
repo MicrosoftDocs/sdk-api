@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:taskschd._TASK_STATE
+title: "_TASK_STATE"
+author: windows-sdk-content
+description: Defines the different states that a registered task can be in.
+old-location: taskschd\task_state.htm
+old-project: TaskSchd
+ms.assetid: 89fd8b0b-1cdf-4222-99cc-d8c55a3e68d6
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: TASK_STATE, TASK_STATE enumeration [Task Scheduler], TASK_STATE_DISABLED, TASK_STATE_QUEUED, TASK_STATE_READY, TASK_STATE_RUNNING, TASK_STATE_UNKNOWN, _TASK_STATE, taskschd.task_state, taskschd/TASK_STATE, taskschd/TASK_STATE_DISABLED, taskschd/TASK_STATE_QUEUED, taskschd/TASK_STATE_READY, taskschd/TASK_STATE_RUNNING, taskschd/TASK_STATE_UNKNOWN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	taskschd.h
+api_name:
+-	TASK_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TASK_STATE enumeration

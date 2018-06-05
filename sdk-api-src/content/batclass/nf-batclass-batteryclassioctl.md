@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:batclass.BatteryClassIoctl
+title: BatteryClassIoctl function
+author: windows-sdk-content
+description: BatteryClassIoctl handles system-defined battery IOCTLs.
+old-location: battery\batteryclassioctl.htm
+old-project: battery
+ms.assetid: 8208552a-42a3-414f-849c-2bb0086c9f80
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: BatteryClassIoctl, BatteryClassIoctl function [Battery Devices], bat-rtn_bb0fcbcf-a26f-4f06-9f28-40bdc55b9d61.xml, batclass/BatteryClassIoctl, battery.batteryclassioctl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: batclass.h
+req.include-header: Batclass.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Battc.lib
+-	Battc.dll
+api_name:
+-	BatteryClassIoctl
+product: Windows
+targetos: Windows
+req.lib: Battc.lib
+req.dll: 
+req.irql: 
 ---
 
 # BatteryClassIoctl function

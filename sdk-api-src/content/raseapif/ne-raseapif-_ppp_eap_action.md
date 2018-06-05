@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:raseapif._PPP_EAP_ACTION
+title: "_PPP_EAP_ACTION"
+author: windows-sdk-content
+description: The PPP_EAP_ACTION enumerated type specifies actions that the Connection Manager should take on behalf of the authentication protocol.
+old-location: eap\ppp_eap_action.htm
+old-project: EAP
+ms.assetid: 5b1ead41-1fc0-41af-8614-3246d220c88d
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: EAPACTION_Authenticate, EAPACTION_Done, EAPACTION_IndicateIdentity, EAPACTION_IndicateTLV, EAPACTION_NoAction, EAPACTION_Send, EAPACTION_SendAndDone, EAPACTION_SendWithTimeout, EAPACTION_SendWithTimeoutInteractive, PPP_EAP_ACTION, PPP_EAP_ACTION enumeration [EAP], _PPP_EAP_ACTION, _eap_ppp_eap_action, eap.ppp_eap_action, raseapif/EAPACTION_Authenticate, raseapif/EAPACTION_Done, raseapif/EAPACTION_IndicateIdentity, raseapif/EAPACTION_IndicateTLV, raseapif/EAPACTION_NoAction, raseapif/EAPACTION_Send, raseapif/EAPACTION_SendAndDone, raseapif/EAPACTION_SendWithTimeout, raseapif/EAPACTION_SendWithTimeoutInteractive, raseapif/PPP_EAP_ACTION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: raseapif.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RasPhonebookDlgW (Unicode) and RasPhonebookDlgA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PPP_EAP_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Raseapif.h
+api_name:
+-	PPP_EAP_ACTION
+product: Windows
+targetos: Windows
+req.lib: Rasdlg.lib
+req.dll: Rasdlg.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PPP_EAP_ACTION enumeration

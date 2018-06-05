@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:digitalv.MCI_DGV_OPEN_PARMSA
+title: MCI_DGV_OPEN_PARMSA
+author: windows-sdk-content
+description: The MCI_DGV_OPEN_PARMS structure contains information for the MCI_OPEN command for digital-video devices.
+old-location: multimedia\mci_dgv_open_parms.htm
+old-project: Multimedia
+ms.assetid: 9256ab7f-1259-4c74-9766-fe3ed1c7215c
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*LPMCI_DGV_OPEN_PARMSA, MCI_DGV_OPEN_PARMS, MCI_DGV_OPEN_PARMS structure [Windows Multimedia], MCI_DGV_OPEN_PARMSA, _win32_MCI_DGV_OPEN_PARMS_str, digitalv/MCI_DGV_OPEN_PARMS, multimedia.mci_dgv_open_parms"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: digitalv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MCI_DGV_OPEN_PARMSA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Digitalv.h
+api_name:
+-	MCI_DGV_OPEN_PARMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # MCI_DGV_OPEN_PARMSA structure

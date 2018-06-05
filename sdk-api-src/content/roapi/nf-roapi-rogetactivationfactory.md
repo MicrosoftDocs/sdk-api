@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:roapi.RoGetActivationFactory
+title: RoGetActivationFactory function
+author: windows-sdk-content
+description: Gets the activation factory for the specified runtime class.
+old-location: winrt\rogetactivationfactory.htm
+old-project: WinRT
+ms.assetid: 291ed35d-a459-4509-a265-89c49f8aa13a
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: RoGetActivationFactory, RoGetActivationFactory function [Windows Runtime], WinRTGetActivationFactory, roapi/RoGetActivationFactory, roapi/WinRTGetActivationFactory, winrt.rogetactivationfactory, winrt.winrtgetactivationfactory
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: roapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RO_INIT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	combase.dll
+-	API-MS-Win-Core-Winrt-l1-1-0.dll
+api_name:
+-	RoGetActivationFactory
+-	WinRTGetActivationFactory
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Combase.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RoGetActivationFactory function

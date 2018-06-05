@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:objidl.tagSTREAM_SEEK
+title: tagSTREAM_SEEK
+author: windows-sdk-content
+description: The STREAM_SEEK enumeration values specify the origin from which to calculate the new seek-pointer location.
+old-location: stg\stream_seek.htm
+old-project: Stg
+ms.assetid: f73a8f98-c004-40c7-b8d2-5b84d7aa2c31
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: STREAM_SEEK, STREAM_SEEK enumeration [Structured Storage], STREAM_SEEK_CUR, STREAM_SEEK_END, STREAM_SEEK_SET, _stg_stream_seek, objidl/STREAM_SEEK, objidl/STREAM_SEEK_CUR, objidl/STREAM_SEEK_END, objidl/STREAM_SEEK_SET, stg.stream_seek, tagSTREAM_SEEK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Objidlbase.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAM_SEEK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Objidl.h
+api_name:
+-	STREAM_SEEK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagSTREAM_SEEK enumeration

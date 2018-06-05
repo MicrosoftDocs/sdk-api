@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:aux_ulib.AuxUlibIsDLLSynchronizationHeld
+title: AuxUlibIsDLLSynchronizationHeld function
+author: windows-sdk-content
+description: Determines whether the caller is holding a synchronization primitive.
+old-location: winprog\auxulibisdllsynchronizationheld.htm
+old-project: DevNotes
+ms.assetid: fa2adb90-757c-4796-9842-e1f1a16d46fa
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: AuxUlibIsDLLSynchronizationHeld, AuxUlibIsDLLSynchronizationHeld function [Windows API], aux_ulib/AuxUlibIsDLLSynchronizationHeld, winprog.auxulibisdllsynchronizationheld
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: aux_ulib.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTHZ_SOURCE_SCHEMA_REGISTRATION, *PAUTHZ_SOURCE_SCHEMA_REGISTRATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Aux_ulib.lib
+api_name:
+-	AuxUlibIsDLLSynchronizationHeld
+product: Windows
+targetos: Windows
+req.lib: Aux_ulib.lib
+req.dll: 
+req.irql: 
 ---
 
 # AuxUlibIsDLLSynchronizationHeld function

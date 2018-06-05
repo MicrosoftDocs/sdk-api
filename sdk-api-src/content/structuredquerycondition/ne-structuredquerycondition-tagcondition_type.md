@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:structuredquerycondition.tagCONDITION_TYPE
+title: tagCONDITION_TYPE
+author: windows-sdk-content
+description: Provides a set of flags to be used with the following methods to indicate the type of condition tree node:\_ICondition::GetConditionType, IConditionFactory::MakeAndOr, IConditionFactory2::CreateCompoundFromArray, and IConditionFactory2::CreateCompoundFromObjectArray.
+old-location: search\_search_CONDITION_TYPE.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\enums\condition_type.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CONDITION_TYPE, CONDITION_TYPE enumeration [search], CT_AND_CONDITION, CT_LEAF_CONDITION, CT_NOT_CONDITION, CT_OR_CONDITION, _search_CONDITION_TYPE, search._search_CONDITION_TYPE, structuredquerycondition/CONDITION_TYPE, structuredquerycondition/CT_AND_CONDITION, structuredquerycondition/CT_LEAF_CONDITION, structuredquerycondition/CT_NOT_CONDITION, structuredquerycondition/CT_OR_CONDITION, tagCONDITION_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: structuredquerycondition.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista, Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Structuredquerycondition.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONDITION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Structuredquerycondition.h
+api_name:
+-	CONDITION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # tagCONDITION_TYPE enumeration

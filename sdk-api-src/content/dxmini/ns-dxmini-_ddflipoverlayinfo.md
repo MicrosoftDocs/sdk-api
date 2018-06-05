@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dxmini._DDFLIPOVERLAYINFO
+title: "_DDFLIPOVERLAYINFO"
+author: windows-sdk-content
+description: The DDFLIPOVERLAYINFO structure contains the flip information for the surface.
+old-location: display\ddflipoverlayinfo.htm
+old-project: display
+ms.assetid: 04e4baba-4b6c-4f0a-8197-1fb2d83f53d6
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDDFLIPOVERLAYINFO, DDFLIPOVERLAYINFO, DDFLIPOVERLAYINFO structure [Display Devices], PDDFLIPOVERLAYINFO, PDDFLIPOVERLAYINFO structure pointer [Display Devices], Video_Structs_c9d5aaff-82e8-482e-b774-6c14f0fa8610.xml, _DDFLIPOVERLAYINFO, display.ddflipoverlayinfo, dxmini/DDFLIPOVERLAYINFO, dxmini/PDDFLIPOVERLAYINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDFLIPOVERLAYINFO, *PDDFLIPOVERLAYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxmini.h
+api_name:
+-	DDFLIPOVERLAYINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DDFLIPOVERLAYINFO structure

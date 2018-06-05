@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:audioenginebaseapo.IAudioSystemEffectsCustomFormats
+title: IAudioSystemEffectsCustomFormats
+author: windows-sdk-content
+description: The IAudioSystemEffectsCustomFormats interface is supported in Windows Vista and later versions of Windows.
+old-location: audio\iaudiosystemeffectscustomformats.htm
+old-project: audio
+ms.assetid: 29b758c0-5bbe-489c-9950-bc92a185fbaf
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IAudioSystemEffectsCustomFormats, IAudioSystemEffectsCustomFormats interface [Audio Devices], IAudioSystemEffectsCustomFormats interface [Audio Devices],described, audio.iaudiosystemeffectscustomformats, audio_syseffects_r_c8bb1589-9952-4e31-8153-653c3dd0f174.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: audioenginebaseapo.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APO_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	audioenginebaseapo.h
+api_name:
+-	IAudioSystemEffectsCustomFormats
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: All levels.
 ---
 
 # IAudioSystemEffectsCustomFormats interface

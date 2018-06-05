@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mcx._MODEMSETTINGS
+title: "_MODEMSETTINGS"
+author: windows-sdk-content
+description: Contains information about a modem's configuration.
+old-location: base\modemsettings_str.htm
+old-project: DevIO
+ms.assetid: 4648992b-eeeb-4a8d-8e08-7e80f0dc56ef
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*LPMODEMSETTINGS, *PMODEMSETTINGS, LPMODEMSETTINGS, LPMODEMSETTINGS structure pointer, MDMSPKR_CALLSETUP, MDMSPKR_DIAL, MDMSPKR_OFF, MDMSPKR_ON, MDMVOL_HIGH, MDMVOL_LOW, MDMVOL_MEDIUM, MODEMSETTINGS, MODEMSETTINGS structure, PMODEMSETTINGS, PMODEMSETTINGS structure pointer, _MODEMSETTINGS, _win32_modemsettings_str, base.modemsettings_str, mcx/LPMODEMSETTINGS, mcx/MODEMSETTINGS, mcx/PMODEMSETTINGS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mcx.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mcx.h
+api_name:
+-	MODEMSETTINGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MODEMSETTINGS structure

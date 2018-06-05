@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:windns.__unnamed_struct_0
+title: IP6_ADDRESS
+author: windows-sdk-content
+description: The IP6_ADDRESS structure stores an IPv6 address.
+old-location: dns\ip6_address.htm
+old-project: DNS
+ms.assetid: 789400be-03c7-4c4f-9e78-fa2573cf114d
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: "*PIP6_ADDRESS, *PIP6_ADDRESS structure [DNS], IP6_ADDRESS, IP6_ADDRESS structure [DNS], dns.ip6_address, windns/*PIP6_ADDRESS, windns/IP6_ADDRESS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: windns.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Windns.h
+api_name:
+-	IP6_ADDRESS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IP6_ADDRESS structure

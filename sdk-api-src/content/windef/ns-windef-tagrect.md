@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:windef.tagRECT
+title: tagRECT
+author: windows-sdk-content
+description: The RECT structure defines a rectangle by the coordinates of its upper-left and lower-right corners.
+old-location: display\rect.htm
+old-project: display
+ms.assetid: a44f33f4-49b2-4a36-a7bd-fc4a9d3a3943
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPRECT, *NPRECT, *PRECT, FAR *LPRECT, FAR *LPRECT structure [Display Devices], NEAR *NPRECT, NEAR *NPRECT structure [Display Devices], PRECT, PRECT structure pointer [Display Devices], RECT, RECT structure [Display Devices], display.rect, grstrcts_9bf844e0-1ec8-4bc0-a0ce-0790a4cfc93e.xml, tagRECT, windef/FAR *LPRECT, windef/NEAR *NPRECT, windef/PRECT, windef/RECT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: windef.h
+req.include-header: Windows.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RECT, *PRECT, *NPRECT, *LPRECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	windef.h
+api_name:
+-	RECT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagRECT structure

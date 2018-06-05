@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mbnapi.MBN_MSG_STATUS
+title: MBN_MSG_STATUS
+author: windows-sdk-content
+description: The MBN_MSG_STATUS enumerated type defines the type of message being handled.
+old-location: mbn\mbn_msg_status.htm
+old-project: mbn
+ms.assetid: a63cfc67-f1bd-49b0-9a98-2d9da7fef0d2
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: MBN_MSG_STATUS, MBN_MSG_STATUS enumeration [Microsoft Broadband Networks], MBN_MSG_STATUS_DRAFT, MBN_MSG_STATUS_NEW, MBN_MSG_STATUS_OLD, MBN_MSG_STATUS_SENT, mbn.mbn_msg_status, mbnapi/MBN_MSG_STATUS, mbnapi/MBN_MSG_STATUS_DRAFT, mbnapi/MBN_MSG_STATUS_NEW, mbnapi/MBN_MSG_STATUS_OLD, mbnapi/MBN_MSG_STATUS_SENT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_MSG_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mbnapi.h
+api_name:
+-	MBN_MSG_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MBN_MSG_STATUS enumeration

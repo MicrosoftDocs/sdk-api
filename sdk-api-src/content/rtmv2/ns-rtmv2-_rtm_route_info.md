@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rtmv2._RTM_ROUTE_INFO
+title: "_RTM_ROUTE_INFO"
+author: windows-sdk-content
+description: The RTM_ROUTE_INFO structure is used to exchange route information with the routing table manager. Do not change the read-only information.
+old-location: rras\rtm_route_info.htm
+old-project: RRAS
+ms.assetid: 7d9bf8c0-dc09-440a-b60d-97463c70a745
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PRTM_ROUTE_INFO, PRTM_ROUTE_INFO, PRTM_ROUTE_INFO structure pointer [RAS], RTM_ROUTE_FLAGS_ANY_BCAST, RTM_ROUTE_FLAGS_ANY_MCAST, RTM_ROUTE_FLAGS_ANY_UNICAST, RTM_ROUTE_FLAGS_LIMITED_BC, RTM_ROUTE_FLAGS_LOCAL, RTM_ROUTE_FLAGS_LOCAL_MCAST, RTM_ROUTE_FLAGS_MCAST, RTM_ROUTE_FLAGS_MYSELF, RTM_ROUTE_FLAGS_NET_BCAST, RTM_ROUTE_FLAGS_ONES_NETBC, RTM_ROUTE_FLAGS_ONES_SUBNETBC, RTM_ROUTE_FLAGS_REMOTE, RTM_ROUTE_FLAGS_ZEROS_NETBC, RTM_ROUTE_FLAGS_ZEROS_SUBNETBC, RTM_ROUTE_INFO, RTM_ROUTE_INFO structure [RAS], RTM_ROUTE_STATE_CREATED, RTM_ROUTE_STATE_DELETED, RTM_ROUTE_STATE_DELETING, _RTM_ROUTE_INFO, _rtmv2ref_rtm_route_info, rras.rtm_route_info, rtmv2/PRTM_ROUTE_INFO, rtmv2/RTM_ROUTE_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rtmv2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RTM_ROUTE_INFO, *PRTM_ROUTE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rtmv2.h
+api_name:
+-	RTM_ROUTE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RTM_ROUTE_INFO structure

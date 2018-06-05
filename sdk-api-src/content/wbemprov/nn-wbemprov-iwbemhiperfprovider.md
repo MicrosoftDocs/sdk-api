@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:wbemprov.IWbemHiPerfProvider
+title: IWbemHiPerfProvider
+author: windows-sdk-content
+description: Enables providers to supply refreshable objects and enumerators.
+old-location: wmi\iwbemhiperfprovider.htm
+old-project: WmiSdk
+ms.assetid: eb0d12c0-d746-4bae-b47d-50350d33447a
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: IWbemHiPerfProvider, IWbemHiPerfProvider interface [Windows Management Instrumentation], IWbemHiPerfProvider interface [Windows Management Instrumentation],described, _hmm_iwbemhiperfprovider, wbemprov/IWbemHiPerfProvider, wmi.iwbemhiperfprovider
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wbemprov.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmiprvsd.dll
+api_name:
+-	IWbemHiPerfProvider
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wmiprvsd.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemHiPerfProvider interface

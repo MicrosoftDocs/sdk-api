@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mobsync._tagSYNCMGRREGISTERFLAGS
+title: "_tagSYNCMGRREGISTERFLAGS"
+author: windows-sdk-content
+description: The SYNCMGRREGISTERFLAGS enumeration values are used in methods of the ISyncMgrRegister interface to identify events for which the handler is registered to be notified.
+old-location: shell\syncmgr_SYNCMGRREGISTERFLAGS.htm
+old-project: shell
+ms.assetid: be87cebf-da50-437b-bbb1-22c2c764e700
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SYNCMGRREGISTERFLAGS, SYNCMGRREGISTERFLAGS enumeration [Windows Shell], SYNCMGRREGISTERFLAG_CONNECT, SYNCMGRREGISTERFLAG_IDLE, SYNCMGRREGISTERFLAG_PENDINGDISCONNECT, _tagSYNCMGRREGISTERFLAGS, mobsync/SYNCMGRREGISTERFLAGS, mobsync/SYNCMGRREGISTERFLAG_CONNECT, mobsync/SYNCMGRREGISTERFLAG_IDLE, mobsync/SYNCMGRREGISTERFLAG_PENDINGDISCONNECT, shell.syncmgr_SYNCMGRREGISTERFLAGS, syncmgr_SYNCMGRREGISTERFLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mobsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGRREGISTERFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mobsync.h
+api_name:
+-	SYNCMGRREGISTERFLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _tagSYNCMGRREGISTERFLAGS enumeration

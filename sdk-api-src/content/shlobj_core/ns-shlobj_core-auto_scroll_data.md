@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj_core.AUTO_SCROLL_DATA
+title: AUTO_SCROLL_DATA
+author: windows-sdk-content
+description: AUTO_SCROLL_DATA may be altered or unavailable.
+old-location: shell\AUTO_SCROLL_DATA_str.htm
+old-project: shell
+ms.assetid: 4229dd3b-1fc7-4cc7-bcc9-4e25bdc17c11
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: AUTO_SCROLL_DATA, AUTO_SCROLL_DATA structure [Windows Shell], _win32_AUTO_SCROLL_DATA_str, shell.AUTO_SCROLL_DATA_str, shlobj_core/AUTO_SCROLL_DATA
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTO_SCROLL_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	AUTO_SCROLL_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # AUTO_SCROLL_DATA structure

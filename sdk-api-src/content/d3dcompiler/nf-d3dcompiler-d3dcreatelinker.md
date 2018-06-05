@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3dcompiler.D3DCreateLinker
+title: D3DCreateLinker function
+author: windows-sdk-content
+description: Creates a linker interface. Note  This function is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.  .
+old-location: direct3dhlsl\d3dcreatelinker.htm
+old-project: direct3dhlsl
+ms.assetid: 15BEFF31-9E08-462F-9F27-1CADB8367E4F
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: D3DCreateLinker, D3DCreateLinker function [HLSL], d3dcompiler/D3DCreateLinker, direct3dhlsl.d3dcreatelinker
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d3dcompiler.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_BLOB_PART
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D3DCompiler_47.dll
+api_name:
+-	D3DCreateLinker
+product: Windows
+targetos: Windows
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 ---
 
 # D3DCreateLinker function

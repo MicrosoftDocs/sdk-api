@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:msdrm.DRMActivate
+title: DRMActivate function
+author: windows-sdk-content
+description: Obtains a lockbox and machine certificate for a machine or a rights account certificate for a user.
+old-location: rm\drmactivate.htm
+old-project: AdRms_Sdk
+ms.assetid: d3f4ac2c-95d9-4273-a679-81670dd62d28
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DRMActivate, DRMActivate function [Active Directory Rights Management Services SDK 1.0], DRM_ACTIVATE_CANCEL, DRM_ACTIVATE_DELAYED, DRM_ACTIVATE_GROUPIDENTITY, DRM_ACTIVATE_MACHINE, DRM_ACTIVATE_SHARED_GROUPIDENTITY, DRM_ACTIVATE_SILENT, DRM_ACTIVATE_TEMPORARY, msdrm/DRMActivate, rm.drmactivate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msdrm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_SELECTIONSTYLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msdrm.dll
+api_name:
+-	DRMActivate
+product: Windows
+targetos: Windows
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
+req.product: Rights Management Services client v1.0 SP2 or later
 ---
 
 # DRMActivate function

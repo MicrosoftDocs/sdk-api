@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mbnapi.MBN_BAND_CLASS
+title: MBN_BAND_CLASS
+author: windows-sdk-content
+description: The MBN_BAND_CLASS enumerated type defines the frequency band classes.
+old-location: mbn\mbn_band_class.htm
+old-project: mbn
+ms.assetid: 0ad757fd-583b-4163-af69-54a559a3dacc
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: MBN_BAND_CLASS, MBN_BAND_CLASS enumeration [Microsoft Broadband Networks], MBN_BAND_CLASS_0, MBN_BAND_CLASS_CUSTOM, MBN_BAND_CLASS_I, MBN_BAND_CLASS_II, MBN_BAND_CLASS_III, MBN_BAND_CLASS_IV, MBN_BAND_CLASS_IX, MBN_BAND_CLASS_NONE, MBN_BAND_CLASS_V, MBN_BAND_CLASS_VI, MBN_BAND_CLASS_VII, MBN_BAND_CLASS_VIII, MBN_BAND_CLASS_X, MBN_BAND_CLASS_XI, MBN_BAND_CLASS_XII, MBN_BAND_CLASS_XIII, MBN_BAND_CLASS_XIV, MBN_BAND_CLASS_XV, MBN_BAND_CLASS_XVI, MBN_BAND_CLASS_XVII, mbn.mbn_band_class, mbnapi/MBN_BAND_CLASS, mbnapi/MBN_BAND_CLASS_0, mbnapi/MBN_BAND_CLASS_CUSTOM, mbnapi/MBN_BAND_CLASS_I, mbnapi/MBN_BAND_CLASS_II, mbnapi/MBN_BAND_CLASS_III, mbnapi/MBN_BAND_CLASS_IV, mbnapi/MBN_BAND_CLASS_IX, mbnapi/MBN_BAND_CLASS_NONE, mbnapi/MBN_BAND_CLASS_V, mbnapi/MBN_BAND_CLASS_VI, mbnapi/MBN_BAND_CLASS_VII, mbnapi/MBN_BAND_CLASS_VIII, mbnapi/MBN_BAND_CLASS_X, mbnapi/MBN_BAND_CLASS_XI, mbnapi/MBN_BAND_CLASS_XII, mbnapi/MBN_BAND_CLASS_XIII, mbnapi/MBN_BAND_CLASS_XIV, mbnapi/MBN_BAND_CLASS_XV, mbnapi/MBN_BAND_CLASS_XVI, mbnapi/MBN_BAND_CLASS_XVII
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_BAND_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mbnapi.h
+api_name:
+-	MBN_BAND_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MBN_BAND_CLASS enumeration

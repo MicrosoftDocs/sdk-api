@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11shader.ID3D11ShaderReflection.GetVariableByName
+title: ID3D11ShaderReflection::GetVariableByName
+author: windows-sdk-content
+description: Gets a variable by name.
+old-location: direct3d11\id3d11shaderreflection_getvariablebyname.htm
+old-project: direct3d11
+ms.assetid: 8c21756f-40f0-4459-852b-445053aa03e8
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 714dbbf5-52e2-8540-c5c1-aa03dcf32bf2, GetVariableByName, GetVariableByName method [Direct3D 11], GetVariableByName method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetVariableByName method, ID3D11ShaderReflection.GetVariableByName, ID3D11ShaderReflection::GetVariableByName, d3d11shader/ID3D11ShaderReflection::GetVariableByName, direct3d11.id3d11shaderreflection_getvariablebyname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_SHADER_VERSION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3DCompiler_47.dll
+api_name:
+-	ID3D11ShaderReflection.GetVariableByName
+product: Windows
+targetos: Windows
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 ---
 
 # ID3D11ShaderReflection::GetVariableByName

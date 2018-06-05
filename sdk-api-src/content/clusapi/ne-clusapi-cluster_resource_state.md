@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi.CLUSTER_RESOURCE_STATE
+title: CLUSTER_RESOURCE_STATE
+author: windows-sdk-content
+description: Describes the operational condition of a resource.
+old-location: mscs\cluster_resource_state.htm
+old-project: MsCS
+ms.assetid: bd5dee18-a06f-4e46-a27e-c907b1c25a68
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_RESOURCE_STATE, CLUSTER_RESOURCE_STATE enumeration [Failover Cluster], ClusterResourceFailed, ClusterResourceInherited, ClusterResourceInitializing, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, ClusterResourcePending, ClusterResourceStateUnknown, _CLUSTER_RESOURCE_STATE, _CLUSTER_RESOURCE_STATE enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_STATE, clusapi/ClusterResourceFailed, clusapi/ClusterResourceInherited, clusapi/ClusterResourceInitializing, clusapi/ClusterResourceOffline, clusapi/ClusterResourceOfflinePending, clusapi/ClusterResourceOnline, clusapi/ClusterResourceOnlinePending, clusapi/ClusterResourcePending, clusapi/ClusterResourceStateUnknown, clusapi/_CLUSTER_RESOURCE_STATE, msclus/CLUSTER_RESOURCE_STATE, msclus/ClusterResourceFailed, msclus/ClusterResourceInherited, msclus/ClusterResourceInitializing, msclus/ClusterResourceOffline, msclus/ClusterResourceOfflinePending, msclus/ClusterResourceOnline, msclus/ClusterResourceOnlinePending, msclus/ClusterResourcePending, msclus/ClusterResourceStateUnknown, msclus/_CLUSTER_RESOURCE_STATE, mscs.cluster_resource_state
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_RESOURCE_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSTER_RESOURCE_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSTER_RESOURCE_STATE enumeration

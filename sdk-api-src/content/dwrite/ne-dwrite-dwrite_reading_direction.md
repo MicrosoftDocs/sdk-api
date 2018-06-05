@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwrite.DWRITE_READING_DIRECTION
+title: DWRITE_READING_DIRECTION
+author: windows-sdk-content
+description: Specifies the direction in which reading progresses.
+old-location: directwrite\dwrite_reading_direction.htm
+old-project: DirectWrite
+ms.assetid: 37288d34-d533-474c-b3c0-8c6361074a9b
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_READING_DIRECTION, DWRITE_READING_DIRECTION enumeration [Direct Write], DWRITE_READING_DIRECTION_BOTTOM_TO_TOP, DWRITE_READING_DIRECTION_LEFT_TO_RIGHT, DWRITE_READING_DIRECTION_RIGHT_TO_LEFT, DWRITE_READING_DIRECTION_TOP_TO_BOTTOM, directwrite.dwrite_reading_direction, dwrite/DWRITE_READING_DIRECTION, dwrite/DWRITE_READING_DIRECTION_BOTTOM_TO_TOP, dwrite/DWRITE_READING_DIRECTION_LEFT_TO_RIGHT, dwrite/DWRITE_READING_DIRECTION_RIGHT_TO_LEFT, dwrite/DWRITE_READING_DIRECTION_TOP_TO_BOTTOM
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite.h
+api_name:
+-	DWRITE_READING_DIRECTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_READING_DIRECTION enumeration

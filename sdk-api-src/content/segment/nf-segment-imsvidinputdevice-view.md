@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:segment.IMSVidInputDevice.View
+title: IMSVidInputDevice::View
+author: windows-sdk-content
+description: The View method configures this input device to view the specified tune request.
+old-location: mstv\imsvidinputdevice_view.htm
+old-project: mstv
+ms.assetid: f106e520-86e5-4b7e-8e16-1f82797f128f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMSVidInputDevice interface [Microsoft TV Technologies],View method, IMSVidInputDevice.View, IMSVidInputDevice::View, IMSVidInputDeviceView, View, View method [Microsoft TV Technologies], View method [Microsoft TV Technologies],IMSVidInputDevice interface, mstv.imsvidinputdevice_view, segment/IMSVidInputDevice::View
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidInputDevice.View
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidInputDevice::View

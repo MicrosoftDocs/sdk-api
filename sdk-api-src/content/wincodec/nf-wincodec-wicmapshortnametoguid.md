@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincodec.WICMapShortNameToGuid
+title: WICMapShortNameToGuid function
+author: windows-sdk-content
+description: Obtains the GUID associated with the given short name.
+old-location: wic\_wic_codec_wicmapshortnametoguid.htm
+old-project: wic
+ms.assetid: ceefa802-7930-4b01-b1a2-6db530032e88
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WICMapShortNameToGuid, WICMapShortNameToGuid function [Windows Imaging Component], _wic_codec_wicmapshortnametoguid, wic._wic_codec_wicmapshortnametoguid, wincodec/WICMapShortNameToGuid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Windowscodecs.dll
+-	Wincodec.lib
+api_name:
+-	WICMapShortNameToGuid
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Windowscodecs.dll; Wincodec.lib
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WICMapShortNameToGuid function

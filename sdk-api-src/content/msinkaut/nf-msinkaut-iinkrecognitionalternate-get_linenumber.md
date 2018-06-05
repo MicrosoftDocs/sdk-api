@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkRecognitionAlternate.get_LineNumber
+title: IInkRecognitionAlternate::get_LineNumber
+author: windows-sdk-content
+description: Gets the line number of the ink that makes up the alternate.
+old-location: tablet\iinkrecognitionalternate_linenumber.htm
+old-project: tablet
+ms.assetid: dd5578e7-7361-4e42-a503-2914f90a801f
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IInkRecognitionAlternate interface [Tablet PC],LineNumber property, IInkRecognitionAlternate.LineNumber, IInkRecognitionAlternate.get_LineNumber, IInkRecognitionAlternate::LineNumber, IInkRecognitionAlternate::get_LineNumber, LineNumber property [Tablet PC], LineNumber property [Tablet PC],IInkRecognitionAlternate interface, dd5578e7-7361-4e42-a503-2914f90a801f, get_LineNumber, msinkaut/IInkRecognitionAlternate::LineNumber, msinkaut/IInkRecognitionAlternate::get_LineNumber, tablet.iinkrecognitionalternate_linenumber
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkRecognitionAlternate.LineNumber
+-	IInkRecognitionAlternate.get_LineNumber
+-	IInkRecognitionAlternate.get_LineNumber
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognitionAlternate::get_LineNumber

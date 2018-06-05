@@ -1,31 +1,55 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.OpenPrivateNamespaceA
+title: OpenPrivateNamespaceA function
+author: windows-sdk-content
+description: Opens a private namespace.
+old-location: base\openprivatenamespace.htm
+old-project: Sync
+ms.assetid: 268b4932-2553-4883-8a26-002997fbc59e
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: OpenPrivateNamespace, OpenPrivateNamespace function, OpenPrivateNamespaceA, OpenPrivateNamespaceW, base.openprivatenamespace, winbase/OpenPrivateNamespace, winbase/OpenPrivateNamespaceA, winbase/OpenPrivateNamespaceW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: OpenPrivateNamespaceW (Unicode) and OpenPrivateNamespaceA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Namespace-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	API-Ms-Win-Core-Namespace-Ansi-L1-1-0.dll
+-	Kernel32Legacy.dll
+api_name:
+-	OpenPrivateNamespace
+-	OpenPrivateNamespaceA
+-	OpenPrivateNamespaceW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # OpenPrivateNamespaceA function

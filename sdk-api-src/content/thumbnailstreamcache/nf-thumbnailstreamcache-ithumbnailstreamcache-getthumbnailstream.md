@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:thumbnailstreamcache.IThumbnailStreamCache.GetThumbnailStream
+title: IThumbnailStreamCache::GetThumbnailStream
+author: windows-sdk-content
+description: Gets the thumbnail stream. This method is for internal use only and can only be called by the photos application.
+old-location: shell\ithumbnailstreamcache_getthumbnailstream.htm
+old-project: shell
+ms.assetid: 66A89AF9-DEBE-485C-B8E9-519F63386F7D
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetThumbnailStream, GetThumbnailStream method [Windows Shell], GetThumbnailStream method [Windows Shell],IThumbnailStreamCache interface, IThumbnailStreamCache interface [Windows Shell],GetThumbnailStream method, IThumbnailStreamCache.GetThumbnailStream, IThumbnailStreamCache::GetThumbnailStream, shell.ithumbnailstreamcache_getthumbnailstream, thumbnailstreamcache/IThumbnailStreamCache::GetThumbnailStream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: thumbnailstreamcache.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ThumbnailStreamCacheOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	thumbnailstreamcache.h
+api_name:
+-	IThumbnailStreamCache.GetThumbnailStream
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IThumbnailStreamCache::GetThumbnailStream

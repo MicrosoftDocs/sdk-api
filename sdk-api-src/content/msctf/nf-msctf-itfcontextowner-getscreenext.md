@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfContextOwner.GetScreenExt
+title: ITfContextOwner::GetScreenExt
+author: windows-sdk-content
+description: The ITfContextOwner::GetScreenExt method returns the bounding box, in screen coordinates, of the display surface where the text stream is rendered.
+old-location: tsf\itfcontextowner_getscreenext.htm
+old-project: TSF
+ms.assetid: 499a446d-1575-4636-b444-dd6078ed8736
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetScreenExt method, ITfContextOwner.GetScreenExt, ITfContextOwner::GetScreenExt, _tsf_itfcontextowner_getscreenext_ref, msctf/ITfContextOwner::GetScreenExt, tsf.itfcontextowner_getscreenext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msimtf.dll
+api_name:
+-	ITfContextOwner.GetScreenExt
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msimtf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfContextOwner::GetScreenExt

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objidl.IDirectWriterLock.WaitForWriteAccess
+title: IDirectWriterLock::WaitForWriteAccess
+author: windows-sdk-content
+description: The WaitForWriteAccess method obtains exclusive write access to a storage object.
+old-location: stg\idirectwriterlock_waitforwriteaccess.htm
+old-project: Stg
+ms.assetid: e4505bed-325b-494e-93bd-7bf23b3a1215
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IDirectWriterLock interface [Structured Storage],WaitForWriteAccess method, IDirectWriterLock.WaitForWriteAccess, IDirectWriterLock::WaitForWriteAccess, WaitForWriteAccess, WaitForWriteAccess method [Structured Storage], WaitForWriteAccess method [Structured Storage],IDirectWriterLock interface, _stg_idirectwriterlock_waitforwriteaccess, objidl/IDirectWriterLock::WaitForWriteAccess, stg.idirectwriterlock_waitforwriteaccess
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Objidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ole32.dll
+api_name:
+-	IDirectWriterLock.WaitForWriteAccess
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDirectWriterLock::WaitForWriteAccess

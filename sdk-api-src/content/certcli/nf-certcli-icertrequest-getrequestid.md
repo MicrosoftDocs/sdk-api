@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certcli.ICertRequest.GetRequestId
+title: ICertRequest::GetRequestId
+author: windows-sdk-content
+description: Gets the current internal request number for the request and subsequent certificate.
+old-location: security\icertrequest2_getrequestid.htm
+old-project: SecCrypto
+ms.assetid: bb808834-7083-4b14-bce7-96b6fef242cc
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertRequest object [Security],GetRequestId method, GetRequestId, GetRequestId method [Security], GetRequestId method [Security],CCertRequest object, GetRequestId method [Security],ICertRequest interface, GetRequestId method [Security],ICertRequest2 interface, GetRequestId method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetRequestId method, ICertRequest.GetRequestId, ICertRequest2 interface [Security],GetRequestId method, ICertRequest2::GetRequestId, ICertRequest3 interface [Security],GetRequestId method, ICertRequest3::GetRequestId, ICertRequest::GetRequestId, certcli/ICertRequest2::GetRequestId, certcli/ICertRequest3::GetRequestId, certcli/ICertRequest::GetRequestId, security.icertrequest2_getrequestid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certcli.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509EnrollmentAuthFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certcli.dll
+api_name:
+-	ICertRequest3.GetRequestId
+-	ICertRequest2.GetRequestId
+-	ICertRequest.GetRequestId
+-	CCertRequest.GetRequestId
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 ---
 
 # ICertRequest::GetRequestId

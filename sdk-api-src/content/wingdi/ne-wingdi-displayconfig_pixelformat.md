@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:wingdi.DISPLAYCONFIG_PIXELFORMAT
+title: DISPLAYCONFIG_PIXELFORMAT
+author: windows-sdk-content
+description: The DISPLAYCONFIG_PIXELFORMAT enumeration specifies pixel format in various bits per pixel (BPP) values.
+old-location: display\displayconfig_pixelformat.htm
+old-project: display
+ms.assetid: dca8433d-89a9-492c-bebb-6a28f485896c
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CCD_Enumerations_d2979717-6f47-4872-9be2-8b19b06ce2f2.xml, DISPLAYCONFIG_PIXELFORMAT, DISPLAYCONFIG_PIXELFORMAT enumeration [Display Devices], DISPLAYCONFIG_PIXELFORMAT_16BPP, DISPLAYCONFIG_PIXELFORMAT_24BPP, DISPLAYCONFIG_PIXELFORMAT_32BPP, DISPLAYCONFIG_PIXELFORMAT_8BPP, DISPLAYCONFIG_PIXELFORMAT_FORCE_UINT32, DISPLAYCONFIG_PIXELFORMAT_NONGDI, display.displayconfig_pixelformat, wingdi/DISPLAYCONFIG_PIXELFORMAT, wingdi/DISPLAYCONFIG_PIXELFORMAT_16BPP, wingdi/DISPLAYCONFIG_PIXELFORMAT_24BPP, wingdi/DISPLAYCONFIG_PIXELFORMAT_32BPP, wingdi/DISPLAYCONFIG_PIXELFORMAT_8BPP, wingdi/DISPLAYCONFIG_PIXELFORMAT_FORCE_UINT32, wingdi/DISPLAYCONFIG_PIXELFORMAT_NONGDI
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_PIXELFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wingdi.h
+api_name:
+-	DISPLAYCONFIG_PIXELFORMAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DISPLAYCONFIG_PIXELFORMAT enumeration

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wtypes.tagTYSPEC
+title: tagTYSPEC
+author: windows-sdk-content
+description: Specifies a mapping for a class ID.
+old-location: com\tyspec.htm
+old-project: com
+ms.assetid: f2972300-5a95-43e3-b2d1-cd8f30d14d1d
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: TYSPEC, TYSPEC enumeration [COM], TYSPEC_CLSID, TYSPEC_FILEEXT, TYSPEC_FILENAME, TYSPEC_MIMETYPE, TYSPEC_OBJECTID, TYSPEC_PACKAGENAME, TYSPEC_PROGID, _com_TYSPEC, com.tyspec, tagTYSPEC, wtypes/TYSPEC, wtypes/TYSPEC_CLSID, wtypes/TYSPEC_FILEEXT, wtypes/TYSPEC_FILENAME, wtypes/TYSPEC_MIMETYPE, wtypes/TYSPEC_OBJECTID, wtypes/TYSPEC_PACKAGENAME, wtypes/TYSPEC_PROGID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wtypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WTypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TYSPEC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WTypes.h
+api_name:
+-	TYSPEC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagTYSPEC enumeration

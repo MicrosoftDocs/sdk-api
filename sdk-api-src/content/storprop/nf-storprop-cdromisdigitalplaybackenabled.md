@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:storprop.CdromIsDigitalPlaybackEnabled
+title: CdromIsDigitalPlaybackEnabled function
+author: windows-sdk-content
+description: Determines whether digital playback is enabled for the specified CD-ROM or DVD drive.
+old-location: base\cdromisdigitalplaybackenabled.htm
+old-project: DevIO
+ms.assetid: 17d1ccc6-a552-434f-84f5-471455e97dc2
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: CdromIsDigitalPlaybackEnabled, CdromIsDigitalPlaybackEnabled function, base.cdromisdigitalplaybackenabled, storprop/CdromIsDigitalPlaybackEnabled
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: storprop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPR50_SERVICE_CHARACTERISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	StorProp.dll
+api_name:
+-	CdromIsDigitalPlaybackEnabled
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: StorProp.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # CdromIsDigitalPlaybackEnabled function

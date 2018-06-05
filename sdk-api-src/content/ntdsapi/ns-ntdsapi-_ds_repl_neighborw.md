@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntdsapi._DS_REPL_NEIGHBORW
+title: "_DS_REPL_NEIGHBORW"
+author: windows-sdk-content
+description: Contains inbound replication state data for a particular naming context and source server pair, as returned by the DsReplicaGetInfo and DsReplicaGetInfo2 functions.
+old-location: ad\ds_repl_neighbor.htm
+old-project: AD
+ms.assetid: acab74f4-5739-4310-895b-081062c0360b
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_REPL_NBR_COMPRESS_CHANGES, DS_REPL_NBR_DISABLE_SCHEDULED_SYNC, DS_REPL_NBR_DO_SCHEDULED_SYNCS, DS_REPL_NBR_FULL_SYNC_IN_PROGRESS, DS_REPL_NBR_FULL_SYNC_NEXT_PACKET, DS_REPL_NBR_IGNORE_CHANGE_NOTIFICATIONS, DS_REPL_NBR_NEVER_SYNCED, DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS, DS_REPL_NBR_PARTIAL_ATTRIBUTE_SET, DS_REPL_NBR_PREEMPTED, DS_REPL_NBR_RETURN_OBJECT_PARENTS, DS_REPL_NBR_SYNC_ON_STARTUP, DS_REPL_NBR_TWO_WAY_SYNC, DS_REPL_NBR_USE_ASYNC_INTERSITE_TRANSPORT, DS_REPL_NBR_WRITEABLE, DS_REPL_NEIGHBOR, DS_REPL_NEIGHBOR structure [Active Directory], DS_REPL_NEIGHBORW, _DS_REPL_NEIGHBORW, _glines_ds_repl_neighbor, ad.ds__repl__neighbor, ad.ds_repl_neighbor, ntdsapi/DS_REPL_NEIGHBOR
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_REPL_NEIGHBORW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntdsapi.h
+api_name:
+-	DS_REPL_NEIGHBOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _DS_REPL_NEIGHBORW structure

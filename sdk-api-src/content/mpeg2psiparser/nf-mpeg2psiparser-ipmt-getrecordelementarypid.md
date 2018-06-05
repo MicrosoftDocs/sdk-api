@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mpeg2psiparser.IPMT.GetRecordElementaryPid
+title: IPMT::GetRecordElementaryPid
+author: windows-sdk-content
+description: The GetRecordElementaryPid method returns the packet identifier (PID) for a given elementary stream in the program.
+old-location: mstv\ipmt_getrecordelementarypid.htm
+old-project: mstv
+ms.assetid: ed4790ee-97ce-482e-834e-4081a310f4bb
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetRecordElementaryPid, GetRecordElementaryPid method [Microsoft TV Technologies], GetRecordElementaryPid method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordElementaryPid method, IPMT.GetRecordElementaryPid, IPMT::GetRecordElementaryPid, IPMTGetRecordElementaryPid, mpeg2psiparser/IPMT::GetRecordElementaryPid, mstv.ipmt_getrecordelementarypid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mpeg2psiparser.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mpeg2PsiParser.h
+api_name:
+-	IPMT.GetRecordElementaryPid
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IPMT::GetRecordElementaryPid

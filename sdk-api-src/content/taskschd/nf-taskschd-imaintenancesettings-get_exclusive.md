@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.IMaintenanceSettings.get_Exclusive
+title: IMaintenanceSettings::get_Exclusive
+author: windows-sdk-content
+description: Indicates whether the Task scheduler must start the task during the Automatic maintenance in exclusive mode.
+old-location: taskschd\imaintenancesettings_exclusive.htm
+old-project: TaskSchd
+ms.assetid: 6733749B-A82D-4707-93F9-7BD16137C465
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: Exclusive property [Task Scheduler], Exclusive property [Task Scheduler],IMaintenanceSettings interface, IMaintenanceSettings interface [Task Scheduler],Exclusive property, IMaintenanceSettings.Exclusive, IMaintenanceSettings.get_Exclusive, IMaintenanceSettings::Exclusive, IMaintenanceSettings::get_Exclusive, IMaintenanceSettings::put_Exclusive, get_Exclusive, taskschd.imaintenancesettings_exclusive, taskschd/IMaintenanceSettings::Exclusive, taskschd/IMaintenanceSettings::get_Exclusive, taskschd/IMaintenanceSettings::put_Exclusive
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Taskschd.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Taskschd.dll
+api_name:
+-	IMaintenanceSettings.Exclusive
+-	IMaintenanceSettings.get_Exclusive
+-	IMaintenanceSettings.put_Exclusive
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IMaintenanceSettings::get_Exclusive

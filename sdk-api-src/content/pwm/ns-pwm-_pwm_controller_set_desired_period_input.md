@@ -1,24 +1,24 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+UID: NS:pwm._PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT
+title: "_PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT"
+author: windows-sdk-content
+description: Contains an input value for a suggested signal period for the Pulse Width Modulation (PWM) controller.
+old-location: base\pwm_controller_set_desired_period_input.htm
+old-project: DevIO
+ms.assetid: BD003CAE-3DB9-4C7B-9CAD-735866C17004
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT, PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT structure, _PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT, base.pwm_controller_set_desired_period_input, pwm/PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: pwm.h
+req.include-header: Pwm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 1.19
+req.umdf-ver: 2.19
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pwm.h
+api_name:
+-	PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT structure

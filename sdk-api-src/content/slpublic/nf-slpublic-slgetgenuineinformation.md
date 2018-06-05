@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:slpublic.SLGetGenuineInformation
+title: SLGetGenuineInformation function
+author: windows-sdk-content
+description: Gets information about the genuine state of a Windows computer.
+old-location: security\slgetgenuineinformation.htm
+old-project: SecSLApi
+ms.assetid: 8dcc6ef1-1839-49c6-8119-1e3a8135fce2
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: SLGetGenuineInformation, SLGetGenuineInformation function [Security], SL_BRT_COMMIT, SL_BRT_DATA, SL_GENUINE_RESULT, SL_NONGENUINE_GRACE_FLAG, security.slgetgenuineinformation, slpublic/SLGetGenuineInformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: slpublic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SL_ACTIVATION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Slc.dll
+api_name:
+-	SLGetGenuineInformation
+product: Windows
+targetos: Windows
+req.lib: Slc.lib
+req.dll: Slc.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLGetGenuineInformation function

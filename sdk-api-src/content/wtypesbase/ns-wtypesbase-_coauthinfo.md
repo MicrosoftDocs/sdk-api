@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wtypesbase._COAUTHINFO
+title: "_COAUTHINFO"
+author: windows-sdk-content
+description: Contains the authentication settings used while making a remote activation request from the client computer to the server computer.
+old-location: com\coauthinfo.htm
+old-project: com
+ms.assetid: 8cbe27b6-c676-49f2-8341-9e180c335636
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: COAUTHINFO, COAUTHINFO structure [COM], _COAUTHINFO, _com_COAUTHINFO, com.coauthinfo, wtypesbase/COAUTHINFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wtypesbase.h
+req.include-header: WTypes.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COAUTHINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wtypesbase.h
+api_name:
+-	COAUTHINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _COAUTHINFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:raseapif._PPP_EAP_INPUT
+title: "_PPP_EAP_INPUT"
+author: windows-sdk-content
+description: The PPP_EAP_INPUT structure is used in the interaction between the RAS Connection Manager Service PPP implementation and the EAP.
+old-location: eap\ppp_eap_input.htm
+old-project: EAP
+ms.assetid: 80a8f118-323d-4040-91f7-202eeee6d227
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PPPP_EAP_INPUT, PPPP_EAP_INPUT, PPPP_EAP_INPUT structure pointer [EAP], PPP_EAP_INPUT, PPP_EAP_INPUT structure [EAP], RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_ALTERNATIVE_USER_DB, RAS_EAP_FLAG_FIRST_LINK, RAS_EAP_FLAG_GUEST_ACCESS, RAS_EAP_FLAG_LOGON, RAS_EAP_FLAG_NON_INTERACTIVE, RAS_EAP_FLAG_PEAP_UPFRONT, RAS_EAP_FLAG_PRE_LOGON, RAS_EAP_FLAG_RESUME_FROM_HIBERNATE, RAS_EAP_FLAG_ROUTER, _PPP_EAP_INPUT, _eap_ppp_eap_input, eap.ppp_eap_input, raseapif/PPPP_EAP_INPUT, raseapif/PPP_EAP_INPUT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: raseapif.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PPP_EAP_INPUT, *PPPP_EAP_INPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Raseapif.h
+api_name:
+-	PPP_EAP_INPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PPP_EAP_INPUT structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wofapi._WIM_ENTRY_INFO
+title: "_WIM_ENTRY_INFO"
+author: windows-sdk-content
+description: Defines metadata specific to each WIM data source hosted on a volume.
+old-location: fs\wim_entry_info.htm
+old-project: FileIO
+ms.assetid: 2631B8AC-22B6-410A-AF3C-6D81FEECFB61
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PWIM_ENTRY_INFO, PWIM_ENTRY_INFO, PWIM_ENTRY_INFO structure pointer [Files], WIM_ENTRY_INFO, WIM_ENTRY_INFO structure [Files], _WIM_ENTRY_INFO, fs.wim_entry_info, wofapi/PWIM_ENTRY_INFO, wofapi/WIM_ENTRY_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wofapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIM_ENTRY_INFO, *PWIM_ENTRY_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wofapi.h
+api_name:
+-	WIM_ENTRY_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WIM_ENTRY_INFO structure

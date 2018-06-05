@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.tagAM_SAMPLE_PROPERTY_FLAGS
+title: tagAM_SAMPLE_PROPERTY_FLAGS
+author: windows-sdk-content
+description: Specifies values for the dwSampleFlags and dwStreamId members of the AM_SAMPLE2_PROPERTIES structure. These values describe the properties of media samples.
+old-location: dshow\am_sample_property_flags.htm
+old-project: DirectShow
+ms.assetid: d2aa2fc6-282f-4b8d-8bed-4955f60537db
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: AM_SAMPLE_DATADISCONTINUITY, AM_SAMPLE_ENDOFSTREAM, AM_SAMPLE_FLUSH_ON_PAUSE, AM_SAMPLE_PREROLL, AM_SAMPLE_PROPERTY_FLAGS , AM_SAMPLE_PROPERTY_FLAGSEnumeration, AM_SAMPLE_SPLICEPOINT, AM_SAMPLE_STOPVALID, AM_SAMPLE_TIMEDISCONTINUITY, AM_SAMPLE_TIMEVALID, AM_SAMPLE_TYPECHANGED, AM_STREAM_CONTROL, AM_STREAM_MEDIA, dshow.am_sample_property_flags, strmif/AM_SAMPLE_DATADISCONTINUITY, strmif/AM_SAMPLE_ENDOFSTREAM, strmif/AM_SAMPLE_FLUSH_ON_PAUSE, strmif/AM_SAMPLE_PREROLL, strmif/AM_SAMPLE_SPLICEPOINT, strmif/AM_SAMPLE_STOPVALID, strmif/AM_SAMPLE_TIMEDISCONTINUITY, strmif/AM_SAMPLE_TIMEVALID, strmif/AM_SAMPLE_TYPECHANGED, strmif/AM_STREAM_CONTROL, strmif/AM_STREAM_MEDIA, strmif/tagAM_SAMPLE_PROPERTY_FLAGS, tagAM_SAMPLE_PROPERTY_FLAGS, tagAM_SAMPLE_PROPERTY_FLAGS enumeration [DirectShow]
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: DShow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Strmif.h
+api_name:
+-	tagAM_SAMPLE_PROPERTY_FLAGS
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # tagAM_SAMPLE_PROPERTY_FLAGS enumeration

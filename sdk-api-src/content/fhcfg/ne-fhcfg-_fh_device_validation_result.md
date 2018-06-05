@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fhcfg._FH_DEVICE_VALIDATION_RESULT
+title: "_FH_DEVICE_VALIDATION_RESULT"
+author: windows-sdk-content
+description: Indicates whether the storage device or network share can be used as a File History backup target.
+old-location: winprog\fh_device_validation_result.htm
+old-project: DevNotes
+ms.assetid: DAADC244-D0F5-44F9-9F61-48E6C6EFB91A
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*PFH_DEVICE_VALIDATION_RESULT, FH_ACCESS_DENIED, FH_CURRENT_DEFAULT, FH_DEVICE_VALIDATION_RESULT, FH_DEVICE_VALIDATION_RESULT enumeration [Windows API], FH_INVALID_DRIVE_TYPE, FH_NAMESPACE_EXISTS, FH_READ_ONLY_PERMISSION, FH_TARGET_PART_OF_LIBRARY, FH_VALID_TARGET, MAX_VALIDATION_RESULT, _FH_DEVICE_VALIDATION_RESULT, fhcfg/FH_ACCESS_DENIED, fhcfg/FH_CURRENT_DEFAULT, fhcfg/FH_DEVICE_VALIDATION_RESULT, fhcfg/FH_INVALID_DRIVE_TYPE, fhcfg/FH_NAMESPACE_EXISTS, fhcfg/FH_READ_ONLY_PERMISSION, fhcfg/FH_TARGET_PART_OF_LIBRARY, fhcfg/FH_VALID_TARGET, fhcfg/MAX_VALIDATION_RESULT, winprog.fh_device_validation_result"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fhcfg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fhcfg.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FH_DEVICE_VALIDATION_RESULT, *PFH_DEVICE_VALIDATION_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Fhcfg.h
+api_name:
+-	FH_DEVICE_VALIDATION_RESULT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _FH_DEVICE_VALIDATION_RESULT enumeration

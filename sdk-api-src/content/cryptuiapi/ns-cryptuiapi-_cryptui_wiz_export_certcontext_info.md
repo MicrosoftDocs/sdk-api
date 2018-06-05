@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:cryptuiapi._CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
+title: "_CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO"
+author: windows-sdk-content
+description: Contains information that controls the operation of the CryptUIWizExport function when a certificate is the object being exported.
+old-location: security\cryptui_wiz_export_certcontext_info.htm
+old-project: SecCrypto
+ms.assetid: 6be86c4f-0ac7-43c2-81fb-9767279ebeaf
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO structure [Security], CRYPTUI_WIZ_EXPORT_FORMAT_BASE64, CRYPTUI_WIZ_EXPORT_FORMAT_CRL, CRYPTUI_WIZ_EXPORT_FORMAT_CTL, CRYPTUI_WIZ_EXPORT_FORMAT_DER, CRYPTUI_WIZ_EXPORT_FORMAT_PFX, CRYPTUI_WIZ_EXPORT_FORMAT_PKCS7, PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO structure pointer [Security], _CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, cryptuiapi/CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, cryptuiapi/PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, security.cryptui_wiz_export_certcontext_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cryptuiapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, *PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Cryptuiapi.h
+api_name:
+-	CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO structure

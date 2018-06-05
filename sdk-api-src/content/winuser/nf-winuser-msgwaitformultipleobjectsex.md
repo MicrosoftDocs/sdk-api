@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winuser.MsgWaitForMultipleObjectsEx
+title: MsgWaitForMultipleObjectsEx function
+author: windows-sdk-content
+description: Waits until one or all of the specified objects are in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses. The array of objects can include input event objects.
+old-location: base\msgwaitformultipleobjectsex.htm
+old-project: Sync
+ms.assetid: 1774b721-3ad4-492e-96af-b71de9066f0c
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: MWMO_ALERTABLE, MWMO_INPUTAVAILABLE, MWMO_WAITALL, MsgWaitForMultipleObjectsEx, MsgWaitForMultipleObjectsEx function, QS_ALLEVENTS, QS_ALLINPUT, QS_ALLPOSTMESSAGE, QS_HOTKEY, QS_INPUT, QS_KEY, QS_MOUSE, QS_MOUSEBUTTON, QS_MOUSEMOVE, QS_PAINT, QS_POSTMESSAGE, QS_RAWINPUT, QS_SENDMESSAGE, QS_TIMER, _win32_msgwaitformultipleobjectsex, base.msgwaitformultipleobjectsex, winuser/MsgWaitForMultipleObjectsEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,31 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AR_STATE, *PAR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	User32.dll
+-	API-MS-Win-NTUser-IE-Message-l1-1-0.dll
+-	IE_Shims.dll
+-	API-MS-Win-RTCore-NTUser-Synch-l1-1-0.dll
+-	MinUser.dll
+-	Ext-MS-Win-NTUser-Synch-l1-1-0.dll
+-	Ext-MS-Win-RTCore-NTUser-synch-Ext-l1-1-0.dll
+-	NTUserSynchExtHost.dll
+-	ComBase.dll
+api_name:
+-	MsgWaitForMultipleObjectsEx
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # MsgWaitForMultipleObjectsEx function

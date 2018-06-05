@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mswmdm.IMDSPStorage4.SetReferences
+title: IMDSPStorage4::SetReferences
+author: windows-sdk-content
+description: The SetReferences method sets the references contained in a storage that has references (such as playlist/album), overwriting any previously existing references contained in this storage.
+old-location: wmdm\imdspstorage4_setreferences.htm
+old-project: WMDM
+ms.assetid: 45fd9efa-b03d-46de-9d8c-85ed04d446dd
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMDSPStorage4 interface [windows Media Device Manager],SetReferences method, IMDSPStorage4.SetReferences, IMDSPStorage4::SetReferences, IMDSPStorage4SetReferences, SetReferences, SetReferences method [windows Media Device Manager], SetReferences method [windows Media Device Manager],IMDSPStorage4 interface, mswmdm/IMDSPStorage4::SetReferences, wmdm.imdspstorage4_setreferences
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IMDSPStorage4.SetReferences
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPStorage4::SetReferences

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ehstorapi.IEnhancedStorageSilo.SendCommand
+title: IEnhancedStorageSilo::SendCommand
+author: windows-sdk-content
+description: Sends a raw silo command to the silo object. This method is utilized to communicate with a silo which is not represented by a driver.
+old-location: enstor\ienhancedstoragesilo_sendcommand.htm
+old-project: enstor
+ms.assetid: 8b52815e-e100-4c25-b7d3-8469d1dad745
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IEnhancedStorageSilo interface [Enhanced Storage],SendCommand method, IEnhancedStorageSilo.SendCommand, IEnhancedStorageSilo::SendCommand, SendCommand, SendCommand method [Enhanced Storage], SendCommand method [Enhanced Storage],IEnhancedStorageSilo interface, ehstorapi/IEnhancedStorageSilo::SendCommand, enstor.ienhancedstoragesilo_sendcommand
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ehstorapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: EhStorAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TimedLevel
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	EhStorAPI.h
+api_name:
+-	IEnhancedStorageSilo.SendCommand
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IEnhancedStorageSilo::SendCommand

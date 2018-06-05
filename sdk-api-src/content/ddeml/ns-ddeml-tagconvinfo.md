@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ddeml.tagCONVINFO
+title: tagCONVINFO
+author: windows-sdk-content
+description: Contains information about a Dynamic Data Exchange (DDE) conversation.
+old-location: dataxchg\convinfo_str.htm
+old-project: dataxchg
+ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\convinfo.htm
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PCONVINFO, CONVINFO, CONVINFO structure [Data Exchange], PCONVINFO, PCONVINFO structure pointer [Data Exchange], ST_ADVISE, ST_BLOCKED, ST_BLOCKNEXT, ST_CLIENT, ST_CONNECTED, ST_INLIST, ST_ISLOCAL, ST_ISSELF, ST_TERMINATED, XST_ADVACKRCVD, XST_ADVDATAACKRCVD, XST_ADVDATASENT, XST_ADVSENT, XST_CONNECTED, XST_DATARCVD, XST_EXECACKRCVD, XST_EXECSENT, XST_INCOMPLETE, XST_INIT1, XST_INIT2, XST_NULL, XST_POKEACKRCVD, XST_POKESENT, XST_REQSENT, XST_UNADVACKRCVD, XST_UNADVSENT, XTYP_ADVDATA, XTYP_ADVREQ, XTYP_ADVSTART, XTYP_ADVSTOP, XTYP_CONNECT, XTYP_CONNECT_CONFIRM, XTYP_DISCONNECT, XTYP_EXECUTE, XTYP_MONITOR, XTYP_POKE, XTYP_REGISTER, XTYP_REQUEST, XTYP_UNREGISTER, XTYP_WILDCONNECT, XTYP_XACT_COMPLETE, _win32_CONVINFO_str, _win32_convinfo_str_cpp, dataxchg.convinfo_str, ddeml/CONVINFO, ddeml/PCONVINFO, tagCONVINFO, winui._win32_convinfo_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddeml.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONVINFO, *PCONVINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ddeml.h
+api_name:
+-	CONVINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagCONVINFO structure

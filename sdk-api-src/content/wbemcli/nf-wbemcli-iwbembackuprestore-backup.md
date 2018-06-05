@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemBackupRestore.Backup
+title: IWbemBackupRestore::Backup
+author: windows-sdk-content
+description: The IWbemBackupRestore::Backup method backs up the contents of the static repository to a separate file.
+old-location: wmi\iwbembackuprestore_backup.htm
+old-project: WmiSdk
+ms.assetid: 9108b682-aded-43e4-a24a-136155d74ebb
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: Backup, Backup method [Windows Management Instrumentation], Backup method [Windows Management Instrumentation],IWbemBackupRestore interface, IWbemBackupRestore interface [Windows Management Instrumentation],Backup method, IWbemBackupRestore.Backup, IWbemBackupRestore::Backup, _hmm_iwbembackuprestore_backup, wbemcli/IWbemBackupRestore::Backup, wmi.iwbembackuprestore_backup
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wbemsvc.dll
+api_name:
+-	IWbemBackupRestore.Backup
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemBackupRestore::Backup

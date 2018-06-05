@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:taskschd.ISessionStateChangeTrigger.put_StateChange
+title: ISessionStateChangeTrigger::put_StateChange
+author: windows-sdk-content
+description: Gets or sets the kind of Terminal Server session change that would trigger a task launch.
+old-location: taskschd\isessionstatechangetrigger_statechange.htm
+old-project: TaskSchd
+ms.assetid: 742e623f-7794-4e2a-970f-77ab22914554
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ISessionStateChangeTrigger interface [Task Scheduler],StateChange property, ISessionStateChangeTrigger.StateChange, ISessionStateChangeTrigger.put_StateChange, ISessionStateChangeTrigger::StateChange, ISessionStateChangeTrigger::get_StateChange, ISessionStateChangeTrigger::put_StateChange, StateChange property [Task Scheduler], StateChange property [Task Scheduler],ISessionStateChangeTrigger interface, TASK_CONSOLE_CONNECT, TASK_CONSOLE_DISCONNECT, TASK_REMOTE_CONNECT, TASK_REMOTE_DISCONNECT, TASK_SESSION_LOCK, TASK_SESSION_UNLOCK, put_StateChange, taskschd.isessionstatechangetrigger_statechange, taskschd/ISessionStateChangeTrigger::StateChange, taskschd/ISessionStateChangeTrigger::get_StateChange, taskschd/ISessionStateChangeTrigger::put_StateChange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: taskschd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	taskschd.dll
+api_name:
+-	ISessionStateChangeTrigger.StateChange
+-	ISessionStateChangeTrigger.get_StateChange
+-	ISessionStateChangeTrigger.put_StateChange
+product: Windows
+targetos: Windows
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ISessionStateChangeTrigger::put_StateChange

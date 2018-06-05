@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsync.IEnumSyncChanges.Reset
+title: IEnumSyncChanges::Reset
+author: windows-sdk-content
+description: Resets the enumerator to the beginning of the list.
+old-location: winsync\ienumsyncchanges_reset.htm
+old-project: winsync
+ms.assetid: d13bee6b-ef8e-4245-89b6-d381618bdd09
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IEnumSyncChanges interface [Windows Sync],Reset method, IEnumSyncChanges.Reset, IEnumSyncChanges::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncChanges interface, winsync.ienumsyncchanges_reset, winsync/IEnumSyncChanges::Reset
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	IEnumSyncChanges.Reset
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IEnumSyncChanges::Reset

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d12.D3D12_TEXTURE_COPY_LOCATION
+title: D3D12_TEXTURE_COPY_LOCATION
+author: windows-sdk-content
+description: Describes a portion of a texture for the purpose of texture copies.
+old-location: direct3d12\d3d12_texture_copy_location.htm
+old-project: direct3d12
+ms.assetid: D63EC731-EE75-44CD-9CCD-7FB4A761D1A3
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_TEXTURE_COPY_LOCATION, D3D12_TEXTURE_COPY_LOCATION structure, d3d12/D3D12_TEXTURE_COPY_LOCATION, direct3d12.d3d12_texture_copy_location
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_TEXTURE_COPY_LOCATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D12.h
+api_name:
+-	D3D12_TEXTURE_COPY_LOCATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_TEXTURE_COPY_LOCATION structure

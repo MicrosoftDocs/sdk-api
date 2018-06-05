@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ole2.OleMetafilePictFromIconAndLabel
+title: OleMetafilePictFromIconAndLabel function
+author: windows-sdk-content
+description: Creates a metafile in which the specified icon and label are drawn.
+old-location: com\olemetafilepictfromiconandlabel.htm
+old-project: com
+ms.assetid: 627a79eb-46dd-4df7-a0d6-cab37b73387a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: OleMetafilePictFromIconAndLabel, OleMetafilePictFromIconAndLabel function [COM], _ole_OleMetafilePictFromIconAndLabel, com.olemetafilepictfromiconandlabel, ole2/OleMetafilePictFromIconAndLabel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ole2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ole32.dll
+api_name:
+-	OleMetafilePictFromIconAndLabel
+product: Windows
+targetos: Windows
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # OleMetafilePictFromIconAndLabel function

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0004
+title: "__MIDL___MIDL_itf_wcmconfig_0000_0000_0004"
+author: windows-sdk-content
+description: Describes setting types that are returned from the ISettingsItem::GetSettingType method and defines the object model type for the calling ISettingsItem interface.
+old-location: smi\wcmsettingtype.htm
+old-project: SMI
+ms.assetid: e7dbe536-778a-445c-929b-56e490fdeffb
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WcmSettingType, WcmSettingType enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0004, settingTypeComplex, settingTypeList, settingTypeScalar, smi.wcmsettingtype, wcmconfig/WcmSettingType, wcmconfig/settingTypeComplex, wcmconfig/settingTypeList, wcmconfig/settingTypeScalar
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WcmConfig.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WcmSettingType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WcmConfig.h
+api_name:
+-	WcmSettingType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # __MIDL___MIDL_itf_wcmconfig_0000_0000_0004 enumeration

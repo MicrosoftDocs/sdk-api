@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:wingdi.DISPLAYCONFIG_RATIONAL
+title: DISPLAYCONFIG_RATIONAL
+author: windows-sdk-content
+description: The DISPLAYCONFIG_RATIONAL structure describes a fractional value that represents vertical and horizontal frequencies of a video mode (that is, vertical sync and horizontal sync).
+old-location: display\displayconfig_rational.htm
+old-project: display
+ms.assetid: 1f2f25f7-5ea1-46f4-ad9f-c50c367bb600
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CCD_Structures_6b317b78-bbb5-4f49-9dee-2c9597c19957.xml, DISPLAYCONFIG_RATIONAL, DISPLAYCONFIG_RATIONAL structure [Display Devices], display.displayconfig_rational, wingdi/DISPLAYCONFIG_RATIONAL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_RATIONAL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wingdi.h
+api_name:
+-	DISPLAYCONFIG_RATIONAL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DISPLAYCONFIG_RATIONAL structure

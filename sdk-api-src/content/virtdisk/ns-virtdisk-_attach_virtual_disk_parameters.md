@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:virtdisk._ATTACH_VIRTUAL_DISK_PARAMETERS
+title: "_ATTACH_VIRTUAL_DISK_PARAMETERS"
+author: windows-sdk-content
+description: Contains virtual hard disk (VHD) attach request parameters.
+old-location: vhd\attach_virtual_disk_parameters.htm
+old-project: VStor
+ms.assetid: 2bccad87-ddfe-4db4-9bf3-1892d8dd1237
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PATTACH_VIRTUAL_DISK_PARAMETERS, ATTACH_VIRTUAL_DISK_PARAMETERS, ATTACH_VIRTUAL_DISK_PARAMETERS structure [VHD], PATTACH_VIRTUAL_DISK_PARAMETERS, PATTACH_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _ATTACH_VIRTUAL_DISK_PARAMETERS, vdssys/ATTACH_VIRTUAL_DISK_PARAMETERS, vdssys/PATTACH_VIRTUAL_DISK_PARAMETERS, vhd.attach_virtual_disk_parameters, vhd.surface_virtual_disk_parameters, virtdisk/ATTACH_VIRTUAL_DISK_PARAMETERS, virtdisk/PATTACH_VIRTUAL_DISK_PARAMETERS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: virtdisk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ATTACH_VIRTUAL_DISK_PARAMETERS, *PATTACH_VIRTUAL_DISK_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VirtDisk.h
+-	vdssys.h
+api_name:
+-	ATTACH_VIRTUAL_DISK_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _ATTACH_VIRTUAL_DISK_PARAMETERS structure

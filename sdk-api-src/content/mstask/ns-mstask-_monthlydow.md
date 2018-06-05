@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mstask._MONTHLYDOW
+title: "_MONTHLYDOW"
+author: windows-sdk-content
+description: Defines the date(s) that the task runs by month, week, and day of the week.
+old-location: taskschd\monthlydow.htm
+old-project: TaskSchd
+ms.assetid: 1f353611-0542-4534-91bf-4a76f41c9c9d
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: MONTHLYDOW, MONTHLYDOW structure [Task Scheduler], TASK_APRIL, TASK_AUGUST, TASK_DECEMBER, TASK_FEBRUARY, TASK_FIRST_WEEK, TASK_FOURTH_WEEK, TASK_FRIDAY, TASK_JANUARY, TASK_JULY, TASK_JUNE, TASK_LAST_WEEK, TASK_MARCH, TASK_MAY, TASK_MONDAY, TASK_NOVEMBER, TASK_OCTOBER, TASK_SATURDAY, TASK_SECOND_WEEK, TASK_SEPTEMBER, TASK_SUNDAY, TASK_THIRD_WEEK, TASK_THURSDAY, TASK_TUESDAY, TASK_WEDNESDAY, _MONTHLYDOW, _msb_monthlydow, mstask/MONTHLYDOW, taskschd.monthlydow, triggers [Task Scheduler],structures,MONTHLYDOW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mstask.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MONTHLYDOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mstask.h
+api_name:
+-	MONTHLYDOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _MONTHLYDOW structure

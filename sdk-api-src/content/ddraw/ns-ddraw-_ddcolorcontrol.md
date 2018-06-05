@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddraw._DDCOLORCONTROL
+title: "_DDCOLORCONTROL"
+author: windows-sdk-content
+description: The DDCOLORCONTROL structure defines the color controls that are associated with an overlay surface or a primary surface.
+old-location: directdraw\ddcolorcontrol.htm
+old-project: directdraw
+ms.assetid: 69408101-9f19-4b89-bfcf-2af185c62807
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPDDCOLORCONTROL, DDCOLORCONTROL, DDCOLORCONTROL structure [DirectDraw], DDCOLOR_BRIGHTNESS, DDCOLOR_COLORENABLE, DDCOLOR_CONTRAST, DDCOLOR_GAMMA, DDCOLOR_HUE, DDCOLOR_SATURATION, DDCOLOR_SHARPNESS, LPDDCOLORCONTROL, LPDDCOLORCONTROL structure pointer [DirectDraw], _DDCOLORCONTROL, ddraw/DDCOLORCONTROL, ddraw/LPDDCOLORCONTROL, directdraw.ddcolorcontrol"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDCOLORCONTROL, DDCOLORCONTROL"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ddraw.h
+api_name:
+-	DDCOLORCONTROL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDCOLORCONTROL structure

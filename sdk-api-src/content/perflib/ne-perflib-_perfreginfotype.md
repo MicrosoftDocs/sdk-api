@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:perflib._PerfRegInfoType
+title: "_PerfRegInfoType"
+author: windows-sdk-content
+description: Indicates the types of information that you can request about a performance counter set by calling the PerfQueryCounterSetRegistrationInfo function.
+old-location: perf\perfreginfotype.htm
+old-project: PerfCtrs
+ms.assetid: 8D54F31F-9ABA-405F-84A5-9C7225B7BE67
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PERF_REG_COUNTERSET_ENGLISH_NAME, PERF_REG_COUNTERSET_HELP_STRING, PERF_REG_COUNTERSET_NAME_STRING, PERF_REG_COUNTERSET_STRUCT, PERF_REG_COUNTER_ENGLISH_NAMES, PERF_REG_COUNTER_HELP_STRINGS, PERF_REG_COUNTER_NAME_STRINGS, PERF_REG_COUNTER_STRUCT, PERF_REG_PROVIDER_GUID, PERF_REG_PROVIDER_NAME, PerfRegInfoType, PerfRegInfoType enumeration [Perf], _PerfRegInfoType, perf.perfreginfotype, perflib/PERF_REG_COUNTERSET_ENGLISH_NAME, perflib/PERF_REG_COUNTERSET_HELP_STRING, perflib/PERF_REG_COUNTERSET_NAME_STRING, perflib/PERF_REG_COUNTERSET_STRUCT, perflib/PERF_REG_COUNTER_ENGLISH_NAMES, perflib/PERF_REG_COUNTER_HELP_STRINGS, perflib/PERF_REG_COUNTER_NAME_STRINGS, perflib/PERF_REG_COUNTER_STRUCT, perflib/PERF_REG_PROVIDER_GUID, perflib/PERF_REG_PROVIDER_NAME, perflib/PerfRegInfoType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: perflib.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PerfRegInfoType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Perflib.h
+api_name:
+-	PerfRegInfoType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PerfRegInfoType enumeration

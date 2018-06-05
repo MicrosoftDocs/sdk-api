@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sensevts.ISensLogon.DisplayUnlock
+title: ISensLogon::DisplayUnlock
+author: windows-sdk-content
+description: The DisplayUnLock method notifies an application that the screen display is unlocked.
+old-location: sens\isenslogon_displayunlock.htm
+old-project: Sens
+ms.assetid: aa1b1beb-f59a-4990-84e1-deca1432f6cf
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: DisplayUnLock method [SENS], DisplayUnLock method [SENS],ISensLogon interface, DisplayUnlock, ISensLogon interface [SENS],DisplayUnLock method, ISensLogon.DisplayUnlock, ISensLogon::DisplayUnLock, ISensLogon::DisplayUnlock, _zaw_isenslogon_displayunlock, sens.isenslogon_displayunlock, sensevts/ISensLogon::DisplayUnLock, syncmgr.isenslogon_displayunlock
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sensevts.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,24 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Sensevts.tlb
+tech.root: 
+req.typenames: QOCINFO, *LPQOCINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Sens.dll
+api_name:
+-	ISensLogon.DisplayUnLock
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISensLogon::DisplayUnlock

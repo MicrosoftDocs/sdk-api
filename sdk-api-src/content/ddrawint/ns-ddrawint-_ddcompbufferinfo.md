@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DDCOMPBUFFERINFO
+title: "_DDCOMPBUFFERINFO"
+author: windows-sdk-content
+description: The DDCOMPBUFFERINFO structure contains driver-supplied information regarding compression buffers.
+old-location: display\ddcompbufferinfo.htm
+old-project: display
+ms.assetid: 73dad759-499f-45b2-9345-4577deb01492
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDCOMPBUFFERINFO, DDCOMPBUFFERINFO, DDCOMPBUFFERINFO structure [Display Devices], LPDDCOMPBUFFERINFO, LPDDCOMPBUFFERINFO structure pointer [Display Devices], _DDCOMPBUFFERINFO, ddrawint/DDCOMPBUFFERINFO, ddrawint/LPDDCOMPBUFFERINFO, ddstrcts_b9871578-f3de-49fb-95f3-2668598e575a.xml, display.ddcompbufferinfo"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDCOMPBUFFERINFO, *LPDDCOMPBUFFERINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DDCOMPBUFFERINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDCOMPBUFFERINFO structure

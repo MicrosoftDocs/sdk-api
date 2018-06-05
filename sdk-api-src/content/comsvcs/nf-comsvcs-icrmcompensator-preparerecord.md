@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.ICrmCompensator.PrepareRecord
+title: ICrmCompensator::PrepareRecord
+author: windows-sdk-content
+description: Delivers a log record in forward order during the prepare phase.
+old-location: cos\icrmcompensator_preparerecord.htm
+old-project: cossdk
+ms.assetid: 12b4d0d5-29f3-4fbb-8091-1b7d5ba0adb4
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: ICrmCompensator interface [COM+],PrepareRecord method, ICrmCompensator.PrepareRecord, ICrmCompensator::PrepareRecord, PrepareRecord, PrepareRecord method [COM+], PrepareRecord method [COM+],ICrmCompensator interface, _dtc_ICrmCompensator_PrepareRecord, comsvcs/ICrmCompensator::PrepareRecord, cos.icrmcompensator_preparerecord
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	ICrmCompensator.PrepareRecord
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICrmCompensator::PrepareRecord

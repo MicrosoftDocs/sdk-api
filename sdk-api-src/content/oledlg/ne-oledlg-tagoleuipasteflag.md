@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:oledlg.tagOLEUIPASTEFLAG
+title: tagOLEUIPASTEFLAG
+author: windows-sdk-content
+description: Indicates the user options that are available to the user when pasting this format, and within which group or list of choices (Paste, Paste Link, etc.).
+old-location: com\oleuipasteflag.htm
+old-project: com
+ms.assetid: 4467f82b-34be-4d10-816c-b3e4231c92a1
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: OLEUIPASTEFLAG, OLEUIPASTEFLAG enumeration [COM], OLEUIPASTE_ENABLEICON, OLEUIPASTE_LINKANYTYPE, OLEUIPASTE_LINKTYPE1, OLEUIPASTE_LINKTYPE2, OLEUIPASTE_LINKTYPE3, OLEUIPASTE_LINKTYPE4, OLEUIPASTE_LINKTYPE5, OLEUIPASTE_LINKTYPE6, OLEUIPASTE_LINKTYPE7, OLEUIPASTE_LINKTYPE8, OLEUIPASTE_PASTE, OLEUIPASTE_PASTEONLY, _ole_OLEUIPASTEFLAG, com.oleuipasteflag, oledlg/OLEUIPASTEFLAG, oledlg/OLEUIPASTE_ENABLEICON, oledlg/OLEUIPASTE_LINKANYTYPE, oledlg/OLEUIPASTE_LINKTYPE1, oledlg/OLEUIPASTE_LINKTYPE2, oledlg/OLEUIPASTE_LINKTYPE3, oledlg/OLEUIPASTE_LINKTYPE4, oledlg/OLEUIPASTE_LINKTYPE5, oledlg/OLEUIPASTE_LINKTYPE6, oledlg/OLEUIPASTE_LINKTYPE7, oledlg/OLEUIPASTE_LINKTYPE8, oledlg/OLEUIPASTE_PASTE, oledlg/OLEUIPASTE_PASTEONLY, tagOLEUIPASTEFLAG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: oledlg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OLEUIPASTEFLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	OleDlg.h
+api_name:
+-	OLEUIPASTEFLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagOLEUIPASTEFLAG enumeration

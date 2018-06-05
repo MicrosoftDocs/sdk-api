@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:d3d10_1.ID3D10BlendState1
+title: ID3D10BlendState1
+author: windows-sdk-content
+description: This blend-state interface accesses blending state for a Direct3D 10.1 device for the output-merger stage.
+old-location: direct3d10\id3d10blendstate1.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10blendstate1.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 50959f42-4209-b827-553e-862c94c85dfc, ID3D10BlendState1, ID3D10BlendState1 interface [Direct3D 10], ID3D10BlendState1 interface [Direct3D 10],described, d3d10_1/ID3D10BlendState1, direct3d10.id3d10blendstate1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: d3d10_1.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_FEATURE_LEVEL1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10.lib
+-	D3D10.dll
+api_name:
+-	ID3D10BlendState1
+product: Windows
+targetos: Windows
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D10BlendState1 interface

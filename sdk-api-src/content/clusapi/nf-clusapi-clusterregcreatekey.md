@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:clusapi.ClusterRegCreateKey
+title: ClusterRegCreateKey function
+author: windows-sdk-content
+description: Creates a specified cluster database key. If the key already exists in the database, ClusterRegCreateKey opens it without making changes.
+old-location: mscs\clusterregcreatekey.htm
+old-project: MsCS
+ms.assetid: a5e924bd-9336-45c8-b2c9-48291f8db774
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ACCESS_SYSTEM_SECURITY, ClusterRegCreateKey, ClusterRegCreateKey function [Failover Cluster], DELETE, KEY_ALL_ACCESS, KEY_CREATE_LINK, KEY_ENUMERATE_SUB_KEYS, KEY_EXECUTE, KEY_NOTIFY, KEY_QUERY_VALUE, KEY_READ, KEY_SET_VALUE, KEY_WRITE, READ_CONTROL, REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_NON_VOLATILE, WRITE_DAC, WRITE_OWNER, _wolf_clusterregcreatekey, clusapi/ClusterRegCreateKey, mscs.clusterregcreatekey
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ClusAPI.dll
+-	Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+-	Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+api_name:
+-	ClusterRegCreateKey
+product: Windows
+targetos: Windows
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 ---
 
 # ClusterRegCreateKey function

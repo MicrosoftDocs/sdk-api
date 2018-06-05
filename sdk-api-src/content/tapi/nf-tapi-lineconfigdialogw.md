@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi.lineConfigDialogW
+title: lineConfigDialogW function
+author: windows-sdk-content
+description: The lineConfigDialog function causes the provider of the specified line device to display a dialog box (attached to hwndOwner of the application) to allow the user to configure parameters related to the line device.
+old-location: tapi2\lineconfigdialog.htm
+old-project: Tapi
+ms.assetid: 52f23647-e9f5-48a3-95f4-1ac52898cb5a
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "_tapi2_lineconfigdialog, lineConfigDialog, lineConfigDialog function [TAPI 2.2], lineConfigDialogA, lineConfigDialogW, tapi/lineConfigDialog, tapi/lineConfigDialogA, tapi/lineConfigDialogW, tapi2.lineconfigdialog"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: lineConfigDialogW (Unicode) and lineConfigDialogA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FLICK_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tapi32.dll
+api_name:
+-	lineConfigDialog
+-	lineConfigDialogA
+-	lineConfigDialogW
+product: Windows
+targetos: Windows
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # lineConfigDialogW function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:amva._tag_AMVABUFFERINFO
+title: "_tag_AMVABUFFERINFO"
+author: windows-sdk-content
+description: The AMVABUFFERINFO structure specifies a buffer for the IAMVideoAccelerator::Execute method.
+old-location: dshow\amvabufferinfo.htm
+old-project: DirectShow
+ms.assetid: 8b018c40-44ae-4033-97b3-efa4b4c1bfb2
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPAMVABUFFERINFO, AMVABUFFERINFO, AMVABUFFERINFO structure [DirectShow], AMVABUFFERINFOStructure, DXVA_ALPHA_BLEND_COMBINATION_BUFFER, DXVA_AYUV_BUFFER, DXVA_BITSTREAM_DATA_BUFFER, DXVA_DCCMD_SURFACE_BUFFER, DXVA_DEBLOCKING_CONTROL_BUFFER, DXVA_DPXD_SURFACE_BUFFER, DXVA_HIGHLIGHT_BUFFER, DXVA_IA44_SURFACE_BUFFER, DXVA_INVERSE_QUANTIZATION_MATRIX_BUFFER, DXVA_MACROBLOCK_CONTROL_BUFFER, DXVA_PICTURE_DECODE_BUFFER, DXVA_PICTURE_RESAMPLE_BUFFER, DXVA_READ_BACK_BUFFER, DXVA_RESIDUAL_DIFFERENCE_BUFFER, DXVA_SLICE_CONTROL_BUFFER, LPAMVABUFFERINFO, LPAMVABUFFERINFO structure pointer [DirectShow], _tag_AMVABUFFERINFO, amva/AMVABUFFERINFO, amva/LPAMVABUFFERINFO, dshow.amvabufferinfo"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: amva.h
+req.include-header: Videoacc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVABUFFERINFO, *LPAMVABUFFERINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	amva.h
+api_name:
+-	AMVABUFFERINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _tag_AMVABUFFERINFO structure

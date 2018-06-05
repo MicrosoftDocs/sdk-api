@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmreports.IFsrmReportJob.get_LastRun
+title: IFsrmReportJob::get_LastRun
+author: windows-sdk-content
+description: Retrieves the time stamp for when the reports were last run.
+old-location: fsrm\ifsrmreportjob_lastrun.htm
+old-project: Fsrm
+ms.assetid: 90acfd1d-9cef-4900-8b67-d44509503809
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmReportJob interface [File Server Resource Manager],LastRun property, IFsrmReportJob.LastRun, IFsrmReportJob.get_LastRun, IFsrmReportJob::LastRun, IFsrmReportJob::get_LastRun, LastRun property [File Server Resource Manager], LastRun property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_lastrun, fsrm.ifsrmreportjob_lastrun, fsrmreports/IFsrmReportJob::LastRun, fsrmreports/IFsrmReportJob::get_LastRun, get_LastRun
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmreports.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmReportJob.LastRun
+-	IFsrmReportJob.get_LastRun
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmReportJob::get_LastRun

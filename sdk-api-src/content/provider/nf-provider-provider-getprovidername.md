@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:provider.Provider.GetProviderName
+title: Provider::GetProviderName
+author: windows-sdk-content
+description: The GetProviderName method retrieves the name of the class used in the constructor of the provider.
+old-location: wmi\provider_getprovidername.htm
+old-project: WmiSdk
+ms.assetid: 9ea7558d-11bd-4f19-b4d3-a711eca632a8
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetProviderName, GetProviderName method [Windows Management Instrumentation], GetProviderName method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetProviderName method, Provider.GetProviderName, Provider::GetProviderName, _hmm_provider_getprovidername, provider/Provider::GetProviderName, wmi.provider_getprovidername
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: provider.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPVAR_COMPARE_UNIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	Provider.GetProviderName
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # Provider::GetProviderName

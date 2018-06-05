@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:filter.tagIFILTER_INIT
+title: tagIFILTER_INIT
+author: windows-sdk-content
+description: Flags that control the filtering process.
+old-location: indexsrv\ifilter_init_enum.htm
+old-project: IndexSrv
+ms.assetid: VS|indexsrv|~\html\ixrefint_9dm5.htm
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IFILTER_INIT, IFILTER_INIT enumeration [Indexing Service], IFILTER_INIT_APPLY_CRAWL_ATTRIBUTES, IFILTER_INIT_APPLY_INDEX_ATTRIBUTES, IFILTER_INIT_APPLY_OTHER_ATTRIBUTES, IFILTER_INIT_CANON_HYPHENS, IFILTER_INIT_CANON_PARAGRAPHS, IFILTER_INIT_CANON_SPACES, IFILTER_INIT_DISABLE_EMBEDDED, IFILTER_INIT_EMIT_FORMATTING, IFILTER_INIT_FILTER_AGGRESSIVE_BREAK, IFILTER_INIT_FILTER_OWNED_VALUE_OK, IFILTER_INIT_HARD_LINE_BREAKS, IFILTER_INIT_INDEXING_ONLY, IFILTER_INIT_SEARCH_LINKS, _idxs_IFILTER_INIT_enum, filter/IFILTER_INIT, filter/IFILTER_INIT_APPLY_CRAWL_ATTRIBUTES, filter/IFILTER_INIT_APPLY_INDEX_ATTRIBUTES, filter/IFILTER_INIT_APPLY_OTHER_ATTRIBUTES, filter/IFILTER_INIT_CANON_HYPHENS, filter/IFILTER_INIT_CANON_PARAGRAPHS, filter/IFILTER_INIT_CANON_SPACES, filter/IFILTER_INIT_DISABLE_EMBEDDED, filter/IFILTER_INIT_EMIT_FORMATTING, filter/IFILTER_INIT_FILTER_AGGRESSIVE_BREAK, filter/IFILTER_INIT_FILTER_OWNED_VALUE_OK, filter/IFILTER_INIT_HARD_LINE_BREAKS, filter/IFILTER_INIT_INDEXING_ONLY, filter/IFILTER_INIT_SEARCH_LINKS, indexsrv.ifilter_init_enum, tagIFILTER_INIT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: filter.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IFILTER_INIT
+topic_type:
+-	kbSyntax
+api_type:
+-	<TBD>
+api_location:
+-
+api_name:
+-	IFILTER_INIT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # tagIFILTER_INIT enumeration

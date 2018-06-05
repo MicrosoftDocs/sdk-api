@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPMedia.put_name
+title: IWMPMedia::put_name
+author: windows-sdk-content
+description: The put_name method specifies sets the name of the media item.
+old-location: wmp\iwmpmedia_put_name.htm
+old-project: WMP
+ms.assetid: 2cf6cff8-c5d1-4d10-8d32-764e35ef7ba2
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPMedia interface [Windows Media Player],put_name method, IWMPMedia.put_name, IWMPMedia2 interface [Windows Media Player],put_name method, IWMPMedia2::put_name, IWMPMedia3 interface [Windows Media Player],put_name method, IWMPMedia3::put_name, IWMPMedia::put_name, IWMPMediaput_name, put_name, put_name method [Windows Media Player], put_name method [Windows Media Player],IWMPMedia interface, put_name method [Windows Media Player],IWMPMedia2 interface, put_name method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_put_name, wmp/IWMPMedia2::put_name, wmp/IWMPMedia3::put_name, wmp/IWMPMedia::put_name
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPMedia.put_name
+-	IWMPMedia2.put_name
+-	IWMPMedia3.put_name
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPMedia::put_name

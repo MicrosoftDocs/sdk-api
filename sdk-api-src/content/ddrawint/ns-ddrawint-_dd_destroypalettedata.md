@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_DESTROYPALETTEDATA
+title: "_DD_DESTROYPALETTEDATA"
+author: windows-sdk-content
+description: The DD_DESTROYPALETTEDATA structure contains information necessary to destroy the specified palette.
+old-location: display\dd_destroypalettedata.htm
+old-project: display
+ms.assetid: e309f782-bd0b-4703-b58c-e202fd87b904
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA structure [Display Devices], _DD_DESTROYPALETTEDATA, ddrawint/DD_DESTROYPALETTEDATA, ddstrcts_850bb816-b0df-4877-8903-c85b15074e30.xml, display.dd_destroypalettedata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_DESTROYPALETTEDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_DESTROYPALETTEDATA structure

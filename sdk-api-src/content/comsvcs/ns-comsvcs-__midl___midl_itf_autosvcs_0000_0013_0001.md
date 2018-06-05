@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:comsvcs.__MIDL___MIDL_itf_autosvcs_0000_0013_0001
+title: "__MIDL___MIDL_itf_autosvcs_0000_0013_0001"
+author: windows-sdk-content
+description: Represents contextual information about an event, such as the time it was generated and which process server and COM+ application generated it.
+old-location: cos\comsvcseventinfo.htm
+old-project: cossdk
+ms.assetid: f4aa0892-4c93-42ea-adc6-1b304b917389
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: COMSVCSEVENTINFO, COMSVCSEVENTINFO structure [COM+], __MIDL___MIDL_itf_autosvcs_0000_0013_0001, _dtc_Event_Structure, comsvcs/COMSVCSEVENTINFO, cos.comsvcseventinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMSVCSEVENTINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ComSvcs.h
+api_name:
+-	COMSVCSEVENTINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # __MIDL___MIDL_itf_autosvcs_0000_0013_0001 structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._IMAGE_DEBUG_DIRECTORY
+title: "_IMAGE_DEBUG_DIRECTORY"
+author: windows-sdk-content
+description: Represents the debug directory format.
+old-location: base\image_debug_directory_str.htm
+old-project: Debug
+ms.assetid: f89a3c9b-4d73-4ff5-8f45-2e58500d5084
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PIMAGE_DEBUG_DIRECTORY, IMAGE_DEBUG_DIRECTORY, IMAGE_DEBUG_DIRECTORY structure, IMAGE_DEBUG_TYPE_BORLAND, IMAGE_DEBUG_TYPE_CODEVIEW, IMAGE_DEBUG_TYPE_COFF, IMAGE_DEBUG_TYPE_EXCEPTION, IMAGE_DEBUG_TYPE_FIXUP, IMAGE_DEBUG_TYPE_FPO, IMAGE_DEBUG_TYPE_MISC, IMAGE_DEBUG_TYPE_UNKNOWN, PIMAGE_DEBUG_DIRECTORY, PIMAGE_DEBUG_DIRECTORY structure pointer, _IMAGE_DEBUG_DIRECTORY, _win32_image_debug_directory_str, base.image_debug_directory_str, winnt/IMAGE_DEBUG_DIRECTORY, winnt/PIMAGE_DEBUG_DIRECTORY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGE_DEBUG_DIRECTORY, *PIMAGE_DEBUG_DIRECTORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	IMAGE_DEBUG_DIRECTORY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _IMAGE_DEBUG_DIRECTORY structure

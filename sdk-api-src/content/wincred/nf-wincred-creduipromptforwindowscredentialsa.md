@@ -1,31 +1,53 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincred.CredUIPromptForWindowsCredentialsA
+title: CredUIPromptForWindowsCredentialsA function
+author: windows-sdk-content
+description: Creates and displays a configurable dialog box that allows users to supply credential information by using any credential provider installed on the local computer.
+old-location: security\creduipromptforwindowscredentials.htm
+old-project: SecAuthN
+ms.assetid: 946ac279-d30a-4a6c-a76d-d93597121427
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CREDUIWIN_AUTHPACKAGE_ONLY, CREDUIWIN_CHECKBOX, CREDUIWIN_ENUMERATE_ADMINS, CREDUIWIN_ENUMERATE_CURRENT_USER, CREDUIWIN_GENERIC, CREDUIWIN_IN_CRED_ONLY, CREDUIWIN_PACK_32_WOW, CREDUIWIN_PREPROMPTING, CREDUIWIN_SECURE_PROMPT, CredUIPromptForWindowsCredentials, CredUIPromptForWindowsCredentials function [Security], CredUIPromptForWindowsCredentialsA, CredUIPromptForWindowsCredentialsW, security.creduipromptforwindowscredentials, wincred/CredUIPromptForWindowsCredentials, wincred/CredUIPromptForWindowsCredentialsA, wincred/CredUIPromptForWindowsCredentialsW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincred.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CredUIPromptForWindowsCredentialsW (Unicode) and CredUIPromptForWindowsCredentialsA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Credui.dll
+-	Ext-MS-Win-security-credui-l1-1-0.dll
+-	Ext-MS-Win-security-credui-l1-1-1.dll
+-	AnalogCredUI.dll
+api_name:
+-	CredUIPromptForWindowsCredentials
+-	CredUIPromptForWindowsCredentialsA
+-	CredUIPromptForWindowsCredentialsW
+product: Windows
+targetos: Windows
+req.lib: Credui.lib
+req.dll: Credui.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CredUIPromptForWindowsCredentialsA function

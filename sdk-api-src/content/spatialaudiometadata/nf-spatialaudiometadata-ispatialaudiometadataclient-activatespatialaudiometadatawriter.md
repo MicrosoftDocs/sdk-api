@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter
+title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter
+author: windows-sdk-content
+description: Creates an ISpatialAudioMetadataWriter object for writing spatial audio metadata items to an ISpatialAudioMetadataItems object.
+old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadatawriter.htm
+old-project: CoreAudio
+ms.assetid: 0A30C838-E9B0-4CC3-BE88-9354160B8084
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ActivateSpatialAudioMetadataWriter, ActivateSpatialAudioMetadataWriter method [Core Audio], ActivateSpatialAudioMetadataWriter method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],ActivateSpatialAudioMetadataWriter method, ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatawriter, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spatialaudiometadata.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SpatialAudioMetadataWriterOverflowMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	spatialaudiometadata.h
+api_name:
+-	ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter

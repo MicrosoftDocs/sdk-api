@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmreports.IFsrmReportJob.get_LastGeneratedInDirectory
+title: IFsrmReportJob::get_LastGeneratedInDirectory
+author: windows-sdk-content
+description: Retrieves the local directory path where the reports were stored the last time the reports were run.
+old-location: fsrm\ifsrmreportjob_lastgeneratedindirectory.htm
+old-project: Fsrm
+ms.assetid: b72ce871-41e0-4321-8c9c-0ae77a02c7ff
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmReportJob interface [File Server Resource Manager],LastGeneratedInDirectory property, IFsrmReportJob.LastGeneratedInDirectory, IFsrmReportJob.get_LastGeneratedInDirectory, IFsrmReportJob::LastGeneratedInDirectory, IFsrmReportJob::get_LastGeneratedInDirectory, LastGeneratedInDirectory property [File Server Resource Manager], LastGeneratedInDirectory property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_lastgeneratedindirectory, fsrm.ifsrmreportjob_lastgeneratedindirectory, fsrmreports/IFsrmReportJob::LastGeneratedInDirectory, fsrmreports/IFsrmReportJob::get_LastGeneratedInDirectory, get_LastGeneratedInDirectory
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmreports.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmReportJob.LastGeneratedInDirectory
+-	IFsrmReportJob.get_LastGeneratedInDirectory
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmReportJob::get_LastGeneratedInDirectory

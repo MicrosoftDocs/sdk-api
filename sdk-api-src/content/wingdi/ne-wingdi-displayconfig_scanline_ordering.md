@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:wingdi.DISPLAYCONFIG_SCANLINE_ORDERING
+title: DISPLAYCONFIG_SCANLINE_ORDERING
+author: windows-sdk-content
+description: The DISPLAYCONFIG_SCANLINE_ORDERING enumeration specifies the method that the display uses to create an image on a screen.
+old-location: display\displayconfig_scanline_ordering.htm
+old-project: display
+ms.assetid: 5b8d6c83-e8fb-4529-8d61-557ed0e4da37
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CCD_Enumerations_e6c7a4af-750c-4a3c-a89d-562448487abc.xml, DISPLAYCONFIG_SCANLINE_ORDERING, DISPLAYCONFIG_SCANLINE_ORDERING enumeration [Display Devices], DISPLAYCONFIG_SCANLINE_ORDERING_FORCE_UINT32, DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED, DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED_LOWERFIELDFIRST, DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED_UPPERFIELDFIRST, DISPLAYCONFIG_SCANLINE_ORDERING_PROGRESSIVE, DISPLAYCONFIG_SCANLINE_ORDERING_UNSPECIFIED, display.displayconfig_scanline_ordering, wingdi/DISPLAYCONFIG_SCANLINE_ORDERING, wingdi/DISPLAYCONFIG_SCANLINE_ORDERING_FORCE_UINT32, wingdi/DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED, wingdi/DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED_LOWERFIELDFIRST, wingdi/DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED_UPPERFIELDFIRST, wingdi/DISPLAYCONFIG_SCANLINE_ORDERING_PROGRESSIVE, wingdi/DISPLAYCONFIG_SCANLINE_ORDERING_UNSPECIFIED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_SCANLINE_ORDERING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wingdi.h
+api_name:
+-	DISPLAYCONFIG_SCANLINE_ORDERING
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DISPLAYCONFIG_SCANLINE_ORDERING enumeration

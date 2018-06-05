@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_VIDEOPORT_LOCAL
+title: "_DD_VIDEOPORT_LOCAL"
+author: windows-sdk-content
+description: The DD_VIDEOPORT_LOCAL structure contains video port extensions (VPE)-related data that is unique to an individual Microsoft DirectDraw VPE object.
+old-location: display\dd_videoport_local.htm
+old-project: display
+ms.assetid: c497d1ef-0eb1-465f-978c-60cf5606de93
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL structure [Display Devices], _DD_VIDEOPORT_LOCAL, ddrawint/DD_VIDEOPORT_LOCAL, ddstrcts_ca5d2367-9338-4b1e-ad85-5c7a9e528e3e.xml, display.dd_videoport_local"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_VIDEOPORT_LOCAL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_VIDEOPORT_LOCAL structure

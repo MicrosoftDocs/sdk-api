@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IMofCompiler.CompileFile
+title: IMofCompiler::CompileFile
+author: windows-sdk-content
+description: The IMofCompiler::CompileFile method compiles a MOF file (including binary MOFs) and stores the information in the WMI repository.
+old-location: wmi\imofcompiler_compilefile.htm
+old-project: WmiSdk
+ms.assetid: caf13a5c-2aca-4acb-8210-909737bf1022
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CompileFile, CompileFile method [Windows Management Instrumentation], CompileFile method [Windows Management Instrumentation],IMofCompiler interface, IMofCompiler interface [Windows Management Instrumentation],CompileFile method, IMofCompiler.CompileFile, IMofCompiler::CompileFile, WBEM_FLAG_AUTORECOVER, WBEM_FLAG_CHECK_ONLY, WBEM_FLAG_CONSOLE_PRINT, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_DONT_ADD_TO_LIST, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, _hmm_imofcompiler_compilefile, wbemcli/IMofCompiler::CompileFile, wmi.imofcompiler_compilefile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mofd.dll
+api_name:
+-	IMofCompiler.CompileFile
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Mofd.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IMofCompiler::CompileFile

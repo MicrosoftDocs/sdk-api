@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:objidl.tagBIND_OPTS3
+title: tagBIND_OPTS3
+author: windows-sdk-content
+description: Contains parameters used during a moniker-binding operation.
+old-location: com\bind_opts3.htm
+old-project: com
+ms.assetid: 7e668313-229a-4d04-b8a2-d5072c87a5b5
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPBIND_OPTS3, BIND_OPTS3, BIND_OPTS3 structure [COM], LPBIND_OPTS3, LPBIND_OPTS3 structure pointer [COM], _com_BIND_OPTS3, com.bind_opts3, objidl/BIND_OPTS3, objidl/LPBIND_OPTS3, tagBIND_OPTS3"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BIND_OPTS3, *LPBIND_OPTS3
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Objidl.h
+api_name:
+-	BIND_OPTS3
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagBIND_OPTS3 structure

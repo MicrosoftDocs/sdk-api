@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dinputd.DIJOYCONFIG
+title: DIJOYCONFIG
+author: windows-sdk-content
+description: The DIJOYCONFIG structure contains information about a joystick's configuration.
+old-location: hid\dijoyconfig.htm
+old-project: hid
+ms.assetid: 2b17432f-fa5e-4ce3-9814-c24a45a49343
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPDIJOYCONFIG, DIJOYCONFIG, DIJOYCONFIG structure [Human Input Devices], di_ref_dc34a740-8987-4012-9e22-e59de2544445.xml, dinputd/DIJOYCONFIG, hid.dijoyconfig"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dinputd.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIJOYCONFIG, *LPDIJOYCONFIG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dinputd.h
+api_name:
+-	DIJOYCONFIG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DIJOYCONFIG structure

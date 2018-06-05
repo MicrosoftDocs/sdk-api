@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11_3.ID3D11Device3.ReadFromSubresource
+title: ID3D11Device3::ReadFromSubresource
+author: windows-sdk-content
+description: Copies data from a D3D11_USAGE_DEFAULT texture which was mapped using ID3D11DeviceContext3::Map while providing a NULL D3D11_MAPPED_SUBRESOURCE parameter.
+old-location: direct3d11\id3d11device3_readfromsubresource.htm
+old-project: direct3d11
+ms.assetid: 060B9627-3A95-4DBD-B3E6-3989D8D9C79E
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: ID3D11Device3 interface [Direct3D 11],ReadFromSubresource method, ID3D11Device3.ReadFromSubresource, ID3D11Device3::ReadFromSubresource, ReadFromSubresource, ReadFromSubresource method [Direct3D 11], ReadFromSubresource method [Direct3D 11],ID3D11Device3 interface, d3d11_3/ID3D11Device3::ReadFromSubresource, direct3d11.id3d11device3_readfromsubresource
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11_3.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_TEXTURE_LAYOUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11Device3.ReadFromSubresource
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11Device3::ReadFromSubresource

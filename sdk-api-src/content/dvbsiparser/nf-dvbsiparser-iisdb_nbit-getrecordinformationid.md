@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dvbsiparser.IISDB_NBIT.GetRecordInformationId
+title: IISDB_NBIT::GetRecordInformationId
+author: windows-sdk-content
+description: an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
+old-location: mstv\iisdb_nbit_getrecordinformationid.htm
+old-project: mstv
+ms.assetid: 9535d587-3e37-4d12-9b96-66ff1c2cf6f3
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetRecordInformationId, GetRecordInformationId method [Microsoft TV Technologies], GetRecordInformationId method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordInformationId method, IISDB_NBIT.GetRecordInformationId, IISDB_NBIT::GetRecordInformationId, dvbsiparser/IISDB_NBIT::GetRecordInformationId, mstv.iisdb_nbit_getrecordinformationid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dvbsiparser.h
+req.include-header: Dvbsiparser.idl
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dvbsiparser.h
+api_name:
+-	IISDB_NBIT.GetRecordInformationId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IISDB_NBIT::GetRecordInformationId

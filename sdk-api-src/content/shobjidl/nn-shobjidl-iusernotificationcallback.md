@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:shobjidl.IUserNotificationCallback
+title: IUserNotificationCallback
+author: windows-sdk-content
+description: Exposes a method for the handling of a mouse click or shortcut menu access in a notification balloon. Used with IUserNotification2::Show.
+old-location: shell\IUserNotificationCallback.htm
+old-project: shell
+ms.assetid: f746a4d4-8649-43a1-ac9b-773402dfb6c7
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IUserNotificationCallback, IUserNotificationCallback interface [Windows Shell], IUserNotificationCallback interface [Windows Shell],described, _shell_IUserNotificationCallback, shell.IUserNotificationCallback, shobjidl/IUserNotificationCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shobjidl.h
+api_name:
+-	IUserNotificationCallback
+product: Windows
+targetos: Windows
+req.lib: Comdlg32.lib
+req.dll: Shell32.dll (version 6.0.6 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # IUserNotificationCallback interface

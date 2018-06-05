@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:fwpstypes.FWPS_INBOUND_FRAGMENT_METADATA0_
+title: FWPS_INBOUND_FRAGMENT_METADATA0_
+author: windows-sdk-content
+description: The FWPS_INBOUND_FRAGMENT_METADATA0 structure describes the fragment data for a received packet fragment.Note  FWPS_INBOUND_FRAGMENT_METADATA0 is a specific version of FWPS_INBOUND_FRAGMENT_METADATA.
+old-location: netvista\fwps_inbound_fragment_metadata0.htm
+old-project: netvista
+ms.assetid: 9bead001-7ea7-4a51-8a7c-82fe01017dd7
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: FWPS_INBOUND_FRAGMENT_METADATA0, FWPS_INBOUND_FRAGMENT_METADATA0 structure [Network Drivers Starting with Windows Vista], FWPS_INBOUND_FRAGMENT_METADATA0_, fwpstypes/FWPS_INBOUND_FRAGMENT_METADATA0, netvista.fwps_inbound_fragment_metadata0, wfp_ref_3_struct_3_fwps_F-O_f826ecbb-5bd5-4ca3-a13a-49b385ca29c4.xml
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: fwpstypes.h
+req.include-header: Fwpsk.h
+req.target-type: Windows
+req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWPS_INBOUND_FRAGMENT_METADATA0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	fwpstypes.h
+api_name:
+-	FWPS_INBOUND_FRAGMENT_METADATA0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FWPS_INBOUND_FRAGMENT_METADATA0_ structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:mmstream.__MIDL___MIDL_itf_mmstream_0000_0000_0002
+title: "__MIDL___MIDL_itf_mmstream_0000_0000_0002"
+author: windows-sdk-content
+description: Note  This API is deprecated. New applications should not use it. Describes the state of the stream.
+old-location: dshow\stream_state.htm
+old-project: DirectShow
+ms.assetid: 0be95819-0a42-4459-a891-194aacd26e2e
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: STREAMSTATE_RUN, STREAMSTATE_STOP, STREAM_STATE, STREAM_STATE enumeration [DirectShow], __MIDL___MIDL_itf_mmstream_0000_0000_0002, dshow.stream_state, mmstream/STREAMSTATE_RUN, mmstream/STREAMSTATE_STOP, mmstream/STREAM_STATE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mmstream.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAM_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mmstream.h
+api_name:
+-	STREAM_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_mmstream_0000_0000_0002 enumeration

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wcmconfig.ISettingsEngine.GetStoreStatus
+title: ISettingsEngine::GetStoreStatus
+author: windows-sdk-content
+description: Gets the status of the schema store.
+old-location: smi\isettingsengine_getstorestatus.htm
+old-project: SMI
+ms.assetid: 212299b4-d7b3-4a11-b75e-7e752bb91932
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetStoreStatus, GetStoreStatus method [SMI], GetStoreStatus method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetStoreStatus method, ISettingsEngine.GetStoreStatus, ISettingsEngine::GetStoreStatus, smi.isettingsengine_getstorestatus, wcmconfig/ISettingsEngine::GetStoreStatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WcmConfig.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ISettingsEngine.GetStoreStatus
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ISettingsEngine::GetStoreStatus

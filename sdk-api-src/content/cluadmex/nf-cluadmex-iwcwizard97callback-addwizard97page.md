@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cluadmex.IWCWizard97Callback.AddWizard97Page
+title: IWCWizard97Callback::AddWizard97Page
+author: windows-sdk-content
+description: Adds a Wizard97 property page to a Wizard97 wizard, such as the Failover Cluster Application Wizard.
+old-location: mscs\iwcwizard97callback_addwizard97page.htm
+old-project: MsCS
+ms.assetid: c5de70da-2a08-4142-8f21-53a98e28fd42
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: AddWizard97Page, AddWizard97Page method [Failover Cluster], AddWizard97Page method [Failover Cluster],IWCWizard97Callback interface, IWCWizard97Callback interface [Failover Cluster],AddWizard97Page method, IWCWizard97Callback.AddWizard97Page, IWCWizard97Callback::AddWizard97Page, _wolf_iwcwizard97callback_addwizard97page, cluadmex/IWCWizard97Callback::AddWizard97Page, mscs.iwcwizard97callback_addwizard97page
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: cluadmex.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CluAdmEx.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: Sources
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	cluadmex.h
+api_name:
+-	IWCWizard97Callback.AddWizard97Page
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IWCWizard97Callback::AddWizard97Page

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:highlevelmonitorconfigurationapi.GetMonitorDisplayAreaPosition
+title: GetMonitorDisplayAreaPosition function
+author: windows-sdk-content
+description: Retrieves a monitor's minimum, maximum, and current horizontal or vertical position.
+old-location: monitor\getmonitordisplayareaposition.htm
+old-project: Monitor
+ms.assetid: d6dca744-634e-420f-a025-5be9d136969f
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetMonitorDisplayAreaPosition, GetMonitorDisplayAreaPosition function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorDisplayAreaPosition, monitor.getmonitordisplayareaposition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: highlevelmonitorconfigurationapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MC_SIZE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	dxva2.dll
+api_name:
+-	GetMonitorDisplayAreaPosition
+product: Windows
+targetos: Windows
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # GetMonitorDisplayAreaPosition function

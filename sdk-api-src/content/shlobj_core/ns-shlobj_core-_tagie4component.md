@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj_core._tagIE4COMPONENT
+title: "_tagIE4COMPONENT"
+author: windows-sdk-content
+description: Used by Microsoft Internet Explorer 4.0 and Microsoft Internet Explorer 4.01 to hold information about a component. With Windows 2000, it is replaced by the COMPONENT structure.
+old-location: shell\IE4COMPONENT.htm
+old-project: shell
+ms.assetid: 5fcb2853-271b-4fcc-a3ea-0c2c6dd68195
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPIE4COMPONENT, COMP_TYPE_CONTROL, COMP_TYPE_HTMLDOC, COMP_TYPE_PICTURE, COMP_TYPE_WEBSITE, IE4COMPONENT, IE4COMPONENT structure [Windows Shell], LPIE4COMPONENT, LPIE4COMPONENT structure pointer [Windows Shell], _shell_IE4COMPONENT, _tagIE4COMPONENT, shell.IE4COMPONENT, shlobj_core/IE4COMPONENT, shlobj_core/LPIE4COMPONENT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IE4COMPONENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	IE4COMPONENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # _tagIE4COMPONENT structure

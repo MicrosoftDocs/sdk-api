@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:mergemod.IMsmMerge2.ExtractFilesEx
+title: IMsmMerge2::ExtractFilesEx
+author: windows-sdk-content
+description: The ExtractFilesEx method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see the ExtractFilesEx method of the Merge object.
+old-location: setup\imsmmerge2_extractfilesex.htm
+old-project: Msi
+ms.assetid: 0ba6adc9-a08f-47a6-b8a8-1624bd856511
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: ExtractFilesEx, ExtractFilesEx method, ExtractFilesEx method,IMsmMerge2 interface, IMsmMerge2 interface,ExtractFilesEx method, IMsmMerge2.ExtractFilesEx, IMsmMerge2::ExtractFilesEx, _msi_extractfilesex_function, mergemod/IMsmMerge2::ExtractFilesEx, setup.imsmmerge2_extractfilesex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mergemod.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Mergemod.dll 2.0 or later
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIN32_MEMORY_REGION_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mergemod.dll
+api_name:
+-	IMsmMerge2.ExtractFilesEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMsmMerge2::ExtractFilesEx

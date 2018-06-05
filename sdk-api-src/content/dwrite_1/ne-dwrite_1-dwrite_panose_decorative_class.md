@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwrite_1.DWRITE_PANOSE_DECORATIVE_CLASS
+title: DWRITE_PANOSE_DECORATIVE_CLASS
+author: windows-sdk-content
+description: The DWRITE_PANOSE_DECORATIVE_CLASS enumeration contains values that specify the general look of the character face.
+old-location: directwrite\dwrite_panose_decorative_class.htm
+old-project: DirectWrite
+ms.assetid: 54885610-7749-4012-AB25-8968871CEBCE
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_PANOSE_DECORATIVE_CLASS, DWRITE_PANOSE_DECORATIVE_CLASS enumeration [Direct Write], DWRITE_PANOSE_DECORATIVE_CLASS_ANY, DWRITE_PANOSE_DECORATIVE_CLASS_CARTOON, DWRITE_PANOSE_DECORATIVE_CLASS_COLLAGE, DWRITE_PANOSE_DECORATIVE_CLASS_DERIVATIVE, DWRITE_PANOSE_DECORATIVE_CLASS_INITIALS, DWRITE_PANOSE_DECORATIVE_CLASS_MONTAGE, DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_ASPECT, DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_ELEMENTS, DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_TOPOLOGY, DWRITE_PANOSE_DECORATIVE_CLASS_NO_FIT, DWRITE_PANOSE_DECORATIVE_CLASS_ORNAMENTED, DWRITE_PANOSE_DECORATIVE_CLASS_PICTURE_STEMS, DWRITE_PANOSE_DECORATIVE_CLASS_TEXT_AND_BACKGROUND, directwrite.dwrite_panose_decorative_class, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_ANY, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_CARTOON, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_COLLAGE, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_DERIVATIVE, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_INITIALS, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_MONTAGE, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_ASPECT, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_ELEMENTS, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_TOPOLOGY, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_NO_FIT, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_ORNAMENTED, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_PICTURE_STEMS, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_TEXT_AND_BACKGROUND
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dwrite_1.h
+api_name:
+-	DWRITE_PANOSE_DECORATIVE_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_PANOSE_DECORATIVE_CLASS enumeration

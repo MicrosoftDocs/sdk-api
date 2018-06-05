@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:resapi.RESOURCE_MONITOR_STATE
+title: RESOURCE_MONITOR_STATE
+author: windows-sdk-content
+description: TBD.
+old-location: mscs\resource_monitor_state.htm
+old-project: MsCS
+ms.assetid: 9501ed9b-af72-43fd-b242-a5d118b92b0e
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: RESOURCE_MONITOR_STATE, RESOURCE_MONITOR_STATE enumeration [Failover Cluster], RmonArbitrateResource, RmonDeadlocked, RmonDeletingResource, RmonIdle, RmonInitializing, RmonInitializingResource, RmonIsAlivePoll, RmonLooksAlivePoll, RmonOfflineResource, RmonOnlineResource, RmonReleaseResource, RmonResourceControl, RmonResourceTypeControl, RmonShutdownResource, RmonStartingResource, RmonTerminateResource, mscs.resource_monitor_state, resapi/RESOURCE_MONITOR_STATE, resapi/RmonArbitrateResource, resapi/RmonDeadlocked, resapi/RmonDeletingResource, resapi/RmonIdle, resapi/RmonInitializing, resapi/RmonInitializingResource, resapi/RmonIsAlivePoll, resapi/RmonLooksAlivePoll, resapi/RmonOfflineResource, resapi/RmonOnlineResource, resapi/RmonReleaseResource, resapi/RmonResourceControl, resapi/RmonResourceTypeControl, resapi/RmonShutdownResource, resapi/RmonStartingResource, resapi/RmonTerminateResource
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: resapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RESOURCE_MONITOR_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ResApi.h
+api_name:
+-	RESOURCE_MONITOR_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RESOURCE_MONITOR_STATE enumeration

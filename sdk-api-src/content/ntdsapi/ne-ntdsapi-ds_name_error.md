@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ntdsapi.DS_NAME_ERROR
+title: DS_NAME_ERROR
+author: windows-sdk-content
+description: The DS_NAME_ERROR enumeration defines the errors returned by the status member of the DS_NAME_RESULT_ITEM structure. These are potential errors that may be encountered while a name is converted by the DsCrackNames function.
+old-location: ad\ds_name_error.htm
+old-project: AD
+ms.assetid: 8475133c-4bc8-4545-bd54-15d4e7b07869
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_NAME_ERROR, DS_NAME_ERROR enumeration [Active Directory], DS_NAME_ERROR_DOMAIN_ONLY, DS_NAME_ERROR_NOT_FOUND, DS_NAME_ERROR_NOT_UNIQUE, DS_NAME_ERROR_NO_MAPPING, DS_NAME_ERROR_NO_SYNTACTICAL_MAPPING, DS_NAME_ERROR_RESOLVING, DS_NAME_ERROR_TRUST_REFERRAL, DS_NAME_NO_ERROR, _glines_ds_name_error, ad.ds__name__error, ad.ds_name_error, ntdsapi/DS_NAME_ERROR, ntdsapi/DS_NAME_ERROR_DOMAIN_ONLY, ntdsapi/DS_NAME_ERROR_NOT_FOUND, ntdsapi/DS_NAME_ERROR_NOT_UNIQUE, ntdsapi/DS_NAME_ERROR_NO_MAPPING, ntdsapi/DS_NAME_ERROR_NO_SYNTACTICAL_MAPPING, ntdsapi/DS_NAME_ERROR_RESOLVING, ntdsapi/DS_NAME_ERROR_TRUST_REFERRAL, ntdsapi/DS_NAME_NO_ERROR
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_NAME_ERROR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntdsapi.h
+api_name:
+-	DS_NAME_ERROR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: Any level
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DS_NAME_ERROR enumeration

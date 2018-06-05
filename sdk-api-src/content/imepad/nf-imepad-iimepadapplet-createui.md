@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:imepad.IImePadApplet.CreateUI
+title: IImePadApplet::CreateUI
+author: windows-sdk-content
+description: Called from IImePad to get the applet's window handle, style, and size.
+old-location: intl\iimepadapplet_createui.htm
+old-project: Intl
+ms.assetid: B4F79A20-E69E-4EA0-A992-4415B8AA4790
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CreateUI, CreateUI method [Internationalization for Windows Applications], CreateUI method [Internationalization for Windows Applications],IImePadApplet interface, IImePadApplet interface [Internationalization for Windows Applications],CreateUI method, IImePadApplet.CreateUI, IImePadApplet::CreateUI, imepad/IImePadApplet::CreateUI, intl.iimepadapplet_createui
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imepad.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PlatformId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Imepad.h
+api_name:
+-	IImePadApplet.CreateUI
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IImePadApplet::CreateUI

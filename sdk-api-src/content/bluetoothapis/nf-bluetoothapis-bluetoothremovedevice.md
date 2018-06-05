@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bluetoothapis.BluetoothRemoveDevice
+title: BluetoothRemoveDevice function
+author: windows-sdk-content
+description: Removes authentication between a Bluetooth device and the computer and clears cached service information for the device.
+old-location: bluetooth\bluetoothremovedevice.htm
+old-project: Bluetooth
+ms.assetid: dd4f6468-ccc2-4072-95c5-97553308ae47
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BluetoothRemoveDevice, BluetoothRemoveDevice function [Bluetooth], bluetooth.bluetoothremovedevice, bluetoothapis/BluetoothRemoveDevice
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: bluetoothapis.h
+req.include-header: Bthsdpdef.h, BluetoothAPIs.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BLUETOOTH_IO_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Bthprops.dll
+-	BluetoothAPIs.dll
+-	Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+api_name:
+-	BluetoothRemoveDevice
+product: Windows
+targetos: Windows
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 ---
 
 # BluetoothRemoveDevice function

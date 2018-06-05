@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmshare._SHARE_INFO_502
+title: "_SHARE_INFO_502"
+author: windows-sdk-content
+description: Contains information about the shared resource, including name of the resource, type and permissions, number of connections, and other pertinent information.
+old-location: fs\share_info_502_str.htm
+old-project: NetShare
+ms.assetid: 306e6704-2068-42da-bcc4-c0772c719ee8
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPSHARE_INFO_502, *PSHARE_INFO_502, ACCESS_ALL, ACCESS_ATRIB, ACCESS_CREATE, ACCESS_DELETE, ACCESS_EXEC, ACCESS_PERM, ACCESS_READ, ACCESS_WRITE, LPSHARE_INFO_502, LPSHARE_INFO_502 structure pointer [Files], PSHARE_INFO_502, PSHARE_INFO_502 structure pointer [Files], SHARE_INFO_502, SHARE_INFO_502 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _SHARE_INFO_502, _win32_share_info_502_str, fs.share_info_502_str, lmshare/LPSHARE_INFO_502, lmshare/PSHARE_INFO_502, lmshare/SHARE_INFO_502, netmgmt.share_info_502_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmshare.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHARE_INFO_502, *PSHARE_INFO_502, *LPSHARE_INFO_502
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmshare.h
+api_name:
+-	SHARE_INFO_502
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _SHARE_INFO_502 structure

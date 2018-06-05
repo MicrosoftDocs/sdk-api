@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPCore.put_URL
+title: IWMPCore::put_URL
+author: windows-sdk-content
+description: The put_URL method specifies the URL of the media item to play.
+old-location: wmp\iwmpcore_put_url.htm
+old-project: WMP
+ms.assetid: 0a8625b9-19a1-41dc-9bb8-afca4bfebf5a
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPCore interface [Windows Media Player],put_URL method, IWMPCore.put_URL, IWMPCore::put_URL, IWMPCoreput_URL, put_URL, put_URL method [Windows Media Player], put_URL method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_url, wmp/IWMPCore::put_URL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPCore.put_URL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPCore::put_URL

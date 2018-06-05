@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:p2p.peer_record_flags_tag
+title: peer_record_flags_tag
+author: windows-sdk-content
+description: The PEER_RECORD_FLAGS enumeration specifies a set of flags for peer record behaviors.
+old-location: p2p\peer_record_flags.htm
+old-project: P2PSdk
+ms.assetid: 2ae2411d-3409-442a-8655-e54a34bf3938
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PEER_RECORD_FLAGS, PEER_RECORD_FLAGS enumeration [Peer Networking], PEER_RECORD_FLAG_AUTOREFRESH, PEER_RECORD_FLAG_DELETED, p2p.peer_record_flags, p2p/PEER_RECORD_FLAGS, p2p/PEER_RECORD_FLAG_AUTOREFRESH, p2p/PEER_RECORD_FLAG_DELETED, peer_record_flags_tag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEER_RECORD_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	P2P.h
+api_name:
+-	PEER_RECORD_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # peer_record_flags_tag enumeration

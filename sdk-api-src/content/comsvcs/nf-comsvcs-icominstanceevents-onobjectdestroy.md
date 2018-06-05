@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IComInstanceEvents.OnObjectDestroy
+title: IComInstanceEvents::OnObjectDestroy
+author: windows-sdk-content
+description: Generated when an object is released by a client.
+old-location: cos\icominstanceevents_onobjectdestroy.htm
+old-project: cossdk
+ms.assetid: 3eea4171-a177-4adc-bd9a-856a558ba3d8
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IComInstanceEvents interface [COM+],OnObjectDestroy method, IComInstanceEvents.OnObjectDestroy, IComInstanceEvents::OnObjectDestroy, OnObjectDestroy, OnObjectDestroy method [COM+], OnObjectDestroy method [COM+],IComInstanceEvents interface, _dtc_IComInstanceEvents_OnObjectDestroy, comsvcs/IComInstanceEvents::OnObjectDestroy, cos.icominstanceevents_onobjectdestroy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IComInstanceEvents.OnObjectDestroy
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IComInstanceEvents::OnObjectDestroy

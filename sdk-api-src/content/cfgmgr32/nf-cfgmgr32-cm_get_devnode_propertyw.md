@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:cfgmgr32.CM_Get_DevNode_PropertyW
+title: CM_Get_DevNode_PropertyW function
+author: windows-sdk-content
+description: The CM_Get_DevNode_Property function retrieves a device instance property.
+old-location: devinst\cm_get_devnode_property.htm
+old-project: devinst
+ms.assetid: A2EE0C78-13CB-4D9D-B68C-F527CCA2DF26
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: CM_Get_DevNode_Property, CM_Get_DevNode_Property function [Device and Driver Installation], CM_Get_DevNode_PropertyW, cfgmgr32/CM_Get_DevNode_Property, cfgmgr32/CM_Get_DevNode_PropertyW, devinst.cm_get_devnode_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Microsoft Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CM_Get_DevNode_PropertyW (Unicode) and CM_Get_DevNode_Property (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	CfgMgr32.dll
+-	API-Ms-Win-Devices-Config-L1-1-0.dll
+-	API-Ms-Win-Devices-Config-L1-1-1.dll
+api_name:
+-	CM_Get_DevNode_Property
+-	CM_Get_DevNode_Property
+-	CM_Get_DevNode_PropertyW
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib
+req.dll: CfgMgr32.dll
+req.irql: 
 ---
 
 # CM_Get_DevNode_PropertyW function

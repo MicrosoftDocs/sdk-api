@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxgi1_2.IDXGIOutput1.GetDisplayModeList1
+title: IDXGIOutput1::GetDisplayModeList1
+author: windows-sdk-content
+description: Gets the display modes that match the requested format and other input options.
+old-location: direct3ddxgi\idxgioutput1_getdisplaymodelist1.htm
+old-project: direct3ddxgi
+ms.assetid: 49522ED9-30AD-4F39-96D2-BB6677D72349
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: GetDisplayModeList1, GetDisplayModeList1 method [DXGI], GetDisplayModeList1 method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],GetDisplayModeList1 method, IDXGIOutput1.GetDisplayModeList1, IDXGIOutput1::GetDisplayModeList1, direct3ddxgi.idxgioutput1_getdisplaymodelist1, dxgi1_2/IDXGIOutput1::GetDisplayModeList1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi1_2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DXGI.lib
+-	DXGI.dll
+api_name:
+-	IDXGIOutput1.GetDisplayModeList1
+product: Windows
+targetos: Windows
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIOutput1::GetDisplayModeList1

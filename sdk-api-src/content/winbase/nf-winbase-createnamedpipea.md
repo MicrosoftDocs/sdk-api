@@ -1,31 +1,65 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.CreateNamedPipeA
+title: CreateNamedPipeA function
+author: windows-sdk-content
+description: Creates an instance of a named pipe and returns a handle for subsequent pipe operations.
+old-location: base\createnamedpipe.htm
+old-project: ipc
+ms.assetid: 00d79639-3f14-4964-90f3-9462a23e68df
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ACCESS_SYSTEM_SECURITY, CreateNamedPipe, CreateNamedPipe function, CreateNamedPipeA, CreateNamedPipeW, FILE_FLAG_FIRST_PIPE_INSTANCE, FILE_FLAG_OVERLAPPED, FILE_FLAG_WRITE_THROUGH, PIPE_ACCEPT_REMOTE_CLIENTS, PIPE_ACCESS_DUPLEX, PIPE_ACCESS_INBOUND, PIPE_ACCESS_OUTBOUND, PIPE_NOWAIT, PIPE_READMODE_BYTE, PIPE_READMODE_MESSAGE, PIPE_REJECT_REMOTE_CLIENTS, PIPE_TYPE_BYTE, PIPE_TYPE_MESSAGE, PIPE_WAIT, WRITE_DAC, WRITE_OWNER, _win32_createnamedpipe, base.createnamedpipe, winbase/CreateNamedPipe, winbase/CreateNamedPipeA, winbase/CreateNamedPipeW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CreateNamedPipeW (Unicode) and CreateNamedPipeA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+-	kernel32legacy.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+-	API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+-	API-MS-Win-Core-NamedPipe-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-NamedPipe-l1-2-0.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+-	API-MS-Win-Core-NamedPipe-l1-2-1.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+-	API-MS-Win-Core-NamedPipe-L1-2-2.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+-	CreateNamedPipe
+-	CreateNamedPipeA
+-	CreateNamedPipeW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CreateNamedPipeA function

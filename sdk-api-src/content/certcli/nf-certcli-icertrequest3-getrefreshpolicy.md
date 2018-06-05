@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certcli.ICertRequest3.GetRefreshPolicy
+title: ICertRequest3::GetRefreshPolicy
+author: windows-sdk-content
+description: Returns a value that indicates whether a client's cached certificate enrollment policy is out of date and needs to be refreshed.
+old-location: security\icertrequest3_getrefreshpolicy.htm
+old-project: SecCrypto
+ms.assetid: 0683b9ad-c3d5-418a-8f05-ae06ad74ef1d
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertRequest object [Security],GetRefreshPolicy method, GetRefreshPolicy, GetRefreshPolicy method [Security], GetRefreshPolicy method [Security],CCertRequest object, GetRefreshPolicy method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetRefreshPolicy method, ICertRequest3.GetRefreshPolicy, ICertRequest3::GetRefreshPolicy, certcli/ICertRequest3::GetRefreshPolicy, security.icertrequest3_getrefreshpolicy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certcli.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509EnrollmentAuthFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certcli.dll
+api_name:
+-	ICertRequest3.GetRefreshPolicy
+-	CCertRequest.GetRefreshPolicy
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 ---
 
 # ICertRequest3::GetRefreshPolicy

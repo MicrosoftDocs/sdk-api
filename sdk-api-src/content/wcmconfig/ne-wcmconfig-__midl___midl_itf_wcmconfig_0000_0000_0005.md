@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0005
+title: "__MIDL___MIDL_itf_wcmconfig_0000_0000_0005"
+author: windows-sdk-content
+description: Enumerates the facet values that may be returned by the ISettingsItem::GetRestrictionFacets method.
+old-location: smi\wcmrestrictionfacets.htm
+old-project: SMI
+ms.assetid: b9e62904-f6a9-4299-a558-51b57bd7d3db
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WcmRestrictionFacets, WcmRestrictionFacets enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0005, restrictionFacetEnumeration, restrictionFacetMaxInclusive, restrictionFacetMaxLength, restrictionFacetMinInclusive, smi.wcmrestrictionfacets, wcmconfig/WcmRestrictionFacets, wcmconfig/restrictionFacetEnumeration, wcmconfig/restrictionFacetMaxInclusive, wcmconfig/restrictionFacetMaxLength, wcmconfig/restrictionFacetMinInclusive
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WcmConfig.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WcmRestrictionFacets
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WcmConfig.h
+api_name:
+-	WcmRestrictionFacets
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # __MIDL___MIDL_itf_wcmconfig_0000_0000_0005 enumeration

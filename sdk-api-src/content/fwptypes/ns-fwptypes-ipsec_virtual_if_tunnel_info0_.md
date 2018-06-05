@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:fwptypes.IPSEC_VIRTUAL_IF_TUNNEL_INFO0_
+title: IPSEC_VIRTUAL_IF_TUNNEL_INFO0_
+author: windows-sdk-content
+description: Is used to store information specific to virtual interface tunneling.
+old-location: fwp\ipsec_virtual_if_tunnel_info0.htm
+old-project: FWP
+ms.assetid: 91af0790-865f-44f5-b6c8-fd048bf99125
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IPSEC_VIRTUAL_IF_TUNNEL_INFO0, IPSEC_VIRTUAL_IF_TUNNEL_INFO0 structure [Filtering], IPSEC_VIRTUAL_IF_TUNNEL_INFO0_, fwp.ipsec_virtual_if_tunnel_info0, fwptypes/IPSEC_VIRTUAL_IF_TUNNEL_INFO0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: fwptypes.h
+req.include-header: Ipsectypes.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPSEC_VIRTUAL_IF_TUNNEL_INFO0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	fwptypes.h
+api_name:
+-	IPSEC_VIRTUAL_IF_TUNNEL_INFO0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IPSEC_VIRTUAL_IF_TUNNEL_INFO0_ structure

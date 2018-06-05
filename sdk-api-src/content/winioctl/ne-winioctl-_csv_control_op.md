@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winioctl._CSV_CONTROL_OP
+title: "_CSV_CONTROL_OP"
+author: windows-sdk-content
+description: Specifies the type of CSV control operation to use with the FSCTL_CSV_CONTROL control code.
+old-location: fs\csv_control_op.htm
+old-project: FileIO
+ms.assetid: 77A2106F-2C07-4A30-BA46-651F74032609
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PCSV_CONTROL_OP, CSV_CONTROL_OP, CSV_CONTROL_OP enumeration [Files], CsvControlMdsPath, CsvControlQueryFileRevision, CsvControlQueryRedirectState, CsvControlStartRedirectFile, CsvControlStopRedirectFile, PCSV_CONTROL_OP, PCSV_CONTROL_OP enumeration pointer [Files], _CSV_CONTROL_OP, fs.csv_control_op, winioctl/CSV_CONTROL_OP, winioctl/CsvControlMdsPath, winioctl/CsvControlQueryFileRevision, winioctl/CsvControlQueryRedirectState, winioctl/CsvControlStartRedirectFile, winioctl/CsvControlStopRedirectFile, winioctl/PCSV_CONTROL_OP"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CSV_CONTROL_OP, *PCSV_CONTROL_OP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	CSV_CONTROL_OP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CSV_CONTROL_OP enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:medparam._MP_PARAMINFO
+title: "_MP_PARAMINFO"
+author: windows-sdk-content
+description: The MP_PARAMINFO structure contains information about a parameter.
+old-location: dshow\mp_paraminfo.htm
+old-project: DirectShow
+ms.assetid: 91d2d08b-a55e-492f-a509-9c080cc438df
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: MP_PARAMINFO, MP_PARAMINFO structure [DirectShow], MP_PARAMINFOStructure, _MP_PARAMINFO, dshow.mp_paraminfo, medparam/MP_PARAMINFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: medparam.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MP_PARAMINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Medparam.h
+api_name:
+-	MP_PARAMINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MP_PARAMINFO structure

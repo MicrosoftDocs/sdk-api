@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.get_AssessmentDateTime
+title: IProvideWinSATResultsInfo::get_AssessmentDateTime
+author: windows-sdk-content
+description: Retrieves the date and time that the assessment was run.
+old-location: winsat\iprovidewinsatresultsinfo_assessmentdatetime.htm
+old-project: WinSAT
+ms.assetid: c5fcf832-7290-45dc-9c36-7b469dc54a4c
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: AssessmentDateTime property [WinSAT], AssessmentDateTime property [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],AssessmentDateTime property, IProvideWinSATResultsInfo.AssessmentDateTime, IProvideWinSATResultsInfo.get_AssessmentDateTime, IProvideWinSATResultsInfo::AssessmentDateTime, IProvideWinSATResultsInfo::get_AssessmentDateTime, get_AssessmentDateTime, winsat.iprovidewinsatresultsinfo_assessmentdatetime, winsatcominterfacei/IProvideWinSATResultsInfo::AssessmentDateTime, winsatcominterfacei/IProvideWinSATResultsInfo::get_AssessmentDateTime
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winsatcominterfacei.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINSAT_BITMAP_SIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Winsatapi.dll
+api_name:
+-	IProvideWinSATResultsInfo.AssessmentDateTime
+-	IProvideWinSATResultsInfo.get_AssessmentDateTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IProvideWinSATResultsInfo::get_AssessmentDateTime

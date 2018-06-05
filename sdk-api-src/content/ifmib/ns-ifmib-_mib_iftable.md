@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ifmib._MIB_IFTABLE
+title: "_MIB_IFTABLE"
+author: windows-sdk-content
+description: Contains a table of interface entries.
+old-location: mib\mib_iftable.htm
+old-project: MIB
+ms.assetid: 7c3ca3d0-b6fe-4e1c-858f-82ffb26622e7
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIB_IFTABLE, MIB_IFTABLE, MIB_IFTABLE structure [MIB], PMIB_IFTABLE, PMIB_IFTABLE structure pointer [MIB], _MIB_IFTABLE, _mpr_mib_iftable, ifmib/MIB_IFTABLE, ifmib/PMIB_IFTABLE, iprtrmib/MIB_IFTABLE, iprtrmib/PMIB_IFTABLE, mib.mib_iftable, rras.mib_iftable"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ifmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_IFTABLE, *PMIB_IFTABLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ifmib.h
+-	Iprtrmib.h
+api_name:
+-	MIB_IFTABLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MIB_IFTABLE structure

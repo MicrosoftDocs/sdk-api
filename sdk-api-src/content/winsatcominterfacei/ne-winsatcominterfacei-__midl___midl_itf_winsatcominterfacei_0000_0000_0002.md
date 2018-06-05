@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winsatcominterfacei.__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0002
+title: "__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0002"
+author: windows-sdk-content
+description: Defines the possible states of an assessment.
+old-location: winsat\winsat_assessment_state.htm
+old-project: WinSAT
+ms.assetid: 8d2afd18-9764-44d2-b01d-dfefc1506c6a
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WINSAT_ASSESSMENT_STATE, WINSAT_ASSESSMENT_STATE enumeration [WinSAT], WINSAT_ASSESSMENT_STATE_INCOHERENT_WITH_HARDWARE, WINSAT_ASSESSMENT_STATE_INVALID, WINSAT_ASSESSMENT_STATE_MAX, WINSAT_ASSESSMENT_STATE_MIN, WINSAT_ASSESSMENT_STATE_NOT_AVAILABLE, WINSAT_ASSESSMENT_STATE_UNKNOWN, WINSAT_ASSESSMENT_STATE_VALID, __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0002, winsat.winsat_assessment_state, winsatcominterfacei/WINSAT_ASSESSMENT_STATE, winsatcominterfacei/WINSAT_ASSESSMENT_STATE_INCOHERENT_WITH_HARDWARE, winsatcominterfacei/WINSAT_ASSESSMENT_STATE_INVALID, winsatcominterfacei/WINSAT_ASSESSMENT_STATE_MAX, winsatcominterfacei/WINSAT_ASSESSMENT_STATE_MIN, winsatcominterfacei/WINSAT_ASSESSMENT_STATE_NOT_AVAILABLE, winsatcominterfacei/WINSAT_ASSESSMENT_STATE_UNKNOWN, winsatcominterfacei/WINSAT_ASSESSMENT_STATE_VALID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winsatcominterfacei.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINSAT_ASSESSMENT_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsatcominterfacei.h
+api_name:
+-	WINSAT_ASSESSMENT_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0002 enumeration

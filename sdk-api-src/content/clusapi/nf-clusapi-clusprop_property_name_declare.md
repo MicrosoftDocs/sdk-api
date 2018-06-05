@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:clusapi.CLUSPROP_PROPERTY_NAME_DECLARE
+title: CLUSPROP_PROPERTY_NAME_DECLARE macro
+author: windows-sdk-content
+description: Creates a CLUSPROP_PROPERTY_NAME structure with the sz member set to a size determined by the caller.
+old-location: mscs\clusprop_property_name_declare.htm
+old-project: MsCS
+ms.assetid: 8947baed-3a96-4986-94ea-4b275908acdc
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSPROP_PROPERTY_NAME_DECLARE, CLUSPROP_PROPERTY_NAME_DECLARE macro [Failover Cluster], _wolf_clusprop_property_name_declare, clusapi/CLUSPROP_PROPERTY_NAME_DECLARE, mscs.clusprop_property_name_declare
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+api_name:
+-	CLUSPROP_PROPERTY_NAME_DECLARE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSPROP_PROPERTY_NAME_DECLARE macro

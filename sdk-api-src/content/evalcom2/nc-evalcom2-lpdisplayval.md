@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NC:evalcom2.LPDISPLAYVAL
+title: LPDISPLAYVAL
+author: windows-sdk-content
+description: The LPDISPLAYVAL function specification defines a callback function prototype. The IValidate::SetDisplay method enables an authoring tool to receive ICE status messages through the registered callback function.
+old-location: setup\lpdisplayval.htm
+old-project: Msi
+ms.assetid: ff7b2789-a825-4fa4-b00c-a538f37d0eba
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: LPDISPLAYVAL, LPDISPLAYVAL callback, LPDISPLAYVAL callback function, evalcom2/LPDISPLAYVAL, ieError, ieInfo, ieUnknown, ieWarning, setup.lpdisplayval
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: evalcom2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Evalcom2.dll version 3.0.3790.371 or later
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	evalcom2.h
+api_name:
+-	LPDISPLAYVAL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # LPDISPLAYVAL callback function

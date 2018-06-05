@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.CALL_STATE
+title: CALL_STATE
+author: windows-sdk-content
+description: The CALL_STATE enum is used by the ITCallInfo::get_CallState and ITCallStateEvent::get_State methods.
+old-location: tapi3\call_state.htm
+old-project: Tapi
+ms.assetid: d4ed5e99-3abe-4434-9f99-5e98d8c6f3f1
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CALL_STATE, CALL_STATE enumeration [TAPI 2.2], CS_CONNECTED, CS_DISCONNECTED, CS_HOLD, CS_IDLE, CS_INPROGRESS, CS_OFFERING, CS_QUEUED, _tapi3_call_state, tapi3.call_state, tapi3if/CALL_STATE, tapi3if/CS_CONNECTED, tapi3if/CS_DISCONNECTED, tapi3if/CS_HOLD, tapi3if/CS_IDLE, tapi3if/CS_INPROGRESS, tapi3if/CS_OFFERING, tapi3if/CS_QUEUED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CALL_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	CALL_STATE
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # CALL_STATE enumeration

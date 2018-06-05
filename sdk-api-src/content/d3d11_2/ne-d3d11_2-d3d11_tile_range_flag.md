@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d3d11_2.D3D11_TILE_RANGE_FLAG
+title: D3D11_TILE_RANGE_FLAG
+author: windows-sdk-content
+description: Specifies a range of tile mappings to use with ID3D11DeviceContext2::UpdateTiles.
+old-location: direct3d11\d3d11_tile_range_flag.htm
+old-project: direct3d11
+ms.assetid: 3bab77f9-f18b-4b30-a1d8-09409253bfca
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D11_TILE_RANGE_FLAG, D3D11_TILE_RANGE_FLAG enumeration [Direct3D 11], D3D11_TILE_RANGE_NULL, D3D11_TILE_RANGE_REUSE_SINGLE_TILE, D3D11_TILE_RANGE_SKIP, d3d11_2/D3D11_TILE_RANGE_FLAG, d3d11_2/D3D11_TILE_RANGE_NULL, d3d11_2/D3D11_TILE_RANGE_REUSE_SINGLE_TILE, d3d11_2/D3D11_TILE_RANGE_SKIP, direct3d11.d3d11_tile_range_flag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11_2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_TILE_RANGE_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11_2.h
+api_name:
+-	D3D11_TILE_RANGE_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_TILE_RANGE_FLAG enumeration

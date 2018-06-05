@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._SYSTEM_MANDATORY_LABEL_ACE
+title: "_SYSTEM_MANDATORY_LABEL_ACE"
+author: windows-sdk-content
+description: Defines an access control entry (ACE) for the system access control list (SACL) that specifies the mandatory access level and policy for a securable object.
+old-location: security\system_mandatory_label_ace.htm
+old-project: SecAuthZ
+ms.assetid: 77b7716c-b445-4473-a2e3-4a78f9fbebe3
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PSYSTEM_MANDATORY_LABEL_ACE, PSYSTEM_MANDATORY_LABEL_ACE, PSYSTEM_MANDATORY_LABEL_ACE structure pointer [Security], SYSTEM_MANDATORY_LABEL_ACE, SYSTEM_MANDATORY_LABEL_ACE structure [Security], SYSTEM_MANDATORY_LABEL_NO_EXECUTE_UP, SYSTEM_MANDATORY_LABEL_NO_READ_UP, SYSTEM_MANDATORY_LABEL_NO_WRITE_UP, _SYSTEM_MANDATORY_LABEL_ACE, security.system_mandatory_label_ace, winnt/PSYSTEM_MANDATORY_LABEL_ACE, winnt/SYSTEM_MANDATORY_LABEL_ACE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYSTEM_MANDATORY_LABEL_ACE, *PSYSTEM_MANDATORY_LABEL_ACE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	SYSTEM_MANDATORY_LABEL_ACE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SYSTEM_MANDATORY_LABEL_ACE structure

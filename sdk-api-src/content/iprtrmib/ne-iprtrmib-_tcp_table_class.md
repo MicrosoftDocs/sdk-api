@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iprtrmib._TCP_TABLE_CLASS
+title: "_TCP_TABLE_CLASS"
+author: windows-sdk-content
+description: Defines the set of values used to indicate the type of table returned by calls to GetExtendedTcpTable.
+old-location: iphlp\tcp_table_class.htm
+old-project: IpHlp
+ms.assetid: abfaf7e5-7739-4f23-bfb4-09206111599f
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PTCP_TABLE_CLASS, PTCP_TABLE_CLASS, PTCP_TABLE_CLASS enumeration pointer [IP Helper], TCP_TABLE_BASIC_ALL, TCP_TABLE_BASIC_CONNECTIONS, TCP_TABLE_BASIC_LISTENER, TCP_TABLE_CLASS, TCP_TABLE_CLASS enumeration [IP Helper], TCP_TABLE_OWNER_MODULE_ALL, TCP_TABLE_OWNER_MODULE_CONNECTIONS, TCP_TABLE_OWNER_MODULE_LISTENER, TCP_TABLE_OWNER_PID_ALL, TCP_TABLE_OWNER_PID_CONNECTIONS, TCP_TABLE_OWNER_PID_LISTENER, _TCP_TABLE_CLASS, iphlp.tcp_table_class, iphlpapi/PTCP_TABLE_CLASS, iphlpapi/TCP_TABLE_BASIC_ALL, iphlpapi/TCP_TABLE_BASIC_CONNECTIONS, iphlpapi/TCP_TABLE_BASIC_LISTENER, iphlpapi/TCP_TABLE_CLASS, iphlpapi/TCP_TABLE_OWNER_MODULE_ALL, iphlpapi/TCP_TABLE_OWNER_MODULE_CONNECTIONS, iphlpapi/TCP_TABLE_OWNER_MODULE_LISTENER, iphlpapi/TCP_TABLE_OWNER_PID_ALL, iphlpapi/TCP_TABLE_OWNER_PID_CONNECTIONS, iphlpapi/TCP_TABLE_OWNER_PID_LISTENER, iprtrmib/PTCP_TABLE_CLASS, iprtrmib/TCP_TABLE_BASIC_ALL, iprtrmib/TCP_TABLE_BASIC_CONNECTIONS, iprtrmib/TCP_TABLE_BASIC_LISTENER, iprtrmib/TCP_TABLE_CLASS, iprtrmib/TCP_TABLE_OWNER_MODULE_ALL, iprtrmib/TCP_TABLE_OWNER_MODULE_CONNECTIONS, iprtrmib/TCP_TABLE_OWNER_MODULE_LISTENER, iprtrmib/TCP_TABLE_OWNER_PID_ALL, iprtrmib/TCP_TABLE_OWNER_PID_CONNECTIONS, iprtrmib/TCP_TABLE_OWNER_PID_LISTENER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iprtrmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TCP_TABLE_CLASS, *PTCP_TABLE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iprtrmib.h
+-	Iphlpapi.h
+api_name:
+-	TCP_TABLE_CLASS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _TCP_TABLE_CLASS enumeration

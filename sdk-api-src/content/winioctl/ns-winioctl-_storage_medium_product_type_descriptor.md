@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+title: "_STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"
+author: windows-sdk-content
+description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to describe the product type of a storage device.
+old-location: fs\storage_medium_product_type_descriptor.htm
+old-project: FileIO
+ms.assetid: 4845F541-D822-4DD0-8F52-9923B067A4F8
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Files], STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Files], _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, fs.storage_medium_product_type_descriptor, winioctl/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, winioctl/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winioctl.h
+api_name:
+-	STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure

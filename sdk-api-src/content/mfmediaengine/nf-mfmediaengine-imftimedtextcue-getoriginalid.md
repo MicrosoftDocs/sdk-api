@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mfmediaengine.IMFTimedTextCue.GetOriginalId
+title: IMFTimedTextCue::GetOriginalId
+author: windows-sdk-content
+description: Gets the cue identifier that is provided in the text-track data format, if available.
+old-location: mf\imftimedtextcue_getoriginalid.htm
+old-project: medfound
+ms.assetid: D5B94171-AEB0-4A7D-B596-F888B69A436D
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetOriginalId, GetOriginalId method [Media Foundation], GetOriginalId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetOriginalId method, IMFTimedTextCue.GetOriginalId, IMFTimedTextCue::GetOriginalId, mf.imftimedtextcue_getoriginalid, mfmediaengine/IMFTimedTextCue::GetOriginalId
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.dll
+api_name:
+-	IMFTimedTextCue.GetOriginalId
+product: Windows
+targetos: Windows
+req.lib: Mfmediaengine.lib
+req.dll: Mfmediaengine.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFTimedTextCue::GetOriginalId

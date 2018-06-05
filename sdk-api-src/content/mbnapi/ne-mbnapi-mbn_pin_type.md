@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mbnapi.MBN_PIN_TYPE
+title: MBN_PIN_TYPE
+author: windows-sdk-content
+description: The MBN_PIN_TYPE enumerated type indicates the type of password required for unlocking the information stored on the interface.
+old-location: mbn\mbn_pin_type.htm
+old-project: mbn
+ms.assetid: 79791522-cf6b-4dae-a9c2-68e9e2fc394f
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: MBN_PIN_TYPE, MBN_PIN_TYPE enumeration [Microsoft Broadband Networks], MBN_PIN_TYPE_CORPORATE_PIN, MBN_PIN_TYPE_CUSTOM, MBN_PIN_TYPE_DEVICE_FIRST_SIM_PIN, MBN_PIN_TYPE_DEVICE_SIM_PIN, MBN_PIN_TYPE_NETWORK_PIN, MBN_PIN_TYPE_NETWORK_SUBSET_PIN, MBN_PIN_TYPE_NONE, MBN_PIN_TYPE_PIN1, MBN_PIN_TYPE_PIN2, MBN_PIN_TYPE_SUBSIDY_LOCK, MBN_PIN_TYPE_SVC_PROVIDER_PIN, mbn.mbn_pin_type, mbnapi/MBN_PIN_TYPE, mbnapi/MBN_PIN_TYPE_CORPORATE_PIN, mbnapi/MBN_PIN_TYPE_CUSTOM, mbnapi/MBN_PIN_TYPE_DEVICE_FIRST_SIM_PIN, mbnapi/MBN_PIN_TYPE_DEVICE_SIM_PIN, mbnapi/MBN_PIN_TYPE_NETWORK_PIN, mbnapi/MBN_PIN_TYPE_NETWORK_SUBSET_PIN, mbnapi/MBN_PIN_TYPE_NONE, mbnapi/MBN_PIN_TYPE_PIN1, mbnapi/MBN_PIN_TYPE_PIN2, mbnapi/MBN_PIN_TYPE_SUBSIDY_LOCK, mbnapi/MBN_PIN_TYPE_SVC_PROVIDER_PIN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_PIN_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mbnapi.h
+api_name:
+-	MBN_PIN_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MBN_PIN_TYPE enumeration

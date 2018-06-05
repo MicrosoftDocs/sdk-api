@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
+title: "_JOBOBJECT_CPU_RATE_CONTROL_INFORMATION"
+author: windows-sdk-content
+description: Contains CPU rate control information for a job object. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectCpuRateControlInformation information class.
+old-location: base\jobobject_cpu_rate_control_information.htm
+old-project: ProcThread
+ms.assetid: eaa5bda2-a37e-441b-a0e4-e00dff6425b2
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION, JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, JOBOBJECT_CPU_RATE_CONTROL_INFORMATION structure, JOB_OBJECT_ CPU_RATE_CONTROL_MIN_MAX_RATE, JOB_OBJECT_CPU_RATE_CONTROL_ENABLE, JOB_OBJECT_CPU_RATE_CONTROL_HARD_CAP, JOB_OBJECT_CPU_RATE_CONTROL_NOTIFY, JOB_OBJECT_CPU_RATE_CONTROL_WEIGHT_BASED, PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION, PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION structure pointer, _JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, base.jobobject_cpu_rate_control_information, winnt/JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, winnt/PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, *PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _JOBOBJECT_CPU_RATE_CONTROL_INFORMATION structure

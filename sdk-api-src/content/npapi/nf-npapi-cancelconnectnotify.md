@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:npapi.CancelConnectNotify
+title: CancelConnectNotify function
+author: windows-sdk-content
+description: Calls CancelConnectNotify before and after each cancel connection operation (WNetCancelConnection and WNetCancelConnection2).
+old-location: security\cancelconnectnotify.htm
+old-project: SecAuthN
+ms.assetid: 94bd969d-f94d-449c-971d-d17fff2c07e1
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CancelConnectNotify, CancelConnectNotify function [Security], _mnp_cancelconnectnotify, npapi/CancelConnectNotify, security.cancelconnectnotify
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: npapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NOTIFICATION_USER_INPUT_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Npapi.h
+api_name:
+-	CancelConnectNotify
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CancelConnectNotify function

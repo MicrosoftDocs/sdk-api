@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcore.IDockProvider.get_DockPosition
+title: IDockProvider::get_DockPosition
+author: windows-sdk-content
+description: Indicates the current docking position of this element.
+old-location: winauto\uiauto_IDockProvider_DockPosition.htm
+old-project: WinAuto
+ms.assetid: aa170dec-a4e1-48ac-8434-a24b79006653
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: DockPosition property [Windows Accessibility], DockPosition property [Windows Accessibility],IDockProvider interface, IDockProvider interface [Windows Accessibility],DockPosition property, IDockProvider.DockPosition, IDockProvider.get_DockPosition, IDockProvider::DockPosition, IDockProvider::get_DockPosition, get_DockPosition, uiauto.uiauto_IDockProvider_DockPosition, uiauto_IDockProvider_DockPosition, uiautomationcore/IDockProvider::DockPosition, uiautomationcore/IDockProvider::get_DockPosition, winauto.uiauto_IDockProvider_DockPosition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationCore.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uiautomationcore.dll
+api_name:
+-	IDockProvider.DockPosition
+-	IDockProvider.get_DockPosition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IDockProvider::get_DockPosition

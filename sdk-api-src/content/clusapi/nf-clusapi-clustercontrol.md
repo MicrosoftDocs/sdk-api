@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:clusapi.ClusterControl
+title: ClusterControl function
+author: windows-sdk-content
+description: Initiates an operation that affects a cluster.
+old-location: mscs\clustercontrol.htm
+old-project: MsCS
+ms.assetid: 7ef06c95-8d9d-4b87-a6d8-d6a2d49523ee
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ClusterControl, ClusterControl function [Failover Cluster], _wolf_clustercontrol, clusapi/ClusterControl, mscs.clustercontrol
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ClusAPI.dll
+-	Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+-	Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+api_name:
+-	ClusterControl
+product: Windows
+targetos: Windows
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 ---
 
 # ClusterControl function

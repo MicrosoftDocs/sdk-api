@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fsrmenums._FsrmFileSystemPropertyId
+title: "_FsrmFileSystemPropertyId"
+author: windows-sdk-content
+description: Defines the possible types of file system property ids.
+old-location: fsrm\fsrmfilesystempropertyid.htm
+old-project: Fsrm
+ms.assetid: 01745ffe-c50b-49a3-909f-6c32af6c656f
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmFileSystemPropertyId, FsrmFileSystemPropertyId enumeration [File Server Resource Manager], FsrmFileSystemPropertyId_DateCreated, FsrmFileSystemPropertyId_DateLastAccessed, FsrmFileSystemPropertyId_DateLastModified, FsrmFileSystemPropertyId_DateNow, FsrmFileSystemPropertyId_FileName, FsrmFileSystemPropertyId_Undefined, _FsrmFileSystemPropertyId, fs.fsrmfilesystempropertyid, fsrm.fsrmfilesystempropertyid, fsrmenums/FsrmFileSystemPropertyId, fsrmenums/FsrmFileSystemPropertyId_DateCreated, fsrmenums/FsrmFileSystemPropertyId_DateLastAccessed, fsrmenums/FsrmFileSystemPropertyId_DateLastModified, fsrmenums/FsrmFileSystemPropertyId_DateNow, fsrmenums/FsrmFileSystemPropertyId_FileName, fsrmenums/FsrmFileSystemPropertyId_Undefined
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fsrmenums.h
+req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FsrmEnums.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmFileSystemPropertyId
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	FsrmEnums.h
+api_name:
+-	FsrmFileSystemPropertyId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _FsrmFileSystemPropertyId enumeration

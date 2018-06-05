@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:cmnquery.OPENQUERYWINDOW
+title: OPENQUERYWINDOW
+author: windows-sdk-content
+description: Used with the ICommonQuery::OpenQueryWindow method to initialize the directory service query dialog box.
+old-location: ad\openquerywindow.htm
+old-project: AD
+ms.assetid: 07ef2af1-230e-41d9-ad19-d002d0579d66
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPOPENQUERYWINDOW, CLSID_DsFindAdvanced, CLSID_DsFindComputer, CLSID_DsFindContainer, CLSID_DsFindDomainController, CLSID_DsFindFrsMembers, CLSID_DsFindObjects, CLSID_DsFindPeople, CLSID_DsFindPrinter, CLSID_DsFindVolume, CLSID_DsFindWriteableDomainController, CLSID_DsQuery, LPOPENQUERYWINDOW, LPOPENQUERYWINDOW structure pointer [Active Directory], OPENQUERYWINDOW, OPENQUERYWINDOW structure [Active Directory], OQWF_DEFAULTFORM, OQWF_HIDEMENUS, OQWF_HIDESEARCHUI, OQWF_ISSUEONOPEN, OQWF_LOADQUERY, OQWF_OKCANCEL, OQWF_PARAMISPROPERTYBAG, OQWF_REMOVEFORMS, OQWF_REMOVESCOPES, OQWF_SAVEQUERYONOK, OQWF_SHOWOPTIONAL, OQWF_SINGLESELECT, _glines_openquerywindow, ad.openquerywindow, cmnquery/LPOPENQUERYWINDOW, cmnquery/OPENQUERYWINDOW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cmnquery.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPENQUERYWINDOW, *LPOPENQUERYWINDOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Cmnquery.h
+api_name:
+-	OPENQUERYWINDOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # OPENQUERYWINDOW structure

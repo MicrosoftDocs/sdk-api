@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509PrivateKey.get_KeyUsage
+title: IX509PrivateKey::get_KeyUsage
+author: windows-sdk-content
+description: Specifies or retrieves a value that identifies the specific purpose for which a private key can be used.
+old-location: security\ix509privatekey_keyusage.htm
+old-project: SecCertEnroll
+ms.assetid: e983c95b-6b3a-4e27-8a23-ef9051b11a16
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IX509PrivateKey interface [Security],KeyUsage property, IX509PrivateKey.KeyUsage, IX509PrivateKey.get_KeyUsage, IX509PrivateKey::KeyUsage, IX509PrivateKey::get_KeyUsage, IX509PrivateKey::put_KeyUsage, KeyUsage property [Security], KeyUsage property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::KeyUsage, certenroll/IX509PrivateKey::get_KeyUsage, certenroll/IX509PrivateKey::put_KeyUsage, get_KeyUsage, security.ix509privatekey_keyusage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509PrivateKey.KeyUsage
+-	IX509PrivateKey.get_KeyUsage
+-	IX509PrivateKey.put_KeyUsage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IX509PrivateKey::get_KeyUsage

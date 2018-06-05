@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:mfcaptureengine.IMFCaptureEngineOnSampleCallback
+title: IMFCaptureEngineOnSampleCallback
+author: windows-sdk-content
+description: Callback interface to receive data from the capture engine.
+old-location: mf\imfcaptureengineonsamplecallback.htm
+old-project: medfound
+ms.assetid: 7C621525-CCD2-45EC-9E7A-3A774B96EA6F
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFCaptureEngineOnSampleCallback, IMFCaptureEngineOnSampleCallback interface [Media Foundation], IMFCaptureEngineOnSampleCallback interface [Media Foundation],described, mf.imfcaptureengineonsamplecallback, mfcaptureengine/IMFCaptureEngineOnSampleCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mfcaptureengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfcaptureengine.h
+api_name:
+-	IMFCaptureEngineOnSampleCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFCaptureEngineOnSampleCallback interface

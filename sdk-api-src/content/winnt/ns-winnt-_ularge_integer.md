@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._ULARGE_INTEGER
+title: "_ULARGE_INTEGER"
+author: windows-sdk-content
+description: Represents a 64-bit unsigned integer value.
+old-location: winprog\ularge_integer_str.htm
+old-project: WinProg
+ms.assetid: 83a10c12-2cd1-449a-af3f-b2138fc50ee0
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PULARGE_INTEGER, PULARGE_INTEGER, PULARGE_INTEGER union pointer [Windows API], ULARGE_INTEGER, ULARGE_INTEGER union [Windows API], _ULARGE_INTEGER, _win32_ularge_integer_str, winnt/PULARGE_INTEGER, winnt/ULARGE_INTEGER, winprog.ularge_integer_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ULARGE_INTEGER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	ULARGE_INTEGER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _ULARGE_INTEGER structure

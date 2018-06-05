@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:winbio.PWINBIO_CAPTURE_CALLBACK
+title: PWINBIO_CAPTURE_CALLBACK
+author: windows-sdk-content
+description: Returns results from the asynchronous WinBioCaptureSampleWithCallback function.
+old-location: secbiomet\pwinbio_capture_callback.htm
+old-project: SecBioMet
+ms.assetid: 7B517246-410C-49B6-9DEE-30E066D8F5C6
+ms.author: windowssdkdev
+ms.date: 04/24/2018
+ms.keywords: PWINBIO_CAPTURE_CALLBACK, PWINBIO_CAPTURE_CALLBACK function, PWINBIO_CAPTURE_CALLBACK function pointer [Windows Biometric Framework API], secbiomet.pwinbio_capture_callback, winbio/PWINBIO_CAPTURE_CALLBACK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: winbio.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Winbio.h
+api_name:
+-	PWINBIO_CAPTURE_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PWINBIO_CAPTURE_CALLBACK callback function

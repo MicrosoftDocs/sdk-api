@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:d3d11_4.ID3D11VideoContext2.VideoProcessorSetStreamHDRMetaData
+title: ID3D11VideoContext2::VideoProcessorSetStreamHDRMetaData
+author: windows-sdk-content
+description: Sets the HDR metadata associated with the video stream.
+old-location: mf\id3d11videocontext2_videoprocessorsetstreamhdrmetadata.htm
+old-project: medfound
+ms.assetid: C76CD8EF-3FBF-48B5-9633-BB65840BE34F
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorSetStreamHDRMetaData method, ID3D11VideoContext2.VideoProcessorSetStreamHDRMetaData, ID3D11VideoContext2::VideoProcessorSetStreamHDRMetaData, VideoProcessorSetStreamHDRMetaData, VideoProcessorSetStreamHDRMetaData method [Media Foundation], VideoProcessorSetStreamHDRMetaData method [Media Foundation],ID3D11VideoContext2 interface, d3d11_4/ID3D11VideoContext2::VideoProcessorSetStreamHDRMetaData, mf.id3d11videocontext2_videoprocessorsetstreamhdrmetadata
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11_4.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_UNORDERED_ACCESS_VIEW_DESC1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d11_4.h
+api_name:
+-	ID3D11VideoContext2.VideoProcessorSetStreamHDRMetaData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11VideoContext2::VideoProcessorSetStreamHDRMetaData

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.ITraceDataProvider.put_FilterData
+title: ITraceDataProvider::put_FilterData
+author: windows-sdk-content
+description: Retrieves or sets arbitrary data that is sent to the trace data provider for filtering purposes.
+old-location: pla\itracedataprovider_filterdata.htm
+old-project: PLA
+ms.assetid: a5b1c141-d820-4435-be1e-93f2ae69d1e1
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: FilterData property [PLA], FilterData property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],FilterData property, ITraceDataProvider.FilterData, ITraceDataProvider.put_FilterData, ITraceDataProvider::FilterData, ITraceDataProvider::get_FilterData, ITraceDataProvider::put_FilterData, base.itracedataprovider_filterdata, pla.itracedataprovider_filterdata, pla/ITraceDataProvider::FilterData, pla/ITraceDataProvider::get_FilterData, pla/ITraceDataProvider::put_FilterData, put_FilterData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	ITraceDataProvider.FilterData
+-	ITraceDataProvider.get_FilterData
+-	ITraceDataProvider.put_FilterData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITraceDataProvider::put_FilterData

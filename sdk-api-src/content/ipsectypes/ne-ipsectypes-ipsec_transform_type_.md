@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ipsectypes.IPSEC_TRANSFORM_TYPE_
+title: IPSEC_TRANSFORM_TYPE_
+author: windows-sdk-content
+description: Indicates the type of an IPsec security association (SA) transform.
+old-location: fwp\ipsec_transform_type_enum.htm
+old-project: FWP
+ms.assetid: 068f17f2-8696-4419-9daa-d8f6486e39a3
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IPSEC_TRANSFORM_AH, IPSEC_TRANSFORM_ESP_AUTH, IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER, IPSEC_TRANSFORM_ESP_AUTH_FW, IPSEC_TRANSFORM_ESP_CIPHER, IPSEC_TRANSFORM_TYPE, IPSEC_TRANSFORM_TYPE enumeration [Filtering], IPSEC_TRANSFORM_TYPE_, IPSEC_TRANSFORM_TYPE_MAX, fwp.ipsec_transform_type_enum, ipsectypes/IPSEC_TRANSFORM_AH, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH_FW, ipsectypes/IPSEC_TRANSFORM_ESP_CIPHER, ipsectypes/IPSEC_TRANSFORM_TYPE, ipsectypes/IPSEC_TRANSFORM_TYPE_MAX
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ipsectypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPSEC_TRANSFORM_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipsectypes.h
+api_name:
+-	IPSEC_TRANSFORM_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IPSEC_TRANSFORM_TYPE_ enumeration

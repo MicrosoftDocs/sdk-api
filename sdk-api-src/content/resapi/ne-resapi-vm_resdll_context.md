@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:resapi.VM_RESDLL_CONTEXT
+title: VM_RESDLL_CONTEXT
+author: windows-sdk-content
+description: Contains actions for a virtual machine to perform.
+old-location: mscs\vm_resdll_context.htm
+old-project: MsCS
+ms.assetid: F01306D5-9D46-4489-AB38-67029EEFE6D0
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PVM_RESDLL_CONTEXT, PVM_RESDLL_CONTEXT, PVM_RESDLL_CONTEXT enumeration pointer [Failover Cluster], VM_RESDLL_CONTEXT, VM_RESDLL_CONTEXT enumeration [Failover Cluster], VmResdllContextLiveMigration, VmResdllContextSave, VmResdllContextShutdown, VmResdllContextShutdownForce, VmResdllContextTurnOff, mscs.vm_resdll_context, resapi/PVM_RESDLL_CONTEXT, resapi/VM_RESDLL_CONTEXT, resapi/VmResdllContextLiveMigration, resapi/VmResdllContextSave, resapi/VmResdllContextShutdown, resapi/VmResdllContextShutdownForce, resapi/VmResdllContextTurnOff"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: resapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VM_RESDLL_CONTEXT, *PVM_RESDLL_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ResApi.h
+api_name:
+-	VM_RESDLL_CONTEXT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VM_RESDLL_CONTEXT enumeration

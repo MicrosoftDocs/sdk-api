@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:batclass._BATTERY_TAG_CHANGE
+title: "_BATTERY_TAG_CHANGE"
+author: windows-sdk-content
+description: This structure is reserved for system use.
+old-location: battery\battery_tag_change.htm
+old-project: battery
+ms.assetid: FF3E14E4-5521-42F9-BC60-39128A93814F
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PBATTERY_TAG_CHANGE, BATTERY_TAG_CHANGE, BATTERY_TAG_CHANGE structure [Battery Devices], PBATTERY_TAG_CHANGE, PBATTERY_TAG_CHANGE structure pointer [Battery Devices], _BATTERY_TAG_CHANGE, batclass/BATTERY_TAG_CHANGE, batclass/PBATTERY_TAG_CHANGE, battery.battery_tag_change"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: batclass.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BATTERY_TAG_CHANGE, *PBATTERY_TAG_CHANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Batclass.h
+api_name:
+-	BATTERY_TAG_CHANGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BATTERY_TAG_CHANGE structure

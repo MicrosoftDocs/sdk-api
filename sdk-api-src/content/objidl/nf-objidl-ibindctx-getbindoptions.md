@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objidl.IBindCtx.GetBindOptions
+title: IBindCtx::GetBindOptions
+author: windows-sdk-content
+description: Retrieves the binding options stored in this bind context.
+old-location: com\ibindctx_getbindoptions.htm
+old-project: com
+ms.assetid: ccb239ee-922f-4e66-8aca-7651c0243a2b
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetBindOptions, GetBindOptions method [COM], GetBindOptions method [COM],IBindCtx interface, IBindCtx interface [COM],GetBindOptions method, IBindCtx.GetBindOptions, IBindCtx::GetBindOptions, _com_ibindctx_getbindoptions, com.ibindctx_getbindoptions, objidl/IBindCtx::GetBindOptions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IBindCtx.GetBindOptions
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IBindCtx::GetBindOptions

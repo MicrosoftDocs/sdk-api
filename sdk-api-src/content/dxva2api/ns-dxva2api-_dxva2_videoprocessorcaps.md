@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dxva2api._DXVA2_VideoProcessorCaps
+title: "_DXVA2_VideoProcessorCaps"
+author: windows-sdk-content
+description: Describes the capabilities of a DirectX Video Acceleration (DVXA) video processor mode.
+old-location: mf\dxva2_videoprocessorcaps.htm
+old-project: medfound
+ms.assetid: cff01719-e653-4ea1-a177-9a6948b0da56
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DXVA2_DeinterlaceTech_BOBLineReplicate, DXVA2_DeinterlaceTech_BOBVerticalStretch, DXVA2_DeinterlaceTech_BOBVerticalStretch4Tap, DXVA2_DeinterlaceTech_EdgeFiltering, DXVA2_DeinterlaceTech_FieldAdaptive, DXVA2_DeinterlaceTech_InverseTelecine, DXVA2_DeinterlaceTech_MedianFiltering, DXVA2_DeinterlaceTech_MotionVectorSteered, DXVA2_DeinterlaceTech_PixelAdaptive, DXVA2_DeinterlaceTech_Unknown, DXVA2_DetailFilterTech_Edge, DXVA2_DetailFilterTech_Sharpening, DXVA2_DetailFilterTech_Unknown, DXVA2_DetailFilterTech_Unsupported, DXVA2_NoiseFilterTech_BlockNoise, DXVA2_NoiseFilterTech_Median, DXVA2_NoiseFilterTech_MosquitoNoise, DXVA2_NoiseFilterTech_Temporal, DXVA2_NoiseFilterTech_Unknown, DXVA2_NoiseFilterTech_Unsupported, DXVA2_VPDev_EmulatedDXVA1, DXVA2_VPDev_HardwareDevice, DXVA2_VPDev_SoftwareDevice, DXVA2_VideoProcess_AlphaBlend, DXVA2_VideoProcess_AlphaBlendExtended, DXVA2_VideoProcess_Constriction, DXVA2_VideoProcess_DetailFilter, DXVA2_VideoProcess_GammaCompensated, DXVA2_VideoProcess_LinearScaling, DXVA2_VideoProcess_MaintainsOriginalFieldData, DXVA2_VideoProcess_NoiseFilter, DXVA2_VideoProcess_PlanarAlpha, DXVA2_VideoProcess_StretchX, DXVA2_VideoProcess_StretchY, DXVA2_VideoProcess_SubRects, DXVA2_VideoProcess_SubStreams, DXVA2_VideoProcess_SubStreamsExtended, DXVA2_VideoProcess_YUV2RGB, DXVA2_VideoProcess_YUV2RGBExtended, DXVA2_VideoProcessorCaps, DXVA2_VideoProcessorCaps structure [Media Foundation], _DXVA2_VideoProcessorCaps, cff01719-e653-4ea1-a177-9a6948b0da56, dxva2api/DXVA2_VideoProcessorCaps, mf.dxva2_videoprocessorcaps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxva2api.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA2_VideoProcessorCaps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxva2api.h
+api_name:
+-	DXVA2_VideoProcessorCaps
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVA2_VideoProcessorCaps structure

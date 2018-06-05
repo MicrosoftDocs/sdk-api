@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11shader.ID3D11ShaderReflection.GetConstantBufferByName
+title: ID3D11ShaderReflection::GetConstantBufferByName
+author: windows-sdk-content
+description: Get a constant buffer by name.
+old-location: direct3d11\id3d11shaderreflection_getconstantbufferbyname.htm
+old-project: direct3d11
+ms.assetid: 6b0e16c9-f45a-42d0-bd96-32dfa859b35d
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: GetConstantBufferByName, GetConstantBufferByName method [Direct3D 11], GetConstantBufferByName method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetConstantBufferByName method, ID3D11ShaderReflection.GetConstantBufferByName, ID3D11ShaderReflection::GetConstantBufferByName, d3d11shader/ID3D11ShaderReflection::GetConstantBufferByName, d50e9f46-8347-fa35-807d-0bbcf91adf69, direct3d11.id3d11shaderreflection_getconstantbufferbyname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_SHADER_VERSION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3DCompiler_47.dll
+api_name:
+-	ID3D11ShaderReflection.GetConstantBufferByName
+product: Windows
+targetos: Windows
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 ---
 
 # ID3D11ShaderReflection::GetConstantBufferByName

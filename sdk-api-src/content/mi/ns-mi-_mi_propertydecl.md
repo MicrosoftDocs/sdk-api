@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mi._MI_PropertyDecl
+title: "_MI_PropertyDecl"
+author: windows-sdk-content
+description: Represents a class property (element) in a class's declaration.
+old-location: wmi_v2\mi_propertydecl.htm
+old-project: wmi_v2
+ms.assetid: bc5e5c1e-3483-4762-8063-047308dc3652
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: MI_FLAG_KEY, MI_FLAG_PROPERTY, MI_PropertyDecl, MI_PropertyDecl structure [Windows Management Infrastructure (MI)], _MI_PropertyDecl, mi/MI_PropertyDecl, wmi._mi_propertydecl, wmi_v2.mi_propertydecl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MI_PropertyDecl
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_PropertyDecl
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MI_PropertyDecl structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:highlevelmonitorconfigurationapi._MC_GAIN_TYPE
+title: "_MC_GAIN_TYPE"
+author: windows-sdk-content
+description: Specifies whether to get or set a monitor's red, green, or blue gain.
+old-location: monitor\mc_gain_type.htm
+old-project: Monitor
+ms.assetid: 330b7891-bc65-4c78-bb43-f8fcd2a6b1c3
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: MC_BLUE_GAIN, MC_GAIN_TYPE, MC_GAIN_TYPE , MC_GAIN_TYPE enumeration [Monitor Configuration], MC_GREEN_GAIN, MC_RED_GAIN, _MC_GAIN_TYPE, highlevelmonitorconfigurationapi/MC_BLUE_GAIN, highlevelmonitorconfigurationapi/MC_GAIN_TYPE, highlevelmonitorconfigurationapi/MC_GREEN_GAIN, highlevelmonitorconfigurationapi/MC_RED_GAIN, monitor.mc_gain_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: highlevelmonitorconfigurationapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MC_GAIN_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	HighLevelMonitorConfigurationAPI.h
+api_name:
+-	MC_GAIN_TYPE
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MC_GAIN_TYPE enumeration

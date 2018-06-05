@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bits.IBackgroundCopyJob.GetProgress
+title: IBackgroundCopyJob::GetProgress
+author: windows-sdk-content
+description: Retrieves job-related progress information, such as the number of bytes and files transferred.
+old-location: bits\ibackgroundcopyjob_getprogress.htm
+old-project: Bits
+ms.assetid: 30aae990-1cc1-468b-9e5f-7ef5ce6eeb9a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetProgress method, IBackgroundCopyJob.GetProgress, IBackgroundCopyJob::GetProgress, _drz_ibackgroundcopyjob_getprogress, bits.ibackgroundcopyjob_getprogress, bits/IBackgroundCopyJob::GetProgress
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_PROXY_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	QmgrPrxy.dll
+api_name:
+-	IBackgroundCopyJob.GetProgress
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 ---
 
 # IBackgroundCopyJob::GetProgress

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:qnetwork.IAMNetShowConfig.put_UseFixedUDPPort
+title: IAMNetShowConfig::put_UseFixedUDPPort
+author: windows-sdk-content
+description: The put_UseFixedUDPPort method specifies whether to use a fixed UDP port number.
+old-location: dshow\iamnetshowconfig_put_usefixedudpport.htm
+old-project: DirectShow
+ms.assetid: a7b0c118-0479-4f28-8e2f-6c143cde9ff0
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IAMNetShowConfig interface [DirectShow],put_UseFixedUDPPort method, IAMNetShowConfig.put_UseFixedUDPPort, IAMNetShowConfig::put_UseFixedUDPPort, IAMNetShowConfigput_UseFixedUDPPort, dshow.iamnetshowconfig_put_usefixedudpport, put_UseFixedUDPPort, put_UseFixedUDPPort method [DirectShow], put_UseFixedUDPPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_UseFixedUDPPort
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: qnetwork.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMExtendedSeekingCapabilities
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Qnetwork.h
+api_name:
+-	IAMNetShowConfig.put_UseFixedUDPPort
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAMNetShowConfig::put_UseFixedUDPPort

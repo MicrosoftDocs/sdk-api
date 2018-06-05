@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:tapi3if.ITTAPIObjectEvent
+title: ITTAPIObjectEvent
+author: windows-sdk-content
+description: The ITTAPIObjectEvent interface contains methods that retrieve the description of TAPI object events.
+old-location: tapi3\ittapiobjectevent.htm
+old-project: Tapi
+ms.assetid: 73be7109-0d3a-4ac5-adb7-e1577d8640b5
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITTAPIObjectEvent, ITTAPIObjectEvent interface [TAPI 2.2], ITTAPIObjectEvent interface [TAPI 2.2],described, _tapi3_ittapiobjectevent, tapi3.ittapiobjectevent, tapi3if/ITTAPIObjectEvent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITTAPIObjectEvent
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITTAPIObjectEvent interface

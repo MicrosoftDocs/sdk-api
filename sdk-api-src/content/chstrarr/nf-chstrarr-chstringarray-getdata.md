@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:chstrarr.CHStringArray.GetData
+title: CHStringArray::GetData
+author: windows-sdk-content
+description: The GetData method gains direct access to the elements in the array.
+old-location: wmi\chstringarray_getdata.htm
+old-project: WmiSdk
+ms.assetid: b59a0c42-e753-43ff-bf39-279f0a8b9d2b
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CHStringArray interface [Windows Management Instrumentation],GetData method, CHStringArray.GetData, CHStringArray::GetData, GetData, GetData method [Windows Management Instrumentation], GetData method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getdata, chstrarr/CHStringArray::GetData, wmi.chstringarray_getdata
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: chstrarr.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CHStringArray.GetData
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 ---
 
 # CHStringArray::GetData

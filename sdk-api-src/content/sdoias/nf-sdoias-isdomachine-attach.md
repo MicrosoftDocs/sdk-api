@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sdoias.ISdoMachine.Attach
+title: ISdoMachine::Attach
+author: windows-sdk-content
+description: The Attach method attaches to an SDO computer. Attaching to an SDO computer is the first step is using the SDO API to administer that computer.
+old-location: nps\SDO_isdomachine_attach.htm
+old-project: Nps
+ms.assetid: 444ba670-8224-40bc-b0e4-585c682deafd
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: Attach, Attach method [Network Policy Server], Attach method [Network Policy Server],ISdoMachine interface, Attach method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],Attach method, ISdoMachine.Attach, ISdoMachine::Attach, SdoMachine object [Network Policy Server],Attach method, _sdo_isdomachine_attach, nps.SDO_isdomachine_attach, sdo.isdomachine_attach, sdoias/ISdoMachine::Attach
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sdoias.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VENDORPROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Iassdo.dll
+api_name:
+-	ISdoMachine.Attach
+-	SdoMachine.Attach
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISdoMachine::Attach

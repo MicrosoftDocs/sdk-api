@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:msacm.tACMFILTERCHOOSE
+title: tACMFILTERCHOOSE
+author: windows-sdk-content
+description: The ACMFILTERCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio filter selection dialog box.
+old-location: multimedia\acmfilterchoose_struct.htm
+old-project: Multimedia
+ms.assetid: 92ec2a41-e853-4533-b831-43c9d52dc27f
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*LPACMFILTERCHOOSE, *PACMFILTERCHOOSE, ACMFILTERCHOOSE, ACMFILTERCHOOSE structure [Windows Multimedia], ACMFILTERCHOOSE_STYLEF_CONTEXTHELP, ACMFILTERCHOOSE_STYLEF_ENABLEHOOK, ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATE, ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATEHANDLE, ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT, ACMFILTERCHOOSE_STYLEF_SHOWHELP, ACM_FILTERENUMF_DWFILTERTAG, msacm/ACMFILTERCHOOSE, multimedia.acmfilterchoose_COLLISION925, multimedia.acmfilterchoose_struct, tACMFILTERCHOOSE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: msacm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACMFILTERCHOOSE, *PACMFILTERCHOOSE, *LPACMFILTERCHOOSE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msacm.h
+api_name:
+-	ACMFILTERCHOOSE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tACMFILTERCHOOSE structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:ras.RASDIALFUNC
+title: RASDIALFUNC
+author: windows-sdk-content
+description: The RasDialFunc callback function is called by the RasDial function when a change of state occurs during a RAS connection process.
+old-location: rras\rasdialfunc.htm
+old-project: RRAS
+ms.assetid: 668ebede-73ec-4ee9-9b81-7167e827db60
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RasDialFunc, RasDialFunc callback, RasDialFunc callback function [RAS], _ras_rasdialfunc, ras/RasDialFunc, rras.rasdialfunc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ras.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Ras.h
+api_name:
+-	RasDialFunc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RASDIALFUNC callback function

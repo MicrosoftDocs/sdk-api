@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:dbghelp.PFIND_DEBUG_FILE_CALLBACKW
+title: PFIND_DEBUG_FILE_CALLBACKW
+author: windows-sdk-content
+description: An application-defined callback function used with the FindDebugInfoFileEx function. It verifies whether the symbol file located by FindDebugInfoFileEx is the correct symbol file.
+old-location: base\finddebuginfofileproc.htm
+old-project: Debug
+ms.assetid: c7ccc66a-7897-4430-8874-a4ba66a5cce7
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: FindDebugInfoFileProc, FindDebugInfoFileProc callback, FindDebugInfoFileProc callback function, PFIND_DEBUG_FILE_CALLBACK, PFIND_DEBUG_FILE_CALLBACKW, _win32_finddebuginfofileproc, base.finddebuginfofileproc, dbghelp/FindDebugInfoFileProc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	DbgHelp.h
+api_name:
+-	FindDebugInfoFileProc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PFIND_DEBUG_FILE_CALLBACKW callback function

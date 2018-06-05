@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:processthreadsapi.SetProcessAffinityUpdateMode
+title: SetProcessAffinityUpdateMode function
+author: windows-sdk-content
+description: Sets the affinity update mode of the specified process.
+old-location: base\setprocessaffinityupdatemode.htm
+old-project: ProcThread
+ms.assetid: 46e8f7d2-89b9-42cb-9171-d5ae2ec870da
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: PROCESS_AFFINITY_ENABLE_AUTO_UPDATE, SetProcessAffinityUpdateMode, SetProcessAffinityUpdateMode function, base.setprocessaffinityupdatemode, processthreadsapi/SetProcessAffinityUpdateMode, winbase/SetProcessAffinityUpdateMode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: processthreadsapi.h
+req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,30 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSS_VA_SPACE_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+-	KernelBase.dll
+-	MinKernelBase.dll
+-	API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+-	API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+-	api-ms-win-downlevel-kernel32-l1-1-0.dll
+-	API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+-	SetProcessAffinityUpdateMode
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetProcessAffinityUpdateMode function

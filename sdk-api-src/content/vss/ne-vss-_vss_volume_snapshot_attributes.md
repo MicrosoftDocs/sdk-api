@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vss._VSS_VOLUME_SNAPSHOT_ATTRIBUTES
+title: "_VSS_VOLUME_SNAPSHOT_ATTRIBUTES"
+author: windows-sdk-content
+description: Allows additional attributes to be specified for a shadow copy.
+old-location: base\_vss_volume_snapshot_attributes.htm
+old-project: VSS
+ms.assetid: 0326a81e-036c-4548-9e09-29054e51fadd
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PVSS_VOLUME_SNAPSHOT_ATTRIBUTES, PVSS_VOLUME_SNAPSHOT_ATTRIBUTES, PVSS_VOLUME_SNAPSHOT_ATTRIBUTES enumeration pointer [VSS], VSS_VOLSNAP_ATTR_AUTORECOVER, VSS_VOLSNAP_ATTR_CLIENT_ACCESSIBLE, VSS_VOLSNAP_ATTR_DELAYED_POSTSNAPSHOT, VSS_VOLSNAP_ATTR_DIFFERENTIAL, VSS_VOLSNAP_ATTR_EXPOSED_LOCALLY, VSS_VOLSNAP_ATTR_EXPOSED_REMOTELY, VSS_VOLSNAP_ATTR_HARDWARE_ASSISTED, VSS_VOLSNAP_ATTR_IMPORTED, VSS_VOLSNAP_ATTR_NOT_SURFACED, VSS_VOLSNAP_ATTR_NOT_TRANSACTED, VSS_VOLSNAP_ATTR_NO_AUTORECOVERY, VSS_VOLSNAP_ATTR_NO_AUTO_RELEASE, VSS_VOLSNAP_ATTR_NO_WRITERS, VSS_VOLSNAP_ATTR_PERSISTENT, VSS_VOLSNAP_ATTR_PLEX, VSS_VOLSNAP_ATTR_ROLLBACK_RECOVERY, VSS_VOLSNAP_ATTR_TRANSPORTABLE, VSS_VOLSNAP_ATTR_TXF_RECOVERY, VSS_VOLUME_SNAPSHOT_ATTRIBUTES, VSS_VOLUME_SNAPSHOT_ATTRIBUTES enumeration [VSS], _VSS_VOLUME_SNAPSHOT_ATTRIBUTES, _VSS_VOLUME_SNAPSHOT_ATTRIBUTES enumeration [VSS], _win32__vss_volume_snapshot_attributes, base._vss_volume_snapshot_attributes, vss/PVSS_VOLUME_SNAPSHOT_ATTRIBUTES, vss/VSS_VOLSNAP_ATTR_AUTORECOVER, vss/VSS_VOLSNAP_ATTR_CLIENT_ACCESSIBLE, vss/VSS_VOLSNAP_ATTR_DELAYED_POSTSNAPSHOT, vss/VSS_VOLSNAP_ATTR_DIFFERENTIAL, vss/VSS_VOLSNAP_ATTR_EXPOSED_LOCALLY, vss/VSS_VOLSNAP_ATTR_EXPOSED_REMOTELY, vss/VSS_VOLSNAP_ATTR_HARDWARE_ASSISTED, vss/VSS_VOLSNAP_ATTR_IMPORTED, vss/VSS_VOLSNAP_ATTR_NOT_SURFACED, vss/VSS_VOLSNAP_ATTR_NOT_TRANSACTED, vss/VSS_VOLSNAP_ATTR_NO_AUTORECOVERY, vss/VSS_VOLSNAP_ATTR_NO_AUTO_RELEASE, vss/VSS_VOLSNAP_ATTR_NO_WRITERS, vss/VSS_VOLSNAP_ATTR_PERSISTENT, vss/VSS_VOLSNAP_ATTR_PLEX, vss/VSS_VOLSNAP_ATTR_ROLLBACK_RECOVERY, vss/VSS_VOLSNAP_ATTR_TRANSPORTABLE, vss/VSS_VOLSNAP_ATTR_TXF_RECOVERY, vss/_VSS_VOLUME_SNAPSHOT_ATTRIBUTES"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vss.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_VOLUME_SNAPSHOT_ATTRIBUTES, *PVSS_VOLUME_SNAPSHOT_ATTRIBUTES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vss.h
+api_name:
+-	VSS_VOLUME_SNAPSHOT_ATTRIBUTES
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VSS_VOLUME_SNAPSHOT_ATTRIBUTES enumeration

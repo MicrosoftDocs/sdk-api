@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:natupnp.IStaticPortMapping.get_InternalClient
+title: IStaticPortMapping::get_InternalClient
+author: windows-sdk-content
+description: The get_InternalClient method retrieves the name of the internal client for this port mapping.
+old-location: ics\istaticportmapping_get_internalclient.htm
+old-project: ICS
+ms.assetid: 91756e75-1915-4d61-841e-6a6cf1e849eb
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: IStaticPortMapping interface [ICS/ICF],get_InternalClient method, IStaticPortMapping.get_InternalClient, IStaticPortMapping::get_InternalClient, _ics_istaticportmapping_get_internalclient, get_InternalClient, get_InternalClient method [ICS/ICF], get_InternalClient method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_internalclient, natupnp/IStaticPortMapping::get_InternalClient
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: natupnp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SystemHealthAgentState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Hnetcfg.dll
+api_name:
+-	IStaticPortMapping.get_InternalClient
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IStaticPortMapping::get_InternalClient

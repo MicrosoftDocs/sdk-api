@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwrite.DWRITE_LINE_SPACING_METHOD
+title: DWRITE_LINE_SPACING_METHOD
+author: windows-sdk-content
+description: The method used for line spacing in a text layout.
+old-location: directwrite\dwrite_line_spacing_method.htm
+old-project: DirectWrite
+ms.assetid: b75e8fee-ed6c-455d-8733-e6972792572c
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_LINE_SPACING_METHOD, DWRITE_LINE_SPACING_METHOD enumeration [Direct Write], DWRITE_LINE_SPACING_METHOD_DEFAULT, DWRITE_LINE_SPACING_METHOD_PROPORTIONAL, DWRITE_LINE_SPACING_METHOD_UNIFORM, directwrite.dwrite_line_spacing_method, dwrite/DWRITE_LINE_SPACING_METHOD, dwrite/DWRITE_LINE_SPACING_METHOD_DEFAULT, dwrite/DWRITE_LINE_SPACING_METHOD_PROPORTIONAL, dwrite/DWRITE_LINE_SPACING_METHOD_UNIFORM
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite.h
+api_name:
+-	DWRITE_LINE_SPACING_METHOD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_LINE_SPACING_METHOD enumeration

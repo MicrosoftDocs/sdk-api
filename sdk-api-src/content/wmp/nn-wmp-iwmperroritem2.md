@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:wmp.IWMPErrorItem2
+title: IWMPErrorItem2
+author: windows-sdk-content
+description: The IWMPErrorItem2 interface provides a method that supplements the IWMPErrorItem interface.
+old-location: wmp\iwmperroritem2.htm
+old-project: WMP
+ms.assetid: b71d06db-c9bc-44fc-9e23-a16f89c56c1c
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPErrorItem2, IWMPErrorItem2 interface [Windows Media Player], IWMPErrorItem2 interface [Windows Media Player],described, IWMPErrorItem2Interface, wmp.iwmperroritem2, wmp/IWMPErrorItem2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.h
+api_name:
+-	IWMPErrorItem2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPErrorItem2 interface

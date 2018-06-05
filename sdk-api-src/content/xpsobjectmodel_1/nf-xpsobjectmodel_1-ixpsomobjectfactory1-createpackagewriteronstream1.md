@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreatePackageWriterOnStream1
+title: IXpsOMObjectFactory1::CreatePackageWriterOnStream1
+author: windows-sdk-content
+description: Opens a stream for writing the contents of an XPS OM to an XPS package of a specified type.
+old-location: xps\ixpsomobjectfactory1_createpackagewriteronstream1.htm
+old-project: printdocs
+ms.assetid: ce948f17-689a-4430-8152-20fbecaf6ee9
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: CreatePackageWriterOnStream1, CreatePackageWriterOnStream1 method [XPS Documents and Packaging], CreatePackageWriterOnStream1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, FALSE, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePackageWriterOnStream1 method, IXpsOMObjectFactory1.CreatePackageWriterOnStream1, IXpsOMObjectFactory1::CreatePackageWriterOnStream1, TRUE, xps.ixpsomobjectfactory1_createpackagewriteronstream1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageWriterOnStream1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xpsobjectmodel_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XpsObjectModel.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XPS_DOCUMENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	none
+-	none.dll
+api_name:
+-	IXpsOMObjectFactory1.CreatePackageWriterOnStream1
+product: Windows
+targetos: Windows
+req.lib: None
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IXpsOMObjectFactory1::CreatePackageWriterOnStream1

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d12sdklayers.ID3D12Debug2.SetGPUBasedValidationFlags
+title: ID3D12Debug2::SetGPUBasedValidationFlags
+author: windows-sdk-content
+description: This method configures the level of GPU-based validation that the debug device is to perform at runtime.
+old-location: direct3d12\id3d12debug2_setgpubasedvalidationflags.htm
+old-project: direct3d12
+ms.assetid: EA774CC4-7675-46AA-9CDF-56C8B9507702
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: ID3D12Debug2 interface,SetGPUBasedValidationFlags method, ID3D12Debug2.SetGPUBasedValidationFlags, ID3D12Debug2::SetGPUBasedValidationFlags, SetGPUBasedValidationFlags, SetGPUBasedValidationFlags method, SetGPUBasedValidationFlags method,ID3D12Debug2 interface, d3d12sdklayers/ID3D12Debug2::SetGPUBasedValidationFlags, direct3d12.id3d12debug2_setgpubasedvalidationflags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d12sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_RLDO_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12sdklayers.h
+api_name:
+-	ID3D12Debug2.SetGPUBasedValidationFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D12Debug2::SetGPUBasedValidationFlags

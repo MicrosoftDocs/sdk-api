@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.tagLVCOLUMNA
+title: tagLVCOLUMNA
+author: windows-sdk-content
+description: Contains information about a column in report view. This structure is used both for creating and manipulating columns. This structure supersedes the LV_COLUMN structure.
+old-location: controls\LVCOLUMN.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\listview\structures\lvcolumn.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPLVCOLUMNA, LPLVCOLUMN, LPLVCOLUMN structure pointer [Windows Controls], LVCFMT_BITMAP_ON_RIGHT, LVCFMT_CENTER, LVCFMT_COL_HAS_IMAGES, LVCFMT_FIXED_RATIO, LVCFMT_FIXED_WIDTH, LVCFMT_IMAGE, LVCFMT_JUSTIFYMASK, LVCFMT_LEFT, LVCFMT_NO_DPI_SCALE, LVCFMT_RIGHT, LVCFMT_SPLITBUTTON, LVCF_DEFAULTWIDTH, LVCF_FMT, LVCF_IDEALWIDTH, LVCF_IMAGE, LVCF_MINWIDTH, LVCF_ORDER, LVCF_SUBITEM, LVCF_TEXT, LVCF_WIDTH, LVCOLUMN, LVCOLUMN structure [Windows Controls], LVCOLUMNA, LVCOLUMNW, _win32_LVCOLUMN, _win32_LVCOLUMN_cpp, commctrl/LPLVCOLUMN, commctrl/LVCOLUMN, commctrl/LVCOLUMNA, commctrl/LVCOLUMNW, controls.LVCOLUMN, controls._win32_LVCOLUMN, tagLVCOLUMNA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: LVCOLUMNW (Unicode) and LVCOLUMNA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LVCOLUMNA, *LPLVCOLUMNA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	LVCOLUMN
+-	LVCOLUMNA
+-	LVCOLUMNW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagLVCOLUMNA structure

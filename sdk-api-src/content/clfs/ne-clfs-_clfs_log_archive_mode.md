@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clfs._CLFS_LOG_ARCHIVE_MODE
+title: "_CLFS_LOG_ARCHIVE_MODE"
+author: windows-sdk-content
+description: Specifies whether a log is ephemeral.
+old-location: fs\clfs_log_archive_mode.htm
+old-project: Clfs
+ms.assetid: 448d79cd-d959-4585-877e-0f70b44f3172
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PCLFS_LOG_ARCHIVE_MODE, CLFS_LOG_ARCHIVE_MODE, CLFS_LOG_ARCHIVE_MODE enumeration [Files], ClfsLogArchiveDisabled, ClfsLogArchiveEnabled, PCLFS_LOG_ARCHIVE_MODE, PCLFS_LOG_ARCHIVE_MODE enumeration pointer [Files], _CLFS_LOG_ARCHIVE_MODE, clfs/CLFS_LOG_ARCHIVE_MODE, clfs/ClfsLogArchiveDisabled, clfs/ClfsLogArchiveEnabled, clfs/PCLFS_LOG_ARCHIVE_MODE, fs.clfs_log_archive_mode"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clfs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLFS_LOG_ARCHIVE_MODE, *PCLFS_LOG_ARCHIVE_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Clfs.h
+api_name:
+-	CLFS_LOG_ARCHIVE_MODE
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 ---
 
 # _CLFS_LOG_ARCHIVE_MODE enumeration

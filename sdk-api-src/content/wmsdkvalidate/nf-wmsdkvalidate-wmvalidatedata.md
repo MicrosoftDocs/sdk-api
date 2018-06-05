@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmsdkvalidate.WMValidateData
+title: WMValidateData function
+author: windows-sdk-content
+description: The WMValidateData function verifies that data from the beginning of a file is consistent with the header section of a file type that is supported by the Windows Media Format SDK.
+old-location: wmformat\wmvalidatedata.htm
+old-project: wmformat
+ms.assetid: 0bbe4ccc-a052-4bb9-ac6b-31d57ccf3bab
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WMValidateData, WMValidateData function [windows Media Format], wmformat.wmvalidatedata, wmsdkvalidate/WMValidateData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wmsdkvalidate.h
+req.include-header: Wmsdkidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMT_WATERMARK_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wmvcore.dll
+api_name:
+-	WMValidateData
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib
+req.dll: Wmvcore.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WMValidateData function

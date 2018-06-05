@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wbemcli.tag_WBEM_CONNECT_OPTIONS
+title: tag_WBEM_CONNECT_OPTIONS
+author: windows-sdk-content
+description: Contains flags for the IWbemLocator::ConnectServer method.
+old-location: wmi\wbem_connect_options.htm
+old-project: WmiSdk
+ms.assetid: 8D6FA5C1-B10B-48C6-A0E9-8F7D6C07B957
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: WBEM_CONNECT_OPTIONS, WBEM_CONNECT_OPTIONS enumeration [Windows Management Instrumentation], WBEM_FLAG_CONNECT_PROVIDERS, WBEM_FLAG_CONNECT_REPOSITORY_ONLY, WBEM_FLAG_CONNECT_USE_MAX_WAIT, tag_WBEM_CONNECT_OPTIONS, wbemcli/WBEM_CONNECT_OPTIONS, wbemcli/WBEM_FLAG_CONNECT_PROVIDERS, wbemcli/WBEM_FLAG_CONNECT_REPOSITORY_ONLY, wbemcli/WBEM_FLAG_CONNECT_USE_MAX_WAIT, wmi.wbem_connect_options
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wbemcli.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WBEM_CONNECT_OPTIONS
+topic_type:
+-	kbSyntax
+api_type:
+-	<TBD>
+api_location:
+-
+api_name:
+-	WBEM_CONNECT_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tag_WBEM_CONNECT_OPTIONS enumeration

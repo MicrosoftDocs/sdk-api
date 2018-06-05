@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:syncmgr.SYNCMGR_PRESENTER_NEXT_STEP
+title: SYNCMGR_PRESENTER_NEXT_STEP
+author: windows-sdk-content
+description: Describes the next step that is to occur in sync manager conflict resolution. Used by ISyncMgrConflictPresenter.
+old-location: shell\SYNCMGR_PRESENTER_NEXT_STEP.htm
+old-project: shell
+ms.assetid: e24b09e0-38a1-421b-8cf1-74f553cf93e7
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SYNCMGR_PNS_CANCEL, SYNCMGR_PNS_CONTINUE, SYNCMGR_PNS_DEFAULT, SYNCMGR_PRESENTER_NEXT_STEP, SYNCMGR_PRESENTER_NEXT_STEP enumeration [Windows Shell], _shell_SYNCMGR_PRESENTER_NEXT_STEP, shell.SYNCMGR_PRESENTER_NEXT_STEP, syncmgr/SYNCMGR_PNS_CANCEL, syncmgr/SYNCMGR_PNS_CONTINUE, syncmgr/SYNCMGR_PNS_DEFAULT, syncmgr/SYNCMGR_PRESENTER_NEXT_STEP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: syncmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Syncmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGR_PRESENTER_NEXT_STEP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Syncmgr.h
+api_name:
+-	SYNCMGR_PRESENTER_NEXT_STEP
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # SYNCMGR_PRESENTER_NEXT_STEP enumeration

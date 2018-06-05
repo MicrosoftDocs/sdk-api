@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:lowlevelmonitorconfigurationapi._MC_VCP_CODE_TYPE
+title: "_MC_VCP_CODE_TYPE"
+author: windows-sdk-content
+description: Describes a Virtual Control Panel (VCP) code type.
+old-location: monitor\mc_vcp_code_type.htm
+old-project: Monitor
+ms.assetid: 2ccfd6d0-7885-45b7-b44f-edefa320b881
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPMC_VCP_CODE_TYPE, LPMC_VCP_CODE_TYPE, LPMC_VCP_CODE_TYPE enumeration pointer [Monitor Configuration], MC_MOMENTARY, MC_SET_PARAMETER, MC_VCP_CODE_TYPE, MC_VCP_CODE_TYPE , MC_VCP_CODE_TYPE enumeration [Monitor Configuration], _MC_VCP_CODE_TYPE, lowlevelmonitorconfigurationapi/LPMC_VCP_CODE_TYPE, lowlevelmonitorconfigurationapi/MC_MOMENTARY, lowlevelmonitorconfigurationapi/MC_SET_PARAMETER, lowlevelmonitorconfigurationapi/MC_VCP_CODE_TYPE, monitor.mc_vcp_code_type"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: lowlevelmonitorconfigurationapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MC_VCP_CODE_TYPE, *LPMC_VCP_CODE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	LowLevelMonitorConfigurationAPI.h
+api_name:
+-	MC_VCP_CODE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MC_VCP_CODE_TYPE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:qossp._PARAM_BUFFER
+title: "_PARAM_BUFFER"
+author: windows-sdk-content
+description: The PARAM_BUFFER structure describes the format of the parameter buffer that can be included in the CONTROL_SERVICE structure.
+old-location: qos\param_buffer.htm
+old-project: QOS
+ms.assetid: b5078f3b-ab7f-4194-aed7-de5ebb4f7fb8
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPPARAM_BUFFER, *LPPARAM_BUFFER structure [QOS], PARAM_BUFFER, PARAM_BUFFER structure [QOS], _PARAM_BUFFER, qos.param_buffer, qossp/*LPPARAM_BUFFER, qossp/PARAM_BUFFER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: qossp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PARAM_BUFFER, *LPPARAM_BUFFER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Qossp.h
+api_name:
+-	PARAM_BUFFER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PARAM_BUFFER structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_RC2_CBC_PARAMETERS
+title: "_CRYPT_RC2_CBC_PARAMETERS"
+author: windows-sdk-content
+description: Contains information used with szOID_RSA_RC2CBC encryption.
+old-location: security\crypt_rc2_cbc_parameters.htm
+old-project: SecCrypto
+ms.assetid: 58b1dc44-55ea-4c22-a115-dfeaee8a2297
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_RC2_CBC_PARAMETERS, CRYPT_RC2_128BIT_VERSION, CRYPT_RC2_40BIT_VERSION, CRYPT_RC2_56BIT_VERSION, CRYPT_RC2_64BIT_VERSION, CRYPT_RC2_CBC_PARAMETERS, CRYPT_RC2_CBC_PARAMETERS structure [Security], PCRYPT_RC2_CBC_PARAMETERS, PCRYPT_RC2_CBC_PARAMETERS structure pointer [Security], _CRYPT_RC2_CBC_PARAMETERS, _crypto2_crypt_rc2_cbc_parameters, security.crypt_rc2_cbc_parameters, wincrypt/CRYPT_RC2_CBC_PARAMETERS, wincrypt/PCRYPT_RC2_CBC_PARAMETERS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_RC2_CBC_PARAMETERS, *PCRYPT_RC2_CBC_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRYPT_RC2_CBC_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_RC2_CBC_PARAMETERS structure

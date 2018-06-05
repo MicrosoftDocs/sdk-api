@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comppkgsup.RegisterServerForPMP
+title: RegisterServerForPMP function
+author: windows-sdk-content
+description: Registers a COM Server CLSID and a class factory for Protected Media Process (PMP) usage.
+old-location: winprog\registerserverforpmp.htm
+old-project: DevNotes
+ms.assetid: F18A5596-F21E-427B-8281-544DD7CA9E0B
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: RegisterServerForPMP, RegisterServerForPMP function [Windows API], comppkgsup/RegisterServerForPMP, winprog.registerserverforpmp
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: comppkgsup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGELISTDRAWPARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	CompPkgSup.dll
+api_name:
+-	RegisterServerForPMP
+product: Windows
+targetos: Windows
+req.lib: Comppkgsup.lib
+req.dll: CompPkgSup.dll
+req.irql: 
 ---
 
 # RegisterServerForPMP function

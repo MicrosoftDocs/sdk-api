@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj_core.NT_CONSOLE_PROPS
+title: NT_CONSOLE_PROPS
+author: windows-sdk-content
+description: Holds an extra data block used by IShellLinkDataList. It holds console properties.
+old-location: shell\NT_CONSOLE_PROPS_str.htm
+old-project: shell
+ms.assetid: 02542cd4-be8f-45c0-ad0f-e1e39a45f5de
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPNT_CONSOLE_PROPS, LPNT_CONSOLE_PROPS, LPNT_CONSOLE_PROPS structure pointer [Windows Shell], NT_CONSOLE_PROPS, NT_CONSOLE_PROPS structure [Windows Shell], _win32_NT_CONSOLE_PROPS_str, shell.NT_CONSOLE_PROPS_str, shlobj_core/LPNT_CONSOLE_PROPS, shlobj_core/NT_CONSOLE_PROPS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NT_CONSOLE_PROPS, *LPNT_CONSOLE_PROPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	NT_CONSOLE_PROPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # NT_CONSOLE_PROPS structure

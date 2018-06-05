@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msxml6._XHR_AUTH
+title: "_XHR_AUTH"
+author: windows-sdk-content
+description: Specifies whether to allow authentication to be used to connect to a proxy or to connect to the HTTP server.
+old-location: ixhr2\xhr_auth.htm
+old-project: ixhr2
+ms.assetid: 82cc5e27-c669-424d-887d-ba7f5a5c9f02
+ms.author: windowssdkdev
+ms.date: 04/02/2018
+ms.keywords: XHR_AUTH, XHR_AUTH enumeration [XMLHttpRequest2], XHR_AUTH_ALL, XHR_AUTH_NONE, XHR_AUTH_PROXY, _XHR_AUTH, ixhr2.xhr_auth, msxml6/XHR_AUTH, msxml6/XHR_AUTH_ALL, msxml6/XHR_AUTH_NONE, msxml6/XHR_AUTH_PROXY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msxml6.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msxml.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Msxml.tlb
+tech.root: 
+req.typenames: XHR_AUTH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msxml6.h
+api_name:
+-	XHR_AUTH
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msxml.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _XHR_AUTH enumeration

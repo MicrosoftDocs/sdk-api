@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tdh._EVENT_FIELD_TYPE
+title: "_EVENT_FIELD_TYPE"
+author: windows-sdk-content
+description: Defines the provider information to retrieve.
+old-location: etw\event_field_type_enum.htm
+old-project: ETW
+ms.assetid: da525556-e42b-41cb-b954-300f378477e5
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: EVENT_FIELD_TYPE, EVENT_FIELD_TYPE enumeration [ETW], EventChannelInformation, EventInformationMax, EventKeywordInformation, EventLevelInformation, EventOpcodeInformation, EventTaskInformation, _EVENT_FIELD_TYPE, etw.event_field_type_enum, tdh.event_field_type_enum, tdh/EVENT_FIELD_TYPE, tdh/EventChannelInformation, tdh/EventInformationMax, tdh/EventKeywordInformation, tdh/EventLevelInformation, tdh/EventOpcodeInformation, tdh/EventTaskInformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVENT_FIELD_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tdh.h
+api_name:
+-	EVENT_FIELD_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _EVENT_FIELD_TYPE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:virtdisk._QUERY_CHANGES_VIRTUAL_DISK_RANGE
+title: "_QUERY_CHANGES_VIRTUAL_DISK_RANGE"
+author: windows-sdk-content
+description: Identifies an area on a virtual hard disk (VHD) that has changed as tracked by resilient change tracking (RCT).
+old-location: vhd\query_changes_virtual_disk_range.htm
+old-project: VStor
+ms.assetid: 9DA53F46-AE1E-425B-BA50-05DC4A327F75
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PQUERY_CHANGES_VIRTUAL_DISK_RANGE, PQUERY_CHANGES_VIRTUAL_DISK_RANGE, PQUERY_CHANGES_VIRTUAL_DISK_RANGE structure pointer [VHD], QUERY_CHANGES_VIRTUAL_DISK_RANGE, QUERY_CHANGES_VIRTUAL_DISK_RANGE structure [VHD], _QUERY_CHANGES_VIRTUAL_DISK_RANGE, __QUERY_CHANGES_VIRTUAL_DISK_RANGE, vdssys/PQUERY_CHANGES_VIRTUAL_DISK_RANGE, vdssys/QUERY_CHANGES_VIRTUAL_DISK_RANGE, vhd.query_changes_virtual_disk_range, virtdisk/PQUERY_CHANGES_VIRTUAL_DISK_RANGE, virtdisk/QUERY_CHANGES_VIRTUAL_DISK_RANGE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: virtdisk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QUERY_CHANGES_VIRTUAL_DISK_RANGE, *PQUERY_CHANGES_VIRTUAL_DISK_RANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VirtDisk.h
+-	vdssys.h
+api_name:
+-	QUERY_CHANGES_VIRTUAL_DISK_RANGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _QUERY_CHANGES_VIRTUAL_DISK_RANGE structure

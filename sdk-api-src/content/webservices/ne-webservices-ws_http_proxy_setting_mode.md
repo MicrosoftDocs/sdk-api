@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_HTTP_PROXY_SETTING_MODE
+title: WS_HTTP_PROXY_SETTING_MODE
+author: windows-sdk-content
+description: Proxy setting indicates HTTP proxy setting for the channel with binding WS_HTTP_CHANNEL_BINDING. This is specified as part of WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE channel property.
+old-location: wsw\ws_http_proxy_setting_mode.htm
+old-project: wsw
+ms.assetid: 06c2b4e7-59d7-487e-b286-109695124a4d
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_HTTP_PROXY_SETTING_MODE, WS_HTTP_PROXY_SETTING_MODE enumeration [Web Services for Windows], WS_HTTP_PROXY_SETTING_MODE_AUTO, WS_HTTP_PROXY_SETTING_MODE_CUSTOM, WS_HTTP_PROXY_SETTING_MODE_NONE, webservices/WS_HTTP_PROXY_SETTING_MODE, webservices/WS_HTTP_PROXY_SETTING_MODE_AUTO, webservices/WS_HTTP_PROXY_SETTING_MODE_CUSTOM, webservices/WS_HTTP_PROXY_SETTING_MODE_NONE, wsw.ws_http_proxy_setting_mode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_HTTP_PROXY_SETTING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_HTTP_PROXY_SETTING_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_HTTP_PROXY_SETTING_MODE enumeration

@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ctfutb.__MIDL___MIDL_itf_ctfutb_0000_0010_0001
+title: "__MIDL___MIDL_itf_ctfutb_0000_0010_0001"
+author: windows-sdk-content
+description: Elements of the TfLBIClick enumeration specify which mouse button was used to click a toolbar item.
+old-location: tsf\tflbiclick.htm
+old-project: TSF
+ms.assetid: 7fd151dd-e4be-4ec8-b373-2115717d5ef4
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: TF_LBI_CLK_LEFT, TF_LBI_CLK_RIGHT, TfLBIClick, TfLBIClick enumeration [Text Services Framework], __MIDL___MIDL_itf_ctfutb_0000_0010_0001, _tsf_tflbiclick_ref, ctfutb/TF_LBI_CLK_LEFT, ctfutb/TF_LBI_CLK_RIGHT, ctfutb/TfLBIClick, tsf.tflbiclick
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ctfutb.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ctfutb.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TfLBIClick
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ctfutb.h
+api_name:
+-	TfLBIClick
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Sptip.dll
+req.irql: 
 ---
 
 # __MIDL___MIDL_itf_ctfutb_0000_0010_0001 enumeration

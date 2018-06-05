@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:roerrorapi.GetRestrictedErrorInfo
+title: GetRestrictedErrorInfo function
+author: windows-sdk-content
+description: Gets the restricted error information object set by a previous call to SetRestrictedErrorInfo in the current logical thread.
+old-location: winrt\getrestrictederrorinfo.htm
+old-project: WinRT
+ms.assetid: CA459E57-90D5-44F6-A896-4E1C2FA0DC57
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: GetRestrictedErrorInfo, GetRestrictedErrorInfo function [Windows Runtime], roerrorapi/GetRestrictedErrorInfo, winrt.getrestrictederrorinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: roerrorapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	combase.dll
+-	API-MS-Win-Core-Winrt-error-l1-1-0.dll
+-	API-MS-Win-Core-Winrt-error-l1-1-1.dll
+api_name:
+-	GetRestrictedErrorInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Combase.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # GetRestrictedErrorInfo function

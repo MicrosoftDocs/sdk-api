@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:syncmgr.SYNCMGR_HANDLER_TYPE
+title: SYNCMGR_HANDLER_TYPE
+author: windows-sdk-content
+description: Specifies the type of a handler. Used by ISyncMgrHandlerInfo::GetType.
+old-location: shell\SYNCMGR_HANDLER_TYPE.htm
+old-project: shell
+ms.assetid: 993a1d55-32ee-4ea7-823f-a533e9646f1f
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SYNCMGR_HANDLER_TYPE, SYNCMGR_HANDLER_TYPE enumeration [Windows Shell], SYNCMGR_HT_APPLICATION, SYNCMGR_HT_COMPUTER, SYNCMGR_HT_DEVICE, SYNCMGR_HT_FOLDER, SYNCMGR_HT_MAX, SYNCMGR_HT_MIN, SYNCMGR_HT_SERVICE, SYNCMGR_HT_UNSPECIFIED, shell.SYNCMGR_HANDLER_TYPE, shell_SYNCMGR_HANDLER_TYPE, syncmgr/SYNCMGR_HANDLER_TYPE, syncmgr/SYNCMGR_HT_APPLICATION, syncmgr/SYNCMGR_HT_COMPUTER, syncmgr/SYNCMGR_HT_DEVICE, syncmgr/SYNCMGR_HT_FOLDER, syncmgr/SYNCMGR_HT_MAX, syncmgr/SYNCMGR_HT_MIN, syncmgr/SYNCMGR_HT_SERVICE, syncmgr/SYNCMGR_HT_UNSPECIFIED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: syncmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Syncmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGR_HANDLER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Syncmgr.h
+api_name:
+-	SYNCMGR_HANDLER_TYPE
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # SYNCMGR_HANDLER_TYPE enumeration

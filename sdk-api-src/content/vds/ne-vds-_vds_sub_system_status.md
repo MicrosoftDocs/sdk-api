@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_SUB_SYSTEM_STATUS
+title: "_VDS_SUB_SYSTEM_STATUS"
+author: windows-sdk-content
+description: Defines the set of object status values for a subsystem.
+old-location: base\vds_sub_system_status.htm
+old-project: VDS
+ms.assetid: 3393ff1f-df0f-4053-9127-d99196660f4b
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PVDS_SUB_SYSTEM_STATUS, VDS_SSS_FAILED, VDS_SSS_NOT_READY, VDS_SSS_OFFLINE, VDS_SSS_ONLINE, VDS_SSS_PARTIALLY_MANAGED, VDS_SSS_UNKNOWN, VDS_SUB_SYSTEM_STATUS, VDS_SUB_SYSTEM_STATUS enumeration [VDS], _VDS_SUB_SYSTEM_STATUS, base.vds_sub_system_status, vds/VDS_SSS_FAILED, vds/VDS_SSS_NOT_READY, vds/VDS_SSS_OFFLINE, vds/VDS_SSS_ONLINE, vds/VDS_SSS_PARTIALLY_MANAGED, vds/VDS_SSS_UNKNOWN, vds/VDS_SUB_SYSTEM_STATUS, vdshwprv/VDS_SSS_FAILED, vdshwprv/VDS_SSS_NOT_READY, vdshwprv/VDS_SSS_OFFLINE, vdshwprv/VDS_SSS_ONLINE, vdshwprv/VDS_SSS_PARTIALLY_MANAGED, vdshwprv/VDS_SSS_UNKNOWN, vdshwprv/VDS_SUB_SYSTEM_STATUS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_SUB_SYSTEM_STATUS, *PVDS_SUB_SYSTEM_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_SUB_SYSTEM_STATUS
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_SUB_SYSTEM_STATUS enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:lmshare.NetConnectionEnum
+title: NetConnectionEnum function
+author: windows-sdk-content
+description: Lists all connections made to a shared resource on the server or all connections established from a particular computer.
+old-location: fs\netconnectionenum.htm
+old-project: NetShare
+ms.assetid: 935ac6e9-78e0-42ae-a454-0a14b03ddc21
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: 0, 1, NetConnectionEnum, NetConnectionEnum function [Files], _win32_netconnectionenum, fs.netconnectionenum, lmshare/NetConnectionEnum, netmgmt.netconnectionenum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: lmshare.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netapi32.dll
+api_name:
+-	NetConnectionEnum
+product: Windows
+targetos: Windows
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # NetConnectionEnum function

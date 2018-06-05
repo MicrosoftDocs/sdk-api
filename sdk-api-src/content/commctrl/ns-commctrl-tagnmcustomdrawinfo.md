@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.tagNMCUSTOMDRAWINFO
+title: tagNMCUSTOMDRAWINFO
+author: windows-sdk-content
+description: Contains information specific to an NM_CUSTOMDRAW notification code.
+old-location: controls\NMCUSTOMDRAW.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\custdraw\structures\nmcustomdraw.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPNMCUSTOMDRAW, CDDS_ITEM, CDDS_ITEMPOSTERASE, CDDS_ITEMPOSTPAINT, CDDS_ITEMPREERASE, CDDS_ITEMPREPAINT, CDDS_POSTERASE, CDDS_POSTPAINT, CDDS_PREERASE, CDDS_PREPAINT, CDDS_SUBITEM, CDIS_CHECKED, CDIS_DEFAULT, CDIS_DISABLED, CDIS_DROPHILITED, CDIS_FOCUS, CDIS_GRAYED, CDIS_HOT, CDIS_INDETERMINATE, CDIS_MARKED, CDIS_NEARHOT, CDIS_OTHERSIDEHOT, CDIS_SELECTED, CDIS_SHOWKEYBOARDCUES, Global Values:, Item-specific Values:, LPNMCUSTOMDRAW, LPNMCUSTOMDRAW structure pointer [Windows Controls], NMCUSTOMDRAW, NMCUSTOMDRAW structure [Windows Controls], _win32_NMCUSTOMDRAW, _win32_NMCUSTOMDRAW_cpp, commctrl/LPNMCUSTOMDRAW, commctrl/NMCUSTOMDRAW, controls.NMCUSTOMDRAW, controls._win32_NMCUSTOMDRAW, tagNMCUSTOMDRAWINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NMCUSTOMDRAW, *LPNMCUSTOMDRAW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	NMCUSTOMDRAW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagNMCUSTOMDRAWINFO structure

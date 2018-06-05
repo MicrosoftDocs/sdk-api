@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.QueryActCtxSettingsW
+title: QueryActCtxSettingsW function
+author: windows-sdk-content
+description: The QueryActCtxSettingsW function specifies the activation context, and the namespace and name of the attribute that is to be queried.
+old-location: setup\queryactctxsettingsw.htm
+old-project: SbsCs
+ms.assetid: 80e419a5-7b57-488a-90bc-1d38d063b1ee
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: QueryActCtxSettingsW, QueryActCtxSettingsW function [Side-by-side Assemblies], setup.queryactctxsettingsw, winbase/QueryActCtxSettingsW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-sidebyside-l1-1-0.dll
+-	KernelBase.dll
+api_name:
+-	QueryActCtxSettingsW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # QueryActCtxSettingsW function

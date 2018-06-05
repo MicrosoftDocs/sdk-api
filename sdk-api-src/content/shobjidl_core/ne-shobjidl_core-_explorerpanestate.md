@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core._EXPLORERPANESTATE
+title: "_EXPLORERPANESTATE"
+author: windows-sdk-content
+description: Indicate flags used by IExplorerPaneVisibility::GetPaneState to get the current state of the given Windows Explorer pane.
+old-location: shell\EXPLORERPANESTATE.htm
+old-project: shell
+ms.assetid: 4caa2fe7-5bb3-4940-a429-fd32128eea84
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EPS_DEFAULT_OFF, EPS_DEFAULT_ON, EPS_DONTCARE, EPS_FORCE, EPS_INITIALSTATE, EPS_STATEMASK, EXPLORERPANESTATE, EXPLORERPANESTATE enumeration [Windows Shell], _EXPLORERPANESTATE, _shell_EXPLORERPANESTATE, shell.EXPLORERPANESTATE, shobjidl_core/EPS_DEFAULT_OFF, shobjidl_core/EPS_DEFAULT_ON, shobjidl_core/EPS_DONTCARE, shobjidl_core/EPS_FORCE, shobjidl_core/EPS_INITIALSTATE, shobjidl_core/EPS_STATEMASK, shobjidl_core/EXPLORERPANESTATE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	EXPLORERPANESTATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # _EXPLORERPANESTATE enumeration

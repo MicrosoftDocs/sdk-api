@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbtsv.ITsSbGenericNotifySink.OnCompleted
+title: ITsSbGenericNotifySink::OnCompleted
+author: windows-sdk-content
+description: Reports completion to Remote Desktop Connection Broker (RD Connection Broker).
+old-location: termserv\itssbgenericnotifysink_oncompleted.htm
+old-project: TermServ
+ms.assetid: 6d8dd044-988e-4e37-9936-2a3639dedca1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ITsSbGenericNotifySink interface [Remote Desktop Services],OnCompleted method, ITsSbGenericNotifySink.OnCompleted, ITsSbGenericNotifySink::OnCompleted, OnCompleted, OnCompleted method [Remote Desktop Services], OnCompleted method [Remote Desktop Services],ITsSbGenericNotifySink interface, sbtsv/ITsSbGenericNotifySink::OnCompleted, termserv.itssbgenericnotifysink_oncompleted
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbtsv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: SbTsV.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TS_SB_SORT_BY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbtsv.h
+api_name:
+-	ITsSbGenericNotifySink.OnCompleted
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbGenericNotifySink::OnCompleted

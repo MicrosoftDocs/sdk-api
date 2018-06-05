@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mprapi.MprAdminServerSetInfo
+title: MprAdminServerSetInfo function
+author: windows-sdk-content
+description: The MprAdminServerSetInfo function is used to set the number of ports for L2TP, PPTP, and SSTP devices when the RRAS service is running.
+old-location: rras\mpradminserversetinfo.htm
+old-project: RRAS
+ms.assetid: 37187f6f-388e-47d6-83a8-92c2f69f71d9
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: MprAdminServerSetInfo, MprAdminServerSetInfo function [RAS], mprapi/MprAdminServerSetInfo, rras.mpradminserversetinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ROUTER_INTERFACE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Mprapi.dll
+api_name:
+-	MprAdminServerSetInfo
+product: Windows
+targetos: Windows
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MprAdminServerSetInfo function

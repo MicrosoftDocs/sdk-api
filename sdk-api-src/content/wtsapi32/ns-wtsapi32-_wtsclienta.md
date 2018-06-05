@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wtsapi32._WTSCLIENTA
+title: "_WTSCLIENTA"
+author: windows-sdk-content
+description: Contains information about a Remote Desktop Connection (RDC) client.
+old-location: termserv\wtsclient.htm
+old-project: TermServ
+ms.assetid: 864b7560-3f19-4a73-a02b-b82caa88b2de
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PWTSCLIENTA, PWTSCLIENT, PWTSCLIENT structure pointer [Remote Desktop Services], WTSCLIENT, WTSCLIENT structure [Remote Desktop Services], WTSCLIENTA, WTSCLIENTW, _WTSCLIENTA, termserv.wtsclient, wtsapi32/PWTSCLIENT, wtsapi32/WTSCLIENT, wtsapi32/WTSCLIENTA, wtsapi32/WTSCLIENTW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WTSCLIENTW (Unicode) and WTSCLIENTA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTSCLIENTA, *PWTSCLIENTA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsapi32.h
+api_name:
+-	WTSCLIENT
+-	WTSCLIENTA
+-	WTSCLIENTW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTSCLIENTA structure

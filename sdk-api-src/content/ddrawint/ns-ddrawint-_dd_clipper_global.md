@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_CLIPPER_GLOBAL
+title: "_DD_CLIPPER_GLOBAL"
+author: windows-sdk-content
+description: The DD_CLIPPER_GLOBAL structure contains the global DirectDrawClipper data that can be shared between object instances.
+old-location: display\dd_clipper_global.htm
+old-project: display
+ms.assetid: 14dffd72-748c-4087-81ef-215eb009bdea
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_CLIPPER_GLOBAL, DD_CLIPPER_GLOBAL, DD_CLIPPER_GLOBAL structure [Display Devices], _DD_CLIPPER_GLOBAL, ddrawint/DD_CLIPPER_GLOBAL, ddstrcts_62e4fd83-7d6b-488e-aa96-ac6ad24ae4c0.xml, display.dd_clipper_global"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_CLIPPER_GLOBAL, DD_CLIPPER_GLOBAL"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_CLIPPER_GLOBAL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_CLIPPER_GLOBAL structure

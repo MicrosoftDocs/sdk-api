@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dmemmgr._HEAPALIGNMENT
+title: "_HEAPALIGNMENT"
+author: windows-sdk-content
+description: The HEAPALIGNMENT structure contains data specifying the alignment requirements for a given display memory heap.
+old-location: display\heapalignment.htm
+old-project: display
+ms.assetid: 546029c7-c92e-4940-841f-235c7dc50e8e
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPHEAPALIGNMENT, HEAPALIGNMENT, HEAPALIGNMENT structure [Display Devices], _HEAPALIGNMENT, ddstrcts_ec77ce92-8153-4be6-8720-f8070efce79a.xml, display.heapalignment, dmemmgr/HEAPALIGNMENT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dmemmgr.h
+req.include-header: Dmemmgr.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HEAPALIGNMENT, *LPHEAPALIGNMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dmemmgr.h
+api_name:
+-	HEAPALIGNMENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _HEAPALIGNMENT structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mmiscapi.sndOpenSound
+title: sndOpenSound function
+author: windows-sdk-content
+description: Opens the specified sound event.
+old-location: multimedia\sndopensound.htm
+old-project: Multimedia
+ms.assetid: 59871C13-4275-4E69-AFE5-989998C9AB69
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: mmiscapi/sndOpenSound, multimedia.sndopensound, sndOpenSound, sndOpenSound function [Windows Multimedia]
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mmiscapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WAVEFORMAT, *PWAVEFORMAT, *NPWAVEFORMAT, *LPWAVEFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	winmmbse.dll
+-	API-MS-Win-mm-misc-l1-1-1.dll
+-	winmmbase.dll
+api_name:
+-	sndOpenSound
+product: Windows
+targetos: Windows
+req.lib: Winmmbse.lib
+req.dll: Winmmbse.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # sndOpenSound function

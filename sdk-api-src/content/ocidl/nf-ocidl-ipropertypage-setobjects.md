@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ocidl.IPropertyPage.SetObjects
+title: IPropertyPage::SetObjects
+author: windows-sdk-content
+description: Provides the property page with an array of pointers to objects associated with this property page.
+old-location: com\ipropertypage_setobjects.htm
+old-project: com
+ms.assetid: 0d7a73ce-8e3c-40c5-9040-6370df5edc2b
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IPropertyPage interface [COM],SetObjects method, IPropertyPage.SetObjects, IPropertyPage::SetObjects, SetObjects, SetObjects method [COM], SetObjects method [COM],IPropertyPage interface, _ctrl_ipropertypage_setobjects, com.ipropertypage_setobjects, ocidl/IPropertyPage::SetObjects
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ocidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OCIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIEWSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OCIdl.h
+api_name:
+-	IPropertyPage.SetObjects
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyPage::SetObjects

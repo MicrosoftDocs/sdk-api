@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:wmp.IWMPClosedCaption2
+title: IWMPClosedCaption2
+author: windows-sdk-content
+description: The IWMPClosedCaption2 interface provides closed captioning methods that supplement the IWMPClosedCaption interface.
+old-location: wmp\iwmpclosedcaption2.htm
+old-project: WMP
+ms.assetid: 21067ac1-d29e-4f1b-b123-34b24929369a
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPClosedCaption2, IWMPClosedCaption2 interface [Windows Media Player], IWMPClosedCaption2 interface [Windows Media Player],described, IWMPClosedCaption2Interface, wmp.iwmpclosedcaption2, wmp/IWMPClosedCaption2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.h
+api_name:
+-	IWMPClosedCaption2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPClosedCaption2 interface

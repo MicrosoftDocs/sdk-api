@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.INamespaceWalk.Walk
+title: INamespaceWalk::Walk
+author: windows-sdk-content
+description: Initiates a recursive walk of the namespace from the specified root to the given depth.
+old-location: shell\INamespaceWalk_Walk.htm
+old-project: shell
+ms.assetid: cfe328f4-6db5-423b-b944-f0f390359793
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: INamespaceWalk interface [Windows Shell],Walk method, INamespaceWalk.Walk, INamespaceWalk::Walk, NSWF_ACCUMULATE_FOLDERS, NSWF_ANY_IMPLIES_ALL, NSWF_ASYNC, NSWF_DEFAULT, NSWF_DONT_ACCUMULATE_RESULT, NSWF_DONT_RESOLVE_LINKS, NSWF_DONT_SORT, NSWF_DONT_TRAVERSE_LINKS, NSWF_DONT_TRAVERSE_STREAM_JUNCTIONS, NSWF_FILESYSTEM_ONLY, NSWF_FLAG_VIEWORDER, NSWF_IGNORE_AUTOPLAY_HIDA, NSWF_NONE_IMPLIES_ALL, NSWF_ONE_IMPLIES_ALL, NSWF_SHOW_PROGRESS, NSWF_TRAVERSE_STREAM_JUNCTIONS, NSWF_USE_TRANSFER_MEDIUM, Walk, Walk method [Windows Shell], Walk method [Windows Shell],INamespaceWalk interface, _win32_INamespaceWalk_Walk, shell.INamespaceWalk_Walk, shobjidl_core/INamespaceWalk::Walk
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	INamespaceWalk.Walk
+product: Windows
+targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.0 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # INamespaceWalk::Walk

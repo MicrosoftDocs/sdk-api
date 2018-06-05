@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dwrite_3.DWRITE_FONT_PROPERTY_ID
+title: DWRITE_FONT_PROPERTY_ID
+author: windows-sdk-content
+description: Identifies a string in a font.
+old-location: directwrite\dwrite_font_property_id.htm
+old-project: DirectWrite
+ms.assetid: 9743F54F-B661-444F-8579-DE03B0891F9C
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_FONT_PROPERTY_ID, DWRITE_FONT_PROPERTY_ID enumeration [Direct Write], DWRITE_FONT_PROPERTY_ID_DESIGN_SCRIPT_LANGUAGE_TAG, DWRITE_FONT_PROPERTY_ID_FACE_NAME, DWRITE_FONT_PROPERTY_ID_FAMILY_NAME, DWRITE_FONT_PROPERTY_ID_FULL_NAME, DWRITE_FONT_PROPERTY_ID_NONE, DWRITE_FONT_PROPERTY_ID_POSTSCRIPT_NAME, DWRITE_FONT_PROPERTY_ID_PREFERRED_FAMILY_NAME, DWRITE_FONT_PROPERTY_ID_SEMANTIC_TAG, DWRITE_FONT_PROPERTY_ID_STRETCH, DWRITE_FONT_PROPERTY_ID_STYLE, DWRITE_FONT_PROPERTY_ID_SUPPORTED_SCRIPT_LANGUAGE_TAG, DWRITE_FONT_PROPERTY_ID_TOTAL, DWRITE_FONT_PROPERTY_ID_WEIGHT, DWRITE_FONT_PROPERTY_ID_WIN32_FAMILY_NAME, directwrite.dwrite_font_property_id, dwrite_3/DWRITE_FONT_PROPERTY_ID, dwrite_3/DWRITE_FONT_PROPERTY_ID_DESIGN_SCRIPT_LANGUAGE_TAG, dwrite_3/DWRITE_FONT_PROPERTY_ID_FACE_NAME, dwrite_3/DWRITE_FONT_PROPERTY_ID_FAMILY_NAME, dwrite_3/DWRITE_FONT_PROPERTY_ID_FULL_NAME, dwrite_3/DWRITE_FONT_PROPERTY_ID_NONE, dwrite_3/DWRITE_FONT_PROPERTY_ID_POSTSCRIPT_NAME, dwrite_3/DWRITE_FONT_PROPERTY_ID_PREFERRED_FAMILY_NAME, dwrite_3/DWRITE_FONT_PROPERTY_ID_SEMANTIC_TAG, dwrite_3/DWRITE_FONT_PROPERTY_ID_STRETCH, dwrite_3/DWRITE_FONT_PROPERTY_ID_STYLE, dwrite_3/DWRITE_FONT_PROPERTY_ID_SUPPORTED_SCRIPT_LANGUAGE_TAG, dwrite_3/DWRITE_FONT_PROPERTY_ID_TOTAL, dwrite_3/DWRITE_FONT_PROPERTY_ID_WEIGHT, dwrite_3/DWRITE_FONT_PROPERTY_ID_WIN32_FAMILY_NAME
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite_3.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite_3.h
+api_name:
+-	DWRITE_FONT_PROPERTY_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_FONT_PROPERTY_ID enumeration

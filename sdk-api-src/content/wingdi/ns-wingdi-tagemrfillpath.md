@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagEMRFILLPATH
+title: tagEMRFILLPATH
+author: windows-sdk-content
+description: The EMRFILLPATH,&#160;EMRSTROKEANDFILLPATH,&#160; and EMRSTROKEPATH structures contain members for the FillPath, StrokeAndFillPath, and StrokePath enhanced metafile records.
+old-location: gdi\emrfillpath__emrstrokeandfillpath__emrstrokepath.htm
+old-project: gdi
+ms.assetid: 9911e0fb-2e0d-4684-bff6-fc876ab8185d
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PEMRFILLPATH, *PEMRSTROKEANDFILLPATH, *PEMRSTROKEPATH, EMRFILLPATH, EMRFILLPATH structure [Windows GDI], EMRFILLPATH,EMRSTROKEANDFILLPATH,EMRSTROKEPATH, EMRFILLPATH,EMRSTROKEANDFILLPATH,EMRSTROKEPATH structure [Windows GDI], EMRSTROKEANDFILLPATH, EMRSTROKEANDFILLPATH structure [Windows GDI], EMRSTROKEPATH, EMRSTROKEPATH structure [Windows GDI], PEMRFILLPATH, PEMRFILLPATH structure pointer [Windows GDI], PEMRSTROKEANDFILLPATH, PEMRSTROKEANDFILLPATH structure pointer [Windows GDI], PEMRSTROKEPATH, PEMRSTROKEPATH structure pointer [Windows GDI], _win32_EMRFILLPATH_str, gdi.emrfillpath__emrstrokeandfillpath__emrstrokepath, tagEMRFILLPATH, wingdi/EMRFILLPATH,EMRSTROKEANDFILLPATH,EMRSTROKEPATH, wingdi/EMRSTROKEANDFILLPATH, wingdi/EMRSTROKEPATH, wingdi/PEMRFILLPATH, wingdi/PEMRSTROKEANDFILLPATH, wingdi/PEMRSTROKEPATH"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMRFILLPATH, *PEMRFILLPATH, EMRSTROKEANDFILLPATH, *PEMRSTROKEANDFILLPATH, EMRSTROKEPATH, *PEMRSTROKEPATH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	EMRFILLPATH
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagEMRFILLPATH structure

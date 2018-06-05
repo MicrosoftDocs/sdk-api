@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:d3d12.ID3D12Heap
+title: ID3D12Heap
+author: windows-sdk-content
+description: A heap is an abstraction of contiguous memory allocation, used to manage physical memory. This heap can be used with ID3D12Resource objects to support placed resources or reserved resources.
+old-location: direct3d12\id3d12heap.htm
+old-project: direct3d12
+ms.assetid: 3791C64F-76D7-4580-A444-F2CEA3EB10CE
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: ID3D12Heap, ID3D12Heap interface, ID3D12Heap interface,described, d3d12/ID3D12Heap, direct3d12.id3d12heap
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_SHADER_MODEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D12.dll
+api_name:
+-	ID3D12Heap
+product: Windows
+targetos: Windows
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 ---
 
 # ID3D12Heap interface

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ntddkbd._KEYBOARD_UNIT_ID_PARAMETER
+title: "_KEYBOARD_UNIT_ID_PARAMETER"
+author: windows-sdk-content
+description: KEYBOARD_UNIT_ID_PARAMETER specifies the unit ID that Kbdclass assigns to a keyboard.
+old-location: hid\keyboard_unit_id_parameter.htm
+old-project: hid
+ms.assetid: fd47b0ab-b66b-49a0-8302-2c45399d9963
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PKEYBOARD_UNIT_ID_PARAMETER, KEYBOARD_UNIT_ID_PARAMETER, KEYBOARD_UNIT_ID_PARAMETER structure [Human Input Devices], PKEYBOARD_UNIT_ID_PARAMETER, PKEYBOARD_UNIT_ID_PARAMETER structure pointer [Human Input Devices], _KEYBOARD_UNIT_ID_PARAMETER, hid.keyboard_unit_id_parameter, kref_f88d7ada-5e96-4f7d-94e6-dc4196436060.xml, ntddkbd/KEYBOARD_UNIT_ID_PARAMETER, ntddkbd/PKEYBOARD_UNIT_ID_PARAMETER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntddkbd.h
+req.include-header: Ntddkbd.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KEYBOARD_UNIT_ID_PARAMETER, *PKEYBOARD_UNIT_ID_PARAMETER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ntddkbd.h
+api_name:
+-	KEYBOARD_UNIT_ID_PARAMETER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _KEYBOARD_UNIT_ID_PARAMETER structure

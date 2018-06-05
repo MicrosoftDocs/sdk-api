@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:setupapi._SP_DEVINSTALL_PARAMS_A
+title: "_SP_DEVINSTALL_PARAMS_A"
+author: windows-sdk-content
+description: An SP_DEVINSTALL_PARAMS structure contains device installation parameters associated with a particular device information element or associated globally with a device information set.
+old-location: devinst\sp_devinstall_params.htm
+old-project: devinst
+ms.assetid: 1bd21150-f8f4-480d-a4b2-99fa4b4233b9
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PSP_DEVINSTALL_PARAMS_A, PSP_DEVINSTALL_PARAMS, PSP_DEVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DEVINSTALL_PARAMS, SP_DEVINSTALL_PARAMS structure [Device and Driver Installation], SP_DEVINSTALL_PARAMS_A, _SP_DEVINSTALL_PARAMS_A, devinst.sp_devinstall_params, di-struct_ef7906d1-6416-41fc-8844-53f2f594a913.xml, setupapi/PSP_DEVINSTALL_PARAMS, setupapi/SP_DEVINSTALL_PARAMS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SP_DEVINSTALL_PARAMS_A, *PSP_DEVINSTALL_PARAMS_A
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	setupapi.h
+api_name:
+-	SP_DEVINSTALL_PARAMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SP_DEVINSTALL_PARAMS_A structure

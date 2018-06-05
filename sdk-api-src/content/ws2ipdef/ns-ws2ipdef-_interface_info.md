@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ws2ipdef._INTERFACE_INFO
+title: "_INTERFACE_INFO"
+author: windows-sdk-content
+description: The INTERFACE_INFO structure is used in conjunction with the SIO_GET_INTERFACE_LIST ioctl command to obtain information about an interface IP address.
+old-location: winsock\interface_info_2.htm
+old-project: WinSock
+ms.assetid: fe1bf38d-70a7-4f0a-b76a-c0c9443d1782
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPINTERFACE_INFO, IFF_BROADCAST, IFF_LOOPBACK, IFF_MULTICAST, IFF_POINTTOPOINT, IFF_UP, INTERFACE_INFO, INTERFACE_INFO structure [Winsock], INTERFACE_INFO,FAR * LPINTERFACE_INFO, INTERFACE_INFO,FAR * LPINTERFACE_INFO structure [Winsock], _INTERFACE_INFO, _win32_interface_info_2, winsock.interface_info_2, ws2ipdef/INTERFACE_INFO, ws2tcpip/INTERFACE_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ws2ipdef.h
+req.include-header: Ws2tcpip.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wrdsgraphicschannels.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INTERFACE_INFO, *LPINTERFACE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ws2ipdef.h
+-	Ws2tcpip.h
+api_name:
+-	INTERFACE_INFO, FAR * LPINTERFACE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _INTERFACE_INFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:fontsub.CFP_REALLOCPROC
+title: CFP_REALLOCPROC
+author: windows-sdk-content
+description: Client-provided callback function, used by CreateFontPackage and MergeFontPackage to reallocate memory when the size of an allocated buffer needs to change.
+old-location: gdi\cfp_reallocproc.htm
+old-project: gdi
+ms.assetid: 06c45ea3-1776-4f9c-a931-461d0b697535
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CFP_REALLOCPROC, CFP_REALLOCPROC callback, CFP_REALLOCPROC callback function [Windows GDI], _win32_CFP_REALLOCPROC, fontsub/CFP_REALLOCPROC, gdi.cfp_reallocproc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: fontsub.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	FontSub.h
+api_name:
+-	CFP_REALLOCPROC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # CFP_REALLOCPROC callback function

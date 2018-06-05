@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wlanapi._WLAN_HOSTED_NETWORK_STATE_CHANGE
+title: "_WLAN_HOSTED_NETWORK_STATE_CHANGE"
+author: windows-sdk-content
+description: Contains information about a network state change on the wireless Hosted Network.
+old-location: nwifi\wlan_hosted_network_state_change.htm
+old-project: NativeWiFi
+ms.assetid: e05607fd-da1e-49ae-b2eb-3ac4758df84c
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_HOSTED_NETWORK_STATE_CHANGE, PWLAN_HOSTED_NETWORK_STATE_CHANGE, PWLAN_HOSTED_NETWORK_STATE_CHANGE structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_STATE_CHANGE, WLAN_HOSTED_NETWORK_STATE_CHANGE structure [NativeWIFI], _WLAN_HOSTED_NETWORK_STATE_CHANGE, nwifi.wlan_hosted_network_state_change, wlanapi/PWLAN_HOSTED_NETWORK_STATE_CHANGE, wlanapi/WLAN_HOSTED_NETWORK_STATE_CHANGE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wlanapi.h
+req.include-header: Wlanapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_HOSTED_NETWORK_STATE_CHANGE, *PWLAN_HOSTED_NETWORK_STATE_CHANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wlanapi.h
+api_name:
+-	WLAN_HOSTED_NETWORK_STATE_CHANGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_HOSTED_NETWORK_STATE_CHANGE structure

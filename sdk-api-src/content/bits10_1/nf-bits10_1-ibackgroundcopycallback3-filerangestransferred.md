@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bits10_1.IBackgroundCopyCallback3.FileRangesTransferred
+title: IBackgroundCopyCallback3::FileRangesTransferred
+author: windows-sdk-content
+description: BITS calls your implementation of the FileRangesTransferred method when one or more file ranges have been downloaded. File ranges are added to the job using the IBackgroundCopyFile6::RequestFileRanges method.
+old-location: bits\ibackgroundcopycallback3_filerangestransferred.htm
+old-project: Bits
+ms.assetid: F47293D5-E21E-472A-AE62-4781D61D0430
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: FileRangesTransferred, FileRangesTransferred method [BITS], FileRangesTransferred method [BITS],IBackgroundCopyCallback3 interface, IBackgroundCopyCallback3 interface [BITS],FileRangesTransferred method, IBackgroundCopyCallback3.FileRangesTransferred, IBackgroundCopyCallback3::FileRangesTransferred, bits.ibackgroundcopycallback3_filerangestransferred, bits10_1/IBackgroundCopyCallback3::FileRangesTransferred
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bits10_1.h
+req.include-header: Bits.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits10_0.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_TIMES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Bits.lib
+-	Bits.dll
+api_name:
+-	IBackgroundCopyCallback3.FileRangesTransferred
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 ---
 
 # IBackgroundCopyCallback3::FileRangesTransferred

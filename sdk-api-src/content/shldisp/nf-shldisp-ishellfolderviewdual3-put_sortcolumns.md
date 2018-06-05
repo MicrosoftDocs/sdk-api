@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shldisp.IShellFolderViewDual3.put_SortColumns
+title: IShellFolderViewDual3::put_SortColumns
+author: windows-sdk-content
+description: Sets the names of the columns to be sorted.
+old-location: shell\IShellFolderViewDual3_put_SortColumns.htm
+old-project: shell
+ms.assetid: cd61c44e-1612-48e3-9230-1a3a4667ece6
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IShellFolderViewDual3 interface [Windows Shell],put_SortColumns method, IShellFolderViewDual3.put_SortColumns, IShellFolderViewDual3::put_SortColumns, _shell_IShellFolderViewDual3_put_SortColumns, put_SortColumns, put_SortColumns method [Windows Shell], put_SortColumns method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_put_SortColumns, shldisp/IShellFolderViewDual3::put_SortColumns
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shldisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shldisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETEOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shldisp.h
+api_name:
+-	IShellFolderViewDual3.put_SortColumns
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # IShellFolderViewDual3::put_SortColumns

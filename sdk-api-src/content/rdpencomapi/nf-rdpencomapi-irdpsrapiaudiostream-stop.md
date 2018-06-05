@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rdpencomapi.IRDPSRAPIAudioStream.Stop
+title: IRDPSRAPIAudioStream::Stop
+author: windows-sdk-content
+description: Stops the audio stream.
+old-location: rdp\irdpsrapiaudiostream_stop.htm
+old-project: Rdp
+ms.assetid: D2F6264D-3855-4AF8-B295-59D51B90FD94
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: IRDPSRAPIAudioStream interface [RDP],Stop method, IRDPSRAPIAudioStream.Stop, IRDPSRAPIAudioStream::Stop, Stop, Stop method [RDP], Stop method [RDP],IRDPSRAPIAudioStream interface, rdp.irdpsrapiaudiostream_stop, rdpencomapi/IRDPSRAPIAudioStream::Stop
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RdpEncomAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: RdpEncomAPI.tlb
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RdpEncom.dll
+api_name:
+-	IRDPSRAPIAudioStream.Stop
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRDPSRAPIAudioStream::Stop

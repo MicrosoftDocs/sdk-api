@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleacc.AccessibleObjectFromEvent
+title: AccessibleObjectFromEvent function
+author: windows-sdk-content
+description: Retrieves the address of the IAccessible interface for the object that generated the event that is currently being processed by the client's event hook function.
+old-location: winauto\accessibleobjectfromevent.htm
+old-project: WinAuto
+ms.assetid: d453c163-3918-4a1c-9636-16816227a295
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: AccessibleObjectFromEvent, AccessibleObjectFromEvent function [Windows Accessibility], _msaa_AccessibleObjectFromEvent, msaa.accessibleobjectfromevent, oleacc/AccessibleObjectFromEvent, winauto.accessibleobjectfromevent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: oleacc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Oleacc.dll
+api_name:
+-	AccessibleObjectFromEvent
+product: Windows
+targetos: Windows
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # AccessibleObjectFromEvent function

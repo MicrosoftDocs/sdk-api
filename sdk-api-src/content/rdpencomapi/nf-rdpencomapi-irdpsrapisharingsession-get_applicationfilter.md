@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_ApplicationFilter
+title: IRDPSRAPISharingSession::get_ApplicationFilter
+author: windows-sdk-content
+description: Returns an object implementing the IRDPSRAPIApplicationFilter interface.
+old-location: rdp\irdpsrapisharingsession_applicationfilter.htm
+old-project: Rdp
+ms.assetid: 4a346305-972c-40c4-882e-905745edf6e9
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: ApplicationFilter property [RDP], ApplicationFilter property [RDP],IRDPSRAPISharingSession interface, ApplicationFilter property [RDP],IRDPSRAPISharingSession2 interface, ApplicationFilter property [RDP],RDPSession object, IRDPSRAPISharingSession interface [RDP],ApplicationFilter property, IRDPSRAPISharingSession.ApplicationFilter, IRDPSRAPISharingSession.get_ApplicationFilter, IRDPSRAPISharingSession2 interface [RDP],ApplicationFilter property, IRDPSRAPISharingSession2.ApplicationFilter, IRDPSRAPISharingSession2::ApplicationFilter, IRDPSRAPISharingSession2::get_ApplicationFilter, IRDPSRAPISharingSession::get_ApplicationFilter, RDPSession object [RDP],ApplicationFilter property, get_ApplicationFilter, rdp.irdpsrapisharingsession_applicationfilter, rdpencomapi/IRDPSRAPISharingSession2::ApplicationFilter, rdpencomapi/IRDPSRAPISharingSession2::get_ApplicationFilter, rdpencomapi/IRDPSRAPISharingSession::ApplicationFilter, rdpencomapi/IRDPSRAPISharingSession::get_ApplicationFilter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RdpEncomAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: RdpEncomAPI.tlb
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RdpEncom.dll
+api_name:
+-	IRDPSRAPISharingSession2.ApplicationFilter
+-	IRDPSRAPISharingSession2.get_ApplicationFilter
+-	IRDPSRAPISharingSession.ApplicationFilter
+-	IRDPSRAPISharingSession.get_ApplicationFilter
+-	RDPSession.ApplicationFilter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRDPSRAPISharingSession::get_ApplicationFilter

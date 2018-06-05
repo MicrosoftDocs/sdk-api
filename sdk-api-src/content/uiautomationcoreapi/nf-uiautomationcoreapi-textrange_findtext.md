@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcoreapi.TextRange_FindText
+title: TextRange_FindText function
+author: windows-sdk-content
+description: Returns the first text range in the specified direction that contains the text the client is searching for.
+old-location: winauto\uiauto_TextRange_FindTextConPat.htm
+old-project: WinAuto
+ms.assetid: 24303a97-e8ad-4261-bff8-575980cf3c3d
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: TextRange_FindText, TextRange_FindText function [Windows Accessibility], uiauto.uiauto_TextRange_FindTextConPat, uiauto_TextRange_FindTextConPat, uiautomationcoreapi/TextRange_FindText, winauto.uiauto_TextRange_FindTextConPat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: uiautomationcoreapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Uiautomationcore.dll
+api_name:
+-	TextRange_FindText
+product: Windows
+targetos: Windows
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TextRange_FindText function

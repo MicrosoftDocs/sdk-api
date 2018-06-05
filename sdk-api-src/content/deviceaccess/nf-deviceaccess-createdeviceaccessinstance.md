@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:deviceaccess.CreateDeviceAccessInstance
+title: CreateDeviceAccessInstance function
+author: windows-sdk-content
+description: Creates the object that's used to access a device. The instantiated object implements the IDeviceIoControl and ICreateDeviceAccessAsync interfaces.
+old-location: deviceaccess\createdeviceaccessinstance.htm
+old-project: deviceaccess
+ms.assetid: 082d6297-20ac-4557-8205-0451482a5758
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: CreateDeviceAccessInstance, CreateDeviceAccessInstance function [Device Access Broker API], deviceaccess.createdeviceaccessinstance, deviceaccess/CreateDeviceAccessInstance
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: deviceaccess.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIDEOMEMORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	deviceaccess.dll
+api_name:
+-	CreateDeviceAccessInstance
+product: Windows
+targetos: Windows
+req.lib: Deviceaccess.lib
+req.dll: Deviceaccess.dll
+req.irql: 
 ---
 
 # CreateDeviceAccessInstance function

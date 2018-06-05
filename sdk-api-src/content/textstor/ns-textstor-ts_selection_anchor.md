@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:textstor.TS_SELECTION_ANCHOR
+title: TS_SELECTION_ANCHOR
+author: windows-sdk-content
+description: The TS_SELECTION_ANCHOR structure contains anchor-based text selection data.
+old-location: tsf\ts_selection_anchor.htm
+old-project: TSF
+ms.assetid: 56fbe145-1972-4b44-a730-17860e428dd0
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: TS_SELECTION_ANCHOR, TS_SELECTION_ANCHOR structure [Text Services Framework], _tsf_ts_selection_anchor_ref, textstor/TS_SELECTION_ANCHOR, tsf.ts_selection_anchor
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: textstor.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Textstor.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TS_SELECTION_ANCHOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Textstor.h
+api_name:
+-	TS_SELECTION_ANCHOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TS_SELECTION_ANCHOR structure

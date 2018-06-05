@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:tuner.IDVBTuningSpace2
+title: IDVBTuningSpace2
+author: windows-sdk-content
+description: The IDVBTuningSpace2 interface is implemented on the DVBTuningSpace object. It provides methods for working with tuning spaces with a network type of DVB.
+old-location: mstv\idvbtuningspace2.htm
+old-project: mstv
+ms.assetid: 01325520-0cb3-46c2-b5a1-f07c5f8d7c7b
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IDVBTuningSpace2, IDVBTuningSpace2 interface [Microsoft TV Technologies], IDVBTuningSpace2 interface [Microsoft TV Technologies],described, IDVBTuningSpace2Interface, mstv.idvbtuningspace2, tuner/IDVBTuningSpace2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tuner.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+api_name:
+-	IDVBTuningSpace2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IDVBTuningSpace2 interface

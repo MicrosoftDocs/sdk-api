@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IShellItem.GetDisplayName
+title: IShellItem::GetDisplayName
+author: windows-sdk-content
+description: Gets the display name of the IShellItem object.
+old-location: shell\IShellItem_GetDisplayName.htm
+old-project: shell
+ms.assetid: 9b159be9-3797-4c8b-90f8-9d3b3a3afb71
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetDisplayName, GetDisplayName method [Windows Shell], GetDisplayName method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],GetDisplayName method, IShellItem.GetDisplayName, IShellItem::GetDisplayName, _win32_IShellItem_GetDisplayName, shell.IShellItem_GetDisplayName, shobjidl_core/IShellItem::GetDisplayName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shlguid.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IShellItem.GetDisplayName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.00 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IShellItem::GetDisplayName

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NC:msi.INSTALLUI_HANDLERW
+title: INSTALLUI_HANDLERW
+author: windows-sdk-content
+description: The INSTALLUI_HANDLER function prototype defines a callback function that the installer calls for progress notification and error messages.
+old-location: setup\installui_handler.htm
+old-project: Msi
+ms.assetid: 76d771d4-12d0-4975-88cc-1921a32a2a09
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: INSTALLMESSAGE_ACTIONDATA, INSTALLMESSAGE_ACTIONSTART, INSTALLMESSAGE_COMMONDATA, INSTALLMESSAGE_ERROR, INSTALLMESSAGE_FATALEXIT, INSTALLMESSAGE_FILESINUSE, INSTALLMESSAGE_INFO, INSTALLMESSAGE_INITIALIZE, INSTALLMESSAGE_INSTALLEND, INSTALLMESSAGE_INSTALLSTART, INSTALLMESSAGE_OUTOFDISKSPACE, INSTALLMESSAGE_PROGRESS, INSTALLMESSAGE_RESOLVESOURCE, INSTALLMESSAGE_RMFILESINUSE, INSTALLMESSAGE_SHOWDIALOG, INSTALLMESSAGE_TERMINATE, INSTALLMESSAGE_USER, INSTALLMESSAGE_WARNING, INSTALLUI_HANDLER callback, INSTALLUI_HANDLERA, INSTALLUI_HANDLERW, InstalluiHandler, InstalluiHandler callback function, MB_ABORTRETRYIGNORE, MB_DEFBUTTON1, MB_DEFBUTTON2, MB_DEFBUTTON3, MB_ICONEXCLAMATION,MB_ICONWARNING, MB_ICONINFORMATION,MB_ICONASTERISK, MB_ICONQUESTION, MB_ICONSTOP,MB_ICONERROR,MB_ICONHAND, MB_OK, MB_OKCANCEL, MB_RETRYCANCEL, MB_YESNO, MB_YESNOCANCEL, _msi_installui_handler, msi/INSTALLUI_HANDLERA, msi/INSTALLUI_HANDLERW, msi/InstalluiHandler, setup.installui_handler
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: msi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: INSTALLUI_HANDLERW (Unicode) and INSTALLUI_HANDLERA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRM_LICENSE_ACQ_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Msi.h
+api_name:
+-	INSTALLUI_HANDLER
+-	INSTALLUI_HANDLERA
+-	INSTALLUI_HANDLERW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INSTALLUI_HANDLERW callback function

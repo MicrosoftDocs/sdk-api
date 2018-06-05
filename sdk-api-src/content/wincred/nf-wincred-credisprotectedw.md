@@ -1,31 +1,53 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincred.CredIsProtectedW
+title: CredIsProtectedW function
+author: windows-sdk-content
+description: Specifies whether the specified credentials are encrypted by a previous call to the CredProtect function.
+old-location: security\credisprotected.htm
+old-project: SecAuthN
+ms.assetid: 3c38ecf5-1288-4a50-ad17-595e9ff4aaca
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CredIsProtected, CredIsProtected function [Security], CredIsProtectedA, CredIsProtectedW, security.credisprotected, wincred/CredIsProtected, wincred/CredIsProtectedA, wincred/CredIsProtectedW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincred.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CredIsProtectedW (Unicode) and CredIsProtectedA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+-	sechost.dll
+-	API-MS-Win-Security-credentials-l1-1-0.dll
+api_name:
+-	CredIsProtected
+-	CredIsProtectedA
+-	CredIsProtectedW
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CredIsProtectedW function

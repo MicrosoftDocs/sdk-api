@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wcmapi.WcmQueryProperty
+title: WcmQueryProperty function
+author: windows-sdk-content
+description: Retrieves the value of a specified WCM property.
+old-location: wcm\wcmqueryproperty.htm
+old-project: wcm
+ms.assetid: 07c0993e-2892-4908-be3f-d24210ccc300
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WcmQueryProperty, WcmQueryProperty function [Windows Connection Manager], wcm.wcmqueryproperty, wcmapi/WcmQueryProperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wcmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WCM_PROPERTY, *PWCM_PROPERTY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wcmapi.dll
+-	Ext-MS-Win-networking-wcmapi-l1-1-0.dll
+api_name:
+-	WcmQueryProperty
+product: Windows
+targetos: Windows
+req.lib: Wcmapi.lib
+req.dll: Wcmapi.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WcmQueryProperty function

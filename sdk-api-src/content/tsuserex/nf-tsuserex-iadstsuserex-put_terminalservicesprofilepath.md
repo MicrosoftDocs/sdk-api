@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tsuserex.IADsTSUserEx.put_TerminalServicesProfilePath
+title: IADsTSUserEx::put_TerminalServicesProfilePath
+author: windows-sdk-content
+description: The roaming or mandatory profile path to be used when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
+old-location: termserv\iadstsuserex_terminalservicesprofilepath.htm
+old-project: TermServ
+ms.assetid: 282c20ab-378d-4205-90d3-6d28b0770adc
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesProfilePath property, IADsTSUserEx.TerminalServicesProfilePath, IADsTSUserEx.put_TerminalServicesProfilePath, IADsTSUserEx::TerminalServicesProfilePath, IADsTSUserEx::get_TerminalServicesProfilePath, IADsTSUserEx::put_TerminalServicesProfilePath, TerminalServicesProfilePath property [Remote Desktop Services], TerminalServicesProfilePath property [Remote Desktop Services],IADsTSUserEx interface, put_TerminalServicesProfilePath, termserv.iadstsuserex_terminalservicesprofilepath, tsuserex/IADsTSUserEx::TerminalServicesProfilePath, tsuserex/IADsTSUserEx::get_TerminalServicesProfilePath, tsuserex/IADsTSUserEx::put_TerminalServicesProfilePath
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tsuserex.h
+req.include-header: Tsuserex.h, Tsuserex_i.c
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,26 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Tsuserex.tlb
+tech.root: 
+req.typenames: WTSSBX_SESSION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tsuserex.dll
+api_name:
+-	IADsTSUserEx.TerminalServicesProfilePath
+-	IADsTSUserEx.get_TerminalServicesProfilePath
+-	IADsTSUserEx.put_TerminalServicesProfilePath
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tsuserex.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IADsTSUserEx::put_TerminalServicesProfilePath

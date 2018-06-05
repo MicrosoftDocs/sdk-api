@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:vsprov.IVssProviderNotifications
+title: IVssProviderNotifications
+author: windows-sdk-content
+description: The IVssProviderNotifications interface manages providers registered with VSS.
+old-location: base\ivssprovidernotifications.htm
+old-project: VSS
+ms.assetid: 09324f54-8902-43d1-a4f9-967adccbf8be
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IVssProviderNotifications, IVssProviderNotifications interface [VSS], IVssProviderNotifications interface [VSS],described, base.ivssprovidernotifications, vsprov/IVssProviderNotifications
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: vsprov.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_MGMT_OBJECT_UNION, *PVSS_MGMT_OBJECT_UNION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VsProv.h
+api_name:
+-	IVssProviderNotifications
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssProviderNotifications interface

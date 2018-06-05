@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vfw.IAVIFile.CreateStream
+title: IAVIFile::CreateStream
+author: windows-sdk-content
+description: The CreateStream method creates a stream for writing. Called when an application uses the AVIFileCreateStream function.
+old-location: multimedia\iavifile_createstream.htm
+old-project: Multimedia
+ms.assetid: 5c922bb0-53ca-4285-861a-4701503b0445
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: CreateStream, CreateStream method [Windows Multimedia], CreateStream method [Windows Multimedia],IAVIFile interface, IAVIFile interface [Windows Multimedia],CreateStream method, IAVIFile.CreateStream, IAVIFile::CreateStream, _win32_IAVIFile_CreateStream, multimedia.iavifile_createstream, vfw/IAVIFile::CreateStream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Vfw32.lib
+-	Vfw32.dll
+api_name:
+-	IAVIFile.CreateStream
+product: Windows
+targetos: Windows
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IAVIFile::CreateStream

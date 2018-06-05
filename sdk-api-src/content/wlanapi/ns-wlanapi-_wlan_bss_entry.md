@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wlanapi._WLAN_BSS_ENTRY
+title: "_WLAN_BSS_ENTRY"
+author: windows-sdk-content
+description: Contains information about a basic service set (BSS).
+old-location: nwifi\wlan_bss_entry.htm
+old-project: NativeWiFi
+ms.assetid: 25a76128-13d9-47dd-9c73-1fbf06a908be
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_BSS_ENTRY, CF Poll Request, CF-Pollable, ESS, IBSS, PWLAN_BSS_ENTRY, PWLAN_BSS_ENTRY structure pointer [NativeWIFI], Privacy, WLAN_BSS_ENTRY, WLAN_BSS_ENTRY structure [NativeWIFI], _WLAN_BSS_ENTRY, dot11_BSS_type_independent, dot11_BSS_type_infrastructure, nwifi.wlan_bss_entry, wlanapi/PWLAN_BSS_ENTRY, wlanapi/WLAN_BSS_ENTRY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_BSS_ENTRY, *PWLAN_BSS_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wlanapi.h
+api_name:
+-	WLAN_BSS_ENTRY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_BSS_ENTRY structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:textstor.ITextStoreACPSink.OnStatusChange
+title: ITextStoreACPSink::OnStatusChange
+author: windows-sdk-content
+description: ITextStoreACPSink::OnStatusChange method
+old-location: tsf\itextstoreacpsink_onstatuschange.htm
+old-project: TSF
+ms.assetid: 44ecc116-e6f3-48dd-9bff-16d3c1e4cc97
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnStatusChange method, ITextStoreACPSink.OnStatusChange, ITextStoreACPSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onstatuschange_ref, textstor/ITextStoreACPSink::OnStatusChange, tsf.itextstoreacpsink_onstatuschange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: textstor.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Textstor.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TsRunType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITextStoreACPSink.OnStatusChange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextStoreACPSink::OnStatusChange

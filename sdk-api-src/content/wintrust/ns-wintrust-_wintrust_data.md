@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wintrust._WINTRUST_DATA
+title: "_WINTRUST_DATA"
+author: windows-sdk-content
+description: Used when calling WinVerifyTrust to pass necessary information into the trust providers.
+old-location: security\wintrust_data.htm
+old-project: SecCrypto
+ms.assetid: 8fb68f44-6f69-4eac-90de-02689e3e86cf
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PWINTRUST_DATA, PWINTRUST_DATA, PWINTRUST_DATA structure pointer [Security], WINTRUST_DATA, WINTRUST_DATA structure [Security], WTD_CACHE_ONLY_URL_RETRIEVAL, WTD_CHOICE_BLOB, WTD_CHOICE_CATALOG, WTD_CHOICE_CERT, WTD_CHOICE_FILE, WTD_CHOICE_SIGNER, WTD_DISABLE_MD2_MD4, WTD_HASH_ONLY_FLAG, WTD_LIFETIME_SIGNING_FLAG, WTD_MOTW, WTD_NO_IE4_CHAIN_FLAG, WTD_NO_POLICY_USAGE_FLAG, WTD_REVOCATION_CHECK_CHAIN, WTD_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, WTD_REVOCATION_CHECK_END_CERT, WTD_REVOCATION_CHECK_NONE, WTD_REVOKE_NONE, WTD_REVOKE_WHOLECHAIN, WTD_SAFER_FLAG, WTD_STATEACTION_AUTO_CACHE, WTD_STATEACTION_AUTO_CACHE_FLUSH, WTD_STATEACTION_CLOSE, WTD_STATEACTION_IGNORE, WTD_STATEACTION_VERIFY, WTD_UICONTEXT_EXECUTE, WTD_UICONTEXT_INSTALL, WTD_UI_ALL, WTD_UI_NOBAD, WTD_UI_NOGOOD, WTD_UI_NONE, WTD_USE_DEFAULT_OSVER_CHECK, WTD_USE_IE4_TRUST_FLAG, _WINTRUST_DATA, _win32_wintrust_data, security.wintrust_data, wintrust/PWINTRUST_DATA, wintrust/WINTRUST_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wintrust.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINTRUST_DATA, *PWINTRUST_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wintrust.h
+api_name:
+-	WINTRUST_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WINTRUST_DATA structure

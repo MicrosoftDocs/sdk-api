@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core.LIBRARYOPTIONFLAGS
+title: LIBRARYOPTIONFLAGS
+author: windows-sdk-content
+description: Specifies the library options.
+old-location: shell\LIBRARYOPTIONFLAGS.htm
+old-project: shell
+ms.assetid: 205c40ff-a4dc-4a57-b51a-1e230fc170dd
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: LIBRARYOPTIONFLAGS, LIBRARYOPTIONFLAGS enumeration [Windows Shell], LOF_DEFAULT, LOF_MASK_ALL, LOF_PINNEDTONAVPANE, _shell_LIBRARYOPTIONFLAGS, shell.LIBRARYOPTIONFLAGS, shobjidl_core/LIBRARYOPTIONFLAGS, shobjidl_core/LOF_DEFAULT, shobjidl_core/LOF_MASK_ALL, shobjidl_core/LOF_PINNEDTONAVPANE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LIBRARYOPTIONFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	LIBRARYOPTIONFLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # LIBRARYOPTIONFLAGS enumeration

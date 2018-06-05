@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._PROCESS_MITIGATION_DEP_POLICY
+title: "_PROCESS_MITIGATION_DEP_POLICY"
+author: windows-sdk-content
+description: Contains process mitigation policy settings for data execution prevention (DEP).
+old-location: base\process_mitigation_dep_policy.htm
+old-project: ProcThread
+ms.assetid: 49f257fe-82e2-41b3-b692-9c88d5896273
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PPROCESS_MITIGATION_DEP_POLICY, PPROCESS_MITIGATION_DEP_POLICY, PPROCESS_MITIGATION_DEP_POLICY structure pointer, PROCESS_MITIGATION_DEP_POLICY, PROCESS_MITIGATION_DEP_POLICY structure, _PROCESS_MITIGATION_DEP_POLICY, base.process_mitigation_dep_policy, winnt/PPROCESS_MITIGATION_DEP_POLICY, winnt/PROCESS_MITIGATION_DEP_POLICY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROCESS_MITIGATION_DEP_POLICY, *PPROCESS_MITIGATION_DEP_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	PROCESS_MITIGATION_DEP_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _PROCESS_MITIGATION_DEP_POLICY structure

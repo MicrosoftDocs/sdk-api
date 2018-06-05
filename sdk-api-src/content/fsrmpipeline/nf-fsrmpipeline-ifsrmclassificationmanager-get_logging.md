@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmClassificationManager.get_Logging
+title: IFsrmClassificationManager::get_Logging
+author: windows-sdk-content
+description: The types of logging to perform when running the classification rules.
+old-location: fsrm\ifsrmclassificationmanager_logging.htm
+old-project: Fsrm
+ms.assetid: c22f646b-36dc-45b8-a9ad-81ce6adab5bf
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmClassificationManager class [File Server Resource Manager],Logging property, IFsrmClassificationManager interface [File Server Resource Manager],Logging property, IFsrmClassificationManager.Logging, IFsrmClassificationManager.get_Logging, IFsrmClassificationManager2 interface [File Server Resource Manager],Logging property, IFsrmClassificationManager2.Logging, IFsrmClassificationManager2::get_Logging, IFsrmClassificationManager2::put_Logging, IFsrmClassificationManager::Logging, IFsrmClassificationManager::get_Logging, IFsrmClassificationManager::put_Logging, Logging property [File Server Resource Manager], Logging property [File Server Resource Manager],FsrmClassificationManager class, Logging property [File Server Resource Manager],IFsrmClassificationManager interface, Logging property [File Server Resource Manager],IFsrmClassificationManager2 interface, fs.ifsrmclassificationmanager_logging, fsrm.ifsrmclassificationmanager_logging, fsrmpipeline/IFsrmClassificationManager2::Logging, fsrmpipeline/IFsrmClassificationManager2::get_Logging, fsrmpipeline/IFsrmClassificationManager2::put_Logging, fsrmpipeline/IFsrmClassificationManager::Logging, fsrmpipeline/IFsrmClassificationManager::get_Logging, fsrmpipeline/IFsrmClassificationManager::put_Logging, get_Logging
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: FsrmPipeline.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,29 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmClassificationManager.Logging
+-	IFsrmClassificationManager.get_Logging
+-	IFsrmClassificationManager.put_Logging
+-	IFsrmClassificationManager2.Logging
+-	IFsrmClassificationManager2.get_Logging
+-	IFsrmClassificationManager2.put_Logging
+-	FsrmClassificationManager.Logging
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmClassificationManager::get_Logging

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfobjects._MFVideoTransferMatrix
+title: "_MFVideoTransferMatrix"
+author: windows-sdk-content
+description: Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'.
+old-location: mf\mfvideotransfermatrix.htm
+old-project: medfound
+ms.assetid: 08a05ee8-b053-4480-b7f9-6d96e541ccd9
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 08a05ee8-b053-4480-b7f9-6d96e541ccd9, MFVideoTransferMatrix, MFVideoTransferMatrix enumeration [Media Foundation], MFVideoTransferMatrix_BT601, MFVideoTransferMatrix_BT709, MFVideoTransferMatrix_ForceDWORD, MFVideoTransferMatrix_Last, MFVideoTransferMatrix_SMPTE240M, MFVideoTransferMatrix_Unknown, _MFVideoTransferMatrix, mf.mfvideotransfermatrix, mfobjects/MFVideoTransferMatrix, mfobjects/MFVideoTransferMatrix_BT601, mfobjects/MFVideoTransferMatrix_BT709, mfobjects/MFVideoTransferMatrix_ForceDWORD, mfobjects/MFVideoTransferMatrix_Last, mfobjects/MFVideoTransferMatrix_SMPTE240M, mfobjects/MFVideoTransferMatrix_Unknown
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoTransferMatrix
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfobjects.h
+api_name:
+-	MFVideoTransferMatrix
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFVideoTransferMatrix enumeration

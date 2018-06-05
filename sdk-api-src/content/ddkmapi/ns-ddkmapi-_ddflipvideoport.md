@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddkmapi._DDFLIPVIDEOPORT
+title: "_DDFLIPVIDEOPORT"
+author: windows-sdk-content
+description: The DDFLIPVIDEOPORT structure contains the information required to flip the hardware video port.
+old-location: display\ddflipvideoport.htm
+old-project: display
+ms.assetid: c30c100c-8c91-44e2-b75b-92ce73d44047
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPDDFLIPVIDEOPORT, DDFLIPVIDEOPORT, DDFLIPVIDEOPORT structure [Display Devices], LPDDFLIPVIDEOPORT, LPDDFLIPVIDEOPORT structure pointer [Display Devices], _DDFLIPVIDEOPORT, ddkmapi/DDFLIPVIDEOPORT, ddkmapi/LPDDFLIPVIDEOPORT, ddstrcts_b6a3e4ea-217b-40d5-a829-c9ca62632a3e.xml, display.ddflipvideoport"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddkmapi.h
+req.include-header: Ddkmapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDFLIPVIDEOPORT, *LPDDFLIPVIDEOPORT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddkmapi.h
+api_name:
+-	DDFLIPVIDEOPORT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDFLIPVIDEOPORT structure

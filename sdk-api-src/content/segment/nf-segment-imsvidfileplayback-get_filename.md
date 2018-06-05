@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:segment.IMSVidFilePlayback.get_FileName
+title: IMSVidFilePlayback::get_FileName
+author: windows-sdk-content
+description: The get_FileName method retrieves the name of the file to play.
+old-location: mstv\imsvidfileplayback_get_filename.htm
+old-project: mstv
+ms.assetid: c8e01204-fb8e-4ebb-97d9-04dda15c491a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMSVidFilePlayback interface [Microsoft TV Technologies],get_FileName method, IMSVidFilePlayback.get_FileName, IMSVidFilePlayback::get_FileName, IMSVidFilePlaybackget_FileName, get_FileName, get_FileName method [Microsoft TV Technologies], get_FileName method [Microsoft TV Technologies],IMSVidFilePlayback interface, mstv.imsvidfileplayback_get_filename, segment/IMSVidFilePlayback::get_FileName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidFilePlayback.get_FileName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidFilePlayback::get_FileName

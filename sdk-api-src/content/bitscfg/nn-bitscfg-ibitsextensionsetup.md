@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:bitscfg.IBITSExtensionSetup
+title: IBITSExtensionSetup
+author: windows-sdk-content
+description: Use the IBITSExtensionSetup interface to enable or disable BITS uploads to a virtual directory.
+old-location: bits\ibitsextensionsetup.htm
+old-project: Bits
+ms.assetid: 840608ef-9c07-43f7-9cfd-20996a18bb50
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IBITSExtensionSetup, IBITSExtensionSetup interface [BITS], IBITSExtensionSetup interface [BITS],described, _drz_ibitsextensionsetup, bits.ibitsextensionsetup, bitscfg/IBITSExtensionSetup
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: bitscfg.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bitscfg.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITS_FILE_PROPERTY_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	BitsMgr.dll
+api_name:
+-	IBITSExtensionSetup
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: BitsMgr.dll
+req.irql: 
 ---
 
 # IBITSExtensionSetup interface

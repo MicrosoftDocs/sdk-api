@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:minidumpapiset._MINIDUMP_UNLOADED_MODULE
+title: "_MINIDUMP_UNLOADED_MODULE"
+author: windows-sdk-content
+description: Contains information about a module that has been unloaded. This information can help diagnose problems calling code that is no longer loaded.
+old-location: base\minidump_unloaded_module_str.htm
+old-project: Debug
+ms.assetid: d2ae58fa-561c-4135-a757-88598ebda57a
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PMINIDUMP_UNLOADED_MODULE, MINIDUMP_UNLOADED_MODULE, MINIDUMP_UNLOADED_MODULE structure, PMINIDUMP_UNLOADED_MODULE, PMINIDUMP_UNLOADED_MODULE structure pointer, _MINIDUMP_UNLOADED_MODULE, _win32_minidump_unloaded_module_str, base.minidump_unloaded_module_str, minidumpapiset/MINIDUMP_UNLOADED_MODULE, minidumpapiset/PMINIDUMP_UNLOADED_MODULE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: minidumpapiset.h
+req.include-header: DbgHelp.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MINIDUMP_UNLOADED_MODULE, *PMINIDUMP_UNLOADED_MODULE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	minidumpapiset.h
+api_name:
+-	MINIDUMP_UNLOADED_MODULE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MINIDUMP_UNLOADED_MODULE structure

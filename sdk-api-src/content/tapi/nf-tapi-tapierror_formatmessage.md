@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi.TAPIERROR_FORMATMESSAGE
+title: TAPIERROR_FORMATMESSAGE macro
+author: windows-sdk-content
+description: The TAPIERROR_FORMATMESSAGE macro generates an identifier for standard TAPI error codes that can be used in the FormatMessage function.
+old-location: tapi2\tapierror_formatmessage.htm
+old-project: Tapi
+ms.assetid: 95817592-467f-438e-ae81-b4c2fff42d1f
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: TAPIERROR_FORMATMESSAGE, TAPIERROR_FORMATMESSAGE macro [TAPI 2.2], _tapi2_tapierror_formatmessage, tapi/TAPIERROR_FORMATMESSAGE, tapi2.tapierror_formatmessage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FLICK_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi.h
+api_name:
+-	TAPIERROR_FORMATMESSAGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TAPIERROR_FORMATMESSAGE macro

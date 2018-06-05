@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsafer._SAFER_CODE_PROPERTIES_V2
+title: "_SAFER_CODE_PROPERTIES_V2"
+author: windows-sdk-content
+description: Contains code image information and criteria to be checked on the code image.
+old-location: security\safer_code_properties.htm
+old-project: SecMgmt
+ms.assetid: 039a37a9-1744-4cff-919e-e0da50d7b291
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSAFER_CODE_PROPERTIES, *PSAFER_CODE_PROPERTIES_V2, PSAFER_CODE_PROPERTIES, PSAFER_CODE_PROPERTIES structure pointer [Security], SAFER_CODE_PROPERTIES, SAFER_CODE_PROPERTIES  [Security] See also,SAFER_CODE_PROPERTIES_V1  [Security], SAFER_CODE_PROPERTIES [Security], SAFER_CODE_PROPERTIES structure [Security], SAFER_CODE_PROPERTIES_V2, SAFER_CODE_PROPERTIES_V2  [Security] See ,SAFER_CODE_PROPERTIES  [Security], SAFER_CRITERIA_APPX_PACKAGE, SAFER_CRITERIA_AUTHENTICODE, SAFER_CRITERIA_IMAGEHASH, SAFER_CRITERIA_IMAGEPATH, SAFER_CRITERIA_IMAGEPATH_NT, SAFER_CRITERIA_URLZONE, _SAFER_CODE_PROPERTIES_V2, _mnp_safer_code_properties, security.safer_code_properties, winsafer/PSAFER_CODE_PROPERTIES, winsafer/SAFER_CODE_PROPERTIES"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsafer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SAFER_CODE_PROPERTIES_V2, *PSAFER_CODE_PROPERTIES_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinSafer.h
+api_name:
+-	SAFER_CODE_PROPERTIES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SAFER_CODE_PROPERTIES_V2 structure

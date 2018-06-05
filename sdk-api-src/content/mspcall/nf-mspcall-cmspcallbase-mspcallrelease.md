@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mspcall.CMSPCallBase.MSPCallRelease
+title: CMSPCallBase::MSPCallRelease
+author: windows-sdk-content
+description: The MSPCallRelease method is the private Release method for the call object.
+old-location: tapi3\cmspcallbase_mspcallrelease.htm
+old-project: Tapi
+ms.assetid: 662361f2-ce0c-4c07-88c1-30393a236bf6
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CMSPCallBase interface [TAPI 2.2],MSPCallRelease method, CMSPCallBase.MSPCallRelease, CMSPCallBase::MSPCallRelease, MSPCallRelease, MSPCallRelease method [TAPI 2.2], MSPCallRelease method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_mspcallrelease, mspcall/CMSPCallBase::MSPCallRelease, tapi3.cmspcallbase_mspcallrelease
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mspcall.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mspcall.h
+api_name:
+-	CMSPCallBase.MSPCallRelease
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CMSPCallBase::MSPCallRelease

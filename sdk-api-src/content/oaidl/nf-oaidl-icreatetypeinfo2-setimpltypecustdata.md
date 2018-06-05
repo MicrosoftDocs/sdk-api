@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oaidl.ICreateTypeInfo2.SetImplTypeCustData
+title: ICreateTypeInfo2::SetImplTypeCustData
+author: windows-sdk-content
+description: Sets a value for custom data for the specified implementation type.
+old-location: automat\icreatetypeinfo2_setimpltypecustdata.htm
+old-project: automat
+ms.assetid: f9dee7fc-b713-4a68-a8ea-2398a266e728
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: ICreateTypeInfo2 interface [Automation],SetImplTypeCustData method, ICreateTypeInfo2.SetImplTypeCustData, ICreateTypeInfo2::SetImplTypeCustData, SetImplTypeCustData, SetImplTypeCustData method [Automation], SetImplTypeCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetImplTypeCustData, automat.icreatetypeinfo2_setimpltypecustdata, oaidl/ICreateTypeInfo2::SetImplTypeCustData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oaidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OaIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VARKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	oaidl.h
+api_name:
+-	ICreateTypeInfo2.SetImplTypeCustData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ICreateTypeInfo2::SetImplTypeCustData

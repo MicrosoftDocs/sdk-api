@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d10_1shader._D3D10_SHADER_DEBUG_REGTYPE
+title: "_D3D10_SHADER_DEBUG_REGTYPE"
+author: windows-sdk-content
+description: Shader register types.
+old-location: direct3d10\d3d10_shader_debug_regtype.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_regtype.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 6253f4d6-0436-c772-ce0d-4feca20bce47, D3D10_SHADER_DEBUG_REGTYPE, D3D10_SHADER_DEBUG_REGTYPE enumeration [Direct3D 10], D3D10_SHADER_DEBUG_REG_CBUFFER, D3D10_SHADER_DEBUG_REG_FORCE_DWORD, D3D10_SHADER_DEBUG_REG_IMMEDIATECBUFFER, D3D10_SHADER_DEBUG_REG_INPUT, D3D10_SHADER_DEBUG_REG_LITERAL, D3D10_SHADER_DEBUG_REG_OUTPUT, D3D10_SHADER_DEBUG_REG_SAMPLER, D3D10_SHADER_DEBUG_REG_TBUFFER, D3D10_SHADER_DEBUG_REG_TEMP, D3D10_SHADER_DEBUG_REG_TEMPARRAY, D3D10_SHADER_DEBUG_REG_TEXTURE, D3D10_SHADER_DEBUG_REG_UNUSED, D3D11_SHADER_DEBUG_REG_INTERFACE_POINTERS, D3D11_SHADER_DEBUG_REG_UAV, _D3D10_SHADER_DEBUG_REGTYPE, d3d10_1shader/D3D10_SHADER_DEBUG_REGTYPE, d3d10_1shader/D3D10_SHADER_DEBUG_REG_CBUFFER, d3d10_1shader/D3D10_SHADER_DEBUG_REG_FORCE_DWORD, d3d10_1shader/D3D10_SHADER_DEBUG_REG_IMMEDIATECBUFFER, d3d10_1shader/D3D10_SHADER_DEBUG_REG_INPUT, d3d10_1shader/D3D10_SHADER_DEBUG_REG_LITERAL, d3d10_1shader/D3D10_SHADER_DEBUG_REG_OUTPUT, d3d10_1shader/D3D10_SHADER_DEBUG_REG_SAMPLER, d3d10_1shader/D3D10_SHADER_DEBUG_REG_TBUFFER, d3d10_1shader/D3D10_SHADER_DEBUG_REG_TEMP, d3d10_1shader/D3D10_SHADER_DEBUG_REG_TEMPARRAY, d3d10_1shader/D3D10_SHADER_DEBUG_REG_TEXTURE, d3d10_1shader/D3D10_SHADER_DEBUG_REG_UNUSED, d3d10_1shader/D3D11_SHADER_DEBUG_REG_INTERFACE_POINTERS, d3d10_1shader/D3D11_SHADER_DEBUG_REG_UAV, direct3d10.d3d10_shader_debug_regtype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d10_1shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_SHADER_DEBUG_REGTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D10_1Shader.h
+api_name:
+-	D3D10_SHADER_DEBUG_REGTYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _D3D10_SHADER_DEBUG_REGTYPE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_MESSAGE_PROPERTY_ID
+title: WS_MESSAGE_PROPERTY_ID
+author: windows-sdk-content
+description: Each message property is of type WS_MESSAGE_PROPERTY, is identified by an ID, and has an associated value.
+old-location: wsw\ws_message_property_id.htm
+old-project: wsw
+ms.assetid: 7398225c-afbd-45c6-9a32-8b8892f0ff8a
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_MESSAGE_PROPERTY_ADDRESSING_VERSION, WS_MESSAGE_PROPERTY_BODY_READER, WS_MESSAGE_PROPERTY_BODY_WRITER, WS_MESSAGE_PROPERTY_ENCODED_CERT, WS_MESSAGE_PROPERTY_ENVELOPE_VERSION, WS_MESSAGE_PROPERTY_HEADER_BUFFER, WS_MESSAGE_PROPERTY_HEADER_POSITION, WS_MESSAGE_PROPERTY_HEAP, WS_MESSAGE_PROPERTY_HEAP_PROPERTIES, WS_MESSAGE_PROPERTY_HTTP_HEADER_AUTH_WINDOWS_TOKEN, WS_MESSAGE_PROPERTY_ID, WS_MESSAGE_PROPERTY_ID enumeration [Web Services for Windows], WS_MESSAGE_PROPERTY_IS_ADDRESSED, WS_MESSAGE_PROPERTY_IS_FAULT, WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS, WS_MESSAGE_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN, WS_MESSAGE_PROPERTY_PROTECTION_LEVEL, WS_MESSAGE_PROPERTY_SAML_ASSERTION, WS_MESSAGE_PROPERTY_SECURITY_CONTEXT, WS_MESSAGE_PROPERTY_STATE, WS_MESSAGE_PROPERTY_TRANSPORT_SECURITY_WINDOWS_TOKEN, WS_MESSAGE_PROPERTY_USERNAME, WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES, WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES, webservices/WS_MESSAGE_PROPERTY_ADDRESSING_VERSION, webservices/WS_MESSAGE_PROPERTY_BODY_READER, webservices/WS_MESSAGE_PROPERTY_BODY_WRITER, webservices/WS_MESSAGE_PROPERTY_ENCODED_CERT, webservices/WS_MESSAGE_PROPERTY_ENVELOPE_VERSION, webservices/WS_MESSAGE_PROPERTY_HEADER_BUFFER, webservices/WS_MESSAGE_PROPERTY_HEADER_POSITION, webservices/WS_MESSAGE_PROPERTY_HEAP, webservices/WS_MESSAGE_PROPERTY_HEAP_PROPERTIES, webservices/WS_MESSAGE_PROPERTY_HTTP_HEADER_AUTH_WINDOWS_TOKEN, webservices/WS_MESSAGE_PROPERTY_ID, webservices/WS_MESSAGE_PROPERTY_IS_ADDRESSED, webservices/WS_MESSAGE_PROPERTY_IS_FAULT, webservices/WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS, webservices/WS_MESSAGE_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN, webservices/WS_MESSAGE_PROPERTY_PROTECTION_LEVEL, webservices/WS_MESSAGE_PROPERTY_SAML_ASSERTION, webservices/WS_MESSAGE_PROPERTY_SECURITY_CONTEXT, webservices/WS_MESSAGE_PROPERTY_STATE, webservices/WS_MESSAGE_PROPERTY_TRANSPORT_SECURITY_WINDOWS_TOKEN, webservices/WS_MESSAGE_PROPERTY_USERNAME, webservices/WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES, webservices/WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES, wsw.ws_message_property_id
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_MESSAGE_PROPERTY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_MESSAGE_PROPERTY_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_MESSAGE_PROPERTY_ID enumeration

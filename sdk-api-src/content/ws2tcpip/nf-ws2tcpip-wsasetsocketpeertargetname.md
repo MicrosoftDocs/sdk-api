@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ws2tcpip.WSASetSocketPeerTargetName
+title: WSASetSocketPeerTargetName function
+author: windows-sdk-content
+description: Is used to specify the peer target name (SPN) that corresponds to a peer IP address. This target name is meant to be specified by client applications to securely identify the peer that should be authenticated.
+old-location: winsock\wsasetsocketpeertargetname.htm
+old-project: WinSock
+ms.assetid: c293658c-d7f9-411d-b6c1-a333592a741c
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: WSASetSocketPeerTargetName, WSASetSocketPeerTargetName function [Winsock], winsock.wsasetsocketpeertargetname, ws2tcpip/WSASetSocketPeerTargetName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ws2tcpip.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Fwpuclnt.dll
+api_name:
+-	WSASetSocketPeerTargetName
+product: Windows
+targetos: Windows
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WSASetSocketPeerTargetName function

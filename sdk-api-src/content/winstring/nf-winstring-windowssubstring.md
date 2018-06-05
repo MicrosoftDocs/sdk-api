@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winstring.WindowsSubstring
+title: WindowsSubstring function
+author: windows-sdk-content
+description: Retrieves a substring from the specified string. The substring starts at the specified character position.
+old-location: winrt\windowssubstring.htm
+old-project: WinRT
+ms.assetid: 15DB3383-D7EC-4047-A1B8-90F8A47428EE
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: WindowsSubstring, WindowsSubstring function [Windows Runtime], winrt.windowssubstring, winstring/WindowsSubstring
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winstring.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	winstring.h
+-	API-MS-Win-Core-WinRT-String-l1-1-0.dll
+-	ComBase.dll
+-	API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+-	WindowsSubstring
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WindowsSubstring function

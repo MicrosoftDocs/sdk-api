@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState
+title: IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState
+author: windows-sdk-content
+description: The get_computerHomeMediaSharingAllowedState method retrieves a value that indicates whether media libraries on the computer are allowed to be shared on the home network.
+old-location: wmlss\IWMLSSget_computerHomeMediaSharingAllowedState.htm
+old-project: WMLSS
+ms.assetid: 9c1ced28-7ed0-4f65-af4d-34774f911621
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_computerHomeMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState, get_computerHomeMediaSharingAllowedState, get_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services], get_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_computerHomeMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmlss.h
+req.include-header: Wmlss.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WMPMediaSharing.dll
+api_name:
+-	IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: WMPMediaSharing.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState

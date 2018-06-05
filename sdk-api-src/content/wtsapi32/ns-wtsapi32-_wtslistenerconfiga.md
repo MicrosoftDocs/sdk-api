@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wtsapi32._WTSLISTENERCONFIGA
+title: "_WTSLISTENERCONFIGA"
+author: windows-sdk-content
+description: Contains information about a Remote Desktop Services listener.
+old-location: termserv\wtslistenerconfig.htm
+old-project: TermServ
+ms.assetid: 051cab0b-701c-4bb9-8728-6b383cdb8e6a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PWTSLISTENERCONFIGA, 1, 2, 3, 4, 5, PWTSLISTENERCONFIG, PWTSLISTENERCONFIG structure pointer [Remote Desktop Services], WTSLISTENERCONFIG, WTSLISTENERCONFIG structure [Remote Desktop Services], WTSLISTENERCONFIGA, WTSLISTENERCONFIGW, _WTSLISTENERCONFIGA, termserv.wtslistenerconfig, wtsapi32/PWTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIGA, wtsapi32/WTSLISTENERCONFIGW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WTSLISTENERCONFIGW (Unicode) and WTSLISTENERCONFIGA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTSLISTENERCONFIGA, *PWTSLISTENERCONFIGA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsapi32.h
+api_name:
+-	WTSLISTENERCONFIG
+-	WTSLISTENERCONFIGA
+-	WTSLISTENERCONFIGW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTSLISTENERCONFIGA structure

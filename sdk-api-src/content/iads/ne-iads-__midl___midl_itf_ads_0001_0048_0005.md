@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0005
+title: "__MIDL___MIDL_itf_ads_0001_0048_0005"
+author: windows-sdk-content
+description: The ADS_SD_CONTROL_ENUM enumeration specifies control flags for a security descriptor.
+old-location: adsi\ads_sd_control_enum.htm
+old-project: ADSI
+ms.assetid: e34ddf53-c7c6-41b0-93e7-cf47152c77be
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ADS_SD_CONTROL_ENUM, ADS_SD_CONTROL_ENUM enumeration [ADSI], ADS_SD_CONTROL_SE_DACL_AUTO_INHERITED, ADS_SD_CONTROL_SE_DACL_AUTO_INHERIT_REQ, ADS_SD_CONTROL_SE_DACL_DEFAULTED, ADS_SD_CONTROL_SE_DACL_PRESENT, ADS_SD_CONTROL_SE_DACL_PROTECTED, ADS_SD_CONTROL_SE_GROUP_DEFAULTED, ADS_SD_CONTROL_SE_OWNER_DEFAULTED, ADS_SD_CONTROL_SE_SACL_AUTO_INHERITED, ADS_SD_CONTROL_SE_SACL_AUTO_INHERIT_REQ, ADS_SD_CONTROL_SE_SACL_DEFAULTED, ADS_SD_CONTROL_SE_SACL_PRESENT, ADS_SD_CONTROL_SE_SACL_PROTECTED, ADS_SD_CONTROL_SE_SELF_RELATIVE, __MIDL___MIDL_itf_ads_0001_0048_0005, _ds_ads_sd_control_enum, adsi.ads__sd__control__enum, adsi.ads_sd_control_enum, iads/ADS_SD_CONTROL_ENUM, iads/ADS_SD_CONTROL_SE_DACL_AUTO_INHERITED, iads/ADS_SD_CONTROL_SE_DACL_AUTO_INHERIT_REQ, iads/ADS_SD_CONTROL_SE_DACL_DEFAULTED, iads/ADS_SD_CONTROL_SE_DACL_PRESENT, iads/ADS_SD_CONTROL_SE_DACL_PROTECTED, iads/ADS_SD_CONTROL_SE_GROUP_DEFAULTED, iads/ADS_SD_CONTROL_SE_OWNER_DEFAULTED, iads/ADS_SD_CONTROL_SE_SACL_AUTO_INHERITED, iads/ADS_SD_CONTROL_SE_SACL_AUTO_INHERIT_REQ, iads/ADS_SD_CONTROL_SE_SACL_DEFAULTED, iads/ADS_SD_CONTROL_SE_SACL_PRESENT, iads/ADS_SD_CONTROL_SE_SACL_PROTECTED, iads/ADS_SD_CONTROL_SE_SELF_RELATIVE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: IAccess.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SD_CONTROL_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_SD_CONTROL_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_ads_0001_0048_0005 enumeration

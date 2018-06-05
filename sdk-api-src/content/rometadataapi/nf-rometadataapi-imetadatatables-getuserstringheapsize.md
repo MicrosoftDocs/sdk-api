@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rometadataapi.IMetaDataTables.GetUserStringHeapSize
+title: IMetaDataTables::GetUserStringHeapSize
+author: windows-sdk-content
+description: Gets the size, in bytes, of the user string heap.
+old-location: winrt\imetadatatables_getuserstringheapsize.htm
+old-project: WinRT
+ms.assetid: f01059be-6370-4bab-b4f4-69db158c17a3
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: GetUserStringHeapSize, GetUserStringHeapSize method [Windows Runtime], GetUserStringHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetUserStringHeapSize method, IMetaDataTables.GetUserStringHeapSize, IMetaDataTables::GetUserStringHeapSize, rometadataapi/IMetaDataTables::GetUserStringHeapSize, winrt.imetadatatables_getuserstringheapsize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rometadataapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rometadataapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	rometadataapi.h
+api_name:
+-	IMetaDataTables.GetUserStringHeapSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMetaDataTables::GetUserStringHeapSize

@@ -1,31 +1,53 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winreg.InitiateShutdownA
+title: InitiateShutdownA function
+author: windows-sdk-content
+description: Initiates a shutdown and restart of the specified computer, and restarts any applications that have been registered for restart.
+old-location: base\initiateshutdown.htm
+old-project: Shutdown
+ms.assetid: 9d0d3774-3e4d-4e56-b4c2-d59d74e797a1
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: InitiateShutdown, InitiateShutdown function, InitiateShutdownA, InitiateShutdownW, SHUTDOWN_FORCE_OTHERS, SHUTDOWN_FORCE_SELF, SHUTDOWN_GRACE_OVERRIDE, SHUTDOWN_HYBRID, SHUTDOWN_INSTALL_UPDATES, SHUTDOWN_NOREBOOT, SHUTDOWN_POWEROFF, SHUTDOWN_RESTART, SHUTDOWN_RESTARTAPPS, base.initiateshutdown, security.initiateshutdown, winreg/InitiateShutdown, winreg/InitiateShutdownA, winreg/InitiateShutdownW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winreg.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: InitiateShutdownW (Unicode) and InitiateShutdownA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-Core-shutdown-l1-1-1.dll
+-	advapi32legacy.dll
+-	Ext-MS-Win-AdvAPI32-shutdown-l1-1-0.dll
+api_name:
+-	InitiateShutdown
+-	InitiateShutdownA
+-	InitiateShutdownW
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # InitiateShutdownA function

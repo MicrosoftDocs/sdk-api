@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:strmif.IBPCSatelliteTuner
+title: IBPCSatelliteTuner
+author: windows-sdk-content
+description: Note  This interface is not implemented and has been deprecated. The IBPCSatelliteTuner interface supports satellite television tuning.
+old-location: dshow\ibpcsatellitetuner.htm
+old-project: DirectShow
+ms.assetid: 61b14331-851b-4579-8995-06c6c4e8c8b7
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IBPCSatelliteTuner, IBPCSatelliteTuner interface [DirectShow], IBPCSatelliteTuner interface [DirectShow],described, IBPCSatelliteTunerInterface, dshow.ibpcsatellitetuner, strmif/IBPCSatelliteTuner
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: strmif.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	strmif.h
+api_name:
+-	IBPCSatelliteTuner
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IBPCSatelliteTuner interface

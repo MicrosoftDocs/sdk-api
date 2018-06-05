@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:qnetwork.IAMNetworkStatus.get_BufferingCount
+title: IAMNetworkStatus::get_BufferingCount
+author: windows-sdk-content
+description: The get_BufferingCount method retrieves the number of times the network source has buffered the data.
+old-location: dshow\iamnetworkstatus_get_bufferingcount.htm
+old-project: DirectShow
+ms.assetid: 82c1994b-9326-48a7-8ff5-2b2df274b3e2
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IAMNetworkStatus interface [DirectShow],get_BufferingCount method, IAMNetworkStatus.get_BufferingCount, IAMNetworkStatus::get_BufferingCount, IAMNetworkStatusget_BufferingCount, dshow.iamnetworkstatus_get_bufferingcount, get_BufferingCount, get_BufferingCount method [DirectShow], get_BufferingCount method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_BufferingCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: qnetwork.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMExtendedSeekingCapabilities
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Qnetwork.h
+api_name:
+-	IAMNetworkStatus.get_BufferingCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAMNetworkStatus::get_BufferingCount

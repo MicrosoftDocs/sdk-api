@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITCustomTone.get_CadenceOn
+title: ITCustomTone::get_CadenceOn
+author: windows-sdk-content
+description: The get_CadenceOn method retrieves the &#0034;on&#0034; duration of the cadence of the custom tone to generate.
+old-location: tapi3\itcustomtone_get_cadenceon.htm
+old-project: Tapi
+ms.assetid: 2f3da359-69e1-40a3-bfd6-42ade8de2379
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITCustomTone interface [TAPI 2.2],get_CadenceOn method, ITCustomTone.get_CadenceOn, ITCustomTone::get_CadenceOn, _tapi3_itcustomtone_get_cadenceon, get_CadenceOn, get_CadenceOn method [TAPI 2.2], get_CadenceOn method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_get_cadenceon, tapi3if/ITCustomTone::get_CadenceOn
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITCustomTone.get_CadenceOn
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITCustomTone::get_CadenceOn

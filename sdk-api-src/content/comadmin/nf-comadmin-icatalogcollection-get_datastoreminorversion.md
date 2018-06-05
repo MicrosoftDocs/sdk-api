@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comadmin.ICatalogCollection.get_DataStoreMinorVersion
+title: ICatalogCollection::get_DataStoreMinorVersion
+author: windows-sdk-content
+description: Retrieves the minor version number of the catalog data store.
+old-location: cos\icatalogcollection_datastoreminorversion.htm
+old-project: cossdk
+ms.assetid: 29380ed1-835e-4ac9-afeb-869acd748ebc
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: DataStoreMinorVersion property [COM+], DataStoreMinorVersion property [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],DataStoreMinorVersion property, ICatalogCollection.DataStoreMinorVersion, ICatalogCollection.get_DataStoreMinorVersion, ICatalogCollection::DataStoreMinorVersion, ICatalogCollection::get_DataStoreMinorVersion, _cos_ICatalogCollection_get_DataStoreMinorVersion, comadmin/ICatalogCollection::DataStoreMinorVersion, comadmin/ICatalogCollection::get_DataStoreMinorVersion, cos.icatalogcollection_datastoreminorversion, get_DataStoreMinorVersion
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ComAdmin.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMAdminTxIsolationLevelOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComAdmin.h
+api_name:
+-	ICatalogCollection.DataStoreMinorVersion
+-	ICatalogCollection.get_DataStoreMinorVersion
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICatalogCollection::get_DataStoreMinorVersion

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:mapi.MAPIREADMAIL
+title: MAPIREADMAIL
+author: windows-sdk-content
+description: The MAPIReadMail function retrieves a message for reading.
+old-location: mapi\mapireadmail.htm
+old-project: WindowsMAPI
+ms.assetid: 46a8ff9f-17d9-4c33-8ca4-0a3978013f52
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: MAPIReadMail, MAPIReadMail callback, MAPIReadMail callback function, MAPI_BODY_AS_FILE, MAPI_ENVELOPE_ONLY, MAPI_PEEK, MAPI_SUPPRESS_ATTACH, mapi.mapireadmail, mapi/MAPIReadMail
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: mapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Mapi.h
+api_name:
+-	MAPIReadMail
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MAPIREADMAIL callback function

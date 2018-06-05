@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxva2api.IDirectXVideoDecoderService.GetDecoderConfigurations
+title: IDirectXVideoDecoderService::GetDecoderConfigurations
+author: windows-sdk-content
+description: Gets the configurations that are available for a decoder device.
+old-location: mf\idirectxvideodecoderservice_getdecoderconfigurations.htm
+old-project: medfound
+ms.assetid: 7d2c24f3-9066-4e8b-aad6-98b7245088a5
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 7d2c24f3-9066-4e8b-aad6-98b7245088a5, GetDecoderConfigurations, GetDecoderConfigurations method [Media Foundation], GetDecoderConfigurations method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],GetDecoderConfigurations method, IDirectXVideoDecoderService.GetDecoderConfigurations, IDirectXVideoDecoderService::GetDecoderConfigurations, dxva2api/IDirectXVideoDecoderService::GetDecoderConfigurations, mf.idirectxvideodecoderservice_getdecoderconfigurations
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxva2api.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA2_SurfaceType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxva2api.h
+api_name:
+-	IDirectXVideoDecoderService.GetDecoderConfigurations
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDirectXVideoDecoderService::GetDecoderConfigurations

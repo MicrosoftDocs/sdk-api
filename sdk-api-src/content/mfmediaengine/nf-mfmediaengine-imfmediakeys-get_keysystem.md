@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfmediaengine.IMFMediaKeys.get_KeySystem
+title: IMFMediaKeys::get_KeySystem
+author: windows-sdk-content
+description: Gets the key system string the IMFMediaKeys object was created with.
+old-location: mf\imfmediakeys_get_keysystem.htm
+old-project: medfound
+ms.assetid: d60ee85b-b5fc-4d06-a3a2-f61ff3635d99
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFMediaKeys interface [Media Foundation],get_KeySystem method, IMFMediaKeys.get_KeySystem, IMFMediaKeys::get_KeySystem, get_KeySystem, get_KeySystem method [Media Foundation], get_KeySystem method [Media Foundation],IMFMediaKeys interface, mf.imfmediakeys_get_keysystem, mfmediaengine/IMFMediaKeys::get_KeySystem
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mfmediaengine.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.h
+api_name:
+-	IMFMediaKeys.get_KeySystem
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFMediaKeys::get_KeySystem

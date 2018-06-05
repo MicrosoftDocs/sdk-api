@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:drt._DRT_ADDRESS_LIST
+title: "_DRT_ADDRESS_LIST"
+author: windows-sdk-content
+description: DRT_ADDRESS_LIST structure contains a set of DRT_ADDRESS structures that represent the nodes contacted during a search for a key.
+old-location: p2p\drt_address_list.htm
+old-project: P2PSdk
+ms.assetid: a795dff7-4182-42ad-b14b-142a6c1312c7
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PDRT_ADDRESS_LIST, DRT_ADDRESS_LIST, DRT_ADDRESS_LIST structure [Peer Networking], PDRT_ADDRESS_LIST, PDRT_ADDRESS_LIST structure pointer [Peer Networking], _DRT_ADDRESS_LIST, drt/DRT_ADDRESS_LIST, drt/PDRT_ADDRESS_LIST, p2p.drt_address_list"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: drt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	drt.h
+api_name:
+-	DRT_ADDRESS_LIST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DRT_ADDRESS_LIST structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmscreen.IFsrmFileGroupManager.ImportFileGroups
+title: IFsrmFileGroupManager::ImportFileGroups
+author: windows-sdk-content
+description: Imports the specified file groups from an XML string.
+old-location: fsrm\ifsrmfilegroupmanager_importfilegroups.htm
+old-project: Fsrm
+ms.assetid: 81f62d49-5fce-4d8c-96b5-506d741c5f77
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmFileGroupManager class [File Server Resource Manager],ImportFileGroups method, IFsrmFileGroupManager interface [File Server Resource Manager],ImportFileGroups method, IFsrmFileGroupManager.ImportFileGroups, IFsrmFileGroupManager::ImportFileGroups, ImportFileGroups, ImportFileGroups method [File Server Resource Manager], ImportFileGroups method [File Server Resource Manager],FsrmFileGroupManager class, ImportFileGroups method [File Server Resource Manager],IFsrmFileGroupManager interface, fs.ifsrmfilegroupmanager_importfilegroups, fsrm.ifsrmfilegroupmanager_importfilegroups, fsrmscreen/IFsrmFileGroupManager::ImportFileGroups
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmscreen.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileGroupManager.ImportFileGroups
+-	FsrmFileGroupManager.ImportFileGroups
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileGroupManager::ImportFileGroups

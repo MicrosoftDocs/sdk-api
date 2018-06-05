@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
+title: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
+author: windows-sdk-content
+description: The type of the Windows Integrated Authentication credential, used as a selector for subtypes of WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL.
+old-location: wsw\ws_windows_integrated_auth_credential_type.htm
+old-project: wsw
+ms.assetid: 50fc723a-8c32-443d-b3ce-cd660f5ab18b
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE enumeration [Web Services for Windows], webservices/WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, webservices/WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, webservices/WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, webservices/WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, wsw.ws_windows_integrated_auth_credential_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE enumeration

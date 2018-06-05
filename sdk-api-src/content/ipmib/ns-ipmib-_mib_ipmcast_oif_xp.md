@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipmib._MIB_IPMCAST_OIF_XP
+title: "_MIB_IPMCAST_OIF_XP"
+author: windows-sdk-content
+description: Stores the information required to send an outgoing IP multicast packet.
+old-location: mib\mib_ipmcast_oif.htm
+old-project: MIB
+ms.assetid: 4ad35cc0-50e2-47b9-8ce3-9bf8e7032c40
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIB_IPMCAST_OIF, *PMIB_IPMCAST_OIF_XP, MIB_IPMCAST_OIF, MIB_IPMCAST_OIF structure [MIB], MIB_IPMCAST_OIF_XP, PMIB_IPMCAST_OIF, PMIB_IPMCAST_OIF structure pointer [MIB], _MIB_IPMCAST_OIF_XP, _mpr_mib_ipmcast_oif, ipmib/MIB_IPMCAST_OIF, ipmib/PMIB_IPMCAST_OIF, iprtrmib/MIB_IPMCAST_OIF, iprtrmib/PMIB_IPMCAST_OIF, mib.mib_ipmcast_oif, rras.mib_ipmcast_oif"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_IPMCAST_OIF_XP, *PMIB_IPMCAST_OIF_XP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipmib.h
+-	Iprtrmib.h
+api_name:
+-	MIB_IPMCAST_OIF
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MIB_IPMCAST_OIF_XP structure

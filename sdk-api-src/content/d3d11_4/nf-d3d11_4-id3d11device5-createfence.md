@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11_4.ID3D11Device5.CreateFence
+title: ID3D11Device5::CreateFence
+author: windows-sdk-content
+description: Creates a fence object.
+old-location: direct3d11\id3d11device5_createfence.htm
+old-project: direct3d11
+ms.assetid: B4AA9E0D-AAF4-4632-A98F-A3212764D5E1
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: CreateFence, CreateFence method [Direct3D 11], CreateFence method [Direct3D 11],ID3D11Device5 interface, ID3D11Device5 interface [Direct3D 11],CreateFence method, ID3D11Device5.CreateFence, ID3D11Device5::CreateFence, d3d11_4/ID3D11Device5::CreateFence, direct3d11.id3d11device5_createfence
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11_4.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_UNORDERED_ACCESS_VIEW_DESC1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d11.lib
+-	d3d11.dll
+api_name:
+-	ID3D11Device5.CreateFence
+product: Windows
+targetos: Windows
+req.lib: D3d11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11Device5::CreateFence

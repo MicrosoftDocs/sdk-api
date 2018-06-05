@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dinputd.DIFFDEVICEATTRIBUTES
+title: DIFFDEVICEATTRIBUTES
+author: windows-sdk-content
+description: The DIFFDEVICEATTRIBUTES structure describes the information contained in the &#0034;Attributes&#0034; value of the OEMForceFeedback registry key.
+old-location: hid\diffdeviceattributes.htm
+old-project: hid
+ms.assetid: d4011b83-955f-4af8-85f7-a901dc67c8ec
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*LPDIFFDEVICEATTRIBUTES, DIFFDEVICEATTRIBUTES, DIFFDEVICEATTRIBUTES structure [Human Input Devices], di_ref_64e91043-878c-49d2-9e1a-b16bb5ed22b6.xml, dinputd/DIFFDEVICEATTRIBUTES, hid.diffdeviceattributes"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIFFDEVICEATTRIBUTES, *LPDIFFDEVICEATTRIBUTES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dinputd.h
+api_name:
+-	DIFFDEVICEATTRIBUTES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DIFFDEVICEATTRIBUTES structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dxmini._DX_IRQDATA
+title: "_DX_IRQDATA"
+author: windows-sdk-content
+description: The DX_IRQDATA structure contains the IRQ information supplied by the driver.
+old-location: display\dx_irqdata.htm
+old-project: display
+ms.assetid: 258cfaa3-8de2-45d9-b61b-683cf41c127f
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDX_IRQDATA, DX_IRQDATA, DX_IRQDATA structure [Display Devices], PDX_IRQDATA, PDX_IRQDATA structure pointer [Display Devices], _DX_IRQDATA, ddstrcts_abf413a4-709e-4458-930c-93f21c368892.xml, display.dx_irqdata, dxmini/DX_IRQDATA, dxmini/PDX_IRQDATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxmini.h
+req.include-header: Dxmini.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DX_IRQDATA, *PDX_IRQDATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxmini.h
+api_name:
+-	DX_IRQDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DX_IRQDATA structure

@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:msi.MsiQueryFeatureStateExW
+title: MsiQueryFeatureStateExW function
+author: windows-sdk-content
+description: The MsiQueryFeatureStateEx function returns the installed state for a product feature.
+old-location: setup\msiqueryfeaturestateex.htm
+old-project: Msi
+ms.assetid: 60165f0d-01d9-4ce8-a369-092d0c670b87
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: INSTALLSTATE_ADVERTISED, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiQueryFeatureStateEx, MsiQueryFeatureStateEx function, MsiQueryFeatureStateExA, MsiQueryFeatureStateExW, NULL, User SID, msi/MsiQueryFeatureStateEx, msi/MsiQueryFeatureStateExA, msi/MsiQueryFeatureStateExW, setup.msiqueryfeaturestateex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: MsiQueryFeatureStateExW (Unicode) and MsiQueryFeatureStateExA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRM_LICENSE_ACQ_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msi.dll
+-	Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+-	MsiQueryFeatureStateEx
+-	MsiQueryFeatureStateExA
+-	MsiQueryFeatureStateExW
+product: Windows
+targetos: Windows
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # MsiQueryFeatureStateExW function

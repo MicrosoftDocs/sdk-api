@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbtsv.ITsSbTaskPluginNotifySink.OnDeleteTaskTime
+title: ITsSbTaskPluginNotifySink::OnDeleteTaskTime
+author: windows-sdk-content
+description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a task has been removed from the queue.
+old-location: termserv\itssbtaskpluginnotifysink_ondeletetasktime.htm
+old-project: TermServ
+ms.assetid: f78a22c3-45e6-4bb1-9ea0-9958339a4ff3
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnDeleteTaskTime method, ITsSbTaskPluginNotifySink.OnDeleteTaskTime, ITsSbTaskPluginNotifySink::OnDeleteTaskTime, OnDeleteTaskTime, OnDeleteTaskTime method [Remote Desktop Services], OnDeleteTaskTime method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnDeleteTaskTime, termserv.itssbtaskpluginnotifysink_ondeletetasktime
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbtsv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Sbtsv.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TS_SB_SORT_BY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbtsv.h
+api_name:
+-	ITsSbTaskPluginNotifySink.OnDeleteTaskTime
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbTaskPluginNotifySink::OnDeleteTaskTime

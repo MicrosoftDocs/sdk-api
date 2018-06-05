@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.CALLINFOCHANGE_CAUSE
+title: CALLINFOCHANGE_CAUSE
+author: windows-sdk-content
+description: The CALLINFOCHANGE_CAUSE enum is used by the ITCallInfoChangeEvent::get_Cause method to return a description of the type of call information that has changed.
+old-location: tapi3\callinfochange_cause.htm
+old-project: Tapi
+ms.assetid: 587329e2-3b5f-4d9e-9cec-2676c0bd1de8
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CALLINFOCHANGE_CAUSE, CALLINFOCHANGE_CAUSE enumeration [TAPI 2.2], CIC_APPSPECIFIC, CIC_BEARERMODE, CIC_CALLDATA, CIC_CALLEDID, CIC_CALLERID, CIC_CALLID, CIC_CHARGINGINFO, CIC_COMPLETIONID, CIC_CONNECTEDID, CIC_DEVSPECIFIC, CIC_HIGHLEVELCOMP, CIC_LOWLEVELCOMP, CIC_MEDIATYPE, CIC_NUMMONITORS, CIC_NUMOWNERDECR, CIC_NUMOWNERINCR, CIC_ORIGIN, CIC_OTHER, CIC_PRIVILEGE, CIC_RATE, CIC_REASON, CIC_REDIRECTINGID, CIC_REDIRECTIONID, CIC_RELATEDCALLID, CIC_TREATMENT, CIC_TRUNK, CIC_USERUSERINFO, _tapi3_callinfochange_cause, tapi3.callinfochange_cause, tapi3if/CALLINFOCHANGE_CAUSE, tapi3if/CIC_APPSPECIFIC, tapi3if/CIC_BEARERMODE, tapi3if/CIC_CALLDATA, tapi3if/CIC_CALLEDID, tapi3if/CIC_CALLERID, tapi3if/CIC_CALLID, tapi3if/CIC_CHARGINGINFO, tapi3if/CIC_COMPLETIONID, tapi3if/CIC_CONNECTEDID, tapi3if/CIC_DEVSPECIFIC, tapi3if/CIC_HIGHLEVELCOMP, tapi3if/CIC_LOWLEVELCOMP, tapi3if/CIC_MEDIATYPE, tapi3if/CIC_NUMMONITORS, tapi3if/CIC_NUMOWNERDECR, tapi3if/CIC_NUMOWNERINCR, tapi3if/CIC_ORIGIN, tapi3if/CIC_OTHER, tapi3if/CIC_PRIVILEGE, tapi3if/CIC_RATE, tapi3if/CIC_REASON, tapi3if/CIC_REDIRECTINGID, tapi3if/CIC_REDIRECTIONID, tapi3if/CIC_RELATEDCALLID, tapi3if/CIC_TREATMENT, tapi3if/CIC_TRUNK, tapi3if/CIC_USERUSERINFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CALLINFOCHANGE_CAUSE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	CALLINFOCHANGE_CAUSE
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # CALLINFOCHANGE_CAUSE enumeration

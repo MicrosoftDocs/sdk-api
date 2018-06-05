@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:bits5_0.IBackgroundCopyFile5
+title: IBackgroundCopyFile5
+author: windows-sdk-content
+description: Use this interface to get or set generic properties of BITS file transfers.
+old-location: bits\ibackgroundcopyfile5.htm
+old-project: Bits
+ms.assetid: 548b507a-4874-4ccf-829e-13e1ca6cc958
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IBackgroundCopyFile5, IBackgroundCopyFile5 interface [BITS], IBackgroundCopyFile5 interface [BITS],described, bits.ibackgroundcopyfile5, bits5_0/IBackgroundCopyFile5
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: bits5_0.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits5_0.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITS_FILE_PROPERTY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Bits5_0.h
+api_name:
+-	IBackgroundCopyFile5
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 ---
 
 # IBackgroundCopyFile5 interface

@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:directmanipulation.DIRECTMANIPULATION_STATUS
+title: DIRECTMANIPULATION_STATUS
+author: windows-sdk-content
+description: Defines the possible states of Direct Manipulation.
+old-location: directmanipulation\directmanipulation_status.htm
+old-project: directmanipulation
+ms.assetid: 6120702f-56f0-489d-a3b2-5f6ecac82b5e
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: DIRECTMANIPULATION_BUILDING, DIRECTMANIPULATION_DISABLED, DIRECTMANIPULATION_ENABLED, DIRECTMANIPULATION_INERTIA, DIRECTMANIPULATION_READY, DIRECTMANIPULATION_RUNNING, DIRECTMANIPULATION_STATUS, DIRECTMANIPULATION_STATUS enumeration [Direct Manipulation], DIRECTMANIPULATION_SUSPENDED, directmanipulation.directmanipulation_status, directmanipulation/DIRECTMANIPULATION_BUILDING, directmanipulation/DIRECTMANIPULATION_DISABLED, directmanipulation/DIRECTMANIPULATION_ENABLED, directmanipulation/DIRECTMANIPULATION_INERTIA, directmanipulation/DIRECTMANIPULATION_READY, directmanipulation/DIRECTMANIPULATION_RUNNING, directmanipulation/DIRECTMANIPULATION_STATUS, directmanipulation/DIRECTMANIPULATION_SUSPENDED
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DirectManipulation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIRECTMANIPULATION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	directmanipulation.h
+api_name:
+-	DIRECTMANIPULATION_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DIRECTMANIPULATION_STATUS enumeration

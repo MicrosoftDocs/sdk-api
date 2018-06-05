@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rdpencomapi.IRDPSRAPIInvitation.get_ConnectionString
+title: IRDPSRAPIInvitation::get_ConnectionString
+author: windows-sdk-content
+description: The ticket string.
+old-location: rdp\irdpsrapiinvitation_connectionstring.htm
+old-project: Rdp
+ms.assetid: 46f44927-c29e-401c-b81e-d009c1ad3c97
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: ConnectionString property [RDP], ConnectionString property [RDP],IRDPSRAPIInvitation interface, ConnectionString property [RDP],RDPSRAPIInvitation object, IRDPSRAPIInvitation interface [RDP],ConnectionString property, IRDPSRAPIInvitation.ConnectionString, IRDPSRAPIInvitation.get_ConnectionString, IRDPSRAPIInvitation::ConnectionString, IRDPSRAPIInvitation::get_ConnectionString, RDPSRAPIInvitation object [RDP],ConnectionString property, get_ConnectionString, rdp.irdpsrapiinvitation_connectionstring, rdpencomapi/IRDPSRAPIInvitation::ConnectionString, rdpencomapi/IRDPSRAPIInvitation::get_ConnectionString
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RdpEncomAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: RdpEncomAPI.tlb
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RdpEncom.dll
+api_name:
+-	IRDPSRAPIInvitation.ConnectionString
+-	IRDPSRAPIInvitation.get_ConnectionString
+-	RDPSRAPIInvitation.ConnectionString
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRDPSRAPIInvitation::get_ConnectionString

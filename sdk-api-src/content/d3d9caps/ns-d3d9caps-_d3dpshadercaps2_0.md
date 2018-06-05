@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d9caps._D3DPSHADERCAPS2_0
+title: "_D3DPSHADERCAPS2_0"
+author: windows-sdk-content
+description: Pixel shader driver caps.
+old-location: direct3d9\d3dpshadercaps2_0.htm
+old-project: direct3d9
+ms.assetid: VS|directx_sdk|~\d3dpshadercaps2_0.htm
+ms.author: windowssdkdev
+ms.date: 04/10/2018
+ms.keywords: 469d4061-0c45-7081-5150-edc65b416901, D3DPSHADERCAPS2_0, D3DPSHADERCAPS2_0 structure [Direct3D 9], LPD3DPSHADERCAPS2_0, LPD3DPSHADERCAPS2_0 structure pointer [Direct3D 9], _D3DPSHADERCAPS2_0, d3d9caps/D3DPSHADERCAPS2_0, d3d9caps/LPD3DPSHADERCAPS2_0, direct3d9.d3dpshadercaps2_0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d9caps.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DPSHADERCAPS2_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D9Caps.h
+api_name:
+-	D3DPSHADERCAPS2_0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _D3DPSHADERCAPS2_0 structure

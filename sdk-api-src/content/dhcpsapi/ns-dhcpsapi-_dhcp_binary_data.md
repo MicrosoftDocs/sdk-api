@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi._DHCP_BINARY_DATA
+title: "_DHCP_BINARY_DATA"
+author: windows-sdk-content
+description: The DHCP_BINARY_DATA structure defines an opaque blob of binary data.
+old-location: dhcp\dhcp_binary_data.htm
+old-project: DHCP
+ms.assetid: 0afdddb4-12f9-4c0b-937a-2cc311c126b4
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_BINARY_DATA, DHCP_BINARY_DATA, DHCP_BINARY_DATA structure [DHCP], DHCP_CLIENT_UID, DHCP_CLIENT_UID structure [DHCP], LPDHCP_BINARY_DATA, LPDHCP_BINARY_DATA structure pointer [DHCP], _DHCP_BINARY_DATA, dhcp.dhcp_binary_data, dhcpsapi/DHCP_CLIENT_UID, dhcpsapi/LPDHCP_BINARY_DATA, dhcpsapi/_DHCP_BINARY_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_BINARY_DATA, *LPDHCP_BINARY_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCP_BINARY_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_BINARY_DATA structure

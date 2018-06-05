@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:setupapi.SetupSetSourceListW
+title: SetupSetSourceListW function
+author: windows-sdk-content
+description: The SetupSetSourceList function allows the caller to set the list of installation sources for either the current user or the system (common to all users).
+old-location: setup\setupsetsourcelist.htm
+old-project: SetupApi
+ms.assetid: 6a37a56c-ae44-4a57-9307-90efcf025d1a
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: SetupSetSourceList, SetupSetSourceList function [Setup API], SetupSetSourceListA, SetupSetSourceListW, _setupapi_setupsetsourcelist, setup.setupsetsourcelist, setupapi/SetupSetSourceList, setupapi/SetupSetSourceListA, setupapi/SetupSetSourceListW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: setupapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SetupSetSourceListW (Unicode) and SetupSetSourceListA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Setupapi.dll
+api_name:
+-	SetupSetSourceList
+-	SetupSetSourceListA
+-	SetupSetSourceListW
+product: Windows
+targetos: Windows
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetupSetSourceListW function

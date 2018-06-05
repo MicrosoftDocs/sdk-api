@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CERT_REVOCATION_STATUS
+title: "_CERT_REVOCATION_STATUS"
+author: windows-sdk-content
+description: Contains information on the revocation status of the certificate.
+old-location: security\cert_revocation_status.htm
+old-project: SecCrypto
+ms.assetid: 087ea37a-907a-4652-a5df-dd8e86755490
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_REVOCATION_STATUS, CERT_REVOCATION_STATUS, CERT_REVOCATION_STATUS structure [Security], CRL_REASON_AFFILIATION_CHANGED, CRL_REASON_CA_COMPROMISE, CRL_REASON_CERTIFICATE_HOLD, CRL_REASON_CESSATION_OF_OPERATION, CRL_REASON_KEY_COMPROMISE, CRL_REASON_SUPERSEDED, CRL_REASON_UNSPECIFIED, PCERT_REVOCATION_STATUS, PCERT_REVOCATION_STATUS structure pointer [Security], _CERT_REVOCATION_STATUS, _crypto2_cert_revocation_status, security.cert_revocation_status, wincrypt/CERT_REVOCATION_STATUS, wincrypt/PCERT_REVOCATION_STATUS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_REVOCATION_STATUS, *PCERT_REVOCATION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_REVOCATION_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERT_REVOCATION_STATUS structure

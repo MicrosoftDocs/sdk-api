@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d11sdklayers.D3D11_MESSAGE_CATEGORY
+title: D3D11_MESSAGE_CATEGORY
+author: windows-sdk-content
+description: Categories of debug messages.
+old-location: direct3d11\d3d11_message_category.htm
+old-project: direct3d11
+ms.assetid: e4af5bf6-cbbe-488a-ad8e-3a4409f2591d
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 2ba52fac-75ec-4d76-4f85-c3a01fddd778, D3D11_MESSAGE_CATEGORY, D3D11_MESSAGE_CATEGORY enumeration [Direct3D 11], D3D11_MESSAGE_CATEGORY_APPLICATION_DEFINED, D3D11_MESSAGE_CATEGORY_CLEANUP, D3D11_MESSAGE_CATEGORY_COMPILATION, D3D11_MESSAGE_CATEGORY_EXECUTION, D3D11_MESSAGE_CATEGORY_INITIALIZATION, D3D11_MESSAGE_CATEGORY_MISCELLANEOUS, D3D11_MESSAGE_CATEGORY_RESOURCE_MANIPULATION, D3D11_MESSAGE_CATEGORY_SHADER, D3D11_MESSAGE_CATEGORY_STATE_CREATION, D3D11_MESSAGE_CATEGORY_STATE_GETTING, D3D11_MESSAGE_CATEGORY_STATE_SETTING, d3d11sdklayers/D3D11_MESSAGE_CATEGORY, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_APPLICATION_DEFINED, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_CLEANUP, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_COMPILATION, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_EXECUTION, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_INITIALIZATION, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_MISCELLANEOUS, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_RESOURCE_MANIPULATION, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_SHADER, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_STATE_CREATION, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_STATE_GETTING, d3d11sdklayers/D3D11_MESSAGE_CATEGORY_STATE_SETTING, direct3d11.d3d11_message_category
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_MESSAGE_CATEGORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11SDKLayers.h
+api_name:
+-	D3D11_MESSAGE_CATEGORY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_MESSAGE_CATEGORY enumeration

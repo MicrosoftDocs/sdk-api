@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rpcndr.NdrDcomAsyncClientCall2
+title: NdrDcomAsyncClientCall2 function
+author: windows-sdk-content
+description: NdrDcomAsyncClientCall2 may be altered or unavailable.
+old-location: rpc\ndrdcomasyncclientcall2.htm
+old-project: Rpc
+ms.assetid: 87BA97F8-E905-44C7-BBC6-A62240216984
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: NdrDcomAsyncClientCall2, NdrDcomAsyncClientCall2 function [RPC], rpc.ndrdcomasyncclientcall2, rpcndr/NdrDcomAsyncClientCall2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: rpcndr.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	RpcRT4.dll
+api_name:
+-	NdrDcomAsyncClientCall2
+product: Windows
+targetos: Windows
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # NdrDcomAsyncClientCall2 function

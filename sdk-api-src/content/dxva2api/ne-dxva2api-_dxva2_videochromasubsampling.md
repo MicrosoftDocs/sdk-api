@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dxva2api._DXVA2_VideoChromaSubSampling
+title: "_DXVA2_VideoChromaSubSampling"
+author: windows-sdk-content
+description: Describes how chroma values are positioned relative to the luma samples in a YUV video frame.
+old-location: mf\dxva2_videochromasubsampling.htm
+old-project: medfound
+ms.assetid: 0f9d63fd-46fa-498c-8703-1beeaf09ce86
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 0f9d63fd-46fa-498c-8703-1beeaf09ce86, DXVA2_VideoChromaSubSampling, DXVA2_VideoChromaSubSampling enumeration [Media Foundation], DXVA2_VideoChromaSubsamplingMask, DXVA2_VideoChromaSubsampling_Cosited, DXVA2_VideoChromaSubsampling_DV_PAL, DXVA2_VideoChromaSubsampling_Horizontally_Cosited, DXVA2_VideoChromaSubsampling_MPEG1, DXVA2_VideoChromaSubsampling_MPEG2, DXVA2_VideoChromaSubsampling_ProgressiveChroma, DXVA2_VideoChromaSubsampling_Unknown, DXVA2_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, DXVA2_VideoChromaSubsampling_Vertically_Cosited, _DXVA2_VideoChromaSubSampling, dxva2api/DXVA2_VideoChromaSubSampling, dxva2api/DXVA2_VideoChromaSubsamplingMask, dxva2api/DXVA2_VideoChromaSubsampling_Cosited, dxva2api/DXVA2_VideoChromaSubsampling_DV_PAL, dxva2api/DXVA2_VideoChromaSubsampling_Horizontally_Cosited, dxva2api/DXVA2_VideoChromaSubsampling_MPEG1, dxva2api/DXVA2_VideoChromaSubsampling_MPEG2, dxva2api/DXVA2_VideoChromaSubsampling_ProgressiveChroma, dxva2api/DXVA2_VideoChromaSubsampling_Unknown, dxva2api/DXVA2_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, dxva2api/DXVA2_VideoChromaSubsampling_Vertically_Cosited, mf.dxva2_videochromasubsampling
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxva2api.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVA2_VideoChromaSubSampling
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxva2api.h
+api_name:
+-	DXVA2_VideoChromaSubSampling
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVA2_VideoChromaSubSampling enumeration

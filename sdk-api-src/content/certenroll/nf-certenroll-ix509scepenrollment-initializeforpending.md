@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:certenroll.IX509SCEPEnrollment.InitializeForPending
+title: IX509SCEPEnrollment::InitializeForPending
+author: windows-sdk-content
+description: Initialize the instance to prepare to generate a message to either retrieve an issued certificate, or install a response for a previous request by the issuer.
+old-location: security\ix509scepenrollment_initializeforpending.htm
+old-project: SecCertEnroll
+ms.assetid: 6b6f9e9d-5316-4928-861a-22497e1f5c00
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: IX509SCEPEnrollment interface [Security],InitializeForPending method, IX509SCEPEnrollment.InitializeForPending, IX509SCEPEnrollment::InitializeForPending, InitializeForPending, InitializeForPending method [Security], InitializeForPending method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::InitializeForPending, security.ix509scepenrollment_initializeforpending
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Certenroll.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certenroll.dll
+api_name:
+-	IX509SCEPEnrollment.InitializeForPending
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 ---
 
 # IX509SCEPEnrollment::InitializeForPending

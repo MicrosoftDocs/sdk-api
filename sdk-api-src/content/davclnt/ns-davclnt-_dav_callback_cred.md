@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:davclnt._DAV_CALLBACK_CRED
+title: "_DAV_CALLBACK_CRED"
+author: windows-sdk-content
+description: Stores user credential information that was retrieved by the DavAuthCallback callback function.
+old-location: webdav\dav_callback_cred.htm
+old-project: WebDAV
+ms.assetid: 5414d7b5-b506-4d0a-a4b8-89ab7878d674
+ms.author: windowssdkdev
+ms.date: 03/22/2018
+ms.keywords: "*PDAV_CALLBACK_CRED, DAV_CALLBACK_CRED, DAV_CALLBACK_CRED structure [WebDAV], PDAV_CALLBACK_CRED, PDAV_CALLBACK_CRED structure pointer [WebDAV], _DAV_CALLBACK_CRED, davclnt/DAV_CALLBACK_CRED, davclnt/PDAV_CALLBACK_CRED, webdav.dav_callback_cred"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: davclnt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 with SP2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Davclnt.h
+api_name:
+-	DAV_CALLBACK_CRED
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DAV_CALLBACK_CRED structure

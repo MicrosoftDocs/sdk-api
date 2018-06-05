@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmreports.IFsrmFileConditionProperty.get_PropertyName
+title: IFsrmFileConditionProperty::get_PropertyName
+author: windows-sdk-content
+description: Specifies the name of the file condition property.
+old-location: fsrm\ifsrmfileconditionproperty_propertyname.htm
+old-project: Fsrm
+ms.assetid: 3b4a22da-769e-4425-a37d-5dfe0209ace9
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],PropertyName property, IFsrmFileConditionProperty.PropertyName, IFsrmFileConditionProperty.get_PropertyName, IFsrmFileConditionProperty::PropertyName, IFsrmFileConditionProperty::get_PropertyName, IFsrmFileConditionProperty::put_PropertyName, PropertyName property [File Server Resource Manager], PropertyName property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_propertyname, fsrm.ifsrmfileconditionproperty_propertyname, fsrmreports/IFsrmFileConditionProperty::PropertyName, fsrmreports/IFsrmFileConditionProperty::get_PropertyName, fsrmreports/IFsrmFileConditionProperty::put_PropertyName, get_PropertyName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmreports.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FsrmReports.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmFileConditionProperty.PropertyName
+-	IFsrmFileConditionProperty.get_PropertyName
+-	IFsrmFileConditionProperty.put_PropertyName
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmFileConditionProperty::get_PropertyName

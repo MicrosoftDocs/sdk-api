@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dsgetdc.DsGetDcNameW
+title: DsGetDcNameW function
+author: windows-sdk-content
+description: Returns the name of a domain controller in a specified domain.
+old-location: ad\dsgetdcname.htm
+old-project: AD
+ms.assetid: da8b2983-5e45-40b0-b552-c9b3a1d8ae94
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_AVOID_SELF, DS_BACKGROUND_ONLY, DS_DIRECTORY_SERVICE_6_REQUIRED, DS_DIRECTORY_SERVICE_8_REQUIRED, DS_DIRECTORY_SERVICE_PREFERRED, DS_DIRECTORY_SERVICE_REQUIRED, DS_FORCE_REDISCOVERY, DS_GC_SERVER_REQUIRED, DS_GOOD_TIMESERV_PREFERRED, DS_IP_REQUIRED, DS_IS_DNS_NAME, DS_IS_FLAT_NAME, DS_KDC_REQUIRED, DS_ONLY_LDAP_NEEDED, DS_PDC_REQUIRED, DS_RETURN_DNS_NAME, DS_RETURN_FLAT_NAME, DS_TIMESERV_REQUIRED, DS_TRY_NEXTCLOSEST_SITE, DS_WEB_SERVICE_REQUIRED, DS_WRITABLE_REQUIRED, DsGetDcName, DsGetDcName function [Active Directory], DsGetDcNameA, DsGetDcNameW, _glines_dsgetdcname, ad.dsgetdcname, dsgetdc/DsGetDcName, dsgetdc/DsGetDcNameA, dsgetdc/DsGetDcNameW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dsgetdc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DsGetDcNameW (Unicode) and DsGetDcNameA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	NetApi32.dll
+api_name:
+-	DsGetDcName
+-	DsGetDcNameA
+-	DsGetDcNameW
+product: Windows
+targetos: Windows
+req.lib: NetApi32.lib
+req.dll: NetApi32.dll
+req.irql: 
 ---
 
 # DsGetDcNameW function

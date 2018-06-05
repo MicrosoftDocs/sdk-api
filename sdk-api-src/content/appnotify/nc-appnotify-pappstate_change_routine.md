@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:appnotify.PAPPSTATE_CHANGE_ROUTINE
+title: PAPPSTATE_CHANGE_ROUTINE
+author: windows-sdk-content
+description: Specifies an app-defined callback function that notifies the app when the app is entering or leaving a suspended state.
+old-location: shell\PAPPSTATE_CHANGE_ROUTINE.htm
+old-project: shell
+ms.assetid: AA5B09FA-2016-4C9D-8DE3-CD3C6141B45A
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: PAPPSTATE_CHANGE_ROUTINE, PAPPSTATE_CHANGE_ROUTINE function, PAPPSTATE_CHANGE_ROUTINE function pointer [Windows Shell], appnotify/PAPPSTATE_CHANGE_ROUTINE, shell.PAPPSTATE_CHANGE_ROUTINE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: appnotify.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PACKAGE_VERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	appnotify.h
+api_name:
+-	PAPPSTATE_CHANGE_ROUTINE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PAPPSTATE_CHANGE_ROUTINE callback function

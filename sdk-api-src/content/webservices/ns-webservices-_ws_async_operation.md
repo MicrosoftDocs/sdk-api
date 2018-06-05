@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:webservices._WS_ASYNC_OPERATION
+title: "_WS_ASYNC_OPERATION"
+author: windows-sdk-content
+description: Used with the WsAsyncExecute to specify the next function to invoke in a series of async operations.
+old-location: wsw\ws_async_operation.htm
+old-project: wsw
+ms.assetid: 7a6311f0-4beb-4827-b754-68ef4bde093c
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_ASYNC_OPERATION, WS_ASYNC_OPERATION structure [Web Services for Windows], _WS_ASYNC_OPERATION, webservices/WS_ASYNC_OPERATION, wsw.ws_async_operation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: v.1.0
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_ASYNC_OPERATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_ASYNC_OPERATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WS_ASYNC_OPERATION structure

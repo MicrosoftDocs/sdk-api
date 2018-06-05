@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IDestinationStreamFactory.GetDestinationStream
+title: IDestinationStreamFactory::GetDestinationStream
+author: windows-sdk-content
+description: Gets an empty stream that receives the new version of the file being copied.
+old-location: shell\IDestinationStreamFactory_GetDestinationStream.htm
+old-project: shell
+ms.assetid: 4903a3a1-12b7-4094-aac8-6e8525998c3c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetDestinationStream, GetDestinationStream method [Windows Shell], GetDestinationStream method [Windows Shell],IDestinationStreamFactory interface, IDestinationStreamFactory interface [Windows Shell],GetDestinationStream method, IDestinationStreamFactory.GetDestinationStream, IDestinationStreamFactory::GetDestinationStream, shell.IDestinationStreamFactory_GetDestinationStream, shell_IDestinationStreamFactory_GetDestinationStream, shobjidl_core/IDestinationStreamFactory::GetDestinationStream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	IDestinationStreamFactory.GetDestinationStream
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IDestinationStreamFactory::GetDestinationStream

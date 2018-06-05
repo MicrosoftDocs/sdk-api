@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wtsapi32.WTSVirtualChannelPurgeOutput
+title: WTSVirtualChannelPurgeOutput function
+author: windows-sdk-content
+description: Deletes all queued output data sent from the server to the client on a specified virtual channel.
+old-location: termserv\wtsvirtualchannelpurgeoutput.htm
+old-project: TermServ
+ms.assetid: 9edd06d1-3f5a-4d83-8c3c-16b761ce4c60
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: WTSVirtualChannelPurgeOutput, WTSVirtualChannelPurgeOutput function [Remote Desktop Services], _win32_wtsvirtualchannelpurgeoutput, termserv.wtsvirtualchannelpurgeoutput, wtsapi32/WTSVirtualChannelPurgeOutput
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_VIRTUAL_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wtsapi32.dll
+api_name:
+-	WTSVirtualChannelPurgeOutput
+product: Windows
+targetos: Windows
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # WTSVirtualChannelPurgeOutput function

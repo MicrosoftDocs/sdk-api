@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mstask.ITaskTrigger.GetTriggerString
+title: ITaskTrigger::GetTriggerString
+author: windows-sdk-content
+description: The GetTriggerString method retrieves the current task trigger in the form of a string. This string appears in the Task Scheduler user interface in a form similar to &#0034;At 2PM every day, starting 5/11/97.&#0034;.
+old-location: taskschd\itasktrigger_gettriggerstring.htm
+old-project: TaskSchd
+ms.assetid: 5e21b61e-a43d-47b3-9380-b90d94e13cb8
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetTriggerString, GetTriggerString method [Task Scheduler], GetTriggerString method [Task Scheduler],ITaskTrigger interface, ITaskTrigger interface [Task Scheduler],GetTriggerString method, ITaskTrigger.GetTriggerString, ITaskTrigger::GetTriggerString, _msb_itasktrigger_gettriggerstring, mstask/ITaskTrigger::GetTriggerString, taskschd.itasktrigger_gettriggerstring
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mstask.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mstask.dll
+api_name:
+-	ITaskTrigger.GetTriggerString
+product: Windows
+targetos: Windows
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITaskTrigger::GetTriggerString

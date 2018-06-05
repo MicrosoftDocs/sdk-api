@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:wmpdevices._WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
+title: "_WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE"
+author: windows-sdk-content
+description: The WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE structure is used by Windows Media Player to request accelerated metadata synchronization information from portable devices that do not support MTP.
+old-location: wmp\wmp_wmdm_metadata_round_trip_pc2device.htm
+old-project: WMP
+ms.assetid: 825d4080-45de-452e-b0eb-33e7bd1d2f22
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE, WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE structure [Windows Media Player], WMP_WMDM_PC2DEVICE, _WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE, wmp.wmp_wmdm_metadata_round_trip_pc2device, wmpdevices/WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wmpdevices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 10 or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wmpdevices.h
+api_name:
+-	WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE structure

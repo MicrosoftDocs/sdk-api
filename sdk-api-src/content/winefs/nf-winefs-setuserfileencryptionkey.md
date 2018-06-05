@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winefs.SetUserFileEncryptionKey
+title: SetUserFileEncryptionKey function
+author: windows-sdk-content
+description: Sets the user's current key to the specified certificate.
+old-location: fs\setuserfileencryptionkey.htm
+old-project: FileIO
+ms.assetid: dd23fab7-1675-4d0d-911c-e2aac2273e7f
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: SetUserFileEncryptionKey, SetUserFileEncryptionKey function [Files], _win32_setuserfileencryptionkey, base.setuserfileencryptionkey, fs.setuserfileencryptionkey, winefs/SetUserFileEncryptionKey
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winefs.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HANDLE_SHARING_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+api_name:
+-	SetUserFileEncryptionKey
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # SetUserFileEncryptionKey function

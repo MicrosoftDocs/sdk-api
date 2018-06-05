@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fsrmenums._FsrmReportFilter
+title: "_FsrmReportFilter"
+author: windows-sdk-content
+description: Defines the filters that you can use to limit the files that are included in a report.
+old-location: fsrm\fsrmreportfilter.htm
+old-project: Fsrm
+ms.assetid: 6f38ec9a-8876-44ce-9d44-f3982f1880ca
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmReportFilter, FsrmReportFilter enumeration [File Server Resource Manager], FsrmReportFilter_FileGroups, FsrmReportFilter_MaxAgeDays, FsrmReportFilter_MinAgeDays, FsrmReportFilter_MinQuotaUsage, FsrmReportFilter_MinSize, FsrmReportFilter_NamePattern, FsrmReportFilter_Owners, FsrmReportFilter_Property, _FsrmReportFilter, fs.fsrmreportfilter, fsrm.fsrmreportfilter, fsrmenums/FsrmReportFilter, fsrmenums/FsrmReportFilter_FileGroups, fsrmenums/FsrmReportFilter_MaxAgeDays, fsrmenums/FsrmReportFilter_MinAgeDays, fsrmenums/FsrmReportFilter_MinQuotaUsage, fsrmenums/FsrmReportFilter_MinSize, fsrmenums/FsrmReportFilter_NamePattern, fsrmenums/FsrmReportFilter_Owners, fsrmenums/FsrmReportFilter_Property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fsrmenums.h
+req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FsrmEnums.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmReportFilter
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	FsrmEnums.h
+api_name:
+-	FsrmReportFilter
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _FsrmReportFilter enumeration

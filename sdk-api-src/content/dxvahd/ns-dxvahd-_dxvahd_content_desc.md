@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dxvahd._DXVAHD_CONTENT_DESC
+title: "_DXVAHD_CONTENT_DESC"
+author: windows-sdk-content
+description: Describes a video stream for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
+old-location: mf\dxvahd_content_desc.htm
+old-project: medfound
+ms.assetid: 9319a98d-8f43-4f29-8787-18dec53dff88
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DXVAHD_CONTENT_DESC, DXVAHD_CONTENT_DESC structure [Media Foundation], _DXVAHD_CONTENT_DESC, dxvahd/DXVAHD_CONTENT_DESC, mf.dxvahd_content_desc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxvahd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVAHD_CONTENT_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxvahd.h
+api_name:
+-	DXVAHD_CONTENT_DESC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVAHD_CONTENT_DESC structure

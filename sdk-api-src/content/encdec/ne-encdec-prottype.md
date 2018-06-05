@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:encdec.ProtType
+title: ProtType
+author: windows-sdk-content
+description: This topic applies to Windows XP Service Pack 1 or later.
+old-location: mstv\prottype.htm
+old-project: mstv
+ms.assetid: 190b8483-91c8-4fe4-8189-637749393151
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: PROT_COPY_BF, PROT_COPY_CN_RECORDING_STOP, PROT_COPY_FREE, PROT_COPY_FREE_CIT, PROT_COPY_FREE_SECURE, PROT_COPY_INVALID, PROT_COPY_NEVER, PROT_COPY_NEVER_REALLY, PROT_COPY_NO_MORE, PROT_COPY_ONCE, ProtType, ProtType enumeration [Microsoft TV Technologies], encdec/PROT_COPY_BF, encdec/PROT_COPY_CN_RECORDING_STOP, encdec/PROT_COPY_FREE, encdec/PROT_COPY_FREE_CIT, encdec/PROT_COPY_FREE_SECURE, encdec/PROT_COPY_INVALID, encdec/PROT_COPY_NEVER, encdec/PROT_COPY_NEVER_REALLY, encdec/PROT_COPY_NO_MORE, encdec/PROT_COPY_ONCE, encdec/ProtType, mstv.prottype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: encdec.h
+req.include-header: Tvratings.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ProtType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	encdec.h
+api_name:
+-	ProtType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # ProtType enumeration

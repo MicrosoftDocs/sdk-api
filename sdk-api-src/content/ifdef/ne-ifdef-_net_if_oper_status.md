@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:ifdef._NET_IF_OPER_STATUS
+title: "_NET_IF_OPER_STATUS"
+author: windows-sdk-content
+description: The NET_IF_OPER_STATUS enumeration type defines the current NDIS network interface operational status.
+old-location: netvista\net_if_oper_status.htm
+old-project: netvista
+ms.assetid: 19bd5b9b-94db-430e-b264-1744dfe83d54
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PNET_IF_OPER_STATUS, NET_IF_OPER_STATUS, NET_IF_OPER_STATUS enumeration [Network Drivers Starting with Windows Vista], NET_IF_OPER_STATUS_DORMANT, NET_IF_OPER_STATUS_DOWN, NET_IF_OPER_STATUS_LOWER_LAYER_DOWN, NET_IF_OPER_STATUS_NOT_PRESENT, NET_IF_OPER_STATUS_TESTING, NET_IF_OPER_STATUS_UNKNOWN, NET_IF_OPER_STATUS_UP, PNET_IF_OPER_STATUS, PNET_IF_OPER_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], _NET_IF_OPER_STATUS, ifdef/NET_IF_OPER_STATUS, ifdef/NET_IF_OPER_STATUS_DORMANT, ifdef/NET_IF_OPER_STATUS_DOWN, ifdef/NET_IF_OPER_STATUS_LOWER_LAYER_DOWN, ifdef/NET_IF_OPER_STATUS_NOT_PRESENT, ifdef/NET_IF_OPER_STATUS_TESTING, ifdef/NET_IF_OPER_STATUS_UNKNOWN, ifdef/NET_IF_OPER_STATUS_UP, ifdef/PNET_IF_OPER_STATUS, net_if_enums_ref_c9b9e5f0-12cc-4499-8d9a-e40b088470b8.xml, netvista.net_if_oper_status"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ifdef.h
+req.include-header: Netioapi.h, Ntddndis.h
+req.target-type: Windows
+req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_IF_OPER_STATUS, *PNET_IF_OPER_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ifdef.h
+api_name:
+-	NET_IF_OPER_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _NET_IF_OPER_STATUS enumeration

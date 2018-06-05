@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:http._HTTP_HEADER_ID
+title: "_HTTP_HEADER_ID"
+author: windows-sdk-content
+description: The HTTP_HEADER_ID enumeration type lists known headers for HTTP requests and responses, and associates an array index with each such header.
+old-location: http\http_header_id.htm
+old-project: Http
+ms.assetid: 6c4ccaf0-2a9f-43fe-9f35-cda1dd1fbbdc
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_HEADER_ID, HTTP_HEADER_ID, HTTP_HEADER_ID enumeration [HTTP], HttpHeaderAccept, HttpHeaderAcceptCharset, HttpHeaderAcceptEncoding, HttpHeaderAcceptLanguage, HttpHeaderAcceptRanges, HttpHeaderAge, HttpHeaderAllow, HttpHeaderAuthorization, HttpHeaderCacheControl, HttpHeaderConnection, HttpHeaderContentEncoding, HttpHeaderContentLanguage, HttpHeaderContentLength, HttpHeaderContentLocation, HttpHeaderContentMd5, HttpHeaderContentRange, HttpHeaderContentType, HttpHeaderCookie, HttpHeaderDate, HttpHeaderEtag, HttpHeaderExpect, HttpHeaderExpires, HttpHeaderFrom, HttpHeaderHost, HttpHeaderIfMatch, HttpHeaderIfModifiedSince, HttpHeaderIfNoneMatch, HttpHeaderIfRange, HttpHeaderIfUnmodifiedSince, HttpHeaderKeepAlive, HttpHeaderLastModified, HttpHeaderLocation, HttpHeaderMaxForwards, HttpHeaderMaximum, HttpHeaderPragma, HttpHeaderProxyAuthenticate, HttpHeaderProxyAuthorization, HttpHeaderRange, HttpHeaderReferer, HttpHeaderRequestMaximum, HttpHeaderResponseMaximum, HttpHeaderRetryAfter, HttpHeaderServer, HttpHeaderSetCookie, HttpHeaderTe, HttpHeaderTrailer, HttpHeaderTransferEncoding, HttpHeaderTranslate, HttpHeaderUpgrade, HttpHeaderUserAgent, HttpHeaderVary, HttpHeaderVia, HttpHeaderWarning, HttpHeaderWwwAuthenticate, PHTTP_HEADER_ID, PHTTP_HEADER_ID enumeration pointer [HTTP], _HTTP_HEADER_ID, _http_http_header_id, http.http_header_id, http/HTTP_HEADER_ID, http/HttpHeaderAccept, http/HttpHeaderAcceptCharset, http/HttpHeaderAcceptEncoding, http/HttpHeaderAcceptLanguage, http/HttpHeaderAcceptRanges, http/HttpHeaderAge, http/HttpHeaderAllow, http/HttpHeaderAuthorization, http/HttpHeaderCacheControl, http/HttpHeaderConnection, http/HttpHeaderContentEncoding, http/HttpHeaderContentLanguage, http/HttpHeaderContentLength, http/HttpHeaderContentLocation, http/HttpHeaderContentMd5, http/HttpHeaderContentRange, http/HttpHeaderContentType, http/HttpHeaderCookie, http/HttpHeaderDate, http/HttpHeaderEtag, http/HttpHeaderExpect, http/HttpHeaderExpires, http/HttpHeaderFrom, http/HttpHeaderHost, http/HttpHeaderIfMatch, http/HttpHeaderIfModifiedSince, http/HttpHeaderIfNoneMatch, http/HttpHeaderIfRange, http/HttpHeaderIfUnmodifiedSince, http/HttpHeaderKeepAlive, http/HttpHeaderLastModified, http/HttpHeaderLocation, http/HttpHeaderMaxForwards, http/HttpHeaderMaximum, http/HttpHeaderPragma, http/HttpHeaderProxyAuthenticate, http/HttpHeaderProxyAuthorization, http/HttpHeaderRange, http/HttpHeaderReferer, http/HttpHeaderRequestMaximum, http/HttpHeaderResponseMaximum, http/HttpHeaderRetryAfter, http/HttpHeaderServer, http/HttpHeaderSetCookie, http/HttpHeaderTe, http/HttpHeaderTrailer, http/HttpHeaderTransferEncoding, http/HttpHeaderTranslate, http/HttpHeaderUpgrade, http/HttpHeaderUserAgent, http/HttpHeaderVary, http/HttpHeaderVia, http/HttpHeaderWarning, http/HttpHeaderWwwAuthenticate, http/PHTTP_HEADER_ID"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_HEADER_ID, *PHTTP_HEADER_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_HEADER_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_HEADER_ID enumeration

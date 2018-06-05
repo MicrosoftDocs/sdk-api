@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:d2d1_3helper.GradientMeshPatchFromCoonsPatch
+title: GradientMeshPatchFromCoonsPatch function
+author: windows-sdk-content
+description: Creates a D2D1_GRADIENT_MESH_PATCH from a given Coons patch description.
+old-location: direct2d\gradientmeshpatchfromcoonspatch.htm
+old-project: Direct2D
+ms.assetid: 12469ab9-890c-e4a9-57b2-41a804712052
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: GradientMeshPatchFromCoonsPatch, GradientMeshPatchFromCoonsPatch function [Direct2D], d2d1_3helper/GradientMeshPatchFromCoonsPatch, direct2d.gradientmeshpatchfromcoonspatch
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d2d1_3helper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	D2d1.dll
+api_name:
+-	GradientMeshPatchFromCoonsPatch
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # GradientMeshPatchFromCoonsPatch function

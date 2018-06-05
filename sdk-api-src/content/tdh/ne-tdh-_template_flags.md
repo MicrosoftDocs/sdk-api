@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tdh._TEMPLATE_FLAGS
+title: "_TEMPLATE_FLAGS"
+author: windows-sdk-content
+description: Defines constant values that indicates the layout of the event data.
+old-location: etw\template_flags_enum.htm
+old-project: ETW
+ms.assetid: 07132dc2-fad9-4ddb-bf46-70a887f0b585
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: TEMPLATE_EVENT_DATA, TEMPLATE_FLAGS, TEMPLATE_FLAGS enumeration [ETW], TEMPLATE_USER_DATA, _TEMPLATE_FLAGS, etw.template_flags_enum, tdh.template_flags_enum, tdh/TEMPLATE_EVENT_DATA, tdh/TEMPLATE_FLAGS, tdh/TEMPLATE_USER_DATA
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TEMPLATE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tdh.h
+api_name:
+-	TEMPLATE_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TEMPLATE_FLAGS enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CERT_CHAIN_PARA
+title: "_CERT_CHAIN_PARA"
+author: windows-sdk-content
+description: The CERT_CHAIN_PARA structure establishes the searching and matching criteria to be used in building a certificate chain.
+old-location: security\cert_chain_para.htm
+old-project: SecCrypto
+ms.assetid: 86094e1c-be59-4a15-a05b-21769f80e653
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_CHAIN_PARA, CERT_CHAIN_PARA, CERT_CHAIN_PARA structure [Security], CERT_CHAIN_STRONG_SIGN_DISABLE_END_CHECK_FLAG, PCERT_CHAIN_PARA, PCERT_CHAIN_PARA structure pointer [Security], _CERT_CHAIN_PARA, _crypto2_cert_chain_para, security.cert_chain_para, wincrypt/CERT_CHAIN_PARA, wincrypt/PCERT_CHAIN_PARA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_CHAIN_PARA, *PCERT_CHAIN_PARA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_CHAIN_PARA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERT_CHAIN_PARA structure

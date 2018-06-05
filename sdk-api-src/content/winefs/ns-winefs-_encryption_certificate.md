@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winefs._ENCRYPTION_CERTIFICATE
+title: "_ENCRYPTION_CERTIFICATE"
+author: windows-sdk-content
+description: Contains a certificate and the SID of its owner.
+old-location: fs\encryption_certificate_str.htm
+old-project: FileIO
+ms.assetid: 33b36659-48bb-4297-8142-f8702db03d20
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PENCRYPTION_CERTIFICATE, ENCRYPTION_CERTIFICATE, ENCRYPTION_CERTIFICATE structure [Files], PENCRYPTION_CERTIFICATE, PENCRYPTION_CERTIFICATE structure pointer [Files], _ENCRYPTION_CERTIFICATE, _win32_encryption_certificate_str, base.encryption_certificate_str, fs.encryption_certificate_str, winefs/ENCRYPTION_CERTIFICATE, winefs/PENCRYPTION_CERTIFICATE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winefs.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENCRYPTION_CERTIFICATE, *PENCRYPTION_CERTIFICATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winefs.h
+api_name:
+-	ENCRYPTION_CERTIFICATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _ENCRYPTION_CERTIFICATE structure

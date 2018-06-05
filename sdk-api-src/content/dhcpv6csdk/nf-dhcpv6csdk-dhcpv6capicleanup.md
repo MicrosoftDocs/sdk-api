@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dhcpv6csdk.Dhcpv6CApiCleanup
+title: Dhcpv6CApiCleanup function
+author: windows-sdk-content
+description: The Dhcpv6CApiCleanup function enables DHCPv6 to properly clean up resources allocated throughout the use of DHCPv6 function calls. The Dhcpv6CApiCleanup function must only be called if a previous call to Dhcpv6CApiInitialize executed successfully.
+old-location: dhcp\dhcpv6capicleanup.htm
+old-project: DHCP
+ms.assetid: eb951723-4bfb-4eb5-85bd-d469163d72e1
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: Dhcpv6CApiCleanup, Dhcpv6CApiCleanup function [DHCP], dhcp.dhcpv6capicleanup, dhcpv6csdk/Dhcpv6CApiCleanup
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dhcpv6csdk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: StatusCode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpv6csdk.h
+api_name:
+-	Dhcpv6CApiCleanup
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # Dhcpv6CApiCleanup function

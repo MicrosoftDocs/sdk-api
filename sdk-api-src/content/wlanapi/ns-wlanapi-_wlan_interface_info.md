@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wlanapi._WLAN_INTERFACE_INFO
+title: "_WLAN_INTERFACE_INFO"
+author: windows-sdk-content
+description: Contains information about a wireless LAN interface.
+old-location: nwifi\wlan_interface_info.htm
+old-project: NativeWiFi
+ms.assetid: 906e7d59-ebd0-47e7-985e-f5d313f19ecb
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_INTERFACE_INFO, PWLAN_INTERFACE_INFO, PWLAN_INTERFACE_INFO structure pointer [NativeWIFI], WLAN_INTERFACE_INFO, WLAN_INTERFACE_INFO structure [NativeWIFI], _WLAN_INTERFACE_INFO, nwifi.wlan_interface_info, wlanapi/PWLAN_INTERFACE_INFO, wlanapi/WLAN_INTERFACE_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_INTERFACE_INFO, *PWLAN_INTERFACE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wlanapi.h
+api_name:
+-	WLAN_INTERFACE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_INTERFACE_INFO structure

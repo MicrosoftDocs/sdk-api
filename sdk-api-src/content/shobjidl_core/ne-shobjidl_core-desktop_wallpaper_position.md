@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl_core.DESKTOP_WALLPAPER_POSITION
+title: DESKTOP_WALLPAPER_POSITION
+author: windows-sdk-content
+description: Specifies how the desktop wallpaper should be displayed.
+old-location: shell\DESKTOP_WALLPAPER_POSITION.htm
+old-project: shell
+ms.assetid: 5524E7DA-087C-475a-BB22-5E62C1A5CC4D
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: DESKTOP_WALLPAPER_POSITION, DESKTOP_WALLPAPER_POSITION enumeration [Windows Shell], DWPOS_CENTER, DWPOS_FILL, DWPOS_FIT, DWPOS_SPAN, DWPOS_STRETCH, DWPOS_TILE, shell.DESKTOP_WALLPAPER_POSITION, shobjidl_core/DESKTOP_WALLPAPER_POSITION, shobjidl_core/DWPOS_CENTER, shobjidl_core/DWPOS_FILL, shobjidl_core/DWPOS_FIT, shobjidl_core/DWPOS_SPAN, shobjidl_core/DWPOS_STRETCH, shobjidl_core/DWPOS_TILE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DESKTOP_WALLPAPER_POSITION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shobjidl_core.h
+api_name:
+-	DESKTOP_WALLPAPER_POSITION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # DESKTOP_WALLPAPER_POSITION enumeration

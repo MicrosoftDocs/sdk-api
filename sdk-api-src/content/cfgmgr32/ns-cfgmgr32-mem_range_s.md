@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:cfgmgr32.Mem_Range_s
+title: Mem_Range_s
+author: windows-sdk-content
+description: The MEM_RANGE structure specifies a resource requirements list that describes memory usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
+old-location: devinst\mem_range.htm
+old-project: devinst
+ms.assetid: a31ae199-8f4a-4d1f-891c-f1dc11a4edde
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PMEM_RANGE, MEM_RANGE, MEM_RANGE structure [Device and Driver Installation], Mem_Range_s, PMEM_RANGE, PMEM_RANGE structure pointer [Device and Driver Installation], cfgmgr32/MEM_RANGE, cfgmgr32/PMEM_RANGE, cfgmgrst_f2ac1f4b-c29b-41fd-bacb-e7a8f4bc6f45.xml, devinst.mem_range"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MEM_RANGE, *PMEM_RANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	cfgmgr32.h
+api_name:
+-	MEM_RANGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # Mem_Range_s structure

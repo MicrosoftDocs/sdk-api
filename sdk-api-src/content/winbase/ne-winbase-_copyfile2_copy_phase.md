@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winbase._COPYFILE2_COPY_PHASE
+title: "_COPYFILE2_COPY_PHASE"
+author: windows-sdk-content
+description: Indicates the phase of a copy at the time of an error.
+old-location: fs\copyfile2_copy_phase.htm
+old-project: FileIO
+ms.assetid: 92bf9028-78a3-4ea3-bfbb-b53a8df557ab
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: COPYFILE2_COPY_PHASE, COPYFILE2_COPY_PHASE enumeration [Files], COPYFILE2_PHASE_MAX, COPYFILE2_PHASE_NAMEGRAFT_COPY, COPYFILE2_PHASE_NONE, COPYFILE2_PHASE_PREPARE_DEST, COPYFILE2_PHASE_PREPARE_SOURCE, COPYFILE2_PHASE_READ_SOURCE, COPYFILE2_PHASE_SERVER_COPY, COPYFILE2_PHASE_WRITE_DESTINATION, _COPYFILE2_COPY_PHASE, fs.copyfile2_copy_phase, winbase/COPYFILE2_COPY_PHASE, winbase/COPYFILE2_PHASE_MAX, winbase/COPYFILE2_PHASE_NAMEGRAFT_COPY, winbase/COPYFILE2_PHASE_NONE, winbase/COPYFILE2_PHASE_PREPARE_DEST, winbase/COPYFILE2_PHASE_PREPARE_SOURCE, winbase/COPYFILE2_PHASE_READ_SOURCE, winbase/COPYFILE2_PHASE_SERVER_COPY, winbase/COPYFILE2_PHASE_WRITE_DESTINATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COPYFILE2_COPY_PHASE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinBase.h
+api_name:
+-	COPYFILE2_COPY_PHASE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _COPYFILE2_COPY_PHASE enumeration

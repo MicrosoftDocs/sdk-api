@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:shdeprecated.tagFolderSetData
+title: tagFolderSetData
+author: windows-sdk-content
+description: Deprecated. Data used in IBrowserService2::GetFolderSetData.
+old-location: shell\FOLDERSETDATA.htm
+old-project: shell
+ms.assetid: eb47cd77-5788-4130-8d9c-cc84582e5d8e
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPFOLDERSETDATA, FOLDERSETDATA, FOLDERSETDATA structure [Windows Shell], LPFOLDERSETDATA, LPFOLDERSETDATA structure pointer [Windows Shell], VIEW_PRIORITY_CACHEHIT, VIEW_PRIORITY_CACHEMISS, VIEW_PRIORITY_DESPERATE, VIEW_PRIORITY_INHERIT, VIEW_PRIORITY_NONE, VIEW_PRIORITY_RESTRICTED, VIEW_PRIORITY_SHELLEXT, VIEW_PRIORITY_SHELLEXT_ASBACKUP, VIEW_PRIORITY_STALECACHEHIT, VIEW_PRIORITY_USEASDEFAULT, _shell_FOLDERSETDATA, shdeprecated/FOLDERSETDATA, shdeprecated/LPFOLDERSETDATA, shell.FOLDERSETDATA, tagFolderSetData"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shdeprecated.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shdeprecated.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FOLDERSETDATA, *LPFOLDERSETDATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shdeprecated.h
+api_name:
+-	FOLDERSETDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # tagFolderSetData structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:winbio_adapter.PIBIO_STORAGE_OPEN_DATABASE_FN
+title: PIBIO_STORAGE_OPEN_DATABASE_FN
+author: windows-sdk-content
+description: Opens a database for use by the storage adapter.
+old-location: secbiomet\storageadapteropendatabase.htm
+old-project: SecBioMet
+ms.assetid: 4f3dfa67-5020-461a-b3d1-33c948129bdf
+ms.author: windowssdkdev
+ms.date: 04/24/2018
+ms.keywords: PIBIO_STORAGE_OPEN_DATABASE_FN, PIBIO_STORAGE_OPEN_DATABASE_FN callback, StorageAdapterOpenDatabase, StorageAdapterOpenDatabase callback function [Windows Biometric Framework API], secbiomet.storageadapteropendatabase, winbio_adapter/StorageAdapterOpenDatabase
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: winbio_adapter.h
+req.include-header: Winbio_adapter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Winbio_adapter.h
+api_name:
+-	StorageAdapterOpenDatabase
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PIBIO_STORAGE_OPEN_DATABASE_FN callback function

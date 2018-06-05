@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winscard._SCARD_ATRMASK
+title: "_SCARD_ATRMASK"
+author: windows-sdk-content
+description: Used by the SCardLocateCardsByATR function to locate cards.
+old-location: security\scard_atrmask.htm
+old-project: SecAuthN
+ms.assetid: d7f1a747-a858-4bf6-874a-d76aa4227cd2
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*LPSCARD_ATRMASK, *PSCARD_ATRMASK, LPSCARD_ATRMASK, LPSCARD_ATRMASK structure pointer [Security], PSCARD_ATRMASK, PSCARD_ATRMASK structure pointer [Security], SCARD_ATRMASK, SCARD_ATRMASK structure [Security], _SCARD_ATRMASK, _smart_scard_atrmask, security.scard_atrmask, winscard/LPSCARD_ATRMASK, winscard/PSCARD_ATRMASK, winscard/SCARD_ATRMASK"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winscard.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winscard.h
+api_name:
+-	SCARD_ATRMASK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SCARD_ATRMASK structure

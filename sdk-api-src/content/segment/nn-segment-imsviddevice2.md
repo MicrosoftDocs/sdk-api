@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:segment.IMSVidDevice2
+title: IMSVidDevice2
+author: windows-sdk-content
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. The IMSVidDevice2 interface is implemented by some Video Control device objects.
+old-location: mstv\imsviddevice2.htm
+old-project: mstv
+ms.assetid: cd0955cb-602f-4a47-a6f8-6fb2f0c9cb31
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IMSVidDevice2, IMSVidDevice2 interface [Microsoft TV Technologies], IMSVidDevice2 interface [Microsoft TV Technologies],described, IMSVidDevice2Interface, mstv.imsviddevice2, segment/IMSVidDevice2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidDevice2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidDevice2 interface

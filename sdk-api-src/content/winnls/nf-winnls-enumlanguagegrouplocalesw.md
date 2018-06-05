@@ -1,31 +1,58 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winnls.EnumLanguageGroupLocalesW
+title: EnumLanguageGroupLocalesW function
+author: windows-sdk-content
+description: Enumerates the locales in a specified language group.
+old-location: intl\enumlanguagegrouplocales.htm
+old-project: Intl
+ms.assetid: 5a85c6bd-0362-46ff-80be-a198b1259482
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: EnumLanguageGroupLocales, EnumLanguageGroupLocales function [Internationalization for Windows Applications], EnumLanguageGroupLocalesA, EnumLanguageGroupLocalesW, _win32_EnumLanguageGroupLocales, intl.enumlanguagegrouplocales, winnls/EnumLanguageGroupLocales, winnls/EnumLanguageGroupLocalesA, winnls/EnumLanguageGroupLocalesW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winnls.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: EnumLanguageGroupLocalesW (Unicode) and EnumLanguageGroupLocalesA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NORM_FORM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	MinKernelBase.dll
+-	API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
+-	API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+-	Kernel32Legacy.dll
+api_name:
+-	EnumLanguageGroupLocales
+-	EnumLanguageGroupLocalesA
+-	EnumLanguageGroupLocalesW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # EnumLanguageGroupLocalesW function

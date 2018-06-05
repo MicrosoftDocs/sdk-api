@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmaccess._USER_INFO_24
+title: "_USER_INFO_24"
+author: windows-sdk-content
+description: Contains user account information on an account which is connected to an Internet identity. This information includes the Internet provider name for the user, the user's Internet name, and the user's security identifier (SID).
+old-location: netmgmt\user_info_24.htm
+old-project: NetMgmt
+ms.assetid: CE65EDE0-F4AE-4582-9D7F-6667BBA98C75
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPUSER_INFO_24, *PUSER_INFO_24, LPUSER_INFO_24, LPUSER_INFO_24 structure pointer [Network Management], PUSER_INFO_24, PUSER_INFO_24 structure pointer [Network Management], USER_INFO_24, USER_INFO_24 structure [Network Management], _USER_INFO_24, lmaccess/LPUSER_INFO_24, lmaccess/PUSER_INFO_24, lmaccess/USER_INFO_24, netmgmt.user_info_24"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmaccess.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_INFO_24, *PUSER_INFO_24, *LPUSER_INFO_24
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmaccess.h
+api_name:
+-	USER_INFO_24
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _USER_INFO_24 structure

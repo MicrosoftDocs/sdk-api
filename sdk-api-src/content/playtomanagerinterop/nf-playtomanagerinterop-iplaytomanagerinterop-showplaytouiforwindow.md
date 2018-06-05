@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:playtomanagerinterop.IPlayToManagerInterop.ShowPlayToUIForWindow
+title: IPlayToManagerInterop::ShowPlayToUIForWindow
+author: windows-sdk-content
+description: Displays the Play To UI for the specified window.
+old-location: winrt\iplaytomanagerinterop_showplaytouiforwindow.htm
+old-project: WinRT
+ms.assetid: 106ddd95-06dd-479a-8350-39d791add469
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: IPlayToManagerInterop interface [Windows Runtime],ShowPlayToUIForWindow method, IPlayToManagerInterop.ShowPlayToUIForWindow, IPlayToManagerInterop::ShowPlayToUIForWindow, ShowPlayToUIForWindow, ShowPlayToUIForWindow method [Windows Runtime], ShowPlayToUIForWindow method [Windows Runtime],IPlayToManagerInterop interface, playtomanagerinterop/IPlayToManagerInterop::ShowPlayToUIForWindow, winrt.iplaytomanagerinterop_showplaytouiforwindow
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: playtomanagerinterop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Playtomanagerinterop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	playtomanagerinterop.h
+api_name:
+-	IPlayToManagerInterop.ShowPlayToUIForWindow
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPlayToManagerInterop::ShowPlayToUIForWindow

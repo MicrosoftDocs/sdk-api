@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.ITraceDataCollector.get_FlushTimer
+title: ITraceDataCollector::get_FlushTimer
+author: windows-sdk-content
+description: Retrieves or sets the time to wait before flushing buffers.
+old-location: pla\itracedatacollector_flushtimer.htm
+old-project: PLA
+ms.assetid: 545f40ec-cbe2-4109-a018-d27000eeaf08
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: FlushTimer property [PLA], FlushTimer property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],FlushTimer property, ITraceDataCollector.FlushTimer, ITraceDataCollector.get_FlushTimer, ITraceDataCollector::FlushTimer, ITraceDataCollector::get_FlushTimer, ITraceDataCollector::put_FlushTimer, base.itracedatacollector_flushtimer, get_FlushTimer, pla.itracedatacollector_flushtimer, pla/ITraceDataCollector::FlushTimer, pla/ITraceDataCollector::get_FlushTimer, pla/ITraceDataCollector::put_FlushTimer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	ITraceDataCollector.FlushTimer
+-	ITraceDataCollector.get_FlushTimer
+-	ITraceDataCollector.put_FlushTimer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITraceDataCollector::get_FlushTimer

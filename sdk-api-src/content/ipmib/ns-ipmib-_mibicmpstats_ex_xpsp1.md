@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipmib._MIBICMPSTATS_EX_XPSP1
+title: "_MIBICMPSTATS_EX_XPSP1"
+author: windows-sdk-content
+description: Contains extended statistics for either incoming or outgoing Internet Control Message Protocol (ICMP) messages on a particular computer.
+old-location: mib\mibicmpstats_ex.htm
+old-project: MIB
+ms.assetid: d97921f8-8be0-4a14-887f-aaafcb82eb1f
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIBICMPSTATS_EX, *PMIBICMPSTATS_EX_XPSP1, MIBICMPSTATS_EX, MIBICMPSTATS_EX structure [MIB], MIBICMPSTATS_EX_XPSP1, PMIBICMPSTATS_EX, PMIBICMPSTATS_EX structure pointer [MIB], _MIBICMPSTATS_EX_XPSP1, ipmib/MIBICMPSTATS_EX, ipmib/PMIBICMPSTATS_EX, iprtrmib/MIBICMPSTATS_EX, iprtrmib/PMIBICMPSTATS_EX, mib.mibicmpstats_ex, rras.mibicmpstats_ex"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIBICMPSTATS_EX_XPSP1, *PMIBICMPSTATS_EX_XPSP1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipmib.h
+-	Iprtrmib.h
+api_name:
+-	MIBICMPSTATS_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MIBICMPSTATS_EX_XPSP1 structure

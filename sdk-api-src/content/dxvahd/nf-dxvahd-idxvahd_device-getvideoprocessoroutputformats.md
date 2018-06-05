@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxvahd.IDXVAHD_Device.GetVideoProcessorOutputFormats
+title: IDXVAHD_Device::GetVideoProcessorOutputFormats
+author: windows-sdk-content
+description: Gets a list of the output formats supported by the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
+old-location: mf\idxvahd_device_getvideoprocessoroutputformats.htm
+old-project: medfound
+ms.assetid: e701014d-c112-42fa-9bf5-88cb31424006
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetVideoProcessorOutputFormats, GetVideoProcessorOutputFormats method [Media Foundation], GetVideoProcessorOutputFormats method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorOutputFormats method, IDXVAHD_Device.GetVideoProcessorOutputFormats, IDXVAHD_Device::GetVideoProcessorOutputFormats, dxvahd/IDXVAHD_Device::GetVideoProcessorOutputFormats, mf.idxvahd_device_getvideoprocessoroutputformats
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxvahd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVAHD_SURFACE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxvahd.h
+api_name:
+-	IDXVAHD_Device.GetVideoProcessorOutputFormats
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXVAHD_Device::GetVideoProcessorOutputFormats

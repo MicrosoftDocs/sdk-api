@@ -1,31 +1,55 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlwapi.AssocQueryStringA
+title: AssocQueryStringA function
+author: windows-sdk-content
+description: Searches for and retrieves a file or protocol association-related string from the registry.
+old-location: shell\AssocQueryString.htm
+old-project: shell
+ms.assetid: 026b841d-b831-475e-a788-2c79801e20b8
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: AssocQueryString, AssocQueryString function [Windows Shell], AssocQueryStringA, AssocQueryStringW, CLSID, Executable name, File name extension, ProgID, _win32_AssocQueryString, shell.AssocQueryString, shlwapi/AssocQueryString, shlwapi/AssocQueryStringA, shlwapi/AssocQueryStringW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: AssocQueryStringW (Unicode) and AssocQueryStringA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+-	API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+-	Ext-MS-Win-shell-shlwapi-l1-1-0.dll
+-	api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+-	Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
+-	Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
+api_name:
+-	AssocQueryString
+-	AssocQueryStringA
+-	AssocQueryStringW
+product: Windows
+targetos: Windows
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # AssocQueryStringA function

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mswmdm.ISCPSecureExchange3.TransferContainerDataOnClearChannel
+title: ISCPSecureExchange3::TransferContainerDataOnClearChannel
+author: windows-sdk-content
+description: The TransferContainerDataOnClearChannel method transfers container file data to the content provider through the clear channel.
+old-location: wmdm\iscpsecureexchange3__transfercontainerdataonclearchannel.htm
+old-project: WMDM
+ms.assetid: aac0fc79-4615-442f-8c08-06addf40c799
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ISCPSecureExchange3 interface [windows Media Device Manager],TransferContainerDataOnClearChannel method, ISCPSecureExchange3.TransferContainerDataOnClearChannel, ISCPSecureExchange3::TransferContainerDataOnClearChannel, ISCPSecureExchange3TransferContainerDataOnClearChannel, TransferContainerDataOnClearChannel, TransferContainerDataOnClearChannel method [windows Media Device Manager], TransferContainerDataOnClearChannel method [windows Media Device Manager],ISCPSecureExchange3 interface, WMDM_SCP_NO_MORE_CHANGES, WMDM_SCP_TRANSFER_OBJECTDATA, mswmdm/ISCPSecureExchange3::TransferContainerDataOnClearChannel, wmdm.iscpsecureexchange3__transfercontainerdataonclearchannel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	ISCPSecureExchange3.TransferContainerDataOnClearChannel
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISCPSecureExchange3::TransferContainerDataOnClearChannel

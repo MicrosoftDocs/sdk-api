@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objsel.IDsObjectPicker.Initialize
+title: IDsObjectPicker::Initialize
+author: windows-sdk-content
+description: The IDsObjectPicker::Initialize method initializes the object picker dialog box with data about the scopes, filters, and options used by the object picker dialog box.
+old-location: ad\idsobjectpicker_initialize.htm
+old-project: AD
+ms.assetid: bcf4d283-6709-4425-a122-8f0808502b58
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IDsObjectPicker interface [Active Directory],Initialize method, IDsObjectPicker.Initialize, IDsObjectPicker::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsObjectPicker interface, _glines_idsobjectpicker_initialize, ad.idsobjectpicker__initialize, ad.idsobjectpicker_initialize, objsel/IDsObjectPicker::Initialize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: objsel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ObjectParserFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Objsel.dll
+api_name:
+-	IDsObjectPicker.Initialize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Objsel.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDsObjectPicker::Initialize

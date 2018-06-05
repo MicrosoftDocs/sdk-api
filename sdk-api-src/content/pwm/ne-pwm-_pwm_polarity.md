@@ -1,24 +1,24 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+UID: NE:pwm._PWM_POLARITY
+title: "_PWM_POLARITY"
+author: windows-sdk-content
+description: Represents the Pulse Width Modulation (PWM) signal level polarity with respect to the duty cycle.
+old-location: base\pwm_polarity.htm
+old-project: DevIO
+ms.assetid: D818E512-5E50-4CF2-AF22-1A4AB07679A6
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: PWM_ACTIVE_HIGH, PWM_ACTIVE_LOW, PWM_POLARITY, PWM_POLARITY enumeration, _PWM_POLARITY, base.pwm_polarity, pwm/PWM_ACTIVE_HIGH, pwm/PWM_ACTIVE_LOW, pwm/PWM_POLARITY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: pwm.h
+req.include-header: Pwm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 1.19
+req.umdf-ver: 2.19
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PWM_POLARITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pwm.h
+api_name:
+-	PWM_POLARITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PWM_POLARITY enumeration

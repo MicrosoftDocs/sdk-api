@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dvdmedia._AM_COLCON
+title: "_AM_COLCON"
+author: windows-sdk-content
+description: Indicates the color contrast description from the DVD highlight (HLI) structure.
+old-location: dshow\am_colcon.htm
+old-project: DirectShow
+ms.assetid: 9358d860-6187-48d9-81b6-d5d65d73786d
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PAM_COLCON, AM_COLCON, AM_COLCON structure [DirectShow], PAM_COLCON, PAM_COLCON structure pointer [DirectShow], _AM_COLCON, dshow.am_colcon, dvdmedia/AM_COLCON, dvdmedia/PAM_COLCON"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dvdmedia.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_COLCON, *PAM_COLCON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dvdmedia.h
+api_name:
+-	AM_COLCON
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _AM_COLCON structure

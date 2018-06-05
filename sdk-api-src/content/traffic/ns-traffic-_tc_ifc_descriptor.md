@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:traffic._TC_IFC_DESCRIPTOR
+title: "_TC_IFC_DESCRIPTOR"
+author: windows-sdk-content
+description: The TC_IFC_DESCRIPTOR structure is an interface identifier used to enumerate interfaces.
+old-location: qos\tc_ifc_descriptor.htm
+old-project: QOS
+ms.assetid: 0ab0a17e-4055-43ee-81fd-c23fcecb8cb6
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*PTC_IFC_DESCRIPTOR, PTC_IFC_DESCRIPTOR, PTC_IFC_DESCRIPTOR structure pointer [QOS], TC_IFC_DESCRIPTOR, TC_IFC_DESCRIPTOR structure [QOS], _TC_IFC_DESCRIPTOR, _gqos_tc_ifc_descriptor, qos.tc_ifc_descriptor, traffic/PTC_IFC_DESCRIPTOR, traffic/TC_IFC_DESCRIPTOR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: traffic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TC_IFC_DESCRIPTOR, *PTC_IFC_DESCRIPTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Traffic.h
+api_name:
+-	TC_IFC_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TC_IFC_DESCRIPTOR structure

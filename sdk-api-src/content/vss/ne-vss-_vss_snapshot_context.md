@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vss._VSS_SNAPSHOT_CONTEXT
+title: "_VSS_SNAPSHOT_CONTEXT"
+author: windows-sdk-content
+description: Specify how a shadow copy is to be created, queried, or deleted and the degree of writer involvement.
+old-location: base\_vss_snapshot_context.htm
+old-project: VSS
+ms.assetid: 2efe3066-4b91-4501-bacb-4211b222e0c3
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PVSS_SNAPSHOT_CONTEXT, PVSS_SNAPSHOT_CONTEXT, PVSS_SNAPSHOT_CONTEXT enumeration pointer [VSS], VSS_CTX_ALL, VSS_CTX_APP_ROLLBACK, VSS_CTX_BACKUP, VSS_CTX_CLIENT_ACCESSIBLE, VSS_CTX_CLIENT_ACCESSIBLE_WRITERS, VSS_CTX_FILE_SHARE_BACKUP, VSS_CTX_NAS_ROLLBACK, VSS_SNAPSHOT_CONTEXT, VSS_SNAPSHOT_CONTEXT enumeration [VSS], _VSS_SNAPSHOT_CONTEXT, _VSS_SNAPSHOT_CONTEXT enumeration [VSS], _win32__vss_snapshot_context, base._vss_snapshot_context, vss/PVSS_SNAPSHOT_CONTEXT, vss/VSS_CTX_ALL, vss/VSS_CTX_APP_ROLLBACK, vss/VSS_CTX_BACKUP, vss/VSS_CTX_CLIENT_ACCESSIBLE, vss/VSS_CTX_CLIENT_ACCESSIBLE_WRITERS, vss/VSS_CTX_FILE_SHARE_BACKUP, vss/VSS_CTX_NAS_ROLLBACK, vss/_VSS_SNAPSHOT_CONTEXT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vss.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_SNAPSHOT_CONTEXT, *PVSS_SNAPSHOT_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vss.h
+api_name:
+-	VSS_SNAPSHOT_CONTEXT
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VSS_SNAPSHOT_CONTEXT enumeration

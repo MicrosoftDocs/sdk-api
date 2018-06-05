@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CMSG_CTRL_KEY_TRANS_DECRYPT_PARA
+title: "_CMSG_CTRL_KEY_TRANS_DECRYPT_PARA"
+author: windows-sdk-content
+description: Contains information about a key transport message recipient.
+old-location: security\cmsg_ctrl_key_trans_decrypt_para.htm
+old-project: SecCrypto
+ms.assetid: 5f3387c9-4ff0-42a0-8fc7-67d3bb8b6bef
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA, CMSG_CTRL_KEY_TRANS_DECRYPT_PARA, CMSG_CTRL_KEY_TRANS_DECRYPT_PARA structure [Security], PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA, PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA structure pointer [Security], _CMSG_CTRL_KEY_TRANS_DECRYPT_PARA, _crypto2_cmsg_ctrl_key_trans_decrypt_para, security.cmsg_ctrl_key_trans_decrypt_para, wincrypt/CMSG_CTRL_KEY_TRANS_DECRYPT_PARA, wincrypt/PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CMSG_CTRL_KEY_TRANS_DECRYPT_PARA, *PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CMSG_CTRL_KEY_TRANS_DECRYPT_PARA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CMSG_CTRL_KEY_TRANS_DECRYPT_PARA structure

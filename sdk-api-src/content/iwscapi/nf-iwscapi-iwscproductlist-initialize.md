@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iwscapi.IWSCProductList.Initialize
+title: IWSCProductList::Initialize
+author: windows-sdk-content
+description: Gathers information on all of the providers of the specified type on the computer.
+old-location: winprog\iwscproductlist_initialize.htm
+old-project: DevNotes
+ms.assetid: 0D003510-BCFE-45E9-A34E-58036C382157
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IWSCProductList interface [Windows API],Initialize method, IWSCProductList.Initialize, IWSCProductList::Initialize, Initialize, Initialize method [Windows API], Initialize method [Windows API],IWSCProductList interface, WSC_SECURITY_PROVIDER_ANTISPYWARE, WSC_SECURITY_PROVIDER_ANTIVIRUS, WSC_SECURITY_PROVIDER_FIREWALL, iwscapi/IWSCProductList::Initialize, winprog.iwscproductlist_initialize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: iwscapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSC_SECURITY_SIGNATURE_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wscapi.dll
+api_name:
+-	IWSCProductList.Initialize
+product: Windows
+targetos: Windows
+req.lib: Wscapi.lib
+req.dll: Wscapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IWSCProductList::Initialize

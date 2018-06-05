@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:workspaceruntime.IWorkspace3.GetClaimsToken2
+title: IWorkspace3::GetClaimsToken2
+author: windows-sdk-content
+description: Retrieves a claims token.
+old-location: termserv\iworkspace3_getclaimstoken2.htm
+old-project: TermServ
+ms.assetid: d615b999-0713-4d16-a89b-b5b208a76124
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetClaimsToken2, GetClaimsToken2 method [Remote Desktop Services], GetClaimsToken2 method [Remote Desktop Services],IWorkspace3 interface, IWorkspace3 interface [Remote Desktop Services],GetClaimsToken2 method, IWorkspace3.GetClaimsToken2, IWorkspace3::GetClaimsToken2, termserv.iworkspace3_getclaimstoken2, workspaceruntime/IWorkspace3::GetClaimsToken2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: workspaceruntime.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WorkspaceRuntime.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	workspaceruntime.h
+api_name:
+-	IWorkspace3.GetClaimsToken2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWorkspace3::GetClaimsToken2

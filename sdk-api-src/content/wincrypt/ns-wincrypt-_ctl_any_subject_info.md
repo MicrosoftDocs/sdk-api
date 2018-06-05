@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CTL_ANY_SUBJECT_INFO
+title: "_CTL_ANY_SUBJECT_INFO"
+author: windows-sdk-content
+description: Contains a SubjectAlgorithm to be matched in the certificate trust list (CTL) and the SubjectIdentifier to be matched in one of the CTL entries in calls to CertFindSubjectInCTL.
+old-location: security\ctl_any_subject_info.htm
+old-project: SecCrypto
+ms.assetid: 367e9914-b69b-47ad-a20a-3dd067708787
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCTL_ANY_SUBJECT_INFO, CTL_ANY_SUBJECT_INFO, CTL_ANY_SUBJECT_INFO structure [Security], PCTL_ANY_SUBJECT_INFO, PCTL_ANY_SUBJECT_INFO structure pointer [Security], _CTL_ANY_SUBJECT_INFO, _crypto2_ctl_any_subject_info, security.ctl_any_subject_info, wincrypt/CTL_ANY_SUBJECT_INFO, wincrypt/PCTL_ANY_SUBJECT_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CTL_ANY_SUBJECT_INFO, *PCTL_ANY_SUBJECT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CTL_ANY_SUBJECT_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CTL_ANY_SUBJECT_INFO structure

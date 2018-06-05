@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmClassificationManager.EnumFileProperties
+title: IFsrmClassificationManager::EnumFileProperties
+author: windows-sdk-content
+description: Enumerates the properties of the specified file.
+old-location: fsrm\ifsrmclassificationmanager_enumfileproperties.htm
+old-project: Fsrm
+ms.assetid: 9a833e94-d26b-4c94-bf2f-76ac6db3f8e9
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: EnumFileProperties, EnumFileProperties method [File Server Resource Manager], EnumFileProperties method [File Server Resource Manager],FsrmClassificationManager class, EnumFileProperties method [File Server Resource Manager],IFsrmClassificationManager interface, EnumFileProperties method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],EnumFileProperties method, IFsrmClassificationManager interface [File Server Resource Manager],EnumFileProperties method, IFsrmClassificationManager.EnumFileProperties, IFsrmClassificationManager2 interface [File Server Resource Manager],EnumFileProperties method, IFsrmClassificationManager2::EnumFileProperties, IFsrmClassificationManager::EnumFileProperties, fs.ifsrmclassificationmanager_enumfileproperties, fsrm.ifsrmclassificationmanager_enumfileproperties, fsrmpipeline/IFsrmClassificationManager2::EnumFileProperties, fsrmpipeline/IFsrmClassificationManager::EnumFileProperties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: FsrmPipeline.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmClassificationManager.EnumFileProperties
+-	IFsrmClassificationManager2.EnumFileProperties
+-	FsrmClassificationManager.EnumFileProperties
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmClassificationManager::EnumFileProperties

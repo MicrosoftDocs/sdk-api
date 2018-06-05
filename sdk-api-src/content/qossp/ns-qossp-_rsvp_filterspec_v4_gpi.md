@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:qossp._RSVP_FILTERSPEC_V4_GPI
+title: "_RSVP_FILTERSPEC_V4_GPI"
+author: windows-sdk-content
+description: The RSVP_FILTERSPEC_V4_GPI structure provides general port identifier information for a given FILTERSPEC.
+old-location: qos\rsvp_filterspec_v4_gpi.htm
+old-project: QOS
+ms.assetid: bedb3526-700c-4c99-ba02-19389a78acf8
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPRSVP_FILTERSPEC_V4_GPI, *LPRSVP_FILTERSPEC_V4_GPI structure [QOS], RSVP_FILTERSPEC_V4_GPI, RSVP_FILTERSPEC_V4_GPI structure [QOS], _RSVP_FILTERSPEC_V4_GPI, qos.rsvp_filterspec_v4_gpi, qossp/*LPRSVP_FILTERSPEC_V4_GPI, qossp/RSVP_FILTERSPEC_V4_GPI"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: qossp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RSVP_FILTERSPEC_V4_GPI, *LPRSVP_FILTERSPEC_V4_GPI
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Qossp.h
+api_name:
+-	RSVP_FILTERSPEC_V4_GPI
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RSVP_FILTERSPEC_V4_GPI structure

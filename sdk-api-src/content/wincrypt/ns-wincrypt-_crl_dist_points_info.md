@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRL_DIST_POINTS_INFO
+title: "_CRL_DIST_POINTS_INFO"
+author: windows-sdk-content
+description: Contains a list of certificate revocation list (CRL) distribution points a certificate user can reference to determine whether the certificate has been revoked.
+old-location: security\crl_dist_points_info.htm
+old-project: SecCrypto
+ms.assetid: cc0fe49c-80ab-42d8-9756-a6d6b885761e
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRL_DIST_POINTS_INFO, CRL_DIST_POINTS_INFO, CRL_DIST_POINTS_INFO structure [Security], PCRL_DIST_POINTS_INFO, PCRL_DIST_POINTS_INFO structure pointer [Security], _CRL_DIST_POINTS_INFO, _crypto2_crl_dist_points_info, security.crl_dist_points_info, wincrypt/CRL_DIST_POINTS_INFO, wincrypt/PCRL_DIST_POINTS_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRL_DIST_POINTS_INFO, *PCRL_DIST_POINTS_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRL_DIST_POINTS_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRL_DIST_POINTS_INFO structure

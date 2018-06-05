@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_TIMESTAMP_RESPONSE
+title: "_CRYPT_TIMESTAMP_RESPONSE"
+author: windows-sdk-content
+description: Is used internally to encapsulate an Abstract Syntax Notation One (ASN.1) Distinguished Encoding Rules (DER) encoded response.
+old-location: security\crypt_timestamp_response.htm
+old-project: SecCrypto
+ms.assetid: 81647cb7-e5da-4a8b-a50f-83bedd9c0aba
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_TIMESTAMP_RESPONSE, CRYPT_TIMESTAMP_RESPONSE, CRYPT_TIMESTAMP_RESPONSE structure [Security], PCRYPT_TIMESTAMP_RESPONSE, PCRYPT_TIMESTAMP_RESPONSE structure pointer [Security], TIMESTAMP_FAILURE_BAD_ALG, TIMESTAMP_FAILURE_BAD_FORMAT, TIMESTAMP_FAILURE_BAD_REQUEST, TIMESTAMP_FAILURE_EXTENSION_NOT_SUPPORTED, TIMESTAMP_FAILURE_INFO_NOT_AVAILABLE, TIMESTAMP_FAILURE_POLICY_NOT_SUPPORTED, TIMESTAMP_FAILURE_SYSTEM_FAILURE, TIMESTAMP_FAILURE_TIME_NOT_AVAILABLE, TIMESTAMP_STATUS_GRANTED, TIMESTAMP_STATUS_GRANTED_WITH_MODS, TIMESTAMP_STATUS_REJECTED, TIMESTAMP_STATUS_REVOCATION_WARNING, TIMESTAMP_STATUS_REVOKED, TIMESTAMP_STATUS_WAITING, _CRYPT_TIMESTAMP_RESPONSE, security.crypt_timestamp_response, wincrypt/CRYPT_TIMESTAMP_RESPONSE, wincrypt/PCRYPT_TIMESTAMP_RESPONSE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_TIMESTAMP_RESPONSE, *PCRYPT_TIMESTAMP_RESPONSE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRYPT_TIMESTAMP_RESPONSE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_TIMESTAMP_RESPONSE structure

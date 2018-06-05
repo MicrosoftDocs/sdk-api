@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:directxpackedvector.XMStoreDec4
+title: XMStoreDec4 function
+author: windows-sdk-content
+description: Stores an XMVECTOR in an XMDEC4.
+old-location: dxmath\xmstoredec4.htm
+old-project: dxmath
+ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreDec4(XMDEC4@,XMVECTOR)
+ms.author: windowssdkdev
+ms.date: 04/23/2018
+ms.keywords: DirectX::PackedVector.XMStoreDec4, XMStoreDec4, XMStoreDec4 method [DirectX Math Support APIs], dxmath.xmstoredec4
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: directxpackedvector.h
+req.include-header: DirectXPackedVector.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -23,9 +23,25 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: 
+req.namespace: DirectX::PackedVector
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	directxpackedvector.inl
+api_name:
+-	XMStoreDec4
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # XMStoreDec4 function

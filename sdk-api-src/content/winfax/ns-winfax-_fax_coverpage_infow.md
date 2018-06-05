@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winfax._FAX_COVERPAGE_INFOW
+title: "_FAX_COVERPAGE_INFOW"
+author: windows-sdk-content
+description: The FAX_COVERPAGE_INFO structure contains data to display on the cover page of a fax transmission. The SizeOfStruct and CoverPageName members are required; other members are optional.
+old-location: fax\_mfax_fax_coverpage_info_str.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxlegacy_3zaq.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PFAX_COVERPAGE_INFOW, FAX_COVERPAGE_INFO, FAX_COVERPAGE_INFO structure [Fax Service], FAX_COVERPAGE_INFOA, FAX_COVERPAGE_INFOW, PFAX_COVERPAGE_INFO, PFAX_COVERPAGE_INFO structure pointer [Fax Service], _FAX_COVERPAGE_INFOW, _mfax_fax_coverpage_info_str, fax._mfax_fax_coverpage_info_str, winfax/FAX_COVERPAGE_INFO, winfax/FAX_COVERPAGE_INFOA, winfax/FAX_COVERPAGE_INFOW, winfax/PFAX_COVERPAGE_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winfax.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: FAX_COVERPAGE_INFOW (Unicode) and FAX_COVERPAGE_INFOA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FAX_COVERPAGE_INFOW, *PFAX_COVERPAGE_INFOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winfax.h
+api_name:
+-	FAX_COVERPAGE_INFO
+-	FAX_COVERPAGE_INFOA
+-	FAX_COVERPAGE_INFOW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FAX_COVERPAGE_INFOW structure

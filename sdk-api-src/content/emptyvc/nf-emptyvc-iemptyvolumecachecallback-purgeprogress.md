@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:emptyvc.IEmptyVolumeCacheCallBack.PurgeProgress
+title: IEmptyVolumeCacheCallBack::PurgeProgress
+author: windows-sdk-content
+description: Called periodically by a disk cleanup handler to update the disk cleanup manager on the progress of a purge of deletable files.
+old-location: lwef\iemptyvolumecachecallback_purgeprogress.htm
+old-project: lwef
+ms.assetid: 96b97919-9b3b-418e-a76a-a2e8aad453b9
+ms.author: windowssdkdev
+ms.date: 04/27/2018
+ms.keywords: EVCCBF_LASTNOTIFICATION, IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features],PurgeProgress method, IEmptyVolumeCacheCallBack.PurgeProgress, IEmptyVolumeCacheCallBack::PurgeProgress, PurgeProgress, PurgeProgress method [Legacy Windows Environment Features], PurgeProgress method [Legacy Windows Environment Features],IEmptyVolumeCacheCallBack interface, _win32_IEmptyVolumeCacheCallBack_PurgeProgress, emptyvc/IEmptyVolumeCacheCallBack::PurgeProgress, lwef.iemptyvolumecachecallback_purgeprogress, shell.iemptyvolumecachecallback_purgeprogress
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: emptyvc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMI_VERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IEmptyVolumeCacheCallBack.PurgeProgress
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IEmptyVolumeCacheCallBack::PurgeProgress

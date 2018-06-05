@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certadm.ICertAdmin.ResubmitRequest
+title: ICertAdmin::ResubmitRequest
+author: windows-sdk-content
+description: Submits the specified certificate request to the policy module for the specified certification authority. This method was first introduced in the ICertAdmin interface.
+old-location: security\icertadmin2_resubmitrequest.htm
+old-project: SecCrypto
+ms.assetid: 610712d9-3661-42ba-9d2f-27862ba8dbd4
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertAdmin object [Security],ResubmitRequest method, ICertAdmin interface [Security],ResubmitRequest method, ICertAdmin.ResubmitRequest, ICertAdmin2 interface [Security],ResubmitRequest method, ICertAdmin2::ResubmitRequest, ICertAdmin::ResubmitRequest, ResubmitRequest, ResubmitRequest method [Security], ResubmitRequest method [Security],CCertAdmin object, ResubmitRequest method [Security],ICertAdmin interface, ResubmitRequest method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::ResubmitRequest, certadm/ICertAdmin::ResubmitRequest, security.icertadmin2_resubmitrequest
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certadm.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certadm.dll
+api_name:
+-	ICertAdmin2.ResubmitRequest
+-	ICertAdmin.ResubmitRequest
+-	CCertAdmin.ResubmitRequest
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # ICertAdmin::ResubmitRequest

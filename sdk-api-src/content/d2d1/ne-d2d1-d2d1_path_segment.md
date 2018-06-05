@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d2d1.D2D1_PATH_SEGMENT
+title: D2D1_PATH_SEGMENT
+author: windows-sdk-content
+description: Indicates whether a segment should be stroked and whether the join between this segment and the previous one should be smooth. This enumeration allows a bitwise combination of its member values.
+old-location: direct2d\D2D1_PATH_SEGMENT.htm
+old-project: Direct2D
+ms.assetid: 375a0a40-ec98-4f41-9c15-d284f8b17a73
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_PATH_SEGMENT, D2D1_PATH_SEGMENT enumeration [Direct2D], D2D1_PATH_SEGMENT_FORCE_ROUND_LINE_JOIN, D2D1_PATH_SEGMENT_FORCE_UNSTROKED, D2D1_PATH_SEGMENT_NONE, d2d1/D2D1_PATH_SEGMENT, d2d1/D2D1_PATH_SEGMENT_FORCE_ROUND_LINE_JOIN, d2d1/D2D1_PATH_SEGMENT_FORCE_UNSTROKED, d2d1/D2D1_PATH_SEGMENT_NONE, direct2d.D2D1_PATH_SEGMENT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ctxtcall.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_PATH_SEGMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1.h
+api_name:
+-	D2D1_PATH_SEGMENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D2D1_PATH_SEGMENT enumeration

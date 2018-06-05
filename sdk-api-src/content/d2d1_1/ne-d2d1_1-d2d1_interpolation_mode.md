@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d2d1_1.D2D1_INTERPOLATION_MODE
+title: D2D1_INTERPOLATION_MODE
+author: windows-sdk-content
+description: This is used to specify the quality of image scaling with ID2D1DeviceContext::DrawImage and with the 2D affine transform effect.
+old-location: direct2d\__d2d1_image_interpolation_mode.htm
+old-project: Direct2D
+ms.assetid: 7a32f551-afad-4eb2-953f-a9acc71d7776
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_INTERPOLATION_MODE, D2D1_INTERPOLATION_MODE enumeration [Direct2D], D2D1_INTERPOLATION_MODE_ANISOTROPIC, D2D1_INTERPOLATION_MODE_CUBIC, D2D1_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, D2D1_INTERPOLATION_MODE_LINEAR, D2D1_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, D2D1_INTERPOLATION_MODE_NEAREST_NEIGHBOR, d2d1_1/D2D1_INTERPOLATION_MODE, d2d1_1/D2D1_INTERPOLATION_MODE_ANISOTROPIC, d2d1_1/D2D1_INTERPOLATION_MODE_CUBIC, d2d1_1/D2D1_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, d2d1_1/D2D1_INTERPOLATION_MODE_LINEAR, d2d1_1/D2D1_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, d2d1_1/D2D1_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct2d.__D2D1_INTERPOLATION_MODE, direct2d.__d2d1_image_interpolation_mode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_INTERPOLATION_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D2d1_1.h
+api_name:
+-	D2D1_INTERPOLATION_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D2D1_INTERPOLATION_MODE enumeration

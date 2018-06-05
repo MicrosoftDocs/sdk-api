@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:secext.GetComputerObjectNameA
+title: GetComputerObjectNameA function
+author: windows-sdk-content
+description: Retrieves the local computer's name in a specified format.
+old-location: base\getcomputerobjectname.htm
+old-project: SysInfo
+ms.assetid: aead19ae-a27c-486e-aa2e-220d337044fc
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetComputerObjectName, GetComputerObjectName function, GetComputerObjectNameA, GetComputerObjectNameW, _win32_getcomputerobjectname, base.getcomputerobjectname, secext/GetComputerObjectName, secext/GetComputerObjectNameA, secext/GetComputerObjectNameW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: secext.h
+req.include-header: Security.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetComputerObjectNameW (Unicode) and GetComputerObjectNameA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Secur32.dll
+-	Ext-MS-Win-secur32-translatename-l1-1-0.dll
+-	Ext-MS-Win-Secur32-Translatename-L1-1-1.dll
+api_name:
+-	GetComputerObjectName
+-	GetComputerObjectNameA
+-	GetComputerObjectNameW
+product: Windows
+targetos: Windows
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # GetComputerObjectNameA function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi._DHCPV6_BIND_ELEMENT
+title: "_DHCPV6_BIND_ELEMENT"
+author: windows-sdk-content
+description: Defines an IPv6 interface binding for the DHCP server over which it receives DHCPv6 packets.
+old-location: dhcp\dhcpv6_bind_element.htm
+old-project: DHCP
+ms.assetid: 7c5b1d5d-7c91-46a8-aaa0-1d957430461d
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCPV6_BIND_ELEMENT, DHCPV6_BIND_ELEMENT, DHCPV6_BIND_ELEMENT structure [DHCP], DHCP_ENDPOINT_FLAG_CANT_MODIFY, PDHCPV6_BIND_ELEMENT, PDHCPV6_BIND_ELEMENT structure pointer [DHCP], _DHCPV6_BIND_ELEMENT, dhcp.dhcpv6_bind_element, dhcpsapi/DHCPV6_BIND_ELEMENT, dhcpsapi/PDHCPV6_BIND_ELEMENT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCPV6_BIND_ELEMENT, *LPDHCPV6_BIND_ELEMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCPV6_BIND_ELEMENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCPV6_BIND_ELEMENT structure

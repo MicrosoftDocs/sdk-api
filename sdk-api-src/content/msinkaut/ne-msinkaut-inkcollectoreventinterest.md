@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msinkaut.InkCollectorEventInterest
+title: InkCollectorEventInterest
+author: windows-sdk-content
+description: Defines values that are used to specify whether an event occurred on an ink collector and, if so, which event fired.
+old-location: tablet\inkcollectoreventinterest.htm
+old-project: tablet
+ms.assetid: db575790-345b-48da-b509-927eb2f47987
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: ICEI_AllEvents, ICEI_CursorButtonDown, ICEI_CursorButtonUp, ICEI_CursorDown, ICEI_CursorInRange, ICEI_CursorOutOfRange, ICEI_DblClick, ICEI_DefaultEvents, ICEI_MouseDown, ICEI_MouseMove, ICEI_MouseUp, ICEI_MouseWheel, ICEI_NewInAirPackets, ICEI_NewPackets, ICEI_Stroke, ICEI_SystemGesture, ICEI_TabletAdded, ICEI_TabletRemoved, InkCollectorEventInterest, InkCollectorEventInterest enumeration [Tablet PC], db575790-345b-48da-b509-927eb2f47987, msinkaut/ICEI_AllEvents, msinkaut/ICEI_CursorButtonDown, msinkaut/ICEI_CursorButtonUp, msinkaut/ICEI_CursorDown, msinkaut/ICEI_CursorInRange, msinkaut/ICEI_CursorOutOfRange, msinkaut/ICEI_DblClick, msinkaut/ICEI_DefaultEvents, msinkaut/ICEI_MouseDown, msinkaut/ICEI_MouseMove, msinkaut/ICEI_MouseUp, msinkaut/ICEI_MouseWheel, msinkaut/ICEI_NewInAirPackets, msinkaut/ICEI_NewPackets, msinkaut/ICEI_Stroke, msinkaut/ICEI_SystemGesture, msinkaut/ICEI_TabletAdded, msinkaut/ICEI_TabletRemoved, msinkaut/InkCollectorEventInterest, tablet.inkcollectoreventinterest
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InkCollectorEventInterest
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msinkaut.h
+api_name:
+-	InkCollectorEventInterest
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkCollectorEventInterest enumeration

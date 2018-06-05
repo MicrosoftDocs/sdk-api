@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:cmdtree.ICommandTree
+title: ICommandTree
+author: windows-sdk-content
+description: The ICommandTree interface is optional for providers that support commands. It contains methods for manipulating query trees. Providers that support command trees must also support specifying the same functionality through the ICommandText interface.
+old-location: indexsrv\icommandtree.htm
+old-project: IndexSrv
+ms.assetid: VS|indexsrv|~\html\ixoledb_0ckl.htm
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ICommandTree, ICommandTree interface [Indexing Service], ICommandTree interface [Indexing Service],described, _idxs_ICommandTree, cmdtree/ICommandTree, indexsrv.icommandtree
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: cmdtree.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CmdTre.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	cmdtree.h
+api_name:
+-	ICommandTree
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICommandTree interface

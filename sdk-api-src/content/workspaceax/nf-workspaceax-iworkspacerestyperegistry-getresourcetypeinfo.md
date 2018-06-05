@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:workspaceax.IWorkspaceResTypeRegistry.GetResourceTypeInfo
+title: IWorkspaceResTypeRegistry::GetResourceTypeInfo
+author: windows-sdk-content
+description: Retrieves information about a third-party file name extension that is registered with the RemoteApp and Desktop Connections runtime.
+old-location: termserv\iworkspacerestyperegistry_getresourcetypeinfo.htm
+old-project: TermServ
+ms.assetid: 60fa6676-c098-41b6-bebd-0a600ca37954
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetResourceTypeInfo, GetResourceTypeInfo method [Remote Desktop Services], GetResourceTypeInfo method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, GetResourceTypeInfo method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],GetResourceTypeInfo method, IWorkspaceResTypeRegistry.GetResourceTypeInfo, IWorkspaceResTypeRegistry::GetResourceTypeInfo, Workspace object [Remote Desktop Services],GetResourceTypeInfo method, termserv.iworkspacerestyperegistry_getresourcetypeinfo, workspaceax/IWorkspaceResTypeRegistry::GetResourceTypeInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: workspaceax.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,25 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: TSWorkspace.dll
+tech.root: 
+req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	TSWorkspace.dll
+api_name:
+-	IWorkspaceResTypeRegistry.GetResourceTypeInfo
+-	Workspace.GetResourceTypeInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: TSWorkspace.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWorkspaceResTypeRegistry::GetResourceTypeInfo

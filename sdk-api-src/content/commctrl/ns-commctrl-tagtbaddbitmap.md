@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.tagTBADDBITMAP
+title: tagTBADDBITMAP
+author: windows-sdk-content
+description: Adds a bitmap that contains button images to a toolbar.
+old-location: controls\TBADDBITMAP.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\toolbar\structures\tbaddbitmap.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPTBADDBITMAP, IDB_HIST_DISABLED, IDB_HIST_HOT, IDB_HIST_NORMAL, IDB_HIST_PRESSED, IDB_STD_LARGE_COLOR, IDB_STD_SMALL_COLOR, IDB_VIEW_LARGE_COLOR, IDB_VIEW_SMALL_COLOR, LPTBADDBITMAP, LPTBADDBITMAP structure pointer [Windows Controls], TBADDBITMAP, TBADDBITMAP structure [Windows Controls], _win32_TBADDBITMAP, _win32_TBADDBITMAP_cpp, commctrl/LPTBADDBITMAP, commctrl/TBADDBITMAP, controls.TBADDBITMAP, controls._win32_TBADDBITMAP, tagTBADDBITMAP"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TBADDBITMAP, *LPTBADDBITMAP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	TBADDBITMAP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagTBADDBITMAP structure

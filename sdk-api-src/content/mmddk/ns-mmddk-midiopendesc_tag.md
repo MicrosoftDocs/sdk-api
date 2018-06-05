@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:mmddk.midiopendesc_tag
+title: midiopendesc_tag
+author: windows-sdk-content
+description: The MIDIOPENDESC structure is a client-filled structure that provides information about how to open a MIDI device.
+old-location: audio\midiopendesc.htm
+old-project: audio
+ms.assetid: 7aacfd83-0188-4858-91e4-a6ce12a7e46d
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*LPMIDIOPENDESC, MIDIOPENDESC, MIDIOPENDESC structure [Audio Devices], aud-prop_47abc723-0254-493a-9bc0-ac9faa73a2e8.xml, audio.midiopendesc, midiopendesc_tag, mmddk/MIDIOPENDESC"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mmddk.h
+req.include-header: Mmddk.h, Mmsystem.h, Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows XP and later Windows operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIDIOPENDESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mmddk.h
+api_name:
+-	MIDIOPENDESC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # midiopendesc_tag structure

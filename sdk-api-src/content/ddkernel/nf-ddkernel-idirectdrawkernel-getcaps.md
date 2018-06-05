@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:ddkernel.IDirectDrawKernel.GetCaps
+title: IDirectDrawKernel::GetCaps
+author: windows-sdk-content
+description: The IDirectDrawKernel::GetCaps method returns the capabilities of this kernel-mode device.
+old-location: display\idirectdrawkernel_getcaps.htm
+old-project: display
+ms.assetid: c97ebe38-d62c-4ce8-8530-193dd83ef3d4
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetCaps, GetCaps method [Display Devices], GetCaps method [Display Devices],IDirectDrawKernel interface, IDirectDrawKernel interface [Display Devices],GetCaps method, IDirectDrawKernel.GetCaps, IDirectDrawKernel::GetCaps, ddfncs_52bda933-e948-4942-b52b-c0a42440c1fb.xml, ddkernel/IDirectDrawKernel::GetCaps, display.idirectdrawkernel_getcaps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ddkernel.h
+req.include-header: Ddraw.h, Ddkernel.h, Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MONMSGSTRUCT, *PMONMSGSTRUCT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ddkernel.h
+api_name:
+-	IDirectDrawKernel.GetCaps
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectDrawKernel::GetCaps

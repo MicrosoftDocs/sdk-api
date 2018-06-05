@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:rtmv2._EVENT_CALLBACK
+title: "_EVENT_CALLBACK"
+author: windows-sdk-content
+description: The RTM_EVENT_CALLBACK callback is used by the routing table manager to inform a client that the specified event occurred.
+old-location: rras\rtm_event_callback.htm
+old-project: RRAS
+ms.assetid: 57179cea-d92b-4199-bb61-b34d980532cf
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RTM_CHANGE_NOTIFICATION, RTM_ENTITY_DEREGISTERED, RTM_ENTITY_REGISTERED, RTM_EVENT_CALLBACK, RTM_EVENT_CALLBACK callback function [RAS], RTM_EVENT_CALLBACK callback function pointer [RAS], RTM_ROUTE_EXPIRED, _EVENT_CALLBACK, _EVENT_CALLBACK callback, _rtmv2ref_rtm_event_callback, rras.rtm_event_callback, rtmv2/RTM_EVENT_CALLBACK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: rtmv2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ProxyFileInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Rtmv2.h
+api_name:
+-	RTM_EVENT_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _EVENT_CALLBACK callback function

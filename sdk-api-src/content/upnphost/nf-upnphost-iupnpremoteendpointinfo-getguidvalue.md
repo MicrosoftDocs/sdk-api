@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:upnphost.IUPnPRemoteEndpointInfo.GetGuidValue
+title: IUPnPRemoteEndpointInfo::GetGuidValue
+author: windows-sdk-content
+description: The GetGuidValue method currently is not supported.
+old-location: upnp\iupnpremoteendpointinfo_getguidvalue.htm
+old-project: UPnP
+ms.assetid: 4cbfaa8c-80f1-49c6-91aa-17764559da8b
+ms.author: windowssdkdev
+ms.date: 04/25/2018
+ms.keywords: GetGuidValue, GetGuidValue method [UPnP APIs], GetGuidValue method [UPnP APIs],IUPnPRemoteEndpointInfo interface, IUPnPRemoteEndpointInfo interface [UPnP APIs],GetGuidValue method, IUPnPRemoteEndpointInfo.GetGuidValue, IUPnPRemoteEndpointInfo::GetGuidValue, upnp.iupnpremoteendpointinfo_getguidvalue, upnphost/IUPnPRemoteEndpointInfo::GetGuidValue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: upnphost.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_EVENTPARAMS_COMMAND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Upnphost.dll
+api_name:
+-	IUPnPRemoteEndpointInfo.GetGuidValue
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # IUPnPRemoteEndpointInfo::GetGuidValue

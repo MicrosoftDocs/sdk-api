@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wuapi.IWindowsDriverUpdateEntry.get_DriverManufacturer
+title: IWindowsDriverUpdateEntry::get_DriverManufacturer
+author: windows-sdk-content
+description: Gets the language-invariant name of the manufacturer of the Windows driver update.
+old-location: wua\iwindowsdriverupdateentry_drivermanufacturer.htm
+old-project: Wua_Sdk
+ms.assetid: 5f0a0afa-72fa-4e7a-9ae2-75004bf65e31
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: DriverManufacturer property [Windows Update Agent], DriverManufacturer property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DriverManufacturer property, IWindowsDriverUpdateEntry.DriverManufacturer, IWindowsDriverUpdateEntry.get_DriverManufacturer, IWindowsDriverUpdateEntry::DriverManufacturer, IWindowsDriverUpdateEntry::get_DriverManufacturer, get_DriverManufacturer, wua.iwindowsdriverupdateentry_drivermanufacturer, wuapi/IWindowsDriverUpdateEntry::DriverManufacturer, wuapi/IWindowsDriverUpdateEntry::get_DriverManufacturer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wuapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IWindowsDriverUpdateEntry.DriverManufacturer
+-	IWindowsDriverUpdateEntry.get_DriverManufacturer
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IWindowsDriverUpdateEntry::get_DriverManufacturer

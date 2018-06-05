@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rpcasync.tagRPC_ERROR_ENUM_HANDLE
+title: tagRPC_ERROR_ENUM_HANDLE
+author: windows-sdk-content
+description: The RPC_ERROR_ENUM_HANDLE structure provides an enumeration handle used by RpcError* functions for processing extended error information.
+old-location: rpc\rpc_error_enum_handle.htm
+old-project: Rpc
+ms.assetid: d6fbd0ad-b63e-4fb8-bebb-1b2b2552a8c8
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: RPC_ERROR_ENUM_HANDLE, RPC_ERROR_ENUM_HANDLE structure [RPC], _rpc_rpc_error_enum_handle, rpc.rpc_error_enum_handle, rpcasync/RPC_ERROR_ENUM_HANDLE, tagRPC_ERROR_ENUM_HANDLE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rpcasync.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_ERROR_ENUM_HANDLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rpcasync.h
+api_name:
+-	RPC_ERROR_ENUM_HANDLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagRPC_ERROR_ENUM_HANDLE structure

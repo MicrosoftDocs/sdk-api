@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:effects.IWMPEffects.GetCapabilities
+title: IWMPEffects::GetCapabilities
+author: windows-sdk-content
+description: The GetCapabilities method gets the capabilities of the visualization.
+old-location: wmp\iwmpeffects_getcapabilities.htm
+old-project: WMP
+ms.assetid: e2efb0cd-417f-4b96-a4d7-c02c41a6244d
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: EffectsGetCapabilities, GetCapabilities, GetCapabilities method [Windows Media Player], GetCapabilities method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetCapabilities method, IWMPEffects.GetCapabilities, IWMPEffects::GetCapabilities, effects/IWMPEffects::GetCapabilities, wmp.iwmpeffects_getcapabilities
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: effects.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player version 7.0 or later
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	effects.h
+api_name:
+-	IWMPEffects.GetCapabilities
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IWMPEffects::GetCapabilities

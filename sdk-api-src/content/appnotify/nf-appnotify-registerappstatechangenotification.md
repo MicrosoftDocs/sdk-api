@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:appnotify.RegisterAppStateChangeNotification
+title: RegisterAppStateChangeNotification function
+author: windows-sdk-content
+description: Enables an app to register a callback function through which it can be notified that its library is going into or coming out of a suspended state.
+old-location: shell\RegisterAppStateChangeNotification.htm
+old-project: shell
+ms.assetid: EE55F783-BF18-49F0-934E-67A252138565
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: RegisterAppStateChangeNotification, RegisterAppStateChangeNotification function [Windows Shell], appnotify/RegisterAppStateChangeNotification, shell.RegisterAppStateChangeNotification
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: appnotify.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PACKAGE_VERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	twinapi.core.dll
+-	API-MS-Win-Core-psm-appnotify-l1-1-0.dll
+-	twinapi.AppCore.dll
+api_name:
+-	RegisterAppStateChangeNotification
+product: Windows
+targetos: Windows
+req.lib: Appnotify.lib
+req.dll: Twinapi.core.dll
+req.irql: 
 ---
 
 # RegisterAppStateChangeNotification function

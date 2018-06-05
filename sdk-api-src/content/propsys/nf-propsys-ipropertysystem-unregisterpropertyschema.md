@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:propsys.IPropertySystem.UnregisterPropertySchema
+title: IPropertySystem::UnregisterPropertySchema
+author: windows-sdk-content
+description: Informs the schema subsystem of the removal of a property description schema (.propdesc) file, using a file path to the .propdesc file on the local machine.
+old-location: properties\IPropertySystem_UnregisterPropertySchema.htm
+old-project: properties
+ms.assetid: de81e174-9c32-455f-a7ba-a3d1b2223b84
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IPropertySystem interface [Windows Properties],UnregisterPropertySchema method, IPropertySystem.UnregisterPropertySchema, IPropertySystem::UnregisterPropertySchema, UnregisterPropertySchema, UnregisterPropertySchema method [Windows Properties], UnregisterPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_UnregisterPropertySchema, propsys/IPropertySystem::UnregisterPropertySchema, shell.IPropertySystem_UnregisterPropertySchema, shell_IPropertySystem_UnregisterPropertySchema
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Propsys.dll
+api_name:
+-	IPropertySystem.UnregisterPropertySchema
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Propsys.dll (version 5.0 or later)
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertySystem::UnregisterPropertySchema

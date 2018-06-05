@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11sdklayers.ID3D11InfoQueue.ClearRetrievalFilter
+title: ID3D11InfoQueue::ClearRetrievalFilter
+author: windows-sdk-content
+description: Remove a retrieval filter from the top of the retrieval-filter stack.
+old-location: direct3d11\id3d11infoqueue_clearretrievalfilter.htm
+old-project: direct3d11
+ms.assetid: f56142f8-ebd6-484b-ae1f-b5c19851fbd9
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: ClearRetrievalFilter, ClearRetrievalFilter method [Direct3D 11], ClearRetrievalFilter method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],ClearRetrievalFilter method, ID3D11InfoQueue.ClearRetrievalFilter, ID3D11InfoQueue::ClearRetrievalFilter, d3d11sdklayers/ID3D11InfoQueue::ClearRetrievalFilter, d7c11d24-11e8-c43e-13bb-fa939c558aad, direct3d11.id3d11infoqueue_clearretrievalfilter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11InfoQueue.ClearRetrievalFilter
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11InfoQueue::ClearRetrievalFilter

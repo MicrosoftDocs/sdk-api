@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clusapi._CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
+title: "_CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS"
+author: windows-sdk-content
+description: Contains a bitmask of the driver letters that are available on a node. It is used as the return value of the CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS control code.
+old-location: mscs\clus_storage_get_available_driveletters.htm
+old-project: MsCS
+ms.assetid: 37a843db-bb11-46e5-9b1c-da8403f73aa6
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS structure [Failover Cluster], PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS structure pointer [Failover Cluster], _CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, clusapi/CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, clusapi/PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, mscs.clus_storage_get_available_driveletters"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, *PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+api_name:
+-	CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS structure

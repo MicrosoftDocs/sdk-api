@@ -1,31 +1,57 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.FindFirstVolumeMountPointW
+title: FindFirstVolumeMountPointW function
+author: windows-sdk-content
+description: Retrieves the name of a mounted folder on the specified volume.
+old-location: fs\findfirstvolumemountpoint.htm
+old-project: FileIO
+ms.assetid: 2ac3c22d-b8dd-43d8-a7af-877b54e42d9d
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: FindFirstVolumeMountPoint, FindFirstVolumeMountPoint function [Files], FindFirstVolumeMountPointA, FindFirstVolumeMountPointW, _win32_findfirstvolumemountpoint, base.findfirstvolumemountpoint, fs.findfirstvolumemountpoint, winbase/FindFirstVolumeMountPoint, winbase/FindFirstVolumeMountPointA, winbase/FindFirstVolumeMountPointW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: FindFirstVolumeMountPointW (Unicode) and FindFirstVolumeMountPointA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+-	kernel32legacy.dll
+-	API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+-	API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+-	API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+-	FindFirstVolumeMountPoint
+-	FindFirstVolumeMountPointA
+-	FindFirstVolumeMountPointW
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # FindFirstVolumeMountPointW function

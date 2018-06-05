@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:hrtfapoapi.HrtfEnvironment
+title: HrtfEnvironment
+author: windows-sdk-content
+description: Indicates one of several stock environment types.
+old-location: xaudio2\hrtfenvironment.htm
+old-project: xaudio2
+ms.assetid: C7A11F70-E94D-4A90-98A7-FA3B4DF5043B
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: HrtfEnvironment, HrtfEnvironment enumeration [XAudio2 Audio Mixing APIs], Large, Medium, Outdoors, Small, hrtfapoapi/HrtfEnvironment, hrtfapoapi/Large, hrtfapoapi/Medium, hrtfapoapi/Outdoors, hrtfapoapi/Small, xaudio2.hrtfenvironment
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: hrtfapoapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: HolographicSpaceInterop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HrtfEnvironment
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	HrtfApoApi.h
+api_name:
+-	HrtfEnvironment
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # HrtfEnvironment enumeration

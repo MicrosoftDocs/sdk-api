@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NS:wingdi.DISPLAYCONFIG_PATH_SOURCE_INFO
+title: DISPLAYCONFIG_PATH_SOURCE_INFO
+author: windows-sdk-content
+description: The DISPLAYCONFIG_PATH_SOURCE_INFO structure contains source information for a single path.
+old-location: display\displayconfig_path_source_info.htm
+old-project: display
+ms.assetid: df43d20b-a55a-4bec-89a2-9ede03b4d6c5
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CCD_Structures_5a87f2c5-d99e-46f6-8a91-61d2d4edfb68.xml, DISPLAYCONFIG_PATH_SOURCE_INFO, DISPLAYCONFIG_PATH_SOURCE_INFO structure [Display Devices], display.displayconfig_path_source_info, wingdi/DISPLAYCONFIG_PATH_SOURCE_INFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DISPLAYCONFIG_PATH_SOURCE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wingdi.h
+api_name:
+-	DISPLAYCONFIG_PATH_SOURCE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # DISPLAYCONFIG_PATH_SOURCE_INFO structure

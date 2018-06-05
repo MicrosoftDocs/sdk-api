@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:indexsrv.ISimpleCommandCreator
+title: ISimpleCommandCreator
+author: windows-sdk-content
+description: Contains methods for interacting with the file catalog.
+old-location: search\isimplecommandcreator.htm
+old-project: search
+ms.assetid: CAC6BE83-863B-4DB0-B4FF-40029C242AE9
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: ISimpleCommandCreator, ISimpleCommandCreator interface [search], ISimpleCommandCreator interface [search],described, indexsrv/ISimpleCommandCreator, search.isimplecommandcreator
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: indexsrv.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WORDREP_BREAK_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	indexsrv.h
+api_name:
+-	ISimpleCommandCreator
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ISimpleCommandCreator interface

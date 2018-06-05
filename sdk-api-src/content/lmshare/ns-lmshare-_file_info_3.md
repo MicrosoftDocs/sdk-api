@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmshare._FILE_INFO_3
+title: "_FILE_INFO_3"
+author: windows-sdk-content
+description: Contains the identification number and other pertinent information about files, devices, and pipes.
+old-location: fs\file_info_3_str.htm
+old-project: NetShare
+ms.assetid: 67f5fa89-12c7-46fb-a118-de4bfed96923
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPFILE_INFO_3, *PFILE_INFO_3, FILE_INFO_3, FILE_INFO_3 structure [Files], LPFILE_INFO_3, LPFILE_INFO_3 structure pointer [Files], PERM_FILE_CREATE, PERM_FILE_READ, PERM_FILE_WRITE, PFILE_INFO_3, PFILE_INFO_3 structure pointer [Files], _FILE_INFO_3, _win32_file_info_3_str, fs.file_info_3_str, lmshare/FILE_INFO_3, lmshare/LPFILE_INFO_3, lmshare/PFILE_INFO_3, netmgmt.file_info_3_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmshare.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILE_INFO_3, *PFILE_INFO_3, *LPFILE_INFO_3
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmshare.h
+api_name:
+-	FILE_INFO_3
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _FILE_INFO_3 structure

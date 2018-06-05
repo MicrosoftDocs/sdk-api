@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:wincodec.IWICBitmapEncoder
+title: IWICBitmapEncoder
+author: windows-sdk-content
+description: Defines methods for setting an encoder's properties such as thumbnails, frames, and palettes.
+old-location: wic\_wic_codec_iwicbitmapencoder.htm
+old-project: wic
+ms.assetid: fe87c9ae-dedf-4ec2-ac11-0ea5fc6aa3ad
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Component], IWICBitmapEncoder interface [Windows Imaging Component],described, _wic_codec_iwicbitmapencoder, wic._wic_codec_iwicbitmapencoder, wincodec/IWICBitmapEncoder
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICTiffCompressionOption
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wincodec.h
+api_name:
+-	IWICBitmapEncoder
+product: Windows
+targetos: Windows
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWICBitmapEncoder interface

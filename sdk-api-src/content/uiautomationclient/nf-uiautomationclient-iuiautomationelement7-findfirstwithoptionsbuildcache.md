@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationElement7.FindFirstWithOptionsBuildCache
+title: IUIAutomationElement7::FindFirstWithOptionsBuildCache
+author: windows-sdk-content
+description: Finds the first matching element in the specified order, but also caches its properties and pattern.
+old-location: winauto\uiauto_IUIAutomationElement7_FindFirstWithOptionsBuildCache.htm
+old-project: WinAuto
+ms.assetid: 03683C11-7AB0-4933-A7C1-4A75A12079E1
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: FindFirstWithOptionsBuildCache, FindFirstWithOptionsBuildCache method [Windows Accessibility], FindFirstWithOptionsBuildCache method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],FindFirstWithOptionsBuildCache method, IUIAutomationElement7.FindFirstWithOptionsBuildCache, IUIAutomationElement7::FindFirstWithOptionsBuildCache, uiautomationclient/IUIAutomationElement7::FindFirstWithOptionsBuildCache, winauto.uiauto_IUIAutomationElement7_FindFirstWithOptionsBuildCache, winauto.uiauto_iuiautomationelement_findfirstwithoptionsbuildcache
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.dll
+api_name:
+-	IUIAutomationElement7.FindFirstWithOptionsBuildCache
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationElement7::FindFirstWithOptionsBuildCache

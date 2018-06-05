@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dmusics.IDirectMusicSynth.GetLatencyClock
+title: IDirectMusicSynth::GetLatencyClock
+author: windows-sdk-content
+description: The GetLatencyClock method retrieves a reference to the IReferenceClock interface (described in the Microsoft Windows SDK documentation) of the reference-clock object that tracks the current mix time.
+old-location: audio\idirectmusicsynth_getlatencyclock.htm
+old-project: audio
+ms.assetid: 36690d54-dc88-4e31-8f66-8a0b48be2712
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetLatencyClock, GetLatencyClock method [Audio Devices], GetLatencyClock method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetLatencyClock method, IDirectMusicSynth.GetLatencyClock, IDirectMusicSynth::GetLatencyClock, audio.idirectmusicsynth_getlatencyclock, audmp-routines_79ca400b-e04b-4381-aacb-79a3f9415683.xml, dmusics/IDirectMusicSynth::GetLatencyClock
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dmusics.h
+req.include-header: Dmusics.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dmusics.h
+api_name:
+-	IDirectMusicSynth.GetLatencyClock
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectMusicSynth::GetLatencyClock

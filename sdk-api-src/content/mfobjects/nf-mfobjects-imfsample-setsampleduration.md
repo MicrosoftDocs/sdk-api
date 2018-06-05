@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMFSample.SetSampleDuration
+title: IMFSample::SetSampleDuration
+author: windows-sdk-content
+description: Sets the duration of the sample.
+old-location: mf\imfsample_setsampleduration.htm
+old-project: medfound
+ms.assetid: f97be98e-8f1b-4bae-8cdd-8bdfe107894d
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFSample interface [Media Foundation],SetSampleDuration method, IMFSample.SetSampleDuration, IMFSample::SetSampleDuration, SetSampleDuration, SetSampleDuration method [Media Foundation], SetSampleDuration method [Media Foundation],IMFSample interface, f97be98e-8f1b-4bae-8cdd-8bdfe107894d, mf.imfsample_setsampleduration, mfobjects/IMFSample::SetSampleDuration
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFSample.SetSampleDuration
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSample::SetSampleDuration

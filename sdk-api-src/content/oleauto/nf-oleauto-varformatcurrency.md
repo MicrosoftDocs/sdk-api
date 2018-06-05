@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oleauto.VarFormatCurrency
+title: VarFormatCurrency function
+author: windows-sdk-content
+description: Formats a variant containing currency values into a string form.
+old-location: automat\varformatcurrency.htm
+old-project: automat
+ms.assetid: a0ad0c42-1b61-4421-9ea6-a256812bb342
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: VarFormatCurrency, VarFormatCurrency function [Automation], _oa96_VarFormatCurrency, automat.varformatcurrency, oleauto/VarFormatCurrency
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: oleauto.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REGKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	OleAut32.dll
+api_name:
+-	VarFormatCurrency
+product: Windows
+targetos: Windows
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VarFormatCurrency function

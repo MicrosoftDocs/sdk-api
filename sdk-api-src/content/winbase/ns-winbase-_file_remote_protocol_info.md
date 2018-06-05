@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbase._FILE_REMOTE_PROTOCOL_INFO
+title: "_FILE_REMOTE_PROTOCOL_INFO"
+author: windows-sdk-content
+description: Contains file remote protocol information.
+old-location: fs\file_remote_protocol_information.htm
+old-project: FileIO
+ms.assetid: ddb555ad-0acb-4538-88ce-a871adfc21fc
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PFILE_REMOTE_PROTOCOL_INFO, FILE_REMOTE_PROTOCOL_INFO, FILE_REMOTE_PROTOCOL_INFO structure [Files], PFILE_REMOTE_PROTOCOL_INFO, PFILE_REMOTE_PROTOCOL_INFO structure pointer [Files], REMOTE_PROTOCOL_FLAG_LOOPBACK, REMOTE_PROTOCOL_FLAG_OFFLINE, REMOTE_PROTOCOL_INFO_FLAG_INTEGRITY, REMOTE_PROTOCOL_INFO_FLAG_MUTUAL_AUTH, REMOTE_PROTOCOL_INFO_FLAG_PERSISTENT_HANDLE, REMOTE_PROTOCOL_INFO_FLAG_PRIVACY, WNNC_NET_10NET, WNNC_NET_3IN1, WNNC_NET_9TILES, WNNC_NET_APPLETALK, WNNC_NET_AS400, WNNC_NET_AVID, WNNC_NET_AVID1, WNNC_NET_BMC, WNNC_NET_BWNFS, WNNC_NET_CLEARCASE, WNNC_NET_COGENT, WNNC_NET_CSC, WNNC_NET_DAV, WNNC_NET_DCE, WNNC_NET_DECORB, WNNC_NET_DFS, WNNC_NET_DISTINCT, WNNC_NET_DOCUSPACE, WNNC_NET_DRIVEONWEB, WNNC_NET_EXIFS, WNNC_NET_EXTENDNET, WNNC_NET_FARALLON, WNNC_NET_FJ_REDIR, WNNC_NET_FOXBAT, WNNC_NET_FRONTIER, WNNC_NET_FTP_NFS, WNNC_NET_GOOGLE, WNNC_NET_HOB_NFS, WNNC_NET_IBMAL, WNNC_NET_INTERGRAPH, WNNC_NET_KNOWARE, WNNC_NET_KWNP, WNNC_NET_LANMAN, WNNC_NET_LANSTEP, WNNC_NET_LANTASTIC, WNNC_NET_LIFENET, WNNC_NET_LOCK, WNNC_NET_LOCUS, WNNC_NET_MANGOSOFT, WNNC_NET_MASFAX, WNNC_NET_MFILES, WNNC_NET_MSNET, WNNC_NET_MS_NFS, WNNC_NET_NDFS, WNNC_NET_NETWARE, WNNC_NET_OBJECT_DIRE, WNNC_NET_OPENAFS, WNNC_NET_PATHWORKS, WNNC_NET_POWERLAN, WNNC_NET_PROTSTOR, WNNC_NET_QUINCY, WNNC_NET_RDR2SAMPLE, WNNC_NET_RIVERFRONT1, WNNC_NET_RIVERFRONT2, WNNC_NET_RSFX, WNNC_NET_SERNET, WNNC_NET_SHIVA, WNNC_NET_SMB, WNNC_NET_SRT, WNNC_NET_STAC, WNNC_NET_SUN_PC_NFS, WNNC_NET_SYMFONET, WNNC_NET_TERMSRV, WNNC_NET_TWINS, WNNC_NET_VINES, WNNC_NET_VMWARE, WNNC_NET_YAHOO, WNNC_NET_ZENWORKS, _FILE_REMOTE_PROTOCOL_INFO, fs.file_remote_protocol_information, winbase/FILE_REMOTE_PROTOCOL_INFO, winbase/PFILE_REMOTE_PROTOCOL_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILE_REMOTE_PROTOCOL_INFO, *PFILE_REMOTE_PROTOCOL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinBase.h
+api_name:
+-	FILE_REMOTE_PROTOCOL_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FILE_REMOTE_PROTOCOL_INFO structure

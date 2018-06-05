@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagAXESLISTW
+title: tagAXESLISTW
+author: windows-sdk-content
+description: The AXESLIST structure contains information on all the axes of a multiple master font.
+old-location: gdi\axeslist.htm
+old-project: gdi
+ms.assetid: f95f012e-f02b-46c1-94ba-69f426ee7ad9
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPAXESLISTW, *PAXESLISTW, AXESLIST, AXESLIST structure [Windows GDI], AXESLISTA, AXESLISTW, PAXESLIST, PAXESLIST structure pointer [Windows GDI], _win32_AXESLIST_str, gdi.axeslist, tagAXESLISTW, wingdi/AXESLIST, wingdi/AXESLISTA, wingdi/AXESLISTW, wingdi/PAXESLIST"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: AXESLISTW (Unicode) and AXESLISTA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AXESLISTW, *PAXESLISTW, *LPAXESLISTW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	AXESLIST
+-	AXESLISTA
+-	AXESLISTW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagAXESLISTW structure

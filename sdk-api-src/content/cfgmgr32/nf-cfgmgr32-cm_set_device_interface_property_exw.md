@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:cfgmgr32.CM_Set_Device_Interface_Property_ExW
+title: CM_Set_Device_Interface_Property_ExW function
+author: windows-sdk-content
+description: The CM_Set_Device_Interface_Property_ExW function sets a device property of a device interface.
+old-location: devinst\cm_set_device_interface_property_exw.htm
+old-project: devinst
+ms.assetid: E3873F92-B2A7-4DDF-8C14-23D6815EE21E
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: CM_Set_Device_Interface_Property_ExW, CM_Set_Device_Interface_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Set_Device_Interface_Property_ExW, devinst.cm_set_device_interface_property_exw
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Microsoft Windows 10 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Cfgmgr32.lib
+-	Cfgmgr32.dll
+api_name:
+-	CM_Set_Device_Interface_Property_ExW
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 ---
 
 # CM_Set_Device_Interface_Property_ExW function

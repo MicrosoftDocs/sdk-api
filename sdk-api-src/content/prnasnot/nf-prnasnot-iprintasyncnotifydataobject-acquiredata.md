@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:prnasnot.IPrintAsyncNotifyDataObject.AcquireData
+title: IPrintAsyncNotifyDataObject::AcquireData
+author: windows-sdk-content
+description: Directs listening applications to the notification data, including the data's size and type.
+old-location: gdi\iprintasyncnotifydataobject_iprintasyncnotifydataobject__acquiredata.htm
+old-project: printdocs
+ms.assetid: c6272583-6907-4c9f-b0c8-4d788e0b2173
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: AcquireData, AcquireData method [Windows GDI], AcquireData method [Windows GDI],IPrintAsyncNotifyDataObject interface, IPrintAsyncNotifyDataObject interface [Windows GDI],AcquireData method, IPrintAsyncNotifyDataObject.AcquireData, IPrintAsyncNotifyDataObject::AcquireData, _win32_IPrintAsyncNotifyDataObject_AcquireData, gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__acquiredata, prnasnot/IPrintAsyncNotifyDataObject::AcquireData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: prnasnot.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PrintAsyncNotifyUserFilter
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	prnasnot.dll
+api_name:
+-	IPrintAsyncNotifyDataObject.AcquireData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Prnasnot.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPrintAsyncNotifyDataObject::AcquireData

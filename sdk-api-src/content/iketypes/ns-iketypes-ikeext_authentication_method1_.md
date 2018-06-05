@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iketypes.IKEEXT_AUTHENTICATION_METHOD1_
+title: IKEEXT_AUTHENTICATION_METHOD1_
+author: windows-sdk-content
+description: Specifies various parameters for IKE/Authip authentication.
+old-location: fwp\ikeext_authentication_method1.htm
+old-project: FWP
+ms.assetid: 55894ac3-2cb7-4828-8346-9ca66ce3253a
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IKEEXT_AUTHENTICATION_METHOD1, IKEEXT_AUTHENTICATION_METHOD1 structure [Filtering], IKEEXT_AUTHENTICATION_METHOD1_, fwp.ikeext_authentication_method1, iketypes/IKEEXT_AUTHENTICATION_METHOD1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iketypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Iketypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IKEEXT_AUTHENTICATION_METHOD1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iketypes.h
+api_name:
+-	IKEEXT_AUTHENTICATION_METHOD1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IKEEXT_AUTHENTICATION_METHOD1_ structure

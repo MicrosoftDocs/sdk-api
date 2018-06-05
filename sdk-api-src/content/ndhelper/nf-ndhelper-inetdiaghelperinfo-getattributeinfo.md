@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ndhelper.INetDiagHelperInfo.GetAttributeInfo
+title: INetDiagHelperInfo::GetAttributeInfo
+author: windows-sdk-content
+description: The GetAttributeInfo method retrieves the list of key parameters needed by the Helper Class Extension.
+old-location: ndf\inetdiaghelperinfo_getattributeinfo.htm
+old-project: NDF
+ms.assetid: 0c1a12f3-357f-4d96-b0ef-99d788b6e020
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetAttributeInfo, GetAttributeInfo method [NDF], GetAttributeInfo method [NDF],INetDiagHelperInfo interface, INetDiagHelperInfo interface [NDF],GetAttributeInfo method, INetDiagHelperInfo.GetAttributeInfo, INetDiagHelperInfo::GetAttributeInfo, ndf.inetdiaghelperinfo_getattributeinfo, ndhelper/INetDiagHelperInfo::GetAttributeInfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ndhelper.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REPAIR_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ndhelper.h
+api_name:
+-	INetDiagHelperInfo.GetAttributeInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetDiagHelperInfo::GetAttributeInfo

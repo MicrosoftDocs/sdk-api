@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl._MF_TOPONODE_FLUSH_MODE
+title: "_MF_TOPONODE_FLUSH_MODE"
+author: windows-sdk-content
+description: Defines when a transform in a topology is flushed.
+old-location: mf\mf_toponode_flush_mode.htm
+old-project: medfound
+ms.assetid: e7eec3c1-f4be-4d7f-9d4c-e98a6a05e85a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_TOPONODE_FLUSH_ALWAYS, MF_TOPONODE_FLUSH_MODE, MF_TOPONODE_FLUSH_MODE enumeration [Media Foundation], MF_TOPONODE_FLUSH_NEVER, MF_TOPONODE_FLUSH_SEEK, _MF_TOPONODE_FLUSH_MODE, e7eec3c1-f4be-4d7f-9d4c-e98a6a05e85a, mf.mf_toponode_flush_mode, mfidl/MF_TOPONODE_FLUSH_ALWAYS, mfidl/MF_TOPONODE_FLUSH_MODE, mfidl/MF_TOPONODE_FLUSH_NEVER, mfidl/MF_TOPONODE_FLUSH_SEEK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_TOPONODE_FLUSH_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MF_TOPONODE_FLUSH_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MF_TOPONODE_FLUSH_MODE enumeration

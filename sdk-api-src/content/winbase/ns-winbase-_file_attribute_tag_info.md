@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbase._FILE_ATTRIBUTE_TAG_INFO
+title: "_FILE_ATTRIBUTE_TAG_INFO"
+author: windows-sdk-content
+description: Receives the requested file attribute information. Used for any handles.
+old-location: fs\file_attribute_tag_info.htm
+old-project: FileIO
+ms.assetid: 4a2467a2-c22a-4ee6-a40e-5603ea381adc
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PFILE_ATTRIBUTE_TAG_INFO, FILE_ATTRIBUTE_TAG_INFO, FILE_ATTRIBUTE_TAG_INFO structure [Files], PFILE_ATTRIBUTE_TAG_INFO, PFILE_ATTRIBUTE_TAG_INFO structure pointer [Files], _FILE_ATTRIBUTE_TAG_INFO, fileextd/FILE_ATTRIBUTE_TAG_INFO, fileextd/PFILE_ATTRIBUTE_TAG_INFO, fs.file_attribute_tag_info, winbase/FILE_ATTRIBUTE_TAG_INFO, winbase/PFILE_ATTRIBUTE_TAG_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILE_ATTRIBUTE_TAG_INFO, *PFILE_ATTRIBUTE_TAG_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinBase.h
+-	FileExtd.h
+api_name:
+-	FILE_ATTRIBUTE_TAG_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FILE_ATTRIBUTE_TAG_INFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmsdkidl.IWMWriterFileSink2.IsClosed
+title: IWMWriterFileSink2::IsClosed
+author: windows-sdk-content
+description: The IsClosed method ascertains whether the file sink has been closed.
+old-location: wmformat\iwmwriterfilesink2_isclosed.htm
+old-project: wmformat
+ms.assetid: 0ae9137f-ce43-4860-a28f-deac39f216a4
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWMWriterFileSink2 interface [windows Media Format],IsClosed method, IWMWriterFileSink2.IsClosed, IWMWriterFileSink2::IsClosed, IWMWriterFileSink2IsClosed, IsClosed, IsClosed method [windows Media Format], IsClosed method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_isclosed, wmsdkidl/IWMWriterFileSink2::IsClosed
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wmvcore.lib
+-	Wmvcore.dll
+-	WMStubDRM.lib
+-	WMStubDRM.dll
+api_name:
+-	IWMWriterFileSink2.IsClosed
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMWriterFileSink2::IsClosed

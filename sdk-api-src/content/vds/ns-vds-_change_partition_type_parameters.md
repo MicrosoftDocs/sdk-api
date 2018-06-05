@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vds._CHANGE_PARTITION_TYPE_PARAMETERS
+title: "_CHANGE_PARTITION_TYPE_PARAMETERS"
+author: windows-sdk-content
+description: Describes parameters to be used when changing a partition's type.
+old-location: base\change_partition_type_parameters.htm
+old-project: VDS
+ms.assetid: bd51c2a6-ab26-4a2f-89f4-431d05f3dd81
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CHANGE_PARTITION_TYPE_PARAMETERS, CHANGE_PARTITION_TYPE_PARAMETERS structure, PCHANGE_PARTITION_TYPE_PARAMETERS, PCHANGE_PARTITION_TYPE_PARAMETERS structure pointer, _CHANGE_PARTITION_TYPE_PARAMETERS, base.change_partition_type_parameters, vds/CHANGE_PARTITION_TYPE_PARAMETERS, vds/PCHANGE_PARTITION_TYPE_PARAMETERS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CHANGE_PARTITION_TYPE_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	CHANGE_PARTITION_TYPE_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _CHANGE_PARTITION_TYPE_PARAMETERS structure

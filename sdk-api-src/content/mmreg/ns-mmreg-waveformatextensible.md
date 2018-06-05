@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:mmreg.WAVEFORMATEXTENSIBLE
+title: WAVEFORMATEXTENSIBLE
+author: windows-sdk-content
+description: The WAVEFORMATEXTENSIBLE structure defines the format of waveform-audio data for formats having more than two channels or higher sample resolutions than allowed by WAVEFORMATEX.
+old-location: dshow\waveformatextensible.htm
+old-project: DirectShow
+ms.assetid: b16cdcab-fa4f-4c9a-b1f3-af459bd33245
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPWAVEFORMATIEEEFLOATEX, *LPWAVEFORMATPCMEX, *NPWAVEFORMATIEEEFLOATEX, *NPWAVEFORMATPCMEX, *PWAVEFORMATEXTENSIBLE, *PWAVEFORMATIEEEFLOATEX, *PWAVEFORMATPCMEX, KSDATAFORMAT_SUBTYPE_ADPCM, KSDATAFORMAT_SUBTYPE_ALAW, KSDATAFORMAT_SUBTYPE_DRM, KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL, KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL_PLUS, KSDATAFORMAT_SUBTYPE_IEEE_FLOAT, KSDATAFORMAT_SUBTYPE_MPEG, KSDATAFORMAT_SUBTYPE_MULAW, KSDATAFORMAT_SUBTYPE_PCM, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [DirectShow], WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [DirectShow], WAVEFORMATEXTENSIBLEStructure, WAVEFORMATIEEEFLOATEX, WAVEFORMATPCMEX, dshow.waveformatextensible, ksmedia/PWAVEFORMATEXTENSIBLE, ksmedia/WAVEFORMATEXTENSIBLE, mmreg/PWAVEFORMATEXTENSIBLE, mmreg/WAVEFORMATEXTENSIBLE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mmreg.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	MMReg.h
+-	Ksmedia.h
+api_name:
+-	WAVEFORMATEXTENSIBLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # WAVEFORMATEXTENSIBLE structure

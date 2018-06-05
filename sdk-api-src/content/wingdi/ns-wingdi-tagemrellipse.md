@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagEMRELLIPSE
+title: tagEMRELLIPSE
+author: windows-sdk-content
+description: The EMRELLIPSE and EMRRECTANGLE structures contain members for the Ellipse and Rectangle enhanced metafile records.
+old-location: gdi\emrellipse__emrrectangle.htm
+old-project: gdi
+ms.assetid: 1400f9d7-4ccd-4348-98f0-fccc78e06212
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PEMRELLIPSE, *PEMRRECTANGLE, EMRELLIPSE, EMRELLIPSE structure [Windows GDI], EMRELLIPSE,EMRRECTANGLE, EMRELLIPSE,EMRRECTANGLE structure [Windows GDI], EMRRECTANGLE, EMRRECTANGLE structure [Windows GDI], PEMRELLIPSE, PEMRELLIPSE structure pointer [Windows GDI], PEMRRECTANGLE, PEMRRECTANGLE structure pointer [Windows GDI], _win32_EMRELLIPSE_str, gdi.emrellipse__emrrectangle, tagEMRELLIPSE, wingdi/EMRELLIPSE,EMRRECTANGLE, wingdi/EMRRECTANGLE, wingdi/PEMRELLIPSE, wingdi/PEMRRECTANGLE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMRELLIPSE, *PEMRELLIPSE, EMRRECTANGLE, *PEMRRECTANGLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	EMRELLIPSE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagEMRELLIPSE structure

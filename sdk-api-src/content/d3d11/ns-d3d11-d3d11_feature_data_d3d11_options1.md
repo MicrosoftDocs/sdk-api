@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:d3d11.D3D11_FEATURE_DATA_D3D11_OPTIONS1
+title: D3D11_FEATURE_DATA_D3D11_OPTIONS1
+author: windows-sdk-content
+description: Describes Direct3D 11.2 feature options in the current graphics driver.
+old-location: direct3d11\d3d11_feature_data_d3d11_options1.htm
+old-project: direct3d11
+ms.assetid: 940381BB-E8E6-416D-8F36-CC3591E70702
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D11_FEATURE_DATA_D3D11_OPTIONS1, D3D11_FEATURE_DATA_D3D11_OPTIONS1 structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS1, direct3d11.d3d11_feature_data_d3d11_options1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_FEATURE_DATA_D3D11_OPTIONS1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	D3D11_FEATURE_DATA_D3D11_OPTIONS1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_FEATURE_DATA_D3D11_OPTIONS1 structure

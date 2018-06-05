@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:winddi.tagDRVENABLEDATA
+title: tagDRVENABLEDATA
+author: windows-sdk-content
+description: The DRVENABLEDATA structure contains a pointer to an array of DRVFN structures and the graphics DDI version number of an NT-based operating system.
+old-location: display\drvenabledata.htm
+old-project: display
+ms.assetid: dbeaecf8-dea1-4412-babb-6e40bf5dc7b0
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDRVENABLEDATA, DRVENABLEDATA, DRVENABLEDATA structure [Display Devices], PDRVENABLEDATA, PDRVENABLEDATA structure pointer [Display Devices], display.drvenabledata, grstrcts_d39f1feb-36e3-4fc6-b580-5b428dbeebd0.xml, tagDRVENABLEDATA, winddi/DRVENABLEDATA, winddi/PDRVENABLEDATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winddi.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRVENABLEDATA, *PDRVENABLEDATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winddi.h
+api_name:
+-	DRVENABLEDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagDRVENABLEDATA structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mdhcp.IMcastAddressAllocation.get_Scopes
+title: IMcastAddressAllocation::get_Scopes
+author: windows-sdk-content
+description: The get_Scopes method creates a collection of IMcast scopes available. This method is similar to EnumerateScopes, but is used by scripting languages such as Visual Basic.
+old-location: tapi3\imcastaddressallocation_get_scopes.htm
+old-project: Tapi
+ms.assetid: 4fe824fa-2fcb-4f6b-b3de-15dcfc79575c
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],get_Scopes method, IMcastAddressAllocation.get_Scopes, IMcastAddressAllocation::get_Scopes, _tapi3_imcastaddressallocation_get_scopes, get_Scopes, get_Scopes method [TAPI 2.2], get_Scopes method [TAPI 2.2],IMcastAddressAllocation interface, mdhcp/IMcastAddressAllocation::get_Scopes, tapi3.imcastaddressallocation_get_scopes
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mdhcp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mdhcp.dll
+api_name:
+-	IMcastAddressAllocation.get_Scopes
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMcastAddressAllocation::get_Scopes

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipexport._IP_ADAPTER_ORDER_MAP
+title: "_IP_ADAPTER_ORDER_MAP"
+author: windows-sdk-content
+description: The IP_ADAPTER_ORDER_MAP structure stores an array of information about adapters and their relative priority on the local computer.
+old-location: iphlp\ip_adapter_order_map.htm
+old-project: IpHlp
+ms.assetid: 0bbd008e-67d4-4557-bff7-f0404a8878ff
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PIP_ADAPTER_ORDER_MAP, IP_ADAPTER_ORDER_MAP, IP_ADAPTER_ORDER_MAP structure [IP Helper], PIP_ADAPTER_ORDER_MAP, PIP_ADAPTER_ORDER_MAP structure pointer [IP Helper], _IP_ADAPTER_ORDER_MAP, ipexport/IP_ADAPTER_ORDER_MAP, ipexport/PIP_ADAPTER_ORDER_MAP, iphlp.ip_adapter_order_map"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipexport.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IP_ADAPTER_ORDER_MAP, *PIP_ADAPTER_ORDER_MAP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipexport.h
+api_name:
+-	IP_ADAPTER_ORDER_MAP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _IP_ADAPTER_ORDER_MAP structure

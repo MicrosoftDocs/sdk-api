@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsync.ISyncChangeBatchBase.SetLastBatch
+title: ISyncChangeBatchBase::SetLastBatch
+author: windows-sdk-content
+description: Sets a flag that indicates there are no more changes to be enumerated in the synchronization session.
+old-location: winsync\isyncchangebatchbase_setlastbatch.htm
+old-project: winsync
+ms.assetid: 7619b446-5c71-4533-8af6-15f06dda3c87
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ISyncChangeBatchBase interface [Windows Sync],SetLastBatch method, ISyncChangeBatchBase.SetLastBatch, ISyncChangeBatchBase::SetLastBatch, SetLastBatch, SetLastBatch method [Windows Sync], SetLastBatch method [Windows Sync],ISyncChangeBatchBase interface, winsync.isyncchangebatchbase_setlastbatch, winsync/ISyncChangeBatchBase::SetLastBatch
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	ISyncChangeBatchBase.SetLastBatch
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # ISyncChangeBatchBase::SetLastBatch

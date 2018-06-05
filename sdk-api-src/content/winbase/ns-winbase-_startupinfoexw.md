@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbase._STARTUPINFOEXW
+title: "_STARTUPINFOEXW"
+author: windows-sdk-content
+description: Specifies the window station, desktop, standard handles, and attributes for a new process. It is used with the CreateProcess and CreateProcessAsUser functions.
+old-location: base\startupinfoex.htm
+old-project: ProcThread
+ms.assetid: 61203f57-292d-4ea1-88f4-a3b05012d7a3
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPSTARTUPINFOEXW, LPSTARTUPINFOEX, LPSTARTUPINFOEX structure pointer, STARTUPINFOEX, STARTUPINFOEX structure, STARTUPINFOEXA, STARTUPINFOEXW, _STARTUPINFOEXA, _STARTUPINFOEXW, base.startupinfoex, winbase/LPSTARTUPINFOEX, winbase/STARTUPINFOEX, winbase/STARTUPINFOEXA, winbase/STARTUPINFOEXW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: STARTUPINFOEXW (Unicode) and STARTUPINFOEXA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STARTUPINFOEXW, *LPSTARTUPINFOEXW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinBase.h
+api_name:
+-	STARTUPINFOEX
+-	STARTUPINFOEXA
+-	STARTUPINFOEXW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _STARTUPINFOEXW structure

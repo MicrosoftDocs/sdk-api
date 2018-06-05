@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vdslun._VDS_INTERCONNECT_ADDRESS_TYPE
+title: "_VDS_INTERCONNECT_ADDRESS_TYPE"
+author: windows-sdk-content
+description: Defines the set of the valid address types of a physical interconnect.
+old-location: base\vds_interconnect_address_type.htm
+old-project: VDS
+ms.assetid: 20d75585-a80c-49bc-9f9c-5aae8e5f2c21
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_IA_FCFS, VDS_IA_FCPH, VDS_IA_FCPH3, VDS_IA_MAC, VDS_IA_SCSI, VDS_IA_UNKNOWN, VDS_INTERCONNECT_ADDRESS_TYPE, VDS_INTERCONNECT_ADDRESS_TYPE enumeration [VDS], _VDS_INTERCONNECT_ADDRESS_TYPE, base.vds_interconnect_address_type, vdslun/VDS_IA_FCFS, vdslun/VDS_IA_FCPH, vdslun/VDS_IA_FCPH3, vdslun/VDS_IA_MAC, vdslun/VDS_IA_SCSI, vdslun/VDS_IA_UNKNOWN, vdslun/VDS_INTERCONNECT_ADDRESS_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vdslun.h
+req.include-header: Vds.h, VdsHwPrv.h for hardware providers
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_INTERCONNECT_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VdsLun.h
+api_name:
+-	VDS_INTERCONNECT_ADDRESS_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_INTERCONNECT_ADDRESS_TYPE enumeration

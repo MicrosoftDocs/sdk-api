@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmstats._STAT_SERVER_0
+title: "_STAT_SERVER_0"
+author: windows-sdk-content
+description: Contains statistical information about the server.
+old-location: fs\stat_server_0_str.htm
+old-project: NetShare
+ms.assetid: 7eb4e4a9-f4db-4702-a4ad-2d8bfac9f9ce
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPSTAT_SERVER_0, *PSTAT_SERVER_0, LPSTAT_SERVER_0, LPSTAT_SERVER_0 structure pointer [Files], PSTAT_SERVER_0, PSTAT_SERVER_0 structure pointer [Files], STAT_SERVER_0, STAT_SERVER_0 structure [Files], _STAT_SERVER_0, _win32_stat_server_0_str, fs.stat_server_0_str, lmstats/LPSTAT_SERVER_0, lmstats/PSTAT_SERVER_0, lmstats/STAT_SERVER_0, netmgmt.stat_server_0_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmstats.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STAT_SERVER_0, *PSTAT_SERVER_0, *LPSTAT_SERVER_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmstats.h
+api_name:
+-	STAT_SERVER_0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _STAT_SERVER_0 structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntquery.BindIFilterFromStorage
+title: BindIFilterFromStorage function
+author: windows-sdk-content
+description: Retrieves the IFilter interface pointer for the specified storage object. This is especially useful when filtering the contents of a document and processing embedded OLE objects that are accessible through their IStorage interfaces.
+old-location: indexsrv\bindifilterfromstorage.htm
+old-project: IndexSrv
+ms.assetid: VS|indexsrv|~\html\ixrefint_1cth.htm
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: BindIFilterFromStorage, BindIFilterFromStorage function [Indexing Service], _idxs_BindIFilterFromStorage, indexsrv.bindifilterfromstorage, ntquery/BindIFilterFromStorage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntquery.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MediaLabelInfo, *pMediaLabelInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntquery.dll
+api_name:
+-	BindIFilterFromStorage
+product: Windows
+targetos: Windows
+req.lib: Ntquery.lib
+req.dll: Ntquery.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # BindIFilterFromStorage function

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPEvents3.CdromBurnMediaError
+title: IWMPEvents3::CdromBurnMediaError
+author: windows-sdk-content
+description: The CdromBurnMediaError event occurs when an error happens while burning an individual media item to a CD.
+old-location: wmp\iwmpevents3_iwmpevents3__cdromburnmediaerror.htm
+old-project: WMP
+ms.assetid: 4bad9de2-8899-4149-965c-7835bd854f6f
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: CdromBurnMediaError, CdromBurnMediaError method [Windows Media Player], CdromBurnMediaError method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromBurnMediaError method, IWMPEvents3.CdromBurnMediaError, IWMPEvents3::CdromBurnMediaError, IWMPEvents3CdromBurnMediaError, wmp.iwmpevents3_iwmpevents3__cdromburnmediaerror, wmp/IWMPEvents3::CdromBurnMediaError
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPEvents3.CdromBurnMediaError
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPEvents3::CdromBurnMediaError

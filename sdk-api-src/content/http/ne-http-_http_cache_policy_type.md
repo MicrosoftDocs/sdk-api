@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:http._HTTP_CACHE_POLICY_TYPE
+title: "_HTTP_CACHE_POLICY_TYPE"
+author: windows-sdk-content
+description: The HTTP_CACHE_POLICY_TYPE enumeration type defines available cache policies.
+old-location: http\http_cache_policy_type.htm
+old-project: Http
+ms.assetid: 07d9853f-d38c-4e5b-815a-3dc0157b4d8d
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_CACHE_POLICY_TYPE, HTTP_CACHE_POLICY_TYPE, HTTP_CACHE_POLICY_TYPE enumeration [HTTP], HttpCachePolicyMaximum, HttpCachePolicyNocache, HttpCachePolicyTimeToLive, HttpCachePolicyUserInvalidates, PHTTP_CACHE_POLICY_TYPE, PHTTP_CACHE_POLICY_TYPE enumeration pointer [HTTP], _HTTP_CACHE_POLICY_TYPE, _http_http_cache_policy_type, http.http_cache_policy_type, http/HTTP_CACHE_POLICY_TYPE, http/HttpCachePolicyMaximum, http/HttpCachePolicyNocache, http/HttpCachePolicyTimeToLive, http/HttpCachePolicyUserInvalidates, http/PHTTP_CACHE_POLICY_TYPE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_CACHE_POLICY_TYPE, *PHTTP_CACHE_POLICY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_CACHE_POLICY_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_CACHE_POLICY_TYPE enumeration

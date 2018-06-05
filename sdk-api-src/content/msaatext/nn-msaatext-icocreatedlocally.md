@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:msaatext.ICoCreatedLocally
+title: ICoCreatedLocally
+author: windows-sdk-content
+description: Exposes a method to return information about a local object.
+old-location: winauto\icocreatedlocally.htm
+old-project: WinAuto
+ms.assetid: 118b77c7-cde3-4672-aea0-670fd3a9a4cb
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: ICoCreatedLocally, ICoCreatedLocally interface [Windows Accessibility], ICoCreatedLocally interface [Windows Accessibility],described, msaa.icocreatedlocally, msaatext/ICoCreatedLocally, winauto.icocreatedlocally
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: msaatext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msaatext.h
+api_name:
+-	ICoCreatedLocally
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msaatext.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ICoCreatedLocally interface

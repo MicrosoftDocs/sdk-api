@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:locationapi.ILocation.SetDesiredAccuracy
+title: ILocation::SetDesiredAccuracy
+author: windows-sdk-content
+description: Specifies the accuracy to be used.
+old-location: winlocation\ilocation_setdesiredaccuracy.htm
+old-project: LocationAPI
+ms.assetid: 85623570-3b48-42ea-babd-fe4282629d92
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: ILocation interface [WinLocation],SetDesiredAccuracy method, ILocation.SetDesiredAccuracy, ILocation::SetDesiredAccuracy, SetDesiredAccuracy, SetDesiredAccuracy method [WinLocation], SetDesiredAccuracy method [WinLocation],ILocation interface, locationapi/ILocation::SetDesiredAccuracy, winlocation.ilocation_setdesiredaccuracy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: locationapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, *LPWKSTA_USER_INFO_1101
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	LocationAPI.dll
+api_name:
+-	ILocation.SetDesiredAccuracy
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ILocation::SetDesiredAccuracy

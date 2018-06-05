@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IAttachmentExecute.CheckPolicy
+title: IAttachmentExecute::CheckPolicy
+author: windows-sdk-content
+description: Provides a Boolean test that can be used to make decisions based on the attachment's execution policy.
+old-location: shell\IAttachmentExecute_CheckPolicy.htm
+old-project: shell
+ms.assetid: ff6a0aa8-4d14-4074-b084-be117b01c77a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CheckPolicy, CheckPolicy method [Windows Shell], CheckPolicy method [Windows Shell],IAttachmentExecute interface, IAttachmentExecute interface [Windows Shell],CheckPolicy method, IAttachmentExecute.CheckPolicy, IAttachmentExecute::CheckPolicy, _win32_IAttachmentExecute_CheckPolicy, shell.IAttachmentExecute_CheckPolicy, shobjidl_core/IAttachmentExecute::CheckPolicy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shdocvw.dll
+api_name:
+-	IAttachmentExecute.CheckPolicy
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shdocvw.dll (version 6.0 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IAttachmentExecute::CheckPolicy

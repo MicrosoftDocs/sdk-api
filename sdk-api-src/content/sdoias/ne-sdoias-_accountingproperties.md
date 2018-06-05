@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:sdoias._ACCOUNTINGPROPERTIES
+title: "_ACCOUNTINGPROPERTIES"
+author: windows-sdk-content
+description: The values of the ACCOUNTINGPROPERTIES type enumerate properties that control what types of packets are logged and characteristics of the log file.
+old-location: nps\SDO_accountingproperties.htm
+old-project: Nps
+ms.assetid: e814d576-0405-410e-ae62-e0f5905f6cf9
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ACCOUNTINGPROPERTIES, ACCOUNTINGPROPERTIES enumeration [Network Policy Server], PROPERTY_ACCOUNTING_LOG_ACCOUNTING, PROPERTY_ACCOUNTING_LOG_ACCOUNTING_INTERIM, PROPERTY_ACCOUNTING_LOG_AUTHENTICATION, PROPERTY_ACCOUNTING_LOG_AUTHENTICATION_INTERIM, PROPERTY_ACCOUNTING_LOG_DELETE_IF_FULL, PROPERTY_ACCOUNTING_LOG_ENABLE, PROPERTY_ACCOUNTING_LOG_ENABLE_LOGGING, PROPERTY_ACCOUNTING_LOG_FILE_DIRECTORY, PROPERTY_ACCOUNTING_LOG_IAS1_FORMAT, PROPERTY_ACCOUNTING_LOG_OPEN_NEW_FREQUENCY, PROPERTY_ACCOUNTING_LOG_OPEN_NEW_SIZE, PROPERTY_ACCOUNTING_SQL_MAX_SESSIONS, _ACCOUNTINGPROPERTIES, _sdo_accountingproperties, nps.SDO_accountingproperties, sdo.accountingproperties, sdoias/ACCOUNTINGPROPERTIES, sdoias/PROPERTY_ACCOUNTING_LOG_ACCOUNTING, sdoias/PROPERTY_ACCOUNTING_LOG_ACCOUNTING_INTERIM, sdoias/PROPERTY_ACCOUNTING_LOG_AUTHENTICATION, sdoias/PROPERTY_ACCOUNTING_LOG_AUTHENTICATION_INTERIM, sdoias/PROPERTY_ACCOUNTING_LOG_DELETE_IF_FULL, sdoias/PROPERTY_ACCOUNTING_LOG_ENABLE, sdoias/PROPERTY_ACCOUNTING_LOG_ENABLE_LOGGING, sdoias/PROPERTY_ACCOUNTING_LOG_FILE_DIRECTORY, sdoias/PROPERTY_ACCOUNTING_LOG_IAS1_FORMAT, sdoias/PROPERTY_ACCOUNTING_LOG_OPEN_NEW_FREQUENCY, sdoias/PROPERTY_ACCOUNTING_LOG_OPEN_NEW_SIZE, sdoias/PROPERTY_ACCOUNTING_SQL_MAX_SESSIONS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: sdoias.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACCOUNTINGPROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	SdoIas.h
+api_name:
+-	ACCOUNTINGPROPERTIES
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _ACCOUNTINGPROPERTIES enumeration

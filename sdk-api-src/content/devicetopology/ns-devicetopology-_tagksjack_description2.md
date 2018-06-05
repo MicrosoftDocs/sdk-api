@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:devicetopology._tagKSJACK_DESCRIPTION2
+title: "_tagKSJACK_DESCRIPTION2"
+author: windows-sdk-content
+description: The KSJACK_DESCRIPTION2 structure describes an audio jack.To get the description of an audio jack of a connector, call IKsJackDescription2::GetJackDescription2.
+old-location: coreaudio\ksjack_description2.htm
+old-project: CoreAudio
+ms.assetid: 67714767-24b8-4838-953a-d6aca0c55bbb
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*PKSJACK_DESCRIPTION2, KSJACK_DESCRIPTION2, KSJACK_DESCRIPTION2 structure [Core Audio], PKSJACK_DESCRIPTION2, PKSJACK_DESCRIPTION2 structure pointer [Core Audio], _tagKSJACK_DESCRIPTION2, coreaudio.ksjack_description2, devicetopology/KSJACK_DESCRIPTION2, devicetopology/PKSJACK_DESCRIPTION2"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KSJACK_DESCRIPTION2, *PKSJACK_DESCRIPTION2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Devicetopology.h
+api_name:
+-	KSJACK_DESCRIPTION2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _tagKSJACK_DESCRIPTION2 structure

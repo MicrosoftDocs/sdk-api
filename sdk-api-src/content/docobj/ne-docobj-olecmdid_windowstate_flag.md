@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:docobj.OLECMDID_WINDOWSTATE_FLAG
+title: OLECMDID_WINDOWSTATE_FLAG
+author: windows-sdk-content
+description: Specifies the window state.
+old-location: com\olecmdid_windowstate_flag.htm
+old-project: com
+ms.assetid: 31331c73-1f26-436d-8fa7-83f13ef51f0e
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: OLECMDIDF_WINDOWSTATE_ENABLED, OLECMDIDF_WINDOWSTATE_ENABLED_VALID, OLECMDIDF_WINDOWSTATE_USERVISIBLE, OLECMDIDF_WINDOWSTATE_USERVISIBLE_VALID, OLECMDID_WINDOWSTATE_FLAG, OLECMDID_WINDOWSTATE_FLAG enumeration [COM], _ole_OLECMDID_WINDOWSTATE_FLAG, com.olecmdid_windowstate_flag, docobj/OLECMDIDF_WINDOWSTATE_ENABLED, docobj/OLECMDIDF_WINDOWSTATE_ENABLED_VALID, docobj/OLECMDIDF_WINDOWSTATE_USERVISIBLE, docobj/OLECMDIDF_WINDOWSTATE_USERVISIBLE_VALID, docobj/OLECMDID_WINDOWSTATE_FLAG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: docobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OLECMDID_WINDOWSTATE_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DocObj.h
+api_name:
+-	OLECMDID_WINDOWSTATE_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # OLECMDID_WINDOWSTATE_FLAG enumeration

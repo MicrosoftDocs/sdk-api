@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d12.ID3D12Device.GetNodeCount
+title: ID3D12Device::GetNodeCount
+author: windows-sdk-content
+description: Reports the number of physical adapters (nodes) that are associated with this device.
+old-location: direct3d12\id3d12device_getnodecount.htm
+old-project: direct3d12
+ms.assetid: 5C5BA618-1B53-45EA-A2E6-19FCAF4FB67C
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: GetNodeCount, GetNodeCount method, GetNodeCount method,ID3D12Device interface, ID3D12Device interface,GetNodeCount method, ID3D12Device.GetNodeCount, ID3D12Device::GetNodeCount, d3d12/ID3D12Device::GetNodeCount, direct3d12.id3d12device_getnodecount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_SHADER_MODEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12.dll
+api_name:
+-	ID3D12Device.GetNodeCount
+product: Windows
+targetos: Windows
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 ---
 
 # ID3D12Device::GetNodeCount

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:propvarutil.VariantGetUInt64Elem
+title: VariantGetUInt64Elem function
+author: windows-sdk-content
+description: Extracts a single unsigned Int64 element from a variant structure.
+old-location: properties\VariantGetUInt64Elem.htm
+old-project: properties
+ms.assetid: 7fd3c87b-5511-4dbc-b99e-65656a96303e
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: VariantGetUInt64Elem, VariantGetUInt64Elem function [Windows Properties], _shell_VariantGetUInt64Elem, properties.VariantGetUInt64Elem, propvarutil/VariantGetUInt64Elem, shell.VariantGetUInt64Elem
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: propvarutil.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPVAR_COMPARE_UNIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Propsys.dll
+api_name:
+-	VariantGetUInt64Elem
+product: Windows
+targetos: Windows
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantGetUInt64Elem function

@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:camerauicontrol.ICameraUIControl.RemoveCapturedItem
+title: ICameraUIControl::RemoveCapturedItem
+author: windows-sdk-content
+description: Removes the captured item.
+old-location: winprog\icamerauicontrol_removecaptureditem.htm
+old-project: DevNotes
+ms.assetid: 384b08e4-7683-43e1-b088-38455a0b956f
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ICameraUIControl interface [Windows API],RemoveCapturedItem method, ICameraUIControl.RemoveCapturedItem, ICameraUIControl::RemoveCapturedItem, RemoveCapturedItem, RemoveCapturedItem method [Windows API], RemoveCapturedItem method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::RemoveCapturedItem, winprog.icamerauicontrol_removecaptureditem
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: camerauicontrol.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CameraUIControl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CALLFRAME_MARSHALCONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	camerauicontrol.h
+api_name:
+-	ICameraUIControl.RemoveCapturedItem
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICameraUIControl::RemoveCapturedItem

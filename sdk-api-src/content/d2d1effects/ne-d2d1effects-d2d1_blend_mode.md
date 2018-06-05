@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d2d1effects.D2D1_BLEND_MODE
+title: D2D1_BLEND_MODE
+author: windows-sdk-content
+description: The blend mode used for the Blend effect.
+old-location: direct2d\d2d1_blend_mode.htm
+old-project: Direct2D
+ms.assetid: 006EE339-5E67-434B-BB47-FCBBC2D3FB50
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_BLEND_MODE, D2D1_BLEND_MODE enumeration [Direct2D], D2D1_BLEND_MODE_COLOR, D2D1_BLEND_MODE_COLOR_BURN, D2D1_BLEND_MODE_COLOR_DODGE, D2D1_BLEND_MODE_DARKEN, D2D1_BLEND_MODE_DARKER_COLOR, D2D1_BLEND_MODE_DIFFERENCE, D2D1_BLEND_MODE_DISSOLVE, D2D1_BLEND_MODE_DIVISION, D2D1_BLEND_MODE_EXCLUSION, D2D1_BLEND_MODE_HARD_LIGHT, D2D1_BLEND_MODE_HARD_MIX, D2D1_BLEND_MODE_HUE, D2D1_BLEND_MODE_LIGHTEN, D2D1_BLEND_MODE_LIGHTER_COLOR, D2D1_BLEND_MODE_LINEAR_BURN, D2D1_BLEND_MODE_LINEAR_DODGE, D2D1_BLEND_MODE_LINEAR_LIGHT, D2D1_BLEND_MODE_LUMINOSITY, D2D1_BLEND_MODE_MULTIPLY, D2D1_BLEND_MODE_OVERLAY, D2D1_BLEND_MODE_PIN_LIGHT, D2D1_BLEND_MODE_SATURATION, D2D1_BLEND_MODE_SCREEN, D2D1_BLEND_MODE_SOFT_LIGHT, D2D1_BLEND_MODE_SUBTRACT, D2D1_BLEND_MODE_VIVID_LIGHT, d2d1effects/D2D1_BLEND_MODE, d2d1effects/D2D1_BLEND_MODE_COLOR, d2d1effects/D2D1_BLEND_MODE_COLOR_BURN, d2d1effects/D2D1_BLEND_MODE_COLOR_DODGE, d2d1effects/D2D1_BLEND_MODE_DARKEN, d2d1effects/D2D1_BLEND_MODE_DARKER_COLOR, d2d1effects/D2D1_BLEND_MODE_DIFFERENCE, d2d1effects/D2D1_BLEND_MODE_DISSOLVE, d2d1effects/D2D1_BLEND_MODE_DIVISION, d2d1effects/D2D1_BLEND_MODE_EXCLUSION, d2d1effects/D2D1_BLEND_MODE_HARD_LIGHT, d2d1effects/D2D1_BLEND_MODE_HARD_MIX, d2d1effects/D2D1_BLEND_MODE_HUE, d2d1effects/D2D1_BLEND_MODE_LIGHTEN, d2d1effects/D2D1_BLEND_MODE_LIGHTER_COLOR, d2d1effects/D2D1_BLEND_MODE_LINEAR_BURN, d2d1effects/D2D1_BLEND_MODE_LINEAR_DODGE, d2d1effects/D2D1_BLEND_MODE_LINEAR_LIGHT, d2d1effects/D2D1_BLEND_MODE_LUMINOSITY, d2d1effects/D2D1_BLEND_MODE_MULTIPLY, d2d1effects/D2D1_BLEND_MODE_OVERLAY, d2d1effects/D2D1_BLEND_MODE_PIN_LIGHT, d2d1effects/D2D1_BLEND_MODE_SATURATION, d2d1effects/D2D1_BLEND_MODE_SCREEN, d2d1effects/D2D1_BLEND_MODE_SOFT_LIGHT, d2d1effects/D2D1_BLEND_MODE_SUBTRACT, d2d1effects/D2D1_BLEND_MODE_VIVID_LIGHT, direct2d.d2d1_blend_mode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1effects.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_BLEND_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1effects.h
+api_name:
+-	D2D1_BLEND_MODE
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D2D1_BLEND_MODE enumeration

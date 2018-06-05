@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmlss.IWindowsMediaLibrarySharingDevice.put_Authorization
+title: IWindowsMediaLibrarySharingDevice::put_Authorization
+author: windows-sdk-content
+description: The put_Authorization method authorizes or unauthorizes the device to have access to the current user's media library.
+old-location: wmlss\IWMLSDeviceput_Authorization.htm
+old-project: WMLSS
+ms.assetid: 26ac8f24-d212-4558-a66e-ffe5e90bd73b
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services],put_Authorization method, IWindowsMediaLibrarySharingDevice.put_Authorization, IWindowsMediaLibrarySharingDevice::put_Authorization, put_Authorization, put_Authorization method [Windows Media Library Sharing Services], put_Authorization method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevice interface, wmlss.IWMLSDeviceput_Authorization, wmlss/IWindowsMediaLibrarySharingDevice::put_Authorization
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmlss.h
+req.include-header: Wmlss.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	WMPMediaSharing.dll
+api_name:
+-	IWindowsMediaLibrarySharingDevice.put_Authorization
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: WMPMediaSharing.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWindowsMediaLibrarySharingDevice::put_Authorization

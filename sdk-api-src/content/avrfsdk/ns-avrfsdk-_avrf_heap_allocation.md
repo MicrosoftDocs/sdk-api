@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:avrfsdk._AVRF_HEAP_ALLOCATION
+title: "_AVRF_HEAP_ALLOCATION"
+author: windows-sdk-content
+description: Stores metadata information about heap allocation.
+old-location: winprog\avrf_heap_allocation.htm
+old-project: DevNotes
+ms.assetid: 238c7de7-4bf1-4974-8a6f-09e4d5f756ab
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*PAVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION structure [Windows API], _AVRF_HEAP_ALLOCATION, avrfsdk/AVRF_HEAP_ALLOCATION, base.avrf_heap_allocation, winprog.avrf_heap_allocation"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: avrfsdk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AVRF_HEAP_ALLOCATION, *PAVRF_HEAP_ALLOCATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Avrfsdk.h
+api_name:
+-	AVRF_HEAP_ALLOCATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _AVRF_HEAP_ALLOCATION structure

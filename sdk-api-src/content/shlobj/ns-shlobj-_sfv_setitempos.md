@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj._SFV_SETITEMPOS
+title: "_SFV_SETITEMPOS"
+author: windows-sdk-content
+description: Stores position information for an item. Used with message SFVM_SETITEMPOS.
+old-location: shell\SFV_SETITEMPOS.htm
+old-project: shell
+ms.assetid: 5ee6ef2b-2d06-42ec-b70e-659c2f137714
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPSFV_SETITEMPOS, SFV_SETITEMPOS, SFV_SETITEMPOS structure [Windows Shell], _SFV_SETITEMPOS, _shell_SFV_SETITEMPOS, shell.SFV_SETITEMPOS, shlobj/SFV_SETITEMPOS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SFV_SETITEMPOS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shlobj.h
+api_name:
+-	SFV_SETITEMPOS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # _SFV_SETITEMPOS structure

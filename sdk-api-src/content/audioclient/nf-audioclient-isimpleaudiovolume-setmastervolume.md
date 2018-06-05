@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:audioclient.ISimpleAudioVolume.SetMasterVolume
+title: ISimpleAudioVolume::SetMasterVolume
+author: windows-sdk-content
+description: The SetMasterVolume method sets the master volume level for the audio session.
+old-location: coreaudio\isimpleaudiovolume_setmastervolume.htm
+old-project: CoreAudio
+ms.assetid: 895a8564-5f06-4e20-abcc-d960d4002eb0
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ISimpleAudioVolume interface [Core Audio],SetMasterVolume method, ISimpleAudioVolume.SetMasterVolume, ISimpleAudioVolume::SetMasterVolume, ISimpleAudioVolumeSetMasterVolume, SetMasterVolume, SetMasterVolume method [Core Audio], SetMasterVolume method [Core Audio],ISimpleAudioVolume interface, audioclient/ISimpleAudioVolume::SetMasterVolume, coreaudio.isimpleaudiovolume_setmastervolume
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioclient.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioclient.h
+api_name:
+-	ISimpleAudioVolume.SetMasterVolume
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ISimpleAudioVolume::SetMasterVolume

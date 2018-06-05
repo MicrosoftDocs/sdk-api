@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:ws2spi.LPWSPADDRESSTOSTRING
+title: LPWSPADDRESSTOSTRING
+author: windows-sdk-content
+description: The WSPAddressToString function converts all components of a sockaddr structure into a human readableâ€“numeric string representation of the address. This is used mainly for display purposes.
+old-location: winsock\wspaddresstostring_2.htm
+old-project: WinSock
+ms.assetid: 7a6d8f77-7235-4cd1-90e1-9b5260137246
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: LPWSPADDRESSTOSTRING, WSPAddressToString, WSPAddressToString function [Winsock], _win32_wspaddresstostring_2, winsock.wspaddresstostring_2, ws2spi/WSPAddressToString
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ws2spi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SOCKADDR_INET, *PSOCKADDR_INET
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Ws2spi.h
+api_name:
+-	WSPAddressToString
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # LPWSPADDRESSTOSTRING callback function

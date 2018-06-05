@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fwpmtypes.FWPM_SYSTEM_PORT_TYPE_
+title: FWPM_SYSTEM_PORT_TYPE_
+author: windows-sdk-content
+description: The FWPM_SYSTEM_PORT_TYPE enumerated type.
+old-location: fwp\fwpm_system_port_type.htm
+old-project: FWP
+ms.assetid: 7e4fbcbd-a8c5-4ae5-ba69-46d8e7cbcbc9
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: FWPM_SYSTEM_PORT_IPHTTPS_IN, FWPM_SYSTEM_PORT_IPHTTPS_OUT, FWPM_SYSTEM_PORT_RPC_EPMAP, FWPM_SYSTEM_PORT_TEREDO, FWPM_SYSTEM_PORT_TYPE, FWPM_SYSTEM_PORT_TYPE enumeration [Filtering], FWPM_SYSTEM_PORT_TYPE_, FWPM_SYSTEM_PORT_TYPE_MAX, fwp.fwpm_system_port_type, fwpmtypes/FWPM_SYSTEM_PORT_IPHTTPS_IN, fwpmtypes/FWPM_SYSTEM_PORT_IPHTTPS_OUT, fwpmtypes/FWPM_SYSTEM_PORT_RPC_EPMAP, fwpmtypes/FWPM_SYSTEM_PORT_TEREDO, fwpmtypes/FWPM_SYSTEM_PORT_TYPE, fwpmtypes/FWPM_SYSTEM_PORT_TYPE_MAX
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fwpmtypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fwpmtypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWPM_SYSTEM_PORT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Fwpmtypes.h
+api_name:
+-	FWPM_SYSTEM_PORT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FWPM_SYSTEM_PORT_TYPE_ enumeration

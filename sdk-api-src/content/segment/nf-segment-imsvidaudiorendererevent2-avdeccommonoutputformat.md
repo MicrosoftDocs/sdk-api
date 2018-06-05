@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:segment.IMSVidAudioRendererEvent2.AVDecCommonOutputFormat
+title: IMSVidAudioRendererEvent2::AVDecCommonOutputFormat
+author: windows-sdk-content
+description: Indicates a change in the AVDecCommonOutput codec property.
+old-location: mstv\imsvidaudiorendererevent2_avdeccommonoutputformat.htm
+old-project: mstv
+ms.assetid: fe25dc52-bf79-488f-a897-e533c5209001
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: AVDecCommonOutputFormat, AVDecCommonOutputFormat method [Microsoft TV Technologies], AVDecCommonOutputFormat method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecCommonOutputFormat method, IMSVidAudioRendererEvent2.AVDecCommonOutputFormat, IMSVidAudioRendererEvent2::AVDecCommonOutputFormat, mstv.imsvidaudiorendererevent2_avdeccommonoutputformat, segment/IMSVidAudioRendererEvent2::AVDecCommonOutputFormat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: segment.h
+req.include-header: Msvidctl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Segment.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SourceSizeList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	segment.h
+api_name:
+-	IMSVidAudioRendererEvent2.AVDecCommonOutputFormat
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMSVidAudioRendererEvent2::AVDecCommonOutputFormat

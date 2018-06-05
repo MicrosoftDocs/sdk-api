@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:sdoias._SHV_COMBINATION_TYPE
+title: "_SHV_COMBINATION_TYPE"
+author: windows-sdk-content
+description: The SHV_COMBINATION_TYPE enumeration type specifies the type of a System Health Validator (SHV) combination.
+old-location: nps\SDO_shv_combination_type.htm
+old-project: Nps
+ms.assetid: 444c2223-3ff5-4e13-8d8d-f993979f3c46
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: SHV_COMBINATION_TYPE, SHV_COMBINATION_TYPE enumeration [Network Policy Server], SHV_COMBINATION_TYPE_ALL_FAIL, SHV_COMBINATION_TYPE_ALL_PASS, SHV_COMBINATION_TYPE_MAX, SHV_COMBINATION_TYPE_ONE_OR_MORE_FAIL, SHV_COMBINATION_TYPE_ONE_OR_MORE_INFECTED, SHV_COMBINATION_TYPE_ONE_OR_MORE_PASS, SHV_COMBINATION_TYPE_ONE_OR_MORE_TRANSITIONAL, SHV_COMBINATION_TYPE_ONE_OR_MORE_UNKNOWN, _SHV_COMBINATION_TYPE, nps.SDO_shv_combination_type, sdo.shv_combination_type, sdoias/SHV_COMBINATION_TYPE, sdoias/SHV_COMBINATION_TYPE_ALL_FAIL, sdoias/SHV_COMBINATION_TYPE_ALL_PASS, sdoias/SHV_COMBINATION_TYPE_MAX, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_FAIL, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_INFECTED, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_PASS, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_TRANSITIONAL, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_UNKNOWN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: sdoias.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
+req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHV_COMBINATION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	SdoIas.h
+api_name:
+-	SHV_COMBINATION_TYPE
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SHV_COMBINATION_TYPE enumeration

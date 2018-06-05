@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._REPARSE_GUID_DATA_BUFFER
+title: "_REPARSE_GUID_DATA_BUFFER"
+author: windows-sdk-content
+description: Contains information about a reparse point.
+old-location: fs\reparse_guid_data_buffer_str.htm
+old-project: FileIO
+ms.assetid: 2d49c1bc-0b1d-40b1-a3a2-6b30f0b3cca0
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PREPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER structure pointer [Files], REPARSE_GUID_DATA_BUFFER, REPARSE_GUID_DATA_BUFFER structure [Files], _REPARSE_GUID_DATA_BUFFER, _win32_reparse_guid_data_buffer_str, base.reparse_guid_data_buffer_str, fs.reparse_guid_data_buffer_str, winnt/PREPARSE_GUID_DATA_BUFFER, winnt/REPARSE_GUID_DATA_BUFFER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REPARSE_GUID_DATA_BUFFER, *PREPARSE_GUID_DATA_BUFFER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	REPARSE_GUID_DATA_BUFFER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _REPARSE_GUID_DATA_BUFFER structure

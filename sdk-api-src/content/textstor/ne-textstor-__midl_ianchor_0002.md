@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:textstor.__MIDL_IAnchor_0002
+title: "__MIDL_IAnchor_0002"
+author: windows-sdk-content
+description: Elements of the TsShiftDir enumeration specify which direction an anchor is moved.
+old-location: tsf\tsshiftdir.htm
+old-project: TSF
+ms.assetid: e247b79d-354c-4211-9160-e705436d669c
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: TS_SD_BACKWARD, TS_SD_FORWARD, TsShiftDir, TsShiftDir enumeration [Text Services Framework], __MIDL_IAnchor_0002, _tsf_tsshiftdir_ref, textstor/TS_SD_BACKWARD, textstor/TS_SD_FORWARD, textstor/TsShiftDir, tsf.tsshiftdir
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: textstor.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Textstor.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TsShiftDir
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Textstor.h
+api_name:
+-	TsShiftDir
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # __MIDL_IAnchor_0002 enumeration

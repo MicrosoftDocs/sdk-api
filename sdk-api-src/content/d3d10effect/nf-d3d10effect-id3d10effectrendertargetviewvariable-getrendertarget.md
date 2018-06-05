@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d10effect.ID3D10EffectRenderTargetViewVariable.GetRenderTarget
+title: ID3D10EffectRenderTargetViewVariable::GetRenderTarget
+author: windows-sdk-content
+description: Get a render-target.
+old-location: direct3d10\id3d10effectrendertargetviewvariable_getrendertarget.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10effectrendertargetviewvariable_getrendertarget.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 94ac5a07-8cf2-ac5f-171b-1912d521416d, GetRenderTarget, GetRenderTarget method [Direct3D 10], GetRenderTarget method [Direct3D 10],ID3D10EffectRenderTargetViewVariable interface, ID3D10EffectRenderTargetViewVariable interface [Direct3D 10],GetRenderTarget method, ID3D10EffectRenderTargetViewVariable.GetRenderTarget, ID3D10EffectRenderTargetViewVariable::GetRenderTarget, d3d10effect/ID3D10EffectRenderTargetViewVariable::GetRenderTarget, direct3d10.id3d10effectrendertargetviewvariable_getrendertarget
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d10effect.h
+req.include-header: D3d10
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_DEVICE_STATE_TYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d10effect.h
+api_name:
+-	ID3D10EffectRenderTargetViewVariable.GetRenderTarget
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D10EffectRenderTargetViewVariable::GetRenderTarget

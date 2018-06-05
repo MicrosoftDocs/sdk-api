@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Account
+title: IFsrmPipelineModuleDefinition::put_Account
+author: windows-sdk-content
+description: The account to use when running the module.
+old-location: fsrm\ifsrmpipelinemoduledefinition_account.htm
+old-project: Fsrm
+ms.assetid: 8f50bd88-ad16-49a4-b9d8-6c71ef6d9620
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: Account property [File Server Resource Manager], Account property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Account property, IFsrmPipelineModuleDefinition.Account, IFsrmPipelineModuleDefinition.put_Account, IFsrmPipelineModuleDefinition::Account, IFsrmPipelineModuleDefinition::get_Account, IFsrmPipelineModuleDefinition::put_Account, fs.ifsrmpipelinemoduledefinition_account, fsrm.ifsrmpipelinemoduledefinition_account, fsrmpipeline/IFsrmPipelineModuleDefinition::Account, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Account, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Account, put_Account
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmPipelineModuleDefinition.Account
+-	IFsrmPipelineModuleDefinition.get_Account
+-	IFsrmPipelineModuleDefinition.put_Account
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmPipelineModuleDefinition::put_Account

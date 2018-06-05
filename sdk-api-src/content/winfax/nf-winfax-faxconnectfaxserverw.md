@@ -1,31 +1,51 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winfax.FaxConnectFaxServerW
+title: FaxConnectFaxServerW function
+author: windows-sdk-content
+description: The FaxConnectFaxServer function connects a fax client application to the local fax server. The function returns a fax server handle that is required to call other fax client functions that facilitate job, device, configuration, and document management.
+old-location: fax\_mfax_faxconnectfaxserver.htm
+old-project: Fax
+ms.assetid: VS|fax|~\fax\faxlegacy_3qya.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: FaxConnectFaxServer, FaxConnectFaxServer function [Fax Service], FaxConnectFaxServerA, FaxConnectFaxServerW, _mfax_faxconnectfaxserver, fax._mfax_faxconnectfaxserver, winfax/FaxConnectFaxServer, winfax/FaxConnectFaxServerA, winfax/FaxConnectFaxServerW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winfax.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: FaxConnectFaxServerW (Unicode) and FaxConnectFaxServerA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVT_VARIANT, *PEVT_VARIANT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	WinFax.lib
+-	WinFax.dll
+api_name:
+-	FaxConnectFaxServer
+-	FaxConnectFaxServerA
+-	FaxConnectFaxServerW
+product: Windows
+targetos: Windows
+req.lib: WinFax.lib
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # FaxConnectFaxServerW function

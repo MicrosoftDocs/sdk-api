@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:cfg._PNP_VETO_TYPE
+title: "_PNP_VETO_TYPE"
+author: windows-sdk-content
+description: If the PnP manager rejects a request to perform an operation, the PNP_VETO_TYPE enumeration is used to identify the reason for the rejection.
+old-location: devinst\pnp_veto_type.htm
+old-project: devinst
+ms.assetid: aa999860-cabf-480e-9e17-574de169f464
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PPNP_VETO_TYPE, PNP_VETO_TYPE, PNP_VETO_TYPE enumeration [Device and Driver Installation], PNP_VetoDevice, PNP_VetoDriver, PNP_VetoIllegalDeviceRequest, PNP_VetoInsufficientPower, PNP_VetoInsufficientRights, PNP_VetoLegacyDevice, PNP_VetoLegacyDriver, PNP_VetoNonDisableable, PNP_VetoOutstandingOpen, PNP_VetoPendingClose, PNP_VetoTypeUnknown, PNP_VetoWindowsApp, PNP_VetoWindowsService, PPNP_VETO_TYPE, PPNP_VETO_TYPE enumeration pointer [Device and Driver Installation], _PNP_VETO_TYPE, cfg/PNP_VETO_TYPE, cfg/PNP_VetoDevice, cfg/PNP_VetoDriver, cfg/PNP_VetoIllegalDeviceRequest, cfg/PNP_VetoInsufficientPower, cfg/PNP_VetoInsufficientRights, cfg/PNP_VetoLegacyDevice, cfg/PNP_VetoLegacyDriver, cfg/PNP_VetoNonDisableable, cfg/PNP_VetoOutstandingOpen, cfg/PNP_VetoPendingClose, cfg/PNP_VetoTypeUnknown, cfg/PNP_VetoWindowsApp, cfg/PNP_VetoWindowsService, cfg/PPNP_VETO_TYPE, cfgmgrenum_8b47c6f6-4b36-472b-8389-11391558c252.xml, devinst.pnp_veto_type"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: cfg.h
+req.include-header: Cfgmgr32.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PNP_VETO_TYPE, *PPNP_VETO_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	cfg.h
+api_name:
+-	PNP_VETO_TYPE
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # _PNP_VETO_TYPE enumeration

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntdsapi.DsGetSpnA
+title: DsGetSpnA function
+author: windows-sdk-content
+description: The DsGetSpn function constructs an array of one or more service principal names (SPNs). Each name in the array identifies an instance of a service. These SPNs may be registered with the directory service (DS) using the DsWriteAccountSpn function.
+old-location: ad\dsgetspn.htm
+old-project: AD
+ms.assetid: cbd53850-9b05-4f74-ab07-30dcad583fc5
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_SPN_DNS_HOST,DS_SPN_DN_HOST,DS_SPN_NB_HOST, DS_SPN_DOMAIN,DS_SPN_NB_DOMAIN, DS_SPN_SERVICE, DsGetSpn, DsGetSpn function [Active Directory], DsGetSpnA, DsGetSpnW, _glines_dsgetspn, ad.dsgetspn, ntdsapi/DsGetSpn, ntdsapi/DsGetSpnA, ntdsapi/DsGetSpnW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DsGetSpnW (Unicode) and DsGetSpnA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_REPL_OP_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdsapi.dll
+api_name:
+-	DsGetSpn
+-	DsGetSpnA
+-	DsGetSpnW
+product: Windows
+targetos: Windows
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DsGetSpnA function

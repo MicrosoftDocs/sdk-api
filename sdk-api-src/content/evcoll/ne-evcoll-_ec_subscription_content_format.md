@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:evcoll._EC_SUBSCRIPTION_CONTENT_FORMAT
+title: "_EC_SUBSCRIPTION_CONTENT_FORMAT"
+author: windows-sdk-content
+description: Specifies how events will be rendered on the computer that sends the events before the events are sent to the event collector computer.
+old-location: wec\ec_subscription_content_format.htm
+old-project: WEC
+ms.assetid: 72db596e-ef94-4167-bf1a-176095e17f8d
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: EC_SUBSCRIPTION_CONTENT_FORMAT, EC_SUBSCRIPTION_CONTENT_FORMAT enumeration, EcContentFormatEvents, EcContentFormatRenderedText, _EC_SUBSCRIPTION_CONTENT_FORMAT, evcoll/EC_SUBSCRIPTION_CONTENT_FORMAT, evcoll/EcContentFormatEvents, evcoll/EcContentFormatRenderedText, wec.ec_subscription_content_format, wes.ec_subscription_content_format
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: evcoll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EC_SUBSCRIPTION_CONTENT_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Evcoll.h
+api_name:
+-	EC_SUBSCRIPTION_CONTENT_FORMAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _EC_SUBSCRIPTION_CONTENT_FORMAT enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:aux_ulib.AuxUlibSetSystemFileCacheSize
+title: AuxUlibSetSystemFileCacheSize function
+author: windows-sdk-content
+description: Sets the current file system cache size.
+old-location: winprog\auxulibsetsystemfilecachesize_func.htm
+old-project: DevNotes
+ms.assetid: 2a6ee33e-91dc-4f6d-bdb7-a93b7478b58e
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: AuxUlibSetSystemFileCacheSize, AuxUlibSetSystemFileCacheSize function [Windows API], aux_ulib/AuxUlibSetSystemFileCacheSize, winprog.auxulibsetsystemfilecachesize_func
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: aux_ulib.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTHZ_SOURCE_SCHEMA_REGISTRATION, *PAUTHZ_SOURCE_SCHEMA_REGISTRATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Aux_ulib.lib
+api_name:
+-	AuxUlibSetSystemFileCacheSize
+product: Windows
+targetos: Windows
+req.lib: Aux_ulib.lib
+req.dll: 
+req.irql: 
 ---
 
 # AuxUlibSetSystemFileCacheSize function

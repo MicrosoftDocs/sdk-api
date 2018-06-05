@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shdeprecated.IBrowserService4.ActivateView
+title: IBrowserService4::ActivateView
+author: windows-sdk-content
+description: Deprecated.
+old-location: shell\IBrowserService4_ActivateView.htm
+old-project: shell
+ms.assetid: 4a20e0b8-8fe5-4d5b-b263-3ad8416ad4da
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ActivateView, ActivateView method [Windows Shell], ActivateView method [Windows Shell],IBrowserService4 interface, IBrowserService4 interface [Windows Shell],ActivateView method, IBrowserService4.ActivateView, IBrowserService4::ActivateView, _shell_IBrowserService4_ActivateView, shdeprecated/IBrowserService4::ActivateView, shell.IBrowserService4_ActivateView
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shdeprecated.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shdeprecated.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BNSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shdeprecated.h
+api_name:
+-	IBrowserService4.ActivateView
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.0
 ---
 
 # IBrowserService4::ActivateView

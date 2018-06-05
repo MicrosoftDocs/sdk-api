@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_SURFCB_SETPALETTE
+title: PDD_SURFCB_SETPALETTE
+author: windows-sdk-content
+description: The DdSetPalette callback function attaches a palette to the specified surface.
+old-location: display\ddsetpalette.htm
+old-project: display
+ms.assetid: 745b30f0-3d2f-4894-8991-6b7d511f8493
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DdSetPalette, DdSetPalette callback function [Display Devices], PDD_SURFCB_SETPALETTE, PDD_SURFCB_SETPALETTE callback, ddfncs_7d4146b2-d5f8-4a02-b24e-3dfa0a8d817a.xml, ddrawint/DdSetPalette, display.ddsetpalette
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdSetPalette
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_SURFCB_SETPALETTE callback function

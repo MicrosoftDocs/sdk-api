@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d11_3.CD3D11_RASTERIZER_DESC2
+title: CD3D11_RASTERIZER_DESC2
+author: windows-sdk-content
+description: Describes rasterizer state.
+old-location: direct3d11\d3d11_rasterizer_desc2.htm
+old-project: direct3d11
+ms.assetid: 54B5744A-1F50-4203-A43B-7E830D769534
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: CD3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2 structure [Direct3D 11], d3d11_3/D3D11_RASTERIZER_DESC2, direct3d11.d3d11_rasterizer_desc2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d11_3.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11_3.h
+api_name:
+-	D3D11_RASTERIZER_DESC2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CD3D11_RASTERIZER_DESC2 structure

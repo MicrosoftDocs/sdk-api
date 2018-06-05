@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:workspaceruntime.IWorkspaceRegistration2.AddResourceEx
+title: IWorkspaceRegistration2::AddResourceEx
+author: windows-sdk-content
+description: Adds a resource to the connection in RemoteApp and Desktop Connection.
+old-location: termserv\iworkspaceregistration2_addresourceex.htm
+old-project: TermServ
+ms.assetid: 7bb26842-ca30-40e2-b7a2-474dda4ad433
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AddResourceEx, AddResourceEx method [Remote Desktop Services], AddResourceEx method [Remote Desktop Services],IWorkspaceRegistration2 interface, AddResourceEx method [Remote Desktop Services],Workspace object, IWorkspaceRegistration2 interface [Remote Desktop Services],AddResourceEx method, IWorkspaceRegistration2.AddResourceEx, IWorkspaceRegistration2::AddResourceEx, Workspace object [Remote Desktop Services],AddResourceEx method, termserv.iworkspaceregistration2_addresourceex, workspaceruntime/IWorkspaceRegistration2::AddResourceEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: workspaceruntime.h
+req.include-header: Workspaceruntime.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WorkspaceRuntime.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: WkspRt.exe
+tech.root: 
+req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+topic_type:
+-	kbSyntax
+api_type:
+-	<TBD>
+api_location:
+-
+api_name:
+-	IWorkspaceRegistration2::AddResourceEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWorkspaceRegistration2::AddResourceEx

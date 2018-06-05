@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:spatialaudioclient.SpatialAudioClientActivationParams
+title: SpatialAudioClientActivationParams
+author: windows-sdk-content
+description: Represents optional activation parameters for a spatial audio render stream. Pass this structure to ActivateAudioInterfaceAsync when activating an ISpatialAudioClient interface.
+old-location: coreaudio\spatialaudioclientactivationparams.htm
+old-project: CoreAudio
+ms.assetid: 6FEC7A70-D12E-4DB9-91DC-A54D5CCF8B57
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: PSpatialAudioClientActivationParams, PSpatialAudioClientActivationParams structure pointer [Core Audio], SpatialAudioClientActivationParams, SpatialAudioClientActivationParams structure [Core Audio], coreaudio.spatialaudioclientactivationparams, spatialaudioclient/PSpatialAudioClientActivationParams, spatialaudioclient/SpatialAudioClientActivationParams
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: spatialaudioclient.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SpatialAudioClientActivationParams
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	spatialaudioclient.h
+api_name:
+-	SpatialAudioClientActivationParams
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SpatialAudioClientActivationParams structure

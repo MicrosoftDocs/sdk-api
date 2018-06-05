@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:usbuser._USB_BANDWIDTH_INFO
+title: "_USB_BANDWIDTH_INFO"
+author: windows-sdk-content
+description: The USB_BANDWIDTH_INFO structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve information about the allocated bandwidth.
+old-location: buses\usb_bandwidth_info.htm
+old-project: usbref
+ms.assetid: 33983bed-9794-4deb-8d30-1089eee9eb9c
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: "*PUSB_BANDWIDTH_INFO, PUSB_BANDWIDTH_INFO, PUSB_BANDWIDTH_INFO structure pointer [Buses], USB_BANDWIDTH_INFO, USB_BANDWIDTH_INFO structure [Buses], _USB_BANDWIDTH_INFO, buses.usb_bandwidth_info, usbstrct_d852c165-11b3-405f-aa49-dc7f48f710a1.xml, usbuser/PUSB_BANDWIDTH_INFO, usbuser/USB_BANDWIDTH_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: usbuser.h
+req.include-header: Usbuser.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USB_BANDWIDTH_INFO, *PUSB_BANDWIDTH_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	usbuser.h
+api_name:
+-	USB_BANDWIDTH_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _USB_BANDWIDTH_INFO structure

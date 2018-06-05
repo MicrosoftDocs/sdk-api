@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iwstdec._AM_WST_STATE
+title: "_AM_WST_STATE"
+author: windows-sdk-content
+description: The AM_WST_STATE enumeration specifies whether WST closed captioning is enabled or disabled.
+old-location: dshow\am_wst_state.htm
+old-project: DirectShow
+ms.assetid: b6548144-7e18-4d5d-9243-51eb7db9821b
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PAM_WST_STATE, AM_WST_STATE, AM_WST_STATE , AM_WST_STATE enumeration [DirectShow], AM_WST_STATEEnumeration, AM_WST_STATE_Off, AM_WST_STATE_On, PAM_WST_STATE, PAM_WST_STATE enumeration pointer [DirectShow], _AM_WST_STATE, dshow.am_wst_state, iwstdec/AM_WST_STATE, iwstdec/AM_WST_STATE_Off, iwstdec/AM_WST_STATE_On, iwstdec/PAM_WST_STATE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iwstdec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_WST_STATE, *PAM_WST_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	iwstdec.h
+api_name:
+-	AM_WST_STATE
+product: Windows
+targetos: Windows
+req.lib: Wscapi.lib
+req.dll: Wscapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _AM_WST_STATE enumeration

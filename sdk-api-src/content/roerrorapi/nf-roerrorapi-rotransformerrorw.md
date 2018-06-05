@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:roerrorapi.RoTransformErrorW
+title: RoTransformErrorW function
+author: windows-sdk-content
+description: Reports a transformed error and an informative string to an attached debugger.
+old-location: winrt\rotransformerrorw.htm
+old-project: WinRT
+ms.assetid: A13265FD-DC14-4552-A9FD-C954A7EA08C9
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: RoTransformErrorW, RoTransformErrorW function [Windows Runtime], WinRTTransformErrorW, roerrorapi/RoTransformErrorW, roerrorapi/WinRTTransformErrorW, winrt.rotransformerrorw, winrt.winrttransformerrorw
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: roerrorapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RO_ERROR_REPORTING_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	roerrorapi.h
+-	API-MS-Win-Core-WinRT-error-l1-1-0.dll
+-	ComBase.dll
+-	API-MS-Win-Core-WinRT-error-l1-1-1.dll
+api_name:
+-	RoTransformErrorW
+-	WinRTTransformErrorW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RoTransformErrorW function

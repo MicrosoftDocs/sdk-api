@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:corewindow.CreateControlInputEx
+title: CreateControlInputEx function
+author: windows-sdk-content
+description: Creates a ICoreInputSourceBase object in a worker thread or the UI thread.
+old-location: winrt\createcontrolinputex.htm
+old-project: WinRT
+ms.assetid: AF12DA9F-7E5A-43B0-8B4D-7E41C4C1361F
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: CreateControlInputEx, CreateControlInputEx function [Windows Runtime], corewindow/CreateControlInputEx, winrt.createcontrolinputex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: corewindow.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPContextMenuInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Windows.UI.dll
+api_name:
+-	CreateControlInputEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Windows.UI.dll
+req.irql: 
 ---
 
 # CreateControlInputEx function

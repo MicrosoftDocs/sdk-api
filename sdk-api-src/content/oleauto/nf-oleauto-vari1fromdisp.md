@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:oleauto.VarI1FromDisp
+title: VarI1FromDisp function
+author: windows-sdk-content
+description: Converts the default property of an IDispatch instance to a char value.
+old-location: automat\vari1fromdisp.htm
+old-project: automat
+ms.assetid: 82439eb1-e46f-4179-9017-fc5dccdbfeaf
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: VarI1FromDisp, VarI1FromDisp function [Automation], _oa96_VarI1FromDisp, automat.vari1fromdisp, oleauto/VarI1FromDisp
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: oleauto.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REGKIND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	OleAut32.dll
+api_name:
+-	VarI1FromDisp
+product: Windows
+targetos: Windows
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VarI1FromDisp function

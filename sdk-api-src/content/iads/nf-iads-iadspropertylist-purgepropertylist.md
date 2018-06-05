@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iads.IADsPropertyList.PurgePropertyList
+title: IADsPropertyList::PurgePropertyList
+author: windows-sdk-content
+description: Deletes all items from the property list.
+old-location: adsi\iadspropertylist_purgepropertylist.htm
+old-project: ADSI
+ms.assetid: 872c8af7-60c4-4dfc-aa37-0cbb2229a93f
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IADsPropertyList interface [ADSI],PurgePropertyList method, IADsPropertyList.PurgePropertyList, IADsPropertyList::PurgePropertyList, PurgePropertyList, PurgePropertyList method [ADSI], PurgePropertyList method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_purgepropertylist, adsi.iadspropertylist__purgepropertylist, adsi.iadspropertylist_purgepropertylist, iads/IADsPropertyList::PurgePropertyList
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SD_FORMAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Activeds.dll
+api_name:
+-	IADsPropertyList.PurgePropertyList
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IADsPropertyList::PurgePropertyList

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tom.ITextRange2.GetInlineObject
+title: ITextRange2::GetInlineObject
+author: windows-sdk-content
+description: Gets the properties of the inline object at the range active end.
+old-location: controls\itextrange2_getinlineobject.htm
+old-project: Controls
+ms.assetid: 0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetInlineObject, GetInlineObject method [Windows Controls], GetInlineObject method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetInlineObject method, ITextRange2.GetInlineObject, ITextRange2::GetInlineObject, controls.itextrange2_getinlineobject, tom/ITextRange2::GetInlineObject, tomAccent, tomBox, tomBoxedFormula, tomBrackets, tomBracketsWithSeps, tomEquationArray, tomFraction, tomFunctionApply, tomHorzVert, tomLeftSubSup, tomLowerLimit, tomMatrix, tomNary, tomOpChar, tomOverbar, tomPhantom, tomRadical, tomRuby, tomSimpleText, tomSlashedFraction, tomStack, tomStretchStack, tomStyleDefault, tomStyleDisplay, tomStyleDisplayCramped, tomStyleScript, tomStyleScriptCramped, tomStyleScriptScript, tomStyleScriptScriptCramped, tomStyleText, tomStyleTextCramped, tomSubSup, tomSubscript, tomSuperscript, tomUnderbar, tomUpperLimit, tomWarichu
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextRange2.GetInlineObject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextRange2::GetInlineObject

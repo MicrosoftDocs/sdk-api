@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wtsprotocol.IWTSProtocolConnection.ConnectNotify
+title: IWTSProtocolConnection::ConnectNotify
+author: windows-sdk-content
+description: IWTSProtocolConnection::ConnectNotify is no longer available. Instead, use IWRdsProtocolConnection::ConnectNotify.
+old-location: termserv\iwtsprotocolconnection_connectnotify.htm
+old-project: TermServ
+ms.assetid: 9109d867-d9dc-4b95-a674-9f59ed7aa6a4
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ConnectNotify, ConnectNotify method [Remote Desktop Services], ConnectNotify method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],ConnectNotify method, IWTSProtocolConnection.ConnectNotify, IWTSProtocolConnection::ConnectNotify, termserv.iwtsprotocolconnection_connectnotify, wtsprotocol/IWTSProtocolConnection::ConnectNotify
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wtsprotocol.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wtsprotocol.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wtsprotocol.h
+api_name:
+-	IWTSProtocolConnection.ConnectNotify
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWTSProtocolConnection::ConnectNotify

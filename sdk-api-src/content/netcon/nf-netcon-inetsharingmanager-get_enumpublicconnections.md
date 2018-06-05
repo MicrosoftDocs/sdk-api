@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netcon.INetSharingManager.get_EnumPublicConnections
+title: INetSharingManager::get_EnumPublicConnections
+author: windows-sdk-content
+description: The EnumPublicConnections method retrieves an enumeration interface for publicly-shared connections.
+old-location: ics\inetsharingmanager_get_enumpublicconnections.htm
+old-project: ICS
+ms.assetid: 7db0eb73-8e0f-4267-9a88-20952f3721e2
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumPublicConnections method, INetSharingManager.get_EnumPublicConnections, INetSharingManager::get_EnumPublicConnections, _ics_inetsharingmanager_get_enumpublicconnections, get_EnumPublicConnections, get_EnumPublicConnections method [ICS/ICF], get_EnumPublicConnections method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_enumpublicconnections, netcon/INetSharingManager::get_EnumPublicConnections
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netcon.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Hnetcfg.dll
+api_name:
+-	INetSharingManager.get_EnumPublicConnections
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetSharingManager::get_EnumPublicConnections

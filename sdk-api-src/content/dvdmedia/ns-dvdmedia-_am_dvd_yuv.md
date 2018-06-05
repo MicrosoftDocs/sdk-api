@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dvdmedia._AM_DVD_YUV
+title: "_AM_DVD_YUV"
+author: windows-sdk-content
+description: Contains DVD YUV subpicture data.
+old-location: dshow\am_dvd_yuv.htm
+old-project: DirectShow
+ms.assetid: fb954bc2-4ef1-4a5f-b795-a3b2a8aae8d4
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PAM_DVD_YUV, AM_DVD_YUV, AM_DVD_YUV structure [DirectShow], PAM_DVD_YUV, PAM_DVD_YUV structure pointer [DirectShow], _AM_DVD_YUV, dshow.am_dvd_yuv, dvdmedia/AM_DVD_YUV, dvdmedia/PAM_DVD_YUV"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dvdmedia.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_DVD_YUV, *PAM_DVD_YUV
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dvdmedia.h
+api_name:
+-	AM_DVD_YUV
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _AM_DVD_YUV structure

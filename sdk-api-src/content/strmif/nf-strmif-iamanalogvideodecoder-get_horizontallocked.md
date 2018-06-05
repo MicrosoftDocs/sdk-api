@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.IAMAnalogVideoDecoder.get_HorizontalLocked
+title: IAMAnalogVideoDecoder::get_HorizontalLocked
+author: windows-sdk-content
+description: The get_HorizontalLocked method determines whether the horizontal sync is locked.
+old-location: dshow\iamanalogvideodecoder_get_horizontallocked.htm
+old-project: DirectShow
+ms.assetid: c3923440-8770-42f1-a8f3-afa2e8a512d5
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_HorizontalLocked method, IAMAnalogVideoDecoder.get_HorizontalLocked, IAMAnalogVideoDecoder::get_HorizontalLocked, IAMAnalogVideoDecoderget_HorizontalLocked, dshow.iamanalogvideodecoder_get_horizontallocked, get_HorizontalLocked, get_HorizontalLocked method [DirectShow], get_HorizontalLocked method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_HorizontalLocked
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IAMAnalogVideoDecoder.get_HorizontalLocked
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IAMAnalogVideoDecoder::get_HorizontalLocked

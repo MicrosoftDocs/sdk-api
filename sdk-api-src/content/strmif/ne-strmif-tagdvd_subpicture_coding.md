@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.tagDVD_SUBPICTURE_CODING
+title: tagDVD_SUBPICTURE_CODING
+author: windows-sdk-content
+description: Indicates what kind of content the subpicture stream contains.
+old-location: dshow\dvd_subpicture_coding.htm
+old-project: DirectShow
+ms.assetid: 46f45dfb-9be7-4222-b6fb-ea95b60323cd
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DVD_SPCoding_Extended, DVD_SPCoding_Other, DVD_SPCoding_RunLength, DVD_SUBPICTURE_CODING, DVD_SUBPICTURE_CODING , DVD_SUBPICTURE_CODING enumeration [DirectShow], DVD_SUBPICTURE_CODINGEnumeration, dshow.dvd_subpicture_coding, strmif/DVD_SPCoding_Extended, strmif/DVD_SPCoding_Other, strmif/DVD_SPCoding_RunLength, strmif/DVD_SUBPICTURE_CODING, tagDVD_SUBPICTURE_CODING
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_SUBPICTURE_CODING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	DVD_SUBPICTURE_CODING
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # tagDVD_SUBPICTURE_CODING enumeration

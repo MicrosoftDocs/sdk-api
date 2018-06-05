@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:audioengineendpoint.IAudioEndpointOffloadStreamVolume
+title: IAudioEndpointOffloadStreamVolume
+author: windows-sdk-content
+description: The IAudioEndpointOffloadStreamVolume interface allows the client application to manipulate the volume level of the offloaded audio stream.
+old-location: coreaudio\iaudioendpointoffloadstreamvolume.htm
+old-project: CoreAudio
+ms.assetid: 73FD2289-8414-4A63-A518-634D6F2DF48D
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IAudioEndpointOffloadStreamVolume, IAudioEndpointOffloadStreamVolume interface [Core Audio], IAudioEndpointOffloadStreamVolume interface [Core Audio],described, audioengineendpoint/IAudioEndpointOffloadStreamVolume, coreaudio.iaudioendpointoffloadstreamvolume
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: audioengineendpoint.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AE_POSITION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	audioengineendpoint.h
+api_name:
+-	IAudioEndpointOffloadStreamVolume
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioEndpointOffloadStreamVolume interface

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:authz._AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
+title: "_AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE"
+author: windows-sdk-content
+description: Specifies a fully qualified binary name value associated with a security attribute.
+old-location: security\authz_security_attribute_fqbn_value.htm
+old-project: SecAuthZ
+ms.assetid: 05b4bf7d-a0d9-473c-b215-9cf566b2a996
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE structure [Security], PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE structure pointer [Security], _AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, authz/AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, authz/PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, security.authz_security_attribute_fqbn_value"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: authz.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, *PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Authz.h
+api_name:
+-	AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE structure

@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationTablePattern.get_CachedRowOrColumnMajor
+title: IUIAutomationTablePattern::get_CachedRowOrColumnMajor
+author: windows-sdk-content
+description: Retrieves the cached primary direction of traversal for the table.
+old-location: winauto\uiauto_IUIAutomationTablePattern_CachedRowOrColumnMajor.htm
+old-project: WinAuto
+ms.assetid: 510917f9-43bf-4891-bae7-7e5ae7607092
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CachedRowOrColumnMajor property [Windows Accessibility], CachedRowOrColumnMajor property [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],CachedRowOrColumnMajor property, IUIAutomationTablePattern.CachedRowOrColumnMajor, IUIAutomationTablePattern.get_CachedRowOrColumnMajor, IUIAutomationTablePattern::CachedRowOrColumnMajor, IUIAutomationTablePattern::get_CachedRowOrColumnMajor, get_CachedRowOrColumnMajor, uiauto.uiauto_IUIAutomationTablePattern_CachedRowOrColumnMajor, uiauto_IUIAutomationTablePattern_CachedRowOrColumnMajor, uiautomationclient/IUIAutomationTablePattern::CachedRowOrColumnMajor, uiautomationclient/IUIAutomationTablePattern::get_CachedRowOrColumnMajor, winauto.uiauto_IUIAutomationTablePattern_CachedRowOrColumnMajor
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationTablePattern.CachedRowOrColumnMajor
+-	IUIAutomationTablePattern.get_CachedRowOrColumnMajor
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationTablePattern::get_CachedRowOrColumnMajor

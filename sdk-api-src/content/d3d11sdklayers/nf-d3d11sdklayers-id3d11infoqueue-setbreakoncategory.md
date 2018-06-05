@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11sdklayers.ID3D11InfoQueue.SetBreakOnCategory
+title: ID3D11InfoQueue::SetBreakOnCategory
+author: windows-sdk-content
+description: Set a message category to break on when a message with that category passes through the storage filter.
+old-location: direct3d11\id3d11infoqueue_setbreakoncategory.htm
+old-project: direct3d11
+ms.assetid: 3d6f66bf-01b8-4bab-a40e-98f5893050cd
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 17afaa7e-0f5c-964c-84e9-887599f0d947, ID3D11InfoQueue interface [Direct3D 11],SetBreakOnCategory method, ID3D11InfoQueue.SetBreakOnCategory, ID3D11InfoQueue::SetBreakOnCategory, SetBreakOnCategory, SetBreakOnCategory method [Direct3D 11], SetBreakOnCategory method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::SetBreakOnCategory, direct3d11.id3d11infoqueue_setbreakoncategory
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11InfoQueue.SetBreakOnCategory
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11InfoQueue::SetBreakOnCategory

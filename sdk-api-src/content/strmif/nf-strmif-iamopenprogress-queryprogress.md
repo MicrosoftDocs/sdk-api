@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:strmif.IAMOpenProgress.QueryProgress
+title: IAMOpenProgress::QueryProgress
+author: windows-sdk-content
+description: The QueryProgress method retrieves the progress of the file-open operation.
+old-location: dshow\iamopenprogress_queryprogress.htm
+old-project: DirectShow
+ms.assetid: 8471271d-36cc-4660-8a4e-4c234ba6b406
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IAMOpenProgress interface [DirectShow],QueryProgress method, IAMOpenProgress.QueryProgress, IAMOpenProgress::QueryProgress, IAMOpenProgressQueryProgress, QueryProgress, QueryProgress method [DirectShow], QueryProgress method [DirectShow],IAMOpenProgress interface, dshow.iamopenprogress_queryprogress, strmif/IAMOpenProgress::QueryProgress
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IAMOpenProgress.QueryProgress
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IAMOpenProgress::QueryProgress

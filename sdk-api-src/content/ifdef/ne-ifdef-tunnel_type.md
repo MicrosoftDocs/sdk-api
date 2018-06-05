@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:ifdef.TUNNEL_TYPE
+title: TUNNEL_TYPE
+author: windows-sdk-content
+description: The TUNNEL_TYPE enumeration type defines the encapsulation method used by a tunnel, as described by the Internet Assigned Names Authority (IANA).
+old-location: netvista\tunnel_type.htm
+old-project: netvista
+ms.assetid: 3da3701b-9aeb-4e74-b81b-0473fd026d91
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PTUNNEL_TYPE, PTUNNEL_TYPE, PTUNNEL_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], TUNNEL_TYPE, TUNNEL_TYPE enumeration [Network Drivers Starting with Windows Vista], TUNNEL_TYPE_6TO4, TUNNEL_TYPE_DIRECT, TUNNEL_TYPE_IPHTTPS, TUNNEL_TYPE_ISATAP, TUNNEL_TYPE_NONE, TUNNEL_TYPE_OTHER, TUNNEL_TYPE_TEREDO, ifdef/PTUNNEL_TYPE, ifdef/TUNNEL_TYPE, ifdef/TUNNEL_TYPE_6TO4, ifdef/TUNNEL_TYPE_DIRECT, ifdef/TUNNEL_TYPE_IPHTTPS, ifdef/TUNNEL_TYPE_ISATAP, ifdef/TUNNEL_TYPE_NONE, ifdef/TUNNEL_TYPE_OTHER, ifdef/TUNNEL_TYPE_TEREDO, net_if_enums_ref_46dc254b-c521-4b6e-9780-598bcf1942fa.xml, netvista.tunnel_type"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ifdef.h
+req.include-header: Netioapi.h, Ntddndis.h
+req.target-type: Windows
+req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TUNNEL_TYPE, *PTUNNEL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ifdef.h
+api_name:
+-	TUNNEL_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # TUNNEL_TYPE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:usp10.tag_SCRIPT_JUSTIFY
+title: tag_SCRIPT_JUSTIFY
+author: windows-sdk-content
+description: Defines glyph characteristic information that an application needs to implement justification.
+old-location: intl\script_justify.htm
+old-project: Intl
+ms.assetid: c2de8482-cca9-4ee3-b81a-8367fbe9130b
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SCRIPT_JUSTIFY, SCRIPT_JUSTIFY enumeration [Internationalization for Windows Applications], SCRIPT_JUSTIFY_ARABIC_ALEF, SCRIPT_JUSTIFY_ARABIC_BA, SCRIPT_JUSTIFY_ARABIC_BARA, SCRIPT_JUSTIFY_ARABIC_BLANK, SCRIPT_JUSTIFY_ARABIC_HA, SCRIPT_JUSTIFY_ARABIC_KASHIDA, SCRIPT_JUSTIFY_ARABIC_NORMAL, SCRIPT_JUSTIFY_ARABIC_RA, SCRIPT_JUSTIFY_ARABIC_SEEN, SCRIPT_JUSTIFY_ARABIC_SEEN_M, SCRIPT_JUSTIFY_BLANK, SCRIPT_JUSTIFY_CHARACTER, SCRIPT_JUSTIFY_NONE, SCRIPT_JUSTIFY_RESERVED1, SCRIPT_JUSTIFY_RESERVED2, SCRIPT_JUSTIFY_RESERVED3, _win32_SCRIPT_JUSTIFY_str, intl.script_justify, tag_SCRIPT_JUSTIFY, usp10/SCRIPT_JUSTIFY, usp10/SCRIPT_JUSTIFY_ARABIC_ALEF, usp10/SCRIPT_JUSTIFY_ARABIC_BA, usp10/SCRIPT_JUSTIFY_ARABIC_BARA, usp10/SCRIPT_JUSTIFY_ARABIC_BLANK, usp10/SCRIPT_JUSTIFY_ARABIC_HA, usp10/SCRIPT_JUSTIFY_ARABIC_KASHIDA, usp10/SCRIPT_JUSTIFY_ARABIC_NORMAL, usp10/SCRIPT_JUSTIFY_ARABIC_RA, usp10/SCRIPT_JUSTIFY_ARABIC_SEEN, usp10/SCRIPT_JUSTIFY_ARABIC_SEEN_M, usp10/SCRIPT_JUSTIFY_BLANK, usp10/SCRIPT_JUSTIFY_CHARACTER, usp10/SCRIPT_JUSTIFY_NONE, usp10/SCRIPT_JUSTIFY_RESERVED1, usp10/SCRIPT_JUSTIFY_RESERVED2, usp10/SCRIPT_JUSTIFY_RESERVED3
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: usp10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCRIPT_JUSTIFY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Usp10.h
+api_name:
+-	SCRIPT_JUSTIFY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # tag_SCRIPT_JUSTIFY enumeration

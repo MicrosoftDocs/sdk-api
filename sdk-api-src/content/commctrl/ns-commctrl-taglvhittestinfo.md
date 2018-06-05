@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.tagLVHITTESTINFO
+title: tagLVHITTESTINFO
+author: windows-sdk-content
+description: Contains information about a hit test.
+old-location: controls\LVHITTESTINFO.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\listview\structures\lvhittestinfo.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPLVHITTESTINFO, LPLVHITTESTINFO, LPLVHITTESTINFO structure pointer [Windows Controls], LVHITTESTINFO, LVHITTESTINFO structure [Windows Controls], LVHT_ABOVE, LVHT_BELOW, LVHT_EX_FOOTER, LVHT_EX_GROUP, LVHT_EX_GROUP_BACKGROUND, LVHT_EX_GROUP_COLLAPSE, LVHT_EX_GROUP_FOOTER, LVHT_EX_GROUP_HEADER, LVHT_EX_GROUP_STATEICON, LVHT_EX_GROUP_SUBSETLINK, LVHT_EX_ONCONTENTS, LVHT_NOWHERE, LVHT_ONITEMICON, LVHT_ONITEMLABEL, LVHT_ONITEMSTATEICON, LVHT_TOLEFT, LVHT_TORIGHT, _win32_LVHITTESTINFO, _win32_LVHITTESTINFO_cpp, commctrl/LPLVHITTESTINFO, commctrl/LVHITTESTINFO, controls.LVHITTESTINFO, controls._win32_LVHITTESTINFO, tagLVHITTESTINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LVHITTESTINFO, *LPLVHITTESTINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	LVHITTESTINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagLVHITTESTINFO structure

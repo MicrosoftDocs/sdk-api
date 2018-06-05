@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objidl.IBindCtx.RegisterObjectBound
+title: IBindCtx::RegisterObjectBound
+author: windows-sdk-content
+description: Registers an object with the bind context to ensure that the object remains active until the bind context is released.
+old-location: com\ibindctx_registerobjectbound.htm
+old-project: com
+ms.assetid: 84d49231-5fdd-4a89-8e76-1f0e56bc553f
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IBindCtx interface [COM],RegisterObjectBound method, IBindCtx.RegisterObjectBound, IBindCtx::RegisterObjectBound, RegisterObjectBound, RegisterObjectBound method [COM], RegisterObjectBound method [COM],IBindCtx interface, _com_ibindctx_registerobjectbound, com.ibindctx_registerobjectbound, objidl/IBindCtx::RegisterObjectBound
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IBindCtx.RegisterObjectBound
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IBindCtx::RegisterObjectBound

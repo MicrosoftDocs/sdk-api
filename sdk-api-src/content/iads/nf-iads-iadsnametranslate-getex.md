@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iads.IADsNameTranslate.GetEx
+title: IADsNameTranslate::GetEx
+author: windows-sdk-content
+description: Gets the object names in the specified format.
+old-location: adsi\iadsnametranslate_getex.htm
+old-project: ADSI
+ms.assetid: 01c4fc79-ed5b-4a24-9b97-25b4095a9c8f
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetEx, GetEx method [ADSI], GetEx method [ADSI],IADsNameTranslate interface, IADsNameTranslate interface [ADSI],GetEx method, IADsNameTranslate.GetEx, IADsNameTranslate::GetEx, _ds_iadsnametranslate_getex, adsi.iadsnametranslate__getex, adsi.iadsnametranslate_getex, iads/IADsNameTranslate::GetEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_SD_FORMAT_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Activeds.dll
+api_name:
+-	IADsNameTranslate.GetEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IADsNameTranslate::GetEx

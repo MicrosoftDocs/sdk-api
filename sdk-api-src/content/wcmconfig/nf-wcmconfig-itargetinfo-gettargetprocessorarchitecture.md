@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wcmconfig.ITargetInfo.GetTargetProcessorArchitecture
+title: ITargetInfo::GetTargetProcessorArchitecture
+author: windows-sdk-content
+description: Gets processor architecture associated with the current target.
+old-location: smi\itargetinfo_gettargetprocessorarchitecture.htm
+old-project: SMI
+ms.assetid: 7c66e131-97e6-4a8e-b4b0-927633d6d53a
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetTargetProcessorArchitecture, GetTargetProcessorArchitecture method [SMI], GetTargetProcessorArchitecture method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTargetProcessorArchitecture method, ITargetInfo.GetTargetProcessorArchitecture, ITargetInfo::GetTargetProcessorArchitecture, smi.itargetinfo_gettargetprocessorarchitecture, wcmconfig/ITargetInfo::GetTargetProcessorArchitecture
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WcmConfig.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WcmNamespaceAccess
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SMIEngine.dll
+api_name:
+-	ITargetInfo.GetTargetProcessorArchitecture
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ITargetInfo::GetTargetProcessorArchitecture

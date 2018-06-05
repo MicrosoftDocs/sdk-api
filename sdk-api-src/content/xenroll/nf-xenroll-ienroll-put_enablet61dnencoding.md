@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xenroll.IEnroll.put_EnableT61DNEncoding
+title: IEnroll::put_EnableT61DNEncoding
+author: windows-sdk-content
+description: Sets or retrieves a Boolean value that determines whether the distinguished name in the request is encoded as a T61 string instead of as a Unicode string.
+old-location: security\ienroll4_enablet61dnencoding.htm
+old-project: SecCrypto
+ms.assetid: 7ed181d1-b06f-40f4-892a-80edf327bf40
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: EnableT61DNEncoding property [Security], EnableT61DNEncoding property [Security],IEnroll interface, IEnroll interface [Security],EnableT61DNEncoding property, IEnroll.EnableT61DNEncoding, IEnroll.put_EnableT61DNEncoding, IEnroll::EnableT61DNEncoding, IEnroll::get_EnableT61DNEncoding, IEnroll::put_EnableT61DNEncoding, put_EnableT61DNEncoding, security.ienroll4_enablet61dnencoding, xenroll/IEnroll::EnableT61DNEncoding, xenroll/IEnroll::get_EnableT61DNEncoding, xenroll/IEnroll::put_EnableT61DNEncoding
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	IEnroll.EnableT61DNEncoding
+-	IEnroll.get_EnableT61DNEncoding
+-	IEnroll.put_EnableT61DNEncoding
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IEnroll::put_EnableT61DNEncoding

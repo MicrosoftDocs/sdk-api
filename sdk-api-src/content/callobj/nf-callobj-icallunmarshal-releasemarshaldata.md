@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:callobj.ICallUnmarshal.ReleaseMarshalData
+title: ICallUnmarshal::ReleaseMarshalData
+author: windows-sdk-content
+description: Releases resources that may be held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet and calls the CoReleaseMarshalData function on each interface pointer.
+old-location: com\icallunmarshal_releasemarshaldata.htm
+old-project: com
+ms.assetid: c7b1aff8-338a-491a-908f-5f85dddd89b7
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: ICallUnmarshal interface [COM],ReleaseMarshalData method, ICallUnmarshal.ReleaseMarshalData, ICallUnmarshal::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],ICallUnmarshal interface, _com_icallunmarshal_releasemarshaldata, callobj/ICallUnmarshal::ReleaseMarshalData, com.icallunmarshal_releasemarshaldata
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: callobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Callobj.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CALLFRAME_COPY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Callobj.h
+api_name:
+-	ICallUnmarshal.ReleaseMarshalData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICallUnmarshal::ReleaseMarshalData

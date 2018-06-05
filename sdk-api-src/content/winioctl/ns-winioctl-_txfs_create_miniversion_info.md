@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._TXFS_CREATE_MINIVERSION_INFO
+title: "_TXFS_CREATE_MINIVERSION_INFO"
+author: windows-sdk-content
+description: Contains the version information about the miniversion created by FSCTL_TXFS_CREATE_MINIVERSION.
+old-location: fs\txfs_create_miniversion_info.htm
+old-project: FileIO
+ms.assetid: 247d1471-08f4-4717-bcd8-be9d01e23d79
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PTXFS_CREATE_MINIVERSION_INFO, PTXFS_CREATE_MINIVERSION_INFO, PTXFS_CREATE_MINIVERSION_INFO structure pointer [Files], TXFS_CREATE_MINIVERSION_INFO, TXFS_CREATE_MINIVERSION_INFO structure [Files], _TXFS_CREATE_MINIVERSION_INFO, fs.txfs_create_miniversion_info, winioctl/PTXFS_CREATE_MINIVERSION_INFO, winioctl/TXFS_CREATE_MINIVERSION_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TXFS_CREATE_MINIVERSION_INFO, *PTXFS_CREATE_MINIVERSION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	TXFS_CREATE_MINIVERSION_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _TXFS_CREATE_MINIVERSION_INFO structure

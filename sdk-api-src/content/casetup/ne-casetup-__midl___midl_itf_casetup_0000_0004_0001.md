@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:casetup.__MIDL___MIDL_itf_casetup_0000_0004_0001
+title: "__MIDL___MIDL_itf_casetup_0000_0004_0001"
+author: windows-sdk-content
+description: Used by the GetProperty and SetProperty methods on the ICertificateEnrollmentServerSetup interface to specify the type of property information to retrieve or set.
+old-location: security\cessetupproperty.htm
+old-project: SecCrypto
+ms.assetid: 9FA6B249-B5B3-40AF-B175-CD5933D468B9
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CESSetupProperty, CESSetupProperty enumeration [Security], ENUM_CESSETUPPROP_AUTHENTICATION, ENUM_CESSETUPPROP_CACONFIG, ENUM_CESSETUPPROP_RENEWALONLY, ENUM_CESSETUPPROP_SSLCERTHASH, ENUM_CESSETUPPROP_URL, ENUM_CESSETUPPROP_USE_IISAPPPOOLIDENTITY, __MIDL___MIDL_itf_casetup_0000_0004_0001, casetup/CESSetupProperty, casetup/ENUM_CESSETUPPROP_AUTHENTICATION, casetup/ENUM_CESSETUPPROP_CACONFIG, casetup/ENUM_CESSETUPPROP_RENEWALONLY, casetup/ENUM_CESSETUPPROP_SSLCERTHASH, casetup/ENUM_CESSETUPPROP_URL, casetup/ENUM_CESSETUPPROP_USE_IISAPPPOOLIDENTITY, security.cessetupproperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: casetup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Casetup.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CESSetupProperty
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Casetup.h
+api_name:
+-	CESSetupProperty
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # __MIDL___MIDL_itf_casetup_0000_0004_0001 enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._VIDEOMEMORYINFO
+title: "_VIDEOMEMORYINFO"
+author: windows-sdk-content
+description: The VIDEOMEMORYINFO structure describes the general format of the display's memory.
+old-location: display\videomemoryinfo.htm
+old-project: display
+ms.assetid: c5df8f26-3eb1-4743-96d1-7b73d902be8d
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPVIDEOMEMORYINFO, LPVIDEOMEMORYINFO, LPVIDEOMEMORYINFO structure pointer [Display Devices], VIDEOMEMORYINFO, VIDEOMEMORYINFO structure [Display Devices], _VIDEOMEMORYINFO, ddrawint/LPVIDEOMEMORYINFO, ddrawint/VIDEOMEMORYINFO, ddstrcts_7fe9cc27-40d0-41f7-b225-51cc97bc8fa0.xml, display.videomemoryinfo"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIDEOMEMORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	VIDEOMEMORYINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _VIDEOMEMORYINFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wpcevent.tagWPC_ARGS_SETTINGSCHANGEEVENT
+title: tagWPC_ARGS_SETTINGSCHANGEEVENT
+author: windows-sdk-content
+description: Indicates information about the changes to settings being made by a user.
+old-location: parcon\wpc_args_settingschangeevent.htm
+old-project: parcon
+ms.assetid: 6a933661-cf6d-4904-8e11-cd8e2bade5f0
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WPC_ARGS_SETTINGSCHANGEEVENT, WPC_ARGS_SETTINGSCHANGEEVENT enumeration, WPC_ARGS_SETTINGSCHANGEEVENT_CARGS, WPC_ARGS_SETTINGSCHANGEEVENT_CLASS, WPC_ARGS_SETTINGSCHANGEEVENT_NEWVAL, WPC_ARGS_SETTINGSCHANGEEVENT_OLDVAL, WPC_ARGS_SETTINGSCHANGEEVENT_OPTIONAL, WPC_ARGS_SETTINGSCHANGEEVENT_OWNER, WPC_ARGS_SETTINGSCHANGEEVENT_REASON, WPC_ARGS_SETTINGSCHANGEEVENT_SETTING, parcon.wpc_args_settingschangeevent, tagWPC_ARGS_SETTINGSCHANGEEVENT, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_CARGS, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_CLASS, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_NEWVAL, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_OLDVAL, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_OPTIONAL, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_OWNER, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_REASON, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_SETTING
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wpcevent.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WPC_ARGS_SETTINGSCHANGEEVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wpcevent.h
+api_name:
+-	WPC_ARGS_SETTINGSCHANGEEVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagWPC_ARGS_SETTINGSCHANGEEVENT enumeration

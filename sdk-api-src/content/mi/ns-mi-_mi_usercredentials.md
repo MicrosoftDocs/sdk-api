@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mi._MI_UserCredentials
+title: "_MI_UserCredentials"
+author: windows-sdk-content
+description: A user's credentials. It includes an authentication type and either a username and password or a certificate thumbprint.
+old-location: wmi_v2\mi_usercredentials.htm
+old-project: wmi_v2
+ms.assetid: 30191cd1-00de-42ef-ac95-5e174d273c80
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: MI_AUTH_TYPE_BASIC, MI_AUTH_TYPE_CLIENT_CERTS, MI_AUTH_TYPE_CREDSSP, MI_AUTH_TYPE_DEFAULT, MI_AUTH_TYPE_DIGEST, MI_AUTH_TYPE_ISSUER_CERT, MI_AUTH_TYPE_KERBEROS, MI_AUTH_TYPE_NEGO_NO_CREDS, MI_AUTH_TYPE_NEGO_WITH_CREDS, MI_AUTH_TYPE_NONE, MI_AUTH_TYPE_NTLM, MI_UserCredentials, MI_UserCredentials structure [Windows Management Infrastructure (MI)], _MI_UserCredentials, mi/MI_UserCredentials, wmi._mi_usercredentials, wmi_v2.mi_usercredentials
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MI_UserCredentials
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mi.h
+api_name:
+-	MI_UserCredentials
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MI_UserCredentials structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:cloneviewhelper.IViewHelper.Commit
+title: IViewHelper::Commit
+author: windows-sdk-content
+description: The Commit method invalidates a Video Present Network (VidPN) on all graphics adapters.
+old-location: display\iviewhelper_commit.htm
+old-project: display
+ms.assetid: f2d4ffcd-b1b4-419c-8c22-1f2561d77138
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: Commit, Commit method [Display Devices], Commit method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],Commit method, IViewHelper.Commit, IViewHelper::Commit, TMM_Ref_e3c1b7ef-16ad-4501-aba6-45e456bc7ac3.xml, cloneviewhelper/IViewHelper::Commit, display.iviewhelper_commit
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: cloneviewhelper.h
+req.include-header: Cloneviewhelper.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -22,10 +22,26 @@ req.umdf-ver:
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
-req.max-support: 
+req.max-support: Windows 7
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Cloneviewhelper.h
+api_name:
+-	IViewHelper.Commit
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IViewHelper::Commit

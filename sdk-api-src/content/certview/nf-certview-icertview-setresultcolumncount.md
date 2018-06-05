@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certview.ICertView.SetResultColumnCount
+title: ICertView::SetResultColumnCount
+author: windows-sdk-content
+description: Specifies the maximum number of columns for the result set of a customized view of the Certificate Services database.
+old-location: security\icertview2_setresultcolumncount.htm
+old-project: SecCrypto
+ms.assetid: f98b2f45-be9f-47ba-9c6b-63a2912288ac
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CCertView object [Security],SetResultColumnCount method, CV_COLUMN_LOG_DEFAULT, CV_COLUMN_LOG_FAILED_DEFAULT, CV_COLUMN_QUEUE_DEFAULT, ICertView interface [Security],SetResultColumnCount method, ICertView.SetResultColumnCount, ICertView2 interface [Security],SetResultColumnCount method, ICertView2::SetResultColumnCount, ICertView::SetResultColumnCount, SetResultColumnCount, SetResultColumnCount method [Security], SetResultColumnCount method [Security],CCertView object, SetResultColumnCount method [Security],ICertView interface, SetResultColumnCount method [Security],ICertView2 interface, certview/ICertView2::SetResultColumnCount, certview/ICertView::SetResultColumnCount, security.icertview2_setresultcolumncount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certview.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENUM_CATYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certadm.dll
+api_name:
+-	ICertView2.SetResultColumnCount
+-	ICertView.SetResultColumnCount
+-	CCertView.SetResultColumnCount
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # ICertView::SetResultColumnCount

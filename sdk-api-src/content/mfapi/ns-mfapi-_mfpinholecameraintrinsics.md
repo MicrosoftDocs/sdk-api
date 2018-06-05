@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mfapi._MFPinholeCameraIntrinsics
+title: "_MFPinholeCameraIntrinsics"
+author: windows-sdk-content
+description: Contains zero or 1 pinhole camera intrinsic models that describe how to project a 3D point in physical world onto the 2D image frame of a camera.
+old-location: mf\mfpinholecameraintrinsics.htm
+old-project: medfound
+ms.assetid: 477F4DF6-CAE5-4BCD-A7D9-B1656DEA11E6
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFPinholeCameraIntrinsics, MFPinholeCameraIntrinsics structure [Media Foundation], PMFPinholeCameraIntrinsics, PMFPinholeCameraIntrinsics structure pointer [Media Foundation], _MFPinholeCameraIntrinsics, mf.mfpinholecameraintrinsics, mfapi/MFPinholeCameraIntrinsics, mfapi/PMFPinholeCameraIntrinsics
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFPinholeCameraIntrinsics
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfapi.h
+api_name:
+-	MFPinholeCameraIntrinsics
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFPinholeCameraIntrinsics structure

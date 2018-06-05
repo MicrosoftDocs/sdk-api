@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ocidl.IPerPropertyBrowsing.MapPropertyToPage
+title: IPerPropertyBrowsing::MapPropertyToPage
+author: windows-sdk-content
+description: Retrieves the CLSID of the property page associated with the specified property.
+old-location: com\iperpropertybrowsing_mappropertytopage.htm
+old-project: com
+ms.assetid: f8cf86eb-23d1-4aa6-859a-055df99b064c
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IPerPropertyBrowsing interface [COM],MapPropertyToPage method, IPerPropertyBrowsing.MapPropertyToPage, IPerPropertyBrowsing::MapPropertyToPage, MapPropertyToPage, MapPropertyToPage method [COM], MapPropertyToPage method [COM],IPerPropertyBrowsing interface, _ctrl_iperpropertybrowsing_mappropertytopage, com.iperpropertybrowsing_mappropertytopage, ocidl/IPerPropertyBrowsing::MapPropertyToPage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ocidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OCIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIEWSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OCIdl.h
+api_name:
+-	IPerPropertyBrowsing.MapPropertyToPage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPerPropertyBrowsing::MapPropertyToPage

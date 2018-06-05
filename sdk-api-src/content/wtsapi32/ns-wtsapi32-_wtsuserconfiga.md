@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wtsapi32._WTSUSERCONFIGA
+title: "_WTSUSERCONFIGA"
+author: windows-sdk-content
+description: Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server.
+old-location: termserv\wtsuserconfig.htm
+old-project: TermServ
+ms.assetid: 73788ea3-1ba7-4749-983d-4ca6e4f76acb
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PWTSUSERCONFIGA, PWTSUSERCONFIG, PWTSUSERCONFIG structure pointer [Remote Desktop Services], WTSUSERCONFIG, WTSUSERCONFIG structure [Remote Desktop Services], WTSUSERCONFIGA, WTSUSERCONFIGW, _WTSUSERCONFIGA, termserv.wtsuserconfig, wtsapi32/PWTSUSERCONFIG, wtsapi32/WTSUSERCONFIG, wtsapi32/WTSUSERCONFIGA, wtsapi32/WTSUSERCONFIGW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WTSUSERCONFIGW (Unicode) and WTSUSERCONFIGA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTSUSERCONFIGA, *PWTSUSERCONFIGA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsapi32.h
+api_name:
+-	WTSUSERCONFIG
+-	WTSUSERCONFIGA
+-	WTSUSERCONFIGW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTSUSERCONFIGA structure

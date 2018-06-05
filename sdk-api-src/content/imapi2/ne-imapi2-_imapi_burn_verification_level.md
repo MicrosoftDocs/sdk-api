@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:imapi2._IMAPI_BURN_VERIFICATION_LEVEL
+title: "_IMAPI_BURN_VERIFICATION_LEVEL"
+author: windows-sdk-content
+description: Defines values for the burn verification implemented by the IBurnVerification interface.
+old-location: imapi\imapi_burn_verification_level.htm
+old-project: imapi
+ms.assetid: 83a267b7-8b25-49b8-b1d0-83efbad8fa2a
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PIMAPI_BURN_VERIFICATION_LEVEL, IMAPI_BURN_VERIFICATION_FULL, IMAPI_BURN_VERIFICATION_LEVEL, IMAPI_BURN_VERIFICATION_LEVEL enumeration [IMAPI], IMAPI_BURN_VERIFICATION_NONE, IMAPI_BURN_VERIFICATION_QUICK, _IMAPI_BURN_VERIFICATION_LEVEL, imapi.imapi_burn_verification_level, imapi2/IMAPI_BURN_VERIFICATION_FULL, imapi2/IMAPI_BURN_VERIFICATION_LEVEL, imapi2/IMAPI_BURN_VERIFICATION_NONE, imapi2/IMAPI_BURN_VERIFICATION_QUICK"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAPI_BURN_VERIFICATION_LEVEL, *PIMAPI_BURN_VERIFICATION_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	imapi2.h
+api_name:
+-	IMAPI_BURN_VERIFICATION_LEVEL
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _IMAPI_BURN_VERIFICATION_LEVEL enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:dmemmgr._SURFACEALIGNMENT
+title: "_SURFACEALIGNMENT"
+author: windows-sdk-content
+description: The SURFACEALIGNMENT structure is used by a display driver to describe the alignment restrictions for a surface being allocated by HeapVidMemAllocAligned.
+old-location: display\surfacealignment.htm
+old-project: display
+ms.assetid: 200f4e08-b5d3-484e-b87a-b3069dc3c99f
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*LPSURFACEALIGNMENT, SURFACEALIGNMENT, SURFACEALIGNMENT structure [Display Devices], _SURFACEALIGNMENT, display.surfacealignment, dmemmgr/SURFACEALIGNMENT, grstrcts_8ab8c373-9600-45dc-9f16-f6c4de52a0c7.xml"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dmemmgr.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SURFACEALIGNMENT, *LPSURFACEALIGNMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dmemmgr.h
+api_name:
+-	SURFACEALIGNMENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _SURFACEALIGNMENT structure

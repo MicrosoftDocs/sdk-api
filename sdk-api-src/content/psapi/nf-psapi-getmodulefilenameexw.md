@@ -1,31 +1,59 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:psapi.GetModuleFileNameExW
+title: GetModuleFileNameExW function
+author: windows-sdk-content
+description: Retrieves the fully qualified path for the file containing the specified module.
+old-location: psapi\getmodulefilenameex.htm
+old-project: psapi
+ms.assetid: 4199ce12-e82f-4a58-ac66-e0ddc0dffbff
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetModuleFileNameEx, GetModuleFileNameEx function [PSAPI], GetModuleFileNameExA, GetModuleFileNameExW, K32GetModuleFileNameEx, K32GetModuleFileNameExA, K32GetModuleFileNameExW, _win32_getmodulefilenameex, base.getmodulefilenameex, psapi.getmodulefilenameex, psapi/GetModuleFileNameEx, psapi/GetModuleFileNameExA, psapi/GetModuleFileNameExW, psapi/K32GetModuleFileNameEx, psapi/K32GetModuleFileNameExA, psapi/K32GetModuleFileNameExW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: psapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: GetModuleFileNameExW (Unicode) and GetModuleFileNameExA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSHNOTIFY, *LPPSHNOTIFY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	Psapi.dll
+-	Psapi.dll
+-	API-MS-Win-Core-PsAPI-Obsolete-L1-1-0.dll
+-	KernelBase.dll
+-	API-Ms-Win-Core-PsAPI-Ansi-L1-1-0.dll
+-	API-Ms-Win-Core-PsAPI-L1-1-0.dll
+api_name:
+-	GetModuleFileNameEx
+-	GetModuleFileNameExA
+-	GetModuleFileNameExW
+-	K32GetModuleFileNameEx
+-	K32GetModuleFileNameExW
+-	K32GetModuleFileNameExA
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # GetModuleFileNameExW function

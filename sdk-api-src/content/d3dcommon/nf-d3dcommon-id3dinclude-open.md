@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3dcommon.ID3DInclude.Open
+title: ID3DInclude::Open
+author: windows-sdk-content
+description: A user-implemented method for opening and reading the contents of a shader #include file.
+old-location: direct3d11\id3dinclude_open.htm
+old-project: direct3d11
+ms.assetid: 4d10c986-1cba-427c-ae90-f81b83be1b8b
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: ID3DInclude interface [Direct3D 11],Open method, ID3DInclude.Open, ID3DInclude::Open, Open, Open method [Direct3D 11], Open method [Direct3D 11],ID3DInclude interface, d3dcommon/ID3DInclude::Open, direct3d11.id3dinclude_open
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3dcommon.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_SHADER_VARIABLE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3DCompiler_47.dll
+api_name:
+-	ID3DInclude.Open
+product: Windows
+targetos: Windows
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 ---
 
 # ID3DInclude::Open

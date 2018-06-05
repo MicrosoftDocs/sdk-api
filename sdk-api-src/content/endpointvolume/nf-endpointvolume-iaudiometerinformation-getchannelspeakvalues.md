@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:endpointvolume.IAudioMeterInformation.GetChannelsPeakValues
+title: IAudioMeterInformation::GetChannelsPeakValues
+author: windows-sdk-content
+description: The GetChannelsPeakValues method gets the peak sample values for all the channels in the audio stream.
+old-location: coreaudio\iaudiometerinformation_getchannelspeakvalues.htm
+old-project: CoreAudio
+ms.assetid: f5caf927-50c4-48dc-b396-016a1cf88882
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetChannelsPeakValues, GetChannelsPeakValues method [Core Audio], GetChannelsPeakValues method [Core Audio],IAudioMeterInformation interface, IAudioMeterInformation interface [Core Audio],GetChannelsPeakValues method, IAudioMeterInformation.GetChannelsPeakValues, IAudioMeterInformation::GetChannelsPeakValues, IAudioMeterInformationGetChannelsPeakValues, coreaudio.iaudiometerinformation_getchannelspeakvalues, endpointvolume/IAudioMeterInformation::GetChannelsPeakValues
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: endpointvolume.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ProtType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Endpointvolume.h
+api_name:
+-	IAudioMeterInformation.GetChannelsPeakValues
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IAudioMeterInformation::GetChannelsPeakValues

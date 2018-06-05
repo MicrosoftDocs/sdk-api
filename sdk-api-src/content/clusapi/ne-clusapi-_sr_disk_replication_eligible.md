@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi._SR_DISK_REPLICATION_ELIGIBLE
+title: "_SR_DISK_REPLICATION_ELIGIBLE"
+author: windows-sdk-content
+description: Specifies the various reasons a disk on a cluster node can be eligible or ineligible for replication.
+old-location: mscs\sr_disk_replication_eligible.htm
+old-project: MsCS
+ms.assetid: 3B38E2C8-CF41-4630-8AA8-72581D1DC264
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PSR_DISK_REPLICATION_ELIGIBLE, SR_DISK_REPLICATION_ELIGIBLE, SR_DISK_REPLICATION_ELIGIBLE enumeration [Failover Cluster], SrDiskReplicationEligibleAlreadyInReplication, SrDiskReplicationEligibleFileSystemNotSupported, SrDiskReplicationEligibleInSameSite, SrDiskReplicationEligibleInsufficientFreeSpace, SrDiskReplicationEligibleNone, SrDiskReplicationEligibleNotGpt, SrDiskReplicationEligibleNotInSameSite, SrDiskReplicationEligibleOffline, SrDiskReplicationEligibleOther, SrDiskReplicationEligiblePartitionLayoutMismatch, SrDiskReplicationEligibleSameAsSpecifiedDisk, SrDiskReplicationEligibleYes, _SR_DISK_REPLICATION_ELIGIBLE, clusapi/SR_DISK_REPLICATION_ELIGIBLE, clusapi/SrDiskReplicationEligibleAlreadyInReplication, clusapi/SrDiskReplicationEligibleFileSystemNotSupported, clusapi/SrDiskReplicationEligibleInSameSite, clusapi/SrDiskReplicationEligibleInsufficientFreeSpace, clusapi/SrDiskReplicationEligibleNone, clusapi/SrDiskReplicationEligibleNotGpt, clusapi/SrDiskReplicationEligibleNotInSameSite, clusapi/SrDiskReplicationEligibleOffline, clusapi/SrDiskReplicationEligibleOther, clusapi/SrDiskReplicationEligiblePartitionLayoutMismatch, clusapi/SrDiskReplicationEligibleSameAsSpecifiedDisk, clusapi/SrDiskReplicationEligibleYes, msclus/SR_DISK_REPLICATION_ELIGIBLE, msclus/SrDiskReplicationEligibleAlreadyInReplication, msclus/SrDiskReplicationEligibleFileSystemNotSupported, msclus/SrDiskReplicationEligibleInSameSite, msclus/SrDiskReplicationEligibleInsufficientFreeSpace, msclus/SrDiskReplicationEligibleNone, msclus/SrDiskReplicationEligibleNotGpt, msclus/SrDiskReplicationEligibleNotInSameSite, msclus/SrDiskReplicationEligibleOffline, msclus/SrDiskReplicationEligibleOther, msclus/SrDiskReplicationEligiblePartitionLayoutMismatch, msclus/SrDiskReplicationEligibleSameAsSpecifiedDisk, msclus/SrDiskReplicationEligibleYes, mscs.sr_disk_replication_eligible"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SR_DISK_REPLICATION_ELIGIBLE, *PSR_DISK_REPLICATION_ELIGIBLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	SR_DISK_REPLICATION_ELIGIBLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _SR_DISK_REPLICATION_ELIGIBLE enumeration

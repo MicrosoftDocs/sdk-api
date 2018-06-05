@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:azroles.IAzApplication3.DeleteRoleDefinition
+title: IAzApplication3::DeleteRoleDefinition
+author: windows-sdk-content
+description: Removes the specified IAzRoleDefinition object from the IAzApplication3 object.
+old-location: security\iazapplication3_deleteroledefinition.htm
+old-project: SecAuthZ
+ms.assetid: 34dc0bb8-1a44-418a-9b2c-f506f21f6ab1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],DeleteRoleDefinition method, IAzApplication3.DeleteRoleDefinition, IAzApplication3::DeleteRoleDefinition, azroles/IAzApplication3::DeleteRoleDefinition, security.iazapplication3_deleteroledefinition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: azroles.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Azroles.dll
+api_name:
+-	IAzApplication3.DeleteRoleDefinition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 ---
 
 # IAzApplication3::DeleteRoleDefinition

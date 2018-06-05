@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
+title: WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
+author: windows-sdk-content
+description: Identifies the properties for requesting a security token from an issuer. It is used with WsRequestSecurityToken as part of the WS_REQUEST_SECURITY_TOKEN_PROPERTY* parameter.
+old-location: wsw\ws_request_security_token_property_id.htm
+old-project: wsw
+ms.assetid: 7a2063eb-ab60-43d5-bd8c-41ef132abf50
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_REQUEST_SECURITY_TOKEN_PROPERTY_APPLIES_TO, WS_REQUEST_SECURITY_TOKEN_PROPERTY_EXISTING_TOKEN, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID enumeration [Web Services for Windows], WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_ENTROPY, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_SIZE, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_TYPE, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_TYPE, WS_REQUEST_SECURITY_TOKEN_PROPERTY_LOCAL_REQUEST_PARAMETERS, WS_REQUEST_SECURITY_TOKEN_PROPERTY_MESSAGE_PROPERTIES, WS_REQUEST_SECURITY_TOKEN_PROPERTY_REQUEST_ACTION, WS_REQUEST_SECURITY_TOKEN_PROPERTY_SECURE_CONVERSATION_VERSION, WS_REQUEST_SECURITY_TOKEN_PROPERTY_SERVICE_REQUEST_PARAMETERS, WS_REQUEST_SECURITY_TOKEN_PROPERTY_TRUST_VERSION, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_APPLIES_TO, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_EXISTING_TOKEN, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_ENTROPY, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_SIZE, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_TYPE, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_TYPE, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_LOCAL_REQUEST_PARAMETERS, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_MESSAGE_PROPERTIES, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_REQUEST_ACTION, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_SECURE_CONVERSATION_VERSION, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_SERVICE_REQUEST_PARAMETERS, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_TRUST_VERSION, wsw.ws_request_security_token_property_id
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID enumeration

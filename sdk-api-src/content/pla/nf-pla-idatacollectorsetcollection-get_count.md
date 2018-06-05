@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataCollectorSetCollection.get_Count
+title: IDataCollectorSetCollection::get_Count
+author: windows-sdk-content
+description: Retrieves the number of data collector sets in the collection.
+old-location: pla\idatacollectorsetcollection_count.htm
+old-project: PLA
+ms.assetid: b43f7cc5-9780-4ae7-b542-7ca887f09087
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: Count property [PLA], Count property [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],Count property, IDataCollectorSetCollection.Count, IDataCollectorSetCollection.get_Count, IDataCollectorSetCollection::Count, IDataCollectorSetCollection::get_Count, base.idatacollectorsetcollection_count, get_Count, pla.idatacollectorsetcollection_count, pla/IDataCollectorSetCollection::Count, pla/IDataCollectorSetCollection::get_Count
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataCollectorSetCollection.Count
+-	IDataCollectorSetCollection.get_Count
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataCollectorSetCollection::get_Count

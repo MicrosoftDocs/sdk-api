@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:tcpestats._TCP_ESTATS_SND_CONG_RW_v0
+title: "_TCP_ESTATS_SND_CONG_RW_v0"
+author: windows-sdk-content
+description: Contains read/write configuration information for extended TCP statistics on sender congestion for a TCP connection.
+old-location: iphlp\tcp_estats_snd_cong_rw_v0.htm
+old-project: IpHlp
+ms.assetid: 7fc7fb6a-4486-450f-b60e-8cf07b33c79a
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PTCP_ESTATS_SND_CONG_RW_v0, PTCP_ESTATS_SND_CONG_RW_v0, PTCP_ESTATS_SND_CONG_RW_v0 structure pointer [IP Helper], TCP_ESTATS_SND_CONG_RW_v0, TCP_ESTATS_SND_CONG_RW_v0 structure [IP Helper], _TCP_ESTATS_SND_CONG_RW_v0, iphlp.tcp_estats_snd_cong_rw_v0, tcpestats/PTCP_ESTATS_SND_CONG_RW_v0, tcpestats/TCP_ESTATS_SND_CONG_RW_v0"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tcpestats.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TCP_ESTATS_SND_CONG_RW_v0, *PTCP_ESTATS_SND_CONG_RW_v0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tcpestats.h
+api_name:
+-	TCP_ESTATS_SND_CONG_RW_v0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TCP_ESTATS_SND_CONG_RW_v0 structure

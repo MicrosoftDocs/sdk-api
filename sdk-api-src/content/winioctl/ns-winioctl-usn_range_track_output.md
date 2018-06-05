@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl.USN_RANGE_TRACK_OUTPUT
+title: USN_RANGE_TRACK_OUTPUT
+author: windows-sdk-content
+description: Contains returned update sequence number (USN) from FSCTL_USN_TRACK_MODIFIED_RANGES control code.
+old-location: fs\usn_range_track_output.htm
+old-project: FileIO
+ms.assetid: E10ECB50-A506-4836-81D2-3073FBB844CA
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PUSN_RANGE_TRACK_OUTPUT, PUSN_RANGE_TRACK_OUTPUT, PUSN_RANGE_TRACK_OUTPUT structure pointer [Files], USN_RANGE_TRACK_OUTPUT, USN_RANGE_TRACK_OUTPUT structure [Files], fs.usn_range_track_output, winioctl/PUSN_RANGE_TRACK_OUTPUT, winioctl/USN_RANGE_TRACK_OUTPUT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USN_RANGE_TRACK_OUTPUT, *PUSN_RANGE_TRACK_OUTPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	USN_RANGE_TRACK_OUTPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # USN_RANGE_TRACK_OUTPUT structure

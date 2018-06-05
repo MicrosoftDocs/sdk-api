@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uianimation.IUIAnimationTimerEventHandler.OnPreUpdate
+title: IUIAnimationTimerEventHandler::OnPreUpdate
+author: windows-sdk-content
+description: Handles events that occur before an animation update begins.
+old-location: uianimation\iuianimationtimereventhandler_onpreupdate.htm
+old-project: UIAnimation
+ms.assetid: 4f3dcac0-c800-48e5-82d6-b6bc3fb0409b
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IUIAnimationTimerEventHandler interface [Windows Animation],OnPreUpdate method, IUIAnimationTimerEventHandler.OnPreUpdate, IUIAnimationTimerEventHandler::OnPreUpdate, OnPreUpdate, OnPreUpdate method [Windows Animation], OnPreUpdate method [Windows Animation],IUIAnimationTimerEventHandler interface, uianimation.iuianimationtimereventhandler_onpreupdate, uianimation/IUIAnimationTimerEventHandler::OnPreUpdate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uianimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAnimation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAnimation.dll
+api_name:
+-	IUIAnimationTimerEventHandler.OnPreUpdate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAnimationTimerEventHandler::OnPreUpdate

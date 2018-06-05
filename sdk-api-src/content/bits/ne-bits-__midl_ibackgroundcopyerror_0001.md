@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:bits.__MIDL_IBackgroundCopyError_0001
+title: "__MIDL_IBackgroundCopyError_0001"
+author: windows-sdk-content
+description: The BG_ERROR_CONTEXT enumeration defines the constant values that specify the context in which the error occurred.
+old-location: bits\bg_error_context.htm
+old-project: Bits
+ms.assetid: c9d98518-6f2e-4fd1-b0ee-6735c6d6ecd9
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BG_ERROR_CONTEXT, BG_ERROR_CONTEXT enumeration [BITS], BG_ERROR_CONTEXT_GENERAL_QUEUE_MANAGER, BG_ERROR_CONTEXT_GENERAL_TRANSPORT, BG_ERROR_CONTEXT_LOCAL_FILE, BG_ERROR_CONTEXT_NONE, BG_ERROR_CONTEXT_QUEUE_MANAGER_NOTIFICATION, BG_ERROR_CONTEXT_REMOTE_APPLICATION, BG_ERROR_CONTEXT_REMOTE_FILE, BG_ERROR_CONTEXT_UNKNOWN, __MIDL_IBackgroundCopyError_0001, _drz_bg_error_context, bits.bg_error_context, bits/BG_ERROR_CONTEXT, bits/BG_ERROR_CONTEXT_GENERAL_QUEUE_MANAGER, bits/BG_ERROR_CONTEXT_GENERAL_TRANSPORT, bits/BG_ERROR_CONTEXT_LOCAL_FILE, bits/BG_ERROR_CONTEXT_NONE, bits/BG_ERROR_CONTEXT_QUEUE_MANAGER_NOTIFICATION, bits/BG_ERROR_CONTEXT_REMOTE_APPLICATION, bits/BG_ERROR_CONTEXT_REMOTE_FILE, bits/BG_ERROR_CONTEXT_UNKNOWN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_ERROR_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bits.h
+api_name:
+-	BG_ERROR_CONTEXT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # __MIDL_IBackgroundCopyError_0001 enumeration

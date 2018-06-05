@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:ddpbackup.IDedupBackupSupport
+title: IDedupBackupSupport
+author: windows-sdk-content
+description: Provides a method for restoring a file from a backup store containing copies of Data Deduplication reparse points, metadata, and container files.
+old-location: dedup\idedupbackupsupport.htm
+old-project: dedup
+ms.assetid: 45AACC37-3C83-4DBA-8C18-26D76ED831BB
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IDedupBackupSupport, IDedupBackupSupport interface [Data Deduplication API], IDedupBackupSupport interface [Data Deduplication API],described, ddpbackup/IDedupBackupSupport, dedup.idedupbackupsupport
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: ddpbackup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DdpBackup.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: DdpBackup.dll
+tech.root: 
+req.typenames: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DdpBackup.dll
+api_name:
+-	IDedupBackupSupport
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDedupBackupSupport interface

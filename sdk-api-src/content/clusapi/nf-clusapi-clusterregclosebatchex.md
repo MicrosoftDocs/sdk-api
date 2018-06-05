@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:clusapi.ClusterRegCloseBatchEx
+title: ClusterRegCloseBatchEx function
+author: windows-sdk-content
+description: Executes or ignores the batch created by the ClusterRegCreateBatch function.
+old-location: mscs\clusterregclosebatchex.htm
+old-project: MsCS
+ms.assetid: 127d06de-28a4-4df4-9f5f-17ea4a330528
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ClusterRegCloseBatchEx, ClusterRegCloseBatchEx function [Failover Cluster], clusapi/ClusterRegCloseBatchEx, mscs.clusterregclosebatchex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ClusAPI.dll
+-	Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+-	Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+api_name:
+-	ClusterRegCloseBatchEx
+product: Windows
+targetos: Windows
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 ---
 
 # ClusterRegCloseBatchEx function

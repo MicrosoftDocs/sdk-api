@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vss.__MIDL___MIDL_itf_vss_0000_0000_0001
+title: "__MIDL___MIDL_itf_vss_0000_0000_0001"
+author: windows-sdk-content
+description: A union of VSS_SNAPSHOT_PROP and VSS_PROVIDER_PROP structures, which is used by the VSS_OBJECT_PROP structure.
+old-location: base\vss_object_union.htm
+old-project: VSS
+ms.assetid: e8d70f20-00a9-4cae-a92c-e3f3673a8db3
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: VSS_OBJECT_UNION, VSS_OBJECT_UNION union [VSS], __MIDL___MIDL_itf_vss_0000_0000_0001, _win32_vss_object_union, base.vss_object_union, vss/VSS_OBJECT_UNION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vss.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_OBJECT_UNION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vss.h
+api_name:
+-	VSS_OBJECT_UNION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # __MIDL___MIDL_itf_vss_0000_0000_0001 structure

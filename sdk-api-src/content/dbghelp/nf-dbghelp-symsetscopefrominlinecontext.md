@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dbghelp.SymSetScopeFromInlineContext
+title: SymSetScopeFromInlineContext function
+author: windows-sdk-content
+description: Sets the local scope to the symbol that matches the specified address and inline context.
+old-location: base\symsetscopefrominlinecontext.htm
+old-project: Debug
+ms.assetid: 053163b0-2504-48fc-92c1-3839311ec657
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: SymSetScopeFromInlineContext, SymSetScopeFromInlineContext function, base.symsetscopefrominlinecontext, dbghelp/SymSetScopeFromInlineContext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	DbgHelp.dll
+api_name:
+-	SymSetScopeFromInlineContext
+product: Windows
+targetos: Windows
+req.lib: DbgHelp.lib
+req.dll: DbgHelp.dll
+req.irql: 
 ---
 
 # SymSetScopeFromInlineContext function

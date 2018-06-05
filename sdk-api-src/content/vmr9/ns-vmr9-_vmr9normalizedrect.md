@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:vmr9._VMR9NormalizedRect
+title: "_VMR9NormalizedRect"
+author: windows-sdk-content
+description: The VMR9NormalizedRect structure is used with the VMR-9 filter in mixing operations to specify or retrieve the location of a video rectangle in composition space.
+old-location: dshow\vmr9normalizedrect.htm
+old-project: DirectShow
+ms.assetid: 226b685c-92da-45c3-b99a-6c1e732f8dc6
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: VMR9NormalizedRect, VMR9NormalizedRect structure [DirectShow], VMR9NormalizedRectStructure, _VMR9NormalizedRect, dshow.vmr9normalizedrect, vmr9/VMR9NormalizedRect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vmr9.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VMR9NormalizedRect
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vmr9.h
+api_name:
+-	VMR9NormalizedRect
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VMR9NormalizedRect structure

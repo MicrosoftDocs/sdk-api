@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:clusapi.PCLUSTER_SET_ACCOUNT_ACCESS
+title: PCLUSTER_SET_ACCOUNT_ACCESS
+author: windows-sdk-content
+description: Updates an account access list (ACL) for a cluster.
+old-location: mscs\clustersetaccountaccess.htm
+old-project: MsCS
+ms.assetid: E0038A7B-291F-4A30-86BD-D9BD2404D3B5
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSAPI_ALL_ACCESS, CLUSAPI_CHANGE_ACCESS, CLUSAPI_NO_ACCESS, CLUSAPI_READ_ACCESS, CLUSTER_DELETE_ACCESS_CONTROL_ENTRY, CLUSTER_SET_ACCESS_TYPE_ALLOWED, CLUSTER_SET_ACCESS_TYPE_DENIED, PCLUSTER_SET_ACCOUNT_ACCESS, PCLUSTER_SET_ACCOUNT_ACCESS callback, PCLUSTER_SET_ACCOUNT_ACCESS callback function [Failover Cluster], clusapi/PCLUSTER_SET_ACCOUNT_ACCESS, mscs.clustersetaccountaccess
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: Sources
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ClusAPI.h
+api_name:
+-	PCLUSTER_SET_ACCOUNT_ACCESS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PCLUSTER_SET_ACCOUNT_ACCESS callback function

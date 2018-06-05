@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IServiceSysTxnConfig.ConfigureBYOTSysTxn
+title: IServiceSysTxnConfig::ConfigureBYOTSysTxn
+author: windows-sdk-content
+description: Enables you to run the enclosed code in the scope of an existing transaction that you specify with a transaction proxy.
+old-location: cos\iservicesystxnconfig_configurebyotsystxn.htm
+old-project: cossdk
+ms.assetid: 6023e756-7797-489b-96fd-9cf2d9f2cb2b
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: ConfigureBYOTSysTxn, ConfigureBYOTSysTxn method [COM+], ConfigureBYOTSysTxn method [COM+],IServiceSysTxnConfig interface, IServiceSysTxnConfig interface [COM+],ConfigureBYOTSysTxn method, IServiceSysTxnConfig.ConfigureBYOTSysTxn, IServiceSysTxnConfig::ConfigureBYOTSysTxn, comsvcs/IServiceSysTxnConfig::ConfigureBYOTSysTxn, cos.iservicesystxnconfig_configurebyotsystxn
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IServiceSysTxnConfig.ConfigureBYOTSysTxn
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IServiceSysTxnConfig::ConfigureBYOTSysTxn

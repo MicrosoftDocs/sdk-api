@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:http._HTTP_SERVER_AUTHENTICATION_INFO
+title: "_HTTP_SERVER_AUTHENTICATION_INFO"
+author: windows-sdk-content
+description: Used to enable server-side authentication on a URL group or server session.
+old-location: http\http_server_authentication_info.htm
+old-project: Http
+ms.assetid: 4f408115-c073-4e9f-b316-8ad3f03acf53
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: "*PHTTP_SERVER_AUTHENTICATION_INFO, *PHTTP_SERVER_AUTHENTICATION_INFO structure [HTTP], HTTP_AUTH_ENABLE_ALL, HTTP_AUTH_ENABLE_BASIC, HTTP_AUTH_ENABLE_DIGEST, HTTP_AUTH_ENABLE_KERBEROS, HTTP_AUTH_ENABLE_NEGOTIATE, HTTP_AUTH_ENABLE_NTLM, HTTP_AUTH_EX_FLAG_CAPTURE_CREDENTIAL, HTTP_AUTH_EX_FLAG_ENABLE_KERBEROS_CREDENTIAL_CACHING, HTTP_SERVER_AUTHENTICATION_INFO, HTTP_SERVER_AUTHENTICATION_INFO structure [HTTP], _HTTP_SERVER_AUTHENTICATION_INFO, http.http_server_authentication_info, http/*PHTTP_SERVER_AUTHENTICATION_INFO, http/HTTP_SERVER_AUTHENTICATION_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HTTP_SERVER_AUTHENTICATION_INFO, *PHTTP_SERVER_AUTHENTICATION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Http.h
+api_name:
+-	HTTP_SERVER_AUTHENTICATION_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _HTTP_SERVER_AUTHENTICATION_INFO structure

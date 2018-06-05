@@ -1,31 +1,55 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsvc.ControlServiceExA
+title: ControlServiceExA function
+author: windows-sdk-content
+description: Sends a control code to a service.
+old-location: base\controlserviceex.htm
+old-project: Services
+ms.assetid: de249903-7545-4fb6-925a-aa647f862f93
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ControlServiceEx, ControlServiceEx function, ControlServiceExA, ControlServiceExW, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_STOP, base.controlserviceex, winsvc/ControlServiceEx, winsvc/ControlServiceExA, winsvc/ControlServiceExW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winsvc.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: ControlServiceExW (Unicode) and ControlServiceExA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+-	sechost.dll
+-	API-MS-Win-Service-management-l1-1-0.dll
+-	API-MS-Win-Service-Winsvc-l1-1-0.dll
+-	API-MS-Win-Service-Winsvc-l1-2-0.dll
+api_name:
+-	ControlServiceEx
+-	ControlServiceExA
+-	ControlServiceExW
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # ControlServiceExA function

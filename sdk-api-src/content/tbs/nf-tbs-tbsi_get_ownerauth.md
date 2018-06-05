@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tbs.Tbsi_Get_OwnerAuth
+title: Tbsi_Get_OwnerAuth function
+author: windows-sdk-content
+description: Retrieves the owner authorization of the TPM if the information is available in the local registry.
+old-location: tbs\tbsi_get_ownerauth.htm
+old-project: TBS
+ms.assetid: 9D265AD2-F992-4756-9A2D-03DADB69C7DC
+ms.author: windowssdkdev
+ms.date: 03/01/2018
+ms.keywords: TBS_OWNERAUTH_TYPE_ADMIN, TBS_OWNERAUTH_TYPE_ENDORSEMENT, TBS_OWNERAUTH_TYPE_ENDORSEMENT_20, TBS_OWNERAUTH_TYPE_FULL, TBS_OWNERAUTH_TYPE_STORAGE_20, TBS_OWNERAUTH_TYPE_USER, Tbsi_Get_OwnerAuth, Tbsi_Get_OwnerAuth function [TBS], tbs.tbsi_get_ownerauth, tbs/Tbsi_Get_OwnerAuth
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tbs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TASK_TRIGGER_TYPE2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tbs.dll
+api_name:
+-	Tbsi_Get_OwnerAuth
+product: Windows
+targetos: Windows
+req.lib: Tbs.lib
+req.dll: Tbs.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # Tbsi_Get_OwnerAuth function

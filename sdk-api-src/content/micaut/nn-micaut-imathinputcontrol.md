@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:micaut.IMathInputControl
+title: IMathInputControl
+author: windows-sdk-content
+description: Exposes methods that turn ink input into interpreted math output.
+old-location: tablet\imathinputcontrol.htm
+old-project: tablet
+ms.assetid: 3d6a6289-7be5-4cf0-8cb7-9095c4ee7149
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IMathInputControl, IMathInputControl interface [Tablet PC], IMathInputControl interface [Tablet PC],described, micaut/IMathInputControl, tablet.imathinputcontrol
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: micaut.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MICUIELEMENTSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	micaut.h
+api_name:
+-	IMathInputControl
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMathInputControl interface

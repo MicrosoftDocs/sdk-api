@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IApiTracingDataCollector.put_LogApisRecursively
+title: IApiTracingDataCollector::put_LogApisRecursively
+author: windows-sdk-content
+description: Retrieves or sets a value that indicates whether API tracing logs calls that are imported directly by the application.
+old-location: pla\iapitracingdatacollector_logapisrecursively.htm
+old-project: PLA
+ms.assetid: 245f4f27-9a57-459c-b6e9-fe11fe58d77a
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IApiTracingDataCollector interface [PLA],LogApisRecursively property, IApiTracingDataCollector.LogApisRecursively, IApiTracingDataCollector.put_LogApisRecursively, IApiTracingDataCollector::LogApisRecursively, IApiTracingDataCollector::get_LogApisRecursively, IApiTracingDataCollector::put_LogApisRecursively, LogApisRecursively property [PLA], LogApisRecursively property [PLA],IApiTracingDataCollector interface, pla.iapitracingdatacollector_logapisrecursively, pla/IApiTracingDataCollector::LogApisRecursively, pla/IApiTracingDataCollector::get_LogApisRecursively, pla/IApiTracingDataCollector::put_LogApisRecursively, put_LogApisRecursively
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IApiTracingDataCollector.LogApisRecursively
+-	IApiTracingDataCollector.get_LogApisRecursively
+-	IApiTracingDataCollector.put_LogApisRecursively
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IApiTracingDataCollector::put_LogApisRecursively

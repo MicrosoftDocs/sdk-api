@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt.BATTERY_REPORTING_SCALE
+title: BATTERY_REPORTING_SCALE
+author: windows-sdk-content
+description: Contains the granularity of the battery capacity that is reported by IOCTL_BATTERY_QUERY_STATUS.
+old-location: base\battery_reporting_scale_str.htm
+old-project: Power
+ms.assetid: 91834159-e837-407b-8c9e-fbbcf9f208ef
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE structure, PBATTERY_REPORTING_SCALE, PBATTERY_REPORTING_SCALE structure pointer, _win32_battery_reporting_scale_str, base.battery_reporting_scale_str, winnt/BATTERY_REPORTING_SCALE, winnt/PBATTERY_REPORTING_SCALE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	BATTERY_REPORTING_SCALE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # BATTERY_REPORTING_SCALE structure

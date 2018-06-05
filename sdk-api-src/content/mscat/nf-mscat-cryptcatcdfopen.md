@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mscat.CryptCATCDFOpen
+title: CryptCATCDFOpen function
+author: windows-sdk-content
+description: Opens an existing catalog definition file (CDF) for reading and initializes a CRYPTCATCDF structure.
+old-location: security\cryptcatcdfopen.htm
+old-project: SecCrypto
+ms.assetid: d400d8bd-c0a0-41dc-9093-8e4fc758d82f
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CryptCATCDFOpen, CryptCATCDFOpen function [Security], mscat/CryptCATCDFOpen, security.cryptcatcdfopen
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mscat.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KSP_PINMODE, *PKSP_PINMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wintrust.dll
+api_name:
+-	CryptCATCDFOpen
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wintrust.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CryptCATCDFOpen function

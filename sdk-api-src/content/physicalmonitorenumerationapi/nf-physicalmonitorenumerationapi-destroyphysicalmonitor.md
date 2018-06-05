@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:physicalmonitorenumerationapi.DestroyPhysicalMonitor
+title: DestroyPhysicalMonitor function
+author: windows-sdk-content
+description: Closes a handle to a physical monitor.
+old-location: monitor\destroyphysicalmonitor.htm
+old-project: Monitor
+ms.assetid: 5371cbe4-80f5-4514-88e7-38107cd1a127
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: DestroyPhysicalMonitor, DestroyPhysicalMonitor function [Monitor Configuration], monitor.destroyphysicalmonitor, physicalmonitorenumerationapi/DestroyPhysicalMonitor
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: physicalmonitorenumerationapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_INPUT_STRING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	dxva2.dll
+-	Ext-MS-Win-moderncore-Win32k-base-ntgdi-l1-1-0.dll
+-	win32kfull.sys
+-	win32kmin.sys
+api_name:
+-	DestroyPhysicalMonitor
+product: Windows
+targetos: Windows
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DestroyPhysicalMonitor function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CMSG_CMS_RECIPIENT_INFO
+title: "_CMSG_CMS_RECIPIENT_INFO"
+author: windows-sdk-content
+description: Used with the CryptMsgGetParam function to get information on a key transport, key agreement, or mail list envelope message recipient.
+old-location: security\cmsg_cms_recipient_info.htm
+old-project: SecCrypto
+ms.assetid: 27ce2430-d240-49f7-bff7-32be1695c8c0
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCMSG_CMS_RECIPIENT_INFO, CMSG_CMS_RECIPIENT_INFO, CMSG_CMS_RECIPIENT_INFO structure [Security], CMSG_KEY_AGREE_RECIPIENT, CMSG_KEY_TRANS_RECIPIENT, CMSG_MAIL_LIST_RECIPIENT, PCMSG_CMS_RECIPIENT_INFO, PCMSG_CMS_RECIPIENT_INFO structure pointer [Security], _CMSG_CMS_RECIPIENT_INFO, _crypto2_cmsg_cms_recipient_info, security.cmsg_cms_recipient_info, wincrypt/CMSG_CMS_RECIPIENT_INFO, wincrypt/PCMSG_CMS_RECIPIENT_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CMSG_CMS_RECIPIENT_INFO, *PCMSG_CMS_RECIPIENT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CMSG_CMS_RECIPIENT_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CMSG_CMS_RECIPIENT_INFO structure

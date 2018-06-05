@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winenclaveapi.EnclaveGetEnclaveInformation
+title: EnclaveGetEnclaveInformation function
+author: windows-sdk-content
+description: Gets information about the currently executing enclave.
+old-location: base\enclavegetenclaveinformation.htm
+old-project: Memory
+ms.assetid: 26349C3C-4B73-430C-B002-ED262DB0304F
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: EnclaveGetEnclaveInformation, EnclaveGetEnclaveInformation function, base.enclavegetenclaveinformation, winenclaveapi/EnclaveGetEnclaveInformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winenclaveapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENCRYPTION_CERTIFICATE_LIST, *PENCRYPTION_CERTIFICATE_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	vertdll.dll
+api_name:
+-	EnclaveGetEnclaveInformation
+product: Windows
+targetos: Windows
+req.lib: Vertdll.lib
+req.dll: Vertdll.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # EnclaveGetEnclaveInformation function

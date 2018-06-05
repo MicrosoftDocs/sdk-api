@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:madcapcl._MCAST_SCOPE_CTX
+title: "_MCAST_SCOPE_CTX"
+author: windows-sdk-content
+description: The MCAST_SCOPE_CTX structure defines the scope context for programmatic interaction with multicast addresses. The MCAST_SCOPE_CTX structure is used by various MADCAP functions as a handle for allocating, renewing, or releasing MADCAP addresses.
+old-location: madcap\mcast_scope_ctx.htm
+old-project: Madcap
+ms.assetid: 164d8f73-f5f5-4cc6-85ca-8e249192c202
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PMCAST_SCOPE_CTX, MCAST_SCOPE_CTX, MCAST_SCOPE_CTX structure [MADCAP], PMCAST_SCOPE_CTX, PMCAST_SCOPE_CTX structure pointer [MADCAP], _MCAST_SCOPE_CTX, _mdhcp_mcast_scope_ctx, madcap.mcast_scope_ctx, madcapcl/MCAST_SCOPE_CTX, madcapcl/PMCAST_SCOPE_CTX"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: madcapcl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MCAST_SCOPE_CTX, *PMCAST_SCOPE_CTX
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Madcapcl.h
+api_name:
+-	MCAST_SCOPE_CTX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MCAST_SCOPE_CTX structure

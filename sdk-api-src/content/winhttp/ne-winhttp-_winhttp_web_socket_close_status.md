@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winhttp._WINHTTP_WEB_SOCKET_CLOSE_STATUS
+title: "_WINHTTP_WEB_SOCKET_CLOSE_STATUS"
+author: windows-sdk-content
+description: The WINHTTP_WEB_SOCKET_CLOSE_STATUS enumeration includes the status of a WebSocket close operation.
+old-location: http\winhttp_web_socket_close_status.htm
+old-project: WinHttp
+ms.assetid: d86795e4-3a30-4368-b253-1b126387efcc
+ms.author: windowssdkdev
+ms.date: 03/08/2018
+ms.keywords: WINHTTP_WEB_SOCKET_ABORTED_CLOSE_STATUS, WINHTTP_WEB_SOCKET_CLOSE_STATUS, WINHTTP_WEB_SOCKET_CLOSE_STATUS enumeration [HTTP], WINHTTP_WEB_SOCKET_EMPTY_CLOSE_STATUS, WINHTTP_WEB_SOCKET_ENDPOINT_TERMINATED_CLOSE_STATUS, WINHTTP_WEB_SOCKET_INVALID_DATA_TYPE_CLOSE_STATUS, WINHTTP_WEB_SOCKET_INVALID_UTF8_CLOSE_STATUS, WINHTTP_WEB_SOCKET_MESSAGE_TOO_BIG_CLOSE_STATUS, WINHTTP_WEB_SOCKET_POLICY_VIOLATION_CLOSE_STATUS, WINHTTP_WEB_SOCKET_PROTOCOL_ERROR_CLOSE_STATUS, WINHTTP_WEB_SOCKET_SECURE_HANDSHAKE_ERROR_CLOSE_STATUS, WINHTTP_WEB_SOCKET_SERVER_ERROR_CLOSE_STATUS, WINHTTP_WEB_SOCKET_SUCCESS_CLOSE_STATUS, WINHTTP_WEB_SOCKET_UNSUPPORTED_EXTENSIONS_CLOSE_STATUS, _WINHTTP_WEB_SOCKET_CLOSE_STATUS, http.winhttp_web_socket_close_status, winhttp/WINHTTP_WEB_SOCKET_ABORTED_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_EMPTY_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_ENDPOINT_TERMINATED_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_INVALID_DATA_TYPE_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_INVALID_UTF8_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_MESSAGE_TOO_BIG_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_POLICY_VIOLATION_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_PROTOCOL_ERROR_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_SECURE_HANDSHAKE_ERROR_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_SERVER_ERROR_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_SUCCESS_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_UNSUPPORTED_EXTENSIONS_CLOSE_STATUS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winhttp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINHTTP_WEB_SOCKET_CLOSE_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winhttp.h
+api_name:
+-	WINHTTP_WEB_SOCKET_CLOSE_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WINHTTP_WEB_SOCKET_CLOSE_STATUS enumeration

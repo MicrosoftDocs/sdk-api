@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IDataManager.put_ResourcePolicy
+title: IDataManager::put_ResourcePolicy
+author: windows-sdk-content
+description: Retrieves or sets the action to take when one of the disk resource limits is exceeded.
+old-location: pla\idatamanager_resourcepolicy.htm
+old-project: PLA
+ms.assetid: 541cd28c-2e01-4b8a-9cd3-044896c8fb80
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IDataManager interface [PLA],ResourcePolicy property, IDataManager.ResourcePolicy, IDataManager.put_ResourcePolicy, IDataManager::ResourcePolicy, IDataManager::get_ResourcePolicy, IDataManager::put_ResourcePolicy, ResourcePolicy property [PLA], ResourcePolicy property [PLA],IDataManager interface, base.idatamanager_resourcepolicy, pla.idatamanager_resourcepolicy, pla/IDataManager::ResourcePolicy, pla/IDataManager::get_ResourcePolicy, pla/IDataManager::put_ResourcePolicy, put_ResourcePolicy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IDataManager.ResourcePolicy
+-	IDataManager.get_ResourcePolicy
+-	IDataManager.put_ResourcePolicy
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataManager::put_ResourcePolicy

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vdshwprv._VDS_HEALTH
+title: "_VDS_HEALTH"
+author: windows-sdk-content
+description: Defines the set of health state values for a VDS object.
+old-location: base\vds_health.htm
+old-project: VDS
+ms.assetid: c65d9266-d691-4711-8225-a442e90d8ba3
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_HEALTH, VDS_HEALTH enumeration [VDS], VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_FAILED_REDUNDANCY, VDS_H_FAILED_REDUNDANCY_FAILING, VDS_H_FAILING, VDS_H_FAILING_REDUNDANCY, VDS_H_HEALTHY, VDS_H_PENDING_FAILURE, VDS_H_REBUILDING, VDS_H_REPLACED, VDS_H_STALE, VDS_H_UNKNOWN, _VDS_HEALTH, base.vds_health, vds/VDS_HEALTH, vds/VDS_H_DEGRADED, vds/VDS_H_FAILED, vds/VDS_H_FAILED_REDUNDANCY, vds/VDS_H_FAILED_REDUNDANCY_FAILING, vds/VDS_H_FAILING, vds/VDS_H_FAILING_REDUNDANCY, vds/VDS_H_HEALTHY, vds/VDS_H_PENDING_FAILURE, vds/VDS_H_REBUILDING, vds/VDS_H_REPLACED, vds/VDS_H_STALE, vds/VDS_H_UNKNOWN, vdshwprv/VDS_HEALTH, vdshwprv/VDS_H_DEGRADED, vdshwprv/VDS_H_FAILED, vdshwprv/VDS_H_FAILED_REDUNDANCY, vdshwprv/VDS_H_FAILED_REDUNDANCY_FAILING, vdshwprv/VDS_H_FAILING, vdshwprv/VDS_H_FAILING_REDUNDANCY, vdshwprv/VDS_H_HEALTHY, vdshwprv/VDS_H_PENDING_FAILURE, vdshwprv/VDS_H_REBUILDING, vdshwprv/VDS_H_REPLACED, vdshwprv/VDS_H_STALE, vdshwprv/VDS_H_UNKNOWN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vdshwprv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_HEALTH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_HEALTH
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_HEALTH enumeration

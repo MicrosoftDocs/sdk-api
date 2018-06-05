@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmPropertyBag.get_RelativePath
+title: IFsrmPropertyBag::get_RelativePath
+author: windows-sdk-content
+description: The relative path to the file.
+old-location: fsrm\ifsrmpropertybag_relativepath.htm
+old-project: Fsrm
+ms.assetid: 4304228a-5e8e-4e2d-9fc9-48777cb23251
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],RelativePath property, IFsrmPropertyBag.RelativePath, IFsrmPropertyBag.get_RelativePath, IFsrmPropertyBag::RelativePath, IFsrmPropertyBag::get_RelativePath, RelativePath property [File Server Resource Manager], RelativePath property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_relativepath, fsrm.ifsrmpropertybag_relativepath, fsrmpipeline/IFsrmPropertyBag::RelativePath, fsrmpipeline/IFsrmPropertyBag::get_RelativePath, get_RelativePath
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmPropertyBag.RelativePath
+-	IFsrmPropertyBag.get_RelativePath
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmPropertyBag::get_RelativePath

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl.FIND_BY_SID_OUTPUT
+title: FIND_BY_SID_OUTPUT
+author: windows-sdk-content
+description: Represents a file name.
+old-location: fs\find_by_sid_output.htm
+old-project: FileIO
+ms.assetid: fc616f88-c8c9-43de-8b17-2b8c38e5cdbb
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PFIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT structure [Files], PFIND_BY_SID_OUTPUT, PFIND_BY_SID_OUTPUT structure pointer [Files], base.find_by_sid_output, fs.find_by_sid_output, winioctl/FIND_BY_SID_OUTPUT, winioctl/PFIND_BY_SID_OUTPUT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FIND_BY_SID_OUTPUT, *PFIND_BY_SID_OUTPUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	FIND_BY_SID_OUTPUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # FIND_BY_SID_OUTPUT structure

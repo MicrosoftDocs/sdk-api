@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shellapi._SHQUERYRBINFO
+title: "_SHQUERYRBINFO"
+author: windows-sdk-content
+description: Contains the size and item count information retrieved by the SHQueryRecycleBin function.
+old-location: shell\SHQUERYRBINFO.htm
+old-project: shell
+ms.assetid: 7e9bc7e9-5712-45e7-a424-0afb62f26450
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPSHQUERYRBINFO, LPSHQUERYRBINFO, LPSHQUERYRBINFO structure pointer [Windows Shell], SHQUERYRBINFO, SHQUERYRBINFO structure [Windows Shell], _SHQUERYRBINFO, _win32_SHQUERYRBINFO, shell.SHQUERYRBINFO, shellapi/LPSHQUERYRBINFO, shellapi/SHQUERYRBINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shellapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SHQUERYRBINFO, *LPSHQUERYRBINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shellapi.h
+api_name:
+-	SHQUERYRBINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # _SHQUERYRBINFO structure

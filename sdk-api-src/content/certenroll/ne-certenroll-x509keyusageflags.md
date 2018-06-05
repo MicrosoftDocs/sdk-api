@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:certenroll.X509KeyUsageFlags
+title: X509KeyUsageFlags
+author: windows-sdk-content
+description: Specifies the purpose of a key contained in a certificate.
+old-location: security\x509keyusageflags_enum.htm
+old-project: SecCertEnroll
+ms.assetid: 3fcb91a3-ffcd-419f-a686-3fd2d1e795b3
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: X509KeyUsageFlags, X509KeyUsageFlags enumeration [Security], XCN_CERT_CRL_SIGN_KEY_USAGE, XCN_CERT_DATA_ENCIPHERMENT_KEY_USAGE, XCN_CERT_DECIPHER_ONLY_KEY_USAGE, XCN_CERT_DIGITAL_SIGNATURE_KEY_USAGE, XCN_CERT_ENCIPHER_ONLY_KEY_USAGE, XCN_CERT_KEY_AGREEMENT_KEY_USAGE, XCN_CERT_KEY_CERT_SIGN_KEY_USAGE, XCN_CERT_KEY_ENCIPHERMENT_KEY_USAGE, XCN_CERT_NON_REPUDIATION_KEY_USAGE, XCN_CERT_NO_KEY_USAGE, XCN_CERT_OFFLINE_CRL_SIGN_KEY_USAGE, certenroll/X509KeyUsageFlags, certenroll/XCN_CERT_CRL_SIGN_KEY_USAGE, certenroll/XCN_CERT_DATA_ENCIPHERMENT_KEY_USAGE, certenroll/XCN_CERT_DECIPHER_ONLY_KEY_USAGE, certenroll/XCN_CERT_DIGITAL_SIGNATURE_KEY_USAGE, certenroll/XCN_CERT_ENCIPHER_ONLY_KEY_USAGE, certenroll/XCN_CERT_KEY_AGREEMENT_KEY_USAGE, certenroll/XCN_CERT_KEY_CERT_SIGN_KEY_USAGE, certenroll/XCN_CERT_KEY_ENCIPHERMENT_KEY_USAGE, certenroll/XCN_CERT_NON_REPUDIATION_KEY_USAGE, certenroll/XCN_CERT_NO_KEY_USAGE, certenroll/XCN_CERT_OFFLINE_CRL_SIGN_KEY_USAGE, security.x509keyusageflags_enum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509KeyUsageFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CertEnroll.h
+api_name:
+-	X509KeyUsageFlags
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 ---
 
 # X509KeyUsageFlags enumeration

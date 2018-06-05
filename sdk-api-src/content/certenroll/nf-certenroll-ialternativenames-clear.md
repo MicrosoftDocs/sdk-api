@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IAlternativeNames.Clear
+title: IAlternativeNames::Clear
+author: windows-sdk-content
+description: Removes all objects from the collection.
+old-location: security\ialternativenames_clear_method.htm
+old-project: SecCertEnroll
+ms.assetid: babeb53a-b2db-420c-85fe-dacb9176ec70
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: Clear, Clear method [Security], Clear method [Security],IAlternativeNames interface, IAlternativeNames interface [Security],Clear method, IAlternativeNames.Clear, IAlternativeNames::Clear, certenroll/IAlternativeNames::Clear, security.ialternativenames_clear_method
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IAlternativeNames.Clear
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IAlternativeNames::Clear

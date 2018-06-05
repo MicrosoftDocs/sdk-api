@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:bdaiface.IBDA_IPV6Filter
+title: IBDA_IPV6Filter
+author: windows-sdk-content
+description: This interface is not supported.
+old-location: mstv\ibda_ipv6filter.htm
+old-project: mstv
+ms.assetid: b506d382-c56d-4c5b-ad57-e186173ea9a8
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IBDA_IPV6Filter, IBDA_IPV6Filter interface [Microsoft TV Technologies], IBDA_IPV6Filter interface [Microsoft TV Technologies],described, IBDA_IPV6FilterInterface, bdaiface/IBDA_IPV6Filter, mstv.ibda_ipv6filter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UICloseReasonType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdaiface.h
+api_name:
+-	IBDA_IPV6Filter
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 ---
 
 # IBDA_IPV6Filter interface

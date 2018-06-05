@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:audioenginebaseapo.APO_REG_PROPERTIES
+title: APO_REG_PROPERTIES
+author: windows-sdk-content
+description: The APO_REG_PROPERTIES structure is used by IAudioProcessingObject::GetRegistrationProperties for returning the registration properties of an audio processing object (APO).
+old-location: audio\apo_reg_properties.htm
+old-project: audio
+ms.assetid: 466215E5-5345-4570-A29B-086562882F5D
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*PAPO_REG_PROPERTIES, APO_REG_PROPERTIES, APO_REG_PROPERTIES structure [Audio Devices], PAPO_REG_PROPERTIES, PAPO_REG_PROPERTIES structure pointer [Audio Devices], audio.apo_reg_properties, audioenginebaseapo/APO_REG_PROPERTIES, audioenginebaseapo/PAPO_REG_PROPERTIES"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: audioenginebaseapo.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APO_REG_PROPERTIES, *PAPO_REG_PROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	audioenginebaseapo.h
+api_name:
+-	APO_REG_PROPERTIES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: All levels.
 ---
 
 # APO_REG_PROPERTIES structure

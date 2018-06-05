@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddrawint._DD_GETVPORTFIELDDATA
+title: "_DD_GETVPORTFIELDDATA"
+author: windows-sdk-content
+description: The DD_GETVPORTFIELDDATA structure contains the information required for the driver to determine whether the current field of an interlaced signal is even or odd.
+old-location: display\dd_getvportfielddata.htm
+old-project: display
+ms.assetid: 549956f8-c39f-4cc3-b72a-b1e3785463e8
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PDD_GETVPORTFIELDDATA, DD_GETVPORTFIELDDATA, DD_GETVPORTFIELDDATA structure [Display Devices], _DD_GETVPORTFIELDDATA, ddrawint/DD_GETVPORTFIELDDATA, ddstrcts_777ca41f-3364-4f07-96cb-cd249ff16179.xml, display.dd_getvportfielddata"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PDD_GETVPORTFIELDDATA, DD_GETVPORTFIELDDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ddrawint.h
+api_name:
+-	DD_GETVPORTFIELDDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DD_GETVPORTFIELDDATA structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vds._VDS_CREATE_VDISK_PARAMETERS
+title: "_VDS_CREATE_VDISK_PARAMETERS"
+author: windows-sdk-content
+description: Contains the parameters to be used when a virtual disk is created.
+old-location: base\vds_create_vdisk_parameters.htm
+old-project: VDS
+ms.assetid: 7ee830d5-6392-4e66-a8bb-2fd92c1e092c
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PVDS_CREATE_VDISK_PARAMETERS, PVDS_CREATE_VDISK_PARAMETERS, PVDS_CREATE_VDISK_PARAMETERS structure pointer, VDS_CREATE_VDISK_PARAMETERS, VDS_CREATE_VDISK_PARAMETERS structure, _VDS_CREATE_VDISK_PARAMETERS, base.vds_create_vdisk_parameters, vds/PVDS_CREATE_VDISK_PARAMETERS, vds/VDS_CREATE_VDISK_PARAMETERS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_CREATE_VDISK_PARAMETERS, *PVDS_CREATE_VDISK_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+api_name:
+-	VDS_CREATE_VDISK_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_CREATE_VDISK_PARAMETERS structure

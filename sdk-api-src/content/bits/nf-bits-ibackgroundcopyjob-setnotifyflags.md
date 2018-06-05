@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bits.IBackgroundCopyJob.SetNotifyFlags
+title: IBackgroundCopyJob::SetNotifyFlags
+author: windows-sdk-content
+description: Specifies the type of event notification you want to receive, such as job transferred events.
+old-location: bits\ibackgroundcopyjob_setnotifyflags.htm
+old-project: Bits
+ms.assetid: 24aa6445-d7bd-4825-9121-402e63ae6f69
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: BG_NOTIFY_DISABLE, BG_NOTIFY_FILE_RANGES_TRANSFERRED, BG_NOTIFY_FILE_TRANSFERRED, BG_NOTIFY_JOB_ERROR, BG_NOTIFY_JOB_MODIFICATION, BG_NOTIFY_JOB_TRANSFERRED, IBackgroundCopyJob interface [BITS],SetNotifyFlags method, IBackgroundCopyJob.SetNotifyFlags, IBackgroundCopyJob::SetNotifyFlags, SetNotifyFlags, SetNotifyFlags method [BITS], SetNotifyFlags method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setnotifyflags, bits.ibackgroundcopyjob_setnotifyflags, bits/IBackgroundCopyJob::SetNotifyFlags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_PROXY_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	QmgrPrxy.dll
+api_name:
+-	IBackgroundCopyJob.SetNotifyFlags
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 ---
 
 # IBackgroundCopyJob::SetNotifyFlags

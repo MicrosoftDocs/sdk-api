@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msacm.acmDriverOpen
+title: acmDriverOpen function
+author: windows-sdk-content
+description: The acmDriverOpen function opens the specified ACM driver and returns a driver instance handle that can be used to communicate with the driver.
+old-location: multimedia\acmdriveropen.htm
+old-project: Multimedia
+ms.assetid: a2b98e82-be7a-4e14-bc74-4926eb663ef9
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "_win32_acmDriverOpen, acmDriverOpen, acmDriverOpen function [Windows Multimedia], msacm/acmDriverOpen, multimedia.acmdriveropen"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: msacm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Msacm32.dll
+-	Ext-MS-Win-mm-msacm-l1-1-0.dll
+api_name:
+-	acmDriverOpen
+product: Windows
+targetos: Windows
+req.lib: Msacm32.lib
+req.dll: Msacm32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # acmDriverOpen function

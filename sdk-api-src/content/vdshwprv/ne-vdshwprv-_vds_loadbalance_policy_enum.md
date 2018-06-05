@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vdshwprv._VDS_LOADBALANCE_POLICY_ENUM
+title: "_VDS_LOADBALANCE_POLICY_ENUM"
+author: windows-sdk-content
+description: Defines a set of valid load balance policies for a path.
+old-location: base\vds_loadbalance_policy_enum.htm
+old-project: VDS
+ms.assetid: 0391c605-3808-4c24-8638-77b1fe3342bf
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_LBP_DYN_LEAST_QUEUE_DEPTH, VDS_LBP_FAILOVER, VDS_LBP_LEAST_BLOCKS, VDS_LBP_ROUND_ROBIN, VDS_LBP_ROUND_ROBIN_WITH_SUBSET, VDS_LBP_UNKNOWN, VDS_LBP_VENDOR_SPECIFIC, VDS_LBP_WEIGHTED_PATHS, VDS_LOADBALANCE_POLICY_ENUM, VDS_LOADBALANCE_POLICY_ENUM enumeration [VDS], _VDS_LOADBALANCE_POLICY_ENUM, base.vds_loadbalance_policy_enum, vds/VDS_LBP_DYN_LEAST_QUEUE_DEPTH, vds/VDS_LBP_FAILOVER, vds/VDS_LBP_LEAST_BLOCKS, vds/VDS_LBP_ROUND_ROBIN, vds/VDS_LBP_ROUND_ROBIN_WITH_SUBSET, vds/VDS_LBP_UNKNOWN, vds/VDS_LBP_VENDOR_SPECIFIC, vds/VDS_LBP_WEIGHTED_PATHS, vds/VDS_LOADBALANCE_POLICY_ENUM, vdshwprv/VDS_LBP_DYN_LEAST_QUEUE_DEPTH, vdshwprv/VDS_LBP_FAILOVER, vdshwprv/VDS_LBP_LEAST_BLOCKS, vdshwprv/VDS_LBP_ROUND_ROBIN, vdshwprv/VDS_LBP_ROUND_ROBIN_WITH_SUBSET, vdshwprv/VDS_LBP_UNKNOWN, vdshwprv/VDS_LBP_VENDOR_SPECIFIC, vdshwprv/VDS_LBP_WEIGHTED_PATHS, vdshwprv/VDS_LOADBALANCE_POLICY_ENUM
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vdshwprv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_LOADBALANCE_POLICY_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_LOADBALANCE_POLICY_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_LOADBALANCE_POLICY_ENUM enumeration

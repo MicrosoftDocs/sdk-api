@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ipsectypes.IPSEC_TOKEN_PRINCIPAL_
+title: IPSEC_TOKEN_PRINCIPAL_
+author: windows-sdk-content
+description: An access token principal.
+old-location: fwp\ipsec_token_principal.htm
+old-project: FWP
+ms.assetid: f61944aa-2545-4fdd-8bae-6271d4535acc
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IPSEC_TOKEN_PRINCIPAL, IPSEC_TOKEN_PRINCIPAL enumeration [Filtering], IPSEC_TOKEN_PRINCIPAL_, IPSEC_TOKEN_PRINCIPAL_LOCAL, IPSEC_TOKEN_PRINCIPAL_MAX, IPSEC_TOKEN_PRINCIPAL_PEER, fwp.ipsec_token_principal, ipsectypes/IPSEC_TOKEN_PRINCIPAL, ipsectypes/IPSEC_TOKEN_PRINCIPAL_LOCAL, ipsectypes/IPSEC_TOKEN_PRINCIPAL_MAX, ipsectypes/IPSEC_TOKEN_PRINCIPAL_PEER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ipsectypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPSEC_TOKEN_PRINCIPAL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipsectypes.h
+api_name:
+-	IPSEC_TOKEN_PRINCIPAL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IPSEC_TOKEN_PRINCIPAL_ enumeration

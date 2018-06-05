@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mswmdm.IWMDMStorage2.SetAttributes2
+title: IWMDMStorage2::SetAttributes2
+author: windows-sdk-content
+description: The SetAttributes2 method sets extended attributes of the storage.
+old-location: wmdm\iwmdmstorage2_setattributes2.htm
+old-project: WMDM
+ms.assetid: 0a2e143e-8d6a-497e-9c45-fd3349c4ec97
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IWMDMStorage2 interface [windows Media Device Manager],SetAttributes2 method, IWMDMStorage2.SetAttributes2, IWMDMStorage2::SetAttributes2, IWMDMStorage2SetAttributes2, SetAttributes2, SetAttributes2 method [windows Media Device Manager], SetAttributes2 method [windows Media Device Manager],IWMDMStorage2 interface, mswmdm/IWMDMStorage2::SetAttributes2, wmdm.iwmdmstorage2_setattributes2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IWMDMStorage2.SetAttributes2
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMStorage2::SetAttributes2

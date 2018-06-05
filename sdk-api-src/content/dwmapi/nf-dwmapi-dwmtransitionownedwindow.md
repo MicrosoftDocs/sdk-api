@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dwmapi.DwmTransitionOwnedWindow
+title: DwmTransitionOwnedWindow function
+author: windows-sdk-content
+description: Coordinates the animations of tool windows with the Desktop Window Manager (DWM).
+old-location: dwm\dwmtransitionownedwindow.htm
+old-project: dwm
+ms.assetid: 12108F8D-7D9A-4459-9FC0-1856FD097CAA
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: DwmTransitionOwnedWindow, DwmTransitionOwnedWindow function [Desktop Window Manager], dwm.dwmtransitionownedwindow, dwmapi/DwmTransitionOwnedWindow
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dwmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dwmapi.dll
+api_name:
+-	DwmTransitionOwnedWindow
+product: Windows
+targetos: Windows
+req.lib: Dwmapi.lib
+req.dll: Dwmapi.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DwmTransitionOwnedWindow function

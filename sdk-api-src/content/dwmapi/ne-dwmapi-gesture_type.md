@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dwmapi.GESTURE_TYPE
+title: GESTURE_TYPE
+author: windows-sdk-content
+description: Identifies the gesture type specified in DwmRenderGesture.
+old-location: dwm\gesture_type.htm
+old-project: dwm
+ms.assetid: 3FBDDFC9-A3E7-43DC-B7C6-A23976861C28
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: GESTURE_TYPE, GESTURE_TYPE enumeration [Desktop Window Manager], GT_PEN_DOUBLETAP, GT_PEN_PRESSANDHOLD, GT_PEN_PRESSANDHOLDABORT, GT_PEN_RIGHTTAP, GT_PEN_TAP, GT_TOUCH_DOUBLETAP, GT_TOUCH_PRESSANDHOLD, GT_TOUCH_PRESSANDHOLDABORT, GT_TOUCH_PRESSANDTAP, GT_TOUCH_RIGHTTAP, GT_TOUCH_TAP, dwm.gesture_type, dwmapi/GESTURE_TYPE, dwmapi/GT_PEN_DOUBLETAP, dwmapi/GT_PEN_PRESSANDHOLD, dwmapi/GT_PEN_PRESSANDHOLDABORT, dwmapi/GT_PEN_RIGHTTAP, dwmapi/GT_PEN_TAP, dwmapi/GT_TOUCH_DOUBLETAP, dwmapi/GT_TOUCH_PRESSANDHOLD, dwmapi/GT_TOUCH_PRESSANDHOLDABORT, dwmapi/GT_TOUCH_PRESSANDTAP, dwmapi/GT_TOUCH_RIGHTTAP, dwmapi/GT_TOUCH_TAP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwmapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Dvbsiparser.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dwmapi.h
+api_name:
+-	GESTURE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # GESTURE_TYPE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:devicetopology.IKsJackSinkInformation.GetJackSinkInformation
+title: IKsJackSinkInformation::GetJackSinkInformation
+author: windows-sdk-content
+description: The GetJackSinkInformation method retrieves the sink information for the specified jack.
+old-location: coreaudio\iksjacksinkinformation_getjacksinkinformation.htm
+old-project: CoreAudio
+ms.assetid: ca4165ce-433a-4a8f-9853-bbe812de90ca
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetJackSinkInformation, GetJackSinkInformation method [Core Audio], GetJackSinkInformation method [Core Audio],IKsJackSinkInformation interface, IKsJackSinkInformation interface [Core Audio],GetJackSinkInformation method, IKsJackSinkInformation.GetJackSinkInformation, IKsJackSinkInformation::GetJackSinkInformation, coreaudio.iksjacksinkinformation_getjacksinkinformation, devicetopology/IKsJackSinkInformation::GetJackSinkInformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: devicetopology.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ConnectorType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Devicetopology.h
+api_name:
+-	IKsJackSinkInformation.GetJackSinkInformation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IKsJackSinkInformation::GetJackSinkInformation

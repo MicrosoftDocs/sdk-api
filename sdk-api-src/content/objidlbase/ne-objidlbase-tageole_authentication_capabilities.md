@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:objidlbase.tagEOLE_AUTHENTICATION_CAPABILITIES
+title: tagEOLE_AUTHENTICATION_CAPABILITIES
+author: windows-sdk-content
+description: Specifies various capabilities in CoInitializeSecurity and IClientSecurity::SetBlanket (or its helper function CoSetProxyBlanket).
+old-location: com\eole_authentication_capabilities.htm
+old-project: com
+ms.assetid: cf3396d0-6674-4f12-bd4a-227a8d32bc92
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: EOAC_ACCESS_CONTROL, EOAC_ANY_AUTHORITY, EOAC_APPID, EOAC_AUTO_IMPERSONATE, EOAC_DEFAULT, EOAC_DISABLE_AAA, EOAC_DYNAMIC, EOAC_DYNAMIC_CLOAKING, EOAC_MAKE_FULLSIC, EOAC_MUTUAL_AUTH, EOAC_NONE, EOAC_NO_CUSTOM_MARSHAL, EOAC_REQUIRE_FULLSIC, EOAC_SECURE_REFS, EOAC_STATIC_CLOAKING, EOLE_AUTHENTICATION_CAPABILITIES, EOLE_AUTHENTICATION_CAPABILITIES enumeration [COM], _com_EOLE_AUTHENTICATION_CAPABILITIES, com.eole_authentication_capabilities, objidlbase/EOAC_ACCESS_CONTROL, objidlbase/EOAC_ANY_AUTHORITY, objidlbase/EOAC_APPID, objidlbase/EOAC_AUTO_IMPERSONATE, objidlbase/EOAC_DEFAULT, objidlbase/EOAC_DISABLE_AAA, objidlbase/EOAC_DYNAMIC, objidlbase/EOAC_DYNAMIC_CLOAKING, objidlbase/EOAC_MAKE_FULLSIC, objidlbase/EOAC_MUTUAL_AUTH, objidlbase/EOAC_NONE, objidlbase/EOAC_NO_CUSTOM_MARSHAL, objidlbase/EOAC_REQUIRE_FULLSIC, objidlbase/EOAC_SECURE_REFS, objidlbase/EOAC_STATIC_CLOAKING, objidlbase/EOLE_AUTHENTICATION_CAPABILITIES, tagEOLE_AUTHENTICATION_CAPABILITIES
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: objidlbase.h
+req.include-header: Objidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Objidlbase.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EOLE_AUTHENTICATION_CAPABILITIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	objidlbase.h
+api_name:
+-	EOLE_AUTHENTICATION_CAPABILITIES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagEOLE_AUTHENTICATION_CAPABILITIES enumeration

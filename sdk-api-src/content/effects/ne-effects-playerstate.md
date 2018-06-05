@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:effects.PlayerState
+title: PlayerState
+author: windows-sdk-content
+description: The PlayerState enumeration type provides some basic states of Windows Media Player.
+old-location: wmp\playerstate.htm
+old-project: WMP
+ms.assetid: 7cd17639-e491-4066-838a-236554733874
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: PlayerState, PlayerState enumeration [Windows Media Player], effects/PlayerState, effects/pause_state, effects/play_state, effects/stop_state, enumeration [Windows Media Player], pause_state, play_state, stop_state, typedefenumPlayerState, wmp.playerstate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: effects.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player version 7.0 or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	effects.h
+api_name:
+-	PlayerState
+product: Windows
+targetos: Windows
+req.lib: Efswrt.h
+req.dll: Efswrt.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # PlayerState enumeration

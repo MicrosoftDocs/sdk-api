@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11.ID3D11DeviceContext.ResolveSubresource
+title: ID3D11DeviceContext::ResolveSubresource
+author: windows-sdk-content
+description: Copy a multisampled resource into a non-multisampled resource.
+old-location: direct3d11\id3d11devicecontext_resolvesubresource.htm
+old-project: direct3d11
+ms.assetid: 7b4d6180-e3bf-475a-9865-592cda6e9f4a
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 9790b3fd-189f-fe3d-b1be-96c2ba68f3f3, ID3D11DeviceContext interface [Direct3D 11],ResolveSubresource method, ID3D11DeviceContext.ResolveSubresource, ID3D11DeviceContext::ResolveSubresource, ResolveSubresource, ResolveSubresource method [Direct3D 11], ResolveSubresource method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::ResolveSubresource, direct3d11.id3d11devicecontext_resolvesubresource
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11DeviceContext.ResolveSubresource
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11DeviceContext::ResolveSubresource

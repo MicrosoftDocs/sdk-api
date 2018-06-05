@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:inputpanelconfiguration.IInputPanelConfiguration
+title: IInputPanelConfiguration
+author: windows-sdk-content
+description: Provides functionality for desktop apps to opt in to the focus tracking mechanism used in Windows Store apps.
+old-location: shell\iinputpanelconfiguration.htm
+old-project: shell
+ms.assetid: 81E54703-095E-4810-A8A0-2ACBE7F3D634
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IInputPanelConfiguration, IInputPanelConfiguration interface [Windows Shell], IInputPanelConfiguration interface [Windows Shell],described, inputpanelconfiguration/IInputPanelConfiguration, shell.iinputpanelconfiguration
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: inputpanelconfiguration.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Inputpanelconfiguration.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	inputpanelconfiguration.h
+api_name:
+-	IInputPanelConfiguration
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IInputPanelConfiguration interface

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:peerdist.PeerDistGetStatus
+title: PeerDistGetStatus function
+author: windows-sdk-content
+description: PeerDistGetStatus function returns the current status of the Peer Distribution service.
+old-location: p2p\peerdistgetstatus.htm
+old-project: P2PSdk
+ms.assetid: 1ab188cc-db79-49b2-977f-0b8fccf7f274
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PeerDistGetStatus, PeerDistGetStatus function [Peer Networking], p2p.peerdistgetstatus, peerdist/PeerDistGetStatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: peerdist.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, *PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	PeerDist.dll
+api_name:
+-	PeerDistGetStatus
+product: Windows
+targetos: Windows
+req.lib: PeerDist.lib
+req.dll: PeerDist.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PeerDistGetStatus function

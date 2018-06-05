@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wpcevent.tagWPC_ARGS_EMAILSENTEVENT
+title: tagWPC_ARGS_EMAILSENTEVENT
+author: windows-sdk-content
+description: Indicates information about an email message that has been sent.
+old-location: parcon\wpc_args_emailsentevent.htm
+old-project: parcon
+ms.assetid: e142c9a6-c8a1-4895-b923-e80e62570fb9
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WPC_ARGS_EMAILSENTEVENT, WPC_ARGS_EMAILSENTEVENT enumeration, WPC_ARGS_EMAILSENTEVENT_APPNAME, WPC_ARGS_EMAILSENTEVENT_APPVERSION, WPC_ARGS_EMAILSENTEVENT_ATTACHCOUNT, WPC_ARGS_EMAILSENTEVENT_ATTACHMENTNAME, WPC_ARGS_EMAILSENTEVENT_CARGS, WPC_ARGS_EMAILSENTEVENT_EMAILACCOUNT, WPC_ARGS_EMAILSENTEVENT_REASON, WPC_ARGS_EMAILSENTEVENT_RECIPCOUNT, WPC_ARGS_EMAILSENTEVENT_RECIPIENT, WPC_ARGS_EMAILSENTEVENT_SENDER, WPC_ARGS_EMAILSENTEVENT_SUBJECT, parcon.wpc_args_emailsentevent, tagWPC_ARGS_EMAILSENTEVENT, wpcevent/WPC_ARGS_EMAILSENTEVENT, wpcevent/WPC_ARGS_EMAILSENTEVENT_APPNAME, wpcevent/WPC_ARGS_EMAILSENTEVENT_APPVERSION, wpcevent/WPC_ARGS_EMAILSENTEVENT_ATTACHCOUNT, wpcevent/WPC_ARGS_EMAILSENTEVENT_ATTACHMENTNAME, wpcevent/WPC_ARGS_EMAILSENTEVENT_CARGS, wpcevent/WPC_ARGS_EMAILSENTEVENT_EMAILACCOUNT, wpcevent/WPC_ARGS_EMAILSENTEVENT_REASON, wpcevent/WPC_ARGS_EMAILSENTEVENT_RECIPCOUNT, wpcevent/WPC_ARGS_EMAILSENTEVENT_RECIPIENT, wpcevent/WPC_ARGS_EMAILSENTEVENT_SENDER, wpcevent/WPC_ARGS_EMAILSENTEVENT_SUBJECT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wpcevent.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WPC_ARGS_EMAILSENTEVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wpcevent.h
+api_name:
+-	WPC_ARGS_EMAILSENTEVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagWPC_ARGS_EMAILSENTEVENT enumeration

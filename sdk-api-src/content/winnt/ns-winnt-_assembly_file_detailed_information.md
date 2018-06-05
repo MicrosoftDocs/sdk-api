@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._ASSEMBLY_FILE_DETAILED_INFORMATION
+title: "_ASSEMBLY_FILE_DETAILED_INFORMATION"
+author: windows-sdk-content
+description: The ASSEMBLY_FILE_DETAILED_INFORMATION structure is used by the QueryActCtxW function.
+old-location: setup\assembly_file_detailed_information.htm
+old-project: SbsCs
+ms.assetid: 7f1e5155-a6c1-4b6a-be47-37fab337186c
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PASSEMBLY_FILE_DETAILED_INFORMATION, ASSEMBLY_FILE_DETAILED_INFORMATION, ASSEMBLY_FILE_DETAILED_INFORMATION structure [Side-by-side Assemblies], PASSEMBLY_FILE_DETAILED_INFORMATION, PASSEMBLY_FILE_DETAILED_INFORMATION structure pointer [Side-by-side Assemblies], _ASSEMBLY_FILE_DETAILED_INFORMATION, _win32_assembly_file_detailed_information, setup.assembly_file_detailed_information, winnt/ASSEMBLY_FILE_DETAILED_INFORMATION, winnt/PASSEMBLY_FILE_DETAILED_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ASSEMBLY_FILE_DETAILED_INFORMATION, *PASSEMBLY_FILE_DETAILED_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	ASSEMBLY_FILE_DETAILED_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _ASSEMBLY_FILE_DETAILED_INFORMATION structure

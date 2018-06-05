@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl._MFSTREAMSINK_MARKER_TYPE
+title: "_MFSTREAMSINK_MARKER_TYPE"
+author: windows-sdk-content
+description: Defines stream marker information for the IMFStreamSink::PlaceMarker method.
+old-location: mf\mfstreamsink_marker_type.htm
+old-project: medfound
+ms.assetid: d1c5f8ee-a451-44af-bf43-7623cea2be37
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFSTREAMSINK_MARKER_DEFAULT, MFSTREAMSINK_MARKER_ENDOFSEGMENT, MFSTREAMSINK_MARKER_EVENT, MFSTREAMSINK_MARKER_TICK, MFSTREAMSINK_MARKER_TYPE, MFSTREAMSINK_MARKER_TYPE enumeration [Media Foundation], _MFSTREAMSINK_MARKER_TYPE, d1c5f8ee-a451-44af-bf43-7623cea2be37, enumeration [Media Foundation], mf.mfstreamsink_marker_type, mfidl/MFSTREAMSINK_MARKER_DEFAULT, mfidl/MFSTREAMSINK_MARKER_ENDOFSEGMENT, mfidl/MFSTREAMSINK_MARKER_EVENT, mfidl/MFSTREAMSINK_MARKER_TICK, mfidl/MFSTREAMSINK_MARKER_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSTREAMSINK_MARKER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFSTREAMSINK_MARKER_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFSTREAMSINK_MARKER_TYPE enumeration

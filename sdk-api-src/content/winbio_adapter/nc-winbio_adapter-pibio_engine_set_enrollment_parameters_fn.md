@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:winbio_adapter.PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN
+title: PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN
+author: windows-sdk-content
+description: Gives the engine adapter additional information about an enrollment operation.
+old-location: secbiomet\engineadaptersetenrollmentparameters.htm
+old-project: SecBioMet
+ms.assetid: BB353505-F861-47BD-A617-42F0AA39251E
+ms.author: windowssdkdev
+ms.date: 04/24/2018
+ms.keywords: EngineAdapterSetEnrollmentParameters, EngineAdapterSetEnrollmentParameters callback function [Windows Biometric Framework API], PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN, PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN callback, secbiomet.engineadaptersetenrollmentparameters, winbio_adapter/EngineAdapterSetEnrollmentParameters
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: winbio_adapter.h
+req.include-header: Winbio_adapter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Winbio_adapter.h
+api_name:
+-	EngineAdapterSetEnrollmentParameters
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN callback function

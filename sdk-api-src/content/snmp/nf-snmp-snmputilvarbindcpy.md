@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:snmp.SnmpUtilVarBindCpy
+title: SnmpUtilVarBindCpy function
+author: windows-sdk-content
+description: The SnmpUtilVarBindCpy function copies the specified SnmpVarBind structure, and allocates any memory necessary for the destination structure. The SnmpUtilVarBindCpy function is an element of the SNMP Utility API.
+old-location: snmp\snmputilvarbindcpy.htm
+old-project: SNMP
+ms.assetid: 0a3e1fb8-360d-4bfa-8fa3-8c114b9fd681
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: SnmpUtilVarBindCpy, SnmpUtilVarBindCpy function [SNMP], _snmp_snmputilvarbindcpy, snmp.snmputilvarbindcpy, snmp/SnmpUtilVarBindCpy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: snmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SL_NONGENUINE_UI_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Snmpapi.dll
+api_name:
+-	SnmpUtilVarBindCpy
+product: Windows
+targetos: Windows
+req.lib: Snmpapi.lib
+req.dll: Snmpapi.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SnmpUtilVarBindCpy function

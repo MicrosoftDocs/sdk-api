@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcoreapi.SynchronizedInputPattern_Cancel
+title: SynchronizedInputPattern_Cancel function
+author: windows-sdk-content
+description: Causes the UI Automation provider to stop listening for mouse or keyboard input.
+old-location: winauto\uiauto_SynchronizedInputPattern_Cancel.htm
+old-project: WinAuto
+ms.assetid: e41153c1-5eea-4850-8845-9c3dc07816a3
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: SynchronizedInputPattern_Cancel, SynchronizedInputPattern_Cancel function [Windows Accessibility], uiauto.uiauto_SynchronizedInputPattern_Cancel, uiauto_SynchronizedInputPattern_Cancel, uiautomationcoreapi/SynchronizedInputPattern_Cancel, winauto.uiauto_SynchronizedInputPattern_Cancel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: uiautomationcoreapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Uiautomationcore.dll
+api_name:
+-	SynchronizedInputPattern_Cancel
+product: Windows
+targetos: Windows
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # SynchronizedInputPattern_Cancel function

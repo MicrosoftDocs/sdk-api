@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wcndevice.tagWCN_VENDOR_EXTENSION_SPEC
+title: tagWCN_VENDOR_EXTENSION_SPEC
+author: windows-sdk-content
+description: WCN_VENDOR_EXTENSION_SPEC structure contains data that defines a vendor extension.
+old-location: wcn\wcn_vendor_extension_spec.htm
+old-project: wcn
+ms.assetid: 8ba35c4a-a644-4c6d-8334-d459e7196b6f
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: PWCN_VENDOR_EXTENSION_SPEC, PWCN_VENDOR_EXTENSION_SPEC structure pointer [Windows Connect Now], WCN_FLAG_AUTHENTICATED_VE, WCN_FLAG_DISCOVERY_VE, WCN_FLAG_ENCRYPTED_VE, WCN_VENDOR_EXTENSION_SPEC, WCN_VENDOR_EXTENSION_SPEC structure [Windows Connect Now], tagWCN_VENDOR_EXTENSION_SPEC, wcn.wcn_vendor_extension_spec, wcndevice/PWCN_VENDOR_EXTENSION_SPEC, wcndevice/WCN_VENDOR_EXTENSION_SPEC
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wcndevice.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wcndevice.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WCN_VENDOR_EXTENSION_SPEC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wcndevice.h
+api_name:
+-	WCN_VENDOR_EXTENSION_SPEC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagWCN_VENDOR_EXTENSION_SPEC structure

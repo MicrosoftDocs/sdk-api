@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsbackup.IVssBackupComponentsEx3.GetWriterStatusEx
+title: IVssBackupComponentsEx3::GetWriterStatusEx
+author: windows-sdk-content
+description: Returns extended status information for the specified writer.
+old-location: base\ivssbackupcomponentsex3_getwriterstatusex.htm
+old-project: VSS
+ms.assetid: ab2be2c0-04bb-4a56-a636-ebd2c06e844a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetWriterStatusEx, GetWriterStatusEx method, GetWriterStatusEx method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,GetWriterStatusEx method, IVssBackupComponentsEx3.GetWriterStatusEx, IVssBackupComponentsEx3::GetWriterStatusEx, S_OK, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_PARTIAL_FAILURE, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, VSS_E_WRITER_NOT_RESPONDING, VSS_E_WRITER_STATUS_NOT_AVAILABLE, base.ivssbackupcomponentsex3_getwriterstatusex, vsbackup/IVssBackupComponentsEx3::GetWriterStatusEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsbackup.h
+req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VsBackup.h
+api_name:
+-	IVssBackupComponentsEx3.GetWriterStatusEx
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssBackupComponentsEx3::GetWriterStatusEx

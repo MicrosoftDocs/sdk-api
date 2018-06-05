@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clusapi.CLUS_STARTING_PARAMS
+title: CLUS_STARTING_PARAMS
+author: windows-sdk-content
+description: Indicates whether a node's attempt to start the Cluster service represents an attempt to form or join a cluster, and whether the node has attempted to start this version of the Cluster service before.
+old-location: mscs\clus_starting_params.htm
+old-project: MsCS
+ms.assetid: 255c68ff-0ca0-4718-b7fe-c689c93d0203
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCLUS_STARTING_PARAMS, CLUS_STARTING_PARAMS, CLUS_STARTING_PARAMS structure [Failover Cluster], FALSE, PCLUS_STARTING_PARAMS, PCLUS_STARTING_PARAMS structure pointer [Failover Cluster], TRUE, _wolf_clus_starting_params, clusapi/CLUS_STARTING_PARAMS, clusapi/PCLUS_STARTING_PARAMS, mscs.clus_starting_params"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUS_STARTING_PARAMS, *PCLUS_STARTING_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+api_name:
+-	CLUS_STARTING_PARAMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUS_STARTING_PARAMS structure

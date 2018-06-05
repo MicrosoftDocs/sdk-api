@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dwrite_3.DWRITE_LOCALITY
+title: DWRITE_LOCALITY
+author: windows-sdk-content
+description: Specifies the location of a resource.
+old-location: directwrite\dwrite_locality.htm
+old-project: DirectWrite
+ms.assetid: DEBFE4E0-C995-4468-9702-44EA37F1BCFF
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: DWRITE_LOCALITY, DWRITE_LOCALITY enumeration [Direct Write], DWRITE_LOCALITY_LOCAL, DWRITE_LOCALITY_PARTIAL, DWRITE_LOCALITY_REMOTE, directwrite.dwrite_locality, dwrite_3/DWRITE_LOCALITY, dwrite_3/DWRITE_LOCALITY_LOCAL, dwrite_3/DWRITE_LOCALITY_PARTIAL, dwrite_3/DWRITE_LOCALITY_REMOTE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dwrite_3.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dwrite_3.h
+api_name:
+-	DWRITE_LOCALITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DWRITE_LOCALITY enumeration

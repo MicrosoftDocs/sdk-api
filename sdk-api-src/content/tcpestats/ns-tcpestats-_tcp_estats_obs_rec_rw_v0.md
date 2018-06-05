@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:tcpestats._TCP_ESTATS_OBS_REC_RW_v0
+title: "_TCP_ESTATS_OBS_REC_RW_v0"
+author: windows-sdk-content
+description: Contains read/write configuration information for extended TCP statistics observed on the remote receiver for a TCP connection.
+old-location: iphlp\tcp_estats_obs_rec_rw_v0.htm
+old-project: IpHlp
+ms.assetid: 91c2d5d9-3198-42a7-abf7-077281b491f2
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PTCP_ESTATS_OBS_REC_RW_v0, PTCP_ESTATS_OBS_REC_RW_v0, PTCP_ESTATS_OBS_REC_RW_v0 structure pointer [IP Helper], TCP_ESTATS_OBS_REC_RW_v0, TCP_ESTATS_OBS_REC_RW_v0 structure [IP Helper], _TCP_ESTATS_OBS_REC_RW_v0, iphlp.tcp_estats_obs_rec_rw_v0, tcpestats/PTCP_ESTATS_OBS_REC_RW_v0, tcpestats/TCP_ESTATS_OBS_REC_RW_v0"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tcpestats.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TCP_ESTATS_OBS_REC_RW_v0, *PTCP_ESTATS_OBS_REC_RW_v0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tcpestats.h
+api_name:
+-	TCP_ESTATS_OBS_REC_RW_v0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TCP_ESTATS_OBS_REC_RW_v0 structure

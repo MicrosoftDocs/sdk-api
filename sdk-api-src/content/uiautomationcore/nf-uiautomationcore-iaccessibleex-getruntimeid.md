@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationcore.IAccessibleEx.GetRuntimeId
+title: IAccessibleEx::GetRuntimeId
+author: windows-sdk-content
+description: Retrieves the runtime identifier of this element.
+old-location: winauto\uiauto_IAccessibleEx_GetRuntimeId.htm
+old-project: WinAuto
+ms.assetid: 00aeac66-398a-4c80-85e2-32bff0ae100f
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: GetRuntimeId, GetRuntimeId method [Windows Accessibility], GetRuntimeId method [Windows Accessibility],IAccessibleEx interface, IAccessibleEx interface [Windows Accessibility],GetRuntimeId method, IAccessibleEx.GetRuntimeId, IAccessibleEx::GetRuntimeId, uiauto.uiauto_IAccessibleEx_GetRuntimeId, uiauto_IAccessibleEx_GetRuntimeId, uiautomationcore/IAccessibleEx::GetRuntimeId, winauto.uiauto_IAccessibleEx_GetRuntimeId
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationcore.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationCore.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationCore.h
+api_name:
+-	IAccessibleEx.GetRuntimeId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IAccessibleEx::GetRuntimeId

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:audiosessiontypes._AUDCLNT_SHAREMODE
+title: "_AUDCLNT_SHAREMODE"
+author: windows-sdk-content
+description: The AUDCLNT_SHAREMODE enumeration defines constants that indicate whether an audio stream will run in shared mode or in exclusive mode.
+old-location: coreaudio\audclnt_sharemode.htm
+old-project: CoreAudio
+ms.assetid: f4870d0f-85d1-48ad-afe0-2f5a960c08fb
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: AUDCLNT_SHAREMODE, AUDCLNT_SHAREMODE , AUDCLNT_SHAREMODE enumeration [Core Audio], AUDCLNT_SHAREMODE_EXCLUSIVE, AUDCLNT_SHAREMODE_SHARED, _AUDCLNT_SHAREMODE, audiosessiontypes/AUDCLNT_SHAREMODE, audiosessiontypes/AUDCLNT_SHAREMODE_EXCLUSIVE, audiosessiontypes/AUDCLNT_SHAREMODE_SHARED, coreaudio.audclnt_sharemode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: audiosessiontypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUDCLNT_SHAREMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Audiosessiontypes.h
+api_name:
+-	AUDCLNT_SHAREMODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _AUDCLNT_SHAREMODE enumeration

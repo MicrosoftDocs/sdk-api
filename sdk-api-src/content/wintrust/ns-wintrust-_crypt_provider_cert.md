@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wintrust._CRYPT_PROVIDER_CERT
+title: "_CRYPT_PROVIDER_CERT"
+author: windows-sdk-content
+description: Provides information about a provider certificate.
+old-location: security\crypt_provider_cert.htm
+old-project: SecCrypto
+ms.assetid: 622e7a72-445a-4820-b236-1c90dad08351
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_PROVIDER_CERT, CERT_CONFIDENCE_AUTHIDEXT, CERT_CONFIDENCE_HIGHEST, CERT_CONFIDENCE_HYGIENE, CERT_CONFIDENCE_SIG, CERT_CONFIDENCE_TIME, CERT_CONFIDENCE_TIMENEST, CRYPT_PROVIDER_CERT, CRYPT_PROVIDER_CERT structure [Security], PCRYPT_PROVIDER_CERT, PCRYPT_PROVIDER_CERT structure pointer [Security], _CRYPT_PROVIDER_CERT, security.crypt_provider_cert, wintrust/CRYPT_PROVIDER_CERT, wintrust/PCRYPT_PROVIDER_CERT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wintrust.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_PROVIDER_CERT, *PCRYPT_PROVIDER_CERT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wintrust.h
+api_name:
+-	CRYPT_PROVIDER_CERT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _CRYPT_PROVIDER_CERT structure

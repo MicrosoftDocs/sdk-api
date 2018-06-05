@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:peninputpanel.IPenInputPanel.get_Width
+title: IPenInputPanel::get_Width
+author: windows-sdk-content
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the width of the pen input panel in client coordinates.
+old-location: tablet\peninputpanel_width.htm
+old-project: tablet
+ms.assetid: 81173c64-5d8b-48ae-866c-5292814a97c0
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 81173c64-5d8b-48ae-866c-5292814a97c0, IPenInputPanel interface [Tablet PC],Width property, IPenInputPanel.Width, IPenInputPanel.get_Width, IPenInputPanel::Width, IPenInputPanel::get_Width, PenInputPanel.get_Width, Width property [Tablet PC], Width property [Tablet PC],IPenInputPanel interface, get_Width, peninputpanel/IPenInputPanel::Width, peninputpanel/IPenInputPanel::get_Width, put_Width, tablet.peninputpanel_width
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: peninputpanel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EventMask
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IPenInputPanel.Width
+-	IPenInputPanel.get_Width
+-	PenInputPanel.get_Width
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPenInputPanel::get_Width

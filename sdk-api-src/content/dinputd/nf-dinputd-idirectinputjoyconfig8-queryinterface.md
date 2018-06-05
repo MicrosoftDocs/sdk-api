@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dinputd.IDirectInputJoyConfig8.QueryInterface
+title: IDirectInputJoyConfig8::QueryInterface
+author: windows-sdk-content
+description: The IDirectInputJoyConfig8::QueryInterface method determines whether the DirectInputJoyConfig object supports a particular COM interface.
+old-location: hid\idirectinputjoyconfig8_queryinterface.htm
+old-project: hid
+ms.assetid: aadd7919-2cb1-4c1e-944d-2ccca2f72b3f
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],QueryInterface method, IDirectInputJoyConfig8.QueryInterface, IDirectInputJoyConfig8::QueryInterface, QueryInterface, QueryInterface method [Human Input Devices], QueryInterface method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_757b488f-c54a-4661-9406-d7eb2cbd9dd7.xml, dinputd/IDirectInputJoyConfig8::QueryInterface, hid.idirectinputjoyconfig8_queryinterface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dinputd.h
+api_name:
+-	IDirectInputJoyConfig8.QueryInterface
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputJoyConfig8::QueryInterface

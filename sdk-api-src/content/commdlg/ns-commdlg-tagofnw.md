@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commdlg.tagOFNW
+title: tagOFNW
+author: windows-sdk-content
+description: Contains information that the GetOpenFileName and GetSaveFileName functions use to initialize an Open or Save As dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
+old-location: dlgbox\openfilename_str.htm
+old-project: dlgbox
+ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\openfilename.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*LPOPENFILENAMEW, LPOPENFILENAME, LPOPENFILENAME structure pointer [Dialog Boxes], OFN_ALLOWMULTISELECT, OFN_CREATEPROMPT, OFN_DONTADDTORECENT, OFN_ENABLEHOOK, OFN_ENABLEINCLUDENOTIFY, OFN_ENABLESIZING, OFN_ENABLETEMPLATE, OFN_ENABLETEMPLATEHANDLE, OFN_EXPLORER, OFN_EXTENSIONDIFFERENT, OFN_EX_NOPLACESBAR, OFN_FILEMUSTEXIST, OFN_FORCESHOWHIDDEN, OFN_HIDEREADONLY, OFN_LONGNAMES, OFN_NOCHANGEDIR, OFN_NODEREFERENCELINKS, OFN_NOLONGNAMES, OFN_NONETWORKBUTTON, OFN_NOREADONLYRETURN, OFN_NOTESTFILECREATE, OFN_NOVALIDATE, OFN_OVERWRITEPROMPT, OFN_PATHMUSTEXIST, OFN_READONLY, OFN_SHAREAWARE, OFN_SHOWHELP, OPENFILENAME, OPENFILENAME structure [Dialog Boxes], OPENFILENAMEA, OPENFILENAMEW, _win32_OPENFILENAME_str, _win32_openfilename_str_cpp, commdlg/LPOPENFILENAME, commdlg/OPENFILENAME, commdlg/OPENFILENAMEA, commdlg/OPENFILENAMEW, dlgbox.openfilename_str, tagOFNW, winui._win32_openfilename_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commdlg.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: OPENFILENAMEW (Unicode) and OPENFILENAMEA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPENFILENAMEW, *LPOPENFILENAMEW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commdlg.h
+api_name:
+-	OPENFILENAME
+-	OPENFILENAMEA
+-	OPENFILENAMEW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagOFNW structure

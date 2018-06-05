@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dhcpsapi._DHCP_FAILOVER_SERVER
+title: "_DHCP_FAILOVER_SERVER"
+author: windows-sdk-content
+description: The DHCP_FAILOVER_SERVER enumeration defines whether the DHCP server is the primary or secondary server in a DHCPv4 failover relationship.
+old-location: dhcp\dhcp_failover_server.htm
+old-project: DHCP
+ms.assetid: a75a1132-3c49-44f1-a1f6-c98991ebb8c4
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_FAILOVER_SERVER, DHCP_FAILOVER_SERVER, DHCP_FAILOVER_SERVER enumeration [DHCP], LPDHCP_FAILOVER_SERVER, LPDHCP_FAILOVER_SERVER enumeration pointer [DHCP], PrimaryServer, SecondaryServer, _DHCP_FAILOVER_SERVER, dhcp.dhcp_failover_server, dhcpsapi/DHCP_FAILOVER_SERVER, dhcpsapi/LPDHCP_FAILOVER_SERVER, dhcpsapi/PrimaryServer, dhcpsapi/SecondaryServer"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_FAILOVER_SERVER, *LPDHCP_FAILOVER_SERVER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dhcpsapi.h
+api_name:
+-	DHCP_FAILOVER_SERVER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_FAILOVER_SERVER enumeration

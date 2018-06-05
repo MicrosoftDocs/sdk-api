@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:netfw.INetFwPolicy2.get_DefaultOutboundAction
+title: INetFwPolicy2::get_DefaultOutboundAction
+author: windows-sdk-content
+description: Specifies the default action for outbound traffic. These settings are Allow by default.
+old-location: ics\inetfwpolicy2_defaultoutboundaction.htm
+old-project: ICS
+ms.assetid: 428f8f74-b2b3-4441-accf-be0b877e7c8b
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: DefaultOutboundAction property [ICS/ICF], DefaultOutboundAction property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],DefaultOutboundAction property, INetFwPolicy2.DefaultOutboundAction, INetFwPolicy2.get_DefaultOutboundAction, INetFwPolicy2::DefaultOutboundAction, INetFwPolicy2::get_DefaultOutboundAction, INetFwPolicy2::put_DefaultOutboundAction, get_DefaultOutboundAction, ics.inetfwpolicy2_defaultoutboundaction, netfw/INetFwPolicy2::DefaultOutboundAction, netfw/INetFwPolicy2::get_DefaultOutboundAction, netfw/INetFwPolicy2::put_DefaultOutboundAction
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: netfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETISO_ERROR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FirewallAPI.dll
+api_name:
+-	INetFwPolicy2.DefaultOutboundAction
+-	INetFwPolicy2.get_DefaultOutboundAction
+-	INetFwPolicy2.put_DefaultOutboundAction
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # INetFwPolicy2::get_DefaultOutboundAction

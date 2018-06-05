@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlwapi.SHGetThreadRef
+title: SHGetThreadRef function
+author: windows-sdk-content
+description: Retrieves the per-thread object reference set by SHSetThreadRef.
+old-location: shell\SHGetThreadRef.htm
+old-project: shell
+ms.assetid: 307b284b-f493-4d24-a7be-17c150d62b34
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SHGetThreadRef, SHGetThreadRef function [Windows Shell], _win32_SHGetThreadRef, shell.SHGetThreadRef, shlwapi/SHGetThreadRef
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+-	ShCore.dll
+-	API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+-	API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+-	API-MS-Win-ShCore-thread-l1-1-0.dll
+api_name:
+-	SHGetThreadRef
+product: Windows
+targetos: Windows
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later); ShCore.dll
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # SHGetThreadRef function

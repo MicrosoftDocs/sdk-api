@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmdfs.DFS_GET_PKT_ENTRY_STATE_ARG
+title: DFS_GET_PKT_ENTRY_STATE_ARG
+author: windows-sdk-content
+description: Input buffer used with the FSCTL_DFS_GET_PKT_ENTRY_STATE control code.
+old-location: dfs\dfs_get_pkt_entry_state_arg.htm
+old-project: Dfs
+ms.assetid: eb69d346-d88c-48e8-abd7-5cbb5976f41f
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PDFS_GET_PKT_ENTRY_STATE_ARG, DFS_GET_PKT_ENTRY_STATE_ARG, DFS_GET_PKT_ENTRY_STATE_ARG structure [Distributed File System], PDFS_GET_PKT_ENTRY_STATE_ARG, PDFS_GET_PKT_ENTRY_STATE_ARG structure pointer [Distributed File System], dfs.dfs_get_pkt_entry_state_arg, lmdfs/DFS_GET_PKT_ENTRY_STATE_ARG, lmdfs/PDFS_GET_PKT_ENTRY_STATE_ARG"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmdfs.h
+req.include-header: LmDfs.h, Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DFS_GET_PKT_ENTRY_STATE_ARG, *PDFS_GET_PKT_ENTRY_STATE_ARG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	LmDfs.h
+api_name:
+-	DFS_GET_PKT_ENTRY_STATE_ARG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # DFS_GET_PKT_ENTRY_STATE_ARG structure

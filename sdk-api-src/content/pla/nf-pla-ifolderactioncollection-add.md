@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.IFolderActionCollection.Add
+title: IFolderActionCollection::Add
+author: windows-sdk-content
+description: Adds a folder action to the collection.
+old-location: pla\ifolderactioncollection_add.htm
+old-project: PLA
+ms.assetid: 39597249-29d5-44a0-9954-01b9b6a62977
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: Add, Add method [PLA], Add method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],Add method, IFolderActionCollection.Add, IFolderActionCollection::Add, base.ifolderactioncollection_add, pla.ifolderactioncollection_add, pla/IFolderActionCollection::Add
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	IFolderActionCollection.Add
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFolderActionCollection::Add

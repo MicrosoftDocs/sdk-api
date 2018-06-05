@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dxva9typ._COPP_ACP_Protection_Level
+title: "_COPP_ACP_Protection_Level"
+author: windows-sdk-content
+description: Specifies the ACP protection level.
+old-location: dshow\copp_acp_protection_level.htm
+old-project: DirectShow
+ms.assetid: a3149eb6-e758-4b21-b574-32fb6c2ae3a2
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: COPP_ACP_ForceDWORD, COPP_ACP_Level0, COPP_ACP_Level1, COPP_ACP_Level2, COPP_ACP_Level3, COPP_ACP_LevelMax, COPP_ACP_LevelMin, COPP_ACP_Protection_Level, COPP_ACP_Protection_Level , COPP_ACP_Protection_Level enumeration [DirectShow], COPP_ACP_Protection_LevelEnumeration, _COPP_ACP_Protection_Level, dshow.copp_acp_protection_level, dxva9typ/COPP_ACP_ForceDWORD, dxva9typ/COPP_ACP_Level0, dxva9typ/COPP_ACP_Level1, dxva9typ/COPP_ACP_Level2, dxva9typ/COPP_ACP_Level3, dxva9typ/COPP_ACP_LevelMax, dxva9typ/COPP_ACP_LevelMin, dxva9typ/COPP_ACP_Protection_Level
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxva9typ.h
+req.include-header: Dxva.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COPP_ACP_Protection_Level
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxva9typ.h
+api_name:
+-	COPP_ACP_Protection_Level
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _COPP_ACP_Protection_Level enumeration

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPPlaylist.removeItem
+title: IWMPPlaylist::removeItem
+author: windows-sdk-content
+description: The removeItem method removes the specified media item from the playlist.
+old-location: wmp\iwmpplaylist_removeitem.htm
+old-project: WMP
+ms.assetid: 7a17b0e0-2eaf-4570-a297-c2540ae4b6c5
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPPlaylist interface [Windows Media Player],removeItem method, IWMPPlaylist.removeItem, IWMPPlaylist::removeItem, IWMPPlaylistremoveItem, removeItem, removeItem method [Windows Media Player], removeItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_removeitem, wmp/IWMPPlaylist::removeItem
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPPlaylist.removeItem
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPPlaylist::removeItem

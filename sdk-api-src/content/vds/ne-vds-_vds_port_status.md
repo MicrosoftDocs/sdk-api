@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_PORT_STATUS
+title: "_VDS_PORT_STATUS"
+author: windows-sdk-content
+description: Defines the set of object status values for a port.
+old-location: base\vds_port_status.htm
+old-project: VDS
+ms.assetid: 6e363020-caf4-4028-abd5-7f311edb2e69
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PVDS_PORT_STATUS, VDS_PORT_STATUS, VDS_PORT_STATUS enumeration [VDS], VDS_PRS_FAILED, VDS_PRS_NOT_READY, VDS_PRS_OFFLINE, VDS_PRS_ONLINE, VDS_PRS_REMOVED, VDS_PRS_UNKNOWN, _VDS_PORT_STATUS, base.vds_port_status, vds/VDS_PORT_STATUS, vds/VDS_PRS_FAILED, vds/VDS_PRS_NOT_READY, vds/VDS_PRS_OFFLINE, vds/VDS_PRS_ONLINE, vds/VDS_PRS_REMOVED, vds/VDS_PRS_UNKNOWN, vdshwprv/VDS_PORT_STATUS, vdshwprv/VDS_PRS_FAILED, vdshwprv/VDS_PRS_NOT_READY, vdshwprv/VDS_PRS_OFFLINE, vdshwprv/VDS_PRS_ONLINE, vdshwprv/VDS_PRS_REMOVED, vdshwprv/VDS_PRS_UNKNOWN"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_PORT_STATUS, *PVDS_PORT_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_PORT_STATUS
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_PORT_STATUS enumeration

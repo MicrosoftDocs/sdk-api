@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:control.IBasicVideo.get_SourceLeft
+title: IBasicVideo::get_SourceLeft
+author: windows-sdk-content
+description: The get_SourceLeft method retrieves the x-coordinate of the source rectangle.
+old-location: dshow\ibasicvideo_get_sourceleft.htm
+old-project: DirectShow
+ms.assetid: 1ea64dae-d643-44c1-9026-f9b0dcd25ef1
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IBasicVideo interface [DirectShow],get_SourceLeft method, IBasicVideo.get_SourceLeft, IBasicVideo::get_SourceLeft, IBasicVideoget_SourceLeft, control/IBasicVideo::get_SourceLeft, dshow.ibasicvideo_get_sourceleft, get_SourceLeft, get_SourceLeft method [DirectShow], get_SourceLeft method [DirectShow],IBasicVideo interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: control.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPContextMenuInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmiids.lib
+-	Strmiids.dll
+api_name:
+-	IBasicVideo.get_SourceLeft
+product: Windows
+targetos: Windows
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 ---
 
 # IBasicVideo::get_SourceLeft

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:termmgr.ITTerminalManager2
+title: ITTerminalManager2
+author: windows-sdk-content
+description: The ITTerminalManager2 interface exposes methods that retrieve information about pluggable terminal classes registered in the current system. ITTerminalManager2 is derived from the ITTerminalManager interface.
+old-location: tapi3\itterminalmanager2.htm
+old-project: Tapi
+ms.assetid: f91c8684-27f8-4db8-99ff-d5a6cb87a0c2
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITTerminalManager2, ITTerminalManager2 interface [TAPI 2.2], ITTerminalManager2 interface [TAPI 2.2],described, _tapi3_itterminalmanager2, tapi3.itterminalmanager2, termmgr/ITTerminalManager2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: termmgr.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Termmgr.h
+api_name:
+-	ITTerminalManager2
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITTerminalManager2 interface

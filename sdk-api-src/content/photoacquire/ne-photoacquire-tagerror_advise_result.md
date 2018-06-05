@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:photoacquire.tagERROR_ADVISE_RESULT
+title: tagERROR_ADVISE_RESULT
+author: windows-sdk-content
+description: The ERROR_ADVISE_RESULT enumeration type indicates the type of error values that can be assigned to the pnErrorAdviseResult parameter of IPhotoAcquireProgressCB::ErrorAdvise.
+old-location: picacq\error_advise_result.htm
+old-project: acquisition
+ms.assetid: a3cb2a2d-049a-4607-beaf-41ea6f0d4704
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ERROR_ADVISE_RESULT, ERROR_ADVISE_RESULT enumeration [Picture Acquisition], PHOTOACQUIRE_RESULT_ABORT, PHOTOACQUIRE_RESULT_NO, PHOTOACQUIRE_RESULT_OK, PHOTOACQUIRE_RESULT_RETRY, PHOTOACQUIRE_RESULT_SKIP, PHOTOACQUIRE_RESULT_SKIP_ALL, PHOTOACQUIRE_RESULT_YES, enumeration [Picture Acquisition], photoacquire/ERROR_ADVISE_RESULT, photoacquire/PHOTOACQUIRE_RESULT_ABORT, photoacquire/PHOTOACQUIRE_RESULT_NO, photoacquire/PHOTOACQUIRE_RESULT_OK, photoacquire/PHOTOACQUIRE_RESULT_RETRY, photoacquire/PHOTOACQUIRE_RESULT_SKIP, photoacquire/PHOTOACQUIRE_RESULT_SKIP_ALL, photoacquire/PHOTOACQUIRE_RESULT_YES, picacq.error_advise_result, tagERROR_ADVISE_RESULT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: photoacquire.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ERROR_ADVISE_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	PhotoAcquire.h
+api_name:
+-	ERROR_ADVISE_RESULT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagERROR_ADVISE_RESULT enumeration

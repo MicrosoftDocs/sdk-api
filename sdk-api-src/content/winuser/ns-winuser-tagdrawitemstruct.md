@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winuser.tagDRAWITEMSTRUCT
+title: tagDRAWITEMSTRUCT
+author: windows-sdk-content
+description: Provides information that the owner window uses to determine how to paint an owner-drawn control or menu item.
+old-location: controls\DRAWITEMSTRUCT.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\drawitemstruct.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPDRAWITEMSTRUCT, *PDRAWITEMSTRUCT, DRAWITEMSTRUCT, DRAWITEMSTRUCT structure [Windows Controls], ODA_DRAWENTIRE, ODA_FOCUS, ODA_SELECT, ODS_CHECKED, ODS_COMBOBOXEDIT, ODS_DEFAULT, ODS_DISABLED, ODS_FOCUS, ODS_GRAYED, ODS_HOTLIGHT, ODS_INACTIVE, ODS_NOACCEL, ODS_NOFOCUSRECT, ODS_SELECTED, ODT_BUTTON, ODT_COMBOBOX, ODT_LISTBOX, ODT_LISTVIEW, ODT_MENU, ODT_STATIC, ODT_TAB, _win32_DRAWITEMSTRUCT_str, _win32_DRAWITEMSTRUCT_str_cpp, controls.DRAWITEMSTRUCT, controls._win32_DRAWITEMSTRUCT_str, tagDRAWITEMSTRUCT, winuser/DRAWITEMSTRUCT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRAWITEMSTRUCT, *PDRAWITEMSTRUCT, *LPDRAWITEMSTRUCT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winuser.h
+api_name:
+-	DRAWITEMSTRUCT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # tagDRAWITEMSTRUCT structure

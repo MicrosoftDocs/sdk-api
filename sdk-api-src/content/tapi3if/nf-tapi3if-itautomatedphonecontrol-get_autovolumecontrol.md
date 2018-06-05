@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoVolumeControl
+title: ITAutomatedPhoneControl::get_AutoVolumeControl
+author: windows-sdk-content
+description: The get_AutoVolumeControl method retrieves the current value of the AutoVolumeControl property.
+old-location: tapi3\itautomatedphonecontrol_get_autovolumecontrol.htm
+old-project: Tapi
+ms.assetid: 7dae6d41-59d8-40ab-901f-91d97b59ac83
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoVolumeControl method, ITAutomatedPhoneControl.get_AutoVolumeControl, ITAutomatedPhoneControl::get_AutoVolumeControl, _tapi3_itautomatedphonecontrol_get_autovolumecontrol, get_AutoVolumeControl, get_AutoVolumeControl method [TAPI 2.2], get_AutoVolumeControl method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autovolumecontrol, tapi3if/ITAutomatedPhoneControl::get_AutoVolumeControl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITAutomatedPhoneControl.get_AutoVolumeControl
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITAutomatedPhoneControl::get_AutoVolumeControl

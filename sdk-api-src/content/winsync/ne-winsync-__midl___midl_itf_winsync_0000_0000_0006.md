@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0006
+title: "__MIDL___MIDL_itf_winsync_0000_0000_0006"
+author: windows-sdk-content
+description: Represents types of statistics that convey information about a component.
+old-location: winsync\sync_statistics.htm
+old-project: winsync
+ms.assetid: 8a978578-0169-4784-bdcf-ff41f0a09f7a
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: SYNC_STATISTICS, SYNC_STATISTICS enumeration [Windows Sync], SYNC_STATISTICS_RANGE_COUNT, __MIDL___MIDL_itf_winsync_0000_0000_0006, winsync.sync_statistics, winsync/SYNC_STATISTICS, winsync/SYNC_STATISTICS_RANGE_COUNT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNC_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winsync.h
+api_name:
+-	SYNC_STATISTICS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # __MIDL___MIDL_itf_winsync_0000_0000_0006 enumeration

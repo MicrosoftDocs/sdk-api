@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFByteStreamBuffering.StopBuffering
+title: IMFByteStreamBuffering::StopBuffering
+author: windows-sdk-content
+description: Stops any buffering that is in progress.
+old-location: mf\imfbytestreambuffering_stopbuffering.htm
+old-project: medfound
+ms.assetid: da342ac4-bb61-40d6-9b67-0480ac2a780f
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFByteStreamBuffering interface [Media Foundation],StopBuffering method, IMFByteStreamBuffering.StopBuffering, IMFByteStreamBuffering::StopBuffering, StopBuffering, StopBuffering method [Media Foundation], StopBuffering method [Media Foundation],IMFByteStreamBuffering interface, da342ac4-bb61-40d6-9b67-0480ac2a780f, mf.imfbytestreambuffering_stopbuffering, mfidl/IMFByteStreamBuffering::StopBuffering
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFByteStreamBuffering.StopBuffering
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFByteStreamBuffering::StopBuffering

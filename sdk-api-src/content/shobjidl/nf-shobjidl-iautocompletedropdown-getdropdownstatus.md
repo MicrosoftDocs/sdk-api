@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl.IAutoCompleteDropDown.GetDropDownStatus
+title: IAutoCompleteDropDown::GetDropDownStatus
+author: windows-sdk-content
+description: Gets the current display status of the autocomplete drop-down list.
+old-location: shell\IAutoCompleteDropDown_GetDropDownStatus.htm
+old-project: shell
+ms.assetid: 824c435c-e8ee-4435-a779-bae3ef721613
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ACDD_VISIBLE, GetDropDownStatus, GetDropDownStatus method [Windows Shell], GetDropDownStatus method [Windows Shell],IAutoCompleteDropDown interface, IAutoCompleteDropDown interface [Windows Shell],GetDropDownStatus method, IAutoCompleteDropDown.GetDropDownStatus, IAutoCompleteDropDown::GetDropDownStatus, _shell_IAutoCompleteDropDown_GetDropDownStatus, shell.IAutoCompleteDropDown_GetDropDownStatus, shobjidl/IAutoCompleteDropDown::GetDropDownStatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPWATERMARKFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Browseui.dll
+api_name:
+-	IAutoCompleteDropDown.GetDropDownStatus
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Browseui.dll
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # IAutoCompleteDropDown::GetDropDownStatus

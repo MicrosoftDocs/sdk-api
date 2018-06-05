@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d2d1_1.D2D1_PRIMITIVE_BLEND
+title: D2D1_PRIMITIVE_BLEND
+author: windows-sdk-content
+description: Used to specify the geometric blend mode for all Direct2D primitives.
+old-location: direct2d\__d2d1_primitive_blend.htm
+old-project: Direct2D
+ms.assetid: 411a42c9-f8d7-46f3-a6e6-51afc83375ad
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_PRIMITIVE_BLEND, D2D1_PRIMITIVE_BLEND enumeration [Direct2D], D2D1_PRIMITIVE_BLEND_ADD, D2D1_PRIMITIVE_BLEND_COPY, D2D1_PRIMITIVE_BLEND_MAX, D2D1_PRIMITIVE_BLEND_MIN, D2D1_PRIMITIVE_BLEND_SOURCE_OVER, d2d1_1/D2D1_PRIMITIVE_BLEND, d2d1_1/D2D1_PRIMITIVE_BLEND_ADD, d2d1_1/D2D1_PRIMITIVE_BLEND_COPY, d2d1_1/D2D1_PRIMITIVE_BLEND_MAX, d2d1_1/D2D1_PRIMITIVE_BLEND_MIN, d2d1_1/D2D1_PRIMITIVE_BLEND_SOURCE_OVER, direct2d.__d2d1_primitive_blend
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_PRIMITIVE_BLEND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D2d1_1.h
+api_name:
+-	D2D1_PRIMITIVE_BLEND
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D2D1_PRIMITIVE_BLEND enumeration

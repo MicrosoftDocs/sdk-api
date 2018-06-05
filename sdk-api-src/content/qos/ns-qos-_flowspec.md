@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:qos._flowspec
+title: "_flowspec"
+author: windows-sdk-content
+description: The FLOWSPEC structure provides quality of service parameters to the RSVP SP.
+old-location: qos\flowspec.htm
+old-project: QOS
+ms.assetid: 268e0d3a-2b04-40fd-91eb-f1780236b3e4
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPFLOWSPEC, *PFLOWSPEC, FLOWSPEC, FLOWSPEC structure [QOS], LPFLOWSPEC, LPFLOWSPEC structure pointer [QOS], PFLOWSPEC, PFLOWSPEC structure pointer [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GENERAL_INFORMATION, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NETWORK_UNAVAILBLE, SERVICETYPE_NOCHANGE, SERVICETYPE_NONCONFORMING, SERVICETYPE_NOTRAFFIC, SERVICETYPE_QUALITATIVE, SERVICE_NO_QOS_SIGNALING, SERVICE_NO_TRAFFIC_CONTROL, _flowspec, _gqos_flowspec, qos.flowspec, qos/FLOWSPEC, qos/LPFLOWSPEC, qos/PFLOWSPEC"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: qos.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FLOWSPEC, *PFLOWSPEC, *LPFLOWSPEC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Qos.h
+api_name:
+-	FLOWSPEC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _flowspec structure

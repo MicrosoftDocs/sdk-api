@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._MESSAGE_RESOURCE_BLOCK
+title: "_MESSAGE_RESOURCE_BLOCK"
+author: windows-sdk-content
+description: Contains information about message strings with identifiers in the range indicated by the LowId and HighId members.
+old-location: menurc\message_resource_block.htm
+old-project: menurc
+ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcestructures\message_resource_block.htm
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PMESSAGE_RESOURCE_BLOCK, MESSAGE_RESOURCE_BLOCK, MESSAGE_RESOURCE_BLOCK structure [Menus and Other Resources], _MESSAGE_RESOURCE_BLOCK, _win32_MESSAGE_RESOURCE_BLOCK_str, _win32_message_resource_block_str_cpp, menurc.message_resource_block, winnt/MESSAGE_RESOURCE_BLOCK, winui._win32_message_resource_block_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MESSAGE_RESOURCE_BLOCK, *PMESSAGE_RESOURCE_BLOCK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	MESSAGE_RESOURCE_BLOCK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _MESSAGE_RESOURCE_BLOCK structure

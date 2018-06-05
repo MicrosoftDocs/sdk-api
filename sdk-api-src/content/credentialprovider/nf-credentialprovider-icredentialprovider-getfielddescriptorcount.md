@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:credentialprovider.ICredentialProvider.GetFieldDescriptorCount
+title: ICredentialProvider::GetFieldDescriptorCount
+author: windows-sdk-content
+description: Retrieves the count of fields in the needed to display this provider's credentials.
+old-location: shell\ICredentialProvider_GetFieldDescriptorCount.htm
+old-project: shell
+ms.assetid: dacaa846-1838-4348-ba63-c204cbe0e2ae
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetFieldDescriptorCount, GetFieldDescriptorCount method [Windows Shell], GetFieldDescriptorCount method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetFieldDescriptorCount method, ICredentialProvider.GetFieldDescriptorCount, ICredentialProvider::GetFieldDescriptorCount, credentialprovider/ICredentialProvider::GetFieldDescriptorCount, shell.ICredentialProvider_GetFieldDescriptorCount, shell_ICredentialProvider_GetFieldDescriptorCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: credentialprovider.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Credentialprovider.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Credentialprovider.h
+api_name:
+-	ICredentialProvider.GetFieldDescriptorCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICredentialProvider::GetFieldDescriptorCount

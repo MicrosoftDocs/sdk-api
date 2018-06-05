@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmquota.IFsrmQuotaBase.DeleteThreshold
+title: IFsrmQuotaBase::DeleteThreshold
+author: windows-sdk-content
+description: Deletes a threshold from the quota object.
+old-location: fsrm\ifsrmquotabase_deletethreshold.htm
+old-project: Fsrm
+ms.assetid: 6f6ace15-05aa-4276-88eb-3a4315b3b51c
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: DeleteThreshold, DeleteThreshold method [File Server Resource Manager], DeleteThreshold method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],DeleteThreshold method, IFsrmQuotaBase.DeleteThreshold, IFsrmQuotaBase::DeleteThreshold, fs.ifsrmquotabase_deletethreshold, fsrm.ifsrmquotabase_deletethreshold, fsrmquota/IFsrmQuotaBase::DeleteThreshold
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmquota.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmQuotaBase.DeleteThreshold
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmQuotaBase::DeleteThreshold

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d2d1effects.D2D1_CONVOLVEMATRIX_SCALE_MODE
+title: D2D1_CONVOLVEMATRIX_SCALE_MODE
+author: windows-sdk-content
+description: The interpolation mode the Convolve matrix effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
+old-location: direct2d\d2d1_convolvematrix_scale_mode.htm
+old-project: Direct2D
+ms.assetid: 16949437-83A6-41D2-B531-089ACE748E3F
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_CONVOLVEMATRIX_SCALE_MODE, D2D1_CONVOLVEMATRIX_SCALE_MODE enumeration [Direct2D], D2D1_CONVOLVEMATRIX_SCALE_MODE_ANISOTROPIC, D2D1_CONVOLVEMATRIX_SCALE_MODE_CUBIC, D2D1_CONVOLVEMATRIX_SCALE_MODE_HIGH_QUALITY_CUBIC, D2D1_CONVOLVEMATRIX_SCALE_MODE_LINEAR, D2D1_CONVOLVEMATRIX_SCALE_MODE_MULTI_SAMPLE_LINEAR, D2D1_CONVOLVEMATRIX_SCALE_MODE_NEAREST_NEIGHBOR, d2d1effects/D2D1_CONVOLVEMATRIX_SCALE_MODE, d2d1effects/D2D1_CONVOLVEMATRIX_SCALE_MODE_ANISOTROPIC, d2d1effects/D2D1_CONVOLVEMATRIX_SCALE_MODE_CUBIC, d2d1effects/D2D1_CONVOLVEMATRIX_SCALE_MODE_HIGH_QUALITY_CUBIC, d2d1effects/D2D1_CONVOLVEMATRIX_SCALE_MODE_LINEAR, d2d1effects/D2D1_CONVOLVEMATRIX_SCALE_MODE_MULTI_SAMPLE_LINEAR, d2d1effects/D2D1_CONVOLVEMATRIX_SCALE_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_convolvematrix_scale_mode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1effects.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_CONVOLVEMATRIX_SCALE_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1effects.h
+api_name:
+-	D2D1_CONVOLVEMATRIX_SCALE_MODE
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D2D1_CONVOLVEMATRIX_SCALE_MODE enumeration

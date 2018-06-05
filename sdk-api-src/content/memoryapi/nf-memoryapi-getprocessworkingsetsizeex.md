@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:memoryapi.GetProcessWorkingSetSizeEx
+title: GetProcessWorkingSetSizeEx function
+author: windows-sdk-content
+description: Retrieves the minimum and maximum working set sizes of the specified process.
+old-location: base\getprocessworkingsetsizeex.htm
+old-project: ProcThread
+ms.assetid: d2de0bf2-012b-480c-a1a5-54e4d3928381
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: GetProcessWorkingSetSizeEx, GetProcessWorkingSetSizeEx function, QUOTA_LIMITS_HARDWS_MAX_DISABLE, QUOTA_LIMITS_HARDWS_MAX_ENABLE, QUOTA_LIMITS_HARDWS_MIN_DISABLE, QUOTA_LIMITS_HARDWS_MIN_ENABLE, base.getprocessworkingsetsizeex, memoryapi/GetProcessWorkingSetSizeEx, winbase/GetProcessWorkingSetSizeEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: memoryapi.h
+req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,30 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MP_PARAMINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Memory-l1-1-1.dll
+-	API-MS-Win-Core-Memory-l1-1-2.dll
+-	API-MS-Win-Core-Memory-l1-1-3.dll
+-	API-MS-Win-Core-Memory-L1-1-4.dll
+-	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+-	KernelBase.dll
+-	MinKernelBase.dll
+api_name:
+-	GetProcessWorkingSetSizeEx
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # GetProcessWorkingSetSizeEx function

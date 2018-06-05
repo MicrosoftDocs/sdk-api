@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:msacm.tACMFORMATCHOOSE
+title: tACMFORMATCHOOSE
+author: windows-sdk-content
+description: The ACMFORMATCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio format selection dialog box.
+old-location: multimedia\acmformatchoose_struct.htm
+old-project: Multimedia
+ms.assetid: b5e36dbd-9eaf-479a-af4c-ce07e4b6f042
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*LPACMFORMATCHOOSE, *PACMFORMATCHOOSE, ACMFORMATCHOOSE, ACMFORMATCHOOSE structure [Windows Multimedia], ACMFORMATCHOOSE_STYLEF_CONTEXTHELP, ACMFORMATCHOOSE_STYLEF_ENABLEHOOK, ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATE, ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATEHANDLE, ACMFORMATCHOOSE_STYLEF_INITTOWFXSTRUCT, ACMFORMATCHOOSE_STYLEF_SHOWHELP, ACM_FORMATENUMF_CONVERT, ACM_FORMATENUMF_HARDWARE, ACM_FORMATENUMF_INPUT, ACM_FORMATENUMF_NCHANNELS, ACM_FORMATENUMF_NSAMPLESPERSEC, ACM_FORMATENUMF_OUTPUT, ACM_FORMATENUMF_SUGGEST, ACM_FORMATENUMF_WBITSPERSAMPLE, ACM_FORMATENUMF_WFORMATTAG, msacm/ACMFORMATCHOOSE, multimedia.acmformatchoose_struct, tACMFORMATCHOOSE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: msacm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ACMFORMATCHOOSE, *PACMFORMATCHOOSE, *LPACMFORMATCHOOSE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Msacm.h
+api_name:
+-	ACMFORMATCHOOSE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # tACMFORMATCHOOSE structure

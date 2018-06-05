@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:xaudio2.IXAudio2.QueryInterface
+title: IXAudio2::QueryInterface
+author: windows-sdk-content
+description: Queries for a given COM interface on the XAudio2 object.
+old-location: xaudio2\ixaudio2_interface_queryinterface.htm
+old-project: xaudio2
+ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.QueryInterface(REFIID,void@)
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: IXAudio2 interface [XAudio2 Audio Mixing APIs],QueryInterface method, IXAudio2.QueryInterface, IXAudio2::QueryInterface, QueryInterface, QueryInterface method [XAudio2 Audio Mixing APIs], QueryInterface method [XAudio2 Audio Mixing APIs],IXAudio2 interface, xaudio2.ixaudio2_interface_queryinterface, xaudio2/IXAudio2::QueryInterface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xaudio2.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XAUDIO2_FILTER_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xaudio2.h
+api_name:
+-	IXAudio2.QueryInterface
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IXAudio2::QueryInterface

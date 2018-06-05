@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:adhoc.IEnumDot11AdHocInterfaces
+title: IEnumDot11AdHocInterfaces
+author: windows-sdk-content
+description: Represents the collection of currently visible 802.11 ad hoc network interfaces.
+old-location: nwifi\ienumdot11adhocinterfaces.htm
+old-project: NativeWiFi
+ms.assetid: c61bbe3a-ad02-4182-bf10-1ed5fe307bd4
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: IEnumDot11AdHocInterfaces, IEnumDot11AdHocInterfaces interface [NativeWIFI], IEnumDot11AdHocInterfaces interface [NativeWIFI],described, adhoc/IEnumDot11AdHocInterfaces, nwifi.ienumdot11adhocinterfaces
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: adhoc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Adhoc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	adhoc.h
+api_name:
+-	IEnumDot11AdHocInterfaces
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IEnumDot11AdHocInterfaces interface

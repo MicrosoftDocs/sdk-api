@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msclus.CLUSTER_NETINTERFACE_STATE
+title: CLUSTER_NETINTERFACE_STATE
+author: windows-sdk-content
+description: Enumerates the possible values of the state of a network interface.
+old-location: mscs\cluster_netinterface_state.htm
+old-project: MsCS
+ms.assetid: 8b4dc26c-0bac-4ff1-b5ae-4524c81ccdf7
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_NETINTERFACE_STATE, CLUSTER_NETINTERFACE_STATE enumeration [Failover Cluster], ClusterNetInterfaceFailed, ClusterNetInterfaceStateUnknown, ClusterNetInterfaceUnavailable, ClusterNetInterfaceUnreachable, ClusterNetInterfaceUp, _CLUSTER_NETINTERFACE_STATE, _CLUSTER_NETINTERFACE_STATE enumeration [Failover Cluster], clusapi/CLUSTER_NETINTERFACE_STATE, clusapi/ClusterNetInterfaceFailed, clusapi/ClusterNetInterfaceStateUnknown, clusapi/ClusterNetInterfaceUnavailable, clusapi/ClusterNetInterfaceUnreachable, clusapi/ClusterNetInterfaceUp, clusapi/_CLUSTER_NETINTERFACE_STATE, msclus/CLUSTER_NETINTERFACE_STATE, msclus/ClusterNetInterfaceFailed, msclus/ClusterNetInterfaceStateUnknown, msclus/ClusterNetInterfaceUnavailable, msclus/ClusterNetInterfaceUnreachable, msclus/ClusterNetInterfaceUp, msclus/_CLUSTER_NETINTERFACE_STATE, mscs.cluster_netinterface_state
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_NETINTERFACE_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSTER_NETINTERFACE_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CLUSTER_NETINTERFACE_STATE enumeration

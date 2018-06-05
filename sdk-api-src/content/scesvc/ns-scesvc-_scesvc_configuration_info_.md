@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:scesvc._SCESVC_CONFIGURATION_INFO_
+title: "_SCESVC_CONFIGURATION_INFO_"
+author: windows-sdk-content
+description: The SCESVC_CONFIGURATION_INFO structure provides configuration information for a service. This structure is used by the PFSCE_QUERY_INFO and PFSCE_SET_INFO functions when the configuration information is specified.
+old-location: security\scesvc_configuration_info.htm
+old-project: SecMgmt
+ms.assetid: a89ab072-7b7c-4ecd-83fa-26e2689778df
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSCESVC_CONFIGURATION_INFO, PSCESVC_CONFIGURATION_INFO, PSCESVC_CONFIGURATION_INFO structure pointer [Security], SCESVC_CONFIGURATION_INFO, SCESVC_CONFIGURATION_INFO structure [Security], _SCESVC_CONFIGURATION_INFO_, _config_scesvc_configuration_info, scesvc/PSCESVC_CONFIGURATION_INFO, scesvc/SCESVC_CONFIGURATION_INFO, security.scesvc_configuration_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: scesvc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCESVC_CONFIGURATION_INFO, *PSCESVC_CONFIGURATION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Scesvc.h
+api_name:
+-	SCESVC_CONFIGURATION_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SCESVC_CONFIGURATION_INFO_ structure

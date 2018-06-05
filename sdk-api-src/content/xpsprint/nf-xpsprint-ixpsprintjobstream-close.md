@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xpsprint.IXpsPrintJobStream.Close
+title: IXpsPrintJobStream::Close
+author: windows-sdk-content
+description: Closes the stream and indicates to the print job that the entire document has been written to the print queue by the application.
+old-location: gdi\ixpsprintjobstream_close.htm
+old-project: printdocs
+ms.assetid: 259d0224-4e6e-43c8-905d-3529c781986a
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: Close, Close method [Windows GDI], Close method [Windows GDI],IXpsPrintJobStream interface, IXpsPrintJobStream interface [Windows GDI],Close method, IXpsPrintJobStream.Close, IXpsPrintJobStream::Close, gdi.ixpsprintjobstream_close, xpsprint/IXpsPrintJobStream::Close
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xpsprint.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XPS_JOB_COMPLETION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	XpsPrint.h
+api_name:
+-	IXpsPrintJobStream.Close
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IXpsPrintJobStream::Close

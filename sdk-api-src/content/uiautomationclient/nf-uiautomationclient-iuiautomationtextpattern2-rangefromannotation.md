@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationTextPattern2.RangeFromAnnotation
+title: IUIAutomationTextPattern2::RangeFromAnnotation
+author: windows-sdk-content
+description: Retrieves a text range containing the text that is the target of the annotation associated with the specified annotation element.
+old-location: winauto\uiauto_iuiautomationtextpattern2_rangefromannotation.htm
+old-project: WinAuto
+ms.assetid: C79678D7-2CF4-4DBC-BD0B-7DE22AF25AF9
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: IUIAutomationTextPattern2 interface [Windows Accessibility],RangeFromAnnotation method, IUIAutomationTextPattern2.RangeFromAnnotation, IUIAutomationTextPattern2::RangeFromAnnotation, RangeFromAnnotation, RangeFromAnnotation method [Windows Accessibility], RangeFromAnnotation method [Windows Accessibility],IUIAutomationTextPattern2 interface, uiautomationclient/IUIAutomationTextPattern2::RangeFromAnnotation, winauto.uiauto_iuiautomationtextpattern2_rangefromannotation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationTextPattern2.RangeFromAnnotation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationTextPattern2::RangeFromAnnotation

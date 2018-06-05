@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CRYPT_TIMESTAMP_REQUEST
+title: "_CRYPT_TIMESTAMP_REQUEST"
+author: windows-sdk-content
+description: Defines a time stamp request structure that corresponds to the Abstract Syntax Notation One (ASN.1) definition of a TimeStampReq type.
+old-location: security\crypt_timestamp_request.htm
+old-project: SecCrypto
+ms.assetid: 1576986c-1a9b-4fcf-9dab-987b472a8671
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_TIMESTAMP_REQUEST, CRYPT_TIMESTAMP_REQUEST, CRYPT_TIMESTAMP_REQUEST structure [Security], PCRYPT_TIMESTAMP_REQUEST, PCRYPT_TIMESTAMP_REQUEST structure pointer [Security], TIMESTAMP_VERSION, _CRYPT_TIMESTAMP_REQUEST, security.crypt_timestamp_request, wincrypt/CRYPT_TIMESTAMP_REQUEST, wincrypt/PCRYPT_TIMESTAMP_REQUEST"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_TIMESTAMP_REQUEST, *PCRYPT_TIMESTAMP_REQUEST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CRYPT_TIMESTAMP_REQUEST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRYPT_TIMESTAMP_REQUEST structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wcntypes.tagWCN_VALUE_TYPE_ASSOCIATION_STATE
+title: tagWCN_VALUE_TYPE_ASSOCIATION_STATE
+author: windows-sdk-content
+description: WCN_VALUE_TYPE_ASSOCIATION_STATE enumeration defines the possible association states of a wireless station during a Discovery request.
+old-location: wcn\wcn_value_type_association_state.htm
+old-project: wcn
+ms.assetid: 0e225d34-d58e-49ae-8642-7070e3906fb3
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WCN_VALUE_AS_ASSOCIATION_FAILURE, WCN_VALUE_AS_CONFIGURATION_FAILURE, WCN_VALUE_AS_CONNECTION_SUCCESS, WCN_VALUE_AS_IP_FAILURE, WCN_VALUE_AS_NOT_ASSOCIATED, WCN_VALUE_TYPE_ASSOCIATION_STATE, WCN_VALUE_TYPE_ASSOCIATION_STATE enumeration [Windows Connect Now], tagWCN_VALUE_TYPE_ASSOCIATION_STATE, wcn.wcn_value_type_association_state, wcntypes/WCN_VALUE_AS_ASSOCIATION_FAILURE, wcntypes/WCN_VALUE_AS_CONFIGURATION_FAILURE, wcntypes/WCN_VALUE_AS_CONNECTION_SUCCESS, wcntypes/WCN_VALUE_AS_IP_FAILURE, wcntypes/WCN_VALUE_AS_NOT_ASSOCIATED, wcntypes/WCN_VALUE_TYPE_ASSOCIATION_STATE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wcntypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wcndevice.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WCN_VALUE_TYPE_ASSOCIATION_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wcntypes.h
+api_name:
+-	WCN_VALUE_TYPE_ASSOCIATION_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagWCN_VALUE_TYPE_ASSOCIATION_STATE enumeration

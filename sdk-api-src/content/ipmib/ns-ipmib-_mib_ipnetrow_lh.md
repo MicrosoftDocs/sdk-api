@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipmib._MIB_IPNETROW_LH
+title: "_MIB_IPNETROW_LH"
+author: windows-sdk-content
+description: Contains information for an Address Resolution Protocol (ARP) table entry for an IPv4 address.
+old-location: mib\mib_ipnetrow.htm
+old-project: MIB
+ms.assetid: aa9aa9f9-2334-4b08-896f-f4a77caa0f7f
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIB_IPNETROW, *PMIB_IPNETROW_LH, MIB_IPNETROW, MIB_IPNETROW structure [MIB], MIB_IPNETROW_LH, MIB_IPNET_TYPE_DYNAMIC, MIB_IPNET_TYPE_INVALID, MIB_IPNET_TYPE_OTHER, MIB_IPNET_TYPE_STATIC, PMIB_IPNETROW, PMIB_IPNETROW structure pointer [MIB], _MIB_IPNETROW_LH, _mpr_mib_ipnetrow, ipmib/MIB_IPNETROW, ipmib/PMIB_IPNETROW, iprtrmib/MIB_IPNETROW, iprtrmib/PMIB_IPNETROW, mib.mib_ipnetrow, rras.mib_ipnetrow"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_IPNETROW_LH, *PMIB_IPNETROW_LH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipmib.h
+-	Iprtrmib.h
+api_name:
+-	MIB_IPNETROW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MIB_IPNETROW_LH structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wlanapi._WL_DISPLAY_PAGES
+title: "_WL_DISPLAY_PAGES"
+author: windows-sdk-content
+description: Specifies the active tab when the wireless profile user interface dialog box appears.
+old-location: nwifi\wl_display_pages.htm
+old-project: NativeWiFi
+ms.assetid: 040433b7-9204-4462-a8fd-7b65bcd1880b
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES, PWL_DISPLAY_PAGES enumeration pointer [NativeWIFI], WLConnectionPage, WLSecurityPage, WL_DISPLAY_PAGES, WL_DISPLAY_PAGES enumeration [NativeWIFI], _WL_DISPLAY_PAGES, nwifi.wl_display_pages, wlanapi/PWL_DISPLAY_PAGES, wlanapi/WLConnectionPage, wlanapi/WLSecurityPage, wlanapi/WL_DISPLAY_PAGES"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wlanapi.h
+api_name:
+-	WL_DISPLAY_PAGES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WL_DISPLAY_PAGES enumeration

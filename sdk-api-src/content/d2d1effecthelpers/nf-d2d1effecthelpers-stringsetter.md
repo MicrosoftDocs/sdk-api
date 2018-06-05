@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d2d1effecthelpers.StringSetter
+title: StringSetter function
+author: windows-sdk-content
+description: Calls a member-function property setter callback for a string-type property.
+old-location: direct2d\stringsetter.htm
+old-project: Direct2D
+ms.assetid: 6BCDB312-13D8-47EA-BB88-4172C3A02DBE
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: StringSetter, StringSetter function [Direct2D], d2d1effecthelpers/StringSetter, direct2d.stringsetter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d2d1effecthelpers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_VERTEX_RANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	d2d1.dll
+api_name:
+-	StringSetter
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # StringSetter function

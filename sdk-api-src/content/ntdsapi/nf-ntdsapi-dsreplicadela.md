@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntdsapi.DsReplicaDelA
+title: DsReplicaDelA function
+author: windows-sdk-content
+description: Removes a replication source reference from a destination naming context (NC).
+old-location: ad\dsreplicadel.htm
+old-project: AD
+ms.assetid: 68c767c4-bbb6-477b-8ffb-94f3ae235375
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_REPDEL_ASYNCHRONOUS_OPERATION, DS_REPDEL_IGNORE_ERRORS, DS_REPDEL_INTERSITE_MESSAGING, DS_REPDEL_LOCAL_ONLY, DS_REPDEL_NO_SOURCE, DS_REPDEL_REF_OK, DS_REPDEL_WRITEABLE, DsReplicaDel, DsReplicaDel function [Active Directory], DsReplicaDelA, DsReplicaDelW, _glines_dsreplicadel, ad.dsreplicadel, ntdsapi/DsReplicaDel, ntdsapi/DsReplicaDelA, ntdsapi/DsReplicaDelW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DsReplicaDelW (Unicode) and DsReplicaDelA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_REPL_OP_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdsapi.dll
+api_name:
+-	DsReplicaDel
+-	DsReplicaDelA
+-	DsReplicaDelW
+product: Windows
+targetos: Windows
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DsReplicaDelA function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ntsecapi.LSA_FOREST_TRUST_COLLISION_RECORD_TYPE
+title: LSA_FOREST_TRUST_COLLISION_RECORD_TYPE
+author: windows-sdk-content
+description: Defines the types of collision that can occur between Local Security Authority forest trust records.
+old-location: security\lsa_forest_trust_collision_record_type.htm
+old-project: SecAuthN
+ms.assetid: 67c89d75-2c2d-4980-a1c9-32e7f64a7b49
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CollisionOther, CollisionTdo, CollisionXref, LSA_FOREST_TRUST_COLLISION_RECORD_TYPE, LSA_FOREST_TRUST_COLLISION_RECORD_TYPE enumeration [Security], ntsecapi/CollisionOther, ntsecapi/CollisionTdo, ntsecapi/CollisionXref, ntsecapi/LSA_FOREST_TRUST_COLLISION_RECORD_TYPE, security.lsa_forest_trust_collision_record_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LSA_FOREST_TRUST_COLLISION_RECORD_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	LSA_FOREST_TRUST_COLLISION_RECORD_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LSA_FOREST_TRUST_COLLISION_RECORD_TYPE enumeration

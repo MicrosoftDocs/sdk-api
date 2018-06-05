@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d11shader._D3D11_SHADER_DESC
+title: "_D3D11_SHADER_DESC"
+author: windows-sdk-content
+description: Describes a shader.
+old-location: direct3d11\d3d11_shader_desc.htm
+old-project: direct3d11
+ms.assetid: 25c8f773-e319-4ba1-b332-d45b8323e8c8
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 60a58f35-71f5-ec69-15ed-a355dd62d5f7, D3D11_SHADER_DESC, D3D11_SHADER_DESC structure [Direct3D 11], _D3D11_SHADER_DESC, d3d11shader/D3D11_SHADER_DESC, direct3d11.d3d11_shader_desc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d11shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_SHADER_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11Shader.h
+api_name:
+-	D3D11_SHADER_DESC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _D3D11_SHADER_DESC structure

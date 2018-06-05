@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fsrmenums._FsrmPropertyDefinitionType
+title: "_FsrmPropertyDefinitionType"
+author: windows-sdk-content
+description: Defines the types of file classification properties that you can define.
+old-location: fsrm\fsrmpropertydefinitiontype.htm
+old-project: Fsrm
+ms.assetid: 618335a2-2b37-43e2-adaa-2a6d06464627
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmPropertyDefinitionType, FsrmPropertyDefinitionType enumeration [File Server Resource Manager], FsrmPropertyDefinitionType_Bool, FsrmPropertyDefinitionType_Date, FsrmPropertyDefinitionType_Int, FsrmPropertyDefinitionType_MultiChoiceList, FsrmPropertyDefinitionType_MultiString, FsrmPropertyDefinitionType_OrderedList, FsrmPropertyDefinitionType_SingleChoiceList, FsrmPropertyDefinitionType_String, FsrmPropertyDefinitionType_Unknown, _FsrmPropertyDefinitionType, fs.fsrmpropertydefinitiontype, fsrm.fsrmpropertydefinitiontype, fsrmenums/FsrmPropertyDefinitionType, fsrmenums/FsrmPropertyDefinitionType_Bool, fsrmenums/FsrmPropertyDefinitionType_Date, fsrmenums/FsrmPropertyDefinitionType_Int, fsrmenums/FsrmPropertyDefinitionType_MultiChoiceList, fsrmenums/FsrmPropertyDefinitionType_MultiString, fsrmenums/FsrmPropertyDefinitionType_OrderedList, fsrmenums/FsrmPropertyDefinitionType_SingleChoiceList, fsrmenums/FsrmPropertyDefinitionType_String, fsrmenums/FsrmPropertyDefinitionType_Unknown
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fsrmenums.h
+req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FsrmEnums.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmPropertyDefinitionType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	FsrmEnums.h
+api_name:
+-	FsrmPropertyDefinitionType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _FsrmPropertyDefinitionType enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:strmif._NORMALIZEDRECT
+title: "_NORMALIZEDRECT"
+author: windows-sdk-content
+description: The NORMALIZEDRECT structure is used with the VMR filter in mixing operations to specify the location of a video rectangle in composition space.
+old-location: dshow\normalizedrect.htm
+old-project: DirectShow
+ms.assetid: c40a0feb-f33e-40e3-9c58-0a22d2aa1858
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PNORMALIZEDRECT, NORMALIZEDRECT, NORMALIZEDRECT structure [DirectShow], NORMALIZEDRECT2, PNORMALIZEDRECT, PNORMALIZEDRECT structure pointer [DirectShow], _NORMALIZEDRECT, dshow.normalizedrect, strmif/NORMALIZEDRECT, strmif/PNORMALIZEDRECT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NORMALIZEDRECT, *PNORMALIZEDRECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	NORMALIZEDRECT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP
 ---
 
 # _NORMALIZEDRECT structure

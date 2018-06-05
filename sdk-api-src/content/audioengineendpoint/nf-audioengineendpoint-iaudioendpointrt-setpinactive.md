@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:audioengineendpoint.IAudioEndpointRT.SetPinActive
+title: IAudioEndpointRT::SetPinActive
+author: windows-sdk-content
+description: Notifies the endpoint that it must change the state of the underlying streaming resources to an active state.
+old-location: termserv\iaudioendpointrt_setpinactive.htm
+old-project: TermServ
+ms.assetid: 6c445b06-d576-4474-be8f-b984c43d3765
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IAudioEndpointRT interface [Remote Desktop Services],SetPinActive method, IAudioEndpointRT.SetPinActive, IAudioEndpointRT::SetPinActive, SetPinActive, SetPinActive method [Remote Desktop Services], SetPinActive method [Remote Desktop Services],IAudioEndpointRT interface, audioengineendpoint/IAudioEndpointRT::SetPinActive, termserv.iaudioendpointrt_setpinactive
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioengineendpoint.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AE_POSITION_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audioengineendpoint.h
+api_name:
+-	IAudioEndpointRT.SetPinActive
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioEndpointRT::SetPinActive

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:authz._AUTHZ_SECURITY_ATTRIBUTE_V1
+title: "_AUTHZ_SECURITY_ATTRIBUTE_V1"
+author: windows-sdk-content
+description: Defines a security attribute that can be associated with an authorization context.
+old-location: security\authz_security_attribute_v1.htm
+old-project: SecAuthZ
+ms.assetid: 0c4778bb-1b5d-4422-b066-d2a6aaa1f351
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTE_V1, AUTHZ_SECURITY_ATTRIBUTE_NON_INHERITABLE, AUTHZ_SECURITY_ATTRIBUTE_TYPE_BOOLEAN, AUTHZ_SECURITY_ATTRIBUTE_TYPE_FQBN, AUTHZ_SECURITY_ATTRIBUTE_TYPE_INT64, AUTHZ_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING, AUTHZ_SECURITY_ATTRIBUTE_TYPE_SID, AUTHZ_SECURITY_ATTRIBUTE_TYPE_STRING, AUTHZ_SECURITY_ATTRIBUTE_TYPE_UINT64, AUTHZ_SECURITY_ATTRIBUTE_V1, AUTHZ_SECURITY_ATTRIBUTE_V1 structure [Security], AUTHZ_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE, PAUTHZ_SECURITY_ATTRIBUTE_V1, PAUTHZ_SECURITY_ATTRIBUTE_V1 structure pointer [Security], _AUTHZ_SECURITY_ATTRIBUTE_V1, authz/AUTHZ_SECURITY_ATTRIBUTE_V1, authz/PAUTHZ_SECURITY_ATTRIBUTE_V1, security.authz_security_attribute_v1"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: authz.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTHZ_SECURITY_ATTRIBUTE_V1, *PAUTHZ_SECURITY_ATTRIBUTE_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Authz.h
+api_name:
+-	AUTHZ_SECURITY_ATTRIBUTE_V1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _AUTHZ_SECURITY_ATTRIBUTE_V1 structure

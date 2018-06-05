@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wtsapi32._WTS_SESSION_INFO_1W
+title: "_WTS_SESSION_INFO_1W"
+author: windows-sdk-content
+description: Contains extended information about a client session on a Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
+old-location: termserv\wts_session_info_1.htm
+old-project: TermServ
+ms.assetid: 29d76033-d61d-4bc5-b47a-f7dea9543f23
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PWTS_SESSION_INFO_1W, PWTS_SESSION_INFO_1, PWTS_SESSION_INFO_1 structure pointer [Remote Desktop Services], WTS_SESSION_INFO_1, WTS_SESSION_INFO_1 structure [Remote Desktop Services], WTS_SESSION_INFO_1A, WTS_SESSION_INFO_1W, _WTS_SESSION_INFO_1W, termserv.wts_session_info_1, wtsapi32/PWTS_SESSION_INFO_1, wtsapi32/WTS_SESSION_INFO_1, wtsapi32/WTS_SESSION_INFO_1A, wtsapi32/WTS_SESSION_INFO_1W"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wtsapi32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: WTS_SESSION_INFO_1W (Unicode) and WTS_SESSION_INFO_1A (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WTS_SESSION_INFO_1W, *PWTS_SESSION_INFO_1W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wtsapi32.h
+api_name:
+-	WTS_SESSION_INFO_1
+-	WTS_SESSION_INFO_1A
+-	WTS_SESSION_INFO_1W
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WTS_SESSION_INFO_1W structure

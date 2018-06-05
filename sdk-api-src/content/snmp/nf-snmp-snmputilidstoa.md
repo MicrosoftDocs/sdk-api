@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:snmp.SnmpUtilIdsToA
+title: SnmpUtilIdsToA function
+author: windows-sdk-content
+description: The SnmpUtilIdsToA function converts an object identifier (OID) to a null-terminated string. This function is an element of the SNMP Utility API.
+old-location: snmp\snmputilidstoa.htm
+old-project: SNMP
+ms.assetid: 0a8e1ead-a1f8-4aeb-ae89-d9b135ccbb14
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: SnmpUtilIdsToA, SnmpUtilIdsToA function [SNMP], _snmp_snmputilidstoa, snmp.snmputilidstoa, snmp/SnmpUtilIdsToA
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: snmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SL_NONGENUINE_UI_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Snmpapi.dll
+api_name:
+-	SnmpUtilIdsToA
+product: Windows
+targetos: Windows
+req.lib: Snmpapi.lib
+req.dll: Snmpapi.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SnmpUtilIdsToA function

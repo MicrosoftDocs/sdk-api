@@ -1,31 +1,53 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbtsv.ITsSbTarget.get_TargetPropertySet
+title: ITsSbTarget::get_TargetPropertySet
+author: windows-sdk-content
+description: Retrieves or specifies the set of properties for the target.
+old-location: termserv\itssbtarget_targetpropertyset.htm
+old-project: TermServ
+ms.assetid: 0c3e84d6-17a2-452f-98bd-f9b8670710e9
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetPropertySet property, ITsSbTarget.TargetPropertySet, ITsSbTarget.get_TargetPropertySet, ITsSbTarget::TargetPropertySet, ITsSbTarget::get_TargetPropertySet, ITsSbTarget::put_TargetPropertySet, ITsSbTargetEx interface [Remote Desktop Services],TargetPropertySet property, ITsSbTargetEx.TargetPropertySet, ITsSbTargetEx::get_TargetPropertySet, ITsSbTargetEx::put_TargetPropertySet, TargetPropertySet property [Remote Desktop Services], TargetPropertySet property [Remote Desktop Services],ITsSbTarget interface, TargetPropertySet property [Remote Desktop Services],ITsSbTargetEx interface, get_TargetPropertySet, sbtsv/ITsSbTarget::TargetPropertySet, sbtsv/ITsSbTarget::get_TargetPropertySet, sbtsv/ITsSbTarget::put_TargetPropertySet, sbtsv/ITsSbTargetEx::TargetPropertySet, sbtsv/ITsSbTargetEx::get_TargetPropertySet, sbtsv/ITsSbTargetEx::put_TargetPropertySet, termserv.itssbtarget_targetpropertyset
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbtsv.h
+req.include-header: Sbtsv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Sbtsv.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TS_SB_SORT_BY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbtsv.h
+api_name:
+-	ITsSbTarget.TargetPropertySet
+-	ITsSbTarget.get_TargetPropertySet
+-	ITsSbTarget.put_TargetPropertySet
+-	ITsSbTargetEx.TargetPropertySet
+-	ITsSbTargetEx.get_TargetPropertySet
+-	ITsSbTargetEx.put_TargetPropertySet
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbTarget::get_TargetPropertySet

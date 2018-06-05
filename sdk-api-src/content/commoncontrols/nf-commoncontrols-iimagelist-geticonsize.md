@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:commoncontrols.IImageList.GetIconSize
+title: IImageList::GetIconSize
+author: windows-sdk-content
+description: Gets the dimensions of images in an image list. All images in an image list have the same dimensions.
+old-location: controls\IImageList_GetIconSize.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\geticonsize.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetIconSize, GetIconSize method [Windows Controls], GetIconSize method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetIconSize method, IImageList.GetIconSize, IImageList::GetIconSize, comctl_IImageList_GetIconSize, comctl_IImageList_GetIconSize_cpp, commoncontrols/IImageList::GetIconSize, controls.IImageList_GetIconSize, controls.comctl_IImageList_GetIconSize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: commoncontrols.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CommonControls.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Comctl32.dll
+api_name:
+-	IImageList.GetIconSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 ---
 
 # IImageList::GetIconSize

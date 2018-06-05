@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:fileapi._BY_HANDLE_FILE_INFORMATION
+title: "_BY_HANDLE_FILE_INFORMATION"
+author: windows-sdk-content
+description: Contains information that the GetFileInformationByHandle function retrieves.
+old-location: fs\by_handle_file_information_str.htm
+old-project: FileIO
+ms.assetid: a6fc5cf0-d3b0-4a76-af8b-6a13ab32157d
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*LPBY_HANDLE_FILE_INFORMATION, *PBY_HANDLE_FILE_INFORMATION, BY_HANDLE_FILE_INFORMATION, BY_HANDLE_FILE_INFORMATION structure [Files], LPBY_HANDLE_FILE_INFORMATION, LPBY_HANDLE_FILE_INFORMATION structure pointer [Files], PBY_HANDLE_FILE_INFORMATION, PBY_HANDLE_FILE_INFORMATION structure pointer [Files], _BY_HANDLE_FILE_INFORMATION, _win32_by_handle_file_information_str, base.by_handle_file_information_str, fileapi/BY_HANDLE_FILE_INFORMATION, fileapi/LPBY_HANDLE_FILE_INFORMATION, fileapi/PBY_HANDLE_FILE_INFORMATION, fs.by_handle_file_information_str, winbase/BY_HANDLE_FILE_INFORMATION, winbase/LPBY_HANDLE_FILE_INFORMATION, winbase/PBY_HANDLE_FILE_INFORMATION"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: fileapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BY_HANDLE_FILE_INFORMATION, *PBY_HANDLE_FILE_INFORMATION, *LPBY_HANDLE_FILE_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	FileAPI.h
+-	WinBase.h
+api_name:
+-	BY_HANDLE_FILE_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # _BY_HANDLE_FILE_INFORMATION structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IKnownFolder.GetRedirectionCapabilities
+title: IKnownFolder::GetRedirectionCapabilities
+author: windows-sdk-content
+description: Gets a value that states whether the known folder can have its path set to a new value or what specific restrictions or prohibitions are placed on that redirection.
+old-location: shell\IKnownFolder_GetRedirectionCapabilities.htm
+old-project: shell
+ms.assetid: 5abc4944-1fd7-400a-817d-b58a7f4989ea
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: GetRedirectionCapabilities, GetRedirectionCapabilities method [Windows Shell], GetRedirectionCapabilities method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetRedirectionCapabilities method, IKnownFolder.GetRedirectionCapabilities, IKnownFolder::GetRedirectionCapabilities, _shell_IKnownFolder_GetRedirectionCapabilities, shell.IKnownFolder_GetRedirectionCapabilities, shobjidl_core/IKnownFolder::GetRedirectionCapabilities
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	IKnownFolder.GetRedirectionCapabilities
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IKnownFolder::GetRedirectionCapabilities

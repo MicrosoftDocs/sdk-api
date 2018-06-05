@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:tapi.linemediacontroldigit_tag
+title: linemediacontroldigit_tag
+author: windows-sdk-content
+description: The LINEMEDIACONTROLDIGIT structure describes a media action to be executed when detecting a digit. It is used as an entry in an array. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.
+old-location: tapi2\linemediacontroldigit_str.htm
+old-project: Tapi
+ms.assetid: d31cd365-d6a6-4595-8202-87113035d807
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*LPLINEMEDIACONTROLDIGIT, LINEMEDIACONTROLDIGIT, LINEMEDIACONTROLDIGIT structure [TAPI 2.2], LPLINEMEDIACONTROLDIGIT, LPLINEMEDIACONTROLDIGIT structure pointer [TAPI 2.2], _tapi2_linemediacontroldigit_str, linemediacontroldigit_tag, tapi/LINEMEDIACONTROLDIGIT, tapi/LPLINEMEDIACONTROLDIGIT, tapi2.linemediacontroldigit_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LINEMEDIACONTROLDIGIT, *LPLINEMEDIACONTROLDIGIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi.h
+api_name:
+-	LINEMEDIACONTROLDIGIT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # linemediacontroldigit_tag structure

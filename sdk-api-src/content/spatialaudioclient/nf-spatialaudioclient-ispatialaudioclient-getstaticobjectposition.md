@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:spatialaudioclient.ISpatialAudioClient.GetStaticObjectPosition
+title: ISpatialAudioClient::GetStaticObjectPosition
+author: windows-sdk-content
+description: Gets the position in 3D space of the specified static spatial audio channel.
+old-location: coreaudio\ispatialaudioclient_getstaticobjectposition.htm
+old-project: CoreAudio
+ms.assetid: F8CD558A-994D-46E0-98A0-1D7AD3B919C0
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetStaticObjectPosition, GetStaticObjectPosition method [Core Audio], GetStaticObjectPosition method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetStaticObjectPosition method, ISpatialAudioClient.GetStaticObjectPosition, ISpatialAudioClient::GetStaticObjectPosition, coreaudio.ispatialaudioclient_getstaticobjectposition, spatialaudioclient/ISpatialAudioClient::GetStaticObjectPosition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spatialaudioclient.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AudioObjectType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	spatialaudioclient.h
+api_name:
+-	ISpatialAudioClient.GetStaticObjectPosition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioClient::GetStaticObjectPosition

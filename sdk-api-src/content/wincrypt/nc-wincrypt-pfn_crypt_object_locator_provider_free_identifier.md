@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
+title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
+author: windows-sdk-content
+description: Releases memory for an object identifier.
+old-location: security\pfn_crypt_object_locator_provider_free_identifier.htm
+old-project: SecCrypto
+ms.assetid: C2ED3B51-8B98-412C-A571-D107F2BEC5F1
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER function, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER function pointer [Security], security.pfn_crypt_object_locator_provider_free_identifier, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Wincrypt.h
+api_name:
+-	PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER callback function

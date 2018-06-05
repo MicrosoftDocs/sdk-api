@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wofapi._WOF_FILE_COMPRESSION_INFO_V1
+title: "_WOF_FILE_COMPRESSION_INFO_V1"
+author: windows-sdk-content
+description: Defines metadata specific to files provided by WOF_PROVIDER_FILE.
+old-location: fs\wof_file_compression_info_v1.htm
+old-project: FileIO
+ms.assetid: 84FC5525-43BC-436C-AADC-C58882D48C1F
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PWOF_FILE_COMPRESSION_INFO_V1, PWOF_FILE_COMPRESSION_INFO_V1, PWOF_FILE_COMPRESSION_INFO_V1 structure pointer [Files], WOF_FILE_COMPRESSION_INFO, WOF_FILE_COMPRESSION_INFO_V1, WOF_FILE_COMPRESSION_INFO_V1 structure [Files], _WOF_FILE_COMPRESSION_INFO_V1, fs.wof_file_compression_info_v1, wofapi/PWOF_FILE_COMPRESSION_INFO_V1, wofapi/WOF_FILE_COMPRESSION_INFO_V1"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wofapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wofapi.h
+api_name:
+-	WOF_FILE_COMPRESSION_INFO_V1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WOF_FILE_COMPRESSION_INFO_V1 structure

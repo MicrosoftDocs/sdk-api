@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemcli.IWbemObjectTextSrc.GetText
+title: IWbemObjectTextSrc::GetText
+author: windows-sdk-content
+description: The IWbemObjectTextSrc::GetText method creates a textual representation of an IWbemClassObject object; for example, an XML representation.
+old-location: wmi\iwbemobjecttextsrc_gettext.htm
+old-project: WmiSdk
+ms.assetid: d4c36d19-cf28-43d3-a60a-50970d66bc17
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: ExcludeSystemProperties, GetText, GetText method [Windows Management Instrumentation], GetText method [Windows Management Instrumentation],IWbemObjectTextSrc interface, IWbemObjectTextSrc interface [Windows Management Instrumentation],GetText method, IWbemObjectTextSrc.GetText, IWbemObjectTextSrc::GetText, IncludeClassOrigin, IncludeQualifiers, LocalOnly, PathLevel, WMI_OBJ_TEXT_CIM_DTD_2_0, WMI_OBJ_TEXT_LAST, WMI_OBJ_TEXT_WMI_DTD_2_0, WMI_OBJ_TEXT_WMI_EXT1, WMI_OBJ_TEXT_WMI_EXT10, WMI_OBJ_TEXT_WMI_EXT2, WMI_OBJ_TEXT_WMI_EXT3, WMI_OBJ_TEXT_WMI_EXT4, WMI_OBJ_TEXT_WMI_EXT5, WMI_OBJ_TEXT_WMI_EXT6, WMI_OBJ_TEXT_WMI_EXT7, WMI_OBJ_TEXT_WMI_EXT8, WMI_OBJ_TEXT_WMI_EXT9, _hmm_iwbemobjecttextsrc_gettext, wbemcli/IWbemObjectTextSrc::GetText, wmi.iwbemobjecttextsrc_gettext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemcli.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMI_OBJ_TEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Fastprox.dll
+api_name:
+-	IWbemObjectTextSrc.GetText
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemObjectTextSrc::GetText

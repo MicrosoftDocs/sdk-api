@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pdh.PdhExpandWildCardPathW
+title: PdhExpandWildCardPathW function
+author: windows-sdk-content
+description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters. To use handles to data sources, use the PdhExpandWildCardPathH function.
+old-location: perf\pdhexpandwildcardpath.htm
+old-project: PerfCtrs
+ms.assetid: 415da310-de56-4d58-8959-231426867526
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PDH_NOEXPANDCOUNTERS, PDH_NOEXPANDINSTANCES, PdhExpandWildCardPath, PdhExpandWildCardPath function [Perf], PdhExpandWildCardPathA, PdhExpandWildCardPathW, _win32_pdhexpandwildcardpath, base.pdhexpandwildcardpath, pdh/PdhExpandWildCardPath, pdh/PdhExpandWildCardPathA, pdh/PdhExpandWildCardPathW, perf.pdhexpandwildcardpath
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: pdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PdhExpandWildCardPathW (Unicode) and PdhExpandWildCardPathA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Pdh.dll
+api_name:
+-	PdhExpandWildCardPath
+-	PdhExpandWildCardPathA
+-	PdhExpandWildCardPathW
+product: Windows
+targetos: Windows
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PdhExpandWildCardPathW function

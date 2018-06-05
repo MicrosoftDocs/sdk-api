@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dbghelp.ImageNtHeader
+title: ImageNtHeader function
+author: windows-sdk-content
+description: Locates the IMAGE_NT_HEADERS structure in a PE image and returns a pointer to the data.
+old-location: base\imagentheader.htm
+old-project: Debug
+ms.assetid: bf796c81-84d1-43e6-a2ff-b0be6f4603e0
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: ImageNtHeader, ImageNtHeader function, _win32_imagentheader, base.imagentheader, dbghelp/ImageNtHeader
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dbghelp.dll
+-	emodel.dll
+-	imagehlp.dll
+api_name:
+-	ImageNtHeader
+product: Windows
+targetos: Windows
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 ---
 
 # ImageNtHeader function

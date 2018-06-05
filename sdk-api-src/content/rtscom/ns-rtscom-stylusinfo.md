@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rtscom.StylusInfo
+title: StylusInfo
+author: windows-sdk-content
+description: Provides information about the stylus.
+old-location: tablet\stylusinfo.htm
+old-project: tablet
+ms.assetid: d2642082-e18c-4f91-b08c-e25aa388a2a3
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: StylusInfo, StylusInfo structure [Tablet PC], d2642082-e18c-4f91-b08c-e25aa388a2a3, rtscom/StylusInfo, tablet.stylusinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rtscom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: StylusInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	RTSCom.h
+api_name:
+-	StylusInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # StylusInfo structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.ICommDlgBrowser2.GetViewFlags
+title: ICommDlgBrowser2::GetViewFlags
+author: windows-sdk-content
+description: Called when the view must determine if special customization needs to be made for the common dialog browser.
+old-location: shell\ICommDlgBrowser2_GetViewFlags.htm
+old-project: shell
+ms.assetid: cb22504c-9f76-44c4-b81d-fc15d1b95143
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: CDB2GVF_ADDSHIELD, CDB2GVF_ALLOWPREVIEWPANE, CDB2GVF_ISFILESAVE, CDB2GVF_ISFOLDERPICKER, CDB2GVF_NOINCLUDEITEM, CDB2GVF_NOSELECTVERB, CDB2GVF_SHOWALLFILES, GetViewFlags, GetViewFlags method [Windows Shell], GetViewFlags method [Windows Shell],ICommDlgBrowser2 interface, ICommDlgBrowser2 interface [Windows Shell],GetViewFlags method, ICommDlgBrowser2.GetViewFlags, ICommDlgBrowser2::GetViewFlags, _win32_ICommDlgBrowser2_GetViewFlags, shell.ICommDlgBrowser2_GetViewFlags, shobjidl_core/ICommDlgBrowser2::GetViewFlags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	ICommDlgBrowser2.GetViewFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ICommDlgBrowser2::GetViewFlags

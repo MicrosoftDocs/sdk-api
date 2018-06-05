@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ncrypt.__NCRYPT_UI_POLICY
+title: "__NCRYPT_UI_POLICY"
+author: windows-sdk-content
+description: Used with the NCRYPT_UI_POLICY_PROPERTY property to contain strong key user interface information for a key.
+old-location: security\ncrypt_ui_policy.htm
+old-project: SecCNG
+ms.assetid: 49443042-40bd-4876-8547-e5eb4de503f6
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: NCRYPT_UI_APPCONTAINER_ACCESS_MEDIUM_FLAG, NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG, NCRYPT_UI_POLICY, NCRYPT_UI_POLICY structure [Security], NCRYPT_UI_PROTECT_KEY_FLAG, __NCRYPT_UI_POLICY, ncrypt/NCRYPT_UI_POLICY, security.ncrypt_ui_policy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ncrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NCRYPT_UI_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ncrypt.h
+api_name:
+-	NCRYPT_UI_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __NCRYPT_UI_POLICY structure

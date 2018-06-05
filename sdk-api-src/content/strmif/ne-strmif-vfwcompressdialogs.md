@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.VfwCompressDialogs
+title: VfwCompressDialogs
+author: windows-sdk-content
+description: Specifies a dialog box that might exist in a Video for Windows compression (codec) driver.
+old-location: dshow\vfwcompressdialogs.htm
+old-project: DirectShow
+ms.assetid: b1e92603-631a-45e0-aee0-3974e3114e03
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: VfwCompressDialog_About, VfwCompressDialog_Config, VfwCompressDialog_QueryAbout, VfwCompressDialog_QueryConfig, VfwCompressDialogs, VfwCompressDialogs enumeration [DirectShow], VfwCompressDialogsEnumeration, dshow.vfwcompressdialogs, strmif/VfwCompressDialog_About, strmif/VfwCompressDialog_Config, strmif/VfwCompressDialog_QueryAbout, strmif/VfwCompressDialog_QueryConfig, strmif/VfwCompressDialogs
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VfwCompressDialogs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	VfwCompressDialogs
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # VfwCompressDialogs enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rpcasync.RpcAsyncGetCallHandle
+title: RpcAsyncGetCallHandle macro
+author: windows-sdk-content
+description: The RpcAsyncGetCallHandle macro returns the binding handle on an asynchronous remote procedure call.
+old-location: rpc\rpcasyncgetcallhandle.htm
+old-project: Rpc
+ms.assetid: 5a218d25-187e-4899-8a27-a955f77af8c2
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: RpcAsyncGetCallHandle, RpcAsyncGetCallHandle macro [RPC], _rpc_rpcasyncgetcallhandle, rpc.rpcasyncgetcallhandle, rpcasync/RpcAsyncGetCallHandle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: rpcasync.h
+req.include-header: Rpc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_NOTIFICATION_TYPES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Rpcasync.h
+api_name:
+-	RpcAsyncGetCallHandle
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RpcAsyncGetCallHandle macro

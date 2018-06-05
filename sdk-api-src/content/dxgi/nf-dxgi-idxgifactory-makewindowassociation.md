@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dxgi.IDXGIFactory.MakeWindowAssociation
+title: IDXGIFactory::MakeWindowAssociation
+author: windows-sdk-content
+description: Allows DXGI to monitor an application's message queue for the alt-enter key sequence (which causes the application to switch from windowed to full screen or vice versa).
+old-location: direct3ddxgi\idxgifactory_makewindowassociation.htm
+old-project: direct3ddxgi
+ms.assetid: VS|directx_sdk|~\idxgifactory_makewindowassociation.htm
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IDXGIFactory interface [DXGI],MakeWindowAssociation method, IDXGIFactory.MakeWindowAssociation, IDXGIFactory::MakeWindowAssociation, MakeWindowAssociation, MakeWindowAssociation method [DXGI], MakeWindowAssociation method [DXGI],IDXGIFactory interface, cae30f32-d52e-b4d6-69fc-2b5a2a52afef, direct3ddxgi.idxgifactory_makewindowassociation, dxgi/IDXGIFactory::MakeWindowAssociation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_SWAP_EFFECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DXGI.lib
+-	DXGI.dll
+api_name:
+-	IDXGIFactory.MakeWindowAssociation
+product: Windows
+targetos: Windows
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIFactory::MakeWindowAssociation

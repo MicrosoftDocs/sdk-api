@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmPropertyDefinition2.get_ValueDefinitions
+title: IFsrmPropertyDefinition2::get_ValueDefinitions
+author: windows-sdk-content
+description: This property contains the possible value definitions of the property definition.
+old-location: fsrm\ifsrmpropertydefinition2_valuedefinitions.htm
+old-project: Fsrm
+ms.assetid: d9d726ea-62f7-489e-a442-c8719648e893
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: IFsrmPropertyDefinition2 interface [File Server Resource Manager],ValueDefinitions property, IFsrmPropertyDefinition2.ValueDefinitions, IFsrmPropertyDefinition2.get_ValueDefinitions, IFsrmPropertyDefinition2::ValueDefinitions, IFsrmPropertyDefinition2::get_ValueDefinitions, ValueDefinitions property [File Server Resource Manager], ValueDefinitions property [File Server Resource Manager],IFsrmPropertyDefinition2 interface, fs.ifsrmpropertydefinition2_valuedefinitions, fsrm.ifsrmpropertydefinition2_valuedefinitions, fsrmpipeline/IFsrmPropertyDefinition2::ValueDefinitions, fsrmpipeline/IFsrmPropertyDefinition2::get_ValueDefinitions, get_ValueDefinitions
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: FsrmPipeline.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmPropertyDefinition2.ValueDefinitions
+-	IFsrmPropertyDefinition2.get_ValueDefinitions
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmPropertyDefinition2::get_ValueDefinitions

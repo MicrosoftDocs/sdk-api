@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmpservices.IWMPGraphCreation.GetGraphCreationFlags
+title: IWMPGraphCreation::GetGraphCreationFlags
+author: windows-sdk-content
+description: One of the flags documented on this page is available in Windows Media Player 10 and Windows Media Player 11 running on Microsoft Windows XP. It might not be available in subsequent versions.
+old-location: wmp\iwmpgraphcreation_getgraphcreationflags.htm
+old-project: WMP
+ms.assetid: 26cac321-f32a-4569-87a8-f397173f058b
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: GetGraphCreationFlags, GetGraphCreationFlags method [Windows Media Player], GetGraphCreationFlags method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GetGraphCreationFlags method, IWMPGraphCreation.GetGraphCreationFlags, IWMPGraphCreation::GetGraphCreationFlags, IWMPGraphCreationGetGraphCreationFlags, wmp.iwmpgraphcreation_getgraphcreationflags, wmpservices/IWMPGraphCreation::GetGraphCreationFlags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmpservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 10 or later
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPServices_StreamState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPGraphCreation.GetGraphCreationFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPGraphCreation::GetGraphCreationFlags

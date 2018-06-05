@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IComInstance2Events.OnObjectCreate2
+title: IComInstance2Events::OnObjectCreate2
+author: windows-sdk-content
+description: Generated when a client creates an object.
+old-location: cos\icominstance2events_onobjectcreate2.htm
+old-project: cossdk
+ms.assetid: b7c359b8-2d49-4982-836b-50d749758fa6
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IComInstance2Events interface [COM+],OnObjectCreate2 method, IComInstance2Events.OnObjectCreate2, IComInstance2Events::OnObjectCreate2, OnObjectCreate2, OnObjectCreate2 method [COM+], OnObjectCreate2 method [COM+],IComInstance2Events interface, _dtc_IComInstance2Events_OnObjectCreate2, comsvcs/IComInstance2Events::OnObjectCreate2, cos.icominstance2events_onobjectcreate2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IComInstance2Events.OnObjectCreate2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IComInstance2Events::OnObjectCreate2

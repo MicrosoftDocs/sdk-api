@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CryptDeriveKey
+title: CryptDeriveKey function
+author: windows-sdk-content
+description: Generates cryptographic session keys derived from a base data value.
+old-location: security\cryptderivekey.htm
+old-project: SecCrypto
+ms.assetid: b031e3b4-0102-400e-96db-019d31402adc
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CRYPT_CREATE_SALT, CRYPT_EXPORTABLE, CRYPT_NO_SALT, CRYPT_SERVER, CRYPT_UPDATE_KEY, CryptDeriveKey, CryptDeriveKey function [Security], _crypto2_cryptderivekey, security.cryptderivekey, wincrypt/CryptDeriveKey
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-Security-cryptoapi-l1-1-0.dll
+-	cryptsp.dll
+api_name:
+-	CryptDeriveKey
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CryptDeriveKey function

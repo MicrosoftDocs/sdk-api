@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winhttp.WinHttpSetStatusCallback
+title: WinHttpSetStatusCallback function
+author: windows-sdk-content
+description: The WinHttpSetStatusCallback function sets up a callback function that WinHTTP can call as progress is made during an operation.
+old-location: http\winhttpsetstatuscallback.htm
+old-project: WinHttp
+ms.assetid: b093daf0-7abe-49cb-8c09-9519e3c130b6
+ms.author: windowssdkdev
+ms.date: 03/08/2018
+ms.keywords: WINHTTP_CALLBACK_FLAG_ALL_COMPLETIONS, WINHTTP_CALLBACK_FLAG_ALL_NOTIFICATIONS, WINHTTP_CALLBACK_FLAG_CLOSE_CONNECTION, WINHTTP_CALLBACK_FLAG_CONNECT_TO_SERVER, WINHTTP_CALLBACK_FLAG_DATA_AVAILABLE, WINHTTP_CALLBACK_FLAG_DETECTING_PROXY, WINHTTP_CALLBACK_FLAG_HANDLES, WINHTTP_CALLBACK_FLAG_HEADERS_AVAILABLE, WINHTTP_CALLBACK_FLAG_INTERMEDIATE_RESPONSE, WINHTTP_CALLBACK_FLAG_READ_COMPLETE, WINHTTP_CALLBACK_FLAG_RECEIVE_RESPONSE, WINHTTP_CALLBACK_FLAG_REDIRECT, WINHTTP_CALLBACK_FLAG_REQUEST_ERROR, WINHTTP_CALLBACK_FLAG_RESOLVE_NAME, WINHTTP_CALLBACK_FLAG_SECURE_FAILURE, WINHTTP_CALLBACK_FLAG_SENDREQUEST_COMPLETE, WINHTTP_CALLBACK_FLAG_SEND_REQUEST, WINHTTP_CALLBACK_FLAG_WRITE_COMPLETE, WinHttpSetStatusCallback, WinHttpSetStatusCallback function [WinHTTP], http.winhttpsetstatuscallback, winhttp.winhttpsetstatuscallback_function, winhttp/WinHttpSetStatusCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winhttp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winhttp.dll
+api_name:
+-	WinHttpSetStatusCallback
+product: Windows
+targetos: Windows
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WinHttpSetStatusCallback function

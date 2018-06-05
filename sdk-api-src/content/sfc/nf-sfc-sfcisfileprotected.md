@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sfc.SfcIsFileProtected
+title: SfcIsFileProtected function
+author: windows-sdk-content
+description: Determines whether the specified file is protected.
+old-location: setup\sfcisfileprotected.htm
+old-project: Wfp
+ms.assetid: 6882f7ef-0265-4db5-afa5-54df35b9dba1
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: SfcIsFileProtected, SfcIsFileProtected function [Setup API], _win32_sfcisfileprotected, setup.sfcisfileprotected, sfc/SfcIsFileProtected
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: sfc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SP_UNREMOVEDEVICE_PARAMS, *PSP_UNREMOVEDEVICE_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Sfc.dll
+-	Ext-MS-Win-Wrp-Sfc-L1-1-0.dll
+-	sfc_os.dll
+api_name:
+-	SfcIsFileProtected
+product: Windows
+targetos: Windows
+req.lib: Sfc.lib
+req.dll: Sfc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SfcIsFileProtected function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfcaptureengine.IMFCaptureSink.AddStream
+title: IMFCaptureSink::AddStream
+author: windows-sdk-content
+description: Connects a stream from the capture source to this capture sink.
+old-location: mf\imfcapturesink_addstream.htm
+old-project: medfound
+ms.assetid: 5D7A1FE0-92B9-4CC4-A268-17FA848055A9
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AddStream, AddStream method [Media Foundation], AddStream method [Media Foundation],IMFCaptureSink interface, IMFCaptureSink interface [Media Foundation],AddStream method, IMFCaptureSink.AddStream, IMFCaptureSink::AddStream, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, mf.imfcapturesink_addstream, mfcaptureengine/IMFCaptureSink::AddStream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfcaptureengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfcaptureengine.h
+api_name:
+-	IMFCaptureSink.AddStream
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFCaptureSink::AddStream

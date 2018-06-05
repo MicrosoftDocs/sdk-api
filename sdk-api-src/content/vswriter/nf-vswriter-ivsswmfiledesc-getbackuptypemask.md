@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vswriter.IVssWMFiledesc.GetBackupTypeMask
+title: IVssWMFiledesc::GetBackupTypeMask
+author: windows-sdk-content
+description: The GetBackupTypeMask method returns the file backup specification for the files specified by the current file descriptor as a bit mask (or bitwise OR) of VSS_FILE_SPEC_BACKUP_TYPE values.
+old-location: base\ivsswmfiledesc_getbackuptypemask.htm
+old-project: VSS
+ms.assetid: 9d5f3a16-2053-42dd-867d-740c4a34bdb6
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetBackupTypeMask, GetBackupTypeMask method [VSS], GetBackupTypeMask method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetBackupTypeMask method, IVssWMFiledesc.GetBackupTypeMask, IVssWMFiledesc::GetBackupTypeMask, base.ivsswmfiledesc_getbackuptypemask, vswriter/IVssWMFiledesc::GetBackupTypeMask
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vswriter.h
+req.include-header: Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITERRESTORE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssWMFiledesc.GetBackupTypeMask
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssWMFiledesc::GetBackupTypeMask

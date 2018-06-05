@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:pnrpdef._PNRP_CLOUD_STATE
+title: "_PNRP_CLOUD_STATE"
+author: windows-sdk-content
+description: The PNRP_CLOUD_STATE enumeration specifies the different states a PNRP cloud can be in.
+old-location: p2p\pnrp_cloud_state.htm
+old-project: P2PSdk
+ms.assetid: 0263d742-f82b-4158-9343-86a8abf4cde1
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PNRP_CLOUD_STATE, PNRP_CLOUD_STATE enumeration [Peer Networking], PNRP_CLOUD_STATE_ACTIVE, PNRP_CLOUD_STATE_ALONE, PNRP_CLOUD_STATE_DEAD, PNRP_CLOUD_STATE_DISABLED, PNRP_CLOUD_STATE_NO_NET, PNRP_CLOUD_STATE_SYNCHRONISING, PNRP_CLOUD_STATE_VIRTUAL, _PNRP_CLOUD_STATE, p2p.pnrp_cloud_state, pnrpdef/PNRP_CLOUD_STATE, pnrpdef/PNRP_CLOUD_STATE_ACTIVE, pnrpdef/PNRP_CLOUD_STATE_ALONE, pnrpdef/PNRP_CLOUD_STATE_DEAD, pnrpdef/PNRP_CLOUD_STATE_DISABLED, pnrpdef/PNRP_CLOUD_STATE_NO_NET, pnrpdef/PNRP_CLOUD_STATE_SYNCHRONISING, pnrpdef/PNRP_CLOUD_STATE_VIRTUAL
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: pnrpdef.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack for Windows XP
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Pnpxassoc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PNRP_CLOUD_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pnrpdef.h
+api_name:
+-	PNRP_CLOUD_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PNRP_CLOUD_STATE enumeration

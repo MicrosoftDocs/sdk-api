@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msinkaut.IInkRecognizerContext.get_Factoid
+title: IInkRecognizerContext::get_Factoid
+author: windows-sdk-content
+description: Gets or sets the factoid that a recognizer uses to constrain its search for the recognition result.
+old-location: tablet\inkrecognizercontext_factoid.htm
+old-project: tablet
+ms.assetid: 11a76706-e2e5-4ae5-bdc2-5354514ea29f
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 11a76706-e2e5-4ae5-bdc2-5354514ea29f, Factoid property [Tablet PC], Factoid property [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],Factoid property, IInkRecognizerContext.Factoid, IInkRecognizerContext.get_Factoid, IInkRecognizerContext::Factoid, IInkRecognizerContext::get_Factoid, IInkRecognizerContext::put_Factoid, InkRecognizerContext.get_Factoid, InkRecognizerContext.put_Factoid, get_Factoid, msinkaut/IInkRecognizerContext::Factoid, msinkaut/IInkRecognizerContext::get_Factoid, msinkaut/IInkRecognizerContext::put_Factoid, put_Factoid, tablet.inkrecognizercontext_factoid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msinkaut.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TabletPropertyMetricUnit
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IInkRecognizerContext.Factoid
+-	IInkRecognizerContext.get_Factoid
+-	IInkRecognizerContext.put_Factoid
+-	InkRecognizerContext.get_Factoid
+-	InkRecognizerContext.put_Factoid
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognizerContext::get_Factoid

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:wmsinternaladminnetsource.IWMSInternalAdminNetSource2
+title: IWMSInternalAdminNetSource2
+author: windows-sdk-content
+description: The IWMSInternalAdminNetSource2 interface provides improved methods for password caching.
+old-location: wmformat\iwmsinternaladminnetsource2.htm
+old-project: wmformat
+ms.assetid: 6d334725-11d5-4249-a83d-fc8c1c35a56f
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWMSInternalAdminNetSource2, IWMSInternalAdminNetSource2 interface [windows Media Format], IWMSInternalAdminNetSource2 interface [windows Media Format],described, IWMSInternalAdminNetSource2Interface, wmformat.iwmsinternaladminnetsource2, wmsinternaladminnetsource/IWMSInternalAdminNetSource2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wmsinternaladminnetsource.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmsinternaladminnetsource.h
+api_name:
+-	IWMSInternalAdminNetSource2
+-	IWMSInternalAdminNetSource2.FindProxyForURLEx
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMSInternalAdminNetSource2 interface

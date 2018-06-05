@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:drt.DrtRegisterKey
+title: DrtRegisterKey function
+author: windows-sdk-content
+description: The DrtRegisterKey function registers a key in the DRT.
+old-location: p2p\drtregisterkey.htm
+old-project: P2PSdk
+ms.assetid: 9aa1ee16-648d-4769-a464-4659dea14dba
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DrtRegisterKey, DrtRegisterKey function [Peer Networking], drt/DrtRegisterKey, p2p.drtregisterkey
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: drt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	drt.dll
+api_name:
+-	DrtRegisterKey
+product: Windows
+targetos: Windows
+req.lib: Drt.lib
+req.dll: Drt.dll
+req.irql: 
 ---
 
 # DrtRegisterKey function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:jobapi2.QueryIoRateControlInformationJobObject
+title: QueryIoRateControlInformationJobObject function
+author: windows-sdk-content
+description: Gets information about the control of the I/O rate for a job object.
+old-location: base\queryioratecontrolinformationjobobject.htm
+old-project: ProcThread
+ms.assetid: B61DA8FC-1CF7-4D97-86F5-E3C2131D41EC
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: QueryIoRateControlInformationJobObject, QueryIoRateControlInformationJobObject function, base.queryioratecontrolinformationjobobject, jobapi2/QueryIoRateControlInformationJobObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: jobapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_WST_PAGE, *PAM_WST_PAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	kernel32.dll
+-	API-MS-Win-Core-Job-L2-1-1.dll
+-	Kernel32Legacy.dll
+api_name:
+-	QueryIoRateControlInformationJobObject
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # QueryIoRateControlInformationJobObject function

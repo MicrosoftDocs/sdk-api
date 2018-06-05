@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:contentpartner.IWMPContentContainer.GetID
+title: IWMPContentContainer::GetID
+author: windows-sdk-content
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetID method retrieves the ID of the album or list represented by the content container.
+old-location: wmp\iwmpcontentcontainer_getid.htm
+old-project: WMP
+ms.assetid: b2b4a5f8-ba53-4914-b8ef-ba9b7b87c52f
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: GetID, GetID method [Windows Media Player], GetID method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetID method, IWMPContentContainer.GetID, IWMPContentContainer::GetID, IWMPContentContainerGetID, contentpartner/IWMPContentContainer::GetID, wmp.iwmpcontentcontainer_getid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: contentpartner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPTransactionType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	contentpartner.h
+api_name:
+-	IWMPContentContainer.GetID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IWMPContentContainer::GetID

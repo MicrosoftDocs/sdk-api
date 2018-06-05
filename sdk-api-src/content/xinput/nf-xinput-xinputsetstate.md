@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:xinput.XInputSetState
+title: XInputSetState function
+author: windows-sdk-content
+description: Sends data to a connected controller. This function is used to activate the vibration function of a controller.
+old-location: xinput\xinputsetstate.htm
+old-project: xinput
+ms.assetid: M:Microsoft.directx_sdk.reference.XInputSetState(DWORD,XINPUT_VIBRATION*@)
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: XInputSetState, XInputSetState function [XInput Game Controller APIs], xinput.xinputsetstate, xinput/XInputSetState
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: xinput.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	xinput1_4.dll
+-	xinput9_1_0.dll
+-	Ext-MS-Win-Gaming-XInput-L1-1-0.dll
+-	xinputuap.dll
+api_name:
+-	XInputSetState
+product: Windows
+targetos: Windows
+req.lib: Xinput.lib; Xinput9_1_0.lib
+req.dll: Xinput1_4.dll; Xinput9_1_0.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # XInputSetState function

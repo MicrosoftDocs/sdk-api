@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:compressapi.SetCompressorInformation
+title: SetCompressorInformation function
+author: windows-sdk-content
+description: Sets information in a compressor for a particular compression algorithm.
+old-location: cmpapi\setcompressorinformation.htm
+old-project: cmpapi
+ms.assetid: f8c2c425-9b21-4fe3-8b81-d8bf3cd8ec5b
+ms.author: windowssdkdev
+ms.date: 04/10/2018
+ms.keywords: SetCompressorInformation, SetCompressorInformation function [Compression API], cmpapi.setcompressorinformation, compressapi/SetCompressorInformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: compressapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMPRESS_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	cabinet.dll
+api_name:
+-	SetCompressorInformation
+product: Windows
+targetos: Windows
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
 ---
 
 # SetCompressorInformation function

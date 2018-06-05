@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wsdtypes._WSD_SYNCHRONOUS_RESPONSE_CONTEXT
+title: "_WSD_SYNCHRONOUS_RESPONSE_CONTEXT"
+author: windows-sdk-content
+description: Provides a context for handling the response to a two-way request.
+old-location: ncd\wsd_synchronous_response_context_struct.htm
+old-project: WsdApi
+ms.assetid: 591cf076-f55f-4e78-aa5e-94ea8db3d102
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: WSD_SYNCHRONOUS_RESPONSE_CONTEXT, WSD_SYNCHRONOUS_RESPONSE_CONTEXT structure, _WSD_SYNCHRONOUS_RESPONSE_CONTEXT, ncd.wsd_synchronous_response_context_struct, wsdtypes/WSD_SYNCHRONOUS_RESPONSE_CONTEXT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wsdtypes.h
+req.include-header: Wsdapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wsdhost.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSD_SYNCHRONOUS_RESPONSE_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WsdTypes.h
+api_name:
+-	WSD_SYNCHRONOUS_RESPONSE_CONTEXT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WSD_SYNCHRONOUS_RESPONSE_CONTEXT structure

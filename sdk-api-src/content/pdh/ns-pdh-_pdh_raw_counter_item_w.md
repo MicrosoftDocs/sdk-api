@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:pdh._PDH_RAW_COUNTER_ITEM_W
+title: "_PDH_RAW_COUNTER_ITEM_W"
+author: windows-sdk-content
+description: The PDH_RAW_COUNTER_ITEM structure contains the instance name and raw value of a counter.
+old-location: perf\pdh_raw_counter_item_str.htm
+old-project: PerfCtrs
+ms.assetid: 602e0d44-3551-4a26-a5b7-8f7015131f9a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PPDH_RAW_COUNTER_ITEM_W, PDH_RAW_COUNTER_ITEM, PDH_RAW_COUNTER_ITEM structure [Perf], PDH_RAW_COUNTER_ITEM,*PPDH_RAW_COUNTER_ITEM, PDH_RAW_COUNTER_ITEM,*PPDH_RAW_COUNTER_ITEM structure [Perf], PDH_RAW_COUNTER_ITEM_A, PDH_RAW_COUNTER_ITEM_W, _PDH_RAW_COUNTER_ITEM_W, _win32_pdh_raw_counter_item_str, base.pdh_raw_counter_item_str, pdh/PDH_RAW_COUNTER_ITEM, pdh/PDH_RAW_COUNTER_ITEM_A, pdh/PDH_RAW_COUNTER_ITEM_W, perf.pdh_raw_counter_item_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: pdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PDH_RAW_COUNTER_ITEM_W (Unicode) and PDH_RAW_COUNTER_ITEM_A (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDH_RAW_COUNTER_ITEM_W, *PPDH_RAW_COUNTER_ITEM_W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pdh.h
+api_name:
+-	PDH_RAW_COUNTER_ITEM, *PPDH_RAW_COUNTER_ITEM
+-	PDH_RAW_COUNTER_ITEM_A
+-	PDH_RAW_COUNTER_ITEM_W
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PDH_RAW_COUNTER_ITEM_W structure

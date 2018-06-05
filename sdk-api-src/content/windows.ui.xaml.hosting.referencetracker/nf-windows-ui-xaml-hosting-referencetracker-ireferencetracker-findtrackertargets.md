@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.FindTrackerTargets
+title: IReferenceTracker::xaml
+author: windows-sdk-content
+description: Finds out what reference tracker targets are reachable from a reference tracker source; must be called by a garbage collector between calls to ReferenceTrackingStarted and FindTrackerTargetsCompleted.
+old-location: winrt\ireferencetracker_findtrackertargets.htm
+old-project: WinRT
+ms.assetid: ede8da3a-cef8-4741-950d-4303870ab10e
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: FindTrackerTargets, FindTrackerTargets method [Windows Runtime], FindTrackerTargets method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],FindTrackerTargets method, IReferenceTracker.FindTrackerTargets, IReferenceTracker.xaml, IReferenceTracker::FindTrackerTargets, IReferenceTracker::xaml, windows/IReferenceTracker::FindTrackerTargets, winrt.ireferencetracker_findtrackertargets
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: windows.ui.xaml.hosting.referencetracker.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Windows.ui.xaml.hosting.referencetracker.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDF_RENDER_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Windows.ui.xaml.hosting.referencetracker.h
+api_name:
+-	IReferenceTracker.FindTrackerTargets
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IReferenceTracker::xaml

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mapiunicodehelp.MAPISendMailHelper
+title: MAPISendMailHelper function
+author: windows-sdk-content
+description: Takes Unicode message information and sends the message using MAPISendMailW or, if necessary, converts the message to ANSI and sends the message using MAPISendMail.
+old-location: mapi\mapisendmailhelper.htm
+old-project: WindowsMAPI
+ms.assetid: 3FBE0950-6D73-4130-9F17-F1449247AB0F
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: MAPISendMailHelper, MAPISendMailHelper function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailhelper, mapiunicodehelp/MAPISendMailHelper
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mapiunicodehelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MapiRecipDescW, *lpMapiRecipDescW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	mapi32.dll
+api_name:
+-	MAPISendMailHelper
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MAPISendMailHelper function

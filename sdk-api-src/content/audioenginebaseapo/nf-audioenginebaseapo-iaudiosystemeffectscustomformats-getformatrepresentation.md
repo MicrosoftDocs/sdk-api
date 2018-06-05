@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:audioenginebaseapo.IAudioSystemEffectsCustomFormats.GetFormatRepresentation
+title: IAudioSystemEffectsCustomFormats::GetFormatRepresentation
+author: windows-sdk-content
+description: The GetFormatRepresentation method retrieves a string representation of the custom format so that it can be displayed on a user-interface.
+old-location: audio\iaudiosystemeffectscustomformats_getformatrepresentation.htm
+old-project: audio
+ms.assetid: 35953b82-8832-4e7b-9186-e336fdc65362
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetFormatRepresentation, GetFormatRepresentation method [Audio Devices], GetFormatRepresentation method [Audio Devices],IAudioSystemEffectsCustomFormats interface, IAudioSystemEffectsCustomFormats interface [Audio Devices],GetFormatRepresentation method, IAudioSystemEffectsCustomFormats.GetFormatRepresentation, IAudioSystemEffectsCustomFormats::GetFormatRepresentation, audio.iaudiosystemeffectscustomformats_getformatrepresentation, audio_syseffects_r_0164d130-f6cc-423b-9195-e5e87ee6bf2f.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatRepresentation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audioenginebaseapo.h
+req.include-header: Audioenginebaseapo.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APO_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	audioenginebaseapo.h
+api_name:
+-	IAudioSystemEffectsCustomFormats.GetFormatRepresentation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: All levels.
 ---
 
 # IAudioSystemEffectsCustomFormats::GetFormatRepresentation

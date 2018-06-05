@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mbnapi.MBN_DEVICE_SERVICES_INTERFACE_STATE
+title: MBN_DEVICE_SERVICES_INTERFACE_STATE
+author: windows-sdk-content
+description: "."
+old-location: mbn\mbn_device_services_interface_state.htm
+old-project: mbn
+ms.assetid: 0EDED390-CB60-4D6C-9E62-87B3BF6F9050
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_ARRIVAL, MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_REMOVAL, MBN_DEVICE_SERVICES_INTERFACE_STATE, MBN_DEVICE_SERVICES_INTERFACE_STATE enumeration [Microsoft Broadband Networks], mbn.mbn_device_services_interface_state, mbnapi/MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_ARRIVAL, mbnapi/MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_REMOVAL, mbnapi/MBN_DEVICE_SERVICES_INTERFACE_STATE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_DEVICE_SERVICES_INTERFACE_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mbnapi.h
+api_name:
+-	MBN_DEVICE_SERVICES_INTERFACE_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MBN_DEVICE_SERVICES_INTERFACE_STATE enumeration

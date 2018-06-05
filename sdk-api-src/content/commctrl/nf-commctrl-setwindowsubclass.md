@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:commctrl.SetWindowSubclass
+title: SetWindowSubclass function
+author: windows-sdk-content
+description: Installs or updates a window subclass callback.
+old-location: shell\SetWindowSubclass.htm
+old-project: shell
+ms.assetid: 0b11144d-eb4e-462c-96d3-38c4bac48f2a
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SetWindowSubclass, SetWindowSubclass function [Windows Shell], commctrl/SetWindowSubclass, inet_SetWindowSubclass, shell.SetWindowSubclass
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STGOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Comctl32.dll
+api_name:
+-	SetWindowSubclass
+product: Windows
+targetos: Windows
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll (version 5.8 or later)
+req.irql: 
 ---
 
 # SetWindowSubclass function

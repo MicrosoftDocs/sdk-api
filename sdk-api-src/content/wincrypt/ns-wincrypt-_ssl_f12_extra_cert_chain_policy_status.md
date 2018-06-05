@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+title: "_SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS"
+author: windows-sdk-content
+description: The SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure checks if any certificates in the chain have weak cryptography and checks if a third party root certificate is compliant with the Microsoft Root Program requirements.
+old-location: security\ssl_f12_extra_cert_chain_policy_status.htm
+old-project: SecCrypto
+ms.assetid: A78598AA-1C5F-49E9-9A0D-6B6C838F7DDD
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, CERT_CHAIN_POLICY_SSL_F12_ERROR_LEVEL, CERT_CHAIN_POLICY_SSL_F12_NONE_CATEGORY, CERT_CHAIN_POLICY_SSL_F12_ROOT_PROGRAM_CATEGORY, CERT_CHAIN_POLICY_SSL_F12_SUCCESS_LEVEL, CERT_CHAIN_POLICY_SSL_F12_WARNING_LEVEL, CERT_CHAIN_POLICY_SSL_F12_WEAK_CRYPTO_CATEGORY, PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure pointer [Security], SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure [Security], _SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, security.ssl_f12_extra_cert_chain_policy_status, wincrypt/PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, wincrypt/SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure

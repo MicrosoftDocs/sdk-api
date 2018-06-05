@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.InterlockedDecrement
+title: InterlockedDecrement function
+author: windows-sdk-content
+description: Decrements (decreases by one) the value of the specified 32-bit variable as an atomic operation.
+old-location: base\interlockeddecrement.htm
+old-project: Sync
+ms.assetid: d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: InterlockedDecrement, InterlockedDecrement function, _win32_interlockeddecrement, base.interlockeddecrement, winbase/InterlockedDecrement
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-Interlocked-l1-1-0.dll
+-	API-MS-Win-Core-Interlocked-l1-2-0.dll
+-	KernelBase.dll
+-	MinKernelBase.dll
+api_name:
+-	InterlockedDecrement
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # InterlockedDecrement function

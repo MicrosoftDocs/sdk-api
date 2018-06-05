@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:propsys.IPropertyChangeArray.IsKeyInArray
+title: IPropertyChangeArray::IsKeyInArray
+author: windows-sdk-content
+description: Specifies whether a particular property key exists in the change array.
+old-location: properties\IPropertyChangeArray_IsKeyInArray.htm
+old-project: properties
+ms.assetid: aa6fe869-6fb7-4d2e-8dd8-65da0cbcd7bc
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IPropertyChangeArray interface [Windows Properties],IsKeyInArray method, IPropertyChangeArray.IsKeyInArray, IPropertyChangeArray::IsKeyInArray, IsKeyInArray, IsKeyInArray method [Windows Properties], IsKeyInArray method [Windows Properties],IPropertyChangeArray interface, _shell_IPropertyChangeArray_IsKeyInArray, properties.IPropertyChangeArray_IsKeyInArray, propsys/IPropertyChangeArray::IsKeyInArray, shell.IPropertyChangeArray_IsKeyInArray
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: propsys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Propsys.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PSC_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Propsys.h
+api_name:
+-	IPropertyChangeArray.IsKeyInArray
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyChangeArray::IsKeyInArray

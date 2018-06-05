@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:traffic._IP_PATTERN
+title: "_IP_PATTERN"
+author: windows-sdk-content
+description: The IP_PATTERN structure applies a specific pattern or corresponding mask for the IP protocol. The IP_PATTERN structure designation is used by the traffic control interface in the application of packet filters.
+old-location: qos\ip_pattern.htm
+old-project: QOS
+ms.assetid: c8c3bd92-8120-4a3b-af8b-0a2c0a9bee0f
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*PIP_PATTERN, IP_PATTERN, IP_PATTERN structure [QOS], PIP_PATTERN, PIP_PATTERN structure pointer [QOS], _IP_PATTERN, _gqos_ip_pattern, qos.ip_pattern, traffic/IP_PATTERN, traffic/PIP_PATTERN"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: traffic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IP_PATTERN, *PIP_PATTERN
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Traffic.h
+api_name:
+-	IP_PATTERN
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _IP_PATTERN structure

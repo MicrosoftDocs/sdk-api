@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imapi2.IRawCDImageCreator.get_StartOfLeadoutLimit
+title: IRawCDImageCreator::get_StartOfLeadoutLimit
+author: windows-sdk-content
+description: Retrieves the current StartOfLeadoutLimit property value. This value specifies if the resulting image is required to fit on a piece of media with a StartOfLeadout greater than or equal to the LBA.
+old-location: imapi\irawcdimagecreator_get_startofleadoutlimit.htm
+old-project: imapi
+ms.assetid: 07397f94-fd32-4507-89dd-53de7f25b231
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IRawCDImageCreator interface [IMAPI],get_StartOfLeadoutLimit method, IRawCDImageCreator.get_StartOfLeadoutLimit, IRawCDImageCreator::get_StartOfLeadoutLimit, get_StartOfLeadoutLimit, get_StartOfLeadoutLimit method [IMAPI], get_StartOfLeadoutLimit method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_startofleadoutlimit, imapi2/IRawCDImageCreator::get_StartOfLeadoutLimit
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	imapi2.h
+api_name:
+-	IRawCDImageCreator.get_StartOfLeadoutLimit
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IRawCDImageCreator::get_StartOfLeadoutLimit

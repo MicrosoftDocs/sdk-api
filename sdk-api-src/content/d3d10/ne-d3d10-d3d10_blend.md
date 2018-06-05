@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d10.D3D10_BLEND
+title: D3D10_BLEND
+author: windows-sdk-content
+description: Blend options. A blend option identifies the data source and an optional pre-blend operation.
+old-location: direct3d10\d3d10_blend.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_blend.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 8864d9f9-c1b1-93ad-93b2-7e0e590a562d, D3D10_BLEND, D3D10_BLEND enumeration [Direct3D 10], D3D10_BLEND_BLEND_FACTOR, D3D10_BLEND_DEST_ALPHA, D3D10_BLEND_DEST_COLOR, D3D10_BLEND_INV_BLEND_FACTOR, D3D10_BLEND_INV_DEST_ALPHA, D3D10_BLEND_INV_DEST_COLOR, D3D10_BLEND_INV_SRC1_ALPHA, D3D10_BLEND_INV_SRC1_COLOR, D3D10_BLEND_INV_SRC_ALPHA, D3D10_BLEND_INV_SRC_COLOR, D3D10_BLEND_ONE, D3D10_BLEND_SRC1_ALPHA, D3D10_BLEND_SRC1_COLOR, D3D10_BLEND_SRC_ALPHA, D3D10_BLEND_SRC_ALPHA_SAT, D3D10_BLEND_SRC_COLOR, D3D10_BLEND_ZERO, d3d10/D3D10_BLEND, d3d10/D3D10_BLEND_BLEND_FACTOR, d3d10/D3D10_BLEND_DEST_ALPHA, d3d10/D3D10_BLEND_DEST_COLOR, d3d10/D3D10_BLEND_INV_BLEND_FACTOR, d3d10/D3D10_BLEND_INV_DEST_ALPHA, d3d10/D3D10_BLEND_INV_DEST_COLOR, d3d10/D3D10_BLEND_INV_SRC1_ALPHA, d3d10/D3D10_BLEND_INV_SRC1_COLOR, d3d10/D3D10_BLEND_INV_SRC_ALPHA, d3d10/D3D10_BLEND_INV_SRC_COLOR, d3d10/D3D10_BLEND_ONE, d3d10/D3D10_BLEND_SRC1_ALPHA, d3d10/D3D10_BLEND_SRC1_COLOR, d3d10/D3D10_BLEND_SRC_ALPHA, d3d10/D3D10_BLEND_SRC_ALPHA_SAT, d3d10/D3D10_BLEND_SRC_COLOR, d3d10/D3D10_BLEND_ZERO, direct3d10.d3d10_blend
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_BLEND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D10.h
+api_name:
+-	D3D10_BLEND
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D3D10_BLEND enumeration

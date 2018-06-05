@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mftransform.IMFTransform.SetOutputType
+title: IMFTransform::SetOutputType
+author: windows-sdk-content
+description: Sets, tests, or clears the media type for an output stream on this Media Foundation transform (MFT).
+old-location: mf\imftransform_setoutputtype.htm
+old-project: medfound
+ms.assetid: a9a1d03f-2e56-490c-885b-78c69dea8e92
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFTransform interface [Media Foundation],SetOutputType method, IMFTransform.SetOutputType, IMFTransform::SetOutputType, SetOutputType, SetOutputType method [Media Foundation], SetOutputType method [Media Foundation],IMFTransform interface, a9a1d03f-2e56-490c-885b-78c69dea8e92, mf.imftransform_setoutputtype, mftransform/IMFTransform::SetOutputType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mftransform.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFTransform.SetOutputType
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFTransform::SetOutputType

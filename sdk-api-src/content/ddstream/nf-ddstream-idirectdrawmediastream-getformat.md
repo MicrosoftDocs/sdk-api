@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:ddstream.IDirectDrawMediaStream.GetFormat
+title: IDirectDrawMediaStream::GetFormat
+author: windows-sdk-content
+description: Note  This interface is deprecated. New applications should not use it. Retrieves the current media stream's format and, optionally, its desired format.
+old-location: dshow\idirectdrawmediastream_getformat.htm
+old-project: DirectShow
+ms.assetid: 3729bbe6-3504-46b3-9978-e66afc56344f
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],GetFormat method, IDirectDrawMediaStream.GetFormat, IDirectDrawMediaStream::GetFormat, IDirectDrawMediaStreamGetFormat, ddstream/IDirectDrawMediaStream::GetFormat, dshow.idirectdrawmediastream_getformat
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ddstream.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VIDEOMEMORYINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ddstream.h
+api_name:
+-	IDirectDrawMediaStream.GetFormat
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectDrawMediaStream::GetFormat

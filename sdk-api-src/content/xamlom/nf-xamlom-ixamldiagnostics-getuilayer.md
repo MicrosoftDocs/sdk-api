@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xamlom.IXamlDiagnostics.GetUiLayer
+title: IXamlDiagnostics::GetUiLayer
+author: windows-sdk-content
+description: Gets the visual diagnostics root that can be used to draw on for highlighting elements in the tree.
+old-location: xaml_diagnostics\ixamldiagnostics_getuilayer.htm
+old-project: xaml_diagnostics
+ms.assetid: BE45AF9E-0C2D-439B-A360-2B9AE9359AEE
+ms.author: windowssdkdev
+ms.date: 03/19/2018
+ms.keywords: GetUiLayer, GetUiLayer method, GetUiLayer method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetUiLayer method, IXamlDiagnostics.GetUiLayer, IXamlDiagnostics::GetUiLayer, xaml_diagnostics.ixamldiagnostics_getuilayer, xamlom/IXamlDiagnostics::GetUiLayer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xamlom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: XamlOM.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VisualMutationType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	xamlom.h
+api_name:
+-	IXamlDiagnostics.GetUiLayer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IXamlDiagnostics::GetUiLayer

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.ICspAlgorithm.get_Operations
+title: ICspAlgorithm::get_Operations
+author: windows-sdk-content
+description: Retrieves the operations that can be performed by the algorithm.
+old-location: security\icspalgorithm_operations.htm
+old-project: SecCertEnroll
+ms.assetid: 46e6bf91-a50a-4360-9bfe-e41e8bcc1112
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: ICspAlgorithm interface [Security],Operations property, ICspAlgorithm.Operations, ICspAlgorithm.get_Operations, ICspAlgorithm::Operations, ICspAlgorithm::get_Operations, Operations property [Security], Operations property [Security],ICspAlgorithm interface, XCN_NCRYPT_ANY_ASYMMETRIC_OPERATION, XCN_NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, XCN_NCRYPT_CIPHER_OPERATION, XCN_NCRYPT_HASH_OPERATION, XCN_NCRYPT_RNG_OPERATION, XCN_NCRYPT_SECRET_AGREEMENT_OPERATION, XCN_NCRYPT_SIGNATURE_OPERATION, certenroll/ICspAlgorithm::Operations, certenroll/ICspAlgorithm::get_Operations, get_Operations, security.icspalgorithm_operations
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	ICspAlgorithm.Operations
+-	ICspAlgorithm.get_Operations
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # ICspAlgorithm::get_Operations

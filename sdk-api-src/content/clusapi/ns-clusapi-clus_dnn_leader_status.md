@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:clusapi.CLUS_DNN_LEADER_STATUS
+title: CLUS_DNN_LEADER_STATUS
+author: windows-sdk-content
+description: Represents the status of a Distributed Network Name (DNN) resource for a Scale-Out File Server.
+old-location: mscs\clus_dnn_leader_status.htm
+old-project: MsCS
+ms.assetid: 141629A8-95B3-409C-8165-D3AF055C41EB
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PCLUS_DNN_LEADER_STATUS, CLUS_DNN_LEADER_STATUS, CLUS_DNN_LEADER_STATUS structure [Failover Cluster], PCLUS_DNN_LEADER_STATUS, PCLUS_DNN_LEADER_STATUS structure pointer [Failover Cluster], clusapi/CLUS_DNN_LEADER_STATUS, clusapi/PCLUS_DNN_LEADER_STATUS, mscs.clus_dnn_leader_status"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUS_DNN_LEADER_STATUS, *PCLUS_DNN_LEADER_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+api_name:
+-	CLUS_DNN_LEADER_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUS_DNN_LEADER_STATUS structure

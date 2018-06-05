@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:appxpackaging.APPX_CAPABILITIES
+title: APPX_CAPABILITIES
+author: windows-sdk-content
+description: Specifies the capabilities or privileges requested by a package.
+old-location: appxpkg\appx_capabilities.htm
+old-project: appxpkg
+ms.assetid: 4912BCB0-424B-40F9-BBD1-3AD0A60B3320
+ms.author: windowssdkdev
+ms.date: 04/26/2018
+ms.keywords: APPX_CAPABILITIES, APPX_CAPABILITIES enumeration [App packaging and management], APPX_CAPABILITY_DOCUMENTS_LIBRARY, APPX_CAPABILITY_ENTERPRISE_AUTHENTICATION, APPX_CAPABILITY_INTERNET_CLIENT, APPX_CAPABILITY_INTERNET_CLIENT_SERVER, APPX_CAPABILITY_MUSIC_LIBRARY, APPX_CAPABILITY_PICTURES_LIBRARY, APPX_CAPABILITY_PRIVATE_NETWORK_CLIENT_SERVER, APPX_CAPABILITY_REMOVABLE_STORAGE, APPX_CAPABILITY_SHARED_USER_CERTIFICATES, APPX_CAPABILITY_VIDEOS_LIBRARY, appxpackaging/APPX_CAPABILITIES, appxpackaging/APPX_CAPABILITY_DOCUMENTS_LIBRARY, appxpackaging/APPX_CAPABILITY_ENTERPRISE_AUTHENTICATION, appxpackaging/APPX_CAPABILITY_INTERNET_CLIENT, appxpackaging/APPX_CAPABILITY_INTERNET_CLIENT_SERVER, appxpackaging/APPX_CAPABILITY_MUSIC_LIBRARY, appxpackaging/APPX_CAPABILITY_PICTURES_LIBRARY, appxpackaging/APPX_CAPABILITY_PRIVATE_NETWORK_CLIENT_SERVER, appxpackaging/APPX_CAPABILITY_REMOVABLE_STORAGE, appxpackaging/APPX_CAPABILITY_SHARED_USER_CERTIFICATES, appxpackaging/APPX_CAPABILITY_VIDEOS_LIBRARY, appxpkg.appx_capabilities
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: appxpackaging.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: AppxPackaging.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APPX_CAPABILITIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AppxPackaging.h
+api_name:
+-	APPX_CAPABILITIES
+product: Windows
+targetos: Windows
+req.lib: Appnotify.lib
+req.dll: Twinapi.core.dll
+req.irql: 
 ---
 
 # APPX_CAPABILITIES enumeration

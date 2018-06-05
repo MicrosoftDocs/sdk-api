@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wmsdkidl.__WMT_VIDEOIMAGE_SAMPLE
+title: "__WMT_VIDEOIMAGE_SAMPLE"
+author: windows-sdk-content
+description: Describes a sample for a Video Image stream that uses the Windows Media Video 9 Image codec.
+old-location: wmformat\wmt_videoimage_sample.htm
+old-project: wmformat
+ms.assetid: 8572ca63-760e-4bb8-886e-8e46b8dce9e9
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WMT_VIDEOIMAGE_SAMPLE, WMT_VIDEOIMAGE_SAMPLE structure [windows Media Format], __WMT_VIDEOIMAGE_SAMPLE, wmformat.wmt_videoimage_sample, wmsdkidl/WMT_VIDEOIMAGE_SAMPLE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wmsdkidl.h
+req.include-header: Wmsdk.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMT_VIDEOIMAGE_SAMPLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wmsdkidl.h
+api_name:
+-	WMT_VIDEOIMAGE_SAMPLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # __WMT_VIDEOIMAGE_SAMPLE structure

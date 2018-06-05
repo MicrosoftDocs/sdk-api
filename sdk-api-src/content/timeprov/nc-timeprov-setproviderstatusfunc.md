@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:timeprov.SetProviderStatusFunc
+title: SetProviderStatusFunc
+author: windows-sdk-content
+description: Sets the time provider's status information.
+old-location: base\setproviderstatusfunc.htm
+old-project: SysInfo
+ms.assetid: e52dd1d3-081a-4fcc-85d9-a1dcef0e8011
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: SetProviderStatusFunc, SetProviderStatusFunc callback, SetProviderStatusFunc callback function, _win32_setproviderstatusfunc, base.setproviderstatusfunc, timeprov/SetProviderStatusFunc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: timeprov.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TIMECAPS, *PTIMECAPS, *NPTIMECAPS, *LPTIMECAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Timeprov.h
+api_name:
+-	SetProviderStatusFunc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # SetProviderStatusFunc callback function

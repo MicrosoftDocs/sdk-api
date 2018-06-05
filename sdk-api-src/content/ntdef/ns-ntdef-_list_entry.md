@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ntdef._LIST_ENTRY
+title: "_LIST_ENTRY"
+author: windows-sdk-content
+description: A LIST_ENTRY structure describes an entry in a doubly linked list or serves as the header for such a list.
+old-location: kernel\list_entry.htm
+old-project: kernel
+ms.assetid: f3c1867b-4d7e-4935-a902-b7cf54534655
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PLIST_ENTRY, LIST_ENTRY, LIST_ENTRY structure [Kernel-Mode Driver Architecture], PLIST_ENTRY, PLIST_ENTRY structure pointer [Kernel-Mode Driver Architecture], PRLIST_ENTRY, _LIST_ENTRY, kernel.list_entry, kstruct_c_1bef4e3c-4fcc-47e3-8e95-b5a697b720a2.xml, ntdef/LIST_ENTRY, ntdef/PLIST_ENTRY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntdef.h
+req.include-header: Wdm.h, Ntddk.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LIST_ENTRY, *PLIST_ENTRY, PRLIST_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntdef.h
+api_name:
+-	LIST_ENTRY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: Any level
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _LIST_ENTRY structure

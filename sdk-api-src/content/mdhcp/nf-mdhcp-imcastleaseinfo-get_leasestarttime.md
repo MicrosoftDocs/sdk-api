@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mdhcp.IMcastLeaseInfo.get_LeaseStartTime
+title: IMcastLeaseInfo::get_LeaseStartTime
+author: windows-sdk-content
+description: The get_LeaseStartTime method obtains the start time of the lease.
+old-location: tapi3\imcastleaseinfo_get_leasestarttime.htm
+old-project: Tapi
+ms.assetid: b0998a2d-6ec5-4d39-ba75-ede352b4cbe8
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_LeaseStartTime method, IMcastLeaseInfo.get_LeaseStartTime, IMcastLeaseInfo::get_LeaseStartTime, _tapi3_imcastleaseinfo_get_leasestarttime, get_LeaseStartTime, get_LeaseStartTime method [TAPI 2.2], get_LeaseStartTime method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_LeaseStartTime, tapi3.imcastleaseinfo_get_leasestarttime
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mdhcp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mdhcp.dll
+api_name:
+-	IMcastLeaseInfo.get_LeaseStartTime
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMcastLeaseInfo::get_LeaseStartTime

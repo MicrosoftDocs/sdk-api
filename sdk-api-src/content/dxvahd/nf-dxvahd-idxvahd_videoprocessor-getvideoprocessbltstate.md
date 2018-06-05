@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxvahd.IDXVAHD_VideoProcessor.GetVideoProcessBltState
+title: IDXVAHD_VideoProcessor::GetVideoProcessBltState
+author: windows-sdk-content
+description: Gets the value of a state parameter for blit operations performed by a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
+old-location: mf\idxvahd_videoprocessor_getvideoprocessbltstate.htm
+old-project: medfound
+ms.assetid: 5fdb0d39-7a64-41fd-8f70-4085ddbc7ebc
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetVideoProcessBltState, GetVideoProcessBltState method [Media Foundation], GetVideoProcessBltState method [Media Foundation],IDXVAHD_VideoProcessor interface, IDXVAHD_VideoProcessor interface [Media Foundation],GetVideoProcessBltState method, IDXVAHD_VideoProcessor.GetVideoProcessBltState, IDXVAHD_VideoProcessor::GetVideoProcessBltState, dxvahd/IDXVAHD_VideoProcessor::GetVideoProcessBltState, mf.idxvahd_videoprocessor_getvideoprocessbltstate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxvahd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVAHD_SURFACE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxvahd.h
+api_name:
+-	IDXVAHD_VideoProcessor.GetVideoProcessBltState
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXVAHD_VideoProcessor::GetVideoProcessBltState

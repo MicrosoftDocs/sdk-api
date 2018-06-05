@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsbackup.IVssBackupComponents.SaveAsXML
+title: IVssBackupComponents::SaveAsXML
+author: windows-sdk-content
+description: The SaveAsXML method saves the Backup Components Document containing a requester's state information to a specified string. This XML document, which contains the Backup Components Document, should always be securely saved as part of a backup operation.
+old-location: base\ivssbackupcomponents_saveasxml.htm
+old-project: VSS
+ms.assetid: 8184d15a-7d1f-49ed-afe3-fa9d81a4d32d
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IVssBackupComponents interface [VSS],SaveAsXML method, IVssBackupComponents.SaveAsXML, IVssBackupComponents::SaveAsXML, SaveAsXML, SaveAsXML method [VSS], SaveAsXML method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_saveasxml, base.ivssbackupcomponents_saveasxml, vsbackup/IVssBackupComponents::SaveAsXML
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsbackup.h
+req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssBackupComponents.SaveAsXML
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssBackupComponents::SaveAsXML

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mprapi._IKEV2_PROJECTION_INFO2
+title: "_IKEV2_PROJECTION_INFO2"
+author: windows-sdk-content
+description: Contains information obtained during Internet Key Exchange (IKE) negotiation.
+old-location: rras\ikev2_projection_info2.htm
+old-project: RRAS
+ms.assetid: 577a276e-e2f4-46d6-ae0b-2ba0f0bac67f
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PIKEV2_PROJECTION_INFO2, IKEV2_PROJECTION_INFO2, IKEV2_PROJECTION_INFO2 structure [RAS], IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, MPRAPI_IKEV2_AUTH_USING_CERT, MPRAPI_IKEV2_AUTH_USING_EAP, PIKEV2_PROJECTION_INFO2, PIKEV2_PROJECTION_INFO2 structure pointer [RAS], _IKEV2_PROJECTION_INFO2, mprapi/IKEV2_PROJECTION_INFO2, mprapi/PIKEV2_PROJECTION_INFO2, rras.ikev2_projection_info2"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IKEV2_PROJECTION_INFO2, *PIKEV2_PROJECTION_INFO2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mprapi.h
+api_name:
+-	IKEV2_PROJECTION_INFO2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _IKEV2_PROJECTION_INFO2 structure

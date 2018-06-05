@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:elscore.MappingDoAction
+title: MappingDoAction function
+author: windows-sdk-content
+description: Causes an ELS service to perform an action after text recognition has occurred. For example, a phone dialer service first must recognize phone numbers and then can perform the &#0034;action&#0034; of dialing a number.
+old-location: intl\mappingdoaction.htm
+old-project: Intl
+ms.assetid: c3903d10-3429-4707-82b5-33efa6b2dc4c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: MappingDoAction, MappingDoAction function [Internationalization for Windows Applications], elscore/MappingDoAction, intl.mappingdoaction
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: elscore.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, *PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Elscore.dll
+api_name:
+-	MappingDoAction
+product: Windows
+targetos: Windows
+req.lib: Elscore.lib
+req.dll: Elscore.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # MappingDoAction function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfobjects.IMFAttributes.GetUINT64
+title: IMFAttributes::GetUINT64
+author: windows-sdk-content
+description: Retrieves a UINT64 value associated with a key.
+old-location: mf\imfattributes_getuint64.htm
+old-project: medfound
+ms.assetid: f3240fff-48d8-4d88-8c75-15f00bfe72ed
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetUINT64, GetUINT64 method [Media Foundation], GetUINT64 method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetUINT64 method, IMFAttributes.GetUINT64, IMFAttributes::GetUINT64, f3240fff-48d8-4d88-8c75-15f00bfe72ed, mf.imfattributes_getuint64, mfobjects/IMFAttributes::GetUINT64
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_FILE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFAttributes.GetUINT64
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFAttributes::GetUINT64

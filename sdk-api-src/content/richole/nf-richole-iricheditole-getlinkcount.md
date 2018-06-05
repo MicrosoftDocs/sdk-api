@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:richole.IRichEditOle.GetLinkCount
+title: IRichEditOle::GetLinkCount
+author: windows-sdk-content
+description: Returns the number of objects in a rich edit control that are links.
+old-location: controls\IRichEditOle_GetLinkCount.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetlinkcount.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetLinkCount, GetLinkCount method [Windows Controls], GetLinkCount method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetLinkCount method, IRichEditOle.GetLinkCount, IRichEditOle::GetLinkCount, _win32_IRichEditOle_GetLinkCount, _win32_IRichEditOle_GetLinkCount_cpp, controls.IRichEditOle_GetLinkCount, controls._win32_IRichEditOle_GetLinkCount, richole/IRichEditOle::GetLinkCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: richole.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TEXTRANGEW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	IRichEditOle.GetLinkCount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRichEditOle::GetLinkCount

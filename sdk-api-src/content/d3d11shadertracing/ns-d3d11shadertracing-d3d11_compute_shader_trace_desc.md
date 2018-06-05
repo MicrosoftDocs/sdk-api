@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:d3d11shadertracing.D3D11_COMPUTE_SHADER_TRACE_DESC
+title: D3D11_COMPUTE_SHADER_TRACE_DESC
+author: windows-sdk-content
+description: Describes an instance of a compute shader to trace.
+old-location: direct3d11\d3d11_compute_shader_trace_desc.htm
+old-project: direct3d11
+ms.assetid: C047CA31-22D4-4512-B90C-3C77BA6AADA9
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D11_COMPUTE_SHADER_TRACE_DESC, D3D11_COMPUTE_SHADER_TRACE_DESC structure [Direct3D 11], d3d11shadertracing/D3D11_COMPUTE_SHADER_TRACE_DESC, direct3d11.d3d11_compute_shader_trace_desc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d11shadertracing.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_COMPUTE_SHADER_TRACE_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11ShaderTracing.h
+api_name:
+-	D3D11_COMPUTE_SHADER_TRACE_DESC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_COMPUTE_SHADER_TRACE_DESC structure

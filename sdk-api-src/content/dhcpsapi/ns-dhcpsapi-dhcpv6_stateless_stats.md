@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi.DHCPV6_STATELESS_STATS
+title: DHCPV6_STATELESS_STATS
+author: windows-sdk-content
+description: The DHCPV6_STATELESS_STATS structure defines an array of stateless IPv6 subnet statistics.
+old-location: dhcp\dhcpv6_stateless_stats.htm
+old-project: DHCP
+ms.assetid: 8C0E26F3-9496-497C-9E05-9995CC322189
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCPV6_STATELESS_STATS, *PDHCPV6_STATELESS_STATS, DHCPV6_STATELESS_STATS, DHCPV6_STATELESS_STATS structure [DHCP], LPDHCPV6_STATELESS_STATS, LPDHCPV6_STATELESS_STATS structure pointer [DHCP], PDHCPV6_STATELESS_STATS, PDHCPV6_STATELESS_STATS structure pointer [DHCP], dhcp.dhcpv6_stateless_stats, dhcpsapi/DHCPV6_STATELESS_STATS, dhcpsapi/LPDHCPV6_STATELESS_STATS, dhcpsapi/PDHCPV6_STATELESS_STATS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCPV6_STATELESS_STATS, *PDHCPV6_STATELESS_STATS, *LPDHCPV6_STATELESS_STATS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dhcpsapi.h
+api_name:
+-	DHCPV6_STATELESS_STATS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # DHCPV6_STATELESS_STATS structure

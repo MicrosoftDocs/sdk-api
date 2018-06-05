@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsync.IEnumChangeUnitExceptions.Next
+title: IEnumChangeUnitExceptions::Next
+author: windows-sdk-content
+description: Returns the next elements in the change unit exception set, if they are available.
+old-location: winsync\ienumchangeunitexceptions_next.htm
+old-project: winsync
+ms.assetid: 97bf473d-4e63-4192-a5d8-b802d5887a55
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Next method, IEnumChangeUnitExceptions.Next, IEnumChangeUnitExceptions::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumChangeUnitExceptions interface, winsync.ienumchangeunitexceptions_next, winsync/IEnumChangeUnitExceptions::Next
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	winsync.h
+api_name:
+-	IEnumChangeUnitExceptions.Next
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IEnumChangeUnitExceptions::Next

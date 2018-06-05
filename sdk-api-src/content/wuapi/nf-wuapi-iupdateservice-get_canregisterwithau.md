@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wuapi.IUpdateService.get_CanRegisterWithAU
+title: IUpdateService::get_CanRegisterWithAU
+author: windows-sdk-content
+description: Gets a Boolean value that indicates whether the service can register with Automatic Updates.
+old-location: wua\iupdateservice_canregisterwithau.htm
+old-project: Wua_Sdk
+ms.assetid: 79198de8-548a-4d9a-ae07-d421babe8700
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: CanRegisterWithAU property [Windows Update Agent], CanRegisterWithAU property [Windows Update Agent],IUpdateService interface, IUpdateService interface [Windows Update Agent],CanRegisterWithAU property, IUpdateService.CanRegisterWithAU, IUpdateService.get_CanRegisterWithAU, IUpdateService::CanRegisterWithAU, IUpdateService::get_CanRegisterWithAU, get_CanRegisterWithAU, wua.iupdateservice_canregisterwithau, wuapi/IUpdateService::CanRegisterWithAU, wuapi/IUpdateService::get_CanRegisterWithAU
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wuapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wuapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UpdateType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wuapi.dll
+api_name:
+-	IUpdateService.CanRegisterWithAU
+-	IUpdateService.get_CanRegisterWithAU
+product: Windows
+targetos: Windows
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IUpdateService::get_CanRegisterWithAU

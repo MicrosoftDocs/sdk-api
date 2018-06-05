@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:comsvcs.IServiceThreadPoolConfig
+title: IServiceThreadPoolConfig
+author: windows-sdk-content
+description: Configures the thread pool of the activity object that is returned by calling CoCreateActivity.
+old-location: cos\iservicethreadpoolconfig.htm
+old-project: cossdk
+ms.assetid: 89c04fef-c6a0-4d73-a25a-a70b4b0f0bcf
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IServiceThreadPoolConfig, IServiceThreadPoolConfig interface [COM+], IServiceThreadPoolConfig interface [COM+],described, _cos_IServiceThreadPoolConfig, comsvcs/IServiceThreadPoolConfig, cos.iservicethreadpoolconfig
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IServiceThreadPoolConfig
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IServiceThreadPoolConfig interface

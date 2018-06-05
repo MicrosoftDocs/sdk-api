@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tcpmib.TCP_CONNECTION_OFFLOAD_STATE
+title: TCP_CONNECTION_OFFLOAD_STATE
+author: windows-sdk-content
+description: Defines the possible TCP offload states for a TCP connection.
+old-location: mib\tcp_connection_offload_state.htm
+old-project: MIB
+ms.assetid: cef633e7-1577-4f10-bd14-8d8e85aa78e6
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PTCP_CONNECTION_OFFLOAD_STATE, TCP_CONNECTION_OFFLOAD_STATE, TCP_CONNECTION_OFFLOAD_STATE enumeration [MIB], TcpConnectionOffloadStateInHost, TcpConnectionOffloadStateMax, TcpConnectionOffloadStateOffloaded, TcpConnectionOffloadStateOffloading, TcpConnectionOffloadStateUploading, iprtrmib/TCP_CONNECTION_OFFLOAD_STATE, iprtrmib/TcpConnectionOffloadStateInHost, iprtrmib/TcpConnectionOffloadStateMax, iprtrmib/TcpConnectionOffloadStateOffloaded, iprtrmib/TcpConnectionOffloadStateOffloading, iprtrmib/TcpConnectionOffloadStateUploading, mib.tcp_connection_offload_state, tcpmib/TCP_CONNECTION_OFFLOAD_STATE, tcpmib/TcpConnectionOffloadStateInHost, tcpmib/TcpConnectionOffloadStateMax, tcpmib/TcpConnectionOffloadStateOffloaded, tcpmib/TcpConnectionOffloadStateOffloading, tcpmib/TcpConnectionOffloadStateUploading"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tcpmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TCP_CONNECTION_OFFLOAD_STATE, *PTCP_CONNECTION_OFFLOAD_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tcpmib.h
+-	Iprtrmib.h
+api_name:
+-	TCP_CONNECTION_OFFLOAD_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TCP_CONNECTION_OFFLOAD_STATE enumeration

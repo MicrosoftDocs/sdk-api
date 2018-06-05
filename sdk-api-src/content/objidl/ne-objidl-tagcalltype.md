@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:objidl.tagCALLTYPE
+title: tagCALLTYPE
+author: windows-sdk-content
+description: Specifies the call types used by IMessageFilter::HandleInComingCall.
+old-location: com\calltype.htm
+old-project: com
+ms.assetid: 341d429d-8f45-461f-bc77-36e191faecc2
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: CALLTYPE, CALLTYPE enumeration [COM], CALLTYPE_ASYNC, CALLTYPE_ASYNC_CALLPENDING, CALLTYPE_NESTED, CALLTYPE_TOPLEVEL, CALLTYPE_TOPLEVEL_CALLPENDING, _com_CALLTYPE, com.calltype, objidl/CALLTYPE, objidl/CALLTYPE_ASYNC, objidl/CALLTYPE_ASYNC_CALLPENDING, objidl/CALLTYPE_NESTED, objidl/CALLTYPE_TOPLEVEL, objidl/CALLTYPE_TOPLEVEL_CALLPENDING, tagCALLTYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Objidlbase.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CALLTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Objidl.h
+api_name:
+-	CALLTYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagCALLTYPE enumeration

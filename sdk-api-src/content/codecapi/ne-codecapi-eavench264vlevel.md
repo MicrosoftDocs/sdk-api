@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:codecapi.eAVEncH264VLevel
+title: eAVEncH264VLevel
+author: windows-sdk-content
+description: Specifies an H.264 encoding level.
+old-location: mf\eavench264vlevel.htm
+old-project: medfound
+ms.assetid: 30570088-1d98-4477-8e9c-9c30593a8553
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: codecapi/eAVEncH264VLevel, codecapi/eAVEncH264VLevel1, codecapi/eAVEncH264VLevel1_1, codecapi/eAVEncH264VLevel1_2, codecapi/eAVEncH264VLevel1_3, codecapi/eAVEncH264VLevel1_b, codecapi/eAVEncH264VLevel2, codecapi/eAVEncH264VLevel2_1, codecapi/eAVEncH264VLevel2_2, codecapi/eAVEncH264VLevel3, codecapi/eAVEncH264VLevel3_1, codecapi/eAVEncH264VLevel3_2, codecapi/eAVEncH264VLevel4, codecapi/eAVEncH264VLevel4_1, codecapi/eAVEncH264VLevel4_2, codecapi/eAVEncH264VLevel5, codecapi/eAVEncH264VLevel5_1, codecapi/eAVEncH264VLevel5_2, eAVEncH264VLevel, eAVEncH264VLevel enumeration [Media Foundation], eAVEncH264VLevel1, eAVEncH264VLevel1_1, eAVEncH264VLevel1_2, eAVEncH264VLevel1_3, eAVEncH264VLevel1_b, eAVEncH264VLevel2, eAVEncH264VLevel2_1, eAVEncH264VLevel2_2, eAVEncH264VLevel3, eAVEncH264VLevel3_1, eAVEncH264VLevel3_2, eAVEncH264VLevel4, eAVEncH264VLevel4_1, eAVEncH264VLevel4_2, eAVEncH264VLevel5, eAVEncH264VLevel5_1, eAVEncH264VLevel5_2, mf.eavench264vlevel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: codecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	codecapi.h
+api_name:
+-	eAVEncH264VLevel
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # eAVEncH264VLevel enumeration

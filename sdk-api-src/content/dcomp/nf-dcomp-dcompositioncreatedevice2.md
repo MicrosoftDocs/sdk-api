@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dcomp.DCompositionCreateDevice2
+title: DCompositionCreateDevice2 function
+author: windows-sdk-content
+description: Creates a new device object that can be used to create other Microsoft DirectComposition objects.
+old-location: directcomp\dcompositioncreatedevice2.htm
+old-project: directcomp
+ms.assetid: C40694CB-7110-4ED0-B2E5-F73ADEA7BEA4
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: DCompositionCreateDevice2, DCompositionCreateDevice2 function [DirectComposition], dcomp/DCompositionCreateDevice2, directcomp.dcompositioncreatedevice2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dcomp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D_VECTOR_4F
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dcomp.dll
+-	Ext-MS-OneCore-DComp-L1-1-0.dll
+api_name:
+-	DCompositionCreateDevice2
+product: Windows
+targetos: Windows
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 ---
 
 # DCompositionCreateDevice2 function

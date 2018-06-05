@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IServicePool.Initialize
+title: IServicePool::Initialize
+author: windows-sdk-content
+description: Initializes an object pool.
+old-location: cos\iservicepool_initialize.htm
+old-project: cossdk
+ms.assetid: 93e88990-1737-4db4-aa37-0fe19a7ca0f3
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IServicePool interface [COM+],Initialize method, IServicePool.Initialize, IServicePool::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IServicePool interface, _cos_IServicePool_Initialize, comsvcs/IServicePool::Initialize, cos.iservicepool_initialize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional with SP4, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IServicePool.Initialize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IServicePool::Initialize

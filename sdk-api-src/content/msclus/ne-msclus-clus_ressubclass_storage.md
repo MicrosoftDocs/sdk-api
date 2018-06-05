@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:msclus.CLUS_RESSUBCLASS_STORAGE
+title: CLUS_RESSUBCLASS_STORAGE
+author: windows-sdk-content
+description: Identifies a resource subclass that manages a shared bus.
+old-location: mscs\clus_ressubclass_storage.htm
+old-project: MsCS
+ms.assetid: 10e2fe05-ea17-4f9d-a26d-eed6aa3abb04
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUS_RESSUBCLASS_STORAGE, CLUS_RESSUBCLASS_STORAGE enumeration [Failover Cluster], CLUS_RESSUBCLASS_STORAGE_DISK, CLUS_RESSUBCLASS_STORAGE_REPLICATION, CLUS_RESSUBCLASS_STORAGE_SHARED_BUS, clusapi/CLUS_RESSUBCLASS_STORAGE, clusapi/CLUS_RESSUBCLASS_STORAGE_DISK, clusapi/CLUS_RESSUBCLASS_STORAGE_REPLICATION, clusapi/CLUS_RESSUBCLASS_STORAGE_SHARED_BUS, msclus/CLUS_RESSUBCLASS_STORAGE, msclus/CLUS_RESSUBCLASS_STORAGE_DISK, msclus/CLUS_RESSUBCLASS_STORAGE_REPLICATION, msclus/CLUS_RESSUBCLASS_STORAGE_SHARED_BUS, mscs.clus_ressubclass_storage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msclus.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUS_RESSUBCLASS_STORAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUS_RESSUBCLASS_STORAGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # CLUS_RESSUBCLASS_STORAGE enumeration

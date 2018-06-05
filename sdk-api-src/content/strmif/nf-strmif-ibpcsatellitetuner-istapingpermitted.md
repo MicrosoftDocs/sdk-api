@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:strmif.IBPCSatelliteTuner.IsTapingPermitted
+title: IBPCSatelliteTuner::IsTapingPermitted
+author: windows-sdk-content
+description: Note  The IBPCSatelliteTuner interface is deprecated. Queries whether taping is permitted.
+old-location: dshow\ibpcsatellitetuner_istapingpermitted.htm
+old-project: DirectShow
+ms.assetid: 5e5b661f-46d5-47f1-adeb-d323c57ddff0
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IBPCSatelliteTuner interface [DirectShow],IsTapingPermitted method, IBPCSatelliteTuner.IsTapingPermitted, IBPCSatelliteTuner::IsTapingPermitted, IBPCSatelliteTunerIsTapingPermitted, IsTapingPermitted, IsTapingPermitted method [DirectShow], IsTapingPermitted method [DirectShow],IBPCSatelliteTuner interface, dshow.ibpcsatellitetuner_istapingpermitted, strmif/IBPCSatelliteTuner::IsTapingPermitted
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_RELATIVE_BUTTON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Strmif.h
+api_name:
+-	IBPCSatelliteTuner.IsTapingPermitted
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1
 ---
 
 # IBPCSatelliteTuner::IsTapingPermitted

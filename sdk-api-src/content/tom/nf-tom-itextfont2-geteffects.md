@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tom.ITextFont2.GetEffects
+title: ITextFont2::GetEffects
+author: windows-sdk-content
+description: Gets the character format effects.
+old-location: controls\itextfont2_geteffects.htm
+old-project: Controls
+ms.assetid: a182df7e-2024-48fc-9767-7110ffff0b4c
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetEffects, GetEffects method [Windows Controls], GetEffects method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetEffects method, ITextFont2.GetEffects, ITextFont2::GetEffects, controls.itextfont2_geteffects, tom/ITextFont2::GetEffects, tomAllCaps, tomBold, tomDisabled, tomEmboss, tomHidden, tomImprint, tomInlineObjectStart, tomItalic, tomLink, tomLinkProtected, tomMathZone, tomMathZoneDisplay, tomMathZoneNoBuildUp, tomMathZoneOrdinary, tomOutline, tomProtected, tomRevised, tomShadow, tomSmallCaps, tomStrikeout, tomUnderline
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MANCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextFont2.GetEffects
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextFont2::GetEffects

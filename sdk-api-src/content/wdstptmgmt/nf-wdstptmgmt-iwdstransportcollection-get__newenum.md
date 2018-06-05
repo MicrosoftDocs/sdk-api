@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wdstptmgmt.IWdsTransportCollection.get__NewEnum
+title: IWdsTransportCollection::get__NewEnum
+author: windows-sdk-content
+description: Receives a pointer to an enumerator that can be used to iterate over the objects in this collection.
+old-location: wds\iwdstransportcollection__newenum.htm
+old-project: Wds
+ms.assetid: b1b51f0b-ae79-4e59-8517-456d8ef2048c
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWdsTransportCollection interface [Windows Deployment Services],_NewEnum property, IWdsTransportCollection._NewEnum, IWdsTransportCollection.get__NewEnum, IWdsTransportCollection::_NewEnum, IWdsTransportCollection::get__NewEnum, _NewEnum property [Windows Deployment Services], _NewEnum property [Windows Deployment Services],IWdsTransportCollection interface, get__NewEnum, wds.iwdstransportcollection__newenum, wdstptmgmt/IWdsTransportCollection::_NewEnum, wdstptmgmt/IWdsTransportCollection::get__NewEnum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wdstptmgmt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,25 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Wdstptmgmt.tlb
+tech.root: 
+req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wdstptmgmt.dll
+api_name:
+-	IWdsTransportCollection._NewEnum
+-	IWdsTransportCollection.get__NewEnum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWdsTransportCollection::get__NewEnum

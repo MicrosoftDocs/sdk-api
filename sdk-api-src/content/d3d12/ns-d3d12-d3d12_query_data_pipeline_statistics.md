@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:d3d12.D3D12_QUERY_DATA_PIPELINE_STATISTICS
+title: D3D12_QUERY_DATA_PIPELINE_STATISTICS
+author: windows-sdk-content
+description: Query information about graphics-pipeline activity in between calls to BeginQuery and EndQuery.
+old-location: direct3d12\d3d12_query_data_pipeline_statistics.htm
+old-project: direct3d12
+ms.assetid: 0A84A3C8-0F6F-420E-88C9-26EC03F03179
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_QUERY_DATA_PIPELINE_STATISTICS, D3D12_QUERY_DATA_PIPELINE_STATISTICS structure, d3d12/D3D12_QUERY_DATA_PIPELINE_STATISTICS, direct3d12.d3d12_query_data_pipeline_statistics
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_QUERY_DATA_PIPELINE_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D12.h
+api_name:
+-	D3D12_QUERY_DATA_PIPELINE_STATISTICS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_QUERY_DATA_PIPELINE_STATISTICS structure

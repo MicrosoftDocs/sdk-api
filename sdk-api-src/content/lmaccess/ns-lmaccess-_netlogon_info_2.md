@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:lmaccess._NETLOGON_INFO_2
+title: "_NETLOGON_INFO_2"
+author: windows-sdk-content
+description: Defines a level-2 control query response from a domain controller.
+old-location: winprog\netlogon_info_2.htm
+old-project: DevNotes
+ms.assetid: ab29013d-e93a-4f15-84e1-c0e3e55b288d
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*PNETLOGON_INFO_2, NETLOGON_DNS_UPDATE_FAILURE, NETLOGON_FULL_SYNC_REPLICATION, NETLOGON_HAS_IP, NETLOGON_HAS_TIMESERV, NETLOGON_INFO_2, NETLOGON_INFO_2 structure [Windows API], NETLOGON_REDO_NEEDED, NETLOGON_REPLICATION_IN_PROGRESS, NETLOGON_REPLICATION_NEEDED, NETLOGON_VERIFY_STATUS_RETURNED, PNETLOGON_INFO_2, PNETLOGON_INFO_2 structure pointer [Windows API], _NETLOGON_INFO_2, lmaccess/NETLOGON_INFO_2, lmaccess/PNETLOGON_INFO_2, winprog.netlogon_info_2"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmaccess.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETLOGON_INFO_2, *PNETLOGON_INFO_2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmaccess.h
+api_name:
+-	NETLOGON_INFO_2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _NETLOGON_INFO_2 structure

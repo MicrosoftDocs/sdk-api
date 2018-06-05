@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:callobj.ICallFrame.GetStackLocation
+title: ICallFrame::GetStackLocation
+author: windows-sdk-content
+description: Retrieves the stack location onto which this call frame is bound.
+old-location: com\icallframe_getstacklocation.htm
+old-project: com
+ms.assetid: 1e6b5e52-78bb-47cd-9019-efb5c0860a6d
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: GetStackLocation, GetStackLocation method [COM], GetStackLocation method [COM],ICallFrame interface, ICallFrame interface [COM],GetStackLocation method, ICallFrame.GetStackLocation, ICallFrame::GetStackLocation, _com_icallframe_getstacklocation, callobj/ICallFrame::GetStackLocation, com.icallframe_getstacklocation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: callobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Callobj.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CALLFRAME_COPY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Callobj.h
+api_name:
+-	ICallFrame.GetStackLocation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICallFrame::GetStackLocation

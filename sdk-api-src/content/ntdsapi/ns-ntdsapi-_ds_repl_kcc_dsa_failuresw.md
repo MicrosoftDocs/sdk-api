@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntdsapi._DS_REPL_KCC_DSA_FAILURESW
+title: "_DS_REPL_KCC_DSA_FAILURESW"
+author: windows-sdk-content
+description: The DS_REPL_KCC_DSA_FAILURES structure contains an array of DS_REPL_KCC_DSA_FAILURE structures, which in turn contain replication state data with respect to inbound replication partners, as returned by the DsReplicaGetInfo and DsReplicaGetInfo2 functions.
+old-location: ad\ds_repl_kcc_dsa_failures.htm
+old-project: AD
+ms.assetid: bb011502-38ae-43b7-a6ad-de16b499f61b
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DS_REPL_KCC_DSA_FAILURES, DS_REPL_KCC_DSA_FAILURES structure [Active Directory], DS_REPL_KCC_DSA_FAILURESW, _DS_REPL_KCC_DSA_FAILURESW, _glines_ds_repl_kcc_dsa_failures, ad.ds__repl__kcc__dsa__failures, ad.ds_repl_kcc_dsa_failures, ntdsapi/DS_REPL_KCC_DSA_FAILURES
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_REPL_KCC_DSA_FAILURESW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntdsapi.h
+api_name:
+-	DS_REPL_KCC_DSA_FAILURES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _DS_REPL_KCC_DSA_FAILURESW structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wscapi._WSC_SECURITY_PROVIDER_HEALTH
+title: "_WSC_SECURITY_PROVIDER_HEALTH"
+author: windows-sdk-content
+description: Defines the possible states for any service monitored by Windows Security Center (WSC).
+old-location: winprog\wsc_security_provider_health.htm
+old-project: DevNotes
+ms.assetid: a5f34088-13b9-4269-a3ca-777e0bb9b655
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "*PWSC_SECURITY_PROVIDER_HEALTH, WSC_SECURITY_PROVIDER_HEALTH, WSC_SECURITY_PROVIDER_HEALTH enumeration [Windows API], WSC_SECURITY_PROVIDER_HEALTH,*PWSC_SECURITY_PROVIDER_HEALTH, WSC_SECURITY_PROVIDER_HEALTH,*PWSC_SECURITY_PROVIDER_HEALTH enumeration [Windows API], WSC_SECURITY_PROVIDER_HEALTH_GOOD, WSC_SECURITY_PROVIDER_HEALTH_NOTMONITORED, WSC_SECURITY_PROVIDER_HEALTH_POOR, WSC_SECURITY_PROVIDER_HEALTH_SNOOZE, _WSC_SECURITY_PROVIDER_HEALTH, winprog.wsc_security_provider_health, wscapi/WSC_SECURITY_PROVIDER_HEALTH, wscapi/WSC_SECURITY_PROVIDER_HEALTH_GOOD, wscapi/WSC_SECURITY_PROVIDER_HEALTH_NOTMONITORED, wscapi/WSC_SECURITY_PROVIDER_HEALTH_POOR, wscapi/WSC_SECURITY_PROVIDER_HEALTH_SNOOZE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wscapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wscapi.h
+api_name:
+-	WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WSC_SECURITY_PROVIDER_HEALTH enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vds.IVdsDisk3.GetProperties2
+title: IVdsDisk3::GetProperties2
+author: windows-sdk-content
+description: Returns property information for a disk. This method is identical to the IVdsDisk::GetProperties method, except that it returns a VDS_DISK_PROP2 structure instead of a VDS_DISK_PROP structure.
+old-location: base\ivdsdisk3_getproperties2.htm
+old-project: VDS
+ms.assetid: ef88b61b-9139-4767-b54f-46122650e922
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsDisk3 interface, IVdsDisk3 interface,GetProperties2 method, IVdsDisk3.GetProperties2, IVdsDisk3::GetProperties2, base.ivdsdisk3_getproperties2, vds/IVdsDisk3::GetProperties2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VOLUME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsDisk3.GetProperties2
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsDisk3::GetProperties2

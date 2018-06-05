@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d12.ID3D12GraphicsCommandList.CopyTextureRegion
+title: ID3D12GraphicsCommandList::CopyTextureRegion
+author: windows-sdk-content
+description: This method uses the GPU to copy texture data between two locations. Both the source and the destination may reference texture data located within either a buffer resource or a texture resource.
+old-location: direct3d12\id3d12graphicscommandlist_copytextureregion.htm
+old-project: direct3d12
+ms.assetid: 2EAFC6B9-376C-4801-8E53-BF0DB08943AA
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: CopyTextureRegion, CopyTextureRegion method, CopyTextureRegion method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyTextureRegion method, ID3D12GraphicsCommandList.CopyTextureRegion, ID3D12GraphicsCommandList::CopyTextureRegion, d3d12/ID3D12GraphicsCommandList::CopyTextureRegion, direct3d12.id3d12graphicscommandlist_copytextureregion
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_SHADER_MODEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3d12.dll
+api_name:
+-	ID3D12GraphicsCommandList.CopyTextureRegion
+product: Windows
+targetos: Windows
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 ---
 
 # ID3D12GraphicsCommandList::CopyTextureRegion

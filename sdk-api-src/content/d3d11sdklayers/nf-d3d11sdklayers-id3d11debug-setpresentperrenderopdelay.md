@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11sdklayers.ID3D11Debug.SetPresentPerRenderOpDelay
+title: ID3D11Debug::SetPresentPerRenderOpDelay
+author: windows-sdk-content
+description: Set the number of milliseconds to sleep after IDXGISwapChain::Present is called.
+old-location: direct3d11\id3d11debug_setpresentperrenderopdelay.htm
+old-project: direct3d11
+ms.assetid: 72489871-819a-4f75-a3ad-03f93f5c7761
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 573cbcb7-dbec-80ce-3edb-e1d60b5c1261, ID3D11Debug interface [Direct3D 11],SetPresentPerRenderOpDelay method, ID3D11Debug.SetPresentPerRenderOpDelay, ID3D11Debug::SetPresentPerRenderOpDelay, SetPresentPerRenderOpDelay, SetPresentPerRenderOpDelay method [Direct3D 11], SetPresentPerRenderOpDelay method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::SetPresentPerRenderOpDelay, direct3d11.id3d11debug_setpresentperrenderopdelay
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11Debug.SetPresentPerRenderOpDelay
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11Debug::SetPresentPerRenderOpDelay

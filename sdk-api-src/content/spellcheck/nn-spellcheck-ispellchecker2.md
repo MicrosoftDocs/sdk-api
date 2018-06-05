@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:spellcheck.ISpellChecker2
+title: ISpellChecker2
+author: windows-sdk-content
+description: Represents a particular spell checker for a particular language, with the added ability to remove words from the added words dictionary, or from the ignore list.
+old-location: intl\ispellchecker2.htm
+old-project: Intl
+ms.assetid: 615C52CD-BD4D-4AC0-9732-6AB6BD7A930F
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ISpellChecker2, ISpellChecker2 interface [Internationalization for Windows Applications], ISpellChecker2 interface [Internationalization for Windows Applications],described, intl.ispellchecker2, spellcheck/ISpellChecker2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: spellcheck.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Spellcheck.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WORDLIST_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Spellcheck.h
+api_name:
+-	ISpellChecker2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpellChecker2 interface

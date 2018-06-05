@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:tdiinfo.TDIObjectID
+title: TDIObjectID
+author: windows-sdk-content
+description: Contains a part of the TCP_REQUEST_QUERY_INFORMATION_EX structure that is used with the IOCTL_TCP_QUERY_INFORMATION_EX control code to specify the kind of information being requested from the TCP driver.
+old-location: winprog\tdiobjectid.htm
+old-project: DevNotes
+ms.assetid: 79d34f1c-2ea7-4867-9fb2-80401b0859bf
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ENTITY_LIST_ID, ENTITY_TYPE_ID, IF_MIB_STATS_ID, INFO_CLASS_GENERIC, INFO_CLASS_PROTOCOL, INFO_TYPE_ADDRESS_OBJECT, INFO_TYPE_CONNECTION, INFO_TYPE_PROVIDER, IP_INTFC_INFO_ID, IP_MIB_ADDRTABLE_ENTRY_ID, IP_MIB_STATS_ID, TDIObjectID, TDIObjectID structure [Windows API], tdiinfo/TDIObjectID, winprog.tdiobjectid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tdiinfo.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TDIObjectID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	tdiinfo.h
+api_name:
+-	TDIObjectID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TDIObjectID structure

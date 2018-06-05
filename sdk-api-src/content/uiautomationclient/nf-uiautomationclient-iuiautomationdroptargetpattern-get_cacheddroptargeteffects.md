@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationDropTargetPattern.get_CachedDropTargetEffects
+title: IUIAutomationDropTargetPattern::get_CachedDropTargetEffects
+author: windows-sdk-content
+description: Retrieves a cached array of localized strings that enumerate the full set of effects that can happen when the user drops a grabbed element on this drop target as part of a drag-and-drop operation.
+old-location: winauto\uiauto_iuiautomationdroptargetpattern_cacheddroptargeteffects.htm
+old-project: WinAuto
+ms.assetid: 6F61F13B-0E5B-449D-A237-FF494B730392
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CachedDropTargetEffects property [Windows Accessibility], CachedDropTargetEffects property [Windows Accessibility],IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern interface [Windows Accessibility],CachedDropTargetEffects property, IUIAutomationDropTargetPattern.CachedDropTargetEffects, IUIAutomationDropTargetPattern.get_CachedDropTargetEffects, IUIAutomationDropTargetPattern::CachedDropTargetEffects, IUIAutomationDropTargetPattern::get_CachedDropTargetEffects, get_CachedDropTargetEffects, uiautomationclient/IUIAutomationDropTargetPattern::CachedDropTargetEffects, uiautomationclient/IUIAutomationDropTargetPattern::get_CachedDropTargetEffects, winauto.uiauto_iuiautomationdroptargetpattern_cacheddroptargeteffects
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationDropTargetPattern.CachedDropTargetEffects
+-	IUIAutomationDropTargetPattern.get_CachedDropTargetEffects
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationDropTargetPattern::get_CachedDropTargetEffects

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:wsddisco.IWSDiscoveryPublisherNotify
+title: IWSDiscoveryPublisherNotify
+author: windows-sdk-content
+description: Is implemented by the client program to receive callback notifications from IWSDiscoveryPublisher.
+old-location: ncd\iwsdiscoverypublishernotify.htm
+old-project: WsdApi
+ms.assetid: 6e7e0ab8-dffe-47c2-916c-a6734eb4ac44
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IWSDiscoveryPublisherNotify, IWSDiscoveryPublisherNotify interface, IWSDiscoveryPublisherNotify interface,described, ncd.iwsdiscoverypublishernotify, wsddisco/IWSDiscoveryPublisherNotify
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wsddisco.h
+req.include-header: Wsdapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wsddisco.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wsdapi.dll
+api_name:
+-	IWSDiscoveryPublisherNotify
+product: Windows
+targetos: Windows
+req.lib: Wsdapi.lib
+req.dll: Wsdapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWSDiscoveryPublisherNotify interface

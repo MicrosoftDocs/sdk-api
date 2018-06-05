@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:wmsinternaladminnetsource.IWMSInternalAdminNetSource
+title: IWMSInternalAdminNetSource
+author: windows-sdk-content
+description: The IWMSInternalAdminNetSource interface manages cached passwords and finds proxy servers.To obtain a pointer to an instance of this interface, call the QueryInterface method of the IDispatch interface retrieved by INSNetSourceCreator::GetNetSourceAdminInterface.
+old-location: wmformat\iwmsinternaladminnetsource.htm
+old-project: wmformat
+ms.assetid: 0fbdad85-d94a-4598-bb25-f733df33692a
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], IWMSInternalAdminNetSource interface [windows Media Format],described, IWMSInternalAdminNetSourceInterface, wmformat.iwmsinternaladminnetsource, wmsinternaladminnetsource/IWMSInternalAdminNetSource
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wmsinternaladminnetsource.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmsinternaladminnetsource.h
+api_name:
+-	IWMSInternalAdminNetSource
+-	IWMSInternalAdminNetSource.GetNetSourceCreator
+-	IWMSInternalAdminNetSource.Initialize
+-	IWMSInternalAdminNetSource.IsUsingIE
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMSInternalAdminNetSource interface

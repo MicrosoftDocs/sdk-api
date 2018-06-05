@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPSettings2.get_mediaAccessRights
+title: IWMPSettings2::get_mediaAccessRights
+author: windows-sdk-content
+description: The get_mediaAccessRights method retrieves a value indicating the permissions currently granted for library access.
+old-location: wmp\iwmpsettings2_get_mediaaccessrights.htm
+old-project: WMP
+ms.assetid: 07ca80a3-5175-4b1f-b83c-0df41a010cbf
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPSettings2 interface [Windows Media Player],get_mediaAccessRights method, IWMPSettings2.get_mediaAccessRights, IWMPSettings2::get_mediaAccessRights, IWMPSettings2get_mediaAccessRights, get_mediaAccessRights, get_mediaAccessRights method [Windows Media Player], get_mediaAccessRights method [Windows Media Player],IWMPSettings2 interface, wmp.iwmpsettings2_get_mediaaccessrights, wmp/IWMPSettings2::get_mediaAccessRights
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPSettings2.get_mediaAccessRights
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPSettings2::get_mediaAccessRights

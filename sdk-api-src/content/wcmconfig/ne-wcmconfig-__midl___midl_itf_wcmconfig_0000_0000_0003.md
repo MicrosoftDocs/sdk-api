@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0003
+title: "__MIDL___MIDL_itf_wcmconfig_0000_0000_0003"
+author: windows-sdk-content
+description: Enumerates the data types returned from the ISettingsItem::GetDataType method.
+old-location: smi\wcmdatatype.htm
+old-project: SMI
+ms.assetid: 27cf5831-f515-4864-bd40-a9d64f30c92d
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: WcmDataType, WcmDataType enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0003, dataTypeBoolean, dataTypeByte, dataTypeFlagArray, dataTypeInt16, dataTypeInt32, dataTypeInt64, dataTypeSByte, dataTypeString, dataTypeUInt16, dataTypeUInt32, dataTypeUInt64, smi.wcmdatatype, wcmconfig/WcmDataType, wcmconfig/dataTypeBoolean, wcmconfig/dataTypeByte, wcmconfig/dataTypeFlagArray, wcmconfig/dataTypeInt16, wcmconfig/dataTypeInt32, wcmconfig/dataTypeInt64, wcmconfig/dataTypeSByte, wcmconfig/dataTypeString, wcmconfig/dataTypeUInt16, wcmconfig/dataTypeUInt32, wcmconfig/dataTypeUInt64
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wcmconfig.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WcmConfig.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WcmDataType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WcmConfig.h
+api_name:
+-	WcmDataType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # __MIDL___MIDL_itf_wcmconfig_0000_0000_0003 enumeration

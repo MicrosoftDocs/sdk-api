@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfCandidateListUIElementBehavior.Finalize
+title: ITfCandidateListUIElementBehavior::Finalize
+author: windows-sdk-content
+description: The ITfCandidateListUIElementBehavior::Finalize method finalizes the current selection and close the candidate list.
+old-location: tsf\itfcandidatelistuielementbehavior_finalize.htm
+old-project: TSF
+ms.assetid: 3602c094-4e8c-456b-9b6d-b0fc10110cff
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: Finalize, Finalize method [Text Services Framework], Finalize method [Text Services Framework],ITfCandidateListUIElementBehavior interface, ITfCandidateListUIElementBehavior interface [Text Services Framework],Finalize method, ITfCandidateListUIElementBehavior.Finalize, ITfCandidateListUIElementBehavior::Finalize, msctf/ITfCandidateListUIElementBehavior::Finalize, tsf.itfcandidatelistuielementbehavior_finalize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfCandidateListUIElementBehavior.Finalize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfCandidateListUIElementBehavior::Finalize

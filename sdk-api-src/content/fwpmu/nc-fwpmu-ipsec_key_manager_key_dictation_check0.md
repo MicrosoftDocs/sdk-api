@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:fwpmu.IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
+title: IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
+author: windows-sdk-content
+description: Indicates whether the Trusted Intermediary Agent (TIA) will dictate the keys for the SA being negotiated.
+old-location: fwp\ipsec_key_manager_key_dictation_check0.htm
+old-project: FWP
+ms.assetid: 0B91B57C-6943-4702-8926-8ED2B7B3E48D
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0, IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 function, IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 function pointer [Filtering], fwp.ipsec_key_manager_key_dictation_check0, fwpmu/IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: fwpmu.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Fwpmu.h
+api_name:
+-	IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 callback function

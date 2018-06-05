@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:mfreadwrite.IMFSourceReaderEx
+title: IMFSourceReaderEx
+author: windows-sdk-content
+description: Extends the IMFSourceReader interface.
+old-location: mf\imfsourcereaderex.htm
+old-project: medfound
+ms.assetid: 59888F9B-C464-4045-AA77-03EE16E2B598
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFSourceReaderEx, IMFSourceReaderEx interface [Media Foundation], IMFSourceReaderEx interface [Media Foundation],described, mf.imfsourcereaderex, mfreadwrite/IMFSourceReaderEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mfreadwrite.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_SOURCE_READER_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfreadwrite.h
+api_name:
+-	IMFSourceReaderEx
+product: Windows
+targetos: Windows
+req.lib: Mfreadwrite.lib
+req.dll: Mfreadwrite.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSourceReaderEx interface

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xenroll.IEnroll2.GetKeyLen
+title: IEnroll2::GetKeyLen
+author: windows-sdk-content
+description: The IEnroll4::GetKeyLen method retrieves the minimum and maximum key lengths for the signature and exchange keys.
+old-location: security\ienroll4_getkeylen.htm
+old-project: SecCrypto
+ms.assetid: ece7f5a3-e982-48b2-a249-a9c5b5a8a493
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: GetKeyLen, GetKeyLen method [Security], GetKeyLen method [Security],IEnroll2 interface, IEnroll2 interface [Security],GetKeyLen method, IEnroll2.GetKeyLen, IEnroll2::GetKeyLen, security.ienroll4_getkeylen, xenroll/IEnroll2::GetKeyLen
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	IEnroll2.GetKeyLen
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # IEnroll2::GetKeyLen

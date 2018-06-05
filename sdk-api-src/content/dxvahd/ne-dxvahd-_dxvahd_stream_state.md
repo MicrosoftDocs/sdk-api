@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dxvahd._DXVAHD_STREAM_STATE
+title: "_DXVAHD_STREAM_STATE"
+author: windows-sdk-content
+description: Specifies state parameters for an input stream to a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
+old-location: mf\dxvahd_stream_state.htm
+old-project: medfound
+ms.assetid: 75036101-7498-4d66-afc3-df76ae3cca39
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DXVAHD_STREAM_STATE, DXVAHD_STREAM_STATE enumeration [Media Foundation], DXVAHD_STREAM_STATE_ALPHA, DXVAHD_STREAM_STATE_ASPECT_RATIO, DXVAHD_STREAM_STATE_D3DFORMAT, DXVAHD_STREAM_STATE_DESTINATION_RECT, DXVAHD_STREAM_STATE_FILTER_ANAMORPHIC_SCALING, DXVAHD_STREAM_STATE_FILTER_BRIGHTNESS, DXVAHD_STREAM_STATE_FILTER_CONTRAST, DXVAHD_STREAM_STATE_FILTER_EDGE_ENHANCEMENT, DXVAHD_STREAM_STATE_FILTER_HUE, DXVAHD_STREAM_STATE_FILTER_NOISE_REDUCTION, DXVAHD_STREAM_STATE_FILTER_SATURATION, DXVAHD_STREAM_STATE_FRAME_FORMAT, DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE, DXVAHD_STREAM_STATE_LUMA_KEY, DXVAHD_STREAM_STATE_OUTPUT_RATE, DXVAHD_STREAM_STATE_PALETTE, DXVAHD_STREAM_STATE_PRIVATE, DXVAHD_STREAM_STATE_SOURCE_RECT, _DXVAHD_STREAM_STATE, dxvahd/DXVAHD_STREAM_STATE, dxvahd/DXVAHD_STREAM_STATE_ALPHA, dxvahd/DXVAHD_STREAM_STATE_ASPECT_RATIO, dxvahd/DXVAHD_STREAM_STATE_D3DFORMAT, dxvahd/DXVAHD_STREAM_STATE_DESTINATION_RECT, dxvahd/DXVAHD_STREAM_STATE_FILTER_ANAMORPHIC_SCALING, dxvahd/DXVAHD_STREAM_STATE_FILTER_BRIGHTNESS, dxvahd/DXVAHD_STREAM_STATE_FILTER_CONTRAST, dxvahd/DXVAHD_STREAM_STATE_FILTER_EDGE_ENHANCEMENT, dxvahd/DXVAHD_STREAM_STATE_FILTER_HUE, dxvahd/DXVAHD_STREAM_STATE_FILTER_NOISE_REDUCTION, dxvahd/DXVAHD_STREAM_STATE_FILTER_SATURATION, dxvahd/DXVAHD_STREAM_STATE_FRAME_FORMAT, dxvahd/DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE, dxvahd/DXVAHD_STREAM_STATE_LUMA_KEY, dxvahd/DXVAHD_STREAM_STATE_OUTPUT_RATE, dxvahd/DXVAHD_STREAM_STATE_PALETTE, dxvahd/DXVAHD_STREAM_STATE_PRIVATE, dxvahd/DXVAHD_STREAM_STATE_SOURCE_RECT, mf.dxvahd_stream_state
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxvahd.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXVAHD_STREAM_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxvahd.h
+api_name:
+-	DXVAHD_STREAM_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DXVAHD_STREAM_STATE enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:portabledeviceapi.IPortableDevice.Unadvise
+title: IPortableDevice::Unadvise
+author: windows-sdk-content
+description: The Unadvise method unregisters a client from receiving callback notifications. You must call this method if you called Advise previously.
+old-location: wpdsdk\iportabledevice_unadvise.htm
+old-project: wpd_sdk
+ms.assetid: 6720e92b-35cd-4e3f-bd21-36337cf80140
+ms.author: windowssdkdev
+ms.date: 04/11/2018
+ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],Unadvise method, IPortableDevice.Unadvise, IPortableDevice::Unadvise, IPortableDeviceUnadvise, Unadvise, Unadvise method [Windows Portable Devices SDK], Unadvise method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::Unadvise, wpdsdk.iportabledevice_unadvise
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: portabledeviceapi.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PortableDeviceGUIDs.lib
+-	PortableDeviceGUIDs.dll
+api_name:
+-	IPortableDevice.Unadvise
+product: Windows
+targetos: Windows
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPortableDevice::Unadvise

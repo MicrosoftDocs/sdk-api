@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rpcdcep._RPC_MESSAGE
+title: "_RPC_MESSAGE"
+author: windows-sdk-content
+description: The RPC_MESSAGE structure contains information shared between NDR and the rest of the RPC or OLE runtime.
+old-location: rpc\rpc_message.htm
+old-project: Rpc
+ms.assetid: fd014622-97b3-4f76-8bc3-10821aa3c46e
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PRPC_MESSAGE, PRPC_MESSAGE, PRPC_MESSAGE structure pointer [RPC], RPC_MESSAGE, RPC_MESSAGE structure [RPC], _RPC_MESSAGE, rpc.rpc_message, rpcdcep/PRPC_MESSAGE, rpcdcep/RPC_MESSAGE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rpcdcep.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	RpcdceP.h
+api_name:
+-	RPC_MESSAGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RPC_MESSAGE structure

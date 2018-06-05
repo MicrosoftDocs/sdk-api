@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:commctrl.FlatSB_GetScrollPos
+title: FlatSB_GetScrollPos function
+author: windows-sdk-content
+description: Gets the thumb position in a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard GetScrollPos function.
+old-location: controls\FlatSB_GetScrollPos.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollpos.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: FlatSB_GetScrollPos, FlatSB_GetScrollPos function [Windows Controls], SB_HORZ, SB_VERT, _win32_FlatSB_GetScrollPos, _win32_FlatSB_GetScrollPos_cpp, commctrl/FlatSB_GetScrollPos, controls.FlatSB_GetScrollPos, controls._win32_FlatSB_GetScrollPos
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STGOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Comctl32.dll
+api_name:
+-	FlatSB_GetScrollPos
+product: Windows
+targetos: Windows
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll (version 4.71 or later)
+req.irql: 
 ---
 
 # FlatSB_GetScrollPos function

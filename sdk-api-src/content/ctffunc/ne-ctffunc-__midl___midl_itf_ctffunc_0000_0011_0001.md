@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ctffunc.__MIDL___MIDL_itf_ctffunc_0000_0011_0001
+title: "__MIDL___MIDL_itf_ctffunc_0000_0011_0001"
+author: windows-sdk-content
+description: Elements of the TfSapiObject enumeration are used with the ITfFnGetSAPIObject::Get method to specify a specific type of Speech API (SAPI) object.
+old-location: tsf\tfsapiobject.htm
+old-project: TSF
+ms.assetid: 82fb6417-efee-4f04-a9a9-4e52934e2e86
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GETIF_DICTGRAM, GETIF_RECOCONTEXT, GETIF_RECOGNIZER, GETIF_RECOGNIZERNOINIT, GETIF_RESMGR, GETIF_VOICE, TfSapiObject, TfSapiObject enumeration [Text Services Framework], __MIDL___MIDL_itf_ctffunc_0000_0011_0001, _tsf_tfsapiobject_ref, ctffunc/GETIF_DICTGRAM, ctffunc/GETIF_RECOCONTEXT, ctffunc/GETIF_RECOGNIZER, ctffunc/GETIF_RECOGNIZERNOINIT, ctffunc/GETIF_RESMGR, ctffunc/GETIF_VOICE, ctffunc/TfSapiObject, tsf.tfsapiobject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ctffunc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ctffunc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TfSapiObject
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ctffunc.h
+api_name:
+-	TfSapiObject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 ---
 
 # __MIDL___MIDL_itf_ctffunc_0000_0011_0001 enumeration

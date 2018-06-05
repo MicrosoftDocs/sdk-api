@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITBasicCallControl.Transfer
+title: ITBasicCallControl::Transfer
+author: windows-sdk-content
+description: The Transfer method transfers the current call to the destination address.
+old-location: tapi3\itbasiccallcontrol_transfer.htm
+old-project: Tapi
+ms.assetid: 4f2a06e6-9f0b-4bf3-9f18-6e9f57c4b02f
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITBasicCallControl interface [TAPI 2.2],Transfer method, ITBasicCallControl.Transfer, ITBasicCallControl::Transfer, Transfer, Transfer method [TAPI 2.2], Transfer method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_transfer, tapi3.itbasiccallcontrol_transfer, tapi3if/ITBasicCallControl::Transfer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITBasicCallControl.Transfer
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITBasicCallControl::Transfer

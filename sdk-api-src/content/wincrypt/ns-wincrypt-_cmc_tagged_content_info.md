@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CMC_TAGGED_CONTENT_INFO
+title: "_CMC_TAGGED_CONTENT_INFO"
+author: windows-sdk-content
+description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.
+old-location: security\cmc_tagged_content_info.htm
+old-project: SecCrypto
+ms.assetid: ff10dcdf-4c76-434a-a8bd-78d64ea24d23
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCMC_TAGGED_CONTENT_INFO, CMC_TAGGED_CONTENT_INFO, CMC_TAGGED_CONTENT_INFO structure [Security], PCMC_TAGGED_CONTENT_INFO, PCMC_TAGGED_CONTENT_INFO structure pointer [Security], _CMC_TAGGED_CONTENT_INFO, _crypto2_cmc_tagged_content_info, security.cmc_tagged_content_info, wincrypt/CMC_TAGGED_CONTENT_INFO, wincrypt/PCMC_TAGGED_CONTENT_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CMC_TAGGED_CONTENT_INFO, *PCMC_TAGGED_CONTENT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CMC_TAGGED_CONTENT_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CMC_TAGGED_CONTENT_INFO structure

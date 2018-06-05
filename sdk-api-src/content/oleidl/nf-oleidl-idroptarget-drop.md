@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleidl.IDropTarget.Drop
+title: IDropTarget::Drop
+author: windows-sdk-content
+description: Incorporates the source data into the target window, removes target feedback, and releases the data object.
+old-location: com\idroptarget_drop.htm
+old-project: com
+ms.assetid: 7ea6d815-bf8f-47d5-99d3-f9a55bafee2e
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: Drop, Drop method [COM], Drop method [COM],IDropTarget interface, IDropTarget interface [COM],Drop method, IDropTarget.Drop, IDropTarget::Drop, _ole_idroptarget_drop, com.idroptarget_drop, oleidl/IDropTarget::Drop
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oleidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OleIdl.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERCLASSTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	OleIdl.h
+api_name:
+-	IDropTarget.Drop
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDropTarget::Drop

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ipmib._MIB_IPFORWARDROW
+title: "_MIB_IPFORWARDROW"
+author: windows-sdk-content
+description: Contains information that describes an IPv4 network route.
+old-location: mib\mib_ipforwardrow.htm
+old-project: MIB
+ms.assetid: ff451481-3e9d-4add-94e2-846d67002a38
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIB_IPFORWARDROW, MIB_IPFORWARDROW, MIB_IPFORWARDROW structure [MIB], MIB_IPPROTO_BBN, MIB_IPPROTO_BGP, MIB_IPPROTO_CISCO, MIB_IPPROTO_EGP, MIB_IPPROTO_ES_IS, MIB_IPPROTO_GGP, MIB_IPPROTO_HELLO, MIB_IPPROTO_ICMP, MIB_IPPROTO_IS_IS, MIB_IPPROTO_LOCAL, MIB_IPPROTO_NETMGMT, MIB_IPPROTO_NT_AUTOSTATIC, MIB_IPPROTO_NT_STATIC, MIB_IPPROTO_NT_STATIC_NON_DOD, MIB_IPPROTO_OSPF, MIB_IPPROTO_OTHER, MIB_IPPROTO_RIP, MIB_IPROUTE_TYPE_DIRECT, MIB_IPROUTE_TYPE_INDIRECT, MIB_IPROUTE_TYPE_INVALID, MIB_IPROUTE_TYPE_OTHER, PMIB_IPFORWARDROW, PMIB_IPFORWARDROW structure pointer [MIB], _MIB_IPFORWARDROW, _mpr_mib_ipforwardrow, ipmib/MIB_IPFORWARDROW, ipmib/PMIB_IPFORWARDROW, iprtrmib/MIB_IPFORWARDROW, iprtrmib/PMIB_IPFORWARDROW, mib.mib_ipforwardrow, rras.mib_ipforwardrow"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ipmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_IPFORWARDROW, *PMIB_IPFORWARDROW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipmib.h
+-	Iprtrmib.h
+api_name:
+-	MIB_IPFORWARDROW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MIB_IPFORWARDROW structure

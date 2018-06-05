@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iketypes.IKEEXT_CERT_ROOT_CONFIG0_
+title: IKEEXT_CERT_ROOT_CONFIG0_
+author: windows-sdk-content
+description: Stores the IKE, AuthIP, or IKEv2 certificate root configuration.
+old-location: fwp\ikeext_cert_root_config0.htm
+old-project: FWP
+ms.assetid: 820da66b-670e-490e-bba4-c2b0afb6dfd1
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IKEEXT_CERT_FLAG_DISABLE_REQUEST_PAYLOAD, IKEEXT_CERT_FLAG_ENABLE_ACCOUNT_MAPPING, IKEEXT_CERT_FLAG_FOLLOW_RENEWAL_CERTIFICATE, IKEEXT_CERT_FLAG_IGNORE_INIT_CERT_MAP_FAILURE, IKEEXT_CERT_FLAG_INTERMEDIATE_CA, IKEEXT_CERT_FLAG_PREFER_NAP_CERTIFICATE_OUTBOUND, IKEEXT_CERT_FLAG_SELECT_NAP_CERTIFICATE, IKEEXT_CERT_FLAG_USE_NAP_CERTIFICATE, IKEEXT_CERT_FLAG_VERIFY_NAP_CERTIFICATE, IKEEXT_CERT_ROOT_CONFIG0, IKEEXT_CERT_ROOT_CONFIG0 structure [Filtering], IKEEXT_CERT_ROOT_CONFIG0_, fwp.ikeext_cert_root_config0, iketypes/IKEEXT_CERT_ROOT_CONFIG0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iketypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Iketypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IKEEXT_CERT_ROOT_CONFIG0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iketypes.h
+api_name:
+-	IKEEXT_CERT_ROOT_CONFIG0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IKEEXT_CERT_ROOT_CONFIG0_ structure

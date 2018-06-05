@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mprapi._RAS_CONNECTION_4
+title: "_RAS_CONNECTION_4"
+author: windows-sdk-content
+description: Contains specific information for the connection that includes:\_the user name, domain, Globally Unique Identifier (GUID) associated with the connection, Network Access Protection (NAP) quarantine state, packet statistics, as well as its Point-to-Point (PPP) and Internet Key Exchange version 2 (IKEv2) related information.
+old-location: rras\ras_connection_4.htm
+old-project: RRAS
+ms.assetid: b7cd637d-45ad-4e4c-b5b2-e85b142375ff
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PRAS_CONNECTION_4, PRAS_CONNECTION_4, PRAS_CONNECTION_4 structure pointer [RAS], RAS_CONNECTION_4, RAS_CONNECTION_4 structure [RAS], RAS_FLAGS_ARAP_CONNECTION, RAS_FLAGS_DORMANT, RAS_FLAGS_IKEV2_CONNECTION, RAS_FLAGS_MESSENGER_PRESENT, RAS_FLAGS_PPP_CONNECTION, RAS_FLAGS_QUARANTINE_PRESENT, RDT_Tunnel_IKev2, RDT_Tunnel_L2tp, RDT_Tunnel_Pptp, RDT_Tunnel_Sstp, _RAS_CONNECTION_4, mprapi/PRAS_CONNECTION_4, mprapi/RAS_CONNECTION_4, rras.ras_connection_4"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RAS_CONNECTION_4, *PRAS_CONNECTION_4
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mprapi.h
+api_name:
+-	RAS_CONNECTION_4
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _RAS_CONNECTION_4 structure

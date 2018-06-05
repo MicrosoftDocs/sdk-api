@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wcsplugin._BlackInformation
+title: "_BlackInformation"
+author: windows-sdk-content
+description: Contains information for device models that have a black color channel.
+old-location: wcs\blackinformation.htm
+old-project: WCS
+ms.assetid: b90699f6-b42e-4848-947b-76633dc35802
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: BlackInformation, BlackInformation structure [Windows Color System], _BlackInformation, _color_BlackInformation_str, wcs.blackinformation, wcsplugin/BlackInformation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wcsplugin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BlackInformation
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WcsPlugIn.h
+api_name:
+-	BlackInformation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _BlackInformation structure

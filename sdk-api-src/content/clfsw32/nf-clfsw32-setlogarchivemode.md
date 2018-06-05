@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:clfsw32.SetLogArchiveMode
+title: SetLogArchiveMode function
+author: windows-sdk-content
+description: Enables or disables log archive support for a specified log.
+old-location: fs\setlogarchivemode.htm
+old-project: Clfs
+ms.assetid: 9f8a9ab9-2873-44c2-aa8d-78514ffe42bb
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CLFS_LOG_ARCHIVE_MODE, ClfsLogArchiveDisabled, ClfsLogArchiveEnabled, SetLogArchiveMode, SetLogArchiveMode function [Files], clfsw32/SetLogArchiveMode, fs.setlogarchivemode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: clfsw32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ClfsW32.dll
+api_name:
+-	SetLogArchiveMode
+product: Windows
+targetos: Windows
+req.lib: ClfsW32.lib
+req.dll: ClfsW32.dll
+req.irql: 
 ---
 
 # SetLogArchiveMode function

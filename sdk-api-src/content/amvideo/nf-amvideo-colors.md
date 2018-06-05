@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:amvideo.COLORS
+title: COLORS macro
+author: windows-sdk-content
+description: The COLORS macro retrieves the palette entries from a VIDEOINFO structure.
+old-location: dshow\colors.htm
+old-project: DirectShow
+ms.assetid: 32541ee4-53ef-4f0a-b823-bb475a93a195
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: COLORS, COLORS function [DirectShow], amvideo/COLORS, dshow.colors
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: amvideo.h
+req.include-header: Streams.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Strmbase.lib
+-	Strmbase.dll
+-	Strmbasd.lib
+-	Strmbasd.dll
+api_name:
+-	COLORS
+product: Windows
+targetos: Windows
+req.lib: Strmbase.lib (retail builds); Strmbasd.lib (debug builds)
+req.dll: 
+req.irql: 
 ---
 
 # COLORS macro

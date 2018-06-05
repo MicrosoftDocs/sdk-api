@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:highlevelmonitorconfigurationapi._MC_COLOR_TEMPERATURE
+title: "_MC_COLOR_TEMPERATURE"
+author: windows-sdk-content
+description: Describes a monitor's color temperature.
+old-location: monitor\mc_color_temperature.htm
+old-project: Monitor
+ms.assetid: 890d1d84-6a7d-457b-8136-230be4c79e78
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPMC_COLOR_TEMPERATURE, LPMC_COLOR_TEMPERATURE, LPMC_COLOR_TEMPERATURE enumeration pointer [Monitor Configuration], MC_COLOR_TEMPERATURE, MC_COLOR_TEMPERATURE , MC_COLOR_TEMPERATURE enumeration [Monitor Configuration], MC_COLOR_TEMPERATURE_10000K, MC_COLOR_TEMPERATURE_11500K, MC_COLOR_TEMPERATURE_4000K, MC_COLOR_TEMPERATURE_5000K, MC_COLOR_TEMPERATURE_6500K, MC_COLOR_TEMPERATURE_7500K, MC_COLOR_TEMPERATURE_8200K, MC_COLOR_TEMPERATURE_9300K, MC_COLOR_TEMPERATURE_UNKNOWN, _MC_COLOR_TEMPERATURE, highlevelmonitorconfigurationapi/LPMC_COLOR_TEMPERATURE, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_10000K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_11500K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_4000K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_5000K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_6500K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_7500K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_8200K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_9300K, highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE_UNKNOWN, monitor.mc_color_temperature"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: highlevelmonitorconfigurationapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MC_COLOR_TEMPERATURE, *LPMC_COLOR_TEMPERATURE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	HighLevelMonitorConfigurationAPI.h
+api_name:
+-	MC_COLOR_TEMPERATURE
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MC_COLOR_TEMPERATURE enumeration

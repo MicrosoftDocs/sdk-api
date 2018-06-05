@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:tdh._EVENT_PROPERTY_INFO
+title: "_EVENT_PROPERTY_INFO"
+author: windows-sdk-content
+description: Provides information about a single property of the event or filter.
+old-location: etw\event_property_info_struct.htm
+old-project: ETW
+ms.assetid: 06b82b31-1f0e-45d5-88ec-9b9835af10df
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PEVENT_PROPERTY_INFO, EVENT_PROPERTY_INFO, EVENT_PROPERTY_INFO structure [ETW], _EVENT_PROPERTY_INFO, etw.event_property_info_struct, tdh.event_property_info_struct, tdh/EVENT_PROPERTY_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVENT_PROPERTY_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tdh.h
+api_name:
+-	EVENT_PROPERTY_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _EVENT_PROPERTY_INFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._KERB_CERTIFICATE_LOGON
+title: "_KERB_CERTIFICATE_LOGON"
+author: windows-sdk-content
+description: Contains information about a smart card logon session.
+old-location: security\kerb_certificate_logon.htm
+old-project: SecAuthN
+ms.assetid: e6aa0042-edb5-4e9b-b545-5159d3bfb8fc
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PKERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_LOGON structure [Security], KERB_CERTIFICATE_LOGON_FLAG_CHECK_DUPLICATES, KERB_CERTIFICATE_LOGON_FLAG_USE_CERTIFICATE_INFO, KerbCertificateLogon, KerbCertificateUnlockLogon, PKERB_CERTIFICATE_LOGON, PKERB_CERTIFICATE_LOGON structure pointer [Security], _KERB_CERTIFICATE_LOGON, ntsecapi/KERB_CERTIFICATE_LOGON, ntsecapi/PKERB_CERTIFICATE_LOGON, security.kerb_certificate_logon"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KERB_CERTIFICATE_LOGON, *PKERB_CERTIFICATE_LOGON
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	KERB_CERTIFICATE_LOGON
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _KERB_CERTIFICATE_LOGON structure

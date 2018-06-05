@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.BUTTON_IMAGELIST
+title: BUTTON_IMAGELIST
+author: windows-sdk-content
+description: Contains information about an image list that is used with a button control.
+old-location: controls\BUTTON_IMAGELIST.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\button_imagelist.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PBUTTON_IMAGELIST, BUTTON_IMAGELIST, BUTTON_IMAGELIST structure [Windows Controls], BUTTON_IMAGELIST_ALIGN_BOTTOM, BUTTON_IMAGELIST_ALIGN_CENTER, BUTTON_IMAGELIST_ALIGN_LEFT, BUTTON_IMAGELIST_ALIGN_RIGHT, BUTTON_IMAGELIST_ALIGN_TOP, PBUTTON_IMAGELIST, PBUTTON_IMAGELIST structure pointer [Windows Controls], _win32_BUTTON_IMAGELIST_str, _win32_BUTTON_IMAGELIST_str_cpp, commctrl/BUTTON_IMAGELIST, commctrl/PBUTTON_IMAGELIST, controls.BUTTON_IMAGELIST, controls._win32_BUTTON_IMAGELIST_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BUTTON_IMAGELIST, *PBUTTON_IMAGELIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	BUTTON_IMAGELIST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # BUTTON_IMAGELIST structure

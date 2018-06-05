@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:dxgi1_6.IDXGIFactory6
+title: IDXGIFactory6
+author: windows-sdk-content
+description: This interface enables a single method that enumerates graphics adapters based on a given GPU preference.
+old-location: direct3ddxgi\idxgifactory6.htm
+old-project: direct3ddxgi
+ms.assetid: CB4BC8A4-D5D5-48B9-A477-65A12A43D4A6
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IDXGIFactory6, IDXGIFactory6 interface [DXGI], IDXGIFactory6 interface [DXGI],described, direct3ddxgi.idxgifactory6, dxgi1_6/IDXGIFactory6
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: dxgi1_6.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxgi.lib
+-	dxgi.dll
+api_name:
+-	IDXGIFactory6
+product: Windows
+targetos: Windows
+req.lib: Dxgi.lib
+req.dll: Dxgi.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGIFactory6 interface

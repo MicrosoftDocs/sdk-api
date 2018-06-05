@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:objidl.tagLOCKTYPE
+title: tagLOCKTYPE
+author: windows-sdk-content
+description: The LOCKTYPE enumeration values indicate the type of locking requested for the specified range of bytes. The values are used in the ILockBytes::LockRegion and IStream::LockRegion methods.
+old-location: stg\locktype.htm
+old-project: Stg
+ms.assetid: 5d84fb08-aa4f-4918-a0de-550b02cb5287
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: LOCKTYPE, LOCKTYPE enumeration [Structured Storage], LOCK_EXCLUSIVE, LOCK_ONLYONCE, LOCK_WRITE, _stg_locktype, objidl/LOCKTYPE, objidl/LOCK_EXCLUSIVE, objidl/LOCK_ONLYONCE, objidl/LOCK_WRITE, stg.locktype, tagLOCKTYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Objidlbase.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LOCKTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Objidl.h
+api_name:
+-	LOCKTYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagLOCKTYPE enumeration

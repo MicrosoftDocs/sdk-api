@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmcontainer.IMFASFIndexer.SetIndexByteStreams
+title: IMFASFIndexer::SetIndexByteStreams
+author: windows-sdk-content
+description: Adds byte streams to be indexed.
+old-location: mf\imfasfindexer_setindexbytestreams.htm
+old-project: medfound
+ms.assetid: f116baaa-8d9b-4ac0-9263-3bb65d67ee63
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFASFIndexer interface [Media Foundation],SetIndexByteStreams method, IMFASFIndexer.SetIndexByteStreams, IMFASFIndexer::SetIndexByteStreams, SetIndexByteStreams, SetIndexByteStreams method [Media Foundation], SetIndexByteStreams method [Media Foundation],IMFASFIndexer interface, f116baaa-8d9b-4ac0-9263-3bb65d67ee63, mf.imfasfindexer_setindexbytestreams, wmcontainer/IMFASFIndexer::SetIndexByteStreams
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmcontainer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFASF_STREAMSELECTOR_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFASFIndexer.SetIndexByteStreams
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IMFASFIndexer::SetIndexByteStreams

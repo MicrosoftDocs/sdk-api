@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mbnapi.IMbnDeviceServicesEvents.OnCloseDataSessionComplete
+title: IMbnDeviceServicesEvents::OnCloseDataSessionComplete
+author: windows-sdk-content
+description: Notification method indicating that a device service session CloseDataSession request has completed.
+old-location: mbn\imbndeviceservicesevents_onclosedatasessioncomplete.htm
+old-project: mbn
+ms.assetid: 003D87F7-CFFD-47A3-8DAA-0CF9F64E2CF6
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnCloseDataSessionComplete method, IMbnDeviceServicesEvents.OnCloseDataSessionComplete, IMbnDeviceServicesEvents::OnCloseDataSessionComplete, OnCloseDataSessionComplete, OnCloseDataSessionComplete method [Microsoft Broadband Networks], OnCloseDataSessionComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onclosedatasessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnCloseDataSessionComplete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnDeviceServicesEvents.OnCloseDataSessionComplete
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMbnDeviceServicesEvents::OnCloseDataSessionComplete

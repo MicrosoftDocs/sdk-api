@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:batclass.BCLASS_SET_STATUS_NOTIFY_CALLBACK
+title: BCLASS_SET_STATUS_NOTIFY_CALLBACK
+author: windows-sdk-content
+description: BatteryMiniSetStatusNotify sets the battery capacity and power state levels at which the class driver requires notification.
+old-location: battery\batteryminisetstatusnotify.htm
+old-project: battery
+ms.assetid: ec463202-4c08-475a-b612-73413f1376fc
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: BCLASS_SET_STATUS_NOTIFY_CALLBACK, BCLASS_SET_STATUS_NOTIFY_CALLBACK callback, BatteryMiniSetStatusNotify, BatteryMiniSetStatusNotify callback function [Battery Devices], bat-mini_a7e948a0-2fe9-4727-88e1-9eb27272789d.xml, batclass/BatteryMiniSetStatusNotify, battery.batteryminisetstatusnotify
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: batclass.h
+req.include-header: Batclass.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AZ_PROP_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Batclass.h
+api_name:
+-	BatteryMiniSetStatusNotify
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: PASSIVE_LEVEL
 ---
 
 # BCLASS_SET_STATUS_NOTIFY_CALLBACK callback function

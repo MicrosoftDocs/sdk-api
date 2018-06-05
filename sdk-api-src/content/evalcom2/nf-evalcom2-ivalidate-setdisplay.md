@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:evalcom2.IValidate.SetDisplay
+title: IValidate::SetDisplay
+author: windows-sdk-content
+description: The SetDisplay method enables an authoring tool to obtain ICE status messages through a callback function.
+old-location: setup\ivalidate_setdisplay.htm
+old-project: Msi
+ms.assetid: e376740e-82fc-44da-b200-c74d73978c6e
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IValidate interface,SetDisplay method, IValidate.SetDisplay, IValidate::SetDisplay, SetDisplay, SetDisplay method, SetDisplay method,IValidate interface, evalcom2/IValidate::SetDisplay, setup.ivalidate_setdisplay
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: evalcom2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Evalcom2.dll version 3.0.3790.371 or later
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Evalcom2.dll
+api_name:
+-	IValidate.SetDisplay
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Evalcom2.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IValidate::SetDisplay

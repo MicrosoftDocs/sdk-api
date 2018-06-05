@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d2d1effects.D2D1_SCALE_PROP
+title: D2D1_SCALE_PROP
+author: windows-sdk-content
+description: Identifiers for properties of the Scale effect.
+old-location: direct2d\d2d1_scale_prop.htm
+old-project: Direct2D
+ms.assetid: 0FBAC940-3E73-4672-AFD7-F29459849592
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_SCALE_PROP, D2D1_SCALE_PROP enumeration [Direct2D], D2D1_SCALE_PROP_BORDER_MODE, D2D1_SCALE_PROP_CENTER_POINT, D2D1_SCALE_PROP_INTERPOLATION_MODE, D2D1_SCALE_PROP_SCALE, D2D1_SCALE_PROP_SHARPNESS, d2d1effects/D2D1_SCALE_PROP, d2d1effects/D2D1_SCALE_PROP_BORDER_MODE, d2d1effects/D2D1_SCALE_PROP_CENTER_POINT, d2d1effects/D2D1_SCALE_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_SCALE_PROP_SCALE, d2d1effects/D2D1_SCALE_PROP_SHARPNESS, direct2d.d2d1_scale_prop
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1effects.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_SCALE_PROP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1effects.h
+api_name:
+-	D2D1_SCALE_PROP
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D2D1_SCALE_PROP enumeration

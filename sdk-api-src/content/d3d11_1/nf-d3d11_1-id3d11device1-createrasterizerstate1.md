@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:d3d11_1.ID3D11Device1.CreateRasterizerState1
+title: ID3D11Device1::CreateRasterizerState1
+author: windows-sdk-content
+description: Creates a rasterizer state object that informs the rasterizer stage how to behave and forces the sample count while UAV rendering or rasterizing.
+old-location: direct3d11\id3d11device1_createrasterizerstate1.htm
+old-project: direct3d11
+ms.assetid: EBA793F1-35AA-4586-9D5C-803BD58B1D95
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: CreateRasterizerState1, CreateRasterizerState1 method [Direct3D 11], CreateRasterizerState1 method [Direct3D 11],ID3D11Device1 interface, ID3D11Device1 interface [Direct3D 11],CreateRasterizerState1 method, ID3D11Device1.CreateRasterizerState1, ID3D11Device1::CreateRasterizerState1, d3d11_1/ID3D11Device1::CreateRasterizerState1, direct3d11.id3d11device1_createrasterizerstate1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11Device1.CreateRasterizerState1
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11Device1::CreateRasterizerState1

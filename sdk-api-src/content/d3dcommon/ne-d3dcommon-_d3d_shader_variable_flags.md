@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3dcommon._D3D_SHADER_VARIABLE_FLAGS
+title: "_D3D_SHADER_VARIABLE_FLAGS"
+author: windows-sdk-content
+description: Values that identify information about a shader variable.
+old-location: direct3d11\d3d_shader_variable_flags.htm
+old-project: direct3d11
+ms.assetid: b89dc001-c335-4994-a644-88bfbeb7d663
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D10_SVF_USED, D3D10_SVF_USERPACKED, D3D11_SVF_INTERFACE_PARAMETER, D3D11_SVF_INTERFACE_POINTER, D3D_SHADER_VARIABLE_FLAGS, D3D_SHADER_VARIABLE_FLAGS enumeration [Direct3D 11], D3D_SVF_FORCE_DWORD, D3D_SVF_INTERFACE_PARAMETER, D3D_SVF_INTERFACE_POINTER, D3D_SVF_USED, D3D_SVF_USERPACKED, _D3D_SHADER_VARIABLE_FLAGS, d3dcommon/D3D10_SVF_USED, d3dcommon/D3D10_SVF_USERPACKED, d3dcommon/D3D11_SVF_INTERFACE_PARAMETER, d3dcommon/D3D11_SVF_INTERFACE_POINTER, d3dcommon/D3D_SHADER_VARIABLE_FLAGS, d3dcommon/D3D_SVF_FORCE_DWORD, d3dcommon/D3D_SVF_INTERFACE_PARAMETER, d3dcommon/D3D_SVF_INTERFACE_POINTER, d3dcommon/D3D_SVF_USED, d3dcommon/D3D_SVF_USERPACKED, direct3d11.d3d_shader_variable_flags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3dcommon.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_SHADER_VARIABLE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3DCommon.h
+api_name:
+-	D3D_SHADER_VARIABLE_FLAGS
+product: Windows
+targetos: Windows
+req.lib: D3d9.lib
+req.dll: 
+req.irql: 
 ---
 
 # _D3D_SHADER_VARIABLE_FLAGS enumeration

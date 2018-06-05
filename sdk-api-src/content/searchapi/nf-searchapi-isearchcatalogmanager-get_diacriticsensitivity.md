@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:searchapi.ISearchCatalogManager.get_DiacriticSensitivity
+title: ISearchCatalogManager::get_DiacriticSensitivity
+author: windows-sdk-content
+description: Gets a value that indicates whether the catalog is sensitive to diacritics. A diacritic is a mark added to a letter to indicate a special phonetic value or pronunciation.
+old-location: search\_search_ISearchCatalogManager_get_DiacriticSensitivity.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\get_diacriticsensitivity.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: ISearchCatalogManager interface [search],get_DiacriticSensitivity method, ISearchCatalogManager.get_DiacriticSensitivity, ISearchCatalogManager::get_DiacriticSensitivity, _search_ISearchCatalogManager_get_DiacriticSensitivity, get_DiacriticSensitivity, get_DiacriticSensitivity method [search], get_DiacriticSensitivity method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_get_DiacriticSensitivity, searchapi/ISearchCatalogManager::get_DiacriticSensitivity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: searchapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Searchcatalog.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ROWSETEVENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Searchapi.h
+api_name:
+-	ISearchCatalogManager.get_DiacriticSensitivity
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISearchCatalogManager::get_DiacriticSensitivity

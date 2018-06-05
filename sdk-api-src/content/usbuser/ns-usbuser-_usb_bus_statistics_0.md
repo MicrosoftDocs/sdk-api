@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:usbuser._USB_BUS_STATISTICS_0
+title: "_USB_BUS_STATISTICS_0"
+author: windows-sdk-content
+description: The USB_BUS_STATISTICS_0 structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve bus statistics.
+old-location: buses\usb_bus_statistics_0.htm
+old-project: usbref
+ms.assetid: d9673718-c39c-4f26-8d59-553366b8bd0a
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: "*PUSB_BUS_STATISTICS_0, PUSB_BUS_STATISTICS_0, PUSB_BUS_STATISTICS_0 structure pointer [Buses], USB_BUS_STATISTICS_0, USB_BUS_STATISTICS_0 structure [Buses], _USB_BUS_STATISTICS_0, buses.usb_bus_statistics_0, usbstrct_673e06da-582e-4496-9f33-b0c8b915ef0f.xml, usbuser/PUSB_BUS_STATISTICS_0, usbuser/USB_BUS_STATISTICS_0"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: usbuser.h
+req.include-header: Usbuser.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USB_BUS_STATISTICS_0, *PUSB_BUS_STATISTICS_0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	usbuser.h
+api_name:
+-	USB_BUS_STATISTICS_0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _USB_BUS_STATISTICS_0 structure

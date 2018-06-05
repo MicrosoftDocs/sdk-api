@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:lmwksta.NetWkstaTransportAdd
+title: NetWkstaTransportAdd function
+author: windows-sdk-content
+description: Not supported.
+old-location: netmgmt\netwkstatransportadd.htm
+old-project: NetMgmt
+ms.assetid: 016060ea-eae1-421f-b708-5c2ddd2000c1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 0, NetWkstaTransportAdd, NetWkstaTransportAdd function [Network Management], _win32_netwkstatransportadd, lmwksta/NetWkstaTransportAdd, netmgmt.netwkstatransportadd
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: lmwksta.h
+req.include-header: Lm.h, Lmwksta.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USE_INFO_3, *PUSE_INFO_3, *LPUSE_INFO_3
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netapi32.dll
+api_name:
+-	NetWkstaTransportAdd
+product: Windows
+targetos: Windows
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # NetWkstaTransportAdd function

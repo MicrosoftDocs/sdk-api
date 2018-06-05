@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmcontainer.IMFDRMNetHelper.GetChainedLicenseResponse
+title: IMFDRMNetHelper::GetChainedLicenseResponse
+author: windows-sdk-content
+description: Not implemented in this release.
+old-location: mf\imfdrmnethelper_getchainedlicenseresponse.htm
+old-project: medfound
+ms.assetid: eedbefd8-8540-4bf9-b602-6bebf089fcf7
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetChainedLicenseResponse, GetChainedLicenseResponse method [Media Foundation], GetChainedLicenseResponse method [Media Foundation],IMFDRMNetHelper interface, IMFDRMNetHelper interface [Media Foundation],GetChainedLicenseResponse method, IMFDRMNetHelper.GetChainedLicenseResponse, IMFDRMNetHelper::GetChainedLicenseResponse, mf.imfdrmnethelper_getchainedlicenseresponse, wmcontainer/IMFDRMNetHelper::GetChainedLicenseResponse
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmcontainer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFASF_STREAMSELECTOR_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmcontainer.h
+api_name:
+-	IMFDRMNetHelper.GetChainedLicenseResponse
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IMFDRMNetHelper::GetChainedLicenseResponse

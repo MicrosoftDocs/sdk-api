@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdatif.IEnumGuideDataProperties.Clone
+title: IEnumGuideDataProperties::Clone
+author: windows-sdk-content
+description: Not implemented for this release.
+old-location: mstv\ienumguidedataproperties_clone.htm
+old-project: mstv
+ms.assetid: 4956b37c-a39f-4f5d-bc2d-9746a98660ec
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumGuideDataProperties interface, IEnumGuideDataProperties interface [Microsoft TV Technologies],Clone method, IEnumGuideDataProperties.Clone, IEnumGuideDataProperties::Clone, IEnumGuideDataPropertiesClone, bdatif/IEnumGuideDataProperties::Clone, mstv.ienumguidedataproperties_clone
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdatif.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SmartCardApplication
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdatif.h
+api_name:
+-	IEnumGuideDataProperties.Clone
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IEnumGuideDataProperties::Clone

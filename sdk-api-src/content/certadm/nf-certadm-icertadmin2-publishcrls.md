@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certadm.ICertAdmin2.PublishCRLs
+title: ICertAdmin2::PublishCRLs
+author: windows-sdk-content
+description: Publishes certificate revocation lists (CRLs) for a certification authority (CA).
+old-location: security\icertadmin2_publishcrls.htm
+old-project: SecCrypto
+ms.assetid: 27f9e991-bf2a-47f3-8f95-b56092fed7d0
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CA_CRL_BASE, CA_CRL_DELTA, CA_CRL_REPUBLISH, CCertAdmin2 object [Security],PublishCRLs method, ICertAdmin2 interface [Security],PublishCRLs method, ICertAdmin2.PublishCRLs, ICertAdmin2::PublishCRLs, PublishCRLs, PublishCRLs method [Security], PublishCRLs method [Security],CCertAdmin2 object, PublishCRLs method [Security],ICertAdmin2 interface, _certsrv_icertadmin2_publishcrls, certadm/ICertAdmin2::PublishCRLs, security.icertadmin2_publishcrls
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certadm.h
+req.include-header: Certsrv.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certadm.dll
+api_name:
+-	ICertAdmin2.PublishCRLs
+-	CCertAdmin2.PublishCRLs
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # ICertAdmin2::PublishCRLs

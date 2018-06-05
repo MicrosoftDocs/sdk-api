@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3dcommon.ID3DInclude.Close
+title: ID3DInclude::Close
+author: windows-sdk-content
+description: A user-implemented method for closing a shader #include file.
+old-location: direct3d11\id3dinclude_close.htm
+old-project: direct3d11
+ms.assetid: d4513e15-dfe7-4919-a278-d386f25e65e5
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: Close, Close method [Direct3D 11], Close method [Direct3D 11],ID3DInclude interface, ID3DInclude interface [Direct3D 11],Close method, ID3DInclude.Close, ID3DInclude::Close, d3dcommon/ID3DInclude::Close, direct3d11.id3dinclude_close
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3dcommon.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_SHADER_VARIABLE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3DCompiler_47.dll
+api_name:
+-	ID3DInclude.Close
+product: Windows
+targetos: Windows
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 ---
 
 # ID3DInclude::Close

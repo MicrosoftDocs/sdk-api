@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xenroll.ICEnroll3.GetAlgName
+title: ICEnroll3::GetAlgName
+author: windows-sdk-content
+description: Retrieves the name of a cryptographic algorithm given its ID. The values retrieved by this method depend on the current cryptographic service provider (CSP). This method was first defined in the ICEnroll3 interface.
+old-location: security\icenroll4_getalgname.htm
+old-project: SecCrypto
+ms.assetid: 9c5fa25c-7fab-4fb5-9ff6-bc7379260926
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CEnroll object [Security],GetAlgName method, GetAlgName, GetAlgName method [Security], GetAlgName method [Security],CEnroll object, GetAlgName method [Security],ICEnroll3 interface, GetAlgName method [Security],ICEnroll4 interface, ICEnroll3 interface [Security],GetAlgName method, ICEnroll3.GetAlgName, ICEnroll3::GetAlgName, ICEnroll4 interface [Security],GetAlgName method, ICEnroll4::GetAlgName, security.icenroll4_getalgname, xenroll/ICEnroll3::GetAlgName, xenroll/ICEnroll4::GetAlgName
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	ICEnroll4.GetAlgName
+-	ICEnroll3.GetAlgName
+-	CEnroll.GetAlgName
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # ICEnroll3::GetAlgName

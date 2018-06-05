@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wlanapi._WLAN_INTF_OPCODE
+title: "_WLAN_INTF_OPCODE"
+author: windows-sdk-content
+description: Defines various opcodes used to set and query parameters on a wireless interface.
+old-location: nwifi\wlan_intf_opcode.htm
+old-project: NativeWiFi
+ms.assetid: 4f68e52b-7fa3-4654-b4d3-41ca627c138a
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_INTF_OPCODE, PWLAN_INTF_OPCODE, PWLAN_INTF_OPCODE enumeration pointer [NativeWIFI], WLAN_INTF_OPCODE, WLAN_INTF_OPCODE enumeration [NativeWIFI], _WLAN_INTF_OPCODE, nwifi.wlan_intf_opcode, wlan_intf_opcode_autoconf_enabled, wlan_intf_opcode_autoconf_end, wlan_intf_opcode_autoconf_start, wlan_intf_opcode_background_scan_enabled, wlan_intf_opcode_bss_type, wlan_intf_opcode_certified_safe_mode, wlan_intf_opcode_channel_number, wlan_intf_opcode_current_connection, wlan_intf_opcode_current_operation_mode, wlan_intf_opcode_hosted_network_capable, wlan_intf_opcode_ihv_end, wlan_intf_opcode_ihv_start, wlan_intf_opcode_interface_state, wlan_intf_opcode_management_frame_protection_capable, wlan_intf_opcode_media_streaming_mode, wlan_intf_opcode_msm_end, wlan_intf_opcode_msm_start, wlan_intf_opcode_radio_state, wlan_intf_opcode_rssi, wlan_intf_opcode_security_end, wlan_intf_opcode_security_start, wlan_intf_opcode_statistics, wlan_intf_opcode_supported_adhoc_auth_cipher_pairs, wlan_intf_opcode_supported_country_or_region_string_list, wlan_intf_opcode_supported_infrastructure_auth_cipher_pairs, wlan_intf_opcode_supported_safe_mode, wlanapi/PWLAN_INTF_OPCODE, wlanapi/WLAN_INTF_OPCODE, wlanapi/wlan_intf_opcode_autoconf_enabled, wlanapi/wlan_intf_opcode_autoconf_end, wlanapi/wlan_intf_opcode_autoconf_start, wlanapi/wlan_intf_opcode_background_scan_enabled, wlanapi/wlan_intf_opcode_bss_type, wlanapi/wlan_intf_opcode_certified_safe_mode, wlanapi/wlan_intf_opcode_channel_number, wlanapi/wlan_intf_opcode_current_connection, wlanapi/wlan_intf_opcode_current_operation_mode, wlanapi/wlan_intf_opcode_hosted_network_capable, wlanapi/wlan_intf_opcode_ihv_end, wlanapi/wlan_intf_opcode_ihv_start, wlanapi/wlan_intf_opcode_interface_state, wlanapi/wlan_intf_opcode_management_frame_protection_capable, wlanapi/wlan_intf_opcode_media_streaming_mode, wlanapi/wlan_intf_opcode_msm_end, wlanapi/wlan_intf_opcode_msm_start, wlanapi/wlan_intf_opcode_radio_state, wlanapi/wlan_intf_opcode_rssi, wlanapi/wlan_intf_opcode_security_end, wlanapi/wlan_intf_opcode_security_start, wlanapi/wlan_intf_opcode_statistics, wlanapi/wlan_intf_opcode_supported_adhoc_auth_cipher_pairs, wlanapi/wlan_intf_opcode_supported_country_or_region_string_list, wlanapi/wlan_intf_opcode_supported_infrastructure_auth_cipher_pairs, wlanapi/wlan_intf_opcode_supported_safe_mode"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_INTF_OPCODE, *PWLAN_INTF_OPCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wlanapi.h
+api_name:
+-	WLAN_INTF_OPCODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_INTF_OPCODE enumeration

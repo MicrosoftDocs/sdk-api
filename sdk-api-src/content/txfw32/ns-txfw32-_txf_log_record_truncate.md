@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:txfw32._TXF_LOG_RECORD_TRUNCATE
+title: "_TXF_LOG_RECORD_TRUNCATE"
+author: windows-sdk-content
+description: Contains the record for a truncate operation.
+old-location: fs\txf_log_record_truncate.htm
+old-project: FileIO
+ms.assetid: 9b6e9be5-39e7-47e3-846f-ea2e5e04597f
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PTXF_LOG_RECORD_TRUNCATE, PTXF_LOG_RECORD_TRUNCATE, PTXF_LOG_RECORD_TRUNCATE structure pointer [Files], TXF_LOG_RECORD_TRUNCATE, TXF_LOG_RECORD_TRUNCATE structure [Files], _TXF_LOG_RECORD_TRUNCATE, fs.txf_log_record_truncate, txfw32/PTXF_LOG_RECORD_TRUNCATE, txfw32/TXF_LOG_RECORD_TRUNCATE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: txfw32.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TXF_LOG_RECORD_TRUNCATE, *PTXF_LOG_RECORD_TRUNCATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	TxfW32.h
+api_name:
+-	TXF_LOG_RECORD_TRUNCATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _TXF_LOG_RECORD_TRUNCATE structure

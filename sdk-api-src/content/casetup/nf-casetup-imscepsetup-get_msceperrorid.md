@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:casetup.IMSCEPSetup.get_MSCEPErrorId
+title: IMSCEPSetup::get_MSCEPErrorId
+author: windows-sdk-content
+description: Gets the ID for additional error information related to a failed Network Device Enrollment Service (NDES) specification. Any method call on the parent object resets this property.
+old-location: security\imscepsetup_msceperrorid.htm
+old-project: SecCrypto
+ms.assetid: 3edec047-1034-44c8-bac5-f3593cb1b66b
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: IDS_FAIL_CHECK_MEMBER, IDS_FAIL_DETECT_READ_ACCESS, IDS_FAIL_FIND_CERT_TYPE, IDS_FAIL_FIND_DOMAIN, IDS_FAIL_FIND_SD_CERT_TYPE, IDS_FAIL_GET_COMPUTER_NAME, IDS_FAIL_LOGON_USER, IDS_FAIL_LOOK_UP, IDS_INVALID_NAME, IDS_NOT_IIS_MEMBER, IDS_NO_LOCAL_ACCOUNT, IDS_NO_READ_ACCESS_TO_TEMPLATE, IMSCEPSetup interface [Security],MSCEPErrorId property, IMSCEPSetup.MSCEPErrorId, IMSCEPSetup.get_MSCEPErrorId, IMSCEPSetup::MSCEPErrorId, IMSCEPSetup::get_MSCEPErrorId, MSCEPErrorId property [Security], MSCEPErrorId property [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::MSCEPErrorId, casetup/IMSCEPSetup::get_MSCEPErrorId, get_MSCEPErrorId, security.imscepsetup_msceperrorid
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: casetup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Casetup.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CEPSetupProperty
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certocm.dll
+api_name:
+-	IMSCEPSetup.MSCEPErrorId
+-	IMSCEPSetup.get_MSCEPErrorId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 ---
 
 # IMSCEPSetup::get_MSCEPErrorId

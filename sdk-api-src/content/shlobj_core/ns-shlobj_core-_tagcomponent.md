@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:shlobj_core._tagCOMPONENT
+title: "_tagCOMPONENT"
+author: windows-sdk-content
+description: Used by Windows 2000 to hold information about a component. This structure replaces the IE4COMPONENT structure.
+old-location: shell\COMPONENT.htm
+old-project: shell
+ms.assetid: 2692a2d6-1d33-410f-987c-8388c636cae6
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPCOMPONENT, COMPONENT, COMPONENT structure [Windows Shell], COMP_TYPE_CONTROL, COMP_TYPE_HTMLDOC, COMP_TYPE_PICTURE, COMP_TYPE_WEBSITE, IS_FULLSCREEN, IS_NORMAL, IS_SPLIT, LPCOMPONENT, LPCOMPONENT structure pointer [Windows Shell], _tagCOMPONENT, _win32_COMPONENT, shell.COMPONENT, shlobj_core/COMPONENT, shlobj_core/LPCOMPONENT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: shlobj_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMPONENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	shlobj_core.h
+api_name:
+-	COMPONENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # _tagCOMPONENT structure

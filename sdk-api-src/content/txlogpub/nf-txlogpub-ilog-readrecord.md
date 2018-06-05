@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:txlogpub.ILog.ReadRecord
+title: ILog::ReadRecord
+author: windows-sdk-content
+description: Read a record from the log.
+old-location: com\ilog_readrecord.htm
+old-project: com
+ms.assetid: 756d56a4-083f-45cd-bcdc-7c8a15dabae6
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: ILog interface [COM],ReadRecord method, ILog.ReadRecord, ILog::ReadRecord, ReadRecord, ReadRecord method [COM], ReadRecord method [COM],ILog interface, _com_ilog_readrecord, com.ilog_readrecord, txlogpub/ILog::ReadRecord
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: txlogpub.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Txlogpub.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RECORD_READING_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Txlogpub.h
+api_name:
+-	ILog.ReadRecord
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ILog::ReadRecord

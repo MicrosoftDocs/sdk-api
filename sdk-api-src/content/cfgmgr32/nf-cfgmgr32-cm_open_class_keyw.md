@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:cfgmgr32.CM_Open_Class_KeyW
+title: CM_Open_Class_KeyW function
+author: windows-sdk-content
+description: The CM_Open_Class_Key function opens the device setup class registry key, the device interface class registry key, or a specific subkey of a class.
+old-location: devinst\cm_open_class_key.htm
+old-project: devinst
+ms.assetid: 5a87769e-3555-44ce-b4d8-16c98bdc3732
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: CM_Open_Class_Key, CM_Open_Class_Key function [Device and Driver Installation], CM_Open_Class_KeyW, cfgmgr32/CM_Open_Class_Key, cfgmgr32/CM_Open_Class_KeyW, cfgmgrfn_70b86a61-c687-4d43-8c3f-8a00db441580.xml, devinst.cm_open_class_key
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CM_Open_Class_KeyW (Unicode)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cfgmgr32.lib
+-	Cfgmgr32.dll
+-	API-Ms-Win-Devices-Config-L1-1-0.dll
+-	API-Ms-Win-Devices-Config-L1-1-1.dll
+-	CfgMgr32.dll
+api_name:
+-	CM_Open_Class_Key
+-	CM_Open_Class_KeyW
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 ---
 
 # CM_Open_Class_KeyW function

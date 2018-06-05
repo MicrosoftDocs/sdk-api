@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._OBJECT_TYPE_LIST
+title: "_OBJECT_TYPE_LIST"
+author: windows-sdk-content
+description: Identifies an object type element in a hierarchy of object types.
+old-location: security\object_type_list.htm
+old-project: SecAuthZ
+ms.assetid: c729ff1a-65f3-4f6f-84dd-5700aead75ce
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*POBJECT_TYPE_LIST, ACCESS_OBJECT_GUID, ACCESS_PROPERTY_GUID, ACCESS_PROPERTY_SET_GUID, OBJECT_TYPE_LIST, OBJECT_TYPE_LIST structure [Security], POBJECT_TYPE_LIST, POBJECT_TYPE_LIST structure pointer [Security], _OBJECT_TYPE_LIST, _win32_object_type_list_str, security.object_type_list, winnt/OBJECT_TYPE_LIST, winnt/POBJECT_TYPE_LIST"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OBJECT_TYPE_LIST, *POBJECT_TYPE_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	OBJECT_TYPE_LIST
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _OBJECT_TYPE_LIST structure

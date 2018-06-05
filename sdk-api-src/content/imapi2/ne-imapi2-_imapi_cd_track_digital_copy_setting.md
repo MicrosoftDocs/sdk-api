@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:imapi2._IMAPI_CD_TRACK_DIGITAL_COPY_SETTING
+title: "_IMAPI_CD_TRACK_DIGITAL_COPY_SETTING"
+author: windows-sdk-content
+description: Defines the digital copy setting values available for a given track.
+old-location: imapi\imapi_cd_track_digital_copy_setting.htm
+old-project: imapi
+ms.assetid: 6bc38584-2e44-4c1a-b5bb-a91c0ffe7e6b
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PIMAPI_CD_TRACK_DIGITAL_COPY_SETTING, IMAPI_CD_TRACK_DIGITAL_COPY_PERMITTED, IMAPI_CD_TRACK_DIGITAL_COPY_PROHIBITED, IMAPI_CD_TRACK_DIGITAL_COPY_SCMS, IMAPI_CD_TRACK_DIGITAL_COPY_SETTING, IMAPI_CD_TRACK_DIGITAL_COPY_SETTING enumeration [IMAPI], _IMAPI_CD_TRACK_DIGITAL_COPY_SETTING, imapi.imapi_cd_track_digital_copy_setting, imapi2/IMAPI_CD_TRACK_DIGITAL_COPY_PERMITTED, imapi2/IMAPI_CD_TRACK_DIGITAL_COPY_PROHIBITED, imapi2/IMAPI_CD_TRACK_DIGITAL_COPY_SCMS, imapi2/IMAPI_CD_TRACK_DIGITAL_COPY_SETTING"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: imapi2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Imapi2.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAPI_CD_TRACK_DIGITAL_COPY_SETTING, *PIMAPI_CD_TRACK_DIGITAL_COPY_SETTING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	imapi2.h
+api_name:
+-	IMAPI_CD_TRACK_DIGITAL_COPY_SETTING
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _IMAPI_CD_TRACK_DIGITAL_COPY_SETTING enumeration

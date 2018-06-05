@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_WRITE_OPTION
+title: WS_WRITE_OPTION
+author: windows-sdk-content
+description: Specifies whether a storage specified contains the value, or a pointer to the value, and whether the value can be represented as nil in the XML content.
+old-location: wsw\ws_write_option.htm
+old-project: wsw
+ms.assetid: 24a0ad2c-fcec-42c5-8f72-bea431b06d2e
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_WRITE_NILLABLE_POINTER, WS_WRITE_NILLABLE_VALUE, WS_WRITE_OPTION, WS_WRITE_OPTION enumeration [Web Services for Windows], WS_WRITE_REQUIRED_POINTER, WS_WRITE_REQUIRED_VALUE, webservices/WS_WRITE_NILLABLE_POINTER, webservices/WS_WRITE_NILLABLE_VALUE, webservices/WS_WRITE_OPTION, webservices/WS_WRITE_REQUIRED_POINTER, webservices/WS_WRITE_REQUIRED_VALUE, wsw.ws_write_option
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_WRITE_OPTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_WRITE_OPTION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_WRITE_OPTION enumeration

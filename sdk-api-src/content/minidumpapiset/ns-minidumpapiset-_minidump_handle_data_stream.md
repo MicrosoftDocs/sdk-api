@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:minidumpapiset._MINIDUMP_HANDLE_DATA_STREAM
+title: "_MINIDUMP_HANDLE_DATA_STREAM"
+author: windows-sdk-content
+description: Represents the header for a handle data stream.
+old-location: base\minidump_handle_data_stream_str.htm
+old-project: Debug
+ms.assetid: 5674df6b-77e0-4bca-8349-8217388902ed
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PMINIDUMP_HANDLE_DATA_STREAM, MINIDUMP_HANDLE_DATA_STREAM, MINIDUMP_HANDLE_DATA_STREAM structure, PMINIDUMP_HANDLE_DATA_STREAM, PMINIDUMP_HANDLE_DATA_STREAM structure pointer, _MINIDUMP_HANDLE_DATA_STREAM, _win32_minidump_handle_data_stream_str, base.minidump_handle_data_stream_str, minidumpapiset/MINIDUMP_HANDLE_DATA_STREAM, minidumpapiset/PMINIDUMP_HANDLE_DATA_STREAM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: minidumpapiset.h
+req.include-header: DbgHelp.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MINIDUMP_HANDLE_DATA_STREAM, *PMINIDUMP_HANDLE_DATA_STREAM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	minidumpapiset.h
+api_name:
+-	MINIDUMP_HANDLE_DATA_STREAM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MINIDUMP_HANDLE_DATA_STREAM structure

@@ -1,31 +1,54 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlwapi.UrlCanonicalizeA
+title: UrlCanonicalizeA function
+author: windows-sdk-content
+description: Converts a URL string into canonical form.
+old-location: shell\UrlCanonicalize.htm
+old-project: shell
+ms.assetid: 70802745-0611-4d37-800e-b50d5ea23426
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: URL_DONT_SIMPLIFY, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SPACES_ONLY, URL_ESCAPE_UNSAFE, URL_NO_META, URL_PLUGGABLE_PROTOCOL, URL_UNESCAPE, UrlCanonicalize, UrlCanonicalize function [Windows Shell], UrlCanonicalizeA, UrlCanonicalizeW, _win32_UrlCanonicalize, shell.UrlCanonicalize, shlwapi/UrlCanonicalize, shlwapi/UrlCanonicalizeA, shlwapi/UrlCanonicalizeW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: UrlCanonicalizeW (Unicode) and UrlCanonicalizeA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+-	API-MS-Win-Core-url-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+-	API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+-	UrlCanonicalize
+-	UrlCanonicalizeA
+-	UrlCanonicalizeW
+product: Windows
+targetos: Windows
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # UrlCanonicalizeA function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:authif._RADIUS_EXTENSION_POINT
+title: "_RADIUS_EXTENSION_POINT"
+author: windows-sdk-content
+description: The RADIUS_EXTENSION_POINT enumeration type enumerates the possible points in the RADIUS request process when the RadiusExtensionProcess2 function can be called.
+old-location: nps\IAS_radius_extension_point.htm
+old-project: Nps
+ms.assetid: 0e7f4d48-01b5-45a8-bf72-27b557ae8da7
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: RADIUS_EXTENSION_POINT, RADIUS_EXTENSION_POINT enumeration [Network Policy Server], _RADIUS_EXTENSION_POINT, _ias_radius_extension_point, authif/RADIUS_EXTENSION_POINT, authif/repAuthentication, authif/repAuthorization, ias.radius_extension_point, nps.IAS_radius_extension_point, repAuthentication, repAuthorization
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: authif.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RADIUS_EXTENSION_POINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AuthIf.h
+api_name:
+-	RADIUS_EXTENSION_POINT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _RADIUS_EXTENSION_POINT enumeration

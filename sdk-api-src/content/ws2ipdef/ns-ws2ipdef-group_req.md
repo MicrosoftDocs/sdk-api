@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ws2ipdef.group_req
+title: group_req
+author: windows-sdk-content
+description: Provides multicast group information for IPv6 or IPv4 addresses.
+old-location: winsock\group_req.htm
+old-project: WinSock
+ms.assetid: 053cf2c3-4f31-4f1e-be5c-d857e74d9465
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PGROUP_REQ, GROUP_REQ, GROUP_REQ structure [Winsock], PGROUP_REQ, PGROUP_REQ structure pointer [Winsock], group_req, winsock.group_req, ws2ipdef/GROUP_REQ, ws2ipdef/PGROUP_REQ"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ws2ipdef.h
+req.include-header: Ws2tcpip.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wrdsgraphicschannels.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GROUP_REQ, *PGROUP_REQ
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ws2ipdef.h
+api_name:
+-	GROUP_REQ
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # group_req structure

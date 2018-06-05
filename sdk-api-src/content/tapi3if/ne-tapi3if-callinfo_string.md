@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.CALLINFO_STRING
+title: CALLINFO_STRING
+author: windows-sdk-content
+description: The CALLINFO_STRING enum is used by ITCallInfo methods that set and get call information involving the use of strings.
+old-location: tapi3\callinfo_string.htm
+old-project: Tapi
+ms.assetid: 28482ba8-c536-48ef-bca6-eba5b801c06e
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CALLINFO_STRING, CALLINFO_STRING enumeration [TAPI 2.2], CIS_CALLEDIDNAME, CIS_CALLEDIDNUMBER, CIS_CALLEDPARTYFRIENDLYNAME, CIS_CALLERIDNAME, CIS_CALLERIDNUMBER, CIS_CALLINGPARTYID, CIS_COMMENT, CIS_CONNECTEDIDNAME, CIS_CONNECTEDIDNUMBER, CIS_DISPLAYABLEADDRESS, CIS_REDIRECTINGIDNAME, CIS_REDIRECTINGIDNUMBER, CIS_REDIRECTIONIDNAME, CIS_REDIRECTIONIDNUMBER, _tapi3_callinfo_string, tapi3.callinfo_string, tapi3if/CALLINFO_STRING, tapi3if/CIS_CALLEDIDNAME, tapi3if/CIS_CALLEDIDNUMBER, tapi3if/CIS_CALLEDPARTYFRIENDLYNAME, tapi3if/CIS_CALLERIDNAME, tapi3if/CIS_CALLERIDNUMBER, tapi3if/CIS_CALLINGPARTYID, tapi3if/CIS_COMMENT, tapi3if/CIS_CONNECTEDIDNAME, tapi3if/CIS_CONNECTEDIDNUMBER, tapi3if/CIS_DISPLAYABLEADDRESS, tapi3if/CIS_REDIRECTINGIDNAME, tapi3if/CIS_REDIRECTINGIDNUMBER, tapi3if/CIS_REDIRECTIONIDNAME, tapi3if/CIS_REDIRECTIONIDNUMBER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CALLINFO_STRING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	CALLINFO_STRING
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # CALLINFO_STRING enumeration

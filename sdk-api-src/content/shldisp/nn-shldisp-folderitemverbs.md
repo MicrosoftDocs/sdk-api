@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:shldisp.FolderItemVerbs
+title: FolderItemVerbs
+author: windows-sdk-content
+description: Represents the collection of verbs for an item in a Shell folder. This object contains properties and methods that allow you to retrieve information about the collection.
+old-location: shell\FolderItemVerbs.htm
+old-project: shell
+ms.assetid: 31badb4b-b89e-4294-9dd7-bda716e163b2
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: FolderItemVerbs, FolderItemVerbs object [Windows Shell], FolderItemVerbs object [Windows Shell],described, _win32_FolderItemVerbs, shell.FolderItemVerbs, shldisp/FolderItemVerbs
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: shldisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shldisp.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETEOPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	FolderItemVerbs
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
 ---
 
 # FolderItemVerbs interface

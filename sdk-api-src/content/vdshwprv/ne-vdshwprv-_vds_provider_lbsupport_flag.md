@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vdshwprv._VDS_PROVIDER_LBSUPPORT_FLAG
+title: "_VDS_PROVIDER_LBSUPPORT_FLAG"
+author: windows-sdk-content
+description: Specifies the set of valid flags for indicating which load balance policies a hardware provider supports.
+old-location: base\vds_provider_lbsupport_flag.htm
+old-project: VDS
+ms.assetid: bfc9aabf-b9ce-4b36-b68a-b74628092962
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_LBF_DYN_LEAST_QUEUE_DEPTH, VDS_LBF_FAILOVER, VDS_LBF_LEAST_BLOCKS, VDS_LBF_ROUND_ROBIN, VDS_LBF_ROUND_ROBIN_WITH_SUBSET, VDS_LBF_VENDOR_SPECIFIC, VDS_LBF_WEIGHTED_PATHS, VDS_PROVIDER_LBSUPPORT_FLAG, VDS_PROVIDER_LBSUPPORT_FLAG enumeration [VDS], _VDS_PROVIDER_LBSUPPORT_FLAG, base.vds_provider_lbsupport_flag, vds/VDS_LBF_DYN_LEAST_QUEUE_DEPTH, vds/VDS_LBF_FAILOVER, vds/VDS_LBF_LEAST_BLOCKS, vds/VDS_LBF_ROUND_ROBIN, vds/VDS_LBF_ROUND_ROBIN_WITH_SUBSET, vds/VDS_LBF_VENDOR_SPECIFIC, vds/VDS_LBF_WEIGHTED_PATHS, vds/VDS_PROVIDER_LBSUPPORT_FLAG, vdshwprv/VDS_LBF_DYN_LEAST_QUEUE_DEPTH, vdshwprv/VDS_LBF_FAILOVER, vdshwprv/VDS_LBF_LEAST_BLOCKS, vdshwprv/VDS_LBF_ROUND_ROBIN, vdshwprv/VDS_LBF_ROUND_ROBIN_WITH_SUBSET, vdshwprv/VDS_LBF_VENDOR_SPECIFIC, vdshwprv/VDS_LBF_WEIGHTED_PATHS, vdshwprv/VDS_PROVIDER_LBSUPPORT_FLAG
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vdshwprv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_PROVIDER_LBSUPPORT_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_PROVIDER_LBSUPPORT_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_PROVIDER_LBSUPPORT_FLAG enumeration

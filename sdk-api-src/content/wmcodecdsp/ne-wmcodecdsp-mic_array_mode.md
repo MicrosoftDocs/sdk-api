@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wmcodecdsp.MIC_ARRAY_MODE
+title: MIC_ARRAY_MODE
+author: windows-sdk-content
+description: Specifies how the voice capture DSP performs microphone array processing. This enumeration is used with the MFPKEY_WMAAECMA_FEATR_MICARR_MODE property.
+old-location: mf\mic_array_modeenumeration.htm
+old-project: medfound
+ms.assetid: 95335d2e-94f9-4e8d-b578-a4d08055bb56
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MICARRAY_EXTERN_BEAM, MICARRAY_FIXED_BEAM, MICARRAY_SIMPLE_SUM, MICARRAY_SINGLE_BEAM, MICARRAY_SINGLE_CHAN, MIC_ARRAY_MODE, MIC_ARRAY_MODE enumeration [Media Foundation], codecapi.mic_array_modeenumeration, mf.mic_array_modeenumeration, wmcodecdsp/MICARRAY_EXTERN_BEAM, wmcodecdsp/MICARRAY_FIXED_BEAM, wmcodecdsp/MICARRAY_SIMPLE_SUM, wmcodecdsp/MICARRAY_SINGLE_BEAM, wmcodecdsp/MICARRAY_SINGLE_CHAN, wmcodecdsp/MIC_ARRAY_MODE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wmcodecdsp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIC_ARRAY_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wmcodecdsp.h
+api_name:
+-	MIC_ARRAY_MODE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # MIC_ARRAY_MODE enumeration

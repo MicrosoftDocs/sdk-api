@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:clusapi.CLUSTER_GROUP_PRIORITY
+title: CLUSTER_GROUP_PRIORITY
+author: windows-sdk-content
+description: Specifies the priority level of a group.
+old-location: mscs\cluster_group_priority.htm
+old-project: MsCS
+ms.assetid: CF2B9D74-72EC-4BBD-85C9-1BB0535580FB
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: CLUSTER_GROUP_PRIORITY, CLUSTER_GROUP_PRIORITY enumeration [Failover Cluster], PriorityDisabled, PriorityHigh, PriorityLow, PriorityMedium, clusapi/CLUSTER_GROUP_PRIORITY, clusapi/PriorityDisabled, clusapi/PriorityHigh, clusapi/PriorityLow, clusapi/PriorityMedium, msclus/CLUSTER_GROUP_PRIORITY, msclus/PriorityDisabled, msclus/PriorityHigh, msclus/PriorityLow, msclus/PriorityMedium, mscs.cluster_group_priority
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: clusapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLUSTER_GROUP_PRIORITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ClusAPI.h
+-	MsClus.h
+api_name:
+-	CLUSTER_GROUP_PRIORITY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CLUSTER_GROUP_PRIORITY enumeration

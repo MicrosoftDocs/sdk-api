@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:textserv.ITextServices.OnTxPropertyBitsChange
+title: ITextServices::OnTxPropertyBitsChange
+author: windows-sdk-content
+description: Sets properties (represented by bits) for the control.
+old-location: controls\ITextServices_OnTxPropertyBitsChange.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxpropertybitschange.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: ITextServices interface [Windows Controls],OnTxPropertyBitsChange method, ITextServices.OnTxPropertyBitsChange, ITextServices::OnTxPropertyBitsChange, OnTxPropertyBitsChange, OnTxPropertyBitsChange method [Windows Controls], OnTxPropertyBitsChange method [Windows Controls],ITextServices interface, TXTBIT_ALLOWBEEP, TXTBIT_AUTOWORDSEL, TXTBIT_BACKSTYLECHANGE, TXTBIT_CHARFORMATCHANGE, TXTBIT_CLIENTRECTCHANGE, TXTBIT_D2DDWRITE, TXTBIT_D2DPIXELSNAPPED, TXTBIT_D2DSIMPLETYPOGRAPHY, TXTBIT_D2DSUBPIXELLINES, TXTBIT_DISABLEDRAG, TXTBIT_EXTENTCHANGE, TXTBIT_HIDESELECTION, TXTBIT_MAXLENGTHCHANGE, TXTBIT_MULTILINE, TXTBIT_NOTHREADREFCOUNT, TXTBIT_PARAFORMATCHANGE, TXTBIT_READONLY, TXTBIT_RICHTEXT, TXTBIT_SAVESELECTION, TXTBIT_SCROLLBARCHANGE, TXTBIT_SELBARCHANGE, TXTBIT_SHOWACCELERATOR, TXTBIT_SHOWPASSWORD, TXTBIT_USECURRENTBKG, TXTBIT_USEPASSWORD, TXTBIT_VERTICAL, TXTBIT_VIEWINSETCHANGE, TXTBIT_WORDWRAP, _win32_ITextServices_OnTxPropertyBitsChange, _win32_ITextServices_OnTxPropertyBitsChange_cpp, controls.ITextServices_OnTxPropertyBitsChange, controls._win32_ITextServices_OnTxPropertyBitsChange, textserv/ITextServices::OnTxPropertyBitsChange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: textserv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TMGR_DIRECTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	ITextServices.OnTxPropertyBitsChange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITextServices::OnTxPropertyBitsChange

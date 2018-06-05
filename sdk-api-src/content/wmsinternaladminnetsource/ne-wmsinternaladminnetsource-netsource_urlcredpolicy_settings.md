@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wmsinternaladminnetsource.NETSOURCE_URLCREDPOLICY_SETTINGS
+title: NETSOURCE_URLCREDPOLICY_SETTINGS
+author: windows-sdk-content
+description: The NETSOURCE_URLCREDPOLICY_SETTINGS enumeration type is used for an output parameter of IWMSInternalAdminNetSource2::GetCredentialsEx.
+old-location: wmformat\netsource_urlcredpolicy_settings.htm
+old-project: wmformat
+ms.assetid: d4ffdbc8-123e-4cb4-bcc9-8d52c3362529
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: NETSOURCE_URLCREDPOLICY_SETTINGS, NETSOURCE_URLCREDPOLICY_SETTINGS enumeration [windows Media Format], NETSOURCE_URLCREDPOLICY_SETTING_ANONYMOUSONLY, NETSOURCE_URLCREDPOLICY_SETTING_MUSTPROMPTUSER, NETSOURCE_URLCREDPOLICY_SETTING_SILENTLOGONOK, enumeration [windows Media Format], wmformat.netsource_urlcredpolicy_settings, wmsinternaladminnetsource/NETSOURCE_URLCREDPOLICY_SETTINGS, wmsinternaladminnetsource/NETSOURCE_URLCREDPOLICY_SETTING_ANONYMOUSONLY, wmsinternaladminnetsource/NETSOURCE_URLCREDPOLICY_SETTING_MUSTPROMPTUSER, wmsinternaladminnetsource/NETSOURCE_URLCREDPOLICY_SETTING_SILENTLOGONOK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wmsinternaladminnetsource.h
+req.include-header: Wminternaladminnetsource.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wmsinternaladminnetsource.h
+api_name:
+-	NETSOURCE_URLCREDPOLICY_SETTINGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # NETSOURCE_URLCREDPOLICY_SETTINGS enumeration

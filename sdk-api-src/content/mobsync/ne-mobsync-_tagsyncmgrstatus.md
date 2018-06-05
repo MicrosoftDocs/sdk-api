@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mobsync._tagSYNCMGRSTATUS
+title: "_tagSYNCMGRSTATUS"
+author: windows-sdk-content
+description: Used in the ISyncMgrSynchronize::SetItemStatus method to specify the updated status for the item.
+old-location: shell\syncmgr_syncmgrstatus.htm
+old-project: shell
+ms.assetid: a2bdc883-2e61-42a4-a88b-8fab42f018e1
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SYNCMGRSTATUS, SYNCMGRSTATUS enumeration [Windows Shell], SYNCMGRSTATUS_DELETED, SYNCMGRSTATUS_FAILED, SYNCMGRSTATUS_PAUSED, SYNCMGRSTATUS_PENDING, SYNCMGRSTATUS_RESUMING, SYNCMGRSTATUS_SKIPPED, SYNCMGRSTATUS_STOPPED, SYNCMGRSTATUS_SUCCEEDED, SYNCMGRSTATUS_UPDATING, SYNCMGRSTATUS_UPDATING_INDETERMINATE, _tagSYNCMGRSTATUS, mobsync/SYNCMGRSTATUS, mobsync/SYNCMGRSTATUS_DELETED, mobsync/SYNCMGRSTATUS_FAILED, mobsync/SYNCMGRSTATUS_PAUSED, mobsync/SYNCMGRSTATUS_PENDING, mobsync/SYNCMGRSTATUS_RESUMING, mobsync/SYNCMGRSTATUS_SKIPPED, mobsync/SYNCMGRSTATUS_STOPPED, mobsync/SYNCMGRSTATUS_SUCCEEDED, mobsync/SYNCMGRSTATUS_UPDATING, mobsync/SYNCMGRSTATUS_UPDATING_INDETERMINATE, shell.syncmgr_syncmgrstatus, syncmgr.syncmgrstatus
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mobsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGRSTATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mobsync.h
+api_name:
+-	SYNCMGRSTATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _tagSYNCMGRSTATUS enumeration

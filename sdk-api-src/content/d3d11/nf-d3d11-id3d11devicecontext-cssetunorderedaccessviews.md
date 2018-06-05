@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11.ID3D11DeviceContext.CSSetUnorderedAccessViews
+title: ID3D11DeviceContext::CSSetUnorderedAccessViews
+author: windows-sdk-content
+description: Sets an array of views for an unordered resource.
+old-location: direct3d11\id3d11devicecontext_cssetunorderedaccessviews.htm
+old-project: direct3d11
+ms.assetid: 384a15c0-a035-4f83-a927-e2f763e5fb44
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 16820cec-2cc5-1d17-4d7f-118d1fd9660b, CSSetUnorderedAccessViews, CSSetUnorderedAccessViews method [Direct3D 11], CSSetUnorderedAccessViews method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetUnorderedAccessViews method, ID3D11DeviceContext.CSSetUnorderedAccessViews, ID3D11DeviceContext::CSSetUnorderedAccessViews, d3d11/ID3D11DeviceContext::CSSetUnorderedAccessViews, direct3d11.id3d11devicecontext_cssetunorderedaccessviews
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VPOV_DIMENSION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D11.lib
+-	D3D11.dll
+api_name:
+-	ID3D11DeviceContext.CSSetUnorderedAccessViews
+product: Windows
+targetos: Windows
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3D11DeviceContext::CSSetUnorderedAccessViews

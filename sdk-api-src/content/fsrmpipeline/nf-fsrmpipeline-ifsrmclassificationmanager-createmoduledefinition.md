@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmpipeline.IFsrmClassificationManager.CreateModuleDefinition
+title: IFsrmClassificationManager::CreateModuleDefinition
+author: windows-sdk-content
+description: Creates a module definition of the specified type.
+old-location: fsrm\ifsrmclassificationmanager_createmoduledefinition.htm
+old-project: Fsrm
+ms.assetid: 1964f4b6-b4e0-45a2-aca1-2e3dc44745a4
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: CreateModuleDefinition, CreateModuleDefinition method [File Server Resource Manager], CreateModuleDefinition method [File Server Resource Manager],FsrmClassificationManager class, CreateModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, CreateModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],CreateModuleDefinition method, IFsrmClassificationManager interface [File Server Resource Manager],CreateModuleDefinition method, IFsrmClassificationManager.CreateModuleDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],CreateModuleDefinition method, IFsrmClassificationManager2::CreateModuleDefinition, IFsrmClassificationManager::CreateModuleDefinition, fs.ifsrmclassificationmanager_createmoduledefinition, fsrm.ifsrmclassificationmanager_createmoduledefinition, fsrmpipeline/IFsrmClassificationManager2::CreateModuleDefinition, fsrmpipeline/IFsrmClassificationManager::CreateModuleDefinition
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmpipeline.h
+req.include-header: FsrmPipeline.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmClassificationManager.CreateModuleDefinition
+-	IFsrmClassificationManager2.CreateModuleDefinition
+-	FsrmClassificationManager.CreateModuleDefinition
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmClassificationManager::CreateModuleDefinition

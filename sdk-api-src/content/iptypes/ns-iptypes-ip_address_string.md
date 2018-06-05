@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iptypes.IP_ADDRESS_STRING
+title: IP_ADDRESS_STRING
+author: windows-sdk-content
+description: Stores an IPv4 address in dotted decimal notation.
+old-location: iphlp\ip_address_string.htm
+old-project: IpHlp
+ms.assetid: f426b22f-66e4-43e4-8852-357359df6f88
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PIP_ADDRESS_STRING, *PIP_ADDRESS_STRING,IP_MASK_STRING,*PIP_MASK_STRING, *PIP_ADDRESS_STRING,IP_MASK_STRING,*PIP_MASK_STRING structure [IP Helper], *PIP_MASK_STRING, IP_ADDRESS_STRING, IP_ADDRESS_STRING structure [IP Helper], IP_MASK_STRING, iphlp.ip_address_string, iptypes/*PIP_ADDRESS_STRING,IP_MASK_STRING,*PIP_MASK_STRING, iptypes/IP_ADDRESS_STRING"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iptypes.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IP_ADDRESS_STRING, *PIP_ADDRESS_STRING, IP_MASK_STRING, *PIP_MASK_STRING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iptypes.h
+api_name:
+-	IP_ADDRESS_STRING
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IP_ADDRESS_STRING structure

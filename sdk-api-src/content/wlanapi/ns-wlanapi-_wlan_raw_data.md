@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wlanapi._WLAN_RAW_DATA
+title: "_WLAN_RAW_DATA"
+author: windows-sdk-content
+description: Contains raw data in the form of a blob that is used by some Native Wifi functions.
+old-location: nwifi\dot11_psd_ie_data_entry.htm
+old-project: NativeWiFi
+ms.assetid: 5f5ddecb-f841-436c-bf31-c70c95a5d39c
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_RAW_DATA, PWLAN_RAW_DATA, PWLAN_RAW_DATA structure pointer [NativeWIFI], WLAN_RAW_DATA, WLAN_RAW_DATA structure [NativeWIFI], _WLAN_RAW_DATA, nwifi.dot11_psd_ie_data_entry, wlanapi/PWLAN_RAW_DATA, wlanapi/WLAN_RAW_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wlanapi.h
+req.include-header: Wlanapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_RAW_DATA, *PWLAN_RAW_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wlanapi.h
+api_name:
+-	WLAN_RAW_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_RAW_DATA structure

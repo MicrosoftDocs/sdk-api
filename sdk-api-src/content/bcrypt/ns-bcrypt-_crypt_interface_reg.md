@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:bcrypt._CRYPT_INTERFACE_REG
+title: "_CRYPT_INTERFACE_REG"
+author: windows-sdk-content
+description: Used to contain information about the type of interface supported by a CNG provider.
+old-location: security\crypt_interface_reg.htm
+old-project: SecCNG
+ms.assetid: 80204d2a-ebc8-40f6-bccb-7cd112d7769b
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: "*PCRYPT_INTERFACE_REG, BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, CRYPT_DOMAIN, CRYPT_INTERFACE_REG, CRYPT_INTERFACE_REG structure [Security], CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, PCRYPT_INTERFACE_REG, PCRYPT_INTERFACE_REG structure pointer [Security], _CRYPT_INTERFACE_REG, bcrypt/CRYPT_INTERFACE_REG, bcrypt/PCRYPT_INTERFACE_REG, security.crypt_interface_reg"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: bcrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_INTERFACE_REG, *PCRYPT_INTERFACE_REG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bcrypt.h
+api_name:
+-	CRYPT_INTERFACE_REG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _CRYPT_INTERFACE_REG structure

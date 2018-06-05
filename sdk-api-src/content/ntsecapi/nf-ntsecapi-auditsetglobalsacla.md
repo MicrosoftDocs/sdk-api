@@ -1,31 +1,52 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntsecapi.AuditSetGlobalSaclA
+title: AuditSetGlobalSaclA function
+author: windows-sdk-content
+description: Sets a global system access control list (SACL) that delegates access to the audit messages.
+old-location: security\auditsetglobalsacl.htm
+old-project: SecAuthZ
+ms.assetid: 48A41E3F-DDB0-431F-BCF0-E2452FEA57FA
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AuditSetGlobalSacl, AuditSetGlobalSacl function [Security], AuditSetGlobalSaclA, AuditSetGlobalSaclW, ntsecapi/AuditSetGlobalSacl, ntsecapi/AuditSetGlobalSaclA, ntsecapi/AuditSetGlobalSaclW, security.auditsetglobalsacl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: AuditSetGlobalSaclW (Unicode) and AuditSetGlobalSaclA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-Security-audit-l1-1-1.dll
+-	sechost.dll
+api_name:
+-	AuditSetGlobalSacl
+-	AuditSetGlobalSaclA
+-	AuditSetGlobalSaclW
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # AuditSetGlobalSaclA function

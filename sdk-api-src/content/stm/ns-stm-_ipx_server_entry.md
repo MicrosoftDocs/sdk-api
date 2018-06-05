@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:stm._IPX_SERVER_ENTRY
+title: "_IPX_SERVER_ENTRY"
+author: windows-sdk-content
+description: The IPX_SERVER_ENTRY structure describes a particular IPX service.
+old-location: rras\ipx_server_entry.htm
+old-project: RRAS
+ms.assetid: 5b865c28-6a0e-4af3-a646-c1082b5c3ce5
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PIPX_SERVER_ENTRY, IPX_SERVER_ENTRY, IPX_SERVER_ENTRY structure [RAS], PIPX_SERVER_ENTRY, PIPX_SERVER_ENTRY structure pointer [RAS], _IPX_SERVER_ENTRY, _mpr_ipx_server_entry, rras.ipx_server_entry, stm/IPX_SERVER_ENTRY, stm/PIPX_SERVER_ENTRY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: stm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPX_SERVER_ENTRY, *PIPX_SERVER_ENTRY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Stm.h
+api_name:
+-	IPX_SERVER_ENTRY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _IPX_SERVER_ENTRY structure

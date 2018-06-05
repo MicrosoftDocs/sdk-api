@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfmediaengine.MF_MEDIA_ENGINE_EXTENSION_TYPE
+title: MF_MEDIA_ENGINE_EXTENSION_TYPE
+author: windows-sdk-content
+description: Specifies media engine extension types.
+old-location: mf\mf_media_engine_extension_type.htm
+old-project: medfound
+ms.assetid: B66D1A68-B3DA-4A03-B6E4-6C6566ADCAF1
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MF_MEDIA_ENGINE_EXTENSION_TYPE, MF_MEDIA_ENGINE_EXTENSION_TYPE enumeration [Media Foundation], MF_MEDIA_ENGINE_EXTENSION_TYPE_BYTESTREAM, MF_MEDIA_ENGINE_EXTENSION_TYPE_MEDIASOURCE, mf.mf_media_engine_extension_type, mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE, mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE_BYTESTREAM, mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE_MEDIASOURCE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_MEDIA_ENGINE_EXTENSION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfmediaengine.h
+api_name:
+-	MF_MEDIA_ENGINE_EXTENSION_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MF_MEDIA_ENGINE_EXTENSION_TYPE enumeration

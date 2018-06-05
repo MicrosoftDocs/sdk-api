@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vsbackup.IVssBackupComponents.AddRestoreSubcomponent
+title: IVssBackupComponents::AddRestoreSubcomponent
+author: windows-sdk-content
+description: Indicates that a subcomponent member of a component set, which had been marked as nonselectable for backup but is marked selectable for restore, is to be restored.
+old-location: base\ivssbackupcomponents_addrestoresubcomponent.htm
+old-project: VSS
+ms.assetid: 8eea27d7-6780-49cf-97ea-8876a9a2c8f8
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AddRestoreSubcomponent, AddRestoreSubcomponent method [VSS], AddRestoreSubcomponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddRestoreSubcomponent method, IVssBackupComponents.AddRestoreSubcomponent, IVssBackupComponents::AddRestoreSubcomponent, _win32_ivssbackupcomponents_addrestoresubcomponent, base.ivssbackupcomponents_addrestoresubcomponent, vsbackup/IVssBackupComponents::AddRestoreSubcomponent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vsbackup.h
+req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssBackupComponents.AddRestoreSubcomponent
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssBackupComponents::AddRestoreSubcomponent

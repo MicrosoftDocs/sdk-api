@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mbnapi.IMbnDeviceService.OpenCommandSession
+title: IMbnDeviceService::OpenCommandSession
+author: windows-sdk-content
+description: Opens a command session to a device service on a Mobile Broadband device.
+old-location: mbn\imbndeviceservice_opencommandsession.htm
+old-project: mbn
+ms.assetid: EC4FF42D-EFE9-432C-997F-426B2187BBBE
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],OpenCommandSession method, IMbnDeviceService.OpenCommandSession, IMbnDeviceService::OpenCommandSession, OpenCommandSession, OpenCommandSession method [Microsoft Broadband Networks], OpenCommandSession method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_opencommandsession, mbnapi/IMbnDeviceService::OpenCommandSession
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnDeviceService.OpenCommandSession
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMbnDeviceService::OpenCommandSession

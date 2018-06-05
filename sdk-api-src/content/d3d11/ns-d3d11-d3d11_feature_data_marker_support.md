@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:d3d11.D3D11_FEATURE_DATA_MARKER_SUPPORT
+title: D3D11_FEATURE_DATA_MARKER_SUPPORT
+author: windows-sdk-content
+description: Describes whether a GPU profiling technique is supported.
+old-location: direct3d11\d3d11_feature_data_marker_support.htm
+old-project: direct3d11
+ms.assetid: 950381BB-E8F6-416D-8F36-CC3591E71703
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D11_FEATURE_DATA_MARKER_SUPPORT, D3D11_FEATURE_DATA_MARKER_SUPPORT structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_MARKER_SUPPORT, direct3d11.d3d11_feature_data_marker_support
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_FEATURE_DATA_MARKER_SUPPORT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	D3D11_FEATURE_DATA_MARKER_SUPPORT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_FEATURE_DATA_MARKER_SUPPORT structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3dcompiler.D3DCompile
+title: D3DCompile function
+author: windows-sdk-content
+description: Compile HLSL code or an effect file into bytecode for a given target.
+old-location: direct3dhlsl\d3dcompile.htm
+old-project: direct3dhlsl
+ms.assetid: VS|directx_sdk|~\d3dcompile.htm
+ms.author: windowssdkdev
+ms.date: 04/12/2018
+ms.keywords: D3DCompile, D3DCompile function [HLSL], a18240ba-8d29-6dcc-da59-7c146428c2b8, d3dcompiler/D3DCompile, direct3dhlsl.d3dcompile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: d3dcompiler.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D_BLOB_PART
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	d3dcompiler_47.dll
+api_name:
+-	D3DCompile
+product: Windows
+targetos: Windows
+req.lib: D3dcompiler_47.lib
+req.dll: D3dcompiler_47.dll
+req.irql: 
 ---
 
 # D3DCompile function

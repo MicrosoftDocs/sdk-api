@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:scesvc._SCESVC_CALLBACK_INFO_
+title: "_SCESVC_CALLBACK_INFO_"
+author: windows-sdk-content
+description: The SCESVC_CALLBACK_INFO structure contains an opaque database handle and callback function pointers to query, set, and free information.
+old-location: security\scesvc_callback_info.htm
+old-project: SecMgmt
+ms.assetid: ff232f21-2c2f-4e5e-8b2d-e89147e2d38a
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PSCESVC_CALLBACK_INFO, PSCESVC_CALLBACK_INFO, PSCESVC_CALLBACK_INFO structure pointer [Security], SCESVC_CALLBACK_INFO, SCESVC_CALLBACK_INFO structure [Security], _SCESVC_CALLBACK_INFO_, _config_scesvc_callback_info, scesvc/PSCESVC_CALLBACK_INFO, scesvc/SCESVC_CALLBACK_INFO, security.scesvc_callback_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: scesvc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCESVC_CALLBACK_INFO, *PSCESVC_CALLBACK_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Scesvc.h
+api_name:
+-	SCESVC_CALLBACK_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SCESVC_CALLBACK_INFO_ structure

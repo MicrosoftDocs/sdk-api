@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:icftypes.NET_FW_EDGE_TRAVERSAL_TYPE_
+title: NET_FW_EDGE_TRAVERSAL_TYPE_
+author: windows-sdk-content
+description: The conditions under which edge traversal traffic is allowed.
+old-location: ics\net_fw_edge_traversal_type.htm
+old-project: ICS
+ms.assetid: 69efe4d1-3614-4e6f-9bc1-4bacb9a7a8eb
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: NET_FW_EDGE_TRAVERSAL_TYPE, NET_FW_EDGE_TRAVERSAL_TYPE enumeration [ICS/ICF], NET_FW_EDGE_TRAVERSAL_TYPE_, NET_FW_EDGE_TRAVERSAL_TYPE_ALLOW, NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_APP, NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_USER, NET_FW_EDGE_TRAVERSAL_TYPE_DENY, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE_ALLOW, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_APP, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_USER, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE_DENY, ics.net_fw_edge_traversal_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: icftypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_FW_EDGE_TRAVERSAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Icftypes.h
+api_name:
+-	NET_FW_EDGE_TRAVERSAL_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # NET_FW_EDGE_TRAVERSAL_TYPE_ enumeration

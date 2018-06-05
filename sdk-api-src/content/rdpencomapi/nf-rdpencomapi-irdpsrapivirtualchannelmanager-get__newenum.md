@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:rdpencomapi.IRDPSRAPIVirtualChannelManager.get__NewEnum
+title: IRDPSRAPIVirtualChannelManager::get__NewEnum
+author: windows-sdk-content
+description: An enumerator interface for the virtual channel collection.
+old-location: rdp\irdpsrapivirtualchannelmanager__newenum.htm
+old-project: Rdp
+ms.assetid: 791a7d27-b4c0-4476-b048-16bfee0eb7f4
+ms.author: windowssdkdev
+ms.date: 03/28/2018
+ms.keywords: IRDPSRAPIVirtualChannelManager interface [RDP],_NewEnum property, IRDPSRAPIVirtualChannelManager._NewEnum, IRDPSRAPIVirtualChannelManager.get__NewEnum, IRDPSRAPIVirtualChannelManager::_NewEnum, IRDPSRAPIVirtualChannelManager::get__NewEnum, RDPSRAPIVirtualChannelManager object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIVirtualChannelManager interface, _NewEnum property [RDP],RDPSRAPIVirtualChannelManager object, get__NewEnum, rdp.irdpsrapivirtualchannelmanager__newenum, rdpencomapi/IRDPSRAPIVirtualChannelManager::_NewEnum, rdpencomapi/IRDPSRAPIVirtualChannelManager::get__NewEnum
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rdpencomapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RdpEncomAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: RdpEncomAPI.tlb
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	RdpEncom.dll
+api_name:
+-	IRDPSRAPIVirtualChannelManager._NewEnum
+-	IRDPSRAPIVirtualChannelManager.get__NewEnum
+-	RDPSRAPIVirtualChannelManager._NewEnum
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRDPSRAPIVirtualChannelManager::get__NewEnum

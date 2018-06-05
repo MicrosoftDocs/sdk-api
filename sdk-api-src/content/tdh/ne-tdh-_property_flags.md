@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tdh._PROPERTY_FLAGS
+title: "_PROPERTY_FLAGS"
+author: windows-sdk-content
+description: Defines if the property is contained in a structure or array.
+old-location: etw\property_flags_enum.htm
+old-project: ETW
+ms.assetid: 517c1662-4230-44dc-94f0-a1996291bbee
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PROPERTY_FLAGS, PROPERTY_FLAGS enumeration [ETW], PropertyHasCustomSchema, PropertyHasTags, PropertyParamCount, PropertyParamFixedCount, PropertyParamFixedLength, PropertyParamLength, PropertyStruct, PropertyWBEMXmlFragment, _PROPERTY_FLAGS, etw.property_flags_enum, tdh.property_flags_enum, tdh/, tdh/PROPERTY_FLAGS, tdh/PropertyHasCustomSchema, tdh/PropertyHasTags, tdh/PropertyParamCount, tdh/PropertyParamFixedCount, tdh/PropertyParamFixedLength, tdh/PropertyParamLength, tdh/PropertyStruct, tdh/PropertyWBEMXmlFragment
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPERTY_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tdh.h
+api_name:
+-	PROPERTY_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _PROPERTY_FLAGS enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt._CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
+title: "_CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1"
+author: windows-sdk-content
+description: Defines a resource attribute that is defined in continuous memory for persistence within a serialized security descriptor.
+old-location: security\claim_security_attribute_relative_v1.htm
+old-project: SecAuthZ
+ms.assetid: 7516CFA6-3726-4004-854E-CD07347898E5
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, CLAIM_SECURITY_ATTRIBUTE_DISABLED, CLAIM_SECURITY_ATTRIBUTE_DISABLED_BY_DEFAULT, CLAIM_SECURITY_ATTRIBUTE_MANDATORY, CLAIM_SECURITY_ATTRIBUTE_NON_INHERITABLE, CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1 structure [Security], CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64, CLAIM_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64, CLAIM_SECURITY_ATTRIBUTE_USE_FOR_DENY_ONLY, CLAIM_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE, PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1 structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, security.claim_security_attribute_relative_v1, winnt/CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, winnt/PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, *PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winnt.h
+api_name:
+-	CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1 structure

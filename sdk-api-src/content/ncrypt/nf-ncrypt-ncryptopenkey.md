@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ncrypt.NCryptOpenKey
+title: NCryptOpenKey function
+author: windows-sdk-content
+description: Opens a key that exists in the specified CNG key storage provider.
+old-location: security\ncryptopenkey_func.htm
+old-project: SecCNG
+ms.assetid: 581c5d89-730d-4d8c-b3bb-a28edec25910
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILENT_FLAG, NCryptOpenKey, NCryptOpenKey function [Security], ncrypt/NCryptOpenKey, security.ncryptopenkey_func
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ncrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SESSION_HEADER, *PSESSION_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ncrypt.dll
+api_name:
+-	NCryptOpenKey
+product: Windows
+targetos: Windows
+req.lib: Ncrypt.lib
+req.dll: Ncrypt.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # NCryptOpenKey function

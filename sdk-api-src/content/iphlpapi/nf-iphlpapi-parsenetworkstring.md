@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iphlpapi.ParseNetworkString
+title: ParseNetworkString function
+author: windows-sdk-content
+description: Parses the input network string and checks whether it is a legal representation of the specified IP network string type. If the string matches a type and its specification, the function can optionally return the parsed result.
+old-location: iphlp\parsenetworkstring.htm
+old-project: IpHlp
+ms.assetid: 43bc866f-7776-4f59-9ed6-4c6fc4da7f83
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: NET_STRING_ANY_ADDRESS, NET_STRING_ANY_ADDRESS_NO_SCOPE, NET_STRING_ANY_SERVICE, NET_STRING_ANY_SERVICE_NO_SCOPE, NET_STRING_IPV4_ADDRESS, NET_STRING_IPV4_NETWORK, NET_STRING_IPV4_SERVICE, NET_STRING_IPV6_ADDRESS, NET_STRING_IPV6_ADDRESS_NO_SCOPE, NET_STRING_IPV6_NETWORK, NET_STRING_IPV6_SERVICE, NET_STRING_IPV6_SERVICE_NO_SCOPE, NET_STRING_IP_ADDRESS, NET_STRING_IP_ADDRESS_NO_SCOPE, NET_STRING_IP_NETWORK, NET_STRING_IP_SERVICE, NET_STRING_IP_SERVICE_NO_SCOPE, NET_STRING_NAMED_ADDRESS, NET_STRING_NAMED_SERVICE, ParseNetworkString, ParseNetworkString function [IP Helper], iphlp.parsenetworkstring, iphlpapi/ParseNetworkString
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: iphlpapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NET_ADDRESS_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Iphlpapi.dll
+api_name:
+-	ParseNetworkString
+product: Windows
+targetos: Windows
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ParseNetworkString function

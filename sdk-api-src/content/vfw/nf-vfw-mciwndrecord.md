@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vfw.MCIWndRecord
+title: MCIWndRecord macro
+author: windows-sdk-content
+description: The MCIWndRecord macro begins recording content using the MCI device. The recording process begins at the current position in the content and will overwrite existing data for the duration of the recording.
+old-location: multimedia\mciwndrecord.htm
+old-project: Multimedia
+ms.assetid: 9f68f258-6e7d-45f0-8b42-93a03d559c04
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: MCIWndRecord, MCIWndRecord macro [Windows Multimedia], _win32_MCIWndRecord, multimedia.mciwndrecord, vfw/MCIWndRecord
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: vfw.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VS_FIXEDFILEINFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vfw.h
+api_name:
+-	MCIWndRecord
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # MCIWndRecord macro

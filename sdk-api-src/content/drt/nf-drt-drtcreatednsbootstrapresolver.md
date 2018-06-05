@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:drt.DrtCreateDnsBootstrapResolver
+title: DrtCreateDnsBootstrapResolver function
+author: windows-sdk-content
+description: The DrtCreateDnsBootstrapResolver function creates a bootstrap resolver that will use the GetAddrInfo system function to resolve the hostname of a will known node already present in the DRT mesh.
+old-location: p2p\drtcreatednsbootstrapresolver.htm
+old-project: P2PSdk
+ms.assetid: d4a92dd3-d66a-4c27-9180-f9c148735a4a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DrtCreateDnsBootstrapResolver, DrtCreateDnsBootstrapResolver function [Distributed Routing Tables], drt/DrtCreateDnsBootstrapResolver, p2p.drtcreatednsbootstrapresolver
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: drt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	drt.dll
+api_name:
+-	DrtCreateDnsBootstrapResolver
+product: Windows
+targetos: Windows
+req.lib: Drtprov.lib
+req.dll: Drt.dll
+req.irql: 
 ---
 
 # DrtCreateDnsBootstrapResolver function

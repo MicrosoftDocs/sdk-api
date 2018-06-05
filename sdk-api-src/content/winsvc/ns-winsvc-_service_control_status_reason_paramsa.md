@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winsvc._SERVICE_CONTROL_STATUS_REASON_PARAMSA
+title: "_SERVICE_CONTROL_STATUS_REASON_PARAMSA"
+author: windows-sdk-content
+description: Contains service control parameters.
+old-location: base\service_control_status_reason_params.htm
+old-project: Services
+ms.assetid: f7213cbb-255f-4ce3-93c9-5537256e078f
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: "*PSERVICE_CONTROL_STATUS_REASON_PARAMSA, PSERVICE_CONTROL_STATUS_REASON_PARAMS, PSERVICE_CONTROL_STATUS_REASON_PARAMS structure pointer, SERVICE_CONTROL_STATUS_REASON_PARAMS, SERVICE_CONTROL_STATUS_REASON_PARAMS structure, SERVICE_CONTROL_STATUS_REASON_PARAMSA, SERVICE_CONTROL_STATUS_REASON_PARAMSW, SERVICE_STOP_REASON_FLAG_CUSTOM, SERVICE_STOP_REASON_FLAG_PLANNED, SERVICE_STOP_REASON_FLAG_UNPLANNED, SERVICE_STOP_REASON_MAJOR_APPLICATION, SERVICE_STOP_REASON_MAJOR_HARDWARE, SERVICE_STOP_REASON_MAJOR_NONE, SERVICE_STOP_REASON_MAJOR_OPERATINGSYSTEM, SERVICE_STOP_REASON_MAJOR_OTHER, SERVICE_STOP_REASON_MAJOR_SOFTWARE, SERVICE_STOP_REASON_MINOR_DISK, SERVICE_STOP_REASON_MINOR_ENVIRONMENT, SERVICE_STOP_REASON_MINOR_HARDWARE_DRIVER, SERVICE_STOP_REASON_MINOR_HUNG, SERVICE_STOP_REASON_MINOR_INSTALLATION, SERVICE_STOP_REASON_MINOR_MAINTENANCE, SERVICE_STOP_REASON_MINOR_MMC, SERVICE_STOP_REASON_MINOR_NETWORKCARD, SERVICE_STOP_REASON_MINOR_NETWORK_CONNECTIVITY, SERVICE_STOP_REASON_MINOR_NONE, SERVICE_STOP_REASON_MINOR_OTHER, SERVICE_STOP_REASON_MINOR_OTHERDRIVER, SERVICE_STOP_REASON_MINOR_RECONFIG, SERVICE_STOP_REASON_MINOR_SECURITY, SERVICE_STOP_REASON_MINOR_SECURITYFIX, SERVICE_STOP_REASON_MINOR_SECURITYFIX_UNINSTALL, SERVICE_STOP_REASON_MINOR_SERVICEPACK, SERVICE_STOP_REASON_MINOR_SERVICEPACK_UNINSTALL, SERVICE_STOP_REASON_MINOR_SOFTWARE_UPDATE, SERVICE_STOP_REASON_MINOR_SOFTWARE_UPDATE_UNINSTALL, SERVICE_STOP_REASON_MINOR_UNSTABLE, SERVICE_STOP_REASON_MINOR_UPGRADE, SERVICE_STOP_REASON_MINOR_WMI, _SERVICE_CONTROL_STATUS_REASON_PARAMSA, base.service_control_status_reason_params, winsvc/PSERVICE_CONTROL_STATUS_REASON_PARAMS, winsvc/SERVICE_CONTROL_STATUS_REASON_PARAMS, winsvc/SERVICE_CONTROL_STATUS_REASON_PARAMSA, winsvc/SERVICE_CONTROL_STATUS_REASON_PARAMSW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winsvc.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SERVICE_CONTROL_STATUS_REASON_PARAMSW (Unicode) and SERVICE_CONTROL_STATUS_REASON_PARAMSA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SERVICE_CONTROL_STATUS_REASON_PARAMSA, *PSERVICE_CONTROL_STATUS_REASON_PARAMSA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winsvc.h
+api_name:
+-	SERVICE_CONTROL_STATUS_REASON_PARAMS
+-	SERVICE_CONTROL_STATUS_REASON_PARAMSA
+-	SERVICE_CONTROL_STATUS_REASON_PARAMSW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _SERVICE_CONTROL_STATUS_REASON_PARAMSA structure

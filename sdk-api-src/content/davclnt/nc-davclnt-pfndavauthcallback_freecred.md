@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:davclnt.PFNDAVAUTHCALLBACK_FREECRED
+title: PFNDAVAUTHCALLBACK_FREECRED
+author: windows-sdk-content
+description: The WebDAV client calls the application-defined DavFreeCredCallback callback function to free the credential information that was retrieved by the DavAuthCallback callback function.
+old-location: webdav\freecredcallback.htm
+old-project: WebDAV
+ms.assetid: 96bacda5-8f24-4119-b0ae-82ff8aff54b4
+ms.author: windowssdkdev
+ms.date: 03/22/2018
+ms.keywords: DavFreeCredCallback, DavFreeCredCallback callback function [WebDAV], PFNDAVAUTHCALLBACK_FREECRED, PFNDAVAUTHCALLBACK_FREECRED callback, davclnt/DavFreeCredCallback, webdav.freecredcallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: davclnt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 with SP2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DX11_FFT_DESC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Davclnt.h
+api_name:
+-	DavFreeCredCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PFNDAVAUTHCALLBACK_FREECRED callback function

@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:bthledef._BTH_LE_GATT_DESCRIPTOR_TYPE
+title: "_BTH_LE_GATT_DESCRIPTOR_TYPE"
+author: windows-sdk-content
+description: The BTH_LE_GATT_DESCRIPTOR_TYPE enumeration describes the different types of Bluetooth LE generic attributes (GATT).
+old-location: bltooth\bth_le_gatt_descriptor_type.htm
+old-project: bltooth
+ms.assetid: 323D649D-B381-4293-BE7C-64651862B9DB
+ms.author: windowssdkdev
+ms.date: 04/27/2018
+ms.keywords: "*PBTH_LE_GATT_DESCRIPTOR_TYPE, BTH_LE_GATT_DESCRIPTOR_TYPE, BTH_LE_GATT_DESCRIPTOR_TYPE enumeration [Bluetooth Devices], CharacteristicAggregateFormat, CharacteristicExtendedProperties, CharacteristicFormat, CharacteristicUserDescription, ClientCharacteristicConfiguration, CustomDescriptor, ServerCharacteristicConfiguration, _BTH_LE_GATT_DESCRIPTOR_TYPE, bltooth.bth_le_gatt_descriptor_type, bthledef/BTH_LE_GATT_DESCRIPTOR_TYPE, bthledef/CharacteristicAggregateFormat, bthledef/CharacteristicExtendedProperties, bthledef/CharacteristicFormat, bthledef/CharacteristicUserDescription, bthledef/ClientCharacteristicConfiguration, bthledef/CustomDescriptor, bthledef/ServerCharacteristicConfiguration"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: bthledef.h
+req.include-header: BthLEDef.h
+req.target-type: Windows
+req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BTH_LE_GATT_DESCRIPTOR_TYPE, *PBTH_LE_GATT_DESCRIPTOR_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	BthLEDef.h
+api_name:
+-	BTH_LE_GATT_DESCRIPTOR_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _BTH_LE_GATT_DESCRIPTOR_TYPE enumeration

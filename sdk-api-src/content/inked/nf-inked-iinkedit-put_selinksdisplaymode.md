@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:inked.IInkEdit.put_SelInksDisplayMode
+title: IInkEdit::put_SelInksDisplayMode
+author: windows-sdk-content
+description: Gets or sets a value that allows for toggling the appearance of the selection between ink and text.
+old-location: tablet\inkedit_selinksdisplaymode.htm
+old-project: tablet
+ms.assetid: c4e6f85a-b776-41ca-bfd2-6eb8d2425cd1
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IInkEdit interface [Tablet PC],SelInksDisplayMode property, IInkEdit.SelInksDisplayMode, IInkEdit.put_SelInksDisplayMode, IInkEdit::SelInksDisplayMode, IInkEdit::get_SelInksDisplayMode, IInkEdit::put_SelInksDisplayMode, Ink, InkEdit.get_SelInksDisplayMode, InkEdit.put_SelInksDisplayMode, SelInksDisplayMode property [Tablet PC], SelInksDisplayMode property [Tablet PC],IInkEdit interface, Text, c4e6f85a-b776-41ca-bfd2-6eb8d2425cd1, get_SelInksDisplayMode, inked/IInkEdit::SelInksDisplayMode, inked/IInkEdit::get_SelInksDisplayMode, inked/IInkEdit::put_SelInksDisplayMode, put_SelInksDisplayMode, tablet.inkedit_selinksdisplaymode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: inked.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SelAlignmentConstants
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkEd.dll
+-	InkEd.dll.dll
+api_name:
+-	IInkEdit.SelInksDisplayMode
+-	IInkEdit.get_SelInksDisplayMode
+-	IInkEdit.put_SelInksDisplayMode
+-	InkEdit.get_SelInksDisplayMode
+-	InkEdit.put_SelInksDisplayMode
+product: Windows
+targetos: Windows
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IInkEdit::put_SelInksDisplayMode

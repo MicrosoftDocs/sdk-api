@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:usp10.tag_SCRIPT_ITEM
+title: tag_SCRIPT_ITEM
+author: windows-sdk-content
+description: Contains a script item, including a SCRIPT_ANALYSIS structure with the string offset of the first character of the item.
+old-location: intl\script_item.htm
+old-project: Intl
+ms.assetid: d309f3a7-fec3-4999-bbbe-bb85ceecb4c4
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: SCRIPT_ITEM, SCRIPT_ITEM structure [Internationalization for Windows Applications], _win32_SCRIPT_ITEM_str, intl.script_item, tag_SCRIPT_ITEM, usp10/SCRIPT_ITEM
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: usp10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SCRIPT_ITEM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Usp10.h
+api_name:
+-	SCRIPT_ITEM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # tag_SCRIPT_ITEM structure

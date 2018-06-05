@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dxgi1_2.DXGI_OUTDUPL_MOVE_RECT
+title: DXGI_OUTDUPL_MOVE_RECT
+author: windows-sdk-content
+description: The DXGI_OUTDUPL_MOVE_RECT structure describes the movement of a rectangle.
+old-location: direct3ddxgi\dxgi_outdupl_move_rect.htm
+old-project: direct3ddxgi
+ms.assetid: B19DB70A-83B4-4683-9E9B-3DA5D33AB564
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DXGI_OUTDUPL_MOVE_RECT, DXGI_OUTDUPL_MOVE_RECT structure [DXGI], direct3ddxgi.dxgi_outdupl_move_rect, dxgi1_2/DXGI_OUTDUPL_MOVE_RECT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dxgi1_2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_OUTDUPL_MOVE_RECT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	DXGI1_2.h
+api_name:
+-	DXGI_OUTDUPL_MOVE_RECT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DXGI_OUTDUPL_MOVE_RECT structure

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msopc.IOpcSignatureRelationshipReference.GetTransformMethod
+title: IOpcSignatureRelationshipReference::GetTransformMethod
+author: windows-sdk-content
+description: Gets the canonicalization method to use on the relationship markup of the selected relationships when they are signed.
+old-location: opc\iopcsignaturerelationshipreference_gettransformmethod.htm
+old-project: OPC
+ms.assetid: 87d85f7e-abf2-4f6f-91b6-36a014cc0f33
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: GetTransformMethod, GetTransformMethod method [Open Packaging Conventions], GetTransformMethod method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetTransformMethod method, IOpcSignatureRelationshipReference.GetTransformMethod, IOpcSignatureRelationshipReference::GetTransformMethod, msopc/IOpcSignatureRelationshipReference::GetTransformMethod, opc.iopcsignaturerelationshipreference_gettransformmethod
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msopc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: OpcDigitalSignature.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OPC_SIGNATURE_TIME_FORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msopc.h
+api_name:
+-	IOpcSignatureRelationshipReference.GetTransformMethod
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOpcSignatureRelationshipReference::GetTransformMethod

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddraw._DDPIXELFORMAT
+title: "_DDPIXELFORMAT"
+author: windows-sdk-content
+description: The DDPIXELFORMAT structure describes the pixel format of a DirectDrawSurface object for the IDirectDrawSurface7::GetPixelFormat method.
+old-location: directdraw\ddpixelformat.htm
+old-project: directdraw
+ms.assetid: 17c531cb-7e65-482a-b3de-494874c1dd92
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPDDPIXELFORMAT, DDPF_ALPHA, DDPF_ALPHAPIXELS, DDPF_ALPHAPREMULT, DDPF_BUMPDUDV, DDPF_BUMPLUMINANCE, DDPF_COMPRESSED, DDPF_D3DFORMAT, DDPF_FOURCC, DDPF_LUMINANCE, DDPF_PALETTEINDEXED1, DDPF_PALETTEINDEXED2, DDPF_PALETTEINDEXED4, DDPF_PALETTEINDEXED8, DDPF_PALETTEINDEXEDTO8, DDPF_RGB, DDPF_RGBTOYUV, DDPF_STENCILBUFFER, DDPF_YUV, DDPF_ZBUFFER, DDPF_ZPIXELS, DDPIXELFORMAT, DDPIXELFORMAT structure [DirectDraw], LPDDPIXELFORMAT, LPDDPIXELFORMAT structure pointer [DirectDraw], _DDPIXELFORMAT, ddraw/DDPIXELFORMAT, ddraw/LPDDPIXELFORMAT, directdraw.ddpixelformat"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DDPIXELFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ddraw.h
+api_name:
+-	DDPIXELFORMAT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDPIXELFORMAT structure

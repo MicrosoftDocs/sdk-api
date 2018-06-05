@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemprov.IWbemPropertyProvider.GetProperty
+title: IWbemPropertyProvider::GetProperty
+author: windows-sdk-content
+description: The IWbemPropertyProvider::GetProperty method is called by Windows Management to retrieve an individual property value.
+old-location: wmi\iwbempropertyprovider_getproperty.htm
+old-project: WmiSdk
+ms.assetid: 6ee0e904-7f4c-4b32-8a90-d727340b481e
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetProperty, GetProperty method [Windows Management Instrumentation], GetProperty method [Windows Management Instrumentation],IWbemPropertyProvider interface, IWbemPropertyProvider interface [Windows Management Instrumentation],GetProperty method, IWbemPropertyProvider.GetProperty, IWbemPropertyProvider::GetProperty, _hmm_iwbempropertyprovider_getproperty, wbemprov/IWbemPropertyProvider::GetProperty, wmi.iwbempropertyprovider_getproperty
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemprov.h
+req.include-header: Wbemidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wbemsvc.dll
+api_name:
+-	IWbemPropertyProvider.GetProperty
+product: Windows
+targetos: Windows
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWbemPropertyProvider::GetProperty

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d2d1_3.D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS
+title: D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS
+author: windows-sdk-content
+description: Option flags controlling primary conversion performed by CreateImageSourceFromDxgi, if any.
+old-location: direct2d\d2d1_image_source_from_dxgi_options.htm
+old-project: Direct2D
+ms.assetid: 39458E66-D924-4E7A-9B99-A7E258AFB4E5
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS, D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS enumeration [Direct2D], D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_LOW_QUALITY_PRIMARY_CONVERSION, D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_NONE, d2d1_3/D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS, d2d1_3/D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_LOW_QUALITY_PRIMARY_CONVERSION, d2d1_3/D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_NONE, direct2d.d2d1_image_source_from_dxgi_options
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d2d1_3.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d2d1_3.h
+api_name:
+-	D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS enumeration

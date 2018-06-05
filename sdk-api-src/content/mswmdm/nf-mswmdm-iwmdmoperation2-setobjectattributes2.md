@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mswmdm.IWMDMOperation2.SetObjectAttributes2
+title: IWMDMOperation2::SetObjectAttributes2
+author: windows-sdk-content
+description: The SetObjectAttributes2 method sets attributes of files or storages. This method is currently not called by Windows Media Device Manager.
+old-location: wmdm\iwmdmoperation2_setobjectattributes2.htm
+old-project: WMDM
+ms.assetid: ce19bfe5-c8ff-40f4-a152-8a46d2576c63
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IWMDMOperation2 interface [windows Media Device Manager],SetObjectAttributes2 method, IWMDMOperation2.SetObjectAttributes2, IWMDMOperation2::SetObjectAttributes2, IWMDMOperation2SetObjectAttributes2, SetObjectAttributes2, SetObjectAttributes2 method [windows Media Device Manager], SetObjectAttributes2 method [windows Media Device Manager],IWMDMOperation2 interface, mswmdm/IWMDMOperation2::SetObjectAttributes2, wmdm.iwmdmoperation2_setobjectattributes2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IWMDMOperation2.SetObjectAttributes2
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMOperation2::SetObjectAttributes2

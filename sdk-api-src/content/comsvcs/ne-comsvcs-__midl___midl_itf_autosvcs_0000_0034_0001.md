@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:comsvcs.__MIDL___MIDL_itf_autosvcs_0000_0034_0001
+title: "__MIDL___MIDL_itf_autosvcs_0000_0034_0001"
+author: windows-sdk-content
+description: Indicates the type of objects in a tracking information collection.
+old-location: cos\tracking_coll_type.htm
+old-project: cossdk
+ms.assetid: 0dd3defb-0731-4bef-9735-6a4b7551cff2
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: TRACKING_COLL_TYPE, TRACKING_COLL_TYPE enumeration [COM+], TRKCOLL_APPLICATIONS, TRKCOLL_COMPONENTS, TRKCOLL_PROCESSES, __MIDL___MIDL_itf_autosvcs_0000_0034_0001, _cos_TRACKING_COLL_TYPE, comsvcs/TRACKING_COLL_TYPE, comsvcs/TRKCOLL_APPLICATIONS, comsvcs/TRKCOLL_COMPONENTS, comsvcs/TRKCOLL_PROCESSES, cos.tracking_coll_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ComSvcs.h
+api_name:
+-	TRACKING_COLL_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # __MIDL___MIDL_itf_autosvcs_0000_0034_0001 enumeration

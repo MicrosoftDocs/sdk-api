@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:usbuser._USB_CLOSE_RAW_DEVICE_PARAMETERS
+title: "_USB_CLOSE_RAW_DEVICE_PARAMETERS"
+author: windows-sdk-content
+description: This structure is not supported. The USB_CLOSE_RAW_DEVICE_PARAMETERS structure is used with the IOCTL_USB_USER_REQUEST I/O control request to close raw access to devices on the bus.
+old-location: buses\usb_close_raw_device_parameters.htm
+old-project: usbref
+ms.assetid: 00da48bb-4ebe-43b8-85fc-54ce3b183750
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: "*PUSB_CLOSE_RAW_DEVICE_PARAMETERS, PUSB_CLOSE_RAW_DEVICE_PARAMETERS, PUSB_CLOSE_RAW_DEVICE_PARAMETERS structure pointer [Buses], USB_CLOSE_RAW_DEVICE_PARAMETERS, USB_CLOSE_RAW_DEVICE_PARAMETERS structure [Buses], _USB_CLOSE_RAW_DEVICE_PARAMETERS, buses.usb_close_raw_device_parameters, usbstrct_aad6430d-1587-4aca-827a-15e391dc0361.xml, usbuser/PUSB_CLOSE_RAW_DEVICE_PARAMETERS, usbuser/USB_CLOSE_RAW_DEVICE_PARAMETERS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: usbuser.h
+req.include-header: Usbuser.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USB_CLOSE_RAW_DEVICE_PARAMETERS, *PUSB_CLOSE_RAW_DEVICE_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	usbuser.h
+api_name:
+-	USB_CLOSE_RAW_DEVICE_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _USB_CLOSE_RAW_DEVICE_PARAMETERS structure

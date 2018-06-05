@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wlanapi._WLAN_FILTER_LIST_TYPE
+title: "_WLAN_FILTER_LIST_TYPE"
+author: windows-sdk-content
+description: Indicates types of filter lists.
+old-location: nwifi\wlan_filter_list_type.htm
+old-project: NativeWiFi
+ms.assetid: b53b9a6c-6453-4828-9662-589a1b99614c
+ms.author: windowssdkdev
+ms.date: 04/13/2018
+ms.keywords: "*PWLAN_FILTER_LIST_TYPE, PWLAN_FILTER_LIST_TYPE, PWLAN_FILTER_LIST_TYPE enumeration pointer [NativeWIFI], WLAN_FILTER_LIST_TYPE, WLAN_FILTER_LIST_TYPE enumeration [NativeWIFI], _WLAN_FILTER_LIST_TYPE, nwifi.wlan_filter_list_type, wlan_filter_list_type_gp_deny, wlan_filter_list_type_gp_permit, wlan_filter_list_type_user_deny, wlan_filter_list_type_user_permit, wlanapi/PWLAN_FILTER_LIST_TYPE, wlanapi/WLAN_FILTER_LIST_TYPE, wlanapi/wlan_filter_list_type_gp_deny, wlanapi/wlan_filter_list_type_gp_permit, wlanapi/wlan_filter_list_type_user_deny, wlanapi/wlan_filter_list_type_user_permit"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wlanapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WLAN_FILTER_LIST_TYPE, *PWLAN_FILTER_LIST_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wlanapi.h
+api_name:
+-	WLAN_FILTER_LIST_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _WLAN_FILTER_LIST_TYPE enumeration

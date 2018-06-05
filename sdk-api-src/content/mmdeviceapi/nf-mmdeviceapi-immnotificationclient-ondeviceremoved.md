@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mmdeviceapi.IMMNotificationClient.OnDeviceRemoved
+title: IMMNotificationClient::OnDeviceRemoved
+author: windows-sdk-content
+description: The OnDeviceRemoved method indicates that an audio endpoint device has been removed.
+old-location: coreaudio\immnotificationclient_ondeviceremoved.htm
+old-project: CoreAudio
+ms.assetid: 0adacdd2-5fa3-4d27-a299-fa0d41b6d285
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceRemoved method, IMMNotificationClient.OnDeviceRemoved, IMMNotificationClient::OnDeviceRemoved, IMMNotificationClientOnDeviceRemoved, OnDeviceRemoved, OnDeviceRemoved method [Core Audio], OnDeviceRemoved method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondeviceremoved, mmdeviceapi/IMMNotificationClient::OnDeviceRemoved
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mmdeviceapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EndpointFormFactor
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mmdeviceapi.h
+api_name:
+-	IMMNotificationClient.OnDeviceRemoved
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMMNotificationClient::OnDeviceRemoved

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:peninputpanel.ITextInputPanel.get_AttachedEditWindow
+title: ITextInputPanel::get_AttachedEditWindow
+author: windows-sdk-content
+description: Gets or sets the window handle of the object to which the ITextInputPanel object is attached.
+old-location: tablet\itextinputpanel_attachededitwindow.htm
+old-project: tablet
+ms.assetid: 92a8510d-c8f2-44b4-8812-789ddbc0e3fd
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 92a8510d-c8f2-44b4-8812-789ddbc0e3fd, AttachedEditWindow property [Tablet PC], AttachedEditWindow property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],AttachedEditWindow property, ITextInputPanel.AttachedEditWindow, ITextInputPanel.get_AttachedEditWindow, ITextInputPanel.put_AttachedEditWindow, ITextInputPanel::AttachedEditWindow, ITextInputPanel::get_AttachedEditWindow, ITextInputPanel::put_AttachedEditWindow, get_AttachedEditWindow, peninputpanel/ITextInputPanel::AttachedEditWindow, peninputpanel/ITextInputPanel::get_AttachedEditWindow, peninputpanel/ITextInputPanel::put_AttachedEditWindow, tablet.itextinputpanel_attachededitwindow
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: peninputpanel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EventMask
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tiptsf.dll
+api_name:
+-	ITextInputPanel.AttachedEditWindow
+-	ITextInputPanel.get_AttachedEditWindow
+-	ITextInputPanel.put_AttachedEditWindow
+-	ITextInputPanel.get_AttachedEditWindow
+-	ITextInputPanel.put_AttachedEditWindow
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITextInputPanel::get_AttachedEditWindow

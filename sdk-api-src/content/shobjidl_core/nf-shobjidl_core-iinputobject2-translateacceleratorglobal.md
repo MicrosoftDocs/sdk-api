@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IInputObject2.TranslateAcceleratorGlobal
+title: IInputObject2::TranslateAcceleratorGlobal
+author: windows-sdk-content
+description: Handles global accelerators so that input objects can respond to the keyboard even when they are not active in the UI.
+old-location: shell\IInputObject2_TranslateAcceleratorGlobal.htm
+old-project: shell
+ms.assetid: f55f2671-7164-421e-9269-aa70e85180de
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IInputObject2 interface [Windows Shell],TranslateAcceleratorGlobal method, IInputObject2.TranslateAcceleratorGlobal, IInputObject2::TranslateAcceleratorGlobal, TranslateAcceleratorGlobal, TranslateAcceleratorGlobal method [Windows Shell], TranslateAcceleratorGlobal method [Windows Shell],IInputObject2 interface, _shell_IInputObject2_TranslateAcceleratorGlobal, shell.IInputObject2_TranslateAcceleratorGlobal, shobjidl_core/IInputObject2::TranslateAcceleratorGlobal
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	IInputObject2.TranslateAcceleratorGlobal
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IInputObject2::TranslateAcceleratorGlobal

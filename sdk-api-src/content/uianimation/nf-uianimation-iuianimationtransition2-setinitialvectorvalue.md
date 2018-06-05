@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uianimation.IUIAnimationTransition2.SetInitialVectorValue
+title: IUIAnimationTransition2::SetInitialVectorValue
+author: windows-sdk-content
+description: Sets the initial value of the transition for each specified dimension in the animation variable.
+old-location: uianimation\iuianimationtransition2_setinitialvectorvalue.htm
+old-project: UIAnimation
+ms.assetid: B46F15F2-8C2A-4F15-9BBE-20FB8E5C84C6
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IUIAnimationTransition2 interface [Windows Animation],SetInitialVectorValue method, IUIAnimationTransition2.SetInitialVectorValue, IUIAnimationTransition2::SetInitialVectorValue, SetInitialVectorValue, SetInitialVectorValue method [Windows Animation], SetInitialVectorValue method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_setinitialvectorvalue, uianimation/IUIAnimationTransition2::SetInitialVectorValue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uianimation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAnimation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAnimation.dll
+api_name:
+-	IUIAnimationTransition2.SetInitialVectorValue
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAnimationTransition2::SetInitialVectorValue

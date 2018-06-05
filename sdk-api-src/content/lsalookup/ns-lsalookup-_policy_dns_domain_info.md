@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lsalookup._POLICY_DNS_DOMAIN_INFO
+title: "_POLICY_DNS_DOMAIN_INFO"
+author: windows-sdk-content
+description: The POLICY_DNS_DOMAIN_INFO structure is used to set and query Domain Name System (DNS) information about the primary domain associated with a Policy object.
+old-location: security\policy_dns_domain_info.htm
+old-project: SecMgmt
+ms.assetid: 5b2879cf-e0dc-4844-bfe8-bf45460285f1
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PPOLICY_DNS_DOMAIN_INFO, POLICY_DNS_DOMAIN_INFO, POLICY_DNS_DOMAIN_INFO structure [Security], PPOLICY_DNS_DOMAIN_INFO, PPOLICY_DNS_DOMAIN_INFO structure pointer [Security], _POLICY_DNS_DOMAIN_INFO, _lsa_policy_dns_domain_info, lsalookup/POLICY_DNS_DOMAIN_INFO, lsalookup/PPOLICY_DNS_DOMAIN_INFO, security.policy_dns_domain_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lsalookup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: POLICY_DNS_DOMAIN_INFO, *PPOLICY_DNS_DOMAIN_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	LsaLookup.h
+api_name:
+-	POLICY_DNS_DOMAIN_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _POLICY_DNS_DOMAIN_INFO structure

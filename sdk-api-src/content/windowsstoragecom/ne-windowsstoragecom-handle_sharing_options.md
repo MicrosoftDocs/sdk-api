@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:windowsstoragecom.HANDLE_SHARING_OPTIONS
+title: HANDLE_SHARING_OPTIONS
+author: windows-sdk-content
+description: Defines the requested sharing mode of the file handle.
+old-location: winrt\handle_sharing_options.htm
+old-project: WinRT
+ms.assetid: 2CF1B6A9-6B6F-4413-8D76-B2F7A9D6D02E
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: HANDLE_SHARING_OPTIONS, HANDLE_SHARING_OPTIONS enumeration [Windows Runtime], HSO_SHARE_DELETE, HSO_SHARE_NONE, HSO_SHARE_READ, HSO_SHARE_WRITE, windowsstoragecom/HANDLE_SHARING_OPTIONS, windowsstoragecom/HSO_SHARE_DELETE, windowsstoragecom/HSO_SHARE_NONE, windowsstoragecom/HSO_SHARE_READ, windowsstoragecom/HSO_SHARE_WRITE, winrt.handle_sharing_options
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: windowsstoragecom.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HANDLE_SHARING_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	windowsstoragecom.h
+api_name:
+-	HANDLE_SHARING_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: MpClient.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # HANDLE_SHARING_OPTIONS enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:tapi3if.ITDigitDetectionEvent
+title: ITDigitDetectionEvent
+author: windows-sdk-content
+description: The ITDigitDetectionEvent interface contains methods that retrieve the description of DTMF digit events.
+old-location: tapi3\itdigitdetectionevent.htm
+old-project: Tapi
+ms.assetid: f387f5f5-06e4-45f2-8d93-31ff0da6151a
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITDigitDetectionEvent, ITDigitDetectionEvent interface [TAPI 2.2], ITDigitDetectionEvent interface [TAPI 2.2],described, _tapi3_itdigitdetectionevent, tapi3.itdigitdetectionevent, tapi3if/ITDigitDetectionEvent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: tapi3if.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITDigitDetectionEvent
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITDigitDetectionEvent interface

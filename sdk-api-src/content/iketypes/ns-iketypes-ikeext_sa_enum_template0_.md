@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:iketypes.IKEEXT_SA_ENUM_TEMPLATE0_
+title: IKEEXT_SA_ENUM_TEMPLATE0_
+author: windows-sdk-content
+description: Is an enumeration template used for enumerating IKE/AuthIP security associations (SAs).
+old-location: fwp\ikeext_sa_enum_template0.htm
+old-project: FWP
+ms.assetid: 69bb80de-e512-4fbd-a62f-40bb211e6b26
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IKEEXT_SA_ENUM_TEMPLATE0, IKEEXT_SA_ENUM_TEMPLATE0 structure [Filtering], IKEEXT_SA_ENUM_TEMPLATE0_, fwp.ikeext_sa_enum_template0, iketypes/IKEEXT_SA_ENUM_TEMPLATE0
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: iketypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Iketypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IKEEXT_SA_ENUM_TEMPLATE0
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iketypes.h
+api_name:
+-	IKEEXT_SA_ENUM_TEMPLATE0
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IKEEXT_SA_ENUM_TEMPLATE0_ structure

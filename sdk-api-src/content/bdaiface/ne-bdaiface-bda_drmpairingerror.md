@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:bdaiface.BDA_DrmPairingError
+title: BDA_DrmPairingError
+author: windows-sdk-content
+description: Specifies the status of a DRM handshake between a tuner and the user's computer.
+old-location: mstv\bda_drmpairingerror.htm
+old-project: mstv
+ms.assetid: d1b100e5-497e-4cb1-9cb8-38424c9eecf8
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: BDA_DrmPairingError, BDA_DrmPairingError enumeration [Microsoft TV Technologies], BDA_DrmPairing_DrmInitFailed, BDA_DrmPairing_DrmNotPaired, BDA_DrmPairing_DrmRePairSoon, BDA_DrmPairing_HardwareFailure, BDA_DrmPairing_NeedIndiv, BDA_DrmPairing_NeedRevocationData, BDA_DrmPairing_Other, BDA_DrmPairing_Succeeded, bdaiface/BDA_DrmPairingError, bdaiface/BDA_DrmPairing_DrmInitFailed, bdaiface/BDA_DrmPairing_DrmNotPaired, bdaiface/BDA_DrmPairing_DrmRePairSoon, bdaiface/BDA_DrmPairing_HardwareFailure, bdaiface/BDA_DrmPairing_NeedIndiv, bdaiface/BDA_DrmPairing_NeedRevocationData, bdaiface/BDA_DrmPairing_Other, bdaiface/BDA_DrmPairing_Succeeded, mstv.bda_drmpairingerror
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: bdaiface.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BDA_DrmPairingError
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Bdaiface.h
+api_name:
+-	BDA_DrmPairingError
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # BDA_DrmPairingError enumeration

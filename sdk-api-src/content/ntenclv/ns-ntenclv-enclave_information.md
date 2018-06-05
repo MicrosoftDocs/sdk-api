@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntenclv.ENCLAVE_INFORMATION
+title: ENCLAVE_INFORMATION
+author: windows-sdk-content
+description: Contains information about the currently executing enclave.
+old-location: base\enclave_information.htm
+old-project: Memory
+ms.assetid: 6720EDBE-6A0E-4192-A096-2ACA681E2AAF
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ENCLAVE_INFORMATION, ENCLAVE_INFORMATION structure, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, base.enclave_information, ntenclv/ENCLAVE_INFORMATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntenclv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ENCLAVE_INFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ntenclv.h
+api_name:
+-	ENCLAVE_INFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ENCLAVE_INFORMATION structure

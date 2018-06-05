@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winldap.LdapReferralCallback
+title: LdapReferralCallback
+author: windows-sdk-content
+description: Used to implement external caching of connections.
+old-location: ldap\ldap_referral_callback.htm
+old-project: LDAP
+ms.assetid: e5fe6a4b-00e7-4837-b1c1-8b2a724bb75e
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: "*PLDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK structure [LDAP], LdapReferralCallback, PLDAP_REFERRAL_CALLBACK, PLDAP_REFERRAL_CALLBACK structure pointer [LDAP], _ldap_ldap_referral_callback, ldap.ldap__referral__callback, ldap.ldap_referral_callback, winldap/LDAP_REFERRAL_CALLBACK, winldap/PLDAP_REFERRAL_CALLBACK"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winldap.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LDAP_REFERRAL_CALLBACK, *PLDAP_REFERRAL_CALLBACK
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winldap.h
+api_name:
+-	LDAP_REFERRAL_CALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # LdapReferralCallback structure

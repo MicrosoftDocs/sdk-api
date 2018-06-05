@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:usbuser._USB_POWER_INFO
+title: "_USB_POWER_INFO"
+author: windows-sdk-content
+description: The USB_POWER_INFO structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve device power state that the host controller power policy specifies for the indicated system power state.
+old-location: buses\usb_power_info.htm
+old-project: usbref
+ms.assetid: b4f35d7e-b0e3-44d9-8e41-1752cb0af5ef
+ms.author: windowssdkdev
+ms.date: 05/07/2018
+ms.keywords: "*PUSB_POWER_INFO, PUSB_POWER_INFO, PUSB_POWER_INFO structure pointer [Buses], USB_POWER_INFO, USB_POWER_INFO structure [Buses], _USB_POWER_INFO, buses.usb_power_info, usbstrct_95ba66ea-20ee-4e05-8294-3b3bd06f7116.xml, usbuser/PUSB_POWER_INFO, usbuser/USB_POWER_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: usbuser.h
+req.include-header: Usbuser.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USB_POWER_INFO, *PUSB_POWER_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	usbuser.h
+api_name:
+-	USB_POWER_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _USB_POWER_INFO structure

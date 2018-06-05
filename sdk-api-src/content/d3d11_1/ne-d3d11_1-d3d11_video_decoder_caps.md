@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:d3d11_1.D3D11_VIDEO_DECODER_CAPS
+title: D3D11_VIDEO_DECODER_CAPS
+author: windows-sdk-content
+description: Specifies capabilities of the video decoder.
+old-location: mf\d3d11_video_decoder_caps.htm
+old-project: medfound
+ms.assetid: 8E3C86A4-5F73-4E6F-8F93-5564EA0BC113
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: D3D11_VIDEO_DECODER_CAPS, D3D11_VIDEO_DECODER_CAPS enumeration [Media Foundation], D3D11_VIDEO_DECODER_CAPS_DOWNSAMPLE, D3D11_VIDEO_DECODER_CAPS_DOWNSAMPLE_DYNAMIC, D3D11_VIDEO_DECODER_CAPS_NON_REAL_TIME, d3d11_1/D3D11_VIDEO_DECODER_CAPS, d3d11_1/D3D11_VIDEO_DECODER_CAPS_DOWNSAMPLE, d3d11_1/D3D11_VIDEO_DECODER_CAPS_DOWNSAMPLE_DYNAMIC, d3d11_1/D3D11_VIDEO_DECODER_CAPS_NON_REAL_TIME, mf.d3d11_video_decoder_caps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11_1.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_VIDEO_DECODER_CAPS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	d3d11_1.h
+api_name:
+-	D3D11_VIDEO_DECODER_CAPS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_VIDEO_DECODER_CAPS enumeration

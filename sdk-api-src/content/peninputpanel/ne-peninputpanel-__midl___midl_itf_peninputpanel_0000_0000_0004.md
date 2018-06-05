@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0004
+title: "__MIDL___MIDL_itf_peninputpanel_0000_0000_0004"
+author: windows-sdk-content
+description: Specifies the correction modes of the Tablet PC Input Panel.
+old-location: tablet\correctionmode.htm
+old-project: tablet
+ms.assetid: 133d2012-e43c-490a-b126-b7670ea7acf8
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 133d2012-e43c-490a-b126-b7670ea7acf8, CorrectionMode, CorrectionMode enumeration [Tablet PC], CorrectionMode_NotVisible, CorrectionMode_PostInsertionCollapsed, CorrectionMode_PostInsertionExpanded, CorrectionMode_PreInsertion, __MIDL___MIDL_itf_peninputpanel_0000_0000_0004, peninputpanel/CorrectionMode, peninputpanel/CorrectionMode_NotVisible, peninputpanel/CorrectionMode_PostInsertionCollapsed, peninputpanel/CorrectionMode_PostInsertionExpanded, peninputpanel/CorrectionMode_PreInsertion, tablet.correctionmode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: peninputpanel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CorrectionMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	peninputpanel.h
+api_name:
+-	CorrectionMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_peninputpanel_0000_0000_0004 enumeration

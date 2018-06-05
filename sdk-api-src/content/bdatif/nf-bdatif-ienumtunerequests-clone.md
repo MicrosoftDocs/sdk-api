@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:bdatif.IEnumTuneRequests.Clone
+title: IEnumTuneRequests::Clone
+author: windows-sdk-content
+description: The Clone method creates a copy of the collection.
+old-location: mstv\ienumtunerequests_clone.htm
+old-project: mstv
+ms.assetid: 9910d646-c98e-479a-8abd-5d5427ef11b5
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumTuneRequests interface, IEnumTuneRequests interface [Microsoft TV Technologies],Clone method, IEnumTuneRequests.Clone, IEnumTuneRequests::Clone, IEnumTuneRequestsClone, bdatif/IEnumTuneRequests::Clone, mstv.ienumtunerequests_clone
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bdatif.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SmartCardApplication
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	bdatif.h
+api_name:
+-	IEnumTuneRequests.Clone
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IEnumTuneRequests::Clone

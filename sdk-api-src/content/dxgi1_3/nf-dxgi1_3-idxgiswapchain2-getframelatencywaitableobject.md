@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dxgi1_3.IDXGISwapChain2.GetFrameLatencyWaitableObject
+title: IDXGISwapChain2::GetFrameLatencyWaitableObject
+author: windows-sdk-content
+description: Returns a waitable handle that signals when the DXGI adapter has finished presenting a new frame.
+old-location: direct3ddxgi\idxgiswapchain2_getframelatencywaitableobject.htm
+old-project: direct3ddxgi
+ms.assetid: 70E7347F-C6F9-49FA-9796-B728CF3F7778
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: GetFrameLatencyWaitableObject, GetFrameLatencyWaitableObject method [DXGI], GetFrameLatencyWaitableObject method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetFrameLatencyWaitableObject method, IDXGISwapChain2.GetFrameLatencyWaitableObject, IDXGISwapChain2::GetFrameLatencyWaitableObject, direct3ddxgi.idxgiswapchain2_getframelatencywaitableobject, dxgi1_3/IDXGISwapChain2::GetFrameLatencyWaitableObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dxgi1_3.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dxgi.lib
+-	dxgi.dll
+api_name:
+-	IDXGISwapChain2.GetFrameLatencyWaitableObject
+product: Windows
+targetos: Windows
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # IDXGISwapChain2::GetFrameLatencyWaitableObject

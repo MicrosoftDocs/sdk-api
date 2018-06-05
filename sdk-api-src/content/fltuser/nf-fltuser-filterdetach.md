@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:fltuser.FilterDetach
+title: FilterDetach function
+author: windows-sdk-content
+description: The FilterDetach function detaches the given minifilter instance from the given volume.
+old-location: ifsk\filterdetach.htm
+old-project: ifsk
+ms.assetid: 798b1672-ea3a-418b-a52d-d57b15ed9426
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: FilterDetach, FilterDetach function [Installable File System Drivers], FltWin32ApiRef_ee7eb095-922a-48c6-943a-0a54fb0789f1.xml, fltuser/FilterDetach, ifsk.filterdetach
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: fltuser.h
+req.include-header: Fltuser.h
+req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	FltLib.dll
+api_name:
+-	FilterDetach
+product: Windows
+targetos: Windows
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FilterDetach function

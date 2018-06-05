@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:evntprov.PENABLECALLBACK
+title: PENABLECALLBACK
+author: windows-sdk-content
+description: Providers implement this function to receive enable or disable notification requests. The PENABLECALLBACK type defines a pointer to this callback function. EnableCallback is a placeholder for the application-defined function name.
+old-location: etw\enablecallback.htm
+old-project: ETW
+ms.assetid: f339323e-9da9-495f-aac5-f44969a018eb
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: EVENT_CONTROL_CODE_CAPTURE_STATE, EVENT_CONTROL_CODE_DISABLE_PROVIDER, EVENT_CONTROL_CODE_ENABLE_PROVIDER, PENABLECALLBACK, PENABLECALLBACK callback, PENABLECALLBACK callback function [ETW], base.eanblecallback, etw.eanblecallback, etw.enablecallback, evntprov/PENABLECALLBACK
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: evntprov.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVENT_RECORD, *PEVENT_RECORD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Evntprov.h
+api_name:
+-	PENABLECALLBACK
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # PENABLECALLBACK callback function

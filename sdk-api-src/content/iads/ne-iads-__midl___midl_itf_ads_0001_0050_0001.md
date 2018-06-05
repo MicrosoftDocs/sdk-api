@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0050_0001
+title: "__MIDL___MIDL_itf_ads_0001_0050_0001"
+author: windows-sdk-content
+description: Specifies the formats used for representing distinguished names.
+old-location: adsi\ads_name_type_enum.htm
+old-project: ADSI
+ms.assetid: 8c5e8f2a-e805-463e-9583-96732d70b209
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ADS_NAME_TYPE_1779, ADS_NAME_TYPE_CANONICAL, ADS_NAME_TYPE_CANONICAL_EX, ADS_NAME_TYPE_DISPLAY, ADS_NAME_TYPE_DOMAIN_SIMPLE, ADS_NAME_TYPE_ENTERPRISE_SIMPLE, ADS_NAME_TYPE_ENUM, ADS_NAME_TYPE_ENUM enumeration [ADSI], ADS_NAME_TYPE_GUID, ADS_NAME_TYPE_NT4, ADS_NAME_TYPE_SERVICE_PRINCIPAL_NAME, ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME, ADS_NAME_TYPE_UNKNOWN, ADS_NAME_TYPE_USER_PRINCIPAL_NAME, __MIDL___MIDL_itf_ads_0001_0050_0001, _ds_ads_name_type_enum, adsi.ads__name__type__enum, adsi.ads_name_type_enum, iads/ADS_NAME_TYPE_1779, iads/ADS_NAME_TYPE_CANONICAL, iads/ADS_NAME_TYPE_CANONICAL_EX, iads/ADS_NAME_TYPE_DISPLAY, iads/ADS_NAME_TYPE_DOMAIN_SIMPLE, iads/ADS_NAME_TYPE_ENTERPRISE_SIMPLE, iads/ADS_NAME_TYPE_ENUM, iads/ADS_NAME_TYPE_GUID, iads/ADS_NAME_TYPE_NT4, iads/ADS_NAME_TYPE_SERVICE_PRINCIPAL_NAME, iads/ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME, iads/ADS_NAME_TYPE_UNKNOWN, iads/ADS_NAME_TYPE_USER_PRINCIPAL_NAME
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: IAccess.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_NAME_TYPE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_NAME_TYPE_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_ads_0001_0050_0001 enumeration

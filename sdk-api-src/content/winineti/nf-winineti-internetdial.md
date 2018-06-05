@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winineti.InternetDial
+title: InternetDial function
+author: windows-sdk-content
+description: Initiates a connection to the Internet using a modem.
+old-location: wininet\internetdial.htm
+old-project: WinInet
+ms.assetid: b8ce748b-9879-4f68-aea1-32e2bfaee8ab
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: InternetDial, InternetDial function [WinINet], InternetDialA, InternetDialW, _inet_internetdial_function, wininet.internetdial, winineti/InternetDial, winineti/InternetDialA, winineti/InternetDialW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winineti.h
+req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: InternetDialW (Unicode) and InternetDialA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INTERNET_AUTH_NOTIFY_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Wininet.dll
+api_name:
+-	InternetDial
+-	InternetDialA
+-	InternetDialW
+product: Windows
+targetos: Windows
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # InternetDial function

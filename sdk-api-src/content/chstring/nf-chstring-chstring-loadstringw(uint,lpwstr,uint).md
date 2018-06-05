@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:chstring.CHString.LoadStringW(UINT,LPWSTR,UINT)
+title: CHString::LoadStringW(UINT,LPWSTR,UINT)
+author: windows-sdk-content
+description: The LoadStringW method reads a Windows string resource (identified by nID) into an existing CHString object.
+old-location: wmi\chstring_loadstringw.htm
+old-project: WmiSdk
+ms.assetid: b5dca7ce-41b2-4290-bb15-23e0a8d64bd1
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: CHString interface [Windows Management Instrumentation],LoadStringW method, CHString.LoadStringW, CHString.LoadStringW(UINT,LPWSTR,UINT), CHString::LoadStringW, CHString::LoadStringW(UINT,LPWSTR,UINT), LoadStringW, LoadStringW method [Windows Management Instrumentation], LoadStringW method [Windows Management Instrumentation],CHString interface, _hmm_chstring_loadstringw, chstring/CHString::LoadStringW, wmi.chstring_loadstringw
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: chstring.h
+req.include-header: FwCommon.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	CHString.LoadStringW
+product: Windows
+targetos: Windows
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 ---
 
 # CHString::LoadStringW(UINT,LPWSTR,UINT)

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:fwptypes.FWP_VSWITCH_NETWORK_TYPE_
+title: FWP_VSWITCH_NETWORK_TYPE_
+author: windows-sdk-content
+description: Specifies the network type of a vSwitch.
+old-location: fwp\fwp_vswitch_network_type.htm
+old-project: FWP
+ms.assetid: bcb0d138-516c-4877-abe7-a826b8e812f8
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: FWP_VSWITCH_NETWORK_TYPE, FWP_VSWITCH_NETWORK_TYPE enumeration [Filtering], FWP_VSWITCH_NETWORK_TYPE_, FWP_VSWITCH_NETWORK_TYPE_EXTERNAL, FWP_VSWITCH_NETWORK_TYPE_INTERNAL, FWP_VSWITCH_NETWORK_TYPE_PRIVATE, FWP_VSWITCH_NETWORK_TYPE_UNKNOWN, fwp.fwp_vswitch_network_type, fwptypes/FWP_VSWITCH_NETWORK_TYPE, fwptypes/FWP_VSWITCH_NETWORK_TYPE_EXTERNAL, fwptypes/FWP_VSWITCH_NETWORK_TYPE_INTERNAL, fwptypes/FWP_VSWITCH_NETWORK_TYPE_PRIVATE, fwptypes/FWP_VSWITCH_NETWORK_TYPE_UNKNOWN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: fwptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Fwptypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FWP_VSWITCH_NETWORK_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	fwptypes.h
+api_name:
+-	FWP_VSWITCH_NETWORK_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # FWP_VSWITCH_NETWORK_TYPE_ enumeration

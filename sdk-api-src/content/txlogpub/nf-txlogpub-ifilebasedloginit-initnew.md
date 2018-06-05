@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:txlogpub.IFileBasedLogInit.InitNew
+title: IFileBasedLogInit::InitNew
+author: windows-sdk-content
+description: Create a new log instance on the specified file. If a file with that name already exists, it is overwritten.
+old-location: com\ifilebasedloginit_initnew.htm
+old-project: com
+ms.assetid: 729c0cfc-4246-4185-af06-ed90a1955b03
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IFileBasedLogInit interface [COM],InitNew method, IFileBasedLogInit.InitNew, IFileBasedLogInit::InitNew, InitNew, InitNew method [COM], InitNew method [COM],IFileBasedLogInit interface, _com_ifilebasedloginit_initnew, com.ifilebasedloginit_initnew, txlogpub/IFileBasedLogInit::InitNew
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: txlogpub.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Txlogpub.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RECORD_READING_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Txlogpub.h
+api_name:
+-	IFileBasedLogInit.InitNew
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IFileBasedLogInit::InitNew

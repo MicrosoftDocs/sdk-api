@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+title: "_STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR"
+author: windows-sdk-content
+description: Reserved for future use.
+old-location: fs\storage_device_attributes_descriptor.htm
+old-project: FileIO
+ms.assetid: E911C72C-E4AF-438D-B718-798AF2E07227
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure [Files], _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, fs.storage_device_attributes_descriptor, winioctl/PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, winioctl/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	winioctl.h
+api_name:
+-	STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure

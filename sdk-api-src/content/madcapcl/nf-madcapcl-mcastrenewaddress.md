@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:madcapcl.McastRenewAddress
+title: McastRenewAddress function
+author: windows-sdk-content
+description: The McastRenewAddress function renews one or more multicast addresses from a MADCAP server.
+old-location: madcap\mcastrenewaddress.htm
+old-project: Madcap
+ms.assetid: d1d26edb-f372-4d6d-a6e2-a8eeafadedc0
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: McastRenewAddress, McastRenewAddress function [MADCAP], _mdhcp_mcastrenewaddress, madcap.mcastrenewaddress, madcapcl/McastRenewAddress
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: madcapcl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: POLICY_DNS_DOMAIN_INFO, *PPOLICY_DNS_DOMAIN_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dhcpcsvc.dll
+api_name:
+-	McastRenewAddress
+product: Windows
+targetos: Windows
+req.lib: Dhcpcsvc.lib
+req.dll: Dhcpcsvc.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # McastRenewAddress function

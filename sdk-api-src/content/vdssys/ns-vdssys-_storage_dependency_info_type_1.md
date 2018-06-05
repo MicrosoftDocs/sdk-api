@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vdssys._STORAGE_DEPENDENCY_INFO_TYPE_1
+title: "_STORAGE_DEPENDENCY_INFO_TYPE_1"
+author: windows-sdk-content
+description: Contains virtual hard disk (VHD) storage dependency information for type 1.
+old-location: vhd\storage_dependency_info_type_1.htm
+old-project: VStor
+ms.assetid: 63296975-583d-415c-8c1f-f0cccfc5a1b3
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PSTORAGE_DEPENDENCY_INFO_TYPE_1, PSTORAGE_DEPENDENCY_INFO_TYPE_1, PSTORAGE_DEPENDENCY_INFO_TYPE_1 structure pointer [VHD], STORAGE_DEPENDENCY_INFO_TYPE_1, STORAGE_DEPENDENCY_INFO_TYPE_1 structure [VHD], _STORAGE_DEPENDENCY_INFO_TYPE_1, vdssys/PSTORAGE_DEPENDENCY_INFO_TYPE_1, vdssys/STORAGE_DEPENDENCY_INFO_TYPE_1, vhd.storage_dependency_info_type_1, virtdisk/PSTORAGE_DEPENDENCY_INFO_TYPE_1, virtdisk/STORAGE_DEPENDENCY_INFO_TYPE_1"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vdssys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STORAGE_DEPENDENCY_INFO_TYPE_1, *PSTORAGE_DEPENDENCY_INFO_TYPE_1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VirtDisk.h
+-	vdssys.h
+api_name:
+-	STORAGE_DEPENDENCY_INFO_TYPE_1
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _STORAGE_DEPENDENCY_INFO_TYPE_1 structure

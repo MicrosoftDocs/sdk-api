@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mswsock.AcceptEx
+title: AcceptEx function
+author: windows-sdk-content
+description: Accepts a new connection, returns the local and remote address, and receives the first block of data sent by the client application. Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .
+old-location: winsock\acceptex_2.htm
+old-project: WinSock
+ms.assetid: cfd4c169-a8af-46cc-9b0e-fd7fb5aad61b
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: AcceptEx, AcceptEx function [Winsock], _win32_acceptex_2, winsock.acceptex_2, winsock/AcceptEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: mswsock.h
+req.include-header: Mswsock.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RIO_NOTIFICATION_COMPLETION_TYPE, *PRIO_NOTIFICATION_COMPLETION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Mswsock.dll
+api_name:
+-	AcceptEx
+product: Windows
+targetos: Windows
+req.lib: Mswsock.lib
+req.dll: Mswsock.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # AcceptEx function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:msinkaut15.IInkDivisionUnits
+title: IInkDivisionUnits
+author: windows-sdk-content
+description: Contains a collection of IInkDivisionUnit objects that are contained in an IInkDivisionResult object.
+old-location: tablet\iinkdivisionunits.htm
+old-project: tablet
+ms.assetid: efce8756-f42b-4d9a-bfed-4297e7e0fdec
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: IInkDivisionUnits, IInkDivisionUnits interface [Tablet PC], IInkDivisionUnits interface [Tablet PC],described, efce8756-f42b-4d9a-bfed-4297e7e0fdec, msinkaut15/IInkDivisionUnits, tablet.iinkdivisionunits
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: msinkaut15.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InkRecoGuide
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Inkdiv.dll
+-	Inkdiv.dll.dll
+api_name:
+-	IInkDivisionUnits
+-	IInkDivisionUnits._NewEnum
+product: Windows
+targetos: Windows
+req.lib: Inkdiv.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkDivisionUnits interface

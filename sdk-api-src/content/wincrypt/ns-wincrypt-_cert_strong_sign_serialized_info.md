@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CERT_STRONG_SIGN_SERIALIZED_INFO
+title: "_CERT_STRONG_SIGN_SERIALIZED_INFO"
+author: windows-sdk-content
+description: Contains the signature algorithm/hash algorithm and public key algorithm/bit length pairs that can be used for strong signing.
+old-location: security\cert_strong_sign_serialized_info.htm
+old-project: SecCrypto
+ms.assetid: B89CDF67-4620-47B2-8363-717D284368FD
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCERT_STRONG_SIGN_SERIALIZED_INFO, CERT_STRONG_SIGN_ENABLE_CRL_CHECK, CERT_STRONG_SIGN_ENABLE_OCSP_CHECK, CERT_STRONG_SIGN_SERIALIZED_INFO, CERT_STRONG_SIGN_SERIALIZED_INFO structure [Security], PCERT_STRONG_SIGN_SERIALIZED_INFO, PCERT_STRONG_SIGN_SERIALIZED_INFO structure pointer [Security], _CERT_STRONG_SIGN_SERIALIZED_INFO, security.cert_strong_sign_serialized_info, wincrypt/CERT_STRONG_SIGN_SERIALIZED_INFO, wincrypt/PCERT_STRONG_SIGN_SERIALIZED_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CERT_STRONG_SIGN_SERIALIZED_INFO, *PCERT_STRONG_SIGN_SERIALIZED_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CERT_STRONG_SIGN_SERIALIZED_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CERT_STRONG_SIGN_SERIALIZED_INFO structure

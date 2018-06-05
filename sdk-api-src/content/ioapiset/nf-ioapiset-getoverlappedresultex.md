@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ioapiset.GetOverlappedResultEx
+title: GetOverlappedResultEx function
+author: windows-sdk-content
+description: Retrieves the results of an overlapped operation on the specified file, named pipe, or communications device within the specified time-out interval. The calling thread can perform an alertable wait.
+old-location: base\getoverlappedresultex.htm
+old-project: Sync
+ms.assetid: 2f77f7fe-bdde-4c52-8571-fe0ab533aa7f
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: GetOverlappedResultEx, GetOverlappedResultEx function, base.getoverlappedresultex, ioapiset/GetOverlappedResultEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ioapiset.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URLASSOCIATIONDIALOG_IN_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-io-l1-1-1.dll
+-	KernelBase.dll
+-	MinKernelBase.dll
+api_name:
+-	GetOverlappedResultEx
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # GetOverlappedResultEx function

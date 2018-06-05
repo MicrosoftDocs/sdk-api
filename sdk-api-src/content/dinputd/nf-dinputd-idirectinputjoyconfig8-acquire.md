@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dinputd.IDirectInputJoyConfig8.Acquire
+title: IDirectInputJoyConfig8::Acquire
+author: windows-sdk-content
+description: The IDirectInputJoyConfig8::Acquire method acquires &#0034;joystick configuration mode.&#0034; Only one application can be in joystick configuration mode at a time; subsequent attempts by other applications to acquire this mode should receive the error DIERR_OTHERAPPHASPRIO. After entering configuration mode, the application can make alterations to the global joystick configuration settings. The application should check the existing settings before installing the new ones in case another application changed the settings in the interim.
+old-location: hid\idirectinputjoyconfig8_acquire.htm
+old-project: hid
+ms.assetid: 1df2eb92-9c55-4371-84c7-a4fb879efb7e
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: Acquire, Acquire method [Human Input Devices], Acquire method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],Acquire method, IDirectInputJoyConfig8.Acquire, IDirectInputJoyConfig8::Acquire, di_ref_299a63df-4623-437b-b106-2e8c0530f462.xml, dinputd/IDirectInputJoyConfig8::Acquire, hid.idirectinputjoyconfig8_acquire
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Dinputd.h
+api_name:
+-	IDirectInputJoyConfig8.Acquire
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputJoyConfig8::Acquire

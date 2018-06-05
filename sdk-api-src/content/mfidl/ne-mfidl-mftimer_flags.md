@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl.MFTIMER_FLAGS
+title: MFTIMER_FLAGS
+author: windows-sdk-content
+description: Contains flags for the IMFTimer::SetTimer method.
+old-location: mf\mftimer_flags.htm
+old-project: medfound
+ms.assetid: bd94247a-ed58-4857-a39d-16880eea75e0
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFTIMER_FLAGS, MFTIMER_FLAGS enumeration [Media Foundation], MFTIMER_RELATIVE, bd94247a-ed58-4857-a39d-16880eea75e0, mf.mftimer_flags, mfidl/MFTIMER_FLAGS, mfidl/MFTIMER_RELATIVE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFTIMER_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFTIMER_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MFTIMER_FLAGS enumeration

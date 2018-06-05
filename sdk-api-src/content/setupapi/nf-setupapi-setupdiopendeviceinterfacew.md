@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:setupapi.SetupDiOpenDeviceInterfaceW
+title: SetupDiOpenDeviceInterfaceW function
+author: windows-sdk-content
+description: The SetupDiOpenDeviceInterface function retrieves information about a device interface and adds the interface to the specified device information set for a local system or a remote system.
+old-location: devinst\setupdiopendeviceinterface.htm
+old-project: devinst
+ms.assetid: 31ce43e5-08b4-4c1d-b31f-77ee4e278927
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: SetupDiOpenDeviceInterface, SetupDiOpenDeviceInterface function [Device and Driver Installation], SetupDiOpenDeviceInterfaceA, SetupDiOpenDeviceInterfaceW, devinst.setupdiopendeviceinterface, di-rtns_4505f6a3-e634-4070-a9b3-1487c2808838.xml, setupapi/SetupDiOpenDeviceInterface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Setupapi.lib
+-	Setupapi.dll
+api_name:
+-	SetupDiOpenDeviceInterface
+product: Windows
+targetos: Windows
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetupDiOpenDeviceInterfaceW function

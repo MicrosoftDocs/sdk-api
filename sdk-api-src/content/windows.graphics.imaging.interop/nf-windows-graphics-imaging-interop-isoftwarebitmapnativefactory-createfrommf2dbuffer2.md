@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:windows.graphics.imaging.interop.ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2
+title: ISoftwareBitmapNativeFactory::imaging
+author: windows-sdk-content
+description: Creates an ISoftwareBitmapNative from the provided IMF2DBuffer2.
+old-location: winrt\isoftwarebitmapnativefactory_createfrommf2dbuffer2.htm
+old-project: WinRT
+ms.assetid: F6B9E8B2-19CF-4921-9E9E-E387084E5F8B
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: CreateFromMF2DBuffer2, CreateFromMF2DBuffer2 method [Windows Runtime], CreateFromMF2DBuffer2 method [Windows Runtime],ISoftwareBitmapNativeFactory interface, ISoftwareBitmapNativeFactory interface [Windows Runtime],CreateFromMF2DBuffer2 method, ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2, ISoftwareBitmapNativeFactory.imaging, ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2, ISoftwareBitmapNativeFactory::imaging, windows/ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2, winrt.isoftwarebitmapnativefactory_createfrommf2dbuffer2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: windows.graphics.imaging.interop.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PDF_RENDER_PARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	windows.graphics.imaging.interop.dll
+api_name:
+-	ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2
+product: Windows
+targetos: Windows
+req.lib: Windows.graphics.imaging.interop.lib
+req.dll: Windows.graphics.imaging.interop.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ISoftwareBitmapNativeFactory::imaging

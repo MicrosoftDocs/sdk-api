@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dxva9typ._COPP_CGMSA_Protection_Level
+title: "_COPP_CGMSA_Protection_Level"
+author: windows-sdk-content
+description: Specifies the CGMS-A protection level.
+old-location: dshow\copp_cgmsa_protection_level.htm
+old-project: DirectShow
+ms.assetid: 37b453fa-c976-4b13-b94a-1eebd8ecd44b
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: COPP_CGMSA_CopyFreely, COPP_CGMSA_CopyNever, COPP_CGMSA_CopyNoMore, COPP_CGMSA_CopyOneGeneration, COPP_CGMSA_Disabled, COPP_CGMSA_ForceDWORD, COPP_CGMSA_LevelMax, COPP_CGMSA_LevelMin, COPP_CGMSA_Protection_Level, COPP_CGMSA_Protection_Level , COPP_CGMSA_Protection_Level enumeration [DirectShow], COPP_CGMSA_Protection_LevelEnumeration, COPP_CGMSA_RedistributionControlRequired, _COPP_CGMSA_Protection_Level, dshow.copp_cgmsa_protection_level, dxva9typ/COPP_CGMSA_CopyFreely, dxva9typ/COPP_CGMSA_CopyNever, dxva9typ/COPP_CGMSA_CopyNoMore, dxva9typ/COPP_CGMSA_CopyOneGeneration, dxva9typ/COPP_CGMSA_Disabled, dxva9typ/COPP_CGMSA_ForceDWORD, dxva9typ/COPP_CGMSA_LevelMax, dxva9typ/COPP_CGMSA_LevelMin, dxva9typ/COPP_CGMSA_Protection_Level, dxva9typ/COPP_CGMSA_RedistributionControlRequired
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxva9typ.h
+req.include-header: Dxva.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COPP_CGMSA_Protection_Level
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxva9typ.h
+api_name:
+-	COPP_CGMSA_Protection_Level
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _COPP_CGMSA_Protection_Level enumeration

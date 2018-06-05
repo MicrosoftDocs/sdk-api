@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vdshwprv.IVdsController.QueryAssociatedLuns
+title: IVdsController::QueryAssociatedLuns
+author: windows-sdk-content
+description: Returns an enumeration of the LUNs with which the controller is associated&#8212;in other words, the LUNs for which the controller is active.
+old-location: base\ivdscontroller_queryassociatedluns.htm
+old-project: VDS
+ms.assetid: 832b8d59-6e94-4d62-a31f-4658e9f6102b
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IVdsController interface [VDS],QueryAssociatedLuns method, IVdsController.QueryAssociatedLuns, IVdsController::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsController interface, base.ivdscontroller_queryassociatedluns, vds/IVdsController::QueryAssociatedLuns, vdshwprv/IVdsController::QueryAssociatedLuns
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vdshwprv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VERSION_SUPPORT_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsController.QueryAssociatedLuns
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsController::QueryAssociatedLuns

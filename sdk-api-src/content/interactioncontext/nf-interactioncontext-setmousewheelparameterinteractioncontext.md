@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:interactioncontext.SetMouseWheelParameterInteractionContext
+title: SetMouseWheelParameterInteractionContext function
+author: windows-sdk-content
+description: Sets the parameter values for mouse wheel input.
+old-location: input_intcontext\setmousewheelparameterinteractioncontext.htm
+old-project: Input_IntContext
+ms.assetid: fbc47bd4-f78a-4b03-8adc-9b2c4620ea55
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: SetMouseWheelParameterInteractionContext, SetMouseWheelParameterInteractionContext function, input_intcontext.setmousewheelparameterinteractioncontext, interactioncontext.setmousewheelparameterinteractioncontext, interactioncontext/SetMouseWheelParameterInteractionContext
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: interactioncontext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MOUSE_WHEEL_PARAMETER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ninput.dll
+api_name:
+-	SetMouseWheelParameterInteractionContext
+product: Windows
+targetos: Windows
+req.lib: Ninput.lib
+req.dll: Ninput.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # SetMouseWheelParameterInteractionContext function

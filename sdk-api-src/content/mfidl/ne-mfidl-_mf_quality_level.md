@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfidl._MF_QUALITY_LEVEL
+title: "_MF_QUALITY_LEVEL"
+author: windows-sdk-content
+description: Specifies the quality level for a pipeline component.
+old-location: mf\mf_quality_level.htm
+old-project: medfound
+ms.assetid: 6fe5abbb-c079-4d74-9c75-6fb502054546
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 6fe5abbb-c079-4d74-9c75-6fb502054546, MF_NUM_QUALITY_LEVELS, MF_QUALITY_LEVEL, MF_QUALITY_LEVEL enumeration [Media Foundation], MF_QUALITY_NORMAL, MF_QUALITY_NORMAL_MINUS_1, MF_QUALITY_NORMAL_MINUS_2, MF_QUALITY_NORMAL_MINUS_3, MF_QUALITY_NORMAL_MINUS_4, MF_QUALITY_NORMAL_MINUS_5, _MF_QUALITY_LEVEL, mf.mf_quality_level, mfidl/MF_NUM_QUALITY_LEVELS, mfidl/MF_QUALITY_LEVEL, mfidl/MF_QUALITY_NORMAL, mfidl/MF_QUALITY_NORMAL_MINUS_1, mfidl/MF_QUALITY_NORMAL_MINUS_2, mfidl/MF_QUALITY_NORMAL_MINUS_3, mfidl/MF_QUALITY_NORMAL_MINUS_4, mfidl/MF_QUALITY_NORMAL_MINUS_5
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_QUALITY_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MF_QUALITY_LEVEL
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MF_QUALITY_LEVEL enumeration

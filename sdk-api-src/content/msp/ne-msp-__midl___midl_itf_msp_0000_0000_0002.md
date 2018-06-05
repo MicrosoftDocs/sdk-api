@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:msp.__MIDL___MIDL_itf_msp_0000_0000_0002
+title: "__MIDL___MIDL_itf_msp_0000_0000_0002"
+author: windows-sdk-content
+description: The MSP_CALL_EVENT constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_CALL_EVENT.
+old-location: tapi3\msp_call_event.htm
+old-project: Tapi
+ms.assetid: c1bbc75e-04ad-4db4-9730-abbbf89306dd
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CALL_NEW_STREAM, CALL_STREAM_ACTIVE, CALL_STREAM_FAIL, CALL_STREAM_INACTIVE, CALL_STREAM_NOT_USED, CALL_TERMINAL_FAIL, MSP_CALL_EVENT, MSP_CALL_EVENT enumeration [TAPI 2.2], __MIDL___MIDL_itf_msp_0000_0000_0002, _tapi3_msp_call_event, msp/CALL_NEW_STREAM, msp/CALL_STREAM_ACTIVE, msp/CALL_STREAM_FAIL, msp/CALL_STREAM_INACTIVE, msp/CALL_STREAM_NOT_USED, msp/CALL_TERMINAL_FAIL, msp/MSP_CALL_EVENT, tapi3.msp_call_event
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: msp.h
+req.include-header: Tapi3.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msopc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSP_CALL_EVENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	msp.h
+api_name:
+-	MSP_CALL_EVENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_msp_0000_0000_0002 enumeration

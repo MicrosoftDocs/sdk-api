@@ -1,31 +1,57 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winreg.RegEnumKeyExA
+title: RegEnumKeyExA function
+author: windows-sdk-content
+description: Enumerates the subkeys of the specified open registry key. The function retrieves information about one subkey each time it is called.
+old-location: base\regenumkeyex.htm
+old-project: SysInfo
+ms.assetid: 647d34cc-01ba-4389-be29-b099ed198e7c
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: RegEnumKeyEx, RegEnumKeyEx function, RegEnumKeyExA, RegEnumKeyExW, _win32_regenumkeyex, base.regenumkeyex, winreg/RegEnumKeyEx, winreg/RegEnumKeyExA, winreg/RegEnumKeyExW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winreg.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: RegEnumKeyExW (Unicode) and RegEnumKeyExA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Advapi32.dll
+-	API-MS-Win-Core-Localregistry-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-Registry-l1-1-0.dll
+-	API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+-	API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+-	MinKernelBase.dll
+-	api-ms-win-core-registry-l1-1-1.dll
+api_name:
+-	RegEnumKeyEx
+-	RegEnumKeyExA
+-	RegEnumKeyExW
+product: Windows
+targetos: Windows
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # RegEnumKeyExA function

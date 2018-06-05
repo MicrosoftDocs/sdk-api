@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mbnapi.MBN_REGISTER_STATE
+title: MBN_REGISTER_STATE
+author: windows-sdk-content
+description: The MBN_REGISTER_STATE enumerated type indicates the network registration state of a Mobile Broadband device.
+old-location: mbn\mbn_register_state.htm
+old-project: mbn
+ms.assetid: cbe29357-b374-4764-9322-6308b98ddc3e
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: MBN_REGISTER_STATE, MBN_REGISTER_STATE enumeration [Microsoft Broadband Networks], MBN_REGISTER_STATE_DENIED, MBN_REGISTER_STATE_DEREGISTERED, MBN_REGISTER_STATE_HOME, MBN_REGISTER_STATE_NONE, MBN_REGISTER_STATE_PARTNER, MBN_REGISTER_STATE_ROAMING, MBN_REGISTER_STATE_SEARCHING, mbn.mbn_register_state, mbnapi/MBN_REGISTER_STATE, mbnapi/MBN_REGISTER_STATE_DENIED, mbnapi/MBN_REGISTER_STATE_DEREGISTERED, mbnapi/MBN_REGISTER_STATE_HOME, mbnapi/MBN_REGISTER_STATE_NONE, mbnapi/MBN_REGISTER_STATE_PARTNER, mbnapi/MBN_REGISTER_STATE_ROAMING, mbnapi/MBN_REGISTER_STATE_SEARCHING
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_REGISTER_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mbnapi.h
+api_name:
+-	MBN_REGISTER_STATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MBN_REGISTER_STATE enumeration

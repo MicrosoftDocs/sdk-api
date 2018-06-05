@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mswmdm.IWMDMOperation.GetObjectName
+title: IWMDMOperation::GetObjectName
+author: windows-sdk-content
+description: Windows Media Device Manager calls GetObjectName before an object is written to the device in order to know what it should be named on the device.
+old-location: wmdm\iwmdmoperation_getobjectname.htm
+old-project: WMDM
+ms.assetid: e66882ec-2fcf-44c7-b78a-a3b55d9e9ec4
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetObjectName, GetObjectName method [windows Media Device Manager], GetObjectName method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],GetObjectName method, IWMDMOperation.GetObjectName, IWMDMOperation::GetObjectName, IWMDMOperationGetObjectName, mswmdm/IWMDMOperation::GetObjectName, wmdm.iwmdmoperation_getobjectname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mswmdm.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSVidCtlStateList
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mssachlp.lib
+-	mssachlp.dll
+api_name:
+-	IWMDMOperation.GetObjectName
+product: Windows
+targetos: Windows
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMOperation::GetObjectName

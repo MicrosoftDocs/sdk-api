@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:p2p.peer_group_event_type_tag
+title: peer_group_event_type_tag
+author: windows-sdk-content
+description: The PEER_GROUP_EVENT_TYPE enumeration contains the specific peer event types that can occur within a peer group.
+old-location: p2p\peer_group_event_type.htm
+old-project: P2PSdk
+ms.assetid: 9c28eb24-f158-4313-9a7c-0f271013d03a
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PEER_GROUP_EVENT_CONNECTION_FAILED, PEER_GROUP_EVENT_DIRECT_CONNECTION, PEER_GROUP_EVENT_INCOMING_DATA, PEER_GROUP_EVENT_MEMBER_CHANGED, PEER_GROUP_EVENT_NEIGHBOR_CONNECTION, PEER_GROUP_EVENT_PROPERTY_CHANGED, PEER_GROUP_EVENT_RECORD_CHANGED, PEER_GROUP_EVENT_STATUS_CHANGED, PEER_GROUP_EVENT_TYPE, PEER_GROUP_EVENT_TYPE enumeration [Peer Networking], p2p.peer_group_event_type, p2p/ PEER_GROUP_EVENT_TYPE, p2p/PEER_GROUP_EVENT_CONNECTION_FAILED, p2p/PEER_GROUP_EVENT_DIRECT_CONNECTION, p2p/PEER_GROUP_EVENT_INCOMING_DATA, p2p/PEER_GROUP_EVENT_MEMBER_CHANGED, p2p/PEER_GROUP_EVENT_NEIGHBOR_CONNECTION, p2p/PEER_GROUP_EVENT_PROPERTY_CHANGED, p2p/PEER_GROUP_EVENT_RECORD_CHANGED, p2p/PEER_GROUP_EVENT_STATUS_CHANGED, peer_group_event_type_tag
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1with the Advanced Networking Pack forWindows XP
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEER_GROUP_EVENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	P2P.h
+api_name:
+-	PEER_GROUP_EVENT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # peer_group_event_type_tag enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:msdrmdefs.DRMCALLBACK
+title: DRMCALLBACK
+author: windows-sdk-content
+description: Some of the functions included in the AD RMS SDK provide status information and licenses to your application by using a callback function that you must implement. The callback syntax is shown below.
+old-location: rm\callback_prototype.htm
+old-project: AdRms_Sdk
+ms.assetid: 41c200df-afbc-43a5-8046-d131fec3261a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: DRM callback, DRMCallback, DRMCallback callback function [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRMCallback, rm.callback_prototype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: msdrmdefs.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_SELECTIONSTYLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Msdrmdefs.h
+api_name:
+-	DRMCallback
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # DRMCALLBACK callback function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:audiopolicy.IAudioSessionControl.GetGroupingParam
+title: IAudioSessionControl::GetGroupingParam
+author: windows-sdk-content
+description: The GetGroupingParam method retrieves the grouping parameter of the audio session.
+old-location: coreaudio\iaudiosessioncontrol_getgroupingparam.htm
+old-project: CoreAudio
+ms.assetid: d636aad7-c8b3-4179-ac32-5cb283611499
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: GetGroupingParam, GetGroupingParam method [Core Audio], GetGroupingParam method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetGroupingParam method, IAudioSessionControl.GetGroupingParam, IAudioSessionControl::GetGroupingParam, IAudioSessionControlGetGroupingParam, audiopolicy/IAudioSessionControl::GetGroupingParam, coreaudio.iaudiosessioncontrol_getgroupingparam
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: audiopolicy.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Audiopolicy.h
+api_name:
+-	IAudioSessionControl.GetGroupingParam
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IAudioSessionControl::GetGroupingParam

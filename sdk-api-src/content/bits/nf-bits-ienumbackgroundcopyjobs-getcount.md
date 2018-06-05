@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:bits.IEnumBackgroundCopyJobs.GetCount
+title: IEnumBackgroundCopyJobs::GetCount
+author: windows-sdk-content
+description: Retrieves a count of the number of jobs in the enumeration.
+old-location: bits\ienumbackgroundcopyjobs_getcount.htm
+old-project: Bits
+ms.assetid: 024ffd11-5084-4ff5-b1b6-9aec3e802900
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackgroundCopyJobs interface, IEnumBackgroundCopyJobs interface [BITS],GetCount method, IEnumBackgroundCopyJobs.GetCount, IEnumBackgroundCopyJobs::GetCount, _drz_ienumbackgroundcopyjobs_getcount, bits.ienumbackgroundcopyjobs_getcount, bits/IEnumBackgroundCopyJobs::GetCount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: bits.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Bits.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BG_JOB_PROXY_USAGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	QmgrPrxy.dll
+api_name:
+-	IEnumBackgroundCopyJobs.GetCount
+product: Windows
+targetos: Windows
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 ---
 
 # IEnumBackgroundCopyJobs::GetCount

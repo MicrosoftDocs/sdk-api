@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wsdhost.IWSDDeviceHostNotify.GetService
+title: IWSDDeviceHostNotify::GetService
+author: windows-sdk-content
+description: Retrieves a service object that is not currently registered.
+old-location: ncd\iwsddevicehostnotify_getservice_method.htm
+old-project: WsdApi
+ms.assetid: 5222b99a-b438-4775-91f0-8bcc7d3b73e8
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: GetService, GetService method, GetService method,IWSDDeviceHostNotify interface, IWSDDeviceHostNotify interface,GetService method, IWSDDeviceHostNotify.GetService, IWSDDeviceHostNotify::GetService, ncd.iwsddevicehostnotify_getservice_method, wsdhost/IWSDDeviceHostNotify::GetService
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wsdhost.h
+req.include-header: Wsdapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WsdHost.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wsdapi.dll
+api_name:
+-	IWSDDeviceHostNotify.GetService
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWSDDeviceHostNotify::GetService

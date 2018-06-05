@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wincodec.WICPngChrmProperties
+title: WICPngChrmProperties
+author: windows-sdk-content
+description: Specifies the Portable Network Graphics (PNG) cHRM chunk metadata properties for CIE XYZ chromaticity.
+old-location: wic\_wic_codec_wicpngchrmproperties.htm
+old-project: wic
+ms.assetid: e4dede53-4c34-4e37-addf-28f51164717f
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: WICPngChrmBlueX, WICPngChrmBlueY, WICPngChrmGreenX, WICPngChrmGreenY, WICPngChrmProperties, WICPngChrmProperties enumeration [Windows Imaging Component], WICPngChrmRedX, WICPngChrmRedY, WICPngChrmWhitePointX, WICPngChrmWhitePointY, _wic_codec_wicpngchrmproperties, wic._wic_codec_wicpngchrmproperties, wincodec/WICPngChrmBlueX, wincodec/WICPngChrmBlueY, wincodec/WICPngChrmGreenX, wincodec/WICPngChrmGreenY, wincodec/WICPngChrmProperties, wincodec/WICPngChrmRedX, wincodec/WICPngChrmRedY, wincodec/WICPngChrmWhitePointX, wincodec/WICPngChrmWhitePointY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wincodec.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodec.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WICPngChrmProperties
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincodec.h
+api_name:
+-	WICPngChrmProperties
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WICPngChrmProperties enumeration

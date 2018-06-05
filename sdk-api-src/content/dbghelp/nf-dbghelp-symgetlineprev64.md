@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dbghelp.SymGetLinePrev64
+title: SymGetLinePrev64 function
+author: windows-sdk-content
+description: Retrieves the line information for the previous source line.
+old-location: base\symgetlineprev64.htm
+old-project: Debug
+ms.assetid: 7f6d0f20-5dfa-4d6c-8551-1dbc3cc54176
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: SymGetLinePrev, SymGetLinePrev function, SymGetLinePrev64, SymGetLinePrev64 function, SymGetLinePrevW64, _win32_symgetlineprev64, base.symgetlineprev64, dbghelp/SymGetLinePrev, dbghelp/SymGetLinePrev64, dbghelp/SymGetLinePrevW64
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SymGetLinePrevW64 (Unicode) and SymGetLinePrev64 (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Dbghelp.dll
+api_name:
+-	SymGetLinePrev64
+-	SymGetLinePrev64
+-	SymGetLinePrevW64
+-	SymGetLinePrev
+product: Windows
+targetos: Windows
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 ---
 
 # SymGetLinePrev64 function

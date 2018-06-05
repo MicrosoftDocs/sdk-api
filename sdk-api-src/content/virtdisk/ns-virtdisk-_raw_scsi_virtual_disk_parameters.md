@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:virtdisk._RAW_SCSI_VIRTUAL_DISK_PARAMETERS
+title: "_RAW_SCSI_VIRTUAL_DISK_PARAMETERS"
+author: windows-sdk-content
+description: Contains raw SCSI virtual disk request parameters.
+old-location: vhd\raw_scsi_virtual_disk_parameters.htm
+old-project: VStor
+ms.assetid: E6E6BD59-F7BC-4523-B368-6EBE12285593
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PRAW_SCSI_VIRTUAL_DISK_PARAMETERS, PRAW_SCSI_VIRTUAL_DISK_PARAMETERS, PRAW_SCSI_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], RAW_SCSI_VIRTUAL_DISK_PARAMETERS, RAW_SCSI_VIRTUAL_DISK_PARAMETERS structure [VHD], _RAW_SCSI_VIRTUAL_DISK_PARAMETERS, vdssys/PRAW_SCSI_VIRTUAL_DISK_PARAMETERS, vdssys/RAW_SCSI_VIRTUAL_DISK_PARAMETERS, vhd.raw_scsi_virtual_disk_parameters, virtdisk/PRAW_SCSI_VIRTUAL_DISK_PARAMETERS, virtdisk/RAW_SCSI_VIRTUAL_DISK_PARAMETERS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: virtdisk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RAW_SCSI_VIRTUAL_DISK_PARAMETERS, *PRAW_SCSI_VIRTUAL_DISK_PARAMETERS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VirtDisk.h
+-	vdssys.h
+api_name:
+-	RAW_SCSI_VIRTUAL_DISK_PARAMETERS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _RAW_SCSI_VIRTUAL_DISK_PARAMETERS structure

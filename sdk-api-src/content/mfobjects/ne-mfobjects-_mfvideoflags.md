@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfobjects._MFVideoFlags
+title: "_MFVideoFlags"
+author: windows-sdk-content
+description: Contains flags that describe a video stream.
+old-location: mf\mfvideoflags.htm
+old-project: medfound
+ms.assetid: 2530bf1d-05b1-4c16-b00b-117c0dadb301
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 2530bf1d-05b1-4c16-b00b-117c0dadb301, MFVideoFlag_AnalogProtected, MFVideoFlag_BottomUpLinearRep, MFVideoFlag_DigitallyProtected, MFVideoFlag_FieldRepeatCountMask, MFVideoFlag_FieldRepeatCountShift, MFVideoFlag_LowerFieldFirst, MFVideoFlag_PAD_TO_16x9, MFVideoFlag_PAD_TO_4x3, MFVideoFlag_PAD_TO_Mask, MFVideoFlag_PAD_TO_None, MFVideoFlag_PanScanEnabled, MFVideoFlag_ProgressiveContent, MFVideoFlag_ProgressiveSeqReset, MFVideoFlag_SrcContentHint16x9, MFVideoFlag_SrcContentHint235_1, MFVideoFlag_SrcContentHintMask, MFVideoFlag_SrcContentHintNone, MFVideoFlags, MFVideoFlags enumeration [Media Foundation], MFVideoFlags_DXVASurface, MFVideoFlags_ForceQWORD, MFVideoFlags_RenderTargetSurface, _MFVideoFlags, mf.mfvideoflags, mfobjects/MFVideoFlag_AnalogProtected, mfobjects/MFVideoFlag_BottomUpLinearRep, mfobjects/MFVideoFlag_DigitallyProtected, mfobjects/MFVideoFlag_FieldRepeatCountMask, mfobjects/MFVideoFlag_FieldRepeatCountShift, mfobjects/MFVideoFlag_LowerFieldFirst, mfobjects/MFVideoFlag_PAD_TO_16x9, mfobjects/MFVideoFlag_PAD_TO_4x3, mfobjects/MFVideoFlag_PAD_TO_Mask, mfobjects/MFVideoFlag_PAD_TO_None, mfobjects/MFVideoFlag_PanScanEnabled, mfobjects/MFVideoFlag_ProgressiveContent, mfobjects/MFVideoFlag_ProgressiveSeqReset, mfobjects/MFVideoFlag_SrcContentHint16x9, mfobjects/MFVideoFlag_SrcContentHint235_1, mfobjects/MFVideoFlag_SrcContentHintMask, mfobjects/MFVideoFlag_SrcContentHintNone, mfobjects/MFVideoFlags, mfobjects/MFVideoFlags_DXVASurface, mfobjects/MFVideoFlags_ForceQWORD, mfobjects/MFVideoFlags_RenderTargetSurface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfobjects.h
+req.include-header: Mfidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfobjects.h
+api_name:
+-	MFVideoFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFVideoFlags enumeration

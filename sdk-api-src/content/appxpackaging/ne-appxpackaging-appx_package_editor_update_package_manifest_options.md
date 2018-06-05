@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:appxpackaging.APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTIONS
+title: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTIONS
+author: windows-sdk-content
+description: Options for app manifest validation when updating the manifest.
+old-location: appxpkg\appx_package_editor_update_package_manifest_options.htm
+old-project: appxpkg
+ms.assetid: 14D24573-8F86-4B6B-91C1-DB0AA59ABE06
+ms.author: windowssdkdev
+ms.date: 04/26/2018
+ms.keywords: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTIONS, APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTIONS enumeration [App packaging and management], APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTION_LOCALIZED, APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTION_NONE, APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTION_SKIP_VALIDATION, appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTIONS, appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTION_LOCALIZED, appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTION_NONE, appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTION_SKIP_VALIDATION, appxpkg.appx_package_editor_update_package_manifest_options
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: appxpackaging.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: AppxPackaging.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AppxPackaging.h
+api_name:
+-	APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTIONS
+product: Windows
+targetos: Windows
+req.lib: Appnotify.lib
+req.dll: Twinapi.core.dll
+req.irql: 
 ---
 
 # APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTIONS enumeration

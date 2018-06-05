@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfmediaengine.IMFSourceBufferNotify.OnUpdateStart
+title: IMFSourceBufferNotify::OnUpdateStart
+author: windows-sdk-content
+description: Used to indicate that the source buffer has started updating.
+old-location: mf\imfsourcebuffernotify_onupdatestart.htm
+old-project: medfound
+ms.assetid: 513ef55d-756e-4ae3-b312-6a4178bc2f42
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdateStart method, IMFSourceBufferNotify.OnUpdateStart, IMFSourceBufferNotify::OnUpdateStart, OnUpdateStart, OnUpdateStart method [Media Foundation], OnUpdateStart method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdatestart, mfmediaengine/IMFSourceBufferNotify::OnUpdateStart
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfmediaengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mfmediaengine.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_TIMED_TEXT_WRITING_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfmediaengine.h
+api_name:
+-	IMFSourceBufferNotify.OnUpdateStart
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSourceBufferNotify::OnUpdateStart

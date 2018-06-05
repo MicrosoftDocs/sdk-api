@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:inputscope.__MIDL___MIDL_itf_inputscope_0000_0000_0001
+title: "__MIDL___MIDL_itf_inputscope_0000_0000_0001"
+author: windows-sdk-content
+description: The InputScope enumeration contains values that specify which input scopes are applied to a given field.
+old-location: tsf\ienumtfinputscope.htm
+old-project: TSF
+ms.assetid: 193a8a84-6824-4881-9399-832810957366
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IS_ADDRESS_CITY, IS_ADDRESS_COUNTRYNAME, IS_ADDRESS_COUNTRYSHORTNAME, IS_ADDRESS_FULLPOSTALADDRESS, IS_ADDRESS_POSTALCODE, IS_ADDRESS_STATEORPROVINCE, IS_ADDRESS_STREET, IS_ALPHANUMERIC_FULLWIDTH, IS_ALPHANUMERIC_HALFWIDTH, IS_ALPHANUMERIC_PIN, IS_ALPHANUMERIC_PIN_SET, IS_BOPOMOFO, IS_CHAT, IS_CHAT_WITHOUT_EMOJI, IS_CHINESE_FULLWIDTH, IS_CHINESE_HALFWIDTH, IS_CURRENCY_AMOUNT, IS_CURRENCY_AMOUNTANDSYMBOL, IS_CURRENCY_CHINESE, IS_DATE_DAY, IS_DATE_DAYNAME, IS_DATE_FULLDATE, IS_DATE_MONTH, IS_DATE_MONTHNAME, IS_DATE_YEAR, IS_DEFAULT, IS_DIGITS, IS_EMAILNAME_OR_ADDRESS, IS_EMAIL_SMTPEMAILADDRESS, IS_EMAIL_USERNAME, IS_ENUMSTRING, IS_FILE_FILENAME, IS_FILE_FULLFILEPATH, IS_FORMULA, IS_FORMULA_NUMBER, IS_HANJA, IS_HANJA_FULLWIDTH, IS_HANJA_HALFWIDTH, IS_HIRAGANA, IS_KATAKANA_FULLWIDTH, IS_KATAKANA_HALFWIDTH, IS_LOGINNAME, IS_MAPS, IS_NAME_OR_PHONENUMBER, IS_NATIVE_SCRIPT, IS_NUMBER, IS_NUMBER_FULLWIDTH, IS_NUMERIC_PASSWORD, IS_NUMERIC_PIN, IS_ONECHAR, IS_PASSWORD, IS_PERSONALNAME_FULLNAME, IS_PERSONALNAME_GIVENNAME, IS_PERSONALNAME_MIDDLENAME, IS_PERSONALNAME_PREFIX, IS_PERSONALNAME_SUFFIX, IS_PERSONALNAME_SURNAME, IS_PHRASELIST, IS_PRIVATE, IS_REGULAREXPRESSION, IS_SEARCH, IS_SEARCH_INCREMENTAL, IS_SRGS, IS_TELEPHONE_AREACODE, IS_TELEPHONE_COUNTRYCODE, IS_TELEPHONE_FULLTELEPHONENUMBER, IS_TELEPHONE_LOCALNUMBER, IS_TEXT, IS_TIME_FULLTIME, IS_TIME_HOUR, IS_TIME_MINORSEC, IS_URL, IS_XML, IS_YOMI, InputScope, InputScope enumeration [Text Services Framework], __MIDL___MIDL_itf_inputscope_0000_0000_0001, _tsf_InputScope_ref, inputscope/IS_ADDRESS_CITY, inputscope/IS_ADDRESS_COUNTRYNAME, inputscope/IS_ADDRESS_COUNTRYSHORTNAME, inputscope/IS_ADDRESS_FULLPOSTALADDRESS, inputscope/IS_ADDRESS_POSTALCODE, inputscope/IS_ADDRESS_STATEORPROVINCE, inputscope/IS_ADDRESS_STREET, inputscope/IS_ALPHANUMERIC_FULLWIDTH, inputscope/IS_ALPHANUMERIC_HALFWIDTH, inputscope/IS_ALPHANUMERIC_PIN, inputscope/IS_ALPHANUMERIC_PIN_SET, inputscope/IS_BOPOMOFO, inputscope/IS_CHAT, inputscope/IS_CHAT_WITHOUT_EMOJI, inputscope/IS_CHINESE_FULLWIDTH, inputscope/IS_CHINESE_HALFWIDTH, inputscope/IS_CURRENCY_AMOUNT, inputscope/IS_CURRENCY_AMOUNTANDSYMBOL, inputscope/IS_CURRENCY_CHINESE, inputscope/IS_DATE_DAY, inputscope/IS_DATE_DAYNAME, inputscope/IS_DATE_FULLDATE, inputscope/IS_DATE_MONTH, inputscope/IS_DATE_MONTHNAME, inputscope/IS_DATE_YEAR, inputscope/IS_DEFAULT, inputscope/IS_DIGITS, inputscope/IS_EMAILNAME_OR_ADDRESS, inputscope/IS_EMAIL_SMTPEMAILADDRESS, inputscope/IS_EMAIL_USERNAME, inputscope/IS_ENUMSTRING, inputscope/IS_FILE_FILENAME, inputscope/IS_FILE_FULLFILEPATH, inputscope/IS_FORMULA, inputscope/IS_FORMULA_NUMBER, inputscope/IS_HANJA, inputscope/IS_HANJA_FULLWIDTH, inputscope/IS_HANJA_HALFWIDTH, inputscope/IS_HIRAGANA, inputscope/IS_KATAKANA_FULLWIDTH, inputscope/IS_KATAKANA_HALFWIDTH, inputscope/IS_LOGINNAME, inputscope/IS_MAPS, inputscope/IS_NAME_OR_PHONENUMBER, inputscope/IS_NATIVE_SCRIPT, inputscope/IS_NUMBER, inputscope/IS_NUMBER_FULLWIDTH, inputscope/IS_NUMERIC_PASSWORD, inputscope/IS_NUMERIC_PIN, inputscope/IS_ONECHAR, inputscope/IS_PASSWORD, inputscope/IS_PERSONALNAME_FULLNAME, inputscope/IS_PERSONALNAME_GIVENNAME, inputscope/IS_PERSONALNAME_MIDDLENAME, inputscope/IS_PERSONALNAME_PREFIX, inputscope/IS_PERSONALNAME_SUFFIX, inputscope/IS_PERSONALNAME_SURNAME, inputscope/IS_PHRASELIST, inputscope/IS_PRIVATE, inputscope/IS_REGULAREXPRESSION, inputscope/IS_SEARCH, inputscope/IS_SEARCH_INCREMENTAL, inputscope/IS_SRGS, inputscope/IS_TELEPHONE_AREACODE, inputscope/IS_TELEPHONE_COUNTRYCODE, inputscope/IS_TELEPHONE_FULLTELEPHONENUMBER, inputscope/IS_TELEPHONE_LOCALNUMBER, inputscope/IS_TEXT, inputscope/IS_TIME_FULLTIME, inputscope/IS_TIME_HOUR, inputscope/IS_TIME_MINORSEC, inputscope/IS_URL, inputscope/IS_XML, inputscope/IS_YOMI, inputscope/InputScope, tsf.ienumtfinputscope, tsf.inputscope
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: inputscope.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: InputScope.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: InputScope
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	InputScope.h
+api_name:
+-	InputScope
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_inputscope_0000_0000_0001 enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vds.IVdsIscsiPortal.GetSubSystem
+title: IVdsIscsiPortal::GetSubSystem
+author: windows-sdk-content
+description: Returns the subsystem to which the portal belongs.
+old-location: base\ivdsiscsiportal_getsubsystem.htm
+old-project: VDS
+ms.assetid: 9e222cdc-6399-4e28-b59b-ba912e32eb9d
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsIscsiPortal interface, IVdsIscsiPortal interface [VDS],GetSubSystem method, IVdsIscsiPortal.GetSubSystem, IVdsIscsiPortal::GetSubSystem, base.ivdsiscsiportal_getsubsystem, vds/IVdsIscsiPortal::GetSubSystem, vdshwprv/IVdsIscsiPortal::GetSubSystem
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_VOLUME_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Uuid.lib
+-	Uuid.dll
+api_name:
+-	IVdsIscsiPortal.GetSubSystem
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVdsIscsiPortal::GetSubSystem

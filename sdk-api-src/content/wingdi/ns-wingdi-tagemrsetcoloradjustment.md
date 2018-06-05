@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wingdi.tagEMRSETCOLORADJUSTMENT
+title: tagEMRSETCOLORADJUSTMENT
+author: windows-sdk-content
+description: The EMRSETCOLORADJUSTMENT structure contains members for the SetColorAdjustment enhanced metafile record.
+old-location: gdi\emrsetcoloradjustment.htm
+old-project: gdi
+ms.assetid: d9f99f71-d102-484f-beb4-0d2de1070345
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PEMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT structure [Windows GDI], PEMRSETCOLORADJUSTMENT, PEMRSETCOLORADJUSTMENT structure pointer [Windows GDI], _win32_EMRSETCOLORADJUSTMENT_str, gdi.emrsetcoloradjustment, tagEMRSETCOLORADJUSTMENT, wingdi/EMRSETCOLORADJUSTMENT, wingdi/PEMRSETCOLORADJUSTMENT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EMRSETCOLORADJUSTMENT, *PEMRSETCOLORADJUSTMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wingdi.h
+api_name:
+-	EMRSETCOLORADJUSTMENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # tagEMRSETCOLORADJUSTMENT structure

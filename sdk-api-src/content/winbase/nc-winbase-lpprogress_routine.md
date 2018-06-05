@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:winbase.LPPROGRESS_ROUTINE
+title: LPPROGRESS_ROUTINE
+author: windows-sdk-content
+description: An application-defined callback function used with the CopyFileEx, MoveFileTransacted, and MoveFileWithProgress functions.
+old-location: fs\copyprogressroutine.htm
+old-project: FileIO
+ms.assetid: 2c02b212-d4ac-4b01-8955-2561d8c42b1b
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: CALLBACK_CHUNK_FINISHED, CALLBACK_STREAM_SWITCH, CopyProgressRoutine, CopyProgressRoutine callback, CopyProgressRoutine callback function [Files], LPPROGRESS_ROUTINE, LPPROGRESS_ROUTINE callback function [Files], _win32_copyprogressroutine, base.copyprogressroutine, fs.copyprogressroutine, winbase/CopyProgressRoutine, winbase/LPPROGRESS_ROUTINE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIA_PROPID_TO_NAME, *PWIA_PROPID_TO_NAME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	WinBase.h
+api_name:
+-	CopyProgressRoutine
+-	LPPROGRESS_ROUTINE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # LPPROGRESS_ROUTINE callback function

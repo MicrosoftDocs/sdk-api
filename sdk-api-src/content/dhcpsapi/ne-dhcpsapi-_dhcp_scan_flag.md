@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dhcpsapi._DHCP_SCAN_FLAG
+title: "_DHCP_SCAN_FLAG"
+author: windows-sdk-content
+description: The DHCP_SCAN_FLAG enumeration defines the set of possible targets of synchronization during a database scan operation.
+old-location: dhcp\dhcp_scan_flag.htm
+old-project: DHCP
+ms.assetid: 825a0e64-b0c2-453e-8e00-52f84c40bef3
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_SCAN_FLAG, DHCP_SCAN_FLAG, DHCP_SCAN_FLAG enumeration [DHCP], DhcpDatabaseFix, DhcpRegistryFix, LPDHCP_SCAN_FLAG, LPDHCP_SCAN_FLAG enumeration pointer [DHCP], _DHCP_SCAN_FLAG, dhcp.dhcp_scan_flag, dhcpsapi/DHCP_SCAN_FLAG, dhcpsapi/DhcpDatabaseFix, dhcpsapi/DhcpRegistryFix, dhcpsapi/LPDHCP_SCAN_FLAG"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008, Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_SCAN_FLAG, *LPDHCP_SCAN_FLAG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCP_SCAN_FLAG
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_SCAN_FLAG enumeration

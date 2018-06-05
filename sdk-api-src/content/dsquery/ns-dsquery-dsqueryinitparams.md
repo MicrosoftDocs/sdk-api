@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dsquery.DSQUERYINITPARAMS
+title: DSQUERYINITPARAMS
+author: windows-sdk-content
+description: Describes the data used to initialize a browse dialog box in the directory service query.
+old-location: ad\dsqueryinitparams.htm
+old-project: AD
+ms.assetid: ff1cb792-efb0-46f5-bc9b-95c9fb2959db
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDSQUERYINITPARAMS, DSQPF_ENABLEADMINFEATURES, DSQPF_ENABLEADVANCEDFEATURES, DSQPF_HASCREDENTIALS, DSQPF_NOCHOOSECOLUMNS, DSQPF_NOSAVE, DSQPF_SAVELOCATION, DSQPF_SHOWHIDDENOBJECTS, DSQUERYINITPARAMS, DSQUERYINITPARAMS structure [Active Directory], LPDSQUERYINITPARAMS, LPDSQUERYINITPARAMS structure pointer [Active Directory], _glines_dsqueryinitparams, ad.dsqueryinitparams, dsquery/DSQUERYINITPARAMS, dsquery/LPDSQUERYINITPARAMS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dsquery.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSQUERYINITPARAMS, *LPDSQUERYINITPARAMS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dsquery.h
+api_name:
+-	DSQUERYINITPARAMS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # DSQUERYINITPARAMS structure

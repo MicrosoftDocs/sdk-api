@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:webservices.WS_SECURITY_KEY_TYPE
+title: WS_SECURITY_KEY_TYPE
+author: windows-sdk-content
+description: The key type of a security token. It is used as the return type when a security token is queried about its key. It is also used to specify the required key type when requesting a security token from a security token service.
+old-location: wsw\ws_security_key_type.htm
+old-project: wsw
+ms.assetid: 95915a10-ba8f-41ca-89eb-777c85d2a411
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: WS_SECURITY_KEY_TYPE, WS_SECURITY_KEY_TYPE enumeration [Web Services for Windows], WS_SECURITY_KEY_TYPE_ASYMMETRIC, WS_SECURITY_KEY_TYPE_NONE, WS_SECURITY_KEY_TYPE_SYMMETRIC, webservices/WS_SECURITY_KEY_TYPE, webservices/WS_SECURITY_KEY_TYPE_ASYMMETRIC, webservices/WS_SECURITY_KEY_TYPE_NONE, webservices/WS_SECURITY_KEY_TYPE_SYMMETRIC, wsw.ws_security_key_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: webservices.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WS_SECURITY_KEY_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WebServices.h
+api_name:
+-	WS_SECURITY_KEY_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WS_SECURITY_KEY_TYPE enumeration

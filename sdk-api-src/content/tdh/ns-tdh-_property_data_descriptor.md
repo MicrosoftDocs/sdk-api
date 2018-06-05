@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:tdh._PROPERTY_DATA_DESCRIPTOR
+title: "_PROPERTY_DATA_DESCRIPTOR"
+author: windows-sdk-content
+description: Defines the property to retrieve.
+old-location: etw\property_data_descriptor_struct.htm
+old-project: ETW
+ms.assetid: 38e6f5b1-fce5-45e4-ac7a-09ba40d29837
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PPROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR structure [ETW], _PROPERTY_DATA_DESCRIPTOR, etw.property_data_descriptor_struct, tdh.property_data_descriptor_struct, tdh/PROPERTY_DATA_DESCRIPTOR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPERTY_DATA_DESCRIPTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tdh.h
+api_name:
+-	PROPERTY_DATA_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _PROPERTY_DATA_DESCRIPTOR structure

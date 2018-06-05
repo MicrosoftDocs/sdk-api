@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CryptGetObjectUrl
+title: CryptGetObjectUrl function
+author: windows-sdk-content
+description: Acquires the URL of the remote object from a certificate, certificate trust list (CTL), or certificate revocation list (CRL).
+old-location: security\cryptgetobjecturl.htm
+old-project: SecCrypto
+ms.assetid: a92117b8-9144-4480-b88a-b9ffe1026d63
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CRYPT_GET_URL_FROM_AUTH_ATTRIBUTE, CRYPT_GET_URL_FROM_EXTENSION, CRYPT_GET_URL_FROM_PROPERTY, CRYPT_GET_URL_FROM_UNAUTH_ATTRIBUTE, CryptGetObjectUrl, CryptGetObjectUrl function [Security], URL_OID_CERTIFICATE_CRL_DIST_POINT, URL_OID_CERTIFICATE_CRL_DIST_POINT_AND_OCSP, URL_OID_CERTIFICATE_FRESHEST_CRL, URL_OID_CERTIFICATE_ISSUER, URL_OID_CERTIFICATE_OCSP, URL_OID_CERTIFICATE_OCSP_AND_CRL_DIST_POINT, URL_OID_CERTIFICATE_ONLY_OCSP, URL_OID_CRL_FRESHEST_CRL, URL_OID_CRL_ISSUER, URL_OID_CROSS_CERT_DIST_POINT, URL_OID_CROSS_CERT_SUBJECT_INFO_ACCESS, URL_OID_CTL_ISSUER, URL_OID_CTL_NEXT_UPDATE, _crypto2_cryptgetobjecturl, security.cryptgetobjecturl, wincrypt/CryptGetObjectUrl
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cryptnet.dll
+api_name:
+-	CryptGetObjectUrl
+product: Windows
+targetos: Windows
+req.lib: Cryptnet.lib
+req.dll: Cryptnet.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CryptGetObjectUrl function

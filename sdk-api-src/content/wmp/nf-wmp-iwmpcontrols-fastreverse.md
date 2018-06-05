@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPControls.fastReverse
+title: IWMPControls::fastReverse
+author: windows-sdk-content
+description: The fastReverse method starts fast play of the media item in the reverse direction.
+old-location: wmp\iwmpcontrols_fastreverse.htm
+old-project: WMP
+ms.assetid: 2adec4c7-7aca-4191-8c6f-61e137188ad9
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPControls interface [Windows Media Player],fastReverse method, IWMPControls.fastReverse, IWMPControls::fastReverse, IWMPControlsfastReverse, fastReverse, fastReverse method [Windows Media Player], fastReverse method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_fastreverse, wmp/IWMPControls::fastReverse
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPControls.fastReverse
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPControls::fastReverse

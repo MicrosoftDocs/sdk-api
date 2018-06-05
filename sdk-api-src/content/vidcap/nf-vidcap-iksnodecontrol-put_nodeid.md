@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vidcap.IKsNodeControl.put_NodeId
+title: IKsNodeControl::put_NodeId
+author: windows-sdk-content
+description: Sets the node identifier for the extension unit.
+old-location: dshow\iksnodecontrol_put_nodeid.htm
+old-project: DirectShow
+ms.assetid: 3f18085c-5a5c-4bc3-84e2-50fbf2319072
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IKsNodeControl interface [DirectShow],put_NodeId method, IKsNodeControl.put_NodeId, IKsNodeControl::put_NodeId, IKsNodeControlput_NodeId, dshow.iksnodecontrol_put_nodeid, put_NodeId, put_NodeId method [DirectShow], put_NodeId method [DirectShow],IKsNodeControl interface, vidcap/IKsNodeControl::put_NodeId
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vidcap.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Vidcap.h
+api_name:
+-	IKsNodeControl.put_NodeId
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IKsNodeControl::put_NodeId

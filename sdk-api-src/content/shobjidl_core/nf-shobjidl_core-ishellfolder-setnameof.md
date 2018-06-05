@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IShellFolder.SetNameOf
+title: IShellFolder::SetNameOf
+author: windows-sdk-content
+description: Sets the display name of a file object or subfolder, changing the item identifier in the process.
+old-location: shell\IShellFolder_SetNameOf.htm
+old-project: shell
+ms.assetid: b975df89-9289-4344-9c55-f11ee83229dd
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IShellFolder interface [Windows Shell],SetNameOf method, IShellFolder.SetNameOf, IShellFolder2 interface [Windows Shell],SetNameOf method, IShellFolder2::SetNameOf, IShellFolder::SetNameOf, SetNameOf, SetNameOf method [Windows Shell], SetNameOf method [Windows Shell],IShellFolder interface, SetNameOf method [Windows Shell],IShellFolder2 interface, _win32_IShellFolder_SetNameOf, shell.IShellFolder_SetNameOf, shobjidl_core/IShellFolder2::SetNameOf, shobjidl_core/IShellFolder::SetNameOf
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IShellFolder.SetNameOf
+-	IShellFolder2.SetNameOf
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IShellFolder::SetNameOf

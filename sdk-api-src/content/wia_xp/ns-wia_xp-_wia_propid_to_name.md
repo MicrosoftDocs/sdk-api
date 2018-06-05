@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wia_xp._WIA_PROPID_TO_NAME
+title: "_WIA_PROPID_TO_NAME"
+author: windows-sdk-content
+description: Provides a quick means by which applications can look up the standard Windows Image Acquisition (WIA) property name from the WIA property ID (or vice versa).
+old-location: wia\_wia_WIA_PROPID_TO_NAME.htm
+old-project: wia
+ms.assetid: VS|wia|~\wia\refwia\structs\wia_propid_to_name.htm
+ms.author: windowssdkdev
+ms.date: 05/03/2018
+ms.keywords: "*PWIA_PROPID_TO_NAME, PWIA_PROPID_TO_NAME, PWIA_PROPID_TO_NAME structure pointer [WIA], WIA_PROPID_TO_NAME, WIA_PROPID_TO_NAME structure [WIA], _WIA_PROPID_TO_NAME, _wia_WIA_PROPID_TO_NAME, wia._wia_WIA_PROPID_TO_NAME, wia_xp/PWIA_PROPID_TO_NAME, wia_xp/WIA_PROPID_TO_NAME"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wia_xp.h
+req.include-header: Wia.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WIA_PROPID_TO_NAME, *PWIA_PROPID_TO_NAME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	wia_xp.h
+api_name:
+-	WIA_PROPID_TO_NAME
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WIA_PROPID_TO_NAME structure

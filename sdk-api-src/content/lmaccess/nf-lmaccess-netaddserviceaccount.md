@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:lmaccess.NetAddServiceAccount
+title: NetAddServiceAccount function
+author: windows-sdk-content
+description: Creates a standalone managed service account (sMSA) or retrieves the credentials for a group managed service account (gMSA) and stores the account information on the local computer.
+old-location: security\netaddserviceaccount.htm
+old-project: SecMgmt
+ms.assetid: 004bd392-8837-4d98-905a-cd19ed02817d
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: NetAddServiceAccount, NetAddServiceAccount function [Security], SERVICE_ACCOUNT_FLAG_LINK_TO_HOST_ONLY, lmaccess/NetAddServiceAccount, security.netaddserviceaccount
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: lmaccess.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Netapi32.dll
+api_name:
+-	NetAddServiceAccount
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Netapi32.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # NetAddServiceAccount function

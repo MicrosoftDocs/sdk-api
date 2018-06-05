@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imapi.IRedbookDiscMaster.GetAvailableAudioTrackBlocks
+title: IRedbookDiscMaster::GetAvailableAudioTrackBlocks
+author: windows-sdk-content
+description: Retrieves the current number of blocks that can be added to the track before an additional add will cause a failure for lack of space.
+old-location: imapi\iredbookdiscmaster_getavailableaudiotrackblocks.htm
+old-project: imapi
+ms.assetid: 57647490-0384-4cdb-842f-f1fb16dd2096
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: GetAvailableAudioTrackBlocks, GetAvailableAudioTrackBlocks method [IMAPI], GetAvailableAudioTrackBlocks method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetAvailableAudioTrackBlocks method, IRedbookDiscMaster.GetAvailableAudioTrackBlocks, IRedbookDiscMaster::GetAvailableAudioTrackBlocks, _win32_iredbookdiscmaster_getavailableaudiotrackblocks, base.iredbookdiscmaster_getavailableaudiotrackblocks, imapi.iredbookdiscmaster_getavailableaudiotrackblocks, imapi/IRedbookDiscMaster::GetAvailableAudioTrackBlocks
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Actxprxy.dll
+api_name:
+-	IRedbookDiscMaster.GetAvailableAudioTrackBlocks
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IRedbookDiscMaster::GetAvailableAudioTrackBlocks

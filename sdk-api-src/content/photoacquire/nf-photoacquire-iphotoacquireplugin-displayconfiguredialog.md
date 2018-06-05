@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:photoacquire.IPhotoAcquirePlugin.DisplayConfigureDialog
+title: IPhotoAcquirePlugin::DisplayConfigureDialog
+author: windows-sdk-content
+description: The DisplayConfigureDialog method provides extended functionality when the configuration dialog is displayed. The application provides the implementation of the DisplayConfigureDialog method.
+old-location: picacq\iphotoacquireplugin_displayconfiguredialog.htm
+old-project: acquisition
+ms.assetid: 74257374-15c8-4e83-b271-2fd133f4dd7b
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: DisplayConfigureDialog, DisplayConfigureDialog method [Picture Acquisition], DisplayConfigureDialog method [Picture Acquisition],IPhotoAcquirePlugin interface, IPhotoAcquirePlugin interface [Picture Acquisition],DisplayConfigureDialog method, IPhotoAcquirePlugin.DisplayConfigureDialog, IPhotoAcquirePlugin::DisplayConfigureDialog, IPhotoAcquirePluginDisplayConfigureDialog, photoacquire/IPhotoAcquirePlugin::DisplayConfigureDialog, picacq.iphotoacquireplugin_displayconfiguredialog
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: photoacquire.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_INPUT_STRING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PhotoAcquireUID.lib
+-	PhotoAcquireUID.dll
+api_name:
+-	IPhotoAcquirePlugin.DisplayConfigureDialog
+product: Windows
+targetos: Windows
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPhotoAcquirePlugin::DisplayConfigureDialog

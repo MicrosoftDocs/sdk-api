@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:xenroll.ICEnroll3.get_HashAlgID
+title: ICEnroll3::get_HashAlgID
+author: windows-sdk-content
+description: Sets or retrieves the hash algorithm used when signing a PKCS #10 certificate request.
+old-location: security\icenroll4_hashalgid.htm
+old-project: SecCrypto
+ms.assetid: 46f371a3-7254-4f54-b147-402f2a37e277
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CEnroll object [Security],HashAlgID property, HashAlgID property [Security], HashAlgID property [Security],CEnroll object, HashAlgID property [Security],ICEnroll3 interface, HashAlgID property [Security],ICEnroll4 interface, ICEnroll3 interface [Security],HashAlgID property, ICEnroll3.HashAlgID, ICEnroll3.get_HashAlgID, ICEnroll3::get_HashAlgID, ICEnroll3::put_HashAlgID, ICEnroll4 interface [Security],HashAlgID property, ICEnroll4.HashAlgID, ICEnroll4::HashAlgID, ICEnroll4::get_HashAlgID, ICEnroll4::put_HashAlgID, get_HashAlgID, security.icenroll4_hashalgid, xenroll/ICEnroll3::HashAlgID, xenroll/ICEnroll3::get_HashAlgID, xenroll/ICEnroll3::put_HashAlgID, xenroll/ICEnroll4::HashAlgID, xenroll/ICEnroll4::get_HashAlgID, xenroll/ICEnroll4::put_HashAlgID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: xenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,29 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Xenroll.dll
+api_name:
+-	ICEnroll4.HashAlgID
+-	ICEnroll4.get_HashAlgID
+-	ICEnroll4.put_HashAlgID
+-	ICEnroll3.HashAlgID
+-	ICEnroll3.get_HashAlgID
+-	ICEnroll3.put_HashAlgID
+-	CEnroll.HashAlgID
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
+req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
 # ICEnroll3::get_HashAlgID

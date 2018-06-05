@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:wmp.IWMPMedia.isReadOnlyItem
+title: IWMPMedia::isReadOnlyItem
+author: windows-sdk-content
+description: The isReadOnlyItem method retrieves a value indicating whether the attributes of the specified media item can be edited.
+old-location: wmp\iwmpmedia_isreadonlyitem.htm
+old-project: WMP
+ms.assetid: d8b2dd45-3e3f-4325-b4d0-939abbc425e1
+ms.author: windowssdkdev
+ms.date: 05/04/2018
+ms.keywords: IWMPMedia interface [Windows Media Player],isReadOnlyItem method, IWMPMedia.isReadOnlyItem, IWMPMedia2 interface [Windows Media Player],isReadOnlyItem method, IWMPMedia2::isReadOnlyItem, IWMPMedia3 interface [Windows Media Player],isReadOnlyItem method, IWMPMedia3::isReadOnlyItem, IWMPMedia::isReadOnlyItem, IWMPMediaisReadOnlyItem, isReadOnlyItem, isReadOnlyItem method [Windows Media Player], isReadOnlyItem method [Windows Media Player],IWMPMedia interface, isReadOnlyItem method [Windows Media Player],IWMPMedia2 interface, isReadOnlyItem method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_isreadonlyitem, wmp/IWMPMedia2::isReadOnlyItem, wmp/IWMPMedia3::isReadOnlyItem, wmp/IWMPMedia::isReadOnlyItem
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WMPSyncState
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmp.dll
+api_name:
+-	IWMPMedia.isReadOnlyItem
+-	IWMPMedia2.isReadOnlyItem
+-	IWMPMedia3.isReadOnlyItem
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMPMedia::isReadOnlyItem

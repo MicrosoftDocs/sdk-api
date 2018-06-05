@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:propkeydef.DEFINE_PROPERTYKEY
+title: DEFINE_PROPERTYKEY macro
+author: windows-sdk-content
+description: Used to pack a format identifier (FMTID) and property identifier (PID) into a PROPERTYKEY structure that represents a property key.
+old-location: shell\DEFINE_PROPERTYKEY.htm
+old-project: shell
+ms.assetid: 099F8A20-63E4-4712-97F3-82C61A0C2DE0
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: DEFINE_PROPERTYKEY, DEFINE_PROPERTYKEY macro [Windows Shell], _shell_DEFINE_PROPERTYKEY, propkeydef/DEFINE_PROPERTYKEY, shell.DEFINE_PROPERTYKEY
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: propkeydef.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STATPROPSTG
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Propkeydef.h
+api_name:
+-	DEFINE_PROPERTYKEY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DEFINE_PROPERTYKEY macro

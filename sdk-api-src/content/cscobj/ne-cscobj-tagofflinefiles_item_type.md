@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:cscobj.tagOFFLINEFILES_ITEM_TYPE
+title: tagOFFLINEFILES_ITEM_TYPE
+author: windows-sdk-content
+description: Identifies the type of an item in the Offline Files cache.
+old-location: of\offlinefiles_item_type.htm
+old-project: OfflineFiles
+ms.assetid: cf8bb079-d691-4b37-b408-d1af1746ed37
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: OFFLINEFILES_ITEM_TYPE, OFFLINEFILES_ITEM_TYPE enumeration [Offline Files], OFFLINEFILES_ITEM_TYPE_DIRECTORY, OFFLINEFILES_ITEM_TYPE_FILE, OFFLINEFILES_ITEM_TYPE_SERVER, OFFLINEFILES_ITEM_TYPE_SHARE, cscobj/OFFLINEFILES_ITEM_TYPE, cscobj/OFFLINEFILES_ITEM_TYPE_DIRECTORY, cscobj/OFFLINEFILES_ITEM_TYPE_FILE, cscobj/OFFLINEFILES_ITEM_TYPE_SERVER, cscobj/OFFLINEFILES_ITEM_TYPE_SHARE, of.offlinefiles_item_type, tagOFFLINEFILES_ITEM_TYPE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFFLINEFILES_ITEM_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	CscObj.h
+api_name:
+-	OFFLINEFILES_ITEM_TYPE
+product: Windows
+targetos: Windows
+req.lib: CscApi.lib
+req.dll: CscApi.dll
+req.irql: 
 ---
 
 # tagOFFLINEFILES_ITEM_TYPE enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:setupapi._SP_DRVINFO_DATA_V2_W
+title: "_SP_DRVINFO_DATA_V2_W"
+author: windows-sdk-content
+description: An SP_DRVINFO_DATA structure contains information about a driver. This structure is a member of a driver information list that can be associated with a particular device instance or globally with a device information set.
+old-location: devinst\sp_drvinfo_data.htm
+old-project: devinst
+ms.assetid: 13cdebad-6247-4651-a1d0-709e14af22f6
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PSP_DRVINFO_DATA_V2_W, PSP_DRVINFO_DATA, PSP_DRVINFO_DATA structure pointer [Device and Driver Installation], SP_DRVINFO_DATA, SP_DRVINFO_DATA structure [Device and Driver Installation], SP_DRVINFO_DATA_V2, SP_DRVINFO_DATA_V2_W, SP_DRVINFO_DATA_W, _SP_DRVINFO_DATA_V2_W, devinst.sp_drvinfo_data, di-struct_738a1fa5-729a-4464-af75-05591d68eef7.xml, setupapi/PSP_DRVINFO_DATA, setupapi/SP_DRVINFO_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: setupapi.h
+req.include-header: Setupapi.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SP_DRVINFO_DATA_V2_W, *PSP_DRVINFO_DATA_V2_W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Setupapi.h
+api_name:
+-	SP_DRVINFO_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SP_DRVINFO_DATA_V2_W structure

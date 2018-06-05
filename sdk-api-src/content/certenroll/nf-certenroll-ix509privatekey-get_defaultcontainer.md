@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509PrivateKey.get_DefaultContainer
+title: IX509PrivateKey::get_DefaultContainer
+author: windows-sdk-content
+description: Retrieves a Boolean value that specifies whether the private key represents the default key container.
+old-location: security\ix509privatekey_defaultcontainer_property.htm
+old-project: SecCertEnroll
+ms.assetid: 31998dee-b656-47b8-acb5-246e1a10382a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DefaultContainer property [Security], DefaultContainer property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],DefaultContainer property, IX509PrivateKey.DefaultContainer, IX509PrivateKey.get_DefaultContainer, IX509PrivateKey::DefaultContainer, IX509PrivateKey::get_DefaultContainer, certenroll/IX509PrivateKey::DefaultContainer, certenroll/IX509PrivateKey::get_DefaultContainer, get_DefaultContainer, security.ix509privatekey_defaultcontainer_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509PrivateKey.DefaultContainer
+-	IX509PrivateKey.get_DefaultContainer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IX509PrivateKey::get_DefaultContainer

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mprapi._MPR_SERVER_EX1
+title: "_MPR_SERVER_EX1"
+author: windows-sdk-content
+description: Used to get or set the configuration of a RAS server.
+old-location: rras\mpr_server_ex.htm
+old-project: RRAS
+ms.assetid: 10c1e3bd-adb8-4aff-835c-e7d881c9f5cf
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PMPR_SERVER_EX1, MPR_SERVER_EX, MPR_SERVER_EX structure [RAS], MPR_SERVER_EX1, PMPR_SERVER_EX, PMPR_SERVER_EX structure pointer [RAS], _MPR_SERVER_EX0, _MPR_SERVER_EX1, mprapi/MPR_SERVER_EX, mprapi/PMPR_SERVER_EX, rras.mpr_server_ex"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPR_SERVER_EX1, *PMPR_SERVER_EX1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mprapi.h
+api_name:
+-	MPR_SERVER_EX
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MPR_SERVER_EX1 structure

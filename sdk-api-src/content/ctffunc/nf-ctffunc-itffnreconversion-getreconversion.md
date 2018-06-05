@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ctffunc.ITfFnReconversion.GetReconversion
+title: ITfFnReconversion::GetReconversion
+author: windows-sdk-content
+description: ITfFnReconversion::GetReconversion method
+old-location: tsf\itffnreconversion_getreconversion.htm
+old-project: TSF
+ms.assetid: ed696088-c599-4c83-968e-d09d9ae81c10
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetReconversion, GetReconversion method [Text Services Framework], GetReconversion method [Text Services Framework],ITfFnReconversion interface, ITfFnReconversion interface [Text Services Framework],GetReconversion method, ITfFnReconversion.GetReconversion, ITfFnReconversion::GetReconversion, _tsf_itffnreconversion_getreconversion_ref, ctffunc/ITfFnReconversion::GetReconversion, tsf.itffnreconversion_getreconversion
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ctffunc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ctffunc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TfIntegratableCandidateListSelectionStyle
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfFnReconversion.GetReconversion
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 ---
 
 # ITfFnReconversion::GetReconversion

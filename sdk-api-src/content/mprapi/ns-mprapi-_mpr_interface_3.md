@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mprapi._MPR_INTERFACE_3
+title: "_MPR_INTERFACE_3"
+author: windows-sdk-content
+description: Contains data for a router demand-dial interface.
+old-location: rras\mpr_interface_3.htm
+old-project: RRAS
+ms.assetid: d761a9cf-7b56-48ad-b98b-60fc99d0d8ba
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PMPR_INTERFACE_3, MPRDM_DialAll, MPRDM_DialAsNeeded, MPRDT_Atm, MPRDT_FrameRelay, MPRDT_Generic, MPRDT_Irda, MPRDT_Isdn, MPRDT_Modem, MPRDT_Pad, MPRDT_Parallel, MPRDT_SW56, MPRDT_Serial, MPRDT_Sonet, MPRDT_Vpn, MPRDT_X25, MPRET_Direct, MPRET_Phone, MPRET_Vpn, MPRIDS_Disabled, MPRIDS_UseGlobalValue, MPRIO_DisableLcpExtensions, MPRIO_IpHeaderCompression, MPRIO_NetworkLogon, MPRIO_PromoteAlternates, MPRIO_RemoteDefaultGateway, MPRIO_RequireCHAP, MPRIO_RequireDataEncryption, MPRIO_RequireEAP, MPRIO_RequireEncryptedPw, MPRIO_RequireMsCHAP, MPRIO_RequireMsCHAP2, MPRIO_RequireMsEncryptedPw, MPRIO_RequirePAP, MPRIO_RequireSPAP, MPRIO_SecureLocalFiles, MPRIO_SharedPhoneNumbers, MPRIO_SpecificIpAddr, MPRIO_SpecificNameServers, MPRIO_SwCompression, MPRIO_UseLogonCredentials, MPRNP_Ip, MPRNP_Ipx, MPR_ET_None, MPR_ET_Optional, MPR_ET_Require, MPR_ET_RequireMax, MPR_INTERFACE_3, MPR_INTERFACE_3 structure [RAS], MPR_VS_Default, MPR_VS_L2tpFirst, MPR_VS_L2tpOnly, MPR_VS_PptpFirst, MPR_VS_PptpOnly, PMPR_INTERFACE_3, PMPR_INTERFACE_3 structure pointer [RAS], _MPR_INTERFACE_3, mprapi/MPR_INTERFACE_3, mprapi/PMPR_INTERFACE_3, rras.mpr_interface_3"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mprapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MPR_INTERFACE_3, *PMPR_INTERFACE_3
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mprapi.h
+api_name:
+-	MPR_INTERFACE_3
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MPR_INTERFACE_3 structure

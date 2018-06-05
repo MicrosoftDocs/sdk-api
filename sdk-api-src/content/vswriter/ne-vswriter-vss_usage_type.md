@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vswriter.VSS_USAGE_TYPE
+title: VSS_USAGE_TYPE
+author: windows-sdk-content
+description: Specifies how the host system uses the data managed by a writer involved in a VSS operation.
+old-location: base\vss_usage_type.htm
+old-project: VSS
+ms.assetid: 31997417-d993-4f28-b108-ce1dd8239650
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: VSS_USAGE_TYPE, VSS_USAGE_TYPE enumeration [VSS], VSS_UT_BOOTABLESYSTEMSTATE, VSS_UT_OTHER, VSS_UT_SYSTEMSERVICE, VSS_UT_UNDEFINED, VSS_UT_USERDATA, _win32_vss_usage_type, base.vss_usage_type, enumeration [VSS], vswriter/VSS_USAGE_TYPE, vswriter/VSS_UT_BOOTABLESYSTEMSTATE, vswriter/VSS_UT_OTHER, vswriter/VSS_UT_SYSTEMSERVICE, vswriter/VSS_UT_UNDEFINED, vswriter/VSS_UT_USERDATA
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vswriter.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_USAGE_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VsWriter.h
+api_name:
+-	VSS_USAGE_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # VSS_USAGE_TYPE enumeration

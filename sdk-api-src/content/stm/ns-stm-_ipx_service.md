@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:stm._IPX_SERVICE
+title: "_IPX_SERVICE"
+author: windows-sdk-content
+description: The IPX_SERVICE structure contains information about an IPX service, and identifies the interface and protocol through which this information was obtained.
+old-location: rras\ipx_service.htm
+old-project: RRAS
+ms.assetid: 37da1071-b665-405c-a4ce-f1a484aeb19b
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PIPX_SERVICE, IPX_SERVICE, IPX_SERVICE structure [RAS], PIPX_SERVICE, PIPX_SERVICE structure pointer [RAS], _IPX_SERVICE, _mpr_ipx_service, rras.ipx_service, stm/IPX_SERVICE, stm/PIPX_SERVICE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: stm.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPX_SERVICE, *PIPX_SERVICE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Stm.h
+api_name:
+-	IPX_SERVICE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _IPX_SERVICE structure

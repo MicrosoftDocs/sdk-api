@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:eaptypes._EAP_ATTRIBUTE_TYPE
+title: "_EAP_ATTRIBUTE_TYPE"
+author: windows-sdk-content
+description: Defines the set of possible EAP attribute types available on an authenticating entity.
+old-location: eaphost\eap_attribute_type.htm
+old-project: EAPHost
+ms.assetid: 1c6999f5-b455-4a8d-9967-dc27938e8737
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: EAP_ATTRIBUTE_TYPE, EAP_ATTRIBUTE_TYPE enumeration [EAPHost], EapAttributeType, EapAttributeType enumeration [EAPHost], _EAP_ATTRIBUTE_TYPE, eaphost.eap_attribute_type, eaptypes/EAP_ATTRIBUTE_TYPE, eaptypes/EapAttributeType, eaptypes/eatARAPChallengeResponse, eaptypes/eatARAPFeatures, eaptypes/eatARAPGuestLogon, eaptypes/eatARAPPassword, eaptypes/eatARAPSecurity, eaptypes/eatARAPSecurityData, eaptypes/eatARAPZoneAccess, eaptypes/eatAcctAuthentic, eaptypes/eatAcctDelayTime, eaptypes/eatAcctEventTimeStamp, eaptypes/eatAcctInputOctets, eaptypes/eatAcctInputPackets, eaptypes/eatAcctInterimInterval, eaptypes/eatAcctLinkCount, eaptypes/eatAcctMultiSessionId, eaptypes/eatAcctOutputOctets, eaptypes/eatAcctOutputPackets, eaptypes/eatAcctSessionId, eaptypes/eatAcctSessionTime, eaptypes/eatAcctStatusType, eaptypes/eatAcctTerminateCause, eaptypes/eatCallbackId, eaptypes/eatCallbackNumber, eaptypes/eatCalledStationId, eaptypes/eatCallingStationId, eaptypes/eatCertificateOID, eaptypes/eatClass, eaptypes/eatClearTextPassword, eaptypes/eatConfigurationToken, eaptypes/eatConnectInfo, eaptypes/eatCredentialsChanged, eaptypes/eatEAPConfiguration, eaptypes/eatEAPMessage, eaptypes/eatEAPTLV, eaptypes/eatEMSK, eaptypes/eatFilterId, eaptypes/eatFramedAppleTalkLink, eaptypes/eatFramedAppleTalkNetwork, eaptypes/eatFramedAppleTalkZone, eaptypes/eatFramedCompression, eaptypes/eatFramedIPAddress, eaptypes/eatFramedIPNetmask, eaptypes/eatFramedIPXNetwork, eaptypes/eatFramedIPv6Pool, eaptypes/eatFramedIPv6Prefix, eaptypes/eatFramedIPv6Route, eaptypes/eatFramedInterfaceId, eaptypes/eatFramedMTU, eaptypes/eatFramedProtocol, eaptypes/eatFramedRoute, eaptypes/eatFramedRouting, eaptypes/eatIdleTimeout, eaptypes/eatInnerEapMethodType, eaptypes/eatLoginIPHost, eaptypes/eatLoginIPv6Host, eaptypes/eatLoginLATGroup, eaptypes/eatLoginLATNode, eaptypes/eatLoginLATPort, eaptypes/eatLoginLATService, eaptypes/eatLoginService, eaptypes/eatLoginTCPPort, eaptypes/eatMD5CHAPChallenge, eaptypes/eatMD5CHAPPassword, eaptypes/eatMethodId, eaptypes/eatMinimum, eaptypes/eatNASIPAddress, eaptypes/eatNASIPv6Address, eaptypes/eatNASIdentifier, eaptypes/eatNASPortType, eaptypes/eatNASport, eaptypes/eatPEAPEmbeddedEAPTypeId, eaptypes/eatPEAPFastRoamedSession, eaptypes/eatPasswordRetry, eaptypes/eatPeerId, eaptypes/eatPortLimit, eaptypes/eatPrompt, eaptypes/eatProxyState, eaptypes/eatQuarantineSoH, eaptypes/eatReplyMessage, eaptypes/eatReserved, eaptypes/eatServerId, eaptypes/eatServiceType, eaptypes/eatSessionId, eaptypes/eatSessionTimeout, eaptypes/eatSignature, eaptypes/eatState, eaptypes/eatTerminationAction, eaptypes/eatTunnelClientEndpoint, eaptypes/eatTunnelMediumType, eaptypes/eatTunnelServerEndpoint, eaptypes/eatTunnelType, eaptypes/eatUnassigned17, eaptypes/eatUnassigned21, eaptypes/eatUserName, eaptypes/eatUserPassword, eaptypes/eatVendorSpecific, eatARAPChallengeResponse, eatARAPFeatures, eatARAPGuestLogon, eatARAPPassword, eatARAPSecurity, eatARAPSecurityData, eatARAPZoneAccess, eatAcctAuthentic, eatAcctDelayTime, eatAcctEventTimeStamp, eatAcctInputOctets, eatAcctInputPackets, eatAcctInterimInterval, eatAcctLinkCount, eatAcctMultiSessionId, eatAcctOutputOctets, eatAcctOutputPackets, eatAcctSessionId, eatAcctSessionTime, eatAcctStatusType, eatAcctTerminateCause, eatCallbackId, eatCallbackNumber, eatCalledStationId, eatCallingStationId, eatCertificateOID, eatClass, eatClearTextPassword, eatConfigurationToken, eatConnectInfo, eatCredentialsChanged, eatEAPConfiguration, eatEAPMessage, eatEAPTLV, eatEMSK, eatFilterId, eatFramedAppleTalkLink, eatFramedAppleTalkNetwork, eatFramedAppleTalkZone, eatFramedCompression, eatFramedIPAddress, eatFramedIPNetmask, eatFramedIPXNetwork, eatFramedIPv6Pool, eatFramedIPv6Prefix, eatFramedIPv6Route, eatFramedInterfaceId, eatFramedMTU, eatFramedProtocol, eatFramedRoute, eatFramedRouting, eatIdleTimeout, eatInnerEapMethodType, eatLoginIPHost, eatLoginIPv6Host, eatLoginLATGroup, eatLoginLATNode, eatLoginLATPort, eatLoginLATService, eatLoginService, eatLoginTCPPort, eatMD5CHAPChallenge, eatMD5CHAPPassword, eatMethodId, eatMinimum, eatNASIPAddress, eatNASIPv6Address, eatNASIdentifier, eatNASPortType, eatNASport, eatPEAPEmbeddedEAPTypeId, eatPEAPFastRoamedSession, eatPasswordRetry, eatPeerId, eatPortLimit, eatPrompt, eatProxyState, eatQuarantineSoH, eatReplyMessage, eatReserved, eatServerId, eatServiceType, eatSessionId, eatSessionTimeout, eatSignature, eatState, eatTerminationAction, eatTunnelClientEndpoint, eatTunnelMediumType, eatTunnelServerEndpoint, eatTunnelType, eatUnassigned17, eatUnassigned21, eatUserName, eatUserPassword, eatVendorSpecific
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: eaptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EAP_ATTRIBUTE_TYPE, EapAttributeType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	eaptypes.h
+api_name:
+-	EAP_ATTRIBUTE_TYPE
+product: Windows
+targetos: Windows
+req.lib: Eappprxy.lib
+req.dll: Eappprxy.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _EAP_ATTRIBUTE_TYPE enumeration

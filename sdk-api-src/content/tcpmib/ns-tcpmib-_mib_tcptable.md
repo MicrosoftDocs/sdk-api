@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:tcpmib._MIB_TCPTABLE
+title: "_MIB_TCPTABLE"
+author: windows-sdk-content
+description: Contains a table of TCP connections for IPv4 on the local computer.
+old-location: mib\mib_tcptable.htm
+old-project: MIB
+ms.assetid: a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIB_TCPTABLE, MIB_TCPTABLE, MIB_TCPTABLE structure [MIB], PMIB_TCPTABLE, PMIB_TCPTABLE structure pointer [MIB], _MIB_TCPTABLE, _mpr_mib_tcptable, iprtrmib/MIB_TCPTABLE, iprtrmib/PMIB_TCPTABLE, mib.mib_tcptable, rras.mib_tcptable, tcpmib/MIB_TCPTABLE, tcpmib/PMIB_TCPTABLE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: tcpmib.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_TCPTABLE, *PMIB_TCPTABLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tcpmib.h
+-	Iprtrmib.h
+api_name:
+-	MIB_TCPTABLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _MIB_TCPTABLE structure

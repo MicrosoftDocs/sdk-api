@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tuner.ITunerCapEx.get_Has608_708Caption
+title: ITunerCapEx::get_Has608_708Caption
+author: windows-sdk-content
+description: Gets a flag indicating whether a BDA tuner device supports 608/708 closed captioning for ATSC, digital cable, or analog cable. In 608/708 closed captioning, the broadcast includes closed-captioning data.
+old-location: mstv\itunercapex_has608_708caption.htm
+old-project: mstv
+ms.assetid: 4ed432e1-2206-4e87-832a-a2d2b4b7491c
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: Has608_708Caption property [Microsoft TV Technologies], Has608_708Caption property [Microsoft TV Technologies],ITunerCapEx interface, ITunerCapEx interface [Microsoft TV Technologies],Has608_708Caption property, ITunerCapEx.Has608_708Caption, ITunerCapEx.get_Has608_708Caption, ITunerCapEx::Has608_708Caption, ITunerCapEx::get_Has608_708Caption, get_Has608_708Caption, mstv.itunercapex_has608_708caption, tuner/ITunerCapEx::Has608_708Caption, tuner/ITunerCapEx::get_Has608_708Caption
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tuner.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	tuner.h
+-	Tuner.idl
+api_name:
+-	ITunerCapEx.Has608_708Caption
+-	ITunerCapEx.get_Has608_708Caption
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITunerCapEx::get_Has608_708Caption

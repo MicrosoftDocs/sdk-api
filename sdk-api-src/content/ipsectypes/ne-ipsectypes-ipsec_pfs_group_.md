@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:ipsectypes.IPSEC_PFS_GROUP_
+title: IPSEC_PFS_GROUP_
+author: windows-sdk-content
+description: Specifies the Diffie Hellman algorithm that should be used for Quick Mode PFS (Perfect Forward Secrecy).
+old-location: fwp\ipsec_pfs_group_enum.htm
+old-project: FWP
+ms.assetid: 0f0ea028-859b-42ca-a4e3-fe23f0836883
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: IPSEC_PFS_1, IPSEC_PFS_14, IPSEC_PFS_2, IPSEC_PFS_2048, IPSEC_PFS_24, IPSEC_PFS_ECP_256, IPSEC_PFS_ECP_384, IPSEC_PFS_GROUP, IPSEC_PFS_GROUP enumeration [Filtering], IPSEC_PFS_GROUP_, IPSEC_PFS_MAX, IPSEC_PFS_MM, IPSEC_PFS_NONE, fwp.ipsec_pfs_group_enum, ipsectypes/IPSEC_PFS_1, ipsectypes/IPSEC_PFS_14, ipsectypes/IPSEC_PFS_2, ipsectypes/IPSEC_PFS_2048, ipsectypes/IPSEC_PFS_24, ipsectypes/IPSEC_PFS_ECP_256, ipsectypes/IPSEC_PFS_ECP_384, ipsectypes/IPSEC_PFS_GROUP, ipsectypes/IPSEC_PFS_MAX, ipsectypes/IPSEC_PFS_MM, ipsectypes/IPSEC_PFS_NONE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: ipsectypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ipsectypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: IPSEC_PFS_GROUP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ipsectypes.h
+api_name:
+-	IPSEC_PFS_GROUP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IPSEC_PFS_GROUP_ enumeration

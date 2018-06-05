@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:indexsrv.IWordBreaker.BreakText
+title: IWordBreaker::BreakText
+author: windows-sdk-content
+description: Parses text to identify words and phrases and provides the results to the IWordSink and IPhraseSink objects.
+old-location: search\_search_IWordBreaker_BreakText.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\breaktext.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: BreakText, BreakText method [search], BreakText method [search],IWordBreaker interface, IWordBreaker interface [search],BreakText method, IWordBreaker.BreakText, IWordBreaker::BreakText, _search_IWordBreaker_BreakText, indexsrv/IWordBreaker::BreakText, search._search_IWordBreaker_BreakText
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: indexsrv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WORDREP_BREAK_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Indexsrv.h
+api_name:
+-	IWordBreaker.BreakText
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IWordBreaker::BreakText

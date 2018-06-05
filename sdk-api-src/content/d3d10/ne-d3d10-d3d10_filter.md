@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d10.D3D10_FILTER
+title: D3D10_FILTER
+author: windows-sdk-content
+description: Filtering options during texture sampling.
+old-location: direct3d10\d3d10_filter.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_filter.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 31eff5fe-8fd7-55df-9fc7-0567ce55ecd5, D3D10_FILTER, D3D10_FILTER enumeration [Direct3D 10], D3D10_FILTER_ANISOTROPIC, D3D10_FILTER_COMPARISON_ANISOTROPIC, D3D10_FILTER_COMPARISON_MIN_LINEAR_MAG_MIP_POINT, D3D10_FILTER_COMPARISON_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D3D10_FILTER_COMPARISON_MIN_MAG_LINEAR_MIP_POINT, D3D10_FILTER_COMPARISON_MIN_MAG_MIP_LINEAR, D3D10_FILTER_COMPARISON_MIN_MAG_MIP_POINT, D3D10_FILTER_COMPARISON_MIN_MAG_POINT_MIP_LINEAR, D3D10_FILTER_COMPARISON_MIN_POINT_MAG_LINEAR_MIP_POINT, D3D10_FILTER_COMPARISON_MIN_POINT_MAG_MIP_LINEAR, D3D10_FILTER_MIN_LINEAR_MAG_MIP_POINT, D3D10_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR, D3D10_FILTER_MIN_MAG_LINEAR_MIP_POINT, D3D10_FILTER_MIN_MAG_MIP_LINEAR, D3D10_FILTER_MIN_MAG_MIP_POINT, D3D10_FILTER_MIN_MAG_POINT_MIP_LINEAR, D3D10_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT, D3D10_FILTER_MIN_POINT_MAG_MIP_LINEAR, D3D10_FILTER_TEXT_1BIT, d3d10/D3D10_FILTER, d3d10/D3D10_FILTER_ANISOTROPIC, d3d10/D3D10_FILTER_COMPARISON_ANISOTROPIC, d3d10/D3D10_FILTER_COMPARISON_MIN_LINEAR_MAG_MIP_POINT, d3d10/D3D10_FILTER_COMPARISON_MIN_LINEAR_MAG_POINT_MIP_LINEAR, d3d10/D3D10_FILTER_COMPARISON_MIN_MAG_LINEAR_MIP_POINT, d3d10/D3D10_FILTER_COMPARISON_MIN_MAG_MIP_LINEAR, d3d10/D3D10_FILTER_COMPARISON_MIN_MAG_MIP_POINT, d3d10/D3D10_FILTER_COMPARISON_MIN_MAG_POINT_MIP_LINEAR, d3d10/D3D10_FILTER_COMPARISON_MIN_POINT_MAG_LINEAR_MIP_POINT, d3d10/D3D10_FILTER_COMPARISON_MIN_POINT_MAG_MIP_LINEAR, d3d10/D3D10_FILTER_MIN_LINEAR_MAG_MIP_POINT, d3d10/D3D10_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR, d3d10/D3D10_FILTER_MIN_MAG_LINEAR_MIP_POINT, d3d10/D3D10_FILTER_MIN_MAG_MIP_LINEAR, d3d10/D3D10_FILTER_MIN_MAG_MIP_POINT, d3d10/D3D10_FILTER_MIN_MAG_POINT_MIP_LINEAR, d3d10/D3D10_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT, d3d10/D3D10_FILTER_MIN_POINT_MAG_MIP_LINEAR, d3d10/D3D10_FILTER_TEXT_1BIT, direct3d10.d3d10_filter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_FILTER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D10.h
+api_name:
+-	D3D10_FILTER
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 ---
 
 # D3D10_FILTER enumeration

@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntdsapi.DS_DOMAIN_CONTROLLER_INFO_1W
+title: DS_DOMAIN_CONTROLLER_INFO_1W
+author: windows-sdk-content
+description: The DS_DOMAIN_CONTROLLER_INFO_1 structure contains data about a domain controller. This structure is returned by the DsGetDomainControllerInfo function.
+old-location: ad\ds_domain_controller_info_1.htm
+old-project: AD
+ms.assetid: 6cc829ac-2aa6-49ef-b1ab-9c249249e0d6
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PDS_DOMAIN_CONTROLLER_INFO_1W, DS_DOMAIN_CONTROLLER_INFO_1, DS_DOMAIN_CONTROLLER_INFO_1 structure [Active Directory], DS_DOMAIN_CONTROLLER_INFO_1A, DS_DOMAIN_CONTROLLER_INFO_1W, PDS_DOMAIN_CONTROLLER_INFO_1, PDS_DOMAIN_CONTROLLER_INFO_1 structure pointer [Active Directory], _glines_ds_domain_controller_info_1, ad.ds__domain__controller__info__1, ad.ds_domain_controller_info_1, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1A, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1W, ntdsapi/PDS_DOMAIN_CONTROLLER_INFO_1"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DS_DOMAIN_CONTROLLER_INFO_1W (Unicode) and DS_DOMAIN_CONTROLLER_INFO_1A (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_DOMAIN_CONTROLLER_INFO_1W, *PDS_DOMAIN_CONTROLLER_INFO_1W
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntdsapi.h
+api_name:
+-	DS_DOMAIN_CONTROLLER_INFO_1
+-	DS_DOMAIN_CONTROLLER_INFO_1A
+-	DS_DOMAIN_CONTROLLER_INFO_1W
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DS_DOMAIN_CONTROLLER_INFO_1W structure

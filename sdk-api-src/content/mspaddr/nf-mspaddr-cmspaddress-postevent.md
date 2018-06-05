@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:mspaddr.CMSPAddress.PostEvent
+title: CMSPAddress::PostEvent
+author: windows-sdk-content
+description: The PostEvent method is called by the MSPCall to post an event to TAPI3. This method puts the event at the end of the event list and signals TAPI3. Locks the event list.
+old-location: tapi3\cmspaddress_postevent.htm
+old-project: Tapi
+ms.assetid: 25050c11-c270-4fc0-85b4-0f48622a5ec5
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: CMSPAddress interface [TAPI 2.2],PostEvent method, CMSPAddress.PostEvent, CMSPAddress::PostEvent, PostEvent, PostEvent method [TAPI 2.2], PostEvent method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_postevent, mspaddr/CMSPAddress::PostEvent, tapi3.cmspaddress_postevent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mspaddr.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MSP_EVENT_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Mspaddr.h
+api_name:
+-	CMSPAddress.PostEvent
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CMSPAddress::PostEvent

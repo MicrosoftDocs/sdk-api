@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NF:cfgmgr32.CM_Free_Res_Des_Handle
+title: CM_Free_Res_Des_Handle function
+author: windows-sdk-content
+description: The CM_Free_Res_Des_Handle function invalidates a resource description handle and frees its associated memory allocation.
+old-location: devinst\cm_free_res_des_handle.htm
+old-project: devinst
+ms.assetid: 4a585d64-fd00-47a8-8ada-7e343beb829d
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: CM_Free_Res_Des_Handle, CM_Free_Res_Des_Handle function [Device and Driver Installation], cfgmgr32/CM_Free_Res_Des_Handle, cfgmgrfn_a3dd0de4-8188-4117-9e8b-ecc5eb448096.xml, devinst.cm_free_res_des_handle
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cfgmgr32.dll
+api_name:
+-	CM_Free_Res_Des_Handle
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 ---
 
 # CM_Free_Res_Des_Handle function

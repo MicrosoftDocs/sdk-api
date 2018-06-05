@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:propvarutil.PropVariantToUInt64VectorAlloc
+title: PropVariantToUInt64VectorAlloc function
+author: windows-sdk-content
+description: Extracts data from a PROPVARIANT structure into a newly-allocated ULONGLONG vector.
+old-location: properties\PropVariantToUInt64VectorAlloc.htm
+old-project: properties
+ms.assetid: 88947036-3745-48c6-ba61-dc139c3801d5
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: PropVariantToUInt64VectorAlloc, PropVariantToUInt64VectorAlloc function [Windows Properties], _shell_PropVariantToUInt64VectorAlloc, properties.PropVariantToUInt64VectorAlloc, propvarutil/PropVariantToUInt64VectorAlloc, shell.PropVariantToUInt64VectorAlloc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: propvarutil.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PROPVAR_COMPARE_UNIT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Propsys.dll
+api_name:
+-	PropVariantToUInt64VectorAlloc
+product: Windows
+targetos: Windows
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PropVariantToUInt64VectorAlloc function

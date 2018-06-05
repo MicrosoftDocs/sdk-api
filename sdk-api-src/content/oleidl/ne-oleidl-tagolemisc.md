@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:oleidl.tagOLEMISC
+title: tagOLEMISC
+author: windows-sdk-content
+description: Describes miscellaneous characteristics of an object or class of objects.
+old-location: com\olemisc.htm
+old-project: com
+ms.assetid: 0a90d126-fc28-460c-8eaf-cf98ae998f95
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: OLEMISC, OLEMISC enumeration [COM], OLEMISC_ACTIVATEWHENVISIBLE, OLEMISC_ACTSLIKEBUTTON, OLEMISC_ACTSLIKELABEL, OLEMISC_ALIGNABLE, OLEMISC_ALWAYSRUN, OLEMISC_CANLINKBYOLE1, OLEMISC_CANTLINKINSIDE, OLEMISC_IGNOREACTIVATEWHENVISIBLE, OLEMISC_IMEMODE, OLEMISC_INSERTNOTREPLACE, OLEMISC_INSIDEOUT, OLEMISC_INVISIBLEATRUNTIME, OLEMISC_ISLINKOBJECT, OLEMISC_NOUIACTIVATE, OLEMISC_ONLYICONIC, OLEMISC_RECOMPOSEONRESIZE, OLEMISC_RENDERINGISDEVICEINDEPENDENT, OLEMISC_SETCLIENTSITEFIRST, OLEMISC_SIMPLEFRAME, OLEMISC_STATIC, OLEMISC_SUPPORTSMULTILEVELUNDO, OLEMISC_WANTSTOMENUMERGE, _ole_OLEMISC, com.olemisc, oleidl/OLEMISC, oleidl/OLEMISC_ACTIVATEWHENVISIBLE, oleidl/OLEMISC_ACTSLIKEBUTTON, oleidl/OLEMISC_ACTSLIKELABEL, oleidl/OLEMISC_ALIGNABLE, oleidl/OLEMISC_ALWAYSRUN, oleidl/OLEMISC_CANLINKBYOLE1, oleidl/OLEMISC_CANTLINKINSIDE, oleidl/OLEMISC_IGNOREACTIVATEWHENVISIBLE, oleidl/OLEMISC_IMEMODE, oleidl/OLEMISC_INSERTNOTREPLACE, oleidl/OLEMISC_INSIDEOUT, oleidl/OLEMISC_INVISIBLEATRUNTIME, oleidl/OLEMISC_ISLINKOBJECT, oleidl/OLEMISC_NOUIACTIVATE, oleidl/OLEMISC_ONLYICONIC, oleidl/OLEMISC_RECOMPOSEONRESIZE, oleidl/OLEMISC_RENDERINGISDEVICEINDEPENDENT, oleidl/OLEMISC_SETCLIENTSITEFIRST, oleidl/OLEMISC_SIMPLEFRAME, oleidl/OLEMISC_STATIC, oleidl/OLEMISC_SUPPORTSMULTILEVELUNDO, oleidl/OLEMISC_WANTSTOMENUMERGE, tagOLEMISC
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: oleidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: OLEUIVIEWPROPSW (Unicode) and OLEUIVIEWPROPSA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OLEMISC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	OleIdl.h
+api_name:
+-	OLEMISC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagOLEMISC enumeration

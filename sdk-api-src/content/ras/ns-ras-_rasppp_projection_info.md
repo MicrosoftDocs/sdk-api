@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ras._RASPPP_PROJECTION_INFO
+title: "_RASPPP_PROJECTION_INFO"
+author: windows-sdk-content
+description: Contains information obtained during Point-to-Point (PPP) negotiation of Internet Protocol version 4 (IPv4) and IPv6 projection operations, and PPP Link Control Protocol (LCP)/multilink, and Compression Control Protocol (CCP) negotiation.
+old-location: rras\rasppp_projection_info.htm
+old-project: RRAS
+ms.assetid: 8394b843-75f0-4bbd-9ad8-6f4b5dc4bf7b
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: "*PRASPPP_PROJECTION_INFO, RASCCPCA_MPPC, RASCCPCA_STAC, RASCCPO_COMPRESSION, RASCCPO_ENCRYPTION128BIT, RASCCPO_ENCRYPTION40BIT, RASCCPO_ENCRYPTION40BITOLD, RASCCPO_ENCRYPTION56BIT, RASCCPO_HISTORYLESS, RASIPO_VJ, RASLCPAD_CHAP_MD5, RASLCPAD_CHAP_MS, RASLCPAD_CHAP_MSV2, RASLCPAP_CHAP, RASLCPAP_EAP, RASLCPAP_PAP, RASLCPAP_SPAP, RASLCPO_3_DES, RASLCPO_ACFC, RASLCPO_DES_56, RASLCPO_PFC, RASLCPO_SSHF, RASPPP_PROJECTION_INFO, RASPPP_PROJECTION_INFO structure [RAS], _RASPPP_PROJECTION_INFO, ras/RASPPP_PROJECTION_INFO, rras.rasppp_projection_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ras.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RASPPP_PROJECTION_INFO, *PRASPPP_PROJECTION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ras.h
+api_name:
+-	RASPPP_PROJECTION_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RASPPP_PROJECTION_INFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dsadmin.IDsAdminNewObj.SetButtons
+title: IDsAdminNewObj::SetButtons
+author: windows-sdk-content
+description: The IDsAdminNewObj::SetButtons method enables or disables the &#0034;Next&#0034; command button in the wizard for a specific page.
+old-location: ad\idsadminnewobj_setbuttons.htm
+old-project: AD
+ms.assetid: 2cc888f4-b884-4e81-8dec-6f12c35d9ee4
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: IDsAdminNewObj interface [Active Directory],SetButtons method, IDsAdminNewObj.SetButtons, IDsAdminNewObj::SetButtons, SetButtons, SetButtons method [Active Directory], SetButtons method [Active Directory],IDsAdminNewObj interface, _glines_idsadminnewobj_setbuttons, ad.idsadminnewobj__setbuttons, ad.idsadminnewobj_setbuttons, dsadmin/IDsAdminNewObj::SetButtons
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dsadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DSAdmin.dll
+api_name:
+-	IDsAdminNewObj.SetButtons
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 ---
 
 # IDsAdminNewObj::SetButtons

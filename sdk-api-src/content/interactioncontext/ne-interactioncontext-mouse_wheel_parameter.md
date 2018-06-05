@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:interactioncontext.MOUSE_WHEEL_PARAMETER
+title: MOUSE_WHEEL_PARAMETER
+author: windows-sdk-content
+description: Specifies the manipulations that can be mapped to mouse wheel rotation.
+old-location: input_intcontext\mouse_wheel_parameter.htm
+old-project: Input_IntContext
+ms.assetid: eafc5d3a-f547-45a2-9634-caf309e583f3
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: MOUSE_WHEEL_PARAMETER, MOUSE_WHEEL_PARAMETER enumeration, MOUSE_WHEEL_PARAMETER_CHAR_TRANSLATION_X, MOUSE_WHEEL_PARAMETER_CHAR_TRANSLATION_Y, MOUSE_WHEEL_PARAMETER_DELTA_ROTATION, MOUSE_WHEEL_PARAMETER_DELTA_SCALE, MOUSE_WHEEL_PARAMETER_MAX, MOUSE_WHEEL_PARAMETER_PAGE_TRANSLATION_X, MOUSE_WHEEL_PARAMETER_PAGE_TRANSLATION_Y, input_intcontext.mouse_wheel_parameter, interactioncontext.mouse_wheel_parameter, interactioncontext/MOUSE_WHEEL_PARAMETER, interactioncontext/MOUSE_WHEEL_PARAMETER_CHAR_TRANSLATION_X, interactioncontext/MOUSE_WHEEL_PARAMETER_CHAR_TRANSLATION_Y, interactioncontext/MOUSE_WHEEL_PARAMETER_DELTA_ROTATION, interactioncontext/MOUSE_WHEEL_PARAMETER_DELTA_SCALE, interactioncontext/MOUSE_WHEEL_PARAMETER_MAX, interactioncontext/MOUSE_WHEEL_PARAMETER_PAGE_TRANSLATION_X, interactioncontext/MOUSE_WHEEL_PARAMETER_PAGE_TRANSLATION_Y
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: interactioncontext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MOUSE_WHEEL_PARAMETER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	interactioncontext.h
+api_name:
+-	MOUSE_WHEEL_PARAMETER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # MOUSE_WHEEL_PARAMETER enumeration

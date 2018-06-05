@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfidl.IMFMediaTypeHandler.IsMediaTypeSupported
+title: IMFMediaTypeHandler::IsMediaTypeSupported
+author: windows-sdk-content
+description: Queries whether the object supports a specified media type.
+old-location: mf\imfmediatypehandler_ismediatypesupported.htm
+old-project: medfound
+ms.assetid: ea52defa-8b78-4f40-97ae-ed6a5ee4849e
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFMediaTypeHandler interface [Media Foundation],IsMediaTypeSupported method, IMFMediaTypeHandler.IsMediaTypeSupported, IMFMediaTypeHandler::IsMediaTypeSupported, IsMediaTypeSupported, IsMediaTypeSupported method [Media Foundation], IsMediaTypeSupported method [Media Foundation],IMFMediaTypeHandler interface, ea52defa-8b78-4f40-97ae-ed6a5ee4849e, mf.imfmediatypehandler_ismediatypesupported, mfidl/IMFMediaTypeHandler::IsMediaTypeSupported
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFMediaTypeHandler.IsMediaTypeSupported
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFMediaTypeHandler::IsMediaTypeSupported

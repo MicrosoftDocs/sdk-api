@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NN:mfcaptureengine.IMFCaptureEngineOnSampleCallback2
+title: IMFCaptureEngineOnSampleCallback2
+author: windows-sdk-content
+description: Extensions for the IMFCaptureEngineOnSampleCallback callback interface that is used to receive data from the capture engine.
+old-location: mf\imfcaptureengineonsamplecallback2.htm
+old-project: medfound
+ms.assetid: 0899e558-df9e-4060-970c-af0bd26ed5ce
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFCaptureEngineOnSampleCallback2, IMFCaptureEngineOnSampleCallback2 interface [Media Foundation], IMFCaptureEngineOnSampleCallback2 interface [Media Foundation],described, mf.imfcaptureengineonsamplecallback2, mfcaptureengine/IMFCaptureEngineOnSampleCallback2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: mfcaptureengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mfcaptureengine.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfcaptureengine.h
+api_name:
+-	IMFCaptureEngineOnSampleCallback2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFCaptureEngineOnSampleCallback2 interface

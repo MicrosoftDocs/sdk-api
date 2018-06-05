@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:tdh.TdhEnumerateManifestProviderEvents
+title: TdhEnumerateManifestProviderEvents function
+author: windows-sdk-content
+description: Retrieves the list of events present in the provider manifest.
+old-location: etw\tdhenumeratemanifestproviderevents.htm
+old-project: ETW
+ms.assetid: 93A03E1D-4047-49F1-987B-FB7BE03E0483
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: TdhEnumerateManifestProviderEvents, TdhEnumerateManifestProviderEvents function [ETW], etw.tdhenumeratemanifestproviderevents, tdh/TdhEnumerateManifestProviderEvents
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TEMPLATE_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Tdh.dll
+-	API-MS-Win-Eventing-Tdh-L1-1-0.dll
+-	MinTdh.dll
+api_name:
+-	TdhEnumerateManifestProviderEvents
+product: Windows
+targetos: Windows
+req.lib: Tdh.lib
+req.dll: Tdh.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # TdhEnumerateManifestProviderEvents function

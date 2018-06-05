@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iscsidsc.AddRadiusServerA
+title: AddRadiusServerA function
+author: windows-sdk-content
+description: AddRadiusServer.
+old-location: iscsidisc\addradiusserver.htm
+old-project: iSCSIDisc
+ms.assetid: ed89b329-f1ea-4606-b305-a245d29b119c
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: AddRadiusServer, AddRadiusServer function [iSCSI Discovery Library API], AddRadiusServerA, AddRadiusServerW, iscsidisc.addradiusserver, iscsidsc/AddRadiusServer, iscsidsc/AddRadiusServerA, iscsidsc/AddRadiusServerW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: AddRadiusServerW (Unicode) and AddRadiusServerA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Iscsidsc.dll
+api_name:
+-	AddRadiusServer
+-	AddRadiusServerA
+-	AddRadiusServerW
+product: Windows
+targetos: Windows
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # AddRadiusServerA function

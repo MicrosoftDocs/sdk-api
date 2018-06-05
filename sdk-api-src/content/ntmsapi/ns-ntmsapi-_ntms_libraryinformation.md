@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntmsapi._NTMS_LIBRARYINFORMATION
+title: "_NTMS_LIBRARYINFORMATION"
+author: windows-sdk-content
+description: The NTMS_LIBRARYINFORMATION structure defines properties specific to a library object.
+old-location: fs\ntms_libraryinformation.htm
+old-project: Rsm
+ms.assetid: f8ca33ba-35e2-4fd9-a9a0-1393bbbede80
+ms.author: windowssdkdev
+ms.date: 04/05/2018
+ms.keywords: NTMS_INVENTORY_FAST, NTMS_INVENTORY_NONE, NTMS_INVENTORY_OMID, NTMS_LIBRARYFLAG_CLEANERPRESENT, NTMS_LIBRARYFLAG_FIXEDOFFLINE, NTMS_LIBRARYFLAG_IGNORECLEANERUSESREMAINING, NTMS_LIBRARYFLAG_RECOGNIZECLEANERBARCODE, NTMS_LIBRARYINFORMATION, NTMS_LIBRARYINFORMATION structure [Files], NTMS_LIBRARYTYPE_OFFLINE, NTMS_LIBRARYTYPE_ONLINE, NTMS_LIBRARYTYPE_STANDALONE, NTMS_LIBRARYTYPE_UNKNOWN, _NTMS_LIBRARYINFORMATION, _zaw_ntms_libraryinformation, base.ntms_libraryinformation, fs.ntms_libraryinformation, ntmsapi/NTMS_LIBRARYINFORMATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntmsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NTMS_LIBRARYINFORMATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntmsapi.h
+api_name:
+-	NTMS_LIBRARYINFORMATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NTMS_LIBRARYINFORMATION structure

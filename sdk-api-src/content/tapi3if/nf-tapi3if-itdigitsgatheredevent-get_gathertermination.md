@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:tapi3if.ITDigitsGatheredEvent.get_GatherTermination
+title: ITDigitsGatheredEvent::get_GatherTermination
+author: windows-sdk-content
+description: The get_GatherTermination method gets the reason why the TAPI Server terminated the gathering of digits on the call.
+old-location: tapi3\itdigitsgatheredevent_get_gathertermination.htm
+old-project: Tapi
+ms.assetid: 97c123b9-4497-43f3-b747-660d3f9f5848
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_GatherTermination method, ITDigitsGatheredEvent.get_GatherTermination, ITDigitsGatheredEvent::get_GatherTermination, _tapi3_itdigitsgatheredevent_get_gathertermination, get_GatherTermination, get_GatherTermination method [TAPI 2.2], get_GatherTermination method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_gathertermination, tapi3if/ITDigitsGatheredEvent::get_GatherTermination
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TERMINAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Tapi3.dll
+api_name:
+-	ITDigitsGatheredEvent.get_GatherTermination
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ITDigitsGatheredEvent::get_GatherTermination

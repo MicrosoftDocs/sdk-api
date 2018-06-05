@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntsecapi._TRUSTED_PASSWORD_INFO
+title: "_TRUSTED_PASSWORD_INFO"
+author: windows-sdk-content
+description: The TRUSTED_PASSWORD_INFO structure is used to query or set the password for a trusted domain.
+old-location: security\trusted_password_info.htm
+old-project: SecMgmt
+ms.assetid: 2c3aca10-8efd-4278-8127-2d31db776c0e
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PTRUSTED_PASSWORD_INFO, PTRUSTED_PASSWORD_INFO, PTRUSTED_PASSWORD_INFO structure pointer [Security], TRUSTED_PASSWORD_INFO, TRUSTED_PASSWORD_INFO structure [Security], _TRUSTED_PASSWORD_INFO, _lsa_trusted_password_info, ntsecapi/PTRUSTED_PASSWORD_INFO, ntsecapi/TRUSTED_PASSWORD_INFO, security.trusted_password_info"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntsecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRUSTED_PASSWORD_INFO, *PTRUSTED_PASSWORD_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntsecapi.h
+api_name:
+-	TRUSTED_PASSWORD_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _TRUSTED_PASSWORD_INFO structure

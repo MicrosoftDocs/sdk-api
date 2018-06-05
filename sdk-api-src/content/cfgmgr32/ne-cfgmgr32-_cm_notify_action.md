@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:cfgmgr32._CM_NOTIFY_ACTION
+title: "_CM_NOTIFY_ACTION"
+author: windows-sdk-content
+description: This enumeration identifies Plug and Play device event types.
+old-location: devinst\cm_notify_action.htm
+old-project: devinst
+ms.assetid: 587AF979-8BA2-45A3-90C2-7E0EBB2390EC
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: "*PCM_NOTIFY_ACTION, CM_NOTIFY_ACTION, CM_NOTIFY_ACTION enumeration [Device and Driver Installation], CM_NOTIFY_ACTION_DEVICECUSTOMEVENT, CM_NOTIFY_ACTION_DEVICEINSTANCEENUMERATED, CM_NOTIFY_ACTION_DEVICEINSTANCEREMOVED, CM_NOTIFY_ACTION_DEVICEINSTANCESTARTED, CM_NOTIFY_ACTION_DEVICEINTERFACEARRIVAL, CM_NOTIFY_ACTION_DEVICEINTERFACEREMOVAL, CM_NOTIFY_ACTION_DEVICEQUERYREMOVE, CM_NOTIFY_ACTION_DEVICEQUERYREMOVEFAILED, CM_NOTIFY_ACTION_DEVICEREMOVECOMPLETE, CM_NOTIFY_ACTION_DEVICEREMOVEPENDING, CM_NOTIFY_ACTION_MAX, _CM_NOTIFY_ACTION, cfgmgr32/CM_NOTIFY_ACTION, cfgmgr32/CM_NOTIFY_ACTION_DEVICECUSTOMEVENT, cfgmgr32/CM_NOTIFY_ACTION_DEVICEINSTANCEENUMERATED, cfgmgr32/CM_NOTIFY_ACTION_DEVICEINSTANCEREMOVED, cfgmgr32/CM_NOTIFY_ACTION_DEVICEINSTANCESTARTED, cfgmgr32/CM_NOTIFY_ACTION_DEVICEINTERFACEARRIVAL, cfgmgr32/CM_NOTIFY_ACTION_DEVICEINTERFACEREMOVAL, cfgmgr32/CM_NOTIFY_ACTION_DEVICEQUERYREMOVE, cfgmgr32/CM_NOTIFY_ACTION_DEVICEQUERYREMOVEFAILED, cfgmgr32/CM_NOTIFY_ACTION_DEVICEREMOVECOMPLETE, cfgmgr32/CM_NOTIFY_ACTION_DEVICEREMOVEPENDING, cfgmgr32/CM_NOTIFY_ACTION_MAX, devinst.cm_notify_action"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: cfgmgr32.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Cfgmgr32.h
+api_name:
+-	CM_NOTIFY_ACTION
+product: Windows
+targetos: Windows
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 ---
 
 # _CM_NOTIFY_ACTION enumeration

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:msctf.ITfReadingInformationUIElement.GetUpdatedFlags
+title: ITfReadingInformationUIElement::GetUpdatedFlags
+author: windows-sdk-content
+description: This method returns the flag that tells which part of this element was updated.
+old-location: tsf\itfreadinginformationuielement_getupdatedflags.htm
+old-project: TSF
+ms.assetid: 6a5b1a50-9d0b-440a-a98f-80fd33c6cd95
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: GetUpdatedFlags, GetUpdatedFlags method [Text Services Framework], GetUpdatedFlags method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetUpdatedFlags method, ITfReadingInformationUIElement.GetUpdatedFlags, ITfReadingInformationUIElement::GetUpdatedFlags, TF_RIUIE_CONTEXT, TF_RIUIE_ERRORINDEX, TF_RIUIE_MAXREADINGSTRINGLENGTH, TF_RIUIE_STRING, TF_RIUIE_VERTICALORDER, msctf/ITfReadingInformationUIElement::GetUpdatedFlags, tsf.iitfreadinginformationuielement_getupdatedflags, tsf.itfreadinginformationuielement_getupdatedflags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: msctf.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TF_DA_ATTR_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msctf.dll
+api_name:
+-	ITfReadingInformationUIElement.GetUpdatedFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # ITfReadingInformationUIElement::GetUpdatedFlags

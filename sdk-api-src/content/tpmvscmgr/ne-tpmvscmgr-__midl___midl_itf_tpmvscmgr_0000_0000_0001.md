@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tpmvscmgr.__MIDL___MIDL_itf_tpmvscmgr_0000_0000_0001
+title: "__MIDL___MIDL_itf_tpmvscmgr_0000_0000_0001"
+author: windows-sdk-content
+description: Provides predefined status codes to represent the progress of the TPM virtual smart card manager.
+old-location: security\tpmvscmgr_status.htm
+old-project: SecAuthN
+ms.assetid: 9E678584-D225-4BDD-8035-92818B977DE9
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: TPMVSCMGR_STATUS, TPMVSCMGR_STATUS enumeration [Security], TPMVSCMGR_STATUS_CARD_CREATED, TPMVSCMGR_STATUS_CARD_DESTROYED, TPMVSCMGR_STATUS_GENERATE_AUTHENTICATING, TPMVSCMGR_STATUS_GENERATE_RUNNING, TPMVSCMGR_STATUS_GENERATE_WAITING, TPMVSCMGR_STATUS_VGIDSSIMULATOR_CREATING, TPMVSCMGR_STATUS_VGIDSSIMULATOR_DESTROYING, TPMVSCMGR_STATUS_VGIDSSIMULATOR_INITIALIZING, TPMVSCMGR_STATUS_VREADER_CREATING, TPMVSCMGR_STATUS_VREADER_DESTROYING, TPMVSCMGR_STATUS_VREADER_INITIALIZING, TPMVSCMGR_STATUS_VTPMSMARTCARD_CREATING, TPMVSCMGR_STATUS_VTPMSMARTCARD_DESTROYING, TPMVSCMGR_STATUS_VTPMSMARTCARD_INITIALIZING, __MIDL___MIDL_itf_tpmvscmgr_0000_0000_0001, security.tpmvscmgr_status, tpmvscmgr/TPMVSCMGR_STATUS, tpmvscmgr/TPMVSCMGR_STATUS_CARD_CREATED, tpmvscmgr/TPMVSCMGR_STATUS_CARD_DESTROYED, tpmvscmgr/TPMVSCMGR_STATUS_GENERATE_AUTHENTICATING, tpmvscmgr/TPMVSCMGR_STATUS_GENERATE_RUNNING, tpmvscmgr/TPMVSCMGR_STATUS_GENERATE_WAITING, tpmvscmgr/TPMVSCMGR_STATUS_VGIDSSIMULATOR_CREATING, tpmvscmgr/TPMVSCMGR_STATUS_VGIDSSIMULATOR_DESTROYING, tpmvscmgr/TPMVSCMGR_STATUS_VGIDSSIMULATOR_INITIALIZING, tpmvscmgr/TPMVSCMGR_STATUS_VREADER_CREATING, tpmvscmgr/TPMVSCMGR_STATUS_VREADER_DESTROYING, tpmvscmgr/TPMVSCMGR_STATUS_VREADER_INITIALIZING, tpmvscmgr/TPMVSCMGR_STATUS_VTPMSMARTCARD_CREATING, tpmvscmgr/TPMVSCMGR_STATUS_VTPMSMARTCARD_DESTROYING, tpmvscmgr/TPMVSCMGR_STATUS_VTPMSMARTCARD_INITIALIZING
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tpmvscmgr.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Tpmvscmgr.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: Vscmgr.lib
+tech.root: 
+req.typenames: TPMVSCMGR_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	LibDef
+api_location:
+-	Vscmgr.lib
+api_name:
+-	TPMVSCMGR_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # __MIDL___MIDL_itf_tpmvscmgr_0000_0000_0001 enumeration

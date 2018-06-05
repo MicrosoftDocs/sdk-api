@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0002
+title: "__MIDL___MIDL_itf_ads_0001_0048_0002"
+author: windows-sdk-content
+description: Used to specify the type of an access-control entry for Active Directory objects.
+old-location: adsi\ads_acetype_enum.htm
+old-project: ADSI
+ms.assetid: dbdbf163-6c7b-4170-9a09-6ac45d808a79
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ADS_ACETYPE_ACCESS_ALLOWED, ADS_ACETYPE_ACCESS_ALLOWED_CALLBACK, ADS_ACETYPE_ACCESS_ALLOWED_CALLBACK_OBJECT, ADS_ACETYPE_ACCESS_ALLOWED_OBJECT, ADS_ACETYPE_ACCESS_DENIED, ADS_ACETYPE_ACCESS_DENIED_CALLBACK, ADS_ACETYPE_ACCESS_DENIED_CALLBACK_OBJECT, ADS_ACETYPE_ACCESS_DENIED_OBJECT, ADS_ACETYPE_ENUM, ADS_ACETYPE_ENUM enumeration [ADSI], ADS_ACETYPE_SYSTEM_ALARM_CALLBACK, ADS_ACETYPE_SYSTEM_ALARM_CALLBACK_OBJECT, ADS_ACETYPE_SYSTEM_ALARM_OBJECT, ADS_ACETYPE_SYSTEM_AUDIT, ADS_ACETYPE_SYSTEM_AUDIT_CALLBACK, ADS_ACETYPE_SYSTEM_AUDIT_CALLBACK_OBJECT, ADS_ACETYPE_SYSTEM_AUDIT_OBJECT, __MIDL___MIDL_itf_ads_0001_0048_0002, _ds_ads_acetype_enum, adsi.ads__acetype__enum, adsi.ads_acetype_enum, iads/ADS_ACETYPE_ACCESS_ALLOWED, iads/ADS_ACETYPE_ACCESS_ALLOWED_CALLBACK, iads/ADS_ACETYPE_ACCESS_ALLOWED_CALLBACK_OBJECT, iads/ADS_ACETYPE_ACCESS_ALLOWED_OBJECT, iads/ADS_ACETYPE_ACCESS_DENIED, iads/ADS_ACETYPE_ACCESS_DENIED_CALLBACK, iads/ADS_ACETYPE_ACCESS_DENIED_CALLBACK_OBJECT, iads/ADS_ACETYPE_ACCESS_DENIED_OBJECT, iads/ADS_ACETYPE_ENUM, iads/ADS_ACETYPE_SYSTEM_ALARM_CALLBACK, iads/ADS_ACETYPE_SYSTEM_ALARM_CALLBACK_OBJECT, iads/ADS_ACETYPE_SYSTEM_ALARM_OBJECT, iads/ADS_ACETYPE_SYSTEM_AUDIT, iads/ADS_ACETYPE_SYSTEM_AUDIT_CALLBACK, iads/ADS_ACETYPE_SYSTEM_AUDIT_CALLBACK_OBJECT, iads/ADS_ACETYPE_SYSTEM_AUDIT_OBJECT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: IAccess.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADS_ACETYPE_ENUM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Iads.h
+api_name:
+-	ADS_ACETYPE_ENUM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_ads_0001_0048_0002 enumeration

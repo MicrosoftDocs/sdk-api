@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d11shader.ID3D11ShaderReflection.GetGSInputPrimitive
+title: ID3D11ShaderReflection::GetGSInputPrimitive
+author: windows-sdk-content
+description: Gets the geometry-shader input-primitive description.
+old-location: direct3d11\id3d11shaderreflection_getgsinputprimitive.htm
+old-project: direct3d11
+ms.assetid: df34dc7e-e6aa-442d-905e-4ae11b62a781
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 186739b6-e023-0b79-ed38-b3030b56e2ed, GetGSInputPrimitive, GetGSInputPrimitive method [Direct3D 11], GetGSInputPrimitive method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetGSInputPrimitive method, ID3D11ShaderReflection.GetGSInputPrimitive, ID3D11ShaderReflection::GetGSInputPrimitive, d3d11shader/ID3D11ShaderReflection::GetGSInputPrimitive, direct3d11.id3d11shaderreflection_getgsinputprimitive
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d11shader.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_SHADER_VERSION_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3DCompiler_47.dll
+api_name:
+-	ID3D11ShaderReflection.GetGSInputPrimitive
+product: Windows
+targetos: Windows
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 ---
 
 # ID3D11ShaderReflection::GetGSInputPrimitive

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfspatialaudio.IMFSpatialAudioObjectBuffer.GetID
+title: IMFSpatialAudioObjectBuffer::GetID
+author: windows-sdk-content
+description: Returns the unique, unsigned 32-bit ID of the spatial audio object represented by the buffer.
+old-location: mf\imfspatialaudioobjectbuffer_getid.htm
+old-project: medfound
+ms.assetid: 5BB0DEB2-B3B9-4723-973D-A9296D94DDE6
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: GetID, GetID method [Media Foundation], GetID method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetID method, IMFSpatialAudioObjectBuffer.GetID, IMFSpatialAudioObjectBuffer::GetID, mf.imfspatialaudioobjectbuffer_getid, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetID
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfspatialaudio.h
+req.include-header: Mfobjects.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEVICE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfobjects.lib
+-	mfobjects.dll
+api_name:
+-	IMFSpatialAudioObjectBuffer.GetID
+product: Windows
+targetos: Windows
+req.lib: Mfobjects.lib
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFSpatialAudioObjectBuffer::GetID

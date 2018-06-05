@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objidl.IAdviseSink2.OnLinkSrcChange
+title: IAdviseSink2::OnLinkSrcChange
+author: windows-sdk-content
+description: Notifies the container that registered the advise sink that a link source has changed (either name or location), enabling the container to update the link's moniker.
+old-location: com\iadvisesink2_onlinksrcchange.htm
+old-project: com
+ms.assetid: 753ac9a3-0207-4c98-9d86-5ac16be2c5fa
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: IAdviseSink2 interface [COM],OnLinkSrcChange method, IAdviseSink2.OnLinkSrcChange, IAdviseSink2::OnLinkSrcChange, OnLinkSrcChange, OnLinkSrcChange method [COM], OnLinkSrcChange method [COM],IAdviseSink2 interface, _ole_iadvisesink2_onlinksrcchange, com.iadvisesink2_onlinksrcchange, objidl/IAdviseSink2::OnLinkSrcChange
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: objidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ObjIdl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: THDTYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ObjIdl.h
+api_name:
+-	IAdviseSink2.OnLinkSrcChange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAdviseSink2::OnLinkSrcChange

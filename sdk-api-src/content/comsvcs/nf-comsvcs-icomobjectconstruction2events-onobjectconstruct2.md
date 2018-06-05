@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IComObjectConstruction2Events.OnObjectConstruct2
+title: IComObjectConstruction2Events::OnObjectConstruct2
+author: windows-sdk-content
+description: Generated when a constructed object is created.
+old-location: cos\icomobjectconstruction2events_onobjectconstruct2.htm
+old-project: cossdk
+ms.assetid: c71157b3-e5e4-4b20-bab7-7047587a20f1
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IComObjectConstruction2Events interface [COM+],OnObjectConstruct2 method, IComObjectConstruction2Events.OnObjectConstruct2, IComObjectConstruction2Events::OnObjectConstruct2, OnObjectConstruct2, OnObjectConstruct2 method [COM+], OnObjectConstruct2 method [COM+],IComObjectConstruction2Events interface, _dtc_IComObjectConstruction2Events_OnObjectConstruct2, comsvcs/IComObjectConstruction2Events::OnObjectConstruct2, cos.icomobjectconstruction2events_onobjectconstruct2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IComObjectConstruction2Events.OnObjectConstruct2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IComObjectConstruction2Events::OnObjectConstruct2

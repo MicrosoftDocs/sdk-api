@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:dsrole._DSROLE_MACHINE_ROLE
+title: "_DSROLE_MACHINE_ROLE"
+author: windows-sdk-content
+description: Used with the MachineRole member of the DSROLE_PRIMARY_DOMAIN_INFO_BASIC structure to specify the computer role.
+old-location: ad\dsrole_machine_role.htm
+old-project: AD
+ms.assetid: d5255070-71dd-4510-8bec-a84726a241c6
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DSROLE_MACHINE_ROLE, DSROLE_MACHINE_ROLE enumeration [Active Directory], DsRole_RoleBackupDomainController, DsRole_RoleMemberServer, DsRole_RoleMemberWorkstation, DsRole_RolePrimaryDomainController, DsRole_RoleStandaloneServer, DsRole_RoleStandaloneWorkstation, _DSROLE_MACHINE_ROLE, ad.dsrole_machine_role, dsrole/DSROLE_MACHINE_ROLE, dsrole/DsRole_RoleBackupDomainController, dsrole/DsRole_RoleMemberServer, dsrole/DsRole_RoleMemberWorkstation, dsrole/DsRole_RolePrimaryDomainController, dsrole/DsRole_RoleStandaloneServer, dsrole/DsRole_RoleStandaloneWorkstation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dsrole.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DSROLE_MACHINE_ROLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dsrole.h
+api_name:
+-	DSROLE_MACHINE_ROLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _DSROLE_MACHINE_ROLE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:codecapi.eAVAudioChannelConfig
+title: eAVAudioChannelConfig
+author: windows-sdk-content
+description: Specifies the speaker configuration for the audio channels in the audio bit stream. This enumeration is used with the AVAudioChannelConfig property.
+old-location: dshow\eavaudiochannelconfig.htm
+old-project: DirectShow
+ms.assetid: 8835b00b-048b-404a-9ecc-84baeb70df66
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: codecapi/eAVAudioChannelConfig, codecapi/eAVAudioChannelConfig_BACK_CENTER, codecapi/eAVAudioChannelConfig_BACK_LEFT, codecapi/eAVAudioChannelConfig_BACK_RIGHT, codecapi/eAVAudioChannelConfig_FRONT_CENTER, codecapi/eAVAudioChannelConfig_FRONT_LEFT, codecapi/eAVAudioChannelConfig_FRONT_LEFT_OF_CENTER, codecapi/eAVAudioChannelConfig_FRONT_RIGHT, codecapi/eAVAudioChannelConfig_FRONT_RIGHT_OF_CENTER, codecapi/eAVAudioChannelConfig_LOW_FREQUENCY, codecapi/eAVAudioChannelConfig_SIDE_LEFT, codecapi/eAVAudioChannelConfig_SIDE_RIGHT, codecapi/eAVAudioChannelConfig_TOP_BACK_CENTER, codecapi/eAVAudioChannelConfig_TOP_BACK_LEFT, codecapi/eAVAudioChannelConfig_TOP_BACK_RIGHT, codecapi/eAVAudioChannelConfig_TOP_CENTER, codecapi/eAVAudioChannelConfig_TOP_FRONT_CENTER, codecapi/eAVAudioChannelConfig_TOP_FRONT_LEFT, codecapi/eAVAudioChannelConfig_TOP_FRONT_RIGHT, dshow.eavaudiochannelconfig, eAVAudioChannelConfig, eAVAudioChannelConfig enumeration [DirectShow], eAVAudioChannelConfigEnumeration, eAVAudioChannelConfig_BACK_CENTER, eAVAudioChannelConfig_BACK_LEFT, eAVAudioChannelConfig_BACK_RIGHT, eAVAudioChannelConfig_FRONT_CENTER, eAVAudioChannelConfig_FRONT_LEFT, eAVAudioChannelConfig_FRONT_LEFT_OF_CENTER, eAVAudioChannelConfig_FRONT_RIGHT, eAVAudioChannelConfig_FRONT_RIGHT_OF_CENTER, eAVAudioChannelConfig_LOW_FREQUENCY, eAVAudioChannelConfig_SIDE_LEFT, eAVAudioChannelConfig_SIDE_RIGHT, eAVAudioChannelConfig_TOP_BACK_CENTER, eAVAudioChannelConfig_TOP_BACK_LEFT, eAVAudioChannelConfig_TOP_BACK_RIGHT, eAVAudioChannelConfig_TOP_CENTER, eAVAudioChannelConfig_TOP_FRONT_CENTER, eAVAudioChannelConfig_TOP_FRONT_LEFT, eAVAudioChannelConfig_TOP_FRONT_RIGHT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: codecapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	codecapi.h
+api_name:
+-	eAVAudioChannelConfig
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # eAVAudioChannelConfig enumeration

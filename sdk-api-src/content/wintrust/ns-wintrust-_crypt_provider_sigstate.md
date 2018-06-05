@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wintrust._CRYPT_PROVIDER_SIGSTATE
+title: "_CRYPT_PROVIDER_SIGSTATE"
+author: windows-sdk-content
+description: Is used to communicate between policy providers and Wintrust.
+old-location: security\crypt_provider_sigstate.htm
+old-project: SecCrypto
+ms.assetid: B362A161-6B92-41B0-AE81-337EB42502D8
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCRYPT_PROVIDER_SIGSTATE, CRYPT_PROVIDER_SIGSTATE, CRYPT_PROVIDER_SIGSTATE structure [Security], PCRYPT_PROVIDER_SIGSTATE, PCRYPT_PROVIDER_SIGSTATE structure pointer [Security], _CRYPT_PROVIDER_SIGSTATE, security.crypt_provider_sigstate, wintrust/CRYPT_PROVIDER_SIGSTATE, wintrust/PCRYPT_PROVIDER_SIGSTATE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wintrust.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_PROVIDER_SIGSTATE, *PCRYPT_PROVIDER_SIGSTATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wintrust.h
+api_name:
+-	CRYPT_PROVIDER_SIGSTATE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _CRYPT_PROVIDER_SIGSTATE structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl._HD_LAYOUT
+title: "_HD_LAYOUT"
+author: windows-sdk-content
+description: Contains information used to set the size and position of a header control. HDLAYOUT is used with the HDM_LAYOUT message. This structure supersedes the HD_LAYOUT structure.
+old-location: controls\HDLAYOUT.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\header\structures\hdlayout.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPHDLAYOUT, HDLAYOUT, HDLAYOUT structure [Windows Controls], LPHDLAYOUT, LPHDLAYOUT structure pointer [Windows Controls], _HD_LAYOUT, _win32_HDLAYOUT, _win32_HDLAYOUT_cpp, commctrl/HDLAYOUT, commctrl/LPHDLAYOUT, controls.HDLAYOUT, controls._win32_HDLAYOUT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: HDLAYOUT, *LPHDLAYOUT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	HDLAYOUT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _HD_LAYOUT structure

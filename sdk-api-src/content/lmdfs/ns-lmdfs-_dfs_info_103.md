@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmdfs._DFS_INFO_103
+title: "_DFS_INFO_103"
+author: windows-sdk-content
+description: Contains properties that set specific behaviors for a DFS root or link.
+old-location: dfs\dfs_info_103.htm
+old-project: Dfs
+ms.assetid: d3d31087-770e-4434-8ee0-6183102a9a6b
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDFS_INFO_103, *PDFS_INFO_103, DFS_INFO_103, DFS_INFO_103 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, LPDFS_INFO_103, LPDFS_INFO_103 structure pointer [Distributed File System], PDFS_INFO_103, PDFS_INFO_103 structure pointer [Distributed File System], _DFS_INFO_103, dfs.dfs_info_103, fs.dfs_info_103, lmdfs/DFS_INFO_103, lmdfs/LPDFS_INFO_103, lmdfs/PDFS_INFO_103, netmgmt.dfs_info_103"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmdfs.h
+req.include-header: LmDfs.h, Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008, Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DFS_INFO_103, *PDFS_INFO_103, *LPDFS_INFO_103
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	LmDfs.h
+api_name:
+-	DFS_INFO_103
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _DFS_INFO_103 structure

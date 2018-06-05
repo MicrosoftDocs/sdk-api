@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl.MARK_HANDLE_INFO
+title: MARK_HANDLE_INFO
+author: windows-sdk-content
+description: Contains information that is used to mark a specified file or directory, and its update sequence number (USN) change journal record with data about changes.
+old-location: fs\mark_handle_info_str.htm
+old-project: FileIO
+ms.assetid: 6f736b31-279d-4118-a5e3-ad3c2bea2250
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PMARK_HANDLE_INFO, MARK_HANDLE_INFO, MARK_HANDLE_INFO structure [Files], MARK_HANDLE_NOT_READ_COPY, MARK_HANDLE_NOT_REALTIME, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, MARK_HANDLE_PROTECT_CLUSTERS, MARK_HANDLE_READ_COPY, MARK_HANDLE_REALTIME, MARK_HANDLE_TXF_SYSTEM_LOG, PMARK_HANDLE_INFO, PMARK_HANDLE_INFO structure pointer [Files], USN_SOURCE_AUXILIARY_DATA, USN_SOURCE_DATA_MANAGEMENT, USN_SOURCE_REPLICATION_MANAGEMENT, _win32_mark_handle_info_str, base.mark_handle_info_str, fs.mark_handle_info_str, winioctl/MARK_HANDLE_INFO, winioctl/PMARK_HANDLE_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MARK_HANDLE_INFO, *PMARK_HANDLE_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	MARK_HANDLE_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # MARK_HANDLE_INFO structure

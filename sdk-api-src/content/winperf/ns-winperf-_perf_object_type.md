@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winperf._PERF_OBJECT_TYPE
+title: "_PERF_OBJECT_TYPE"
+author: windows-sdk-content
+description: Describes object-specific performance information, for example, the number of instances of the object and the number of counters that the object defines.
+old-location: perf\perf_object_type_str.htm
+old-project: PerfCtrs
+ms.assetid: 9ed4f890-6256-45fd-a310-b5963a6131ae
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: "*PPERF_OBJECT_TYPE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PERF_OBJECT_TYPE, PERF_OBJECT_TYPE structure [Perf], _PERF_OBJECT_TYPE, _win32_perf_object_type_str, base.perf_object_type_str, perf.perf_object_type_str, winperf/PERF_OBJECT_TYPE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winperf.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winperf.h
+api_name:
+-	PERF_OBJECT_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # _PERF_OBJECT_TYPE structure

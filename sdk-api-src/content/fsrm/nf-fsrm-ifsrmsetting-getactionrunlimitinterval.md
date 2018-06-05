@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrm.IFsrmSetting.GetActionRunLimitInterval
+title: IFsrmSetting::GetActionRunLimitInterval
+author: windows-sdk-content
+description: Gets the time that an action that uses the global run limit interval must wait before the action is run again.
+old-location: fsrm\ifsrmsetting_getactionrunlimitinterval.htm
+old-project: Fsrm
+ms.assetid: cbcd5532-4077-4a5c-94d4-e1fb636e6dda
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmSetting class [File Server Resource Manager],GetActionRunLimitInterval method, GetActionRunLimitInterval, GetActionRunLimitInterval method [File Server Resource Manager], GetActionRunLimitInterval method [File Server Resource Manager],FsrmSetting class, GetActionRunLimitInterval method [File Server Resource Manager],IFsrmSetting interface, IFsrmSetting interface [File Server Resource Manager],GetActionRunLimitInterval method, IFsrmSetting.GetActionRunLimitInterval, IFsrmSetting::GetActionRunLimitInterval, fs.ifsrmsetting_getactionrunlimitinterval, fsrm.ifsrmsetting_getactionrunlimitinterval, fsrm/IFsrmSetting::GetActionRunLimitInterval
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrm.h
+req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILTERED_DATA_SOURCES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmSetting.GetActionRunLimitInterval
+-	FsrmSetting.GetActionRunLimitInterval
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmSetting::GetActionRunLimitInterval

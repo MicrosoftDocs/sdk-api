@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:strmif.tagDVD_PREFERRED_DISPLAY_MODE
+title: tagDVD_PREFERRED_DISPLAY_MODE
+author: windows-sdk-content
+description: Indicates the user's preferred window aspect ratio and conversion method.
+old-location: dshow\dvd_preferred_display_mode.htm
+old-project: DirectShow
+ms.assetid: afb235ae-ba60-491f-8b88-7fe824f00f77
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DISPLAY_16x9, DISPLAY_4x3_LETTERBOX_PREFERRED, DISPLAY_4x3_PANSCAN_PREFERRED, DISPLAY_CONTENT_DEFAULT, DVD_PREFERRED_DISPLAY_MODE, DVD_PREFERRED_DISPLAY_MODE , DVD_PREFERRED_DISPLAY_MODE enumeration [DirectShow], DVD_PREFERRED_DISPLAY_MODEEnumeration, dshow.dvd_preferred_display_mode, strmif/DISPLAY_16x9, strmif/DISPLAY_4x3_LETTERBOX_PREFERRED, strmif/DISPLAY_4x3_PANSCAN_PREFERRED, strmif/DISPLAY_CONTENT_DEFAULT, strmif/DVD_PREFERRED_DISPLAY_MODE, tagDVD_PREFERRED_DISPLAY_MODE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DVD_PREFERRED_DISPLAY_MODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	strmif.h
+api_name:
+-	DVD_PREFERRED_DISPLAY_MODE
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # tagDVD_PREFERRED_DISPLAY_MODE enumeration

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NI:ntddkbd.IOCTL_KEYBOARD_SET_TYPEMATIC
+title: IOCTL_KEYBOARD_SET_TYPEMATIC
+author: windows-sdk-content
+description: The IOCTL_KEYBOARD_SET_TYPEMATIC request sets the typematic parameters.
+old-location: hid\ioctl_keyboard_set_typematic.htm
+old-project: hid
+ms.assetid: 27c538dd-19e2-4b5a-9605-0efb0f78e008
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: IOCTL_KEYBOARD_SET_TYPEMATIC, IOCTL_KEYBOARD_SET_TYPEMATIC control, IOCTL_KEYBOARD_SET_TYPEMATIC control code [Human Input Devices], hid.ioctl_keyboard_set_typematic, kref_1ef2189f-4cae-4a7d-b91d-9725a6ea6cba.xml, ntddkbd/IOCTL_KEYBOARD_SET_TYPEMATIC
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: ioctl
+req.header: ntddkbd.h
+req.include-header: Ntddkbd.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: SERVICE_TYPE_VALUE_ABSW (Unicode) and SERVICE_TYPE_VALUE_ABSA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SERVICE_TYPE_VALUE_ABSW, *PSERVICE_TYPE_VALUE_ABSW, *LPSERVICE_TYPE_VALUE_ABSW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ntddkbd.h
+api_name:
+-	IOCTL_KEYBOARD_SET_TYPEMATIC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOCTL_KEYBOARD_SET_TYPEMATIC IOCTL

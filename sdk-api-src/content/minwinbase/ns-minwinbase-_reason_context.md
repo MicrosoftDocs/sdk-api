@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:minwinbase._REASON_CONTEXT
+title: "_REASON_CONTEXT"
+author: windows-sdk-content
+description: Contains information about a power request. This structure is used by the PowerCreateRequest and SetWaitableTimerEx functions.
+old-location: base\reason_context.htm
+old-project: Power
+ms.assetid: 006bb84f-5e51-4f6e-8a44-6b50e763c5ca
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PREASON_CONTEXT, POWER_REQUEST_CONTEXT_DETAILED_STRING, POWER_REQUEST_CONTEXT_SIMPLE_STRING, PREASON_CONTEXT, PREASON_CONTEXT structure pointer, REASON_CONTEXT, REASON_CONTEXT structure, _REASON_CONTEXT, base.reason_context, minwinbase/PREASON_CONTEXT, minwinbase/REASON_CONTEXT, winbase/PREASON_CONTEXT, winbase/REASON_CONTEXT"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: minwinbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: REASON_CONTEXT, *PREASON_CONTEXT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	MinWinBase.h
+-	WinBase.h
+api_name:
+-	REASON_CONTEXT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _REASON_CONTEXT structure

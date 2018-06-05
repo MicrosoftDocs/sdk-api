@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d11.D3D11_BLEND_OP
+title: D3D11_BLEND_OP
+author: windows-sdk-content
+description: RGB or alpha blending operation.
+old-location: direct3d11\d3d11_blend_op.htm
+old-project: direct3d11
+ms.assetid: e0a201da-0d5d-4a85-a0cb-fddd9bd2f460
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 2c289d70-b751-5cb8-a8b5-4db1d10f3c9d, D3D11_BLEND_OP, D3D11_BLEND_OP enumeration [Direct3D 11], D3D11_BLEND_OP_ADD, D3D11_BLEND_OP_MAX, D3D11_BLEND_OP_MIN, D3D11_BLEND_OP_REV_SUBTRACT, D3D11_BLEND_OP_SUBTRACT, d3d11/D3D11_BLEND_OP, d3d11/D3D11_BLEND_OP_ADD, d3d11/D3D11_BLEND_OP_MAX, d3d11/D3D11_BLEND_OP_MIN, d3d11/D3D11_BLEND_OP_REV_SUBTRACT, d3d11/D3D11_BLEND_OP_SUBTRACT, direct3d11.d3d11_blend_op
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_BLEND_OP
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	D3D11_BLEND_OP
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_BLEND_OP enumeration

@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ctfutb.ITfLangBarItemButton.InitMenu
+title: ITfLangBarItemButton::InitMenu
+author: windows-sdk-content
+description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_MENU style.
+old-location: tsf\itflangbaritembutton_initmenu.htm
+old-project: TSF
+ms.assetid: 6f9debf8-1c25-4228-abd2-2b2a099cf5cd
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: ITfLangBarItemButton interface [Text Services Framework],InitMenu method, ITfLangBarItemButton.InitMenu, ITfLangBarItemButton::InitMenu, InitMenu, InitMenu method [Text Services Framework], InitMenu method [Text Services Framework],ITfLangBarItemButton interface, _tsf_itflangbaritembutton_initmenu_ref, ctfutb/ITfLangBarItemButton::InitMenu, tsf.itflangbaritembutton_initmenu
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ctfutb.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Ctfutb.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TfLBIClick
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	msctf.dll
+api_name:
+-	ITfLangBarItemButton.InitMenu
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 ---
 
 # ITfLangBarItemButton::InitMenu

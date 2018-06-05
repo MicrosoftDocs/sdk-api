@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:directxpackedvector.XMLoadFloat3SE
+title: XMLoadFloat3SE function
+author: windows-sdk-content
+description: Loads an XMFLOAT3SE into an XMVECTOR.
+old-location: dxmath\xmloadfloat3se.htm
+old-project: dxmath
+ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat3SE(const XMFLOAT3SE)
+ms.author: windowssdkdev
+ms.date: 04/23/2018
+ms.keywords: DirectX::PackedVector.XMLoadFloat3SE, XMLoadFloat3SE, XMLoadFloat3SE method [DirectX Math Support APIs], dxmath.xmloadfloat3se
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: directxpackedvector.h
+req.include-header: DirectXPackedVector.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -23,9 +23,25 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: 
+req.namespace: DirectX::PackedVector
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	directxpackedvector.inl
+api_name:
+-	XMLoadFloat3SE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # XMLoadFloat3SE function

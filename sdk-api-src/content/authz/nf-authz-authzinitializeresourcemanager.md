@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:authz.AuthzInitializeResourceManager
+title: AuthzInitializeResourceManager function
+author: windows-sdk-content
+description: Uses Authz to verify that clients have access to various resources.
+old-location: security\authzinitializeresourcemanager.htm
+old-project: SecAuthZ
+ms.assetid: e3f6b37d-2c33-4b17-97b4-762bf55561c5
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRALIZED_ACCESS_POLICIES, AuthzInitializeResourceManager, AuthzInitializeResourceManager function [Security], _win32_authzinitializeresourcemanager, authz/AuthzInitializeResourceManager, security.authzinitializeresourcemanager
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: authz.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AUTHZ_CONTEXT_INFORMATION_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Authz.dll
+-	Ext-MS-Win-authz-context-l1-1-0.dll
+api_name:
+-	AuthzInitializeResourceManager
+product: Windows
+targetos: Windows
+req.lib: Authz.lib
+req.dll: Authz.dll
+req.irql: 
 ---
 
 # AuthzInitializeResourceManager function

@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comadmin.ICOMAdminCatalog2.IsSafeToDelete
+title: ICOMAdminCatalog2::IsSafeToDelete
+author: windows-sdk-content
+description: Determines whether the specified DLL is in use by the COM+ catalog or the registry.
+old-location: cos\icomadmincatalog2_issafetodelete.htm
+old-project: cossdk
+ms.assetid: 293644a2-e400-47fc-803d-cf86ba97eb7d
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: COMAdminInUseByCatalog, COMAdminInUseByRegistryClsid, COMAdminInUseByRegistryProxyStub, COMAdminInUseByRegistryTypeLib, COMAdminInUseByRegistryUnknown, COMAdminNotInUse, ICOMAdminCatalog2 interface [COM+],IsSafeToDelete method, ICOMAdminCatalog2.IsSafeToDelete, ICOMAdminCatalog2::IsSafeToDelete, IsSafeToDelete, IsSafeToDelete method [COM+], IsSafeToDelete method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_IsSafeToDelete, comadmin/ICOMAdminCatalog2::IsSafeToDelete, cos.icomadmincatalog2_issafetodelete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: ComAdmin.Idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMAdminTxIsolationLevelOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComAdmin.h
+api_name:
+-	ICOMAdminCatalog2.IsSafeToDelete
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ICOMAdminCatalog2::IsSafeToDelete

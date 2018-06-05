@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mbnapi.IMbnDeviceServicesEvents.OnSetCommandComplete
+title: IMbnDeviceServicesEvents::OnSetCommandComplete
+author: windows-sdk-content
+description: Notification method indicating that a device service SET request has completed.
+old-location: mbn\imbndeviceservicesevents_onsetcommandcomplete.htm
+old-project: mbn
+ms.assetid: A388F548-453B-4DAB-8AD8-ABC26B22F20E
+ms.author: windowssdkdev
+ms.date: 03/14/2018
+ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnSetCommandComplete method, IMbnDeviceServicesEvents.OnSetCommandComplete, IMbnDeviceServicesEvents::OnSetCommandComplete, OnSetCommandComplete, OnSetCommandComplete method [Microsoft Broadband Networks], OnSetCommandComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onsetcommandcomplete, mbnapi/IMbnDeviceServicesEvents::OnSetCommandComplete
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mbnapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mbnapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MBN_VOICE_CLASS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mbnapi.h
+api_name:
+-	IMbnDeviceServicesEvents.OnSetCommandComplete
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMbnDeviceServicesEvents::OnSetCommandComplete

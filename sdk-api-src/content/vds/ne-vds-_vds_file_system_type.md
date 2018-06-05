@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:vds._VDS_FILE_SYSTEM_TYPE
+title: "_VDS_FILE_SYSTEM_TYPE"
+author: windows-sdk-content
+description: Defines the set of valid types for a file system.
+old-location: base\vds_file_system_type.htm
+old-project: VDS
+ms.assetid: 56f2d969-eb1c-44c2-8a12-077a02ae40dc
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_FILE_SYSTEM_TYPE, VDS_FILE_SYSTEM_TYPE enumeration [VDS], VDS_FST_CDFS, VDS_FST_EXFAT, VDS_FST_FAT, VDS_FST_FAT32, VDS_FST_NTFS, VDS_FST_RAW, VDS_FST_UDF, VDS_FST_UNKNOWN, _VDS_FILE_SYSTEM_TYPE, base.vds_file_system_type, vds/VDS_FILE_SYSTEM_TYPE, vds/VDS_FST_CDFS, vds/VDS_FST_EXFAT, vds/VDS_FST_FAT, vds/VDS_FST_FAT32, vds/VDS_FST_NTFS, vds/VDS_FST_RAW, vds/VDS_FST_UDF, vds/VDS_FST_UNKNOWN, vdshwprv/VDS_FILE_SYSTEM_TYPE, vdshwprv/VDS_FST_CDFS, vdshwprv/VDS_FST_EXFAT, vdshwprv/VDS_FST_FAT, vdshwprv/VDS_FST_FAT32, vdshwprv/VDS_FST_NTFS, vdshwprv/VDS_FST_RAW, vdshwprv/VDS_FST_UDF, vdshwprv/VDS_FST_UNKNOWN
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_FILE_SYSTEM_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_FILE_SYSTEM_TYPE
+product: Windows
+targetos: Windows
+req.lib: VdmDbg.lib
+req.dll: VdmDbg.dll
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_FILE_SYSTEM_TYPE enumeration

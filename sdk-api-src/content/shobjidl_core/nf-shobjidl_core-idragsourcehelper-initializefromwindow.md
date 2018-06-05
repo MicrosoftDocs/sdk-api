@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shobjidl_core.IDragSourceHelper.InitializeFromWindow
+title: IDragSourceHelper::InitializeFromWindow
+author: windows-sdk-content
+description: Initializes the drag-image manager for a control with a window.
+old-location: shell\IDragSourceHelper_InitializeFromWindow.htm
+old-project: shell
+ms.assetid: 0bcdfe92-cec0-44f3-a345-5b560d52fae9
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: IDragSourceHelper interface [Windows Shell],InitializeFromWindow method, IDragSourceHelper.InitializeFromWindow, IDragSourceHelper::InitializeFromWindow, InitializeFromWindow, InitializeFromWindow method [Windows Shell], InitializeFromWindow method [Windows Shell],IDragSourceHelper interface, _win32_IDragSourceHelper_InitializeFromWindow, shell.IDragSourceHelper_InitializeFromWindow, shobjidl_core/IDragSourceHelper::InitializeFromWindow
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	IDragSourceHelper.InitializeFromWindow
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IDragSourceHelper::InitializeFromWindow

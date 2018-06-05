@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d2d1_1helper.Matrix4x4F.operator
+title: Matrix4x4F::operator
+author: windows-sdk-content
+description: Multiplies this matrix with the specified matrix and returns the result.
+old-location: direct2d\matrix4x4f_operator_.htm
+old-project: Direct2D
+ms.assetid: 2ED3EF0A-84B9-4BE9-825B-EA55DE2BAF47
+ms.author: windowssdkdev
+ms.date: 04/20/2018
+ms.keywords: Matrix4x4F interface [Direct2D],operator* method, Matrix4x4F.operator, Matrix4x4F.operator*, Matrix4x4F::operator, Matrix4x4F::operator*, d2d1_1helper/Matrix4x4F::operator*, direct2d.matrix4x4f_operator_, operator*, operator* method [Direct2D], operator* method [Direct2D],Matrix4x4F interface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d2d1_1helper.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D2D1_STROKE_STYLE_PROPERTIES1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d2d1_1helper.h
+api_name:
+-	Matrix4x4F.operator*
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # Matrix4x4F::operator

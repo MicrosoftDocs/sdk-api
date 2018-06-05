@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:workspaceruntime.IWorkspaceScriptable3.StartWorkspaceEx2
+title: IWorkspaceScriptable3::StartWorkspaceEx2
+author: windows-sdk-content
+description: Not implemented.
+old-location: termserv\iworkspacescriptable3_startworkspaceex2.htm
+old-project: TermServ
+ms.assetid: 819eb47e-f697-4b34-a91f-44aa95cf116a
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IWorkspaceScriptable3 interface [Remote Desktop Services],StartWorkspaceEx2 method, IWorkspaceScriptable3.StartWorkspaceEx2, IWorkspaceScriptable3::StartWorkspaceEx2, StartWorkspaceEx2, StartWorkspaceEx2 method [Remote Desktop Services], StartWorkspaceEx2 method [Remote Desktop Services],IWorkspaceScriptable3 interface, StartWorkspaceEx2 method [Remote Desktop Services],Workspace object, WKS_FLAG_CLEAR_CREDS_ON_LAST_RESOURCE, WKS_FLAG_CREDS_AUTHENTICATED, WKS_FLAG_PASSWORD_ENCRYPTED, Workspace object [Remote Desktop Services],StartWorkspaceEx2 method, termserv.iworkspacescriptable3_startworkspaceex2, workspaceruntime/IWorkspaceScriptable3::StartWorkspaceEx2
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: workspaceruntime.h
+req.include-header: Workspaceruntime.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WorkspaceRuntime.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: 
+req.type-library: WkspRt.exe
+tech.root: 
+req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+topic_type:
+-	kbSyntax
+api_type:
+-	<TBD>
+api_location:
+-
+api_name:
+-	IWorkspaceScriptable3::StartWorkspaceEx2
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWorkspaceScriptable3::StartWorkspaceEx2

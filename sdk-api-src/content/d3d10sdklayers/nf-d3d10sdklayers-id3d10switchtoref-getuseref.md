@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3d10sdklayers.ID3D10SwitchToRef.GetUseRef
+title: ID3D10SwitchToRef::GetUseRef
+author: windows-sdk-content
+description: Get a boolean value that indicates the type of device being used.
+old-location: direct3d10\id3d10switchtoref_getuseref.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10switchtoref_getuseref.htm
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: 7b8a132d-2a68-b9bc-338e-0378d33147cd, GetUseRef, GetUseRef method [Direct3D 10], GetUseRef method [Direct3D 10],ID3D10SwitchToRef interface, ID3D10SwitchToRef interface [Direct3D 10],GetUseRef method, ID3D10SwitchToRef.GetUseRef, ID3D10SwitchToRef::GetUseRef, d3d10sdklayers/ID3D10SwitchToRef::GetUseRef, direct3d10.id3d10switchtoref_getuseref
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3d10sdklayers.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D10_MESSAGE_SEVERITY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	D3D10SDKLayers.h
+api_name:
+-	ID3D10SwitchToRef.GetUseRef
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # ID3D10SwitchToRef::GetUseRef

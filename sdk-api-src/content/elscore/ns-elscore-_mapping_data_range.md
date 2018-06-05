@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:elscore._MAPPING_DATA_RANGE
+title: "_MAPPING_DATA_RANGE"
+author: windows-sdk-content
+description: Contains text recognition results for a recognized text subrange. An array of structures of this type is retrieved by an Extended Linguistic Services (ELS) service in a MAPPING_PROPERTY_BAG structure.
+old-location: intl\mappingdatarange.htm
+old-project: Intl
+ms.assetid: adff7901-1903-45dd-888f-1b8c5bb05de1
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*PMAPPING_DATA_RANGE, MAPPING_DATA_RANGE, MAPPING_DATA_RANGE structure [Internationalization for Windows Applications], PMAPPING_DATA_RANGE, PMAPPING_DATA_RANGE structure pointer [Internationalization for Windows Applications], _MAPPING_DATA_RANGE, elscore/MAPPING_DATA_RANGE, elscore/PMAPPING_DATA_RANGE, intl.mappingdatarange"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: elscore.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MAPPING_DATA_RANGE, *PMAPPING_DATA_RANGE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Elscore.h
+api_name:
+-	MAPPING_DATA_RANGE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _MAPPING_DATA_RANGE structure

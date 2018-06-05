@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winbase.GetProcessIoCounters
+title: GetProcessIoCounters function
+author: windows-sdk-content
+description: Retrieves accounting information for all I/O operations performed by the specified process.
+old-location: base\getprocessiocounters.htm
+old-project: ProcThread
+ms.assetid: e6973c1b-86bc-4fd1-aff6-26e87f8013c4
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: GetProcessIoCounters, GetProcessIoCounters function, _win32_getprocessiocounters, base.getprocessiocounters, winbase/GetProcessIoCounters
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Kernel32.dll
+-	API-MS-Win-Core-processtopology-Obsolete-l1-1-0.dll
+-	kernel32legacy.dll
+-	API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+-	API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
+api_name:
+-	GetProcessIoCounters
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # GetProcessIoCounters function

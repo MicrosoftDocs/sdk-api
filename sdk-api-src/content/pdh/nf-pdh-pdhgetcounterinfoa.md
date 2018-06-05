@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pdh.PdhGetCounterInfoA
+title: PdhGetCounterInfoA function
+author: windows-sdk-content
+description: Retrieves information about a counter, such as data size, counter type, path, and user-supplied data values.
+old-location: perf\pdhgetcounterinfo.htm
+old-project: PerfCtrs
+ms.assetid: 12e1a194-5418-4c2a-9853-ef2d2c666893
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: PdhGetCounterInfo, PdhGetCounterInfo function [Perf], PdhGetCounterInfoA, PdhGetCounterInfoW, _win32_pdhgetcounterinfo, base.pdhgetcounterinfo, pdh/PdhGetCounterInfo, pdh/PdhGetCounterInfoA, pdh/PdhGetCounterInfoW, perf.pdhgetcounterinfo
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: pdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PdhGetCounterInfoW (Unicode) and PdhGetCounterInfoA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Pdh.dll
+api_name:
+-	PdhGetCounterInfo
+-	PdhGetCounterInfoA
+-	PdhGetCounterInfoW
+product: Windows
+targetos: Windows
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PdhGetCounterInfoA function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:cryptxml.CRYPT_XML_KEYINFO_SPEC
+title: CRYPT_XML_KEYINFO_SPEC
+author: windows-sdk-content
+description: Specifies values for the dwKeyInfoSpec parameter in the CryptXmlSign function.
+old-location: security\crypt_xml_keyinfo_spec.htm
+old-project: SecCrypto
+ms.assetid: 83467875-1ccf-4c02-9b0a-6faf7305950e
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CRYPT_XML_KEYINFO_SPEC, CRYPT_XML_KEYINFO_SPEC enumeration [Security], CRYPT_XML_KEYINFO_SPEC_ENCODED, CRYPT_XML_KEYINFO_SPEC_NONE, CRYPT_XML_KEYINFO_SPEC_PARAM, cryptxml/CRYPT_XML_KEYINFO_SPEC, cryptxml/CRYPT_XML_KEYINFO_SPEC_ENCODED, cryptxml/CRYPT_XML_KEYINFO_SPEC_NONE, cryptxml/CRYPT_XML_KEYINFO_SPEC_PARAM, security.crypt_xml_keyinfo_spec
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: cryptxml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_XML_KEYINFO_SPEC
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Cryptxml.h
+api_name:
+-	CRYPT_XML_KEYINFO_SPEC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # CRYPT_XML_KEYINFO_SPEC enumeration

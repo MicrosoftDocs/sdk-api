@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wincred._CRED_MARSHAL_TYPE
+title: "_CRED_MARSHAL_TYPE"
+author: windows-sdk-content
+description: Specifies the types of credential to be marshaled by CredMarshalCredential or unmarshaled by CredUnmarshalCredential.
+old-location: security\cred_marshal_type.htm
+old-project: SecAuthN
+ms.assetid: 612fdd6f-2b4c-4f41-a00b-250f90eb85d3
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PCRED_MARSHAL_TYPE, CRED_MARSHAL_TYPE, CRED_MARSHAL_TYPE enumeration [Security], CertCredential, PCRED_MARSHAL_TYPE, PCRED_MARSHAL_TYPE enumeration pointer [Security], UsernameTargetCredential, _CRED_MARSHAL_TYPE, _cred_cred_marshal_type, security.cred_marshal_type, wincred/CRED_MARSHAL_TYPE, wincred/CertCredential, wincred/PCRED_MARSHAL_TYPE, wincred/UsernameTargetCredential"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wincred.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Wincodecsdk.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRED_MARSHAL_TYPE, *PCRED_MARSHAL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinCred.h
+api_name:
+-	CRED_MARSHAL_TYPE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CRED_MARSHAL_TYPE enumeration

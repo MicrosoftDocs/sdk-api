@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:d3dcsx.ID3DX11Scan.Multiscan
+title: ID3DX11Scan::Multiscan
+author: windows-sdk-content
+description: Performs a multiscan of a sequence.
+old-location: direct3d11\id3dx11scan_multiscan.htm
+old-project: direct3d11
+ms.assetid: 5b6c637b-747d-465c-8915-dba13725ee0b
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: 370f6a70-577e-dd58-afb3-50bba688da70, ID3DX11Scan interface [Direct3D 11],Multiscan method, ID3DX11Scan.Multiscan, ID3DX11Scan::Multiscan, Multiscan, Multiscan method [Direct3D 11], Multiscan method [Direct3D 11],ID3DX11Scan interface, d3dcsx/ID3DX11Scan::Multiscan, direct3d11.id3dx11scan_multiscan
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d3dcsx.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3DX11_SCAN_OPCODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	d3dcsx.lib
+-	d3dcsx.dll
+api_name:
+-	ID3DX11Scan.Multiscan
+product: Windows
+targetos: Windows
+req.lib: D3dcsx.lib
+req.dll: 
+req.irql: 
 ---
 
 # ID3DX11Scan::Multiscan

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmalert._STD_ALERT
+title: "_STD_ALERT"
+author: windows-sdk-content
+description: The STD_ALERT structure contains the time and date when a significant event occurred.
+old-location: netmgmt\std_alert_str.htm
+old-project: NetMgmt
+ms.assetid: daa4594f-e59e-4f05-8183-677bee4ea446
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*LPSTD_ALERT, *PSTD_ALERT, ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, LPSTD_ALERT, LPSTD_ALERT structure pointer [Network Management], PSTD_ALERT, PSTD_ALERT structure pointer [Network Management], STD_ALERT, STD_ALERT structure [Network Management], _STD_ALERT, _win32_std_alert_str, lmalert/LPSTD_ALERT, lmalert/PSTD_ALERT, lmalert/STD_ALERT, netmgmt.std_alert_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmalert.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STD_ALERT, *PSTD_ALERT, *LPSTD_ALERT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmalert.h
+api_name:
+-	STD_ALERT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _STD_ALERT structure

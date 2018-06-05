@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.ADDRESS_CAPABILITY_STRING
+title: ADDRESS_CAPABILITY_STRING
+author: windows-sdk-content
+description: The ADDRESS_CAPABILITY_STRING enum is used to check on address capabilities which are described by strings.
+old-location: tapi3\address_capability_string.htm
+old-project: Tapi
+ms.assetid: c0afe710-ae6d-4f32-a691-956f8d6fea05
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ACS_ADDRESSDEVICESPECIFIC, ACS_LINEDEVICESPECIFIC, ACS_PERMANENTDEVICEGUID, ACS_PROTOCOL, ACS_PROVIDERSPECIFIC, ACS_SWITCHSPECIFIC, ADDRESS_CAPABILITY_STRING, ADDRESS_CAPABILITY_STRING enumeration [TAPI 2.2], _tapi3_address_capability_string, tapi3.address_capability_string, tapi3if/ACS_ADDRESSDEVICESPECIFIC, tapi3if/ACS_LINEDEVICESPECIFIC, tapi3if/ACS_PERMANENTDEVICEGUID, tapi3if/ACS_PROTOCOL, tapi3if/ACS_PROVIDERSPECIFIC, tapi3if/ACS_SWITCHSPECIFIC, tapi3if/ADDRESS_CAPABILITY_STRING
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ADDRESS_CAPABILITY_STRING
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	ADDRESS_CAPABILITY_STRING
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # ADDRESS_CAPABILITY_STRING enumeration

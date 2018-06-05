@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:commctrl.tagNMTBHOTITEM
+title: tagNMTBHOTITEM
+author: windows-sdk-content
+description: Contains information used with the TBN_HOTITEMCHANGE notification code.
+old-location: controls\NMTBHOTITEM.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbhotitem.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*LPNMTBHOTITEM, HICF_ACCELERATOR, HICF_ARROWKEYS, HICF_DUPACCEL, HICF_ENTERING, HICF_LEAVING, HICF_LMOUSE, HICF_MOUSE, HICF_OTHER, HICF_RESELECT, HICF_TOGGLEDROPDOWN, LPNMTBHOTITEM, LPNMTBHOTITEM structure pointer [Windows Controls], NMTBHOTITEM, NMTBHOTITEM structure [Windows Controls], _win32_NMTBHOTITEM, _win32_NMTBHOTITEM_cpp, commctrl/LPNMTBHOTITEM, commctrl/NMTBHOTITEM, controls.NMTBHOTITEM, controls._win32_NMTBHOTITEM, tagNMTBHOTITEM"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NMTBHOTITEM, *LPNMTBHOTITEM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Commctrl.h
+api_name:
+-	NMTBHOTITEM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # tagNMTBHOTITEM structure

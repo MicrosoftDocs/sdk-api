@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:accctrl._SE_OBJECT_TYPE
+title: "_SE_OBJECT_TYPE"
+author: windows-sdk-content
+description: Contains values that correspond to the types of Windows objects that support security.
+old-location: security\se_object_type.htm
+old-project: SecAuthZ
+ms.assetid: 1dee5e3d-0d41-4717-811b-7e05b4deb55f
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: SE_DS_OBJECT, SE_DS_OBJECT_ALL, SE_FILE_OBJECT, SE_KERNEL_OBJECT, SE_LMSHARE, SE_OBJECT_TYPE, SE_OBJECT_TYPE enumeration [Security], SE_PRINTER, SE_PROVIDER_DEFINED_OBJECT, SE_REGISTRY_KEY, SE_REGISTRY_WOW64_32KEY, SE_SERVICE, SE_UNKNOWN_OBJECT_TYPE, SE_WINDOW_OBJECT, SE_WMIGUID_OBJECT, _SE_OBJECT_TYPE, _win32_se_object_type_str, accctrl/SE_DS_OBJECT, accctrl/SE_DS_OBJECT_ALL, accctrl/SE_FILE_OBJECT, accctrl/SE_KERNEL_OBJECT, accctrl/SE_LMSHARE, accctrl/SE_OBJECT_TYPE, accctrl/SE_PRINTER, accctrl/SE_PROVIDER_DEFINED_OBJECT, accctrl/SE_REGISTRY_KEY, accctrl/SE_REGISTRY_WOW64_32KEY, accctrl/SE_SERVICE, accctrl/SE_UNKNOWN_OBJECT_TYPE, accctrl/SE_WINDOW_OBJECT, accctrl/SE_WMIGUID_OBJECT, security.se_object_type
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: accctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,19 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SE_OBJECT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	AccCtrl.h
+api_name:
+-	SE_OBJECT_TYPE
+product: Windows
+targetos: Windows
 ---
 
 # _SE_OBJECT_TYPE enumeration

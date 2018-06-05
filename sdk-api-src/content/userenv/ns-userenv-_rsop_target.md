@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:userenv._RSOP_TARGET
+title: "_RSOP_TARGET"
+author: windows-sdk-content
+description: The RSOP_TARGET structure contains computer and user information required by the GenerateGroupPolicy function.
+old-location: policy\rsop_target_str.htm
+old-project: Policy
+ms.assetid: 65b0eb27-fc4a-44d6-843e-965a90dc51e8
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "*PRSOP_TARGET, PRSOP_TARGET, PRSOP_TARGET structure pointer [Group Policy], RSOP_TARGET, RSOP_TARGET structure [Group Policy], _RSOP_TARGET, _win32_rsop_target_str, policy.rsop_target_str, userenv/PRSOP_TARGET, userenv/RSOP_TARGET"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: userenv.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RSOP_TARGET, *PRSOP_TARGET
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Userenv.h
+api_name:
+-	RSOP_TARGET
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _RSOP_TARGET structure

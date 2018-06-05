@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmquota.IFsrmQuotaManager.EnumQuotas
+title: IFsrmQuotaManager::EnumQuotas
+author: windows-sdk-content
+description: Enumerates the quotas for the specified directory and any quotas associated with its subdirectories (recursively).
+old-location: fsrm\ifsrmquotamanager_enumquotas.htm
+old-project: Fsrm
+ms.assetid: 9977a519-4a6d-4b35-b973-4ef086e13e92
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: EnumQuotas, EnumQuotas method [File Server Resource Manager], EnumQuotas method [File Server Resource Manager],FsrmQuotaManager class, EnumQuotas method [File Server Resource Manager],IFsrmQuotaManager interface, EnumQuotas method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],EnumQuotas method, IFsrmQuotaManager interface [File Server Resource Manager],EnumQuotas method, IFsrmQuotaManager.EnumQuotas, IFsrmQuotaManager::EnumQuotas, IFsrmQuotaManagerEx interface [File Server Resource Manager],EnumQuotas method, IFsrmQuotaManagerEx::EnumQuotas, fs.ifsrmquotamanager_enumquotas, fsrm.ifsrmquotamanager_enumquotas, fsrmquota/IFsrmQuotaManager::EnumQuotas, fsrmquota/IFsrmQuotaManagerEx::EnumQuotas
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmquota.h
+req.include-header: FsrmQuota.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmQuotaManager.EnumQuotas
+-	IFsrmQuotaManagerEx.EnumQuotas
+-	FsrmQuotaManager.EnumQuotas
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmQuotaManager::EnumQuotas

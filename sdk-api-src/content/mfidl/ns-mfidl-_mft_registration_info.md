@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mfidl._MFT_REGISTRATION_INFO
+title: "_MFT_REGISTRATION_INFO"
+author: windows-sdk-content
+description: Contains parameters for the IMFLocalMFTRegistration::RegisterMFTs method.
+old-location: mf\mft_registration_info.htm
+old-project: medfound
+ms.assetid: 7d610edf-89e3-4ff3-9ad8-b92ee50df522
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFT_REGISTRATION_INFO, MFT_REGISTRATION_INFO structure [Media Foundation], _MFT_REGISTRATION_INFO, mf.mft_registration_info, mfidl/MFT_REGISTRATION_INFO
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFT_REGISTRATION_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFT_REGISTRATION_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFT_REGISTRATION_INFO structure

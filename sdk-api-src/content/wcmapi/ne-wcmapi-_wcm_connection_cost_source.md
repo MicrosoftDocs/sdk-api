@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:wcmapi._WCM_CONNECTION_COST_SOURCE
+title: "_WCM_CONNECTION_COST_SOURCE"
+author: windows-sdk-content
+description: Specifies the source that provides connection cost information.
+old-location: wcm\wcm_connection_cost_source.htm
+old-project: wcm
+ms.assetid: cd9e5562-dd50-46fc-be11-0ea89e6933c0
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*PWCM_CONNECTION_COST_SOURCE, PWCM_CONNECTION_COST_SOURCE, PWCM_CONNECTION_COST_SOURCE enumeration pointer [Windows Connection Manager], WCM_CONNECTION_COST_SOURCE, WCM_CONNECTION_COST_SOURCE enumeration [Windows Connection Manager], WCM_CONNECTION_COST_SOURCE_DEFAULT, WCM_CONNECTION_COST_SOURCE_GP, WCM_CONNECTION_COST_SOURCE_OPERATOR, WCM_CONNECTION_COST_SOURCE_USER, _WCM_CONNECTION_COST_SOURCE, wcm.wcm_connection_cost_source, wcmapi/PWCM_CONNECTION_COST_SOURCE, wcmapi/WCM_CONNECTION_COST_SOURCE, wcmapi/WCM_CONNECTION_COST_SOURCE_DEFAULT, wcmapi/WCM_CONNECTION_COST_SOURCE_GP, wcmapi/WCM_CONNECTION_COST_SOURCE_OPERATOR, wcmapi/WCM_CONNECTION_COST_SOURCE_USER"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: wcmapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WCM_CONNECTION_COST_SOURCE, *PWCM_CONNECTION_COST_SOURCE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wcmapi.h
+api_name:
+-	WCM_CONNECTION_COST_SOURCE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WCM_CONNECTION_COST_SOURCE enumeration

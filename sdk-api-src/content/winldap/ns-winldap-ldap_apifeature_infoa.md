@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winldap.ldap_apifeature_infoA
+title: ldap_apifeature_infoA
+author: windows-sdk-content
+description: Retrieves data about any supported LDAP API extensions.
+old-location: ldap\ldapapifeatureinfo.htm
+old-project: LDAP
+ms.assetid: c8e4a3a2-a606-49af-887d-905d67705423
+ms.author: windowssdkdev
+ms.date: 05/15/2018
+ms.keywords: LDAPAPIFeatureInfo, LDAPAPIFeatureInfo structure [LDAP], LDAPAPIFeatureInfoA, LDAPAPIFeatureInfoW, ldap.ldapapifeatureinfo, ldap_apifeature_infoA, winldap/LDAPAPIFeatureInfo, winldap/LDAPAPIFeatureInfoA, winldap/LDAPAPIFeatureInfoW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winldap.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: LDAPAPIFeatureInfoW (Unicode) and LDAPAPIFeatureInfoA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LDAPAPIFeatureInfoA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winldap.h
+api_name:
+-	LDAPAPIFeatureInfo
+-	LDAPAPIFeatureInfoA
+-	LDAPAPIFeatureInfoW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # ldap_apifeature_infoA structure

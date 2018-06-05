@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:directmanipulation.IDirectManipulationAutoScrollBehavior.SetConfiguration
+title: IDirectManipulationAutoScrollBehavior::SetConfiguration
+author: windows-sdk-content
+description: Performs the auto-scroll animation for the viewport this behavior is attached to.
+old-location: directmanipulation\idirectmanipulationautoscrollbehavior_setconfiguration.htm
+old-project: directmanipulation
+ms.assetid: 2DE988EA-8690-4AF2-A545-8226032D6E83
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IDirectManipulationAutoScrollBehavior interface [Direct Manipulation],SetConfiguration method, IDirectManipulationAutoScrollBehavior.SetConfiguration, IDirectManipulationAutoScrollBehavior::SetConfiguration, SetConfiguration, SetConfiguration method [Direct Manipulation], SetConfiguration method [Direct Manipulation],IDirectManipulationAutoScrollBehavior interface, directmanipulation.idirectmanipulationautoscrollbehavior_setconfiguration, directmanipulation/IDirectManipulationAutoScrollBehavior::SetConfiguration
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: directmanipulation.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: DirectManipulation.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DirectManipulation.h
+api_name:
+-	IDirectManipulationAutoScrollBehavior.SetConfiguration
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectManipulationAutoScrollBehavior::SetConfiguration

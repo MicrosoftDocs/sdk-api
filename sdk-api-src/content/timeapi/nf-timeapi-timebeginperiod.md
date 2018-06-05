@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:timeapi.timeBeginPeriod
+title: timeBeginPeriod function
+author: windows-sdk-content
+description: The timeBeginPeriod function requests a minimum resolution for periodic timers.
+old-location: multimedia\timebeginperiod.htm
+old-project: Multimedia
+ms.assetid: 7168981c-9af8-4665-88a2-7d96a8f2b273
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: "_win32_timeBeginPeriod, mmsystem/timeBeginPeriod, multimedia.timebeginperiod, timeBeginPeriod, timeBeginPeriod function [Windows Multimedia], timeapi/timeBeginPeriod"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: timeapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,26 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ThumbnailStreamCacheOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Winmm.dll
+-	API-MS-Win-mm-Time-l1-1-0.dll
+-	Kernel32.dll
+-	Kernel32legacy.dll
+api_name:
+-	timeBeginPeriod
+product: Windows
+targetos: Windows
+req.lib: Winmm.lib
+req.dll: Winmm.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # timeBeginPeriod function

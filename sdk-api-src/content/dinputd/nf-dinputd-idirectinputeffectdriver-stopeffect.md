@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:dinputd.IDirectInputEffectDriver.StopEffect
+title: IDirectInputEffectDriver::StopEffect
+author: windows-sdk-content
+description: The IDirectInputEffectDriver::StopEffect method halts the playback of an effect.
+old-location: hid\idirectinputeffectdriver_stopeffect.htm
+old-project: hid
+ms.assetid: 613cb68f-1fa8-4122-a1c9-feabde2dfbc9
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],StopEffect method, IDirectInputEffectDriver.StopEffect, IDirectInputEffectDriver::StopEffect, StopEffect, StopEffect method [Human Input Devices], StopEffect method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_8aed81a3-c45d-4b8e-bcfb-2c17e1a708a2.xml, dinputd/IDirectInputEffectDriver::StopEffect, hid.idirectinputeffectdriver_stopeffect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dinputd.h
+req.include-header: Dinputd.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dinputd.h
+api_name:
+-	IDirectInputEffectDriver.StopEffect
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IDirectInputEffectDriver::StopEffect

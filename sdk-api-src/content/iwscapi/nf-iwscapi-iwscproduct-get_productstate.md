@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:iwscapi.IWscProduct.get_ProductState
+title: IWscProduct::get_ProductState
+author: windows-sdk-content
+description: Returns the current state of the signature data for the security product.
+old-location: winprog\iwscproduct_productstate.htm
+old-project: DevNotes
+ms.assetid: 73E4EA93-C298-4F25-BC51-DB6E38B48EE3
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IWscProduct interface [Windows API],get_ProductState method, IWscProduct.get_ProductState, IWscProduct::get_ProductState, get_ProductState, get_ProductState method [Windows API], get_ProductState method [Windows API],IWscProduct interface, iwscapi/IWscProduct::get_ProductState, winprog.iwscproduct_productstate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: iwscapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WSC_SECURITY_SIGNATURE_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Wscapi.dll
+api_name:
+-	IWscProduct.get_ProductState
+product: Windows
+targetos: Windows
+req.lib: Wscapi.lib
+req.dll: Wscapi.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IWscProduct::get_ProductState

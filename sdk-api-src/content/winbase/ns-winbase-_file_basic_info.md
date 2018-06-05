@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbase._FILE_BASIC_INFO
+title: "_FILE_BASIC_INFO"
+author: windows-sdk-content
+description: Contains the basic information for a file. Used for file handles.
+old-location: fs\file_basic_info.htm
+old-project: FileIO
+ms.assetid: 7765e430-cf6b-4ccf-b5e7-9fb6e15ca6d6
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: "*PFILE_BASIC_INFO, FILE_BASIC_INFO, FILE_BASIC_INFO structure [Files], PFILE_BASIC_INFO, PFILE_BASIC_INFO structure pointer [Files], _FILE_BASIC_INFO, fileextd/FILE_BASIC_INFO, fileextd/PFILE_BASIC_INFO, fs.file_basic_info, winbase/FILE_BASIC_INFO, winbase/PFILE_BASIC_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FILE_BASIC_INFO, *PFILE_BASIC_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinBase.h
+-	FileExtd.h
+api_name:
+-	FILE_BASIC_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _FILE_BASIC_INFO structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:comsvcs.IServiceSxsConfig.SxsConfig
+title: IServiceSxsConfig::SxsConfig
+author: windows-sdk-content
+description: Configures the side-by-side assembly for the enclosed work.
+old-location: cos\iservicesxsconfig_sxsconfig.htm
+old-project: cossdk
+ms.assetid: ce067aca-8bb4-48ac-b466-9080d2166bdd
+ms.author: windowssdkdev
+ms.date: 05/16/2018
+ms.keywords: IServiceSxsConfig interface [COM+],SxsConfig method, IServiceSxsConfig.SxsConfig, IServiceSxsConfig::SxsConfig, SxsConfig, SxsConfig method [COM+], SxsConfig method [COM+],IServiceSxsConfig interface, _cos_IServiceSxsConfig_SxsConfig, comsvcs/IServiceSxsConfig::SxsConfig, cos.iservicesxsconfig_sxsconfig
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: comsvcs.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TRACKING_COLL_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	ComSvcs.h
+api_name:
+-	IServiceSxsConfig.SxsConfig
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # IServiceSxsConfig::SxsConfig

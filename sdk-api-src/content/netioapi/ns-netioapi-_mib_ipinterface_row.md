@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:netioapi._MIB_IPINTERFACE_ROW
+title: "_MIB_IPINTERFACE_ROW"
+author: windows-sdk-content
+description: Stores interface management information for a particular IP address family on a network interface.
+old-location: mib\mib_ipinterface_row.htm
+old-project: MIB
+ms.assetid: 28265037-f7a3-40a4-b386-20f43f32a8b3
+ms.author: windowssdkdev
+ms.date: 05/14/2018
+ms.keywords: "*PMIB_IPINTERFACE_ROW, AF_INET, AF_INET6, AF_UNSPEC, LinkLocalAlwaysOff, LinkLocalAlwaysOn, LinkLocalDelayed, LinkLocalUnchanged, MIB_IPINTERFACE_ROW, MIB_IPINTERFACE_ROW structure [MIB], PMIB_IPINTERFACE_ROW, PMIB_IPINTERFACE_ROW structure pointer [MIB], RouterDiscoveryDhcp, RouterDiscoveryDisabled, RouterDiscoveryEnabled, RouterDiscoveryUnchanged, _MIB_IPINTERFACE_ROW, mib.mib_ipinterface_row, netioapi/MIB_IPINTERFACE_ROW, netioapi/PMIB_IPINTERFACE_ROW"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: netioapi.h
+req.include-header: Iphlpapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MIB_IPINTERFACE_ROW, *PMIB_IPINTERFACE_ROW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Netioapi.h
+api_name:
+-	MIB_IPINTERFACE_ROW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _MIB_IPINTERFACE_ROW structure

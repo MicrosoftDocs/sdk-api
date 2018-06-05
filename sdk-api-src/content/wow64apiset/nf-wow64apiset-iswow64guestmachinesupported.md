@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wow64apiset.IsWow64GuestMachineSupported
+title: IsWow64GuestMachineSupported function
+author: windows-sdk-content
+description: Determines which architectures are supported (under WOW64) on the given machine architecture.
+old-location: base\iswow64guestmachinesupported.htm
+old-project: SysInfo
+ms.assetid: B6DAAE7A-21B0-475C-AC28-30E83B39F417
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IsWow64GuestMachineSupported, IsWow64GuestMachineSupported function, base.iswow64guestmachinesupported, wow64apiset/IsWow64GuestMachineSupported
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wow64apiset.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	kernel32.lib
+-	API-MS-Win-Core-Wow64-L1-1-1.dll
+-	KernelBase.dll
+api_name:
+-	IsWow64GuestMachineSupported
+product: Windows
+targetos: Windows
+req.lib: Kernel32.dll
+req.dll: Kernel32.lib
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IsWow64GuestMachineSupported function

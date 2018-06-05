@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:cryptxml.CryptXmlSign
+title: CryptXmlSign function
+author: windows-sdk-content
+description: Creates a cryptographic signature of a SignedInfo element.
+old-location: security\cryptxmlsign.htm
+old-project: SecCrypto
+ms.assetid: 38bd365e-bc63-498c-a650-471429f09d37
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CERT_NCRYPT_KEY_SPEC, CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_SIGN_ADD_KEYVALUE, CryptXmlSign, CryptXmlSign function [Security], cryptxml/CryptXmlSign, security.cryptxmlsign
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: cryptxml.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CRYPT_XML_PROPERTY_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cryptxml.dll
+api_name:
+-	CryptXmlSign
+product: Windows
+targetos: Windows
+req.lib: Cryptxml.lib
+req.dll: Cryptxml.dll
+req.irql: 
 ---
 
 # CryptXmlSign function

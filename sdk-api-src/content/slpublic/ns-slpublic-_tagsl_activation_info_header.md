@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:slpublic._tagSL_ACTIVATION_INFO_HEADER
+title: "_tagSL_ACTIVATION_INFO_HEADER"
+author: windows-sdk-content
+description: Specifies the product activation information.
+old-location: security\sl_activation_info_header.htm
+old-project: SecSLApi
+ms.assetid: 8209652d-c40e-419b-9929-647f03fed79c
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: SL_ACTIVATION_INFO_HEADER, SL_ACTIVATION_INFO_HEADER structure [Security], _tagSL_ACTIVATION_INFO_HEADER, security.sl_activation_info_header, slpublic/SL_ACTIVATION_INFO_HEADER
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: slpublic.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SL_ACTIVATION_INFO_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	slpublic.h
+api_name:
+-	SL_ACTIVATION_INFO_HEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _tagSL_ACTIVATION_INFO_HEADER structure

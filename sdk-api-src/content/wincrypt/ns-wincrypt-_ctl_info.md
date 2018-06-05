@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CTL_INFO
+title: "_CTL_INFO"
+author: windows-sdk-content
+description: Contains the information stored in a Certificate Trust List (CTL).
+old-location: security\ctl_info.htm
+old-project: SecCrypto
+ms.assetid: 83b015b5-a650-4a81-a9f0-c3e8a9805c81
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCTL_INFO, CTL_INFO, CTL_INFO structure [Security], CTL_V1, PCTL_INFO, PCTL_INFO structure pointer [Security], _CTL_INFO, _crypto2_ctl_info, security.ctl_info, wincrypt/CTL_INFO, wincrypt/PCTL_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CTL_INFO, *PCTL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CTL_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CTL_INFO structure

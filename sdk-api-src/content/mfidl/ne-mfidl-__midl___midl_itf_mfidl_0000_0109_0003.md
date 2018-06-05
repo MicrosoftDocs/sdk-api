@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:mfidl.__MIDL___MIDL_itf_mfidl_0000_0109_0003
+title: "__MIDL___MIDL_itf_mfidl_0000_0109_0003"
+author: windows-sdk-content
+description: Specifies the sharing mode of an IMFSensorDevice.
+old-location: mf\mfsensordevicemode.htm
+old-project: medfound
+ms.assetid: D405AB48-13EC-4859-91B6-0DB797F85DBE
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: MFSensorDeviceMode, MFSensorDeviceMode enumeration [Media Foundation], MFSensorDeviceMode_Controller, MFSensorDeviceMode_Shared, __MIDL___MIDL_itf_mfidl_0000_0109_0003, mf.mfsensordevicemode, mfidl/MFSensorDeviceMode, mfidl/MFSensorDeviceMode_Controller, mfidl/MFSensorDeviceMode_Shared
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFSensorDeviceMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfidl.h
+api_name:
+-	MFSensorDeviceMode
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # __MIDL___MIDL_itf_mfidl_0000_0109_0003 enumeration

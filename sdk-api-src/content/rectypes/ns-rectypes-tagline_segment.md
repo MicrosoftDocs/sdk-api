@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:rectypes.tagLINE_SEGMENT
+title: tagLINE_SEGMENT
+author: windows-sdk-content
+description: Describes the start and end points of a line recognition segment, such as the baseline or midline.
+old-location: tablet\line_segment.htm
+old-project: tablet
+ms.assetid: e9d4079d-28d2-4975-a33f-1f4ec5175c36
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: LINE_SEGMENT, LINE_SEGMENT structure [Tablet PC], e9d4079d-28d2-4975-a33f-1f4ec5175c36, rectypes/LINE_SEGMENT, tablet.line_segment, tagLINE_SEGMENT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: rectypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: LINE_SEGMENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	rectypes.h
+api_name:
+-	LINE_SEGMENT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagLINE_SEGMENT structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:dxva9typ._COPP_TVProtectionStandard
+title: "_COPP_TVProtectionStandard"
+author: windows-sdk-content
+description: Defines a list of TV protection standards for Certified Output Protection Protocol (COPP).
+old-location: dshow\copp_tvprotectionstandard.htm
+old-project: DirectShow
+ms.assetid: 3a724f93-8625-4594-a45b-c2e4c882b579
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: COPP_ProtectionStandard_ARIBTRB15_1125i, COPP_ProtectionStandard_ARIBTRB15_525i, COPP_ProtectionStandard_ARIBTRB15_525p, COPP_ProtectionStandard_ARIBTRB15_750p, COPP_ProtectionStandard_CEA805A_TypeA_1125i, COPP_ProtectionStandard_CEA805A_TypeA_525p, COPP_ProtectionStandard_CEA805A_TypeA_750p, COPP_ProtectionStandard_CEA805A_TypeB_1125i, COPP_ProtectionStandard_CEA805A_TypeB_525p, COPP_ProtectionStandard_CEA805A_TypeB_750p, COPP_ProtectionStandard_EIA608B_525, COPP_ProtectionStandard_EN300294_625i, COPP_ProtectionStandard_IEC61880_2_525i, COPP_ProtectionStandard_IEC61880_525i, COPP_ProtectionStandard_IEC62375_625p, COPP_ProtectionStandard_Mask, COPP_ProtectionStandard_None, COPP_ProtectionStandard_Reserved, COPP_ProtectionStandard_Unknown, COPP_TVProtectionStandard, COPP_TVProtectionStandard , COPP_TVProtectionStandard enumeration [DirectShow], COPP_TVProtectionStandardEnumeration, _COPP_TVProtectionStandard, dshow.copp_tvprotectionstandard, dxva9typ/COPP_ProtectionStandard_ARIBTRB15_1125i, dxva9typ/COPP_ProtectionStandard_ARIBTRB15_525i, dxva9typ/COPP_ProtectionStandard_ARIBTRB15_525p, dxva9typ/COPP_ProtectionStandard_ARIBTRB15_750p, dxva9typ/COPP_ProtectionStandard_CEA805A_TypeA_1125i, dxva9typ/COPP_ProtectionStandard_CEA805A_TypeA_525p, dxva9typ/COPP_ProtectionStandard_CEA805A_TypeA_750p, dxva9typ/COPP_ProtectionStandard_CEA805A_TypeB_1125i, dxva9typ/COPP_ProtectionStandard_CEA805A_TypeB_525p, dxva9typ/COPP_ProtectionStandard_CEA805A_TypeB_750p, dxva9typ/COPP_ProtectionStandard_EIA608B_525, dxva9typ/COPP_ProtectionStandard_EN300294_625i, dxva9typ/COPP_ProtectionStandard_IEC61880_2_525i, dxva9typ/COPP_ProtectionStandard_IEC61880_525i, dxva9typ/COPP_ProtectionStandard_IEC62375_625p, dxva9typ/COPP_ProtectionStandard_Mask, dxva9typ/COPP_ProtectionStandard_None, dxva9typ/COPP_ProtectionStandard_Reserved, dxva9typ/COPP_ProtectionStandard_Unknown, dxva9typ/COPP_TVProtectionStandard
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: dxva9typ.h
+req.include-header: Dxva.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COPP_TVProtectionStandard
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	dxva9typ.h
+api_name:
+-	COPP_TVProtectionStandard
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _COPP_TVProtectionStandard enumeration

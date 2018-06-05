@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wbemtime.WBEMTime.operator-(const WBEMTimeSpan &)
+title: WBEMTime::operator-(const WBEMTimeSpan &)
+author: windows-sdk-content
+description: This overload of the WBEMTime class subtraction operator (&#8211;) subtracts a time span from an object's time to produce a new time object that contains the resulting time.
+old-location: wmi\wbemtime_operator_minus_const_wbemtimespan__.htm
+old-project: WmiSdk
+ms.assetid: d96efdf3-1020-4145-92ad-bbde5704639e
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: "??GWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z, WBEMTime interface [Windows Management Instrumentation],operator- method, WBEMTime.operator-, WBEMTime.operator-(const WBEMTimeSpan &), WBEMTime::operator-, WBEMTime::operator-(const WBEMTimeSpan &), WBEMTime::operator-(const WBEMTimeSpan&), operator-, operator- method [Windows Management Instrumentation], operator- method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator-, wmi.wbemtime_operator_minus_const_wbemtimespan__"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemtime.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	FrameDynOS.dll
+-	FrameDyn.dll
+api_name:
+-	WBEMTime.operator-
+-	??GWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # WBEMTime::operator-(const WBEMTimeSpan &)

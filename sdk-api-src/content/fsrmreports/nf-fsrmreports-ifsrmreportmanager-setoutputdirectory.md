@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:fsrmreports.IFsrmReportManager.SetOutputDirectory
+title: IFsrmReportManager::SetOutputDirectory
+author: windows-sdk-content
+description: Sets the local directory path where reports are stored.
+old-location: fsrm\ifsrmreportmanager_setoutputdirectory.htm
+old-project: Fsrm
+ms.assetid: 5bbc4255-1fed-45c5-bb13-41ee7c47ed56
+ms.author: windowssdkdev
+ms.date: 04/18/2018
+ms.keywords: FsrmReportManager class [File Server Resource Manager],SetOutputDirectory method, IFsrmReportManager interface [File Server Resource Manager],SetOutputDirectory method, IFsrmReportManager.SetOutputDirectory, IFsrmReportManager::SetOutputDirectory, SetOutputDirectory, SetOutputDirectory method [File Server Resource Manager], SetOutputDirectory method [File Server Resource Manager],FsrmReportManager class, SetOutputDirectory method [File Server Resource Manager],IFsrmReportManager interface, fs.ifsrmreportmanager_setoutputdirectory, fsrm.ifsrmreportmanager_setoutputdirectory, fsrmreports/IFsrmReportManager::SetOutputDirectory
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: fsrmreports.h
+req.include-header: FsrmReports.h, FsrmTlb.h
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FsrmTemplateApplyOptions
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SrmSvc.dll
+api_name:
+-	IFsrmReportManager.SetOutputDirectory
+-	FsrmReportManager.SetOutputDirectory
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
+req.product: Internet Explorer 5
 ---
 
 # IFsrmReportManager::SetOutputDirectory

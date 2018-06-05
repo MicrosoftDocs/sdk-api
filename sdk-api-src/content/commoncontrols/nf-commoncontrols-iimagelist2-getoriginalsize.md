@@ -1,31 +1,47 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:commoncontrols.IImageList2.GetOriginalSize
+title: IImageList2::GetOriginalSize
+author: windows-sdk-content
+description: Gets the original size of a specified image.
+old-location: controls\IImageList2_GetOriginalSize.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\getoriginalsize.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetOriginalSize, GetOriginalSize method [Windows Controls], GetOriginalSize method [Windows Controls],IImageList2 interface, IImageList2 interface [Windows Controls],GetOriginalSize method, IImageList2.GetOriginalSize, IImageList2::GetOriginalSize, ILGOS_ALWAYS, ILGOS_FROMSTANDBY, _shell_IImageList2_GetOriginalSize, _shell_IImageList2_GetOriginalSize_cpp, commoncontrols/IImageList2::GetOriginalSize, controls.IImageList2_GetOriginalSize, controls._shell_IImageList2_GetOriginalSize
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: commoncontrols.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Commoncontrols.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Comctl32.dll
+api_name:
+-	IImageList2.GetOriginalSize
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 ---
 
 # IImageList2::GetOriginalSize

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:photoacquire.IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText
+title: IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText
+author: windows-sdk-content
+description: The SetPrompt method sets the text displayed in the dialog box that prompts the user to select a device.
+old-location: picacq\iphotoacquiredeviceselectiondialog_setprompt.htm
+old-project: acquisition
+ms.assetid: 4685c4b8-8c56-4be1-a73f-6d984449d227
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],SetSubmitButtonText method, IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText, IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText, IPhotoAcquireDeviceSelectionDialogSetPrompt, SetSubmitButtonText, SetSubmitButtonText method [Picture Acquisition], SetSubmitButtonText method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, photoacquire/IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText, picacq.iphotoacquiredeviceselectiondialog_setprompt
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: photoacquire.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USER_INPUT_STRING_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	PhotoAcquireUID.lib
+-	PhotoAcquireUID.dll
+api_name:
+-	IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText
+product: Windows
+targetos: Windows
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText

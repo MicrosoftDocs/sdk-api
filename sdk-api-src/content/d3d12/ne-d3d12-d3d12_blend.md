@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d12.D3D12_BLEND
+title: D3D12_BLEND
+author: windows-sdk-content
+description: Specifies blend factors, which modulate values for the pixel shader and render target.
+old-location: direct3d12\d3d12_blend.htm
+old-project: direct3d12
+ms.assetid: BA114E1C-0E0B-4260-ACED-0FF3D426C764
+ms.author: windowssdkdev
+ms.date: 05/11/2018
+ms.keywords: D3D12_BLEND, D3D12_BLEND enumeration, D3D12_BLEND_BLEND_FACTOR, D3D12_BLEND_DEST_ALPHA, D3D12_BLEND_DEST_COLOR, D3D12_BLEND_INV_BLEND_FACTOR, D3D12_BLEND_INV_DEST_ALPHA, D3D12_BLEND_INV_DEST_COLOR, D3D12_BLEND_INV_SRC1_ALPHA, D3D12_BLEND_INV_SRC1_COLOR, D3D12_BLEND_INV_SRC_ALPHA, D3D12_BLEND_INV_SRC_COLOR, D3D12_BLEND_ONE, D3D12_BLEND_SRC1_ALPHA, D3D12_BLEND_SRC1_COLOR, D3D12_BLEND_SRC_ALPHA, D3D12_BLEND_SRC_ALPHA_SAT, D3D12_BLEND_SRC_COLOR, D3D12_BLEND_ZERO, d3d12/D3D12_BLEND, d3d12/D3D12_BLEND_BLEND_FACTOR, d3d12/D3D12_BLEND_DEST_ALPHA, d3d12/D3D12_BLEND_DEST_COLOR, d3d12/D3D12_BLEND_INV_BLEND_FACTOR, d3d12/D3D12_BLEND_INV_DEST_ALPHA, d3d12/D3D12_BLEND_INV_DEST_COLOR, d3d12/D3D12_BLEND_INV_SRC1_ALPHA, d3d12/D3D12_BLEND_INV_SRC1_COLOR, d3d12/D3D12_BLEND_INV_SRC_ALPHA, d3d12/D3D12_BLEND_INV_SRC_COLOR, d3d12/D3D12_BLEND_ONE, d3d12/D3D12_BLEND_SRC1_ALPHA, d3d12/D3D12_BLEND_SRC1_COLOR, d3d12/D3D12_BLEND_SRC_ALPHA, d3d12/D3D12_BLEND_SRC_ALPHA_SAT, d3d12/D3D12_BLEND_SRC_COLOR, d3d12/D3D12_BLEND_ZERO, direct3d12.d3d12_blend
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D12_BLEND
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D12.h
+api_name:
+-	D3D12_BLEND
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D12_BLEND enumeration

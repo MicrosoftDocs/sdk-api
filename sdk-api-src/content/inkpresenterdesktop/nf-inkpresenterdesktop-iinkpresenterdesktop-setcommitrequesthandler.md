@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:inkpresenterdesktop.IInkPresenterDesktop.SetCommitRequestHandler
+title: IInkPresenterDesktop::SetCommitRequestHandler
+author: windows-sdk-content
+description: Sets an IInkCommitRequestHandler object that enables the app (instead of an IInkPresenterDesktop object) to commit all pending Microsoft DirectComposition commands to the app's DirectComposition visual tree.
+old-location: input_ink\iinkpresenterdesktop_setcommitrequesthandler.htm
+old-project: input_ink
+ms.assetid: b53eba5d-c53d-45a4-ae51-5a8a27043554
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IInkPresenterDesktop interface,SetCommitRequestHandler method, IInkPresenterDesktop.SetCommitRequestHandler, IInkPresenterDesktop::SetCommitRequestHandler, InkPresenterDesktop.iinkpresenterdesktop_setcommitrequesthandler, SetCommitRequestHandler, SetCommitRequestHandler method, SetCommitRequestHandler method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetCommitRequestHandler, input_ink.iinkpresenterdesktop_setcommitrequesthandler
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: inkpresenterdesktop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: InkPresenterDesktop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkPresenterDesktop.h
+api_name:
+-	IInkPresenterDesktop.SetCommitRequestHandler
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IInkPresenterDesktop::SetCommitRequestHandler

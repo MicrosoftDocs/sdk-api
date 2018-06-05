@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:dsadmin.IDsAdminNewObjExt.WriteData
+title: IDsAdminNewObjExt::WriteData
+author: windows-sdk-content
+description: Enables the object creation wizard extension to write its data into an object in Active Directory Domain Services.
+old-location: ad\idsadminnewobjext_writedata.htm
+old-project: AD
+ms.assetid: 1788c124-c740-4f77-9687-63113d3b14a8
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DSA_NEWOBJ_CTX_CLEANUP, DSA_NEWOBJ_CTX_POSTCOMMIT, DSA_NEWOBJ_CTX_PRECOMMIT, IDsAdminNewObjExt interface [Active Directory],WriteData method, IDsAdminNewObjExt.WriteData, IDsAdminNewObjExt::WriteData, WriteData, WriteData method [Active Directory], WriteData method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_writedata, ad.idsadminnewobjext__writedata, ad.idsadminnewobjext_writedata, dsadmin/IDsAdminNewObjExt::WriteData
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dsadmin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	DSAdmin.dll
+api_name:
+-	IDsAdminNewObjExt.WriteData
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 ---
 
 # IDsAdminNewObjExt::WriteData

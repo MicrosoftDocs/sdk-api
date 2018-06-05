@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:wmsdkidl.IWMReaderAdvanced
+title: IWMReaderAdvanced
+author: windows-sdk-content
+description: A call to QueryInterface from a reader object exposes the advanced functionality described in this section.
+old-location: wmformat\iwmreaderadvanced.htm
+old-project: wmformat
+ms.assetid: a7a20f87-6f21-4fe8-8889-1b6689daf833
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], IWMReaderAdvanced interface [windows Media Format],described, IWMReaderAdvancedInterface, wmformat.iwmreaderadvanced, wmsdkidl/IWMReaderAdvanced
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: wmsdkidl.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WM_AETYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmsdkidl.h
+api_name:
+-	IWMReaderAdvanced
+product: Windows
+targetos: Windows
+req.lib: Wmvcore.lib
+req.dll: Wmvcore.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IWMReaderAdvanced interface

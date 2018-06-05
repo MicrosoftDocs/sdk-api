@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:winsatcominterfacei.IQueryRecentWinSATAssessment.get_XML
+title: IQueryRecentWinSATAssessment::get_XML
+author: windows-sdk-content
+description: Retrieves data from the XML assessment document by using the specified XPath. The query is run against the most recent formal assessment in the WinSAT data store.
+old-location: winsat\iqueryrecentwinsatassessment_xml.htm
+old-project: WinSAT
+ms.assetid: f8a1c664-bea3-4505-bcf0-2b8715dbe7dd
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: IQueryRecentWinSATAssessment interface [WinSAT],XML property, IQueryRecentWinSATAssessment.XML, IQueryRecentWinSATAssessment.get_XML, IQueryRecentWinSATAssessment::XML, IQueryRecentWinSATAssessment::get_XML, XML property [WinSAT], XML property [WinSAT],IQueryRecentWinSATAssessment interface, get_XML, winsat.iqueryrecentwinsatassessment_xml, winsatcominterfacei/IQueryRecentWinSATAssessment::XML, winsatcominterfacei/IQueryRecentWinSATAssessment::get_XML
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: winsatcominterfacei.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: WINSAT_BITMAP_SIZE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Winsatapi.dll
+api_name:
+-	IQueryRecentWinSATAssessment.XML
+-	IQueryRecentWinSATAssessment.get_XML
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IQueryRecentWinSATAssessment::get_XML

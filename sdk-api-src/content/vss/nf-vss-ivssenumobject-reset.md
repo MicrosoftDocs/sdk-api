@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:vss.IVssEnumObject.Reset
+title: IVssEnumObject::Reset
+author: windows-sdk-content
+description: Resets the enumerator so that IVssEnumObject:Next starts at the first enumerated object.
+old-location: base\ivssenumobject_reset.htm
+old-project: VSS
+ms.assetid: 98fc07b0-3efe-4ec3-bb70-64a8b8828162
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IVssEnumObject interface [VSS],Reset method, IVssEnumObject.Reset, IVssEnumObject::Reset, Reset, Reset method [VSS], Reset method [VSS],IVssEnumObject interface, _win32_ivssenumobject_reset, base.ivssenumobject_reset, vss/IVssEnumObject::Reset
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: vss.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VSS_WRITER_STATE, *PVSS_WRITER_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	VssApi.lib
+-	VssApi.dll
+api_name:
+-	IVssEnumObject.Reset
+product: Windows
+targetos: Windows
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # IVssEnumObject::Reset

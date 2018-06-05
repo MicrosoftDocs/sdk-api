@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:evntprov._EVENT_FILTER_DESCRIPTOR
+title: "_EVENT_FILTER_DESCRIPTOR"
+author: windows-sdk-content
+description: Defines the filter data that a session passes to the provider's enable callback function.
+old-location: etw\event_filter_descriptor.htm
+old-project: ETW
+ms.assetid: 9318868a-29d8-4a5e-9579-c06a7c0fd78f
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PEVENT_FILTER_DESCRIPTOR, EVENT_FILTER_DESCRIPTOR, EVENT_FILTER_DESCRIPTOR structure [ETW], EVENT_FILTER_TYPE_EVENT_ID, EVENT_FILTER_TYPE_EVENT_NAME, EVENT_FILTER_TYPE_EXECUTABLE_NAME, EVENT_FILTER_TYPE_NONE, EVENT_FILTER_TYPE_PACKAGE_APP_ID, EVENT_FILTER_TYPE_PACKAGE_ID, EVENT_FILTER_TYPE_PAYLOAD, EVENT_FILTER_TYPE_PID, EVENT_FILTER_TYPE_SCHEMATIZED, EVENT_FILTER_TYPE_STACKWALK, EVENT_FILTER_TYPE_STACKWALK_LEVEL_KW, EVENT_FILTER_TYPE_STACKWALK_NAME, EVENT_FILTER_TYPE_SYSTEM_FLAGS, EVENT_FILTER_TYPE_TRACEHANDLE, PEVENT_FILTER_DESCRIPTOR, PEVENT_FILTER_DESCRIPTOR structure pointer [ETW], _EVENT_FILTER_DESCRIPTOR, base.event_filter_descriptor, etw.event_filter_descriptor, evntprov/EVENT_FILTER_DESCRIPTOR, evntprov/PEVENT_FILTER_DESCRIPTOR"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: evntprov.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EVENT_FILTER_DESCRIPTOR, *PEVENT_FILTER_DESCRIPTOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Evntprov.h
+api_name:
+-	EVENT_FILTER_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _EVENT_FILTER_DESCRIPTOR structure

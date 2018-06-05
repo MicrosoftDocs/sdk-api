@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:mfsharingengine.IMFImageSharingEngine.Shutdown
+title: IMFImageSharingEngine::Shutdown
+author: windows-sdk-content
+description: Shuts down the image sharing engine.
+old-location: mf\imfimagesharingengine_shutdown.htm
+old-project: medfound
+ms.assetid: F394A740-8F86-4113-B6B8-57CC4127E9D0
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: IMFImageSharingEngine interface [Media Foundation],Shutdown method, IMFImageSharingEngine.Shutdown, IMFImageSharingEngine::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFImageSharingEngine interface, mf.imfimagesharingengine_shutdown, mfsharingengine/IMFImageSharingEngine::Shutdown
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mfsharingengine.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfsharingengine.h
+api_name:
+-	IMFImageSharingEngine.Shutdown
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IMFImageSharingEngine::Shutdown

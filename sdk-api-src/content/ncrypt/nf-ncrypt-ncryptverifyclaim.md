@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ncrypt.NCryptVerifyClaim
+title: NCryptVerifyClaim function
+author: windows-sdk-content
+description: Verifies a key attestation claim.
+old-location: security\ncryptverifyclaim.htm
+old-project: SecCNG
+ms.assetid: D3C837A5-49D7-4099-B8FE-37364A275A73
+ms.author: windowssdkdev
+ms.date: 05/01/2018
+ms.keywords: NCryptVerifyClaim, NCryptVerifyClaim function [Security], ncrypt/NCryptVerifyClaim, security.ncryptverifyclaim
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ncrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SESSION_HEADER, *PSESSION_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	ncrypt.dll
+api_name:
+-	NCryptVerifyClaim
+product: Windows
+targetos: Windows
+req.lib: Ncrypt.lib
+req.dll: Ncrypt.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # NCryptVerifyClaim function

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:peninputpanel.IPenInputPanel.put_AttachedEditWindow
+title: IPenInputPanel::put_AttachedEditWindow
+author: windows-sdk-content
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sets or gets the window handle of the object that the PenInputPanel object is attached to.
+old-location: tablet\peninputpanel_attachededitwindow.htm
+old-project: tablet
+ms.assetid: 4ece9a88-dc5e-4c5c-bf75-ad22a3d3cfb5
+ms.author: windowssdkdev
+ms.date: 05/31/2018
+ms.keywords: 4ece9a88-dc5e-4c5c-bf75-ad22a3d3cfb5, AttachedEditWindow property [Tablet PC], AttachedEditWindow property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],AttachedEditWindow property, IPenInputPanel.AttachedEditWindow, IPenInputPanel.put_AttachedEditWindow, IPenInputPanel::AttachedEditWindow, IPenInputPanel::get_AttachedEditWindow, IPenInputPanel::put_AttachedEditWindow, PenInputPanel.get_AttachedEditWindow, PenInputPanel.put_AttachedEditWindow, get_AttachedEditWindow, peninputpanel/IPenInputPanel::AttachedEditWindow, peninputpanel/IPenInputPanel::get_AttachedEditWindow, peninputpanel/IPenInputPanel::put_AttachedEditWindow, put_AttachedEditWindow, tablet.peninputpanel_attachededitwindow
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: peninputpanel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: EventMask
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	InkObj.dll
+-	InkObj.dll.dll
+api_name:
+-	IPenInputPanel.AttachedEditWindow
+-	IPenInputPanel.get_AttachedEditWindow
+-	IPenInputPanel.put_AttachedEditWindow
+-	PenInputPanel.get_AttachedEditWindow
+-	PenInputPanel.put_AttachedEditWindow
+product: Windows
+targetos: Windows
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPenInputPanel::put_AttachedEditWindow

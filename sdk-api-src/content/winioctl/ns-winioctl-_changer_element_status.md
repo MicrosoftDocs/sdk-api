@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winioctl._CHANGER_ELEMENT_STATUS
+title: "_CHANGER_ELEMENT_STATUS"
+author: windows-sdk-content
+description: Represents the status of the specified element.
+old-location: base\changer_element_status_str.htm
+old-project: DevIO
+ms.assetid: 9714994f-4923-48bf-8f96-6a960a87bd5f
+ms.author: windowssdkdev
+ms.date: 04/03/2018
+ms.keywords: "*PCHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS structure, ELEMENT_STATUS_ACCESS, ELEMENT_STATUS_AVOLTAG, ELEMENT_STATUS_EXCEPT, ELEMENT_STATUS_EXENAB, ELEMENT_STATUS_FULL, ELEMENT_STATUS_ID_VALID, ELEMENT_STATUS_IMPEXP, ELEMENT_STATUS_INENAB, ELEMENT_STATUS_INVERT, ELEMENT_STATUS_LUN_VALID, ELEMENT_STATUS_NOT_BUS, ELEMENT_STATUS_PVOLTAG, ELEMENT_STATUS_SVALID, ERROR_DRIVE_NOT_INSTALLED, ERROR_LABEL_QUESTIONABLE, ERROR_LABEL_UNREADABLE, ERROR_SLOT_NOT_PRESENT, ERROR_TRAY_MALFUNCTION, ERROR_UNHANDLED_ERROR, PCHANGER_ELEMENT_STATUS, PCHANGER_ELEMENT_STATUS structure pointer, _CHANGER_ELEMENT_STATUS, _win32_changer_element_status_str, base.changer_element_status_str, winioctl/CHANGER_ELEMENT_STATUS, winioctl/PCHANGER_ELEMENT_STATUS"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winioctl.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CHANGER_ELEMENT_STATUS, *PCHANGER_ELEMENT_STATUS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinIoCtl.h
+api_name:
+-	CHANGER_ELEMENT_STATUS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CHANGER_ELEMENT_STATUS structure

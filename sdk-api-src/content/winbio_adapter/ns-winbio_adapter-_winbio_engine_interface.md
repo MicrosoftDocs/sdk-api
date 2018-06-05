@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winbio_adapter._WINBIO_ENGINE_INTERFACE
+title: "_WINBIO_ENGINE_INTERFACE"
+author: windows-sdk-content
+description: Contains pointers to your custom engine adapter functions.
+old-location: secbiomet\winbio_engine_interface.htm
+old-project: SecBioMet
+ms.assetid: 04429f64-ae41-4c26-a777-bdb7aa92b685
+ms.author: windowssdkdev
+ms.date: 04/24/2018
+ms.keywords: "*PWINBIO_ENGINE_INTERFACE, PWINBIO_ENGINE_INTERFACE, PWINBIO_ENGINE_INTERFACE structure pointer [Windows Biometric Framework API], WINBIO_ENGINE_INTERFACE, WINBIO_ENGINE_INTERFACE structure [Windows Biometric Framework API], _WINBIO_ENGINE_INTERFACE, secbiomet.winbio_engine_interface, winbio_adapter/PWINBIO_ENGINE_INTERFACE, winbio_adapter/WINBIO_ENGINE_INTERFACE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winbio_adapter.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*PWINBIO_ENGINE_INTERFACE, WINBIO_ENGINE_INTERFACE"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Winbio_adapter.h
+api_name:
+-	WINBIO_ENGINE_INTERFACE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _WINBIO_ENGINE_INTERFACE structure

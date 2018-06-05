@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:certenroll.IX509Extensions.get_Count
+title: IX509Extensions::get_Count
+author: windows-sdk-content
+description: Retrieves the number of IX509Extension objects in the collection.
+old-location: security\ix509extensions_count_property.htm
+old-project: SecCertEnroll
+ms.assetid: 3afee7ca-c58c-4152-b696-19d31410de5a
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: Count property [Security], Count property [Security],IX509Extensions interface, IX509Extensions interface [Security],Count property, IX509Extensions.Count, IX509Extensions.get_Count, IX509Extensions::Count, IX509Extensions::get_Count, certenroll/IX509Extensions::Count, certenroll/IX509Extensions::get_Count, get_Count, security.ix509extensions_count_property
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: certenroll.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: X509RequestType
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	CertEnroll.dll
+api_name:
+-	IX509Extensions.Count
+-	IX509Extensions.get_Count
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 ---
 
 # IX509Extensions::get_Count

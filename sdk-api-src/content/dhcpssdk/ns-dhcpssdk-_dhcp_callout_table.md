@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpssdk._DHCP_CALLOUT_TABLE
+title: "_DHCP_CALLOUT_TABLE"
+author: windows-sdk-content
+description: The DHCP_CALLOUT_TABLE structure is used by Microsoft DHCP Server and third-party DLLs to send notification requests for DHCP Server events.
+old-location: dhcp\dhcp_callout_table.htm
+old-project: DHCP
+ms.assetid: fa57e5c5-2335-44ba-8642-61dcb8b33ffe
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_CALLOUT_TABLE, DHCP_CALLOUT_TABLE, DHCP_CALLOUT_TABLE structure [DHCP], LPDHCP_CALLOUT_TABLE, LPDHCP_CALLOUT_TABLE structure pointer [DHCP], _DHCP_CALLOUT_TABLE, _dhcp_dhcp_callout_table, dhcp.dhcp_callout_table, dhcpssdk/DHCP_CALLOUT_TABLE, dhcpssdk/LPDHCP_CALLOUT_TABLE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpssdk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_CALLOUT_TABLE, *LPDHCP_CALLOUT_TABLE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpssdk.h
+api_name:
+-	DHCP_CALLOUT_TABLE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_CALLOUT_TABLE structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:ddraw.IDirectDrawSurface7.BltBatch
+title: IDirectDrawSurface7::BltBatch
+author: windows-sdk-content
+description: The IDirectDrawSurface7::BltBatch method is not currently implemented.
+old-location: directdraw\idirectdrawsurface7_bltbatch.htm
+old-project: directdraw
+ms.assetid: 50c071a6-2963-474e-994e-c789b1924d92
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: BltBatch, BltBatch method [DirectDraw], BltBatch method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],BltBatch method, IDirectDrawSurface7.BltBatch, IDirectDrawSurface7::BltBatch, ddraw/IDirectDrawSurface7::BltBatch, directdraw.idirectdrawsurface7_bltbatch
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ddraw.dll
+api_name:
+-	IDirectDrawSurface7.BltBatch
+product: Windows
+targetos: Windows
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 ---
 
 # IDirectDrawSurface7::BltBatch

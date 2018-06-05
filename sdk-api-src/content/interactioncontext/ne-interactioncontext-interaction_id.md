@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:interactioncontext.INTERACTION_ID
+title: INTERACTION_ID
+author: windows-sdk-content
+description: Specifies the interaction states used for configuring an Interaction Context object.
+old-location: input_intcontext\interaction_id.htm
+old-project: Input_IntContext
+ms.assetid: 9c6ac9ce-d7c9-4a92-9631-2f241a762525
+ms.author: windowssdkdev
+ms.date: 05/08/2018
+ms.keywords: INTERACTION_ID, INTERACTION_ID enumeration, INTERACTION_ID_CROSS_SLIDE, INTERACTION_ID_DRAG, INTERACTION_ID_HOLD, INTERACTION_ID_MANIPULATION, INTERACTION_ID_MAX, INTERACTION_ID_NONE, INTERACTION_ID_SECONDARY_TAP, INTERACTION_ID_TAP, input_intcontext.interaction_id, interactioncontext.interaction_id, interactioncontext/INTERACTION_ID, interactioncontext/INTERACTION_ID_CROSS_SLIDE, interactioncontext/INTERACTION_ID_DRAG, interactioncontext/INTERACTION_ID_HOLD, interactioncontext/INTERACTION_ID_MANIPULATION, interactioncontext/INTERACTION_ID_MAX, interactioncontext/INTERACTION_ID_NONE, interactioncontext/INTERACTION_ID_SECONDARY_TAP, interactioncontext/INTERACTION_ID_TAP
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: interactioncontext.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: INTERACTION_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	interactioncontext.h
+api_name:
+-	INTERACTION_ID
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # INTERACTION_ID enumeration

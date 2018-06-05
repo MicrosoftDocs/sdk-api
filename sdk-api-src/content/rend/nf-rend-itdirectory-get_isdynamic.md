@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:rend.ITDirectory.get_IsDynamic
+title: ITDirectory::get_IsDynamic
+author: windows-sdk-content
+description: The get_IsDynamic method gets an indicator of whether the object on the server needs to be refreshed.
+old-location: tapi3\itdirectory_get_isdynamic.htm
+old-project: Tapi
+ms.assetid: 4260ad95-d684-44e4-877f-fcdbe4fe0fd7
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: ITDirectory interface [TAPI 2.2],get_IsDynamic method, ITDirectory.get_IsDynamic, ITDirectory::get_IsDynamic, _tapi3_itdirectory_get_isdynamic, get_IsDynamic, get_IsDynamic method [TAPI 2.2], get_IsDynamic method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_IsDynamic, tapi3.itdirectory_get_isdynamic
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rend.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Rend.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: RND_ADVERTISING_SCOPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Rend.dll
+api_name:
+-	ITDirectory.get_IsDynamic
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITDirectory::get_IsDynamic

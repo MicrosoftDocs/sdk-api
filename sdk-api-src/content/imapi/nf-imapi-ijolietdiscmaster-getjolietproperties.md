@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:imapi.IJolietDiscMaster.GetJolietProperties
+title: IJolietDiscMaster::GetJolietProperties
+author: windows-sdk-content
+description: Retrieves a pointer to an IPropertyStorage interface that contains the Joliet properties.
+old-location: imapi\ijolietdiscmaster_getjolietproperties.htm
+old-project: imapi
+ms.assetid: 660657b3-b378-4c16-9294-89309e4da569
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: GetJolietProperties, GetJolietProperties method [IMAPI], GetJolietProperties method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],GetJolietProperties method, IJolietDiscMaster.GetJolietProperties, IJolietDiscMaster::GetJolietProperties, _win32_ijolietdiscmaster_getjolietproperties, base.ijolietdiscmaster_getjolietproperties, imapi.ijolietdiscmaster_getjolietproperties, imapi/IJolietDiscMaster::GetJolietProperties
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: imapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Actxprxy.dll
+api_name:
+-	IJolietDiscMaster.GetJolietProperties
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IJolietDiscMaster::GetJolietProperties

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:shobjidl.VPCOLORFLAGS
+title: VPCOLORFLAGS
+author: windows-sdk-content
+description: Specifies the use of a color. Used by IVisualProperties methods.
+old-location: shell\VPCOLORFLAGS.htm
+old-project: shell
+ms.assetid: 438fb7ee-c0ce-4c20-9dbb-51593005d3ad
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: VPCF_BACKGROUND, VPCF_SORTCOLUMN, VPCF_SUBTEXT, VPCF_TEXT, VPCF_TEXTBACKGROUND, VPCOLORFLAGS, VPCOLORFLAGS enumeration [Windows Shell], _shell_VPCOLORFLAGS, shell.VPCOLORFLAGS, shobjidl/VPCF_BACKGROUND, shobjidl/VPCF_SORTCOLUMN, shobjidl/VPCF_SUBTEXT, shobjidl/VPCF_TEXT, shobjidl/VPCF_TEXTBACKGROUND, shobjidl/VPCOLORFLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: shobjidl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista, Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Shobjidl.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VPCOLORFLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Shobjidl.h
+api_name:
+-	VPCOLORFLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # VPCOLORFLAGS enumeration

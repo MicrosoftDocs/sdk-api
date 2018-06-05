@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vdssys._GET_VIRTUAL_DISK_INFO
+title: "_GET_VIRTUAL_DISK_INFO"
+author: windows-sdk-content
+description: Contains virtual hard disk (VHD) information.
+old-location: vhd\get_virtual_disk_info.htm
+old-project: VStor
+ms.assetid: 666c1d6e-cf23-4452-98ea-e7d4c31c3d3b
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PGET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO structure [VHD], PGET_VIRTUAL_DISK_INFO, PGET_VIRTUAL_DISK_INFO structure pointer [VHD], _GET_VIRTUAL_DISK_INFO, vdssys/GET_VIRTUAL_DISK_INFO, vdssys/PGET_VIRTUAL_DISK_INFO, vhd.get_virtual_disk_info, virtdisk/GET_VIRTUAL_DISK_INFO, virtdisk/PGET_VIRTUAL_DISK_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vdssys.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7
+req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: GET_VIRTUAL_DISK_INFO, *PGET_VIRTUAL_DISK_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	VirtDisk.h
+-	vdssys.h
+api_name:
+-	GET_VIRTUAL_DISK_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _GET_VIRTUAL_DISK_INFO structure

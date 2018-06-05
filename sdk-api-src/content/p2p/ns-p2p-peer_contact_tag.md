@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:p2p.peer_contact_tag
+title: peer_contact_tag
+author: windows-sdk-content
+description: The PEER_CONTACT structure contains information about a specific contact.
+old-location: p2p\peer_contact.htm
+old-project: P2PSdk
+ms.assetid: b84a17fc-35d6-4098-9bb3-18e708541a80
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PPEER_CONTACT, PCPEER_CONTACT, PCPEER_CONTACT structure pointer [Peer Networking], PEER_CONTACT, PEER_CONTACT structure [Peer Networking], PPEER_CONTACT, PPEER_CONTACT structure pointer [Peer Networking], p2p.peer_contact, p2p/PCPEER_CONTACT, p2p/PEER_CONTACT, p2p/PPEER_CONTACT, peer_contact_tag"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: p2p.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PEER_CONTACT, *PPEER_CONTACT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	P2P.h
+api_name:
+-	PEER_CONTACT
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # peer_contact_tag structure

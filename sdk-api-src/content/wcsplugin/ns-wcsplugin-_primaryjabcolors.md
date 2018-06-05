@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wcsplugin._PrimaryJabColors
+title: "_PrimaryJabColors"
+author: windows-sdk-content
+description: This structure contains eight primary colors in Jab coordinates.
+old-location: wcs\primaryjabcolors.htm
+old-project: WCS
+ms.assetid: 510dce85-23de-4c1c-a794-8ad53cc9fdfb
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: PrimaryJabColors, PrimaryJabColors structure [Windows Color System], _PrimaryJabColors, _color_PrimaryJabColors_str, wcs.primaryjabcolors, wcsplugin/PrimaryJabColors
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wcsplugin.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PrimaryJabColors
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WcsPlugIn.h
+api_name:
+-	PrimaryJabColors
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _PrimaryJabColors structure

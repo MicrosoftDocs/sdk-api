@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:pla.ITraceDataProvider.put_FilterType
+title: ITraceDataProvider::put_FilterType
+author: windows-sdk-content
+description: Retrieves or sets a provider-defined filter type.
+old-location: pla\itracedataprovider_filtertype.htm
+old-project: PLA
+ms.assetid: adc9f89f-fffe-4df0-a9fd-72ae80fdf9b5
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: FilterType property [PLA], FilterType property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],FilterType property, ITraceDataProvider.FilterType, ITraceDataProvider.put_FilterType, ITraceDataProvider::FilterType, ITraceDataProvider::get_FilterType, ITraceDataProvider::put_FilterType, base.itracedataprovider_filtertype, pla.itracedataprovider_filtertype, pla/ITraceDataProvider::FilterType, pla/ITraceDataProvider::get_FilterType, pla/ITraceDataProvider::put_FilterType, put_FilterType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: pla.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: FolderActionSteps
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Pla.dll
+api_name:
+-	ITraceDataProvider.FilterType
+-	ITraceDataProvider.get_FilterType
+-	ITraceDataProvider.put_FilterType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITraceDataProvider::put_FilterType

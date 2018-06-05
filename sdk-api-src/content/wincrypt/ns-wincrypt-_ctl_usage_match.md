@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:wincrypt._CTL_USAGE_MATCH
+title: "_CTL_USAGE_MATCH"
+author: windows-sdk-content
+description: Provides parameters for finding certificate trust lists (CTL) used to build a certificate chain.
+old-location: security\ctl_usage_match.htm
+old-project: SecCrypto
+ms.assetid: 0b1146b7-a6fe-4cd0-aff7-b49ec6f561a0
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: "*PCTL_USAGE_MATCH, CTL_USAGE_MATCH, CTL_USAGE_MATCH structure [Security], PCTL_USAGE_MATCH, PCTL_USAGE_MATCH structure pointer [Security], USAGE_MATCH_TYPE_AND, USAGE_MATCH_TYPE_OR, _CTL_USAGE_MATCH, _crypto2_ctl_usage_match, security.ctl_usage_match, wincrypt/CTL_USAGE_MATCH, wincrypt/PCTL_USAGE_MATCH"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CTL_USAGE_MATCH, *PCTL_USAGE_MATCH
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wincrypt.h
+api_name:
+-	CTL_USAGE_MATCH
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # _CTL_USAGE_MATCH structure

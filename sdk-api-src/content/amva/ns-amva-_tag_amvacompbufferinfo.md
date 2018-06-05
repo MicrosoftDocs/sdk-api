@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:amva._tag_AMVACompBufferInfo
+title: "_tag_AMVACompBufferInfo"
+author: windows-sdk-content
+description: The AMVACompBufferInfo structure describes the allocated surfaces and compressed buffer information.
+old-location: dshow\amvacompbufferinfo.htm
+old-project: DirectShow
+ms.assetid: 74ef5dfb-1062-40c6-a2dd-76f46ca8db92
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*LPAMVACompBufferInfo, AMVACompBufferInfo, AMVACompBufferInfo structure [DirectShow], AMVACompBufferInfoStructure, LPAMVACompBufferInfo, LPAMVACompBufferInfo structure pointer [DirectShow], _tag_AMVACompBufferInfo, amva/AMVACompBufferInfo, amva/LPAMVACompBufferInfo, dshow.amvacompbufferinfo"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: amva.h
+req.include-header: Videoacc.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AMVACompBufferInfo, *LPAMVACompBufferInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	amva.h
+api_name:
+-	AMVACompBufferInfo
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _tag_AMVACompBufferInfo structure

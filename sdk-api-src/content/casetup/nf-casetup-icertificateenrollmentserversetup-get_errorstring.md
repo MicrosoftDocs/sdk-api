@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:casetup.ICertificateEnrollmentServerSetup.get_ErrorString
+title: ICertificateEnrollmentServerSetup::get_ErrorString
+author: windows-sdk-content
+description: Retrieves a string that contains additional information about Certificate Enrollment Web Service (CES) setup failure.
+old-location: security\icertificateenrollmentserversetup_errorstring.htm
+old-project: SecCrypto
+ms.assetid: D4322BE8-1CED-47D0-98C2-D5D7C151DEAB
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: ErrorString property [Security], ErrorString property [Security],ICertificateEnrollmentServerSetup interface, ICertificateEnrollmentServerSetup interface [Security],ErrorString property, ICertificateEnrollmentServerSetup.ErrorString, ICertificateEnrollmentServerSetup.get_ErrorString, ICertificateEnrollmentServerSetup::ErrorString, ICertificateEnrollmentServerSetup::get_ErrorString, casetup/ICertificateEnrollmentServerSetup::ErrorString, casetup/ICertificateEnrollmentServerSetup::get_ErrorString, get_ErrorString, security.icertificateenrollmentserversetup_errorstring
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: casetup.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Casetup.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CEPSetupProperty
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Certocm.dll
+api_name:
+-	ICertificateEnrollmentServerSetup.ErrorString
+-	ICertificateEnrollmentServerSetup.get_ErrorString
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 ---
 
 # ICertificateEnrollmentServerSetup::get_ErrorString

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:mobsync._tagSYNCMGRPROGRESSITEM
+title: "_tagSYNCMGRPROGRESSITEM"
+author: windows-sdk-content
+description: Provides status information while a synchronization is in progress. This structure is used with the ISyncMgrSynchronizeCallback::Progress method and corresponds to a single synchronization item.
+old-location: shell\syncmgr_syncmgrprogressitem.htm
+old-project: shell
+ms.assetid: 94ac1206-be5f-467c-ab4a-11f574c406ca
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: "*LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM structure pointer [Windows Shell], SYNCMGRPROGRESSITEM, SYNCMGRPROGRESSITEM structure [Windows Shell], _tagSYNCMGRPROGRESSITEM, mobsync/LPSYNCMGRPROGRESSITEM, mobsync/SYNCMGRPROGRESSITEM, shell.syncmgr_syncmgrprogressitem, syncmgr.syncmgrprogressitem"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mobsync.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SYNCMGRPROGRESSITEM, *LPSYNCMGRPROGRESSITEM
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Mobsync.h
+api_name:
+-	SYNCMGRPROGRESSITEM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _tagSYNCMGRPROGRESSITEM structure

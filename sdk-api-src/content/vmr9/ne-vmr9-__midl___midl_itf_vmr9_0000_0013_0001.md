@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0013_0001
+title: "__MIDL___MIDL_itf_vmr9_0000_0013_0001"
+author: windows-sdk-content
+description: The VMR9DeinterlacePrefs enumeration type describes the deinterlacing method that the Video Mixing Renderer Filter 9 (VMR-9) uses if the method set by the application cannot be used.
+old-location: dshow\vmr9deinterlaceprefs.htm
+old-project: DirectShow
+ms.assetid: 1e5f5749-bdf9-4220-9867-ba6899797850
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: DeinterlacePref9_BOB, DeinterlacePref9_Mask, DeinterlacePref9_NextBest, DeinterlacePref9_Weave, VMR9DeinterlacePrefs, VMR9DeinterlacePrefs , VMR9DeinterlacePrefs enumeration [DirectShow], VMR9DeinterlacePrefsEnumeration, __MIDL___MIDL_itf_vmr9_0000_0013_0001, dshow.vmr9deinterlaceprefs, vmr9/DeinterlacePref9_BOB, vmr9/DeinterlacePref9_Mask, vmr9/DeinterlacePref9_NextBest, vmr9/DeinterlacePref9_Weave, vmr9/VMR9DeinterlacePrefs
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: vmr9.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VMR9DeinterlacePrefs
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vmr9.h
+api_name:
+-	VMR9DeinterlacePrefs
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # __MIDL___MIDL_itf_vmr9_0000_0013_0001 enumeration

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:spatialaudiometadata.ISpatialAudioMetadataWriter.WriteNextItem
+title: ISpatialAudioMetadataWriter::WriteNextItem
+author: windows-sdk-content
+description: Starts a new metadata item at the specified offset.
+old-location: coreaudio\ispatialaudiometadatawriter_writenextitem.htm
+old-project: CoreAudio
+ms.assetid: 9D61BFC0-BAD7-46D3-B0E9-4848E37785E9
+ms.author: windowssdkdev
+ms.date: 05/09/2018
+ms.keywords: ISpatialAudioMetadataWriter interface [Core Audio],WriteNextItem method, ISpatialAudioMetadataWriter.WriteNextItem, ISpatialAudioMetadataWriter::WriteNextItem, WriteNextItem, WriteNextItem method [Core Audio], WriteNextItem method [Core Audio],ISpatialAudioMetadataWriter interface, coreaudio.ispatialaudiometadatawriter_writenextitem, spatialaudiometadata/ISpatialAudioMetadataWriter::WriteNextItem
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: spatialaudiometadata.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SpatialAudioMetadataWriterOverflowMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	SpatialAudioMetadata.h
+api_name:
+-	ISpatialAudioMetadataWriter.WriteNextItem
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioMetadataWriter::WriteNextItem

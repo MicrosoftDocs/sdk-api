@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:sbe.ISBE2EnumStream.Reset
+title: ISBE2EnumStream::Reset
+author: windows-sdk-content
+description: Resets the enumeration sequence to the beginning.
+old-location: mstv\isbe2enumstream_reset.htm
+old-project: mstv
+ms.assetid: db74d4b5-6564-4fbe-9ea3-0c373be4af44
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Reset method, ISBE2EnumStream.Reset, ISBE2EnumStream::Reset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],ISBE2EnumStream interface, mstv.isbe2enumstream_reset, sbe/ISBE2EnumStream::Reset
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sbe.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Sbe.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: STREAMBUFFER_ATTR_DATATYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	sbe.dll
+api_name:
+-	ISBE2EnumStream.Reset
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Sbe.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISBE2EnumStream::Reset

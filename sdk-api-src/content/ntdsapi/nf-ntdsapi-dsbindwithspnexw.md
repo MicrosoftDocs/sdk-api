@@ -1,31 +1,53 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:ntdsapi.DsBindWithSpnExW
+title: DsBindWithSpnExW function
+author: windows-sdk-content
+description: Binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication.
+old-location: ad\dsbindwithspnex.htm
+old-project: AD
+ms.assetid: 52a5761d-5244-4bc9-8c09-fd08f10a9fff
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: DsBindWithSpnEx, DsBindWithSpnEx function [Active Directory], DsBindWithSpnExA, DsBindWithSpnExW, NTDSAPI_BIND_ALLOW_DELEGATION, NTDSAPI_BIND_FIND_BINDING, NTDSAPI_BIND_FORCE_KERBEROS, ad.dsbindwithspnex, ntdsapi/DsBindWithSpnEx, ntdsapi/DsBindWithSpnExA, ntdsapi/DsBindWithSpnExW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: DsBindWithSpnExW (Unicode) and DsBindWithSpnExA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_REPL_OP_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ntdsapi.dll
+-	API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+-	API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+-	KernelBase.dll
+api_name:
+-	DsBindWithSpnEx
+-	DsBindWithSpnExA
+-	DsBindWithSpnExW
+product: Windows
+targetos: Windows
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DsBindWithSpnExW function

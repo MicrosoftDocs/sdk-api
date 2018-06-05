@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NC:rtmv2._ENTITY_METHOD
+title: "_ENTITY_METHOD"
+author: windows-sdk-content
+description: The RTM_ENTITY_EXPORT_METHOD callback is the prototype for any method exported by a client.
+old-location: rras\rtm_entity_export_method.htm
+old-project: RRAS
+ms.assetid: bf564898-e540-458b-861c-0f57082d40a1
+ms.author: windowssdkdev
+ms.date: 05/23/2018
+ms.keywords: RTM_ENTITY_EXPORT_METHOD, RTM_ENTITY_EXPORT_METHOD callback function [RAS], RTM_ENTITY_EXPORT_METHOD callback function pointer [RAS], _ENTITY_METHOD, _ENTITY_METHOD callback, _rtmv2ref_rtm_entity_export_method, rras.rtm_entity_export_method, rtmv2/RTM_ENTITY_EXPORT_METHOD
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: rtmv2.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ProxyFileInfo
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	Rtmv2.h
+api_name:
+-	RTM_ENTITY_EXPORT_METHOD
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _ENTITY_METHOD callback function

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:ddrawint.PDD_MOCOMPCB_ENDFRAME
+title: PDD_MOCOMPCB_ENDFRAME
+author: windows-sdk-content
+description: The DdMoCompEndFrame callback function completes a decoded frame.
+old-location: display\ddmocompendframe.htm
+old-project: display
+ms.assetid: 3589f003-32fc-44c4-867a-abf54f347de9
+ms.author: windowssdkdev
+ms.date: 05/10/2018
+ms.keywords: DdMoCompEndFrame, DdMoCompEndFrame callback function [Display Devices], PDD_MOCOMPCB_ENDFRAME, PDD_MOCOMPCB_ENDFRAME callback, ddfncs_24cad2ef-0770-46d5-a3f3-a4565ec66626.xml, ddrawint/DdMoCompEndFrame, display.ddmocompendframe
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: ddrawint.h
+req.include-header: Winddi.h
+req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	ddrawint.h
+api_name:
+-	DdMoCompEndFrame
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PDD_MOCOMPCB_ENDFRAME callback function

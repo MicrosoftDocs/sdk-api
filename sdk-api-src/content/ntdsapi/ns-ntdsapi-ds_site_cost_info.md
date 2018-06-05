@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:ntdsapi.DS_SITE_COST_INFO
+title: DS_SITE_COST_INFO
+author: windows-sdk-content
+description: The DS_SITE_COST_INFO structure is used with the DsQuerySitesByCost function to contain communication cost data.
+old-location: ad\ds_site_cost_info.htm
+old-project: AD
+ms.assetid: 1920e824-992f-4d69-9b6d-586f58fa2ef7
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PDS_SITE_COST_INFO, DS_SITE_COST_INFO, DS_SITE_COST_INFO structure [Active Directory], ERROR_DS_OBJ_NOT_FOUND, ERROR_SUCCESS, ad.ds_site_cost_info, ntdsapi/DS_SITE_COST_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntdsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DS_SITE_COST_INFO, *PDS_SITE_COST_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ntdsapi.h
+api_name:
+-	DS_SITE_COST_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # DS_SITE_COST_INFO structure

@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ddraw._DDSURFACEDESC
+title: "_DDSURFACEDESC"
+author: windows-sdk-content
+description: Do not use. This structure is superseded by the DDSURFACEDESC2 structure that is used with the IDirectDraw7 and IDirectDrawSurface7 interfaces.
+old-location: directdraw\ddsurfacedesc.htm
+old-project: directdraw
+ms.assetid: a88f37bc-b5c0-4bc1-b6ee-30923362c1ca
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: "*LPDDSURFACEDESC, DDSD_ALL, DDSD_ALPHABITDEPTH, DDSD_BACKBUFFERCOUNT, DDSD_CAPS, DDSD_CKDESTBLT, DDSD_CKDESTOVERLAY, DDSD_CKSRCBLT, DDSD_CKSRCOVERLAY, DDSD_HEIGHT, DDSD_LINEARSIZE, DDSD_LPSURFACE, DDSD_MIPMAPCOUNT, DDSD_PITCH, DDSD_PIXELFORMAT, DDSD_REFRESHRATE, DDSD_WIDTH, DDSD_ZBUFFERBITDEPTH, DDSURFACEDESC, DDSURFACEDESC structure [DirectDraw], LPDDSURFACEDESC, LPDDSURFACEDESC structure pointer [DirectDraw], _DDSURFACEDESC, ddraw/DDSURFACEDESC, ddraw/LPDDSURFACEDESC, directdraw.ddsurfacedesc"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: "*LPDDSURFACEDESC, DDSURFACEDESC"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Ddraw.h
+api_name:
+-	DDSURFACEDESC
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DDSURFACEDESC structure

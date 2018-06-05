@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:dhcpsapi._DHCP_CLIENT_INFO_VQ
+title: "_DHCP_CLIENT_INFO_VQ"
+author: windows-sdk-content
+description: Defines information about the DHCPv4 client.
+old-location: dhcp\dhcp_client_info_vq.htm
+old-project: DHCP
+ms.assetid: f7bd832d-b4a4-404c-8959-e9653b62d434
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*LPDHCP_CLIENT_INFO_VQ, ADDRESS_STATE_ACTIVE, ADDRESS_STATE_DECLINED, ADDRESS_STATE_DOOM, ADDRESS_STATE_OFFERED, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIENT_TYPE_DHCP, CLIENT_TYPE_NONE, CLIENT_TYPE_RESERVATION_FLAG, CLIENT_TYPE_UNSPECIFIED, DHCP_CLIENT_INFO_VQ, DHCP_CLIENT_INFO_VQ structure [DHCP], PDHCP_CLIENT_INFO_VQ, PDHCP_CLIENT_INFO_VQ structure pointer [DHCP], _DHCP_CLIENT_INFO_VQ, dhcp.dhcp_client_info_vq, dhcpsapi/DHCP_CLIENT_INFO_VQ, dhcpsapi/PDHCP_CLIENT_INFO_VQ"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DHCP_CLIENT_INFO_VQ, *LPDHCP_CLIENT_INFO_VQ
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Dhcpsapi.h
+api_name:
+-	DHCP_CLIENT_INFO_VQ
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # _DHCP_CLIENT_INFO_VQ structure

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:winnt.POWER_ACTION_POLICY
+title: POWER_ACTION_POLICY
+author: windows-sdk-content
+description: Contains information used to set the system power state.
+old-location: base\power_action_policy_str.htm
+old-project: Power
+ms.assetid: 70739f46-54be-4748-8993-ffee3b2a8b6c
+ms.author: windowssdkdev
+ms.date: 03/27/2018
+ms.keywords: "*PPOWER_ACTION_POLICY, POWER_ACTION_CRITICAL, POWER_ACTION_DISABLE_WAKES, POWER_ACTION_LIGHTEST_FIRST, POWER_ACTION_LOCK_CONSOLE, POWER_ACTION_OVERRIDE_APPS, POWER_ACTION_POLICY, POWER_ACTION_POLICY structure, POWER_ACTION_QUERY_ALLOWED, POWER_ACTION_UI_ALLOWED, POWER_FORCE_TRIGGER_RESET, POWER_LEVEL_USER_NOTIFY_EXEC, POWER_LEVEL_USER_NOTIFY_SOUND, POWER_LEVEL_USER_NOTIFY_TEXT, POWER_USER_NOTIFY_BUTTON, POWER_USER_NOTIFY_SHUTDOWN, PPOWER_ACTION_POLICY, PPOWER_ACTION_POLICY structure pointer, _win32_power_action_policy_str, base.power_action_policy_str, winnt/POWER_ACTION_POLICY, winnt/PPOWER_ACTION_POLICY"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: POWER_ACTION_POLICY, *PPOWER_ACTION_POLICY
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	WinNT.h
+api_name:
+-	POWER_ACTION_POLICY
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # POWER_ACTION_POLICY structure

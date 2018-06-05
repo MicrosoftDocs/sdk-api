@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:usp10.textrange_properties
+title: textrange_properties
+author: windows-sdk-content
+description: Contains a group of OpenType features to apply to a run.
+old-location: intl\textrange_properties.htm
+old-project: Intl
+ms.assetid: f43a0873-f499-4d66-9fce-57f332c1dc77
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: TEXTRANGE_PROPERTIES, TEXTRANGE_PROPERTIES structure [Internationalization for Windows Applications], _win32_TEXTRANGE_PROPERTIES, intl.textrange_properties, textrange_properties, usp10/TEXTRANGE_PROPERTIES
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: usp10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TEXTRANGE_PROPERTIES
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Usp10.h
+api_name:
+-	TEXTRANGE_PROPERTIES
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # textrange_properties structure

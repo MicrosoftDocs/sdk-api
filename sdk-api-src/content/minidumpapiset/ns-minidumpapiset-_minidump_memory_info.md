@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:minidumpapiset._MINIDUMP_MEMORY_INFO
+title: "_MINIDUMP_MEMORY_INFO"
+author: windows-sdk-content
+description: Describes a region of memory.
+old-location: base\minidump_memory_info_str.htm
+old-project: Debug
+ms.assetid: e9a797b9-5cad-48c0-bb33-ca9c13de8239
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: "*PMINIDUMP_MEMORY_INFO, MEM_COMMIT, MEM_FREE, MEM_IMAGE, MEM_MAPPED, MEM_PRIVATE, MEM_RESERVE, MINIDUMP_MEMORY_INFO, MINIDUMP_MEMORY_INFO structure, PMINIDUMP_MEMORY_INFO, PMINIDUMP_MEMORY_INFO structure pointer, _MINIDUMP_MEMORY_INFO, base.minidump_memory_info_str, minidumpapiset/MINIDUMP_MEMORY_INFO, minidumpapiset/PMINIDUMP_MEMORY_INFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: minidumpapiset.h
+req.include-header: DbgHelp.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MINIDUMP_MEMORY_INFO, *PMINIDUMP_MEMORY_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	minidumpapiset.h
+api_name:
+-	MINIDUMP_MEMORY_INFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MINIDUMP_MEMORY_INFO structure

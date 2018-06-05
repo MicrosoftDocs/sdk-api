@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:oleacc.IAccPropServices.ComposeHmenuIdentityString
+title: IAccPropServices::ComposeHmenuIdentityString
+author: windows-sdk-content
+description: Callers use ComposeHmenuIdentityString to retrieve an identity string for an HMENU-based accessible element.
+old-location: winauto\iaccpropservices_iaccpropservices__composehmenuidentitystring.htm
+old-project: WinAuto
+ms.assetid: b0eb54e0-d903-46d8-a9f5-47f2c055c059
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: ComposeHmenuIdentityString, ComposeHmenuIdentityString method [Windows Accessibility], ComposeHmenuIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ComposeHmenuIdentityString method, IAccPropServices.ComposeHmenuIdentityString, IAccPropServices::ComposeHmenuIdentityString, oleacc/IAccPropServices::ComposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__composehmenuidentitystring
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: oleacc.h
+req.include-header: OleAcc.h Include Initguid.h first.
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: QACONTROL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Oleacc.dll
+api_name:
+-	IAccPropServices.ComposeHmenuIdentityString
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Oleacc.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IAccPropServices::ComposeHmenuIdentityString

@@ -1,31 +1,48 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:il21dec._AM_LINE21_CCSERVICE
+title: "_AM_LINE21_CCSERVICE"
+author: windows-sdk-content
+description: Indicates the closed captioning service.
+old-location: dshow\am_line21_ccservice.htm
+old-project: DirectShow
+ms.assetid: dd2b618f-ffbf-4d48-bbe8-6d237a0f54e8
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: "*PAM_LINE21_CCSERVICE, AM_L21_CCSERVICE_Caption1, AM_L21_CCSERVICE_Caption2, AM_L21_CCSERVICE_None, AM_L21_CCSERVICE_Text1, AM_L21_CCSERVICE_Text2, AM_L21_CCSERVICE_XDS, AM_LINE21_CCSERVICE, AM_LINE21_CCSERVICE , AM_LINE21_CCSERVICE enumeration [DirectShow], AM_LINE21_CCSERVICEEnumeration, PAM_LINE21_CCSERVICE, PAM_LINE21_CCSERVICE enumeration pointer [DirectShow], _AM_LINE21_CCSERVICE, dshow.am_line21_ccservice, il21dec/AM_L21_CCSERVICE_Caption1, il21dec/AM_L21_CCSERVICE_Caption2, il21dec/AM_L21_CCSERVICE_None, il21dec/AM_L21_CCSERVICE_Text1, il21dec/AM_L21_CCSERVICE_Text2, il21dec/AM_L21_CCSERVICE_XDS, il21dec/AM_LINE21_CCSERVICE, il21dec/PAM_LINE21_CCSERVICE"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: il21dec.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Iketypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: AM_LINE21_CCSERVICE, *PAM_LINE21_CCSERVICE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	il21dec.h
+api_name:
+-	AM_LINE21_CCSERVICE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _AM_LINE21_CCSERVICE enumeration

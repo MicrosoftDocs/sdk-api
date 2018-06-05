@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ntddkbd._KEYBOARD_INPUT_DATA
+title: "_KEYBOARD_INPUT_DATA"
+author: windows-sdk-content
+description: KEYBOARD_INPUT_DATA contains one packet of keyboard input data.
+old-location: hid\keyboard_input_data.htm
+old-project: hid
+ms.assetid: ea0b592a-51d1-4407-9c66-b069af336e54
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PKEYBOARD_INPUT_DATA, KEYBOARD_INPUT_DATA, KEYBOARD_INPUT_DATA structure [Human Input Devices], PKEYBOARD_INPUT_DATA, PKEYBOARD_INPUT_DATA structure pointer [Human Input Devices], _KEYBOARD_INPUT_DATA, hid.keyboard_input_data, kref_5fd34b1f-6ad2-4eaf-971a-8adedb3bada9.xml, ntddkbd/KEYBOARD_INPUT_DATA, ntddkbd/PKEYBOARD_INPUT_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntddkbd.h
+req.include-header: Ntddkbd.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: KEYBOARD_INPUT_DATA, *PKEYBOARD_INPUT_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ntddkbd.h
+api_name:
+-	KEYBOARD_INPUT_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _KEYBOARD_INPUT_DATA structure

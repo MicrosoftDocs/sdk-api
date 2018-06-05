@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmcodecdsp.ITocParser.RemoveTocByIndex
+title: ITocParser::RemoveTocByIndex
+author: windows-sdk-content
+description: The RemoveTocByIndex method removes a table of contents, specified by an index, from the TOC Parser object.
+old-location: mf\itocparser_removetocbyindex.htm
+old-project: medfound
+ms.assetid: 7ec459bf-c631-4ad4-beb3-4cd1e89c1d35
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: ITocParser interface [Media Foundation],RemoveTocByIndex method, ITocParser.RemoveTocByIndex, ITocParser::RemoveTocByIndex, RemoveTocByIndex, RemoveTocByIndex method [Media Foundation], RemoveTocByIndex method [Media Foundation],ITocParser interface, codecapi.itocparser_removetocbyindex, mf.itocparser_removetocbyindex, wmcodecdsp/ITocParser::RemoveTocByIndex
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmcodecdsp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoDSPMode
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	wmvdspa.dll
+api_name:
+-	ITocParser.RemoveTocByIndex
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # ITocParser::RemoveTocByIndex

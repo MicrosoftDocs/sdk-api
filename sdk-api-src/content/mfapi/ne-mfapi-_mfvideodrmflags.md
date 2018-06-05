@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:mfapi._MFVideoDRMFlags
+title: "_MFVideoDRMFlags"
+author: windows-sdk-content
+description: Specifies the type of copy protection required for a video stream.
+old-location: mf\mfvideodrmflags.htm
+old-project: medfound
+ms.assetid: 6d218992-c1c3-4d83-b364-4c7d3b50474f
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 6d218992-c1c3-4d83-b364-4c7d3b50474f, MFVideoDRMFlag_AnalogProtected, MFVideoDRMFlag_DigitallyProtected, MFVideoDRMFlag_None, MFVideoDRMFlags, MFVideoDRMFlags enumeration [Media Foundation], _MFVideoDRMFlags, mf.mfvideodrmflags, mfapi/MFVideoDRMFlag_AnalogProtected, mfapi/MFVideoDRMFlag_DigitallyProtected, mfapi/MFVideoDRMFlag_None, mfapi/MFVideoDRMFlags
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFVideoDRMFlags
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	mfapi.h
+api_name:
+-	MFVideoDRMFlags
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _MFVideoDRMFlags enumeration

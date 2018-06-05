@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:lmshare._SESSION_INFO_10
+title: "_SESSION_INFO_10"
+author: windows-sdk-content
+description: Contains information about the session, including name of the computer; name of the user; and active and idle times for the session.
+old-location: fs\session_info_10_str.htm
+old-project: NetShare
+ms.assetid: a23a5647-f99d-4cb8-9d84-93653a3e7428
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: "*LPSESSION_INFO_10, *PSESSION_INFO_10, LPSESSION_INFO_10, LPSESSION_INFO_10 structure pointer [Files], PSESSION_INFO_10, PSESSION_INFO_10 structure pointer [Files], SESSION_INFO_10, SESSION_INFO_10 structure [Files], _SESSION_INFO_10, _win32_session_info_10_str, fs.session_info_10_str, lmshare/LPSESSION_INFO_10, lmshare/PSESSION_INFO_10, lmshare/SESSION_INFO_10, netmgmt.session_info_10_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: lmshare.h
+req.include-header: Lm.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: SESSION_INFO_10, *PSESSION_INFO_10, *LPSESSION_INFO_10
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Lmshare.h
+api_name:
+-	SESSION_INFO_10
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # _SESSION_INFO_10 structure

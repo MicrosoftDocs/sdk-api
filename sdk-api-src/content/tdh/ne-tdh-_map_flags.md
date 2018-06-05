@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NE:tdh._MAP_FLAGS
+title: "_MAP_FLAGS"
+author: windows-sdk-content
+description: Defines constant values that indicate if the map is a value map, bitmap, or pattern map.
+old-location: etw\map_flags_enum.htm
+old-project: ETW
+ms.assetid: 3fc6935a-328a-4df3-8c2f-cd634d94ca16
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: EVENTMAP_INFO_FLAG_MANIFEST_BITMAP, EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP, EVENTMAP_INFO_FLAG_MANIFEST_VALUEMAP, EVENTMAP_INFO_FLAG_WBEM_BITMAP, EVENTMAP_INFO_FLAG_WBEM_FLAG, EVENTMAP_INFO_FLAG_WBEM_NO_MAP, EVENTMAP_INFO_FLAG_WBEM_VALUEMAP, MAP_FLAGS, MAP_FLAGS enumeration [ETW], _MAP_FLAGS, etw.map_flags_enum, tdh.map_flags_enum, tdh/EVENTMAP_INFO_FLAG_MANIFEST_BITMAP, tdh/EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP, tdh/EVENTMAP_INFO_FLAG_MANIFEST_VALUEMAP, tdh/EVENTMAP_INFO_FLAG_WBEM_BITMAP, tdh/EVENTMAP_INFO_FLAG_WBEM_FLAG, tdh/EVENTMAP_INFO_FLAG_WBEM_NO_MAP, tdh/EVENTMAP_INFO_FLAG_WBEM_VALUEMAP, tdh/MAP_FLAGS
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MAP_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tdh.h
+api_name:
+-	MAP_FLAGS
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # _MAP_FLAGS enumeration

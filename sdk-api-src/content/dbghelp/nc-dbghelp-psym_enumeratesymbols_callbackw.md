@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NC:dbghelp.PSYM_ENUMERATESYMBOLS_CALLBACKW
+title: PSYM_ENUMERATESYMBOLS_CALLBACKW
+author: windows-sdk-content
+description: An application-defined callback function used with the SymEnumSymbols, SymEnumTypes, and SymEnumTypesByName functions.
+old-location: base\symenumsymbolsproc.htm
+old-project: Debug
+ms.assetid: c9f9aad8-754d-4ec8-92a3-8cf1929b9d8a
+ms.author: windowssdkdev
+ms.date: 05/17/2018
+ms.keywords: PSYM_ENUMERATESYMBOLS_CALLBACK, PSYM_ENUMERATESYMBOLS_CALLBACKW, PSYM_ENUMERATESYMBOLS_CALLBACKW callback function, SymEnumSymbolsProc, SymEnumSymbolsProc callback, SymEnumSymbolsProc callback function, _win32_symenumsymbolsproc, base.symenumsymbolsproc, dbghelp/PSYM_ENUMERATESYMBOLS_CALLBACK, dbghelp/PSYM_ENUMERATESYMBOLS_CALLBACKW, dbghelp/SymEnumSymbolsProc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: PSYM_ENUMERATESYMBOLS_CALLBACKW (Unicode) and PSYM_ENUMERATESYMBOLS_CALLBACK (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	DbgHelp.h
+api_name:
+-	SymEnumSymbolsProc
+-	PSYM_ENUMERATESYMBOLS_CALLBACK
+-	PSYM_ENUMERATESYMBOLS_CALLBACKW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # PSYM_ENUMERATESYMBOLS_CALLBACKW callback function

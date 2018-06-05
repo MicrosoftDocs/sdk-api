@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NN:isolatedapplauncher.IIsolatedAppLauncher
+title: IIsolatedAppLauncher
+author: windows-sdk-content
+description: Enables apps to determine whether they are running in a Windows Defender Application Guard container (VM container environment).
+old-location: winprog\iisolatedapplauncher.htm
+old-project: DevNotes
+ms.assetid: 49C30C52-ACE7-446D-A9B2-5BA7C6583700
+ms.author: windowssdkdev
+ms.date: 06/01/2018
+ms.keywords: IIsolatedAppLauncher, IIsolatedAppLauncher interface [Windows API], IIsolatedAppLauncher interface [Windows API],described, isolatedapplauncher/IIsolatedAppLauncher, winprog.iisolatedapplauncher
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: isolatedapplauncher.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: ISCSI_UNIQUE_SESSION_ID, *PISCSI_UNIQUE_SESSION_ID, ISCSI_UNIQUE_CONNECTION_ID, *PISCSI_UNIQUE_CONNECTION_ID
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	isolatedapplauncher.h
+api_name:
+-	IIsolatedAppLauncher
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
 ---
 
 # IIsolatedAppLauncher interface

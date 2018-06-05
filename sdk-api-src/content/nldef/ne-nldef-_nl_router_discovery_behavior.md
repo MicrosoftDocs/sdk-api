@@ -1,21 +1,21 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
+UID: NE:nldef._NL_ROUTER_DISCOVERY_BEHAVIOR
+title: "_NL_ROUTER_DISCOVERY_BEHAVIOR"
+author: windows-sdk-content
+description: The NL_ROUTER_DISCOVERY_BEHAVIOR enumeration type defines the router discovery behavior, as described in RFC 2461.
+old-location: netvista\nl_router_discovery_behavior.htm
+old-project: netvista
+ms.assetid: d3a0d872-c90a-4eb5-9011-c5913b9912c6
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: NL_ROUTER_DISCOVERY_BEHAVIOR, NL_ROUTER_DISCOVERY_BEHAVIOR enumeration [Network Drivers Starting with Windows Vista], RouterDiscoveryDhcp, RouterDiscoveryDisabled, RouterDiscoveryEnabled, RouterDiscoveryUnchanged, _NL_ROUTER_DISCOVERY_BEHAVIOR, iphelper_fbaacfeb-efe8-45a1-8cf9-c600ed0214e0.xml, netvista.nl_router_discovery_behavior, nldef/NL_ROUTER_DISCOVERY_BEHAVIOR, nldef/RouterDiscoveryDhcp, nldef/RouterDiscoveryDisabled, nldef/RouterDiscoveryEnabled, nldef/RouterDiscoveryUnchanged
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: nldef.h
+req.include-header: Netioapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: NL_ROUTER_DISCOVERY_BEHAVIOR
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	nldef.h
+api_name:
+-	NL_ROUTER_DISCOVERY_BEHAVIOR
+product: Windows
+targetos: Windows
+req.lib: Newdev.lib
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NL_ROUTER_DISCOVERY_BEHAVIOR enumeration

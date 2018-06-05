@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NS:ntddmou._MOUSE_INPUT_DATA
+title: "_MOUSE_INPUT_DATA"
+author: windows-sdk-content
+description: MOUSE_INPUT_DATA contains one packet of mouse input data.
+old-location: hid\mouse_input_data.htm
+old-project: hid
+ms.assetid: 363699d5-e91c-43ea-bae3-8ed997487e31
+ms.author: windowssdkdev
+ms.date: 04/30/2018
+ms.keywords: "*PMOUSE_INPUT_DATA, MOUSE_INPUT_DATA, MOUSE_INPUT_DATA structure [Human Input Devices], PMOUSE_INPUT_DATA, PMOUSE_INPUT_DATA structure pointer [Human Input Devices], _MOUSE_INPUT_DATA, hid.mouse_input_data, mref_7f184199-ae93-458c-8e4b-25fcacc57263.xml, ntddmou/MOUSE_INPUT_DATA, ntddmou/PMOUSE_INPUT_DATA"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: ntddmou.h
+req.include-header: Ntddmou.h
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MOUSE_INPUT_DATA, *PMOUSE_INPUT_DATA
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	ntddmou.h
+api_name:
+-	MOUSE_INPUT_DATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _MOUSE_INPUT_DATA structure

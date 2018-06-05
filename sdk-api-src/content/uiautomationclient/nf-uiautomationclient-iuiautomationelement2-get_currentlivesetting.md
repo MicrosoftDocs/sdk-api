@@ -1,31 +1,49 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:uiautomationclient.IUIAutomationElement2.get_CurrentLiveSetting
+title: IUIAutomationElement2::get_CurrentLiveSetting
+author: windows-sdk-content
+description: Indicates the type of notifications, if any, that the element sends when the content of the element changes.
+old-location: winauto\uiauto_iuiautomationelement2_currentlivesetting.htm
+old-project: WinAuto
+ms.assetid: 3510E0AD-FB79-4636-B6EF-AE0FB62AD55C
+ms.author: windowssdkdev
+ms.date: 04/16/2018
+ms.keywords: CurrentLiveSetting property [Windows Accessibility], CurrentLiveSetting property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CurrentLiveSetting property, IUIAutomationElement2.CurrentLiveSetting, IUIAutomationElement2.get_CurrentLiveSetting, IUIAutomationElement2::CurrentLiveSetting, IUIAutomationElement2::get_CurrentLiveSetting, get_CurrentLiveSetting, uiautomationclient/IUIAutomationElement2::CurrentLiveSetting, uiautomationclient/IUIAutomationElement2::get_CurrentLiveSetting, winauto.uiauto_iuiautomationelement2_currentlivesetting
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: uiautomationclient.h
+req.include-header: UIAutomation.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: UIAutomationClient.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	UIAutomationClient.h
+api_name:
+-	IUIAutomationElement2.CurrentLiveSetting
+-	IUIAutomationElement2.get_CurrentLiveSetting
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # IUIAutomationElement2::get_CurrentLiveSetting

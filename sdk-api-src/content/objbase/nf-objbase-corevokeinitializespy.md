@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:objbase.CoRevokeInitializeSpy
+title: CoRevokeInitializeSpy function
+author: windows-sdk-content
+description: Revokes a registered implementation of the IInitializeSpy interface.
+old-location: com\corevokeinitializespy.htm
+old-project: com
+ms.assetid: 24b0bedd-421a-4215-8edc-9fdce53e3b44
+ms.author: windowssdkdev
+ms.date: 05/29/2018
+ms.keywords: CoRevokeInitializeSpy, CoRevokeInitializeSpy function [COM], _com_CoRevokeInitializeSpy, com.corevokeinitializespy, objbase/CoRevokeInitializeSpy
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: objbase.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: COMSD
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Ole32.dll
+-	API-MS-Win-Core-Com-private-l1-1-0.dll
+-	ComBase.dll
+-	API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+-	API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+-	API-MS-Win-Core-COM-Private-l1-1-1.dll
+api_name:
+-	CoRevokeInitializeSpy
+product: Windows
+targetos: Windows
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CoRevokeInitializeSpy function

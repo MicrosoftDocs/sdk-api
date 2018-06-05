@@ -1,31 +1,50 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CryptRetrieveObjectByUrlA
+title: CryptRetrieveObjectByUrlA function
+author: windows-sdk-content
+description: Retrieves the public key infrastructure (PKI) object from a location specified by a URL.
+old-location: security\cryptretrieveobjectbyurl.htm
+old-project: SecCrypto
+ms.assetid: 2e205f97-be9b-4358-ba22-d475b6a250b7
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: CONTEXT_OID_CAPI2_ANY, CONTEXT_OID_CERTIFICATE, CONTEXT_OID_CRL, CONTEXT_OID_CTL, CONTEXT_OID_OCSP_RESP, CONTEXT_OID_PKCS7, CRYPT_AIA_RETRIEVAL, CRYPT_ASYNC_RETRIEVAL, CRYPT_CACHE_ONLY_RETRIEVAL, CRYPT_DONT_CACHE_RESULT, CRYPT_HTTP_POST_RETRIEVAL, CRYPT_LDAP_AREC_EXCLUSIVE_RETRIEVAL, CRYPT_LDAP_INSERT_ENTRY_ATTRIBUTE, CRYPT_LDAP_SCOPE_BASE_ONLY_RETRIEVAL, CRYPT_LDAP_SIGN_RETRIEVAL, CRYPT_NOT_MODIFIED_RETRIEVAL, CRYPT_NO_AUTH_RETRIEVAL, CRYPT_OFFLINE_CHECK_RETRIEVAL, CRYPT_PROXY_CACHE_RETRIEVAL, CRYPT_RETRIEVE_MULTIPLE_OBJECTS, CRYPT_STICKY_CACHE_RETRIEVAL, CRYPT_VERIFY_CONTEXT_SIGNATURE, CRYPT_VERIFY_DATA_HASH, CRYPT_WIRE_ONLY_RETRIEVAL, CryptRetrieveObjectByUrl, CryptRetrieveObjectByUrl function [Security], CryptRetrieveObjectByUrlA, CryptRetrieveObjectByUrlW, NULL, _crypto2_cryptretrieveobjectbyurl, security.cryptretrieveobjectbyurl, wincrypt/CryptRetrieveObjectByUrl, wincrypt/CryptRetrieveObjectByUrlA, wincrypt/CryptRetrieveObjectByUrlW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: CryptRetrieveObjectByUrlW (Unicode) and CryptRetrieveObjectByUrlA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cryptnet.dll
+api_name:
+-	CryptRetrieveObjectByUrl
+-	CryptRetrieveObjectByUrlA
+-	CryptRetrieveObjectByUrlW
+product: Windows
+targetos: Windows
+req.lib: Cryptnet.lib
+req.dll: Cryptnet.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CryptRetrieveObjectByUrlA function

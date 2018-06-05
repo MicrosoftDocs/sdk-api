@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:d3d11.D3D11_FEATURE
+title: D3D11_FEATURE
+author: windows-sdk-content
+description: Direct3D 11 feature options.
+old-location: direct3d11\d3d11_feature.htm
+old-project: direct3d11
+ms.assetid: 48c3bf65-f077-45e6-a306-03d5760eeccb
+ms.author: windowssdkdev
+ms.date: 04/06/2018
+ms.keywords: D3D11_FEATURE, D3D11_FEATURE enumeration [Direct3D 11], D3D11_FEATURE_ARCHITECTURE_INFO, D3D11_FEATURE_D3D10_X_HARDWARE_OPTIONS, D3D11_FEATURE_D3D11_OPTIONS, D3D11_FEATURE_D3D11_OPTIONS1, D3D11_FEATURE_D3D11_OPTIONS2, D3D11_FEATURE_D3D11_OPTIONS3, D3D11_FEATURE_D3D11_OPTIONS4, D3D11_FEATURE_D3D9_OPTIONS, D3D11_FEATURE_D3D9_OPTIONS1, D3D11_FEATURE_D3D9_SHADOW_SUPPORT, D3D11_FEATURE_D3D9_SIMPLE_INSTANCING_SUPPORT, D3D11_FEATURE_DOUBLES, D3D11_FEATURE_FORMAT_SUPPORT, D3D11_FEATURE_FORMAT_SUPPORT2, D3D11_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT, D3D11_FEATURE_MARKER_SUPPORT, D3D11_FEATURE_SHADER_CACHE, D3D11_FEATURE_SHADER_MIN_PRECISION_SUPPORT, D3D11_FEATURE_THREADING, d3d11/D3D11_FEATURE, d3d11/D3D11_FEATURE_ARCHITECTURE_INFO, d3d11/D3D11_FEATURE_D3D10_X_HARDWARE_OPTIONS, d3d11/D3D11_FEATURE_D3D11_OPTIONS, d3d11/D3D11_FEATURE_D3D11_OPTIONS1, d3d11/D3D11_FEATURE_D3D11_OPTIONS2, d3d11/D3D11_FEATURE_D3D11_OPTIONS3, d3d11/D3D11_FEATURE_D3D11_OPTIONS4, d3d11/D3D11_FEATURE_D3D9_OPTIONS, d3d11/D3D11_FEATURE_D3D9_OPTIONS1, d3d11/D3D11_FEATURE_D3D9_SHADOW_SUPPORT, d3d11/D3D11_FEATURE_D3D9_SIMPLE_INSTANCING_SUPPORT, d3d11/D3D11_FEATURE_DOUBLES, d3d11/D3D11_FEATURE_FORMAT_SUPPORT, d3d11/D3D11_FEATURE_FORMAT_SUPPORT2, d3d11/D3D11_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT, d3d11/D3D11_FEATURE_MARKER_SUPPORT, d3d11/D3D11_FEATURE_SHADER_CACHE, d3d11/D3D11_FEATURE_SHADER_MIN_PRECISION_SUPPORT, d3d11/D3D11_FEATURE_THREADING, direct3d11.d3d11_feature, f0675a94-9721-1d35-a01a-535e5c64006d
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: D3D11_FEATURE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	D3D11.h
+api_name:
+-	D3D11_FEATURE
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
 ---
 
 # D3D11_FEATURE enumeration

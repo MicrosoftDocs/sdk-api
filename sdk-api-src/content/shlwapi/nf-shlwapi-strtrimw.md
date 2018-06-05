@@ -1,31 +1,55 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:shlwapi.StrTrimW
+title: StrTrimW function
+author: windows-sdk-content
+description: Removes specified leading and trailing characters from a string.
+old-location: shell\StrTrim.htm
+old-project: shell
+ms.assetid: aea422b9-326e-4b12-b2a9-7c220677a467
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: StrTrim, StrTrim function [Windows Shell], StrTrimA, StrTrimW, _win32_StrTrim, shell.StrTrim, shlwapi/StrTrim, shlwapi/StrTrimA, shlwapi/StrTrimW
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: shlwapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.unicode-ansi: StrTrimW (Unicode) and StrTrimA (ANSI)
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: URL_SCHEME
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Shlwapi.dll
+-	API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+-	KernelBase.dll
+-	API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+-	API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+-	API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+-	StrTrim
+-	StrTrimA
+-	StrTrimW
+product: Windows
+targetos: Windows
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
+req.product: Internet Explorer 6.01
 ---
 
 # StrTrimW function

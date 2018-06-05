@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NE:tapi3if.PHONE_BUTTON_STATE
+title: PHONE_BUTTON_STATE
+author: windows-sdk-content
+description: The PHONE_BUTTON_STATE enum describes the state of a phone button.
+old-location: tapi3\phone_button_state.htm
+old-project: Tapi
+ms.assetid: a9f7b527-9c74-45ac-9394-6f736aae1ccf
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: PBS_DOWN, PBS_UNAVAIL, PBS_UNKNOWN, PBS_UP, PHONE_BUTTON_STATE, PHONE_BUTTON_STATE enumeration [TAPI 2.2], _tapi3_phone_button_state, tapi3.phone_button_state, tapi3if/PBS_DOWN, tapi3if/PBS_UNAVAIL, tapi3if/PBS_UNKNOWN, tapi3if/PBS_UP, tapi3if/PHONE_BUTTON_STATE
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: enum
+req.header: tapi3if.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: PHONE_BUTTON_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Tapi3if.h
+api_name:
+-	PHONE_BUTTON_STATE
+product: Windows
+targetos: Windows
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
+req.product: Windows XP with SP1 and later
 ---
 
 # PHONE_BUTTON_STATE enumeration

@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:vds._VDS_NOTIFICATION
+title: "_VDS_NOTIFICATION"
+author: windows-sdk-content
+description: Defines the VDS notification structures specific to each notification target type (subject).
+old-location: base\vds_notification.htm
+old-project: VDS
+ms.assetid: 59d21cd3-1cff-47be-be98-f4c55f044306
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_NOTIFICATION, VDS_NOTIFICATION structure [VDS], VDS_NTT_CONTROLLER, VDS_NTT_DISK, VDS_NTT_DRIVE, VDS_NTT_DRIVE_LETTER, VDS_NTT_FILE_SYSTEM, VDS_NTT_LUN, VDS_NTT_MOUNT_POINT, VDS_NTT_PACK, VDS_NTT_PARTITION, VDS_NTT_PORT, VDS_NTT_PORTAL, VDS_NTT_PORTAL_GROUP, VDS_NTT_SUB_SYSTEM, VDS_NTT_TARGET, VDS_NTT_VOLUME, _VDS_NOTIFICATION, base.vds_notification, vds/_VDS_NOTIFICATION, vdshwprv/_VDS_NOTIFICATION
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: vds.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: VDS_NOTIFICATION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Vds.h
+-	VdsHwPrv.h
+api_name:
+-	VDS_NOTIFICATION
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows UI
 ---
 
 # _VDS_NOTIFICATION structure

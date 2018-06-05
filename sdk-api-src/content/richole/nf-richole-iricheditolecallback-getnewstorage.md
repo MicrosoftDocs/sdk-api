@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:richole.IRichEditOleCallback.GetNewStorage
+title: IRichEditOleCallback::GetNewStorage
+author: windows-sdk-content
+description: Provides storage for a new object pasted from the clipboard or read in from an Rich Text Format (RTF) stream.
+old-location: controls\IRichEditOleCallback_GetNewStorage.htm
+old-project: Controls
+ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetnewstorage.htm
+ms.author: windowssdkdev
+ms.date: 05/30/2018
+ms.keywords: GetNewStorage, GetNewStorage method [Windows Controls], GetNewStorage method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetNewStorage method, IRichEditOleCallback.GetNewStorage, IRichEditOleCallback::GetNewStorage, _win32_IRichEditOleCallback_GetNewStorage, _win32_IRichEditOleCallback_GetNewStorage_cpp, controls.IRichEditOleCallback_GetNewStorage, controls._win32_IRichEditOleCallback_GetNewStorage, richole/IRichEditOleCallback::GetNewStorage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: richole.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: TEXTRANGEW
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Msftedit.dll
+api_name:
+-	IRichEditOleCallback.GetNewStorage
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRichEditOleCallback::GetNewStorage

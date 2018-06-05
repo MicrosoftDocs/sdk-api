@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wmcontainer.IMFASFMultiplexer.SetSyncTolerance
+title: IMFASFMultiplexer::SetSyncTolerance
+author: windows-sdk-content
+description: Sets the maximum time by which samples from various streams can be out of synchronization.
+old-location: mf\imfasfmultiplexer_setsynctolerance.htm
+old-project: medfound
+ms.assetid: 54aea995-2beb-4c38-a79f-43a539031d95
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: 54aea995-2beb-4c38-a79f-43a539031d95, IMFASFMultiplexer interface [Media Foundation],SetSyncTolerance method, IMFASFMultiplexer.SetSyncTolerance, IMFASFMultiplexer::SetSyncTolerance, SetSyncTolerance, SetSyncTolerance method [Media Foundation], SetSyncTolerance method [Media Foundation],IMFASFMultiplexer interface, mf.imfasfmultiplexer_setsynctolerance, wmcontainer/IMFASFMultiplexer::SetSyncTolerance
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wmcontainer.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: MFASF_STREAMSELECTOR_FLAGS
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mfuuid.lib
+-	mfuuid.dll
+api_name:
+-	IMFASFMultiplexer.SetSyncTolerance
+product: Windows
+targetos: Windows
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
 # IMFASFMultiplexer::SetSyncTolerance

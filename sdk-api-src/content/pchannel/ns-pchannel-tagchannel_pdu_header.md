@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NS:pchannel.tagCHANNEL_PDU_HEADER
+title: tagCHANNEL_PDU_HEADER
+author: windows-sdk-content
+description: Contains information about a data block being received by the server end of a virtual channel.
+old-location: termserv\channel_pdu_header_str.htm
+old-project: TermServ
+ms.assetid: f980e746-fc05-45e8-af27-6f137ef01bf9
+ms.author: windowssdkdev
+ms.date: 05/22/2018
+ms.keywords: "*PCHANNEL_PDU_HEADER, CHANNEL_FLAG_FIRST, CHANNEL_FLAG_LAST, CHANNEL_FLAG_MIDDLE, CHANNEL_FLAG_ONLY, CHANNEL_PDU_HEADER, CHANNEL_PDU_HEADER structure [Remote Desktop Services], PCHANNEL_PDU_HEADER, PCHANNEL_PDU_HEADER structure pointer [Remote Desktop Services], _win32_channel_pdu_header_str, pchannel/CHANNEL_PDU_HEADER, pchannel/PCHANNEL_PDU_HEADER, tagCHANNEL_PDU_HEADER, termserv.channel_pdu_header_str"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: pchannel.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Pchannel.h
+api_name:
+-	CHANNEL_PDU_HEADER
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagCHANNEL_PDU_HEADER structure

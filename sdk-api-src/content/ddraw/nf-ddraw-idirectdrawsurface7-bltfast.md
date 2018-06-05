@@ -1,20 +1,20 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
+UID: NF:ddraw.IDirectDrawSurface7.BltFast
+title: IDirectDrawSurface7::BltFast
+author: windows-sdk-content
+description: Performs a source copy bitblt or transparent bitblt by using a source color key or destination color key.
+old-location: directdraw\idirectdrawsurface7_bltfast.htm
+old-project: directdraw
+ms.assetid: ac882b48-87b2-4b65-99b0-ac9065b5f47f
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: BltFast, BltFast method [DirectDraw], BltFast method [DirectDraw],IDirectDrawSurface7 interface, DDBLTFAST_DESTCOLORKEY, DDBLTFAST_NOCOLORKEY, DDBLTFAST_SRCCOLORKEY, DDBLTFAST_WAIT, IDirectDrawSurface7 interface [DirectDraw],BltFast method, IDirectDrawSurface7.BltFast, IDirectDrawSurface7::BltFast, ddraw/IDirectDrawSurface7::BltFast, directdraw.idirectdrawsurface7_bltfast
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: ddraw.h
+req.include-header: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
@@ -26,6 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: DEDUP_CONTAINER_EXTENT
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Ddraw.dll
+api_name:
+-	IDirectDrawSurface7.BltFast
+product: Windows
+targetos: Windows
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 ---
 
 # IDirectDrawSurface7::BltFast

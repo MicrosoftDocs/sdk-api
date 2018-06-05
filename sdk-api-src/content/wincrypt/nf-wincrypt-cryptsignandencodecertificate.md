@@ -1,22 +1,22 @@
 ---
-UID: The unique id of the API.
-title: The title of the API.
-author: Authoring type of the API(ie windows-driver-content)
-description: Description of API
-old-location: 
-old-project: 
-ms.assetid: The MSDN ID of the API
-ms.author: The Author of the API
-ms.date: The date of API publishing
-ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
-ms.topic: The topic type of the API (ie enum)
-req.header: The main header of the API
-req.include-header: The included headers of the API
-req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+UID: NF:wincrypt.CryptSignAndEncodeCertificate
+title: CryptSignAndEncodeCertificate function
+author: windows-sdk-content
+description: Encodes and signs a certificate, certificate revocation list (CRL), certificate trust list (CTL), or certificate request.
+old-location: security\cryptsignandencodecertificate.htm
+old-project: SecCrypto
+ms.assetid: ee138918-ed7c-4980-8b18-64004a0dd7df
+ms.author: windowssdkdev
+ms.date: 05/21/2018
+ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptSignAndEncodeCertificate, CryptSignAndEncodeCertificate function [Security], X509_ASN_ENCODING, X509_CERT_CRL_TO_BE_SIGNED, X509_CERT_REQUEST_TO_BE_SIGNED, X509_CERT_TO_BE_SIGNED, X509_KEYGEN_REQUEST_TO_BE_SIGNED, _crypto2_cryptsignandencodecertificate, security.cryptsignandencodecertificate, wincrypt/CryptSignAndEncodeCertificate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,6 +26,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
+tech.root: 
+req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Crypt32.dll
+api_name:
+-	CryptSignAndEncodeCertificate
+product: Windows
+targetos: Windows
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # CryptSignAndEncodeCertificate function
